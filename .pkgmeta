@@ -1,0 +1,19 @@
+package-as: BuddyDex
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+# LICENSE is deliberately not ignored: the GPL requires a copy of the
+# license to be distributed with the program, so it ships in the package.
+ignore:
+  - .git
+  - .gitignore
+  - .pkgmeta
+  - CHANGELOG.md
+  - README.md
+  - .venv
+  - DEVELOPERS.md
+  - docs
+  - tools
+  - voice

@@ -1,0 +1,9 @@
+## Interface: 16001
+## Title: AzerBuddy Probe
+## Notes: Finds out what WoW Forever lets an addon do, for AzerBuddy. Type /probe.
+## Author: Baz4k
+## Version: 0.1
+## SavedVariables: AzerBuddyProbeAccountDB
+## SavedVariablesPerCharacter: AzerBuddyProbeCharDB
+
+AzerBuddyProbe.lua

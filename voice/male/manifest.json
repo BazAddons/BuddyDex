@@ -1,0 +1,6369 @@
+{
+  "alive_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] And we're back! Nobody saw that, right?",
+    "text": "And we're back! Nobody saw that, right?"
+  },
+  "alive_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] Good as new. Better, even.",
+    "text": "Good as new. Better, even."
+  },
+  "alive_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] Alive again! Best feeling in the world!",
+    "text": "Alive again! Best feeling in the world!"
+  },
+  "alive_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] Back in one piece! Two pieces would have been worse.",
+    "text": "Back in one piece! Two pieces would have been worse."
+  },
+  "alive_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] We're back! Let's pretend that never happened.",
+    "text": "We're back! Let's pretend that never happened."
+  },
+  "alive_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "spoken": "[relieved] Thank goodness. Being a ghost was very drafty.",
+    "text": "Thank goodness. Being a ghost was very drafty."
+  },
+  "applaudToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "applaudToo",
+    "spoken": "Bravo! Encore!",
+    "text": "Bravo! Encore!"
+  },
+  "applaudToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "applaudToo",
+    "spoken": "Yay! Clapping!",
+    "text": "Yay! Clapping!"
+  },
+  "away_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "away",
+    "spoken": "[sleepy] I'll just wait here, then. Zzz.",
+    "text": "I'll just wait here, then. Zzz."
+  },
+  "away_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "away",
+    "spoken": "[sleepy] Take your time. I'll guard our stuff.",
+    "text": "Take your time. I'll guard our stuff."
+  },
+  "away_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "away",
+    "spoken": "[sleepy] Don't worry about me. I'll count the stars.",
+    "text": "Don't worry about me. I'll count the stars."
+  },
+  "away_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "away",
+    "spoken": "[sleepy] Away? I'll keep your spot warm.",
+    "text": "Away? I'll keep your spot warm."
+  },
+  "away_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "away",
+    "spoken": "[sleepy] If anyone asks, we're on a very important break.",
+    "text": "If anyone asks, we're on a very important break."
+  },
+  "back_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "back",
+    "spoken": "[startled] You're back! I wasn't sleeping. Much.",
+    "text": "You're back! I wasn't sleeping. Much."
+  },
+  "back_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "back",
+    "spoken": "[startled] Oh! Hi! I was resting my eyes. Both of them.",
+    "text": "Oh! Hi! I was resting my eyes. Both of them."
+  },
+  "back_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "back",
+    "spoken": "[startled] Welcome back! I kept watch the whole time. Mostly.",
+    "text": "Welcome back! I kept watch the whole time. Mostly."
+  },
+  "back_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "back",
+    "spoken": "[startled] There you are! I missed you.",
+    "text": "There you are! I missed you."
+  },
+  "back_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "back",
+    "spoken": "[startled] Back already? I was just getting to the good part of my dream.",
+    "text": "Back already? I was just getting to the good part of my dream."
+  },
+  "bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "spoken": "[sighs] Our bags are full! Maybe drop the rocks?",
+    "text": "Our bags are full! Maybe drop the rocks?"
+  },
+  "bagsFull_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "spoken": "[sighs] No room! I'm not carrying it. I have tiny arms.",
+    "text": "No room! I'm not carrying it. I have tiny arms."
+  },
+  "bagsFull_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "spoken": "[sighs] Bags are stuffed. Time to visit a merchant. Bonus: new friend!",
+    "text": "Bags are stuffed. Time to visit a merchant. Bonus: new friend!"
+  },
+  "bagsFull_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "spoken": "[sighs] Too much stuff! Even I can't fit in there now.",
+    "text": "Too much stuff! Even I can't fit in there now."
+  },
+  "bagsFull_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "spoken": "[sighs] Full bags means we've been busy. Proud of us.",
+    "text": "Full bags means we've been busy. Proud of us."
+  },
+  "bowBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "say": "Why, thank you, kind friend.",
+    "spoken": "Why, thank you, kind friend.",
+    "text": "Why, thank you, kind {name}."
+  },
+  "bowBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "spoken": "The pleasure is mine.",
+    "text": "The pleasure is mine."
+  },
+  "bowBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "spoken": "After you. No, after you.",
+    "text": "After you. No, after you."
+  },
+  "buddy_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "Our new Buddy! Best day ever!",
+    "spoken": "[overjoyed] Our new Buddy! Best day ever!",
+    "text": "{friend} is our Buddy now! Best day ever!"
+  },
+  "buddy_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "We have a new Buddy! Welcome to the team!",
+    "spoken": "[overjoyed] We have a new Buddy! Welcome to the team!",
+    "text": "We have a new Buddy! {friend}, welcome to the team!"
+  },
+  "buddy_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "Buddy! A real Buddy now!",
+    "spoken": "[overjoyed] Buddy! A real Buddy now!",
+    "text": "Buddy! {friend} is a real Buddy now!"
+  },
+  "buddy_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "Our new Buddy can come along now! Room for one more!",
+    "spoken": "[overjoyed] Our new Buddy can come along now! Room for one more!",
+    "text": "{friend} can come along now! Room for one more!"
+  },
+  "buddy_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "A Buddy! Check the BuddyDex, they can come with us now.",
+    "spoken": "[overjoyed] A Buddy! Check the BuddyDex, they can come with us now.",
+    "text": "A Buddy! Check the BuddyDex, {friend} can come with us now."
+  },
+  "cheerAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "spoken": "[excited] Yay! What are we cheering for?",
+    "text": "Yay! What are we cheering for?"
+  },
+  "cheerAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "spoken": "[excited] Woo! Go us!",
+    "text": "Woo! Go us!"
+  },
+  "cheerAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "spoken": "[excited] Hooray! For everything!",
+    "text": "Hooray! For everything!"
+  },
+  "chickenBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "chickenBack",
+    "spoken": "[defensively] Bawk! I'm not scared! You're scared!",
+    "text": "Bawk! I'm not scared! You're scared!"
+  },
+  "chickenBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "chickenBack",
+    "spoken": "[defensively] Who are you calling chicken?",
+    "text": "Who are you calling chicken?"
+  },
+  "combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": "Phew! Nice work.",
+    "spoken": "[proudly] Phew! Nice work.",
+    "text": "Phew! Nice work, {name}."
+  },
+  "combatEnd_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[laughs] You were amazing. I was adequate.",
+    "text": "You were amazing. I was adequate."
+  },
+  "combatEnd_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[laughs] Phew. My heart's still racing. Your heart. Our heart.",
+    "text": "Phew. My heart's still racing. Your heart. Our heart."
+  },
+  "combatEnd_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[proudly] Nobody messes with us!",
+    "text": "Nobody messes with us!"
+  },
+  "combatEnd_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[relieved] Okay, that was close. Let's never do that again. Until next time.",
+    "text": "Okay, that was close. Let's never do that again. Until next time."
+  },
+  "combatEnd_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[proudly] Good fight! Let's catch our breath.",
+    "text": "Good fight! Let's catch our breath."
+  },
+  "combatEnd_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[relieved] Victory! Did you see me? I was cheering.",
+    "text": "Victory! Did you see me? I was cheering."
+  },
+  "combatEnd_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[laughs] That's how it's done!",
+    "text": "That's how it's done!"
+  },
+  "combatEnd_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[proudly] Ha! They never stood a chance.",
+    "text": "Ha! They never stood a chance."
+  },
+  "combatEnd_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[laughs] Applause for the hero!",
+    "text": "Applause for the hero!"
+  },
+  "combatEnd_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[laughs] Is it over? Can I open my eyes now?",
+    "text": "Is it over? Can I open my eyes now?"
+  },
+  "combatEnd_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[triumphantly] Another one down. We make a great team.",
+    "text": "Another one down. We make a great team."
+  },
+  "combatEnd_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[triumphantly] I helped. Emotionally.",
+    "text": "I helped. Emotionally."
+  },
+  "combatEnd_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "spoken": "[relieved] Victory dance! Just a small one.",
+    "text": "Victory dance! Just a small one."
+  },
+  "combatLong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[encouragingly] This one's tough! Hang in there!",
+    "text": "This one's tough! Hang in there!"
+  },
+  "combatLong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[nervously] Still going! You can do it!",
+    "text": "Still going! You can do it!"
+  },
+  "combatLong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[nervously] Is it getting tired? I'm getting tired.",
+    "text": "Is it getting tired? I'm getting tired."
+  },
+  "combatLong_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[encouragingly] Long fight! I believe in you!",
+    "text": "Long fight! I believe in you!"
+  },
+  "combatLong_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[nervously] Maybe drink a potion? Just a thought!",
+    "text": "Maybe drink a potion? Just a thought!"
+  },
+  "combatLong_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "spoken": "[nervously] Almost there! I think! I hope!",
+    "text": "Almost there! I think! I hope!"
+  },
+  "combatMid_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] You've got this!",
+    "text": "You've got this!"
+  },
+  "combatMid_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Show it who's boss!",
+    "text": "Show it who's boss!"
+  },
+  "combatMid_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Yeah! Hit him with a fireball!",
+    "text": "Yeah! Hit him with a fireball!"
+  },
+  "combatMid_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Frostbolt! Frostbolt! Frostbolt!",
+    "text": "Frostbolt! Frostbolt! Frostbolt!"
+  },
+  "combatMid_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] More fire! There's always room for more fire!",
+    "text": "More fire! There's always room for more fire!"
+  },
+  "combatMid_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Make it a sheep! I love it when you make them sheep!",
+    "text": "Make it a sheep! I love it when you make them sheep!"
+  },
+  "combatMid_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Smash 'em!",
+    "text": "Smash 'em!"
+  },
+  "combatMid_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Big swing! Bigger!",
+    "text": "Big swing! Bigger!"
+  },
+  "combatMid_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Get mad! Get really mad!",
+    "text": "Get mad! Get really mad!"
+  },
+  "combatMid_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Light 'em up!",
+    "text": "Light 'em up!"
+  },
+  "combatMid_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Bonk them with the Light!",
+    "text": "Bonk them with the Light!"
+  },
+  "combatMid_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Hit 'em again!",
+    "text": "Hit 'em again!"
+  },
+  "combatMid_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Smite it! Smite it good!",
+    "text": "Smite it! Smite it good!"
+  },
+  "combatMid_21.ogg": {
+    "line": 21,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Shield up, then smite!",
+    "text": "Shield up, then smite!"
+  },
+  "combatMid_22.ogg": {
+    "line": 22,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Stab, stab, stabby stab!",
+    "text": "Stab, stab, stabby stab!"
+  },
+  "combatMid_23.ogg": {
+    "line": 23,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Get behind it! Sneaky!",
+    "text": "Get behind it! Sneaky!"
+  },
+  "combatMid_24.ogg": {
+    "line": 24,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Sic 'em!",
+    "text": "Sic 'em!"
+  },
+  "combatMid_25.ogg": {
+    "line": 25,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Your pet is amazing! You're amazing too!",
+    "text": "Your pet is amazing! You're amazing too!"
+  },
+  "combatMid_26.ogg": {
+    "line": 26,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Curse it! Curse it twice!",
+    "text": "Curse it! Curse it twice!"
+  },
+  "combatMid_27.ogg": {
+    "line": 27,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Your demon looks hungry! Let it eat!",
+    "text": "Your demon looks hungry! Let it eat!"
+  },
+  "combatMid_28.ogg": {
+    "line": 28,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Go bear! Go bear!",
+    "text": "Go bear! Go bear!"
+  },
+  "combatMid_29.ogg": {
+    "line": 29,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Moonfire! I love moonfire!",
+    "text": "Moonfire! I love moonfire!"
+  },
+  "combatMid_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Go, go, go!",
+    "text": "Go, go, go!"
+  },
+  "combatMid_30.ogg": {
+    "line": 30,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Shock it! Shock it good!",
+    "text": "Shock it! Shock it good!"
+  },
+  "combatMid_31.ogg": {
+    "line": 31,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Drop a totem! Drop all the totems!",
+    "text": "Drop a totem! Drop all the totems!"
+  },
+  "combatMid_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Ooh, that one looked like it hurt!",
+    "text": "Ooh, that one looked like it hurt!"
+  },
+  "combatMid_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Keep it up! You're winning! Probably!",
+    "text": "Keep it up! You're winning! Probably!"
+  },
+  "combatMid_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] I'm cheering as hard as I can!",
+    "text": "I'm cheering as hard as I can!"
+  },
+  "combatMid_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Left! No, right! No, whatever you're doing!",
+    "text": "Left! No, right! No, whatever you're doing!"
+  },
+  "combatMid_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[excited] Is it supposed to be making that face?",
+    "text": "Is it supposed to be making that face?"
+  },
+  "combatMid_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "spoken": "[shouting] Don't let it near me! I mean you! Don't let it near you!",
+    "text": "Don't let it near me! I mean you! Don't let it near you!"
+  },
+  "combatStart_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] For the BuddyDex!",
+    "text": "For the BuddyDex!"
+  },
+  "combatStart_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] Get 'em!",
+    "text": "Get 'em!"
+  },
+  "combatStart_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] I'll be over here. Cheering. Loudly.",
+    "text": "I'll be over here. Cheering. Loudly."
+  },
+  "combatStart_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] Here we go!",
+    "text": "Here we go!"
+  },
+  "combatStart_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] Don't worry, I'm very scary from a distance.",
+    "text": "Don't worry, I'm very scary from a distance."
+  },
+  "combatStart_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] Show them what we're made of!",
+    "text": "Show them what we're made of!"
+  },
+  "combatStart_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "spoken": "[shouting] Fight! Fight! Fight! Carefully!",
+    "text": "Fight! Fight! Fight! Carefully!"
+  },
+  "comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "spoken": "[softly] Hey, it's okay. I'm here.",
+    "text": "Hey, it's okay. I'm here."
+  },
+  "comforted_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "spoken": "[softly] Want to talk about it? I'm a great listener.",
+    "text": "Want to talk about it? I'm a great listener."
+  },
+  "comforted_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "spoken": "[softly] Sad? Here, have a tiny hug.",
+    "text": "Sad? Here, have a tiny hug."
+  },
+  "danceAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "spoken": "[excited] Dance party!",
+    "text": "Dance party!"
+  },
+  "danceAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "spoken": "[excited] Ooh, I know this one!",
+    "text": "Ooh, I know this one!"
+  },
+  "danceAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "spoken": "[excited] Look at us go!",
+    "text": "Look at us go!"
+  },
+  "danceAlong_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "spoken": "[excited] Nobody dances like a gnome.",
+    "text": "Nobody dances like a gnome."
+  },
+  "died_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[dramatically] Ow. Okay. That one's on the monster.",
+    "text": "Ow. Okay. That one's on the monster."
+  },
+  "died_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[groans] Okay, new plan: less of that.",
+    "text": "Okay, new plan: less of that."
+  },
+  "died_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] On the bright side, we don't have to pay for repairs. Oh wait, we do.",
+    "text": "On the bright side, we don't have to pay for repairs. Oh wait, we do."
+  },
+  "died_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] Oof. Want me to walk us back? I know the way.",
+    "text": "Oof. Want me to walk us back? I know the way."
+  },
+  "died_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": "We'll get them next time.",
+    "spoken": "[groans] We'll get them next time.",
+    "text": "We'll get them next time, {name}."
+  },
+  "died_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] Well. That happened.",
+    "text": "Well. That happened."
+  },
+  "died_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[dramatically] I didn't see anything. Nobody saw anything.",
+    "text": "I didn't see anything. Nobody saw anything."
+  },
+  "died_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] Spirit healers are just friends we haven't thanked yet.",
+    "text": "Spirit healers are just friends we haven't thanked yet."
+  },
+  "died_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] Nobody tell the BuddyDex about this one.",
+    "text": "Nobody tell the BuddyDex about this one."
+  },
+  "died_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sighs] At least we look good as ghosts.",
+    "text": "At least we look good as ghosts."
+  },
+  "died_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "died",
+    "spoken": "[sniffles] I'm not crying. You're crying.",
+    "text": "I'm not crying. You're crying."
+  },
+  "dungeon_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "spoken": "[nervously] A dungeon! Stay close. Not too close. Medium close.",
+    "text": "A dungeon! Stay close. Not too close. Medium close."
+  },
+  "dungeon_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "spoken": "[nervously] Into the dark we go! I'll hold the imaginary torch.",
+    "text": "Into the dark we go! I'll hold the imaginary torch."
+  },
+  "dungeon_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "spoken": "[nervously] Dungeons always smell a little funny, don't they?",
+    "text": "Dungeons always smell a little funny, don't they?"
+  },
+  "dungeon_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "spoken": "[nervously] Remember: we pull together, we win together. I mostly cheer together.",
+    "text": "Remember: we pull together, we win together. I mostly cheer together."
+  },
+  "dungeon_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "spoken": "[nervously] Ooh, spooky. Let's make some brave memories.",
+    "text": "Ooh, spooky. Let's make some brave memories."
+  },
+  "flexBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "spoken": "Look at these guns! Your guns!",
+    "text": "Look at these guns! Your guns!"
+  },
+  "flexBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "spoken": "Strong like a gnome!",
+    "text": "Strong like a gnome!"
+  },
+  "flexBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "spoken": "We are so mighty.",
+    "text": "We are so mighty."
+  },
+  "gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] New gear! And it fits me perfectly. Funny how that works.",
+    "text": "New gear! And it fits me perfectly. Funny how that works."
+  },
+  "gear_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Fancy! Should we go show somebody?",
+    "text": "Fancy! Should we go show somebody?"
+  },
+  "gear_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Ooh, shiny! We look fantastic.",
+    "text": "Ooh, shiny! We look fantastic."
+  },
+  "gear_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Do you like it? I like it. We have great taste.",
+    "text": "Do you like it? I like it. We have great taste."
+  },
+  "gear_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Check us out! Spin for the crowd!",
+    "text": "Check us out! Spin for the crowd!"
+  },
+  "gear_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] That's a good look on us. A very good look.",
+    "text": "That's a good look on us. A very good look."
+  },
+  "gear_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] New armor? I feel sturdier already.",
+    "text": "New armor? I feel sturdier already."
+  },
+  "gear_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Ooh la la.",
+    "text": "Ooh la la."
+  },
+  "gear_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] Matching outfits! Always matching outfits!",
+    "text": "Matching outfits! Always matching outfits!"
+  },
+  "gear_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "spoken": "[delighted] I'd say it brings out my eyes, but they're your eyes.",
+    "text": "I'd say it brings out my eyes, but they're your eyes."
+  },
+  "ghost_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "spoken": "[sarcastic] Corpse run! My favorite. Not my favorite.",
+    "text": "Corpse run! My favorite. Not my favorite."
+  },
+  "ghost_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "spoken": "[amazed] I can see through my hands! Our hands!",
+    "text": "I can see through my hands! Our hands!"
+  },
+  "ghost_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "spoken": "[confused] Which way was the body again?",
+    "text": "Which way was the body again?"
+  },
+  "ghost_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "spoken": "[whispers] Spooky. I feel very spooky right now.",
+    "text": "Spooky. I feel very spooky right now."
+  },
+  "ghost_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": "Walk it off. Literally.",
+    "spoken": "[sighs] Walk it off. Literally.",
+    "text": "Walk it off, {name}. Literally."
+  },
+  "ghost_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "spoken": "[grumbling] Being a ghost is fine. It's the walking I mind.",
+    "text": "Being a ghost is fine. It's the walking I mind."
+  },
+  "greetAfternoon_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greetAfternoon",
+    "say": "Good afternoon! Perfect time for a little wandering.",
+    "spoken": "[cheerfully] Good afternoon! Perfect time for a little wandering.",
+    "text": "Good afternoon, {name}! Perfect time for a little wandering."
+  },
+  "greetAfternoon_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greetAfternoon",
+    "spoken": "[cheerfully] Afternoon! I've been saving up chatter all morning.",
+    "text": "Afternoon! I've been saving up chatter all morning."
+  },
+  "greetEvening_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greetEvening",
+    "say": "Evening! Perfect time for a little adventuring.",
+    "spoken": "[warmly] Evening! Perfect time for a little adventuring.",
+    "text": "Evening, {name}! Perfect time for a little adventuring."
+  },
+  "greetEvening_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greetEvening",
+    "spoken": "[warmly] The lamps are coming on. Cozy adventuring hours!",
+    "text": "The lamps are coming on. Cozy adventuring hours!"
+  },
+  "greetEvening_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "greetEvening",
+    "spoken": "[warmly] A whole evening ahead of us. Let's not waste it.",
+    "text": "A whole evening ahead of us. Let's not waste it."
+  },
+  "greetMorning_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greetMorning",
+    "say": "Good morning! The early gnome gets the worm. I don't want the worm.",
+    "spoken": "[yawns] Good morning! The early gnome gets the worm. I don't want the worm.",
+    "text": "Good morning, {name}! The early gnome gets the worm. I don't want the worm."
+  },
+  "greetMorning_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greetMorning",
+    "spoken": "[cheerfully] Morning already? I just got comfortable.",
+    "text": "Morning already? I just got comfortable."
+  },
+  "greetMorning_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "greetMorning",
+    "spoken": "[yawns] Rise and shine! Somebody out there needs a friend today.",
+    "text": "Rise and shine! Somebody out there needs a friend today."
+  },
+  "greetMorning_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "greetMorning",
+    "spoken": "[yawns] A fresh morning, a fresh start. Let's go meet people!",
+    "text": "A fresh morning, a fresh start. Let's go meet people!"
+  },
+  "greetNight_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greetNight",
+    "say": "Up late? Me too. I'm always up when you're up.",
+    "spoken": "[softly] Up late? Me too. I'm always up when you're up.",
+    "text": "Up late, {name}? Me too. I'm always up when you're up."
+  },
+  "greetNight_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greetNight",
+    "spoken": "[softly] Night owls, the both of us. Hoo hoo.",
+    "text": "Night owls, the both of us. Hoo hoo."
+  },
+  "greetNight_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "greetNight",
+    "spoken": "[softly] It's late! Just one more quest. Then another. You know how it goes.",
+    "text": "It's late! Just one more quest. Then another. You know how it goes."
+  },
+  "greetNight_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "greetNight",
+    "spoken": "[softly] The best friendships are made after midnight. I read that somewhere. Maybe.",
+    "text": "The best friendships are made after midnight. I read that somewhere. Maybe."
+  },
+  "greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Hi! It's me, you! Well, a smaller you.",
+    "spoken": "[cheerfully] Hi! It's me, you! Well, a smaller you.",
+    "text": "Hi, {name}! It's me, you! Well, a smaller you."
+  },
+  "greet_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Let's make today a good one.",
+    "spoken": "[excited] Let's make today a good one.",
+    "text": "Let's make today a good one, {name}."
+  },
+  "greet_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] I dreamed we were tall. It was terrifying.",
+    "text": "I dreamed we were tall. It was terrifying."
+  },
+  "greet_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[warmly] Back in action! Where to first?",
+    "text": "Back in action! Where to first?"
+  },
+  "greet_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] Hey hey! Did you miss me? Don't answer that.",
+    "text": "Hey hey! Did you miss me? Don't answer that."
+  },
+  "greet_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] You look great today. I would know. I look exactly like you.",
+    "text": "You look great today. I would know. I look exactly like you."
+  },
+  "greet_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] Another day, another adventure, another friend to make!",
+    "text": "Another day, another adventure, another friend to make!"
+  },
+  "greet_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] Stretching! Gnome legs need a warm-up.",
+    "text": "Stretching! Gnome legs need a warm-up."
+  },
+  "greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Ready for an adventure? I packed snacks. Tiny ones.",
+    "spoken": "[warmly] Ready for an adventure? I packed snacks. Tiny ones.",
+    "text": "Ready for an adventure, {name}? I packed snacks. Tiny ones."
+  },
+  "greet_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "There you are! I was starting to think you'd gone without me.",
+    "spoken": "[cheerfully] There you are! I was starting to think you'd gone without me.",
+    "text": "There you are, {name}! I was starting to think you'd gone without me."
+  },
+  "greet_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Hello again! Same armor, same face, half the height.",
+    "spoken": "[cheerfully] Hello again! Same armor, same face, half the height.",
+    "text": "Hello again, {name}! Same armor, same face, half the height."
+  },
+  "greet_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[warmly] Reporting for duty! Pocket-sized, fully charged.",
+    "text": "Reporting for duty! Pocket-sized, fully charged."
+  },
+  "greet_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Good to see you! Shall we go befriend somebody?",
+    "spoken": "[excited] Good to see you! Shall we go befriend somebody?",
+    "text": "Good to see you, {name}! Shall we go befriend somebody?"
+  },
+  "greet_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[cheerfully] I polished my boots while you were gone. Well, your boots. Our boots.",
+    "text": "I polished my boots while you were gone. Well, your boots. Our boots."
+  },
+  "greet_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[excited] Oh good, you're back. I ran out of things to say to myself.",
+    "text": "Oh good, you're back. I ran out of things to say to myself."
+  },
+  "greet_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "spoken": "[warmly] Ta-da! Your favorite gnome, at your service.",
+    "text": "Ta-da! Your favorite gnome, at your service."
+  },
+  "group_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "group",
+    "spoken": "[happily] A group! More friends! This is the best day.",
+    "text": "A group! More friends! This is the best day."
+  },
+  "group_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "group",
+    "spoken": "[happily] Ooh, company! Hi, everyone. I'm the small one.",
+    "text": "Ooh, company! Hi, everyone. I'm the small one."
+  },
+  "group_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "group",
+    "spoken": "[happily] Party time! The other kind of party.",
+    "text": "Party time! The other kind of party."
+  },
+  "group_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "group",
+    "spoken": "[happily] Teamwork makes the dream work. And the quests go faster.",
+    "text": "Teamwork makes the dream work. And the quests go faster."
+  },
+  "group_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "group",
+    "spoken": "[happily] New group! I'll try not to steal the spotlight.",
+    "text": "New group! I'll try not to steal the spotlight."
+  },
+  "hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "spoken": "[cheerfully] Home, here we come!",
+    "text": "Home, here we come!"
+  },
+  "hearth_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "spoken": "[cheerfully] Hearthing! See you there. Well, I'll see you everywhere.",
+    "text": "Hearthing! See you there. Well, I'll see you everywhere."
+  },
+  "hearth_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "spoken": "[cheerfully] Back to the inn! I call the comfy chair.",
+    "text": "Back to the inn! I call the comfy chair."
+  },
+  "hearth_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "spoken": "[cheerfully] Poof! I love that part.",
+    "text": "Poof! I love that part."
+  },
+  "hugged_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "spoken": "[warmly] Aww! Hug accepted!",
+    "text": "Aww! Hug accepted!"
+  },
+  "hugged_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "say": "You're the best.",
+    "spoken": "[warmly] You're the best.",
+    "text": "You're the best, {name}."
+  },
+  "hugged_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "spoken": "[warmly] A hug! From me, to me!",
+    "text": "A hug! From me, to me!"
+  },
+  "idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Did you know gnomes invented most things? Look it up. Actually, don't.",
+    "text": "Did you know gnomes invented most things? Look it up. Actually, don't."
+  },
+  "idle_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] I wonder what the gryphons think about all day.",
+    "text": "I wonder what the gryphons think about all day."
+  },
+  "idle_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Somewhere out there, a merchant is waiting to be our best friend.",
+    "text": "Somewhere out there, a merchant is waiting to be our best friend."
+  },
+  "idle_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Gnomish proverb: the smaller the gnome, the bigger the plan.",
+    "text": "Gnomish proverb: the smaller the gnome, the bigger the plan."
+  },
+  "idle_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Do you think I could ride a squirrel? Asking for me.",
+    "text": "Do you think I could ride a squirrel? Asking for me."
+  },
+  "idle_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Hmm. Hmmmm. Nope, lost the thought.",
+    "text": "Hmm. Hmmmm. Nope, lost the thought."
+  },
+  "idle_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] I counted the clouds. There were some.",
+    "text": "I counted the clouds. There were some."
+  },
+  "idle_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Sometimes I think about Gnomeregan. Then I think about something nicer.",
+    "text": "Sometimes I think about Gnomeregan. Then I think about something nicer."
+  },
+  "idle_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] If I had a coin for every step I take, I'd have a lot of very tiny coins.",
+    "text": "If I had a coin for every step I take, I'd have a lot of very tiny coins."
+  },
+  "idle_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Look at us. A matching set!",
+    "text": "Look at us. A matching set!"
+  },
+  "idle_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] I tried being tall once. Hated it. Too much weather up there.",
+    "text": "I tried being tall once. Hated it. Too much weather up there."
+  },
+  "idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Your armor looks great on me. On you. On us.",
+    "text": "Your armor looks great on me. On you. On us."
+  },
+  "idle_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] You know what this place needs? More gnomes.",
+    "text": "You know what this place needs? More gnomes."
+  },
+  "idle_21.ogg": {
+    "line": 21,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Every NPC is just a friend we haven't met yet.",
+    "text": "Every NPC is just a friend we haven't met yet."
+  },
+  "idle_22.ogg": {
+    "line": 22,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] I've been practicing my /bow. Want to see? Too late, I'm shy now.",
+    "text": "I've been practicing my /bow. Want to see? Too late, I'm shy now."
+  },
+  "idle_23.ogg": {
+    "line": 23,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Fact: no one has ever regretted making a friend. Except maybe with murlocs.",
+    "text": "Fact: no one has ever regretted making a friend. Except maybe with murlocs."
+  },
+  "idle_24.ogg": {
+    "line": 24,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] I'd tell you a joke about engineering, but it might explode.",
+    "text": "I'd tell you a joke about engineering, but it might explode."
+  },
+  "idle_25.ogg": {
+    "line": 25,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] Sing it with me! La la la. You're not singing.",
+    "text": "Sing it with me! La la la. You're not singing."
+  },
+  "idle_26.ogg": {
+    "line": 26,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] If you're not using that backpack, I could live in it.",
+    "text": "If you're not using that backpack, I could live in it."
+  },
+  "idle_27.ogg": {
+    "line": 27,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Wouldn't it be nice if every road went downhill?",
+    "text": "Wouldn't it be nice if every road went downhill?"
+  },
+  "idle_28.ogg": {
+    "line": 28,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Somebody somewhere is having a very good day. Let's be them.",
+    "text": "Somebody somewhere is having a very good day. Let's be them."
+  },
+  "idle_29.ogg": {
+    "line": 29,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Thinking about lunch. Thinking about second lunch.",
+    "text": "Thinking about lunch. Thinking about second lunch."
+  },
+  "idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Is it just me, or is everything really tall today?",
+    "text": "Is it just me, or is everything really tall today?"
+  },
+  "idle_30.ogg": {
+    "line": 30,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": "Our skills are really coming along. Mostly yours.",
+    "spoken": "[cheerfully] Our skills are really coming along. Mostly yours.",
+    "text": "Our {class} skills are really coming along. Mostly yours."
+  },
+  "idle_31.ogg": {
+    "line": 31,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": "Remember when you were tall? I'm still getting used to the ears.",
+    "spoken": "[curious] Remember when you were tall? I'm still getting used to the ears.",
+    "text": "Remember when you were a {race}? I'm still getting used to the ears."
+  },
+  "idle_32.ogg": {
+    "line": 32,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Mages always say the best adventures start with a portal. Or a fireball. Mostly a fireball.",
+    "text": "Mages always say the best adventures start with a portal. Or a fireball. Mostly a fireball."
+  },
+  "idle_33.ogg": {
+    "line": 33,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Is it hard keeping track of all that mana? I can barely keep track of my socks.",
+    "text": "Is it hard keeping track of all that mana? I can barely keep track of my socks."
+  },
+  "idle_34.ogg": {
+    "line": 34,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] One day you'll have to teach me to make water. I'd only use it for good.",
+    "text": "One day you'll have to teach me to make water. I'd only use it for good."
+  },
+  "idle_35.ogg": {
+    "line": 35,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Your shield is bigger than I am. I find that comforting.",
+    "text": "Your shield is bigger than I am. I find that comforting."
+  },
+  "idle_36.ogg": {
+    "line": 36,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Every time you charge, I get a little dizzy.",
+    "text": "Every time you charge, I get a little dizzy."
+  },
+  "idle_37.ogg": {
+    "line": 37,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] The Light is warm today. Or that's just the sun.",
+    "text": "The Light is warm today. Or that's just the sun."
+  },
+  "idle_38.ogg": {
+    "line": 38,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] I'm trying to look holy. Is it working?",
+    "text": "I'm trying to look holy. Is it working?"
+  },
+  "idle_39.ogg": {
+    "line": 39,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] I bet you could heal a paper cut from across the room.",
+    "text": "I bet you could heal a paper cut from across the room."
+  },
+  "idle_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] If you need me, I'll be right here. Standing. Being adorable.",
+    "text": "If you need me, I'll be right here. Standing. Being adorable."
+  },
+  "idle_40.ogg": {
+    "line": 40,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] I promise I'm not hiding. I'm just short.",
+    "text": "I promise I'm not hiding. I'm just short."
+  },
+  "idle_41.ogg": {
+    "line": 41,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Quick, teach me how to stealth! Am I invisible? I feel invisible.",
+    "text": "Quick, teach me how to stealth! Am I invisible? I feel invisible."
+  },
+  "idle_42.ogg": {
+    "line": 42,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Where's your pet? I want to pet the pet.",
+    "text": "Where's your pet? I want to pet the pet."
+  },
+  "idle_43.ogg": {
+    "line": 43,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Every time a bow twangs, I duck. Old habit.",
+    "text": "Every time a bow twangs, I duck. Old habit."
+  },
+  "idle_44.ogg": {
+    "line": 44,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Your imp keeps looking at me funny.",
+    "text": "Your imp keeps looking at me funny."
+  },
+  "idle_45.ogg": {
+    "line": 45,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] Are the shards in your bag supposed to whisper?",
+    "text": "Are the shards in your bag supposed to whisper?"
+  },
+  "idle_46.ogg": {
+    "line": 46,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Can you turn into a squirrel? I'd ride a squirrel.",
+    "text": "Can you turn into a squirrel? I'd ride a squirrel."
+  },
+  "idle_47.ogg": {
+    "line": 47,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] The trees here like you. I can tell.",
+    "text": "The trees here like you. I can tell."
+  },
+  "idle_48.ogg": {
+    "line": 48,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] The elements say hello. Well, the wind does. Constantly.",
+    "text": "The elements say hello. Well, the wind does. Constantly."
+  },
+  "idle_49.ogg": {
+    "line": 49,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] It's quiet. Too quiet. Wait, that's just Westfall.",
+    "text": "It's quiet. Too quiet. Wait, that's just Westfall."
+  },
+  "idle_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": "This place sure is nice this time of year.",
+    "spoken": "[mischievously] This place sure is nice this time of year.",
+    "text": "{zone} sure is nice this time of year."
+  },
+  "idle_50.ogg": {
+    "line": 50,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Those harvest golems give me the creeps.",
+    "text": "Those harvest golems give me the creeps."
+  },
+  "idle_51.ogg": {
+    "line": 51,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Smell that? Fresh Elwynn air. And a little bit of kobold.",
+    "text": "Smell that? Fresh Elwynn air. And a little bit of kobold."
+  },
+  "idle_52.ogg": {
+    "line": 52,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] So many guards in Stormwind. Good thing we're charming.",
+    "text": "So many guards in Stormwind. Good thing we're charming."
+  },
+  "idle_53.ogg": {
+    "line": 53,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Ironforge! The ceilings are high enough even for you.",
+    "text": "Ironforge! The ceilings are high enough even for you."
+  },
+  "idle_54.ogg": {
+    "line": 54,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Brr! Dun Morogh never warms up, does it?",
+    "text": "Brr! Dun Morogh never warms up, does it?"
+  },
+  "idle_55.ogg": {
+    "line": 55,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] Somewhere under all this snow is Gnomeregan. I'm not going back.",
+    "text": "Somewhere under all this snow is Gnomeregan. I'm not going back."
+  },
+  "idle_56.ogg": {
+    "line": 56,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Duskwood always feels like someone's watching us.",
+    "text": "Duskwood always feels like someone's watching us."
+  },
+  "idle_57.ogg": {
+    "line": 57,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] Redridge! Gnolls everywhere, and every one of them grumpy.",
+    "text": "Redridge! Gnolls everywhere, and every one of them grumpy."
+  },
+  "idle_58.ogg": {
+    "line": 58,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Loch Modan is so pretty. Let's never go swimming in it.",
+    "text": "Loch Modan is so pretty. Let's never go swimming in it."
+  },
+  "idle_59.ogg": {
+    "line": 59,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] The trees in Teldrassil are so tall I'm getting a neck ache.",
+    "text": "The trees in Teldrassil are so tall I'm getting a neck ache."
+  },
+  "idle_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Fun fact: I'm exactly as brave as you are, just closer to the ground.",
+    "text": "Fun fact: I'm exactly as brave as you are, just closer to the ground."
+  },
+  "idle_60.ogg": {
+    "line": 60,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] Darnassus is lovely, but I keep getting lost.",
+    "text": "Darnassus is lovely, but I keep getting lost."
+  },
+  "idle_61.ogg": {
+    "line": 61,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] The Wetlands! My boots are already soggy.",
+    "text": "The Wetlands! My boots are already soggy."
+  },
+  "idle_62.ogg": {
+    "line": 62,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Stranglethorn is loud. Every bush has an opinion.",
+    "text": "Stranglethorn is loud. Every bush has an opinion."
+  },
+  "idle_63.ogg": {
+    "line": 63,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[mischievously] The Barrens. There's a lot of it, isn't there.",
+    "text": "The Barrens. There's a lot of it, isn't there."
+  },
+  "idle_64.ogg": {
+    "line": 64,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] It's late. The stars are out. Even gnomes get sleepy.",
+    "text": "It's late. The stars are out. Even gnomes get sleepy."
+  },
+  "idle_65.ogg": {
+    "line": 65,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[thoughtfully] Nice morning for it. Whatever it is.",
+    "text": "Nice morning for it. Whatever it is."
+  },
+  "idle_66.ogg": {
+    "line": 66,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Evening light makes everything look heroic. Including me.",
+    "text": "Evening light makes everything look heroic. Including me."
+  },
+  "idle_67.ogg": {
+    "line": 67,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] We've been at it for a while now. Stretch break?",
+    "text": "We've been at it for a while now. Stretch break?"
+  },
+  "idle_68.ogg": {
+    "line": 68,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Two hours in! You're a legend. I'm a tiny legend.",
+    "text": "Two hours in! You're a legend. I'm a tiny legend."
+  },
+  "idle_69.ogg": {
+    "line": 69,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Still going strong! Should we hydrate? I'll hydrate.",
+    "text": "Still going strong! Should we hydrate? I'll hydrate."
+  },
+  "idle_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Let's go make some friends! I'll do the waving.",
+    "text": "Let's go make some friends! I'll do the waving."
+  },
+  "idle_70.ogg": {
+    "line": 70,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[cheerfully] Low level, big dreams. That's the gnome way.",
+    "text": "Low level, big dreams. That's the gnome way."
+  },
+  "idle_71.ogg": {
+    "line": 71,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] We're getting good at this. Like, really good.",
+    "text": "We're getting good at this. Like, really good."
+  },
+  "idle_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": "Look at all the friends we've made so far. Who's next?",
+    "spoken": "[mischievously] Look at all the friends we've made so far. Who's next?",
+    "text": "We've made {friends} friends so far. Who's next?"
+  },
+  "idle_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "spoken": "[curious] Just practicing my moves.",
+    "text": "Just practicing my moves."
+  },
+  "jokeBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "jokeBack",
+    "spoken": "Ha! Okay, my turn. Why did the gnome cross the road? To be on the other side, which was taller.",
+    "text": "Ha! Okay, my turn. Why did the gnome cross the road? To be on the other side, which was taller."
+  },
+  "jokeBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "jokeBack",
+    "spoken": "Heh. Classic.",
+    "text": "Heh. Classic."
+  },
+  "kissed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "spoken": "[flustered] Oh! Oh my. I'm blushing.",
+    "text": "Oh! Oh my. I'm blushing."
+  },
+  "kissed_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "spoken": "[flustered] Mwah! Right back at you.",
+    "text": "Mwah! Right back at you."
+  },
+  "kissed_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "spoken": "[flustered] Well, aren't you sweet.",
+    "text": "Well, aren't you sweet."
+  },
+  "landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] Safe and sound! Thank you, gryphon.",
+    "text": "Safe and sound! Thank you, gryphon."
+  },
+  "landed_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] And we're down. I'm going to need a minute.",
+    "text": "And we're down. I'm going to need a minute."
+  },
+  "landed_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] Land, sweet land!",
+    "text": "Land, sweet land!"
+  },
+  "landed_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] That was great. Can we go again? Not right now. Later.",
+    "text": "That was great. Can we go again? Not right now. Later."
+  },
+  "landed_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] Tip your gryphon! Is that a thing? It should be a thing.",
+    "text": "Tip your gryphon! Is that a thing? It should be a thing."
+  },
+  "landed_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "spoken": "[relieved] Back on solid ground. My legs feel like jelly.",
+    "text": "Back on solid ground. My legs feel like jelly."
+  },
+  "laughAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "spoken": "[laughs] Ha! Good one!",
+    "text": "Ha! Good one!"
+  },
+  "laughAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "spoken": "[laughs] Hee hee! What's so funny?",
+    "text": "Hee hee! What's so funny?"
+  },
+  "laughAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "spoken": "[laughs] Ha ha! I'm laughing because you're laughing.",
+    "text": "Ha ha! I'm laughing because you're laughing."
+  },
+  "learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "spoken": "[impressed] Ooh, something new! You're getting so clever.",
+    "text": "Ooh, something new! You're getting so clever."
+  },
+  "learned_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "spoken": "[impressed] New skill! I'll pretend I understand it.",
+    "text": "New skill! I'll pretend I understand it."
+  },
+  "learned_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "spoken": "[impressed] Learning! Brains are like muscles. Flex!",
+    "text": "Learning! Brains are like muscles. Flex!"
+  },
+  "learned_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "spoken": "[impressed] Look at you, always improving.",
+    "text": "Look at you, always improving."
+  },
+  "levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level! I felt that one all the way down to my tiny boots!",
+    "spoken": "[excited] Another level! I felt that one all the way down to my tiny boots!",
+    "text": "Level {level}! I felt that one all the way down to my tiny boots!"
+  },
+  "levelUp_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! New spells, new friends, same great face.",
+    "spoken": "[proudly] Level up! New spells, new friends, same great face.",
+    "text": "Level {level}! New spells, new friends, same great face."
+  },
+  "levelUp_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level! I'm writing this in the BuddyDex margins.",
+    "spoken": "[proudly] Another level! I'm writing this in the BuddyDex margins.",
+    "text": "That's level {level}! I'm writing this in the BuddyDex margins."
+  },
+  "levelUp_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Ding ding ding! Level up, and still climbing!",
+    "spoken": "[excited] Ding ding ding! Level up, and still climbing!",
+    "text": "Ding ding ding! Level {level} and climbing!"
+  },
+  "levelUp_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Ding! Another level! Do I look taller? I feel taller.",
+    "spoken": "[overjoyed] Ding! Another level! Do I look taller? I feel taller.",
+    "text": "Ding! Level {level}! Do I look taller? I feel taller."
+  },
+  "levelUp_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! We're getting so strong. Well, you are. I'm getting strong-adjacent.",
+    "spoken": "[proudly] Level up! We're getting so strong. Well, you are. I'm getting strong-adjacent.",
+    "text": "Level {level}! We're getting so strong. Well, you are. I'm getting strong-adjacent."
+  },
+  "levelUp_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! Somebody get the confetti!",
+    "spoken": "[excited] Level up! Somebody get the confetti!",
+    "text": "Level {level}! Somebody get the confetti!"
+  },
+  "levelUp_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! Let's do a victory dance!",
+    "spoken": "[overjoyed] Level up! Let's do a victory dance!",
+    "text": "Level {level}! Let's do a victory dance!"
+  },
+  "levelUp_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Look at that! Another level! Flex with me!",
+    "spoken": "[proudly] Look at that! Another level! Flex with me!",
+    "text": "Look at that! Level {level}! Flex with me!"
+  },
+  "levelUp_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! I'd salute, but I'm too busy cheering.",
+    "spoken": "[excited] Level up! I'd salute, but I'm too busy cheering.",
+    "text": "Level {level}! I'd salute, but I'm too busy cheering."
+  },
+  "levelUp_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Level up! The bards will sing of this. Short songs. About us.",
+    "spoken": "[overjoyed] Level up! The bards will sing of this. Short songs. About us.",
+    "text": "Level {level}! The bards will sing of this. Short songs. About us."
+  },
+  "levelUp_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "We did it! Another level! I'm so proud I could cry.",
+    "spoken": "[proudly] We did it! Another level! I'm so proud I could cry.",
+    "text": "We did it! Level {level}! I'm so proud I could cry."
+  },
+  "loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Ooh, look at that! That's a good one!",
+    "spoken": "[excited] Ooh, look at that! That's a good one!",
+    "text": "Ooh, {item}! That's a good one!"
+  },
+  "loot_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Shiny! I'm so jealous. Of us.",
+    "spoken": "[excited] Shiny! I'm so jealous. Of us.",
+    "text": "Shiny! {item}! I'm so jealous. Of us."
+  },
+  "loot_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Treasure! Real treasure!",
+    "spoken": "[excited] Treasure! Real treasure!",
+    "text": "{item}! Treasure! Real treasure!"
+  },
+  "loot_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Look what we found!",
+    "spoken": "[excited] Look what we found!",
+    "text": "Look what we found! {item}!"
+  },
+  "loot_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Whoever dropped that is going to be so sad. Not our problem!",
+    "spoken": "[excited] Whoever dropped that is going to be so sad. Not our problem!",
+    "text": "{item}? Whoever dropped that is going to be so sad. Not our problem!"
+  },
+  "loot_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "That's going straight to the good pocket.",
+    "spoken": "[excited] That's going straight to the good pocket.",
+    "text": "That {item} is going straight to the good pocket."
+  },
+  "lowHealth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[sad] We're gonna be running back from the graveyard, huh?",
+    "text": "We're gonna be running back from the graveyard, huh?"
+  },
+  "lowHealth_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Bubble! Bubble now!",
+    "text": "Bubble! Bubble now!"
+  },
+  "lowHealth_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Heal yourself! Quick!",
+    "text": "Heal yourself! Quick!"
+  },
+  "lowHealth_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Play dead! It works for possums!",
+    "text": "Play dead! It works for possums!"
+  },
+  "lowHealth_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[panicked] Vanish! Vanish!",
+    "text": "Vanish! Vanish!"
+  },
+  "lowHealth_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Be a bear! Bears are sturdy!",
+    "text": "Be a bear! Bears are sturdy!"
+  },
+  "lowHealth_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Healthstone! Eat the healthstone!",
+    "text": "Healthstone! Eat the healthstone!"
+  },
+  "lowHealth_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Healing wave! Now would be good!",
+    "text": "Healing wave! Now would be good!"
+  },
+  "lowHealth_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Shield up! Hunker down!",
+    "text": "Shield up! Hunker down!"
+  },
+  "lowHealth_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Uh oh. Uh oh uh oh uh oh!",
+    "text": "Uh oh. Uh oh uh oh uh oh!"
+  },
+  "lowHealth_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Maybe... run? Is running an option?",
+    "text": "Maybe... run? Is running an option?"
+  },
+  "lowHealth_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[panicked] Heal! Heal! Somebody heal!",
+    "text": "Heal! Heal! Somebody heal!"
+  },
+  "lowHealth_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[panicked] Drink something! Eat something! Do something!",
+    "text": "Drink something! Eat something! Do something!"
+  },
+  "lowHealth_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] I'm too young to be a ghost!",
+    "text": "I'm too young to be a ghost!"
+  },
+  "lowHealth_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] This is fine. Everything is fine.",
+    "text": "This is fine. Everything is fine."
+  },
+  "lowHealth_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[nervously] Ice block! Ice block!",
+    "text": "Ice block! Ice block!"
+  },
+  "lowHealth_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "spoken": "[panicked] Blink away! Blink, blink, blink!",
+    "text": "Blink away! Blink, blink, blink!"
+  },
+  "mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "spoken": "[excited] You've got mail! I hope it's a love letter. Or gold.",
+    "text": "You've got mail! I hope it's a love letter. Or gold."
+  },
+  "mail_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "spoken": "[excited] A letter! Who writes to us? We're so popular.",
+    "text": "A letter! Who writes to us? We're so popular."
+  },
+  "mail_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "spoken": "[excited] Mail's here! Let's go see. I love surprises.",
+    "text": "Mail's here! Let's go see. I love surprises."
+  },
+  "mail_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "spoken": "[excited] Ooh, a little envelope just appeared. That means mail!",
+    "text": "Ooh, a little envelope just appeared. That means mail!"
+  },
+  "maxLevel_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "say": "Max level! The top! The very top! We did it!",
+    "spoken": "[overjoyed] Max level! The top! The very top! We did it!",
+    "text": "Level {level}! The top! The very top! We did it, {name}!"
+  },
+  "maxLevel_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "spoken": "[overjoyed] Max level! I'm going to need a bigger hat.",
+    "text": "Max level! I'm going to need a bigger hat."
+  },
+  "maxLevel_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "say": "The top level. All those quests, all those friends. Worth it.",
+    "spoken": "[overjoyed] The top level. All those quests, all those friends. Worth it.",
+    "text": "Level {level}. All those quests, all those friends. Worth it."
+  },
+  "mount_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "spoken": "[excited] Saddle up! I'll ride in the saddlebag.",
+    "text": "Saddle up! I'll ride in the saddlebag."
+  },
+  "mount_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "spoken": "[excited] Ooh, we're riding! Faster! Not too fast!",
+    "text": "Ooh, we're riding! Faster! Not too fast!"
+  },
+  "mount_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "spoken": "[excited] Our noble steed! Hi, noble steed!",
+    "text": "Our noble steed! Hi, noble steed!"
+  },
+  "mount_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "spoken": "[excited] Mounted and ready. Tally-ho!",
+    "text": "Mounted and ready. Tally-ho!"
+  },
+  "mount_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "spoken": "[excited] I like this. Being carried suits me.",
+    "text": "I like this. Being carried suits me."
+  },
+  "newFriend_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "They seem nice! I think they'll remember us.",
+    "spoken": "[happily] They seem nice! I think they'll remember us.",
+    "text": "{friend} seems nice! I think they'll remember us."
+  },
+  "newFriend_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "A new face! Say hi for me. Again.",
+    "spoken": "[happily] A new face! Say hi for me. Again.",
+    "text": "A new face! Say hi to {friend} for me. Again."
+  },
+  "newFriend_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "Hi! We're friends now! Probably!",
+    "spoken": "[happily] Hi! We're friends now! Probably!",
+    "text": "{friend}! Hi! We're friends now! Probably!"
+  },
+  "newFriend_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "Ooh. I've got a good feeling about this one.",
+    "spoken": "[happily] Ooh. I've got a good feeling about this one.",
+    "text": "Ooh, {friend}. I've got a good feeling about this one."
+  },
+  "newFriend_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "Adding a new friend to the BuddyDex. Welcome aboard!",
+    "spoken": "[happily] Adding a new friend to the BuddyDex. Welcome aboard!",
+    "text": "Adding {friend} to the BuddyDex. Welcome aboard!"
+  },
+  "newFriend_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "They looked at us like we were old pals already.",
+    "spoken": "[happily] They looked at us like we were old pals already.",
+    "text": "{friend} looked at us like we were old pals already."
+  },
+  "newFriend_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "One more friend for the collection!",
+    "spoken": "[happily] One more friend for the collection!",
+    "text": "One more friend for the collection. That's {friends} now!"
+  },
+  "npc_alive_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Welcome back!",
+    "text": "Welcome back!"
+  },
+  "npc_alive_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] There you are. Gave me a fright.",
+    "text": "There you are. Gave me a fright."
+  },
+  "npc_alive_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Back on your feet! Good.",
+    "text": "Back on your feet! Good."
+  },
+  "npc_alive_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Good as new. Well, nearly.",
+    "text": "Good as new. Well, nearly."
+  },
+  "npc_alive_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "alive",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Don't scare me like that again.",
+    "text": "Don't scare me like that again."
+  },
+  "npc_applaudToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "applaudToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Bravo!",
+    "text": "Bravo!"
+  },
+  "npc_applaudToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "applaudToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Well done!",
+    "text": "Well done!"
+  },
+  "npc_applaudToo_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "applaudToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Encore!",
+    "text": "Encore!"
+  },
+  "npc_away_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "away",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] I'll wait here.",
+    "text": "I'll wait here."
+  },
+  "npc_away_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "away",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] Take your time. I'm not going anywhere.",
+    "text": "Take your time. I'm not going anywhere."
+  },
+  "npc_away_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "away",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] I'll keep an eye on things.",
+    "text": "I'll keep an eye on things."
+  },
+  "npc_away_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "away",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] Off you go. I'll mind the spot.",
+    "text": "Off you go. I'll mind the spot."
+  },
+  "npc_away_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "away",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] Wake me if anything exciting happens.",
+    "text": "Wake me if anything exciting happens."
+  },
+  "npc_back_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "back",
+    "say": null,
+    "source": "npc",
+    "spoken": "[startled] There you are.",
+    "text": "There you are."
+  },
+  "npc_back_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "back",
+    "say": null,
+    "source": "npc",
+    "spoken": "[startled] Welcome back.",
+    "text": "Welcome back."
+  },
+  "npc_back_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "back",
+    "say": null,
+    "source": "npc",
+    "spoken": "[startled] Ah, you're back. Shall we?",
+    "text": "Ah, you're back. Shall we?"
+  },
+  "npc_back_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "back",
+    "say": null,
+    "source": "npc",
+    "spoken": "[startled] Ah, good. I was starting to talk to myself.",
+    "text": "Ah, good. I was starting to talk to myself."
+  },
+  "npc_back_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "back",
+    "say": null,
+    "source": "npc",
+    "spoken": "[startled] Ready? Me too.",
+    "text": "Ready? Me too."
+  },
+  "npc_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] Your bags are bursting. Time to sell a few things.",
+    "text": "Your bags are bursting. Time to sell a few things."
+  },
+  "npc_bagsFull_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] No room left? I know a merchant or two.",
+    "text": "No room left? I know a merchant or two."
+  },
+  "npc_bagsFull_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] You're carrying half the countryside.",
+    "text": "You're carrying half the countryside."
+  },
+  "npc_bagsFull_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] Your pack's going to split at the seams.",
+    "text": "Your pack's going to split at the seams."
+  },
+  "npc_bowBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Likewise.",
+    "text": "Likewise."
+  },
+  "npc_bowBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "An honor.",
+    "text": "An honor."
+  },
+  "npc_bowBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "bowBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "The pleasure's mine.",
+    "text": "The pleasure's mine."
+  },
+  "npc_buddy_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": "Another buddy? The more the merrier!",
+    "source": "npc",
+    "spoken": "[overjoyed] Another buddy? The more the merrier!",
+    "text": "{friend} is your Buddy now? The more the merrier!"
+  },
+  "npc_buddy_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] Another Buddy. Should I be jealous?",
+    "text": "Another Buddy. Should I be jealous?"
+  },
+  "npc_buddy_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] Another Buddy! Your circle's getting crowded.",
+    "text": "Another Buddy! Your circle's getting crowded."
+  },
+  "npc_buddy_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "buddy",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] Good choice. I'd vouch for them.",
+    "text": "Good choice. I'd vouch for them."
+  },
+  "npc_cheerAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Hooray!",
+    "text": "Hooray!"
+  },
+  "npc_cheerAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Huzzah!",
+    "text": "Huzzah!"
+  },
+  "npc_cheerAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "cheerAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Three cheers!",
+    "text": "Three cheers!"
+  },
+  "npc_chickenBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "chickenBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[defensively] Who are you calling chicken?",
+    "text": "Who are you calling chicken?"
+  },
+  "npc_chickenBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "chickenBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[defensively] Bawk yourself.",
+    "text": "Bawk yourself."
+  },
+  "npc_chickenBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "chickenBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[defensively] I'm brave! I'm just brave quietly.",
+    "text": "I'm brave! I'm just brave quietly."
+  },
+  "npc_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Well fought!",
+    "text": "Well fought!"
+  },
+  "npc_combatEnd_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Victory! I'll be telling everyone about that one.",
+    "text": "Victory! I'll be telling everyone about that one."
+  },
+  "npc_combatEnd_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Catch your breath. You earned it.",
+    "text": "Catch your breath. You earned it."
+  },
+  "npc_combatEnd_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] And not a scratch on me. Thanks to you.",
+    "text": "And not a scratch on me. Thanks to you."
+  },
+  "npc_combatEnd_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] That's how it's done.",
+    "text": "That's how it's done."
+  },
+  "npc_combatEnd_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Everyone in one piece? Good.",
+    "text": "Everyone in one piece? Good."
+  },
+  "npc_combatEnd_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Ha! They won't try that again.",
+    "text": "Ha! They won't try that again."
+  },
+  "npc_combatEnd_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] I'll admit, my heart was pounding.",
+    "text": "I'll admit, my heart was pounding."
+  },
+  "npc_combatEnd_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Nicely done.",
+    "text": "Nicely done."
+  },
+  "npc_combatEnd_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Is it over? It's over. Good.",
+    "text": "Is it over? It's over. Good."
+  },
+  "npc_combatEnd_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Remind me never to make you angry.",
+    "text": "Remind me never to make you angry."
+  },
+  "npc_combatEnd_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "npc",
+    "spoken": "[laughs] Not bad at all!",
+    "text": "Not bad at all!"
+  },
+  "npc_combatLong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Hold on, it's weakening!",
+    "text": "Hold on, it's weakening!"
+  },
+  "npc_combatLong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[encouragingly] Don't give up now!",
+    "text": "Don't give up now!"
+  },
+  "npc_combatLong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Steady. Steady.",
+    "text": "Steady. Steady."
+  },
+  "npc_combatLong_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] This one's stubborn. Keep at it!",
+    "text": "This one's stubborn. Keep at it!"
+  },
+  "npc_combatLong_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] It's tiring! I can see it!",
+    "text": "It's tiring! I can see it!"
+  },
+  "npc_combatLong_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatLong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[encouragingly] Long fight. You've got more in you.",
+    "text": "Long fight. You've got more in you."
+  },
+  "npc_combatMid_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Keep at it!",
+    "text": "Keep at it!"
+  },
+  "npc_combatMid_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] It's on its last legs!",
+    "text": "It's on its last legs!"
+  },
+  "npc_combatMid_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Mind your footing!",
+    "text": "Mind your footing!"
+  },
+  "npc_combatMid_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] That one's going to leave a mark!",
+    "text": "That one's going to leave a mark!"
+  },
+  "npc_combatMid_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Go on! Go on!",
+    "text": "Go on! Go on!"
+  },
+  "npc_combatMid_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] You make this look like a dance!",
+    "text": "You make this look like a dance!"
+  },
+  "npc_combatMid_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Swing that blade! Go on!",
+    "text": "Swing that blade! Go on!"
+  },
+  "npc_combatMid_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Into the thick of it! That's the way!",
+    "text": "Into the thick of it! That's the way!"
+  },
+  "npc_combatMid_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] The Light's with you! Now hit it!",
+    "text": "The Light's with you! Now hit it!"
+  },
+  "npc_combatMid_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Let your pet have a go!",
+    "text": "Let your pet have a go!"
+  },
+  "npc_combatMid_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Nice shot! Right on target!",
+    "text": "Nice shot! Right on target!"
+  },
+  "npc_combatMid_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Good hit!",
+    "text": "Good hit!"
+  },
+  "npc_combatMid_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Where'd you go? Oh! There you are! Stab it!",
+    "text": "Where'd you go? Oh! There you are! Stab it!"
+  },
+  "npc_combatMid_21.ogg": {
+    "line": 21,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Patch yourself up, then smite it!",
+    "text": "Patch yourself up, then smite it!"
+  },
+  "npc_combatMid_22.ogg": {
+    "line": 22,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Call the storm down on it!",
+    "text": "Call the storm down on it!"
+  },
+  "npc_combatMid_23.ogg": {
+    "line": 23,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Burn it! Burn it all! Well, just that one.",
+    "text": "Burn it! Burn it all! Well, just that one."
+  },
+  "npc_combatMid_24.ogg": {
+    "line": 24,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Whatever that green fire is, keep doing it!",
+    "text": "Whatever that green fire is, keep doing it!"
+  },
+  "npc_combatMid_25.ogg": {
+    "line": 25,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Turn into something big and scary!",
+    "text": "Turn into something big and scary!"
+  },
+  "npc_combatMid_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Watch your back!",
+    "text": "Watch your back!"
+  },
+  "npc_combatMid_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] That's it, that's it!",
+    "text": "That's it, that's it!"
+  },
+  "npc_combatMid_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] You've got it on the run!",
+    "text": "You've got it on the run!"
+  },
+  "npc_combatMid_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Don't let up!",
+    "text": "Don't let up!"
+  },
+  "npc_combatMid_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Ha! Did you see that?",
+    "text": "Ha! Did you see that?"
+  },
+  "npc_combatMid_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Nearly there!",
+    "text": "Nearly there!"
+  },
+  "npc_combatMid_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "combatMid",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Hit it again!",
+    "text": "Hit it again!"
+  },
+  "npc_combatStart_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Look out!",
+    "text": "Look out!"
+  },
+  "npc_combatStart_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Here they come!",
+    "text": "Here they come!"
+  },
+  "npc_combatStart_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Give them what for!",
+    "text": "Give them what for!"
+  },
+  "npc_combatStart_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Stay sharp!",
+    "text": "Stay sharp!"
+  },
+  "npc_combatStart_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] On your guard!",
+    "text": "On your guard!"
+  },
+  "npc_combatStart_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Here we go again!",
+    "text": "Here we go again!"
+  },
+  "npc_combatStart_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Watch it, it's coming right at you!",
+    "text": "Watch it, it's coming right at you!"
+  },
+  "npc_combatStart_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "npc",
+    "spoken": "[shouting] Show them what you've got!",
+    "text": "Show them what you've got!"
+  },
+  "npc_comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[softly] Chin up. It'll be all right.",
+    "text": "Chin up. It'll be all right."
+  },
+  "npc_comforted_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[softly] I'm here if you need me.",
+    "text": "I'm here if you need me."
+  },
+  "npc_comforted_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "comforted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[softly] Thank you. I needed that.",
+    "text": "Thank you. I needed that."
+  },
+  "npc_danceAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Ha! All right, I'll dance.",
+    "text": "Ha! All right, I'll dance."
+  },
+  "npc_danceAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I haven't danced in ages!",
+    "text": "I haven't danced in ages!"
+  },
+  "npc_danceAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Well, if you insist!",
+    "text": "Well, if you insist!"
+  },
+  "npc_danceAlong_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Watch my feet. Or don't.",
+    "text": "Watch my feet. Or don't."
+  },
+  "npc_died_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] Easy now. Let's get you back on your feet.",
+    "text": "Easy now. Let's get you back on your feet."
+  },
+  "npc_died_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[dramatically] That looked like it hurt.",
+    "text": "That looked like it hurt."
+  },
+  "npc_died_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] Don't worry. Happens to the best of us.",
+    "text": "Don't worry. Happens to the best of us."
+  },
+  "npc_died_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sighs] We'll come back stronger.",
+    "text": "We'll come back stronger."
+  },
+  "npc_died_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[dramatically] Oh, that's not good.",
+    "text": "Oh, that's not good."
+  },
+  "npc_died_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] Well. That could have gone better.",
+    "text": "Well. That could have gone better."
+  },
+  "npc_died_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] Let's agree that one didn't count.",
+    "text": "Let's agree that one didn't count."
+  },
+  "npc_died_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "npc",
+    "spoken": "[dramatically] Lie still. I'll keep watch.",
+    "text": "Lie still. I'll keep watch."
+  },
+  "npc_dungeon_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Keep close in here.",
+    "text": "Keep close in here."
+  },
+  "npc_dungeon_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] I don't like the look of this place.",
+    "text": "I don't like the look of this place."
+  },
+  "npc_dungeon_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Watch your step. And your back.",
+    "text": "Watch your step. And your back."
+  },
+  "npc_dungeon_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] It's dark in here. I don't love the dark.",
+    "text": "It's dark in here. I don't love the dark."
+  },
+  "npc_dungeon_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "dungeon",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Stay together. Nobody wander off.",
+    "text": "Stay together. Nobody wander off."
+  },
+  "npc_flexBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Very impressive.",
+    "text": "Very impressive."
+  },
+  "npc_flexBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Don't hurt yourself.",
+    "text": "Don't hurt yourself."
+  },
+  "npc_flexBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "flexBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Put those away before someone gets hurt.",
+    "text": "Put those away before someone gets hurt."
+  },
+  "npc_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] That looks good on you.",
+    "text": "That looks good on you."
+  },
+  "npc_gear_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] New armor? Very sharp.",
+    "text": "New armor? Very sharp."
+  },
+  "npc_gear_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] You'll turn heads in that.",
+    "text": "You'll turn heads in that."
+  },
+  "npc_gear_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] Shiny! Did you polish that yourself?",
+    "text": "Shiny! Did you polish that yourself?"
+  },
+  "npc_gear_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] That suits you. Very heroic.",
+    "text": "That suits you. Very heroic."
+  },
+  "npc_gear_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "gear",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] Now you look the part.",
+    "text": "Now you look the part."
+  },
+  "npc_ghost_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": null,
+    "source": "npc",
+    "spoken": "Come on, your body's this way.",
+    "text": "Come on, your body's this way."
+  },
+  "npc_ghost_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": null,
+    "source": "npc",
+    "spoken": "I'll walk with you. Don't mind the chill.",
+    "text": "I'll walk with you. Don't mind the chill."
+  },
+  "npc_ghost_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": null,
+    "source": "npc",
+    "spoken": "You look a bit see-through. It's fine. Mostly fine.",
+    "text": "You look a bit see-through. It's fine. Mostly fine."
+  },
+  "npc_ghost_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": null,
+    "source": "npc",
+    "spoken": "Follow the road. I'll be right here.",
+    "text": "Follow the road. I'll be right here."
+  },
+  "npc_ghost_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "ghost",
+    "say": null,
+    "source": "npc",
+    "spoken": "Is it cold, being a ghost? You look cold.",
+    "text": "Is it cold, being a ghost? You look cold."
+  },
+  "npc_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Lead the way.",
+    "source": "npc",
+    "spoken": "[excited] Lead the way.",
+    "text": "Lead the way, {name}."
+  },
+  "npc_greet_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Right behind you. Where to first?",
+    "text": "Right behind you. Where to first?"
+  },
+  "npc_greet_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] I packed a lunch. Just in case.",
+    "text": "I packed a lunch. Just in case."
+  },
+  "npc_greet_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Off on an adventure! Don't tell my boss.",
+    "text": "Off on an adventure! Don't tell my boss."
+  },
+  "npc_greet_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Fresh boots, fresh start. Let's go.",
+    "text": "Fresh boots, fresh start. Let's go."
+  },
+  "npc_greet_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I've been looking forward to this all week.",
+    "text": "I've been looking forward to this all week."
+  },
+  "npc_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Glad to come along!",
+    "source": "npc",
+    "spoken": "[cheerfully] Glad to come along!",
+    "text": "Glad to come along, {name}!"
+  },
+  "npc_greet_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Where are we off to today?",
+    "text": "Where are we off to today?"
+  },
+  "npc_greet_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I told the others I'd be out for a while. Let's make it count.",
+    "text": "I told the others I'd be out for a while. Let's make it count."
+  },
+  "npc_greet_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] It's good to get away from the counter for once.",
+    "text": "It's good to get away from the counter for once."
+  },
+  "npc_greet_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Ready when you are.",
+    "source": "npc",
+    "spoken": "[cheerfully] Ready when you are.",
+    "text": "Ready when you are, {name}."
+  },
+  "npc_greet_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Some fresh air will do me good.",
+    "text": "Some fresh air will do me good."
+  },
+  "npc_greet_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Don't walk too fast. I'm not used to all this adventuring.",
+    "text": "Don't walk too fast. I'm not used to all this adventuring."
+  },
+  "npc_greet_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": "Well met! Good to see a friendly face.",
+    "source": "npc",
+    "spoken": "[excited] Well met! Good to see a friendly face.",
+    "text": "Well met, {name}! Good to see a friendly face."
+  },
+  "npc_group_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "group",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] More company! Wonderful.",
+    "text": "More company! Wonderful."
+  },
+  "npc_group_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "group",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] Strength in numbers.",
+    "text": "Strength in numbers."
+  },
+  "npc_group_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "group",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] New faces! Hello, everyone.",
+    "text": "New faces! Hello, everyone."
+  },
+  "npc_group_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "group",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] A whole party. Now it's an adventure.",
+    "text": "A whole party. Now it's an adventure."
+  },
+  "npc_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Home again!",
+    "text": "Home again!"
+  },
+  "npc_hearth_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Off to the inn. My treat. Well, your treat.",
+    "text": "Off to the inn. My treat. Well, your treat."
+  },
+  "npc_hearth_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Home sweet home.",
+    "text": "Home sweet home."
+  },
+  "npc_hearth_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Back to a warm bed. Finally.",
+    "text": "Back to a warm bed. Finally."
+  },
+  "npc_hugged_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Oh! Well. That's nice.",
+    "text": "Oh! Well. That's nice."
+  },
+  "npc_hugged_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Aw, thank you.",
+    "text": "Aw, thank you."
+  },
+  "npc_hugged_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "hugged",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Oh, you big softie.",
+    "text": "Oh, you big softie."
+  },
+  "npc_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] Nice day for it.",
+    "text": "Nice day for it."
+  },
+  "npc_idle_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Don't tell anyone, but this beats standing in one spot all day.",
+    "text": "Don't tell anyone, but this beats standing in one spot all day."
+  },
+  "npc_idle_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] If you need a hand, just say the word.",
+    "text": "If you need a hand, just say the word."
+  },
+  "npc_idle_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Good company makes the miles shorter.",
+    "text": "Good company makes the miles shorter."
+  },
+  "npc_idle_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] Mind if I stretch? Old bones.",
+    "text": "Mind if I stretch? Old bones."
+  },
+  "npc_idle_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Getting late. The stars will be out soon.",
+    "text": "Getting late. The stars will be out soon."
+  },
+  "npc_idle_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Quiet night. I like quiet nights.",
+    "text": "Quiet night. I like quiet nights."
+  },
+  "npc_idle_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] We've been at it for a while. You're tireless, you know that?",
+    "text": "We've been at it for a while. You're tireless, you know that?"
+  },
+  "npc_idle_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] I used to wonder what was past the next hill. Now I know: another hill.",
+    "text": "I used to wonder what was past the next hill. Now I know: another hill."
+  },
+  "npc_idle_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Do you ever get used to all this walking?",
+    "text": "Do you ever get used to all this walking?"
+  },
+  "npc_idle_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] I've heard stories about you, you know. Some of them are even nice.",
+    "text": "I've heard stories about you, you know. Some of them are even nice."
+  },
+  "npc_idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": "It's lovely here this time of year.",
+    "source": "npc",
+    "spoken": "[mischievously] It's lovely here this time of year.",
+    "text": "{zone} is lovely this time of year."
+  },
+  "npc_idle_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Smell that? Somebody's cooking something good nearby.",
+    "text": "Smell that? Somebody's cooking something good nearby."
+  },
+  "npc_idle_21.ogg": {
+    "line": 21,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] If anyone asks, I'm on important business.",
+    "text": "If anyone asks, I'm on important business."
+  },
+  "npc_idle_22.ogg": {
+    "line": 22,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] You're easy company. I mean that kindly.",
+    "text": "You're easy company. I mean that kindly."
+  },
+  "npc_idle_23.ogg": {
+    "line": 23,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] I keep thinking I left something on the stove.",
+    "text": "I keep thinking I left something on the stove."
+  },
+  "npc_idle_24.ogg": {
+    "line": 24,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Look at that sky.",
+    "text": "Look at that sky."
+  },
+  "npc_idle_25.ogg": {
+    "line": 25,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Back home they'll never believe where I've been.",
+    "text": "Back home they'll never believe where I've been."
+  },
+  "npc_idle_26.ogg": {
+    "line": 26,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] I should have brought a better pair of boots.",
+    "text": "I should have brought a better pair of boots."
+  },
+  "npc_idle_27.ogg": {
+    "line": 27,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Funny how a quiet road can feel like a holiday.",
+    "text": "Funny how a quiet road can feel like a holiday."
+  },
+  "npc_idle_28.ogg": {
+    "line": 28,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Do adventurers ever take a day off? Asking for a friend. The friend is me.",
+    "text": "Do adventurers ever take a day off? Asking for a friend. The friend is me."
+  },
+  "npc_idle_29.ogg": {
+    "line": 29,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] I've counted twelve birds since we set out. Thirteen. Never mind.",
+    "text": "I've counted twelve birds since we set out. Thirteen. Never mind."
+  },
+  "npc_idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Don't mind me. I'm enjoying the company.",
+    "text": "Don't mind me. I'm enjoying the company."
+  },
+  "npc_idle_30.ogg": {
+    "line": 30,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] One of these days you'll have to tell me how you got started.",
+    "text": "One of these days you'll have to tell me how you got started."
+  },
+  "npc_idle_31.ogg": {
+    "line": 31,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] You can tell a lot about someone by how they walk. You walk like you mean it.",
+    "text": "You can tell a lot about someone by how they walk. You walk like you mean it."
+  },
+  "npc_idle_32.ogg": {
+    "line": 32,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] I'm not complaining. I'm just saying my feet have opinions.",
+    "text": "I'm not complaining. I'm just saying my feet have opinions."
+  },
+  "npc_idle_33.ogg": {
+    "line": 33,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Sorry, I've had the same tune stuck in my head all day.",
+    "text": "Sorry, I've had the same tune stuck in my head all day."
+  },
+  "npc_idle_34.ogg": {
+    "line": 34,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] If we pass a merchant, remind me I need thread.",
+    "text": "If we pass a merchant, remind me I need thread."
+  },
+  "npc_idle_35.ogg": {
+    "line": 35,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] I wonder what the folks back home are gossiping about.",
+    "text": "I wonder what the folks back home are gossiping about."
+  },
+  "npc_idle_36.ogg": {
+    "line": 36,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] Every time I think I've seen it all, you take me somewhere new.",
+    "text": "Every time I think I've seen it all, you take me somewhere new."
+  },
+  "npc_idle_37.ogg": {
+    "line": 37,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] It's peaceful out here. Until it isn't.",
+    "text": "It's peaceful out here. Until it isn't."
+  },
+  "npc_idle_38.ogg": {
+    "line": 38,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] I could do with a cup of something warm.",
+    "text": "I could do with a cup of something warm."
+  },
+  "npc_idle_39.ogg": {
+    "line": 39,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Morning air's the best air.",
+    "text": "Morning air's the best air."
+  },
+  "npc_idle_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] You know, I don't get out nearly enough.",
+    "text": "You know, I don't get out nearly enough."
+  },
+  "npc_idle_40.ogg": {
+    "line": 40,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Early start, eh? I approve.",
+    "text": "Early start, eh? I approve."
+  },
+  "npc_idle_41.ogg": {
+    "line": 41,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] The light's going gold. Best time of day.",
+    "text": "The light's going gold. Best time of day."
+  },
+  "npc_idle_42.ogg": {
+    "line": 42,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Stars are out. Makes you feel small, doesn't it?",
+    "text": "Stars are out. Makes you feel small, doesn't it?"
+  },
+  "npc_idle_43.ogg": {
+    "line": 43,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[mischievously] Shouldn't we both be in bed by now?",
+    "text": "Shouldn't we both be in bed by now?"
+  },
+  "npc_idle_44.ogg": {
+    "line": 44,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Long day. Good day, though.",
+    "text": "Long day. Good day, though."
+  },
+  "npc_idle_45.ogg": {
+    "line": 45,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Still going? I'll say this for you: you don't quit.",
+    "text": "Still going? I'll say this for you: you don't quit."
+  },
+  "npc_idle_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] My feet are already sore. In a good way.",
+    "text": "My feet are already sore. In a good way."
+  },
+  "npc_idle_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] I wonder how things are back home without me.",
+    "text": "I wonder how things are back home without me."
+  },
+  "npc_idle_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] Every road looks different when you're not working.",
+    "text": "Every road looks different when you're not working."
+  },
+  "npc_idle_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] Have you ever just stopped and listened to the wind?",
+    "text": "Have you ever just stopped and listened to the wind?"
+  },
+  "npc_idle_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "npc",
+    "spoken": "[thoughtfully] I could get used to this.",
+    "text": "I could get used to this."
+  },
+  "npc_jokeBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "jokeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Ha! I'll have to remember that one.",
+    "text": "Ha! I'll have to remember that one."
+  },
+  "npc_jokeBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "jokeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Oh, that's terrible. Tell it again.",
+    "text": "Oh, that's terrible. Tell it again."
+  },
+  "npc_jokeBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "jokeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "I'm stealing that one.",
+    "text": "I'm stealing that one."
+  },
+  "npc_kissed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[flustered] Oh my.",
+    "text": "Oh my."
+  },
+  "npc_kissed_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[flustered] Well, I never.",
+    "text": "Well, I never."
+  },
+  "npc_kissed_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "kissed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[flustered] Now you've made me blush.",
+    "text": "Now you've made me blush."
+  },
+  "npc_landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Safe and sound.",
+    "text": "Safe and sound."
+  },
+  "npc_landed_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Good landing. I'll tell the birds.",
+    "text": "Good landing. I'll tell the birds."
+  },
+  "npc_landed_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Solid ground. Feels strange after all that sky.",
+    "text": "Solid ground. Feels strange after all that sky."
+  },
+  "npc_landed_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] Down we come. Legs still work? Good.",
+    "text": "Down we come. Legs still work? Good."
+  },
+  "npc_landed_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "npc",
+    "spoken": "[relieved] That was a fine flight.",
+    "text": "That was a fine flight."
+  },
+  "npc_laughAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[laughs] Ha! Good one.",
+    "text": "Ha! Good one."
+  },
+  "npc_laughAlong_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[laughs] Heh. You're funny.",
+    "text": "Heh. You're funny."
+  },
+  "npc_laughAlong_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "laughAlong",
+    "say": null,
+    "source": "npc",
+    "spoken": "[laughs] Ha! That laugh of yours is catching.",
+    "text": "Ha! That laugh of yours is catching."
+  },
+  "npc_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] Learning something new? Good for you.",
+    "text": "Learning something new? Good for you."
+  },
+  "npc_learned_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] Always improving. I admire that.",
+    "text": "Always improving. I admire that."
+  },
+  "npc_learned_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] Something new up your sleeve? I'll be watching.",
+    "text": "Something new up your sleeve? I'll be watching."
+  },
+  "npc_learned_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "learned",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] The more you know, the better. That's what I always say.",
+    "text": "The more you know, the better. That's what I always say."
+  },
+  "npc_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level! Well done!",
+    "source": "npc",
+    "spoken": "[proudly] Another level! Well done!",
+    "text": "Level {level}! Well done, {name}!"
+  },
+  "npc_levelUp_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Another step up. Mind you don't get a big head.",
+    "text": "Another step up. Mind you don't get a big head."
+  },
+  "npc_levelUp_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Look at you. Another level already.",
+    "source": "npc",
+    "spoken": "[excited] Look at you. Another level already.",
+    "text": "Look at you, {name}. Level {level} already."
+  },
+  "npc_levelUp_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level! That calls for a cheer!",
+    "source": "npc",
+    "spoken": "[excited] Another level! That calls for a cheer!",
+    "text": "Level {level}! That calls for a cheer!"
+  },
+  "npc_levelUp_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level. I've seen a lot of adventurers come and go. You're one of the good ones.",
+    "source": "npc",
+    "spoken": "[overjoyed] Another level. I've seen a lot of adventurers come and go. You're one of the good ones.",
+    "text": "Level {level}. I've seen a lot of adventurers come and go. You're one of the good ones."
+  },
+  "npc_levelUp_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Ha! Another level! Well earned.",
+    "source": "npc",
+    "spoken": "[excited] Ha! Another level! Well earned.",
+    "text": "Ha! Level {level}! Well earned."
+  },
+  "npc_levelUp_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": "Another level. Wait until I tell everyone back home.",
+    "source": "npc",
+    "spoken": "[overjoyed] Another level. Wait until I tell everyone back home.",
+    "text": "Level {level}. Wait until I tell everyone back home."
+  },
+  "npc_levelUp_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] Stronger every day. I can see it.",
+    "text": "Stronger every day. I can see it."
+  },
+  "npc_levelUp_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] Another level! I knew you had it in you.",
+    "text": "Another level! I knew you had it in you."
+  },
+  "npc_levelUp_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Well, look who's moving up in the world.",
+    "text": "Well, look who's moving up in the world."
+  },
+  "npc_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Now that's a find.",
+    "source": "npc",
+    "spoken": "[excited] Now that's a find.",
+    "text": "{item}! Now that's a find."
+  },
+  "npc_loot_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Well, look at that.",
+    "source": "npc",
+    "spoken": "[excited] Well, look at that.",
+    "text": "Well, look at that. {item}."
+  },
+  "npc_loot_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": "Lucky day!",
+    "source": "npc",
+    "spoken": "[excited] Lucky day!",
+    "text": "{item}! Lucky day."
+  },
+  "npc_loot_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Ooh, what did you find?",
+    "text": "Ooh, what did you find?"
+  },
+  "npc_loot_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Anything good in there?",
+    "text": "Anything good in there?"
+  },
+  "npc_loot_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Pockets full! Nice.",
+    "text": "Pockets full! Nice."
+  },
+  "npc_lowHealth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] You're hurt! Get out of there!",
+    "text": "You're hurt! Get out of there!"
+  },
+  "npc_lowHealth_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Hang on! Don't you dare go down!",
+    "text": "Hang on! Don't you dare go down!"
+  },
+  "npc_lowHealth_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Careful! You're nearly done in!",
+    "text": "Careful! You're nearly done in!"
+  },
+  "npc_lowHealth_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Back off and catch your breath!",
+    "text": "Back off and catch your breath!"
+  },
+  "npc_lowHealth_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] You're bleeding! Fall back!",
+    "text": "You're bleeding! Fall back!"
+  },
+  "npc_lowHealth_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[nervously] Get out of there!",
+    "text": "Get out of there!"
+  },
+  "npc_lowHealth_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Drink something! Anything!",
+    "text": "Drink something! Anything!"
+  },
+  "npc_lowHealth_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] This isn't worth dying over!",
+    "text": "This isn't worth dying over!"
+  },
+  "npc_lowHealth_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Run! I'll tell everyone you were brave!",
+    "text": "Run! I'll tell everyone you were brave!"
+  },
+  "npc_lowHealth_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "lowHealth",
+    "say": null,
+    "source": "npc",
+    "spoken": "[panicked] Bandage! Potion! Something!",
+    "text": "Bandage! Potion! Something!"
+  },
+  "npc_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Looks like you've got mail.",
+    "text": "Looks like you've got mail."
+  },
+  "npc_mail_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Someone's written to you. How nice.",
+    "text": "Someone's written to you. How nice."
+  },
+  "npc_mail_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] A letter! I hope it's good news.",
+    "text": "A letter! I hope it's good news."
+  },
+  "npc_mail_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "mail",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Mail for you. Somebody's thinking of you.",
+    "text": "Mail for you. Somebody's thinking of you."
+  },
+  "npc_maxLevel_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "say": "Another level! There's nothing left to teach you, is there?",
+    "source": "npc",
+    "spoken": "[overjoyed] Another level! There's nothing left to teach you, is there?",
+    "text": "Level {level}! There's nothing left to teach you, is there?"
+  },
+  "npc_maxLevel_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] The very top! I'm honored to have come along for it.",
+    "text": "The very top! I'm honored to have come along for it."
+  },
+  "npc_maxLevel_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "maxLevel",
+    "say": null,
+    "source": "npc",
+    "spoken": "[overjoyed] That's the peak. Where do you go from here? Anywhere you like, I suppose.",
+    "text": "That's the peak. Where do you go from here? Anywhere you like, I suppose."
+  },
+  "npc_mount_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Riding in style, I see.",
+    "text": "Riding in style, I see."
+  },
+  "npc_mount_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Fine animal you've got there.",
+    "text": "Fine animal you've got there."
+  },
+  "npc_mount_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I'll just walk alongside, shall I?",
+    "text": "I'll just walk alongside, shall I?"
+  },
+  "npc_mount_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Now that's a proper way to travel.",
+    "text": "Now that's a proper way to travel."
+  },
+  "npc_mount_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Does it have a name? It looks like it should have a name.",
+    "text": "Does it have a name? It looks like it should have a name."
+  },
+  "npc_newFriend_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "Now there's a friendly face.",
+    "source": "npc",
+    "spoken": "[happily] Now there's a friendly face.",
+    "text": "{friend} seems friendly."
+  },
+  "npc_newFriend_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": "I've heard good things about this one.",
+    "source": "npc",
+    "spoken": "[happily] I've heard good things about this one.",
+    "text": "I've heard good things about {friend}."
+  },
+  "npc_newFriend_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] Another friend! You collect them like coins.",
+    "text": "Another friend! You collect them like coins."
+  },
+  "npc_newFriend_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] Another friendly face. You're good at this.",
+    "text": "Another friendly face. You're good at this."
+  },
+  "npc_newFriend_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "newFriend",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] You make friends faster than I make tea.",
+    "text": "You make friends faster than I make tea."
+  },
+  "npc_pointToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "pointToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "What is it? I don't see anything.",
+    "text": "What is it? I don't see anything."
+  },
+  "npc_pointToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "pointToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Where? Oh! No, I still don't see it.",
+    "text": "Where? Oh! No, I still don't see it."
+  },
+  "npc_pointToo_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "pointToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Is it something good? Or something bad?",
+    "text": "Is it something good? Or something bad?"
+  },
+  "npc_pokeMany_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] All right, all right, I'm awake!",
+    "text": "All right, all right, I'm awake!"
+  },
+  "npc_pokeMany_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[annoyed] Is this going to keep happening?",
+    "text": "Is this going to keep happening?"
+  },
+  "npc_pokeMany_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[exasperated] You'd think I was a doorbell.",
+    "text": "You'd think I was a doorbell."
+  },
+  "npc_pokeMany_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[annoyed] I'm starting to think you enjoy this.",
+    "text": "I'm starting to think you enjoy this."
+  },
+  "npc_pokeMany_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] Enough! I surrender!",
+    "text": "Enough! I surrender!"
+  },
+  "npc_pokeMany_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "say": null,
+    "source": "npc",
+    "spoken": "[groans] One more and I'm going home. I mean it. Probably.",
+    "text": "One more and I'm going home. I mean it. Probably."
+  },
+  "npc_poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": "Yes?",
+    "source": "npc",
+    "spoken": "[giggles] Yes?",
+    "text": "Yes, {name}?"
+  },
+  "npc_poke_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[annoyed] I'm listening.",
+    "text": "I'm listening."
+  },
+  "npc_poke_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[surprised] Still breathing, if that's what you're checking.",
+    "text": "Still breathing, if that's what you're checking."
+  },
+  "npc_poke_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Was that a poke or a question?",
+    "text": "Was that a poke or a question?"
+  },
+  "npc_poke_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Easy! I bruise like a peach.",
+    "text": "Easy! I bruise like a peach."
+  },
+  "npc_poke_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] You have my full attention. Mostly.",
+    "text": "You have my full attention. Mostly."
+  },
+  "npc_poke_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] Hm? Sorry, I was miles away.",
+    "text": "Hm? Sorry, I was miles away."
+  },
+  "npc_poke_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] Ask away.",
+    "text": "Ask away."
+  },
+  "npc_poke_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] Ow. Was that necessary?",
+    "text": "Ow. Was that necessary?"
+  },
+  "npc_poke_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[surprised] What, did I miss something?",
+    "text": "What, did I miss something?"
+  },
+  "npc_poke_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Present and accounted for.",
+    "text": "Present and accounted for."
+  },
+  "npc_poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] Hm? Something on your mind?",
+    "text": "Hm? Something on your mind?"
+  },
+  "npc_poke_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[annoyed] Yes, yes, I see you.",
+    "text": "Yes, yes, I see you."
+  },
+  "npc_poke_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[surprised] I'm right here.",
+    "text": "I'm right here."
+  },
+  "npc_poke_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] Careful, now.",
+    "text": "Careful, now."
+  },
+  "npc_poke_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Ha! You're a funny one.",
+    "text": "Ha! You're a funny one."
+  },
+  "npc_poke_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[annoyed] Need something?",
+    "text": "Need something?"
+  },
+  "npc_poke_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Still here, still with you.",
+    "text": "Still here, still with you."
+  },
+  "npc_poke_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] What is it? Did you see something?",
+    "text": "What is it? Did you see something?"
+  },
+  "npc_poke_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "npc",
+    "spoken": "[giggles] If that's how you say hello where you're from, all right.",
+    "text": "If that's how you say hello where you're from, all right."
+  },
+  "npc_questAccepted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[eagerly] Another errand? I like your spirit.",
+    "text": "Another errand? I like your spirit."
+  },
+  "npc_questAccepted_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[eagerly] Off we go, then.",
+    "text": "Off we go, then."
+  },
+  "npc_questAccepted_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[eagerly] Somebody's lucky you came along.",
+    "text": "Somebody's lucky you came along."
+  },
+  "npc_questAccepted_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[eagerly] Here we go again. I love it.",
+    "text": "Here we go again. I love it."
+  },
+  "npc_questAccepted_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "npc",
+    "spoken": "[eagerly] Sounds like trouble. Count me in.",
+    "text": "Sounds like trouble. Count me in."
+  },
+  "npc_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Another job done. Nicely handled.",
+    "text": "Another job done. Nicely handled."
+  },
+  "npc_quest_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Done and done. What's next?",
+    "text": "Done and done. What's next?"
+  },
+  "npc_quest_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Well done! They'll be grateful.",
+    "text": "Well done! They'll be grateful."
+  },
+  "npc_quest_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] You've a knack for helping folk.",
+    "text": "You've a knack for helping folk."
+  },
+  "npc_quest_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] That's one more person sleeping easier tonight.",
+    "text": "That's one more person sleeping easier tonight."
+  },
+  "npc_quest_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Good work. Who's next?",
+    "text": "Good work. Who's next?"
+  },
+  "npc_quest_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] Word gets around. People will remember that.",
+    "text": "Word gets around. People will remember that."
+  },
+  "npc_quest_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Nicely done. Somebody's going to tell that story at the inn.",
+    "text": "Nicely done. Somebody's going to tell that story at the inn."
+  },
+  "npc_quest_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] That's the way!",
+    "text": "That's the way!"
+  },
+  "npc_quest_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[proudly] You make it look easy.",
+    "text": "You make it look easy."
+  },
+  "npc_reload_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "say": null,
+    "source": "npc",
+    "spoken": "[confused] Hm? Did I doze off?",
+    "text": "Hm? Did I doze off?"
+  },
+  "npc_reload_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "say": null,
+    "source": "npc",
+    "spoken": "[confused] Strange. I could swear the world just blinked.",
+    "text": "Strange. I could swear the world just blinked."
+  },
+  "npc_reload_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "say": null,
+    "source": "npc",
+    "spoken": "[confused] Where was I? Oh, right. With you.",
+    "text": "Where was I? Oh, right. With you."
+  },
+  "npc_reload_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "say": null,
+    "source": "npc",
+    "spoken": "[confused] Hm. I lost my train of thought. Something about the road.",
+    "text": "Hm. I lost my train of thought. Something about the road."
+  },
+  "npc_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[contentedly] A good place to rest our feet.",
+    "text": "A good place to rest our feet."
+  },
+  "npc_rest_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[contentedly] Nothing like a warm inn.",
+    "text": "Nothing like a warm inn."
+  },
+  "npc_rest_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[contentedly] I could sit here all day.",
+    "text": "I could sit here all day."
+  },
+  "npc_rest_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[contentedly] A chair, a fire, good company. That's living.",
+    "text": "A chair, a fire, good company. That's living."
+  },
+  "npc_rest_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "npc",
+    "spoken": "[contentedly] Let's stay a moment. My feet insist.",
+    "text": "Let's stay a moment. My feet insist."
+  },
+  "npc_roarBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "roarBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Easy there, tiger.",
+    "text": "Easy there, tiger."
+  },
+  "npc_roarBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "roarBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Very fierce. I'm terrified.",
+    "text": "Very fierce. I'm terrified."
+  },
+  "npc_roarBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "roarBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[playfully] Was that a roar or a yawn?",
+    "text": "Was that a roar or a yawn?"
+  },
+  "npc_rudeBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[indignant] Charming.",
+    "text": "Charming."
+  },
+  "npc_rudeBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[indignant] I'll pretend I didn't see that.",
+    "text": "I'll pretend I didn't see that."
+  },
+  "npc_rudeBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[indignant] Well, I never! Actually, I have. But still.",
+    "text": "Well, I never! Actually, I have. But still."
+  },
+  "npc_saluteBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "At your service.",
+    "text": "At your service."
+  },
+  "npc_saluteBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Sir! Or madam.",
+    "text": "Sir! Or madam."
+  },
+  "npc_saluteBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "Standing ready!",
+    "text": "Standing ready!"
+  },
+  "npc_seeFriend_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "Oh, look who it is! Say hello for me.",
+    "source": "npc",
+    "spoken": "[happily] Oh, look who it is! Say hello for me.",
+    "text": "Oh, it's {friend}! Say hello for me."
+  },
+  "npc_seeFriend_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "Good to see a friendly face!",
+    "source": "npc",
+    "spoken": "[happily] Good to see a friendly face!",
+    "text": "{friend}! Good to see a friendly face."
+  },
+  "npc_seeFriend_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] Look who it is! Give them a wave.",
+    "text": "Look who it is! Give them a wave."
+  },
+  "npc_seeFriend_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": null,
+    "source": "npc",
+    "spoken": "[happily] Oh, I know them! Small world.",
+    "text": "Oh, I know them! Small world."
+  },
+  "npc_shyToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "shyToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "No need to be shy.",
+    "text": "No need to be shy."
+  },
+  "npc_shyToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "shyToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Aw, don't hide.",
+    "text": "Aw, don't hide."
+  },
+  "npc_shyToo_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "shyToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "You're among friends here.",
+    "text": "You're among friends here."
+  },
+  "npc_sitToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "sitToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Don't mind if I do.",
+    "text": "Don't mind if I do."
+  },
+  "npc_sitToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "sitToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Good idea. My knees agree.",
+    "text": "Good idea. My knees agree."
+  },
+  "npc_sitToo_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "sitToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "Ah, that's better.",
+    "text": "Ah, that's better."
+  },
+  "npc_sleepToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "sleepToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] I could use a nap myself.",
+    "text": "I could use a nap myself."
+  },
+  "npc_sleepToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "sleepToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] Wake me when it's time to go.",
+    "text": "Wake me when it's time to go."
+  },
+  "npc_sleepToo_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "sleepToo",
+    "say": null,
+    "source": "npc",
+    "spoken": "[sleepy] A nap does sound nice.",
+    "text": "A nap does sound nice."
+  },
+  "npc_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Up we go! Never gets old.",
+    "text": "Up we go! Never gets old."
+  },
+  "npc_taxi_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Look at it all down there.",
+    "text": "Look at it all down there."
+  },
+  "npc_taxi_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] A good gryphon is worth its weight in gold.",
+    "text": "A good gryphon is worth its weight in gold."
+  },
+  "npc_taxi_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Hold on tight!",
+    "text": "Hold on tight!"
+  },
+  "npc_taxi_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I'll never get tired of this view.",
+    "text": "I'll never get tired of this view."
+  },
+  "npc_taxi_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Don't look down. Actually, do. It's lovely.",
+    "text": "Don't look down. Actually, do. It's lovely."
+  },
+  "npc_taxi_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] The wind up here! Hold on to your hat.",
+    "text": "The wind up here! Hold on to your hat."
+  },
+  "npc_thanked_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Anytime.",
+    "text": "Anytime."
+  },
+  "npc_thanked_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Happy to help.",
+    "text": "Happy to help."
+  },
+  "npc_thanked_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Don't mention it.",
+    "text": "Don't mention it."
+  },
+  "npc_tier_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "They think a lot of you now. I'm not surprised.",
+    "source": "npc",
+    "spoken": "[delighted] They think a lot of you now. I'm not surprised.",
+    "text": "{friend} thinks of you as {tier} now. I'm not surprised."
+  },
+  "npc_tier_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] Making friends everywhere you go, aren't you?",
+    "text": "Making friends everywhere you go, aren't you?"
+  },
+  "npc_tier_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] People really warm to you, don't they?",
+    "text": "People really warm to you, don't they?"
+  },
+  "npc_tier_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": null,
+    "source": "npc",
+    "spoken": "[delighted] That friendship's growing. Nice to see.",
+    "text": "That friendship's growing. Nice to see."
+  },
+  "npc_waveBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Hello!",
+    "text": "Hello!"
+  },
+  "npc_waveBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Hi there!",
+    "text": "Hi there!"
+  },
+  "npc_waveBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Well, hello to you too.",
+    "text": "Well, hello to you too."
+  },
+  "npc_waveBack_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Right back at you!",
+    "text": "Right back at you!"
+  },
+  "npc_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "So this is the place.",
+    "source": "npc",
+    "spoken": "[excited] So this is the place.",
+    "text": "So this is {zone}."
+  },
+  "npc_zone_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] Smells different here. Not bad, just different.",
+    "text": "Smells different here. Not bad, just different."
+  },
+  "npc_zone_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I'd better remember the way back.",
+    "text": "I'd better remember the way back."
+  },
+  "npc_zone_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[curious] Well, this is a change of scenery.",
+    "text": "Well, this is a change of scenery."
+  },
+  "npc_zone_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "New ground, eh? Lead on.",
+    "source": "npc",
+    "spoken": "[curious] New ground, eh? Lead on.",
+    "text": "{zone}, eh? Lead on."
+  },
+  "npc_zone_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "I haven't been here in years.",
+    "source": "npc",
+    "spoken": "[curious] I haven't been here in years.",
+    "text": "I haven't been to {zone} in years."
+  },
+  "npc_zone_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "New ground. Stay sharp.",
+    "source": "npc",
+    "spoken": "[curious] New ground. Stay sharp.",
+    "text": "{zone}. Stay sharp."
+  },
+  "npc_zone_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Ah, look at that view.",
+    "source": "npc",
+    "spoken": "[excited] Ah, look at that view.",
+    "text": "Ah, {zone}. Look at that view."
+  },
+  "npc_zone_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] New place, new faces.",
+    "text": "New place, new faces."
+  },
+  "npc_zone_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Keep your eyes open. I don't know these parts.",
+    "text": "Keep your eyes open. I don't know these parts."
+  },
+  "npc_zone_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[impressed] I've only ever heard stories about this place.",
+    "text": "I've only ever heard stories about this place."
+  },
+  "npc_zone_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Look at it all. Worth the walk.",
+    "text": "Look at it all. Worth the walk."
+  },
+  "pointToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "pointToo",
+    "spoken": "Ooh, where? Where are we looking?",
+    "text": "Ooh, where? Where are we looking?"
+  },
+  "pointToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "pointToo",
+    "spoken": "I see it! What is it?",
+    "text": "I see it! What is it?"
+  },
+  "pokeMany_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[exasperated] Okay, okay! I'm up! I'm up!",
+    "text": "Okay, okay! I'm up! I'm up!"
+  },
+  "pokeMany_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[annoyed] You're really enjoying this, aren't you.",
+    "text": "You're really enjoying this, aren't you."
+  },
+  "pokeMany_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[groans] Poke number... I've lost count. Please stop. Or don't.",
+    "text": "Poke number... I've lost count. Please stop. Or don't."
+  },
+  "pokeMany_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[annoyed] I'm starting a poke jar. That's one copper per poke.",
+    "text": "I'm starting a poke jar. That's one copper per poke."
+  },
+  "pokeMany_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[exasperated] Fine. I'm going to stand here and ignore you. Very hard.",
+    "text": "Fine. I'm going to stand here and ignore you. Very hard."
+  },
+  "pokeMany_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[groans] If you're trying to wake something up, I'm already as awake as I get.",
+    "text": "If you're trying to wake something up, I'm already as awake as I get."
+  },
+  "pokeMany_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "pokeMany",
+    "spoken": "[exasperated] Is this a game? I love games! I'm still losing, aren't I.",
+    "text": "Is this a game? I love games! I'm still losing, aren't I."
+  },
+  "poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] Hey! That tickles!",
+    "text": "Hey! That tickles!"
+  },
+  "poke_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Over there! No, I don't know what. I just like pointing.",
+    "text": "Over there! No, I don't know what. I just like pointing."
+  },
+  "poke_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[playfully] Oh! Hello! I was deep in thought.",
+    "text": "Oh! Hello! I was deep in thought."
+  },
+  "poke_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] Present and accounted for!",
+    "text": "Present and accounted for!"
+  },
+  "poke_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[playfully] You rang?",
+    "text": "You rang?"
+  },
+  "poke_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": "At your service!",
+    "spoken": "[giggles] At your service!",
+    "text": "At your service, {name}!"
+  },
+  "poke_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Did you know I can count to a hundred? Ask me later.",
+    "text": "Did you know I can count to a hundred? Ask me later."
+  },
+  "poke_16.ogg": {
+    "line": 16,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[surprised] I was in the middle of a very important daydream.",
+    "text": "I was in the middle of a very important daydream."
+  },
+  "poke_17.ogg": {
+    "line": 17,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Poke me once, shame on you. Poke me twice, okay, that's fair.",
+    "text": "Poke me once, shame on you. Poke me twice, okay, that's fair."
+  },
+  "poke_18.ogg": {
+    "line": 18,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[playfully] Here, have a bow. On the house.",
+    "text": "Here, have a bow. On the house."
+  },
+  "poke_19.ogg": {
+    "line": 19,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] If you're checking whether I'm real: mostly.",
+    "text": "If you're checking whether I'm real: mostly."
+  },
+  "poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] I'm a gnome, not a button!",
+    "text": "I'm a gnome, not a button!"
+  },
+  "poke_20.ogg": {
+    "line": 20,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] Yep, still adorable.",
+    "text": "Yep, still adorable."
+  },
+  "poke_21.ogg": {
+    "line": 21,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] Want to see a dance? Too late!",
+    "text": "Want to see a dance? Too late!"
+  },
+  "poke_22.ogg": {
+    "line": 22,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] I'm awake! I was resting my eyes. Both of them.",
+    "text": "I'm awake! I was resting my eyes. Both of them."
+  },
+  "poke_23.ogg": {
+    "line": 23,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] That was my favorite spot to be poked. How did you know?",
+    "text": "That was my favorite spot to be poked. How did you know?"
+  },
+  "poke_24.ogg": {
+    "line": 24,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Hey! I'm ticklish there!",
+    "text": "Hey! I'm ticklish there!"
+  },
+  "poke_25.ogg": {
+    "line": 25,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[playfully] Gnome fact: we feel every poke. Gnome fact two: we forgive every poke.",
+    "text": "Gnome fact: we feel every poke. Gnome fact two: we forgive every poke."
+  },
+  "poke_26.ogg": {
+    "line": 26,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Is it snack time? It feels like snack time.",
+    "text": "Is it snack time? It feels like snack time."
+  },
+  "poke_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[annoyed] Boop! Right back at you.",
+    "text": "Boop! Right back at you."
+  },
+  "poke_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": "Yes? What can I do for you?",
+    "spoken": "[playfully] Yes? What can I do for you?",
+    "text": "Yes, {name}? What can I do for you?"
+  },
+  "poke_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[surprised] Careful, I bruise like a peach.",
+    "text": "Careful, I bruise like a peach."
+  },
+  "poke_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] We match! Have you noticed we match?",
+    "text": "We match! Have you noticed we match?"
+  },
+  "poke_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Do that again and I'm telling the BuddyDex.",
+    "text": "Do that again and I'm telling the BuddyDex."
+  },
+  "poke_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[playfully] Ha! Again! No, wait, don't.",
+    "text": "Ha! Again! No, wait, don't."
+  },
+  "poke_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "spoken": "[giggles] Look at these muscles. Your muscles. Small edition.",
+    "text": "Look at these muscles. Your muscles. Small edition."
+  },
+  "questAccepted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "spoken": "[eagerly] A new quest! Let's go be helpful.",
+    "text": "A new quest! Let's go be helpful."
+  },
+  "questAccepted_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "spoken": "[eagerly] Ooh, a job. I love a job.",
+    "text": "Ooh, a job. I love a job."
+  },
+  "questAccepted_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "spoken": "[eagerly] Onward! To... wherever that was.",
+    "text": "Onward! To... wherever that was."
+  },
+  "questAccepted_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "spoken": "[eagerly] Another adventure on the list. I'll carry the enthusiasm.",
+    "text": "Another adventure on the list. I'll carry the enthusiasm."
+  },
+  "questAccepted_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "questAccepted",
+    "spoken": "[eagerly] Somebody needs us! That's my favorite feeling.",
+    "text": "Somebody needs us! That's my favorite feeling."
+  },
+  "quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[cheerfully] Another job done! You're really good at this.",
+    "text": "Another job done! You're really good at this."
+  },
+  "quest_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] Rewards! I love rewards. Can I hold it? I won't drop it.",
+    "text": "Rewards! I love rewards. Can I hold it? I won't drop it."
+  },
+  "quest_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] That deserves a little dance.",
+    "text": "That deserves a little dance."
+  },
+  "quest_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[proudly] Quest log, one lighter. Heart, one fuller.",
+    "text": "Quest log, one lighter. Heart, one fuller."
+  },
+  "quest_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] Quest complete! Somebody give this hero a cookie.",
+    "text": "Quest complete! Somebody give this hero a cookie."
+  },
+  "quest_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[proudly] Done and done. Who needs help next?",
+    "text": "Done and done. Who needs help next?"
+  },
+  "quest_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[proudly] Quest complete! Applause, please!",
+    "text": "Quest complete! Applause, please!"
+  },
+  "quest_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] Nailed it!",
+    "text": "Nailed it!"
+  },
+  "quest_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] Another happy customer. Er, quest giver.",
+    "text": "Another happy customer. Er, quest giver."
+  },
+  "quest_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[excited] That's one more name in the 'people we helped' column.",
+    "text": "That's one more name in the 'people we helped' column."
+  },
+  "quest_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[proudly] Victory pose! Hold it... hold it...",
+    "text": "Victory pose! Hold it... hold it..."
+  },
+  "quest_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "spoken": "[proudly] I bet they tell all their friends about us.",
+    "text": "I bet they tell all their friends about us."
+  },
+  "reload_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] Whoa. Did everything just go dark for a second?",
+    "text": "Whoa. Did everything just go dark for a second?"
+  },
+  "reload_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] I blinked and the whole world reloaded!",
+    "text": "I blinked and the whole world reloaded!"
+  },
+  "reload_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] Back already? I didn't even get to finish my nap.",
+    "text": "Back already? I didn't even get to finish my nap."
+  },
+  "reload_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] Everything feels... freshly loaded. Is that just me?",
+    "text": "Everything feels... freshly loaded. Is that just me?"
+  },
+  "reload_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] Was that a reload? My hat feels lighter.",
+    "text": "Was that a reload? My hat feels lighter."
+  },
+  "reload_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "reload",
+    "spoken": "[confused] Hello again! I barely noticed you were gone. Barely.",
+    "text": "Hello again! I barely noticed you were gone. Barely."
+  },
+  "rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] Ahh, somewhere safe. Wake me when it's time to go.",
+    "text": "Ahh, somewhere safe. Wake me when it's time to go."
+  },
+  "rest_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] A nice place to rest. Shall I order us something?",
+    "text": "A nice place to rest. Shall I order us something?"
+  },
+  "rest_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] Feet up! Well, my feet are always kind of up.",
+    "text": "Feet up! Well, my feet are always kind of up."
+  },
+  "rest_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] Inns are the best. Warm fire, soft beds, people to befriend.",
+    "text": "Inns are the best. Warm fire, soft beds, people to befriend."
+  },
+  "rest_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] Rested and ready. Or at least rested.",
+    "text": "Rested and ready. Or at least rested."
+  },
+  "rest_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "spoken": "[contentedly] This place has the coziest chairs. Too bad I can't reach them.",
+    "text": "This place has the coziest chairs. Too bad I can't reach them."
+  },
+  "roarBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "roarBack",
+    "spoken": "[playfully] RAWR! Did I sound scary?",
+    "text": "RAWR! Did I sound scary?"
+  },
+  "roarBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "roarBack",
+    "spoken": "[playfully] Roar! I'm a lion now.",
+    "text": "Roar! I'm a lion now."
+  },
+  "rudeBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "spoken": "[indignant] Hey! I saw that.",
+    "text": "Hey! I saw that."
+  },
+  "rudeBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "spoken": "[indignant] Well, that was uncalled for.",
+    "text": "Well, that was uncalled for."
+  },
+  "rudeBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "rudeBack",
+    "spoken": "[indignant] Rude! I'm telling the BuddyDex.",
+    "text": "Rude! I'm telling the BuddyDex."
+  },
+  "saluteBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "say": "Yes, sir! Or ma'am! Reporting for duty!",
+    "spoken": "Yes, sir! Or ma'am! Reporting for duty!",
+    "text": "Yes, sir! Or ma'am! Or {name}!"
+  },
+  "saluteBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "spoken": "Reporting for duty!",
+    "text": "Reporting for duty!"
+  },
+  "saluteBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "saluteBack",
+    "spoken": "Standing tall! Well, standing.",
+    "text": "Standing tall! Well, standing."
+  },
+  "seeFriend_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "Oh look, who it is! Hi there!",
+    "spoken": "[happily] Oh look, who it is! Hi there!",
+    "text": "Oh look, it's {friend}! Hi, {friend}!"
+  },
+  "seeFriend_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "I'd know that face anywhere.",
+    "spoken": "[happily] I'd know that face anywhere.",
+    "text": "{friend}! I'd know that face anywhere."
+  },
+  "seeFriend_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "Hey, it's our pal!",
+    "spoken": "[happily] Hey, it's our pal!",
+    "text": "Hey, it's our pal {friend}."
+  },
+  "seeFriend_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "Have you said hello today? I'm saying hello.",
+    "spoken": "[happily] Have you said hello today? I'm saying hello.",
+    "text": "{friend}! Have you said hello today? I'm saying hello."
+  },
+  "seeFriend_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "seeFriend",
+    "say": "It's our friend! Best friends forever. Well, almost. Working on it.",
+    "spoken": "[happily] It's our friend! Best friends forever. Well, almost. Working on it.",
+    "text": "It's {friend}! Best friends forever. Well, {tier}, but working on it."
+  },
+  "shyToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "shyToo",
+    "spoken": "Aw, don't be shy.",
+    "text": "Aw, don't be shy."
+  },
+  "shyToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "shyToo",
+    "spoken": "I get shy too sometimes.",
+    "text": "I get shy too sometimes."
+  },
+  "sitToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "sitToo",
+    "spoken": "Break time! I'll sit too.",
+    "text": "Break time! I'll sit too."
+  },
+  "sitToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "sitToo",
+    "spoken": "Ahh, feels good to sit.",
+    "text": "Ahh, feels good to sit."
+  },
+  "sleepToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "sleepToo",
+    "spoken": "[sleepy] Nap time? Nap time.",
+    "text": "Nap time? Nap time."
+  },
+  "sleepToo_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "sleepToo",
+    "spoken": "[sleepy] Good idea. Zzz.",
+    "text": "Good idea. Zzz."
+  },
+  "taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[giddy] Wheee! I love flying!",
+    "text": "Wheee! I love flying!"
+  },
+  "taxi_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Next stop, adventure!",
+    "text": "Next stop, adventure!"
+  },
+  "taxi_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Look how small everything is down there! Finally, I fit in.",
+    "text": "Look how small everything is down there! Finally, I fit in."
+  },
+  "taxi_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Gryphon rides are the best. Don't look down. Okay, look down.",
+    "text": "Gryphon rides are the best. Don't look down. Okay, look down."
+  },
+  "taxi_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] We're flying! Hold on to your hat. Our hat.",
+    "text": "We're flying! Hold on to your hat. Our hat."
+  },
+  "taxi_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Somebody wave at the people below for me!",
+    "text": "Somebody wave at the people below for me!"
+  },
+  "taxi_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Is it rude to sing on a gryphon? I'm going to sing.",
+    "text": "Is it rude to sing on a gryphon? I'm going to sing."
+  },
+  "taxi_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] Up here, everyone's tiny. I like it.",
+    "text": "Up here, everyone's tiny. I like it."
+  },
+  "taxi_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] If I fall off, remember me fondly.",
+    "text": "If I fall off, remember me fondly."
+  },
+  "taxi_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "spoken": "[excited] This is the life. Wind in our hair, bugs in our teeth.",
+    "text": "This is the life. Wind in our hair, bugs in our teeth."
+  },
+  "thanked_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "spoken": "[warmly] Aw, you're welcome!",
+    "text": "Aw, you're welcome!"
+  },
+  "thanked_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "say": "Anytime!",
+    "spoken": "[warmly] Anytime!",
+    "text": "Anytime, {name}!"
+  },
+  "thanked_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "thanked",
+    "spoken": "[warmly] Don't mention it. Or do. I like it.",
+    "text": "Don't mention it. Or do. I like it."
+  },
+  "tier_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "Hear that? We're even better friends now!",
+    "spoken": "[delighted] Hear that? We're even better friends now!",
+    "text": "Hear that? We're {tier} to {friend} now!"
+  },
+  "tier_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "They like us even more now. I knew they would!",
+    "spoken": "[delighted] They like us even more now. I knew they would!",
+    "text": "{friend} thinks of us as {tier}. I knew they would!"
+  },
+  "tier_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "Friendship up! They really like us!",
+    "spoken": "[delighted] Friendship up! They really like us!",
+    "text": "{tier}! {friend} really likes us!"
+  },
+  "tier_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "Look at that. Even better friends. We're so likable.",
+    "spoken": "[delighted] Look at that. Even better friends. We're so likable.",
+    "text": "Look at that. {friend} counts us as {tier}. We're so likable."
+  },
+  "tier_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "Our friendship just went up a notch!",
+    "spoken": "[delighted] Our friendship just went up a notch!",
+    "text": "Friendship with {friend} just went up a notch!"
+  },
+  "tier_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "tier",
+    "say": "Closer friends. Has a nice ring to it.",
+    "spoken": "[delighted] Closer friends. Has a nice ring to it.",
+    "text": "{friend} and us. {tier}. Has a nice ring to it."
+  },
+  "waveBack_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "spoken": "[cheerfully] Hi! Hi! Hello!",
+    "text": "Hi! Hi! Hello!"
+  },
+  "waveBack_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "spoken": "[cheerfully] Hello to you too!",
+    "text": "Hello to you too!"
+  },
+  "waveBack_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "spoken": "[cheerfully] Waving back! I'm waving back!",
+    "text": "Waving back! I'm waving back!"
+  },
+  "waveBack_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "waveBack",
+    "say": "Hiya!",
+    "spoken": "[cheerfully] Hiya!",
+    "text": "Hiya, {name}!"
+  },
+  "zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Ooh! I've always wanted to see this place.",
+    "spoken": "[impressed] Ooh! I've always wanted to see this place.",
+    "text": "{zone}! I've always wanted to see {zone}."
+  },
+  "zone_10.ogg": {
+    "line": 10,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[excited] Westfall! Watch out for the Defias. And the dust.",
+    "text": "Westfall! Watch out for the Defias. And the dust."
+  },
+  "zone_11.ogg": {
+    "line": 11,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[excited] Home sweet Stormwind!",
+    "text": "Home sweet Stormwind!"
+  },
+  "zone_12.ogg": {
+    "line": 12,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[impressed] Ironforge! Short ceilings for everyone else, perfect for us.",
+    "text": "Ironforge! Short ceilings for everyone else, perfect for us."
+  },
+  "zone_13.ogg": {
+    "line": 13,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[curious] Duskwood. Let's stay close to the lanterns.",
+    "text": "Duskwood. Let's stay close to the lanterns."
+  },
+  "zone_14.ogg": {
+    "line": 14,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[excited] Dun Morogh! I should have brought a scarf.",
+    "text": "Dun Morogh! I should have brought a scarf."
+  },
+  "zone_15.ogg": {
+    "line": 15,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "spoken": "[excited] Elwynn Forest, where every adventure starts.",
+    "text": "Elwynn Forest, where every adventure starts."
+  },
+  "zone_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Ooh, somewhere new. Keep an eye out for new friends!",
+    "spoken": "[excited] Ooh, somewhere new. Keep an eye out for new friends!",
+    "text": "Ooh, {zone}. Keep an eye out for new friends!"
+  },
+  "zone_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "So this is the place. It's bigger from down here.",
+    "spoken": "[impressed] So this is the place. It's bigger from down here.",
+    "text": "So this is {zone}. It's bigger from down here."
+  },
+  "zone_4.ogg": {
+    "line": 4,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Welcome, welcome! I'll be your tiny tour guide.",
+    "spoken": "[impressed] Welcome, welcome! I'll be your tiny tour guide.",
+    "text": "Welcome to {zone}! I'll be your tiny tour guide."
+  },
+  "zone_5.ogg": {
+    "line": 5,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "I've heard stories about this place. Mostly good ones.",
+    "spoken": "[impressed] I've heard stories about this place. Mostly good ones.",
+    "text": "{zone}. I've heard stories. Mostly good ones."
+  },
+  "zone_6.ogg": {
+    "line": 6,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "New place, new people! Let's say hi to everyone.",
+    "spoken": "[excited] New place, new people! Let's say hi to everyone.",
+    "text": "New place, new people! Let's say hi to everyone in {zone}."
+  },
+  "zone_7.ogg": {
+    "line": 7,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Mark it down: we've been here!",
+    "spoken": "[excited] Mark it down: we've been here!",
+    "text": "Mark it down: we've been to {zone}!"
+  },
+  "zone_8.ogg": {
+    "line": 8,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Smell that? That's adventure. Or a farm.",
+    "spoken": "[curious] Smell that? That's adventure. Or a farm.",
+    "text": "{zone}! Smell that? That's adventure. Or a farm."
+  },
+  "zone_9.ogg": {
+    "line": 9,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": "Is it me, or does this place feel friendly?",
+    "spoken": "[curious] Is it me, or does this place feel friendly?",
+    "text": "Is it me, or does {zone} feel friendly?"
+  }
+}

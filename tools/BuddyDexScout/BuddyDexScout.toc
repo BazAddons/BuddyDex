@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: BuddyDex Scout
+## Notes: Developer tool for BuddyDex: logs every NPC you meet so BuddyDex entries can be written. Players do not need it. /bdscout
+## Author: Baz4k
+## X-License: GPL-2.0-or-later
+## Version: 001
+## IconTexture: Interface\Icons\INV_Misc_Spyglass_03
+## SavedVariables: BuddyDexScoutDB
+
+Core\Namespace.lua
+Core\Database.lua
+Scout\Scout.lua
+Scout\Sweep.lua
+UI\List.lua

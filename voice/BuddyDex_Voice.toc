@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: BuddyDex Voice
+## Notes: Recorded voices for your BuddyDex Mini Me and the friends who come along. Turn voices on or off in /bd options.
+## Author: Baz4k
+## X-License: GPL-2.0-or-later
+## Version: 001
+## Dependencies: BuddyDex
+## IconTexture: Interface\Icons\Achievement_Character_Gnome_Male
+
+Manifest.lua

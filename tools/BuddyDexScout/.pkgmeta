@@ -1,0 +1,5 @@
+package-as: BuddyDexScout
+
+# LICENSE ships: the GPL requires a copy with the program.
+ignore:
+  - .pkgmeta

@@ -1,0 +1,33 @@
+## Interface: 16001
+## Title: BuddyDex
+## Notes: Befriend the NPCs of Azeroth and collect them in your BuddyDex. /bd
+## Author: Baz4k
+## X-License: GPL-2.0-or-later
+## Version: 001
+## IconTexture: Interface\Icons\Achievement_Character_Gnome_Male
+## SavedVariables: BuddyDexDB
+## SavedVariablesPerCharacter: BuddyDexCharDB
+## AddonCompartmentFunc: BuddyDex_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: BuddyDex_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: BuddyDex_OnAddonCompartmentLeave
+
+Core\Namespace.lua
+Data\Art.lua
+Data\Moves.lua
+Data\Lore.lua
+Data\Lines.lua
+Data\NpcLines.lua
+Data\NpcSounds.lua
+Core\Database.lua
+Core\Friendship.lua
+Core\Waypoint.lua
+Core\Voice.lua
+UI\Toast.lua
+UI\MiniMe.lua
+UI\Companion.lua
+Core\Reactions.lua
+UI\DexList.lua
+UI\DexDetail.lua
+UI\Pages.lua
+UI\DexFrame.lua
+Core\Commands.lua
