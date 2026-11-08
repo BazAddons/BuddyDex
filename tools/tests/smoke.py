@@ -52,7 +52,7 @@ BUILTINS = {
 }
 
 # Saved variables of the other addon, read on purpose.
-EXPECTED_FOREIGN = {"BuddyDexDB", "AzerBuddyProbeAccountDB", "BuddyDexVoicePack", "TomTom"}
+EXPECTED_FOREIGN = {"BuddyDexDB", "AzerBuddyProbeAccountDB", "TomTom"}
 # Missing from the generated lists but confirmed in this client: PlaySoundFile
 # by the probe's scan of globals (it reported "function"), StopSound by
 # Blizzard's own code calling it.
@@ -140,6 +140,23 @@ end
 
 BUDDYDEX = r"""
 local ns = MOCK.ns
+
+step("the main addon loads its bundled voices", function()
+    assert(ns.Voice.HasPack(), "the main TOC did not load the recordings")
+    assert(ns.VoicePack.path == "Interface\\AddOns\\BuddyDex\\voice\\", "wrong bundled audio path")
+    local line, file = next(ns.VoicePack.voices.male)
+    assert(line and file, "no bundled male recordings")
+    MOCK.soundFiles = {}
+    assert(ns.Voice.PlayClip(line, "male"), "bundled clip did not play")
+    assert(MOCK.soundFiles[1] == ns.VoicePack.path .. file, "wrong playback path")
+    -- An obsolete standalone pack cannot override the private manifest.
+    _G["BuddyDexVoicePack"] = { path = "obsolete/", voices = {} }
+    assert(ns.Voice.PlayClip(line, "male"), "obsolete addon replaced bundled voices")
+    _G["BuddyDexVoicePack"] = nil
+    ns.Voice.Stop()
+    MOCK.soundFiles = {}
+end)
+ns.VoicePack = nil
 
 -- Friendly NPCs to make friends with, and ones that must never count.
 local LYMPKIN = { guid = "Creature-0-1-2-3-8720-0000AB", npcID = 8720, name = "Auctioneer Lympkin",
@@ -711,7 +728,7 @@ step("the Mini Me steps onto the screen and says hello", function()
         for _, line in ipairs(ns.Lines[key] or {}) do greetings[#greetings + 1] = line end
     end
     assert(FromPile(said, greetings), "not a greeting: " .. tostring(said))
-    assert(#MOCK.spoken == 0 and #MOCK.soundFiles == 0, "a sound without the voice addon")
+    assert(#MOCK.spoken == 0 and #MOCK.soundFiles == 0, "a sound without voice recordings")
     assert(Actor() and Actor().__anim and Actor().__anim ~= 0, "no gesture with the greeting")
     -- Framed by where the model lands, not the camera's guess: feet to head,
     -- five sixths of the frame's height, whichever way the field of view runs.
@@ -792,23 +809,23 @@ step("a new Buddy gets a celebration", function()
     assert(anim == 68 or anim == 69 or anim == 80, "no celebration: " .. tostring(anim))
 end)
 
-step("the recorded voice: his clips, her clips, none without the addon or with it off", function()
+step("the recorded voice: his clips, her clips, none without recordings or with voice off", function()
     Quiet()
     local male, female = {}, {}
     for _, line in ipairs(ns.Lines.poke) do
         local text = type(line) == "table" and line[1] or line
         male[text], female[text] = "male\\poke.ogg", "female\\poke.ogg"
     end
-    BuddyDexVoicePack = { version = 1, path = "Interface\\AddOns\\BuddyDex_Voice\\",
+    ns.VoicePack = { version = 1, path = "Interface\\AddOns\\BuddyDex\\voice\\",
         voices = { male = male, female = female } }
-    assert(ns.Voice.Mode() == "recorded", "no recorded voice with the addon installed")
+    assert(ns.Voice.Mode() == "recorded", "no recorded voice with recordings loaded")
     MOCK.soundFiles = {}
     ns.Companion.SayLine("poke")
-    assert(MOCK.soundFiles[1] == "Interface\\AddOns\\BuddyDex_Voice\\male\\poke.ogg", "his clip did not play")
+    assert(MOCK.soundFiles[1] == "Interface\\AddOns\\BuddyDex\\voice\\male\\poke.ogg", "his clip did not play")
     Quiet()
     MOCK.units.player.sex = 3
     ns.Companion.SayLine("poke")
-    assert(MOCK.soundFiles[2] == "Interface\\AddOns\\BuddyDex_Voice\\female\\poke.ogg", "her clip did not play")
+    assert(MOCK.soundFiles[2] == "Interface\\AddOns\\BuddyDex\\voice\\female\\poke.ogg", "her clip did not play")
     MOCK.units.player.sex = 2
     Quiet()
     FireAll("PLAYER_LEVEL_UP", 18)
@@ -818,8 +835,8 @@ step("the recorded voice: his clips, her clips, none without the addon or with i
     ns.Companion.SayLine("poke")
     assert(Saying() and #MOCK.soundFiles == 2, "spoke with the voice off")
     ns.Companion.SetSetting("voiceMode", "recorded")
-    BuddyDexVoicePack = nil
-    assert(ns.Voice.Mode() == "off", "a voice without the addon")
+    ns.VoicePack = nil
+    assert(ns.Voice.Mode() == "off", "a voice without recordings")
 end)
 
 step("new gear redresses the Mini Me once the swap settles", function()
@@ -1100,8 +1117,8 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     -- A gnome friend speaks in the Mini Me's recorded gnome voices instead,
     -- line by line. Thor, a human, has a recorded voice too, but this pack
     -- lacks it (an older pack), so he keeps the game's sounds.
-    local savedPack = BuddyDexVoicePack
-    BuddyDexVoicePack = { path = "Interface\\AddOns\\BuddyDex_Voice\\",
+    local savedPack = ns.VoicePack
+    ns.VoicePack = { path = "Interface\\AddOns\\BuddyDex\\voice\\",
         voices = { female = { ["Lead the way, {name}."] = "female\\npc_greet_1.ogg" } } }
     assert(ns.Voice.NpcVoice(139800) == "female" and ns.Voice.NpcVoice(3263) == "human-male",
         "voices by race and sex")
@@ -1114,7 +1131,7 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     assert(not ns.Voice.Farewell(139800), "a gnome friend said the game's farewell")
     assert(ns.Voice.Speak({ display = 3263, moment = "greet", line = "Lead the way, {name}." }) and Played(5974),
         "Thor lost his own voice to the pack")
-    BuddyDexVoicePack = savedPack
+    ns.VoicePack = savedPack
 
     Quiet()
     MOCK.Fire(BuddyDexCompanion, "OnClick", "LeftButton")

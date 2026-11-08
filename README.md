@@ -41,9 +41,11 @@ Written entries open a page at a time as a friendship grows:
 
 Any friend at Buddy or better can come along in your Mini Me's place, drawn true to size, with lines of their own.
 
-### Voices (optional)
+### Voices
 
-The **BuddyDex Voice** addon adds recorded voices: your Mini Me in a gnome voice, and friends of every Alliance race (human, dwarf, night elf, gnome and Skyborne) in voices of their own. Without it, everyone speaks in speech bubbles, and friends use the sounds the game gives them.
+Recorded voices are built into **BuddyDex**: your Mini Me in a gnome voice, and friends of every Alliance race (human, dwarf, night elf, gnome and Skyborne) in voices of their own. Turn Voice off in `/bd options` for speech bubbles only. Other NPC races use the sounds the game gives them when Voice is on. There is one addon folder and no separate voice pack to install.
+
+**Upgrading from the separate voice addon?** Remove the old `BuddyDex_Voice` folder from your AddOns directory; BuddyDex now includes those recordings. Your BuddyDex friendships and settings are kept.
 
 ***
 

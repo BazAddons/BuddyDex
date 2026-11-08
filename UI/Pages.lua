@@ -534,7 +534,7 @@ function Pages.BuildBuddy(page)
     local voice = NewColumn(inset, 450, -18, 400)
     AddHeading(voice, "Voice")
     AddChoice(voice, "voiceMode", "Voice", { { "recorded", "On" }, { "off", "Off" } },
-        "Your Mini Me's own voice, recorded for BuddyDex, comes with the BuddyDex Voice addon. Gnome friends speak in these voices too; other friends who come along use their own voices from the game. The game's dialog volume sets how loud. The chat bubble always shows the words.")
+        "Recorded voices are included with BuddyDex for your Mini Me and supported NPC races. Other friends use their own voices from the game. Turn Voice off here for speech bubbles only. The game's dialog volume sets how loud. The chat bubble always shows the words.")
     local test = CreateFrame("Frame", nil, inset)
     test:SetSize(400, 24)
     Place(voice, test, 0, 10)

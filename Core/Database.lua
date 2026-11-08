@@ -37,7 +37,7 @@ local DEFAULTS = {
         announce = true, toasts = true, sounds = true,
         -- The buddy on screen (UI/Companion.lua, Core/Voice.lua, Core/Reactions.lua)
         companion = true,
-        voiceMode = "recorded",     -- "recorded" (the BuddyDex Voice addon's clips) or "off"
+        voiceMode = "recorded",     -- "recorded" (the bundled voice clips) or "off"
         chattiness = 50,            -- how much it talks, 0 (only when spoken to) to 100
         echoChat = false,           -- also prints what the buddy says in chat
         combat = "stay",            -- "stay" (on screen, quiet, clicks pass through) or "hide"

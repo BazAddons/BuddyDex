@@ -5,7 +5,7 @@ local ADDON_NAME, ns = ...
 -- the player's armor standing on the screen, BonziBuddy style: drag it
 -- anywhere, click to poke it, right-click for its menu. It talks in a chat
 -- bubble, the words fading in like quest text, and in its own recorded
--- voice when the BuddyDex Voice addon is installed (Core/Voice.lua). Core/Reactions.lua decides what it
+-- voice included with BuddyDex (Core/Voice.lua). Core/Reactions.lua decides what it
 -- says and when; this file draws it, animates it, picks its lines and
 -- applies the buddy options.
 --
@@ -500,7 +500,7 @@ function Companion.TestVoice()
     local voice = ns.Voice
     if not (voice and voice.Test) then return end
     if not voice.HasPack() then
-        ns.Print("Your Mini Me's voice comes with the BuddyDex Voice addon. Install it to hear it.")
+        ns.Print("The bundled voice recordings are unavailable. Reinstall BuddyDex to restore them.")
     elseif not voice.Test(MiniMeSex()) then
         ns.Print("No recordings in this voice yet.")
     end

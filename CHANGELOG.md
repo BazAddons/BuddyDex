@@ -24,7 +24,7 @@ Ironforge are the first.
 your Mini Me's place, drawn true to size (a human stands twice a gnome's
 height), with their own lines and hundreds of general ones.
 
-**Voices.** The optional BuddyDex Voice addon gives your Mini Me a
+**Voices included.** BuddyDex gives your Mini Me a
 recorded gnome voice, and friends of every Alliance race (human, dwarf,
 night elf, gnome and Skyborne) recorded voices of their own. Everyone
 else speaks with the sounds the game gives them.

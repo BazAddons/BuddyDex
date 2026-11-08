@@ -2,11 +2,11 @@
 local ADDON_NAME, ns = ...
 
 -- Core/Voice.lua: buddies' voices (ns.Voice). The Mini Me's is recorded
--- for BuddyDex with ElevenLabs and shipped in the optional BuddyDex Voice
--- addon (BuddyDexVoicePack: clips keyed by each line's exact text, in a
--- male and a female gnome voice; tools/voice/generate.py makes them). The
--- goal is every line recorded; until then a line without a clip speaks in
--- the chat bubble alone. A friend of a race with recorded voices
+-- for BuddyDex with ElevenLabs and included in voice/
+-- (ns.VoicePack: clips keyed by each line's
+-- exact text, in a male and a female gnome voice; tools/voice/generate.py
+-- makes them). The goal is every line recorded; until then a line without
+-- a clip speaks in the chat bubble alone. A friend of a race with recorded voices
 -- (RACE_VOICES: humans, dwarves, night elves, Skyborne, and gnomes in the
 -- Mini Me's own two voices) speaks their lines the same way. Any other friend, or any friend without the pack, speaks in
 -- the voice the game gives their model (Data/NpcSounds.lua): their own
@@ -24,13 +24,13 @@ local function Settings()
     return ns.db and ns.db.settings or {}
 end
 
--- Whether the BuddyDex Voice addon is installed.
+-- Whether the bundled recordings are loaded.
 function Voice.HasPack()
-    local pack = BuddyDexVoicePack
+    local pack = ns.VoicePack
     return type(pack) == "table" and type(pack.voices) == "table" and type(pack.path) == "string"
 end
 
--- "recorded" with the voice on and the pack installed, else "off".
+-- "recorded" with the voice on and the recordings loaded, else "off".
 function Voice.Mode()
     if Settings().voiceMode == "off" or not Voice.HasPack() then return "off" end
     return "recorded"
@@ -45,7 +45,7 @@ end
 -- the Mini Me's sex (0 male, 1 female).
 local function Clips(voice)
     if type(voice) ~= "string" then voice = voice == 1 and "female" or "male" end
-    local clips = BuddyDexVoicePack.voices[voice]
+    local clips = ns.VoicePack.voices[voice]
     return type(clips) == "table" and clips or nil
 end
 
@@ -57,7 +57,7 @@ function Voice.PlayClip(line, voice)
     local file = clips and clips[line]
     if type(file) ~= "string" then return false end
     Voice.Stop()
-    local ok, willPlay, handle = pcall(PlaySoundFile, BuddyDexVoicePack.path .. file, "Dialog")
+    local ok, willPlay, handle = pcall(PlaySoundFile, ns.VoicePack.path .. file, "Dialog")
     if not ok or willPlay == false then return false end
     clipHandle = handle
     return true
@@ -129,7 +129,7 @@ function Voice.PlayNpc(display, kind)
 end
 
 -- The recorded voice a friend speaks in: their race's, when the voice is on
--- and the installed pack has it (an older pack may not), else nil.
+-- and the bundled recordings have it, else nil.
 local function RecordedVoice(display)
     if Voice.Mode() ~= "recorded" then return nil end
     local voice = Voice.NpcVoice(display)

@@ -4,6 +4,9 @@ manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
 
+# Recorded voices ship inside BuddyDex. The generator's per-voice
+# manifest.json files stay behind.
+
 # LICENSE is deliberately not ignored: the GPL requires a copy of the
 # license to be distributed with the program, so it ships in the package.
 ignore:
@@ -16,4 +19,4 @@ ignore:
   - DEVELOPERS.md
   - docs
   - tools
-  - voice
+  - voice/*/manifest.json

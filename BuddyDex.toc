@@ -21,6 +21,7 @@ Data\NpcSounds.lua
 Core\Database.lua
 Core\Friendship.lua
 Core\Waypoint.lua
+voice\Manifest.lua
 Core\Voice.lua
 UI\Toast.lua
 UI\MiniMe.lua
