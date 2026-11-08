@@ -11,7 +11,9 @@ manual-changelog:
 # license to be distributed with the program, so it ships in the package.
 ignore:
   - .git
+  - .github
   - .gitignore
+  - .DS_Store
   - .pkgmeta
   - CHANGELOG.md
   - README.md

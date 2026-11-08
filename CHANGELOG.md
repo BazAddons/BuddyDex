@@ -1,30 +1,33 @@
-# BuddyDex Changelog
+# BuddyDex v001 - Initial Release
 
-## 001 — First release
+The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziBuddy-style companion and an NPC friendship collection to Azeroth.
 
-**Meet your Mini Me.** A pocket-sized gnome version of you, in your own
-armor, stands on your screen and keeps you company. It talks in speech
-bubbles, cheers when you level, reacts to fights, flights, loot, mail and
-your emotes, and naps when you step away. Hundreds of lines, drawn so they
-rarely repeat. Drag it anywhere, resize it, or let clicks pass through.
+### Your Mini Me
 
-**Befriend the NPCs of Azeroth.** Talk, trade, train, travel and quest
-with the people of the world, and they become your friends. Every friend
-goes into your BuddyDex: their 3D model, where to find them (with a
-waypoint, TomTom first), their moves, and a friendship that grows from
-Stranger to Best Friend. Find each friend's favorite emote for a bonus.
+- A gnome Mini Me wearing your character's armor, updated when you change gear.
+- Animated reactions and speech bubbles for quests, combat, level-ups, travel, and more.
+- Hundreds of dialogue lines, with shuffled selections to reduce repetition.
+- Built-in recorded voices and an adjustable chattiness setting.
 
-**Every friend has a story.** Written BuddyDex entries unlock a page at a
-time as a friendship grows: what they say, what they like, the word
-around town, their story and backstory, a secret, and something only a
-best friend hears. Thor of Sentinel Hill and Auctioneer Lympkin of
-Ironforge are the first.
+### NPC Friendships and Collection
 
-**Bring a friend along.** Any friend at Buddy or better can come along in
-your Mini Me's place, drawn true to size (a human stands twice a gnome's
-height), with their own lines and hundreds of general ones.
+- Build friendships by talking, visiting merchants and trainers, using services, interacting with quest givers, and sharing emotes.
+- Progress through six tiers, from Stranger to Best Friend.
+- Discover each NPC's favorite emote for bonus friendship.
+- Browse your friends in a searchable journal with 3D models, animation previews, and friendship progress.
+- Set waypoints to friends' last recorded meeting locations, with TomTom support when available.
 
-**Voices included.** BuddyDex gives your Mini Me a
-recorded gnome voice, and friends of every Alliance race (human, dwarf,
-night elf, gnome and Skyborne) recorded voices of their own. Everyone
-else speaks with the sounds the game gives them.
+### Bring a Buddy Along
+
+- Choose an NPC at Buddy tier or higher to take your Mini Me's place on screen.
+- Enjoy companion dialogue, animations, and recorded voices for supported NPC races.
+- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Thor and Auctioneer Lympkin are the first.
+
+### Make It Your Own
+
+- Adjust companion size, transparency, facing, weapon visibility, and screen position.
+- Choose combat and instance visibility, lock the companion in place, or enable click-through.
+- Turn voices on or off in `/bd options`. All recordings are included in one addon; no separate voice pack is required.
+- Share your friendship collection across your account while choosing a companion for each character.
+
+**Getting started:** Type `/bd` or `/buddydex` to open BuddyDex.
