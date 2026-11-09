@@ -41,6 +41,66 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brother Crowley: human male Scarlet Crusade emissary, Cathedral of Light.
+    -- Scout/Forever display 13049; Classic/installed quest 6141 sends aid to
+    -- Brother Anton at Nijel's Point. Full 261/1052/1053 chain includes
+    -- Raleigh's condemnation of Scarlet persecution, not Crowley's conversion.
+    -- Personal correspondence and expansive postscripts are original.
+    -- Sources and version boundaries: docs/research/crowley-and-farthing.md.
+    [12336] = {
+        quote = "Resolve must amount to more than a fine speech. Anton went to Desolace when he heard the need. Remember that before offering me a grand promise.",
+        likes = { "A promise followed by action", "A clear report from the road", "The postscript of a personal letter" },
+        dislikes = { "Bravery claimed without being tested", "A message left unfinished", "Running out of room before signing" },
+        gossip = "Crowley can make a request sound like a summons. His personal letters apparently take a less direct route to their conclusion.",
+        bio = "Brother Crowley represents the Scarlet Crusade in Stormwind's Cathedral of Light. He directs willing adventurers to his brother-in-arms Anton at Nijel's Point in Desolace, seeking courage and resolve against the undead.",
+        backstory = "He begins personal letters with a clear purpose and carefully measured space. Once the business is finished, he remembers a question, then a detail worth sharing. His postscripts have developed a habit of overtaking the original message.",
+        secret = "He likes receiving those extra lines too: some small account of a day, added after the important news. He reads them before putting a personal letter away.",
+        bestFriend = "Tell me the rest, my friend. You have delivered the important news. There is still time to hear what you nearly left out.",
+        favorite = { emote = "SALUTE", hint = "An earnest show of readiness carries more weight here than an elaborate introduction." },
+        lines = {
+            greet = { { "There you are, my friend. Have you news of the road? Come, we can walk while you tell me. And do include the details you thought too small to mention.", tone = "[formal warmth, firm measured delivery, interested]" }, "Good. You are here. Shall we hear what the day requires?" },
+            idle = { { "I leave space for my signature. Then I add a question, and a detail I had nearly forgotten. By the time the letter is finished, the signature has been driven into a corner. Again.", tone = "[dry restrained humor, precise, privately amused]" }, "Anton heard of the undead in Desolace and booked passage. There is resolve put into practice.", "A clear message need not be a long one. I am occasionally reminded of this." },
+            befriended = { { "You came to bring me along. Very well, my friend. I shall be glad of your company. Tell me how you have been; there is time for more than the formal report.", tone = "[reserved affection, dignified, warmly inviting]" } },
+            poke = { "Yes? Have you something to add?", "You have my attention. Speak plainly." },
+            mail = { { "A letter? Read it through. Even the lines added at the end may be worth your time. Someone remembered another thing they wanted you to know.", tone = "[attentive, reflective warmth, deliberate]" } },
+            quest = { "You followed through. A promise gains weight when it is kept." },
+            combatEnd = { "Steady. See what remains to be done before declaring the work finished." },
+            zone = { "Another stretch of road. Keep your eyes open and your account of it clear." },
+            rest = { "Sit, if you need it. Resolve is not improved by ignoring exhaustion." },
+            learned = { "Then put the lesson into practice. That will tell you what you have learned." },
+            hearth = { "Back to Stormwind. I have a letter to finish, if there is still room on the page." },
+        },
+    },
+    -- Bishop Farthing: human male bishop in the Cathedral of Light, display
+    -- 5548. Seeking Wisdom 269/The Doomed Fleet 270: reads Jitters' journal,
+    -- identifies Morbent Fel's protection, refers the hero to Glorin Steelbrow.
+    -- Full Sven-to-Morbent chain and both journals researched. Later retail
+    -- Twilight Deacon/Xal'atath events excluded. Leisure reading is original.
+    -- Sources and version boundaries: docs/research/crowley-and-farthing.md.
+    [1212] = {
+        quote = "Rest a moment, and tell me what has brought you here. We shall make better sense of the trouble once I have heard you through.",
+        likes = { "A visitor given time to explain", "Preparation suited to the danger", "A familiar chapter read for pleasure" },
+        dislikes = { "Sending courage where preparation fails", "An account dismissed before it is read", "Counting every quiet hour as wasted" },
+        gossip = "Farthing has a list of books for a quiet afternoon. At the rate he adds to it, he may require considerably more than an afternoon.",
+        bio = "Bishop Farthing receives visitors in Stormwind's Cathedral of Light. Sven trusts his counsel. Faced with Morbent Fel's protective magic, he directs the search for Lightforge Iron through his dwarven colleague Glorin Steelbrow.",
+        backstory = "For his leisure reading, Farthing keeps a list that grows faster than he works through it. There is always another volume to consider. Yet a familiar book often comes off the shelf first, opened to a chapter he already knows well.",
+        secret = "The marker in that familiar book scarcely moves. He keeps returning to the same chapter because he enjoys it. For once, he sees no need to turn pleasure into a task.",
+        bestFriend = "Stay a little, my friend. There needn't be a difficult question waiting between us. I should be glad simply to hear about your day.",
+        favorite = { emote = "BOW", hint = "A courteous acknowledgment makes a fitting beginning to a thoughtful conversation." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you come far? We can take our time. Tell me what has occupied your thoughts, or simply what you noticed on the way.", tone = "[calm hospitality, reflective, gently interested]" }, "Welcome. Shall we have a little time together?" },
+            idle = { { "My reading list continues to grow. Then I take down a familiar book and read the same chapter again. I enjoy it. That seems a sufficient use of a quiet hour.", tone = "[thoughtful amusement, unhurried, confiding]" }, "A troubling account deserves to be heard before we decide what it means.", "Courage matters. So does knowing what the danger requires of you." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come. We need not begin with a difficult question. Your company is welcome for its own sake.", tone = "[gentle affection, sincere pleasure, welcoming]" } },
+            poke = { "Yes? Tell me what is on your mind.", "I am listening. Take the time you need." },
+            rest = { { "A little rest would be wise. Sit a moment. You can tell me what has been troubling you, or we can simply enjoy a quiet pause together.", tone = "[soothing, patient hospitality, unhurried]" } },
+            quest = { "Well done. Give yourself a moment before taking up the next burden." },
+            learned = { "Consider what this changes. A lesson is useful when we understand where it belongs." },
+            gear = { "Will it meet the danger you expect? That is a question worth answering before you set out." },
+            combatEnd = { "Take a breath. Attend to your wounds before considering the next step." },
+            mail = { "Read it carefully. The writer may be trusting you with more than the words first suggest." },
+            hearth = { "Back to Stormwind. There may yet be time for a familiar chapter." },
+        },
+    },
 
     -- Limited Immunity: Osric Strang 1323 and Wilhelm Strang 1341, human
     -- male heavy/mail armor merchants. Osric supplies Lewis through the

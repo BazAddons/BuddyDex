@@ -1,0 +1,45 @@
+# Brother Crowley and Bishop Farthing
+
+Researched November 9, 2026 for Forever. Their shared Cathedral location does not make Farthing a Scarlet Crusader or Crowley a spokesman for every priest. The entries use present Classic/Forever roles; their private hobbies are original BuddyDex writing.
+
+## Identity and eligibility
+
+Installed Scout records Brother Crowley **12336**, Scarlet Crusade Emissary, level 44, one sighting, and Bishop Farthing **1212**, level 40, three sightings. Both are male (unit sex 2), normal Alliance-friendly Humanoids (type 7, reaction 5), Cathedral of Light, Stormwind City, map 1453, without an attackable flag. Both are individually named and qualify through friendly interactions or emotes. Titles alone would not qualify a generic role.
+
+Current public nodes for [Crowley](https://forever.warcraftdb.com/api/data/node/npc/12336) and [Farthing](https://forever.warcraftdb.com/api/data/node/npc/1212) identify humans and display **13049** and **5548**, matching the [Classic Crowley](https://classicdb.ch/?npc=12336) and [Classic Farthing](https://classicdb.ch/?npc=1212) identities. The current nodes omit level/reaction/service data and contain only screenshots/comments tabs; Scout supplies the observed level and friendliness. Client body metadata routes both displays to human male. No exact-ID installed gossip entry was found; neither is assigned a trainer or merchant service on that basis.
+
+## Crowley: the full recruitment chain
+
+Read objectives, descriptions, progress and completion where present for [Brother Anton 6141](https://classicdb.ch/?quest=6141), [Down the Scarlet Path 261](https://classicdb.ch/?quest=261), [Down the Scarlet Path 1052](https://classicdb.ch/?quest=1052) and [In the Name of the Light 1053](https://classicdb.ch/?quest=1053). Crowley calls Anton his brother-in-arms, describes Anton sailing for Desolace to fight the undead, and sends brave, resolved volunteers to Nijel's Point. This establishes a colleague, not a biological brother or a shared personal military history beyond the stated bond.
+
+Anton demands thirty undead ravagers in the Valley of Bones, praises resolve, and gives a sealed commendation to Raleigh the Devout in Southshore, expecting a place of honor in the Monastery. Raleigh instead explains that he left the Crusade after witnessing its persecution and torture of innocent people. He orders the deaths of Whitemane, Mograine, Herod and Loksey, and regards the result as saving innocents. This is a present Classic contradiction in the recruitment route, not merely later retail corruption. It does not establish that Crowley has learned Raleigh's position, recanted, personally tortured someone or secretly joined Raleigh. The entry preserves his firm Scarlet recruiting role without inventing either conversion or specific atrocities.
+
+The whole installed 6141 offer/completion corroborates Crowley's direction to Anton. The current public [quest 6141 node](https://forever.warcraftdb.com/api/data/node/quest/6141) returned 404; that does not prove the quest was removed. [Letter of Commendation 5539](https://classicdb.ch/?item=5539) exposes no readable Book pages; the seal and recommendation come from 1052, not an invented full letter. The [Crowley biography](https://warcraft.wiki.gg/wiki/Brother_Crowley) locates him in the Cathedral's lower levels. Its possible Crowley family ties and real-world name allusion are not personal history. The reported Classic disappearance after accepting 6141 is not a promise about Forever availability. No relevant Warcraft book/comic episode was established; unrelated real-world Crowley literature was excluded.
+
+## Farthing: the complete Sven/Morbent sequence
+
+Read the full available objectives, descriptions, progress and completion for all fifteen steps:
+
+- [Sven's Revenge 95](https://classicdb.ch/?quest=95), [Sven's Camp 230](https://classicdb.ch/?quest=230), [The Shadowy Figure 262](https://classicdb.ch/?quest=262), [The Shadowy Search Continues 265](https://classicdb.ch/?quest=265), [Inquire at the Inn 266](https://classicdb.ch/?quest=266).
+- [Finding the Shadowy Figure 453](https://classicdb.ch/?quest=453), [Return to Sven 268](https://classicdb.ch/?quest=268), [Proving Your Worth 323](https://classicdb.ch/?quest=323), [Seeking Wisdom 269](https://classicdb.ch/?quest=269), [The Doomed Fleet 270](https://classicdb.ch/?quest=270).
+- [Lightforge Iron 321](https://classicdb.ch/?quest=321), [The Lost Ingots 324](https://classicdb.ch/?quest=324), [Blessed Arm 322](https://classicdb.ch/?quest=322), [Armed and Ready 325](https://classicdb.ch/?quest=325), [Morbent Fel 55](https://classicdb.ch/?quest=55).
+
+Sven seeks the witness to his family's murder by Dark Riders. The buried book passes through Madame Eva, Clerk Daltry and Tavernkeep Smitts, whose clues identify Jitters. Jitters supplies his completed journal; Sven connects the Riders to Morbent and tests the adventurer against skeletons before referring them to Farthing. Sven describes Farthing as kind and wise despite Stormwind's neglect of Darkshire. Farthing's progress dialogue offers rest to the weary traveler. His completion reads the journal and listens before identifying the necromancer's protection from physical attacks. He recommends a weapon using Lightforge Iron and sends the hero to his dwarven colleague Glorin Steelbrow at Menethil Harbor.
+
+Glorin describes the Third Fleet's destruction by red dragons and the Flying Osprey's lost cargo. The chest was raided by murlocs; recovered ingots go to Grimand Elmore, who makes Morbent's Bane. Sven then sends the adventurer to strip Morbent's protection and kill him. The ending explicitly leaves the Dark Riders at large. Farthing supplies the diagnosis and first referral, not the recovered metal, forged weapon or final victory. The profile assumes none of these quests has been completed by the player.
+
+Read whole installed offer/completion blocks for 269 and 270. Current public [269](https://forever.warcraftdb.com/api/data/node/quest/269) and [270](https://forever.warcraftdb.com/api/data/node/quest/270) corroborate the journal, Cathedral referral, Lightforge metal and Glorin relationship. Their side field is Both where Classic presents Alliance; the profile does not promise universal faction access or override observed NPC reaction.
+
+Read all **six pages** of [Book from Sven's Farm 2161](https://classicdb.ch/?item=2161), including its blank ending, and all **twenty pages** of [Jitters' Completed Journal 2560](https://classicdb.ch/?item=2560). The former stops after Jitters hides at the farm. The latter explains his Defias work, discovery and loss of the Scythe, worgen attack, the Riders' interrogation and killing of Sven's family, and Jitters' survivor guilt and continuing flight. These are Jitters' eyewitness account and interpretations. They are not Farthing's personal adventures, proof Farthing knows the Scythe's location, or a resolved Dark Rider identity. The quest journal is the relevant readable book; no unverified comic material was needed to expand his biography.
+
+## Later retail and speculation excluded
+
+The [Farthing biography](https://warcraft.wiki.gg/wiki/Farthing) includes his later Twilight's Hammer leadership, service to Benedictus, Deathwing-era developments, Xal'atath, Zakajz, and death in the Legion shadow-priest artifact story. Those later revelations are excluded from the present profile rather than used as a current secret, spell or companion mission. Its speculative Coleman/Yvette family connections are not established relationships. His apparent kindness in the current quest is a basis for his reception of the player, not a claim that all future lore proves him incorruptible. Crowley's colleague Anton's later fate likewise does not replace Nijel's Point with a later Desolace location.
+
+## Original writing and validation
+
+Crowley's carefully planned personal letters and expanding postscripts are invented small habits around an emissary's work. There is no new named correspondent, intercepted letter, hidden quest, mail attachment or confirmed correspondence from Anton. The personal welcome does not require Scarlet allegiance. SALUTE recognizes the readiness his quest requests without adding a Crusade membership system.
+
+Farthing's growing leisure reading list, familiar book and repeatedly enjoyed chapter are original private pleasures. No specific title, text, forbidden doctrine, magical reward or new readable item is claimed. The favorite BOW and patient conversation build on the courteous, practical reception in 269; they do not settle later retail morality.
+
+Each entry has fifteen personal lines and four directed Eleven v4 recordings in the established human male voice. Verification covers layout, supported moments, eligibility, discovery and favorite gains, exact text/model/voice metadata, mappings, mono 22.05 kHz decoding and recorded first-outing welcome playback. Automated verification is separate from human listening or a live game UI review.

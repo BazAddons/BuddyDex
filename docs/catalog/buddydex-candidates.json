@@ -4110,7 +4110,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -5094,7 +5094,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38872,6 +38872,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 1212,
+      "name": "Bishop Farthing",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Bishop Farthing",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 1308,
       "name": "Owen Vaughn",
       "source": "Existing local backlog; absent from source filter",
@@ -39158,6 +39169,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 12336,
+      "name": "Brother Crowley",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Crowley",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 12997,
       "name": "Monty",
       "source": "Existing local backlog; absent from source filter",
@@ -39339,28 +39361,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Billy",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1212,
-      "name": "Bishop Farthing",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Bishop Farthing",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 12336,
-      "name": "Brother Crowley",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Brother Crowley",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,

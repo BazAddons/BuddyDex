@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 154,
-  "remaining_count": 63,
+  "completed_count": 156,
+  "remaining_count": 61,
   "completed": [
     {
       "npc_id": 54,
@@ -256,6 +256,15 @@
     {
       "npc_id": 957,
       "name": "Dane Lindgren",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1212,
+      "name": "Bishop Farthing",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1271,6 +1280,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 12336,
+      "name": "Brother Crowley",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 12480,
       "name": "Melris Malagan",
       "zone": "Stormwind City",
@@ -1490,20 +1508,6 @@
     {
       "npc_id": 1367,
       "name": "Billy",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1212,
-      "name": "Bishop Farthing",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 12336,
-      "name": "Brother Crowley",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
