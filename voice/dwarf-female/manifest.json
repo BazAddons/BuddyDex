@@ -319,6 +319,46 @@
     "text": "A useful find? Good. Take a proper look before someone tells you a grand story about what it must be worth.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore6300_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6300",
+    "spoken": "[warm] [pleased] [gently amused] There you are. I was just thinking you would fit nicely into the part of my camp plan I keep leaving empty. Beside the work, with room to stop and talk. Come along, friend. We can see where the road takes us before I start moving everything around on another sketch.",
+    "text": "There you are. I was just thinking you would fit nicely into the part of my camp plan I keep leaving empty. Beside the work, with room to stop and talk. Come along, friend. We can see where the road takes us before I start moving everything around on another sketch.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore6300_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6300",
+    "spoken": "[friendly] [practical] [bright] Come in, friend. Need a hammer, some flux, or a bit of attention to your equipment? Tell me what you are setting out to do. If you are planning a camp, leave room around the work. A sharpening wheel draws company, and company has a habit of bringing more company along.",
+    "text": "Come in, friend. Need a hammer, some flux, or a bit of attention to your equipment? Tell me what you are setting out to do. If you are planning a camp, leave room around the work. A sharpening wheel draws company, and company has a habit of bringing more company along.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore6300_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6300",
+    "spoken": "[conversational] [amused] I drew a fine camp plan once. Every tool had its place. Then I pictured someone waiting to sharpen a blade, and someone else stopping for a chat. Had to move everything. The next sketch needed more room. I suspect I am planning for the visitors as much as the work now.",
+    "text": "I drew a fine camp plan once. Every tool had its place. Then I pictured someone waiting to sharpen a blade, and someone else stopping for a chat. Had to move everything. The next sketch needed more room. I suspect I am planning for the visitors as much as the work now.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore6300_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:6300",
+    "spoken": "[instructive] [encouraging] [matter-of-fact] A sharpening wheel can make a useful addition to a camp. Learn your craft, then give the work a proper place in the wilderness. Remember the campfire first. A cooking trainer can help with that. You would be surprised how quickly an ambitious plan can get ahead of its most basic preparations.",
+    "text": "A sharpening wheel can make a useful addition to a camp. Learn your craft, then give the work a proper place in the wilderness. Remember the campfire first. A cooking trainer can help with that. You would be surprised how quickly an ambitious plan can get ahead of its most basic preparations.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore7292_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

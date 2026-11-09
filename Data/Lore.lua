@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kamari <Journeyman Leatherworker>, Kodohide Leatherworkers,5811/4350.
+    -- Adult female Orc, Horde-friendly.96875 supplies Orgrimmar building
+    -- hides;96877 admires Halikor trophy. Gossip refers students to Karolek.
+    -- Roof-pointing anecdote is original; no rug species or skinning claim.
+    -- Research: docs/research/kamari-and-elisa-queue.md.
+    [5811] = {
+        quote = "That hide is too thick for your armor? Then perhaps it will shelter a whole room. Learn to recognize a useful beast after you have killed it.",
+        likes = { "Thick hides put to proper use", "A hunt worth boasting about", "Work that makes Orgrimmar stronger" },
+        dislikes = { "The centaur escaping a good hunt", "The Alliance getting comfortable", "Fine material wasted through ignorance" },
+        gossip = "Ask Kamari about a fine trophy and she may point above your head. A good roof gives her something to boast about long after a hunt.",
+        bio = "Kamari teaches leatherworking in Orgrimmar and sends advanced students to Karolek. She commissions Thunder Ridge hides for the city's walls and roofs, and admires the trophy brought from Halikor. A useful hide need not become armor.",
+        backstory = "A visitor asked which kill made her proudest. Kamari pointed to a well-covered roof. While the visitor searched for an enormous mounted head, she explained how many people could shelter beneath a properly worked hide. Then she enjoyed the confusion.",
+        secret = "She likes seeing a visitor look up after she points out her work. For a moment they see more of Orgrimmar than another row of buildings.",
+        bestFriend = "There. Look up. Good work above us, solid ground below, and a friend worth walking beside. We have made a fine city of it.",
+        favorite = { emote = "NOD", hint = "A firm sign of agreement suits a craftswoman who expects you to recognize good work when she points it out." },
+        lines = {
+            greet = { { "Look up before you hurry past. See that roof? People remember a fine set of armor, but a good hide can shelter more than one warrior. Orgrimmar needs both. If you are going hunting, bring back something worth working. And if the beast gave you a fight, I will hear about that too.", tone = "[gruff] [proud] [brisk]" },
+                "Back again? Good. Tell me what you have killed, made, or learned since we spoke." },
+            idle = { { "Someone asked me which trophy made me proudest. I pointed to a roof. You should have seen the fool searching for the head! A thick hide is good for more than a warrior's shoulders. Let the rain come. People beneath sound work have something better to do than admire their own armor.", tone = "[gravelly] [amused] [confident]" },
+                "A beast that puts up a fight should leave you with a story and something useful.",
+                "Karolek can take your leatherworking further when my lessons are done. Do not mistake that for permission to forget them." },
+            befriended = { { "You know what I like about you? You stop and look when I show you something worth seeing. Come on, friend. We will walk a while. I may point out a roof or two. You can tell me about your own work, and I will decide whether you are boasting enough about it.", tone = "[warm] [gruff] [wry]" } },
+            poke = { "What? Have you found something worth my attention?", "I heard you. Speak plainly." },
+            learned = { { "The lizards of Thunder Ridge have hides too thick for most armor. That does not make them worthless. Peons need sturdy material for the walls and roofs as Orgrimmar grows. Learn what a hide is good for before cutting it. A careless worker can waste the best part of a difficult hunt.", tone = "[instructive] [firm] [proud]" } },
+            loot = { "Now judge what you have found. Something unfit for armor may still earn its place." },
+            quest = { "Do the work properly. Someone else must live with what you hand over." },
+            zone = { "Plenty to learn from unfamiliar beasts. Keep your eyes open and your knife ready." },
+            rest = { "Sit where the shelter holds. Someone worked to make that possible." },
+            laughAlong = { "Ha! Still looking for the great beast's head above the roof?" },
+            hearth = { "Home to Orgrimmar. A growing city always has another use for good hides." },
+        },
+    },
+
+    -- Elisa Steelhand <Blacksmithing Supplies>, Auberdine,6300/5022.
+    -- Adult female Dwarf, Alliance-friendly Repair/Vendor, six stock rows.
+    -- Forever97939: Lyreena referral, Sharpening Wheel and campfire advice.
+    -- Camp sketches/visitors are original; no Steelhand kinship asserted.
+    -- Research: docs/research/kamari-and-elisa-queue.md.
+    [6300] = {
+        quote = "A hammer, a bit of flux, and a plan for where you'll put everything. Leave room for visitors. They'll come as soon as the wheel starts turning.",
+        likes = { "Tools kept ready for the next job", "A camp with room to welcome company", "A beginner putting advice to good use" },
+        dislikes = { "A packed camp nobody can move through", "A dull blade blamed on good equipment", "Forgetting the fire before making camp" },
+        gossip = "Elisa's camp sketches always begin neat and spacious. Then she remembers another visitor who might come by, and moves everything again.",
+        bio = "Elisa supplies blacksmiths and repairs equipment in Auberdine. Lyreena Duskblade sends budding smiths to her for a Sharpening Wheel lesson. She reminds campers to head into the wilderness and learn to make a fire before setting up.",
+        backstory = "Elisa once drew a camp plan with every tool neatly placed. Then she pictured a visitor waiting at the wheel, and another stopping to talk. She began moving things around. The sketch has needed more room every time she has looked at it since.",
+        secret = "Her latest sketch leaves a generous empty patch beside the work. She calls it access for supplies. Really, she hopes a few friends will stay and talk.",
+        bestFriend = "Come along, then. I've left room beside the work for someone who'll stay a while. You fit that part of the plan very nicely.",
+        favorite = { emote = "THANK", hint = "A little gratitude goes a long way with someone who helps you prepare for the road." },
+        lines = {
+            greet = { { "Come in, friend. Need a hammer, some flux, or a bit of attention to your equipment? Tell me what you are setting out to do. If you are planning a camp, leave room around the work. A sharpening wheel draws company, and company has a habit of bringing more company along.", tone = "[friendly] [practical] [bright]" },
+                "Good to see you. What needs putting right before your next journey?" },
+            idle = { { "I drew a fine camp plan once. Every tool had its place. Then I pictured someone waiting to sharpen a blade, and someone else stopping for a chat. Had to move everything. The next sketch needed more room. I suspect I am planning for the visitors as much as the work now.", tone = "[conversational] [amused]" },
+                "A good tool deserves care before you start blaming it for the job.",
+                "Leave a clear path through the camp. Your visitors will appreciate it when they arrive carrying half their belongings." },
+            befriended = { { "There you are. I was just thinking you would fit nicely into the part of my camp plan I keep leaving empty. Beside the work, with room to stop and talk. Come along, friend. We can see where the road takes us before I start moving everything around on another sketch.", tone = "[warm] [pleased] [gently amused]" } },
+            poke = { "Yes, friend? What can I help you with?", "Still working on the plan. Have you thought of another visitor?" },
+            learned = { { "A sharpening wheel can make a useful addition to a camp. Learn your craft, then give the work a proper place in the wilderness. Remember the campfire first. A cooking trainer can help with that. You would be surprised how quickly an ambitious plan can get ahead of its most basic preparations.", tone = "[instructive] [encouraging] [matter-of-fact]" } },
+            loot = { "Worth bringing along? Leave yourself room for the tools you will need to work it." },
+            bagsFull = { "Your pack is beginning to look like the first version of my camp plan." },
+            rest = { "A little room beside the work is useful. Someone may want to sit and talk." },
+            quest = { "Read what is needed before you set out. Preparations are easier with the actual job in mind." },
+            laughAlong = { "Aye, another visitor. I will need a bigger piece of paper." },
+            hearth = { "Back to Auberdine. We can put the equipment right before you choose another road." },
+        },
+    },
+
     -- Bink <Mage Trainer>, Hall of Mysteries, Ironforge,5144/3108.
     -- Adult female Gnome, current Alliance-friendly.1879/1880 establish
     -- her self-correcting enthusiasm and own gizmonitor lost during flight.

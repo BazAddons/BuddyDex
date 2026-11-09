@@ -439,6 +439,46 @@
     "text": "Thank you for doing something. The work is not finished, but that does not make your effort small. We will need strength, and we will need wisdom enough to know what comes next.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore5811_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5811",
+    "spoken": "[warm] [gruff] [wry] You know what I like about you? You stop and look when I show you something worth seeing. Come on, friend. We will walk a while. I may point out a roof or two. You can tell me about your own work, and I will decide whether you are boasting enough about it.",
+    "text": "You know what I like about you? You stop and look when I show you something worth seeing. Come on, friend. We will walk a while. I may point out a roof or two. You can tell me about your own work, and I will decide whether you are boasting enough about it.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore5811_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5811",
+    "spoken": "[gruff] [proud] [brisk] Look up before you hurry past. See that roof? People remember a fine set of armor, but a good hide can shelter more than one warrior. Orgrimmar needs both. If you are going hunting, bring back something worth working. And if the beast gave you a fight, I will hear about that too.",
+    "text": "Look up before you hurry past. See that roof? People remember a fine set of armor, but a good hide can shelter more than one warrior. Orgrimmar needs both. If you are going hunting, bring back something worth working. And if the beast gave you a fight, I will hear about that too.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore5811_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5811",
+    "spoken": "[gravelly] [amused] [confident] Someone asked me which trophy made me proudest. I pointed to a roof. You should have seen the fool searching for the head! A thick hide is good for more than a warrior's shoulders. Let the rain come. People beneath sound work have something better to do than admire their own armor.",
+    "text": "Someone asked me which trophy made me proudest. I pointed to a roof. You should have seen the fool searching for the head! A thick hide is good for more than a warrior's shoulders. Let the rain come. People beneath sound work have something better to do than admire their own armor.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore5811_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5811",
+    "spoken": "[instructive] [firm] [proud] The lizards of Thunder Ridge have hides too thick for most armor. That does not make them worthless. Peons need sturdy material for the walls and roofs as Orgrimmar grows. Learn what a hide is good for before cutting it. A careless worker can waste the best part of a difficult hunt.",
+    "text": "The lizards of Thunder Ridge have hides too thick for most armor. That does not make them worthless. Peons need sturdy material for the walls and roofs as Orgrimmar grows. Learn what a hide is good for before cutting it. A careless worker can waste the best part of a difficult hunt.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

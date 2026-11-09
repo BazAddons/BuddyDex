@@ -1014,14 +1014,28 @@
       "name": "Kamari",
       "zone": "Orgrimmar",
       "route": "Female Orc/Dwarf craft training and services",
-      "reason": "Exact current named adult female model, Horde/Alliance Friendly icon and established voice checked; full own services/quests/gossip/era research pending. See docs/research/kamari-and-elisa-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; actual building-hide and camping lessons with explicit era/family/source limits in docs/research/kamari-and-elisa-queue.md"
     },
     {
       "npc_id": 6300,
       "name": "Elisa Steelhand",
       "zone": "Darkshore",
       "route": "Female Orc/Dwarf craft training and services",
-      "reason": "Exact current named adult female model, Horde/Alliance Friendly icon and established voice checked; full own services/quests/gossip/era research pending. See docs/research/kamari-and-elisa-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; actual building-hide and camping lessons with explicit era/family/source limits in docs/research/kamari-and-elisa-queue.md"
+    },
+    {
+      "npc_id": 7737,
+      "name": "Innkeeper Greul",
+      "zone": "Feralas",
+      "route": "Female Tauren/male Goblin Horde services and quest coverage",
+      "reason": "Exact current named adult model, Horde Friendly icon and approved runtime voice checked; full own lore/quest/service research pending. See docs/research/greul-and-nogg-queue.md"
+    },
+    {
+      "npc_id": 3412,
+      "name": "Nogg",
+      "zone": "Orgrimmar",
+      "route": "Female Tauren/male Goblin Horde services and quest coverage",
+      "reason": "Exact current named adult model, Horde Friendly icon and approved runtime voice checked; full own lore/quest/service research pending. See docs/research/greul-and-nogg-queue.md"
     }
   ]
 }

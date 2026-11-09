@@ -1337,5 +1337,33 @@
     "zone": "Orgrimmar",
     "source": "Exact named adult model/current Friendly access checked; all own relations,161 Bink teaching rows and19 Tamar stock rows researched. Full Classic linked chains, relevant published Forever/installed bodies and actual readable text checked; explicit literary/era limits, no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-footnotes-and-orgrimmar-play.md"
+  },
+  {
+    "npc_id": 5811,
+    "name": "Kamari",
+    "zone": "Orgrimmar",
+    "source": "Exact named adult female model/current Friendly access checked; own current relations, stock and installed gossip researched. Full relevant Forever quest bodies, camping context and Steelhand relationship limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/kamari-and-elisa-queue.md"
+  },
+  {
+    "npc_id": 6300,
+    "name": "Elisa Steelhand",
+    "zone": "Darkshore",
+    "source": "Exact named adult female model/current Friendly access checked; own current relations, stock and installed gossip researched. Full relevant Forever quest bodies, camping context and Steelhand relationship limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/kamari-and-elisa-queue.md"
+  },
+  {
+    "npc_id": 7737,
+    "name": "Innkeeper Greul",
+    "zone": "Feralas",
+    "source": "Exact current named adult model, Horde Friendly icon and runtime established voice individually checked; own full lore/quest/service research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/greul-and-nogg-queue.md"
+  },
+  {
+    "npc_id": 3412,
+    "name": "Nogg",
+    "zone": "Orgrimmar",
+    "source": "Exact current named adult model, Horde Friendly icon and runtime established voice individually checked; own full lore/quest/service research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/greul-and-nogg-queue.md"
   }
 ]

@@ -463,3 +463,10 @@ Next individually checked [Bink and Tamar](bink-and-tamar-queue.md), adult femal
 396 completed authored profiles. Adult female Gnome/male Orc, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance202/Horde103/unverified98, seven shared entries overlap. Sources/validation: [Ironforge footnotes and Orgrimmar play](ironforge-footnotes-and-orgrimmar-play.md). Bink current Alliance Friendly replaces older Neutral listing for coverage; normal live gates remain. Her own invention stays distinct from Tabetha/Andromath/Wynne's work, and Tamar's supplies from nearby trainers.
 
 Next individually checked [Kamari and Elisa](kamari-and-elisa-queue.md), adult female Orc/Dwarf craft services, not authored or counted complete. Wider1510-name pool and earlier explicit unused/unavailable-source leads remain active.
+
+
+## 2026-11-09: Kamari and Elisa Steelhand
+
+398 completed authored profiles. Adult female Orc/Dwarf, fifteen personal lines and four approved v4 signatures each. Friendly coverage Alliance203/Horde104/unverified98, seven shared entries overlap. [Sources and original-writing boundaries](kamari-and-elisa-queue.md): real building-hide/camping lessons retained, no invented Steelhand kinship or later refugee memory. Layout parts both total20 lines; full smoke and separate fresh Horde/Alliance sessions passed. Eight clips verified finite, nonsilent mono22050 and exact text/tone/model/voice mappings. Installed/development ZIP verified6126files/6098mappings/122.10MiB. In-game visual/listening QA not claimed. Original CF candidate remains untouched.
+
+Next individually verified [Greul and Nogg](greul-and-nogg-queue.md), adult female Tauren/male Goblin Horde services/quest candidates, neither complete. Wider1510-name pool and earlier explicit source gaps remain active.
