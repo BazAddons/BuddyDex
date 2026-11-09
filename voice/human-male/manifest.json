@@ -1396,6 +1396,46 @@
     "spoken": "[excited] Straps first. Admire the view once we're clear.",
     "text": "Straps first. Admire the view once we're clear."
   },
+  "lore3627_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3627",
+    "spoken": "[delighted, spontaneous warmth, welcoming] You came looking for me! Excellent. Come along, my friend. Today I get to enjoy the company I am always telling everyone about.",
+    "text": "You came looking for me! Excellent. Come along, my friend. Today I get to enjoy the company I am always telling everyone about.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3627_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3627",
+    "spoken": "[bright projecting voice, theatrical enthusiasm, friendly] There you are! My favorite sort of passerby: one who comes back. Shall we go out? I could use someone with a better line than mine.",
+    "text": "There you are! My favorite sort of passerby: one who comes back. Shall we go out? I could use someone with a better line than mine.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3627_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3627",
+    "spoken": "[animated amusement, appreciative, confiding] Someone called back a splendid line the other morning. Better than mine. I have been wanting to borrow it ever since. I shall ask first.",
+    "text": "Someone called back a splendid line the other morning. Better than mine. I have been wanting to borrow it ever since. I shall ask first.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3627_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:3627",
+    "spoken": "[eager curiosity, upbeat, expressive] New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
+    "text": "New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore3935_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

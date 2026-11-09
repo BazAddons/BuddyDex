@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Jenova Stoneshield 11069: dwarf female Stable Master, Dwarven
+    -- District; confirmed hunter-pet care, no verified personal quests.
+    -- Erich Lohan 3627: human male Blue Recluse barker, Mage Quarter;
+    -- public advertising dialogue, no verified reward redemption.
+    -- Original sleepy-stable and returning-slogan hooks are documented in
+    -- docs/research/jenova-and-erich.md. No later battle-pet services.
+    [11069] = {
+        quote = "Tell me what your companion is used to. A familiar word can be worth more than a loud command.",
+        likes = { "An owner who knows a pet's habits", "A stable settling at the end of the day", "A creature deciding to trust her" },
+        dislikes = { "Calling every creature troublesome", "Impatience passed from owner to pet", "A door banged beside a resting beast" },
+        gossip = "Jenova knows when a creature has settled. On a quiet evening, someone may have to remind her that the stable master is meant to stay awake.",
+        bio = "Jenova Stoneshield tends hunters' pets in Stormwind's Dwarven District. The nearby hunter trainers can keep an owner busy while a companion stays in her care. She likes to ask about the habits that make an unfamiliar place easier to settle into.",
+        backstory = "Hunters bring creatures with very different temperaments. Jenova has learned to give them time. Her favorite part of the day comes when the bustle eases and the creatures in her care begin to rest, one by one.",
+        secret = "A stable full of sleeping creatures makes her terribly sleepy too. She calls it checking that everyone has settled. Occasionally she needs to check with her eyes closed.",
+        bestFriend = "Sit a moment. Hear how quiet it has gone? You needn't keep me talking. If I nod off, kindly pretend I am being very thorough.",
+        favorite = { emote = "PET", hint = "A gentle, affectionate gesture suits someone who spends her day caring for animal companions." },
+        lines = {
+            greet = { { "There you are, friend. A walk sounds good. Give me a moment to be sure everyone has settled, and I am with you.", tone = "[gruff warmth, practical, fondly welcoming]" }, "Good to see you. Is your companion comfortable? Then let us have a little time ourselves." },
+            idle = { { "A stable full of sleeping beasts is a very restful place. I am checking on them. With my eyes closed? Aye, a very thorough check.", tone = "[sleepy amusement, affectionate, gently conspiratorial]" }, "A familiar voice can help a creature find its feet in a strange place.", "Tell me its habits before you tell me it is troublesome." },
+            befriended = { { "You came to take me along. Aye, I am pleased. Come on, my friend. A bit of road will keep me from growing roots beside the stable.", tone = "[hearty affection, pleased, inviting]" } },
+            poke = { "Awake! Aye, quite awake. What is it?", "Gently, friend. You have my attention." },
+            sleepToo = { { "Oh, don't start. That is catching. All right, just a moment. You can call it checking that we have both settled.", tone = "[drowsy warmth, gentle yawn, gruff amusement]" } },
+            rest = { "A good place for a pause. Give everyone room to settle." },
+            zone = { "New surroundings. Let your companion have a proper look." },
+            quest = { "Well done, friend. You have earned a quiet moment." },
+            mount = { "Mind your company. Not everyone is ready to move at your pace." },
+            bagsFull = { "Keep what you need where you can find it." },
+            hearth = { "Back to the stable. There will be someone pleased to hear a familiar step." },
+        },
+    },
+    [3627] = {
+        quote = "An invitation ought to leave you in a better mood. If that one didn't, give me a moment. I have several more.",
+        likes = { "A passerby who calls back", "A familiar face turning the corner", "A better slogan than his own" },
+        dislikes = { "A joke made at a stranger's expense", "Good company spoiled by petty spite", "A cheerful greeting answered with a sneer" },
+        gossip = "Erich has plenty to say about the Blue Recluse. Call something cheerful back, and he may remember your reply longer than his own pitch.",
+        bio = "Erich Lohan walks Stormwind's Mage Quarter advertising the Blue Recluse. He calls to passersby about drinks, company and a break from magical studies. A quiet stretch of street rarely stays quiet once he arrives with another invitation.",
+        backstory = "Most people keep walking past a street barker. Erich has come to treasure the ones who answer. A regular's cheerful reply can turn the next corner into something to look forward to, especially when the reply is better than his own line.",
+        secret = "He remembers his favorite replies perfectly. One was so good he has been tempted to borrow it for days. He is waiting to ask the person who made it up.",
+        bestFriend = "Give me your best line. If it makes me laugh, you may have to hear me repeat it all afternoon. I shall make sure everyone knows who taught me.",
+        favorite = { emote = "CHEER", hint = "A cheerful response lets a street barker know that his invitation reached someone." },
+        lines = {
+            greet = { { "There you are! My favorite sort of passerby: one who comes back. Shall we go out? I could use someone with a better line than mine.", tone = "[bright projecting voice, theatrical enthusiasm, friendly]" }, "Good to see you! What are we giving the street something to smile about today?" },
+            idle = { { "Someone called back a splendid line the other morning. Better than mine. I have been wanting to borrow it ever since. I shall ask first.", tone = "[animated amusement, appreciative, confiding]" }, "A familiar face turning the corner can improve a whole stretch of street.", "Magical studies do give people a remarkably serious expression." },
+            befriended = { { "You came looking for me! Excellent. Come along, my friend. Today I get to enjoy the company I am always telling everyone about.", tone = "[delighted, spontaneous warmth, welcoming]" } },
+            poke = { "Yes? Have you thought of a better invitation?", "You have my attention. A rare opportunity to get a word in!" },
+            zone = { { "New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.", tone = "[eager curiosity, upbeat, expressive]" } },
+            newFriend = { "Another familiar face for the road. Good!" },
+            quest = { "Now that is some good news to call back to someone." },
+            group = { "Excellent company! Has everyone met everyone? Let us fix that." },
+            rest = { "A seat sounds lovely. Your turn to do the talking for a little while." },
+            mail = { "An invitation, perhaps? Those are worth opening." },
+            hearth = { "Back to the Mage Quarter. I have something new to tell the next familiar face." },
+        },
+    },
+
     -- Cathedral of Light: Arthur the Faithful 5491, human male Paladin
     -- Trainer; 4485 referral to Duthorian, humility and hard work.
     -- Cathedral Square: Brother Kristoff 1444, human male; metallurgy

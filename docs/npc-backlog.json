@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 118,
-  "remaining_count": 99,
+  "completed_count": 120,
+  "remaining_count": 97,
   "completed": [
     {
       "npc_id": 54,
@@ -542,6 +542,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 3627,
+      "name": "Erich Lohan",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3935,
       "name": "Toddrick",
       "zone": "Lion's Pride Inn",
@@ -956,6 +965,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 11069,
+      "name": "Jenova Stoneshield",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 11096,
       "name": "Randal Worth",
       "zone": "Stormwind City",
@@ -1283,13 +1301,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 3627,
-      "name": "Erich Lohan",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 5413,
       "name": "Furen Longbeard",
       "zone": "Stormwind City",
@@ -1348,13 +1359,6 @@
     {
       "npc_id": 1413,
       "name": "Janey Anship",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 11069,
-      "name": "Jenova Stoneshield",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

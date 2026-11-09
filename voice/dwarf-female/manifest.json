@@ -1,4 +1,44 @@
 {
+  "lore11069_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11069",
+    "spoken": "[hearty affection, pleased, inviting] You came to take me along. Aye, I am pleased. Come on, my friend. A bit of road will keep me from growing roots beside the stable.",
+    "text": "You came to take me along. Aye, I am pleased. Come on, my friend. A bit of road will keep me from growing roots beside the stable.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore11069_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11069",
+    "spoken": "[gruff warmth, practical, fondly welcoming] There you are, friend. A walk sounds good. Give me a moment to be sure everyone has settled, and I am with you.",
+    "text": "There you are, friend. A walk sounds good. Give me a moment to be sure everyone has settled, and I am with you.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore11069_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11069",
+    "spoken": "[sleepy amusement, affectionate, gently conspiratorial] A stable full of sleeping beasts is a very restful place. I am checking on them. With my eyes closed? Aye, a very thorough check.",
+    "text": "A stable full of sleeping beasts is a very restful place. I am checking on them. With my eyes closed? Aye, a very thorough check.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore11069_sleepToo_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "sleepToo",
+    "say": null,
+    "source": "lore:11069",
+    "spoken": "[drowsy warmth, gentle yawn, gruff amusement] Oh, don't start. That is catching. All right, just a moment. You can call it checking that we have both settled.",
+    "text": "Oh, don't start. That is catching. All right, just a moment. You can call it checking that we have both settled.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore2695_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
