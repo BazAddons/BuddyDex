@@ -199,6 +199,46 @@
     "text": "A seat would be welcome. If I offer you a biscuit later, remember how honestly we've always spoken to one another.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1298_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1298",
+    "spoken": "[sincere warmth, pleased, gently teasing] You came back for the company. Well, I am pleased. Come along, my friend. You have earned the very worst of my jokes.",
+    "text": "You came back for the company. Well, I am pleased. Come along, my friend. You have earned the very worst of my jokes.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1298_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1298",
+    "spoken": "[genial, playful salesman confidence, warmly welcoming] Ah, a familiar face! Shall we go out? I have been saving a particularly dreadful joke, and I could use a fresh audience.",
+    "text": "Ah, a familiar face! Shall we go out? I have been saving a particularly dreadful joke, and I could use a fresh audience.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1298_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1298",
+    "spoken": "[conspiratorial, self-deprecating amusement, cheerful] I keep the good jokes on scraps of wrapping paper. The dreadful ones too. Rather more of those, if I am honest.",
+    "text": "I keep the good jokes on scraps of wrapping paper. The dreadful ones too. Rather more of those, if I am honest.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1298_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1298",
+    "spoken": "[pleased, lightly mischievous, friendly] A good find! Now, are you keeping it, selling it, or waiting for me to make a terrible remark about it?",
+    "text": "A good find! Now, are you keeping it, selling it, or waiting for me to make a terrible remark about it?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1300_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

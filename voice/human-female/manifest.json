@@ -199,6 +199,46 @@
     "text": "Somewhere new. Let's leave a little time to look around before deciding we've seen enough.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1297_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1297",
+    "spoken": "[sincere affection, relaxed, pleased] You have made time for me again. I am glad. Come along, my friend. The shop can spare me for a little while.",
+    "text": "You have made time for me again. I am glad. Come along, my friend. The shop can spare me for a little while.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1297_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1297",
+    "spoken": "[easy warmth, practical, quietly amused] Good to see you. An outing sounds lovely. Give me a moment to find that copper, and I am all yours.",
+    "text": "Good to see you. An outing sounds lovely. Give me a moment to find that copper, and I am all yours.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1297_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1297",
+    "spoken": "[dry humor, good-natured, confiding] It is meant to land on its edge. Usually it goes under the counter. I am getting very good at the part where I retrieve it.",
+    "text": "It is meant to land on its edge. Usually it goes under the counter. I am getting very good at the part where I retrieve it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1297_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1297",
+    "spoken": "[pleased interest, wry, warm] Oh, a useful little find. Keep it somewhere it won't roll away. Experience speaking, there.",
+    "text": "Oh, a useful little find. Keep it somewhere it won't roll away. Experience speaking, there.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1299_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

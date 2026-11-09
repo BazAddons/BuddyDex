@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- The Empty Quiver, Trade District: Frederick Stover 1298, human
+    -- male Bow & Arrow Merchant, and Lina Stover 1297, human female Bow
+    -- & Gun Merchant. Both offer help browsing and boast of their deals.
+    -- Morgg Stormshot 1472: named dwarf male in the Dwarven District,
+    -- no verified quest/service role. Original jokes, coin trick and dance:
+    -- docs/research/empty-quiver-and-morgg.md. No later royal commission.
+    [1298] = {
+        quote = "Good goods, fair prices, and a joke while you browse. I make no promises about the quality of the joke.",
+        likes = { "Someone pleased with an ordinary purchase", "A customer who returns with good news", "A truly dreadful bit of wordplay" },
+        dislikes = { "Sneering at a beginner's equipment", "A sale pushed on someone who is unsure", "A good joke explained before its ending" },
+        gossip = "Frederick has a joke for nearly every sale. Some customers claim they visit the Empty Quiver just to see whether today's is any worse.",
+        bio = "Frederick Stover sells bows, arrows and quivers at the Empty Quiver in Stormwind's Trade District. He welcomes browsers and offers help finding something specific. His confidence in a good deal comes with an equally confident attempt at a joke.",
+        backstory = "Conversations across the counter gave Frederick a taste for wordplay. He began saving jokes on scraps of wrapping paper. A terrible one can survive several busy days in his memory, waiting for someone who hasn't heard it yet.",
+        secret = "He remembers the groans as fondly as the laughter. A familiar customer finishing a joke before he does makes the shop feel wonderfully busy, even on a quiet day.",
+        bestFriend = "You can tell me it was dreadful. I shall survive. Come back tomorrow, though. I've thought of another one, and I want to hear you groan.",
+        favorite = { emote = "GRIN", hint = "A broad smile shows that someone appreciates the shopkeeper's wordplay." },
+        lines = {
+            greet = { { "Ah, a familiar face! Shall we go out? I have been saving a particularly dreadful joke, and I could use a fresh audience.", tone = "[genial, playful salesman confidence, warmly welcoming]" }, "There you are. Good to see you when neither of us is in a hurry." },
+            idle = { { "I keep the good jokes on scraps of wrapping paper. The dreadful ones too. Rather more of those, if I am honest.", tone = "[conspiratorial, self-deprecating amusement, cheerful]" }, "An ordinary bow can mean a great deal to someone buying their first.", "A returning customer with good news improves the whole morning." },
+            befriended = { { "You came back for the company. Well, I am pleased. Come along, my friend. You have earned the very worst of my jokes.", tone = "[sincere warmth, pleased, gently teasing]" } },
+            poke = { "Yes? Have you heard this one already?", "Ah. A pointed remark, was it? No? I'll keep working on that." },
+            loot = { { "A good find! Now, are you keeping it, selling it, or waiting for me to make a terrible remark about it?", tone = "[pleased, lightly mischievous, friendly]" } },
+            bagsFull = { "Leave room for what you actually went out to buy." },
+            quest = { "Good news to take back. I do like that part." },
+            gear = { "Happy with it? Good. That is what matters." },
+            mail = { "Perhaps someone has sent you a better joke. I should like to borrow it." },
+            rest = { "Time for a seat and a little conversation." },
+            hearth = { "Back to the Empty Quiver. I hope someone has been saving a good story for me." },
+        },
+    },
+    [1297] = {
+        quote = "Tell me what you're looking for. Browsing is welcome, and a question doesn't oblige you to buy anything.",
+        likes = { "Questions asked before a purchase", "A purchase chosen without pressure", "A neat little trick with a copper coin" },
+        dislikes = { "Handling someone's goods carelessly", "Pretending to understand when unsure", "Interrupting a customer with a boast" },
+        gossip = "Lina can talk you through the stock at the Empty Quiver. Between customers, she sometimes seems to be negotiating with a single copper coin.",
+        bio = "Lina Stover sells bows, guns and ammunition at the Empty Quiver in Stormwind's Trade District. She also offers repairs. Her welcome leaves room for questions, especially from someone who has not quite decided what they came to find.",
+        backstory = "Working among so many choices has taught Lina to let a customer think. She has a small occupation for the gaps in a quiet day: practicing a coin trick. She wants to flip a copper and have it settle upright on its edge.",
+        secret = "The copper has escaped under the counter far more often than it has obeyed her. She keeps trying. The occasional ridiculous failure is a fine excuse to laugh at herself.",
+        bestFriend = "Here, your turn. If it rolls away, we'll find it. I like having someone beside me who can enjoy the attempt before it turns into a success.",
+        favorite = { emote = "THANK", hint = "A little gratitude is welcome when someone has taken time to help you choose." },
+        lines = {
+            greet = { { "Good to see you. An outing sounds lovely. Give me a moment to find that copper, and I am all yours.", tone = "[easy warmth, practical, quietly amused]" }, "Hello again. Have we somewhere to be, or can we enjoy getting there?" },
+            idle = { { "It is meant to land on its edge. Usually it goes under the counter. I am getting very good at the part where I retrieve it.", tone = "[dry humor, good-natured, confiding]" }, "A question is easier to answer before someone regrets a purchase.", "There is no need to decide before you have had a proper look." },
+            befriended = { { "You have made time for me again. I am glad. Come along, my friend. The shop can spare me for a little while.", tone = "[sincere affection, relaxed, pleased]" } },
+            poke = { "Yes? I haven't lost the coin again, if that is what you are wondering.", "Something you wanted to ask? Go on." },
+            loot = { { "Oh, a useful little find. Keep it somewhere it won't roll away. Experience speaking, there.", tone = "[pleased interest, wry, warm]" } },
+            gear = { "How does it feel? Take your time deciding." },
+            bagsFull = { "Perhaps we should make room before we go looking for anything else." },
+            quest = { "That should settle someone's question. Good work." },
+            zone = { "A change of surroundings is welcome. Let us have a proper look." },
+            rest = { "A seat would be lovely. I have a little trick you can try." },
+            hearth = { "Back to the shop. I hope I remembered where I put everything." },
+        },
+    },
+    [1472] = {
+        quote = "Aye, I know the tune. Give me a little room, and we'll find out whether my boots do.",
+        likes = { "A tune with a good steady beat", "A partner who can laugh kindly", "Room to try a step again" },
+        dislikes = { "Being hurried through a new step", "A mistake treated as a great disgrace", "Someone laughing at a nervous beginner" },
+        gossip = "Morgg looks quite settled in the Dwarven District. Then a tune catches his attention, and one boot starts trying to have an adventure.",
+        bio = "Morgg Stormshot is a dwarf in Stormwind's Dwarven District. He is a familiar face to greet among the city's bustle. Give him a little music and some friendly encouragement, and his quiet corner can become a place to practice a dance.",
+        backstory = "Morgg remembers tunes readily. Learning what to do with his feet has taken longer. He has been practicing a simple turn whenever he has room, usually remembering the next step just after he needs it.",
+        secret = "He is very proud of one turn he finally got right. He would like to show someone, but asking for an audience feels harder than learning the turn did.",
+        bestFriend = "You needn't be good at it. Neither do I. Come on, then. We'll find the beat together, and if we lose it, we can have another go.",
+        favorite = { emote = "DANCE", hint = "A little dancing might encourage those restless boots to join in." },
+        lines = {
+            greet = { { "Ah, there you are! A walk sounds good. These boots could use something straightforward to do for a change.", tone = "[gruff warmth, wry amusement, welcoming]" }, "Good to see you, friend. Where are we taking ourselves today?" },
+            idle = { { "I got the turn right. Once. I'd show you, but give me a moment to remember what I did with the other foot.", tone = "[quiet pride, sheepish amusement, friendly]" }, "A steady beat. That's what I need. The feet can catch up.", "There's a tune stuck in my head. You may hear it escape in a moment." },
+            befriended = { { "You came looking for me? Aye, I'm pleased. Come on, my friend. There's room beside you for an old pair of clumsy boots.", tone = "[touched, hearty affection, warmly inviting]" } },
+            poke = { "Aye? I was counting. Lost the beat now.", "Still here, friend. Were you wanting a turn?" },
+            learned = { { "There you are! Better than the last try. Keep at it. A small success is still worth being pleased about.", tone = "[hearty approval, encouraging, warm]" } },
+            levelUp = { "Well done! That's earned a little celebration." },
+            zone = { "A fair bit of room here. Mind if I try something?" },
+            quest = { "Good work, friend. You've given someone a reason to smile." },
+            rest = { "A seat for a moment. Let the boots think about their mistakes." },
+            danceAlong = { { "Aye, that's the tune! Give me a little room. If I get the turn right, you are allowed to look impressed.", tone = "[eager, playful pride, hearty warmth]" } },
+            hearth = { "Back to familiar ground. I shall see if I still remember that turn." },
+        },
+    },
+
     -- Collin Mauren 4078: human male, Mage Quarter, Stormwind; Gaxim's
     -- messaging scroll 1075-1077 and basilisk reagent request 1078.
     -- Sprite Jumpsprocket 11026: gnome female, Journeyman Engineer,

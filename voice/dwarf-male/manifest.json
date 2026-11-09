@@ -199,6 +199,46 @@
     "text": "The boots? Aye, they're heavy. I still can't blame them for every missed step.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore1472_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1472",
+    "spoken": "[touched, hearty affection, warmly inviting] You came looking for me? Aye, I'm pleased. Come on, my friend. There's room beside you for an old pair of clumsy boots.",
+    "text": "You came looking for me? Aye, I'm pleased. Come on, my friend. There's room beside you for an old pair of clumsy boots.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1472_danceAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "lore:1472",
+    "spoken": "[eager, playful pride, hearty warmth] Aye, that's the tune! Give me a little room. If I get the turn right, you are allowed to look impressed.",
+    "text": "Aye, that's the tune! Give me a little room. If I get the turn right, you are allowed to look impressed.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1472_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1472",
+    "spoken": "[gruff warmth, wry amusement, welcoming] Ah, there you are! A walk sounds good. These boots could use something straightforward to do for a change.",
+    "text": "Ah, there you are! A walk sounds good. These boots could use something straightforward to do for a change.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1472_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1472",
+    "spoken": "[quiet pride, sheepish amusement, friendly] I got the turn right. Once. I'd show you, but give me a moment to remember what I did with the other foot.",
+    "text": "I got the turn right. Once. I'd show you, but give me a moment to remember what I did with the other foot.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore14842_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
