@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 266,
-  "remaining_count": 7,
+  "completed_count": 268,
+  "remaining_count": 5,
   "completed": [
     {
       "npc_id": 54,
@@ -422,6 +422,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
       "research_notes": "docs/research/sentinel-hill-militia.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 836,
+      "name": "Durnan Furcutter",
+      "zone": "Dun Morogh",
+      "source": "Reviewed current identity/model and Durnan services, complete primary delivery chain, Atlas and installed dialogue; no personal Scout sighting claimed",
+      "research_notes": "docs/research/coldridge-mornbrew-and-cloth.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2193,6 +2203,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 12738,
+      "name": "Nori Pridedrift",
+      "zone": "Dun Morogh",
+      "source": "Reviewed current identity/model and Durnan services, complete primary delivery chain, Atlas and installed dialogue; no personal Scout sighting claimed",
+      "research_notes": "docs/research/coldridge-mornbrew-and-cloth.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 12805,
       "name": "Officer Areyn",
       "zone": "Stormwind City",
@@ -2463,20 +2483,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 12738,
-      "name": "Nori Pridedrift",
-      "zone": "Dun Morogh",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 836,
-      "name": "Durnan Furcutter",
-      "zone": "Dun Morogh",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 460,
       "name": "Alamar Grimm",
       "zone": "Dun Morogh",
@@ -2690,7 +2696,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1478,
+    "candidate_name_groups": 1481,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

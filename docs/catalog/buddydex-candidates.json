@@ -9460,7 +9460,7 @@
           "source_page": 9,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25360,7 +25360,7 @@
           "name": "Nori Pridedrift",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39177,6 +39177,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 12738,
+      "name": "Nori Pridedrift",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 12805,
       "name": "Officer Areyn",
       "source": "Existing local backlog; absent from source filter",
@@ -39329,13 +39336,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 12738,
-      "name": "Nori Pridedrift",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 460,

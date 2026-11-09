@@ -1,15 +1,15 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 266,
+  "completed_profiles": 268,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
-    "alliance": 184,
-    "unverified": 56,
+    "alliance": 185,
+    "unverified": 57,
     "horde": 26
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 30,
+    "3": 32,
     "5": 25,
     "2": 4,
     "7": 23,
@@ -29,7 +29,8 @@
     "Deeprun Tram": 3,
     "Durotar": 5,
     "Mulgore": 5,
-    "Teldrassil": 5
+    "Teldrassil": 5,
+    "Dun Morogh": 2
   },
   "entries": [
     {
@@ -3377,6 +3378,30 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3595"
+    },
+    {
+      "npc_id": 12738,
+      "name": "Nori Pridedrift",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see coldridge-mornbrew-and-cloth.md for independent quest/access evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12738"
+    },
+    {
+      "npc_id": 836,
+      "name": "Durnan Furcutter",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/836"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 56 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 57 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -47,3 +47,5 @@ This preserves the wider coverage rotation: Mulgore now has five, and Gornek bri
 With Shadowglen at five, the research queue now turns to Sten Stoutarm (658), Nori Pridedrift (12738), Durnan Furcutter (836), Alamar Grimm (460), and Wren Darkspring (6376). Exact names and character models were checked in current Forever definitions. These are research candidates, not completed profiles or verified personal Scout encounters. The intended mix includes dwarf and gnome NPCs, quest givers, trade and training, and Wren as a female gnome candidate. Adult models, sex, full quests/services and current friendly access still require individual review before authoring.
 
 Identity checks excluded erroneous associations before queue admission: 698 is Bloodscalp Tiger, not Durnan (836); 6374 is Cylina Darkheart, not Wren (6376). No profiles or eligibility exceptions were created from those wrong associations. Both Skyborne faction starting paths remain outstanding after the shared dwarf/gnome route.
+
+The first shared dwarf/gnome starter batch is now complete: Nori Pridedrift and Durnan Furcutter, with fifteen personal lines and four v4 signatures each. See [their research notes](coldridge-mornbrew-and-cloth.md). Coldridge/Anvilmar currently has two completed dwarf profiles; Sten, Alamar and Wren remain candidates, so gnome starter coverage and the five-profile milestone are not yet claimed.

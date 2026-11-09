@@ -39,6 +39,46 @@
     "text": "There you go! Knowing how is a fine start. Now put it to use.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore12738_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12738",
+    "spoken": "[sincere hearty affection, companionable, lightly teasing] I would be glad of your company. You remember the little things, and those make a long road more agreeable. Walk beside me and tell me how your day has gone. We can admire our tracks along the way, provided we keep anything that needs delivering moving.",
+    "text": "I would be glad of your company. You remember the little things, and those make a long road more agreeable. Walk beside me and tell me how your day has gone. We can admire our tracks along the way, provided we keep anything that needs delivering moving.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore12738_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12738",
+    "spoken": "[hearty brisk welcome, practical warmth, good-humored insistence] There you are. Hands cold? That is why a hot delivery matters. A little care on the road can make a fine difference to the person waiting at the other end. And once they are finished appreciating it, they can appreciate bringing the mug back as well.",
+    "text": "There you are. Hands cold? That is why a hot delivery matters. A little care on the road can make a fine difference to the person waiting at the other end. And once they are finished appreciating it, they can appreciate bringing the mug back as well.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore12738_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12738",
+    "spoken": "[earthy cheerful pleasure, gently defensive humor, warm] Look back a moment. A neat row of bootprints, all the way across that fresh patch. I like seeing where I have been before the wind takes it away. No, I have not lost my way. I am allowed to enjoy a little of the road I travel.",
+    "text": "Look back a moment. A neat row of bootprints, all the way across that fresh patch. I like seeing where I have been before the wind takes it away. No, I have not lost my way. I am allowed to enjoy a little of the road I travel.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore12738_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:12738",
+    "spoken": "[warm practical approval, animated dry humor] There, a job followed through. People remember more than the thing you delivered. They remember whether you took care with it, whether you listened, and whether you brought back what belonged to someone else. Especially that last part. Some of us have a limited supply of mugs.",
+    "text": "There, a job followed through. People remember more than the thing you delivered. They remember whether you took care with it, whether you listened, and whether you brought back what belonged to someone else. Especially that last part. Some of us have a limited supply of mugs.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore13843_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -837,6 +877,46 @@
     "source": "lore:6966",
     "spoken": "[firm dwarven encouragement, dry humor, genuine approval] There. You kept at it until something made sense. Remember which part changed for you. Next time it seems impossible, that'll be worth more than standing about wishing your hands belonged to someone cleverer.",
     "text": "There. You kept at it until something made sense. Remember which part changed for you. Next time it seems impossible, that'll be worth more than standing about wishing your hands belonged to someone cleverer.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore836_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:836",
+    "spoken": "[sincere generous friendliness, relaxed pleasure] I would enjoy coming along. It is pleasant to see something beyond the next customer and hear how the day treats a friend. Tell me where we are headed. I shall take an interest in the company as well as how well our gear stands up to the journey.",
+    "text": "I would enjoy coming along. It is pleasant to see something beyond the next customer and hear how the day treats a friend. Tell me where we are headed. I shall take an interest in the company as well as how well our gear stands up to the journey.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore836_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:836",
+    "spoken": "[practical interested merchant, thoughtful approval, warm] A useful piece. See how it sits, and notice where it needs looking after. Fine-looking gear still has work to do once you step outside. I like a thing that serves its wearer well, whether it is new from the stock or familiar enough to have a story.",
+    "text": "A useful piece. See how it sits, and notice where it needs looking after. Fine-looking gear still has work to do once you step outside. I like a thing that serves its wearer well, whether it is new from the stock or familiar enough to have a story.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore836_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:836",
+    "spoken": "[hearty merchant welcome, comfortable warmth, amused anticipation] Come in, come in. No need to bring the whole chill of the valley with you. Have a look at what you need, and take a moment to feel your fingers again. If someone arrives with a scalding mornbrew, I may be persuaded to call that excellent timing.",
+    "text": "Come in, come in. No need to bring the whole chill of the valley with you. Have a look at what you need, and take a moment to feel your fingers again. If someone arrives with a scalding mornbrew, I may be persuaded to call that excellent timing.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore836_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:836",
+    "spoken": "[warm grounded reflection, easy contentment, lightly amused] That old scarf? Not for sale. It has gone soft with use, and I like the feel of it. A new thing can be fine work, but there is something agreeable about a familiar comfort. You need not put a price on everything you are pleased to keep.",
+    "text": "That old scarf? Not for sale. It has gone soft with use, and I like the feel of it. A new thing can be fine work, but there is something agreeable about a familiar comfort. You need not put a price on everything you are pleased to keep.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
   "lore8671_befriended_1.ogg": {

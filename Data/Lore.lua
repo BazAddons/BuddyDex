@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Nori Pridedrift (12738), adult male dwarf, Coldridge Valley, display 12967 (3 / 0).
+    -- 3364 scalding mornbrew for Durnan after Grelin's delivery; 3365 asks for his mug back.
+    -- Enjoying fresh bootprints is original. No Adlin kinship inferred from the surname.
+    -- docs/research/coldridge-mornbrew-and-cloth.md.
+    [12738] = {
+        quote = "A delivery is more than getting there. Get the brew there hot, remember whose hands are waiting for it, and bring the mug back when you're done.",
+        likes = { "Mornbrew delivered while it is hot", "A mug finding its way back", "The first neat tracks in fresh snow" },
+        dislikes = { "A hot delivery left to cool", "Mugs forgotten after the last sip", "A fine set of tracks spoiled by a stumble" },
+        gossip = "Nori sometimes looks back along his tracks. The valley suspects he is checking whether a missing mug has followed him home.",
+        bio = "Nori Pridedrift delivers scalding mornbrew around Coldridge Valley. A delivery to Grelin leaves him asking help to reach Durnan Furcutter in Anvilmar before the drink cools. He is just as keen to see his mug returned afterward.",
+        backstory = "After fresh snow, he noticed how neatly his boots marked the path behind him. He found himself looking back to admire the row. Since then, an untouched stretch of snow has been a small pleasure between deliveries.",
+        secret = "He is admiring his footprints. For a moment, the snow keeps a tidy record of his passing. He likes sharing the sight before the wind smooths it away.",
+        bestFriend = "Walk beside me. We can leave two good sets of tracks. Mind, if you're carrying one of my mugs, I still want it back.",
+        favorite = { emote = "THANK", hint = "Recognize the care behind a warm drink delivered through the cold." },
+        lines = {
+            greet = { { "There you are. Hands cold? That is why a hot delivery matters. A little care on the road can make a fine difference to the person waiting at the other end. And once they are finished appreciating it, they can appreciate bringing the mug back as well.", tone = "[hearty brisk welcome, practical warmth, good-humored insistence]" }, "Good to see you. Tell me you have come back with everything you set out carrying." },
+            idle = { { "Look back a moment. A neat row of bootprints, all the way across that fresh patch. I like seeing where I have been before the wind takes it away. No, I have not lost my way. I am allowed to enjoy a little of the road I travel.", tone = "[earthy cheerful pleasure, gently defensive humor, warm]" }, "Hot on arrival, mug back afterward. A pleasing order of events.", "A fresh path and steady footing. That is a good beginning to a delivery." },
+            befriended = { { "I would be glad of your company. You remember the little things, and those make a long road more agreeable. Walk beside me and tell me how your day has gone. We can admire our tracks along the way, provided we keep anything that needs delivering moving.", tone = "[sincere hearty affection, companionable, lightly teasing]" } },
+            poke = { "Yes? Is there a mug involved?", "I am listening. I was only having a look at the tracks." },
+            quest = { { "There, a job followed through. People remember more than the thing you delivered. They remember whether you took care with it, whether you listened, and whether you brought back what belonged to someone else. Especially that last part. Some of us have a limited supply of mugs.", tone = "[warm practical approval, animated dry humor]" } },
+            mail = { "A message has someone waiting at the other end too. Give it a little care." },
+            bagsFull = { "Have a look through the pack. Anything in there meant to find its way back to someone?" },
+            zone = { "New ground under our boots. Let us mind where it takes us." },
+            rest = { "A short pause. We can enjoy it without forgetting what needs doing." },
+            levelUp = { "A stronger step. Keep it steady when the road gets slippery." },
+            hearth = { "Back again. A good time to account for everything we carried out." },
+        },
+    },
+    -- Durnan Furcutter (836), adult male dwarf, Anvilmar, display 3406 (3 / 0).
+    -- Current cloth/leather vendor and repairs; 3364 receives brew, 3365 returns Nori's mug.
+    -- An old soft scarf kept for personal comfort is original; no new tailoring skill or stock item.
+    -- docs/research/coldridge-mornbrew-and-cloth.md.
+    [836] = {
+        quote = "Good cloth earns its keep by being useful. Mind the fit, look after what you wear, and come out of the cold long enough to remember what warm hands feel like.",
+        likes = { "Cloth and leather doing their job", "Nori's brew arriving scalding hot", "An old scarf worn pleasantly soft" },
+        dislikes = { "A warm drink arriving cold", "Good gear neglected until it fails", "Useful things dismissed for looking worn" },
+        gossip = "Durnan sets a faded scarf apart from the stock. A few visitors wonder whether it must be worth a surprising sum.",
+        bio = "Durnan Furcutter sells cloth and leather armor in Anvilmar and offers repairs. He welcomes Nori's scalding mornbrew, takes a break to enjoy it, and asks that the empty mug find its way back to its owner.",
+        backstory = "A scarf he had used for a long time grew faded and soft. He set it aside for himself rather than discard it. Its familiar feel made a quiet break more comfortable, and he came to value that as much as its warmth.",
+        secret = "The scarf is not valuable stock. He likes how soft it has become, and the years of use suit him. Some comforts need no grander explanation.",
+        bestFriend = "Come in out of the cold. There is time to sit, warm your hands, and tell me what has been happening beyond the doorway.",
+        favorite = { emote = "NOD", hint = "Show that you appreciate the practical worth of well-kept cloth and leather." },
+        lines = {
+            greet = { { "Come in, come in. No need to bring the whole chill of the valley with you. Have a look at what you need, and take a moment to feel your fingers again. If someone arrives with a scalding mornbrew, I may be persuaded to call that excellent timing.", tone = "[hearty merchant welcome, comfortable warmth, amused anticipation]" }, "Good to see you. How is the gear holding up?" },
+            idle = { { "That old scarf? Not for sale. It has gone soft with use, and I like the feel of it. A new thing can be fine work, but there is something agreeable about a familiar comfort. You need not put a price on everything you are pleased to keep.", tone = "[warm grounded reflection, easy contentment, lightly amused]" }, "Cloth and leather deserve a little care before the weather puts them to the test.", "If Nori asks, the empty mug ought to be going back to him." },
+            befriended = { { "I would enjoy coming along. It is pleasant to see something beyond the next customer and hear how the day treats a friend. Tell me where we are headed. I shall take an interest in the company as well as how well our gear stands up to the journey.", tone = "[sincere generous friendliness, relaxed pleasure]" } },
+            poke = { "Yes? Something need attention?", "A moment. A good break is worth enjoying, but I am listening." },
+            gear = { { "A useful piece. See how it sits, and notice where it needs looking after. Fine-looking gear still has work to do once you step outside. I like a thing that serves its wearer well, whether it is new from the stock or familiar enough to have a story.", tone = "[practical interested merchant, thoughtful approval, warm]" } },
+            loot = { "Worth keeping? Think of the use you will get from it, not only the shine." },
+            bagsFull = { "A full pack. Perhaps something in there has finished being useful to you." },
+            quest = { "A job done, and someone better off for it. That is worth a pause." },
+            rest = { "Sit a little. Warm hands and a quiet moment can improve a day considerably." },
+            levelUp = { "Stronger already. Look after the things that help you along." },
+            hearth = { "Home again. Come in, and leave a little of the weather outside." },
+        },
+    },
+
     -- Gilshalan Windwalker (2082), adult male night elf, Aldrassil, display 2458 (4 / 0).
     -- 916/917 specimens and a hypothesis about Teldrassil; 920 passes Tenaron's summons.
     -- Booted spider doodles are original, not actual specimens, a new pet or a confirmed discovery.

@@ -427,5 +427,19 @@
     "zone": "Teldrassil",
     "source": "Reviewed current friendly identity/model, full primary quest chains and sigils, Forever addition, Atlas and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/shadowglen-researcher-and-trainers.md"
+  },
+  {
+    "npc_id": 12738,
+    "name": "Nori Pridedrift",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current identity/model and Durnan services, complete primary delivery chain, Atlas and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/coldridge-mornbrew-and-cloth.md"
+  },
+  {
+    "npc_id": 836,
+    "name": "Durnan Furcutter",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current identity/model and Durnan services, complete primary delivery chain, Atlas and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/coldridge-mornbrew-and-cloth.md"
   }
 ]
