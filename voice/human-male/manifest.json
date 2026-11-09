@@ -526,6 +526,46 @@
     "text": "Fine bit of shade. We ought to give it a proper try before moving on.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore258_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:258",
+    "spoken": "[warm, sincerely appreciative voice] You tell me what you think, even when we disagree. I like knowing where I stand with a friend.",
+    "text": "You tell me what you think, even when we disagree. I like knowing where I stand with a friend.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:258",
+    "spoken": "[genial, conversational voice, friendly welcome] Good to see you! Something for the road before we set off?",
+    "text": "Good to see you! Something for the road before we set off?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:258",
+    "spoken": "[wryly amused voice, relaxed warmth] You needn't use a grand word for something you like. Good will do nicely.",
+    "text": "You needn't use a grand word for something you like. Good will do nicely.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:258",
+    "spoken": "[easygoing, hospitable voice, playful assurance] Sit down, have a drink, tell me what you think. No grand description required.",
+    "text": "Sit down, have a drink, tell me what you think. No grand description required.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore279_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

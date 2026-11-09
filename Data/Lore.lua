@@ -42,6 +42,84 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Erma 6749 (female human, Goldshire stable master), Joshua Maclure
+    -- 258 (male human, vineyard vintner), Lyria Du Lac 913 (female human,
+    -- warrior trainer behind Goldshire's smithy, Classic referral 1638).
+    -- No modern stable services, precise Maclure kinship or invented war
+    -- service. Original hooks: docs/research/goldshire-stable-vintner-warrior.md.
+    [6749] = {
+        quote = "Give a nervous creature a little room. Being somewhere unfamiliar is easier when nobody insists you be comfortable all at once.",
+        likes = { "A companion greeted by name", "A quiet approach", "An owner who remembers feeding time" },
+        dislikes = { "Sudden hands near a nervous animal", "Companions treated as replaceable", "A latch left unsecured" },
+        gossip = "Erma hums while she works. The hunters aren't sure whether the tune is for their animals or for her.",
+        bio = "Erma is Goldshire's stable master in Elwynn Forest. Hunters visiting the village can entrust their animal companions to her care while arranging their travels.",
+        backstory = "Working around unfamiliar animals taught her not to hurry an introduction. She began humming softly while she worked, offering a small familiar sound without asking anything in return.",
+        secret = "She remembers little tunes by the animals that seemed to like them. Asked to sing for people, she suddenly finds a great deal that needs doing.",
+        bestFriend = "You heard that tune? You needn't make a fuss. Walk with me a while, and perhaps I'll remember the next bit.",
+        favorite = { emote = "THANK", hint = "A little gratitude for looking after a traveling companion will mean a great deal." },
+        lines = {
+            greet = { { "A walk? Yes, I'd like that. Everything here is settled for the moment.", tone = "[gentle, grounded voice, easy welcome]" }, "Ready when you are. Let's start without startling everyone." },
+            idle = { { "You can make a new place less frightening simply by being patient in it.", tone = "[calm, thoughtful voice, quiet kindness]" }, "A familiar voice can do a surprising amount of good.", "Was I humming? Oh. I suppose I was." },
+            befriended = { { "You make room for me to be quiet without thinking something's wrong. That's a lovely thing.", tone = "[soft, grateful voice, sincere warmth]" } },
+            poke = { "Yes? Give me a moment to turn around.", "I'm here. There's no need to startle me." },
+            loot = { "Mind where you put that. A curious nose may find it before you do." },
+            bagsFull = { "Have you left room for your companion's things as well as your own?" },
+            quest = { "A job finished, and someone a little easier in their mind. Good." },
+            rest = { { "A quiet stop. I'll try to remember that tune while we sit.", tone = "[relaxed, lightly bashful voice, contentment]" } },
+            combatEnd = { "All together still? Let's give everyone a moment to settle." },
+            levelUp = { "Well done. You're growing more sure of yourself." },
+            hearth = { "Back to Goldshire. I wonder who's waiting to greet us." },
+        },
+    },
+    [258] = {
+        quote = "Tell me what you enjoy. There's no sense choosing a drink to impress someone else's tongue.",
+        likes = { "An honest opinion", "Bottles set down with care", "A toast everyone can join" },
+        dislikes = { "A fine label used to excuse a poor drink", "Pressuring someone to have another", "Corks left rolling underfoot" },
+        gossip = "Joshua has long descriptions ready for his drinks. His own favorites are often described with one satisfied word.",
+        bio = "Joshua Maclure is the vintner and drink vendor at the Maclure Vineyards in Elwynn Forest. He works outside the farmhouse near Pa Maclure, selling refreshments to visitors.",
+        backstory = "Talking with customers gave him plenty of practice describing a drink. It also taught him that different people enjoy different things. He became more interested in a person's answer than in proving his own taste superior.",
+        secret = "He rehearses elaborate descriptions when nobody is about. Handed something he really enjoys, he usually forgets them all and just says it's good.",
+        bestFriend = "I had a splendid description ready for this. Forgotten it. Shall we try it and agree that liking a thing is enough?",
+        favorite = { emote = "GRIN", hint = "An honest grin says more about an enjoyable drink than a polished speech." },
+        lines = {
+            greet = { { "Good to see you! Something for the road before we set off?", tone = "[genial, conversational voice, friendly welcome]" }, "A change of scenery. Let me settle these bottles, and I'm with you." },
+            idle = { { "You needn't use a grand word for something you like. Good will do nicely.", tone = "[wryly amused voice, relaxed warmth]" }, "Not everyone wants the same thing. That's what makes asking worthwhile.", "A little water is as welcome in a toast as anything else, if that's what you enjoy." },
+            befriended = { { "You tell me what you think, even when we disagree. I like knowing where I stand with a friend.", tone = "[warm, sincerely appreciative voice]" } },
+            poke = { "Yes? Thought of the word I was looking for?", "Careful with the bottles. They'll answer much more loudly than I will." },
+            loot = { "A fine label. Now, what have we actually found?" },
+            bagsFull = { "Something soft between the bottles, if you please." },
+            quest = { "Well done! A moment to mark the occasion wouldn't hurt." },
+            rest = { { "Sit down, have a drink, tell me what you think. No grand description required.", tone = "[easygoing, hospitable voice, playful assurance]" } },
+            combatEnd = { "Everyone safe? Good. Nothing else needs celebrating quite as much." },
+            levelUp = { "Here's to that! Whatever you've got in your cup." },
+            hearth = { "Home to the vineyard. I wonder who's come by while we've been out." },
+        },
+    },
+    [913] = {
+        quote = "Strength helps. So does listening when someone tells you where your feet ought to be. Start there, and we'll see what you've got.",
+        likes = { "A correction put into practice", "Gear checked before a lesson", "Effort that survives a bruised ego" },
+        dislikes = { "A boast in place of practice", "A blade waved near bystanders", "Calling every mistake bad luck" },
+        gossip = "Lyria remembers a pupil's first good stance longer than their loudest victory. She isn't likely to say so during practice.",
+        bio = "Lyria Du Lac trains warriors behind the blacksmith building in Goldshire. When a pupil is ready for further training, she directs them to the veteran Harry Burlguard at Stormwind's Pig and Whistle.",
+        backstory = "Watching learners repeat the same mistake made her direct about corrections. Watching them finally get it right kept her teaching. She judges a lesson by what someone can do afterward, rather than how impressive the demonstration looked.",
+        secret = "She remembers the pupils who needed the most tries. Hearing that one of them has done well can put her in a good mood for the rest of the day.",
+        bestFriend = "You kept at it. I noticed. There, you've had your praise; now stop looking so surprised and walk with me.",
+        favorite = { emote = "SALUTE", hint = "A disciplined acknowledgment suits someone who values readiness over boasting." },
+        lines = {
+            greet = { { "Ready? Good. Check your footing, and let's see where the road takes us.", tone = "[firm, confident voice, brisk readiness]" }, "A walk, then. Try not to make every conversation a demonstration." },
+            idle = { { "A mistake you notice can teach you something. A mistake you blame on luck tends to return.", tone = "[direct, measured voice, dry authority]" }, "Keep enough room around you to move without hitting your own company.", "No, I haven't forgotten your first attempt. You've improved." },
+            befriended = { { "I trust you to listen, and to tell me when I'm wrong. That's worth having beside me.", tone = "[firm, sincere voice, earned respect]" } },
+            poke = { "Yes? Use your words.", "Was that meant to improve my attention?" },
+            loot = { "Useful gear. Learn its weight before trusting it in a fight." },
+            bagsFull = { "You can't carry every answer. Choose what you'll actually use." },
+            quest = { { "Good work. Remember what helped, and practice what didn't.", tone = "[brisk, approving voice, restrained pride]" } },
+            rest = { "Rest properly. Sloppy practice from exhaustion helps nobody." },
+            combatEnd = { "Check everyone, then check the gear. Lessons can wait until we're ready." },
+            levelUp = { "That's progress. You earned it. Keep going." },
+            hearth = { "Back to Goldshire. Someone's bound to need their stance correcting." },
+        },
+    },
+
     -- Remaining Lion's Pride staff: Melika 6778, Michelle 2329 and Josetta
     -- 377 are female humans; Zaldimar 328 is male human. Michelle's local
     -- title is Physician, not retail Bandage Trainer. Josetta's travel wish

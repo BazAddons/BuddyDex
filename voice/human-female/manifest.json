@@ -534,6 +534,46 @@
     "text": "There. Let the busy people hurry past for a little while.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore6749_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6749",
+    "spoken": "[soft, grateful voice, sincere warmth] You make room for me to be quiet without thinking something's wrong. That's a lovely thing.",
+    "text": "You make room for me to be quiet without thinking something's wrong. That's a lovely thing.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6749_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6749",
+    "spoken": "[gentle, grounded voice, easy welcome] A walk? Yes, I'd like that. Everything here is settled for the moment.",
+    "text": "A walk? Yes, I'd like that. Everything here is settled for the moment.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6749_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6749",
+    "spoken": "[calm, thoughtful voice, quiet kindness] You can make a new place less frightening simply by being patient in it.",
+    "text": "You can make a new place less frightening simply by being patient in it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6749_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6749",
+    "spoken": "[relaxed, lightly bashful voice, contentment] A quiet stop. I'll try to remember that tune while we sit.",
+    "text": "A quiet stop. I'll try to remember that tune while we sit.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6778_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -572,6 +612,46 @@
     "source": "lore:6778",
     "spoken": "[gentle, reassuring voice, unhurried welcome] Settle yourself. You don't have to be on your way every moment of the day.",
     "text": "Settle yourself. You don't have to be on your way every moment of the day.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore913_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:913",
+    "spoken": "[firm, sincere voice, earned respect] I trust you to listen, and to tell me when I'm wrong. That's worth having beside me.",
+    "text": "I trust you to listen, and to tell me when I'm wrong. That's worth having beside me.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore913_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:913",
+    "spoken": "[firm, confident voice, brisk readiness] Ready? Good. Check your footing, and let's see where the road takes us.",
+    "text": "Ready? Good. Check your footing, and let's see where the road takes us.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore913_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:913",
+    "spoken": "[direct, measured voice, dry authority] A mistake you notice can teach you something. A mistake you blame on luck tends to return.",
+    "text": "A mistake you notice can teach you something. A mistake you blame on luck tends to return.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore913_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:913",
+    "spoken": "[brisk, approving voice, restrained pride] Good work. Remember what helped, and practice what didn't.",
+    "text": "Good work. Remember what helped, and practice what didn't.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "npc_alive_1.ogg": {

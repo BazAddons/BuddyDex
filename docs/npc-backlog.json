@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 44,
-  "remaining_count": 164,
+  "completed_count": 47,
+  "remaining_count": 170,
   "completed": [
     {
       "npc_id": 54,
@@ -139,6 +139,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 258,
+      "name": "Joshua Maclure",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 279,
       "name": "Morgan Pestle",
       "zone": "Stormwind City",
@@ -211,6 +220,15 @@
     {
       "npc_id": 894,
       "name": "Homer Stonefield",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 913,
+      "name": "Lyria Du Lac",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -335,6 +353,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 6749,
+      "name": "Erma",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6778,
       "name": "Melika Isenstrider",
       "zone": "Lion's Pride Inn",
@@ -428,13 +455,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 6749,
-      "name": "Erma",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 258930,
       "name": "Isaac Chan",
       "zone": "Elwynn Forest",
@@ -451,20 +471,6 @@
     {
       "npc_id": 796,
       "name": "Joshua",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 258,
-      "name": "Joshua Maclure",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 913,
-      "name": "Lyria Du Lac",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1443,6 +1449,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 2113,
+      "name": "Archibald Kava",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 2116,
       "name": "Blacksmith Rand",
       "zone": "Tirisfal Glades",
@@ -1457,8 +1470,36 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 267323,
+      "name": "Clarence Gillian",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2119,
+      "name": "Dannal Stern",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 2123,
       "name": "Dark Cleric Duesten",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2122,
+      "name": "David Trias",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1741,
+      "name": "Deathguard Bartrand",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1478,6 +1519,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 1736,
+      "name": "Deathguard Randolph",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 1740,
       "name": "Deathguard Saltain",
       "zone": "Tirisfal Glades",
@@ -1492,8 +1540,29 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 267326,
+      "name": "Florence Nightshade",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2117,
+      "name": "Harold Raims",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 2124,
       "name": "Isabella",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2115,
+      "name": "Joshua Kien",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

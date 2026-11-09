@@ -1965,7 +1965,9 @@
         2113
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2113
+      ],
       "entries": [
         {
           "npc_id": 2113,
@@ -1978,8 +1980,12 @@
           ],
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Archibald Kava",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -6333,7 +6339,9 @@
         267323
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        267323
+      ],
       "entries": [
         {
           "npc_id": 267323,
@@ -6346,8 +6354,12 @@
           ],
           "source_page": 6,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Clarence Gillian",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -7521,7 +7533,9 @@
         2119
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2119
+      ],
       "entries": [
         {
           "npc_id": 2119,
@@ -7534,8 +7548,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Dannal Stern",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -7790,7 +7808,9 @@
         2122
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2122
+      ],
       "entries": [
         {
           "npc_id": 2122,
@@ -7803,8 +7823,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "David Trias",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -7862,7 +7886,9 @@
         1741
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1741
+      ],
       "entries": [
         {
           "npc_id": 1741,
@@ -7875,8 +7901,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Deathguard Bartrand",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -8275,7 +8305,9 @@
         1736
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1736
+      ],
       "entries": [
         {
           "npc_id": 1736,
@@ -8288,8 +8320,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Deathguard Randolph",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -10729,7 +10765,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -11739,7 +11775,9 @@
         267326
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        267326
+      ],
       "entries": [
         {
           "npc_id": 267326,
@@ -11752,8 +11790,12 @@
           ],
           "source_page": 11,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Florence Nightshade",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -15001,7 +15043,9 @@
         2117
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2117
+      ],
       "entries": [
         {
           "npc_id": 2117,
@@ -15014,8 +15058,12 @@
           ],
           "source_page": 13,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Harold Raims",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18209,7 +18257,9 @@
         2115
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2115
+      ],
       "entries": [
         {
           "npc_id": 2115,
@@ -18222,8 +18272,12 @@
           ],
           "source_page": 16,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Joshua Kien",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18253,7 +18307,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -21720,7 +21774,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
