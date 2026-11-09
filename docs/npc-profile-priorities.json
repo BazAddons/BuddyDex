@@ -1,0 +1,40 @@
+{
+  "policy": "Close starter-area and faction coverage gaps before expanding already-rich Alliance city/Redridge coverage. Named adults only; no automatic collection or eligibility exception.",
+  "priorities": [
+    {
+      "npc_id": 3188,
+      "name": "Master Gadrin",
+      "zone": "Durotar",
+      "route": "Orc/troll starter route",
+      "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    },
+    {
+      "npc_id": 2981,
+      "name": "Chief Hawkwind",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    },
+    {
+      "npc_id": 5884,
+      "name": "Mai'ah",
+      "zone": "Durotar",
+      "route": "Orc/troll starter route",
+      "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    },
+    {
+      "npc_id": 3287,
+      "name": "Hana'zua",
+      "zone": "Durotar",
+      "route": "Orc/troll starter route",
+      "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    },
+    {
+      "npc_id": 3145,
+      "name": "Zureetha Fargaze",
+      "zone": "Durotar",
+      "route": "Orc/troll starter route",
+      "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    }
+  ]
+}

@@ -1,8 +1,9 @@
 {
   "as_of": "2026-11-09",
+  "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 251,
-  "remaining_count": 2,
+  "remaining_count": 7,
   "completed": [
     {
       "npc_id": 54,
@@ -1346,9 +1347,8 @@
     },
     {
       "npc_id": 3310,
-      "name": "Doras",
-      "zone": "Orgrimmar",
-      "source": "Agreed priority shortlist",
+      "source": "Existing authored profile",
+      "name": "3310",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1807,9 +1807,8 @@
     },
     {
       "npc_id": 6929,
-      "name": "Innkeeper Gryshka",
-      "zone": "Orgrimmar",
-      "source": "Agreed priority shortlist",
+      "source": "Existing authored profile",
+      "name": "6929",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2307,6 +2306,41 @@
   ],
   "remaining": [
     {
+      "npc_id": 3188,
+      "name": "Master Gadrin",
+      "zone": "Durotar",
+      "source": "Coverage-first research priority; eligibility/lore pending",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2981,
+      "name": "Chief Hawkwind",
+      "zone": "Mulgore",
+      "source": "Coverage-first research priority; eligibility/lore pending",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5884,
+      "name": "Mai'ah",
+      "zone": "Durotar",
+      "source": "Coverage-first research priority; eligibility/lore pending",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3287,
+      "name": "Hana'zua",
+      "zone": "Durotar",
+      "source": "Coverage-first research priority; eligibility/lore pending",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3145,
+      "name": "Zureetha Fargaze",
+      "zone": "Durotar",
+      "source": "Coverage-first research priority; eligibility/lore pending",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 6182,
       "name": "Daphne Stilwell",
       "zone": "Westfall",
@@ -2506,7 +2540,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1470,
+    "candidate_name_groups": 1474,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

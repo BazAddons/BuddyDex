@@ -1,0 +1,3198 @@
+{
+  "as_of": "2026-11-09",
+  "completed_profiles": 251,
+  "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
+  "faction_counts": {
+    "alliance": 179,
+    "unverified": 48,
+    "horde": 24
+  },
+  "npc_race_counts": {
+    "1": 165,
+    "3": 30,
+    "5": 25,
+    "2": 2,
+    "7": 23,
+    "4": 6
+  },
+  "zone_counts": {
+    "Elwynn Forest": 25,
+    "Lion's Pride Inn": 10,
+    "Westfall": 17,
+    "Stormwind City": 114,
+    "Redridge Mountains": 23,
+    "Ironforge": 32,
+    "Tirisfal Glades": 25,
+    "Orgrimmar": 2,
+    "Deeprun Tram": 3
+  },
+  "entries": [
+    {
+      "npc_id": 54,
+      "name": "Corina Steele",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/54"
+    },
+    {
+      "npc_id": 66,
+      "name": "Tharynn Bouden",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/66"
+    },
+    {
+      "npc_id": 74,
+      "name": "Kurran Steele",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/74"
+    },
+    {
+      "npc_id": 151,
+      "name": "Brog Hamfist",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/151"
+    },
+    {
+      "npc_id": 233,
+      "name": "Farmer Saldean",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/233"
+    },
+    {
+      "npc_id": 234,
+      "name": "Gryan Stoutmantle",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/234"
+    },
+    {
+      "npc_id": 235,
+      "name": "Salma Saldean",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/235"
+    },
+    {
+      "npc_id": 237,
+      "name": "Farmer Furlbrow",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/237"
+    },
+    {
+      "npc_id": 238,
+      "name": "Verna Furlbrow",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/238"
+    },
+    {
+      "npc_id": 239,
+      "name": "Grimbooze Thunderbrew",
+      "zone": "Westfall",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/239"
+    },
+    {
+      "npc_id": 240,
+      "name": "Marshal Dughan",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/240"
+    },
+    {
+      "npc_id": 241,
+      "name": "Remy \"Two Times\"",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/241"
+    },
+    {
+      "npc_id": 244,
+      "name": "Ma Stonefield",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244"
+    },
+    {
+      "npc_id": 246,
+      "name": "\"Auntie\" Bernice Stonefield",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246"
+    },
+    {
+      "npc_id": 248,
+      "name": "Gramma Stonefield",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/248"
+    },
+    {
+      "npc_id": 250,
+      "name": "Pa Maclure",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/250"
+    },
+    {
+      "npc_id": 251,
+      "name": "Maybell Maclure",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251"
+    },
+    {
+      "npc_id": 252,
+      "name": "Tommy Joe Stonefield",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252"
+    },
+    {
+      "npc_id": 253,
+      "name": "William Pestle",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/253"
+    },
+    {
+      "npc_id": 255,
+      "name": "Gerard Tiller",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255"
+    },
+    {
+      "npc_id": 258,
+      "name": "Joshua Maclure",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258"
+    },
+    {
+      "npc_id": 279,
+      "name": "Morgan Pestle",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/279"
+    },
+    {
+      "npc_id": 295,
+      "name": "Innkeeper Farley",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/295"
+    },
+    {
+      "npc_id": 328,
+      "name": "Zaldimar Wefhellt",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/328"
+    },
+    {
+      "npc_id": 341,
+      "name": "Foreman Oslow",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/341"
+    },
+    {
+      "npc_id": 342,
+      "name": "Martie Jainrose",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/342"
+    },
+    {
+      "npc_id": 344,
+      "name": "Magistrate Solomon",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/344"
+    },
+    {
+      "npc_id": 346,
+      "name": "Barkeep Daniels",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/346"
+    },
+    {
+      "npc_id": 349,
+      "name": "Corporal Keeshan",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/349"
+    },
+    {
+      "npc_id": 352,
+      "name": "Dungar Longdrink",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/352"
+    },
+    {
+      "npc_id": 376,
+      "name": "High Priestess Laurena",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/376"
+    },
+    {
+      "npc_id": 377,
+      "name": "Priestess Josetta",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/377"
+    },
+    {
+      "npc_id": 379,
+      "name": "Darcy",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/379"
+    },
+    {
+      "npc_id": 381,
+      "name": "Dockmaster Baren",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/381"
+    },
+    {
+      "npc_id": 382,
+      "name": "Marshal Marris",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/382"
+    },
+    {
+      "npc_id": 464,
+      "name": "Guard Parker",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/464"
+    },
+    {
+      "npc_id": 465,
+      "name": "Barkeep Dobbins",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/465"
+    },
+    {
+      "npc_id": 466,
+      "name": "General Marcus Jonathan",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/466"
+    },
+    {
+      "npc_id": 491,
+      "name": "Quartermaster Lewis",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/491"
+    },
+    {
+      "npc_id": 514,
+      "name": "Smith Argus",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/514"
+    },
+    {
+      "npc_id": 523,
+      "name": "Thor",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/523"
+    },
+    {
+      "npc_id": 777,
+      "name": "Amy Davenport",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/777"
+    },
+    {
+      "npc_id": 812,
+      "name": "Alma Jainrose",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/812"
+    },
+    {
+      "npc_id": 820,
+      "name": "Scout Riell",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/820"
+    },
+    {
+      "npc_id": 821,
+      "name": "Captain Danuvin",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/821"
+    },
+    {
+      "npc_id": 843,
+      "name": "Gina MacGregor",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/843"
+    },
+    {
+      "npc_id": 859,
+      "name": "Guard Berton",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/859"
+    },
+    {
+      "npc_id": 878,
+      "name": "Scout Galiaan",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/878"
+    },
+    {
+      "npc_id": 894,
+      "name": "Homer Stonefield",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/894"
+    },
+    {
+      "npc_id": 900,
+      "name": "Bailiff Conacher",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/900"
+    },
+    {
+      "npc_id": 903,
+      "name": "Guard Howe",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/903"
+    },
+    {
+      "npc_id": 913,
+      "name": "Lyria Du Lac",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/913"
+    },
+    {
+      "npc_id": 918,
+      "name": "Osborne the Night Man",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/918"
+    },
+    {
+      "npc_id": 927,
+      "name": "Brother Wilhelm",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/927"
+    },
+    {
+      "npc_id": 931,
+      "name": "Ariena Stormfeather",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/931"
+    },
+    {
+      "npc_id": 957,
+      "name": "Dane Lindgren",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/957"
+    },
+    {
+      "npc_id": 1070,
+      "name": "Deputy Feldon",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1070"
+    },
+    {
+      "npc_id": 1212,
+      "name": "Bishop Farthing",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1212"
+    },
+    {
+      "npc_id": 1246,
+      "name": "Vosur Brakthel",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1246"
+    },
+    {
+      "npc_id": 1257,
+      "name": "Keldric Boucher",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1257"
+    },
+    {
+      "npc_id": 1275,
+      "name": "Kyra Boucher",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1275"
+    },
+    {
+      "npc_id": 1284,
+      "name": "Archbishop Benedictus",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1284"
+    },
+    {
+      "npc_id": 1285,
+      "name": "Thurman Mullby",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1285"
+    },
+    {
+      "npc_id": 1286,
+      "name": "Edna Mullby",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1286"
+    },
+    {
+      "npc_id": 1287,
+      "name": "Marda Weller",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1287"
+    },
+    {
+      "npc_id": 1289,
+      "name": "Gunther Weller",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1289"
+    },
+    {
+      "npc_id": 1291,
+      "name": "Carla Granger",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1291"
+    },
+    {
+      "npc_id": 1292,
+      "name": "Maris Granger",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1292"
+    },
+    {
+      "npc_id": 1294,
+      "name": "Aldric Moore",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1294"
+    },
+    {
+      "npc_id": 1295,
+      "name": "Lara Moore",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1295"
+    },
+    {
+      "npc_id": 1297,
+      "name": "Lina Stover",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1297"
+    },
+    {
+      "npc_id": 1298,
+      "name": "Frederick Stover",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1298"
+    },
+    {
+      "npc_id": 1299,
+      "name": "Lisbeth Schneider",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1299"
+    },
+    {
+      "npc_id": 1300,
+      "name": "Lawrence Schneider",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1300"
+    },
+    {
+      "npc_id": 1308,
+      "name": "Owen Vaughn",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1308"
+    },
+    {
+      "npc_id": 1309,
+      "name": "Wynne Larson",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1309"
+    },
+    {
+      "npc_id": 1310,
+      "name": "Evan Larson",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1310"
+    },
+    {
+      "npc_id": 1312,
+      "name": "Ardwyn Cailen",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1312"
+    },
+    {
+      "npc_id": 1313,
+      "name": "Maria Lumere",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1313"
+    },
+    {
+      "npc_id": 1314,
+      "name": "Duncan Cullen",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1314"
+    },
+    {
+      "npc_id": 1315,
+      "name": "Allan Hafgan",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1315"
+    },
+    {
+      "npc_id": 1317,
+      "name": "Lucan Cordell",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1317"
+    },
+    {
+      "npc_id": 1318,
+      "name": "Jessara Cordell",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1318"
+    },
+    {
+      "npc_id": 1319,
+      "name": "Bryan Cross",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1319"
+    },
+    {
+      "npc_id": 1320,
+      "name": "Seoman Griffith",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1320"
+    },
+    {
+      "npc_id": 1321,
+      "name": "Alyssa Griffith",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1321"
+    },
+    {
+      "npc_id": 1323,
+      "name": "Osric Strang",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1323"
+    },
+    {
+      "npc_id": 1324,
+      "name": "Heinrich Stone",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1324"
+    },
+    {
+      "npc_id": 1333,
+      "name": "Gerik Koen",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1333"
+    },
+    {
+      "npc_id": 1339,
+      "name": "Mayda Thane",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1339"
+    },
+    {
+      "npc_id": 1341,
+      "name": "Wilhelm Strang",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1341"
+    },
+    {
+      "npc_id": 1346,
+      "name": "Georgio Bolero",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1346"
+    },
+    {
+      "npc_id": 1347,
+      "name": "Alexandra Bolero",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1347"
+    },
+    {
+      "npc_id": 1351,
+      "name": "Brother Cassius",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1351"
+    },
+    {
+      "npc_id": 1395,
+      "name": "Ol' Beasley",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1395"
+    },
+    {
+      "npc_id": 1402,
+      "name": "Topper McNabb",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1402"
+    },
+    {
+      "npc_id": 1413,
+      "name": "Janey Anship",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1413"
+    },
+    {
+      "npc_id": 1414,
+      "name": "Lisan Pierce",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1414"
+    },
+    {
+      "npc_id": 1415,
+      "name": "Suzanne",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1415"
+    },
+    {
+      "npc_id": 1427,
+      "name": "Harlan Bagley",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1427"
+    },
+    {
+      "npc_id": 1428,
+      "name": "Rema Schneider",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1428"
+    },
+    {
+      "npc_id": 1430,
+      "name": "Tomas",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1430"
+    },
+    {
+      "npc_id": 1432,
+      "name": "Renato Gallina",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1432"
+    },
+    {
+      "npc_id": 1433,
+      "name": "Corbett Schneider",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1433"
+    },
+    {
+      "npc_id": 1444,
+      "name": "Brother Kristoff",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1444"
+    },
+    {
+      "npc_id": 1472,
+      "name": "Morgg Stormshot",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1472"
+    },
+    {
+      "npc_id": 1477,
+      "name": "Christoph Faral",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1477"
+    },
+    {
+      "npc_id": 1478,
+      "name": "Aedis Brom",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1478"
+    },
+    {
+      "npc_id": 1568,
+      "name": "Undertaker Mordo",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1568"
+    },
+    {
+      "npc_id": 1569,
+      "name": "Shadow Priest Sarvis",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1569"
+    },
+    {
+      "npc_id": 1570,
+      "name": "Executor Arren",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1570"
+    },
+    {
+      "npc_id": 1661,
+      "name": "Novice Elreth",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1661"
+    },
+    {
+      "npc_id": 1668,
+      "name": "William MacGregor",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1668"
+    },
+    {
+      "npc_id": 1670,
+      "name": "Mike Miller",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1670"
+    },
+    {
+      "npc_id": 1678,
+      "name": "Vernon Hale",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1678"
+    },
+    {
+      "npc_id": 1680,
+      "name": "Matthew Hooper",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1680"
+    },
+    {
+      "npc_id": 1721,
+      "name": "Nikova Raskol",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1721"
+    },
+    {
+      "npc_id": 1736,
+      "name": "Deathguard Randolph",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1736"
+    },
+    {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1737"
+    },
+    {
+      "npc_id": 1739,
+      "name": "Deathguard Phillip",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1739"
+    },
+    {
+      "npc_id": 1740,
+      "name": "Deathguard Saltain",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1740"
+    },
+    {
+      "npc_id": 1741,
+      "name": "Deathguard Bartrand",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1741"
+    },
+    {
+      "npc_id": 2046,
+      "name": "Andrew Krighton",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2046"
+    },
+    {
+      "npc_id": 2113,
+      "name": "Archibald Kava",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2113"
+    },
+    {
+      "npc_id": 2115,
+      "name": "Joshua Kien",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2115"
+    },
+    {
+      "npc_id": 2116,
+      "name": "Blacksmith Rand",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2116"
+    },
+    {
+      "npc_id": 2117,
+      "name": "Harold Raims",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2117"
+    },
+    {
+      "npc_id": 2119,
+      "name": "Dannal Stern",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2119"
+    },
+    {
+      "npc_id": 2122,
+      "name": "David Trias",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2122"
+    },
+    {
+      "npc_id": 2123,
+      "name": "Dark Cleric Duesten",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2123"
+    },
+    {
+      "npc_id": 2124,
+      "name": "Isabella",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2124"
+    },
+    {
+      "npc_id": 2126,
+      "name": "Maximillion",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2126"
+    },
+    {
+      "npc_id": 2198,
+      "name": "Crier Goodman",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2198"
+    },
+    {
+      "npc_id": 2315,
+      "name": "Maquell Ebonwood",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2315"
+    },
+    {
+      "npc_id": 2327,
+      "name": "Shaina Fuller",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2327"
+    },
+    {
+      "npc_id": 2329,
+      "name": "Michelle Belle",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2329"
+    },
+    {
+      "npc_id": 2460,
+      "name": "Barnum Stonemantle",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2460"
+    },
+    {
+      "npc_id": 2461,
+      "name": "Bailey Stonemantle",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2461"
+    },
+    {
+      "npc_id": 2695,
+      "name": "Sara Balloo",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2695"
+    },
+    {
+      "npc_id": 2708,
+      "name": "Archmage Malin",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2708"
+    },
+    {
+      "npc_id": 2795,
+      "name": "Lenny \"Fingers\" McCoy",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2795"
+    },
+    {
+      "npc_id": 2879,
+      "name": "Karrina Mekenda",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2879"
+    },
+    {
+      "npc_id": 3085,
+      "name": "Gloria Femmel",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3085"
+    },
+    {
+      "npc_id": 3087,
+      "name": "Crystal Boughman",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3087"
+    },
+    {
+      "npc_id": 3089,
+      "name": "Sherman Femmel",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3089"
+    },
+    {
+      "npc_id": 3310,
+      "name": "Doras",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3310"
+    },
+    {
+      "npc_id": 3518,
+      "name": "Thomas Miller",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3518"
+    },
+    {
+      "npc_id": 3626,
+      "name": "Jenn Langston",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3626"
+    },
+    {
+      "npc_id": 3627,
+      "name": "Erich Lohan",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3627"
+    },
+    {
+      "npc_id": 3935,
+      "name": "Toddrick",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3935"
+    },
+    {
+      "npc_id": 3937,
+      "name": "Kira Songshine",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3937"
+    },
+    {
+      "npc_id": 4078,
+      "name": "Collin Mauren",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4078"
+    },
+    {
+      "npc_id": 4081,
+      "name": "Lomac Gearstrip",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4081"
+    },
+    {
+      "npc_id": 4961,
+      "name": "Dashel Stonefist",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4961"
+    },
+    {
+      "npc_id": 4974,
+      "name": "Aldwin Laughlin",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4974"
+    },
+    {
+      "npc_id": 4981,
+      "name": "Ben Trias",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4981"
+    },
+    {
+      "npc_id": 5099,
+      "name": "Soleil Stonemantle",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5099"
+    },
+    {
+      "npc_id": 5107,
+      "name": "Mangorn Flinthammer",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5107"
+    },
+    {
+      "npc_id": 5109,
+      "name": "Myra Tyrngaarde",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5109"
+    },
+    {
+      "npc_id": 5124,
+      "name": "Sognar Cliffbeard",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5124"
+    },
+    {
+      "npc_id": 5174,
+      "name": "Springspindle Fizzlegear",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5174"
+    },
+    {
+      "npc_id": 5175,
+      "name": "Gearcutter Cogspinner",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5175"
+    },
+    {
+      "npc_id": 5177,
+      "name": "Tally Berryfizz",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5177"
+    },
+    {
+      "npc_id": 5178,
+      "name": "Soolie Berryfizz",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5178"
+    },
+    {
+      "npc_id": 5413,
+      "name": "Furen Longbeard",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5413"
+    },
+    {
+      "npc_id": 5484,
+      "name": "Brother Benjamin",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5484"
+    },
+    {
+      "npc_id": 5489,
+      "name": "Brother Joshua",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5489"
+    },
+    {
+      "npc_id": 5491,
+      "name": "Arthur the Faithful",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5491"
+    },
+    {
+      "npc_id": 5494,
+      "name": "Catherine Leland",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5494"
+    },
+    {
+      "npc_id": 5499,
+      "name": "Lilyssia Nightbreeze",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5499"
+    },
+    {
+      "npc_id": 5500,
+      "name": "Tel'Athir",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5500"
+    },
+    {
+      "npc_id": 5503,
+      "name": "Eldraeith",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5503"
+    },
+    {
+      "npc_id": 5510,
+      "name": "Thulman Flintcrag",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5510"
+    },
+    {
+      "npc_id": 5511,
+      "name": "Therum Deepforge",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5511"
+    },
+    {
+      "npc_id": 5512,
+      "name": "Kaita Deepforge",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5512"
+    },
+    {
+      "npc_id": 5518,
+      "name": "Lilliam Sparkspindle",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5518"
+    },
+    {
+      "npc_id": 5519,
+      "name": "Billibub Cogspinner",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5519"
+    },
+    {
+      "npc_id": 5564,
+      "name": "Simon Tanner",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5564"
+    },
+    {
+      "npc_id": 5565,
+      "name": "Jillian Tanner",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5565"
+    },
+    {
+      "npc_id": 5566,
+      "name": "Tannysa",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5566"
+    },
+    {
+      "npc_id": 5567,
+      "name": "Sellandus",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5567"
+    },
+    {
+      "npc_id": 5569,
+      "name": "Fizzlebang Booms",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5569"
+    },
+    {
+      "npc_id": 5667,
+      "name": "Venya Marthand",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5667"
+    },
+    {
+      "npc_id": 5749,
+      "name": "Kayla Smithe",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5749"
+    },
+    {
+      "npc_id": 5917,
+      "name": "Clara Charles",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5917"
+    },
+    {
+      "npc_id": 6169,
+      "name": "Klockmort Spannerspan",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6169"
+    },
+    {
+      "npc_id": 6171,
+      "name": "Duthorian Rall",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6171"
+    },
+    {
+      "npc_id": 6173,
+      "name": "Gazin Tenorm",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6173"
+    },
+    {
+      "npc_id": 6174,
+      "name": "Stephanie Turner",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6174"
+    },
+    {
+      "npc_id": 6175,
+      "name": "John Turner",
+      "zone": "Ironforge",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6175"
+    },
+    {
+      "npc_id": 6569,
+      "name": "Gnoarn",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6569"
+    },
+    {
+      "npc_id": 6579,
+      "name": "Shoni the Shilent",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6579"
+    },
+    {
+      "npc_id": 6727,
+      "name": "Innkeeper Brianna",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6727"
+    },
+    {
+      "npc_id": 6740,
+      "name": "Innkeeper Allison",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6740"
+    },
+    {
+      "npc_id": 6749,
+      "name": "Erma",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6749"
+    },
+    {
+      "npc_id": 6778,
+      "name": "Melika Isenstrider",
+      "zone": "Lion's Pride Inn",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6778"
+    },
+    {
+      "npc_id": 6929,
+      "name": "Innkeeper Gryshka",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6929"
+    },
+    {
+      "npc_id": 6966,
+      "name": "Lucius",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6966"
+    },
+    {
+      "npc_id": 7292,
+      "name": "Dinita Stonemantle",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7292"
+    },
+    {
+      "npc_id": 7798,
+      "name": "Hank the Hammer",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7798"
+    },
+    {
+      "npc_id": 7917,
+      "name": "Brother Sarno",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7917"
+    },
+    {
+      "npc_id": 7937,
+      "name": "High Tinker Mekkatorque",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7937"
+    },
+    {
+      "npc_id": 7944,
+      "name": "Tinkmaster Overspark",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7944"
+    },
+    {
+      "npc_id": 7950,
+      "name": "Master Mechanic Castpipe",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7950"
+    },
+    {
+      "npc_id": 8670,
+      "name": "Auctioneer Chilton",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8670"
+    },
+    {
+      "npc_id": 8671,
+      "name": "Auctioneer Buckler",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8671"
+    },
+    {
+      "npc_id": 8719,
+      "name": "Auctioneer Fitch",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8719"
+    },
+    {
+      "npc_id": 8720,
+      "name": "Auctioneer Redmuse",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8720"
+    },
+    {
+      "npc_id": 8931,
+      "name": "Innkeeper Heather",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8931"
+    },
+    {
+      "npc_id": 8934,
+      "name": "Christopher Hewen",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8934"
+    },
+    {
+      "npc_id": 9859,
+      "name": "Auctioneer Lympkin",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9859"
+    },
+    {
+      "npc_id": 10045,
+      "name": "Kirk Maxwell",
+      "zone": "Westfall",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10045"
+    },
+    {
+      "npc_id": 11026,
+      "name": "Sprite Jumpsprocket",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11026"
+    },
+    {
+      "npc_id": 11028,
+      "name": "Jemma Quikswitch",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11028"
+    },
+    {
+      "npc_id": 11029,
+      "name": "Trixie Quikswitch",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11029"
+    },
+    {
+      "npc_id": 11069,
+      "name": "Jenova Stoneshield",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11069"
+    },
+    {
+      "npc_id": 11096,
+      "name": "Randal Worth",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11096"
+    },
+    {
+      "npc_id": 11867,
+      "name": "Woo Ping",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11867"
+    },
+    {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
+    },
+    {
+      "npc_id": 12336,
+      "name": "Brother Crowley",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12336"
+    },
+    {
+      "npc_id": 12480,
+      "name": "Melris Malagan",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12480"
+    },
+    {
+      "npc_id": 12481,
+      "name": "Justine Demalier",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12481"
+    },
+    {
+      "npc_id": 12805,
+      "name": "Officer Areyn",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12805"
+    },
+    {
+      "npc_id": 12997,
+      "name": "Monty",
+      "zone": "Deeprun Tram",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12997"
+    },
+    {
+      "npc_id": 13018,
+      "name": "Nipsy",
+      "zone": "Deeprun Tram",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/13018"
+    },
+    {
+      "npc_id": 13843,
+      "name": "Lieutenant Rotimer",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/13843"
+    },
+    {
+      "npc_id": 14041,
+      "name": "Haggle",
+      "zone": "Deeprun Tram",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14041"
+    },
+    {
+      "npc_id": 14363,
+      "name": "Thief Catcher Shadowdelve",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14363"
+    },
+    {
+      "npc_id": 14365,
+      "name": "Thief Catcher Farmountain",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14365"
+    },
+    {
+      "npc_id": 14367,
+      "name": "Thief Catcher Thunderbrew",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14367"
+    },
+    {
+      "npc_id": 14394,
+      "name": "Major Mattingly",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14394"
+    },
+    {
+      "npc_id": 14423,
+      "name": "Officer Jaxon",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14423"
+    },
+    {
+      "npc_id": 14438,
+      "name": "Officer Pomeroy",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14438"
+    },
+    {
+      "npc_id": 14439,
+      "name": "Officer Brady",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14439"
+    },
+    {
+      "npc_id": 14450,
+      "name": "Orphan Matron Nightingale",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14450"
+    },
+    {
+      "npc_id": 14722,
+      "name": "Clavicus Knavingham",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14722"
+    },
+    {
+      "npc_id": 14842,
+      "name": "Melnan Darkstone",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14842"
+    },
+    {
+      "npc_id": 15659,
+      "name": "Auctioneer Jaxon",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15659"
+    },
+    {
+      "npc_id": 17804,
+      "name": "Squire Rowe",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/17804"
+    },
+    {
+      "npc_id": 205278,
+      "name": "Brother Romulus",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/205278"
+    },
+    {
+      "npc_id": 244808,
+      "name": "Aramis Hammerhand",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
+    },
+    {
+      "npc_id": 251507,
+      "name": "Josephine Carson",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251507"
+    },
+    {
+      "npc_id": 258568,
+      "name": "Antonio Bolero",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258568"
+    },
+    {
+      "npc_id": 258930,
+      "name": "Isaac Chan",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258930"
+    },
+    {
+      "npc_id": 267323,
+      "name": "Clarence Gillian",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267323"
+    },
+    {
+      "npc_id": 267326,
+      "name": "Florence Nightshade",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267326"
+    },
+    {
+      "npc_id": 268238,
+      "name": "Nordun Steadysight",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/268238"
+    },
+    {
+      "npc_id": 270581,
+      "name": "Fyrenz Vishonar",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270581"
+    },
+    {
+      "npc_id": 273065,
+      "name": "Ribbly Spinwhistle",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/273065"
+    },
+    {
+      "npc_id": 274917,
+      "name": "Boborus Overvolt",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/274917"
+    },
+    {
+      "npc_id": 277721,
+      "name": "Krazore",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
+    }
+  ]
+}

@@ -17,6 +17,12 @@ PRIORITY = [
     (3626, "Jenn Langston", "Stormwind City"),
     (279, "Morgan Pestle", "Stormwind City"),
 ]
+# User's coverage-first queue supersedes the old, already completed shortlist.
+priority_path = ROOT / "docs/npc-profile-priorities.json"
+if priority_path.exists():
+    priority_rows = json.loads(priority_path.read_text(encoding="utf-8"))["priorities"]
+    PRIORITY = [(row["npc_id"], row["name"], row["zone"]) for row in priority_rows]
+    assert len({row[0] for row in PRIORITY}) == len(PRIORITY), "Duplicate priority identity"
 # Clearly generic roles that the gameplay heuristic does not yet recognize.
 # Do not turn them into authored exceptions just to fill the collection.
 GENERIC = {14849: "Darkmoon Faire Carnie", 14991: "League of Arathor Emissary"}
@@ -57,7 +63,7 @@ def main():
             continue
         candidates[npc] = {"npc_id": npc, "name": entry.name, "zone": entry.zone, "source": "Installed Scout record"}
     for npc, name, zone in PRIORITY:
-        candidates.setdefault(npc, {"npc_id": npc, "name": name, "zone": zone, "source": "Agreed priority shortlist"})
+        candidates.setdefault(npc, {"npc_id": npc, "name": name, "zone": zone, "source": "Coverage-first research priority; eligibility/lore pending"})
     # Reviewed external identities keep their real names and evidence even when
     # the player has not encountered them in the Scout snapshot yet.
     research_roster = ROOT / "docs/npc-research-roster.json"
@@ -101,6 +107,7 @@ def main():
             row["voice_note"] = "Custom race voice auditions requested; user selection pending"
     result = {
         "as_of": args.as_of,
+        "coverage_plan": "docs/research/starter-coverage-in-progress.md",
         "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
         "completed_count": sum(row["status"] == "complete" for row in completed),
         "remaining_count": len(remaining) + sum(row["status"] != "complete" for row in completed),

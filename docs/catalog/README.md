@@ -11,9 +11,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,431 |
-| Local backlog entries missing from source | 52 |
-| Combined retained entries | 1,483 |
-| Candidate name groups | 1,470 |
+| Local backlog entries missing from source | 56 |
+| Combined retained entries | 1,487 |
+| Candidate name groups | 1,474 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -265,6 +265,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Chef Jessen**: [2430](https://forever.warcraftdb.com/data/npc/2430)
 - **Chemist Cuely**: [8390](https://forever.warcraftdb.com/data/npc/8390)
 - **Chepi**: [8361](https://forever.warcraftdb.com/data/npc/8361)
+- **Chief Hawkwind**: [2981](https://forever.warcraftdb.com/data/npc/2981)
 - **Christoph Faral** — Scout: [1477](https://forever.warcraftdb.com/data/npc/1477)
 - **Christoph Jeffcoat**: [2393](https://forever.warcraftdb.com/data/npc/2393)
 - **Christopher Hewen**: [8934](https://forever.warcraftdb.com/data/npc/8934)
@@ -611,6 +612,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Hamish Bergwort**: [248242](https://forever.warcraftdb.com/data/npc/248242)
 - **Hamlin Atkins**: [3547](https://forever.warcraftdb.com/data/npc/3547)
 - **Hana Lighthoof**: [262560](https://forever.warcraftdb.com/data/npc/262560)
+- **Hana'zua**: [3287](https://forever.warcraftdb.com/data/npc/3287)
 - **Hanaa Nightwind**: [252095](https://forever.warcraftdb.com/data/npc/252095)
 - **Hanashi**: [2704](https://forever.warcraftdb.com/data/npc/2704)
 - **Handor**: [3316](https://forever.warcraftdb.com/data/npc/3316)
@@ -907,6 +909,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Magus Wordeen Voidglare**: [2410](https://forever.warcraftdb.com/data/npc/2410)
 - **Mahren Skyseer**: [3388](https://forever.warcraftdb.com/data/npc/3388)
 - **Mahu**: [3005](https://forever.warcraftdb.com/data/npc/3005)
+- **Mai'ah**: [5884](https://forever.warcraftdb.com/data/npc/5884)
 - **Mai'Lahii**: [12031](https://forever.warcraftdb.com/data/npc/12031)
 - **Major Mattingly** — Scout: [14394](https://forever.warcraftdb.com/data/npc/14394)
 - **Mak**: [3008](https://forever.warcraftdb.com/data/npc/3008)
@@ -1496,6 +1499,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Zixil**: [3537](https://forever.warcraftdb.com/data/npc/3537)
 - **Ziz Fizziks**: [4201](https://forever.warcraftdb.com/data/npc/4201)
 - **Zor Lonetree**: [4047](https://forever.warcraftdb.com/data/npc/4047)
+- **Zureetha Fargaze**: [3145](https://forever.warcraftdb.com/data/npc/3145)
 
 ## Ambiguous identities
 
