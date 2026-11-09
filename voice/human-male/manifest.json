@@ -79,6 +79,46 @@
     "text": "Yes, I thank the practice dummy. It is always ready, never complains, and has endured a remarkable number of beginners.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore12480_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12480",
+    "spoken": "[restrained affection, pleased, warmly inviting] You came to bring me along. I am pleased, mate. Come on. We can have a little of the day without sending one another anywhere.",
+    "text": "You came to bring me along. I am pleased, mate. Come on. We can have a little of the day without sending one another anywhere.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore12480_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12480",
+    "spoken": "[brisk authority, good-humored warmth, welcoming] There you are, mate. Come along. That is an invitation, before you ask. A little walk would be welcome, and you can tell me what has kept you busy.",
+    "text": "There you are, mate. Come along. That is an invitation, before you ask. A little walk would be welcome, and you can tell me what has kept you busy.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore12480_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12480",
+    "spoken": "[dry self-mockery, slightly embarrassed, conversational] I asked for one loaf. Quietly, I thought. Sounded like I wanted the whole bakery to form up. Next time I shall begin with please, and address only the person behind the counter.",
+    "text": "I asked for one loaf. Quietly, I thought. Sounded like I wanted the whole bakery to form up. Next time I shall begin with please, and address only the person behind the counter.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore12480_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:12480",
+    "spoken": "[brisk approval, practical advice, encouraging] Good work. When you report back, give them the useful part first. They will want to know what happened, and whether the work is done.",
+    "text": "Good work. When you report back, give them the useful part first. They will want to know what happened, and whether the work is done.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1257_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

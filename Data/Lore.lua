@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Trade District: Melris Malagan 12480, human male Captain of the Guard;
+    -- Justine Demalier 12481, human female Stormwind Recruiter. Shared
+    -- Classic recruitment dialogue recognizes heroes and sends them to
+    -- Bolvar. No personal Classic quest lists. Later Legion betrayal and
+    -- Cataclysm investigations excluded. Original off-duty voice and
+    -- sketching: docs/research/malagan-and-demalier.md.
+    [12480] = {
+        quote = "Give a message plainly and see that it is understood. There is little use having a fine commanding voice if nobody knows where you mean them to go.",
+        likes = { "A clear message delivered promptly", "People ready when they say they are", "A request that sounds like a request" },
+        dislikes = { "An instruction made needlessly obscure", "A report with the useful part left out", "Being asked to repeat himself for sport" },
+        gossip = "Melris has a voice that carries across the square. Asking for one loaf of bread without sounding like he wants a formation takes more care.",
+        bio = "Melris Malagan is Stormwind's Captain of the Guard in the Trade District. Justine Demalier identifies dependable heroes to him. He calls them over and directs them to Highlord Bolvar Fordragon at Stormwind Keep, with little patience for delay.",
+        backstory = "A public square rewards a voice that carries. Melris uses his confidently when there is a message to deliver. Away from official business, the same manner sometimes makes a simple request sound rather more commanding than he intended.",
+        secret = "He has practiced asking for a loaf quietly. It still sounded like an order to assemble. Next time, he means to begin with please and leave the rest of the square out of it.",
+        bestFriend = "Sit down, mate. An invitation, I mean. Take your time; I am trying to mean that properly. Good to have you here without a report.",
+        favorite = { emote = "SALUTE", hint = "A crisp acknowledgment suits a captain accustomed to making himself understood." },
+        lines = {
+            greet = { { "There you are, mate. Come along. That is an invitation, before you ask. A little walk would be welcome, and you can tell me what has kept you busy.", tone = "[brisk authority, good-humored warmth, welcoming]" }, "Good to see you. Have you news, or are we taking a little time to ourselves?" },
+            idle = { { "I asked for one loaf. Quietly, I thought. Sounded like I wanted the whole bakery to form up. Next time I shall begin with please, and address only the person behind the counter.", tone = "[dry self-mockery, slightly embarrassed, conversational]" }, "A message is little use until the person hearing it knows what you mean.", "Justine has an eye for people she is willing to recommend." },
+            befriended = { { "You came to bring me along. I am pleased, mate. Come on. We can have a little of the day without sending one another anywhere.", tone = "[restrained affection, pleased, warmly inviting]" } },
+            poke = { "Aye? Put it plainly. I am listening.", "You have my attention, mate." },
+            quest = { { "Good work. When you report back, give them the useful part first. They will want to know what happened, and whether the work is done.", tone = "[brisk approval, practical advice, encouraging]" } },
+            mail = { "A message? Let us see who needs an answer." },
+            zone = { "Somewhere new. Take a proper look before deciding you know the way." },
+            gear = { "Ready for what you mean to do with it? Good." },
+            combatEnd = { "Everyone accounted for? Check before we move." },
+            rest = { "A seat sounds good. Take your time. Yes, I mean it." },
+            hearth = { "Back to Stormwind. There will be messages waiting in the square." },
+        },
+    },
+    [12481] = {
+        quote = "A recommendation puts your judgment beside another person's name. Give it because you mean it, and remember the person you are speaking for.",
+        likes = { "Dependability backed by deeds", "A name remembered after the introduction", "An honest opinion of a small sketch" },
+        dislikes = { "A recommendation given carelessly", "Mistaking impressive armor for character", "A good person lost in a list of names" },
+        gossip = "Justine remembers whom she is willing to recommend. Her little practice portraits are rather less reliable likenesses.",
+        bio = "Justine Demalier recruits for Stormwind in the Trade District. She points out heroes she considers dependable to Captain Melris Malagan, giving their names before he calls them over for Bolvar's summons.",
+        backstory = "Remembering people matters to Justine. For practice, she sometimes sketches a face from memory on a spare scrap of paper. The name is usually the most useful part. Her drawings have a tendency to give everyone a very heroic nose.",
+        secret = "Her self-portrait is the least convincing one. She can identify it because she remembers drawing it. She is considering whether that counts as progress or simply good recordkeeping.",
+        bestFriend = "Have a look at this sketch, friend. Give me your honest opinion. You can be kind afterward; I should like you to stay and talk either way.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment suits someone who puts care into recognizing another person." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time for a walk? I have another sketch to show you. The name is quite accurate. The face may benefit from a little patience.", tone = "[confident warmth, wry amusement, welcoming]" }, "There you are. Shall we have a little time to hear how you have been?" },
+            idle = { { "My self-portrait is the least convincing of the lot. I recognize it because I remember drawing it. Good recordkeeping, perhaps. I should like the next one to require less explanation.", tone = "[dry amusement, candid self-awareness, hopeful]" }, "If you recommend someone, be sure you mean what you say about them.", "A name belongs to a person. It is worth remembering more than the sound of it." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be good to share some time beyond an introduction in the square.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you a question?", "I am listening. Tell me what you think." },
+            learned = { { "Well done. You stayed with the work until you could do it. That tells me something worth knowing about the person behind the accomplishment.", tone = "[steady encouragement, approving, sincerely interested]" } },
+            quest = { "Good work. Following through matters to the person depending on you." },
+            gear = { "Does it serve you well? There is more to judge than how impressive it looks." },
+            mail = { "A letter? I hope there is someone you are pleased to hear from." },
+            zone = { "Somewhere new. Give people time to make a proper introduction." },
+            rest = { "A seat would be welcome. You can give me your opinion of the sketch." },
+            hearth = { "Back to the square. There will be familiar faces to remember." },
+        },
+    },
+
     -- Aedis Brom 1478, dwarf male, and Christoph Faral 1477, human male:
     -- Old Town/Canals companions, shared randomized war-story dialogue,
     -- Pig and Whistle visits. Do not fix shared injuries to one speaker.

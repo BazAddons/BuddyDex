@@ -1,4 +1,44 @@
 {
+  "lore12481_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12481",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. It will be good to share some time beyond an introduction in the square.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. It will be good to share some time beyond an introduction in the square.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12481_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12481",
+    "spoken": "[confident warmth, wry amusement, welcoming] Good to see you, my friend. Have you time for a walk? I have another sketch to show you. The name is quite accurate. The face may benefit from a little patience.",
+    "text": "Good to see you, my friend. Have you time for a walk? I have another sketch to show you. The name is quite accurate. The face may benefit from a little patience.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12481_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12481",
+    "spoken": "[dry amusement, candid self-awareness, hopeful] My self-portrait is the least convincing of the lot. I recognize it because I remember drawing it. Good recordkeeping, perhaps. I should like the next one to require less explanation.",
+    "text": "My self-portrait is the least convincing of the lot. I recognize it because I remember drawing it. Good recordkeeping, perhaps. I should like the next one to require less explanation.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12481_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:12481",
+    "spoken": "[steady encouragement, approving, sincerely interested] Well done. You stayed with the work until you could do it. That tells me something worth knowing about the person behind the accomplishment.",
+    "text": "Well done. You stayed with the work until you could do it. That tells me something worth knowing about the person behind the accomplishment.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1275_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
