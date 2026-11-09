@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 258,
+  "completed_profiles": 260,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
     "alliance": 179,
-    "unverified": 53,
+    "unverified": 55,
     "horde": 26
   },
   "npc_race_counts": {
@@ -15,7 +15,7 @@
     "7": 23,
     "4": 6,
     "8": 3,
-    "6": 3
+    "6": 5
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -28,7 +28,7 @@
     "Orgrimmar": 2,
     "Deeprun Tram": 3,
     "Durotar": 4,
-    "Mulgore": 3
+    "Mulgore": 5
   },
   "entries": [
     {
@@ -3278,6 +3278,28 @@
       "public_friendly_factions": [],
       "reaction_evidence": "No current reaction icon; see mulgore-hunter-and-seer.md for independent quest/role evidence",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2982"
+    },
+    {
+      "npc_id": 3061,
+      "name": "Lanka Farshot",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3061"
+    },
+    {
+      "npc_id": 3062,
+      "name": "Meela Dawnstrider",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3062"
     }
   ]
 }

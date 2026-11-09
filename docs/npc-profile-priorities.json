@@ -63,6 +63,48 @@
       "zone": "Mulgore",
       "route": "Tauren starter route",
       "reason": "Shaman trainer; research adult model, full quests and current friendly access before authoring"
+    },
+    {
+      "npc_id": 3143,
+      "name": "Gornek",
+      "zone": "Durotar",
+      "route": "Orc/troll starter route",
+      "reason": "Fifth Durotar starter profile; quest guide; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 2079,
+      "name": "Conservator Ilthalaine",
+      "zone": "Teldrassil",
+      "route": "Night elf starter route",
+      "reason": "Begin Shadowglen coverage; quest guide; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 2082,
+      "name": "Gilshalan Windwalker",
+      "zone": "Teldrassil",
+      "route": "Night elf starter route",
+      "reason": "Shadowglen research quests; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 8583,
+      "name": "Dirania Silvershine",
+      "zone": "Teldrassil",
+      "route": "Night elf starter route",
+      "reason": "Shadowglen quest giver; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 3593,
+      "name": "Alyissia",
+      "zone": "Teldrassil",
+      "route": "Night elf starter route",
+      "reason": "Shadowglen warrior trainer; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 3595,
+      "name": "Shanda",
+      "zone": "Teldrassil",
+      "route": "Night elf starter route",
+      "reason": "Shadowglen priest trainer; verify full adult eligibility, quests and friendly access before authoring"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 53 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 55 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -30,6 +30,14 @@ Horde starter batches take priority while the imbalance is large. Alternate unde
 
 ## Next Mulgore rotation
 
-After the two remaining Durotar profiles were completed, the research queue adds Grull Hawkwind (2980), Seer Graytongue (2982), Lanka Farshot (3061), and Meela Dawnstrider (3062). Grull and Graytongue now have completed profiles and four recordings each; see [their research notes](mulgore-hunter-and-seer.md). Lanka and Meela remain research candidates. No personal Scout encounter is claimed. Current published Forever pages identify the first three in Mulgore, including Lanka's hunter-trainer title. Meela's current page presented a robot check; Classic identity and current client/quest evidence must be reviewed before authoring. No race, sex, adult model or friendly-access decision is inferred from a name or role alone.
+After the two remaining Durotar profiles were completed, the research queue adds Grull Hawkwind (2980), Seer Graytongue (2982), Lanka Farshot (3061), and Meela Dawnstrider (3062). Grull and Graytongue now have completed profiles and four recordings each; see [their research notes](mulgore-hunter-and-seer.md). Lanka and Meela now also have completed profiles with four recordings each, including the first female Tauren signatures; see [their research notes](mulgore-first-trainers.md). Mulgore has reached the initial five-profile target. No personal Scout encounter is claimed. Current published Forever pages identify the first three in Mulgore, including Lanka's hunter-trainer title. Meela's current page presented a robot check; Classic identity and current client/quest evidence must be reviewed before authoring. No race, sex, adult model or friendly-access decision is inferred from a name or role alone.
 
 Research starting links: [Grull](https://www.wowhead.com/forever/npc=2980/grull-hawkwind), [Graytongue](https://www.wowhead.com/forever/npc=2982/seer-graytongue), [Lanka](https://www.wowhead.com/forever/npc=3061/lanka-farshot), [Meela](https://www.wowhead.com/forever/npc=3062/meela-dawnstrider).
+
+## Next rotation: finish Durotar, then begin Shadowglen
+
+The explicit research queue now adds Gornek (3143) for Durotar's fifth completed starter profile, followed by Conservator Ilthalaine (2079), Gilshalan Windwalker (2082), Dirania Silvershine (8583), Alyissia (3593), and Shanda (3595) in Teldrassil. All six exact names and character models were checked in current Forever NPC nodes. They remain research candidates: full quest-chain, adult-model and friendly-access review is required before authoring. No Scout sighting or completed beginner coverage is inferred from a public definition.
+
+Identity check caught a possible ID mix-up before admission: 2078 is Athridas Bearmantle, not Gilshalan. Gilshalan is verified as 2082. The queue uses 2082; no profile or duplicate identity was authored from the mistaken association.
+
+This preserves the wider coverage rotation: Mulgore now has five, Durotar has four, and Teldrassil still needs its first starter batch. Dun Morogh and both Skyborne faction paths remain outstanding starter experiences, rather than being counted as covered by city NPCs.

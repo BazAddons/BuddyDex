@@ -1,0 +1,42 @@
+{
+  "lore3062_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3062",
+    "spoken": "[warm sincere affection, calm confidence, openly pleased] I would be glad to share your path for a while. Tell me what has stayed with you from the day. A lesson, a worry, or something that made you smile. Good company leaves room for all of them, and I have come to value yours.",
+    "text": "I would be glad to share your path for a while. Tell me what has stayed with you from the day. A lesson, a worry, or something that made you smile. Good company leaves room for all of them, and I have come to value yours.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3062_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3062",
+    "spoken": "[rich low feminine warmth, grounded welcome, softly amused] Welcome, friend. Come and tell me what you have learned since we last spoke. There is time to listen. If you notice my foot tapping, I have a small rhythm caught in my thoughts. It may escape the moment I try to explain it.",
+    "text": "Welcome, friend. Come and tell me what you have learned since we last spoke. There is time to listen. If you notice my foot tapping, I have a small rhythm caught in my thoughts. It may escape the moment I try to explain it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3062_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3062",
+    "spoken": "[earthy feminine contralto, reflective pleasure, gentle humor] I like listening to rain on the tent. A few drops find a rhythm, and I try following it with my foot. Then the pattern changes, and I have to begin again. It is a pleasant way to discover how quickly certainty can turn into laughter.",
+    "text": "I like listening to rain on the tent. A few drops find a rhythm, and I try following it with my foot. Then the pattern changes, and I have to begin again. It is a pleasant way to discover how quickly certainty can turn into laughter.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3062_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3062",
+    "spoken": "[low feminine encouraging teacher, patient, practical warmth] You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you.",
+    "text": "You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  }
+}

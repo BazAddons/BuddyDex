@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Lanka Farshot (3061), adult male tauren hunter trainer, Narache, display 3810 (6 / 0).
+    -- Etched Note 3092/item 9565: hunter's service to tribe; 6066 refers pet lessons to Yaw.
+    -- Poor bird-call imitation is original, never a new pet or hunter ability.
+    -- docs/research/mulgore-first-trainers.md.
+    [3061] = {
+        quote = "Learn the land before you hurry through it. A hunter should notice more than the next thing to shoot, especially when others depend on what he brings home.",
+        likes = { "A pupil who learns the land", "Hunters who serve their people", "A bird answering his imperfect whistle" },
+        dislikes = { "A weapon handled without attention", "Treating a companion as equipment", "Being caught practicing the same bad call" },
+        gossip = "Lanka whistles between lessons. Some pupils think he is demonstrating a call that only a very experienced hunter can master.",
+        bio = "Lanka Farshot teaches hunters in Camp Narache. His Etched Note describes their place in serving and protecting the tribe. When a pupil is ready for a beast companion, he points them toward Yaw Sharpmane in Bloodhoof Village.",
+        backstory = "He once tried answering a bird near camp. His whistle sounded little like it, but the bird called again. He enjoyed the exchange and kept trying, even after he realized improvement might take considerably more practice.",
+        secret = "He is still working on the call. When a bird answers, he likes to believe it is encouraging him. He would rather not know if it is merely complaining.",
+        bestFriend = "Listen to this. No, that was me. The bird sounds much better. You may laugh; I trust you to keep practicing with me.",
+        favorite = { emote = "NOD", hint = "Show him that you are listening closely before trying the next lesson." },
+        lines = {
+            greet = { { "Welcome. What have you noticed today? There is more to learning the plains than remembering where to aim. I have been listening to a bird near camp. It answers my whistle now and then. Whether that means I am improving is another question entirely.", tone = "[deep attentive welcome, practical warmth, self-deprecating amusement]" }, "Good to see you. Bring your questions, and keep your eyes open." },
+            idle = { { "The bird makes it sound so easy. One little call, clear as anything. Mine needs work. I think it answered that last attempt, though I cannot say whether it approved. It is useful for a teacher to remember what being a beginner feels like.", tone = "[rich relaxed voice, thoughtful humor, quietly amused]" }, "A good hunter learns the ground before trusting a quick glance.", "A companion deserves attention even when there is nothing to fight." },
+            befriended = { { "I would enjoy walking with you. Tell me what you see, and we can compare our observations. There is always something I might have missed. And if you hear a poor attempt at a bird call, remember that everyone needs practice at something.", tone = "[steady sincere friendliness, generous, an easy smile]" } },
+            poke = { "Yes? Guns, bows, or another question?", "I heard you. I was listening for an answer from farther away." },
+            learned = { { "Good. Try it carefully before deciding you have mastered it. Watch what changes when you slow down. One successful attempt is worth enjoying, and the next one is worth your full attention. That applies to a fine shot, or to a very stubborn whistle.", tone = "[firm encouraging teacher, grounded warmth, gently humorous]" } },
+            quest = { "Useful work. Remember who will be helped by what you brought back." },
+            gear = { "Know your weapon well enough to handle it thoughtfully." },
+            combatStart = { "Choose your moment. Pay attention to what stands beside you." },
+            rest = { "A pause gives us a chance to listen. There is plenty worth hearing." },
+            levelUp = { "Growing skill deserves growing care. Keep practicing both." },
+            hearth = { "Back among familiar paths. There is always more to notice here." },
+        },
+    },
+    -- Meela Dawnstrider (3062), adult female tauren shaman trainer, Narache, display 10180 (6 / 1).
+    -- Rune-Inscribed Note 3093/item 9552; actual shaman/other-class greetings.
+    -- Tapping along to rain is an ordinary private pleasure, not an elemental rite or new spell.
+    -- docs/research/mulgore-first-trainers.md.
+    [3062] = {
+        quote = "Bring your attention as well as your eagerness. There is much to hear, and a good lesson should leave you better prepared to face what comes next.",
+        likes = { "A pupil returning with new understanding", "Careful attention to the elements", "Keeping time with rain on the tent" },
+        dislikes = { "Power used without understanding", "A question swallowed out of pride", "Losing the beat just as someone notices" },
+        gossip = "Meela taps her foot while rain falls on the tent. Visitors wonder what conversation she is having with the weather.",
+        bio = "Meela Dawnstrider teaches shamans in Camp Narache. Her Rune-Inscribed Note calls pupils to learn the ways of the elements and ancestral spirits. She welcomes their return, hoping each lesson leaves them stronger and better prepared.",
+        backstory = "During a shower, she began tapping her foot to the rain on the tent. A few drops changed the rhythm, and she lost her place. She laughed, started again, and found she rather enjoyed trying to keep up.",
+        secret = "The tapping is just for pleasure. She follows the raindrops until they surprise her, then starts again. She likes having a friend join in, especially if both lose the beat.",
+        bestFriend = "Sit with me. Listen to that little rhythm. We can try following it together, and laugh when the rain changes its mind.",
+        favorite = { emote = "BOW", hint = "Approach her teaching with respect for the knowledge she is willing to share." },
+        lines = {
+            greet = { { "Welcome, friend. Come and tell me what you have learned since we last spoke. There is time to listen. If you notice my foot tapping, I have a small rhythm caught in my thoughts. It may escape the moment I try to explain it.", tone = "[rich low feminine warmth, grounded welcome, softly amused]" }, "It is good to see you. What would you like to understand better?" },
+            idle = { { "I like listening to rain on the tent. A few drops find a rhythm, and I try following it with my foot. Then the pattern changes, and I have to begin again. It is a pleasant way to discover how quickly certainty can turn into laughter.", tone = "[earthy feminine contralto, reflective pleasure, gentle humor]" }, "A question is welcome. You do not need to hide it behind a confident face.", "I nearly kept that rhythm. Nearly is enough reason to try again." },
+            befriended = { { "I would be glad to share your path for a while. Tell me what has stayed with you from the day. A lesson, a worry, or something that made you smile. Good company leaves room for all of them, and I have come to value yours.", tone = "[warm sincere affection, calm confidence, openly pleased]" } },
+            poke = { "Yes, my friend? I am listening.", "A moment. There, I have lost the beat. Now you have all my attention." },
+            learned = { { "You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you.", tone = "[low feminine encouraging teacher, patient, practical warmth]" } },
+            quest = { "Take a little time to think about what the task has taught you." },
+            rest = { "Sit a moment. There is room to listen without reaching for an answer." },
+            comforted = { "Thank you. Your kindness has not gone unheard." },
+            danceAlong = { "You have found a rhythm. Let me see whether I can follow it." },
+            levelUp = { "Stronger, and ready to understand a little more. I am pleased for you." },
+            hearth = { "A familiar welcome. May you find a little peace here." },
+        },
+    },
+
     -- Grull Hawkwind (2980), adult male tauren, Camp Narache, display 3808 (6 / 0).
     -- 747/750/780 provision the tribe; Chief Hawkwind is his father; 3091-3094 trainer referrals.
     -- Enthusiasm for the last spoonful of stew is original, not a new vendor/cooking service.

@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Complete Lanka Farshot and Meela Dawnstrider with fifteen personal lines and four Eleven v4 signatures each, bringing Mulgore to five completed starter profiles. Bundle the first selected female Tauren signature recordings.
+
 - Complete Grull Hawkwind and Seer Graytongue in Mulgore, each with fifteen personal lines and four Eleven v4 signature recordings in the selected Tauren male voice.
 
 - Complete Hana'zua and Zureetha Fargaze in the Valley of Trials, with fifteen personal lines and four Eleven v4 recordings each in the selected troll male and orc female voices.

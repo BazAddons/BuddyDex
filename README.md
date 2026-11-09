@@ -46,7 +46,7 @@ Any friend at Buddy or better can come along in your Mini Me's place, drawn true
 
 ### Voices
 
-Recorded voices are built into **BuddyDex**: your gnome Mini Me and NPC friends have voices for humans, dwarves, night elves, gnomes, Skyborne, orcs, Forsaken, Tauren males, and trolls. Completed profiles include personal signature recordings. The Forsaken, Tauren and troll voices currently cover those signatures; lines without recordings still appear as speech bubbles. Turn Voice off in `/bd options` for speech bubbles only. Races without a bundled recorded voice use their in-game NPC sounds when Voice is on. There is one addon folder and no separate voice pack to install.
+Recorded voices are built into **BuddyDex**: your gnome Mini Me and NPC friends have voices for humans, dwarves, night elves, gnomes, Skyborne, orcs, Forsaken, Tauren, and trolls. Completed profiles include personal signature recordings. The Forsaken, Tauren and troll voices currently cover those signatures; lines without recordings still appear as speech bubbles. Turn Voice off in `/bd options` for speech bubbles only. Races without a bundled recorded voice use their in-game NPC sounds when Voice is on. There is one addon folder and no separate voice pack to install.
 
 **Upgrading from the separate voice addon?** Remove the old `BuddyDex_Voice` folder from your AddOns directory; BuddyDex now includes those recordings. Your BuddyDex friendships and settings are kept.
 

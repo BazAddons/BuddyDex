@@ -118,5 +118,45 @@
     "spoken": "[calm thoughtful instruction, firm kindness, encouraging] A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.",
     "text": "A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3061_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3061",
+    "spoken": "[steady sincere friendliness, generous, an easy smile] I would enjoy walking with you. Tell me what you see, and we can compare our observations. There is always something I might have missed. And if you hear a poor attempt at a bird call, remember that everyone needs practice at something.",
+    "text": "I would enjoy walking with you. Tell me what you see, and we can compare our observations. There is always something I might have missed. And if you hear a poor attempt at a bird call, remember that everyone needs practice at something.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3061_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3061",
+    "spoken": "[deep attentive welcome, practical warmth, self-deprecating amusement] Welcome. What have you noticed today? There is more to learning the plains than remembering where to aim. I have been listening to a bird near camp. It answers my whistle now and then. Whether that means I am improving is another question entirely.",
+    "text": "Welcome. What have you noticed today? There is more to learning the plains than remembering where to aim. I have been listening to a bird near camp. It answers my whistle now and then. Whether that means I am improving is another question entirely.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3061_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3061",
+    "spoken": "[rich relaxed voice, thoughtful humor, quietly amused] The bird makes it sound so easy. One little call, clear as anything. Mine needs work. I think it answered that last attempt, though I cannot say whether it approved. It is useful for a teacher to remember what being a beginner feels like.",
+    "text": "The bird makes it sound so easy. One little call, clear as anything. Mine needs work. I think it answered that last attempt, though I cannot say whether it approved. It is useful for a teacher to remember what being a beginner feels like.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3061_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3061",
+    "spoken": "[firm encouraging teacher, grounded warmth, gently humorous] Good. Try it carefully before deciding you have mastered it. Watch what changes when you slow down. One successful attempt is worth enjoying, and the next one is worth your full attention. That applies to a fine shot, or to a very stubborn whistle.",
+    "text": "Good. Try it carefully before deciding you have mastered it. Watch what changes when you slow down. One successful attempt is worth enjoying, and the next one is worth your full attention. That applies to a fine shot, or to a very stubborn whistle.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }

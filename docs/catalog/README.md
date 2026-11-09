@@ -11,9 +11,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,431 |
-| Local backlog entries missing from source | 59 |
-| Combined retained entries | 1,490 |
-| Candidate name groups | 1,477 |
+| Local backlog entries missing from source | 60 |
+| Combined retained entries | 1,491 |
+| Candidate name groups | 1,478 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -547,6 +547,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Gorbold Steelhand**: [6301](https://forever.warcraftdb.com/data/npc/6301)
 - **Gordon Wendham**: [4556](https://forever.warcraftdb.com/data/npc/4556)
 - **Gorina**: [3358](https://forever.warcraftdb.com/data/npc/3358)
+- **Gornek**: [3143](https://forever.warcraftdb.com/data/npc/3143)
 - **Gorrik**: [2861](https://forever.warcraftdb.com/data/npc/2861)
 - **Gothor Brumn**: [1362](https://forever.warcraftdb.com/data/npc/1362)
 - **Gramma Stonefield** — Scout: [248](https://forever.warcraftdb.com/data/npc/248)
