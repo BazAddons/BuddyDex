@@ -357,6 +357,27 @@
       "zone": "Durotar",
       "route": "Familiar Horde quest contact and female Troll riding service",
       "reason": "Exact current Horde-friendly adult male Orc/female Troll body and Crossroads/Senjin pin verified; full quest/training/era research pending. See docs/research/mankrik-and-raptor-riding-queue.md"
+    },
+    {
+      "npc_id": 3401,
+      "name": "Shenthul",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar lessons, fishing supplies and zeppelin service",
+      "reason": "Exact adult male Troll/female Orc/female Goblin bodies verified; current or published Forever location/access leads reviewed, with Neutral conditional. Full quests/services/literary research pending. See docs/research/orgrimmar-lessons-fishing-and-zeppelin-queue.md"
+    },
+    {
+      "npc_id": 3333,
+      "name": "Shankys",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar lessons, fishing supplies and zeppelin service",
+      "reason": "Exact adult male Troll/female Orc/female Goblin bodies verified; current or published Forever location/access leads reviewed, with Neutral conditional. Full quests/services/literary research pending. See docs/research/orgrimmar-lessons-fishing-and-zeppelin-queue.md"
+    },
+    {
+      "npc_id": 12136,
+      "name": "Snurk Bucksquick",
+      "zone": "Durotar",
+      "route": "Orgrimmar lessons, fishing supplies and zeppelin service",
+      "reason": "Exact adult male Troll/female Orc/female Goblin bodies verified; current or published Forever location/access leads reviewed, with Neutral conditional. Full quests/services/literary research pending. See docs/research/orgrimmar-lessons-fishing-and-zeppelin-queue.md"
     }
   ]
 }
