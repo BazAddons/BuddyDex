@@ -1174,6 +1174,46 @@
     "text": "Something useful for your next piece of work? Keep it, then. We can talk about the supplies once you know what you're making.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore6174_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6174",
+    "spoken": "[warm affection, grateful pleasure, inviting] You came to bring me along. I am glad, my friend. Come on. It will be lovely to share a little of the afternoon with you.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. It will be lovely to share a little of the afternoon with you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6174_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6174",
+    "spoken": "[gentle warmth, a little tired, sincerely interested] Oh, hello, my friend. A little walk would be lovely. Tell me how you have been. I spend so much time seeing what needs doing, it is good to have time to hear an answer.",
+    "text": "Oh, hello, my friend. A little walk would be lovely. Tell me how you have been. I spend so much time seeing what needs doing, it is good to have time to hear an answer.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6174_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6174",
+    "spoken": "[fond amusement, tender warmth, quietly delighted] The children keep changing the end of my mending song. I remember every version. Sometimes I start it just to hear which one comes back. It can make a long bit of sewing rather cheerful.",
+    "text": "The children keep changing the end of my mending song. I remember every version. Sometimes I start it just to hear which one comes back. It can make a long bit of sewing rather cheerful.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6174_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:6174",
+    "spoken": "[hopeful affection, homesick tenderness, warm] A letter? I hope there is news from John. Even an ordinary little account of his day would be welcome. It is good to hear his voice in the words.",
+    "text": "A letter? I hope there is news from John. Even an ordinary little account of his day would be welcome. It is good to hear his voice in the words.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6740_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

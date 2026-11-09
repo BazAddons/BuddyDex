@@ -2171,6 +2171,46 @@
     "text": "There. You stayed with it, and now you can do it. Remember that next time the work seems slow.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore6171_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6171",
+    "spoken": "[reserved affection, pleased, warmly inviting] You came to bring me along. I am glad of your friendship. Come. Today there is time for us to share a little of the road ourselves.",
+    "text": "You came to bring me along. I am glad of your friendship. Come. Today there is time for us to share a little of the road ourselves.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6171_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6171",
+    "spoken": "[measured authority, sincere interest, welcoming warmth] Welcome, my friend. A walk would be good. Tell me what has occupied you. I should like to hear about the people, as well as the challenges.",
+    "text": "Welcome, my friend. A walk would be good. Tell me what has occupied you. I should like to hear about the people, as well as the challenges.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6171_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6171",
+    "spoken": "[reflective gravity, restrained affection, thoughtful] Before I send a pupil away, I think of the people who will be glad to see them return. A familiar instruction must never become an empty speech. There is a life going out through that door.",
+    "text": "Before I send a pupil away, I think of the people who will be glad to see them return. A familiar instruction must never become an empty speech. There is a life going out through that door.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6171_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:6171",
+    "spoken": "[firm encouragement, approving, purposeful warmth] Well done. Now consider whom this new ability may help. Be proud of what you have learned, and take care in how you use it.",
+    "text": "Well done. Now consider whom this new ability may help. Be proud of what you have learned, and take care in how you use it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore6175_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

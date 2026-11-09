@@ -559,6 +559,46 @@
     "text": "There ye are! Now try it with your own hands while the lesson is fresh. I do like seeing a good idea become useful work.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore6173_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6173",
+    "spoken": "[gruff affection, quietly pleased, inviting] You came to bring me along. Aye, I am pleased, my friend. It is good to have some company with time to stay. Come on, then.",
+    "text": "You came to bring me along. Aye, I am pleased, my friend. It is good to have some company with time to stay. Come on, then.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6173_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:6173",
+    "spoken": "[firm concern, alert, reassuring] Everyone all right? Have a proper look before we move on. The work can wait a moment while we make sure nobody needs help.",
+    "text": "Everyone all right? Have a proper look before we move on. The work can wait a moment while we make sure nobody needs help.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6173_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6173",
+    "spoken": "[gruff concern, relieved warmth, welcoming] Ah, there you are, friend. Good to see you on your feet. Come on, then. Tell me how you have been, and don't leave the important part until the end. I mean whether you're all right.",
+    "text": "Ah, there you are, friend. Good to see you on your feet. Come on, then. Tell me how you have been, and don't leave the important part until the end. I mean whether you're all right.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6173_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6173",
+    "spoken": "[rough tenderness, self-conscious humor, confiding] I have tried to think of a proper thank-you for Henze. Comes out as a grumble every time. I hope he'll hear what I mean under it. Relief can be a clumsy thing to put into words.",
+    "text": "I have tried to think of a proper thank-you for Henze. Comes out as a grumble every time. I hope he'll hear what I mean under it. Relief can be a clumsy thing to put into words.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore8671_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

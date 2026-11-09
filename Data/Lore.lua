@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Duthorian Rall 6171, human male paladin, Cathedral of Light: Divinity,
+    -- Valor, Nobility and charger referral. Stephanie Turner 6174, human
+    -- female, Trade District: orphanage, husband John, linen request.
+    -- Gazin Tenorm 6173, dwarf male recovering in the Cathedral: Henze,
+    -- Heroes' Vigil, Defias Script. Full quest/book research and original
+    -- private details: docs/research/divinity-rall-turner-and-tenorm.md.
+    [6171] = {
+        quote = "Your strength matters because someone may need it. Remember the person you are helping when the trial begins to seem more important than its purpose.",
+        likes = { "Compassion carried into action", "Courage joined with preparation", "A pupil who remembers whom they serve" },
+        dislikes = { "Great power without responsibility", "A lesson treated as a badge to collect", "Pride that overlooks an ordinary need" },
+        gossip = "Duthorian's tests can be demanding. He is as interested in whom a pupil has helped as in the strength they have gained.",
+        bio = "Duthorian Rall guides paladins in Stormwind's Cathedral of Light. His lessons join charity with courage: aid for Stephanie's orphanage, help for Gazin and Henze, and protection for Daphne Stilwell give virtue practical work to do.",
+        backstory = "Brother Wilhelm and Brandur Ironhammer send promising paladins to Duthorian. He teaches through the Tomes and expects their lessons to become deeds. He rewards dedication, but reminds pupils that the duties they undertake can cost lives.",
+        secret = "Before sending a pupil away, he sometimes imagines the people who will be glad to see them return. It keeps a familiar instruction from becoming an empty speech.",
+        bestFriend = "Sit beside me. You needn't account for an accomplishment. I am glad to have time with the person I have come to call my friend.",
+        favorite = { emote = "PRAY", hint = "A quiet moment of devotion suits someone who asks that faith guide the deeds that follow." },
+        lines = {
+            greet = { { "Welcome, my friend. A walk would be good. Tell me what has occupied you. I should like to hear about the people, as well as the challenges.", tone = "[measured authority, sincere interest, welcoming warmth]" }, "Good to see you. Have you had time to consider what the day's work has taught you?" },
+            idle = { { "Before I send a pupil away, I think of the people who will be glad to see them return. A familiar instruction must never become an empty speech. There is a life going out through that door.", tone = "[reflective gravity, restrained affection, thoughtful]" }, "The chance to help someone seldom arrives with a title attached.", "Preparation is part of taking another person's safety seriously." },
+            befriended = { { "You came to bring me along. I am glad of your friendship. Come. Today there is time for us to share a little of the road ourselves.", tone = "[reserved affection, pleased, warmly inviting]" } },
+            poke = { "Yes? Speak plainly. I am listening.", "Have you a question, my friend?" },
+            learned = { { "Well done. Now consider whom this new ability may help. Be proud of what you have learned, and take care in how you use it.", tone = "[firm encouragement, approving, purposeful warmth]" } },
+            quest = { "Good work. Remember the person who needed your help when the reward has been put away." },
+            levelUp = { "Greater strength brings greater responsibility. Prepare yourself for both." },
+            combatEnd = { "See that everyone is safe before we consider the work finished." },
+            gear = { "May it serve you well in the duties you choose to undertake." },
+            rest = { "A little reflection would be worthwhile. Sit with me." },
+            hearth = { "Back to the Cathedral. There will be more to learn, and people who need us." },
+        },
+    },
+    [6174] = {
+        quote = "A shirt that fits, a meal, someone who remembers to ask how you are. Small things can take a great deal of care. They are worth the trouble.",
+        likes = { "Linen that can become children's clothes", "News of John and a hopeful homecoming", "A silly ending to the mending song" },
+        dislikes = { "Useful help dismissed as too ordinary", "A child made to feel like a burden", "Kind words with no time to listen" },
+        gossip = "Stephanie can make a little linen go a long way. Her mending song goes further: the children keep giving it new endings.",
+        bio = "Stephanie Turner and her husband John run a Stormwind orphanage. She makes the children's clothes while trying to keep them fed and sheltered. John seeks supplies in Ironforge; her linen request becomes a paladin's lesson in charity.",
+        backstory = "Many children in their care lost family to the Scourge. Cloth has become harder to obtain, and Stephanie has little time for sewing. She welcomes practical help that frees her for the children's other needs and may bring John home sooner.",
+        secret = "Her little mending song has acquired several ridiculous endings from the children. She remembers them all. Sometimes she starts it just to hear which one they choose today.",
+        bestFriend = "Come and sit. You needn't arrive with a parcel to be welcome. I should like to hear how you are, before the afternoon carries us off again.",
+        favorite = { emote = "SMILE", hint = "A kind expression can brighten a busy day before anyone has found time for a conversation." },
+        lines = {
+            greet = { { "Oh, hello, my friend. A little walk would be lovely. Tell me how you have been. I spend so much time seeing what needs doing, it is good to have time to hear an answer.", tone = "[gentle warmth, a little tired, sincerely interested]" }, "Good to see you. Have you a moment to sit, or shall we walk a little?" },
+            idle = { { "The children keep changing the end of my mending song. I remember every version. Sometimes I start it just to hear which one comes back. It can make a long bit of sewing rather cheerful.", tone = "[fond amusement, tender warmth, quietly delighted]" }, "I hope John has had a kind reception in Ironforge. I know how he misses home.", "A little useful help can leave time for something else a child needs." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be lovely to share a little of the afternoon with you.", tone = "[warm affection, grateful pleasure, inviting]" } },
+            poke = { "Yes, luv? You have my attention.", "Oh! I was thinking of the sewing. Tell me." },
+            mail = { { "A letter? I hope there is news from John. Even an ordinary little account of his day would be welcome. It is good to hear his voice in the words.", tone = "[hopeful affection, homesick tenderness, warm]" } },
+            loot = { "Something useful? Plain things can do a great deal in the right hands." },
+            quest = { "You made time to help. Someone will have an easier day because of it." },
+            bagsFull = { "Perhaps a little sorting will show us what can still be put to use." },
+            rest = { "Yes, let us sit a moment. How have you been, really?" },
+            levelUp = { "I am glad to see you doing well. Take care of yourself in what comes next." },
+            hearth = { "Back to Stormwind. There will be plenty to do, and familiar faces to be glad of." },
+        },
+    },
+    [6173] = {
+        quote = "Bring me news of the person as well as the work. A fine report is a poor comfort if I still don't know whether my friend is safe.",
+        likes = { "Clear news that a friend is safe", "Proof that can be put in the right hands", "Company that stays after the questions" },
+        dislikes = { "A friend left beyond reach of help", "A brave deed with its cost forgotten", "Rumor passed along as settled proof" },
+        gossip = "Gazin can explain why the Defias papers matter. Ask what he wants to hear first, though, and it will be news of Henze.",
+        bio = "Gazin Tenorm recovers in Stormwind's Cathedral of Light after a Defias encounter at Heroes' Vigil. He and Henze Faulk sought proof of the Brotherhood's presence in Elwynn. Henze held off their attackers so Gazin could escape and seek help.",
+        backstory = "Duthorian sends a paladin to Gazin with the Symbol of Life. Gazin directs aid to Henze, who seeks the Defias papers as well as a way home. Gazin wants Duthorian to inspect the recovered script before he takes it to the king's advisors.",
+        secret = "He has rehearsed a proper thank-you to Henze. Every attempt begins with a grumble about unnecessary heroics. He hopes the relief will be easier to hear when the moment comes.",
+        bestFriend = "Sit with me, friend. If I grumble when you come back, put some of it down to relief. I am glad you are here to answer.",
+        favorite = { emote = "COMFORT", hint = "A reassuring gesture may help someone whose thoughts keep returning to a friend in danger." },
+        lines = {
+            greet = { { "Ah, there you are, friend. Good to see you on your feet. Come on, then. Tell me how you have been, and don't leave the important part until the end. I mean whether you're all right.", tone = "[gruff concern, relieved warmth, welcoming]" }, "Good to see you. Have you news, or shall we have a little quiet company?" },
+            idle = { { "I have tried to think of a proper thank-you for Henze. Comes out as a grumble every time. I hope he'll hear what I mean under it. Relief can be a clumsy thing to put into words.", tone = "[rough tenderness, self-conscious humor, confiding]" }, "The papers matter. So does knowing whether the person bringing them can get home safely.", "Duthorian is a good friend. I am glad to have him near." },
+            befriended = { { "You came to bring me along. Aye, I am pleased, my friend. It is good to have some company with time to stay. Come on, then.", tone = "[gruff affection, quietly pleased, inviting]" } },
+            poke = { "Aye? Have you something to tell me?", "I'm listening. Tell it plainly." },
+            combatEnd = { { "Everyone all right? Have a proper look before we move on. The work can wait a moment while we make sure nobody needs help.", tone = "[firm concern, alert, reassuring]" } },
+            quest = { "Good work. And is everyone who helped you safely accounted for?" },
+            mail = { "News? Let us find out who it is from." },
+            loot = { "Proof of something, or a useful find? Let us have a look." },
+            gear = { "May it help you come back in one piece. That is worth a great deal." },
+            rest = { "A seat sounds good. Stay and talk a while, if you have the time." },
+            hearth = { "Back to the Cathedral. It will be good to see familiar faces." },
+        },
+    },
+
     -- Everyday Merchandise, Trade District: Edna Mullby 1286, human female
     -- Trade Supplier; Thurman Mullby 1285, human male General Goods Vendor.
     -- Actual service greetings and Classic/current stock checked; no
