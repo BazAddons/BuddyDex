@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Lomac 4081 and Overspark 7944: male gnomes in Tinker Town.
+    -- Lomac makes NG-5 for old friend Gaxim's Stonetalon operation.
+    -- Overspark teaches gnomish engineering and seeks Techbot's memory core.
+    -- No presumed successful repair or later retail expeditions. Sources:
+    -- docs/research/lomac-and-overspark.md.
+    [4081] = {
+        quote = "A result that startles you is still a result. Write it down before you start complaining about the noise.",
+        likes = { "Ingredients brought as requested", "An experiment that makes an impression", "An old colleague who knows his humor" },
+        dislikes = { "Treating alchemy as an afterthought", "Calling his greatest work a small favor", "A stranger claiming to speak for Gaxim" },
+        gossip = "Lomac's reputation is louder than most of his correspondence. A note from an old colleague seems to survive remarkably long on his desk.",
+        bio = "Lomac Gearstrip works in Tinker Town and makes the volatile NG-5. His old friend Gaxim Rustfizzle sends adventurers to him for it as part of a Stonetalon operation against the Venture Co. Lomac expects the requested ingredients first.",
+        backstory = "Gaxim knows whom to ask when his plan needs particularly potent material. Lomac greets the request with suspicion and grim amusement, then makes the batch once supplied. His interest is in the experiment as much as the cause it serves.",
+        secret = "He keeps a polite thank-you from Gaxim among his papers. It has survived several work surfaces. He insists it's useful scrap and changes the subject whenever someone asks why.",
+        bestFriend = "Still coming back, are you? Good. I like a familiar face. Now stop looking pleased that I admitted it.",
+        favorite = { emote = "GRIN", hint = "Someone who recognizes the joke beneath his alarming remarks may get a warmer reception." },
+        lines = {
+            greet = { { "An outing? Fine. Try to return looking much as you do now. Gaxim will ask questions.", tone = "[raspy mischief, darkly amused, brisk]" }, "Ready. Let's see whether the world has done anything interesting." },
+            idle = { { "That old note? Useful scrap. No, you can't have it. I haven't finished finding a use for it.", tone = "[defensive, dryly amused, hiding fondness]" }, "The world's not short of impressive swords. Give an alchemist a little credit.", "Gaxim's ideas do tend to make an entrance." },
+            befriended = { { "A familiar face with enough sense to come back. Yes, yes, I'm pleased. Don't make a ceremony of it.", tone = "[gruff affection, reluctant warmth, comic impatience]" } },
+            poke = { "An experiment in patience? You've chosen a poor subject.", "Yes? Have you brought something interesting?" },
+            learned = { { "A new skill! Good. There may be more to you than swinging something sharp.", tone = "[approving, teasing, energetic curiosity]" } },
+            loot = { "Interesting material. Do you know what it is, or are we about to find out?" },
+            bagsFull = { "You brought all that and still expect to find things? Ambitious." },
+            quest = { "A result delivered. Gaxim would have something dramatic to say about it." },
+            levelUp = { "More capable than yesterday. Useful. Keep that up." },
+            combatEnd = { "Still standing? Good. I dislike unfinished reports." },
+            hearth = { "Back to Tinker Town. Something may have happened while we were away." },
+        },
+    },
+    [7944] = {
+        quote = "An ingenious device should make life better. And when a once-helpful invention goes wrong, understanding it is still work worth doing.",
+        likes = { "A student's carefully demonstrated work", "An ingenious practical solution", "Hope for a damaged creation" },
+        dislikes = { "Schematics shared without discretion", "Dismissing a malfunction as hopeless", "Radiation where a city ought to thrive" },
+        gossip = "Overspark can make a lesson sound like a grand declaration. Mention Techbot, though, and people hear something much more personal.",
+        bio = "Tinkmaster Overspark guides gnomish engineers in Ironforge's Tinker Town. His Classic lessons ask students to pledge secrecy and demonstrate their work. Brother Sarno also sends help to him for his malfunctioning creation, Techbot.",
+        backstory = "Techbot once helped Overspark and his associates with tools and information. After Gnomeregan fell, it became dangerously erratic. Overspark seeks its memory core in the hope of understanding the fault and repairing his creation.",
+        secret = "He has rehearsed what he might say if Techbot works properly again. No grand speech, no declaration of engineering triumph. Just a very pleased welcome back.",
+        bestFriend = "Stay a little while. I can set the grand explanations aside with you. Some hopes are easier to speak of in good company.",
+        favorite = { emote = "PRAISE", hint = "Recognition of the thought behind an invention matters to this proud teacher." },
+        lines = {
+            greet = { { "An excursion! Excellent. There is always something beyond the workbench worth understanding.", tone = "[grand enthusiasm, bright intellectual curiosity]" }, "Ready. Tell me if you see a particularly ingenious solution on our way." },
+            idle = { { "If Techbot can be put right, I think welcome back will be quite enough of a speech.", tone = "[thoughtful, fond, hopeful beneath restrained grandeur]" }, "A clever idea deserves a demonstration. Preferably one that explains its own results.", "I do enjoy a student asking the question I was about to answer. It shows attention." },
+            befriended = { { "You listen to the explanation, and remember the person giving it. I appreciate that more than another round of applause.", tone = "[warm, sincere, setting aside theatrical pride]" } },
+            poke = { "Yes? A question, or an urgent discovery?", "One moment. I was following a rather promising thought." },
+            learned = { { "Excellent! Now show me what you've understood. A fine opportunity for a demonstration.", tone = "[proud teacher, eager, encouraging]" } },
+            gear = { "An interesting design. What has its maker chosen to improve?" },
+            quest = { "A useful step forward. We should not overlook those while imagining the grand ones." },
+            loot = { "Something worth examining before we decide what it can do." },
+            levelUp = { "Progress! Your next question ought to be a little more ambitious." },
+            rest = { "A pause can be useful. Give an idea room to settle." },
+            hearth = { "Back to Tinker Town. There is work, and perhaps a little good news, waiting." },
+        },
+    },
+
     -- Named male dwarf Ironforge patrol guards, not generic Ironforge Guards:
     -- Farmountain 14365, Shadowdelve 14363, Thunderbrew 14367. Classic stealth
     -- detection patrol role; no personal quest chain found. Private hooks

@@ -2149,6 +2149,46 @@
     "text": "This looks like a good place. Is there room beside you?",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore4081_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4081",
+    "spoken": "[gruff affection, reluctant warmth, comic impatience] A familiar face with enough sense to come back. Yes, yes, I'm pleased. Don't make a ceremony of it.",
+    "text": "A familiar face with enough sense to come back. Yes, yes, I'm pleased. Don't make a ceremony of it.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore4081_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4081",
+    "spoken": "[raspy mischief, darkly amused, brisk] An outing? Fine. Try to return looking much as you do now. Gaxim will ask questions.",
+    "text": "An outing? Fine. Try to return looking much as you do now. Gaxim will ask questions.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore4081_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4081",
+    "spoken": "[defensive, dryly amused, hiding fondness] That old note? Useful scrap. No, you can't have it. I haven't finished finding a use for it.",
+    "text": "That old note? Useful scrap. No, you can't have it. I haven't finished finding a use for it.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore4081_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4081",
+    "spoken": "[approving, teasing, energetic curiosity] A new skill! Good. There may be more to you than swinging something sharp.",
+    "text": "A new skill! Good. There may be more to you than swinging something sharp.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore5174_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -2347,6 +2387,46 @@
     "source": "lore:6569",
     "spoken": "[trying to sound practical, a little anxious] Should we be late, please make certain someone knows where to look.",
     "text": "Should we be late, please make certain someone knows where to look.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7944_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7944",
+    "spoken": "[warm, sincere, setting aside theatrical pride] You listen to the explanation, and remember the person giving it. I appreciate that more than another round of applause.",
+    "text": "You listen to the explanation, and remember the person giving it. I appreciate that more than another round of applause.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7944_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7944",
+    "spoken": "[grand enthusiasm, bright intellectual curiosity] An excursion! Excellent. There is always something beyond the workbench worth understanding.",
+    "text": "An excursion! Excellent. There is always something beyond the workbench worth understanding.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7944_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7944",
+    "spoken": "[thoughtful, fond, hopeful beneath restrained grandeur] If Techbot can be put right, I think welcome back will be quite enough of a speech.",
+    "text": "If Techbot can be put right, I think welcome back will be quite enough of a speech.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7944_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:7944",
+    "spoken": "[proud teacher, eager, encouraging] Excellent! Now show me what you've understood. A fine opportunity for a demonstration.",
+    "text": "Excellent! Now show me what you've understood. A fine opportunity for a demonstration.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
   "lore7950_befriended_1.ogg": {
