@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 192,
+  "completed_count": 195,
   "remaining_count": 35,
   "completed": [
     {
@@ -277,6 +277,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 491,
+      "name": "Quartermaster Lewis",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/sentinel-hill-militia.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 514,
       "name": "Smith Argus",
       "zone": "Elwynn Forest",
@@ -319,6 +329,26 @@
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "needs_completion"
+    },
+    {
+      "npc_id": 821,
+      "name": "Captain Danuvin",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/sentinel-hill-militia.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 878,
+      "name": "Scout Galiaan",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/sentinel-hill-militia.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 894,

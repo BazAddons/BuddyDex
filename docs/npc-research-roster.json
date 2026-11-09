@@ -68,5 +68,26 @@
     "zone": "Westfall",
     "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
     "research_notes": "docs/research/westfall-farming-families.md"
+  },
+  {
+    "npc_id": 491,
+    "name": "Quartermaster Lewis",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/sentinel-hill-militia.md"
+  },
+  {
+    "npc_id": 821,
+    "name": "Captain Danuvin",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/sentinel-hill-militia.md"
+  },
+  {
+    "npc_id": 878,
+    "name": "Scout Galiaan",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/sentinel-hill-militia.md"
   }
 ]

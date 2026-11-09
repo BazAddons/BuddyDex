@@ -2956,6 +2956,46 @@
     "text": "Look before you discard it. An old insignia may mean little to the person who finds it and a great deal to a family waiting for something of their own to be returned.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore491_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:491",
+    "spoken": "[sincere pleased warmth, gently self-deprecating amusement] I'd be glad to join you. A little company is worth making time for. You can tell me what you've seen, and I can put the supply lists aside in my head for a while. At least I'll try.",
+    "text": "I'd be glad to join you. A little company is worth making time for. You can tell me what you've seen, and I can put the supply lists aside in my head for a while. At least I'll try.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore491_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:491",
+    "spoken": "[practical welcoming warmth, relieved friendly interest] Good to see you. I've plenty to keep track of, but there's time for a friendly word. How did the road treat you? It's pleasant to hear someone's news without another shortage at the end of it.",
+    "text": "Good to see you. I've plenty to keep track of, but there's time for a friendly word. How did the road treat you? It's pleasant to hear someone's news without another shortage at the end of it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore491_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:491",
+    "spoken": "[thoughtful sincere gratitude, hopeful domestic warmth] I promised Osric a proper meal at my family's home when Westfall is safe. Sometimes I scribble down a menu beside the supply notes. Fresh bread, good company, everyone arriving safely. I like thinking that far ahead.",
+    "text": "I promised Osric a proper meal at my family's home when Westfall is safe. Sometimes I scribble down a menu beside the supply notes. Fresh bread, good company, everyone arriving safely. I like thinking that far ahead.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore491_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:491",
+    "spoken": "[engaged practical interest, appreciative warm satisfaction] A useful find? Let's have a look. I like the moment when something needed actually turns up. Someone found it, someone carried it, and now it can do some good. Worth remembering the people in the middle.",
+    "text": "A useful find? Let's have a look. I like the moment when something needed actually turns up. Someone found it, someone carried it, and now it can do some good. Worth remembering the people in the middle.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore4974_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -3611,6 +3651,46 @@
     "text": "You saw someone who needed help, and you answered. I'm very glad. There is kindness in seeing a thing through.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore821_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:821",
+    "spoken": "[firm sincere companionship, thoughtful measured warmth] I'll walk with you a little. Tell me how things look beyond the hill. And if you've something ordinary to talk about, I'd hear that too. The lives we're standing for contain more than patrol reports.",
+    "text": "I'll walk with you a little. Tell me how things look beyond the hill. And if you've something ordinary to talk about, I'd hear that too. The lives we're standing for contain more than patrol reports.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore821_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:821",
+    "spoken": "[firm militia captain's presence, guarded plainspoken warmth] Good to see you. What have you heard on the road? We need clear news, and willing hands. If you've come simply to talk, that's welcome too. There is still room for a neighbor's company among the reports.",
+    "text": "Good to see you. What have you heard on the road? We need clear news, and willing hands. If you've come simply to talk, that's welcome too. There is still room for a neighbor's company among the reports.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore821_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:821",
+    "spoken": "[grounded practical pride, reflective warmth beneath a stern manner] I put a wobbling stool right the other day. Checked the legs, fitted a little packing piece, and sat down. A small job, but a useful one. I was a farmer before I was a captain. I still enjoy that sort of work.",
+    "text": "I put a wobbling stool right the other day. Checked the legs, fitted a little packing piece, and sat down. A small job, but a useful one. I was a farmer before I was a captain. I still enjoy that sort of work.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore821_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:821",
+    "spoken": "[reserved warmth, practical ease, quietly inviting] A sound seat and a moment to use it. That'll do. We needn't turn the whole pause into another report. Tell me what you've been enjoying when the work gives you a little room.",
+    "text": "A sound seat and a moment to use it. That'll do. We needn't turn the whole pause into another report. Tell me what you've been enjoying when the work gives you a little room.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore8670_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -3689,6 +3769,46 @@
     "source": "lore:8719",
     "spoken": "[thoughtful, helpful, curious] That looks interesting. Before we put a price on it, do you want to keep it for yourself?",
     "text": "That looks interesting. Before we put a price on it, do you want to keep it for yourself?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore878_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:878",
+    "spoken": "[sincere friendly interest, understated playful warmth] I'd enjoy walking with you. Two people can notice different things on the same road. Point out whatever catches your eye. If it turns out to be an unusually impressive grasshopper, I shall try to keep the report brief.",
+    "text": "I'd enjoy walking with you. Two people can notice different things on the same road. Point out whatever catches your eye. If it turns out to be an unusually impressive grasshopper, I shall try to keep the report brief.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore878_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:878",
+    "spoken": "[alert observant curiosity, calm friendly precision] Good to see you. What have you noticed on the way? Take your time. I'd rather hear what you actually saw than a quick guess. And it needn't all be trouble. There are other things worth looking at.",
+    "text": "Good to see you. What have you noticed on the way? Take your time. I'd rather hear what you actually saw than a quick guess. And it needn't all be trouble. There are other things worth looking at.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore878_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:878",
+    "spoken": "[quietly amused observation, dry imaginative playfulness] I watched a grasshopper make a remarkable leap. Started composing a very solemn report about it in my head. By the time I'd given it an appropriately magnificent rank, the little creature was well out of sight.",
+    "text": "I watched a grasshopper make a remarkable leap. Started composing a very solemn report about it in my head. By the time I'd given it an appropriately magnificent rank, the little creature was well out of sight.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore878_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:878",
+    "spoken": "[engaged exploratory curiosity, thoughtful appreciative warmth] New ground. Let's take a moment to look properly. You notice the road, then the shapes beside it, then something small you nearly missed. I like the part where the place becomes more than a name on a report.",
+    "text": "New ground. Let's take a moment to look properly. You notice the road, then the shapes beside it, then something small you nearly missed. I like the part where the place becomes more than a name on a report.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore894_bagsFull_1.ogg": {

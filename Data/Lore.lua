@@ -41,6 +41,83 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sentinel Hill: Lewis 491 (3342), Danuvin 821 (2372), Galiaan 878 (2373).
+    -- Current Forever friendly adult human men; People's Militia, not later Brigade.
+    -- Full supply chain + letter 15998, patrol 102, bandanas 153 researched.
+    -- Menu scribble / repaired stool / insect reports are original BuddyDex hooks.
+    -- docs/research/sentinel-hill-militia.md.
+    [491] = {
+        quote = "Armor first, thanks close behind. One day I mean to repay a few favors with a proper supper instead of another list of things we need.",
+        likes = { "Osric's help keeping the hill supplied", "A delivery reaching those who need it", "Planning a proper meal for a guest" },
+        dislikes = { "An armor supply running low", "A helpful friend taken for granted", "A good supper postponed by trouble" },
+        gossip = "Lewis's notes are usually full of supplies. A stray list of courses suggests he is planning something more pleasant than the next requisition.",
+        bio = "Quartermaster Lewis keeps Sentinel Hill supplied. Osric Strang in Stormwind helps him obtain armor, with Thor and Dungar carrying couriers between them. Lewis means to thank Osric with a meal at his family home when Westfall is free.",
+        backstory = "Thinking of that promised meal, he scribbled a few courses on a spare scrap beside his supply notes. It was pleasant work to imagine fresh bread arriving at a table rather than another shortage arriving at his door.",
+        secret = "He rearranges the imaginary menu after difficult days. He likes picturing every guest arriving safely, with nothing urgent to discuss before another course.",
+        bestFriend = "When there's peace enough for that supper, I'd be glad to see you at the table. For now, sit a moment. Your company is welcome today too.",
+        favorite = { emote = "THANK", hint = "He knows the value of a favor, and a little appreciation for his own work means a great deal." },
+        lines = {
+            greet = { { "Good to see you. I've plenty to keep track of, but there's time for a friendly word. How did the road treat you? It's pleasant to hear someone's news without another shortage at the end of it.", tone = "[practical welcoming warmth, relieved friendly interest]" }, "Welcome back. Tell me how you've been before I ask what you've brought." },
+            idle = { { "I promised Osric a proper meal at my family's home when Westfall is safe. Sometimes I scribble down a menu beside the supply notes. Fresh bread, good company, everyone arriving safely. I like thinking that far ahead.", tone = "[thoughtful sincere gratitude, hopeful domestic warmth]" }, "A good contact in the city can make a great difference here.", "I wonder whether that supper wants another course. A pleasant problem to have." },
+            befriended = { { "I'd be glad to join you. A little company is worth making time for. You can tell me what you've seen, and I can put the supply lists aside in my head for a while. At least I'll try.", tone = "[sincere pleased warmth, gently self-deprecating amusement]" } },
+            poke = { "Yes? What do you need?", "I'm listening. I was only counting through something." },
+            loot = { { "A useful find? Let's have a look. I like the moment when something needed actually turns up. Someone found it, someone carried it, and now it can do some good. Worth remembering the people in the middle.", tone = "[engaged practical interest, appreciative warm satisfaction]" } },
+            quest = { "Another favor done. I hope they remembered to thank you." },
+            rest = { "A moment to sit. We can talk about something pleasant while we have it." },
+            learned = { "That should stand you in good stead. How did the first attempt go?" },
+            bagsFull = { "Full up? Best take a careful look before we try to carry anything else." },
+            levelUp = { "Well done! That's good news to have among the day's reports." },
+            hearth = { "Home again. I hope there's a warm welcome at the other end." },
+        },
+    },
+    [821] = {
+        quote = "We were farmers before we took up arms. That is still what this stand is for: people living on their own land without being driven from it.",
+        likes = { "Neighbors refusing to abandon one another", "A clear and useful patrol report", "A wooden stool that sits level" },
+        dislikes = { "Stormwind turning its back on Westfall", "Gnolls threatening the grasslands", "A wobble left unfixed" },
+        gossip = "Danuvin can inspect a patrol with a captain's eye. He seems almost as satisfied when a troublesome stool finally sits squarely on the floor.",
+        bio = "Captain Danuvin serves the People's Militia at Sentinel Hill. A former farmer defending his homeland, he is bitter about Stormwind's neglect. He asks volunteers to patrol against gnolls he believes are working with the Deadmines thieves.",
+        backstory = "A wobbling stool occupied a spare moment between duties. He checked the legs, tried a small packing piece, and tested it again. It was satisfying to put an ordinary thing right without needing a patrol or another report.",
+        secret = "He gave the repaired stool a solemn final inspection, then sat down and enjoyed the absence of a wobble. He is rather proud of that small piece of useful work.",
+        bestFriend = "Here, try the seat. Steady, isn't it? We can leave it at that for a moment. A useful thing put right and a friend to enjoy it with.",
+        favorite = { emote = "SALUTE", hint = "A respectful acknowledgment suits a captain standing with the people of his homeland." },
+        lines = {
+            greet = { { "Good to see you. What have you heard on the road? We need clear news, and willing hands. If you've come simply to talk, that's welcome too. There is still room for a neighbor's company among the reports.", tone = "[firm militia captain's presence, guarded plainspoken warmth]" }, "Speak freely. What brings you here today?" },
+            idle = { { "I put a wobbling stool right the other day. Checked the legs, fitted a little packing piece, and sat down. A small job, but a useful one. I was a farmer before I was a captain. I still enjoy that sort of work.", tone = "[grounded practical pride, reflective warmth beneath a stern manner]" }, "A clear report is worth more than an impressive guess.", "One steady seat. It was pleasant to finish a job that stayed finished." },
+            befriended = { { "I'll walk with you a little. Tell me how things look beyond the hill. And if you've something ordinary to talk about, I'd hear that too. The lives we're standing for contain more than patrol reports.", tone = "[firm sincere companionship, thoughtful measured warmth]" } },
+            poke = { "Yes? What is it?", "You have my attention. Go on." },
+            rest = { { "A sound seat and a moment to use it. That'll do. We needn't turn the whole pause into another report. Tell me what you've been enjoying when the work gives you a little room.", tone = "[reserved warmth, practical ease, quietly inviting]" } },
+            quest = { "Good work. I hope your effort has made a difference to the people there." },
+            loot = { "Have a careful look. Is it something you can put to use?" },
+            learned = { "Now give it practice. Knowing the method is where the work starts." },
+            gear = { "See how it sits when you move. The useful part matters." },
+            levelUp = { "Well earned. You've put in the effort." },
+            hearth = { "Back to familiar ground. Good to see you arrive safely." },
+        },
+    },
+    [878] = {
+        quote = "Look closely before you report it. The Defias keep moving, and yesterday's certainty can put someone on the wrong road today.",
+        likes = { "An observation checked twice", "A useful sign along the road", "A grasshopper's thoroughly unfair leap" },
+        dislikes = { "A guess dressed up as a report", "Losing track of a shifting front", "A fine view reduced to threats alone" },
+        gossip = "Galiaan takes movement reports seriously. A grasshopper once received a rather grand report of its own, though only inside his head.",
+        bio = "Scout Galiaan follows Defias movements around Westfall for the People's Militia. He recognizes their red leather bandanas and rewards those who bring them in. His reports also note gnoll activity near the quarry and Jangolode Mine.",
+        backstory = "A grasshopper cleared an astonishing distance while he was watching the ground. He caught himself composing a solemn report on its maneuver. The little creature had disappeared before he finished finding a suitably grand description.",
+        secret = "He gave the grasshopper a magnificent imaginary rank. He knows it was only an insect doing what insects do. That is what made taking its achievement so seriously amusing.",
+        bestFriend = "Did you see that leap? Go on, give me your report. We'll make it sound suitably impressive, then get back to looking properly.",
+        favorite = { emote = "WINK", hint = "A little shared amusement can acknowledge the joke behind a very solemn-sounding report." },
+        lines = {
+            greet = { { "Good to see you. What have you noticed on the way? Take your time. I'd rather hear what you actually saw than a quick guess. And it needn't all be trouble. There are other things worth looking at.", tone = "[alert observant curiosity, calm friendly precision]" }, "Come and tell me your news. Where have your travels taken you?" },
+            idle = { { "I watched a grasshopper make a remarkable leap. Started composing a very solemn report about it in my head. By the time I'd given it an appropriately magnificent rank, the little creature was well out of sight.", tone = "[quietly amused observation, dry imaginative playfulness]" }, "A second look can change the whole account.", "There is usually something interesting down near the grass if you give it a moment." },
+            befriended = { { "I'd enjoy walking with you. Two people can notice different things on the same road. Point out whatever catches your eye. If it turns out to be an unusually impressive grasshopper, I shall try to keep the report brief.", tone = "[sincere friendly interest, understated playful warmth]" } },
+            poke = { "What have you spotted?", "I'm listening. Tell me where you saw it." },
+            zone = { { "New ground. Let's take a moment to look properly. You notice the road, then the shapes beside it, then something small you nearly missed. I like the part where the place becomes more than a name on a report.", tone = "[engaged exploratory curiosity, thoughtful appreciative warmth]" } },
+            quest = { "Finished? What did you find that the instructions hadn't prepared you for?" },
+            loot = { "Interesting. Shall we have a closer look?" },
+            rest = { "A pause gives the eye time to settle. What do you notice from here?" },
+            learned = { "Worth remembering. Can you show me what changed?" },
+            levelUp = { "Well done. That's a good result to put against the effort." },
+            hearth = { "Home again. Familiar ground still has things worth noticing." },
+        },
+    },
     -- Westfall's Saldeans (233/235) and Furlbrows (237/238), adult humans.
     -- Current friendly IDs/models; full Classic/Forever farm quests researched.
     -- Saldeans stay; Furlbrows await wagon repair. Verna sends Salma her stew.
