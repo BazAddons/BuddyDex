@@ -249,12 +249,100 @@ step("the favorite emote, and a rude one", function()
     assert(Points(8720) == 225, "rude did not cost: " .. tostring(Points(8720)))
 end)
 
-step("emotes never start a friendship", function()
+step("emotes never befriend generic NPCs, even with authored lore", function()
     MOCK.units.target = GUARD
     assert(ns.Friendship.Favorite(GUARD).token == "SALUTE", "guard favorite")
+    ns.Lore[5595] = { quote = "Move along." }
     DoEmote("WAVE")
     DoEmote("SALUTE")
-    assert(BuddyDexDB.friends[5595] == nil, "an emote befriended a stranger")
+    ns.Lore[5595] = nil
+    assert(BuddyDexDB.friends[5595] == nil, "an emote befriended a generic guard")
+end)
+
+step("a named wanderer can be met by emote and earns daily friendship", function()
+    -- Synthetic ID: this tests Jenn's no-window interaction, not client data.
+    local id = 990001
+    local jenn = { guid = "Creature-0-1-2-3-990001-0000AB", npcID = id,
+        name = "Jenn Langston", type = "Humanoid", typeID = 7,
+        class = "normal", sex = 3, reaction = 5, faction = "Alliance" }
+    local today = MOCK.today
+    MOCK.units.npc = nil
+    MOCK.units.target = jenn
+    DoEmote("RUDE")
+    DoEmote("SIT")
+    assert(not BuddyDexDB.friends[id], "a rude or unsupported emote introduced someone")
+    DoEmote("SMILE")
+    local e = BuddyDexDB.friends[id]
+    assert(e and e.name == jenn.name and e.points == 25, "a friendly emote did not introduce the wanderer")
+    assert(e.first == today and e.last == today and e.x == 0.5641, "first meeting not saved")
+    DoEmote("BOW")
+    DoEmote("GREET")
+    assert(e.points == 25, "switching friendly emotes bypassed the daily cap")
+    DoEmote("WAVE")
+    assert(e.points == 175 and e.favoriteFound, "favorite discovery did not work for a wanderer")
+    DoEmote("WAVE")
+    assert(e.points == 175, "favorite counted twice in a day")
+    MOCK.today = "2026-10-11"
+    DoEmote("HELLO")
+    DoEmote("WAVE")
+    assert(e.points == 350 and ns.Friendship.IsBuddy(e), "next day's emotes did not grow the friendship")
+    ns.Database.Remove(id)
+    -- A favorite can also be the very first greeting.
+    DoEmote("WAVE")
+    assert(Points(id) == 150 and BuddyDexDB.friends[id].favoriteFound,
+        "a first-meeting favorite was not discovered")
+    ns.Database.Remove(id)
+    MOCK.today = today
+    MOCK.units.target = GUARD_THOMAS
+    DoEmote("SALUTE")
+    assert(Points(261) == 150, "a named guard could not be introduced by emote")
+    ns.Database.Remove(261)
+    MOCK.units.target = GUARD
+end)
+
+step("emote introductions respect recipients and unit restrictions", function()
+    local id = 990002
+    local wanderer = { guid = "Creature-0-1-2-3-990002-0000AB", npcID = id,
+        name = "Test Wanderer", type = "Humanoid", class = "normal", reaction = 5 }
+    MOCK.units.npc = nil
+    MOCK.units.target = wanderer
+    DoEmote("WAVE", "missing")
+    assert(not BuddyDexDB.friends[id], "an unavailable recipient credited the selected target")
+    MOCK.units.mouseover = wanderer
+    MOCK.units.target = GUARD
+    DoEmote("SMILE", "mouseover")
+    assert(Points(id) == 25 and not BuddyDexDB.friends[5595], "explicit recipient was ignored")
+    ns.Database.Remove(id)
+    MOCK.units.mouseover = nil
+    MOCK.units.target = wanderer
+    local function Blocked(why)
+        DoEmote("WAVE")
+        assert(not BuddyDexDB.friends[id], why .. " was befriended through an emote")
+    end
+    MOCK.combat = true
+    Blocked("combat target")
+    MOCK.combat = false
+    local identity = C_Secrets.ShouldUnitIdentityBeSecret
+    C_Secrets.ShouldUnitIdentityBeSecret = function() return true end
+    Blocked("restricted identity")
+    C_Secrets.ShouldUnitIdentityBeSecret = identity
+    wanderer.reaction = 2
+    Blocked("hostile NPC")
+    wanderer.reaction = 5
+    for _, flag in ipairs({ "attackable", "player", "controlled" }) do
+        wanderer[flag] = true
+        Blocked(flag)
+        wanderer[flag] = nil
+    end
+    wanderer.tip = { wanderer.name, "Someone's Pet", "Level 1" }
+    Blocked("owned pet")
+    wanderer.tip = nil
+    wanderer.type = "Non-combat Pet"
+    Blocked("non-combat pet")
+    MOCK.units.target = nil
+    DoEmote("WAVE")
+    assert(not BuddyDexDB.friends[id], "an untargeted wave created a friend")
+    MOCK.units.target = GUARD
 end)
 
 step("hostile and attackable NPCs, players and combat never count", function()
@@ -312,14 +400,15 @@ end)
 step("one of many, or someone", function()
     local is = ns.Friendship.IsSomeone
     for _, name in ipairs({ "Stormwind City Guard", "Ironforge Mountaineer", "Orgrimmar Grunt", "Darnassus Sentinel",
-        "Undercity Guardian", "Thunder Bluff Bluffwatcher", "Protector of the People", "Stormwind City Patroller" }) do
+        "Undercity Guardian", "Thunder Bluff Bluffwatcher", "Protector of the People", "Stormwind City Patroller",
+        "Stormwind Citizen", "Stormwind Civilian", "Stormwind City Watch", "Townsfolk" }) do
         assert(not is(name, 1), name .. " counted as someone")
     end
-    for _, name in ipairs({ "Guard Thomas", "Mountaineer Kadrell", "Thor", "Auctioneer Lympkin", "Gina MacGregor" }) do
+    for _, name in ipairs({ "Guard Thomas", "Mountaineer Kadrell", "Thor", "Auctioneer Lympkin", "Gina MacGregor", "Jenn Langston" }) do
         assert(is(name, 1), name .. " counted as one of many")
     end
     ns.Lore[68] = { quote = "Move along." }
-    assert(is("Stormwind City Guard", 68), "a lore entry didn't make someone of them")
+    assert(not is("Stormwind City Guard", 68), "a lore entry bypassed the generic-name exclusion")
     ns.Lore[68] = nil
     MOCK.units.target = GUARD
     SlashCmdList.BUDDYDEX("give 100")

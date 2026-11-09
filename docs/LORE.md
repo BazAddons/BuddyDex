@@ -4,7 +4,7 @@ Most of the NPCs a player can befriend have no official story. Some have a singl
 
 ## Who needs an entry
 
-Only NPCs a player can befriend. A friendship starts with a real interaction: talking (gossip), trading, training, traveling (flight master, bank, auction house) or questing. Emotes deepen a friendship but never start one. So NPCs with nothing to say, like the "Protector of the People" guards at Sentinel Hill, never reach the Dex and need no entry. City guards who give directions do have gossip, but an NPC named for what they are rather than who (Stormwind City Guard, Ironforge Mountaineer) is the same NPC to the game every time, so they can't be befriended either. Writing a lore entry for one makes them befriendable.
+Named friendly NPCs can be befriended through conversations, trading, training, services, quests or friendly emotes. A named wanderer with no interaction window can join the Dex when the player targets them and uses an accepted friendly emote, so they can have a full authored entry too. Ordinary friendly emotes grant 25 points once per NPC per day, and their favorite grants 150 once per day in a separate category. Generic role NPCs such as Stormwind City Guard, Ironforge Mountaineer and Protector of the People remain excluded, including when someone writes lore for them. A named guard such as Guard Thomas is eligible. No NPC-specific exception is required for a named wanderer.
 
 BuddyDex Scout (`tools/BuddyDexScout`, `/bdscout`) logs the NPCs you pass with name, title, zone and NPC ID, which is the list to write from.
 

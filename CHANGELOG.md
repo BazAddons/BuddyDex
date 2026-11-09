@@ -14,6 +14,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - Build friendships by talking, visiting merchants and trainers, using services, interacting with quest givers, and sharing emotes.
 - Progress through six tiers, from Stranger to Best Friend.
 - Discover each NPC's favorite emote for bonus friendship.
+- Befriend named NPCs who have no dialogue by targeting them and using a friendly emote. Ordinary and favorite emote gains each have their own daily limit; generic NPCs such as Stormwind City Guards remain excluded.
 - Browse your friends in a searchable journal with 3D models, animation previews, and friendship progress.
 - Set waypoints to friends' last recorded meeting locations, with TomTom support when available.
 

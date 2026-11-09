@@ -25,7 +25,9 @@ Your **Mini Me** is a little gnome version of you, in your own armor, who stands
 *   Friendship tiers: Stranger, Acquaintance, Buddy, Friend, Good Friend, Best Friend
 *   Each friend has a favorite emote; find it for a bonus
 *   Pin your favorites to the top of the list
-*   Only real people count: a friendship starts with a real interaction, and guards named for their job aren't befriendable
+*   Meet named NPCs even when they have no dialogue: target them and use a friendly emote such as `/wave`, `/greet`, `/smile` or `/bow`
+*   Ordinary friendly emotes earn 25 friendship once per NPC per day; their favorite earns 150 once per day, separately. Switching emotes won't bypass either daily limit
+*   Generic NPCs such as Stormwind City Guards stay out of your collection; named guards such as Guard Thomas can become friends
 
 ### Lore That Unlocks
 

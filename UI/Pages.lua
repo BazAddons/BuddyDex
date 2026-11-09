@@ -613,10 +613,10 @@ function Pages.BuildSettings(page)
 
     AddHeading(left, "Making friends", 26)
     AddText(left, "GameFontHighlightSmall",
-        "Talking to an NPC, trading, training, using their services and doing their quests all count. Once you've met, greeting them with an emote counts too. Each kind counts once a day per NPC, so coming back matters more than clicking.",
+        "Target a named friendly NPC and /wave, /greet or /smile to meet them, even if they have no dialogue. Talking, trading, training, services and quests also count. Each kind earns friendship once a day per NPC.",
         0, 8)
     AddText(left, "GameFontHighlightSmall",
-        "Everyone has a favorite emote: the BuddyDex hints at it. Rude emotes cost friendship. Only friendly NPCs can become friends.",
+        "Friendly emotes share a daily 25-point gain; a favorite gives 150 separately. The BuddyDex hints at their favorite. Rude emotes cost friendship. Generic NPCs such as Stormwind City Guards cannot be befriended.",
         0, 8)
 
     AddHeading(right, "Your BuddyDex")

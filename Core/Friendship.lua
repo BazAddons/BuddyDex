@@ -263,17 +263,17 @@ end
 -- one NPC to the game however many of them stand around, so a friendship
 -- with one would be a friendship with all of them. They can't be befriended
 -- (user, 2026-10-10). A named one is someone (Guard Thomas, Mountaineer
--- Kadrell), and so is any NPC with a lore entry (Data/Lore.lua).
+-- Kadrell). Writing lore never overrides the generic-name exclusion.
 local ROLES = {}
 for role in ([[guard guards guardian guardsman patroller sentinel grunt footman peasant citizen
     deathguard bluffwatcher watcher watchman lookout defender soldier marine sailor worker laborer
     miner militia militiaman mountaineer rifleman protector trooper cadet recruit peacekeeper
-    warder]]):gmatch("%a+") do
+    warder watch townsfolk townsperson civilian civilians commoner refugee refugees
+    citizens orphan tourist visitor]]):gmatch("%a+") do
     ROLES[role] = true
 end
 
 function Friendship.IsSomeone(name, npcID)
-    if npcID and ns.Lore and ns.Lore[npcID] then return true end
     name = Util.Plain(name)
     if type(name) ~= "string" or name == "" then return false end
     local lower = name:lower()
@@ -467,7 +467,12 @@ local function OnEmote(token, target)
     token = token:upper()
     local unit = "target"
     target = Util.Plain(target)
-    if type(target) == "string" and target ~= "" and Util.Read(UnitExists, target) then unit = target end
+    if type(target) == "string" and target ~= "" then
+        -- An explicit recipient that isn't available must not silently
+        -- credit whichever other NPC the player happens to have targeted.
+        if not Util.Read(UnitExists, target) then return end
+        unit = target
+    end
     local friends = Friends()
     if not friends then return end
 
@@ -477,12 +482,12 @@ local function OnEmote(token, target)
     end
     if not FRIENDLY_EMOTES[token] then return end
 
-    -- Emotes deepen a friendship but never start one: an NPC has to be met
-    -- first, by talking, trading, training, traveling or questing with
-    -- them. NPCs with nothing to say (guards, townsfolk) stay out of the Dex.
+    -- Friendly emotes also introduce named NPCs with no interaction window.
+    -- A temporary snapshot chooses their favorite; Gain owns eligibility,
+    -- saving the new friend and the usual per-kind daily caps.
     local npcID = FriendlyNpc(unit)
     if not npcID then return end
-    local entry = friends[npcID]
+    local entry = friends[npcID] or Snapshot(unit)
     if not entry then return end
     local favorite = Friendship.Favorite(entry, npcID)
     if token == favorite.token then

@@ -254,7 +254,7 @@ end
 local function ShowHeaderTooltip(box)
     GameTooltip:SetOwner(box, "ANCHOR_RIGHT")
     GameTooltip_SetTitle(GameTooltip, "Friends and Buddies")
-    GameTooltip_AddNormalLine(GameTooltip, "Talk, trade, train, do quests and emote to make friends.")
+    GameTooltip_AddNormalLine(GameTooltip, "Talk, trade, train, do quests or use friendly emotes to meet named NPCs, even those with no dialogue.")
     GameTooltip_AddHighlightLine(GameTooltip, "Friends who reach Buddy can join you (coming soon).")
     GameTooltip:Show()
 end
