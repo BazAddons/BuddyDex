@@ -854,6 +854,20 @@
       "zone": "Thunder Bluff",
       "route": "Horde Troll/Tauren quest and trade coverage",
       "reason": "Exact current named adult body, friendly Horde icon and pin checked; full own quest/service/literary research pending. See docs/research/vornal-and-kuna-queue.md"
+    },
+    {
+      "npc_id": 252382,
+      "name": "Sessaria Skystride",
+      "zone": "Zephras Isle",
+      "route": "Horde Windshaper female/Goblin service coverage",
+      "reason": "Exact current named adult body, friendly Horde icon, role and pin checked; full own quest/service/literary research pending. See docs/research/sessaria-and-fizzgrimble-queue.md"
+    },
+    {
+      "npc_id": 7733,
+      "name": "Innkeeper Fizzgrimble",
+      "zone": "Tanaris",
+      "route": "Horde Windshaper female/Goblin service coverage",
+      "reason": "Exact current named adult body, friendly Horde icon, role and pin checked; full own quest/service/literary research pending. See docs/research/sessaria-and-fizzgrimble-queue.md"
     }
   ]
 }

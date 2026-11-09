@@ -199,6 +199,46 @@
     "text": "For Eylah's incense tradition, my part is the herbs. Other hands provide the other supplies, and the person taking part brings their own reason for doing so. It is a good thing to have occasions for gratitude, including the quiet ones.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore3015_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3015",
+    "spoken": "[warm] [affectionate] You know when to ask a useful question, and when to let me pretend I am keeping a secret. I appreciate both. Come along, friend. We can enjoy some time beyond the shop. If I begin asking about your favorite colors, you may smile without saying why.",
+    "text": "You know when to ask a useful question, and when to let me pretend I am keeping a secret. I appreciate both. Come along, friend. We can enjoy some time beyond the shop. If I begin asking about your favorite colors, you may smile without saying why.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3015_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:3015",
+    "spoken": "[steady] [helpful] Before the next journey, take a moment to look over what you will depend on. A bow, a quiver, the supplies inside it. Repairs are easier to remember here than after you have left the city. Tell me what needs attention, and we will begin there.",
+    "text": "Before the next journey, take a moment to look over what you will depend on. A bow, a quiver, the supplies inside it. Repairs are easier to remember here than after you have left the city. Tell me what needs attention, and we will begin there.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3015_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3015",
+    "spoken": "[warm] [lightly playful] Welcome, friend. Need a bow, arrows, or a look at something that came back damaged? We can see to that. I also have one very ordinary question about your favorite color. You may answer without investigating my reasons. It would help me considerably if you did.",
+    "text": "Welcome, friend. Need a bow, arrows, or a look at something that came back damaged? We can see to that. I also have one very ordinary question about your favorite color. You may answer without investigating my reasons. It would help me considerably if you did.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3015_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3015",
+    "spoken": "[fond] [self-deprecating] [amused] A surprise should not require so many revealing questions. I know that. But suppose I choose the wrong color? Then I ask which color they prefer, and what size, and whether they would like... You see the difficulty. By then, we are both looking forward to it.",
+    "text": "A surprise should not require so many revealing questions. I know that. But suppose I choose the wrong color? Then I ask which color they prefer, and what size, and whether they would like... You see the difficulty. By then, we are both looking forward to it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3026_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

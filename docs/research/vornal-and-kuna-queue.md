@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen personal lines and four approved v4 signatures each. See [final evidence and validation](senjin-small-lessons-and-thunder-bluff-surprises.md). Original planning/checkpoints below retained as history.
+
 # Next: Master Vornal and Kuna Thunderhorn
 
 Current identities individually checked 2026-11-09. Neither authored nor recorded; no Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/swart-marion-research/next-npc-ID.json`.
@@ -37,7 +39,7 @@ Full [Really Sticky Glue 4941](https://classicdb.ch/?item=4941) inspected: consu
 
 Exact-name lore/book/comic searches and indexed [Vornal](https://warcraft.wiki.gg/wiki/Master_Vornal)/[Kuna](https://warcraft.wiki.gg/wiki/Kuna_Thunderhorn) pages reviewed; direct opens return 403. Vornal's **Vol'jin funeral attendance is Legion-era**, Kuna's Highmountain feast/Void event is likewise later and excluded. No verified relevant canonical novel/comic narrative found for either. [BradyGames atlas index](https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/connected/wowatlas/RegionalIndices_hr.pdf) locates Kuna's Thunderhorn's Archery tent on the middle rise; this is service/location context, not a specific family relationship.
 
-**Important family-source distinction:** Vornal's general wiki infobox lists Vok'fon as a son, but [Vok'fon's indexed source page](https://warcraft.wiki.gg/wiki/Vok%27fon) explicitly marks the character/history as **non-canon Warcraft RPG** and cites *Horde Player's Guide*, pp. 140–145. Do not import the son, bandit quarrel, Brann captivity or an invented reconciliation into a Forever profile. The direct page returned cache miss; no claim of reading the full source book. Forum interactive fiction repeats/expands that story and is not canonical evidence. This resolves the research question by exclusion, rather than treating an unqualified infobox as sufficient authority.
+**Important family-source distinction:** Vornal's general wiki infobox lists Vok'fon as a son, but [Vok'fon's indexed source page](https://warcraft.wiki.gg/wiki/Vok%27fon) explicitly marks the character/history as **non-canon Warcraft RPG** and cites *Horde Player's Guide*, pp. 140â€“145. Do not import the son, bandit quarrel, Brann captivity or an invented reconciliation into a Forever profile. The direct page returned cache miss; no claim of reading the full source book. Forum interactive fiction repeats/expands that story and is not canonical evidence. This resolves the research question by exclusion, rather than treating an unqualified infobox as sufficient authority.
 
 Kuna's Thunderhorn clan label/surname does not establish a particular spouse, sibling or parent; none invented. Do not assign her a hunting expedition, trainer class or personal official quest from another Thunderhorn's story. A profile can use modest original shop character without pretending it was recorded game dialogue.
 

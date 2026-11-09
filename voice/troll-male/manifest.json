@@ -159,6 +159,46 @@
     "text": "There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore3304_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3304",
+    "spoken": "[weathered] [reserved warmth] You have shown patience, and you can admit learning something without dressing it as a triumph. I find your company agreeable. Come along. This is no apprenticeship. We may simply see what the day teaches us, then argue over which lesson was worth remembering.",
+    "text": "You have shown patience, and you can admit learning something without dressing it as a triumph. I find your company agreeable. Come along. This is no apprenticeship. We may simply see what the day teaches us, then argue over which lesson was worth remembering.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3304_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3304",
+    "spoken": "[weathered] [dry] [patient] There you are. Tell me what you learned on the way. Something useful, if you can manage it. I hear enough speeches from people convinced they are ready for an apprenticeship. A small mistake honestly understood may tell me more than all their claims together.",
+    "text": "There you are. Tell me what you learned on the way. Something useful, if you can manage it. I hear enough speeches from people convinced they are ready for an apprenticeship. A small mistake honestly understood may tell me more than all their claims together.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3304_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3304",
+    "spoken": "[weathered] [wry] [quietly amused] A visitor once told me a journey had taught them to keep sand out of their cup. No heroic speech, no great revelation. I laughed. Then the wind filled my own cup, and I found the lesson had arrived exactly when it was needed.",
+    "text": "A visitor once told me a journey had taught them to keep sand out of their cup. No heroic speech, no great revelation. I laughed. Then the wind filled my own cup, and I found the lesson had arrived exactly when it was needed.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3304_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3304",
+    "spoken": "[weathered] [firm] [concerned] Pal'juh has promise. Promise does not make going into danger alone a wise decision. I am grateful when someone brings her safely out of trouble. I would be more pleased if she learned enough from the journey not to need the same rescue again.",
+    "text": "Pal'juh has promise. Promise does not make going into danger alone a wise decision. I am grateful when someone brings her safely out of trouble. I would be more pleased if she learned enough from the journey not to need the same rescue again.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3401_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

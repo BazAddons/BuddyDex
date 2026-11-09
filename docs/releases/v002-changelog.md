@@ -2,6 +2,8 @@
 
 ## More friends across Azeroth
 
+- Add Master Vornal and Kuna Thunderhorn: full Troll/Tauren profiles, fifteen personal lines and four approved v4 signatures each; include Vornal's verified Forever quests and preserve his refusal of apprentices.
+
 - Add Swart and Marion Call: full Orc/Forsaken profiles, fifteen personal lines and four approved v4 signatures each; preserve their actual trainer/referral roles and keep later literary events separate.
 
 - Add Urda and Thysta: full Orc flight-master profiles, fifteen personal lines and four approved v4 signatures each, with confirmed Hammerfall/Grom'gol identities and later-retail stories kept separate.
@@ -30,7 +32,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **372 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **374 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

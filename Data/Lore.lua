@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Master Vornal, Sen'jin Village, Durotar; adult male Troll, 3304/4086.
+    -- Current Horde-friendly. 818: failing sight, alchemy, no apprentices.
+    -- Forever 97225 idols to Gadrin; 99123 thanks for Pal'juh's rescue.
+    -- His collection of ordinary lessons is ours; RPG family lore excluded.
+    -- Research: docs/research/senjin-small-lessons-and-thunder-bluff-surprises.md.
+    [3304] = {
+        quote = "Tell me what you learned. It need not sound impressive. A small lesson remembered is worth more than a grand one forgotten.",
+        likes = { "Patience that survives an inconvenience", "A useful lesson put into practice", "An ordinary mistake honestly admitted" },
+        dislikes = { "An apprentice declaring themselves worthy", "The loa treated without reverence", "Pal'juh hurrying into trouble alone" },
+        gossip = "Vornal has begun asking visitors for the smallest lesson they learned that day. Impressive answers seem to interest him less than useful ones.",
+        bio = "Vornal's fading sight makes alchemy useful where magic once came easily. He still refuses apprentices. From Sen'jin, he seeks lost loa idols for Gadrin and receives news of Pal'juh's rescue, grateful but unimpressed by her recklessness.",
+        backstory = "Asked what a journey had taught them, a visitor offered Vornal a simple answer: keep sand out of your cup. He had expected a speech about courage. Instead, he laughed and began asking others for a lesson small enough to remember.",
+        secret = "He once left his own cup where the wind could fill it with sand. He remembers the visitor's advice every time he moves it. A lesson need not be profound to arrive at the right moment.",
+        bestFriend = "Sit. Tell me one small thing you learned today. I have a few of my own, and no intention of calling this an apprenticeship.",
+        favorite = { emote = "NOD", hint = "Values an acknowledgment followed by patience more than a speech about being ready." },
+        lines = {
+            greet = { { "There you are. Tell me what you learned on the way. Something useful, if you can manage it. I hear enough speeches from people convinced they are ready for an apprenticeship. A small mistake honestly understood may tell me more than all their claims together.", tone = "[weathered] [dry] [patient]" },
+                "You have time to listen? Good. That is a better beginning than a boast." },
+            idle = { { "A visitor once told me a journey had taught them to keep sand out of their cup. No heroic speech, no great revelation. I laughed. Then the wind filled my own cup, and I found the lesson had arrived exactly when it was needed.", tone = "[weathered] [wry] [quietly amused]" },
+                "Do not hurry to tell me you are worthy. Time has a way of answering for you.",
+                "A little care can spare you a long explanation afterward." },
+            befriended = { { "You have shown patience, and you can admit learning something without dressing it as a triumph. I find your company agreeable. Come along. This is no apprenticeship. We may simply see what the day teaches us, then argue over which lesson was worth remembering.", tone = "[weathered] [reserved warmth]" } },
+            poke = { "Yes? Another small lesson for the collection?", "I have not changed my mind about apprentices. You may still sit." },
+            quest = { { "Pal'juh has promise. Promise does not make going into danger alone a wise decision. I am grateful when someone brings her safely out of trouble. I would be more pleased if she learned enough from the journey not to need the same rescue again.", tone = "[weathered] [firm] [concerned]" } },
+            learned = { "Remember it when an inconvenience tests you. That is when a lesson begins to matter." },
+            rest = { "We may pause. You need not turn every quiet moment into a claim of wasted time." },
+            loot = { "Identify what you found before deciding it proves your judgment." },
+            zone = { "A new place does not make impatience a new virtue." },
+            lowHealth = { "Stay your hurry. Getting out alive is a lesson worth learning once." },
+            hearth = { "Back to Sen'jin. Tell me afterward what the road managed to teach you." },
+        },
+    },
+
+    -- Kuna Thunderhorn <Bowyer & Fletching Goods>, Thunder Bluff, 3015/2114.
+    -- Adult female Tauren, current Horde-friendly Repair/Vendor. Eight current
+    -- stock rows; no own quest/trainer rows or installed personal gossip.
+    -- Her poorly concealed surprise gifts are ours; no family/Legion history.
+    -- Research: docs/research/senjin-small-lessons-and-thunder-bluff-surprises.md.
+    [3015] = {
+        quote = "If I ask which color you like, answer without asking why. I am trying to keep a surprise, and I could use your cooperation.",
+        likes = { "Gear cared for before the next journey", "Knowing someone's favorite color", "A surprise that lasts until tomorrow" },
+        dislikes = { "A damaged bow put away unexamined", "Supplies remembered only after leaving", "Being asked what is inside the wrapping" },
+        gossip = "Kuna's surprises rarely survive the wrapping. One innocent question about a friend's favorite color tends to become several very revealing ones.",
+        bio = "Kuna sells bows, arrows and quivers in Thunder Bluff and offers repairs. Her place on the middle rise serves travelers preparing for the next trip. Between business, she tries to arrange a surprise without explaining it before it is ready.",
+        backstory = "While planning a gift, Kuna asked its intended recipient which color they preferred. Then she asked another question, and another. They guessed what she was making. She enjoyed their delight enough to try again, with fewer questions planned.",
+        secret = "She enjoys sharing the anticipation almost as much as the surprise. A friend guessing too soon is disappointing for only a moment. Then they can both look forward to the same thing.",
+        bestFriend = "If I ever manage to surprise you, give me a moment before asking questions. I mean to enjoy that rare victory. Then we can laugh about it.",
+        favorite = { emote = "GRIN", hint = "Appreciates someone noticing her very obvious secret without giving the whole game away." },
+        lines = {
+            greet = { { "Welcome, friend. Need a bow, arrows, or a look at something that came back damaged? We can see to that. I also have one very ordinary question about your favorite color. You may answer without investigating my reasons. It would help me considerably if you did.", tone = "[warm] [lightly playful]" },
+                "Good to see you. What needs attention before you head out again?" },
+            idle = { { "A surprise should not require so many revealing questions. I know that. But suppose I choose the wrong color? Then I ask which color they prefer, and what size, and whether they would like... You see the difficulty. By then, we are both looking forward to it.", tone = "[fond] [self-deprecating] [amused]" },
+                "I have planned a surprise. That is all I intend to tell you. For now.",
+                "A little attention before leaving can spare a great deal of trouble on the road." },
+            befriended = { { "You know when to ask a useful question, and when to let me pretend I am keeping a secret. I appreciate both. Come along, friend. We can enjoy some time beyond the shop. If I begin asking about your favorite colors, you may smile without saying why.", tone = "[warm] [affectionate]" } },
+            poke = { "No, I am not going to tell you what it is. Ask something else quickly.", "Yes? I was trying to remember which details I had already given away." },
+            gear = { { "Before the next journey, take a moment to look over what you will depend on. A bow, a quiver, the supplies inside it. Repairs are easier to remember here than after you have left the city. Tell me what needs attention, and we will begin there.", tone = "[steady] [helpful]" } },
+            loot = { "Useful? Make room for the things you will actually need as well." },
+            bagsFull = { "Before you leave anything behind, check that it is not what you came to collect." },
+            rest = { "A good moment to sit. You need not have business waiting every time you visit me." },
+            zone = { "Something new. Perhaps there is a color here I had not thought to ask about." },
+            laughAlong = { "You guessed already, didn't you? Very well. We can enjoy the anticipation together." },
+            hearth = { "Back to Thunder Bluff. Perhaps the surprise is still a surprise to somebody." },
+        },
+    },
+
     -- Swart <Shaman Trainer>, Razor Hill, Durotar; adult male Orc, 3173/3746.
     -- Current Horde-friendly. Installed spiritual/retraining gossip; Classic
     -- and published Forever fire/water referrals to Kranal and Islen.

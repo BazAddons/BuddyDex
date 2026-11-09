@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Master Vornal and Kuna Thunderhorn: full Troll/Tauren profiles, fifteen personal lines and four approved v4 signatures each; include Vornal's verified Forever quests and preserve his refusal of apprentices.
+
 - Add Swart and Marion Call: full Orc/Forsaken profiles, fifteen personal lines and four approved v4 signatures each; preserve their actual trainer/referral roles and keep later literary events separate.
 
 - Add Urda and Thysta: full Orc flight-master profiles, fifteen personal lines and four approved v4 signatures each, with confirmed Hammerfall/Grom'gol identities and later-retail stories kept separate.

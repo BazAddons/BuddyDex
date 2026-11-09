@@ -380,4 +380,10 @@ Next checked starter trainer pair: Swart 3173 and Marion Call 2130, [queue](swar
 
 Swart 3173 and Marion Call 2130 complete: full Orc/Forsaken profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](razor-hill-breakfast-and-brill-compliments.md) retains complete class/referral context and separates downstream teachers' actions and later literary events. Development total **372**; public friendly access Alliance 197, Horde 84, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
 
-Next checked Horde pair: Master Vornal 3304 and Kuna Thunderhorn 3015, [queue](vornal-and-kuna-queue.md). Neither counted complete; rotates Troll male/Tauren female coverage.
+Next checked Horde pair: Master Vornal 3304 and Kuna Thunderhorn 3015, [queue](vornal-and-kuna-queue.md). Neither counted complete at this point; rotates Troll male/Tauren female coverage.
+
+### 2026-11-09: Sen'jin patience and Thunder Bluff anticipation
+
+Master Vornal 3304 and Kuna Thunderhorn 3015 complete: full Troll/Tauren profiles, fifteen personal lines and four approved v4 signatures each. [Research and validation](senjin-small-lessons-and-thunder-bluff-surprises.md) retains Vornal's failing sight/apprentice refusal, verified Forever quests and Kuna's actual current shop role, excluding non-canon RPG family and later-retail events. Development total **374**; public friendly access Alliance 197, Horde 86, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
+
+Next checked pair: Sessaria Skystride 252382 and Innkeeper Fizzgrimble 7733, [queue](sessaria-and-fizzgrimble-queue.md). Neither counted complete. This rotates toward female Windshaper Skyborne and Goblin coverage; faction access and race representation remain separate.

@@ -1169,5 +1169,19 @@
     "zone": "Tirisfal Glades",
     "source": "Exact current named adult body, Horde-friendly icon and starter-town pin; complete Classic/published Forever referrals and full fire/water/Deathstalker chains, installed service/quest dialogue, item/literary/era checks; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-breakfast-and-brill-compliments.md"
+  },
+  {
+    "npc_id": 3304,
+    "name": "Master Vornal",
+    "zone": "Durotar",
+    "source": "Exact current named adult body, Horde-friendly icon and pin; complete own current/Classic relations, exact quest text/Forever additions and vendor stock, installed dialogue search, item/literary/era and non-canon family checks; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-small-lessons-and-thunder-bluff-surprises.md"
+  },
+  {
+    "npc_id": 3015,
+    "name": "Kuna Thunderhorn",
+    "zone": "Thunder Bluff",
+    "source": "Exact current named adult body, Horde-friendly icon and pin; complete own current/Classic relations, exact quest text/Forever additions and vendor stock, installed dialogue search, item/literary/era and non-canon family checks; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-small-lessons-and-thunder-bluff-surprises.md"
   }
 ]
