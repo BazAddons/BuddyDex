@@ -927,6 +927,7 @@ ApplyBuddy = function()
     local saved = ns.char and ns.char.companionNpc
     local entry = Eligible(saved)
     buddyID = entry and saved or nil
+    if saved and not entry then ns.char.companionNpc = nil end
     pendingAnim = nil
     local display = entry and tonumber(Util.Plain(entry.display))
     local stage = buddyID and display and NpcStage()

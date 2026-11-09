@@ -294,6 +294,7 @@ function Scout.Observe(unit)
 
     local now = GetTime()
     local entry = roster[npcID]
+    if ns.NpcEligibility.IsChild(npcID, entry and entry.display) then return end
     if entry == nil then
         AddEntry(db, unit, npcID, zone, now)
     elseif type(entry) == "table" then

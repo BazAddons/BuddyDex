@@ -73,13 +73,18 @@ end
 -- The Dex's list. The name is from when the Dex listed every scouted NPC.
 function Database.GetRoster()
     -- An empty table before VariablesReady, so a caller's pairs() never throws.
-    return Friends() or {}
+    local roster = {}
+    for id, entry in pairs(Friends() or {}) do
+        if not ns.NpcEligibility.IsChild(id, entry.display) then roster[id] = entry end
+    end
+    return roster
 end
 Database.GetFriends = Database.GetRoster
 
 function Database.GetEntry(npcID)
     local id, friends = Key(npcID), Friends()
-    if id and friends then return friends[id] end
+    local entry = id and friends and friends[id]
+    if entry and not ns.NpcEligibility.IsChild(id, entry.display) then return entry end
     return nil
 end
 
@@ -87,7 +92,7 @@ end
 function Database.Count()
     local total, buddies = 0, 0
     local friendship = ns.Friendship
-    for _, entry in pairs(Friends() or {}) do
+    for _, entry in pairs(Database.GetRoster()) do
         if type(entry) == "table" then
             total = total + 1
             if friendship and friendship.IsBuddy and friendship.IsBuddy(entry) then buddies = buddies + 1 end
@@ -103,6 +108,19 @@ function Database.Remove(npcID)
     friends[id] = nil
     ns.Bus:TriggerEvent(ns.Event.NpcRemoved, id)
     return true
+end
+
+-- Retain old progress outside the playable roster, on this character only.
+function Database.ExcludeChild(npcID, display)
+    local id, friends = Key(npcID), Friends()
+    local entry = id and friends and friends[id]
+    if not entry then return false end
+    if display then entry.display = display end
+    ns.db.excludedChildren = ns.db.excludedChildren or {}
+    ns.db.excludedChildren[id] = entry
+    if ns.char and ns.char.companionNpc == id then ns.char.companionNpc = nil end
+    if ns.db.dex and ns.db.dex.pinned then ns.db.dex.pinned[id] = nil end
+    return Database.Remove(id)
 end
 
 local function SameList(a, b)
@@ -124,8 +142,11 @@ end
 -- event would loop. Returns true when the entry changed.
 function Database.SetModelInfo(npcID, displayID, moves)
     local id = Key(npcID)
-    local entry = Database.GetEntry(id)
+    local entry = id and Friends() and Friends()[id]
     if type(entry) ~= "table" then return false end
+    if ns.NpcEligibility.IsChild(id, displayID) then
+        return Database.ExcludeChild(id, tonumber(Util.Plain(displayID)))
+    end
     local changed = false
 
     displayID = Util.Plain(displayID)
@@ -197,6 +218,11 @@ frame:SetScript("OnEvent", function(self, event, name)
         BuddyDexCharDB.version = DEFAULTS.version
         ns.db = BuddyDexCharDB
         ns.char = BuddyDexCharDB
+        local excluded = {}
+        for id, entry in pairs(ns.db.friends) do
+            if ns.NpcEligibility.IsChild(id, entry.display) then excluded[#excluded + 1] = id end
+        end
+        for _, id in ipairs(excluded) do Database.ExcludeChild(id) end
         ns.Bus:TriggerEvent(ns.Event.VariablesReady)
     elseif event == "PLAYER_LOGIN" then
         ns.Bus:TriggerEvent(ns.Event.Login)

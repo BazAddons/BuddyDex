@@ -249,6 +249,8 @@ local function FriendlyNpc(unit)
     local id = Number(UnitCreatureID, unit) or Util.NpcIDFromGUID(Util.Read(UnitGUID, unit))
     local name = Text(UnitName, unit)
     if not id or not name or name == UNKNOWNOBJECT then return nil end
+    local entry = ns.db and ns.db.friends and ns.db.friends[id]
+    if ns.NpcEligibility.IsChild(id, entry and entry.display) then return nil end
     return id
 end
 
@@ -283,7 +285,8 @@ for role in ([[guard guards guardian guardsman patroller sentinel grunt footman 
     ROLES[role] = true
 end
 
-function Friendship.IsSomeone(name, npcID)
+function Friendship.IsSomeone(name, npcID, display)
+    if ns.NpcEligibility.IsChild(npcID, display) then return false end
     name = Util.Plain(name)
     if type(name) ~= "string" or name == "" then return false end
     local lower = name:lower()
@@ -425,7 +428,7 @@ end
 function Friendship.Add(npcID, amount)
     local friends = Friends()
     local entry = friends and friends[npcID]
-    if not entry or type(amount) ~= "number" then return 0 end
+    if not entry or not Friendship.IsSomeone(entry.name, npcID, entry.display) or type(amount) ~= "number" then return 0 end
     local before, old = Friendship.TierIndex(entry), Points(entry)
     local ceiling = Threshold(entry, #Friendship.TIERS)
     entry.points = math.max(0, math.min(ceiling, math.floor(old + amount + 0.5)))
@@ -543,7 +546,11 @@ ns.Bus:RegisterCallback(ns.Event.Login, function()
     if not (friends and database and database.Remove) then return end
     local leaving = {}
     for npcID, entry in pairs(friends) do
-        if not Friendship.IsSomeone(entry.name, npcID) then leaving[npcID] = Util.Plain(entry.name) or "Someone" end
+        if ns.NpcEligibility.IsChild(npcID, entry.display) then
+            database.ExcludeChild(npcID)
+        elseif not Friendship.IsSomeone(entry.name, npcID) then
+            leaving[npcID] = Util.Plain(entry.name) or "Someone"
+        end
     end
     for npcID, name in pairs(leaving) do
         database.Remove(npcID)

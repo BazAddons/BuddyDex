@@ -8,16 +8,19 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | --- | ---: |
 | Source rows | 1,587 |
 | Excluded generic rows | 132 |
+| Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
-| Retained source entries | 1,449 |
-| Local backlog entries missing from source | 58 |
-| Combined retained entries | 1,507 |
-| Candidate name groups | 1,494 |
+| Retained source entries | 1,431 |
+| Local backlog entries missing from source | 52 |
+| Combined retained entries | 1,483 |
+| Candidate name groups | 1,470 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
 
 The external filter misses known local entries, including Jenn Langston. Their local evidence is preserved and they are added to this catalog. Two clearly personal names (Aetheen of the Gales and Lolo the Lookout) are retained with warnings about the current gameplay name heuristic; this task does not change that heuristic.
+
+Child NPCs are excluded from friendship and authoring. Verified identities and models are recorded in [child-exclusions-source.json](child-exclusions-source.json); small stature and low level do not imply childhood.
 
 ## Candidate names
 
@@ -29,7 +32,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Aayndia Floralwind**: [3967](https://forever.warcraftdb.com/data/npc/3967)
 - **Abercrombie**: [289](https://forever.warcraftdb.com/data/npc/289)
 - **Abigail Shiel**: [2118](https://forever.warcraftdb.com/data/npc/2118)
-- **Adam** — Scout: [1366](https://forever.warcraftdb.com/data/npc/1366)
 - **Adele Fielder**: [1632](https://forever.warcraftdb.com/data/npc/1632)
 - **Adlin Pridedrift**: [829](https://forever.warcraftdb.com/data/npc/829)
 - **Advisor Belgrum**: [2918](https://forever.warcraftdb.com/data/npc/2918)
@@ -67,7 +69,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Alvarion Windfield**: [252448](https://forever.warcraftdb.com/data/npc/252448)
 - **Alyissia**: [3593](https://forever.warcraftdb.com/data/npc/3593)
 - **Alynsia**: [256732](https://forever.warcraftdb.com/data/npc/256732)
-- **Alyssa Eva**: [1673](https://forever.warcraftdb.com/data/npc/1673)
 - **Alyssa Griffith** — Scout: [1321](https://forever.warcraftdb.com/data/npc/1321)
 - **Ambassador Berrybuck**: [271](https://forever.warcraftdb.com/data/npc/271)
 - **Amy Davenport**: [777](https://forever.warcraftdb.com/data/npc/777)
@@ -75,7 +76,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Ander Solliden**: [246394](https://forever.warcraftdb.com/data/npc/246394)
 - **Andrew Krighton** — Scout: [2046](https://forever.warcraftdb.com/data/npc/2046)
 - **Andruk**: [11901](https://forever.warcraftdb.com/data/npc/11901)
-- **Anduin Wrynn**: [1747](https://forever.warcraftdb.com/data/npc/1747)
 - **Angelique Butler**: [251977](https://forever.warcraftdb.com/data/npc/251977)
 - **Ansekhwa**: [11869](https://forever.warcraftdb.com/data/npc/11869)
 - **Antelariaa Cloudgaze**: [252390](https://forever.warcraftdb.com/data/npc/252390)
@@ -116,7 +116,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Arnorea Shadowfoot**: [258295](https://forever.warcraftdb.com/data/npc/258295)
 - **Arthur the Faithful** — Scout: [5491](https://forever.warcraftdb.com/data/npc/5491)
 - **Artilleryman Sheldonore**: [14183](https://forever.warcraftdb.com/data/npc/14183)
-- **Ashley Bridenbecker** — Scout: [11996](https://forever.warcraftdb.com/data/npc/11996)
 - **Aska Mistrunner**: [3026](https://forever.warcraftdb.com/data/npc/3026)
 - **Astarii Starseeker**: [4090](https://forever.warcraftdb.com/data/npc/4090)
 - **Asterion**: [3650](https://forever.warcraftdb.com/data/npc/3650)
@@ -174,15 +173,12 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Belann Windwood**: [256507](https://forever.warcraftdb.com/data/npc/256507)
 - **Ben Trias** — Scout: [4981](https://forever.warcraftdb.com/data/npc/4981)
 - **Bengus Deepforge**: [4258](https://forever.warcraftdb.com/data/npc/4258)
-- **Benjamin Carevin**: [664](https://forever.warcraftdb.com/data/npc/664)
 - **Bethaine Flinthammer**: [10046](https://forever.warcraftdb.com/data/npc/10046)
 - **Bethor Iceshard**: [1498](https://forever.warcraftdb.com/data/npc/1498)
 - **Betty Quin**: [11068](https://forever.warcraftdb.com/data/npc/11068)
 - **Beyaa Gustbellow**: [258279](https://forever.warcraftdb.com/data/npc/258279)
 - **Bhalir Firebrew**: [265347](https://forever.warcraftdb.com/data/npc/265347)
 - **Billibub Cogspinner** — Scout: [5519](https://forever.warcraftdb.com/data/npc/5519)
-- **Billy** — Scout: [1367](https://forever.warcraftdb.com/data/npc/1367)
-- **Billy Maclure** — Scout: [247](https://forever.warcraftdb.com/data/npc/247)
 - **Bink**: [5144](https://forever.warcraftdb.com/data/npc/5144)
 - **Bishop DeLavey**: [4960](https://forever.warcraftdb.com/data/npc/4960)
 - **Bishop Farthing** — Scout: [1212](https://forever.warcraftdb.com/data/npc/1212)
@@ -192,7 +188,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Blaise Montgomery**: [11752](https://forever.warcraftdb.com/data/npc/11752)
 - **Blixie Fitzwink**: [248248](https://forever.warcraftdb.com/data/npc/248248)
 - **Bluff Runner Windstrider**: [10881](https://forever.warcraftdb.com/data/npc/10881)
-- **Bo** — Scout: [797](https://forever.warcraftdb.com/data/npc/797)
 - **Bob McNaught**: [274942](https://forever.warcraftdb.com/data/npc/274942)
 - **Boborus Overvolt** — Scout: [274917](https://forever.warcraftdb.com/data/npc/274917)
 - **Bombus Finespindle**: [5128](https://forever.warcraftdb.com/data/npc/5128)
@@ -393,7 +388,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Donaal Downbreeze**: [255940](https://forever.warcraftdb.com/data/npc/255940)
 - **Donald Rabonne**: [2367](https://forever.warcraftdb.com/data/npc/2367)
 - **Dondallion Whisperwind**: [253204](https://forever.warcraftdb.com/data/npc/253204)
-- **Donna**: [2532](https://forever.warcraftdb.com/data/npc/2532)
 - **Donni Anthania**: [6367](https://forever.warcraftdb.com/data/npc/6367)
 - **Donyal Tovald**: [2504](https://forever.warcraftdb.com/data/npc/2504)
 - **Doras**: [3310](https://forever.warcraftdb.com/data/npc/3310)
@@ -454,7 +448,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Erich Lohan** — Scout: [3627](https://forever.warcraftdb.com/data/npc/3627)
 - **Eridan Bluewind**: [9116](https://forever.warcraftdb.com/data/npc/9116)
 - **Erika Tate**: [5483](https://forever.warcraftdb.com/data/npc/5483)
-- **Erin**: [850](https://forever.warcraftdb.com/data/npc/850)
 - **Erma** — Scout: [6749](https://forever.warcraftdb.com/data/npc/6749)
 - **Eunice Burch**: [4552](https://forever.warcraftdb.com/data/npc/4552)
 - **Evan Larson** — Scout: [1310](https://forever.warcraftdb.com/data/npc/1310)
@@ -533,7 +526,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Gerik Koen** — Scout: [1333](https://forever.warcraftdb.com/data/npc/1333)
 - **Gershala Nightwhisper**: [8997](https://forever.warcraftdb.com/data/npc/8997)
 - **Gikkix**: [8137](https://forever.warcraftdb.com/data/npc/8137)
-- **Gil**: [3504](https://forever.warcraftdb.com/data/npc/3504)
 - **Gilbert Gray**: [267118](https://forever.warcraftdb.com/data/npc/267118)
 - **Gilliwigs**: [260559](https://forever.warcraftdb.com/data/npc/260559)
 - **Gilshalan Windwalker**: [2082](https://forever.warcraftdb.com/data/npc/2082)
@@ -645,7 +637,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **High Sorcerer Andromath**: [5694](https://forever.warcraftdb.com/data/npc/5694)
 - **High Tinker Mekkatorque** — Scout: [7937](https://forever.warcraftdb.com/data/npc/7937)
 - **Highlord Bolvar Fordragon**: [1748](https://forever.warcraftdb.com/data/npc/1748)
-- **Hilary**: [8962](https://forever.warcraftdb.com/data/npc/8962)
 - **Hilda the Breaker**: [246389](https://forever.warcraftdb.com/data/npc/246389)
 - **Historian Karnik**: [2916](https://forever.warcraftdb.com/data/npc/2916)
 - **Hogan Ference**: [325](https://forever.warcraftdb.com/data/npc/325)
@@ -735,7 +726,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Jennea Cannon**: [5497](https://forever.warcraftdb.com/data/npc/5497)
 - **Jenova Stoneshield** — Scout: [11069](https://forever.warcraftdb.com/data/npc/11069)
 - **Jern Hornhelm**: [1105](https://forever.warcraftdb.com/data/npc/1105)
-- **Jesper**: [15310](https://forever.warcraftdb.com/data/npc/15310)
 - **Jessara Cordell**: [1318](https://forever.warcraftdb.com/data/npc/1318)
 - **Jessir Moonbow**: [11019](https://forever.warcraftdb.com/data/npc/11019)
 - **Jhag**: [11066](https://forever.warcraftdb.com/data/npc/11066)
@@ -754,10 +744,8 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Jorin Croge**: [246393](https://forever.warcraftdb.com/data/npc/246393)
 - **Jormund Stonebrow**: [5153](https://forever.warcraftdb.com/data/npc/5153)
 - **Jorn Skyseer**: [3387](https://forever.warcraftdb.com/data/npc/3387)
-- **Jose**: [811](https://forever.warcraftdb.com/data/npc/811)
 - **Josephine Carson** — Scout: [251507](https://forever.warcraftdb.com/data/npc/251507)
 - **Josephine Lister**: [4578](https://forever.warcraftdb.com/data/npc/4578)
-- **Joshua** — Scout: [796](https://forever.warcraftdb.com/data/npc/796)
 - **Joshua Kien** — Scout: [2115](https://forever.warcraftdb.com/data/npc/2115)
 - **Joshua Maclure** — Scout: [258](https://forever.warcraftdb.com/data/npc/258)
 - **Jubahl Corpseseeker**: [6382](https://forever.warcraftdb.com/data/npc/6382)
@@ -906,7 +894,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Mabel Solaj**: [227](https://forever.warcraftdb.com/data/npc/227)
 - **Madam Swyndle**: [263326](https://forever.warcraftdb.com/data/npc/263326)
 - **Madame Eva**: [265](https://forever.warcraftdb.com/data/npc/265)
-- **Madison**: [848](https://forever.warcraftdb.com/data/npc/848)
 - **Maelgwyn Shadowtale**: [258239](https://forever.warcraftdb.com/data/npc/258239)
 - **Magatha Grimtotem**: [4046](https://forever.warcraftdb.com/data/npc/4046)
 - **Maggran Earthbinder**: [11860](https://forever.warcraftdb.com/data/npc/11860)
@@ -939,8 +926,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Maria Lumere** — Scout: [1313](https://forever.warcraftdb.com/data/npc/1313)
 - **Marion Call**: [2130](https://forever.warcraftdb.com/data/npc/2130)
 - **Maris Granger** — Scout: [1292](https://forever.warcraftdb.com/data/npc/1292)
-- **Mark** — Scout: [795](https://forever.warcraftdb.com/data/npc/795)
-- **Markus** — Scout: [395](https://forever.warcraftdb.com/data/npc/395)
 - **Marryk Nurribit**: [944](https://forever.warcraftdb.com/data/npc/944)
 - **Marshal Dughan** — Scout: [240](https://forever.warcraftdb.com/data/npc/240)
 - **Marshal Haggard**: [294](https://forever.warcraftdb.com/data/npc/294)
@@ -1042,7 +1027,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Narret Shadowgrove**: [3614](https://forever.warcraftdb.com/data/npc/3614)
 - **Nasalanna Windsinger**: [257020](https://forever.warcraftdb.com/data/npc/257020)
 - **Nata Dawnstrider**: [3012](https://forever.warcraftdb.com/data/npc/3012)
-- **Nathan**: [847](https://forever.warcraftdb.com/data/npc/847)
 - **Nayeela Snarlfang**: [258138](https://forever.warcraftdb.com/data/npc/258138)
 - **Nazgrel**: [3230](https://forever.warcraftdb.com/data/npc/3230)
 - **Neeru Fireblade**: [3216](https://forever.warcraftdb.com/data/npc/3216)
@@ -1095,7 +1079,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Ozwin Ironsprocket**: [253395](https://forever.warcraftdb.com/data/npc/253395)
 - **Pa Maclure** — Scout: [250](https://forever.warcraftdb.com/data/npc/250)
 - **Pa'zula**: [266881](https://forever.warcraftdb.com/data/npc/266881)
-- **Paige Chaddis**: [2331](https://forever.warcraftdb.com/data/npc/2331)
 - **Pakwa**: [8364](https://forever.warcraftdb.com/data/npc/8364)
 - **Pal'juh**: [275811](https://forever.warcraftdb.com/data/npc/275811)
 - **Palah Thunderhoof**: [262558](https://forever.warcraftdb.com/data/npc/262558)
@@ -1229,7 +1212,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Shanda**: [3595](https://forever.warcraftdb.com/data/npc/3595)
 - **Shankys**: [3333](https://forever.warcraftdb.com/data/npc/3333)
 - **Shari Stilwell**: [246152](https://forever.warcraftdb.com/data/npc/246152)
-- **Shawn**: [8965](https://forever.warcraftdb.com/data/npc/8965)
 - **Sheal Runetotem**: [3034](https://forever.warcraftdb.com/data/npc/3034)
 - **Sheendra Tallgrass**: [8145](https://forever.warcraftdb.com/data/npc/8145)
 - **Shelby Stoneflint**: [9980](https://forever.warcraftdb.com/data/npc/9980)
@@ -1357,7 +1339,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Thief Catcher Shadowdelve** — Scout: [14363](https://forever.warcraftdb.com/data/npc/14363)
 - **Thief Catcher Thunderbrew** — Scout: [14367](https://forever.warcraftdb.com/data/npc/14367)
 - **Thom Filch**: [265003](https://forever.warcraftdb.com/data/npc/265003)
-- **Thomas** — Scout: [4982](https://forever.warcraftdb.com/data/npc/4982)
 - **Thomas Arlento**: [2309](https://forever.warcraftdb.com/data/npc/2309)
 - **Thomas Miller** — Scout: [3518](https://forever.warcraftdb.com/data/npc/3518)
 - **Thonys Pillarstone**: [11065](https://forever.warcraftdb.com/data/npc/11065)
@@ -1371,7 +1352,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Thundris Windweaver**: [3649](https://forever.warcraftdb.com/data/npc/3649)
 - **Thurgrum Deepforge**: [4259](https://forever.warcraftdb.com/data/npc/4259)
 - **Thurman Mullby** — Scout: [1285](https://forever.warcraftdb.com/data/npc/1285)
-- **Thurman Schneider** — Scout: [1429](https://forever.warcraftdb.com/data/npc/1429)
 - **Thuwd**: [7088](https://forever.warcraftdb.com/data/npc/7088)
 - **Thylonell Bitterwind**: [258260](https://forever.warcraftdb.com/data/npc/258260)
 - **Thysta**: [1387](https://forever.warcraftdb.com/data/npc/1387)
@@ -1464,7 +1444,6 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Wilder Thistlenettle**: [656](https://forever.warcraftdb.com/data/npc/656)
 - **Wiley the Black**: [266](https://forever.warcraftdb.com/data/npc/266)
 - **Wilhelm Strang** — Scout: [1341](https://forever.warcraftdb.com/data/npc/1341)
-- **William**: [2533](https://forever.warcraftdb.com/data/npc/2533)
 - **William MacGregor**: [1668](https://forever.warcraftdb.com/data/npc/1668)
 - **William Pestle** — Scout: [253](https://forever.warcraftdb.com/data/npc/253)
 - **William Pickman**: [265944](https://forever.warcraftdb.com/data/npc/265944)

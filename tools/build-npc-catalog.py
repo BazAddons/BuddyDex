@@ -34,17 +34,22 @@ def main():
     for rel in ("tools/tests/blizzard_api.lua", "tools/tests/mock.lua"):
         lua.execute((ROOT / rel).read_text(encoding="utf-8"))
     ns = lua.table()
-    for rel in ("Core/Namespace.lua", "Data/Lore.lua", "Core/Friendship.lua"):
+    for rel in ("Core/Namespace.lua", "Data/NpcEligibility.lua", "Data/Lore.lua", "Core/Friendship.lua"):
         lua.execute((ROOT / rel).read_text(encoding="utf-8"), "BuddyDex", ns)
     lua.execute(args.scout.read_text(encoding="utf-8-sig"))
     scout = lua.globals().BuddyDexScoutDB.roster
-    excluded, review, retained = [], [], []
+    excluded, review, retained, children = [], [], [], []
     source_ids = {r["npc_id"] for r in source["rows"]}
     seen_rule_names = set()
     for original in source["rows"]:
         row = dict(original)
         npc, name = row["npc_id"], row["name"]
         row["source"] = "Warcraft DB listing; availability and attackability unverified"
+        observed = scout[npc]
+        if ns.NpcEligibility.IsChild(npc, observed and observed.display):
+            row["reason"] = "Child NPC; adult friendships only"
+            children.append(row)
+            continue
         exception = rules["named_exceptions"].get(str(npc))
         if exception:
             assert name == exception["name"]
@@ -90,18 +95,19 @@ def main():
                            "entries": rows})
     candidates.sort(key=lambda r: r["name"].casefold())
     counts = {"source_rows": len(source["rows"]), "excluded_generic_rows": len(excluded),
+              "excluded_child_rows": len(children),
               "ambiguous_rows_for_review": len(review),
               "retained_source_entries": len(retained) - len(missing),
               "local_backlog_entries_missing_from_source": len(missing),
               "combined_retained_entries": len(retained), "candidate_name_groups": len(candidates),
               "same_name_groups_requiring_id_review": sum(r["same_name_variants_need_review"] for r in candidates)}
-    assert counts["source_rows"] == len(excluded) + len(review) + counts["retained_source_entries"]
-    assert len({r["npc_id"] for r in retained + excluded + review}) == len(retained + excluded + review)
+    assert counts["source_rows"] == len(excluded) + len(children) + len(review) + counts["retained_source_entries"]
+    assert len({r["npc_id"] for r in retained + excluded + review + children}) == len(retained + excluded + review + children)
     assert all(npc in {r["npc_id"] for r in retained} for npc in local), "Dropped local backlog NPC"
     result = {"as_of": source["as_of"], "source_url": source["source_url"],
               "scope": "Research candidates, not a confirmed count of befriending-compatible Forever NPCs. Same-name groups are not proven duplicate people. Keep Scout profiles first.",
               "counts": counts, "candidates": candidates, "ambiguous_review": review,
-              "excluded_generic": excluded, "local_entries_missing_from_source": missing}
+              "excluded_generic": excluded, "excluded_children": children, "local_entries_missing_from_source": missing}
     (CATALOG / "buddydex-candidates.json").write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     report = ["# BuddyDex candidate catalog", "", f"Snapshot: {source['as_of']}. [Warcraft DB filtered source]({source['source_url']}).", "",
               "This is a trimmed research list, not a verified eligibility census. Neutral targets may still be attackable, faction/reputation matters, and database availability can be incomplete. Existing Scout/backlog entries remain the authoring priority.", "",
@@ -109,6 +115,7 @@ def main():
     report += [f"| {key.replace('_', ' ').capitalize()} | {value:,} |" for key, value in counts.items()]
     report += ["", "The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.", "",
                "The external filter misses known local entries, including Jenn Langston. Their local evidence is preserved and they are added to this catalog. Two clearly personal names (Aetheen of the Gales and Lolo the Lookout) are retained with warnings about the current gameplay name heuristic; this task does not change that heuristic.", "",
+               "Child NPCs are excluded from friendship and authoring. Verified identities and models are recorded in [child-exclusions-source.json](child-exclusions-source.json); small stature and low level do not imply childhood.", "",
                "## Candidate names", "", "An asterisk means multiple NPC IDs need identity/version review. Scout denotes at least one locally observed ID.", ""]
     for row in candidates:
         links = ", ".join(f"[{npc}](https://forever.warcraftdb.com/data/npc/{npc})" for npc in row["npc_ids"])

@@ -5,11 +5,12 @@
   "counts": {
     "source_rows": 1587,
     "excluded_generic_rows": 132,
+    "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
-    "retained_source_entries": 1449,
-    "local_backlog_entries_missing_from_source": 58,
-    "combined_retained_entries": 1507,
-    "candidate_name_groups": 1494,
+    "retained_source_entries": 1431,
+    "local_backlog_entries_missing_from_source": 52,
+    "combined_retained_entries": 1483,
+    "candidate_name_groups": 1470,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -162,29 +163,6 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Adam",
-      "npc_ids": [
-        1366
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        1366
-      ],
-      "entries": [
-        {
-          "npc_id": 1366,
-          "name": "Adam",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Adam",
-          "zone": "Stormwind City",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -1114,30 +1092,6 @@
       ]
     },
     {
-      "name": "Alyssa Eva",
-      "npc_ids": [
-        1673
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 1673,
-          "name": "Alyssa Eva",
-          "listing_values": [
-            "7",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 1,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Alyssa Griffith",
       "npc_ids": [
         1321
@@ -1308,30 +1262,6 @@
           "listing_values": [
             "55",
             "Elite",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 2,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Anduin Wrynn",
-      "npc_ids": [
-        1747
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 1747,
-          "name": "Anduin Wrynn",
-          "listing_values": [
-            "5",
-            "Normal",
             "Friendly",
             "Humanoid"
           ],
@@ -2347,29 +2277,6 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Ashley Bridenbecker",
-      "npc_ids": [
-        11996
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        11996
-      ],
-      "entries": [
-        {
-          "npc_id": 11996,
-          "name": "Ashley Bridenbecker",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Ashley Bridenbecker",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -3816,30 +3723,6 @@
       ]
     },
     {
-      "name": "Benjamin Carevin",
-      "npc_ids": [
-        664
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 664,
-          "name": "Benjamin Carevin",
-          "listing_values": [
-            "2",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 4,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Bethaine Flinthammer",
       "npc_ids": [
         10046
@@ -3987,59 +3870,6 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
-        }
-      ]
-    },
-    {
-      "name": "Billy",
-      "npc_ids": [
-        1367
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        1367
-      ],
-      "entries": [
-        {
-          "npc_id": 1367,
-          "name": "Billy",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Billy",
-          "zone": "Stormwind City",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
-        }
-      ]
-    },
-    {
-      "name": "Billy Maclure",
-      "npc_ids": [
-        247
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        247
-      ],
-      "entries": [
-        {
-          "npc_id": 247,
-          "name": "Billy Maclure",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 4,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": true,
-          "scout_name": "Billy Maclure",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -4262,36 +4092,6 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Bo",
-      "npc_ids": [
-        797
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        797
-      ],
-      "entries": [
-        {
-          "npc_id": 797,
-          "name": "Bo",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 4,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": true,
-          "scout_name": "Bo",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -9221,30 +9021,6 @@
       ]
     },
     {
-      "name": "Donna",
-      "npc_ids": [
-        2532
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 2532,
-          "name": "Donna",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 8,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Donni Anthania",
       "npc_ids": [
         6367
@@ -10721,30 +10497,6 @@
           "name": "Erika Tate",
           "listing_values": [
             "30",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 10,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Erin",
-      "npc_ids": [
-        850
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 850,
-          "name": "Erin",
-          "listing_values": [
-            "5",
             "Normal",
             "Friendly",
             "Humanoid"
@@ -12728,30 +12480,6 @@
           "name": "Gikkix",
           "listing_values": [
             "40",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 11,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Gil",
-      "npc_ids": [
-        3504
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 3504,
-          "name": "Gil",
-          "listing_values": [
-            "1",
             "Normal",
             "Friendly",
             "Humanoid"
@@ -15473,30 +15201,6 @@
       ]
     },
     {
-      "name": "Hilary",
-      "npc_ids": [
-        8962
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 8962,
-          "name": "Hilary",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 14,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Hilda the Breaker",
       "npc_ids": [
         246389
@@ -17698,30 +17402,6 @@
       ]
     },
     {
-      "name": "Jesper",
-      "npc_ids": [
-        15310
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 15310,
-          "name": "Jesper",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 16,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Jessara Cordell",
       "npc_ids": [
         1318
@@ -18168,30 +17848,6 @@
       ]
     },
     {
-      "name": "Jose",
-      "npc_ids": [
-        811
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 811,
-          "name": "Jose",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 16,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Josephine Carson",
       "npc_ids": [
         251507
@@ -18242,29 +17898,6 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Joshua",
-      "npc_ids": [
-        796
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        796
-      ],
-      "entries": [
-        {
-          "npc_id": 796,
-          "name": "Joshua",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Joshua",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -21939,30 +21572,6 @@
       ]
     },
     {
-      "name": "Madison",
-      "npc_ids": [
-        848
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 848,
-          "name": "Madison",
-          "listing_values": [
-            "5",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 19,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Maelgwyn Shadowtale",
       "npc_ids": [
         258239
@@ -22759,52 +22368,6 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
-        }
-      ]
-    },
-    {
-      "name": "Mark",
-      "npc_ids": [
-        795
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        795
-      ],
-      "entries": [
-        {
-          "npc_id": 795,
-          "name": "Mark",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Mark",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
-        }
-      ]
-    },
-    {
-      "name": "Markus",
-      "npc_ids": [
-        395
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        395
-      ],
-      "entries": [
-        {
-          "npc_id": 395,
-          "name": "Markus",
-          "source": "Existing local backlog; absent from source filter",
-          "scout_observed": true,
-          "scout_name": "Markus",
-          "zone": "Elwynn Forest",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -25317,30 +24880,6 @@
       ]
     },
     {
-      "name": "Nathan",
-      "npc_ids": [
-        847
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 847,
-          "name": "Nathan",
-          "listing_values": [
-            "5",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 22,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Nayeela Snarlfang",
       "npc_ids": [
         258138
@@ -26631,30 +26170,6 @@
           "name": "Pa'zula",
           "listing_values": [
             "25",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 23,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
-      "name": "Paige Chaddis",
-      "npc_ids": [
-        2331
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 2331,
-          "name": "Paige Chaddis",
-          "listing_values": [
-            "1",
             "Normal",
             "Friendly",
             "Humanoid"
@@ -29933,30 +29448,6 @@
       ]
     },
     {
-      "name": "Shawn",
-      "npc_ids": [
-        8965
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 8965,
-          "name": "Shawn",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 26,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
-        }
-      ]
-    },
-    {
       "name": "Sheal Runetotem",
       "npc_ids": [
         3034
@@ -33086,36 +32577,6 @@
       ]
     },
     {
-      "name": "Thomas",
-      "npc_ids": [
-        4982
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        4982
-      ],
-      "entries": [
-        {
-          "npc_id": 4982,
-          "name": "Thomas",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 29,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": true,
-          "scout_name": "Thomas",
-          "zone": "Stormwind City",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
-        }
-      ]
-    },
-    {
       "name": "Thomas Arlento",
       "npc_ids": [
         2309
@@ -33434,36 +32895,6 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
-        }
-      ]
-    },
-    {
-      "name": "Thurman Schneider",
-      "npc_ids": [
-        1429
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [
-        1429
-      ],
-      "entries": [
-        {
-          "npc_id": 1429,
-          "name": "Thurman Schneider",
-          "listing_values": [
-            "2",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 29,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": true,
-          "scout_name": "Thurman Schneider",
-          "zone": "Stormwind City",
-          "scout_reaction": 5,
-          "scout_attackable": false,
-          "profile_status": "needs_completion"
         }
       ]
     },
@@ -35773,30 +35204,6 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
-        }
-      ]
-    },
-    {
-      "name": "William",
-      "npc_ids": [
-        2533
-      ],
-      "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
-      "entries": [
-        {
-          "npc_id": 2533,
-          "name": "William",
-          "listing_values": [
-            "1",
-            "Normal",
-            "Friendly",
-            "Humanoid"
-          ],
-          "source_page": 31,
-          "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
         }
       ]
     },
@@ -38893,6 +38300,242 @@
       "reason": "Generic role, unnamed creature or non-person prop"
     }
   ],
+  "excluded_children": [
+    {
+      "npc_id": 1673,
+      "name": "Alyssa Eva",
+      "listing_values": [
+        "7",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 1,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1747,
+      "name": "Anduin Wrynn",
+      "listing_values": [
+        "5",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 2,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 664,
+      "name": "Benjamin Carevin",
+      "listing_values": [
+        "2",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 4,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 247,
+      "name": "Billy Maclure",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 4,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 797,
+      "name": "Bo",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 4,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2532,
+      "name": "Donna",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 8,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 850,
+      "name": "Erin",
+      "listing_values": [
+        "5",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 10,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 3504,
+      "name": "Gil",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 11,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 8962,
+      "name": "Hilary",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 14,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 15310,
+      "name": "Jesper",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 16,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 811,
+      "name": "Jose",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 16,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 848,
+      "name": "Madison",
+      "listing_values": [
+        "5",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 19,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 847,
+      "name": "Nathan",
+      "listing_values": [
+        "5",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 22,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2331,
+      "name": "Paige Chaddis",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 23,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 8965,
+      "name": "Shawn",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 26,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 4982,
+      "name": "Thomas",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 29,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1429,
+      "name": "Thurman Schneider",
+      "listing_values": [
+        "2",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 29,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2533,
+      "name": "William",
+      "listing_values": [
+        "1",
+        "Normal",
+        "Friendly",
+        "Humanoid"
+      ],
+      "source_page": 31,
+      "source": "Warcraft DB listing; availability and attackability unverified",
+      "reason": "Child NPC; adult friendships only"
+    }
+  ],
   "local_entries_missing_from_source": [
     {
       "npc_id": 328,
@@ -38915,39 +38558,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 395,
-      "name": "Markus",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Markus",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
-    },
-    {
-      "npc_id": 795,
-      "name": "Mark",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Mark",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
-    },
-    {
-      "npc_id": 796,
-      "name": "Joshua",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Joshua",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
     },
     {
       "npc_id": 1212,
@@ -39047,28 +38657,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 1366,
-      "name": "Adam",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Adam",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
-    },
-    {
-      "npc_id": 1367,
-      "name": "Billy",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Billy",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
     },
     {
       "npc_id": 1395,
@@ -39330,17 +38918,6 @@
       "scout_observed": true,
       "scout_name": "Claire Willower",
       "zone": "Tirisfal Glades",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "needs_completion"
-    },
-    {
-      "npc_id": 11996,
-      "name": "Ashley Bridenbecker",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Ashley Bridenbecker",
-      "zone": "Elwynn Forest",
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "needs_completion"

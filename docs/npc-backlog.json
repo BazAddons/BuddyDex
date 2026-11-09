@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 216,
-  "remaining_count": 37,
+  "remaining_count": 27,
   "completed": [
     {
       "npc_id": 54,
@@ -133,15 +133,6 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
-    },
-    {
-      "npc_id": 247,
-      "name": "Billy Maclure",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
     },
     {
       "npc_id": 248,
@@ -290,15 +281,6 @@
       "status": "complete"
     },
     {
-      "npc_id": 395,
-      "name": "Markus",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
       "npc_id": 464,
       "name": "Guard Parker",
       "zone": "Redridge Mountains",
@@ -362,33 +344,6 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
-    },
-    {
-      "npc_id": 795,
-      "name": "Mark",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
-      "npc_id": 796,
-      "name": "Joshua",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
-      "npc_id": 797,
-      "name": "Bo",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
     },
     {
       "npc_id": 812,
@@ -834,24 +789,6 @@
       "status": "complete"
     },
     {
-      "npc_id": 1366,
-      "name": "Adam",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
-      "npc_id": 1367,
-      "name": "Billy",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
       "npc_id": 1395,
       "name": "Ol' Beasley",
       "zone": "Stormwind City",
@@ -913,15 +850,6 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
-    },
-    {
-      "npc_id": 1429,
-      "name": "Thurman Schneider",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
     },
     {
       "npc_id": 1430,
@@ -1424,15 +1352,6 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
-    },
-    {
-      "npc_id": 4982,
-      "name": "Thomas",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
     },
     {
       "npc_id": 5099,
@@ -1998,15 +1917,6 @@
       "status": "needs_completion"
     },
     {
-      "npc_id": 11996,
-      "name": "Ashley Bridenbecker",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
-    },
-    {
       "npc_id": 12336,
       "name": "Brother Crowley",
       "zone": "Stormwind City",
@@ -2367,9 +2277,136 @@
       "reason": "Generic role, not an individual"
     }
   ],
+  "excluded_children": [
+    {
+      "npc_id": 247,
+      "name": "Billy Maclure",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 395,
+      "name": "Markus",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 664,
+      "name": "Benjamin Carevin",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 795,
+      "name": "Mark",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 796,
+      "name": "Joshua",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 797,
+      "name": "Bo",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 811,
+      "name": "Jose",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 847,
+      "name": "Nathan",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 848,
+      "name": "Madison",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 850,
+      "name": "Erin",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1366,
+      "name": "Adam",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1367,
+      "name": "Billy",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1429,
+      "name": "Thurman Schneider",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1673,
+      "name": "Alyssa Eva",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 1747,
+      "name": "Anduin Wrynn",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2331,
+      "name": "Paige Chaddis",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2532,
+      "name": "Donna",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 2533,
+      "name": "William",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 3504,
+      "name": "Gil",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 4982,
+      "name": "Thomas",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 8962,
+      "name": "Hilary",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 8965,
+      "name": "Shawn",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 10926,
+      "name": "Pamela Redpath",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "reason": "Child NPC; adult friendships only"
+    },
+    {
+      "npc_id": 15310,
+      "name": "Jesper",
+      "reason": "Child NPC; adult friendships only"
+    }
+  ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1494,
+    "candidate_name_groups": 1470,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

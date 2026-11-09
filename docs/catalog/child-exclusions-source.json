@@ -1,0 +1,265 @@
+{
+  "as_of": "2026-11-09",
+  "source": "Current Forever NPC nodes; wow_classic_beta CreatureModelData/CreatureDisplayInfo; cited Classic quest text",
+  "child_model_files": [
+    124456,
+    124495
+  ],
+  "scanned_ids": 1508,
+  "scope": "Preserved candidate catalog plus verified children and Pamela Redpath; no level/name/height age guesses",
+  "children": [
+    {
+      "npc_id": 247,
+      "name": "Billy Maclure",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 395,
+      "name": "Markus",
+      "models": [
+        {
+          "display_id": 262,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 664,
+      "name": "Benjamin Carevin",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 795,
+      "name": "Mark",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 796,
+      "name": "Joshua",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 797,
+      "name": "Bo",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 811,
+      "name": "Jose",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 847,
+      "name": "Nathan",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 848,
+      "name": "Madison",
+      "models": [
+        {
+          "display_id": 257,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 850,
+      "name": "Erin",
+      "models": [
+        {
+          "display_id": 257,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 1366,
+      "name": "Adam",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 1367,
+      "name": "Billy",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 1429,
+      "name": "Thurman Schneider",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 1673,
+      "name": "Alyssa Eva",
+      "models": [
+        {
+          "display_id": 257,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 1747,
+      "name": "Anduin Wrynn",
+      "models": [
+        {
+          "display_id": 11655,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 2331,
+      "name": "Paige Chaddis",
+      "models": [
+        {
+          "display_id": 252,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 2532,
+      "name": "Donna",
+      "models": [
+        {
+          "display_id": 252,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 2533,
+      "name": "William",
+      "models": [
+        {
+          "display_id": 262,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 3504,
+      "name": "Gil",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 4982,
+      "name": "Thomas",
+      "models": [
+        {
+          "display_id": 262,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 8962,
+      "name": "Hilary",
+      "models": [
+        {
+          "display_id": 257,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 8965,
+      "name": "Shawn",
+      "models": [
+        {
+          "display_id": 221,
+          "file_id": 124495
+        }
+      ]
+    },
+    {
+      "npc_id": 10926,
+      "name": "Pamela Redpath",
+      "models": [],
+      "evidence": "Sister Pamela (5601), completion text; child ghost",
+      "source_url": "https://classicdb.ch/?quest=5601"
+    },
+    {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "models": [
+        {
+          "display_id": 257,
+          "file_id": 124456
+        }
+      ]
+    },
+    {
+      "npc_id": 15310,
+      "name": "Jesper",
+      "models": [
+        {
+          "display_id": 338,
+          "file_id": 124495
+        }
+      ]
+    }
+  ],
+  "unverified": [
+    {
+      "npc_id": 10926,
+      "error": "HTTP 404; availability/model unverified"
+    }
+  ]
+}

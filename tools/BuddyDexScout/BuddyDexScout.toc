@@ -8,6 +8,7 @@
 ## SavedVariables: BuddyDexScoutDB
 
 Core\Namespace.lua
+Data\NpcEligibility.lua
 Core\Database.lua
 Scout\Scout.lua
 Scout\Sweep.lua

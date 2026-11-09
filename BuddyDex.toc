@@ -12,6 +12,7 @@
 ## AddonCompartmentFuncOnLeave: BuddyDex_OnAddonCompartmentLeave
 
 Core\Namespace.lua
+Data\NpcEligibility.lua
 Data\Art.lua
 Data\Moves.lua
 Data\Lore.lua

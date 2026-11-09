@@ -219,7 +219,13 @@ local function FriendRows()
 end
 
 step("ADDON_LOADED and PLAYER_LOGIN", function()
+    BuddyDexCharDB = { friends = {
+        [247] = { name = "Billy Maclure", points = 5000, display = 221 },
+    }, companionNpc = 247, dex = { pinned = { [247] = true } } }
     FireAll("ADDON_LOADED", "BuddyDex")
+    assert(not BuddyDexCharDB.friends[247], "legacy child stayed in roster")
+    assert(BuddyDexCharDB.excludedChildren[247].points == 5000, "old progress was not archived")
+    assert(not BuddyDexCharDB.companionNpc and not BuddyDexCharDB.dex.pinned[247], "stale child selection/pin")
     assert(type(BuddyDexCharDB) == "table" and type(BuddyDexCharDB.friends) == "table", "no friends table")
     -- Befriended before the one-of-many rule: leaves at login.
     BuddyDexCharDB.friends[68] = { name = "Stormwind City Guard", points = 40, zone = "Stormwind City" }
@@ -1473,24 +1479,65 @@ step("the row menu sets a waypoint too", function()
     item.a(item.data)
     assert(MOCK.userWaypoint, "the menu did not set a waypoint")
 end)
+step("child identities and models cannot become friends or companions", function()
+    local beforeTotal = ns.Database.Count()
+    for id, name in pairs(ns.NpcEligibility.children) do
+        assert(not ns.Lore[id], "child lore remained: " .. id)
+        assert(not ns.Friendship.IsSomeone(name, id), "child identity eligible")
+        assert(not ns.Friendship.IsSomeone("Renamed NPC", id), "name bypassed child ID")
+        local child = { npcID = id, name = name, type = "Humanoid", level = 1, sex = 2, reaction = 5,
+            guid = "Creature-0-1-2-3-" .. id .. "-0000AB", tip = { "Level 1" } }
+        MOCK.units.npc, MOCK.units.target = child, child
+        assert(not ns.Friendship.EligibleNpcID("target"), "child got emote menu")
+        assert(not ns.Friendship.Meet("target"), "child met through developer command")
+        FireAll("GOSSIP_SHOW")
+        DoEmote("HELLO", "target")
+        assert(not BuddyDexCharDB.friends[id], "child earned friendship")
+        BuddyDexCharDB.friends[id] = { name = name, display = 221, points = 10000 }
+        assert(not ns.Friendship.Gain("target", "talk"), "legacy child gained points")
+        assert(ns.Friendship.Add(id, 100) == 0, "developer points bypassed exclusion")
+        assert(not ns.Database.GetEntry(id) and not ns.Database.GetRoster()[id], "child exposed in journal")
+        ns.Companion.SetBuddy(id)
+        assert(ns.char.companionNpc ~= id, "child companion selected")
+        ns.Database.ExcludeChild(id)
+    end
+    assert(ns.Database.Count() == beforeTotal, "child affected friendship count")
+    -- A newly discovered ID using a verified child display is also excluded.
+    local id = 990081
+    BuddyDexCharDB.friends[id] = { name = "Model Test", points = 10000 }
+    assert(ns.Database.SetModelInfo(id, 257, {}), "child model not recognized")
+    assert(not ns.Database.GetEntry(id) and BuddyDexCharDB.excludedChildren[id], "child model not quarantined")
+    assert(not ns.Friendship.IsSomeone("Model Test", id), "learned child ID forgotten")
+    local characterDB = ns.db
+    ns.db = {}
+    assert(ns.Friendship.IsSomeone("Model Test", id), "learned exclusions leaked across characters")
+    ns.db = characterDB
+    assert(ns.Friendship.IsSomeone("Billy", 990082), "a personal name became an age blacklist")
+    assert(ns.Friendship.IsSomeone("Clara Charles", 5917, 4558), "adult Clara excluded")
+    assert(ns.Friendship.IsSomeone("Auctioneer Lympkin", 9859), "adult gnome excluded")
+    MOCK.units.target, MOCK.units.npc = LYMPKIN, LYMPKIN
+end)
 """
 
 SCOUT = r"""
 step("ADDON_LOADED", function()
-    BuddyDexScoutDB = { version = 1, settings = { scout = true, announce = false }, roster = {} }
+    BuddyDexScoutDB = { version = 1, settings = { scout = true, announce = false }, roster = { [247] = { name = "Billy Maclure", display = 221 } } }
     FireAll("ADDON_LOADED", "BuddyDexScout")
+    assert(not BuddyDexScoutDB.roster[247] and BuddyDexScoutDB.excludedChildren[247], "Scout child migration")
     assert(type(BuddyDexScoutDB) == "table" and type(BuddyDexScoutDB.roster) == "table", "no roster")
     assert(BuddyDexScoutDB.version == 2 and BuddyDexScoutDB.settings.announce, "old silent default was not migrated")
 end)
 
 step("takes over BuddyDex's old roster on login", function()
     BuddyDexDB = { roster = {
+        [11996] = { name = "Ashley Bridenbecker", display = 257 },
         [8720] = { name = "Auctioneer Redmuse", title = "Auctioneer", zone = "Ironforge", seen = 4,
             display = 7989, moves = { 66, 67 } },
         [2784] = { name = "King Magni Bronzebeard", title = "Lord of Ironforge", zone = "Ironforge", class = "worldboss" },
     } }
     FireAll("PLAYER_LOGIN")
     local r = BuddyDexScoutDB.roster
+    assert(not r[11996], "Scout reimported a child")
     assert(r[8720] and r[8720].display == 7989 and #r[8720].moves == 2, "Redmuse not taken over")
     assert(r[2784] and r[2784].title == "Lord of Ironforge", "Magni not taken over")
 end)
@@ -1522,6 +1569,15 @@ step("announces new discoveries once and honors the announcement switch", functi
     assert(BuddyDexScoutDB.roster[2461] and #MOCK.printed == before, "disabled announcement printed or blocked scouting")
     SlashCmdList.BUDDYDEXSCOUT("announce on")
     assert(BuddyDexScoutDB.settings.announce, "announcement switch did not turn back on")
+end)
+
+step("Scout ignores child sightings", function()
+    MOCK.units.nameplateChild = { npcID = 11996, name = "Ashley Bridenbecker", type = "Humanoid",
+        guid = "Creature-0-1-2-3-11996-0000AB", level = 1, reaction = 5 }
+    local count = #MOCK.printed
+    FireAll("NAME_PLATE_UNIT_ADDED", "nameplateChild")
+    assert(not BuddyDexScoutDB.roster[11996], "child added to Scout")
+    assert(#MOCK.printed == count, "Scout announced an excluded child")
 end)
 
 step("the window and the sweep", function()

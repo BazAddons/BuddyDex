@@ -53,7 +53,9 @@ local function ImportBuddyDex()
     local roster, count = ns.db.roster, 0
     for key, entry in pairs(source) do
         local id = tonumber(Util.Plain(key))
-        if id and roster[id] == nil and type(entry) == "table" and entry.name then
+        if id and type(entry) == "table" and ns.NpcEligibility.IsChild(id, entry.display) then
+            -- Excluded identities never return through the legacy import.
+        elseif id and roster[id] == nil and type(entry) == "table" and entry.name then
             roster[id] = Copy(entry)
             count = count + 1
         elseif id and type(roster[id]) == "table" and type(entry) == "table" then
@@ -88,6 +90,14 @@ frame:SetScript("OnEvent", function(self, event, name)
             BuddyDexScoutDB.version = 2
         end
         ns.db = BuddyDexScoutDB
+        ns.db.excludedChildren = ns.db.excludedChildren or {}
+        local excluded = {}
+        for id, entry in pairs(ns.db.roster) do
+            if ns.NpcEligibility.IsChild(id, entry.display) then excluded[#excluded + 1] = id end
+        end
+        for _, id in ipairs(excluded) do
+            ns.db.excludedChildren[id], ns.db.roster[id] = ns.db.roster[id], nil
+        end
         ns.Bus:TriggerEvent(ns.Event.VariablesReady)
     elseif event == "PLAYER_LOGIN" then
         local ok, err = pcall(ImportBuddyDex)

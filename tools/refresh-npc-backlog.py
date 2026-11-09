@@ -32,7 +32,7 @@ def main():
     for rel in ["tools/tests/blizzard_api.lua", "tools/tests/mock.lua"]:
         lua.execute((ROOT / rel).read_text(encoding="utf-8"))
     ns = lua.table()
-    for rel in ["Core/Namespace.lua", "Data/Lore.lua", "voice/Manifest.lua", "Core/Friendship.lua"]:
+    for rel in ["Core/Namespace.lua", "Data/NpcEligibility.lua", "Data/Lore.lua", "voice/Manifest.lua", "Core/Friendship.lua"]:
         lua.execute((ROOT / rel).read_text(encoding="utf-8"), "BuddyDex", ns)
     lua.execute(args.scout.read_text(encoding="utf-8-sig"))
     roster = lua.globals().BuddyDexScoutDB.roster
@@ -44,7 +44,12 @@ def main():
         generic_names.update(trim_rules.get("local_only_generic_names", []))
     candidates = {}
     excluded = []
+    excluded_children = {npc: {"npc_id": npc, "name": name, "reason": "Child NPC; adult friendships only"}
+                         for npc, name in ns.NpcEligibility.children.items()}
     for npc, entry in roster.items():
+        if ns.NpcEligibility.IsChild(npc, entry.display):
+            excluded_children[npc] = {"npc_id": npc, "name": entry.name, "reason": "Child NPC; adult friendships only"}
+            continue
         if not (entry.reaction and entry.reaction >= 4 and not entry.attackable and entry.type == "Humanoid"):
             continue
         if npc in GENERIC or entry.name in generic_names or not ns.Friendship.IsSomeone(entry.name, npc):
@@ -63,6 +68,8 @@ def main():
             npc = row["npc_id"]
             assert isinstance(npc, int) and npc not in seen, "Duplicate/invalid researched NPC ID"
             seen.add(npc)
+            if ns.NpcEligibility.IsChild(npc):
+                continue
             assert ns.Friendship.IsSomeone(row["name"], npc), "Generic researched NPC"
             assert (ROOT / row["research_notes"]).is_file(), "Missing research notes"
             if npc in candidates:
@@ -71,6 +78,7 @@ def main():
                 candidates[npc] = dict(row)
     completed = []
     for npc, lore in ns.Lore.items():
+        assert not ns.NpcEligibility.IsChild(npc), "Child profile must be removed"
         lines = [line[1] if lua.eval("type")(line) == "table" else line
                  for _, pile in lore.lines.items() for _, line in pile.items()]
         recordings = set()
@@ -99,6 +107,7 @@ def main():
         "completed": sorted(completed, key=lambda row: row["npc_id"]),
         "remaining": remaining,
         "excluded_generic": sorted(excluded, key=lambda row: row["npc_id"]),
+        "excluded_children": sorted(excluded_children.values(), key=lambda row: row["npc_id"]),
     }
     catalog_path = ROOT / "docs/catalog/buddydex-candidates.json"
     if catalog_path.exists():

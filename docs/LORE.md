@@ -107,3 +107,7 @@ That's all. No family, no history, no personality. Everything else is ours.
 Auctioneer Lympkin (`[9859]`) is the second example: an Ironforge-born gnome (the user's idea) whose gossip (she can price anything, gadgets too) is paid off by her secret (she can't tinker, so gadgets go "as is").
 
 The full entry is `[523]` in `Data/Lore.lua`.
+
+## Adult NPCs only
+
+Child NPCs cannot be befriended or selected as companions and must not receive profiles or voice lines. `Data/NpcEligibility.lua` records verified child NPC IDs and child displays; `docs/catalog/child-exclusions-source.json` preserves the evidence. Do not infer age from level, height, race, or a personal name. Adult gnomes remain eligible. Unknown custom models need individual review; this is not a universal age detector. Old character progress is archived under `excludedChildren`, outside the playable roster. Scout likewise excludes child records from its active authoring list.
