@@ -1,0 +1,10 @@
+# Next: Innkeeper Boorand Plainswind and Kor'geld
+
+Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External current API cache `C:/Users/brett/BuddyDex-builds/boorand-korgeld-research/npc-ID.json`.
+
+- [Innkeeper Boorand Plainswind3934](https://forever.warcraftdb.com/api/data/node/npc/3934), Innkeeper/Vendor, named Tauren humanoid, current Horde Friendly icon, The Barrens/map1413 pin52.0,29.9 (Crossroads). Display3881 -> installed DB2 race6/sex0, standard adult male, runtime `tauren-male`; named/adult/voice checks passed, no authored profile. Read exact welcome, all current services/stock and any inn/travel/quest relationships before inventing family from surname or other Tauren innkeepers' histories.
+- [Kor'geld3348](https://forever.warcraftdb.com/api/data/node/npc/3348), Alchemy Supplies, named Orc humanoid, current Horde Friendly icon, Orgrimmar/map1454 pin56.2,34.3. Display1369 -> race2/sex0, standard adult male, runtime `orc-male`; named/adult/voice checks passed, no authored profile. Full stock, trainer/shop relationships and any actual readable recipe/quest connection remain to research. Supplier title alone does not establish mastery, inventions or kinship.
+
+Both exact candidate IDs present in wider1510-name catalog, unresearched external candidates. Own starts/ends/teaches/sells responses, installed exact gossip/quest matches, full relevant published quest bodies including progress/completion, actual readable pages and relevant personal book/comic checks remain. No later-retail history imported. Preserve ordinary reaction/non-attackability gates; do not infer shared access or impose profession prerequisites.
+
+Then full ten fields/fifteen personal lines, four approved Eleven v4 signatures each, layout/audio/runtime/fresh-session validation, installed/separate development v002 packaging, backlog/changelog and commit/push. CF publication remains deferred; original handed-off candidate stays unchanged. Wider catalog and earlier explicitly unavailable-source leads remain active.

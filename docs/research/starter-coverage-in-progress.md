@@ -428,3 +428,10 @@ Next individually checked [Chepi and Ezekiel](chepi-and-ezekiel-queue.md), unpro
 386 authored profiles. Adult female Tauren/male Forsaken suppliers, fifteen personal lines/four v4 signatures each. Friendly counts Alliance199/Horde96/unverified98, seven shared entries overlap. Ezekiel current public Horde Neutral remains unverified Friendly coverage; ordinary reaction4/non-attackability acceptance and attackable/unfriendly rejection validated. Primary Forever page confirms Undercity despite parent-map pin. Sources/validation: [Thunder Bluff questions and Undercity whispers](thunder-bluff-questions-and-undercity-whispers.md).
 
 Next individually checked [Hollee and Sovik](hollee-and-sovik-queue.md), adult female Dwarf/male Goblin, not yet authored or counted complete. Regional/capital service access is distinct from starter milestones. Wider1510-name research pool remains the scope, with earlier explicit unavailable-source leads still open.
+
+
+## 2026-11-09: Hollee and Sovik
+
+388 authored profiles. Adult female Dwarf/male Goblin, fifteen personal lines and four established v4 signatures each. Friendly coverage Alliance200/Horde97/unverified98, seven shared entries overlap. Full archaeology/classmate/engineering chains and accessible readable text compared; Hollee's actual note and Aman's event body remain explicit unavailable-source leads. Sources/validation: [Auberdine brushes and Orgrimmar promises](auberdine-brushes-and-orgrimmar-promises.md).
+
+Next individually checked [Boorand and Kor'geld](boorand-and-korgeld-queue.md), adult male Tauren/Orc Horde service candidates, not authored or counted complete. Wider1510-name research pool and earlier unavailable-source leads remain active.

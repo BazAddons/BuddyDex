@@ -1267,5 +1267,19 @@
     "zone": "Undercity",
     "source": "Exact named adult model/current role and reaction checked; all own stock/relations, cross-module installed dialogue absence and full supplier-connected chain read. Ezekiel primary Undercity location and Neutral access limits documented; no Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-questions-and-undercity-whispers.md"
+  },
+  {
+    "npc_id": 2913,
+    "name": "Archaeologist Hollee",
+    "zone": "Darkshore",
+    "source": "Exact named adult model/current role and Friendly reaction checked; all own relations/stock and full relevant archaeology, personal-note and engineering chains researched. Readable-source and era limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/auberdine-brushes-and-orgrimmar-promises.md"
+  },
+  {
+    "npc_id": 3413,
+    "name": "Sovik",
+    "zone": "Orgrimmar",
+    "source": "Exact named adult model/current role and Friendly reaction checked; all own relations/stock and full relevant archaeology, personal-note and engineering chains researched. Readable-source and era limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/auberdine-brushes-and-orgrimmar-promises.md"
   }
 ]

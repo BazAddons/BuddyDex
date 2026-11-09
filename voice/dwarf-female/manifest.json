@@ -119,6 +119,46 @@
     "text": "There, you have it. Be pleased with yourself. Give the practice its credit, and give yourself time to feel what has become easier.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore2913_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2913",
+    "spoken": "[warm] [sincere] You listen when I point out the practical part, even when it is less exciting than the discovery. I value that. Come along, friend. I would enjoy seeing what catches your attention. Just look around occasionally, and come back to tell me about the interesting things while we can both admire them.",
+    "text": "You listen when I point out the practical part, even when it is less exciting than the discovery. I value that. Come along, friend. I would enjoy seeing what catches your attention. Just look around occasionally, and come back to tell me about the interesting things while we can both admire them.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2913_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2913",
+    "spoken": "[warm] [brisk] [gently amused] There you are. Tell me how the journey went, and whether everyone came back safely. We can admire the discoveries afterward. I am as interested in a fine fossil as the next archaeologist, but I would like the people holding the brushes to remain available for the conversation tomorrow.",
+    "text": "There you are. Tell me how the journey went, and whether everyone came back safely. We can admire the discoveries afterward. I am as interested in a fine fossil as the next archaeologist, but I would like the people holding the brushes to remain available for the conversation tomorrow.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2913_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2913",
+    "spoken": "[thoughtful] [wry] At the academy, Remtravel's discoveries seemed like the finest work anyone could hope to join. Working beside him has taught me to look up from a find now and then. There may be something important approaching. Something with considerably less interest in the fossil than in the archaeologists admiring it.",
+    "text": "At the academy, Remtravel's discoveries seemed like the finest work anyone could hope to join. Working beside him has taught me to look up from a find now and then. There may be something important approaching. Something with considerably less interest in the fossil than in the archaeologists admiring it.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2913_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2913",
+    "spoken": "[concerned] [earnest] Please check on Remtravel if you are heading south. He can become so absorbed in a discovery that the surroundings seem to stop existing for him. They do not stop being dangerous. I came back to seek help, and I would be glad to hear that he is safe.",
+    "text": "Please check on Remtravel if you are heading south. He can become so absorbed in a discovery that the surroundings seem to stop existing for him. They do not stop being dangerous. I came back to seek help, and I would be glad to hear that he is safe.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore5099_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

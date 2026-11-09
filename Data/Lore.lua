@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Archaeologist Hollee <Explorers' League>, Auberdine, Darkshore.
+    -- Adult female Dwarf, 2913/1286, current Alliance-friendly. Remtravel
+    -- assignment, golem danger, fossil referral; Forever98461 Tarrel note.
+    -- Her wish for a discovery of her own is original. Note text not invented.
+    -- Research: docs/research/auberdine-brushes-and-orgrimmar-promises.md.
+    [2913] = {
+        quote = "A fossil can wait a moment. Look after the people holding the brushes, and we may all be here to admire it tomorrow.",
+        likes = { "A discovery with its finder still safe", "A practical warning taken seriously", "News brought back from old classmates" },
+        dislikes = { "Danger mistaken for a minor distraction", "An assistant's judgment waved aside", "A fine discovery without a careful record" },
+        gossip = "Hollee can be as excited by a find as anyone. She is also likely to ask who has checked on the people still working at the excavation.",
+        bio = "Hollee works under Remtravel in Darkshore. When golems overran their discovery, she returned to Auberdine for help. She sends the fossil to Greywhisker while remaining concerned for the prospector she will not leave behind.",
+        backstory = "At the Ironforge academy, Hollee knew Remtravel's reputation and studied beside Tarrel Rockweaver. Their assignments sent them to different shores. Asking after Tarrel still tangles her words a little, especially when she remembers his wife, Merrin.",
+        secret = "She hopes for a discovery with her own name beside it, without explaining whose assistant she was. She would still check on everyone before finishing the label.",
+        bestFriend = "Come back and tell me yourself how the journey went. I would rather hear your voice than send another worried inquiry after you.",
+        favorite = { emote = "THANK", hint = "Quietly values having her practical care recognized alongside the excitement of a discovery." },
+        lines = {
+            greet = { { "There you are. Tell me how the journey went, and whether everyone came back safely. We can admire the discoveries afterward. I am as interested in a fine fossil as the next archaeologist, but I would like the people holding the brushes to remain available for the conversation tomorrow.", tone = "[warm] [brisk] [gently amused]" },
+                "Good to see you. Have you brought news, or found something that deserves a closer look?" },
+            idle = { { "At the academy, Remtravel's discoveries seemed like the finest work anyone could hope to join. Working beside him has taught me to look up from a find now and then. There may be something important approaching. Something with considerably less interest in the fossil than in the archaeologists admiring it.", tone = "[thoughtful] [wry]" },
+                "I would like a discovery with my own name beside it. A careful account of how everyone got home would please me too.",
+                "A simple inquiry after an old classmate ought to be easy to phrase. Some inquiries take longer than others." },
+            befriended = { { "You listen when I point out the practical part, even when it is less exciting than the discovery. I value that. Come along, friend. I would enjoy seeing what catches your attention. Just look around occasionally, and come back to tell me about the interesting things while we can both admire them.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was checking that we had not forgotten anyone.", "You have my attention. Is it a discovery, or the sensible question everyone else has overlooked?" },
+            quest = { { "Please check on Remtravel if you are heading south. He can become so absorbed in a discovery that the surroundings seem to stop existing for him. They do not stop being dangerous. I came back to seek help, and I would be glad to hear that he is safe.", tone = "[concerned] [earnest]" } },
+            loot = { "Before you brush anything away, remember where you found it. The surroundings may be part of the answer." },
+            bagsFull = { "Keep the finds safe, but leave yourself able to move when the surroundings become less welcoming." },
+            zone = { "New ground. Let us notice what is living here before becoming absorbed in what lies beneath it." },
+            lowHealth = { "Back from the danger. The discovery can wait until you are safe." },
+            rest = { "We have time to talk without calling it a report to the League." },
+            hearth = { "Back to Auberdine. I would like to hear whether there is news of the excavation." },
+        },
+    },
+
+    -- Sovik <Engineering Supplies>, Nogg's Machine Shop, Valley of Honor.
+    -- Adult male Goblin, 3413/7136, current Horde-friendly. Sixteen stock
+    -- rows;2842 explicitly co-developed Transpolyporter6000 with Scooty;
+    -- Nogg's2841 completion says Sovik doubted the player. Promises hook ours.
+    -- Research: docs/research/auberdine-brushes-and-orgrimmar-promises.md.
+    [3413] = {
+        quote = "Chances are good I can get it. A confident offer, carefully worded. Tell me what you need before we improve it into a guarantee.",
+        likes = { "An unusual request described properly", "A customer returning with good results", "A confident offer that leaves room to think" },
+        dislikes = { "A guess repeated as a guarantee", "The wrong part sold with great enthusiasm", "A useful question buried under the pitch" },
+        gossip = "Sovik can find almost anything, according to Sovik. Listen closely: the chances are good. He chose that part of the welcome with care.",
+        bio = "Sovik sells engineering supplies in Orgrimmar's Valley of Honor. After news from Kernobee, he and Scooty worked on the Transpolyporter 6000. He directs Gnomeregan-bound travelers to Scooty in Booty Bay, with confidence in the route he helped create.",
+        backstory = "Sovik once agreed to an order before learning exactly what the customer needed. He found the part, eventually. The awkward interval taught him to keep his confidence while choosing his promises with rather more attention.",
+        secret = "He enjoys a customer returning successful after he doubted them. He would prefer Nogg make less of the doubt. There is plenty to enjoy in the good news without repeating that part.",
+        bestFriend = "I have had my doubts, and you have given me reasons to revise them. Stay a little. I enjoy hearing how things went after you left the shop.",
+        favorite = { emote = "WINK", hint = "A knowing expression suggests you appreciate the careful wording beneath his confident pitch." },
+        lines = {
+            greet = { { "Hello again! Tell me what you are looking for. If it is not in the shop, chances are good I can get it. Notice the wording. Confidence, with room for a useful question before anyone starts making guarantees. You would be amazed how much trouble that little pause can save.", tone = "[brisk] [cheerful] [salesman charm]" },
+                "Back with a new request, or ready to tell me how the last one worked out?" },
+            idle = { { "I once agreed to an order before asking exactly what the customer needed. Found the part eventually, but there was an awkward stretch in between. These days the chances are good. Still confident. Much better wording. It gives me time to discover which particularly unusual thing we are actually discussing.", tone = "[amused] [conversational]" },
+                "Nogg may mention that I had my doubts. Notice that I am here to enjoy the successful return as well.",
+                "The right part, described clearly. An excellent beginning, even before anyone adds a convincing sales pitch." },
+            befriended = { { "You have become someone whose return I look forward to before I know whether you need anything from the shop. I like that arrangement. Come along, friend. Let us find out how the day goes. I have a confident expectation that I shall enjoy your company, and quite a bit of evidence behind it.", tone = "[warm] [upbeat] [sincere]" } },
+            poke = { "Yes? I was leaving room for a useful question.", "I am listening. Let us establish the actual request before I agree too enthusiastically." },
+            taxi = { { "Going to Gnomeregan? Scooty and I worked on the Transpolyporter after we heard from Kernobee. Speak with Scooty in Booty Bay about the journey. He handles the transponder calibration there. A much more convenient arrangement than walking through Dun Morogh, provided you listen to the instructions before admiring the shortcut.", tone = "[confident] [brisk]" } },
+            loot = { "Useful? Tell me what it does before we decide how enthusiastically to recommend it." },
+            bagsFull = { "A full bag does limit the available promises. Decide which part the next job actually needs." },
+            learned = { "New schematic? Good. Now give the parts list as much attention as the exciting picture." },
+            dungeon = { "An ambitious destination. Establish how you are getting there and back before calling the plan complete." },
+            laughAlong = { "There! A good result I did not have to promise in advance." },
+            hearth = { "Back to Orgrimmar. There may be an interesting request waiting beside the ordinary ones." },
+        },
+    },
+
     -- Chepi <Reagent Vendor>, lower rise, Thunder Bluff, 8361/7625.
     -- Adult female Tauren, current Horde-friendly Vendor. Seventeen
     -- current reagent rows, no own quests/training. Plain questions and

@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 386,
+  "completed_count": 388,
   "remaining_count": 4,
   "completed": [
     {
@@ -1506,6 +1506,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 2913,
+      "name": "Archaeologist Hollee",
+      "zone": "Darkshore",
+      "source": "Exact named adult model/current role and Friendly reaction checked; all own relations/stock and full relevant archaeology, personal-note and engineering chains researched. Readable-source and era limits documented; no Scout sighting claimed",
+      "research_notes": "docs/research/auberdine-brushes-and-orgrimmar-promises.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2948,
       "name": "Mull Thunderhorn",
       "zone": "Mulgore",
@@ -1939,6 +1949,16 @@
       "zone": "Orgrimmar",
       "source": "Exact current adult model and current/published identity; complete available quest chains and installed gossip reviewed; conditional or missing access evidence, no Scout sighting claimed",
       "research_notes": "docs/research/orgrimmar-questions-and-common-remedies.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3413,
+      "name": "Sovik",
+      "zone": "Orgrimmar",
+      "source": "Exact named adult model/current role and Friendly reaction checked; all own relations/stock and full relevant archaeology, personal-note and engineering chains researched. Readable-source and era limits documented; no Scout sighting claimed",
+      "research_notes": "docs/research/auberdine-brushes-and-orgrimmar-promises.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3656,15 +3676,15 @@
   ],
   "remaining": [
     {
-      "npc_id": 2913,
-      "name": "Archaeologist Hollee",
-      "zone": "Darkshore",
+      "npc_id": 3934,
+      "name": "Innkeeper Boorand Plainswind",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 3413,
-      "name": "Sovik",
+      "npc_id": 3348,
+      "name": "Kor'geld",
       "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"

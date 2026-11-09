@@ -944,14 +944,28 @@
       "name": "Archaeologist Hollee",
       "zone": "Darkshore",
       "route": "Female Dwarf/male Goblin explorer and service coverage",
-      "reason": "Exact current named adult model, faction Friendly icon/pin and runtime voice checked; full archaeology/travel/service/era research pending. See docs/research/hollee-and-sovik-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; exact identity, full relevant chains and readable-source limits in docs/research/auberdine-brushes-and-orgrimmar-promises.md"
     },
     {
       "npc_id": 3413,
       "name": "Sovik",
       "zone": "Orgrimmar",
       "route": "Female Dwarf/male Goblin explorer and service coverage",
-      "reason": "Exact current named adult model, faction Friendly icon/pin and runtime voice checked; full archaeology/travel/service/era research pending. See docs/research/hollee-and-sovik-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; exact identity, full relevant chains and readable-source limits in docs/research/auberdine-brushes-and-orgrimmar-promises.md"
+    },
+    {
+      "npc_id": 3934,
+      "name": "Innkeeper Boorand Plainswind",
+      "zone": "The Barrens",
+      "route": "Horde Tauren/Orc service coverage",
+      "reason": "Exact current named adult male model, Horde Friendly icon/pin and established voice checked; full service/quest/literary research pending. See docs/research/boorand-and-korgeld-queue.md"
+    },
+    {
+      "npc_id": 3348,
+      "name": "Kor'geld",
+      "zone": "Orgrimmar",
+      "route": "Horde Tauren/Orc service coverage",
+      "reason": "Exact current named adult male model, Horde Friendly icon/pin and established voice checked; full service/quest/literary research pending. See docs/research/boorand-and-korgeld-queue.md"
     }
   ]
 }

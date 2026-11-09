@@ -1,4 +1,6 @@
-# Next: Archaeologist Hollee and Sovik
+# Completed: Archaeologist Hollee and Sovik
+
+Completed profiles/recordings and resolved source checks: [Auberdine brushes and Orgrimmar promises](auberdine-brushes-and-orgrimmar-promises.md). Earlier pending statements below are historical checkpoints. Actual Hollee note remains unread.
 
 Current exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/hollee-sovik-research/npc-ID.json`.
 

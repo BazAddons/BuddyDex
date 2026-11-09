@@ -79,6 +79,46 @@
     "text": "Good work. People think running a port is easy until the conversation reaches pirates, missing cargo, and a shark called Bruuz. You kept your side of the arrangement. Time I kept mine. That is how useful business gets done.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore3413_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3413",
+    "spoken": "[warm] [upbeat] [sincere] You have become someone whose return I look forward to before I know whether you need anything from the shop. I like that arrangement. Come along, friend. Let us find out how the day goes. I have a confident expectation that I shall enjoy your company, and quite a bit of evidence behind it.",
+    "text": "You have become someone whose return I look forward to before I know whether you need anything from the shop. I like that arrangement. Come along, friend. Let us find out how the day goes. I have a confident expectation that I shall enjoy your company, and quite a bit of evidence behind it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3413_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3413",
+    "spoken": "[brisk] [cheerful] [salesman charm] Hello again! Tell me what you are looking for. If it is not in the shop, chances are good I can get it. Notice the wording. Confidence, with room for a useful question before anyone starts making guarantees. You would be amazed how much trouble that little pause can save.",
+    "text": "Hello again! Tell me what you are looking for. If it is not in the shop, chances are good I can get it. Notice the wording. Confidence, with room for a useful question before anyone starts making guarantees. You would be amazed how much trouble that little pause can save.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3413_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3413",
+    "spoken": "[amused] [conversational] I once agreed to an order before asking exactly what the customer needed. Found the part eventually, but there was an awkward stretch in between. These days the chances are good. Still confident. Much better wording. It gives me time to discover which particularly unusual thing we are actually discussing.",
+    "text": "I once agreed to an order before asking exactly what the customer needed. Found the part eventually, but there was an awkward stretch in between. These days the chances are good. Still confident. Much better wording. It gives me time to discover which particularly unusual thing we are actually discussing.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3413_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:3413",
+    "spoken": "[confident] [brisk] Going to Gnomeregan? Scooty and I worked on the Transpolyporter after we heard from Kernobee. Speak with Scooty in Booty Bay about the journey. He handles the transponder calibration there. A much more convenient arrangement than walking through Dun Morogh, provided you listen to the instructions before admiring the shortcut.",
+    "text": "Going to Gnomeregan? Scooty and I worked on the Transpolyporter after we heard from Kernobee. Speak with Scooty in Booty Bay about the journey. He handles the transponder calibration there. A much more convenient arrangement than walking through Dun Morogh, provided you listen to the instructions before admiring the shortcut.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3442_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
