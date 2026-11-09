@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 278,
-  "remaining_count": 3,
+  "completed_count": 279,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -2463,6 +2463,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 252800,
+      "name": "Aamelia Windfield",
+      "zone": "Zephras Isle",
+      "source": "Reviewed current both-friendly adult identity/model, all eight orchard/construct quest relations, full available primary progress/completion and Alvarion spoken history, installed gossip; no Scout sighting claimed",
+      "research_notes": "docs/research/aamelia-windfield.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 254082,
       "name": "Aarnor Galestrike",
       "zone": "Zephras Isle",
@@ -2575,13 +2585,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 252800,
-      "name": "Aamelia Windfield",
-      "zone": "Zephras Isle",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Aamelia Windfield with fifteen personal lines and four Eleven v4 signatures, researched through the full orchard story, Alvarion's account and construct side quest.
+
 - Complete Aarnor Galestrike with fifteen personal lines and four Eleven v4 signatures, researched through the full fire-totem chain and kept Horde-friendly only.
 
 - Complete Windshaper Boro with fifteen personal lines and four Eleven v4 signatures. Include his recall crystal and full three-stage earth initiation; preserve Horde-only friendly access.

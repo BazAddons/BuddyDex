@@ -511,5 +511,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current Horde-friendly/Alliance-hostile adult identity/model, full four-stage local fire chain and outside referral, published progress/completion and installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/aarnor-galestrike.md"
+  },
+  {
+    "npc_id": 252800,
+    "name": "Aamelia Windfield",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly adult identity/model, all eight orchard/construct quest relations, full available primary progress/completion and Alvarion spoken history, installed gossip; no Scout sighting claimed",
+    "research_notes": "docs/research/aamelia-windfield.md"
   }
 ]

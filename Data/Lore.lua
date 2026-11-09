@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Aamelia Windfield (252800), adult female High Order Skyborne, Windfield Orchard.
+    -- Display 137628 / race 95 sex 1; both-friendly. Alvarion's wife; full orchard chain 92679-92703.
+    -- Bandit extortion, household dust and family hint are primary; no invented birth or construct history.
+    -- docs/research/aamelia-windfield.md.
+    [252800] = {
+        quote = "If you're staying, make yourself useful. If you're hungry, say so. I'll find you something.",
+        likes = { "A harvest kept for her own household", "A hot meal after honest work", "People who stay when things get difficult" },
+        dislikes = { "Bandits calling theft their due", "Galestriders helping themselves to apples", "Promises offered in place of actual help" },
+        gossip = "They say the orchard's sweet fruit comes with a very sharp tongue. Aamelia generally lets the apples defend their own reputation.",
+        bio = "Aamelia and Alvarion Windfield tend a stormapple orchard in the Gustberry Lowlands. While he recovers in Valanaar, she faces bandits taking the harvest, hungry galestriders, and too much work to manage alone.",
+        backstory = "Bandits began taking the harvest years ago, demanding more each season. A light crop left the Windfields unable to pay. With the peacekeepers occupied by the cult, Alvarion sought hired help, only to be robbed and badly hurt by the fighter he trusted.",
+        secret = "She is preparing for a larger family, though Alvarion has not heard the news yet. Her request for flutterfly dust has a practical purpose she is not ready to explain.",
+        bestFriend = "You can stop being useful for a minute. Sit down, have something to eat, and tell me how you are. I can make time for a friend.",
+        favorite = { emote = "CHEER", hint = "A little stubborn encouragement can help her believe the day is still worth fighting for." },
+        lines = {
+            greet = { { "All right, I'm coming. If we're going to walk, you can tell me what you've been doing while we go. Preferably something better than promising to help and vanishing. Oh, don't look like that. If I thought you were that sort, I wouldn't be here beside you.", tone = "[blunt dry humor, guarded affection, practical warmth]" }, "There you are. Have you eaten, or is that another thing you've been too busy for?" },
+            idle = { { "A galestrider will help itself to your apples and then look offended when you object. Bandits have much the same manners, though at least the bird doesn't try to explain that taking your harvest is some ancient right you've failed to appreciate. Give me the bird's honesty any day.", tone = "[wry irritation, sharp matter-of-fact humor, restrained amusement]" }, "A hot meal makes a long day easier to argue with.", "Flutterfly dust has uses. No, that isn't an invitation to keep asking." },
+            befriended = { { "Fine. You're my friend. I thought I'd say it plainly before you started looking for another errand to earn the privilege. You've stayed long enough for me to know I like having you around. Come on, then. We can have a little company without putting a price on it.", tone = "[gruff sincere affection, slightly embarrassed, warm blunt honesty]" } },
+            poke = { "Yes? I haven't turned into a stormapple. You needn't check whether I'm ripe.", "Use your words. I promise they're less irritating than that." },
+            bagsFull = { { "Don't try to force everything in on top of the fruit. Sort it out properly. You've carried that lot this far; there's no sense bruising it now because you're too impatient to put the bag down. A little care at the end still counts as work.", tone = "[firm practical instruction, brisk concern, lightly teasing]" } },
+            quest = { "Done? Good. Actual help is a welcome change from hearing what someone might do." },
+            loot = { "Something we can use? Keep it safe, then. Useful things deserve a bit of care." },
+            rest = { "Sit down before you fall down. There's no prize for making a hard day worse." },
+            lowHealth = { "Watch yourself! Courage isn't much use if you forget to stay alive." },
+            hearth = { "Homeward. Some things are worth all the trouble of keeping them." },
+            levelUp = { "Stronger already? Good. Try to bring your good sense along with the muscle." },
+        },
+    },
+
     -- Aarnor Galestrike (254082), adult male Windshaper Skyborne trainer, Shen'dar Village.
     -- Display 137998 / race 96 sex 0; Horde friendly, Alliance hostile. Call of Fire 97243 referral.
     -- Olariaan conducts the later offerings/ritual, not Aarnor. Unfinished personal tune is original.

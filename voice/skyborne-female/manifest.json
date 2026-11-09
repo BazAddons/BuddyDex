@@ -39,6 +39,46 @@
     "text": "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
     "voice_id": "lQ79RJ1oEygPMVWvoXTH"
   },
+  "lore252800_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:252800",
+    "spoken": "[firm practical instruction, brisk concern, lightly teasing] Don't try to force everything in on top of the fruit. Sort it out properly. You've carried that lot this far; there's no sense bruising it now because you're too impatient to put the bag down. A little care at the end still counts as work.",
+    "text": "Don't try to force everything in on top of the fruit. Sort it out properly. You've carried that lot this far; there's no sense bruising it now because you're too impatient to put the bag down. A little care at the end still counts as work.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252800_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:252800",
+    "spoken": "[gruff sincere affection, slightly embarrassed, warm blunt honesty] Fine. You're my friend. I thought I'd say it plainly before you started looking for another errand to earn the privilege. You've stayed long enough for me to know I like having you around. Come on, then. We can have a little company without putting a price on it.",
+    "text": "Fine. You're my friend. I thought I'd say it plainly before you started looking for another errand to earn the privilege. You've stayed long enough for me to know I like having you around. Come on, then. We can have a little company without putting a price on it.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252800_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:252800",
+    "spoken": "[blunt dry humor, guarded affection, practical warmth] All right, I'm coming. If we're going to walk, you can tell me what you've been doing while we go. Preferably something better than promising to help and vanishing. Oh, don't look like that. If I thought you were that sort, I wouldn't be here beside you.",
+    "text": "All right, I'm coming. If we're going to walk, you can tell me what you've been doing while we go. Preferably something better than promising to help and vanishing. Oh, don't look like that. If I thought you were that sort, I wouldn't be here beside you.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252800_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:252800",
+    "spoken": "[wry irritation, sharp matter-of-fact humor, restrained amusement] A galestrider will help itself to your apples and then look offended when you object. Bandits have much the same manners, though at least the bird doesn't try to explain that taking your harvest is some ancient right you've failed to appreciate. Give me the bird's honesty any day.",
+    "text": "A galestrider will help itself to your apples and then look offended when you object. Bandits have much the same manners, though at least the bird doesn't try to explain that taking your harvest is some ancient right you've failed to appreciate. Give me the bird's honesty any day.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "lore254089_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
