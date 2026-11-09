@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 146,
-  "remaining_count": 71,
+  "completed_count": 149,
+  "remaining_count": 68,
   "completed": [
     {
       "npc_id": 54,
@@ -443,6 +443,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1319,
+      "name": "Bryan Cross",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1320,
       "name": "Seoman Griffith",
       "zone": "Stormwind City",
@@ -454,6 +463,24 @@
     {
       "npc_id": 1321,
       "name": "Alyssa Griffith",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1324,
+      "name": "Heinrich Stone",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1333,
+      "name": "Gerik Koen",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1444,13 +1471,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1319,
-      "name": "Bryan Cross",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 14722,
       "name": "Clavicus Knavingham",
       "zone": "Stormwind City",
@@ -1481,20 +1501,6 @@
     {
       "npc_id": 466,
       "name": "General Marcus Jonathan",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1333,
-      "name": "Gerik Koen",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1324,
-      "name": "Heinrich Stone",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

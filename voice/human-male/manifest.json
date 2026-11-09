@@ -479,6 +479,46 @@
     "text": "The dragon keeps acquiring rabbit ears. I could call it a rare breed, I suppose. But I would rather get the wings right. You will tell me honestly, won't you?",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1319_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1319",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. A walk with someone willing to share the experiment sounds good to me.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. A walk with someone willing to share the experiment sounds good to me.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1319_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1319",
+    "spoken": "[practical interest, firm advice, encouraging] Take a proper look at how it is made and how it suits you. A confident description is useful only if the gear earns it.",
+    "text": "Take a proper look at how it is made and how it suits you. A confident description is useful only if the gear earns it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1319_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1319",
+    "spoken": "[practical warmth, dry amusement, hopeful] There you are, my friend. Have you time for a walk? I have made another adjustment to the kite. A shield-shaped kite, yes. You may admire the ambition while we wait for the results.",
+    "text": "There you are, my friend. Have you time for a walk? I have made another adjustment to the kite. A shield-shaped kite, yes. You may admire the ambition while we wait for the results.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1319_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1319",
+    "spoken": "[wry self-awareness, pleased anticipation, confiding] I have chosen the colors for the tail. A splendid tail. Getting the rest of the kite to stay up comes first, I suppose. Still, it helps to have something cheerful to imagine while I make another adjustment.",
+    "text": "I have chosen the colors for the tail. A splendid tail. Getting the rest of the kite to stay up comes first, I suppose. Still, it helps to have something cheerful to imagine while I make another adjustment.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1320_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -517,6 +557,86 @@
     "source": "lore:1320",
     "spoken": "[mock dignity, fond amusement, relaxed] The ball is perfectly serviceable. Yes, I know how it looks. You should see how many good afternoons have gone into those scuffs.",
     "text": "The ball is perfectly serviceable. Yes, I know how it looks. You should see how many good afternoons have gone into those scuffs.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1324_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1324",
+    "spoken": "[restrained affection, pleased, warmly inviting] You came to bring me along. I am pleased, my friend. Come on. It will be good to have a little time to hear what you think.",
+    "text": "You came to bring me along. I am pleased, my friend. Come on. It will be good to have a little time to hear what you think.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1324_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1324",
+    "spoken": "[reserved warmth, dry humor, welcoming] Good to see you, my friend. Shall we take a walk? I could use another opinion about the horse. A wooden one. It is becoming a pony at a rather steady rate.",
+    "text": "Good to see you, my friend. Shall we take a walk? I could use another opinion about the horse. A wooden one. It is becoming a pony at a rather steady rate.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1324_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1324",
+    "spoken": "[dry amusement, patient self-mockery, confiding] One hoof is still off the table. I could call the horse lively. Another correction, and I may have to call it a very small pony. You see why I am considering the description carefully.",
+    "text": "One hoof is still off the table. I could call the horse lively. Another correction, and I may have to call it a very small pony. You see why I am considering the description carefully.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1324_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1324",
+    "spoken": "[measured encouragement, approving, thoughtful] There, you have made progress. Give yourself time to notice what worked before rushing into the next correction.",
+    "text": "There, you have made progress. Give yourself time to notice what worked before rushing into the next correction.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1333_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1333",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. It will be good to share a little of the day and hear what has pleased you lately.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. It will be good to share a little of the day and hear what has pleased you lately.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1333_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1333",
+    "spoken": "[practical interest, firm confidence, encouraging] Have a proper look at the workmanship. Does it suit what you mean to do? Good gear should give you an answer beyond the name on the rack.",
+    "text": "Have a proper look at the workmanship. Does it suit what you mean to do? Good gear should give you an answer beyond the name on the rack.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1333_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1333",
+    "spoken": "[solid warmth, restrained excitement, welcoming] Ah, my friend. Have you time for a walk? Titan has another bud. The violet, I mean. It is a little thing, but I have been waiting. You must come and see it when it opens.",
+    "text": "Ah, my friend. Have you time for a walk? Titan has another bud. The violet, I mean. It is a little thing, but I have been waiting. You must come and see it when it opens.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1333_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1333",
+    "spoken": "[fond amusement, quiet pride, confiding] I call the violet Titan. It has a second bud now. I am trying to wait patiently. Going back to look again doesn't make it open any sooner, but I keep finding a reason to pass the window.",
+    "text": "I call the violet Titan. It has a second bud now. I am trying to wait patiently. Going back to look again doesn't make it open any sooner, but I keep finding a reason to pass the window.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore1351_bagsFull_1.ogg": {

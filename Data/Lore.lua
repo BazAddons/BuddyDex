@@ -42,6 +42,84 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Old Town human male merchants: Bryan Cross 1319, shields at The
+    -- Silver Shield; Heinrich Stone 1324, blades at Honest Blades; Gerik
+    -- Koen 1333, Heavy Handed Weapons. Shared tested-gear/fixed-price
+    -- gossip; no verified personal Classic quest lists. Original kite,
+    -- carving and violet: docs/research/old-town-shields-and-weapons.md.
+    [1319] = {
+        quote = "Have a proper look before you decide. I am happy to explain the shield. The price can explain itself without a second performance.",
+        likes = { "A shield chosen with care", "A clear question before a purchase", "Enough breeze for an ambitious kite" },
+        dislikes = { "A settled price treated as a challenge", "A grand claim hiding poor workmanship", "Giving up on a harmless experiment" },
+        gossip = "Bryan is firm about his shields. His kite, also shaped like a shield, has yet to offer much proof that it belongs in the sky.",
+        bio = "Bryan Cross sells shields at The Silver Shield in Stormwind's Old Town. His selection includes bucklers and larger shields. He speaks confidently of tested gear and makes it plain that his prices are settled before the bargaining begins.",
+        backstory = "Bryan has made a kite in the shape of a shield. The idea pleased him enough to survive several disappointing trials. He is adjusting the bridle and considering the tail, with rather more confidence in the next attempt than the last result warrants.",
+        secret = "He has already chosen the colors for a splendid tail. First he ought to get the kite properly airborne. Imagining how it might look has helped him keep trying.",
+        bestFriend = "Come and watch the next attempt. If it flies, I want company to enjoy it. If it doesn't, we can have a good walk home anyway.",
+        favorite = { emote = "CHEER", hint = "Friendly encouragement may help an experiment that has not quite found its lift." },
+        lines = {
+            greet = { { "There you are, my friend. Have you time for a walk? I have made another adjustment to the kite. A shield-shaped kite, yes. You may admire the ambition while we wait for the results.", tone = "[practical warmth, dry amusement, hopeful]" }, "Good to see you. Have you finished your errands, or shall we look for a little open ground?" },
+            idle = { { "I have chosen the colors for the tail. A splendid tail. Getting the rest of the kite to stay up comes first, I suppose. Still, it helps to have something cheerful to imagine while I make another adjustment.", tone = "[wry self-awareness, pleased anticipation, confiding]" }, "A question about the workmanship is welcome. Another attempt at the same bargain is less interesting.", "There is room in an ordinary day for a small experiment." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. A walk with someone willing to share the experiment sounds good to me.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you thought of something about the tail?", "You have my attention. Ask plainly." },
+            gear = { { "Take a proper look at how it is made and how it suits you. A confident description is useful only if the gear earns it.", tone = "[practical interest, firm advice, encouraging]" } },
+            loot = { "Something useful? Give it a proper look before deciding." },
+            bagsFull = { "That pack may need some thought before it needs another thing." },
+            quest = { "Well done. An afternoon's work with something to show for it." },
+            zone = { "A new place to look around. Is there a little open ground nearby?" },
+            rest = { "A seat sounds good. I can explain what I changed this time." },
+            hearth = { "Back to the shop. The kite can wait for another suitable afternoon." },
+        },
+    },
+    [1324] = {
+        quote = "Take your time deciding. A question now is worth more than a complaint about the answer you guessed for yourself.",
+        likes = { "A blade suited to the person using it", "Wood grain worth working patiently", "Four little hooves reaching the table" },
+        dislikes = { "Haggling that outlasts the question", "A grand flourish covering poor work", "Taking off more than the carving needs" },
+        gossip = "Heinrich has made a little wooden horse. Getting all four feet to meet the table is proving the longest part of the work.",
+        bio = "Heinrich Stone sells blades at Honest Blades in Stormwind's Old Town. His stock includes swords and daggers. He takes a firm line on the quality of his gear and the price attached to it, leaving little room for a prolonged bargaining match.",
+        backstory = "In quiet moments Heinrich carves a small wooden horse. The shape is coming along, but the legs have required repeated attention. Each correction makes the horse a little shorter. He has begun to consider whether it was meant to be a pony.",
+        secret = "One hoof still hovers above the table. He is tempted to leave it and call the horse lively. That would be easier than admitting how much smaller the pony might become.",
+        bestFriend = "Have a look, friend. Does it seem lively, or uneven? Give me the honest answer. I should like your company while I decide what to try next.",
+        favorite = { emote = "GRIN", hint = "A little shared amusement suits a careful project with an increasingly small problem." },
+        lines = {
+            greet = { { "Good to see you, my friend. Shall we take a walk? I could use another opinion about the horse. A wooden one. It is becoming a pony at a rather steady rate.", tone = "[reserved warmth, dry humor, welcoming]" }, "There you are. Have you a little time to spare?" },
+            idle = { { "One hoof is still off the table. I could call the horse lively. Another correction, and I may have to call it a very small pony. You see why I am considering the description carefully.", tone = "[dry amusement, patient self-mockery, confiding]" }, "You can take your time choosing. The price will still be there when you have finished looking.", "It is worth noticing the grain before deciding where the next cut belongs." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. It will be good to have a little time to hear what you think.", tone = "[restrained affection, pleased, warmly inviting]" } },
+            poke = { "Yes? An opinion about the fourth hoof?", "I am listening. What would you like to know?" },
+            learned = { { "There, you have made progress. Give yourself time to notice what worked before rushing into the next correction.", tone = "[measured encouragement, approving, thoughtful]" } },
+            gear = { "Does it suit you? That is worth more than the flourish you can make with it." },
+            loot = { "An interesting find? Let us have a proper look." },
+            quest = { "Good work. Have a moment to consider what you learned from it." },
+            bagsFull = { "Perhaps we should consider what is still worth carrying." },
+            rest = { "A seat would be welcome. I can show you where the difficulty lies." },
+            hearth = { "Back to the shop. I shall consider that last hoof with fresh eyes." },
+        },
+    },
+    [1333] = {
+        quote = "Ask what you need to know before you choose. The right piece should earn your confidence in more than its description.",
+        likes = { "A clear question about the workmanship", "A violet putting out another bud", "Someone willing to admire a small thing" },
+        dislikes = { "A price argued over for entertainment", "A fine name standing in for quality", "Forgetting the small things need care" },
+        gossip = "Gerik sells substantial weapons. Ask about Titan, though, and he may proudly describe the progress of a very small violet.",
+        bio = "Gerik Koen sells two-handed weapons at Heavy Handed Weapons in Stormwind's Old Town. His selection spans swords, axes and hammers. He stands by the gear he offers and states his prices firmly, with little enthusiasm for haggling.",
+        backstory = "Gerik keeps a little potted violet near a window. He calls it Titan. Watching for a new leaf or bud has become a pleasant part of the day, and he is learning to give the plant care without checking on it quite so often.",
+        secret = "Titan has a second bud. Gerik is trying to wait patiently for it to open. He has already decided which friend he would like to show it to, though he pretends it is a small matter.",
+        bestFriend = "Come and have a look at Titan. There is another bud. I know it is a little thing, but I wanted someone here who would be pleased with me.",
+        favorite = { emote = "PRAISE", hint = "A kind word can recognize the care someone has given to a modest success." },
+        lines = {
+            greet = { { "Ah, my friend. Have you time for a walk? Titan has another bud. The violet, I mean. It is a little thing, but I have been waiting. You must come and see it when it opens.", tone = "[solid warmth, restrained excitement, welcoming]" }, "Good to see you. Shall we have a little time outside?" },
+            idle = { { "I call the violet Titan. It has a second bud now. I am trying to wait patiently. Going back to look again doesn't make it open any sooner, but I keep finding a reason to pass the window.", tone = "[fond amusement, quiet pride, confiding]" }, "A clear question is welcome. Haggling over the same settled price gets less interesting.", "There is pleasure in seeing a small thing doing well." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be good to share a little of the day and hear what has pleased you lately.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you come to hear about the new bud?", "You have my attention. Tell me." },
+            gear = { { "Have a proper look at the workmanship. Does it suit what you mean to do? Good gear should give you an answer beyond the name on the rack.", tone = "[practical interest, firm confidence, encouraging]" } },
+            loot = { "A useful find? Something worth taking care of, perhaps." },
+            quest = { "Well done. Have a moment to be pleased with what you have done." },
+            learned = { "A little progress, carefully made. That is worth noticing." },
+            zone = { "Somewhere new to look around. I wonder what grows well here." },
+            rest = { "A seat would be good. Tell me how your day has been." },
+            hearth = { "Back to the shop. I shall have a look at Titan when we get there." },
+        },
+    },
+
     -- Orphan Matron Nightingale 14450, human female, Cathedral Square:
     -- Children's Week, war's cost to children, Forever Heartweaver letter
     -- 92415/95161; she knows Jeremy's adoption, not the full Horde account.
