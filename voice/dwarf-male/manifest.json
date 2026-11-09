@@ -79,6 +79,46 @@
     "text": "Assignment completed. Good. Give a clear report of what happened.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore14842_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14842",
+    "spoken": "[jubilant, warm, sincerely pleased] A friend! Huzzah! No voucher needed. I'm delighted you came back.",
+    "text": "A friend! Huzzah! No voucher needed. I'm delighted you came back.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14842_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14842",
+    "spoken": "[booming showman warmth, softening into amused conversation] Step right up! A splendid outing awaits! All right, all right, I can say it more quietly.",
+    "text": "Step right up! A splendid outing awaits! All right, all right, I can say it more quietly.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14842_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14842",
+    "spoken": "[conspiratorial delight, fond amusement] That serious fellow was smiling. I saw it. A fine result for an afternoon's work.",
+    "text": "That serious fellow was smiling. I saw it. A fine result for an afternoon's work.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14842_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:14842",
+    "spoken": "[joyful public celebration, proud and booming] A splendid achievement! Let the company hear it! Huzzah!",
+    "text": "A splendid achievement! Let the company hear it! Huzzah!",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore2460_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

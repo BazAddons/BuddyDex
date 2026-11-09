@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 66,
-  "remaining_count": 151,
+  "completed_count": 68,
+  "remaining_count": 149,
   "completed": [
     {
       "npc_id": 54,
@@ -452,6 +452,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 6175,
+      "name": "John Turner",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6569,
       "name": "Gnoarn",
       "zone": "Ironforge",
@@ -594,6 +603,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 14842,
+      "name": "Melnan Darkstone",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     }
   ],
   "remaining": [
@@ -689,22 +707,8 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 6175,
-      "name": "John Turner",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 4081,
       "name": "Lomac Gearstrip",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14842,
-      "name": "Melnan Darkstone",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

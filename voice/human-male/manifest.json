@@ -1171,6 +1171,46 @@
     "spoken": "[excited] I know the flight path from here!",
     "text": "{zone}! I know the flight path from here."
   },
+  "lore6175_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6175",
+    "spoken": "[moved, warm, restrained gratitude] You remember to ask after me, too. That kindness means more than I know how to say.",
+    "text": "You remember to ask after me, too. That kindness means more than I know how to say.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6175_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6175",
+    "spoken": "[gentle, a little tired, warmly grateful] A little company would be welcome. Thank you for thinking to ask.",
+    "text": "A little company would be welcome. Thank you for thinking to ask.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6175_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6175",
+    "spoken": "[fond, hopeful, quiet sincerity] Stephanie should hear about the kind people here, as well as the bundles coming home.",
+    "text": "Stephanie should hear about the kind people here, as well as the bundles coming home.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore6175_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:6175",
+    "spoken": "[hopeful warmth, homesick affection] A letter? I hope there's news from Stephanie. It's good to hear an ordinary day went well.",
+    "text": "A letter? I hope there's news from Stephanie. It's good to hear an ordinary day went well.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore66_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

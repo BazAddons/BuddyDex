@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- John Turner 6175: human male, Commons wanderer; Stephanie's husband,
+    -- orphanage supply collector in Classic Tome of Divinity 1647/1648/1778.
+    -- Melnan 14842: dwarf male Darkmoon Faire barker, referral/voucher 7905.
+    -- No Darkmoon Island, precise event schedule or new donation mechanic.
+    -- docs/research/john-turner-and-melnan.md.
+    [6175] = {
+        quote = "A little linen can become a shirt. A moment of kindness can make a long day easier. Please don't think either is too small to matter.",
+        likes = { "Supplies that can be put to good use", "News from Stephanie in Stormwind", "Someone stopping with a kind expression" },
+        dislikes = { "Useful cloth dismissed as worthless", "A kind offer made only for praise", "Being too busy to notice another person" },
+        gossip = "John raises his voice for the orphanage, then apologizes when someone stops to listen. He seems more at ease asking how they're doing.",
+        bio = "John Turner walks Ironforge gathering supplies for the Stormwind orphanage he runs with his wife Stephanie. In the Tome of Divinity, he needs linen for children's clothes. Helping him becomes a lesson in charity for a paladin.",
+        backstory = "Many children in their care lost parents to the Scourge. John travels to Ironforge to seek supplies while Stephanie makes clothes at home. A slow collection means more time away from the wife he speaks of with such affection.",
+        secret = "When he writes to Stephanie, he tries to include one small kindness from the day alongside the supply news. He wants her to know there are good people on this end of the journey too.",
+        bestFriend = "I could tell Stephanie about you for quite a while. Today, though, I'd like to hear how you're doing. I mean really.",
+        favorite = { emote = "SMILE", hint = "A kind expression from someone who has stopped to listen can brighten a long collection day." },
+        lines = {
+            greet = { { "A little company would be welcome. Thank you for thinking to ask.", tone = "[gentle, a little tired, warmly grateful]" }, "Yes, I'm ready. How have things been with you?" },
+            idle = { { "Stephanie should hear about the kind people here, as well as the bundles coming home.", tone = "[fond, hopeful, quiet sincerity]" }, "A scrap of cloth can still be useful to the right hands.", "Sometimes someone only needs you to stop and listen." },
+            befriended = { { "You remember to ask after me, too. That kindness means more than I know how to say.", tone = "[moved, warm, restrained gratitude]" } },
+            poke = { "Oh! Sorry, I was thinking of home.", "Yes? I'm listening. Take your time." },
+            mail = { { "A letter? I hope there's news from Stephanie. It's good to hear an ordinary day went well.", tone = "[hopeful warmth, homesick affection]" } },
+            loot = { "Perhaps there's something useful there. Even plain things can help someone." },
+            quest = { "You took the time to help. Someone will be glad you did." },
+            rest = { "A short rest sounds wise. We can talk a little, if you'd like." },
+            levelUp = { "I'm glad to see you doing well. Be safe in whatever comes next." },
+            combatEnd = { "Everyone safe? Good. Please, let us be sure before we go on." },
+            hearth = { "Back to the city. Perhaps there'll be news waiting." },
+        },
+    },
+    [14842] = {
+        quote = "There is room for a little wonder in a sensible day! Even a very sensible day. Especially one of those, if you ask me!",
+        likes = { "A crowd that answers his call", "Grown-ups remembering how to have fun", "A cheer from the back of the gathering" },
+        dislikes = { "Calling delight a waste of time", "An invitation mistaken for a command", "An audience that cannot hear the news" },
+        gossip = "Melnan invites everyone to marvel at the Faire. His favorite spectators may be the serious folk who insist they only came to look.",
+        bio = "Melnan Darkstone is the Darkmoon Faire barker in Ironforge's Commons. His Classic invitation sends visitors to Gelvas Grimegate with a free-ticket voucher, pointing them toward the traveling carnival outside Goldshire.",
+        backstory = "Calling out invitations taught him that not everyone admits to wanting an afternoon of fun. He learned to leave room in his grand announcements for a hesitant listener, especially one pretending to be far too sensible for it all.",
+        secret = "His favorite moment is a solemn visitor trying not to smile and finally giving in. He treats that little victory as seriously as the grandest spectacle he can announce.",
+        bestFriend = "You needn't be an audience with me. We can sit quietly awhile. I'll save the grand announcement for your arrival tomorrow.",
+        favorite = { emote = "CHEER", hint = "A lively answer lets a barker know his invitation has reached someone." },
+        lines = {
+            greet = { { "Step right up! A splendid outing awaits! All right, all right, I can say it more quietly.", tone = "[booming showman warmth, softening into amused conversation]" }, "Ready! What shall we find to wonder at today?" },
+            idle = { { "That serious fellow was smiling. I saw it. A fine result for an afternoon's work.", tone = "[conspiratorial delight, fond amusement]" }, "A little wonder does a sensible person no harm.", "An invitation should leave you free to say yes in your own time." },
+            befriended = { { "A friend! Huzzah! No voucher needed. I'm delighted you came back.", tone = "[jubilant, warm, sincerely pleased]" } },
+            poke = { "Is the audience ready? Oh! Just you. Even better.", "Yes? Have I been making too much of the announcement again?" },
+            levelUp = { { "A splendid achievement! Let the company hear it! Huzzah!", tone = "[joyful public celebration, proud and booming]" } },
+            quest = { "An errand complete! There may yet be time for some enjoyment." },
+            rest = { "Even the grandest voice benefits from a quiet bench." },
+            group = { "More company! Come along, there's room for another." },
+            loot = { "An interesting discovery! Worth a moment's admiration, surely?" },
+            combatEnd = { "Everyone here? Good! A safe return deserves a cheer." },
+            hearth = { "Back to Ironforge, and another chance to spread the word." },
+        },
+    },
+
     -- Buckler 8671 male dwarf and Redmuse 8720 female dwarf: auctioneers
     -- in the Commons, Ironforge, alongside Lympkin 9859. No personal quest
     -- chain or family ties established. Original private character hooks.
