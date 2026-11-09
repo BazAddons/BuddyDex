@@ -359,6 +359,46 @@
     "text": "Someone once asked me for a blue that felt like the rain had finally stopped. The dye was ordinary enough. The name stayed with me. Next time they came in, I asked about the weather. They laughed, and told me the week had improved. A useful thing to know.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3366_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3366",
+    "spoken": "[warm] [sincere] You have become someone whose company I enjoy before we discuss anything that needs making. Come along, friend. Tell me what you would choose to do with an afternoon of your own. You need not persuade me that it serves an important purpose. I am pleased to hear what would make you grin.",
+    "text": "You have become someone whose company I enjoy before we discuss anything that needs making. Come along, friend. Tell me what you would choose to do with an afternoon of your own. You need not persuade me that it serves an important purpose. I am pleased to hear what would make you grin.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3366_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3366",
+    "spoken": "[warm] [steady] [gently amused] Good to see you. What are you planning to make? Something for the next journey, or something you would enjoy working on for its own sake? There is room for both among the supplies. I am always pleased when someone gives the leather-ball pattern a little attention beside the more serious purchases.",
+    "text": "Good to see you. What are you planning to make? Something for the next journey, or something you would enjoy working on for its own sake? There is room for both among the supplies. I am always pleased when someone gives the leather-ball pattern a little attention beside the more serious purchases.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3366_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3366",
+    "spoken": "[thoughtful] [wry] A customer once laughed at the leather-ball pattern while buying supplies for armor. I thought the pattern had already done something worthwhile. There is skill in work that people enjoy. I like hearing what someone would make if they allowed themselves to choose a project simply because it looked like fun.",
+    "text": "A customer once laughed at the leather-ball pattern while buying supplies for armor. I thought the pattern had already done something worthwhile. There is skill in work that people enjoy. I like hearing what someone would make if they allowed themselves to choose a project simply because it looked like fun.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3366_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3366",
+    "spoken": "[encouraging] [matter-of-fact] Read the pattern and give the work its proper attention. Whether the finished piece is meant for a difficult journey or a little amusement, someone will appreciate the care. I sell patterns for armor kits and for a leather ball. I am pleased when both sorts of project find their way into capable hands.",
+    "text": "Read the pattern and give the work its proper attention. Whether the finished piece is meant for a difficult journey or a little amusement, someone will appreciate the care. I sell patterns for armor kits and for a leather ball. I am pleased when both sorts of project find their way into capable hands.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3389_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

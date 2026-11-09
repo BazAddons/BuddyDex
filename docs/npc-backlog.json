@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 394,
+  "completed_count": 396,
   "remaining_count": 4,
   "completed": [
     {
@@ -1914,6 +1914,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3366,
+      "name": "Tamar",
+      "zone": "Orgrimmar",
+      "source": "Exact named adult model/current Friendly access checked; all own relations,161 Bink teaching rows and19 Tamar stock rows researched. Full Classic linked chains, relevant published Forever/installed bodies and actual readable text checked; explicit literary/era limits, no Scout sighting claimed",
+      "research_notes": "docs/research/ironforge-footnotes-and-orgrimmar-play.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3389,
       "name": "Regthar Deathgate",
       "zone": "The Barrens",
@@ -2345,6 +2355,16 @@
       "name": "Sognar Cliffbeard",
       "zone": "Ironforge",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5144,
+      "name": "Bink",
+      "zone": "Ironforge",
+      "source": "Exact named adult model/current Friendly access checked; all own relations,161 Bink teaching rows and19 Tamar stock rows researched. Full Classic linked chains, relevant published Forever/installed bodies and actual readable text checked; explicit literary/era limits, no Scout sighting claimed",
+      "research_notes": "docs/research/ironforge-footnotes-and-orgrimmar-play.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3736,16 +3756,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 5144,
-      "name": "Bink",
-      "zone": "Ironforge",
+      "npc_id": 5811,
+      "name": "Kamari",
+      "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 3366,
-      "name": "Tamar",
-      "zone": "Orgrimmar",
+      "npc_id": 6300,
+      "name": "Elisa Steelhand",
+      "zone": "Darkshore",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

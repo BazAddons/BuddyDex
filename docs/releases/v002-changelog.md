@@ -2,6 +2,8 @@
 
 ## More friends across Azeroth
 
+- Add Bink and Tamar: full Gnome/Orc profiles, fifteen personal lines and four approved v4 signatures each; retain Bink's actual gizmonitor invention and Tamar's current leatherworking patterns.
+
 - Add Cairne Bloodhoof and Magatha Grimtotem: full Tauren leader profiles, fifteen personal lines and four approved v4 signatures each; preserve Cairne's protection of Mulgore and Magatha's guarded counsel without importing later retail events.
 
 - Add Nissa Firestone and Hula'mahi: full female Dwarf/male Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Nissa's admiration and referrals, and Hula'mahi's actual supplier role.
@@ -52,7 +54,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **394 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **396 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

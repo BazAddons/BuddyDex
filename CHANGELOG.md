@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Bink and Tamar: full Gnome/Orc profiles, fifteen personal lines and four approved v4 signatures each; retain Bink's actual gizmonitor invention and Tamar's current leatherworking patterns.
+
 - Add Cairne Bloodhoof and Magatha Grimtotem: full Tauren leader profiles, fifteen personal lines and four approved v4 signatures each; preserve Cairne's protection of Mulgore and Magatha's guarded counsel without importing later retail events.
 
 - Add Nissa Firestone and Hula'mahi: full female Dwarf/male Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Nissa's admiration and referrals, and Hula'mahi's actual supplier role.

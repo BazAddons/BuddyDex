@@ -2149,6 +2149,46 @@
     "text": "There! Once the basics hold together, you can try something gloriously unnecessary.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore5144_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5144",
+    "spoken": "[warm] [sincere] [lightly amused] You have become someone I am happy to see before I have thought of anything to teach. Come along, friend. Tell me what you have been doing. I shall listen to the account before adding any footnotes. You may smile if I get ahead of myself. It helps me remember where we began.",
+    "text": "You have become someone I am happy to see before I have thought of anything to teach. Come along, friend. Tell me what you have been doing. I shall listen to the account before adding any footnotes. You may smile if I get ahead of myself. It helps me remember where we began.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5144_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5144",
+    "spoken": "[bright] [eager] [playful] There you are! How has your day been? I am asking that first, before I begin explaining something you may not have asked about. It seemed a useful improvement. I wrote a note to remind myself, and I am trying very hard to let that note remain a single sentence.",
+    "text": "There you are! How has your day been? I am asking that first, before I begin explaining something you may not have asked about. It seemed a useful improvement. I wrote a note to remind myself, and I am trying very hard to let that note remain a single sentence.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5144_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5144",
+    "spoken": "[animated] [self-deprecating] I wrote myself a reminder to keep an explanation short. Then I thought of an important exception and put it underneath. There were several other exceptions. By the time I finished, the reminder needed an explanation of its own. A useful example, although it has not yet solved the original problem.",
+    "text": "I wrote myself a reminder to keep an explanation short. Then I thought of an important exception and put it underneath. There were several other exceptions. By the time I finished, the reminder needed an explanation of its own. A useful example, although it has not yet solved the original problem.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5144_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5144",
+    "spoken": "[earnest] [thoughtful] Understanding magic takes care, resolve, and a great deal of knowledge. I built the gizmonitor to help keep that knowledge within reach. When we fled Gnomeregan, I left it behind in a chest. I worry about its power supply. There is much more at stake than a collection of impressive sparks.",
+    "text": "Understanding magic takes care, resolve, and a great deal of knowledge. I built the gizmonitor to help keep that knowledge within reach. When we fled Gnomeregan, I left it behind in a chest. I worry about its power supply. There is much more at stake than a collection of impressive sparks.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore5177_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

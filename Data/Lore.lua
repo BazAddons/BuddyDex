@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bink <Mage Trainer>, Hall of Mysteries, Ironforge,5144/3108.
+    -- Adult female Gnome, current Alliance-friendly.1879/1880 establish
+    -- her self-correcting enthusiasm and own gizmonitor lost during flight.
+    -- A sprawling reminder to be brief is original; no Dink kinship claim.
+    -- Research: docs/research/ironforge-footnotes-and-orgrimmar-play.md.
+    [5144] = {
+        quote = "I can give you the short explanation. I have written a reminder to keep it short, with only a few essential notes beneath it.",
+        likes = { "A discovery explained with enthusiasm", "A student asking how the magic works", "A friend enjoying her corrections" },
+        dislikes = { "Careless magic admired only for its sparks", "Knowledge lost before it can be studied", "Being rushed past an important detail" },
+        gossip = "Bink's short explanations sometimes acquire footnotes while she is speaking. She does try to catch herself before beginning another subject.",
+        bio = "Bink teaches mages in Ironforge's Hall of Mysteries. She built a gizmonitor to store magical knowledge, then left it behind while fleeing Gnomeregan. Her concern for its dwindling power shows how much her studies depend on what it holds.",
+        backstory = "Bink wrote herself a reminder to keep an explanation brief. Then she added a note about when more detail might help, followed by several exceptions. The reminder has become a rather good example of the habit it was meant to improve.",
+        secret = "Her newest note says to ask a friend how their day went. She is resisting the urge to annotate it. So far, it remains a very promising single sentence.",
+        bestFriend = "Come along. Tell me how your day went. I would like to hear it before deciding whether either of us needs an explanation.",
+        favorite = { emote = "SMILE", hint = "A good-humored response helps an enthusiastic teacher enjoy catching herself getting ahead of things." },
+        lines = {
+            greet = { { "There you are! How has your day been? I am asking that first, before I begin explaining something you may not have asked about. It seemed a useful improvement. I wrote a note to remind myself, and I am trying very hard to let that note remain a single sentence.", tone = "[bright] [eager] [playful]" },
+                "Welcome back! Have you brought a question, or shall I remember to ask about your day first?" },
+            idle = { { "I wrote myself a reminder to keep an explanation short. Then I thought of an important exception and put it underneath. There were several other exceptions. By the time I finished, the reminder needed an explanation of its own. A useful example, although it has not yet solved the original problem.", tone = "[animated] [self-deprecating]" },
+                "One important detail can lead to another. I do try to notice when we have changed the subject.",
+                "I made the gizmonitor to hold knowledge. I did not expect to become quite so dependent on having it close at hand." },
+            befriended = { { "You have become someone I am happy to see before I have thought of anything to teach. Come along, friend. Tell me what you have been doing. I shall listen to the account before adding any footnotes. You may smile if I get ahead of myself. It helps me remember where we began.", tone = "[warm] [sincere] [lightly amused]" } },
+            poke = { "Yes? Have I reached an exception already?", "I am listening. That was the purpose of the first question, after all." },
+            learned = { { "Understanding magic takes care, resolve, and a great deal of knowledge. I built the gizmonitor to help keep that knowledge within reach. When we fled Gnomeregan, I left it behind in a chest. I worry about its power supply. There is much more at stake than a collection of impressive sparks.", tone = "[earnest] [thoughtful]" } },
+            quest = { "If a teacher sends you toward another mage, take the chance to learn. And listen to the actual request before I add another explanation." },
+            loot = { "Something worth studying? Remember where you found it before becoming absorbed in what it might mean." },
+            bagsFull = { "Leave a little room. An important discovery is awkward to admire when you cannot bring it along." },
+            rest = { "We can enjoy a conversation without preparing notes. I am willing to try." },
+            laughAlong = { "Yes, the reminder became longer than the explanation. I see the difficulty." },
+            hearth = { "Back to Ironforge. I wonder whether I can finish a short explanation before we reach the Hall of Mysteries." },
+        },
+    },
+
+    -- Tamar <Leatherworking Supplies>, Kodohide Leatherworkers,3366/1388.
+    -- Adult male Orc, current Horde-friendly. Nineteen current stock rows,
+    -- including Heavy Leather Ball and two Forever armor-kit patterns.
+    -- His appreciation of making things for fun is original; not a trainer.
+    -- Research: docs/research/ironforge-footnotes-and-orgrimmar-play.md.
+    [3366] = {
+        quote = "There is fine work in making something useful. There is fine work in making something people enjoy, too. Give the leather ball its share of the credit.",
+        likes = { "Work made carefully for someone to enjoy", "A useful pattern getting a fair look", "A serious customer leaving with a grin" },
+        dislikes = { "Calling a playful project wasted effort", "A pattern dismissed before it is read", "Forgetting that the work can be enjoyable" },
+        gossip = "Tamar gives the leather-ball pattern a fair place beside the armor supplies. He seems pleased when a serious customer asks about it.",
+        bio = "Tamar sells leatherworking supplies at Kodohide Leatherworkers in Orgrimmar. Thread, dyes, salt and patterns serve the working craftsperson. Among the practical purchases is a pattern for a heavy leather ball, which he thinks deserves attention too.",
+        backstory = "A customer once laughed at the ball pattern while shopping for armor supplies. Tamar thought the little project had already done something worthwhile. Since then he has enjoyed seeing what a person chooses to make simply for pleasure.",
+        secret = "He likes the moment a very serious customer tries to explain a playful purchase. No explanation is needed, but he enjoys watching their expression soften.",
+        bestFriend = "Stay a while. Tell me what you would make just because you would enjoy it. I like hearing that part of a friend's plans.",
+        favorite = { emote = "GRIN", hint = "A shared flash of amusement suits a supplier who sees value in a playful project." },
+        lines = {
+            greet = { { "Good to see you. What are you planning to make? Something for the next journey, or something you would enjoy working on for its own sake? There is room for both among the supplies. I am always pleased when someone gives the leather-ball pattern a little attention beside the more serious purchases.", tone = "[warm] [steady] [gently amused]" },
+                "Welcome back. Have you a practical job in mind, or a project that simply pleases you?" },
+            idle = { { "A customer once laughed at the leather-ball pattern while buying supplies for armor. I thought the pattern had already done something worthwhile. There is skill in work that people enjoy. I like hearing what someone would make if they allowed themselves to choose a project simply because it looked like fun.", tone = "[thoughtful] [wry]" },
+                "A playful project still deserves care. Enjoying the work is a good reason to do it well.",
+                "Some customers explain why they need a little amusement. I am already willing to believe them." },
+            befriended = { { "You have become someone whose company I enjoy before we discuss anything that needs making. Come along, friend. Tell me what you would choose to do with an afternoon of your own. You need not persuade me that it serves an important purpose. I am pleased to hear what would make you grin.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you thought of a project you would enjoy?", "I am listening. You need not make the request sound more serious." },
+            learned = { { "Read the pattern and give the work its proper attention. Whether the finished piece is meant for a difficult journey or a little amusement, someone will appreciate the care. I sell patterns for armor kits and for a leather ball. I am pleased when both sorts of project find their way into capable hands.", tone = "[encouraging] [matter-of-fact]" } },
+            loot = { "Something you can use? Perhaps it will help with a project you have been looking forward to." },
+            bagsFull = { "Make room for what you intend to work on. Even a modest project needs somewhere to put the supplies." },
+            rest = { "We can talk about something you enjoy without turning it into another job." },
+            laughAlong = { "There. A good result, and we have not even gathered the supplies yet." },
+            quest = { "Do the work with care. I hope there will be time afterward for something that pleases you as well." },
+            hearth = { "Back to Orgrimmar. Perhaps someone has chosen a small, enjoyable project today." },
+        },
+    },
+
     -- Cairne Bloodhoof <High Chieftain>, Thunder Bluff,3057/4307.
     -- Adult male Tauren, current Horde-friendly World Boss. WC3 caravan,
     -- rites, Winter Veil, hoofprint and Forever Longwalkers researched.

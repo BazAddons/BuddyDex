@@ -1,0 +1,10 @@
+# Next: Kamari and Elisa Steelhand
+
+Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External current API cache `C:/Users/brett/BuddyDex-builds/kamari-elisa-research/npc-ID.json`.
+
+- [Kamari5811](https://forever.warcraftdb.com/api/data/node/npc/5811), Journeyman Leatherworker, Trainer, named adult female Orc humanoid. Current Horde Friendly icon, Orgrimmar/map1454 pin63.1,45.3. Display4350 -> installed DB2 race2/sex1, runtime `orc-female`; named/adult/voice checks passed, no profile. Read actual teaching scope, own gossip/quests and shop relationships before inheriting Karolek's mastery or inventing a relation to Tamar. Current title differs from modern Apprentice wording; current evidence takes precedence.
+- [Elisa Steelhand6300](https://forever.warcraftdb.com/api/data/node/npc/6300), Blacksmithing Supplies, Repair/Vendor, named adult female Dwarf humanoid. Current Alliance Friendly icon, Darkshore/map1439 pin38.1,41.2, Auberdine vicinity. Display5022 -> race3/sex1, runtime `dwarf-female`; named/adult/voice checks passed, no profile. Full stock/repair/gossip/quest/literary checks remain. Do not invent a master smith biography from supplier title, family from surname or later Cataclysm fate.
+
+Both exact IDs present as unresearched external candidates in wider1510-name catalog. All own current starts/ends/teaches/sells responses, installed exact gossip/QuestText, full relevant quest descriptions/progress/completions/relationships, actual readable pages and relevant personal book/comic context remain to inspect. Keep ordinary named/adult/reaction/non-attackability gates; no profession/class/race prerequisite for friendship.
+
+Then ten fields/fifteen personal lines/four approved Eleven v4 signatures each, layout/audio/runtime/fresh-session validation, install/separate development v002 ZIP/backlog/changelog and commit/push. CF deferred and original handed-off candidate preserved. Wider goal and earlier explicit unused/unavailable-source leads remain active.

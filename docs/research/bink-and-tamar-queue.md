@@ -1,4 +1,6 @@
-# Next: Bink and Tamar
+# Completed: Bink and Tamar
+
+Completed source/writing/validation: [Ironforge footnotes and Orgrimmar play](ironforge-footnotes-and-orgrimmar-play.md). Earlier pending statements preserve historical checkpoints; explicit unused/unavailable-source leads remain open.
 
 Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External current API cache `C:/Users/brett/BuddyDex-builds/bink-tamar-research/npc-ID.json`.
 

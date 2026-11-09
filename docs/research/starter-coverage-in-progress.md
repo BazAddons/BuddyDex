@@ -456,3 +456,10 @@ Next individually checked [Cairne and Magatha](cairne-and-magatha-queue.md), adu
 394 completed authored profiles. Adult male/female Tauren Horde leaders, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance201/Horde102/unverified98, seven shared entries overlap. Sources/validation: [Thunder Bluff shelter and watchful silence](thunder-bluff-shelter-and-watchful-silence.md). World Boss classification tested for Cairne without an eligibility exception; Magatha's Arikara claim remains distinct from proven fact. Unavailable literary/readable and unused chain leads stay explicit.
 
 Next individually checked [Bink and Tamar](bink-and-tamar-queue.md), adult female Gnome/male Orc, not authored or counted complete. Bink's current node is Alliance Friendly despite older catalog Neutral; Dun Morogh parent-map pin is not a proven move out of Ironforge. Wider1510-name pool and earlier unavailable-source leads remain active.
+
+
+## 2026-11-09: Bink and Tamar
+
+396 completed authored profiles. Adult female Gnome/male Orc, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance202/Horde103/unverified98, seven shared entries overlap. Sources/validation: [Ironforge footnotes and Orgrimmar play](ironforge-footnotes-and-orgrimmar-play.md). Bink current Alliance Friendly replaces older Neutral listing for coverage; normal live gates remain. Her own invention stays distinct from Tabetha/Andromath/Wynne's work, and Tamar's supplies from nearby trainers.
+
+Next individually checked [Kamari and Elisa](kamari-and-elisa-queue.md), adult female Orc/Dwarf craft services, not authored or counted complete. Wider1510-name pool and earlier explicit unused/unavailable-source leads remain active.
