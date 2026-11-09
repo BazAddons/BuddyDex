@@ -159,6 +159,46 @@
     "text": "New streets, new corners. Give me a moment to hear what this place sounds like.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore5512_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5512",
+    "spoken": "[sincere affection, quietly delighted, inviting] You came to take me along. Aye, I am pleased, my friend. Let us have some time nobody has to put a price on.",
+    "text": "You came to take me along. Aye, I am pleased, my friend. Let us have some time nobody has to put a price on.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5512_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5512",
+    "spoken": "[brisk warmth, wry amusement, welcoming] There you are, friend. A walk would be welcome. Give me a moment. I am deciding whether an ordinary afternoon deserves a splendid ribbon.",
+    "text": "There you are, friend. A walk would be welcome. Give me a moment. I am deciding whether an ordinary afternoon deserves a splendid ribbon.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5512_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5512",
+    "spoken": "[playfully self-mocking, pleased, confiding] I bought the ribbon because I liked it. No useful purpose established. I am considering wearing it anyway. A startling lapse in judgment, isn't it?",
+    "text": "I bought the ribbon because I liked it. No useful purpose established. I am considering wearing it anyway. A startling lapse in judgment, isn't it?",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5512_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5512",
+    "spoken": "[practical interest, dry humor, encouraging] A useful find? Good. Take a proper look before someone tells you a grand story about what it must be worth.",
+    "text": "A useful find? Good. Take a proper look before someone tells you a grand story about what it must be worth.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore7292_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

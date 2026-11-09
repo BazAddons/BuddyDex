@@ -439,6 +439,46 @@
     "text": "Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore5510_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5510",
+    "spoken": "[reserved affection, pleased, warmly inviting] You came to bring me along. Aye, I am glad, my friend. Let us find somewhere with a good view and no hurry to leave it.",
+    "text": "You came to bring me along. Aye, I am glad, my friend. Let us find somewhere with a good view and no hurry to leave it.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5510_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5510",
+    "spoken": "[gruff warmth, dry amusement, welcoming] Ah, my friend. A walk sounds good. Keep an ear open. The Foreman may have something to say about our leaving. A bird, before you ask.",
+    "text": "Ah, my friend. A walk sounds good. Keep an ear open. The Foreman may have something to say about our leaving. A bird, before you ask.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5510_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5510",
+    "spoken": "[dry humor, fondness, quietly playful] I call the bird Foreman. Always above the work, with a very loud opinion about it. I am rather fond of him. Don't tell him; he'll expect a raise.",
+    "text": "I call the bird Foreman. Always above the work, with a very loud opinion about it. I am rather fond of him. Don't tell him; he'll expect a raise.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5510_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:5510",
+    "spoken": "[quiet curiosity, amused, attentive] Different roofs. I wonder who supervises this street. Give it a quiet moment; we may hear an opinion.",
+    "text": "Different roofs. I wonder who supervises this street. Give it a quiet moment; we may hear an opinion.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore5511_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Dwarven District: Kaita Deepforge 5512, dwarf female Blacksmithing
+    -- Supplies; Thulman Flintcrag 5510, dwarf male Guns Vendor. Both warn
+    -- about inflated import fees, crediting the gnomes' tram from Ironforge.
+    -- No verified personal quest chains. Original ribbon and rooftop-bird
+    -- hooks documented in docs/research/kaita-and-thulman.md. No Vision
+    -- counterpart or later political dialogue imported.
+    [5512] = {
+        quote = "Ask what the extra charge is for. A grand explanation is no substitute for a good answer.",
+        likes = { "Sharp eyes and a fair question", "The gnomes' useful work on the tram", "A ribbon too bright to be practical" },
+        dislikes = { "A fee with more name than reason", "Taking a buyer's uncertainty for consent", "A simple need wrapped in a costly story" },
+        gossip = "Kaita can be very sensible about a purchase. Ask about the bright ribbon tucked among her things, and she finds sense a less urgent consideration.",
+        bio = "Kaita Deepforge supplies blacksmiths in Stormwind's Dwarven District. She sells tools and materials and offers repairs. She credits the gnomes' tram with making Ironforge goods easier to transport, and tells buyers to question inflated import fees.",
+        backstory = "Helping people find practical supplies has given Kaita a clear eye for what a purchase is meant to do. She also has a bright ribbon she bought simply because she liked it. She is still considering where to put the thing.",
+        secret = "She has tried the ribbon against her apron several times. It is a bit splendid for an ordinary workday. Part of her thinks that is the best reason to wear it.",
+        bestFriend = "Here, what do you think of this color? Give me your honest opinion. I can consider one cheerful bit of extravagance with a friend beside me.",
+        favorite = { emote = "PRAISE", hint = "A kind word about her judgment may be worth more than another attempt at bargaining." },
+        lines = {
+            greet = { { "There you are, friend. A walk would be welcome. Give me a moment. I am deciding whether an ordinary afternoon deserves a splendid ribbon.", tone = "[brisk warmth, wry amusement, welcoming]" }, "Good to see you. Have you finished your errands, or shall I hear what they tried to charge you?" },
+            idle = { { "I bought the ribbon because I liked it. No useful purpose established. I am considering wearing it anyway. A startling lapse in judgment, isn't it?", tone = "[playfully self-mocking, pleased, confiding]" }, "The tram makes a useful difference to getting goods here from Ironforge.", "A fair question deserves a plain answer, especially when someone is asking for your money." },
+            befriended = { { "You came to take me along. Aye, I am pleased, my friend. Let us have some time nobody has to put a price on.", tone = "[sincere affection, quietly delighted, inviting]" } },
+            poke = { "Aye? Have you a question, or are we reconsidering the ribbon?", "You have my attention. What do you need?" },
+            loot = { { "A useful find? Good. Take a proper look before someone tells you a grand story about what it must be worth.", tone = "[practical interest, dry humor, encouraging]" } },
+            bagsFull = { "That pack may need a little judgment before it needs another thing." },
+            gear = { "Does it serve you well? Then there is something to be pleased about." },
+            quest = { "Useful work done. Someone will be glad of it." },
+            zone = { "A new place to look around. Let us see what people make here." },
+            rest = { "A seat sounds good. You can give me your opinion on a color." },
+            hearth = { "Back to the supplies. Perhaps the ribbon can improve an ordinary workday after all." },
+        },
+    },
+    [5510] = {
+        quote = "A price should come with a plain explanation. If all you are buying is a fine story, I hope it is at least an amusing one.",
+        likes = { "A price explained without a performance", "A quiet perch to watch the city birds", "Company patient enough to hear a song" },
+        dislikes = { "A small fee dressed in a grand story", "Calling a plain purchase inferior", "A peaceful moment spoiled for show" },
+        gossip = "Thulman has plenty to say about import fees. On a quiet walk he may instead point out the small, very loud foreman he has appointed to a rooftop.",
+        bio = "Thulman Flintcrag sells guns and ammunition in Stormwind's Dwarven District. He knows the tram makes moving goods from Ironforge easier than some sellers suggest. His advice is to question an import fee before accepting the story attached to it.",
+        backstory = "A quieter interest has grown out of watching the roofs above the busy street. Thulman likes to notice which birds return to a perch. One small, noisy visitor has earned a private name for seeming to supervise the whole neighborhood.",
+        secret = "He calls the bird Foreman. It has an opinion on everything, usually delivered from somewhere nobody can answer back. He is rather fond of its management style.",
+        bestFriend = "Sit here a moment. If the Foreman comes back, you'll hear about it before you see him. I should like someone to share the joke with.",
+        favorite = { emote = "SMILE", hint = "A friendly smile is good company for a quiet, slightly ridiculous observation." },
+        lines = {
+            greet = { { "Ah, my friend. A walk sounds good. Keep an ear open. The Foreman may have something to say about our leaving. A bird, before you ask.", tone = "[gruff warmth, dry amusement, welcoming]" }, "Good to see you. Have you time for a little fresh air?" },
+            idle = { { "I call the bird Foreman. Always above the work, with a very loud opinion about it. I am rather fond of him. Don't tell him; he'll expect a raise.", tone = "[dry humor, fondness, quietly playful]" }, "A plain explanation of a charge should not be difficult to come by.", "The roofs are worth watching when the street gives you a quiet moment." },
+            befriended = { { "You came to bring me along. Aye, I am glad, my friend. Let us find somewhere with a good view and no hurry to leave it.", tone = "[reserved affection, pleased, warmly inviting]" } },
+            poke = { "Aye? Did you hear him too?", "You have my attention. What is it?" },
+            zone = { { "Different roofs. I wonder who supervises this street. Give it a quiet moment; we may hear an opinion.", tone = "[quiet curiosity, amused, attentive]" } },
+            loot = { "A good find? Have a proper look before deciding what you have." },
+            gear = { "Useful to you? That is worth knowing before you pay for it." },
+            quest = { "Well done. Something to be pleased about on the way back." },
+            bagsFull = { "We may need to consider what is worth carrying." },
+            rest = { "A seat and a view of the roofs. That will do nicely." },
+            hearth = { "Back to the shop. I expect the Foreman has been giving orders in my absence." },
+        },
+    },
+
     -- Dwarven District forge: Therum Deepforge 5511, dwarf male Expert
     -- Blacksmith; welcomes hands-on pupils, trained under Grumnus.
     -- Dane Lindgren 957, human male Journeyman Blacksmith; terse, offers
