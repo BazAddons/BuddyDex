@@ -1,4 +1,44 @@
 {
+  "lore257006_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:257006",
+    "spoken": "[sincere affection, quietly hopeful, warm steady invitation] You have stayed for more than a lesson or a plate of food. I have come to look forward to your visits, and I would be glad to travel with you. Wherever we go, we can make room for a meal and a familiar voice beside it.",
+    "text": "You have stayed for more than a lesson or a plate of food. I have come to look forward to your visits, and I would be glad to travel with you. Wherever we go, we can make room for a meal and a familiar voice beside it.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257006_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:257006",
+    "spoken": "[warm conversational welcome, gently curious, lightly amused] Come along, then. There is always something to learn beyond the kitchen, though I make no promises about passing a good ingredient without stopping. Have you eaten? We can discuss the day's grand plans much more comfortably when neither of us is thinking about an empty bowl.",
+    "text": "Come along, then. There is always something to learn beyond the kitchen, though I make no promises about passing a good ingredient without stopping. Have you eaten? We can discuss the day's grand plans much more comfortably when neither of us is thinking about an empty bowl.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257006_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:257006",
+    "spoken": "[wry self-deprecating amusement, encouraging tenderness, unhurried] That little scowling face beside the recipe? Mine. The first attempt deserved it. The next was better, and eventually I drew a smile. I leave them all there. A learner ought to know that the cook offering advice has also made something she would rather not serve.",
+    "text": "That little scowling face beside the recipe? Mine. The first attempt deserved it. The next was better, and eventually I drew a smile. I leave them all there. A learner ought to know that the cook offering advice has also made something she would rather not serve.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257006_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:257006",
+    "spoken": "[fond wistful recollection, grounded warmth, gentle contentment] Sit a moment. When I used to make those journeys, people wanted the crawler meat almost before I had arrived. It is the welcome I remember as much as the food. We cannot make every journey again today, but we can still share a good meal here.",
+    "text": "Sit a moment. When I used to make those journeys, people wanted the crawler meat almost before I had arrived. It is the welcome I remember as much as the food. We cannot make every journey again today, but we can still share a good meal here.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

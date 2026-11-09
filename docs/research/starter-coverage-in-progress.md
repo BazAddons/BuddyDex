@@ -53,3 +53,9 @@ The first shared dwarf/gnome starter batch is now complete: Nori Pridedrift and 
 Alamar Grimm and Wren Darkspring are now completed with fifteen personal lines and four v4 signatures each; see [their research notes](anvilmar-gnome-trainers.md). Coldridge/Anvilmar has four completed profiles, including both gnome sexes and two dwarves. Sten remains the fifth candidate; both Skyborne faction paths are still outstanding.
 
 Sten Stoutarm is now complete; see [his full research](sten-stoutarm.md). Coldridge/Anvilmar reaches five profiles: three dwarves and two gnomes, including both gnome sexes. Both Skyborne faction paths remain at zero completed starter profiles and are the next research priority. The public-icon audit now has 271 profiles (186 Alliance, 26 Horde, 59 unverified); these counts are separate from starter coverage and do not override live access checks.
+
+## Zephras coverage underway
+
+Nyalah Brightfire is complete with fifteen personal lines and four female Skyborne v4 signatures; see [her research](nyalah-brightfire.md). Current explicit friendly icons and both-faction quest access support one shared profile for either starter path. This remains one unique NPC, and both five-profile milestones are still open. The audit now has 272 unique profiles: 187 Alliance-access listings, 27 Horde-access listings and 59 unverified; the shared listing makes faction access totals overlap.
+
+The [Zephras research queue](zephras-first-candidates.md) and machine-readable priorities now include early guides, a Windshaper guide, an innkeeper and faction-specific shaman trainers. A sparse public quest-tab listing is not taken as proof of no chain. Complete the full linked quests before authoring.

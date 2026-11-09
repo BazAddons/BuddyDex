@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Nyalah Brightfire (257006), adult female High Order Skyborne cook, Valanaar.
+    -- Display 140040 / race 95 sex 1; current node explicitly friendly to both factions.
+    -- Crab Season 93317; ancestral recipe adaptations and past island visits in dialogue.
+    -- Recipe-margin faces are original. docs/research/nyalah-brightfire.md.
+    [257006] = {
+        quote = "A familiar dish can change its ingredients and still welcome you home. Come, taste what we can make with what we have.",
+        likes = { "New variations on ancestral recipes", "The short Windsong Crawler season", "A learner willing to taste again" },
+        dislikes = { "Cult activity keeping her from the lake", "Good ingredients going to waste", "Calling a changed recipe a lost cause" },
+        gossip = "Little faces fill the margins of Nyalah's recipes. Some learners suspect she has given every dish a personality. The scowling ones are intriguing.",
+        bio = "Nyalah Brightfire cooks and teaches in Valanaar, adapting ancestral Kaldorei dishes to Zephras's ingredients. She seeks seasonal Windsong Crawler meat and recalls taking the delicacy to other islands before the skystreams closed.",
+        backstory = "While trying a changed recipe, she drew a little face beside the result. Another attempt earned another face. The margins filled up, and she kept the early scowls beside the later smiles rather than making a tidier copy.",
+        secret = "The faces are her own reactions. She keeps the scowls so a discouraged learner can see that a good dish need not begin as one. Even her favorites took another try.",
+        bestFriend = "Pull up a chair. You have tasted enough experiments to deserve the finished dish, and I would like your company while we eat.",
+        favorite = { emote = "THANK", hint = "Let her know the care behind a meal reached you." },
+        lines = {
+            greet = { { "Come along, then. There is always something to learn beyond the kitchen, though I make no promises about passing a good ingredient without stopping. Have you eaten? We can discuss the day's grand plans much more comfortably when neither of us is thinking about an empty bowl.", tone = "[warm conversational welcome, gently curious, lightly amused]" }, "A little company, a little fresh air. Yes, I could use both." },
+            idle = { { "That little scowling face beside the recipe? Mine. The first attempt deserved it. The next was better, and eventually I drew a smile. I leave them all there. A learner ought to know that the cook offering advice has also made something she would rather not serve.", tone = "[wry self-deprecating amusement, encouraging tenderness, unhurried]" }, "A missing ingredient can be the beginning of a new variation.", "I remember how eagerly they waited for crawler meat on the other islands." },
+            befriended = { { "You have stayed for more than a lesson or a plate of food. I have come to look forward to your visits, and I would be glad to travel with you. Wherever we go, we can make room for a meal and a familiar voice beside it.", tone = "[sincere affection, quietly hopeful, warm steady invitation]" } },
+            poke = { "Yes? If you are hungry, you may simply say so.", "Careful. That is how you get a crooked face drawn in the margin." },
+            rest = { { "Sit a moment. When I used to make those journeys, people wanted the crawler meat almost before I had arrived. It is the welcome I remember as much as the food. We cannot make every journey again today, but we can still share a good meal here.", tone = "[fond wistful recollection, grounded warmth, gentle contentment]" } },
+            quest = { "That helps. A short harvest season does not wait for our troubles to pass." },
+            loot = { "Something for the cooking pot, perhaps? Let us look before deciding." },
+            bagsFull = { "Keep the ingredients safe. They have come too far to be crushed at the bottom." },
+            learned = { "Try it yourself. Your first attempt is allowed to teach you something." },
+            levelUp = { "Look how far you have come. Shall we celebrate with something worth sitting down for?" },
+            hearth = { "Home again. I hope there is time to cook before the next departure." },
+        },
+    },
+
     -- Sten Stoutarm (658), adult male dwarf, Coldridge Valley, display 1362 (3 / 0).
     -- Wolf meat for gloves (179), mail to Talin then Grelin (233/234), class referrals.
     -- Forever 98581 passes Teo Hammerstorm's shaman rune. Signature flourish is original.

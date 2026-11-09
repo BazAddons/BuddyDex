@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Begin Zephras Isle coverage with Nyalah Brightfire, a cook friendly to both factions: full lore, fifteen personal lines and four Eleven v4 signatures in the selected female Skyborne voice.
+
 - Complete Sten Stoutarm with fifteen personal lines and four Eleven v4 signatures, including his Forever shaman referral. Bring the shared Coldridge/Anvilmar starter selection to five completed profiles.
 
 - Complete Alamar Grimm and Wren Darkspring, each with fifteen personal lines and four Eleven v4 signatures using the established male and female gnome voices. Add both gnomes to the Coldridge/Anvilmar starter selection.

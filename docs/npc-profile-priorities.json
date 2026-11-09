@@ -140,6 +140,55 @@
       "zone": "Dun Morogh",
       "route": "Dwarf/gnome starter route",
       "reason": "Anvilmar demon trainer; exact current identity/model checked, full adult/access/lore review pending"
+    },
+    {
+      "npc_id": 251362,
+      "name": "Ailee Farheart",
+      "zone": "Zephras Isle",
+      "route": "Both Skyborne paths",
+      "reason": "First-level named ranger; current exact identity/adult display and both-friendly icons checked; full Coming of Age chain review pending"
+    },
+    {
+      "npc_id": 251361,
+      "name": "Rorian the Dayseeker",
+      "zone": "Zephras Isle",
+      "route": "Both Skyborne paths / Windshaper representation",
+      "reason": "Initial quest guide; current exact identity/adult display and both-friendly icons checked; eight starts and related chains need full review"
+    },
+    {
+      "npc_id": 254082,
+      "name": "Aarnor Galestrike",
+      "zone": "Zephras Isle",
+      "route": "Horde Windshaper path",
+      "reason": "Adult male shaman trainer; Horde friendly and Alliance hostile; fire chain and referrals require full review despite missing relation tabs"
+    },
+    {
+      "npc_id": 252800,
+      "name": "Aamelia Windfield",
+      "zone": "Zephras Isle",
+      "route": "Both Skyborne paths",
+      "reason": "Adult orchard quest giver; current both-friendly icons; full orchard/construct chain and relationships require review"
+    },
+    {
+      "npc_id": 254089,
+      "name": "Coriella Calmbreeze",
+      "zone": "Zephras Isle",
+      "route": "Both Skyborne paths",
+      "reason": "Adult innkeeper with both-friendly icons; review village-tour objective relations and services"
+    },
+    {
+      "npc_id": 251374,
+      "name": "Windshaper Boro",
+      "zone": "Zephras Isle",
+      "route": "Horde Windshaper path",
+      "reason": "Adult male shaman trainer; Horde friendly and Alliance hostile; full elemental initiation chain review pending"
+    },
+    {
+      "npc_id": 251905,
+      "name": "Zerril Softbreeze",
+      "zone": "Zephras Isle",
+      "route": "Both Skyborne paths",
+      "reason": "Adult male cooking trainer with both-friendly icons; full food quest chains and services review pending"
     }
   ]
 }

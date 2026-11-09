@@ -462,5 +462,12 @@
     "zone": "Dun Morogh",
     "source": "Reviewed current friendly identity/model, full primary mail chain and class referrals/readables, Forever shaman addition and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/sten-stoutarm.md"
+  },
+  {
+    "npc_id": 257006,
+    "name": "Nyalah Brightfire",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly identity/adult model, full seasonal crab quest including progress, installed ancestral-cooking gossip and services; no Scout sighting claimed",
+    "research_notes": "docs/research/nyalah-brightfire.md"
   }
 ]
