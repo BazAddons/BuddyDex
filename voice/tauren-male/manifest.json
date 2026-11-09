@@ -279,6 +279,46 @@
     "text": "Your help has made a difference. Remember that when the next task looks unfamiliar. Courage is easier to find when you know your strength can do some good.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3448_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3448",
+    "spoken": "[sincere] [warm] Your help has meant much to me. Your company has come to mean something more, my friend. I would be glad to share a stretch of the road without asking another task of you.",
+    "text": "Your help has meant much to me. Your company has come to mean something more, my friend. I would be glad to share a stretch of the road without asking another task of you.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3448_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3448",
+    "spoken": "[grounded] [warm] It is good to see you. Let us take a little time together. The questions will still be there afterward, and I would rather not overlook a friend while considering them.",
+    "text": "It is good to see you. Let us take a little time together. The questions will still be there afterward, and I would rather not overlook a friend while considering them.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3448_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3448",
+    "spoken": "[reflective] [quietly content] I have repaired this cup more carefully than its value might suggest. It still serves me well. Some things are worth keeping because we have learned to care for them.",
+    "text": "I have repaired this cup more carefully than its value might suggest. It still serves me well. Some things are worth keeping because we have learned to care for them.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3448_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3448",
+    "spoken": "[grateful] [steady] That is useful work. A creature helped or a finding understood gives us something to build upon. Thank you for bringing your care as well as your strength to it.",
+    "text": "That is useful work. A creature helped or a finding understood gives us something to build upon. Thank you for bringing your care as well as your strength to it.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore6747_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

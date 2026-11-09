@@ -1,5 +1,7 @@
 # Next Crossroads profiles: Tonga Runetotem and Tari'qa
 
+**Completed 2026-11-09:** both profiles have fifteen personal lines and four selected Tauren/Troll male v4 signatures. See [full research](crossroads-living-land-and-mild-spices.md), including Tonga's entire poison-cure lesson and Tari'qa's twenty current wares. Tari'qa's neutral access stays conditional. Development now has 301 complete profiles. The pending text below preserves the original investigation.
+
 Identity shortlist, 2026-11-09, after 299 completed profiles. Continue useful Horde quest/service coverage. Neither profile is authored or recorded yet, and neither is claimed as a personal Scout encounter. The broader 1,490-name research pool and the two older Westfall availability questions remain open.
 
 ## Tonga Runetotem, 3448

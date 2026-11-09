@@ -658,5 +658,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed exact current adult female Tauren/Forsaken body, location, public friendly/conditional Neutral access, full shell/apothecary chains and note with installed/current text; no Scout sighting claimed",
     "research_notes": "docs/research/silverpine-hope-and-zamahs-ink.md"
+  },
+  {
+    "npc_id": 3448,
+    "name": "Tonga Runetotem",
+    "zone": "The Barrens",
+    "source": "Reviewed exact current adult male Tauren/Troll body and Crossroads pin, friendly/conditional Neutral access, full oasis and gazelle cure or current stock/sparse lore, installed/current comparison; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-living-land-and-mild-spices.md"
+  },
+  {
+    "npc_id": 3482,
+    "name": "Tari'qa",
+    "zone": "The Barrens",
+    "source": "Reviewed exact current adult male Tauren/Troll body and Crossroads pin, friendly/conditional Neutral access, full oasis and gazelle cure or current stock/sparse lore, installed/current comparison; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-living-land-and-mild-spices.md"
   }
 ]

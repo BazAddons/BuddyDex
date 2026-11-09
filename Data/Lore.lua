@@ -42,6 +42,72 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Tonga Runetotem (3448), adult male Tauren, Crossroads, The Barrens.
+    -- Current Horde-friendly display 3914 / race 6 sex 0. Oasis/shell investigation,
+    -- Hamuul counsel, clanmate Mura sample; 6126-6130 gazelle cure with Moonglade.
+    -- Installed lasting-values gossip; mended wooden cup is original BuddyDex fiction.
+    -- Research: docs/research/crossroads-living-land-and-mild-spices.md.
+    [3448] = {
+        quote = "When much is changing, remember what deserves your care. An answer matters most when it helps preserve something worth keeping.",
+        likes = { "Careful findings put to good use", "Help that reaches an ailing creature", "A familiar cup kept in good repair" },
+        dislikes = { "Pollution spreading through the water", "Treating a guess as a settled answer", "Discarding something still worth mending" },
+        gossip = "Tonga keeps a plain wooden cup though he could replace it. Someone has mended its rim with considerably more care than its price suggests.",
+        bio = "Tonga Runetotem studies Barrens oases at the Crossroads. He investigates altered shells, seeks Hamuul's counsel and sends a sample to his clanmate Mura. When gazelles fall sick, he works with Moonglade to prepare a curative salve.",
+        backstory = "A worn place on his wooden cup once caught his hand. He smoothed it instead of replacing the cup, then repaired a little split at the rim. Caring for the familiar thing became a quiet task he could finish while larger questions remained.",
+        secret = "The repair is not especially handsome, but his hand knows where it is. He likes that an ordinary, useful thing can bear a little damage and still be worth keeping.",
+        bestFriend = "There is room beside me, my friend. We need not solve every question before sharing a quiet moment.",
+        favorite = { emote = "THANK", hint = "Acknowledging patient work matters more to him than grand praise." },
+        lines = {
+            greet = { { "It is good to see you. Let us take a little time together. The questions will still be there afterward, and I would rather not overlook a friend while considering them.", tone = "[grounded] [warm]" },
+                "A little company while we walk. That would be welcome." },
+            idle = { { "I have repaired this cup more carefully than its value might suggest. It still serves me well. Some things are worth keeping because we have learned to care for them.", tone = "[reflective] [quietly content]" },
+                "The shell gave us a clue. A clue is a beginning, not an end.",
+                "My clanmate Mura may find another use for what the Barrens can teach us." },
+            befriended = { { "Your help has meant much to me. Your company has come to mean something more, my friend. I would be glad to share a stretch of the road without asking another task of you.", tone = "[sincere] [warm]" } },
+            poke = { "Yes? Have you noticed something I should see?", "Gently. The cup has endured quite enough attention." },
+            quest = { { "That is useful work. A creature helped or a finding understood gives us something to build upon. Thank you for bringing your care as well as your strength to it.", tone = "[grateful] [steady]" } },
+            loot = { "Keep the specimen whole. There may be more to learn from it." },
+            rest = { "A pause can help us remember what we are working to preserve." },
+            learned = { "One more question answered. Let us be careful with the next." },
+            combatEnd = { "Take a breath. We should see who still needs help." },
+            zone = { "Different ground, with its own troubles and things worth keeping." },
+            hearth = { "Familiar ground. I hope you find something here that steadies you." },
+        },
+    },
+
+    -- Tari'qa (3482), adult male Troll Trade Supplies vendor, Crossroads, The Barrens.
+    -- Current Neutral display 4095 / race 8 sex 0; ordinary live access gate retained.
+    -- Twenty current wares include dyes/tools/fishing/spices and two cooking recipes.
+    -- No personal quests/gossip found; Aziz-brother comment is not canon. Mild-food
+    -- preference is original. Research: crossroads-living-land-and-mild-spices.md.
+    [3482] = {
+        quote = "Tell me what you are making before you buy half the shelf. The small thing you forgot is usually the reason you come back.",
+        likes = { "A customer remembering the right tool", "Supplies packed before the long trip", "A pleasantly mild bowl of supper" },
+        dislikes = { "Dye leaking among the other supplies", "A fishing trip without a pole", "Being dared to add another spoon of heat" },
+        gossip = "Tari'qa sells hot spices with confidence. Regular customers have noticed that he is rather less eager to try the hottest bowl at supper.",
+        bio = "Tari'qa sells trade supplies at the Crossroads. Tools, thread, dyes, fishing gear and spices help travelers prepare for work. He also stocks recipes for Crispy Lizard Tail and Strider Stew; selling them does not make him everyone's cook.",
+        backstory = "A very hot bowl once persuaded him to stop treating supper as a test of courage. He still stocks spices for those who enjoy them, but he began asking for his own food mild. A useful merchant need not share every customer's taste.",
+        secret = "He likes being able to taste the second spoonful as well as the first. If someone catches him reaching for milk, he would prefer a friendly wink to another challenge.",
+        bestFriend = "You can sit beside me without daring me to eat anything. That is a good sort of friend. How has your day been?",
+        favorite = { emote = "WINK", hint = "A friendly sign that you will keep his little supper secret." },
+        lines = {
+            greet = { { "There you are. Have you packed what you need, or are we going to discover the missing tool halfway down the road? Either way, I am glad for the company.", tone = "[friendly] [lightly teasing]" },
+                "A walk sounds good. Supper afterward, if you are keeping it mild." },
+            idle = { { "Selling hot spices does not oblige me to put them in every meal. I like to taste my supper. You may call that sensible, and I will happily agree.", tone = "[wry] [easygoing]" },
+                "Amazing how far someone will travel before remembering a fishing pole.",
+                "A little dye goes a long way when it escapes the bottle." },
+            befriended = { { "I enjoy seeing you even when you need nothing from the shelves. Let us spend a little time together, my friend. We can find something to talk about besides supplies.", tone = "[sincere] [warm]" } },
+            poke = { "Yes, yes. No need to test whether the merchant is awake.", "If you are asking about supper, I have already said mild." },
+            bagsFull = { { "Before you force anything else into that bag, check the dye and the vials. It is easier to pack carefully now than explain afterward why every useful thing has turned blue.", tone = "[practical] [amused]" } },
+            loot = { "Useful material? Keep it apart from anything that might spill." },
+            learned = { "A new skill. Now remember the supplies it needs." },
+            quest = { "Errands finished. Perhaps supper need not wait much longer." },
+            rest = { "A good time to stop. I am not selling every quiet moment." },
+            mail = { "News, perhaps. I hope they remembered to write what they actually need." },
+            hearth = { "Back again. Check the shelves before the next long trip." },
+        },
+    },
+
     -- Mura Runetotem (8385), adult female Tauren, Sepulcher, Silverpine Forest.
     -- Current Horde-friendly display 7615 / race 6 sex 1. 3301: Tonga's clanmate,
     -- seeks to heal Silverpine, studies glowing sample shell; no cure established.

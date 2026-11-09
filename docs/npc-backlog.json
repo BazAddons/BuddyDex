@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 299,
-  "remaining_count": 4,
+  "completed_count": 301,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -1594,11 +1594,31 @@
       "status": "complete"
     },
     {
+      "npc_id": 3448,
+      "name": "Tonga Runetotem",
+      "zone": "The Barrens",
+      "source": "Reviewed exact current adult male Tauren/Troll body and Crossroads pin, friendly/conditional Neutral access, full oasis and gazelle cure or current stock/sparse lore, installed/current comparison; no Scout sighting claimed",
+      "research_notes": "docs/research/crossroads-living-land-and-mild-spices.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3453,
       "name": "Wharfmaster Dizzywig",
       "zone": "The Barrens",
       "source": "Reviewed current adult male Goblin model, Ratchet pin and Neutral icon; complete available shipment/parts/passenger branches, relevant book bodies, installed dialogue and literary-era limits; conditional live non-attackable access, no Scout sighting claimed",
       "research_notes": "docs/research/dizzywig-ledgers-and-paper-boats.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3482,
+      "name": "Tari'qa",
+      "zone": "The Barrens",
+      "source": "Reviewed exact current adult male Tauren/Troll body and Crossroads pin, friendly/conditional Neutral access, full oasis and gazelle cure or current stock/sparse lore, installed/current comparison; no Scout sighting claimed",
+      "research_notes": "docs/research/crossroads-living-land-and-mild-spices.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2785,20 +2805,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 3448,
-      "name": "Tonga Runetotem",
-      "zone": "The Barrens",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 3482,
-      "name": "Tari'qa",
-      "zone": "The Barrens",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

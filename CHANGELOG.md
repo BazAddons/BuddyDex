@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Tonga Runetotem and Tari'qa: full Crossroads profiles, fifteen personal lines and four selected Tauren/Troll male Eleven v4 signatures each. Research Tonga's complete oasis and gazelle-cure branches and Tari'qa's actual current wares; preserve conditional neutral access. Development now has 301 complete profiles.
+
 - Complete Mura Runetotem and Apothecary Zamah: full profiles, fifteen personal lines and four selected female Tauren/Forsaken Eleven v4 signatures each. Research the shell branch, spores, Serpentbloom, Stonetalon toxin route and Zamah's note; retain her conditional neutral access. Development now has 299 complete profiles.
 
 - Complete Innkeeper Byula and Kirge Sternhorn at Camp Taurajo: full profiles, fifteen personal lines and four approved Tauren male Eleven v4 signatures each. Preserve current inn services and the Thork referral, resolve the oasis quest attribution to Hamuul, and exclude later Taurajo tragedies. Development now has 297 complete profiles.
