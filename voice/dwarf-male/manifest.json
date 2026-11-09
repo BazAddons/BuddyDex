@@ -439,6 +439,46 @@
     "text": "I packed the whole kit until nothing rattled. Very tidy. Then I missed the little tap of me tin cup. I've let that one sound back in. The rest of the kit can continue to behave itself.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore277721_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:277721",
+    "spoken": "[sincere companionable affection, pleased, inviting] Ye'd like me along? Gladly, friend. Lead on. We can share a tune, or a bit of conversation. I'm pleased to have the company either way.",
+    "text": "Ye'd like me along? Gladly, friend. Lead on. We can share a tune, or a bit of conversation. I'm pleased to have the company either way.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore277721_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:277721",
+    "spoken": "[warm dwarven ease, quietly playful, welcoming] There ye are, friend. Fancy a walk? I've a pleasant tune for company. I remember the next part now, though I may take me own turn when we come to it. Hum along if ye like.",
+    "text": "There ye are, friend. Fancy a walk? I've a pleasant tune for company. I remember the next part now, though I may take me own turn when we come to it. Hum along if ye like.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore277721_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:277721",
+    "spoken": "[rough-edged fond amusement, relaxed, confiding] I forgot the next part of a tune once, so I let the walk suggest something. I remember the proper bit now. Still like me own turn sometimes. It has come to feel at home on the walk.",
+    "text": "I forgot the next part of a tune once, so I let the walk suggest something. I remember the proper bit now. Still like me own turn sometimes. It has come to feel at home on the walk.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore277721_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:277721",
+    "spoken": "[easy reassuring warmth, unhurried, inviting] A pause would be pleasant. Sit a moment, friend. No need to fill it all at once. We've time for whatever ye would like to say, and I can let the tune wait its turn.",
+    "text": "A pause would be pleasant. Sit a moment, friend. No need to fill it all at once. We've time for whatever ye would like to say, and I can let the tune wait its turn.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore4961_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

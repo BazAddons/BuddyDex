@@ -1,4 +1,44 @@
 {
+  "lore270581_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:270581",
+    "spoken": "[sincere poised affection, quiet pleasure, inviting] I would welcome your company, my friend. Lead on. We have time to look around us, and I should like to hear what you find pleasing along the way.",
+    "text": "I would welcome your company, my friend. Lead on. We have time to look around us, and I should like to hear what you find pleasing along the way.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore270581_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:270581",
+    "spoken": "[assured gentle encouragement, thoughtful approval, clear] Take a moment to look again. Which detail pleases you? You need not borrow someone else's answer. There is satisfaction in a choice you recognize as your own.",
+    "text": "Take a moment to look again. Which detail pleases you? You need not borrow someone else's answer. There is satisfaction in a choice you recognize as your own.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore270581_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:270581",
+    "spoken": "[composed night elven warmth, attentive interest, welcoming] Good to see you, my friend. Shall we walk? There may be something worth a second look along the way. I should enjoy hearing which small detail catches your attention first.",
+    "text": "Good to see you, my friend. Shall we walk? There may be something worth a second look along the way. I should enjoy hearing which small detail catches your attention first.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore270581_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:270581",
+    "spoken": "[gentle reflective amusement, contented, confiding] I kept an ordinary brown leaf because I could not quite describe its color. It dried before I settled the question. I still enjoyed the looking. Some small pleasures need no better result than that.",
+    "text": "I kept an ordinary brown leaf because I could not quite describe its color. It dried before I settled the question. I still enjoyed the looking. Some small pleasures need no better result than that.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore5499_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1966,6 +1966,46 @@
     "text": "Fine bit of shade. We ought to give it a proper try before moving on.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore258568_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:258568",
+    "spoken": "[sincere companionable affection, delighted, inviting] Gladly, my friend. Lead on. There is pleasure in having someone to share a small discovery with, particularly someone willing to offer an opinion of their own.",
+    "text": "Gladly, my friend. Lead on. There is pleasure in having someone to share a small discovery with, particularly someone willing to offer an opinion of their own.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258568_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:258568",
+    "spoken": "[amiable merchant warmth, playful pride, welcoming] There you are, my friend. Shall we take a walk? I have been folding a little paper bird. Someone called it a hat. I should value another opinion before I begin my next masterpiece.",
+    "text": "There you are, my friend. Shall we take a walk? I have been folding a little paper bird. Someone called it a hat. I should value another opinion before I begin my next masterpiece.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258568_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:258568",
+    "spoken": "[light self-aware amusement, pleased curiosity, confiding] My best paper bird stood beautifully. A visitor called it a hat. I tried the folds again, and found I rather liked the hat too. A useful discovery, even if it complicates the name.",
+    "text": "My best paper bird stood beautifully. A visitor called it a hat. I tried the folds again, and found I rather liked the hat too. A useful discovery, even if it complicates the name.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258568_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:258568",
+    "spoken": "[warm practical encouragement, interested approval, clear] Well done. A new skill gives an idea somewhere to go. Take the time to try it for yourself. I should enjoy hearing what you discover when the first attempt becomes your own work.",
+    "text": "Well done. A new skill gives an idea somewhere to go. Take the time to try it for yourself. I should enjoy hearing what you discover when the first attempt becomes your own work.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore258930_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

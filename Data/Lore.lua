@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Forever Mage Quarter: Antonio 258568/human male/140828 sells two
+    -- reagent-bag patterns; Fyrenz 270581/night elf female/147118 offers
+    -- transmogrification. Krazore 277721/dwarf male/147926 is observed in
+    -- Cathedral Square. No personal quest chains established. Their paper
+    -- folds, leaf colors and humming are original; retail Lord Krazore's
+    -- biography is not imported. docs/research/mage-quarter-and-krazore.md.
+    [258568] = {
+        quote = "A useful pattern leaves room for your own good work. Take your time choosing. I enjoy seeing someone leave with an idea they are eager to try.",
+        likes = { "A pattern that inspires a new project", "A neatly folded piece of paper", "Someone showing what they have made" },
+        dislikes = { "Paper crumpled without a thought", "A question dismissed as obvious", "A promising idea hurried past" },
+        gossip = "Antonio can make a scrap of paper stand on its own. Whether it resembles a bird depends on whom you ask.",
+        bio = "Antonio Bolero sells tailoring recipes in Stormwind's Mage Quarter. His stock includes patterns for linen and woolen reagent bags. He welcomes a visitor who is browsing and offers help finding something specific.",
+        backstory = "A spare piece of paper once became an experiment in folding. He liked how a few patient creases could make something stand. Now he occasionally tries for a little bird, with results he considers encouraging rather than conclusive.",
+        secret = "His best paper bird stood beautifully. A visitor thought it was a hat. He tried the folds again, and found that he rather liked the hat too.",
+        bestFriend = "Come and look, my friend. Bird or hat? I trust you to have an opinion, and I look forward to defending my own.",
+        favorite = { emote = "APPLAUD", hint = "A modest piece of work can be worth a little appreciation, even when its shape is open to discussion." },
+        lines = {
+            greet = { { "There you are, my friend. Shall we take a walk? I have been folding a little paper bird. Someone called it a hat. I should value another opinion before I begin my next masterpiece.", tone = "[amiable merchant warmth, playful pride, welcoming]" }, "Good to see you. Have you had an idea you are eager to try?" },
+            idle = { { "My best paper bird stood beautifully. A visitor called it a hat. I tried the folds again, and found I rather liked the hat too. A useful discovery, even if it complicates the name.", tone = "[light self-aware amusement, pleased curiosity, confiding]" }, "A few patient creases can make an ordinary scrap rather interesting.", "I like to see what someone makes of a promising beginning." },
+            befriended = { { "Gladly, my friend. Lead on. There is pleasure in having someone to share a small discovery with, particularly someone willing to offer an opinion of their own.", tone = "[sincere companionable affection, delighted, inviting]" } },
+            poke = { "Yes? Have you an opinion on the shape?", "I am listening. What have you been considering?" },
+            learned = { { "Well done. A new skill gives an idea somewhere to go. Take the time to try it for yourself. I should enjoy hearing what you discover when the first attempt becomes your own work.", tone = "[warm practical encouragement, interested approval, clear]" } },
+            bagsFull = { "A little room would be useful. Even a good arrangement has its limits." },
+            loot = { "Worth a look. Have you something in mind for it?" },
+            quest = { "A finished task! Give yourself a moment to appreciate the work." },
+            rest = { "A pleasant time to pause. Tell me what you have been making of the day." },
+            gear = { "How does it suit you? Your opinion matters after the first look too." },
+            hearth = { "Back to Stormwind. I wonder whether my next attempt will look more like a bird." },
+        },
+    },
+    [270581] = {
+        quote = "You should recognize yourself in the appearance you choose. Take a moment to look again. The detail that pleases you may be quite a small one.",
+        likes = { "An appearance chosen with confidence", "A leaf with an unexpected shade", "A friend who notices a small detail" },
+        dislikes = { "Taste treated as a contest", "A careful choice dismissed with a sneer", "A color judged without looking" },
+        gossip = "Fyrenz notices the colors in fallen leaves. A remarkably ordinary one has apparently held her attention for some time.",
+        bio = "Fyrenz Vishonar is a night elf transmogrifier in Stormwind's Mage Quarter. She offers magic that changes the appearance of equipment, inviting visitors to decide whether they wish to use her services.",
+        backstory = "Looking closely at color in her work became a pleasure outside it. A fallen leaf could hold several shades, depending on the light. She began enjoying the small differences in things she might otherwise have passed without another glance.",
+        secret = "She once kept an ordinary brown leaf because she could not quite describe its color. It dried before she settled the question. She still enjoyed the looking.",
+        bestFriend = "Stay a moment, my friend. Tell me what you notice first. I enjoy seeing a familiar thing through your attention.",
+        favorite = { emote = "SMILE", hint = "Simple pleasure is a welcome response to someone sharing a detail she enjoys." },
+        lines = {
+            greet = { { "Good to see you, my friend. Shall we walk? There may be something worth a second look along the way. I should enjoy hearing which small detail catches your attention first.", tone = "[composed night elven warmth, attentive interest, welcoming]" }, "Welcome. What have you enjoyed looking at today?" },
+            idle = { { "I kept an ordinary brown leaf because I could not quite describe its color. It dried before I settled the question. I still enjoyed the looking. Some small pleasures need no better result than that.", tone = "[gentle reflective amusement, contented, confiding]" }, "A little change in the light can invite another look.", "There is room for more than one pleasing choice." },
+            befriended = { { "I would welcome your company, my friend. Lead on. We have time to look around us, and I should like to hear what you find pleasing along the way.", tone = "[sincere poised affection, quiet pleasure, inviting]" } },
+            poke = { "Yes? What would you like me to notice?", "I am listening, my friend." },
+            gear = { { "Take a moment to look again. Which detail pleases you? You need not borrow someone else's answer. There is satisfaction in a choice you recognize as your own.", tone = "[assured gentle encouragement, thoughtful approval, clear]" } },
+            loot = { "Interesting. What caught your eye first?" },
+            learned = { "A new possibility. Give yourself a little time to explore it." },
+            quest = { "Well done. There is pleasure in seeing careful work reach its result." },
+            zone = { "A different light, and another place worth looking at closely." },
+            rest = { "A pleasant moment to pause. We may notice something we passed too quickly." },
+            hearth = { "Back to Stormwind. Familiar things can still reward a second look." },
+        },
+    },
+    [277721] = {
+        quote = "A pleasant tune can keep ye company for a fair while. If ye recognize the one I'm humming, don't be too quick to tell me. I may be enjoying me own version.",
+        likes = { "A tune that improves a walk", "Company willing to hum along", "Remembering the next bit at last" },
+        dislikes = { "A small pleasure made into a contest", "Being hurried through the best part", "An unkind laugh at an honest attempt" },
+        gossip = "Krazore hums as though he knows the next part. Friends suspect he sometimes lets the tune decide for itself.",
+        bio = "Krazore is a dwarf encountered around Cathedral Square in Stormwind. Among the city's comings and goings, he enjoys the ordinary pleasure of a walk with a tune to keep him company.",
+        backstory = "He once began humming a tune whose next part would not come back to him. Rather than stop, he let the walk suggest something. He enjoyed the result enough to try it again, even after remembering how the tune used to go.",
+        secret = "He remembers the proper next part now. He still sometimes takes his own turn instead. A pleasant walk need not follow the tune exactly as he first heard it.",
+        bestFriend = "Come on, friend. Hum along if ye like. If we take different turns, we'll have something pleasant to sort out together.",
+        favorite = { emote = "CLAP", hint = "A little rhythm can be welcome company for someone enjoying his own version of a tune." },
+        lines = {
+            greet = { { "There ye are, friend. Fancy a walk? I've a pleasant tune for company. I remember the next part now, though I may take me own turn when we come to it. Hum along if ye like.", tone = "[warm dwarven ease, quietly playful, welcoming]" }, "Good to see ye. Have ye time to stretch yer legs a little?" },
+            idle = { { "I forgot the next part of a tune once, so I let the walk suggest something. I remember the proper bit now. Still like me own turn sometimes. It has come to feel at home on the walk.", tone = "[rough-edged fond amusement, relaxed, confiding]" }, "A pleasant tune can make a familiar walk feel fresh.", "It needn't be a performance. I enjoy the humming." },
+            befriended = { { "Ye'd like me along? Gladly, friend. Lead on. We can share a tune, or a bit of conversation. I'm pleased to have the company either way.", tone = "[sincere companionable affection, pleased, inviting]" } },
+            poke = { "Aye? Have ye remembered another bit?", "I'm listening, friend. What's on yer mind?" },
+            rest = { { "A pause would be pleasant. Sit a moment, friend. No need to fill it all at once. We've time for whatever ye would like to say, and I can let the tune wait its turn.", tone = "[easy reassuring warmth, unhurried, inviting]" } },
+            zone = { "Another place for a pleasant stretch of the legs." },
+            quest = { "Well done, friend. Take a moment to enjoy having seen it through." },
+            learned = { "A new bit to remember. Give yerself time to get familiar with it." },
+            combatEnd = { "Take a breath and see to yer wounds. We've time to settle ourselves." },
+            danceAlong = { "Aye, that suits the tune nicely. Enjoy yerself, friend." },
+            hearth = { "Back to Stormwind. There's pleasure in a familiar turn of the road." },
+        },
+    },
     -- Forever additions in Goldshire: Nordun 268238/dwarf male/145367,
     -- Josephine 251507/human female/137105, Isaac 258930/human male/141199.
     -- Scout and current public records agree on identities and services.
