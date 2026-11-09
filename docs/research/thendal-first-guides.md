@@ -60,3 +60,7 @@ Ailee's rehearsed grand welcome, shortening it to invite a conversation, and for
 Rorian's practiced expression, pause before reacting and private smile at a harmless prank are original expansions of Falling With Style. They do not make him afraid of flight, omniscient, permanently hostile to Myriaal or permissive of dangerous misuse. BOW is his favorite.
 
 Both profiles have all ten fields and fifteen personal lines. Four signatures each use Eleven v4: Ailee greet/idle/befriended/back in approved skyborne-female lQ79RJ1oEygPMVWvoXTH; Rorian greet/idle/befriended/landed in approved skyborne-male 8chV49fDd6WKeqeufgPU. Delivery direction stays hidden from bubbles. Full-loader checks cover named/adult eligibility, race/sex routing, supported moments, exact manifest provenance and text, decoded audio, ordinary/favorite friendship gains, first welcome and generic exclusions. Standard main/Scout smoke and package verification follow before installation/publishing.
+
+### Follow-up: Boro research resolution
+
+The later [Boro review](windshaper-boro.md) retrieved the complete Humming Recall Crystal body and the third Call of Earth stage 92468, returning quartz to Boro for a totem. The earlier readable limitation is resolved for Boro only; the documented gaps for Tai'ree and Akeri remain. The two-stage widget was insufficient as a complete earth-chain index. No additional claims about that chain had been placed in either guide's authored profile.

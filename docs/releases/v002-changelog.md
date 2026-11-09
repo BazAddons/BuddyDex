@@ -2,9 +2,10 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **276 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **277 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add five shared Zephras Isle Buddies accessible to both Skyborne faction paths: Ailee Farheart, Rorian the Dayseeker, Nyalah Brightfire, Coriella Calmbreeze and Zerril Softbreeze.
+- Add Windshaper Boro's full profile and four signature recordings for Horde players, grounded in the complete earth-totem initiation chain.
 - Research existing lore and quest dialogue before writing each profile, including Forever-specific additions.
 
 ## Voices and companions

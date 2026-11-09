@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Windshaper Boro (251374), adult male Windshaper Skyborne shaman trainer, Thendal Grove.
+    -- Display 136975 / race 96 sex 0; Horde friendly, Alliance hostile in current node.
+    -- Embracing 92484/crystal 282418; full earth chain 92466-92468. Ordinary paperweight is original.
+    -- docs/research/windshaper-boro.md.
+    [251374] = {
+        quote = "Patience is not waiting for the wind to solve what lies before you. Attend to the earth beneath your feet as well.",
+        likes = { "Resolve proved through careful action", "Students respecting all four elements", "Notes staying where he left them" },
+        dislikes = { "The cult weakening their ties to the winds", "A sacred trial treated as a shortcut", "Loose pages scattered by a passing draft" },
+        gossip = "Boro keeps a flat stone beside his notes. Some students suspect a lesson in its placement. He does seem particular about where it rests.",
+        bio = "Windshaper Boro teaches shamans in Thendal Grove. He hopes to restore communion with the vanished wind spirits. His earth trial sends students against the cult, then to the Rise of Spirits; returned quartz becomes the heart of an earth totem.",
+        backstory = "After chasing a loose page farther than he cared to admit, he found a flat stone to hold his notes down. Its plain usefulness pleased him. He began setting it in place before every lesson, whether or not the air seemed still.",
+        secret = "The stone is an ordinary paperweight, quite separate from the quartz he uses for a student's totem. Even a Windshaper would rather finish a thought than chase his own notes.",
+        bestFriend = "Sit with me. There is no trial to pass this time, and no answer I expect you to give. Your company is welcome for its own sake.",
+        favorite = { emote = "NOD", hint = "Show that you have considered his counsel before rushing to the next step." },
+        lines = {
+            greet = { { "Come, let us go together. You need not fill every quiet moment with an answer. Look at what is before you, and give it your attention. The winds are not the only teachers we have, nor is their silence a reason to neglect the lessons still within our reach.", tone = "[patient thoughtful welcome, grounded warmth, calm conviction]" }, "You are here. Tell me what you have been considering." },
+            idle = { { "An ordinary stone, yes. It holds the pages down. I once spent longer retrieving a note than I had spent writing it, and decided there was wisdom in avoiding a second performance. You may consider that a lesson if you wish. I consider it a very satisfactory paperweight.", tone = "[quiet dry amusement, composed self-deprecation, gently pleased]" }, "We seek the winds, but our path asks understanding of every element.", "A moment of consideration is not time stolen from the task." },
+            befriended = { { "I would be glad to accompany you. We have spent much of our time considering what must be done, and there is value in that. But I have also come to value the person beside me. Let us share a little of the road without making every step another trial.", tone = "[sincere steady affection, restrained gratitude, relaxed warmth]" } },
+            poke = { "I am listening. You need not test my balance to ask a question.", "Yes? Let the thought arrive before you hurry it along." },
+            learned = { { "Take care with what you have learned. A new gift is not made greater by using it without thought. Earth teaches endurance and resolve; the winds alone cannot answer every question we bring. We will need understanding of all four elements to find the voice we are seeking.", tone = "[patient earnest instruction, quiet encouragement, firm conviction]" } },
+            quest = { "Resolve made visible through action. Consider what the effort has taught you." },
+            loot = { "A small thing may hold more purpose than its size suggests." },
+            lowHealth = { "Steady yourself. Strength preserved can still see you through." },
+            rest = { "A pause may be useful. Give yourself time to understand the last step." },
+            levelUp = { "You grow stronger. Keep seeking the judgment to guide that strength." },
+            hearth = { "Home remains worth our care, even while we seek answers beyond it." },
+        },
+    },
+
     -- Coriella Calmbreeze (254089), adult female High Order Skyborne innkeeper, Shen'dar.
     -- Display 138005 / race 95 sex 1; both-friendly. Aonda's two village tours name her.
     -- Spare cup and reminder to take her own break are original. docs/research/shendar-table-and-hearth.md.

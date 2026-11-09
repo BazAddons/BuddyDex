@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Windshaper Boro with fifteen personal lines and four Eleven v4 signatures. Include his recall crystal and full three-stage earth initiation; preserve Horde-only friendly access.
+
 - Complete Coriella Calmbreeze and Zerril Softbreeze in Shen'dar Village, each with full profiles, fifteen personal lines and four Eleven v4 signatures. Bring the shared Zephras starter selection to five profiles accessible to both factions.
 - Preserve the handed-off v002 upload candidate while CurseForge publication status remains unverified.
 

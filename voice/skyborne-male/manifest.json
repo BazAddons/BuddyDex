@@ -39,6 +39,46 @@
     "text": "There. Arriving safely is a worthy result in itself. I trust nobody has offered you imaginary points for landing at my feet this time. A gift used wisely will serve you far better than a fine surprise, though I concede the surprise can be difficult to forget.",
     "voice_id": "8chV49fDd6WKeqeufgPU"
   },
+  "lore251374_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251374",
+    "spoken": "[sincere steady affection, restrained gratitude, relaxed warmth] I would be glad to accompany you. We have spent much of our time considering what must be done, and there is value in that. But I have also come to value the person beside me. Let us share a little of the road without making every step another trial.",
+    "text": "I would be glad to accompany you. We have spent much of our time considering what must be done, and there is value in that. But I have also come to value the person beside me. Let us share a little of the road without making every step another trial.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251374_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251374",
+    "spoken": "[patient thoughtful welcome, grounded warmth, calm conviction] Come, let us go together. You need not fill every quiet moment with an answer. Look at what is before you, and give it your attention. The winds are not the only teachers we have, nor is their silence a reason to neglect the lessons still within our reach.",
+    "text": "Come, let us go together. You need not fill every quiet moment with an answer. Look at what is before you, and give it your attention. The winds are not the only teachers we have, nor is their silence a reason to neglect the lessons still within our reach.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251374_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251374",
+    "spoken": "[quiet dry amusement, composed self-deprecation, gently pleased] An ordinary stone, yes. It holds the pages down. I once spent longer retrieving a note than I had spent writing it, and decided there was wisdom in avoiding a second performance. You may consider that a lesson if you wish. I consider it a very satisfactory paperweight.",
+    "text": "An ordinary stone, yes. It holds the pages down. I once spent longer retrieving a note than I had spent writing it, and decided there was wisdom in avoiding a second performance. You may consider that a lesson if you wish. I consider it a very satisfactory paperweight.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251374_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:251374",
+    "spoken": "[patient earnest instruction, quiet encouragement, firm conviction] Take care with what you have learned. A new gift is not made greater by using it without thought. Earth teaches endurance and resolve; the winds alone cannot answer every question we bring. We will need understanding of all four elements to find the voice we are seeking.",
+    "text": "Take care with what you have learned. A new gift is not made greater by using it without thought. Earth teaches endurance and resolve; the winds alone cannot answer every question we bring. We will need understanding of all four elements to find the voice we are seeking.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
   "lore251905_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

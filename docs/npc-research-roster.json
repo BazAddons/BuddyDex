@@ -497,5 +497,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current both-friendly adult identity/model, village-tour or food/camping chain, primary progress/completion, installed gossip and services; no Scout sighting claimed",
     "research_notes": "docs/research/shendar-table-and-hearth.md"
+  },
+  {
+    "npc_id": 251374,
+    "name": "Windshaper Boro",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current Horde-friendly/Alliance-hostile adult identity/model, full recall readable and three-stage earth chain, installed gossip and completion; no Scout sighting claimed",
+    "research_notes": "docs/research/windshaper-boro.md"
   }
 ]

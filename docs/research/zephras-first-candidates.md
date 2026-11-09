@@ -10,7 +10,7 @@ Reviewed 2026-11-09. This queue closes the remaining empty starter experience; i
 | Ailee Farheart | 251362 | High Order female, 136968 / extra 162359, race 95 sex 1 | Friendly to both | Completed; full chain review in thendal-first-guides.md |
 | Rorian the Dayseeker | 251361 | Windshaper male, 136966 / extra 162971, race 96 sex 0 | Friendly to both | Completed; full chain/referral review in thendal-first-guides.md |
 | Coriella Calmbreeze | 254089 | High Order female, 138005 / extra 162474, race 95 sex 1 | Friendly to both | Completed; see shendar-table-and-hearth.md |
-| Windshaper Boro | 251374 | Windshaper male, 136975 / extra 162992, race 96 sex 0 | Horde friendly, Alliance hostile | Full elemental initiation and training quests |
+| Windshaper Boro | 251374 | Windshaper male, 136975 / extra 162992, race 96 sex 0 | Horde friendly, Alliance hostile | Completed; see windshaper-boro.md |
 | Zerril Softbreeze | 251905 | High Order male, 137343 / extra 162204, race 95 sex 0 | Friendly to both | Completed; see shendar-table-and-hearth.md |
 
 Primary current nodes: [Nyalah](https://forever.warcraftdb.com/api/data/node/npc/257006), [Aamelia](https://forever.warcraftdb.com/api/data/node/npc/252800), [Aarnor](https://forever.warcraftdb.com/api/data/node/npc/254082). Cached current CreatureDisplayInfo/Extra records resolve each listed adult character display. Being named or Skyborne is not sufficient to override live eligibility or make an Alliance-hostile trainer available to Alliance players.
@@ -26,3 +26,5 @@ Shared friendly residents can help both starter paths, while faction-specific tr
 Ailee and Rorian are now complete, bringing the shared selection to three. Their [research note](thendal-first-guides.md) records the full grove chain, class referrals, known readable content and retrieval limitations. Remaining candidates retain pending status.
 
 Coriella and Zerril now complete the initial five shared starter profiles in development. Aamelia and both Horde-specific shaman trainers remain pending; the shared milestone does not remove them or complete the wider goal. The separately handed-off v002 candidate still contains 274 profiles until publication status is resolved.
+
+Windshaper Boro is complete with the full three-stage earth chain and recall-crystal text reviewed; see [his research](windshaper-boro.md). His Horde-friendly/Alliance-hostile access remains separate from the five shared profiles. Aarnor and Aamelia remain pending.
