@@ -39,6 +39,46 @@
     "text": "A good chance to sit. I won't pretend I'm going to finish a chapter this time. Tell me your news instead. A peaceful pause with a friend is a very fine use of the afternoon.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1070_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1070",
+    "spoken": "[warm restrained pleasure, practical, gently amused] All right, I'll walk with you. Seeing a stretch of road for myself will do me good. And for once, when I ask how your day has been, I might already know part of the answer.",
+    "text": "All right, I'll walk with you. Seeing a stretch of road for myself will do me good. And for once, when I ask how your day has been, I might already know part of the answer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1070_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1070",
+    "spoken": "[steady practical warmth, attentive, quietly hopeful] There you are. I was hoping to hear how the road treated you. Any trouble, tell me plainly. And if something went well, tell me that too. I've a little space left on my other page.",
+    "text": "There you are. I was hoping to hear how the road treated you. Any trouble, tell me plainly. And if something went well, tell me that too. I've a little space left on my other page.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1070_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1070",
+    "spoken": "[thoughtful, understated sincerity, conversational] I started keeping a few good things on a separate page. Nothing grand. A cart made it home. Somebody mended a roof. You can fill a whole report with danger and forget what you're trying to keep safe.",
+    "text": "I started keeping a few good things on a separate page. Nothing grand. A cart made it home. Somebody mended a roof. You can fill a whole report with danger and forget what you're trying to keep safe.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1070_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1070",
+    "spoken": "[attentive measured encouragement, calm warmth] Tell me how it went while it's still fresh. The useful details first. Then you can sit down and tell me the part that made you glad you went. I'd rather not lose either account.",
+    "text": "Tell me how it went while it's still fresh. The useful details first. Then you can sit down and tell me the part that made you glad you went. I'd rather not lose either account.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore11096_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -4011,6 +4051,46 @@
     "text": "A sound seat and a moment to use it. That'll do. We needn't turn the whole pause into another report. Tell me what you've been enjoying when the work gives you a little room.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore859_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:859",
+    "spoken": "[firm sincere gratitude, reserved warmth, steady] You want me along? Very well. I could use a walk with someone I trust. We needn't spend every step talking about the Stockade. Tell me where we're going, and I'll keep watch with you.",
+    "text": "You want me along? Very well. I could use a walk with someone I trust. We needn't spend every step talking about the Stockade. Tell me where we're going, and I'll keep watch with you.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore859_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:859",
+    "spoken": "[stern weary restraint, warming slightly, direct] Good. You're here. I've had enough talk of delays for one day. Walk with me a moment, if you've the time. You needn't have an answer ready. I wasn't asking for another answer.",
+    "text": "Good. You're here. I've had enough talk of delays for one day. Walk with me a moment, if you've the time. You needn't have an answer ready. I wasn't asking for another answer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore859_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:859",
+    "spoken": "[low thoughtful gravity, restrained tenderness, unhurried] I sometimes stop outside the inn and listen. Somebody laughs, somebody else joins in. I don't need to know the joke. It's enough to hear people with a little room in their day for that.",
+    "text": "I sometimes stop outside the inn and listen. Somebody laughs, somebody else joins in. I don't need to know the joke. It's enough to hear people with a little room in their day for that.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore859_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:859",
+    "spoken": "[quiet guarded warmth, weary but composed] We can sit here a while. There's always another matter waiting, but it can wait five minutes more. You don't have to fill the silence. Having someone beside me is company enough.",
+    "text": "We can sit here a while. There's always another matter waiting, but it can wait five minutes more. You don't have to fill the silence. Having someone beside me is company enough.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore8670_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -4209,6 +4289,46 @@
     "source": "lore:894",
     "spoken": "[genial, thoughtful voice, easy amusement] A crooked apple can still be sweet. Worth remembering when you're choosing.",
     "text": "A crooked apple can still be sweet. Worth remembering when you're choosing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore903_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:903",
+    "spoken": "[firm pleased warmth, dependable, conversational] I'll come along. You seem to know the value of a dependable watch, and I'd rather share one with someone I know. Give me a moment to settle my kit. Then you can choose the road.",
+    "text": "I'll come along. You seem to know the value of a dependable watch, and I'd rather share one with someone I know. Give me a moment to settle my kit. Then you can choose the road.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore903_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:903",
+    "spoken": "[brisk soldierly confidence, dry humor, friendly] Ready? Good. Let me check this bundle and we can be off. No secret orders. A spare pair of socks, wrapped properly. Laugh if you like, but ask me again after a wet watch.",
+    "text": "Ready? Good. Let me check this bundle and we can be off. No secret orders. A spare pair of socks, wrapped properly. Laugh if you like, but ask me again after a wet watch.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore903_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:903",
+    "spoken": "[matter of fact, wry amusement, grounded] Everyone checks the edge of a blade. Sensible enough. I also check whether the dry things in my kit are still dry. A small precaution, until you've stood long enough to appreciate it.",
+    "text": "Everyone checks the edge of a blade. Sensible enough. I also check whether the dry things in my kit are still dry. A small precaution, until you've stood long enough to appreciate it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore903_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:903",
+    "spoken": "[relaxed dry humor, practical concern, gently amused] This looks dry enough. Sit down and give your feet a chance. There's no medal for keeping a wet boot on longer than you need to. If there were, half the guard would have a chestful.",
+    "text": "This looks dry enough. Sit down and give your feet a chance. There's no medal for keeping a wet boot on longer than you need to. If there were, half the guard would have a chestful.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore918_befriended_1.ogg": {
