@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 159,
-  "remaining_count": 58,
+  "completed_count": 162,
+  "remaining_count": 55,
   "completed": [
     {
       "npc_id": 54,
@@ -650,6 +650,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 2198,
+      "name": "Crier Goodman",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2327,
       "name": "Shaina Fuller",
       "zone": "Stormwind City",
@@ -697,6 +706,15 @@
     {
       "npc_id": 2708,
       "name": "Archmage Malin",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2795,
+      "name": "Lenny \"Fingers\" McCoy",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1406,6 +1424,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 14722,
+      "name": "Clavicus Knavingham",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 14842,
       "name": "Melnan Darkstone",
       "zone": "Ironforge",
@@ -1547,20 +1574,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 14722,
-      "name": "Clavicus Knavingham",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2198,
-      "name": "Crier Goodman",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -1598,13 +1611,6 @@
     {
       "npc_id": 277721,
       "name": "Krazore",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2795,
-      "name": "Lenny \"Fingers\" McCoy",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

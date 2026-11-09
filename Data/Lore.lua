@@ -41,6 +41,94 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Clavicus Knavingham 14722: human male Alliance Cloth Quartermaster,
+    -- Duncan's Textiles/Mage Quarter, display 14753. Scout friendly level
+    -- 35. Full donation quests 7791/7793/7794/7795/7796 and installed gossip
+    -- concern rebuilding textile/bandage stocks through community donations.
+    -- His own supper napkin is original; later harbor role excluded.
+    -- docs/research/clavicus-knavingham.md.
+    [14722] = {
+        quote = "A store grows because people choose to contribute. Count the cloth carefully, certainly. Remember to thank the person who brought it as well.",
+        likes = { "Many people helping a shared effort", "A contribution properly acknowledged", "A splendid fold in his own supper napkin" },
+        dislikes = { "A donor treated as an inconvenience", "Careless counting of useful supplies", "A napkin crown collapsing at supper" },
+        gossip = "Clavicus takes the cloth drive seriously. At home, his own linen napkin receives a rather grand arrangement before supper.",
+        bio = "Clavicus Knavingham serves as Alliance Cloth Quartermaster at Duncan's Textiles in Stormwind's Mage Quarter. He receives cloth donations to rebuild the city's depleted stores, supporting the manufacture of textiles and bandages.",
+        backstory = "At home, he has been learning to fold his linen napkin into a crown. The result sometimes leans before supper is served. He enjoys working out which fold will keep it standing, and gives an ordinary meal a small occasion of its own.",
+        secret = "He makes the grand fold even when eating alone. There needn't be a guest to impress. He likes sitting down to something he has taken a little trouble over.",
+        bestFriend = "Sit a moment, friend. Tell me how your day has been. I should like your company, even if the crown has fallen over again.",
+        favorite = { emote = "CHEER", hint = "A little shared encouragement suits someone who depends on many people joining an effort." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time for a walk? Come on. I should like to hear how your day has been, with no counting required on either side.", tone = "[cordial practical warmth, pleased, welcoming]" }, "There you are. It is good to have a little time in your company." },
+            idle = { { "I have been folding my supper napkin into a crown. Sometimes it leans. I still make the effort when eating alone. An ordinary meal can be worth taking a little trouble over.", tone = "[modest pleasure, gentle amusement, confiding]" }, "Many contributions can restore a store that one person could never fill alone.", "The counting matters. So does the welcome given to the person who carried it here." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. It will be good to share a little of the day and hear what has been occupying your thoughts.", tone = "[sincere affection, relaxed pleasure, inviting]" } },
+            poke = { "Yes? Have you a moment to talk?", "I am listening. Tell me how things are going." },
+            quest = { { "Well done. Someone will be glad you saw that through. A shared effort depends on people willing to do their part, and their work deserves to be acknowledged.", tone = "[sincere appreciation, practical encouragement, warm]" } },
+            loot = { "Something useful? It is worth noticing what a small addition may help to make." },
+            bagsFull = { "A careful sort should help. Keep what is needed where you can reach it." },
+            rest = { "A pause would be welcome. Even an ordinary moment can be pleasant with good company." },
+            gear = { "How does it fit? Someone took trouble over putting it together." },
+            learned = { "There. A little more practice, and the next attempt may come together more easily." },
+            hearth = { "Back to Stormwind. I hope there will be good news for the cloth drive." },
+        },
+    },
+    -- Lenny "Fingers" McCoy 2795: human male, Old Town, display 1505.
+    -- Scout sees a friendly level 35 named humanoid; no Classic personal
+    -- quests or installed exact-ID dialogue. Beta lockpicking training and
+    -- retail Legion luck-charm shop are not present-role assumptions.
+    -- The coin trick is original. docs/research/mccoy-and-goodman.md.
+    [2795] = {
+        quote = "Lenny will do, friend. Stay a moment. I was just getting to the impressive part, and a trick improves considerably with someone there to appreciate it.",
+        likes = { "A coin walking across his knuckles", "Company with a sense of humor", "A small trick performed smoothly" },
+        dislikes = { "A dropped coin finding a drain", "An audience calling the ending early", "A whole history invented from a nickname" },
+        gossip = "Lenny's nickname invites a good many theories. His friends are more likely to hear how smoothly that coin crossed his knuckles.",
+        bio = "Lenny \"Fingers\" McCoy is a human found in Stormwind's Old Town. A distinctive nickname makes him easy to remember; a proper conversation gives the person behind it a little more room than the stories people might supply for themselves.",
+        backstory = "Lenny has been practicing rolling a coin across his knuckles. The movement looks effortless when it works, which leaves out a considerable number of attempts. He has learned to keep his other hand ready for the less impressive endings.",
+        secret = "He can manage the trick by feel when alone. Put a friend in front of him and he still looks down. He wants them to see it go well, and keeps checking that it does.",
+        bestFriend = "Stay for another try, friend. You can tell me if I am looking at my hand again. I am rather pleased you wanted to watch.",
+        favorite = { emote = "WINK", hint = "A small, knowing acknowledgment can share a joke without announcing it to the whole street." },
+        lines = {
+            greet = { { "There you are, my friend. Have you a moment? I have been practicing that coin trick. Come on, we can walk. I should like to hear what has been occupying your hands lately.", tone = "[easy familiar warmth, playful confidence, welcoming]" }, "Good to see you. Stay a little; I was just reaching the impressive part." },
+            idle = { { "I can roll the coin across my knuckles without looking. Then a friend watches, and down go my eyes. I want them to see it go well. Apparently, I want to see it go well too.", tone = "[wry self-awareness, amused, confiding]" }, "A smooth performance leaves out a great deal of practice.", "My other hand is ready. Experience has made that a sensible precaution." },
+            befriended = { { "You came to bring me along. Gladly, my friend. Come on. It will be good to spend a little time together, with or without a perfect performance.", tone = "[sincere pleasure, fond informality, inviting]" } },
+            poke = { "Yes? You caught me looking at my hand, did you?", "Give me a moment. I am deciding how impressive to make the ending." },
+            loot = { { "A useful find? Have a proper look. If it happens to be a coin, I recommend keeping a hand underneath it until you are quite certain of your technique.", tone = "[practical interest, dry playful advice, friendly]" } },
+            learned = { "There. It is beginning to look easier. You will remember the practice it took." },
+            quest = { "Well done. That is a satisfying ending to the business." },
+            bagsFull = { "Leave a little room to reach things. An impressive flourish is harder when your elbow is trapped." },
+            rest = { "A seat sounds good. Have you a story to go with the pause?" },
+            gear = { "Comfortable? Try moving your hands before deciding it is perfect." },
+            hearth = { "Back to Old Town. I have a little more practicing to do." },
+        },
+    },
+    -- Crier Goodman 2198: human male wandering Stormwind crier, display
+    -- 1525. Scout friendly level 3; installed gossip welcomes news from
+    -- both continents. Full New Frontier and Plaguelands branches read;
+    -- installed Feathermoon referral also checked despite ClassicDB omission.
+    -- Tongue-twister practice is original. docs/research/mccoy-and-goodman.md.
+    [2198] = {
+        quote = "News is only useful once someone has heard it clearly. Give me a moment, and I shall make certain the far end of the street has had the opportunity.",
+        likes = { "A message delivered clearly", "An audience that listens to the details", "A difficult phrase finally said well" },
+        dislikes = { "A destination lost in the excitement", "People sent away with half a message", "His tongue getting ahead of his words" },
+        gossip = "Goodman can send a call across the street. A few harmless words about silver sacks have given him rather more difficulty.",
+        bio = "Crier Goodman carries news through Stormwind. His notices send heroes to Ashlam Valorfist at Chillwind Camp and to Fandral Staghelm about the Cenarion Circle's work. He gives the city's listeners a place to begin answering distant calls for aid.",
+        backstory = "Goodman practices difficult phrases to keep his words clear. One exercise concerns six silken sashes in seven silver sacks. He can explain several distant destinations without hesitation, then tie this little bundle of syllables in knots.",
+        secret = "He can say the phrase slowly. Each success tempts him to try it faster, and then the sashes get the better of him again. He finds the exercise too funny to abandon.",
+        bestFriend = "Stay a moment, friend. Have you news of your own? I should like to hear it at whatever volume suits the two of us.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation for a clear performance is welcome after the last word reaches its audience." },
+        lines = {
+            greet = { { "There you are, my friend! Have you news of your own? Come on, we can walk while you tell me. I should like to hear what has been happening in your part of the world.", tone = "[bright resonant warmth, clear diction, welcoming]" }, "Good to see you! Shall we hear what the day has brought?" },
+            idle = { { "Six silken sashes in seven silver sacks. There! Quite clear, at that speed. Now I am tempted to try it faster, which is generally where the sashes begin to win.", tone = "[careful enunciation, pleased, amused at himself]" }, "The destination matters. A fine call is wasted if nobody knows where to answer it.", "There is news to carry, and there are people ready to hear it." },
+            befriended = { { "You came to bring me along! Gladly, my friend. Come on. I shall enjoy hearing about your day, and you needn't compete with the far end of the street.", tone = "[warm delighted affection, personable, inviting]" } },
+            poke = { "Yes? Have you something worth sharing?", "I am listening. You have the audience this time." },
+            quest = { { "Well done! That is news worth hearing. Give yourself a moment to enjoy it. A call for help has found someone willing to see the work through.", tone = "[hearty sincere approval, celebratory, clear]" } },
+            mail = { "A message from elsewhere. Read the details; the important part may come after the grand introduction." },
+            zone = { "Another place with news of its own. Let us hear what people have to say." },
+            learned = { "There! A little practice has given you something new to call upon." },
+            rest = { "A pause would be welcome. Tell me something pleasant while we have a moment." },
+            levelUp = { "Well done, my friend! That deserves a proper acknowledgment." },
+            hearth = { "Back to Stormwind! There will be listeners, and perhaps another difficult phrase to practice." },
+        },
+    },
     -- Named Stormwind patrol officers, not generic guards: Scout/Forever
     -- human males, level 60 elite, friendly. Brady 14493 (Old Town), Jaxon
     -- 14472 (Trade District), Pomeroy 14492 (Mage Quarter). No personal
