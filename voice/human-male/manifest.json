@@ -1679,6 +1679,46 @@
     "text": "A good chance to sit. We can let the next errand wait a moment and have a proper conversation. Tell me one small thing that went well today. A good meal counts, if you had one.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1680_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1680",
+    "spoken": "[sincere easy companionship, gently teasing humor] I'd enjoy coming with you. Tell me what you've been doing while we walk. A little company makes the day pleasant, even when we're waiting for something. Especially if you can keep me from inspecting the kettle again.",
+    "text": "I'd enjoy coming with you. Tell me what you've been doing while we walk. A little company makes the day pleasant, even when we're waiting for something. Especially if you can keep me from inspecting the kettle again.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1680_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1680",
+    "spoken": "[easygoing welcoming warmth, calm attentive interest] Well met. How has your day been? There's time to tell me while we look at the water. If you've come to learn, we'll take it steadily. No need to hurry past the pleasant part of being here.",
+    "text": "Well met. How has your day been? There's time to tell me while we look at the water. If you've come to learn, we'll take it steadily. No need to hurry past the pleasant part of being here.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1680_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1680",
+    "spoken": "[dry self-deprecating amusement, relaxed contentment] I can wait quietly beside a fishing line, then go home and check the kettle three times. Apparently my patience has a favorite place to work. I'm trying to persuade it to travel a little further with me.",
+    "text": "I can wait quietly beside a fishing line, then go home and check the kettle three times. Apparently my patience has a favorite place to work. I'm trying to persuade it to travel a little further with me.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1680_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1680",
+    "spoken": "[relaxed thoughtful warmth, quietly amused sincerity] A good moment to sit. Tell me your news, and I'll practice leaving things alone long enough to enjoy it. There's a kind of waiting that feels like a rest. I'd like to get better at remembering that one.",
+    "text": "A good moment to sit. Tell me your news, and I'll practice leaving things alone long enough to enjoy it. There's a kind of waiting that feels like a rest. I'd like to get better at remembering that one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore17804_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

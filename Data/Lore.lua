@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Crystal Boughman 3087: human woman/cooking trainer, display 3379.
+    -- Alma Jainrose 812: human woman/herbalism trainer, display 1745.
+    -- Matthew Hooper 1680: human man/fishing trainer, display 3362, Lakeshire.
+    -- Current friendly Forever trainers; Classic and installed gossip checked.
+    -- Pastry leaves / uneven basket / impatience with a kettle are original.
+    -- docs/research/lakeshire-profession-trainers.md.
+    [3087] = {
+        quote = "There's always another thing to learn in a kitchen. Some days it's a fine new dish. Some days it's how to make a pastry leaf look a little less like a crumpled cabbage.",
+        likes = { "A learner pleased with a good meal", "Care taken over the simple steps", "A pastry leaf finally keeping its shape" },
+        dislikes = { "Rushing past a useful lesson", "Good food dismissed for plain looks", "A decoration refusing to resemble a leaf" },
+        gossip = "Crystal can teach a satisfying meal. Her private practice at little pastry decorations apparently calls for rather more patience.",
+        bio = "Crystal Boughman teaches cooking in Lakeshire, Redridge Mountains. Her lessons help learners build their skill with familiar dishes. Even an experienced cook can find another detail worth practicing before the next meal is ready.",
+        backstory = "She tried finishing a pie with little pastry leaves. They came out looking rather like crumpled cabbages. The pie was good, but the leaves became an enjoyable challenge. She began trying a few more whenever there was a little dough left.",
+        secret = "She has made one leaf she thought was nearly perfect. Then she ate it while deciding what to improve. It was a good reminder to enjoy the food as well as the practice.",
+        bestFriend = "Come and look at this one before I eat it. Does it look like a leaf? You can be honest. I'm pleased to have you here either way.",
+        favorite = { emote = "CHEER", hint = "A little enthusiasm helps someone enjoy the next attempt, even when the last one looked peculiar." },
+        lines = {
+            greet = { { "Hello there. What have you been learning to cook? Tell me how it went, including the bits that didn't quite work. I've been practicing little pastry leaves. Some of mine still look rather like cabbages, so you're in understanding company.", tone = "[confident welcoming teacher, warm self-deprecating humor]" }, "Come and tell me what you've been trying. There's always something new to learn." },
+            idle = { { "I made a pastry leaf that looked nearly perfect. Then I ate it while deciding what to improve. A small loss to the art of decoration, perhaps. But it was very good, and that is a useful result too.", tone = "[pleased reflective amusement, easy conversational warmth]" }, "A plain dish made with care can be a real pleasure.", "There. That one looks more like a leaf and less like a cabbage." },
+            befriended = { { "I'd enjoy a walk with you. We can talk about what you've been learning, and I can leave the pastry leaves alone for a little while. A change of view and some good company might do my patience a favor.", tone = "[sincere pleased companionship, lightly amused anticipation]" } },
+            poke = { "Yes? Is there a step you'd like to go over?", "What have you been wondering about?" },
+            learned = { { "Something new to practice! Give yourself time with it. A good first attempt can still look a little strange, and a strange-looking attempt can still teach you something useful. Believe me, I've had plenty of those pastry leaves.", tone = "[encouraging practical warmth, gently playful confidence]" } },
+            quest = { "Your task is finished. I hope there's time for a proper meal now." },
+            loot = { "A useful ingredient? Think about what you might make with it." },
+            rest = { "A moment to sit and enjoy ourselves. That belongs in a good day too." },
+            zone = { "A different place. I wonder what people like to cook here." },
+            levelUp = { "Well done! It's a pleasure to see the practice paying off." },
+            hearth = { "Back again. A familiar place can make a meal feel even more welcome." },
+        },
+    },
+    [812] = {
+        quote = "Take a proper look before you reach for a plant. A little attention now is worth a great deal of sorting things out afterward. I've learned the same lesson with basket weaving.",
+        likes = { "A plant identified with care", "A learner asking a useful question", "A basket edge growing a little straighter" },
+        dislikes = { "Plants gathered without attention", "Useful growth needlessly trampled", "Pretending a new skill needs no practice" },
+        gossip = "Alma can help a learner recognize a plant. The basket she has been making gives her a chance to recognize a beginner's difficulties again.",
+        bio = "Alma Jainrose teaches herbalism in Lakeshire, Redridge Mountains. Careful observation helps her learners recognize and gather plants. Away from a familiar lesson, she enjoys having something of her own that still needs practice.",
+        backstory = "She began weaving a small basket and found that the sides would not rise evenly. Slowing down to study each turn helped more than pulling the next strip tighter. Learning it for herself made an uncertain first attempt easier to remember.",
+        secret = "The basket still leans a little. She keeps working on it because she likes noticing what improved since the last attempt. Being the learner for a while has become part of the pleasure.",
+        bestFriend = "Have a look at this edge. A little straighter, isn't it? Sit with me and tell me what you've been learning. We can compare our progress.",
+        favorite = { emote = "NOD", hint = "An attentive response suits someone who values taking time to understand what is in front of you." },
+        lines = {
+            greet = { { "Hello. What have you been noticing on your travels? Tell me about it before we hurry into the next thing. A proper look can answer a surprising number of questions, whether you're studying a plant or trying to straighten a basket.", tone = "[attentive thoughtful welcome, quietly encouraging warmth]" }, "Come and tell me what you'd like to learn. We can take it a step at a time." },
+            idle = { { "I've been weaving a little basket. The sides lean. Pulling harder didn't help, so I slowed down and looked at each turn. It is rather useful to be reminded how much patience a first attempt can ask of someone.", tone = "[reflective candid warmth, gentle self-deprecating amusement]" }, "Take a moment to notice how that grows.", "That edge is a little straighter. I can see the difference now." },
+            befriended = { { "I'd like to come along. Show me what you've noticed, and we can look at a few things together. You may see something I have walked past. I enjoy being given a reason to pay attention all over again.", tone = "[sincere friendly curiosity, relaxed anticipation]" } },
+            poke = { "Yes? What have you found?", "I'm listening. Take your time explaining it." },
+            learned = { { "A new skill. Give yourself a fair chance to learn it. My basket didn't grow straight merely because I understood what I wanted it to look like. Sometimes you need another careful attempt before your hands catch up with the idea.", tone = "[patient practical encouragement, gently amused empathy]" } },
+            loot = { "Something worth keeping? Let's have a proper look before you pack it." },
+            quest = { "One task finished. I hope the care you took was noticed." },
+            rest = { "A quiet moment is useful. We can look around without hurrying." },
+            zone = { "Different ground. I wonder what we might learn by looking closely here." },
+            levelUp = { "Well done. Those careful attempts have brought you a little further." },
+            hearth = { "Back to familiar surroundings. There's still something to notice in them." },
+        },
+    },
+    [1680] = {
+        quote = "Fishing can teach you a great deal of patience. Apparently mine prefers to stay on the dock. It never seems to come home with me when I'm waiting for the kettle.",
+        likes = { "A learner enjoying a first catch", "A quiet stretch of Lake Everstill", "A cup finally ready after the waiting" },
+        dislikes = { "Giving up before trying the lesson", "A line tangled through carelessness", "Finding himself checking the kettle again" },
+        gossip = "Matthew can wait calmly beside a fishing line. Waiting for his own cup to be ready apparently puts his patience to a different test.",
+        bio = "Matthew Hooper teaches fishing on Lakeshire's docks by Lake Everstill. Learners come here to practice the craft in Redridge. He can help them begin, while a quiet stretch of water leaves room to enjoy the waiting as well.",
+        backstory = "After a peaceful spell by the water, he put a kettle on and found himself checking it far too often. It amused him that waiting could feel so different at home. He began trying to bring a little of the dock's calm to his own cup.",
+        secret = "He still catches himself lifting the lid to check. Then he laughs, sits down and tries again. Being able to teach patience does not mean he has finished practicing it himself.",
+        bestFriend = "Sit with me a moment. If I start watching the kettle again, tell me your news. Good company makes that sort of waiting much easier.",
+        favorite = { emote = "SMILE", hint = "A friendly response lets him enjoy the small joke of finding his own patience still needs practice." },
+        lines = {
+            greet = { { "Well met. How has your day been? There's time to tell me while we look at the water. If you've come to learn, we'll take it steadily. No need to hurry past the pleasant part of being here.", tone = "[easygoing welcoming warmth, calm attentive interest]" }, "Good to see you. Come and enjoy a moment by the water." },
+            idle = { { "I can wait quietly beside a fishing line, then go home and check the kettle three times. Apparently my patience has a favorite place to work. I'm trying to persuade it to travel a little further with me.", tone = "[dry self-deprecating amusement, relaxed contentment]" }, "Give it a moment. There's a great deal to enjoy in a quiet pause.", "I've checked it already. Yes, I do remember that." },
+            befriended = { { "I'd enjoy coming with you. Tell me what you've been doing while we walk. A little company makes the day pleasant, even when we're waiting for something. Especially if you can keep me from inspecting the kettle again.", tone = "[sincere easy companionship, gently teasing humor]" } },
+            poke = { "Yes? What would you like to know?", "I'm listening. There's no hurry." },
+            rest = { { "A good moment to sit. Tell me your news, and I'll practice leaving things alone long enough to enjoy it. There's a kind of waiting that feels like a rest. I'd like to get better at remembering that one.", tone = "[relaxed thoughtful warmth, quietly amused sincerity]" } },
+            learned = { "Something new to try. Give yourself a little patience with the practice." },
+            quest = { "That's your errand done. Take a breath before the next one." },
+            loot = { "A worthwhile find. It's pleasant when a little patience brings something back." },
+            zone = { "A different view. Shall we take a moment to enjoy it?" },
+            levelUp = { "Well done. A little more practice has brought you a little further." },
+            hearth = { "Home again. Now to see whether I remembered to bring my patience." },
+        },
+    },
     -- Darcy 379: waitress, human woman, display 3367, Lakeshire Inn.
     -- Guard Parker 464: human man, display 2150, Three Corners road patrol.
     -- Martie Jainrose 342: human woman, display 1743, Lakeshire herbalist.

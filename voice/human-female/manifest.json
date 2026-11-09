@@ -1359,6 +1359,46 @@
     "text": "Something new to practice! Give yourself a little time with it. I still lose my beat whenever I try adding a tune, and I haven't stopped enjoying the effort. Getting a bit further is a pleasure of its own.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore3087_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3087",
+    "spoken": "[sincere pleased companionship, lightly amused anticipation] I'd enjoy a walk with you. We can talk about what you've been learning, and I can leave the pastry leaves alone for a little while. A change of view and some good company might do my patience a favor.",
+    "text": "I'd enjoy a walk with you. We can talk about what you've been learning, and I can leave the pastry leaves alone for a little while. A change of view and some good company might do my patience a favor.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3087_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3087",
+    "spoken": "[confident welcoming teacher, warm self-deprecating humor] Hello there. What have you been learning to cook? Tell me how it went, including the bits that didn't quite work. I've been practicing little pastry leaves. Some of mine still look rather like cabbages, so you're in understanding company.",
+    "text": "Hello there. What have you been learning to cook? Tell me how it went, including the bits that didn't quite work. I've been practicing little pastry leaves. Some of mine still look rather like cabbages, so you're in understanding company.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3087_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3087",
+    "spoken": "[pleased reflective amusement, easy conversational warmth] I made a pastry leaf that looked nearly perfect. Then I ate it while deciding what to improve. A small loss to the art of decoration, perhaps. But it was very good, and that is a useful result too.",
+    "text": "I made a pastry leaf that looked nearly perfect. Then I ate it while deciding what to improve. A small loss to the art of decoration, perhaps. But it was very good, and that is a useful result too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3087_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3087",
+    "spoken": "[encouraging practical warmth, gently playful confidence] Something new to practice! Give yourself time with it. A good first attempt can still look a little strange, and a strange-looking attempt can still teach you something useful. Believe me, I've had plenty of those pastry leaves.",
+    "text": "Something new to practice! Give yourself time with it. A good first attempt can still look a little strange, and a strange-looking attempt can still teach you something useful. Believe me, I've had plenty of those pastry leaves.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore342_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -2092,6 +2132,46 @@
     "source": "lore:777",
     "spoken": "[bright observant curiosity, gently amused warmth] Somewhere different. Let's take a look around before we hurry on. I wonder what people call their little shops here. A good name can stay with me long after I've forgotten what I went in to buy.",
     "text": "Somewhere different. Let's take a look around before we hurry on. I wonder what people call their little shops here. A good name can stay with me long after I've forgotten what I went in to buy.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore812_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:812",
+    "spoken": "[sincere friendly curiosity, relaxed anticipation] I'd like to come along. Show me what you've noticed, and we can look at a few things together. You may see something I have walked past. I enjoy being given a reason to pay attention all over again.",
+    "text": "I'd like to come along. Show me what you've noticed, and we can look at a few things together. You may see something I have walked past. I enjoy being given a reason to pay attention all over again.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore812_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:812",
+    "spoken": "[attentive thoughtful welcome, quietly encouraging warmth] Hello. What have you been noticing on your travels? Tell me about it before we hurry into the next thing. A proper look can answer a surprising number of questions, whether you're studying a plant or trying to straighten a basket.",
+    "text": "Hello. What have you been noticing on your travels? Tell me about it before we hurry into the next thing. A proper look can answer a surprising number of questions, whether you're studying a plant or trying to straighten a basket.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore812_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:812",
+    "spoken": "[reflective candid warmth, gentle self-deprecating amusement] I've been weaving a little basket. The sides lean. Pulling harder didn't help, so I slowed down and looked at each turn. It is rather useful to be reminded how much patience a first attempt can ask of someone.",
+    "text": "I've been weaving a little basket. The sides lean. Pulling harder didn't help, so I slowed down and looked at each turn. It is rather useful to be reminded how much patience a first attempt can ask of someone.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore812_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:812",
+    "spoken": "[patient practical encouragement, gently amused empathy] A new skill. Give yourself a fair chance to learn it. My basket didn't grow straight merely because I understood what I wanted it to look like. Sometimes you need another careful attempt before your hands catch up with the idea.",
+    "text": "A new skill. Give yourself a fair chance to learn it. My basket didn't grow straight merely because I understood what I wanted it to look like. Sometimes you need another careful attempt before your hands catch up with the idea.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore820_befriended_1.ogg": {

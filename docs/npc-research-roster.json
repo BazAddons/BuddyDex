@@ -217,5 +217,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
     "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md"
+  },
+  {
+    "npc_id": 3087,
+    "name": "Crystal Boughman",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever trainer data, Classic and installed referral checks",
+    "research_notes": "docs/research/lakeshire-profession-trainers.md"
+  },
+  {
+    "npc_id": 812,
+    "name": "Alma Jainrose",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever trainer data, Classic and installed referral checks",
+    "research_notes": "docs/research/lakeshire-profession-trainers.md"
+  },
+  {
+    "npc_id": 1680,
+    "name": "Matthew Hooper",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever trainer data, Classic and installed referral checks",
+    "research_notes": "docs/research/lakeshire-profession-trainers.md"
   }
 ]
