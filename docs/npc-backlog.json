@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 78,
-  "remaining_count": 139,
+  "completed_count": 82,
+  "remaining_count": 135,
   "completed": [
     {
       "npc_id": 54,
@@ -265,6 +265,42 @@
     {
       "npc_id": 1275,
       "name": "Kyra Boucher",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1299,
+      "name": "Lisbeth Schneider",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1300,
+      "name": "Lawrence Schneider",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1309,
+      "name": "Wynne Larson",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1310,
+      "name": "Evan Larson",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1042,13 +1078,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1310,
-      "name": "Evan Larson",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 1298,
       "name": "Frederick Stover",
       "zone": "Stormwind City",
@@ -1175,13 +1204,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1300,
-      "name": "Lawrence Schneider",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 2795,
       "name": "Lenny \"Fingers\" McCoy",
       "zone": "Stormwind City",
@@ -1212,13 +1234,6 @@
     {
       "npc_id": 1414,
       "name": "Lisan Pierce",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1299,
-      "name": "Lisbeth Schneider",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1492,13 +1507,6 @@
     {
       "npc_id": 11867,
       "name": "Woo Ping",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1309,
-      "name": "Wynne Larson",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

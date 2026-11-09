@@ -39,6 +39,86 @@
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1300_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1300",
+    "spoken": "[sincere warmth, companionable, reassuring] It's good to have a friend who'll remind me when I'm being stubborn. I hope you'll let me do the same for you.",
+    "text": "It's good to have a friend who'll remind me when I'm being stubborn. I hope you'll let me do the same for you.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1300_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1300",
+    "spoken": "[patient, dryly amused, friendly] An outing would be welcome. I've been advising people to take a break all morning. Time I followed my own advice.",
+    "text": "An outing would be welcome. I've been advising people to take a break all morning. Time I followed my own advice.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1300_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1300",
+    "spoken": "[self-deprecating, gentle humor, candid] Yes, I knot my own thread. Then I have to listen to my own advice about patience. Most inconvenient.",
+    "text": "Yes, I knot my own thread. Then I have to listen to my own advice about patience. Most inconvenient.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1300_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1300",
+    "spoken": "[quiet pride, encouraging, warmly approving] There you are. You couldn't do that before, and now you can. Give yourself credit for the practice.",
+    "text": "There you are. You couldn't do that before, and now you can. Give yourself credit for the practice.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1310_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1310",
+    "spoken": "[warm, quietly pleased, easygoing] Someone to talk to who isn't asking whether the hat comes in another color. Splendid. I'm glad you came.",
+    "text": "Someone to talk to who isn't asking whether the hat comes in another color. Splendid. I'm glad you came.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1310_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1310",
+    "spoken": "[dry humor, friendly, unhurried] A walk? Certainly. Let's hope the wind has better manners today. I've spent enough time chasing hats.",
+    "text": "A walk? Certainly. Let's hope the wind has better manners today. I've spent enough time chasing hats.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1310_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1310",
+    "spoken": "[fond, mildly defensive, amused] It's an old hat. A very comfortable old hat. I sell new ones; that doesn't oblige me to stop liking this one.",
+    "text": "It's an old hat. A very comfortable old hat. I sell new ones; that doesn't oblige me to stop liking this one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1310_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:1310",
+    "spoken": "[alarmed, comic urgency, raised voice] Hold on to your hat! Yes, even the expensive one. Especially the expensive one!",
+    "text": "Hold on to your hat! Yes, even the expensive one. Especially the expensive one!",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1427_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

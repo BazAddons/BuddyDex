@@ -39,6 +39,86 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1299_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1299",
+    "spoken": "[sincere affection, delighted, welcoming] You came back just to visit. That means a great deal. Come along, then. Let's find something cheerful to look at.",
+    "text": "You came back just to visit. That means a great deal. Come along, then. Let's find something cheerful to look at.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1299_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1299",
+    "spoken": "[warm, cheerful, conversational] There you are. A little daylight would be lovely. You can't spend the whole day looking at colors indoors.",
+    "text": "There you are. A little daylight would be lovely. You can't spend the whole day looking at colors indoors.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1299_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1299",
+    "spoken": "[contented, gently amused, personal warmth] That bright cloth? It's for me to look at. Yes, I know I could sell it. I like having a little color that's just mine.",
+    "text": "That bright cloth? It's for me to look at. Yes, I know I could sell it. I like having a little color that's just mine.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1299_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:1299",
+    "spoken": "[soft wonder, observant, pleased] Oh, look at the colors here. Give me a moment. I want to remember how they look in this light.",
+    "text": "Oh, look at the colors here. Give me a moment. I want to remember how they look in this light.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1309_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1309",
+    "spoken": "[warm delight, playful, welcoming] A friend who'll tell me when I've caught my hem? Invaluable. Come along. We can make a little occasion of this.",
+    "text": "A friend who'll tell me when I've caught my hem? Invaluable. Come along. We can make a little occasion of this.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1309_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1309",
+    "spoken": "[confident, bright, lightly theatrical] Out we go. I want to see how everything moves in daylight. You can't judge a whole world from a fitting room.",
+    "text": "Out we go. I want to see how everything moves in daylight. You can't judge a whole world from a fitting room.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1309_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1309",
+    "spoken": "[wry, amused, theatrical dignity] Yes, I practice the entrance. Once a chair kept the hem. I bowed anyway. A professional carries on.",
+    "text": "Yes, I practice the entrance. Once a chair kept the hem. I bowed anyway. A professional carries on.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1309_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1309",
+    "spoken": "[pleased, encouraging, curious] Look at you. Another skill to your name! You'll have to show me how it's done when we have a moment.",
+    "text": "Look at you. Another skill to your name! You'll have to show me how it's done when we have a moment.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1428_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
