@@ -1,4 +1,44 @@
 {
+  "lore11596_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11596",
+    "spoken": "[pleased] [conspiratorial] You know when to step aside, when to help me count, and when a little celebration is appropriate. Useful qualities. Come along. I enjoy having someone around who can appreciate a good arrival without immediately asking how much the escort will cost.",
+    "text": "You know when to step aside, when to help me count, and when a little celebration is appropriate. Useful qualities. Come along. I enjoy having someone around who can appreciate a good arrival without immediately asking how much the escort will cost.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore11596_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11596",
+    "spoken": "[animated] [eager] There you are. Listen, do you hear that rumble? Could be the sound of a very prosperous afternoon. Stand over here, where prosperity won't step on you. I want to count everything before anybody starts discussing what it costs to keep.",
+    "text": "There you are. Listen, do you hear that rumble? Could be the sound of a very prosperous afternoon. Stand over here, where prosperity won't step on you. I want to count everything before anybody starts discussing what it costs to keep.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore11596_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11596",
+    "spoken": "[amused] [excited] I try to give an arrival a proper businessman's nod. Calm, measured, impressive. Then the ground starts shaking, and I grin like I've already collected every coin. All right, I enjoy the entrance. Now where did I get to with the counting?",
+    "text": "I try to give an arrival a proper businessman's nod. Calm, measured, impressive. Then the ground starts shaking, and I grin like I've already collected every coin. All right, I enjoy the entrance. Now where did I get to with the counting?",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore11596_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:11596",
+    "spoken": "[businesslike] [wry] Cork and Rigger need the caravan to arrive, and I need them to keep paying for the kodos. That gives all of us an interest in seeing the road go well. It also gives me an excellent reason to complain about escort expenses.",
+    "text": "Cork and Rigger need the caravan to arrive, and I need them to keep paying for the kodos. That gives all of us an interest in seeing the road go well. It also gives me an excellent reason to complain about escort expenses.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3391_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

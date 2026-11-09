@@ -686,6 +686,20 @@
       "zone": "Desolace",
       "route": "Night Elf/Goblin coverage",
       "reason": "Exact named adult identity/body checked; full service/quest/literary research pending. See docs/research/shandrina-and-smeed-queue.md; current reaction fields remain qualified"
+    },
+    {
+      "npc_id": 12032,
+      "name": "Lui'Mala",
+      "zone": "Desolace",
+      "route": "Troll female/Night Elf male coverage",
+      "reason": "Exact current named adult body, faction icon and pin checked; full personal service/quest research pending. See docs/research/luimala-and-alegorn-queue.md"
+    },
+    {
+      "npc_id": 4210,
+      "name": "Alegorn",
+      "zone": "Darnassus",
+      "route": "Troll female/Night Elf male coverage",
+      "reason": "Exact current named adult body, faction icon and pin checked; full personal service/quest research pending. See docs/research/luimala-and-alegorn-queue.md"
     }
   ]
 }

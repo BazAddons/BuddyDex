@@ -119,6 +119,46 @@
     "text": "You have learned something worth carrying with you. Give it thought, and consider where it may help another person. There will be more to understand in time. For now, take care with what you know, and do not be afraid to return with another question.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore3955_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3955",
+    "spoken": "[warm] [sincere] You have made these little moments familiar, and I find myself looking forward to them. Come along. You can tell me what is on your mind, or we can leave it quiet for a while. I am glad you are here.",
+    "text": "You have made these little moments familiar, and I find myself looking forward to them. Come along. You can tell me what is on your mind, or we can leave it quiet for a while. I am glad you are here.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3955_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3955",
+    "spoken": "[gentle] [welcoming] Welcome back. There is no need to have a story ready. We can talk as we go, or take a little time to notice where we are. I am happy to have your company without asking you to entertain me.",
+    "text": "Welcome back. There is no need to have a story ready. We can talk as we go, or take a little time to notice where we are. I am happy to have your company without asking you to entertain me.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3955_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3955",
+    "spoken": "[soft] [reflective] A traveler once stayed after buying supplies, and I kept trying to think of something else to say. Then I noticed how comfortable the silence had become. I let it stay. Sometimes company is enough without improving it with another question.",
+    "text": "A traveler once stayed after buying supplies, and I kept trying to think of something else to say. Then I noticed how comfortable the silence had become. I let it stay. Sometimes company is enough without improving it with another question.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3955_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3955",
+    "spoken": "[thoughtful] [lightly amused] A small supply can make the difference between setting work aside and finishing it. Thread, a vial, the tool you nearly forgot. It is worth taking a moment to remember what you need before filling every space with something merely interesting.",
+    "text": "A small supply can make the difference between setting work aside and finishing it. Thread, a vial, the tool you nearly forgot. It is worth taking a moment to remember what you need before filling every space with something merely interesting.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore5499_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

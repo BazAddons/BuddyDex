@@ -302,3 +302,10 @@ Next individually checked identities: Ula'elek 6408 and Orm Stonehoof 6410; [que
 Ula'elek 6408 and Orm Stonehoof 6410 complete: full Troll/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](senjin-sketches-and-stonehoof-latches.md) preserves their distinct methods and qualifies unavailable current quests. Development total **348**; public access Alliance 192, Horde 72, unverified 90 (six shared profiles overlap). Ula'elek remains publicly unverified; normal live eligibility stays mandatory. Installed/development-packaged, no publication.
 
 Next individually checked Night Elf/Goblin identities: Shandrina 3955 and Smeed Scrabblescrew 11596; [queue](shandrina-and-smeed-queue.md). These are pending research, with reaction/service availability limitations retained.
+
+
+### 2026-11-09: Silverwind and Scrabblescrew
+
+Shandrina 3955 and Smeed Scrabblescrew 11596 complete: full Night Elf/Goblin profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](silverwind-quiet-and-kodo-footfalls.md) separates cookbook history, caravan duties and current availability. Development total **350**; public access Alliance 192, Horde 72, unverified 92 (six shared profiles overlap). Installed/development-packaged; publication remains deferred.
+
+Next checked identities: Lui'Mala 12032 and Alegorn 4210, [queue](luimala-and-alegorn-queue.md). Neither is counted complete.

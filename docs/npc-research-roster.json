@@ -1001,5 +1001,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current adult Troll/Tauren body and map identity; Ula'elek current reaction unverified, Orm Horde-friendly; full own relations, connected armor chain, installed text, items and literary/era review; no Scout sighting claimed",
     "research_notes": "docs/research/senjin-sketches-and-stonehoof-latches.md"
+  },
+  {
+    "npc_id": 3955,
+    "name": "Shandrina",
+    "zone": "Ashenvale",
+    "source": "Exact current named adult Night Elf/Goblin body; Shandrina map/reaction omitted, Smeed Horde-icon Neutral with Desolace pin; full own relations, cookbook/referrals, kodo/caravan quest network, installed text and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/silverwind-quiet-and-kodo-footfalls.md"
+  },
+  {
+    "npc_id": 11596,
+    "name": "Smeed Scrabblescrew",
+    "zone": "Desolace",
+    "source": "Exact current named adult Night Elf/Goblin body; Shandrina map/reaction omitted, Smeed Horde-icon Neutral with Desolace pin; full own relations, cookbook/referrals, kodo/caravan quest network, installed text and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/silverwind-quiet-and-kodo-footfalls.md"
   }
 ]

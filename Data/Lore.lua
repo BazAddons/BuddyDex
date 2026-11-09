@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shandrina <Trade Goods>, Silverwind Refuge, Ashenvale; adult female
+    -- Night Elf, 3955/display 2068. Classic wares include Expert Cookbook;
+    -- installed cooking referrals name her. Current map/reaction omitted.
+    -- Comfortable silence is ours. No later death/wisp or authored cookbook.
+    -- Research: docs/research/silverwind-quiet-and-kodo-footfalls.md.
+    [3955] = {
+        quote = "You do not have to fill the whole afternoon with words. There is room for us both to be quiet.",
+        likes = { "Company that can settle without a story", "A useful book finding the right reader", "A conversation allowed to find its pace" },
+        dislikes = { "Treating every silence as a problem", "Apologizing for needing a little rest", "Being hurried through a simple greeting" },
+        gossip = "Shandrina spent an afternoon with a traveler and hardly said a word. Both seemed to think the conversation had gone very well.",
+        bio = "Shandrina supplies trade goods at Silverwind Refuge in Ashenvale. Her wares include the Expert Cookbook, and cooking trainers send aspiring cooks her way. Threads, dyes and everyday tools give other travelers reasons to stop as well.",
+        backstory = "A traveler once sat nearby after buying supplies. Shandrina offered more conversation, then noticed how content the visitor looked without it. She let the pause stay. The traveler thanked her before leaving, and she remembered.",
+        secret = "She does not always know what to say either. It is a relief when someone can sit beside her without expecting a clever thought to fill every pause.",
+        bestFriend = "Stay as long as you like. Tell me something when you wish to, or nothing at all. I am glad of your company either way.",
+        favorite = { emote = "SMILE", hint = "Likes a little warmth that asks for no explanation in return." },
+        lines = {
+            greet = { { "Welcome back. There is no need to have a story ready. We can talk as we go, or take a little time to notice where we are. I am happy to have your company without asking you to entertain me.", tone = "[gentle] [welcoming]" },
+                "Good to see you. Take a moment to settle before deciding what you need." },
+            idle = { { "A traveler once stayed after buying supplies, and I kept trying to think of something else to say. Then I noticed how comfortable the silence had become. I let it stay. Sometimes company is enough without improving it with another question.", tone = "[soft] [reflective]" },
+                "There is nothing wrong with a pause that feels pleasant.",
+                "You may finish that thought in your own time." },
+            befriended = { { "You have made these little moments familiar, and I find myself looking forward to them. Come along. You can tell me what is on your mind, or we can leave it quiet for a while. I am glad you are here.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening.", "No need to apologize. A quiet moment can wait for you." },
+            loot = { { "A small supply can make the difference between setting work aside and finishing it. Thread, a vial, the tool you nearly forgot. It is worth taking a moment to remember what you need before filling every space with something merely interesting.", tone = "[thoughtful] [lightly amused]" } },
+            bagsFull = { "Perhaps leave room for what you came to find." },
+            rest = { "This seems a good place to enjoy doing very little." },
+            zone = { "Let us take a moment before deciding what to say about it." },
+            quest = { "A useful book is a good beginning. The practice is still yours." },
+            laughAlong = { "That was worth waiting for." },
+            hearth = { "Familiar surroundings. We can settle here for a while." },
+        },
+    },
+
+    -- Smeed Scrabblescrew, Desolace, adult male Goblin,
+    -- 11596/display 11470; current Horde-icon Neutral, not both-side proof.
+    -- Classic 5561/5821/5943: kombobulator, Cork/Rigger, Bibbly rivalry,
+    -- caravan payments; exact gossip and published footfall/bifocal quotes.
+    -- Losing his counting to his delight is ours. No new taming power.
+    -- Research: docs/research/silverwind-quiet-and-kodo-footfalls.md.
+    [11596] = {
+        quote = "Hear that? That is the sound of a growing business. Mind where it puts its feet.",
+        likes = { "The ground shaking under arriving kodos", "Imagining Bibbly hearing of his success", "His bifocals where he can find them" },
+        dislikes = { "Escort fees eating into the proceeds", "A late caravan that still owes him", "Discovering how much room growth needs" },
+        gossip = "Smeed claims he can hear prosperity coming down the road. Most people hear enormous feet and move out of the way.",
+        bio = "At Scrabblescrew's Camp, Smeed supplies kodos to Cork and Rigger's caravan. His kombobulator rejuvenates and controls old beasts. He settles escort rewards, complains about the cost and imagines how his success will look to Bibbly.",
+        backstory = "Smeed once tried to greet an arriving group with a sober businessman's nod. The ground shook, his grin won, and he lost count. Since then, he tries to finish counting before enjoying the entrance. It rarely works.",
+        secret = "He likes the rumbling arrival before he has calculated what it will earn. He would rather call that professional enthusiasm than admit he forgot the money for a moment.",
+        bestFriend = "Stand here, out of the way. Hear that? Count with me. If I start grinning and lose my place, I expect you to remember the number.",
+        favorite = { emote = "CHEER", hint = "Thinks a sufficiently impressive arrival deserves a little celebration." },
+        lines = {
+            greet = { { "There you are. Listen, do you hear that rumble? Could be the sound of a very prosperous afternoon. Stand over here, where prosperity won't step on you. I want to count everything before anybody starts discussing what it costs to keep.", tone = "[animated] [eager]" },
+                "Good, another pair of eyes. Help me count before I start celebrating." },
+            idle = { { "I try to give an arrival a proper businessman's nod. Calm, measured, impressive. Then the ground starts shaking, and I grin like I've already collected every coin. All right, I enjoy the entrance. Now where did I get to with the counting?", tone = "[amused] [excited]" },
+                "Bibbly ought to hear this. From a safe distance, naturally.",
+                "Where are my bifocals? I would like to see this success as well as hear it." },
+            befriended = { { "You know when to step aside, when to help me count, and when a little celebration is appropriate. Useful qualities. Come along. I enjoy having someone around who can appreciate a good arrival without immediately asking how much the escort will cost.", tone = "[pleased] [conspiratorial]" } },
+            poke = { "One moment. I have nearly reached the right number.", "Yes? Tell me that is good news about the caravan." },
+            quest = { { "Cork and Rigger need the caravan to arrive, and I need them to keep paying for the kodos. That gives all of us an interest in seeing the road go well. It also gives me an excellent reason to complain about escort expenses.", tone = "[businesslike] [wry]" } },
+            loot = { "Count it before announcing how rich you are." },
+            bagsFull = { "Growth requires room. An irritating detail in any business plan." },
+            rest = { "A moment to sit and work out what this is costing." },
+            combatStart = { "This is exactly the sort of expense I was talking about!" },
+            combatEnd = { "Everyone still here? Good. Now we can discuss the cost." },
+            hearth = { "Back to familiar business. I hope it has not grown larger than the camp." },
+        },
+    },
+
     -- Ula'elek, Sen'jin Village, adult male Troll, 6408/display 5370.
     -- Classic 1839/1842/1843: Thun'grim's gauntlet contact, spirits,
     -- satyr-hoof magic and ancestral pride. Current reaction unverified.

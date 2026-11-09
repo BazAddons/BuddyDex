@@ -1,4 +1,6 @@
-# Next: Shandrina and Smeed Scrabblescrew
+# Completed: Shandrina and Smeed Scrabblescrew
+
+Completed 2026-11-09; see [full research and validation](silverwind-quiet-and-kodo-footfalls.md). Historical planning notes below.
 
 Individually checked identities, 2026-11-09. Neither authored or recorded; no Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/shandrina-smeed-research`.
 
