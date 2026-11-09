@@ -32977,7 +32977,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -33000,7 +33000,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -33023,7 +33023,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39070,6 +39070,39 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 14363,
+      "name": "Thief Catcher Shadowdelve",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Thief Catcher Shadowdelve",
+      "zone": "Ironforge",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 14365,
+      "name": "Thief Catcher Farmountain",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Thief Catcher Farmountain",
+      "zone": "Ironforge",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 14367,
+      "name": "Thief Catcher Thunderbrew",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Thief Catcher Thunderbrew",
+      "zone": "Ironforge",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 11996,
       "name": "Ashley Bridenbecker",
       "source": "Existing local backlog; absent from source filter",
@@ -39152,39 +39185,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Lomac Gearstrip",
-      "zone": "Ironforge",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14365,
-      "name": "Thief Catcher Farmountain",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Thief Catcher Farmountain",
-      "zone": "Ironforge",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14363,
-      "name": "Thief Catcher Shadowdelve",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Thief Catcher Shadowdelve",
-      "zone": "Ironforge",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14367,
-      "name": "Thief Catcher Thunderbrew",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Thief Catcher Thunderbrew",
       "zone": "Ironforge",
       "scout_reaction": 5,
       "scout_attackable": false,

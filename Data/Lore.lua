@@ -42,6 +42,83 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Named male dwarf Ironforge patrol guards, not generic Ironforge Guards:
+    -- Farmountain 14365, Shadowdelve 14363, Thunderbrew 14367. Classic stealth
+    -- detection patrol role; no personal quest chain found. Private hooks
+    -- are original: docs/research/ironforge-thief-catchers.md.
+    [14365] = {
+        quote = "Lost, are you? No shame in asking. I'd rather walk you to the right turning than watch you pretend you meant to pass it three times.",
+        likes = { "A visitor asking for directions", "A clear path through a busy hall", "A respectful greeting on patrol" },
+        dislikes = { "A doorway blocked by a crowd", "A lost traveler being laughed at", "A prank that distracts a working guard" },
+        gossip = "Farmountain eases strangers' worries with a few words. His private maps apparently need a few words of explanation.",
+        bio = "Thief Catcher Farmountain is one of Ironforge's three named patrol guards, alongside Shadowdelve and Thunderbrew. He watches the city halls for intruders, including enemies trying to slip past unseen.",
+        backstory = "Repeated rounds have made him patient with visitors who cannot tell one turning from another. He began sketching familiar corners to help explain directions, discovering that a memorable picture can work better than a long speech.",
+        secret = "His maps have dreadful little drawings of landmarks. The forge looks like a boiling kettle. He knows, and keeps drawing it that way because people remember it.",
+        bestFriend = "You needn't pretend to know the way with me. If we're lost outside these halls, we'll work it out together.",
+        favorite = { emote = "SALUTE", hint = "A respectful acknowledgment means something to a guard on his rounds." },
+        lines = {
+            greet = { { "Aye, I'll walk with you. Say if you want the long explanation or just the next turning.", tone = "[steady dwarf, friendly practical humor]" }, "Ready. A good chance to see where you usually go." },
+            idle = { { "That is the forge on my map. Yes, it looks like a kettle. You remembered it, though.", tone = "[dryly amused, unembarrassed warmth]" }, "Asking the way is quicker than looking certain and walking in circles.", "A clear doorway is a kindness to everyone using it." },
+            befriended = { { "Good company, you are. You can ask the way as often as you need. I won't start counting.", tone = "[warm, reassuring, understated good humor]" } },
+            poke = { "Aye? Which turning?", "You could just wave. I keep an eye out." },
+            zone = { { "{zone}. Your turn to show me the useful landmarks.", say = "Your turn to show me the useful landmarks." } },
+            quest = { "Someone sent safely on their way. That's work worth doing." },
+            group = { { "Everyone know where we're headed? Good to ask before we set off.", tone = "[happily]" } },
+            rest = { "A moment to get our bearings. No hurry." },
+            combatEnd = { "All accounted for? Then let's find a clear way onward." },
+            levelUp = { "Well done. More experience doesn't mean you have to stop asking questions." },
+            hearth = { "Ironforge. Those turnings I know." },
+        },
+    },
+    [14363] = {
+        quote = "An ordinary day leaves plenty to notice. I happen to like it when none of those things needs an alarm raised.",
+        likes = { "A quiet round through familiar halls", "Small details others walk past", "An acknowledgment that needs few words" },
+        dislikes = { "Every silence treated as suspicious", "A careless distraction during a watch", "Boasting about what nobody could see" },
+        gossip = "Shadowdelve's notebook holds observations from his rounds. His neighbors wonder how much there is to report on a quiet day.",
+        bio = "Thief Catcher Shadowdelve patrols Ironforge as one of its three named thief catchers. Their watch helps detect hidden enemies. The familiar halls are his workplace, not an invitation for intruders to test their stealth.",
+        backstory = "Long rounds gave him an appreciation for the details that make a familiar place feel lived in. Between the things that need reporting, he began saving a few words about the sounds and sights of a peaceful city.",
+        secret = "The notebook holds tiny poems about quiet rounds. He likes trying to describe a day when nothing went wrong. He considers those days well worth remembering.",
+        bestFriend = "I could read you one, if you'd like. It's only a few lines. You make it easier to share the quiet things.",
+        favorite = { emote = "NOD", hint = "He appreciates a small acknowledgment without a grand interruption." },
+        lines = {
+            greet = { { "Ready. We can talk, or just walk a while. Both are agreeable.", tone = "[quiet dwarf, composed warmth]" }, "A new stretch of road. Something worth noticing, perhaps." },
+            idle = { { "A poem about an uneventful round? Aye. An uneventful round is a fine thing to have.", tone = "[thoughtful, gently amused, quietly sincere]" }, "There's a difference between being watchful and expecting everyone to be trouble.", "Listen a moment. A place tells you something even when nobody speaks." },
+            befriended = { { "You don't insist on filling every quiet moment. I like that about your company.", tone = "[reserved affection, warm and unhurried]" } },
+            poke = { "Aye? I've noticed you.", "One moment. I nearly had the right word." },
+            rest = { { "A quiet seat and a little time. I may write a line or two.", tone = "[content, reflective, low conversational voice]" } },
+            zone = { { "{zone}. A different sound to the place, isn't there?", say = "A different sound to the place, isn't there?" } },
+            quest = { "Finished without anyone being forgotten. A good result." },
+            loot = { "An interesting detail. What did you notice first?" },
+            combatEnd = { "All safe? Good. I'd rather remember the quiet part afterward." },
+            levelUp = { "Well earned. Take a moment to notice how far you've come." },
+            hearth = { "Back to the familiar halls. There may still be something new to notice." },
+        },
+    },
+    [14367] = {
+        quote = "Mind the people beside you. A crowded hall goes better when everyone remembers they've a neighbor.",
+        likes = { "Room made for a passing stranger", "A lively tune after a long day", "A companion willing to try a dance" },
+        dislikes = { "Elbows used in place of manners", "A joke that leaves someone humiliated", "Being told guard boots cannot dance" },
+        gossip = "Thunderbrew's steady patrol pace sometimes develops an odd little rhythm. Perhaps he's remembering a tune.",
+        bio = "Thief Catcher Thunderbrew is a named guard patrolling Ironforge, alongside Farmountain and Shadowdelve. He helps watch for enemies who try to enter unnoticed. His work takes him through the city's busy halls.",
+        backstory = "Repeated walks through crowded passages have made him particular about giving others room. He likes a measured pace on duty, but after a long day the rhythm of a good tune can be more appealing than another straight march.",
+        secret = "He practices dance steps when he has a quiet moment off duty. The boots make it harder, but he refuses to blame them for every mistake. Some of the rhythm is his to learn.",
+        bestFriend = "If I miss a step, you may laugh with me. Then we'll try it again. Good company makes being a little foolish easier.",
+        favorite = { emote = "DANCE", hint = "A cheerful step might reveal another use for those well-traveled boots." },
+        lines = {
+            greet = { { "Ready! A steady pace, unless you've a good tune in mind.", tone = "[genial dwarf, buoyant warmth]" }, "A walk with a friend. A fine way to spend a little time." },
+            idle = { { "The boots? Aye, they're heavy. I still can't blame them for every missed step.", tone = "[self-deprecating humor, cheerful honesty]" }, "A little room for the person beside you. Makes a better day for both.", "That tune's back in my head. I may be keeping time." },
+            befriended = { { "Good to have you along. We can make room for a laugh or two on the way.", tone = "[warm, easy, sincerely pleased]" } },
+            poke = { "Is that the beat we're keeping?", "Aye? You've my attention." },
+            danceAlong = { { "Right, then! Give me a moment to persuade the boots.", tone = "[playful enthusiasm, amused determination]" } },
+            group = { "More company! Mind your elbows, and we'll all get along." },
+            rest = { "A good seat. The boots and I agree on this much." },
+            quest = { "Work done. A good reason to lift your spirits." },
+            combatEnd = { "Everyone still with us? Good. Let's give each other a little room." },
+            levelUp = { "Well done! You've earned a cheerful step or two." },
+            hearth = { "Back to Ironforge. I know a fair few steps through those halls." },
+        },
+    },
+
     -- John Turner 6175: human male, Commons wanderer; Stephanie's husband,
     -- orphanage supply collector in Classic Tome of Divinity 1647/1648/1778.
     -- Melnan 14842: dwarf male Darkmoon Faire barker, referral/voucher 7905.

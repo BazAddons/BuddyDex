@@ -79,6 +79,126 @@
     "text": "Assignment completed. Good. Give a clear report of what happened.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore14363_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14363",
+    "spoken": "[reserved affection, warm and unhurried] You don't insist on filling every quiet moment. I like that about your company.",
+    "text": "You don't insist on filling every quiet moment. I like that about your company.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14363_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14363",
+    "spoken": "[quiet dwarf, composed warmth] Ready. We can talk, or just walk a while. Both are agreeable.",
+    "text": "Ready. We can talk, or just walk a while. Both are agreeable.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14363_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14363",
+    "spoken": "[thoughtful, gently amused, quietly sincere] A poem about an uneventful round? Aye. An uneventful round is a fine thing to have.",
+    "text": "A poem about an uneventful round? Aye. An uneventful round is a fine thing to have.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14363_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:14363",
+    "spoken": "[content, reflective, low conversational voice] A quiet seat and a little time. I may write a line or two.",
+    "text": "A quiet seat and a little time. I may write a line or two.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14365_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14365",
+    "spoken": "[warm, reassuring, understated good humor] Good company, you are. You can ask the way as often as you need. I won't start counting.",
+    "text": "Good company, you are. You can ask the way as often as you need. I won't start counting.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14365_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14365",
+    "spoken": "[steady dwarf, friendly practical humor] Aye, I'll walk with you. Say if you want the long explanation or just the next turning.",
+    "text": "Aye, I'll walk with you. Say if you want the long explanation or just the next turning.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14365_group_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "group",
+    "say": null,
+    "source": "lore:14365",
+    "spoken": "[happily] Everyone know where we're headed? Good to ask before we set off.",
+    "text": "Everyone know where we're headed? Good to ask before we set off.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14365_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14365",
+    "spoken": "[dryly amused, unembarrassed warmth] That is the forge on my map. Yes, it looks like a kettle. You remembered it, though.",
+    "text": "That is the forge on my map. Yes, it looks like a kettle. You remembered it, though.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14367_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14367",
+    "spoken": "[warm, easy, sincerely pleased] Good to have you along. We can make room for a laugh or two on the way.",
+    "text": "Good to have you along. We can make room for a laugh or two on the way.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14367_danceAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "danceAlong",
+    "say": null,
+    "source": "lore:14367",
+    "spoken": "[playful enthusiasm, amused determination] Right, then! Give me a moment to persuade the boots.",
+    "text": "Right, then! Give me a moment to persuade the boots.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14367_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14367",
+    "spoken": "[genial dwarf, buoyant warmth] Ready! A steady pace, unless you've a good tune in mind.",
+    "text": "Ready! A steady pace, unless you've a good tune in mind.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore14367_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14367",
+    "spoken": "[self-deprecating humor, cheerful honesty] The boots? Aye, they're heavy. I still can't blame them for every missed step.",
+    "text": "The boots? Aye, they're heavy. I still can't blame them for every missed step.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore14842_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
