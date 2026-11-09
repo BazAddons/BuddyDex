@@ -599,6 +599,126 @@
     "text": "I could mend the squeak. I know. It has been keeping me company for rather a long time. I am not sure I would like the silence.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1413_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1413",
+    "spoken": "[sincere warm delight, relaxed affection, gently amused] I'd be delighted to come with you. No, I don't need to prepare a formal explanation of why. I enjoy your company. That is quite enough reason to spend an afternoon together.",
+    "text": "I'd be delighted to come with you. No, I don't need to prepare a formal explanation of why. I enjoy your company. That is quite enough reason to spend an afternoon together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1413_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1413",
+    "spoken": "[warm scholarly enthusiasm, lightly amused, inviting] There you are! I was about to explain something, but it can wait. Shall we walk? Lisan and Suzanne will have reached at least three new objections by the time I get back.",
+    "text": "There you are! I was about to explain something, but it can wait. Shall we walk? Lisan and Suzanne will have reached at least three new objections by the time I get back.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1413_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1413",
+    "spoken": "[confiding self-deprecating amusement, affectionate warmth] I once revised an invitation to tea until it sounded like a research proposal. I was only trying to say I enjoyed the company. Asking in person turned out to be much more effective.",
+    "text": "I once revised an invitation to tea until it sounded like a research proposal. I was only trying to say I enjoyed the company. Asking in person turned out to be much more effective.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1413_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1413",
+    "spoken": "[bright intellectual curiosity, playful restraint, encouraging] Something new to consider! Tell me how it works while it's fresh in your mind. I promise to let you reach the end before I start asking questions. Most of them, anyway.",
+    "text": "Something new to consider! Tell me how it works while it's fresh in your mind. I promise to let you reach the end before I start asking questions. Most of them, anyway.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1414_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1414",
+    "spoken": "[sincere reserved warmth, reassuring friendliness, relaxed] Yes, I'd like to join you. I may ask a few questions along the way. That means I'm interested. And if you would rather have a quiet walk, I can fold my scrap of paper and enjoy that too.",
+    "text": "Yes, I'd like to join you. I may ask a few questions along the way. That means I'm interested. And if you would rather have a quiet walk, I can fold my scrap of paper and enjoy that too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1414_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1414",
+    "spoken": "[thoughtful friendly precision, dry warmth, curious] Hello! I have a question about that idea we were discussing. Not a refusal, a question. There is a difference. Walk with me a moment and we can see whether the missing step matters.",
+    "text": "Hello! I have a question about that idea we were discussing. Not a refusal, a question. There is a difference. Walk with me a moment and we can see whether the missing step matters.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1414_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1414",
+    "spoken": "[quiet amused fondness, conversational, mildly wry] This scrap became a paper dog while I was thinking. One ear is higher than the other. I rather like it. It looks as though it's waiting for someone to explain a very questionable assumption.",
+    "text": "This scrap became a paper dog while I was thinking. One ear is higher than the other. I rather like it. It looks as though it's waiting for someone to explain a very questionable assumption.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1414_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1414",
+    "spoken": "[engaged scholarly curiosity, patient encouragement] Ah, a new method. Show me the part you found hardest to understand. That's often where the interesting question is. We can take our time over it before we decide we've understood everything.",
+    "text": "Ah, a new method. Show me the part you found hardest to understand. That's often where the interesting question is. We can take our time over it before we decide we've understood everything.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1415_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1415",
+    "spoken": "[sincere pleased warmth, playful scholarly humor] I'd be very happy to come. We can have a walk and see what happens, without preparing a theory of the entire afternoon first. Though if anything amusing happens, I reserve the right to give it a title.",
+    "text": "I'd be very happy to come. We can have a walk and see what happens, without preparing a theory of the entire afternoon first. Though if anything amusing happens, I reserve the right to give it a title.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1415_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1415",
+    "spoken": "[warm dry wit, lively conversational amusement] Ah, excellent company! Shall we walk before this becomes another lengthy discussion? I enjoy a magical theory, but sometimes a person would like to get all the way to the other side of the street.",
+    "text": "Ah, excellent company! Shall we walk before this becomes another lengthy discussion? I enjoy a magical theory, but sometimes a person would like to get all the way to the other side of the street.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1415_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1415",
+    "spoken": "[wry self-deprecating humor, amused reflection, friendly] My latest unwritten treatise is about taking an afternoon off. It has a very elegant second chapter. Or rather, the title of one. I haven't quite decided whether that counts as taking the afternoon off.",
+    "text": "My latest unwritten treatise is about taking an afternoon off. It has a very elegant second chapter. Or rather, the title of one. I haven't quite decided whether that counts as taking the afternoon off.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1415_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1415",
+    "spoken": "[relaxed dry delight, playful satisfaction, warm] A pause! The practical application of sitting down. I think we have mastered this part beautifully. Shall we leave the theoretical explanation until after we've enjoyed being comfortable for a while?",
+    "text": "A pause! The practical application of sitting down. I think we have mastered this part beautifully. Shall we leave the theoretical explanation until after we've enjoyed being comfortable for a while?",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1428_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

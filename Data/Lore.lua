@@ -41,6 +41,136 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Janey Anship, Lisan Pierce, Suzanne: adult human female mages, Stormwind.
+    -- Classic shared chatter: arcane proposals, objections, love-potion punchline.
+    -- Scout/current Forever confirm IDs, sex/race, displays 1472/1473/2038.
+    -- Invitation drafts, folded paper dog and unwritten book titles are original.
+    -- Research: docs/research/sanctum-three-mages.md.
+    [1413] = {
+        quote = "The explanation is perfectly straightforward. The difficulty is finding someone who will let me finish it.",
+        likes = { "An interesting magical argument", "Walks with Lisan and Suzanne", "A conversation that runs long" },
+        dislikes = { "Being interrupted before the conclusion", "A promising idea dismissed unheard", "A simple sentence turning complicated" },
+        gossip = "Janey's conversations can make a walk around Stormwind sound like a conference of archmages. The topic may be rather more personal.",
+        bio = "Janey Anship is a human mage often found outside the Wizard's Sanctum with Lisan Pierce and Suzanne. Their discussions range through elaborate magical problems; a love potion can require quite as much argument as a portal.",
+        backstory = "She once tried drafting a simple invitation to tea. Each revision explained a little more, until it sounded like a proposal for arcane research. She put the page aside and asked her guest in person instead.",
+        secret = "She kept the final draft. Beneath all the explanations, she had written one plain sentence: she liked this person's company and wanted another afternoon of it.",
+        bestFriend = "Would you like to take a walk with me? There. One sentence, no revisions. I knew you'd understand.",
+        favorite = { emote = "WINK", hint = "A little shared understanding can spare her a very long explanation." },
+        lines = {
+            greet = { { "There you are! I was about to explain something, but it can wait. Shall we walk? Lisan and Suzanne will have reached at least three new objections by the time I get back.", tone = "[warm scholarly enthusiasm, lightly amused, inviting]" }, "Have you time for a conversation? I won't promise it will stay on one subject." },
+            idle = { { "I once revised an invitation to tea until it sounded like a research proposal. I was only trying to say I enjoyed the company. Asking in person turned out to be much more effective.", tone = "[confiding self-deprecating amusement, affectionate warmth]" }, "I can see one possible objection. Well, two. Let me think.", "A walk is good for an argument. It gives the conclusion somewhere to arrive." },
+            befriended = { { "I'd be delighted to come with you. No, I don't need to prepare a formal explanation of why. I enjoy your company. That is quite enough reason to spend an afternoon together.", tone = "[sincere warm delight, relaxed affection, gently amused]" } },
+            poke = { "Yes? You have my attention.", "Was that an objection or an invitation? I can make time for either." },
+            learned = { { "Something new to consider! Tell me how it works while it's fresh in your mind. I promise to let you reach the end before I start asking questions. Most of them, anyway.", tone = "[bright intellectual curiosity, playful restraint, encouraging]" } },
+            rest = { "A good place to sit. We needn't solve anything just yet." },
+            zone = { "A change of surroundings may improve this train of thought." },
+            quest = { "Finished! Now I would like to hear how the theory met the practice." },
+            loot = { "That looks worth a closer examination. What do you make of it?" },
+            levelUp = { "Well done! I shall try to keep the congratulations shorter than the explanation." },
+            hearth = { "Back in familiar surroundings. I wonder where our conversation will go next." },
+        },
+    },
+    [1414] = {
+        quote = "Before we try that, could we discuss what happens if it goes wrong? Preferably while everything is still in one piece.",
+        likes = { "A useful question asked in time", "Talking magic with Janey and Suzanne", "A neat fold in an ordinary scrap" },
+        dislikes = { "An objection mistaken for disinterest", "A missing step in the explanation", "Ink cracking along a fold" },
+        gossip = "Lisan has a habit of folding little scraps while she thinks. Someone claims even her paper animals look ready to question a theory.",
+        bio = "Lisan Pierce is a human mage who talks with Janey Anship and Suzanne by the Wizard's Sanctum. Proposals and objections fill their conversations; the grand machinery of magical theory can serve a surprisingly ordinary wish.",
+        backstory = "An idle fold gave a scrap of paper a nose, then a pair of ears. She kept working at it between thoughts. Eventually it became a small dog, useful for looking at while she considered a difficult question.",
+        secret = "The first dog was lopsided. She still prefers it to the tidier ones: one raised ear makes it look as though it has just heard a particularly doubtful proposal.",
+        bestFriend = "You know that look the little dog has? That's my face when your plan skips a step. Come on, tell me the missing bit.",
+        favorite = { emote = "PRAISE", hint = "A little appreciation for careful work can reach her more easily than a grand claim." },
+        lines = {
+            greet = { { "Hello! I have a question about that idea we were discussing. Not a refusal, a question. There is a difference. Walk with me a moment and we can see whether the missing step matters.", tone = "[thoughtful friendly precision, dry warmth, curious]" }, "Good to see you. Have you brought an idea, or shall we simply enjoy the walk?" },
+            idle = { { "This scrap became a paper dog while I was thinking. One ear is higher than the other. I rather like it. It looks as though it's waiting for someone to explain a very questionable assumption.", tone = "[quiet amused fondness, conversational, mildly wry]" }, "I think better when my hands have something simple to do.", "Let me turn that over in my mind before we try it." },
+            befriended = { { "Yes, I'd like to join you. I may ask a few questions along the way. That means I'm interested. And if you would rather have a quiet walk, I can fold my scrap of paper and enjoy that too.", tone = "[sincere reserved warmth, reassuring friendliness, relaxed]" } },
+            poke = { "I'm listening. Go on.", "Did I miss a step? Tell me where we are." },
+            learned = { { "Ah, a new method. Show me the part you found hardest to understand. That's often where the interesting question is. We can take our time over it before we decide we've understood everything.", tone = "[engaged scholarly curiosity, patient encouragement]" } },
+            rest = { "A pause might help. We don't have to force the answer." },
+            zone = { "Let's see what is actually here before we decide what to expect." },
+            quest = { "How did it go? Was there anything the instructions left out?" },
+            loot = { "Interesting. Shall we have a look before we make assumptions?" },
+            levelUp = { "Well done. You have put quite a bit of practice behind that." },
+            hearth = { "Home again. A familiar place is rather pleasant after all that thinking." },
+        },
+    },
+    [1415] = {
+        quote = "We have enough theory for a grand treatise. Whether we have enough sense to stop discussing it is another question.",
+        likes = { "A lively argument with her friends", "A very grand title for a small subject", "The moment someone gets the joke" },
+        dislikes = { "A discussion that forgets its purpose", "A joke requiring a second explanation", "Tea going cold during a conclusion" },
+        gossip = "Suzanne has thought of titles for several learned books. Nobody has seen a manuscript, but the titles are becoming impressive.",
+        bio = "Suzanne is a human mage who sits with Janey Anship and Lisan Pierce outside the Wizard's Sanctum. Their walks and conversations mix serious arcane speculation with a rather less lofty project: a love potion.",
+        backstory = "After a long discussion she jokingly gave her cold tea the title of a scholarly treatise. The habit stuck. Now an ordinary inconvenience can inspire a magnificent title for a book she has no intention of writing.",
+        secret = "Her favorite unwritten volume concerns the advanced study of taking an afternoon off. She has spent far too much of one afternoon deciding what to call its second chapter.",
+        bestFriend = "Shall we take an afternoon off? We needn't give it a title. Though I have thought of a very good one, if you're interested.",
+        favorite = { emote = "GRIN", hint = "Let her know you have caught the joke before she has to explain its theoretical basis." },
+        lines = {
+            greet = { { "Ah, excellent company! Shall we walk before this becomes another lengthy discussion? I enjoy a magical theory, but sometimes a person would like to get all the way to the other side of the street.", tone = "[warm dry wit, lively conversational amusement]" }, "Good to see you. I have a very impressive title for an entirely unwritten book." },
+            idle = { { "My latest unwritten treatise is about taking an afternoon off. It has a very elegant second chapter. Or rather, the title of one. I haven't quite decided whether that counts as taking the afternoon off.", tone = "[wry self-deprecating humor, amused reflection, friendly]" }, "That deserves a grand scholarly title. The less important it is, the grander the title.", "I enjoy a good conclusion. Especially when it leaves time for tea." },
+            befriended = { { "I'd be very happy to come. We can have a walk and see what happens, without preparing a theory of the entire afternoon first. Though if anything amusing happens, I reserve the right to give it a title.", tone = "[sincere pleased warmth, playful scholarly humor]" } },
+            poke = { "Yes? Have you thought of a better title?", "You have my attention. I was only composing an unnecessary preface." },
+            rest = { { "A pause! The practical application of sitting down. I think we have mastered this part beautifully. Shall we leave the theoretical explanation until after we've enjoyed being comfortable for a while?", tone = "[relaxed dry delight, playful satisfaction, warm]" } },
+            learned = { "Very good. Does the name take longer to learn than the method?" },
+            zone = { "New surroundings. That ought to give us something fresh to talk about." },
+            quest = { "Finished! And did the grand plan survive contact with the actual errand?" },
+            loot = { "A discovery! I shall hold off on the scholarly title until you've had a look." },
+            levelUp = { "Congratulations! An excellent occasion for a short speech. That was it." },
+            hearth = { "Home. A splendid conclusion, and a very manageable title." },
+        },
+    },
+    -- Adam (1366) and Billy (1367), human boys fishing in Stormwind's Canals.
+    -- Scout confirms male/friendly; Forever child displays 338 and 221.
+    -- Classic chatter: Adam doubts Billy's extravagant catches and fish tales.
+    -- Extra bucket / ordinary first catch are original BuddyDex hooks.
+    -- docs/research/stormwind-fishing-boys.md; child signature audio pending.
+    [1366] = {
+        quote = "You can tell me how big it was after we catch something. Something with fins, this time.",
+        likes = { "A quiet place to fish", "A fish he can actually see", "Trying another spot with Billy" },
+        dislikes = { "Talking over a bite", "Every fish getting bigger in the telling", "An old boot on the line" },
+        gossip = "Adam doubts every enormous fish in Billy's stories. He still seems to find a place beside him for the next afternoon's fishing.",
+        bio = "Adam is a human boy fishing around Stormwind's Canals with Billy. His friend's grand claims earn sharp replies: Adam wants less boasting and more catching. When a spot disappoints, he suggests trying another.",
+        backstory = "One afternoon he brought a bucket for anything they caught. Billy's stories soon outgrew it. Adam fetched a second bucket, set it down with a very serious face, and waited for the next impossible fish.",
+        secret = "He doesn't expect the enormous fish to arrive. The spare bucket gives him somewhere dry to sit, and he likes seeing how long Billy takes to notice the joke.",
+        bestFriend = "Here, you can sit on the other bucket. If you tell me about a fish bigger than the bridge, I'm going to ask for proof.",
+        favorite = { emote = "NOD", hint = "Sometimes a sensible, quiet response is better than another enormous story." },
+        lines = {
+            greet = { { "Hello. Keep your voice down a bit, will you? I'm watching for a bite. Billy's been telling me about an enormous fish, but I'd settle for a little one I can actually see.", tone = "[boyish matter-of-fact focus, dry skeptical humor, conversational]" }, "We could try another spot. This one has mostly produced talking." },
+            idle = { { "I brought an extra bucket for Billy's enormous fish. No fish yet, but it's a good seat. Don't tell him. I want to see how long it takes him to work out why I'm sitting on it.", tone = "[boyish dry amusement, quietly conspiratorial, pleased with his joke]" }, "Did that move? Wait. Let me watch it.", "How many eyes did this one have? Never mind. Show me when you catch it." },
+            befriended = { { "All right, I'll come with you. You can tell me what you've actually seen. And if we find a good fishing place, we can stop for a bit. You don't have to keep talking the whole time.", tone = "[boyish reserved warmth, practical curiosity, gently teasing]" } },
+            poke = { "I heard you. I was watching the water.", "Have you caught something? Let me see." },
+            loot = { { "You really found that? Let me have a look. See, that's what I like. Something right here in front of us. We don't have to argue about how big it was yesterday.", tone = "[boyish surprised interest, wry satisfaction, curious]" } },
+            rest = { "This is a good place to sit. We can be quiet for a bit." },
+            quest = { "You finished it? Good. Tell me how it actually went." },
+            learned = { "Does that help you catch fish? I just wondered." },
+            zone = { "Is there somewhere to fish around here?" },
+            levelUp = { "Well done. I saw that one myself!" },
+            hearth = { "Back again. I wonder what Billy says he caught while we were gone." },
+        },
+    },
+    [1367] = {
+        quote = "It was enormous! Ask Adam. Well, he wasn't there for that bit, but I've told him all about it.",
+        likes = { "Telling Adam about a huge catch", "A story that gets a good reaction", "Something tugging on the line" },
+        dislikes = { "Reeling in another old boot", "Being interrupted at the exciting bit", "Nobody believing the size of it" },
+        gossip = "Billy has a fish story for nearly every occasion. Adam would quite like one of those magnificent catches to turn up beside the canal.",
+        bio = "Billy is a human boy fishing with Adam in Stormwind's Canals. He boasts of remarkable catches and repeats tales of extraordinary fish. The occasional old boot is a disappointing interruption to his grand adventures.",
+        backstory = "He started telling the story of his first little catch, then made the next fish sound much more exciting. Soon it was the bigger stories everyone reacted to. The first fish remained small, ordinary, and hard to fit into the telling.",
+        secret = "He remembers that first little fish better than any of the enormous ones in his stories. He wishes Adam had been there to see it before it wriggled away.",
+        bestFriend = "Can I tell you about a little fish? It isn't the biggest story. But I remember every bit, and I think you'll like it.",
+        favorite = { emote = "CHEER", hint = "A small catch can deserve just as much excitement as a very tall tale." },
+        lines = {
+            greet = { { "Hello! Have I told you about the fish I caught? It was enormous. Adam says I should catch it again so he can see. Well, it might be busy being enormous somewhere else today!", tone = "[boyish exuberant boasting, quick imaginative confidence, playful]" }, "Come and listen! I haven't got to the really exciting bit yet." },
+            idle = { { "The first fish I caught was only little. I remember how shiny it was. It wriggled away before Adam could see it. I wish he'd been there. He wouldn't have had to believe me then.", tone = "[boyish earnest recollection, quieter fondness, a little wistful]" }, "Suppose a fish caught a boot. Do you think it would tell the other fish?", "I wonder if the fish tell stories about us." },
+            befriended = { { "You're taking me along? I've got lots to tell you! And you can tell me what you've seen. Adam always wants proof, so remember the interesting bits. Especially how big everything was.", tone = "[boyish delighted enthusiasm, eager storytelling, mischievous warmth]" } },
+            poke = { "Wait, I was just getting to the best bit!", "Did you catch something? Was it big?" },
+            loot = { { "Look at that! I wonder where it's been. You could tell a whole story about it. Even an old boot must have gone somewhere before it ended up on the end of a fishing line.", tone = "[boyish excited curiosity, lively imaginative delight]" } },
+            rest = { "We've got time for a story now. Have you heard this one?" },
+            quest = { "Did anything enormous happen? Tell me!" },
+            learned = { "Can you show me? I'll tell Adam I saw you do it." },
+            zone = { "Imagine what sort of fish might live here." },
+            levelUp = { "You did it! I saw the whole thing. It'll make a good story!" },
+            hearth = { "Home again! I wonder if Adam caught anything. He'll have to show me." },
+        },
+    },
     -- Bo (797), Mark (795), Joshua (796): human boys, Goldshire, Elwynn.
     -- Scout: male, friendly Alliance Humanoids; Forever child displays 338/338/221.
     -- Friends playing near the forge/pond; no linked quests or captured dialogue.

@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 179,
-  "remaining_count": 38,
+  "completed_count": 182,
+  "remaining_count": 35,
   "completed": [
     {
       "npc_id": 54,
@@ -614,6 +614,24 @@
       "status": "complete"
     },
     {
+      "npc_id": 1366,
+      "name": "Adam",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1367,
+      "name": "Billy",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 1395,
       "name": "Ol' Beasley",
       "zone": "Stormwind City",
@@ -625,6 +643,33 @@
     {
       "npc_id": 1402,
       "name": "Topper McNabb",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1413,
+      "name": "Janey Anship",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1414,
+      "name": "Lisan Pierce",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1415,
+      "name": "Suzanne",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1893,41 +1938,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 1366,
-      "name": "Adam",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1367,
-      "name": "Billy",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1413,
-      "name": "Janey Anship",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1414,
-      "name": "Lisan Pierce",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1415,
-      "name": "Suzanne",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 4982,
       "name": "Thomas",

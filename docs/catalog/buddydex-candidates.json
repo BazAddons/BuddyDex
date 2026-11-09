@@ -184,7 +184,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -4009,7 +4009,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -17223,7 +17223,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -21208,7 +21208,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -31256,7 +31256,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39015,6 +39015,28 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 1366,
+      "name": "Adam",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Adam",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
+      "npc_id": 1367,
+      "name": "Billy",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Billy",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
       "npc_id": 1395,
       "name": "Ol' Beasley",
       "source": "Existing local backlog; absent from source filter",
@@ -39453,28 +39475,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 1366,
-      "name": "Adam",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Adam",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1367,
-      "name": "Billy",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Billy",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
     }
   ]
 }
