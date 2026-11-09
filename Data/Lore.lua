@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Hana'zua (3287), adult male troll, Valley of Trials, display 2025 (race 8 / sex 0).
+    -- Sarkoth 790/804: wounded hunter, father's criticism, renewed resolve, Gornek promises aid.
+    -- Watching ordinary ants is original. No cure, death or completed rescue is assumed.
+    -- docs/research/valley-trials-hunter-and-guide.md.
+    [3287] = {
+        quote = "I thought needing help would be the shame of me. Then someone stopped to listen. Perhaps there is more to honor than facing everything alone.",
+        likes = { "Someone who stops to help", "Determination after a setback", "An ant refusing to abandon its crumb" },
+        dislikes = { "Sarkoth's stinger", "Being counted out too soon", "Boasts that leave no room for caution" },
+        gossip = "Hana'zua keeps studying the ground by his tree. Some say he is plotting a very careful second hunt.",
+        bio = "Wounded by the scorpid Sarkoth, Hana'zua waits beneath a tree in the Valley of Trials. He asks for the beast's claw, then for word to reach Gornek at the Den. Pride and fear give way to a resolve to endure.",
+        backstory = "While resting, he watched an ant struggle with a crumb. It dropped its burden, circled around, and tried another way. He found himself watching the little creature long after it had passed his hand.",
+        secret = "He is following the ants, not planning an ambush. He wants to see the stubborn little one get its crumb home. He would be glad of someone to watch with him.",
+        bestFriend = "Stay a little, if you have time. There is a determined little fellow down here I would like you to meet.",
+        favorite = { emote = "COMFORT", hint = "Let the wounded hunter know he does not have to face his fear alone." },
+        lines = {
+            greet = { { "You stopped. I am glad. There is a little ant near my hand carrying something far too big for it. I have been quietly taking its side. Sit a moment, if you can. I would welcome someone taking mine as well.", tone = "[weary but hopeful, vulnerable warmth, gentle invitation]" }, "Good to see a friendly face. Stay a moment?" },
+            idle = { { "There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.", tone = "[observant, quietly amused, gathering hope]" }, "Sarkoth taught me how much a stinger can change a plan.", "I do not want to be remembered only for the moment I fell." },
+            befriended = { { "I would like your company. You need not find the right words for everything. Tell me what you can see from here, or sit quietly beside me. It helps to have a friend who sees more than the trouble I am in.", tone = "[sincere relief, grateful, quietly hopeful]" } },
+            poke = { "I hear you. Give me a moment.", "Still here. Still trying." },
+            comforted = { { "Thank you. I have spent enough time imagining what people would say of me. You came close enough to ask how I was. That means more than a speech about bravery. I will hold on to that kindness when fear starts talking again.", tone = "[deeply grateful, vulnerable, renewed resolve]" } },
+            quest = { "You stopped to help someone. I hope they knew what that meant." },
+            rest = { "Rest beside me a little. There is no shame in needing a pause." },
+            lowHealth = { "Please, take care. A little more caution now." },
+            learned = { "There is room to try another way. Even an ant knows that." },
+            levelUp = { "Stronger already. Keep someone beside you worth growing strong for." },
+            hearth = { "A way home is a good thing to have." },
+        },
+    },
+    -- Zureetha Fargaze (3145), adult female orc, Valley of Trials, display 1875 (2 / 1).
+    -- 792/794/805 and Ruzan 1485/1499: guides novices, divines medallion, sends report to Gadrin.
+    -- Amusement at cloud shapes is original and unrelated to her actual divination.
+    -- docs/research/valley-trials-hunter-and-guide.md.
+    [3145] = {
+        quote = "Courage brought you this far. Now watch, listen, and bring back what you actually found. A useful report is worth more than a handsome boast.",
+        likes = { "Novices who heed a warning", "A clear account of a finished task", "A cloud with an unexpectedly silly shape" },
+        dislikes = { "The Burning Blade's growing influence", "Careless handling of dark magic", "A boast offered instead of an answer" },
+        gossip = "Zureetha studies the sky between reports. The novices wonder which distant threat has caught her gaze this time.",
+        bio = "Sent to guide novices in the Valley of Trials, Zureetha Fargaze confronts the Burning Blade's presence. Her divinations reveal a powerful medallion in their coven. She sends news of the danger to Master Gadrin in Sen'jin Village.",
+        backstory = "During a pause between reports, a passing cloud reminded her of a boar asleep on its back. She nearly laughed in front of a nervous novice. Since then, she occasionally looks up just to see what shape comes next.",
+        secret = "Sometimes she is simply looking at a cloud that resembles a ridiculous animal. No omen. She enjoys the joke more when someone else notices it too.",
+        bestFriend = "Look up. Tell me that does not resemble a boar with its feet in the air. Good. I knew I could trust your judgment.",
+        favorite = { emote = "NOD", hint = "Show her that a warning has been heard and taken seriously." },
+        lines = {
+            greet = { { "There you are. Tell me what you have seen, and take your time with the important parts. I would rather hear an honest uncertainty than a confident mistake. Afterward, you may explain why that cloud looks like a boar lying on its back.", tone = "[gravelly firm welcome, alert, dryly amused at the end]" }, "Speak. I want your observations before your conclusions." },
+            idle = { { "Look at that cloud. An enormous boar, all four feet in the air. No, I am not reading an omen. Sometimes I look up because something is funny. You may enjoy it too. Our duties will survive a moment without our frowns.", tone = "[rough low voice, restrained amusement opening into warmth]" }, "A familiar outside a cave is reason to ask what waits inside.", "Someone must take a novice's first warning seriously. Including the novice." },
+            befriended = { { "I trust you to pay attention, and I have come to enjoy what you notice. Keep me company a while. We can speak of something besides the Burning Blade. Even I have interests that do not require a warning before I explain them.", tone = "[gravelly sincere affection, guarded warmth, wry humor]" } },
+            poke = { "Yes? Is there something to report?", "You have my attention. Use it." },
+            quest = { { "Good. Tell me what happened, including the part that did not go as you expected. That is often the part we most need to understand. You did useful work. Give yourself the credit, then help me see what it has taught us.", tone = "[firm practical approval, attentive, rough warm encouragement]" } },
+            learned = { "Now understand its limits as carefully as its uses." },
+            gear = { "Useful equipment. Keep your judgment in good repair as well." },
+            rest = { "Take a moment. A tired mind can miss a plain warning." },
+            zone = { "Watch where the paths lead. Trouble seldom keeps to one cave." },
+            levelUp = { "You have grown stronger. Let your judgment keep pace." },
+            hearth = { "Back safely. That is a report I am always pleased to receive." },
+        },
+    },
+
     -- Master Gadrin (3188), adult male Darkspear troll, Sen'jin Village, display 4072.
     -- Minshina 808, Zalazane 826, Burning Blade referrals; Shadra chain; Forever 97225 idols.
     -- Classic manual adviser/training role. Plain seashell pastime is original, never a ritual item.

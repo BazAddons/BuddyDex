@@ -4821,9 +4821,13 @@ ns.VoicePack = {
             ["Well, this is a change of scenery."] = "nightelf-male\\npc_zone_12.ogg",
         },
         ["orc-female"] = {
+            ["I trust you to pay attention, and I have come to enjoy what you notice. Keep me company a while. We can speak of something besides the Burning Blade. Even I have interests that do not require a warning before I explain them."] = "orc-female\\lore3145_befriended_1.ogg",
             ["You can stop calling yourself a customer. I'll put another bowl out."] = "orc-female\\lore6929_befriended_1.ogg",
+            ["There you are. Tell me what you have seen, and take your time with the important parts. I would rather hear an honest uncertainty than a confident mistake. Afterward, you may explain why that cloud looks like a boar lying on its back."] = "orc-female\\lore3145_greet_1.ogg",
             ["There you are. Tell me you packed something better than dry bread."] = "orc-female\\lore6929_greet_1.ogg",
+            ["Look at that cloud. An enormous boar, all four feet in the air. No, I am not reading an omen. Sometimes I look up because something is funny. You may enjoy it too. Our duties will survive a moment without our frowns."] = "orc-female\\lore3145_idle_1.ogg",
             ["A red center. A little salt. Why do people insist on making supper difficult?"] = "orc-female\\lore6929_idle_1.ogg",
+            ["Good. Tell me what happened, including the part that did not go as you expected. That is often the part we most need to understand. You did useful work. Give yourself the credit, then help me see what it has taught us."] = "orc-female\\lore3145_quest_1.ogg",
             ["Sit down. You don't have to earn every moment of rest."] = "orc-female\\lore6929_rest_1.ogg",
         },
         ["orc-male"] = {
@@ -5562,8 +5566,12 @@ ns.VoicePack = {
         },
         ["troll-male"] = {
             ["I would be glad to walk with you. We can speak along the way, and leave some quiet between the words. Tell me what you have noticed. A familiar path may still have something to show us when we share it with a friend."] = "troll-male\\lore3188_befriended_1.ogg",
+            ["I would like your company. You need not find the right words for everything. Tell me what you can see from here, or sit quietly beside me. It helps to have a friend who sees more than the trouble I am in."] = "troll-male\\lore3287_befriended_1.ogg",
+            ["Thank you. I have spent enough time imagining what people would say of me. You came close enough to ask how I was. That means more than a speech about bravery. I will hold on to that kindness when fear starts talking again."] = "troll-male\\lore3287_comforted_1.ogg",
             ["You found me. Come, sit a moment and tell me how the day has been. There is room for a difficult thought, or a small pleasant one. We need not hurry either of them away before you have finished speaking."] = "troll-male\\lore3188_greet_1.ogg",
+            ["You stopped. I am glad. There is a little ant near my hand carrying something far too big for it. I have been quietly taking its side. Sit a moment, if you can. I would welcome someone taking mine as well."] = "troll-male\\lore3287_greet_1.ogg",
             ["This shell is only a shell. Smooth beneath the thumb, a pleasing shape to turn in the hand. Sometimes that is enough to help a thought settle. I listen better when I leave a little space before the answer."] = "troll-male\\lore3188_idle_1.ogg",
+            ["There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself."] = "troll-male\\lore3287_idle_1.ogg",
             ["Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say."] = "troll-male\\lore3188_rest_1.ogg",
         },
     },

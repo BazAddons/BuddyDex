@@ -11,9 +11,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,431 |
-| Local backlog entries missing from source | 56 |
-| Combined retained entries | 1,487 |
-| Candidate name groups | 1,474 |
+| Local backlog entries missing from source | 59 |
+| Combined retained entries | 1,490 |
+| Candidate name groups | 1,477 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -844,6 +844,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Laird**: [4200](https://forever.warcraftdb.com/data/npc/4200)
 - **Lalina Summermoon**: [11070](https://forever.warcraftdb.com/data/npc/11070)
 - **Lamar Veisilli**: [1671](https://forever.warcraftdb.com/data/npc/1671)
+- **Lanka Farshot**: [3061](https://forever.warcraftdb.com/data/npc/3061)
 - **Lar Prowltusk**: [3140](https://forever.warcraftdb.com/data/npc/3140)
 - **Lara Moore** — Scout: [1295](https://forever.warcraftdb.com/data/npc/1295)
 - **Larhka**: [5871](https://forever.warcraftdb.com/data/npc/5871)
@@ -957,6 +958,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Mazu'kon**: [264074](https://forever.warcraftdb.com/data/npc/264074)
 - **Me'lynn**: [4159](https://forever.warcraftdb.com/data/npc/4159)
 - **Mebok Mizzyrix**: [3446](https://forever.warcraftdb.com/data/npc/3446)
+- **Meela Dawnstrider**: [3062](https://forever.warcraftdb.com/data/npc/3062)
 - **Meeri**: [273460](https://forever.warcraftdb.com/data/npc/273460)
 - **Mei Francis**: [252086](https://forever.warcraftdb.com/data/npc/252086)
 - **Melasa Fairmend**: [257007](https://forever.warcraftdb.com/data/npc/257007)
@@ -1184,6 +1186,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Seeker Cromwell**: [14402](https://forever.warcraftdb.com/data/npc/14402)
 - **Seeker Nahr**: [14403](https://forever.warcraftdb.com/data/npc/14403)
 - **Seena Skybreaker**: [252377](https://forever.warcraftdb.com/data/npc/252377)
+- **Seer Graytongue**: [2982](https://forever.warcraftdb.com/data/npc/2982)
 - **Seereth Stonebreak**: [4049](https://forever.warcraftdb.com/data/npc/4049)
 - **Sellandus** — Scout: [5567](https://forever.warcraftdb.com/data/npc/5567)
 - **Senani Thunderheart**: [12696](https://forever.warcraftdb.com/data/npc/12696)

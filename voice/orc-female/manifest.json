@@ -1,4 +1,44 @@
 {
+  "lore3145_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3145",
+    "spoken": "[gravelly sincere affection, guarded warmth, wry humor] I trust you to pay attention, and I have come to enjoy what you notice. Keep me company a while. We can speak of something besides the Burning Blade. Even I have interests that do not require a warning before I explain them.",
+    "text": "I trust you to pay attention, and I have come to enjoy what you notice. Keep me company a while. We can speak of something besides the Burning Blade. Even I have interests that do not require a warning before I explain them.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3145_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3145",
+    "spoken": "[gravelly firm welcome, alert, dryly amused at the end] There you are. Tell me what you have seen, and take your time with the important parts. I would rather hear an honest uncertainty than a confident mistake. Afterward, you may explain why that cloud looks like a boar lying on its back.",
+    "text": "There you are. Tell me what you have seen, and take your time with the important parts. I would rather hear an honest uncertainty than a confident mistake. Afterward, you may explain why that cloud looks like a boar lying on its back.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3145_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3145",
+    "spoken": "[rough low voice, restrained amusement opening into warmth] Look at that cloud. An enormous boar, all four feet in the air. No, I am not reading an omen. Sometimes I look up because something is funny. You may enjoy it too. Our duties will survive a moment without our frowns.",
+    "text": "Look at that cloud. An enormous boar, all four feet in the air. No, I am not reading an omen. Sometimes I look up because something is funny. You may enjoy it too. Our duties will survive a moment without our frowns.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3145_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3145",
+    "spoken": "[firm practical approval, attentive, rough warm encouragement] Good. Tell me what happened, including the part that did not go as you expected. That is often the part we most need to understand. You did useful work. Give yourself the credit, then help me see what it has taught us.",
+    "text": "Good. Tell me what happened, including the part that did not go as you expected. That is often the part we most need to understand. You did useful work. Give yourself the credit, then help me see what it has taught us.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

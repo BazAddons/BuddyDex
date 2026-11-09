@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 50 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 52 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -14,7 +14,7 @@ The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC
 | 4 | Hana'zua | 3287 | Durotar / troll and orc early route |
 | 5 | Zureetha Fargaze | 3145 | Durotar / troll and orc early route |
 
-All five exact names were checked against current Forever NPC nodes. Their character models resolve through the cached DB2 display/extra tables; Gadrin, Hawkwind and Mai'ah now have completed profiles and four v4 recordings each; see [their research notes](horde-starter-trio.md). Hana'zua and Zureetha remain research candidates awaiting full review.
+All five exact names were checked against current Forever NPC nodes. Their character models resolve through the cached DB2 display/extra tables; Gadrin, Hawkwind and Mai'ah now have completed profiles and four v4 recordings each; see [their research notes](horde-starter-trio.md). Hana'zua and Zureetha now also have completed profiles and four recordings each; see [their research notes](valley-trials-hunter-and-guide.md). The next rotation moves to the thinner Mulgore selection.
 
 Gadrin's current node explicitly reports Horde-friendly reaction and a Durotar pin. The other four current definitions confirm identity/race but omit reaction/location fields; current quest/dialogue or equivalent current client evidence must fill those gaps before authoring. They are not marked friendly merely because they are orcs, trolls or Tauren. Greatmother Hawkwind (2991), Chief Hawkwind's mother, is identified in the primary quest text. Her current node returned 404; current availability still needs review before she is added to the shortlist. The missing node does not establish death or removal.
 
@@ -27,3 +27,9 @@ Aim first for at least five fully completed named adult NPC profiles accessible 
 Horde starter batches take priority while the imbalance is large. Alternate under-covered routes rather than completing another long run of Stormwind or Lakeshire profiles. Night elf, dwarf/gnome and Skyborne starter coverage remains in rotation so correcting one faction gap does not reproduce the same race/zone gap elsewhere. Track neutral NPCs separately; do not use them to claim faction-specific access without verification. Capitals and high-level destinations do not substitute for a beginner's first few Buddies.
 
 [Blizzard's race overview](https://worldofwarcraft.blizzard.com/en-us/news/24304075/) establishes Alliance High Order and Horde Windshaper Skyborne; [the launch overview](https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-now-live) identifies the Zephras Isle starting experience. Both paths need access checks rather than assuming the same friendly NPCs are available on each.
+
+## Next Mulgore rotation
+
+After the two remaining Durotar profiles were completed, the research queue adds Grull Hawkwind (2980), Seer Graytongue (2982), Lanka Farshot (3061), and Meela Dawnstrider (3062). They are candidates, not completed profiles or verified personal Scout encounters. Current published Forever pages identify the first three in Mulgore, including Lanka's hunter-trainer title. Meela's current page presented a robot check; Classic identity and current client/quest evidence must be reviewed before authoring. No race, sex, adult model or friendly-access decision is inferred from a name or role alone.
+
+Research starting links: [Grull](https://www.wowhead.com/forever/npc=2980/grull-hawkwind), [Graytongue](https://www.wowhead.com/forever/npc=2982/seer-graytongue), [Lanka](https://www.wowhead.com/forever/npc=3061/lanka-farshot), [Meela](https://www.wowhead.com/forever/npc=3062/meela-dawnstrider).

@@ -35,6 +35,34 @@
       "zone": "Durotar",
       "route": "Orc/troll starter route",
       "reason": "Coverage-first Horde research; verify full eligibility and lore before authoring"
+    },
+    {
+      "npc_id": 2980,
+      "name": "Grull Hawkwind",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Hunting quest giver; research adult model, full quests and current friendly access before authoring"
+    },
+    {
+      "npc_id": 2982,
+      "name": "Seer Graytongue",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Rites quest giver; research adult model, full quests and current friendly access before authoring"
+    },
+    {
+      "npc_id": 3061,
+      "name": "Lanka Farshot",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Hunter trainer; research adult model, full quests and current friendly access before authoring"
+    },
+    {
+      "npc_id": 3062,
+      "name": "Meela Dawnstrider",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Shaman trainer; research adult model, full quests and current friendly access before authoring"
     }
   ]
 }

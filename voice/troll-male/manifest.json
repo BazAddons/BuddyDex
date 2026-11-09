@@ -38,5 +38,45 @@
     "spoken": "[deep patient reassurance, warm elder affection] Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.",
     "text": "Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3287_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3287",
+    "spoken": "[sincere relief, grateful, quietly hopeful] I would like your company. You need not find the right words for everything. Tell me what you can see from here, or sit quietly beside me. It helps to have a friend who sees more than the trouble I am in.",
+    "text": "I would like your company. You need not find the right words for everything. Tell me what you can see from here, or sit quietly beside me. It helps to have a friend who sees more than the trouble I am in.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3287_comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "comforted",
+    "say": null,
+    "source": "lore:3287",
+    "spoken": "[deeply grateful, vulnerable, renewed resolve] Thank you. I have spent enough time imagining what people would say of me. You came close enough to ask how I was. That means more than a speech about bravery. I will hold on to that kindness when fear starts talking again.",
+    "text": "Thank you. I have spent enough time imagining what people would say of me. You came close enough to ask how I was. That means more than a speech about bravery. I will hold on to that kindness when fear starts talking again.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3287_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3287",
+    "spoken": "[weary but hopeful, vulnerable warmth, gentle invitation] You stopped. I am glad. There is a little ant near my hand carrying something far too big for it. I have been quietly taking its side. Sit a moment, if you can. I would welcome someone taking mine as well.",
+    "text": "You stopped. I am glad. There is a little ant near my hand carrying something far too big for it. I have been quietly taking its side. Sit a moment, if you can. I would welcome someone taking mine as well.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3287_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3287",
+    "spoken": "[observant, quietly amused, gathering hope] There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.",
+    "text": "There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
   }
 }

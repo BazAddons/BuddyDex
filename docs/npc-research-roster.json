@@ -343,5 +343,19 @@
     "zone": "Durotar",
     "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
     "research_notes": "docs/research/horde-starter-trio.md"
+  },
+  {
+    "npc_id": 3287,
+    "name": "Hana'zua",
+    "zone": "Durotar",
+    "source": "Reviewed Forever identity, full Classic/Forever quest chains and installed quest dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/valley-trials-hunter-and-guide.md"
+  },
+  {
+    "npc_id": 3145,
+    "name": "Zureetha Fargaze",
+    "zone": "Durotar",
+    "source": "Reviewed Forever identity, full Classic/Forever quest chains and installed quest dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/valley-trials-hunter-and-guide.md"
   }
 ]
