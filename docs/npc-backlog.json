@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 26,
-  "remaining_count": 165,
+  "completed_count": 29,
+  "remaining_count": 162,
   "completed": [
     {
       "npc_id": 54,
@@ -182,6 +182,24 @@
       "status": "complete"
     },
     {
+      "npc_id": 2460,
+      "name": "Barnum Stonemantle",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2461,
+      "name": "Bailey Stonemantle",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3310,
       "name": "Doras",
       "zone": "Orgrimmar",
@@ -222,6 +240,15 @@
       "name": "Innkeeper Gryshka",
       "zone": "Orgrimmar",
       "source": "Agreed priority shortlist",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 7292,
+      "name": "Dinita Stonemantle",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -392,29 +419,8 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 2461,
-      "name": "Bailey Stonemantle",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2460,
-      "name": "Barnum Stonemantle",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 274917,
       "name": "Boborus Overvolt",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 7292,
-      "name": "Dinita Stonemantle",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1425,6 +1431,11 @@
       "reason": "Generic role, not an individual"
     },
     {
+      "npc_id": 14496,
+      "name": "Stormwind Orphan",
+      "reason": "Generic role, not an individual"
+    },
+    {
       "npc_id": 14849,
       "name": "Darkmoon Faire Carnie",
       "reason": "Generic role, not an individual"
@@ -1437,7 +1448,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1483,
+    "candidate_name_groups": 1488,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

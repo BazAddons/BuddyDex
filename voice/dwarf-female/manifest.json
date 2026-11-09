@@ -1,4 +1,44 @@
 {
+  "lore7292_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7292",
+    "spoken": "[warm, sincerely appreciative voice] You stay to tell me the story after the business is finished. I treasure that.",
+    "text": "You stay to tell me the story after the business is finished. I treasure that.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore7292_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7292",
+    "spoken": "[clear, composed voice, pleased warmth] There you are. A visit without paperwork? How refreshing.",
+    "text": "There you are. A visit without paperwork? How refreshing.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore7292_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7292",
+    "spoken": "[thoughtful, curious voice, quiet wonder] The report tells me what they found. I always wonder what it felt like to find it.",
+    "text": "The report tells me what they found. I always wonder what it felt like to find it.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore7292_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:7292",
+    "spoken": "[composed, warmly approving voice] Well done. I hope someone gives you proper credit, as well as a reward.",
+    "text": "Well done. I hope someone gives you proper credit, as well as a reward.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

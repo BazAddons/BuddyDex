@@ -1,4 +1,84 @@
 {
+  "lore2460_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2460",
+    "spoken": "[warm, genuinely delighted voice] You're smiling before I've said anything. Now that's a welcome worth keeping.",
+    "text": "You're smiling before I've said anything. Now that's a welcome worth keeping.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2460_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2460",
+    "spoken": "[broad, cheerful voice, genial showmanship] Come along, friend! Today's welcome comes with no queue at all.",
+    "text": "Come along, friend! Today's welcome comes with no queue at all.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2460_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2460",
+    "spoken": "[playful voice, mock confidence turning sheepish] Why did the copper cross the counter? No, wait. I've forgotten the good part.",
+    "text": "Why did the copper cross the counter? No, wait. I've forgotten the good part.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2460_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:2460",
+    "spoken": "[warm, attentive voice, gentle sincerity] Sit a while. You can tell me what's on your mind before I try another joke.",
+    "text": "Sit a while. You can tell me what's on your mind before I try another joke.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2461_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:2461",
+    "spoken": "[practical, kindly voice, reassuring] Next time we're in Ironforge, leave a few keepsakes with me. Give your shoulders a chance.",
+    "text": "Next time we're in Ironforge, leave a few keepsakes with me. Give your shoulders a chance.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2461_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2461",
+    "spoken": "[warm, sincerely grateful voice] You make time for the fellow behind the counter. That's a fine thing to find in a friend.",
+    "text": "You make time for the fellow behind the counter. That's a fine thing to find in a friend.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2461_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2461",
+    "spoken": "[warm, grounded voice, genial amusement] There you are! Pack a little lighter this time, did you?",
+    "text": "There you are! Pack a little lighter this time, did you?",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore2461_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2461",
+    "spoken": "[quietly amused voice, patient delight] A copper on its edge can be more interesting than a mountain of gold.",
+    "text": "A copper on its edge can be more interesting than a mountain of gold.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

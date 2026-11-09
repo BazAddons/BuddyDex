@@ -42,6 +42,94 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Bailey Stonemantle <Banker>, Vault of Ironforge. NPC 2461, male
+    -- dwarf. No direct quest chain found. The real-world circus reference
+    -- is not an in-world employment history. Coin balancing and lines are
+    -- original. Sources: docs/research/ironforge-stonemantles.md.
+    [2461] = {
+        quote = "Gold, spare boots, a stone you like the look of... if it matters to you, tell me where you'd like it kept.",
+        likes = { "A neatly packed deposit", "A coin balanced on its edge", "A customer with room in their pack" },
+        dislikes = { "Loose powder among the keepsakes", "Judging a treasure by its price alone", "A muddy sack dragged over the counter" },
+        gossip = "Bailey's counter is always clear. The regulars suspect he likes things tidy. Nobody asks why one copper sometimes stands on its edge.",
+        bio = "Bailey Stonemantle is a dwarf banker at the Vault of Ironforge. Barnum Stonemantle works there too, with Dinita administering the vault. The bank has room for ordinary belongings as well as valuable finds.",
+        backstory = "Quiet moments between deposits gave him a small challenge: standing a copper on its edge without disturbing it. Keeping the counter clear helped. He discovered that patience could make an ordinary coin rather interesting.",
+        secret = "He can keep a copper balanced through a whole conversation, provided nobody notices. The instant someone points it out, his hand usually knocks it flat.",
+        bestFriend = "You can watch the copper. If I knock it over, we'll blame the counter and try again. I don't mind looking foolish with you.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation for a small feat might catch him pleasantly off guard." },
+        lines = {
+            greet = { { "There you are! Pack a little lighter this time, did you?", tone = "[warm, grounded voice, genial amusement]" }, "A walk away from the counter. Good. I'll try not to count the paving stones." },
+            idle = { { "A copper on its edge can be more interesting than a mountain of gold.", tone = "[quietly amused voice, patient delight]" }, "Some things are worth keeping because of who handed them to you.", "Steady hands. No sudden elbows. Ah, there it goes." },
+            befriended = { { "You make time for the fellow behind the counter. That's a fine thing to find in a friend.", tone = "[warm, sincerely grateful voice]" } },
+            poke = { "Careful! You'll upset my very important copper.", "Yes? Something else you meant to bring along?" },
+            bagsFull = { { "Next time we're in Ironforge, leave a few keepsakes with me. Give your shoulders a chance.", tone = "[practical, kindly voice, reassuring]" } },
+            loot = { "Worth keeping? Doesn't have to be expensive." },
+            mail = { "Something from a friend? That's worth opening carefully." },
+            quest = { "Job finished and everyone thanked? A tidy bit of work." },
+            rest = { "Set the pack down. Even a good strap deserves a rest." },
+            levelUp = { "Well done! There's something you can't put in a vault." },
+            hearth = { "Home. I hope you've left yourself somewhere to sit among the treasures." },
+        },
+    },
+
+    -- Barnum Stonemantle <Banker>, Vault of Ironforge. NPC 2460, male
+    -- dwarf. Canonical bank role/family affiliation; no exact relationship
+    -- to each Stonemantle assigned. No direct quest found. Terrible jokes
+    -- and private hopes are fiction. docs/research/ironforge-stonemantles.md.
+    [2460] = {
+        quote = "Come in, come in! A moment at the counter and we'll have you ready to enjoy carrying less than an entire warehouse.",
+        likes = { "A customer leaving with a grin", "A well-timed welcome", "A joke that finally lands" },
+        dislikes = { "A queue made longer by grumbling", "Anyone feeling too poor to say hello", "Being asked to count while laughing" },
+        gossip = "Barnum tries a new joke on the morning queue. The bank's shortest lines aren't always the ones with the fewest customers.",
+        bio = "Barnum Stonemantle works as a banker in the Vault of Ironforge alongside other Stonemantles. Travelers come to leave belongings, retrieve supplies and make a little space for the next journey.",
+        backstory = "Watching people arrive tired and overburdened, he decided the welcome ought to be the easy part. He tried adding a joke. Some worked, some didn't, and a surprising number became worth trying again simply because they were so bad.",
+        secret = "He remembers the first time a worried customer laughed at one of his awful jokes. He'd like to manage that again more often than he'd like to become a brilliant comedian.",
+        bestFriend = "I've a terrible joke saved for you. You may groan when you hear it. It's good having someone who's glad to stay anyway.",
+        favorite = { emote = "GRIN", hint = "A smile shared across the counter is worth more than a perfect punch line." },
+        lines = {
+            greet = { { "Come along, friend! Today's welcome comes with no queue at all.", tone = "[broad, cheerful voice, genial showmanship]" }, "A little fresh air. I'll save the banking jokes for the road." },
+            idle = { { "Why did the copper cross the counter? No, wait. I've forgotten the good part.", tone = "[playful voice, mock confidence turning sheepish]" }, "A groan is still a response. I choose to be encouraged.", "Leave a little room in the pack for something you didn't expect to like." },
+            befriended = { { "You're smiling before I've said anything. Now that's a welcome worth keeping.", tone = "[warm, genuinely delighted voice]" } },
+            poke = { "Yes? The punch line's coming. Probably.", "Checking whether I'm still awake behind the counter?" },
+            bagsFull = { "A fine collection! Now, which half of it did you mean to leave at the bank?" },
+            loot = { "Another keepsake for the collection. We'll make room somehow." },
+            rest = { { "Sit a while. You can tell me what's on your mind before I try another joke.", tone = "[warm, attentive voice, gentle sincerity]" } },
+            quest = { "Well done! Someone's day is better for having met you." },
+            levelUp = { "Splendid! I'd make a speech, but you've enough to carry already." },
+            combatEnd = { "All safe? Good. I can put the brave face away now." },
+            hearth = { "Home again! A warm welcome is the best thing to find waiting." },
+        },
+    },
+
+    -- Dinita Stonemantle <Vault Administrator>, Vault of Ironforge.
+    -- NPC 7292, female dwarf. Classic 2439: honors Magellas's Explorers'
+    -- League voucher and offers authorized compensation. She is not the
+    -- disc researcher. Private curiosity and lines are original writing.
+    -- Sources and chain context: docs/research/ironforge-stonemantles.md.
+    [7292] = {
+        quote = "A discovery deserves proper recognition. Hand me the voucher, and tell me which reward will serve you best.",
+        likes = { "A clearly written voucher", "People given the credit they're due", "Hearing what an expedition was like" },
+        dislikes = { "A signature nobody can read", "Calling careful work mere paperwork", "A good story hurried past its best part" },
+        gossip = "Dinita asks about expeditions. Everyone assumes she's checking expenses. Sometimes she asks what the wind sounded like.",
+        bio = "Dinita administers the Vault of Ironforge. When High Explorer Magellas issues a reward voucher for the Platinum Discs discovery, she honors the Explorers' League's authority and offers the adventurer a choice of compensation.",
+        backstory = "Working with rewards brought accounts of long journeys to her counter. The lists explained what had been found, but rarely what it felt like to find it. She began leaving room for one question after the official business.",
+        secret = "She'd like to see an excavation for herself. She hasn't quite found a way to ask that doesn't sound like an inspection, so she listens to travelers a little longer instead.",
+        bestFriend = "You needn't bring a voucher. I'd like to hear the part you didn't put in the report. Was it wonderful to be there?",
+        favorite = { emote = "THANK", hint = "A little gratitude for the person making the recognition official goes a long way." },
+        lines = {
+            greet = { { "There you are. A visit without paperwork? How refreshing.", tone = "[clear, composed voice, pleased warmth]" }, "A little time beyond the vault. I should like to see where the stories begin." },
+            idle = { { "The report tells me what they found. I always wonder what it felt like to find it.", tone = "[thoughtful, curious voice, quiet wonder]" }, "A clear signature is a small kindness to the next person reading it.", "I could call it an inspection. But I'd rather admit I'm curious." },
+            befriended = { { "You stay to tell me the story after the business is finished. I treasure that.", tone = "[warm, sincerely appreciative voice]" } },
+            poke = { "Yes? Is there something you meant to ask?", "I'm quite capable of noticing you without a reminder." },
+            quest = { { "Well done. I hope someone gives you proper credit, as well as a reward.", tone = "[composed, warmly approving voice]" } },
+            loot = { "Interesting. What was the moment of finding it like?" },
+            bagsFull = { "We can make space. Decide what's important before deciding what's expensive." },
+            zone = { "So this is the place behind the name in the report." },
+            rest = { "A moment to take it in. That's something paperwork never quite captures." },
+            levelUp = { "Recognition well earned. Take a moment to enjoy it." },
+            hearth = { "Home. With a story worth bringing back, I hope." },
+        },
+    },
+
     -- Maybell Maclure, Maclure Vineyards, Elwynn. NPC 251, female human.
     -- Classic quests 106-114: loves Tommy Joe despite the family feud;
     -- asks for a letter delivery and feels conflicted about sneaking away.
