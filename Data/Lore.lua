@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ollanus <Light Armor Merchant>, Orgrimmar, adult male Orc.
+    -- NPC 3317/display 1317. Classic cloth/shirt stock; current title retained.
+    -- No personal quest/gossip found. No Cataclysm move or Legion conversation.
+    -- Letting a stray cat sleep on spare cloth is original BuddyDex fiction.
+    -- Research: docs/research/orgrimmar-cloth-and-fruit.md.
+    [3317] = {
+        quote = "Cloth has its uses. Laugh at it after you have spent a day wearing something that bites at every joint.",
+        likes = { "Clothes that let a person move", "A customer willing to wait a moment", "A cat sleeping on folded cloth" },
+        dislikes = { "Buckles catching on loose fabric", "Calling useful clothing a weakness", "A loud voice beside a sleeping cat" },
+        gossip = "Ollanus once made a buyer wait for a folded shirt. The delay had whiskers, closed eyes and no interest in the sale.",
+        bio = "Ollanus is a light armor merchant in Orgrimmar. His established wares include woven, heavy weave and thick cloth pieces, alongside plain shirts. He outfits customers without turning every purchase into a test of strength.",
+        backstory = "A stray cat settled on a folded shirt while Ollanus was sorting stock. He reached to move it, then stopped at the sound of its purring. Since then, he has kept a spare fold of cloth away from the busiest part of his work.",
+        secret = "He likes being trusted by something that asks for no explanation. When the cat sleeps, he lowers his voice. He has no intention of making a speech about it, even to you.",
+        bestFriend = "Sit here. Quietly. If it comes back, let it choose where to settle. We have no need to hurry anything for a little while.",
+        favorite = { emote = "NOD", hint = "Appreciates quiet understanding without a speech to disturb the peace." },
+        lines = {
+            greet = { { "Ready to go? Make sure you can move your shoulders properly. A fine-looking outfit is little use if it fights you at every step. There. Much better. Let us see where the road takes us.", tone = "[gruff] [friendly]" },
+                "Good to see you. Check the straps before we set out." },
+            idle = { { "A cat once fell asleep on a shirt I meant to sell. I could have moved it. Instead, I found another shirt. A little purring was doing more for the afternoon than another hurried sale.", tone = "[low] [gently amused]" },
+                "There is no shame in wearing something comfortable.",
+                "A quiet corner can be worth more than it looks." },
+            befriended = { { "You have learned when to speak and when to let a quiet moment stay quiet. I value that. Walk beside me. You need not find something useful to say just to earn your place there.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? I am listening.", "You will not find a price tag on my shoulder." },
+            loot = { { "Wrap the hard edges before you put that among the cloth. A little care now saves a great deal of cursing later. I have heard enough arguments with torn sleeves to know how those end.", tone = "[practical] [dryly amused]" } },
+            bagsFull = { "Fold it properly before declaring the bag too small." },
+            rest = { "Sit without that buckle digging into you. Rest should be worth the stop." },
+            combatEnd = { "Check for a tear before it becomes a larger problem." },
+            zone = { "I wonder where people here find a quiet corner." },
+            thanked = { "You are welcome. It was worth taking the time." },
+            hearth = { "Back to Orgrimmar. Perhaps the spare cloth has a visitor." },
+        },
+    },
+
+    -- Shan'ti <Fruit Vendor>, Orgrimmar, adult female Orc.
+    -- NPC 3342/display 1358. Classic six-food stock, current exact vendor title.
+    -- No personal quest/gossip found; anomalous pet-teaching widget not adopted.
+    -- Crunch appreciation is ours. No Siege/Legion relationships or relocation.
+    -- Research: docs/research/orgrimmar-cloth-and-fruit.md.
+    [3342] = {
+        quote = "Bring an appetite. The fruit has done its part; now you can do yours.",
+        likes = { "An apple with a satisfying crunch", "Customers who know when to stop squeezing", "A quiet moment to enjoy lunch" },
+        dislikes = { "Fruit bruised by idle hands", "Calling a meal a waste of time", "Talking through the first bite" },
+        gossip = "Someone heard a fierce crack behind Shan'ti's counter and expected trouble. The only casualty was an apple.",
+        bio = "Shan'ti sells fruit in Orgrimmar. Her established selection runs from shiny red apples and Tel'Abim bananas to watermelons, pumpkins and fried plantains. A traveler with an appetite has good reason to stop at her counter.",
+        backstory = "One quiet afternoon, Shan'ti bit into an especially crisp apple and liked the sound almost as much as the taste. She started listening to the first bite instead of talking over it. A small pleasure deserves a moment of its own.",
+        secret = "She once waited for a quiet street to hear the perfect crunch. A cart rattled past at precisely the wrong moment. She laughed so hard that trying again had to wait until the next apple.",
+        bestFriend = "Here is a good place to sit. Take your first bite, then tell me how the day has been. There is time for both, in that order.",
+        favorite = { emote = "GRIN", hint = "A pleased smile after a small pleasure is worth more than grand praise." },
+        lines = {
+            greet = { { "There you are. Have you eaten, or are you planning to glare at the road until it feeds you? Come along. We can find a place to stop before your stomach starts making the decisions.", tone = "[gravelly] [warmly teasing]" },
+                "Ready? Good. Leave room in the day for a proper meal." },
+            idle = { { "I once waited for the street to go quiet before biting an apple. Wanted to hear the crunch properly. A cart went past at just the wrong moment. Ruined the experiment. Improved the afternoon considerably.", tone = "[amused] [gruff]" },
+                "A good apple should give you something worth hearing.",
+                "One look is enough. Fruit does not improve with every squeeze." },
+            befriended = { { "You make time to enjoy a small thing without apologizing for it. I like that. Stay beside me. We can talk, we can eat, and neither of us needs to make the afternoon more impressive.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You have my attention.", "If you are checking ripeness, you have the wrong target." },
+            rest = { { "Sit down and give the first bite a moment. There will be plenty of time for the story afterward. Sometimes a meal is worth enjoying before we turn it into another thing to hurry through.", tone = "[firm] [contented]" } },
+            loot = { "Heavy things beneath the fruit. You can admire the treasure without crushing lunch." },
+            bagsFull = { "If the bag is full, stop pressing on it. Especially if lunch is inside." },
+            quest = { "Well done. Now see whether you have given yourself time to eat." },
+            combatEnd = { "Everyone still standing? Good. Catch your breath." },
+            laughAlong = { "Exactly. Sometimes the interruption is the best part." },
+            hearth = { "Back to Orgrimmar. I could use a familiar corner and a crisp apple." },
+        },
+    },
+
     -- Abigail Shiel <Trade Supplies>, Brill, adult female Forsaken.
     -- NPC 2118/display 1632. Current stock includes tools, thread, apprentice
     -- gathering bags and Recipe: Crispy Bat Wing. No personal quest found.

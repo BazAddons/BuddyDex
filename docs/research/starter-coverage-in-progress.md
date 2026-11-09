@@ -233,3 +233,10 @@ Abigail Shiel and Faruza bring development to **330 complete profiles**, each wi
 Next: [Ollanus and Shan'ti](orgrimmar-cloth-and-fruit-queue.md), male/female adult Orc armor and fruit merchants. Exact current identities/bodies/titles and published Orgrimmar location checked; missing current reaction and pin stay qualified. Full personal source review is pending.
 
 Individually preserving these merchant identities expands the combined catalog to **1,499 name groups**, 1,512 retained entries and 81 local identities absent from the original filter. These overlap the completed roster and must not be added as separate totals.
+
+
+## Orgrimmar cloth and fruit completed
+
+Ollanus and Shan'ti bring development to **332 complete profiles**, each with fifteen personal lines and four approved Orc v4 signatures. [Full research](orgrimmar-cloth-and-fruit.md) preserves merchant roles and historical stock, qualifies missing current fields and excludes retail relocations, later conversations and anomalous pet-training rows. Private cat kindness and crunch appreciation are original. Public access totals are 192 Alliance, 60 Horde and 86 unverified, with six shared profiles overlapping faction counts. Authored Orc profiles now total nineteen. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
+
+Next: [Jinar'Zillen and Mai'Lahii](shadowprey-fishing-contacts-queue.md), adult male/female Troll fishing contacts in Shadowprey Village. Exact current bodies, levels, friendly Horde icons and Desolace pins are verified; full own service/quest/gossip/literary review is pending. No profile or Scout encounter is claimed yet.

@@ -875,5 +875,19 @@
     "zone": "Tirisfal Glades",
     "source": "Exact current adult female Forsaken body, Horde friendly icon and Brill regional pin; full current/Classic stock/training, recipe tooltip, connected camping/referral and installed text reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/brill-counter-and-stubborn-weeds.md"
+  },
+  {
+    "npc_id": 3317,
+    "name": "Ollanus",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Orc body/title and published Orgrimmar identity; full current/Classic merchant relations, installed text and literary/chronology checks reviewed; current reaction/pin omitted, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-cloth-and-fruit.md"
+  },
+  {
+    "npc_id": 3342,
+    "name": "Shan'ti",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Orc body/title and published Orgrimmar identity; full current/Classic merchant relations, installed text and literary/chronology checks reviewed; current reaction/pin omitted, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-cloth-and-fruit.md"
   }
 ]

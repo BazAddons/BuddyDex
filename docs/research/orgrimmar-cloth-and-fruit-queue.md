@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](orgrimmar-cloth-and-fruit.md). The plan and progress notes below are historical.
+
 # Next: Ollanus and Shan'ti
 
 Identity shortlist, 2026-11-09. Continue Horde coverage with male/female adult Orc merchants in Orgrimmar. Neither is authored or recorded yet; no personal Scout sighting is claimed.

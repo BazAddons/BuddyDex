@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Ollanus and Shan'ti: full Orgrimmar profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Preserve actual merchant identities, distinguish historical stock from sparse current relations and exclude later retail moves/conversations. Development now has 332 complete profiles.
+
 - Complete Abigail Shiel and Faruza: full Brill profiles, fifteen personal lines and four approved Forsaken Eleven v4 signatures each. Verify current apprentice gathering bags, actual herbalism training and Forever Incense Candle referral; keep invented private stories distinct from established facts. Development now has 330 complete profiles.
 
 - Complete Bena and Komin Winterhoof: full Thunder Bluff profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Preserve Bena's Forsaken compassion, actual alchemy referrals and voucher role; include Komin's Forever Incense Candle lesson. Research complete Uldaman/Uldum branches and distinguish Kray's camping lesson and unverified access. Development now has 328 complete profiles.

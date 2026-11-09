@@ -119,6 +119,46 @@
     "text": "Hands steady. Pack secure. Now look out there... that's yours to see.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3317_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3317",
+    "spoken": "[steady] [sincere] You have learned when to speak and when to let a quiet moment stay quiet. I value that. Walk beside me. You need not find something useful to say just to earn your place there.",
+    "text": "You have learned when to speak and when to let a quiet moment stay quiet. I value that. Walk beside me. You need not find something useful to say just to earn your place there.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3317_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3317",
+    "spoken": "[gruff] [friendly] Ready to go? Make sure you can move your shoulders properly. A fine-looking outfit is little use if it fights you at every step. There. Much better. Let us see where the road takes us.",
+    "text": "Ready to go? Make sure you can move your shoulders properly. A fine-looking outfit is little use if it fights you at every step. There. Much better. Let us see where the road takes us.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3317_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3317",
+    "spoken": "[low] [gently amused] A cat once fell asleep on a shirt I meant to sell. I could have moved it. Instead, I found another shirt. A little purring was doing more for the afternoon than another hurried sale.",
+    "text": "A cat once fell asleep on a shirt I meant to sell. I could have moved it. Instead, I found another shirt. A little purring was doing more for the afternoon than another hurried sale.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3317_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3317",
+    "spoken": "[practical] [dryly amused] Wrap the hard edges before you put that among the cloth. A little care now saves a great deal of cursing later. I have heard enough arguments with torn sleeves to know how those end.",
+    "text": "Wrap the hard edges before you put that among the cloth. A little care now saves a great deal of cursing later. I have heard enough arguments with torn sleeves to know how those end.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3347_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

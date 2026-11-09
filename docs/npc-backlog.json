@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 330,
+  "completed_count": 332,
   "remaining_count": 4,
   "completed": [
     {
@@ -1654,6 +1654,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3317,
+      "name": "Ollanus",
+      "zone": "Orgrimmar",
+      "source": "Exact current adult Orc body/title and published Orgrimmar identity; full current/Classic merchant relations, installed text and literary/chronology checks reviewed; current reaction/pin omitted, no Scout sighting claimed",
+      "research_notes": "docs/research/orgrimmar-cloth-and-fruit.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3333,
       "name": "Shankys",
       "zone": "Orgrimmar",
@@ -1669,6 +1679,16 @@
       "zone": "The Barrens",
       "source": "Reviewed current adult Orc identity/model, Crossroads pin and friendly or conditional Neutral access; full courier loops or recruitment/hunter branches/readables with installed/current dialogue comparison; 905 mismatch resolved; no Scout sighting claimed",
       "research_notes": "docs/research/crossroads-wings-and-respect.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3342,
+      "name": "Shan'ti",
+      "zone": "Orgrimmar",
+      "source": "Exact current adult Orc body/title and published Orgrimmar identity; full current/Classic merchant relations, installed text and literary/chronology checks reviewed; current reaction/pin omitted, no Scout sighting claimed",
+      "research_notes": "docs/research/orgrimmar-cloth-and-fruit.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3096,16 +3116,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 3317,
-      "name": "Ollanus",
-      "zone": "Orgrimmar",
+      "npc_id": 11317,
+      "name": "Jinar'Zillen",
+      "zone": "Desolace",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 3342,
-      "name": "Shan'ti",
-      "zone": "Orgrimmar",
+      "npc_id": 12031,
+      "name": "Mai'Lahii",
+      "zone": "Desolace",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
@@ -3309,7 +3329,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1497,
+    "candidate_name_groups": 1499,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

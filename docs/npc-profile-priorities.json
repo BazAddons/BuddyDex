@@ -560,6 +560,20 @@
       "zone": "Orgrimmar",
       "route": "Male/female Orc cloth armor and fruit merchants",
       "reason": "Exact current adult Orc bodies, titles and published Orgrimmar identities checked; missing current level/reaction/pin qualified. Own full service/quest/gossip/literary research pending. See docs/research/orgrimmar-cloth-and-fruit-queue.md"
+    },
+    {
+      "npc_id": 11317,
+      "name": "Jinar'Zillen",
+      "zone": "Desolace",
+      "route": "Shadowprey Village male/female Troll fishing contacts",
+      "reason": "Exact current adult Troll bodies, levels, Horde friendly icons and regional pins verified. Own full service/quest/gossip/literary research pending. See docs/research/shadowprey-fishing-contacts-queue.md"
+    },
+    {
+      "npc_id": 12031,
+      "name": "Mai'Lahii",
+      "zone": "Desolace",
+      "route": "Shadowprey Village male/female Troll fishing contacts",
+      "reason": "Exact current adult Troll bodies, levels, Horde friendly icons and regional pins verified. Own full service/quest/gossip/literary research pending. See docs/research/shadowprey-fishing-contacts-queue.md"
     }
   ]
 }
