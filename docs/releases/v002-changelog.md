@@ -2,7 +2,7 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **290 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **291 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add five shared Zephras Isle Buddies accessible to both Skyborne faction paths: Ailee Farheart, Rorian the Dayseeker, Nyalah Brightfire, Coriella Calmbreeze and Zerril Softbreeze.
 - Add Windshaper Boro and Aarnor Galestrike, each with a full profile and four signature recordings for Horde players, grounded in the complete earth- and fire-totem initiation chains.
@@ -13,6 +13,7 @@
 - Add Innkeeper Grosk and Duokna, with full profiles and four signature recordings apiece for early Durotar services.
 - Add Mull Thunderhorn and Jhawna Oatwind, with complete profiles and four signatures each; include Forever's new well-cleansing report in Mull's lore research.
 - Add Qia's full merchant profile and four recordings using the selected original female Goblin voice; enable reproducible Goblin voice routing.
+- Add Wharfmaster Dizzywig's full Ratchet profile and four recordings using the selected original male Goblin voice, grounded in his shipment and passenger records.
 - Research existing lore and quest dialogue before writing each profile, including Forever-specific additions.
 
 ## Voices and companions

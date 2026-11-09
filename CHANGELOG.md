@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Wharfmaster Dizzywig: full profile, fifteen personal lines and four original male Goblin B Eleven v4 signatures. Research all shipment, parts and passenger branches/readables; preserve conditional neutral/non-attackable access. Development now has 291 complete profiles.
+
 - Complete Qia: full profile, fifteen personal lines and four original female Goblin B Eleven v4 signatures. Enable race 9 voice routing and reproducible body mappings; retain live neutral/non-attackable eligibility checks. Development now has 290 complete profiles; Dizzywig's full chain research remains pending.
 
 - Complete Mull Thunderhorn and Jhawna Oatwind: full profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research the full well-cleansing chain, Forever report and readable; development now has 289 completed profiles.

@@ -1808,6 +1808,12 @@ ns.VoicePack = {
             ["Yes, I made this pouch. No, the seam is not meant to bend like that. But everything I put inside remains inside, so I am counting it as useful. Selling the thread did not teach my fingers what to do with it. That part took practice, and apparently I have some more practice to look forward to."] = "goblin-female\\lore11189_idle_1.ogg",
             ["Good. Now give yourself a chance to use what you have learned. You do not have to produce a masterpiece before the effort counts. Make something useful, notice where it could be better, and try again when you are ready. I have a crooked little pouch that has been very helpful in explaining that to me."] = "goblin-female\\lore11189_learned_1.ogg",
         },
+        ["goblin-male"] = {
+            ["Yes, I'd like to come along. We've dealt with one another enough that I know I enjoy the company, even when there is nothing waiting to be collected. That's worth making time for. You needn't dress every invitation up as a useful errand. A walk with a friend can be an excellent use of an afternoon."] = "goblin-male\\lore3453_befriended_1.ogg",
+            ["There you are. Tell me where we're going before you start telling me how exciting it will be. I like to have the useful details first. Once those are settled, I can enjoy a walk as well as anyone. And if we happen across an interesting bit of business, I would prefer to notice it while we're still nearby."] = "goblin-male\\lore3453_greet_1.ogg",
+            ["It is a paper boat. No secret cargo, no special order, and no grand scheme behind it. I was trying to get the bow straight. This one leans a little, but I have become fond of it. There is something pleasant about a vessel that asks so little of a wharfmaster once it is finished."] = "goblin-male\\lore3453_idle_1.ogg",
+            ["Good, the job is finished. Now make certain the right person knows what arrived and where it went. A thing can be sitting exactly where it belongs while someone else is halfway across the country looking for it. The last few details are worth attending to before we call the whole business settled."] = "goblin-male\\lore3453_quest_1.ogg",
+        },
         ["human-female"] = {
             ["Welcome back!"] = "human-female\\npc_alive_1.ogg",
             ["There you are. Gave me a fright."] = "human-female\\npc_alive_2.ogg",

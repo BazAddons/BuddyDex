@@ -18,3 +18,5 @@ Use the user-selected original Goblin male B / female B voices if eligibility is
 Raw current-node caches are outside the repository in `C:/Users/brett/BuddyDex-builds/ratchet-research`.
 
 Qia is now authored with full research/limitations in [her notes](qia-trade-and-a-crooked-seam.md), four female Goblin B v4 signatures and conditional live-access checks. Dizzywig remains pending: [chain research progress](dizzywig-research-in-progress.md). No non-attackable state or both-faction access was inferred from a neutral town.
+
+Dizzywig is now complete with [final full-chain research](dizzywig-ledgers-and-paper-boats.md) and four original male B v4 signatures. Neutral access remains conditional on the existing live gate; no faction-friendly icon or shared-access milestone is inferred.

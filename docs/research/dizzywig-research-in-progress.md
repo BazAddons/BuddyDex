@@ -1,4 +1,6 @@
-# Wharfmaster Dizzywig: chain research in progress
+# Wharfmaster Dizzywig: historical research log
+
+Completed later on 2026-11-09; see [the final research](dizzywig-ledgers-and-paper-boats.md). The pending statements below record the earlier investigation.
 
 2026-11-09. Exact current 3453 is adult male Goblin, display 7053 / extra 4775, race 9 / sex 0. The [current node](https://forever.warcraftdb.com/api/data/node/npc/3453) has a Ratchet-area Barrens pin around 63.3, 38.4 and a Horde-icon Neutral listing. This is not a proof of non-attackable or shared friendly access. Existing live neutral/non-attackable checks remain mandatory; no profile or recording is created yet.
 

@@ -109,3 +109,7 @@ The next Goblin identity review is Wharfmaster Dizzywig (3453, adult male) and Q
 ## First Goblin profile and recorded routing
 
 Qia brings development to **290 complete profiles** with fifteen personal lines and four original female Goblin B v4 recordings. See [her notes](qia-trade-and-a-crooked-seam.md). Goblin production routing and reproducible body data are enabled; an authored profile still cannot bypass live reaction/attackability. Qia's current public faction listing remains unverified, Everlook is later travel rather than beginner coverage, and no shared-access milestone is claimed. The audit is 192 Alliance, 38 Horde and 66 unverified with six shared entries overlapping faction counts. Dizzywig's shipment/passenger chains remain [under research](dizzywig-research-in-progress.md), including a literary lead; he is not counted complete.
+
+## Dizzywig completed after full branch review
+
+Wharfmaster Dizzywig brings development to **291 complete profiles** with fifteen personal lines and four original male Goblin B v4 signatures. See [the full branch/readable research](dizzywig-ledgers-and-paper-boats.md). This adds a Ratchet dockmaster without attributing Kravel's schemes or later literary events to him. Public access totals remain 192 Alliance and 38 Horde, with 67 unverified and six shared entries overlapping faction counts; a Neutral icon does not become a friendly/non-attackable guarantee. Continue the useful Horde quest/service rotation and wider catalog after this pair.

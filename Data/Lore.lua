@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Wharfmaster Dizzywig (3453), adult male Goblin dockmaster, Ratchet, The Barrens.
+    -- Display 7053 / race 9 sex 0; current Neutral listing, live non-attackable access required.
+    -- Gazlowe's records, Helbrim's crate, Kravel's parts, Velinde's passage and emerald bargain.
+    -- Paper boats are original. docs/research/dizzywig-ledgers-and-paper-boats.md.
+    [3453] = {
+        quote = "Tell me what's coming in, what's going out, and whose name belongs on it. Then we can get somewhere.",
+        likes = { "A shipment with its details in order", "A fair share of a promising deal", "Paper boats with straight little bows" },
+        dislikes = { "Parts left waiting until they rust", "An unpaid tab behind a special order", "Guesswork presented as a shipping record" },
+        gossip = "Dizzywig folds little boats from wrapping scraps. Someone thinks they must be plans for a new fleet. He has made rather a lot.",
+        bio = "Dizzywig handles cargo and passenger records at Ratchet. He checks Gazlowe's logs, ships Helbrim's crate and releases Kravel's parts. His ledger traces Velinde's passage on the Black Osprey; he also seeks a share in an emerald deal.",
+        backstory = "A scrap of clean wrapping paper kept his hands busy between jobs. He folded it into a little boat, then tried another with a straighter bow. Making one neat enough to stand on its own became a pleasant way to spend a brief quiet spell.",
+        secret = "There is no fleet planned. He simply likes making the boats. His favorite is a slightly crooked one that leans as though it has already found a lively sea.",
+        bestFriend = "Here, this one's for you. A little crooked, but I like it. And for once, I have nothing to enter in a ledger afterward.",
+        favorite = { emote = "NOD", hint = "Show him you have understood the details before he has to repeat them." },
+        lines = {
+            greet = { { "There you are. Tell me where we're going before you start telling me how exciting it will be. I like to have the useful details first. Once those are settled, I can enjoy a walk as well as anyone. And if we happen across an interesting bit of business, I would prefer to notice it while we're still nearby.", tone = "[brisk businesslike welcome, wry enthusiasm, sociable confidence]" }, "Good, you're here. A destination, a little company, and perhaps something worth our time." },
+            idle = { { "It is a paper boat. No secret cargo, no special order, and no grand scheme behind it. I was trying to get the bow straight. This one leans a little, but I have become fond of it. There is something pleasant about a vessel that asks so little of a wharfmaster once it is finished.", tone = "[wry relaxed admission, lightly amused, fondness beneath a practical manner]" }, "A name in the right ledger can save a great deal of wandering.", "That fold is nearly straight. Nearly is quite acceptable when it is only a little paper boat." },
+            befriended = { { "Yes, I'd like to come along. We've dealt with one another enough that I know I enjoy the company, even when there is nothing waiting to be collected. That's worth making time for. You needn't dress every invitation up as a useful errand. A walk with a friend can be an excellent use of an afternoon.", tone = "[sincere upbeat friendship, practical warmth, gently teasing]" } },
+            poke = { "Speak up. Are we stopping, starting, or looking for something?", "Careful with that. I was quite pleased with the bow on this one." },
+            quest = { { "Good, the job is finished. Now make certain the right person knows what arrived and where it went. A thing can be sitting exactly where it belongs while someone else is halfway across the country looking for it. The last few details are worth attending to before we call the whole business settled.", tone = "[brisk satisfied instruction, dry practical humor, attentive confidence]" } },
+            mail = { "A name and a destination. Give both a second look before sending it on its way." },
+            loot = { "Something worth a closer look? Let us establish what it is before deciding what it is worth." },
+            bagsFull = { "We appear to have accepted more cargo than this arrangement can carry." },
+            zone = { "Somewhere new. I wonder what people send from here, and what they wait to receive." },
+            rest = { "A quiet moment. I may see whether I can improve that little boat's bow." },
+            hearth = { "Back again. Good company, and no missing shipment to account for on the way." },
+        },
+    },
+
     -- Qia (11189), adult female Goblin trade-goods merchant, Everlook, Winterspring.
     -- Display 10746 / race 9 sex 1; current exact title/model and published Winterspring location.
     -- Classic stock/Atlas corroborate supplies; no current stock/timer or crafting mastery promised.

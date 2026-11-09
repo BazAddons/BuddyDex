@@ -595,5 +595,12 @@
     "zone": "Winterspring",
     "source": "Reviewed exact current adult female Goblin identity/model and published Winterspring location; Atlas Everlook merchant and Classic stock, no personal quests/gossip established; current reaction audit unverified and live neutral/non-attackable access required; no Scout sighting claimed",
     "research_notes": "docs/research/qia-trade-and-a-crooked-seam.md"
+  },
+  {
+    "npc_id": 3453,
+    "name": "Wharfmaster Dizzywig",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult male Goblin model, Ratchet pin and Neutral icon; complete available shipment/parts/passenger branches, relevant book bodies, installed dialogue and literary-era limits; conditional live non-attackable access, no Scout sighting claimed",
+    "research_notes": "docs/research/dizzywig-ledgers-and-paper-boats.md"
   }
 ]
