@@ -136,7 +136,12 @@ end
 SLASH_BUDDYDEXSCOUT1 = "/bdscout"
 SlashCmdList.BUDDYDEXSCOUT = function(msg)
     msg = (msg or ""):lower():match("^%s*(.-)%s*$")
-    if msg == "sweep" then
+    if msg == "announce on" or msg == "announce off" or msg == "announce" then
+        local enabled = msg ~= "announce off"
+        ns.db.settings.announce = enabled
+        ns.Print("Discovery announcements %s. Use /bdscout announce on or off.", enabled and "on" or "off")
+        ns.Bus:TriggerEvent(ns.Event.SettingChanged, "announce", enabled)
+    elseif msg == "sweep" then
         if ns.Sweep then ns.Sweep.Toggle() end
     elseif msg == "on" or msg == "off" then
         ns.db.settings.scout = msg == "on"

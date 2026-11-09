@@ -1417,8 +1417,10 @@ end)
 
 SCOUT = r"""
 step("ADDON_LOADED", function()
+    BuddyDexScoutDB = { version = 1, settings = { scout = true, announce = false }, roster = {} }
     FireAll("ADDON_LOADED", "BuddyDexScout")
     assert(type(BuddyDexScoutDB) == "table" and type(BuddyDexScoutDB.roster) == "table", "no roster")
+    assert(BuddyDexScoutDB.version == 2 and BuddyDexScoutDB.settings.announce, "old silent default was not migrated")
 end)
 
 step("takes over BuddyDex's old roster on login", function()
@@ -1440,6 +1442,26 @@ step("scouts a nameplate NPC with faction and attackable", function()
     FireAll("NAME_PLATE_UNIT_ADDED", "nameplate1")
     local e = BuddyDexScoutDB.roster[3296]
     assert(e and e.faction == "Horde" and e.attackable == true, "faction or attackable missing")
+end)
+
+step("announces new discoveries once and honors the announcement switch", function()
+    MOCK.units.target = { guid = "Creature-0-1-2-3-3626-0000AB", npcID = 3626, name = "Jenn Langston",
+        type = "Humanoid", reaction = 5, faction = "Alliance", tip = { "Level 5" } }
+    local before = #MOCK.printed
+    FireAll("PLAYER_TARGET_CHANGED")
+    assert(#MOCK.printed == before + 1 and Printed("Jenn Langston.*NPC #3626.*Added to Scout"), "new discovery was not announced")
+    FireAll("PLAYER_TARGET_CHANGED")
+    MOCK.Advance(61)
+    FireAll("PLAYER_TARGET_CHANGED")
+    assert(#MOCK.printed == before + 1, "repeat sighting was announced")
+    SlashCmdList.BUDDYDEXSCOUT("announce off")
+    before = #MOCK.printed
+    MOCK.units.target = { guid = "Creature-0-1-2-3-2461-0000AB", npcID = 2461, name = "Bailey Stonemantle",
+        type = "Humanoid", reaction = 5, faction = "Alliance", tip = { "Banker", "Level 45" } }
+    FireAll("PLAYER_TARGET_CHANGED")
+    assert(BuddyDexScoutDB.roster[2461] and #MOCK.printed == before, "disabled announcement printed or blocked scouting")
+    SlashCmdList.BUDDYDEXSCOUT("announce on")
+    assert(BuddyDexScoutDB.settings.announce, "announcement switch did not turn back on")
 end)
 
 step("the window and the sweep", function()

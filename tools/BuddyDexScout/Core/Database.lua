@@ -14,9 +14,9 @@ local ADDON_NAME, ns = ...
 local Util = ns.Util
 
 local DEFAULTS = {
-    version = 1,
+    version = 2,
     roster = {},                    -- [npcID] = entry
-    settings = { scout = true, announce = false },
+    settings = { scout = true, announce = true },
     sweep = { restore = nil },      -- the friendly-nameplate setting while a sweep runs
     removed = {},
     imported = {},                  -- [source] = number of entries taken over
@@ -79,7 +79,14 @@ frame:SetScript("OnEvent", function(self, event, name)
         if name ~= ADDON_NAME then return end
         self:UnregisterEvent("ADDON_LOADED")
         if type(BuddyDexScoutDB) ~= "table" then BuddyDexScoutDB = {} end
+        local oldVersion = tonumber(BuddyDexScoutDB.version) or 1
         Util.CopyDefaults(BuddyDexScoutDB, DEFAULTS)
+        -- Version 1 defaulted to silence and offered no announcement control.
+        -- Enable discoveries once for existing scouts; later choices persist.
+        if oldVersion < 2 then
+            BuddyDexScoutDB.settings.announce = true
+            BuddyDexScoutDB.version = 2
+        end
         ns.db = BuddyDexScoutDB
         ns.Bus:TriggerEvent(ns.Event.VariablesReady)
     elseif event == "PLAYER_LOGIN" then

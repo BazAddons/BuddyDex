@@ -237,7 +237,7 @@ local function AddEntry(db, unit, npcID, zone, now)
     if type(ns.db.removed) == "table" then ns.db.removed[npcID] = nil end
     ns.Bus:TriggerEvent(ns.Event.NpcSeen, npcID, entry)
     if db.settings.announce then
-        ns.Print("New BuddyDex entry: |cffffffff%s|r", name)
+        ns.Print("Discovered |cffffffff%s|r (NPC #%d) in %s. Added to Scout.", name, npcID, zone)
     end
 end
 
