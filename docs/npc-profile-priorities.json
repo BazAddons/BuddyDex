@@ -935,9 +935,9 @@
     {
       "npc_id": 4585,
       "name": "Ezekiel Graves",
-      "zone": "Tirisfal Glades",
+      "zone": "Undercity",
       "route": "Tauren/Forsaken supplies and named vendor coverage",
-      "reason": "Exact current named adult model/pin/voice checked; Chepi Horde Friendly, Ezekiel Horde Neutral so no friendly coverage inferred. Full service/quest/era and live-gate research pending. See docs/research/chepi-and-ezekiel-queue.md"
+      "reason": "Exact current named adult male model and voice checked; primary Forever NPC page confirms Undercity despite WarcraftDB Tirisfal parent-map pin. Horde Neutral, so no friendly coverage inferred; full service/chain and neutral live-gate source checkpoint in docs/research/chepi-and-ezekiel-queue.md"
     }
   ]
 }
