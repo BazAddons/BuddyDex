@@ -41,6 +41,59 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Deathknell's Arren 1570/undead male/1583 and Saltain 1740/undead
+    -- male/3523. Full Classic mine/Scarlet chain and salvage quest read;
+    -- Forever 96656 sends recruits to Eleanor Shackleton. Private walking
+    -- plans and a kept button are original. Audio awaits Forsaken voices.
+    -- docs/research/arren-and-saltain.md.
+    [1570] = {
+        quote = "Tell me what you found, what remains to be done, and what you need. An honest account is useful. An impressive account must first manage to be an honest one.",
+        likes = { "A report that reaches its point", "Useful work done with limited means", "A walk with no business at its end" },
+        dislikes = { "A shortage concealed by fine words", "An enemy mistaken for a harmless fool", "Turning every pause into another task" },
+        gossip = "Arren can give a short walk an ambitious plan. The part about sitting with a friend seems to survive every revision.",
+        bio = "Executor Arren directs work in Deathknell with few hands to spare. He sends recruits against mine spiders and the Scarlet Crusade, then passes captured intelligence to his superior Zygand. He also directs a trusted recruit to Eleanor Shackleton near Brill.",
+        backstory = "He once planned a private walk with several sensible stops. Explaining it made the pleasure sound like another task. He revised the plan to leave room for agreeable company and no business at its end.",
+        secret = "He can still describe that short walk as though it needs a campaign plan. The part he looks forward to is simply sitting with a friend who has no report to deliver.",
+        bestFriend = "Come, my friend. We can leave the plan at a walk and a place to sit. Your company is sufficient reason to make the time.",
+        favorite = { emote = "SALUTE", hint = "A respectful acknowledgment suits someone who values a clear purpose and work seen through." },
+        lines = {
+            greet = { { "There you are, my friend. I have a plan for a short walk. It has become less elaborate since the first explanation. We shall walk, find somewhere agreeable to pause, and enjoy the company. That should suffice.", tone = "[firm weathered Forsaken warmth, dry self-awareness, welcoming]" }, "Good to see you. Have you time for a walk with no report at its end?" },
+            idle = { { "I planned a private walk with several sensible stops. By the end of the explanation, it sounded suspiciously like another task. I revised it. The part about sitting with a friend has survived every change.", tone = "[restrained dry amusement, practical candor, confiding]" }, "Limited means make an honest account more useful, not less.", "A pause need not be justified by inventing work to fill it." },
+            befriended = { { "You would welcome my company? Very well, my friend. I shall make the time. Lead on. We can leave the business aside long enough to hear how the day has treated you.", tone = "[guarded sincere affection, deliberate warmth, inviting]" } },
+            poke = { "Yes? Give me the matter plainly.", "I am listening, my friend. What have you found?" },
+            quest = { { "Well done. Give yourself a moment to recognize what has been accomplished. There will be other work, but that is no reason to pass over an honest result without acknowledging the effort it took.", tone = "[measured firm approval, restrained encouragement, clear]" } },
+            learned = { "A useful addition. Take the time to learn what it can accomplish." },
+            bagsFull = { "Limited room calls for a decision about what is actually needed." },
+            combatEnd = { "See to your wounds and take stock before the next decision." },
+            rest = { "A place to pause. This part of the plan requires no further explanation." },
+            zone = { "Look about you. Decide what deserves attention before committing your efforts." },
+            hearth = { "Back to familiar ground. A clear account can wait until you have your bearings." },
+        },
+    },
+    [1740] = {
+        quote = "Something discarded may still have work left in it. Look before you decide. We have enough to do without throwing away what could serve the next person.",
+        likes = { "Useful equipment put back to work", "A recruit who shows some initiative", "One oddly pleasing spare button" },
+        dislikes = { "Sound gear dismissed for looking worn", "A task left for someone else to start", "Useful things buried under clutter" },
+        gossip = "Saltain can find a use for most things he keeps. One spare button appears to have escaped a clear explanation.",
+        bio = "Deathguard Saltain puts new recruits to work salvaging useful goods around Deathknell. More Forsaken will awaken needing equipment, and he means to have something ready. He expects effort and shares better finds with those who help.",
+        backstory = "Among ordinary odds and ends, he found a button whose color pleased him. It matched nothing that needed mending. He kept it with the sensible explanation that a use might turn up, then found he enjoyed noticing it whether a use arrived or not.",
+        secret = "He has stopped looking for a use for that button. It is small, takes up very little room, and pleases him. He sees no pressing need to explain it further.",
+        bestFriend = "Come on, friend. Tell me what you have found today. It needn't all be useful. I can allow a little room for something you like.",
+        favorite = { emote = "THANK", hint = "A plain acknowledgment is welcome when someone has helped make scarce equipment go further." },
+        lines = {
+            greet = { { "There you are, friend. Ready for a walk? Tell me what you have found today. Something useful, perhaps. Or something that simply pleased you. I can allow a little room for either kind of discovery.", tone = "[gruff weathered Forsaken warmth, practical humor, welcoming]" }, "Good to see you. Have you put the day to a use you like?" },
+            idle = { { "I kept a spare button because the color pleased me. Said a use might turn up. It still matches nothing. Small thing, takes very little room. I have stopped pretending that a repair is the only reason to keep it.", tone = "[rough dry candor, private amusement, confiding]" }, "Worn does not always mean finished. Take a closer look.", "There is room for a little pleasure among the useful things." },
+            befriended = { { "You want me along? Gladly, friend. Lead on. I should like to hear how you have been, and what you have made of the day. There is time to enjoy a little company.", tone = "[gruff sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you found something worth another look?", "I am listening. Tell me what you have in mind." },
+            bagsFull = { { "Take a proper look before deciding what goes. A worn thing may have work left in it. And if one small piece simply pleases you, leave room for that too. A pack need not explain every last choice to someone else.", tone = "[practical decisive advice, guarded warmth, clear]" } },
+            loot = { "Worth a look. Someone may still get use from that." },
+            gear = { "See how it serves you. There is more to judge than the first appearance." },
+            quest = { "Good. You put the effort in and saw it through." },
+            learned = { "Something else you can put to work. Learn how to make it serve." },
+            rest = { "A pause, then. Tell me what has pleased you today." },
+            hearth = { "Back to familiar ground. We can sort the day's business once you are settled." },
+        },
+    },
     -- Deathknell: Mordo 1568/undead male/1582, Sarvis 1569/undead male/1584,
     -- Elreth 1661/undead female/1593. Classic quests and current Forever
     -- text checked, including Sarvis's paladin referral 98601. Elreth's

@@ -686,6 +686,15 @@
       "status": "needs_completion"
     },
     {
+      "npc_id": 1570,
+      "name": "Executor Arren",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 1661,
       "name": "Novice Elreth",
       "zone": "Tirisfal Glades",
@@ -702,6 +711,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 1740,
+      "name": "Deathguard Saltain",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
     },
     {
       "npc_id": 2046,
@@ -1810,20 +1828,6 @@
     {
       "npc_id": 1736,
       "name": "Deathguard Randolph",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1740,
-      "name": "Deathguard Saltain",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1570,
-      "name": "Executor Arren",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
