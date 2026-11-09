@@ -309,3 +309,10 @@ Next individually checked Night Elf/Goblin identities: Shandrina 3955 and Smeed 
 Shandrina 3955 and Smeed Scrabblescrew 11596 complete: full Night Elf/Goblin profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](silverwind-quiet-and-kodo-footfalls.md) separates cookbook history, caravan duties and current availability. Development total **350**; public access Alliance 192, Horde 72, unverified 92 (six shared profiles overlap). Installed/development-packaged; publication remains deferred.
 
 Next checked identities: Lui'Mala 12032 and Alegorn 4210, [queue](luimala-and-alegorn-queue.md). Neither is counted complete.
+
+
+### 2026-11-09: Shadowprey and Darnassus teachers
+
+Lui'Mala 12032 and Alegorn 4210 complete: full Troll/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](shadowprey-endings-and-darnassus-first-bites.md) preserves exact teaching/referrals and excludes later dailies. Development total **352**, public access Alliance 193, Horde 73, unverified 92 (six shared entries overlap). Installed/development-packaged; no publication.
+
+Next checked identities: Zamja 3399 and Dannelor 4211, [queue](zamja-and-dannelor-queue.md). Neither counted complete.

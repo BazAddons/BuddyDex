@@ -79,6 +79,46 @@
     "text": "Thank you. Careful work gives us something we can actually examine. I would rather have one reliable observation than a dozen impressive claims. Tell me how you found it, and whether anything surprised you. The part that failed to fit your expectations may be especially useful.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore4210_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4210",
+    "spoken": "[fond] [sincere] You can listen to an explanation and still remind me to enjoy the meal. I appreciate that combination. Come along. We can find something pleasant in the day, and I will try to notice it before turning it into a lesson for you.",
+    "text": "You can listen to an explanation and still remind me to enjoy the meal. I appreciate that combination. Come along. We can find something pleasant in the day, and I will try to notice it before turning it into a lesson for you.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4210_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4210",
+    "spoken": "[warm] [lightly amused] Welcome back. Have you eaten? I was about to explain something useful, but perhaps the first useful thing is to sit and taste what is in front of us. You may remind me of that if the explanation gets ahead of supper again.",
+    "text": "Welcome back. Have you eaten? I was about to explain something useful, but perhaps the first useful thing is to sit and taste what is in front of us. You may remind me of that if the explanation gets ahead of supper again.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4210_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4210",
+    "spoken": "[wry] [cheerful] I once explained a point about crab cakes until my own had gone cold. Someone suggested I try a bite. Very sensible advice. I have since attempted three mouthfuls before a cooking tip. Two is my more usual achievement so far.",
+    "text": "I once explained a point about crab cakes until my own had gone cold. Someone suggested I try a bite. Very sensible advice. I have since attempted three mouthfuls before a cooking tip. Two is my more usual achievement so far.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4210_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4210",
+    "spoken": "[encouraging] [thoughtful] Cooking rewards attention over a lifetime. A book can take you further, and another teacher can show you what you have yet to notice. Keep practicing, and keep tasting. An explanation becomes much more useful when you discover what it means for yourself.",
+    "text": "Cooking rewards attention over a lifetime. A book can take you further, and another teacher can show you what you have yet to notice. Keep practicing, and keep tasting. An explanation becomes much more useful when you discover what it means for yourself.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore5500_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

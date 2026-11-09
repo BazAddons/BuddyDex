@@ -1,4 +1,6 @@
-# Next: Lui'Mala and Alegorn
+# Completed: Lui'Mala and Alegorn
+
+Completed 2026-11-09; see [full research and validation](shadowprey-endings-and-darnassus-first-bites.md). Historical planning notes below.
 
 Individually checked identity shortlist, 2026-11-09. Neither profile is authored or recorded yet; no personal Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/luimala-alegorn-research`.
 

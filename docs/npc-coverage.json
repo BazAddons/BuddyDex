@@ -1,21 +1,21 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 350,
+  "completed_profiles": 352,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 192,
+    "alliance": 193,
     "unverified": 92,
-    "horde": 72
+    "horde": 73
   },
   "npc_race_counts": {
     "1": 165,
     "3": 33,
     "7": 25,
     "5": 31,
-    "4": 12,
+    "4": 13,
     "2": 22,
     "6": 25,
-    "8": 17,
+    "8": 18,
     "9": 12,
     "96": 3,
     "95": 5
@@ -38,10 +38,11 @@
     "The Barrens": 14,
     "Ashenvale": 3,
     "Stonetalon Mountains": 3,
+    "Darnassus": 1,
     "Undercity": 1,
     "Silverpine Forest": 1,
     "Thousand Needles": 2,
-    "Desolace": 5,
+    "Desolace": 6,
     "Winterspring": 1,
     "Deeprun Tram": 3,
     "Tanaris": 1,
@@ -2703,6 +2704,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4201"
     },
     {
+      "npc_id": 4210,
+      "name": "Alegorn",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly; live eligibility required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4210"
+    },
+    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -3862,6 +3876,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12031"
+    },
+    {
+      "npc_id": 12032,
+      "name": "Lui'Mala",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly; live eligibility required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12032"
     },
     {
       "npc_id": 12136,

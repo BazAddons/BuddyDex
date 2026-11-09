@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lui'Mala <Fisherman>, Shadowprey Village, adult female Troll,
+    -- 12032/display 12038, current Horde-friendly. Classic fishing ranks;
+    -- exact installed gossip refers learners to Heming's book and Nat Pagle.
+    -- Wanting a story's ending first is ours. No invented famous catch.
+    -- Research: docs/research/shadowprey-endings-and-darnassus-first-bites.md.
+    [12032] = {
+        quote = "I can wait for a fish. A story? Tell me how it ends, then we can take our time.",
+        likes = { "Knowing a traveler made it back safely", "A patient hand learning to cast", "The details after she knows the ending" },
+        dislikes = { "Suspense that will not let her listen", "Pretending to teach beyond her skill", "A good tale stopped one sentence early" },
+        gossip = "Lui'Mala can wait quietly over a fishing line. Start a traveling story, though, and she will ask for the ending before the second sentence.",
+        bio = "Lui'Mala teaches fishing at Shadowprey Village. When a learner outgrows her instruction, she points them toward Old Man Heming's book in Booty Bay or Nat Pagle in Dustwallow. She is willing to say when another teacher is needed.",
+        backstory = "A traveler once began a tale with a snapped rope and a very long drop. Lui'Mala missed the next few sentences wondering whether everyone had survived. When she learned they had, she asked to hear it again from the beginning.",
+        secret = "Once she knows the ending, she can enjoy every little detail. She does not want a shorter story. She wants to stop worrying long enough to hear it properly.",
+        bestFriend = "Tell me you came through safely first. Then sit, mon, and take all the time you like. I want to hear what the journey was like for you.",
+        favorite = { emote = "GRIN", hint = "Likes a reassuring glimpse of the happy ending before a long story begins." },
+        lines = {
+            greet = { { "There you are, mon. Good, you made it back. Now I can enjoy hearing about the journey. Start wherever you like, and take your time. I listen much better once I know the person telling the story came through it safely.", tone = "[warm] [relieved]" },
+                "Good company. Tell me the ending first, then we can enjoy how you got there." },
+            idle = { { "I can wait over a fishing line without a word. A traveler starts telling me about a snapped rope, though, and I need to know how it ends. Once everyone is safe, I am happy to hear every little detail again.", tone = "[amused] [confiding]" },
+                "A pause is pleasant when nobody is hanging from a cliff in the story.",
+                "There is no shame in finding a teacher who knows what you still need." },
+            befriended = { { "You remember to tell me that everyone came through before you begin the long version. That is kindness, mon. Come along. I would enjoy being part of a little of your day, and hearing the rest when you are ready to tell it.", tone = "[affectionate] [sincere]" } },
+            poke = { "Yes? You were about to tell me everyone was safe.", "I am listening. I just needed that last part first." },
+            learned = { { "There comes a time when a learner needs more than I can teach. A good book, another patient teacher, a little more practice. That is progress, mon. I would rather point you toward it than pretend I have nothing left to learn myself.", tone = "[encouraging] [thoughtful]" } },
+            loot = { "A useful find. You can tell me how you reached it after we are somewhere comfortable." },
+            rest = { "A good place for the long version. We have time." },
+            zone = { "Tell me what you notice. You need not make it a grand adventure." },
+            combatStart = { "I would very much like this part to end well." },
+            combatEnd = { "There. Now I can catch up with what just happened." },
+            hearth = { "A safe arrival makes a fine beginning to the telling." },
+        },
+    },
+
+    -- Alegorn <Cooking Trainer>, Darnassus, adult male Night Elf,
+    -- 4210/display 2242; current Alliance-friendly Trainer service.
+    -- Exact gossip: lifelong cooking, Shandrina's book, Dirge's instruction.
+    -- Letting a lesson delay his first bite is ours. No later daily quests.
+    -- Research: docs/research/shadowprey-endings-and-darnassus-first-bites.md.
+    [4210] = {
+        quote = "A good meal should leave you eager for another bite. I occasionally forget it should begin with one.",
+        likes = { "A learner finding their own confidence", "Food tasted while it is still warm", "A question after the first mouthful" },
+        dislikes = { "Explaining until his own supper cools", "Mistaking confidence for knowing it all", "A promising meal left waiting too long" },
+        gossip = "Alegorn can turn a first bite into a cooking lesson before anyone has taken it. His own supper is usually the one that suffers.",
+        bio = "Alegorn teaches cooking in Darnassus and calls it a lifelong pursuit. He directs advancing cooks to Shandrina's Expert Cookbook, then to Dirge Quikcleave in Gadgetzan for further instruction. His enthusiasm seldom ends with the lesson.",
+        backstory = "While sharing crab cakes, Alegorn began explaining a finer point before tasting his own. A guest finally suggested he try it while it was warm. He took the advice, then discovered he had another useful observation to share.",
+        secret = "He sometimes sets himself a challenge: three mouthfuls before offering a cooking tip. He rarely reaches three. A companion who can gently catch him at it is welcome.",
+        bestFriend = "Sit with me. If I begin explaining before I have tasted anything, you may remind me. I would like to enjoy this meal with you.",
+        favorite = { emote = "WINK", hint = "Takes a friendly reminder that supper is ready to eat with good humor." },
+        lines = {
+            greet = { { "Welcome back. Have you eaten? I was about to explain something useful, but perhaps the first useful thing is to sit and taste what is in front of us. You may remind me of that if the explanation gets ahead of supper again.", tone = "[warm] [lightly amused]" },
+                "Good to see you. There is always more to learn, and room to enjoy what you know." },
+            idle = { { "I once explained a point about crab cakes until my own had gone cold. Someone suggested I try a bite. Very sensible advice. I have since attempted three mouthfuls before a cooking tip. Two is my more usual achievement so far.", tone = "[wry] [cheerful]" },
+                "One mouthful. No advice yet. I am making progress.",
+                "Confidence is good. Leaving room to learn is better." },
+            befriended = { { "You can listen to an explanation and still remind me to enjoy the meal. I appreciate that combination. Come along. We can find something pleasant in the day, and I will try to notice it before turning it into a lesson for you.", tone = "[fond] [sincere]" } },
+            poke = { "Yes? Was I about to let supper cool again?", "I am listening. There is time for your question." },
+            learned = { { "Cooking rewards attention over a lifetime. A book can take you further, and another teacher can show you what you have yet to notice. Keep practicing, and keep tasting. An explanation becomes much more useful when you discover what it means for yourself.", tone = "[encouraging] [thoughtful]" } },
+            loot = { "Consider what you can actually use before choosing what looks impressive." },
+            rest = { "A fine moment for a meal. I will endeavor to eat mine." },
+            quest = { "Listen carefully to what the task asks. Experience begins with paying attention." },
+            zone = { "Somewhere new. There may be something worth learning over supper." },
+            laughAlong = { "Yes, you caught me. I was beginning another explanation." },
+            hearth = { "A familiar place to sit and enjoy what the day has brought." },
+        },
+    },
+
     -- Shandrina <Trade Goods>, Silverwind Refuge, Ashenvale; adult female
     -- Night Elf, 3955/display 2068. Classic wares include Expert Cookbook;
     -- installed cooking referrals name her. Current map/reaction omitted.

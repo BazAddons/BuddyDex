@@ -1,0 +1,10 @@
+# Next: Zamja and Dannelor
+
+Individually checked identity shortlist, 2026-11-09. Neither profile authored or recorded yet; no Scout sighting claimed. Exact node caches: `C:/Users/brett/BuddyDex-builds/zamja-dannelor-research`.
+
+- [Zamja 3399](https://forever.warcraftdb.com/api/data/node/npc/3399): Cooking Trainer, explicit Trainer service, Troll humanoid, level 35, Horde-icon Friendly; Orgrimmar/map 1454 about 57.4, 53.4. Display 2734 -> race 8, sex 1, standard adult female. Installed body metadata agrees. Her own forceful cooking-referral voice must not be flattened into another teacher's temperament.
+- [Dannelor 4211](https://forever.warcraftdb.com/api/data/node/npc/4211): First Aid Trainer, explicit Trainer service, Night Elf humanoid, level 35, Alliance-icon Friendly; Darnassus/map 1457 about 51.7, 12.8. Display 2248 -> race 4, sex 0, standard adult male. Installed body metadata agrees. Verify exact services and referral/quest text; first aid is not permission to invent healing powers or a new combat ability.
+
+Read all own current/Classic relations, full exact installed gossip and quest/name matches, all relevant chains and readable items, and personal literary/era evidence before authoring. Zamja's 6611 To Gadgetzan You Go! was fully reviewed with the connected profession cluster in [Aska/Kah's research](thunder-bluff-suppers-and-fishing-verses.md) and re-read for [Lui'Mala/Alegorn](shadowprey-endings-and-darnassus-first-bites.md). Review her own scope and any additional connections independently; Dirge's dish remains his own. Keep later cooking dailies, retail first-aid removal and later city events out of Classic/Forever characterization unless individually established.
+
+Approved Troll female C and Night Elf male voices, Eleven v4. Ten fields, fifteen personal lines and four signatures each, layout/audio/fresh-session checks, install, separate development v002 ZIP, persistent backlog/changelog and GitHub push required. Normal live named/adult/reaction/non-attackability gates stay mandatory. Two older Westfall checks and the wider catalog remain open. Publication deferred.

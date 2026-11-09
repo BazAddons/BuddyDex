@@ -1015,5 +1015,19 @@
     "zone": "Desolace",
     "source": "Exact current named adult Night Elf/Goblin body; Shandrina map/reaction omitted, Smeed Horde-icon Neutral with Desolace pin; full own relations, cookbook/referrals, kodo/caravan quest network, installed text and literary/era review; no Scout sighting claimed",
     "research_notes": "docs/research/silverwind-quiet-and-kodo-footfalls.md"
+  },
+  {
+    "npc_id": 12032,
+    "name": "Lui'Mala",
+    "zone": "Desolace",
+    "source": "Exact current adult body, friendly faction icon and pin; full own Classic/current relations, exact fishing/cooking gossip, connected profession referral clusters, books and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowprey-endings-and-darnassus-first-bites.md"
+  },
+  {
+    "npc_id": 4210,
+    "name": "Alegorn",
+    "zone": "Darnassus",
+    "source": "Exact current adult body, friendly faction icon and pin; full own Classic/current relations, exact fishing/cooking gossip, connected profession referral clusters, books and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowprey-endings-and-darnassus-first-bites.md"
   }
 ]

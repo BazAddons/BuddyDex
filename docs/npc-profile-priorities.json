@@ -700,6 +700,20 @@
       "zone": "Darnassus",
       "route": "Troll female/Night Elf male coverage",
       "reason": "Exact current named adult body, faction icon and pin checked; full personal service/quest research pending. See docs/research/luimala-and-alegorn-queue.md"
+    },
+    {
+      "npc_id": 3399,
+      "name": "Zamja",
+      "zone": "Orgrimmar",
+      "route": "Troll female/Night Elf male coverage",
+      "reason": "Exact current named adult body, friendly faction icon and pin checked; full own personal/service/quest research pending. See docs/research/zamja-and-dannelor-queue.md"
+    },
+    {
+      "npc_id": 4211,
+      "name": "Dannelor",
+      "zone": "Darnassus",
+      "route": "Troll female/Night Elf male coverage",
+      "reason": "Exact current named adult body, friendly faction icon and pin checked; full own personal/service/quest research pending. See docs/research/zamja-and-dannelor-queue.md"
     }
   ]
 }

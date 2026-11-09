@@ -1,5 +1,6 @@
 # Unreleased
 
+- Complete Lui'Mala and Alegorn: full Troll/Night Elf profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve their actual fishing/cooking teaching and referrals; omit later city dailies and personal histories belonging to the advanced teachers.
 - Complete Shandrina and Smeed Scrabblescrew: full Night Elf/Goblin profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve cookbook referrals and the kodo/caravan business network, with historical/current availability qualified and normal live eligibility required.
 - Complete Ula'elek and Orm Stonehoof: full Troll/Tauren profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve the smiths' distinct spiritual methods and Charred Vale purpose; Ula'elek's public current reaction remains unverified and normal live eligibility stays required.
 - Complete Gorrik and Velora Nitely: full Kargath/Undercity profiles, fifteen personal lines and four approved Orc/Forsaken Eleven v4 signatures each. Preserve Velora's canonical skill, lost humor and grim material choice; distinguish historical armor quests from unverified current quest availability.
