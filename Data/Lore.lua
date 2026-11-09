@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Coriella Calmbreeze (254089), adult female High Order Skyborne innkeeper, Shen'dar.
+    -- Display 138005 / race 95 sex 1; both-friendly. Aonda's two village tours name her.
+    -- Spare cup and reminder to take her own break are original. docs/research/shendar-table-and-hearth.md.
+    [254089] = {
+        quote = "Set your things down before telling me how far you have to go. A journey can spare a moment for refreshment.",
+        likes = { "Guests finding time to catch their breath", "A familiar face returning to the inn", "Company over a drink that is still warm" },
+        dislikes = { "Calling a needed rest an indulgence", "A welcome drowned out by an argument", "Her own drink forgotten until it is cold" },
+        gossip = "Coriella sometimes sets out an extra cup. Guests wonder who she is expecting, but nobody ever seems to arrive in time to claim it.",
+        bio = "Coriella Calmbreeze runs the Calmbreeze Inn in Shen'dar Village, offering lodging, food and drink. Constable Aonda sends both High Order and Windshaper newcomers to meet her before putting them to work around the village.",
+        backstory = "She kept promising herself a break after the next guest was settled. Eventually she began setting out her own cup beside the others. Seeing it there was a small reminder that the innkeeper could use a moment of hospitality, too.",
+        secret = "The extra cup is hers. She still forgets to drink from it when someone has a good story, but she considers that a more pleasant reason for letting a drink grow cold.",
+        bestFriend = "That cup is mine, this one is yours, and I am sitting down before either goes cold. Now tell me how you have been, my friend.",
+        favorite = { emote = "THANK", hint = "A little appreciation can make even a busy host pause and smile." },
+        lines = {
+            greet = { { "A walk with you sounds rather pleasant. I have spent enough time telling other people to take a break that I ought to manage one myself. Shall we find somewhere comfortable along the way? You can tell me your news without having to lean across a counter to do it.", tone = "[welcoming easy warmth, lightly amused, pleasantly relieved]" }, "There you are. Have you had a chance to rest today?" },
+            idle = { { "That extra cup people keep asking about is mine. A reminder to sit down once everyone is settled. It works rather well, provided nobody begins a particularly interesting story. Then I forget the drink entirely, and by the time I remember it, I have another cold cup to explain.", tone = "[wry affectionate humor, relaxed conversational warmth]" }, "It is good to hear a room settle into conversation.", "I can recommend a rest without asking what grand deed earned it." },
+            befriended = { { "I would be glad to come with you. Your visits have become one of the things I look forward to, and it will be lovely to have a conversation that does not end with my hurrying off to fetch something. Today I can simply be your friend for a while.", tone = "[sincere affection, contented anticipation, warm personal welcome]" } },
+            poke = { "Yes? You needn't ring for service when I am standing beside you.", "A word will do. I have not forgotten you." },
+            hearth = { { "Homeward, then. I hope you will put your things down before planning the next departure. A familiar room can do a great deal for a tired traveler, especially when there is someone pleased to see you in it. Stay long enough to enjoy being welcomed back this time.", tone = "[gentle fond advice, soothing warmth, quietly hopeful]" } },
+            rest = { "A sensible pause. I shall try to follow my own advice and join you." },
+            quest = { "Another task finished. Has anyone offered you a seat yet?" },
+            bagsFull = { "Set that lot down before your shoulders decide the matter for you." },
+            levelUp = { "You have come a long way. I hope you still have time to stop and tell me about it." },
+            back = { "Welcome back. I was hoping I would hear the rest of your story." },
+            combatEnd = { "Everyone safely here? Good. Take a breath before hurrying on." },
+        },
+    },
+
+    -- Zerril Softbreeze (251905), adult male High Order Skyborne cook, Shen'dar Village.
+    -- Display 137343 / race 95 sex 0; both-friendly. Larders 92553; Camping Cooking 96646.
+    -- Festival preparations and peacebloom pipe are primary dialogue; private recipe-thinking habit is original.
+    -- docs/research/shendar-table-and-hearth.md.
+    [251905] = {
+        quote = "Ho ho! An apron will not make a cook of you, but it is a fine way to announce that you are willing to begin.",
+        likes = { "Eggs fried in ursera tallow", "A full belly and dried peacebloom", "Plenty of hands helping fill the larders" },
+        dislikes = { "Danger keeping fresh food from the village", "An empty pantry before a busy gathering", "A good meal hurried past without tasting" },
+        gossip = "Zerril's thoughtful silences suggest he is pondering the island's troubles. His next remark is often about dinner.",
+        bio = "Zerril Softbreeze cooks and teaches in Shen'dar Village. He gathers eggs and strider meat to keep the village fed while preparing for the Festival of Winds. Raan Wildwind sends learners to him for cooking and campfire basics.",
+        backstory = "He found that pausing with his pipe gave a half-formed recipe time to settle in his mind. Before long, a thoughtful expression could mean a new seasoning rather than a weighty concern. He saw no reason to spoil the useful misunderstanding.",
+        secret = "Sometimes the pipe is not even lit. He is simply deciding what would go well with the next meal. A solemn face gives a cook a moment to think without being hurried.",
+        bestFriend = "Ho ho! I was hoping you would stay. Leave the apron for a moment; there is room beside me for a friend who came simply to share dinner.",
+        favorite = { emote = "CHEER", hint = "A little hearty encouragement helps a busy cook keep his spirits up." },
+        lines = {
+            greet = { { "Ho there! Good company and a little fresh air will do me well. If we happen upon some useful ingredients, so much the better. There is always another meal to think about, and I find the planning far more pleasant when someone is willing to discuss what ought to go in it.", tone = "[hearty jovial welcome, buoyant warmth, unhurried enthusiasm]" }, "Off we go! Tell me you did not leave hungry." },
+            idle = { { "You thought I was considering some great matter? Ho ho! Only what to serve beside a fine plate of eggs. The pipe helps me think, even when I have not lit it. Give a cook a solemn expression and everyone assumes the question must be more complicated than dinner.", tone = "[jovial conspiratorial humor, pleased chuckle, relaxed warmth]" }, "The Festival of Winds will not fill its own larders.", "An egg fried in a little ursera tallow is worth finding time to enjoy." },
+            befriended = { { "A friend for the road! I would be delighted. You have helped with more than the work, you know. It is good to have someone who stays for the conversation after the business is done. Come along, then; we can decide where to pause for a meal together.", tone = "[hearty sincere affection, delighted companionship, warm gratitude]" } },
+            poke = { "Ho! Mind the cook. You may ask what is for dinner without prodding.", "Yes? I was considering a very important question of seasoning." },
+            learned = { { "There we are! A beginning worth making. Cooking will serve you beyond the next tasty meal; a good fire gives you somewhere to stop and settle yourself in the wilds. Keep practicing, and give the plain little things their due. They are what make a camp feel welcoming.", tone = "[cheerful encouraging instruction, practical pride, generous warmth]" } },
+            quest = { "Useful work! Keeping a village fed deserves a little celebration, too." },
+            loot = { "Anything for the larders? Let us have a look before you pack it away." },
+            rest = { "A full belly and a little time to enjoy it. Now that is a sound plan." },
+            bagsFull = { "Mind the eggs! They cannot be persuaded to fit by pushing harder." },
+            levelUp = { "Ho ho! More accomplished already. Shall we mark the occasion over a meal?" },
+            hearth = { "Back to familiar comforts. I wonder what is cooking." },
+        },
+    },
+
     -- Ailee Farheart (251362), Rangers of Thendal Grove, adult female High Order Skyborne.
     -- Display 136968 / race 95 sex 1; both-friendly. Coming of Age 92460 sends adults to Rorian.
     -- Her rehearsed welcomes are original. docs/research/thendal-first-guides.md.

@@ -39,6 +39,46 @@
     "text": "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
     "voice_id": "lQ79RJ1oEygPMVWvoXTH"
   },
+  "lore254089_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:254089",
+    "spoken": "[sincere affection, contented anticipation, warm personal welcome] I would be glad to come with you. Your visits have become one of the things I look forward to, and it will be lovely to have a conversation that does not end with my hurrying off to fetch something. Today I can simply be your friend for a while.",
+    "text": "I would be glad to come with you. Your visits have become one of the things I look forward to, and it will be lovely to have a conversation that does not end with my hurrying off to fetch something. Today I can simply be your friend for a while.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore254089_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:254089",
+    "spoken": "[welcoming easy warmth, lightly amused, pleasantly relieved] A walk with you sounds rather pleasant. I have spent enough time telling other people to take a break that I ought to manage one myself. Shall we find somewhere comfortable along the way? You can tell me your news without having to lean across a counter to do it.",
+    "text": "A walk with you sounds rather pleasant. I have spent enough time telling other people to take a break that I ought to manage one myself. Shall we find somewhere comfortable along the way? You can tell me your news without having to lean across a counter to do it.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore254089_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:254089",
+    "spoken": "[gentle fond advice, soothing warmth, quietly hopeful] Homeward, then. I hope you will put your things down before planning the next departure. A familiar room can do a great deal for a tired traveler, especially when there is someone pleased to see you in it. Stay long enough to enjoy being welcomed back this time.",
+    "text": "Homeward, then. I hope you will put your things down before planning the next departure. A familiar room can do a great deal for a tired traveler, especially when there is someone pleased to see you in it. Stay long enough to enjoy being welcomed back this time.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore254089_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:254089",
+    "spoken": "[wry affectionate humor, relaxed conversational warmth] That extra cup people keep asking about is mine. A reminder to sit down once everyone is settled. It works rather well, provided nobody begins a particularly interesting story. Then I forget the drink entirely, and by the time I remember it, I have another cold cup to explain.",
+    "text": "That extra cup people keep asking about is mine. A reminder to sit down once everyone is settled. It works rather well, provided nobody begins a particularly interesting story. Then I forget the drink entirely, and by the time I remember it, I have another cold cup to explain.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "lore257006_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

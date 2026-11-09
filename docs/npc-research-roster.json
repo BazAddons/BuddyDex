@@ -483,5 +483,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current both-friendly identity/adult model, full grove quest chain and class referrals, available readables and installed gossip; inaccessible readable bodies documented; no Scout sighting claimed",
     "research_notes": "docs/research/thendal-first-guides.md"
+  },
+  {
+    "npc_id": 254089,
+    "name": "Coriella Calmbreeze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly adult identity/model, village-tour or food/camping chain, primary progress/completion, installed gossip and services; no Scout sighting claimed",
+    "research_notes": "docs/research/shendar-table-and-hearth.md"
+  },
+  {
+    "npc_id": 251905,
+    "name": "Zerril Softbreeze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly adult identity/model, village-tour or food/camping chain, primary progress/completion, installed gossip and services; no Scout sighting claimed",
+    "research_notes": "docs/research/shendar-table-and-hearth.md"
   }
 ]
