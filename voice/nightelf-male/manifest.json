@@ -319,6 +319,46 @@
     "text": "The forest gives us much. That does not mean we should take everything we find. Seven small spider legs are enough for the lesson I give. Learning to stop when you have what you need belongs beside learning how to prepare it. Both are part of cooking well.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore8997_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8997",
+    "spoken": "[warm] [sincere] [reserved] You have become someone I welcome beyond the help you bring to my research. Walk with me, friend. There will be time for the questions afterward. I would hear how you have been, without immediately turning the answer into another request. You need not arrive carrying anything to make your company worthwhile.",
+    "text": "You have become someone I welcome beyond the help you bring to my research. Walk with me, friend. There will be time for the questions afterward. I would hear how you have been, without immediately turning the answer into another request. You need not arrive carrying anything to make your company worthwhile.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore8997_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8997",
+    "spoken": "[serious] [measured] [warm] You have returned. Good. Set down what you have brought and tell me how the journey went. There is more to consider than the samples alone. Argos understands how far we must ask people to travel for this work. If you have seen my brother, I would be glad of word about him as well.",
+    "text": "You have returned. Good. Set down what you have brought and tell me how the journey went. There is more to consider than the samples alone. Argos understands how far we must ask people to travel for this work. If you have seen my brother, I would be glad of word about him as well.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore8997_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8997",
+    "spoken": "[reflective] [reserved] [gently warm] Sometimes I hear a laugh near the road and look up before I have thought about it. I expect to see Argos. Usually it is another traveler, and I have interrupted my work for a stranger's conversation. It does me no harm. A friendly voice can be worth hearing even when I have mistaken it for another.",
+    "text": "Sometimes I hear a laugh near the road and look up before I have thought about it. I expect to see Argos. Usually it is another traveler, and I have interrupted my work for a stranger's conversation. It does me no harm. A friendly voice can be worth hearing even when I have mistaken it for another.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore8997_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:8997",
+    "spoken": "[grave] [earnest] [measured] The naga and satyr of Blackfathom may hold evidence of what corruption has done. I fear the blood elves are courting a similar fate through demonic magic. Bring the samples with care. There is much to study before I can claim an understanding, and I do not forget the danger you face to help me begin.",
+    "text": "The naga and satyr of Blackfathom may hold evidence of what corruption has done. I fear the blood elves are courting a similar fate through demonic magic. Bring the samples with care. There is much to study before I can claim an understanding, and I do not forget the danger you face to help me begin.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

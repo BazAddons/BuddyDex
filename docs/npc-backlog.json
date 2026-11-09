@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 402,
+  "completed_count": 404,
   "remaining_count": 4,
   "completed": [
     {
@@ -2317,6 +2317,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 4877,
+      "name": "Jandia",
+      "zone": "Thousand Needles",
+      "source": "Exact current named adult model/Friendly/voice checked; full Classic/Forever corruption/referral and caravan quest bodies, current APIs and actual item tooltips researched. Explicit stock/literary/era limits, no Scout sighting claimed",
+      "research_notes": "docs/research/gershala-and-jandia-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -3094,6 +3104,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 8997,
+      "name": "Gershala Nightwhisper",
+      "zone": "Darkshore",
+      "source": "Exact current named adult model/Friendly/voice checked; full Classic/Forever corruption/referral and caravan quest bodies, current APIs and actual item tooltips researched. Explicit stock/literary/era limits, no Scout sighting claimed",
+      "research_notes": "docs/research/gershala-and-jandia-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 9087,
       "name": "Bashana Runetotem",
       "zone": "Thunder Bluff",
@@ -3816,19 +3836,19 @@
   ],
   "remaining": [
     {
-      "npc_id": 8997,
-      "name": "Gershala Nightwhisper",
-      "zone": "Darkshore",
-      "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/gershala-and-jandia-queue.md",
+      "npc_id": 4164,
+      "name": "Cylania",
+      "zone": "Darnassus",
+      "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+      "research_notes": "docs/research/cylania-and-nixxrax-queue.md",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 4877,
-      "name": "Jandia",
-      "zone": "Thousand Needles",
-      "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/gershala-and-jandia-queue.md",
+      "npc_id": 2832,
+      "name": "Nixxrax Fillamug",
+      "zone": "Stranglethorn Vale",
+      "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+      "research_notes": "docs/research/cylania-and-nixxrax-queue.md",
       "status": "pending_identity_and_lore_research"
     },
     {

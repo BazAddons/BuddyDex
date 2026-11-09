@@ -1384,14 +1384,28 @@
     "npc_id": 8997,
     "name": "Gershala Nightwhisper",
     "zone": "Darkshore",
-    "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model/Friendly/voice checked; full Classic/Forever corruption/referral and caravan quest bodies, current APIs and actual item tooltips researched. Explicit stock/literary/era limits, no Scout sighting claimed",
     "research_notes": "docs/research/gershala-and-jandia-queue.md"
   },
   {
     "npc_id": 4877,
     "name": "Jandia",
     "zone": "Thousand Needles",
-    "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model/Friendly/voice checked; full Classic/Forever corruption/referral and caravan quest bodies, current APIs and actual item tooltips researched. Explicit stock/literary/era limits, no Scout sighting claimed",
     "research_notes": "docs/research/gershala-and-jandia-queue.md"
+  },
+  {
+    "npc_id": 4164,
+    "name": "Cylania",
+    "zone": "Darnassus",
+    "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/cylania-and-nixxrax-queue.md"
+  },
+  {
+    "npc_id": 2832,
+    "name": "Nixxrax Fillamug",
+    "zone": "Stranglethorn Vale",
+    "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/cylania-and-nixxrax-queue.md"
   }
 ]

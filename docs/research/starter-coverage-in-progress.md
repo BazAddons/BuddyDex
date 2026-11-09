@@ -484,3 +484,10 @@ Next individually checked [Bashana and Jandi](bashana-and-jandi-queue.md), adult
 402 completed authored profiles. Adult female Tauren/Troll Horde additions,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance203/Horde108/unverified98 with seven shared overlaps. [Research/validation](bashana-and-jandi-queue.md) preserves actual research, family, relic-referral and Incense Candle roles. Layout20lines each/full smoke/two fresh Horde sessions passed, eight exact metadata/audio mappings checked. Installed/development ZIP6142files/6114mappings/123.21MiB. No live visual/listening approval claimed; original candidate hash unchanged, CF deferred.
 
 Next individually verified [Gershala and Jandia](gershala-and-jandia-queue.md), adult male Night Elf/female Tauren, regional quest/service candidates. Jandia is not Jandi and no fishing identity is assumed. Neither counted complete. Wider1510-name pool and earlier explicit source gaps remain active.
+
+
+## 2026-11-09: Gershala Nightwhisper and Jandia
+
+404 completed authored profiles. Adult male Night Elf/female Tauren,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance204/Horde109/unverified98, seven shared overlaps. [Sources/writing/validation](gershala-and-jandia-queue.md) preserves unfinished corruption research/actual Argos brotherhood and caravan protection, distinct from invented friendly moments. Lore20/21lines/full smoke/separate fresh Alliance/Horde sessions passed. Installed/dev ZIP6150files/6122mappings/123.77MiB. No live visual/listening claim, original CF candidate preserved/publication deferred.
+
+Next individually checked [Cylania and Nixxrax](cylania-and-nixxrax-queue.md), adult female Night Elf/male Goblin services. Nixxrax public Horde Neutral requires ordinary live gates and is not Friendly/shared coverage. Neither authored. Wider1510-name scope and earlier explicit source gaps remain active.

@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gershala Nightwhisper, Auberdine, Darkshore,8997/8229.
+    -- Adult male Night Elf, Alliance-friendly.3765 confirms brother Argos;
+    --1275 studies naga/satyr corruption, fears blood elves' demonic path.
+    -- Listening for his brother's voice is original, no later retail fate.
+    -- Research: docs/research/gershala-and-jandia-queue.md.
+    [8997] = {
+        quote = "Demonic power leaves consequences that enthusiasm will not undo. I would rather understand the warning before another people become its example.",
+        likes = { "Research pursued beyond easy assumptions", "A traveler returning safely with evidence", "News from his brother Argos" },
+        dislikes = { "Demonic magic treated as harmless power", "Corruption dismissed until it is too late", "Confident answers without enough study" },
+        gossip = "Gershala sometimes looks up before a visitor reaches him. People say he knows every voice in Auberdine. He is usually listening for one.",
+        bio = "Gershala studies corruption in Auberdine. He seeks Blackfathom naga and satyr samples, fearing blood elves may suffer similar changes through demonic magic. He thanks those who help, but his research remains unfinished.",
+        backstory = "His brother Argos seeks adventurers in Stormwind to help with the work in Darkshore. Gershala knows the journey is long and welcomes those who make it. A traveler may bring useful samples, another question, or a welcome word about his brother.",
+        secret = "A familiar laugh can pull his attention from the work. He listens for Argos more often than he admits. Even when he is mistaken, he is glad to hear a friendly voice.",
+        bestFriend = "Come closer. You need not bring samples or news to earn a welcome. I am glad it is your voice I hear beside the work today.",
+        favorite = { emote = "WAVE", hint = "A friendly gesture from across the room can draw this absorbed researcher back into conversation." },
+        lines = {
+            greet = { { "You have returned. Good. Set down what you have brought and tell me how the journey went. There is more to consider than the samples alone. Argos understands how far we must ask people to travel for this work. If you have seen my brother, I would be glad of word about him as well.", tone = "[serious] [measured] [warm]" },
+                "A familiar voice is welcome. Tell me what brings you here today." },
+            idle = { { "Sometimes I hear a laugh near the road and look up before I have thought about it. I expect to see Argos. Usually it is another traveler, and I have interrupted my work for a stranger's conversation. It does me no harm. A friendly voice can be worth hearing even when I have mistaken it for another.", tone = "[reflective] [reserved] [gently warm]" },
+                "I fear what demonic magic may do to those who pursue it. Fear alone will not complete the study.",
+                "The samples give us work to begin. They do not give us permission to pretend we already know the answer." },
+            befriended = { { "You have become someone I welcome beyond the help you bring to my research. Walk with me, friend. There will be time for the questions afterward. I would hear how you have been, without immediately turning the answer into another request. You need not arrive carrying anything to make your company worthwhile.", tone = "[warm] [sincere] [reserved]" } },
+            poke = { "Yes? Have you something to share?", "I heard you. Forgive me; the work can hold my attention rather firmly." },
+            quest = { { "The naga and satyr of Blackfathom may hold evidence of what corruption has done. I fear the blood elves are courting a similar fate through demonic magic. Bring the samples with care. There is much to study before I can claim an understanding, and I do not forget the danger you face to help me begin.", tone = "[grave] [earnest] [measured]" } },
+            learned = { "Keep a distinction between what you fear and what your evidence has actually shown." },
+            loot = { "Observe it carefully. Where it came from may matter as much as what it appears to be." },
+            rest = { "We can speak of something besides the work for a little while." },
+            zone = { "Another place touched by its own history. We should not assume we understand it at a glance." },
+            lowHealth = { "Fall back. The research does not ask you to throw your life away." },
+            hearth = { "Back to Auberdine. I shall be glad to hear familiar voices again." },
+        },
+    },
+
+    -- Jandia <Trade Supplies>, Freewind Post, Thousand Needles,4877/4529.
+    -- Adult female Tauren, Horde-friendly.98069 recovers caravan supplies;
+    --98070 protects future deliveries against Screeching Canyon harpies.
+    -- Uneventful merchant adventure story is original, not a readable item.
+    -- Research: docs/research/gershala-and-jandia-queue.md.
+    [4877] = {
+        quote = "They left on time, arrived safely, and lost nothing along the way. You may call that a dull story. I would be delighted to hear it again.",
+        likes = { "Uneventful journeys with everything intact", "A shortage prevented before it begins", "Good news carried along the supply road" },
+        dislikes = { "Harpies raiding supply caravans", "Promises made without preparing the goods", "A safe arrival dismissed as unimportant" },
+        gossip = "Jandia enjoys a caravan report in which nothing goes wrong. She has even considered making one into a very short adventure story.",
+        bio = "Jandia handles trade supplies at Freewind Post. Harpy raids threaten the caravans she schedules. She asks for stolen goods to cover the gap until another shipment, and for help against Screeching Canyon's raiders so suppliers will keep coming.",
+        backstory = "A traveler once apologized for an uneventful account of the road. Jandia thought it sounded excellent. Everyone had arrived safely with their goods. She asked to hear the ending again, and began imagining an adventure whose best feature was its lack of trouble.",
+        secret = "She has an ending ready for that story: everyone arrives, every bundle is accounted for, and nobody needs a rescue. She thinks it deserves a very happy audience.",
+        bestFriend = "Come along. I would welcome an uneventful chapter with you. We can enjoy the road without improving the story by finding trouble.",
+        favorite = { emote = "CHEER", hint = "A little celebration suits someone who thinks a safe arrival deserves more appreciation." },
+        lines = {
+            greet = { { "Good to see you. How was the road? If you tell me everyone arrived safely and nothing went missing, I will count that a fine report. You need not apologize for leaving out a battle. Freewind Post depends on people making the journey, and I am pleased when they have little trouble to describe afterward.", tone = "[warm] [practical] [pleased]" },
+                "Welcome back. I hope you have an uneventful journey to tell me about." },
+            idle = { { "I have been thinking of an adventure story. The travelers set out with everything packed properly. They arrive when expected. Every bundle is still there, and nobody requires rescuing. Some people might want another chapter with more excitement. I would rather hear that ending again. It leaves everyone free to enjoy a pleasant evening.", tone = "[storytelling] [wry] [warm]" },
+                "Enough supplies for today does not mean we can forget the next shipment.",
+                "A supplier willing to make the journey is someone worth keeping informed about the road." },
+            befriended = { { "You have become someone I am glad to see before I ask what you are carrying. Come along, friend. Perhaps we can enjoy a chapter in which nothing needs recovering and nobody is waiting to be rescued. If the road is quiet, we can spend a little of that good fortune talking about something pleasant.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes, friend? Good news from the road?", "I am listening. An uneventful report is quite welcome." },
+            quest = { { "The supplies we recover will help until another shipment arrives. Keeping the harpies from driving every caravan away matters for the journeys after that as well. Bring back what you can, and let me know how the road stands. I would like to send our suppliers better news before they decide the next trip is too dangerous.", tone = "[practical] [earnest] [steady]" } },
+            loot = { "Useful goods deserve care on the way home as well as when they are found." },
+            bagsFull = { "Count what you can carry before promising room for another bundle." },
+            rest = { "A quiet stop with everything accounted for. This chapter is going well." },
+            zone = { "A different road. I hope the people who supply it have good news to share." },
+            laughAlong = { "Yes, everyone arrived safely. I still think that is a splendid ending." },
+            hearth = { "Back to Freewind Post. There will be news of the next shipment to hear." },
+        },
+    },
+
     -- Bashana Runetotem, Elder Rise, Thunder Bluff,9087/8356.
     -- Adult female Tauren/Cenarion Circle.3782 Hamuul's daughter;
     --3786 research,6561 Kelris,95664/98823 relic referral to Muln.

@@ -439,6 +439,46 @@
     "text": "When Stonetalon's troubles were brought before me, I directed the petitioners toward Apothecary Zamah. The Forsaken are allies whose knowledge deserves consideration. Carry a message accurately, and distinguish the words you were given from the conclusions you have added. A useful envoy understands the importance of both listening and restraint.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore4877_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4877",
+    "spoken": "[warm] [sincere] [gently amused] You have become someone I am glad to see before I ask what you are carrying. Come along, friend. Perhaps we can enjoy a chapter in which nothing needs recovering and nobody is waiting to be rescued. If the road is quiet, we can spend a little of that good fortune talking about something pleasant.",
+    "text": "You have become someone I am glad to see before I ask what you are carrying. Come along, friend. Perhaps we can enjoy a chapter in which nothing needs recovering and nobody is waiting to be rescued. If the road is quiet, we can spend a little of that good fortune talking about something pleasant.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4877_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4877",
+    "spoken": "[warm] [practical] [pleased] Good to see you. How was the road? If you tell me everyone arrived safely and nothing went missing, I will count that a fine report. You need not apologize for leaving out a battle. Freewind Post depends on people making the journey, and I am pleased when they have little trouble to describe afterward.",
+    "text": "Good to see you. How was the road? If you tell me everyone arrived safely and nothing went missing, I will count that a fine report. You need not apologize for leaving out a battle. Freewind Post depends on people making the journey, and I am pleased when they have little trouble to describe afterward.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4877_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4877",
+    "spoken": "[storytelling] [wry] [warm] I have been thinking of an adventure story. The travelers set out with everything packed properly. They arrive when expected. Every bundle is still there, and nobody requires rescuing. Some people might want another chapter with more excitement. I would rather hear that ending again. It leaves everyone free to enjoy a pleasant evening.",
+    "text": "I have been thinking of an adventure story. The travelers set out with everything packed properly. They arrive when expected. Every bundle is still there, and nobody requires rescuing. Some people might want another chapter with more excitement. I would rather hear that ending again. It leaves everyone free to enjoy a pleasant evening.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4877_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:4877",
+    "spoken": "[practical] [earnest] [steady] The supplies we recover will help until another shipment arrives. Keeping the harpies from driving every caravan away matters for the journeys after that as well. Bring back what you can, and let me know how the road stands. I would like to send our suppliers better news before they decide the next trip is too dangerous.",
+    "text": "The supplies we recover will help until another shipment arrives. Keeping the harpies from driving every caravan away matters for the journeys after that as well. Bring back what you can, and let me know how the road stands. I would like to send our suppliers better news before they decide the next trip is too dangerous.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore6746_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

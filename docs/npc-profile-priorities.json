@@ -1056,14 +1056,28 @@
       "name": "Gershala Nightwhisper",
       "zone": "Darkshore",
       "route": "Male Night Elf/female Tauren regional quest and service coverage",
-      "reason": "Exact current named adult model, Friendly icon and approved runtime voice checked; full research pending. See docs/research/gershala-and-jandia-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; actual research/brother and caravan roles, original-writing/source limits in docs/research/gershala-and-jandia-queue.md"
     },
     {
       "npc_id": 4877,
       "name": "Jandia",
       "zone": "Thousand Needles",
       "route": "Male Night Elf/female Tauren regional quest and service coverage",
-      "reason": "Exact current named adult model, Friendly icon and approved runtime voice checked; full research pending. See docs/research/gershala-and-jandia-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; actual research/brother and caravan roles, original-writing/source limits in docs/research/gershala-and-jandia-queue.md"
+    },
+    {
+      "npc_id": 4164,
+      "name": "Cylania",
+      "zone": "Darnassus",
+      "route": "Female Night Elf/male Goblin services; neutral access requires live gates",
+      "reason": "Exact current named adult model and established voice checked; Alliance Friendly Cylania/Horde Neutral Nixxrax. Full research pending. See docs/research/cylania-and-nixxrax-queue.md"
+    },
+    {
+      "npc_id": 2832,
+      "name": "Nixxrax Fillamug",
+      "zone": "Stranglethorn Vale",
+      "route": "Female Night Elf/male Goblin services; neutral access requires live gates",
+      "reason": "Exact current named adult model and established voice checked; Alliance Friendly Cylania/Horde Neutral Nixxrax. Full research pending. See docs/research/cylania-and-nixxrax-queue.md"
     }
   ]
 }

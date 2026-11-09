@@ -31,3 +31,23 @@ Full actual published objectives/descriptions/progress/completions where exposed
 Current APIs both available with start/end4877, descriptions/objectives agree. Exact installed numeric98069/98070 absent; don't claim installed dialogue or live turn-in observed. [Actual Stolen Freewind Supplies279383](https://www.wowhead.com/forever/item=279383/stolen-freewind-supplies) tooltip read: quest item/stack15, no readable pages, named manifest or exact cargo contents. Nearby Test of Endurance appears only in player comment; Grenka commission not assigned to Jandia. No proven linear prerequisite between her two quests; don't invent one or gate friendship on either.
 
 Before authoring: finish targeted personal literary/era checks and any actual relevant nearby relationships, settle original distinct hooks, then ten fields/fifteen supported lines/four v4 signatures. Stock/source gaps above remain explicit; neither profile or audio produced,402 total remains accurate. Wider goal and earlier unavailable-source leads remain active.
+
+
+## Final source and original-writing checkpoint
+
+Targeted personal literary searches identified no novel/comic passage to read for either character; this is not an exhaustive absence claim. Official historical atlas/Blackfathom guide indexes place Gershala at Auberdine and identify the research quest, without adding personal biography. [Jandia wiki indexed content](https://warcraft.wiki.gg/wiki/Jandia) independently confirms female Tauren vendor/Freewind Post and later Cataclysm disappearance; modern flooded zone/missing status excluded. [Gershala indexed wiki](https://warcraft.wiki.gg/wiki/Gershala_Nightwhisper) later rescue/death excluded. No extra surname-family or merchant relationship established.
+
+Secondary historical/mixed vendor lists show21 trade goods for Jandia, including a Barbaric Leggings pattern; current own API stock remains empty. No exact stock, recipe, sales price or profession training is used in the profile. Current title and full Forever supply quests establish practical role. No extra quest chain was exposed for98069/98070; neighboring Grenka/Test of Endurance not assigned to her. Actual quest items aren't readable books, and no cargo manifest or laboratory journal contents invented.
+
+Original BuddyDex additions: Gershala listening for Argos's laugh and welcoming a familiar voice even when mistaken; preferences/friendship observations and all companion dialogue. Backstory uses the actual brother/referral rather than invented kinship or a future tragedy. His criticism of demonic power, research concerns and thanks remain grounded in1275. Fear of deformation stays his concern, not proven outcome/cure; no new research result claimed.
+
+Jandia's enjoyment of an uneventful journey report, imagined merchant adventure with everyone arriving safely, and warm short-story ending are original extensions of protecting supply routes. This is not a real readable book/quest item or a claim the harpy problem is solved forever. Practical shortage risk and supplier communication remain her actual role.
+
+Ten fields/fifteen supported personal lines each, four approved v4 signatures greet/idle/befriended/quest each. Lore Gershala3/5/5/4/3=20, Jandia3/5/6/4/3=21. Favorites WAVE/CHEER, ordinary friendly daily category remains separate. Actual recording/decoded/runtime/session checks required before counted complete. Source gaps above and earlier completed-pair unused leads remain open.
+
+
+## Completed validation and delivery
+
+404 authored profiles. Both ten fields/fifteen supported personal lines, wrapped lore20/21lines. Eight Ogg signatures decoded finite/nonsilent mono22050Hz,0.5-25seconds; exact approved v4 model/voice/text/hidden-tone/source/runtime mappings verified. Separate fresh Alliance/Horde sessions passed: attackable/reaction3 rejection, normal reaction5 acceptance, HELLO25 plus independent WAVE/CHEER favorite150, exactly one recorded first-Buddy welcome/flag. Generic guards excluded, named Guard Thomas eligible. Full main23/Scout6-file smoke suite passed; no human listening/live visual approval claimed.
+
+Friendly coverage Alliance204/Horde109/unverified98, seven shared overlaps. Installed/hash-verified6150releasefiles/10updated; separate development v002 ZIP verified6150files/6122audio mappings/123.77MiB. Original handed-off candidate preserved; no CF upload/tag. Next [Cylania and Nixxrax](cylania-and-nixxrax-queue.md), neither complete; Nixxrax public Neutral not counted as Friendly/shared access. Short backlog4 and wider1510-name pool distinct. Earlier explicit stock/readable/literary/unused-source gaps remain active.
