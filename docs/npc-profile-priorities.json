@@ -217,6 +217,20 @@
       "zone": "Mulgore",
       "route": "Tauren starter services",
       "reason": "Current exact male Tauren innkeeper identity/adult model checked; current location/access and full delivery/service review pending"
+    },
+    {
+      "npc_id": 3185,
+      "name": "Mishiki",
+      "zone": "Durotar",
+      "route": "Orc/troll starter services",
+      "reason": "Current exact adult female troll identity/model, Horde friendly icon and Durotar pin verified; full Sen'jin Village herbalism trainer quest/service review pending. See docs/research/durotar-troll-trainers-queue.md"
+    },
+    {
+      "npc_id": 3706,
+      "name": "Tai'jin",
+      "zone": "Durotar",
+      "route": "Orc/troll starter services",
+      "reason": "Current exact adult female troll identity/model, Horde friendly icon and Durotar pin verified; full Razor Hill priest trainer quest/service review pending. See docs/research/durotar-troll-trainers-queue.md"
     }
   ]
 }

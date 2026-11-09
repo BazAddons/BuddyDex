@@ -85,3 +85,5 @@ Gennia Runetotem and Cook Torka are complete with fifteen personal lines and fou
 ## Bloodhoof services completed
 
 Pyall Silentstride and Innkeeper Kauth bring development to **283 complete profiles**, with fifteen personal lines and four v4 signatures each. See [their full research](bloodhoof-cook-and-innkeeper.md). Mulgore now has eight authored starter-area profiles; Durotar remains six. The public access audit lists 192 Alliance, 35 Horde and 62 unverified, with six shared entries overlapping the faction counts. Missing reaction icons for both new Tauren remain unverified; no gameplay access gate is bypassed. Next research should rotate useful Horde services, quests and female NPCs, retaining the wider catalog and unresolved old Westfall identities. Publication remains deferred until tonight.
+
+The next verified-identity shortlist is Mishiki (3185), Sen'jin herbalist, and Tai'jin (3706), Razor Hill priest trainer. Both are adult female trolls with current Horde-friendly icons and starter-route pins. See [pending full research](durotar-troll-trainers-queue.md); neither is counted complete yet.
