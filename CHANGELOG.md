@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Jinar'Zillen and Mai'Lahii: full Shadowprey profiles, fifteen personal lines and four approved Troll Eleven v4 signatures each. Read full fish/clam requests and actual gossip, preserve current stock changes and qualify missing quest endpoints without importing Cataclysm branches. Development now has 334 complete profiles.
+
 - Complete Ollanus and Shan'ti: full Orgrimmar profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Preserve actual merchant identities, distinguish historical stock from sparse current relations and exclude later retail moves/conversations. Development now has 332 complete profiles.
 
 - Complete Abigail Shiel and Faruza: full Brill profiles, fifteen personal lines and four approved Forsaken Eleven v4 signatures each. Verify current apprentice gathering bags, actual herbalism training and Forever Incense Candle referral; keep invented private stories distinct from established facts. Development now has 330 complete profiles.

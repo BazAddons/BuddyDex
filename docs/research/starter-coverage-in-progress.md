@@ -240,3 +240,12 @@ Individually preserving these merchant identities expands the combined catalog t
 Ollanus and Shan'ti bring development to **332 complete profiles**, each with fifteen personal lines and four approved Orc v4 signatures. [Full research](orgrimmar-cloth-and-fruit.md) preserves merchant roles and historical stock, qualifies missing current fields and excludes retail relocations, later conversations and anomalous pet-training rows. Private cat kindness and crunch appreciation are original. Public access totals are 192 Alliance, 60 Horde and 86 unverified, with six shared profiles overlapping faction counts. Authored Orc profiles now total nineteen. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
 
 Next: [Jinar'Zillen and Mai'Lahii](shadowprey-fishing-contacts-queue.md), adult male/female Troll fishing contacts in Shadowprey Village. Exact current bodies, levels, friendly Horde icons and Desolace pins are verified; full own service/quest/gossip/literary review is pending. No profile or Scout encounter is claimed yet.
+
+
+## Shadowprey shellfish and a day off completed
+
+Jinar'Zillen and Mai'Lahii bring development to **334 complete profiles**, each with fifteen personal lines and four approved Troll v4 signatures. [Full research](shadowprey-shellfish-and-a-day-off.md) includes all fish/clam dialogue, Nataka's actual referral, underwater gossip and current stock differences. Two missing quest endpoints remain qualified; no paid farming promise, new underwater power, named witch doctor or later retail branch is invented. Public access totals are 192 Alliance, 62 Horde and 86 unverified, with six shared profiles overlapping faction counts. Authored Troll profiles now total fifteen and Desolace has its first two authored profiles. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
+
+Next: [Nataka Longhorn and Innkeeper Sikewa](desolace-nataka-and-sikewa-queue.md), adult male/female Tauren in Desolace. Exact current bodies, levels, Horde friendly icons and pins are verified; full own source review remains pending. No profile or Scout encounter is claimed yet.
+
+Preserving these two Desolace identities expands the overlapping combined research catalog to **1,501 name groups**, 1,514 retained entries and 83 local identities absent from the original filter. These are not extra completed NPCs.

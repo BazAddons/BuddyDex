@@ -1,4 +1,44 @@
 {
+  "lore11317_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11317",
+    "spoken": "[warm] [sincere] You know when I am angling for a favor, and you still come back just to talk. I appreciate that. Today, let us enjoy the company. I promise there is no bucket waiting at the end.",
+    "text": "You know when I am angling for a favor, and you still come back just to talk. I appreciate that. Today, let us enjoy the company. I promise there is no bucket waiting at the end.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore11317_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11317",
+    "spoken": "[easygoing] [wry] A little walk, you say? I will come along. But if this becomes hauling crates or diving for something, we should discuss the arrangement again. I like to know when a pleasant outing turns into work.",
+    "text": "A little walk, you say? I will come along. But if this becomes hauling crates or diving for something, we should discuss the arrangement again. I like to know when a pleasant outing turns into work.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore11317_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11317",
+    "spoken": "[amused] [unhurried] I moved my seat to find better shade. Then I moved it again. By the time I found the perfect spot, most of the morning had gone. A successful plan. I refuse to hear otherwise.",
+    "text": "I moved my seat to find better shade. Then I moved it again. By the time I found the perfect spot, most of the morning had gone. A successful plan. I refuse to hear otherwise.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore11317_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:11317",
+    "spoken": "[relaxed] [pleased] This looks like a fine place to stop. We should test it properly before deciding to move on. A few quiet minutes, perhaps. Longer, if the conversation is good and the sun keeps its distance.",
+    "text": "This looks like a fine place to stop. We should test it properly before deciding to move on. A few quiet minutes, perhaps. Longer, if the conversation is good and the sun keeps its distance.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3184_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

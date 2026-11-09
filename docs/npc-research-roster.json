@@ -889,5 +889,19 @@
     "zone": "Orgrimmar",
     "source": "Exact current adult Orc body/title and published Orgrimmar identity; full current/Classic merchant relations, installed text and literary/chronology checks reviewed; current reaction/pin omitted, no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-cloth-and-fruit.md"
+  },
+  {
+    "npc_id": 11317,
+    "name": "Jinar'Zillen",
+    "zone": "Desolace",
+    "source": "Exact current adult Troll body, Horde friendly icon and Desolace pin; all own merchant/quest relations, full connected fish/clam text and installed gossip reviewed; two missing current quest endpoints qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/shadowprey-shellfish-and-a-day-off.md"
+  },
+  {
+    "npc_id": 12031,
+    "name": "Mai'Lahii",
+    "zone": "Desolace",
+    "source": "Exact current adult Troll body, Horde friendly icon and Desolace pin; all own merchant/quest relations, full connected fish/clam text and installed gossip reviewed; two missing current quest endpoints qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/shadowprey-shellfish-and-a-day-off.md"
   }
 ]

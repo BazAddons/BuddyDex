@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 81,
-    "combined_retained_entries": 1512,
-    "candidate_name_groups": 1499,
+    "local_backlog_entries_missing_from_source": 83,
+    "combined_retained_entries": 1514,
+    "candidate_name_groups": 1501,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -16587,6 +16587,23 @@
       ]
     },
     {
+      "name": "Innkeeper Sikewa",
+      "npc_ids": [
+        11106
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 11106,
+          "name": "Innkeeper Sikewa",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Innkeeper Skindle",
       "npc_ids": [
         6807
@@ -17676,7 +17693,7 @@
           "source_page": 16,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -22125,7 +22142,7 @@
           "source_page": 19,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25148,6 +25165,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Nataka Longhorn",
+      "npc_ids": [
+        11259
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 11259,
+          "name": "Nataka Longhorn",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39782,6 +39816,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 11259,
+      "name": "Nataka Longhorn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11106,
+      "name": "Innkeeper Sikewa",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

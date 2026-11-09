@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](shadowprey-shellfish-and-a-day-off.md). The plan below is historical.
+
 # Next: Jinar'Zillen and Mai'Lahii
 
 Identity shortlist, 2026-11-09. Expand underserved Troll and Horde regional coverage into Shadowprey Village, Desolace. Neither has an authored profile or recordings yet; no personal Scout sighting is claimed.

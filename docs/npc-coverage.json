@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 332,
+  "completed_profiles": 334,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
     "unverified": 86,
-    "horde": 60
+    "horde": 62
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,7 +15,7 @@
     "4": 11,
     "6": 20,
     "2": 19,
-    "8": 13,
+    "8": 15,
     "9": 8,
     "96": 3,
     "95": 5
@@ -38,6 +38,7 @@
     "Stonetalon Mountains": 1,
     "Silverpine Forest": 1,
     "Winterspring": 1,
+    "Desolace": 2,
     "Deeprun Tram": 3,
     "Zephras Isle": 8
   },
@@ -3649,6 +3650,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11189"
     },
     {
+      "npc_id": 11317,
+      "name": "Jinar'Zillen",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11317"
+    },
+    {
       "npc_id": 11867,
       "name": "Woo Ping",
       "zone": "Stormwind City",
@@ -3671,6 +3685,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
+    },
+    {
+      "npc_id": 12031,
+      "name": "Mai'Lahii",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12031"
     },
     {
       "npc_id": 12136,

@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 332,
+  "completed_count": 334,
   "remaining_count": 4,
   "completed": [
     {
@@ -2708,6 +2708,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 11317,
+      "name": "Jinar'Zillen",
+      "zone": "Desolace",
+      "source": "Exact current adult Troll body, Horde friendly icon and Desolace pin; all own merchant/quest relations, full connected fish/clam text and installed gossip reviewed; two missing current quest endpoints qualified, no Scout sighting claimed",
+      "research_notes": "docs/research/shadowprey-shellfish-and-a-day-off.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 11867,
       "name": "Woo Ping",
       "zone": "Stormwind City",
@@ -2721,6 +2731,16 @@
       "name": "Claire Willower",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 12031,
+      "name": "Mai'Lahii",
+      "zone": "Desolace",
+      "source": "Exact current adult Troll body, Horde friendly icon and Desolace pin; all own merchant/quest relations, full connected fish/clam text and installed gossip reviewed; two missing current quest endpoints qualified, no Scout sighting claimed",
+      "research_notes": "docs/research/shadowprey-shellfish-and-a-day-off.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3116,15 +3136,15 @@
   ],
   "remaining": [
     {
-      "npc_id": 11317,
-      "name": "Jinar'Zillen",
+      "npc_id": 11259,
+      "name": "Nataka Longhorn",
       "zone": "Desolace",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 12031,
-      "name": "Mai'Lahii",
+      "npc_id": 11106,
+      "name": "Innkeeper Sikewa",
       "zone": "Desolace",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
@@ -3329,7 +3349,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1499,
+    "candidate_name_groups": 1501,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

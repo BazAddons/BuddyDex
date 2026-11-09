@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jinar'Zillen, Shadowprey Village, adult male Troll, 11317/display 11468.
+    -- Fish in a Bucket 5421; Nataka's Catch of the Day 5386 referral.
+    -- Exact gossip: bubbly fissures, shellfish traps, avoiding competition.
+    -- Moving a seat to avoid moving at all is original. No fishing trainer.
+    -- Research: docs/research/shadowprey-shellfish-and-a-day-off.md.
+    [11317] = {
+        quote = "A good arrangement leaves the work finished and me with enough strength to enjoy watching it.",
+        likes = { "Shellfish brought up by someone else", "A comfortable patch of shade", "An arrangement that suits both sides" },
+        dislikes = { "Competition around his traps", "A walk that turns into a chore", "The sun moving after he settles down" },
+        gossip = "Jinar'Zillen has been seen moving his seat all morning. Apparently, finding the perfect place to do nothing takes effort.",
+        bio = "Jinar'Zillen is a fisherman at Shadowprey Village. Nataka Longhorn sends adventurers to him for Bloodbelly fish. His shellfish trade suits his preference for letting others do the diving; his gossip points out underwater air fissures.",
+        backstory = "Jinar'Zillen once moved his seat to a better patch of shade. Then the shade moved. He shifted again, then again, until he had spent more of the morning arranging his rest than actually resting. He still calls it a successful plan.",
+        secret = "His perfect resting place took most of a morning to find. He nearly missed lunch. He trusts you not to call that work within anyone else's hearing.",
+        bestFriend = "Sit here, mon. I found room for two. No task hidden in the invitation this time. Let us see how long the shade agrees with us.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone who sees the joke in his carefully arranged easy life." },
+        lines = {
+            greet = { { "A little walk, you say? I will come along. But if this becomes hauling crates or diving for something, we should discuss the arrangement again. I like to know when a pleasant outing turns into work.", tone = "[easygoing] [wry]" },
+                "Good to see you, mon. Tell me this is a social visit." },
+            idle = { { "I moved my seat to find better shade. Then I moved it again. By the time I found the perfect spot, most of the morning had gone. A successful plan. I refuse to hear otherwise.", tone = "[amused] [unhurried]" },
+                "There is a difference between being idle and appreciating a good arrangement.",
+                "The shade is moving. Very inconsiderate of it." },
+            befriended = { { "You know when I am angling for a favor, and you still come back just to talk. I appreciate that. Today, let us enjoy the company. I promise there is no bucket waiting at the end.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, mon? I was nearly comfortable.", "I am awake. Enjoying the quiet does not require much movement." },
+            rest = { { "This looks like a fine place to stop. We should test it properly before deciding to move on. A few quiet minutes, perhaps. Longer, if the conversation is good and the sun keeps its distance.", tone = "[relaxed] [pleased]" } },
+            quest = { "Work finished. A beautiful sight, especially from a comfortable seat." },
+            loot = { "A useful find. Be sure it is worth carrying before we volunteer." },
+            bagsFull = { "That sounds like a reason to stop collecting things." },
+            taxi = { "Someone else handles the flying. An excellent arrangement." },
+            combatEnd = { "That was more effort than I had planned. Give me a moment." },
+            hearth = { "Back to Shadowprey. I hope nobody has taken the good shade." },
+        },
+    },
+
+    -- Mai'Lahii <Fishing Supplies>, Shadowprey Village, adult female Troll.
+    -- NPC 12031/display 12037. Clam Bait 6142; loves lifelong fishing,
+    -- witch doctor's headache advice; exact gossip wishes for hired help.
+    -- First-cast ritual is ours, no new assistant, cure or fishing training.
+    -- Research: docs/research/shadowprey-shellfish-and-a-day-off.md.
+    [12031] = {
+        quote = "I sell what you need to go fishing. One of these days, I will remember to go myself before the day is gone.",
+        likes = { "Fresh soft-shelled clam bait", "The first cast on a quiet morning", "Customers who understand fishing time" },
+        dislikes = { "A whole day behind the supplies", "Hooks left where hands will find them", "Being hurried before the line settles" },
+        gossip = "Mai'Lahii talks about hiring help so she can fish more. So far, the vacant post has very generous fishing advice and no takers.",
+        bio = "Mai'Lahii sells fishing supplies in Shadowprey Village and asks for soft-shelled clam meat for bait. A lifelong angler, she would rather fish before selling supplies. A witch doctor has even recommended it for her headache.",
+        backstory = "After another day spent helping everyone else prepare, Mai'Lahii promised herself that her next outing would begin with one quiet cast. No tally of supplies, no talk of errands. Just enough time to watch the line settle.",
+        secret = "The first cast need not catch anything. She wants a moment that belongs to fishing alone, shared with someone patient enough to enjoy an empty hook.",
+        bestFriend = "Stay for the first cast. We can talk afterward. If nothing bites, we will still have had a good beginning, and I will have shared it with you.",
+        favorite = { emote = "NOD", hint = "Appreciates quiet agreement when she asks for a moment without interruption." },
+        lines = {
+            greet = { { "Come along, mon. I have spent enough time getting everyone else ready to fish. Let us leave a little room in this day for ourselves. You can tell me where you have been as we walk.", tone = "[warm] [eager]" },
+                "Good to see you. Tell me there is time for a proper stop today." },
+            idle = { { "For the first cast, I like to let the line settle before thinking about anything else. No supplies to count. No errands to remember. Just that little moment when fishing is all I am doing.", tone = "[reflective] [contented]" },
+                "A shop full of fishing supplies can be a cruel place to spend a whole fishing day.",
+                "Fresh bait helps. Remembering to take a break helps, too." },
+            befriended = { { "You understand that quiet company is still company. I like having you beside me. When I find time for the next first cast, I would be glad if you stayed to share that moment with me.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? Mind the hooks while you reach over.", "I heard you, mon. Give me a moment to finish this thought." },
+            rest = { { "Yes, let us stop. There is always another thing waiting to be done, but it can wait a little longer. Even a day with no great catch can be a good day beside the water.", tone = "[relieved] [calm]" } },
+            loot = { "Keep that away from the bait, unless you want a very strange tackle box." },
+            bagsFull = { "We can stop filling the bag now. I would rather have time than another bundle." },
+            quest = { "Well done. Now leave yourself enough of the day to enjoy it." },
+            zone = { "I wonder where a person could sit beside the water here." },
+            combatEnd = { "Careful now. Count the people before counting what we found." },
+            hearth = { "Back to Shadowprey. Perhaps there is still time to take my own advice." },
+        },
+    },
+
     -- Ollanus <Light Armor Merchant>, Orgrimmar, adult male Orc.
     -- NPC 3317/display 1317. Classic cloth/shirt stock; current title retained.
     -- No personal quest/gossip found. No Cataclysm move or Legion conversation.

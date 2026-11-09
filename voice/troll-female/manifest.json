@@ -1,4 +1,44 @@
 {
+  "lore12031_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12031",
+    "spoken": "[gentle] [sincere] You understand that quiet company is still company. I like having you beside me. When I find time for the next first cast, I would be glad if you stayed to share that moment with me.",
+    "text": "You understand that quiet company is still company. I like having you beside me. When I find time for the next first cast, I would be glad if you stayed to share that moment with me.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore12031_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12031",
+    "spoken": "[warm] [eager] Come along, mon. I have spent enough time getting everyone else ready to fish. Let us leave a little room in this day for ourselves. You can tell me where you have been as we walk.",
+    "text": "Come along, mon. I have spent enough time getting everyone else ready to fish. Let us leave a little room in this day for ourselves. You can tell me where you have been as we walk.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore12031_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12031",
+    "spoken": "[reflective] [contented] For the first cast, I like to let the line settle before thinking about anything else. No supplies to count. No errands to remember. Just that little moment when fishing is all I am doing.",
+    "text": "For the first cast, I like to let the line settle before thinking about anything else. No supplies to count. No errands to remember. Just that little moment when fishing is all I am doing.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore12031_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:12031",
+    "spoken": "[relieved] [calm] Yes, let us stop. There is always another thing waiting to be done, but it can wait a little longer. Even a day with no great catch can be a good day beside the water.",
+    "text": "Yes, let us stop. There is always another thing waiting to be done, but it can wait a little longer. Even a day with no great catch can be a good day beside the water.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore3185_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
