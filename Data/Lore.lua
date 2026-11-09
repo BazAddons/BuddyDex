@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Cathedral of Light: Arthur the Faithful 5491, human male Paladin
+    -- Trainer; 4485 referral to Duthorian, humility and hard work.
+    -- Cathedral Square: Brother Kristoff 1444, human male; metallurgy
+    -- book for Fortitude of the Spirit speech, full chain 343-347.
+    -- Original stone-skipping and friendly-audience hooks documented in
+    -- docs/research/arthur-and-kristoff.md. No later Legion funeral.
+    [5491] = {
+        quote = "Take pride in the work you have done. Remember the hands that helped you learn it, and leave room to be taught again.",
+        likes = { "Thanking the people who taught you", "Good work done without an audience", "A stone with a promising flat side" },
+        dislikes = { "Skill made into an excuse for arrogance", "A beginner treated as beneath notice", "Boasting that outruns the work" },
+        gossip = "Arthur speaks seriously about humility. Take him somewhere fit for skipping stones, and he becomes surprisingly interested in keeping count.",
+        bio = "Arthur the Faithful trains paladins in Stormwind's Cathedral of Light. He offers visitors a blessing. His referral to Duthorian Rall recognizes a pupil's dedication while warning that further learning calls for humility and hard work.",
+        backstory = "Arthur expects skill to leave room for another lesson. He has found a small reminder of his own pride in skipping stones: a good throw can occupy rather too much of his attention, especially if someone else has just made a better one.",
+        secret = "He remembers the count of his best throw perfectly. He would prefer you thought he didn't. Losing gracefully still requires a little practice, even after all his advice.",
+        bestFriend = "Bring a flat stone and an honest count. If you beat me, I shall congratulate you. Kindly allow me a moment to mean it properly.",
+        favorite = { emote = "BOW", hint = "A modest bow honors guidance without turning the meeting into a boast." },
+        lines = {
+            greet = { { "Well met, my friend. A walk would be welcome. If we pass a good stretch of water, I may ask you to keep count for me.", tone = "[steady warmth, dignified, quietly playful]" }, "Good to see you. Shall we leave the lessons here for a while?" },
+            idle = { { "I remember the count of my best throw. Entirely. Yes, I do hear how that sounds after a lecture on humility.", tone = "[dry self-awareness, sheepish amusement, warm]" }, "There is room to be proud of good work and grateful for the help that made it possible.", "Another person's skill is an opportunity to learn something." },
+            befriended = { { "You came to bring me along. I am glad, my friend. There is no lesson to earn today. Let us enjoy the road together.", tone = "[sincere affection, relaxed dignity, welcoming]" } },
+            poke = { "Yes? I was considering a particularly promising stone.", "You have my attention, friend." },
+            learned = { { "Well done. Remember the people who helped you reach this point. There will be another learner who could use the same kindness.", tone = "[firm encouragement, proud but measured, thoughtful]" } },
+            levelUp = { "Well earned. Carry it with a little gratitude." },
+            loot = { "A good find. Keep it safe." },
+            quest = { "Good work, my friend. Someone will be grateful for it." },
+            zone = { "New ground, and likely something here we have yet to understand." },
+            rest = { "A seat would be welcome. We needn't turn every pause into a lesson." },
+            hearth = { "Back to the cathedral. Thank you for the company, and for keeping an honest count." },
+        },
+    },
+    [1444] = {
+        quote = "A useful lesson can begin in a workshop. I would rather borrow a good idea than pretend wisdom only arrives in one kind of book.",
+        likes = { "An idea borrowed from honest craft", "A listener willing to ask a question", "A book returned to the hands awaiting it" },
+        dislikes = { "Grand words that help nobody", "Borrowed work treated carelessly", "Confusing patience with doing nothing" },
+        gossip = "Kristoff can find a lesson in metallurgy. Before sharing it with a crowd, he sometimes seems to be giving the fountain a very careful explanation.",
+        bio = "Brother Kristoff prepares a speech on the Fortitude of the Spirit in Stormwind's Cathedral Square. He wants passages from The Stresses of Iron, a metallurgy book. Milton Sheaf at the Royal Library is his first lead to finding the copy.",
+        backstory = "The book has gone to Brother Paxton in Northshire to be copied. Paxton's ink has dried up, and replacing it requires Rethban Ore from Redridge. A speech can depend on a surprising number of hands before anyone hears the first word.",
+        secret = "The first sentence is the hardest. He rehearses by the fountain, then worries the words will vanish before a real audience. One familiar, kind face would help him begin.",
+        bestFriend = "Stay where I can see you when I begin, will you? You needn't agree with every word. Knowing you are there will help me find the first one.",
+        favorite = { emote = "NOD", hint = "An encouraging acknowledgment may help a speaker trust that someone is following him." },
+        lines = {
+            greet = { { "Ah, my friend. A walk sounds good. I have said the first sentence to the fountain often enough. Perhaps you would hear it once.", tone = "[thoughtful warmth, lightly nervous humor, welcoming]" }, "Good to see you. Have you time for an idea I have been considering?" },
+            idle = { { "The first sentence is always the troublesome one. After that, I remember I am speaking to people. Before it, I remember how many people there might be.", tone = "[confiding, self-deprecating amusement, thoughtful]" }, "A book on metallurgy can have something worth saying about fortitude.", "A finished piece of work often carries more hands than its owner remembers." },
+            befriended = { { "You came looking for me. I am glad, my friend. It will be good to have someone beside me who needn't be persuaded to listen.", tone = "[sincere gratitude, relieved affection, warm]" } },
+            poke = { "Yes? Did I lose you somewhere in that explanation?", "Ah, you are listening. Good. What did you think?" },
+            quest = { { "Well done. A little help in the right place can let someone else finish the work they have been waiting to do.", tone = "[appreciative, thoughtful encouragement, warm]" } },
+            mail = { "Some news worth sharing, perhaps. Give it a proper reading." },
+            learned = { "An idea from somewhere unexpected is still worth learning." },
+            zone = { "I wonder what work keeps this place going. There may be a lesson in it." },
+            rest = { "A quiet seat sounds good. You can tell me when my explanation grows too long." },
+            bagsFull = { "Mind the books, if you have any. Keep the corners from being crushed." },
+            hearth = { "Back to the square. Perhaps the first sentence will sound easier now." },
+        },
+    },
+
     -- Cathedral of Light: Brother Benjamin 5484, human male Priest
     -- Trainer, paces eastern hall; rigorous retraining/service dialogue.
     -- Brother Joshua 5489, human male Priest Trainer near altar; Classic
