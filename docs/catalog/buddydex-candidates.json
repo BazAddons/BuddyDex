@@ -8559,7 +8559,7 @@
           "source_page": 8,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -13799,7 +13799,7 @@
           "source_page": 13,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -13847,7 +13847,7 @@
           "source_page": 13,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },

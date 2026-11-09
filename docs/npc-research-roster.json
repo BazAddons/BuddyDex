@@ -252,5 +252,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed external candidate; current Forever services, Classic and installed source checks",
     "research_notes": "docs/research/lakeshire-tackle-and-gryphons.md"
+  },
+  {
+    "npc_id": 1070,
+    "name": "Deputy Feldon",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+    "research_notes": "docs/research/lakeshire-three-defenders.md"
+  },
+  {
+    "npc_id": 859,
+    "name": "Guard Berton",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+    "research_notes": "docs/research/lakeshire-three-defenders.md"
+  },
+  {
+    "npc_id": 903,
+    "name": "Guard Howe",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+    "research_notes": "docs/research/lakeshire-three-defenders.md"
   }
 ]

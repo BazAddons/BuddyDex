@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 216,
+  "completed_count": 219,
   "remaining_count": 27,
   "completed": [
     {
@@ -386,6 +386,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 859,
+      "name": "Guard Berton",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+      "research_notes": "docs/research/lakeshire-three-defenders.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 878,
       "name": "Scout Galiaan",
       "zone": "Westfall",
@@ -400,6 +410,16 @@
       "name": "Homer Stonefield",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 903,
+      "name": "Guard Howe",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+      "research_notes": "docs/research/lakeshire-three-defenders.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -446,6 +466,16 @@
       "name": "Dane Lindgren",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1070,
+      "name": "Deputy Feldon",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever node, quest tabs and installed quest/chatter text",
+      "research_notes": "docs/research/lakeshire-three-defenders.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

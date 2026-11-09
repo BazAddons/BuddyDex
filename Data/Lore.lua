@@ -41,6 +41,90 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+
+    -- Deputy Feldon (1070), adult male human, Lakeshire south bridge, display 2151.
+    -- Classic 244 -> 246: Parker's warning, reconnaissance, Marris/Solomon referral.
+    -- Forever 98407: gnoll thrasher collars as deterrence. Small good-news notes are original.
+    -- docs/research/lakeshire-three-defenders.md.
+    [1070] = {
+        quote = "Tell me what you saw, not what someone guessed. And if any of it was good news, don't leave that part out.",
+        likes = { "A clear report from the road", "Scouts returning safely", "A little good news worth keeping" },
+        dislikes = { "Rumor passed off as intelligence", "A warning left too late", "Rain reaching the writing paper" },
+        gossip = "Feldon keeps a second page beneath his reports. Lakeshire suspects it's a list of everything he forgot to ask.",
+        bio = "Deputy Feldon watches the approach to Lakeshire. Guard Parker's gnoll warning brings him scouts; he assesses the danger and seeks to deter further attacks. He directs willing helpers to Marris and Solomon.",
+        backstory = "One evening he could remember every threat in his reports and nothing else about the day. He began saving a few ordinary good things on a separate page: a safe arrival, a roof mended, a cart brought home.",
+        secret = "The good-news page is still short. He leaves room between entries, though, in case tomorrow gives him more to write.",
+        bestFriend = "No report needed. Tell me one good thing about your day. I've left a space, and I'd like to put you in it.",
+        favorite = { emote = "NOD", hint = "Show him you've listened carefully and understood what matters." },
+        lines = {
+            greet = { { "There you are. I was hoping to hear how the road treated you. Any trouble, tell me plainly. And if something went well, tell me that too. I've a little space left on my other page.", tone = "[steady practical warmth, attentive, quietly hopeful]" }, "Good to see you back in one piece. What have you seen?" },
+            idle = { { "I started keeping a few good things on a separate page. Nothing grand. A cart made it home. Somebody mended a roof. You can fill a whole report with danger and forget what you're trying to keep safe.", tone = "[thoughtful, understated sincerity, conversational]" }, "A report ought to tell you something you can use.", "Room for one more bit of good news. There usually is." },
+            befriended = { { "All right, I'll walk with you. Seeing a stretch of road for myself will do me good. And for once, when I ask how your day has been, I might already know part of the answer.", tone = "[warm restrained pleasure, practical, gently amused]" } },
+            poke = { "Yes? Have you remembered something?", "I'm listening. Take your time." },
+            rest = { "A quiet moment. That can go on the other page." },
+            quest = { { "Tell me how it went while it's still fresh. The useful details first. Then you can sit down and tell me the part that made you glad you went. I'd rather not lose either account.", tone = "[attentive measured encouragement, calm warmth]" } },
+            combatEnd = { "Check everyone, then catch your breath. The report can wait that long." },
+            zone = { "A different road. Let's see what we can learn before we make assumptions." },
+            levelUp = { "You've more experience to draw on now. Make good use of it." },
+            hearth = { "Back safely. I never tire of that particular bit of news." },
+            mail = { "Read it through before you decide what it means." },
+        },
+    },
+    -- Guard Berton (859), adult male human outside Lakeshire inn, display 3453.
+    -- Classic 386: Targorr, Gath'Ilzogg, delayed execution; corruption is Berton's suspicion.
+    -- Listening to ordinary inn laughter is original, not a new loss or family history.
+    [859] = {
+        quote = "A sentence on a page is no comfort while the man it condemns is still waiting to walk free.",
+        likes = { "A promise followed by action", "Defenders remembered with respect", "Laughter carrying out of the inn" },
+        dislikes = { "Cruelty excused by influence", "A duty buried in paperwork", "Being asked to forget too soon" },
+        gossip = "Berton sometimes lingers outside the inn without going in. The town hasn't decided whether he dislikes the noise.",
+        bio = "Guard Berton stands outside Lakeshire's inn. He wants Targorr, Gath'Ilzogg's executioner, killed in the Stockade. A noble delayed the sentence; Berton suspects political interference and refuses to trust the delay.",
+        backstory = "After a day spent thinking about wrongs left unanswered, he stopped outside the inn. Someone inside laughed, and another voice joined in. For a moment he listened without trying to make sense of the joke.",
+        secret = "He doesn't mind the noise. Ordinary laughter helps him remember that guarding a town means keeping more than its walls standing.",
+        bestFriend = "Stay a moment. We don't have to talk about it tonight. I'd be glad of your company all the same.",
+        favorite = { emote = "COMFORT", hint = "He may need a moment of quiet support more than another argument." },
+        lines = {
+            greet = { { "Good. You're here. I've had enough talk of delays for one day. Walk with me a moment, if you've the time. You needn't have an answer ready. I wasn't asking for another answer.", tone = "[stern weary restraint, warming slightly, direct]" }, "There you are. Have you something I should hear?" },
+            idle = { { "I sometimes stop outside the inn and listen. Somebody laughs, somebody else joins in. I don't need to know the joke. It's enough to hear people with a little room in their day for that.", tone = "[low thoughtful gravity, restrained tenderness, unhurried]" }, "An unanswered wrong doesn't become right because the papers are in order.", "That's a good sound. Somebody enjoying an ordinary evening." },
+            befriended = { { "You want me along? Very well. I could use a walk with someone I trust. We needn't spend every step talking about the Stockade. Tell me where we're going, and I'll keep watch with you.", tone = "[firm sincere gratitude, reserved warmth, steady]" } },
+            poke = { "What is it?", "No, I heard you. I was choosing my words." },
+            rest = { { "We can sit here a while. There's always another matter waiting, but it can wait five minutes more. You don't have to fill the silence. Having someone beside me is company enough.", tone = "[quiet guarded warmth, weary but composed]" } },
+            quest = { "Tell me what happened. I'd rather hear it plainly." },
+            combatEnd = { "See to the wounded. Standing doesn't always mean unhurt." },
+            zone = { "Keep your eyes open. I'll watch the other side." },
+            levelUp = { "You've earned that progress. Keep the judgment to match it." },
+            hearth = { "Home. Listen a moment before you hurry on." },
+            mail = { "A letter can carry a promise. What matters is whether it's kept." },
+        },
+    },
+    -- Guard Howe (903), adult male human south of Lakeshire bridge, display 3446.
+    -- Classic 128: Solomon's bounty on Blackrock Champions. Installed chatter names Marris/reinforcements.
+    -- A carefully kept pair of dry socks is original; no implied family or invented battle.
+    [903] = {
+        quote = "Keep your weapon ready and your feet dry. One of those is considerably harder on a long watch.",
+        likes = { "Orders carried through properly", "A reliable watch beside him", "Dry socks after a damp patrol" },
+        dislikes = { "Blackrock threats to Lakeshire", "Promised help that never arrives", "Water working into a boot" },
+        gossip = "Howe checks one bundle in his kit more carefully than the others. Lakeshire imagines an important dispatch.",
+        bio = "Guard Howe watches near Lakeshire's bridge. He offers Magistrate Solomon's bounty on Blackrock Champions and watches for reinforcements. Marris's expected reserve from Stormwind has yet to ease the strain.",
+        backstory = "A wet watch taught him that a spare pair of socks is useful only if it stays dry. He began wrapping his pair separately and checking the bundle before he set out. His equipment inspections grew rather thorough.",
+        secret = "The carefully wrapped bundle holds plain socks. He's saving them for the end of a properly miserable watch, and expects that first dry step to be magnificent.",
+        bestFriend = "You watch the road; I'll find us a dry place to sit. A good patrol ought to end with both of us comfortable.",
+        favorite = { emote = "SALUTE", hint = "Acknowledge his watch with the respect one defender gives another." },
+        lines = {
+            greet = { { "Ready? Good. Let me check this bundle and we can be off. No secret orders. A spare pair of socks, wrapped properly. Laugh if you like, but ask me again after a wet watch.", tone = "[brisk soldierly confidence, dry humor, friendly]" }, "There you are. Ready to take a turn along the road?" },
+            idle = { { "Everyone checks the edge of a blade. Sensible enough. I also check whether the dry things in my kit are still dry. A small precaution, until you've stood long enough to appreciate it.", tone = "[matter of fact, wry amusement, grounded]" }, "Still keeping an eye out for that reserve.", "A dry path. Let's enjoy it while we have one." },
+            befriended = { { "I'll come along. You seem to know the value of a dependable watch, and I'd rather share one with someone I know. Give me a moment to settle my kit. Then you can choose the road.", tone = "[firm pleased warmth, dependable, conversational]" } },
+            poke = { "Yes? Something on the road?", "All secure. I checked." },
+            rest = { { "This looks dry enough. Sit down and give your feet a chance. There's no medal for keeping a wet boot on longer than you need to. If there were, half the guard would have a chestful.", tone = "[relaxed dry humor, practical concern, gently amused]" } },
+            quest = { "A task carried through. Solomon could use more reports like that." },
+            combatEnd = { "Weapons checked, everyone accounted for. Then we can move." },
+            zone = { "Let's learn the approaches before we settle anywhere." },
+            levelUp = { "Well earned. Remember the little precautions, too." },
+            hearth = { "Back again. I could get used to a patrol that ends this neatly." },
+            mail = { "News from Stormwind? Read it before I start hoping." },
+        },
+    },
+
     -- Vernon Hale 1678: human man/bait and tackle supplier, display 3361.
     -- Ariena Stormfeather 931: human woman/gryphon master, display 3364.
     -- Current friendly Forever identities/services and Classic/installed sources.
