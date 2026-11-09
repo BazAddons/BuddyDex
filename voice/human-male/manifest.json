@@ -1359,6 +1359,46 @@
     "text": "A shield has an outside for the danger and an inside for the person who matters.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore205278_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:205278",
+    "spoken": "[grateful affection, relieved warmth, welcoming] You thought to ask me along. Thank you, my friend. I am glad. It helps to have someone beside me for a while, and I should like to hear what is on your mind.",
+    "text": "You thought to ask me along. Thank you, my friend. I am glad. It helps to have someone beside me for a while, and I should like to hear what is on your mind.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore205278_comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "comforted",
+    "say": null,
+    "source": "lore:205278",
+    "spoken": "[soothing care, patient, quietly reassuring] Sit a moment, my friend. You needn't find the right words at once. I can stay here with you while you gather them. Tell me what you can, when you are ready.",
+    "text": "Sit a moment, my friend. You needn't find the right words at once. I can stay here with you while you gather them. Tell me what you can, when you are ready.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore205278_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:205278",
+    "spoken": "[gentle concern, grateful warmth, inviting] A little company would be welcome. Come, let us walk. If you have heard any news, I shall listen. If you haven't, tell me how you have been. I should be glad to hear that too.",
+    "text": "A little company would be welcome. Come, let us walk. If you have heard any news, I shall listen. If you haven't, tell me how you have been. I should be glad to hear that too.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore205278_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:205278",
+    "spoken": "[reflective worry, tender hope, sincere] I think of all the questions I would ask if Ada came through the door. Then I think I would ask whether she had eaten. The rest could wait until she was warm and seated.",
+    "text": "I think of all the questions I would ask if Ada came through the door. Then I think I would ask whether she had eaten. The rest could wait until she was warm and seated.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore2198_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

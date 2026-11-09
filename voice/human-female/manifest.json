@@ -79,6 +79,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore12805_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12805",
+    "spoken": "[reserved pleasure, sincere affection, inviting] You asked me along. I can spare a little time, my friend. Thank you for thinking of it. Come on; tell me what you have been doing beyond Old Town.",
+    "text": "You asked me along. I can spare a little time, my friend. Thank you for thinking of it. Come on; tell me what you have been doing beyond Old Town.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12805_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:12805",
+    "spoken": "[precise practical interest, approving, steady] Try the fastening, then move comfortably. Does it sit where you need it? Good. The fine appearance is worth more when the small parts are doing their work properly.",
+    "text": "Try the fastening, then move comfortably. Does it sit where you need it? Good. The fine appearance is worth more when the small parts are doing their work properly.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12805_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12805",
+    "spoken": "[crisp practical warmth, restrained affection, welcoming] Ready? Give the fastening one more check. There. A little care now can spare a nuisance later. Where are we heading? I am glad to have a reason to walk with you.",
+    "text": "Ready? Give the fastening one more check. There. A little care now can spare a nuisance later. Where are we heading? I am glad to have a reason to walk with you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore12805_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12805",
+    "spoken": "[candid reflection, dry gentle humor, composed] I checked my cloak clasp three times on that first morning. Nothing wrong with the clasp. I was nervous. I remember that when someone takes a little longer to settle their hands.",
+    "text": "I checked my cloak clasp three times on that first morning. Nothing wrong with the clasp. I was nervous. I remember that when someone takes a little longer to settle their hands.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1286_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -997,6 +1037,46 @@
     "source": "lore:3626",
     "spoken": "[calm, warm voice, quietly reassuring] No need to fill every quiet moment. I'm happy to sit here with you.",
     "text": "No need to fill every quiet moment. I'm happy to sit here with you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore376_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:376",
+    "spoken": "[reserved affection, sincere pleasure, inviting] You asked for my company. I am pleased, my friend. For once, let us begin without a lesson prepared. Where shall we go? I should enjoy seeing what interests you.",
+    "text": "You asked for my company. I am pleased, my friend. For once, let us begin without a lesson prepared. Where shall we go? I should enjoy seeing what interests you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore376_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:376",
+    "spoken": "[composed authority, restrained fond humor, welcoming] A walk? Very well. I shall try not to turn every question into a lesson. You may remind me if I do. Come, tell me what has caught your attention today.",
+    "text": "A walk? Very well. I shall try not to turn every question into a lesson. You may remind me if I do. Come, tell me what has caught your attention today.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore376_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:376",
+    "spoken": "[thoughtful candor, gently amused, measured] I kept a page of my early notes. The arrows send one thought through three corrections before it reaches the margin. I once meant to copy it neatly. Now I rather value the evidence that I had to learn.",
+    "text": "I kept a page of my early notes. The arrows send one thought through three corrections before it reaches the margin. I once meant to copy it neatly. Now I rather value the evidence that I had to learn.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore376_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:376",
+    "spoken": "[firm patient instruction, encouraging, precise] Once more, slowly. Notice what you understand now that you did not understand before. Then practice it with care. Confidence will serve you better when it has something solid beneath it.",
+    "text": "Once more, slowly. Notice what you understand now that you did not understand before. Then practice it with care. Confidence will serve you better when it has something solid beneath it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore377_befriended_1.ogg": {

@@ -41,6 +41,96 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Officer Areyn 12805: human female in Old Town, display 12923; Scout
+    -- friendly level 55. Classic accessories-quartermaster identity near
+    -- Champions' Hall; no personal quest or exact-ID installed dialogue.
+    -- All seven pages of the associated military-ranks book read. Current
+    -- vendor table incomplete; no stock/prices promised. Old clasp original.
+    -- docs/research/officer-areyn.md.
+    [12805] = {
+        quote = "An insignia is meant to sit securely. Check the fastening before you go looking for something grander to put beside it.",
+        likes = { "A small fitting that does its job", "A practical question asked plainly", "A familiar cloak worn comfortably" },
+        dislikes = { "A loose fastening ignored for show", "A title used to talk over someone", "Mistaking nervousness for carelessness" },
+        gossip = "Areyn has an eye for small fittings. An old cloak clasp of her own has apparently survived several sensible reasons to replace it.",
+        bio = "Officer Areyn is a human officer in Stormwind's Old Town, outside Champions' Hall. Her work as an accessories quartermaster concerns the smaller parts of military equipment, including insignia, wristguards and capes.",
+        backstory = "She kept a plain clasp from an early cloak. Its spring has weakened, but holding it recalls how carefully she fastened that cloak when everything about the uniform felt new. A small fitting can carry more memory than its appearance suggests.",
+        secret = "On that first morning, she checked the clasp three times before leaving. The clasp was sound; she was nervous. She remembers this when a newcomer needs a moment to steady their hands.",
+        bestFriend = "Take your time, friend. You needn't have every small thing settled before I will be glad to walk beside you.",
+        favorite = { emote = "SALUTE", hint = "A clear, respectful acknowledgment suits an officer who values attention over display." },
+        lines = {
+            greet = { { "Ready? Give the fastening one more check. There. A little care now can spare a nuisance later. Where are we heading? I am glad to have a reason to walk with you.", tone = "[crisp practical warmth, restrained affection, welcoming]" }, "There you are. Shall we see what the day requires?" },
+            idle = { { "I checked my cloak clasp three times on that first morning. Nothing wrong with the clasp. I was nervous. I remember that when someone takes a little longer to settle their hands.", tone = "[candid reflection, dry gentle humor, composed]" }, "A small fitting deserves attention before it becomes a large inconvenience.", "A clear question is useful. Ask it before deciding you ought already to know." },
+            befriended = { { "You asked me along. I can spare a little time, my friend. Thank you for thinking of it. Come on; tell me what you have been doing beyond Old Town.", tone = "[reserved pleasure, sincere affection, inviting]" } },
+            poke = { "Yes? What needs a closer look?", "I am listening. Ask plainly." },
+            gear = { { "Try the fastening, then move comfortably. Does it sit where you need it? Good. The fine appearance is worth more when the small parts are doing their work properly.", tone = "[precise practical interest, approving, steady]" } },
+            learned = { "Once more, with care. Your hands will settle as the work becomes familiar." },
+            quest = { "You saw it through. Take a moment to check the details before moving on." },
+            combatEnd = { "Steady. Check your wounds first, then see what needs putting right." },
+            loot = { "Something useful? Look at how it is put together before deciding." },
+            rest = { "A pause is sensible. There is no merit in making tired hands do everything twice." },
+            hearth = { "Back to Old Town. There will be small things worth attending to." },
+        },
+    },
+    -- Brother Romulus 205278: human male, Cathedral of Light, display 11350.
+    -- Scout confirms his actual Forever presence (level 30, friendly),
+    -- despite the original SoD provenance. Installed gossip reports the
+    -- missing young paladin Ada Gelhardt, last seen in the catacombs.
+    -- The imagined welcome is original and conditional, not a reunion.
+    -- docs/research/brother-romulus.md.
+    [205278] = {
+        quote = "If you have heard anything of Ada, please tell me. And if it is only a rumor, say so. I would rather know where certainty ends.",
+        likes = { "An account given carefully", "A worried person allowed to sit", "Company through an uncertain hour" },
+        dislikes = { "A rumor repeated as settled truth", "Questions sharpened into accusations", "Treating someone's absence as a story" },
+        gossip = "Romulus has many questions about Ada. Friends suspect his first would be whether she has eaten, if she came through the door.",
+        bio = "Brother Romulus is a human in Stormwind's Cathedral of Light. He is troubled by the disappearance of the young paladin Ada Gelhardt. His account places her last in the catacombs, with reports of withdrawn behavior before she vanished.",
+        backstory = "In quiet moments, he considers what he would say if a worried visitor returned. The stern questions come readily enough. Then he remembers how much easier it is to speak after someone offers you a place to sit and gather your thoughts.",
+        secret = "If Ada came through the door, he thinks he would first ask whether she had eaten. He wants answers, certainly. He would rather ask once she was warm and seated.",
+        bestFriend = "Sit with me a while, friend. You needn't bring news to make your company welcome. It helps to have someone here who will listen.",
+        favorite = { emote = "COMFORT", hint = "A quiet gesture of reassurance may help someone carrying a worry that has no ready answer." },
+        lines = {
+            greet = { { "A little company would be welcome. Come, let us walk. If you have heard any news, I shall listen. If you haven't, tell me how you have been. I should be glad to hear that too.", tone = "[gentle concern, grateful warmth, inviting]" }, "There you are. It is good to see a familiar face." },
+            idle = { { "I think of all the questions I would ask if Ada came through the door. Then I think I would ask whether she had eaten. The rest could wait until she was warm and seated.", tone = "[reflective worry, tender hope, sincere]" }, "A rumor may be all someone has to offer. I still need to know that it is a rumor.", "Sometimes a person needs a moment to settle before they can explain." },
+            befriended = { { "You thought to ask me along. Thank you, my friend. I am glad. It helps to have someone beside me for a while, and I should like to hear what is on your mind.", tone = "[grateful affection, relieved warmth, welcoming]" } },
+            poke = { "Yes? Have you heard something?", "I am listening. Take a moment if you need one." },
+            comforted = { { "Sit a moment, my friend. You needn't find the right words at once. I can stay here with you while you gather them. Tell me what you can, when you are ready.", tone = "[soothing care, patient, quietly reassuring]" } },
+            mail = { "A message? Read it carefully. I hope it gives you something certain to go on." },
+            quest = { "You saw it through. Someone waiting for an answer may be very glad of that." },
+            rest = { "A pause would be sensible. We can give ourselves a moment to think." },
+            combatEnd = { "Take a breath. Are you hurt? See to that before trying to tell me what happened." },
+            zone = { "Another place, with people who may have something to tell us. Let us listen carefully." },
+            hearth = { "Back to the Cathedral. I hope there will be something more certain to hear." },
+        },
+    },
+    -- High Priestess Laurena 376: human female Priest Trainer, Cathedral of
+    -- Light, display 1495. Scout friendly level 60; full Classic priest
+    -- referrals and Cenarion chain read. Forever Divine Grace 94774 confirms
+    -- her continuing instruction. Original corrected practice notes; no
+    -- SoD family history or later retail succession/royal funeral assumed.
+    -- docs/research/high-priestess-laurena.md.
+    [376] = {
+        quote = "Try again. Carefully. You need not apologize for needing practice; you do need to give it your attention.",
+        likes = { "A pupil who returns prepared", "An honest question asked clearly", "The crossings-out in her old notes" },
+        dislikes = { "Confidence used to excuse carelessness", "A lesson recited without understanding", "A need ignored over differences of faith" },
+        gossip = "Laurena expects full attention. Her own early practice notes apparently contain enough corrections to reassure a nervous beginner.",
+        bio = "High Priestess Laurena trains priests in Stormwind's Cathedral of Light. She receives promising pupils and directs others to Rohan or Alathea for their own teachings. Her call for Cenarion aid puts the need for help before differences of approach.",
+        backstory = "She kept a page of her early practice notes. Corrections crowd the margins, with arrows sending one thought back through another. Looking at it recalls how much attention a lesson required before it became familiar enough to teach.",
+        secret = "She once wanted to copy that page neatly and discard the original. Now she prefers the crossings-out. They remind her that knowing a lesson began with having something to learn.",
+        bestFriend = "No lesson prepared today, my friend. Tell me what is on your mind. I should like to hear you without deciding what to teach next.",
+        favorite = { emote = "PRAY", hint = "A sincere moment of devotion speaks clearly to someone who asks others to hold fast to the Light." },
+        lines = {
+            greet = { { "A walk? Very well. I shall try not to turn every question into a lesson. You may remind me if I do. Come, tell me what has caught your attention today.", tone = "[composed authority, restrained fond humor, welcoming]" }, "There you are. Settle your thoughts, and tell me how you have been." },
+            idle = { { "I kept a page of my early notes. The arrows send one thought through three corrections before it reaches the margin. I once meant to copy it neatly. Now I rather value the evidence that I had to learn.", tone = "[thoughtful candor, gently amused, measured]" }, "A clear question shows me where the next explanation should begin.", "The need for help deserves your attention, even when the person seeking it follows another path." },
+            befriended = { { "You asked for my company. I am pleased, my friend. For once, let us begin without a lesson prepared. Where shall we go? I should enjoy seeing what interests you.", tone = "[reserved affection, sincere pleasure, inviting]" } },
+            poke = { "Yes? Ask the question you came to ask.", "I am listening. There is time to make yourself clear." },
+            learned = { { "Once more, slowly. Notice what you understand now that you did not understand before. Then practice it with care. Confidence will serve you better when it has something solid beneath it.", tone = "[firm patient instruction, encouraging, precise]" } },
+            quest = { "You followed through. Consider what the work taught you before taking up the next task." },
+            combatEnd = { "Breathe. Attend to your wounds and gather your thoughts. Haste will not mend either." },
+            levelUp = { "You have made progress. Be pleased with it, and keep giving the work your attention." },
+            rest = { "Rest is sensible. A tired mind may need a pause more than another explanation." },
+            comforted = { "Take a moment. You need not make a perfect account of your sorrow before I will listen." },
+            hearth = { "Back to Stormwind. There will be questions waiting at the Cathedral." },
+        },
+    },
     -- Clavicus Knavingham 14722: human male Alliance Cloth Quartermaster,
     -- Duncan's Textiles/Mage Quarter, display 14753. Scout friendly level
     -- 35. Full donation quests 7791/7793/7794/7795/7796 and installed gossip

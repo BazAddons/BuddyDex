@@ -5249,7 +5249,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -15375,7 +15375,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25897,7 +25897,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38872,6 +38872,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 376,
+      "name": "High Priestess Laurena",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "High Priestess Laurena",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 1212,
       "name": "Bishop Farthing",
       "source": "Existing local backlog; absent from source filter",
@@ -39191,6 +39202,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 12805,
+      "name": "Officer Areyn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Officer Areyn",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 12997,
       "name": "Monty",
       "source": "Existing local backlog; absent from source filter",
@@ -39284,6 +39306,17 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Clavicus Knavingham",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 205278,
+      "name": "Brother Romulus",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Romulus",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,
@@ -39389,44 +39422,11 @@
       "profile_status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 205278,
-      "name": "Brother Romulus",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Brother Romulus",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 376,
-      "name": "High Priestess Laurena",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "High Priestess Laurena",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 277721,
       "name": "Krazore",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Krazore",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 12805,
-      "name": "Officer Areyn",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Officer Areyn",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,
