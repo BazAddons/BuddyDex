@@ -2109,6 +2109,46 @@
     "text": "There! Once the basics hold together, you can try something gloriously unnecessary.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore5177_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5177",
+    "spoken": "[warm, appreciative, sincere] You make it easy to ask a question of my own. I'm very glad to have your company.",
+    "text": "You make it easy to ask a question of my own. I'm very glad to have your company.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5177_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5177",
+    "spoken": "[warm teacher, relaxed curiosity] A walk would be lovely. Tell me what you've been wondering about lately.",
+    "text": "A walk would be lovely. Tell me what you've been wondering about lately.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5177_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5177",
+    "spoken": "[thoughtful, quietly amused, candid] I keep the questions I couldn't answer. It would be a shame to stop learning just because I teach.",
+    "text": "I keep the questions I couldn't answer. It would be a shame to stop learning just because I teach.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5177_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5177",
+    "spoken": "[encouraging, patient, attentive] Good. Try explaining it in your own words. I'll listen.",
+    "text": "Good. Try explaining it in your own words. I'll listen.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore5178_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -2229,6 +2229,46 @@
     "text": "Before you sell that, let me see how the pieces fit together.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore5569_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5569",
+    "spoken": "[warm, celebratory, sincere pleasure] A new friend! Now that is a proper occasion. I'm pleased you came by.",
+    "text": "A new friend! Now that is a proper occasion. I'm pleased you came by.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5569_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5569",
+    "spoken": "[genial showman, bright anticipation] An outing! Splendid. We may find something worth celebrating before we're back.",
+    "text": "An outing! Splendid. We may find something worth celebrating before we're back.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5569_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5569",
+    "spoken": "[fond, reflective, quietly delighted] The best part? When the light catches everyone's faces. You can't put that in a box.",
+    "text": "The best part? When the light catches everyone's faces. You can't put that in a box.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5569_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:5569",
+    "spoken": "[excited showman, generous enthusiasm] There it is! A good reason to make a splendid fuss over you!",
+    "text": "There it is! A good reason to make a splendid fuss over you!",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore6169_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

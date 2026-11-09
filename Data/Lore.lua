@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Tally 5177: female gnome alchemy trainer in Berryfizz's shop;
+    -- Vosur Brakthel is her apprentice and friend in their gossip.
+    -- Fizzlebang 5569: male gnome fireworks seller, Things That Go Boom!
+    -- No personal quest chain established. No speculative kinship used.
+    -- docs/research/tally-and-fizzlebang.md.
+    [5177] = {
+        quote = "A good question is useful at any height. Bring yours to the workbench, and we'll see what we can learn.",
+        likes = { "A pupil asking why a method works", "Seeing a lesson put to good use", "An apprentice willing to try again" },
+        dislikes = { "Judging an alchemist by appearances", "Pretending to understand a step", "An unanswered question left forgotten" },
+        gossip = "Tally keeps a notebook of difficult questions. New pupils worry it's a test. Her friends suspect she's the one still doing the homework.",
+        bio = "Tally Berryfizz teaches alchemy in Berryfizz's Potions and Mixed Drinks in Tinker Town. The dwarf Vosur Brakthel is her apprentice and friend. Their conversations show respect across a considerable difference in height.",
+        backstory = "Teaching has given her a steady supply of questions she might never have thought to ask herself. She treats a puzzled look as a reason to explain another way, and an unexpected answer as something worth testing carefully.",
+        secret = "The notebook is hers. It holds questions she couldn't answer at once. Finding an answer later and telling the person who asked is one of her quiet pleasures.",
+        bestFriend = "Ask me anything. I may have to say I don't know yet, but I know you won't think less of me for looking into it.",
+        favorite = { emote = "THANK", hint = "Knowing that a lesson helped someone is a fine reward for teaching it." },
+        lines = {
+            greet = { { "A walk would be lovely. Tell me what you've been wondering about lately.", tone = "[warm teacher, relaxed curiosity]" }, "Ready. We may find a question worth bringing back to the workbench." },
+            idle = { { "I keep the questions I couldn't answer. It would be a shame to stop learning just because I teach.", tone = "[thoughtful, quietly amused, candid]" }, "Vosur's a good apprentice. And a good friend. Both matter.", "A puzzled look is useful. It tells me where to begin again." },
+            befriended = { { "You make it easy to ask a question of my own. I'm very glad to have your company.", tone = "[warm, appreciative, sincere]" } },
+            poke = { "Yes? What would you like to know?", "One moment. I was trying to remember a question." },
+            learned = { { "Good. Try explaining it in your own words. I'll listen.", tone = "[encouraging, patient, attentive]" } },
+            quest = { "Useful work often begins with someone asking for help." },
+            loot = { "Interesting. What do you suppose that was used for?" },
+            rest = { "A good moment to look over the notes. Or simply let an idea settle." },
+            levelUp = { "Well done. You've learned a great deal since we first spoke." },
+            combatEnd = { "All here? Good. The questions can wait until we've caught our breath." },
+            hearth = { "Back to the workbench. There may be a question waiting for me." },
+        },
+    },
+    [5569] = {
+        quote = "A celebration deserves a little color. A little more color. There! Now everyone knows something wonderful has happened.",
+        likes = { "The first gasp from a watching crowd", "A good reason to celebrate", "An audience that remembers to cheer" },
+        dislikes = { "Rain just before a display", "A celebration nobody looks up for", "Fireworks mistaken for ordinary cargo" },
+        gossip = "Fizzlebang talks endlessly about the sky, yet during a display he seems to spend half his time looking the other way.",
+        bio = "Fizzlebang Booms sells fireworks year-round in Tinker Town, Ironforge. His shop is Things That Go Boom! While holiday sellers come and go, his counter offers a little celebration without waiting for a festival.",
+        backstory = "Selling fireworks has made him attentive to the reasons people buy them. Some arrive with an occasion already planned; others only want to mark a good day. He enjoys hearing the reason almost as much as making the sale.",
+        secret = "He watches the crowd because he likes the moment their faces catch the light. The color disappears quickly. The look on someone's face is what he remembers.",
+        bestFriend = "You don't need a grand occasion to come and see me. A friend turning up can be quite enough reason to celebrate.",
+        favorite = { emote = "CHEER", hint = "An enthusiastic audience can make even a small celebration feel splendid." },
+        lines = {
+            greet = { { "An outing! Splendid. We may find something worth celebrating before we're back.", tone = "[genial showman, bright anticipation]" }, "Ready! I do enjoy hearing what the occasion is." },
+            idle = { { "The best part? When the light catches everyone's faces. You can't put that in a box.", tone = "[fond, reflective, quietly delighted]" }, "A good day needn't be a holiday. I keep saying so.", "Every celebration begins with someone deciding it's worth the trouble." },
+            befriended = { { "A new friend! Now that is a proper occasion. I'm pleased you came by.", tone = "[warm, celebratory, sincere pleasure]" } },
+            poke = { "Is that my cue?", "Ah! You could have just said you were ready." },
+            levelUp = { { "There it is! A good reason to make a splendid fuss over you!", tone = "[excited showman, generous enthusiasm]" } },
+            quest = { "Another reason to smile. Shall we count that as an occasion?" },
+            loot = { "Something special? Tell me the story. The occasion needs a story." },
+            taxi = { "A fine view! Usually my stock gets to see this part." },
+            rest = { "A little quiet between the grand moments. Rather pleasant, actually." },
+            combatEnd = { "We're all here! That is absolutely worth celebrating." },
+            hearth = { "Back to the shop. Someone may have good news to share." },
+        },
+    },
+
     -- Trixie 11029: female gnome Expert Engineer, Springspindle's Gadgets;
     -- Jemma's sister in Classic training gossip; plans an oversized baster.
     -- Soolie 5178: female gnome alchemy supplier, Berryfizz's Potions and
