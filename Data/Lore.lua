@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Collin Mauren 4078: human male, Mage Quarter, Stormwind; Gaxim's
+    -- messaging scroll 1075-1077 and basilisk reagent request 1078.
+    -- Sprite Jumpsprocket 11026: gnome female, Journeyman Engineer,
+    -- Dwarven District; Lilliam referral, Forever Toxic Soil explosives
+    -- 92748-92752 and Reagent Bot lesson 97918. Original map/toy hooks:
+    -- docs/research/mauren-and-jumpsprocket.md.
+    [4078] = {
+        quote = "Tell me where you've been. The component can wait a moment; I should like to hear what the road was like.",
+        likes = { "A traveler with time for the whole story", "A spell that solves a friend's problem", "A place described in loving detail" },
+        dislikes = { "A good account hurried to its ending", "Reagents mixed up in a courier's bag", "Experiments explained after they start" },
+        gossip = "Travelers bring Collin news of Stonetalon. He asks such particular questions about the view that you might think he was planning a journey.",
+        bio = "Collin Mauren works with spells in Stormwind's Mage Quarter. His friend Gaxim Rustfizzle needs magic for a remote explosive, and Collin devises a messaging scroll. He is eager to hear the adventure's ending when the work is done.",
+        backstory = "The Charred Vale's basilisk scales are useful in spells Collin has created. Travelers' questions keep drawing his attention back to Stonetalon. Their accounts have also given him a growing map of places he would like to see himself.",
+        secret = "One spot on his map is still unnamed. A traveler described a lovely view but forgot its name. Collin wants to find it without deciding in advance what to call it.",
+        bestFriend = "Would you take the long way with me? I should like to bring back a story of our own, and tell it without leaving anything out.",
+        favorite = { emote = "GREET", hint = "A friendly greeting is a fine beginning to a conversation with this welcoming spellworker." },
+        lines = {
+            greet = { { "Ah, my friend. Shall we take a walk? There are places on my map I have only ever heard described.", tone = "[warm curiosity, thoughtful, welcoming]" }, "Good to see you. Have you time for a little wandering?" },
+            idle = { { "Someone described a lovely view to me, then forgot its name. I have left a space on my map. Perhaps we shall find it.", tone = "[reflective, hopeful, quiet amusement]" }, "Gaxim does have a way of making a simple request interesting.", "A useful spell begins with understanding what someone actually needs." },
+            befriended = { { "I am glad you came back for me. This time I shall hear the story as it happens. Lead on, my friend.", tone = "[sincere affection, quietly excited, trusting]" } },
+            poke = { "Yes? I was trying to remember a turn in the road.", "You have my attention. What is it?" },
+            quest = { { "Well done. When you tell me about it, begin at the beginning. I should hate to miss the interesting part.", tone = "[pleased, interested, warmly encouraging]" } },
+            loot = { "Keep that apart from the other components, if you please." },
+            zone = { "Now, what would you tell someone who had never seen this place?" },
+            mail = { "News from a friend is worth making time for." },
+            learned = { "Ah, a new possibility. I wonder what you will find to do with it." },
+            rest = { "A good place to sit. Tell me about the journey that brought you here." },
+            hearth = { "Back to Stormwind, with something new to talk about." },
+        },
+    },
+    [11026] = {
+        quote = "Stand back a little. I want an audience, and I'd like to have the same audience afterward.",
+        likes = { "An engineering pupil full of questions", "A project with a satisfying finish", "Someone watching the little moving parts" },
+        dislikes = { "A detonator handled without care", "Calling a small machine uninteresting", "Interruptions at the exciting bit" },
+        gossip = "Sprite can get excited about a very loud project. Ask about the little flower drawn on her spare paper, and she gets excited all over again.",
+        bio = "Sprite Jumpsprocket teaches engineering in Stormwind's Dwarven District. She helps prepare explosives for Alba Fairmoon's Westfall investigation, sending the player to Stormwind Intelligence for a remote detonator. She enjoys the work enormously.",
+        backstory = "Sprite sends advanced students to Lilliam Sparkspindle. She also teaches a Reagent Bot for wilderness camps. Her enthusiasm reaches beyond explosives: she has been working out how to make a tiny mechanical flower open one petal at a time.",
+        secret = "She has filled several pages with that flower. The last petal keeps sticking in her little trial model. She wants someone to watch when she finally gets it right.",
+        bestFriend = "Stay for the whole thing, will you? Every petal. I want to see your face when the last one opens. I've been saving that moment for us.",
+        favorite = { emote = "CLAP", hint = "An enthusiastic audience can make even a little engineering demonstration feel grand." },
+        lines = {
+            greet = { { "There you are! Come along. I've been staring at one stubborn little part, and my brain could use a run around.", tone = "[bright excitement, quick and lively, friendly]" }, "An outing? Lovely! Are we going somewhere interesting? Of course we are." },
+            idle = { { "Every petal opens in order. Well, that is the idea. The last one still sticks. Don't laugh until you've seen how tiny it is.", tone = "[animated enthusiasm, mock indignation, affectionate humor]" }, "Lilliam can help when a pupil gets beyond what I know.", "I like that moment when all the little parts finally agree with one another." },
+            befriended = { { "You came to take me along! Oh, I like that. Let's go find something worth getting excited about, my friend.", tone = "[delighted, spontaneous affection, eager]" } },
+            poke = { "Careful! I was thinking, and there were several moving parts.", "Yes? Have you spotted something good?" },
+            learned = { { "That's it! Now try it again while you remember how. Oh, I do like seeing someone get the hang of things.", tone = "[excited approval, proud encouragement, lively]" } },
+            quest = { "That should give someone something to talk about!" },
+            loot = { "Ooh. Let me see the fiddly bits." },
+            bagsFull = { "Don't crush the little things under the large things. I may want to look at them." },
+            zone = { "New surroundings. Good! My ideas were starting to go in circles." },
+            rest = { "A campfire! A useful beginning for a bit of outdoor engineering." },
+            hearth = { "Back to the tent. I have thought of something to try on that last petal." },
+        },
+    },
+
     -- Mage Quarter, Stormwind. Tannysa 5566: night elf female herbalism
     -- trainer, discreet Jonespyre referral 3787 in the morrowgrain chain.
     -- Eldraeith 5503: night elf female supplier, goods as an alliance gesture.

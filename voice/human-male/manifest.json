@@ -1316,6 +1316,46 @@
     "text": "Pack for the journey you're taking, not the appetite you had before breakfast.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore4078_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4078",
+    "spoken": "[sincere affection, quietly excited, trusting] I am glad you came back for me. This time I shall hear the story as it happens. Lead on, my friend.",
+    "text": "I am glad you came back for me. This time I shall hear the story as it happens. Lead on, my friend.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4078_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4078",
+    "spoken": "[warm curiosity, thoughtful, welcoming] Ah, my friend. Shall we take a walk? There are places on my map I have only ever heard described.",
+    "text": "Ah, my friend. Shall we take a walk? There are places on my map I have only ever heard described.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4078_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4078",
+    "spoken": "[reflective, hopeful, quiet amusement] Someone described a lovely view to me, then forgot its name. I have left a space on my map. Perhaps we shall find it.",
+    "text": "Someone described a lovely view to me, then forgot its name. I have left a space on my map. Perhaps we shall find it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4078_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:4078",
+    "spoken": "[pleased, interested, warmly encouraging] Well done. When you tell me about it, begin at the beginning. I should hate to miss the interesting part.",
+    "text": "Well done. When you tell me about it, begin at the beginning. I should hate to miss the interesting part.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore465_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

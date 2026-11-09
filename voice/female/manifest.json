@@ -2029,6 +2029,46 @@
     "spoken": "[excited] That's going straight to the good pocket.",
     "text": "That {item} is going straight to the good pocket."
   },
+  "lore11026_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11026",
+    "spoken": "[delighted, spontaneous affection, eager] You came to take me along! Oh, I like that. Let's go find something worth getting excited about, my friend.",
+    "text": "You came to take me along! Oh, I like that. Let's go find something worth getting excited about, my friend.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11026_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11026",
+    "spoken": "[bright excitement, quick and lively, friendly] There you are! Come along. I've been staring at one stubborn little part, and my brain could use a run around.",
+    "text": "There you are! Come along. I've been staring at one stubborn little part, and my brain could use a run around.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11026_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11026",
+    "spoken": "[animated enthusiasm, mock indignation, affectionate humor] Every petal opens in order. Well, that is the idea. The last one still sticks. Don't laugh until you've seen how tiny it is.",
+    "text": "Every petal opens in order. Well, that is the idea. The last one still sticks. Don't laugh until you've seen how tiny it is.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11026_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:11026",
+    "spoken": "[excited approval, proud encouragement, lively] That's it! Now try it again while you remember how. Oh, I do like seeing someone get the hang of things.",
+    "text": "That's it! Now try it again while you remember how. Oh, I do like seeing someone get the hang of things.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore11028_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
