@@ -917,5 +917,19 @@
     "zone": "Desolace",
     "source": "Exact current adult Tauren body, Horde friendly icon and Desolace pin; full own service/quest lists, family/report/centaur branches, all five readable message/note pages and exact gossip reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/desolace-reports-and-cheese-diplomacy.md"
+  },
+  {
+    "npc_id": 3391,
+    "name": "Gazlowe",
+    "zone": "The Barrens",
+    "source": "Exact current adult Goblin identity/body; full pirate/shipment/sponsorship, hat and Forever Bruuz/Rezlak branches plus installed text and literary/Warcraft III boundaries reviewed; neutral/missing access qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/gazlowe-and-modiste.md"
+  },
+  {
+    "npc_id": 15165,
+    "name": "Haughty Modiste",
+    "zone": "Tanaris",
+    "source": "Exact current adult Goblin identity/body; full pirate/shipment/sponsorship, hat and Forever Bruuz/Rezlak branches plus installed text and literary/Warcraft III boundaries reviewed; neutral/missing access qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/gazlowe-and-modiste.md"
   }
 ]

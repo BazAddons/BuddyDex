@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gazlowe, Ratchet, adult male Goblin, 3391/display 7052.
+    -- Orgrimmar construction gossip; pirate/shipment, racing sponsorship,
+    -- Bruuz bounty and Rezlak advice. No later Trade Prince/Horde Council role.
+    -- Private boot-shaped star pattern is ours, not a completed observatory.
+    -- Research: docs/research/gazlowe-and-modiste.md.
+    [3391] = {
+        quote = "Big plans still need the little parts to arrive. Find out where the shipment went before you promise me a miracle.",
+        likes = { "Useful work finished for a fair price", "Pozzik's racing machines", "A clear sky after the docks grow quiet" },
+        dislikes = { "Pirates treating his cargo as theirs", "A missing part holding up a whole job", "Blame without checking the records" },
+        gossip = "Gazlowe has found something above Ratchet that nobody can charge him to store. He has been looking upward after dark.",
+        bio = "Gazlowe runs his operation in Ratchet after helping build Orgrimmar. He hires help against pirates, tracks missing shipments and supports Pozzik's racers. His plans include an observatory; a missing lens is one more delivery to recover.",
+        backstory = "Waiting for a late shipment, Gazlowe looked up and thought a patch of stars resembled a boot. He tried pointing it out. Nobody agreed. He kept looking anyway; at least this particular boot could not be stolen from his warehouse.",
+        secret = "He has stopped trying to prove the stars form a boot. The shape changes whenever he explains it. Looking up is still pleasant, especially with someone who does not need convincing.",
+        bestFriend = "Come stand here a minute. No ledger, no invoice. You do not have to see the boot. I just like having someone beside me while I look.",
+        favorite = { emote = "THANK", hint = "Appreciates useful work being acknowledged without turning it into another negotiation." },
+        lines = {
+            greet = { { "Good, somebody I can count on. Come along. We can talk as we go, and if a useful opportunity turns up, we will give it a proper look before promising the whole afternoon to it.", tone = "[brisk] [friendly]" },
+                "There you are. Tell me what you know, and what still needs checking." },
+            idle = { { "There is a patch of stars over Ratchet that looks a little like a boot. Well, it did when I first noticed it. Explaining the shape has not improved matters. Still, nobody can charge me warehouse fees for looking.", tone = "[wry] [reflective]" },
+                "Check the records before deciding who lost the shipment.",
+                "A whole observatory can end up waiting for one small lens." },
+            befriended = { { "You have earned my trust, and I am glad when you turn up without a job to discuss. That is worth saying plainly. Stay a while. Today, the company itself is a perfectly good reason.", tone = "[warm] [sincere]" } },
+            poke = { "What is it? Give me the useful part first.", "Yes? I am listening. You do not need to check whether I am solid." },
+            quest = { { "Good work. People think running a port is easy until the conversation reaches pirates, missing cargo, and a shark called Bruuz. You kept your side of the arrangement. Time I kept mine. That is how useful business gets done.", tone = "[approving] [wry]" } },
+            loot = { "Keep the small parts together. They are always the ones that hold up the big idea." },
+            bagsFull = { "Before we hire a wagon, see what actually needs carrying." },
+            mail = { "An address, a clear record, and then we can argue with the delivery." },
+            rest = { "A short stop. We can spare it without declaring the whole operation closed." },
+            combatEnd = { "Everyone accounted for? Good. Then we can work out what this has cost us." },
+            hearth = { "Back to Ratchet. Let us hope the next shipment brings fewer surprises." },
+        },
+    },
+
+    -- Haughty Modiste <Fashion Designer>, Tanaris, adult female Goblin.
+    -- NPC 15165/display 15300. Pirate Hats Ahoy! 8365: pristine hats,
+    -- cleaning/customization for profitable resale; prickly, patronizing voice.
+    -- Respect for someone enjoying an awful hat is ours. No retail relocation.
+    -- Research: docs/research/gazlowe-and-modiste.md.
+    [15165] = {
+        quote = "Stand properly. If you insist on making an impression, at least let me see what sort of disaster we are starting with.",
+        likes = { "Pirate hats in pristine condition", "Customers who pay without gasping", "Confidence worn remarkably well" },
+        dislikes = { "Grime presented as character", "A promising hat crushed in a bag", "Being hurried through a judgment" },
+        gossip = "Modiste studied a truly dreadful hat for an unusually long time. Whether she admired anything about it remains a sensitive question.",
+        bio = "Haughty Modiste is a fashion designer at Steamwheedle Port. She commissions pirate hats from Lost Rigger Cove, then cleans and customizes them for profitable resale. Her opinion of the customer rarely arrives wrapped gently.",
+        backstory = "A visitor once arrived in a lopsided hat and looked utterly delighted with it. Modiste prepared a devastating remark, then paused. The hat remained dreadful, but its wearer made looking pleased seem almost fashionable.",
+        secret = "She admired the confidence, not the hat. That distinction matters enormously. In private, she wonders whether she could enjoy a mistake without immediately improving it.",
+        bestFriend = "That is a dreadful hat. You look delighted. Very well, perhaps we have found your style. Do not expect me to put that in writing.",
+        favorite = { emote = "BOW", hint = "Expects a proper acknowledgment when someone has benefited from her expertise." },
+        lines = {
+            greet = { { "There you are. Stand up properly and let me look at you. Yes, we can work with that. Come along, darling. If nothing else, the scenery may give your outfit a more sympathetic background.", tone = "[haughty] [playful]" },
+                "Do try to keep up. I cannot make every pause look intentional." },
+            idle = { { "I once saw someone looking perfectly delighted in a dreadful hat. Lopsided, too. I had a remark prepared, but the confidence rather spoiled it. An irritatingly successful effect. I am still considering the matter.", tone = "[dry] [thoughtful]" },
+                "Pristine condition. Such a simple request, and yet it causes endless confusion.",
+                "A little confidence helps. A little taste would also be welcome." },
+            befriended = { { "You return even after hearing my honest opinion. More surprisingly, I find myself pleased to see you. Do not look so triumphant, darling. Walk beside me before I decide this requires a more critical assessment.", tone = "[wry] [warm]" } },
+            poke = { "Yes? I do hope this is worth interrupting the thought.", "Careful. You are distracting an expert." },
+            loot = { { "If that is a hat, do not stuff it beneath everything else. A crushed brim does not become charming because you call it practical. Give it some room, darling. Even your luggage should recognize a priority.", tone = "[firm] [dryly amused]" } },
+            bagsFull = { "Something in that bag must be less important than preserving a good shape." },
+            rest = { "A pause. Good. Now you can stop moving long enough for the outfit to recover." },
+            quest = { "Acceptable work. Let us both enjoy the rarity of that sentence." },
+            zone = { "A new setting. We shall see whether it flatters anyone." },
+            levelUp = { "Improvement. I am pleased to see you taking the idea seriously." },
+            hearth = { "Home. Try to arrive looking as though you meant to be seen." },
+        },
+    },
+
     -- Nataka Longhorn, Ghost Walker Post, adult male Tauren, 11259/11469.
     -- Family Tree 5361: Cliffwatcher's brother; report about centaur activity.
     -- Catch of the Day 5386: Bloodbelly fish, Jinar'Zillen referral, appetite.

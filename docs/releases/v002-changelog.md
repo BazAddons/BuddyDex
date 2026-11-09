@@ -2,12 +2,13 @@
 
 ## More friends across Azeroth
 
+- Add Gazlowe and Haughty Modiste, with researched personalities, fifteen personal lines and four approved original Goblin v4 recordings each.
 - Add Nataka Longhorn and Innkeeper Sikewa, with full Desolace personalities, fifteen personal lines and four approved Tauren v4 recordings each.
 - Add Jinar'Zillen and Mai'Lahii in Shadowprey Village, with full personalities, fifteen personal lines and four approved Troll v4 recordings each.
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **336 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **338 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

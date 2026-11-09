@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](gazlowe-and-modiste.md). The plan and progress notes below are historical.
+
 # Next: Gazlowe and Haughty Modiste
 
 Identity shortlist, 2026-11-09. Expand the small Goblin roster with male/female adults: Ratchet's familiar quest contact and a Tanaris fashion designer. Neither profile is authored or recorded yet; no personal Scout sighting is claimed.

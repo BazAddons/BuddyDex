@@ -79,6 +79,46 @@
     "text": "Off we go. It is rather pleasant being the one who gets to travel for a change. I may enjoy the view before I think of another useful thing to tell the passenger.",
     "voice_id": "GK7FvLcUviYyxNu6jR0D"
   },
+  "lore15165_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:15165",
+    "spoken": "[wry] [warm] You return even after hearing my honest opinion. More surprisingly, I find myself pleased to see you. Do not look so triumphant, darling. Walk beside me before I decide this requires a more critical assessment.",
+    "text": "You return even after hearing my honest opinion. More surprisingly, I find myself pleased to see you. Do not look so triumphant, darling. Walk beside me before I decide this requires a more critical assessment.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore15165_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:15165",
+    "spoken": "[haughty] [playful] There you are. Stand up properly and let me look at you. Yes, we can work with that. Come along, darling. If nothing else, the scenery may give your outfit a more sympathetic background.",
+    "text": "There you are. Stand up properly and let me look at you. Yes, we can work with that. Come along, darling. If nothing else, the scenery may give your outfit a more sympathetic background.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore15165_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:15165",
+    "spoken": "[dry] [thoughtful] I once saw someone looking perfectly delighted in a dreadful hat. Lopsided, too. I had a remark prepared, but the confidence rather spoiled it. An irritatingly successful effect. I am still considering the matter.",
+    "text": "I once saw someone looking perfectly delighted in a dreadful hat. Lopsided, too. I had a remark prepared, but the confidence rather spoiled it. An irritatingly successful effect. I am still considering the matter.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore15165_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:15165",
+    "spoken": "[firm] [dryly amused] If that is a hat, do not stuff it beneath everything else. A crushed brim does not become charming because you call it practical. Give it some room, darling. Even your luggage should recognize a priority.",
+    "text": "If that is a hat, do not stuff it beneath everything else. A crushed brim does not become charming because you call it practical. Give it some room, darling. Even your luggage should recognize a priority.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
   "lore9316_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

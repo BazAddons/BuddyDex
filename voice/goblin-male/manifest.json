@@ -1,4 +1,44 @@
 {
+  "lore3391_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3391",
+    "spoken": "[warm] [sincere] You have earned my trust, and I am glad when you turn up without a job to discuss. That is worth saying plainly. Stay a while. Today, the company itself is a perfectly good reason.",
+    "text": "You have earned my trust, and I am glad when you turn up without a job to discuss. That is worth saying plainly. Stay a while. Today, the company itself is a perfectly good reason.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3391_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3391",
+    "spoken": "[brisk] [friendly] Good, somebody I can count on. Come along. We can talk as we go, and if a useful opportunity turns up, we will give it a proper look before promising the whole afternoon to it.",
+    "text": "Good, somebody I can count on. Come along. We can talk as we go, and if a useful opportunity turns up, we will give it a proper look before promising the whole afternoon to it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3391_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3391",
+    "spoken": "[wry] [reflective] There is a patch of stars over Ratchet that looks a little like a boot. Well, it did when I first noticed it. Explaining the shape has not improved matters. Still, nobody can charge me warehouse fees for looking.",
+    "text": "There is a patch of stars over Ratchet that looks a little like a boot. Well, it did when I first noticed it. Explaining the shape has not improved matters. Still, nobody can charge me warehouse fees for looking.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3391_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3391",
+    "spoken": "[approving] [wry] Good work. People think running a port is easy until the conversation reaches pirates, missing cargo, and a shark called Bruuz. You kept your side of the arrangement. Time I kept mine. That is how useful business gets done.",
+    "text": "Good work. People think running a port is easy until the conversation reaches pirates, missing cargo, and a shark called Bruuz. You kept your side of the arrangement. Time I kept mine. That is how useful business gets done.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3442_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

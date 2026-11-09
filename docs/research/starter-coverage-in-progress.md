@@ -258,3 +258,10 @@ Nataka Longhorn and Innkeeper Sikewa bring development to **336 complete profile
 Next: [Gazlowe and Haughty Modiste](gazlowe-and-modiste-queue.md), adult male/female Goblin quest/fashion contacts. Exact current bodies/identities checked; neutral versus missing access and later retail chronology require care. Full personal source review remains pending. No authored profile or Scout encounter is claimed yet.
 
 Preserving the next Goblin identities expands the overlapping combined catalog to **1,502 name groups**, 1,515 retained entries and 84 local identities absent from the original source. These overlap completed profiles and must not be added as extra NPC totals.
+
+
+## Gazlowe and Haughty Modiste completed
+
+Gazlowe and Haughty Modiste bring development to **338 complete profiles**, each with fifteen personal lines and four approved original Goblin v4 signatures. [Full research](gazlowe-and-modiste.md) covers complete pirate/cargo/racing/hat branches, Bruuz and Rezlak's new orb sequence, readable-item checks and Warcraft III/literary boundaries. Neither later Trade Prince leadership nor retail Modiste relocation is invented; conditional neutral/missing access stays qualified. Public access totals are 192 Alliance, 64 Horde and 88 unverified, with six shared profiles overlapping faction counts. Authored Goblins now total ten, including another female. Publication remains deferred; wider catalog and two old Westfall availability checks remain open.
+
+Next: [Cliffwatcher Longhorn and Innkeeper Abeqwa](freewind-cliffwatcher-and-abeqwa-queue.md), two verified adult male Tauren contacts at Freewind Post. Current bodies, levels, Horde friendly icons and pins are checked; full own review remains pending. Later betrayal, corpse IDs and flooding are not assumed present.

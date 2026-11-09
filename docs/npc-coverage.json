@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 336,
+  "completed_profiles": 338,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 86,
+    "unverified": 88,
     "horde": 64
   },
   "npc_race_counts": {
@@ -16,7 +16,7 @@
     "6": 22,
     "2": 19,
     "8": 15,
-    "9": 8,
+    "9": 10,
     "96": 3,
     "95": 5
   },
@@ -34,12 +34,13 @@
     "Thunder Bluff": 7,
     "Durotar": 15,
     "Orgrimmar": 13,
-    "The Barrens": 13,
+    "The Barrens": 14,
     "Stonetalon Mountains": 1,
     "Silverpine Forest": 1,
     "Desolace": 4,
     "Winterspring": 1,
     "Deeprun Tram": 3,
+    "Tanaris": 1,
     "Zephras Isle": 8
   },
   "entries": [
@@ -2345,6 +2346,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3389"
     },
     {
+      "npc_id": 3391,
+      "name": "Gazlowe",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3391"
+    },
+    {
       "npc_id": 3401,
       "name": "Shenthul",
       "zone": "Orgrimmar",
@@ -3960,6 +3972,17 @@
       ],
       "reaction_evidence": "Neutral",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14842"
+    },
+    {
+      "npc_id": 15165,
+      "name": "Haughty Modiste",
+      "zone": "Tanaris",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15165"
     },
     {
       "npc_id": 15659,

@@ -602,6 +602,20 @@
       "zone": "Tanaris",
       "route": "Male/female Goblin quest and fashion contacts",
       "reason": "Exact current adult Goblin bodies and identities checked; Gazlowe neutral Barrens pin and Modiste historical Tanaris location with missing current access/pin qualified. Full own source and chronology review pending. See docs/research/gazlowe-and-modiste-queue.md"
+    },
+    {
+      "npc_id": 10537,
+      "name": "Cliffwatcher Longhorn",
+      "zone": "Thousand Needles",
+      "route": "Freewind Post quest and innkeeper contacts",
+      "reason": "Exact current adult male Tauren bodies, levels, friendly Horde icons and regional pins checked. Full own current/service/gossip/literary research pending; distinguish later betrayal/death and NPC IDs. See docs/research/freewind-cliffwatcher-and-abeqwa-queue.md"
+    },
+    {
+      "npc_id": 11116,
+      "name": "Innkeeper Abeqwa",
+      "zone": "Thousand Needles",
+      "route": "Freewind Post quest and innkeeper contacts",
+      "reason": "Exact current adult male Tauren bodies, levels, friendly Horde icons and regional pins checked. Full own current/service/gossip/literary research pending; distinguish later betrayal/death and NPC IDs. See docs/research/freewind-cliffwatcher-and-abeqwa-queue.md"
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Gazlowe and Haughty Modiste: full Goblin profiles, fifteen personal lines and four approved Eleven v4 signatures each. Research complete pirate/cargo/racing/hat branches and Forever Bruuz/Rezlak additions, with Warcraft III and literary-era boundaries preserved. Development now has 338 complete profiles.
+
 - Complete Nataka Longhorn and Innkeeper Sikewa: full Desolace profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research the actual brother/report relationship, complete centaur/Grimtotem context and five readable pages; preserve current inn stock and exclude later retail betrayal knowledge. Development now has 336 complete profiles.
 
 - Complete Jinar'Zillen and Mai'Lahii: full Shadowprey profiles, fifteen personal lines and four approved Troll Eleven v4 signatures each. Read full fish/clam requests and actual gossip, preserve current stock changes and qualify missing quest endpoints without importing Cataclysm branches. Development now has 334 complete profiles.
