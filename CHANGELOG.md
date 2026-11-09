@@ -22,7 +22,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 - Choose an NPC at Buddy tier or higher to take your Mini Me's place on screen.
 - Enjoy companion dialogue, animations, and recorded voices for supported NPC races.
-- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, and Dungar Longdrink, with personal companion recordings.
+- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, and William Pestle, with personal companion recordings.
 
 ### Make It Your Own
 

@@ -83,6 +83,45 @@ ns.Lore = {
         },
     },
 
+    -- William Pestle, Lion's Pride Inn, Goldshire. Human, male; NPC 253.
+    -- Facts: runs Pestle's Apothecary with his brother Morgan in Stormwind;
+    -- gathers kobold candle wax and sends Morgan a shipment (60 -> 61).
+    -- Gramma Stonefield is his old friend Mildred (Note to William, 107).
+    -- He remembers young love and brews invisibility liquor from crystal
+    -- kelp to help Maybell visit Tommy Joe (112 -> 114). No later marriage
+    -- outcome, identity for William's old love, or extra relatives invented.
+    -- Poetry, notebook habits and companion lines are BuddyDex fiction.
+    -- Sources and quest-text notes: docs/research/william-pestle.md.
+    [253] = {
+        quote = "Some troubles need a careful mixture. Others need someone willing to carry a letter. I keep supplies for both.",
+        likes = { "Correctly labeled bottles", "A letter sealed with care", "Young love with a sensible plan" },
+        dislikes = { "Drinking before reading the label", "Wax spilled over the accounts", "A family feud nobody will explain" },
+        gossip = "William guards his recipe book as if it holds the kingdom's secrets. Morgan says some pages don't contain a single measurement.",
+        bio = "William gathers candle wax in Goldshire for the apothecary he runs with Morgan in Stormwind. "
+            .. "An old friend of Mildred Stonefield, he puts his alchemy to work helping Maybell and Tommy Joe find a way around their families' feud.",
+        backstory = "Apothecary work taught William that ordinary things deserve care: a sound cork, clean wax, a "
+            .. "legible note. He still remembers being young and in love. When Mildred asks for help, he sees a problem worth more than another sale.",
+        secret = "Between the recipes are his attempts at love poetry. He labels them experimental formulas. So far, every rhyme for kelp has required considerable help.",
+        bestFriend = "You can read the notebook. Even the dreadful verses. A friend who carries your secrets deserves to hear a few of mine.",
+        favorite = { emote = "LOVE", hint = "A hopeless romantic beneath all those ingredient lists." },
+        lines = {
+            greet = { { "Ah, my traveling associate! Clean hands, I trust?", tone = "[warmly]" },
+                "A little fieldwork! Keep the stoppers in while we're walking." },
+            idle = { { "If only family feuds dissolved as easily as candle wax.", tone = "[thoughtfully]" },
+                "Kelp, help... no. Still a dreadful rhyme.",
+                "Morgan would call this a business trip. Saves explaining the notebook." },
+            befriended = { { "A trusted friend! Someone I can hand a sealed letter without a second thought.", tone = "[warmly]" } },
+            poke = { "Careful! That's the pocket with the glassware.", "Yes? If you've brought kelp, please say so." },
+            quest = { { "A useful day's work. I hope we've made someone's life a little easier.", tone = "[pleased]" } },
+            loot = { "A specimen? Wrap it separately from the lunch, please." },
+            mail = { "A letter! Check the seal before you get carried away." },
+            bagsFull = { "Labels facing out. You'll find more room than you think." },
+            levelUp = { "Progress! And without setting anything on fire. Splendid." },
+            combatEnd = { "Everyone in one piece? Good. Check the bottles next." },
+            hearth = { "Back to the inn? I ought to check on that batch." },
+        },
+    },
+
     -- Dungar Longdrink <Gryphon Master>, Stormwind. Human, male; NPC 352.
     -- Facts: Stormwind flight master; Classic courier chain 6181 -> 6281
     -- -> 6261 -> 6285 links Lewis, Thor, Osric and Dungar. His progress

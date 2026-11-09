@@ -134,6 +134,42 @@
     "spoken": "[excited] Different roads, same rule: know where your people are.",
     "text": "Different roads, same rule: know where your people are."
   },
+  "lore253_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:253",
+    "spoken": "[warmly] A trusted friend! Someone I can hand a sealed letter without a second thought.",
+    "text": "A trusted friend! Someone I can hand a sealed letter without a second thought."
+  },
+  "lore253_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:253",
+    "spoken": "[warmly] Ah, my traveling associate! Clean hands, I trust?",
+    "text": "Ah, my traveling associate! Clean hands, I trust?"
+  },
+  "lore253_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:253",
+    "spoken": "[thoughtfully] If only family feuds dissolved as easily as candle wax.",
+    "text": "If only family feuds dissolved as easily as candle wax."
+  },
+  "lore253_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:253",
+    "spoken": "[pleased] A useful day's work. I hope we've made someone's life a little easier.",
+    "text": "A useful day's work. I hope we've made someone's life a little easier."
+  },
   "lore295_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
