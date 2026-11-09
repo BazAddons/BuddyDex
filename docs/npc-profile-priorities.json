@@ -287,6 +287,20 @@
       "zone": "The Barrens",
       "route": "Crossroads Horde quest and travel services",
       "reason": "Adult female Orc exact current identity/model and Crossroads pin verified; current Horde-icon Neutral listing is not a friendly/non-attackable guarantee; full hunting chains and access review pending. See docs/research/crossroads-flight-and-hunt-queue.md"
+    },
+    {
+      "npc_id": 3184,
+      "name": "Miao'zan",
+      "zone": "Durotar",
+      "route": "Senjin/Darkspear profession services research",
+      "reason": "Exact current adult male Troll alchemist identity/model and Durotar pin verified; reaction icon absent; full services/quests/current access pending. See docs/research/senjin-alchemy-and-fishing-queue.md"
+    },
+    {
+      "npc_id": 5941,
+      "name": "Lau'Tiki",
+      "zone": "Durotar",
+      "route": "Senjin/Darkspear profession services research",
+      "reason": "Published Forever exact-name Fisherman page confirms Durotar training/ending lead, but current Warcraft DB node returned 404; current identity/duplicate resolution, adult model and full fishing/camping access review pending; do not use rejected generic ID 3180. See docs/research/senjin-alchemy-and-fishing-queue.md"
     }
   ]
 }

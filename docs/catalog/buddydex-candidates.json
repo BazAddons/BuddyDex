@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 70,
-    "combined_retained_entries": 1501,
-    "candidate_name_groups": 1488,
+    "local_backlog_entries_missing_from_source": 72,
+    "combined_retained_entries": 1503,
+    "candidate_name_groups": 1490,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -20594,6 +20594,23 @@
       ]
     },
     {
+      "name": "Lau'Tiki",
+      "npc_ids": [
+        5941
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 5941,
+          "name": "Lau'Tiki",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Lauren Newcomb",
       "npc_ids": [
         4558
@@ -23632,6 +23649,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Miao'zan",
+      "npc_ids": [
+        3184
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3184,
+          "name": "Miao'zan",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39518,6 +39552,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 3184,
+      "name": "Miao'zan",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5941,
+      "name": "Lau'Tiki",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,
