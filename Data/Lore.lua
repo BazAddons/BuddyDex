@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mage Quarter, Stormwind. Tannysa 5566: night elf female herbalism
+    -- trainer, discreet Jonespyre referral 3787 in the morrowgrain chain.
+    -- Eldraeith 5503: night elf female supplier, goods as an alliance gesture.
+    -- Maria Lumere 1313: human female alchemy supplier, local craftspeople
+    -- filling shortages after Dalaran/Quel'Thalas. Original question list,
+    -- craft keepsakes and sunlight hooks: docs/research/alchemy-suppliers.md.
+    [5566] = {
+        quote = "You may interrupt. Have a question worth the interruption, and we can both make good use of the time.",
+        likes = { "An observation made with care", "A question that deserves research", "Discretion when a colleague asks for it" },
+        dislikes = { "Interruptions without a purpose", "Authority offered instead of evidence", "Careless handling of a useful specimen" },
+        gossip = "Tannysa is very sure of what she knows. A page of unanswered questions suggests she is just as serious about what she doesn't.",
+        bio = "Tannysa teaches herbalism outside Alchemy Needs in Stormwind. She takes pride in her expertise. When morrowgrain research raises concerns, she discreetly directs help to her colleague Quintis Jonespyre at Feathermoon Stronghold.",
+        backstory = "Jonespyre wants to examine the morrowgrain collected for Staghelm, away from the Arch Druid's attention. Tannysa helps make the introduction. Her confidence in her own skill leaves room for a colleague asking an uncomfortable question.",
+        secret = "She keeps a list of questions she cannot yet answer. She doesn't show it to every learner. Adding a good question pleases her almost as much as crossing one off.",
+        bestFriend = "You may ask what I don't know. Just stay while I consider the answer. It is a pleasure to think beside someone I trust.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment shows that someone is actually following her explanation." },
+        lines = {
+            greet = { { "There you are. If we are going out, let us notice something worth asking about. I dislike wasting a good interruption.", tone = "[self-possessed, sharp curiosity, lightly amused]" }, "Good. A change of surroundings may improve the question I've been considering." },
+            idle = { { "Yes, there are questions on that page I cannot answer. Yet. I would be a poor researcher if I stopped finding them.", tone = "[quiet confidence, candid, dry humor]" }, "A careful observation is worth more than a grand assertion.", "Some questions belong in a quieter conversation." },
+            befriended = { { "You listen, and you ask something worth answering. I find myself looking forward to your visits. Come along, my friend.", tone = "[reserved affection, sincere warmth, welcoming]" } },
+            poke = { "Was there a question attached to that?", "Yes? I trust this is for a good cause." },
+            learned = { { "Good. Now test what you think you understand against what you actually observe. There is always another question.", tone = "[firm encouragement, focused, approving]" } },
+            loot = { "An interesting specimen? Keep it where it will remain useful." },
+            bagsFull = { "A collection improves considerably when its owner knows what is in it." },
+            zone = { "New ground. Keep your eyes open before deciding what you already know." },
+            quest = { "A little more evidence. Tell me what you found." },
+            rest = { "Yes. A pause may improve the quality of the conversation." },
+            hearth = { "Back to my work. Perhaps the answer will look clearer now." },
+        },
+    },
+    [5503] = {
+        quote = "There are hands behind good work. I like it when a customer has time to ask about them.",
+        likes = { "Careful craftwork across the sea", "Curiosity about the maker", "A small example of Stormwind skill" },
+        dislikes = { "Fine work handled carelessly", "Calling ordinary supplies unimportant", "A maker's effort dismissed at a glance" },
+        gossip = "Eldraeith speaks proudly of Teldrassil's work. Her own small collection seems to include some very ordinary human-made things.",
+        bio = "Eldraeith sells herbalism supplies at Alchemy Needs in Stormwind. She describes goods from Teldrassil as a gesture of the growing alliance between night elves and humans. Helping someone choose them is a small part of that connection.",
+        backstory = "The work she offers has crossed from Kalimdor to this city. Eldraeith values the skill behind it as much as the journey. Working among humans has given her an interest in what their craftspeople make in return.",
+        secret = "She saves small pieces of human craftwork to take west someday. Nothing rare: an ordinary button can tell a fine story about the hands that shaped it.",
+        bestFriend = "Tell me about something you made. It needn't be grand. I like seeing the work through the eyes of someone I care about.",
+        favorite = { emote = "THANK", hint = "A little gratitude recognizes the effort behind something that traveled a long way." },
+        lines = {
+            greet = { { "Good to see you, my friend. Shall we look around? There is always some little piece of work I have not noticed yet.", tone = "[warm dignity, curious, welcoming]" }, "There you are. What have you found in the city today?" },
+            idle = { { "The button is human work. Quite ordinary, yes. I would like to take a little of this city's skill west with me someday.", tone = "[fond interest, reflective, quiet pride]" }, "A maker need not be famous to have done something well.", "The little things carry a great deal of patient work." },
+            befriended = { { "A friend to share the discoveries with. I am glad. Come along. You may notice something I would have walked past.", tone = "[sincere affection, pleased, gently inviting]" } },
+            poke = { "Yes? Is there something you would like me to see?", "Gently, my friend. I am listening." },
+            loot = { { "Look at the work in that. Before we decide what it is worth, let us notice how it was made.", tone = "[attentive curiosity, appreciative, thoughtful]" } },
+            mail = { "A little news across the distance, perhaps." },
+            zone = { "Another place with its own work and its own stories. Let us take time to see them." },
+            bagsFull = { "Keep the fragile things apart from the heavy ones." },
+            quest = { "Work done with care. Someone will be glad of it." },
+            rest = { "A quiet seat sounds good. Tell me what you noticed today." },
+            hearth = { "Back to the shop. There may be someone with a question worth hearing." },
+        },
+    },
+    [1313] = {
+        quote = "A small bottle can be an important beginning. Tell me what you need before you decide the ordinary things aren't worth asking about.",
+        likes = { "Good work from Stormwind's crafters", "A supply order arriving intact", "Sunlight through an ordinary empty vial" },
+        dislikes = { "A fragile parcel packed carelessly", "Promising stock before it arrives", "Calling small supplies beneath notice" },
+        gossip = "Maria can be very serious about a shipment. Then sunlight catches an empty vial, and she seems happy to pause over almost nothing.",
+        bio = "Maria Lumere sells alchemy supplies at Alchemy Needs in Stormwind's Mage Quarter. Her trade has felt the loss of goods from Dalaran and Quel'Thalas. She praises Lucan Cordell and other local craftspeople for helping fill the city's orders.",
+        backstory = "Scarce supplies made dependable local work matter even more. Maria learned to value the ordinary pieces that let another person's work begin. A completed order is welcome news, especially when the delicate things arrive as they should.",
+        secret = "Her favorite bit of arcane splendor is sunlight through an ordinary empty vial. She knows there's no enchantment. She enjoys the little patch of color anyway.",
+        bestFriend = "Stay a moment. Look where the light falls. We can enjoy something without pricing it, packing it or finding a use for it.",
+        favorite = { emote = "SMILE", hint = "A cheerful expression is quite enough appreciation for a small, pretty moment." },
+        lines = {
+            greet = { { "There you are. An outing sounds lovely. I could use a little daylight that doesn't arrive through the shop window.", tone = "[practical warmth, cheerful, welcoming]" }, "Good to see you. Everything you needed accounted for? Then let's enjoy the rest of the day." },
+            idle = { { "No enchantment. Just sunlight through an empty vial. I know perfectly well what it is. I like the little patch of color.", tone = "[contented, gently amused, personal warmth]" }, "An order filled here in Stormwind is something to appreciate.", "The ordinary little things are often what someone needs before they can start." },
+            befriended = { { "You came for the company. I'm glad. Put the errands aside for a while, and let's see what the day has left for us.", tone = "[sincere affection, pleased, relaxed]" } },
+            poke = { "Careful. Some of the things I handle are rather delicate.", "Yes? Did we miss something on the list?" },
+            loot = { { "Something useful? Keep it safe. And if it only happens to be pretty, you're allowed to enjoy that too.", tone = "[encouraging, lightly playful, warm]" } },
+            bagsFull = { "Mind the glass before you start squeezing another thing into that pack." },
+            mail = { "A shipment, perhaps. I hope it had a quiet journey." },
+            learned = { "Good. Now you'll know which little supplies matter to the work." },
+            rest = { "A seat and a little light. That's a pleasant sort of break." },
+            zone = { "Somewhere new. I wonder what people make here." },
+            quest = { "An order seen through. A good feeling, isn't it?" },
+        },
+    },
+
     -- Alchemy Needs, Mage Quarter, Stormwind. Night elves: Lilyssia 5499,
     -- female Expert Alchemist; Tel'Athir 5500, male Journeyman Alchemist.
     -- Installed gossip: her duty to teach conflicts with wanting to fight;

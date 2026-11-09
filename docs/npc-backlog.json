@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 102,
-  "remaining_count": 115,
+  "completed_count": 105,
+  "remaining_count": 112,
   "completed": [
     {
       "npc_id": 54,
@@ -362,6 +362,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1313,
+      "name": "Maria Lumere",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1427,
       "name": "Harlan Bagley",
       "zone": "Stormwind City",
@@ -587,6 +596,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 5503,
+      "name": "Eldraeith",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5518,
       "name": "Lilliam Sparkspindle",
       "zone": "Stormwind City",
@@ -616,6 +634,15 @@
     {
       "npc_id": 5565,
       "name": "Jillian Tanner",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5566,
+      "name": "Tannysa",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1188,13 +1215,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5503,
-      "name": "Eldraeith",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 3627,
       "name": "Erich Lohan",
       "zone": "Stormwind City",
@@ -1330,13 +1350,6 @@
     {
       "npc_id": 14394,
       "name": "Major Mattingly",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1313,
-      "name": "Maria Lumere",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1484,13 +1497,6 @@
     {
       "npc_id": 1415,
       "name": "Suzanne",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5566,
-      "name": "Tannysa",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

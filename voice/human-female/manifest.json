@@ -279,6 +279,46 @@
     "text": "Look at you. Another skill to your name! You'll have to show me how it's done when we have a moment.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1313_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1313",
+    "spoken": "[sincere affection, pleased, relaxed] You came for the company. I'm glad. Put the errands aside for a while, and let's see what the day has left for us.",
+    "text": "You came for the company. I'm glad. Put the errands aside for a while, and let's see what the day has left for us.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1313_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1313",
+    "spoken": "[practical warmth, cheerful, welcoming] There you are. An outing sounds lovely. I could use a little daylight that doesn't arrive through the shop window.",
+    "text": "There you are. An outing sounds lovely. I could use a little daylight that doesn't arrive through the shop window.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1313_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1313",
+    "spoken": "[contented, gently amused, personal warmth] No enchantment. Just sunlight through an empty vial. I know perfectly well what it is. I like the little patch of color.",
+    "text": "No enchantment. Just sunlight through an empty vial. I know perfectly well what it is. I like the little patch of color.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1313_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1313",
+    "spoken": "[encouraging, lightly playful, warm] Something useful? Keep it safe. And if it only happens to be pretty, you're allowed to enjoy that too.",
+    "text": "Something useful? Keep it safe. And if it only happens to be pretty, you're allowed to enjoy that too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1428_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

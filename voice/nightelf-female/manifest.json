@@ -39,6 +39,86 @@
     "text": "Good. Now carry that knowledge farther than the room where you learned it. I would like to hear what you make of it.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore5503_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5503",
+    "spoken": "[sincere affection, pleased, gently inviting] A friend to share the discoveries with. I am glad. Come along. You may notice something I would have walked past.",
+    "text": "A friend to share the discoveries with. I am glad. Come along. You may notice something I would have walked past.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5503_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5503",
+    "spoken": "[warm dignity, curious, welcoming] Good to see you, my friend. Shall we look around? There is always some little piece of work I have not noticed yet.",
+    "text": "Good to see you, my friend. Shall we look around? There is always some little piece of work I have not noticed yet.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5503_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5503",
+    "spoken": "[fond interest, reflective, quiet pride] The button is human work. Quite ordinary, yes. I would like to take a little of this city's skill west with me someday.",
+    "text": "The button is human work. Quite ordinary, yes. I would like to take a little of this city's skill west with me someday.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5503_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5503",
+    "spoken": "[attentive curiosity, appreciative, thoughtful] Look at the work in that. Before we decide what it is worth, let us notice how it was made.",
+    "text": "Look at the work in that. Before we decide what it is worth, let us notice how it was made.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5566_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5566",
+    "spoken": "[reserved affection, sincere warmth, welcoming] You listen, and you ask something worth answering. I find myself looking forward to your visits. Come along, my friend.",
+    "text": "You listen, and you ask something worth answering. I find myself looking forward to your visits. Come along, my friend.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5566_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5566",
+    "spoken": "[self-possessed, sharp curiosity, lightly amused] There you are. If we are going out, let us notice something worth asking about. I dislike wasting a good interruption.",
+    "text": "There you are. If we are going out, let us notice something worth asking about. I dislike wasting a good interruption.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5566_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5566",
+    "spoken": "[quiet confidence, candid, dry humor] Yes, there are questions on that page I cannot answer. Yet. I would be a poor researcher if I stopped finding them.",
+    "text": "Yes, there are questions on that page I cannot answer. Yet. I would be a poor researcher if I stopped finding them.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5566_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5566",
+    "spoken": "[firm encouragement, focused, approving] Good. Now test what you think you understand against what you actually observe. There is always another question.",
+    "text": "Good. Now test what you think you understand against what you actually observe. There is always another question.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
