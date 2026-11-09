@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Witch Doctor Jin'Zil, Malaka'jin, adult male Troll, 3995/display 4104.
+    -- Forest Magic 1058: cruel brew for captive elves; 1060/letter 5594:
+    -- Darsok's old friend, recalls his friend Rokhan's earlier expedition.
+    -- Practiced cackle timing is ours. No invented healing or redemption.
+    -- Research: docs/research/stonetalon-cackles-and-axe-jokes.md.
+    [3995] = {
+        quote = "Ingredients are useful. An audience that knows when to shiver is a pleasure of its own.",
+        likes = { "A carefully gathered set of ingredients", "News from old friends", "A laugh with a properly ominous pause" },
+        dislikes = { "Interruptions beside the cauldron", "Elven boasts about the power of nature", "Spoiling the pause before the laugh" },
+        gossip = "Jin'Zil has been laughing at an empty corner of his cave, then starting again. Apparently, the pause needs work.",
+        bio = "Witch Doctor Jin'Zil works in a cave at Malaka'jin. His forest-magic request gathers ingredients for a cruel brew aimed at captive elves. Darsok Swiftdagger is an old friend; Jin'Zil also speaks of his friend Rokhan.",
+        backstory = "An echo once returned Jin'Zil's laugh with a very satisfying delay. He tried to reproduce it, changing where he stood and how long he waited. Now even an empty cave can provide him with a thoroughly occupied afternoon.",
+        secret = "When practicing, he sometimes enjoys the coming laugh so much that he starts before the dramatic pause is finished. He insists the fault lies with the echo, which lacks discipline.",
+        bestFriend = "You know when to listen and when to join the laugh. Sit, mon. I would rather have a good audience than another argument with the echo.",
+        favorite = { emote = "GRIN", hint = "Recognizes someone willing to share his wicked sense of humor." },
+        lines = {
+            greet = { { "There you are, mon. Come along, and do not speak over the interesting part. Every little pause has its purpose. Sometimes I am thinking. Sometimes I am giving the audience a moment to become properly nervous.", tone = "[raspy] [mischievous]" },
+                "Good. A listener. The echo has become very poor company." },
+            idle = { { "I once heard my laugh return from the cave at precisely the right moment. Since then, I have been trying to reproduce the effect. The echo has no respect for rehearsal. Or perhaps I began too soon again.", tone = "[theatrical] [dryly amused]" },
+                "Restless spirits, an impatient audience. Such a busy afternoon.",
+                "A letter can bring a very old friend's voice into a quiet cave." },
+            befriended = { { "You have learned the value of waiting for the last word. I enjoy that in company. Stay beside me, mon. An audience that understands the joke is a great improvement over listening to one's own echo.", tone = "[pleased] [conspiratorial]" } },
+            poke = { "Yes? I had a pause prepared there.", "Careful. You are interrupting a very promising thought." },
+            quest = { { "A careful hand, a good memory, and the ability to count all those eyes. Useful qualities, mon. Now let me attend to the brewing. Stand where you can see, and do try not to interrupt the best part.", tone = "[delighted] [ominous]" } },
+            loot = { "Keep the ingredients apart until you know which is which." },
+            rest = { "Sit. Even a very fine laugh benefits from catching one's breath." },
+            zone = { "Different echoes here. This may require investigation." },
+            combatStart = { "Now, let us see what confidence is worth." },
+            combatEnd = { "A little quiet. I was not finished enjoying the moment." },
+            hearth = { "Back to the cave. Perhaps the echo has improved its timing." },
+        },
+    },
+
+    -- Innkeeper Jayka, Sun Rock Retreat, adult female Orc, 7731/display 6551.
+    -- Exact welcome: battle-weary rest, axe by fire, sharing battle stories.
+    -- Historical meat/drink stock; current sparse fields qualified in research.
+    -- Repeated axe pun is ours. No invented campaign or personal quest.
+    -- Research: docs/research/stonetalon-cackles-and-axe-jokes.md.
+    [7731] = {
+        quote = "Put the axe down and eat. Even a fine battle story can wait until your hands have stopped shaking.",
+        likes = { "Battle stories with a good ending", "An axe safely laid beside the fire", "A groan that turns into laughter" },
+        dislikes = { "Bragging over exhausted company", "Weapons taking up the supper table", "Leaving rest until someone collapses" },
+        gossip = "Jayka has one dreadful axe joke. She says the groans prove that her guests have finally caught their breath.",
+        bio = "Jayka keeps the inn at Sun Rock Retreat. Her welcome invites battle-weary travelers to rest, lay their axes by the fire and share their stories. The inn offers a place to settle before taking up the road again.",
+        backstory = "A guest once asked how much farther the road would take them. Jayka answered, 'Axe me after supper.' The groan became a laugh. She kept the joke, and has taken it farther than any sensible traveler would willingly go.",
+        secret = "She knows the joke does not improve with repetition. What she likes is hearing a tired voice find enough strength to complain about it, then laugh despite itself.",
+        bestFriend = "Sit by the fire. I will spare you the joke if you tell me one of yours. No? Then you know what is coming. I am glad you came back.",
+        favorite = { emote = "GRIN", hint = "Her worst joke has earned at least one reluctant smile." },
+        lines = {
+            greet = { { "There you are. Have you eaten, or have you been saving all your strength for telling me what a difficult day you have had? Come along. We will find time for both supper and the story.", tone = "[gravelly] [warmly teasing]" },
+                "Welcome back. Put down the weight before explaining how far you carried it." },
+            idle = { { "Someone asked how much farther the road would take them. I said, axe me after supper. Yes, that was the joke. That groan is familiar. Give it a moment; it usually turns into a laugh eventually.", tone = "[deadpan] [amused]" },
+                "Your axe can rest without the whole world falling apart.",
+                "A story improves when its teller has had something to eat." },
+            befriended = { { "You return knowing perfectly well that I still have that joke. That says something for your courage, or your tolerance. Either way, I am glad of the company. Stay a while and tell me how you have been.", tone = "[wry] [sincere]" } },
+            poke = { "Yes? Hungry, tired, or merely impatient?", "I heard you. Give me a moment to finish." },
+            rest = { { "Sit. A good rest is part of getting through the next hard day. You can tell me about the battle once you have caught your breath. For now, let the fire and the company do their work.", tone = "[firm] [comforting]" } },
+            quest = { "Well done. Take a moment before finding another hill to climb." },
+            combatEnd = { "Everyone safe? Good. Breathe before turning this into the evening's story." },
+            hearth = { "Home again. Leave the hurry at the door." },
+            levelUp = { "A little stronger. Remember that resting is still allowed." },
+            loot = { "Keep that blade away from where someone will set their supper." },
+            laughAlong = { "There. I knew the joke would get there in the end." },
+        },
+    },
+
     -- Cliffwatcher Longhorn, Freewind Post, adult male Tauren, 10537/9899.
     -- Galak retaliation, Grimtotem notes, Arnak bounty and Nataka report.
     -- Cord-knot puzzle is ours. No later betrayal knowledge or loyalty pledge.

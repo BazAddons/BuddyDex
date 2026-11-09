@@ -239,6 +239,46 @@
     "text": "Selling hot spices does not oblige me to put them in every meal. I like to taste my supper. You may call that sensible, and I will happily agree.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore3995_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3995",
+    "spoken": "[pleased] [conspiratorial] You have learned the value of waiting for the last word. I enjoy that in company. Stay beside me, mon. An audience that understands the joke is a great improvement over listening to one's own echo.",
+    "text": "You have learned the value of waiting for the last word. I enjoy that in company. Stay beside me, mon. An audience that understands the joke is a great improvement over listening to one's own echo.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3995_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3995",
+    "spoken": "[raspy] [mischievous] There you are, mon. Come along, and do not speak over the interesting part. Every little pause has its purpose. Sometimes I am thinking. Sometimes I am giving the audience a moment to become properly nervous.",
+    "text": "There you are, mon. Come along, and do not speak over the interesting part. Every little pause has its purpose. Sometimes I am thinking. Sometimes I am giving the audience a moment to become properly nervous.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3995_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3995",
+    "spoken": "[theatrical] [dryly amused] I once heard my laugh return from the cave at precisely the right moment. Since then, I have been trying to reproduce the effect. The echo has no respect for rehearsal. Or perhaps I began too soon again.",
+    "text": "I once heard my laugh return from the cave at precisely the right moment. Since then, I have been trying to reproduce the effect. The echo has no respect for rehearsal. Or perhaps I began too soon again.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3995_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3995",
+    "spoken": "[delighted] [ominous] A careful hand, a good memory, and the ability to count all those eyes. Useful qualities, mon. Now let me attend to the brewing. Stand where you can see, and do try not to interrupt the best part.",
+    "text": "A careful hand, a good memory, and the ability to count all those eyes. Useful qualities, mon. Now let me attend to the brewing. Stand where you can see, and do try not to interrupt the best part.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore5941_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

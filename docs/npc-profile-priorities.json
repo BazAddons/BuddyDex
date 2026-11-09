@@ -630,6 +630,20 @@
       "zone": "Stonetalon Mountains",
       "route": "Male Troll witch doctor and female Orc innkeeper",
       "reason": "Exact current adult bodies/identities checked; Jinzil friendly Stonetalon pin and Jayka historical Sun Rock location with missing current fields qualified. Full own source review pending. See docs/research/stonetalon-jinzil-and-jayka-queue.md"
+    },
+    {
+      "npc_id": 12724,
+      "name": "Pixel",
+      "zone": "Ashenvale",
+      "route": "Splintertree female Goblin quest and female Orc flight contacts",
+      "reason": "Exact current adult female Goblin/Orc bodies, levels, Horde friendly icons and Ashenvale pins verified; retain Vhulgra elite flight role. Full own source review pending. See docs/research/ashenvale-pixel-and-vhulgra-queue.md"
+    },
+    {
+      "npc_id": 12616,
+      "name": "Vhulgra",
+      "zone": "Ashenvale",
+      "route": "Splintertree female Goblin quest and female Orc flight contacts",
+      "reason": "Exact current adult female Goblin/Orc bodies, levels, Horde friendly icons and Ashenvale pins verified; retain Vhulgra elite flight role. Full own source review pending. See docs/research/ashenvale-pixel-and-vhulgra-queue.md"
     }
   ]
 }

@@ -274,3 +274,10 @@ Cliffwatcher Longhorn and Innkeeper Abeqwa bring development to **340 complete p
 Next: [Witch Doctor Jin'Zil and Innkeeper Jayka](stonetalon-jinzil-and-jayka-queue.md), adult male Troll/female Orc contacts. Exact bodies/identities checked; Jin'Zil's current friendly Stonetalon pin and Jayka's missing current access/pin are qualified. Full own service/quest/event/literary review remains pending.
 
 Individually preserving the next Stonetalon identities expands the overlapping catalog to **1,503 name groups**, 1,516 retained entries and 85 local identities absent from the original filter. These overlap the completed roster and must not be added as separate totals.
+
+
+## Stonetalon cackles and axe jokes completed
+
+Witch Doctor Jin'Zil and Innkeeper Jayka bring development to **342 complete profiles**, each with fifteen personal lines and four approved Troll/Orc v4 signatures. [Full research](stonetalon-cackles-and-axe-jokes.md) preserves Forest Magic's actual cruelty, the old Darsok/Rokhan relationships and Jayka's battle-weary welcome; no invented healing, personal redemption or live event outcome is claimed. Private cackle practice and an axe pun are original. Public access totals are 192 Alliance, 67 Horde and 89 unverified, with six shared profiles overlapping faction counts. Authored Trolls now total sixteen and Orcs twenty. Publication remains deferred; wider catalog and two old Westfall availability checks remain open.
+
+Next: [Pixel and Vhulgra](ashenvale-pixel-and-vhulgra-queue.md), verified adult female Goblin/Orc contacts in Splintertree Post. Exact current body/level/friendly/pin data is checked; Vhulgra is explicitly an elite Flight Master. Full own quest/service/literary review remains pending.

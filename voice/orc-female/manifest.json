@@ -318,5 +318,45 @@
     "spoken": "[gravelly voice, gently firm] Sit down. You don't have to earn every moment of rest.",
     "text": "Sit down. You don't have to earn every moment of rest.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore7731_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7731",
+    "spoken": "[wry] [sincere] You return knowing perfectly well that I still have that joke. That says something for your courage, or your tolerance. Either way, I am glad of the company. Stay a while and tell me how you have been.",
+    "text": "You return knowing perfectly well that I still have that joke. That says something for your courage, or your tolerance. Either way, I am glad of the company. Stay a while and tell me how you have been.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore7731_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7731",
+    "spoken": "[gravelly] [warmly teasing] There you are. Have you eaten, or have you been saving all your strength for telling me what a difficult day you have had? Come along. We will find time for both supper and the story.",
+    "text": "There you are. Have you eaten, or have you been saving all your strength for telling me what a difficult day you have had? Come along. We will find time for both supper and the story.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore7731_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7731",
+    "spoken": "[deadpan] [amused] Someone asked how much farther the road would take them. I said, axe me after supper. Yes, that was the joke. That groan is familiar. Give it a moment; it usually turns into a laugh eventually.",
+    "text": "Someone asked how much farther the road would take them. I said, axe me after supper. Yes, that was the joke. That groan is familiar. Give it a moment; it usually turns into a laugh eventually.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore7731_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:7731",
+    "spoken": "[firm] [comforting] Sit. A good rest is part of getting through the next hard day. You can tell me about the battle once you have caught your breath. For now, let the fire and the company do their work.",
+    "text": "Sit. A good rest is part of getting through the next hard day. You can tell me about the battle once you have caught your breath. For now, let the fire and the company do their work.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
   }
 }

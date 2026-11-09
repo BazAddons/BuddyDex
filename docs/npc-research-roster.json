@@ -945,5 +945,19 @@
     "zone": "Thousand Needles",
     "source": "Exact current adult male Tauren body, Horde friendly icon and Freewind pin; full current/Classic own relations, entire raid/notes/report sequence and five readable pages, exact shared innkeeper gossip reviewed; later betrayal/death excluded, no Scout sighting claimed",
     "research_notes": "docs/research/freewind-reports-and-a-chair.md"
+  },
+  {
+    "npc_id": 3995,
+    "name": "Witch Doctor Jin'Zil",
+    "zone": "Stonetalon Mountains",
+    "source": "Exact current adult Troll/Orc identity/body, qualified current Stonetalon pin versus historical Sun Rock location; full own forest/letter and inn relations, event transcript, readable letter and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/stonetalon-cackles-and-axe-jokes.md"
+  },
+  {
+    "npc_id": 7731,
+    "name": "Innkeeper Jayka",
+    "zone": "Stonetalon Mountains",
+    "source": "Exact current adult Troll/Orc identity/body, qualified current Stonetalon pin versus historical Sun Rock location; full own forest/letter and inn relations, event transcript, readable letter and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/stonetalon-cackles-and-axe-jokes.md"
   }
 ]

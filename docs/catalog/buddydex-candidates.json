@@ -16407,7 +16407,7 @@
           "name": "Innkeeper Jayka",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -26882,7 +26882,7 @@
           "source_page": 23,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -35085,7 +35085,7 @@
           "source_page": 30,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -35864,7 +35864,7 @@
           "source_page": 31,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39622,6 +39622,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 7731,
+      "name": "Innkeeper Jayka",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 8671,
       "name": "Auctioneer Buckler",
       "source": "Existing local backlog; absent from source filter",
@@ -39871,13 +39878,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 7731,
-      "name": "Innkeeper Jayka",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

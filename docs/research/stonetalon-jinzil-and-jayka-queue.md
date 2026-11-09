@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](stonetalon-cackles-and-axe-jokes.md). The plan and progress notes below are historical.
+
 # Next: Witch Doctor Jin'Zil and Innkeeper Jayka
 
 Identity shortlist, 2026-11-09. Continue Horde regional coverage in Stonetalon with an adult male Troll quest contact and an adult female Orc innkeeper. Neither profile is authored or recorded yet; no personal Scout sighting is claimed.

@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 340,
+  "completed_count": 342,
   "remaining_count": 4,
   "completed": [
     {
@@ -1929,6 +1929,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3995,
+      "name": "Witch Doctor Jin'Zil",
+      "zone": "Stonetalon Mountains",
+      "source": "Exact current adult Troll/Orc identity/body, qualified current Stonetalon pin versus historical Sun Rock location; full own forest/letter and inn relations, event transcript, readable letter and installed gossip reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/stonetalon-cackles-and-axe-jokes.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 4047,
       "name": "Zor Lonetree",
       "zone": "Orgrimmar",
@@ -2478,6 +2488,16 @@
       "zone": "The Barrens",
       "source": "Reviewed current adult male Tauren model, Horde-friendly Taurajo identity, installed dialogue and services/referral; no Scout sighting claimed",
       "research_notes": "docs/research/taurajo-welcome-and-a-good-word.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 7731,
+      "name": "Innkeeper Jayka",
+      "zone": "Stonetalon Mountains",
+      "source": "Exact current adult Troll/Orc identity/body, qualified current Stonetalon pin versus historical Sun Rock location; full own forest/letter and inn relations, event transcript, readable letter and installed gossip reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/stonetalon-cackles-and-axe-jokes.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3196,16 +3216,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 3995,
-      "name": "Witch Doctor Jin'Zil",
-      "zone": "Stonetalon Mountains",
+      "npc_id": 12724,
+      "name": "Pixel",
+      "zone": "Ashenvale",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 7731,
-      "name": "Innkeeper Jayka",
-      "zone": "Stonetalon Mountains",
+      "npc_id": 12616,
+      "name": "Vhulgra",
+      "zone": "Ashenvale",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

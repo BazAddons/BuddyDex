@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 340,
+  "completed_profiles": 342,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 88,
-    "horde": 66
+    "unverified": 89,
+    "horde": 67
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,8 +14,8 @@
     "5": 30,
     "4": 11,
     "6": 24,
-    "2": 19,
-    "8": 15,
+    "2": 20,
+    "8": 16,
     "9": 10,
     "96": 3,
     "95": 5
@@ -35,7 +35,7 @@
     "Durotar": 15,
     "Orgrimmar": 13,
     "The Barrens": 14,
-    "Stonetalon Mountains": 1,
+    "Stonetalon Mountains": 3,
     "Silverpine Forest": 1,
     "Thousand Needles": 2,
     "Desolace": 4,
@@ -2602,6 +2602,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3937"
     },
     {
+      "npc_id": 3995,
+      "name": "Witch Doctor Jin'Zil",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3995"
+    },
+    {
       "npc_id": 4047,
       "name": "Zor Lonetree",
       "zone": "Orgrimmar",
@@ -3348,6 +3361,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7714"
+    },
+    {
+      "npc_id": 7731,
+      "name": "Innkeeper Jayka",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7731"
     },
     {
       "npc_id": 7798,
