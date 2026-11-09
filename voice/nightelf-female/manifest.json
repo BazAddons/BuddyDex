@@ -159,6 +159,46 @@
     "text": "Good. Now test what you think you understand against what you actually observe. There is always another question.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore8583_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8583",
+    "spoken": "[sincere open warmth, pleased companionship] I would be glad to come along. Your company has become something I look forward to, and it is pleasant to share a little more of the day. Tell me where we are going. I may have something for us to eat when we pause.",
+    "text": "I would be glad to come along. Your company has become something I look forward to, and it is pleasant to share a little more of the day. Tell me where we are going. I may have something for us to eat when we pause.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore8583_comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "comforted",
+    "say": null,
+    "source": "lore:8583",
+    "spoken": "[quiet vulnerable gratitude, warm reassurance, heartfelt] Thank you. There are times when worry leaves very little room for anything else. It helps to have someone stop beside me and listen. You need not promise that everything will be easy. Your kindness is something I can feel here and now, and I am grateful for it.",
+    "text": "Thank you. There are times when worry leaves very little room for anything else. It helps to have someone stop beside me and listen. You need not promise that everything will be easy. Your kindness is something I can feel here and now, and I am grateful for it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore8583_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8583",
+    "spoken": "[warm relieved welcome, gentle affection, lightly teasing] There you are. It is good to see you safely here. Sit a little, if you have time. I seem to have cut one piece of bread larger than the other again, and it would be a shame to leave it without a visitor to give it to.",
+    "text": "There you are. It is good to see you safely here. Sit a little, if you have time. I seem to have cut one piece of bread larger than the other again, and it would be a shame to leave it without a visitor to give it to.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore8583_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8583",
+    "spoken": "[soft amused generosity, reassuring, unhurried] Yes, that piece is larger. You have a good eye. I could trim it, or we could agree that a visitor should have something pleasant while we talk. I prefer the second solution. There, settled. Tell me something about your day while you enjoy it.",
+    "text": "Yes, that piece is larger. You have a good eye. I could trim it, or we could agree that a visitor should have something pleasant while we talk. I prefer the second solution. There, settled. Tell me something about your day while you enjoy it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

@@ -392,5 +392,19 @@
     "zone": "Durotar",
     "source": "Reviewed current identity/model, full primary trials and class referrals, readables, Forever additions and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/gornek-at-the-den.md"
+  },
+  {
+    "npc_id": 2079,
+    "name": "Conservator Ilthalaine",
+    "zone": "Teldrassil",
+    "source": "Reviewed current friendly identity/model, full primary quests and sigils, Atlas entries and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-first-friends.md"
+  },
+  {
+    "npc_id": 8583,
+    "name": "Dirania Silvershine",
+    "zone": "Teldrassil",
+    "source": "Reviewed current friendly identity/model, full primary quests and sigils, Atlas entries and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-first-friends.md"
   }
 ]

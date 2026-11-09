@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Conservator Ilthalaine (2079), adult male night elf, Shadowglen, display 1285 (4 / 0).
+    -- Balance of Nature 456/457: heavy rain, finite forage, necessary thinning; class sigil referrals.
+    -- Balancing an ordinary fallen leaf is original, not a rite or forest-health measurement.
+    -- docs/research/shadowglen-first-friends.md.
+    [2079] = {
+        quote = "Look beyond the creature before you. The forest must sustain all who share it, and our care must reach farther than the easiest answer.",
+        likes = { "Careful attention to the whole forest", "Work done with restraint and purpose", "A fallen leaf balanced on one fingertip" },
+        dislikes = { "Waste disguised as necessity", "Taking more than the land can spare", "A breeze arriving at the wrong moment" },
+        gossip = "Ilthalaine holds a leaf on one fingertip. Some visitors wonder whether its balance tells him how the forest fares.",
+        bio = "Conservator Ilthalaine maintains nature's balance in Shadowglen. After heavy rains swelled the boar and nightsaber populations, he asks new adventurers to thin them before the forest's food is depleted. He also passes along trainers' sigils.",
+        backstory = "A fallen leaf caught his attention during a quiet pause. He tried resting it on one fingertip and found a point where it held. Then a breeze arrived. He has enjoyed the small challenge ever since.",
+        secret = "It is only a leaf, and he is only amusing himself. The wind usually wins. He rather likes having someone there to laugh with when it does.",
+        bestFriend = "Stay a moment. I nearly had that leaf balanced. If the wind would like to join us, it can at least wait its turn.",
+        favorite = { emote = "NOD", hint = "Show him you understand why the whole forest must be considered before acting." },
+        lines = {
+            greet = { { "Welcome. Take a moment to look around before you tell me what you have seen. There is more here than any one of us notices at first. I have been attempting a very small balance of my own. This leaf appears willing. The breeze has yet to agree.", tone = "[measured calm welcome, observant warmth, subtle dry humor]" }, "Good to see you. What has caught your attention in the forest today?" },
+            idle = { { "There. One leaf, one fingertip, and a brief agreement between them. No, it does not tell me the condition of the forest. I am simply enjoying myself. The breeze will remind me not to become too pleased with my accomplishment in a moment.", tone = "[quiet concentration, gently playful, amused resignation]" }, "A necessary task still deserves care in how it is done.", "The forest's beauty is reason to pay attention, even when no task requires it." },
+            befriended = { { "I would welcome your company. You take time to notice things, and I value that. We can compare what we see along the way, and perhaps find a quiet place to pause. There is pleasure in knowing the land with someone who cares to look closely.", tone = "[sincere composed affection, thoughtful warmth]" } },
+            poke = { "Yes? What would you like me to notice?", "A moment. Ah, there goes the leaf. You have my attention now." },
+            zone = { { "Look at what this place supports. Its creatures, its plants, the food and shelter they share. We need not understand everything at once, but we should remember that each thing we notice belongs to a larger whole. Walk with care, and keep looking.", tone = "[thoughtful naturalist, clear patient guidance, grounded]" } },
+            quest = { "You have done useful work. Consider its purpose as carefully as its completion." },
+            loot = { "Take what is useful. Leave room in your thoughts for what remains." },
+            rest = { "Pause with me. There is beauty here that does not ask us to hurry." },
+            learned = { "A little more understanding. Keep it open to what you notice next." },
+            levelUp = { "May your care grow alongside your ability to act." },
+            hearth = { "A familiar place, and still worth looking at with fresh attention." },
+        },
+    },
+    -- Dirania Silvershine (8583), adult female night elf, Shadowglen, display 7895 (4 / 1).
+    -- 4495 -> 3519 -> 3521 -> 3522: daily friend Iverron, missing visit, Githyiss poison, timed antidote.
+    -- Giving a visitor the larger bread slice is original; no romance, kinship or new healing ability.
+    -- docs/research/shadowglen-first-friends.md.
+    [8583] = {
+        quote = "A familiar visit can mean more than it seems. Notice when someone is missing, listen when they need help, and make room when they return.",
+        likes = { "A friend arriving safely", "Kindness followed by useful action", "Giving a visitor the larger slice" },
+        dislikes = { "Spider bites dismissed as nothing", "Waiting without word from a friend", "A good welcome hurried through" },
+        gossip = "Dirania never seems to cut two equal slices of bread. Her visitors tend to receive the larger one. No one complains.",
+        bio = "Dirania Silvershine waits in Shadowglen for her friend Iverron's usual visits. When he is poisoned near the spider cave, she prepares an antidote from gathered ingredients and asks that it reach him before its brief potency fades.",
+        backstory = "Once, while sharing a little bread with a visitor, she cut one slice larger than the other. Giving it away felt better than trimming it even. Since then, her portions have remained conveniently unequal.",
+        secret = "She knows which slice is larger. She likes seeing a visitor settle in with it. Being thought a poor judge of portions is a small price for a good welcome.",
+        bestFriend = "Come, sit beside me. This larger piece appears to be yours again. We can discuss my unfortunate cutting skills over a snack.",
+        favorite = { emote = "HUG", hint = "Offer the reassurance of a friend close enough to share her worries." },
+        lines = {
+            greet = { { "There you are. It is good to see you safely here. Sit a little, if you have time. I seem to have cut one piece of bread larger than the other again, and it would be a shame to leave it without a visitor to give it to.", tone = "[warm relieved welcome, gentle affection, lightly teasing]" }, "Come and tell me how you have been. I am glad you stopped." },
+            idle = { { "Yes, that piece is larger. You have a good eye. I could trim it, or we could agree that a visitor should have something pleasant while we talk. I prefer the second solution. There, settled. Tell me something about your day while you enjoy it.", tone = "[soft amused generosity, reassuring, unhurried]" }, "A familiar visit is a small thing until it does not happen.", "Kindness matters. So does finding out what will actually help." },
+            befriended = { { "I would be glad to come along. Your company has become something I look forward to, and it is pleasant to share a little more of the day. Tell me where we are going. I may have something for us to eat when we pause.", tone = "[sincere open warmth, pleased companionship]" } },
+            poke = { "Yes, my friend? Is everything all right?", "You have my attention. What do you need?" },
+            comforted = { { "Thank you. There are times when worry leaves very little room for anything else. It helps to have someone stop beside me and listen. You need not promise that everything will be easy. Your kindness is something I can feel here and now, and I am grateful for it.", tone = "[quiet vulnerable gratitude, warm reassurance, heartfelt]" } },
+            quest = { "You followed through for someone who needed help. I am glad they had you." },
+            lowHealth = { "Please, take care of yourself. Do not wait until a small hurt becomes a greater one." },
+            rest = { "Sit beside me a little. We can make a welcome of this pause." },
+            hugged = { "There you are. That is a comfort I am happy to return." },
+            levelUp = { "A little stronger. I hope you are proud of how far you have come." },
+            hearth = { "Home again. A familiar welcome is a lovely thing to return to." },
+        },
+    },
+
     -- Gornek (3143), adult male orc, the Den / Valley of Trials, display 1653 (2 / 0).
     -- 4641/788/789 recruit trials; 804 promises aid to Hana'zua; class referrals; Forever 97279 Kzan weapons.
     -- Practicing a compliment without adding a warning is original, not a new quest or rank.

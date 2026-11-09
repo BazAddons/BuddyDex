@@ -1,4 +1,44 @@
 {
+  "lore2079_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2079",
+    "spoken": "[sincere composed affection, thoughtful warmth] I would welcome your company. You take time to notice things, and I value that. We can compare what we see along the way, and perhaps find a quiet place to pause. There is pleasure in knowing the land with someone who cares to look closely.",
+    "text": "I would welcome your company. You take time to notice things, and I value that. We can compare what we see along the way, and perhaps find a quiet place to pause. There is pleasure in knowing the land with someone who cares to look closely.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2079_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2079",
+    "spoken": "[measured calm welcome, observant warmth, subtle dry humor] Welcome. Take a moment to look around before you tell me what you have seen. There is more here than any one of us notices at first. I have been attempting a very small balance of my own. This leaf appears willing. The breeze has yet to agree.",
+    "text": "Welcome. Take a moment to look around before you tell me what you have seen. There is more here than any one of us notices at first. I have been attempting a very small balance of my own. This leaf appears willing. The breeze has yet to agree.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2079_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2079",
+    "spoken": "[quiet concentration, gently playful, amused resignation] There. One leaf, one fingertip, and a brief agreement between them. No, it does not tell me the condition of the forest. I am simply enjoying myself. The breeze will remind me not to become too pleased with my accomplishment in a moment.",
+    "text": "There. One leaf, one fingertip, and a brief agreement between them. No, it does not tell me the condition of the forest. I am simply enjoying myself. The breeze will remind me not to become too pleased with my accomplishment in a moment.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2079_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:2079",
+    "spoken": "[thoughtful naturalist, clear patient guidance, grounded] Look at what this place supports. Its creatures, its plants, the food and shelter they share. We need not understand everything at once, but we should remember that each thing we notice belongs to a larger whole. Walk with care, and keep looking.",
+    "text": "Look at what this place supports. Its creatures, its plants, the food and shelter they share. We need not understand everything at once, but we should remember that each thing we notice belongs to a larger whole. Walk with care, and keep looking.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore5500_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
