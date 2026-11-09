@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Deathknell: Aramis 244808/undead male/129405, Rand 2116/undead
+    -- male/1575, Harold 2117/undead male/1576. Paladin training/rescue
+    -- quests and later referral chain read; both vendors' full stock
+    -- checked. Small good news, chair sketches and private coin choices
+    -- are original. Official Forsaken recordings remain pending.
+    -- docs/research/aramis-hammerhand-in-progress.md; deathknell-smiths.md.
+    [244808] = {
+        quote = "Tell me something that went well for you. It need not be a great victory. There is room beside our duties for an ordinary pleasure, and I would be glad to hear yours.",
+        likes = { "Kindness offered without a bargain", "A frightened person given time to speak", "A friend's ordinary piece of good news" },
+        dislikes = { "Cruelty excused as conviction", "Someone's worth judged by appearance", "Good news dismissed for being small" },
+        gossip = "Aramis asks after a visitor's small good news. He seems to remember those answers long after the conversation ends.",
+        bio = "Aramis Hammerhand trains paladins in Deathknell. He teaches newly risen Forsaken to use the Light despite its pain, asks aid for those in danger or afraid, and sends pupils to Shari Stilwell in Brill. He hopes service will answer mistrust.",
+        backstory = "He once asked a visitor what had gone well instead of what difficulty came next. A small answer became a pleasant conversation. He began making room for such news alongside his concern for the work still waiting to be done.",
+        secret = "He remembers a friend's small good news longer than they might expect. Those ordinary stories give him something to look forward to asking about at the next meeting.",
+        bestFriend = "Stay a moment, my friend. Tell me one thing you enjoyed today. I am glad we have this time, whatever else the day requires.",
+        favorite = { emote = "SMILE", hint = "A simple sign of shared pleasure is welcome to someone who makes time for a friend's small good news." },
+        lines = {
+            greet = { { "Welcome, my friend. Tell me something that went well for you. It need not be a great victory. We can walk while you tell it, and give an ordinary pleasure a little of the attention it deserves.", tone = "[weathered Forsaken warmth, grounded conviction, welcoming]" }, "It is good to see you. Have you a little news you would enjoy sharing?" },
+            idle = { { "I asked a visitor what had gone well instead of what difficulty came next. A small answer became a pleasant conversation. I remembered it afterward. I find I look forward to hearing such news again.", tone = "[quiet reflective warmth, sincere private pleasure, confiding]" }, "A kind gesture may give someone the room they need to speak.", "An ordinary pleasure need not apologize for being ordinary." },
+            befriended = { { "I would welcome your company, my friend. Lead on. There is time to hear how you have been, and I am pleased that you thought to share a little of the day with me.", tone = "[sincere gentle affection, composed pleasure, inviting]" } },
+            poke = { "Yes, my friend? What would you like to tell me?", "I am listening. You need not hurry your answer." },
+            comforted = { { "Stay a moment, my friend. You need not find good news before I will listen. Tell me what you wish, or let us sit awhile without asking anything of the silence. Your company is welcome either way.", tone = "[steady compassionate reassurance, restrained tenderness, unhurried]" } },
+            learned = { "A beginning worth tending. Give yourself time to practice with care." },
+            quest = { "You saw the work through. Take a moment to remember whom it helped." },
+            combatEnd = { "See to your wounds, and to those who need your aid. There is care to give after the danger too." },
+            rest = { "A moment to sit would be welcome. Tell me how the day has been." },
+            zone = { "A new place may hold someone who would welcome a little kindness." },
+            hearth = { "Back to familiar ground. I am glad to have had your company along the way." },
+        },
+    },
+    [2116] = {
+        quote = "Take a proper look at how it sits. There is satisfaction in something that serves its wearer well. A small improvement is still worth making carefully.",
+        likes = { "Armor that serves its wearer", "An honest question from a beginner", "A sketch a little better than the last" },
+        dislikes = { "A poor fit ignored for its appearance", "A learner mocked for asking", "Calling an attempt wasted too quickly" },
+        gossip = "Rand's private sketches of ordinary chairs are improving. At least, he says they are becoming easier to recognize.",
+        bio = "Blacksmith Rand is Deathknell's apprentice armorer. He sells rusted chain armor and basic shields to the Forsaken beginning their journeys. His wares are modest equipment for people with immediate work ahead of them.",
+        backstory = "He tried sketching an ordinary chair for his own amusement. The first attempt was difficult to recognize. He tried another, then found himself enjoying the small changes between them without needing the result to be impressive.",
+        secret = "He keeps the first sketch beside the later attempts. Recognizing how much better a chair looks now is part of the pleasure. The first one has become rather dear to him.",
+        bestFriend = "Have a look, friend. Tell me if you recognize this one. I enjoy showing you an improvement, even a small and rather crooked one.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation can encourage someone who takes pleasure in an unremarkable improvement." },
+        lines = {
+            greet = { { "There you are, friend. Shall we take a walk? I have been trying another little sketch. It looks more like a chair this time. I should value your opinion, though I reserve the right to be pleased with it anyway.", tone = "[dry weathered Forsaken warmth, modest amusement, welcoming]" }, "Good to see you. Have you tried something that pleased you today?" },
+            idle = { { "I keep the first sketch beside the later attempts. It is difficult to recognize as a chair. Still, seeing the difference is part of the pleasure. I have become rather fond of that first crooked effort.", tone = "[rough-edged self-aware amusement, quietly pleased, confiding]" }, "A small improvement can repay careful attention.", "There is no shame in asking how something is meant to work." },
+            befriended = { { "You would like me along? Gladly, friend. Lead on. We can enjoy a walk and a little conversation. I should like to hear what you have been making of the day.", tone = "[sincere companionable affection, pleased, inviting]" } },
+            poke = { "Yes? Is there something you would like a closer look at?", "I am listening, friend. What have you been trying?" },
+            gear = { { "See how it sits and whether it serves you well. Take a proper look before deciding. The small things deserve attention too, particularly the ones you will notice after the first excitement has passed.", tone = "[practical attentive advice, steady rough warmth, clear]" } },
+            learned = { "A new beginning. Give the first attempt room to become a better second one." },
+            quest = { "Work seen through. There is satisfaction in a result you took care over." },
+            loot = { "Worth a look. Think about what it can do for you." },
+            rest = { "A pause would be pleasant. Tell me what you would try differently next time." },
+            bagsFull = { "A little rearranging may help. Give yourself room to see what is there." },
+            hearth = { "Back to Deathknell. Perhaps I shall try that chair from another angle." },
+        },
+    },
+    [2117] = {
+        quote = "Try the grip before deciding. A choice should serve the person making it. If you discover you wanted something else, there is sense in admitting it before you go further.",
+        likes = { "A choice made after a proper look", "A weapon kept in useful condition", "Discovering which way he wants to walk" },
+        dislikes = { "A grip judged without trying it", "Fine polish used to conceal a fault", "Letting a coin make every decision" },
+        gossip = "Harold sometimes tosses a coin before a walk. Friends have noticed that he does not always look at it when it lands.",
+        bio = "Harold Raims is an apprentice weaponsmith in Deathknell. He sells basic swords, axes, clubs, a dirk and a short staff, and offers repairs. His work helps equip the Forsaken setting out from the village.",
+        backstory = "He once tossed a coin to choose a direction for a private walk. The result disappointed him, which settled what he actually wanted. Since then, the little toss has sometimes helped him notice a preference he had not yet put into words.",
+        secret = "Sometimes he decides while the coin is still in the air. He catches it without looking. Having noticed what he wants, he sees no reason to ask the coin's opinion again.",
+        bestFriend = "Which way, friend? We needn't consult the coin. I have already decided that your company is the part of the walk I wanted.",
+        favorite = { emote = "WINK", hint = "A small sign of shared understanding suits someone whose private method is less decisive than it first appears." },
+        lines = {
+            greet = { { "There you are, friend. Which way shall we walk? I could toss a coin, though I may decide before it lands. Your company is the part I was looking forward to. We can settle the direction together.", tone = "[dry weathered Forsaken wit, easy warmth, welcoming]" }, "Good to see you. Have you something in mind for a pleasant walk?" },
+            idle = { { "I tossed a coin to choose a direction once. The result disappointed me. That settled what I actually wanted rather neatly. Sometimes I decide while it is still in the air and catch it without looking.", tone = "[wry private amusement, practical candor, confiding]" }, "A proper look may tell you more than a fine first impression.", "You are allowed to discover that you would prefer the other choice." },
+            befriended = { { "You want my company? Gladly, friend. Lead on. We can leave the coin out of this decision. I am pleased to have a little time to walk and hear how you have been.", tone = "[sincere companionable affection, wry pleasure, inviting]" } },
+            poke = { "Yes? Have you decided what you would prefer?", "I am listening. No coin required for that." },
+            gear = { { "Try the grip and give it a proper look. Does it serve you? Your answer matters more than the first fine impression. There is sense in knowing what you want before committing yourself to carrying it all day.", tone = "[experienced practical advice, rough-edged warmth, clear]" } },
+            loot = { "Worth considering. Have you a use in mind, or would you rather look again?" },
+            quest = { "Well done. Take a moment before deciding what you want to attempt next." },
+            learned = { "Another choice available to you. Learn how it feels in practice." },
+            rest = { "A place to pause would suit me. What would you prefer?" },
+            zone = { "Another place to find our way. Have a look before choosing a direction." },
+            hearth = { "Back to Deathknell. A familiar route, and agreeable company along it." },
+        },
+    },
     -- Deathknell's Arren 1570/undead male/1583 and Saltain 1740/undead
     -- male/3523. Full Classic mine/Scarlet chain and salvage quest read;
     -- Forever 96656 sends recruits to Eleanor Shackleton. Private walking

@@ -1,12 +1,12 @@
-# Aramis Hammerhand: research in progress
+# Aramis Hammerhand
 
-Started November 9, 2026. **Not yet authored.** Full later training-chain research, written profile and official Forsaken recordings remain outstanding. This note preserves verified evidence for the next batch rather than marking the NPC complete.
+Researched and written November 9, 2026. **Official Forsaken recordings remain pending; this profile is not complete.** The filename preserves the earlier research note's path. The referral and later training context have now been checked as described below.
 
 ## Identity and available dialogue
 
 Installed Scout observes **244808 Aramis Hammerhand**, male, normal level 5, Horde-friendly reaction 5 Humanoid/type 7, seven Deathknell sightings on map 1420 on November 8, with Paladin Trainer title and no attackable flag. The [current Forever node](https://forever.warcraftdb.com/api/data/node/npc/244808) corroborates his undead race, title, level and trainer service, with character display **129405**. This is an individually named trainer, not a generic paladin.
 
-Read both installed exact-ID gossip lines: he welcomes a returning paladin to the Light and offers training; a nonpaladin is told they may still find solace in the Light. These support a kind welcome without assigning player class or promising BuddyDex spells. Chatter and the full installed quest blocks have not yet been checked for this particular NPC.
+Read both installed exact-ID gossip lines: he welcomes a returning paladin to the Light and offers training; a nonpaladin is told they may still find solace in the Light. These support a kind welcome without assigning player class or promising BuddyDex spells. No exact-ID chatter block was found. The full installed blocks for his four outgoing quests and the incoming referral have been checked.
 
 ## Five primary quest readings completed
 
@@ -18,4 +18,36 @@ Read full objectives, descriptions, progress where exposed and completion:
 - [Continue Your Training 91209](https://www.wowhead.com/forever/quest=91209/continue-your-training): referral to **Shari Stilwell** in Brill, with a warning that some Forsaken distrust paladins' relationship with the Light. Shari welcomes training and points to future guidance after serving Brill. Follow that later training chain before authoring a complete profile.
 - [A Light in the Darkness 98389](https://www.wowhead.com/forever/quest=98389/a-light-in-the-darkness): free six webbed Forsaken in Night's Web Hollow. Aramis explains he means to protect his people despite fear of paladins; completion specifically hopes Arren and others will recognize their value. This establishes an actual concern about acceptance, without declaring Arren converted or every Forsaken hostile. The objective's Night's Web spelling differs from the mine quest's Night Web's Hollow; use a general location if uncertain.
 
-Current NPC starts/ends agree on these five IDs: four starts, with 91209 returning to Shari rather than Aramis; 98601 starts at Sarvis and returns to Aramis. Primary quest text is stronger evidence than fan routing advice. The next research should follow Shari and the later paladin training quests, resolve any available readable scroll text and read the frightened-paladin encounter before choosing a modest original private detail.
+Current NPC starts/ends agree on these five IDs: four starts, with 91209 returning to Shari rather than Aramis; 98601 starts at Sarvis and returns to Aramis. Primary quest text is stronger evidence than fan routing advice. Additional readings and the original private detail follow.
+
+## Frightened paladin encounter and source gaps
+
+Read the entire encounter transcript in [Coming to Terms](https://warcraft.wiki.gg/wiki/Coming_to_Terms_%28quest%29): she rejects the approaching player, the player offers fellowship and help, she rejects Forsaken existence, raises her weapon and turns hostile despite a plea to stop. Her death fits Aramis's mournful completion; it is not a successful escort or permanent new friend. The profile does not presume this character has completed that quest. The script is contextual source material, not copied dialogue.
+
+The Consecrated Scroll text remains unavailable in the checked primary page/current API. A wiki search result suggests additional letter material, but repeated direct article requests returned 403; that snippet alone does not verify a whole readable page. No wording, new relationship or doctrine is invented from it. No personal comic or novel episode was established for this Forever character, and no retail paladin biography is substituted.
+
+## Following the referral through Brill and Bandarion Keep
+
+Checked Shari's current starts/ends. Read [A Second Home 91282](https://www.wowhead.com/forever/quest=91282/a-second-home) in full and its current node/installed accept-completion block. It takes the recruit to Breton Samuels at Bandarion Keep, where he welcomes them to Tyr's Watch. Shari describes a new paladin order and a monastery. Installed text uses Northface Rock where the current primary text describes the edge of the Whispering Woods; the authored profile does not depend on this changing place description or the misleading primary series link back to Rediscovering the Light.
+
+Read objectives, description, progress and completion for [Murlocs at the Gates 91285](https://www.wowhead.com/forever/quest=91285/murlocs-at-the-gates) and [Touring the Grounds 91294](https://www.wowhead.com/forever/quest=91294/touring-the-grounds), alongside current-node and full installed blocks. Breton asks for eight Vile Fin Attackers and eight Seers, recognizes that this only slows the attacks, then introduces Hilda the Breaker, Jorin Croge, Ander Solliden and Danitha Morr. Danitha leads the keep. The weapon reward and introductions belong to Breton/the player, not Aramis.
+
+Read full primary objective/description/progress/completion and current/installed counterparts for [The Tarnished 91317](https://www.wowhead.com/forever/quest=91317/the-tarnished), [A Token of Good Faith 95803](https://www.wowhead.com/forever/quest=95803/a-token-of-good-faith), [Making Repairs 91316](https://www.wowhead.com/forever/quest=91316/making-repairs), [As Above, So Below 99152](https://www.wowhead.com/forever/quest=99152/as-above-so-below), and [The One That Got Away 99153](https://www.wowhead.com/forever/quest=99153/the-one-that-got-away). These concern Rudolph Gelhardt's violent Tarnished, the head taken to Sylvanas, twelve lumber pieces for Jorin, six glowing bones for Hilda and Ephram's missing crystal fragment. Danitha fears long-term mistrust; Sylvanas remains threatening even after the service. The profile does not resolve that distrust or make Aramis the leader, a participant in the later battles, Rudolph's relative or an emissary to Sylvanas. Ephram's crystal-smashing speech appears in a player comment, not the exposed quest completion, and is not imported. Read the [Polestar route](https://polestar.guide/guides/class/paladin/tyrs-watch) to identify connected steps, then used primary text/current nodes and installed dialogue for the facts; routing comments and beta prerequisites are not asserted as immutable canon.
+
+## Complete Lesson in Divinity sequence
+
+Followed all seven individual quests, including the introductory breadcrumb that the primary six-stage series omits:
+
+1. [94427](https://www.wowhead.com/forever/quest=94427/a-lesson-in-divinity): Danitha sends the recruit to Tanis Alderwood, emphasizing good done for its own sake; Tanis initially fears the paladin.
+2. [94434](https://www.wowhead.com/forever/quest=94434/a-lesson-in-divinity): ten Linen Cloth will help hold Tanis's wife together while apothecaries are unavailable. Progress is deferential and completion grateful; it does not depict a complete cure.
+3. [94435](https://www.wowhead.com/forever/quest=94435/a-lesson-in-divinity): Tanis sends thanks back to Danitha, who values small acts of service and provides a Symbol of Life.
+4. [94436](https://www.wowhead.com/forever/quest=94436/a-lesson-in-divinity): Danitha sends the recruit with the symbol to Deathguard Billmuth, who reluctantly asks paladins to help his friend after priests refused.
+5. [94438](https://www.wowhead.com/forever/quest=94438/a-lesson-in-divinity): use the symbol on Deathguard Falgan in Venomweb Vale. Billmuth recounts their scouting discovery and his accidental twig noise; Falgan recognizes the symbol from prewar Lordaeron and requests further help.
+6. [94440](https://www.wowhead.com/forever/quest=94440/a-lesson-in-divinity): recover Scarlet Crusade Attack Plans and return them to Billmuth. He thanks the paladin for Falgan and plans to warn his commander; this changes his personal view, not everyone's.
+7. [94441](https://forever.warcraftdb.com/api/data/node/quest/94441): Billmuth sends thanks back to Danitha, whose full installed completion teaches Redemption and recognizes service to the Forsaken and Tyr's Watch. Repeated primary Wowhead requests timed out; the current node verifies objective/description and the installed block supplies the full completion. No separate progress passage is exposed in the fallback. The profile grants no spell or resurrection.
+
+Read every installed accept/completion block for these seven and every available primary objective, description, progress and completion on the accessible first six pages. Conversation-only stages do not always expose a separate progress passage. The Symbol of Life is a usable quest talisman; no readable book page is inferred from it. The attack plans' content is not needed for Aramis's entry and is not invented or conflated with Arren's earlier Scarlet Crusade Documents.
+
+## Original writing and checks
+
+Aramis asks a visitor for small good news rather than only the next difficulty, enjoys the resulting conversation and remembers these ordinary pleasures. This is original, modest friendship writing, not a new quest, forgotten relative, miraculous cure or claim that faith removes grief and pain. SMILE welcomes a shared pleasure; his comforted line explicitly welcomes someone who has no good news to report. His warm personal voice does not erase the stern perseverance and tragic limits in his quests. Fifteen personal lines and four directed signature scripts are written. Layout, supported moments, eligible emote discovery and favorite gains, and companion selection are checked; official Forsaken voice recordings remain outstanding.
