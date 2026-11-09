@@ -43,7 +43,7 @@ Every field is optional. A missing part is skipped, and the gray line moves on t
 
 ## Workflow
 
-1. **Pick the NPC** from the Scout list or in game, and note the NPC ID (the Scout shows it, and so does `BuddyDexDB.friends` in the saved variables).
+1. **Pick the NPC** from the Scout list or in game, and note the NPC ID (the Scout shows it, and so does `BuddyDexCharDB.friends` in the saved variables).
 2. **Research** the NPC's page on [warcraft.wiki.gg](https://warcraft.wiki.gg), the zone's NPC list, and each quest they give or take. Talk to them in game for their gossip.
    Follow the full Classic-era quest chains: read objectives, descriptions, progress dialogue and completion text, including related quests from other NPCs. Note what those passages reveal about the character's voice, priorities and relationships. Check relevant books and comics too, while keeping later-expansion events out of the Forever entry. Record source links and separate confirmed facts from original BuddyDex additions; if a detail is uncertain, omit it rather than inventing a resolution. No quest found is a research result, not a reason to invent one.
 3. **Write the facts comment**, then the entry, in `Data/Lore.lua` using the template below.

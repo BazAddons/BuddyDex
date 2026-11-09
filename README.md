@@ -64,3 +64,7 @@ Recorded voices are built into **BuddyDex**: your Mini Me in a gnome voice, and 
 ## License
 
 GPL-2.0-or-later. See [LICENSE](LICENSE).
+
+### Character-specific progress
+
+Each character has their own friends, friendship points, daily gains, discoveries, pins, journal preferences, and companion settings. These are saved in `BuddyDexCharDB`. The old account-wide `BuddyDexDB` is retained as a legacy backup; its mixed roster is not automatically assigned to any character. Existing per-character Mini Me position and dialogue history are preserved.

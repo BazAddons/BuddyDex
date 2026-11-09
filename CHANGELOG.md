@@ -32,6 +32,6 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - Adjust companion size, transparency, facing, weapon visibility, and screen position.
 - Choose combat and instance visibility, lock the companion in place, or enable click-through.
 - Turn voices on or off in `/bd options`. All recordings are included in one addon; no separate voice pack is required.
-- Share your friendship collection across your account while choosing a companion for each character.
+- Keep a separate friendship collection, progress, daily gains, pins, journal preferences, and companion settings for each character. The former account-wide data is retained as a legacy backup.
 
 **Getting started:** Type `/bd` or `/buddydex` to open BuddyDex.

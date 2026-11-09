@@ -30,7 +30,7 @@ local Database = {}
 ns.Database = Database
 
 local DEFAULTS = {
-    version = 2,
+    version = 3,
     friends = {},               -- [npcID] = entry
     settings = {
         -- Friendship
@@ -55,7 +55,6 @@ local DEFAULTS = {
             hiddenTypes = {}, hiddenRarity = {}, collapsed = {}, tab = 1 },
 }
 
-local CHAR_DEFAULTS = { version = 1 }   -- the Mini Me's own settings (milestone 2)
 
 -- Friends are keyed by NPC ID as a plain number. Callers sometimes hold the
 -- ID as text (a menu value, a GUID field), and a secret must never become a key.
@@ -174,7 +173,7 @@ frame:SetScript("OnEvent", function(self, event, name)
         if type(BuddyDexCharDB) ~= "table" then BuddyDexCharDB = {} end
         -- The voice was once on or off, then text to speech or the game's
         -- voice; now it is the recorded voice, or off.
-        local settings = BuddyDexDB.settings
+        local settings = BuddyDexCharDB.settings
         if type(settings) == "table" then
             if settings.voice == false then settings.voiceMode = "off" end
             if settings.voiceMode ~= "off" and settings.voiceMode ~= nil then settings.voiceMode = "recorded" end
@@ -190,9 +189,13 @@ frame:SetScript("OnEvent", function(self, event, name)
             end
             settings.chatty, settings.idleChatter, settings.fightChatter = nil, nil, nil
         end
-        Util.CopyDefaults(BuddyDexDB, DEFAULTS)
-        Util.CopyDefaults(BuddyDexCharDB, CHAR_DEFAULTS)
-        ns.db = BuddyDexDB
+        -- Every playable state belongs to this character. Keep the old account
+        -- table untouched as a legacy backup (and Scout's old roster source).
+        -- Shared friendships have no owner metadata, so copying them here would
+        -- give every alt the same progress again. Existing Mini Me state stays.
+        Util.CopyDefaults(BuddyDexCharDB, DEFAULTS)
+        BuddyDexCharDB.version = DEFAULTS.version
+        ns.db = BuddyDexCharDB
         ns.char = BuddyDexCharDB
         ns.Bus:TriggerEvent(ns.Event.VariablesReady)
     elseif event == "PLAYER_LOGIN" then

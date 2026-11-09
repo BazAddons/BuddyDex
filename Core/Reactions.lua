@@ -324,7 +324,7 @@ end
 
 -- Low on health in a fight: a worried line, once a fight. Forever may keep
 -- the player's health secret in combat; then this stays quiet. Whether it
--- could read it is noted once (BuddyDexDB.probe.healthInCombat), to check.
+-- could read it is noted once (BuddyDexCharDB.probe.healthInCombat), to check.
 function handlers.UNIT_HEALTH(unit)
     if unit ~= "player" then return end
     local companion = ns.Companion

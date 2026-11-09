@@ -352,3 +352,7 @@ This supersedes the scouting parts above. The scout was a way to compile NPCs fo
 ## One addon with built-in voices (user, 2026-11-08)
 
 Recorded voices are part of BuddyDex itself. The manifest uses the addon namespace, so an obsolete BuddyDex_Voice addon cannot replace it. Voice On/Off remains in the Buddy options. Remove the old BuddyDex_Voice folder when upgrading; saved friendships and settings stay in BuddyDex's existing saved variables.
+
+## Character-specific storage (current)
+
+The original account-wide storage above is historical. `ns.db` and `ns.char` now both reference `BuddyDexCharDB`, with schema version 3. All active friends, gains, visits, favorites, pins, filters, window placement, companion state and settings are character-specific. Existing character-local Mini Me fields are retained. `BuddyDexDB` is left untouched as the legacy shared backup and old Scout import source. No automatic roster migration is possible because old friendship entries have no earning-character identity.

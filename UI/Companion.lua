@@ -19,7 +19,7 @@ local ADDON_NAME, ns = ...
 -- each moment are remembered between sessions (BuddyDexCharDB.recentLines).
 -- Animations never repeat back to back either.
 --
--- Options (BuddyDexDB.settings, defaults in Core/Database.lua): companion,
+-- Options (BuddyDexCharDB.settings, defaults in Core/Database.lua): companion,
 -- voiceMode ("recorded" or "off"), echoChat, combat, hideInInstances, locked, clickThrough,
 -- scale, alpha, facing, hideWeapons. Per character (BuddyDexCharDB):
 -- companionPoint, companionNpc (the friend who came along; nil for the

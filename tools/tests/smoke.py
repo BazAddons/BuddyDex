@@ -205,7 +205,7 @@ local function SetTier(e, index)
 end
 
 local function Points(id)
-    local e = BuddyDexDB.friends[id]
+    local e = BuddyDexCharDB.friends[id]
     return e and e.points
 end
 
@@ -220,11 +220,11 @@ end
 
 step("ADDON_LOADED and PLAYER_LOGIN", function()
     FireAll("ADDON_LOADED", "BuddyDex")
-    assert(type(BuddyDexDB) == "table" and type(BuddyDexDB.friends) == "table", "no friends table")
+    assert(type(BuddyDexCharDB) == "table" and type(BuddyDexCharDB.friends) == "table", "no friends table")
     -- Befriended before the one-of-many rule: leaves at login.
-    BuddyDexDB.friends[68] = { name = "Stormwind City Guard", points = 40, zone = "Stormwind City" }
+    BuddyDexCharDB.friends[68] = { name = "Stormwind City Guard", points = 40, zone = "Stormwind City" }
     FireAll("PLAYER_LOGIN")
-    assert(BuddyDexDB.friends[68] == nil, "a Stormwind City Guard stayed a friend")
+    assert(BuddyDexCharDB.friends[68] == nil, "a Stormwind City Guard stayed a friend")
     assert(Printed("Stormwind City Guard left the BuddyDex"), "no word about it leaving")
 end)
 
@@ -232,7 +232,7 @@ step("trading starts a friendship", function()
     MOCK.today = "2026-10-10"
     MOCK.units.npc = LYMPKIN
     FireAll("MERCHANT_SHOW")
-    local e = BuddyDexDB.friends[8720]
+    local e = BuddyDexCharDB.friends[8720]
     assert(e, "no friend")
     assert(e.points == 60, "points " .. tostring(e.points))
     assert(e.title == "Auctioneer" and e.zone == "Ironforge", "snapshot")
@@ -263,25 +263,25 @@ step("the daily cap, though a visit still updates where they are", function()
     MOCK.position = { 0.25, 0.75 }
     FireAll("MERCHANT_SHOW")
     assert(Points(8720) == 60, "trading twice in a day counted twice")
-    assert(BuddyDexDB.friends[8720].x == 0.25, "a capped visit did not update where they are")
+    assert(BuddyDexCharDB.friends[8720].x == 0.25, "a capped visit did not update where they are")
     MOCK.position = { 0.5641, 0.5262 }
 end)
 
 step("talking reaches Acquaintance", function()
     FireAll("GOSSIP_SHOW")
     assert(Points(8720) == 100, "points " .. tostring(Points(8720)))
-    assert(ns.Friendship.TierIndex(BuddyDexDB.friends[8720]) == 2, "not an Acquaintance")
+    assert(ns.Friendship.TierIndex(BuddyDexCharDB.friends[8720]) == 2, "not an Acquaintance")
     assert(Printed("now considers you an Acquaintance"), "no tier line")
 end)
 
 step("the favorite emote, and a rude one", function()
     MOCK.units.npc = nil
     MOCK.units.target = LYMPKIN
-    local fav = ns.Friendship.Favorite(BuddyDexDB.friends[8720])
+    local fav = ns.Friendship.Favorite(BuddyDexCharDB.friends[8720])
     assert(fav.token == "THANK", "Lympkin's favorite is " .. fav.token)
     DoEmote("THANK")
     assert(Points(8720) == 250, "favorite did not count: " .. tostring(Points(8720)))
-    assert(BuddyDexDB.friends[8720].favoriteFound, "favorite not marked found")
+    assert(BuddyDexCharDB.friends[8720].favoriteFound, "favorite not marked found")
     DoEmote("RUDE")
     assert(Points(8720) == 225, "rude did not cost: " .. tostring(Points(8720)))
 end)
@@ -312,7 +312,7 @@ step("NPC unit menus offer real emotes and retain their original recipient", fun
     MOCK.units.npc = nil
     MOCK.units.target = jenn
     local root = MOCK.UnitMenu("MENU_UNIT_TARGET", "target")
-    assert(not BuddyDexDB.friends[3626], "opening the menu befriended its NPC")
+    assert(not BuddyDexCharDB.friends[3626], "opening the menu befriended its NPC")
     local submenu = root.children[2]
     assert(submenu and submenu.text == "BuddyDex Emotes" and #submenu.children > 20,
         "missing friendly emote submenu")
@@ -341,7 +341,7 @@ step("NPC unit menus offer real emotes and retain their original recipient", fun
     local lastEmote = MOCK.lastEmote
     MOCK.units.target = GUARD_THOMAS
     hello.a()
-    assert(not BuddyDexDB.friends[261] and Points(3626) == 175,
+    assert(not BuddyDexCharDB.friends[261] and Points(3626) == 175,
         "a stale menu greeted another target")
     assert(MOCK.lastEmote == lastEmote, "a stale menu sent an emote")
     ns.Database.Remove(3626)
@@ -351,7 +351,7 @@ step("NPC unit menus offer real emotes and retain their original recipient", fun
     for _, item in ipairs(focusMenu.children[2].children) do
         if item.text == "Hello (/hello)" then item.a() end
     end
-    assert(not BuddyDexDB.friends[3626] and not BuddyDexDB.friends[5595]
+    assert(not BuddyDexCharDB.friends[3626] and not BuddyDexCharDB.friends[5595]
         and MOCK.lastEmote == lastEmote,
         "focus menu sent an emote at an unrelated current target")
     MOCK.units.target = jenn
@@ -382,7 +382,7 @@ step("emotes never befriend generic NPCs, even with authored lore", function()
     DoEmote("WAVE")
     DoEmote("SALUTE")
     ns.Lore[5595] = nil
-    assert(BuddyDexDB.friends[5595] == nil, "an emote befriended a generic guard")
+    assert(BuddyDexCharDB.friends[5595] == nil, "an emote befriended a generic guard")
 end)
 
 step("a named wanderer can be met by emote and earns daily friendship", function()
@@ -396,9 +396,9 @@ step("a named wanderer can be met by emote and earns daily friendship", function
     MOCK.units.target = jenn
     DoEmote("RUDE")
     DoEmote("SIT")
-    assert(not BuddyDexDB.friends[id], "a rude or unsupported emote introduced someone")
+    assert(not BuddyDexCharDB.friends[id], "a rude or unsupported emote introduced someone")
     DoEmote("SMILE")
-    local e = BuddyDexDB.friends[id]
+    local e = BuddyDexCharDB.friends[id]
     assert(e and e.name == jenn.name and e.points == 25, "a friendly emote did not introduce the wanderer")
     assert(e.first == today and e.last == today and e.x == 0.5641, "first meeting not saved")
     DoEmote("BOW")
@@ -415,7 +415,7 @@ step("a named wanderer can be met by emote and earns daily friendship", function
     ns.Database.Remove(id)
     -- A favorite can also be the very first greeting.
     DoEmote("WAVE")
-    assert(Points(id) == 150 and BuddyDexDB.friends[id].favoriteFound,
+    assert(Points(id) == 150 and BuddyDexCharDB.friends[id].favoriteFound,
         "a first-meeting favorite was not discovered")
     ns.Database.Remove(id)
     MOCK.today = today
@@ -433,17 +433,17 @@ step("emote introductions respect recipients and unit restrictions", function()
     MOCK.units.npc = nil
     MOCK.units.target = wanderer
     DoEmote("WAVE", "missing")
-    assert(not BuddyDexDB.friends[id], "an unavailable recipient credited the selected target")
+    assert(not BuddyDexCharDB.friends[id], "an unavailable recipient credited the selected target")
     MOCK.units.mouseover = wanderer
     MOCK.units.target = GUARD
     DoEmote("SMILE", "mouseover")
-    assert(Points(id) == 25 and not BuddyDexDB.friends[5595], "explicit recipient was ignored")
+    assert(Points(id) == 25 and not BuddyDexCharDB.friends[5595], "explicit recipient was ignored")
     ns.Database.Remove(id)
     MOCK.units.mouseover = nil
     MOCK.units.target = wanderer
     local function Blocked(why)
         DoEmote("WAVE")
-        assert(not BuddyDexDB.friends[id], why .. " was befriended through an emote")
+        assert(not BuddyDexCharDB.friends[id], why .. " was befriended through an emote")
     end
     MOCK.combat = true
     Blocked("combat target")
@@ -467,7 +467,7 @@ step("emote introductions respect recipients and unit restrictions", function()
     Blocked("non-combat pet")
     MOCK.units.target = nil
     DoEmote("WAVE")
-    assert(not BuddyDexDB.friends[id], "an untargeted wave created a friend")
+    assert(not BuddyDexCharDB.friends[id], "an untargeted wave created a friend")
     MOCK.units.target = GUARD
 end)
 
@@ -485,15 +485,15 @@ step("hostile and attackable NPCs, players and combat never count", function()
     FireAll("GOSSIP_SHOW")
     MOCK.combat = false
     for _, id in ipairs({ 3296, 1125, 999, 4258 }) do
-        assert(BuddyDexDB.friends[id] == nil, "befriended " .. id)
+        assert(BuddyDexCharDB.friends[id] == nil, "befriended " .. id)
     end
     -- The guard was targeted all along: an NPC that doesn't count never
     -- passes the credit to the target.
-    assert(BuddyDexDB.friends[5595] == nil, "the target took the credit")
+    assert(BuddyDexCharDB.friends[5595] == nil, "the target took the credit")
     -- A wanted poster (no "npc" unit) never counts for the target either.
     MOCK.units.npc = nil
     FireAll("QUEST_DETAIL")
-    assert(BuddyDexDB.friends[5595] == nil, "an object's quest counted for the target")
+    assert(BuddyDexCharDB.friends[5595] == nil, "an object's quest counted for the target")
 end)
 
 step("the next day counts again, and Buddy plays the fanfare", function()
@@ -503,7 +503,7 @@ step("the next day counts again, and Buddy plays the fanfare", function()
     MOCK.units.npc = LYMPKIN
     FireAll("QUEST_COMPLETE")
     assert(Points(8720) == 325, "points " .. tostring(Points(8720)))
-    assert(ns.Friendship.IsBuddy(BuddyDexDB.friends[8720]), "not a Buddy")
+    assert(ns.Friendship.IsBuddy(BuddyDexCharDB.friends[8720]), "not a Buddy")
     local fanfare = false
     for _, kit in ipairs(MOCK.played) do
         if kit == "UI_GARRISON_TOAST_FOLLOWER_GAINED" then fanfare = true end
@@ -512,7 +512,7 @@ step("the next day counts again, and Buddy plays the fanfare", function()
     -- An Ironforge Guard is one of many: talking to one makes no friend.
     MOCK.units.npc = GUARD
     FireAll("GOSSIP_SHOW")
-    assert(BuddyDexDB.friends[5595] == nil, "an Ironforge Guard became a friend")
+    assert(BuddyDexCharDB.friends[5595] == nil, "an Ironforge Guard became a friend")
     MOCK.units.npc = GUARD_THOMAS
     FireAll("GOSSIP_SHOW")
     MOCK.units.npc = nil
@@ -538,7 +538,7 @@ step("one of many, or someone", function()
     ns.Lore[68] = nil
     MOCK.units.target = GUARD
     SlashCmdList.BUDDYDEX("give 100")
-    assert(BuddyDexDB.friends[5595] == nil and Printed("Every Ironforge Guard is the same NPC"), "/bd give befriended a guard")
+    assert(BuddyDexCharDB.friends[5595] == nil and Printed("Every Ironforge Guard is the same NPC"), "/bd give befriended a guard")
     MOCK.units.target = nil
 end)
 
@@ -558,7 +558,7 @@ step("a loaded model caches display and moves, and the NPC greets", function()
     MOCK.model.anims[npc] = { [0] = true, [67] = true, [69] = true }
     for _, f in ipairs(FindByKind("DressUpModel")) do MOCK.Fire(f, "OnModelLoaded") end
     MOCK.Advance(1)
-    local e = BuddyDexDB.friends[npc]
+    local e = BuddyDexCharDB.friends[npc]
     assert(e.display == 7028, "display not cached")
     assert(type(e.moves) == "table" and #e.moves == 2, "moves not cached")
     local greeted = false
@@ -569,12 +569,12 @@ step("a loaded model caches display and moves, and the NPC greets", function()
 end)
 
 step("the portrait loader fills in every row, only while open", function()
-    for id in pairs(BuddyDexDB.friends) do
+    for id in pairs(BuddyDexCharDB.friends) do
         MOCK.model.displays[id] = MOCK.model.displays[id] or (50000 + id)
         MOCK.model.anims[id] = MOCK.model.anims[id] or { [0] = true, [66] = true }
     end
     MOCK.Advance(20)
-    for id, e in pairs(BuddyDexDB.friends) do assert(e.display, "no portrait for " .. id) end
+    for id, e in pairs(BuddyDexCharDB.friends) do assert(e.display, "no portrait for " .. id) end
 end)
 
 step("search, filters and zone headers", function()
@@ -592,7 +592,7 @@ step("search, filters and zone headers", function()
     filter.__update()
     filter.__default()
     assert(filter.__isDefault() == true, "reset did not restore the defaults")
-    BuddyDexDB.dex.buddiesOnly = true
+    BuddyDexCharDB.dex.buddiesOnly = true
     filter.__update()
     assert(#FriendRows() == 1, "buddies only kept " .. #FriendRows())
     filter.__default()
@@ -649,7 +649,7 @@ step("forget a friendship from the row menu", function()
     end
     assert(forgot, "no forget button")
     MOCK.Advance(1)
-    assert(BuddyDexDB.friends[id] == nil, "still a friend")
+    assert(BuddyDexCharDB.friends[id] == nil, "still a friend")
     assert(#FriendRows() == 1, "row still listed")
 end)
 
@@ -662,13 +662,13 @@ step("side tabs, the settings page and the buddy's checkboxes", function()
     assert(#checks == 10, "expected 10 checkboxes, got " .. #checks)
     for _, check in ipairs(checks) do
         local key = check.settingKey
-        local before = BuddyDexDB.settings[key] and true or false
+        local before = BuddyDexCharDB.settings[key] and true or false
         check:SetChecked(not before)
         MOCK.Fire(check, "OnClick")
-        assert(BuddyDexDB.settings[key] == not before, key .. " not saved")
+        assert(BuddyDexCharDB.settings[key] == not before, key .. " not saved")
         check:SetChecked(before)
         MOCK.Fire(check, "OnClick")
-        assert(BuddyDexDB.settings[key] == before, key .. " not put back")
+        assert(BuddyDexCharDB.settings[key] == before, key .. " not put back")
     end
     tabs[1].__mouseUp(tabs[1], "LeftButton", true)
     assert(BuddyDexFrame.__title == "BuddyDex", "title " .. tostring(BuddyDexFrame.__title))
@@ -708,7 +708,7 @@ step("Thor: met at the flight path, with his own favorite", function()
     MOCK.units.npc = THOR
     FireAll("TAXIMAP_OPENED")
     MOCK.units.npc = nil
-    local e = BuddyDexDB.friends[523]
+    local e = BuddyDexCharDB.friends[523]
     assert(e and e.points == 50, "Thor not met: " .. tostring(e and e.points))
     assert(e.mapID == 1455 and e.x == 0.5641 and e.y == 0.5262, "position not saved")
     local fav = ns.Friendship.Favorite(e, 523)
@@ -723,7 +723,7 @@ step("Farley's merchant friendship discovers his favorite and unlocks his entry"
     MOCK.units.npc = farley
     FireAll("MERCHANT_SHOW")
     MOCK.units.npc = nil
-    local e = BuddyDexDB.friends[295]
+    local e = BuddyDexCharDB.friends[295]
     assert(e and e.points == 60, "Farley was not met through his services")
     assert(not ns.DexDetail.LoreParts(295, e).quote, "Farley's personality unlocked too soon")
     MOCK.units.target = farley
@@ -741,7 +741,7 @@ step("Farley's merchant friendship discovers his favorite and unlocks his entry"
 end)
 
 step("Thor's entry unlocks by tier, and /bd lore previews it", function()
-    local e = BuddyDexDB.friends[523]
+    local e = BuddyDexCharDB.friends[523]
     local parts = ns.DexDetail.LoreParts(523, e)
     assert(not parts.quote and (parts.personalityLocked or ""):find("Reach Acquaintance with Thor to hear from him"),
         "stranger: " .. tostring(parts.personalityLocked))
@@ -845,7 +845,7 @@ step("a waypoint to Thor: TomTom first, then the map's own pin", function()
     TomTom = nil
     assert(ns.Waypoint.Set(523), "map pin not set")
     assert(MOCK.userWaypoint and MOCK.userWaypoint.uiMapID == 1455 and MOCK.superTracked == true, "map pin")
-    local e = BuddyDexDB.friends[523]
+    local e = BuddyDexCharDB.friends[523]
     local x = e.x
     e.x = nil
     assert(not ns.Waypoint.Set(523), "set a waypoint without a position")
@@ -859,7 +859,7 @@ step("the Dex shows Thor's story, his coordinates and the waypoint button", func
     MOCK.Advance(1)
     ns.DexDetail.Show(523)
     MOCK.Advance(1)
-    SetTier(BuddyDexDB.friends[523], 6)
+    SetTier(BuddyDexCharDB.friends[523], 6)
     ns.DexDetail.Redraw()
     local story, coords, button = false, false, nil
     for _, f in ipairs(MOCK.frames) do
@@ -895,7 +895,7 @@ end)
 step("/bd give changes a friendship for testing", function()
     -- The Dex shows Thor; nothing is targeted.
     MOCK.units.target = nil
-    local thor = BuddyDexDB.friends[523]
+    local thor = BuddyDexCharDB.friends[523]
     SlashCmdList.BUDDYDEX("give stranger")
     assert(thor.points == 0, "give stranger: " .. tostring(thor.points))
     MOCK.played = {}
@@ -914,7 +914,7 @@ step("/bd give changes a friendship for testing", function()
     MOCK.units.target = { guid = "Creature-0-1-2-3-6094-0000AB", npcID = 6094, name = "Byancie",
         type = "Humanoid", class = "normal", level = 20, sex = 3, reaction = 5, tip = { "First Aid Trainer", "Level 20" } }
     SlashCmdList.BUDDYDEX("give 120")
-    local e = BuddyDexDB.friends[6094]
+    local e = BuddyDexCharDB.friends[6094]
     assert(e and e.points == 120, "target not befriended: " .. tostring(e and e.points))
     MOCK.units.target = GUARD
     SlashCmdList.BUDDYDEX("give nonsense")
@@ -957,7 +957,7 @@ local function Quiet() MOCK.Advance(30) end
 step("the Mini Me steps onto the screen and says hello", function()
     MOCK.units.player = { name = "Baz", level = 14, sex = 2 }
     MOCK.spoken = {}
-    local settings = BuddyDexDB.settings
+    local settings = BuddyDexCharDB.settings
     -- At full chattiness every comment is said (below it, chance skips some).
     settings.companion, settings.voiceMode, settings.chattiness = true, "recorded", 100
     -- Idle chatter on a timer would talk over the steps below.
@@ -997,7 +997,7 @@ step("lines fade out, small comments wait their turn, big moments don't", functi
     FireAll("PLAYER_LEVEL_UP", 15)
     assert((Saying() or ""):find("15", 1, true), "no level-up line: " .. tostring(Saying()))
     Quiet()
-    BuddyDexDB.settings.chattiness = 0
+    BuddyDexCharDB.settings.chattiness = 0
     MOCK.zone = "Duskwood"
     FireAll("ZONE_CHANGED_NEW_AREA")
     FireAll("PLAYER_LEVEL_UP", 16)
@@ -1005,7 +1005,7 @@ step("lines fade out, small comments wait their turn, big moments don't", functi
     MOCK.units.target = nil
     DoEmote("WAVE")
     assert(FromPile(Saying(), ns.Lines.waveBack), "didn't answer a wave at Quiet")
-    BuddyDexDB.settings.chattiness = 100
+    BuddyDexCharDB.settings.chattiness = 100
 end)
 
 step("no line comes back until its pile is used up", function()
@@ -1206,7 +1206,7 @@ step("low on health in a fight, it worries, once", function()
     chances.lowHealth = saved
     assert(FromPile(said, ns.Lines.lowHealth), "no worried line at 12% health: " .. tostring(said))
     assert(again == nil or again == said, "worried twice in one fight")
-    assert(BuddyDexDB.probe and BuddyDexDB.probe.healthInCombat == "readable", "didn't note whether health was readable")
+    assert(BuddyDexCharDB.probe and BuddyDexCharDB.probe.healthInCombat == "readable", "didn't note whether health was readable")
 end)
 
 step("the ghost walk gets its own lines", function()
@@ -1230,14 +1230,14 @@ step("the options page: voice, size, see-through", function()
     for _, child in ipairs(root.children) do
         if child.text == "Off" then child.b(child.data) end
     end
-    assert(BuddyDexDB.settings.voiceMode == "off", "the voice dropdown did not save")
+    assert(BuddyDexCharDB.settings.voiceMode == "off", "the voice dropdown did not save")
     ns.Companion.SetSetting("voiceMode", "recorded")
     local _, out = Dropdown("Your Mini Me")
     assert(out, "no Who's out dropdown")
     for _, slider in ipairs(FindFrames("MinimalSliderWithSteppersTemplate")) do
         if slider.__min == 0.5 then
             slider:SetValue(1.5)
-            assert(BuddyDexDB.settings.scale == 1.5, "size not saved")
+            assert(BuddyDexCharDB.settings.scale == 1.5, "size not saved")
             assert(BuddyDexCompanion:GetScale() == 1, "the frame was scaled, which cuts the model off")
             assert(BuddyDexCompanion.__w == 250 * 1.5 and BuddyDexCompanion.__h == 190 * 1.5, "the frame didn't grow")
             local p = BuddyDexCompanion.__points[#BuddyDexCompanion.__points]
@@ -1249,11 +1249,11 @@ step("the options page: voice, size, see-through", function()
             slider:SetValue(1)
         elseif slider.__min == 0.2 then
             slider:SetValue(0.6)
-            assert(BuddyDexDB.settings.alpha == 0.6, "see-through not saved")
+            assert(BuddyDexCharDB.settings.alpha == 0.6, "see-through not saved")
             slider:SetValue(1)
         elseif slider.__min == 0 and slider.__max == 100 then
             slider:SetValue(25)
-            assert(BuddyDexDB.settings.chattiness == 25, "chattiness not saved")
+            assert(BuddyDexCharDB.settings.chattiness == 25, "chattiness not saved")
             assert(slider.__formatters[MinimalSliderWithSteppersMixin.Label.Right](0) == "Quiet", "0 isn't Quiet")
             slider:SetValue(100)
         end
@@ -1284,7 +1284,7 @@ step("poke, the menu, hiding it and /bd buddy", function()
     end
     assert(lockItem and lockItem.text == "Lock in place", "no lock toggle in the menu")
     lockItem.a(lockItem.data)
-    assert(BuddyDexDB.settings.locked == true, "Lock in place didn't lock it")
+    assert(BuddyDexCharDB.settings.locked == true, "Lock in place didn't lock it")
     MOCK.Fire(BuddyDexCompanion, "OnClick", "RightButton")
     menu = MOCK.lastContextMenu
     local unlock
@@ -1293,26 +1293,26 @@ step("poke, the menu, hiding it and /bd buddy", function()
     end
     assert(unlock, "a locked buddy's menu has no Unlock")
     unlock.a(unlock.data)
-    assert(BuddyDexDB.settings.locked == false, "Unlock didn't unlock it")
+    assert(BuddyDexCharDB.settings.locked == false, "Unlock didn't unlock it")
     MOCK.ClickEverything(menu)
     MOCK.Advance(1)
-    assert(BuddyDexDB.settings.companion == false and not BuddyDexCompanion:IsShown(), "Hide did not hide it")
+    assert(BuddyDexCharDB.settings.companion == false and not BuddyDexCompanion:IsShown(), "Hide did not hide it")
     SlashCmdList.BUDDYDEX("buddy")
     MOCK.Advance(2)
-    assert(BuddyDexDB.settings.companion == true and BuddyDexCompanion:IsShown(), "/bd buddy did not bring it back")
+    assert(BuddyDexCharDB.settings.companion == true and BuddyDexCompanion:IsShown(), "/bd buddy did not bring it back")
 end)
 
 step("Thor comes along in the Mini Me's place, and goes home", function()
     -- The menu test clicked everything, Bring along included.
     ns.Companion.SetBuddy(nil)
     Quiet()
-    local thor = BuddyDexDB.friends[523]
+    local thor = BuddyDexCharDB.friends[523]
     SetTier(thor, 6)
     MOCK.model.anims[523] = { [0] = true, [60] = true, [67] = true, [68] = true }
     -- What the Dex learns when it loads him (tested above): his real display.
     MOCK.model.heights[3263] = 2
     ns.Database.SetModelInfo(523, 3263, { 60, 67, 68 })
-    BuddyDexDB.settings.voiceMode = "recorded"
+    BuddyDexCharDB.settings.voiceMode = "recorded"
     MOCK.played = {}
     local function Played(kit)
         for _, k in ipairs(MOCK.played) do if k == kit then return true end end
@@ -1354,11 +1354,11 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     MOCK.played = {}
     ns.Voice.Speak({ display = 3263, moment = "pokeMany" })
     assert(Played(5976), "poked too often, Thor was not annoyed")
-    BuddyDexDB.settings.voiceMode = "off"
+    BuddyDexCharDB.settings.voiceMode = "off"
     MOCK.played = {}
     ns.Voice.Speak({ display = 3263, moment = "greet" })
     assert(#MOCK.played == 0, "Thor spoke with the voice off")
-    BuddyDexDB.settings.voiceMode = "recorded"
+    BuddyDexCharDB.settings.voiceMode = "recorded"
     -- A gnome friend speaks in the Mini Me's recorded gnome voices instead,
     -- line by line. Thor, a human, has a recorded voice too, but this pack
     -- lacks it (an older pack), so he keeps the game's sounds.
