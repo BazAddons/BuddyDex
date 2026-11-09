@@ -1,5 +1,6 @@
 # Unreleased
 
+- Complete Marin Noggenfogger and Eylah Sunhorn: full Goblin/Tauren profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve the elixir collaboration and Forever incense guidance, qualify missing current access evidence and verify Eylah's newer voice route.
 - Complete Mon'ye and Pa'zula: full profiles for two named Forever Troll services, fifteen personal lines and four approved Eleven v4 signatures each. Preserve appearance weaving and the removal of Zalazane's bindings for slain spirits; verify their newer model voice routes.
 - Complete Sprinkle and Nida Winterhoof: full Goblin/Tauren profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve the complete Noggenfogger/yeti connections and Nida's actual Forever incense-supply role; retain normal live eligibility with sparse current reaction fields.
 - Complete Zamja and Dannelor: full Troll/Night Elf profiles, fifteen personal lines and four approved Eleven v4 signatures each. Include Zamja's confirmed Changing Tastes advice and distinguish other teachers' quests from their service referrals; omit later retail events.

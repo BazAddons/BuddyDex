@@ -337,3 +337,10 @@ Next checked identities: Mon'ye 270582 and Pa'zula 266881, [queue](monye-and-paz
 Mon'ye 270582 and Pa'zula 266881 complete: full Troll female profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](cleft-of-shadow-hats-and-senjin-paper-tosses.md) preserves actual services and Pa'zula's slain-spirit quest purpose; newer display routes verified. Development total **358**; public access Alliance 194, Horde 76, unverified 94 (six shared entries overlap). Installed/development-packaged; no publication.
 
 Next checked identities: Marin Noggenfogger 7564 and Eylah Sunhorn 269068, [queue](marin-and-eylah-queue.md). Neither counted complete; sparse current reaction fields retained as unverified.
+
+
+### 2026-11-09: Elixir experiments and incense guidance
+
+Marin Noggenfogger 7564 and Eylah Sunhorn 269068 complete: full Goblin/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](gadgetzan-labels-and-thunder-bluff-yawns.md) preserves Classic/Forever roles and excludes later literary/corporate/class history. Development total **360**, public access Alliance 194, Horde 76, unverified 96 (six shared entries overlap). Installed/development-packaged; no publication.
+
+Next checked Forsaken identities: Apothecary Johaan 1518 and Carolai Anise 2132, [queue](johaan-and-carolai-queue.md). Neither counted complete.

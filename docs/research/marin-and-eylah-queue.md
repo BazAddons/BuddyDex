@@ -1,4 +1,6 @@
-# Next: Marin Noggenfogger and Eylah Sunhorn
+# Completed: Marin Noggenfogger and Eylah Sunhorn
+
+Completed 2026-11-09; see [full research and validation](gadgetzan-labels-and-thunder-bluff-yawns.md). Historical planning notes below.
 
 Individually checked identities, 2026-11-09. Neither profile authored or recorded; no personal Scout sighting claimed. Cache: `C:/Users/brett/BuddyDex-builds/marin-eylah-research`.
 

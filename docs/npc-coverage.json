@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 358,
+  "completed_profiles": 360,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 194,
-    "unverified": 94,
+    "unverified": 96,
     "horde": 76
   },
   "npc_race_counts": {
@@ -14,9 +14,9 @@
     "5": 31,
     "4": 14,
     "2": 22,
-    "6": 26,
+    "6": 27,
     "8": 21,
-    "9": 13,
+    "9": 14,
     "96": 3,
     "95": 5
   },
@@ -32,7 +32,7 @@
     "Teldrassil": 5,
     "Badlands": 1,
     "Mulgore": 10,
-    "Thunder Bluff": 9,
+    "Thunder Bluff": 10,
     "Durotar": 17,
     "Orgrimmar": 15,
     "The Barrens": 14,
@@ -40,7 +40,7 @@
     "Stonetalon Mountains": 3,
     "Darnassus": 2,
     "Undercity": 1,
-    "Tanaris": 2,
+    "Tanaris": 3,
     "Silverpine Forest": 1,
     "Thousand Needles": 2,
     "Desolace": 6,
@@ -3465,6 +3465,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7292"
     },
     {
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "zone": "Tanaris",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current node omits reaction; live named/adult/reaction/non-attackability gates required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7564"
+    },
+    {
       "npc_id": 7583,
       "name": "Sprinkle",
       "zone": "Tanaris",
@@ -4459,6 +4470,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/268238"
+    },
+    {
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current node omits reaction; live named/adult/reaction/non-attackability gates required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/269068"
     },
     {
       "npc_id": 270581,

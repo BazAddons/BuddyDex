@@ -1508,7 +1508,7 @@
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -5725,7 +5725,7 @@
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -10775,7 +10775,7 @@
           "name": "Eylah Sunhorn",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -22619,7 +22619,7 @@
           "name": "Marin Noggenfogger",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39762,6 +39762,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 7583,
       "name": "Sprinkle",
       "source": "Existing local backlog; absent from source filter",
@@ -40012,6 +40019,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 274917,
       "name": "Boborus Overvolt",
       "source": "Existing local backlog; absent from source filter",
@@ -40032,20 +40046,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 7564,
-      "name": "Marin Noggenfogger",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 269068,
-      "name": "Eylah Sunhorn",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

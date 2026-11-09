@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 358,
+  "completed_count": 360,
   "remaining_count": 4,
   "completed": [
     {
@@ -2573,6 +2573,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "zone": "Tanaris",
+      "source": "Exact current named adult Goblin/Tauren body, reaction omitted; full own current/Classic relations and installed dialogue, complete elixir/incense text, items and literary/era boundaries; no Scout sighting claimed",
+      "research_notes": "docs/research/gadgetzan-labels-and-thunder-bluff-yawns.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 7583,
       "name": "Sprinkle",
       "zone": "Tanaris",
@@ -3328,6 +3338,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "zone": "Thunder Bluff",
+      "source": "Exact current named adult Goblin/Tauren body, reaction omitted; full own current/Classic relations and installed dialogue, complete elixir/incense text, items and literary/era boundaries; no Scout sighting claimed",
+      "research_notes": "docs/research/gadgetzan-labels-and-thunder-bluff-yawns.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 270581,
       "name": "Fyrenz Vishonar",
       "zone": "Stormwind City",
@@ -3376,16 +3396,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 7564,
-      "name": "Marin Noggenfogger",
-      "zone": "Tanaris",
+      "npc_id": 1518,
+      "name": "Apothecary Johaan",
+      "zone": "Tirisfal Glades",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 269068,
-      "name": "Eylah Sunhorn",
-      "zone": "Thunder Bluff",
+      "npc_id": 2132,
+      "name": "Carolai Anise",
+      "zone": "Tirisfal Glades",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

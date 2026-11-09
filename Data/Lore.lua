@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Marin Noggenfogger, Gadgetzan, adult male Goblin, 7564/display 7185.
+    -- Classic 2605/2606/2641/2661/2662: dew experiment, Sprinkle's powder,
+    -- commercial excitement. Exact desert/camp gossip. Large signatures
+    -- are ours; no later baron/cartel/rogue/marital history imported.
+    -- Research: docs/research/gadgetzan-labels-and-thunder-bluff-yawns.md.
+    [7564] = {
+        quote = "A name like Noggenfogger ought to fit on something important. I may need a larger label.",
+        likes = { "Imagining a very long line of customers", "A drink improved beyond its first taste", "Room for a magnificent signature" },
+        dislikes = { "The desert heat under his feet", "Vultures interrupting his curiosity", "A label that runs out of space" },
+        gossip = "Marin has been practicing a magnificent signature. The name keeps growing, though nobody has seen him find a bottle large enough for the label.",
+        bio = "Marin experiments in Gadgetzan, hoping thistleshrub dew will quench his thirst. When it tastes awful, he turns to his chef friend Sprinkle. Her Violet Powder helps him finish his elixir, and he immediately imagines a fortune in sales.",
+        backstory = "Marin practiced a grand signature for delighted future customers. It filled most of the label. He tried again, making it larger. The writing looked more impressive, but the bottle's contents now had almost nowhere to be named.",
+        secret = "He knows the label needs room for more than his signature. Sometimes he writes Noggenfogger twice anyway, just to enjoy how important it looks before starting again.",
+        bestFriend = "Stay a little. I want your opinion before I make the label any larger. Tell me when I have gone too far. You may have to say it twice.",
+        favorite = { emote = "APPLAUD", hint = "Imagines an appreciative audience for that magnificent name." },
+        lines = {
+            greet = { { "There you are. A moment, please. Tell me whether this signature looks sufficiently impressive. Noggenfogger. A name worth remembering, wouldn't you say? Yes, I know there should be room for the contents. I am still working out that rather inconvenient detail.", tone = "[animated] [self-satisfied]" },
+                "Good to see you. Have you heard my latest idea? There is still time to appreciate it." },
+            idle = { { "I practiced signing a label for my future delighted customers. A fine flourish, very impressive. Unfortunately, the name filled most of the space. I tried again and made it larger. This may be a problem with the size of the bottle.", tone = "[wry] [theatrical]" },
+                "Noggenfogger. Yes, that deserves a little more room.",
+                "The sand is hot enough without a vulture encouraging me to move faster." },
+            befriended = { { "You will listen to an idea, enjoy the exciting part, and still tell me when the label has become ridiculous. Useful company. Come along. There may be something worth noticing today, and I would rather have someone beside me to appreciate it.", tone = "[pleased] [conspiratorial]" } },
+            poke = { "Yes? Is the flourish too large? Think carefully before answering.", "I am listening. I can imagine the customers afterward." },
+            quest = { { "The dew was a promising idea with a rather unfortunate taste. Sprinkle knew how to improve that part. A useful friend to have when an invention needs a little help. Now, if you stand just over there, I can explain how successful it might become.", tone = "[enthusiastic] [businesslike]" } },
+            loot = { "Potential. I like finding that before someone else names a price." },
+            bagsFull = { "Space. Always the detail that interferes with an excellent plan." },
+            rest = { "Somewhere cool to sit would improve my next idea considerably." },
+            zone = { "A new place. I wonder what people here might find irresistible." },
+            combatEnd = { "Still here. Good. I had not finished imagining the successful part." },
+            hearth = { "Back to familiar surroundings, and perhaps a little shade." },
+        },
+    },
+
+    -- Eylah Sunhorn <Sun Priest of An'she>, Thunder Bluff, adult female
+    -- Tauren, 269068/display 145744; current reaction omitted. Forever
+    -- 97485: incense, varied reverent occasions, gratitude and An'she.
+    -- Contagious yawns are ours. No playable-class training or new blessing.
+    -- Research: docs/research/gadgetzan-labels-and-thunder-bluff-yawns.md.
+    [269068] = {
+        quote = "Give thanks as you are. If that means catching your breath after a long climb, we can begin there.",
+        likes = { "A tired traveler finding a place to rest", "Small, honest occasions for gratitude", "Warm sunlight after a long morning" },
+        dislikes = { "Making reverence into a performance", "Embarrassing someone for being weary", "A yawn halfway through a greeting" },
+        gossip = "Eylah's welcome can make a weary visitor relax enough to yawn. Sometimes she catches it too, which rather spoils her solemn expression.",
+        bio = "Eylah is a Sun Priest of An'she in Thunder Bluff. She guides visitors through an incense tradition at Hunter's Rise, explaining its varied occasions and practices. She hopes their travels bring many reasons to give thanks.",
+        backstory = "A tired visitor once apologized for yawning during Eylah's welcome. Before she could answer, she yawned too. They laughed, and the visitor finally sat down. She remembered how much easier an honest moment had made the meeting.",
+        secret = "Warm sunlight and somebody else's yawn can undo her most dignified greeting. She would rather share a quiet laugh than make a weary visitor feel ashamed of needing rest.",
+        bestFriend = "Sit beside me. We can be glad of the day without pretending it has not tired us. I am grateful that you came, exactly as you are.",
+        favorite = { emote = "SMILE", hint = "Welcomes a little shared warmth when a solemn greeting becomes an ordinary moment." },
+        lines = {
+            greet = { { "Welcome, friend. Take a moment to catch your breath. There is no need to make your arrival more dignified than the road has left you feeling. I am glad you came. If you need to sit before saying anything else, there is time.", tone = "[gentle] [welcoming]" },
+                "Good to see you. You need not hide that you have had a long day." },
+            idle = { { "A visitor once apologized for yawning during my welcome. I was about to reassure them when I yawned too. That rather settled the matter. We laughed, they sat down, and the rest of the conversation became a great deal more comfortable.", tone = "[warm] [amused]" },
+                "A pleasant patch of sunlight. I may have to give up looking entirely solemn.",
+                "Small reasons for gratitude are still reasons." },
+            befriended = { { "You have made time to return, and I look forward to your company. Come along, friend. We may find something to be grateful for in the day, and we need not make a grand performance of noticing it together when we do.", tone = "[affectionate] [sincere]" } },
+            poke = { "Yes? I am listening, even if that yawn suggested otherwise.", "There is time. Tell me what you wished to say." },
+            quest = { { "There are many reasons to spread incense to the winds: seeking guidance, asking care for someone, marking an occasion. Practices differ, and people bring their own reasons. Take part with reverence, and leave room for the gratitude you find in your own life.", tone = "[reverent] [thoughtful]" } },
+            rest = { "Sit. Being glad of the day does not mean refusing a little rest." },
+            zone = { "Somewhere new, with its own occasions for gratitude." },
+            learned = { "Listen with care. There is room to learn without pretending to know already." },
+            laughAlong = { "Yes, I caught the yawn again. You may smile." },
+            combatEnd = { "A moment to breathe. I am glad we have it." },
+            hearth = { "Familiar ground, and company I am grateful to see." },
+        },
+    },
+
     -- Mon'ye <Transmogrifier>, Cleft of Shadow, adult female Troll,
     -- 270582/display 146415; current Horde-friendly. Exact installed
     -- appearance-weaving offer; no own quest exposed. Her hat indecision

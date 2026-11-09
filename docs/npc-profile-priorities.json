@@ -756,6 +756,20 @@
       "zone": "Thunder Bluff",
       "route": "Connected Goblin/Tauren quest contacts",
       "reason": "Exact current named adult body checked; connected full quest text reviewed, own service/literary research pending. See docs/research/marin-and-eylah-queue.md; faction access remains unverified"
+    },
+    {
+      "npc_id": 1518,
+      "name": "Apothecary Johaan",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Forsaken quest/trainer coverage",
+      "reason": "Exact current named adult body, Horde-friendly icon and Brill pin checked; full personal/service/quest/literary research pending. See docs/research/johaan-and-carolai-queue.md"
+    },
+    {
+      "npc_id": 2132,
+      "name": "Carolai Anise",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Forsaken quest/trainer coverage",
+      "reason": "Exact current named adult body, Horde-friendly icon and Brill pin checked; full personal/service/quest/literary research pending. See docs/research/johaan-and-carolai-queue.md"
     }
   ]
 }

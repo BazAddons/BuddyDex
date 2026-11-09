@@ -39,6 +39,46 @@
     "text": "Sit for a while. We can hear about the dangerous places after you have caught your breath. Supper will not demand a heroic account before allowing you to enjoy it. At least, mine never has.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore269068_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:269068",
+    "spoken": "[affectionate] [sincere] You have made time to return, and I look forward to your company. Come along, friend. We may find something to be grateful for in the day, and we need not make a grand performance of noticing it together when we do.",
+    "text": "You have made time to return, and I look forward to your company. Come along, friend. We may find something to be grateful for in the day, and we need not make a grand performance of noticing it together when we do.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore269068_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:269068",
+    "spoken": "[gentle] [welcoming] Welcome, friend. Take a moment to catch your breath. There is no need to make your arrival more dignified than the road has left you feeling. I am glad you came. If you need to sit before saying anything else, there is time.",
+    "text": "Welcome, friend. Take a moment to catch your breath. There is no need to make your arrival more dignified than the road has left you feeling. I am glad you came. If you need to sit before saying anything else, there is time.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore269068_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:269068",
+    "spoken": "[warm] [amused] A visitor once apologized for yawning during my welcome. I was about to reassure them when I yawned too. That rather settled the matter. We laughed, they sat down, and the rest of the conversation became a great deal more comfortable.",
+    "text": "A visitor once apologized for yawning during my welcome. I was about to reassure them when I yawned too. That rather settled the matter. We laughed, they sat down, and the rest of the conversation became a great deal more comfortable.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore269068_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:269068",
+    "spoken": "[reverent] [thoughtful] There are many reasons to spread incense to the winds: seeking guidance, asking care for someone, marking an occasion. Practices differ, and people bring their own reasons. Take part with reverence, and leave room for the gratitude you find in your own life.",
+    "text": "There are many reasons to spread incense to the winds: seeking guidance, asking care for someone, marking an occasion. Practices differ, and people bring their own reasons. Take part with reverence, and leave room for the gratitude you find in your own life.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3009_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

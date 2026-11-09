@@ -2,6 +2,7 @@
 
 ## More friends across Azeroth
 
+- Add Marin Noggenfogger and Eylah Sunhorn, with full Goblin/Tauren personalities, fifteen personal lines and four approved v4 recordings each; preserve Classic elixir work and Forever incense guidance.
 - Add Forever's Mon'ye and Pa'zula, with full Troll personalities, fifteen personal lines and four approved v4 recordings each; preserve their actual appearance/enchanting services and Pa'zula's quest purpose.
 - Add Sprinkle and Nida Winterhoof, with full Goblin/Tauren personalities, fifteen personal lines and four approved v4 recordings each; include Nida's verified Forever incense-supply role.
 - Add Zamja and Dannelor, with full Troll/Night Elf personalities, fifteen personal lines and four approved v4 recordings each; include Zamja's verified Forever homestyle-cooking advice.
@@ -18,7 +19,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **358 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **360 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.
