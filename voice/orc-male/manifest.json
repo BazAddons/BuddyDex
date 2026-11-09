@@ -39,6 +39,46 @@
     "text": "You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3191_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3191",
+    "spoken": "[gruff sincere friendship, slightly embarrassed, warm dry humor] Fine, I'll come along. You've done more than turn up hungry and disappear when there's work to be done. I like having you around. There, said it. You needn't stand looking surprised until dinner. Come on, we'll find somewhere to stop when it's time to eat.",
+    "text": "Fine, I'll come along. You've done more than turn up hungry and disappear when there's work to be done. I like having you around. There, said it. You needn't stand looking surprised until dinner. Come on, we'll find somewhere to stop when it's time to eat.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3191_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3191",
+    "spoken": "[gruff practical welcome, brisk concern, dry warmth] All right, let's go. If you've skipped a meal to get here, say so now. I don't want to hear about your great plans while your stomach argues louder than you do. A little food and some sense will carry you farther than pretending you need neither of them.",
+    "text": "All right, let's go. If you've skipped a meal to get here, say so now. I don't want to hear about your great plans while your stomach argues louder than you do. A little food and some sense will carry you farther than pretending you need neither of them.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3191_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3191",
+    "spoken": "[blunt guarded hope, matter-of-fact, faintly defensive affection] Those seeds are for planting. Not rubbish, not a decoration, and not something I put aside because I enjoy making more work for myself. The troops get enough meat and fish. I'd like to see something sweet growing closer to hand. There's nothing complicated about wanting that.",
+    "text": "Those seeds are for planting. Not rubbish, not a decoration, and not something I put aside because I enjoy making more work for myself. The troops get enough meat and fish. I'd like to see something sweet growing closer to hand. There's nothing complicated about wanting that.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3191_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3191",
+    "spoken": "[brisk practical approval, firm instruction, restrained warmth] Good. Useful work finished, and something to show for it. That's worth more than a fine account of what you nearly did. Now put what you've brought somewhere it won't be crushed, scattered, or stepped on. The last bit of care still matters when you're almost done.",
+    "text": "Good. Useful work finished, and something to show for it. That's worth more than a fine account of what you nearly did. Now put what you've brought somewhere it won't be crushed, scattered, or stepped on. The last bit of care still matters when you're almost done.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3310_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

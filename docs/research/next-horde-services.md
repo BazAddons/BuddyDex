@@ -16,3 +16,5 @@ Torka's current node explicitly reports Horde-friendly reaction, trainer service
 Starting primary references: [Classic Gennia](https://classicdb.ch/?npc=3064), [Classic Pyall](https://www.wowhead.com/classic/npc=3067/pyall-silentstride), [Classic Kauth](https://www.wowhead.com/classic/npc=6747/innkeeper-kauth). Do not use retail scaled levels, modern profession recipes or shared-surname player speculation as Forever facts. The filtered external catalog omitted these three Tauren identities; preserve them in the explicit priority queue without fabricating Scout encounters.
 
 Verified IDs prevent wrong-name associations: Gennia is 3064, Kauth is 6747, and Torka is 3191. No profiles were created from guessed alternatives. Adult/named/faction/attackability gates remain unchanged. The remaining old Westfall availability questions and the wider 1,481-plus name research pool are not marked complete by this new rotation.
+
+Gennia and Torka are now complete; see [their full research](bloodhoof-druid-and-razor-hill-cook.md). Pyall and Kauth remain pending. Gennia's missing current faction icon is preserved in the public audit; no exception to live eligibility was added.

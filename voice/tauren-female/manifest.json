@@ -38,5 +38,45 @@
     "spoken": "[low feminine encouraging teacher, patient, practical warmth] You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you.",
     "text": "You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3064_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3064",
+    "spoken": "[sincere calm affection, gentle gratitude, contented warmth] I would be happy to accompany you. We have spent enough time speaking of what must be learned; I have also come to enjoy the person doing the learning. Let us share a little of the road as friends. There need not be another task at the end of every conversation.",
+    "text": "I would be happy to accompany you. We have spent enough time speaking of what must be learned; I have also come to enjoy the person doing the learning. Let us share a little of the road as friends. There need not be another task at the end of every conversation.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3064_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3064",
+    "spoken": "[patient grounded welcome, warm curiosity, unhurried kindness] Come, let us walk together. There is always more to notice than a lesson has time to contain. You may tell me what has been occupying your thoughts, or we can enjoy a quiet stretch of the path. Your company need not arrive carrying a question to be welcome.",
+    "text": "Come, let us walk together. There is always more to notice than a lesson has time to contain. You may tell me what has been occupying your thoughts, or we can enjoy a quiet stretch of the path. Your company need not arrive carrying a question to be welcome.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3064_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3064",
+    "spoken": "[gentle playful amusement, quietly delighted, relaxed warmth] That cloud has the look of a sleeping bear. There, with its nose tucked in. You see only a hill? That is quite all right. It is a small pleasure of mine, not a test of your wisdom. The sky may keep its clouds, and I may keep my bears.",
+    "text": "That cloud has the look of a sleeping bear. There, with its nose tucked in. You see only a hill? That is quite all right. It is a small pleasure of mine, not a test of your wisdom. The sky may keep its clouds, and I may keep my bears.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3064_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3064",
+    "spoken": "[thoughtful encouraging instruction, steady confidence, generous warmth] Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.",
+    "text": "Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
   }
 }

@@ -6535,7 +6535,7 @@
           "source_page": 6,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -12389,7 +12389,7 @@
           "name": "Gennia Runetotem",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39020,6 +39020,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 3064,
+      "name": "Gennia Runetotem",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3143,
       "name": "Gornek",
       "source": "Existing local backlog; absent from source filter",
@@ -39401,13 +39408,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 3064,
-      "name": "Gennia Runetotem",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 3067,

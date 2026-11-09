@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Gennia Runetotem (3064), adult female Tauren druid trainer, Bloodhoof Village.
+    -- Display 3820 / race 6 sex 1. Cenarius/balance gossip; Heeding the Call referral to Turak.
+    -- Cloud-shape pastime is original, not divination. docs/research/bloodhoof-druid-and-razor-hill-cook.md.
+    [3064] = {
+        quote = "Balance asks more of us than standing still. We must notice what needs our care, and be willing to act.",
+        likes = { "Strength guided by a thoughtful heart", "Learners who ask why a lesson matters", "Clouds shaped like sleeping bears" },
+        dislikes = { "Careless harm to the living world", "Mistaking strength for thoughtless force", "Lessons repeated without understanding" },
+        gossip = "Gennia finds a bear in almost every passing cloud. Some pupils wonder whether the sky is offering encouragement. She seems pleased either way.",
+        bio = "Gennia Runetotem teaches druids in Bloodhoof Village, preserving balance as Cenarius taught. When a learner is ready, she sends them to Turak Runetotem in Thunder Bluff for the next stage of their training and the path of the bear.",
+        backstory = "After a long lesson, she looked up and noticed a cloud curled into the shape of a resting bear. Finding another became a pleasant way to pause between duties. Before long, she could spot a sleeping muzzle in some very unlikely clouds.",
+        secret = "There is no hidden lesson in the clouds. She simply enjoys the game. A few of her bears look rather more like hills, but she does not insist that anyone else see them.",
+        bestFriend = "Sit beside me a little. You needn't learn anything to make this time worthwhile. We can simply enjoy the sky together.",
+        favorite = { emote = "NOD", hint = "Show that her counsel has given you something to consider." },
+        lines = {
+            greet = { { "Come, let us walk together. There is always more to notice than a lesson has time to contain. You may tell me what has been occupying your thoughts, or we can enjoy a quiet stretch of the path. Your company need not arrive carrying a question to be welcome.", tone = "[patient grounded welcome, warm curiosity, unhurried kindness]" }, "There you are. Shall we take a little time for ourselves?" },
+            idle = { { "That cloud has the look of a sleeping bear. There, with its nose tucked in. You see only a hill? That is quite all right. It is a small pleasure of mine, not a test of your wisdom. The sky may keep its clouds, and I may keep my bears.", tone = "[gentle playful amusement, quietly delighted, relaxed warmth]" }, "A strong heart gives purpose to a strong body.", "What we protect deserves our attention when there is no danger, too." },
+            befriended = { { "I would be happy to accompany you. We have spent enough time speaking of what must be learned; I have also come to enjoy the person doing the learning. Let us share a little of the road as friends. There need not be another task at the end of every conversation.", tone = "[sincere calm affection, gentle gratitude, contented warmth]" } },
+            poke = { "I am listening. You needn't make a trial of my patience to be heard.", "Yes? Perhaps you have found a cloud I ought to see." },
+            learned = { { "Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.", tone = "[thoughtful encouraging instruction, steady confidence, generous warmth]" } },
+            quest = { "The effort is finished. What do you understand more clearly because of it?" },
+            zone = { "A different place to care for, and much still to notice." },
+            rest = { "A good pause. I shall see whether the clouds have changed their minds about being bears." },
+            lowHealth = { "Take care of the life entrusted to you, including your own." },
+            levelUp = { "Your strength grows. May your purpose remain worthy of it." },
+            hearth = { "Home again. The familiar deserves our care as much as the faraway." },
+        },
+    },
+
+    -- Cook Torka (3191), adult male orc cook/trainer, Razor Hill, Durotar.
+    -- Display 3751 / race 2 sex 0; current Horde friendly. Eggs 815; fruit/seeds 96825; camping 96655.
+    -- Quiet wish to hear an ordinary recruit enjoy future fruit is original; no harvest success claimed.
+    -- docs/research/bloodhoof-druid-and-razor-hill-cook.md.
+    [3191] = {
+        quote = "You can fight better after you've eaten. Sit down before you tell me how little time you have for a meal.",
+        likes = { "Eggs delivered with the shells intact", "A sweet treat for the troops", "Prickly pear seeds saved for planting" },
+        dislikes = { "Clumsy hands around the ingredients", "Every meal becoming someone else's problem", "A good seed thrown away with the scraps" },
+        gossip = "Torka guards his saved seeds with surprising care. Is he counting them? He says they have better uses than being stared at.",
+        bio = "Cook Torka feeds Razor Hill and trains cooks. He needs taillasher eggs for breakfast, seeks prickly pears as a treat for the troops, and saves seeds for future planting. Brakk sends new campers to him to learn cooking and campfire basics.",
+        backstory = "He noticed that hunters and fishers brought plenty of savory food, while something sweet remained a rarity. The prickly pears suggested a better future. He began putting their seeds aside instead of letting tomorrow's possibilities go out with the scraps.",
+        secret = "He would like to hear an ordinary recruit enjoy a pear grown near Orgrimmar without knowing who saved the seed. A satisfied mouthful would be praise enough.",
+        bestFriend = "You can stay without bringing me anything. Sit down and eat. I'll even put the work aside long enough to hear how you've been.",
+        favorite = { emote = "THANK", hint = "A little appreciation tells him the meal was worth the work." },
+        lines = {
+            greet = { { "All right, let's go. If you've skipped a meal to get here, say so now. I don't want to hear about your great plans while your stomach argues louder than you do. A little food and some sense will carry you farther than pretending you need neither of them.", tone = "[gruff practical welcome, brisk concern, dry warmth]" }, "There you are. Tell me you've eaten before asking what we're doing next." },
+            idle = { { "Those seeds are for planting. Not rubbish, not a decoration, and not something I put aside because I enjoy making more work for myself. The troops get enough meat and fish. I'd like to see something sweet growing closer to hand. There's nothing complicated about wanting that.", tone = "[blunt guarded hope, matter-of-fact, faintly defensive affection]" }, "Breakfast never stays finished. Someone always wants lunch next.", "An egg does not become easier to cook after you drop everything else on top of it." },
+            befriended = { { "Fine, I'll come along. You've done more than turn up hungry and disappear when there's work to be done. I like having you around. There, said it. You needn't stand looking surprised until dinner. Come on, we'll find somewhere to stop when it's time to eat.", tone = "[gruff sincere friendship, slightly embarrassed, warm dry humor]" } },
+            poke = { "Use your voice. That's how people ask a cook a question.", "Careful with those hands. I have enough clumsy help to contend with." },
+            quest = { { "Good. Useful work finished, and something to show for it. That's worth more than a fine account of what you nearly did. Now put what you've brought somewhere it won't be crushed, scattered, or stepped on. The last bit of care still matters when you're almost done.", tone = "[brisk practical approval, firm instruction, restrained warmth]" } },
+            bagsFull = { "Mind the eggs! If everything has to be shoved, something ought to be left behind." },
+            loot = { "Anything useful for a meal? Look before you throw it in with the scraps." },
+            learned = { "Good. Practice it properly. Knowing the recipe isn't the same as feeding someone." },
+            rest = { "Sit. Eat if you need to. Being tired won't make the next job easier." },
+            levelUp = { "Stronger already. Keep eating enough to be useful tomorrow, too." },
+            hearth = { "Home. I hope somebody remembered there would be hungry people coming back." },
+        },
+    },
+
     -- Aamelia Windfield (252800), adult female High Order Skyborne, Windfield Orchard.
     -- Display 137628 / race 95 sex 1; both-friendly. Alvarion's wife; full orchard chain 92679-92703.
     -- Bandit extortion, household dust and family hint are primary; no invented birth or construct history.

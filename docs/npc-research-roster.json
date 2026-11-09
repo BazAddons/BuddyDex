@@ -518,5 +518,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current both-friendly adult identity/model, all eight orchard/construct quest relations, full available primary progress/completion and Alvarion spoken history, installed gossip; no Scout sighting claimed",
     "research_notes": "docs/research/aamelia-windfield.md"
+  },
+  {
+    "npc_id": 3064,
+    "name": "Gennia Runetotem",
+    "zone": "Mulgore",
+    "source": "Reviewed current adult identity/model, full bear referral or food/camping chains with available primary progress/completion, installed training gossip and Atlas; sparse Gennia reaction audit preserved; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-druid-and-razor-hill-cook.md"
+  },
+  {
+    "npc_id": 3191,
+    "name": "Cook Torka",
+    "zone": "Durotar",
+    "source": "Reviewed current adult identity/model, full bear referral or food/camping chains with available primary progress/completion, installed training gossip and Atlas; sparse Gennia reaction audit preserved; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-druid-and-razor-hill-cook.md"
   }
 ]

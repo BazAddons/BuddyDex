@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Gennia Runetotem and Cook Torka, each with fifteen personal lines and four Eleven v4 signatures. Include the full bear-training referral and Torka's Forever fruit/seed and camping roles.
+
 - Complete Aamelia Windfield with fifteen personal lines and four Eleven v4 signatures, researched through the full orchard story, Alvarion's account and construct side quest.
 
 - Complete Aarnor Galestrike with fifteen personal lines and four Eleven v4 signatures, researched through the full fire-totem chain and kept Horde-friendly only.

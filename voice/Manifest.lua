@@ -4872,12 +4872,16 @@ ns.VoicePack = {
         },
         ["orc-male"] = {
             ["I would be glad to have your company. There, you heard me. You have earned more than another task to carry away from the Den. Tell me where you would like to go, and I will try to leave a few of my warnings behind."] = "orc-male\\lore3143_befriended_1.ogg",
+            ["Fine, I'll come along. You've done more than turn up hungry and disappear when there's work to be done. I like having you around. There, said it. You needn't stand looking surprised until dinner. Come on, we'll find somewhere to stop when it's time to eat."] = "orc-male\\lore3191_befriended_1.ogg",
             ["You're more than a fare and a destination to me, friend."] = "orc-male\\lore3310_befriended_1.ogg",
             ["Still in one piece? Good. Come here and tell me what you have been doing. I expect there is something worth hearing beneath all that dust. If you have done well, I might even say so without immediately finding another thing to warn you about."] = "orc-male\\lore3143_greet_1.ogg",
+            ["All right, let's go. If you've skipped a meal to get here, say so now. I don't want to hear about your great plans while your stomach argues louder than you do. A little food and some sense will carry you farther than pretending you need neither of them."] = "orc-male\\lore3191_greet_1.ogg",
             ["Ready? There's a whole world beyond the edge of that tower."] = "orc-male\\lore3310_greet_1.ogg",
             ["Well done. That should be simple enough to say. Two words. Yet somehow I keep finding a warning to put after them. You may remind me to stop when I have already made my point. Once. Do not make a new habit of it."] = "orc-male\\lore3143_idle_1.ogg",
+            ["Those seeds are for planting. Not rubbish, not a decoration, and not something I put aside because I enjoy making more work for myself. The troops get enough meat and fish. I'd like to see something sweet growing closer to hand. There's nothing complicated about wanting that."] = "orc-male\\lore3191_idle_1.ogg",
             ["Some riders count the coins. I watch for the smile when they come back."] = "orc-male\\lore3310_idle_1.ogg",
             ["You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it."] = "orc-male\\lore3143_quest_1.ogg",
+            ["Good. Useful work finished, and something to show for it. That's worth more than a fine account of what you nearly did. Now put what you've brought somewhere it won't be crushed, scattered, or stepped on. The last bit of care still matters when you're almost done."] = "orc-male\\lore3191_quest_1.ogg",
             ["Hands steady. Pack secure. Now look out there... that's yours to see."] = "orc-male\\lore3310_taxi_1.ogg",
         },
         ["skyborne-female"] = {
@@ -5630,9 +5634,13 @@ ns.VoicePack = {
         },
         ["tauren-female"] = {
             ["I would be glad to share your path for a while. Tell me what has stayed with you from the day. A lesson, a worry, or something that made you smile. Good company leaves room for all of them, and I have come to value yours."] = "tauren-female\\lore3062_befriended_1.ogg",
+            ["I would be happy to accompany you. We have spent enough time speaking of what must be learned; I have also come to enjoy the person doing the learning. Let us share a little of the road as friends. There need not be another task at the end of every conversation."] = "tauren-female\\lore3064_befriended_1.ogg",
             ["Welcome, friend. Come and tell me what you have learned since we last spoke. There is time to listen. If you notice my foot tapping, I have a small rhythm caught in my thoughts. It may escape the moment I try to explain it."] = "tauren-female\\lore3062_greet_1.ogg",
+            ["Come, let us walk together. There is always more to notice than a lesson has time to contain. You may tell me what has been occupying your thoughts, or we can enjoy a quiet stretch of the path. Your company need not arrive carrying a question to be welcome."] = "tauren-female\\lore3064_greet_1.ogg",
             ["I like listening to rain on the tent. A few drops find a rhythm, and I try following it with my foot. Then the pattern changes, and I have to begin again. It is a pleasant way to discover how quickly certainty can turn into laughter."] = "tauren-female\\lore3062_idle_1.ogg",
+            ["That cloud has the look of a sleeping bear. There, with its nose tucked in. You see only a hill? That is quite all right. It is a small pleasure of mine, not a test of your wisdom. The sky may keep its clouds, and I may keep my bears."] = "tauren-female\\lore3064_idle_1.ogg",
             ["You have taken another step. Give yourself time to understand it, and bring me the questions that follow. I hope each lesson leaves you better prepared, but you need not pretend that learning is finished. We can speak again, and look at what experience has shown you."] = "tauren-female\\lore3062_learned_1.ogg",
+            ["Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready."] = "tauren-female\\lore3064_learned_1.ogg",
         },
         ["tauren-male"] = {
             ["I would be glad to come along. You seem to remember there are people at the end of the road who need what we bring back. That matters to me. And if we find a good meal, I promise to divide the last spoonful fairly."] = "tauren-male\\lore2980_befriended_1.ogg",
