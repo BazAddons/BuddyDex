@@ -41,6 +41,85 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lucan Cordell <Expert Enchanter> and Jessara Cordell <Enchanting Supplies>,
+    -- Canals, Stormwind. Adult humans; displays 1492 male / 1481 female.
+    -- Current trainer/vendor data and installed Classic gossip corroborate roles.
+    -- Catherine Leland <Fishing Supplier>, Canals; human woman, display 3290.
+    -- Forever 95065 names her as Gilbert Gray's bait supplier, not quest giver.
+    -- Ink ducks / blue bottle / paper boats are original BuddyDex hooks.
+    -- Research: docs/research/canals-enchanting-and-fishing.md.
+    [1317] = {
+        quote = "Knowing when to ask a better enchanter is part of knowing the craft. Pride is a poor substitute for another lesson.",
+        likes = { "A student ready for the next lesson", "Knowing when to ask for advice", "A spare page for a little drawing" },
+        dislikes = { "Confidence without preparation", "Pretending he has nothing left to learn", "His ink ducks resembling slippers" },
+        gossip = "Lucan's notes occasionally include a small ink drawing. The enchantments are clear enough; identifying the bird requires imagination.",
+        bio = "Lucan Cordell teaches enchanting in a shop beside Stormwind's Canals. He expects preparation from his students, directs beginners to Betty, and readily recommends Kitta Firewind when a learner needs knowledge beyond his own.",
+        backstory = "A duck on the canal stayed still long enough for him to attempt a sketch. It left before he had finished the feet. He tried another on a spare page, finding this small, ordinary skill rather more elusive than expected.",
+        secret = "He has kept the worst drawing. It reminds him how much easier it is to attempt something awkward when nobody is demanding that he be an expert at it.",
+        bestFriend = "Does that look more like a duck? Be honest. I can take correction, especially from someone willing to sit through another attempt.",
+        favorite = { emote = "PRAISE", hint = "Thoughtful appreciation means more to him than a claim that he has nothing left to learn." },
+        lines = {
+            greet = { { "Good to see you. Have you come with a question, or simply for company? Either is welcome. I was taking a moment over a drawing, and I suspect the duck would have several corrections to offer.", tone = "[thoughtful scholarly warmth, dry self-deprecating amusement]" }, "Tell me where you have reached in your practice. There is no shame in needing the next lesson." },
+            idle = { { "The enchantments in my notes are quite legible. The small ink shapes are meant to be ducks. I mention that because a friend once asked why I had drawn so many slippers beside the formulae.", tone = "[dry amused confession, relaxed scholarly warmth]" }, "A little practice does not oblige one to be good at something immediately.", "I think I've improved the beak. The feet remain a separate problem." },
+            befriended = { { "I'd be pleased to join you. A change of surroundings may do me good, and I enjoy your company. If we pass the canal, perhaps you can help me decide what my latest drawing is missing.", tone = "[sincere pleased warmth, gentle wry curiosity]" } },
+            poke = { "Yes? What would you like to ask?", "You have my attention. I was only reconsidering a pair of feet." },
+            learned = { { "Well done. Take time to understand what changed, rather than rushing straight to the next lesson. And if you reach a question I cannot answer, I will gladly help you find someone who can.", tone = "[patient professional encouragement, warm assured sincerity]" } },
+            rest = { "A pause. The page will still be there when we are ready." },
+            loot = { "Worth examining carefully before deciding what use to make of it." },
+            quest = { "Finished? Tell me whether the work taught you anything unexpected." },
+            zone = { "A new place gives the eye something different to practice on." },
+            levelUp = { "Congratulations. Your practice is beginning to show." },
+            hearth = { "Back again. Familiar surroundings can be very pleasant company too." },
+        },
+    },
+    [1318] = {
+        quote = "Tell me what you need before you admire the shine. A lovely finish won't make the wrong material right for your work.",
+        likes = { "Carefully chosen supplies", "Good work from Stormwind's crafters", "Sunlight through ordinary blue glass" },
+        dislikes = { "A scarce material wasted carelessly", "A purchase made without a purpose", "A pretty bottle mistaken for stock" },
+        gossip = "Jessara speaks proudly of the city's arcane craftsmanship. The blue bottle she favors, however, appears to do nothing at all.",
+        bio = "Jessara Cordell sells enchanting supplies beside Lucan in Stormwind's Canals. Her sales talk credits local crafters for keeping good merchandise available after the devastation of Dalaran and Quel'Thalas disrupted supplies.",
+        backstory = "She set an empty blue bottle aside because its shape pleased her. When the light caught it, a patch of color fell across the wood. She found herself moving it a little each day to see where that blue would go.",
+        secret = "There is no enchantment in the bottle. She knows exactly how ordinary it is, and still likes watching its little patch of color as much as anything that glitters on the shelves.",
+        bestFriend = "Sit where you can see the blue on the wood. We needn't find a use for it. I simply thought you might enjoy it too.",
+        favorite = { emote = "SMILE", hint = "A small shared pleasure can earn a quieter response than the most glittering merchandise." },
+        lines = {
+            greet = { { "Welcome back. What are you working on today? Tell me before we choose the supplies. Or, if you've only come to visit, there's a lovely patch of blue light I was about to show you.", tone = "[friendly practical attentiveness, quietly pleased warmth]" }, "Good to see you. Take your time and tell me what you're looking for." },
+            idle = { { "That little blue bottle isn't enchanted. People sometimes look disappointed when I tell them. I rather like that it can make such a lovely patch of color without anybody having to add a spell to it.", tone = "[quiet confiding delight, relaxed thoughtful affection]" }, "Good materials deserve a little care before the work even starts.", "The light has moved. I'll turn the bottle a little." },
+            befriended = { { "I'd like to come with you. It will be pleasant to look at something beyond the shelves for a while. Point out anything you find beautiful. We don't have to decide whether it's useful first.", tone = "[sincere friendly warmth, gentle anticipation]" } },
+            poke = { "Yes? Have you found what you need?", "I was watching the light. Go on, I'm listening." },
+            loot = { { "Let me have a look. What lovely color. You may have a very practical use for it, of course, but I think we're allowed a moment to admire it before we get to that part.", tone = "[engaged appreciative curiosity, softly delighted, conversational]" } },
+            learned = { "Now you know what to look for. That makes choosing the materials easier." },
+            quest = { "Finished? I hope the supplies proved equal to the work." },
+            rest = { "A comfortable place to sit and look around. That will do nicely." },
+            zone = { "There's a different quality to the light here. Do you see it?" },
+            levelUp = { "Well done! Care and practice are a fine combination." },
+            hearth = { "Home again. I wonder where the sunlight has reached by now." },
+        },
+    },
+    [5494] = {
+        quote = "A good day's fishing starts before the first cast. Have a look at your supplies while you're still close enough to buy what you've forgotten.",
+        likes = { "An angler setting out prepared", "A cheerful report of a good catch", "A paper boat that stays upright" },
+        dislikes = { "Running out of bait at the best moment", "An avoidable tangle", "Her little boats going nose-first" },
+        gossip = "Catherine equips anglers for serious fishing. Her own smallest vessels make their voyages in a basin, with no fish aboard at all.",
+        bio = "Catherine Leland supplies anglers beside Stormwind's Canals, west of the Trade District. Gilbert Gray sends adventurers to her for bait when his stock runs low. Poles, lures and fish recipes are all part of her trade.",
+        backstory = "A scrap of paper became a little boat one quiet evening. She tried it in a basin and watched it tip forward. A few different folds improved the next one. Soon launching a boat became a pleasant way to finish the day.",
+        secret = "She still gives a successful launch a little cheer, even when nobody is there to hear it. A boat that stays upright for a whole minute seems worth encouraging.",
+        bestFriend = "Shall we try this fold next? You can name the boat. If it tips over, we'll dry the basin and call it a very short voyage.",
+        favorite = { emote = "CHEER", hint = "Even a very small successful launch deserves some encouragement." },
+        lines = {
+            greet = { { "Good to see you! Are you heading out to fish, or just stopping for a visit? Have a look at your bait before you go. The fish always seem to get interested just as someone's supplies run out.", tone = "[bright practical friendliness, easy welcoming warmth]" }, "Come and tell me how the day has treated you. Any good catches?" },
+            idle = { { "I fold little paper boats and try them in a basin at home. Some go straight onto their noses. But when one stays upright, I give it a cheer. A successful voyage is a successful voyage, however small.", tone = "[cheerful confiding amusement, pleased playful warmth]" }, "One more fold might keep the little boat's nose up.", "A good report from an angler can brighten the whole afternoon." },
+            befriended = { { "I'd be happy to come along. You can show me what you've been finding, and I'll enjoy a change of view. If we sit down for a while, perhaps we can think of a name for my next little boat.", tone = "[warm pleased enthusiasm, relaxed friendly anticipation]" } },
+            poke = { "What can I help you find?", "Yes? Has something interesting come your way?" },
+            loot = { { "Oh, a find! Let's see what you've brought in. I like that moment before you know quite what you've got. Even when it turns out to be ordinary, it's pleasant to have a look together.", tone = "[bright curious interest, gently excited, conversational]" } },
+            rest = { "A fine place for a pause. We can compare the day's stories." },
+            quest = { "Finished your errand? Good. I hope there's time to enjoy the rest of the day." },
+            learned = { "Something new to practice. How did the first try go?" },
+            zone = { "A different view. I wonder what the anglers here have to say." },
+            levelUp = { "Well done! I'd say that deserves a little cheering." },
+            hearth = { "Home again. Time to set things in order before the next outing." },
+        },
+    },
     -- Thomas <Altar Boy>, Cathedral of Light: human boy, friendly, display 262.
     -- Starts 1274: discreet referral to Bishop DeLavey, not an omniscient spy.
     -- Thurman Schneider: human boy/apprentice, Larson Clothiers, display 221.

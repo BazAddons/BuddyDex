@@ -1,0 +1,23 @@
+[
+  {
+    "npc_id": 1317,
+    "name": "Lucan Cordell",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node and installed gossip",
+    "research_notes": "docs/research/canals-enchanting-and-fishing.md"
+  },
+  {
+    "npc_id": 1318,
+    "name": "Jessara Cordell",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node and installed gossip",
+    "research_notes": "docs/research/canals-enchanting-and-fishing.md"
+  },
+  {
+    "npc_id": 5494,
+    "name": "Catherine Leland",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node, quest and installed gossip",
+    "research_notes": "docs/research/canals-enchanting-and-fishing.md"
+  }
+]

@@ -519,6 +519,46 @@
     "text": "Something useful? Keep it safe. And if it only happens to be pretty, you're allowed to enjoy that too.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1318_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1318",
+    "spoken": "[sincere friendly warmth, gentle anticipation] I'd like to come with you. It will be pleasant to look at something beyond the shelves for a while. Point out anything you find beautiful. We don't have to decide whether it's useful first.",
+    "text": "I'd like to come with you. It will be pleasant to look at something beyond the shelves for a while. Point out anything you find beautiful. We don't have to decide whether it's useful first.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1318_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1318",
+    "spoken": "[friendly practical attentiveness, quietly pleased warmth] Welcome back. What are you working on today? Tell me before we choose the supplies. Or, if you've only come to visit, there's a lovely patch of blue light I was about to show you.",
+    "text": "Welcome back. What are you working on today? Tell me before we choose the supplies. Or, if you've only come to visit, there's a lovely patch of blue light I was about to show you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1318_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1318",
+    "spoken": "[quiet confiding delight, relaxed thoughtful affection] That little blue bottle isn't enchanted. People sometimes look disappointed when I tell them. I rather like that it can make such a lovely patch of color without anybody having to add a spell to it.",
+    "text": "That little blue bottle isn't enchanted. People sometimes look disappointed when I tell them. I rather like that it can make such a lovely patch of color without anybody having to add a spell to it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1318_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1318",
+    "spoken": "[engaged appreciative curiosity, softly delighted, conversational] Let me have a look. What lovely color. You may have a very practical use for it, of course, but I think we're allowed a moment to admire it before we get to that part.",
+    "text": "Let me have a look. What lovely color. You may have a very practical use for it, of course, but I think we're allowed a moment to admire it before we get to that part.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1321_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1413,6 +1453,46 @@
     "source": "lore:3937",
     "spoken": "[impressed] New customers, perhaps. I hope someone knows a good oven.",
     "text": "New customers, perhaps. I hope someone knows a good oven."
+  },
+  "lore5494_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5494",
+    "spoken": "[warm pleased enthusiasm, relaxed friendly anticipation] I'd be happy to come along. You can show me what you've been finding, and I'll enjoy a change of view. If we sit down for a while, perhaps we can think of a name for my next little boat.",
+    "text": "I'd be happy to come along. You can show me what you've been finding, and I'll enjoy a change of view. If we sit down for a while, perhaps we can think of a name for my next little boat.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5494_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5494",
+    "spoken": "[bright practical friendliness, easy welcoming warmth] Good to see you! Are you heading out to fish, or just stopping for a visit? Have a look at your bait before you go. The fish always seem to get interested just as someone's supplies run out.",
+    "text": "Good to see you! Are you heading out to fish, or just stopping for a visit? Have a look at your bait before you go. The fish always seem to get interested just as someone's supplies run out.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5494_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5494",
+    "spoken": "[cheerful confiding amusement, pleased playful warmth] I fold little paper boats and try them in a basin at home. Some go straight onto their noses. But when one stays upright, I give it a cheer. A successful voyage is a successful voyage, however small.",
+    "text": "I fold little paper boats and try them in a basin at home. Some go straight onto their noses. But when one stays upright, I give it a cheer. A successful voyage is a successful voyage, however small.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5494_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5494",
+    "spoken": "[bright curious interest, gently excited, conversational] Oh, a find! Let's see what you've brought in. I like that moment before you know quite what you've got. Even when it turns out to be ordinary, it's pleasant to have a look together.",
+    "text": "Oh, a find! Let's see what you've brought in. I like that moment before you know quite what you've got. Even when it turns out to be ordinary, it's pleasant to have a look together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore54_befriended_1.ogg": {
     "line": 1,

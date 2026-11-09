@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
-  "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 182,
+  "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
+  "completed_count": 185,
   "remaining_count": 35,
   "completed": [
     {
@@ -528,6 +528,26 @@
       "name": "Allan Hafgan",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1317,
+      "name": "Lucan Cordell",
+      "zone": "Stormwind City",
+      "source": "Reviewed external candidate; current Forever node and installed gossip",
+      "research_notes": "docs/research/canals-enchanting-and-fishing.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1318,
+      "name": "Jessara Cordell",
+      "zone": "Stormwind City",
+      "source": "Reviewed external candidate; current Forever node and installed gossip",
+      "research_notes": "docs/research/canals-enchanting-and-fishing.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1248,6 +1268,16 @@
       "name": "Arthur the Faithful",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5494,
+      "name": "Catherine Leland",
+      "zone": "Stormwind City",
+      "source": "Reviewed external candidate; current Forever node, quest and installed gossip",
+      "research_notes": "docs/research/canals-enchanting-and-fishing.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

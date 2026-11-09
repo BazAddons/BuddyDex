@@ -53,6 +53,22 @@ def main():
         candidates[npc] = {"npc_id": npc, "name": entry.name, "zone": entry.zone, "source": "Installed Scout record"}
     for npc, name, zone in PRIORITY:
         candidates.setdefault(npc, {"npc_id": npc, "name": name, "zone": zone, "source": "Agreed priority shortlist"})
+    # Reviewed external identities keep their real names and evidence even when
+    # the player has not encountered them in the Scout snapshot yet.
+    research_roster = ROOT / "docs/npc-research-roster.json"
+    if research_roster.exists():
+        researched = json.loads(research_roster.read_text(encoding="utf-8"))
+        seen = set()
+        for row in researched:
+            npc = row["npc_id"]
+            assert isinstance(npc, int) and npc not in seen, "Duplicate/invalid researched NPC ID"
+            seen.add(npc)
+            assert ns.Friendship.IsSomeone(row["name"], npc), "Generic researched NPC"
+            assert (ROOT / row["research_notes"]).is_file(), "Missing research notes"
+            if npc in candidates:
+                assert candidates[npc]["name"] == row["name"], "Research/Scout identity mismatch"
+            else:
+                candidates[npc] = dict(row)
     completed = []
     for npc, lore in ns.Lore.items():
         lines = [line[1] if lua.eval("type")(line) == "table" else line
@@ -77,7 +93,7 @@ def main():
             row["voice_note"] = "Custom race voice auditions requested; user selection pending"
     result = {
         "as_of": args.as_of,
-        "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
+        "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
         "completed_count": sum(row["status"] == "complete" for row in completed),
         "remaining_count": len(remaining) + sum(row["status"] != "complete" for row in completed),
         "completed": sorted(completed, key=lambda row: row["npc_id"]),

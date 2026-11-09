@@ -599,6 +599,46 @@
     "text": "The dragon keeps acquiring rabbit ears. I could call it a rare breed, I suppose. But I would rather get the wings right. You will tell me honestly, won't you?",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1317_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1317",
+    "spoken": "[sincere pleased warmth, gentle wry curiosity] I'd be pleased to join you. A change of surroundings may do me good, and I enjoy your company. If we pass the canal, perhaps you can help me decide what my latest drawing is missing.",
+    "text": "I'd be pleased to join you. A change of surroundings may do me good, and I enjoy your company. If we pass the canal, perhaps you can help me decide what my latest drawing is missing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1317_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1317",
+    "spoken": "[thoughtful scholarly warmth, dry self-deprecating amusement] Good to see you. Have you come with a question, or simply for company? Either is welcome. I was taking a moment over a drawing, and I suspect the duck would have several corrections to offer.",
+    "text": "Good to see you. Have you come with a question, or simply for company? Either is welcome. I was taking a moment over a drawing, and I suspect the duck would have several corrections to offer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1317_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1317",
+    "spoken": "[dry amused confession, relaxed scholarly warmth] The enchantments in my notes are quite legible. The small ink shapes are meant to be ducks. I mention that because a friend once asked why I had drawn so many slippers beside the formulae.",
+    "text": "The enchantments in my notes are quite legible. The small ink shapes are meant to be ducks. I mention that because a friend once asked why I had drawn so many slippers beside the formulae.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1317_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1317",
+    "spoken": "[patient professional encouragement, warm assured sincerity] Well done. Take time to understand what changed, rather than rushing straight to the next lesson. And if you reach a question I cannot answer, I will gladly help you find someone who can.",
+    "text": "Well done. Take time to understand what changed, rather than rushing straight to the next lesson. And if you reach a question I cannot answer, I will gladly help you find someone who can.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1319_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
