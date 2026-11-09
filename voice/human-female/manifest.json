@@ -1894,6 +1894,86 @@
     "text": "Settle yourself. You don't have to be on your way every moment of the day.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore820_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:820",
+    "spoken": "[reserved sincere warmth, gently hopeful curiosity] I'd enjoy coming with you. A different view might help with my unfinished line. You needn't find a clever thing to say about it. Tell me what you actually notice. That's usually where the interesting part begins.",
+    "text": "I'd enjoy coming with you. A different view might help with my unfinished line. You needn't find a clever thing to say about it. Tell me what you actually notice. That's usually where the interesting part begins.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore820_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:820",
+    "spoken": "[alert thoughtful precision, quietly welcoming curiosity] Good to see you. What have you noticed on the way? Give me the details before the conclusion. And if there was a pleasant view along the road, you can tell me about that too. I'm interested.",
+    "text": "Good to see you. What have you noticed on the way? Give me the details before the conclusion. And if there was a pleasant view along the road, you can tell me about that too. I'm interested.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore820_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:820",
+    "spoken": "[quiet confiding amusement, reflective creative interest] I've been trying to describe the evening light in a few lines. The first attempt sounded like a patrol report. I left one line unfinished. Now I like looking again and finding another word that might belong there.",
+    "text": "I've been trying to describe the evening light in a few lines. The first attempt sounded like a patrol report. I left one line unfinished. Now I like looking again and finding another word that might belong there.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore820_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:820",
+    "spoken": "[observant appreciative wonder, thoughtful inviting warmth] A new view. Give it a moment before we name everything. Look at where the light falls first. I wonder whether you'd describe it the same way I would. Tell me what catches your eye.",
+    "text": "A new view. Give it a moment before we name everything. Look at where the light falls first. I wonder whether you'd describe it the same way I would. Tell me what catches your eye.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore8931_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8931",
+    "spoken": "[sincere warm pleasure, easy friendly anticipation] I'd be happy to join you. You can show me the little things you notice between your errands. We needn't make the whole walk into an adventure. A pleasant view and good company will suit me very well.",
+    "text": "I'd be happy to join you. You can show me the little things you notice between your errands. We needn't make the whole walk into an adventure. A pleasant view and good company will suit me very well.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore8931_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8931",
+    "spoken": "[warm innkeeper's welcome, relaxed attentive curiosity] Welcome back! Take a moment to catch your breath. Then tell me where you've been. You can start with an ordinary bit of the journey if you like. I enjoy hearing what a place is like when nobody is rushing.",
+    "text": "Welcome back! Take a moment to catch your breath. Then tell me where you've been. You can start with an ordinary bit of the journey if you like. I enjoy hearing what a place is like when nobody is rushing.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore8931_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8931",
+    "spoken": "[thoughtful pleasant anticipation, quietly delighted warmth] I'd like to visit Ironforge with time to look around. No urgent message, no hurried appointment. Just a chance to watch the city going about its day. Travelers tell such interesting little things when you ask what they noticed.",
+    "text": "I'd like to visit Ironforge with time to look around. No urgent message, no hurried appointment. Just a chance to watch the city going about its day. Travelers tell such interesting little things when you ask what they noticed.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore8931_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:8931",
+    "spoken": "[relaxed hospitable interest, imaginative warm curiosity] A chance to sit! Now, tell me about an ordinary place you liked. A street or a shop will do. I want to imagine it properly, with time to hear the sounds and see who comes past.",
+    "text": "A chance to sit! Now, tell me about an ordinary place you liked. A street or a shop will do. I want to imagine it properly, with time to hear the sounds and see who comes past.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore913_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

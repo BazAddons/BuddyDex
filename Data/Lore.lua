@@ -41,6 +41,83 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sentinel Hill: Riell 820 (human female scout, 2374), Heather 8931
+    -- (human female innkeeper, 8185), William MacGregor 1668 (human bowyer, 3259).
+    -- Current Forever friendly identities; Riell's full quest 214 researched.
+    -- Sunset verse / imagined Ironforge visit / sat-on bow are original hooks.
+    -- docs/research/sentinel-hill-watch-and-welcome.md.
+    [820] = {
+        quote = "A red bandana tells you something. The cloth tells you more. Look closely before you decide you've understood what you're seeing.",
+        likes = { "A careful observation", "Westfall's changing evening light", "Finding the right word for a view" },
+        dislikes = { "A detail lost in a hurried report", "Defias holding the land by force", "Her sunset description sounding like a patrol" },
+        gossip = "Riell's view from the tower supplies plenty of reports. A few lines about the evening sky suggest she sometimes watches for another reason.",
+        bio = "Scout Riell watches from Sentinel Hill's tower for the People's Militia. She distinguishes Defias rank by the material of their red bandanas and asks for silk ones from their higher ranks. Her reports note movement along the coastal horizon.",
+        backstory = "One evening she tried putting the changing sky into a few words. The first attempt sounded like a patrol report. She tried again, keeping a small unfinished verse for a view that never quite stays the same long enough.",
+        secret = "She likes the unfinished line now. Whenever the light changes, she finds another word she might put there. Finishing it would almost spoil the pleasure of looking again.",
+        bestFriend = "What word would you use for that light? Tell me yours before I show you my line. I like hearing what another pair of eyes has found.",
+        favorite = { emote = "SMILE", hint = "A little warm encouragement can make it easier for her to share something beyond a report." },
+        lines = {
+            greet = { { "Good to see you. What have you noticed on the way? Give me the details before the conclusion. And if there was a pleasant view along the road, you can tell me about that too. I'm interested.", tone = "[alert thoughtful precision, quietly welcoming curiosity]" }, "Come and tell me your news. Take your time over the part you saw clearly." },
+            idle = { { "I've been trying to describe the evening light in a few lines. The first attempt sounded like a patrol report. I left one line unfinished. Now I like looking again and finding another word that might belong there.", tone = "[quiet confiding amusement, reflective creative interest]" }, "The light changed while I was choosing the word. It does that.", "Sometimes a second look gives you an entirely different account." },
+            befriended = { { "I'd enjoy coming with you. A different view might help with my unfinished line. You needn't find a clever thing to say about it. Tell me what you actually notice. That's usually where the interesting part begins.", tone = "[reserved sincere warmth, gently hopeful curiosity]" } },
+            poke = { "What have you spotted?", "I'm listening. I was only reconsidering a word." },
+            zone = { { "A new view. Give it a moment before we name everything. Look at where the light falls first. I wonder whether you'd describe it the same way I would. Tell me what catches your eye.", tone = "[observant appreciative wonder, thoughtful inviting warmth]" } },
+            quest = { "Finished? Tell me which details mattered once you were there." },
+            loot = { "Let's have a closer look before we decide what to make of it." },
+            rest = { "A pause gives us time to look properly. That is welcome." },
+            learned = { "Something new to notice next time. Can you show me?" },
+            levelUp = { "Well done. A good result deserves to be recognized." },
+            hearth = { "Familiar ground again. I wonder how the evening will change the view." },
+        },
+    },
+    [8931] = {
+        quote = "Come in and set the road down for a moment. You can tell me where you've been once you've had time to catch your breath.",
+        likes = { "Travelers arriving safely", "Stories about ordinary places", "Imagining a leisurely visit to Ironforge" },
+        dislikes = { "A guest too tired to enjoy a welcome", "Every journey becoming a race", "A pleasant conversation cut short" },
+        gossip = "Heather has heard plenty of grand adventures. Ask about her own imagined journey, and she may start with a very unhurried look at Ironforge.",
+        bio = "Innkeeper Heather welcomes travelers at Sentinel Hill in Westfall. She offers the familiar comforts of an inn and supplies for the road. Among the comings and goings, a friendly word can make a return feel less like another errand.",
+        backstory = "A traveler's account of Ironforge left her imagining a visit of her own. She pictured time to look around rather than hurry through. Now small details from other people's journeys add to the pleasant trip she plans in her head.",
+        secret = "The part she imagines most clearly is stopping to watch an ordinary workday. She would like to see the city going about its business, with no important errand calling her away.",
+        bestFriend = "Tell me one ordinary thing you remember from your travels. A shop, a street, a sound. Those are the bits I'd like to have time to notice with you.",
+        favorite = { emote = "WELCOME", hint = "She spends so much time offering a warm reception that receiving one herself can brighten her day." },
+        lines = {
+            greet = { { "Welcome back! Take a moment to catch your breath. Then tell me where you've been. You can start with an ordinary bit of the journey if you like. I enjoy hearing what a place is like when nobody is rushing.", tone = "[warm innkeeper's welcome, relaxed attentive curiosity]" }, "Good to see you arrive safely. How has the road treated you?" },
+            idle = { { "I'd like to visit Ironforge with time to look around. No urgent message, no hurried appointment. Just a chance to watch the city going about its day. Travelers tell such interesting little things when you ask what they noticed.", tone = "[thoughtful pleasant anticipation, quietly delighted warmth]" }, "A familiar welcome can improve the end of a difficult road.", "I wonder what the morning sounds like in a city I've only heard described." },
+            befriended = { { "I'd be happy to join you. You can show me the little things you notice between your errands. We needn't make the whole walk into an adventure. A pleasant view and good company will suit me very well.", tone = "[sincere warm pleasure, easy friendly anticipation]" } },
+            poke = { "Yes? What can I help you with?", "I'm listening. Tell me the bit you nearly forgot." },
+            rest = { { "A chance to sit! Now, tell me about an ordinary place you liked. A street or a shop will do. I want to imagine it properly, with time to hear the sounds and see who comes past.", tone = "[relaxed hospitable interest, imaginative warm curiosity]" } },
+            quest = { "Finished your errand? I hope there's room for something pleasant afterward." },
+            loot = { "What have you brought back? Does it have a story?" },
+            learned = { "Something new to try. Were you pleased with the first attempt?" },
+            zone = { "A different place to get to know. What do you like about it?" },
+            levelUp = { "Well done! Take a moment to enjoy that before the next errand." },
+            hearth = { "Back to a familiar place. I hope the welcome feels just as good." },
+        },
+    },
+    [1668] = {
+        quote = "A bow belongs in your hand, not underneath you. If you learn that one through experience, I shan't be the first man to laugh.",
+        likes = { "A sound bow kept in good order", "A customer explaining the trouble plainly", "A mishap everyone can laugh about afterward" },
+        dislikes = { "Damage hidden until it gets worse", "Good equipment used carelessly", "Checking a seat a moment too late" },
+        gossip = "William is practical about looking after a bow. His warning to check the seat before sitting down sounds suspiciously well rehearsed.",
+        bio = "William MacGregor works as a bowyer at Sentinel Hill in Westfall. He sells bows, arrows and quivers, and offers repairs. His trade helps travelers keep the equipment they rely on ready for another day on the road.",
+        backstory = "He set a bow aside for a moment, then sat down without checking the space behind him. It was an unhelpful way to learn a very simple lesson. He has remembered to look ever since, usually with a private wince and a smile.",
+        secret = "When someone brings in an awkwardly damaged bow, he tries not to look too knowing. He remembers how much easier it is to explain a foolish mistake to somebody who admits having made one.",
+        bestFriend = "You can tell me what really happened. I've had my own unhelpful moment with a bow and a seat. We'll have a look, then laugh if there's room for it.",
+        favorite = { emote = "GRIN", hint = "A little shared humor can make an awkward admission easier than a solemn excuse." },
+        lines = {
+            greet = { { "Good to see you. How has your bow been treating you? If something's wrong, tell me plainly. I won't insist you invent a splendid battle to explain it. Ordinary mishaps are quite capable of making work for a bowyer.", tone = "[practical tradesman's friendliness, dry reassuring amusement]" }, "Come and tell me what needs attention. We can have a proper look." },
+            idle = { { "I once sat down without checking where I'd put a bow. I do not recommend that method of learning to look behind you. The lesson was very clear, though. I've remembered it considerably longer than I wanted to.", tone = "[rueful self-deprecating humor, relaxed candid warmth]" }, "A quick look can save a surprising amount of trouble.", "Good equipment deserves care between the interesting moments too." },
+            befriended = { { "I'd enjoy a walk with you. It's pleasant to hear about a journey before the part where something needs fixing. And if an ordinary mishap features in the account, you can tell it without dressing it up for my benefit.", tone = "[easy sincere companionship, warmly teasing honesty]" } },
+            poke = { "Yes? What needs a look?", "I'm listening. Go on, tell me what happened." },
+            gear = { { "Have a careful look before you put it aside. A sensible place now can spare you an awkward explanation later. That's advice I give from experience, and you are welcome to laugh at the experience if you like.", tone = "[practical friendly instruction, dry self-deprecating humor]" } },
+            loot = { "Something useful? Let's see how it's put together." },
+            quest = { "Finished the work? I hope the equipment served you well." },
+            learned = { "A useful lesson. Better if it didn't cost you a repair afterward." },
+            rest = { "A good chance to sit. Yes, I've checked the space first." },
+            levelUp = { "Well done! That's something to be pleased about." },
+            hearth = { "Home again. Time to set things down somewhere sensible." },
+        },
+    },
     -- Sentinel Hill: Lewis 491 (3342), Danuvin 821 (2372), Galiaan 878 (2373).
     -- Current Forever friendly adult human men; People's Militia, not later Brigade.
     -- Full supply chain + letter 15998, patrol 102, bandanas 153 researched.

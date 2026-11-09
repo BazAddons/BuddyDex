@@ -89,5 +89,26 @@
     "zone": "Westfall",
     "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
     "research_notes": "docs/research/sentinel-hill-militia.md"
+  },
+  {
+    "npc_id": 820,
+    "name": "Scout Riell",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md"
+  },
+  {
+    "npc_id": 8931,
+    "name": "Innkeeper Heather",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md"
+  },
+  {
+    "npc_id": 1668,
+    "name": "William MacGregor",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md"
   }
 ]

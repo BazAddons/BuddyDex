@@ -1559,6 +1559,46 @@
     "text": "The clever bit isn't tying a knot. It's making one you can undo when your fingers are cold.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1668_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1668",
+    "spoken": "[easy sincere companionship, warmly teasing honesty] I'd enjoy a walk with you. It's pleasant to hear about a journey before the part where something needs fixing. And if an ordinary mishap features in the account, you can tell it without dressing it up for my benefit.",
+    "text": "I'd enjoy a walk with you. It's pleasant to hear about a journey before the part where something needs fixing. And if an ordinary mishap features in the account, you can tell it without dressing it up for my benefit.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1668_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1668",
+    "spoken": "[practical friendly instruction, dry self-deprecating humor] Have a careful look before you put it aside. A sensible place now can spare you an awkward explanation later. That's advice I give from experience, and you are welcome to laugh at the experience if you like.",
+    "text": "Have a careful look before you put it aside. A sensible place now can spare you an awkward explanation later. That's advice I give from experience, and you are welcome to laugh at the experience if you like.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1668_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1668",
+    "spoken": "[practical tradesman's friendliness, dry reassuring amusement] Good to see you. How has your bow been treating you? If something's wrong, tell me plainly. I won't insist you invent a splendid battle to explain it. Ordinary mishaps are quite capable of making work for a bowyer.",
+    "text": "Good to see you. How has your bow been treating you? If something's wrong, tell me plainly. I won't insist you invent a splendid battle to explain it. Ordinary mishaps are quite capable of making work for a bowyer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1668_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1668",
+    "spoken": "[rueful self-deprecating humor, relaxed candid warmth] I once sat down without checking where I'd put a bow. I do not recommend that method of learning to look behind you. The lesson was very clear, though. I've remembered it considerably longer than I wanted to.",
+    "text": "I once sat down without checking where I'd put a bow. I do not recommend that method of learning to look behind you. The lesson was very clear, though. I've remembered it considerably longer than I wanted to.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore17804_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 195,
+  "completed_count": 198,
   "remaining_count": 35,
   "completed": [
     {
@@ -329,6 +329,16 @@
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "needs_completion"
+    },
+    {
+      "npc_id": 820,
+      "name": "Scout Riell",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 821,
@@ -921,6 +931,16 @@
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "needs_completion"
+    },
+    {
+      "npc_id": 1668,
+      "name": "William MacGregor",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1721,
@@ -1711,6 +1731,16 @@
       "name": "Auctioneer Redmuse",
       "zone": "Ironforge",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 8931,
+      "name": "Innkeeper Heather",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
