@@ -58,4 +58,8 @@ Keep him as a named candidate, not a completed vendor profile, until a current S
 
 ## Backlog handling
 
+### Availability recheck after the 306-profile batch
+
+On 2026-11-09 the exact 6182/4305 current nodes were fetched again. Both still expose identity/adult model without pins/reaction/services. The published Forever Daphne page corroborates Westfall and defense speech; the Kriggon page corroborates Westfall but includes old faction-warning and demo comments. These are useful public leads, not new live client/Scout access captures. Neither is marked removed, generic or complete. The older uncertainty remains specifically about current live access/service rather than a lack of personal names or permission to befriend named wanderers. Cache: `C:/Users/brett/BuddyDex-builds/westfall-availability-recheck`. Work continues on verified Horde coverage while retaining both candidates.
+
 All four identities are retained in `docs/npc-research-roster.json` with this source note. Only Christopher and Kirk have authored entries and audio. Daphne/Kriggon retain explicit availability notes as pending candidates; no claim that they are generics, removed, hostile or completed is made. The generated catalog preserves the two missing external identities through the reviewed local backlog rather than deleting them. Counts distinguish the 35 written profiles awaiting voices from these two additional availability checks.

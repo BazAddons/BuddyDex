@@ -378,6 +378,27 @@
       "zone": "Durotar",
       "route": "Orgrimmar lessons, fishing supplies and zeppelin service",
       "reason": "Exact adult male Troll/female Orc/female Goblin bodies verified; current or published Forever location/access leads reviewed, with Neutral conditional. Full quests/services/literary research pending. See docs/research/orgrimmar-lessons-fishing-and-zeppelin-queue.md"
+    },
+    {
+      "npc_id": 9564,
+      "name": "Frezza",
+      "zone": "Durotar",
+      "route": "Thunder Bluff rest/arrival and male Goblin zeppelin service",
+      "reason": "Exact current Horde-friendly adult male Goblin/male Elite Tauren/female Tauren identities, models and pins verified; full personal quest/services/literary review pending. See docs/research/thunder-bluff-rest-and-travel-queue.md"
+    },
+    {
+      "npc_id": 2995,
+      "name": "Tal",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff rest/arrival and male Goblin zeppelin service",
+      "reason": "Exact current Horde-friendly adult male Goblin/male Elite Tauren/female Tauren identities, models and pins verified; full personal quest/services/literary review pending. See docs/research/thunder-bluff-rest-and-travel-queue.md"
+    },
+    {
+      "npc_id": 6746,
+      "name": "Innkeeper Pala",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff rest/arrival and male Goblin zeppelin service",
+      "reason": "Exact current Horde-friendly adult male Goblin/male Elite Tauren/female Tauren identities, models and pins verified; full personal quest/services/literary review pending. See docs/research/thunder-bluff-rest-and-travel-queue.md"
     }
   ]
 }
