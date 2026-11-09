@@ -315,6 +315,20 @@
       "zone": "The Barrens",
       "route": "Camp Taurajo rest and Crossroads referrals",
       "reason": "Exact current Horde-friendly adult male Tauren identity/model and Camp Taurajo pin verified; full services/quest relations and continuity review pending. See docs/research/taurajo-rest-and-crossroads-queue.md"
+    },
+    {
+      "npc_id": 8385,
+      "name": "Mura Runetotem",
+      "zone": "Silverpine Forest",
+      "route": "Female Horde quest contacts: Silverpine and Pools of Vision",
+      "reason": "Exact current adult female model verified: Mura Tauren/Horde-friendly; Zamah Forsaken/Neutral with conditional live access. Full personal lore/relations pending. See docs/research/silverpine-and-pools-of-vision-queue.md"
+    },
+    {
+      "npc_id": 3419,
+      "name": "Apothecary Zamah",
+      "zone": "Thunder Bluff",
+      "route": "Female Horde quest contacts: Silverpine and Pools of Vision",
+      "reason": "Exact current adult female model verified: Mura Tauren/Horde-friendly; Zamah Forsaken/Neutral with conditional live access. Full personal lore/relations pending. See docs/research/silverpine-and-pools-of-vision-queue.md"
     }
   ]
 }
