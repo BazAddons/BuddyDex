@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 277,
-  "remaining_count": 4,
+  "completed_count": 278,
+  "remaining_count": 3,
   "completed": [
     {
       "npc_id": 54,
@@ -2463,6 +2463,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 254082,
+      "name": "Aarnor Galestrike",
+      "zone": "Zephras Isle",
+      "source": "Reviewed current Horde-friendly/Alliance-hostile adult identity/model, full four-stage local fire chain and outside referral, published progress/completion and installed dialogue; no Scout sighting claimed",
+      "research_notes": "docs/research/aarnor-galestrike.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 254089,
       "name": "Coriella Calmbreeze",
       "zone": "Zephras Isle",
@@ -2565,13 +2575,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 254082,
-      "name": "Aarnor Galestrike",
-      "zone": "Zephras Isle",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 252800,
       "name": "Aamelia Windfield",

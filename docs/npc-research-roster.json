@@ -504,5 +504,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current Horde-friendly/Alliance-hostile adult identity/model, full recall readable and three-stage earth chain, installed gossip and completion; no Scout sighting claimed",
     "research_notes": "docs/research/windshaper-boro.md"
+  },
+  {
+    "npc_id": 254082,
+    "name": "Aarnor Galestrike",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current Horde-friendly/Alliance-hostile adult identity/model, full four-stage local fire chain and outside referral, published progress/completion and installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/aarnor-galestrike.md"
   }
 ]

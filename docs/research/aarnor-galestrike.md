@@ -1,0 +1,35 @@
+# Aarnor Galestrike
+
+Reviewed 2026-11-09. Continues Horde Windshaper coverage after Boro, without counting faction-specific trainers as shared Buddies. No personal Scout sighting, live playthrough or completed player quest is claimed.
+
+## Identity and eligibility
+
+[Current NPC 254082](https://forever.warcraftdb.com/api/data/node/npc/254082) identifies Aarnor Galestrike, Shaman Trainer, Windshaper Skyborne race 96, level 10, humanoid. Its map pin places him at approximately 43.5, 44.8 in Shen'dar Village, Zephras Isle. The current public reaction icons explicitly say Horde friendly and Alliance hostile. [Published NPC page](https://www.wowhead.com/forever/npc=254082/aarnor-galestrike) confirms his title and zone; the [trainer overview](https://www.wowhead.com/forever/guide/zephras-isle-zone-overview) independently identifies the Shen'dar trainer.
+
+Adult male display 137998, model file 7478487, resolves through cached current CreatureDisplayInfo to extra 162467: race 96 / male sex 0. The existing body map routes him to skyborne-male. Neither his name nor level is used to infer age or friendliness. Runtime named/adult/reaction/attackability checks remain authoritative, including for an Alliance character facing him as hostile.
+
+This is a Forever-original individual. Targeted lore/book/comic searches found no established personal novel or comic history. Generic retail shaman lore and other races' Classic fire trials are not his personal biography. No invented family, clan rank, historic battle or relationship with Boro is added.
+
+## Primary dialogue and complete fire chain
+
+The current node exposes no quest relation tabs, and current quest started-by/ended-by queries can return empty. These sparse relations do not erase explicit published quest associations. The zone NPC quest index lists Aarnor and Sessaria Skystride as initiators of the first Skyborne fire stage. Full available objectives, description, progress and completion were read for the four local stages, then compared with installed accept/completion. A two-entry series widget alone does not describe the whole chain.
+
+| Quest | Reviewed facts and attribution |
+| --- | --- |
+| [98517 Call of Fire referral](https://www.wowhead.com/forever/quest=98517/call-of-fire) | An outside trainer sends a Windshaper Skyborne back to Aarnor or Sessaria on Zephras. The objective mentions the return transport from Mulgore. The current Warcraft DB node and installed text were unavailable for this ID; the published primary quest was read. No extra progress/completion is exposed there. A player comment naming a specific giver is supplementary and not used as universal provenance. |
+| [97243 local first stage](https://www.wowhead.com/forever/quest=97243/call-of-fire) | Aarnor/Sessaria directs a learner carrying Torch of the Dormant Flame 6653 to Olariaan Swiftburn at the Shrine of Flames in the Gustberry Lowlands, west of Valanaar. The description stresses all four elements despite being in Skywall. Olariaan receives the torch and warns the lesson will be difficult. The captured player name in progress is not an NPC relationship. |
+| [97244 offering](https://www.wowhead.com/forever/quest=97244/call-of-fire) | Olariaan orders the defeat of Skypriest Faladiel and collection of his heart. His description calls Faladiel a former Windshaper who betrayed his people for power. Progress explains its ritual use; completion expresses Olariaan's severe attitude toward betrayal and introduces another offering. Those words and deeds belong to Olariaan, not Aarnor. |
+| [97245 Kuramaa](https://www.wowhead.com/forever/quest=97245/call-of-fire) | Olariaan sends the learner to the stump near the highlands Anchor Pylon to defeat Kuramaa with fire and bring its mask. Progress explains that the spirit can manifest again and the mask is a ritual reagent. Completion says the materials are ready. Aarnor is not credited with summoning, defeating or personally knowing Kuramaa. |
+| [97257 ritual and return](https://www.wowhead.com/forever/quest=97257/call-of-fire) | Olariaan conducts the offering, the learner captures the Eternal Flame and carries it to the Valanaar brazier within the time limit. Current objective data records six minutes and torch 277329. Progress recognizes the learner's effort; completion awards Fire Totem 5176 and emphasizes respect for elemental power. The published reward includes Searing Totem. Published relation metadata places the final handoff with Sessaria; Aarnor is not portrayed as conducting or completing this ritual himself. |
+
+Current primary quest nodes for [97243](https://forever.warcraftdb.com/api/data/node/quest/97243), [97244](https://forever.warcraftdb.com/api/data/node/quest/97244), [97245](https://forever.warcraftdb.com/api/data/node/quest/97245) and [97257](https://forever.warcraftdb.com/api/data/node/quest/97257) were read in full for available objective/description/reward data. Installed QuestText.lua independently supplies the first four stages' accept/completion, including the final ritual. It does not expose extra event dialogue: no unobserved ritual speech is invented. Captured player names in completion are template artifacts. Non-English pages showing an extra relic or inconsistent reputation are not used to promise those rewards.
+
+No supplied readable letter/book is part of the local chain. Torches, a heart and a mask are quest objects/reagents, not letters whose contents need invented interpretation. The fire chain is separate from the early earth initiation: see windshaper-boro.md. Aarnor's referral expresses confidence in Olariaan's fire attunement, not a claim that Aarnor himself lacks all fire knowledge or commands the vanished wind spirits.
+
+Installed English NPC-keyed gossip was read in full for 254082. It says the departure of the wind spirits does not make all elemental power inaccessible; patience and shaman initiation matter. This supplies his reflective teaching manner but no personal past. He remains a shaman trainer even when the public node omits a service field.
+
+## Original BuddyDex details
+
+His short personal melody, indecision over its final note, pupils mistaking it for an older song, humming between lessons and private humor are modest original details. The tune is explicitly his own and not an ancient hymn, wind-spirit message or magical ritual. Preferences, friendship speech and all companion lines are original, grounded in careful listening and guidance. No actual music or external voice recording is copied.
+
+WAVE is the favorite, with a farewell clue. Fifteen personal lines cover greeting, idle, first outing, pokes, learning, errands, new places, rest, growth, home and low health. Four signature moments (greet, idle, befriended, learned) use the approved male Skyborne voice 8chV49fDd6WKeqeufgPU with Eleven v4 and hidden emotional direction. Validate layout, fifteen supported lines, voice routing, exact source/text metadata, decoded mono audio, friendly discovery/favorite/welcome behavior and hostile exclusion; then run main/Scout smoke and development-package checks before installing.

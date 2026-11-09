@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Aarnor Galestrike (254082), adult male Windshaper Skyborne trainer, Shen'dar Village.
+    -- Display 137998 / race 96 sex 0; Horde friendly, Alliance hostile. Call of Fire 97243 referral.
+    -- Olariaan conducts the later offerings/ritual, not Aarnor. Unfinished personal tune is original.
+    -- docs/research/aarnor-galestrike.md.
+    [254082] = {
+        quote = "Listen carefully before you set out. A few quiet words can spare you a very loud mistake.",
+        likes = { "A learner who listens before setting out", "The elements approached with patience", "A few unhurried notes between lessons" },
+        dislikes = { "Directions heard only halfway through", "Respect abandoned in pursuit of power", "Being asked how his little tune ends" },
+        gossip = "Aarnor hums a few notes between lessons. Some pupils wonder whether it is an old Windshaper song. Nobody has heard the ending.",
+        bio = "Aarnor Galestrike teaches shamans in Shen'dar Village. He encourages patient study of elemental power despite the wind spirits' departure. For the fire trial, he sends learners with a torch to Olariaan Swiftburn at the Shrine of Flames.",
+        backstory = "During a quiet pause between lessons, he hummed a little melody of his own. The opening pleased him, but each ending felt too abrupt. He kept trying another final note, then returning to the part he already liked.",
+        secret = "It is no ancient song. He made it up and cannot decide on the last note. He would rather leave a pleasant tune unfinished than pretend every small question has an answer.",
+        bestFriend = "Stay a little. There is no lesson waiting on your answer, and you needn't finish the tune for me. I am simply glad to have you here.",
+        favorite = { emote = "WAVE", hint = "A friendly farewell is welcome before another journey begins." },
+        lines = {
+            greet = { { "Come along. I would welcome a little company between lessons. Tell me what you have been learning, and take your time with it. A thought does not become wiser merely because we hurry it out, and I have no need to turn our walk into an examination.", tone = "[calm attentive welcome, gently conversational, warm restraint]" }, "There you are. Shall we walk and talk for a while?" },
+            idle = { { "No, that is not an ancient song. I made it up. The beginning is quite satisfactory; the ending remains a matter for consideration. You may laugh if you wish. I am allowed one small question that need not be answered before the next lesson can begin.", tone = "[quiet wry humor, mildly sheepish, relaxed self-possession]" }, "Listen to the whole direction before deciding that you know the way.", "The winds' departure has not placed every other element beyond our reach." },
+            befriended = { { "I would be glad to come with you. You have become someone whose visits I enjoy for more than the questions you bring. Let us share a stretch of the road, then. There is room for a little ordinary conversation alongside all the things we still hope to understand.", tone = "[sincere thoughtful affection, steady warmth, quiet pleasure]" } },
+            poke = { "Yes? You may interrupt the tune. It has nowhere urgent to go.", "I heard you. Give me a moment to finish the thought." },
+            learned = { { "A useful beginning. Keep listening as your knowledge grows, and remember that another teacher may hear something you have not yet learned to recognize. I send learners to Olariaan for a reason. Understanding is not made smaller by knowing when to seek guidance from someone else.", tone = "[patient practical instruction, modest conviction, quietly encouraging]" } },
+            quest = { "The task is done. Take a moment to consider what brought you through it." },
+            zone = { "A new place to observe. Let us listen before deciding we understand it." },
+            rest = { "A comfortable pause. I may try that last note again, if you can bear it." },
+            levelUp = { "You are growing in strength. Leave room for patience to grow beside it." },
+            hearth = { "Homeward, then. Familiar surroundings may still have something to teach us." },
+            lowHealth = { "Take care. A quiet retreat may be wiser than another show of strength." },
+        },
+    },
+
     -- Windshaper Boro (251374), adult male Windshaper Skyborne shaman trainer, Thendal Grove.
     -- Display 136975 / race 96 sex 0; Horde friendly, Alliance hostile in current node.
     -- Embracing 92484/crystal 282418; full earth chain 92466-92468. Ordinary paperweight is original.

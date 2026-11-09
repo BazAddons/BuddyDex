@@ -119,6 +119,46 @@
     "text": "There we are! A beginning worth making. Cooking will serve you beyond the next tasty meal; a good fire gives you somewhere to stop and settle yourself in the wilds. Keep practicing, and give the plain little things their due. They are what make a camp feel welcoming.",
     "voice_id": "8chV49fDd6WKeqeufgPU"
   },
+  "lore254082_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:254082",
+    "spoken": "[sincere thoughtful affection, steady warmth, quiet pleasure] I would be glad to come with you. You have become someone whose visits I enjoy for more than the questions you bring. Let us share a stretch of the road, then. There is room for a little ordinary conversation alongside all the things we still hope to understand.",
+    "text": "I would be glad to come with you. You have become someone whose visits I enjoy for more than the questions you bring. Let us share a stretch of the road, then. There is room for a little ordinary conversation alongside all the things we still hope to understand.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore254082_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:254082",
+    "spoken": "[calm attentive welcome, gently conversational, warm restraint] Come along. I would welcome a little company between lessons. Tell me what you have been learning, and take your time with it. A thought does not become wiser merely because we hurry it out, and I have no need to turn our walk into an examination.",
+    "text": "Come along. I would welcome a little company between lessons. Tell me what you have been learning, and take your time with it. A thought does not become wiser merely because we hurry it out, and I have no need to turn our walk into an examination.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore254082_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:254082",
+    "spoken": "[quiet wry humor, mildly sheepish, relaxed self-possession] No, that is not an ancient song. I made it up. The beginning is quite satisfactory; the ending remains a matter for consideration. You may laugh if you wish. I am allowed one small question that need not be answered before the next lesson can begin.",
+    "text": "No, that is not an ancient song. I made it up. The beginning is quite satisfactory; the ending remains a matter for consideration. You may laugh if you wish. I am allowed one small question that need not be answered before the next lesson can begin.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore254082_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:254082",
+    "spoken": "[patient practical instruction, modest conviction, quietly encouraging] A useful beginning. Keep listening as your knowledge grows, and remember that another teacher may hear something you have not yet learned to recognize. I send learners to Olariaan for a reason. Understanding is not made smaller by knowing when to seek guidance from someone else.",
+    "text": "A useful beginning. Keep listening as your knowledge grows, and remember that another teacher may hear something you have not yet learned to recognize. I send learners to Olariaan for a reason. Understanding is not made smaller by knowing when to seek guidance from someone else.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

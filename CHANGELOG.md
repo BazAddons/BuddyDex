@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Aarnor Galestrike with fifteen personal lines and four Eleven v4 signatures, researched through the full fire-totem chain and kept Horde-friendly only.
+
 - Complete Windshaper Boro with fifteen personal lines and four Eleven v4 signatures. Include his recall crystal and full three-stage earth initiation; preserve Horde-only friendly access.
 
 - Complete Coriella Calmbreeze and Zerril Softbreeze in Shen'dar Village, each with full profiles, fifteen personal lines and four Eleven v4 signatures. Bring the shared Zephras starter selection to five profiles accessible to both factions.
