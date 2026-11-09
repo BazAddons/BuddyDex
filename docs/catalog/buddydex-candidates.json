@@ -21039,7 +21039,7 @@
           "zone": "Ironforge",
           "scout_reaction": 4,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -28715,7 +28715,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38894,6 +38894,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 2695,
+      "name": "Sara Balloo",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Sara Balloo",
+      "zone": "Ironforge",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3626,
       "name": "Jenn Langston",
       "source": "Existing local backlog; absent from source filter",
@@ -38956,6 +38967,17 @@
       "scout_name": "Nipsy",
       "zone": "Deeprun Tram",
       "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 13843,
+      "name": "Lieutenant Rotimer",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Lieutenant Rotimer",
+      "zone": "Ironforge",
+      "scout_reaction": 4,
       "scout_attackable": false,
       "profile_status": "complete"
     },
@@ -39092,17 +39114,6 @@
       "profile_status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 13843,
-      "name": "Lieutenant Rotimer",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Lieutenant Rotimer",
-      "zone": "Ironforge",
-      "scout_reaction": 4,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 4081,
       "name": "Lomac Gearstrip",
       "source": "Existing local backlog; absent from source filter",
@@ -39119,17 +39130,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Mangorn Flinthammer",
-      "zone": "Ironforge",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2695,
-      "name": "Sara Balloo",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Sara Balloo",
       "zone": "Ironforge",
       "scout_reaction": 5,
       "scout_attackable": false,

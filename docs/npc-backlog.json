@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 50,
-  "remaining_count": 167,
+  "completed_count": 52,
+  "remaining_count": 165,
   "completed": [
     {
       "npc_id": 54,
@@ -308,6 +308,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 2695,
+      "name": "Sara Balloo",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3310,
       "name": "Doras",
       "zone": "Orgrimmar",
@@ -439,6 +448,15 @@
       "zone": "Deeprun Tram",
       "source": "Installed Scout record",
       "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 13843,
+      "name": "Lieutenant Rotimer",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 16,
       "personal_recordings": 4,
       "status": "complete"
     },
@@ -601,13 +619,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 13843,
-      "name": "Lieutenant Rotimer",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 4081,
       "name": "Lomac Gearstrip",
       "zone": "Ironforge",
@@ -631,13 +642,6 @@
     {
       "npc_id": 14842,
       "name": "Melnan Darkstone",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2695,
-      "name": "Sara Balloo",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

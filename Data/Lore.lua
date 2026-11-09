@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Sara Balloo 2695: female dwarf, Ironforge; Sully's wife, mother,
+    -- Classic letter/plea/memorial chain 637,683,686,689,700. No assumed
+    -- player completion or literal ghost visit. Rotimer 13843: male dwarf,
+    -- Stormpike recruiter, referral 7261; his territorial claims are his
+    -- position, not neutral history. docs/research/balloo-and-rotimer.md.
+    [2695] = {
+        quote = "A name means more when someone remembers the person behind it. There is always more to a life than the way it ended.",
+        likes = { "Letters carried with care", "A familiar name spoken kindly", "Company that allows a little quiet" },
+        dislikes = { "A family's loss dismissed as a number", "Being hurried through a memory", "Kindness offered only for a reward" },
+        gossip = "Sara listens closely when someone speaks of home. She often asks about the small things a traveler hadn't thought to mention.",
+        bio = "Sara Balloo lives in Ironforge. Her husband Sully's last letter and her appeal to King Magni form a quest story about loss, the cost of war and a memorial to a soldier who was also a husband and father.",
+        backstory = "Sully wrote of his love for Sara and their children before taking watch at Thandol Span. Her own plea asks what remains of the life people fight to preserve when so many loved ones are lost defending it.",
+        secret = "She wishes people would sometimes ask what made Sully laugh. She wants room for the ordinary, happy memories alongside the sorrow, even when she needs time to find the words.",
+        bestFriend = "I could tell you something about Sully today. Something small, and happy. Stay a little while, if you have the time.",
+        favorite = { emote = "COMFORT", hint = "A gentle gesture of support can be kinder than trying to find the perfect words." },
+        lines = {
+            greet = { { "A little walk would be welcome. Thank you for asking me along.", tone = "[soft, composed voice, quiet gratitude]" }, "Yes, I'm ready. We needn't hurry, if that's all right." },
+            idle = { { "Tell me something ordinary about your home. Those are often the things worth remembering.", tone = "[gentle, thoughtful voice, warm curiosity]" }, "A person's name should bring a whole life to mind, not only a loss.", "It's a pleasant day to have someone walking beside you." },
+            befriended = { { "You make room for whatever sort of day I'm having. I don't take that kindness lightly.", tone = "[warm, moved voice, restrained sincerity]" } },
+            poke = { "Yes? I was a little lost in thought.", "I'm listening. Take your time." },
+            mail = { { "A letter. I hope someone far away has remembered to write of the little things.", tone = "[gentle voice, reflective tenderness]" } },
+            quest = { "Someone will remember the care you took, even if they cannot repay it." },
+            loot = { "Something to keep? I hope it brings you a good memory." },
+            rest = { "We can sit quietly a moment. I don't mind." },
+            combatEnd = { "We're all here? Please, let us be sure before we move on." },
+            levelUp = { "I'm glad to see you doing well. You should let the people who love you know." },
+            hearth = { "Home. Such a small word for so much." },
+        },
+    },
+    [13843] = {
+        quote = "If you mean to serve, know where you're reporting and what you're agreeing to. A grand declaration is no substitute for arriving prepared.",
+        likes = { "A recruit who listens to the briefing", "Orders repeated back correctly", "A firm and ready salute" },
+        dislikes = { "Treating an assignment as a tavern dare", "Boasts without preparation", "A briefing interrupted halfway through" },
+        gossip = "Rotimer can turn a simple direction into a speech. The recruits listen carefully for the part that tells them where to go.",
+        bio = "Lieutenant Rotimer recruits for the Stormpike Guard in Ironforge. He argues Ironforge's claim to Alterac and directs volunteers to Lieutenant Haggerdin outside the entrance to Alterac Valley.",
+        backstory = "His recruitment appeal speaks forcefully of the king, contested land and the enemies facing the Stormpike. In daily work, that certainty comes with lengthy briefings: he wants each listener to understand the duty before setting out.",
+        secret = "He practices giving directions in one short sentence. Alone, he manages it. With an audience, the importance of the occasion usually demands another three.",
+        bestFriend = "You're welcome beside me. There. One sentence. I thought you'd appreciate the effort, even if it lacked a proper introduction.",
+        favorite = { emote = "SALUTE", hint = "A disciplined acknowledgment is a good beginning with a recruitment officer." },
+        lines = {
+            greet = { { "Ready to move? Good. I'll keep the instructions brief. That is my intention, at least.", tone = "[firm, formal voice, dry self-awareness]" }, "A walk, then. We ought to agree on a destination before discussing its significance." },
+            idle = { { "A clear instruction, properly understood, saves a good deal of marching in the wrong direction.", tone = "[precise, authoritative voice, earnest instruction]" }, "Readiness is less impressive to watch than boasting. Much more useful, though.", "I had a shorter way to put that. It seems to have escaped me." },
+            befriended = { { "You hear me out, and you tell me when I've said enough. A useful friend, and a welcome one.", tone = "[reserved, sincere voice, measured warmth]" } },
+            poke = { "Yes? State your question.", "One moment. I haven't reached the instructions yet." },
+            quest = { { "Assignment completed. Good. Give a clear report of what happened.", tone = "[firm, approving voice, professional satisfaction]" } },
+            loot = { "Account for what you're carrying before you find you need it." },
+            bagsFull = { "A full pack isn't the same as a prepared one. Check the contents." },
+            zone = { "New ground. Establish where you're going before setting off." },
+            rest = { "A sensible halt. Use it properly, and we'll move on ready." },
+            combatEnd = { "Check the company. Nobody moves on merely because the noise has stopped." },
+            levelUp = { "Progress worth acknowledging. Carry it with discipline." },
+            hearth = { "Back to Ironforge. I should review the next briefing. Briefly." },
+        },
+    },
+
     -- Ironforge dwarves: Soleil 5099 (female, banker), Myra 5109 (female,
     -- wandering bread vendor, Commons), Sognar 5124 (male, wandering meat
     -- vendor, Military Ward). No exact Stonemantle kinship, later haggis

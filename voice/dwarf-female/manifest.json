@@ -1,4 +1,44 @@
 {
+  "lore2695_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2695",
+    "spoken": "[warm, moved voice, restrained sincerity] You make room for whatever sort of day I'm having. I don't take that kindness lightly.",
+    "text": "You make room for whatever sort of day I'm having. I don't take that kindness lightly.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2695_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2695",
+    "spoken": "[soft, composed voice, quiet gratitude] A little walk would be welcome. Thank you for asking me along.",
+    "text": "A little walk would be welcome. Thank you for asking me along.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2695_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2695",
+    "spoken": "[gentle, thoughtful voice, warm curiosity] Tell me something ordinary about your home. Those are often the things worth remembering.",
+    "text": "Tell me something ordinary about your home. Those are often the things worth remembering.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2695_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:2695",
+    "spoken": "[gentle voice, reflective tenderness] A letter. I hope someone far away has remembered to write of the little things.",
+    "text": "A letter. I hope someone far away has remembered to write of the little things.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore5099_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

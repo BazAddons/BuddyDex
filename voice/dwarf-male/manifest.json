@@ -1,4 +1,44 @@
 {
+  "lore13843_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:13843",
+    "spoken": "[reserved, sincere voice, measured warmth] You hear me out, and you tell me when I've said enough. A useful friend, and a welcome one.",
+    "text": "You hear me out, and you tell me when I've said enough. A useful friend, and a welcome one.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore13843_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:13843",
+    "spoken": "[firm, formal voice, dry self-awareness] Ready to move? Good. I'll keep the instructions brief. That is my intention, at least.",
+    "text": "Ready to move? Good. I'll keep the instructions brief. That is my intention, at least.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore13843_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:13843",
+    "spoken": "[precise, authoritative voice, earnest instruction] A clear instruction, properly understood, saves a good deal of marching in the wrong direction.",
+    "text": "A clear instruction, properly understood, saves a good deal of marching in the wrong direction.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore13843_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:13843",
+    "spoken": "[firm, approving voice, professional satisfaction] Assignment completed. Good. Give a clear report of what happened.",
+    "text": "Assignment completed. Good. Give a clear report of what happened.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore2460_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
