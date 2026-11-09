@@ -11188,7 +11188,7 @@
           "source_page": 10,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -11212,7 +11212,7 @@
           "source_page": 10,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -28620,7 +28620,7 @@
           "source_page": 25,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -34989,7 +34989,7 @@
           "source_page": 30,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },

@@ -33,3 +33,7 @@ Later Northrend service, the promotion to Marshal, the Cataclysm attack and Legi
 The guarded wheat-seed pouch, gossip, secret, likes/dislikes, PRAY favorite and 15 companion lines are original character writing. The secret explains that preserving ordinary life, not accumulating victories, is the point of the war. The invitation to plant a row is a future hope, not an assertion that Westfall is already safe.
 
 Four signature lines use the existing custom **BuddyDex Human Male (Steady)** voice with Eleven v3: `greet:1`, `idle:1`, `befriended:1`, `quest:1`. Remaining personal lines can appear in speech bubbles; general human male dialogue has its existing recordings. No new human voice is created for this NPC.
+
+## November 9 research follow-up
+
+The earlier retrieval gap in intermediate Defias dialogue was filled while researching the [Westfall farming families](westfall-farming-families.md). Primary Classic descriptions, progress and completion were read for all seven investigation steps (65, 132, 135, 141, 142, 155, 166), plus the three militia steps. The final five investigation objective blocks and all pages of Wiley's Note 1327, Shaw's Report 1353 and Mysterious Message 1381 were also read. The linked notes record the evidence and its limits, including the captured thief's attempt on Saldean's wagon. This supports the existing investigation framing without assuming quest completion. Gryan's older recordings were preserved; the user selected Eleven v4 for subsequent new recordings.

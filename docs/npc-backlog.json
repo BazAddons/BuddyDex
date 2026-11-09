@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 188,
+  "completed_count": 192,
   "remaining_count": 35,
   "completed": [
     {
@@ -41,9 +41,49 @@
       "status": "complete"
     },
     {
+      "npc_id": 233,
+      "name": "Farmer Saldean",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/westfall-farming-families.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 234,
       "source": "Existing authored profile",
       "name": "Gryan Stoutmantle",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 235,
+      "name": "Salma Saldean",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/westfall-farming-families.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 237,
+      "name": "Farmer Furlbrow",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/westfall-farming-families.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 238,
+      "name": "Verna Furlbrow",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+      "research_notes": "docs/research/westfall-farming-families.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

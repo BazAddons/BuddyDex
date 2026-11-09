@@ -40,5 +40,33 @@
     "zone": "Stormwind City",
     "source": "Reviewed external candidate; current Forever node and installed gossip",
     "research_notes": "docs/research/duncans-textiles.md"
+  },
+  {
+    "npc_id": 233,
+    "name": "Farmer Saldean",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/westfall-farming-families.md"
+  },
+  {
+    "npc_id": 235,
+    "name": "Salma Saldean",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/westfall-farming-families.md"
+  },
+  {
+    "npc_id": 237,
+    "name": "Farmer Furlbrow",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/westfall-farming-families.md"
+  },
+  {
+    "npc_id": 238,
+    "name": "Verna Furlbrow",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
+    "research_notes": "docs/research/westfall-farming-families.md"
   }
 ]

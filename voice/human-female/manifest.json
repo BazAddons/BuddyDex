@@ -1039,6 +1039,86 @@
     "text": "A sensible stop. You don't have to wait until you're exhausted to take one.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore235_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:235",
+    "spoken": "[sincere friendly pleasure, warm conversational anticipation] I'd be pleased to come along. You can show me what you've been doing, and we can enjoy a proper conversation. I hope there's a comfortable place to stop when it's time for a rest.",
+    "text": "I'd be pleased to come along. You can show me what you've been doing, and we can enjoy a proper conversation. I hope there's a comfortable place to stop when it's time for a rest.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore235_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:235",
+    "spoken": "[warm rural hospitality, practical caring interest] Welcome! It's good to see you. Have you eaten? We can talk about errands in a moment. First I'd like to hear how you've been, and whether you've given yourself time to sit down today.",
+    "text": "Welcome! It's good to see you. Have you eaten? We can talk about errands in a moment. First I'd like to hear how you've been, and whether you've given yourself time to sit down today.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore235_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:235",
+    "spoken": "[fond amused kitchen confidence, gently playful warmth] Sometimes I make a little bird from a spare bit of pastry. This one came out crooked. I think it's a hen, but I wouldn't insist on it. Half the pleasure is deciding what the oven has made of my idea.",
+    "text": "Sometimes I make a little bird from a spare bit of pastry. This one came out crooked. I think it's a hen, but I wouldn't insist on it. Half the pleasure is deciding what the oven has made of my idea.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore235_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:235",
+    "spoken": "[relaxed hospitable warmth, kindly curiosity] There, a chance to sit. Now tell me the part of your day you haven't had time to enjoy yet. We needn't hurry through the pleasant bits simply because there was work before them.",
+    "text": "There, a chance to sit. Now tell me the part of your day you haven't had time to enjoy yet. We needn't hurry through the pleasant bits simply because there was work before them.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore238_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:238",
+    "spoken": "[sincere gentle gratitude, tentative pleased warmth] I'd be grateful for your company. A little walk and a friendly conversation would be welcome. You can tell me what you've seen, and perhaps we can find a pleasant thing to talk about along the way.",
+    "text": "I'd be grateful for your company. A little walk and a friendly conversation would be welcome. You can tell me what you've seen, and perhaps we can find a pleasant thing to talk about along the way.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore238_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:238",
+    "spoken": "[weary rural kindness, attentive gentle warmth] Hello. It's good of you to stop. I was talking to Old Blanchy. She has been so patient through all this. Tell me how your journey has gone. I hope you've had kinder roads to travel.",
+    "text": "Hello. It's good of you to stop. I was talking to Old Blanchy. She has been so patient through all this. Tell me how your journey has gone. I hope you've had kinder roads to travel.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore238_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:238",
+    "spoken": "[quiet tender reassurance, thoughtful vulnerable hope] I tell Blanchy there will be something better ahead. She listens so patiently. Sometimes I find I've said it twice, slowly, and it sounds a little more possible by the time I finish.",
+    "text": "I tell Blanchy there will be something better ahead. She listens so patiently. Sometimes I find I've said it twice, slowly, and it sounds a little more possible by the time I finish.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore238_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:238",
+    "spoken": "[gentle tired warmth, hopeful conversational interest] Let's sit a little. We don't have to fill every quiet moment with worries. Tell me something you enjoyed today, however small. I'd like to hear it, and we have time to listen properly.",
+    "text": "Let's sit a little. We don't have to fill every quiet moment with worries. Tell me something you enjoyed today, however small. I'd like to hear it, and we have time to listen properly.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore244_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1719,6 +1719,46 @@
     "text": "Well done! That is news worth hearing. Give yourself a moment to enjoy it. A call for help has found someone willing to see the work through.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore233_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:233",
+    "spoken": "[sincere grounded warmth, thoughtful companionship] I'll be glad of your company. A little walk can help a man think before he goes back to the work. Tell me what you've seen. It's good to remember there's more to the world than the trouble in one field.",
+    "text": "I'll be glad of your company. A little walk can help a man think before he goes back to the work. Tell me what you've seen. It's good to remember there's more to the world than the trouble in one field.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore233_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:233",
+    "spoken": "[plainspoken rural warmth, stubborn hope, reflective] Good to see a friendly face. There's plenty needs doing, but you can stand and talk a moment. I was thinking what the field might look like with a few flowers down the edge. A quieter year, perhaps.",
+    "text": "Good to see a friendly face. There's plenty needs doing, but you can stand and talk a moment. I was thinking what the field might look like with a few flowers down the edge. A quieter year, perhaps.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore233_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:233",
+    "spoken": "[quiet rural sincerity, fond hopeful reflection] I'd like a narrow strip of flowers beside the crops. Nothing to sell. Just something Salma could stop and look at on her way past. There's a deal of work between here and that little plan, but I like keeping it in mind.",
+    "text": "I'd like a narrow strip of flowers beside the crops. Nothing to sell. Just something Salma could stop and look at on her way past. There's a deal of work between here and that little plan, but I like keeping it in mind.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore233_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:233",
+    "spoken": "[thoughtful farmer's curiosity, relaxed appreciation] Different ground here. I wonder what grows well in it. You get used to looking at a place that way. Then you see a patch of color you didn't expect, and you remember to simply enjoy the view.",
+    "text": "Different ground here. I wonder what grows well in it. You get used to looking at a place that way. Then you see a patch of color you didn't expect, and you remember to simply enjoy the view.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore234_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
@@ -1754,6 +1794,46 @@
     "source": "lore:234",
     "spoken": "[thoughtfully] Useful work. Let us hope it brings someone a little closer to home.",
     "text": "Useful work. Let us hope it brings someone a little closer to home."
+  },
+  "lore237_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:237",
+    "spoken": "[gruff sincere gratitude, tired but willing warmth] I'll be glad to walk with you a little. Company helps when a man's thoughts keep going round the same broken wheel. Tell me something ordinary from your day. Ordinary sounds rather good just now.",
+    "text": "I'll be glad to walk with you a little. Company helps when a man's thoughts keep going round the same broken wheel. Tell me something ordinary from your day. Ordinary sounds rather good just now.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore237_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:237",
+    "spoken": "[weary rural gruffness, dry humor, guarded friendly warmth] Hello again. I hope the road's been kinder to you than it's been to us. Come and talk a moment. If you've a joke about broken wagons, I'll hear it. I may have used up the complaints.",
+    "text": "Hello again. I hope the road's been kinder to you than it's been to us. Come and talk a moment. If you've a joke about broken wagons, I'll hear it. I may have used up the complaints.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore237_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:237",
+    "spoken": "[rueful rural affection, quiet dry amusement] I've been trying to think of a wagon joke bad enough to make Verna laugh. Won't mend a wheel, I know. But I'd like to hear her laugh a little. A man can want that and a working wagon both.",
+    "text": "I've been trying to think of a wagon joke bad enough to make Verna laugh. Won't mend a wheel, I know. But I'd like to hear her laugh a little. A man can want that and a working wagon both.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore237_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:237",
+    "spoken": "[weary self-deprecating humor, inviting plainspoken warmth] A chance to sit without discussing the wagon. Well, I mentioned it, didn't I? You'll have to start us on another subject. Tell me about a pleasant meal, or a road that gave you no trouble at all.",
+    "text": "A chance to sit without discussing the wagon. Well, I mentioned it, didn't I? You'll have to start us on another subject. Tell me about a pleasant meal, or a road that gave you no trouble at all.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore240_bagsFull_1.ogg": {
     "line": 1,
