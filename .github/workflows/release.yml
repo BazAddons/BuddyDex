@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - "*"
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: "Upload to CurseForge (otherwise package only)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -18,10 +24,34 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
 
+      - name: Check CurseForge publishing configuration
+        if: github.event_name == 'push' || inputs.upload
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CF_PROJECT_ID: ${{ vars.CF_PROJECT_ID }}
+        run: |
+          if [ -z "$CF_API_KEY" ]; then
+            echo "::error::Add the CF_API_KEY Actions secret to BazAddons/BuddyDex before publishing."
+            exit 1
+          fi
+          if ! [[ "$CF_PROJECT_ID" =~ ^[1-9][0-9]*$ ]]; then
+            echo "::error::Set the CF_PROJECT_ID Actions variable to BuddyDex's verified CurseForge project ID."
+            exit 1
+          fi
+
       - name: Package and release
         uses: BigWigsMods/packager@v2
         with:
-          args: -g forever
+          args: -g forever ${{ vars.CF_PROJECT_ID && format('-p {0}', vars.CF_PROJECT_ID) || '' }} ${{ (github.event_name == 'workflow_dispatch' && !inputs.upload) && '-d' || '' }}
         env:
           CF_API_KEY: ${{ secrets.CF_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Keep the verified package
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BuddyDex-package
+          path: .release/*.zip
+          include-hidden-files: true
+          if-no-files-found: error

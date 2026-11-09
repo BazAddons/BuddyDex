@@ -1,7 +1,7 @@
 package-as: BuddyDex
 
 manual-changelog:
-  filename: CHANGELOG.md
+  filename: docs/releases/v002-changelog.md
   markup-type: markdown
 
 # Recorded voices ship inside BuddyDex. The generator's per-voice
