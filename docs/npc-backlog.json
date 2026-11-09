@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 346,
+  "completed_count": 348,
   "remaining_count": 4,
   "completed": [
     {
@@ -2381,6 +2381,26 @@
       "status": "complete"
     },
     {
+      "npc_id": 6408,
+      "name": "Ula'elek",
+      "zone": "Durotar",
+      "source": "Exact current adult Troll/Tauren body and map identity; Ula'elek current reaction unverified, Orm Horde-friendly; full own relations, connected armor chain, installed text, items and literary/era review; no Scout sighting claimed",
+      "research_notes": "docs/research/senjin-sketches-and-stonehoof-latches.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6410,
+      "name": "Orm Stonehoof",
+      "zone": "Thunder Bluff",
+      "source": "Exact current adult Troll/Tauren body and map identity; Ula'elek current reaction unverified, Orm Horde-friendly; full own relations, connected armor chain, installed text, items and literary/era review; no Scout sighting claimed",
+      "research_notes": "docs/research/senjin-sketches-and-stonehoof-latches.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6411,
       "name": "Velora Nitely",
       "zone": "Undercity",
@@ -3256,16 +3276,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 6408,
-      "name": "Ula'elek",
-      "zone": "Durotar",
+      "npc_id": 3955,
+      "name": "Shandrina",
+      "zone": "Ashenvale",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 6410,
-      "name": "Orm Stonehoof",
-      "zone": "Thunder Bluff",
+      "npc_id": 11596,
+      "name": "Smeed Scrabblescrew",
+      "zone": "Desolace",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
@@ -3469,7 +3489,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1504,
+    "candidate_name_groups": 1506,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

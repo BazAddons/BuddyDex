@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 86,
-    "combined_retained_entries": 1517,
-    "candidate_name_groups": 1504,
+    "local_backlog_entries_missing_from_source": 88,
+    "combined_retained_entries": 1519,
+    "candidate_name_groups": 1506,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -26127,7 +26127,7 @@
           "source_page": 23,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -29876,6 +29876,23 @@
       ]
     },
     {
+      "name": "Shandrina",
+      "npc_ids": [
+        3955
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3955,
+          "name": "Shandrina",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Shankys",
       "npc_ids": [
         3333
@@ -30570,6 +30587,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Smeed Scrabblescrew",
+      "npc_ids": [
+        11596
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 11596,
+          "name": "Smeed Scrabblescrew",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -34147,7 +34181,7 @@
           "name": "Ula'elek",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39621,6 +39655,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 6408,
+      "name": "Ula'elek",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 6747,
       "name": "Innkeeper Kauth",
       "source": "Existing local backlog; absent from source filter",
@@ -39897,8 +39938,15 @@
       "profile_status": "complete"
     },
     {
-      "npc_id": 6408,
-      "name": "Ula'elek",
+      "npc_id": 3955,
+      "name": "Shandrina",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11596,
+      "name": "Smeed Scrabblescrew",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "pending_identity_and_lore_research"

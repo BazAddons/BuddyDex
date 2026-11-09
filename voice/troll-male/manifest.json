@@ -358,5 +358,45 @@
     "spoken": "[firm] [instructive] Keep what you have learned with care. Understand why you use it, and respect the teaching that brought it to you. A lesson is worth more than the ability to repeat its words.",
     "text": "Keep what you have learned with care. Understand why you use it, and respect the teaching that brought it to you. A lesson is worth more than the ability to repeat its words.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore6408_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6408",
+    "spoken": "[sincere] [pleased] You have made time for more than the work, and I am glad of it. Stay beside me, mon. We can speak of your journeys, or make a little room for something that need not become a great deed at all.",
+    "text": "You have made time for more than the work, and I am glad of it. Stay beside me, mon. We can speak of your journeys, or make a little room for something that need not become a great deed at all.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore6408_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:6408",
+    "spoken": "[serious] [thoughtful] Power is held in things others might overlook. The satyrs take from the forest; my gauntlet work draws upon what their hooves have gathered. Be mindful of what you bring to a crafting, and of the hands that will wear it.",
+    "text": "Power is held in things others might overlook. The satyrs take from the forest; my gauntlet work draws upon what their hooves have gathered. Be mindful of what you bring to a crafting, and of the hands that will wear it.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore6408_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6408",
+    "spoken": "[warm] [unhurried] Good to see you, mon. The spirits may follow your great deeds, but I would like to hear the smaller parts as well. Tell me what pleased you on the way here. There is room in the day for that.",
+    "text": "Good to see you, mon. The spirits may follow your great deeds, but I would like to hear the smaller parts as well. Tell me what pleased you on the way here. There is room in the day for that.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore6408_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6408",
+    "spoken": "[playful] [gentle] A stick, a patch of sand, and a fish with a crooked tail. That is all. No secret message from the spirits. I could straighten it, but then it would look like a fish that already knows where it is going.",
+    "text": "A stick, a patch of sand, and a fish with a crooked tail. That is all. No secret message from the spirits. I could straighten it, but then it would look like a fish that already knows where it is going.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
   }
 }

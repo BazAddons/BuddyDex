@@ -1,0 +1,10 @@
+# Next: Shandrina and Smeed Scrabblescrew
+
+Individually checked identities, 2026-11-09. Neither authored or recorded; no Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/shandrina-smeed-research`.
+
+- [Shandrina 3955](https://forever.warcraftdb.com/api/data/node/npc/3955): named Night Elf humanoid, Trade Goods title, display 2068 -> race 4, sex 1, standard adult female. Current node omits map, level and reaction. Historical Mystral Lake/Ashenvale vendor location and inventory need comparison; do not claim current Alliance-friendly access from race or old records. ID 4083 was checked and proved to be Jeeda, an entirely different Orc; no profile or alias was created from that mistaken lead.
+- [Smeed Scrabblescrew 11596](https://forever.warcraftdb.com/api/data/node/npc/11596): named Goblin humanoid, level 45, **Horde-icon Neutral**, Desolace/map 1443 pin about 60.9, 61.8. Display 11470 -> race 9, sex 0, standard adult male. Neutral is not a Friendly icon or proof of both-faction access. Live eligibility remains required.
+
+Read all own current/Classic relations, exact installed dialogue, relevant readable inventory and full quest chains before writing. For Smeed, review Kodo Roundup and Gizelton caravan/bodyguard referrals, distinguishing employer, escorts and caravan owners. Later Smeed's Harnesses, model changes and later zone events must be separated from Classic/Forever evidence. Shandrina's cookbook and any related referrals need exact item/text verification, not a claim that every trade-goods vendor is a trainer. Check personal literary/era evidence and avoid invented family, magical services or quest gates.
+
+Use approved Night Elf female and original Goblin male B, Eleven v4. Ten fields, fifteen personal lines, four signature recordings each, full validation/install/development v002 ZIP/backlog/push required. Missing current fields stay explicitly qualified; no automatic reaction override. Two older Westfall checks and wider catalog remain open. Publication deferred.

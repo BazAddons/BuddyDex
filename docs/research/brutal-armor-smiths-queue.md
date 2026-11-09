@@ -1,4 +1,6 @@
-# Next: Ula'elek and Orm Stonehoof
+# Completed: Ula'elek and Orm Stonehoof
+
+Completed 2026-11-09; see [full research and validation](senjin-sketches-and-stonehoof-latches.md). Historical planning notes below.
 
 Identity shortlist, 2026-11-09. Neither authored or recorded yet; no personal Scout capture claimed. Current node caches are in `C:/Users/brett/BuddyDex-builds/kargath-and-undercity-research`.
 

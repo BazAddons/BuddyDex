@@ -672,6 +672,20 @@
       "zone": "Thunder Bluff",
       "route": "Connected Horde armorsmith identities",
       "reason": "Exact adult identity/body individually checked; full own relations and personal research pending. See docs/research/brutal-armor-smiths-queue.md; Ula'elek current reaction remains unverified"
+    },
+    {
+      "npc_id": 3955,
+      "name": "Shandrina",
+      "zone": "Ashenvale",
+      "route": "Night Elf/Goblin coverage",
+      "reason": "Exact named adult identity/body checked; full service/quest/literary research pending. See docs/research/shandrina-and-smeed-queue.md; current reaction fields remain qualified"
+    },
+    {
+      "npc_id": 11596,
+      "name": "Smeed Scrabblescrew",
+      "zone": "Desolace",
+      "route": "Night Elf/Goblin coverage",
+      "reason": "Exact named adult identity/body checked; full service/quest/literary research pending. See docs/research/shandrina-and-smeed-queue.md; current reaction fields remain qualified"
     }
   ]
 }

@@ -559,6 +559,46 @@
     "text": "That is useful work. A creature helped or a finding understood gives us something to build upon. Thank you for bringing your care as well as your strength to it.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore6410_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6410",
+    "spoken": "[warm] [sincere] You take time to notice things, and to hear why they matter to someone else. That is good company. Walk with me. We will find enough work and trouble along the way; there should be room for a little pleasure in the day.",
+    "text": "You take time to notice things, and to hear why they matter to someone else. That is good company. Walk with me. We will find enough work and trouble along the way; there should be room for a little pleasure in the day.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6410_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6410",
+    "spoken": "[deep] [warm] Welcome back. Have you noticed how much good work asks for very little attention? A latch closes, a piece fits, and someone goes on with their day. I enjoy noticing it. Come, perhaps we will find something worth a moment together.",
+    "text": "Welcome back. Have you noticed how much good work asks for very little attention? A latch closes, a piece fits, and someone goes on with their day. I enjoy noticing it. Come, perhaps we will find something worth a moment together.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6410_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6410",
+    "spoken": "[rumbling] [quietly amused] There is a particular sound a well-fitted latch makes. Small and clean. Sometimes I open one again just to hear it close properly. Yes, I know it was finished the first time. I am allowed to enjoy the result twice.",
+    "text": "There is a particular sound a well-fitted latch makes. Small and clean. Sometimes I open one again just to hear it close properly. Yes, I know it was finished the first time. I am allowed to enjoy the result twice.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6410_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:6410",
+    "spoken": "[solemn] [compassionate] In the Charred Vale, a matriarch suffers in a place that has lost much of its life. The horn is proof of a task, but the task has a purpose beyond carrying something home. Remember what your strength was asked to do.",
+    "text": "In the Charred Vale, a matriarch suffers in a place that has lost much of its life. The horn is proof of a task, but the task has a purpose beyond carrying something home. Remember what your strength was asked to do.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore6747_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

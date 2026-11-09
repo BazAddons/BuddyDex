@@ -295,3 +295,10 @@ Next individually reviewed candidates: Gorrik 2861 and Velora Nitely 6411; [iden
 Gorrik 2861 and Velora Nitely 6411 complete: full adult Orc/Forsaken profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](kargath-stories-and-undercity-humor.md) distinguishes the full historical armor chain from unverified current quest availability. Development total **346**; public access Alliance 192, Horde 71, unverified 89, with shared access overlapping. Installed and development-packaged; publication remains deferred.
 
 Next individually checked identities: Ula'elek 6408 and Orm Stonehoof 6410; [queue](brutal-armor-smiths-queue.md). Ula'elek's public current reaction is unverified; retain live eligibility.
+
+
+### 2026-11-09: Sen'jin and Thunder Bluff smiths
+
+Ula'elek 6408 and Orm Stonehoof 6410 complete: full Troll/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](senjin-sketches-and-stonehoof-latches.md) preserves their distinct methods and qualifies unavailable current quests. Development total **348**; public access Alliance 192, Horde 72, unverified 90 (six shared profiles overlap). Ula'elek remains publicly unverified; normal live eligibility stays mandatory. Installed/development-packaged, no publication.
+
+Next individually checked Night Elf/Goblin identities: Shandrina 3955 and Smeed Scrabblescrew 11596; [queue](shandrina-and-smeed-queue.md). These are pending research, with reaction/service availability limitations retained.

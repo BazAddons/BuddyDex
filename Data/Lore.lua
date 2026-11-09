@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ula'elek, Sen'jin Village, adult male Troll, 6408/display 5370.
+    -- Classic 1839/1842/1843: Thun'grim's gauntlet contact, spirits,
+    -- satyr-hoof magic and ancestral pride. Current reaction unverified.
+    -- Crooked fish drawings are ours; no personal prophecy or free enchant.
+    -- Research: docs/research/senjin-sketches-and-stonehoof-latches.md.
+    [6408] = {
+        quote = "The spirits may know your deeds. You can tell me about the part that made you smile.",
+        likes = { "Craft that honors those before him", "A little time beside the sea", "A fish drawing with a familiar flaw" },
+        dislikes = { "Corruption feeding on living places", "Mistaking every mark for a prophecy", "A fine moment hurried out of the day" },
+        gossip = "Ula'elek draws fish in the sand. Visitors wonder about their meaning. So far, every one has had a crooked tail.",
+        bio = "Ula'elek is a Darkspear smith at Sen'jin Village. Thun'grim sends warriors to him for Brutal Gauntlets. His work draws power from the magic held in satyr hooves, and he speaks of the spirits and the honor owed his ancestors.",
+        backstory = "While waiting beside the sea, Ula'elek tried drawing a fish with a stick. The tail went crooked. Another attempt did the same. When the water erased them, he began again, enjoying the drawing more than correcting it.",
+        secret = "He could straighten the tail now. He usually leaves it crooked. It makes each little fish look as though it has somewhere unexpected to go.",
+        bestFriend = "Draw one beside mine. Crooked is welcome here. The water will take them soon enough; we can enjoy making them together.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone who can share the pleasure of an imperfect little drawing." },
+        lines = {
+            greet = { { "Good to see you, mon. The spirits may follow your great deeds, but I would like to hear the smaller parts as well. Tell me what pleased you on the way here. There is room in the day for that.", tone = "[warm] [unhurried]" },
+                "Come along. A little company makes even a quiet afternoon worth remembering." },
+            idle = { { "A stick, a patch of sand, and a fish with a crooked tail. That is all. No secret message from the spirits. I could straighten it, but then it would look like a fish that already knows where it is going.", tone = "[playful] [gentle]" },
+                "The water can have the drawing. I enjoyed making it.",
+                "Fine work should bring honor to the hands that taught yours." },
+            befriended = { { "You have made time for more than the work, and I am glad of it. Stay beside me, mon. We can speak of your journeys, or make a little room for something that need not become a great deed at all.", tone = "[sincere] [pleased]" } },
+            poke = { "Yes? You may draw the next fish.", "That tail has character. I am leaving it as it is." },
+            gear = { { "Power is held in things others might overlook. The satyrs take from the forest; my gauntlet work draws upon what their hooves have gathered. Be mindful of what you bring to a crafting, and of the hands that will wear it.", tone = "[serious] [thoughtful]" } },
+            loot = { "Know what a material holds before deciding what it is worth." },
+            quest = { "Old Thun'grim knows which hands to trust with a piece of the work." },
+            rest = { "A good pause. We need not fill all of it with words." },
+            zone = { "There is much to notice before deciding what a place means." },
+            laughAlong = { "A fine thing to carry with you, that sound." },
+            hearth = { "Familiar ground, and time for another small beginning." },
+        },
+    },
+
+    -- Orm Stonehoof, lower Thunder Bluff, adult male Tauren,
+    -- 6410/display 5372. Classic 1840/1844/1845: respected smith,
+    -- matriarch's suffering, proof of worth, Earthmother blessing and helm.
+    -- Fascination with a well-fitted latch is ours. No invented genealogy.
+    -- Research: docs/research/senjin-sketches-and-stonehoof-latches.md.
+    [6410] = {
+        quote = "Strength should answer a need. A good fit should not need to announce itself.",
+        likes = { "Strength used with thought and resolve", "The quiet click of a well-fitted latch", "Care given to an unnoticed detail" },
+        dislikes = { "Treating suffering as a trophy", "Forcing a fitting that needs adjustment", "Dismissing small work as beneath notice" },
+        gossip = "Orm will stop beside a troublesome latch. Once it closes properly, he sometimes opens it again just to hear the result.",
+        bio = "Orm Stonehoof is a respected smith near Thunder Bluff's central pool. Thun'grim sends warriors to him for the Brutal Helm. His test in the Charred Vale asks for resolve and an end to a suffering chimaera matriarch's misery.",
+        backstory = "A sticking latch once delayed Orm on his way past a chest. He adjusted it until it closed with a small, clean click. The work took little time, but the sound stayed with him. He began noticing such small fittings everywhere.",
+        secret = "Sometimes he opens a well-made latch simply to close it again. He knows the work is finished. He would like to enjoy that quiet little answer once more.",
+        bestFriend = "Listen. There, that little click. You stayed to hear it with me. It is good to have a friend who notices when a small thing is right.",
+        favorite = { emote = "NOD", hint = "Appreciates quiet recognition of care that would otherwise go unnoticed." },
+        lines = {
+            greet = { { "Welcome back. Have you noticed how much good work asks for very little attention? A latch closes, a piece fits, and someone goes on with their day. I enjoy noticing it. Come, perhaps we will find something worth a moment together.", tone = "[deep] [warm]" },
+                "Good to see you. We need not hurry past everything on the way." },
+            idle = { { "There is a particular sound a well-fitted latch makes. Small and clean. Sometimes I open one again just to hear it close properly. Yes, I know it was finished the first time. I am allowed to enjoy the result twice.", tone = "[rumbling] [quietly amused]" },
+                "A small fitting deserves the same care as a grand piece.",
+                "Strength and thought belong together. Resolve should have a purpose." },
+            befriended = { { "You take time to notice things, and to hear why they matter to someone else. That is good company. Walk with me. We will find enough work and trouble along the way; there should be room for a little pleasure in the day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was listening for that last little click.", "A moment. I would like to see whether it closes cleanly." },
+            quest = { { "In the Charred Vale, a matriarch suffers in a place that has lost much of its life. The horn is proof of a task, but the task has a purpose beyond carrying something home. Remember what your strength was asked to do.", tone = "[solemn] [compassionate]" } },
+            gear = { "Do not force it. See where the fitting needs care." },
+            loot = { "There may be fine work in the parts nobody sees." },
+            rest = { "Sit. We have earned a moment to appreciate being here." },
+            zone = { "Let us see what people have made of this place." },
+            combatEnd = { "Let the struggle end when its purpose is done." },
+            hearth = { "Back to familiar things. I am glad to see them." },
+        },
+    },
+
     -- Gorrik <Wind Rider Master>, Kargath, adult male Orc, 2861/display 4148.
     -- Current level 55 elite, Horde-friendly flight service; destination gossip.
     -- Imaginary uneventful traveler is ours. No later New Kargath relocation.

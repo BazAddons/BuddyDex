@@ -987,5 +987,19 @@
     "zone": "Undercity",
     "source": "Exact current Horde-friendly adult body/identity and map projection; full Classic own relations and connected Brutal Armor chain, complete readable instructions, installed text and literary/era review; current quest availability qualified, no Scout sighting claimed",
     "research_notes": "docs/research/kargath-stories-and-undercity-humor.md"
+  },
+  {
+    "npc_id": 6408,
+    "name": "Ula'elek",
+    "zone": "Durotar",
+    "source": "Exact current adult Troll/Tauren body and map identity; Ula'elek current reaction unverified, Orm Horde-friendly; full own relations, connected armor chain, installed text, items and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-sketches-and-stonehoof-latches.md"
+  },
+  {
+    "npc_id": 6410,
+    "name": "Orm Stonehoof",
+    "zone": "Thunder Bluff",
+    "source": "Exact current adult Troll/Tauren body and map identity; Ula'elek current reaction unverified, Orm Horde-friendly; full own relations, connected armor chain, installed text, items and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-sketches-and-stonehoof-latches.md"
   }
 ]
