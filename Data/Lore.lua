@@ -29,7 +29,7 @@ local ADDON_NAME, ns = ...
 --              player finds it. Without it, the title decides (Friendship.lua).
 --   lines      what they say when they come along as the player's buddy:
 --              greet (when brought along), idle (now and then), befriended
---              (the moment they become a Buddy), and any other moment from
+--              (their first outing as your buddy), and any other moment from
 --              Data/Lines.lua (poke, levelUp, zone, quest, died...). Each is
 --              a list; one is picked. Moments they have no lines for use
 --              the general NPC lines (ns.NpcLines). About 15 in all: the
@@ -41,6 +41,60 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+
+    -- Vosur 1246: male dwarf, alchemy trainer, Tally's apprentice/friend;
+    -- Forever Camping 101: Alchemy 96045 teaches a camp Mana Well.
+    -- Mangorn 5107: male dwarf heavy armor seller/repairer, Ironforge Armory.
+    -- No military history or Flinthammer kinship invented. Sources and
+    -- original hooks: docs/research/vosur-and-mangorn.md.
+    [1246] = {
+        quote = "Aye, I'm still learning from Tally. Doesn't stop me teaching you a thing or two. I'd be worried if I had nothing left to learn.",
+        likes = { "A useful lesson from Tally", "A camp with room for another traveler", "Putting a new skill to practical use" },
+        dislikes = { "Assuming every Tinker Town job has gears", "Being too proud to ask a question", "A newcomer left standing alone" },
+        gossip = "Vosur always seems to have one cup too many in his camping bag. Ask whose it is and he'll say he must have counted wrong.",
+        bio = "Vosur Brakthel teaches alchemy in Tinker Town, where he is Tally Berryfizz's apprentice and friend. In Forever, his camping lesson teaches alchemists to make a Mana Well, a useful addition for spellcasters gathering at a camp.",
+        backstory = "He speaks proudly of learning from Tally and has little patience for being mistaken for an engineer. His camping instruction takes the craft outside the shop: a practical skill should be useful when the city is a long walk behind you.",
+        secret = "The extra cup is deliberate. He likes being able to offer someone a place by the fire without making a great ceremony of their arrival. It is easier if the cup is already there.",
+        bestFriend = "That cup's yours, if you want it. No, you needn't bring a reason to sit down. Your company will do nicely.",
+        favorite = { emote = "WELCOME", hint = "He appreciates a gesture that makes room for one more person in the company." },
+        lines = {
+            greet = { { "Aye, I'm ready. Packed an extra cup. Must have counted wrong again.", tone = "[genial dwarf, warm dry humor]" }, "A walk outside the shop! Let's see where the road takes us." },
+            idle = { { "Tally teaches me something new most days. A good reason to keep turning up, that.", tone = "[proud affection, easy conversational warmth]" }, "Living in Tinker Town doesn't make a dwarf an engineer.", "Someone arriving late can still have a place by the fire." },
+            befriended = { { "Glad to have you along. There's room for you in the company, and you needn't earn it twice.", tone = "[warm, welcoming, quietly sincere]" } },
+            poke = { "Aye? Need something?", "Mind the bag. There's a cup in there for you." },
+            learned = { { "There you go! Knowing how is a fine start. Now put it to use.", tone = "[encouraging, practical enthusiasm]" } },
+            quest = { "Useful work. That's something to be pleased with." },
+            rest = { "A little rest, a bit of company. Better than pushing on cross and tired." },
+            group = { "More company! Come in, there's room." },
+            loot = { "Useful on the road, perhaps. We should have a look." },
+            levelUp = { "Well done! Tally would tell you to keep asking questions. So will I." },
+            hearth = { "Back to Ironforge. I wonder what I'll learn at the workbench today." },
+        },
+    },
+    [5107] = {
+        quote = "Try sitting down in it before you buy it. You may spend your days standing heroically, but sooner or later you'll want a chair.",
+        likes = { "Armor that lets its wearer move", "A worn piece brought in for repairs", "A customer checking the fit properly" },
+        dislikes = { "Ignoring a strap until it gives way", "Buying armor only for the shine", "Assuming heavy means well fitted" },
+        gossip = "Mangorn can discuss heavy armor until the lamps burn low. Ask what he wears off duty and he becomes oddly particular about the subject.",
+        bio = "Mangorn Flinthammer sells heavy armor and offers repairs at the Ironforge Armory in the Commons. His trade includes chainmail and shields: ordinary equipment for travelers who need something dependable before they leave the city.",
+        backstory = "Customers taught him to watch how they move in a new piece, not just how proudly they admire it. A short walk, a raised arm and a moment in a chair can reveal more about a purchase than a polished display ever will.",
+        secret = "His slippers are extravagantly soft. He calls them recovery equipment. Anyone who questions the term receives a surprisingly thorough explanation of what a long day on one's feet requires.",
+        bestFriend = "Set that weight down a moment. I've a chair for you. A friend shouldn't have to stand heroically through every conversation.",
+        favorite = { emote = "FLEX", hint = "He approves of someone testing their freedom of movement before trusting a new piece of armor." },
+        lines = {
+            greet = { { "Ready. If anything pinches on the first hill, say so. No prizes for putting up with it.", tone = "[steady, practical dwarf, good-humored authority]" }, "A walk? Good. Equipment tells you more on the road than on a rack." },
+            idle = { { "Soft slippers are recovery equipment. I'll defend that description as long as necessary.", tone = "[gravelly dry humor, mock solemn conviction]" }, "A bright polish can hide a poor fit. Lift your arms before you admire yourself.", "A worn strap is a small problem until it becomes a large one." },
+            befriended = { { "Good company, you are. We can leave the sales talk at the counter for a while.", tone = "[warm, relaxed, plainly sincere]" } },
+            poke = { "Checking for a weak point?", "Aye, I heard you. You needn't test the padding." },
+            gear = { { "New armor? Walk a few steps. Sit down. Good. Now tell me how it feels.", tone = "[attentive craftsman, measured practical interest]" } },
+            loot = { "Worth a look. Give the straps as much attention as the metal." },
+            bagsFull = { "You needn't carry every bit of iron you find. Put some of the weight down." },
+            quest = { "Work finished, and you back in one piece. A good day." },
+            rest = { "There's the chair. Go on. It won't mind a little weight." },
+            combatEnd = { "Everyone all right? Then we can see what needs fixing." },
+            hearth = { "Back to the armory. And, eventually, my slippers." },
+        },
+    },
 
     -- Tally 5177: female gnome alchemy trainer in Berryfizz's shop;
     -- Vosur Brakthel is her apprentice and friend in their gossip.

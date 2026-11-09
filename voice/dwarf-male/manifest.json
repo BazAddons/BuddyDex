@@ -1,4 +1,44 @@
 {
+  "lore1246_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1246",
+    "spoken": "[warm, welcoming, quietly sincere] Glad to have you along. There's room for you in the company, and you needn't earn it twice.",
+    "text": "Glad to have you along. There's room for you in the company, and you needn't earn it twice.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1246_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1246",
+    "spoken": "[genial dwarf, warm dry humor] Aye, I'm ready. Packed an extra cup. Must have counted wrong again.",
+    "text": "Aye, I'm ready. Packed an extra cup. Must have counted wrong again.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1246_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1246",
+    "spoken": "[proud affection, easy conversational warmth] Tally teaches me something new most days. A good reason to keep turning up, that.",
+    "text": "Tally teaches me something new most days. A good reason to keep turning up, that.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1246_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1246",
+    "spoken": "[encouraging, practical enthusiasm] There you go! Knowing how is a fine start. Now put it to use.",
+    "text": "There you go! Knowing how is a fine start. Now put it to use.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore13843_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -117,6 +157,46 @@
     "source": "lore:2461",
     "spoken": "[quietly amused voice, patient delight] A copper on its edge can be more interesting than a mountain of gold.",
     "text": "A copper on its edge can be more interesting than a mountain of gold.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5107_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5107",
+    "spoken": "[warm, relaxed, plainly sincere] Good company, you are. We can leave the sales talk at the counter for a while.",
+    "text": "Good company, you are. We can leave the sales talk at the counter for a while.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5107_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:5107",
+    "spoken": "[attentive craftsman, measured practical interest] New armor? Walk a few steps. Sit down. Good. Now tell me how it feels.",
+    "text": "New armor? Walk a few steps. Sit down. Good. Now tell me how it feels.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5107_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5107",
+    "spoken": "[steady, practical dwarf, good-humored authority] Ready. If anything pinches on the first hill, say so. No prizes for putting up with it.",
+    "text": "Ready. If anything pinches on the first hill, say so. No prizes for putting up with it.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5107_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5107",
+    "spoken": "[gravelly dry humor, mock solemn conviction] Soft slippers are recovery equipment. I'll defend that description as long as necessary.",
+    "text": "Soft slippers are recovery equipment. I'll defend that description as long as necessary.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
   "lore5124_befriended_1.ogg": {
