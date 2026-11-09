@@ -289,16 +289,26 @@ step("NPC unit menus offer real emotes and retain their original recipient", fun
     end
     assert(hello and wave, "missing greeting choices")
     hello.a()
-    assert(MOCK.lastEmote == "HELLO" and MOCK.lastEmoteTarget == jenn.name,
+    assert(MOCK.lastEmote == "HELLO" and MOCK.lastEmoteTarget == nil
+        and MOCK.lastEmoteRecipient == jenn.guid,
         "the menu did not perform an emote at Jenn")
     assert(Points(3626) == 25, "menu greeting did not introduce Jenn")
     wave.a()
     wave.a()
     assert(Points(3626) == 175, "menu favorite/daily cap failed")
+    -- Match the reported /wink case: menu output must address the NPC,
+    -- rather than merely making the addon award friendship by their name.
+    for _, item in ipairs(submenu.children) do
+        if item.text == "Wink (/wink)" then item.a() end
+    end
+    assert(MOCK.lastEmote == "WINK" and MOCK.lastEmoteRecipient == jenn.guid,
+        "menu wink was untargeted")
+    local lastEmote = MOCK.lastEmote
     MOCK.units.target = GUARD_THOMAS
     hello.a()
     assert(not BuddyDexDB.friends[261] and Points(3626) == 175,
         "a stale menu greeted another target")
+    assert(MOCK.lastEmote == lastEmote, "a stale menu sent an emote")
     ns.Database.Remove(3626)
     MOCK.units.focus = jenn
     MOCK.units.target = GUARD
@@ -306,8 +316,15 @@ step("NPC unit menus offer real emotes and retain their original recipient", fun
     for _, item in ipairs(focusMenu.children[2].children) do
         if item.text == "Hello (/hello)" then item.a() end
     end
-    assert(Points(3626) == 25 and not BuddyDexDB.friends[5595],
-        "focus menu credited the unrelated current target")
+    assert(not BuddyDexDB.friends[3626] and not BuddyDexDB.friends[5595]
+        and MOCK.lastEmote == lastEmote,
+        "focus menu sent an emote at an unrelated current target")
+    MOCK.units.target = jenn
+    for _, item in ipairs(focusMenu.children[2].children) do
+        if item.text == "Hello (/hello)" then item.a() end
+    end
+    assert(Points(3626) == 25 and MOCK.lastEmoteRecipient == jenn.guid,
+        "focus menu did not work after targeting that NPC")
     ns.Database.Remove(3626)
     MOCK.units.focus = nil
     for _, unit in ipairs({ GUARD, GRUNT, { name = "A Player", player = true, reaction = 5 } }) do

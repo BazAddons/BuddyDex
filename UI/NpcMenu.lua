@@ -23,12 +23,18 @@ local function AddEmotes(_, root, context)
                 ns.Print("That NPC is no longer available. Open their menu again.")
                 return
             end
-            local name = Util.Read(UnitName, unit)
-            if type(name) ~= "string" then return end
+            -- NPC names are not reliable explicit emote recipients: the
+            -- client can produce an untargeted emote even for a visible NPC.
+            -- Match the exact selected spawn, then use the same implicit
+            -- target as typing /wink with that NPC selected.
+            if Util.Read(UnitGUID, "target") ~= guid then
+                ns.Print("Target this NPC before choosing a BuddyDex emote.")
+                return
+            end
             if C_ChatInfo and type(C_ChatInfo.PerformEmote) == "function" then
-                C_ChatInfo.PerformEmote(token, name)
+                C_ChatInfo.PerformEmote(token)
             elseif type(DoEmote) == "function" then
-                DoEmote(token, name)
+                DoEmote(token)
             end
         end)
     end

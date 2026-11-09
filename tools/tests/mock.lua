@@ -91,6 +91,11 @@ function hooksecurefunc(owner, name, fn)
 end
 C_ChatInfo = { PerformEmote = function(token, target)
     MOCK.lastEmote, MOCK.lastEmoteTarget = token, target
+    -- Reproduce the live report: explicit NPC names can produce untargeted
+    -- emotes. Omitting the name reliably uses the current selected unit.
+    local recipient = target and MOCK.units[target] or nil
+    if not target or target == "" then recipient = MOCK.units.target end
+    MOCK.lastEmoteRecipient = recipient and recipient.guid or nil
     return true
 end }
 function DoEmote(token, target)
