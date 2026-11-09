@@ -7,9 +7,9 @@
     "excluded_generic_rows": 132,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1449,
-    "local_backlog_entries_missing_from_source": 53,
-    "combined_retained_entries": 1502,
-    "candidate_name_groups": 1489,
+    "local_backlog_entries_missing_from_source": 56,
+    "combined_retained_entries": 1505,
+    "candidate_name_groups": 1492,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -1715,7 +1715,9 @@
         244808
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        244808
+      ],
       "entries": [
         {
           "npc_id": 244808,
@@ -1728,8 +1730,12 @@
           ],
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Aramis Hammerhand",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -3407,7 +3413,7 @@
           "zone": "Lion's Pride Inn",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -4132,7 +4138,9 @@
         2116
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2116
+      ],
       "entries": [
         {
           "npc_id": 2116,
@@ -4145,8 +4153,12 @@
           ],
           "source_page": 4,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Blacksmith Rand",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -4880,7 +4892,7 @@
           "zone": "Lion's Pride Inn",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -6270,6 +6282,29 @@
       ]
     },
     {
+      "name": "Claire Willower",
+      "npc_ids": [
+        11945
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        11945
+      ],
+      "entries": [
+        {
+          "npc_id": 11945,
+          "name": "Claire Willower",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Claire Willower",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Clara Charles",
       "npc_ids": [
         5917
@@ -7601,6 +7636,29 @@
       ]
     },
     {
+      "name": "Dark Cleric Duesten",
+      "npc_ids": [
+        2123
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        2123
+      ],
+      "entries": [
+        {
+          "npc_id": 2123,
+          "name": "Dark Cleric Duesten",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Dark Cleric Duesten",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Darla Harris",
       "npc_ids": [
         2432
@@ -8135,12 +8193,37 @@
       ]
     },
     {
+      "name": "Deathguard Oliver",
+      "npc_ids": [
+        1737
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        1737
+      ],
+      "entries": [
+        {
+          "npc_id": 1737,
+          "name": "Deathguard Oliver",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Deathguard Oliver",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Deathguard Phillip",
       "npc_ids": [
         1739
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1739
+      ],
       "entries": [
         {
           "npc_id": 1739,
@@ -8153,8 +8236,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Deathguard Phillip",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -8212,7 +8299,9 @@
         1740
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1740
+      ],
       "entries": [
         {
           "npc_id": 1740,
@@ -8225,8 +8314,12 @@
           ],
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Deathguard Saltain",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -10748,7 +10841,9 @@
         1570
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1570
+      ],
       "entries": [
         {
           "npc_id": 1570,
@@ -10761,8 +10856,12 @@
           ],
           "source_page": 10,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Executor Arren",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -16714,7 +16813,9 @@
         2124
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2124
+      ],
       "entries": [
         {
           "npc_id": 2124,
@@ -16727,8 +16828,12 @@
           ],
           "source_page": 15,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Isabella",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18922,7 +19027,9 @@
         5749
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        5749
+      ],
       "entries": [
         {
           "npc_id": 5749,
@@ -18935,8 +19042,12 @@
           ],
           "source_page": 17,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Kayla Smithe",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -22353,7 +22464,9 @@
         2315
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2315
+      ],
       "entries": [
         {
           "npc_id": 2315,
@@ -22366,8 +22479,12 @@
           ],
           "source_page": 20,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Maquell Ebonwood",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -23125,7 +23242,9 @@
         2126
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2126
+      ],
       "entries": [
         {
           "npc_id": 2126,
@@ -23138,8 +23257,12 @@
           ],
           "source_page": 20,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Maximillion",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -25484,7 +25607,9 @@
         1661
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1661
+      ],
       "entries": [
         {
           "npc_id": 1661,
@@ -25497,8 +25622,12 @@
           ],
           "source_page": 22,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Novice Elreth",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -29517,7 +29646,9 @@
         1569
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1569
+      ],
       "entries": [
         {
           "npc_id": 1569,
@@ -29530,8 +29661,12 @@
           ],
           "source_page": 26,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Shadow Priest Sarvis",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -33396,7 +33531,7 @@
           "zone": "Lion's Pride Inn",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -33474,7 +33609,7 @@
           "zone": "Lion's Pride Inn",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -34048,7 +34183,9 @@
         1568
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1568
+      ],
       "entries": [
         {
           "npc_id": 1568,
@@ -34061,8 +34198,12 @@
           ],
           "source_page": 30,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Undertaker Mordo",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -34726,7 +34867,9 @@
         5667
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        5667
+      ],
       "entries": [
         {
           "npc_id": 5667,
@@ -34739,8 +34882,12 @@
           ],
           "source_page": 30,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Venya Marthand",
+          "zone": "Tirisfal Glades",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39238,6 +39385,39 @@
       "scout_observed": true,
       "scout_name": "Wilhelm Strang",
       "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Claire Willower",
+      "zone": "Tirisfal Glades",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2123,
+      "name": "Dark Cleric Duesten",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Dark Cleric Duesten",
+      "zone": "Tirisfal Glades",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Deathguard Oliver",
+      "zone": "Tirisfal Glades",
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "pending_identity_and_lore_research"

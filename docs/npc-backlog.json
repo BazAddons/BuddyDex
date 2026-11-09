@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 36,
-  "remaining_count": 156,
+  "completed_count": 40,
+  "remaining_count": 168,
   "completed": [
     {
       "npc_id": 54,
@@ -28,6 +28,15 @@
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "written_lines": 16,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 151,
+      "name": "Brog Hamfist",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
     },
@@ -156,6 +165,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 465,
+      "name": "Barkeep Dobbins",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 514,
       "name": "Smith Argus",
       "zone": "Elwynn Forest",
@@ -209,6 +227,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1430,
+      "name": "Tomas",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2046,
       "name": "Andrew Krighton",
       "zone": "Elwynn Forest",
@@ -248,6 +275,15 @@
       "npc_id": 3626,
       "name": "Jenn Langston",
       "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3935,
+      "name": "Toddrick",
+      "zone": "Lion's Pride Inn",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -622,20 +658,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 465,
-      "name": "Barkeep Dobbins",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 151,
-      "name": "Brog Hamfist",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 6778,
       "name": "Melika Isenstrider",
       "zone": "Lion's Pride Inn",
@@ -652,20 +674,6 @@
     {
       "npc_id": 377,
       "name": "Priestess Josetta",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 3935,
-      "name": "Toddrick",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1430,
-      "name": "Tomas",
       "zone": "Lion's Pride Inn",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1418,6 +1426,118 @@
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 244808,
+      "name": "Aramis Hammerhand",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2116,
+      "name": "Blacksmith Rand",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2123,
+      "name": "Dark Cleric Duesten",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1739,
+      "name": "Deathguard Phillip",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1740,
+      "name": "Deathguard Saltain",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1570,
+      "name": "Executor Arren",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2124,
+      "name": "Isabella",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5749,
+      "name": "Kayla Smithe",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2315,
+      "name": "Maquell Ebonwood",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 2126,
+      "name": "Maximillion",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1661,
+      "name": "Novice Elreth",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1569,
+      "name": "Shadow Priest Sarvis",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1568,
+      "name": "Undertaker Mordo",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5667,
+      "name": "Venya Marthand",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
     }
   ],
   "excluded_generic": [
@@ -1465,11 +1585,16 @@
       "npc_id": 14991,
       "name": "League of Arathor Emissary",
       "reason": "Generic role, not an individual"
+    },
+    {
+      "npc_id": 259377,
+      "name": "Injured Deathguard",
+      "reason": "Generic role, not an individual"
     }
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1488,
+    "candidate_name_groups": 1489,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }
