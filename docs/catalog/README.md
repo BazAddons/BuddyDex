@@ -11,9 +11,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,431 |
-| Local backlog entries missing from source | 63 |
-| Combined retained entries | 1,494 |
-| Candidate name groups | 1,481 |
+| Local backlog entries missing from source | 66 |
+| Combined retained entries | 1,497 |
+| Candidate name groups | 1,484 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -522,6 +522,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Genavie Callow**: [4486](https://forever.warcraftdb.com/data/npc/4486)
 - **General Marcus Jonathan** — Scout: [466](https://forever.warcraftdb.com/data/npc/466)
 - **Genn Fairweather**: [265756](https://forever.warcraftdb.com/data/npc/265756)
+- **Gennia Runetotem**: [3064](https://forever.warcraftdb.com/data/npc/3064)
 - **Geofram Bouldertoe**: [4254](https://forever.warcraftdb.com/data/npc/4254)
 - **Georgio Bolero**: [1346](https://forever.warcraftdb.com/data/npc/1346)
 - **Gerard Tiller** — Scout: [255](https://forever.warcraftdb.com/data/npc/255)
@@ -684,6 +685,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Innkeeper Hearthstove**: [6734](https://forever.warcraftdb.com/data/npc/6734)
 - **Innkeeper Heather**: [8931](https://forever.warcraftdb.com/data/npc/8931)
 - **Innkeeper Helbrek**: [1464](https://forever.warcraftdb.com/data/npc/1464)
+- **Innkeeper Kauth**: [6747](https://forever.warcraftdb.com/data/npc/6747)
 - **Innkeeper Keldamyr**: [6736](https://forever.warcraftdb.com/data/npc/6736)
 - **Innkeeper Kimlya**: [6738](https://forever.warcraftdb.com/data/npc/6738)
 - **Innkeeper Norman**: [6741](https://forever.warcraftdb.com/data/npc/6741)
@@ -1114,6 +1116,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Protector Dutfield**: [489](https://forever.warcraftdb.com/data/npc/489)
 - **Protector Gariel**: [490](https://forever.warcraftdb.com/data/npc/490)
 - **Protector Korelor**: [874](https://forever.warcraftdb.com/data/npc/874)
+- **Pyall Silentstride**: [3067](https://forever.warcraftdb.com/data/npc/3067)
 - **Quarrymaster Thesten**: [1256](https://forever.warcraftdb.com/data/npc/1256)
 - **Quartermaster Hicks**: [1645](https://forever.warcraftdb.com/data/npc/1645)
 - **Quartermaster Hudson**: [1249](https://forever.warcraftdb.com/data/npc/1249)

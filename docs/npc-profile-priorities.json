@@ -189,6 +189,34 @@
       "zone": "Zephras Isle",
       "route": "Both Skyborne paths",
       "reason": "Adult male cooking trainer with both-friendly icons; full food quest chains and services review pending"
+    },
+    {
+      "npc_id": 3064,
+      "name": "Gennia Runetotem",
+      "zone": "Mulgore",
+      "route": "Tauren starter route",
+      "reason": "Current exact adult female Tauren trainer identity/model checked; current location/access and full druid quests pending. See docs/research/next-horde-services.md"
+    },
+    {
+      "npc_id": 3191,
+      "name": "Cook Torka",
+      "zone": "Durotar",
+      "route": "Orc/troll starter services",
+      "reason": "Current male orc identity/adult model, Horde friendly icon and Razor Hill pin checked; full cooking/camping chains pending"
+    },
+    {
+      "npc_id": 3067,
+      "name": "Pyall Silentstride",
+      "zone": "Mulgore",
+      "route": "Tauren starter services",
+      "reason": "Current exact male Tauren cook identity/adult model checked; current location/access and full cooking/camping quests pending"
+    },
+    {
+      "npc_id": 6747,
+      "name": "Innkeeper Kauth",
+      "zone": "Mulgore",
+      "route": "Tauren starter services",
+      "reason": "Current exact male Tauren innkeeper identity/adult model checked; current location/access and full delivery/service review pending"
     }
   ]
 }
