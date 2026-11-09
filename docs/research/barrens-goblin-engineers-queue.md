@@ -1,3 +1,7 @@
+# Completed: Sputtervalve and Wenikee Boltbucket
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four selected Goblin v4 signatures each. Development now has 320 complete profiles. See [full research](barrens-borrowed-machines.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Sputtervalve and Wenikee Boltbucket
 
 Identity shortlist, 2026-11-09, after 318 complete profiles. Expand the small authored Goblin roster with a male/female pair of familiar Barrens quest contacts. Neither profile is authored, recorded or counted complete. No personal Scout sighting is claimed.

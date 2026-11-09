@@ -791,5 +791,19 @@
     "zone": "Tirisfal Glades",
     "source": "Exact current Horde-friendly adult Forsaken model and pin; full personal tasks, warrior sequence, Forever report/punishment context and exact installed dialogue reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/brill-thread-and-reinforcements.md"
+  },
+  {
+    "npc_id": 3442,
+    "name": "Sputtervalve",
+    "zone": "The Barrens",
+    "source": "Exact current adult Goblin model and separate location pin, conditional neutral access; full samophlange/manual, industrial espionage, escape and shard branches with installed text reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-borrowed-machines.md"
+  },
+  {
+    "npc_id": 9316,
+    "name": "Wenikee Boltbucket",
+    "zone": "The Barrens",
+    "source": "Exact current adult Goblin model and separate location pin, conditional neutral access; full samophlange/manual, industrial espionage, escape and shard branches with installed text reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-borrowed-machines.md"
   }
 ]

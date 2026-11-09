@@ -476,6 +476,20 @@
       "zone": "The Barrens",
       "route": "Male and female Goblin engineering quest contacts",
       "reason": "Exact current adult Goblin models, separate Ratchet/northern Barrens pins and conditional Neutral icons checked; full personal quest/gossip/literary review pending. See docs/research/barrens-goblin-engineers-queue.md"
+    },
+    {
+      "npc_id": 4201,
+      "name": "Ziz Fizziks",
+      "zone": "Stonetalon Mountains",
+      "route": "Union espionage and samophlange repair contacts",
+      "reason": "Exact current adult male Goblin models verified; Ziz current friendly regional pin and Rilli published/quest Orgrimmar location qualified. Own full relation/gossip/literary audit pending. See docs/research/fizziks-and-greasygob-queue.md"
+    },
+    {
+      "npc_id": 9317,
+      "name": "Rilli Greasygob",
+      "zone": "Orgrimmar",
+      "route": "Union espionage and samophlange repair contacts",
+      "reason": "Exact current adult male Goblin models verified; Ziz current friendly regional pin and Rilli published/quest Orgrimmar location qualified. Own full relation/gossip/literary audit pending. See docs/research/fizziks-and-greasygob-queue.md"
     }
   ]
 }

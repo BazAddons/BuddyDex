@@ -2,8 +2,9 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **318 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **320 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
+- Add Sputtervalve and Wenikee Boltbucket, with researched engineering quest profiles and four approved Goblin v4 signatures each.
 - Add Gretchen Dedmar and Deathguard Dillinger, with full researched Brill profiles and four approved Forsaken v4 signatures each.
 - Add Zor Lonetree and Seereth Stonebreak, with four approved Orc v4 signatures each and researched Stonetalon/Dustwallow quest context.
 - Add Aska and Kah Mistrunner, with full cooking/fishing trainer profiles and four approved Tauren v4 signatures each.

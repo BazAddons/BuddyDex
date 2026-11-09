@@ -1,4 +1,44 @@
 {
+  "lore3442_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3442",
+    "spoken": "[warm] [playful] I like having you around when there isn't a delivery attached. Come on, friend. I have a tiny machine to show you, and for once, nobody needs to steal it first.",
+    "text": "I like having you around when there isn't a delivery attached. Come on, friend. I have a tiny machine to show you, and for once, nobody needs to steal it first.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3442_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3442",
+    "spoken": "[brisk] [wry] There you are. Good timing. I have been explaining progress all morning, and I would like to make some before the next explanation. A walk might shake an idea loose.",
+    "text": "There you are. Good timing. I have been explaining progress all morning, and I would like to make some before the next explanation. A walk might shake an idea loose.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3442_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3442",
+    "spoken": "[amused] [confiding] I made a little wind-up beetle. It goes around in circles. No interchangeable hands, no competitive advantage. I have been calling it a prototype, but frankly, it does everything I wanted.",
+    "text": "I made a little wind-up beetle. It goes around in circles. No interchangeable hands, no competitive advantage. I have been calling it a prototype, but frankly, it does everything I wanted.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3442_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3442",
+    "spoken": "[brisk] [cautious] Good, you're back. Tell me what happened before I tell anybody else what we've achieved. I have learned that a promising discovery and a working machine can be quite different things.",
+    "text": "Good, you're back. Tell me what happened before I tell anybody else what we've achieved. I have learned that a promising discovery and a working machine can be quite different things.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3453_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

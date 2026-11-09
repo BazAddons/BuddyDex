@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Sputtervalve and Wenikee Boltbucket: full profiles, fifteen personal lines and four approved Goblin Eleven v4 signatures each. Research the full samophlange/manual, shredder espionage, escape and shard referral branches; preserve actual repair failures and conditional neutral access without later retail imports. Development now has 320 complete profiles.
+
 - Complete Gretchen Dedmar and Deathguard Dillinger: full Brill profiles, fifteen personal lines and four approved Forsaken Eleven v4 signatures each. Preserve Gretchen's uncertainty, Dillinger's sarcastic directions and Forever's demand for reinforcements; research the full warrior referral sequence and new report/punishment quests. Development now has 318 complete profiles.
 
 - Complete Zor Lonetree and Seereth Stonebreak: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research the entire Stonetalon aid/toxin branches and Dustwallow report/pendant chain, including all readable report/note pages. Preserve unresolved mysteries, conditional neutral access and Classic/Forever chronology. Development now has 316 complete profiles.

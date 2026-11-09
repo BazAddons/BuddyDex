@@ -1,0 +1,52 @@
+# Barrens borrowed machines
+
+Research/authoring, 2026-11-09: Sputtervalve 3442, Wenikee Boltbucket 9316. No personal Scout sighting or live access capture is claimed. Ordinary named/adult/reaction/non-attackability gates remain in force; a neutral listing does not override them.
+
+## Exact identities and relation audit
+
+- [Sputtervalve current node](https://forever.warcraftdb.com/api/data/node/npc/3442): Tinkers' Union, Goblin humanoid, level 15, Horde-icon **Neutral**, Ratchet in The Barrens about 63.0, 37.2. Display 7054 resolves to race 9, sex 0, adult male.
+- [Wenikee current node](https://forever.warcraftdb.com/api/data/node/npc/9316): named Goblin humanoid, level 19, Horde-icon **Neutral**, northern Barrens south of Mor'shan Rampart about 49.0, 11.2. Display 8630 resolves to race 9, sex 1, adult female. She is not moved to Ratchet by association.
+
+Both standard bodies were checked through cached current model tables and child exclusions. Original catalog identities remain without duplicate profiles. Public access coverage conservatively leaves both unverified; ordinary live neutral/non-attackable encounters remain eligible. External caches: `C:/Users/brett/BuddyDex-builds/ratchet-goblin-engineers-research`. [Published Sputtervalve](https://www.wowhead.com/forever/npc=3442/sputtervalve) and [Wenikee](https://www.wowhead.com/forever/npc=9316/wenikee-boltbucket) corroborate their identities and separate locations.
+
+All four current relation tabs were read. Sputtervalve starts 894/3921/1483 and ends 902; Wenikee starts 3922 and ends 3921. Both teaching/sale tabs are empty. [Classic 3442](https://classicdb.ch/?npc=3442) additionally starts 1095 and ends 863/1094; [Classic 9316](https://classicdb.ch/?npc=9316) also starts 3923 and ends 3922. Sparse relations do not prove removal. No generic engineering trainer/vendor service is invented.
+
+## Complete samophlange sequence and readable manual
+
+Read all available objective/description/progress/completion of [894](https://classicdb.ch/?quest=894), [900](https://classicdb.ch/?quest=900), [901](https://classicdb.ch/?quest=901), [902](https://classicdb.ch/?quest=902), [3921 Wenikee Boltbucket](https://classicdb.ch/?quest=3921), [3922 Nugget Slugs](https://classicdb.ch/?quest=3922), [3923 Rilli Greasygob](https://classicdb.ch/?quest=3923), and [3924 Samophlange Manual](https://classicdb.ch/?quest=3924). Exact current quest nodes retain the descriptions of **all eight** stages. Exact installed Spoken_Quests accept/completion for all eight were read; short first approach 894 exposes no separate progress section.
+
+Sputtervalve wants to examine rival technology without initially knowing its function. Console stages require shutting three valves, obtaining Sniggles's key and removing the mechanism. He wants the Union in Undermine to see it but examines it first, then admits damage. Wenikee is explicitly recommended as inquisitive; she is fascinated by the moving mechanism, needs fifteen 17.5-gauge nugget slugs from Venture Company tool buckets, and tries adding gauges. Her attempt worsens the device, and she sensibly stops before adding still more controls. She refers it to former Venture Company engineer Rilli at Nogg's shop. Rilli asks for Copperplug's hoarded manual and thanks the helper on Sputtervalve's behalf, but **does not confirm a successful final repair**. Neither new profile invents one or assumes the player's completion state.
+
+All **four** embedded pages of [5088 Control Console Operating Manual](https://classicdb.ch/?item=5088) were read. It explains automatic regulation, power lever/cooldown, the three external valve locations, gauges and flow controls. That functional information does not mean Sputtervalve invented the rival device. [11149 Samophlange Manual](https://classicdb.ch/?item=11149) exposes assembly/objective relations but no readable narrative pages. No missing passage, private diary or secret meaning is reconstructed.
+
+## Ziz's complete industrial espionage chain
+
+Read [1483 Ziz Fizziks](https://classicdb.ch/?quest=1483), [1093 Super Reaper 6000](https://classicdb.ch/?quest=1093), [1094 Further Instructions](https://classicdb.ch/?quest=1094), [1095 Further Instructions](https://classicdb.ch/?quest=1095), and [1096 Gerenzo Wrenchwhistle](https://classicdb.ch/?quest=1096), all exposed objective/description/progress/completion and exact installed accept/completion. All five current exact nodes retain the descriptions despite sparse NPC relations. Short referrals 1483/1095 expose no separate progress.
+
+Sputtervalve hires Ziz after the latter loses his Venture Company post and seeks Union work. Stolen plans and internal documents reach Sputtervalve, who distrusts Ziz yet values rival improvements. He relays Riddlevox's order to remove Gerenzo; the trade princes' precise involvement is **his suspicion**, not omniscient fact. Ziz's prejudices, allegations about Gnomeregan and wish for another posting remain his testimony; they are not proof that Sputtervalve personally witnessed those events. Gerenzo's arm is requested as evidence. This is not rewritten as harmless research or an anti-logging crusade: these engineers want competitive technology. [Sealed Envelope 5735](https://classicdb.ch/?item=5735) has no exposed readable pages, so no internal-document text is invented.
+
+## Wizzlecrank's escape and the separate shard referral
+
+Read full [858 Ignition](https://classicdb.ch/?quest=858) and [863 The Escape](https://classicdb.ch/?quest=863) objective/description/progress/completion plus exact installed accept/completion. Current 863 retains the description; 858 node was unavailable. Wizzlecrank needs a key after trying to steal the prototype. Sputtervalve's completion values what can be salvaged from the wreck and dispatches help; it does not establish a pristine new shredder or Wizzlecrank's death. Wizzlecrank is the actual field operator, not an alias for Sputtervalve.
+
+Read [6981 The Glowing Shard](https://classicdb.ch/?quest=6981) and both [3369](https://classicdb.ch/?quest=3369)/[3370 In Nightmares](https://classicdb.ch/?quest=3370) faction follow-ups, all exposed text and installed accept/completion. All three current nodes retain the descriptions. Exact Sputtervalve gossip is the Ratchet advice to find the druid above Wailing Caverns. Falla examines the shard and directs it to Hamuul or Mathrengyl, who considers its implications private druid business. Sputtervalve is not given their spiritual expertise, a claim to have cured the Nightmare, or a relationship to either faction leader beyond the actual referral.
+
+## Gossip, questionable loot and later history
+
+Read all five exact installed Sputtervalve gossip entries, including the capitalization duplicate: Union deadlines, Riddlevox's shredder assignment, competitive theft/Wizzlecrank's absence, and the shard referral. No exact Wenikee personal gossip block was found. A complete installed quest-text search for both names found no additional unreviewed entry. These findings do not prove no future Forever content exists.
+
+The Classic Wenikee loot table includes Warsong Report 16746. The item has no readable book body and its objective relations belong to three Warsong updates. An incidental loot listing does not establish Wenikee as a Warsong officer, courier, relative or report author; none is invented. Her repair chain is the actual personal narrative.
+
+Targeted literary searches did not establish an individual canonical earlier novel/comic biography. A tabletop encounter involving Sputtervalve/Gilz appeared in RPG search results; it is not imported as game lore and no full RPG adventure is claimed read. [Modern Sputtervalve chronology](https://warcraft.wiki.gg/wiki/Sputtervalve) changes him to an independent contractor at Nozzlepot's Outpost and associates the Silver Bullet X-831 with later quests. [The later rocket quest](https://www.wowhead.com/mop-classic/quest=29094/the-short-way-home) and blueprint history place that material outside the consulted Classic chain. Those later inventions, Gyrotilt, current-retail cartel employment and changed locations are omitted. [Wenikee's later history](https://warcraft.wiki.gg/wiki/Wenikee_Boltbucket) includes Legion injury/rescue and retail repair-chain replacements; none is imported. No shared family or new employer relationship is assigned merely because both are Goblins.
+
+## Original BuddyDex additions and voice
+
+Sputtervalve's private wind-up beetle, kept outside competitive production demands, and Wenikee's sentimental retired wrench are **original fiction**. Preferences, private anecdotes, secrets, friendship messages and personal moments are also original prose. These side interests do not erase Sputtervalve's ruthless business tasks, claim a real new toy item/reward, make Wenikee infallible, or resolve the samophlange mystery.
+
+Both have ten fields and fifteen personal moments. Four signatures each: greet, idle, befriended, plus quest for Sputtervalve and learned for Wenikee. Approved original Goblin male B `q4hkgjwgAzNLGZbjuFX9` and female B `GK7FvLcUviYyxNu6jR0D`, **Eleven v4**, with hidden delivery tags. The user's selected voices are preserved; no accent audition/remix is requested. Layout and line-count budgets passed before generation.
+
+## Validation and delivery
+
+Full-TOC Lua checks pass named/adult eligibility, exact standard body voice routes, fifteen-line totals, and all eight recordings' exact text/tone/source/model/approved voice IDs. Runtime mappings and decoded finite/non-silent mono 22.05 kHz Ogg audio pass, every clip between 0.5 and 25 seconds. Fresh-session tests reject attackable/reaction-3 targets, then award 25 daily greeting points plus 150 independent favorite points at mock neutral reaction 4. Each first outing plays exactly one mapped recorded welcome; generic guards remain excluded. This is automated verification, not a personal live access or visual claim.
+
+Main smoke: 23 files, zero load errors/failures. Scout: six files, zero errors/failures. Installed and hash-verified **5,814 release files**, with **5,786 runtime audio mappings**. The separate development v002 ZIP passes package checks at **104.41 MiB**. Development now has **320 complete profiles**. The prior handed-off candidate remains unchanged at SHA256 `696a680d5baa18c35df523976257fd48b413e2d357b004f9bc9b46ab4403645b`. No publish tag or CurseForge upload was performed.

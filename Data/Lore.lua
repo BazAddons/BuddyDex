@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sputtervalve, adult male Goblin, Ratchet, NPC 3442/display 7054.
+    -- Facts: Union shredder program under Riddlevox; Wizzlecrank/Fizziks
+    -- technology theft, broken samophlange referral, Falla shard advice.
+    -- No successful final repair or later independent/rocket history.
+    -- Wind-up beetle is original fiction. Research: docs/research/barrens-borrowed-machines.md.
+    [3442] = {
+        quote = "If anyone asks, we're investigating a promising development. If nobody asks, even better.",
+        likes = { "A useful improvement from a rival", "Work arriving before the deadline", "A machine built for his own amusement" },
+        dislikes = { "Riddlevox asking for progress", "A prototype still missing in the field", "Being asked what a samophlange does" },
+        gossip = "Sputtervalve has a project too small for a shredder and too secret for a report. Ratchet is expecting something expensive.",
+        bio = "Sputtervalve runs shredder development for the Tinkers' Union in Ratchet. Under Riddlevox's deadlines, he sends Wizzlecrank and Ziz Fizziks after rival technology and seeks help with a broken samophlange.",
+        backstory = "Between urgent jobs, Sputtervalve assembled a little wind-up beetle from spare parts. It walked in circles. For once, nobody needed the result to outdo the Venture Company, so he let it keep doing exactly that.",
+        secret = "The beetle works. He still calls it a prototype so nobody asks when production begins. He wants one machine whose only purpose is to amuse him.",
+        bestFriend = "Here. Wind this up. We can watch it go around together, and you can do me the favor of never asking for a progress report.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone appreciating a little private amusement." },
+        lines = {
+            greet = { { "There you are. Good timing. I have been explaining progress all morning, and I would like to make some before the next explanation. A walk might shake an idea loose.", tone = "[brisk] [wry]" },
+                "Let's move. If somebody asks, we're looking into something." },
+            idle = { { "I made a little wind-up beetle. It goes around in circles. No interchangeable hands, no competitive advantage. I have been calling it a prototype, but frankly, it does everything I wanted.", tone = "[amused] [confiding]" },
+                "The Venture Company does make good machines. Annoyingly good.",
+                "A deadline is approaching somewhere. I can feel it." },
+            befriended = { { "I like having you around when there isn't a delivery attached. Come on, friend. I have a tiny machine to show you, and for once, nobody needs to steal it first.", tone = "[warm] [playful]" } },
+            poke = { "That isn't a control switch.", "Yes? Please tell me that's help arriving, not another deadline." },
+            quest = { { "Good, you're back. Tell me what happened before I tell anybody else what we've achieved. I have learned that a promising discovery and a working machine can be quite different things.", tone = "[brisk] [cautious]" } },
+            loot = { "Interesting mechanism. Keep the small pieces together." },
+            learned = { "Useful. Especially if the competition hasn't learned it yet." },
+            bagsFull = { "Leave room for the sample. We did come all this way." },
+            rest = { "A short break. I am not submitting an estimate for it." },
+            combatEnd = { "Everyone intact? Then we can discuss the equipment." },
+            levelUp = { "Now that's progress I can recognize without a report." },
+        },
+    },
+
+    -- Wenikee Boltbucket, adult female Goblin near Mor'shan Rampart.
+    -- NPC 9316/display 8630. Inquisitive samophlange repair attempt needs
+    -- 17.5-gauge slugs, fails, then refers it to Rilli. No final fix, Warsong
+    -- employment or later Legion injury is invented. Retired wrench is ours.
+    -- Research: docs/research/barrens-borrowed-machines.md.
+    [9316] = {
+        quote = "Set it down gently. Broken is a description, not an invitation to finish the job.",
+        likes = { "Gears moving under their own power", "A tool worn smooth by use", "A question worth opening the casing" },
+        dislikes = { "The wrong gauge of spare parts", "Someone shaking a delicate mechanism", "A good tool thrown away unexamined" },
+        gossip = "Wenikee has hung a worn-out wrench where she can see it. Visitors keep offering to replace it. She keeps refusing.",
+        bio = "Wenikee Boltbucket works south of Mor'shan Rampart. Sputtervalve recommends her inquisitive mind for the samophlange. She tries repairs with nugget slugs, then refers the battered device to Rilli Greasygob.",
+        backstory = "When a favorite wrench finally wore out, Wenikee tried to keep using it. After one slipped nut too many, she hung it beside her tools. It no longer does the work, but she still reaches toward it when thinking.",
+        secret = "She knows exactly why the old wrench cannot do another job. That does not mean it has to be thrown away. She likes having something familiar near her hands.",
+        bestFriend = "You can stay while I work. You needn't bring a broken machine every time. Sometimes familiar company is the part I wanted.",
+        favorite = { emote = "NOD", hint = "Likes someone following an explanation all the way through." },
+        lines = {
+            greet = { { "Oh, good, you're here. Give me a moment to put the little pieces away. I would like a walk, and I would rather not spend it wondering which pocket has the missing screw.", tone = "[bright] [absorbed]" },
+                "What have you found? Or are we simply going out? I can do that, too." },
+            idle = { { "I retired an old wrench. Hung it up where I can see it. Everybody offers to replace it, which rather misses the point. I have working tools. I just wanted to keep that one.", tone = "[fond] [matter-of-fact]" },
+                "Sometimes the sensible improvement is putting the tools down.",
+                "Did you hear those gears? No? Must have been something in my pouch." },
+            befriended = { { "You came without something that needs fixing. I like that. Not that I mind a puzzle, but it is nice to know you wanted my company before you needed my tools.", tone = "[warm] [pleased]" } },
+            poke = { "Careful. Tiny parts, large consequences.", "Yes? I heard you before the extra test." },
+            learned = { { "The extra gauge can tell you something is getting worse. It cannot fix the problem by telling you more precisely. That is usually when I stop and look for a different pair of eyes.", tone = "[thoughtful] [instructive]" } },
+            loot = { "Put the delicate bit on top. Gently." },
+            quest = { "Done? Tell me what worked, and what surprised you." },
+            bagsFull = { "We need a little space between the glass and the heavy parts." },
+            rest = { "Good place to stop. Let me check that nothing is rolling away." },
+            combatEnd = { "All here? Good. The equipment can wait." },
+            levelUp = { "Look at that. You should be pleased with yourself." },
+        },
+    },
+
     -- Gretchen Dedmar, adult female Forsaken, Gallows' End Tavern, Brill.
     -- NPC 1521/display 3515. The Chill of Death: sewed soldiers' body bags,
     -- feels cold/shakes, fears mindlessness, seeks pelts/thread for a blanket.
