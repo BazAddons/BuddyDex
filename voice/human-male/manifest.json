@@ -2291,6 +2291,46 @@
     "text": "Someone needed help, and you made time. That is worth being proud of.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore957_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:957",
+    "spoken": "[restrained affection, sincere, quietly welcoming] You came looking for me. I am pleased, my friend. Come on. We can have a little time that isn't between jobs.",
+    "text": "You came looking for me. I am pleased, my friend. Come on. We can have a little time that isn't between jobs.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore957_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:957",
+    "spoken": "[brisk, guarded warmth, dry humor] There you are. A walk? Good. I could use a look at something beyond the forge. Rooftops, perhaps. I have a reason.",
+    "text": "There you are. A walk? Good. I could use a look at something beyond the forge. Rooftops, perhaps. I have a reason.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore957_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:957",
+    "spoken": "[reserved pride, gradually opening up, thoughtful] A fish for a weather vane. I want it to look as if it has leapt into the wind. Yes, that is what is on the paper. You can have a look.",
+    "text": "A fish for a weather vane. I want it to look as if it has leapt into the wind. Yes, that is what is on the paper. You can have a look.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore957_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:957",
+    "spoken": "[firm practical encouragement, focused, approving] Good. Try it again before you decide you have mastered it. If something goes wrong, show me where. That I can help with.",
+    "text": "Good. Try it again before you decide you have mastered it. If something goes wrong, show me where. That I can help with.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

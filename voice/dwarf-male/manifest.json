@@ -439,6 +439,46 @@
     "text": "Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore5511_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5511",
+    "spoken": "[hearty affection, delighted, welcoming] You came to take me along! Aye, I am glad, my friend. Let us see what good work we have been walking past all this time.",
+    "text": "You came to take me along! Aye, I am glad, my friend. Let us see what good work we have been walking past all this time.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5511_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5511",
+    "spoken": "[hearty enthusiasm, workshop pride, warmly inviting] Ah, my friend! A walk would be grand. If I stop to admire a hinge, you are welcome to ask why. I have been waiting for someone to ask.",
+    "text": "Ah, my friend! A walk would be grand. If I stop to admire a hinge, you are welcome to ask why. I have been waiting for someone to ask.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5511_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5511",
+    "spoken": "[absorbed appreciation, enthusiastic, fond curiosity] An ordinary hinge, aye. Look how well it does its little job. Someone gave that a great deal of thought. I should like to have met them.",
+    "text": "An ordinary hinge, aye. Look how well it does its little job. Someone gave that a great deal of thought. I should like to have met them.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5511_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5511",
+    "spoken": "[enthusiastic approval, encouraging, proud] There ye are! Now try it with your own hands while the lesson is fresh. I do like seeing a good idea become useful work.",
+    "text": "There ye are! Now try it with your own hands while the lesson is fresh. I do like seeing a good idea become useful work.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore8671_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Dwarven District forge: Therum Deepforge 5511, dwarf male Expert
+    -- Blacksmith; welcomes hands-on pupils, trained under Grumnus.
+    -- Dane Lindgren 957, human male Journeyman Blacksmith; terse, offers
+    -- useful tricks and admits Therum can teach advanced pupils more.
+    -- Original hinge enthusiasm and fish weather-vane hooks documented in
+    -- docs/research/therum-and-dane.md. No later royal commission.
+    [5511] = {
+        quote = "A fine piece of work needn't have a grand name. Show me an ordinary thing made well, and I shall find plenty to admire.",
+        likes = { "A pupil eager to try with their hands", "Credit given to an old teacher", "An ordinary hinge that moves cleanly" },
+        dislikes = { "Fine talk without an honest attempt", "Skill too proud to seek another teacher", "Good work dismissed as merely ordinary" },
+        gossip = "Therum can spot fine work in an ordinary hinge. A short walk with him may involve stopping at a door you hadn't noticed.",
+        bio = "Therum Deepforge teaches blacksmithing at the forge in Stormwind's Dwarven District. He welcomes learners with work to do. He trained under Grumnus Steelshaper in Ironforge and still respects what another teacher can offer.",
+        backstory = "Attention to useful metalwork has made Therum interested in things other people walk past. A sound fitting or a well-made hinge can occupy him happily. He likes imagining the hands and judgment that gave an ordinary object its lasting use.",
+        secret = "He has been hoping someone would ask why one little hinge pleases him so much. The explanation is longer than he admits. Sharing the interest would please him even more.",
+        bestFriend = "You noticed it! Come, let me show you. A friend who stops to look with me is fine company indeed. Tell me what caught your eye first.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation for work done well is welcome to an enthusiastic smith." },
+        lines = {
+            greet = { { "Ah, my friend! A walk would be grand. If I stop to admire a hinge, you are welcome to ask why. I have been waiting for someone to ask.", tone = "[hearty enthusiasm, workshop pride, warmly inviting]" }, "Good to see you. Shall we find something worth having a proper look at?" },
+            idle = { { "An ordinary hinge, aye. Look how well it does its little job. Someone gave that a great deal of thought. I should like to have met them.", tone = "[absorbed appreciation, enthusiastic, fond curiosity]" }, "Grumnus taught me much at the Great Forge. There is always more another good teacher can show ye.", "I like a learner who is willing to pick up the work and try." },
+            befriended = { { "You came to take me along! Aye, I am glad, my friend. Let us see what good work we have been walking past all this time.", tone = "[hearty affection, delighted, welcoming]" } },
+            poke = { "Aye? Did you spot something worth looking at?", "You have my attention. What are we considering?" },
+            learned = { { "There ye are! Now try it with your own hands while the lesson is fresh. I do like seeing a good idea become useful work.", tone = "[enthusiastic approval, encouraging, proud]" } },
+            loot = { "Look at the work in that before deciding what it is worth." },
+            gear = { "How does it serve ye? Good work should be worth using." },
+            zone = { "New doors, new fittings, new work to notice. A fine place for a walk." },
+            rest = { "A seat sounds good. We may get a word in without an anvil answering." },
+            mail = { "News from someone whose work you know, perhaps." },
+            hearth = { "Back to the forge. I have something new to think about while I work." },
+        },
+    },
+    [957] = {
+        quote = "Show me the work. I can give you a useful answer faster when I can see what you are actually trying to do.",
+        likes = { "A useful trick learned by doing", "Work that speaks before its maker", "A rooftop with room for a good vane" },
+        dislikes = { "Chatter during a careful bit of work", "People repeating a private compliment", "Mistaking a short answer for no help" },
+        gossip = "Dane has little time for chatter at the forge. Mention weather vanes, and he may suddenly find a few words he had been keeping back.",
+        bio = "Dane Lindgren teaches journeyman blacksmithing in Stormwind's Dwarven District. He can be abrupt, but offers useful tricks to a learner. When someone needs more, he directs them to Therum Deepforge, with praise he would rather you didn't repeat.",
+        backstory = "Work at the forge leaves Dane with little patience for an interruption without a purpose. He has a purpose of his own on a spare sheet of paper: a weather vane shaped like a fish. He keeps considering how it would look above a roof.",
+        secret = "He wants the fish to look as if it has leapt into the wind. Ask about the drawing, and his short answers grow longer. He cares more about that little shape than he lets on.",
+        bestFriend = "Have a look. Does it seem ready to leap? Tell me honestly. I saved the drawing because I wanted to hear what you thought.",
+        favorite = { emote = "NOD", hint = "A clear acknowledgment can thank a busy teacher without holding up the next task." },
+        lines = {
+            greet = { { "There you are. A walk? Good. I could use a look at something beyond the forge. Rooftops, perhaps. I have a reason.", tone = "[brisk, guarded warmth, dry humor]" }, "Good to see you. Give me a moment, and we can go." },
+            idle = { { "A fish for a weather vane. I want it to look as if it has leapt into the wind. Yes, that is what is on the paper. You can have a look.", tone = "[reserved pride, gradually opening up, thoughtful]" }, "Therum can teach you more when I have shown you what I know. You needn't tell him I said so.", "A short answer can still be a useful one." },
+            befriended = { { "You came looking for me. I am pleased, my friend. Come on. We can have a little time that isn't between jobs.", tone = "[restrained affection, sincere, quietly welcoming]" } },
+            poke = { "Yes? Is there a question with that?", "I am listening. Go on." },
+            learned = { { "Good. Try it again before you decide you have mastered it. If something goes wrong, show me where. That I can help with.", tone = "[firm practical encouragement, focused, approving]" } },
+            gear = { "Useful to you? Good. You are the one who has to wear it." },
+            quest = { "Work finished. Well done." },
+            zone = { "A different view of the roofs from here." },
+            bagsFull = { "We had better sort that before adding anything else." },
+            rest = { "A seat sounds good. I may have something on paper to show you." },
+            hearth = { "Back to the forge. Thank you for taking time to look." },
+        },
+    },
+
     -- Old Town, Stormwind. Alyssa Griffith 1321: human female Bag Vendor;
     -- Seoman Griffith 1320: human male Leather Armor Merchant, Protective
     -- Hide. Mayda Thane 1339: human female Cobbler, Thane's Boots. Shared

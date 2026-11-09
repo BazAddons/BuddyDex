@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 123,
-  "remaining_count": 94,
+  "completed_count": 125,
+  "remaining_count": 92,
   "completed": [
     {
       "npc_id": 54,
@@ -239,6 +239,15 @@
       "npc_id": 927,
       "name": "Brother Wilhelm",
       "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 957,
+      "name": "Dane Lindgren",
+      "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -742,6 +751,15 @@
     {
       "npc_id": 5503,
       "name": "Eldraeith",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5511,
+      "name": "Therum Deepforge",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1293,13 +1311,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 957,
-      "name": "Dane Lindgren",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -1533,13 +1544,6 @@
     {
       "npc_id": 1415,
       "name": "Suzanne",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5511,
-      "name": "Therum Deepforge",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
