@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Dwarven District: Furen Longbeard 5413, dwarf male shieldsmith and
+    -- armorsmith; Stormpike order, Yorus friendship, fire-hardened mail and
+    -- notes shared with Grimand, Mathiel and Klockmort. Hank the Hammer
+    -- 7798, human male Mithril Order; Galvan's pupil, promise to teach,
+    -- bracer test and McGavan referral. Full chains and readable items:
+    -- docs/research/furen-and-hank.md. Original private hopes are marked.
+    [5413] = {
+        quote = "A discovery improves when another pair of hands tries it. Give the smith your notes, and give the runner their share of the credit.",
+        likes = { "A shield suited to the person using it", "A discovery another smith can improve", "Barleybrew Scalder and a familiar favor" },
+        dislikes = { "A useful technique kept from everyone", "Calling the gatherer's work unimportant", "Pride that refuses to read the notes" },
+        gossip = "Furen is proud of his work and quick to share a discovery. His colleagues may hear about the next breakthrough almost as soon as he does.",
+        bio = "Furen Longbeard is an armorsmith in Stormwind's Dwarven District. Mountaineer Stormpike admires his shields, and Yorus Barleybrew calls him a friend. His fire-hardened mail uses rare materials whose qualities give him more to learn.",
+        backstory = "Furen gives the material-gatherer credit for helping his discovery. He sends notes to Grimand Elmore, Mathiel and Klockmort Spannerspan so they can try his techniques. Even a proud colleague's grumbling is worth hearing if the work moves forward.",
+        secret = "He hopes someone will improve his discovery. Being surpassed would sting for a moment, of course. Then he would want to know every detail. He is almost ready to admit this.",
+        bestFriend = "If you find a better way, tell me. I shall be proud to have helped you reach it. Then sit beside me and explain the part I haven't understood yet.",
+        favorite = { emote = "APPLAUD", hint = "An enthusiastic acknowledgment suits a smith delighted by a useful breakthrough." },
+        lines = {
+            greet = { { "Ah, my friend! A walk sounds good. Tell me what you have been finding. An unusual material can give a smith a great deal to think about.", tone = "[hearty curiosity, confident warmth, welcoming]" }, "Good to see you. Have you news worth sharing, or shall we go and find some?" },
+            idle = { { "I hope someone improves on my work. Would it sting? A little. Then I would want the notes. All the notes. There is no sense letting pride waste a good discovery.", tone = "[candid amusement, eager curiosity, proud but generous]" }, "Grimand may grumble at a new idea. It is still worth giving him the notes.", "The person who gathers the materials has earned a share of the credit." },
+            befriended = { { "You came to bring me along. Aye, I am pleased, my friend. Let us see what we can learn from the road together.", tone = "[sincere affection, pleased, warmly inviting]" } },
+            poke = { "Aye? Have you thought of something?", "You have my attention. What are we trying?" },
+            learned = { { "Good! Now tell me what you found difficult, and what made it work. I may learn something from the way you reached the answer.", tone = "[enthusiastic encouragement, interested, appreciative]" } },
+            quest = { "Good work. Do not let anyone call the legwork unimportant." },
+            loot = { "An interesting material? Let us have a proper look." },
+            gear = { "May it serve you well. And remember the hands that helped it reach you." },
+            mail = { "A good way to put an idea in another pair of hands." },
+            rest = { "A seat sounds good. Tell me what you noticed today." },
+            hearth = { "Back to the work. There may be another good idea waiting for us." },
+        },
+    },
+    [7798] = {
+        quote = "The tools matter. So does the person who picks them up. Bring a willing heart to the work, and we have somewhere to begin.",
+        likes = { "Determination carried into practice", "A learner who will teach someone else", "Good work with something of its maker" },
+        dislikes = { "A fine tool mistaken for earned skill", "Keeping every lesson to oneself", "Wanting the badge without the journey" },
+        gossip = "Hank has a memorable way of explaining where smithing begins. He seems proudest when a pupil starts finding a way to pass the lesson on.",
+        bio = "Hank the Hammer represents the Mithril Order in Stormwind's Dwarven District. Galvan the Ancient trained him as an armorsmith. Hank promised to teach those with the desire and determination to advance, and has kept giving that promise his time.",
+        backstory = "Hank tests a learner's work with golden scale bracers, then turns the lesson toward the heart behind the craft. He sends a worthy pupil to McGavan in Booty Bay, opening the way toward Galvan and more learning within the Order.",
+        secret = "He imagines a pupil teaching someone he will never meet. He likes the thought that the old promise could keep traveling, long after a lesson has left his own hands.",
+        bestFriend = "You needn't bring a piece for me to judge. Sit down, my friend. I should like to hear what has mattered to you since we last had time to talk.",
+        favorite = { emote = "PRAISE", hint = "A sincere kind word can recognize the heart a teacher puts into passing on the craft." },
+        lines = {
+            greet = { { "There you are, my friend. Shall we go out? I should like to hear what you have been doing with all that determination.", tone = "[confident warmth, interested, welcoming]" }, "Good to see you. Have we time for a conversation without an anvil between us?" },
+            idle = { { "I like to imagine a pupil teaching someone I shall never meet. Galvan's old promise, still on the road. That is a good thought to carry into the work.", tone = "[reflective pride, sincere warmth, hopeful]" }, "A good tool will help you. It cannot supply your determination for you.", "The journey matters more than having something impressive to pin on your coat." },
+            befriended = { { "You came to bring me along. I am glad of your friendship. Come on. Today we can share a little of the road ourselves.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you something you would like me to see?", "I am listening. Tell me." },
+            learned = { { "Well done. Keep the lesson, and when someone else is ready to learn it, give them the same chance. That is work worth being proud of.", tone = "[firm encouragement, proud, generous warmth]" } },
+            quest = { "You followed through. That determination will take you somewhere." },
+            gear = { "Good tools. Now let the person using them have their say." },
+            loot = { "Something useful for the work ahead? Take care of it." },
+            zone = { "Another part of the journey. Keep your eyes open for what it can teach you." },
+            rest = { "A seat would be welcome. Tell me what has been on your mind." },
+            hearth = { "Back to Stormwind. There may be another learner ready to begin." },
+        },
+    },
+
     -- Dwarven District: Kaita Deepforge 5512, dwarf female Blacksmithing
     -- Supplies; Thulman Flintcrag 5510, dwarf male Guns Vendor. Both warn
     -- about inflated import fees, crediting the gnomes' tram from Ironforge.

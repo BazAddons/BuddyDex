@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 127,
-  "remaining_count": 90,
+  "completed_count": 129,
+  "remaining_count": 88,
   "completed": [
     {
       "npc_id": 54,
@@ -704,6 +704,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 5413,
+      "name": "Furen Longbeard",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5484,
       "name": "Brother Benjamin",
       "zone": "Stormwind City",
@@ -914,6 +923,15 @@
       "npc_id": 7292,
       "name": "Dinita Stonemantle",
       "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 7798,
+      "name": "Hank the Hammer",
+      "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -1350,13 +1368,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5413,
-      "name": "Furen Longbeard",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 270581,
       "name": "Fyrenz Vishonar",
       "zone": "Stormwind City",
@@ -1380,13 +1391,6 @@
     {
       "npc_id": 1333,
       "name": "Gerik Koen",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 7798,
-      "name": "Hank the Hammer",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

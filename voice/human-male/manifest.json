@@ -2091,6 +2091,46 @@
     "text": "Those slippers are a serious study in comfort. A very pleasant study.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore7798_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7798",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad of your friendship. Come on. Today we can share a little of the road ourselves.",
+    "text": "You came to bring me along. I am glad of your friendship. Come on. Today we can share a little of the road ourselves.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7798_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7798",
+    "spoken": "[confident warmth, interested, welcoming] There you are, my friend. Shall we go out? I should like to hear what you have been doing with all that determination.",
+    "text": "There you are, my friend. Shall we go out? I should like to hear what you have been doing with all that determination.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7798_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7798",
+    "spoken": "[reflective pride, sincere warmth, hopeful] I like to imagine a pupil teaching someone I shall never meet. Galvan's old promise, still on the road. That is a good thought to carry into the work.",
+    "text": "I like to imagine a pupil teaching someone I shall never meet. Galvan's old promise, still on the road. That is a good thought to carry into the work.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7798_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:7798",
+    "spoken": "[firm encouragement, proud, generous warmth] Well done. Keep the lesson, and when someone else is ready to learn it, give them the same chance. That is work worth being proud of.",
+    "text": "Well done. Keep the lesson, and when someone else is ready to learn it, give them the same chance. That is work worth being proud of.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore7917_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

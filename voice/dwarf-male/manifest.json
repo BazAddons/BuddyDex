@@ -439,6 +439,46 @@
     "text": "Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore5413_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5413",
+    "spoken": "[sincere affection, pleased, warmly inviting] You came to bring me along. Aye, I am pleased, my friend. Let us see what we can learn from the road together.",
+    "text": "You came to bring me along. Aye, I am pleased, my friend. Let us see what we can learn from the road together.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5413_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5413",
+    "spoken": "[hearty curiosity, confident warmth, welcoming] Ah, my friend! A walk sounds good. Tell me what you have been finding. An unusual material can give a smith a great deal to think about.",
+    "text": "Ah, my friend! A walk sounds good. Tell me what you have been finding. An unusual material can give a smith a great deal to think about.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5413_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5413",
+    "spoken": "[candid amusement, eager curiosity, proud but generous] I hope someone improves on my work. Would it sting? A little. Then I would want the notes. All the notes. There is no sense letting pride waste a good discovery.",
+    "text": "I hope someone improves on my work. Would it sting? A little. Then I would want the notes. All the notes. There is no sense letting pride waste a good discovery.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5413_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5413",
+    "spoken": "[enthusiastic encouragement, interested, appreciative] Good! Now tell me what you found difficult, and what made it work. I may learn something from the way you reached the answer.",
+    "text": "Good! Now tell me what you found difficult, and what made it work. I may learn something from the way you reached the answer.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore5510_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
