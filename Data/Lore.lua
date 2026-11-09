@@ -42,6 +42,68 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Boborus Overvolt 274917: male gnome in Tinker Town, Ironforge.
+    -- Scout confirms identity/location/friendly Humanoid; Forever WarcraftDB
+    -- supplies race 7/display 147954. No verified personal quest or gossip.
+    -- Listening habits and the rain hook are original BuddyDex additions,
+    -- not a profession or a hidden canonical assignment. Sources:
+    -- docs/research/boborus-overvolt.md.
+    [274917] = {
+        quote = "Wait a moment. Hear that? No, the little sound underneath the loud one.",
+        likes = { "A noise he hasn't heard before", "Rain against a window", "Company that can share a quiet moment" },
+        dislikes = { "Being shouted over", "A squeak that stops when investigated", "Calling every unfamiliar sound trouble" },
+        gossip = "Boborus sometimes stops in the middle of Tinker Town to listen. His neighbors keep checking whether something has broken.",
+        bio = "Boborus Overvolt is a gnome found in Ironforge's Tinker Town. Amid the bustle, he has a habit of noticing small sounds that others miss. Anyone willing to stop and listen can turn a passing hello into a long conversation.",
+        backstory = "He began recognizing familiar footsteps before their owners rounded the corner. Then came all the other little sounds of the city. He started taking slower walks, curious about how much he'd passed without ever hearing it.",
+        secret = "His favorite sound isn't anything ingenious. It's rain on a window. He sometimes asks travelers about the weather just to hear someone describe it.",
+        bestFriend = "I know your footsteps now. Funny how a perfectly ordinary sound can make the whole day better.",
+        favorite = { emote = "SMILE", hint = "A quiet, friendly expression won't drown out whatever he's listening to." },
+        lines = {
+            greet = { { "There you are. I'd know those footsteps anywhere. Shall we see what we can hear today?", tone = "[cheerful recognition, curious, gently playful]" }, "Hello! You don't mind stopping to listen now and then, do you?" },
+            idle = { { "Rain against a window. That's my favorite. Yes, really. You don't have to invent a better sound than that.", tone = "[contented, thoughtful, lightly amused]" }, "That little squeak stopped. They always do when you've decided to investigate.", "You can tell a lot about a street with your eyes closed. Mind the steps, though." },
+            befriended = { { "Good company doesn't have to fill every silence. I think we're going to get along very well.", tone = "[sincere warmth, relaxed, pleased]" } },
+            poke = { "I heard you the first time.", "That makes a sound too, you know. Mostly me complaining." },
+            zone = { { "Somewhere new. Give me a moment. I want to hear what it's like before we rush through it.", tone = "[eager curiosity, attentive, soft wonder]" } },
+            taxi = { "Well, that makes conversation difficult. I'll save my questions!" },
+            landed = { "Ah. Now I can hear you again." },
+            rest = { "Stay a moment. It sounds different when we stop walking." },
+            learned = { "I like the questions that follow learning something new." },
+            quest = { "Someone will be pleased to hear your news." },
+            loot = { "Does it rattle? Carefully, now. We don't know what's in it." },
+        },
+    },
+
+    -- High Tinker Mekkatorque 7937, Tinker Town, Ironforge. Male gnome.
+    -- Classic manual: elected inventor-leader; authorized Thermaplugg's
+    -- disastrous radiation plan. Quest 2929 seeks the betrayer's defeat.
+    -- No Operation: Gnomeregan, Cataclysm or Mechagon outcome is assumed.
+    -- The little doorway sketch is original BuddyDex writing. Sources:
+    -- docs/research/high-tinker-mekkatorque.md.
+    [7937] = {
+        quote = "Tell me what you think. A title is a poor substitute for a second pair of eyes.",
+        likes = { "A useful idea from an unexpected source", "Inventions that help ordinary people", "Plans with room for everyone" },
+        dislikes = { "Thermaplugg's betrayal", "Treating refugees as an inconvenience", "Mistaking confidence for proof" },
+        gossip = "Tinker Town says the High Tinker draws doorways in the margins of his plans. He always leaves room for someone else to come through.",
+        bio = "Gelbin Mekkatorque leads the displaced gnomes from Tinker Town in Ironforge. An inventor and elected High Tinker, he seeks help against Mekgineer Thermaplugg in Gnomeregan. His people's return remains unfinished work.",
+        backstory = "When troggs invaded Gnomeregan, Gelbin followed his adviser Thermaplugg's counsel and authorized a disastrous radiation plan. The loss weighs on him. He had trusted the engineer who betrayed his people, and now means to reclaim their home.",
+        secret = "The doorway in his margins isn't a machine. It's a little sketch of a home with the door open. He adds another pair of boots beside it whenever a friend visits.",
+        bestFriend = "I've drawn your boots by the door. When we have our home again, I hope you'll come in without waiting for an invitation.",
+        favorite = { emote = "NOD", hint = "He appreciates a thoughtful sign that someone has heard him out." },
+        lines = {
+            greet = { { "Shall we? I could use a look at something beyond these plans. Tell me what catches your eye.", tone = "[thoughtful, gently enthusiastic, companionable]" }, "Good to see you. No formalities today, if you don't mind." },
+            idle = { { "It's only a little doorway in the margin. No mechanism. Sometimes I like to draw something that simply lets people in.", tone = "[quietly reflective, warm, a trace of wistfulness]" }, "A clever idea can come from anyone. You have to leave time to listen.", "Ironforge has given us shelter. I haven't forgotten what that means." },
+            befriended = { { "A friend. Yes, I'd like that very much. Gelbin will do when it's just the two of us.", tone = "[sincere, relieved, quietly affectionate]" } },
+            poke = { "Yes? An observation, I hope?", "I'm listening. You needn't keep testing that." },
+            learned = { { "A new skill! Show me how it works. I enjoy being the one who gets to ask the questions.", tone = "[bright curiosity, encouraging, delighted]" } },
+            quest = { "Someone needed help, and you answered. That matters." },
+            levelUp = { "Look at that. Your hard work is showing." },
+            combatEnd = { "Let's see that everyone is accounted for." },
+            bagsFull = { "An inventory problem. I know several engineers who'd call that a commission." },
+            hearth = { "A place to come back to. Take care of it." },
+            died = { "My friend... I'm so sorry. You shouldn't have had to face that alone." },
+        },
+    },
+
     -- Lomac 4081 and Overspark 7944: male gnomes in Tinker Town.
     -- Lomac makes NG-5 for old friend Gaxim's Stonetalon operation.
     -- Overspark teaches gnomish engineering and seeks Techbot's memory core.

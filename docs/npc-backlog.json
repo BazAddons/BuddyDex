@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 73,
-  "remaining_count": 144,
+  "completed_count": 75,
+  "remaining_count": 142,
   "completed": [
     {
       "npc_id": 54,
@@ -524,6 +524,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 7937,
+      "name": "High Tinker Mekkatorque",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 7944,
       "name": "Tinkmaster Overspark",
       "zone": "Ironforge",
@@ -657,6 +666,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 274917,
+      "name": "Boborus Overvolt",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     }
   ],
   "remaining": [
@@ -734,20 +752,6 @@
       "npc_id": 17804,
       "name": "Squire Rowe",
       "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 274917,
-      "name": "Boborus Overvolt",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 7937,
-      "name": "High Tinker Mekkatorque",
-      "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
     },

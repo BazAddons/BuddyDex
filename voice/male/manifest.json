@@ -2149,6 +2149,46 @@
     "text": "This looks like a good place. Is there room beside you?",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore274917_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:274917",
+    "spoken": "[sincere warmth, relaxed, pleased] Good company doesn't have to fill every silence. I think we're going to get along very well.",
+    "text": "Good company doesn't have to fill every silence. I think we're going to get along very well.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore274917_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:274917",
+    "spoken": "[cheerful recognition, curious, gently playful] There you are. I'd know those footsteps anywhere. Shall we see what we can hear today?",
+    "text": "There you are. I'd know those footsteps anywhere. Shall we see what we can hear today?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore274917_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:274917",
+    "spoken": "[contented, thoughtful, lightly amused] Rain against a window. That's my favorite. Yes, really. You don't have to invent a better sound than that.",
+    "text": "Rain against a window. That's my favorite. Yes, really. You don't have to invent a better sound than that.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore274917_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:274917",
+    "spoken": "[eager curiosity, attentive, soft wonder] Somewhere new. Give me a moment. I want to hear what it's like before we rush through it.",
+    "text": "Somewhere new. Give me a moment. I want to hear what it's like before we rush through it.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore4081_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -2387,6 +2427,46 @@
     "source": "lore:6569",
     "spoken": "[trying to sound practical, a little anxious] Should we be late, please make certain someone knows where to look.",
     "text": "Should we be late, please make certain someone knows where to look.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7937_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7937",
+    "spoken": "[sincere, relieved, quietly affectionate] A friend. Yes, I'd like that very much. Gelbin will do when it's just the two of us.",
+    "text": "A friend. Yes, I'd like that very much. Gelbin will do when it's just the two of us.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7937_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7937",
+    "spoken": "[thoughtful, gently enthusiastic, companionable] Shall we? I could use a look at something beyond these plans. Tell me what catches your eye.",
+    "text": "Shall we? I could use a look at something beyond these plans. Tell me what catches your eye.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7937_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7937",
+    "spoken": "[quietly reflective, warm, a trace of wistfulness] It's only a little doorway in the margin. No mechanism. Sometimes I like to draw something that simply lets people in.",
+    "text": "It's only a little doorway in the margin. No mechanism. Sometimes I like to draw something that simply lets people in.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7937_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:7937",
+    "spoken": "[bright curiosity, encouraging, delighted] A new skill! Show me how it works. I enjoy being the one who gets to ask the questions.",
+    "text": "A new skill! Show me how it works. I enjoy being the one who gets to ask the questions.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
   "lore7944_befriended_1.ogg": {
