@@ -41,6 +41,59 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Christopher Hewen 8934, human man/general trade vendor, display 8186;
+    -- Kirk Maxwell 10045, human man/stable master, display 9265; Sentinel Hill.
+    -- Current Forever friendly identities/models/places; no linked quests found.
+    -- A private mint pot and a sleepy reading break are original BuddyDex hooks.
+    -- docs/research/westfall-services-and-availability.md.
+    [8934] = {
+        quote = "Tell me what you're making before we choose what you need. A useful little thing can save a very long stretch of unnecessary work.",
+        likes = { "A customer finding the right supplies", "Tools put to a good use", "A new leaf on his little mint plant" },
+        dislikes = { "A job delayed by one missing tool", "Useful materials wasted in haste", "Forgetting to check the little pot" },
+        gossip = "Christopher has plenty of supplies to discuss. One new mint leaf, however, can give him good news for the whole afternoon.",
+        bio = "Christopher Hewen sells general trade goods at Sentinel Hill in Westfall. Tools, crafting materials and gathering pouches form part of his stock. His work helps visitors prepare for the ordinary tasks between larger adventures.",
+        backstory = "He put a little mint plant in a pot and began checking it between other small jobs. A new leaf was hardly an important delivery, but he found himself looking forward to noticing one. Caring for that little green thing became a pleasure.",
+        secret = "He sometimes checks the pot twice when he knows perfectly well it has had no time to change. He just likes having something small and growing to look at.",
+        bestFriend = "There, can you see the new leaf? I thought you'd like a look. We can call that a little good news and enjoy it for a moment.",
+        favorite = { emote = "PRAISE", hint = "A little appreciation for something patiently cared for will make him glad he showed it to you." },
+        lines = {
+            greet = { { "Good to see you. What are you working on today? We can think about the supplies together. Or, if you've simply come to visit, I've a very small piece of good news. The mint has another leaf.", tone = "[practical welcoming warmth, quietly delighted pride]" }, "Come and tell me what you need. There's time to choose it properly." },
+            idle = { { "I keep a little mint plant in a pot. Sometimes I check it twice even though it can't have changed. I know that. I just like seeing a little green thing growing while the rest of the day keeps asking for attention.", tone = "[gentle self-deprecating amusement, fond contentment]" }, "A small useful thing can make the whole job easier.", "That leaf is new. I'm quite sure it wasn't there before." },
+            befriended = { { "I'd be glad to come with you. Tell me what you've been doing while we walk. I can leave the supplies in order for a little while. And the mint will manage without a second inspection until I return.", tone = "[sincere friendly pleasure, gently amused anticipation]" } },
+            poke = { "Yes? What can I help you find?", "I'm listening. I was only thinking about the little pot." },
+            learned = { { "Something new to practice. Tell me which part made sense when you tried it. I like hearing about the small step that finally gets a thing going. A little progress can be very satisfying to notice.", tone = "[engaged practical curiosity, warm patient encouragement]" } },
+            loot = { "A useful find? Let's have a proper look before we decide." },
+            quest = { "Finished? I hope you had what you needed for the work." },
+            rest = { "A good place to pause. What little thing has gone well for you today?" },
+            bagsFull = { "Full up? Best look through things carefully before adding another." },
+            levelUp = { "Well done! That's good news to have in the day." },
+            hearth = { "Home again. I wonder how the little green corner is getting on." },
+        },
+    },
+    [10045] = {
+        quote = "Give an animal time to settle. A quiet greeting often gets you farther than all the fuss you could make in a hurry.",
+        likes = { "An animal comfortably settled", "A visitor approaching without a fuss", "A quiet reading break" },
+        dislikes = { "Unnecessary noise around resting animals", "A rushed and impatient greeting", "Losing his place on the same page again" },
+        gossip = "Kirk's reading seems to advance slowly. A quiet break and comfortably settled animals make a very persuasive invitation to close his eyes.",
+        bio = "Kirk Maxwell is Sentinel Hill's stable master in Westfall. Hunters can bring their animal companions to him while arranging their travels. Amid the traffic through the hill, his work calls for attention to creatures as well as people.",
+        backstory = "He took a book out for a quiet break, found his place, and barely reached the next paragraph before growing drowsy. It happened again on another peaceful afternoon. The book became a pleasant excuse to sit still for a while.",
+        secret = "He doesn't mind how slowly the book is going. When the work is done and the animals are settled, being able to relax over the same page feels like a rather good result.",
+        bestFriend = "Come and sit a moment. You can tell me your news, and the book can wait. It has had plenty of practice waiting for me.",
+        favorite = { emote = "SMILE", hint = "A quiet, friendly response suits someone enjoying a peaceful moment between duties." },
+        lines = {
+            greet = { { "Good to see you. Take your time coming over. How has your companion been? And how have you been? It's pleasant to have a friendly visit when the animals are settled and there's a moment to talk.", tone = "[calm attentive friendliness, gently welcoming warmth]" }, "Come and tell me your news. There's no need to rush the greeting." },
+            idle = { { "I've been reading the same page for a while. A quiet break can make a man drowsy. I don't mind. When the animals are settled and the work is done, it's quite pleasant to find I can relax that much.", tone = "[contented dry amusement, relaxed candid warmth]" }, "A little patience makes a much better greeting.", "Now, where was I on that page? Ah. Not very far along." },
+            befriended = { { "I'd enjoy a walk with you. A little company and a change of view will be welcome. Tell me how your day has gone. I can leave the book where it is; it won't be surprised to wait a little longer.", tone = "[sincere easy companionship, gently self-deprecating humor]" } },
+            poke = { "Yes? What do you need?", "I'm listening. The page can wait." },
+            rest = { { "A good chance to sit. I won't pretend I'm going to finish a chapter this time. Tell me your news instead. A peaceful pause with a friend is a very fine use of the afternoon.", tone = "[relaxed contentment, quietly inviting warmth]" } },
+            quest = { "Finished your errand? I hope everyone came through it well." },
+            loot = { "What have you found? Let me have a look." },
+            learned = { "A new thing to practice. Give yourself time to get used to it." },
+            zone = { "A different place. Let's take a moment to settle into the view." },
+            levelUp = { "Well done. That's worth a quiet smile of satisfaction." },
+            hearth = { "Home again. Familiar surroundings can make it easier to settle." },
+        },
+    },
     -- Grimbooze Thunderbrew 239: dwarf man, Dagger Hills, display 3265.
     -- Current 117 and full Classic Sweet Amber chain: rhyming brewer.
     -- Gina MacGregor 843 (3260): human woman, trade supplies, Sentinel Hill.

@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 201,
-  "remaining_count": 35,
+  "completed_count": 203,
+  "remaining_count": 37,
   "completed": [
     {
       "npc_id": 54,
@@ -1776,12 +1776,32 @@
       "status": "complete"
     },
     {
+      "npc_id": 8934,
+      "name": "Christopher Hewen",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever node and Classic service checks",
+      "research_notes": "docs/research/westfall-services-and-availability.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 9859,
       "name": "Auctioneer Lympkin",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 10045,
+      "name": "Kirk Maxwell",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever node and Classic service checks",
+      "research_notes": "docs/research/westfall-services-and-availability.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -2145,7 +2165,26 @@
       "status": "complete"
     }
   ],
-  "remaining": [],
+  "remaining": [
+    {
+      "npc_id": 6182,
+      "name": "Daphne Stilwell",
+      "zone": "Westfall",
+      "source": "Classic identity/place; current Forever definition retained, encounter availability unverified",
+      "research_notes": "docs/research/westfall-services-and-availability.md",
+      "availability_note": "Current node omits spawn/reaction/service evidence; keep pending a current Scout encounter or equivalent client verification. Sparse data does not prove removal.",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 4305,
+      "name": "Kriggon Talsone",
+      "zone": "Westfall",
+      "source": "Classic identity/place; current Forever definition retained, encounter availability unverified",
+      "research_notes": "docs/research/westfall-services-and-availability.md",
+      "availability_note": "Current node omits spawn/reaction/service evidence; keep pending a current Scout encounter or equivalent client verification. Sparse data does not prove removal.",
+      "status": "pending_identity_and_lore_research"
+    }
+  ],
   "excluded_generic": [
     {
       "npc_id": 68,

@@ -1,4 +1,44 @@
 {
+  "lore10045_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:10045",
+    "spoken": "[sincere easy companionship, gently self-deprecating humor] I'd enjoy a walk with you. A little company and a change of view will be welcome. Tell me how your day has gone. I can leave the book where it is; it won't be surprised to wait a little longer.",
+    "text": "I'd enjoy a walk with you. A little company and a change of view will be welcome. Tell me how your day has gone. I can leave the book where it is; it won't be surprised to wait a little longer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore10045_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:10045",
+    "spoken": "[calm attentive friendliness, gently welcoming warmth] Good to see you. Take your time coming over. How has your companion been? And how have you been? It's pleasant to have a friendly visit when the animals are settled and there's a moment to talk.",
+    "text": "Good to see you. Take your time coming over. How has your companion been? And how have you been? It's pleasant to have a friendly visit when the animals are settled and there's a moment to talk.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore10045_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:10045",
+    "spoken": "[contented dry amusement, relaxed candid warmth] I've been reading the same page for a while. A quiet break can make a man drowsy. I don't mind. When the animals are settled and the work is done, it's quite pleasant to find I can relax that much.",
+    "text": "I've been reading the same page for a while. A quiet break can make a man drowsy. I don't mind. When the animals are settled and the work is done, it's quite pleasant to find I can relax that much.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore10045_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:10045",
+    "spoken": "[relaxed contentment, quietly inviting warmth] A good chance to sit. I won't pretend I'm going to finish a chapter this time. Tell me your news instead. A peaceful pause with a friend is a very fine use of the afternoon.",
+    "text": "A good chance to sit. I won't pretend I'm going to finish a chapter this time. Tell me your news instead. A peaceful pause with a friend is a very fine use of the afternoon.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore11096_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -3889,6 +3929,46 @@
     "source": "lore:878",
     "spoken": "[engaged exploratory curiosity, thoughtful appreciative warmth] New ground. Let's take a moment to look properly. You notice the road, then the shapes beside it, then something small you nearly missed. I like the part where the place becomes more than a name on a report.",
     "text": "New ground. Let's take a moment to look properly. You notice the road, then the shapes beside it, then something small you nearly missed. I like the part where the place becomes more than a name on a report.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8934_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8934",
+    "spoken": "[sincere friendly pleasure, gently amused anticipation] I'd be glad to come with you. Tell me what you've been doing while we walk. I can leave the supplies in order for a little while. And the mint will manage without a second inspection until I return.",
+    "text": "I'd be glad to come with you. Tell me what you've been doing while we walk. I can leave the supplies in order for a little while. And the mint will manage without a second inspection until I return.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8934_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8934",
+    "spoken": "[practical welcoming warmth, quietly delighted pride] Good to see you. What are you working on today? We can think about the supplies together. Or, if you've simply come to visit, I've a very small piece of good news. The mint has another leaf.",
+    "text": "Good to see you. What are you working on today? We can think about the supplies together. Or, if you've simply come to visit, I've a very small piece of good news. The mint has another leaf.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8934_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8934",
+    "spoken": "[gentle self-deprecating amusement, fond contentment] I keep a little mint plant in a pot. Sometimes I check it twice even though it can't have changed. I know that. I just like seeing a little green thing growing while the rest of the day keeps asking for attention.",
+    "text": "I keep a little mint plant in a pot. Sometimes I check it twice even though it can't have changed. I know that. I just like seeing a little green thing growing while the rest of the day keeps asking for attention.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8934_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:8934",
+    "spoken": "[engaged practical curiosity, warm patient encouragement] Something new to practice. Tell me which part made sense when you tried it. I like hearing about the small step that finally gets a thing going. A little progress can be very satisfying to notice.",
+    "text": "Something new to practice. Tell me which part made sense when you tried it. I like hearing about the small step that finally gets a thing going. A little progress can be very satisfying to notice.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore894_bagsFull_1.ogg": {

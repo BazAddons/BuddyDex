@@ -131,5 +131,35 @@
     "zone": "Westfall",
     "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
     "research_notes": "docs/research/westfall-brewer-and-suppliers.md"
+  },
+  {
+    "npc_id": 8934,
+    "name": "Christopher Hewen",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever node and Classic service checks",
+    "research_notes": "docs/research/westfall-services-and-availability.md"
+  },
+  {
+    "npc_id": 10045,
+    "name": "Kirk Maxwell",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever node and Classic service checks",
+    "research_notes": "docs/research/westfall-services-and-availability.md"
+  },
+  {
+    "npc_id": 6182,
+    "name": "Daphne Stilwell",
+    "zone": "Westfall",
+    "source": "Classic identity/place; current Forever definition retained, encounter availability unverified",
+    "research_notes": "docs/research/westfall-services-and-availability.md",
+    "availability_note": "Current node omits spawn/reaction/service evidence; keep pending a current Scout encounter or equivalent client verification. Sparse data does not prove removal."
+  },
+  {
+    "npc_id": 4305,
+    "name": "Kriggon Talsone",
+    "zone": "Westfall",
+    "source": "Classic identity/place; current Forever definition retained, encounter availability unverified",
+    "research_notes": "docs/research/westfall-services-and-availability.md",
+    "availability_note": "Current node omits spawn/reaction/service evidence; keep pending a current Scout encounter or equivalent client verification. Sparse data does not prove removal."
   }
 ]

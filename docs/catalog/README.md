@@ -10,9 +10,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded generic rows | 132 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,449 |
-| Local backlog entries missing from source | 56 |
-| Combined retained entries | 1,505 |
-| Candidate name groups | 1,492 |
+| Local backlog entries missing from source | 58 |
+| Combined retained entries | 1,507 |
+| Candidate name groups | 1,494 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -327,6 +327,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Dannal Stern** — Scout: [2119](https://forever.warcraftdb.com/data/npc/2119)
 - **Dannelor**: [4211](https://forever.warcraftdb.com/data/npc/4211)
 - **Dannie Fizzwizzle**: [6328](https://forever.warcraftdb.com/data/npc/6328)
+- **Daphne Stilwell**: [6182](https://forever.warcraftdb.com/data/npc/6182)
 - **Darcy**: [379](https://forever.warcraftdb.com/data/npc/379)
 - **Dark Cleric Beryl**: [2129](https://forever.warcraftdb.com/data/npc/2129)
 - **Dark Cleric Duesten** — Scout: [2123](https://forever.warcraftdb.com/data/npc/2123)
@@ -831,6 +832,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Kragg**: [1404](https://forever.warcraftdb.com/data/npc/1404)
 - **Kravel Koalbeard**: [4452](https://forever.warcraftdb.com/data/npc/4452)
 - **Krazore** — Scout: [277721](https://forever.warcraftdb.com/data/npc/277721)
+- **Kriggon Talsone**: [4305](https://forever.warcraftdb.com/data/npc/4305)
 - **Kris Legace**: [3536](https://forever.warcraftdb.com/data/npc/3536)
 - **Krix**: [260558](https://forever.warcraftdb.com/data/npc/260558)
 - **Krom Stoutarm**: [6294](https://forever.warcraftdb.com/data/npc/6294)

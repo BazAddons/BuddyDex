@@ -7,9 +7,9 @@
     "excluded_generic_rows": 132,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1449,
-    "local_backlog_entries_missing_from_source": 56,
-    "combined_retained_entries": 1505,
-    "candidate_name_groups": 1492,
+    "local_backlog_entries_missing_from_source": 58,
+    "combined_retained_entries": 1507,
+    "candidate_name_groups": 1494,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -6259,7 +6259,7 @@
           "source_page": 6,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -7602,6 +7602,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Daphne Stilwell",
+      "npc_ids": [
+        6182
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 6182,
+          "name": "Daphne Stilwell",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -19761,7 +19778,7 @@
           "source_page": 17,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -20081,6 +20098,23 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Kriggon Talsone",
+      "npc_ids": [
+        4305
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 4305,
+          "name": "Kriggon Talsone",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39475,6 +39509,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 6182,
+      "name": "Daphne Stilwell",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 4305,
+      "name": "Kriggon Talsone",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     }
   ]
 }
