@@ -118,5 +118,45 @@
     "spoken": "[firm patient encouragement, knowing warmth] Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked.",
     "text": "Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore7953_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7953",
+    "spoken": "[sincere] [warm] I have come to enjoy your visits for more than the news you bring. Let us spend a little time together, my friend. There is room in a good day for company as well as work.",
+    "text": "I have come to enjoy your visits for more than the news you bring. Let us spend a little time together, my friend. There is room in a good day for company as well as work.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore7953_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7953",
+    "spoken": "[bright] [friendly] There you are. Shall we have a little time together? You can tell me how your day is going, and I will try not to turn the whole conversation into another riding lesson.",
+    "text": "There you are. Shall we have a little time together? You can tell me how your day is going, and I will try not to turn the whole conversation into another riding lesson.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore7953_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7953",
+    "spoken": "[playful] [proud] Those were two perfectly ordinary steps. Perhaps three. If a learner finally understands a difficult turn, I am allowed to look pleased about it. You may look pleased with me.",
+    "text": "Those were two perfectly ordinary steps. Perhaps three. If a learner finally understands a difficult turn, I am allowed to look pleased about it. You may look pleased with me.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore7953_mount_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mount",
+    "say": null,
+    "source": "lore:7953",
+    "spoken": "[confident] [encouraging] Take a moment before you hurry away. Feel how your mount moves, and pay attention to what it is telling you. Confidence will serve you better when it has some understanding behind it.",
+    "text": "Take a moment before you hurry away. Feel how your mount moves, and pay attention to what it is telling you. Confidence will serve you better when it has some understanding behind it.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
   }
 }

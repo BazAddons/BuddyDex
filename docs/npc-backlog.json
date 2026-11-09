@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 301,
-  "remaining_count": 4,
+  "completed_count": 303,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -1594,6 +1594,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3432,
+      "name": "Mankrik",
+      "zone": "The Barrens",
+      "source": "Reviewed exact current Horde-friendly adult Orc/Troll model, location, complete Classic and Forever memorial/Matriarch quests with installed/current text and era limits; no Scout sighting claimed",
+      "research_notes": "docs/research/mankriks-memorial-and-xartis-hatchlings.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3448,
       "name": "Tonga Runetotem",
       "zone": "The Barrens",
@@ -2258,6 +2268,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 7953,
+      "name": "Xar'Ti",
+      "zone": "Durotar",
+      "source": "Reviewed exact current Horde-friendly adult Orc/Troll model, location, complete Classic and Forever memorial/Matriarch quests with installed/current text and era limits; no Scout sighting claimed",
+      "research_notes": "docs/research/mankriks-memorial-and-xartis-hatchlings.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 8385,
       "name": "Mura Runetotem",
       "zone": "Silverpine Forest",
@@ -2805,20 +2825,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 3432,
-      "name": "Mankrik",
-      "zone": "The Barrens",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 7953,
-      "name": "Xar'Ti",
-      "zone": "Durotar",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

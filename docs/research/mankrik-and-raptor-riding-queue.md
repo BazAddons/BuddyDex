@@ -1,5 +1,7 @@
 # Next: Mankrik and Xar'Ti
 
+**Completed 2026-11-09:** both profiles have fifteen personal lines and four selected Orc male/Troll female v4 signatures. See [full research](mankriks-memorial-and-xartis-hatchlings.md), including Forever's 95774 Her Name Is Olgra and 97223 Bloodtalon Matriarch. Development now has 303 complete profiles. The pending text below preserves the original investigation.
+
 Identity shortlist, 2026-11-09, after 301 completed profiles. Continue familiar Horde quest contacts and useful Troll services, including another female Troll. Neither new profile is authored or recorded yet. No personal Scout encounter is claimed; ordinary named/adult/reaction/non-attackability gates remain required.
 
 ## Mankrik, 3432

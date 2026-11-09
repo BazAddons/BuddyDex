@@ -119,6 +119,46 @@
     "text": "Hands steady. Pack secure. Now look out there... that's yours to see.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3432_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3432",
+    "spoken": "[sincere] [quiet emotion] You have given me more than help with another task. You have stayed. I do not know how to repay that, but I would be glad to walk beside you as a friend.",
+    "text": "You have given me more than help with another task. You have stayed. I do not know how to repay that, but I would be glad to walk beside you as a friend.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3432_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3432",
+    "spoken": "[low] [restrained warmth] You came back. I am glad. We can walk for a while if you wish. I may not have much to say, but I would welcome your company.",
+    "text": "You came back. I am glad. We can walk for a while if you wish. I may not have much to say, but I would welcome your company.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3432_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3432",
+    "spoken": "[solemn] [steady] Her name is Olgra. I want that remembered when people speak of what happened. She was more than the loss that brought me to the Crossroads.",
+    "text": "Her name is Olgra. I want that remembered when people speak of what happened. She was more than the loss that brought me to the Crossroads.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3432_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3432",
+    "spoken": "[weary] [gentle] We can stop here. There need not be a speech, or another promise made before we go on. Stay a little while, my friend. That is enough to ask for now.",
+    "text": "We can stop here. There need not be a speech, or another promise made before we go on. Stay a little while, my friend. That is enough to ask for now.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3615_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

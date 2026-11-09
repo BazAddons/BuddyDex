@@ -42,6 +42,72 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mankrik (3432), adult male Orc, Crossroads, The Barrens.
+    -- Current Horde-friendly display 3855 / race 2 sex 0. 4921 separation and loss,
+    -- 899 vengeance, Forever 95774 Olgra's adornments/memorial; Thork and rebuild gossip.
+    -- Quiet companionship below is original; no invented cure for grief or later romance.
+    -- Research: docs/research/mankriks-memorial-and-xartis-hatchlings.md.
+    [3432] = {
+        quote = "Remember her name. I can walk beside you and still carry what happened. Do not ask me to set it down as the price of your company.",
+        likes = { "Olgra's name spoken with respect", "Help that follows a promise", "Company that leaves room for silence" },
+        dislikes = { "The quilboar who took his wife", "Being told his grief should be over", "An earnest plea dismissed without help" },
+        gossip = "Mankrik's anger is plain to hear. A few visitors have found that staying quietly beside him matters more than having something wise to say.",
+        bio = "Mankrik came to the Crossroads seeking help after losing his wife, Olgra, to quilboar. His demand for vengeance remains fierce. In Forever, he also asks for her polished-bone adornments, intending to place them with a memorial in her name.",
+        backstory = "He and Olgra were separated while fighting Bristlebacks at a small Tauren camp. Overwhelmed himself, he awoke under a Tauren druid's care on the Gold Road. At the Crossroads, even Thork's warning about his rage felt like another refusal to help.",
+        secret = "He does not always want another speech about strength. Sometimes he wants a friend to remain when he has run out of words. Asking for that is harder than asking for another fight.",
+        bestFriend = "You have stayed without asking me to become someone else. I have not forgotten that. Sit with me a while, my friend.",
+        favorite = { emote = "COMFORT", hint = "Let him know he does not have to carry the silence alone." },
+        lines = {
+            greet = { { "You came back. I am glad. We can walk for a while if you wish. I may not have much to say, but I would welcome your company.", tone = "[low] [restrained warmth]" },
+                "I am here. Let us see what the road asks of us today." },
+            idle = { { "Her name is Olgra. I want that remembered when people speak of what happened. She was more than the loss that brought me to the Crossroads.", tone = "[solemn] [steady]" },
+                "Some days I hear Thork's warning and can do nothing but feel the anger again.",
+                "You need not fill every silence. I know you are still here." },
+            befriended = { { "You have given me more than help with another task. You have stayed. I do not know how to repay that, but I would be glad to walk beside you as a friend.", tone = "[sincere] [quiet emotion]" } },
+            poke = { "Yes. I heard you.", "Give me a moment. I will listen." },
+            rest = { { "We can stop here. There need not be a speech, or another promise made before we go on. Stay a little while, my friend. That is enough to ask for now.", tone = "[weary] [gentle]" } },
+            quest = { "You kept your word. I know what that is worth." },
+            combatStart = { "Stand ready. I will be beside you." },
+            combatEnd = { "It is done. Are you still with me?" },
+            died = { "No. Not another friend lost before my eyes." },
+            hearth = { "Somewhere to return to. Hold on to that." },
+            zone = { "Another stretch of road. I will walk it with you." },
+        },
+    },
+
+    -- Xar'Ti (7953), adult female Troll Raptor Riding Trainer, Sen'jin, Durotar.
+    -- Current Horde-friendly display 7040 / race 8 sex 1. Forever 97223: trains
+    -- local raptors, failed Matriarch capture, requests eggs to preserve her bloodline.
+    -- Repeated service gossip restricts lessons; friendship retains its normal gate.
+    -- Private victory steps are original. Research: mankriks-memorial-and-xartis-hatchlings.md.
+    [7953] = {
+        quote = "A raptor can be an ally, but it has a mind of its own. Learn to pay attention before you decide that all you need is speed.",
+        likes = { "A rider listening as well as steering", "Hatchlings growing into village allies", "A few triumphant steps after a lesson" },
+        dislikes = { "Treating a raptor like a docile cart", "Asking for speed before learning control", "Being caught celebrating before the rider" },
+        gossip = "Xar'Ti spots every wobble in a rider's turn. After a good lesson, villagers sometimes notice a few delighted steps of her own.",
+        bio = "Xar'Ti teaches raptor riding in Sen'jin Village and has trained raptors from across Kalimdor. After failed attempts to capture the dangerous Bloodtalon Matriarch, she asks for its eggs so the hatchlings can become allies and preserve its bloodline.",
+        backstory = "A learner finally made a turn that had resisted every patient correction. Xar'Ti took two delighted steps before remembering to look composed. The little celebration stayed with her, slipping out after other hard-won successes.",
+        secret = "The steps are for the rider, too. Watching someone understand still delights her. She would rather be caught enjoying a lesson than stop feeling that way.",
+        bestFriend = "You can laugh when you catch the victory steps, my friend. Then come join me. A good day deserves a little celebration.",
+        favorite = { emote = "CHEER", hint = "She likes a little encouragement when patient practice pays off." },
+        lines = {
+            greet = { { "There you are. Shall we have a little time together? You can tell me how your day is going, and I will try not to turn the whole conversation into another riding lesson.", tone = "[bright] [friendly]" },
+                "Good to see you. I am ready for a little company." },
+            idle = { { "Those were two perfectly ordinary steps. Perhaps three. If a learner finally understands a difficult turn, I am allowed to look pleased about it. You may look pleased with me.", tone = "[playful] [proud]" },
+                "The Bloodtalon are clever and swift. Raising them well takes more than admiring their speed.",
+                "A good lesson often begins when someone stops pretending they already understand." },
+            befriended = { { "I have come to enjoy your visits for more than the news you bring. Let us spend a little time together, my friend. There is room in a good day for company as well as work.", tone = "[sincere] [warm]" } },
+            poke = { "Yes? Practicing how to get a trainer's attention?", "Careful. You nearly interrupted the victory steps." },
+            mount = { { "Take a moment before you hurry away. Feel how your mount moves, and pay attention to what it is telling you. Confidence will serve you better when it has some understanding behind it.", tone = "[confident] [encouraging]" } },
+            learned = { "There! You felt the difference. That deserves a cheer." },
+            levelUp = { "Another success. You may celebrate before the next lesson." },
+            combatEnd = { "Everyone safe? Good. We can take a breath now." },
+            rest = { "A pause is useful. Even enthusiasm can sit down for a moment." },
+            quest = { "Thank you for seeing it through. Patient work deserves to be noticed." },
+            landed = { "Back on the ground. A little steadier underfoot, yes?" },
+        },
+    },
+
     -- Tonga Runetotem (3448), adult male Tauren, Crossroads, The Barrens.
     -- Current Horde-friendly display 3914 / race 6 sex 0. Oasis/shell investigation,
     -- Hamuul counsel, clanmate Mura sample; 6126-6130 gazelle cure with Moonglade.

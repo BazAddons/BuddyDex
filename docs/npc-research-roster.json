@@ -672,5 +672,19 @@
     "zone": "The Barrens",
     "source": "Reviewed exact current adult male Tauren/Troll body and Crossroads pin, friendly/conditional Neutral access, full oasis and gazelle cure or current stock/sparse lore, installed/current comparison; no Scout sighting claimed",
     "research_notes": "docs/research/crossroads-living-land-and-mild-spices.md"
+  },
+  {
+    "npc_id": 3432,
+    "name": "Mankrik",
+    "zone": "The Barrens",
+    "source": "Reviewed exact current Horde-friendly adult Orc/Troll model, location, complete Classic and Forever memorial/Matriarch quests with installed/current text and era limits; no Scout sighting claimed",
+    "research_notes": "docs/research/mankriks-memorial-and-xartis-hatchlings.md"
+  },
+  {
+    "npc_id": 7953,
+    "name": "Xar'Ti",
+    "zone": "Durotar",
+    "source": "Reviewed exact current Horde-friendly adult Orc/Troll model, location, complete Classic and Forever memorial/Matriarch quests with installed/current text and era limits; no Scout sighting claimed",
+    "research_notes": "docs/research/mankriks-memorial-and-xartis-hatchlings.md"
   }
 ]
