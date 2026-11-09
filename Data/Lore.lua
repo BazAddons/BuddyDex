@@ -41,6 +41,60 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Thomas <Altar Boy>, Cathedral of Light: human boy, friendly, display 262.
+    -- Starts 1274: discreet referral to Bishop DeLavey, not an omniscient spy.
+    -- Thurman Schneider: human boy/apprentice, Larson Clothiers, display 221.
+    -- Ends 334: Rema's son, deliberately hoped missing kit would excuse work.
+    -- Whistling / spool's cape are original. Child audio pending.
+    -- Research: docs/research/cathedral-and-clothier-boys.md.
+    [4982] = {
+        quote = "Excuse me. Have you a moment? I was asked to find someone who could help, and you look as though you might.",
+        likes = { "An errand done properly", "A friendly face among the visitors", "Hearing a bird sing outside" },
+        dislikes = { "Being talked over because he's small", "An important message shouted aloud", "His whistle coming out as a squeak" },
+        gossip = "Thomas can approach a stranger very politely about important business. Asking someone to listen to his whistling seems to be harder.",
+        bio = "Thomas serves as an altar boy in Stormwind's Cathedral of Light. Bishop DeLavey trusts him to approach adventurers discreetly and ask them to visit the Keep. The bishop praises how reliably young Thomas follows his requests.",
+        backstory = "A bird outside caught his attention with a short tune. He tried answering when he had a moment to himself, but the notes wouldn't come out properly. A clear little whistle became something he wanted to manage for himself.",
+        secret = "He can sometimes get the first note right now. He would like to show a friend outside, where the next attempt won't echo through the cathedral if it turns into a squeak.",
+        bestFriend = "Would you listen for a moment when we're outside? I've nearly got the note. If it squeaks, we can laugh and I'll try again.",
+        favorite = { emote = "SMILE", hint = "A little kindness can make it easier for him to ask for a moment of your attention." },
+        lines = {
+            greet = { { "Hello. I'm glad to see you again. Have you a moment? There's nothing urgent this time. I wanted to ask if you'd listen to something when we're outside. I've been practicing, a little.", tone = "[boyish polite warmth, slightly shy anticipation, earnest]" }, "Good day! Did you find the person you were looking for?" },
+            idle = { { "I heard a bird outside and tried to whistle its tune. It sounded much easier when the bird did it. Sometimes I get the first note right now. I haven't quite persuaded the second one yet.", tone = "[boyish thoughtful curiosity, shy self-deprecating amusement]" }, "That was a nice song. I wonder if I could remember the first bit.", "I like knowing I've passed on an errand properly." },
+            befriended = { { "You'd like me to come too? Thank you. I'd like that. We could listen for birds along the way, if there's time. Perhaps you'll hear the little tune I've been trying to whistle.", tone = "[boyish sincere pleased warmth, gently growing enthusiasm]" } },
+            poke = { "Yes? I'm listening.", "Did you need help finding someone?" },
+            rest = { { "It's quiet here. Would you mind if I tried that first note? I might only manage a squeak. You can laugh if it's funny. Then I'll listen for the bird and have another go.", tone = "[boyish shy trust, hopeful concentration, gently amused]" } },
+            quest = { "You found them? Good. I hope they were able to help." },
+            learned = { "How many tries did that take? I'm still practicing mine." },
+            loot = { "Oh, what's that? May I have a look?" },
+            zone = { "It's different here. Shall we listen for a moment?" },
+            levelUp = { "Well done! You must be pleased you kept practicing." },
+            hearth = { "Back again. It's nice to see a familiar place." },
+        },
+    },
+    [1429] = {
+        quote = "If my sewing kit stays at home, perhaps the sewing could wait. That's a reasonable idea, isn't it?",
+        likes = { "The moment work is finished", "A little scrap no one needs", "Making something just for fun" },
+        dislikes = { "His missing tools being found", "A whole afternoon of sewing ahead", "A knot in a very short thread" },
+        gossip = "Thurman can be remarkably inventive about avoiding sewing. A tiny cape for a wooden spool, however, seems to deserve his full attention.",
+        bio = "Thurman Schneider is Rema's son and an apprentice at Larson Clothiers in Stormwind's Mage Quarter. His mother worries about his missing tools; he privately hopes their absence will spare him a turn at helping the Larsons sew.",
+        backstory = "A little scrap looked like a cape when he draped it around a wooden spool. Soon the spool needed a properly grand outfit. Somehow, making clothes for this very small customer seemed much more interesting than his usual work.",
+        secret = "He has spent longer getting the spool's cape to sit properly than he meant to spend sewing at all. He hopes nobody decides this means he wants another afternoon of useful work.",
+        bestFriend = "Look, the cape sits properly now! You can admire it, but please don't say I ought to make a whole pile of them.",
+        favorite = { emote = "APPLAUD", hint = "A very small finished masterpiece would enjoy a very appreciative audience." },
+        lines = {
+            greet = { { "Hello! Are you here to buy clothes? Or just to visit? A visit would be nice. If you're carrying my sewing kit, though, I think I can guess what happens to the rest of my afternoon.", tone = "[boyish hopeful friendliness, rueful comic apprehension]" }, "I've thought of something much more interesting than work. Have you got a moment?" },
+            idle = { { "I made a cape for a wooden spool. Only a little one, but it wouldn't sit properly. I've spent ages fixing it. Somehow that wasn't quite the afternoon without sewing I had in mind.", tone = "[boyish absorbed pride, rueful self-awareness, playful]" }, "The fun bit should come first sometimes. Just to see how that works.", "It's a very grand cape for a very small customer." },
+            befriended = { { "You're taking me with you? Oh, good! I'd like to see something besides another length of cloth. I can tell you about the spool's cape while we walk. It came out rather well in the end.", tone = "[boyish delighted relief, proud enthusiasm, friendly]" } },
+            poke = { "I'm here! I was thinking about the fun bit.", "What have you found? Is it interesting?" },
+            loot = { { "Can I have a look? The shape reminds me of something. That happens with scraps of cloth too. One moment it's a scrap, and the next I can see exactly what the spool ought to be wearing.", tone = "[boyish inventive curiosity, bright absorbed amusement]" } },
+            rest = { "Yes, a break! I knew we'd reach the good bit eventually." },
+            quest = { "Finished? Does that mean there's time for fun now?" },
+            learned = { "Did you want to learn that, or did somebody say you had to?" },
+            zone = { "I've never had to sew this whole place. I like it already." },
+            levelUp = { "Well done! Surely that's enough work to deserve a rest." },
+            hearth = { "Home again. I wonder whether anyone's looking for my sewing kit." },
+        },
+    },
     -- Janey Anship, Lisan Pierce, Suzanne: adult human female mages, Stormwind.
     -- Classic shared chatter: arcane proposals, objections, love-potion punchline.
     -- Scout/current Forever confirm IDs, sex/race, displays 1472/1473/2038.
