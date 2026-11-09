@@ -39,6 +39,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1287_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1287",
+    "spoken": "[warm affection, pleased, conversational] You came back without needing anything repaired. I like that. Come on, then. Let's enjoy the day together.",
+    "text": "You came back without needing anything repaired. I like that. Come on, then. Let's enjoy the day together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1287_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1287",
+    "spoken": "[brisk, dryly amused, friendly] An outing? Good. Keep the magnificent weapon clear of the door and we'll make a fine start.",
+    "text": "An outing? Good. Keep the magnificent weapon clear of the door and we'll make a fine start.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1287_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1287",
+    "spoken": "[deadpan, amused, mock dignity] Dustbane is a perfectly good name for a broom. Better earned than some of the titles I hear in the shop.",
+    "text": "Dustbane is a perfectly good name for a broom. Better earned than some of the titles I hear in the shop.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1287_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1287",
+    "spoken": "[teasing, practical, curious] A magnificent find, is it? Very well. Let's look it over before we give it a title and a heroic history.",
+    "text": "A magnificent find, is it? Very well. Let's look it over before we give it a title and a heroic history.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1299_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

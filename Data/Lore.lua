@@ -42,6 +42,86 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Weller's Arsenal, Trade District, Stormwind: Woo Ping 11867 is a
+    -- human male weapon master; Gunther Weller 1289/Marda Weller 1287 are
+    -- human male/female weapons merchants. Scout and current services
+    -- corroborate the identities. Installed gossip praises Woo Ping's
+    -- endurance/sword technique; he refers to other Alliance masters.
+    -- No presumed Weller marriage, invented war service or Deathwing meme.
+    -- Original hooks/sources: docs/research/wellers-arsenal.md.
+    [11867] = {
+        quote = "Again. You needn't make the next attempt impressive. Make it better than the last one.",
+        likes = { "A student willing to try again", "Room to finish the movement", "Respect for a patient practice partner" },
+        dislikes = { "Mistaking a flourish for control", "Swinging before looking around", "Calling the first lesson beneath you" },
+        gossip = "The guards praise Woo Ping's tireless practice. Someone claims he thanked the dummy afterward. Nobody has been brave enough to ask.",
+        bio = "Woo Ping teaches armed combat at Weller's Arsenal in Stormwind's Trade District. Guards praise his sword techniques and stamina. When students ask about other weapons, he directs them to the masters in Ironforge and Darnassus.",
+        backstory = "Long practice makes a technique look easy to someone seeing only the finished motion. Woo Ping puts in those hours himself. Students who arrive hoping for a shortcut soon find him ready to demonstrate the same movement once more.",
+        secret = "After a long session, he straightens the practice dummy and thanks it. A reliable partner deserves acknowledgment, even when its finest technique is standing still.",
+        bestFriend = "You have stayed through the awkward attempts. I value that. Walk with me a while; today we needn't turn everything into a lesson.",
+        favorite = { emote = "BOW", hint = "A respectful acknowledgment is a fine way to end a practice session." },
+        lines = {
+            greet = { { "Ready? Good. An ordinary walk can be an excellent change of pace. You may put the weapon away.", tone = "[confident, composed, lightly amused]" }, "There you are. Come along. Tell me what you've been practicing." },
+            idle = { { "Yes, I thank the practice dummy. It is always ready, never complains, and has endured a remarkable number of beginners.", tone = "[matter-of-fact, dry humor, warm respect]" }, "There is usually more to learn from the attempt you nearly got right.", "We can walk past a clear space without practicing in it. Probably." },
+            befriended = { { "A friend, then. Good. You needn't prove anything to enjoy my company. Let us see what the day brings.", tone = "[sincere warmth, welcoming, quietly pleased]" } },
+            poke = { "You have my attention. What will you do with it?", "An unusual opening. I would not recommend repeating it." },
+            combatEnd = { { "Steady. Is everyone all right? Good. Remember what worked, and what you will do differently next time.", tone = "[calm authority, reassuring, focused]" } },
+            learned = { "Now comes the interesting part: learning to use it well." },
+            levelUp = { "There. Practice becoming progress." },
+            quest = { "You saw it through. That matters more than how impressive it looked." },
+            rest = { "Rest is part of keeping yourself ready. Sit." },
+            loot = { "A new weapon? Get to know its balance before you trust it." },
+            hearth = { "Back to the Arsenal. Someone will be waiting to begin." },
+        },
+    },
+    [1289] = {
+        quote = "Tell me what you need it for. There's more to choosing a weapon than seeing which one catches the light.",
+        likes = { "A customer asking useful questions", "Clean wrappings and cared-for steel", "A warm cup between busy spells" },
+        dislikes = { "A blade left wet in its sheath", "Swinging at the shop fittings", "A sale made without hearing the need" },
+        gossip = "Gunther keeps the Arsenal's stock in good order. Oddly, the little old teapot seems to receive the finest polishing of all.",
+        bio = "Gunther Weller sells weapons and offers repairs at Weller's Arsenal in Stormwind's Trade District. Marda Weller works at the same shop, where Woo Ping teaches armed combat. Gunther welcomes browsers as well as customers with a particular weapon in mind.",
+        backstory = "Between customers, Gunther grew used to checking edges, grips and the state of the racks. He likes a piece of metal properly cared for. The habit extends past his stock, though he'd rather discuss a useful weapon than his housekeeping.",
+        secret = "His best polishing cloth is reserved for a battered teapot. The dents aren't coming out. He knows that. He likes setting it down bright enough to make an ordinary break feel proper.",
+        bestFriend = "I'll put the kettle on. You can sit without inspecting the stock. I know you came to see me, and I'm glad of it.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment tells him you've heard the practical part of his advice." },
+        lines = {
+            greet = { { "Good to see you. A walk before the next cup? Certainly. The racks can look after themselves for a little while.", tone = "[steady, welcoming, easygoing]" }, "Hello again. What do you need today? Ah, company. Happy to oblige." },
+            idle = { { "The teapot? It's a good teapot. The dents don't stop it working, and a little polish makes a break feel civilized.", tone = "[fond, practical, mildly amused]" }, "Dry it before you put it away. That's half the advice I give in a day.", "A fine shine is pleasant. A sound grip matters more." },
+            befriended = { { "Someone to see beyond the counter. That's welcome. Come along, my friend. We've time for a proper conversation.", tone = "[sincere affection, relaxed, warmly pleased]" } },
+            poke = { "Careful. Some of my stock has sharp corners.", "Yes? Have I missed something?" },
+            rest = { { "Let's sit. If we were back at the shop, this would be the moment for a cup. No need to hurry the break.", tone = "[contented, unhurried, companionable]" } },
+            loot = { "Worth looking over carefully. How's the grip?" },
+            bagsFull = { "Wrap the edges before you start rearranging that lot." },
+            learned = { "Good. Knowing how to use it is part of looking after yourself." },
+            combatEnd = { "Everyone safe? Then we can worry about the equipment." },
+            quest = { "Work done. Take a moment before finding more." },
+            hearth = { "Home. I wonder whether there's time for a cup before the next customer." },
+        },
+    },
+    [1287] = {
+        quote = "It may be a magnificent weapon. The counter is still a poor place to demonstrate it.",
+        likes = { "A well-chosen weapon carried safely", "Customers with a sense of humor", "A clear floor after a busy day" },
+        dislikes = { "Testing an edge on the furniture", "Being hurried through a question", "A grand weapon name hiding poor care" },
+        gossip = "After hearing adventurers name their finest weapons, Marda has apparently bestowed a title on the broom. The dust remains unimpressed.",
+        bio = "Marda Weller sells weapons and offers repairs at Weller's Arsenal in Stormwind. Gunther Weller and weapon master Woo Ping work there too. She helps visitors find what they need, while keeping an eye on where they point the things they already carry.",
+        backstory = "A weapons shop hears plenty of grand claims about blades. Marda learned to ask a practical question before being impressed. By closing time, all the mighty names in the world still left ordinary dust for someone to sweep.",
+        secret = "She calls the shop broom Dustbane when nobody is listening. It has no enchantment and a rather tired handle. She maintains that its record against the dust speaks for itself.",
+        bestFriend = "You may laugh at Dustbane. You can even borrow it. Mostly, though, I'm glad you're here after the day's fuss has settled.",
+        favorite = { emote = "GRIN", hint = "Recognizing the dry joke beneath her practical advice may earn one back." },
+        lines = {
+            greet = { { "An outing? Good. Keep the magnificent weapon clear of the door and we'll make a fine start.", tone = "[brisk, dryly amused, friendly]" }, "There you are! Come along. I could use a little time beyond the counter." },
+            idle = { { "Dustbane is a perfectly good name for a broom. Better earned than some of the titles I hear in the shop.", tone = "[deadpan, amused, mock dignity]" }, "If you're going to tell me the weapon's name, you can tell me when you last cleaned it.", "No, I'm not impressed by a blade that nearly takes the ceiling down." },
+            befriended = { { "You came back without needing anything repaired. I like that. Come on, then. Let's enjoy the day together.", tone = "[warm affection, pleased, conversational]" } },
+            poke = { "That isn't how you check the balance.", "Yes? Speak up. I don't charge by the question." },
+            loot = { { "A magnificent find, is it? Very well. Let's look it over before we give it a title and a heroic history.", tone = "[teasing, practical, curious]" } },
+            bagsFull = { "Sharp things wrapped? Good. Now we can discuss the rest of that mess." },
+            learned = { "There. A little more skill to go with the equipment." },
+            combatEnd = { "All in one piece? Good. That's the result I wanted." },
+            quest = { "Finished. I hope they appreciated the work." },
+            rest = { "Yes, let's sit. The broom can wait." },
+            hearth = { "Back to the shop. Dustbane will be awaiting my return." },
+        },
+    },
+
     -- Stormwind's Trade District auctioneers: Chilton 8670 and Fitch 8719
     -- are human males; Jaxon 15659 is human female. Current Scout and
     -- Forever appearance/service records agree. No direct Classic quests.

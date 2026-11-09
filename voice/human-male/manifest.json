@@ -1,4 +1,44 @@
 {
+  "lore11867_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11867",
+    "spoken": "[sincere warmth, welcoming, quietly pleased] A friend, then. Good. You needn't prove anything to enjoy my company. Let us see what the day brings.",
+    "text": "A friend, then. Good. You needn't prove anything to enjoy my company. Let us see what the day brings.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11867_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:11867",
+    "spoken": "[calm authority, reassuring, focused] Steady. Is everyone all right? Good. Remember what worked, and what you will do differently next time.",
+    "text": "Steady. Is everyone all right? Good. Remember what worked, and what you will do differently next time.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11867_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11867",
+    "spoken": "[confident, composed, lightly amused] Ready? Good. An ordinary walk can be an excellent change of pace. You may put the weapon away.",
+    "text": "Ready? Good. An ordinary walk can be an excellent change of pace. You may put the weapon away.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11867_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11867",
+    "spoken": "[matter-of-fact, dry humor, warm respect] Yes, I thank the practice dummy. It is always ready, never complains, and has endured a remarkable number of beginners.",
+    "text": "Yes, I thank the practice dummy. It is always ready, never complains, and has endured a remarkable number of beginners.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1257_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -37,6 +77,46 @@
     "source": "lore:1257",
     "spoken": "[quiet, amused voice, appreciative wonder] That bottle has a lovely note. Shame it's full of something expensive.",
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1289_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1289",
+    "spoken": "[sincere affection, relaxed, warmly pleased] Someone to see beyond the counter. That's welcome. Come along, my friend. We've time for a proper conversation.",
+    "text": "Someone to see beyond the counter. That's welcome. Come along, my friend. We've time for a proper conversation.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1289_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1289",
+    "spoken": "[steady, welcoming, easygoing] Good to see you. A walk before the next cup? Certainly. The racks can look after themselves for a little while.",
+    "text": "Good to see you. A walk before the next cup? Certainly. The racks can look after themselves for a little while.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1289_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1289",
+    "spoken": "[fond, practical, mildly amused] The teapot? It's a good teapot. The dents don't stop it working, and a little polish makes a break feel civilized.",
+    "text": "The teapot? It's a good teapot. The dents don't stop it working, and a little polish makes a break feel civilized.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1289_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1289",
+    "spoken": "[contented, unhurried, companionable] Let's sit. If we were back at the shop, this would be the moment for a cup. No need to hurry the break.",
+    "text": "Let's sit. If we were back at the shop, this would be the moment for a cup. No need to hurry the break.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore1300_befriended_1.ogg": {
