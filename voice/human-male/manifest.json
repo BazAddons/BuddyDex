@@ -1039,6 +1039,126 @@
     "text": "Delivery made! Now, have we time to find something nice for lunch? I believe we've earned it.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore14423_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14423",
+    "spoken": "[sincere affection, relaxed pleasure, inviting] You came to bring me along. I am glad, my friend. Come on. A walk and a proper conversation sound very welcome.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. A walk and a proper conversation sound very welcome.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14423_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:14423",
+    "spoken": "[practical interest, good-natured amusement, encouraging] Does it fit properly? Give it a fair try. I have learned that a thumb can be quite a small part of a glove and still require a great deal of attention.",
+    "text": "Does it fit properly? Give it a fair try. I have learned that a thumb can be quite a small part of a glove and still require a great deal of attention.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14423_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14423",
+    "spoken": "[plainspoken warmth, mild amusement, welcoming] Good to see you, my friend. Have you time to walk with me? Tell me how you have been. I have made a little progress with that glove, though the thumb remains a subject of discussion.",
+    "text": "Good to see you, my friend. Have you time to walk with me? Tell me how you have been. I have made a little progress with that glove, though the thumb remains a subject of discussion.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14423_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14423",
+    "spoken": "[modest pride, fond dry humor, confiding] The glove is warm, and most of it fits. The thumb is rather long. I keep trying it on anyway. There is a good deal of work there that I am pleased with.",
+    "text": "The glove is warm, and most of it fits. The thumb is rather long. I keep trying it on anyway. There is a good deal of work there that I am pleased with.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14438_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14438",
+    "spoken": "[reserved affection, genuine interest, inviting] You came to bring me along. Gladly, my friend. Come. We need not decide every turn before we begin. I shall enjoy seeing what catches your interest.",
+    "text": "You came to bring me along. Gladly, my friend. Come. We need not decide every turn before we begin. I shall enjoy seeing what catches your interest.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14438_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14438",
+    "spoken": "[measured friendly interest, lightly amused, welcoming] There you are, my friend. Have you time for a pleasant walk? I have considered several routes. Then again, I should be interested to see which way you would choose.",
+    "text": "There you are, my friend. Have you time for a pleasant walk? I have considered several routes. Then again, I should be interested to see which way you would choose.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14438_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14438",
+    "spoken": "[dry thoughtful humor, relaxed, confiding] I planned a pleasant short walk. Then I remembered another view, and another turn worth taking. It remains a pleasant walk. I am beginning to reconsider the word short.",
+    "text": "I planned a pleasant short walk. Then I remembered another view, and another turn worth taking. It remains a pleasant walk. I am beginning to reconsider the word short.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14438_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:14438",
+    "spoken": "[attentive curiosity, practical warmth, unhurried] A new place to look around. Let us get our bearings, then take a moment to notice it properly. There may be a turn worth remembering for another day.",
+    "text": "A new place to look around. Let us get our bearings, then take a moment to notice it properly. There may be a turn worth remembering for another day.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14439_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14439",
+    "spoken": "[sincere pleasure, easy affection, inviting] You came to bring me along. Gladly, my friend. Come on. It will be good to share a walk and hear what you have been up to.",
+    "text": "You came to bring me along. Gladly, my friend. Come on. It will be good to share a walk and hear what you have been up to.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14439_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14439",
+    "spoken": "[steady friendly confidence, relaxed, welcoming] Good to see you, my friend. Have you time for a walk? I shall be glad of the company. If you notice something I have missed, do point it out.",
+    "text": "Good to see you, my friend. Have you time for a walk? I shall be glad of the company. If you notice something I have missed, do point it out.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14439_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14439",
+    "spoken": "[dry good humor, amused self-awareness, confiding] I pointed out a lion in the clouds. A magnificent creature, I thought. My companion said it was a potato. After another look, I had to admit it was a remarkably good potato.",
+    "text": "I pointed out a lion in the clouds. A magnificent creature, I thought. My companion said it was a potato. After another look, I had to admit it was a remarkably good potato.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14439_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:14439",
+    "spoken": "[relaxed warmth, gently playful, inviting] A pause sounds good. Give your feet a moment. We may even find time to look up and disagree about what we see. I promise to consider the potato fairly.",
+    "text": "A pause sounds good. Give your feet a moment. We may even find time to look up and disagree about what we see. I promise to consider the potato fairly.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1444_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

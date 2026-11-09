@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Named Stormwind patrol officers, not generic guards: Scout/Forever
+    -- human males, level 60 elite, friendly. Brady 14493 (Old Town), Jaxon
+    -- 14472 (Trade District), Pomeroy 14492 (Mage Quarter). No personal
+    -- Classic quest starts/ends or exact-ID installed dialogue found.
+    -- Private hobbies below are original; later Jaxon family dialogue and
+    -- Legion infiltration scenes excluded. docs/research/patrol-officers.md.
+    [14439] = {
+        quote = "Keep the street clear and let people go about their day. A quiet round is something to be pleased about.",
+        likes = { "An uneventful stretch of patrol", "Clouds with improbable shapes", "Someone willing to look twice" },
+        dislikes = { "A crowded doorway blocked for sport", "Calling every ordinary noise a crisis", "A cloud changing before he explains it" },
+        gossip = "Brady keeps a sharp eye on Old Town. Off duty, he occasionally makes a less convincing case for something he has spotted overhead.",
+        bio = "Officer Brady is a human officer of the Stormwind City Guard, encountered in Old Town. He is one of the capital's named elite patrol guards, watching streets where the ordinary business of the city continues around him.",
+        backstory = "Away from his rounds, Brady enjoys finding shapes in the clouds. He can produce a remarkably detailed description of a sailing ship just as its mast drifts away. His next explanation generally requires a much broader sort of ship.",
+        secret = "He once pointed out a magnificent lion. His companion saw a potato. He looked again and had to agree. It was a very convincing potato, and the better part of his afternoon.",
+        bestFriend = "Have a look, friend. Tell me what you see. If it is another potato, I shall concede the matter without an argument.",
+        favorite = { emote = "SMILE", hint = "A small, friendly expression can brighten an otherwise ordinary round." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time for a walk? I shall be glad of the company. If you notice something I have missed, do point it out.", tone = "[steady friendly confidence, relaxed, welcoming]" }, "There you are. How has your day been treating you?" },
+            idle = { { "I pointed out a lion in the clouds. A magnificent creature, I thought. My companion said it was a potato. After another look, I had to admit it was a remarkably good potato.", tone = "[dry good humor, amused self-awareness, confiding]" }, "An ordinary day is a good result. People have enough to be getting on with.", "That could be a sailing ship. Give it a moment; I may need to reconsider the mast." },
+            befriended = { { "You came to bring me along. Gladly, my friend. Come on. It will be good to share a walk and hear what you have been up to.", tone = "[sincere pleasure, easy affection, inviting]" } },
+            poke = { "Yes? Have you spotted something?", "I am listening. What do you make of it?" },
+            rest = { { "A pause sounds good. Give your feet a moment. We may even find time to look up and disagree about what we see. I promise to consider the potato fairly.", tone = "[relaxed warmth, gently playful, inviting]" } },
+            combatEnd = { "Steady now. Check your wounds and see who else needs a hand." },
+            quest = { "Well done. Someone can get on with their day because you saw that through." },
+            zone = { "Another place to look around. Keep an eye on what is happening about you." },
+            gear = { "How does it sit? Better to find the awkward part before a long walk." },
+            learned = { "Worth practicing while you have a quiet moment." },
+            hearth = { "Back to Stormwind. I hope Old Town has had an ordinary day." },
+        },
+    },
+    [14423] = {
+        quote = "People have things to do and places to get to. Helping the street stay ordinary is work worth doing.",
+        likes = { "A peaceful round in the Trade District", "Warm gloves at the end of the day", "Getting a difficult stitch right" },
+        dislikes = { "A commotion made just to draw a crowd", "A glove that pinches at the thumb", "Pulling out the same row twice" },
+        gossip = "Jaxon looks quite at home on patrol. His private efforts with a pair of knitting needles have required more patient adjustments.",
+        bio = "Officer Jaxon patrols Stormwind's Trade District as a human officer of the City Guard. Among merchants, travelers and busy doorways, his place is on the street, keeping watch over the everyday movement of the capital.",
+        backstory = "Jaxon decided to knit a pair of warm gloves for himself. The first thumb came out longer than he intended. He has been learning how to undo a mistake without undoing the good work beside it, a useful lesson in patience.",
+        secret = "He keeps trying on the unfinished glove. The thumb still needs work, but the rest is warm and fits. He is rather proud of that, even before he has a pair.",
+        bestFriend = "A little progress is still progress, friend. Tell me what you have been trying. I shall be glad to hear how it is coming along.",
+        favorite = { emote = "THANK", hint = "A sincere acknowledgment means something to someone whose best rounds attract little notice." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time to walk with me? Tell me how you have been. I have made a little progress with that glove, though the thumb remains a subject of discussion.", tone = "[plainspoken warmth, mild amusement, welcoming]" }, "There you are. It is good to have your company." },
+            idle = { { "The glove is warm, and most of it fits. The thumb is rather long. I keep trying it on anyway. There is a good deal of work there that I am pleased with.", tone = "[modest pride, fond dry humor, confiding]" }, "A quiet street means people can get on with what brought them here.", "Undoing one awkward row is better than deciding the whole thing is no good." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. A walk and a proper conversation sound very welcome.", tone = "[sincere affection, relaxed pleasure, inviting]" } },
+            poke = { "Yes? What have you been working on?", "You have my attention. How can I help?" },
+            gear = { { "Does it fit properly? Give it a fair try. I have learned that a thumb can be quite a small part of a glove and still require a great deal of attention.", tone = "[practical interest, good-natured amusement, encouraging]" } },
+            learned = { "There. One more part you understand. Give yourself credit for it." },
+            quest = { "Well done. You saw it through; that is worth a moment of satisfaction." },
+            rest = { "A seat would be welcome. Tell me what you have been trying lately." },
+            combatEnd = { "Take a breath. Check yourself over before we move on." },
+            bagsFull = { "A little sorting should help. Leave room to reach what you actually need." },
+            hearth = { "Back to Stormwind. I may have time to put that thumb right." },
+        },
+    },
+    [14438] = {
+        quote = "Tell me where you are trying to get to before we discuss the turns. A fine set of directions is little help if we have started with the wrong destination.",
+        likes = { "A clear destination and a patient ear", "A pleasant walk after his rounds", "A view worth taking the long way for" },
+        dislikes = { "Directions given faster than listening", "Treating every wrong turn as foolish", "A short walk planned into a march" },
+        gossip = "Pomeroy can think carefully about a turn. His idea of a pleasant short walk has developed several optional extensions.",
+        bio = "Officer Pomeroy is a human officer of the Stormwind City Guard. His patrol takes him through the Trade District and Mage Quarter. He keeps watch amid the city's shops and streets, where familiar turns meet a changing flow of people.",
+        backstory = "Off duty, Pomeroy has been considering an agreeable short walk through the city. Each time he settles the route, he remembers another view worth including. The imaginary outing now contains several places to stop and reconsider its length.",
+        secret = "He has yet to decide on the best route. With good company, he usually enjoys whichever turn they choose. The plan is a pleasant thing to think about rather than a rule to follow.",
+        bestFriend = "Which way appeals to you, friend? We have time for a pleasant turn. I should like to see what you would choose.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment is welcome when someone takes care to explain a turn." },
+        lines = {
+            greet = { { "There you are, my friend. Have you time for a pleasant walk? I have considered several routes. Then again, I should be interested to see which way you would choose.", tone = "[measured friendly interest, lightly amused, welcoming]" }, "Good to see you. Have you a destination in mind, or simply time to look around?" },
+            idle = { { "I planned a pleasant short walk. Then I remembered another view, and another turn worth taking. It remains a pleasant walk. I am beginning to reconsider the word short.", tone = "[dry thoughtful humor, relaxed, confiding]" }, "Ask where someone is going before explaining all the turns they do not need.", "A familiar street can still repay a moment of attention." },
+            befriended = { { "You came to bring me along. Gladly, my friend. Come. We need not decide every turn before we begin. I shall enjoy seeing what catches your interest.", tone = "[reserved affection, genuine interest, inviting]" } },
+            poke = { "Yes? Which way are you considering?", "I am listening. Have you noticed something worth a closer look?" },
+            zone = { { "A new place to look around. Let us get our bearings, then take a moment to notice it properly. There may be a turn worth remembering for another day.", tone = "[attentive curiosity, practical warmth, unhurried]" } },
+            rest = { "A pause sounds sensible. A pleasant walk should leave room for one." },
+            quest = { "Well done. Take a moment to enjoy having reached the end of that business." },
+            learned = { "One more thing to recognize when you meet it again." },
+            combatEnd = { "Steady. Check that you are ready before choosing the next step." },
+            taxi = { "There is another way to see the roads. I shall be interested in the view." },
+            hearth = { "Back to Stormwind. There are still a few turns of that walk to consider." },
+        },
+    },
     -- Brother Crowley: human male Scarlet Crusade emissary, Cathedral of Light.
     -- Scout/Forever display 13049; Classic/installed quest 6141 sends aid to
     -- Brother Anton at Nijel's Point. Full 261/1052/1053 chain includes

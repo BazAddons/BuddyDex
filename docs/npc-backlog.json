@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 156,
-  "remaining_count": 61,
+  "completed_count": 159,
+  "remaining_count": 58,
   "completed": [
     {
       "npc_id": 54,
@@ -1370,6 +1370,33 @@
       "status": "complete"
     },
     {
+      "npc_id": 14423,
+      "name": "Officer Jaxon",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 14438,
+      "name": "Officer Pomeroy",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 14439,
+      "name": "Officer Brady",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 14450,
       "name": "Orphan Matron Nightingale",
       "zone": "Stormwind City",
@@ -1599,27 +1626,6 @@
     {
       "npc_id": 12805,
       "name": "Officer Areyn",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14439,
-      "name": "Officer Brady",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14423,
-      "name": "Officer Jaxon",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14438,
-      "name": "Officer Pomeroy",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
