@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 248,
+  "completed_count": 251,
   "remaining_count": 2,
   "completed": [
     {
@@ -265,6 +265,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 349,
+      "name": "Corporal Keeshan",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+      "research_notes": "docs/research/lakeshire-docks-and-an-escort.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 352,
       "source": "Existing authored profile",
       "name": "Dungar Longdrink",
@@ -296,6 +306,16 @@
       "zone": "Redridge Mountains",
       "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
       "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 381,
+      "name": "Dockmaster Baren",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+      "research_notes": "docs/research/lakeshire-docks-and-an-escort.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1790,6 +1810,16 @@
       "name": "Innkeeper Gryshka",
       "zone": "Orgrimmar",
       "source": "Agreed priority shortlist",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6966,
+      "name": "Lucius",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+      "research_notes": "docs/research/lakeshire-docks-and-an-escort.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

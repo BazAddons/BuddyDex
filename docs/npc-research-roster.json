@@ -301,5 +301,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed current Forever nodes, full quest text and installed dialogue",
     "research_notes": "docs/research/lakeshire-court-and-bridge.md"
+  },
+  {
+    "npc_id": 381,
+    "name": "Dockmaster Baren",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+    "research_notes": "docs/research/lakeshire-docks-and-an-escort.md"
+  },
+  {
+    "npc_id": 349,
+    "name": "Corporal Keeshan",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+    "research_notes": "docs/research/lakeshire-docks-and-an-escort.md"
+  },
+  {
+    "npc_id": 6966,
+    "name": "Lucius",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
+    "research_notes": "docs/research/lakeshire-docks-and-an-escort.md"
   }
 ]

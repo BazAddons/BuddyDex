@@ -42,6 +42,90 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Dockmaster Baren (381), adult male human, Lakeshire docks, display 3360.
+    -- Classic/current 127 sunfish and 150 murloc fins; friendly installed business gossip.
+    -- Enjoying rain on the lake from dry cover is original. No ferry/vendor service added.
+    -- docs/research/lakeshire-docks-and-an-escort.md.
+    [381] = {
+        quote = "There's good business in this lake, provided there's still fish in it tomorrow. Pull up beside me and tell me what you've seen.",
+        likes = { "A healthy catch in Lake Everstill", "Fair business and a friendly talk", "Rain on the lake from a dry spot" },
+        dislikes = { "Murlocs taking too many fish", "Sunfish running short before trading", "A drip finding the back of his neck" },
+        gossip = "Baren can look oddly pleased when rain starts over the lake. Lakeshire suspects he has remembered where he left his coat.",
+        bio = "Dockmaster Baren works by Lake Everstill in Lakeshire. He trades for spotted sunfish and wants murloc fishing parties driven away before the lake's fish run short. His welcome leaves room for a brew and a friendly business talk.",
+        backstory = "A shower once caught him under cover beside the water. Waiting for it to pass, he watched the first drops turn the quiet surface into little rings. He found he was quite content to stay where he was.",
+        secret = "He likes the beginning of a shower best, when he can hear the separate drops. A dry place to stand makes the whole business considerably more agreeable.",
+        bestFriend = "Room here beside me. Stay dry and listen a moment. A good quiet spell improves with someone to share it.",
+        favorite = { emote = "NOD", hint = "Let him know you've heard what matters to the lake and its business." },
+        lines = {
+            greet = { { "Well met! Come and stand beside me a moment. If the weather turns, we'll find ourselves a dry spot. I rather like hearing the first drops on the lake. Better than hearing one find its way down the back of my collar.", tone = "[easy dockside welcome, earthy humor, friendly]" }, "There you are. How's the day treating you?" },
+            idle = { { "I once waited out a shower beside the lake. First a few little rings, then more than you could count. Found I was quite happy watching them. A useful thing to discover, considering how often the weather makes its own arrangements.", tone = "[relaxed thoughtful warmth, quietly amused]" }, "A lake's worth looking after if you mean to keep taking from it.", "Good business starts with knowing what you've got." },
+            befriended = { { "I'd be glad to come along. A walk and a bit of friendly talk sound fair to me. Tell me what's been happening beyond the docks. And if we get caught in a shower, I'll help you find somewhere pleasant to wait it out.", tone = "[warm uncomplicated pleasure, conversational]" } },
+            poke = { "Aye? What have you found?", "Go on, I'm listening." },
+            rest = { { "This'll do. Room enough to sit, and a bit of shelter if we need it. You needn't have news every time we stop. Sometimes it's enough to hear the water and know you've got good company beside you.", tone = "[contented companionable warmth, easy and unhurried]" } },
+            quest = { "An errand finished. How did the business treat you?" },
+            loot = { "Let's have a look before we decide what that's worth." },
+            bagsFull = { "That's a full load. Best know what you're keeping before you take on more." },
+            zone = { "Different waters, different business. Let's see what we can learn." },
+            learned = { "Something useful to put to work. Good for you." },
+            hearth = { "Back again. I'll be glad to see the lake." },
+        },
+    },
+    -- Corporal Keeshan (349), adult elite male human, Redridge escort, display 1826.
+    -- 219 + full escort chatter + readable missing poster: wounded 12th Sabre corporal; Marris rewards help.
+    -- Sun-warmed stone is original ordinary comfort, not a cure. Later Bravo Company/Jade stories excluded.
+    [349] = {
+        quote = "Stay close and mind the pace. I'd rather we reached the end together than have someone left struggling behind.",
+        likes = { "Fresh air after a close place", "A pace everyone can manage", "A stone warmed gently by the sun" },
+        dislikes = { "Blackrock patrols blocking the way", "Someone hurrying an injured companion", "A needed rest cut short" },
+        gossip = "Keeshan sometimes rests a hand against a sunlit stone. People suppose he's judging whether the ground is sound.",
+        bio = "Corporal Keeshan is a wounded soldier of the 12th Sabre Regiment, held by Blackrock orcs in Redridge. He seeks help reaching Lakeshire, taking needed pauses along the way. Marshal Marris rewards those who help him return.",
+        backstory = "During a quiet pause on the road, he rested his palm against a stone warmed by the sun. The simple warmth held his attention for a moment. It became one of the ordinary pleasures he liked to notice when he could.",
+        secret = "He isn't testing the ground. He likes the warmth against his hand, and a moment with nothing more complicated to think about.",
+        bestFriend = "Sit here a little while. No need to fill the quiet. It's good having someone beside me who understands a pause.",
+        favorite = { emote = "COMFORT", hint = "A little patient support may mean more than urging him onward." },
+        lines = {
+            greet = { { "Good to have you here. Let's take a pace we can both manage. If we find a quiet spot in the sun, we can stop a moment. There are worse ways to spend a little time than fresh air and familiar company.", tone = "[weary steady warmth, soldierly restraint, quietly relieved]" }, "There you are. Good to see a familiar face." },
+            idle = { { "A stone holds the sun's warmth for a while. I noticed that during a quiet stop on the road. Rested my hand there and let myself enjoy it. A small thing. I try to leave room for those when I can.", tone = "[reflective plainspoken warmth, calm and unhurried]" }, "Fresh air. I don't take that for granted.", "There's sense in a pace everyone can keep." },
+            befriended = { { "You'd like me along? I'd be glad of the company. Keep an eye on the path and I'll do the same for you. We can take a rest when we need one. It's easier to make a journey with someone who understands that.", tone = "[sincere reserved gratitude, steady trust]" } },
+            poke = { "Yes? I'm with you.", "Give me a moment. I'm listening." },
+            rest = { { "Here will do. If that stone's had the sun on it, it should be pleasant enough to rest a hand against. Nothing remarkable about it. Just a little warmth, a quiet moment, and someone I trust beside me.", tone = "[quiet relief, thoughtful grounded warmth]" } },
+            quest = { "You saw it through. Take a moment before you rush to the next thing." },
+            combatEnd = { "Check everyone. Some hurts are easier to miss when you're still standing." },
+            lowHealth = { "Stay near. Let's keep an eye on one another." },
+            zone = { "New ground. Watch your footing and I'll watch the approach." },
+            levelUp = { "Well done. Experience worth carrying with you." },
+            hearth = { "A familiar place. Good to have reached it." },
+        },
+    },
+    -- Lucius (6966), adult male dwarf, Lakeshire docks, display 5752 (3:0).
+    -- SI:7 associate: 2205/2300 -> 2281/2282, lockbox/token/certificate. Not Oslow's 98386.
+    -- Pride in a pupil's reaction and straightening certificate edges are original private details.
+    [6966] = {
+        quote = "A light touch and a little patience. If you spend all your effort cursing the thing, you'll have none left to learn from it.",
+        likes = { "A pupil noticing what finally worked", "Rogues coming back in one piece", "A certificate with a tidy edge" },
+        dislikes = { "Force standing in for a little finesse", "Boasting before the work is done", "A promising pupil giving up too early" },
+        gossip = "Lucius can be careless with a pupil's pride, yet remarkably careful with the edge of a certificate. The docks have noticed.",
+        bio = "Lucius is a dwarf and SI:7 associate on the Lakeshire docks. Renzik sends inexperienced rogues to him. His Alther's Mill lockbox trial tests their finesse, with a token to recover and a Certificate of Thievery for successful work.",
+        backstory = "Waiting for a pupil's reaction to a certificate, he caught himself smoothing its edge. He'd seen the trial finished plenty of times. The look of hard-earned confidence on a newcomer still gave him something to enjoy.",
+        secret = "He remembers that pleased look longer than he remembers the particular lock. He may offer a sharp remark, but he's glad they kept at it.",
+        bestFriend = "You kept at it. That matters. Sit beside me a bit; you can tell me which part finally began to make sense.",
+        favorite = { emote = "WINK", hint = "Catch the amusement tucked behind his rough lesson." },
+        lines = {
+            greet = { { "There you are. Learned anything useful since I saw you? Take a moment and tell me. I may even manage a whole conversation before I offer an opinion. Don't look so doubtful. I'm capable of considerable restraint when I put my mind to it.", tone = "[gruff dwarven warmth, dry teasing confidence]" }, "Aye, come over. What have you been trying your hand at?" },
+            idle = { { "A certificate's a scrap of paper until someone has worked for it. Then you see how they hold it. I might straighten an edge before handing one over. No harm in letting a fellow have a tidy reminder of something he kept at.", tone = "[gruff thoughtful warmth, understated pride, wry]" }, "A sharp remark isn't much use if it leaves no room to learn.", "That look when something finally makes sense. That's a good part of the work." },
+            befriended = { { "I'd come along. You're good company, and a walk will give us something new to look at. You can tell me what you've learned on the way. I'll try to let you finish before I explain how I'd have done it. Try, mind.", tone = "[pleased gruff affection, teasing self-awareness]" } },
+            poke = { "Aye? Give me the interesting part.", "I'm listening. You needn't prod the answer out of me." },
+            learned = { { "There. You kept at it until something made sense. Remember which part changed for you. Next time it seems impossible, that'll be worth more than standing about wishing your hands belonged to someone cleverer.", tone = "[firm dwarven encouragement, dry humor, genuine approval]" } },
+            rest = { "Take a moment. Patience works better when you give yourself some." },
+            quest = { "Finished? Good. Tell me the bit that nearly had you fooled." },
+            loot = { "Have a proper look before you start admiring it." },
+            gear = { "Comfortable? You'll want your attention on the work, not a pinching strap." },
+            zone = { "New surroundings. Keep your eyes open and your assumptions loose." },
+            hearth = { "Back again. I hope you've brought a worthwhile story." },
+        },
+    },
+
+
     -- Bailiff Conacher (900), adult male human, Court of Lakeshire, display 5009.
     -- Classic/current 91: Morganth, Shadowhide pendants and Solomon's law; formal installed gossip.
     -- Sharp green apples and his carefully composed reaction are original.

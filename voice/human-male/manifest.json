@@ -2981,6 +2981,46 @@
     "text": "Let's have a seat. I won't turn a quiet moment into a supply errand, I promise. Tell me something pleasant instead. And if a cork should happen to land in a mug, do feel free to applaud.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore349_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:349",
+    "spoken": "[sincere reserved gratitude, steady trust] You'd like me along? I'd be glad of the company. Keep an eye on the path and I'll do the same for you. We can take a rest when we need one. It's easier to make a journey with someone who understands that.",
+    "text": "You'd like me along? I'd be glad of the company. Keep an eye on the path and I'll do the same for you. We can take a rest when we need one. It's easier to make a journey with someone who understands that.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore349_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:349",
+    "spoken": "[weary steady warmth, soldierly restraint, quietly relieved] Good to have you here. Let's take a pace we can both manage. If we find a quiet spot in the sun, we can stop a moment. There are worse ways to spend a little time than fresh air and familiar company.",
+    "text": "Good to have you here. Let's take a pace we can both manage. If we find a quiet spot in the sun, we can stop a moment. There are worse ways to spend a little time than fresh air and familiar company.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore349_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:349",
+    "spoken": "[reflective plainspoken warmth, calm and unhurried] A stone holds the sun's warmth for a while. I noticed that during a quiet stop on the road. Rested my hand there and let myself enjoy it. A small thing. I try to leave room for those when I can.",
+    "text": "A stone holds the sun's warmth for a while. I noticed that during a quiet stop on the road. Rested my hand there and let myself enjoy it. A small thing. I try to leave room for those when I can.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore349_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:349",
+    "spoken": "[quiet relief, thoughtful grounded warmth] Here will do. If that stone's had the sun on it, it should be pleasant enough to rest a hand against. Nothing remarkable about it. Just a little warmth, a quiet moment, and someone I trust beside me.",
+    "text": "Here will do. If that stone's had the sun on it, it should be pleasant enough to rest a hand against. Nothing remarkable about it. Just a little warmth, a quiet moment, and someone I trust beside me.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore3518_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -3194,6 +3234,46 @@
     "source": "lore:3627",
     "spoken": "[eager curiosity, upbeat, expressive] New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
     "text": "New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore381_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:381",
+    "spoken": "[warm uncomplicated pleasure, conversational] I'd be glad to come along. A walk and a bit of friendly talk sound fair to me. Tell me what's been happening beyond the docks. And if we get caught in a shower, I'll help you find somewhere pleasant to wait it out.",
+    "text": "I'd be glad to come along. A walk and a bit of friendly talk sound fair to me. Tell me what's been happening beyond the docks. And if we get caught in a shower, I'll help you find somewhere pleasant to wait it out.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore381_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:381",
+    "spoken": "[easy dockside welcome, earthy humor, friendly] Well met! Come and stand beside me a moment. If the weather turns, we'll find ourselves a dry spot. I rather like hearing the first drops on the lake. Better than hearing one find its way down the back of my collar.",
+    "text": "Well met! Come and stand beside me a moment. If the weather turns, we'll find ourselves a dry spot. I rather like hearing the first drops on the lake. Better than hearing one find its way down the back of my collar.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore381_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:381",
+    "spoken": "[relaxed thoughtful warmth, quietly amused] I once waited out a shower beside the lake. First a few little rings, then more than you could count. Found I was quite happy watching them. A useful thing to discover, considering how often the weather makes its own arrangements.",
+    "text": "I once waited out a shower beside the lake. First a few little rings, then more than you could count. Found I was quite happy watching them. A useful thing to discover, considering how often the weather makes its own arrangements.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore381_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:381",
+    "spoken": "[contented companionable warmth, easy and unhurried] This'll do. Room enough to sit, and a bit of shelter if we need it. You needn't have news every time we stop. Sometimes it's enough to hear the water and know you've got good company beside you.",
+    "text": "This'll do. Room enough to sit, and a bit of shelter if we need it. You needn't have news every time we stop. Sometimes it's enough to hear the water and know you've got good company beside you.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore382_befriended_1.ogg": {

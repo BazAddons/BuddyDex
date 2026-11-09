@@ -799,6 +799,46 @@
     "text": "I have tried to think of a proper thank-you for Henze. Comes out as a grumble every time. I hope he'll hear what I mean under it. Relief can be a clumsy thing to put into words.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore6966_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6966",
+    "spoken": "[pleased gruff affection, teasing self-awareness] I'd come along. You're good company, and a walk will give us something new to look at. You can tell me what you've learned on the way. I'll try to let you finish before I explain how I'd have done it. Try, mind.",
+    "text": "I'd come along. You're good company, and a walk will give us something new to look at. You can tell me what you've learned on the way. I'll try to let you finish before I explain how I'd have done it. Try, mind.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6966_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6966",
+    "spoken": "[gruff dwarven warmth, dry teasing confidence] There you are. Learned anything useful since I saw you? Take a moment and tell me. I may even manage a whole conversation before I offer an opinion. Don't look so doubtful. I'm capable of considerable restraint when I put my mind to it.",
+    "text": "There you are. Learned anything useful since I saw you? Take a moment and tell me. I may even manage a whole conversation before I offer an opinion. Don't look so doubtful. I'm capable of considerable restraint when I put my mind to it.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6966_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6966",
+    "spoken": "[gruff thoughtful warmth, understated pride, wry] A certificate's a scrap of paper until someone has worked for it. Then you see how they hold it. I might straighten an edge before handing one over. No harm in letting a fellow have a tidy reminder of something he kept at.",
+    "text": "A certificate's a scrap of paper until someone has worked for it. Then you see how they hold it. I might straighten an edge before handing one over. No harm in letting a fellow have a tidy reminder of something he kept at.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore6966_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:6966",
+    "spoken": "[firm dwarven encouragement, dry humor, genuine approval] There. You kept at it until something made sense. Remember which part changed for you. Next time it seems impossible, that'll be worth more than standing about wishing your hands belonged to someone cleverer.",
+    "text": "There. You kept at it until something made sense. Remember which part changed for you. Next time it seems impossible, that'll be worth more than standing about wishing your hands belonged to someone cleverer.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore8671_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
