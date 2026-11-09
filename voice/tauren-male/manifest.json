@@ -199,6 +199,46 @@
     "text": "There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3013_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3013",
+    "spoken": "[warm] [sincere] You listen, and you are willing to look again when something surprises you. I enjoy that in a companion. Let us go a little farther together. The basket can wait until we return.",
+    "text": "You listen, and you are willing to look again when something surprises you. I enjoy that in a companion. Let us go a little farther together. The basket can wait until we return.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3013_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3013",
+    "spoken": "[calm] [welcoming] Come along. We need not fill every basket before returning. There is time to notice what grows beside the path, and perhaps to leave a few things exactly where we found them.",
+    "text": "Come along. We need not fill every basket before returning. There is time to notice what grows beside the path, and perhaps to leave a few things exactly where we found them.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3013_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3013",
+    "spoken": "[thoughtful] [chuckling] After rain, I sometimes close my eyes and guess what I am standing on. Grass, dust, stone. Once I was smelling the wet bundle in my own basket. A very confident mistake.",
+    "text": "After rain, I sometimes close my eyes and guess what I am standing on. Grass, dust, stone. Once I was smelling the wet bundle in my own basket. A very confident mistake.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3013_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3013",
+    "spoken": "[patient] [practical] A good camp takes a little preparation. If you are trying an incense candle, remember the campfire first, and give the people in town their space. Then sit down and enjoy the company.",
+    "text": "A good camp takes a little preparation. If you are trying an incense candle, remember the campfire first, and give the people in town their space. Then sit down and enjoy the company.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3028_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

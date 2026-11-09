@@ -847,5 +847,19 @@
     "zone": "The Barrens",
     "source": "Exact current adult Orc body and Barrens pin; full leader/defense/Desolace and harpy/letter chains, entire readable letter and installed text reviewed; qualified access, no Scout sighting claimed",
     "research_notes": "docs/research/barrens-duty-and-old-friends.md"
+  },
+  {
+    "npc_id": 3009,
+    "name": "Bena Winterhoof",
+    "zone": "Thunder Bluff",
+    "source": "Exact current adult Tauren identity/body/title and published Thunder Bluff location; full Uldaman/Uldum reward and Forever camping/referral text, installed gossip and literary boundaries reviewed; current reaction/pin omitted, no Scout encounter claimed",
+    "research_notes": "docs/research/winterhoof-remedies-and-campfire.md"
+  },
+  {
+    "npc_id": 3013,
+    "name": "Komin Winterhoof",
+    "zone": "Thunder Bluff",
+    "source": "Exact current adult Tauren identity/body/title and published Thunder Bluff location; full Uldaman/Uldum reward and Forever camping/referral text, installed gossip and literary boundaries reviewed; current reaction/pin omitted, no Scout encounter claimed",
+    "research_notes": "docs/research/winterhoof-remedies-and-campfire.md"
   }
 ]

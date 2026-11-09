@@ -217,3 +217,10 @@ Regthar Deathgate and Darsok Swiftdagger bring development to **326 complete pro
 Next: Bena Winterhoof (3009), adult female Tauren Expert Alchemist, and Komin Winterhoof (3013), adult male Tauren Herbalism Trainer. Exact current bodies/titles and published Thunder Bluff identities are checked; missing current level/reaction/pin stays qualified. [Full personal research is pending](bena-and-komin-queue.md). No specific family relationship is assumed from their surname.
 
 Preserving these two identities expands the combined research catalog to **1,497 name groups**, with 1,510 retained entries and 79 local identities missing from the original source. These overlap the completed roster and must not be added as separate NPC totals.
+
+
+## Winterhoof remedies and campfire completed
+
+Bena Winterhoof and Komin Winterhoof bring development to **328 complete profiles**, each with fifteen personal lines and four approved Tauren v4 signatures. [Full research](winterhoof-remedies-and-campfire.md) preserves Bena's urgency about the Forsaken, actual referrals and Sage Truthseeker voucher, and Komin's Forever Incense Candle lesson. No cure, specific family relationship, completed player quest or public access icon is invented. Public access totals are 192 Alliance, 58 Horde and 84 unverified, with six shared profiles overlapping faction counts. Authored Tauren profiles now total twenty. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
+
+Next: [Abigail Shiel and Faruza](brill-herbalism-and-trade-queue.md), two adult female Forsaken profession contacts in Brill. Current bodies, titles, Horde friendly icons and regional pins are individually verified; full own service/quest/gossip/literary research is pending. No profile or Scout encounter is claimed yet.

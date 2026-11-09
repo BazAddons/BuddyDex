@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each; see [research and validation](winterhoof-remedies-and-campfire.md). The plan below is historical.
+
 # Next: Bena and Komin Winterhoof
 
 Identity shortlist, 2026-11-09, after 326 completed profiles. Expand Thunder Bluff's profession contacts with adult female/male Tauren. Neither profile is authored, recorded or counted complete. No personal Scout sighting is claimed.

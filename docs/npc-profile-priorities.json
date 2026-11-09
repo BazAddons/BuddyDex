@@ -532,6 +532,20 @@
       "zone": "Thunder Bluff",
       "route": "Female Tauren alchemy and male Tauren herbalism contacts",
       "reason": "Exact current adult Tauren bodies/titles and published Thunder Bluff identities checked; missing current level/reaction/pin qualified. Own full quest/training/gossip/literary review pending. See docs/research/bena-and-komin-queue.md"
+    },
+    {
+      "npc_id": 2118,
+      "name": "Abigail Shiel",
+      "zone": "Tirisfal Glades",
+      "route": "Brill female Forsaken herbalism and trade contacts",
+      "reason": "Exact current adult Forsaken bodies, titles, friendly Horde icons and regional pins verified. Own full service/quest/gossip/literary research pending. See docs/research/brill-herbalism-and-trade-queue.md"
+    },
+    {
+      "npc_id": 2114,
+      "name": "Faruza",
+      "zone": "Tirisfal Glades",
+      "route": "Brill female Forsaken herbalism and trade contacts",
+      "reason": "Exact current adult Forsaken bodies, titles, friendly Horde icons and regional pins verified. Own full service/quest/gossip/literary research pending. See docs/research/brill-herbalism-and-trade-queue.md"
     }
   ]
 }

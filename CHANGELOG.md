@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Bena and Komin Winterhoof: full Thunder Bluff profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Preserve Bena's Forsaken compassion, actual alchemy referrals and voucher role; include Komin's Forever Incense Candle lesson. Research complete Uldaman/Uldum branches and distinguish Kray's camping lesson and unverified access. Development now has 328 complete profiles.
+
 - Complete Regthar Deathgate and Darsok Swiftdagger: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research complete centaur/defense/Desolace and harpy/letter chains, including Darsok's readable message and actual old friendship. Preserve qualified neutral access and player/world chronology. Development now has 326 complete profiles.
 
 - Complete Ur'kyo and Pephredo: full Orgrimmar profiles, fifteen personal lines and four approved Troll Eleven v4 signatures each. Research priest racial/referral variants, current Dark Sacrifice naming, the full Cenarion Aid branch, actual training roles and exact proud/serious gossip. Development now has 324 complete profiles.

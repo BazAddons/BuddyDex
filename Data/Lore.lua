@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bena Winterhoof, adult female Tauren Expert Alchemist, Thunder Bluff.
+    -- NPC 3009/display 2108. Forsaken compassion/urgency and referrals are
+    -- exact installed gossip; redeems Sage Truthseeker's voucher (2440).
+    -- Private sunrise-colored scrap is ours; no cure or specific kinship.
+    -- Research: docs/research/winterhoof-remedies-and-campfire.md.
+    [3009] = {
+        quote = "Their suffering does not wait for me to feel ready. Please, tell me what you need.",
+        likes = { "Help that reaches someone in pain", "Kray taking care of the novices", "The color of an ordinary sunrise" },
+        dislikes = { "Cruelty toward the Forsaken", "Time lost to needless ceremony", "A promise made before the work" },
+        gossip = "Kray worries that Bena forgets her meals. Lately, someone has been leaving a small scrap of orange cloth beside her bowl.",
+        bio = "Bena Winterhoof practices alchemy in Thunder Bluff. Moved by the Forsaken's plight, she entrusts novices to Kray and advanced students to Doctor Herbert Halsey. She also redeems Sage Truthseeker's reward voucher.",
+        backstory = "A scrap of orange cloth once caught Bena's eye while she reached for another vial. It looked like dawn. She kept it near her bowl as a reminder that a meal and a breath need not mean abandoning anyone.",
+        secret = "She sometimes moves the scrap nearer herself before eating. The reminder is her own, though accepting it still takes practice. She would rather you sit with her than praise her for it.",
+        bestFriend = "Stay until I have finished this bowl. Tell me something ordinary. I want to remember how to listen without reaching for a vial.",
+        favorite = { emote = "COMFORT", hint = "Carries the suffering of others and seldom accepts tenderness herself." },
+        lines = {
+            greet = { { "Walk with me a little. I have been bent over that table too long. If someone needs us, we will stop. Until then, tell me how the day has treated you.", tone = "[weary] [gentle]" },
+                "Please speak plainly. I would rather understand you than hurry past what matters." },
+            idle = { { "That orange scrap looks a little like sunrise. I keep it beside my bowl. Such a small thing to remind me to eat, and yet I still need the reminder some days.", tone = "[quiet] [reflective]" },
+                "Kray has the novices in hand. I must remember to trust him with that.",
+                "I cannot bear the thought of suffering being dismissed because its face is unfamiliar." },
+            befriended = { { "You have stayed without asking me for a promise I cannot make. Thank you. I would like to be your friend, even on the days when all I can offer is my company.", tone = "[tender] [sincere]" } },
+            poke = { "Yes? I heard you. Give me one breath.", "Careful. There may be something fragile beside my elbow." },
+            rest = { { "Yes, I will sit. You need not make a ceremony of persuading me. Put the bowl here, please. And stay a moment. It is easier to remember a meal when someone shares it.", tone = "[tired] [warm]" } },
+            quest = { "If Sage Truthseeker sent you, keep his voucher safe." },
+            loot = { "Wrap the glass before putting it among the heavier things." },
+            combatEnd = { "Is anyone hurt? Let us find out before moving on." },
+            comforted = { "That was kindly done. I am not always good at receiving it." },
+            zone = { "There are people here whose troubles we do not yet know." },
+            hearth = { "Home. I should see whether Kray has had a chance to eat, too." },
+        },
+    },
+
+    -- Komin Winterhoof, adult male Tauren Herbalism Trainer, Thunder Bluff.
+    -- NPC 3013/display 2091. Forever 97933 teaches Incense Candle after Kaga's
+    -- referral; campfire/outdoor testing are completion text, not a friend gate.
+    -- Rain-scent guessing game is ours; no specific relationship to Bena.
+    -- Research: docs/research/winterhoof-remedies-and-campfire.md.
+    [3013] = {
+        quote = "Learn what you are gathering. There is more to a plant than the price someone will pay for it.",
+        likes = { "A gathering basket with room left", "A camp prepared before nightfall", "The scent of rain on warm earth" },
+        dislikes = { "Crushing a plant to show it off", "Trying a camp in the middle of town", "A question answered with a guess" },
+        gossip = "Komin sometimes closes his eyes after rain. He says he is listening. His nose seems to be doing most of the work.",
+        bio = "Komin Winterhoof teaches herbalism in Thunder Bluff. In Forever, Kaga Wildhoof sends practiced beginners to him to learn an Incense Candle for camp. He reminds them to test it outdoors and learn to build a campfire.",
+        backstory = "On a wet walk, Komin noticed how differently dust, grass and stone smelled after the rain. He began pausing with his eyes closed, guessing what lay underfoot before looking. He still gets the stones wrong.",
+        secret = "He once congratulated himself on recognizing rain-soaked grass by scent. A glance down revealed dry paving and a wet bundle in his own basket. He laughed the whole way home.",
+        bestFriend = "Close your eyes for a moment. What do you notice? There is no examination. I would simply like to hear what the rain means to you.",
+        favorite = { emote = "NOD", hint = "Appreciates a quiet sign that a lesson has been understood." },
+        lines = {
+            greet = { { "Come along. We need not fill every basket before returning. There is time to notice what grows beside the path, and perhaps to leave a few things exactly where we found them.", tone = "[calm] [welcoming]" },
+                "Good to see you. What have you noticed along the road?" },
+            idle = { { "After rain, I sometimes close my eyes and guess what I am standing on. Grass, dust, stone. Once I was smelling the wet bundle in my own basket. A very confident mistake.", tone = "[thoughtful] [chuckling]" },
+                "A basket does not become lighter because you insist it has room.",
+                "There. Take a breath before deciding what you recognize." },
+            befriended = { { "You listen, and you are willing to look again when something surprises you. I enjoy that in a companion. Let us go a little farther together. The basket can wait until we return.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Show me what you found.", "I am paying attention. My eyes were merely closed." },
+            rest = { { "A good camp takes a little preparation. If you are trying an incense candle, remember the campfire first, and give the people in town their space. Then sit down and enjoy the company.", tone = "[patient] [practical]" } },
+            loot = { "Keep that separate from anything you mean to eat." },
+            bagsFull = { "A full basket is a good reason to stop gathering." },
+            zone = { "Different ground. Let us see what grows here." },
+            quest = { "What did you learn that you would explain differently now?" },
+            levelUp = { "Well done. There will always be something worth another look." },
+            hearth = { "Time to take the basket home before the bottom gives way." },
+        },
+    },
+
     -- Regthar Deathgate, adult male Orc, west of Crossroads, NPC 3389.
     -- Display 3847. Kolkar leaders/bounties, Krom'zar defense, Felgur referral.
     -- No later scout/Legion events or invented Warcraft III service.

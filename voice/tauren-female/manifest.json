@@ -1,4 +1,44 @@
 {
+  "lore3009_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3009",
+    "spoken": "[tender] [sincere] You have stayed without asking me for a promise I cannot make. Thank you. I would like to be your friend, even on the days when all I can offer is my company.",
+    "text": "You have stayed without asking me for a promise I cannot make. Thank you. I would like to be your friend, even on the days when all I can offer is my company.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3009_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3009",
+    "spoken": "[weary] [gentle] Walk with me a little. I have been bent over that table too long. If someone needs us, we will stop. Until then, tell me how the day has treated you.",
+    "text": "Walk with me a little. I have been bent over that table too long. If someone needs us, we will stop. Until then, tell me how the day has treated you.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3009_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3009",
+    "spoken": "[quiet] [reflective] That orange scrap looks a little like sunrise. I keep it beside my bowl. Such a small thing to remind me to eat, and yet I still need the reminder some days.",
+    "text": "That orange scrap looks a little like sunrise. I keep it beside my bowl. Such a small thing to remind me to eat, and yet I still need the reminder some days.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3009_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3009",
+    "spoken": "[tired] [warm] Yes, I will sit. You need not make a ceremony of persuading me. Put the bowl here, please. And stay a moment. It is easier to remember a meal when someone shares it.",
+    "text": "Yes, I will sit. You need not make a ceremony of persuading me. Put the bowl here, please. And stay a moment. It is easier to remember a meal when someone shares it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3026_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
