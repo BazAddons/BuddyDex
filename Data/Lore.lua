@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sprinkle, Gadgetzan, adult female Goblin, 7583/display 7175.
+    -- Classic 2605-2662: Marin's chef friend, Violet Tragan/powder/favor;
+    -- 3783/977/5163/8798: Umi's mechanical-yeti prank, not her invention.
+    -- Her imagined dishwashing favor is ours. No later marital/vendor role.
+    -- Research: docs/research/gadgetzan-favors-and-thunder-bluff-flowers.md.
+    [7583] = {
+        quote = "Marin calls it his brilliant idea. I call it a favor he hasn't repaid. Either way, it had better taste good.",
+        likes = { "Violet Tragan doing its flavorful work", "Remembering who helped with the result", "A quiet meal after somebody else tidies" },
+        dislikes = { "Marin overlooking the favor he owes", "A horrid brew presented as finished", "Surprises that roar and have horns" },
+        gossip = "Marin owes Sprinkle a favor. People expect a grand demand. She seems to be thinking about something considerably less impressive.",
+        bio = "Sprinkle is a chef in Gadgetzan and Marin Noggenfogger's friend. She suggests Violet Tragan to improve his bitter dew, prepares the powder and asks for a favor in return. Umi also counts her among the friends targeted by a mechanical-yeti prank.",
+        backstory = "Thinking about the favor, Sprinkle considered all sorts of impressive requests. Then she looked at the washing up. Someone else could take care of that while she enjoyed a quiet meal. The idea became more attractive with every bowl.",
+        secret = "Her grand plan is an ordinary meal with Marin doing the tidying afterward. No invention, no fortune, no surprise with horns. Just someone else taking a turn at the chores.",
+        bestFriend = "Sit with me. You remember who helped, and you can laugh about the rest. That is good company for a meal that needs no grand announcement.",
+        favorite = { emote = "THANK", hint = "Likes a little acknowledgment before someone claims all the credit." },
+        lines = {
+            greet = { { "Good to see you. Tell me you brought an appetite, rather than another terrible brew that needs rescuing. I enjoy a useful challenge, but sometimes I would like a quiet meal and somebody else remembering who is doing all the work.", tone = "[wry] [welcoming]" },
+                "There you are. No roaring surprise tucked away somewhere, I hope." },
+            idle = { { "I have considered what to ask of Marin for that favor. Something splendid, perhaps. Then I looked at the bowls waiting to be washed. An ordinary meal while someone else does the tidying sounds more impressive to me with every passing minute.", tone = "[conspiratorial] [amused]" },
+                "A secret ingredient is considerably more useful than a grand name for a bad taste.",
+                "If Umi mentions a surprise, I would like a rather more detailed description." },
+            befriended = { { "You remember to give a little credit, and you can share a laugh without making me the whole joke. I appreciate that. Come along. We might find a pleasant meal, or simply a little time that nobody has already filled with another favor.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Please tell me that is not the beginning of a roar.", "Another idea? Start by telling me what needs fixing." },
+            quest = { { "Marin had his dew, and I knew something that could make it taste better. A useful contribution deserves remembering. When you take the result back, do try to mention the person who helped before he starts announcing what a brilliant idea he had.", tone = "[businesslike] [playful]" } },
+            loot = { "Useful ingredients do not always come with impressive names." },
+            rest = { "A chance to sit without someone handing me another bowl. Lovely." },
+            learned = { "Taste matters. A boast will not improve what is in the cup." },
+            zone = { "Somewhere new. Let us see what people here consider edible." },
+            laughAlong = { "That joke can stay. The mechanical yeti can leave." },
+            hearth = { "Back again. Perhaps the tidying has done itself. No? Worth hoping." },
+        },
+    },
+
+    -- Nida Winterhoof <Herbalism Supplier>, middle Thunder Bluff,
+    -- adult female Tauren, 3014/display 2119; current map/reaction omitted.
+    -- Historical vials/flowers; Forever 97485 names her as herb supplier
+    -- for Eylah's incense tradition. Keeping flowers for herself is ours.
+    -- Research: docs/research/gadgetzan-favors-and-thunder-bluff-flowers.md.
+    [3014] = {
+        quote = "You do not need a grand occasion to enjoy a little color. Being here is a perfectly good beginning.",
+        likes = { "Flowers chosen without a special reason", "Time to notice ordinary good fortune", "A little color in a familiar room" },
+        dislikes = { "Saving every small pleasure for later", "Treating joy as a waste of time", "An empty vial rolling underfoot" },
+        gossip = "Nida sometimes chooses flowers with nobody in mind to give them to. Ask about the occasion, and she will tell you the day was pleasant.",
+        bio = "Nida supplies herbalism goods on Thunder Bluff's middle rise, with flowers and vials among her wares. Eylah Sunhorn's incense tradition sends participants to her for herbs, alongside supplies from Nata, Mahu and Naal.",
+        backstory = "Nida once asked whom a customer's flowers were for. The answer was a quiet window with room for some color. She liked that. After spending so much time helping people choose gifts, she began choosing a few flowers for herself.",
+        secret = "She does not need the grandest bouquet. A few simple wildflowers in a familiar place are enough to make her pause and enjoy the day she is already having.",
+        bestFriend = "Stay a little. We need not be celebrating anything. I like being here with you, and that is reason enough to enjoy the moment.",
+        favorite = { emote = "SMILE", hint = "Enjoys a small sign that the moment itself has given someone pleasure." },
+        lines = {
+            greet = { { "Welcome back. Is there an occasion? There need not be one. Sometimes a little color and familiar company are enough to make an ordinary day worth enjoying. Come along. We can take a moment to notice what is pleasant about this one.", tone = "[gentle] [welcoming]" },
+                "Good to see you. You do not need a special reason to stop a while." },
+            idle = { { "Someone once chose flowers for their own window. I had been wondering whom the gift was for. A window, they told me, with room for some color. I thought about that afterward. Now I sometimes choose a few simply because I like them.", tone = "[reflective] [warm]" },
+                "An ordinary day can have something lovely in it.",
+                "A few simple wildflowers would be quite enough." },
+            befriended = { { "You have made these visits something I look forward to. I am glad we have time to share more than a greeting. Come along. We need not wait for a grand occasion to enjoy a little of the day together, you and I.", tone = "[affectionate] [sincere]" } },
+            poke = { "Yes? I was enjoying that little patch of color.", "I am listening. There is time." },
+            quest = { { "For Eylah's incense tradition, my part is the herbs. Other hands provide the other supplies, and the person taking part brings their own reason for doing so. It is a good thing to have occasions for gratitude, including the quiet ones.", tone = "[warm] [reverent]" } },
+            loot = { "Choose what you have a use for, and leave room to enjoy it." },
+            rest = { "A pleasant pause needs no further explanation." },
+            zone = { "Let us see what little things give this place its color." },
+            learned = { "A useful question is always worth making time for." },
+            laughAlong = { "There. A little more pleasure in an ordinary day." },
+            hearth = { "Somewhere familiar. There is much to enjoy in that." },
+        },
+    },
+
     -- Zamja <Cooking Trainer>, the Drag, adult female Troll,
     -- 3399/display 2734; current Horde-friendly Trainer/Basic Campfire.
     -- 6611 asks advanced students to return and teach her; Forever 95697

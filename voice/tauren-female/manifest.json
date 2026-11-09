@@ -79,6 +79,46 @@
     "text": "Yes, I will sit. You need not make a ceremony of persuading me. Put the bowl here, please. And stay a moment. It is easier to remember a meal when someone shares it.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore3014_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3014",
+    "spoken": "[affectionate] [sincere] You have made these visits something I look forward to. I am glad we have time to share more than a greeting. Come along. We need not wait for a grand occasion to enjoy a little of the day together, you and I.",
+    "text": "You have made these visits something I look forward to. I am glad we have time to share more than a greeting. Come along. We need not wait for a grand occasion to enjoy a little of the day together, you and I.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3014_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3014",
+    "spoken": "[gentle] [welcoming] Welcome back. Is there an occasion? There need not be one. Sometimes a little color and familiar company are enough to make an ordinary day worth enjoying. Come along. We can take a moment to notice what is pleasant about this one.",
+    "text": "Welcome back. Is there an occasion? There need not be one. Sometimes a little color and familiar company are enough to make an ordinary day worth enjoying. Come along. We can take a moment to notice what is pleasant about this one.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3014_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3014",
+    "spoken": "[reflective] [warm] Someone once chose flowers for their own window. I had been wondering whom the gift was for. A window, they told me, with room for some color. I thought about that afterward. Now I sometimes choose a few simply because I like them.",
+    "text": "Someone once chose flowers for their own window. I had been wondering whom the gift was for. A window, they told me, with room for some color. I thought about that afterward. Now I sometimes choose a few simply because I like them.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3014_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3014",
+    "spoken": "[warm] [reverent] For Eylah's incense tradition, my part is the herbs. Other hands provide the other supplies, and the person taking part brings their own reason for doing so. It is a good thing to have occasions for gratitude, including the quiet ones.",
+    "text": "For Eylah's incense tradition, my part is the herbs. Other hands provide the other supplies, and the person taking part brings their own reason for doing so. It is a good thing to have occasions for gratitude, including the quiet ones.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3026_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

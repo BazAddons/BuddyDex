@@ -728,6 +728,20 @@
       "zone": "Thunder Bluff",
       "route": "Goblin female/Tauren female coverage",
       "reason": "Exact current named adult body checked; historical own relations reviewed, full current service/quest/literary research pending. See docs/research/sprinkle-and-nida-queue.md; faction access remains unverified"
+    },
+    {
+      "npc_id": 270582,
+      "name": "Mon'ye",
+      "zone": "Orgrimmar",
+      "route": "Forever Troll female city/starter services",
+      "reason": "Exact current named adult body, friendly Horde icon and pin checked; full current service/quest/literary research pending. See docs/research/monye-and-pazula-queue.md"
+    },
+    {
+      "npc_id": 266881,
+      "name": "Pa'zula",
+      "zone": "Durotar",
+      "route": "Forever Troll female city/starter services",
+      "reason": "Exact current named adult body, friendly Horde icon and pin checked; full current service/quest/literary research pending. See docs/research/monye-and-pazula-queue.md"
     }
   ]
 }

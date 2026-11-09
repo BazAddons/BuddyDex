@@ -323,3 +323,10 @@ Next checked identities: Zamja 3399 and Dannelor 4211, [queue](zamja-and-dannelo
 Zamja 3399 and Dannelor 4211 complete: full Troll/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](orgrimmar-new-tricks-and-darnassus-mazes.md) includes Zamja's verified Forever Changing Tastes advice and explicitly records the missing progress/completion source limit. Development total **354**, public access Alliance 194, Horde 74, unverified 92 (six shared profiles overlap). Installed/development-packaged; no publication.
 
 Next checked identities: Sprinkle 7583 and Nida Winterhoof 3014, [queue](sprinkle-and-nida-queue.md). Neither counted complete; their sparse current reaction/location fields remain qualified.
+
+
+### 2026-11-09: Gadgetzan favors and Thunder Bluff flowers
+
+Sprinkle 7583 and Nida Winterhoof 3014 complete: full Goblin/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](gadgetzan-favors-and-thunder-bluff-flowers.md) preserves full Noggenfogger/yeti connections and Nida's actual Forever incense-supply role. Development total **356**; public access Alliance 194, Horde 74, unverified 94 (six shared profiles overlap). Installed/development-packaged; no publication.
+
+Next checked identities: Mon'ye 270582 and Pa'zula 266881, [queue](monye-and-pazula-queue.md), newer adult female Troll services in Orgrimmar/Sen'jin. Neither counted complete.

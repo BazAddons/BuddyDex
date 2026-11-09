@@ -1,5 +1,6 @@
 # Unreleased
 
+- Complete Sprinkle and Nida Winterhoof: full Goblin/Tauren profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve the complete Noggenfogger/yeti connections and Nida's actual Forever incense-supply role; retain normal live eligibility with sparse current reaction fields.
 - Complete Zamja and Dannelor: full Troll/Night Elf profiles, fifteen personal lines and four approved Eleven v4 signatures each. Include Zamja's confirmed Changing Tastes advice and distinguish other teachers' quests from their service referrals; omit later retail events.
 - Complete Lui'Mala and Alegorn: full Troll/Night Elf profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve their actual fishing/cooking teaching and referrals; omit later city dailies and personal histories belonging to the advanced teachers.
 - Complete Shandrina and Smeed Scrabblescrew: full Night Elf/Goblin profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve cookbook referrals and the kodo/caravan business network, with historical/current availability qualified and normal live eligibility required.

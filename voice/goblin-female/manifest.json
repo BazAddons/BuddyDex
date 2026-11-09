@@ -159,6 +159,46 @@
     "text": "If that is a hat, do not stuff it beneath everything else. A crushed brim does not become charming because you call it practical. Give it some room, darling. Even your luggage should recognize a priority.",
     "voice_id": "GK7FvLcUviYyxNu6jR0D"
   },
+  "lore7583_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7583",
+    "spoken": "[warm] [sincere] You remember to give a little credit, and you can share a laugh without making me the whole joke. I appreciate that. Come along. We might find a pleasant meal, or simply a little time that nobody has already filled with another favor.",
+    "text": "You remember to give a little credit, and you can share a laugh without making me the whole joke. I appreciate that. Come along. We might find a pleasant meal, or simply a little time that nobody has already filled with another favor.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore7583_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7583",
+    "spoken": "[wry] [welcoming] Good to see you. Tell me you brought an appetite, rather than another terrible brew that needs rescuing. I enjoy a useful challenge, but sometimes I would like a quiet meal and somebody else remembering who is doing all the work.",
+    "text": "Good to see you. Tell me you brought an appetite, rather than another terrible brew that needs rescuing. I enjoy a useful challenge, but sometimes I would like a quiet meal and somebody else remembering who is doing all the work.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore7583_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7583",
+    "spoken": "[conspiratorial] [amused] I have considered what to ask of Marin for that favor. Something splendid, perhaps. Then I looked at the bowls waiting to be washed. An ordinary meal while someone else does the tidying sounds more impressive to me with every passing minute.",
+    "text": "I have considered what to ask of Marin for that favor. Something splendid, perhaps. Then I looked at the bowls waiting to be washed. An ordinary meal while someone else does the tidying sounds more impressive to me with every passing minute.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore7583_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:7583",
+    "spoken": "[businesslike] [playful] Marin had his dew, and I knew something that could make it taste better. A useful contribution deserves remembering. When you take the result back, do try to mention the person who helped before he starts announcing what a brilliant idea he had.",
+    "text": "Marin had his dew, and I knew something that could make it taste better. A useful contribution deserves remembering. When you take the result back, do try to mention the person who helped before he starts announcing what a brilliant idea he had.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
   "lore9316_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1,4 +1,6 @@
-# Next: Sprinkle and Nida Winterhoof
+# Completed: Sprinkle and Nida Winterhoof
+
+Completed 2026-11-09; see [full research and validation](gadgetzan-favors-and-thunder-bluff-flowers.md). Historical planning notes below.
 
 Individually checked named adult identities, 2026-11-09. Neither profile authored or recorded; no Scout sighting claimed. Cache: `C:/Users/brett/BuddyDex-builds/sprinkle-nida-research`.
 
