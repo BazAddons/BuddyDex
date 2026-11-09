@@ -35,7 +35,7 @@ Every field is optional. A missing part is skipped, and the gray line moves on t
 
 1. **Never contradict the game.** Above each entry, a comment lists the facts it rests on: race, title, place, quests, gossip. A later writer can check them, and so can you when a patch changes something.
 2. **Write it fresh.** Use the wikis for facts, never for wording. Don't copy wiki text, quest text or gossip. Echo a line of the NPC's real gossip in their quote if it fits, but in new words.
-3. **Forever is Classic.** Use the Classic-era facts: Classic quests, Classic places. Retail-only events (Thor was at the Legion invasions in retail) don't happen here.
+3. **Use Forever's setting.** Start with Classic-era facts, quests and places, then check for verified Forever additions or changed quest text. Do not assume a modern wiki's retail quest version is the Classic version. Retail-only events (Thor was at the Legion invasions in retail) don't happen here. Record the source and client version when using Forever-specific additions.
 4. **Find the hook.** Look for one detail to build the entry on: a job, a name, a quest, where they stand. Thor's: a gryphon master named after the god of thunder. So he is afraid of storms.
 5. **Stay near home.** Mention other NPCs only when they are real and close by, and don't invent family or feuds the game could contradict later. Thor knows Quartermaster Lewis and Dungar Longdrink because the quests put them together.
 6. **Fit the budget** above. Write the Lore sections as a set: the gossip hints, the story grounds them, the backstory explains, the secret pays it off, and the best-friend line is theirs to say. Don't repeat a fact from one section in the next.

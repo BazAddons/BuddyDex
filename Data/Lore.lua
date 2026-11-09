@@ -83,6 +83,44 @@ ns.Lore = {
         },
     },
 
+    -- Marshal Dughan, Goldshire, Elwynn Forest. Human, male; NPC 240.
+    -- Facts: Stormwind marshal responsible for Goldshire and nearby roads.
+    -- Fargodeep/Jasperlode scouting text asks for confirmed kobold reports.
+    -- A Fishy Peril initially requires a military report; Thomas's later
+    -- report shows the cost of the murloc threat and stretched defenses.
+    -- Forever's Book Return/Rare Books concern Brother Paxton's stolen books.
+    -- Marginal notes, the private list and personal dialogue are BuddyDex
+    -- fiction. No invented rank history, family or completed-quest state.
+    -- Sources and chronology limits: docs/research/marshal-dughan.md.
+    [240] = {
+        quote = "Good news? Start with that. Bad news? Start at the beginning. I'll need the details.",
+        likes = { "Scouts who come back safely", "A clear, firsthand report", "A road with nothing to report" },
+        dislikes = { "Rumors passed off as orders", "Kobolds finding another mine", "Sending a patrol out shorthanded" },
+        gossip = "Dughan always asks for good news. Goldshire wagers he'd demand a written report if anyone actually brought him some.",
+        bio = "Marshal Dughan keeps watch over Goldshire with too few troops and plenty of reports. He sends scouts "
+            .. "to Fargodeep and Jasperlode, checks threats with Guard Thomas, and helps recover Brother Paxton's stolen books.",
+        backstory = "Dughan once tried to keep every concern on a neat patrol map. New reports filled its margins. "
+            .. "He learned to leave space for corrections, and to ask where a scout had been before deciding where to send the next one.",
+        secret = "Beside the patrol figures, he keeps a small list of people who returned safely. He calls it a check on the numbers. It's the part he reads before going home.",
+        bestFriend = "No report today. I just wanted to know how you were. Sit down a moment; Goldshire can spare us that much.",
+        favorite = { emote = "SALUTE", hint = "Appreciates someone who remembers a little discipline." },
+        lines = {
+            greet = { "I'll have a look at these roads myself, then.", "Right. Show me what you've been dealing with." },
+            idle = { "One quiet afternoon. That's all I'm asking.",
+                "If a kobold's carrying a book, I'd rather know the title.",
+                "A blank report can be excellent news, provided someone actually checked." },
+            befriended = { "You've earned my trust. Try not to make me put that in triplicate." },
+            poke = { "Yes? You can give the report without prodding me.", "I'm listening. At ease." },
+            quest = { "Good work. Tell me what you saw, while it's fresh." },
+            loot = { "Anything that explains what they were doing out here?" },
+            combatStart = { "Keep your footing. Watch each other's backs." },
+            combatEnd = { "Check on everyone before we move on." },
+            levelUp = { "You've come a long way since your first report." },
+            bagsFull = { "Leave room for supplies. You may need the walk home." },
+            zone = { "Different roads, same rule: know where your people are." },
+        },
+    },
+
     -- Innkeeper Farley, Lion's Pride Inn, Goldshire. Human, male; NPC 295.
     -- Facts: Falkhaan Isenstrider's best friend; accepts Rest and Relaxation
     -- (2158), offering a seat by the fire and refreshments. In the Classic
