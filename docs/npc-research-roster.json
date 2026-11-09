@@ -588,5 +588,12 @@
     "zone": "Mulgore",
     "source": "Reviewed exact current adult Tauren identity/model, full seven-stage well/report dialogue and readable or sparse baker relations with Classic stock/Atlas; current reaction uncertainty retained; no Scout sighting claimed",
     "research_notes": "docs/research/mulgore-water-and-bread.md"
+  },
+  {
+    "npc_id": 11189,
+    "name": "Qia",
+    "zone": "Winterspring",
+    "source": "Reviewed exact current adult female Goblin identity/model and published Winterspring location; Atlas Everlook merchant and Classic stock, no personal quests/gossip established; current reaction audit unverified and live neutral/non-attackable access required; no Scout sighting claimed",
+    "research_notes": "docs/research/qia-trade-and-a-crooked-seam.md"
   }
 ]

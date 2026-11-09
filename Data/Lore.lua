@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Qia (11189), adult female Goblin trade-goods merchant, Everlook, Winterspring.
+    -- Display 10746 / race 9 sex 1; current exact title/model and published Winterspring location.
+    -- Classic stock/Atlas corroborate supplies; no current stock/timer or crafting mastery promised.
+    -- Crooked practice pouch is original. docs/research/qia-trade-and-a-crooked-seam.md.
+    [11189] = {
+        quote = "I can help you find the supplies. What you make with them is where it gets interesting.",
+        likes = { "Customers who know what they need", "A practical use for a little thread", "A finished project with an honest seam" },
+        dislikes = { "Being blamed for an empty shelf", "Treating every merchant as a master crafter", "Calling a first attempt worthless" },
+        gossip = "Qia has been making a small pouch. Anyone expecting perfect stitches from a supplies merchant may be in for a surprise.",
+        bio = "Qia sells trade goods in Everlook, Winterspring. Her work puts her among travelers gathering supplies for their own projects. She knows that helping someone find materials and mastering every craft that uses them are different skills.",
+        backstory = "After watching so many customers leave with plans, she decided to finish a small project of her own. The pouch she made came out crooked. It still held what she put inside, which struck her as a reasonable place to begin.",
+        secret = "She has kept the crooked pouch for herself. A better second attempt can wait. For now, she likes carrying something she made, uneven stitches and all.",
+        bestFriend = "Go on, have a look. You can admire the pouch without pretending the seam is straight. I like knowing you will be honest with me.",
+        favorite = { emote = "CHEER", hint = "A little encouragement makes finishing a small project feel worthwhile." },
+        lines = {
+            greet = { { "There you are. Shall we go somewhere that does not involve standing in front of my supplies and asking whether something has arrived yet? I would enjoy a walk. You can tell me what you are making, or what you meant to make before the rest of the day happened. I know how that goes.", tone = "[brisk witty welcome, bright conversational warmth, lightly teasing]" }, "Good company. Excellent. I was hoping we might find a reason to stretch our legs." },
+            idle = { { "Yes, I made this pouch. No, the seam is not meant to bend like that. But everything I put inside remains inside, so I am counting it as useful. Selling the thread did not teach my fingers what to do with it. That part took practice, and apparently I have some more practice to look forward to.", tone = "[wry proud admission, playful self-awareness, warm and animated]" }, "A first attempt can be useful without looking as though someone else made it.", "I have a better appreciation for straight seams now. They are rather less cooperative than they look." },
+            befriended = { { "I would like that. You have become someone I enjoy talking to even when there is no business waiting between us. That is a pleasant thing to discover. Come on, let us take a walk. You can ask about the pouch if you want, provided you do not expect the next one to be finished before we get back.", tone = "[sincere upbeat friendship, affectionate humor, open pleasure]" } },
+            poke = { "You have my attention. A question would be a useful next step.", "Careful. I am fond of this pouch, even if you have reservations about the stitching." },
+            learned = { { "Good. Now give yourself a chance to use what you have learned. You do not have to produce a masterpiece before the effort counts. Make something useful, notice where it could be better, and try again when you are ready. I have a crooked little pouch that has been very helpful in explaining that to me.", tone = "[practical friendly encouragement, wry confidence, lively sincerity]" } },
+            loot = { "Something for your next project? Give it room until you know what you have." },
+            bagsFull = { "You may need a better bag. I suggest one with a straighter seam than mine." },
+            quest = { "Finished. That is a very satisfying word when you can actually mean it." },
+            rest = { "A good pause. I can enjoy my own company, but yours improves the arrangement." },
+            hearth = { "Back again. Let us see what the day still has room for." },
+            levelUp = { "Well done. A little more practice, and something to show for it." },
+        },
+    },
+
     -- Mull Thunderhorn (2948), adult male Tauren well-cleansing quest giver, Bloodhoof Village.
     -- Display 3826 / race 6 sex 0; 748 -> 754 -> 756 -> 758 -> 759 -> 760 -> Forever 98435.
     -- Three cleansing totems, ancestral dream, report/readable to Hamuul; no assumed kinship.

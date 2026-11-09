@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 289,
+  "completed_profiles": 290,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 65,
+    "unverified": 66,
     "horde": 38
   },
   "npc_race_counts": {
@@ -16,6 +16,7 @@
     "6": 10,
     "2": 7,
     "8": 5,
+    "9": 1,
     "96": 3,
     "95": 5
   },
@@ -32,6 +33,7 @@
     "Mulgore": 10,
     "Durotar": 10,
     "Orgrimmar": 2,
+    "Winterspring": 1,
     "Deeprun Tram": 3,
     "Zephras Isle": 8
   },
@@ -3135,6 +3137,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11096"
+    },
+    {
+      "npc_id": 11189,
+      "name": "Qia",
+      "zone": "Winterspring",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Not exposed in current node; exact current adult merchant and published Winterspring/Atlas Everlook identity; live neutral non-attackable access required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11189"
     },
     {
       "npc_id": 11867,

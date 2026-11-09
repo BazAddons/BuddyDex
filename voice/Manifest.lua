@@ -1802,6 +1802,12 @@ ns.VoicePack = {
             ["Sit a moment, if you wish. You need not turn the pause into another duty. I have no examination prepared. We can enjoy a little quiet company and leave the next question until it actually requires an answer."] = "forsaken-male\\lore2123_rest_1.ogg",
             ["An agreeable time to pause. Consider what you would actually enjoy before turning the moment into another obligation. I find that a little company can make an ordinary afternoon sufficient in itself."] = "forsaken-male\\lore2126_rest_1.ogg",
         },
+        ["goblin-female"] = {
+            ["I would like that. You have become someone I enjoy talking to even when there is no business waiting between us. That is a pleasant thing to discover. Come on, let us take a walk. You can ask about the pouch if you want, provided you do not expect the next one to be finished before we get back."] = "goblin-female\\lore11189_befriended_1.ogg",
+            ["There you are. Shall we go somewhere that does not involve standing in front of my supplies and asking whether something has arrived yet? I would enjoy a walk. You can tell me what you are making, or what you meant to make before the rest of the day happened. I know how that goes."] = "goblin-female\\lore11189_greet_1.ogg",
+            ["Yes, I made this pouch. No, the seam is not meant to bend like that. But everything I put inside remains inside, so I am counting it as useful. Selling the thread did not teach my fingers what to do with it. That part took practice, and apparently I have some more practice to look forward to."] = "goblin-female\\lore11189_idle_1.ogg",
+            ["Good. Now give yourself a chance to use what you have learned. You do not have to produce a masterpiece before the effort counts. Make something useful, notice where it could be better, and try again when you are ready. I have a crooked little pouch that has been very helpful in explaining that to me."] = "goblin-female\\lore11189_learned_1.ogg",
+        },
         ["human-female"] = {
             ["Welcome back!"] = "human-female\\npc_alive_1.ogg",
             ["There you are. Gave me a fright."] = "human-female\\npc_alive_2.ogg",

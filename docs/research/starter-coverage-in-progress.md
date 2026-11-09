@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 65 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 66 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -105,3 +105,7 @@ Next Mulgore identities: Mull Thunderhorn (2948), adult male Tauren well-cleansi
 Mull Thunderhorn and Jhawna Oatwind bring development to **289 complete profiles**, with fifteen personal lines and four approved Tauren v4 signatures each. See [the full research](mulgore-water-and-bread.md), including the seven-stage well/report chain and readable. Mulgore and Durotar now each have ten authored early-route profiles. Public faction-access listings are 192 Alliance, 38 Horde and 65 unverified, with six shared entries overlapping the faction totals. Missing current reaction icons for the two new Tauren stay unverified; no live eligibility gate is bypassed. Continue rotating underserved Horde routes and service roles while preserving the wider catalog and old Westfall availability questions.
 
 The next Goblin identity review is Wharfmaster Dizzywig (3453, adult male) and Qia (11189, adult female). See [pending access/quest/trade research](goblin-quest-and-trade-queue.md). Neutral reaction is not assumed friendly, Qia's current node lacks an access/location listing, and Everlook is not beginner coverage. Neither is counted complete or added as a Scout sighting; retain ordinary live eligibility gates and the underserved Horde rotation.
+
+## First Goblin profile and recorded routing
+
+Qia brings development to **290 complete profiles** with fifteen personal lines and four original female Goblin B v4 recordings. See [her notes](qia-trade-and-a-crooked-seam.md). Goblin production routing and reproducible body data are enabled; an authored profile still cannot bypass live reaction/attackability. Qia's current public faction listing remains unverified, Everlook is later travel rather than beginner coverage, and no shared-access milestone is claimed. The audit is 192 Alliance, 38 Horde and 66 unverified with six shared entries overlapping faction counts. Dizzywig's shipment/passenger chains remain [under research](dizzywig-research-in-progress.md), including a literary lead; he is not counted complete.

@@ -182,6 +182,7 @@ step("the main addon loads its bundled voices", function()
         {3185, 4085, "troll-female"}, {3706, 1897, "troll-female"},
         {6928, 5705, "orc-male"}, {3158, 1879, "orc-female"},
         {2948, 3826, "tauren-male"}, {3884, 3807, "tauren-female"},
+        {11189, 10746, "goblin-female"},
         {1257, 1431, "human-male"}, {1275, 1444, "human-female"} }) do
         assert(ns.Voice.NpcVoice(sample[2]) == sample[3], "signature voice identity mismatch")
         local line = ns.Lore[sample[1]].lines.greet[1][1]
@@ -1222,8 +1223,10 @@ step("low on health in a fight, it worries, once", function()
     Quiet()
     -- Chance decides it in play; here it always speaks.
     local chances = ns.Reactions.FIGHT_CHANCES
-    local saved = chances.lowHealth
-    chances.lowHealth = 1
+    local saved, savedStart = chances.lowHealth, chances.combatStart
+    -- Isolate the health reaction: a random opening cheer would still be
+    -- talking at 0.5 seconds and legitimately suppress this reaction.
+    chances.lowHealth, chances.combatStart = 1, 0
     FireAll("PLAYER_REGEN_DISABLED")
     MOCK.Advance(0.5)
     MOCK.units.player.health = 12
@@ -1235,7 +1238,7 @@ step("low on health in a fight, it worries, once", function()
     FireAll("PLAYER_REGEN_ENABLED")
     MOCK.units.player.health = 100
     MOCK.Advance(1)
-    chances.lowHealth = saved
+    chances.lowHealth, chances.combatStart = saved, savedStart
     assert(FromPile(said, ns.Lines.lowHealth), "no worried line at 12% health: " .. tostring(said))
     assert(again == nil or again == said, "worried twice in one fight")
     assert(BuddyDexCharDB.probe and BuddyDexCharDB.probe.healthInCombat == "readable", "didn't note whether health was readable")
@@ -1542,6 +1545,28 @@ step("child identities and models cannot become friends or companions", function
     assert(ns.Friendship.IsSomeone("Auctioneer Lympkin", 9859), "adult gnome excluded")
     MOCK.units.target, MOCK.units.npc = LYMPKIN, LYMPKIN
 end)
+step("authored Goblin access still follows the live neutral and attackable state", function()
+    local id = 11189
+    local oldTarget, oldNpc = MOCK.units.target, MOCK.units.npc
+    local unit = { guid = "Creature-0-1-2-3-11189-0000AB", npcID = id,
+        name = "Qia", type = "Humanoid", typeID = 7, class = "normal", sex = 3,
+        reaction = 4, attackable = true }
+    ns.Database.Remove(id)
+    MOCK.units.npc, MOCK.units.target = nil, unit
+    DoEmote("HELLO")
+    assert(not BuddyDexCharDB.friends[id], "an authored profile bypassed attackability")
+    unit.attackable, unit.reaction = false, 3
+    DoEmote("HELLO")
+    assert(not BuddyDexCharDB.friends[id], "an authored profile bypassed hostile reaction")
+    unit.reaction = 4
+    DoEmote("HELLO")
+    assert(Points(id) == 25, "a resolved non-attackable neutral merchant could not be met")
+    ns.Database.Remove(id)
+    MOCK.units.target, MOCK.units.npc = oldTarget, oldNpc
+    assert(ns.Voice.NpcVoice(7053) == "goblin-male", "adult male Goblin route missing")
+end)
+
+
 """
 
 SCOUT = r"""

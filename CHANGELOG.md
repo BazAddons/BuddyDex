@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Qia: full profile, fifteen personal lines and four original female Goblin B Eleven v4 signatures. Enable race 9 voice routing and reproducible body mappings; retain live neutral/non-attackable eligibility checks. Development now has 290 complete profiles; Dizzywig's full chain research remains pending.
+
 - Complete Mull Thunderhorn and Jhawna Oatwind: full profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research the full well-cleansing chain, Forever report and readable; development now has 289 completed profiles.
 
 - Complete Innkeeper Grosk and Duokna: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Development now has 287 complete profiles; Grosk's later novel events excluded and Duokna's actual Forever supplies verified.

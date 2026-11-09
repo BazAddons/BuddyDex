@@ -16,3 +16,5 @@ Before authoring either shortlisted NPC, resolve current location, reputation/fr
 Use the user-selected original Goblin male B / female B voices if eligibility is established; no further accent auditions are requested. Verify voice routing/model tables and exact selected IDs before production. Each accepted profile still requires all ten fields, fifteen supported lines, 3-5 v4 signatures, validation, installation and separate development packaging. An ineligible neutral candidate must stay pending/excluded rather than gaining a bespoke friendship exception. The wider catalog, underserved Horde routes and old Westfall questions remain open.
 
 Raw current-node caches are outside the repository in `C:/Users/brett/BuddyDex-builds/ratchet-research`.
+
+Qia is now authored with full research/limitations in [her notes](qia-trade-and-a-crooked-seam.md), four female Goblin B v4 signatures and conditional live-access checks. Dizzywig remains pending: [chain research progress](dizzywig-research-in-progress.md). No non-attackable state or both-faction access was inferred from a neutral town.
