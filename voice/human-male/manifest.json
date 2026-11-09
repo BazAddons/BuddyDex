@@ -1451,6 +1451,86 @@
     "text": "Those slippers are a serious study in comfort. A very pleasant study.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore8670_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8670",
+    "spoken": "[sincere warmth, relaxed, grateful] I spend all day making myself heard. It's good to be with someone I can simply talk to. Thank you for coming.",
+    "text": "I spend all day making myself heard. It's good to be with someone I can simply talk to. Thank you for coming.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8670_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8670",
+    "spoken": "[booming announcer at first, then sheepish chuckle, friendly] YOUR ATTENTION, PLEASE! Ah. Yours will do nicely. Sorry. A walk sounds splendid.",
+    "text": "YOUR ATTENTION, PLEASE! Ah. Yours will do nicely. Sorry. A walk sounds splendid.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8670_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8670",
+    "spoken": "[confiding, dry humor, deliberately conversational] I practice a quiet hello. Occupational habit. You'd be surprised how easily a friendly visit becomes a public announcement.",
+    "text": "I practice a quiet hello. Occupational habit. You'd be surprised how easily a friendly visit becomes a public announcement.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8670_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:8670",
+    "spoken": "[curious, amused, playfully restrained] News from the auctions? Go on, have a look. I can wait without announcing the contents to the street.",
+    "text": "News from the auctions? Go on, have a look. I can wait without announcing the contents to the street.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8719_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8719",
+    "spoken": "[sincere, welcoming, gently affectionate] A visit without a transaction. I like that. I hope you'll keep coming back, even when you've nothing to list.",
+    "text": "A visit without a transaction. I like that. I hope you'll keep coming back, even when you've nothing to list.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8719_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8719",
+    "spoken": "[polite, easy warmth, quietly pleased] Good to see you. No need to buy anything. Shall we have a look around together?",
+    "text": "Good to see you. No need to buy anything. Shall we have a look around together?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8719_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8719",
+    "spoken": "[trying to sound casual, sheepish amusement, fond] What sorts of little things do you like? No particular reason. That sounded much less suspicious in my head.",
+    "text": "What sorts of little things do you like? No particular reason. That sounded much less suspicious in my head.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore8719_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:8719",
+    "spoken": "[thoughtful, helpful, curious] That looks interesting. Before we put a price on it, do you want to keep it for yourself?",
+    "text": "That looks interesting. Before we put a price on it, do you want to keep it for yourself?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore894_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

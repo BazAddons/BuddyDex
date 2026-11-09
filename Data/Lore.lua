@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Stormwind's Trade District auctioneers: Chilton 8670 and Fitch 8719
+    -- are human males; Jaxon 15659 is human female. Current Scout and
+    -- Forever appearance/service records agree. No direct Classic quests.
+    -- Later retail quests and Jaxon's replacement plot are excluded.
+    -- Quiet voice, gift-choice and applause hooks are original BuddyDex
+    -- writing. Sources: docs/research/stormwind-auctioneers.md.
+    [8670] = {
+        quote = "You there! A moment of your... ah. Sorry. We're close enough for an ordinary conversation, aren't we?",
+        likes = { "A clear bid from the back of the room", "An audience listening to the details", "A quiet conversation after work" },
+        dislikes = { "A price lost under the shouting", "Having to repeat the important part", "Calling across a table by habit" },
+        gossip = "Chilton can make himself heard across the hall. Invite him to sit and talk, though, and he seems oddly careful about the first word.",
+        bio = "Auctioneer Chilton works in Stormwind's Trade District alongside Auctioneers Fitch and Jaxon. Traders bring goods to list and browse the auctions. Away from the busy hall, he enjoys hearing someone finish a sentence without competing for the room.",
+        backstory = "In a crowded auction house, a voice has work to do. Chilton grew used to making every word carry. The habit followed him off duty, until an ordinary greeting began sounding rather like the opening of another sale.",
+        secret = "He rehearses a quiet hello before meeting friends. Sometimes the first attempt comes out at auction volume. The second usually includes an embarrassed laugh.",
+        bestFriend = "Hello, my friend. There. Right volume on the first try. Sit a while; I'd like to hear how your day went.",
+        favorite = { emote = "BOW", hint = "A courteous acknowledgment gives his voice a welcome moment of rest." },
+        lines = {
+            greet = { { "YOUR ATTENTION, PLEASE! Ah. Yours will do nicely. Sorry. A walk sounds splendid.", tone = "[booming announcer at first, then sheepish chuckle, friendly]" }, "Hello again. Did that sound like a greeting? Good. I'm improving." },
+            idle = { { "I practice a quiet hello. Occupational habit. You'd be surprised how easily a friendly visit becomes a public announcement.", tone = "[confiding, dry humor, deliberately conversational]" }, "No need to outshout anyone here. I could get used to this.", "Strange how peaceful a busy street can sound after a day in the hall." },
+            befriended = { { "I spend all day making myself heard. It's good to be with someone I can simply talk to. Thank you for coming.", tone = "[sincere warmth, relaxed, grateful]" } },
+            poke = { "Yes! Yes. Sorry. No need to shout.", "A raised hand would do. Though I'd probably mistake it for a bid." },
+            mail = { { "News from the auctions? Go on, have a look. I can wait without announcing the contents to the street.", tone = "[curious, amused, playfully restrained]" } },
+            loot = { "Someone may want that. Let them hear what it actually is." },
+            bagsFull = { "A roomful of stock in one pack. You've been busy." },
+            levelUp = { "WELL DONE! That one deserved a little volume." },
+            rest = { "Yes, let's sit. Tell me the story at your own pace." },
+            quest = { "Job finished. A good moment to thank everyone involved." },
+            hearth = { "Home. I shall try announcing my arrival to the people who actually live there." },
+        },
+    },
+    [8719] = {
+        quote = "Browse as long as you like. Knowing what you want is worth a little of everyone's time.",
+        likes = { "A description that answers the question", "Customers comfortable asking for help", "Finding what someone actually wanted" },
+        dislikes = { "An important detail left off a listing", "Being hurried through a choice", "A confident answer with no thought in it" },
+        gossip = "Fitch can help a stranger sort through a hundred listings. Choosing one small present for a friend seems to take him all afternoon.",
+        bio = "Auctioneer Fitch helps traders browse and list goods in Stormwind's Trade District. He shares the hall with Chilton and Jaxon. His invitation to browse is practical: a customer who knows what they're looking for is easier to help.",
+        backstory = "Fitch became comfortable with the questions behind a purchase: what someone needs, what matters to them, what they can do without. Away from the counter, he found that choosing a gift was harder when the person mattered to him.",
+        secret = "He remembers little things friends say they like, hoping to find the right gift. Then he worries that asking directly will spoil it. He isn't nearly as subtle as he thinks.",
+        bestFriend = "When I ask what you like, it isn't market research. I just want to get something right for you. You may have noticed.",
+        favorite = { emote = "THANK", hint = "A little appreciation reassures him that his help was what you needed." },
+        lines = {
+            greet = { { "Good to see you. No need to buy anything. Shall we have a look around together?", tone = "[polite, easy warmth, quietly pleased]" }, "There you are. How did the rest of your day turn out?" },
+            idle = { { "What sorts of little things do you like? No particular reason. That sounded much less suspicious in my head.", tone = "[trying to sound casual, sheepish amusement, fond]" }, "It helps to ask what someone actually wants. I give that advice more easily than I take it.", "A clear description saves a surprising amount of trouble." },
+            befriended = { { "A visit without a transaction. I like that. I hope you'll keep coming back, even when you've nothing to list.", tone = "[sincere, welcoming, gently affectionate]" } },
+            poke = { "Yes? Is there something I can help you find?", "I'm listening. You can ask plainly." },
+            loot = { { "That looks interesting. Before we put a price on it, do you want to keep it for yourself?", tone = "[thoughtful, helpful, curious]" } },
+            mail = { "Perhaps something you've been waiting for. Take your time." },
+            bagsFull = { "Let's start with what you actually want to keep." },
+            quest = { "They asked for help and you listened. A fine habit." },
+            rest = { "Yes. There's no reason every choice has to be hurried." },
+            levelUp = { "You've put time into that. I'm glad to see it paying off." },
+            hearth = { "Home again. I wonder whether anyone has news for us." },
+        },
+    },
+    [15659] = {
+        quote = "A sale is a fine finish. I like to hear about the work that got the goods here, too.",
+        likes = { "A seller proud of their first good work", "A room that appreciates the effort", "Good news brought back to the counter" },
+        dislikes = { "Laughing at someone's first attempt", "Treating the maker as an interruption", "A fine piece of work left unmentioned" },
+        gossip = "Jaxon remembers which sellers were nervous on their first visit. A little applause from her side of the counter can make them stand straighter.",
+        bio = "Auctioneer Jaxon works with Chilton and Fitch in Stormwind's Trade District. Adventurers and craftspeople bring their goods to the hall. She likes the moment a nervous seller begins sounding proud of what they've brought.",
+        backstory = "A busy counter can make a new trader feel very small. Jaxon began asking an extra question about the work before moving on. Sometimes that was enough to turn an anxious explanation into an enthusiastic one.",
+        secret = "When a seller comes back with good news, she sometimes claps under the counter. She wants them to enjoy the moment without feeling the whole hall is watching.",
+        bestFriend = "You can tell me about the little victories too. I won't make you give a speech. I'll just be pleased with you.",
+        favorite = { emote = "APPLAUD", hint = "A little applause says you noticed the effort behind the result." },
+        lines = {
+            greet = { { "There you are! Tell me what's gone well today. We can walk while you think of something.", tone = "[bright, inviting, genuinely interested]" }, "Ready for a little time away from the counter? I certainly am." },
+            idle = { { "Yes, I clap under the counter sometimes. They don't need a whole audience. Just someone pleased that it went well.", tone = "[fond, conspiratorial, quietly delighted]" }, "I like it when someone starts explaining how they made the thing. Their whole face changes.", "A little good news goes a long way through a busy day." },
+            befriended = { { "You came back to share the day with me. I'm glad. Come along, then. I want to hear about all of it.", tone = "[sincere affection, cheerful warmth, welcoming]" } },
+            poke = { "Yes? Have you got good news?", "You have my attention. What did you want to tell me?" },
+            learned = { { "You learned how to do that? Wonderful! Show me. I'd like to see what all that practice was for.", tone = "[enthusiastic, encouraging, delighted curiosity]" } },
+            loot = { "Look at that. Are you pleased with it?" },
+            mail = { "Good news, I hope. Go on, open it." },
+            bagsFull = { "You've brought quite a day's work home with you." },
+            quest = { "Another thing seen through. Let yourself enjoy that." },
+            levelUp = { "Well done! That deserves a proper round of applause." },
+            rest = { "A seat and a chance to hear the whole story. Lovely." },
+        },
+    },
+
     -- Stormwind clothiers: Wynne Larson 1309 (robe merchant, human female),
     -- Evan Larson 1310 (hatter, human male), Lisbeth Schneider 1299
     -- (clothier, human female), Lawrence Schneider 1300 (journeyman tailor,
