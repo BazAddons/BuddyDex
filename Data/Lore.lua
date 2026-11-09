@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Limited Immunity: Osric Strang 1323 and Wilhelm Strang 1341, human
+    -- male heavy/mail armor merchants. Osric supplies Lewis through the
+    -- 6181/6281/6261/6285 flight chain; readable Lewis' Note 15998 includes
+    -- a hoped-for meal. Sellandus 5567, night elf male Expert Tailor,
+    -- Mage Quarter, current trainer. Original private details/boundaries:
+    -- docs/research/limited-immunity-and-sellandus.md.
+    [1323] = {
+        quote = "Good armor has to reach the people waiting for it. Fill the order properly, give the runner clear directions, and remember what the journey costs them.",
+        likes = { "A supply order filled without delay", "A courier given proper consideration", "The thought of a peaceful Westfall meal" },
+        dislikes = { "Sentinel Hill forgotten by the city", "Useful gear stranded far from its wearer", "Another performance over a settled price" },
+        gossip = "Osric is firm about prices and quick to fill a Westfall order. He knows the armor matters most when it reaches the people waiting.",
+        bio = "Osric Strang sells heavy armor at Limited Immunity in Stormwind's Old Town. He is Quartermaster Lewis's contact for supplies at Sentinel Hill. When Lewis needs fresh equipment, Osric fills the crate and directs its journey back to Westfall.",
+        backstory = "Lewis's note lists armor needed and hopes for a day when Westfall is safe enough to offer Osric a fine family meal. Osric covers the courier's travel costs and sends the supplies through Dungar, wanting the fighting men and women properly equipped.",
+        secret = "He has imagined that meal: news of the land and something good from its harvest. He would like Lewis to have time to talk about an ordinary day, with no urgent shortage to explain.",
+        bestFriend = "If you pass Sentinel Hill, give Lewis my regards. Then come and tell me about the road. I should like to hear the ordinary parts too.",
+        favorite = { emote = "THANK", hint = "A sincere acknowledgment suits someone who remembers both the supplies and the person carrying them." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time for a walk? Tell me what the road has been like. News of an ordinary day would be welcome as well as another urgent request.", tone = "[practical warmth, sincere interest, welcoming]" }, "There you are. Have you come far, or shall we have a little time around the city?" },
+            idle = { { "Lewis hopes to offer me a meal when Westfall is safe. I have thought about it. Good food, news of the land, time to hear about an ordinary day. I should be very glad to accept.", tone = "[reflective hope, restrained affection, sincere]" }, "A crate on the shelf does little for the people still waiting at Sentinel Hill.", "The person carrying the message has given their time and effort too." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be good to share some time beyond an order across the counter.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you news of the road?", "I am listening. Tell me what is needed." },
+            mail = { { "A message? Let us see who is waiting for an answer. A request from far away is still someone's immediate need.", tone = "[attentive concern, practical purpose, warm]" } },
+            quest = { "Well done. Someone at the other end will be glad you followed through." },
+            taxi = { "A useful way to keep a long road from delaying what is needed." },
+            gear = { "May it serve you well. That is the part worth being proud of." },
+            bagsFull = { "A little sorting may tell us what still needs carrying." },
+            rest = { "A seat would be welcome. Tell me what you noticed on the way." },
+            hearth = { "Back to the shop. There may be another request from Lewis waiting." },
+        },
+    },
+    [1341] = {
+        quote = "Take your time choosing. A settled price leaves us free to discuss whether the armor suits you, which is a better use of the conversation.",
+        likes = { "A careful question about the armor", "A fair game with a few simple counters", "An opponent willing to offer a rematch" },
+        dislikes = { "A price argued over for its own sake", "Moving the counters while he is thinking", "A game made unpleasant by winning it" },
+        gossip = "Wilhelm has firm ideas about prices. The best opening move in his little board game remains a subject for further consideration.",
+        bio = "Wilhelm Strang sells mail armor at Limited Immunity in Stormwind's Old Town, alongside Osric Strang. Scale and polished scale pieces form his selection. He speaks confidently of the gear and has little enthusiasm for bargaining over settled prices.",
+        backstory = "A small grid and a handful of counters give Wilhelm a pleasant game away from the counter. The aim is simple: get three in a row. Finding an opening that a friend has not already considered can occupy him for rather longer than expected.",
+        secret = "He has been considering a very clever first move. When a friend sits down, he often offers them the first turn instead. He would rather see what they have thought of.",
+        bestFriend = "Sit down, friend. You can have the first move. I have had plenty of time to think about mine; now I should like to see what you do.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment leaves room for a question, or a move worth considering." },
+        lines = {
+            greet = { { "There you are, my friend. Have you time for a walk? I have been considering an opening move. You may tell me whether it is clever, or simply the one everyone tries first.", tone = "[steady warmth, dry amusement, welcoming]" }, "Good to see you. Have you a little time to spare?" },
+            idle = { { "I have considered a very clever first move. Then a friend sits down, and I offer them the first turn. I want to see what they have thought of. There is always another game for my great discovery.", tone = "[fond amusement, interested curiosity, confiding]" }, "A simple rule can leave a great deal worth thinking about.", "A question about the armor is welcome. Another round of the same bargain is less useful." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. It will be good to hear what has been occupying your thoughts.", tone = "[restrained affection, pleased, warmly inviting]" } },
+            poke = { "Yes? Have you decided on your move?", "You have my attention. What would you like to know?" },
+            rest = { { "A seat sounds good. If we have room for the little board, you can have the first move. Otherwise, tell me what you would try. I am curious.", tone = "[relaxed warmth, playful interest, inviting]" } },
+            gear = { "Does it suit you? That is worth knowing before you choose it." },
+            loot = { "A useful find? Have a proper look before deciding." },
+            quest = { "Well done. Have you time to enjoy having finished?" },
+            learned = { "Something new to consider next time. Give yourself a moment to notice it." },
+            zone = { "A new place to look around. Let us take a proper look." },
+            hearth = { "Back to the shop. The counters will still be where I left them, I hope." },
+        },
+    },
+    [5567] = {
+        quote = "A small stitch deserves your attention. So does the choice that makes the finished piece a pleasure to look at.",
+        likes = { "Careful practice in an ordinary stitch", "Thread colors worth trying together", "Company willing to look at the evening" },
+        dislikes = { "Rushing past what the cloth can teach", "A beginner mocked for a first attempt", "Treating every choice as already settled" },
+        gossip = "Sellandus teaches practical stitches with care. His private sampler of evening colors is an excuse to keep noticing the sky.",
+        bio = "Sellandus is a night elf tailor in Stormwind's Mage Quarter. He offers instruction to people continuing the craft, with lessons ranging from cloth and clothing to bags. His welcome is brief, leaving room for the work and the learner's questions.",
+        backstory = "He has begun a sampler of thread colors noticed over Stormwind's roofs at dusk. The light changes before he can match it exactly. He keeps working, finding that each attempt has become a small record of an evening he enjoyed watching.",
+        secret = "His favorite patch does not quite match the sky he meant to remember. He likes the colors together too much to unpick them. The unexpected result has become worth keeping for itself.",
+        bestFriend = "Come and look at the evening with me. We needn't name every color. I should simply like your company while the light changes.",
+        favorite = { emote = "PRAISE", hint = "A sincere kind word can recognize the care in a small, patient piece of work." },
+        lines = {
+            greet = { { "Good to see you, my friend. Have you time for a walk? I have another little patch of color to show you. It did not quite match the evening, but I find I am pleased with it.", tone = "[measured warmth, thoughtful pleasure, welcoming]" }, "Welcome. Shall we have a little time to look around together?" },
+            idle = { { "The patch I like best does not quite match the sky I was watching. I have kept it anyway. Sometimes the work gives you something worth looking at that you had not thought to ask for.", tone = "[reflective appreciation, quiet delight, confiding]" }, "A careful stitch can teach something, even when it is one you have made many times.", "The colors change quickly over the roofs. It is pleasant to give them a moment of attention." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come. It will be a pleasure to share a little of the day with you.", tone = "[reserved affection, sincere pleasure, inviting]" } },
+            poke = { "Yes? Have you noticed a color I should try?", "I am listening. Tell me what you think." },
+            learned = { { "Well done. Give the work a careful look before you move on. There may be something in the way it came together that is worth remembering.", tone = "[patient encouragement, attentive, approving]" } },
+            gear = { "How does it sit, and how is it made? There is pleasure in noticing the care." },
+            loot = { "Something worth a closer look? Let us see what you have found." },
+            quest = { "Good work. Have a moment to enjoy what your care has accomplished." },
+            zone = { "Somewhere new. I wonder what colors the evening will bring here." },
+            rest = { "A seat with a view would be welcome. Tell me what you have noticed today." },
+            hearth = { "Back to Stormwind. There will be work to return to, and more to notice above the roofs." },
+        },
+    },
+
     -- Osborne the Night Man 918, human male Rogue Trainer outside SI:7,
     -- Old Town: coin-purse joke, important messages, retraining, historical
     -- Ravenholdt referral. Karrina Mekenda 2879, dwarf female Pet Trainer,

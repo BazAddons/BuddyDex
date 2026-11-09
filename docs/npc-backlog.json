@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 151,
-  "remaining_count": 66,
+  "completed_count": 154,
+  "remaining_count": 63,
   "completed": [
     {
       "npc_id": 54,
@@ -479,6 +479,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1323,
+      "name": "Osric Strang",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1324,
       "name": "Heinrich Stone",
       "zone": "Stormwind City",
@@ -499,6 +508,15 @@
     {
       "npc_id": 1339,
       "name": "Mayda Thane",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1341,
+      "name": "Wilhelm Strang",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -976,6 +994,15 @@
     {
       "npc_id": 5566,
       "name": "Tannysa",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5567,
+      "name": "Sellandus",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1601,22 +1628,8 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1323,
-      "name": "Osric Strang",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 273065,
       "name": "Ribbly Spinwhistle",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5567,
-      "name": "Sellandus",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1638,13 +1651,6 @@
     {
       "npc_id": 1429,
       "name": "Thurman Schneider",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1341,
-      "name": "Wilhelm Strang",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

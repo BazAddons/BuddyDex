@@ -39,6 +39,46 @@
     "text": "Somewhere new. Let us notice the little things too. They may be what we most wish to remember later.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore5567_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5567",
+    "spoken": "[reserved affection, sincere pleasure, inviting] You came to bring me along. I am glad, my friend. Come. It will be a pleasure to share a little of the day with you.",
+    "text": "You came to bring me along. I am glad, my friend. Come. It will be a pleasure to share a little of the day with you.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5567_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5567",
+    "spoken": "[measured warmth, thoughtful pleasure, welcoming] Good to see you, my friend. Have you time for a walk? I have another little patch of color to show you. It did not quite match the evening, but I find I am pleased with it.",
+    "text": "Good to see you, my friend. Have you time for a walk? I have another little patch of color to show you. It did not quite match the evening, but I find I am pleased with it.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5567_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5567",
+    "spoken": "[reflective appreciation, quiet delight, confiding] The patch I like best does not quite match the sky I was watching. I have kept it anyway. Sometimes the work gives you something worth looking at that you had not thought to ask for.",
+    "text": "The patch I like best does not quite match the sky I was watching. I have kept it anyway. Sometimes the work gives you something worth looking at that you had not thought to ask for.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5567_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5567",
+    "spoken": "[patient encouragement, attentive, approving] Well done. Give the work a careful look before you move on. There may be something in the way it came together that is worth remembering.",
+    "text": "Well done. Give the work a careful look before you move on. There may be something in the way it came together that is worth remembering.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
