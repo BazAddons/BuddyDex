@@ -2029,6 +2029,46 @@
     "spoken": "[excited] That's going straight to the good pocket.",
     "text": "That {item} is going straight to the good pocket."
   },
+  "lore11028_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11028",
+    "spoken": "[warm, sincere, quietly pleased] You understand why the little things matter. I'm glad we're making some new memories together.",
+    "text": "You understand why the little things matter. I'm glad we're making some new memories together.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11028_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11028",
+    "spoken": "[bright, eager, wry amusement] Ready! New things to see, and a bag I've checked for holes. Twice.",
+    "text": "Ready! New things to see, and a bag I've checked for holes. Twice.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11028_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11028",
+    "spoken": "[fond, lightly amused, thoughtful warmth] Equations and a chili recipe. I couldn't tell you which my family would argue about more.",
+    "text": "Equations and a chili recipe. I couldn't tell you which my family would argue about more.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11028_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:11028",
+    "spoken": "[encouraging teacher, bright enthusiasm] There! You know something you didn't know this morning. Try it while it's fresh.",
+    "text": "There! You know something you didn't know this morning. Try it while it's fresh.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore9859_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

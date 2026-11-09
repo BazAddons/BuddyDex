@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Jemma 11028 and Springspindle 5174: female/male gnome engineers in
+    -- Springspindle's Gadgets, Tinker Town. Jemma's Forever archive quest
+    -- 95041 is in the installed quest corpus; Springspindle's Classic
+    -- specialization referrals are 3629/3632. Research notes distinguish
+    -- captured corpus, historical mechanics and original private hooks.
+    -- docs/research/jemma-and-springspindle.md.
+    [11028] = {
+        quote = "An archive can hold a brilliant equation and a family recipe. I'd rather not lose either. Both took someone years to get right.",
+        likes = { "A learner's first working gadget", "News of an exciting new invention", "Family knowledge carefully preserved" },
+        dislikes = { "A tiny hole in an important bag", "Old recipes dismissed as unimportant", "Being compared with her sister" },
+        gossip = "Jemma loves news of new gadgets. Ask her about a family recipe, though, and she can be just as interested in something old.",
+        bio = "Jemma Quikswitch teaches engineering in Springspindle's Gadgets in Tinker Town. In Forever's Data Hoarders, she seeks lost punch cards needed to recover family archives, from technical designs to Grandma Quikswitch's chili recipe.",
+        backstory = "Before fleeing Gnomeregan, Jemma copied her family's records. Only in Ironforge did she discover the hole in her pack and the missing cards. The scattered data threatens to leave generations of work unreadable.",
+        secret = "She wants the chili recipe back for more than the ingredients. She hopes making a familiar meal might help a borrowed kitchen feel a little more like home.",
+        bestFriend = "When I can make that chili again, you must come and try it. I want you in some of the happy memories still to come.",
+        favorite = { emote = "APPLAUD", hint = "She knows how much a little recognition can mean after a successful first attempt." },
+        lines = {
+            greet = { { "Ready! New things to see, and a bag I've checked for holes. Twice.", tone = "[bright, eager, wry amusement]" }, "An outing! Tell me if you spot an interesting gadget." },
+            idle = { { "Equations and a chili recipe. I couldn't tell you which my family would argue about more.", tone = "[fond, lightly amused, thoughtful warmth]" }, "The first time a little device works is worth remembering.", "Something doesn't have to be new to be worth keeping." },
+            befriended = { { "You understand why the little things matter. I'm glad we're making some new memories together.", tone = "[warm, sincere, quietly pleased]" } },
+            poke = { "Yes? Another question? Good, ask!", "Checking the bag? So was I." },
+            learned = { { "There! You know something you didn't know this morning. Try it while it's fresh.", tone = "[encouraging teacher, bright enthusiasm]" } },
+            loot = { "Careful with that. Small things can hold a surprising amount." },
+            bagsFull = { "Let's check the seams before we add one more thing." },
+            gear = { "A new design? Turn a little. I'd like to see how it fits together." },
+            quest = { "Someone trusted you with something that mattered. You did well." },
+            levelUp = { "Look how far you've come! You should be proud of that." },
+            hearth = { "Home for now. Perhaps there's time to make something warm." },
+        },
+    },
+    [5174] = {
+        quote = "A clever device ought to make life easier. If explaining it takes longer than doing the job by hand, we have another problem to solve.",
+        likes = { "An idea that makes daily life easier", "A student asking a precise question", "A well-considered nod of understanding" },
+        dislikes = { "Mistaking a loud noise for progress", "Skipping the explanation of a choice", "A cup of tea gone cold while he talks" },
+        gossip = "Springspindle can make a simple question last an entire cup of tea. His pupils suspect the next invention should keep it warm.",
+        bio = "Springspindle Fizzlegear trains engineers in his Tinker Town shop. His Classic referrals send students to Overspark in Ironforge or Nixx in Gadgetzan. He strongly favors gnomish devices, though he explains both disciplines.",
+        backstory = "Teaching gives him plenty of chances to describe how engineering might improve ordinary life. He enjoys grand possibilities, but a student's careful question can bring him back to the small practical step that comes next.",
+        secret = "His simplest teaching aid is his tea. If it has gone cold before a pupil gets to ask a question, he takes it as a sign that he has been explaining for too long.",
+        bestFriend = "You've heard enough theory for one afternoon. Let's have some tea while it's warm. Tell me what you've been doing.",
+        favorite = { emote = "NOD", hint = "He appreciates knowing that you've followed the reasoning before choosing a next step." },
+        lines = {
+            greet = { { "A practical excursion. Excellent. Theory benefits from the occasional walk.", tone = "[confident, measured, pleasantly curious]" }, "Ready. You can tell me which parts of the journey could use improving." },
+            idle = { { "Cold tea again. I may have explained the principle rather more thoroughly than necessary.", tone = "[dry self-awareness, rueful amusement]" }, "A device should solve a problem. Preferably without creating three more.", "What would make this ordinary task a little easier? Start there." },
+            befriended = { { "You ask good questions, and you let me know when I've talked enough. I value both.", tone = "[warm, appreciative, understated humor]" } },
+            poke = { "Yes? Which part needs explaining?", "Ah. A demonstration of direct mechanical input." },
+            learned = { { "Good. Now explain why it works. If you can do that, the lesson has taken.", tone = "[patient, precise, encouraging teacher]" } },
+            gear = { "An improvement? Let us judge by what it does for you." },
+            loot = { "Interesting. Useful as it stands, or useful as a collection of parts?" },
+            quest = { "A practical application, and a result to learn from." },
+            bagsFull = { "A familiar problem. More compartments are not always the answer." },
+            levelUp = { "Progress. Well earned. Consider what you'd like to understand next." },
+            hearth = { "Back to the shop. I think the next discussion should begin with fresh tea." },
+        },
+    },
+
     -- Klockmort 6169 and Castpipe 7950: male gnomes in Tinker Town.
     -- Blacksmith/researcher and mechanic/data recovery organizer. Classic
     -- chains and modest original hooks: docs/research/klockmort-and-castpipe.md.

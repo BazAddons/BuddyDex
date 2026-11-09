@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 56,
-  "remaining_count": 161,
+  "completed_count": 58,
+  "remaining_count": 159,
   "completed": [
     {
       "npc_id": 54,
@@ -380,6 +380,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 5174,
+      "name": "Springspindle Fizzlegear",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5175,
       "name": "Gearcutter Cogspinner",
       "zone": "Ironforge",
@@ -467,6 +476,15 @@
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 11028,
+      "name": "Jemma Quikswitch",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -620,13 +638,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 11028,
-      "name": "Jemma Quikswitch",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 6175,
       "name": "John Turner",
       "zone": "Ironforge",
@@ -657,13 +668,6 @@
     {
       "npc_id": 5178,
       "name": "Soolie Berryfizz",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5174,
-      "name": "Springspindle Fizzlegear",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
