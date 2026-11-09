@@ -441,5 +441,19 @@
     "zone": "Dun Morogh",
     "source": "Reviewed current identity/model and Durnan services, complete primary delivery chain, Atlas and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/coldridge-mornbrew-and-cloth.md"
+  },
+  {
+    "npc_id": 460,
+    "name": "Alamar Grimm",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current identity/model/title, full primary warlock quests and memorandum, Classic stock, Atlas and installed training dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/anvilmar-gnome-trainers.md"
+  },
+  {
+    "npc_id": 6376,
+    "name": "Wren Darkspring",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current identity/model/title, full primary warlock quests and memorandum, Classic stock, Atlas and installed training dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/anvilmar-gnome-trainers.md"
   }
 ]

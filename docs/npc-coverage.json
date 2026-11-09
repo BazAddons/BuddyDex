@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 268,
+  "completed_profiles": 270,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
     "alliance": 185,
-    "unverified": 57,
+    "unverified": 59,
     "horde": 26
   },
   "npc_race_counts": {
@@ -12,7 +12,7 @@
     "3": 32,
     "5": 25,
     "2": 4,
-    "7": 23,
+    "7": 25,
     "4": 11,
     "8": 3,
     "6": 5
@@ -30,7 +30,7 @@
     "Durotar": 5,
     "Mulgore": 5,
     "Teldrassil": 5,
-    "Dun Morogh": 2
+    "Dun Morogh": 4
   },
   "entries": [
     {
@@ -3402,6 +3402,28 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/836"
+    },
+    {
+      "npc_id": 460,
+      "name": "Alamar Grimm",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/460"
+    },
+    {
+      "npc_id": 6376,
+      "name": "Wren Darkspring",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6376"
     }
   ]
 }

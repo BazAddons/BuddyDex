@@ -2269,6 +2269,46 @@
     "text": "A new skill! Good. There may be more to you than swinging something sharp.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore460_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:460",
+    "spoken": "[guarded sincere affection, dry dignity, restrained warmth] I will accompany you. You have proved capable of listening without turning every observation into a foolish argument, and I have come to value the conversation. Do try not to look astonished. I am permitted to choose my own company, and I have chosen yours.",
+    "text": "I will accompany you. You have proved capable of listening without turning every observation into a foolish argument, and I have come to value the conversation. Do try not to look astonished. I am permitted to choose my own company, and I have chosen yours.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore460_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:460",
+    "spoken": "[dry snarky reserve, precise, a trace of amused welcome] You have come back. Good. Have something worth asking, and we may make useful progress. The yellow ribbon is not the subject of today's inquiry. It marks my place. I recommend the practice to anyone who wishes to survive being interrupted quite so frequently.",
+    "text": "You have come back. Good. Have something worth asking, and we may make useful progress. The yellow ribbon is not the subject of today's inquiry. It marks my place. I recommend the practice to anyone who wishes to survive being interrupted quite so frequently.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore460_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:460",
+    "spoken": "[deadpan sarcasm, measured, privately pleased] It is a ribbon. An ordinary, bright yellow ribbon. I can find the page at once when I return to my reading. If that disappoints your expectations of forbidden mysteries, you are welcome to consider the terrible secrets of not wasting my time.",
+    "text": "It is a ribbon. An ordinary, bright yellow ribbon. I can find the page at once when I return to my reading. If that disappoints your expectations of forbidden mysteries, you are welcome to consider the terrible secrets of not wasting my time.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore460_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:460",
+    "spoken": "[stern thoughtful instruction, precise, cautiously approving] A beginning, then. Be pleased if you like, but understand what you have learned before reaching farther. Knowledge that you cannot use carefully is another way to invite trouble. I would rather spend our time answering a sound question than explaining why confidence failed you.",
+    "text": "A beginning, then. Be pleased if you like, but understand what you have learned before reaching farther. Knowledge that you cannot use carefully is another way to invite trouble. I would rather spend our time answering a sound question than explaining why confidence failed you.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore5174_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

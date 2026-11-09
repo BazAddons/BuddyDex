@@ -645,7 +645,7 @@
           "name": "Alamar Grimm",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -35650,7 +35650,7 @@
           "name": "Wren Darkspring",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38747,6 +38747,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 460,
+      "name": "Alamar Grimm",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 1212,
       "name": "Bishop Farthing",
       "source": "Existing local backlog; absent from source filter",
@@ -39111,6 +39118,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 6376,
+      "name": "Wren Darkspring",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 7292,
       "name": "Dinita Stonemantle",
       "source": "Existing local backlog; absent from source filter",
@@ -39336,20 +39350,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 460,
-      "name": "Alamar Grimm",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6376,
-      "name": "Wren Darkspring",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

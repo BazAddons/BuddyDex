@@ -2229,6 +2229,46 @@
     "text": "An intact container is worth keeping. Just find out what was in it first.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore6376_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6376",
+    "spoken": "[guarded genuine affection, confident, wryly pleased] I will come along. You have become rather better company than I expected, and I see no reason to pretend otherwise. Tell me where we are going. I may offer an opinion or two, but you have had sufficient practice surviving those already.",
+    "text": "I will come along. You have become rather better company than I expected, and I see no reason to pretend otherwise. Tell me where we are going. I may offer an opinion or two, but you have had sufficient practice surviving those already.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6376_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6376",
+    "spoken": "[brisk dry welcome, practical confidence, sly amusement] There you are. I trust you have given some thought to what you want before coming to ask about it. Sit a moment if you like. I am examining a promising corner of toast. You will be pleased to know that this particular examination requires no demon at all.",
+    "text": "There you are. I trust you have given some thought to what you want before coming to ask about it. Sit a moment if you like. I am examining a promising corner of toast. You will be pleased to know that this particular examination requires no demon at all.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6376_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6376",
+    "spoken": "[dry matter-of-fact pleasure, impatient humor, faint warmth] A good crisp corner. That is what I am looking for. No incantation, no hidden ingredient, no extraordinary consequence. I like the crunch. You would be surprised how often a perfectly ordinary pleasure has to defend itself against someone else's imagination.",
+    "text": "A good crisp corner. That is what I am looking for. No incantation, no hidden ingredient, no extraordinary consequence. I like the crunch. You would be surprised how often a perfectly ordinary pleasure has to defend itself against someone else's imagination.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6376_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:6376",
+    "spoken": "[firm practical teacher, brisk approval, restrained warmth] Good. Now understand what you have gained and what it asks of you. A new ability does not excuse an old bad habit. Pay attention, ask before guessing, and give yourself a chance to use the knowledge properly. That is advice worth remembering even when no coin changes hands.",
+    "text": "Good. Now understand what you have gained and what it asks of you. A new ability does not excuse an old bad habit. Pay attention, ask before guessing, and give yourself a chance to use the knowledge properly. That is advice worth remembering even when no coin changes hands.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore6579_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

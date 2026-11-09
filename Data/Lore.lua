@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Alamar Grimm (460), adult male gnome warlock trainer, Anvilmar, display 1930 (7 / 0).
+    -- Tainted Memorandum 3115/item 9577; Beginnings 1599 charms and imp lessons; bitter over Gnomeregan.
+    -- Bright yellow reading ribbon is original, ordinary and unenchanted.
+    -- docs/research/anvilmar-gnome-trainers.md.
+    [460] = {
+        quote = "Do not mistake a small beginning for a harmless one. Understand what you are asking to command before congratulating yourself on the power to call it.",
+        likes = { "A pupil who respects dangerous knowledge", "Research worth an interruption", "A bright ribbon that marks the right page" },
+        dislikes = { "Gnomes dismissed as second-class guests", "Careless confidence around an imp", "Losing his place to another interruption" },
+        gossip = "A bright yellow ribbon peeks from Alamar's reading. A few observers suspect an unusually subtle enchantment. He looks unimpressed.",
+        bio = "Alamar Grimm trains warlocks in Anvilmar. Bitter over Gnomeregan's loss, he favors a different path to power. He seeks Frostmane feather charms before teaching imp summoning, warning that a small demon remains dangerous.",
+        backstory = "After losing his place during one interruption too many, he put a bright ribbon between the pages. It was easy to spot when he returned. The practical improvement pleased him more than he cared to announce.",
+        secret = "The ribbon is yellow because he can find it quickly. It is not cursed, enchanted, or especially mysterious. He considers the saved time a sufficient explanation.",
+        bestFriend = "You may stay. I have marked my place, so your company need not cost me a quarter hour of searching when we finish talking.",
+        favorite = { emote = "BOW", hint = "Approach his knowledge with respect rather than a careless show of confidence." },
+        lines = {
+            greet = { { "You have come back. Good. Have something worth asking, and we may make useful progress. The yellow ribbon is not the subject of today's inquiry. It marks my place. I recommend the practice to anyone who wishes to survive being interrupted quite so frequently.", tone = "[dry snarky reserve, precise, a trace of amused welcome]" }, "Yes? Let us hear whether this merits setting my work aside." },
+            idle = { { "It is a ribbon. An ordinary, bright yellow ribbon. I can find the page at once when I return to my reading. If that disappoints your expectations of forbidden mysteries, you are welcome to consider the terrible secrets of not wasting my time.", tone = "[deadpan sarcasm, measured, privately pleased]" }, "An imp's size is a poor measure of the trouble it can cause.", "I have no wish to be patronized merely because I must accept shelter." },
+            befriended = { { "I will accompany you. You have proved capable of listening without turning every observation into a foolish argument, and I have come to value the conversation. Do try not to look astonished. I am permitted to choose my own company, and I have chosen yours.", tone = "[guarded sincere affection, dry dignity, restrained warmth]" } },
+            poke = { "Yes? My attention is not an inexhaustible resource.", "I marked the page. You may proceed." },
+            learned = { { "A beginning, then. Be pleased if you like, but understand what you have learned before reaching farther. Knowledge that you cannot use carefully is another way to invite trouble. I would rather spend our time answering a sound question than explaining why confidence failed you.", tone = "[stern thoughtful instruction, precise, cautiously approving]" } },
+            quest = { "Completed? Tell me what you actually learned from the effort." },
+            loot = { "Interesting. Let us understand it before declaring it useful." },
+            lowHealth = { "Take care. An avoidable failure would be an irritating conclusion." },
+            rest = { "A pause. Perhaps we can manage a conversation without another interruption." },
+            levelUp = { "You are making progress. Have the sense to remain careful." },
+            hearth = { "Familiar surroundings. Good. I may be able to finish a thought here." },
+        },
+    },
+    -- Wren Darkspring (6376), adult female gnome demon trainer, Anvilmar, display 5093 (7 / 1).
+    -- Current title; Classic grimoire stock; installed dialogue prices demon training and rejects other classes.
+    -- Preference for crisp toast corners is original, not a reagent, ritual or vendor reward.
+    -- docs/research/anvilmar-gnome-trainers.md.
+    [6376] = {
+        quote = "Know what you want before you ask the price. Power is easier to purchase than good judgment, and I have little patience for anyone who confuses the two.",
+        likes = { "Warlocks who know what their demons need", "A question asked before a costly mistake", "The crisp corner of a piece of toast" },
+        dislikes = { "Expecting power to come cheaply", "Being asked the same careless question", "Toast with no satisfying crunch" },
+        gossip = "Wren inspects a dark corner of toast before eating it. Someone is bound to ask whether it belongs in a summoning. She hopes not.",
+        bio = "Wren Darkspring attends to demon training in Anvilmar. She is brisk about the cost of making a warlock's demons more powerful and has little patience for those outside the trade. Knowing what to ask earns more of her attention.",
+        backstory = "A piece of toast came out darker at one corner. She tried that edge first and found she liked the crisp bite. Since then, she has taken a small interest in which piece might have the best corner.",
+        secret = "It is simply toast. She likes the crunch, and would prefer to enjoy it without explaining whether it conceals some sinister purpose. It does not.",
+        bestFriend = "Sit down. You can keep me company while I enjoy this. You may even comment on the toast, provided you have something sensible to say.",
+        favorite = { emote = "NOD", hint = "Show her you understand the practical business behind the promise of greater power." },
+        lines = {
+            greet = { { "There you are. I trust you have given some thought to what you want before coming to ask about it. Sit a moment if you like. I am examining a promising corner of toast. You will be pleased to know that this particular examination requires no demon at all.", tone = "[brisk dry welcome, practical confidence, sly amusement]" }, "Back again? Good. Ask something worth answering." },
+            idle = { { "A good crisp corner. That is what I am looking for. No incantation, no hidden ingredient, no extraordinary consequence. I like the crunch. You would be surprised how often a perfectly ordinary pleasure has to defend itself against someone else's imagination.", tone = "[dry matter-of-fact pleasure, impatient humor, faint warmth]" }, "Understand what your demon needs before buying the first impressive promise you hear.", "A sensible question is less expensive than certain kinds of mistake." },
+            befriended = { { "I will come along. You have become rather better company than I expected, and I see no reason to pretend otherwise. Tell me where we are going. I may offer an opinion or two, but you have had sufficient practice surviving those already.", tone = "[guarded genuine affection, confident, wryly pleased]" } },
+            poke = { "Yes? Make it a useful question.", "I heard you. The toast was not answering, if that is what concerns you." },
+            learned = { { "Good. Now understand what you have gained and what it asks of you. A new ability does not excuse an old bad habit. Pay attention, ask before guessing, and give yourself a chance to use the knowledge properly. That is advice worth remembering even when no coin changes hands.", tone = "[firm practical teacher, brisk approval, restrained warmth]" } },
+            quest = { "A task completed. I hope the experience was worth more than the noise around it." },
+            gear = { "Useful, is it? Then learn enough about it to make the expense worthwhile." },
+            bagsFull = { "A full pack is not proof of good judgment. Time to make some choices." },
+            rest = { "A pause sounds sensible. I can appreciate sensible." },
+            levelUp = { "More power. Let us hope your judgment has been keeping up." },
+            hearth = { "Back again. Familiar ground has its conveniences." },
+        },
+    },
+
     -- Nori Pridedrift (12738), adult male dwarf, Coldridge Valley, display 12967 (3 / 0).
     -- 3364 scalding mornbrew for Durnan after Grelin's delivery; 3365 asks for his mug back.
     -- Enjoying fresh bootprints is original. No Adlin kinship inferred from the surname.
