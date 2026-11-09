@@ -39,6 +39,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore244_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:244",
+    "spoken": "[warm, forthright voice, sincere appreciation] You take the trouble seriously. That's a kindness, and I haven't missed it.",
+    "text": "You take the trouble seriously. That's a kindness, and I haven't missed it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore244_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:244",
+    "spoken": "[brisk, sturdy voice, practical good humor] There you are. Gate's shut, patch is checked. Right, let's get going.",
+    "text": "There you are. Gate's shut, patch is checked. Right, let's get going.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore244_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:244",
+    "spoken": "[dry, indignant voice, pointed humor] They call it a prize pig. I can tell you whose vegetables helped it win.",
+    "text": "They call it a prize pig. I can tell you whose vegetables helped it win.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore244_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:244",
+    "spoken": "[brisk, relieved voice, hearty approval] Good! A problem settled before it grows into another one.",
+    "text": "Good! A problem settled before it grows into another one.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore246_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

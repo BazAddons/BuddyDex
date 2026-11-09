@@ -7,7 +7,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - A gnome Mini Me wearing your character's armor, updated when you change gear.
 - Animated reactions and speech bubbles for quests, combat, level-ups, travel, and more.
 - Hundreds of dialogue lines, with shuffled selections to reduce repetition.
-- Built-in recorded voices and an adjustable chattiness setting. New signature lines for Gryshka, Doras, Jenn Langston, Morgan Pestle, the Bouchers, Remy, Allison, Brother Wilhelm, Tharynn Bouden, the Goldshire smithy group, Maybell, the Stonefields, and the Ironforge Stonemantles, and the Deeprun Tram trio use Eleven v4 with individual emotional direction and the selected racial voices.
+- Built-in recorded voices and an adjustable chattiness setting. Includes Eleven v4 NPC signature recordings with individual emotional direction and the selected racial voices alongside the established voice library.
 
 ### NPC Friendships and Collection
 
@@ -24,7 +24,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 - Choose an NPC at Buddy tier or higher to take your Mini Me's place on screen.
 - Enjoy companion dialogue, animations, and recorded voices for supported NPC races.
-- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, William Pestle, Gryan Stoutmantle, Innkeeper Gryshka, Doras, Jenn Langston, Morgan Pestle, Keldric Boucher, Kyra Boucher, Remy "Two Times", Innkeeper Allison, Brother Wilhelm, Tharynn Bouden, Smith Argus, Andrew Krighton, Corina Steele, Kurran Steele, Maybell Maclure, Tommy Joe Stonefield, Gramma Stonefield, "Auntie" Bernice Stonefield, Bailey Stonemantle, Barnum Stonemantle, Dinita Stonemantle, Monty, Nipsy, and Haggle, with personal companion recordings.
+- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, William Pestle, Gryan Stoutmantle, Innkeeper Gryshka, Doras, Jenn Langston, Morgan Pestle, Keldric Boucher, Kyra Boucher, Remy "Two Times", Innkeeper Allison, Brother Wilhelm, Tharynn Bouden, Smith Argus, Andrew Krighton, Corina Steele, Kurran Steele, Maybell Maclure, Tommy Joe Stonefield, Gramma Stonefield, "Auntie" Bernice Stonefield, Bailey Stonemantle, Barnum Stonemantle, Dinita Stonemantle, Monty, Nipsy, Haggle, Pa Maclure, Ma Stonefield, Gerard Tiller, and Homer Stonefield, with personal companion recordings.
 
 ### Make It Your Own
 

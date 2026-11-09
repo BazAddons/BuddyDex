@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 32,
-  "remaining_count": 159,
+  "completed_count": 36,
+  "remaining_count": 156,
   "completed": [
     {
       "npc_id": 54,
@@ -58,6 +58,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 244,
+      "name": "Ma Stonefield",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 246,
       "name": "\"Auntie\" Bernice Stonefield",
       "zone": "Elwynn Forest",
@@ -69,6 +78,15 @@
     {
       "npc_id": 248,
       "name": "Gramma Stonefield",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 250,
+      "name": "Pa Maclure",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -97,6 +115,15 @@
       "npc_id": 253,
       "name": "William Pestle",
       "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 255,
+      "name": "Gerard Tiller",
+      "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -143,6 +170,15 @@
       "name": "Thor",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 894,
+      "name": "Homer Stonefield",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -292,6 +328,13 @@
   ],
   "remaining": [
     {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 247,
       "name": "Billy Maclure",
       "zone": "Elwynn Forest",
@@ -315,20 +358,6 @@
     {
       "npc_id": 6749,
       "name": "Erma",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 255,
-      "name": "Gerard Tiller",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 894,
-      "name": "Homer Stonefield",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -369,13 +398,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 244,
-      "name": "Ma Stonefield",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 795,
       "name": "Mark",
       "zone": "Elwynn Forest",
@@ -392,13 +414,6 @@
     {
       "npc_id": 268238,
       "name": "Nordun Steadysight",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 250,
-      "name": "Pa Maclure",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

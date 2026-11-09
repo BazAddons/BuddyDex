@@ -7,9 +7,9 @@
     "excluded_generic_rows": 132,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1449,
-    "local_backlog_entries_missing_from_source": 52,
-    "combined_retained_entries": 1501,
-    "candidate_name_groups": 1488,
+    "local_backlog_entries_missing_from_source": 53,
+    "combined_retained_entries": 1502,
+    "candidate_name_groups": 1489,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -2335,6 +2335,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Ashley Bridenbecker",
+      "npc_ids": [
+        11996
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        11996
+      ],
+      "entries": [
+        {
+          "npc_id": 11996,
+          "name": "Ashley Bridenbecker",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Ashley Bridenbecker",
+          "zone": "Elwynn Forest",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -12483,7 +12506,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -15479,7 +15502,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -21640,7 +21663,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -26374,7 +26397,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38712,6 +38735,17 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Ashley Bridenbecker",
+      "zone": "Elwynn Forest",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 5917,

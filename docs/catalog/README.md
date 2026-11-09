@@ -10,9 +10,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded generic rows | 132 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,449 |
-| Local backlog entries missing from source | 52 |
-| Combined retained entries | 1,501 |
-| Candidate name groups | 1,488 |
+| Local backlog entries missing from source | 53 |
+| Combined retained entries | 1,502 |
+| Candidate name groups | 1,489 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -116,6 +116,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Arnorea Shadowfoot**: [258295](https://forever.warcraftdb.com/data/npc/258295)
 - **Arthur the Faithful** — Scout: [5491](https://forever.warcraftdb.com/data/npc/5491)
 - **Artilleryman Sheldonore**: [14183](https://forever.warcraftdb.com/data/npc/14183)
+- **Ashley Bridenbecker** — Scout: [11996](https://forever.warcraftdb.com/data/npc/11996)
 - **Aska Mistrunner**: [3026](https://forever.warcraftdb.com/data/npc/3026)
 - **Astarii Starseeker**: [4090](https://forever.warcraftdb.com/data/npc/4090)
 - **Asterion**: [3650](https://forever.warcraftdb.com/data/npc/3650)
