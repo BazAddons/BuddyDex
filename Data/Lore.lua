@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Trade District: Ben Trias 4981, human male Apprentice of Cheese at
+    -- Trias' Cheese; current cheese/drink stock and ordinary merchant
+    -- greetings. Thomas Miller 3518, human male wandering Baker, bread
+    -- calls and current bread/pie stock. No verified personal Classic
+    -- quests. Original ambitions and route-map hook, with later retail
+    -- exclusions: docs/research/trade-district-cheese-and-bread.md.
+    [4981] = {
+        quote = "Tell me what you enjoy. A recommendation ought to leave you pleased with your lunch, rather than impressed with my vocabulary.",
+        likes = { "Learning why someone likes a cheese", "A simple lunch with good company", "An idea worth trying, name undecided" },
+        dislikes = { "Making a customer feel foolish", "A recommendation nobody asked for", "A grand name with nothing behind it" },
+        gossip = "Ben is learning the cheese trade. He has also begun naming a cheese of his own, which may be getting ahead of the actual cheese.",
+        bio = "Ben Trias is the Apprentice of Cheese at Trias' Cheese in Stormwind's Trade District. His counter offers cheeses and drinks. He welcomes browsers as well as buyers, asking whether there is something particular he can help them find.",
+        backstory = "An apprentice can have ambitions. Ben would like to make a cheese worth remembering one day. For now, he is learning the trade and occasionally trying out names. The names have become rather more elaborate than the plan.",
+        secret = "One scrap begins with Ben's Magnificent and stops there. He cannot decide whether it needs a better ending or a much smaller beginning. He would trust a friend to tell him.",
+        bestFriend = "You can laugh at the name. I have. Sit down and tell me what you think would make a good cheese. I like hearing your ideas before mine get grand.",
+        favorite = { emote = "GRIN", hint = "A little shared amusement can bring a grand ambition comfortably back to earth." },
+        lines = {
+            greet = { { "There you are, my friend. Shall we take a walk? I have another possible name for my cheese. No cheese yet, I admit. You may have to keep me sensible.", tone = "[friendly enthusiasm, sheepish amusement, welcoming]" }, "Good to see you. Have you had lunch, or are we still making plans?" },
+            idle = { { "Ben's Magnificent. That is as far as the name goes. Possibly I should learn to make the cheese before adding another word. Magnificent is already asking quite a lot.", tone = "[self-mocking amusement, hopeful, confiding]" }, "Tell me what you like. A grand description is no use if you don't enjoy the cheese.", "There is a great deal to learn from listening to what people actually want." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day without deciding what to call it.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you thought of a better name?", "I am listening. What do you think?" },
+            learned = { { "There, another thing you can do. Be pleased with it. I like seeing an ambition turn into something real, one lesson at a time.", tone = "[warm encouragement, interested, sincerely pleased]" } },
+            loot = { "An interesting find. Something you wanted, I hope?" },
+            quest = { "Well done. You have something more than a grand plan to show for the day." },
+            bagsFull = { "Have you left room for lunch? I should have asked sooner." },
+            zone = { "Somewhere new to look around. I wonder what people enjoy eating here." },
+            rest = { "A seat and a little conversation. That sounds good to me." },
+            hearth = { "Back to the counter. There is still plenty for an apprentice to learn." },
+        },
+    },
+    [3518] = {
+        quote = "A familiar greeting improves a day's work. Bread may bring us together, but I like knowing who I am saying good morning to.",
+        likes = { "A familiar face along the route", "Bread enjoyed while it is fresh", "A greeting remembered the next day" },
+        dislikes = { "A customer hurried past a question", "Treating a familiar face as a purse", "Forgetting someone meant to say hello" },
+        gossip = "Thomas knows his bread route well. His private map is less useful for finding streets than for remembering who makes each stop pleasant.",
+        bio = "Thomas Miller is a baker who walks Stormwind's Trade District selling bread and calling attention to his wares. His stock includes several kinds of bread and cherry pie. A friendly sales pitch goes with the food he carries through the busy streets.",
+        backstory = "Thomas once tried sketching his route from memory. He found himself marking the people he looked forward to greeting before he had finished the streets. The drawing is a poor guide to Stormwind, but a good reminder of why he enjoys the walk.",
+        secret = "He has marked a place for a friend who might join him without buying anything. He likes the thought of being part of someone's day for a reason beyond the bread.",
+        bestFriend = "Come a little way with me. You needn't buy anything, and we needn't hurry the conversation. I am glad this is a part of the day we can share.",
+        favorite = { emote = "WAVE", hint = "A familiar greeting is easy to notice when you spend the day walking among busy people." },
+        lines = {
+            greet = { { "Ah, my friend. Good to see you. Come a little way with me. There is always bread to sell, but I should like to hear how your day has been going.", tone = "[open warmth, cheerful familiarity, welcoming]" }, "There you are. Have you time to share a little of the walk?" },
+            idle = { { "I tried drawing my route from memory. Put in all the people I look forward to greeting, and forgot half the streets. Not much use as a map. Quite a pleasant thing to look at.", tone = "[fond amusement, reflective warmth, conversational]" }, "A familiar face can make a busy street feel a little more like home.", "I like a greeting that has time for an answer." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. It will be good to share a walk with no sale needed at the end of it.", tone = "[sincere affection, quietly delighted, inviting]" } },
+            poke = { "Yes? Have you something to tell me?", "I am listening. No need to call louder than the baker." },
+            zone = { { "A new route today. Let us take time to notice who is here. A friendly greeting may be the part we remember best.", tone = "[friendly curiosity, warm anticipation, unhurried]" } },
+            quest = { "Well done. Have you time to catch your breath before the next errand?" },
+            loot = { "A good find? Something to be pleased about on the way back." },
+            bagsFull = { "That pack looks ready for a rest before you are." },
+            mail = { "News from someone you know? I hope it brings a smile." },
+            rest = { "A seat would be welcome. Tell me how you have been." },
+            hearth = { "Back to familiar streets. There will be someone to say hello to." },
+        },
+    },
+
     -- Mage Quarter: Allan Hafgan 1315, human male Staves Merchant; Ardwyn
     -- Cailen 1312, human female Wand Merchant, both Stormwind Staves; Owen
     -- Vaughn 1308, human male Reagent Vendor, Essential Components. Shared

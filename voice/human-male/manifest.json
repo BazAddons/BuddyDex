@@ -1381,6 +1381,46 @@
     "text": "Well done. Tell me what you observed, not only what you expected to find.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore3518_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3518",
+    "spoken": "[sincere affection, quietly delighted, inviting] You came to bring me along. I am pleased, my friend. Come on. It will be good to share a walk with no sale needed at the end of it.",
+    "text": "You came to bring me along. I am pleased, my friend. Come on. It will be good to share a walk with no sale needed at the end of it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3518_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3518",
+    "spoken": "[open warmth, cheerful familiarity, welcoming] Ah, my friend. Good to see you. Come a little way with me. There is always bread to sell, but I should like to hear how your day has been going.",
+    "text": "Ah, my friend. Good to see you. Come a little way with me. There is always bread to sell, but I should like to hear how your day has been going.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3518_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3518",
+    "spoken": "[fond amusement, reflective warmth, conversational] I tried drawing my route from memory. Put in all the people I look forward to greeting, and forgot half the streets. Not much use as a map. Quite a pleasant thing to look at.",
+    "text": "I tried drawing my route from memory. Put in all the people I look forward to greeting, and forgot half the streets. Not much use as a map. Quite a pleasant thing to look at.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3518_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:3518",
+    "spoken": "[friendly curiosity, warm anticipation, unhurried] A new route today. Let us take time to notice who is here. A friendly greeting may be the part we remember best.",
+    "text": "A new route today. Let us take time to notice who is here. A friendly greeting may be the part we remember best.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore352_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
@@ -1714,6 +1754,46 @@
     "source": "lore:4974",
     "spoken": "[confiding, restrained amusement, relaxed] A teacup and crossed biscuits. An entirely imaginary guild crest. Its meetings would have no agenda. I find the idea quite restful.",
     "text": "A teacup and crossed biscuits. An entirely imaginary guild crest. Its meetings would have no agenda. I find the idea quite restful.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4981_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4981",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day without deciding what to call it.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day without deciding what to call it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4981_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4981",
+    "spoken": "[friendly enthusiasm, sheepish amusement, welcoming] There you are, my friend. Shall we take a walk? I have another possible name for my cheese. No cheese yet, I admit. You may have to keep me sensible.",
+    "text": "There you are, my friend. Shall we take a walk? I have another possible name for my cheese. No cheese yet, I admit. You may have to keep me sensible.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4981_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4981",
+    "spoken": "[self-mocking amusement, hopeful, confiding] Ben's Magnificent. That is as far as the name goes. Possibly I should learn to make the cheese before adding another word. Magnificent is already asking quite a lot.",
+    "text": "Ben's Magnificent. That is as far as the name goes. Possibly I should learn to make the cheese before adding another word. Magnificent is already asking quite a lot.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4981_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4981",
+    "spoken": "[warm encouragement, interested, sincerely pleased] There, another thing you can do. Be pleased with it. I like seeing an ambition turn into something real, one lesson at a time.",
+    "text": "There, another thing you can do. Be pleased with it. I like seeing an ambition turn into something real, one lesson at a time.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore514_befriended_1.ogg": {
