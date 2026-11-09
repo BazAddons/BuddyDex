@@ -17,7 +17,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - Befriend named NPCs who have no dialogue by targeting them and using a friendly emote. Ordinary and favorite emote gains each have their own daily limit; generic NPCs such as Stormwind City Guards remain excluded.
 - Choose friendly emotes from the **BuddyDex Emotes** submenu on eligible NPC unit frames. Menu actions use the selected NPC directly and verify its identity before sending. Chat emotes such as `/hi`, `/kiss`, `/bow` and `/hug` are recognized through Forever's current emote API.
 - Browse your friends in a searchable journal with 3D models, animation previews, and friendship progress.
-- Friendship toasts show the NPC's headshot from the current interaction or cached portrait data, including on a first meeting when the NPC is available.
+- Friendship toasts show the NPC's headshot from the current interaction or cached portrait data, including on a first meeting when the NPC is available. The refreshed layout has a larger portrait, a wider progress bar, a clearer dark background, and separate rank and points-gained labels so rank-up toasts show both.
 - Set waypoints to friends' last recorded meeting locations, with TomTom support when available.
 
 ### Bring a Buddy Along

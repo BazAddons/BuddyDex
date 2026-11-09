@@ -12,6 +12,10 @@ ns.Toast = Toast
 
 local HOLD = 3            -- seconds a toast stays fully visible
 local FADE_IN, FADE_OUT = 0.25, 0.6
+local WIDTH, HEIGHT = 320, 78
+local INSET, PORTRAIT, GAP = 12, 52, 12
+local CONTENT_LEFT = INSET + PORTRAIT + GAP
+local CONTENT_WIDTH = WIDTH - CONTENT_LEFT - INSET
 local CHAT_COLOR = "|cff8080ff"   -- the default chat color of reputation gains
 
 local SOUND_BUDDY = "UI_GARRISON_TOAST_FOLLOWER_GAINED"
@@ -82,32 +86,45 @@ local function Build()
     if toast then return toast end
     local art = ns.Art or {}
     local f = art.CreateCard and art.CreateCard(UIParent) or CreateFrame("Frame", nil, UIParent)
-    f:SetSize(320, 70)
+    f:SetSize(WIDTH, HEIGHT)
+    if f.SetBackdropColor then f:SetBackdropColor(0.025, 0.02, 0.015, 0.92) end
     f:SetPoint("TOP", UIParent, "TOP", 0, -150)
     f:SetFrameStrata("HIGH")
     f:Hide()
 
     f.Icon = f:CreateTexture(nil, "ARTWORK")
-    f.Icon:SetSize(46, 46)
-    f.Icon:SetPoint("LEFT", 12, 0)
+    f.Icon:SetSize(PORTRAIT, PORTRAIT)
+    f.Icon:SetPoint("LEFT", INSET, 0)
     f.IconBorder = f:CreateTexture(nil, "OVERLAY")
     f.IconBorder:SetAllPoints(f.Icon)
     if art.ICON_BORDER then f.IconBorder:SetTexture(art.ICON_BORDER) end
 
     f.Name = f:CreateFontString(nil, "ARTWORK", "GameFontNormalMed2")
-    f.Name:SetPoint("TOPLEFT", f.Icon, "TOPRIGHT", 12, -1)
-    f.Name:SetPoint("RIGHT", -12, 0)
+    f.Name:SetPoint("TOPLEFT", f, "TOPLEFT", CONTENT_LEFT, -11)
+    f.Name:SetPoint("TOPRIGHT", f, "TOPRIGHT", -INSET, -11)
+    f.Name:SetHeight(18)
     f.Name:SetJustifyH("LEFT")
     f.Name:SetWordWrap(false)
 
+    -- Reserve a stable right-hand column for the actual gain, including on
+    -- rank-ups. Keep the rank outside the bar so it isn't printed twice.
+    f.Delta = f:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    f.Delta:SetPoint("TOPRIGHT", f.Name, "BOTTOMRIGHT", 0, -2)
+    f.Delta:SetSize(106, 14)
+    f.Delta:SetJustifyH("RIGHT")
+    f.Delta:SetWordWrap(false)
+
     f.Gain = f:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-    f.Gain:SetPoint("TOPLEFT", f.Name, "BOTTOMLEFT", 0, -3)
-    f.Gain:SetPoint("RIGHT", -12, 0)
+    f.Gain:SetPoint("TOPLEFT", f.Name, "BOTTOMLEFT", 0, -2)
+    f.Gain:SetPoint("TOPRIGHT", f.Delta, "TOPLEFT", -8, 0)
+    f.Gain:SetHeight(14)
     f.Gain:SetJustifyH("LEFT")
+    f.Gain:SetWordWrap(false)
+    f.Gain:SetTextColor(0.84, 0.82, 0.76)
 
     if art.CreateFriendshipBar then
-        f.Bar = art.CreateFriendshipBar(f, 160, 22, "GameFontHighlightSmall")
-        f.Bar:SetPoint("BOTTOMLEFT", f.Icon, "BOTTOMRIGHT", 10, -4)
+        f.Bar = art.CreateFriendshipBar(f, CONTENT_WIDTH, 18, "GameFontHighlightSmall")
+        f.Bar:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", CONTENT_LEFT, 11)
     end
 
     -- Fade in, hold, fade out, hide.
@@ -145,16 +162,21 @@ local function ShowToast(npcID, entry, amount, oldTier, newTier)
 
     local tier = ns.Friendship.TIERS[newTier]
     if newTier > oldTier then
-        f.Gain:SetText(("|cffffd100Now %s!|r"):format(WithArticle(tier.label)))
-    elseif amount >= 0 then
-        f.Gain:SetText(("|cff40ff40+%d Friendship|r"):format(amount))
+        f.Gain:SetText(("|cffffd100New %s!|r"):format(tier.label))
+    elseif newTier < oldTier then
+        f.Gain:SetText(("|cffff6060%s|r"):format(tier.label))
     else
-        f.Gain:SetText(("|cffff6060%d Friendship|r"):format(amount))
+        f.Gain:SetText(tier.label)
+    end
+    if amount >= 0 then
+        f.Delta:SetText(("|cff40ff40+%d Friendship|r"):format(amount))
+    else
+        f.Delta:SetText(("|cffff6060%d Friendship|r"):format(amount))
     end
     if f.Bar then
         local info = ns.Friendship.TierInfo(entry)
-        f.Bar:SetFriendship(info, info.isMax and info.label
-            or ("%s  %d / %d"):format(info.label, info.current, info.needed))
+        f.Bar:SetFriendship(info, info.isMax and "Max friendship"
+            or ("%d / %d"):format(info.current, info.needed))
     end
 
     f.Anim:Stop()
