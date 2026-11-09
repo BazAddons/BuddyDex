@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ventaari Brightwish <Windshapers>, Thendal Village, Zephras, 251487/139694.
+    -- Adult female Windshaper Skyborne, Horde-friendly/Alliance-hostile.
+    -- 92598 teaches Skysight practice; installed gossip: departed spirits,
+    -- unstable island, unanswered contact. Bird sketches are original.
+    -- Research: docs/research/thendal-sketches-and-calmbreeze-story-endings.md.
+    [251487] = {
+        quote = "Look carefully before deciding what you have seen. Especially if you are looking at one of my drawings. That is meant to be a bird.",
+        likes = { "Attention given before an explanation", "A learner putting a gift into practice", "A sketch finally resembling its subject" },
+        dislikes = { "Power mistaken for ownership", "Fear presented as certain knowledge", "Birds refusing to hold still" },
+        gossip = "Ventaari asks learners to notice small details. Her own bird sketches contain many details, though wings are sometimes difficult to identify.",
+        bio = "Ventaari guides Windshapers in Thendal Village. She sends learners to practice Skysight at the Elemental Convergence. With the wind spirits gone and distant islands silent, she values careful attention over confident answers.",
+        backstory = "Trying to notice more of the world around her, Ventaari began sketching birds. She could describe every feather she had studied, yet put them together rather strangely. She kept drawing. Being willing to practice should apply to her, too.",
+        secret = "Her favorite sketch barely resembles a bird. Someone recognized it anyway, then noticed the small improvement on the next page. She keeps both drawings together.",
+        bestFriend = "Tell me what you see, even when it is not what I hoped to draw. I trust your honesty, and I enjoy having you beside me while I try again.",
+        favorite = { emote = "NOD", hint = "Values a quiet sign that you have paid attention before rushing to offer an answer." },
+        lines = {
+            greet = { { "Welcome back. What have you noticed on your travels? Take a moment before answering. I would rather hear one thing you truly observed than a grand explanation assembled in haste. And if you have come to inspect my latest drawing, I should first mention that it has wings.", tone = "[warm] [measured] [gently amused]" },
+                "There you are. We may both notice something we overlooked yesterday." },
+            idle = { { "I began drawing birds to practice looking carefully. Every feather seems quite clear until I put them together on the page. Then something rather unexpected appears. Still, I ask others to exercise their gifts. It would be a poor example if I abandoned mine at the first awkward attempt.", tone = "[thoughtful] [wry]" },
+                "No answer from the other islands is frightening. It is not the same as knowing what has happened there.",
+                "I had the shape almost right. Then the bird turned around and complicated matters." },
+            befriended = { { "You have listened without pretending every question has an easy answer. I value that. Come with me, friend. There is much worth noticing, and I would like your company while we look. If I bring my drawings, you may tell me honestly whether the bird has become any more convincing.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was deciding which of those marks ought to be a wing.", "You have my attention. What have you noticed?" },
+            learned = { { "A gift needs practice, and practice needs attention. For Windshapers, Skysight can bring the mortal and spiritual closer together. The convergence strengthens its boon. Remember what you learn there when you travel onward. Understanding matters more than returning with a confident claim that you have mastered it all.", tone = "[steady] [earnest]" } },
+            quest = { "Take time at the standing stones. The task is more than reaching the place and turning back." },
+            zone = { "Look closely before deciding this place is much like the last." },
+            rest = { "A little time to observe, without asking anything of what we see." },
+            loot = { "What caught your eye first: what it is, or what it might be worth?" },
+            laughAlong = { "You may laugh. I admit the drawing has given that bird an unusually ambitious beak." },
+            hearth = { "Back to Thendal Village. I wonder whether my subject will allow another attempt." },
+        },
+    },
+
+    -- Donaal Downbreeze <Innkeeper>, Calmbreeze Inn, Valanaar, 255940/139379.
+    -- Adult male High Order Skyborne; both factions currently friendly.
+    -- Innkeeper/Vendor, 23 stock rows. Published approach scene: Sirocca
+    -- tells ghost stories; Donaal objects to frightening customers.
+    -- His preferred reassuring story endings are ours, not event dialogue.
+    -- Research: docs/research/thendal-sketches-and-calmbreeze-story-endings.md.
+    [255940] = {
+        quote = "A story may have all the shadows it likes, provided the guests make it safely home at the end. Preferably here, with an appetite.",
+        likes = { "A traveler remembering to eat", "A frightening tale ending pleasantly", "Guests staying for the conversation" },
+        dislikes = { "Ghost stories driving customers away", "A meal interrupted at the best part", "A storyteller leaving the ending untold" },
+        gossip = "Donaal objects to frightening stories in the inn. Guests suspect he listens closely enough to object to the endings, too.",
+        bio = "Donaal keeps the Calmbreeze Inn in Valanaar, offering refreshment and a place to call home. When Sirocca's ghost stories alarm the room, he protests on behalf of his few customers. Gustberry pie makes a more welcoming subject.",
+        backstory = "Donaal tried improving a frightening tale by having every traveler return safely for supper. His listeners complained that he had spoiled it. He maintains that a warm meal is an excellent ending, especially for the people in the story.",
+        secret = "He enjoys the beginning of a ghost story: everyone leaning closer, waiting together. It is the part where guests begin eyeing the door that he would prefer to change.",
+        bestFriend = "Finish your story. I want to hear it, even if I grumble at the shadows. Then tell me what you would like for supper.",
+        favorite = { emote = "SMILE", hint = "An expression that puts the room at ease is welcome after another alarming tale." },
+        lines = {
+            greet = { { "Welcome to the Calmbreeze Inn. Something to eat, something to drink? You are welcome to bring a story as well, though I reserve the right to object if it sends the room looking for an escape. A traveler with an appetite is much better company than a fleeing customer.", tone = "[welcoming] [dryly amused]" },
+                "Good to see you. Tell me you have brought an appetite before you mention anything haunting the forest." },
+            idle = { { "I once improved a frightening story by having everyone return safely for supper. Apparently that spoiled the ending. I thought the people in it would have been delighted. A warm meal, familiar faces, no one missing. You would think a room full of travelers might appreciate that sort of conclusion.", tone = "[conversational] [wry]" },
+                "The beginning is pleasant enough. Everyone leaning closer, listening. Then someone mentions teeth in the darkness.",
+                "Gustberry pie has never frightened a customer out of the room. An excellent quality in a conversation." },
+            befriended = { { "You have become someone I am pleased to see before I know whether you want anything from the inn. That is a fine beginning for friendship. Come along. I would like to hear the rest of your story, and perhaps help it reach a place with supper waiting at the end.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you reached the ending?", "I am listening. I can object and listen at the same time." },
+            rest = { { "There we are. A chance to enjoy some refreshment and finish a conversation properly. No need to hurry past the ending. Tell me how everyone fared, and whether they found somewhere welcoming afterward. If the answer is no, I shall have a few suggestions for improving the story.", tone = "[relaxed] [gently amused]" } },
+            bagsFull = { "Leave room for supplies. A good story does not always provide its own supper." },
+            loot = { "An interesting find. Does the explanation end with you still having an appetite?" },
+            zone = { "Let us hear what the locals say before you decide every shadow needs investigating." },
+            lowHealth = { "You can tell me the dangerous part after we have got you through it." },
+            laughAlong = { "There. Much easier on the room than another gasp." },
+            hearth = { "Back to the Calmbreeze Inn. I do approve of a journey ending somewhere welcoming." },
+        },
+    },
+
     -- Sessaria Skystride <Shaman Trainer>, Valanaar, Zephras, 252382/140050.
     -- Adult female Windshaper Skyborne, current Horde-friendly. Installed
     -- wind-spirit departure gossip; 97243 referral, 97257 fire-rite return.

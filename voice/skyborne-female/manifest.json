@@ -39,6 +39,46 @@
     "text": "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
     "voice_id": "lQ79RJ1oEygPMVWvoXTH"
   },
+  "lore251487_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251487",
+    "spoken": "[warm] [sincere] You have listened without pretending every question has an easy answer. I value that. Come with me, friend. There is much worth noticing, and I would like your company while we look. If I bring my drawings, you may tell me honestly whether the bird has become any more convincing.",
+    "text": "You have listened without pretending every question has an easy answer. I value that. Come with me, friend. There is much worth noticing, and I would like your company while we look. If I bring my drawings, you may tell me honestly whether the bird has become any more convincing.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251487_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251487",
+    "spoken": "[warm] [measured] [gently amused] Welcome back. What have you noticed on your travels? Take a moment before answering. I would rather hear one thing you truly observed than a grand explanation assembled in haste. And if you have come to inspect my latest drawing, I should first mention that it has wings.",
+    "text": "Welcome back. What have you noticed on your travels? Take a moment before answering. I would rather hear one thing you truly observed than a grand explanation assembled in haste. And if you have come to inspect my latest drawing, I should first mention that it has wings.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251487_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251487",
+    "spoken": "[thoughtful] [wry] I began drawing birds to practice looking carefully. Every feather seems quite clear until I put them together on the page. Then something rather unexpected appears. Still, I ask others to exercise their gifts. It would be a poor example if I abandoned mine at the first awkward attempt.",
+    "text": "I began drawing birds to practice looking carefully. Every feather seems quite clear until I put them together on the page. Then something rather unexpected appears. Still, I ask others to exercise their gifts. It would be a poor example if I abandoned mine at the first awkward attempt.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251487_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:251487",
+    "spoken": "[steady] [earnest] A gift needs practice, and practice needs attention. For Windshapers, Skysight can bring the mortal and spiritual closer together. The convergence strengthens its boon. Remember what you learn there when you travel onward. Understanding matters more than returning with a confident claim that you have mastered it all.",
+    "text": "A gift needs practice, and practice needs attention. For Windshapers, Skysight can bring the mortal and spiritual closer together. The convergence strengthens its boon. Remember what you learn there when you travel onward. Understanding matters more than returning with a confident claim that you have mastered it all.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "lore252382_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

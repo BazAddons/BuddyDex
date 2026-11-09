@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Ventaari Brightwish and Donaal Downbreeze: full Skyborne profiles, fifteen personal lines and four approved v4 signatures each; preserve Ventaari's Horde-only access and Donaal's verified shared hospitality.
+
 - Add Sessaria Skystride and Innkeeper Fizzgrimble: full Skyborne/Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain Sessaria's verified ritual role and Fizzgrimble's inn services, with source limitations documented.
 
 - Add Master Vornal and Kuna Thunderhorn: full Troll/Tauren profiles, fifteen personal lines and four approved v4 signatures each; include Vornal's verified Forever quests and preserve his refusal of apprentices.

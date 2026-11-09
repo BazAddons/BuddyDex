@@ -882,6 +882,20 @@
       "zone": "Zephras Isle",
       "route": "Windshaper female/High Order male starter coverage",
       "reason": "Exact current named adult model, faction icons and pin verified; Ventaari Horde-friendly/Alliance-hostile, Donaal friendly to both; full own quest/service/literary research pending. See docs/research/ventaari-and-donaal-queue.md"
+    },
+    {
+      "npc_id": 3364,
+      "name": "Borya",
+      "zone": "Orgrimmar",
+      "route": "Orc/Troll Horde service coverage",
+      "reason": "Exact current named adult male model, Horde-friendly icon and pin verified; full vendor/quest/literary research pending. See docs/research/borya-and-xento-queue.md"
+    },
+    {
+      "npc_id": 3400,
+      "name": "Xen'to",
+      "zone": "Orgrimmar",
+      "route": "Orc/Troll Horde service coverage",
+      "reason": "Exact current named adult male model, Horde-friendly icon and pin verified; full vendor/quest/literary research pending. See docs/research/borya-and-xento-queue.md"
     }
   ]
 }

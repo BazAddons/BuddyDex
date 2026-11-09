@@ -159,6 +159,46 @@
     "text": "A useful beginning. Keep listening as your knowledge grows, and remember that another teacher may hear something you have not yet learned to recognize. I send learners to Olariaan for a reason. Understanding is not made smaller by knowing when to seek guidance from someone else.",
     "voice_id": "8chV49fDd6WKeqeufgPU"
   },
+  "lore255940_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:255940",
+    "spoken": "[warm] [sincere] You have become someone I am pleased to see before I know whether you want anything from the inn. That is a fine beginning for friendship. Come along. I would like to hear the rest of your story, and perhaps help it reach a place with supper waiting at the end.",
+    "text": "You have become someone I am pleased to see before I know whether you want anything from the inn. That is a fine beginning for friendship. Come along. I would like to hear the rest of your story, and perhaps help it reach a place with supper waiting at the end.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore255940_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:255940",
+    "spoken": "[welcoming] [dryly amused] Welcome to the Calmbreeze Inn. Something to eat, something to drink? You are welcome to bring a story as well, though I reserve the right to object if it sends the room looking for an escape. A traveler with an appetite is much better company than a fleeing customer.",
+    "text": "Welcome to the Calmbreeze Inn. Something to eat, something to drink? You are welcome to bring a story as well, though I reserve the right to object if it sends the room looking for an escape. A traveler with an appetite is much better company than a fleeing customer.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore255940_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:255940",
+    "spoken": "[conversational] [wry] I once improved a frightening story by having everyone return safely for supper. Apparently that spoiled the ending. I thought the people in it would have been delighted. A warm meal, familiar faces, no one missing. You would think a room full of travelers might appreciate that sort of conclusion.",
+    "text": "I once improved a frightening story by having everyone return safely for supper. Apparently that spoiled the ending. I thought the people in it would have been delighted. A warm meal, familiar faces, no one missing. You would think a room full of travelers might appreciate that sort of conclusion.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore255940_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:255940",
+    "spoken": "[relaxed] [gently amused] There we are. A chance to enjoy some refreshment and finish a conversation properly. No need to hurry past the ending. Tell me how everyone fared, and whether they found somewhere welcoming afterward. If the answer is no, I shall have a few suggestions for improving the story.",
+    "text": "There we are. A chance to enjoy some refreshment and finish a conversation properly. No need to hurry past the ending. Tell me how everyone fared, and whether they found somewhere welcoming afterward. If the answer is no, I shall have a few suggestions for improving the story.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

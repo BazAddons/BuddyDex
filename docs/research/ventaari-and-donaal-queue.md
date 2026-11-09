@@ -1,3 +1,7 @@
+# Completed: Ventaari Brightwish and Donaal Downbreeze
+
+Both authored/recorded and validated; final research and delivery: [Thendal sketches and Calmbreeze story endings](thendal-sketches-and-calmbreeze-story-endings.md). Original planning below is historical.
+
 # Next: Ventaari Brightwish and Donaal Downbreeze
 
 Current identities individually checked 2026-11-09. Neither profile authored/recorded or counted complete; no Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/sessaria-fizzgrimble-research/next-npc-ID.json`.

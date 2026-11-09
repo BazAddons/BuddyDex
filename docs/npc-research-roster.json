@@ -1197,5 +1197,19 @@
     "zone": "Tanaris",
     "source": "Exact current named adult body, Horde-friendly icon, role and pin; own current relations, installed full service gossip, complete published fire rite/current stock, literary/era and unresolved delivery/comic limits documented; no Scout sighting claimed",
     "research_notes": "docs/research/valanaar-thanks-and-gadgetzan-grand-tours.md"
+  },
+  {
+    "npc_id": 251487,
+    "name": "Ventaari Brightwish",
+    "zone": "Zephras Isle",
+    "source": "Exact current named adult model, individual faction icons and pin; all own relations, full available racial quest/service gossip, stock and published approach scene reviewed; source limitations documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-sketches-and-calmbreeze-story-endings.md"
+  },
+  {
+    "npc_id": 255940,
+    "name": "Donaal Downbreeze",
+    "zone": "Zephras Isle",
+    "source": "Exact current named adult model, individual faction icons and pin; all own relations, full available racial quest/service gossip, stock and published approach scene reviewed; source limitations documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-sketches-and-calmbreeze-story-endings.md"
   }
 ]

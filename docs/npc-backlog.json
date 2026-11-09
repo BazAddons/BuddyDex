@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 376,
+  "completed_count": 378,
   "remaining_count": 4,
   "completed": [
     {
@@ -3374,6 +3374,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 251487,
+      "name": "Ventaari Brightwish",
+      "zone": "Zephras Isle",
+      "source": "Exact current named adult model, individual faction icons and pin; all own relations, full available racial quest/service gossip, stock and published approach scene reviewed; source limitations documented; no Scout sighting claimed",
+      "research_notes": "docs/research/thendal-sketches-and-calmbreeze-story-endings.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 251507,
       "name": "Josephine Carson",
       "zone": "Elwynn Forest",
@@ -3428,6 +3438,16 @@
       "zone": "Zephras Isle",
       "source": "Reviewed current both-friendly adult identity/model, village-tour or food/camping chain, primary progress/completion, installed gossip and services; no Scout sighting claimed",
       "research_notes": "docs/research/shendar-table-and-hearth.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 255940,
+      "name": "Donaal Downbreeze",
+      "zone": "Zephras Isle",
+      "source": "Exact current named adult model, individual faction icons and pin; all own relations, full available racial quest/service gossip, stock and published approach scene reviewed; source limitations documented; no Scout sighting claimed",
+      "research_notes": "docs/research/thendal-sketches-and-calmbreeze-story-endings.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3556,16 +3576,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 251487,
-      "name": "Ventaari Brightwish",
-      "zone": "Zephras Isle",
+      "npc_id": 3364,
+      "name": "Borya",
+      "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 255940,
-      "name": "Donaal Downbreeze",
-      "zone": "Zephras Isle",
+      "npc_id": 3400,
+      "name": "Xen'to",
+      "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
