@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Magistrate Solomon (344), adult male human, Lakeshire Town Hall, display 1753.
+    -- Classic correspondence 120/121/143-146; bounties 169/180; True Masters referrals.
+    -- Forever 95999: receives Gar'im's broken staff. Spare-wax duck is original.
+    -- docs/research/lakeshire-command-in-progress.md.
+    [344] = {
+        quote = "State your business plainly. Lakeshire has little time to spare, and I would rather spend it doing something useful for its people.",
+        likes = { "A message delivered without delay", "A clear account of what is needed", "A spare scrap of sealing wax" },
+        dislikes = { "An appeal left unanswered", "A warning dismissed without thought", "Wax sticking to his fingers" },
+        gossip = "Solomon studies a little shape beside his papers. Lakeshire suspects a new seal. It has a rather unjudicial beak.",
+        bio = "Magistrate Solomon serves Lakeshire from its town hall. He seeks aid from Stormwind, Westfall and Darkshire while rewarding those who confront the town's enemies. Urgent letters carry much of his hope for its defense.",
+        backstory = "While waiting for a reply, he pressed a spare scrap of sealing wax between his fingers. A fold suggested a beak. He worked at it until he had something that could generously be described as a duck.",
+        secret = "The duck leans to one side. He could smooth it out and begin again, but he's grown rather fond of its expression.",
+        bestFriend = "Sit beside me a moment. Tell me what you make of that little fellow. I find his expression rather reassuring.",
+        favorite = { emote = "BOW", hint = "A little courtesy may persuade the magistrate to spare you a moment." },
+        lines = {
+            greet = { { "Ah, there you are. I can spare a little time before the next message arrives. Have a look at this small fellow, if you would. I believe he's a duck. The beak is quite persuasive, even if the rest requires generosity.", tone = "[formal measured warmth, restrained dry amusement]" }, "Good to see you. What news have you brought?" },
+            idle = { { "A spare scrap of wax, a few moments, and there he was. I had meant to straighten him out. Yet each time I look, I rather like the way he leans. One cannot insist on a perfect result in every small endeavor.", tone = "[thoughtful formal diction, quietly amused, gentle]" }, "A reply is easier to wait for when one's hands have something to do.", "He has the appearance of a duck with an opinion. A useful quality in moderation." },
+            befriended = { { "Very well, I'll accompany you a little way. Tell me what you've seen beyond the town. A familiar voice and a change of view would be welcome. Let me put this little fellow somewhere secure before we go.", tone = "[reserved sincere pleasure, dignified warmth]" } },
+            poke = { "Yes? You have my attention.", "One moment. I should finish this thought." },
+            mail = { { "A letter can carry a great deal of hope for something so easily folded. Read yours carefully. I hope it brings an answer you've been waiting for, and a little less reason to wait for the next one.", tone = "[measured thoughtful concern, quietly hopeful]" } },
+            rest = { "A moment to collect ourselves. Sit here, if you wish." },
+            quest = { "Your help deserves acknowledgment. Tell me how matters stand." },
+            zone = { "A place is easier to understand when one has seen it for oneself." },
+            learned = { "A useful addition to your experience. Put it to good purpose." },
+            levelUp = { "You have worked for that progress. My congratulations." },
+            hearth = { "Home again. There is always something here worth coming back to." },
+        },
+    },
+    -- Marshal Marris (382), adult male human, Lakeshire bridge, display 3454.
+    -- Classic 20/19/115 and Keeshan escort 219; Forever supplies quest 98387.
+    -- Bread-crust preference is original. No later Cataclysm drinking or surname kinship.
+    [382] = {
+        quote = "Bring me something we can act on. Weapons, supplies, a man brought home safely. That is how we make a difference here.",
+        likes = { "Useful supplies brought back intact", "A soldier returning safely", "A bread crust warmed by the fire" },
+        dislikes = { "Blackrock ambushes on the roads", "Dangerous orbs left in enemy hands", "A good crust allowed to burn" },
+        gossip = "Marris gives the end of a loaf a remarkably careful inspection. Lakeshire wonders what fault he's finding with it.",
+        bio = "Marshal Marris helps defend Lakeshire against the Blackrock orcs. He seeks proof of action against raiders and shadowcasters, rewards help bringing Keeshan home, and sends adventurers after stolen weapons and enemy supplies.",
+        backstory = "He warmed the end of a loaf beside a fire during a quiet meal. The edge crisped just enough to make a satisfying crunch. Since then, he's taken a little care over that part whenever he has the chance.",
+        secret = "He's inspecting it because he's looking forward to it. He likes the heel best, particularly when the edge is crisp and the middle still warm.",
+        bestFriend = "Break off whichever piece you fancy. I know the bit I'm after. Sit down; there's time to enjoy it together.",
+        favorite = { emote = "SALUTE", hint = "Acknowledge his responsibility for Lakeshire with a defender's respect." },
+        lines = {
+            greet = { { "Good, you're here. I've a moment, and this is nearly ready. The end of the loaf, warmed carefully. It wants a little attention before it turns from crisp to burnt. You're welcome to a piece when I've judged it properly.", tone = "[brisk practical warmth, dry understated humor]" }, "There you are. Tell me how things stand on the road." },
+            idle = { { "I prefer the end of the loaf. Warm it near a fire and take a little care with the edge. That first crunch is worth waiting for. A small thing, perhaps, but I intend to enjoy it while it's there.", tone = "[plainspoken satisfaction, relaxed soldierly confidence]" }, "There's a sound to a good crust. You know it when you hear it.", "Supplies matter. You appreciate that quickly enough on a long watch." },
+            befriended = { { "I'll walk with you. It's good to have someone dependable beside you, and I could use a look along the road. Set a sensible pace. If we find a quiet place later, we can stop and share what's left of this loaf.", tone = "[firm friendly assurance, modest pleased warmth]" } },
+            poke = { "What have you seen?", "Go on. I'm listening." },
+            rest = { { "Sit down a moment before this cools. Choose the piece you want. I've had my eye on the heel since I broke it off. There, that's a proper crunch. A quiet meal improves considerably with good company.", tone = "[contented dry humor, practical hospitality, warm]" } },
+            quest = { "A task carried through. Give me the details while they're fresh." },
+            combatEnd = { "Everyone accounted for? Then see to what needs tending." },
+            mail = { "Read the whole message before you begin celebrating." },
+            zone = { "Let's take a look at the approaches. It pays to know the ground." },
+            levelUp = { "Good work. Keep your judgment growing with your strength." },
+            hearth = { "Back safely. A decent end to the journey." },
+        },
+    },
+
+
     -- Deputy Feldon (1070), adult male human, Lakeshire south bridge, display 2151.
     -- Classic 244 -> 246: Parker's warning, reconnaissance, Marris/Solomon referral.
     -- Forever 98407: gnoll thrasher collars as deterrence. Small good-news notes are original.

@@ -278,14 +278,14 @@
     "npc_id": 344,
     "name": "Magistrate Solomon",
     "zone": "Redridge Mountains",
-    "source": "Current Forever node, complete starts/ends page; full lore/chain research still in progress",
+    "source": "Reviewed current Forever identity/services, full Classic chains, installed dialogue and Forever additions",
     "research_notes": "docs/research/lakeshire-command-in-progress.md"
   },
   {
     "npc_id": 382,
     "name": "Marshal Marris",
     "zone": "Redridge Mountains",
-    "source": "Current Forever node, complete starts/ends page; full lore/chain research still in progress",
+    "source": "Reviewed current Forever identity/services, full Classic chains, installed dialogue and Forever additions",
     "research_notes": "docs/research/lakeshire-command-in-progress.md"
   }
 ]

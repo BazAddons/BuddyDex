@@ -11,6 +11,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Add complete Magistrate Solomon and Marshal Marris profiles, with fifteen personal companion lines and four Eleven v4 signatures each.
 - Add complete profiles for Deputy Feldon, Guard Berton, and Guard Howe, each with fifteen personal companion lines and four Eleven v4 signature recordings.
 - Restrict friendship and companions to adult NPCs. Remove ten child profiles, exclude verified child identities and models from BuddyDex and Scout, and move existing child entries out of the playable roster on reload.
 - Add written profiles and personal companion dialogue for Undertaker Mordo, Shadow Priest Sarvis, Novice Elreth, Executor Arren, Deathguard Saltain, Aramis Hammerhand, Blacksmith Rand, Harold Raims, Archibald Kava, Joshua Kien, Maquell Ebonwood, Claire Willower, Dannal Stern, David Trias, Dark Cleric Duesten, Isabella, Maximillion, Kayla Smithe, Venya Marthand, Clarence Gillian, Florence Nightshade, Deathguard Bartrand, Deathguard Oliver, Deathguard Phillip, and Deathguard Randolph. Each now has four Eleven v4 signature recordings using the selected male A or female C Forsaken voice.

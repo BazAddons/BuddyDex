@@ -2861,6 +2861,46 @@
     "text": "Well done. Tell me what you observed, not only what you expected to find.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore344_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:344",
+    "spoken": "[reserved sincere pleasure, dignified warmth] Very well, I'll accompany you a little way. Tell me what you've seen beyond the town. A familiar voice and a change of view would be welcome. Let me put this little fellow somewhere secure before we go.",
+    "text": "Very well, I'll accompany you a little way. Tell me what you've seen beyond the town. A familiar voice and a change of view would be welcome. Let me put this little fellow somewhere secure before we go.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore344_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:344",
+    "spoken": "[formal measured warmth, restrained dry amusement] Ah, there you are. I can spare a little time before the next message arrives. Have a look at this small fellow, if you would. I believe he's a duck. The beak is quite persuasive, even if the rest requires generosity.",
+    "text": "Ah, there you are. I can spare a little time before the next message arrives. Have a look at this small fellow, if you would. I believe he's a duck. The beak is quite persuasive, even if the rest requires generosity.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore344_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:344",
+    "spoken": "[thoughtful formal diction, quietly amused, gentle] A spare scrap of wax, a few moments, and there he was. I had meant to straighten him out. Yet each time I look, I rather like the way he leans. One cannot insist on a perfect result in every small endeavor.",
+    "text": "A spare scrap of wax, a few moments, and there he was. I had meant to straighten him out. Yet each time I look, I rather like the way he leans. One cannot insist on a perfect result in every small endeavor.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore344_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:344",
+    "spoken": "[measured thoughtful concern, quietly hopeful] A letter can carry a great deal of hope for something so easily folded. Read yours carefully. I hope it brings an answer you've been waiting for, and a little less reason to wait for the next one.",
+    "text": "A letter can carry a great deal of hope for something so easily folded. Read yours carefully. I hope it brings an answer you've been waiting for, and a little less reason to wait for the next one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore346_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -3114,6 +3154,46 @@
     "source": "lore:3627",
     "spoken": "[eager curiosity, upbeat, expressive] New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
     "text": "New surroundings! Let us find something worth telling people about. Every place deserves at least one good invitation.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore382_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:382",
+    "spoken": "[firm friendly assurance, modest pleased warmth] I'll walk with you. It's good to have someone dependable beside you, and I could use a look along the road. Set a sensible pace. If we find a quiet place later, we can stop and share what's left of this loaf.",
+    "text": "I'll walk with you. It's good to have someone dependable beside you, and I could use a look along the road. Set a sensible pace. If we find a quiet place later, we can stop and share what's left of this loaf.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore382_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:382",
+    "spoken": "[brisk practical warmth, dry understated humor] Good, you're here. I've a moment, and this is nearly ready. The end of the loaf, warmed carefully. It wants a little attention before it turns from crisp to burnt. You're welcome to a piece when I've judged it properly.",
+    "text": "Good, you're here. I've a moment, and this is nearly ready. The end of the loaf, warmed carefully. It wants a little attention before it turns from crisp to burnt. You're welcome to a piece when I've judged it properly.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore382_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:382",
+    "spoken": "[plainspoken satisfaction, relaxed soldierly confidence] I prefer the end of the loaf. Warm it near a fire and take a little care with the edge. That first crunch is worth waiting for. A small thing, perhaps, but I intend to enjoy it while it's there.",
+    "text": "I prefer the end of the loaf. Warm it near a fire and take a little care with the edge. That first crunch is worth waiting for. A small thing, perhaps, but I intend to enjoy it while it's there.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore382_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:382",
+    "spoken": "[contented dry humor, practical hospitality, warm] Sit down a moment before this cools. Choose the piece you want. I've had my eye on the heel since I broke it off. There, that's a proper crunch. A quiet meal improves considerably with good company.",
+    "text": "Sit down a moment before this cools. Choose the piece you want. I've had my eye on the heel since I broke it off. There, that's a proper crunch. A quiet meal improves considerably with good company.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore3935_bagsFull_1.ogg": {
