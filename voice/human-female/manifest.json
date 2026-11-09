@@ -79,6 +79,126 @@
     "text": "A magnificent find, is it? Very well. Let's look it over before we give it a title and a heroic history.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1291_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1291",
+    "spoken": "[sincere warmth, pleased, welcoming] You came to see me, without anything to buy or mend. That's lovely. Come along, my friend.",
+    "text": "You came to see me, without anything to buy or mend. That's lovely. Come along, my friend.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1291_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1291",
+    "spoken": "[bright, friendly, quietly amused] An outing? Lovely. I've been folding paper boats all morning. Time to see something beyond the counter.",
+    "text": "An outing? Lovely. I've been folding paper boats all morning. Time to see something beyond the counter.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1291_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1291",
+    "spoken": "[playful, fond, a soft chuckle] Yes, I float them in a basin. The paper boats. It's a small sea, but they seem pleased enough with it.",
+    "text": "Yes, I float them in a basin. The paper boats. It's a small sea, but they seem pleased enough with it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1291_landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "landed",
+    "say": null,
+    "source": "lore:1291",
+    "spoken": "[relieved, cheerful, gently teasing] Arrived safely. That's what I call a successful voyage. Rather bigger than the basin, though.",
+    "text": "Arrived safely. That's what I call a successful voyage. Rather bigger than the basin, though.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1292_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1292",
+    "spoken": "[sincere warmth, reserved affection, welcoming] You know where to find me now. You needn't be looking for a lesson every time. I'm glad of the company.",
+    "text": "You know where to find me now. You needn't be looking for a lesson every time. I'm glad of the company.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1292_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1292",
+    "spoken": "[dry curiosity, playful confidence, friendly] There you are. Been somewhere muddy? No, don't tell me yet. I'll make one guess, then you can put me right.",
+    "text": "There you are. Been somewhere muddy? No, don't tell me yet. I'll make one guess, then you can put me right.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1292_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1292",
+    "spoken": "[wry, candid, amused] I get the boots wrong often enough. Gathering evidence, I call it. You learn considerably more when the traveler starts laughing.",
+    "text": "I get the boots wrong often enough. Gathering evidence, I call it. You learn considerably more when the traveler starts laughing.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1292_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1292",
+    "spoken": "[practical encouragement, warmly approving] There. You can do something you couldn't before. Keep practicing, and tell me which part still gives you trouble.",
+    "text": "There. You can do something you couldn't before. Keep practicing, and tell me which part still gives you trouble.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1295_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1295",
+    "spoken": "[sincere affection, pleased, welcoming] Someone to take the long way with. I like that very much. Come along, my friend. We've time.",
+    "text": "Someone to take the long way with. I like that very much. Come along, my friend. We've time.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1295_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1295",
+    "spoken": "[easy warmth, inviting, quietly adventurous] There you are. Shall we take the longer way? There's no reason every walk has to end at the next counter.",
+    "text": "There you are. Shall we take the longer way? There's no reason every walk has to end at the next counter.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1295_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1295",
+    "spoken": "[contented, personal warmth, lightly amused] No, there isn't an errand. I like that roofline in the evening light. That's enough reason for an extra turn, isn't it?",
+    "text": "No, there isn't an errand. I like that roofline in the evening light. That's enough reason for an extra turn, isn't it?",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1295_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:1295",
+    "spoken": "[curious, hopeful, softly delighted] Somewhere new. Let's leave a little time to look around before deciding we've seen enough.",
+    "text": "Somewhere new. Let's leave a little time to look around before deciding we've seen enough.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1299_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
