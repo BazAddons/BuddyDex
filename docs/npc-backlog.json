@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 322,
+  "completed_count": 324,
   "remaining_count": 4,
   "completed": [
     {
@@ -2167,6 +2167,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 5882,
+      "name": "Pephredo",
+      "zone": "Orgrimmar",
+      "source": "Exact current adult Troll body/title and qualified current/published location; own class relations, full priest referral/Cenarion branches, current Dark Sacrifice rename and installed gossip reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/urkyo-and-pephredo.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5884,
       "name": "Mai'ah",
       "zone": "Durotar",
@@ -2191,6 +2201,16 @@
       "zone": "Durotar",
       "source": "Reviewed adult male Troll model, Senjin/coastal identity, installed gossip and Forever camping relations; no Scout sighting claimed; live access required",
       "research_notes": "docs/research/senjin-potions-and-patient-fishing.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6018,
+      "name": "Ur'kyo",
+      "zone": "Orgrimmar",
+      "source": "Exact current adult Troll body/title and qualified current/published location; own class relations, full priest referral/Cenarion branches, current Dark Sacrifice rename and installed gossip reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/urkyo-and-pephredo.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3016,16 +3036,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 6018,
-      "name": "Ur'kyo",
-      "zone": "Orgrimmar",
+      "npc_id": 3389,
+      "name": "Regthar Deathgate",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5882,
-      "name": "Pephredo",
-      "zone": "Orgrimmar",
+      "npc_id": 3449,
+      "name": "Darsok Swiftdagger",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
@@ -3229,7 +3249,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1494,
+    "candidate_name_groups": 1495,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

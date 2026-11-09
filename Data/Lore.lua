@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ur'kyo, adult male Troll Priest Trainer, Orgrimmar, NPC 6018.
+    -- Display 4711. Hex/Shadowguard teaching; respectful Aelthalyste referrals,
+    -- including current Dark Sacrifice 5646. No beta rites or SoD import.
+    -- His market riddles are original fiction, not a new trial or reward.
+    -- Research: docs/research/urkyo-and-pephredo.md.
+    [6018] = {
+        quote = "Respect the ways before you demand the lesson. A little listening will carry you further than a loud request.",
+        likes = { "Respect freely offered", "A clever answer to a simple riddle", "Students taking their traditions seriously" },
+        dislikes = { "Mockery dressed up as curiosity", "A lesson repeated without understanding", "Someone spoiling the riddle too soon" },
+        gossip = "Ur'kyo has been asking a market riddle with great solemnity. The answer costs less than the fruit beside the stall.",
+        bio = "Ur'kyo teaches priests in Orgrimmar's Valley of Spirits. Troll learners seek him for Hex of Weakness and Shadowguard. He honors Aelthalyste's teaching by directing Forsaken pupils back to her.",
+        backstory = "A riddle heard at a market stall stayed with Ur'kyo after his errands were done. He began collecting these little questions, enjoying how someone without a single grand title could find an answer that surprised him.",
+        secret = "He sometimes knows three answers and asks anyway. The pleasure is hearing how another mind reaches one, especially when it is an answer he never considered.",
+        bestFriend = "One more riddle, then you may ask me anything you like. No titles between us. I would enjoy being surprised by you again.",
+        favorite = { emote = "BOW", hint = "Values a quiet gesture of respect for his ways." },
+        lines = {
+            greet = { { "You have arrived at just the right time. I heard a riddle at the market, and I would like another answer. Walk with me. There is no ceremony required for this one.", tone = "[measured] [warm]" },
+                "Come. You may leave the formal greeting behind us." },
+            idle = { { "A merchant asked a little question between selling two pieces of fruit. I have thought about it longer than several very grand speeches. Wisdom can arrive without announcing all its titles.", tone = "[thoughtful] [gently amused]" },
+                "I know one answer. That does not mean I have heard yours.",
+                "Give the question a little room before you hurry to finish it." },
+            befriended = { { "You have shown respect without making a performance of it. I value that. Today I would like your company, and perhaps your answer to a question that has nothing to do with a lesson.", tone = "[warm] [sincere]" } },
+            poke = { "You may speak. That is usually more informative.", "I was listening before the second attempt." },
+            learned = { { "Keep what you have learned with care. Understand why you use it, and respect the teaching that brought it to you. A lesson is worth more than the ability to repeat its words.", tone = "[firm] [instructive]" } },
+            quest = { "Tell me what you discovered, including what you did not expect." },
+            rest = { "Sit. There is no honor in refusing the rest you need." },
+            combatEnd = { "Steady yourself. Look to those beside you." },
+            zone = { "Listen to how people speak here before deciding what they mean." },
+            levelUp = { "You have grown. Carry the new strength with understanding." },
+            comforted = { "Thank you. A quiet kindness has its own strength." },
+        },
+    },
+
+    -- Pephredo, adult female Troll Mage Trainer, Orgrimmar, NPC 5882.
+    -- Display 4524. Proud hidden-arts gossip and retraining; no own quest
+    -- chain exposed in consulted lists. No mythological sisters or shared eye.
+    -- Her ordinary herb pot is ours. Research: docs/research/urkyo-and-pephredo.md.
+    [5882] = {
+        quote = "The hidden arts reward attention. You might begin by paying some.",
+        likes = { "A spell performed with precision", "Questions worth interrupting for", "A new leaf on her little herb plant" },
+        dislikes = { "Someone calling magic a cheap trick", "Confidence unsupported by practice", "Being reminded she overwatered it" },
+        gossip = "Pephredo has been studying a little pot by the window. Students expect a rare magical specimen. It smells rather like supper.",
+        bio = "Pephredo teaches mages in Orgrimmar. She welcomes learners of the hidden arts with confidence in her craft, and can be sharp with visitors who do not share it. Deino and Enyo teach nearby.",
+        backstory = "Pephredo put an ordinary kitchen herb in a pot by the window. She expected little difficulty. Several watering mistakes later, she began asking practical questions and watching the leaves as closely as any demonstration.",
+        secret = "There is nothing enchanted about the plant. Its newest leaf delights her anyway. She likes having something to learn that will not be impressed by her title.",
+        bestFriend = "Another leaf. Come and look. You may be pleased for me without asking whether I used a spell. I would rather tell you how I learned.",
+        favorite = { emote = "NOD", hint = "Appreciates someone giving an explanation their full attention." },
+        lines = {
+            greet = { { "There you are. I have news, though you must promise to give it the proper attention. The plant by my window has a new leaf. Yes, the ordinary one. I am quite pleased.", tone = "[proud] [pleased]" },
+                "Come along. You may tell me what has been occupying your attention." },
+            idle = { { "It is an ordinary kitchen herb. No hidden enchantment, no secret formula. I was informed that I had simply given it too much water. A surprisingly effective lesson, once I stopped arguing with it.", tone = "[dryly amused] [reflective]" },
+                "Precision first. Looking effortless may come later.",
+                "I wonder whether that leaf has opened any further." },
+            befriended = { { "You listen even when the subject is something I am still learning. I appreciate that more than another compliment about my magic. Come, friend. We have time for a proper conversation.", tone = "[warm] [sincere]" } },
+            poke = { "Was that intended to improve my concentration?", "You have my attention. Make good use of it." },
+            learned = { { "Knowing one art does not spare you from being a beginner at another. Ask the question, listen to the answer, then try it properly. You may quote me on that, with suitable discretion.", tone = "[confident] [wry]" } },
+            quest = { "Finished? Give yourself the satisfaction of checking it carefully." },
+            loot = { "Keep the fragile pieces where you can see them." },
+            rest = { "A pause would be sensible. Fortunately, I am capable of being sensible." },
+            combatEnd = { "Everybody still here? Good. Attend to one another first." },
+            levelUp = { "Good progress. You have earned a little confidence." },
+            comforted = { "Thank you. You chose your moment well." },
+        },
+    },
+
     -- Ziz Fizziks, adult male Goblin, Windshear Crag, NPC 4201/display 7156.
     -- Former Venture engineer hired by Sputtervalve: stolen plans, Piznik's
     -- ore sample and Gerenzo's removal. A future workshop is his aspiration,

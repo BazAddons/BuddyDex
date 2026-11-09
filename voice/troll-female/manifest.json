@@ -119,6 +119,46 @@
     "text": "Remember what that knowledge is for. Healing can keep an ally alive, and protection can help them stay that way. There is wisdom in using your power before another wound is struck. Do not measure your worth only by what falls before you. Notice who is still standing because you were there.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
   },
+  "lore5882_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5882",
+    "spoken": "[warm] [sincere] You listen even when the subject is something I am still learning. I appreciate that more than another compliment about my magic. Come, friend. We have time for a proper conversation.",
+    "text": "You listen even when the subject is something I am still learning. I appreciate that more than another compliment about my magic. Come, friend. We have time for a proper conversation.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5882_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5882",
+    "spoken": "[proud] [pleased] There you are. I have news, though you must promise to give it the proper attention. The plant by my window has a new leaf. Yes, the ordinary one. I am quite pleased.",
+    "text": "There you are. I have news, though you must promise to give it the proper attention. The plant by my window has a new leaf. Yes, the ordinary one. I am quite pleased.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5882_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5882",
+    "spoken": "[dryly amused] [reflective] It is an ordinary kitchen herb. No hidden enchantment, no secret formula. I was informed that I had simply given it too much water. A surprisingly effective lesson, once I stopped arguing with it.",
+    "text": "It is an ordinary kitchen herb. No hidden enchantment, no secret formula. I was informed that I had simply given it too much water. A surprisingly effective lesson, once I stopped arguing with it.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5882_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5882",
+    "spoken": "[confident] [wry] Knowing one art does not spare you from being a beginner at another. Ask the question, listen to the answer, then try it properly. You may quote me on that, with suitable discretion.",
+    "text": "Knowing one art does not spare you from being a beginner at another. Ask the question, listen to the answer, then try it properly. You may quote me on that, with suitable discretion.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore5884_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

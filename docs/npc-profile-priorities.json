@@ -504,6 +504,20 @@
       "zone": "Orgrimmar",
       "route": "Male Troll priest and female Troll mage teaching contacts",
       "reason": "Exact current adult Troll body/title verified; Urkyo friendly pin and Pephredo published Orgrimmar location with missing current fields qualified. Own full quest/training/gossip/literary review pending. See docs/research/urkyo-and-pephredo-queue.md"
+    },
+    {
+      "npc_id": 3389,
+      "name": "Regthar Deathgate",
+      "zone": "The Barrens",
+      "route": "Barrens centaur and harpy quest contacts",
+      "reason": "Exact current adult male Orc bodies and Barrens pins checked; Friendly versus Neutral access qualified. Full own quest/gossip/literary review pending. See docs/research/regthar-and-darsok-queue.md"
+    },
+    {
+      "npc_id": 3449,
+      "name": "Darsok Swiftdagger",
+      "zone": "The Barrens",
+      "route": "Barrens centaur and harpy quest contacts",
+      "reason": "Exact current adult male Orc bodies and Barrens pins checked; Friendly versus Neutral access qualified. Full own quest/gossip/literary review pending. See docs/research/regthar-and-darsok-queue.md"
     }
   ]
 }

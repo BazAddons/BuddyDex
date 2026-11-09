@@ -819,5 +819,19 @@
     "zone": "Orgrimmar",
     "source": "Exact current adult Goblin body and current/published location; own relation lists, full connected espionage/ore and samophlange/manual branches and installed text checked; qualified access, no Scout sighting claimed",
     "research_notes": "docs/research/fizziks-and-greasygob.md"
+  },
+  {
+    "npc_id": 6018,
+    "name": "Ur'kyo",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Troll body/title and qualified current/published location; own class relations, full priest referral/Cenarion branches, current Dark Sacrifice rename and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/urkyo-and-pephredo.md"
+  },
+  {
+    "npc_id": 5882,
+    "name": "Pephredo",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Troll body/title and qualified current/published location; own class relations, full priest referral/Cenarion branches, current Dark Sacrifice rename and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/urkyo-and-pephredo.md"
   }
 ]

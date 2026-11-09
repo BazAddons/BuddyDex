@@ -203,3 +203,9 @@ Ziz Fizziks and Rilli Greasygob bring development to **322 complete profiles**, 
 Next: Ur'kyo (6018), current Horde-friendly adult male Troll priest trainer, and Pephredo (5882), exact adult female Troll mage trainer with published Orgrimmar location but missing current pin/reaction. [Full personal class research remains pending](urkyo-and-pephredo-queue.md). Pephredo is individually preserved despite omission from the original filtered catalog.
 
 Preserving Pephredo expands the combined research catalog to **1,495 name groups**, with 1,508 retained entries and 77 local identities absent from the original source. These overlap the completed roster and must not be added as separate NPC totals.
+
+## Ur'kyo and Pephredo completed
+
+Ur'kyo and Pephredo bring development to **324 complete profiles**, each with fifteen personal lines and four approved Troll v4 signatures. [Full research](urkyo-and-pephredo.md) distinguishes priest referrals, current Dark Sacrifice naming and their own teaching roles from class-specific player prerequisites and later/beta material. Authored Trolls now total thirteen; Orgrimmar has eleven profiles. Public access totals are 192 Alliance, 57 Horde and 81 unverified, with six shared profiles overlapping faction totals. Pephredo's missing current pin/reaction remains qualified. The wider 1,495-name catalog and two old Westfall questions remain open. Publication is deferred.
+
+Next: Regthar Deathgate (3389) and Darsok Swiftdagger (3449), familiar adult male Orc quest contacts with exact current Barrens models/pins and Friendly versus Neutral access checked. [Full own quest and literary review remains pending](regthar-and-darsok-queue.md). No personal Scout sighting, Warcraft III service or completed player battle is assumed.

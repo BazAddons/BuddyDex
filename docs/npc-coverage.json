@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 322,
+  "completed_profiles": 324,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 80,
-    "horde": 56
+    "unverified": 81,
+    "horde": 57
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,7 +15,7 @@
     "4": 11,
     "6": 18,
     "2": 15,
-    "8": 11,
+    "8": 13,
     "9": 8,
     "96": 3,
     "95": 5
@@ -33,7 +33,7 @@
     "Mulgore": 10,
     "Thunder Bluff": 5,
     "Durotar": 15,
-    "Orgrimmar": 9,
+    "Orgrimmar": 11,
     "The Barrens": 11,
     "Stonetalon Mountains": 1,
     "Silverpine Forest": 1,
@@ -2942,6 +2942,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5749"
     },
     {
+      "npc_id": 5882,
+      "name": "Pephredo",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current reaction omitted; current adult identity and published Orgrimmar location only",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5882"
+    },
+    {
       "npc_id": 5884,
       "name": "Mai'ah",
       "zone": "Durotar",
@@ -2975,6 +2986,19 @@
       ],
       "reaction_evidence": "Horde friendly (published Forever reaction)",
       "source_url": "https://www.wowhead.com/forever/npc=5941/lautiki"
+    },
+    {
+      "npc_id": 6018,
+      "name": "Ur'kyo",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6018"
     },
     {
       "npc_id": 6169,

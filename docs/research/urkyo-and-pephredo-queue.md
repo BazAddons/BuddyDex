@@ -1,3 +1,7 @@
+# Completed: Ur'kyo and Pephredo
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four approved Troll v4 signatures each. Development now has 324 complete profiles. See [full research](urkyo-and-pephredo.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Ur'kyo and Pephredo
 
 Identity shortlist, 2026-11-09, after 322 completed profiles. Return to Troll coverage with an adult male priest trainer and adult female mage trainer in Orgrimmar. Neither profile is authored, voiced or counted complete. No personal Scout sighting is claimed.
