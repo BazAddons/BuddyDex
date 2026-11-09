@@ -245,6 +245,20 @@
       "zone": "Durotar",
       "route": "Orc/troll starter services",
       "reason": "Adult female Orc general merchant identity and Durotar pin verified; reaction icon absent, current location/access, stock and any dialogue/relations pending. See docs/research/durotar-orc-services-queue.md"
+    },
+    {
+      "npc_id": 2948,
+      "name": "Mull Thunderhorn",
+      "zone": "Mulgore",
+      "route": "Tauren starter quest and services",
+      "reason": "Adult male Tauren exact current identity/model verified; sparse node has no reaction/pin; full well-cleansing chain, Forever report/readable and current location/access pending. See docs/research/mulgore-wells-and-baker-queue.md"
+    },
+    {
+      "npc_id": 3884,
+      "name": "Jhawna Oatwind",
+      "zone": "Mulgore",
+      "route": "Tauren starter quest and services",
+      "reason": "Adult female Tauren exact current baker identity/model verified; sparse node lacks reaction/pin/stock; current Bloodhoof location/access, vendor role and dialogue pending. See docs/research/mulgore-wells-and-baker-queue.md"
     }
   ]
 }

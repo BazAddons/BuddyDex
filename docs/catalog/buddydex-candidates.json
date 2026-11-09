@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 67,
-    "combined_retained_entries": 1498,
-    "candidate_name_groups": 1485,
+    "local_backlog_entries_missing_from_source": 69,
+    "combined_retained_entries": 1500,
+    "candidate_name_groups": 1487,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -17593,6 +17593,23 @@
       ]
     },
     {
+      "name": "Jhawna Oatwind",
+      "npc_ids": [
+        3884
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3884,
+          "name": "Jhawna Oatwind",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Jillian Tanner",
       "npc_ids": [
         5565
@@ -24443,6 +24460,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Mull Thunderhorn",
+      "npc_ids": [
+        2948
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 2948,
+          "name": "Mull Thunderhorn",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39446,6 +39480,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 2948,
+      "name": "Mull Thunderhorn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3884,
+      "name": "Jhawna Oatwind",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,
