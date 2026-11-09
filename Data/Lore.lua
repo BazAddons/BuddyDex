@@ -42,6 +42,64 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Devrak (3615), adult male Orc Wind Rider Master, Crossroads, The Barrens.
+    -- Display 1652 / race 2 sex 0; current Horde-friendly flight master and pin.
+    -- Hides 6361-6364 and meat 6365/6384-6386 courier loops; hot-air training gossip.
+    -- Leisurely walks are original. docs/research/crossroads-wings-and-respect.md.
+    [3615] = {
+        quote = "Give me the destination and have your bundle ready. My riders can make good time without you spending the whole journey worrying.",
+        likes = { "A destination given before the departure", "A bundle secured for its journey", "An unhurried walk when work is done" },
+        dislikes = { "Discovering loose cargo after takeoff", "Forgetting to meet the local flight master", "Turning every quiet break into a race" },
+        gossip = "Devrak praises the speed of his wind riders, then takes a remarkably leisurely walk. Apparently he has no wish to outrun his own evening.",
+        bio = "Devrak is the Crossroads wind rider master. He arranges flights for Jahan's hides bound for Ahanu in Thunder Bluff and Zargh's meat for Gryshka in Orgrimmar. The return trips rely on travelers having met him and learned the local route.",
+        backstory = "After a busy day of arranging departures, he once walked without an errand waiting at the other end. He found the change pleasant. Since then, he has made room for a little wandering whenever his duties leave him a quiet stretch of time.",
+        secret = "He can tell you how to make a swift journey, but he has no useful estimate for his own evening stroll. He likes leaving room to stop when something catches his attention.",
+        bestFriend = "Walk with me a while. We can take whatever time we have and enjoy it. Your company is worth a journey without an errand.",
+        favorite = { emote = "NOD", hint = "Let him know the destination and departure instructions are understood." },
+        lines = {
+            greet = { { "There you are. Are we going somewhere in particular, or shall we enjoy a little walk? I spend enough time helping people get where they need to be. It is pleasant to have company without an urgent delivery waiting at the far end. Tell me what you have in mind, and we can get moving.", tone = "[assured practical welcome, relaxed good humor, warm confidence]" }, "Good company for a walk. I hope we have time to enjoy the ground beneath us." },
+            idle = { { "My wind riders can make good time through this heat. I am quite proud of that. But when the work is finished, I enjoy taking a walk at my own pace. Sometimes I stop longer than I intended. That is part of the pleasure when nobody is waiting for me to deliver something.", tone = "[easy confident pride, unhurried amusement, relaxed and sociable]" }, "A quiet stretch of shade is worth noticing when you do not have to hurry through it.", "We can stop here a moment. I have no departure to arrange just now." },
+            befriended = { { "Gladly. You have become someone I look forward to seeing, even when you arrive with no bundle to send and no flight to catch. That seems a fine reason to spend some time together. Let us take a walk, my friend. We can decide where it is going after we have begun enjoying the company.", tone = "[hearty sincere friendship, open pleasure, calm affectionate confidence]" } },
+            poke = { "Yes? If you need to get somewhere, tell me where.", "I am listening. You need not check twice that I am still beside you." },
+            taxi = { { "Before you settle in, make certain everything you are carrying is secure. A little care now makes the journey easier to enjoy. And when you arrive somewhere new, remember to meet its wind rider master. Knowing where you can return is a useful part of knowing where you have been.", tone = "[clear experienced instruction, reassuring confidence, brisk friendly care]" } },
+            landed = { "There we are. Gather your belongings before you begin admiring the destination." },
+            bagsFull = { "That is quite a load for someone who intended a simple journey." },
+            quest = { "Delivered? Good. A journey feels complete when the right person has what they were waiting for." },
+            rest = { "A good place to stop. We need not fill every pause with another plan." },
+            zone = { "New ground to notice, and perhaps another useful route to learn." },
+            hearth = { "Home again. I may find time for a little walk before the day is done." },
+        },
+    },
+
+    -- Sergra Darkthorn (3338), adult female Orc leader/quest giver, Crossroads, The Barrens.
+    -- Display 3850 / race 2 sex 1; current Neutral listing, live non-attackable gate retained.
+    -- 842 equal-respect speech; 860-873 hunter path; Echeyakee subtlety/mercy and Jorn referral.
+    -- Tart-berry preference is original. docs/research/crossroads-wings-and-respect.md.
+    [3338] = {
+        quote = "Show strength, and learn what it is for. A hunter needs more than the power to bring something down.",
+        likes = { "Respect without excuses or condescension", "Strength tempered by subtlety and mercy", "A sharply tart handful of dried berries" },
+        dislikes = { "Being dismissed because she is a woman", "Mistaking a hunt for thoughtless slaughter", "Complaining before trying a single bite" },
+        gossip = "Sergra's dried berries have surprised more than one visitor. She seems to enjoy the first startled expression almost as much as the snack.",
+        bio = "Sergra Darkthorn leads the Crossroads and guides hunters through the Barrens. She insists on respect for the Horde's women, teaches strength with subtlety and mercy through Echeyakee's hunt, and sends ready pupils onward to Jorn Skyseer.",
+        backstory = "A handful of tart dried berries made a welcome change during a long afternoon of duties. She began saving a few for quiet breaks. Sharing them proved amusing when visitors discovered that her idea of a pleasant snack had a little bite.",
+        secret = "The first berry still makes her pull a face sometimes. She enjoys that sharp surprise, including when it catches her. She is quite capable of laughing at herself.",
+        bestFriend = "Here, have a few. You know what to expect by now. Sit with me a moment; I would enjoy hearing something besides another report.",
+        favorite = { emote = "BOW", hint = "Show her the respect her position and deeds have earned." },
+        lines = {
+            greet = { { "There you are. Come along, and tell me what has been occupying your thoughts. You have enough sense to notice more than the next challenge in front of you. I would like to hear some of it. We can take a little time for ourselves before the day finds another task to put in our hands.", tone = "[gravelly assured welcome, perceptive interest, restrained friendly warmth]" }, "Good. Company I can enjoy without beginning another lesson at once." },
+            idle = { { "Have one if you like. They are tart, and I am telling you that before you decide I have played some great trick on you. Yes, the first one still catches me sometimes. You may laugh when it does. I have no intention of turning a handful of berries into a test of anyone's dignity.", tone = "[gruff dry humor, amused generosity, relaxed confidence]" }, "There is a difference between a sharp flavor and a bad one. Give it a moment.", "That one had a little more bite than I expected. Good. I was beginning to grow comfortable." },
+            befriended = { { "Yes, I will walk with you. I respect your judgment, and I enjoy your company. We can leave the reports for later. Come, my friend. Tell me how you have been. There is time to listen.", tone = "[gravelly sincere affection, earned respect, composure softening into warmth]" } },
+            poke = { "You have my attention. Use it well.", "If you are asking for another berry, you may simply say so." },
+            quest = { { "Good. Now consider what the effort taught you. Strength matters, but so do the way you approach a challenge and the care you take in meeting it. Remember what can be learned from subtlety and mercy. Bring thought to your actions, and you will have more to show than proof of a successful hunt.", tone = "[firm thoughtful instruction, gravelly conviction, measured approval]" } },
+            lowHealth = { "Take care. Courage does not require you to ignore a wound." },
+            levelUp = { "You grow stronger. Keep your judgment growing with it." },
+            rest = { "A little time to sit and think is useful. So is a little time simply to sit." },
+            zone = { "Watch the land around you. There is more to learn than the quickest way across it." },
+            loot = { "Look closely at what you carry. A trophy should remind you of more than the taking." },
+            hearth = { "Back to familiar ground. I hope you have left yourself a moment to enjoy it." },
+        },
+    },
+
     -- Wharfmaster Dizzywig (3453), adult male Goblin dockmaster, Ratchet, The Barrens.
     -- Display 7053 / race 9 sex 0; current Neutral listing, live non-attackable access required.
     -- Gazlowe's records, Helbrim's crate, Kravel's parts, Velinde's passage and emerald bargain.

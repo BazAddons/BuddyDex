@@ -79,6 +79,46 @@
     "text": "Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3338_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3338",
+    "spoken": "[gravelly sincere affection, earned respect, composure softening into warmth] Yes, I will walk with you. I respect your judgment, and I enjoy your company. We can leave the reports for later. Come, my friend. Tell me how you have been. There is time to listen.",
+    "text": "Yes, I will walk with you. I respect your judgment, and I enjoy your company. We can leave the reports for later. Come, my friend. Tell me how you have been. There is time to listen.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3338_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3338",
+    "spoken": "[gravelly assured welcome, perceptive interest, restrained friendly warmth] There you are. Come along, and tell me what has been occupying your thoughts. You have enough sense to notice more than the next challenge in front of you. I would like to hear some of it. We can take a little time for ourselves before the day finds another task to put in our hands.",
+    "text": "There you are. Come along, and tell me what has been occupying your thoughts. You have enough sense to notice more than the next challenge in front of you. I would like to hear some of it. We can take a little time for ourselves before the day finds another task to put in our hands.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3338_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3338",
+    "spoken": "[gruff dry humor, amused generosity, relaxed confidence] Have one if you like. They are tart, and I am telling you that before you decide I have played some great trick on you. Yes, the first one still catches me sometimes. You may laugh when it does. I have no intention of turning a handful of berries into a test of anyone's dignity.",
+    "text": "Have one if you like. They are tart, and I am telling you that before you decide I have played some great trick on you. Yes, the first one still catches me sometimes. You may laugh when it does. I have no intention of turning a handful of berries into a test of anyone's dignity.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3338_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3338",
+    "spoken": "[firm thoughtful instruction, gravelly conviction, measured approval] Good. Now consider what the effort taught you. Strength matters, but so do the way you approach a challenge and the care you take in meeting it. Remember what can be learned from subtlety and mercy. Bring thought to your actions, and you will have more to show than proof of a successful hunt.",
+    "text": "Good. Now consider what the effort taught you. Strength matters, but so do the way you approach a challenge and the care you take in meeting it. Remember what can be learned from subtlety and mercy. Bring thought to your actions, and you will have more to show than proof of a successful hunt.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

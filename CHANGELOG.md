@@ -1,5 +1,9 @@
 # Unreleased
 
+- Make generated audio writes atomic and prefer available FFmpeg to avoid native Vorbis encoding crashes.
+
+- Complete Devrak and Sergra Darkthorn: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research both courier loops and full hunting/referral chains, resolve a conflicting Scytheclaw completion, and retain live access checks. Development now has 293 completed profiles.
+
 - Complete Wharfmaster Dizzywig: full profile, fifteen personal lines and four original male Goblin B Eleven v4 signatures. Research all shipment, parts and passenger branches/readables; preserve conditional neutral/non-attackable access. Development now has 291 complete profiles.
 
 - Complete Qia: full profile, fifteen personal lines and four original female Goblin B Eleven v4 signatures. Enable race 9 voice routing and reproducible body mappings; retain live neutral/non-attackable eligibility checks. Development now has 290 complete profiles; Dizzywig's full chain research remains pending.

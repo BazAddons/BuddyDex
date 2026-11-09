@@ -602,5 +602,19 @@
     "zone": "The Barrens",
     "source": "Reviewed current adult male Goblin model, Ratchet pin and Neutral icon; complete available shipment/parts/passenger branches, relevant book bodies, installed dialogue and literary-era limits; conditional live non-attackable access, no Scout sighting claimed",
     "research_notes": "docs/research/dizzywig-ledgers-and-paper-boats.md"
+  },
+  {
+    "npc_id": 3615,
+    "name": "Devrak",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult Orc identity/model, Crossroads pin and friendly or conditional Neutral access; full courier loops or recruitment/hunter branches/readables with installed/current dialogue comparison; 905 mismatch resolved; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-wings-and-respect.md"
+  },
+  {
+    "npc_id": 3338,
+    "name": "Sergra Darkthorn",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult Orc identity/model, Crossroads pin and friendly or conditional Neutral access; full courier loops or recruitment/hunter branches/readables with installed/current dialogue comparison; 905 mismatch resolved; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-wings-and-respect.md"
   }
 ]

@@ -31,7 +31,9 @@ recordings stay bundled; only explicitly requested lines are generated.
 Clips are mono Ogg Vorbis at 22.05 kHz, about 36 kbps: speech needs no more,
 and the voice pack stays small enough to keep growing (the user heard no
 difference from 128 kbps MP3). ElevenLabs sends raw
-PCM at that rate, encoded once (soundfile, in the project's venv).
+PCM at that rate, encoded once with FFmpeg when it is on PATH, falling back
+to soundfile in the project's venv. Encoding finishes in a temporary file
+before replacing a clip, so a failed write preserves an existing recording.
 --convert turns older MP3 recordings into the same.
 
 The API key comes from the ELEVENLABS_API_KEY environment variable or
@@ -41,6 +43,8 @@ import argparse
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import time
 import urllib.error
@@ -165,7 +169,24 @@ def load_lines(source="mini"):
 
 
 def write_ogg(path, samples, rate):
-    sf.write(path, samples, rate, format="OGG", subtype="VORBIS", compression_level=QUALITY)
+    # The local libsndfile/Vorbis writer can crash natively on valid speech.
+    # Prefer the standalone encoder when available; publish only a finished file.
+    temporary = os.fspath(path) + ".tmp.ogg"
+    try:
+        encoder = shutil.which("ffmpeg")
+        if encoder:
+            subprocess.run(
+                [encoder, "-hide_banner", "-loglevel", "error", "-f", "f32le",
+                 "-ar", str(rate), "-ac", "1", "-i", "pipe:0", "-c:a", "libvorbis",
+                 "-q:a", "0", "-y", temporary],
+                input=np.asarray(samples, dtype="<f4").tobytes(), check=True,
+                stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+        else:
+            sf.write(temporary, samples, rate, format="OGG", subtype="VORBIS", compression_level=QUALITY)
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.remove(temporary)
     return os.path.getsize(path)
 
 
