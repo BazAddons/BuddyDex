@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen lines and four approved v4 signatures each. See [final evidence and validation](sepulcher-apologies-and-dolanaar-detours.md). Planning/checkpoints below are retained as history.
+
 # Next: Dalar Dawnweaver and Syral Bladeleaf
 
 Individually checked current identities 2026-11-09. Neither profile authored or recorded. No Scout sighting claimed. Source cache `C:/Users/brett/BuddyDex-builds/renferrel-denalan-research/next-npc-ID.json`.

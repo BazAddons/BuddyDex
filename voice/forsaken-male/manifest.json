@@ -439,6 +439,46 @@
     "text": "Quinn required another potion. The first delivery contained fewer hearts than the recipe required. He also sent murloc eyes, which were worth considering. A complaint can contain useful information. That does not excuse delivering half the ingredients and then looking wounded when I notice.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore1938_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1938",
+    "spoken": "[raspy] [approving] You have shown persistence, useful judgment, and the unusual ability to listen before a disaster has finished proving my point. Very well. Accompany me. When others eventually recognize what should have been obvious, I would prefer a witness who remembers that I said it first.",
+    "text": "You have shown persistence, useful judgment, and the unusual ability to listen before a disaster has finished proving my point. Very well. Accompany me. When others eventually recognize what should have been obvious, I would prefer a witness who remembers that I said it first.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1938_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1938",
+    "spoken": "[raspy] [haughty] You have returned. I trust you brought observations rather than assurances. Arugal had assurances. The Kirin Tor had confidence. Neither has proved particularly useful to Silverpine. If you have discovered something worth my attention, begin there. I will decide afterward whether congratulations are appropriate.",
+    "text": "You have returned. I trust you brought observations rather than assurances. Arugal had assurances. The Kirin Tor had confidence. Neither has proved particularly useful to Silverpine. If you have discovered something worth my attention, begin there. I will decide afterward whether congratulations are appropriate.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1938_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1938",
+    "spoken": "[raspy] [self-satisfied] Suppose the Kirin Tor finally admits that I warned them. I could accept the apology with a simple inclination of the head. Dignified. Restrained. Though naturally I should first correct any inaccuracies in their account. And perhaps remind them precisely how much trouble listening would have spared.",
+    "text": "Suppose the Kirin Tor finally admits that I warned them. I could accept the apology with a simple inclination of the head. Dignified. Restrained. Though naturally I should first correct any inaccuracies in their account. And perhaps remind them precisely how much trouble listening would have spared.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1938_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1938",
+    "spoken": "[raspy] [scornful] Arugal's shackles bind the beasts. That does not mean he created them. Discovering the distinction exposes his pretensions, but it also leaves his supposed remedy worthless. The curse remains a problem. I would rather examine an unpleasant fact than congratulate a fool for an answer he never possessed.",
+    "text": "Arugal's shackles bind the beasts. That does not mean he created them. Discovering the distinction exposes his pretensions, but it also leaves his supposed remedy worthless. The curse remains a problem. I would rather examine an unpleasant fact than congratulate a fool for an answer he never possessed.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore2113_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

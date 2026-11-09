@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dalar Dawnweaver, Sepulcher, Silverpine; adult male Forsaken, 1938/1278.
+    -- Current Horde-neutral icon, subject to normal live eligibility gates.
+    -- Classic Arugal/Ambermill investigations; Forever 98298 rejects a cure,
+    -- 98299 orders refugee killings. No invented benevolent rescue or cure.
+    -- Rehearsing acceptance of an apology is ours, not a retail biography.
+    -- Research: docs/research/sepulcher-apologies-and-dolanaar-detours.md.
+    [1938] = {
+        quote = "I have been considering how to receive the Kirin Tor's apology. Graciously, of course. Once they manage to phrase it properly.",
+        likes = { "His warnings finally being heeded", "Evidence that exposes Arugal's limits", "An apology with no excuses attached" },
+        dislikes = { "The Kirin Tor's misplaced confidence", "A presumed remedy that solves nothing", "Being told his gracious manner needs work" },
+        gossip = "Dalar has been practicing gracious replies to an apology nobody has offered. The imaginary apologizer keeps getting interrupted.",
+        bio = "Dalar studies Arugal's magic at the Sepulcher and helps Allister oppose Ambermill's wizards. His work serves Forsaken control of Silverpine. In Forever, he also orders human refugees killed to contain the worgen curse; no cure is secured.",
+        backstory = "After another ignored warning, Dalar imagined the Kirin Tor admitting he was right. He tried a modest reply, then a cooler one. Neither conveyed the occasion's importance. Soon he was correcting the wording of the apology as well.",
+        secret = "His favorite version has no reply at all. He merely inclines his head while everyone waits. Unfortunately, he has never managed to rehearse it without adding a few words.",
+        bestFriend = "You listened before anyone admitted I was right. Remain nearby. When that day arrives, I shall require a witness of adequate discernment.",
+        favorite = { emote = "BOW", hint = "Expects his insight to be received with a little more ceremony than a casual greeting." },
+        lines = {
+            greet = { { "You have returned. I trust you brought observations rather than assurances. Arugal had assurances. The Kirin Tor had confidence. Neither has proved particularly useful to Silverpine. If you have discovered something worth my attention, begin there. I will decide afterward whether congratulations are appropriate.", tone = "[raspy] [haughty]" },
+                "Speak. I am listening for something more useful than another promise." },
+            idle = { { "Suppose the Kirin Tor finally admits that I warned them. I could accept the apology with a simple inclination of the head. Dignified. Restrained. Though naturally I should first correct any inaccuracies in their account. And perhaps remind them precisely how much trouble listening would have spared.", tone = "[raspy] [self-satisfied]" },
+                "An apology loses much of its value when followed by an excuse.",
+                "Allister understands that Ambermill's preparations cannot be ignored." },
+            befriended = { { "You have shown persistence, useful judgment, and the unusual ability to listen before a disaster has finished proving my point. Very well. Accompany me. When others eventually recognize what should have been obvious, I would prefer a witness who remembers that I said it first.", tone = "[raspy] [approving]" } },
+            poke = { "Yes? I was considering a suitably restrained response.", "If you are about to offer an excuse, reconsider it." },
+            quest = { { "Arugal's shackles bind the beasts. That does not mean he created them. Discovering the distinction exposes his pretensions, but it also leaves his supposed remedy worthless. The curse remains a problem. I would rather examine an unpleasant fact than congratulate a fool for an answer he never possessed.", tone = "[raspy] [scornful]" } },
+            learned = { "Good. Revise your understanding when the evidence requires it." },
+            loot = { "A small object may reveal a considerable undertaking. Examine it." },
+            zone = { "Someone has plans for this place. It would be useful to know whose." },
+            combatEnd = { "An obstacle removed. Do not confuse that with the entire matter resolved." },
+            rest = { "I shall consider what comes next. You may attempt the same." },
+            hearth = { "Back to the Sepulcher. There is still work that others have failed to finish." },
+        },
+    },
+
+    -- Syral Bladeleaf, Dolanaar, Teldrassil; adult female Night Elf, 2083/2459.
+    -- Current Alliance-friendly. Classic 1581 busy shop/husband, 489 Council
+    -- rebuke and fel cones, current 997 Denalan's earth delivery.
+    -- Searching for a herb-free stroll and spotting herbs anyway are ours.
+    -- Research: docs/research/sepulcher-apologies-and-dolanaar-detours.md.
+    [2083] = {
+        quote = "A little help with the work might buy us an evening together. I would call that a very generous trade.",
+        likes = { "Carefully mixed elixirs", "Time with her husband after work", "A walk that stays a walk" },
+        dislikes = { "Zenn making fools of eager helpers", "The forest harmed for a false promise", "One more task swallowing the evening" },
+        gossip = "Syral has been choosing walks with no herbs worth stopping for. Somehow she still returns with a useful handful and a sheepish smile.",
+        bio = "Syral lives in Dolanaar, where the Bladeleafs' busy herb and alchemy shop leaves little time together. She trades herbs for finished elixirs, forwards Denalan's earth and conveys the Council of the Forest's rebuke to those who aid Zenn.",
+        backstory = "Determined to find a stroll that would not become another gathering trip, Syral chose an unpromising patch of path. Before long she had spotted something useful beside it. Finding a route with no work along the way has become a project of its own.",
+        secret = "She blames the plants for being so interesting. Really, she is quite proud of recognizing a useful herb on a supposedly unpromising path. She may be her own greatest obstacle to a short walk.",
+        bestFriend = "Come for a walk. No errands this time. If I point out something useful, you have my permission to remind me what we came out to do.",
+        favorite = { emote = "THANK", hint = "A little appreciation makes the time she spends helping others feel well given." },
+        lines = {
+            greet = { { "Welcome to Dolanaar. If you have brought elixirs, I will gladly look them over. If you have brought a little time to spare, that is welcome too. There is always another useful thing to do. I am trying to remember that a pleasant walk deserves a place among them.", tone = "[warm] [welcoming]" },
+                "Good to see you. Shall we finish the work, then find a moment outside it?" },
+            idle = { { "I chose this path because there seemed to be nothing worth gathering beside it. A sensible plan for an uninterrupted stroll. Then I noticed those leaves. And something useful just beyond them. Perhaps the path is perfectly innocent, and I am the one who needs a little practice at walking past.", tone = "[amused] [gentle]" },
+                "My husband can become quite absorbed in his work. I suppose I should be careful about claiming that never happens to me.",
+                "Denalan will be pleased when his supplies arrive. Waiting is difficult when an experiment is ready." },
+            befriended = { { "You have made room for a little company among all the tasks that need doing. I appreciate that more than you may realize. Come along. We can take a walk with no delivery at the end. If I stop to examine every plant, you may gently remind me of the plan.", tone = "[warm] [sincere]" } },
+            poke = { "Hm? Oh, I was only looking. I have not begun gathering anything yet.", "Another task? Or a welcome interruption from the tasks?" },
+            quest = { { "A supply of finished elixirs means less time spent mixing them, and a little more time my husband and I might spend together. I am happy to trade good herbs for careful work. Sometimes the most generous gift is helping someone finish in time to enjoy the rest of the day.", tone = "[affectionate] [hopeful]" } },
+            loot = { "Useful, perhaps. Though we need not turn everything we find into another errand." },
+            rest = { "Yes, let us stop. We need not earn every pleasant moment twice." },
+            zone = { "New paths. I wonder which one we can follow without inventing work for ourselves." },
+            learned = { "Care in your work matters. So does knowing when you have done enough for today." },
+            questAccepted = { "Consider who benefits before agreeing. Zenn is not the only one with a tempting promise." },
+            hearth = { "Back to Dolanaar. I hope there is still some evening left to share." },
+        },
+    },
+
     -- Apothecary Renferrel <Royal Apothecary Society>, Sepulcher, Silverpine.
     -- Adult male Forsaken, 1937/display 1661; current Horde-friendly.
     -- Quinn's potions, Society plague research, Bethor's magical assistance;

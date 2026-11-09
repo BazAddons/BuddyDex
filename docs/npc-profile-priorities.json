@@ -798,6 +798,20 @@
       "zone": "Teldrassil",
       "route": "Forsaken/Night Elf quest-giver coverage",
       "reason": "Exact current named adult body, reaction icon and pin checked; full own quest/service/literary research pending. See docs/research/dalar-and-syral-queue.md; Dalar current Horde-neutral icon is not a friendly-access claim"
+    },
+    {
+      "npc_id": 3007,
+      "name": "Una",
+      "zone": "Thunder Bluff",
+      "route": "Tauren/Night Elf profession coverage",
+      "reason": "Exact current named adult body, friendly faction icon, trainer service and pin checked; full own quest/service/literary research pending. See docs/research/una-and-zarrin-queue.md"
+    },
+    {
+      "npc_id": 6286,
+      "name": "Zarrin",
+      "zone": "Teldrassil",
+      "route": "Tauren/Night Elf profession coverage",
+      "reason": "Exact current named adult body, friendly faction icon, trainer service and pin checked; full own quest/service/literary research pending. See docs/research/una-and-zarrin-queue.md"
     }
   ]
 }

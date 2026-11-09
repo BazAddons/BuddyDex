@@ -356,4 +356,10 @@ Next checked identities: Apothecary Renferrel 1937 and Denalan 2080, [queue](ren
 
 Apothecary Renferrel 1937 and Denalan 2080 complete: full Forsaken/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](silverpine-six-hearts-and-lake-leaf-boats.md) preserves Forever's extra Quinn potion sequence, Society research and Denalan's actual successes and limits. Development total **364**, public friendly access Alliance 195, Horde 79, unverified 96 (six shared entries overlap). Installed/development-packaged; no publication.
 
-Next individually checked identities: Dalar Dawnweaver 1938 and Syral Bladeleaf 2083, [queue](dalar-and-syral-queue.md). Neither counted complete; Dalar's current Horde-neutral label is not a verified friendly-access claim.
+Next individually checked identities: Dalar Dawnweaver 1938 and Syral Bladeleaf 2083, [queue](dalar-and-syral-queue.md). Neither counted complete at this point; Dalar's current Horde-neutral label is not a verified friendly-access claim.
+
+### 2026-11-09: Sepulcher pride and Dolanaar time together
+
+Dalar Dawnweaver 1938 and Syral Bladeleaf 2083 complete: full Forsaken/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](sepulcher-apologies-and-dolanaar-detours.md) preserves ruthless Forever containment orders, unresolved worgen research, Syral's marriage/time concern and Council stance. Development total **366**; public friendly access Alliance 196, Horde 79, unverified 97, with six shared entries overlapping. Dalar's Horde-neutral label remains outside verified friendly coverage. Installed/development-packaged; no publication.
+
+Next checked profession pair: Una 3007 and Zarrin 6286, [queue](una-and-zarrin-queue.md). Neither counted complete. This rotates back to Tauren female and Night Elf male coverage.

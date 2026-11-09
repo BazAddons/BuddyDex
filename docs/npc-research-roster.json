@@ -1113,5 +1113,19 @@
     "zone": "Teldrassil",
     "source": "Exact current named adult body, faction-friendly icon and pin; complete own current/Classic relations, installed dialogue, connected quest chains, Forever potion changes, items and literary/era boundaries; no Scout sighting claimed",
     "research_notes": "docs/research/silverpine-six-hearts-and-lake-leaf-boats.md"
+  },
+  {
+    "npc_id": 1938,
+    "name": "Dalar Dawnweaver",
+    "zone": "Silverpine Forest",
+    "source": "Exact current named adult body and map pin; own current/Classic relations and installed dialogue, complete connected chains, Forever additions, item/book and literary/era checks; no Scout sighting claimed; Dalar current Horde-neutral access remains distinct from friendly coverage",
+    "research_notes": "docs/research/sepulcher-apologies-and-dolanaar-detours.md"
+  },
+  {
+    "npc_id": 2083,
+    "name": "Syral Bladeleaf",
+    "zone": "Teldrassil",
+    "source": "Exact current named adult body and map pin; own current/Classic relations and installed dialogue, complete connected chains, Forever additions, item/book and literary/era checks; no Scout sighting claimed; Dalar current Horde-neutral access remains distinct from friendly coverage",
+    "research_notes": "docs/research/sepulcher-apologies-and-dolanaar-detours.md"
   }
 ]

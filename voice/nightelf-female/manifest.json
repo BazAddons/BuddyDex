@@ -1,4 +1,44 @@
 {
+  "lore2083_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2083",
+    "spoken": "[warm] [sincere] You have made room for a little company among all the tasks that need doing. I appreciate that more than you may realize. Come along. We can take a walk with no delivery at the end. If I stop to examine every plant, you may gently remind me of the plan.",
+    "text": "You have made room for a little company among all the tasks that need doing. I appreciate that more than you may realize. Come along. We can take a walk with no delivery at the end. If I stop to examine every plant, you may gently remind me of the plan.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore2083_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2083",
+    "spoken": "[warm] [welcoming] Welcome to Dolanaar. If you have brought elixirs, I will gladly look them over. If you have brought a little time to spare, that is welcome too. There is always another useful thing to do. I am trying to remember that a pleasant walk deserves a place among them.",
+    "text": "Welcome to Dolanaar. If you have brought elixirs, I will gladly look them over. If you have brought a little time to spare, that is welcome too. There is always another useful thing to do. I am trying to remember that a pleasant walk deserves a place among them.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore2083_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2083",
+    "spoken": "[amused] [gentle] I chose this path because there seemed to be nothing worth gathering beside it. A sensible plan for an uninterrupted stroll. Then I noticed those leaves. And something useful just beyond them. Perhaps the path is perfectly innocent, and I am the one who needs a little practice at walking past.",
+    "text": "I chose this path because there seemed to be nothing worth gathering beside it. A sensible plan for an uninterrupted stroll. Then I noticed those leaves. And something useful just beyond them. Perhaps the path is perfectly innocent, and I am the one who needs a little practice at walking past.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore2083_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2083",
+    "spoken": "[affectionate] [hopeful] A supply of finished elixirs means less time spent mixing them, and a little more time my husband and I might spend together. I am happy to trade good herbs for careful work. Sometimes the most generous gift is helping someone finish in time to enjoy the rest of the day.",
+    "text": "A supply of finished elixirs means less time spent mixing them, and a little more time my husband and I might spend together. I am happy to trade good herbs for careful work. Sometimes the most generous gift is helping someone finish in time to enjoy the rest of the day.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore270581_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
