@@ -749,5 +749,19 @@
     "zone": "Orgrimmar",
     "source": "Exact current adult model and current/published identity; complete available quest chains and installed gossip reviewed; conditional or missing access evidence, no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-questions-and-common-remedies.md"
+  },
+  {
+    "npc_id": 3026,
+    "name": "Aska Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Exact current Horde-friendly adult Tauren model and city pin, training and full installed gossip reviewed; connected profession quest clusters and books read, no personal Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-suppers-and-fishing-verses.md"
+  },
+  {
+    "npc_id": 3028,
+    "name": "Kah Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Exact current Horde-friendly adult Tauren model and city pin, training and full installed gossip reviewed; connected profession quest clusters and books read, no personal Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-suppers-and-fishing-verses.md"
   }
 ]

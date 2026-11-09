@@ -2,8 +2,9 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **312 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **314 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
+- Add Aska and Kah Mistrunner, with full cooking/fishing trainer profiles and four approved Tauren v4 signatures each.
 - Add Kardris Dreamseeker, Sian'tsu and Yelmak, with four approved racial v4 signatures each, researched shaman referrals and Forever's practical alchemy lesson.
 - Add five shared Zephras Isle Buddies accessible to both Skyborne faction paths: Ailee Farheart, Rorian the Dayseeker, Nyalah Brightfire, Coriella Calmbreeze and Zerril Softbreeze.
 - Add Windshaper Boro and Aarnor Galestrike, each with a full profile and four signature recordings for Horde players, grounded in the complete earth- and fire-totem initiation chains.

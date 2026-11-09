@@ -1,3 +1,7 @@
+# Completed: Aska and Kah Mistrunner
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four approved Tauren v4 signatures each. Development now has 314 complete profiles. See [full research](thunder-bluff-suppers-and-fishing-verses.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Aska and Kah Mistrunner
 
 Identity shortlist, 2026-11-09, after 312 completed profiles. These profiles are not authored, voiced or counted complete. Continue underserved Horde city services with adult female and male Tauren, keeping normal live eligibility checks.

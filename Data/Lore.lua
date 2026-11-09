@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Aska Mistrunner, adult female Tauren Cooking Trainer, Thunder Bluff.
+    -- Facts: NPC 3026/display 2107, current cooking/campfire training;
+    -- installed lifelong-learning greeting and Wulan/Dirge referrals.
+    -- Her grand names for ordinary suppers are original BuddyDex fiction.
+    -- No later cooking dailies or invented Mistrunner family relationship.
+    -- Research: docs/research/thunder-bluff-suppers-and-fishing-verses.md.
+    [3026] = {
+        quote = "A fine name gets everyone to the table. A good meal keeps them there.",
+        likes = { "Ordinary food cooked with care", "An unhurried supper", "Someone asking for seconds" },
+        dislikes = { "Skipping meals to finish errands", "Scorched pots left for someone else", "A cook afraid to taste the broth" },
+        gossip = "Aska's latest culinary triumph sounds magnificent. Her students suspect it is the same stew with a grander name.",
+        bio = "Aska Mistrunner teaches cooking on Thunder Bluff's High Rise. She treats it as a lifelong pursuit, from the cooking fire onward, and directs advanced learners to Wulan's cookbook and Dirge's instruction.",
+        backstory = "After a long lesson, Aska announced a grand feast to get everyone to sit down. It was an ordinary supper. They lingered over it anyway, and she began giving her simplest dishes names worthy of the occasion.",
+        secret = "The grand names are for the company. Her favorite supper is whatever leaves her enough time to sit and eat with everyone else while it is still warm.",
+        bestFriend = "Tonight's grand occasion is you coming over. No speech needed. Pull up a seat while I find another bowl.",
+        favorite = { emote = "CHEER", hint = "Enjoys a little enthusiasm when supper is announced." },
+        lines = {
+            greet = { { "There you are! I have packed something for the road. I was going to give it a magnificent name, but I thought we had better taste it first.", tone = "[warm] [cheerful]" },
+                "Come along. There is time for a walk before supper." },
+            idle = { { "I announced a grand feast once, just to get everyone to sit down. It was stew. Nobody complained, and several people stayed long enough to help with the washing up.", tone = "[amused] [fond]" },
+                "That would be a lovely place to stop and eat.",
+                "Something smells good. I hope whoever is cooking gets a bowl, too." },
+            befriended = { { "I am glad you came. We can call tonight a celebration if you like, but I would be just as happy sharing a plain supper and hearing about your day.", tone = "[affectionate] [sincere]" } },
+            poke = { "If you are hungry, you can simply say so.", "Careful. I have the lunch in that hand." },
+            learned = { { "Start with a fire you can cook over, then give the food your attention. There will be time for elaborate recipes. A simple meal done well is already worth learning.", tone = "[patient] [encouraging]" } },
+            rest = { "Sit while it is warm. We can think about the dishes afterward." },
+            quest = { "Errands finished? Good. When did you last have a proper meal?" },
+            loot = { "Keep the ingredients away from those muddy boots." },
+            bagsFull = { "Leave a little room for lunch. You will thank yourself later." },
+            levelUp = { "Another reason to celebrate. I shall need a longer name for supper." },
+            combatEnd = { "Everyone here? Take a moment. The food can wait." },
+        },
+    },
+
+    -- Kah Mistrunner, adult male Tauren Fishing Trainer, Thunder Bluff.
+    -- Facts: NPC 3028/display 2088; installed fishing instruction and
+    -- referrals to Heming's skill book and Nat Pagle. Classic basic ranks.
+    -- His awkward fishing verses are ours; no retail dailies or kinship.
+    -- Research: docs/research/thunder-bluff-suppers-and-fishing-verses.md.
+    [3028] = {
+        quote = "Keep an eye on the float. I may be thinking of a rhyme, but the fish do not wait for the last line.",
+        likes = { "A well-tied fishing line", "A companion who enjoys bad verse", "The first ripple on quiet water" },
+        dislikes = { "Hooks left where feet can find them", "Jerking the line too soon", "Losing a rhyme just before a bite" },
+        gossip = "Kah has been counting on his fingers beside the water. His students think it is catches. It may be syllables.",
+        bio = "Kah Mistrunner teaches fishing on Thunder Bluff's High Rise. When a learner needs more than he can offer, he points toward Old Man Heming's fishing book in Booty Bay or Nat Pagle in Dustwallow Marsh.",
+        backstory = "A long wait for a bite gave Kah time to put a few words together. The next cast supplied another line. Now he carries scraps for little fishing verses, though he sometimes has to choose between a rhyme and a rising float.",
+        secret = "His favorite verse has a dreadful ending. He keeps it because the friend who first heard it laughed so hard that Kah forgot to be embarrassed.",
+        bestFriend = "I have another verse. You may laugh before the ending this time. I rather like knowing you will stay to hear it.",
+        favorite = { emote = "GRIN", hint = "A little amusement helps him share his latest verse." },
+        lines = {
+            greet = { { "Good to see you. I brought my line and a little verse I have been working on. We can try the fishing first, if you would like to postpone the verse.", tone = "[warm] [dryly amused]" },
+                "Come along. I wonder what the water is doing today." },
+            idle = { { "I had a fine last line a moment ago. Then the float moved, and I lost both the rhyme and the fish. I shall have to be less ambitious next time.", tone = "[amused] [unhurried]" },
+                "That ripple would fit in a verse. If I had the words for it.",
+                "Give me a moment. I am counting syllables, not fish." },
+            befriended = { { "I have enjoyed our time together. There is a seat beside me whenever you want it. I cannot promise a good catch, or good poetry, but I can promise the company.", tone = "[warm] [sincere]" } },
+            poke = { "Did the float move, or was that you?", "Careful. The hook is real, even when the story is poor." },
+            learned = { { "A steady cast, a sound knot, and your eyes on the water. We can practice those together. Save a little patience for yourself as well as for the fish.", tone = "[patient] [reassuring]" } },
+            loot = { "Keep the loose hooks wrapped. I have learned that lesson." },
+            rest = { "A good seat. Let us give it a proper trial." },
+            levelUp = { "You are improving. My rhymes have some catching up to do." },
+            quest = { "Well done. Tell me about it while we put the gear away." },
+            bagsFull = { "Room for one more fish? Perhaps we should have checked sooner." },
+            combatEnd = { "Take a breath. No need to hurry the next step." },
+        },
+    },
+
     -- Kardris Dreamseeker, Orc female Shaman Trainer, Orgrimmar, NPC 3344.
     -- Facts: installed spirit greetings; Classic Elemental Mastery referral
     -- to Bath'rah. No later Wavebinder/Dark Shaman history is imported.

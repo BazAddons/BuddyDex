@@ -434,6 +434,20 @@
       "zone": "Thunder Bluff",
       "route": "Female Tauren cooking and male Tauren fishing services",
       "reason": "Exact current adult models, Horde-friendly icons and city pins checked; full personal profession/quest/gossip/literary review pending. See docs/research/thunder-bluff-cooking-and-fishing-queue.md"
+    },
+    {
+      "npc_id": 4047,
+      "name": "Zor Lonetree",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar and Stonetalon approach quest investigation",
+      "reason": "Exact current adult male/female Orc models and city/Barrens pins checked; Neutral versus Horde-friendly access qualified. Full personal quest/gossip/literary review pending. See docs/research/zor-and-seereth-queue.md"
+    },
+    {
+      "npc_id": 4049,
+      "name": "Seereth Stonebreak",
+      "zone": "The Barrens",
+      "route": "Orgrimmar and Stonetalon approach quest investigation",
+      "reason": "Exact current adult male/female Orc models and city/Barrens pins checked; Neutral versus Horde-friendly access qualified. Full personal quest/gossip/literary review pending. See docs/research/zor-and-seereth-queue.md"
     }
   ]
 }

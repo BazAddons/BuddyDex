@@ -199,6 +199,46 @@
     "text": "There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3028_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3028",
+    "spoken": "[warm] [sincere] I have enjoyed our time together. There is a seat beside me whenever you want it. I cannot promise a good catch, or good poetry, but I can promise the company.",
+    "text": "I have enjoyed our time together. There is a seat beside me whenever you want it. I cannot promise a good catch, or good poetry, but I can promise the company.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3028_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3028",
+    "spoken": "[warm] [dryly amused] Good to see you. I brought my line and a little verse I have been working on. We can try the fishing first, if you would like to postpone the verse.",
+    "text": "Good to see you. I brought my line and a little verse I have been working on. We can try the fishing first, if you would like to postpone the verse.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3028_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3028",
+    "spoken": "[amused] [unhurried] I had a fine last line a moment ago. Then the float moved, and I lost both the rhyme and the fish. I shall have to be less ambitious next time.",
+    "text": "I had a fine last line a moment ago. Then the float moved, and I lost both the rhyme and the fish. I shall have to be less ambitious next time.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3028_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3028",
+    "spoken": "[patient] [reassuring] A steady cast, a sound knot, and your eyes on the water. We can practice those together. Save a little patience for yourself as well as for the fish.",
+    "text": "A steady cast, a sound knot, and your eyes on the water. We can practice those together. Save a little patience for yourself as well as for the fish.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3061_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

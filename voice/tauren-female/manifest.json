@@ -1,4 +1,44 @@
 {
+  "lore3026_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3026",
+    "spoken": "[affectionate] [sincere] I am glad you came. We can call tonight a celebration if you like, but I would be just as happy sharing a plain supper and hearing about your day.",
+    "text": "I am glad you came. We can call tonight a celebration if you like, but I would be just as happy sharing a plain supper and hearing about your day.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3026_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3026",
+    "spoken": "[warm] [cheerful] There you are! I have packed something for the road. I was going to give it a magnificent name, but I thought we had better taste it first.",
+    "text": "There you are! I have packed something for the road. I was going to give it a magnificent name, but I thought we had better taste it first.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3026_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3026",
+    "spoken": "[amused] [fond] I announced a grand feast once, just to get everyone to sit down. It was stew. Nobody complained, and several people stayed long enough to help with the washing up.",
+    "text": "I announced a grand feast once, just to get everyone to sit down. It was stew. Nobody complained, and several people stayed long enough to help with the washing up.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3026_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3026",
+    "spoken": "[patient] [encouraging] Start with a fire you can cook over, then give the food your attention. There will be time for elaborate recipes. A simple meal done well is already worth learning.",
+    "text": "Start with a fire you can cook over, then give the food your attention. There will be time for elaborate recipes. A simple meal done well is already worth learning.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3062_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
