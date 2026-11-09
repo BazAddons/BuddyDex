@@ -79,6 +79,46 @@
     "text": "Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3333_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3333",
+    "spoken": "[sincere] [warm] I enjoy your company, my friend. Let us find a little time that need not be spent buying, selling or proving what we can catch. I would be glad simply to have you along.",
+    "text": "I enjoy your company, my friend. Let us find a little time that need not be spent buying, selling or proving what we can catch. I would be glad simply to have you along.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3333_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3333",
+    "spoken": "[warm] [easygoing] Good to see you. Have you brought a little patience with you? We need not be going fishing to make use of it. A walk and a good story can take their time, too.",
+    "text": "Good to see you. Have you brought a little patience with you? We need not be going fishing to make use of it. A walk and a good story can take their time, too.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3333_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3333",
+    "spoken": "[wry] [content] The fish was a little larger than that. In this telling, at least. The afternoon was exactly as pleasant as I remember, and that is the part I am not improving.",
+    "text": "The fish was a little larger than that. In this telling, at least. The afternoon was exactly as pleasant as I remember, and that is the part I am not improving.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3333_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3333",
+    "spoken": "[practical] [friendly] Keep the hooks covered and the useful gear together. It is easier to enjoy an outing when finding what you need does not involve emptying your whole bag beside the water.",
+    "text": "Keep the hooks covered and the useful gear together. It is easier to enjoy an outing when finding what you need does not involve emptying your whole bag beside the water.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore3338_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

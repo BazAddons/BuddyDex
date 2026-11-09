@@ -1,5 +1,7 @@
 # Next: Orgrimmar lessons, fishing and zeppelin travel
 
+**Completed 2026-11-09:** all three profiles have fifteen personal lines and four selected racial v4 signatures each. See [full research](orgrimmar-quiet-lessons-and-departures.md), including complete Hand training missions, exposed fishing stock and Snurk's actual route/family gossip. The two Neutral entries retain ordinary conditional access. Development now has 306 complete profiles. The pending text below preserves the original investigation.
+
 Identity shortlist, 2026-11-09, after 303 completed profiles. Rotate from the growing Crossroads/Sen'jin set toward useful services in and around Orgrimmar, across male Troll, female Orc and female Goblin voices. None of these three is authored, recorded or counted complete. No personal Scout encounter is claimed. Ordinary live reaction/non-attackability and named/adult gates remain required.
 
 ## Shenthul, 3401

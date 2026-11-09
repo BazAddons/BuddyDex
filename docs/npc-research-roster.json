@@ -686,5 +686,26 @@
     "zone": "Durotar",
     "source": "Reviewed exact current Horde-friendly adult Orc/Troll model, location, complete Classic and Forever memorial/Matriarch quests with installed/current text and era limits; no Scout sighting claimed",
     "research_notes": "docs/research/mankriks-memorial-and-xartis-hatchlings.md"
+  },
+  {
+    "npc_id": 3401,
+    "name": "Shenthul",
+    "zone": "Orgrimmar",
+    "source": "Reviewed exact adult Troll/Orc/Goblin model, current/published Forever location and access, complete training missions or verified fishing stock/zeppelin gossip, with installed text and era limits; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-quiet-lessons-and-departures.md"
+  },
+  {
+    "npc_id": 3333,
+    "name": "Shankys",
+    "zone": "Orgrimmar",
+    "source": "Reviewed exact adult Troll/Orc/Goblin model, current/published Forever location and access, complete training missions or verified fishing stock/zeppelin gossip, with installed text and era limits; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-quiet-lessons-and-departures.md"
+  },
+  {
+    "npc_id": 12136,
+    "name": "Snurk Bucksquick",
+    "zone": "Durotar",
+    "source": "Reviewed exact adult Troll/Orc/Goblin model, current/published Forever location and access, complete training missions or verified fishing stock/zeppelin gossip, with installed text and era limits; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-quiet-lessons-and-departures.md"
   }
 ]

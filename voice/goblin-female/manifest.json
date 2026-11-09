@@ -38,5 +38,45 @@
     "spoken": "[practical friendly encouragement, wry confidence, lively sincerity] Good. Now give yourself a chance to use what you have learned. You do not have to produce a masterpiece before the effort counts. Make something useful, notice where it could be better, and try again when you are ready. I have a crooked little pouch that has been very helpful in explaining that to me.",
     "text": "Good. Now give yourself a chance to use what you have learned. You do not have to produce a masterpiece before the effort counts. Make something useful, notice where it could be better, and try again when you are ready. I have a crooked little pouch that has been very helpful in explaining that to me.",
     "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore12136_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12136",
+    "spoken": "[sincere] [bright warmth] You have become someone I look forward to seeing, even when there is no trip to explain. Let us have some time together, my friend. I would like a little company that is staying with me.",
+    "text": "You have become someone I look forward to seeing, even when there is no trip to explain. Let us have some time together, my friend. I would like a little company that is staying with me.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore12136_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12136",
+    "spoken": "[upbeat] [playful] There you are! A little company for me this time. Tell me we can go somewhere without my having to explain the departure first. I would enjoy hearing about your day instead.",
+    "text": "There you are! A little company for me this time. Tell me we can go somewhere without my having to explain the departure first. I would enjoy hearing about your day instead.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore12136_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12136",
+    "spoken": "[dreamy] [wry] Shade, a cool drink, and nobody asking when the next zeppelin leaves. That is a very fine holiday plan. I keep resisting the temptation to give it a timetable.",
+    "text": "Shade, a cool drink, and nobody asking when the next zeppelin leaves. That is a very fine holiday plan. I keep resisting the temptation to give it a timetable.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore12136_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:12136",
+    "spoken": "[pleased] [lighthearted] Off we go. It is rather pleasant being the one who gets to travel for a change. I may enjoy the view before I think of another useful thing to tell the passenger.",
+    "text": "Off we go. It is rather pleasant being the one who gets to travel for a change. I may enjoy the view before I think of another useful thing to tell the passenger.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
   }
 }

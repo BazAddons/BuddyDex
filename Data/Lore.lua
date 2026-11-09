@@ -42,6 +42,103 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Shenthul (3401), adult male Troll Rogue Trainer, Cleft of Shadow, Orgrimmar.
+    -- Display 4360 / race 8 sex 0; published Forever Horde reaction/location.
+    -- Shattered Hand introductions, salute, Fizzule mission and Hinott referral.
+    -- Crisp-snack habit is original; no invented political plot or field casualty.
+    -- Research: docs/research/orgrimmar-quiet-lessons-and-departures.md.
+    [3401] = {
+        quote = "Watch the whole demonstration. Confidence becomes useful after understanding, and a mistake in the field costs more than a little wounded pride.",
+        likes = { "Students watching before they act", "Company that can keep a confidence", "A properly crisp bite between lessons" },
+        dislikes = { "Bravado offered instead of attention", "A signal given in the wrong order", "Wrapping louder than the footsteps" },
+        gossip = "Shenthul has much to say about moving quietly. A crisp snack between lessons has proved rather harder to keep unnoticed.",
+        bio = "Shenthul trains rogues of the Shattered Hand in Orgrimmar's Cleft of Shadow. He teaches its salute, sends agents to Fizzule and directs a poisoned operative to Serge Hinott. His loyalty is to an order he says will outlast Thrall.",
+        backstory = "A crisp snack made a pleasant break between lessons, until the wrapping announced it to the room. He began opening it beforehand. That solved one noise, but the first bite still made his quiet little pause considerably less secret.",
+        secret = "He has accepted that some pleasures are not silent. A friend who notices the crunch and leaves him to enjoy it has understood more than an apprentice who makes a speech.",
+        bestFriend = "You may stay. No demonstration, no report. I trust you to know when a quiet moment is simply a quiet moment, my friend.",
+        favorite = { emote = "SALUTE", hint = "Observe the teacher's greeting and return it with care." },
+        lines = {
+            greet = { { "There you are. We can walk together for a while. Pay attention to what is around you, but you need not report every observation. I am allowing myself a little company.", tone = "[measured] [dry warmth]" },
+                "Good. You noticed me before beginning your speech." },
+            idle = { { "Yes, that was a crunch. The wrapping has already been dealt with. I have decided that a pleasant bite between lessons need not become another exercise in stealth.", tone = "[wry] [quietly amused]" },
+                "The Hand existed before Thrall. Do not mistake a change in leadership for an end to our work.",
+                "A useful signal is one the other person recognizes." },
+            befriended = { { "You have become someone whose company I choose, rather than someone awaiting instruction. That is a useful distinction, my friend. Let us have a little time together without a mission attached.", tone = "[sincere] [restrained warmth]" } },
+            poke = { "Attention obtained. State your purpose.", "The snack has already announced me. You need not help it." },
+            learned = { { "You watched, understood, and then acted. Keep that order in mind. A lesson practiced carefully here may spare you a much less forgiving correction when you are in the field.", tone = "[firm] [approving]" } },
+            quest = { "A clear report. Good. Now consider what you learned." },
+            combatStart = { "Keep your attention where it belongs." },
+            combatEnd = { "Still standing? Good. Attend to what comes next." },
+            rest = { "A quiet pause. Try not to turn it into a performance." },
+            loot = { "Know what you have taken before deciding it is useful." },
+            levelUp = { "Progress. Do not let it make you careless." },
+        },
+    },
+
+    -- Shankys (3333), adult female Orc Fishing Supplies, Valley of Honor, Orgrimmar.
+    -- Current Neutral display 1333 / race 2 sex 1. Eight exposed current stock rows,
+    -- including Forever Chef's Knife and three fish recipes; no personal quests/gossip.
+    -- Growing fish tale is original. Research: orgrimmar-quiet-lessons-and-departures.md.
+    [3333] = {
+        quote = "Take a pole and the tackle you need. There will be time afterward to decide how large the fish was when you tell the story.",
+        likes = { "Tackle checked before leaving the shop", "A patient afternoon beside the water", "A fish tale told with a straight face" },
+        dislikes = { "A hook left loose among the supplies", "Blaming every missed bite on the lure", "Interruptions before the best part" },
+        gossip = "Shankys has a favorite fishing story. The fish seems to gain a little size each time she tells it, though the afternoon stays pleasantly quiet.",
+        bio = "Shankys sells fishing supplies in Orgrimmar's Valley of Honor. Poles, lures and fish recipes help anglers prepare for the water. Her current Forever wares also include a Chef's Knife. She supplies the outing rather than promising the catch.",
+        backstory = "One pleasant afternoon gave her a fish and a story worth keeping. In the telling, the fish acquired a little more length. She noticed, enjoyed the effect and let the next version grow, saving the smallest details for someone who knew her well.",
+        secret = "The fish was quite ordinary. The afternoon was the part she wanted back: no hurry, a comfortable place and time to watch the water. She can admit that to a friend.",
+        bestFriend = "I will tell you the true size this time, my friend. Sit beside me. The good part of the story was never going anywhere quickly.",
+        favorite = { emote = "WINK", hint = "A knowing look tells her you have noticed the size of the tale." },
+        lines = {
+            greet = { { "Good to see you. Have you brought a little patience with you? We need not be going fishing to make use of it. A walk and a good story can take their time, too.", tone = "[warm] [easygoing]" },
+                "There you are. I have remembered another detail about that fish." },
+            idle = { { "The fish was a little larger than that. In this telling, at least. The afternoon was exactly as pleasant as I remember, and that is the part I am not improving.", tone = "[wry] [content]" },
+                "A lure is worth checking before you need an excuse.",
+                "Nobody has ever packed enough patience into a tackle bag." },
+            befriended = { { "I enjoy your company, my friend. Let us find a little time that need not be spent buying, selling or proving what we can catch. I would be glad simply to have you along.", tone = "[sincere] [warm]" } },
+            poke = { "Wait until I finish explaining the size of it.", "Yes? Do you need tackle, or have you caught me improving the story?" },
+            loot = { { "Keep the hooks covered and the useful gear together. It is easier to enjoy an outing when finding what you need does not involve emptying your whole bag beside the water.", tone = "[practical] [friendly]" } },
+            bagsFull = { "That is a lot to keep out of the water." },
+            rest = { "A comfortable pause. We could do with more of those." },
+            quest = { "Errand done. Perhaps the rest of the day can wait a moment." },
+            learned = { "Good. Practice will tell you more than another excuse." },
+            hearth = { "Familiar ground. A good place to begin the next story." },
+            levelUp = { "Another success. That deserves a tale of its own." },
+        },
+    },
+
+    -- Snurk Bucksquick (12136), adult female Goblin Zeppelin Master, outside Orgrimmar.
+    -- Current Neutral display 12229 / race 9 sex 1, Durotar pin. Installed gossip:
+    -- Grom'gol/Stranglethorn, wants vacation, Frezza is brother. No personal quests found.
+    -- Private holiday list is original. Research: orgrimmar-quiet-lessons-and-departures.md.
+    [12136] = {
+        quote = "Grom'gol, tropical air, a little time to yourself. I can describe the trip beautifully. One day I would like to be the one taking it.",
+        likes = { "A passenger ready before departure", "The thought of shade in Stranglethorn", "A holiday list with no timetable" },
+        dislikes = { "Watching everyone else take the trip", "Repeating the departure answer all day", "A vacation planned like a work shift" },
+        gossip = "Snurk makes Stranglethorn sound like paradise. Her own holiday is planned, apart from the inconvenient matter of leaving her post.",
+        bio = "Snurk Bucksquick tends the Grom'gol zeppelin route outside Orgrimmar. She advertises Stranglethorn's tropical pleasures while enduring the heat herself. Her brother Frezza is familiar company at the post, if hardly a vacation.",
+        backstory = "Describing pleasant journeys to passengers gave her plenty of ideas for a trip of her own. She began a small holiday list: shade, a cool drink and time beside the water. The list stayed short whenever she remembered it was meant to be a break.",
+        secret = "The first thing she wants is someone else answering the departure questions. Once that is arranged, she suspects she could be perfectly happy doing almost nothing at all.",
+        bestFriend = "You can come along when I finally take that break, my friend. Just promise you will not ask me when the next zeppelin leaves.",
+        favorite = { emote = "CHEER", hint = "A little enthusiasm for her own future trip would brighten the shift." },
+        lines = {
+            greet = { { "There you are! A little company for me this time. Tell me we can go somewhere without my having to explain the departure first. I would enjoy hearing about your day instead.", tone = "[upbeat] [playful]" },
+                "A change of scene? You have my attention." },
+            idle = { { "Shade, a cool drink, and nobody asking when the next zeppelin leaves. That is a very fine holiday plan. I keep resisting the temptation to give it a timetable.", tone = "[dreamy] [wry]" },
+                "Frezza again. I love my brother, but he is not a tropical view.",
+                "I can make a journey sound wonderful. It would be nice to enjoy one myself." },
+            befriended = { { "You have become someone I look forward to seeing, even when there is no trip to explain. Let us have some time together, my friend. I would like a little company that is staying with me.", tone = "[sincere] [bright warmth]" } },
+            poke = { "Yes? Please let it be a holiday suggestion.", "Attention secured. Now surprise me with a question about something else." },
+            taxi = { { "Off we go. It is rather pleasant being the one who gets to travel for a change. I may enjoy the view before I think of another useful thing to tell the passenger.", tone = "[pleased] [lighthearted]" } },
+            landed = { "A new view and my feet on the ground. I can appreciate both." },
+            rest = { "There. This is the part my holiday list keeps getting right." },
+            zone = { "A change of scenery. That is already a promising start." },
+            quest = { "Work finished? Good. Save a little of the day for yourself." },
+            hearth = { "Back again. Perhaps we can keep a little of the holiday feeling." },
+            bagsFull = { "Leave room for the part of the trip you did not plan." },
+        },
+    },
+
     -- Mankrik (3432), adult male Orc, Crossroads, The Barrens.
     -- Current Horde-friendly display 3855 / race 2 sex 0. 4921 separation and loss,
     -- 899 vengeance, Forever 95774 Olgra's adornments/memorial; Thork and rebuild gossip.

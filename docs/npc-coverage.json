@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 303,
+  "completed_profiles": 306,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 71,
-    "horde": 46
+    "unverified": 73,
+    "horde": 47
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,9 +14,9 @@
     "5": 26,
     "4": 11,
     "6": 14,
-    "2": 10,
-    "8": 9,
-    "9": 2,
+    "2": 11,
+    "8": 10,
+    "9": 3,
     "96": 3,
     "95": 5
   },
@@ -31,8 +31,8 @@
     "Tirisfal Glades": 25,
     "Teldrassil": 5,
     "Mulgore": 10,
-    "Durotar": 13,
-    "Orgrimmar": 2,
+    "Durotar": 14,
+    "Orgrimmar": 4,
     "The Barrens": 8,
     "Thunder Bluff": 1,
     "Silverpine Forest": 1,
@@ -2151,6 +2151,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3310"
     },
     {
+      "npc_id": 3333,
+      "name": "Shankys",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3333"
+    },
+    {
       "npc_id": 3338,
       "name": "Sergra Darkthorn",
       "zone": "The Barrens",
@@ -2160,6 +2171,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Neutral with Horde icon; not an explicit friendly listing or non-attackable proof; live neutral non-attackable access required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3338"
+    },
+    {
+      "npc_id": 3401,
+      "name": "Shenthul",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde friendly (published Forever reaction)",
+      "source_url": "https://www.wowhead.com/forever/npc=3401/shenthul"
     },
     {
       "npc_id": 3418,
@@ -3334,6 +3358,17 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
+    },
+    {
+      "npc_id": 12136,
+      "name": "Snurk Bucksquick",
+      "zone": "Durotar",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12136"
     },
     {
       "npc_id": 12336,
