@@ -713,8 +713,44 @@
       "status": "complete"
     },
     {
+      "npc_id": 1736,
+      "name": "Deathguard Randolph",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1739,
+      "name": "Deathguard Phillip",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 1740,
       "name": "Deathguard Saltain",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1741,
+      "name": "Deathguard Bartrand",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1889,34 +1925,6 @@
       "npc_id": 1429,
       "name": "Thurman Schneider",
       "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1741,
-      "name": "Deathguard Bartrand",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1737,
-      "name": "Deathguard Oliver",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1739,
-      "name": "Deathguard Phillip",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1736,
-      "name": "Deathguard Randolph",
-      "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
     }

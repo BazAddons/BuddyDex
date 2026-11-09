@@ -7906,7 +7906,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -8241,7 +8241,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -8271,7 +8271,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -8325,7 +8325,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -39004,6 +39004,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Deathguard Oliver",
+      "zone": "Tirisfal Glades",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
       "npc_id": 2123,
       "name": "Dark Cleric Duesten",
       "source": "Existing local backlog; absent from source filter",
@@ -39461,17 +39472,6 @@
       "scout_observed": true,
       "scout_name": "Billy",
       "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1737,
-      "name": "Deathguard Oliver",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Deathguard Oliver",
-      "zone": "Tirisfal Glades",
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "pending_identity_and_lore_research"

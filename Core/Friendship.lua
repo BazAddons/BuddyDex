@@ -279,7 +279,7 @@ for role in ([[guard guards guardian guardsman patroller sentinel grunt footman 
     deathguard bluffwatcher watcher watchman lookout defender soldier marine sailor worker laborer
     miner militia militiaman mountaineer rifleman protector trooper cadet recruit peacekeeper
     warder watch townsfolk townsperson civilian civilians commoner refugee refugees
-    citizens orphan tourist visitor]]):gmatch("%a+") do
+    citizens orphan tourist visitor veteran]]):gmatch("%a+") do
     ROLES[role] = true
 end
 

@@ -527,10 +527,11 @@ step("one of many, or someone", function()
     local is = ns.Friendship.IsSomeone
     for _, name in ipairs({ "Stormwind City Guard", "Ironforge Mountaineer", "Orgrimmar Grunt", "Darnassus Sentinel",
         "Undercity Guardian", "Thunder Bluff Bluffwatcher", "Protector of the People", "Stormwind City Patroller",
-        "Stormwind Citizen", "Stormwind Civilian", "Stormwind City Watch", "Townsfolk" }) do
+        "Stormwind Citizen", "Stormwind Civilian", "Stormwind City Watch", "Townsfolk", "Dwarf Guard", "Deathguard Veteran" }) do
         assert(not is(name, 1), name .. " counted as someone")
     end
-    for _, name in ipairs({ "Guard Thomas", "Mountaineer Kadrell", "Thor", "Auctioneer Lympkin", "Gina MacGregor", "Jenn Langston" }) do
+    for _, name in ipairs({ "Guard Thomas", "Mountaineer Kadrell", "Thor", "Auctioneer Lympkin", "Gina MacGregor", "Jenn Langston",
+        "Deathguard Bartrand", "Deathguard Oliver", "Deathguard Phillip", "Deathguard Randolph" }) do
         assert(is(name, 1), name .. " counted as one of many")
     end
     ns.Lore[68] = { quote = "Move along." }
