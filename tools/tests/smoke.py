@@ -221,7 +221,27 @@ step("trading starts a friendship", function()
     assert(e, "no friend")
     assert(e.points == 60, "points " .. tostring(e.points))
     assert(e.title == "Auctioneer" and e.zone == "Ironforge", "snapshot")
+    local portrait = MOCK.portraits[#MOCK.portraits]
+    assert(not e.display and portrait and portrait.unit == "npc" and portrait.guid == LYMPKIN.guid,
+        "first-meeting toast did not show the live NPC headshot")
     assert(Printed("Friendship with Auctioneer Lympkin increased by 60"), "no chat line")
+end)
+
+step("toast portraits use matching units or cached displays, never another NPC", function()
+    local saved = MOCK.units.npc
+    MOCK.units.npc = nil
+    MOCK.units.target = LYMPKIN
+    local entry = { name = "Portrait Test", type = "Humanoid", class = "normal", points = 25, display = 4321 }
+    ns.Bus:TriggerEvent(ns.Event.FriendshipGained, 990010, entry, 25, "dev", 1, 1)
+    local portrait = MOCK.portraits[#MOCK.portraits]
+    assert(portrait and portrait.display == 4321 and not portrait.unit,
+        "toast used an unrelated target instead of its cached portrait")
+    local count = #MOCK.portraits
+    entry.display = nil
+    ns.Bus:TriggerEvent(ns.Event.FriendshipGained, 990010, entry, 25, "dev", 1, 1)
+    assert(#MOCK.portraits == count, "unknown NPC toast used somebody else's headshot")
+    MOCK.units.npc = saved
+    MOCK.units.target = nil
 end)
 
 step("the daily cap, though a visit still updates where they are", function()

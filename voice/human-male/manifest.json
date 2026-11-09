@@ -1,4 +1,40 @@
 {
+  "lore234_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:234",
+    "spoken": "[warmly] You have my trust. That means more to me than another name on a muster roll.",
+    "text": "You have my trust. That means more to me than another name on a muster roll."
+  },
+  "lore234_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:234",
+    "spoken": "[steady] Come. Let us see what help we can offer beyond the hill.",
+    "text": "Come. Let us see what help we can offer beyond the hill."
+  },
+  "lore234_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:234",
+    "spoken": "[thoughtfully] One day, the loudest thing in these fields will be a harvest wagon.",
+    "text": "One day, the loudest thing in these fields will be a harvest wagon."
+  },
+  "lore234_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:234",
+    "spoken": "[thoughtfully] Useful work. Let us hope it brings someone a little closer to home.",
+    "text": "Useful work. Let us hope it brings someone a little closer to home."
+  },
   "lore240_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

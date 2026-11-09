@@ -507,7 +507,14 @@ end
 function StopSound(handle) MOCK.stopped = handle end
 SOUNDKIT = setmetatable({}, { __index = function(_, k) MOCK.sounds[k] = true return k end })
 GREEN_FONT_COLOR = CreateColor(0.1, 1, 0.1)
-function SetPortraitTextureFromCreatureDisplayID() end
+MOCK.portraits = {}
+function SetPortraitTexture(texture, unit)
+    MOCK.portraits[#MOCK.portraits + 1] = { texture = texture, unit = unit,
+        guid = UnitGUID(unit) }
+end
+function SetPortraitTextureFromCreatureDisplayID(texture, display)
+    MOCK.portraits[#MOCK.portraits + 1] = { texture = texture, display = display }
+end
 
 -- Scroll lists, selection and menus ---------------------------------------------------
 

@@ -83,6 +83,44 @@ ns.Lore = {
         },
     },
 
+    -- Gryan Stoutmantle <The People's Militia>, Sentinel Hill, Westfall.
+    -- Human, male; NPC 234. Facts: paladin leading the local militia.
+    -- The People's Militia (12/13/14) defends Westfall's farms; its last
+    -- completion recalls his return from Lordaeron. The Defias investigation
+    -- follows evidence through Wiley and Shaw; quest 166 explicitly regrets
+    -- condemning VanCleef. No later promotion, Northrend or Vanessa events.
+    -- The wheat-seed pouch and personal dialogue are BuddyDex fiction.
+    -- Sources and chronology: docs/research/gryan-stoutmantle.md.
+    [234] = {
+        quote = "A field belongs to the people who tend it. Until they can work in peace, our duty here is not finished.",
+        likes = { "A field ready for sowing", "Volunteers who keep their word", "Supplies reaching Sentinel Hill" },
+        dislikes = { "Abandoned farmhouses", "Reinforcements that never arrive", "Treating a death sentence lightly" },
+        gossip = "The militia jokes that Gryan guards one little belt pouch more closely than the battle plans. No one's seen a coin come out of it.",
+        bio = "Gryan Stoutmantle leads the People's Militia from Sentinel Hill. The paladin rallies volunteers "
+            .. "against the Defias and seeks evidence of their plans. His cause is the people of Westfall and the farms they should be free to tend.",
+        backstory = "He returned from the battlefields of Lordaeron to find his homeland overrun. Rather than wait "
+            .. "for an army that never came, he gathered a militia. War had followed him home, but this time he could put a name to every field he defended.",
+        secret = "The pouch holds wheat seed. He carries it to remember what victory is for. He doesn't know whether it will still sprout. He keeps it dry anyway.",
+        bestFriend = "When the fields are safe, help me plant a row. No banners, no speeches. I'd like to see something grow for a change.",
+        favorite = { emote = "PRAY", hint = "Finds strength in a quiet moment with the Light." },
+        lines = {
+            greet = { { "Come. Let us see what help we can offer beyond the hill.", tone = "[steady]" },
+                "A little company on the road. I would welcome that." },
+            idle = { { "One day, the loudest thing in these fields will be a harvest wagon.", tone = "[thoughtfully]" },
+                "A militia is only as strong as the neighbors willing to stand together.",
+                "Keep that pouch dry. There is something in it I hope to need someday." },
+            befriended = { { "You have my trust. That means more to me than another name on a muster roll.", tone = "[warmly]" } },
+            poke = { "I am listening, friend. You need not test the armor.", "At ease. We can speak without a summons." },
+            quest = { { "Useful work. Let us hope it brings someone a little closer to home.", tone = "[thoughtfully]" } },
+            combatStart = { "Stand together. Leave no one isolated." },
+            combatEnd = { "See to the wounded. The rest can wait." },
+            levelUp = { "Strength well earned. May you find worthy use for it." },
+            zone = { "Someone calls this place home. Remember that as we pass through." },
+            loot = { "Take what is useful. There are people counting on these supplies." },
+            hearth = { "A roof and a little rest. We should be grateful for both." },
+        },
+    },
+
     -- William Pestle, Lion's Pride Inn, Goldshire. Human, male; NPC 253.
     -- Facts: runs Pestle's Apothecary with his brother Morgan in Stormwind;
     -- gathers kobold candle wax and sends Morgan a shipment (60 -> 61).

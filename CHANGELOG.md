@@ -17,13 +17,14 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - Befriend named NPCs who have no dialogue by targeting them and using a friendly emote. Ordinary and favorite emote gains each have their own daily limit; generic NPCs such as Stormwind City Guards remain excluded.
 - Choose friendly emotes from the **BuddyDex Emotes** submenu on eligible NPC unit frames. Menu actions use the selected NPC directly and verify its identity before sending. Chat emotes such as `/hi`, `/kiss`, `/bow` and `/hug` are recognized through Forever's current emote API.
 - Browse your friends in a searchable journal with 3D models, animation previews, and friendship progress.
+- Friendship toasts show the NPC's headshot from the current interaction or cached portrait data, including on a first meeting when the NPC is available.
 - Set waypoints to friends' last recorded meeting locations, with TomTom support when available.
 
 ### Bring a Buddy Along
 
 - Choose an NPC at Buddy tier or higher to take your Mini Me's place on screen.
 - Enjoy companion dialogue, animations, and recorded voices for supported NPC races.
-- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, and William Pestle, with personal companion recordings.
+- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, William Pestle, and Gryan Stoutmantle, with personal companion recordings.
 
 ### Make It Your Own
 

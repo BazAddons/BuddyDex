@@ -19,6 +19,27 @@ local SOUND_TIER = "UI_70_ARTIFACT_FORGE_TRAIT_RANKUP"
 
 local toast
 
+-- Fresh friends have no cached display until the journal loads their model.
+-- Render the headshot directly from a matching, unrestricted live unit on
+-- the first interaction, without loading any unit into a model frame.
+local function Portrait(tex, npcID, entry)
+    local art = ns.Art or {}
+    -- Reset the previous toast's texture even if no portrait is available.
+    if art.SetRowIcon then art.SetRowIcon(tex, entry) end
+    local friendship = ns.Friendship
+    if not SetPortraitTexture or not friendship or not friendship.EligibleNpcID then return end
+    for _, unit in ipairs({ "npc", "target", "focus", "mouseover" }) do
+        if friendship.EligibleNpcID(unit) == npcID then
+            if pcall(SetPortraitTexture, tex, unit) then
+                tex:SetTexCoord(0, 1, 0, 1)
+                tex:SetVertexColor(1, 1, 1)
+                tex:SetDesaturated(false)
+                return
+            end
+        end
+    end
+end
+
 local function Settings()
     return ns.db and ns.db.settings or {}
 end
@@ -112,7 +133,7 @@ end
 local function ShowToast(npcID, entry, amount, oldTier, newTier)
     local f = Build()
     local art = ns.Art or {}
-    if art.SetRowIcon then pcall(art.SetRowIcon, f.Icon, entry) end
+    Portrait(f.Icon, npcID, entry)
     local r, g, b = 1, 0.82, 0
     if art.RarityColor then
         local ok, cr, cg, cb = pcall(art.RarityColor, entry.class)
