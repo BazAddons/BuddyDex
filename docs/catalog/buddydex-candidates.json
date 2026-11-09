@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 66,
-    "combined_retained_entries": 1497,
-    "candidate_name_groups": 1484,
+    "local_backlog_entries_missing_from_source": 67,
+    "combined_retained_entries": 1498,
+    "candidate_name_groups": 1485,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -9441,6 +9441,23 @@
       ]
     },
     {
+      "name": "Duokna",
+      "npc_ids": [
+        3158
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3158,
+          "name": "Duokna",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Durnan Furcutter",
       "npc_ids": [
         836
@@ -16243,7 +16260,7 @@
           "source_page": 15,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -39422,6 +39439,13 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 3158,
+      "name": "Duokna",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

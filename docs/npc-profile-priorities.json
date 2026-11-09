@@ -231,6 +231,20 @@
       "zone": "Durotar",
       "route": "Orc/troll starter services",
       "reason": "Current exact adult female troll identity/model, Horde friendly icon and Durotar pin verified; full Razor Hill priest trainer quest/service review pending. See docs/research/durotar-troll-trainers-queue.md"
+    },
+    {
+      "npc_id": 6928,
+      "name": "Innkeeper Grosk",
+      "zone": "Durotar",
+      "route": "Orc/troll starter services",
+      "reason": "Adult male Orc innkeeper/vendor, Horde-friendly current icon and Razor Hill pin verified; full inn and delivery chains pending. See docs/research/durotar-orc-services-queue.md"
+    },
+    {
+      "npc_id": 3158,
+      "name": "Duokna",
+      "zone": "Durotar",
+      "route": "Orc/troll starter services",
+      "reason": "Adult female Orc general merchant identity and Durotar pin verified; reaction icon absent, current location/access, stock and any dialogue/relations pending. See docs/research/durotar-orc-services-queue.md"
     }
   ]
 }
