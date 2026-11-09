@@ -239,6 +239,46 @@
     "text": "Good. Now give yourself time to practice. A lesson begins a skill; it does not finish it. When you are ready for more, seek the teachers and books that can carry you farther. There is no shame in needing another lesson. I would worry more about someone who believed they had learned everything.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3418_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3418",
+    "spoken": "[sincere] [warm] I am glad our paths have kept crossing. Encouraging a traveler is one thing; sharing the road with a friend is another. I would be pleased to join you.",
+    "text": "I am glad our paths have kept crossing. Encouraging a traveler is one thing; sharing the road with a friend is another. I would be pleased to join you.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3418_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3418",
+    "spoken": "[steady] [encouraging] It is good to see you again. Whatever lies ahead, you need not face every uncertain moment alone. I will walk with you for a while, my friend.",
+    "text": "It is good to see you again. Whatever lies ahead, you need not face every uncertain moment alone. I will walk with you for a while, my friend.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3418_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3418",
+    "spoken": "[gently amused] [wry] I remembered a better joke just after our last conversation. I have kept it ready ever since. Now, if I could only remember how it begins.",
+    "text": "I remembered a better joke just after our last conversation. I have kept it ready ever since. Now, if I could only remember how it begins.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3418_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3418",
+    "spoken": "[proud] [reassuring] Your help has made a difference. Remember that when the next task looks unfamiliar. Courage is easier to find when you know your strength can do some good.",
+    "text": "Your help has made a difference. Remember that when the next task looks unfamiliar. Courage is easier to find when you know your strength can do some good.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore6747_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -277,6 +317,46 @@
     "source": "lore:6747",
     "spoken": "[reflective gentle humor, relaxed and grounded, affectionate interest] You can hear something of a journey in the way a traveler comes through a door. Sometimes it is eagerness, sometimes weariness, and sometimes a boot that needs attention. I do not pretend to understand every footstep. But I like hearing those same feet leave with a little more ease the next morning.",
     "text": "You can hear something of a journey in the way a traveler comes through a door. Sometimes it is eagerness, sometimes weariness, and sometimes a boot that needs attention. I do not pretend to understand every footstep. But I like hearing those same feet leave with a little more ease the next morning.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore7714_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7714",
+    "spoken": "[sincere] [welcoming] You have become more than a familiar face at the inn. I enjoy your company, my friend. Let us have a little time together before the road calls you onward again.",
+    "text": "You have become more than a familiar face at the inn. I enjoy your company, my friend. Let us have a little time together before the road calls you onward again.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore7714_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7714",
+    "spoken": "[warm] [gently amused] There you are. Come along, and tell me how your day has been. I have heard plenty about traveling pumpkins lately. A little news of my friend would be welcome.",
+    "text": "There you are. Come along, and tell me how your day has been. I have heard plenty about traveling pumpkins lately. A little news of my friend would be welcome.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore7714_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7714",
+    "spoken": "[storytelling] [playful] The pumpkin has apparently reached a mountain now. I am waiting to hear how it climbed. It is a shared story, so someone else must explain that part.",
+    "text": "The pumpkin has apparently reached a mountain now. I am waiting to hear how it climbed. It is a shared story, so someone else must explain that part.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore7714_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:7714",
+    "spoken": "[reassuring] [relaxed] Set down what you can, and let yourself be comfortable. You need not earn every quiet moment with another errand. Sometimes a seat and good company are quite enough.",
+    "text": "Set down what you can, and let yourself be comfortable. You need not earn every quiet moment with another errand. Sometimes a seat and good company are quite enough.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }

@@ -1,5 +1,7 @@
 # Next: Camp Taurajo rest and Crossroads referrals
 
+**Completed 2026-11-09:** both profiles now have fifteen personal lines and four approved Tauren male v4 signatures. The exact current 886 node assigns its start to Hamuul, so Kirge's entry stays with 854 and Thork. See [full research](taurajo-welcome-and-a-good-word.md). Development has 297 complete profiles. The pending text below preserves the original investigation.
+
 Research queue, 2026-11-09, after 295 completed profiles. These two eligible identity leads are not complete and are not personal Scout sightings. Continue the wider Horde coverage rotation; named adults still require ordinary live reaction and non-attackability checks.
 
 ## Innkeeper Byula, 7714

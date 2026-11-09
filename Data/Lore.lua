@@ -42,6 +42,72 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Innkeeper Byula (7714), adult male Tauren, Camp Taurajo, The Barrens.
+    -- Current display 6550 / race 6 sex 0, Horde-friendly innkeeper/vendor.
+    -- Installed welcome and shared dungeon/holiday information; twelve fruit/drink goods.
+    -- Shared impossible pumpkin story is original. No later Taurajo-burning events.
+    -- Research: docs/research/taurajo-welcome-and-a-good-word.md.
+    [7714] = {
+        quote = "Come in and be comfortable. There is something to drink, and perhaps a story that will grow taller before you leave.",
+        likes = { "A traveler settling in without worry", "An unlikely turn in a shared story", "A table with room for one more" },
+        dislikes = { "Being hurried through a welcome", "Mistaking a joke for directions", "Leaving the next storyteller no chance" },
+        gossip = "Byula's tale of a wandering pumpkin gets stranger with every telling. His regulars suspect the guests are partly responsible.",
+        bio = "Byula welcomes travelers to the inn at Camp Taurajo. Fruit, milk and other drinks help them settle in after the Barrens road. He can offer dungeon information, though guests need not have a dangerous destination to deserve a welcome.",
+        backstory = "A guest once asked what a pumpkin might do if it could walk. Byula offered an answer, then invited another. The little tale became a pleasant way to pass an evening, with each willing listener adding something more unlikely.",
+        secret = "There is no proper ending. He changes the tale to leave the next guest a place in it. The pumpkin has traveled farther in conversation than he ever intended.",
+        bestFriend = "I have left the next part for you, my friend. Where should our pumpkin go? There is time to decide. You are welcome here.",
+        favorite = { emote = "APPLAUD", hint = "An appreciative audience can make an ordinary evening memorable." },
+        lines = {
+            greet = { { "There you are. Come along, and tell me how your day has been. I have heard plenty about traveling pumpkins lately. A little news of my friend would be welcome.", tone = "[warm] [gently amused]" },
+                "A little company for the road. I would like that." },
+            idle = { { "The pumpkin has apparently reached a mountain now. I am waiting to hear how it climbed. It is a shared story, so someone else must explain that part.", tone = "[storytelling] [playful]" },
+                "There is always room for an evening that accomplishes very little.",
+                "A table sounds different when the guests have stopped feeling like strangers." },
+            befriended = { { "You have become more than a familiar face at the inn. I enjoy your company, my friend. Let us have a little time together before the road calls you onward again.", tone = "[sincere] [welcoming]" } },
+            poke = { "An unusual way to ask for my attention.", "Yes? Has our pumpkin done something new?" },
+            rest = { { "Set down what you can, and let yourself be comfortable. You need not earn every quiet moment with another errand. Sometimes a seat and good company are quite enough.", tone = "[reassuring] [relaxed]" } },
+            hearth = { "Back again. I am glad the road has brought you somewhere familiar." },
+            quest = { "Something useful done. I hope the next welcome is a good one." },
+            loot = { "That looks more useful than anything our pumpkin has brought home." },
+            bagsFull = { "Perhaps one story will travel more lightly than all of that." },
+            combatEnd = { "A little peace again. Let us make the most of it." },
+            levelUp = { "Well done, my friend. There will be something worth celebrating tonight." },
+        },
+    },
+
+    -- Kirge Sternhorn (3418), adult male Tauren, Camp Taurajo, The Barrens.
+    -- Current display 3818 / race 6 sex 0, Horde-friendly. Classic/installed 854
+    -- encourages growth and sends the traveler to Thork. Current 886 starts at Hamuul.
+    -- Fondness for weak jokes is original. No Cataclysm loss/family tragedy imported.
+    -- Research: docs/research/taurajo-welcome-and-a-good-word.md.
+    [3418] = {
+        quote = "There is more ahead of you than the road you can see. Take courage, and lend your strength where it is needed.",
+        likes = { "A hesitant traveler finding courage", "Tauren and Orcs helping one another", "A joke that earns a reluctant smile" },
+        dislikes = { "Mistaking uncertainty for failure", "Ignoring those who need assistance", "A fine joke arriving a moment too late" },
+        gossip = "Kirge offers sound encouragement to travelers. His jokes are less dependable, but he seems pleased when someone smiles anyway.",
+        bio = "Kirge Sternhorn stands at Camp Taurajo, encouraging travelers to venture farther. His referral to Thork at the Crossroads speaks of the Earthmother's blessing and the aid Tauren and Orcs can offer each other in the Barrens.",
+        backstory = "A worried traveler once relaxed after one of his feeble jokes. Kirge remembered the change more clearly than the words. He began keeping a few light remarks in mind, hoping a smile might make the next unfamiliar road less daunting.",
+        secret = "He often thinks of the better joke after the traveler has left. He saves it for another meeting, then usually smiles too soon and gives the whole thing away.",
+        bestFriend = "With you, I need not find the perfect word before speaking. Stay a moment, my friend. I have remembered the joke at last.",
+        favorite = { emote = "GRIN", hint = "A quiet smile tells him his lighter words have found their mark." },
+        lines = {
+            greet = { { "It is good to see you again. Whatever lies ahead, you need not face every uncertain moment alone. I will walk with you for a while, my friend.", tone = "[steady] [encouraging]" },
+                "Another road together. Let us see where we can be of use." },
+            idle = { { "I remembered a better joke just after our last conversation. I have kept it ready ever since. Now, if I could only remember how it begins.", tone = "[gently amused] [wry]" },
+                "A little courage can carry someone beyond a very long hesitation.",
+                "There is no shame in asking which way to go." },
+            befriended = { { "I am glad our paths have kept crossing. Encouraging a traveler is one thing; sharing the road with a friend is another. I would be pleased to join you.", tone = "[sincere] [warm]" } },
+            poke = { "I was considering a better answer. You may have to wait.", "Yes, I am here. My joke may be a little farther behind." },
+            quest = { { "Your help has made a difference. Remember that when the next task looks unfamiliar. Courage is easier to find when you know your strength can do some good.", tone = "[proud] [reassuring]" } },
+            levelUp = { "You have grown. Take a moment to recognize it." },
+            zone = { "New ground need not mean you have nothing to offer." },
+            combatEnd = { "Steady now. Let us see who needs a hand." },
+            rest = { "A pause can help you find the next good step." },
+            hearth = { "Familiar ground has its own kind of strength." },
+            died = { "My friend. I wish encouragement could reach you now." },
+        },
+    },
+
     -- Miao'zan (3184), adult male Troll Journeyman Alchemist, Sen'jin Village, Durotar.
     -- Current display 4071 / race 8 sex 0. Installed gossip: enough adventures,
     -- relaxed stirring, advanced referral to Yelmak. No personal quest established.

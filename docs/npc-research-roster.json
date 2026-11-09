@@ -630,5 +630,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult male Troll model, Senjin/coastal identity, installed gossip and Forever camping relations; no Scout sighting claimed; live access required",
     "research_notes": "docs/research/senjin-potions-and-patient-fishing.md"
+  },
+  {
+    "npc_id": 7714,
+    "name": "Innkeeper Byula",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult male Tauren model, Horde-friendly Taurajo identity, installed dialogue and services/referral; no Scout sighting claimed",
+    "research_notes": "docs/research/taurajo-welcome-and-a-good-word.md"
+  },
+  {
+    "npc_id": 3418,
+    "name": "Kirge Sternhorn",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult male Tauren model, Horde-friendly Taurajo identity, installed dialogue and services/referral; no Scout sighting claimed",
+    "research_notes": "docs/research/taurajo-welcome-and-a-good-word.md"
   }
 ]
