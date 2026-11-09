@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 47,
-  "remaining_count": 170,
+  "completed_count": 50,
+  "remaining_count": 167,
   "completed": [
     {
       "npc_id": 54,
@@ -344,6 +344,33 @@
       "status": "complete"
     },
     {
+      "npc_id": 5099,
+      "name": "Soleil Stonemantle",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5109,
+      "name": "Myra Tyrngaarde",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5124,
+      "name": "Sognar Cliffbeard",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6740,
       "name": "Innkeeper Allison",
       "zone": "Stormwind City",
@@ -609,29 +636,8 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5109,
-      "name": "Myra Tyrngaarde",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 2695,
       "name": "Sara Balloo",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5124,
-      "name": "Sognar Cliffbeard",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5099,
-      "name": "Soleil Stonemantle",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

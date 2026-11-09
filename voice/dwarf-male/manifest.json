@@ -79,6 +79,46 @@
     "text": "A copper on its edge can be more interesting than a mountain of gold.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore5124_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5124",
+    "spoken": "[warm, sincere voice, unshowy gratitude] You check whether I've had a share, too. That's the sort of friend I like beside me.",
+    "text": "You check whether I've had a share, too. That's the sort of friend I like beside me.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5124_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5124",
+    "spoken": "[grounded, genial voice, practical welcome] Off somewhere? Tell me how many we're feeding, and I'll come along.",
+    "text": "Off somewhere? Tell me how many we're feeding, and I'll come along.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5124_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5124",
+    "spoken": "[dryly amused voice, knowing warmth] There's always someone who says they aren't hungry until everyone else starts eating.",
+    "text": "There's always someone who says they aren't hungry until everyone else starts eating.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore5124_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:5124",
+    "spoken": "[genial voice, gentle teasing, hospitable warmth] Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
+    "text": "Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

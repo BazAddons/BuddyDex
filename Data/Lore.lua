@@ -42,6 +42,84 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Ironforge dwarves: Soleil 5099 (female, banker), Myra 5109 (female,
+    -- wandering bread vendor, Commons), Sognar 5124 (male, wandering meat
+    -- vendor, Military Ward). No exact Stonemantle kinship, later haggis
+    -- daily or Bronze Celebration visit imported. Original private hooks:
+    -- docs/research/ironforge-banker-and-vendors.md.
+    [5099] = {
+        quote = "Take a moment and tell me what you need. A clear question is a much better beginning than emptying your whole pack onto the counter.",
+        likes = { "A label someone can read", "A question asked without embarrassment", "A place for everything" },
+        dislikes = { "Loose ink among stored belongings", "A queue turned into a shouting match", "Being hurried through a careful check" },
+        gossip = "Soleil keeps the counter beautifully ordered. Nobody is quite sure why she never opens her own bag where customers can see it.",
+        bio = "Soleil Stonemantle is a banker at the Vault of Ironforge. Alongside the city's other bankers, she helps visitors store belongings and retrieve what they need for their next journey.",
+        backstory = "Keeping other people's belongings in order gave her a fondness for clear labels and patient questions. Her own things are another matter: the useful, the interesting and the just-in-case all find their way into one stubbornly full bag.",
+        secret = "Her own bag is a jumble of perfectly good things she hasn't found the right place for yet. She has a system planned. She has had it planned for quite some time.",
+        bestFriend = "All right, you may laugh at the bag. Then help me decide what stays. Apparently I give better advice from behind a counter.",
+        favorite = { emote = "NOD", hint = "A calm acknowledgment will help a careful banker know you've understood each other." },
+        lines = {
+            greet = { { "A walk? Certainly. Give me a moment to find what I put in this bag.", tone = "[composed voice, small self-conscious amusement]" }, "Ready at last. Everything important is here. Somewhere." },
+            idle = { { "It's easier to organize someone else's belongings. Their just-in-case things are less persuasive.", tone = "[dryly amused voice, candid warmth]" }, "A clear label is a kindness to your future self.", "I know exactly where I'd keep this if it belonged to a customer." },
+            befriended = { { "You let me be a little untidy without worrying that I've forgotten how to do my work. Thank you.", tone = "[warm, sincerely grateful voice]" } },
+            poke = { "Yes? One question at a time, please.", "I've heard you. Let me finish checking." },
+            loot = { "Useful, interesting, or just in case? Ah. I know that answer." },
+            bagsFull = { { "Set it down and sort through it. Yes, I should take that advice myself.", tone = "[practical voice, rueful good humor]" } },
+            quest = { "A little care at the beginning saves trouble at the end." },
+            rest = { "A good chance to set this bag down. Perhaps not to open it." },
+            levelUp = { "Well done. Some progress doesn't need a label to be obvious." },
+            combatEnd = { "Everyone accounted for? Good. The belongings can wait." },
+            hearth = { "Back to the vault. Perhaps today I'll sort out my own things." },
+        },
+    },
+    [5109] = {
+        quote = "Fresh bread! There, now you've heard the important news. What else has the morning brought you?",
+        likes = { "A familiar face on her round", "Bread shared while it's fresh", "An echo with a good strong answer" },
+        dislikes = { "Loaves crushed under someone's gear", "A doorway blocked by a long argument", "A greeting nobody bothers to return" },
+        gossip = "Myra's call reaches a good way across the Commons. Sometimes she pauses as if she's waiting for the city to answer.",
+        bio = "Myra Tyrngaarde is a wandering bread vendor in Ironforge's Commons. Her calls advertise fresh bread as she makes her way among the city's visitors and residents.",
+        backstory = "Making herself heard in a busy city gave her a strong calling voice. In quieter moments, she began noticing how different corners answered it. A familiar round acquired little places where the echo was worth listening for.",
+        secret = "She has a favorite echo. It's quite possible she gives that corner a better sales call than anywhere else, though the stone has yet to buy a loaf.",
+        bestFriend = "Listen to this corner. A fine answer, eh? Now you try. We can't let a bit of stone have the last word every time.",
+        favorite = { emote = "GREET", hint = "A greeting called back with warmth makes a busy vendor's round much more cheerful." },
+        lines = {
+            greet = { { "There you are! Ready for a round with a little more scenery?", tone = "[bright, carrying voice, hearty welcome]" }, "A different road today. I wonder how well the sound travels here." },
+            idle = { { "A good echo makes a fine customer. Listens carefully, agrees with every word, never buys a thing.", tone = "[playful, expansive voice, amused delight]" }, "You'd be surprised which little corner answers back the clearest.", "Fresh bread and a familiar greeting. Not a bad start to a day." },
+            befriended = { { "I can pick your greeting out of a crowd now. Always glad to hear it.", tone = "[warm, pleased voice, personal affection]" } },
+            poke = { "Yes? No need to shout; that's usually my part.", "Something you meant to ask before I get going?" },
+            loot = { "Keep that away from the bread. Nobody wants grit with their crust." },
+            bagsFull = { "Leave a little space at the top if you want lunch to look like lunch." },
+            quest = { "Good news to carry home, then!" },
+            zone = { { "New streets, new corners. Give me a moment to hear what this place sounds like.", tone = "[curious, lively voice, cheerful anticipation]" } },
+            rest = { "A quiet bite. Even I don't need to fill every moment with a call." },
+            levelUp = { "Well done! There's something worth calling out." },
+            hearth = { "Back to the Commons. I expect the echoes have missed me." },
+        },
+    },
+    [5124] = {
+        quote = "Tell me what you're planning for supper before you buy enough to feed the whole ward. Unless that is your plan. Then we'd best start counting.",
+        likes = { "A meal everyone gets a share of", "A clear answer about portions", "A joke told with a straight face" },
+        dislikes = { "Food wasted for the sake of a boast", "A parcel left in the wrong place", "Being asked for lunch after it's gone" },
+        gossip = "Sognar remembers who takes the largest helping. He remembers who quietly makes sure everyone else has one, too.",
+        bio = "Sognar Cliffbeard is a wandering meat vendor in Ironforge's Military Ward. He sells provisions to visitors making their way through that part of the city.",
+        backstory = "Supplying people's meals made him attentive to how much they actually needed. Over time, he took an interest in the quieter customer choosing enough for someone else, and learned to ask a second question before wrapping the parcel.",
+        secret = "When he eats with others, he likes pretending there's one portion less than there is. He keeps the last one tucked aside, ready for whoever insists they aren't hungry.",
+        bestFriend = "Not hungry? Aye, I thought you'd say that. I've a portion set aside. Come sit down before it proves me right.",
+        favorite = { emote = "GRIN", hint = "An appreciative grin will suit a vendor who enjoys a quiet joke with his customers." },
+        lines = {
+            greet = { { "Off somewhere? Tell me how many we're feeding, and I'll come along.", tone = "[grounded, genial voice, practical welcome]" }, "A walk sounds good. Let's settle the provisions before we get too far." },
+            idle = { { "There's always someone who says they aren't hungry until everyone else starts eating.", tone = "[dryly amused voice, knowing warmth]" }, "A meal goes further when somebody remembers to count the people first.", "Keep the parcel handy. Buried food tends to become forgotten food." },
+            befriended = { { "You check whether I've had a share, too. That's the sort of friend I like beside me.", tone = "[warm, sincere voice, unshowy gratitude]" } },
+            poke = { "Aye? You're not hungry already?", "One moment. I'm counting, and I'd prefer to do it once." },
+            loot = { "Wrap that apart from the food, unless you want an interesting supper." },
+            bagsFull = { "Something came in. Something may have to come out. Preferably before it spoils." },
+            quest = { "A job done properly. Let's see who's ready for a meal." },
+            rest = { { "Come sit down. I've allowed for the one who was certain they wouldn't want anything.", tone = "[genial voice, gentle teasing, hospitable warmth]" } },
+            combatEnd = { "All safe? Then sit a moment before anyone tries being impressive again." },
+            levelUp = { "Well done! An appetite for progress, eh?" },
+            hearth = { "Back to Ironforge. I wonder who'll be asking about supper." },
+        },
+    },
+
     -- Erma 6749 (female human, Goldshire stable master), Joshua Maclure
     -- 258 (male human, vineyard vintner), Lyria Du Lac 913 (female human,
     -- warrior trainer behind Goldshire's smithy, Classic referral 1638).

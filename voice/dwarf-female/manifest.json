@@ -1,4 +1,84 @@
 {
+  "lore5099_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:5099",
+    "spoken": "[practical voice, rueful good humor] Set it down and sort through it. Yes, I should take that advice myself.",
+    "text": "Set it down and sort through it. Yes, I should take that advice myself.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5099_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5099",
+    "spoken": "[warm, sincerely grateful voice] You let me be a little untidy without worrying that I've forgotten how to do my work. Thank you.",
+    "text": "You let me be a little untidy without worrying that I've forgotten how to do my work. Thank you.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5099_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5099",
+    "spoken": "[composed voice, small self-conscious amusement] A walk? Certainly. Give me a moment to find what I put in this bag.",
+    "text": "A walk? Certainly. Give me a moment to find what I put in this bag.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5099_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5099",
+    "spoken": "[dryly amused voice, candid warmth] It's easier to organize someone else's belongings. Their just-in-case things are less persuasive.",
+    "text": "It's easier to organize someone else's belongings. Their just-in-case things are less persuasive.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5109_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5109",
+    "spoken": "[warm, pleased voice, personal affection] I can pick your greeting out of a crowd now. Always glad to hear it.",
+    "text": "I can pick your greeting out of a crowd now. Always glad to hear it.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5109_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5109",
+    "spoken": "[bright, carrying voice, hearty welcome] There you are! Ready for a round with a little more scenery?",
+    "text": "There you are! Ready for a round with a little more scenery?",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5109_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5109",
+    "spoken": "[playful, expansive voice, amused delight] A good echo makes a fine customer. Listens carefully, agrees with every word, never buys a thing.",
+    "text": "A good echo makes a fine customer. Listens carefully, agrees with every word, never buys a thing.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5109_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:5109",
+    "spoken": "[curious, lively voice, cheerful anticipation] New streets, new corners. Give me a moment to hear what this place sounds like.",
+    "text": "New streets, new corners. Give me a moment to hear what this place sounds like.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore7292_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
