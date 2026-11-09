@@ -344,3 +344,10 @@ Next checked identities: Marin Noggenfogger 7564 and Eylah Sunhorn 269068, [queu
 Marin Noggenfogger 7564 and Eylah Sunhorn 269068 complete: full Goblin/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](gadgetzan-labels-and-thunder-bluff-yawns.md) preserves Classic/Forever roles and excludes later literary/corporate/class history. Development total **360**, public access Alliance 194, Horde 76, unverified 96 (six shared entries overlap). Installed/development-packaged; no publication.
 
 Next checked Forsaken identities: Apothecary Johaan 1518 and Carolai Anise 2132, [queue](johaan-and-carolai-queue.md). Neither counted complete.
+
+
+### 2026-11-09: Brill accounts and conversation
+
+Apothecary Johaan 1518 and Carolai Anise 2132 complete: full Forsaken profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](brill-last-words-and-unnecessary-questions.md) preserves plague/prisoner research and Carolai's actual concerns/Shadowvale trade, without invented cure or redemption. Development total **362**, public access Alliance 194, Horde 78, unverified 96 (six shared entries overlap). Installed/development-packaged; no publication.
+
+Next checked identities: Apothecary Renferrel 1937 and Denalan 2080, [queue](renferrel-and-denalan-queue.md). Neither counted complete.

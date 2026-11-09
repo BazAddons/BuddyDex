@@ -39,6 +39,46 @@
     "text": "Good. You did the work. Now tell me what you found, clearly enough that the next person can act on it. A report left unread will not keep the Scourge out of Brill.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore1518_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1518",
+    "spoken": "[grudgingly pleased] [dry] You listen carefully, remember what matters, and occasionally produce an objection worth answering. An uncommon combination. You may remain beside me. If I appear to have finished speaking, allow a moment for the final correction before deciding that I am entirely done.",
+    "text": "You listen carefully, remember what matters, and occasionally produce an objection worth answering. An uncommon combination. You may remain beside me. If I appear to have finished speaking, allow a moment for the final correction before deciding that I am entirely done.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1518_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1518",
+    "spoken": "[raspy] [imperious] You are here. Good. Give me the complete account, with the relevant details in their proper order. When I have heard enough, I will say so. If I add a final correction afterward, that does not mean the discussion has reopened for everyone.",
+    "text": "You are here. Good. Give me the complete account, with the relevant details in their proper order. When I have heard enough, I will say so. If I add a final correction afterward, that does not mean the discussion has reopened for everyone.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1518_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1518",
+    "spoken": "[dry] [self-important] I reduced a rambling report to a single sentence. An excellent improvement. There was one objection to address, naturally, and the correction required a brief explanation. The original sentence remains a fine example of brevity. I see no reason to discuss the rest.",
+    "text": "I reduced a rambling report to a single sentence. An excellent improvement. There was one objection to address, naturally, and the correction required a brief explanation. The original sentence remains a fine example of brevity. I see no reason to discuss the rest.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1518_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1518",
+    "spoken": "[stern] [precise] The Society's work does not end at Brill. Renferrel must have the findings, and the findings must be complete. The Dark Lady has set the challenge. Careless accounts and unnecessary delays do not become more acceptable because somebody has carried them a long distance.",
+    "text": "The Society's work does not end at Brill. Renferrel must have the findings, and the findings must be complete. The Dark Lady has set the challenge. Careless accounts and unnecessary delays do not become more acceptable because somebody has carried them a long distance.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore1568_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

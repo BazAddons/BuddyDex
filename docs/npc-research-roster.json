@@ -1085,5 +1085,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current named adult Goblin/Tauren body, reaction omitted; full own current/Classic relations and installed dialogue, complete elixir/incense text, items and literary/era boundaries; no Scout sighting claimed",
     "research_notes": "docs/research/gadgetzan-labels-and-thunder-bluff-yawns.md"
+  },
+  {
+    "npc_id": 1518,
+    "name": "Apothecary Johaan",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current adult Forsaken body, Horde-friendly icon and Brill pin; full own relations/gossip, complete plague/prisoner/delivery and Silverpine context, Forever Shadowvale commission, three-page journal and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-last-words-and-unnecessary-questions.md"
+  },
+  {
+    "npc_id": 2132,
+    "name": "Carolai Anise",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current adult Forsaken body, Horde-friendly icon and Brill pin; full own relations/gossip, complete plague/prisoner/delivery and Silverpine context, Forever Shadowvale commission, three-page journal and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-last-words-and-unnecessary-questions.md"
   }
 ]

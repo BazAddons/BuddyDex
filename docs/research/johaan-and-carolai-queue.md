@@ -1,4 +1,6 @@
-# Next: Apothecary Johaan and Carolai Anise
+# Completed: Apothecary Johaan and Carolai Anise
+
+Completed 2026-11-09; see [full research and validation](brill-last-words-and-unnecessary-questions.md). Historical planning notes below.
 
 Individually checked named adult Forsaken, 2026-11-09. Neither profile authored or recorded; no personal Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/johaan-carolai-research`.
 

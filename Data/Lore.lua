@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Apothecary Johaan, Brill, adult male Forsaken, 1518/display 1565.
+    -- Current Horde-friendly Royal Apothecary Society member. Classic/current
+    -- New Plague, captive tests, pumpkins and findings to Renferrel.
+    -- Reopening a finished argument is ours. No cure or redemption invented.
+    -- Research: docs/research/brill-last-words-and-unnecessary-questions.md.
+    [1518] = {
+        quote = "If your account is complete, stop speaking. Additional words rarely improve the results. I will tell you when an exception is required.",
+        likes = { "The Dark Lady's challenge answered", "A complete account delivered promptly", "The final word in a precise argument" },
+        dislikes = { "Time spent recovering missing details", "An interruption before his conclusion", "Someone mistaking a correction for doubt" },
+        gossip = "Johaan has been finishing the same argument for several minutes. Each time he falls silent, he remembers one final correction.",
+        bio = "Johaan works in Brill for the Royal Apothecary Society. He pursues Sylvanas's New Plague, tests formulas on captives in the tavern cellar and sends his findings to Renferrel in Silverpine. His work is a weapon, not a cure.",
+        backstory = "Johaan once reduced a rambling report to a single sentence. It seemed satisfactory until he noticed one possible objection. He added a correction, then an explanation of the correction. He still considers the first sentence an excellent model of brevity.",
+        secret = "Sometimes he reopens a finished argument because he enjoyed having the last word. A listener who notices gives him the additional pleasure of defending that word again.",
+        bestFriend = "Remain. If I repeat myself, you may say so. Once. I have found your objections less tiresome than most, which is a considerable distinction.",
+        favorite = { emote = "NOD", hint = "Prefers an acknowledgment that does not begin another lengthy account." },
+        lines = {
+            greet = { { "You are here. Good. Give me the complete account, with the relevant details in their proper order. When I have heard enough, I will say so. If I add a final correction afterward, that does not mean the discussion has reopened for everyone.", tone = "[raspy] [imperious]" },
+                "Speak. Preferably with something that justifies the interruption." },
+            idle = { { "I reduced a rambling report to a single sentence. An excellent improvement. There was one objection to address, naturally, and the correction required a brief explanation. The original sentence remains a fine example of brevity. I see no reason to discuss the rest.", tone = "[dry] [self-important]" },
+                "One final point. Yes, I am aware that I said that already.",
+                "A complete account would have prevented this entire conversation." },
+            befriended = { { "You listen carefully, remember what matters, and occasionally produce an objection worth answering. An uncommon combination. You may remain beside me. If I appear to have finished speaking, allow a moment for the final correction before deciding that I am entirely done.", tone = "[grudgingly pleased] [dry]" } },
+            poke = { "Yes? I was arriving at the final point.", "If that is another objection, make it a worthwhile one." },
+            quest = { { "The Society's work does not end at Brill. Renferrel must have the findings, and the findings must be complete. The Dark Lady has set the challenge. Careless accounts and unnecessary delays do not become more acceptable because somebody has carried them a long distance.", tone = "[stern] [precise]" } },
+            loot = { "Identify it before presenting an opinion about its usefulness." },
+            rest = { "A pause. It need not become an excuse for another account of your journey." },
+            zone = { "Different surroundings. The need for accurate observation remains." },
+            learned = { "You have understood the correction. Remember it." },
+            combatEnd = { "Now perhaps I can finish the point without another interruption." },
+            hearth = { "Back. There are several matters that remain unfinished." },
+        },
+    },
+
+    -- Carolai Anise <Journeyman Alchemist>, Brill, adult female Forsaken,
+    -- 2132/display 1601; current Horde-friendly Trainer. Exact gossip:
+    -- misses chitchat, fears Johaan's apathy, refers learners to Doctor Marsh.
+    -- Forever 95314: buys Shadowvale elixirs for clients, dismisses curse rumors.
+    -- Her unnecessary-question habit is ours, not a cure for undeath.
+    -- Research: docs/research/brill-last-words-and-unnecessary-questions.md.
+    [2132] = {
+        quote = "Please ask me something that isn't a requisition. I would like to remember what a conversation sounds like.",
+        likes = { "Visitors staying after the work is done", "A question with no order attached", "Knowing her mind is still her own" },
+        dislikes = { "Only being spoken to when needed", "The thought of no longer missing company", "Rumors getting between her and a buyer" },
+        gossip = "Carolai has begun asking visitors one question that has nothing to do with potions. She seems pleased when the answer takes a while.",
+        bio = "Carolai teaches alchemy in Brill and sends advanced learners to Doctor Marsh. She also commissions Whispering Elixir from Shadowvale for eager buyers. Johaan offers little chitchat; she worries that one day she may stop missing it.",
+        backstory = "After a visitor finished their business, Carolai asked a question that served no practical purpose. The answer became a conversation. She was surprised by how much she had to say, and began trying to leave room for another unnecessary question.",
+        secret = "She is relieved when a one-sided conversation still irritates her. It means she has not stopped wanting something better than a list of things somebody needs.",
+        bestFriend = "Stay after the potions are sorted. Ask me something unnecessary. I have an answer, and I would like you to stay and hear it.",
+        favorite = { emote = "WAVE", hint = "Welcomes a friendly arrival that does not immediately become another request." },
+        lines = {
+            greet = { { "A friendly face. Please tell me you have come for something besides another list of supplies. We can discuss potions, of course. Afterward, I would quite like to hear something that has no practical use and does not end with asking me for a favor.", tone = "[raspy] [warmly wry]" },
+                "Good to see you. Have a question, a story, or simply a little time?" },
+            idle = { { "Johaan rarely speaks to me unless he wants something. I have heard that someday I may stop caring about that. For now, it still irritates me. Strangely, I find that reassuring. I would rather miss a conversation than forget why I ever wanted one.", tone = "[raspy] [reflective]" },
+                "I asked a question with no purpose yesterday. We talked for quite a while. I enjoyed that.",
+                "I might be dead, but I still have something to say." },
+            befriended = { { "You stay after the business is finished. I have begun looking forward to that part of a visit. Come along. We can talk about the day, or whatever catches your interest. I would like to keep finding things worth saying to someone who listens.", tone = "[quietly warm] [sincere]" } },
+            poke = { "Yes? I was hoping you had not finished talking yet.", "Another request? Or did you remember the unnecessary question?" },
+            quest = { { "Shadowvale's elixir had eager buyers before the village became a ruin. Now there are stories about the forest and its roots. People have never been short of stories. I still have buyers waiting, and I expect the bottles before I discuss their payment.", tone = "[businesslike] [skeptical]" } },
+            learned = { "If my lessons no longer help, seek Doctor Marsh. I can still appreciate the visit." },
+            loot = { "Useful, perhaps. You may tell me something about finding it besides the quantity." },
+            rest = { "A little time without a list. I would like that." },
+            zone = { "Something new to discuss when we get back." },
+            bagsFull = { "Surely one of those things comes with a story worth telling." },
+            laughAlong = { "There. That was worth staying for." },
+        },
+    },
+
     -- Marin Noggenfogger, Gadgetzan, adult male Goblin, 7564/display 7185.
     -- Classic 2605/2606/2641/2661/2662: dew experiment, Sprinkle's powder,
     -- commercial excitement. Exact desert/camp gossip. Large signatures

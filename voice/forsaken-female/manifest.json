@@ -239,6 +239,46 @@
     "text": "Good. Give the new ability the study it deserves. Understanding its use includes knowing when to exercise restraint. Your next choice is worth as much attention as the first successful attempt.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore2132_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2132",
+    "spoken": "[quietly warm] [sincere] You stay after the business is finished. I have begun looking forward to that part of a visit. Come along. We can talk about the day, or whatever catches your interest. I would like to keep finding things worth saying to someone who listens.",
+    "text": "You stay after the business is finished. I have begun looking forward to that part of a visit. Come along. We can talk about the day, or whatever catches your interest. I would like to keep finding things worth saying to someone who listens.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2132_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2132",
+    "spoken": "[raspy] [warmly wry] A friendly face. Please tell me you have come for something besides another list of supplies. We can discuss potions, of course. Afterward, I would quite like to hear something that has no practical use and does not end with asking me for a favor.",
+    "text": "A friendly face. Please tell me you have come for something besides another list of supplies. We can discuss potions, of course. Afterward, I would quite like to hear something that has no practical use and does not end with asking me for a favor.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2132_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2132",
+    "spoken": "[raspy] [reflective] Johaan rarely speaks to me unless he wants something. I have heard that someday I may stop caring about that. For now, it still irritates me. Strangely, I find that reassuring. I would rather miss a conversation than forget why I ever wanted one.",
+    "text": "Johaan rarely speaks to me unless he wants something. I have heard that someday I may stop caring about that. For now, it still irritates me. Strangely, I find that reassuring. I would rather miss a conversation than forget why I ever wanted one.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2132_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2132",
+    "spoken": "[businesslike] [skeptical] Shadowvale's elixir had eager buyers before the village became a ruin. Now there are stories about the forest and its roots. People have never been short of stories. I still have buyers waiting, and I expect the bottles before I discuss their payment.",
+    "text": "Shadowvale's elixir had eager buyers before the village became a ruin. Now there are stories about the forest and its roots. People have never been short of stories. I still have buyers waiting, and I expect the bottles before I discuss their payment.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore2315_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
