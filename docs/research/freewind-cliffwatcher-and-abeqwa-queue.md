@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](freewind-reports-and-a-chair.md). The plan and progress notes below are historical.
+
 # Next: Cliffwatcher Longhorn and Innkeeper Abeqwa
 
 Identity shortlist, 2026-11-09. Add Horde regional coverage in Freewind Post, Thousand Needles. Neither profile is authored or recorded yet; no personal Scout sighting is claimed.

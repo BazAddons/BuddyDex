@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cliffwatcher Longhorn, Freewind Post, adult male Tauren, 10537/9899.
+    -- Galak retaliation, Grimtotem notes, Arnak bounty and Nataka report.
+    -- Cord-knot puzzle is ours. No later betrayal knowledge or loyalty pledge.
+    -- Research: docs/research/freewind-reports-and-a-chair.md.
+    [10537] = {
+        quote = "Tell me what changed. Leave the guesses until we have heard what you actually saw.",
+        likes = { "Clear reports from the valley", "A task followed through properly", "A stubborn knot finally coming loose" },
+        dislikes = { "Galak raiders near the caravans", "Reports padded with guesses", "A knot tightened out of impatience" },
+        gossip = "Cliffwatcher has been studying a short piece of cord. No report is attached. The difficulty appears to be the knot itself.",
+        bio = "Cliffwatcher Longhorn receives reports at Freewind Post and directs attacks on Galak raiders. He seeks Grimtotem messages and proof for Arnak's bounty. His brother Nataka is stationed in Desolace, where he sends news of centaur activity.",
+        backstory = "A tangled cord once occupied a quiet gap between reports. Pulling made it worse, so Cliffwatcher worked each turn loose with his thumb. He began keeping a little cord nearby for another puzzle when the day's work allowed it.",
+        secret = "He could cut the cord at any time. Its value is negligible. What pleases him is the moment when the last stubborn turn makes sense and the whole tangle gives way.",
+        bestFriend = "Stay a moment. You need not solve this for me. I would enjoy the company while I work it out, and hear what has been on your mind.",
+        favorite = { emote = "NOD", hint = "Values a concise acknowledgment when a message has been understood." },
+        lines = {
+            greet = { { "Come along. Keep your eyes open as we go. A useful account begins with noticing what is there, rather than deciding in advance what you expect to find. We can speak without losing sight of the road.", tone = "[firm] [measured]" },
+                "There you are. What have you seen since we last spoke?" },
+            idle = { { "Pulling this cord only tightened the knot. I had to stop and follow each turn before it made sense. I could have cut it, of course. That would rather spoil the small pleasure of working it loose.", tone = "[low] [thoughtful]" },
+                "We cannot deal with every threat here without help.",
+                "Send the message while it can still change someone's plans." },
+            befriended = { { "I value the attention you give to what is actually before you. You can stay beside me without finding another task to justify it. There is time for a little company before the next report arrives.", tone = "[reserved] [warm]" } },
+            poke = { "Speak. I am listening.", "Give me a moment. This turn of cord is nearly loose." },
+            quest = { { "Tell me what happened. Begin with what you saw, then what you did, and what changed afterward. A clear report matters. I would rather hear an uncertainty plainly than have to untangle it from a confident guess.", tone = "[steady] [instructive]" } },
+            combatStart = { "Watch the approach. Do not leave the next person exposed." },
+            combatEnd = { "Account for everyone before deciding the work is finished." },
+            rest = { "A short rest. Keep the approach in view." },
+            zone = { "From here, which paths would bring someone toward the post?" },
+            loot = { "Keep any messages intact. A torn corner may matter." },
+            hearth = { "Back to Freewind Post. There will be news to hear." },
+        },
+    },
+
+    -- Innkeeper Abeqwa, Freewind Post, adult male Tauren, 11116/10653.
+    -- Exact innkeeper/vendor identity and shared welcome/dungeon/holiday gossip.
+    -- Historical cheese/drink stock; current empty sale tab is qualified.
+    -- Favorite chair repeatedly lent to guests is ours. No later corpse event.
+    -- Research: docs/research/freewind-reports-and-a-chair.md.
+    [11116] = {
+        quote = "Put down the pack before you tell me how heavy it has been. There is room for you to rest here.",
+        likes = { "A traveler settling comfortably", "A chair placed just where it is needed", "Voices growing calmer after the road" },
+        dislikes = { "Gear blocking the way in", "A full cup near the table's edge", "A welcome hurried through like a chore" },
+        gossip = "Abeqwa knows exactly which chair he would like for his own break. It is usually occupied by someone he has just welcomed.",
+        bio = "Abeqwa keeps the inn at Freewind Post. Travelers can make it their home, ask about distant dungeons and find refreshments. His established wares include cheeses and drinks, though a guest's first need may simply be somewhere to sit.",
+        backstory = "Abeqwa once found the chair that suited him perfectly, then offered it to a weary arrival. By the time another break came, a different guest was using it. He began finding other places to settle, rather than asking anyone to hurry.",
+        secret = "He still means to take a long break in that chair. Yet seeing a guest sink into it comfortably gives him a pleasure of its own. He can usually find another place nearby.",
+        bestFriend = "I have found two places to sit. Choose whichever suits you, and I will take the other. There is no need to make this visit brief.",
+        favorite = { emote = "THANK", hint = "A little gratitude notices the care he puts into an ordinary welcome." },
+        lines = {
+            greet = { { "Welcome back. Come along, and let the road loosen its hold on you a little. There will be time to tell me where you have been. I am glad you found your way here again.", tone = "[gentle] [welcoming]" },
+                "There you are. Put yourself at ease before finding something useful to say." },
+            idle = { { "I know which chair I would choose for a long break. So do several guests, apparently, because I keep offering it to them. I shall sit there eventually. For now, it is good to see it being enjoyed.", tone = "[warm] [lightly amused]" },
+                "Sometimes a place feels welcoming as soon as someone makes room for your pack.",
+                "A quiet voice carries far enough for good company." },
+            befriended = { { "You need no errand to explain coming back. I enjoy seeing you, and I would be glad to spend a little time together. Choose a place to settle. Today, I have made room for a proper visit.", tone = "[sincere] [contented]" } },
+            poke = { "Yes? What would help you settle?", "I heard you. Give me a moment and I will be with you." },
+            rest = { { "This looks like a good place to stop. Set the pack where it will not trouble your feet, and give yourself time to become comfortable. Rest is worth taking properly, even when the next part of the journey seems urgent.", tone = "[soothing] [patient]" } },
+            quest = { "Well done. Let yourself enjoy being finished for a moment." },
+            loot = { "Keep that edge turned away from anyone reaching for the table." },
+            zone = { "I hope the next weary traveler finds a welcome here." },
+            combatEnd = { "Everyone safe? Then let us catch our breath together." },
+            thanked = { "You are very welcome. I am pleased it helped." },
+            hearth = { "Home again. Leave the hurry outside for a while." },
+        },
+    },
+
     -- Gazlowe, Ratchet, adult male Goblin, 3391/display 7052.
     -- Orgrimmar construction gossip; pirate/shipment, racing sponsorship,
     -- Bruuz bounty and Rezlak advice. No later Trade Prince/Horde Council role.

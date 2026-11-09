@@ -616,6 +616,20 @@
       "zone": "Thousand Needles",
       "route": "Freewind Post quest and innkeeper contacts",
       "reason": "Exact current adult male Tauren bodies, levels, friendly Horde icons and regional pins checked. Full own current/service/gossip/literary research pending; distinguish later betrayal/death and NPC IDs. See docs/research/freewind-cliffwatcher-and-abeqwa-queue.md"
+    },
+    {
+      "npc_id": 3995,
+      "name": "Witch Doctor Jin'Zil",
+      "zone": "Stonetalon Mountains",
+      "route": "Male Troll witch doctor and female Orc innkeeper",
+      "reason": "Exact current adult bodies/identities checked; Jinzil friendly Stonetalon pin and Jayka historical Sun Rock location with missing current fields qualified. Full own source review pending. See docs/research/stonetalon-jinzil-and-jayka-queue.md"
+    },
+    {
+      "npc_id": 7731,
+      "name": "Innkeeper Jayka",
+      "zone": "Stonetalon Mountains",
+      "route": "Male Troll witch doctor and female Orc innkeeper",
+      "reason": "Exact current adult bodies/identities checked; Jinzil friendly Stonetalon pin and Jayka historical Sun Rock location with missing current fields qualified. Full own source review pending. See docs/research/stonetalon-jinzil-and-jayka-queue.md"
     }
   ]
 }

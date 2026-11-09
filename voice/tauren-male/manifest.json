@@ -1,4 +1,84 @@
 {
+  "lore10537_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:10537",
+    "spoken": "[reserved] [warm] I value the attention you give to what is actually before you. You can stay beside me without finding another task to justify it. There is time for a little company before the next report arrives.",
+    "text": "I value the attention you give to what is actually before you. You can stay beside me without finding another task to justify it. There is time for a little company before the next report arrives.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore10537_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:10537",
+    "spoken": "[firm] [measured] Come along. Keep your eyes open as we go. A useful account begins with noticing what is there, rather than deciding in advance what you expect to find. We can speak without losing sight of the road.",
+    "text": "Come along. Keep your eyes open as we go. A useful account begins with noticing what is there, rather than deciding in advance what you expect to find. We can speak without losing sight of the road.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore10537_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:10537",
+    "spoken": "[low] [thoughtful] Pulling this cord only tightened the knot. I had to stop and follow each turn before it made sense. I could have cut it, of course. That would rather spoil the small pleasure of working it loose.",
+    "text": "Pulling this cord only tightened the knot. I had to stop and follow each turn before it made sense. I could have cut it, of course. That would rather spoil the small pleasure of working it loose.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore10537_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:10537",
+    "spoken": "[steady] [instructive] Tell me what happened. Begin with what you saw, then what you did, and what changed afterward. A clear report matters. I would rather hear an uncertainty plainly than have to untangle it from a confident guess.",
+    "text": "Tell me what happened. Begin with what you saw, then what you did, and what changed afterward. A clear report matters. I would rather hear an uncertainty plainly than have to untangle it from a confident guess.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11116_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11116",
+    "spoken": "[sincere] [contented] You need no errand to explain coming back. I enjoy seeing you, and I would be glad to spend a little time together. Choose a place to settle. Today, I have made room for a proper visit.",
+    "text": "You need no errand to explain coming back. I enjoy seeing you, and I would be glad to spend a little time together. Choose a place to settle. Today, I have made room for a proper visit.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11116_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11116",
+    "spoken": "[gentle] [welcoming] Welcome back. Come along, and let the road loosen its hold on you a little. There will be time to tell me where you have been. I am glad you found your way here again.",
+    "text": "Welcome back. Come along, and let the road loosen its hold on you a little. There will be time to tell me where you have been. I am glad you found your way here again.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11116_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11116",
+    "spoken": "[warm] [lightly amused] I know which chair I would choose for a long break. So do several guests, apparently, because I keep offering it to them. I shall sit there eventually. For now, it is good to see it being enjoyed.",
+    "text": "I know which chair I would choose for a long break. So do several guests, apparently, because I keep offering it to them. I shall sit there eventually. For now, it is good to see it being enjoyed.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11116_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:11116",
+    "spoken": "[soothing] [patient] This looks like a good place to stop. Set the pack where it will not trouble your feet, and give yourself time to become comfortable. Rest is worth taking properly, even when the next part of the journey seems urgent.",
+    "text": "This looks like a good place to stop. Set the pack where it will not trouble your feet, and give yourself time to become comfortable. Rest is worth taking properly, even when the next part of the journey seems urgent.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore11259_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

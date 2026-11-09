@@ -931,5 +931,19 @@
     "zone": "Tanaris",
     "source": "Exact current adult Goblin identity/body; full pirate/shipment/sponsorship, hat and Forever Bruuz/Rezlak branches plus installed text and literary/Warcraft III boundaries reviewed; neutral/missing access qualified, no Scout sighting claimed",
     "research_notes": "docs/research/gazlowe-and-modiste.md"
+  },
+  {
+    "npc_id": 10537,
+    "name": "Cliffwatcher Longhorn",
+    "zone": "Thousand Needles",
+    "source": "Exact current adult male Tauren body, Horde friendly icon and Freewind pin; full current/Classic own relations, entire raid/notes/report sequence and five readable pages, exact shared innkeeper gossip reviewed; later betrayal/death excluded, no Scout sighting claimed",
+    "research_notes": "docs/research/freewind-reports-and-a-chair.md"
+  },
+  {
+    "npc_id": 11116,
+    "name": "Innkeeper Abeqwa",
+    "zone": "Thousand Needles",
+    "source": "Exact current adult male Tauren body, Horde friendly icon and Freewind pin; full current/Classic own relations, entire raid/notes/report sequence and five readable pages, exact shared innkeeper gossip reviewed; later betrayal/death excluded, no Scout sighting claimed",
+    "research_notes": "docs/research/freewind-reports-and-a-chair.md"
   }
 ]
