@@ -22,9 +22,11 @@ manifest.json beside them that maps each file to its line and model; a file
 already recorded with the same model is never recorded again (that would
 spend credits twice), one from another model is.
 
-Eleven v3 (the default) takes emotion tags in the text: "[excited] Wheee!".
+Eleven v4 (the default) takes emotion tags in the text: "[excited] Wheee!".
 A line's own tone comes from its `tone` field in Data/Lines.lua (the game
 ignores it: the bubble never shows a tag); else its moment's (TONES below).
+V4 uses the Text to Dialogue endpoint with one speaker per clip. Existing
+recordings stay bundled; only explicitly requested lines are generated.
 
 Clips are mono Ogg Vorbis at 22.05 kHz, about 36 kbps: speech needs no more,
 and the voice pack stays small enough to keep growing (the user heard no
@@ -61,6 +63,9 @@ VOICES = {
     "human-male": "O7V4YABJUNMVqaNkOPe8",      # BuddyDex Human Male (Steady)
     "human-female": "PlKpB8vhnGrFk9fhJGWb",    # BuddyDex Human Female (Guard)
     "orc-male": "SsUXUYPOaoD5XMe36mlU",       # BuddyDex Orc Male (Gravel), approved audition B
+    "orc-female": "QooG6jOovlSJWv2vSqN8",     # approved second-round C
+    "troll-male": "X3ETuf4PfUMURFMpRT73",     # approved second-round A, Jamaican
+    "troll-female": "0xQXygLnre17fk87G6Kt",   # approved second-round C, Jamaican
     "dwarf-male": "tNPIWbrnyCsbmVIg3tPK",      # BuddyDex Dwarf Male (Mountaineer)
     "dwarf-female": "aRtvtMA33YE3hteCIrqs",    # BuddyDex Dwarf Female (Barmaid)
     "nightelf-male": "I9kX73xcHhkTOd7JNhet",   # BuddyDex Night Elf Male (Druid)
@@ -68,15 +73,15 @@ VOICES = {
     "skyborne-male": "8chV49fDd6WKeqeufgPU",   # BuddyDex Skyborne Male (Windshaper)
     "skyborne-female": "lQ79RJ1oEygPMVWvoXTH", # BuddyDex Skyborne Female (Scholar)
 }
-MODEL = "eleven_v3"
+MODEL = "eleven_v4"
 RATE = 22050                 # Hz: ElevenLabs' pcm_22050, kept for the clips
 FORMAT = f"pcm_{RATE}"
 QUALITY = 1.0                # soundfile's Vorbis compression level: about 36 kbps mono at 22 kHz
 
 # How each moment is delivered when its line names no tone of its own: a
 # tag, or a list a line picks from by its text (the same line always gets
-# the same tone, the pile gets a mix). Eleven v3 reads these as emotion
-# tags; other models would say them aloud, so they are only sent to v3.
+# the same tone, the pile gets a mix). Eleven v3/v4 read these as emotion
+# tags; other models would say them aloud, so only v3/v4 receive them.
 TONES = {
     "greet": ["[cheerfully]", "[excited]", "[warmly]"], "greetMorning": ["[cheerfully]", "[yawns]"],
     "greetAfternoon": "[cheerfully]", "greetEvening": "[warmly]", "greetNight": "[softly]",
@@ -159,9 +164,15 @@ def write_ogg(path, samples, rate):
 
 
 def record(key, voice_id, text, path, model):
-    body = json.dumps({"text": text, "model_id": model}).encode()
+    if model.startswith("eleven_v4"):
+        endpoint = "https://api.elevenlabs.io/v1/text-to-dialogue"
+        payload = {"inputs": [{"text": text, "voice_id": voice_id}], "model_id": model}
+    else:
+        endpoint = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+        payload = {"text": text, "model_id": model}
+    body = json.dumps(payload).encode()
     request = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format={FORMAT}",
+        f"{endpoint}?output_format={FORMAT}",
         data=body, method="POST",
         headers={"xi-api-key": key, "Content-Type": "application/json"})
     # Several voices may record at once: too many requests at a time (429)
@@ -192,7 +203,10 @@ def convert(voice):
     """Turns a voice's MP3 recordings into the same Ogg clips new ones are."""
     folder = os.path.join(ROOT, "voice", voice)
     manifest_path = os.path.join(folder, "manifest.json")
-    manifest = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
+    manifest = {}
+    if os.path.exists(manifest_path):
+        with open(manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
     before = after = count = 0
     for name in sorted(os.listdir(folder)):
         if not name.endswith(".mp3"):
@@ -245,7 +259,8 @@ def write_lua_manifest():
         path = os.path.join(ROOT, "voice", voice, "manifest.json")
         if not os.path.exists(path):
             continue
-        manifest = json.load(open(path))
+        with open(path, encoding="utf-8") as f:
+            manifest = json.load(f)
         out.append(f"        [{lua_string(voice)}] = {{")
         for name in sorted(manifest, key=lambda n: (manifest[n]["moment"], manifest[n]["line"])):
             if not os.path.exists(os.path.join(ROOT, "voice", voice, name)):
@@ -304,7 +319,10 @@ def main():
     out_dir = os.path.join(ROOT, "voice", args.voice)
     os.makedirs(out_dir, exist_ok=True)
     manifest_path = os.path.join(out_dir, "manifest.json")
-    manifest = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
+    manifest = {}
+    if os.path.exists(manifest_path):
+        with open(manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
     key = api_key()
     characters = 0
     for moment, number in wanted:
@@ -315,22 +333,23 @@ def main():
         if re.search(r"\{\w+\}", spoken):
             print(f"skip   {name}: has a fill-in and no say text")
             continue
-        made = manifest.get(name, {})
-        if (os.path.exists(path) and made.get("model", "eleven_multilingual_v2") == args.model
-                and made.get("text") == text and made.get("say") == say):
-            print(f"have   {name}")
-            continue
-        if args.model == "eleven_v3":
+        if args.model.startswith(("eleven_v3", "eleven_v4")):
             if not tone:
                 tone = TONES.get(moment)
                 if isinstance(tone, list):
                     tone = tone[zlib.crc32(text.encode()) % len(tone)]
             if tone:
                 spoken = f"{tone} {spoken}"
+        made = manifest.get(name, {})
+        if (os.path.exists(path) and made.get("model", "eleven_multilingual_v2") == args.model
+                and made.get("text") == text and made.get("say") == say
+                and made.get("spoken") == spoken and made.get("voice_id", VOICES[args.voice]) == VOICES[args.voice]):
+            print(f"have   {name}")
+            continue
         size = record(key, VOICES[args.voice], spoken, path, args.model)
         characters += len(spoken)
         manifest[name] = {"source": source, "moment": moment, "line": number, "text": text, "say": say,
-                          "spoken": spoken, "model": args.model}
+                          "spoken": spoken, "model": args.model, "voice_id": VOICES[args.voice]}
         print(f"made   {name}  {size // 1024} KB  {spoken}")
         with open(manifest_path, "w") as f:
             json.dump(manifest, f, indent=2, sort_keys=True)

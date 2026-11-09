@@ -3852,6 +3852,18 @@ ns.VoicePack = {
             ["I'd better remember the way back."] = "nightelf-male\\npc_zone_11.ogg",
             ["Well, this is a change of scenery."] = "nightelf-male\\npc_zone_12.ogg",
         },
+        ["orc-female"] = {
+            ["You can stop calling yourself a customer. I'll put another bowl out."] = "orc-female\\lore6929_befriended_1.ogg",
+            ["There you are. Tell me you packed something better than dry bread."] = "orc-female\\lore6929_greet_1.ogg",
+            ["A red center. A little salt. Why do people insist on making supper difficult?"] = "orc-female\\lore6929_idle_1.ogg",
+            ["Sit down. You don't have to earn every moment of rest."] = "orc-female\\lore6929_rest_1.ogg",
+        },
+        ["orc-male"] = {
+            ["You're more than a fare and a destination to me, friend."] = "orc-male\\lore3310_befriended_1.ogg",
+            ["Ready? There's a whole world beyond the edge of that tower."] = "orc-male\\lore3310_greet_1.ogg",
+            ["Some riders count the coins. I watch for the smile when they come back."] = "orc-male\\lore3310_idle_1.ogg",
+            ["Hands steady. Pack secure. Now look out there... that's yours to see."] = "orc-male\\lore3310_taxi_1.ogg",
+        },
         ["skyborne-female"] = {
             ["Welcome back!"] = "skyborne-female\\npc_alive_1.ogg",
             ["There you are. Gave me a fright."] = "skyborne-female\\npc_alive_2.ogg",

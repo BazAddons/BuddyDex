@@ -42,6 +42,75 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Innkeeper Gryshka <Innkeeper>, Broken Tusk, Valley of Strength,
+    -- Orgrimmar. NPC 6929, female orc. Classic quests 6365, 6384-6386:
+    -- Zargh sends meat via Devrak; she likes rare cuts and sends thanks
+    -- back through Doras. Zargh jokes about a wedding; no marriage is
+    -- established. No later Grimtak/Arcantina/retail events used here.
+    -- Recipe notes, broth, private keepsakes and dialogue are our fiction.
+    -- Sources and limitations: docs/research/gryshka-and-doras.md.
+    [6929] = {
+        quote = "A good cut needs a hot fire and someone who knows when to take it off. Sit. I'll handle both.",
+        likes = { "Steak with a red center", "A delivery from Zargh", "Guests who arrive hungry" },
+        dislikes = { "Good meat cooked to leather", "Fights beside the cooking fire", "Skipping supper to look tough" },
+        gossip = "Gryshka guards her recipe notes like battle plans. Her regulars suspect the margins are more interesting than the recipes.",
+        bio = "Gryshka keeps the Broken Tusk in Orgrimmar's Valley of Strength. Zargh sends choice meat from the Crossroads; she prefers it rare. A letter of thanks goes back by wind rider, with Doras arranging the journey.",
+        backstory = "Keeping an inn taught her that guests ask for food more easily than comfort. She began keeping broth ready beside the grill. Someone nursing an untouched bowl might need a quiet seat more than another question.",
+        secret = "She tucks kind notes between her recipes. The meat is long gone, but she likes remembering that someone thought of her before sending it.",
+        bestFriend = "I saved a good cut for you. No errands, no hurry. Tell me how you are while the fire gets ready.",
+        favorite = { emote = "THANK", hint = "She knows a little appreciation is worth putting into words." },
+        lines = {
+            greet = { { "There you are. Tell me you packed something better than dry bread.", tone = "[low, gravelly voice, warmly teasing]" },
+                "Out for a while, then. Someone had better mind that grill." },
+            idle = { { "A red center. A little salt. Why do people insist on making supper difficult?", tone = "[gravelly voice, dry amusement]" },
+                "Wonder whether Zargh has anything good set aside today.",
+                "The quiet ones need a seat by the fire, too." },
+            befriended = { { "You can stop calling yourself a customer. I'll put another bowl out.", tone = "[low, rough voice, warmly sincere]" } },
+            poke = { "Careful. I turn steaks with that hand.", "What? Have I got flour on my nose?" },
+            rest = { { "Sit down. You don't have to earn every moment of rest.", tone = "[gravelly voice, gently firm]" } },
+            hearth = { "Home before the coals go cold. Sensible." },
+            loot = { "If that's food, keep it away from the old boots." },
+            bagsFull = { "If you can't fit supper in there, you've packed wrong." },
+            quest = { "You delivered it? Good. A little thanks travels a long way." },
+            levelUp = { "Stronger already! That calls for a better cut." },
+            combatEnd = { "Still standing? Good. Take a breath before you claim you're fine." },
+        },
+    },
+
+    -- Doras <Wind Rider Master>, Valley of Strength tower, Orgrimmar.
+    -- NPC 3310, male ORC, not troll. Classic quests 6385-6386 receive
+    -- Gryshka's letter, explain known flight routes and send it to Zargh
+    -- at the Crossroads through Devrak. No later Skyway/Razor Hill chain.
+    -- Patient first-flight coaching and the milestone ledger are fiction.
+    -- Sources and limitations: docs/research/gryshka-and-doras.md.
+    [3310] = {
+        quote = "The first flight always feels longest before you leave the tower. Come on. I'll check the straps.",
+        likes = { "A rider's first clear view", "Well-kept saddle straps", "Letters that reach their owners" },
+        dislikes = { "Loose packs near the landing", "Blaming a wind rider for nerves", "Pretending to know the route" },
+        gossip = "Doras keeps a ledger beside the saddles. Couriers say he's counting fares. Funny how he never seems to count the same way twice.",
+        bio = "Doras tends Orgrimmar's wind riders above the Valley of Strength. Gryshka sends her letter for Zargh to him; he directs the courier back to Devrak at the Crossroads. He makes a long road into a short flight.",
+        backstory = "After enough first flights, he learned to explain the journey before tightening the straps. Knowing where you're going helps. Being allowed to admit you're nervous helps more. He leaves time for both.",
+        secret = "The little marks in his ledger count first-time riders who come back smiling. He likes knowing the sky has become a welcome place for someone else.",
+        bestFriend = "No need to prove you're brave up here. I know you. Take the long look before we go; I'll keep a place beside you.",
+        favorite = { emote = "WAVE", hint = "He watches every departure long enough to return a farewell." },
+        lines = {
+            greet = { { "Ready? There's a whole world beyond the edge of that tower.", tone = "[deep gravelly voice, welcoming confidence]" },
+                "Traveling together today? Good. Let me check those straps." },
+            idle = { { "Some riders count the coins. I watch for the smile when they come back.", tone = "[low resonant voice, quietly pleased]" },
+                "Nothing wrong with being nervous. Say so before we take off.",
+                "A letter weighs almost nothing. Still matters if it gets there." },
+            befriended = { { "You're more than a fare and a destination to me, friend.", tone = "[deep gravelly voice, warmly sincere]" } },
+            poke = { "Checking whether I'm strapped in?", "Easy. I'm not the saddle." },
+            taxi = { { "Hands steady. Pack secure. Now look out there... that's yours to see.", tone = "[steady reassuring voice, growing wonder]" } },
+            landed = { "There we are. Take your time getting your feet back." },
+            mount = { "A fine mount. Doesn't give you quite the same view, though." },
+            zone = { "Always worth learning another place on the map." },
+            quest = { "Delivered safely? Good. Someone was waiting for that." },
+            levelUp = { "Look how far you've come. Remember your first journey?" },
+            hearth = { "Straight home, then. Even I can see the appeal." },
+        },
+    },
+
     -- Thor <Gryphon Master>, Sentinel Hill, Westfall. Human.
     -- Facts: runs the Sentinel Hill gryphon roost. Greets travelers by asking
     -- where they are going and promising the fastest way there. In Classic,

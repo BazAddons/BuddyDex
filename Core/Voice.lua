@@ -7,7 +7,7 @@ local ADDON_NAME, ns = ...
 -- exact text, in a male and a female gnome voice; tools/voice/generate.py
 -- makes them). The goal is every line recorded; until then a line without
 -- a clip speaks in the chat bubble alone. A friend of a race with recorded voices
--- (RACE_VOICES: humans, dwarves, night elves, Skyborne, and gnomes in the
+-- (RACE_VOICES: humans, orcs, dwarves, night elves, Skyborne, and gnomes in the
 -- Mini Me's own two voices) speaks their lines the same way. Any other friend, or any friend without the pack, speaks in
 -- the voice the game gives their model (Data/NpcSounds.lua): their own
 -- greetings, farewells and annoyed lines, with the words in the bubble. With the voice
@@ -70,6 +70,7 @@ end
 -- keeps their displays). Gnome friends share the Mini Me's voices.
 Voice.RACE_VOICES = {
     [1] = { [0] = "human-male", [1] = "human-female" },
+    [2] = { [0] = "orc-male", [1] = "orc-female" },
     [3] = { [0] = "dwarf-male", [1] = "dwarf-female" },
     [4] = { [0] = "nightelf-male", [1] = "nightelf-female" },
     [7] = { [0] = "male", [1] = "female" },

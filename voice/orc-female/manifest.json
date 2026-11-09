@@ -1,0 +1,42 @@
+{
+  "lore6929_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6929",
+    "spoken": "[low, rough voice, warmly sincere] You can stop calling yourself a customer. I'll put another bowl out.",
+    "text": "You can stop calling yourself a customer. I'll put another bowl out.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore6929_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6929",
+    "spoken": "[low, gravelly voice, warmly teasing] There you are. Tell me you packed something better than dry bread.",
+    "text": "There you are. Tell me you packed something better than dry bread.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore6929_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6929",
+    "spoken": "[gravelly voice, dry amusement] A red center. A little salt. Why do people insist on making supper difficult?",
+    "text": "A red center. A little salt. Why do people insist on making supper difficult?",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore6929_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6929",
+    "spoken": "[gravelly voice, gently firm] Sit down. You don't have to earn every moment of rest.",
+    "text": "Sit down. You don't have to earn every moment of rest.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  }
+}

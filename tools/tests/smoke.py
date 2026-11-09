@@ -151,6 +151,18 @@ step("the main addon loads its bundled voices", function()
     MOCK.soundFiles = {}
     assert(ns.Voice.PlayClip(line, "male"), "bundled clip did not play")
     assert(MOCK.soundFiles[1] == ns.VoicePack.path .. file, "wrong playback path")
+    -- Classic display IDs, cross-checked against the branch's DB2 race/sex
+    -- metadata: Doras is an orc man; Gryshka is an orc woman.
+    assert(ns.Voice.NpcVoice(1311) == "orc-male" and ns.Voice.NpcVoice(5706) == "orc-female",
+        "Horde service NPC voice identity mismatch")
+    for _, sample in ipairs({ {3310, 1311, "orc-male"}, {6929, 5706, "orc-female"} }) do
+        local line = ns.Lore[sample[1]].lines.greet[1][1]
+        MOCK.soundFiles = {}
+        assert(ns.Voice.Speak({ display = sample[2], moment = "greet", line = line }),
+            "Horde signature greeting did not play")
+        assert(#MOCK.soundFiles == 1, "Horde greeting did not use its recording")
+    end
+
     -- An obsolete standalone pack cannot override the private manifest.
     _G["BuddyDexVoicePack"] = { path = "obsolete/", voices = {} }
     assert(ns.Voice.PlayClip(line, "male"), "obsolete addon replaced bundled voices")
@@ -1357,6 +1369,7 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     assert(ns.Voice.Speak({ display = 3263, moment = "greet", line = "Lead the way, {name}." }) and Played(5974),
         "Thor lost his own voice to the pack")
     ns.VoicePack = savedPack
+
 
     Quiet()
     MOCK.Fire(BuddyDexCompanion, "OnClick", "LeftButton")
