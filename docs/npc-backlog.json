@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 52,
-  "remaining_count": 165,
+  "completed_count": 54,
+  "remaining_count": 163,
   "completed": [
     {
       "npc_id": 54,
@@ -380,6 +380,24 @@
       "status": "complete"
     },
     {
+      "npc_id": 5175,
+      "name": "Gearcutter Cogspinner",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6569,
+      "name": "Gnoarn",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6740,
       "name": "Innkeeper Allison",
       "zone": "Stormwind City",
@@ -572,20 +590,6 @@
     {
       "npc_id": 5569,
       "name": "Fizzlebang Booms",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5175,
-      "name": "Gearcutter Cogspinner",
-      "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6569,
-      "name": "Gnoarn",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

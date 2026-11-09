@@ -2149,6 +2149,86 @@
     "text": "This looks like a good place. Is there room beside you?",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore5175_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5175",
+    "spoken": "[warm, understated, sincerely pleased] You listen to the explanation and stay for the conversation. I like that.",
+    "text": "You listen to the explanation and stay for the conversation. I like that.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5175_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5175",
+    "spoken": "[brisk, practical, lightly amused] I've packed the essentials. If we need a drawer, we'll have to improvise.",
+    "text": "I've packed the essentials. If we need a drawer, we'll have to improvise.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5175_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5175",
+    "spoken": "[puzzled, stubborn, comic understatement] This wooden puzzle is clearly missing a gear. No, I haven't proved that.",
+    "text": "This wooden puzzle is clearly missing a gear. No, I haven't proved that.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5175_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5175",
+    "spoken": "[curious, absorbed professional interest] Before you sell that, let me see how the pieces fit together.",
+    "text": "Before you sell that, let me see how the pieces fit together.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6569_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6569",
+    "spoken": "[warm, sincere, restrained relief] You keep coming back. That matters rather more than a magnificent entrance.",
+    "text": "You keep coming back. That matters rather more than a magnificent entrance.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6569_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6569",
+    "spoken": "[brisk, theatrical pride, dry humor] Ready! If anyone asks, my hair was considerably taller than this.",
+    "text": "Ready! If anyone asks, my hair was considerably taller than this.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6569_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6569",
+    "spoken": "[defensive pride softening into hopeful amusement] A comb? Certainly. One must be prepared for a scientific breakthrough.",
+    "text": "A comb? Certainly. One must be prepared for a scientific breakthrough.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6569_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:6569",
+    "spoken": "[trying to sound practical, a little anxious] Should we be late, please make certain someone knows where to look.",
+    "text": "Should we be late, please make certain someone knows where to look.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lowHealth_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

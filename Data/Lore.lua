@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Gnoarn 6569, male gnome, Tinker Town, Ironforge. Classic quest
+    -- referrals 2039/2041/2927: Bingles, Shoni and Ozzie; radiation hair loss.
+    -- Gearcutter 5175 is a male gnome engineering supplier in Tinker Town.
+    -- Original private hooks; sources: docs/research/gnoarn-and-gearcutter.md.
+    [6569] = {
+        quote = "A city can be rebuilt. A magnificent head of hair may take longer. We must remain ambitious on both fronts.",
+        likes = { "A missing colleague reporting in", "Plans to reclaim Gnomeregan", "Recognition of former magnificence" },
+        dislikes = { "Reports that are a week overdue", "Troggs near anything important", "Suggestions that a hat would do" },
+        gossip = "Gnoarn can turn a question about his hair into a briefing on Gnomeregan. Nobody quite knows where one subject ends.",
+        bio = "From Tinker Town, Gnoarn sends help after the missing Bingles and toward Shoni's underground assault plans. He also directs adventurers to Ozzie's experiments in Kharanos. His lost city remains very much on his mind.",
+        backstory = "Radiation in Gnomeregan cost Gnoarn his celebrated hair. Ozzie witnessed the loss; beneath Gnoarn's furious complaints lies his determination to reclaim the city and find help for the sickness left behind.",
+        secret = "He still carries a comb. He calls it a statement of confidence in the research. On difficult days, it helps to have a small, ordinary thing worth hoping to use again.",
+        bestFriend = "If I'm overdue, you will come looking, won't you? Good. I shall do the same. No one should wonder alone.",
+        favorite = { emote = "PRAISE", hint = "A little admiration might reassure him that his finest qualities survived." },
+        lines = {
+            greet = { { "Ready! If anyone asks, my hair was considerably taller than this.", tone = "[brisk, theatrical pride, dry humor]" }, "An expedition with a reliable companion. An encouraging start!" },
+            idle = { { "A comb? Certainly. One must be prepared for a scientific breakthrough.", tone = "[defensive pride softening into hopeful amusement]" }, "A report needn't be impressive. Arrived safely will do.", "I can worry about Gnomeregan and my appearance at the same time." },
+            befriended = { { "You keep coming back. That matters rather more than a magnificent entrance.", tone = "[warm, sincere, restrained relief]" } },
+            poke = { "Yes, that's the top of my head. We have established that.", "A written report would be less startling." },
+            quest = { "Good. Someone waiting for news may finally breathe a little easier." },
+            mail = { "News? Please let it begin with everyone being alive." },
+            taxi = { { "Should we be late, please make certain someone knows where to look.", tone = "[trying to sound practical, a little anxious]" } },
+            landed = { "Safely down! An excellent detail for the report." },
+            combatEnd = { "Everyone here? Count people before anything else." },
+            levelUp = { "Progress! Visible, measurable progress. I approve." },
+            hearth = { "Back to Ironforge. There may be news waiting." },
+        },
+    },
+    [5175] = {
+        quote = "Bring the part you're replacing. 'A little round thing' describes half my stock and several of my customers.",
+        likes = { "A sample brought to the counter", "Parts returned to the proper drawer", "A customer who follows the explanation" },
+        dislikes = { "Measurements taken with a thumb", "Loose screws mixed with the change", "Being asked for the exploding version" },
+        gossip = "Gearcutter can recognize a component from a terrible sketch. He keeps the worst sketches because he enjoys the challenge.",
+        bio = "Gearcutter Cogspinner sells engineering supplies in Ironforge's Tinker Town. Among the district's busy workshops, his counter is a place to find the small components a much larger idea depends on.",
+        backstory = "Explaining why two similar parts weren't interchangeable became one of his favorite parts of the trade. He began keeping rough customer drawings, pleased when a few questions turned a mystery into a useful purchase.",
+        secret = "A little wooden puzzle has defeated him for weeks. It has no gears, springs or hidden latch. He checks for them again whenever he gets stuck, just in case.",
+        bestFriend = "I can admit I haven't worked it out yet when you're here. Pull up a chair. Perhaps we're both missing the obvious bit.",
+        favorite = { emote = "NOD", hint = "He likes to know that a careful explanation has made sense." },
+        lines = {
+            greet = { { "I've packed the essentials. If we need a drawer, we'll have to improvise.", tone = "[brisk, practical, lightly amused]" }, "A field trip! Show me what all these parts are being used for." },
+            idle = { { "This wooden puzzle is clearly missing a gear. No, I haven't proved that.", tone = "[puzzled, stubborn, comic understatement]" }, "A clear drawing saves everyone a very long conversation.", "There's something satisfying about a part that fits on the first attempt." },
+            befriended = { { "You listen to the explanation and stay for the conversation. I like that.", tone = "[warm, understated, sincerely pleased]" } },
+            poke = { "You could just ask which pocket it's in.", "Careful. Some of those pockets are sorted." },
+            loot = { { "Before you sell that, let me see how the pieces fit together.", tone = "[curious, absorbed professional interest]" } },
+            bagsFull = { "One bag for parts and one for everything else. It works until you find more parts." },
+            quest = { "There. A practical result. Always pleasing." },
+            gear = { "Does it fit properly? Looking impressive is the easier half." },
+            learned = { "Show me that again, slowly. I'd like to understand it." },
+            levelUp = { "Well done! Experience is the part nobody can sell you." },
+            hearth = { "Back to the counter. I hope nobody has rearranged the drawers." },
+        },
+    },
+
+
     -- Sara Balloo 2695: female dwarf, Ironforge; Sully's wife, mother,
     -- Classic letter/plea/memorial chain 637,683,686,689,700. No assumed
     -- player completion or literal ghost visit. Rotimer 13843: male dwarf,
