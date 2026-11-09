@@ -42,6 +42,74 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Remy "Two Times", Goldshire, Elwynn Forest. NPC 241, male human.
+    -- Classic: merchant from Redridge; repeats phrases; gold dust quest 47
+    -- and murloc warning 40. Forever: Jason Mathers's chain 99127-99131
+    -- gives him a bait-making role. No named criminal associates inferred.
+    -- Apples, hospitality and personal lines are BuddyDex fiction.
+    -- Sources and limits: docs/research/remy-two-times.md.
+    [241] = {
+        quote = "A fair price and a little conversation. That's good business, friend. Good business.",
+        likes = { "A deal both sides leave smiling", "Someone taking his warning seriously", "An extra apple for the road" },
+        dislikes = { "Murlocs near honest people's work", "Being dismissed before he's finished", "Dust spilled out of an open pouch" },
+        gossip = "Remy always seems to buy an extra apple. Goldshire can't decide whether he's found a bargain or forgotten his first purchase.",
+        bio = "Remy came from Redridge to do business in Goldshire. He buys gold dust and warns Dughan about murlocs. When Jason Mathers needs a way to protect his fishing, Remy has a plan for bait. He repeats himself, but his concerns are real.",
+        backstory = "Trading taught him to leave room for another offer. Traveling taught him to leave room for another person. He started packing a little more food than he needed, just in case a promising conversation lasted past lunch.",
+        secret = "The second apple is for company he hasn't found yet. A buyer might only want a price, but someone sharing lunch might stay long enough to become a friend.",
+        bestFriend = "Here, take the other apple. No price, no favor. I was hoping you'd come along. Hoping you'd come along.",
+        favorite = { emote = "NOD", hint = "A small sign that you heard him matters more than hearing himself twice." },
+        lines = {
+            greet = { { "A traveling partner! Now that's a good start. A good start.", tone = "[genial merchant voice, warmly pleased]" },
+                "Off we go. I've packed enough for two, enough for two." },
+            idle = { { "Gold dust is worth counting. So are the people who stop to listen.", tone = "[thoughtful, warm voice, unhurried]" },
+                "If Jason brings fish, make sure he hasn't brought the bait as well.",
+                "Redridge is east. I still look that way now and then, now and then." },
+            befriended = { { "Funny thing. You came back when there wasn't a deal waiting. I'm glad you did.", tone = "[slightly surprised, sincerely touched voice]" } },
+            poke = { "You only need to ask once. I'm the one who does the repeating.", "Steady! That's lunch in that pocket, lunch in that pocket." },
+            loot = { "Worth a closer look, that. A closer look." },
+            bagsFull = { "Tie that pouch before we lose the dust. Before we lose it." },
+            quest = { { "They listened? Good. Some warnings need more than a merchant behind them.", tone = "[relieved voice, restrained concern]" } },
+            rest = { "Lunch? I've an apple to spare. An apple to spare." },
+            levelUp = { "Doing well for yourself! Doing well for yourself." },
+            combatEnd = { "Still here? Good. That's the important part, the important part." },
+            hearth = { "Back to familiar faces. Worth the journey, worth the journey." },
+        },
+    },
+
+    -- Innkeeper Allison, Gilded Rose, Trade District, Stormwind.
+    -- NPC 6740, female human. Classic: Staghelm referral 3790, New Year
+    -- supplies 8860, Hallow's End flex/nougat 8356, fragrance source
+    -- dialogue 9026-9027. No later Lorewalker/Legion history used.
+    -- Paper roses, preferences and companion lines are original writing.
+    -- Sources and continuity: docs/research/innkeeper-allison.md.
+    [6740] = {
+        quote = "Yes, there's room for you. Even if all you brought was a tired pair of feet and a story.",
+        likes = { "A guest who's a good sport", "A celebration everyone can join", "Something made by hand" },
+        dislikes = { "Leaving the quiet guest out", "Everyone wearing the same perfume", "Boots muddying freshly swept floors" },
+        gossip = "Allison keeps a rose where the guests can see it. Regulars say it never wilts, though nobody has caught her buying a fresh one.",
+        bio = "Allison runs the Gilded Rose in Stormwind's Trade District. She welcomes tired travelers, helps provision New Year revelers and makes Hallow's End visitors earn their nougat with a playful show of strength.",
+        backstory = "A busy room taught her how easily a small kindness gets lost in the noise. During quieter hours, she learned to fold spare paper into flowers. One at a table could make a plain supper feel like an occasion.",
+        secret = "The rose is paper. She kept the first one she folded, crooked petal and all. She likes a welcome that doesn't have to be perfect to mean something.",
+        bestFriend = "Come as you are. I'll leave the room to its noise for a moment. This time, I'd like to hear just you.",
+        favorite = { emote = "FLEX", hint = "She enjoys a good-natured show of strength, especially when treats are involved." },
+        lines = {
+            greet = { { "Well, look who's here! Ready to give those feet a new story?", tone = "[bright, welcoming voice, playful warmth]" },
+                "A little time outside. I almost forgot I could do that." },
+            idle = { { "A crooked paper flower still tells someone you made the effort.", tone = "[warm, reflective voice, quietly pleased]" },
+                "Everyone wearing the same fragrance. Where's the fun in that?",
+                "You'd be surprised how seriously people take earning a piece of nougat." },
+            befriended = { { "You know, I look for you before I look to see whether you need a room.", tone = "[sincerely fond voice, gentle amusement]" } },
+            poke = { "Yes? No need to ring twice; I'm right here.", "Showing off again? That had better be your best trick." },
+            rest = { { "There. Let the busy people hurry past for a little while.", tone = "[gentle, soothing voice, relaxed pace]" } },
+            hearth = { "A place to come back to. That's half the magic of a hearthstone." },
+            quest = { "A helping hand? Lovely. I hope they remembered to thank you." },
+            levelUp = { "Very impressive! Now, can you do that with a paper crown on?" },
+            combatEnd = { "Steady now. Take a breath before you tell me you're all right." },
+            bagsFull = { "Some of that could stay in your room, surely." },
+            taxi = { "Oh, what a view! The guests never mention this part enough." },
+        },
+    },
+
     -- Keldric Boucher <Arcane Goods Vendor>, Pestle's Apothecary,
     -- Trade District, Stormwind. NPC 1257, male human. Classic stock
     -- includes vials and reagents. Works with Kyra and Morgan. No direct

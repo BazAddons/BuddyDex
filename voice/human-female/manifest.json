@@ -214,6 +214,46 @@
     "spoken": "[impressed] New customers, perhaps. I hope someone knows a good oven.",
     "text": "New customers, perhaps. I hope someone knows a good oven."
   },
+  "lore6740_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6740",
+    "spoken": "[sincerely fond voice, gentle amusement] You know, I look for you before I look to see whether you need a room.",
+    "text": "You know, I look for you before I look to see whether you need a room.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6740_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6740",
+    "spoken": "[bright, welcoming voice, playful warmth] Well, look who's here! Ready to give those feet a new story?",
+    "text": "Well, look who's here! Ready to give those feet a new story?",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6740_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6740",
+    "spoken": "[warm, reflective voice, quietly pleased] A crooked paper flower still tells someone you made the effort.",
+    "text": "A crooked paper flower still tells someone you made the effort.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6740_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6740",
+    "spoken": "[gentle, soothing voice, relaxed pace] There. Let the busy people hurry past for a little while.",
+    "text": "There. Let the busy people hurry past for a little while.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

@@ -210,6 +210,46 @@
     "spoken": "[excited] Different roads, same rule: know where your people are.",
     "text": "Different roads, same rule: know where your people are."
   },
+  "lore241_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:241",
+    "spoken": "[slightly surprised, sincerely touched voice] Funny thing. You came back when there wasn't a deal waiting. I'm glad you did.",
+    "text": "Funny thing. You came back when there wasn't a deal waiting. I'm glad you did.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore241_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:241",
+    "spoken": "[genial merchant voice, warmly pleased] A traveling partner! Now that's a good start. A good start.",
+    "text": "A traveling partner! Now that's a good start. A good start.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore241_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:241",
+    "spoken": "[thoughtful, warm voice, unhurried] Gold dust is worth counting. So are the people who stop to listen.",
+    "text": "Gold dust is worth counting. So are the people who stop to listen.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore241_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:241",
+    "spoken": "[relieved voice, restrained concern] They listened? Good. Some warnings need more than a merchant behind them.",
+    "text": "They listened? Good. Some warnings need more than a merchant behind them.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore253_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

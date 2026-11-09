@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 14,
-  "remaining_count": 147,
+  "completed_count": 16,
+  "remaining_count": 145,
   "completed": [
     {
       "npc_id": 234,
@@ -19,6 +19,15 @@
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 241,
+      "name": "Remy \"Two Times\"",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -107,6 +116,15 @@
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6740,
+      "name": "Innkeeper Allison",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -286,13 +304,6 @@
     {
       "npc_id": 250,
       "name": "Pa Maclure",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 241,
-      "name": "Remy \"Two Times\"",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -804,13 +815,6 @@
     {
       "npc_id": 1324,
       "name": "Heinrich Stone",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6740,
-      "name": "Innkeeper Allison",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
