@@ -1,3 +1,7 @@
+# Completed: Chepi and Ezekiel Graves
+
+Final source/writing/validation note: [Thunder Bluff questions and Undercity whispers](thunder-bluff-questions-and-undercity-whispers.md). Original plan/source checkpoint below is historical.
+
 # Next: Chepi and Ezekiel Graves
 
 Exact current identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/chepi-ezekiel-research/npc-ID.json`.
@@ -12,7 +16,7 @@ Then ten fields/fifteen supported lines, four approved Eleven v4 signatures each
 
 ## Research checkpoint 2026-11-09
 
-All eight own current starts/ends/teaches/sells responses fetched/read. Both start/end/teach zero rows. Stock single-page: Chepi17, Ezekiel10. No current own personal quest established. Exact-ID installed gossip blocks absent in all four generated modules (Gossip/Horde/Alliance/Shared). Installed QuestText exact Chepi/Ezekiel name scans absent. Broad ?Graves? finds **mass graves**, Linken's gravestone, Joseph Redpath and Holland's doomweed, not Ezekiel; these false name matches excluded.
+All eight own current starts/ends/teaches/sells responses fetched/read. Both start/end/teach zero rows. Stock single-page: Chepi17, Ezekiel10. No current own personal quest established. Exact-ID installed gossip blocks absent in all four generated modules (Gossip/Horde/Alliance/Shared). Installed QuestText exact Chepi/Ezekiel name scans absent. Broad "Graves" finds **mass graves**, Linken's gravestone, Joseph Redpath and Holland's doomweed, not Ezekiel; these false name matches excluded.
 
 Chepi's 17 rows: Ankh, Arcane Powder, Ashwood Seed, Demonic Figurine, Holy Candle, Hornbeam Seed, Infernal Stone, Ironwood Seed, Maple Seed, Rune of Portals, Rune of Teleportation, Sacred Candle, Stranglethorn Seed, Symbol of Divinity, Symbol of Kings, Wild Berries, Wild Thornroot. No recipe/book/readable item in this stock. [Current primary NPC page](https://www.wowhead.com/forever/npc=8361/chepi) confirms Thunder Bluff, numerous positions; historical comments describe circling the pond near the main lift. [Indexed character article](https://warcraft.wiki.gg/wiki/Chepi) places her on the lower rise. The multiple current pins corroborate movement but do not establish timing/exact path, so no fixed patrol-duration claim. Modern Gateway Control Shard/Vanishing Powder, later seed/reagent changes, Chronoboon and SoD Comprehension Charm are not current Forever stock. Vendor role does not establish mastery of every class using her supplies.
 

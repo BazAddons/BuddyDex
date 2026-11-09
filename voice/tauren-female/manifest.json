@@ -439,6 +439,46 @@
     "text": "Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore8361_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8361",
+    "spoken": "[warm] [sincere] [gently playful] You have become someone I enjoy talking with even when neither of us needs anything from the other. Come along, friend. We can see where the day takes us. If I ask a question that seems very simple, remember how patiently I listened when you could not quite name that little thing.",
+    "text": "You have become someone I enjoy talking with even when neither of us needs anything from the other. Come along, friend. We can see where the day takes us. If I ask a question that seems very simple, remember how patiently I listened when you could not quite name that little thing.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8361_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8361",
+    "spoken": "[warm] [patient] [gently amused] There you are. Have you remembered what you need, or only the part where it fits into your plans? Either will do for a beginning. Tell me a little more, and we can work from there. I would rather ask a useful question than sell you an impressive mistake.",
+    "text": "There you are. Have you remembered what you need, or only the part where it fits into your plans? Either will do for a beginning. Tell me a little more, and we can work from there. I would rather ask a useful question than sell you an impressive mistake.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8361_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8361",
+    "spoken": "[thoughtful] [wry] Someone once asked me for the little thing used with a spell. That left quite a few possibilities. Asking what they hoped to do helped more than guessing. Later I found myself asking a cook for the brown ingredient from supper. It was useful to remember how that feels.",
+    "text": "Someone once asked me for the little thing used with a spell. That left quite a few possibilities. Asking what they hoped to do helped more than guessing. Later I found myself asking a cook for the brown ingredient from supper. It was useful to remember how that feels.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8361_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:8361",
+    "spoken": "[encouraging] [steady] Remembering the name is useful. Understanding what you need it for is useful too. There is no shame in asking about either. A spell may sound grand when it is finished, but preparation is often a matter of small things remembered before the moment you need them.",
+    "text": "Remembering the name is useful. Understanding what you need it for is useful too. There is no shame in asking about either. A spell may sound grand when it is finished, but preparation is often a matter of small things remembered before the moment you need them.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore8385_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

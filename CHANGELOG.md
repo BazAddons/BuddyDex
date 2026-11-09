@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Chepi and Ezekiel Graves: full Tauren/Forsaken vendor profiles, fifteen personal lines and four approved v4 signatures each; preserve Ezekiel's ordinary neutral/non-attackable eligibility gates.
+
 - Add Innkeeper Adegwa and Innkeeper Zizplink: full Tauren/Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain their actual welcomes and Zizplink's refusal of more alcohol for Gray.
 
 - Add Gorina and Nessa Shadowsong: full female Orc/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Gorina's supplier role and Nessa's unresolved fish comparison.

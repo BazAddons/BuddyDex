@@ -1,0 +1,10 @@
+# Next: Archaeologist Hollee and Sovik
+
+Current exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/hollee-sovik-research/npc-ID.json`.
+
+- [Archaeologist Hollee2913](https://forever.warcraftdb.com/api/data/node/npc/2913), Explorers' League title, named Dwarf humanoid, current Alliance-icon Friendly, Darkshore/map1439 37.5,41.9, Auberdine vicinity. Display1286 -> installed DB2 race3/sex1, standard adult female, runtime `dwarf-female`; named/adult/voice checked, no profile. Read full Remtravel/archaeology referrals and linked escort/return text before assigning her another explorer's actions. No older/child age inference from level12.
+- [Sovik3413](https://forever.warcraftdb.com/api/data/node/npc/3413), Engineering Supplies, named Goblin Vendor, current Horde-icon Friendly, Orgrimmar/map1454 75.6,25.2. Display7136 -> race9/sex0, standard adult male, runtime `goblin-male`; named/adult/voice checked, no profile. Read exact current service/stock and full travel/engineering/Chief Engineer Scooty connections if confirmed; do not transfer Nogg/Roxxik's inventions or family to him from workshop proximity. Goblin race does not imply shared Alliance access.
+
+Full own starts/ends/teaches/sells pages, exact installed gossip/name and quest matches, full relevant Classic/Forever chains including all available progress/completions, actual readable items and personal book/comic context remain to read. Keep era, ownership and family evidence separate. No profession/class/race/quest prerequisite for friendship; ordinary named/adult/reaction/non-attackability gates remain.
+
+Then ten fields/fifteen personal lines, four established Eleven v4 signatures with hidden tone each, full layout/audio/runtime/fresh-session checks, install/separate development v002 ZIP/backlog/changelog and commit/push. Approved Dwarf female `aRtvtMA33YE3hteCIrqs`, original Goblin male B `q4hkgjwgAzNLGZbjuFX9`, verify config. CF publication deferred and handed-off candidate preserved. Wider catalog remains active.

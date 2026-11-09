@@ -938,6 +938,20 @@
       "zone": "Undercity",
       "route": "Tauren/Forsaken supplies and named vendor coverage",
       "reason": "Exact current named adult male model and voice checked; primary Forever NPC page confirms Undercity despite WarcraftDB Tirisfal parent-map pin. Horde Neutral, so no friendly coverage inferred; full service/chain and neutral live-gate source checkpoint in docs/research/chepi-and-ezekiel-queue.md"
+    },
+    {
+      "npc_id": 2913,
+      "name": "Archaeologist Hollee",
+      "zone": "Darkshore",
+      "route": "Female Dwarf/male Goblin explorer and service coverage",
+      "reason": "Exact current named adult model, faction Friendly icon/pin and runtime voice checked; full archaeology/travel/service/era research pending. See docs/research/hollee-and-sovik-queue.md"
+    },
+    {
+      "npc_id": 3413,
+      "name": "Sovik",
+      "zone": "Orgrimmar",
+      "route": "Female Dwarf/male Goblin explorer and service coverage",
+      "reason": "Exact current named adult model, faction Friendly icon/pin and runtime voice checked; full archaeology/travel/service/era research pending. See docs/research/hollee-and-sovik-queue.md"
     }
   ]
 }

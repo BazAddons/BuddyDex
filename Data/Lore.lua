@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Chepi <Reagent Vendor>, lower rise, Thunder Bluff, 8361/7625.
+    -- Adult female Tauren, current Horde-friendly Vendor. Seventeen
+    -- current reagent rows, no own quests/training. Plain questions and
+    -- her vague request for cooking supplies are original, not game text.
+    -- Research: docs/research/thunder-bluff-questions-and-undercity-whispers.md.
+    [8361] = {
+        quote = "You need the little thing for the spell? We can begin there. A question will get us further than an impressive guess.",
+        likes = { "A beginner asking without embarrassment", "Supplies remembered before the journey", "A useful question answered patiently" },
+        dislikes = { "Guessing when a question would help", "An apology instead of the next detail", "Knowing a name mistaken for knowing all" },
+        gossip = "Chepi can turn a vague request into a useful question. Customers appreciate this most when they have forgotten the name of what they need.",
+        bio = "Chepi supplies reagents on Thunder Bluff's lower rise. Her stock serves many different spellcasters, from seeds and candles to runes. She prefers finding out what someone needs to pretending every uncertain request has an obvious answer.",
+        backstory = "A customer asked Chepi for the little thing used with a spell. There were several possibilities. Asking what they hoped to do proved better than guessing. She has since treated an uncertain beginning as a reason to listen more carefully.",
+        secret = "Away from her own supplies, she once asked for the brown ingredient that went in supper. The patient questions that followed were familiar. She is less quick to sigh at a vague request now.",
+        bestFriend = "Walk with me. You need not find the perfect words before we talk. I enjoy your company while we work out what you mean.",
+        favorite = { emote = "NOD", hint = "A thoughtful sign of understanding matters more to her than pretending you knew the answer already." },
+        lines = {
+            greet = { { "There you are. Have you remembered what you need, or only the part where it fits into your plans? Either will do for a beginning. Tell me a little more, and we can work from there. I would rather ask a useful question than sell you an impressive mistake.", tone = "[warm] [patient] [gently amused]" },
+                "Welcome back. You may ask before you have remembered the proper name." },
+            idle = { { "Someone once asked me for the little thing used with a spell. That left quite a few possibilities. Asking what they hoped to do helped more than guessing. Later I found myself asking a cook for the brown ingredient from supper. It was useful to remember how that feels.", tone = "[thoughtful] [wry]" },
+                "The person who asks twice may understand more than the person who pretends they never needed to ask.",
+                "I know these supplies. That does not mean every shelf in every shop will be equally familiar." },
+            befriended = { { "You have become someone I enjoy talking with even when neither of us needs anything from the other. Come along, friend. We can see where the day takes us. If I ask a question that seems very simple, remember how patiently I listened when you could not quite name that little thing.", tone = "[warm] [sincere] [gently playful]" } },
+            poke = { "Yes? You may begin with the part you remember.", "I am listening. We have time to find the next useful detail." },
+            learned = { { "Remembering the name is useful. Understanding what you need it for is useful too. There is no shame in asking about either. A spell may sound grand when it is finished, but preparation is often a matter of small things remembered before the moment you need them.", tone = "[encouraging] [steady]" } },
+            bagsFull = { "Leave room for what the next part of the journey needs, not only what the last part gave you." },
+            loot = { "Something unfamiliar? Look carefully, and ask before deciding you already understand it." },
+            zone = { "A new place gives us plenty of room to be beginners again." },
+            rest = { "We can let the next question wait while we enjoy a little company." },
+            laughAlong = { "Yes, I did ask for the brown ingredient. You may remind me when I become too certain of myself." },
+            hearth = { "Back to Thunder Bluff. Someone may be looking for the little thing whose name escapes them." },
+        },
+    },
+
+    -- Ezekiel Graves <Poison Vendor>, Rogues' Quarter, Undercity, 4585/2625.
+    -- Adult male Forsaken, current Horde-icon Neutral. Primary Forever
+    -- NPC page confirms Undercity despite parent-map pin. Ten stock rows;
+    -- 97291 can use any poison vendor, not his personal potion project.
+    -- His impatience with theatrical whispers is original. No class guessed.
+    -- Research: docs/research/thunder-bluff-questions-and-undercity-whispers.md.
+    [4585] = {
+        quote = "You may speak at an ordinary volume. I sell the supplies. The dramatic whisper is entirely at your own expense.",
+        likes = { "An order spoken clearly", "A question with no hidden meaning", "Company that survives the end of business" },
+        dislikes = { "A whisper that must be repeated", "A vendetta explained before the quantity", "Every greeting treated as a secret signal" },
+        gossip = "Customers lower their voices around Ezekiel's supplies. He asks them to repeat the order clearly, which rather spoils the atmosphere.",
+        bio = "Ezekiel sells poison supplies and tools in Undercity's Rogues' Quarter. Vials, powders and essences make for ominous orders. He is more interested in hearing one clearly than in the performance a customer thinks the occasion requires.",
+        backstory = "A customer explained a mysterious purpose at length without saying how many vials they wanted. Ezekiel finally asked. The answer took a moment. He has since found plain questions an efficient way to interrupt a very impressive entrance.",
+        secret = "He enjoys being asked how his day has been. Usually people ask what a substance can do. An ordinary conversation makes a pleasant change, especially when no one lowers their voice for it.",
+        bestFriend = "You may stay after the business is finished. No password required. I have come to enjoy a conversation that is simply yours.",
+        favorite = { emote = "WAVE", hint = "An ordinary, visible greeting is welcome relief from another supposed secret signal." },
+        lines = {
+            greet = { { "You again. Good. Tell me what you need at a volume I can hear the first time. If there is no business, you may say that just as plainly. I sell supplies, not the atmosphere around them. You need not invent a mysterious reason to stop and speak with me.", tone = "[dry] [raspy] [understated warmth]" },
+                "Welcome back. Shall we begin with the request, or are you here simply to talk?" },
+            idle = { { "A customer once explained a mysterious purpose for quite some time. Never mentioned the number of vials. I asked, and the answer took a moment. A useful question can ruin an impressive entrance very quickly. I find that a considerable improvement over having to hear the whole performance twice.", tone = "[deadpan] [raspy] [wry]" },
+                "Whispering does not make the order more precise. It makes me ask you to repeat it.",
+                "An ordinary question. Asked without a meaningful glance. How refreshing." },
+            befriended = { { "You have stayed to speak when the business was already finished. I noticed. Come along, friend. I would like more of that conversation, wherever the road happens to take it. You may dispense with a password or a secret signal. I recognize you perfectly well without either of them.", tone = "[quiet] [raspy] [sincere]" } },
+            poke = { "Yes? A plain question will do.", "I heard you. No need to repeat it more mysteriously." },
+            mail = { { "A letter can contain an ordinary message. An appointment, a request, a few words from someone pleased to hear from you. You may open it without assuming an elaborate plot. If it does turn out to contain one, at least find the actual request before admiring the dramatic introduction.", tone = "[dry] [raspy] [gently amused]" } },
+            loot = { "Interesting. What is it, before we discuss the ominous possibilities?" },
+            bagsFull = { "An impressive collection. It would be more useful if you could still find what you came for." },
+            zone = { "A new place. Perhaps someone here can ask an ordinary question without checking who is listening." },
+            rest = { "No business for a moment. Tell me how the day has been. The plain version will do." },
+            laughAlong = { "That was worth hearing clearly." },
+            hearth = { "Back to Undercity. I expect someone is rehearsing a very elaborate entrance." },
+        },
+    },
+
     -- Innkeeper Adegwa, Hammerfall, Arathi Highlands, 9501/8634.
     -- Adult male Tauren, current Horde-friendly Innkeeper/Vendor.
     -- Installed plains-wind welcome; twelve current cheese/drink stock

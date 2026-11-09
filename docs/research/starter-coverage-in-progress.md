@@ -421,3 +421,10 @@ Next individually checked [Adegwa and Zizplink](adegwa-and-zizplink-queue.md), a
 384 completed authored profiles, adult male Tauren/female Goblin innkeepers, fifteen personal lines/four v4 signatures each. Friendly counts Alliance199, Horde95, unverified97, seven shared overlapping entries. Regional service coverage does not automatically establish beginner access. Sources/writing/validation: [Hammerfall puns and Powderfuse ocean air](hammerfall-puns-and-powderfuse-ocean-air.md). Zizplink's unread grocery list/unavailable completion paragraphs remain explicit open research leads, not silently fulfilled readings.
 
 Next individually checked [Chepi and Ezekiel](chepi-and-ezekiel-queue.md), unprofiled adult female Tauren/male Forsaken. Chepi current Horde Friendly; Ezekiel current Horde Neutral and Tirisfal map pin require careful access/location treatment. Do not count neutral as friendly or override live attackability. Wider1510-name research pool remains the scope.
+
+
+## 2026-11-09: Chepi and Ezekiel
+
+386 authored profiles. Adult female Tauren/male Forsaken suppliers, fifteen personal lines/four v4 signatures each. Friendly counts Alliance199/Horde96/unverified98, seven shared entries overlap. Ezekiel current public Horde Neutral remains unverified Friendly coverage; ordinary reaction4/non-attackability acceptance and attackable/unfriendly rejection validated. Primary Forever page confirms Undercity despite parent-map pin. Sources/validation: [Thunder Bluff questions and Undercity whispers](thunder-bluff-questions-and-undercity-whispers.md).
+
+Next individually checked [Hollee and Sovik](hollee-and-sovik-queue.md), adult female Dwarf/male Goblin, not yet authored or counted complete. Regional/capital service access is distinct from starter milestones. Wider1510-name research pool remains the scope, with earlier explicit unavailable-source leads still open.

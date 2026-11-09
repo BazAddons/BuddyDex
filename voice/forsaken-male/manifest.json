@@ -878,5 +878,45 @@
     "spoken": "[patient practical encouragement, warm approving interest, clear] There you are. A beginning you can build on. Give yourself time to try it, ask questions and notice which part interests you. You needn't have every later step settled before enjoying this one.",
     "text": "There you are. A beginning you can build on. Give yourself time to try it, ask questions and notice which part interests you. You needn't have every later step settled before enjoying this one.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4585_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4585",
+    "spoken": "[quiet] [raspy] [sincere] You have stayed to speak when the business was already finished. I noticed. Come along, friend. I would like more of that conversation, wherever the road happens to take it. You may dispense with a password or a secret signal. I recognize you perfectly well without either of them.",
+    "text": "You have stayed to speak when the business was already finished. I noticed. Come along, friend. I would like more of that conversation, wherever the road happens to take it. You may dispense with a password or a secret signal. I recognize you perfectly well without either of them.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4585_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4585",
+    "spoken": "[dry] [raspy] [understated warmth] You again. Good. Tell me what you need at a volume I can hear the first time. If there is no business, you may say that just as plainly. I sell supplies, not the atmosphere around them. You need not invent a mysterious reason to stop and speak with me.",
+    "text": "You again. Good. Tell me what you need at a volume I can hear the first time. If there is no business, you may say that just as plainly. I sell supplies, not the atmosphere around them. You need not invent a mysterious reason to stop and speak with me.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4585_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4585",
+    "spoken": "[deadpan] [raspy] [wry] A customer once explained a mysterious purpose for quite some time. Never mentioned the number of vials. I asked, and the answer took a moment. A useful question can ruin an impressive entrance very quickly. I find that a considerable improvement over having to hear the whole performance twice.",
+    "text": "A customer once explained a mysterious purpose for quite some time. Never mentioned the number of vials. I asked, and the answer took a moment. A useful question can ruin an impressive entrance very quickly. I find that a considerable improvement over having to hear the whole performance twice.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4585_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:4585",
+    "spoken": "[dry] [raspy] [gently amused] A letter can contain an ordinary message. An appointment, a request, a few words from someone pleased to hear from you. You may open it without assuming an elaborate plot. If it does turn out to contain one, at least find the actual request before admiring the dramatic introduction.",
+    "text": "A letter can contain an ordinary message. An appointment, a request, a few words from someone pleased to hear from you. You may open it without assuming an elaborate plot. If it does turn out to contain one, at least find the actual request before admiring the dramatic introduction.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
   }
 }

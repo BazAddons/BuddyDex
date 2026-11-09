@@ -1,20 +1,20 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 384,
+  "completed_profiles": 386,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 199,
-    "unverified": 97,
-    "horde": 95
+    "unverified": 98,
+    "horde": 96
   },
   "npc_race_counts": {
     "1": 165,
     "3": 33,
     "7": 25,
     "2": 27,
-    "5": 36,
+    "5": 37,
     "4": 18,
-    "6": 30,
+    "6": 31,
     "8": 23,
     "9": 16,
     "96": 5,
@@ -35,14 +35,14 @@
     "Arathi Highlands": 2,
     "Badlands": 1,
     "Mulgore": 10,
-    "Thunder Bluff": 12,
+    "Thunder Bluff": 13,
     "Durotar": 19,
     "Orgrimmar": 18,
     "The Barrens": 14,
     "Ashenvale": 3,
     "Stonetalon Mountains": 3,
     "Darnassus": 2,
-    "Undercity": 1,
+    "Undercity": 2,
     "Tanaris": 4,
     "Thousand Needles": 2,
     "Desolace": 6,
@@ -2963,6 +2963,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4211"
     },
     {
+      "npc_id": 4585,
+      "name": "Ezekiel Graves",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde-icon Neutral; public Friendly coverage unverified. Ordinary reaction>=4 and non-attackability gate, no exception.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4585"
+    },
+    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -3822,6 +3833,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7953"
+    },
+    {
+      "npc_id": 8361,
+      "name": "Chepi",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Exact current Horde-icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8361"
     },
     {
       "npc_id": 8385,
