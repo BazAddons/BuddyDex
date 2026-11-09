@@ -1,5 +1,7 @@
 # Next: Frezza, Tal and Innkeeper Pala
 
+**Completed 2026-11-09:** all three profiles have fifteen personal lines and four selected racial v4 signatures each. See [full research](thunder-bluff-welcomes-and-frezzas-announcements.md), including the entire courier loop, Pala's referrals and seasonal context, and Frezza's actual Undercity route. Development now has 309 complete profiles. The pending text below preserves the original investigation.
+
 Identity shortlist, 2026-11-09, after 306 completed profiles. Expand practical Thunder Bluff arrival/rest services and the male Goblin voice alongside the female Goblin profile just completed. All three are unprofiled research candidates, not completed or recorded, and no personal Scout encounter is claimed. Ordinary live eligibility checks remain required.
 
 ## Frezza, 9564

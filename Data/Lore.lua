@@ -42,6 +42,102 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Frezza (9564), adult male Goblin Zeppelin Master, outside Orgrimmar, Durotar.
+    -- Current Horde-friendly display 8848 / race 9 sex 0. Installed Undercity
+    -- route/fire rules; Snurk names him as brother. Grand break announcements are original.
+    -- Research: docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md.
+    [9564] = {
+        quote = "The journey will be splendid, the view magnificent, and the departure much easier if everyone is ready when the zeppelin arrives.",
+        likes = { "Passengers ready before the gangway clears", "An announcement that reaches the back", "A small break introduced with grandeur" },
+        dislikes = { "Fire spells aboard the zeppelin", "Repeating a call nobody listened to", "A fine announcement without an audience" },
+        gossip = "Frezza gives a departure the voice of a grand occasion. People have heard him announce a short break with almost the same ceremony.",
+        bio = "Frezza is the zeppelin master for the Undercity route outside Orgrimmar. His confident sales pitch praises the speed and view, then firmly forbids smoking and fire spells aboard. Fellow zeppelin master Snurk is his sister.",
+        backstory = "Calling departures gave him a voice that carried and a taste for a little flourish. One day he announced his own short break as though a crowd awaited it. The audience was small, but the ordinary pause felt considerably more impressive.",
+        secret = "He enjoys a friend's applause even when the announcement was only for fun. Away from the post, he is perfectly willing to lower his voice and hear someone else's news.",
+        bestFriend = "Special announcement: my friend is here. Sit with me. No journey required, and I would like to hear your news.",
+        favorite = { emote = "APPLAUD", hint = "A willing audience can make even a small announcement shine." },
+        lines = {
+            greet = { { "A special announcement! My friend has arrived, and for once there is no hurry to send the passenger somewhere else. Come along. I would like to hear what you have been doing.", tone = "[showmanlike] [friendly]" },
+                "There you are. Shall I announce our walk, or keep this one between us?" },
+            idle = { { "A brief and magnificent pause is now beginning. Refreshments are whatever I remembered to bring. You may applaud, but please do not ask for the departure time of my lunch.", tone = "[playful] [grandly amused]" },
+                "Snurk can make a holiday sound tempting. I prefer a departure that sounds impressive.",
+                "A voice that carries is useful. Remembering when to lower it takes practice." },
+            befriended = { { "I enjoy seeing you, my friend. You have become more than another person waiting for a journey. Let us spend a little time together. I can listen as well as announce, you know.", tone = "[sincere] [upbeat warmth]" } },
+            poke = { "Attention obtained! Was there to be applause?", "Yes? I was preparing a very short announcement." },
+            taxi = { { "And we are away! A fine journey, a promising view, and someone else handling the departure. I shall make the most of being the passenger for a little while.", tone = "[enthusiastic] [pleased]" } },
+            landed = { "Arrival achieved. A little less fanfare for the landing, perhaps." },
+            rest = { "An excellent pause. I may let it speak for itself." },
+            zone = { "A new view. That deserves our attention." },
+            quest = { "Business concluded! Now, what shall we do with the rest of the day?" },
+            hearth = { "Returned in good order. I like an arrival worth announcing." },
+            levelUp = { "A notable achievement by my traveling companion! Well done." },
+        },
+    },
+
+    -- Tal (2995), adult male Elite Tauren Wind Rider Master, Thunder Bluff.
+    -- Current Horde-friendly display 2098 / race 6 sex 0. 6361-6364 courier loop,
+    -- Ahanu/Jahan/Devrak and strength/speed gossip. Familiar tower view is original.
+    -- Research: docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md.
+    [2995] = {
+        quote = "A strong wind rider can carry you a long way. Before you leave, take a moment to notice the place you are setting out from.",
+        likes = { "A bundle secured for the journey", "The strength of a wind rider's wings", "A familiar view noticed afresh" },
+        dislikes = { "Cargo left loose at departure", "Expecting a route never learned", "Hurrying past every sight of home" },
+        gossip = "Tal knows the view from the tower as well as his routes. Visitors still catch him pausing to look, as though something familiar has surprised him.",
+        bio = "Tal tends Thunder Bluff's wind riders. When Ahanu sends leather goods back to Jahan at the Crossroads, Tal arranges the return flight to Devrak for a traveler who knows the route. He speaks proudly of the riders' strength and speed.",
+        backstory = "A brief pause between duties drew his attention to sunlight across the familiar city. He had looked that way often without really stopping to see it. He began saving a little attention for the view before the next departure needed him.",
+        secret = "He does not need a distant destination to enjoy the view. The same city can look different in a quiet moment. He likes sharing that discovery with someone who has time to look.",
+        bestFriend = "There will be other places to see, my friend. For a moment, stay beside me and look at this one. I am glad you are here.",
+        favorite = { emote = "NOD", hint = "A quiet acknowledgment suits someone giving practical directions." },
+        lines = {
+            greet = { { "It is good to see you. Shall we spend a little time together before the next journey calls? I have found that a familiar view is better when someone stays to share it.", tone = "[warm] [grounded]" },
+                "There you are. Let us have a little company for the road." },
+            idle = { { "I have seen that view many times, yet the light still finds a way to change it. A long journey is not the only way to notice something new.", tone = "[reflective] [content]" },
+                "Ahanu's goods will reach the Crossroads more easily with the bundle secured.",
+                "Strength and speed are easier to appreciate from a wind rider's back." },
+            befriended = { { "You have become someone I am glad to see between journeys, my friend. I would enjoy sharing one with you, and perhaps a quiet moment at the end of it as well.", tone = "[sincere] [warm]" } },
+            poke = { "Yes? Have you seen something I should notice?", "I am here. The view had my attention for a moment." },
+            taxi = { { "There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.", tone = "[assured] [encouraging]" } },
+            landed = { "A safe arrival. Take a moment before the next errand claims you." },
+            rest = { "A good place to pause and look around." },
+            quest = { "The delivery is done. I hope the journey gave you something as well." },
+            bagsFull = { "Best secure what you have before adding another bundle." },
+            zone = { "New ground to learn, and perhaps a place worth returning to." },
+            hearth = { "Familiar ground. Notice what makes it welcome." },
+        },
+    },
+
+    -- Innkeeper Pala (6746), adult female Tauren, Thunder Bluff.
+    -- Current Horde-friendly display 5487 / race 6 sex 1; cheese/drink stock.
+    -- Classic Hamuul/Turak referrals, New Year supplies, Hallow's End dance; shared gossip.
+    -- Three-small-good-things habit is original. Research: thunder-bluff-welcomes-and-frezzas-announcements.md.
+    [6746] = {
+        quote = "Come in and be comfortable. There is more to a day than the trouble that brought you through the door.",
+        likes = { "A weary guest settling in to rest", "A cheerful dance during a celebration", "Three small good things after work" },
+        dislikes = { "A welcome rushed into another demand", "Remembering a day only for its troubles", "A guest too hurried to enjoy the meal" },
+        gossip = "Pala keeps a little private list after a busy day. Guests suspect important business, though she seems more pleased than worried.",
+        bio = "Pala welcomes guests to Thunder Bluff's inn, with cheese, drinks and a place to rest. Her referrals point adventurers toward Hamuul's research and Turak's Druid lessons. Seasonal celebrations bring supplies to receive and dances to encourage.",
+        backstory = "After one busy day, she tried remembering three small things that had gone well. A guest had rested, a conversation had ended in laughter, and someone had thanked her. She began keeping the little list when duties threatened to crowd out the good.",
+        secret = "The entries are ordinary kindnesses, not takings or grand achievements. A familiar guest coming simply to say hello can be enough to give the whole day a place worth remembering.",
+        bestFriend = "You are one of the good things about today, my friend. No errand needed. Come sit and tell me how yours has been.",
+        favorite = { emote = "DANCE", hint = "A little cheerful movement can turn a visit into a celebration." },
+        lines = {
+            greet = { { "There you are. Come along, and tell me how you have been. I hope there is something pleasant in the day's news, but you are welcome to share the difficult parts too.", tone = "[warm] [welcoming]" },
+                "A little company would be one good thing about the day already." },
+            idle = { { "Three small good things. That is all I try to remember after a busy day. Someone rested, someone laughed, and a friend came by without needing anything at all.", tone = "[gentle] [quietly pleased]" },
+                "A celebration is better when everyone has had something to eat.",
+                "A familiar face at the door can change the whole afternoon." },
+            befriended = { { "Your visits have become something I look forward to, my friend. Let us have a little time together without another duty waiting between us. I would be glad simply to hear how you are.", tone = "[sincere] [affectionate]" } },
+            poke = { "Yes? Have you brought something for my list of good news?", "I am listening. There is no need to hurry the welcome." },
+            rest = { { "Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.", tone = "[reassuring] [calm]" } },
+            hearth = { "Back somewhere familiar. I hope the welcome finds you well." },
+            quest = { "A favor finished. That may be one good thing for your day." },
+            levelUp = { "Well done! There is something worth celebrating." },
+            combatEnd = { "Everyone safe? Good. Let us begin with that." },
+            mail = { "News from someone thinking of you, perhaps." },
+            zone = { "Different ground. I hope we find a kind welcome here." },
+        },
+    },
+
     -- Shenthul (3401), adult male Troll Rogue Trainer, Cleft of Shadow, Orgrimmar.
     -- Display 4360 / race 8 sex 0; published Forever Horde reaction/location.
     -- Shattered Hand introductions, salute, Fizzule mission and Hinott referral.

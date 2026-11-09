@@ -707,5 +707,26 @@
     "zone": "Durotar",
     "source": "Reviewed exact adult Troll/Orc/Goblin model, current/published Forever location and access, complete training missions or verified fishing stock/zeppelin gossip, with installed text and era limits; no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-quiet-lessons-and-departures.md"
+  },
+  {
+    "npc_id": 9564,
+    "name": "Frezza",
+    "zone": "Durotar",
+    "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md"
+  },
+  {
+    "npc_id": 2995,
+    "name": "Tal",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md"
+  },
+  {
+    "npc_id": 6746,
+    "name": "Innkeeper Pala",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md"
   }
 ]

@@ -159,6 +159,46 @@
     "text": "A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore2995_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2995",
+    "spoken": "[sincere] [warm] You have become someone I am glad to see between journeys, my friend. I would enjoy sharing one with you, and perhaps a quiet moment at the end of it as well.",
+    "text": "You have become someone I am glad to see between journeys, my friend. I would enjoy sharing one with you, and perhaps a quiet moment at the end of it as well.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2995_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2995",
+    "spoken": "[warm] [grounded] It is good to see you. Shall we spend a little time together before the next journey calls? I have found that a familiar view is better when someone stays to share it.",
+    "text": "It is good to see you. Shall we spend a little time together before the next journey calls? I have found that a familiar view is better when someone stays to share it.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2995_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2995",
+    "spoken": "[reflective] [content] I have seen that view many times, yet the light still finds a way to change it. A long journey is not the only way to notice something new.",
+    "text": "I have seen that view many times, yet the light still finds a way to change it. A long journey is not the only way to notice something new.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2995_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:2995",
+    "spoken": "[assured] [encouraging] There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.",
+    "text": "There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3061_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

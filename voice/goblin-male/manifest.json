@@ -38,5 +38,45 @@
     "spoken": "[brisk satisfied instruction, dry practical humor, attentive confidence] Good, the job is finished. Now make certain the right person knows what arrived and where it went. A thing can be sitting exactly where it belongs while someone else is halfway across the country looking for it. The last few details are worth attending to before we call the whole business settled.",
     "text": "Good, the job is finished. Now make certain the right person knows what arrived and where it went. A thing can be sitting exactly where it belongs while someone else is halfway across the country looking for it. The last few details are worth attending to before we call the whole business settled.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore9564_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9564",
+    "spoken": "[sincere] [upbeat warmth] I enjoy seeing you, my friend. You have become more than another person waiting for a journey. Let us spend a little time together. I can listen as well as announce, you know.",
+    "text": "I enjoy seeing you, my friend. You have become more than another person waiting for a journey. Let us spend a little time together. I can listen as well as announce, you know.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore9564_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9564",
+    "spoken": "[showmanlike] [friendly] A special announcement! My friend has arrived, and for once there is no hurry to send the passenger somewhere else. Come along. I would like to hear what you have been doing.",
+    "text": "A special announcement! My friend has arrived, and for once there is no hurry to send the passenger somewhere else. Come along. I would like to hear what you have been doing.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore9564_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9564",
+    "spoken": "[playful] [grandly amused] A brief and magnificent pause is now beginning. Refreshments are whatever I remembered to bring. You may applaud, but please do not ask for the departure time of my lunch.",
+    "text": "A brief and magnificent pause is now beginning. Refreshments are whatever I remembered to bring. You may applaud, but please do not ask for the departure time of my lunch.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore9564_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:9564",
+    "spoken": "[enthusiastic] [pleased] And we are away! A fine journey, a promising view, and someone else handling the departure. I shall make the most of being the passenger for a little while.",
+    "text": "And we are away! A fine journey, a promising view, and someone else handling the departure. I shall make the most of being the passenger for a little while.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   }
 }

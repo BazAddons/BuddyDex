@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 306,
-  "remaining_count": 5,
+  "completed_count": 309,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -1406,6 +1406,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 2995,
+      "name": "Tal",
+      "zone": "Thunder Bluff",
+      "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+      "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3061,
       "name": "Lanka Farshot",
       "zone": "Mulgore",
@@ -2168,6 +2178,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 6746,
+      "name": "Innkeeper Pala",
+      "zone": "Thunder Bluff",
+      "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+      "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6747,
       "name": "Innkeeper Kauth",
       "zone": "Mulgore",
@@ -2369,6 +2389,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever node and Classic service checks",
       "research_notes": "docs/research/westfall-services-and-availability.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 9564,
+      "name": "Frezza",
+      "zone": "Durotar",
+      "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
+      "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2855,27 +2885,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 9564,
-      "name": "Frezza",
-      "zone": "Durotar",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2995,
-      "name": "Tal",
-      "zone": "Thunder Bluff",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6746,
-      "name": "Innkeeper Pala",
-      "zone": "Thunder Bluff",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

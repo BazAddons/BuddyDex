@@ -119,6 +119,46 @@
     "text": "This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore6746_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6746",
+    "spoken": "[sincere] [affectionate] Your visits have become something I look forward to, my friend. Let us have a little time together without another duty waiting between us. I would be glad simply to hear how you are.",
+    "text": "Your visits have become something I look forward to, my friend. Let us have a little time together without another duty waiting between us. I would be glad simply to hear how you are.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore6746_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6746",
+    "spoken": "[warm] [welcoming] There you are. Come along, and tell me how you have been. I hope there is something pleasant in the day's news, but you are welcome to share the difficult parts too.",
+    "text": "There you are. Come along, and tell me how you have been. I hope there is something pleasant in the day's news, but you are welcome to share the difficult parts too.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore6746_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6746",
+    "spoken": "[gentle] [quietly pleased] Three small good things. That is all I try to remember after a busy day. Someone rested, someone laughed, and a friend came by without needing anything at all.",
+    "text": "Three small good things. That is all I try to remember after a busy day. Someone rested, someone laughed, and a friend came by without needing anything at all.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore6746_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6746",
+    "spoken": "[reassuring] [calm] Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.",
+    "text": "Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore8385_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -2,7 +2,7 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **306 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **309 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add five shared Zephras Isle Buddies accessible to both Skyborne faction paths: Ailee Farheart, Rorian the Dayseeker, Nyalah Brightfire, Coriella Calmbreeze and Zerril Softbreeze.
 - Add Windshaper Boro and Aarnor Galestrike, each with a full profile and four signature recordings for Horde players, grounded in the complete earth- and fire-totem initiation chains.
@@ -17,6 +17,7 @@
 - Add Devrak and Sergra Darkthorn at the Crossroads, each with a complete profile and four selected Orc voice signatures.
 - Add Miao'zan and Lau'Tiki near Sen'jin, with full personalities and four signature recordings each, including Forever's fishing camping lesson.
 - Research existing lore and quest dialogue before writing each profile, including Forever-specific additions.
+- Add Frezza, Tal and Innkeeper Pala, with full personalities and four selected racial voice signatures each for zeppelin travel and Thunder Bluff arrival/rest.
 - Add Shenthul, Shankys and Snurk Bucksquick around Orgrimmar, each with a full profile and four selected racial voice signatures.
 - Add Mankrik and Xar'Ti with full profiles and four signature recordings each, including Forever's new memorial and Bloodtalon Matriarch quests.
 - Add Tonga Runetotem and Tari'qa at the Crossroads, with full personalities and four selected Tauren/Troll voice signatures each.
