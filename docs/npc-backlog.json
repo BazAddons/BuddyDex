@@ -731,6 +731,24 @@
       "status": "complete"
     },
     {
+      "npc_id": 2113,
+      "name": "Archibald Kava",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 2115,
+      "name": "Joshua Kien",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 2116,
       "name": "Blacksmith Rand",
       "zone": "Tirisfal Glades",
@@ -756,6 +774,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 2315,
+      "name": "Maquell Ebonwood",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
     },
     {
       "npc_id": 2327,
@@ -1406,6 +1433,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 12336,
       "name": "Brother Crowley",
       "zone": "Stormwind City",
@@ -1776,20 +1812,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 2113,
-      "name": "Archibald Kava",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 11945,
-      "name": "Claire Willower",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 267323,
       "name": "Clarence Gillian",
       "zone": "Tirisfal Glades",
@@ -1860,22 +1882,8 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 2115,
-      "name": "Joshua Kien",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 5749,
       "name": "Kayla Smithe",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2315,
-      "name": "Maquell Ebonwood",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

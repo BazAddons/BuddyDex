@@ -1985,7 +1985,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -6306,7 +6306,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -18277,7 +18277,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -22538,7 +22538,7 @@
           "zone": "Tirisfal Glades",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -39202,6 +39202,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Claire Willower",
+      "zone": "Tirisfal Glades",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
       "npc_id": 12336,
       "name": "Brother Crowley",
       "source": "Existing local backlog; absent from source filter",
@@ -39439,17 +39450,6 @@
       "scout_observed": true,
       "scout_name": "Billy",
       "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 11945,
-      "name": "Claire Willower",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Claire Willower",
-      "zone": "Tirisfal Glades",
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "pending_identity_and_lore_research"
