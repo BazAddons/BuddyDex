@@ -42,6 +42,71 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mura Runetotem (8385), adult female Tauren, Sepulcher, Silverpine Forest.
+    -- Current Horde-friendly display 7615 / race 6 sex 1. 3301: Tonga's clanmate,
+    -- seeks to heal Silverpine, studies glowing sample shell; no cure established.
+    -- Fallen-leaf collection is original. Research: silverpine-hope-and-zamahs-ink.md.
+    [8385] = {
+        quote = "I cannot promise what the next discovery will bring. I can promise to keep looking, and to be grateful for a hand along the way.",
+        likes = { "Help offered across unfamiliar customs", "A finding worth studying carefully", "The warm colors of fallen leaves" },
+        dislikes = { "Giving up on an ailing forest", "Calling a hope a proven answer", "Crushing a leaf before noticing its color" },
+        gossip = "Mura keeps fallen leaves beside her work. Some say she is studying every one. She seems especially pleased with the bright ones.",
+        bio = "Mura Runetotem came to Silverpine to help the undead allies and seek new life for the forest. At the Sepulcher, she studies a glowing snapjaw shell sent by her clanmate Tonga. It may offer insight; she has not claimed a cure.",
+        backstory = "During a pause in her work, she picked up a fallen leaf for its warm color. Others followed, gathered without troubling living branches. The small collection gave her something beautiful to notice while the difficult questions waited.",
+        secret = "The plain brown leaf stays beside the brightest ones. A visitor brought it after hearing she liked leaves. She remembers the kindness more clearly than its color.",
+        bestFriend = "Stay beside me a little, my friend. There need not be an answer today for me to be glad you came.",
+        favorite = { emote = "THANK", hint = "A little appreciation encourages someone doing uncertain work." },
+        lines = {
+            greet = { { "I am glad you came. There is much I still hope to understand, but I can put the questions aside for a little while. Tell me how you have been.", tone = "[warm] [thoughtful]" },
+                "A little company would be welcome. Shall we walk?" },
+            idle = { { "Such a warm color in that fallen leaf. It need not hold a hidden answer to be worth noticing. Sometimes I gather something simply because it is beautiful.", tone = "[gentle] [quietly pleased]" },
+                "Tonga's sample gives me something to study, and more questions to consider.",
+                "I try not to mistake a patient wait for an empty one." },
+            befriended = { { "Your visits have become something I look forward to, my friend. You need not bring a discovery every time. I would be glad to share a quiet stretch of the road.", tone = "[sincere] [affectionate]" } },
+            poke = { "Yes? Have you found something, or would you simply like to talk?", "Gently. Some of these leaves are rather fragile." },
+            quest = { { "Thank you for seeing it through. A little help can reach farther than you know. I came to Silverpine hoping to offer some, and I have learned to appreciate receiving it, too.", tone = "[grateful] [hopeful]" } },
+            rest = { "Let us pause. There is room in the day for something other than worry." },
+            zone = { "Different ground, and perhaps something new to understand." },
+            loot = { "Keep the specimen whole if you can. Small details may matter." },
+            learned = { "One more thing understood. We need not pretend it answers everything." },
+            combatEnd = { "It is over. Take care of yourself before we go on." },
+            hearth = { "Somewhere familiar. I hope the welcome is a kind one." },
+        },
+    },
+
+    -- Apothecary Zamah (3419), adult female Forsaken, Pools of Vision, Thunder Bluff.
+    -- Current Neutral display 1814 / race 5 sex 1; live non-attackable gate retained.
+    -- RAS Serpentbloom 962; Helbrim's spores 848/853; Magatha/Lydon toxin chain.
+    -- Note 5628 signs P. Zamah. Private calligraphy is original; no first name invented.
+    -- Research: docs/research/silverpine-hope-and-zamahs-ink.md.
+    [3419] = {
+        quote = "Nature has secrets worth learning. Bring me a sound specimen and a clear account of where you found it. We may yet make something useful of both.",
+        likes = { "A potent specimen delivered promptly", "Clear observations in readable ink", "An extravagant letter on spare paper" },
+        dislikes = { "Careless handling of a useful sample", "Confusing sympathy with hesitation", "A flourish that obscures the instructions" },
+        gossip = "Zamah's instructions are usually very clear. Her scraps of writing sometimes carry a capital letter elaborate enough to need its own page.",
+        bio = "Zamah studies Serpentbloom for the Royal Apothecary Society in Thunder Bluff's Pools of Vision. Helbrim sends her potent spores; Lydon supplies a toxin she prepares against the Venture Company. Sympathy for Stonetalon does not soften her methods.",
+        backstory = "Between practical notes, she began trying more elaborate strokes on spare paper. A useful letter must be clear, but a spare sheet has no such duty. She found a private pleasure in making one capital far grander than any message required.",
+        secret = "Her grandest P has never left the scraps. It serves no experiment and carries no instructions. For once, making something she likes is sufficient reason to keep it.",
+        bestFriend = "You may stay, my friend. I have no specimen to request and no errand prepared. Your company is sufficient. An unusual result.",
+        favorite = { emote = "NOD", hint = "A quiet acknowledgment shows her instructions have been understood." },
+        lines = {
+            greet = { { "There you are. If you have brought a specimen, keep it secure. If you have brought only yourself, that is acceptable as well. I have grown accustomed to your company.", tone = "[dry] [restrained warmth]" },
+                "A little time away from the notes. I suppose I can allow that." },
+            idle = { { "That capital letter is entirely unnecessary. The instructions beneath it are perfectly legible, however. I am permitted one indulgence on a spare sheet of paper.", tone = "[wry] [quietly pleased]" },
+                "Helbrim understands the value of a specimen that arrives before its potency fades.",
+                "Feeling sorrow does not prevent me from choosing an effective method." },
+            befriended = { { "You have become more than a reliable pair of hands. I find I prefer an afternoon with you to an uninterrupted one at my work. Do not look so astonished. I am capable of appreciating a friend.", tone = "[sincere] [dry affection]" } },
+            poke = { "If that was an observation, please record it somewhere else.", "Yes? I had nearly finished that stroke." },
+            loot = { { "Keep the useful material separate, and tell me where it came from. A specimen without a clear account leaves us guessing. I would rather spend my time learning something.", tone = "[precise] [matter-of-fact]" } },
+            quest = { "Good. Clear results are easier to work with than promises." },
+            bagsFull = { "Not every interesting object is worth carrying together." },
+            learned = { "A sound observation. Now consider what it actually proves." },
+            combatEnd = { "Settled, then. Let us see what remains useful." },
+            mail = { "A letter? Keep the contents clear, however fine the handwriting." },
+            rest = { "A pause may be useful. You seem to need one." },
+        },
+    },
+
     -- Innkeeper Byula (7714), adult male Tauren, Camp Taurajo, The Barrens.
     -- Current display 6550 / race 6 sex 0, Horde-friendly innkeeper/vendor.
     -- Installed welcome and shared dungeon/holiday information; twelve fruit/drink goods.

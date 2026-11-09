@@ -644,5 +644,19 @@
     "zone": "The Barrens",
     "source": "Reviewed current adult male Tauren model, Horde-friendly Taurajo identity, installed dialogue and services/referral; no Scout sighting claimed",
     "research_notes": "docs/research/taurajo-welcome-and-a-good-word.md"
+  },
+  {
+    "npc_id": 8385,
+    "name": "Mura Runetotem",
+    "zone": "Silverpine Forest",
+    "source": "Reviewed exact current adult female Tauren/Forsaken body, location, public friendly/conditional Neutral access, full shell/apothecary chains and note with installed/current text; no Scout sighting claimed",
+    "research_notes": "docs/research/silverpine-hope-and-zamahs-ink.md"
+  },
+  {
+    "npc_id": 3419,
+    "name": "Apothecary Zamah",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed exact current adult female Tauren/Forsaken body, location, public friendly/conditional Neutral access, full shell/apothecary chains and note with installed/current text; no Scout sighting claimed",
+    "research_notes": "docs/research/silverpine-hope-and-zamahs-ink.md"
   }
 ]

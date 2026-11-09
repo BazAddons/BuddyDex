@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Mura Runetotem and Apothecary Zamah: full profiles, fifteen personal lines and four selected female Tauren/Forsaken Eleven v4 signatures each. Research the shell branch, spores, Serpentbloom, Stonetalon toxin route and Zamah's note; retain her conditional neutral access. Development now has 299 complete profiles.
+
 - Complete Innkeeper Byula and Kirge Sternhorn at Camp Taurajo: full profiles, fifteen personal lines and four approved Tauren male Eleven v4 signatures each. Preserve current inn services and the Thork referral, resolve the oasis quest attribution to Hamuul, and exclude later Taurajo tragedies. Development now has 297 complete profiles.
 
 - Complete Miao'zan and Lau'Tiki: full Sen'jin profession profiles, fifteen personal lines and four approved Troll male Eleven v4 signatures each. Verify the Fish Bowl camping chain and keep Whuut's Mana Well referral separate from Miao'zan. Development now has 295 complete profiles.

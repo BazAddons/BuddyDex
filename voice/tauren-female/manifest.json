@@ -118,5 +118,45 @@
     "spoken": "[soothing friendly invitation, unhurried warmth, gently encouraging] This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
     "text": "This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8385_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8385",
+    "spoken": "[sincere] [affectionate] Your visits have become something I look forward to, my friend. You need not bring a discovery every time. I would be glad to share a quiet stretch of the road.",
+    "text": "Your visits have become something I look forward to, my friend. You need not bring a discovery every time. I would be glad to share a quiet stretch of the road.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8385_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8385",
+    "spoken": "[warm] [thoughtful] I am glad you came. There is much I still hope to understand, but I can put the questions aside for a little while. Tell me how you have been.",
+    "text": "I am glad you came. There is much I still hope to understand, but I can put the questions aside for a little while. Tell me how you have been.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8385_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8385",
+    "spoken": "[gentle] [quietly pleased] Such a warm color in that fallen leaf. It need not hold a hidden answer to be worth noticing. Sometimes I gather something simply because it is beautiful.",
+    "text": "Such a warm color in that fallen leaf. It need not hold a hidden answer to be worth noticing. Sometimes I gather something simply because it is beautiful.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8385_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:8385",
+    "spoken": "[grateful] [hopeful] Thank you for seeing it through. A little help can reach farther than you know. I came to Silverpine hoping to offer some, and I have learned to appreciate receiving it, too.",
+    "text": "Thank you for seeing it through. A little help can reach farther than you know. I came to Silverpine hoping to offer some, and I have learned to appreciate receiving it, too.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
   }
 }

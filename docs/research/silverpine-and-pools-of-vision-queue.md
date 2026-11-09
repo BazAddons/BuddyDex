@@ -1,5 +1,7 @@
 # Next: Mura Runetotem and Apothecary Zamah
 
+**Completed 2026-11-09:** both profiles have full lore, fifteen personal lines and four approved female Tauren/Forsaken v4 signatures each. See [complete research](silverpine-hope-and-zamahs-ink.md), including the full Stonetalon toxin route and both pages of Zamah's Note. Her neutral access stays conditional. Development has 299 complete profiles. The pending text below preserves the original investigation.
+
 Identity and relation shortlist, 2026-11-09, after 297 completed profiles. Both improve female Horde coverage, but they are **different races and roles**: Mura is a Tauren working to heal Silverpine; Zamah is a Forsaken member of the Royal Apothecary Society. Do not assume race from Thunder Bluff location or turn every apothecary into a benevolent healer. Neither profile is authored, recorded or counted complete yet. No personal Scout sighting is claimed.
 
 ## Mura Runetotem, 8385

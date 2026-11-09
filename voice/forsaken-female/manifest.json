@@ -199,6 +199,46 @@
     "text": "Well done. Give the new knowledge a little practice and attention. Learn to recognize what is actually before you. The ordinary things are worth understanding as carefully as the discovery you hoped to make.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore3419_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3419",
+    "spoken": "[sincere] [dry affection] You have become more than a reliable pair of hands. I find I prefer an afternoon with you to an uninterrupted one at my work. Do not look so astonished. I am capable of appreciating a friend.",
+    "text": "You have become more than a reliable pair of hands. I find I prefer an afternoon with you to an uninterrupted one at my work. Do not look so astonished. I am capable of appreciating a friend.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore3419_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3419",
+    "spoken": "[dry] [restrained warmth] There you are. If you have brought a specimen, keep it secure. If you have brought only yourself, that is acceptable as well. I have grown accustomed to your company.",
+    "text": "There you are. If you have brought a specimen, keep it secure. If you have brought only yourself, that is acceptable as well. I have grown accustomed to your company.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore3419_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3419",
+    "spoken": "[wry] [quietly pleased] That capital letter is entirely unnecessary. The instructions beneath it are perfectly legible, however. I am permitted one indulgence on a spare sheet of paper.",
+    "text": "That capital letter is entirely unnecessary. The instructions beneath it are perfectly legible, however. I am permitted one indulgence on a spare sheet of paper.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore3419_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3419",
+    "spoken": "[precise] [matter-of-fact] Keep the useful material separate, and tell me where it came from. A specimen without a clear account leaves us guessing. I would rather spend my time learning something.",
+    "text": "Keep the useful material separate, and tell me where it came from. A specimen without a clear account leaves us guessing. I would rather spend my time learning something.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore5667_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
