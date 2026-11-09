@@ -839,6 +839,46 @@
     "text": "I have tried to think of a proper thank-you for Henze. Comes out as a grumble every time. I hope he'll hear what I mean under it. Relief can be a clumsy thing to put into words.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore658_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:658",
+    "spoken": "[sincere gratitude, hearty affection, easy confidence] Well, you've done more than lend a hand and hurry off. You came back for the company. I appreciate that. Let us take a walk together, and if there's a favor to be done on the way, we'll see it fairly settled between us.",
+    "text": "Well, you've done more than lend a hand and hurry off. You came back for the company. I appreciate that. Let us take a walk together, and if there's a favor to be done on the way, we'll see it fairly settled between us.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore658_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:658",
+    "spoken": "[hearty practical welcome, relaxed warmth, gently teasing] There you are! Ready to put your feet to use? A bit of honest work goes easier with company, and I could do with a stretch myself. Mind your gloves. Cold fingers make a poor start to an errand, however willing the rest of you might be.",
+    "text": "There you are! Ready to put your feet to use? A bit of honest work goes easier with company, and I could do with a stretch myself. Mind your gloves. Cold fingers make a poor start to an errand, however willing the rest of you might be.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore658_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:658",
+    "spoken": "[muttering concentration, sheepish amusement, friendly defensiveness] Now, if I carry the curl back around there... no, that makes the whole name look like a ram has walked through the ink. Just a bit of writing practice. Nothing urgent. You needn't stare quite so hard; I know perfectly well what it says.",
+    "text": "Now, if I carry the curl back around there... no, that makes the whole name look like a ram has walked through the ink. Just a bit of writing practice. Nothing urgent. You needn't stare quite so hard; I know perfectly well what it says.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore658_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:658",
+    "spoken": "[practical advice, rueful humor, warm teasing] Letters, eh? Have a proper look at the name before setting off with them. A stack can travel a fair distance and still have one fellow waiting for his share. And if you're writing back, leave enough room for the address after your magnificent signature.",
+    "text": "Letters, eh? Have a proper look at the name before setting off with them. A stack can travel a fair distance and still have one fellow waiting for his share. And if you're writing back, leave enough room for the address after your magnificent signature.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore6966_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

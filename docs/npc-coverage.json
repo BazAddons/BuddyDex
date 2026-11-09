@@ -1,21 +1,21 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 270,
+  "completed_profiles": 271,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
-    "alliance": 185,
+    "alliance": 186,
     "unverified": 59,
     "horde": 26
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 32,
-    "5": 25,
-    "2": 4,
+    "3": 33,
     "7": 25,
+    "5": 25,
     "4": 11,
-    "8": 3,
-    "6": 5
+    "6": 5,
+    "2": 4,
+    "8": 3
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -23,14 +23,14 @@
     "Westfall": 17,
     "Stormwind City": 114,
     "Redridge Mountains": 23,
+    "Dun Morogh": 5,
     "Ironforge": 32,
     "Tirisfal Glades": 25,
-    "Orgrimmar": 2,
-    "Deeprun Tram": 3,
-    "Durotar": 5,
-    "Mulgore": 5,
     "Teldrassil": 5,
-    "Dun Morogh": 4
+    "Mulgore": 5,
+    "Durotar": 5,
+    "Orgrimmar": 2,
+    "Deeprun Tram": 3
   },
   "entries": [
     {
@@ -485,6 +485,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/382"
     },
     {
+      "npc_id": 460,
+      "name": "Alamar Grimm",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/460"
+    },
+    {
       "npc_id": 464,
       "name": "Guard Parker",
       "zone": "Redridge Mountains",
@@ -563,6 +574,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/523"
     },
     {
+      "npc_id": 658,
+      "name": "Sten Stoutarm",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/658"
+    },
+    {
       "npc_id": 777,
       "name": "Amy Davenport",
       "zone": "Redridge Mountains",
@@ -613,6 +637,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/821"
+    },
+    {
+      "npc_id": 836,
+      "name": "Durnan Furcutter",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/836"
     },
     {
       "npc_id": 843,
@@ -1605,6 +1642,32 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2046"
     },
     {
+      "npc_id": 2079,
+      "name": "Conservator Ilthalaine",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2079"
+    },
+    {
+      "npc_id": 2082,
+      "name": "Gilshalan Windwalker",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2082"
+    },
+    {
       "npc_id": 2113,
       "name": "Archibald Kava",
       "zone": "Tirisfal Glades",
@@ -1844,6 +1907,63 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2879"
     },
     {
+      "npc_id": 2980,
+      "name": "Grull Hawkwind",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2980"
+    },
+    {
+      "npc_id": 2981,
+      "name": "Chief Hawkwind",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2981"
+    },
+    {
+      "npc_id": 2982,
+      "name": "Seer Graytongue",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see mulgore-hunter-and-seer.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2982"
+    },
+    {
+      "npc_id": 3061,
+      "name": "Lanka Farshot",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3061"
+    },
+    {
+      "npc_id": 3062,
+      "name": "Meela Dawnstrider",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3062"
+    },
+    {
       "npc_id": 3085,
       "name": "Gloria Femmel",
       "zone": "Redridge Mountains",
@@ -1883,6 +2003,52 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3089"
     },
     {
+      "npc_id": 3143,
+      "name": "Gornek",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see gornek-at-the-den.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3143"
+    },
+    {
+      "npc_id": 3145,
+      "name": "Zureetha Fargaze",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see valley-trials-hunter-and-guide.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3145"
+    },
+    {
+      "npc_id": 3188,
+      "name": "Master Gadrin",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3188"
+    },
+    {
+      "npc_id": 3287,
+      "name": "Hana'zua",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see valley-trials-hunter-and-guide.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3287"
+    },
+    {
       "npc_id": 3310,
       "name": "Doras",
       "zone": "Orgrimmar",
@@ -1907,6 +2073,32 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3518"
+    },
+    {
+      "npc_id": 3593,
+      "name": "Alyissia",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3593"
+    },
+    {
+      "npc_id": 3595,
+      "name": "Shanda",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3595"
     },
     {
       "npc_id": 3626,
@@ -2370,6 +2562,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5749"
     },
     {
+      "npc_id": 5884,
+      "name": "Mai'ah",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5884"
+    },
+    {
       "npc_id": 5917,
       "name": "Clara Charles",
       "zone": "Elwynn Forest",
@@ -2444,6 +2647,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6175"
+    },
+    {
+      "npc_id": 6376,
+      "name": "Wren Darkspring",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6376"
     },
     {
       "npc_id": 6569,
@@ -2624,6 +2838,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7950"
+    },
+    {
+      "npc_id": 8583,
+      "name": "Dirania Silvershine",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8583"
     },
     {
       "npc_id": 8670,
@@ -2848,6 +3075,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12481"
+    },
+    {
+      "npc_id": 12738,
+      "name": "Nori Pridedrift",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see coldridge-mornbrew-and-cloth.md for independent quest/access evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12738"
     },
     {
       "npc_id": 12805,
@@ -3199,231 +3437,6 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
-    },
-    {
-      "npc_id": 3188,
-      "name": "Master Gadrin",
-      "zone": "Durotar",
-      "race_ids": [
-        8
-      ],
-      "public_friendly_factions": [
-        "horde"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3188"
-    },
-    {
-      "npc_id": 2981,
-      "name": "Chief Hawkwind",
-      "zone": "Mulgore",
-      "race_ids": [
-        6
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2981"
-    },
-    {
-      "npc_id": 5884,
-      "name": "Mai'ah",
-      "zone": "Durotar",
-      "race_ids": [
-        8
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5884"
-    },
-    {
-      "npc_id": 3287,
-      "name": "Hana'zua",
-      "zone": "Durotar",
-      "race_ids": [
-        8
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see valley-trials-hunter-and-guide.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3287"
-    },
-    {
-      "npc_id": 3145,
-      "name": "Zureetha Fargaze",
-      "zone": "Durotar",
-      "race_ids": [
-        2
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see valley-trials-hunter-and-guide.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3145"
-    },
-    {
-      "npc_id": 2980,
-      "name": "Grull Hawkwind",
-      "zone": "Mulgore",
-      "race_ids": [
-        6
-      ],
-      "public_friendly_factions": [
-        "horde"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2980"
-    },
-    {
-      "npc_id": 2982,
-      "name": "Seer Graytongue",
-      "zone": "Mulgore",
-      "race_ids": [
-        6
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see mulgore-hunter-and-seer.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2982"
-    },
-    {
-      "npc_id": 3061,
-      "name": "Lanka Farshot",
-      "zone": "Mulgore",
-      "race_ids": [
-        6
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3061"
-    },
-    {
-      "npc_id": 3062,
-      "name": "Meela Dawnstrider",
-      "zone": "Mulgore",
-      "race_ids": [
-        6
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3062"
-    },
-    {
-      "npc_id": 3143,
-      "name": "Gornek",
-      "zone": "Durotar",
-      "race_ids": [
-        2
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see gornek-at-the-den.md for independent quest/role evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3143"
-    },
-    {
-      "npc_id": 2079,
-      "name": "Conservator Ilthalaine",
-      "zone": "Teldrassil",
-      "race_ids": [
-        4
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2079"
-    },
-    {
-      "npc_id": 8583,
-      "name": "Dirania Silvershine",
-      "zone": "Teldrassil",
-      "race_ids": [
-        4
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8583"
-    },
-    {
-      "npc_id": 2082,
-      "name": "Gilshalan Windwalker",
-      "zone": "Teldrassil",
-      "race_ids": [
-        4
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2082"
-    },
-    {
-      "npc_id": 3593,
-      "name": "Alyissia",
-      "zone": "Teldrassil",
-      "race_ids": [
-        4
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3593"
-    },
-    {
-      "npc_id": 3595,
-      "name": "Shanda",
-      "zone": "Teldrassil",
-      "race_ids": [
-        4
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3595"
-    },
-    {
-      "npc_id": 12738,
-      "name": "Nori Pridedrift",
-      "zone": "Dun Morogh",
-      "race_ids": [
-        3
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see coldridge-mornbrew-and-cloth.md for independent quest/access evidence",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12738"
-    },
-    {
-      "npc_id": 836,
-      "name": "Durnan Furcutter",
-      "zone": "Dun Morogh",
-      "race_ids": [
-        3
-      ],
-      "public_friendly_factions": [
-        "alliance"
-      ],
-      "reaction_evidence": "Friendly",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/836"
-    },
-    {
-      "npc_id": 460,
-      "name": "Alamar Grimm",
-      "zone": "Dun Morogh",
-      "race_ids": [
-        7
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/460"
-    },
-    {
-      "npc_id": 6376,
-      "name": "Wren Darkspring",
-      "zone": "Dun Morogh",
-      "race_ids": [
-        7
-      ],
-      "public_friendly_factions": [],
-      "reaction_evidence": "No current reaction icon; see anvilmar-gnome-trainers.md for independent training/access context",
-      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6376"
     }
   ]
 }

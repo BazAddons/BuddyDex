@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Complete Sten Stoutarm with fifteen personal lines and four Eleven v4 signatures, including his Forever shaman referral. Bring the shared Coldridge/Anvilmar starter selection to five completed profiles.
+
 - Complete Alamar Grimm and Wren Darkspring, each with fifteen personal lines and four Eleven v4 signatures using the established male and female gnome voices. Add both gnomes to the Coldridge/Anvilmar starter selection.
 
 - Begin Coldridge Valley/Anvilmar coverage with Nori Pridedrift and Durnan Furcutter, each with fifteen personal lines and four Eleven v4 signatures in the established male dwarf voice.

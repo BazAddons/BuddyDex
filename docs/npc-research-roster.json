@@ -455,5 +455,12 @@
     "zone": "Dun Morogh",
     "source": "Reviewed current identity/model/title, full primary warlock quests and memorandum, Classic stock, Atlas and installed training dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/anvilmar-gnome-trainers.md"
+  },
+  {
+    "npc_id": 658,
+    "name": "Sten Stoutarm",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current friendly identity/model, full primary mail chain and class referrals/readables, Forever shaman addition and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/sten-stoutarm.md"
   }
 ]

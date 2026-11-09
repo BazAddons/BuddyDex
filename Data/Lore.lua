@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Sten Stoutarm (658), adult male dwarf, Coldridge Valley, display 1362 (3 / 0).
+    -- Wolf meat for gloves (179), mail to Talin then Grelin (233/234), class referrals.
+    -- Forever 98581 passes Teo Hammerstorm's shaman rune. Signature flourish is original.
+    -- docs/research/sten-stoutarm.md; trainers' personal opinions are not Sten's.
+    [658] = {
+        quote = "A fair bit of work deserves a fair return. And if there's a letter to carry, mind the name on it.",
+        likes = { "Useful work fairly repaid", "Letters reaching the right person", "A handsome flourish on his signature" },
+        dislikes = { "Fingers too cold to hold a pen", "Promises conveniently forgotten", "Ink blots on clean paper" },
+        gossip = "Sten keeps frowning over a scrap of writing. Some reckon it must be an important letter from Ironforge. He folds it away quickly.",
+        bio = "Sten Stoutarm helps newcomers in Coldridge Valley, trading gloves for wolf meat and sending letters to Talin Keeneye. He passes messages from Anvilmar's trainers, including Teo Hammerstorm's rune for new shamans.",
+        backstory = "He once gave the first letter of his signature an extra curl. Pleased with the result, he tried another on spare paper. Finding a flourish that looked grand without tangling up the rest of his name became a small private pastime.",
+        secret = "The scrap is signature practice. His latest S resembles a pair of ram's horns. He rather likes it, though he is not sure anyone could read the name afterward.",
+        bestFriend = "You know my name without needing to puzzle out the fancy bit. That's worth more to me than the finest signature in Ironforge.",
+        favorite = { emote = "THANK", hint = "Let him know that a fair favor was appreciated." },
+        lines = {
+            greet = { { "There you are! Ready to put your feet to use? A bit of honest work goes easier with company, and I could do with a stretch myself. Mind your gloves. Cold fingers make a poor start to an errand, however willing the rest of you might be.", tone = "[hearty practical welcome, relaxed warmth, gently teasing]" }, "Come along, then. There's more to a day than standing in the snow." },
+            idle = { { "Now, if I carry the curl back around there... no, that makes the whole name look like a ram has walked through the ink. Just a bit of writing practice. Nothing urgent. You needn't stare quite so hard; I know perfectly well what it says.", tone = "[muttering concentration, sheepish amusement, friendly defensiveness]" }, "A promise ought to keep its shape when the work is finished.", "I can manage the cold. It's trying to write with stiff fingers that tries my patience." },
+            befriended = { { "Well, you've done more than lend a hand and hurry off. You came back for the company. I appreciate that. Let us take a walk together, and if there's a favor to be done on the way, we'll see it fairly settled between us.", tone = "[sincere gratitude, hearty affection, easy confidence]" } },
+            poke = { "Aye? You've got my attention without checking the seams.", "Careful. If there's ink on my fingers, it'll be on yours next." },
+            mail = { { "Letters, eh? Have a proper look at the name before setting off with them. A stack can travel a fair distance and still have one fellow waiting for his share. And if you're writing back, leave enough room for the address after your magnificent signature.", tone = "[practical advice, rueful humor, warm teasing]" } },
+            gear = { "Good gloves earn their keep before you ever swing a weapon." },
+            quest = { "Work done. Let's see that the promise at the other end is kept." },
+            bagsFull = { "Keep the letters flat, at least. Everything else can wait while you sort that lot." },
+            rest = { "Warm your hands a bit. No sense making the next task harder." },
+            levelUp = { "There we are! A stronger pair of hands, and I hope a sensible head to guide them." },
+            hearth = { "Back somewhere warm. I'll see if my handwriting improves with the weather indoors." },
+        },
+    },
+
     -- Alamar Grimm (460), adult male gnome warlock trainer, Anvilmar, display 1930 (7 / 0).
     -- Tainted Memorandum 3115/item 9577; Beginnings 1599 charms and imp lessons; bitter over Gnomeregan.
     -- Bright yellow reading ribbon is original, ordinary and unenchanted.
