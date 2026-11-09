@@ -1,4 +1,84 @@
 {
+  "lore3185_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3185",
+    "spoken": "[open affectionate friendship, sincere pleasure, relaxed warmth] Yes, I would like to come along. You notice things, and you listen when I tell you why they matter. That makes a walk much more pleasant. We need not gather anything every time, either. Some days it is enough to share the road and find something small to laugh about together.",
+    "text": "Yes, I would like to come along. You notice things, and you listen when I tell you why they matter. That makes a walk much more pleasant. We need not gather anything every time, either. Some days it is enough to share the road and find something small to laugh about together.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3185_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3185",
+    "spoken": "[bright practical welcome, easy playful confidence, friendly curiosity] There you are. Come walk with me, and keep your eyes on more than the road ahead. Durotar has green things worth noticing, even where a hurried traveler sees nothing useful. I can show you a few places. If I give one a strange name, there is probably a story behind it.",
+    "text": "There you are. Come walk with me, and keep your eyes on more than the road ahead. Durotar has green things worth noticing, even where a hurried traveler sees nothing useful. I can show you a few places. If I give one a strange name, there is probably a story behind it.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3185_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3185",
+    "spoken": "[wry storytelling, amused at herself, lively conversational warmth] That spot is Mind Your Elbow. No, that is not the name of the herb growing there. It is the name of the lesson I learned while reaching for it. You may laugh. I did, after I stopped rubbing my arm. A gathering route is easier to remember when it has a few stories.",
+    "text": "That spot is Mind Your Elbow. No, that is not the name of the herb growing there. It is the name of the lesson I learned while reaching for it. You may laugh. I did, after I stopped rubbing my arm. A gathering route is easier to remember when it has a few stories.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3185_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3185",
+    "spoken": "[clear patient instruction, practical encouragement, lightly firm] Good. Now take your time putting that lesson to use. Look closely, learn what you are gathering, and bring it back with a little care. A crushed bundle teaches you less than one you can examine properly. You will get quicker with practice. You need not begin by rushing past the important part.",
+    "text": "Good. Now take your time putting that lesson to use. Look closely, learn what you are gathering, and bring it back with a little care. A crushed bundle teaches you less than one you can examine properly. You will get quicker with practice. You need not begin by rushing past the important part.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3706_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3706",
+    "spoken": "[earned affectionate approval, sincere and grounded, sternness softening] Yes, I will walk with you. I have seen that you can listen, think, and give care where it is needed. Those things matter to me. You need not stand as though every word between us is another test. We have come to know one another, and I am pleased to call you my friend.",
+    "text": "Yes, I will walk with you. I have seen that you can listen, think, and give care where it is needed. Those things matter to me. You need not stand as though every word between us is another test. We have come to know one another, and I am pleased to call you my friend.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3706_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3706",
+    "spoken": "[firm assured welcome, perceptive teacher, restrained friendly warmth] Good, you are here. Come along, and bring your attention with you. There is more to learn from a walk than how far your legs can carry you. Watch the people beside you. Notice who needs help before they have to ask. That is a useful habit, whatever strength you have to offer.",
+    "text": "Good, you are here. Come along, and bring your attention with you. There is more to learn from a walk than how far your legs can carry you. Watch the people beside you. Notice who needs help before they have to ask. That is a useful habit, whatever strength you have to offer.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3706_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3706",
+    "spoken": "[dry amused admission, composed confidence, lightly self-deprecating] You think this cord must hold some secret power because I keep working at it? No. It holds a knot I made while my mind was elsewhere. I know how it began. That does not mean pulling harder will tell me how to undo it. You may smile. A teacher can still give herself an awkward lesson.",
+    "text": "You think this cord must hold some secret power because I keep working at it? No. It holds a knot I made while my mind was elsewhere. I know how it began. That does not mean pulling harder will tell me how to undo it. You may smile. A teacher can still give herself an awkward lesson.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3706_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3706",
+    "spoken": "[convincing focused instruction, serious pride, protective conviction] Remember what that knowledge is for. Healing can keep an ally alive, and protection can help them stay that way. There is wisdom in using your power before another wound is struck. Do not measure your worth only by what falls before you. Notice who is still standing because you were there.",
+    "text": "Remember what that knowledge is for. Healing can keep an ally alive, and protection can help them stay that way. There is wisdom in using your power before another wound is struck. Do not measure your worth only by what falls before you. Notice who is still standing because you were there.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore5884_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

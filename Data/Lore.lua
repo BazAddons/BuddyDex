@@ -42,6 +42,64 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mishiki (3185), adult female troll herbalist, Sen'jin Village, Durotar.
+    -- Display 4085 / race 8 sex 1; current Horde friendly and local pin.
+    -- Classic training and installed Razor Hill directions; no personal quest confirmed.
+    -- Plant nicknames are original. docs/research/durotar-herbs-and-spirit.md.
+    [3185] = {
+        quote = "Look close before you say nothing grows here. A little green can be very stubborn.",
+        likes = { "A learner who notices the small leaves", "Useful growth in unlikely places", "A good story behind a scratched elbow" },
+        dislikes = { "Boots planted on the lesson", "Calling every green thing the same weed", "A bundle crushed before it reaches home" },
+        gossip = "Mishiki has some unusual names for her favorite gathering spots. One is called 'Mind Your Elbow.' Ask before you lean there.",
+        bio = "Mishiki teaches herbalism in Sen'jin Village. Even Razor Hill's grunts direct would-be gatherers south to her hut. She helps learners find useful plants in Durotar, where an impatient eye might see only dry ground.",
+        backstory = "A scratched elbow made one gathering spot easy to remember. She gave the place a private nickname, then found herself doing the same for others. Soon an ordinary walk could remind her of several small mishaps, most of them amusing afterward.",
+        secret = "The nicknames belong to places, not plants. She knows the proper herb names perfectly well. Remembering where she slipped is simply harder to forget.",
+        bestFriend = "Come, I show you the good spots. You can hear the stories too, if you promise to warn me before I lean on that rock again.",
+        favorite = { emote = "NOD", hint = "Show her you noticed the small detail she was pointing out." },
+        lines = {
+            greet = { { "There you are. Come walk with me, and keep your eyes on more than the road ahead. Durotar has green things worth noticing, even where a hurried traveler sees nothing useful. I can show you a few places. If I give one a strange name, there is probably a story behind it.", tone = "[bright practical welcome, easy playful confidence, friendly curiosity]" }, "Good company for a gathering walk. Mind where you put those boots." },
+            idle = { { "That spot is Mind Your Elbow. No, that is not the name of the herb growing there. It is the name of the lesson I learned while reaching for it. You may laugh. I did, after I stopped rubbing my arm. A gathering route is easier to remember when it has a few stories.", tone = "[wry storytelling, amused at herself, lively conversational warmth]" }, "A plant need not be impressive to be worth a closer look.", "The proper names are for the herbs. The foolish names are for the places I found them." },
+            befriended = { { "Yes, I would like to come along. You notice things, and you listen when I tell you why they matter. That makes a walk much more pleasant. We need not gather anything every time, either. Some days it is enough to share the road and find something small to laugh about together.", tone = "[open affectionate friendship, sincere pleasure, relaxed warmth]" } },
+            poke = { "I noticed you. Now notice where your feet are standing.", "You have a question, or did you find a new way to interrupt a herbalist?" },
+            learned = { { "Good. Now take your time putting that lesson to use. Look closely, learn what you are gathering, and bring it back with a little care. A crushed bundle teaches you less than one you can examine properly. You will get quicker with practice. You need not begin by rushing past the important part.", tone = "[clear patient instruction, practical encouragement, lightly firm]" } },
+            loot = { "Keep that away from the herbs unless you want an unpleasant sorting job later." },
+            bagsFull = { "Leave the bundle some room. It should not arrive flatter than when we picked it." },
+            zone = { "Different ground. Let us see what grows here before deciding we know the place." },
+            rest = { "A little shade, a little company. Keep one eye on that elbow." },
+            quest = { "Finished? Good. Now you can look around without the errand pulling at you." },
+            levelUp = { "You are learning. Keep your eyes curious, even when the work feels familiar." },
+        },
+    },
+
+    -- Tai'jin (3706), adult female troll priest trainer, Razor Hill, Durotar.
+    -- Display 1897 / race 8 sex 1; current Horde friendly. 5649 -> 5648, Ur'kyo/Forsaken referrals.
+    -- Healing/Fortitude test for Kor'ja, adapting traditions, wisdom over mere strength.
+    -- Knot puzzle is original, not a ritual. docs/research/durotar-herbs-and-spirit.md.
+    [3706] = {
+        quote = "A healer who keeps another standing has shown power enough. Learn when your strength can do some good.",
+        likes = { "Respect shown through thoughtful action", "Healing followed by protection", "Patience with a difficult knot" },
+        dislikes = { "Strength with no wisdom to guide it", "Treating her people's ways as a joke", "Pulling harder before thinking again" },
+        gossip = "Tai'jin works a knotted cord between lessons. Some students wonder whether it holds a powerful charm. She tells them to mind their studies.",
+        bio = "Tai'jin trains priests in Razor Hill. Ken'jai sends learners to her; she tests them by having them heal and fortify Grunt Kor'ja. Her lessons value ancestral ways, adaptation and the power to keep allies alive. She also refers pupils to Ur'kyo.",
+        backstory = "She wanted something for her hands between lessons and began making knots to untangle later. A simple cord gave her a pleasant challenge. Pulling at it without thinking only made the work harder, which suited her sense of a useful pastime.",
+        secret = "There is no charm in the cord. She tied its worst knot herself while distracted. She has not solved it yet, and might welcome another pair of patient hands.",
+        bestFriend = "Here, hold this end for me. We can think it through together. I trust your patience, and I am glad to have your company.",
+        favorite = { emote = "BOW", hint = "Approach her teaching and her people's ways with respect." },
+        lines = {
+            greet = { { "Good, you are here. Come along, and bring your attention with you. There is more to learn from a walk than how far your legs can carry you. Watch the people beside you. Notice who needs help before they have to ask. That is a useful habit, whatever strength you have to offer.", tone = "[firm assured welcome, perceptive teacher, restrained friendly warmth]" }, "There you are. I hope you brought a little patience with that energy." },
+            idle = { { "You think this cord must hold some secret power because I keep working at it? No. It holds a knot I made while my mind was elsewhere. I know how it began. That does not mean pulling harder will tell me how to undo it. You may smile. A teacher can still give herself an awkward lesson.", tone = "[dry amused admission, composed confidence, lightly self-deprecating]" }, "A strong hand can make a small knot very troublesome.", "Our ways deserve respect. Understanding them takes more than repeating the words." },
+            befriended = { { "Yes, I will walk with you. I have seen that you can listen, think, and give care where it is needed. Those things matter to me. You need not stand as though every word between us is another test. We have come to know one another, and I am pleased to call you my friend.", tone = "[earned affectionate approval, sincere and grounded, sternness softening]" } },
+            poke = { "You have my attention. Be certain you wanted it.", "If you need something, speak. I do not teach by guessing at elbows." },
+            learned = { { "Remember what that knowledge is for. Healing can keep an ally alive, and protection can help them stay that way. There is wisdom in using your power before another wound is struck. Do not measure your worth only by what falls before you. Notice who is still standing because you were there.", tone = "[convincing focused instruction, serious pride, protective conviction]" } },
+            lowHealth = { "Your strength is failing. Take care before another lesson becomes a wound." },
+            quest = { "Good work. Think about what your actions made possible for someone else." },
+            levelUp = { "More strength. Now show the wisdom to use it well." },
+            died = { "We will begin again. Learn from this, but do not let shame do the teaching." },
+            rest = { "Sit a moment. A tired mind can pull a simple problem into a very tight knot." },
+            hearth = { "Home again. There are people here worth returning for." },
+        },
+    },
+
     -- Pyall Silentstride (3067), adult male Tauren cook, Bloodhoof Village, Mulgore.
     -- Display 3795 / race 6 sex 0; installed lifelong-learning gossip and Wulan/Dirge referrals.
     -- Forever 96659 -> 96605 -> 96661 leads Kaga's campers to his cooking lesson.

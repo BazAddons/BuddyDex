@@ -16,3 +16,5 @@ Tai'jin's current [starts](https://forever.warcraftdb.com/api/data/node/npc/3706
 The installed exact-NPC gossip for Tai'jin has been read: respect for her people's ways, priest training, and rigorous talent retraining. It supplies an assertive teaching voice, not an invented history or an instruction to stereotype every line. Both candidates should use the approved female troll voice with Eleven v4 and character-specific hidden delivery tags after research and writing.
 
 Raw node/relationship caches are outside the repository in `C:/Users/brett/BuddyDex-builds/durotar-services-research`. No voice generation, profile completion or in-game discovery is claimed at this identity-review stage. Continue the Horde service/quest rotation while retaining the unresolved old Westfall identities and wider catalog goal.
+
+Both profiles are now complete; see [full research and source discrepancies](durotar-herbs-and-spirit.md). Current public Horde-friendly icons are preserved, with all live eligibility gates unchanged.

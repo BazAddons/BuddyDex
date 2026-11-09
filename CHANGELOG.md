@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Mishiki and Tai'jin: full profiles, fifteen personal lines and four approved female troll Eleven v4 signatures each. Development now has 285 complete profiles; priest referrals researched and sparse herbalist relations documented.
+
 - Complete Pyall Silentstride and Innkeeper Kauth in Bloodhoof Village: full lore, fifteen personal lines and four Tauren male Eleven v4 signatures each; research the full camping introduction and fur delivery. Development now has 283 complete profiles.
 
 - Complete Gennia Runetotem and Cook Torka, each with fifteen personal lines and four Eleven v4 signatures. Include the full bear-training referral and Torka's Forever fruit/seed and camping roles.

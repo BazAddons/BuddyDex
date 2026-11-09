@@ -546,5 +546,19 @@
     "zone": "Mulgore",
     "source": "Reviewed current adult identity/model, published full Forever camping or fur-delivery dialogue and installed gossip; current faction icons absent and live eligibility retained; no Scout sighting claimed",
     "research_notes": "docs/research/bloodhoof-cook-and-innkeeper.md"
+  },
+  {
+    "npc_id": 3185,
+    "name": "Mishiki",
+    "zone": "Durotar",
+    "source": "Reviewed current Horde-friendly adult female troll identity/model and starter pin; installed guard directions, sparse herbalist relations or full priest quest/referral dialogue compared with Classic; no Scout sighting claimed",
+    "research_notes": "docs/research/durotar-herbs-and-spirit.md"
+  },
+  {
+    "npc_id": 3706,
+    "name": "Tai'jin",
+    "zone": "Durotar",
+    "source": "Reviewed current Horde-friendly adult female troll identity/model and starter pin; installed guard directions, sparse herbalist relations or full priest quest/referral dialogue compared with Classic; no Scout sighting claimed",
+    "research_notes": "docs/research/durotar-herbs-and-spirit.md"
   }
 ]
