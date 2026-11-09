@@ -330,3 +330,10 @@ Next checked identities: Sprinkle 7583 and Nida Winterhoof 3014, [queue](sprinkl
 Sprinkle 7583 and Nida Winterhoof 3014 complete: full Goblin/Tauren profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](gadgetzan-favors-and-thunder-bluff-flowers.md) preserves full Noggenfogger/yeti connections and Nida's actual Forever incense-supply role. Development total **356**; public access Alliance 194, Horde 74, unverified 94 (six shared profiles overlap). Installed/development-packaged; no publication.
 
 Next checked identities: Mon'ye 270582 and Pa'zula 266881, [queue](monye-and-pazula-queue.md), newer adult female Troll services in Orgrimmar/Sen'jin. Neither counted complete.
+
+
+### 2026-11-09: Forever appearance and enchanting contacts
+
+Mon'ye 270582 and Pa'zula 266881 complete: full Troll female profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](cleft-of-shadow-hats-and-senjin-paper-tosses.md) preserves actual services and Pa'zula's slain-spirit quest purpose; newer display routes verified. Development total **358**; public access Alliance 194, Horde 76, unverified 94 (six shared entries overlap). Installed/development-packaged; no publication.
+
+Next checked identities: Marin Noggenfogger 7564 and Eylah Sunhorn 269068, [queue](marin-and-eylah-queue.md). Neither counted complete; sparse current reaction fields retained as unverified.

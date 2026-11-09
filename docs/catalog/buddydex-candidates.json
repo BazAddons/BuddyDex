@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 90,
-    "combined_retained_entries": 1521,
-    "candidate_name_groups": 1508,
+    "local_backlog_entries_missing_from_source": 92,
+    "combined_retained_entries": 1523,
+    "candidate_name_groups": 1510,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -10759,6 +10759,23 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Eylah Sunhorn",
+      "npc_ids": [
+        269068
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 269068,
+          "name": "Eylah Sunhorn",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -22590,6 +22607,23 @@
       ]
     },
     {
+      "name": "Marin Noggenfogger",
+      "npc_ids": [
+        7564
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 7564,
+          "name": "Marin Noggenfogger",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Marion Call",
       "npc_ids": [
         2130
@@ -24118,7 +24152,7 @@
           "source_page": 21,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -26568,7 +26602,7 @@
           "source_page": 23,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39998,6 +40032,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

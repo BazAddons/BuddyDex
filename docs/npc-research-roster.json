@@ -1057,5 +1057,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current named adult Goblin/Tauren body, reaction/map omitted; historical location/relations, full Noggenfogger/yeti text and event, Forever incense role, installed text, items and literary/era review; no Scout sighting claimed",
     "research_notes": "docs/research/gadgetzan-favors-and-thunder-bluff-flowers.md"
+  },
+  {
+    "npc_id": 270582,
+    "name": "Mon'ye",
+    "zone": "Orgrimmar",
+    "source": "Exact current named adult female Troll body, Horde-friendly icon and pin; full own current relations, exact installed service gossip, complete Forever enchanting lesson, item and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md"
+  },
+  {
+    "npc_id": 266881,
+    "name": "Pa'zula",
+    "zone": "Durotar",
+    "source": "Exact current named adult female Troll body, Horde-friendly icon and pin; full own current relations, exact installed service gossip, complete Forever enchanting lesson, item and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md"
   }
 ]

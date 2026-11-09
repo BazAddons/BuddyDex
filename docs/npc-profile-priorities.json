@@ -742,6 +742,20 @@
       "zone": "Durotar",
       "route": "Forever Troll female city/starter services",
       "reason": "Exact current named adult body, friendly Horde icon and pin checked; full current service/quest/literary research pending. See docs/research/monye-and-pazula-queue.md"
+    },
+    {
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "zone": "Tanaris",
+      "route": "Connected Goblin/Tauren quest contacts",
+      "reason": "Exact current named adult body checked; connected full quest text reviewed, own service/literary research pending. See docs/research/marin-and-eylah-queue.md; faction access remains unverified"
+    },
+    {
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "zone": "Thunder Bluff",
+      "route": "Connected Goblin/Tauren quest contacts",
+      "reason": "Exact current named adult body checked; connected full quest text reviewed, own service/literary research pending. See docs/research/marin-and-eylah-queue.md; faction access remains unverified"
     }
   ]
 }

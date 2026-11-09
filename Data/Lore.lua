@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mon'ye <Transmogrifier>, Cleft of Shadow, adult female Troll,
+    -- 270582/display 146415; current Horde-friendly. Exact installed
+    -- appearance-weaving offer; no own quest exposed. Her hat indecision
+    -- is ours. No inventor biography or new companion appearance power.
+    -- Research: docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md.
+    [270582] = {
+        quote = "Choose the look that feels right to you. If I could follow my own advice about hats, we would both be finished sooner.",
+        likes = { "Someone pleased with their own choice", "A familiar hat after too much deciding", "An honest opinion from good company" },
+        dislikes = { "Choosing a look only to satisfy a crowd", "A compliment that avoids the question", "Trying the same hat for the fifth time" },
+        gossip = "Mon'ye can help someone settle on a new look, then spend a very long time deciding which of her own hats she prefers.",
+        bio = "Mon'ye offers transmogrification in Orgrimmar's Cleft of Shadow. She describes weaving magic around a person to change the appearance of their equipment. Helping someone find a look they enjoy is familiar work for her.",
+        backstory = "After advising a visitor to trust their first pleased reaction, Mon'ye tried several hats of her own. She returned to the first, then tried another anyway. Her advice had been sound. Following it was proving rather more difficult.",
+        secret = "She usually liked the first hat best. What she wants from a friend is permission to stop deciding, preferably before she takes the whole collection out again.",
+        bestFriend = "The first one, yes? Good. Remind me if I reach for another. I would rather enjoy the afternoon with you than spend it deciding again.",
+        favorite = { emote = "NOD", hint = "Appreciates a clear, friendly opinion when she has already tried enough options." },
+        lines = {
+            greet = { { "Welcome back, mon. Have a look in mind, or would you like a little time to choose? I can offer an opinion. When we get to my own hats, you may have to remind me that I already liked the first one.", tone = "[warm] [playful]" },
+                "Good to see you. Tell me what pleases you before asking what everyone else will think." },
+            idle = { { "I tell people to trust that first pleased reaction. Sensible advice. Then I try a hat, another hat, and the first one again. Usually the first was right. Knowing that has not entirely stopped me from trying one more, just to be sure.", tone = "[wry] [confiding]" },
+                "The first hat. I am almost certain. Put that other one down for me, would you?",
+                "It is pleasant to see someone recognize a look as their own." },
+            befriended = { { "You will give me an honest opinion and then stay for more than the choosing. I like that. Come along, mon. We can enjoy a little of the day without spending all of it wondering whether another hat would have been better.", tone = "[affectionate] [amused]" } },
+            poke = { "Yes? If I am reaching for another hat, you may stop me.", "I am listening. This decision can wait a moment." },
+            gear = { { "A look should please the person wearing it. Take a moment to notice your own reaction before you begin imagining everyone else's. I can help with the appearance, mon. The choice is more satisfying when you recognize it as your own.", tone = "[encouraging] [thoughtful]" } },
+            loot = { "Something to consider. You need not decide what you think of it immediately." },
+            rest = { "Sit. We can enjoy being here without trying on another possibility." },
+            zone = { "A new setting. Let us see what catches your eye." },
+            quest = { "Find out what is being asked before deciding how to present the answer." },
+            laughAlong = { "Yes, I heard myself. I was about to try the first one again." },
+            hearth = { "Familiar surroundings, familiar choices. Perhaps an easier decision today." },
+        },
+    },
+
+    -- Pa'zula <Journeyman Enchanter>, Sen'jin, adult female Troll,
+    -- 266881/display 144913; current Horde-friendly Trainer. 96873:
+    -- strip Zalazane's bindings from pendants; regrets slain trolls,
+    -- spirits can rest. Paper-toss game is ours, without magical help.
+    -- Research: docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md.
+    [266881] = {
+        quote = "Learn what an enchantment is doing before you admire how it shines.",
+        likes = { "Understanding the work before touching it", "A small success earned without magic", "Company willing to cheer a modest throw" },
+        dislikes = { "Magic that takes another person's will", "Putting on an unfamiliar cursed trinket", "Pretending every lucky throw is a spell" },
+        gossip = "Pa'zula flicks paper at an empty cup without magical help. She gets plenty of practice collecting the misses.",
+        bio = "Pa'zula teaches enchanting in Sen'jin Village. Her lesson strips Zalazane's binding magic from Hexed Pendants. She regrets the deaths of the trolls who wore them, but says removing the bindings lets their spirits rest.",
+        backstory = "While tidying scraps, Pa'zula flicked one toward an empty cup and missed. She tried again. The small challenge suited a quiet pause, so she kept it: one cup, a little paper and no enchantments to improve her chances.",
+        secret = "She likes a small game in which a mistake only means picking up a scrap of paper. A miss can be funny, and a good throw is worth enjoying without making it important.",
+        bestFriend = "Watch this one, mon. If I miss, we can laugh. If it lands, you may celebrate as much as you like. I am glad you stayed to see it.",
+        favorite = { emote = "CHEER", hint = "Enjoys a little celebration when an entirely ordinary attempt finally lands." },
+        lines = {
+            greet = { { "Good to see you, mon. We can look at the work in a moment. First, watch one very modest attempt. Paper, an empty cup, and no magic to help it along. If I miss, I will collect it and try again later.", tone = "[warm] [playful]" },
+                "Welcome back. Ask before handling anything you do not yet understand." },
+            idle = { { "A scrap of paper and an empty cup. I flick, it misses, I pick it up. There is something pleasant about a mistake that asks so little of you. When one finally lands, I allow myself a thoroughly unnecessary little celebration.", tone = "[amused] [relaxed]" },
+                "That was close. Close still means I have to pick it up.",
+                "A little shine tells you very little about what an enchantment intends." },
+            befriended = { { "You can take the work seriously and still enjoy a little foolishness when there is room for it. That is good company, mon. Come along. There should be something in the day we can enjoy without turning it into another important test.", tone = "[fond] [sincere]" } },
+            poke = { "Yes? I was lining up a very unimportant attempt.", "I am listening. The cup has nowhere else to be." },
+            quest = { { "Zalazane's pendants carry binding magic. Learn to recognize what you are removing, and remember the people who wore them. Their deaths are a sorrow. With those bindings gone, their spirits can rest. There is more to this work than collecting something that shines.", tone = "[solemn] [compassionate]" } },
+            learned = { "Understanding comes before confidence. Ask what the magic does." },
+            loot = { "Look carefully before deciding that an unfamiliar trinket belongs around your neck." },
+            rest = { "A good pause. We need not make a lesson out of all of it." },
+            zone = { "Notice what is here before deciding that you know the place." },
+            laughAlong = { "Yes, that missed by quite a lot. I saw it too." },
+            hearth = { "Back to familiar ground. I am glad of that." },
+        },
+    },
+
     -- Sprinkle, Gadgetzan, adult female Goblin, 7583/display 7175.
     -- Classic 2605-2662: Marin's chef friend, Violet Tragan/powder/favor;
     -- 3783/977/5163/8798: Umi's mechanical-yeti prank, not her invention.

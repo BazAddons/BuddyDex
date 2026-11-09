@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 356,
+  "completed_count": 358,
   "remaining_count": 4,
   "completed": [
     {
@@ -3291,6 +3291,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 266881,
+      "name": "Pa'zula",
+      "zone": "Durotar",
+      "source": "Exact current named adult female Troll body, Horde-friendly icon and pin; full own current relations, exact installed service gossip, complete Forever enchanting lesson, item and literary/era review; no Scout sighting claimed",
+      "research_notes": "docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 267323,
       "name": "Clarence Gillian",
       "zone": "Tirisfal Glades",
@@ -3327,6 +3337,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 270582,
+      "name": "Mon'ye",
+      "zone": "Orgrimmar",
+      "source": "Exact current named adult female Troll body, Horde-friendly icon and pin; full own current relations, exact installed service gossip, complete Forever enchanting lesson, item and literary/era review; no Scout sighting claimed",
+      "research_notes": "docs/research/cleft-of-shadow-hats-and-senjin-paper-tosses.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 273065,
       "name": "Ribbly Spinwhistle",
       "zone": "Stormwind City",
@@ -3356,16 +3376,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 270582,
-      "name": "Mon'ye",
-      "zone": "Orgrimmar",
+      "npc_id": 7564,
+      "name": "Marin Noggenfogger",
+      "zone": "Tanaris",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 266881,
-      "name": "Pa'zula",
-      "zone": "Durotar",
+      "npc_id": 269068,
+      "name": "Eylah Sunhorn",
+      "zone": "Thunder Bluff",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
@@ -3569,7 +3589,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1508,
+    "candidate_name_groups": 1510,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

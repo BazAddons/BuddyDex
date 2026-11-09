@@ -1,4 +1,6 @@
-# Next: Mon'ye and Pa'zula
+# Completed: Mon'ye and Pa'zula
+
+Completed 2026-11-09; see [full research and validation](cleft-of-shadow-hats-and-senjin-paper-tosses.md). Historical planning notes below.
 
 Individually checked Forever identities, 2026-11-09. Neither profile authored or recorded; no personal Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/monye-pazula-research`.
 

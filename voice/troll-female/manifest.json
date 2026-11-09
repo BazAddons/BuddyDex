@@ -79,6 +79,86 @@
     "text": "There comes a time when a learner needs more than I can teach. A good book, another patient teacher, a little more practice. That is progress, mon. I would rather point you toward it than pretend I have nothing left to learn myself.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
   },
+  "lore266881_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:266881",
+    "spoken": "[fond] [sincere] You can take the work seriously and still enjoy a little foolishness when there is room for it. That is good company, mon. Come along. There should be something in the day we can enjoy without turning it into another important test.",
+    "text": "You can take the work seriously and still enjoy a little foolishness when there is room for it. That is good company, mon. Come along. There should be something in the day we can enjoy without turning it into another important test.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore266881_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:266881",
+    "spoken": "[warm] [playful] Good to see you, mon. We can look at the work in a moment. First, watch one very modest attempt. Paper, an empty cup, and no magic to help it along. If I miss, I will collect it and try again later.",
+    "text": "Good to see you, mon. We can look at the work in a moment. First, watch one very modest attempt. Paper, an empty cup, and no magic to help it along. If I miss, I will collect it and try again later.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore266881_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:266881",
+    "spoken": "[amused] [relaxed] A scrap of paper and an empty cup. I flick, it misses, I pick it up. There is something pleasant about a mistake that asks so little of you. When one finally lands, I allow myself a thoroughly unnecessary little celebration.",
+    "text": "A scrap of paper and an empty cup. I flick, it misses, I pick it up. There is something pleasant about a mistake that asks so little of you. When one finally lands, I allow myself a thoroughly unnecessary little celebration.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore266881_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:266881",
+    "spoken": "[solemn] [compassionate] Zalazane's pendants carry binding magic. Learn to recognize what you are removing, and remember the people who wore them. Their deaths are a sorrow. With those bindings gone, their spirits can rest. There is more to this work than collecting something that shines.",
+    "text": "Zalazane's pendants carry binding magic. Learn to recognize what you are removing, and remember the people who wore them. Their deaths are a sorrow. With those bindings gone, their spirits can rest. There is more to this work than collecting something that shines.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore270582_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:270582",
+    "spoken": "[affectionate] [amused] You will give me an honest opinion and then stay for more than the choosing. I like that. Come along, mon. We can enjoy a little of the day without spending all of it wondering whether another hat would have been better.",
+    "text": "You will give me an honest opinion and then stay for more than the choosing. I like that. Come along, mon. We can enjoy a little of the day without spending all of it wondering whether another hat would have been better.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore270582_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:270582",
+    "spoken": "[encouraging] [thoughtful] A look should please the person wearing it. Take a moment to notice your own reaction before you begin imagining everyone else's. I can help with the appearance, mon. The choice is more satisfying when you recognize it as your own.",
+    "text": "A look should please the person wearing it. Take a moment to notice your own reaction before you begin imagining everyone else's. I can help with the appearance, mon. The choice is more satisfying when you recognize it as your own.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore270582_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:270582",
+    "spoken": "[warm] [playful] Welcome back, mon. Have a look in mind, or would you like a little time to choose? I can offer an opinion. When we get to my own hats, you may have to remind me that I already liked the first one.",
+    "text": "Welcome back, mon. Have a look in mind, or would you like a little time to choose? I can offer an opinion. When we get to my own hats, you may have to remind me that I already liked the first one.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore270582_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:270582",
+    "spoken": "[wry] [confiding] I tell people to trust that first pleased reaction. Sensible advice. Then I try a hat, another hat, and the first one again. Usually the first was right. Knowing that has not entirely stopped me from trying one more, just to be sure.",
+    "text": "I tell people to trust that first pleased reaction. Sensible advice. Then I try a hat, another hat, and the first one again. Usually the first was right. Knowing that has not entirely stopped me from trying one more, just to be sure.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore3185_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
