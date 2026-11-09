@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 63 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 65 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -99,3 +99,7 @@ Next is an Orc service pair: Innkeeper Grosk (6928) and Duokna (3158). Their adu
 Innkeeper Grosk and Duokna bring development to **287 complete profiles**, each with fifteen personal lines and four approved Orc v4 signatures. See [their full research](razor-hill-rest-and-trial-supplies.md). Durotar now has ten authored early-route profiles and Mulgore has eight. Public faction-access listings are 192 Alliance, 38 Horde and 63 unverified, with six shared entries overlapping the faction totals. Duokna's absent current reaction icon stays unverified despite her corroborated current vendor stock and starter pin. Continue rotating underserved Horde routes and useful services; the wider catalog and unresolved old Westfall identities remain open.
 
 Next Mulgore identities: Mull Thunderhorn (2948), adult male Tauren well-cleansing quest giver, and Jhawna Oatwind (3884), adult female Tauren baker. Current identities/models are verified, but sparse node access/location and full chains/services still need research. See [the pending queue](mulgore-wells-and-baker-queue.md), including Mull's newly found Forever report readable. Neither is counted complete or recorded as a Scout encounter.
+
+## Mulgore wells and baker completed
+
+Mull Thunderhorn and Jhawna Oatwind bring development to **289 complete profiles**, with fifteen personal lines and four approved Tauren v4 signatures each. See [the full research](mulgore-water-and-bread.md), including the seven-stage well/report chain and readable. Mulgore and Durotar now each have ten authored early-route profiles. Public faction-access listings are 192 Alliance, 38 Horde and 65 unverified, with six shared entries overlapping the faction totals. Missing current reaction icons for the two new Tauren stay unverified; no live eligibility gate is bypassed. Continue rotating underserved Horde routes and service roles while preserving the wider catalog and old Westfall availability questions.

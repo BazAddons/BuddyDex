@@ -574,5 +574,19 @@
     "zone": "Durotar",
     "source": "Reviewed current adult Orc identity/model, starter pin and services/stock, full available food-delivery dialogue or no confirmed personal quest; sparse Duokna reaction retained; Atlas/installed dialogue and later literary era distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-rest-and-trial-supplies.md"
+  },
+  {
+    "npc_id": 2948,
+    "name": "Mull Thunderhorn",
+    "zone": "Mulgore",
+    "source": "Reviewed exact current adult Tauren identity/model, full seven-stage well/report dialogue and readable or sparse baker relations with Classic stock/Atlas; current reaction uncertainty retained; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-water-and-bread.md"
+  },
+  {
+    "npc_id": 3884,
+    "name": "Jhawna Oatwind",
+    "zone": "Mulgore",
+    "source": "Reviewed exact current adult Tauren identity/model, full seven-stage well/report dialogue and readable or sparse baker relations with Classic stock/Atlas; current reaction uncertainty retained; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-water-and-bread.md"
   }
 ]

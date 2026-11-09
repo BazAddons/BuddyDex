@@ -78,5 +78,45 @@
     "spoken": "[thoughtful encouraging instruction, steady confidence, generous warmth] Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.",
     "text": "Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3884_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3884",
+    "spoken": "[open sincere friendship, affectionate pleasure, mellow warmth] I would enjoy that. We have shared enough pleasant moments that I look forward to the next one, even before I know what we will be doing. You need not arrive hungry or carrying an errand to have my company. Come, let us find a little time to spend together, and perhaps somewhere nice to sit.",
+    "text": "I would enjoy that. We have shared enough pleasant moments that I look forward to the next one, even before I know what we will be doing. You need not arrive hungry or carrying an errand to have my company. Come, let us find a little time to spend together, and perhaps somewhere nice to sit.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3884_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3884",
+    "spoken": "[warm welcoming practicality, gentle good humor, relaxed affection] Good to see you. Shall we take something to eat before we go? I would rather share a loaf along the way than discover you have spent the whole walk hungry. We can find a pleasant place to stop. There is no need to save every good part of the day until the work is finished.",
+    "text": "Good to see you. Shall we take something to eat before we go? I would rather share a loaf along the way than discover you have spent the whole walk hungry. We can find a pleasant place to stop. There is no need to save every good part of the day until the work is finished.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3884_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3884",
+    "spoken": "[contented conversational warmth, mild amusement, quietly delighted] You may prefer the neat slices. I like the heel. There is a satisfying bite to it, and I do not mind its shape being a little uneven. You need not make an occasion of saving it for me, either. A small piece of bread and a quiet moment are already a very pleasant arrangement.",
+    "text": "You may prefer the neat slices. I like the heel. There is a satisfying bite to it, and I do not mind its shape being a little uneven. You need not make an occasion of saving it for me, either. A small piece of bread and a quiet moment are already a very pleasant arrangement.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3884_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3884",
+    "spoken": "[soothing friendly invitation, unhurried warmth, gently encouraging] This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
+    "text": "This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
   }
 }

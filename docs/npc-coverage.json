@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 287,
+  "completed_profiles": 289,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 63,
+    "unverified": 65,
     "horde": 38
   },
   "npc_race_counts": {
@@ -13,7 +13,7 @@
     "7": 25,
     "5": 25,
     "4": 11,
-    "6": 8,
+    "6": 10,
     "2": 7,
     "8": 5,
     "96": 3,
@@ -29,7 +29,7 @@
     "Ironforge": 32,
     "Tirisfal Glades": 25,
     "Teldrassil": 5,
-    "Mulgore": 8,
+    "Mulgore": 10,
     "Durotar": 10,
     "Orgrimmar": 2,
     "Deeprun Tram": 3,
@@ -1910,6 +1910,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2879"
     },
     {
+      "npc_id": 2948,
+      "name": "Mull Thunderhorn",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Not exposed in current node; exact adult model and Bloodhoof role corroborated by current quest or current Baker definition with Classic/Atlas; live eligibility required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2948"
+    },
+    {
       "npc_id": 2980,
       "name": "Grull Hawkwind",
       "zone": "Mulgore",
@@ -2198,6 +2209,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3706"
+    },
+    {
+      "npc_id": 3884,
+      "name": "Jhawna Oatwind",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Not exposed in current node; exact adult model and Bloodhoof role corroborated by current quest or current Baker definition with Classic/Atlas; live eligibility required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3884"
     },
     {
       "npc_id": 3935,

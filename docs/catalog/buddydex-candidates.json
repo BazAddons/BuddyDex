@@ -17605,7 +17605,7 @@
           "name": "Jhawna Oatwind",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -24476,7 +24476,7 @@
           "name": "Mull Thunderhorn",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39043,6 +39043,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 2948,
+      "name": "Mull Thunderhorn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 2981,
       "name": "Chief Hawkwind",
       "source": "Existing local backlog; absent from source filter",
@@ -39121,6 +39128,13 @@
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 3884,
+      "name": "Jhawna Oatwind",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
       "profile_status": "complete"
     },
     {
@@ -39480,20 +39494,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 2948,
-      "name": "Mull Thunderhorn",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 3884,
-      "name": "Jhawna Oatwind",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

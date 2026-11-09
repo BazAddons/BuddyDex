@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Mull Thunderhorn and Jhawna Oatwind: full profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research the full well-cleansing chain, Forever report and readable; development now has 289 completed profiles.
+
 - Complete Innkeeper Grosk and Duokna: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Development now has 287 complete profiles; Grosk's later novel events excluded and Duokna's actual Forever supplies verified.
 
 - Complete Mishiki and Tai'jin: full profiles, fifteen personal lines and four approved female troll Eleven v4 signatures each. Development now has 285 complete profiles; priest referrals researched and sparse herbalist relations documented.

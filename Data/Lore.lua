@@ -42,6 +42,64 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mull Thunderhorn (2948), adult male Tauren well-cleansing quest giver, Bloodhoof Village.
+    -- Display 3826 / race 6 sex 0; 748 -> 754 -> 756 -> 758 -> 759 -> 760 -> Forever 98435.
+    -- Three cleansing totems, ancestral dream, report/readable to Hamuul; no assumed kinship.
+    -- Wish for uneventful water errands is original. docs/research/mulgore-water-and-bread.md.
+    [2948] = {
+        quote = "Clean water serves every life that reaches it. Let our care be worthy of so generous a gift.",
+        likes = { "The land's offerings treated with respect", "A helper receiving their proper thanks", "An uneventful walk to fill a waterskin" },
+        dislikes = { "Poison reaching a sacred well", "Haste that forgets what a life has given", "Taking clean water for granted" },
+        gossip = "Mull asks about a simple trip for water as earnestly as a dangerous hunt. A quiet errand can leave him looking very pleased.",
+        bio = "Mull Thunderhorn prepares totems to cleanse Mulgore's Winterhoof, Thunderhorn and Wildmane wells. He sends helpers to perform the rituals, honors the land's offerings, and reports their service to Arch Druid Hamuul Runetotem in Thunder Bluff.",
+        backstory = "Watching someone carry water home without fear reminded him how much an ordinary errand could mean. No ceremony was needed to make that small journey precious. He began asking after such trips, pleased when there was little to tell.",
+        secret = "He hopes for a day when a visitor has no urgent news of the wells at all. He would gladly spend the conversation hearing about an otherwise ordinary afternoon.",
+        bestFriend = "Tell me something that brought you pleasure today. I am glad to share your burdens, but your happiness is welcome here too.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment shows you understand what his work protects." },
+        lines = {
+            greet = { { "Come, my friend. We can walk a little, and you may tell me what has held your attention today. It need not be a great deed or an urgent trouble. I am glad to hear those things, but I would also like to know whether you have found a quiet moment worth enjoying.", tone = "[deep thoughtful welcome, gentle interest, grounded warmth]" }, "Your company is welcome. What has the day brought you?" },
+            idle = { { "Someone goes to fill a waterskin, then carries it home. Nothing remarkable happens on the way. That sounds like a small thing until the water is no longer safe to drink. I would be pleased to hear many such uneventful stories. There is much worth protecting in a day that gives us little cause for worry.", tone = "[reflective quiet conviction, tender appreciation, unhurried sincerity]" }, "The creatures that come to drink need our care, though they cannot bring us their thanks.", "There is pleasure in hearing that an errand needed no courage at all." },
+            befriended = { { "Yes, I would be glad to walk beside you. We have shared concern for what needs care, and I have come to value the person who brings that concern to me. You are welcome without a task to finish or an offering to deliver. Let us enjoy a little time together simply as friends.", tone = "[sincere affectionate friendship, gentle respect, steady reassuring warmth]" } },
+            poke = { "I am listening. Is there something you wish to share?", "Gently, my friend. You have already drawn my attention." },
+            quest = { { "You have given your effort, and that should be remembered. The work we do for the land reaches farther than the place where we stand. Those who drink, those who graze, and those who depend upon them all have a part in what has been protected. Take a moment to understand the good your care can do.", tone = "[solemn grateful acknowledgment, quiet pride, generous encouragement]" } },
+            rest = { "A peaceful pause is worth noticing while we have it." },
+            zone = { "Another place where many lives share what the land provides." },
+            loot = { "Consider what was given, and make good use of what you carry." },
+            lowHealth = { "Take care of yourself. Your life deserves the concern you give to others." },
+            levelUp = { "May your growing strength bring greater care to the work you choose." },
+            hearth = { "Home again. I hope we have some ordinary, pleasant news to share." },
+        },
+    },
+
+    -- Jhawna Oatwind (3884), adult female Tauren baker, Bloodhoof Village, Mulgore.
+    -- Display 3807 / race 6 sex 1; current Baker definition, Atlas mill location and Classic stock.
+    -- Sparse current reaction/stock not guessed. No personal quest or special recipe established.
+    -- Favorite loaf heel and quiet snack are original. docs/research/mulgore-water-and-bread.md.
+    [3884] = {
+        quote = "Sit down long enough to enjoy the bread. Carrying a meal is not quite the same as eating one.",
+        likes = { "A loaf shared while everyone is hungry", "A quiet moment with the crusty heel", "Travelers remembering to eat" },
+        dislikes = { "Good food crushed beneath heavy gear", "A meal put off until it is forgotten", "Judging a loaf only by its prettiest slice" },
+        gossip = "People bring Jhawna grand ideas about her favorite treats. She listens kindly, then seems just as pleased with the end of a plain loaf.",
+        bio = "Jhawna Oatwind is the baker by the mill in Bloodhoof Village. Her work gives travelers and neighbors a familiar place to find provisions. She appreciates a meal that can be enjoyed in good company as much as one carried on the road.",
+        backstory = "After a busy stretch of work, she sat down with the heel left from a loaf. The little pause suited her better than a more elaborate treat. She came to look forward to that simple snack, especially when there was time to enjoy it slowly.",
+        secret = "The crusty heel really is her favorite part. She likes its uneven shape and its firm bite. She is happy to share, provided you do not call it a leftover apology.",
+        bestFriend = "I saved us the end of a loaf. You can have the larger piece if you sit and enjoy it with me. Tell me how your day has been.",
+        favorite = { emote = "THANK", hint = "Let her know a simple meal was appreciated." },
+        lines = {
+            greet = { { "Good to see you. Shall we take something to eat before we go? I would rather share a loaf along the way than discover you have spent the whole walk hungry. We can find a pleasant place to stop. There is no need to save every good part of the day until the work is finished.", tone = "[warm welcoming practicality, gentle good humor, relaxed affection]" }, "Come along. If you brought bread, I hope you left room around it." },
+            idle = { { "You may prefer the neat slices. I like the heel. There is a satisfying bite to it, and I do not mind its shape being a little uneven. You need not make an occasion of saving it for me, either. A small piece of bread and a quiet moment are already a very pleasant arrangement.", tone = "[contented conversational warmth, mild amusement, quietly delighted]" }, "That end piece is quite all right. I was hoping no one had thrown it aside.", "A meal can be simple and still be something to look forward to." },
+            befriended = { { "I would enjoy that. We have shared enough pleasant moments that I look forward to the next one, even before I know what we will be doing. You need not arrive hungry or carrying an errand to have my company. Come, let us find a little time to spend together, and perhaps somewhere nice to sit.", tone = "[open sincere friendship, affectionate pleasure, mellow warmth]" } },
+            poke = { "Yes? There are easier ways to ask whether I brought something to eat.", "Gently. I would rather keep the bread in one piece until we mean to share it." },
+            rest = { { "This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.", tone = "[soothing friendly invitation, unhurried warmth, gently encouraging]" } },
+            bagsFull = { "If the loaf has become the shape of your tools, something needs moving." },
+            loot = { "Keep that away from the food, unless you intend to sort everything before we eat." },
+            quest = { "Finished? Good. Perhaps the meal can have your attention now." },
+            levelUp = { "Well done. You should allow yourself a moment to enjoy that." },
+            hearth = { "Home again. Familiar company makes an ordinary meal feel very welcome." },
+            zone = { "A different view for our next stop. I wonder where we might sit." },
+        },
+    },
+
     -- Innkeeper Grosk (6928), adult male Orc innkeeper/vendor, Razor Hill, Durotar.
     -- Display 5705 / race 2 sex 0; current Horde friendly; quest 2161 Ukor's returned food.
     -- Installed rest/hearth and battle-story gossip. Later Tides of War/War Crimes events excluded.

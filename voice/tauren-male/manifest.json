@@ -1,4 +1,44 @@
 {
+  "lore2948_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2948",
+    "spoken": "[sincere affectionate friendship, gentle respect, steady reassuring warmth] Yes, I would be glad to walk beside you. We have shared concern for what needs care, and I have come to value the person who brings that concern to me. You are welcome without a task to finish or an offering to deliver. Let us enjoy a little time together simply as friends.",
+    "text": "Yes, I would be glad to walk beside you. We have shared concern for what needs care, and I have come to value the person who brings that concern to me. You are welcome without a task to finish or an offering to deliver. Let us enjoy a little time together simply as friends.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2948_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2948",
+    "spoken": "[deep thoughtful welcome, gentle interest, grounded warmth] Come, my friend. We can walk a little, and you may tell me what has held your attention today. It need not be a great deed or an urgent trouble. I am glad to hear those things, but I would also like to know whether you have found a quiet moment worth enjoying.",
+    "text": "Come, my friend. We can walk a little, and you may tell me what has held your attention today. It need not be a great deed or an urgent trouble. I am glad to hear those things, but I would also like to know whether you have found a quiet moment worth enjoying.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2948_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2948",
+    "spoken": "[reflective quiet conviction, tender appreciation, unhurried sincerity] Someone goes to fill a waterskin, then carries it home. Nothing remarkable happens on the way. That sounds like a small thing until the water is no longer safe to drink. I would be pleased to hear many such uneventful stories. There is much worth protecting in a day that gives us little cause for worry.",
+    "text": "Someone goes to fill a waterskin, then carries it home. Nothing remarkable happens on the way. That sounds like a small thing until the water is no longer safe to drink. I would be pleased to hear many such uneventful stories. There is much worth protecting in a day that gives us little cause for worry.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2948_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2948",
+    "spoken": "[solemn grateful acknowledgment, quiet pride, generous encouragement] You have given your effort, and that should be remembered. The work we do for the land reaches farther than the place where we stand. Those who drink, those who graze, and those who depend upon them all have a part in what has been protected. Take a moment to understand the good your care can do.",
+    "text": "You have given your effort, and that should be remembered. The work we do for the land reaches farther than the place where we stand. Those who drink, those who graze, and those who depend upon them all have a part in what has been protected. Take a moment to understand the good your care can do.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore2980_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
