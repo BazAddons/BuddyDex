@@ -794,6 +794,24 @@
       "status": "needs_completion"
     },
     {
+      "npc_id": 2124,
+      "name": "Isabella",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 2126,
+      "name": "Maximillion",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 2198,
       "name": "Crier Goodman",
       "zone": "Stormwind City",
@@ -1206,6 +1224,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5749,
+      "name": "Kayla Smithe",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
     },
     {
       "npc_id": 6169,
@@ -1876,27 +1903,6 @@
     {
       "npc_id": 267326,
       "name": "Florence Nightshade",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2124,
-      "name": "Isabella",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5749,
-      "name": "Kayla Smithe",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2126,
-      "name": "Maximillion",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
