@@ -1,4 +1,44 @@
 {
+  "lore12616_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12616",
+    "spoken": "[gravelly] [affectionate] You have come back often enough that I look forward to seeing you. That is a good thing to discover about someone. Come, let us spend a little time together. Today I can be beside you for the journey.",
+    "text": "You have come back often enough that I look forward to seeing you. That is a good thing to discover about someone. Come, let us spend a little time together. Today I can be beside you for the journey.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore12616_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12616",
+    "spoken": "[gravelly] [patient] Good to see you again. Where are we headed? Take a moment if you need one. I like knowing the destination, but I would rather hear your answer properly than watch you set off wishing you had chosen another road.",
+    "text": "Good to see you again. Where are we headed? Take a moment if you need one. I like knowing the destination, but I would rather hear your answer properly than watch you set off wishing you had chosen another road.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore12616_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12616",
+    "spoken": "[reflective] [warm] A rider once turned and waved just before disappearing from sight. I returned it, of course. Now I find myself watching every departure a little longer. Yes, sometimes I am still waving when nobody can see. I know.",
+    "text": "A rider once turned and waved just before disappearing from sight. I returned it, of course. Now I find myself watching every departure a little longer. Yes, sometimes I am still waving when nobody can see. I know.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore12616_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:12616",
+    "spoken": "[reassuring] [warm] Have your destination settled? Good. Take a moment to say your farewells, and enjoy the view when you are ready. If you turn to look behind you, there may be someone down there still wishing you a good journey.",
+    "text": "Have your destination settled? Good. Take a moment to say your farewells, and enjoy the view when you are ready. If you turn to look behind you, there may be someone down there still wishing you a good journey.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore3145_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

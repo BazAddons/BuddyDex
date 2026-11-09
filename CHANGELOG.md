@@ -1,5 +1,6 @@
 # Unreleased
 
+- Complete Pixel and Vhulgra at Splintertree Post: full profiles, fifteen personal lines and four approved Goblin/Orc Eleven v4 signatures each. Preserve Pixel's travel and exact gun-for-saw-blades exchange; retain Vhulgra's flight role and friendly elite eligibility.
 - Complete Witch Doctor Jin'Zil and Innkeeper Jayka: full Stonetalon profiles, fifteen personal lines and four approved Troll/Orc Eleven v4 signatures each. Preserve Forest Magic's sinister characterization, actual old friendships and battle-weary hospitality; qualify current event/access gaps. Development now has 342 complete profiles.
 
 - Complete Cliffwatcher Longhorn and Innkeeper Abeqwa: full Freewind Post profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Preserve the entire Classic raid/report context and Abeqwa's verified male identity, while excluding later betrayal, death and flooded geography. Development now has 340 complete profiles.

@@ -281,3 +281,10 @@ Individually preserving the next Stonetalon identities expands the overlapping c
 Witch Doctor Jin'Zil and Innkeeper Jayka bring development to **342 complete profiles**, each with fifteen personal lines and four approved Troll/Orc v4 signatures. [Full research](stonetalon-cackles-and-axe-jokes.md) preserves Forest Magic's actual cruelty, the old Darsok/Rokhan relationships and Jayka's battle-weary welcome; no invented healing, personal redemption or live event outcome is claimed. Private cackle practice and an axe pun are original. Public access totals are 192 Alliance, 67 Horde and 89 unverified, with six shared profiles overlapping faction counts. Authored Trolls now total sixteen and Orcs twenty. Publication remains deferred; wider catalog and two old Westfall availability checks remain open.
 
 Next: [Pixel and Vhulgra](ashenvale-pixel-and-vhulgra-queue.md), verified adult female Goblin/Orc contacts in Splintertree Post. Exact current body/level/friendly/pin data is checked; Vhulgra is explicitly an elite Flight Master. Full own quest/service/literary review remains pending.
+
+
+### 2026-11-09: Splintertree Post
+
+Pixel 12724 and Vhulgra 12616 complete: researched adult female Goblin/Orc profiles, fifteen personal lines and four approved v4 recordings each. See [research](ashenvale-a-keepsake-and-a-wave.md). Development total **344**; public coverage Alliance 192, Horde 69, unverified 89 (shared access overlaps). Normal live eligibility remains required, including for the flight master's elite classification. No Scout encounter or live visual QA is claimed. Publication remains deferred; preserve the older upload candidate. Continue the wider catalog and retain the two older Westfall availability questions.
+
+Next individually reviewed candidates: Gorrik 2861 and Velora Nitely 6411; [identity queue](kargath-and-undercity-queue.md). Neither counts as complete.

@@ -2,6 +2,7 @@
 
 ## More friends across Azeroth
 
+- Add Pixel and Vhulgra at Splintertree Post, with researched personalities, fifteen personal lines and four approved Goblin/Orc v4 recordings each.
 - Add Witch Doctor Jin'Zil and Innkeeper Jayka, with full Stonetalon personalities, fifteen personal lines and four approved Troll/Orc v4 recordings each.
 - Add Cliffwatcher Longhorn and Innkeeper Abeqwa, with full Freewind Post personalities, fifteen personal lines and four approved Tauren v4 recordings each.
 - Add Gazlowe and Haughty Modiste, with researched personalities, fifteen personal lines and four approved original Goblin v4 recordings each.
@@ -10,7 +11,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **342 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **344 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

@@ -1,4 +1,6 @@
-# Next: Pixel and Vhulgra
+# Completed: Pixel and Vhulgra
+
+Completed 2026-11-09: see [full research and validation](ashenvale-a-keepsake-and-a-wave.md). The historical shortlist below preserves the work remaining at that point.
 
 Identity shortlist, 2026-11-09. Add Horde coverage at Splintertree Post, Ashenvale, with adult female Goblin/Orc quest and flight contacts. Neither profile is authored or recorded yet; no personal Scout sighting is claimed.
 

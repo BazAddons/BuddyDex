@@ -959,5 +959,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Exact current adult Troll/Orc identity/body, qualified current Stonetalon pin versus historical Sun Rock location; full own forest/letter and inn relations, event transcript, readable letter and installed gossip reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/stonetalon-cackles-and-axe-jokes.md"
+  },
+  {
+    "npc_id": 12724,
+    "name": "Pixel",
+    "zone": "Ashenvale",
+    "source": "Exact current Horde-friendly adult female Goblin/Orc identity, body and Splintertree pin; full own relations, supplies/horns/gun exchange, installed gossip and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/ashenvale-a-keepsake-and-a-wave.md"
+  },
+  {
+    "npc_id": 12616,
+    "name": "Vhulgra",
+    "zone": "Ashenvale",
+    "source": "Exact current Horde-friendly adult female Goblin/Orc identity, body and Splintertree pin; full own relations, supplies/horns/gun exchange, installed gossip and literary/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/ashenvale-a-keepsake-and-a-wave.md"
   }
 ]

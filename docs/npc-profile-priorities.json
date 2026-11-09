@@ -644,6 +644,20 @@
       "zone": "Ashenvale",
       "route": "Splintertree female Goblin quest and female Orc flight contacts",
       "reason": "Exact current adult female Goblin/Orc bodies, levels, Horde friendly icons and Ashenvale pins verified; retain Vhulgra elite flight role. Full own source review pending. See docs/research/ashenvale-pixel-and-vhulgra-queue.md"
+    },
+    {
+      "npc_id": 2861,
+      "name": "Gorrik",
+      "zone": "Badlands",
+      "route": "Individually reviewed wider Horde catalog",
+      "reason": "Identity and adult body checked; full personal/quest research pending. See docs/research/kargath-and-undercity-queue.md"
+    },
+    {
+      "npc_id": 6411,
+      "name": "Velora Nitely",
+      "zone": "Undercity",
+      "route": "Individually reviewed wider Horde catalog",
+      "reason": "Identity and adult body checked; full personal/quest research pending. See docs/research/kargath-and-undercity-queue.md"
     }
   ]
 }

@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Pixel, Splintertree Post, adult female Goblin, 12724/display 12968.
+    -- Traveling toward Ratchet; 6441 recruits satyr-horn collectors.
+    -- 6581 trades saw blades for a Deadly Blunderbuss for protection.
+    -- Her unsalable smooth pebble is ours. No engineering/vendor service.
+    -- Research: docs/research/ashenvale-a-keepsake-and-a-wave.md.
+    [12724] = {
+        quote = "Opportunity is everywhere. The trick is telling it apart from something that wants to eat you.",
+        likes = { "A deal with the terms agreed first", "Traveling with sensible company", "One very smooth, entirely ordinary stone" },
+        dislikes = { "Satyrs with a reach advantage", "Expecting her time to be free", "Offering more after she says no" },
+        gossip = "Pixel keeps a little stone marked 'reserved.' Nobody has managed to discover the buyer, or even get her to name a price.",
+        bio = "Passing through Ashenvale toward Ratchet, Pixel stops at Splintertree to find opportunities. She pays for satyr horns and holds the Warsong saw blades, offering the shipment for a Deadly Blunderbuss to protect herself on the road.",
+        backstory = "Pixel picked up a smooth pebble while waiting beside a road. Turning it in her fingers made the wait pleasant. When someone offered to buy it, she marked it reserved. Explaining a sale was easier than explaining a keepsake.",
+        secret = "The stone has no buyer. She likes how it feels in her hand. She has plenty of things to trade; she wants to keep this one without hearing a better offer.",
+        bestFriend = "Here, hold this a moment. Smooth, isn't it? No price, no pitch. I thought you might understand why I keep it.",
+        favorite = { emote = "NOD", hint = "Appreciates someone who accepts her terms without another round of bargaining." },
+        lines = {
+            greet = { { "Hey, good to see you. Sensible company makes a road much more inviting. Let's keep an eye out for opportunities, and another eye out for anything with horns that might object to the way I earn my living.", tone = "[bright] [wry]" },
+                "There you are. Tell me the road has fewer surprises than the forest." },
+            idle = { { "This little stone? Reserved stock. Very exclusive. All right, there is no buyer. I just like turning it over in my hand while I wait. You're allowed to keep something because you like it, aren't you?", tone = "[conspiratorial] [fond]" },
+                "A long wait is easier with something smooth in your fingers.",
+                "Satyrs have the horns. I have an excellent reason to stay over here." },
+            befriended = { { "You listen when I say something isn't for sale. That means more than you might think. Come on, there's plenty of road left, and I would enjoy spending some of it with someone who knows when the bargaining is finished.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you're asking about the stone, still reserved.", "You've got my attention. Make it an interesting proposition." },
+            quest = { { "Let's settle the terms before anybody starts carrying a shipment away. What I need for the road is protection, and what you need is those saw blades. A proper exchange leaves both of us knowing exactly what we agreed to.", tone = "[businesslike] [confident]" } },
+            loot = { "Useful, valuable, or simply nice to hold? Different questions." },
+            bagsFull = { "Keep the stone. We can find something less important to leave behind." },
+            zone = { "Interesting place. Let's learn which paths are worth taking." },
+            rest = { "A good chance to sit and check that everything is still here." },
+            combatStart = { "That looks like a very poor trading partner!" },
+            combatEnd = { "I prefer opportunities that don't come charging at us." },
+        },
+    },
+
+    -- Vhulgra <Wind Rider Master>, Splintertree, adult female Orc,
+    -- 12616/display 12974; current Horde-friendly level 55 elite flight service.
+    -- Exact gossip asks destination; no personal quest chain exposed.
+    -- Continuing her farewell after riders leave sight is ours.
+    -- Research: docs/research/ashenvale-a-keepsake-and-a-wave.md.
+    [12616] = {
+        quote = "Know where you are going. And if you look back, know that someone is wishing you a good journey.",
+        likes = { "A rider who knows the destination", "A farewell returned from the air", "Watching a departure to its end" },
+        dislikes = { "Rushing someone through a goodbye", "Calling a farewell a waste of time", "Changing plans after the departure" },
+        gossip = "Vhulgra watches each rider until they vanish. She calls it checking the departure, though her hand keeps moving afterward.",
+        bio = "Vhulgra is the wind rider master at Splintertree Post in Ashenvale. Her flight service begins with a simple question: where is the traveler headed? She sends riders onward from the Horde's forest outpost.",
+        backstory = "A departing rider once looked back and waved. Vhulgra returned it, then stayed to watch until the rider was out of sight. She liked giving a journey a proper beginning. The small farewell became part of her day.",
+        secret = "She knows when a rider is too far away to see her hand. Sometimes she finishes the wave anyway. Being seen is only part of wishing someone well.",
+        bestFriend = "You need not look back every time. I will still wish you well. And when you return, I will be very glad to see you.",
+        favorite = { emote = "WAVE", hint = "Her smallest farewell is one she likes to have returned." },
+        lines = {
+            greet = { { "Good to see you again. Where are we headed? Take a moment if you need one. I like knowing the destination, but I would rather hear your answer properly than watch you set off wishing you had chosen another road.", tone = "[gravelly] [patient]" },
+                "Welcome back. You have time to catch your breath before the next departure." },
+            idle = { { "A rider once turned and waved just before disappearing from sight. I returned it, of course. Now I find myself watching every departure a little longer. Yes, sometimes I am still waving when nobody can see. I know.", tone = "[reflective] [warm]" },
+                "There. Out of sight. A good journey to you.",
+                "No need to hurry a goodbye. The rest of the journey will be busy enough." },
+            befriended = { { "You have come back often enough that I look forward to seeing you. That is a good thing to discover about someone. Come, let us spend a little time together. Today I can be beside you for the journey.", tone = "[gravelly] [affectionate]" } },
+            poke = { "Yes? I was watching that departure.", "I see you. No need to wave quite that close." },
+            taxi = { { "Have your destination settled? Good. Take a moment to say your farewells, and enjoy the view when you are ready. If you turn to look behind you, there may be someone down there still wishing you a good journey.", tone = "[reassuring] [warm]" } },
+            landed = { "There we are. Take a breath before deciding what comes next." },
+            zone = { "A different view, and someone else's place to welcome us." },
+            rest = { "Sit a while. We are allowed to enjoy being here." },
+            died = { "I would rather see you return late than never return at all." },
+            hearth = { "A familiar place at the end of a journey. Good." },
+            levelUp = { "Well earned. I am glad I was here to see it." },
+        },
+    },
+
     -- Witch Doctor Jin'Zil, Malaka'jin, adult male Troll, 3995/display 4104.
     -- Forest Magic 1058: cruel brew for captive elves; 1060/letter 5594:
     -- Darsok's old friend, recalls his friend Rokhan's earlier expedition.
