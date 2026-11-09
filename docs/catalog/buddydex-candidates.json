@@ -2369,7 +2369,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -4039,7 +4039,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -6329,7 +6329,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -22770,7 +22770,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "needs_completion"
         }
       ]
     },
@@ -38883,6 +38883,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 395,
+      "name": "Markus",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Markus",
+      "zone": "Elwynn Forest",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
       "npc_id": 1212,
       "name": "Bishop Farthing",
       "source": "Existing local backlog; absent from source filter",
@@ -39180,6 +39191,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 5917,
+      "name": "Clara Charles",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Clara Charles",
+      "zone": "Elwynn Forest",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 7292,
       "name": "Dinita Stonemantle",
       "source": "Existing local backlog; absent from source filter",
@@ -39230,6 +39252,17 @@
       "scout_observed": true,
       "scout_name": "Claire Willower",
       "zone": "Tirisfal Glades",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "needs_completion"
+    },
+    {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Ashley Bridenbecker",
+      "zone": "Elwynn Forest",
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "needs_completion"
@@ -39400,28 +39433,6 @@
       "profile_status": "complete"
     },
     {
-      "npc_id": 11996,
-      "name": "Ashley Bridenbecker",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Ashley Bridenbecker",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5917,
-      "name": "Clara Charles",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Clara Charles",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 796,
       "name": "Joshua",
       "source": "Existing local backlog; absent from source filter",
@@ -39438,17 +39449,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Mark",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 395,
-      "name": "Markus",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Markus",
       "zone": "Elwynn Forest",
       "scout_reaction": 5,
       "scout_attackable": false,

@@ -1374,6 +1374,46 @@
     "text": "Something useful for your next piece of work? Keep it, then. We can talk about the supplies once you know what you're making.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore5917_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5917",
+    "spoken": "[sincere companionable affection, pleased ease, inviting] I would welcome your company, my friend. Come on. Tell me how you have been and what has pleased you today. We can enjoy a little of the walk without making a larger business of it.",
+    "text": "I would welcome your company, my friend. Come on. Tell me how you have been and what has pleased you today. We can enjoy a little of the walk without making a larger business of it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5917_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5917",
+    "spoken": "[warm practical human friendliness, light domestic amusement, welcoming] There you are, my friend. Have you time to sit a moment? I am trying to keep this apple peel in one long ribbon. My best attempt happened during a good conversation. Perhaps you can help me repeat it.",
+    "text": "There you are, my friend. Have you time to sit a moment? I am trying to keep this apple peel in one long ribbon. My best attempt happened during a good conversation. Perhaps you can help me repeat it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5917_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5917",
+    "spoken": "[gentle self-aware amusement, relaxed warmth, confiding] My longest unbroken peel happened while I was talking to a friend. I have tried repeating it with very careful attention. I suspect the conversation was the part that made the ordinary task so pleasant.",
+    "text": "My longest unbroken peel happened while I was talking to a friend. I have tried repeating it with very careful attention. I suspect the conversation was the part that made the ordinary task so pleasant.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5917_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:5917",
+    "spoken": "[reassuring practical warmth, contented, unhurried] Sit awhile, if you have the time. An ordinary pause can be a pleasure with someone to share it. Tell me about your day, and give the next task a little room before you take it up.",
+    "text": "Sit awhile, if you have the time. An ordinary pause can be a pleasure with someone to share it. Tell me about your day, and give the next task a little room before you take it up.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6174_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

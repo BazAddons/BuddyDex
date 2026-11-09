@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 178,
-  "remaining_count": 39,
+  "completed_count": 179,
+  "remaining_count": 38,
   "completed": [
     {
       "npc_id": 54,
@@ -83,6 +83,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 247,
+      "name": "Billy Maclure",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
     },
     {
       "npc_id": 248,
@@ -199,6 +208,15 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 395,
+      "name": "Markus",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
     },
     {
       "npc_id": 465,
@@ -1280,6 +1298,15 @@
       "status": "needs_completion"
     },
     {
+      "npc_id": 5917,
+      "name": "Clara Charles",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6169,
       "name": "Klockmort Spannerspan",
       "zone": "Ironforge",
@@ -1535,6 +1562,15 @@
       "npc_id": 11945,
       "name": "Claire Willower",
       "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 11996,
+      "name": "Ashley Bridenbecker",
+      "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 0,
@@ -1831,29 +1867,8 @@
   ],
   "remaining": [
     {
-      "npc_id": 11996,
-      "name": "Ashley Bridenbecker",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 247,
-      "name": "Billy Maclure",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 797,
       "name": "Bo",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5917,
-      "name": "Clara Charles",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1868,13 +1883,6 @@
     {
       "npc_id": 795,
       "name": "Mark",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 395,
-      "name": "Markus",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
