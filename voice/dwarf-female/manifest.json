@@ -239,6 +239,46 @@
     "text": "New streets, new corners. Give me a moment to hear what this place sounds like.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore5150_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5150",
+    "spoken": "[warm] [sincere] [lightly playful] You have become someone I enjoy listening to even when we are far from any lesson. Come along, friend. Tell me what has caught your interest. I shall try to let you finish before asking the next question. You may remind me of that promise if I become particularly enthusiastic.",
+    "text": "You have become someone I enjoy listening to even when we are far from any lesson. Come along, friend. Tell me what has caught your interest. I shall try to let you finish before asking the next question. You may remind me of that promise if I become particularly enthusiastic.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5150_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5150",
+    "spoken": "[warm] [bright] [eager] There you are. What have you learned since we last spoke? It need not be something I taught you. I enjoy hearing where a student's questions lead. If your journey has taken you to Theramore, I may have rather more questions than usual. Come in before I begin asking them from across the room.",
+    "text": "There you are. What have you learned since we last spoke? It need not be something I taught you. I enjoy hearing where a student's questions lead. If your journey has taken you to Theramore, I may have rather more questions than usual. Come in before I begin asking them from across the room.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5150_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5150",
+    "spoken": "[thoughtful] [gently amused] I have considered how I would introduce myself to Doctor VanHowzen. The first version was very formal. The next included rather too many questions. Lately I think I would begin by admitting that I have a question. That should get us started, provided I can choose which one comes first.",
+    "text": "I have considered how I would introduce myself to Doctor VanHowzen. The first version was very formal. The next included rather too many questions. Lately I think I would begin by admitting that I have a question. That should get us started, provided I can choose which one comes first.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore5150_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5150",
+    "spoken": "[encouraging] [earnest] There is satisfaction in learning enough to find the next good teacher. Deneb Walker has a book worth seeking out, and Doctor VanHowzen can take a student's training further in Theramore. I am glad to point the way. Bring back what you can tell me of the experience. I shall enjoy hearing it.",
+    "text": "There is satisfaction in learning enough to find the next good teacher. Deneb Walker has a book worth seeking out, and Doctor VanHowzen can take a student's training further in Theramore. I am glad to point the way. Bring back what you can tell me of the experience. I shall enjoy hearing it.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore5512_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

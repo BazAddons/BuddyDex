@@ -442,3 +442,10 @@ Next individually checked [Boorand and Kor'geld](boorand-and-korgeld-queue.md), 
 390 completed authored profiles. Adult male Tauren/Orc Horde services, fifteen personal lines and four approved v4 signatures each. Friendly counts Alliance200/Horde99/unverified98, seven shared entries overlap. Source/writing/validation: [Crossroads farewells and Orgrimmar herbs](crossroads-farewells-and-orgrimmar-herbs.md). Kor'geld's Forever lesson supports his actual supplier/helper role; Yelmak remains the brewer and Whuut the apprentice.
 
 Next individually checked [Nissa and Hula'mahi](nissa-and-hulamahi-queue.md), adult female Dwarf/male Troll, not authored or counted complete. Nissa primary Forever page confirms Ironforge; current Dun Morogh parent-map pin is not a proven relocation. Wider1510-name pool and earlier unavailable-source leads remain active.
+
+
+## 2026-11-09: Nissa and Hula'mahi
+
+392 completed authored profiles. Adult female Dwarf/male Troll, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance201/Horde100/unverified98, seven shared entries overlap. Sources/validation: [Ironforge introductions and Crossroads titles](ironforge-introductions-and-crossroads-titles.md). Nissa's delight at VanHowzen's invitation is separate from his patients and teaching; Hula'mahi's elaborate merchant introduction is original.
+
+Next individually checked [Cairne and Magatha](cairne-and-magatha-queue.md), adult male/female Tauren Horde leaders and quest givers, not authored or counted complete. Their wider Classic/Forever, Warcraft III and relevant literary research is pending; later-retail fates must remain separate. Wider1510-name pool and earlier unavailable-source leads remain active.

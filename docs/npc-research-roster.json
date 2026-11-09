@@ -1295,5 +1295,19 @@
     "zone": "Orgrimmar",
     "source": "Exact named adult model/current role and Horde Friendly reaction checked; full own relation/stock pages and exact installed gossip researched. Kor'geld Forever lesson chain full published and installed text read; source/era limits documented, no Scout sighting claimed",
     "research_notes": "docs/research/crossroads-farewells-and-orgrimmar-herbs.md"
+  },
+  {
+    "npc_id": 5150,
+    "name": "Nissa Firestone",
+    "zone": "Ironforge",
+    "source": "Exact named adult model/current Friendly access checked; all own relation/stock pages and installed gossip researched. Nissa full referral/triage chain and actual manual tooltips read; sparse API/current location and readable-era limits documented, no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-introductions-and-crossroads-titles.md"
+  },
+  {
+    "npc_id": 3490,
+    "name": "Hula'mahi",
+    "zone": "The Barrens",
+    "source": "Exact named adult model/current Friendly access checked; all own relation/stock pages and installed gossip researched. Nissa full referral/triage chain and actual manual tooltips read; sparse API/current location and readable-era limits documented, no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-introductions-and-crossroads-titles.md"
   }
 ]

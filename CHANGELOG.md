@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Nissa Firestone and Hula'mahi: full female Dwarf/male Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Nissa's admiration and referrals, and Hula'mahi's actual supplier role.
+
 - Add Innkeeper Boorand Plainswind and Kor'geld: full Tauren/Orc profiles, fifteen personal lines and four approved v4 signatures each; preserve Boorand's welcome and Kor'geld's actual part in Yelmak's local-herb lesson.
 
 - Add Archaeologist Hollee and Sovik: full Dwarf/Goblin profiles, fifteen personal lines and four approved v4 signatures each; preserve Hollee's excavation concerns and Sovik's confirmed work with Scooty.

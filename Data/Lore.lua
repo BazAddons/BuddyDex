@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Nissa Firestone <First Aid Trainer>, Great Forge, Ironforge,5150/3068.
+    -- Adult female Dwarf, current Alliance-friendly. Installed referrals
+    -- and6625 establish admiration for VanHowzen, not study under him.
+    -- Rehearsing an introduction is ours. Research below.
+    -- Research: docs/research/ironforge-introductions-and-crossroads-titles.md.
+    [5150] = {
+        quote = "The best lesson sends you looking for the next one. If yours takes you to Theramore, bring back every detail you can remember.",
+        likes = { "A student returning with a new question", "A useful book shared with care", "News of a teacher she admires" },
+        dislikes = { "Calling careful practice a chore", "Boasts that crowd out questions", "A borrowed book returned with pages missing" },
+        gossip = "Nissa is pleased when a student goes on to another teacher. Mention VanHowzen, and she may have a few questions for the journey back.",
+        bio = "Nissa teaches First Aid in Ironforge. She recommends Deneb Walker's book and the training Gustaf VanHowzen offers in Theramore. When the doctor calls for a student, her delight includes a wish to study under him herself.",
+        backstory = "Nissa has imagined how she would introduce herself to VanHowzen. Each version begins quite formally, then grows into a list of questions. She can picture the meeting more easily than she can keep the introduction brief.",
+        secret = "Her latest introduction is simply: I have a question. She suspects the rest would follow easily. There are several questions waiting behind that one.",
+        bestFriend = "Sit with me and tell me what you learned. I enjoy hearing how the world looks to you, even when the subject is new to us both.",
+        favorite = { emote = "SALUTE", hint = "A respectful greeting appeals to someone still imagining how to greet a teacher she admires." },
+        lines = {
+            greet = { { "There you are. What have you learned since we last spoke? It need not be something I taught you. I enjoy hearing where a student's questions lead. If your journey has taken you to Theramore, I may have rather more questions than usual. Come in before I begin asking them from across the room.", tone = "[warm] [bright] [eager]" },
+                "Good to see you. Have you brought a question, or something new to share?" },
+            idle = { { "I have considered how I would introduce myself to Doctor VanHowzen. The first version was very formal. The next included rather too many questions. Lately I think I would begin by admitting that I have a question. That should get us started, provided I can choose which one comes first.", tone = "[thoughtful] [gently amused]" },
+                "It is a pleasure to send a student toward someone who can teach them more.",
+                "I would like to hear a lesson from the great doctor myself. A teacher can still be eager to learn." },
+            befriended = { { "You have become someone I enjoy listening to even when we are far from any lesson. Come along, friend. Tell me what has caught your interest. I shall try to let you finish before asking the next question. You may remind me of that promise if I become particularly enthusiastic.", tone = "[warm] [sincere] [lightly playful]" } },
+            poke = { "Yes? I was choosing the first question.", "You have my attention. Have you thought of something to ask?" },
+            learned = { { "There is satisfaction in learning enough to find the next good teacher. Deneb Walker has a book worth seeking out, and Doctor VanHowzen can take a student's training further in Theramore. I am glad to point the way. Bring back what you can tell me of the experience. I shall enjoy hearing it.", tone = "[encouraging] [earnest]" } },
+            quest = { "If Doctor VanHowzen has called for you, make the most of the chance. I would be delighted to hear how it goes." },
+            lowHealth = { "Get somewhere safe. We can save the questions for when you are ready to answer them." },
+            rest = { "Sit a while. You need not turn everything you tell me into a lesson." },
+            mail = { "News from someone you have studied with? I would be pleased to hear what they are learning now." },
+            zone = { "A new place. There must be someone here who could teach us a thing or two." },
+            hearth = { "Back to Ironforge. I wonder what questions are waiting upstairs." },
+        },
+    },
+
+    -- Hula'mahi <Reagents and Herbs>, Crossroads, The Barrens,3490/4096.
+    -- Adult male Troll, current Horde-friendly Vendor. Twenty-eight stock
+    -- rows, no own quests/training or exact installed gossip. Grand merchant
+    -- introductions are original, not a title or alchemy mastery claim.
+    -- Research: docs/research/ironforge-introductions-and-crossroads-titles.md.
+    [3490] = {
+        quote = "Every grand undertaking needs somebody who remembered the little supplies. I am considering a suitably grand introduction for that somebody.",
+        likes = { "Small supplies remembered before leaving", "A grand introduction delivered with a grin", "Customers who enjoy a little ceremony" },
+        dislikes = { "Important plans with nothing packed", "A useful errand treated as beneath notice", "An introduction interrupted at its best part" },
+        gossip = "Hula'mahi can make buying a vial sound like the start of an important expedition. He is still improving the introduction to his own part.",
+        bio = "Hula'mahi sells reagents and supplies at the Crossroads. His stock includes candles, seeds, runes, vials and a Holy Protection Potion recipe. He enjoys giving the small things behind a traveler's plans a moment of ceremony.",
+        backstory = "After hearing travelers introduce themselves with great accomplishments, Hula'mahi began composing an introduction for his own work. It grew longer with each ordinary supply he decided deserved a little credit.",
+        secret = "He can recite the whole introduction, provided nobody laughs halfway through. When a friend grins, he usually joins in and forgets the next title.",
+        bestFriend = "Stay a while. I can put the grand introduction aside for you. I am glad to have a friend who enjoys the person saying it.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation suits a merchant giving an ordinary introduction more ceremony than it needs." },
+        lines = {
+            greet = { { "Welcome back, friend. Have you remembered the little things for your next grand undertaking? I keep a number of them here. Candles, seeds, vials, and the rest of the things nobody mentions in the triumphant introduction. I have been working on an introduction that gives their supplier a little more credit.", tone = "[warm] [playful] [showman flair]" },
+                "There you are. Shall we begin with the supplies, or would you enjoy a little ceremony first?" },
+            idle = { { "Travelers arrive with such fine introductions. Great deeds, impressive journeys, enemies defeated. I began making one for myself. Supplier of the remembered candle, keeper of the needed vial... it grows longer whenever I think of something else that helped. I have yet to finish it before a friend starts grinning.", tone = "[amused] [lightly theatrical]" },
+                "An ordinary errand can bear a little dignity. I am willing to provide the introduction.",
+                "The title grows longer. The work still begins with finding the supplies somebody needs." },
+            befriended = { { "You have become someone I am glad to see before I know what you need from the stock. Come along, friend. I would enjoy a little company away from the supplies. I can leave the elaborate introduction behind, though you are welcome to ask for it if the road needs a little ceremony.", tone = "[warm] [sincere] [cheerful]" } },
+            poke = { "Yes? I was approaching the most impressive part.", "Have I missed a title, or have you remembered something for the journey?" },
+            bagsFull = { { "Make a little room before the grand departure. A bag full of impressive finds can still be missing the small thing you meant to bring. I am happy to supply a suitable introduction for the person who remembers it in time. They deserve a little credit before the journey begins.", tone = "[playful] [encouraging]" } },
+            loot = { "Ah, another item that may eventually earn a place in the grand account of the journey." },
+            taxi = { "Safe travels. May your preparations deserve as fine an introduction as your destination." },
+            quest = { "A useful errand deserves its share of the credit. Remember that when the great tale is told." },
+            rest = { "We can enjoy a little company without introducing either of us first." },
+            laughAlong = { "There goes the next title. I was doing well until you started grinning." },
+            hearth = { "Back to the Crossroads. I shall see whether the introduction has grown shorter in my absence." },
+        },
+    },
+
     -- Innkeeper Boorand Plainswind, Crossroads, The Barrens,3934/3881.
     -- Adult male Tauren, current Horde-friendly innkeeper/vendor. His wind
     -- welcome and shared dungeon directions are real; long farewells ours.

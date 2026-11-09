@@ -972,14 +972,28 @@
       "name": "Nissa Firestone",
       "zone": "Ironforge",
       "route": "Female Dwarf/male Troll training and reagent coverage",
-      "reason": "Exact current named adult model, Friendly faction and runtime voice checked; primary Forever page confirms location, Nissa parent-map pin retained as such. Full research pending. See docs/research/nissa-and-hulamahi-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; facts versus original details and actual source limits in docs/research/ironforge-introductions-and-crossroads-titles.md"
     },
     {
       "npc_id": 3490,
       "name": "Hula'mahi",
       "zone": "The Barrens",
       "route": "Female Dwarf/male Troll training and reagent coverage",
-      "reason": "Exact current named adult model, Friendly faction and runtime voice checked; primary Forever page confirms location, Nissa parent-map pin retained as such. Full research pending. See docs/research/nissa-and-hulamahi-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; facts versus original details and actual source limits in docs/research/ironforge-introductions-and-crossroads-titles.md"
+    },
+    {
+      "npc_id": 3057,
+      "name": "Cairne Bloodhoof",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren leaders and familiar quest givers",
+      "reason": "Exact current named adult male/female model, Horde Friendly icon/pin and established voice checked; full Classic/Forever quest, Warcraft III and relevant literary/era research pending. See docs/research/cairne-and-magatha-queue.md"
+    },
+    {
+      "npc_id": 4046,
+      "name": "Magatha Grimtotem",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren leaders and familiar quest givers",
+      "reason": "Exact current named adult male/female model, Horde Friendly icon/pin and established voice checked; full Classic/Forever quest, Warcraft III and relevant literary/era research pending. See docs/research/cairne-and-magatha-queue.md"
     }
   ]
 }

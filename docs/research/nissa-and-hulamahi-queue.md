@@ -1,4 +1,6 @@
-# Next: Nissa Firestone and Hula'mahi
+# Completed: Nissa Firestone and Hula'mahi
+
+Completed source/writing/validation: [Ironforge introductions and Crossroads titles](ironforge-introductions-and-crossroads-titles.md). Earlier pending statements below preserve historical checkpoints.
 
 Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External current API cache `C:/Users/brett/BuddyDex-builds/nissa-hulamahi-research/npc-ID.json`.
 

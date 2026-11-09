@@ -1,21 +1,21 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 390,
+  "completed_profiles": 392,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 200,
+    "alliance": 201,
     "unverified": 98,
-    "horde": 99
+    "horde": 100
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 34,
+    "3": 35,
     "7": 25,
     "2": 28,
     "5": 37,
     "4": 18,
     "6": 32,
-    "8": 23,
+    "8": 24,
     "9": 17,
     "96": 5,
     "95": 6
@@ -27,7 +27,7 @@
     "Stormwind City": 114,
     "Redridge Mountains": 23,
     "Dun Morogh": 5,
-    "Ironforge": 32,
+    "Ironforge": 33,
     "Stranglethorn Vale": 1,
     "Tirisfal Glades": 32,
     "Silverpine Forest": 3,
@@ -39,7 +39,7 @@
     "Thunder Bluff": 13,
     "Durotar": 19,
     "Orgrimmar": 20,
-    "The Barrens": 15,
+    "The Barrens": 16,
     "Ashenvale": 3,
     "Stonetalon Mountains": 3,
     "Darnassus": 2,
@@ -2766,6 +2766,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3482"
     },
     {
+      "npc_id": 3490,
+      "name": "Hula'mahi",
+      "zone": "The Barrens",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde icon Friendly; ordinary live reaction/non-attackability gates remain",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3490"
+    },
+    {
       "npc_id": 3518,
       "name": "Thomas Miller",
       "zone": "Stormwind City",
@@ -3110,6 +3123,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5124"
+    },
+    {
+      "npc_id": 5150,
+      "name": "Nissa Firestone",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance icon Friendly; ordinary live reaction/non-attackability gates remain",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5150"
     },
     {
       "npc_id": 5174,
