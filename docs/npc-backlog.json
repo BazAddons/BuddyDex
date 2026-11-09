@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 110,
-  "remaining_count": 107,
+  "completed_count": 112,
+  "remaining_count": 105,
   "completed": [
     {
       "npc_id": 54,
@@ -434,6 +434,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1721,
+      "name": "Nikova Raskol",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2046,
       "name": "Andrew Krighton",
       "zone": "Elwynn Forest",
@@ -536,6 +545,15 @@
       "npc_id": 4081,
       "name": "Lomac Gearstrip",
       "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 4974,
+      "name": "Aldwin Laughlin",
+      "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -1085,13 +1103,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 4974,
-      "name": "Aldwin Laughlin",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 1315,
       "name": "Allan Hafgan",
       "zone": "Stormwind City",
@@ -1388,13 +1399,6 @@
     {
       "npc_id": 12480,
       "name": "Melris Malagan",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1721,
-      "name": "Nikova Raskol",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

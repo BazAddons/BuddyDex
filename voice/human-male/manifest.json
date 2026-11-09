@@ -1436,6 +1436,46 @@
     "text": "Sit a while. No orders to fill here; I've time to hear the whole thing.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore4974_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4974",
+    "spoken": "[sincere gratitude, warm affection, welcoming] You thought to invite me. Thank you. I am very glad to come along, my friend. No formalities required.",
+    "text": "You thought to invite me. Thank you. I am very glad to come along, my friend. No formalities required.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4974_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4974",
+    "spoken": "[courteous warmth, dry humor, quietly pleased] Ah, my friend. An outing? Excellent. I shall leave the paperwork here. For once, we needn't agree on a name before we go.",
+    "text": "Ah, my friend. An outing? Excellent. I shall leave the paperwork here. For once, we needn't agree on a name before we go.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4974_group_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "group",
+    "say": null,
+    "source": "lore:4974",
+    "spoken": "[friendly authority, considerate, lightly amused] A fine gathering. Before we choose a direction, does everyone have what they need? Even the quiet one at the back?",
+    "text": "A fine gathering. Before we choose a direction, does everyone have what they need? Even the quiet one at the back?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore4974_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4974",
+    "spoken": "[confiding, restrained amusement, relaxed] A teacup and crossed biscuits. An entirely imaginary guild crest. Its meetings would have no agenda. I find the idea quite restful.",
+    "text": "A teacup and crossed biscuits. An entirely imaginary guild crest. Its meetings would have no agenda. I find the idea quite restful.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore514_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

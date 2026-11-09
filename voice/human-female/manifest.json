@@ -439,6 +439,46 @@
     "text": "You learned how to do that? Wonderful! Show me. I'd like to see what all that practice was for.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1721_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1721",
+    "spoken": "[reserved affection, relief, softly sincere] I was hoping you might come by. Let us go together, my friend. I am glad I do not have to ask you to stay.",
+    "text": "I was hoping you might come by. Let us go together, my friend. I am glad I do not have to ask you to stay.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1721_comforted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "comforted",
+    "say": null,
+    "source": "lore:1721",
+    "spoken": "[gentle concern, grounded warmth, steady and unhurried] You needn't find the words at once. I can stay. We can be quiet together until you are ready.",
+    "text": "You needn't find the words at once. I can stay. We can be quiet together until you are ready.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1721_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1721",
+    "spoken": "[weary warmth, restrained grief, quietly welcoming] You have come back. Walk with me a little. You needn't find anything clever to say. I am glad of the company.",
+    "text": "You have come back. Walk with me a little. You needn't find anything clever to say. I am glad of the company.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1721_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1721",
+    "spoken": "[somber, controlled anger, tender on the name] People hear of the Stockade, and the Defias, and the bandanas. His name was Mac. I would like them to remember that too.",
+    "text": "People hear of the Stockade, and the Defias, and the bandanas. His name was Mac. I would like them to remember that too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore2329_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

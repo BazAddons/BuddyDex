@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Aldwin Laughlin 4974: human male Guild Master at Stormwind's
+    -- Visitor's Center; installed guild-registry welcome. Nikova Raskol
+    -- 1721: human female, Old Town; The Color of Blood 388, Mac's
+    -- grandmother. No assumed quest completion or later retail rescue.
+    -- Original quiet-meeting crest and listening hooks are documented in
+    -- docs/research/laughlin-and-raskol.md.
+    [4974] = {
+        quote = "Your guild name is your decision. I do recommend deciding together before anyone reaches for the ink.",
+        likes = { "A name everyone has agreed on", "A legible signature", "An invitation without paperwork" },
+        dislikes = { "Talking over the quiet member", "Ink spilled on a finished charter", "Every small disagreement made official" },
+        gossip = "Aldwin hears grand plans at the guild registry. The little crest on his spare paper suggests he dreams of a quieter gathering.",
+        bio = "Aldwin Laughlin serves Stormwind's guild registry at the Visitor's Center in the Trade District. He helps people begin a guild and find their way through its formalities. A room full of friends can still take time to agree on a name.",
+        backstory = "Listening to excited groups has made Aldwin attentive to the person who has not managed a word. He likes to hear that voice before the decision is made. After a busy day, his own idea of a fine gathering needs very little ceremony.",
+        secret = "He has sketched a crest with a teacup and crossed biscuits. It is for an imaginary guild whose meetings have no agenda. Drawing it makes a long afternoon rather easier.",
+        bestFriend = "No agenda today. Choose somewhere comfortable, and tell me how you've been. I should like to spend an afternoon without taking minutes.",
+        favorite = { emote = "NOD", hint = "A clear acknowledgment is welcome to someone helping a group reach a decision." },
+        lines = {
+            greet = { { "Ah, my friend. An outing? Excellent. I shall leave the paperwork here. For once, we needn't agree on a name before we go.", tone = "[courteous warmth, dry humor, quietly pleased]" }, "Good to see you. Have we a plan, or may we enjoy not having one?" },
+            idle = { { "A teacup and crossed biscuits. An entirely imaginary guild crest. Its meetings would have no agenda. I find the idea quite restful.", tone = "[confiding, restrained amusement, relaxed]" }, "Before a group decides, I like to hear the person who hasn't had a word yet.", "A little patience can save a surprising amount of fresh ink." },
+            befriended = { { "You thought to invite me. Thank you. I am very glad to come along, my friend. No formalities required.", tone = "[sincere gratitude, warm affection, welcoming]" } },
+            poke = { "Yes? I hope this does not require a signature.", "You have my attention. Take your time." },
+            group = { { "A fine gathering. Before we choose a direction, does everyone have what they need? Even the quiet one at the back?", tone = "[friendly authority, considerate, lightly amused]" } },
+            mail = { "A letter can wait until someone has had a moment to read it properly." },
+            quest = { "A matter settled. That is always welcome news." },
+            bagsFull = { "We appear to need a little order before adding anything else." },
+            zone = { "A pleasant change from the view across my desk." },
+            rest = { "A seat, good company, and nothing to record. Excellent." },
+            hearth = { "Back to the registry. I shall be rather more patient for having had this walk." },
+        },
+    },
+    [1721] = {
+        quote = "His name was Mac. Before you hear what happened at the Stockade, remember that there was a boy.",
+        likes = { "Hearing Mac spoken of as a person", "A visitor who keeps their word", "Company that can bear a quiet moment" },
+        dislikes = { "Making a child's death sound glorious", "Easy assurances about another's grief", "The Defias' red wool emblems" },
+        gossip = "Nikova walks Old Town with much on her mind. A familiar greeting may earn a few steps beside her. She notices who keeps coming back.",
+        bio = "Nikova Raskol mourns her grandson Mac in Stormwind's Old Town. He was fourteen when he guarded the Stockade after the army left for the front. Defias prisoners killed him after he challenged them over blankets torn into gang scarves.",
+        backstory = "Nikova asks for the Defias' red wool bandanas as a reckoning for Mac's death. To her, their return would mean justice for her family. She knows it could never give her back the boy she remembers.",
+        secret = "She wants someone to ask what Mac was like before the Stockade. Sometimes she cannot find a story to begin with. She hopes a friend will stay while she finds the words.",
+        bestFriend = "Walk with me a little. You needn't fill every silence. It is a comfort to know you have time for me, even when I have no words ready.",
+        favorite = { emote = "COMFORT", hint = "A quiet offer of comfort asks for no explanation and no cheerful answer." },
+        lines = {
+            greet = { { "You have come back. Walk with me a little. You needn't find anything clever to say. I am glad of the company.", tone = "[weary warmth, restrained grief, quietly welcoming]" }, "There you are. Have you time for a few steps beside me?" },
+            idle = { { "People hear of the Stockade, and the Defias, and the bandanas. His name was Mac. I would like them to remember that too.", tone = "[somber, controlled anger, tender on the name]" }, "Some days I have more to say than others.", "I notice the people who keep coming back. It matters." },
+            befriended = { { "I was hoping you might come by. Let us go together, my friend. I am glad I do not have to ask you to stay.", tone = "[reserved affection, relief, softly sincere]" } },
+            poke = { "Yes? Forgive me. I was somewhere else for a moment.", "I am listening. What is it?" },
+            comforted = { { "You needn't find the words at once. I can stay. We can be quiet together until you are ready.", tone = "[gentle concern, grounded warmth, steady and unhurried]" } },
+            quest = { "You kept your word. I do not take that lightly." },
+            zone = { "Different streets. Keep beside me a little longer, will you?" },
+            rest = { "Yes. A seat would be welcome." },
+            mail = { "Read it while you have time to give it your attention." },
+            group = { "Look after one another. Please." },
+            hearth = { "Back to familiar streets. Thank you for the walk." },
+        },
+    },
+
     -- The Empty Quiver, Trade District: Frederick Stover 1298, human
     -- male Bow & Arrow Merchant, and Lina Stover 1297, human female Bow
     -- & Gun Merchant. Both offer help browsing and boast of their deals.
