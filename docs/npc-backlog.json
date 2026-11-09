@@ -254,6 +254,33 @@
       "status": "complete"
     },
     {
+      "npc_id": 795,
+      "name": "Mark",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 796,
+      "name": "Joshua",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 797,
+      "name": "Bo",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 894,
       "name": "Homer Stonefield",
       "zone": "Elwynn Forest",
@@ -1866,27 +1893,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 797,
-      "name": "Bo",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 796,
-      "name": "Joshua",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 795,
-      "name": "Mark",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 1366,
       "name": "Adam",

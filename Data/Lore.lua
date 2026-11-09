@@ -41,6 +41,83 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bo (797), Mark (795), Joshua (796): human boys, Goldshire, Elwynn.
+    -- Scout: male, friendly Alliance Humanoids; Forever child displays 338/338/221.
+    -- Friends playing near the forge/pond; no linked quests or captured dialogue.
+    -- Racing, rhymes and cloud stories below are original BuddyDex hooks.
+    -- Research: docs/research/goldshire-three-friends.md. Child audio pending.
+    [797] = {
+        quote = "Ready? That bit of grass is the finish. Wait, I haven't said go yet!",
+        likes = { "A race with a proper start", "Playing with Mark and Joshua", "A very grand finish" },
+        dislikes = { "Starting before everyone is ready", "Tripping over his own feet", "A game ending just as it gets good" },
+        gossip = "Bo can turn a short patch of ground into an important race. The finish is much grander if someone is watching.",
+        bio = "Bo is a human boy in Goldshire, often playing with Mark and Joshua near the forge and pond. Adventurers pass through on urgent business; he has a whole afternoon's worth of games to fit in.",
+        backstory = "He tried finishing a race with a flourish instead of stopping. One foot went the wrong way, and the bow became a wobble. Now he practices the grand finish as carefully as the running.",
+        secret = "Sometimes he imagines an enormous crowd watching. He bows to the grass afterward. One real person joining in is much better than all those pretend spectators.",
+        bestFriend = "Did you see that finish? I nearly wobbled! You can have the next grand bow. I'll be the crowd for yours.",
+        favorite = { emote = "BOW", hint = "Every grand finish deserves an equally grand flourish." },
+        lines = {
+            greet = { { "You're here! We can have a race. That bit of grass can be the finish. Wait until we're both ready, though. I haven't even decided which way we're going yet!", tone = "[boyish playful excitement, quick eager anticipation]" }, "Mark and Joshua might want to play too. We should ask!" },
+            idle = { { "I was practicing my grand finish. You run, then stop, then bow. Last time my feet did those bits in the wrong order. I nearly bowed all the way onto the grass!", tone = "[boyish amused embarrassment, lively storytelling]" }, "That patch looks good for a finish. A very important finish.", "Ready? Oh, wait. My shoe feels funny." },
+            befriended = { { "Can I come with you? I'll keep up! We don't have to race the whole way. I want to hear where we're going before I choose a finish. And you'll have to watch my bow!", tone = "[boyish delighted eagerness, friendly enthusiasm]" } },
+            poke = { "Is it time to start?", "I was just getting my feet ready." },
+            levelUp = { { "You did it! That deserves a grand finish. Go on, take a bow! I'll clap. If you wobble a little, that's all right. I've had lots of practice wobbling.", tone = "[boyish celebratory delight, playful encouragement]" } },
+            zone = { "There's a lot of room here. How far are we walking?" },
+            rest = { "A sitting-down bit! My feet wanted one of those." },
+            quest = { "Was that the finish? You look pleased!" },
+            loot = { "What did you find? Can you show me?" },
+            learned = { "Was that hard to learn? Did you get it right the first time?" },
+            hearth = { "Home again! I wonder what everyone's playing." },
+        },
+    },
+    [795] = {
+        quote = "I've thought of a rhyme! Well, the first bit. You could help with the other bit.",
+        likes = { "Playing with Bo and Joshua", "A rhyme that sounds silly", "Someone thinking of the next verse" },
+        dislikes = { "Forgetting the really funny bit", "A song with no room to join in", "Someone spoiling the game on purpose" },
+        gossip = "Mark's little rhymes often end with a pause and an expectant look. He likes hearing what someone else thinks comes next.",
+        bio = "Mark is a human boy in Goldshire. He plays behind the forge with his friends Bo and Joshua. Between games, an ordinary word can give him an idea for a little rhyme; he rarely keeps the result to himself for long.",
+        backstory = "He started making up short rhymes to go with his games. A sensible ending was easy to forget; a ridiculous one stayed in his head. Soon he was asking other people for the funniest last line they could think of.",
+        secret = "Sometimes he already has an ending when he asks for help. He keeps quiet because someone else's version might make him laugh harder than his own.",
+        bestFriend = "That was better than my ending! Do it again. I'll remember the first bit, and you remember the really silly bit.",
+        favorite = { emote = "GRIN", hint = "Let him see that his ridiculous little rhyme has found its audience." },
+        lines = {
+            greet = { { "Hello! I've thought of the start of a rhyme. There's a boot, and a very important hat. I haven't decided what happens to them yet. Have you got a funny ending?", tone = "[boyish bright curiosity, playful anticipation]" }, "Come and play! Bo and Joshua might have an idea too." },
+            idle = { { "I had a good ending a moment ago. It was really silly. I laughed, and then I forgot it! Oh, now I can only remember how funny it was. Help me think of another one.", tone = "[boyish amused frustration, conspiratorial playfulness]" }, "Boot, root... that doesn't seem very funny yet.", "A hat on a rat? Would it stay on?" },
+            befriended = { { "We're going together? Good! We can think of rhymes while we walk. You can make up a whole verse if you want. I like the bit where I don't know what you're going to say next.", tone = "[boyish warm enthusiasm, delighted interest]" } },
+            poke = { "Have you thought of the ending?", "Say that again! I nearly had a rhyme for it." },
+            loot = { { "What's it called? Oh, that's a tricky word. Let me think. We might need a much longer rhyme to fit it in. Or a very silly one. Those are usually better anyway.", tone = "[boyish absorbed curiosity, gently mischievous delight]" } },
+            zone = { "What do people call this place? Does it rhyme with anything?" },
+            learned = { "That's a new word for me too. I want to remember it." },
+            rest = { "I'll sit here and think. You can tell me if a good word comes to you." },
+            quest = { "Tell me the funny bits first! Were there any funny bits?" },
+            levelUp = { "You did it! I should make up a verse about that." },
+            hearth = { "We're back! I've got something new to tell Bo and Joshua." },
+        },
+    },
+    [796] = {
+        quote = "That cloud looks like a sheep. Wait! Now it's a sheep with a very long nose.",
+        likes = { "Playing with Bo and Mark", "Clouds that change the story", "Someone spotting a different shape" },
+        dislikes = { "Losing a good cloud behind a roof", "A story stopping too soon", "Being hurried past an interesting shape" },
+        gossip = "Joshua's cloud stories have some very strange animals. Their shapes tend to change before he can explain what they are doing.",
+        bio = "Joshua is a human boy who plays with Bo and Mark behind Goldshire's forge in Elwynn Forest. Familiar games fill the ground around them. Above their heads, he can find something new in a cloud changing shape.",
+        backstory = "He tried following one cloud from a sheep into a horse, then into something with too many ears. Instead of starting his tale over, he let the animal change. Now an unexpected shape gives him the next bit of the story.",
+        secret = "He once waved goodbye to a cloud when it drifted out of sight. He knows it couldn't see him. It had been a very good dragon, and he wanted to give it a proper goodbye.",
+        bestFriend = "What does that one look like to you? Tell me your bit of the story. We can keep going even when the cloud has gone.",
+        favorite = { emote = "WAVE", hint = "Even an imaginary dragon deserves a friendly goodbye as it drifts away." },
+        lines = {
+            greet = { { "Look up there! That cloud was a sheep, but now I think it's growing a nose. What do you think it is? We can make up what happens to it while we watch.", tone = "[boyish imaginative wonder, bright inviting curiosity]" }, "Bo and Mark were playing over there. Shall we see what they're doing?" },
+            idle = { { "There was a cloud that looked like a dragon. A little one, with a funny tail. I waved when it went away. I know clouds can't wave back! I just thought it was a good dragon.", tone = "[boyish thoughtful fondness, shy amused sincerity]" }, "Oh! Its ears have gone. Now what is it?", "If it goes behind that roof, we can imagine the next bit." },
+            befriended = { { "I'd like to come! We might see some new shapes along the way. You can tell me what you think they look like. If we see different things, we can put both of them in the story.", tone = "[boyish eager affection, gentle imaginative excitement]" } },
+            poke = { "Did you see something up there?", "I'm listening. I was thinking what happens next." },
+            zone = { { "There's a different bit of sky here! That long cloud could be a bridge. Or a very stretched sheep. Which one shall it be? We can think of something to go across it if it's a bridge.", tone = "[boyish delighted discovery, animated curiosity]" } },
+            rest = { "Can we watch the sky for a little while?" },
+            loot = { "That has a funny shape. What does it remind you of?" },
+            quest = { "And then what happened? Oh, was that the end?" },
+            learned = { "I didn't know you could do that. Can you tell me how?" },
+            levelUp = { "You look happy! Is that a good bit of your story?" },
+            hearth = { "Back to familiar roofs. I wonder what's floating above them today." },
+        },
+    },
     -- Elwynn: Clara 5917/adult human female/4558; Ashley 11996/human girl/
     -- 257; Billy Maclure 247/human boy/221; Markus 395/human boy/262.
     -- Full Lescovar/apple and Billy/necklace chains read. Markus's exact
