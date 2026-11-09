@@ -812,6 +812,20 @@
       "zone": "Teldrassil",
       "route": "Tauren/Night Elf profession coverage",
       "reason": "Exact current named adult body, friendly faction icon, trainer service and pin checked; full own quest/service/literary research pending. See docs/research/una-and-zarrin-queue.md"
+    },
+    {
+      "npc_id": 2851,
+      "name": "Urda",
+      "zone": "Arathi Highlands",
+      "route": "Horde Orc female flight-master coverage",
+      "reason": "Exact current named adult female Orc body, friendly Horde icon, flight service and pin checked; full own quest/service/literary research pending. See docs/research/urda-and-thysta-queue.md"
+    },
+    {
+      "npc_id": 1387,
+      "name": "Thysta",
+      "zone": "Stranglethorn Vale",
+      "route": "Horde Orc female flight-master coverage",
+      "reason": "Exact current named adult female Orc body, friendly Horde icon, flight service and pin checked; full own quest/service/literary research pending. See docs/research/urda-and-thysta-queue.md"
     }
   ]
 }

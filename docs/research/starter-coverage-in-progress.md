@@ -362,4 +362,10 @@ Next individually checked identities: Dalar Dawnweaver 1938 and Syral Bladeleaf 
 
 Dalar Dawnweaver 1938 and Syral Bladeleaf 2083 complete: full Forsaken/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](sepulcher-apologies-and-dolanaar-detours.md) preserves ruthless Forever containment orders, unresolved worgen research, Syral's marriage/time concern and Council stance. Development total **366**; public friendly access Alliance 196, Horde 79, unverified 97, with six shared entries overlapping. Dalar's Horde-neutral label remains outside verified friendly coverage. Installed/development-packaged; no publication.
 
-Next checked profession pair: Una 3007 and Zarrin 6286, [queue](una-and-zarrin-queue.md). Neither counted complete. This rotates back to Tauren female and Night Elf male coverage.
+Next checked profession pair: Una 3007 and Zarrin 6286, [queue](una-and-zarrin-queue.md). Neither counted complete at this point. This rotates back to Tauren female and Night Elf male coverage.
+
+### 2026-11-09: Thunder Bluff learning and Dolanaar balance
+
+Una 3007 and Zarrin 6286 complete: full Tauren/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](thunder-bluff-patches-and-dolanaar-shadows.md) retains Una's teaching/student relationships, Zarrin's nature lesson and actual Forever campfire guidance. Development total **368**; public friendly access Alliance 197, Horde 80, unverified 97, with six shared entries overlapping. Installed/development-packaged; no publication.
+
+Next checked flight-master pair: Urda 2851 and Thysta 1387, [queue](urda-and-thysta-queue.md). Both verified adult female Orcs, Horde-friendly; neither counted complete. This gives the next pair entirely to Horde coverage.

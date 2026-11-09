@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Una and Zarrin: full Tauren/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Una's teaching/student relationships and Zarrin's balance lesson and Forever campfire guidance.
+
 - Add Dalar Dawnweaver and Syral Bladeleaf: full Forsaken/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Dalar's ruthless Forever orders and unresolved research, and Syral's forest loyalty and wish for time with her husband.
 
 - Add Apothecary Renferrel and Denalan, with full Forsaken/Night Elf personalities, fifteen personal lines and four approved v4 recordings each; preserve Forever's second potion and the limits of Denalan's timberling research.

@@ -1,20 +1,20 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 366,
+  "completed_profiles": 368,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 196,
+    "alliance": 197,
     "unverified": 97,
-    "horde": 79
+    "horde": 80
   },
   "npc_race_counts": {
     "1": 165,
     "3": 33,
     "7": 25,
     "5": 35,
-    "4": 16,
+    "4": 17,
     "2": 22,
-    "6": 27,
+    "6": 28,
     "8": 21,
     "9": 14,
     "96": 3,
@@ -30,10 +30,10 @@
     "Ironforge": 32,
     "Tirisfal Glades": 31,
     "Silverpine Forest": 3,
-    "Teldrassil": 7,
+    "Teldrassil": 8,
     "Badlands": 1,
     "Mulgore": 10,
-    "Thunder Bluff": 10,
+    "Thunder Bluff": 11,
     "Durotar": 17,
     "Orgrimmar": 15,
     "The Barrens": 14,
@@ -2123,6 +2123,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2995"
     },
     {
+      "npc_id": 3007,
+      "name": "Una",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3007"
+    },
+    {
       "npc_id": 3009,
       "name": "Bena Winterhoof",
       "zone": "Thunder Bluff",
@@ -3339,6 +3352,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6175"
+    },
+    {
+      "npc_id": 6286,
+      "name": "Zarrin",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly; normal live named/adult/reaction/non-attackability gates required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6286"
     },
     {
       "npc_id": 6376,

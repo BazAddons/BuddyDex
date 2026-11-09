@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Una <Artisan Leatherworker>, Thunder Bluff; adult female Tauren,
+    -- 3007/display 2127. Current Horde-friendly trainer, including Camp Tent.
+    -- Classic 2860: Jangdor's teacher; installed gossip credits Cairne's
+    -- opportunities for her teaching. Her patchwork pennant is ours.
+    -- Research: docs/research/thunder-bluff-patches-and-dolanaar-shadows.md.
+    [3007] = {
+        quote = "A good lesson should travel farther than the teacher. Otherwise we are only making the same pair of hands more useful.",
+        likes = { "A former student teaching someone new", "Strong stitches joining unlike pieces", "A little color left from every lesson" },
+        dislikes = { "Good fortune kept to oneself", "Fine work dismissed for a crooked edge", "Knowledge that never leaves its owner" },
+        gossip = "Una's patchwork pennant has some very uneven squares. Visitors wonder which beginner was responsible for the most crooked one.",
+        bio = "Una teaches leatherworking in Thunder Bluff. She began teaching to share the opportunities Cairne brought her people. Jangdor Swiftstrider was among her finest students; his own pupil can earn her acknowledgment and a Wild Leather cloak pattern.",
+        backstory = "A scrap left after a lesson gave Una the idea for a small pennant. She began adding pieces from willing students. Different colors, different hands, and the occasional wandering seam made a collection she would never have planned alone.",
+        secret = "The most crooked square is an old piece of her own work. She leaves it where beginners can see it. When someone offers to replace it, she tells them whose hands needed practice.",
+        bestFriend = "There is room for your piece beside mine. It need not be perfect. I would rather remember that you were here than hide every uneven edge.",
+        favorite = { emote = "THANK", hint = "Believes good fortune should be shared, and appreciates knowing when it has helped someone." },
+        lines = {
+            greet = { { "Welcome, friend. Bring your work closer, if you would like me to look at it. There is room here for a careful question and an uneven first attempt. I have made both. What matters is whether you are willing to learn something from them.", tone = "[warm] [encouraging]" },
+                "Good to see you. What have your hands been learning?" },
+            idle = { { "That crooked square in my pennant? It is mine. An old piece of work, and a useful thing to keep. People arrive expecting a teacher's hands to have been certain from the beginning. I like watching them discover that mine had to learn too.", tone = "[fond] [gently amused]" },
+                "Different pieces can hold together very well. The joining deserves care.",
+                "Jangdor has students of his own now. A lesson can travel a long way." },
+            befriended = { { "You have shared your time as freely as your questions. I am glad of both. Come along, friend. There is room for your piece beside mine, and I would like to see what we learn away from the workbench as well as at it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Another question is welcome.", "Looking at that seam? I can tell you exactly whose work it was." },
+            learned = { { "Cairne brought us to a place with possibilities. Teaching is one way I can pass that good fortune on. When you help someone understand what you have learned, it goes farther still. That pleases me more than keeping a skill where only I can use it.", tone = "[thoughtful] [proud]" } },
+            gear = { "Wear it, move in it, learn where it pulls. Fine work must serve a living wearer." },
+            loot = { "A small piece may still be useful. Look before you throw it away." },
+            quest = { "A teacher's good word should mean something. Jangdor does not give his lightly." },
+            rest = { "Let your hands rest. Practice goes better when you can feel your fingers." },
+            zone = { "There will be things worth learning here, and perhaps something worth sharing." },
+            hearth = { "Back to Thunder Bluff. There may be someone waiting with a first attempt." },
+        },
+    },
+
+    -- Zarrin <Cook>, Dolanaar, Teldrassil; adult male Night Elf, 6286/4989.
+    -- Current Alliance-friendly cooking trainer. Classic 4161 teaches taking
+    -- only what's needed; Forever 96634 explains cooking/campfire basics.
+    -- His badly recognizable shadow owl is original BuddyDex writing.
+    -- Research: docs/research/thunder-bluff-patches-and-dolanaar-shadows.md.
+    [6286] = {
+        quote = "Take what the meal needs. Leave the forest enough to keep being a forest. Then sit down and enjoy what you have made.",
+        likes = { "A meal gathered without needless waste", "New cooks returning with questions", "Firelight and an appreciative audience" },
+        dislikes = { "Gathering extra merely because one can", "Treating the forest as an endless pantry", "His shadow owl being called a cabbage" },
+        gossip = "Zarrin has been making an owl's shadow beside the fire. Those who mistake it for a cabbage receive a patient explanation of the ears.",
+        bio = "Zarrin teaches cooking in Dolanaar. His spider-leg lesson joins a Kaldorei recipe to respect for the forest: take only what is needed. He also teaches new campers their cooking and campfire basics when Lyreena Duskblade sends them his way.",
+        backstory = "Waiting beside a cooking fire, Zarrin noticed the shape his hands cast against a nearby surface. He tried to make an owl. A visitor guessed cabbage. He adjusted the ears and tried again, discovering a pleasant way to pass the waiting time.",
+        secret = "He knows the owl is not very convincing. He has learned to enjoy the guesses. Someone once called it a sleepy kettle, and he had to set his hands down to finish laughing.",
+        bestFriend = "Stay after the meal. I have an owl to show you. Or perhaps a kettle. I would like to hear what you think it is this time.",
+        favorite = { emote = "GRIN", hint = "Enjoys company that can appreciate an imperfect little performance beside the fire." },
+        lines = {
+            greet = { { "Welcome. If you would like to learn, there is always a place near the fire. Cooking begins before the food reaches the heat. Think about what you need to gather, what you can leave alone, and who might enjoy sharing the meal when it is ready.", tone = "[calm] [welcoming]" },
+                "There you are. A cooking question, or simply a little company?" },
+            idle = { { "Look at the shadow. An owl, you see. Those are the ears. No, I understand why you said cabbage, but I have made some improvements since the last attempt. Perhaps if I turn my hands a little... A sleepy kettle? Well, that is a new one.", tone = "[gently playful] [amused]" },
+                "The meal needs time. We may as well enjoy the company while we wait.",
+                "One gathering trip should not take everything worth finding." },
+            befriended = { { "You remember the lesson, but you also stay when the lesson is finished. I appreciate that. Come along. There will be new places to cook, good things to share, and perhaps a suitable fire for another attempt at my owl. You may offer your best guess.", tone = "[warm] [quietly pleased]" } },
+            poke = { "Yes? I was only deciding which way the owl should face.", "A new question? Let us see what we can make of it." },
+            quest = { { "The forest gives us much. That does not mean we should take everything we find. Seven small spider legs are enough for the lesson I give. Learning to stop when you have what you need belongs beside learning how to prepare it. Both are part of cooking well.", tone = "[patient] [earnest]" } },
+            learned = { "Now use what you know with care. A useful lesson should reach beyond the fire." },
+            rest = { "A good fire offers more than heat. Sit, and let it make room for a little company." },
+            loot = { "Will it serve a purpose? Knowing when to leave something is useful too." },
+            zone = { "See what lives here before deciding what to carry away." },
+            sitToo = { "Comfortable? Good. The owl's performance requires very little preparation." },
+            hearth = { "Back to Dolanaar. There is always someone beginning their first meal." },
+        },
+    },
+
     -- Dalar Dawnweaver, Sepulcher, Silverpine; adult male Forsaken, 1938/1278.
     -- Current Horde-neutral icon, subject to normal live eligibility gates.
     -- Classic Arugal/Ambermill investigations; Forever 98298 rejects a cure,

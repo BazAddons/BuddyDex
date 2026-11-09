@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen lines and four approved v4 signatures each. See [final evidence and validation](thunder-bluff-patches-and-dolanaar-shadows.md). Original planning and research checkpoints below retained as history.
+
 # Next: Una and Zarrin
 
 Current identities individually checked 2026-11-09. Neither profile authored or recorded. No Scout observation invented. Cache `C:/Users/brett/BuddyDex-builds/dalar-syral-research/next-npc-ID.json`.
@@ -37,7 +39,7 @@ Read complete available objectives, descriptions, progress and completion:
 - [2860 Master of the Wild Leather](https://classicdb.ch/?quest=2860): Jangdor sends the earned final reward to his own teacher Una. She acknowledges one of her finest pupils now teaching another, respects his recommendation, and shares the cloak pattern. Neither family relationship nor an invented grueling final trial is implied.
 - Read related [5148 Tribal Leatherworking](https://classicdb.ch/?quest=5148) fully: separate specialization trainer requests wild leather vest/helmet and warns of exclusive paths. **Not Una's own lesson or proof she personally grants Tribal specialization.** No requirement to do this chain before befriending her.
 
-Exact installed accept/completion blocks for 2854–2860 and 5148 were read alongside the Classic pages. Current relation omissions and old specialization restrictions remain era-qualified; do not promise present gameplay unlocks from historical prose. [Jangdor wiki indexed text](https://warcraft.wiki.gg/wiki/Jangdor_Swiftstrider) corroborates the student relationship but its later Stonemaul move is not Forever's location.
+Exact installed accept/completion blocks for 2854â€“2860 and 5148 were read alongside the Classic pages. Current relation omissions and old specialization restrictions remain era-qualified; do not promise present gameplay unlocks from historical prose. [Jangdor wiki indexed text](https://warcraft.wiki.gg/wiki/Jangdor_Swiftstrider) corroborates the student relationship but its later Stonemaul move is not Forever's location.
 
 ### Zarrin's teaching and camping branch
 

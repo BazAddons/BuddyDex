@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 366,
+  "completed_count": 368,
   "remaining_count": 4,
   "completed": [
     {
@@ -1526,6 +1526,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3007,
+      "name": "Una",
+      "zone": "Thunder Bluff",
+      "source": "Exact current named adult body, friendly icon, trainer service and pin; full current/Classic relations including both Una teaching pages, exact installed dialogue, complete Wild Leather and Forever camping chains, item/literary/era checks; no Scout sighting claimed",
+      "research_notes": "docs/research/thunder-bluff-patches-and-dolanaar-shadows.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3009,
       "name": "Bena Winterhoof",
       "zone": "Thunder Bluff",
@@ -2476,6 +2486,16 @@
       "name": "John Turner",
       "zone": "Ironforge",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6286,
+      "name": "Zarrin",
+      "zone": "Teldrassil",
+      "source": "Exact current named adult body, friendly icon, trainer service and pin; full current/Classic relations including both Una teaching pages, exact installed dialogue, complete Wild Leather and Forever camping chains, item/literary/era checks; no Scout sighting claimed",
+      "research_notes": "docs/research/thunder-bluff-patches-and-dolanaar-shadows.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3456,16 +3476,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 3007,
-      "name": "Una",
-      "zone": "Thunder Bluff",
+      "npc_id": 2851,
+      "name": "Urda",
+      "zone": "Arathi Highlands",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 6286,
-      "name": "Zarrin",
-      "zone": "Teldrassil",
+      "npc_id": 1387,
+      "name": "Thysta",
+      "zone": "Stranglethorn Vale",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

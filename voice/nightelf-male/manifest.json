@@ -279,6 +279,46 @@
     "text": "Well done. Give the work a careful look before you move on. There may be something in the way it came together that is worth remembering.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore6286_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6286",
+    "spoken": "[warm] [quietly pleased] You remember the lesson, but you also stay when the lesson is finished. I appreciate that. Come along. There will be new places to cook, good things to share, and perhaps a suitable fire for another attempt at my owl. You may offer your best guess.",
+    "text": "You remember the lesson, but you also stay when the lesson is finished. I appreciate that. Come along. There will be new places to cook, good things to share, and perhaps a suitable fire for another attempt at my owl. You may offer your best guess.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore6286_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6286",
+    "spoken": "[calm] [welcoming] Welcome. If you would like to learn, there is always a place near the fire. Cooking begins before the food reaches the heat. Think about what you need to gather, what you can leave alone, and who might enjoy sharing the meal when it is ready.",
+    "text": "Welcome. If you would like to learn, there is always a place near the fire. Cooking begins before the food reaches the heat. Think about what you need to gather, what you can leave alone, and who might enjoy sharing the meal when it is ready.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore6286_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6286",
+    "spoken": "[gently playful] [amused] Look at the shadow. An owl, you see. Those are the ears. No, I understand why you said cabbage, but I have made some improvements since the last attempt. Perhaps if I turn my hands a little... A sleepy kettle? Well, that is a new one.",
+    "text": "Look at the shadow. An owl, you see. Those are the ears. No, I understand why you said cabbage, but I have made some improvements since the last attempt. Perhaps if I turn my hands a little... A sleepy kettle? Well, that is a new one.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore6286_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:6286",
+    "spoken": "[patient] [earnest] The forest gives us much. That does not mean we should take everything we find. Seven small spider legs are enough for the lesson I give. Learning to stop when you have what you need belongs beside learning how to prepare it. Both are part of cooking well.",
+    "text": "The forest gives us much. That does not mean we should take everything we find. Seven small spider legs are enough for the lesson I give. Learning to stop when you have what you need belongs beside learning how to prepare it. Both are part of cooking well.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

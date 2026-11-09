@@ -79,6 +79,46 @@
     "text": "There are many reasons to spread incense to the winds: seeking guidance, asking care for someone, marking an occasion. Practices differ, and people bring their own reasons. Take part with reverence, and leave room for the gratitude you find in your own life.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore3007_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3007",
+    "spoken": "[warm] [sincere] You have shared your time as freely as your questions. I am glad of both. Come along, friend. There is room for your piece beside mine, and I would like to see what we learn away from the workbench as well as at it.",
+    "text": "You have shared your time as freely as your questions. I am glad of both. Come along, friend. There is room for your piece beside mine, and I would like to see what we learn away from the workbench as well as at it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3007_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3007",
+    "spoken": "[warm] [encouraging] Welcome, friend. Bring your work closer, if you would like me to look at it. There is room here for a careful question and an uneven first attempt. I have made both. What matters is whether you are willing to learn something from them.",
+    "text": "Welcome, friend. Bring your work closer, if you would like me to look at it. There is room here for a careful question and an uneven first attempt. I have made both. What matters is whether you are willing to learn something from them.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3007_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3007",
+    "spoken": "[fond] [gently amused] That crooked square in my pennant? It is mine. An old piece of work, and a useful thing to keep. People arrive expecting a teacher's hands to have been certain from the beginning. I like watching them discover that mine had to learn too.",
+    "text": "That crooked square in my pennant? It is mine. An old piece of work, and a useful thing to keep. People arrive expecting a teacher's hands to have been certain from the beginning. I like watching them discover that mine had to learn too.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3007_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3007",
+    "spoken": "[thoughtful] [proud] Cairne brought us to a place with possibilities. Teaching is one way I can pass that good fortune on. When you help someone understand what you have learned, it goes farther still. That pleases me more than keeping a skill where only I can use it.",
+    "text": "Cairne brought us to a place with possibilities. Teaching is one way I can pass that good fortune on. When you help someone understand what you have learned, it goes farther still. That pleases me more than keeping a skill where only I can use it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3009_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

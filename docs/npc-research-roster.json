@@ -1127,5 +1127,19 @@
     "zone": "Teldrassil",
     "source": "Exact current named adult body and map pin; own current/Classic relations and installed dialogue, complete connected chains, Forever additions, item/book and literary/era checks; no Scout sighting claimed; Dalar current Horde-neutral access remains distinct from friendly coverage",
     "research_notes": "docs/research/sepulcher-apologies-and-dolanaar-detours.md"
+  },
+  {
+    "npc_id": 3007,
+    "name": "Una",
+    "zone": "Thunder Bluff",
+    "source": "Exact current named adult body, friendly icon, trainer service and pin; full current/Classic relations including both Una teaching pages, exact installed dialogue, complete Wild Leather and Forever camping chains, item/literary/era checks; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-patches-and-dolanaar-shadows.md"
+  },
+  {
+    "npc_id": 6286,
+    "name": "Zarrin",
+    "zone": "Teldrassil",
+    "source": "Exact current named adult body, friendly icon, trainer service and pin; full current/Classic relations including both Una teaching pages, exact installed dialogue, complete Wild Leather and Forever camping chains, item/literary/era checks; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-patches-and-dolanaar-shadows.md"
   }
 ]
