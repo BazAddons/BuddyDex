@@ -599,6 +599,46 @@
     "text": "A good moment for a meal. If you're cooking, I'll try very hard to stay out of your way.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1432_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1432",
+    "spoken": "[sincere affection, warm pleasure, inviting] You came to bring me along. I am glad, my friend. Come on. It will be a pleasure to share the walk with you, quite apart from any business.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. It will be a pleasure to share the walk with you, quite apart from any business.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1432_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1432",
+    "spoken": "[expansive friendliness, playful self-awareness, welcoming] Ah, my friend. Good to see you. Shall we take a walk? I have a little toast to practice. Little is the ambition, you understand. I may need you to tell me when the introduction has gone on long enough.",
+    "text": "Ah, my friend. Good to see you. Shall we take a walk? I have a little toast to practice. Little is the ambition, you understand. I may need you to tell me when the introduction has gone on long enough.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1432_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1432",
+    "spoken": "[fond sincerity, amused self-mockery, thoughtful] I want to thank Suzetta. Two words. Somehow I keep putting a magnificent introduction in front of them. Perhaps I should begin with the two words, and have the courage to stop.",
+    "text": "I want to thank Suzetta. Two words. Somehow I keep putting a magnificent introduction in front of them. Perhaps I should begin with the two words, and have the courage to stop.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1432_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1432",
+    "spoken": "[relaxed affection, pleased amusement, sincere] Sit with me a moment. I am glad you came. There, I managed a plain welcome. Rather a pleasant one, with the right person here to hear it.",
+    "text": "Sit with me a moment. I am glad you came. There, I managed a plain welcome. Rather a pleasant one, with the right person here to hear it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1433_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -677,6 +717,46 @@
     "source": "lore:1444",
     "spoken": "[appreciative, thoughtful encouragement, warm] Well done. A little help in the right place can let someone else finish the work they have been waiting to do.",
     "text": "Well done. A little help in the right place can let someone else finish the work they have been waiting to do.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1477_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1477",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day and leave the account of it until later.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day and leave the account of it until later.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1477_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1477",
+    "spoken": "[easy warmth, dry humor, welcoming] There you are, my friend. Shall we take a walk? I have no heroic destination in mind. Somewhere with a comfortable seat would be quite enough to begin with.",
+    "text": "There you are, my friend. Shall we take a walk? I have no heroic destination in mind. Somewhere with a comfortable seat would be quite enough to begin with.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1477_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1477",
+    "spoken": "[contented amusement, reflective warmth, unhurried] Nothing happened. We had a pleasant walk, found a seat, and everyone stayed in one piece. I should be very happy to give that account of the afternoon. A short story, but a fine ending.",
+    "text": "Nothing happened. We had a pleasant walk, found a seat, and everyone stayed in one piece. I should be very happy to give that account of the afternoon. A short story, but a fine ending.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1477_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1477",
+    "spoken": "[settled contentment, friendly interest, warm] Now this is promising. A seat, good company and time to hear an answer. Tell me how you have been. We needn't hurry to the exciting part.",
+    "text": "Now this is promising. A seat, good company and time to hear an answer. Tell me how you have been. We needn't hurry to the exciting part.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore151_bagsFull_1.ogg": {

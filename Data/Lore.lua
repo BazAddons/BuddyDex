@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Aedis Brom 1478, dwarf male, and Christoph Faral 1477, human male:
+    -- Old Town/Canals companions, shared randomized war-story dialogue,
+    -- Pig and Whistle visits. Do not fix shared injuries to one speaker.
+    -- Renato Gallina 1432, human male, Trade District: Wine Shop Advert
+    -- 332, sister Suzetta and family winery. Sources/original details:
+    -- docs/research/old-friends-and-gallina.md.
+    [1478] = {
+        quote = "A good tale improves with company. Especially company that knows when you're leaving out the bit where they had to drag you clear.",
+        likes = { "Christoph getting his interruption right", "A warm tavern after an ordinary walk", "Friends still here to argue over a tale" },
+        dislikes = { "Someone mistaking a war story for a wish", "Mud finding its way into everything", "An empty place where a friend belongs" },
+        gossip = "Aedis and Christoph have told some stories often enough to know each other's objections. That has never stopped another telling.",
+        bio = "Aedis Brom walks Stormwind's Old Town and Canals with Christoph Faral. Their talk ranges from old campaigns to narrow escapes and tavern misadventures. At the Pig and Whistle, Aedis knows whom to ask for another round.",
+        backstory = "Their shared tales recall Darrowmere's mud, Perenolde's surprise and a march toward Nethergarde with Danath. Boasts and complaints trade places easily. Aedis may enjoy the telling, but a remembered war is no reason to wish for another.",
+        secret = "He sometimes pauses where Christoph always interrupts. He knows the objection by heart. For all his grumbling, the story feels less complete without hearing it again.",
+        bestFriend = "Come along, friend. You can tell your version this time. I shall listen carefully, especially for the part where you improve on what happened.",
+        favorite = { emote = "GRIN", hint = "A shared look of amusement is a good beginning for a tale everyone may have heard before." },
+        lines = {
+            greet = { { "Ah, there you are, friend. Come on, then. A walk, a little conversation, and perhaps a seat somewhere warm. We needn't earn the seat by surviving anything first.", tone = "[hearty warmth, dry amusement, welcoming]" }, "Good to see you. Have you a tale, or shall I give an old one another airing?" },
+            idle = { { "I leave a pause where Christoph always objects. Know every word he'll say. Still, the tale wouldn't sound right without him interrupting it. Don't tell him I said so. He'll expect me to pause longer.", tone = "[fond grumbling, amused affection, confiding]" }, "I enjoy the telling. That doesn't mean I want another night in a muddy trench.", "A familiar street is a fine place to be walking with a friend." },
+            befriended = { { "You came to bring me along. Aye, I am pleased, my friend. Come on. There is room for another voice in the conversation.", tone = "[gruff affection, pleased, warmly inviting]" } },
+            poke = { "Aye? Is that an objection to my version?", "I'm listening. You have the floor, for the moment." },
+            combatEnd = { { "Everyone still here? Good. Let us keep it that way. We can decide who tells the best version once we are safely out of trouble.", tone = "[firm concern, relieved warmth, wry humor]" } },
+            quest = { "Well done. I trust you've left the people you helped in better shape than you found them." },
+            zone = { "Somewhere new for a walk. Let us see what is worth remembering." },
+            gear = { "May it give you fewer stories about what nearly got through it." },
+            loot = { "Something worth keeping? Have a proper look." },
+            rest = { "A seat sounds good. Whose turn is it to tell the tale?" },
+            hearth = { "Back to familiar streets. Christoph may have remembered another objection." },
+        },
+    },
+    [1477] = {
+        quote = "If the day ends somewhere warm with a friend beside you, it needn't have produced a heroic story to be worth remembering.",
+        likes = { "Aedis giving him room to interrupt", "A comfortable seat and a cold ale", "An afternoon with nothing to survive" },
+        dislikes = { "An old escape mistaken for a plan", "A boast that forgets who helped", "Being hurried away from good company" },
+        gossip = "Christoph has plenty of stories to trade with Aedis. He also seems very content when the day's account contains no narrow escapes.",
+        bio = "Christoph Faral walks Stormwind's Old Town and Canals with Aedis Brom. They trade memories, complaints and teasing. A warm tavern and a cold ale suit him well, with the Pig and Whistle providing a familiar stop.",
+        backstory = "The pair's stories range across the Great War, old tavern trouble and the march to Nethergarde. Each telling leaves room for a contradiction or a joke. Christoph's pleasure in surviving is matched by his appreciation for somewhere comfortable afterward.",
+        secret = "He would be pleased to report a whole uneventful afternoon: a walk, a seat and a friend who stayed. He thinks it deserves a fine ending even if it makes a very short story.",
+        bestFriend = "Stay a while. We can let the old stories rest until one of us cannot resist. I am quite content to have you here without an adventure to explain.",
+        favorite = { emote = "NOD", hint = "An attentive acknowledgment leaves room for a familiar story and the correction that may follow." },
+        lines = {
+            greet = { { "There you are, my friend. Shall we take a walk? I have no heroic destination in mind. Somewhere with a comfortable seat would be quite enough to begin with.", tone = "[easy warmth, dry humor, welcoming]" }, "Good to see you. Have you time for a little conversation?" },
+            idle = { { "Nothing happened. We had a pleasant walk, found a seat, and everyone stayed in one piece. I should be very happy to give that account of the afternoon. A short story, but a fine ending.", tone = "[contented amusement, reflective warmth, unhurried]" }, "Aedis leaves room for me to object. I should hate to disappoint him.", "A warm tavern is worth appreciating without a battle on the way there." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. We can enjoy a little of the day and leave the account of it until later.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have I left something out?", "I am listening. Give me your version." },
+            rest = { { "Now this is promising. A seat, good company and time to hear an answer. Tell me how you have been. We needn't hurry to the exciting part.", tone = "[settled contentment, friendly interest, warm]" } },
+            combatEnd = { "Everyone safe? Good. There is the part of the story I wanted to hear." },
+            quest = { "Well done. Have you time to catch your breath now?" },
+            zone = { "A new street to look around. Let us take a proper look." },
+            gear = { "I hope it serves you well, and gives us less cause to discuss scars." },
+            mail = { "News from someone you know? I hope it is the pleasant sort." },
+            hearth = { "Back to Stormwind. Aedis will have had time to improve his account." },
+        },
+    },
+    [1432] = {
+        quote = "A fine introduction gets someone through the door. A welcome worth remembering gives them a reason to be glad they came.",
+        likes = { "Someone curious about the family wine", "A welcome delivered with a flourish", "A thank-you short enough to finish" },
+        dislikes = { "A guest made uncomfortable for asking", "An invitation forgotten at the door", "An introduction that outlasts the meal" },
+        gossip = "Renato can introduce the winery with confidence. A short toast thanking Suzetta is proving harder to keep short.",
+        bio = "Renato Gallina advertises his family's winery from Stormwind's Trade District. He praises the wine and directs visitors to his sister Suzetta by the canals. His Wine Shop Advert offers an introduction through a ticket taken to the shop.",
+        backstory = "Renato is comfortable giving a simple invitation a grand entrance. Away from the sales pitch, he wants to thank Suzetta in a little toast. Every attempt acquires an introduction, a compliment to the wine and far more words than he intended.",
+        secret = "The words he most wants to keep are simply thank you. He suspects they would be enough on their own. He is practicing stopping there, before the magnificent introduction returns.",
+        bestFriend = "Sit with me, my friend. I am glad you came. There, no grand introduction. I can manage a plain welcome when the company matters this much.",
+        favorite = { emote = "THANK", hint = "A sincere acknowledgment may help him remember that a few plain words can be enough." },
+        lines = {
+            greet = { { "Ah, my friend. Good to see you. Shall we take a walk? I have a little toast to practice. Little is the ambition, you understand. I may need you to tell me when the introduction has gone on long enough.", tone = "[expansive friendliness, playful self-awareness, welcoming]" }, "There you are. Have you time for some conversation along the canals?" },
+            idle = { { "I want to thank Suzetta. Two words. Somehow I keep putting a magnificent introduction in front of them. Perhaps I should begin with the two words, and have the courage to stop.", tone = "[fond sincerity, amused self-mockery, thoughtful]" }, "A good invitation ought to lead to a welcome when someone arrives.", "The family wine deserves a fine introduction. A guest deserves time to ask a question too." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be a pleasure to share the walk with you, quite apart from any business.", tone = "[sincere affection, warm pleasure, inviting]" } },
+            poke = { "Yes? Too much introduction again?", "You have my attention, my friend. Tell me." },
+            rest = { { "Sit with me a moment. I am glad you came. There, I managed a plain welcome. Rather a pleasant one, with the right person here to hear it.", tone = "[relaxed affection, pleased amusement, sincere]" } },
+            quest = { "Well done. I hope the welcome at the end was worth the journey." },
+            mail = { "An invitation, perhaps? Let us see who has thought of you." },
+            zone = { "Somewhere new to look around. A fine excuse to begin a conversation." },
+            loot = { "A good find? Tell me what has pleased you about it." },
+            gear = { "Looking well, my friend. Does it suit you as well as you hoped?" },
+            hearth = { "Back to Stormwind. There will be someone new to welcome to the winery." },
+        },
+    },
+
     -- Duthorian Rall 6171, human male paladin, Cathedral of Light: Divinity,
     -- Valor, Nobility and charger referral. Stephanie Turner 6174, human
     -- female, Trade District: orphanage, husband John, linen request.

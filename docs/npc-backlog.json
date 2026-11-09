@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 139,
-  "remaining_count": 78,
+  "completed_count": 142,
+  "remaining_count": 75,
   "completed": [
     {
       "npc_id": 54,
@@ -506,6 +506,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1432,
+      "name": "Renato Gallina",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1433,
       "name": "Corbett Schneider",
       "zone": "Stormwind City",
@@ -526,6 +535,24 @@
     {
       "npc_id": 1472,
       "name": "Morgg Stormshot",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1477,
+      "name": "Christoph Faral",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1478,
+      "name": "Aedis Brom",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1339,13 +1366,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1478,
-      "name": "Aedis Brom",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 258568,
       "name": "Antonio Bolero",
       "zone": "Stormwind City",
@@ -1390,13 +1410,6 @@
     {
       "npc_id": 1319,
       "name": "Bryan Cross",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1477,
-      "name": "Christoph Faral",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1565,13 +1578,6 @@
     {
       "npc_id": 1323,
       "name": "Osric Strang",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1432,
-      "name": "Renato Gallina",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

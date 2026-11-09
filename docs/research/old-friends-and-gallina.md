@@ -1,0 +1,43 @@
+# Aedis Brom, Christoph Faral and Renato Gallina
+
+Researched November 9, 2026 for Forever. Aedis and Christoph's shared dialogue requires particular care: randomized replies are not a fixed personal injury record. Renato's own quest establishes his sister and the winery referral directly.
+
+## Identity and eligibility
+
+Installed Scout records **Aedis Brom 1478**, level 30, male/unit sex 2, one Old Town sighting; **Christoph Faral 1477**, level 30, male/unit sex 2, one Old Town sighting; **Renato Gallina 1432**, level 45, male/unit sex 2, five Trade District sightings. All are normal Alliance-friendly Humanoids (type 7, reaction 5), Stormwind City/map 1453, without an attackable flag. They have individual proper names and qualify through the ordinary friendship rules, including emotes where no interaction window exists.
+
+Classic pages for [Aedis](https://classicdb.ch/?npc=1478), [Christoph](https://classicdb.ch/?npc=1477) and [Renato](https://classicdb.ch/?npc=1432), and current public nodes for [Aedis](https://forever.warcraftdb.com/api/data/node/npc/1478), [Christoph](https://forever.warcraftdb.com/api/data/node/npc/1477) and [Renato](https://forever.warcraftdb.com/api/data/node/npc/1432), agree on names, levels and displays **1519**, **1509** and **5074**. Current nodes give dwarf, human and human respectively, with friendly Alliance reaction. Client-derived race/sex data independently gives the same routes. Aedis is the dwarf and Christoph the human. A secondary academic book search result reversed the two races; Scout, client metadata and the NPC records take precedence over that error.
+
+## Aedis and Christoph: the entire available conversation pool
+
+Read the complete published conversation on [Aedis's biography](https://warcraft.wiki.gg/wiki/Aedis_Brom), corroborated by [Christoph's biography](https://wowpedia.fandom.com/wiki/Christoph_Faral). They walk between Old Town and the Canals together and stop at the Pig and Whistle. Christoph appreciates the warm tavern and cold drink; Aedis requests another round from Reese. Installed `Spoken_Quests/ChatterLines.lua`, exact entry 1478, corroborates Aedis's tavern request. No direct exact-ID service-gossip entries for either were found in the installed gossip lookup, and no new live conversation capture is claimed.
+
+The published pool has seven opening memories, eight injury/near-escape replies and eight closing jokes. Subjects include the Great War and muddy Darrowmere, Perenolde and Alterac, Danath's mercenaries marching toward Nethergarde, Twilight's Hammer in the Morass, a Lordaeron tavern fight, an outnumbered force and the Glustewelt twins. These support veteran companionship, survivor humor and familiarity with the named past events. The authored biographies describe their shared tales rather than invent a military dossier.
+
+Read the complete **26** indexed quotes in [Christoph's Classic NPC record](https://www.wowhead.com/classic/npc=1477/christoph-faral). Alongside the shared pool are the tavern line, a wedding-night quip and a general call for guards. The direct page presents a browser challenge, so the full indexed quote list, not a successful interactive page visit, is the inspected source. The shared nature is independently corroborated by the other biography's description of randomized dialogue; player comments are observations, not authority for assigning a permanent wound or spouse.
+
+Either speaker can use the shared recollections and replies. Accordingly, neither profile asserts which man lost a thumb, carried a hand, broke both legs, spent weeks unconscious in Northshire, kept iron in his back, wore a particular shirt or caused a particular incident. A wedding joke does not establish a named wife or a detailed marriage history. Morris remains an elf named in the banter, not a newly identified relative or a claim of a current nearby NPC. The Glustewelt reference is not expanded into an invented romance.
+
+Their dialogue echoes Warcraft II campaign events, including Caer Darrow/Alterac and Nethergarde. This does not place either man in every campaign mission or establish that he crossed into Draenor, met every commander or shares all later events in a historical overview. Modern historical summaries and novel references are not substituted for what these NPCs actually say. No separate personal canonical novel/comic episode was established, and no unseen chapter is claimed as read.
+
+Checked every quest list exposed by both Classic NPC pages: neither has a personal quest list. Both current public nodes expose only screenshots/comments. No personal quest chain, readable quest book or new patrol quest is invented. Scout verifies current Old Town sightings, not every route point or the current frequency of tavern visits.
+
+## Renato: complete Wine Shop Advert and family boundaries
+
+Read all available objectives, description, progress and completion for [Wine Shop Advert 332](https://classicdb.ch/?quest=332). Renato promotes the Gallina family wine and directs the visitor with a Wine Ticket to **his sister Suzetta** at the canal-side shop. Suzetta welcomes the visitor and supplies the wine in the completion. That is the complete exposed quest, not the beginning of an invented delivery or smuggling chain. Its familiar sales manner does not make Renato an actual organized-crime figure.
+
+Read installed `Spoken_Quests/Data/QuestText.lua` entry 332: its offer and completion agree. Read Renato's entire exact-ID entry in `SpokenQuestsAudioGossip/generated/npc_gossip_file_lookups.lua`: two recipient variants of the same flattering wine pitch. These support an expansive, confident public voice. [The current public quest node](https://forever.warcraftdb.com/api/data/node/quest/332) corroborates the Wine Ticket objective and description naming Suzetta. Renato's current NPC node lacks a quest tab; that incomplete public linkage does not override the actual quest node and installed text.
+
+[Wine Ticket 2722](https://classicdb.ch/?item=2722) was checked for a readable document: no separate Book pages were supplied. The quest description is the inspected advertisement text; no missing printed pamphlet is invented. The quest speaks of pinot noir while the historical reward item is labeled differently in some tables, so the profile promises neither an exact current item name nor a reusable free-wine reward. Friendship is not a new wine-redemption system.
+
+[Renato's biography](https://warcraft.wiki.gg/wiki/Renato_Gallina) corroborates the family winery and sister, while leaving Julia's precise relationship unclear. No mother, spouse or daughter relationship to Julia is assigned. His Legion-era appearance among concerned citizens during the Veiled Hand/Uncrowned infiltration is later retail content and excluded. The speech's Godfather allusions provide a manner, not imported film history, relatives, threats or dialogue. A possible real-world musical namesake in player comments is not NPC lore. No separate canonical novel/comic episode was established.
+
+## Original BuddyDex details
+
+Aedis's deliberate pause for Christoph's familiar objection and private fondness for that interruption are original interpretations of their recurring banter. His enjoyment of a shared telling does not glorify another war or diagnose a condition. The profile assigns no new injury, rank, regiment, spouse or specific battle rescue to him. His favorite GRIN invites the humor without reproducing the harsher old insults.
+
+Christoph's wish for a pleasantly uneventful afternoon and pride in that short account are original, grounded in his appreciation of comfort and companionship. They distinguish his calmer voice from Aedis's hearty delivery without claiming the shared lines belong exclusively to either speaker. His NOD favorite is attentive listening, not a new faction salute or military status.
+
+Renato's overlong attempt at a simple thank-you toast to Suzetta is original family characterization around an established relationship. No toast is claimed as existing quest dialogue, and no actual festival, named wine vintage, family dispute or drinking mechanic is added. He can welcome a friend in plain words even while enjoying a flourish in his sales pitch. His favorite THANK supports that small personal lesson.
+
+Each has fifteen personal lines and four directed Eleven v4 clips in the established dwarf male/human male voices. Automated checks cover layout, supported moments, eligibility, discovery/favorite gains, exact model/voice/text metadata, mappings, mono 22.05 kHz audio decoding and recorded first-outing welcome playback. These checks do not constitute human listening or a live UI review.

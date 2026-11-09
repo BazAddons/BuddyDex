@@ -239,6 +239,46 @@
     "text": "I got the turn right. Once. I'd show you, but give me a moment to remember what I did with the other foot.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore1478_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1478",
+    "spoken": "[gruff affection, pleased, warmly inviting] You came to bring me along. Aye, I am pleased, my friend. Come on. There is room for another voice in the conversation.",
+    "text": "You came to bring me along. Aye, I am pleased, my friend. Come on. There is room for another voice in the conversation.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1478_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:1478",
+    "spoken": "[firm concern, relieved warmth, wry humor] Everyone still here? Good. Let us keep it that way. We can decide who tells the best version once we are safely out of trouble.",
+    "text": "Everyone still here? Good. Let us keep it that way. We can decide who tells the best version once we are safely out of trouble.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1478_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1478",
+    "spoken": "[hearty warmth, dry amusement, welcoming] Ah, there you are, friend. Come on, then. A walk, a little conversation, and perhaps a seat somewhere warm. We needn't earn the seat by surviving anything first.",
+    "text": "Ah, there you are, friend. Come on, then. A walk, a little conversation, and perhaps a seat somewhere warm. We needn't earn the seat by surviving anything first.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore1478_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1478",
+    "spoken": "[fond grumbling, amused affection, confiding] I leave a pause where Christoph always objects. Know every word he'll say. Still, the tale wouldn't sound right without him interrupting it. Don't tell him I said so. He'll expect me to pause longer.",
+    "text": "I leave a pause where Christoph always objects. Know every word he'll say. Still, the tale wouldn't sound right without him interrupting it. Don't tell him I said so. He'll expect me to pause longer.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore14842_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
