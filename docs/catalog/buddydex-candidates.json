@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 77,
-    "combined_retained_entries": 1508,
-    "candidate_name_groups": 1495,
+    "local_backlog_entries_missing_from_source": 79,
+    "combined_retained_entries": 1510,
+    "candidate_name_groups": 1497,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -3712,6 +3712,23 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Bena Winterhoof",
+      "npc_ids": [
+        3009
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3009,
+          "name": "Bena Winterhoof",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -7595,7 +7612,7 @@
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -19704,6 +19721,23 @@
       ]
     },
     {
+      "name": "Komin Winterhoof",
+      "npc_ids": [
+        3013
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3013,
+          "name": "Komin Winterhoof",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Kor'gar",
       "npc_ids": [
         260565
@@ -27822,7 +27856,7 @@
           "source_page": 24,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39686,6 +39720,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 3009,
+      "name": "Bena Winterhoof",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3013,
+      "name": "Komin Winterhoof",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

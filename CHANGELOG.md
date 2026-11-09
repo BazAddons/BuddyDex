@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Regthar Deathgate and Darsok Swiftdagger: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research complete centaur/defense/Desolace and harpy/letter chains, including Darsok's readable message and actual old friendship. Preserve qualified neutral access and player/world chronology. Development now has 326 complete profiles.
+
 - Complete Ur'kyo and Pephredo: full Orgrimmar profiles, fifteen personal lines and four approved Troll Eleven v4 signatures each. Research priest racial/referral variants, current Dark Sacrifice naming, the full Cenarion Aid branch, actual training roles and exact proud/serious gossip. Development now has 324 complete profiles.
 
 - Complete Ziz Fizziks and Rilli Greasygob: full profiles, fifteen personal lines and four approved Goblin Eleven v4 signatures each. Audit their own relation lists, add the complete Piznik ore-sampling branch and preserve unresolved repairs, actual testimony and later-expansion boundaries. Development now has 322 complete profiles.

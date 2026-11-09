@@ -1,3 +1,7 @@
+# Completed: Regthar Deathgate and Darsok Swiftdagger
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four approved Orc v4 signatures each. Development now has 326 complete profiles. See [full research](barrens-duty-and-old-friends.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Regthar Deathgate and Darsok Swiftdagger
 
 Identity shortlist, 2026-11-09, after 324 completed profiles. Return to familiar Barrens quest contacts after the city teaching pair. Neither profile is authored, recorded or counted complete. No personal Scout sighting is claimed.

@@ -518,6 +518,20 @@
       "zone": "The Barrens",
       "route": "Barrens centaur and harpy quest contacts",
       "reason": "Exact current adult male Orc bodies and Barrens pins checked; Friendly versus Neutral access qualified. Full own quest/gossip/literary review pending. See docs/research/regthar-and-darsok-queue.md"
+    },
+    {
+      "npc_id": 3009,
+      "name": "Bena Winterhoof",
+      "zone": "Thunder Bluff",
+      "route": "Female Tauren alchemy and male Tauren herbalism contacts",
+      "reason": "Exact current adult Tauren bodies/titles and published Thunder Bluff identities checked; missing current level/reaction/pin qualified. Own full quest/training/gossip/literary review pending. See docs/research/bena-and-komin-queue.md"
+    },
+    {
+      "npc_id": 3013,
+      "name": "Komin Winterhoof",
+      "zone": "Thunder Bluff",
+      "route": "Female Tauren alchemy and male Tauren herbalism contacts",
+      "reason": "Exact current adult Tauren bodies/titles and published Thunder Bluff identities checked; missing current level/reaction/pin qualified. Own full quest/training/gossip/literary review pending. See docs/research/bena-and-komin-queue.md"
     }
   ]
 }

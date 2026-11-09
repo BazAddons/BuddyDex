@@ -159,6 +159,46 @@
     "text": "Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3389_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3389",
+    "spoken": "[firm] [sincere] You have earned my trust. I do not say that merely to give you another task. Today I would be glad of your company, even if we find nothing worth putting in a report.",
+    "text": "You have earned my trust. I do not say that merely to give you another task. Today I would be glad of your company, even if we find nothing worth putting in a report.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3389_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3389",
+    "spoken": "[steady] [warm] Good. I know I can count on you to pay attention. Walk with me, and keep an eye on the ground as well as the road. There is a small column I would rather not disturb.",
+    "text": "Good. I know I can count on you to pay attention. Walk with me, and keep an eye on the ground as well as the road. There is a small column I would rather not disturb.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3389_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3389",
+    "spoken": "[dryly amused] [reflective] An ant found a stone in its path. Went around it. The rest followed without a single argument. I watched for longer than I intended. No, there is no inspection report about it.",
+    "text": "An ant found a stone in its path. Went around it. The rest followed without a single argument. I watched for longer than I intended. No, there is no inspection report about it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3389_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3389",
+    "spoken": "[measured] [approving] You did well. Tell me what happened while the details are clear. Courage matters, but so does giving the next person enough knowledge to stand where you stood and do the work properly.",
+    "text": "You did well. Tell me what happened while the details are clear. Courage matters, but so does giving the next person enough knowledge to stand where you stood and do the work properly.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3432_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -197,6 +237,46 @@
     "source": "lore:3432",
     "spoken": "[weary] [gentle] We can stop here. There need not be a speech, or another promise made before we go on. Stay a little while, my friend. That is enough to ask for now.",
     "text": "We can stop here. There need not be a speech, or another promise made before we go on. Stay a little while, my friend. That is enough to ask for now.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3449_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3449",
+    "spoken": "[gruff] [warm] You keep turning up without needing another assignment. I like that. Come, friend. Give me a little news that belongs to you, before someone brings us another list of things to do.",
+    "text": "You keep turning up without needing another assignment. I like that. Come, friend. Give me a little news that belongs to you, before someone brings us another list of things to do.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3449_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3449",
+    "spoken": "[wry] [brisk] There you are. Come along. I have heard enough useful news today. Tell me something that made you grin, and try not to start with the number of supplies we are missing.",
+    "text": "There you are. Come along. I have heard enough useful news today. Tell me something that made you grin, and try not to start with the number of supplies we are missing.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3449_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3449",
+    "spoken": "[dryly amused] [reflective] I ought to ask Jin'Zil for an ordinary bit of news. A bad joke would do. Something completely useless, just to know he still remembers how to make me regret asking for a story.",
+    "text": "I ought to ask Jin'Zil for an ordinary bit of news. A bad joke would do. Something completely useless, just to know he still remembers how to make me regret asking for a story.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3449_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3449",
+    "spoken": "[confident] [matter-of-fact] Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.",
+    "text": "Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
   "lore3615_befriended_1.ogg": {

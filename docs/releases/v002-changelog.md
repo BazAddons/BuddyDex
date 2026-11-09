@@ -2,8 +2,9 @@
 
 ## More friends across Azeroth
 
-- Expand the collection to **324 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **326 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
+- Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.
 - Add Ziz Fizziks and Rilli Greasygob, with full researched profiles and four approved Goblin v4 signatures each.
 - Add Sputtervalve and Wenikee Boltbucket, with researched engineering quest profiles and four approved Goblin v4 signatures each.

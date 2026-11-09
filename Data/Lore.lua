@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Regthar Deathgate, adult male Orc, west of Crossroads, NPC 3389.
+    -- Display 3847. Kolkar leaders/bounties, Krom'zar defense, Felgur referral.
+    -- No later scout/Legion events or invented Warcraft III service.
+    -- Watching ants is ours. Research: docs/research/barrens-duty-and-old-friends.md.
+    [3389] = {
+        quote = "Know what you are defending. Then hold your ground as though it matters.",
+        likes = { "A line that holds together", "Courage followed by a clear report", "Ants finding a way around an obstacle" },
+        dislikes = { "Kolkar gathering near the bunkers", "A guard abandoning the approach", "Bravery mistaken for carelessness" },
+        gossip = "Regthar has been inspecting a very small column outside camp. Nobody has found its banner. The ants seem unconcerned.",
+        bio = "Regthar Deathgate directs attacks on Kolkar leaders from the bunkers west of the Crossroads. He calls for defense against Krom'zar's counterattack and sends volunteers to Felgur Twocuts in Desolace.",
+        backstory = "An ant carrying a crumb caught Regthar's eye during a quiet watch. When a stone blocked its path, the column found another route. He began stopping to watch, occasionally moving a boot before it became the next obstacle.",
+        secret = "He has no lesson prepared about the ants. He simply likes watching something small find its way. It is a pleasant change from being asked to decide the way for everyone else.",
+        bestFriend = "Look at that one. It chose a load twice its size. We can spare a moment to see whether it manages. Stay beside me.",
+        favorite = { emote = "SALUTE", hint = "Respects someone who remembers the duty behind the post." },
+        lines = {
+            greet = { { "Good. I know I can count on you to pay attention. Walk with me, and keep an eye on the ground as well as the road. There is a small column I would rather not disturb.", tone = "[steady] [warm]" },
+                "Ready? Keep your eyes open. We can speak as we go." },
+            idle = { { "An ant found a stone in its path. Went around it. The rest followed without a single argument. I watched for longer than I intended. No, there is no inspection report about it.", tone = "[dryly amused] [reflective]" },
+                "Give that little column room. It has its own work.",
+                "A quiet approach is still worth watching." },
+            befriended = { { "You have earned my trust. I do not say that merely to give you another task. Today I would be glad of your company, even if we find nothing worth putting in a report.", tone = "[firm] [sincere]" } },
+            poke = { "Speak. I am listening.", "You need not test whether I am still standing here." },
+            quest = { { "You did well. Tell me what happened while the details are clear. Courage matters, but so does giving the next person enough knowledge to stand where you stood and do the work properly.", tone = "[measured] [approving]" } },
+            combatStart = { "Hold together. Watch the approach." },
+            combatEnd = { "Check one another. Keep an eye out while we recover." },
+            rest = { "Sit. A rested guard is worth more than a stubborn one." },
+            levelUp = { "Well earned. Put the strength to good use." },
+            zone = { "Find the approaches before settling on the view." },
+            comforted = { "Thank you. I had not realized how much I needed a moment." },
+        },
+    },
+
+    -- Darsok Swiftdagger, adult male Orc, Crossroads, NPC 3449/display 3849.
+    -- Scouted harpy hierarchy, directs raids through Serena; old friend of
+    -- Jin'Zil. Letter 5594 credits its courier, not Darsok, for the killing.
+    -- Private longing for an ordinary reply is ours. No later outpost/rescue.
+    -- Research: docs/research/barrens-duty-and-old-friends.md.
+    [3449] = {
+        quote = "Watch who gives the orders. The loudest one is not always the one worth following.",
+        likes = { "A well-planned ambush", "Jin'Zil's grisly sense of humor", "News from an old friend" },
+        dislikes = { "Harpies raiding caravan supplies", "A dull blade and a loud approach", "A friendship left to gather dust" },
+        gossip = "Darsok can describe a raid all morning. Ask what he would like to hear from Jin'Zil, and the answer takes him longer.",
+        bio = "Darsok Swiftdagger studies the Witchwing harpies threatening Crossroads caravans and directs strikes through their ranks to Serena Bloodfeather. He sends news to his old friend, Witch Doctor Jin'Zil in Stonetalon.",
+        backstory = "Darsok grew used to choosing which news was worth sending. Raids and names made easy messages. Ordinary questions were harder. He began thinking of small things to ask Jin'Zil the next time a letter went north.",
+        secret = "He would like a reply with no useful intelligence at all: a bad joke, an old complaint, proof that his friend still remembers how to waste a little time with him.",
+        bestFriend = "No report needed. Tell me something that amused you. I have enough useful information today. I would rather hear from my friend.",
+        favorite = { emote = "GRIN", hint = "Appreciates someone who can share a dark little joke." },
+        lines = {
+            greet = { { "There you are. Come along. I have heard enough useful news today. Tell me something that made you grin, and try not to start with the number of supplies we are missing.", tone = "[wry] [brisk]" },
+                "Ready? Keep your step quiet and your eyes working." },
+            idle = { { "I ought to ask Jin'Zil for an ordinary bit of news. A bad joke would do. Something completely useless, just to know he still remembers how to make me regret asking for a story.", tone = "[dryly amused] [reflective]" },
+                "Watch the one giving orders. There is usually a reason the others listen.",
+                "A sharp blade. A quiet approach. Some habits are worth keeping." },
+            befriended = { { "You keep turning up without needing another assignment. I like that. Come, friend. Give me a little news that belongs to you, before someone brings us another list of things to do.", tone = "[gruff] [warm]" } },
+            poke = { "If you meant to sneak up, the final part needs work.", "Yes? I noticed you before the elbow arrived." },
+            quest = { { "Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.", tone = "[confident] [matter-of-fact]" } },
+            combatStart = { "Watch their lead. Make the opening count." },
+            combatEnd = { "Look around before you put the blade away." },
+            loot = { "Keep what tells us something. We can sort the rest later." },
+            rest = { "Sit with a view of the road. The shade will still count." },
+            levelUp = { "You are getting dangerous. Good." },
+            zone = { "New ground. Keep the exits in mind." },
+        },
+    },
+
     -- Ur'kyo, adult male Troll Priest Trainer, Orgrimmar, NPC 6018.
     -- Display 4711. Hex/Shadowguard teaching; respectful Aelthalyste referrals,
     -- including current Dark Sacrifice 5646. No beta rites or SoD import.

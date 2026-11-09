@@ -833,5 +833,19 @@
     "zone": "Orgrimmar",
     "source": "Exact current adult Troll body/title and qualified current/published location; own class relations, full priest referral/Cenarion branches, current Dark Sacrifice rename and installed gossip reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/urkyo-and-pephredo.md"
+  },
+  {
+    "npc_id": 3389,
+    "name": "Regthar Deathgate",
+    "zone": "The Barrens",
+    "source": "Exact current adult Orc body and Barrens pin; full leader/defense/Desolace and harpy/letter chains, entire readable letter and installed text reviewed; qualified access, no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-duty-and-old-friends.md"
+  },
+  {
+    "npc_id": 3449,
+    "name": "Darsok Swiftdagger",
+    "zone": "The Barrens",
+    "source": "Exact current adult Orc body and Barrens pin; full leader/defense/Desolace and harpy/letter chains, entire readable letter and installed text reviewed; qualified access, no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-duty-and-old-friends.md"
   }
 ]
