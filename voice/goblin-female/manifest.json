@@ -159,6 +159,46 @@
     "text": "If that is a hat, do not stuff it beneath everything else. A crushed brim does not become charming because you call it practical. Give it some room, darling. Even your luggage should recognize a priority.",
     "voice_id": "GK7FvLcUviYyxNu6jR0D"
   },
+  "lore255894_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:255894",
+    "spoken": "[warm] [upbeat] [sincere] You come back, take a straight answer, and still seem pleased to see me. I like that. Come along, friend. Let us find out what is worth seeing beyond the next advertisement. If it turns out to be mostly fish and an enthusiastic description, we can at least compare it with home.",
+    "text": "You come back, take a straight answer, and still seem pleased to see me. I like that. Come along, friend. Let us find out what is worth seeing beyond the next advertisement. If it turns out to be mostly fish and an enthusiastic description, we can at least compare it with home.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore255894_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:255894",
+    "spoken": "[brisk] [welcoming] [salesman charm] A worldly explorer! Welcome to the coast. Fresh ocean air, a place to stop, and an honest warning about the fishy part of the breeze. I could leave that out of the welcome, but then you would spend the first minute discovering it yourself. This way we can get on with business.",
+    "text": "A worldly explorer! Welcome to the coast. Fresh ocean air, a place to stop, and an honest warning about the fishy part of the breeze. I could leave that out of the welcome, but then you would spend the first minute discovering it yourself. This way we can get on with business.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore255894_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:255894",
+    "spoken": "[animated] [wry] I tried making the welcome sound like a grand seaside advertisement. Every time I reached the finest part, the wind brought something fishy through the door. Now I mention it first. People laugh, nobody thinks I hid the obvious, and I get to finish a sentence on my own terms.",
+    "text": "I tried making the welcome sound like a grand seaside advertisement. Every time I reached the finest part, the wind brought something fishy through the door. Now I mention it first. People laugh, nobody thinks I hid the obvious, and I get to finish a sentence on my own terms.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore255894_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:255894",
+    "spoken": "[firm] [brisk] [dryly amused] Gray has had enough of the usual drinks. I told you, this is an inn. If you are trying to get him moving, another round will not improve the situation. I can prepare a goblin pick-me-up. Do not confuse a particularly impressive froth with an invitation to sample the delivery.",
+    "text": "Gray has had enough of the usual drinks. I told you, this is an inn. If you are trying to get him moving, another round will not improve the situation. I can prepare a goblin pick-me-up. Do not confuse a particularly impressive froth with an invitation to sample the delivery.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
   "lore7583_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

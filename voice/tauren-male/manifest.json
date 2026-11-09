@@ -678,5 +678,45 @@
     "spoken": "[reassuring] [relaxed] Set down what you can, and let yourself be comfortable. You need not earn every quiet moment with another errand. Sometimes a seat and good company are quite enough.",
     "text": "Set down what you can, and let yourself be comfortable. You need not earn every quiet moment with another errand. Sometimes a seat and good company are quite enough.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9501_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9501",
+    "spoken": "[warm] [sincere] [gently playful] You return as someone whose company I look forward to, and that is worth more than another purchase. Come along, friend. I would enjoy seeing a little of the road with you. If the conversation becomes too serious, I have been saving a particularly poor joke for a trusted audience.",
+    "text": "You return as someone whose company I look forward to, and that is worth more than another purchase. Come along, friend. I would enjoy seeing a little of the road with you. If the conversation becomes too serious, I have been saving a particularly poor joke for a trusted audience.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9501_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9501",
+    "spoken": "[warm] [unhurried] [dryly amused] You are welcome here, friend. Put down what you are carrying and take a moment to arrive. There is cheese, something to drink, and company if you want it. I shall try to keep the conversation mild. Unless you would prefer something sharp. There, you have had fair warning.",
+    "text": "You are welcome here, friend. Put down what you are carrying and take a moment to arrive. There is cheese, something to drink, and company if you want it. I shall try to keep the conversation mild. Unless you would prefer something sharp. There, you have had fair warning.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9501_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9501",
+    "spoken": "[gentle] [amused] A traveler once thanked me with a cheese joke so poor that I was still laughing after they had gone. I have been finding replies ever since. A good welcome need not be clever. That is fortunate, because several of these are a long way from clever.",
+    "text": "A traveler once thanked me with a cheese joke so poor that I was still laughing after they had gone. I have been finding replies ever since. A good welcome need not be clever. That is fortunate, because several of these are a long way from clever.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9501_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:9501",
+    "spoken": "[soothing] [warm] [wry] There is no need to apologize for stopping. You have been carrying the day long enough to set it down for a while. A little food, a drink, familiar company. We can leave the next danger outside the conversation until you are ready. I can offer a worse joke instead.",
+    "text": "There is no need to apologize for stopping. You have been carrying the day long enough to set it down for a while. A little food, a drink, familiar company. We can leave the next danger outside the conversation until you are ready. I can offer a worse joke instead.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }

@@ -1239,5 +1239,19 @@
     "zone": "Teldrassil",
     "source": "Exact current named adult female model, individual faction icon and pin; all own sparse relations, full installed/public travel chain, complete Classic readable letter and stock/recipe limits reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-dust-and-ruttheran-fish-stories.md"
+  },
+  {
+    "npc_id": 9501,
+    "name": "Innkeeper Adegwa",
+    "zone": "Arathi Highlands",
+    "source": "Exact named adult body/current Horde-friendly icon and pin; all own current relations/stock, installed full service gossip and available connected quest/family descriptions read; unavailable readable/completion/literary limits remain explicitly open; no Scout sighting claimed",
+    "research_notes": "docs/research/hammerfall-puns-and-powderfuse-ocean-air.md"
+  },
+  {
+    "npc_id": 255894,
+    "name": "Innkeeper Zizplink",
+    "zone": "Riverglades",
+    "source": "Exact named adult body/current Horde-friendly icon and pin; all own current relations/stock, installed full service gossip and available connected quest/family descriptions read; unavailable readable/completion/literary limits remain explicitly open; no Scout sighting claimed",
+    "research_notes": "docs/research/hammerfall-puns-and-powderfuse-ocean-air.md"
   }
 ]

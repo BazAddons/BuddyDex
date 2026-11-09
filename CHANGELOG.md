@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Innkeeper Adegwa and Innkeeper Zizplink: full Tauren/Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain their actual welcomes and Zizplink's refusal of more alcohol for Gray.
+
 - Add Gorina and Nessa Shadowsong: full female Orc/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Gorina's supplier role and Nessa's unresolved fish comparison.
 
 - Add Borya and Xen'to: full Orc/Troll supplier profiles, fifteen personal lines and four approved v4 signatures each; preserve their vendor roles and separate nearby trainers and quest givers.

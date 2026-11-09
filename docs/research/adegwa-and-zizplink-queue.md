@@ -1,3 +1,7 @@
+# Authored: Innkeeper Adegwa and Innkeeper Zizplink
+
+Full profile/source/validation note: [Hammerfall puns and Powderfuse ocean air](hammerfall-puns-and-powderfuse-ocean-air.md). Readable/completion source gaps remain explicitly open there. Original planning below is historical.
+
 # Next: Innkeeper Adegwa and Innkeeper Zizplink
 
 Exact current identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/adegwa-zizplink-research/npc-ID.json`.

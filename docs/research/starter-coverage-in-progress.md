@@ -414,3 +414,10 @@ Next individually checked [Gorina and Nessa](gorina-and-nessa-queue.md), adult f
 382 completed profiles. Female Orc/Night Elf supply and travel personalities, fifteen personal lines/four v4 signatures each. Friendly counts Alliance 199, Horde 93, unverified 97, seven shared overlapping entries. Specific supplier roles/current sparse relations are not permission to invent training or assume quests removed. Nessa's full comparison chain/readable-letter era distinction retained. Sources/validation: [Orgrimmar dust and Rut'theran fish stories](orgrimmar-dust-and-ruttheran-fish-stories.md).
 
 Next individually checked [Adegwa and Zizplink](adegwa-and-zizplink-queue.md), adult male Tauren/female Goblin Horde innkeepers, not yet authored or counted complete. Rotate regions and services; regional access is separate from starter milestones. Wider 1510-name pool remains the scope.
+
+
+## 2026-11-09: Adegwa and Zizplink
+
+384 completed authored profiles, adult male Tauren/female Goblin innkeepers, fifteen personal lines/four v4 signatures each. Friendly counts Alliance199, Horde95, unverified97, seven shared overlapping entries. Regional service coverage does not automatically establish beginner access. Sources/writing/validation: [Hammerfall puns and Powderfuse ocean air](hammerfall-puns-and-powderfuse-ocean-air.md). Zizplink's unread grocery list/unavailable completion paragraphs remain explicit open research leads, not silently fulfilled readings.
+
+Next individually checked [Chepi and Ezekiel](chepi-and-ezekiel-queue.md), unprofiled adult female Tauren/male Forsaken. Chepi current Horde Friendly; Ezekiel current Horde Neutral and Tirisfal map pin require careful access/location treatment. Do not count neutral as friendly or override live attackability. Wider1510-name research pool remains the scope.

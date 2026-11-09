@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Adegwa, Hammerfall, Arathi Highlands, 9501/8634.
+    -- Adult male Tauren, current Horde-friendly Innkeeper/Vendor.
+    -- Installed plains-wind welcome; twelve current cheese/drink stock
+    -- rows. Cheese wordplay is ours; later War Crimes cameo excluded.
+    -- Research: docs/research/hammerfall-puns-and-powderfuse-ocean-air.md.
+    [9501] = {
+        quote = "A mild cheese, a sharp cheese, and gentle company. I try to keep the conversation from becoming too grating.",
+        likes = { "A guest settling in without hurry", "Sharp cheese and gentle company", "An amused groan at a terrible joke" },
+        dislikes = { "A welcome made to feel like an obligation", "Good food wasted to prove a point", "A tired traveler apologizing for resting" },
+        gossip = "Adegwa's calm expression sometimes conceals a cheese joke. Guests have learned that a thoughtful pause may be their only warning.",
+        bio = "Adegwa welcomes travelers to Hammerfall with the ease of wind crossing the plains. He offers cheese, drinks and a place to call home. He has dungeon directions for the adventurous, and gentler company for those ready to stop.",
+        backstory = "A guest once praised Adegwa's hospitality with a dreadful cheese joke. He laughed long after the traveler left. Since then he has been collecting equally poor replies, offering them with the same calm care as a welcome at the door.",
+        secret = "He remembers who laughed at the worst jokes. When those guests return, he saves a new one for them. A familiar groan can sound remarkably like being glad to see someone.",
+        bestFriend = "Sit with me. You may groan at the next joke; I will know you are comfortable enough to stay for it. I am glad you came back.",
+        favorite = { emote = "GRIN", hint = "An amused expression encourages the wordplay hidden behind his calm welcome." },
+        lines = {
+            greet = { { "You are welcome here, friend. Put down what you are carrying and take a moment to arrive. There is cheese, something to drink, and company if you want it. I shall try to keep the conversation mild. Unless you would prefer something sharp. There, you have had fair warning.", tone = "[warm] [unhurried] [dryly amused]" },
+                "There you are. Come in before you begin explaining why you ought to be somewhere else." },
+            idle = { { "A traveler once thanked me with a cheese joke so poor that I was still laughing after they had gone. I have been finding replies ever since. A good welcome need not be clever. That is fortunate, because several of these are a long way from clever.", tone = "[gentle] [amused]" },
+                "A thoughtful silence. You may enjoy it while I decide whether this next joke should remain unspoken.",
+                "The wind does not ask whether you have earned a place on the plains. You need not earn a welcome here." },
+            befriended = { { "You return as someone whose company I look forward to, and that is worth more than another purchase. Come along, friend. I would enjoy seeing a little of the road with you. If the conversation becomes too serious, I have been saving a particularly poor joke for a trusted audience.", tone = "[warm] [sincere] [gently playful]" } },
+            poke = { "Yes? I was deciding whether that one was too grating.", "You have my attention. The joke can wait a little longer." },
+            rest = { { "There is no need to apologize for stopping. You have been carrying the day long enough to set it down for a while. A little food, a drink, familiar company. We can leave the next danger outside the conversation until you are ready. I can offer a worse joke instead.", tone = "[soothing] [warm] [wry]" } },
+            loot = { "Something worth bringing home? I would enjoy hearing what pleased you about it." },
+            bagsFull = { "A full bag is a good reason to pause before deciding what the next journey needs." },
+            zone = { "A new place may offer a welcome you have not yet heard." },
+            dungeon = { "Learn the way before you go, and leave yourself a way to return." },
+            laughAlong = { "Ah, that was worth saving. Though I suspect it will sound worse when I repeat it." },
+            hearth = { "Back to Hammerfall. There is room in the welcome for a returning friend." },
+        },
+    },
+
+    -- Innkeeper Zizplink, Powderfuse Port, Riverglades, 255894/139284.
+    -- Adult female Goblin, current Horde-friendly Innkeeper/Vendor.
+    -- Installed ocean-air greeting; 95988/95957 refuse more booze for Gray,
+    -- prepare/deliver a goblin pick-me-up. His family decision is his.
+    -- Her fondness for honest harbor smells is ours; unread list omitted.
+    -- Research: docs/research/hammerfall-puns-and-powderfuse-ocean-air.md.
+    [255894] = {
+        quote = "Fresh ocean air! Comes with proof there is an ocean. If you want a coastline without a whiff of fish, you want a better advertisement.",
+        likes = { "Travelers with somewhere to go afterward", "A good pitch that survives the truth", "The harbor getting on with its morning" },
+        dislikes = { "Her inn mistaken for an endless bar tab", "Another round offered to someone unsteady", "Sweet words covering an obvious problem" },
+        gossip = "Zizplink's welcome promises ocean air. She admits the fishy part before a guest can complain, which makes the rest of the pitch rather convincing.",
+        bio = "Zizplink keeps an inn in Powderfuse Port. Her ocean-air welcome comes with a fishy warning. When Gray Dawnbright wants more alcohol, she helps the player prepare a goblin pick-me-up instead. An inn is not an invitation to stay drunk indefinitely.",
+        backstory = "Zizplink tried polishing her welcome until it sounded like the finest seaside advertisement. A fishy gust kept interrupting. She began mentioning that part herself. Guests laughed, and she found the honest version easier to deliver.",
+        secret = "She rather likes the harbor's familiar smell in the morning. It means boats, trade and travelers arriving. She still reserves the right to complain when the breeze becomes too enthusiastic.",
+        bestFriend = "You'll get a welcome and a straight answer from me. Some days the answer has a bite. You're still someone I want coming through the door.",
+        favorite = { emote = "SMILE", hint = "Appreciates a traveler who enjoys the honest joke tucked inside her seaside welcome." },
+        lines = {
+            greet = { { "A worldly explorer! Welcome to the coast. Fresh ocean air, a place to stop, and an honest warning about the fishy part of the breeze. I could leave that out of the welcome, but then you would spend the first minute discovering it yourself. This way we can get on with business.", tone = "[brisk] [welcoming] [salesman charm]" },
+                "Back again? Good. You already know the air comes with the harbor. What else can I do for you?" },
+            idle = { { "I tried making the welcome sound like a grand seaside advertisement. Every time I reached the finest part, the wind brought something fishy through the door. Now I mention it first. People laugh, nobody thinks I hid the obvious, and I get to finish a sentence on my own terms.", tone = "[animated] [wry]" },
+                "That breeze is giving the advertisement rather more detail than it needs.",
+                "An inn. A place to stop on the way somewhere. Some guests require a reminder of the last part." },
+            befriended = { { "You come back, take a straight answer, and still seem pleased to see me. I like that. Come along, friend. Let us find out what is worth seeing beyond the next advertisement. If it turns out to be mostly fish and an enthusiastic description, we can at least compare it with home.", tone = "[warm] [upbeat] [sincere]" } },
+            poke = { "Yes? I was waiting for the breeze to finish its sales pitch.", "I'm listening. If this is another request for Gray's next round, reconsider it." },
+            quest = { { "Gray has had enough of the usual drinks. I told you, this is an inn. If you are trying to get him moving, another round will not improve the situation. I can prepare a goblin pick-me-up. Do not confuse a particularly impressive froth with an invitation to sample the delivery.", tone = "[firm] [brisk] [dryly amused]" } },
+            loot = { "Worth something, or merely advertised that way? Let's hear the difference." },
+            bagsFull = { "You can carry only so much. A convincing description does not make the bag any bigger." },
+            zone = { "New surroundings. Let's see how the welcome compares with what the breeze is actually bringing." },
+            rest = { "Stop for a while. Just remember that stopping and never getting on with things are different arrangements." },
+            laughAlong = { "There! An honest laugh. Much easier to arrange than convincing the harbor to smell expensive." },
+            hearth = { "Back to Powderfuse Port. The breeze will tell us when we are close enough." },
+        },
+    },
+
     -- Gorina <Mining Supplier>, Valley of Honor, Orgrimmar, 3358/1380.
     -- Adult female Orc, current Horde-friendly. Supplies title/current pin;
     -- Classic four-item stock, own current relation coverage empty.

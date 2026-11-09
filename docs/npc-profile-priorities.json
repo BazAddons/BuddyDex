@@ -924,6 +924,20 @@
       "zone": "Riverglades",
       "route": "Horde Tauren/Goblin regional inn coverage",
       "reason": "Exact current named adult model, individual Horde-friendly icon, pin and runtime voice checked; Adegwa male, Zizplink female; full own service/quest/literary research pending. See docs/research/adegwa-and-zizplink-queue.md"
+    },
+    {
+      "npc_id": 8361,
+      "name": "Chepi",
+      "zone": "Thunder Bluff",
+      "route": "Tauren/Forsaken supplies and named vendor coverage",
+      "reason": "Exact current named adult model/pin/voice checked; Chepi Horde Friendly, Ezekiel Horde Neutral so no friendly coverage inferred. Full service/quest/era and live-gate research pending. See docs/research/chepi-and-ezekiel-queue.md"
+    },
+    {
+      "npc_id": 4585,
+      "name": "Ezekiel Graves",
+      "zone": "Tirisfal Glades",
+      "route": "Tauren/Forsaken supplies and named vendor coverage",
+      "reason": "Exact current named adult model/pin/voice checked; Chepi Horde Friendly, Ezekiel Horde Neutral so no friendly coverage inferred. Full service/quest/era and live-gate research pending. See docs/research/chepi-and-ezekiel-queue.md"
     }
   ]
 }
