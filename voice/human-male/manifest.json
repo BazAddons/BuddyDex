@@ -1691,6 +1691,86 @@
     "spoken": "[excited] I know the flight path from here!",
     "text": "{zone}! I know the flight path from here."
   },
+  "lore5484_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5484",
+    "spoken": "[reserved affection, sincere, quietly welcoming] You have made time for me again. I am glad of it, my friend. Come along. We can leave the lessons in the hall for a while.",
+    "text": "You have made time for me again. I am glad of it, my friend. Come along. We can leave the lessons in the hall for a while.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5484_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5484",
+    "spoken": "[firm warmth, thoughtful, restrained amusement] There you are. A walk? Good. I have been turning the same thought over along the same stretch of floor. Let us give it some room.",
+    "text": "There you are. A walk? Good. I have been turning the same thought over along the same stretch of floor. Let us give it some room.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5484_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5484",
+    "spoken": "[dry humor, thoughtful, quietly fond] I count my steps when I am thinking. Then someone brings me a question, and I lose count. A worthwhile interruption, usually.",
+    "text": "I count my steps when I am thinking. Then someone brings me a question, and I lose count. A worthwhile interruption, usually.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5484_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5484",
+    "spoken": "[firm approval, focused encouragement, steady] Good. Practice it while you remember where the difficult part was. Understanding improves when you return to the work.",
+    "text": "Good. Practice it while you remember where the difficult part was. Understanding improves when you return to the work.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5489_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5489",
+    "spoken": "[sincere affection, pleased, welcoming] You came to bring me along. I am grateful, my friend. It will be good to share more than a greeting with you today.",
+    "text": "You came to bring me along. I am grateful, my friend. It will be good to share more than a greeting with you today.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5489_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5489",
+    "spoken": "[courteous warmth, curious, lightly amused] Welcome, my friend. Shall we go out? You might teach me a greeting for the road. I have been practicing the last one.",
+    "text": "Welcome, my friend. Shall we go out? You might teach me a greeting for the road. I have been practicing the last one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5489_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5489",
+    "spoken": "[humble amusement, interested, warm] An unfamiliar greeting takes practice. I ask people to repeat it. They have been very patient with me, especially over the sounds I thought I already knew.",
+    "text": "An unfamiliar greeting takes practice. I ask people to repeat it. They have been very patient with me, especially over the sounds I thought I already knew.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5489_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:5489",
+    "spoken": "[thoughtful curiosity, open and attentive, calm] Another place, another welcome to learn. Let us listen before assuming we know how everyone here does things.",
+    "text": "Another place, another welcome to learn. Let us listen before assuming we know how everyone here does things.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore5564_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -5041,7 +5041,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -5148,7 +5148,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38993,6 +38993,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 5484,
+      "name": "Brother Benjamin",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Benjamin",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 5569,
       "name": "Fizzlebang Booms",
       "source": "Existing local backlog; absent from source filter",
@@ -39251,17 +39262,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Bishop Farthing",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5484,
-      "name": "Brother Benjamin",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Brother Benjamin",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,

@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Cathedral of Light: Brother Benjamin 5484, human male Priest
+    -- Trainer, paces eastern hall; rigorous retraining/service dialogue.
+    -- Brother Joshua 5489, human male Priest Trainer near altar; Classic
+    -- Alathea referral 5631 and Ogtinc referral 8254. Ambiguous 5676 offer
+    -- is not used as personal belief. Original steps/greetings hooks:
+    -- docs/research/benjamin-and-joshua.md.
+    [5484] = {
+        quote = "Beginning again requires effort. You have my respect for doing it, provided you intend to do the work.",
+        likes = { "A learner returning to practice", "An honest account of a mistake", "A walk long enough to finish a thought" },
+        dislikes = { "A new lesson used to avoid old work", "Mocking someone who begins again", "Promises made in place of practice" },
+        gossip = "Benjamin can cover a good deal of floor while thinking. A student with a question can stop him more reliably than any obstacle in the hall.",
+        bio = "Brother Benjamin trains priests in Stormwind's Cathedral of Light. He paces the eastern main hall, offering help and urging visitors to hold to the Light. He expects serious effort from anyone who begins anew.",
+        backstory = "Benjamin has helped students set aside old learning and start again. He expects effort and gives it in return. His own habit is to count his steps while considering a difficult question, until another pupil gives him something else to consider.",
+        secret = "He has lost count of his steps many times. He pretends to mind the interruption. A hall where nobody dared ask a question would trouble him far more.",
+        bestFriend = "Walk with me. You needn't bring a lesson or a question. I should be glad of your company while I let one thought finish itself.",
+        favorite = { emote = "NOD", hint = "A deliberate acknowledgment shows that his advice has been heard." },
+        lines = {
+            greet = { { "There you are. A walk? Good. I have been turning the same thought over along the same stretch of floor. Let us give it some room.", tone = "[firm warmth, thoughtful, restrained amusement]" }, "Welcome back. Ready to put a little distance behind us?" },
+            idle = { { "I count my steps when I am thinking. Then someone brings me a question, and I lose count. A worthwhile interruption, usually.", tone = "[dry humor, thoughtful, quietly fond]" }, "Beginning again is work. There is no shame in admitting that.", "A promise improves considerably when someone follows it with practice." },
+            befriended = { { "You have made time for me again. I am glad of it, my friend. Come along. We can leave the lessons in the hall for a while.", tone = "[reserved affection, sincere, quietly welcoming]" } },
+            poke = { "Yes? I have lost count now. What is it?", "You have my attention. Make use of it." },
+            learned = { { "Good. Practice it while you remember where the difficult part was. Understanding improves when you return to the work.", tone = "[firm approval, focused encouragement, steady]" } },
+            levelUp = { "Well earned. Take the next step with the same care." },
+            quest = { "You followed through. Good." },
+            zone = { "Room for a longer thought here." },
+            rest = { "A pause, then. Even a determined mind can use one." },
+            comforted = { "You are allowed a difficult day. I shall stay a moment." },
+            hearth = { "Back to the hall. Someone may be waiting with a question." },
+        },
+    },
+    [5489] = {
+        quote = "Tell me how you greet a friend at home. I should like a visitor to hear something familiar, even if I must practice it first.",
+        likes = { "A sincere greeting in another tongue", "Help offered beyond familiar walls", "A visitor willing to teach him something" },
+        dislikes = { "Dismissing an unfamiliar tradition", "Helping only when praise is promised", "A traveler left unsure where to go" },
+        gossip = "Joshua welcomes visitors at the cathedral. Sometimes he tries a new greeting quietly first, giving each unfamiliar sound its turn.",
+        bio = "Brother Joshua trains priests near the altar in Stormwind's Cathedral of Light. His work has included passing Alathea's summons to a night elf priest and calling for aid to Ogtinc in Azshara. Those who need help can be far beyond the city's walls.",
+        backstory = "Sending a traveler to the right person matters to Joshua. So does receiving one kindly. He has begun learning greetings from visitors, asking them to repeat the unfamiliar sounds until he can offer something of their own welcome back.",
+        secret = "He practices when he thinks nobody is listening. He would rather risk sounding foolish than leave a visitor's kindness unanswered, but he is still grateful for patient correction.",
+        bestFriend = "Will you hear me try it once more? You may correct me. It is a pleasure to learn something beside a friend who wants me to get it right.",
+        favorite = { emote = "GREET", hint = "A sincere greeting gives this welcoming teacher something to return." },
+        lines = {
+            greet = { { "Welcome, my friend. Shall we go out? You might teach me a greeting for the road. I have been practicing the last one.", tone = "[courteous warmth, curious, lightly amused]" }, "Good to see you again. Where are we sharing the road today?" },
+            idle = { { "An unfamiliar greeting takes practice. I ask people to repeat it. They have been very patient with me, especially over the sounds I thought I already knew.", tone = "[humble amusement, interested, warm]" }, "Someone in need may be a long way from these halls.", "A traveler should know whom to ask when they reach the other end of a journey." },
+            befriended = { { "You came to bring me along. I am grateful, my friend. It will be good to share more than a greeting with you today.", tone = "[sincere affection, pleased, welcoming]" } },
+            poke = { "Yes? Did I say it incorrectly again?", "I am listening. What would you like to ask?" },
+            zone = { { "Another place, another welcome to learn. Let us listen before assuming we know how everyone here does things.", tone = "[thoughtful curiosity, open and attentive, calm]" } },
+            group = { "Good to see everyone here. Has anyone been left without an introduction?" },
+            quest = { "A little help offered where it was needed. Well done." },
+            learned = { "There is always room to learn something from another person." },
+            mail = { "A greeting carried over a long distance. I hope it finds you well." },
+            rest = { "A good time for a quiet conversation. What should I practice next?" },
+            hearth = { "Back to the cathedral, with something new to remember." },
+        },
+    },
+
     -- Cathedral of Light, Stormwind. Shaina Fuller 2327: human female
     -- First Aid Trainer; Deneb Walker book and Gustaf VanHowzen referrals.
     -- Brother Cassius 1351: human male Reagent Vendor; offers a blessing
