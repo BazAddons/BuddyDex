@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Everyday Merchandise, Trade District: Edna Mullby 1286, human female
+    -- Trade Supplier; Thurman Mullby 1285, human male General Goods Vendor.
+    -- Actual service greetings and Classic/current stock checked; no
+    -- verified personal quest chains. Juggling and miniature box forts
+    -- are original: docs/research/everyday-merchandise.md.
+    [1286] = {
+        quote = "Tell me what you are making, and we can begin with what you need. You needn't know the name of everything before you ask.",
+        likes = { "A beginner willing to ask for help", "The right supplies for the job", "A catch that surprises her too" },
+        dislikes = { "Making someone ashamed to ask", "Guessing when a question would help", "Calling a little practice pointless" },
+        gossip = "Edna knows where the supplies belong. Three wooden juggling balls are proving harder to keep in their appointed places.",
+        bio = "Edna Mullby supplies tradespeople at Everyday Merchandise in Stormwind's Trade District. Tools, thread, dyes and other materials bring many different needs to her counter. She welcomes browsers and offers to help them find what they are looking for.",
+        backstory = "Edna has taken up juggling with three wooden balls. Two cooperate reasonably well. Adding the third makes the whole arrangement less reliable. She keeps trying, pleased to have a skill she can practice simply because it looks enjoyable.",
+        secret = "She once caught all three and had nobody there to see it. She was delighted anyway. Now she would like to manage it with a friend watching, so they can be pleased together.",
+        bestFriend = "Stay a moment. I think I have the knack this time. If I haven't, you may help me find the third ball. Either way, I am glad you are here.",
+        favorite = { emote = "CHEER", hint = "An encouraging response helps when a new skill is still a little unpredictable." },
+        lines = {
+            greet = { { "There you are, my friend. Have you time for a walk? I have been practicing the juggling. Three catches yesterday. Today, rather more bending down. I am still enjoying it.", tone = "[brisk warmth, cheerful self-mockery, welcoming]" }, "Good to see you. Have you found what you needed for the day?" },
+            idle = { { "I caught all three with nobody there to see it. I was delighted anyway. But next time, I should like you there. A small triumph is pleasant to share.", tone = "[pleased recollection, candid affection, lightly amused]" }, "You needn't know the proper name before asking for help finding a thing.", "Two balls are quite agreeable. The third appears to have plans elsewhere." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. We can have a little of the day to enjoy ourselves, with no list to finish first.", tone = "[sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Did you see where the third one went?", "I am listening. Tell me what you need." },
+            learned = { { "There, you have it. Be pleased with yourself. I know how much practice can hide behind one moment that finally looks easy.", tone = "[warm encouragement, appreciative, sincerely pleased]" } },
+            bagsFull = { "A little sorting may help before you try to fit anything else in there." },
+            loot = { "Something for the work ahead? Give it a proper place." },
+            gear = { "Does it suit the job you need it for? That is worth asking." },
+            quest = { "Well done. Have a moment to enjoy having finished." },
+            rest = { "A seat would be lovely. Practice can wait while we talk." },
+            hearth = { "Back to the counter. I shall have another try at the juggling later." },
+        },
+    },
+    [1285] = {
+        quote = "A little preparation is worth the trouble. So is leaving yourself time to enjoy something you hadn't put on the list.",
+        likes = { "The useful thing remembered in time", "Empty boxes with possibilities", "A drawbridge that opens properly" },
+        dislikes = { "An errand spoiled by one forgotten thing", "Mocking a harmless bit of enjoyment", "A good idea thrown out with the packing" },
+        gossip = "Thurman sells ordinary necessities. His empty boxes may enjoy a second career as a small and increasingly elaborate fortress.",
+        bio = "Thurman Mullby sells general goods at Everyday Merchandise in Stormwind's Trade District. Bags, provisions and other useful supplies are part of his trade. He offers a friendly welcome to people browsing or looking for something particular.",
+        backstory = "A few small empty boxes suggested towers to Thurman. He arranged them into a fort, then gave the gate rather more thought than he intended. A bit of string made a working drawbridge. He has been improving the place whenever he has a quiet moment.",
+        secret = "The drawbridge works beautifully. Unfortunately, the wall beside it falls over if he pulls too hard. He is trying to strengthen it without spoiling the very satisfying opening.",
+        bestFriend = "Come and inspect the fort. Suggest improvements, but admire the drawbridge first. It is much more fun with you here.",
+        favorite = { emote = "SALUTE", hint = "A playful show of respect might suit the proud builder of a very small fortress." },
+        lines = {
+            greet = { { "Ah, my friend. Shall we take a walk? I have improved the drawbridge. The wall still needs attention, but the opening is very satisfying. You must come and inspect it sometime.", tone = "[warm welcome, restrained excitement, playful pride]" }, "Good to see you. Have you finished your errands, or are we remembering one last thing?" },
+            idle = { { "The drawbridge opens beautifully. Then the wall falls over. A small weakness in the defenses, I admit. But I should hate to lose that opening. You would understand if you saw it.", tone = "[dry amusement, fond enthusiasm, confiding]" }, "An empty box may have another useful life in it. Or an enjoyable one.", "I began with two towers. It seems a fort is a difficult thing to consider finished." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. We can enjoy the walk, and you can give me your thoughts about the wall.", tone = "[sincere affection, quietly delighted, inviting]" } },
+            poke = { "Yes? Have you come to inspect the defenses?", "You have my attention. What is it?" },
+            loot = { { "Something useful? Have a proper look. An ordinary thing can hold a very good idea, if you give it a little thought before putting it aside.", tone = "[interested curiosity, warm encouragement, thoughtful]" } },
+            bagsFull = { "Have you sorted through what is in there? You may find room you had forgotten." },
+            gear = { "Good. Something suited to what you mean to do with it, I hope." },
+            quest = { "Well done. Have you time for something enjoyable before the next errand?" },
+            mail = { "An order, a letter or a pleasant surprise? Let us find out." },
+            rest = { "A seat sounds good. I can explain the difficulty with the wall." },
+            hearth = { "Back to the shop. I shall check that the little fort is still standing." },
+        },
+    },
+
     -- Trade District: Ben Trias 4981, human male Apprentice of Cheese at
     -- Trias' Cheese; current cheese/drink stock and ordinary merchant
     -- greetings. Thomas Miller 3518, human male wandering Baker, bread

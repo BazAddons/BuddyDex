@@ -39,6 +39,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1286_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1286",
+    "spoken": "[sincere affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. We can have a little of the day to enjoy ourselves, with no list to finish first.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. We can have a little of the day to enjoy ourselves, with no list to finish first.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1286_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1286",
+    "spoken": "[brisk warmth, cheerful self-mockery, welcoming] There you are, my friend. Have you time for a walk? I have been practicing the juggling. Three catches yesterday. Today, rather more bending down. I am still enjoying it.",
+    "text": "There you are, my friend. Have you time for a walk? I have been practicing the juggling. Three catches yesterday. Today, rather more bending down. I am still enjoying it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1286_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1286",
+    "spoken": "[pleased recollection, candid affection, lightly amused] I caught all three with nobody there to see it. I was delighted anyway. But next time, I should like you there. A small triumph is pleasant to share.",
+    "text": "I caught all three with nobody there to see it. I was delighted anyway. But next time, I should like you there. A small triumph is pleasant to share.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1286_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1286",
+    "spoken": "[warm encouragement, appreciative, sincerely pleased] There, you have it. Be pleased with yourself. I know how much practice can hide behind one moment that finally looks easy.",
+    "text": "There, you have it. Be pleased with yourself. I know how much practice can hide behind one moment that finally looks easy.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1287_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

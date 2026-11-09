@@ -119,6 +119,46 @@
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1285_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1285",
+    "spoken": "[sincere affection, quietly delighted, inviting] You came to bring me along. I am pleased, my friend. Come on. We can enjoy the walk, and you can give me your thoughts about the wall.",
+    "text": "You came to bring me along. I am pleased, my friend. Come on. We can enjoy the walk, and you can give me your thoughts about the wall.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1285_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1285",
+    "spoken": "[warm welcome, restrained excitement, playful pride] Ah, my friend. Shall we take a walk? I have improved the drawbridge. The wall still needs attention, but the opening is very satisfying. You must come and inspect it sometime.",
+    "text": "Ah, my friend. Shall we take a walk? I have improved the drawbridge. The wall still needs attention, but the opening is very satisfying. You must come and inspect it sometime.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1285_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1285",
+    "spoken": "[dry amusement, fond enthusiasm, confiding] The drawbridge opens beautifully. Then the wall falls over. A small weakness in the defenses, I admit. But I should hate to lose that opening. You would understand if you saw it.",
+    "text": "The drawbridge opens beautifully. Then the wall falls over. A small weakness in the defenses, I admit. But I should hate to lose that opening. You would understand if you saw it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1285_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1285",
+    "spoken": "[interested curiosity, warm encouragement, thoughtful] Something useful? Have a proper look. An ordinary thing can hold a very good idea, if you give it a little thought before putting it aside.",
+    "text": "Something useful? Have a proper look. An ordinary thing can hold a very good idea, if you give it a little thought before putting it aside.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1289_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
