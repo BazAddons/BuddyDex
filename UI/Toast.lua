@@ -154,7 +154,7 @@ local function ShowToast(npcID, entry, amount, oldTier, newTier)
         local ok, cr, cg, cb = pcall(art.RarityColor, entry.class)
         if ok and cr then r, g, b = cr, cg, cb end
     end
-    f.IconBorder:SetVertexColor(r, g, b)
+    f.IconBorder:SetVertexColor(r * 0.55, g * 0.55, b * 0.55)
     f.Name:SetText(Text(entry.name) or "Someone")
     f.Name:SetTextColor(r, g, b)
 

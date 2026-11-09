@@ -388,7 +388,7 @@ local function InitRow(row, data)
         local ok, cr, cg, cb = pcall(art.RarityColor, e.class)
         if ok and cr then r, g, b = cr, cg, cb end
     end
-    row.IconBorder:SetVertexColor(r, g, b)
+    row.IconBorder:SetVertexColor(r * 0.55, g * 0.55, b * 0.55)
     row.Name:SetText(Text(e.name) or "Unknown NPC")
     row.Name:SetTextColor(r, g, b)
 
