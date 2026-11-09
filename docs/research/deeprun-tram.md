@@ -1,0 +1,17 @@
+# Monty, Nipsy and Haggle
+
+Researched November 8, 2026. Installed Scout records identify Monty **12997**, Nipsy **13018** and Haggle **14041** as male, named Humanoids in the Deeprun Tram, reaction 5 for the observing Alliance character, with no attackable flag. Monty is titled Rat Extermination Specialist. Eligibility is contextual: this does not establish friendly interaction for a Horde character.
+
+## Confirmed identity and quest context
+
+- [Monty](https://warcraft.wiki.gg/wiki/Monty) is a male gnome at the Ironforge depot. [Nipsy](https://warcraft.wiki.gg/wiki/Nipsy) is his brother and sells rat kabobs at the Stormwind depot. [Haggle](https://warcraft.wiki.gg/wiki/Haggle) is a male leper gnome at the Ironforge depot. His ambient dialogue mentions cheese, rats, change and loss; wandering, sleeping and searching discarded things are documented behavior.
+- ClassicDB NPC pages: [Monty](https://classicdb.ch/?npc=12997), display **5485**; [Nipsy](https://classicdb.ch/?npc=13018), display **12965**; [Haggle](https://classicdb.ch/?npc=14041), display **14093**. Runtime display race/sex routing is checked before deployment. Leper-gnome appearance does not establish a separate custom voice.
+- Full descriptions, progress and completion were read directly from [Deeprun Rat Roundup 6661](https://classicdb.ch/?quest=6661) and [Me Brother, Nipsy 6662](https://classicdb.ch/?quest=6662). The first has Monty lend a flute and request five live rats for his brother. The second sends a carton to Nipsy, whose completion explains Monty's changed behavior after the Gnomeregan incident and says he has never seen an ocean. Thus pirate language is established, but a maritime career is not. Nipsy's sadness and ongoing commercial connection are established; a specific diagnosis or recovery is not.
+- [Forever quest index](https://forever-xp.com/quests/zone/deeprun-tram/) and [Forever version of 6662](https://www.wowhead.com/forever/quest=6662) provide external corroboration of the familiar chain. No locally captured Forever quest dialogue is claimed; no verified additional personal chain was found in the targeted search. Rewards and exact tuning are omitted.
+- Targeted searches did not establish a personal novel/comic appearance for these three. The [tram overview](https://warcraft.wiki.gg/wiki/Deeprun_Tram) references books and comics for the location, which does not establish their participation. Later retail closures and the Brawler's Guild are outside these profiles. Speculative pop-culture inspirations for Haggle are not in-world history.
+
+## Original writing
+
+Monty's concern for stragglers, Nipsy's saved helping and Haggle's reserved seat are original emotional hooks. All preferences, personal gossip, private thoughts and companion lines are BuddyDex fiction. The brothers' actual relationship is retained. No exact fate of Haggle's possessions, family, occupation or health is invented; friendship offers company without promising a cure. No quest completion is assumed of the player.
+
+Each profile has fifteen personal lines and four signature recordings using the established male gnome voice, Grimblewood Thornwhisker, with Eleven v4 delivery directions. These are spoken character directions rather than bubble text. Automated validation covers field budgets, supported favorites, exact dialogue mappings, audio decoding and runtime routing; live-game visual or listening review is not claimed.

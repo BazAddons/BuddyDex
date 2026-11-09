@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Deeprun Tram gnomes: Classic quests 6661/6662 establish Monty's
+    -- rat-catching work, Nipsy's kabob business, their brotherhood and
+    -- Monty's changed behavior after Gnomeregan. No actual seafaring past.
+    -- Haggle's ambient speech establishes hardship and a love of cheese;
+    -- no cause, cure or exact lost possessions invented. Personal hooks
+    -- and companion lines are original. docs/research/deeprun-tram.md.
+    [12997] = {
+        quote = "Steady now, matey. A proper crew keeps together, even when half the crew has whiskers and a dreadful sense of direction.",
+        likes = { "A tune that brings everyone along", "A crew that waits for stragglers", "A crate delivered on time" },
+        dislikes = { "A rattling crate left behind", "Someone stepping on his flute", "A passenger pushed toward the edge" },
+        gossip = "Monty counts his catches twice before sending a crate off. The second count gets rather nautical if anything moves.",
+        bio = "Monty catches rats at the Ironforge end of the Deeprun Tram. His flute helps adventurers gather them alive for his brother Nipsy's kabob business at the Stormwind depot.",
+        backstory = "Nipsy says Monty changed after the Gnomeregan incident and began speaking like a pirate, despite never having seen the ocean. Down in the tram, he has work, a flute and a brother waiting for his deliveries.",
+        secret = "He likes the moment when someone turns back to check that he's coming. For a little while, he doesn't have to be the one calling everyone together.",
+        bestFriend = "Hold up, matey. I'm coming too. Good to have a place beside you, even when there's no cargo to carry.",
+        favorite = { emote = "SALUTE", hint = "A friendly salute might make this rat-catching captain feel welcome aboard." },
+        lines = {
+            greet = { { "Ahoy, matey! Room for one more in your crew?", tone = "[jaunty, friendly voice, theatrical pirate greeting]" }, "Flute? Aye. Boots? Aye. Right, we're ready to cast off." },
+            idle = { { "Count the crew before you leave. Then look back for anyone you missed.", tone = "[gentle, earnest voice, soft pirate lilt]" }, "Five little tails, all following one tune. Quite a sight, matey.", "No crates today? Well, I suppose we can travel for the pleasure of it." },
+            befriended = { { "You came back for me, matey. That's worth more than a full cargo hold.", tone = "[warm, deeply touched voice, quiet pirate lilt]" } },
+            poke = { "Aye? The captain's listening.", "Steady with the elbows, matey. That's me flute arm." },
+            taxi = { "A flying passage! Best keep a firm hold of your belongings, matey." },
+            landed = { "All here? Boots, packs, friends? Fine work, crew." },
+            bagsFull = { "A full hold! Mind you leave room to get yourself aboard." },
+            quest = { { "Cargo delivered, crew accounted for. A fine day's work, matey.", tone = "[pleased, hearty voice, satisfied pirate flourish]" } },
+            rest = { "Aye, a little shore leave. I'll sit beside you." },
+            levelUp = { "Well sailed, matey! Onward when you're ready." },
+            hearth = { "Home port. Let's make sure nobody's been left behind." },
+        },
+    },
+    [13018] = {
+        quote = "Have a seat while it's hot. You can tell me about the journey after you've had something to eat.",
+        likes = { "A customer who tries a bite", "Monty's deliveries arriving safely", "Sharing the last warm helping" },
+        dislikes = { "A good meal left to go cold", "A crate forgotten on the platform", "People laughing cruelly at Monty" },
+        gossip = "Nipsy can hear a complaint about the menu from the far end of the platform. He'll usually answer by offering a taste.",
+        bio = "Nipsy sells rat kabobs at the Stormwind end of the Deeprun Tram. His brother Monty supplies live rats from the Ironforge depot, sometimes sending an adventurer to deliver a carton.",
+        backstory = "Nipsy remembers his brother before the Gnomeregan incident. He speaks sadly of the change in Monty, whose pirate talk doesn't come from a life at sea. Their rat-kabob trade still connects them across the tram.",
+        secret = "He sometimes saves a helping until it has gone cold, just in case his brother comes over in person. He'd rather warm it again than admit he wasn't hoping.",
+        bestFriend = "Nothing you need to deliver today? Good. Sit with me. I've kept a helping, and I'd like the company.",
+        favorite = { emote = "THANK", hint = "A little appreciation for a warm meal matters more than a grand review." },
+        lines = {
+            greet = { { "There you are! Eaten yet? We can put that right before we go.", tone = "[brisk, welcoming voice, practical warmth]" }, "A change of scenery. Let me check I've brought a snack." },
+            idle = { { "People will try all sorts on an adventure, then get fussy about lunch.", tone = "[dryly amused voice, friendly confidence]" }, "Monty keeps his end of things moving. I hope he remembers to eat, too.", "A meal tastes better when you're allowed to sit down for it." },
+            befriended = { { "You stay after the food's gone. That's how I know you've come to see me.", tone = "[warm, quietly grateful voice]" } },
+            poke = { "Yes? Hungry again already?", "Careful. If I drop lunch, you're helping pick it up." },
+            loot = { "Useful? Good. If it's food, even better." },
+            bagsFull = { "You packed enough for a journey and forgot room for lunch, didn't you?" },
+            quest = { "Delivered safely? Good. Someone was waiting on that." },
+            rest = { { "Here, sit down a moment. A warm bite and a little company won't hurt.", tone = "[gentle, hospitable voice, easy warmth]" } },
+            levelUp = { "Well done! Now, surely that's worth stopping for something to eat." },
+            combatEnd = { "Everyone still with us? Right. Catch your breath first." },
+            hearth = { "Home again. I wonder whether Monty's had his supper." },
+        },
+    },
+    [14041] = {
+        quote = "You can sit here. Plenty of people pass through, but there's room for someone who wants to stay a moment.",
+        likes = { "A little cheese", "Someone remembering his name", "Company that doesn't hurry him" },
+        dislikes = { "Being laughed at when he's confused", "A meal taken out of his reach", "People speaking over him" },
+        gossip = "Haggle remembers which travelers stop to speak. He sometimes leaves a little room beside him before they've even reached the platform.",
+        bio = "Haggle is a leper gnome at the Ironforge end of the Deeprun Tram. He wanders, searches through discarded things and asks passersby for change. His talk often turns to rats, cheese and what he has lost.",
+        backstory = "He says he once had everything and lost it. His scattered recollections don't tell a clear history, and a listener cannot fill in the missing pieces for him. The person sitting on the platform still deserves to be heard.",
+        secret = "He likes keeping a place for someone. It gives him a small, pleasant thing to expect, even when he isn't sure when they'll come back.",
+        bestFriend = "Oh, it's you. I kept a place. You can tell me where you've been, or we can just sit. I'm glad you came.",
+        favorite = { emote = "WAVE", hint = "An ordinary friendly greeting can mean a great deal to someone people walk past." },
+        lines = {
+            greet = { { "Oh! I know you. Are we going somewhere together?", tone = "[hesitant, pleasantly surprised voice, growing warmth]" }, "Let me get my things. Won't take long. There aren't many." },
+            idle = { { "A little cheese, a place to sit, someone to talk to. That's a good afternoon.", tone = "[gentle, thoughtful voice, small contentment]" }, "I like when someone says my name before asking anything.", "Was I telling you something? It'll come back. You go on." },
+            befriended = { { "You remembered me. I was hoping you would. Shall we sit together a while?", tone = "[soft, moved voice, sincere warmth]" } },
+            poke = { "I'm here. Did you want to say something?", "Oh. Yes? Give me a moment." },
+            loot = { "Someone might have a use for that. Take a good look first." },
+            bagsFull = { "Full already? Best check what you've got before throwing anything away." },
+            quest = { "They were glad to see you, were they? That's nice." },
+            rest = { { "This looks like a good place. Is there room beside you?", tone = "[quiet, hopeful voice, tentative ease]" } },
+            combatEnd = { "Is it quiet now? I'd like a quiet moment." },
+            levelUp = { "Oh, well done. You should be pleased with yourself." },
+            hearth = { "Back somewhere you know. That's a comfort." },
+        },
+    },
+
     -- Bailey Stonemantle <Banker>, Vault of Ironforge. NPC 2461, male
     -- dwarf. No direct quest chain found. The real-world circus reference
     -- is not an in-world employment history. Coin balancing and lines are

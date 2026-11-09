@@ -2029,6 +2029,126 @@
     "spoken": "[excited] That's going straight to the good pocket.",
     "text": "That {item} is going straight to the good pocket."
   },
+  "lore12997_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:12997",
+    "spoken": "[warm, deeply touched voice, quiet pirate lilt] You came back for me, matey. That's worth more than a full cargo hold.",
+    "text": "You came back for me, matey. That's worth more than a full cargo hold.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore12997_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:12997",
+    "spoken": "[jaunty, friendly voice, theatrical pirate greeting] Ahoy, matey! Room for one more in your crew?",
+    "text": "Ahoy, matey! Room for one more in your crew?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore12997_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:12997",
+    "spoken": "[gentle, earnest voice, soft pirate lilt] Count the crew before you leave. Then look back for anyone you missed.",
+    "text": "Count the crew before you leave. Then look back for anyone you missed.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore12997_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:12997",
+    "spoken": "[pleased, hearty voice, satisfied pirate flourish] Cargo delivered, crew accounted for. A fine day's work, matey.",
+    "text": "Cargo delivered, crew accounted for. A fine day's work, matey.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore13018_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:13018",
+    "spoken": "[warm, quietly grateful voice] You stay after the food's gone. That's how I know you've come to see me.",
+    "text": "You stay after the food's gone. That's how I know you've come to see me.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore13018_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:13018",
+    "spoken": "[brisk, welcoming voice, practical warmth] There you are! Eaten yet? We can put that right before we go.",
+    "text": "There you are! Eaten yet? We can put that right before we go.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore13018_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:13018",
+    "spoken": "[dryly amused voice, friendly confidence] People will try all sorts on an adventure, then get fussy about lunch.",
+    "text": "People will try all sorts on an adventure, then get fussy about lunch.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore13018_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:13018",
+    "spoken": "[gentle, hospitable voice, easy warmth] Here, sit down a moment. A warm bite and a little company won't hurt.",
+    "text": "Here, sit down a moment. A warm bite and a little company won't hurt.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore14041_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14041",
+    "spoken": "[soft, moved voice, sincere warmth] You remembered me. I was hoping you would. Shall we sit together a while?",
+    "text": "You remembered me. I was hoping you would. Shall we sit together a while?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore14041_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14041",
+    "spoken": "[hesitant, pleasantly surprised voice, growing warmth] Oh! I know you. Are we going somewhere together?",
+    "text": "Oh! I know you. Are we going somewhere together?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore14041_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14041",
+    "spoken": "[gentle, thoughtful voice, small contentment] A little cheese, a place to sit, someone to talk to. That's a good afternoon.",
+    "text": "A little cheese, a place to sit, someone to talk to. That's a good afternoon.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore14041_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:14041",
+    "spoken": "[quiet, hopeful voice, tentative ease] This looks like a good place. Is there room beside you?",
+    "text": "This looks like a good place. Is there room beside you?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lowHealth_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

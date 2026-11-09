@@ -14399,7 +14399,7 @@
           "zone": "Deeprun Tram",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -24086,7 +24086,7 @@
           "zone": "Deeprun Tram",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25349,7 +25349,7 @@
           "zone": "Deeprun Tram",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38681,17 +38681,6 @@
       "profile_status": "complete"
     },
     {
-      "npc_id": 14041,
-      "name": "Haggle",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Haggle",
-      "zone": "Deeprun Tram",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 12997,
       "name": "Monty",
       "source": "Existing local backlog; absent from source filter",
@@ -38700,7 +38689,7 @@
       "zone": "Deeprun Tram",
       "scout_reaction": 5,
       "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
+      "profile_status": "complete"
     },
     {
       "npc_id": 13018,
@@ -38711,7 +38700,18 @@
       "zone": "Deeprun Tram",
       "scout_reaction": 5,
       "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 14041,
+      "name": "Haggle",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Haggle",
+      "zone": "Deeprun Tram",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
     },
     {
       "npc_id": 5917,
