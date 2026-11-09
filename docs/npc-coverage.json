@@ -1,17 +1,17 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 316,
+  "completed_profiles": 318,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
     "unverified": 77,
-    "horde": 53
+    "horde": 55
   },
   "npc_race_counts": {
     "1": 165,
     "3": 33,
     "7": 25,
-    "5": 26,
+    "5": 28,
     "4": 11,
     "6": 18,
     "2": 15,
@@ -28,7 +28,7 @@
     "Redridge Mountains": 23,
     "Dun Morogh": 5,
     "Ironforge": 32,
-    "Tirisfal Glades": 25,
+    "Tirisfal Glades": 27,
     "Teldrassil": 5,
     "Mulgore": 10,
     "Thunder Bluff": 5,
@@ -1455,6 +1455,32 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1478"
+    },
+    {
+      "npc_id": 1496,
+      "name": "Deathguard Dillinger",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1496"
+    },
+    {
+      "npc_id": 1521,
+      "name": "Gretchen Dedmar",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1521"
     },
     {
       "npc_id": 1568,

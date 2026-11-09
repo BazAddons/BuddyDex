@@ -1,3 +1,7 @@
+# Completed: Gretchen Dedmar and Deathguard Dillinger
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four approved Forsaken v4 signatures each. Development now has 318 complete profiles. See [full research](brill-thread-and-reinforcements.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Gretchen Dedmar and Deathguard Dillinger
 
 Identity shortlist, 2026-11-09, after 316 completed profiles. Expand familiar Forsaken quest contacts around Brill with adult female and male coverage. Neither profile is authored, recorded or counted complete. No personal Scout sighting is claimed.

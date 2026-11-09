@@ -39,6 +39,46 @@
     "text": "Another place to make a gracious entrance. Take a moment to look around, my friend. There may be a very small traveler with important business to attend to. We can allow it room before continuing with our own.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore1521_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1521",
+    "spoken": "[tender] [sincere] You came to see me. I know there are errands waiting, and people with more urgent voices. Thank you for choosing to spend a little of your time here, with me.",
+    "text": "You came to see me. I know there are errands waiting, and people with more urgent voices. Thank you for choosing to spend a little of your time here, with me.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1521_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1521",
+    "spoken": "[frail] [warm] There you are. Give me a moment to put the needle somewhere safe. I would like a little company, and I am quite willing to leave this last stitch for later.",
+    "text": "There you are. Give me a moment to put the needle somewhere safe. I would like a little company, and I am quite willing to leave this last stitch for later.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1521_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1521",
+    "spoken": "[quiet] [thoughtful] I have a little yellow thread put aside. Nothing the army needs. I thought I might sew a flower in the corner of my blanket, just because I would like to see one there.",
+    "text": "I have a little yellow thread put aside. Nothing the army needs. I thought I might sew a flower in the corner of my blanket, just because I would like to see one there.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1521_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1521",
+    "spoken": "[weary] [gentle] Let us stop here. I do not need you to tell me everything will be well. Sitting with me a little while is enough. You can tell me what you saw today.",
+    "text": "Let us stop here. I do not need you to tell me everything will be well. Sitting with me a little while is enough. You can tell me what you saw today.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore1661_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

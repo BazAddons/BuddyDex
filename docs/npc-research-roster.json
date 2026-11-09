@@ -777,5 +777,19 @@
     "zone": "The Barrens",
     "source": "Exact current adult Orc body, current city/border pin and qualified reaction; full Stonetalon and Dustwallow report chains, readable documents and installed gossip reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/zor-and-seereth-unfinished-matters.md"
+  },
+  {
+    "npc_id": 1521,
+    "name": "Gretchen Dedmar",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current Horde-friendly adult Forsaken model and pin; full personal tasks, warrior sequence, Forever report/punishment context and exact installed dialogue reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-thread-and-reinforcements.md"
+  },
+  {
+    "npc_id": 1496,
+    "name": "Deathguard Dillinger",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current Horde-friendly adult Forsaken model and pin; full personal tasks, warrior sequence, Forever report/punishment context and exact installed dialogue reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-thread-and-reinforcements.md"
   }
 ]

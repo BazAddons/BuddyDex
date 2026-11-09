@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 316,
+  "completed_count": 318,
   "remaining_count": 4,
   "completed": [
     {
@@ -1031,6 +1031,26 @@
       "name": "Aedis Brom",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1496,
+      "name": "Deathguard Dillinger",
+      "zone": "Tirisfal Glades",
+      "source": "Exact current Horde-friendly adult Forsaken model and pin; full personal tasks, warrior sequence, Forever report/punishment context and exact installed dialogue reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/brill-thread-and-reinforcements.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1521,
+      "name": "Gretchen Dedmar",
+      "zone": "Tirisfal Glades",
+      "source": "Exact current Horde-friendly adult Forsaken model and pin; full personal tasks, warrior sequence, Forever report/punishment context and exact installed dialogue reviewed; no Scout sighting claimed",
+      "research_notes": "docs/research/brill-thread-and-reinforcements.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2956,16 +2976,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 1521,
-      "name": "Gretchen Dedmar",
-      "zone": "Tirisfal Glades",
+      "npc_id": 3442,
+      "name": "Sputtervalve",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1496,
-      "name": "Deathguard Dillinger",
-      "zone": "Tirisfal Glades",
+      "npc_id": 9316,
+      "name": "Wenikee Boltbucket",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

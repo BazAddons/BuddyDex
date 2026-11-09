@@ -462,6 +462,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill female and male Forsaken quest contacts",
       "reason": "Exact current adult Forsaken body, Horde-friendly icon and Tirisfal pin verified; full personal quest/gossip/literary review pending. See docs/research/brill-gretchen-and-dillinger-queue.md"
+    },
+    {
+      "npc_id": 3442,
+      "name": "Sputtervalve",
+      "zone": "The Barrens",
+      "route": "Male and female Goblin engineering quest contacts",
+      "reason": "Exact current adult Goblin models, separate Ratchet/northern Barrens pins and conditional Neutral icons checked; full personal quest/gossip/literary review pending. See docs/research/barrens-goblin-engineers-queue.md"
+    },
+    {
+      "npc_id": 9316,
+      "name": "Wenikee Boltbucket",
+      "zone": "The Barrens",
+      "route": "Male and female Goblin engineering quest contacts",
+      "reason": "Exact current adult Goblin models, separate Ratchet/northern Barrens pins and conditional Neutral icons checked; full personal quest/gossip/literary review pending. See docs/research/barrens-goblin-engineers-queue.md"
     }
   ]
 }

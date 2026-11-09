@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gretchen Dedmar, adult female Forsaken, Gallows' End Tavern, Brill.
+    -- NPC 1521/display 3515. The Chill of Death: sewed soldiers' body bags,
+    -- feels cold/shakes, fears mindlessness, seeks pelts/thread for a blanket.
+    -- No cure or confirmed transformation is invented. Her embroidered
+    -- flower is original fiction. Research: docs/research/brill-thread-and-reinforcements.md.
+    [1521] = {
+        quote = "A little thread, a little patience. My hands still have work they wish to do.",
+        likes = { "Soft cloth against her hands", "Company that waits without hurrying", "A small patch of yellow thread" },
+        dislikes = { "Being told her work no longer matters", "A knot pulled too tight", "A draft through the window" },
+        gossip = "Gretchen has set aside a little yellow thread. Someone asked which uniform needed it. She only shook her head.",
+        bio = "Gretchen Dedmar stays at Brill's Gallows' End Tavern. She has sewn body bags for Sylvanas's soldiers. Chilled and fearing the loss of her mind, she asks for duskbat pelts and thread to make a blanket.",
+        backstory = "While sorting her sewing, Gretchen kept a short length of yellow thread apart from the practical colors. She began planning a little flower for the corner of her blanket, something she could make simply because she wanted it there.",
+        secret = "The flower is for herself. She has sewn so much for the fallen that she wants one small piece of work to be about what she still chooses, rather than what she fears.",
+        bestFriend = "Sit where I can see you. Tell me about your day while I work on this petal. There is no need to hurry either of us.",
+        favorite = { emote = "COMFORT", hint = "A gentle gesture means more than promises about tomorrow." },
+        lines = {
+            greet = { { "There you are. Give me a moment to put the needle somewhere safe. I would like a little company, and I am quite willing to leave this last stitch for later.", tone = "[frail] [warm]" },
+                "I am glad you came. Shall we sit a moment before we go?" },
+            idle = { { "I have a little yellow thread put aside. Nothing the army needs. I thought I might sew a flower in the corner of my blanket, just because I would like to see one there.", tone = "[quiet] [thoughtful]" },
+                "One petal at a time. I can manage that.",
+                "You need not fill every silence. I know you are here." },
+            befriended = { { "You came to see me. I know there are errands waiting, and people with more urgent voices. Thank you for choosing to spend a little of your time here, with me.", tone = "[tender] [sincere]" } },
+            poke = { "Gently, please. My hands are not quite steady.", "Yes? You can simply say my name." },
+            rest = { { "Let us stop here. I do not need you to tell me everything will be well. Sitting with me a little while is enough. You can tell me what you saw today.", tone = "[weary] [gentle]" } },
+            learned = { "A small thing learned is still something to keep." },
+            quest = { "Someone needed your help. I hope they knew how much it meant." },
+            loot = { "Mind the sharp edges. They catch on the cloth." },
+            bagsFull = { "Leave the sewing where we can reach it without emptying everything." },
+            comforted = { "Thank you. You did not have to find the perfect words." },
+            levelUp = { "Look at you. I am glad I was here to see that." },
+        },
+    },
+
+    -- Deathguard Dillinger, adult male Forsaken, west Brill, NPC 1496.
+    -- Facts: defends bridge/mills, Ulag trial and Coleman referral; sarcastic
+    -- town directions. Forever Patience report demands reinforcements.
+    -- The discreet direction checks below are ours; no Scourge threat is
+    -- declared over or class training made a friendship prerequisite.
+    -- Research: docs/research/brill-thread-and-reinforcements.md.
+    [1496] = {
+        quote = "Yes, I know the way. Whether you listen to it is apparently a separate question.",
+        likes = { "A report someone actually reads", "Reinforcements arriving unasked", "A traveler taking the correct fork" },
+        dislikes = { "Brill being left shorthanded", "Scourge gathering at the mills", "Directions interrupted halfway through" },
+        gossip = "Dillinger claims he gives directions only once. People have seen him walk far enough to check which turn a traveler takes.",
+        bio = "Deathguard Dillinger guards western Brill against the Scourge near the bridge and Agamand Mills. His report to Executor Zygand demands more guards, warning that Brill's fall would endanger the Undercity.",
+        backstory = "After watching a traveler take the wrong fork, Dillinger began finding reasons to walk a little farther along the road. He still delivers the directions with a cutting remark. Then he checks whether they worked.",
+        secret = "He would rather be called rude than have someone vanish after following his directions. If he repeats himself, it usually means he is worried enough to endure the conversation twice.",
+        bestFriend = "You found me without needing directions. Good. Stay a moment. I suppose I can manage a conversation without pointing at something.",
+        favorite = { emote = "SALUTE", hint = "Appreciates someone remembering that this is a guard post." },
+        lines = {
+            greet = { { "You found me. Excellent. That saves us the first half of the conversation. Where are we going? Give me a moment to check the road before you charge down it.", tone = "[raspy] [dryly amused]" },
+                "Ready? Listen to the whole direction this time." },
+            idle = { { "I told a traveler to take the eastern fork. He thanked me, then went west. Naturally, I had to walk a little farther on my round. Entirely routine. Nothing to discuss.", tone = "[deadpan] [gruff]" },
+                "A signpost would ask fewer questions. It would also be less entertaining.",
+                "The report is written. Now for the remarkable feat of getting it read." },
+            befriended = { { "You came back, and apparently not because you lost the road. Good. I have grown accustomed to you being around. Try not to make that an expensive habit for either of us.", tone = "[gruff] [warm]" } },
+            poke = { "The directions come out of my mouth. Try that end.", "Yes? Have you mistaken me for a signpost again?" },
+            quest = { { "Good. You did the work. Now tell me what you found, clearly enough that the next person can act on it. A report left unread will not keep the Scourge out of Brill.", tone = "[stern] [urgent]" } },
+            combatStart = { "Hold your ground. Make them regret the approach." },
+            combatEnd = { "Still on your feet? Good. Check the road behind us." },
+            zone = { "New roads. Let us learn them before someone asks." },
+            rest = { "Sit where you can see the approach. Rest is not a blindfold." },
+            levelUp = { "Better. I may have to find something else to criticize." },
+            bagsFull = { "Keep the report where you can find it. Preferably above the claws." },
+        },
+    },
+
     -- Zor Lonetree, adult male Orc Elder Far Seer, Orgrimmar, NPC 4047.
     -- Facts: sends aid to Seereth; Nazeer values his Alliance political
     -- knowledge. Has scholars study Marg's pendant; ownership stays open.
