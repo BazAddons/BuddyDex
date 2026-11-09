@@ -259,6 +259,20 @@
       "zone": "Mulgore",
       "route": "Tauren starter quest and services",
       "reason": "Adult female Tauren exact current baker identity/model verified; sparse node lacks reaction/pin/stock; current Bloodhoof location/access, vendor role and dialogue pending. See docs/research/mulgore-wells-and-baker-queue.md"
+    },
+    {
+      "npc_id": 3453,
+      "name": "Wharfmaster Dizzywig",
+      "zone": "The Barrens",
+      "route": "Goblin quest/service review with neutral-access gate",
+      "reason": "Adult male Goblin exact current model and Barrens pin verified; current Horde-icon Neutral reaction is not a friendly-access proof; full shipment chains and eligibility pending. See docs/research/goblin-quest-and-trade-queue.md"
+    },
+    {
+      "npc_id": 11189,
+      "name": "Qia",
+      "zone": "Winterspring",
+      "route": "Goblin quest/service review with neutral-access gate",
+      "reason": "Adult female Goblin exact current merchant identity/model verified; sparse node has no location/reaction; current Everlook stock, access and any dialogue pending; later travel destination, not beginner coverage. See docs/research/goblin-quest-and-trade-queue.md"
     }
   ]
 }
