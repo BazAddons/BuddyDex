@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Swart and Marion Call: full Orc/Forsaken profiles, fifteen personal lines and four approved v4 signatures each; preserve their actual trainer/referral roles and keep later literary events separate.
+
 - Add Urda and Thysta: full Orc flight-master profiles, fifteen personal lines and four approved v4 signatures each, with confirmed Hammerfall/Grom'gol identities and later-retail stories kept separate.
 
 - Add Una and Zarrin: full Tauren/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Una's teaching/student relationships and Zarrin's balance lesson and Forever campfire guidance.

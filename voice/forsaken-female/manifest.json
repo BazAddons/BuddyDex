@@ -239,6 +239,46 @@
     "text": "Good. Give the new ability the study it deserves. Understanding its use includes knowing when to exercise restraint. Your next choice is worth as much attention as the first successful attempt.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore2130_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2130",
+    "spoken": "[raspy] [reserved warmth] You have learned when I am giving an instruction, and when I am merely glad of your company. A useful distinction. Come along. We can spend a little time without a cover story. If I say I enjoyed it afterward, you may take the words exactly as they stand.",
+    "text": "You have learned when I am giving an instruction, and when I am merely glad of your company. A useful distinction. Come along. We can spend a little time without a cover story. If I say I enjoyed it afterward, you may take the words exactly as they stand.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2130_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2130",
+    "spoken": "[raspy] [dry] [faintly amused] Good to see you. There, a complete message with no hidden assignment. You may put away the expression you use when trying to remember a password. If I need something done, I will tell you. For the moment, I was simply acknowledging a welcome arrival.",
+    "text": "Good to see you. There, a complete message with no hidden assignment. You may put away the expression you use when trying to remember a password. If I need something done, I will tell you. For the moment, I was simply acknowledging a welcome arrival.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2130_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2130",
+    "spoken": "[raspy] [deadpan] [amused] I told a visitor their coat suited them. They asked where to deliver it. I explained that I had merely meant the coat looked well. That made them more suspicious. Apparently a plain compliment requires a more convincing performance than I had expected. I am still working on it.",
+    "text": "I told a visitor their coat suited them. They asked where to deliver it. I explained that I had merely meant the coat looked well. That made them more suspicious. Apparently a plain compliment requires a more convincing performance than I had expected. I am still working on it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2130_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2130",
+    "spoken": "[raspy] [cool] [firm] Carkad does not summon prospective recruits because he enjoys waiting for them. If he has taken an interest, go and hear what he wants. How you look will not settle whether you are useful. Attend to the business before deciding what you think you have already proved.",
+    "text": "Carkad does not summon prospective recruits because he enjoys waiting for them. If he has taken an interest, go and hear what he wants. How you look will not settle whether you are useful. Attend to the business before deciding what you think you have already proved.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore2132_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

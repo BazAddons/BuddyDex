@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen lines and four approved v4 signatures each. See [final evidence and validation](razor-hill-breakfast-and-brill-compliments.md). Original planning/research checkpoints below retained as history.
+
 # Next: Swart and Marion Call
 
 Current named adult identities individually checked 2026-11-09. Neither authored nor recorded; no Scout capture claimed. Cache `C:/Users/brett/BuddyDex-builds/urda-thysta-research/next-npc-ID.json`.

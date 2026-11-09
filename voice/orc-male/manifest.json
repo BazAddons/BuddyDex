@@ -79,6 +79,46 @@
     "text": "You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3173_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3173",
+    "spoken": "[deep] [warm] [sincere] You have brought questions worth considering, and company I have come to value. Come along, friend. There are things we may learn without turning every moment into a lesson. When we stop to eat, you may help me decide which half of the bread to begin with.",
+    "text": "You have brought questions worth considering, and company I have come to value. Come along, friend. There are things we may learn without turning every moment into a lesson. When we stop to eat, you may help me decide which half of the bread to begin with.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3173_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3173",
+    "spoken": "[deep] [warm] [patient] Welcome, friend. What brings you here today? A question about your next lesson, or something that needs a little time to understand? We can begin with either. If you have come before breakfast is settled, I may ask for your judgment on a less demanding matter first.",
+    "text": "Welcome, friend. What brings you here today? A question about your next lesson, or something that needs a little time to understand? We can begin with either. If you have come before breakfast is settled, I may ask for your judgment on a less demanding matter first.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3173_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3173",
+    "spoken": "[deep] [gently amused] Plain bread, or honey? It is a small choice, but the day has room for one small choice to be made slowly. I usually cut the bread in two. A satisfactory arrangement. Now I have a quiet moment, something sweet, and no reason to hurry either half.",
+    "text": "Plain bread, or honey? It is a small choice, but the day has room for one small choice to be made slowly. I usually cut the bread in two. A satisfactory arrangement. Now I have a quiet moment, something sweet, and no reason to hurry either half.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3173_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3173",
+    "spoken": "[deep] [steady] [earnest] Greater power is not the same as greater readiness. You have shown patience in your studies, and that matters. Take what you have learned into the next lesson. Knowing when to act is useful. Knowing when to stay your hand deserves just as much attention.",
+    "text": "Greater power is not the same as greater readiness. You have shown patience in your studies, and that matters. Take what you have learned into the next lesson. Knowing when to act is useful. Knowing when to stay your hand deserves just as much attention.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3191_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1155,5 +1155,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Exact current named adult female Orc body, Horde-friendly icon, Elite flight service and pin; full own current/Classic empty relations, exact installed flight gossip, no quest name matches, literary/identity/era review; no Scout sighting claimed",
     "research_notes": "docs/research/hammerfall-riddles-and-gromgol-small-wings.md"
+  },
+  {
+    "npc_id": 3173,
+    "name": "Swart",
+    "zone": "Durotar",
+    "source": "Exact current named adult body, Horde-friendly icon and starter-town pin; complete Classic/published Forever referrals and full fire/water/Deathstalker chains, installed service/quest dialogue, item/literary/era checks; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-breakfast-and-brill-compliments.md"
+  },
+  {
+    "npc_id": 2130,
+    "name": "Marion Call",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current named adult body, Horde-friendly icon and starter-town pin; complete Classic/published Forever referrals and full fire/water/Deathstalker chains, installed service/quest dialogue, item/literary/era checks; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-breakfast-and-brill-compliments.md"
   }
 ]

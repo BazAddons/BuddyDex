@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Swart <Shaman Trainer>, Razor Hill, Durotar; adult male Orc, 3173/3746.
+    -- Current Horde-friendly. Installed spiritual/retraining gossip; Classic
+    -- and published Forever fire/water referrals to Kranal and Islen.
+    -- Breakfast indecision is ours; later Baine short-story meeting excluded.
+    -- Research: docs/research/razor-hill-breakfast-and-brill-compliments.md.
+    [3173] = {
+        quote = "The next step need not be the largest one. Take it with understanding. Unless we are choosing breakfast; then you may have to advise me.",
+        likes = { "A patient student ready for more", "A useful question asked without shame", "Honey on only half the bread" },
+        dislikes = { "Power mistaken for readiness", "Old habits clung to without thought", "Being hurried through a simple choice" },
+        gossip = "Swart can send a student toward elemental power without hesitation. Ask how he wants his bread, and he may need a little time.",
+        bio = "Swart teaches shamans at Razor Hill, welcoming those the spirits guide to him. He sends ready students to Kranal Fiss for fire and Islen Waterseer for water. Kranal trusts his judgment; Swart expects patience before the next lesson.",
+        backstory = "Offered plain bread or honey with breakfast, Swart considered which he wanted. The question proved harder than expected. He finally cut the bread in two. Since then, he has approached the same small choice with remarkably careful attention.",
+        secret = "He likes both halves. The indecision is simply an excuse to give breakfast its own few quiet moments before the day's questions begin. He enjoys a friend sharing that pause.",
+        bestFriend = "Sit with me before the lessons begin. Help me settle breakfast. It is pleasant to ask a question without needing to teach the answer.",
+        favorite = { emote = "NOD", hint = "Appreciates a thoughtful acknowledgment before someone hurries toward the next lesson." },
+        lines = {
+            greet = { { "Welcome, friend. What brings you here today? A question about your next lesson, or something that needs a little time to understand? We can begin with either. If you have come before breakfast is settled, I may ask for your judgment on a less demanding matter first.", tone = "[deep] [warm] [patient]" },
+                "The spirits have brought you this far. Tell me what you are ready to ask." },
+            idle = { { "Plain bread, or honey? It is a small choice, but the day has room for one small choice to be made slowly. I usually cut the bread in two. A satisfactory arrangement. Now I have a quiet moment, something sweet, and no reason to hurry either half.", tone = "[deep] [gently amused]" },
+                "A question is not a weakness. Refusing to ask can become one.",
+                "Understanding an old habit is part of learning to change it." },
+            befriended = { { "You have brought questions worth considering, and company I have come to value. Come along, friend. There are things we may learn without turning every moment into a lesson. When we stop to eat, you may help me decide which half of the bread to begin with.", tone = "[deep] [warm] [sincere]" } },
+            poke = { "Yes, friend? I was considering a very small matter.", "Have you a question? You need not wait for a grand one." },
+            learned = { { "Greater power is not the same as greater readiness. You have shown patience in your studies, and that matters. Take what you have learned into the next lesson. Knowing when to act is useful. Knowing when to stay your hand deserves just as much attention.", tone = "[deep] [steady] [earnest]" } },
+            quest = { "A teacher may show the next path. The first step still belongs to you." },
+            rest = { "A little time without another test. We may enjoy that too." },
+            loot = { "Look carefully. Understanding what you carry matters more than carrying much." },
+            zone = { "The elements are not confined to the places where we first learned to listen." },
+            lowHealth = { "Steady yourself. There is wisdom in taking care before reaching for more power." },
+            hearth = { "Back to Razor Hill. Perhaps there is still time to settle breakfast." },
+        },
+    },
+
+    -- Marion Call <Rogue Trainer>, Brill, Tirisfal; adult female Forsaken,
+    -- 2130/display 1603, current Horde-friendly. Installed Varimathras-era
+    -- Deathstalker gossip; 1885 refers prospective recruits to Mennet.
+    -- Uncoded compliments and the awkward reception are original writing.
+    -- Research: docs/research/razor-hill-breakfast-and-brill-compliments.md.
+    [2130] = {
+        quote = "That was a compliment. You needn't search it for instructions. Though I appreciate the professional instinct.",
+        likes = { "A recruit who notices more than looks", "A summons answered promptly", "A compliment accepted at face value" },
+        dislikes = { "A cover story offered without need", "Someone assuming quiet means harmless", "An ordinary remark treated as a password" },
+        gossip = "Marion told a visitor their coat suited them. They waited for further instructions. She says making conversation requires unexpected patience.",
+        bio = "Marion trains rogues in Brill's Gallows' End Tavern. She speaks for the growing Deathstalkers under Varimathras and sends promising recruits to Mennet Carkad in Undercity. Her warning is plain: his summons should not be ignored.",
+        backstory = "Marion once offered a visitor a straightforward compliment. They answered as though she had given a coded message. She tried making the next one plainer. The visitor became more suspicious, and she discovered an unexpectedly entertaining problem.",
+        secret = "She likes the moment someone finally believes she meant something pleasant. Suspicion is useful in her work. It is also agreeable, occasionally, to watch it give way to a smile.",
+        bestFriend = "Good to see you. That is the whole message. No code, no errand. You may stay long enough for me to say it without explaining myself.",
+        favorite = { emote = "GRIN", hint = "A little unguarded amusement tells her an ordinary pleasant remark has finally been understood." },
+        lines = {
+            greet = { { "Good to see you. There, a complete message with no hidden assignment. You may put away the expression you use when trying to remember a password. If I need something done, I will tell you. For the moment, I was simply acknowledging a welcome arrival.", tone = "[raspy] [dry] [faintly amused]" },
+                "You noticed me. Good. Now decide whether you actually have reason to be alarmed." },
+            idle = { { "I told a visitor their coat suited them. They asked where to deliver it. I explained that I had merely meant the coat looked well. That made them more suspicious. Apparently a plain compliment requires a more convincing performance than I had expected. I am still working on it.", tone = "[raspy] [deadpan] [amused]" },
+                "Not every ordinary sentence conceals an instruction. Only listen as though it might.",
+                "A face tells you something. It rarely tells you enough." },
+            befriended = { { "You have learned when I am giving an instruction, and when I am merely glad of your company. A useful distinction. Come along. We can spend a little time without a cover story. If I say I enjoyed it afterward, you may take the words exactly as they stand.", tone = "[raspy] [reserved warmth]" } },
+            poke = { "Yes? Was the compliment insufficiently explicit?", "If there is a second meaning, I shall let you know when it becomes relevant." },
+            quest = { { "Carkad does not summon prospective recruits because he enjoys waiting for them. If he has taken an interest, go and hear what he wants. How you look will not settle whether you are useful. Attend to the business before deciding what you think you have already proved.", tone = "[raspy] [cool] [firm]" } },
+            learned = { "Remember it when nobody is standing beside you to remind you." },
+            loot = { "Possession is only the beginning. Know what it is, and who may notice it missing." },
+            rest = { "We may stop. You need not invent a reason for keeping me company." },
+            zone = { "Notice the exits before allowing the scenery to occupy all your attention." },
+            laughAlong = { "There. You understood that one without an explanation." },
+            hearth = { "Back to Brill. Try not to arrive as though you are concealing an entire operation." },
+        },
+    },
+
     -- Urda <Wind Rider Master>, Hammerfall, Arathi Highlands, 2851/3972.
     -- Adult female Orc; current Horde-friendly Elite flight master.
     -- Own current/Classic lists have no quests; installed flight greeting.

@@ -374,4 +374,10 @@ Next checked flight-master pair: Urda 2851 and Thysta 1387, [queue](urda-and-thy
 
 Urda 2851 and Thysta 1387 complete: full adult female Orc flight-master profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](hammerfall-riddles-and-gromgol-small-wings.md) verifies both identities/services, empty quest lists and short installed greetings, separating all invented personality from later-retail events. Development total **370**; public friendly access Alliance 197, Horde 82, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
 
-Next checked starter trainer pair: Swart 3173 and Marion Call 2130, [queue](swart-and-marion-queue.md). Neither counted complete; rotates Orc male/Forsaken female coverage in Razor Hill and Brill.
+Next checked starter trainer pair: Swart 3173 and Marion Call 2130, [queue](swart-and-marion-queue.md). Neither counted complete at this point; rotates Orc male/Forsaken female coverage in Razor Hill and Brill.
+
+### 2026-11-09: Razor Hill guidance and Brill recruitment
+
+Swart 3173 and Marion Call 2130 complete: full Orc/Forsaken profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](razor-hill-breakfast-and-brill-compliments.md) retains complete class/referral context and separates downstream teachers' actions and later literary events. Development total **372**; public friendly access Alliance 197, Horde 84, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
+
+Next checked Horde pair: Master Vornal 3304 and Kuna Thunderhorn 3015, [queue](vornal-and-kuna-queue.md). Neither counted complete; rotates Troll male/Tauren female coverage.

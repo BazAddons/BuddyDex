@@ -840,6 +840,20 @@
       "zone": "Tirisfal Glades",
       "route": "Horde Orc/Forsaken starter trainer coverage",
       "reason": "Exact current named adult body, friendly Horde icon and starter-town pin checked; full own quest/service/literary research pending. See docs/research/swart-and-marion-queue.md"
+    },
+    {
+      "npc_id": 3304,
+      "name": "Master Vornal",
+      "zone": "Durotar",
+      "route": "Horde Troll/Tauren quest and trade coverage",
+      "reason": "Exact current named adult body, friendly Horde icon and pin checked; full own quest/service/literary research pending. See docs/research/vornal-and-kuna-queue.md"
+    },
+    {
+      "npc_id": 3015,
+      "name": "Kuna Thunderhorn",
+      "zone": "Thunder Bluff",
+      "route": "Horde Troll/Tauren quest and trade coverage",
+      "reason": "Exact current named adult body, friendly Horde icon and pin checked; full own quest/service/literary research pending. See docs/research/vornal-and-kuna-queue.md"
     }
   ]
 }
