@@ -32,4 +32,4 @@ The book reference in his companion chatter is original dialogue grounded in the
 
 The crowded patrol map, private safe-return list, gossip, preferences, SALUTE favorite and 15 companion lines are original additions. The hook is a marshal who sounds occupied with reports but privately cares most about the people who come back. This extends the quest voice without inventing an origin, promotion history, relatives or cowardice.
 
-The secret explains the concern behind the paperwork; the Best Friend message sets it aside for a personal conversation. New lines have speech bubbles but no custom recordings yet. General human male lines retain existing voice support.
+The secret explains the concern behind the paperwork; the Best Friend message sets it aside for a personal conversation. All 15 personal lines are recorded with Eleven v3 in the existing custom BuddyDex Human Male (Steady) voice, under voice/human-male/lore240_*.ogg.

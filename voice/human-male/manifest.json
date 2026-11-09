@@ -1,4 +1,409 @@
 {
+  "lore240_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[sighs] Leave room for supplies. You may need the walk home.",
+    "text": "Leave room for supplies. You may need the walk home."
+  },
+  "lore240_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "You've earned my trust. Try not to make me put that in triplicate.",
+    "text": "You've earned my trust. Try not to make me put that in triplicate."
+  },
+  "lore240_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[laughs] Check on everyone before we move on.",
+    "text": "Check on everyone before we move on."
+  },
+  "lore240_combatStart_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatStart",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[shouting] Keep your footing. Watch each other's backs.",
+    "text": "Keep your footing. Watch each other's backs."
+  },
+  "lore240_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[cheerfully] I'll have a look at these roads myself, then.",
+    "text": "I'll have a look at these roads myself, then."
+  },
+  "lore240_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[warmly] Right. Show me what you've been dealing with.",
+    "text": "Right. Show me what you've been dealing with."
+  },
+  "lore240_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[mischievously] One quiet afternoon. That's all I'm asking.",
+    "text": "One quiet afternoon. That's all I'm asking."
+  },
+  "lore240_idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[thoughtfully] If a kobold's carrying a book, I'd rather know the title.",
+    "text": "If a kobold's carrying a book, I'd rather know the title."
+  },
+  "lore240_idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[cheerfully] A blank report can be excellent news, provided someone actually checked.",
+    "text": "A blank report can be excellent news, provided someone actually checked."
+  },
+  "lore240_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[excited] You've come a long way since your first report.",
+    "text": "You've come a long way since your first report."
+  },
+  "lore240_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[excited] Anything that explains what they were doing out here?",
+    "text": "Anything that explains what they were doing out here?"
+  },
+  "lore240_poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[annoyed] Yes? You can give the report without prodding me.",
+    "text": "Yes? You can give the report without prodding me."
+  },
+  "lore240_poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[giggles] I'm listening. At ease.",
+    "text": "I'm listening. At ease."
+  },
+  "lore240_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[cheerfully] Good work. Tell me what you saw, while it's fresh.",
+    "text": "Good work. Tell me what you saw, while it's fresh."
+  },
+  "lore240_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:240",
+    "spoken": "[excited] Different roads, same rule: know where your people are.",
+    "text": "Different roads, same rule: know where your people are."
+  },
+  "lore295_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[sighs] That's a lot to leave under a bed by mistake.",
+    "text": "That's a lot to leave under a bed by mistake."
+  },
+  "lore295_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "Next time Falkhaan sends someone, I'll tell them to look for you, too.",
+    "text": "Next time Falkhaan sends someone, I'll tell them to look for you, too."
+  },
+  "lore295_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[relieved] Everyone still here? Good. Take a breath.",
+    "text": "Everyone still here? Good. Take a breath."
+  },
+  "lore295_died_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "died",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[sighs] Oh, my friend. I wish a warm room could fix everything.",
+    "text": "Oh, my friend. I wish a warm room could fix everything."
+  },
+  "lore295_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[excited] Well! Someone else can mind the counter for a bit.",
+    "text": "Well! Someone else can mind the counter for a bit."
+  },
+  "lore295_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[excited] Out we go. Did you remember your cloak?",
+    "text": "Out we go. Did you remember your cloak?"
+  },
+  "lore295_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[cheerfully] Home for a spell? Good. Even heroes need somewhere to leave their boots.",
+    "text": "Home for a spell? Good. Even heroes need somewhere to leave their boots."
+  },
+  "lore295_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[mischievously] I ought to be polishing something. Old habit.",
+    "text": "I ought to be polishing something. Old habit."
+  },
+  "lore295_idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[thoughtfully] Amazing how far a lost glove can travel without its owner.",
+    "text": "Amazing how far a lost glove can travel without its owner."
+  },
+  "lore295_idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[cheerfully] Wonder who's sitting in your usual chair tonight.",
+    "text": "Wonder who's sitting in your usual chair tonight."
+  },
+  "lore295_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[overjoyed] Look how far you've come! I'll still remember you before all that fancy armor.",
+    "text": "Look how far you've come! I'll still remember you before all that fancy armor."
+  },
+  "lore295_poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[playfully] Yes, yes, I heard you. There's no counter between us now.",
+    "text": "Yes, yes, I heard you. There's no counter between us now."
+  },
+  "lore295_poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[annoyed] That isn't how you ring for service!",
+    "text": "That isn't how you ring for service!"
+  },
+  "lore295_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[proudly] Another favor done. I hope they offered you a seat.",
+    "text": "Another favor done. I hope they offered you a seat."
+  },
+  "lore295_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:295",
+    "spoken": "[contentedly] There we are. Sit before your knees make the decision for you.",
+    "text": "There we are. Sit before your knees make the decision for you."
+  },
+  "lore352_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[sighs] Pack it evenly. One side shouldn't weigh more than the rider.",
+    "text": "Pack it evenly. One side shouldn't weigh more than the rider."
+  },
+  "lore352_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "A familiar face at the roost. Makes the whole day easier.",
+    "text": "A familiar face at the roost. Makes the whole day easier."
+  },
+  "lore352_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[cheerfully] A journey on foot? I'll try to remember how those work.",
+    "text": "A journey on foot? I'll try to remember how those work."
+  },
+  "lore352_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[cheerfully] Right, then. Who's watching the gryphons?",
+    "text": "Right, then. Who's watching the gryphons?"
+  },
+  "lore352_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[cheerfully] Neat trick. Doesn't give you much of a view, mind.",
+    "text": "Neat trick. Doesn't give you much of a view, mind."
+  },
+  "lore352_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[cheerfully] You can tell a hungry gryphon from a cross one. Usually.",
+    "text": "You can tell a hungry gryphon from a cross one. Usually."
+  },
+  "lore352_idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[thoughtfully] Thor will say his birds are faster. Ask him which way the wind was blowing.",
+    "text": "Thor will say his birds are faster. Ask him which way the wind was blowing."
+  },
+  "lore352_idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[mischievously] No, I wasn't humming. That was my boot.",
+    "text": "No, I wasn't humming. That was my boot."
+  },
+  "lore352_landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[relieved] There! A proper landing. Give the bird a little credit.",
+    "text": "There! A proper landing. Give the bird a little credit."
+  },
+  "lore352_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[proudly] Look at you now! Hard to believe you ever needed directions.",
+    "text": "Look at you now! Hard to believe you ever needed directions."
+  },
+  "lore352_mount_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "mount",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[excited] Perfectly respectable. Bit short on wings, though.",
+    "text": "Perfectly respectable. Bit short on wings, though."
+  },
+  "lore352_poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[giggles] That's where a gryphon would nip you back.",
+    "text": "That's where a gryphon would nip you back."
+  },
+  "lore352_poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[annoyed] Easy. I'm not a saddle that needs adjusting.",
+    "text": "Easy. I'm not a saddle that needs adjusting."
+  },
+  "lore352_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[proudly] A delivery? Osric's crates would look light beside that lot.",
+    "text": "A delivery? Osric's crates would look light beside that lot."
+  },
+  "lore352_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:352",
+    "spoken": "[excited] Straps first. Admire the view once we're clear.",
+    "text": "Straps first. Admire the view once we're clear."
+  },
   "lore523_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

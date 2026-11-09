@@ -27,4 +27,4 @@ No separate Classic family history or origin was established in the consulted so
 
 His attention to buckles, parcels, clear explanations and inexperienced riders extends the job shown by the quest text. The nighttime singing rumor, supposed squeaky saddle, tuneless lullabies for hatchlings, CHEER favorite and 15 companion lines are original writing. The secret pays off the singing rumor; the Best Friend invitation lets the player join that quieter side of the job.
 
-The friendly jab at Thor is consistent with Thor's existing BuddyDex references to Dungar; neither the rivalry nor the hatchling routine is claimed as official lore. New personal lines have speech bubbles but no custom recordings yet; general human male dialogue keeps existing voice support.
+The friendly jab at Thor is consistent with Thor's existing BuddyDex references to Dungar; neither the rivalry nor the hatchling routine is claimed as official lore. All 15 personal lines are recorded with Eleven v3 in the existing custom BuddyDex Human Male (Steady) voice, under voice/human-male/lore352_*.ogg.

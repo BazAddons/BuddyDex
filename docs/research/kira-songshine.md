@@ -23,4 +23,4 @@ The fondness for end slices, gift of food without embarrassing the recipient, un
 
 The gossip introduces the missing end slices, the secret explains her quiet generosity, and the Best Friend message invites the player to share a meal and an unhurried story. Her companion lines emphasize food, travel and keeping the basket intact.
 
-New Kira-specific dialogue has no recorded clips yet. Supported human voice playback still uses existing general recorded dialogue; unrecorded personal lines appear in speech bubbles.
+Kira's 15 personal lines are recorded with Eleven v3 in the existing custom BuddyDex Human Female (Guard) voice. Clips live under voice/human-female/lore3937_*.ogg and are loaded by the bundled manifest.

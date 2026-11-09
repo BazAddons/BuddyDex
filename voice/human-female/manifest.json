@@ -1,4 +1,139 @@
 {
+  "lore3937_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[sighs] Don't squash the bread to make room!",
+    "text": "Don't squash the bread to make room!"
+  },
+  "lore3937_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "A friend for the road! I'll pack a little extra.",
+    "text": "A friend for the road! I'll pack a little extra."
+  },
+  "lore3937_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[warmly] There you are! Have you eaten?",
+    "text": "There you are! Have you eaten?"
+  },
+  "lore3937_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[excited] Mind the basket. The pie doesn't have armor.",
+    "text": "Mind the basket. The pie doesn't have armor."
+  },
+  "lore3937_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[mischievously] Listen to that crust. That's a good loaf.",
+    "text": "Listen to that crust. That's a good loaf."
+  },
+  "lore3937_idle_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[mischievously] Everyone remembers a sword. Nobody remembers lunch.",
+    "text": "Everyone remembers a sword. Nobody remembers lunch."
+  },
+  "lore3937_idle_3.ogg": {
+    "line": 3,
+    "model": "eleven_v3",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[thoughtfully] A story's better when nobody has to tell it on an empty stomach.",
+    "text": "A story's better when nobody has to tell it on an empty stomach."
+  },
+  "lore3937_landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "landed",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[relieved] Feet on the ground. Pastry still in one piece. Lovely.",
+    "text": "Feet on the ground. Pastry still in one piece. Lovely."
+  },
+  "lore3937_levelUp_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "levelUp",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[proudly] Look at you! We'll need a bigger lunch to celebrate.",
+    "text": "Look at you! We'll need a bigger lunch to celebrate."
+  },
+  "lore3937_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[excited] Anything edible? No? Well, someone might buy it.",
+    "text": "Anything edible? No? Well, someone might buy it."
+  },
+  "lore3937_poke_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[annoyed] Checking if I've risen?",
+    "text": "Checking if I've risen?"
+  },
+  "lore3937_poke_2.ogg": {
+    "line": 2,
+    "model": "eleven_v3",
+    "moment": "poke",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[surprised] Gently! I'm carrying the soft bread.",
+    "text": "Gently! I'm carrying the soft bread."
+  },
+  "lore3937_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[cheerfully] Errands done. Now, when did you last eat?",
+    "text": "Errands done. Now, when did you last eat?"
+  },
+  "lore3937_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[excited] Keep the basket level! There are pies in here!",
+    "text": "Keep the basket level! There are pies in here!"
+  },
+  "lore3937_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v3",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:3937",
+    "spoken": "[impressed] New customers, perhaps. I hope someone knows a good oven.",
+    "text": "New customers, perhaps. I hope someone knows a good oven."
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

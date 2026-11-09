@@ -36,4 +36,4 @@ The lost-button gossip, guest-trinket habit, concern behind the secret, likes/di
 
 These habits extend the innkeeper and retained-letter facts without claiming new quest events. The favorite is THANK, a friendly emote supported by BuddyDex's gain handler; its hint invites the player to acknowledge his hospitality.
 
-Farley's specific dialogue has no recordings yet. Human male general dialogue still uses existing clips; the new personal lines appear as speech bubbles until recorded. No live in-game conversation or visual layout was inspected during this research pass.
+Farley's 15 personal lines are recorded with Eleven v3 in the existing custom BuddyDex Human Male (Steady) voice. Clips live under voice/human-male/lore295_*.ogg. No live in-game conversation or visual layout was inspected during this research pass.
