@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Miao'zan and Lau'Tiki: full Sen'jin profession profiles, fifteen personal lines and four approved Troll male Eleven v4 signatures each. Verify the Fish Bowl camping chain and keep Whuut's Mana Well referral separate from Miao'zan. Development now has 295 complete profiles.
+
 - Make generated audio writes atomic and prefer available FFmpeg to avoid native Vorbis encoding crashes.
 
 - Complete Devrak and Sergra Darkthorn: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research both courier loops and full hunting/referral chains, resolve a conflicting Scytheclaw completion, and retain live access checks. Development now has 293 completed profiles.

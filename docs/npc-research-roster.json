@@ -616,5 +616,19 @@
     "zone": "The Barrens",
     "source": "Reviewed current adult Orc identity/model, Crossroads pin and friendly or conditional Neutral access; full courier loops or recruitment/hunter branches/readables with installed/current dialogue comparison; 905 mismatch resolved; no Scout sighting claimed",
     "research_notes": "docs/research/crossroads-wings-and-respect.md"
+  },
+  {
+    "npc_id": 3184,
+    "name": "Miao'zan",
+    "zone": "Durotar",
+    "source": "Reviewed adult male Troll model, Senjin/coastal identity, installed gossip and Forever camping relations; no Scout sighting claimed; live access required",
+    "research_notes": "docs/research/senjin-potions-and-patient-fishing.md"
+  },
+  {
+    "npc_id": 5941,
+    "name": "Lau'Tiki",
+    "zone": "Durotar",
+    "source": "Reviewed adult male Troll model, Senjin/coastal identity, installed gossip and Forever camping relations; no Scout sighting claimed; live access required",
+    "research_notes": "docs/research/senjin-potions-and-patient-fishing.md"
   }
 ]

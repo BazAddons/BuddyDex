@@ -1,5 +1,7 @@
 # Next Durotar professions: Miao'zan and Lau'Tiki
 
+**Completed 2026-11-09:** both profiles are now authored with fifteen personal lines and four approved Troll male v4 signatures each. Lau'Tiki's Classic display 4609 resolves to the current adult male Troll body; published Forever identity, Horde reaction, training and installed camping text corroborate 5941 despite the missing Warcraft DB node. Miao'zan's current reaction remains unverified. See [the full research and qualifications](senjin-potions-and-patient-fishing.md). The pending text below preserves the original investigation, not the current completion status. Development now has 295 complete profiles.
+
 Research shortlist 2026-11-09 after 293 completed profiles. Continue useful Horde profession services with established Troll voices. These candidates are pending full research and are not counted complete or logged as personal Scout encounters.
 
 ## Miao'zan, 3184

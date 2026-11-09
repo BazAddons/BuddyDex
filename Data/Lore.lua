@@ -42,6 +42,72 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Miao'zan (3184), adult male Troll Journeyman Alchemist, Sen'jin Village, Durotar.
+    -- Current display 4071 / race 8 sex 0. Installed gossip: enough adventures,
+    -- relaxed stirring, advanced referral to Yelmak. No personal quest established.
+    -- Whuut, not Miao'zan, ends 97899. Cork birds are original BuddyDex fiction.
+    -- Research: docs/research/senjin-potions-and-patient-fishing.md.
+    [3184] = {
+        quote = "Loosen your shoulders. A potion needs a steady hand, and a day need not be a battle to be well spent.",
+        likes = { "An apprentice settling into the work", "Quiet afternoons in Sen'jin", "A cork with room for a little face" },
+        dislikes = { "Stirring as though fighting the mixture", "Being hurried back into adventure", "A bottle left without its stopper" },
+        gossip = "Visitors have noticed tiny cork birds beside Miao'zan's bottles. He insists they have nothing to do with the lesson.",
+        bio = "Miao'zan teaches alchemy in Sen'jin Village. He has had enough adventure since the trolls came here and prefers helping others prepare. Lessons begin with relaxed hands; questions beyond his teaching go to Yelmak in Orgrimmar.",
+        backstory = "One quiet afternoon, he gave a spare cork a beak and two little eyes. Another became a round bird with no neck. A few more followed between lessons, until the shelf looked less like storage and more like a very small roost.",
+        secret = "He makes the birds from spare corks, never the stoppers still needed for bottles. The roundest one is his favorite. It looks as though it has canceled every plan for the day.",
+        bestFriend = "I made you a cork bird. Keep it somewhere quiet. When the world gets loud, remember there is still a place beside me.",
+        favorite = { emote = "NOD", hint = "A quiet sign that you are listening suits his lessons." },
+        lines = {
+            greet = { { "Ah, there you are. Let me put the stopper in this bottle. Good. Whatever we do today, we can begin without rushing.", tone = "[relaxed] [warm]" },
+                "I can spare a little time. No grand expedition promised, though." },
+            idle = { { "That little cork bird has the right idea. No errands, no battles, and nothing to do but sit comfortably on a shelf.", tone = "[amused] [easygoing]" },
+                "A loose shoulder makes a better stirring arm.",
+                "I wonder whether a cork bird needs feet. Probably more trouble than it wants." },
+            befriended = { { "You have made these quiet days more pleasant. I would like to come along for a while, my friend. Save me a little room when you stop to rest.", tone = "[sincere] [warm]" } },
+            poke = { "You will not get a better mixture by prodding the alchemist.", "Yes, I am awake. This is me enjoying it." },
+            learned = { { "There you are. Your hands found the motion once you stopped fighting it. Give yourself time with the next lesson, too. You do not need to master everything before supper.", tone = "[encouraging] [patient]" } },
+            loot = { "Keep any useful herbs clean. The rest can wait." },
+            rest = { "A perfectly good use of an afternoon." },
+            combatEnd = { "Enough excitement. Let your shoulders settle again." },
+            bagsFull = { "One little cork bird would fit. Your collection is another matter." },
+            hearth = { "Back to familiar ground. I like that part of a journey." },
+            levelUp = { "Good work. Growing stronger need not mean growing hurried." },
+        },
+    },
+
+    -- Lau'Tiki (5941), adult male Troll Fisherman, coast south of Sen'jin, Durotar.
+    -- Classic display 4609 / current cached body race 8 sex 0; Forever fishing
+    -- trainer, Horde reaction, 97904 Fish Bowl lesson from Brakk at fishing 20.
+    -- Current Warcraft DB node absent; published Forever identity and installed text agree.
+    -- Pebble-skipping hobby is original. Research: senjin-potions-and-patient-fishing.md.
+    [5941] = {
+        quote = "Give the line a little time. The sea has not agreed to your schedule, and neither have the fish.",
+        likes = { "A learner watching the bobber", "A camp with room for a little joy", "Flat pebbles that fit the hand" },
+        dislikes = { "Giving up before the first nibble", "Leaving a hook where feet will find it", "Counting a pebble's splash as a skip" },
+        gossip = "Lau'Tiki can wait ages for a fish. With a flat pebble, though, he wants to beat his last throw before the ripples settle.",
+        bio = "Lau'Tiki teaches fishing on the coast south of Sen'jin Village. Brakk sends practiced beginners to him for a Fish Bowl lesson. He reminds new campers to head into the wilderness and learn the campfire basics from a cook.",
+        backstory = "A flat pebble caught his eye during a break from fishing. It skipped twice. He tried another, then kept a few promising ones beside his gear. Fishing taught him patience; skipping stones gave him something delightfully useless to practice.",
+        secret = "He is less patient with a sinking pebble than a quiet fishing line. His best throw was lovely, but nobody saw it. He would rather you join the next attempt than believe the story.",
+        bestFriend = "Here, take the smooth one. We can fish afterward. First I want someone beside me when a good throw finally happens.",
+        favorite = { emote = "CHEER", hint = "Even a little success on the shore deserves encouragement." },
+        lines = {
+            greet = { { "Good to see you. Bring your patience if we go near the water. Bring a little luck, too. I have a pebble that ought to skip beautifully.", tone = "[friendly] [lighthearted]" },
+                "A walk before the next cast? I can do that." },
+            idle = { { "That was a good flat pebble. Three skips, perhaps four. I am counting the little one at the end. It made an honest effort.", tone = "[playful] [pleased]" },
+                "A quiet bobber is still worth watching.",
+                "There is a fine line between a patient fisherman and someone enjoying the view." },
+            befriended = { { "Come sit with me when you have a moment, my friend. We can cast a line, skip a few stones, or let the water do all the talking.", tone = "[warm] [sincere]" } },
+            poke = { "Careful. That is how a fine pebble becomes a dropped pebble.", "No nibble yet. You will know when there is one." },
+            rest = { { "There is more to a camp than getting ready for another fight. Put a little joy beside the fire. That is a good reason to learn the Fish Bowl lesson.", tone = "[thoughtful] [gentle]" } },
+            learned = { "A little practice makes the next cast easier." },
+            loot = { "Anything useful for the tackle? Keep the hooks covered." },
+            bagsFull = { "You can carry too many things, even promising pebbles." },
+            quest = { "Errand finished. Perhaps there is time for the shore now." },
+            combatEnd = { "Everyone whole? Good. I prefer ripples to trouble." },
+            levelUp = { "Well done! That deserves a cheer, even without a catch." },
+        },
+    },
+
     -- Devrak (3615), adult male Orc Wind Rider Master, Crossroads, The Barrens.
     -- Display 1652 / race 2 sex 0; current Horde-friendly flight master and pin.
     -- Hides 6361-6364 and meat 6365/6384-6386 courier loops; hot-air training gossip.

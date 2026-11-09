@@ -20606,7 +20606,7 @@
           "name": "Lau'Tiki",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -23665,7 +23665,7 @@
           "name": "Miao'zan",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39164,6 +39164,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 3184,
+      "name": "Miao'zan",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3287,
       "name": "Hana'zua",
       "source": "Existing local backlog; absent from source filter",
@@ -39303,6 +39310,13 @@
       "zone": "Elwynn Forest",
       "scout_reaction": 5,
       "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 5941,
+      "name": "Lau'Tiki",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
       "profile_status": "complete"
     },
     {
@@ -39552,20 +39566,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 3184,
-      "name": "Miao'zan",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5941,
-      "name": "Lau'Tiki",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

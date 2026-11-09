@@ -1,4 +1,44 @@
 {
+  "lore3184_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3184",
+    "spoken": "[sincere] [warm] You have made these quiet days more pleasant. I would like to come along for a while, my friend. Save me a little room when you stop to rest.",
+    "text": "You have made these quiet days more pleasant. I would like to come along for a while, my friend. Save me a little room when you stop to rest.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3184_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3184",
+    "spoken": "[relaxed] [warm] Ah, there you are. Let me put the stopper in this bottle. Good. Whatever we do today, we can begin without rushing.",
+    "text": "Ah, there you are. Let me put the stopper in this bottle. Good. Whatever we do today, we can begin without rushing.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3184_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3184",
+    "spoken": "[amused] [easygoing] That little cork bird has the right idea. No errands, no battles, and nothing to do but sit comfortably on a shelf.",
+    "text": "That little cork bird has the right idea. No errands, no battles, and nothing to do but sit comfortably on a shelf.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3184_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3184",
+    "spoken": "[encouraging] [patient] There you are. Your hands found the motion once you stopped fighting it. Give yourself time with the next lesson, too. You do not need to master everything before supper.",
+    "text": "There you are. Your hands found the motion once you stopped fighting it. Give yourself time with the next lesson, too. You do not need to master everything before supper.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3188_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -77,6 +117,46 @@
     "source": "lore:3287",
     "spoken": "[observant, quietly amused, gathering hope] There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.",
     "text": "There. It dropped the crumb again. Wait before you laugh. It is going around the other side to try a different grip. I like that. A poor beginning need not decide the whole journey. I am trying to remember it myself.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore5941_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5941",
+    "spoken": "[warm] [sincere] Come sit with me when you have a moment, my friend. We can cast a line, skip a few stones, or let the water do all the talking.",
+    "text": "Come sit with me when you have a moment, my friend. We can cast a line, skip a few stones, or let the water do all the talking.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore5941_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5941",
+    "spoken": "[friendly] [lighthearted] Good to see you. Bring your patience if we go near the water. Bring a little luck, too. I have a pebble that ought to skip beautifully.",
+    "text": "Good to see you. Bring your patience if we go near the water. Bring a little luck, too. I have a pebble that ought to skip beautifully.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore5941_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5941",
+    "spoken": "[playful] [pleased] That was a good flat pebble. Three skips, perhaps four. I am counting the little one at the end. It made an honest effort.",
+    "text": "That was a good flat pebble. Three skips, perhaps four. I am counting the little one at the end. It made an honest effort.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore5941_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:5941",
+    "spoken": "[thoughtful] [gentle] There is more to a camp than getting ready for another fight. Put a little joy beside the fire. That is a good reason to learn the Fish Bowl lesson.",
+    "text": "There is more to a camp than getting ready for another fight. Put a little joy beside the fire. That is a good reason to learn the Fish Bowl lesson.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   }
 }
