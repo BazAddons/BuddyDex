@@ -2701,6 +2701,46 @@
     "text": "Well done. Tell me what you observed, not only what you expected to find.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore346_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:346",
+    "spoken": "[warm sincere companionship, cheerful anticipation] I'd be glad of a change of view. Show me where you're headed, and we'll find something worth talking about along the way. I've spent enough evenings hearing travelers' stories to enjoy being in one with a friend.",
+    "text": "I'd be glad of a change of view. Show me where you're headed, and we'll find something worth talking about along the way. I've spent enough evenings hearing travelers' stories to enjoy being in one with a friend.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore346_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:346",
+    "spoken": "[hearty conversational welcome, resilient good humor] Good to see a friendly face. Come and tell me what the road's been like. With deliveries as late as they've been, I could use some good news. Failing that, I'll happily settle for a good story.",
+    "text": "Good to see a friendly face. Come and tell me what the road's been like. With deliveries as late as they've been, I could use some good news. Failing that, I'll happily settle for a good story.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore346_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:346",
+    "spoken": "[wry self-deprecating amusement, playful confidence] I toss a spare cork into an empty mug when the clearing up is done. Three in a row, once. Nobody saw it. Naturally, every time I've tried to show someone, the cork has developed other ambitions.",
+    "text": "I toss a spare cork into an empty mug when the clearing up is done. Three in a row, once. Nobody saw it. Naturally, every time I've tried to show someone, the cork has developed other ambitions.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore346_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:346",
+    "spoken": "[easygoing warmth, gently teasing amusement] Let's have a seat. I won't turn a quiet moment into a supply errand, I promise. Tell me something pleasant instead. And if a cork should happen to land in a mug, do feel free to applaud.",
+    "text": "Let's have a seat. I won't turn a quiet moment into a supply errand, I promise. Tell me something pleasant instead. And if a cork should happen to land in a mug, do feel free to applaud.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore3518_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

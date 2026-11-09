@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 203,
+  "completed_count": 205,
   "remaining_count": 37,
   "completed": [
     {
@@ -230,6 +230,16 @@
       "zone": "Lion's Pride Inn",
       "source": "Installed Scout record",
       "written_lines": 16,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 346,
+      "name": "Barkeep Daniels",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity, Classic quest and installed dialogue",
+      "research_notes": "docs/research/lakeshire-innkeepers.md",
+      "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
     },
@@ -1640,6 +1650,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 6727,
+      "name": "Innkeeper Brianna",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity, Classic quest and installed dialogue",
+      "research_notes": "docs/research/lakeshire-innkeepers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6740,
       "name": "Innkeeper Allison",
       "zone": "Stormwind City",
@@ -2239,7 +2259,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1492,
+    "candidate_name_groups": 1494,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

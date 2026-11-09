@@ -161,5 +161,19 @@
     "source": "Classic identity/place; current Forever definition retained, encounter availability unverified",
     "research_notes": "docs/research/westfall-services-and-availability.md",
     "availability_note": "Current node omits spawn/reaction/service evidence; keep pending a current Scout encounter or equivalent client verification. Sparse data does not prove removal."
+  },
+  {
+    "npc_id": 6727,
+    "name": "Innkeeper Brianna",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity, Classic quest and installed dialogue",
+    "research_notes": "docs/research/lakeshire-innkeepers.md"
+  },
+  {
+    "npc_id": 346,
+    "name": "Barkeep Daniels",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity, Classic quest and installed dialogue",
+    "research_notes": "docs/research/lakeshire-innkeepers.md"
   }
 ]

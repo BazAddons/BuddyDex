@@ -1774,6 +1774,46 @@
     "text": "A letter? I hope there is news from John. Even an ordinary little account of his day would be welcome. It is good to hear his voice in the words.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore6727_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6727",
+    "spoken": "[sincere friendly pleasure, relaxed anticipation] Yes, I'd like a walk with you. It's lovely to welcome people, but I do enjoy seeing a little of the road they came along. You can tell me your news, and I'll try to leave the tidying alone.",
+    "text": "Yes, I'd like a walk with you. It's lovely to welcome people, but I do enjoy seeing a little of the road they came along. You can tell me your news, and I'll try to leave the tidying alone.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6727_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6727",
+    "spoken": "[warm capable welcome, fond gentle humor] There you are. Come and sit a moment. You look as though you've had a long road behind you. Narnie has found somewhere comfortable already, so now I can give my attention to finding a place for you.",
+    "text": "There you are. Come and sit a moment. You look as though you've had a long road behind you. Narnie has found somewhere comfortable already, so now I can give my attention to finding a place for you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6727_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6727",
+    "spoken": "[affectionate amusement, conversational warmth] I left a folded cloth out for Narnie. It seemed easier than explaining which linen was meant for guests. The arrangement suits us both. Though I suspect the cat thinks I finally learned how to fold things properly.",
+    "text": "I left a folded cloth out for Narnie. It seemed easier than explaining which linen was meant for guests. The arrangement suits us both. Though I suspect the cat thinks I finally learned how to fold things properly.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6727_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6727",
+    "spoken": "[soothing practical kindness, quietly contented] Now, this is a good idea. Sit down properly and let your feet rest. I'll keep you company. We needn't fill every quiet moment with a task; even Narnie could tell us the value of a peaceful pause.",
+    "text": "Now, this is a good idea. Sit down properly and let your feet rest. I'll keep you company. We needn't fill every quiet moment with a task; even Narnie could tell us the value of a peaceful pause.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6740_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

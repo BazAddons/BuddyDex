@@ -41,6 +41,59 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Brianna 6727: human woman, Lakeshire innkeeper, display 5407.
+    -- Barkeep Daniels 346: human man, same inn, display 3370, Dry Times 116.
+    -- Current Forever identities/services/quest; Classic and installed dialogue.
+    -- Narnie is Brianna's established pet. Linen indulgence / cork game are ours.
+    -- docs/research/lakeshire-innkeepers.md.
+    [6727] = {
+        quote = "Come in and take the weight off your feet. If the cat has taken your place, I'll find you another. I have rather more success moving chairs than moving Narnie.",
+        likes = { "A weary traveler settling comfortably", "Fresh linen warmed by the room", "Narnie choosing a place to sleep" },
+        dislikes = { "Muddy boots on the bedcovers", "A welcome that feels like a hurry", "Disturbing a thoroughly settled cat" },
+        gossip = "Brianna can find a place for any traveler. Narnie has a way of reserving a particularly comfortable one without ever asking.",
+        bio = "Brianna keeps the inn in Lakeshire, welcoming travelers to rest and make it their home. She sells drinks and fish, and her cat Narnie is close at hand. A journey through Redridge need not end with another uncomfortable night outside.",
+        backstory = "After finding Narnie asleep on a freshly folded cloth, she tried moving the stack. The cat followed. She finally left one soft fold apart from the rest and called it a sensible arrangement. It certainly made the cat easier to please.",
+        secret = "She sometimes refolds Narnie's cloth when it scarcely needs it. Providing that one little comfort has become as pleasant for her as enjoying it is for the cat.",
+        bestFriend = "I've found you a place. Sit with me a while and tell me where you've been. Narnie can keep the cloth; I'd rather have your company.",
+        favorite = { emote = "SMILE", hint = "Return a little of the warmth she puts into making a visitor comfortable." },
+        lines = {
+            greet = { { "There you are. Come and sit a moment. You look as though you've had a long road behind you. Narnie has found somewhere comfortable already, so now I can give my attention to finding a place for you.", tone = "[warm capable welcome, fond gentle humor]" }, "Welcome back. Take your time getting settled." },
+            idle = { { "I left a folded cloth out for Narnie. It seemed easier than explaining which linen was meant for guests. The arrangement suits us both. Though I suspect the cat thinks I finally learned how to fold things properly.", tone = "[affectionate amusement, conversational warmth]" }, "There. That looks a little more comfortable.", "A cat can make a perfectly ordinary corner look wonderfully inviting." },
+            befriended = { { "Yes, I'd like a walk with you. It's lovely to welcome people, but I do enjoy seeing a little of the road they came along. You can tell me your news, and I'll try to leave the tidying alone.", tone = "[sincere friendly pleasure, relaxed anticipation]" } },
+            poke = { "What can I do for you, dear?", "Have you found a comfortable spot?" },
+            rest = { { "Now, this is a good idea. Sit down properly and let your feet rest. I'll keep you company. We needn't fill every quiet moment with a task; even Narnie could tell us the value of a peaceful pause.", tone = "[soothing practical kindness, quietly contented]" } },
+            hearth = { "A familiar place to come back to. That's a comfort worth keeping." },
+            zone = { "So this is where your travels have brought you. Show me around." },
+            quest = { "Your errand is finished? Then give yourself a little time to breathe." },
+            levelUp = { "Well done, dear. You ought to feel pleased with yourself." },
+            died = { "Take a moment. You're here again, and I'm glad to see you." },
+            mail = { "Someone has thought of you. Shall we see what they had to say?" },
+        },
+    },
+    [346] = {
+        quote = "A stool, a friendly face, a story worth hearing. Keep those coming and an evening can turn out well, even when the deliveries don't.",
+        likes = { "A shipment arriving safely", "Good company around the stools", "A cork landing neatly in the mug" },
+        dislikes = { "The orc attacks delaying supplies", "Taking a courier's hard trip for granted", "A stray cork rolling out of reach" },
+        gossip = "Daniels can judge a delivery at a glance. Judging the short distance between a cork and an empty mug is another matter.",
+        bio = "Daniels tends the bar at the Lakeshire inn. Orc attacks have delayed his supplies, so he seeks help bringing liquor from nearby towns and Grimbooze Thunderbrew. His wife is a seamstress; her work rewards a traveler who helps him.",
+        backstory = "While clearing up one evening, he tossed a spare cork toward an empty mug and missed. Trying again turned a small chore into a private game. A clean landing still gives him a ridiculous amount of satisfaction after a busy day.",
+        secret = "He once landed three corks in a row with nobody there to see. He has been hoping to repeat the performance for a friend ever since. One will do for a start.",
+        bestFriend = "Stay a little, will you? I've a story to hear and a cork to toss. If it misses, you're welcome to tell me you saw nothing.",
+        favorite = { emote = "CLAP", hint = "A little applause can make even a very modest performance feel worth the practice." },
+        lines = {
+            greet = { { "Good to see a friendly face. Come and tell me what the road's been like. With deliveries as late as they've been, I could use some good news. Failing that, I'll happily settle for a good story.", tone = "[hearty conversational welcome, resilient good humor]" }, "Pull a stool over. I'd like to hear how you've been." },
+            idle = { { "I toss a spare cork into an empty mug when the clearing up is done. Three in a row, once. Nobody saw it. Naturally, every time I've tried to show someone, the cork has developed other ambitions.", tone = "[wry self-deprecating amusement, playful confidence]" }, "I hope the next delivery has had an easier journey.", "The mug stays perfectly still. You'd think that would help." },
+            befriended = { { "I'd be glad of a change of view. Show me where you're headed, and we'll find something worth talking about along the way. I've spent enough evenings hearing travelers' stories to enjoy being in one with a friend.", tone = "[warm sincere companionship, cheerful anticipation]" } },
+            poke = { "What can I do for you?", "A story, or a little company? I'm listening." },
+            rest = { { "Let's have a seat. I won't turn a quiet moment into a supply errand, I promise. Tell me something pleasant instead. And if a cork should happen to land in a mug, do feel free to applaud.", tone = "[easygoing warmth, gently teasing amusement]" } },
+            quest = { "That's an errand finished. I hope your trouble was properly appreciated." },
+            loot = { "Something useful? Good. A worthwhile find can improve a long day." },
+            bagsFull = { "A full load. Mind how you carry it; you've only got the one back." },
+            zone = { "A different place means different stories. Let's hear a few." },
+            hearth = { "Back where you belong. That's a good end to a long road." },
+            levelUp = { "Well done! Now there's some news worth sharing." },
+        },
+    },
     -- Christopher Hewen 8934, human man/general trade vendor, display 8186;
     -- Kirk Maxwell 10045, human man/stable master, display 9265; Sentinel Hill.
     -- Current Forever friendly identities/models/places; no linked quests found.
