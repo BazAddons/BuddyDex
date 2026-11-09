@@ -329,6 +329,20 @@
       "zone": "Thunder Bluff",
       "route": "Female Horde quest contacts: Silverpine and Pools of Vision",
       "reason": "Exact current adult female model verified: Mura Tauren/Horde-friendly; Zamah Forsaken/Neutral with conditional live access. Full personal lore/relations pending. See docs/research/silverpine-and-pools-of-vision-queue.md"
+    },
+    {
+      "npc_id": 3448,
+      "name": "Tonga Runetotem",
+      "zone": "The Barrens",
+      "route": "Crossroads oasis research and trade services",
+      "reason": "Exact current adult male Tauren/Troll body and Crossroads pin verified; Tonga Horde-friendly, Tariqa Neutral with conditional live access; full relations/lore pending. See docs/research/crossroads-oasis-and-trade-queue.md"
+    },
+    {
+      "npc_id": 3482,
+      "name": "Tari'qa",
+      "zone": "The Barrens",
+      "route": "Crossroads oasis research and trade services",
+      "reason": "Exact current adult male Tauren/Troll body and Crossroads pin verified; Tonga Horde-friendly, Tariqa Neutral with conditional live access; full relations/lore pending. See docs/research/crossroads-oasis-and-trade-queue.md"
     }
   ]
 }
