@@ -1,4 +1,44 @@
 {
+  "lore5500_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5500",
+    "spoken": "[sincere affection, grateful, quietly delighted] A familiar friend to travel beside. Thank you. The world feels a little less distant when there is someone to share it with.",
+    "text": "A familiar friend to travel beside. Thank you. The world feels a little less distant when there is someone to share it with.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5500_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5500",
+    "spoken": "[gentle warmth, hopeful, quietly curious] There you are, my friend. Have you brought news? Or shall we go and find something worth telling together?",
+    "text": "There you are, my friend. Have you brought news? Or shall we go and find something worth telling together?",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5500_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5500",
+    "spoken": "[wistful affection, soft humor, confiding] The letter is for me. Things I hope to see again in Teldrassil. No need to send it; I know where its reader can be found.",
+    "text": "The letter is for me. Things I hope to see again in Teldrassil. No need to send it; I know where its reader can be found.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore5500_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:5500",
+    "spoken": "[gentle wonder, attentive curiosity, hopeful] Somewhere new. Let us notice the little things too. They may be what we most wish to remember later.",
+    "text": "Somewhere new. Let us notice the little things too. They may be what we most wish to remember later.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

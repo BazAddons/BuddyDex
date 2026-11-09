@@ -1,4 +1,44 @@
 {
+  "lore5499_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5499",
+    "spoken": "[sincere warmth, appreciative, quietly eager] Someone who remembers there is more to me than the next lesson. I am glad you came. Let us enjoy the road together.",
+    "text": "Someone who remembers there is more to me than the next lesson. I am glad you came. Let us enjoy the road together.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5499_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5499",
+    "spoken": "[eager, purposeful, restrained excitement] Outside at last. Come, let us make good use of the time. The lesson can wait until I have seen a little of the day.",
+    "text": "Outside at last. Come, let us make good use of the time. The lesson can wait until I have seen a little of the day.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5499_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5499",
+    "spoken": "[dry dignity, competitive amusement, a small laugh] The cork is for keeping my reflexes sharp. Yes, I missed. No, you need not look so pleased about the cork's victory.",
+    "text": "The cork is for keeping my reflexes sharp. Yes, I missed. No, you need not look so pleased about the cork's victory.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore5499_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5499",
+    "spoken": "[firm encouragement, pride, energetic interest] Good. Now carry that knowledge farther than the room where you learned it. I would like to hear what you make of it.",
+    "text": "Good. Now carry that knowledge farther than the room where you learned it. I would like to hear what you make of it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

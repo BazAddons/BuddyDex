@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 100,
-  "remaining_count": 117,
+  "completed_count": 102,
+  "remaining_count": 115,
   "completed": [
     {
       "npc_id": 54,
@@ -563,6 +563,24 @@
       "npc_id": 5178,
       "name": "Soolie Berryfizz",
       "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5499,
+      "name": "Lilyssia Nightbreeze",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5500,
+      "name": "Tel'Athir",
+      "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -1296,13 +1314,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5499,
-      "name": "Lilyssia Nightbreeze",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 1297,
       "name": "Lina Stover",
       "zone": "Stormwind City",
@@ -1480,13 +1491,6 @@
     {
       "npc_id": 5566,
       "name": "Tannysa",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5500,
-      "name": "Tel'Athir",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

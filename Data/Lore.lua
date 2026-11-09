@@ -42,6 +42,62 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Alchemy Needs, Mage Quarter, Stormwind. Night elves: Lilyssia 5499,
+    -- female Expert Alchemist; Tel'Athir 5500, male Journeyman Alchemist.
+    -- Installed gossip: her duty to teach conflicts with wanting to fight;
+    -- he wants news of Teldrassil. They refer learners to one another;
+    -- Lilyssia also refers advanced learners to Ainethil in Darnassus.
+    -- No invented formal apprenticeship, Nightbreeze kinship or later
+    -- Amirdrassil relocation. Sources: docs/research/alchemy-needs.md.
+    [5499] = {
+        quote = "If I must remain here, I intend my work to travel farther than this room. Listen well, then put the lesson to use.",
+        likes = { "A learner who returns with experience", "Hearing her teaching proved useful", "A chance to move beyond the doorway" },
+        dislikes = { "Being shut indoors through the action", "Knowledge learned and never used", "Calling her duty an easy choice" },
+        gossip = "Lilyssia says a teacher should keep her reflexes ready. A flying cork seems to be her smallest and most persistent opponent.",
+        bio = "Lilyssia Nightbreeze teaches alchemy at Alchemy Needs in Stormwind. She sends beginners to Tel'Athir and advanced learners to Ainethil in Darnassus. She longs to join battles beyond the walls, but remains to teach those who fight in her stead.",
+        backstory = "Duty keeps her knowledge within reach of new alchemists. It does little to quiet her wish to be outside. Lilyssia gives her attention to the lesson, knowing a student may carry its usefulness much farther than she can travel that day.",
+        secret = "She practices catching a tossed cork between lessons. When she misses, she glares at it as though it has won a worthy contest. It remains a cork, which makes the defeat rather irritating.",
+        bestFriend = "You may laugh when I miss. Then let us go outside for a while. I can return to the lesson with a clearer head afterward.",
+        favorite = { emote = "FLEX", hint = "A little readiness for the field is more welcome to her than another pose behind a desk." },
+        lines = {
+            greet = { { "Outside at last. Come, let us make good use of the time. The lesson can wait until I have seen a little of the day.", tone = "[eager, purposeful, restrained excitement]" }, "There you are. Tell me what you have put to use since we last spoke." },
+            idle = { { "The cork is for keeping my reflexes sharp. Yes, I missed. No, you need not look so pleased about the cork's victory.", tone = "[dry dignity, competitive amusement, a small laugh]" }, "It is good to hear that a lesson mattered somewhere beyond the shop.", "Duty need not mean I have stopped wanting to be out here." },
+            befriended = { { "Someone who remembers there is more to me than the next lesson. I am glad you came. Let us enjoy the road together.", tone = "[sincere warmth, appreciative, quietly eager]" } },
+            poke = { "You have my attention. What will you do with it?", "An unexpected test of patience?" },
+            learned = { { "Good. Now carry that knowledge farther than the room where you learned it. I would like to hear what you make of it.", tone = "[firm encouragement, pride, energetic interest]" } },
+            combatEnd = { "Everyone safe? Good. Let the excitement settle before we move on." },
+            quest = { "Work put to use. That is worth being pleased about." },
+            loot = { "Something useful? Take care of it, then." },
+            rest = { "A pause in the open air is still a welcome change." },
+            levelUp = { "Experience has answered the lesson. Well done." },
+            hearth = { "Back to the shop. I hope there will be news worth hearing." },
+        },
+    },
+    [5500] = {
+        quote = "Stay a moment. A little news from far away can make this room feel much less small.",
+        likes = { "Tidings of Teldrassil", "A traveler willing to tell the ordinary parts", "Knowledge shared with care" },
+        dislikes = { "A greeting cut short by haste", "Being told every story needs a battle", "A lesson forgotten as soon as it ends" },
+        gossip = "Tel'Athir asks travelers for news, then sometimes adds a line to a letter. Nobody seems to see him sending it.",
+        bio = "Tel'Athir teaches alchemy at Alchemy Needs in Stormwind's Mage Quarter. He welcomes learners and directs those beyond his teaching to Lilyssia Nightbreeze. He also asks travelers for news of Teldrassil, plainly missing the distant tree.",
+        backstory = "A visitor can bring more than a request for instruction. Tel'Athir listens for the places behind a journey and the small details that make them familiar. Sharing his knowledge gives him a reason to ask after the world beyond Stormwind.",
+        secret = "The letter is addressed to himself. When someone brings good news of Teldrassil, he adds one thing he hopes to see again. He likes having a page that waits for a journey instead of a reply.",
+        bestFriend = "You needn't bring news from far away every time. Tell me about your day. I have come to look forward to hearing it from you.",
+        favorite = { emote = "GREET", hint = "A friendly greeting suggests a traveler may have time to stop and share a little news." },
+        lines = {
+            greet = { { "There you are, my friend. Have you brought news? Or shall we go and find something worth telling together?", tone = "[gentle warmth, hopeful, quietly curious]" }, "It is good to see you. Tell me where the day has taken you." },
+            idle = { { "The letter is for me. Things I hope to see again in Teldrassil. No need to send it; I know where its reader can be found.", tone = "[wistful affection, soft humor, confiding]" }, "An ordinary morning can be very good news to someone far from it.", "It is a pleasure to share something useful and hear a little of the world in return." },
+            befriended = { { "A familiar friend to travel beside. Thank you. The world feels a little less distant when there is someone to share it with.", tone = "[sincere affection, grateful, quietly delighted]" } },
+            poke = { "Yes? Did I miss part of the story?", "I am here. What would you like to tell me?" },
+            zone = { { "Somewhere new. Let us notice the little things too. They may be what we most wish to remember later.", tone = "[gentle wonder, attentive curiosity, hopeful]" } },
+            learned = { "Knowledge shared and understood. May you put it to good use." },
+            quest = { "A little more of someone's story brought to a happier place." },
+            mail = { "News, perhaps. I hope it is good." },
+            rest = { "Sit a while. A story need not be hurried to its ending." },
+            landed = { "There. What shall we notice first?" },
+            hearth = { "Home for now. There may be someone glad to hear where we have been." },
+        },
+    },
+
     -- Archmage Malin 2708 and Brother Sarno 7917, male humans, Stormwind.
     -- Malin's Classic Trelane recovery chain: 690/691/693-697. Sarno's
     -- Overspark/Techbot referral: 2923 -> 2922. No assumed player completion,
