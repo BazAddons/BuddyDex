@@ -479,6 +479,46 @@
     "text": "Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore7737_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7737",
+    "spoken": "[warm] [sincere] [lightly amused] You have become someone I am pleased to sit beside after the cups are filled. Come along, friend. We can enjoy a little of the road together. Later, I hope you will tell me what you thought of it. I may have another argument prepared in defense of a very ordinary loaf.",
+    "text": "You have become someone I am pleased to sit beside after the cups are filled. Come along, friend. We can enjoy a little of the road together. Later, I hope you will tell me what you thought of it. I may have another argument prepared in defense of a very ordinary loaf.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7737_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7737",
+    "spoken": "[warm] [welcoming] [gently amused] Welcome, traveler. Set your pack down and take a moment to choose something you will enjoy. We have spice bread, pie, and a plain loaf I am always pleased to defend. If you find it tough, try a little milk before passing judgment. There is no need to hurry the first taste.",
+    "text": "Welcome, traveler. Set your pack down and take a moment to choose something you will enjoy. We have spice bread, pie, and a plain loaf I am always pleased to defend. If you find it tough, try a little milk before passing judgment. There is no need to hurry the first taste.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7737_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7737",
+    "spoken": "[conversational] [amused] [unhurried] A guest once told me the plain loaf was hardly fit for a meal. I offered a piece dipped in milk. After that, the only complaint was that I had given too small a piece. I enjoy remembering that whenever someone decides the most expensive food must be the best part of supper.",
+    "text": "A guest once told me the plain loaf was hardly fit for a meal. I offered a piece dipped in milk. After that, the only complaint was that I had given too small a piece. I enjoy remembering that whenever someone decides the most expensive food must be the best part of supper.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7737_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:7737",
+    "spoken": "[gentle] [reassuring] [unhurried] Let that piece of bread soften a little. There is no prize for swallowing a meal before you have enjoyed it. We can talk while we wait. A modest loaf, a cup of milk, and someone willing to stay at the table can make a very good end to a difficult day.",
+    "text": "Let that piece of bread soften a little. There is no prize for swallowing a meal before you have enjoyed it. We can talk while we wait. A modest loaf, a cup of milk, and someone willing to stay at the table can make a very good end to a difficult day.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore8361_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

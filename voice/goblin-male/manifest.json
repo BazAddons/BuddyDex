@@ -79,6 +79,46 @@
     "text": "Good work. People think running a port is easy until the conversation reaches pirates, missing cargo, and a shark called Bruuz. You kept your side of the arrangement. Time I kept mine. That is how useful business gets done.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore3412_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3412",
+    "spoken": "[warm] [wry] [sincere] I penciled your name beside the extra hour. That means I am keeping some time for you, even if I have not persuaded the rest of the day to cooperate. Come along, friend. We can talk about something interesting. You do not have to bring blueprints every time you want my attention.",
+    "text": "I penciled your name beside the extra hour. That means I am keeping some time for you, even if I have not persuaded the rest of the day to cooperate. Come along, friend. We can talk about something interesting. You do not have to bring blueprints every time you want my attention.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3412_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3412",
+    "spoken": "[brisk] [wry] [animated] Got something interesting? A design, a useful bit of news, an explanation for why the day is still too short? I have a clock sketch that addresses the last problem. Twenty-five hours, clearly marked. Before you ask, drawing another hour is the easy part. Finding time to build the clock remains under consideration.",
+    "text": "Got something interesting? A design, a useful bit of news, an explanation for why the day is still too short? I have a clock sketch that addresses the last problem. Twenty-five hours, clearly marked. Before you ask, drawing another hour is the easy part. Finding time to build the clock remains under consideration.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3412_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3412",
+    "spoken": "[dry] [defensive] [amused] The extra hour on that clock sketch does not actually make the day longer. I know that. I am an engineer. But it gets people talking, and occasionally someone says something useful. Besides, I like looking at a schedule with a little room left in it. You can appreciate the idea without demanding a working model.",
+    "text": "The extra hour on that clock sketch does not actually make the day longer. I know that. I am an engineer. But it gets people talking, and occasionally someone says something useful. Besides, I like looking at a schedule with a little room left in it. You can appreciate the idea without demanding a working model.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3412_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3412",
+    "spoken": "[instructive] [matter-of-fact] [wry] An improvement needs materials. You cannot strengthen a ring by staring at it and wishing the work done. Silver, agate, and a little skilled attention can do far more. Bring useful information along with the job and I may take a particular interest. That still does not make the original ring mine.",
+    "text": "An improvement needs materials. You cannot strengthen a ring by staring at it and wishing the work done. Silver, agate, and a little skilled attention can do far more. Bring useful information along with the job and I may take a particular interest. That still does not make the original ring mine.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3413_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

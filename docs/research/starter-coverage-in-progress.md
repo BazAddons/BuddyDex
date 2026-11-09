@@ -470,3 +470,10 @@ Next individually checked [Kamari and Elisa](kamari-and-elisa-queue.md), adult f
 398 completed authored profiles. Adult female Orc/Dwarf, fifteen personal lines and four approved v4 signatures each. Friendly coverage Alliance203/Horde104/unverified98, seven shared entries overlap. [Sources and original-writing boundaries](kamari-and-elisa-queue.md): real building-hide/camping lessons retained, no invented Steelhand kinship or later refugee memory. Layout parts both total20 lines; full smoke and separate fresh Horde/Alliance sessions passed. Eight clips verified finite, nonsilent mono22050 and exact text/tone/model/voice mappings. Installed/development ZIP verified6126files/6098mappings/122.10MiB. In-game visual/listening QA not claimed. Original CF candidate remains untouched.
 
 Next individually verified [Greul and Nogg](greul-and-nogg-queue.md), adult female Tauren/male Goblin Horde services/quest candidates, neither complete. Wider1510-name pool and earlier explicit source gaps remain active.
+
+
+## 2026-11-09: Innkeeper Greul and Nogg
+
+400 completed authored profiles. Adult female Tauren/male Goblin Horde additions,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance203/Horde106/unverified98, seven shared entries overlap. [Research/writing/validation](greul-and-nogg-queue.md) preserves actual inn stock/welcome and rig/ring quests. Lore layouts19/20lines, full smoke and separate fresh Horde sessions passed. Installed/development ZIP verified6134files/6106mappings/122.66MiB. No live visual/listening approval claimed, no CF upload/tag.
+
+Next individually checked [Bashana and Jandi](bashana-and-jandi-queue.md), adult female Tauren/Troll Horde quest/training candidates. Jandi's current model proves female Troll despite earlier incomplete historical-hint scan. Neither authored/counted complete. Wider1510-name pool and previous explicit source gaps remain active.

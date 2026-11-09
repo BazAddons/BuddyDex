@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Greul, Camp Mojache, Feralas,7737/6554.
+    -- Adult female Tauren, Horde-friendly Innkeeper/Vendor. Current twelve
+    -- bread/drink rows and actual plains-wind welcome; no personal quest.
+    -- Defending the tough loaf with milk is original BuddyDex writing.
+    -- Research: docs/research/greul-and-nogg-queue.md.
+    [7737] = {
+        quote = "Do not judge the tough loaf before you have tried it with milk. Some good things ask you to slow down a little.",
+        likes = { "Bread given a fair chance", "An unhurried cup of milk", "A guest finding something they enjoy" },
+        dislikes = { "Good food dismissed by its price", "A meal swallowed between hurried words", "Making a tired traveler feel unwelcome" },
+        gossip = "Greul has been known to defend the humblest loaf in her stock. Travelers who disagree usually find themselves offered a little milk.",
+        bio = "Greul welcomes travelers at Camp Mojache in Feralas. Her inn offers a home for the road, with bread and drinks for hungry guests. Mulgore spice bread and cherry pie share her stock with plain loaves, each deserving a fair place at the table.",
+        backstory = "A guest once called the tough loaf unfit for a proper meal. Greul dipped a piece in milk and invited another taste. The argument ended with the guest asking for more. She has enjoyed defending the loaf ever since, especially to hungry critics.",
+        secret = "She sometimes hopes a visitor will criticize the plain bread. It gives her an excuse to sit down, pour some milk and change their mind.",
+        bestFriend = "Sit beside me. We can let the bread soften while you tell me your news. I am glad to have you at the table again.",
+        favorite = { emote = "SMILE", hint = "A warm expression tells this innkeeper you are beginning to enjoy the welcome." },
+        lines = {
+            greet = { { "Welcome, traveler. Set your pack down and take a moment to choose something you will enjoy. We have spice bread, pie, and a plain loaf I am always pleased to defend. If you find it tough, try a little milk before passing judgment. There is no need to hurry the first taste.", tone = "[warm] [welcoming] [gently amused]" },
+                "There you are. Have you come hungry, or shall we begin with a little conversation?" },
+            idle = { { "A guest once told me the plain loaf was hardly fit for a meal. I offered a piece dipped in milk. After that, the only complaint was that I had given too small a piece. I enjoy remembering that whenever someone decides the most expensive food must be the best part of supper.", tone = "[conversational] [amused] [unhurried]" },
+                "Mulgore spice bread has its charms. The plain loaf is still entitled to a fair hearing.",
+                "A guest need not know what to say immediately. There is time to grow comfortable." },
+            befriended = { { "You have become someone I am pleased to sit beside after the cups are filled. Come along, friend. We can enjoy a little of the road together. Later, I hope you will tell me what you thought of it. I may have another argument prepared in defense of a very ordinary loaf.", tone = "[warm] [sincere] [lightly amused]" } },
+            poke = { "Yes, friend? Have you changed your mind about the bread?", "I am listening. Take your time." },
+            rest = { { "Let that piece of bread soften a little. There is no prize for swallowing a meal before you have enjoyed it. We can talk while we wait. A modest loaf, a cup of milk, and someone willing to stay at the table can make a very good end to a difficult day.", tone = "[gentle] [reassuring] [unhurried]" } },
+            loot = { "Something for the journey? I hope you have also left room for a meal." },
+            bagsFull = { "Even the humblest loaf needs a little space in your pack." },
+            quest = { "There will be work beyond the inn. Eat before you go to meet it." },
+            laughAlong = { "You see? A plain meal can still give us something to enjoy." },
+            lowHealth = { "Come back from the fighting. You need care before another difficult step." },
+            hearth = { "Back to a welcome. You need not have a grand story ready before you arrive." },
+        },
+    },
+
+    -- Nogg <Expert Engineer>, Nogg's Machine Shop, Orgrimmar,3412/7135.
+    -- Adult male Goblin, Horde-friendly.2841 seeks gnomish rig plans;
+    --2949 denies ring ownership,2950 improves it for materials and coin.
+    -- Twenty-five-mark clock sketch is original, not time-changing magic.
+    -- Research: docs/research/greul-and-nogg-queue.md.
+    [3412] = {
+        quote = "If I had another hour in the day, imagine what I could finish. No, I have not finished designing the clock. That is hardly the point.",
+        likes = { "Information worth putting to work", "A design he can improve", "A few more hours for engineering" },
+        dislikes = { "Gnomish rigs outdoing goblin models", "Missing materials for an improvement", "An interruption with nothing useful to say" },
+        gossip = "Nogg has sketched a clock with twenty-five hours marked on its face. He is rather less eager to explain when he will find time to build it.",
+        bio = "Nogg is an expert engineer in Orgrimmar. He seeks Thermaplugg's rig plans for goblin shredders and takes an interest in news of the Dark Irons. He denies owning a recovered gold ring, but offers to strengthen it with silver and agate.",
+        backstory = "Wishing for more time at the workbench, Nogg drew a clock face with an extra hour. He readily admits the sketch will not lengthen the day. He is keeping it anyway, since visitors who notice it sometimes bring him an interesting argument.",
+        secret = "The extra hour now has a friend's name penciled beside it. He calls that a scheduling detail. The space remains reserved even when the work piles up.",
+        bestFriend = "There you are. I've kept the extra hour clear for you. Yes, I know the clock doesn't work. Come along before someone asks me to explain it.",
+        favorite = { emote = "GRIN", hint = "A knowing flash of amusement suits an engineer whose extra hour exists mainly on paper." },
+        lines = {
+            greet = { { "Got something interesting? A design, a useful bit of news, an explanation for why the day is still too short? I have a clock sketch that addresses the last problem. Twenty-five hours, clearly marked. Before you ask, drawing another hour is the easy part. Finding time to build the clock remains under consideration.", tone = "[brisk] [wry] [animated]" },
+                "Back again? Good. Bring me something worth taking apart, or at least an interesting argument." },
+            idle = { { "The extra hour on that clock sketch does not actually make the day longer. I know that. I am an engineer. But it gets people talking, and occasionally someone says something useful. Besides, I like looking at a schedule with a little room left in it. You can appreciate the idea without demanding a working model.", tone = "[dry] [defensive] [amused]" },
+                "Those gnomes are getting far too good at rigs. There is work to do.",
+                "If Thund says you are ready, come see me. When my lessons are done, Roxxik can take you further." },
+            befriended = { { "I penciled your name beside the extra hour. That means I am keeping some time for you, even if I have not persuaded the rest of the day to cooperate. Come along, friend. We can talk about something interesting. You do not have to bring blueprints every time you want my attention.", tone = "[warm] [wry] [sincere]" } },
+            poke = { "Yes? I hope this is the interesting interruption.", "If it is about the clock, I have already heard the obvious objection." },
+            learned = { { "An improvement needs materials. You cannot strengthen a ring by staring at it and wishing the work done. Silver, agate, and a little skilled attention can do far more. Bring useful information along with the job and I may take a particular interest. That still does not make the original ring mine.", tone = "[instructive] [matter-of-fact] [wry]" } },
+            loot = { "Take a closer look. An ordinary object can arrive with very interesting information." },
+            quest = { "Bring back what I actually asked for. Enthusiasm is difficult to use in place of blueprints." },
+            bagsFull = { "Find some room. You may regret leaving a promising piece of engineering behind." },
+            rest = { "All right, a little time away from the bench. I did reserve an hour, in principle." },
+            laughAlong = { "Yes, yes. Twenty-five marks and exactly the same length of day. Very observant." },
+            hearth = { "Back to the shop. I have improvements to consider and a clock sketch to defend." },
+        },
+    },
+
     -- Kamari <Journeyman Leatherworker>, Kodohide Leatherworkers,5811/4350.
     -- Adult female Orc, Horde-friendly.96875 supplies Orgrimmar building
     -- hides;96877 admires Halikor trophy. Gossip refers students to Karolek.

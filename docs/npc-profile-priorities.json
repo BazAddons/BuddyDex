@@ -1028,14 +1028,28 @@
       "name": "Innkeeper Greul",
       "zone": "Feralas",
       "route": "Female Tauren/male Goblin Horde services and quest coverage",
-      "reason": "Exact current named adult model, Horde Friendly icon and approved runtime voice checked; full own lore/quest/service research pending. See docs/research/greul-and-nogg-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; verified actual welcome/inventory and rig/ring rivalry with source and original-writing limits in docs/research/greul-and-nogg-queue.md"
     },
     {
       "npc_id": 3412,
       "name": "Nogg",
       "zone": "Orgrimmar",
       "route": "Female Tauren/male Goblin Horde services and quest coverage",
-      "reason": "Exact current named adult model, Horde Friendly icon and approved runtime voice checked; full own lore/quest/service research pending. See docs/research/greul-and-nogg-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; verified actual welcome/inventory and rig/ring rivalry with source and original-writing limits in docs/research/greul-and-nogg-queue.md"
+    },
+    {
+      "npc_id": 9087,
+      "name": "Bashana Runetotem",
+      "zone": "Thunder Bluff",
+      "route": "Female Tauren/Troll Horde quest and herbalism coverage",
+      "reason": "Exact current named adult female model, Horde Friendly icon and established runtime voice checked; full research pending. See docs/research/bashana-and-jandi-queue.md"
+    },
+    {
+      "npc_id": 3404,
+      "name": "Jandi",
+      "zone": "Orgrimmar",
+      "route": "Female Tauren/Troll Horde quest and herbalism coverage",
+      "reason": "Exact current named adult female model, Horde Friendly icon and established runtime voice checked; full research pending. See docs/research/bashana-and-jandi-queue.md"
     }
   ]
 }

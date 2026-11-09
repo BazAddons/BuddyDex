@@ -1356,14 +1356,28 @@
     "npc_id": 7737,
     "name": "Innkeeper Greul",
     "zone": "Feralas",
-    "source": "Exact current named adult model, Horde Friendly icon and runtime established voice individually checked; own full lore/quest/service research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model, Horde Friendly and approved voice checked; full own relations, stock, installed gossip, rig/ring/transport chains and Classic shop context researched; explicit current service/readable/literary gaps documented, no Scout sighting claimed",
     "research_notes": "docs/research/greul-and-nogg-queue.md"
   },
   {
     "npc_id": 3412,
     "name": "Nogg",
     "zone": "Orgrimmar",
-    "source": "Exact current named adult model, Horde Friendly icon and runtime established voice individually checked; own full lore/quest/service research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model, Horde Friendly and approved voice checked; full own relations, stock, installed gossip, rig/ring/transport chains and Classic shop context researched; explicit current service/readable/literary gaps documented, no Scout sighting claimed",
     "research_notes": "docs/research/greul-and-nogg-queue.md"
+  },
+  {
+    "npc_id": 9087,
+    "name": "Bashana Runetotem",
+    "zone": "Thunder Bluff",
+    "source": "Exact current named adult female model, Horde Friendly icon and established voice checked; full own lore/quest/service research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/bashana-and-jandi-queue.md"
+  },
+  {
+    "npc_id": 3404,
+    "name": "Jandi",
+    "zone": "Orgrimmar",
+    "source": "Exact current named adult female model, Horde Friendly icon and established voice checked; full own lore/quest/service research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/bashana-and-jandi-queue.md"
   }
 ]
