@@ -83,6 +83,44 @@ ns.Lore = {
         },
     },
 
+    -- Innkeeper Farley, Lion's Pride Inn, Goldshire. Human, male; NPC 295.
+    -- Facts: Falkhaan Isenstrider's best friend; accepts Rest and Relaxation
+    -- (2158), offering a seat by the fire and refreshments. In the Classic
+    -- Legend of Stalvan chain (69/70), remembers a messenger who fled into
+    -- a storm and left letters upstairs; sends the player to retrieve one.
+    -- Before the Storm records the family's longstanding inn business, but
+    -- its later events and his brother's reunion are not part of this entry.
+    -- The lost-property habits and secret below are original BuddyDex writing.
+    -- Sources and quest-text notes: docs/research/innkeeper-farley.md.
+    [295] = {
+        quote = "Hang your cloak up first. Whatever's chasing you can wait until you've had a seat.",
+        likes = { "Boots drying beside the fire", "Familiar faces at the door", "A quiet last round" },
+        dislikes = { "Wet cloaks left on the beds", "Brawls that break the furniture", "A guest leaving without a goodbye" },
+        gossip = "Goldshire says Farley keeps every lost button. Ask for yours and he'll want to know which visit, which coat, and how you've been.",
+        bio = "Farley runs the Lion's Pride Inn in Goldshire. His friend Falkhaan sends tired adventurers his way. "
+            .. "He welcomes them with food, drink and a place to rest, and remembers enough of his guests to help those asking after Stalvan.",
+        backstory = "His family kept the Lion's Pride long before today's young adventurers arrived. Farley learned "
+            .. "the trade among its tables. A messenger once fled into a storm, leaving letters behind; Farley kept them when the man never came back.",
+        secret = "He remembers who left each lost trinket better than he remembers their unpaid tabs. Returning one gives him an excuse to ask whether they got home safely.",
+        bestFriend = "No need to tell me who sent you anymore. I know your knock. Come in, put your feet up, and tell me how you've been.",
+        favorite = { emote = "THANK", hint = "A word of appreciation lasts longer than a tip." },
+        lines = {
+            greet = { "Well! Someone else can mind the counter for a bit.", "Out we go. Did you remember your cloak?" },
+            idle = { "I ought to be polishing something. Old habit.",
+                "Amazing how far a lost glove can travel without its owner.",
+                "Wonder who's sitting in your usual chair tonight." },
+            befriended = { "Next time Falkhaan sends someone, I'll tell them to look for you, too." },
+            poke = { "Yes, yes, I heard you. There's no counter between us now.", "That isn't how you ring for service!" },
+            hearth = { "Home for a spell? Good. Even heroes need somewhere to leave their boots." },
+            rest = { "There we are. Sit before your knees make the decision for you." },
+            quest = { "Another favor done. I hope they offered you a seat." },
+            combatEnd = { "Everyone still here? Good. Take a breath." },
+            bagsFull = { "That's a lot to leave under a bed by mistake." },
+            levelUp = { "Look how far you've come! I'll still remember you before all that fancy armor." },
+            died = { "Oh, my friend. I wish a warm room could fix everything." },
+        },
+    },
+
     -- Kira Songshine <Traveling Baker>, Elwynn Forest. Human, female.
     -- Facts: NPC 3937; sells breads, cherry pie and drinks around Goldshire.
     -- Classic references describe her traveling Elwynn's roads.

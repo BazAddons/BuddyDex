@@ -500,6 +500,31 @@ step("Thor: met at the flight path, with his own favorite", function()
     assert(fav.token == "WAVE" and fav.hint == ns.Lore[523].favorite.hint, "Thor's own favorite not used")
 end)
 
+step("Farley's merchant friendship discovers his favorite and unlocks his entry", function()
+    local farley = { guid = "Creature-0-1-2-3-295-0000AB", npcID = 295,
+        name = "Innkeeper Farley", type = "Humanoid", typeID = 7,
+        class = "normal", level = 30, sex = 2, reaction = 5,
+        faction = "Alliance", tip = { "Innkeeper", "Level 30", "Goldshire" } }
+    MOCK.units.npc = farley
+    FireAll("MERCHANT_SHOW")
+    MOCK.units.npc = nil
+    local e = BuddyDexDB.friends[295]
+    assert(e and e.points == 60, "Farley was not met through his services")
+    assert(not ns.DexDetail.LoreParts(295, e).quote, "Farley's personality unlocked too soon")
+    MOCK.units.target = farley
+    DoEmote("THANK")
+    assert(e.favoriteFound and e.points == 210, "Farley's favorite cannot be discovered")
+    DoEmote("THANK")
+    assert(e.points == 210, "Farley's favorite bypassed its daily cap")
+    SetTier(e, 6)
+    local parts = ns.DexDetail.LoreParts(295, e)
+    assert(parts.unlocked == 7 and parts.bestFriend
+        and parts.bestFriend:find(ns.Lore[295].bestFriend, 1, true),
+        "Farley's complete entry did not unlock")
+    MOCK.units.target = nil
+    ns.Database.Remove(295)
+end)
+
 step("Thor's entry unlocks by tier, and /bd lore previews it", function()
     local e = BuddyDexDB.friends[523]
     local parts = ns.DexDetail.LoreParts(523, e)
