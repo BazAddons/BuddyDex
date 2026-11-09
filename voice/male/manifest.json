@@ -2149,6 +2149,46 @@
     "text": "This looks like a good place. Is there room beside you?",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore273065_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:273065",
+    "spoken": "[delighted reserved affection, lively interest, inviting] You want my company? Splendid. Lead on, my friend. I should enjoy hearing what has caught your interest. We may find a small question worth a remarkably long conversation.",
+    "text": "You want my company? Splendid. Lead on, my friend. I should enjoy hearing what has caught your interest. We may find a small question worth a remarkably long conversation.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore273065_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:273065",
+    "spoken": "[bright dry wit, absorbed curiosity, welcoming] Come and have a look, my friend. I have an awkward stone and a very small tower. Your suggestion may be just what it needs. Or we can walk while I explain the difficulty in considerable detail.",
+    "text": "Come and have a look, my friend. I have an awkward stone and a very small tower. Your suggestion may be just what it needs. Or we can walk while I explain the difficulty in considerable detail.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore273065_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:273065",
+    "spoken": "[pleased intellectual curiosity, wry amusement, confiding] The awkward stone is my favorite. It has brought down several towers. I keep trying it again because I want to know where it will fit. A very small problem can occupy a very pleasant afternoon.",
+    "text": "The awkward stone is my favorite. It has brought down several towers. I keep trying it again because I want to know where it will fit. A very small problem can occupy a very pleasant afternoon.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore273065_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:273065",
+    "spoken": "[keen approving interest, dry warmth, encouraging] Oh, well done. Give yourself a moment to notice what made the difference. There is pleasure in finding a way that works, especially when the earlier attempts didn't.",
+    "text": "Oh, well done. Give yourself a moment to notice what made the difference. There is pleasure in finding a way that works, especially when the earlier attempts didn't.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore274917_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

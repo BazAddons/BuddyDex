@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 171,
-  "remaining_count": 46,
+  "completed_count": 175,
+  "remaining_count": 42,
   "completed": [
     {
       "npc_id": 54,
@@ -1532,6 +1532,42 @@
       "status": "complete"
     },
     {
+      "npc_id": 251507,
+      "name": "Josephine Carson",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 258930,
+      "name": "Isaac Chan",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 268238,
+      "name": "Nordun Steadysight",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 273065,
+      "name": "Ribbly Spinwhistle",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 274917,
       "name": "Boborus Overvolt",
       "zone": "Ironforge",
@@ -1571,20 +1607,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 258930,
-      "name": "Isaac Chan",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 251507,
-      "name": "Josephine Carson",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 796,
       "name": "Joshua",
       "zone": "Elwynn Forest",
@@ -1601,13 +1623,6 @@
     {
       "npc_id": 395,
       "name": "Markus",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 268238,
-      "name": "Nordun Steadysight",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1657,13 +1672,6 @@
     {
       "npc_id": 1414,
       "name": "Lisan Pierce",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 273065,
-      "name": "Ribbly Spinwhistle",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

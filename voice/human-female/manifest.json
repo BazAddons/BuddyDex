@@ -959,6 +959,46 @@
     "text": "You helped without asking them to be less themselves. That's a kindness to be proud of.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore251507_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251507",
+    "spoken": "[sincere pleased affection, open interest, inviting] A little company would be welcome, my friend. Come on. Tell me what you have been learning, or simply what you have enjoyed noticing. I should like to hear both.",
+    "text": "A little company would be welcome, my friend. Come on. Tell me what you have been learning, or simply what you have enjoyed noticing. I should like to hear both.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251507_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251507",
+    "spoken": "[attentive confident warmth, restrained delight, welcoming] Shall we walk? Slowly enough to notice what is around us. I have spent a little time watching a squirrel solve a surprisingly awkward problem. It was a small success worth seeing through.",
+    "text": "Shall we walk? Slowly enough to notice what is around us. I have spent a little time watching a squirrel solve a surprisingly awkward problem. It was a small success worth seeing through.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251507_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251507",
+    "spoken": "[quiet amusement, fond appreciation, confiding] I found myself silently cheering a squirrel that had finally managed an awkward acorn. An interest in patient effort, I called it. A very sound explanation. It did not quite account for the smile.",
+    "text": "I found myself silently cheering a squirrel that had finally managed an awkward acorn. An interest in patient effort, I called it. A very sound explanation. It did not quite account for the smile.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251507_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:251507",
+    "spoken": "[firm patient encouragement, thoughtful approval, clear] Well done. Take a moment to understand why it worked. The next lesson will ask more of you, and that understanding will matter as much as the confidence.",
+    "text": "Well done. Take a moment to understand why it worked. The next lesson will ask more of you, and that understanding will matter as much as the confidence.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore251_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

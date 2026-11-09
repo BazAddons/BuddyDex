@@ -399,6 +399,46 @@
     "text": "A copper on its edge can be more interesting than a mountain of gold.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore268238_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:268238",
+    "spoken": "[sincere rough-edged affection, pleased, inviting] Ye thought to bring me along. Gladly, friend. Come on. A little company improves the road, and I should like to hear what ye have been making of it.",
+    "text": "Ye thought to bring me along. Gladly, friend. Come on. A little company improves the road, and I should like to hear what ye have been making of it.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore268238_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:268238",
+    "spoken": "[experienced practical advice, steady, encouraging] Try the grip and how it sits. Then think about carrying it for a while. The right choice should be useful after the fine first impression has settled into an ordinary day's work.",
+    "text": "Try the grip and how it sits. Then think about carrying it for a while. The right choice should be useful after the fine first impression has settled into an ordinary day's work.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore268238_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:268238",
+    "spoken": "[practical dwarven warmth, contented humor, welcoming] Ready for a walk? Good. The kit is in order, and the cup is where I like it. Come on, friend. Tell me what ye have seen since we last had a proper talk.",
+    "text": "Ready for a walk? Good. The kit is in order, and the cup is where I like it. Come on, friend. Tell me what ye have seen since we last had a proper talk.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore268238_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:268238",
+    "spoken": "[matter-of-fact fond amusement, relaxed, confiding] I packed the whole kit until nothing rattled. Very tidy. Then I missed the little tap of me tin cup. I've let that one sound back in. The rest of the kit can continue to behave itself.",
+    "text": "I packed the whole kit until nothing rattled. Very tidy. Then I missed the little tap of me tin cup. I've let that one sound back in. The rest of the kit can continue to behave itself.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore4961_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1966,6 +1966,46 @@
     "text": "Fine bit of shade. We ought to give it a proper try before moving on.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore258930_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:258930",
+    "spoken": "[sincere companionable affection, calm pleasure, inviting] A walk with you would be welcome, my friend. Come on. There is time to see what the day has to offer and hear what you make of it.",
+    "text": "A walk with you would be welcome, my friend. Come on. There is time to see what the day has to offer and hear what you make of it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258930_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:258930",
+    "spoken": "[grounded gentle warmth, relaxed humor, welcoming] Good to see you. Shall we have a little time to walk and listen? At the end of it, I can recommend sitting down and letting a kettle do the singing.",
+    "text": "Good to see you. Shall we have a little time to walk and listen? At the end of it, I can recommend sitting down and letting a kettle do the singing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258930_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:258930",
+    "spoken": "[unhurried warmth, hopeful private amusement, confiding] I sometimes put out a second cup before anyone has called. If a friend arrives, I can say I was prepared. It is a small hope, and a pleasant one to have ready at the end of a day.",
+    "text": "I sometimes put out a second cup before anyone has called. If a friend arrives, I can say I was prepared. It is a small hope, and a pleasant one to have ready at the end of a day.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore258930_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:258930",
+    "spoken": "[patient reassuring warmth, relaxed, inviting] Sit a moment. Care includes recognizing when a pause is needed. Let the day's business settle a little, and tell me what has been on your mind.",
+    "text": "Sit a moment. Care includes recognizing when a pause is needed. Let the day's business settle a little, and tell me what has been on your mind.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore258_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
