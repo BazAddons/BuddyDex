@@ -12545,7 +12545,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -22293,7 +22293,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -30908,7 +30908,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39312,6 +39312,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 17804,
+      "name": "Squire Rowe",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Squire Rowe",
+      "zone": "Elwynn Forest",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 205278,
       "name": "Brother Romulus",
       "source": "Existing local backlog; absent from source filter",
@@ -39383,17 +39394,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Markus",
-      "zone": "Elwynn Forest",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 17804,
-      "name": "Squire Rowe",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Squire Rowe",
       "zone": "Elwynn Forest",
       "scout_reaction": 5,
       "scout_attackable": false,

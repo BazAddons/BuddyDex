@@ -1039,6 +1039,46 @@
     "text": "Delivery made! Now, have we time to find something nice for lunch? I believe we've earned it.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore14394_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:14394",
+    "spoken": "[formal sincere affection, pleased, inviting] You would have me along? It would be my pleasure, my friend. Lead on. I should be glad to share a stretch of the road and hear what you have been doing.",
+    "text": "You would have me along? It would be my pleasure, my friend. Lead on. I should be glad to share a stretch of the road and hear what you have been doing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14394_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:14394",
+    "spoken": "[experienced practical interest, approving, measured] Look at the stitching and how the piece sits. Fine work ought to serve the person wearing it. A little care in the making can matter a great deal when it is put to use.",
+    "text": "Look at the stitching and how the piece sits. Fine work ought to serve the person wearing it. A little care in the making can matter a great deal when it is put to use.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14394_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:14394",
+    "spoken": "[dignified warmth, good-humored pride, welcoming] Shall we see the road beyond the arches? I have a small piece of leatherwork to tell you about. It may receive an announcement quite out of proportion to its size.",
+    "text": "Shall we see the road beyond the arches? I have a small piece of leatherwork to tell you about. It may receive an announcement quite out of proportion to its size.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore14394_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:14394",
+    "spoken": "[solemn mock ceremony, pleased, gently amused] The spoon fits its leather case exactly. In, out, and securely back again. I have tested it more often than necessary. You may permit me a small celebration of the workmanship.",
+    "text": "The spoon fits its leather case exactly. In, out, and securely back again. I have tested it more often than necessary. You may permit me a small celebration of the workmanship.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore14423_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1317,6 +1357,46 @@
     "source": "lore:151",
     "spoken": "[patient, matter-of-fact voice, quiet enthusiasm] The clever bit isn't tying a knot. It's making one you can undo when your fingers are cold.",
     "text": "The clever bit isn't tying a knot. It's making one you can undo when your fingers are cold.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore17804_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:17804",
+    "spoken": "[earnest grateful affection, pleased, inviting] You thought to ask me along. Thank you, my friend. I should like that. Lead on; I shall try to be good company, and you can tell me what you have been doing.",
+    "text": "You thought to ask me along. Thank you, my friend. I should like that. Lead on; I shall try to be good company, and you can tell me what you have been doing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore17804_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:17804",
+    "spoken": "[earnest youthful confidence, lightly self-conscious humor, welcoming] A walk together? Very well. I have been practicing an introduction. If it grows too grand, you may remind me that we are simply going for a walk. Come on, my friend.",
+    "text": "A walk together? Very well. I have been practicing an introduction. If it grows too grand, you may remind me that we are simply going for a walk. Come on, my friend.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore17804_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:17804",
+    "spoken": "[hopeful reflection, modest determination, warm] Sir Rowe. Hm. It is easy enough to say. Becoming someone worthy of it will take rather more than a good introduction. I should begin by being ready when I am needed.",
+    "text": "Sir Rowe. Hm. It is easy enough to say. Becoming someone worthy of it will take rather more than a good introduction. I should begin by being ready when I am needed.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore17804_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:17804",
+    "spoken": "[sincere admiration, earnest resolve, encouraging] A useful task, done when it was needed. I should like to be known for that. Titles can come afterward. Well done, my friend; someone can depend on you to see things through.",
+    "text": "A useful task, done when it was needed. I should like to be known for that. Titles can come afterward. Well done, my friend; someone can depend on you to see things through.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore2046_befriended_1.ogg": {
@@ -2474,6 +2554,46 @@
     "source": "lore:465",
     "spoken": "[relaxed, attentive voice, friendly invitation] Sit a while. No orders to fill here; I've time to hear the whole thing.",
     "text": "Sit a while. No orders to fill here; I've time to hear the whole thing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore466_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:466",
+    "spoken": "[reserved sincere affection, pleased, inviting] You asked for my company. Gladly, my friend. Come on. Let us share a little of the day. I am pleased you thought to include me in it.",
+    "text": "You asked for my company. Gladly, my friend. Come on. Let us share a little of the day. I am pleased you thought to include me in it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore466_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:466",
+    "spoken": "[commanding warmth, composed interest, welcoming] At ease, my friend. Have you time for a little company? Tell me how the road has treated you. I should like to hear from the person who traveled it as well as receive the account.",
+    "text": "At ease, my friend. Have you time for a little company? Tell me how the road has treated you. I should like to hear from the person who traveled it as well as receive the account.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore466_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:466",
+    "spoken": "[dignified dry humor, quietly proud, confiding] A well-kept mustache does no harm to a commander's bearing. I give mine a little attention before an important greeting. You may be good enough to regard that as routine preparation.",
+    "text": "A well-kept mustache does no harm to a commander's bearing. I give mine a little attention before an important greeting. You may be good enough to regard that as routine preparation.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore466_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:466",
+    "spoken": "[grave care, practical compassion, deliberate] Look before you discard it. An old insignia may mean little to the person who finds it and a great deal to a family waiting for something of their own to be returned.",
+    "text": "Look before you discard it. An old insignia may mean little to the person who finds it and a great deal to a family waiting for something of their own to be returned.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore4974_befriended_1.ogg": {

@@ -41,6 +41,85 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Valley of Heroes: human males Major Mattingly 14394/display 14431,
+    -- General Marcus Jonathan 466/display 1688, Squire Rowe 17804/17250.
+    -- Scout confirms friendly current Forever identities. Full Windsor
+    -- attunement/Onyxia honors researched, plus Solomon's correspondence
+    -- and Forever Bloodied Insignia 95195. Private details below are
+    -- original; no player quest completion or later retail death assumed.
+    -- docs/research/valley-of-heroes.md.
+    [14394] = {
+        quote = "Good work deserves its acknowledgment. A grand victory, certainly, but also the careful hands that make another person better prepared to face what comes next.",
+        likes = { "A hero properly thanked", "Leatherwork made to protect its wearer", "A small piece of gear that fits exactly" },
+        dislikes = { "A victory taken for granted", "Weak stitching beneath fine polish", "A mess spoon loose at the bag's bottom" },
+        gossip = "Mattingly can honor a dragonslayer with great ceremony. His satisfaction with a small leather case has required a rather smaller audience.",
+        bio = "Major Mattingly serves Stormwind in the Valley of Heroes. He conducts the celebration honoring victory over Onyxia and recognizes accomplished leatherworkers with instruction for a protective cloak made from the dragon's scales.",
+        backstory = "His leatherworking extends to ordinary gear. He has been making a small case for his mess spoon, adjusting its loop until it holds firmly without catching. A useful little piece can reward careful work as surely as something grand.",
+        secret = "The case is finished. He still slides the spoon in and out to test the fit. It is a remarkably small triumph for a man accustomed to announcing much larger ones.",
+        bestFriend = "Sit, my friend. Tell me about a small thing that went well for you. Those deserve remembering too.",
+        favorite = { emote = "CHEER", hint = "Let your appreciation be heard when good work deserves its moment of recognition." },
+        lines = {
+            greet = { { "Shall we see the road beyond the arches? I have a small piece of leatherwork to tell you about. It may receive an announcement quite out of proportion to its size.", tone = "[dignified warmth, good-humored pride, welcoming]" }, "There you are. Have you time to tell me what has gone well today?" },
+            idle = { { "The spoon fits its leather case exactly. In, out, and securely back again. I have tested it more often than necessary. You may permit me a small celebration of the workmanship.", tone = "[solemn mock ceremony, pleased, gently amused]" }, "The useful part of fine leatherwork is what it lets someone face with a little more confidence.", "Take time to acknowledge the work. People remember whether their effort was noticed." },
+            befriended = { { "You would have me along? It would be my pleasure, my friend. Lead on. I should be glad to share a stretch of the road and hear what you have been doing.", tone = "[formal sincere affection, pleased, inviting]" } },
+            poke = { "Yes? Have you something worth a closer inspection?", "I am listening. What work would you have recognized?" },
+            gear = { { "Look at the stitching and how the piece sits. Fine work ought to serve the person wearing it. A little care in the making can matter a great deal when it is put to use.", tone = "[experienced practical interest, approving, measured]" } },
+            quest = { "Done? Then let the good work be acknowledged. Well done, my friend." },
+            learned = { "Another skill to practice carefully. May it prove useful when someone needs it." },
+            loot = { "A useful find? Take a proper look at how it has been made." },
+            bagsFull = { "A little order may help. I can recommend keeping the spoon where you can reach it." },
+            rest = { "A pause sounds welcome. Tell me what you are quietly pleased with today." },
+            hearth = { "Back to the Valley. There may be good work awaiting its proper acknowledgment." },
+        },
+    },
+    [466] = {
+        quote = "A returned insignia can carry a family's grief. Bring it with care. The person who wore it deserves more than another mark in a report.",
+        likes = { "A citizen heard without being hurried", "A comrade worthy of trust", "A well-kept mustache" },
+        dislikes = { "An urgent plea treated as paperwork", "Forgetting the person behind an insignia", "An order followed without thought" },
+        gossip = "Marcus receives citizens with a commander's bearing. Friends suspect his mustache has received a few encouraging words of its own.",
+        bio = "General Marcus Jonathan commands Stormwind's defense from the Valley of Heroes. He takes Solomon's plea for Lakeshire seriously and accepts recovered insignias from Lordaeron, arranging their return to the soldiers' next of kin.",
+        backstory = "Marcus and Reginald Windsor served together under Turalyon. Their long acquaintance reaches past titles and orders. His watch beneath the statues carries the memory of people who helped shape him, and of the judgment their example still asks of him.",
+        secret = "Before an important greeting, he sometimes smooths his mustache once and hopes nobody noticed. A commander can take a little private satisfaction in keeping it presentable.",
+        bestFriend = "At ease, my friend. I should like to hear how you have been. There is time for a conversation that needn't become a report.",
+        favorite = { emote = "SALUTE", hint = "A respectful military acknowledgment is a familiar courtesy to this watchful commander." },
+        lines = {
+            greet = { { "At ease, my friend. Have you time for a little company? Tell me how the road has treated you. I should like to hear from the person who traveled it as well as receive the account.", tone = "[commanding warmth, composed interest, welcoming]" }, "Good to see you. What news have you brought, and how have you been?" },
+            idle = { { "A well-kept mustache does no harm to a commander's bearing. I give mine a little attention before an important greeting. You may be good enough to regard that as routine preparation.", tone = "[dignified dry humor, quietly proud, confiding]" }, "Windsor and I served under Turalyon. Some lessons ask more of a man than remembering the words.", "A plea can be written very neatly and still have desperate people waiting behind it." },
+            befriended = { { "You asked for my company. Gladly, my friend. Come on. Let us share a little of the day. I am pleased you thought to include me in it.", tone = "[reserved sincere affection, pleased, inviting]" } },
+            poke = { "Yes? You have my attention.", "Speak plainly, friend. What is needed?" },
+            loot = { { "Look before you discard it. An old insignia may mean little to the person who finds it and a great deal to a family waiting for something of their own to be returned.", tone = "[grave care, practical compassion, deliberate]" } },
+            mail = { "Read it to the end. Someone may be waiting anxiously for an answer." },
+            quest = { "You followed through. The people depending on that work deserve to hear it is done." },
+            rest = { "At ease. Give yourself a moment to recover before taking on the next demand." },
+            combatEnd = { "Steady now. Check who is hurt and what help can be given." },
+            comforted = { "Take a moment, friend. Grief does not become smaller because someone orders it away." },
+            hearth = { "Back to Stormwind. There will be people waiting to be heard." },
+        },
+    },
+    [17804] = {
+        quote = "Have a question? Ask it. If someone is waiting on the answer, I should like to get you on your way with the right one.",
+        likes = { "A message delivered to the right person", "Instructions remembered at the right time", "The thought of earning a knight's title" },
+        dislikes = { "Important details lost in a flourish", "Someone waiting without an explanation", "Mistaking a fine introduction for service" },
+        gossip = "Rowe treats a short message seriously. Friends suspect he has considered how the words Sir Rowe might sound one day.",
+        bio = "Squire Rowe attends the road by Stormwind's main gates. He serves Reginald Windsor and helps arrange the marshal's rendezvous with arriving allies. Beneath the great statues, his work is to make sure the right people can meet.",
+        backstory = "He sometimes imagines the introduction he might receive as a knight. The speech changes, but he keeps returning to the work beforehand: arriving prepared, remembering instructions, and becoming someone others can depend upon.",
+        secret = "The grand introduction matters less than he expected. What he would most like to hear is Windsor say he can be relied upon. A few plain words would do.",
+        bestFriend = "Come on, friend. Tell me if I make it too formal. I should like to get the important part right: being good company to you.",
+        favorite = { emote = "SALUTE", hint = "A crisp acknowledgment recognizes someone taking his responsibilities seriously." },
+        lines = {
+            greet = { { "A walk together? Very well. I have been practicing an introduction. If it grows too grand, you may remind me that we are simply going for a walk. Come on, my friend.", tone = "[earnest youthful confidence, lightly self-conscious humor, welcoming]" }, "Have a question? Good. Ask it plainly, and let us see what is needed." },
+            idle = { { "Sir Rowe. Hm. It is easy enough to say. Becoming someone worthy of it will take rather more than a good introduction. I should begin by being ready when I am needed.", tone = "[hopeful reflection, modest determination, warm]" }, "A message is useful when the right person hears it in time.", "A few words from Windsor would mean more than a very long speech about myself." },
+            befriended = { { "You thought to ask me along. Thank you, my friend. I should like that. Lead on; I shall try to be good company, and you can tell me what you have been doing.", tone = "[earnest grateful affection, pleased, inviting]" } },
+            poke = { "Yes? Is someone waiting on an answer?", "I am listening. What do I need to know?" },
+            quest = { { "A useful task, done when it was needed. I should like to be known for that. Titles can come afterward. Well done, my friend; someone can depend on you to see things through.", tone = "[sincere admiration, earnest resolve, encouraging]" } },
+            mail = { "Check who it is for, and what they need to know. The important part should reach them clearly." },
+            zone = { "Another place to learn our way around. Let us get our bearings before setting off." },
+            learned = { "One more thing to practice until you can rely on it." },
+            rest = { "A short pause would be welcome. Tell me what you have been thinking about." },
+            combatEnd = { "Are you hurt? Take a moment. We should be ready before we move on." },
+            hearth = { "Back to the gates. There may be someone waiting for a meeting." },
+        },
+    },
     -- Officer Areyn 12805: human female in Old Town, display 12923; Scout
     -- friendly level 55. Classic accessories-quartermaster identity near
     -- Champions' Hall; no personal quest or exact-ID installed dialogue.
