@@ -39,6 +39,46 @@
     "text": "Good. Tell me what happened, including the part that did not go as you expected. That is often the part we most need to understand. You did useful work. Give yourself the credit, then help me see what it has taught us.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3158_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3158",
+    "spoken": "[gravelly sincere affection, guarded warmth becoming open, matter-of-fact] Yes, I will come with you. You have become someone I enjoy seeing, even when you arrive with everything you need and no business to finish. That is worth a walk together. I may remind you to check your pack, but you need not bring an excuse to ask for my company.",
+    "text": "Yes, I will come with you. You have become someone I enjoy seeing, even when you arrive with everything you need and no business to finish. That is worth a walk together. I may remind you to check your pack, but you need not bring an excuse to ask for my company.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3158_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3158",
+    "spoken": "[gravelly practical welcome, brisk confidence, dry friendly humor] Ready to go? Check what you are carrying before you say yes. Food, water, the tools for the work you intend to do. A fine plan becomes a very dull walk home when the thing you need is still sitting where you left it. I will give you a moment. Then we can get moving.",
+    "text": "Ready to go? Check what you are carrying before you say yes. Food, water, the tools for the work you intend to do. A fine plan becomes a very dull walk home when the thing you need is still sitting where you left it. I will give you a moment. Then we can get moving.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3158_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3158",
+    "spoken": "[rough dry amusement, mildly embarrassed determination, playful gruffness] That was meant to land in my left hand. You saw the idea, even if you did not see a successful catch. Give me a moment before you offer advice. I know where both hands are. It is the copper that keeps choosing a different destination, usually somewhere inconvenient to reach.",
+    "text": "That was meant to land in my left hand. You saw the idea, even if you did not see a successful catch. Give me a moment before you offer advice. I know where both hands are. It is the copper that keeps choosing a different destination, usually somewhere inconvenient to reach.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3158_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3158",
+    "spoken": "[firm practical advice, gravelly dry humor, confident and conversational] Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.",
+    "text": "Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

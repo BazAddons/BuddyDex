@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Innkeeper Grosk and Duokna: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Development now has 287 complete profiles; Grosk's later novel events excluded and Duokna's actual Forever supplies verified.
+
 - Complete Mishiki and Tai'jin: full profiles, fifteen personal lines and four approved female troll Eleven v4 signatures each. Development now has 285 complete profiles; priest referrals researched and sparse herbalist relations documented.
 
 - Complete Pyall Silentstride and Innkeeper Kauth in Bloodhoof Village: full lore, fifteen personal lines and four Tauren male Eleven v4 signatures each; research the full camping introduction and fur delivery. Development now has 283 complete profiles.

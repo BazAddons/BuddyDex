@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 62 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 63 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -93,3 +93,7 @@ The next verified-identity shortlist is Mishiki (3185), Sen'jin herbalist, and T
 Mishiki and Tai'jin bring development to **285 complete profiles**, each with fifteen personal lines and four approved female troll v4 signatures. See [their full research](durotar-herbs-and-spirit.md). Durotar now has eight authored starter-area profiles, including two more female trolls; Mulgore also has eight. Public faction-access listings are 192 Alliance, 37 Horde and 62 unverified, with six shared profiles overlapping the faction counts. Continue useful Horde service/quest coverage rather than another Alliance-capital run. Missing quest relations and the Hex of Weakness variant discrepancy are recorded; no live access gate or quest content was changed.
 
 Next is an Orc service pair: Innkeeper Grosk (6928) and Duokna (3158). Their adult male/female model identities and current Durotar pins are verified; Grosk has an explicit Horde-friendly icon, while Duokna needs further access evidence. See [pending service research](durotar-orc-services-queue.md). Neither is counted complete, and no Scout sighting or access override is added.
+
+## Durotar Orc services completed
+
+Innkeeper Grosk and Duokna bring development to **287 complete profiles**, each with fifteen personal lines and four approved Orc v4 signatures. See [their full research](razor-hill-rest-and-trial-supplies.md). Durotar now has ten authored early-route profiles and Mulgore has eight. Public faction-access listings are 192 Alliance, 38 Horde and 63 unverified, with six shared entries overlapping the faction totals. Duokna's absent current reaction icon stays unverified despite her corroborated current vendor stock and starter pin. Continue rotating underserved Horde routes and useful services; the wider catalog and unresolved old Westfall identities remain open.

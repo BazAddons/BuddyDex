@@ -42,6 +42,64 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Innkeeper Grosk (6928), adult male Orc innkeeper/vendor, Razor Hill, Durotar.
+    -- Display 5705 / race 2 sex 0; current Horde friendly; quest 2161 Ukor's returned food.
+    -- Installed rest/hearth and battle-story gossip. Later Tides of War/War Crimes events excluded.
+    -- Everyday toasts are original. docs/research/razor-hill-rest-and-trial-supplies.md.
+    [6928] = {
+        quote = "Put the axe down and have a drink. A story sounds better when its teller has strength left to finish it.",
+        likes = { "A weary traveler taking proper rest", "A good tale shared by the fire", "A toast to useful everyday work" },
+        dislikes = { "Going hungry to prove a point", "A brave face hiding plain exhaustion", "Work that goes unnoticed until it stops" },
+        gossip = "Grosk can make putting away supplies sound worthy of a victory feast. Someone ought to ask what he says about sweeping the floor.",
+        bio = "Grosk keeps the inn at Razor Hill. When Ukor's unneeded food returns from the Valley of Trials, he shelves it and offers the helper refreshment. He welcomes battle stories, provides hearthstone services, and urges travelers to rest.",
+        backstory = "After hearing a grand tale, he raised a mock-solemn toast to the less glorious work waiting afterward. The laughter pleased him. Since then, he has enjoyed giving ordinary tasks the sort of introduction usually reserved for mighty deeds.",
+        secret = "He practices his grandest toasts on small jobs while working alone. Putting away a clean cup has received some very stirring speeches, with no audience to appreciate them.",
+        bestFriend = "To your safe return, and to having time to sit together. That one needs no grand speech. I'm glad you're here, my friend.",
+        favorite = { emote = "THANK", hint = "A little appreciation for the welcome is worth more than a boast." },
+        lines = {
+            greet = { { "There you are. Ready for a walk, or have you been running since dawn and calling that preparation? Tell me before we set out. I like a fine adventure as much as the next orc, but I prefer my companions with enough strength left to enjoy coming home. We can begin with a drink if you need one.", tone = "[hearty hospitable welcome, brisk good humor, practical concern]" }, "Come on, then. We can hear the tale while we walk, provided you have breath left to tell it." },
+            idle = { { "To the putting away of supplies, without which every grand victory would end in an argument about where the food went. No? Too long? I am still working on that one. It deserves a little dignity. People notice a warrior at the gate, but they certainly notice when the shelves behind him are empty.", tone = "[mock-ceremonial flourish, hearty dry humor, cheerful self-awareness]" }, "A tale may grow longer by the fire. Make certain the meal does not grow cold while it does.", "That cup was put away with remarkable courage. I should have prepared a better toast." },
+            befriended = { { "Gladly. We have shared enough talk that I should like to share some of the road as well. You have become good company to me, and that is worth making time for. No, you need not earn another welcome before you ask. You are my friend. Come on, let us see what story we bring home together.", tone = "[hearty sincere friendship, openly pleased, confident warmth]" } },
+            poke = { "You have found the innkeeper. A word usually works as well as a finger.", "If that means you need a drink, there are clearer ways to ask." },
+            hearth = { { "Back again. Good. Put your burdens down before you start describing how heavy they were. There is time to hear what happened, and time to let the road leave your shoulders. To your safe return, then. It may be an ordinary toast, but I would rather have you here to hear it than invent a grander one without you.", tone = "[warm relieved homecoming, grounded affection, hearty sincerity]" } },
+            quest = { "Useful work finished. We ought to give that a proper welcome, too." },
+            rest = { "Sit. Even a hero needs enough strength left for tomorrow." },
+            bagsFull = { "You have brought half the road home. Leave room for what you actually need." },
+            lowHealth = { "Careful! I want the next tale to end with you walking through the door." },
+            levelUp = { "Well done. More strength is a fine reason to celebrate, not a reason to skip supper." },
+            zone = { "Somewhere new. I wonder what sort of welcome a tired traveler finds here." },
+        },
+    },
+
+    -- Duokna (3158), adult female Orc general-goods merchant, Valley of Trials, Durotar.
+    -- Display 1879 / race 2 sex 1; current pin and 11-item stock, reaction icon absent.
+    -- Tools, provisions and new apprentice bags verified; no quest/gossip invented as fact.
+    -- Copper-flipping hobby is original. docs/research/razor-hill-rest-and-trial-supplies.md.
+    [3158] = {
+        quote = "A little preparation saves a long walk back. Check the tools before you start praising the plan.",
+        likes = { "The right tool packed before departure", "Room in a bag for what belongs there", "A copper landing neatly in her palm" },
+        dislikes = { "Finding the missing tool halfway there", "Mistaking a useful bag for a luxury", "A dropped coin rolling under a crate" },
+        gossip = "Duokna has been practicing a clever trick with a copper. Sometimes the clever part is working out which crate it rolled beneath.",
+        bio = "Duokna sells general goods in the Valley of Trials. Her supplies include provisions, ammunition, a mining pick, a skinning knife and apprentice profession bags. New travelers can prepare for useful work before heading farther into Durotar.",
+        backstory = "During a quiet moment, she tried flipping a copper into her palm. A clean catch was oddly satisfying. She began practicing between tasks, keeping it away from the goods after one poor toss turned into a search beneath the nearest crate.",
+        secret = "Her best catches use her right hand. The left still needs practice. She would like to manage one smooth pass between them before showing off again.",
+        bestFriend = "Stay a moment. I nearly have this pass worked out. You can enjoy the success with me, or help me find the copper afterward.",
+        favorite = { emote = "CHEER", hint = "A small success deserves a little encouragement, even when she acts casual about it." },
+        lines = {
+            greet = { { "Ready to go? Check what you are carrying before you say yes. Food, water, the tools for the work you intend to do. A fine plan becomes a very dull walk home when the thing you need is still sitting where you left it. I will give you a moment. Then we can get moving.", tone = "[gravelly practical welcome, brisk confidence, dry friendly humor]" }, "There you are. Let us see whether the plan and the contents of your bag agree." },
+            idle = { { "That was meant to land in my left hand. You saw the idea, even if you did not see a successful catch. Give me a moment before you offer advice. I know where both hands are. It is the copper that keeps choosing a different destination, usually somewhere inconvenient to reach.", tone = "[rough dry amusement, mildly embarrassed determination, playful gruffness]" }, "A useful bag is easier to appreciate before everything falls out of your arms.", "One clean catch. Good. Now I only need to do it when someone is actually watching." },
+            befriended = { { "Yes, I will come with you. You have become someone I enjoy seeing, even when you arrive with everything you need and no business to finish. That is worth a walk together. I may remind you to check your pack, but you need not bring an excuse to ask for my company.", tone = "[gravelly sincere affection, guarded warmth becoming open, matter-of-fact]" } },
+            poke = { "Use a word. I sell tools; I am not one you test by prodding.", "Careful. If I drop this copper, you are helping me find it." },
+            loot = { { "Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.", tone = "[firm practical advice, gravelly dry humor, confident and conversational]" } },
+            bagsFull = { "There is a difference between carrying supplies and carrying everything you have ever touched." },
+            rest = { "A good pause. I may try that pass again, somewhere the copper cannot roll far." },
+            quest = { "Finished. Now check whether the next errand needs something different." },
+            levelUp = { "Good. More skill, and perhaps a little more sense about what to pack." },
+            hearth = { "Home again. A useful time to put the bag in order." },
+            zone = { "New ground. We will find out soon enough whether we prepared properly." },
+        },
+    },
+
     -- Mishiki (3185), adult female troll herbalist, Sen'jin Village, Durotar.
     -- Display 4085 / race 8 sex 1; current Horde friendly and local pin.
     -- Classic training and installed Razor Hill directions; no personal quest confirmed.

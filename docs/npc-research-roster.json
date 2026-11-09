@@ -560,5 +560,19 @@
     "zone": "Durotar",
     "source": "Reviewed current Horde-friendly adult female troll identity/model and starter pin; installed guard directions, sparse herbalist relations or full priest quest/referral dialogue compared with Classic; no Scout sighting claimed",
     "research_notes": "docs/research/durotar-herbs-and-spirit.md"
+  },
+  {
+    "npc_id": 6928,
+    "name": "Innkeeper Grosk",
+    "zone": "Durotar",
+    "source": "Reviewed current adult Orc identity/model, starter pin and services/stock, full available food-delivery dialogue or no confirmed personal quest; sparse Duokna reaction retained; Atlas/installed dialogue and later literary era distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-rest-and-trial-supplies.md"
+  },
+  {
+    "npc_id": 3158,
+    "name": "Duokna",
+    "zone": "Durotar",
+    "source": "Reviewed current adult Orc identity/model, starter pin and services/stock, full available food-delivery dialogue or no confirmed personal quest; sparse Duokna reaction retained; Atlas/installed dialogue and later literary era distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-rest-and-trial-supplies.md"
   }
 ]

@@ -12,3 +12,5 @@ Exact current definitions were retrieved and checked: [Grosk](https://forever.wa
 For Grosk, read all starts/ends, including any Forever peon-burden delivery, then the entire connected quest dialogue and inn gossip. Installed Razor Hill guard directions name Grosk as the local innkeeper; they do not establish an invented private relationship. For Duokna, inspect vendor stock, any quest relations and installed/published dialogue; do not invent a fetch quest because she is a merchant. Research any relevant personal book/comic connection without importing later-retail events.
 
 Both IDs are explicitly queued to preserve reviewed identities without creating fake Scout sightings. Full lore, fifteen supported personal lines and 3-5 approved Orc voice signatures using Eleven v4 are still pending. These candidates continue the race/sex/service rotation; they do not replace the wider catalog or resolve the old Westfall availability questions.
+
+Both are now complete; see [full research](razor-hill-rest-and-trial-supplies.md). Duokna's missing public reaction icon remains unverified. No personal Scout sighting or live access exception was added.

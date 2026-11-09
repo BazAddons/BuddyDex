@@ -118,5 +118,45 @@
     "spoken": "[steady reassuring voice, growing wonder] Hands steady. Pack secure. Now look out there... that's yours to see.",
     "text": "Hands steady. Pack secure. Now look out there... that's yours to see.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore6928_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6928",
+    "spoken": "[hearty sincere friendship, openly pleased, confident warmth] Gladly. We have shared enough talk that I should like to share some of the road as well. You have become good company to me, and that is worth making time for. No, you need not earn another welcome before you ask. You are my friend. Come on, let us see what story we bring home together.",
+    "text": "Gladly. We have shared enough talk that I should like to share some of the road as well. You have become good company to me, and that is worth making time for. No, you need not earn another welcome before you ask. You are my friend. Come on, let us see what story we bring home together.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore6928_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6928",
+    "spoken": "[hearty hospitable welcome, brisk good humor, practical concern] There you are. Ready for a walk, or have you been running since dawn and calling that preparation? Tell me before we set out. I like a fine adventure as much as the next orc, but I prefer my companions with enough strength left to enjoy coming home. We can begin with a drink if you need one.",
+    "text": "There you are. Ready for a walk, or have you been running since dawn and calling that preparation? Tell me before we set out. I like a fine adventure as much as the next orc, but I prefer my companions with enough strength left to enjoy coming home. We can begin with a drink if you need one.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore6928_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:6928",
+    "spoken": "[warm relieved homecoming, grounded affection, hearty sincerity] Back again. Good. Put your burdens down before you start describing how heavy they were. There is time to hear what happened, and time to let the road leave your shoulders. To your safe return, then. It may be an ordinary toast, but I would rather have you here to hear it than invent a grander one without you.",
+    "text": "Back again. Good. Put your burdens down before you start describing how heavy they were. There is time to hear what happened, and time to let the road leave your shoulders. To your safe return, then. It may be an ordinary toast, but I would rather have you here to hear it than invent a grander one without you.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore6928_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6928",
+    "spoken": "[mock-ceremonial flourish, hearty dry humor, cheerful self-awareness] To the putting away of supplies, without which every grand victory would end in an argument about where the food went. No? Too long? I am still working on that one. It deserves a little dignity. People notice a warrior at the gate, but they certainly notice when the shelves behind him are empty.",
+    "text": "To the putting away of supplies, without which every grand victory would end in an argument about where the food went. No? Too long? I am still working on that one. It deserves a little dignity. People notice a warrior at the gate, but they certainly notice when the shelves behind him are empty.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
   }
 }
