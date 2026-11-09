@@ -152,15 +152,18 @@ step("the main addon loads its bundled voices", function()
     assert(ns.Voice.PlayClip(line, "male"), "bundled clip did not play")
     assert(MOCK.soundFiles[1] == ns.VoicePack.path .. file, "wrong playback path")
     -- Classic display IDs, cross-checked against the branch's DB2 race/sex
-    -- metadata: Doras is an orc man; Gryshka is an orc woman.
+    -- metadata, route signature recordings to the selected racial voices.
     assert(ns.Voice.NpcVoice(1311) == "orc-male" and ns.Voice.NpcVoice(5706) == "orc-female",
         "Horde service NPC voice identity mismatch")
-    for _, sample in ipairs({ {3310, 1311, "orc-male"}, {6929, 5706, "orc-female"} }) do
+    for _, sample in ipairs({ {3310, 1311, "orc-male"}, {6929, 5706, "orc-female"},
+        {3626, 1697, "human-female"}, {279, 5082, "human-male"},
+        {1257, 1431, "human-male"}, {1275, 1444, "human-female"} }) do
+        assert(ns.Voice.NpcVoice(sample[2]) == sample[3], "signature voice identity mismatch")
         local line = ns.Lore[sample[1]].lines.greet[1][1]
         MOCK.soundFiles = {}
         assert(ns.Voice.Speak({ display = sample[2], moment = "greet", line = line }),
-            "Horde signature greeting did not play")
-        assert(#MOCK.soundFiles == 1, "Horde greeting did not use its recording")
+            "signature greeting did not play")
+        assert(#MOCK.soundFiles == 1, "signature greeting did not use its recording")
     end
 
     -- An obsolete standalone pack cannot override the private manifest.
@@ -800,8 +803,13 @@ step("every lore entry fits its pages", function()
     end
     local BUDGET = { { "gossip", 3 }, { "bio", 6 }, { "backstory", 6 }, { "secret", 4 }, { "bestFriend", 3 } }
     local TOTAL = 21
+    local acceptedEmotes = {}
+    for _, emote in ipairs(ns.Friendship.EMOTES) do acceptedEmotes[emote.token] = true end
     for npcID, lore in pairs(ns.Lore) do
         local function Check(ok, what) assert(ok, ("NPC %d: %s"):format(npcID, what)) end
+        if lore.favorite then
+            Check(acceptedEmotes[lore.favorite.emote], "favorite cannot earn friendship or appear in the emote menu")
+        end
         local total = 0
         for _, rule in ipairs(BUDGET) do
             local key, most = rule[1], rule[2]

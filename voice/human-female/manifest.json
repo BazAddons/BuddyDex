@@ -1,4 +1,84 @@
 {
+  "lore1275_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:1275",
+    "spoken": "[steady, practical voice, reassuring patience] Keep the powder closed and the seeds dry. We can sort the rest slowly.",
+    "text": "Keep the powder closed and the seeds dry. We can sort the rest slowly.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1275_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1275",
+    "spoken": "[warm, sincerely touched voice] It's nice to be remembered when nobody needs anything from the shelves.",
+    "text": "It's nice to be remembered when nobody needs anything from the shelves.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1275_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1275",
+    "spoken": "[clear, warm voice, quietly satisfied] Everything on the list? Good. Now we can enjoy the walk.",
+    "text": "Everything on the list? Good. Now we can enjoy the walk.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1275_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1275",
+    "spoken": "[dryly amused, matter-of-fact voice] That stone? Entirely ordinary. It's very good at staying where I put it.",
+    "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3626_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3626",
+    "spoken": "[gentle, sincerely affectionate voice] I used to hope you'd wave back. Now I look forward to the conversation.",
+    "text": "I used to hope you'd wave back. Now I look forward to the conversation.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3626_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3626",
+    "spoken": "[bright, friendly voice, pleased surprise] Oh, good! A walk with company. Tell me where we're going.",
+    "text": "Oh, good! A walk with company. Tell me where we're going.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3626_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3626",
+    "spoken": "[warm conversational voice, thoughtful amusement] You'd be amazed how much you hear if you leave a little room after hello.",
+    "text": "You'd be amazed how much you hear if you leave a little room after hello.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3626_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3626",
+    "spoken": "[calm, warm voice, quietly reassuring] No need to fill every quiet moment. I'm happy to sit here with you.",
+    "text": "No need to fill every quiet moment. I'm happy to sit here with you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore3937_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

@@ -42,6 +42,143 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Keldric Boucher <Arcane Goods Vendor>, Pestle's Apothecary,
+    -- Trade District, Stormwind. NPC 1257, male human. Classic stock
+    -- includes vials and reagents. Works with Kyra and Morgan. No direct
+    -- quest chain found; later retail events are excluded. Bottle music,
+    -- preferences and dialogue are original. See docs/research/bouchers.md.
+    [1257] = {
+        quote = "An empty vial is a promise. Preferably a promise that won't leak all over your other promises.",
+        likes = { "Glass without a chip in the rim", "A cork that fits the first time", "The little chime of empty bottles" },
+        dislikes = { "Loose glass at the bottom of a pack", "Buying the vial after mixing the potion", "A crate marked fragile upside down" },
+        gossip = "Customers hear a curious chiming after Keldric closes up. Morgan's shelves look perfectly orderly the next morning, so nobody asks too loudly.",
+        bio = "Keldric sells arcane goods in Pestle's Apothecary, alongside Kyra Boucher and Morgan Pestle. Empty vials share the business with magical supplies. For all the impressive ingredients, the glass still needs carrying carefully.",
+        backstory = "Checking a shipment, he noticed how differently empty bottles rang against one another. Sorting them became a small pleasure at the end of a long day. He began putting a few aside before wrapping the rest.",
+        secret = "He arranges empty vials by their notes and taps out little tunes after closing. He can't sing them very well. The bottles have never complained.",
+        bestFriend = "Come by after the shutters close. I found a bottle with just the note I was missing. You get the first performance.",
+        favorite = { emote = "CLAP", hint = "A little applause would mean more to him than a ringing sale." },
+        lines = {
+            greet = { { "Ready to go? One moment. I can hear something loose in that pack.", tone = "[genial, attentive voice, mild concern]" },
+                "A change of scenery! The shelves will manage without me." },
+            idle = { { "That bottle has a lovely note. Shame it's full of something expensive.", tone = "[quiet, amused voice, appreciative wonder]" },
+                "Funny how an empty thing can have such a clear voice.",
+                "Kyra would tell you exactly which shelf I put that on." },
+            befriended = { { "You stayed for the whole tune. That means more than you might think.", tone = "[warm, slightly bashful voice, sincere gratitude]" } },
+            poke = { "Gently! I ring less pleasantly than the bottles.", "If you're looking for the cork, try the other pocket." },
+            bagsFull = { { "We need a little space around the glass. Trust me on this.", tone = "[calm, practical voice, gently firm]" } },
+            loot = { "A sound rim, at least. Let's see whether the rest is useful." },
+            quest = { "Arrived in one piece? Then that's a delivery done well." },
+            rest = { "Listen a moment. Every place has its own little sounds." },
+            levelUp = { "A fine achievement! I ought to find a brighter note for that." },
+            combatEnd = { "All limbs accounted for? Good. Now I can worry about the glass." },
+            hearth = { "Home before the shutters close. I might have time for a tune." },
+        },
+    },
+
+    -- Kyra Boucher <Reagent Vendor>, Pestle's Apothecary, Trade District,
+    -- Stormwind. NPC 1275, female human. Stocks magical reagents; Classic
+    -- lists candles, runes and seeds. Works with Keldric and Morgan; no
+    -- precise family relationship or magical class is asserted. No direct
+    -- quest chain found. Paperweight and dialogue are original writing.
+    -- Sources and continuity: docs/research/bouchers.md.
+    [1275] = {
+        quote = "Tell me the whole list before you leave. The one thing you forget is always the thing you need furthest from home.",
+        likes = { "A shopping list read to the end", "Small things in their proper places", "A plain answer to a simple question" },
+        dislikes = { "Remembering the candles at the door", "Spilled powder in a seed drawer", "Calling everything a magical artifact" },
+        gossip = "Kyra keeps an unimpressive little stone near the runes. Customers who notice it lower their voices before asking how powerful it is.",
+        bio = "Kyra sells reagents in Pestle's Apothecary in Stormwind's Trade District. Keldric Boucher and Morgan Pestle work in the same shop. Candles, runes and seeds help keep a busy city's spellcasters supplied.",
+        backstory = "Restocking small drawers taught her that an important thing needn't look impressive. She began reading orders back before wrapping them. It saves a customer the long walk home to discover what was missing.",
+        secret = "The stone has no magic at all. She found it outside and uses it to hold down lists when the door opens. Its greatest feat is keeping Tuesday's order off the floor.",
+        bestFriend = "Leave the list a moment. How are you? I know what you came to buy; I'd like to know how you've been.",
+        favorite = { emote = "THANK", hint = "Remembering the person who checked your supplies goes a long way." },
+        lines = {
+            greet = { { "Everything on the list? Good. Now we can enjoy the walk.", tone = "[clear, warm voice, quietly satisfied]" },
+                "There you are. I was hoping this visit wasn't just for candles." },
+            idle = { { "That stone? Entirely ordinary. It's very good at staying where I put it.", tone = "[dryly amused, matter-of-fact voice]" },
+                "A small thing in the right place can save a very long journey.",
+                "If you remember something now, we can still turn back." },
+            befriended = { { "It's nice to be remembered when nobody needs anything from the shelves.", tone = "[warm, sincerely touched voice]" } },
+            poke = { "Yes? Did you remember the rest of the list?", "Careful. There's powder on that sleeve." },
+            bagsFull = { { "Keep the powder closed and the seeds dry. We can sort the rest slowly.", tone = "[steady, practical voice, reassuring patience]" } },
+            loot = { "One useful little thing. Make room for it properly." },
+            quest = { "All handed over? Good. A checked list is a lovely sight." },
+            rest = { "You can put the pack down. I'll tell you if anything rolls away." },
+            levelUp = { "Well done! Remember me when your spells need more supplies." },
+            combatEnd = { "Take a breath. Being ready for the next thing can wait a moment." },
+            hearth = { "Home. Where the thing you forgot is usually waiting." },
+        },
+    },
+
+    -- Jenn Langston, Old Town, Stormwind. NPC 3626, female human.
+    -- Facts: named wanderer; the Langston family is associated with the
+    -- Pig and Whistle. Responds to several social emotes, including waves
+    -- and dances. Not a vendor despite her welcoming dialogue. No quest
+    -- chain found. No relation to Karramyn Langston is established.
+    -- Greeting practice, little milestones and personal lines are ours.
+    -- Sources and limits: docs/research/jenn-langston.md.
+    [3626] = {
+        quote = "Hello there! You can spare a moment, surely. The cobblestones aren't going anywhere.",
+        likes = { "A wave returned across the street", "Dancing without an audience", "Someone remembering her name" },
+        dislikes = { "Being treated like street furniture", "Boasting instead of saying hello", "Goodbyes shouted over a shoulder" },
+        gossip = "Old Town says Jenn knows everyone. She certainly waves as though she does, even when the other person looks surprised.",
+        bio = "Jenn Langston walks the streets of Stormwind's Old Town. Her family is tied to the Pig and Whistle, and she has a greeting ready for passersby. A wave or a few dance steps can get more of a response than rushing past.",
+        backstory = "On familiar streets, she learned how easily people can pass one another without a word. She began leaving a little pause after every hello. Sometimes a hurried stranger uses it to tell her something worth hearing.",
+        secret = "On a quiet round, she counts how many strangers wave back. One is enough to make the street feel less empty. She starts counting again the next morning.",
+        bestFriend = "There you are. I was hoping our paths would cross. Walk with me a little; I want to hear how your day really went.",
+        favorite = { emote = "WAVE", hint = "A familiar hand raised across the street can make her whole round." },
+        lines = {
+            greet = { { "Oh, good! A walk with company. Tell me where we're going.", tone = "[bright, friendly voice, pleased surprise]" },
+                "Hello again! I was beginning to think you'd forgotten how." },
+            idle = { { "You'd be amazed how much you hear if you leave a little room after hello.", tone = "[warm conversational voice, thoughtful amusement]" },
+                "That step nearly counted as dancing. Shall we try the other foot?",
+                "A familiar street still has new faces." },
+            befriended = { { "I used to hope you'd wave back. Now I look forward to the conversation.", tone = "[gentle, sincerely affectionate voice]" } },
+            poke = { "Yes? A hello would have worked, you know.", "I do notice things besides fingers in my shoulder." },
+            zone = { "New streets. Let's see who says hello." },
+            rest = { { "No need to fill every quiet moment. I'm happy to sit here with you.", tone = "[calm, warm voice, quietly reassuring]" } },
+            quest = { "Did you stop long enough to hear their thanks?" },
+            levelUp = { "Look at you! I shall have to wave higher to get your attention." },
+            combatEnd = { "All right? Take a moment. I'm staying right here." },
+            hearth = { "Home again. I like knowing there's someone to come back to." },
+            taxi = { "If you see anyone below, give them a wave for me!" },
+        },
+    },
+
+    -- Morgan Pestle, Pestle's Apothecary, Trade District, Stormwind.
+    -- NPC 279, male human. William's brother; receives his candle shipment
+    -- in Classic quest 61. Seasonal quests 9024-9025 show initial skepticism
+    -- followed by evidence-based revision after examining fragrances.
+    -- Later retail versions/events and an unverified holiday outcome are
+    -- excluded. The practice sign and personal dialogue are our fiction.
+    -- Sources and limits: docs/research/morgan-pestle.md.
+    [279] = {
+        quote = "Come in, come in. Tell me what you need before I tell you what I have. Saves us both a little trouble.",
+        likes = { "A delivery from William", "A question worth investigating", "A clearly labeled bottle" },
+        dislikes = { "Buying a cure before asking questions", "A cork in the wrong bottle", "Certainty without a closer look" },
+        gossip = "Morgan can turn a delivery into a tour of the shelves. The curious part is how pleased he looks when someone stays just to ask questions.",
+        bio = "Morgan Pestle runs Pestle's Apothecary in Stormwind's Trade District. His brother William sends candles from Goldshire, and Morgan pays the courier before inviting a look around. An alchemist's work gives him plenty to explain.",
+        backstory = "Practicing his welcome, he tried to sound as impressive as the bottles looked. The words kept coming out wrong. Asking what brought a visitor in worked better. A good question gave him somewhere honest to begin.",
+        secret = "He kept his first crooked shop sign under the counter. It only says to come in. On days when nothing seems to work, that small invitation still feels right.",
+        bestFriend = "Stay a little. You don't need an errand or an empty bottle to visit me. I was hoping for your company.",
+        favorite = { emote = "NOD", hint = "Sometimes an explanation deserves a little sign that you followed it." },
+        lines = {
+            greet = { { "There you are! No counter between us today. What shall we investigate?", tone = "[welcoming, lively voice, friendly curiosity]" },
+                "A little fresh air should clear the smell of reagents." },
+            idle = { { "I do enjoy a good question. Especially one that changes my answer.", tone = "[thoughtful, lightly amused voice]" },
+                "I hope William remembered to pack those candles tightly.",
+                "Labels facing outward. I know we're outdoors. It's a habit." },
+            befriended = { { "You've stayed long enough to know me beyond the shop. I'm glad of that.", tone = "[warm, sincere voice, quietly pleased]" } },
+            poke = { "Yes? Something you wanted explained?", "Steady hands, please. Some of these pockets contain glass." },
+            quest = { { "Delivered safely? Splendid. Was there any news from William?", tone = "[bright, appreciative voice, affectionate curiosity]" } },
+            loot = { "Interesting. Let's find out what it is before deciding what it's worth." },
+            bagsFull = { "We could start by separating bottles from things that break bottles." },
+            rest = { "A moment to think. Often the most useful part of the work." },
+            levelUp = { "Excellent progress! What question are you going to ask next?" },
+            combatEnd = { "Everyone intact? Good. The bottles can wait." },
+            hearth = { "Back to familiar shelves. Perhaps a familiar face, too." },
+        },
+    },
+
     -- Innkeeper Gryshka <Innkeeper>, Broken Tusk, Valley of Strength,
     -- Orgrimmar. NPC 6929, female orc. Classic quests 6365, 6384-6386:
     -- Zargh sends meat via Devrak; she likes rare cuts and sends thanks
