@@ -110,5 +110,26 @@
     "zone": "Westfall",
     "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
     "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md"
+  },
+  {
+    "npc_id": 239,
+    "name": "Grimbooze Thunderbrew",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/westfall-brewer-and-suppliers.md"
+  },
+  {
+    "npc_id": 843,
+    "name": "Gina MacGregor",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/westfall-brewer-and-suppliers.md"
+  },
+  {
+    "npc_id": 1670,
+    "name": "Mike Miller",
+    "zone": "Westfall",
+    "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+    "research_notes": "docs/research/westfall-brewer-and-suppliers.md"
   }
 ]

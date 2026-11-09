@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 198,
+  "completed_count": 201,
   "remaining_count": 35,
   "completed": [
     {
@@ -84,6 +84,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
       "research_notes": "docs/research/westfall-farming-families.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 239,
+      "name": "Grimbooze Thunderbrew",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/westfall-brewer-and-suppliers.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -346,6 +356,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever nodes, quests and installed dialogue",
       "research_notes": "docs/research/sentinel-hill-militia.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 843,
+      "name": "Gina MacGregor",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/westfall-brewer-and-suppliers.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -938,6 +958,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
       "research_notes": "docs/research/sentinel-hill-watch-and-welcome.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1670,
+      "name": "Mike Miller",
+      "zone": "Westfall",
+      "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
+      "research_notes": "docs/research/westfall-brewer-and-suppliers.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

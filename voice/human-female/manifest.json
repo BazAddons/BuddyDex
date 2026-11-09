@@ -1934,6 +1934,46 @@
     "text": "A new view. Give it a moment before we name everything. Look at where the light falls first. I wonder whether you'd describe it the same way I would. Tell me what catches your eye.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore843_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:843",
+    "spoken": "[sincere relaxed warmth, friendly anticipation] I'd enjoy coming with you. Tell me what you've been doing while we walk. We don't have to turn the whole conversation into a list of things that need solving. A pleasant outing is useful in its own way.",
+    "text": "I'd enjoy coming with you. Tell me what you've been doing while we walk. We don't have to turn the whole conversation into a list of things that need solving. A pleasant outing is useful in its own way.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore843_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:843",
+    "spoken": "[practical friendly attentiveness, quietly amused curiosity] Good to see you. What are you working on today? Tell me the job before we choose the supplies. Or, if you've only come to visit, you can help me look at a particularly determined bit of string.",
+    "text": "Good to see you. What are you working on today? Tell me the job before we choose the supplies. Or, if you've only come to visit, you can help me look at a particularly determined bit of string.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore843_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:843",
+    "spoken": "[patient absorbed amusement, warm confiding interest] I sometimes tie a little tangle just to undo it later. That sounds like making work, doesn't it? But there's no hurry with this one. Find a loose loop, turn it gently, and suddenly the next bit makes sense.",
+    "text": "I sometimes tie a little tangle just to undo it later. That sounds like making work, doesn't it? But there's no hurry with this one. Find a loose loop, turn it gently, and suddenly the next bit makes sense.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore843_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:843",
+    "spoken": "[thoughtful practical curiosity, warmly engaged] What have you found? Let's look at it properly before deciding what it's for. Sometimes one small detail makes the whole thing clearer. Then again, sometimes it is simply pleasant to see something new together.",
+    "text": "What have you found? Let's look at it properly before deciding what it's for. Sometimes one small detail makes the whole thing clearer. Then again, sometimes it is simply pleasant to see something new together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore8931_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Grimbooze Thunderbrew 239: dwarf man, Dagger Hills, display 3265.
+    -- Current 117 and full Classic Sweet Amber chain: rhyming brewer.
+    -- Gina MacGregor 843 (3260): human woman, trade supplies, Sentinel Hill.
+    -- Mike Miller 1670 (3262): human man, bread vendor, Sentinel Hill.
+    -- Plain toast / string puzzle / favorite crust are original BuddyDex hooks.
+    -- docs/research/westfall-brewer-and-suppliers.md.
+    [239] = {
+        quote = "A clever old rhyme and a fine foaming brew both improve with a friend to enjoy them with you!",
+        likes = { "Good hops for a promising brew", "A listener joining in the rhyme", "A plain toast that comes from the heart" },
+        dislikes = { "A verse that forgets its own meaning", "A fine brew short of its ingredients", "An empty place where a friend should be" },
+        gossip = "Grimbooze can turn a simple request into a rhyme. His most treasured toast may be the one he never managed to dress up at all.",
+        bio = "Grimbooze Thunderbrew brews in Westfall's Dagger Hills and speaks in rhymes. He asks for hops to finish his lager; Barkeep Daniels in Lakeshire needs a keg among his supplies. Even a brewing request becomes a little performance.",
+        backstory = "He once polished a toast until the clever words hid what he meant to say. Giving up the grand version, he simply told his company he was glad they had come. That was the part of the evening he remembered most fondly.",
+        secret = "He keeps trying new rhymes around that plain greeting, but never replaces it. Sometimes being glad a friend is there is already enough to make a fine toast.",
+        bestFriend = "No flourish this time, and no rhyme to get through. I'm glad of your company. Especially you.",
+        favorite = { emote = "CHEER", hint = "A lively response is welcome when the brewer has reached the end of his verse." },
+        lines = {
+            greet = { { "A friend on the road! Now that's a fine sight. You've arrived just in time for a verse done right. Pull up for a moment and tell me your tale. I'll listen as gladly as I fuss over ale.", tone = "[jovial dwarven warmth, rhythmic playful delivery, welcoming]" }, "There's room for a story, there's time for a rhyme. Come tell me what happened and take your own time." },
+            idle = { { "A toast can be polished till silver would shine; I worked on the words till I lost the next line. Then out came a greeting, quite simple and true: I'm glad of this company. Especially you.", tone = "[jovial rhythmic storytelling, softening into sincere affection]" }, "A rhyme and a kettle can both want a while. Give either good company, finish with a smile.", "Now, what was the word? It was nearly in place. Ah, never mind that. It's good seeing your face." },
+            befriended = { { "A road with good company calls for a cheer; I'll gladly come walking, I'm happy you're here. No need for a flourish, no grand thing to do; A pleasant old ramble will suit me and you.", tone = "[boisterous dwarven pleasure, jaunty rhythm, sincere friendly warmth]" } },
+            poke = { "A question? A story? Then give it a go. I'll listen a moment to what you would know.", "You've caught my attention. The next verse can wait." },
+            rest = { { "A pause on the road and a place for our feet; There's plenty of pleasure in finding a seat. I could think of a toast, but the plain words will do: It's good to be sitting and talking with you.", tone = "[relaxed jovial rhythm, contented sincere warmth]" } },
+            quest = { "The work has an ending, the tale has a turn. Tell me what happened and what you did learn." },
+            loot = { "A find in your hand and a tale to be told! Let's see what you've got before calling it gold." },
+            learned = { "A new thing to practice, a new thing to know. Now give it a try and we'll see how you go." },
+            zone = { "New ground for our boots and a view for the eye. Give me a moment to watch it go by." },
+            levelUp = { "A cheer for the effort, a cheer for the day! You've earned a good moment before going away." },
+            hearth = { "Home at the ending, a familiar view. A fine place to finish a ramble with you." },
+        },
+    },
+    [843] = {
+        quote = "Tell me what you're trying to do. The right little tool can save a very long afternoon of struggling with the wrong one.",
+        likes = { "Supplies chosen for the actual job", "A stubborn knot opening at last", "Someone patient enough to look closely" },
+        dislikes = { "A small task made needlessly difficult", "A tangle pulled tighter in frustration", "A useful length cut through too soon" },
+        gossip = "Gina can spend a surprising amount of patience on a knot. Finding one small loop seems to please her more than reaching for a knife.",
+        bio = "Gina MacGregor sells trade supplies at Sentinel Hill in Westfall. Her stock spans tools, thread, dyes, fishing supplies and patterns. Visiting craftspeople can find practical materials for the work between their travels.",
+        backstory = "A tangled length of string looked ready to be cut apart. Instead, she found one loose loop and worked from there. Untangling it became a pleasant little challenge, with each freed turn making the next easier to see.",
+        secret = "She sometimes ties a small tangle for the pleasure of undoing it later. The point is to take her time over something that has no impatient customer waiting for an answer.",
+        bestFriend = "Can you see where that loop goes? Take your time. We can work it out together, and there's no hurry to finish this one.",
+        favorite = { emote = "NOD", hint = "A patient acknowledgment suits someone who likes taking a careful look before pulling on a problem." },
+        lines = {
+            greet = { { "Good to see you. What are you working on today? Tell me the job before we choose the supplies. Or, if you've only come to visit, you can help me look at a particularly determined bit of string.", tone = "[practical friendly attentiveness, quietly amused curiosity]" }, "Come and tell me what you need. There's time to get it right." },
+            idle = { { "I sometimes tie a little tangle just to undo it later. That sounds like making work, doesn't it? But there's no hurry with this one. Find a loose loop, turn it gently, and suddenly the next bit makes sense.", tone = "[patient absorbed amusement, warm confiding interest]" }, "Pulling harder isn't always the part that helps.", "There. One little loop loose, and I can see where the next one goes." },
+            befriended = { { "I'd enjoy coming with you. Tell me what you've been doing while we walk. We don't have to turn the whole conversation into a list of things that need solving. A pleasant outing is useful in its own way.", tone = "[sincere relaxed warmth, friendly anticipation]" } },
+            poke = { "Yes? What do you need?", "I'm listening. I was only following a loop with my eyes." },
+            loot = { { "What have you found? Let's look at it properly before deciding what it's for. Sometimes one small detail makes the whole thing clearer. Then again, sometimes it is simply pleasant to see something new together.", tone = "[thoughtful practical curiosity, warmly engaged]" } },
+            learned = { "A useful method. Was there a little trick that made it easier?" },
+            quest = { "Finished? I hope you had what you needed for the work." },
+            rest = { "A good place to pause. There's no need to hurry every small thing." },
+            zone = { "A different place. I wonder what folk here use for their everyday work." },
+            levelUp = { "Well done. Patience and practice have given you something to show." },
+            hearth = { "Home again. Time to put things somewhere we'll find them next time." },
+        },
+    },
+    [1670] = {
+        quote = "An ordinary meal can be a good part of the day. Give yourself time to taste it before you start thinking about the next errand.",
+        likes = { "A good crust on an honest loaf", "A customer pleased with a simple meal", "An unhurried last slice" },
+        dislikes = { "Good bread wasted carelessly", "A meal swallowed without being enjoyed", "Being told the end slice isn't worth having" },
+        gossip = "Mike rarely joins arguments about who gets the best slice. He seems very content when the crusty end is left for him.",
+        bio = "Mike Miller sells bread and pie at Sentinel Hill in Westfall. His wares offer travelers familiar food for another stretch of road. Among larger troubles and urgent errands, there is still room for the ordinary business of a meal.",
+        backstory = "Listening to an argument over the best slice, he realized his own favorite was the end everyone had passed over. He enjoyed its crust in peace. Since then he has been quite happy for others to overlook that little pleasure.",
+        secret = "He likes a good crusty heel better than a grander meal someone has rushed him through. It is the combination of the bread and the quiet moment that makes it worth saving for himself.",
+        bestFriend = "Sit a moment. You can tell me your news while I enjoy the last slice. Ordinary company and ordinary bread make a very pleasant pause.",
+        favorite = { emote = "THANK", hint = "Appreciating a simple meal can mean as much as admiring something grand." },
+        lines = {
+            greet = { { "Good to see you. Have you had time for a proper meal? You needn't tell me about a magnificent feast. A good bit of bread and a moment to enjoy it can improve a day considerably.", tone = "[plainspoken friendly warmth, contented practical interest]" }, "Come and tell me how the road has treated you. Anything good to report?" },
+            idle = { { "I've heard people argue over which slice is best. They often leave the crusty end. Suits me very well. I like that bit, and it's quite pleasant to enjoy it while everyone else has gone on to another argument.", tone = "[contented dry amusement, relaxed candid warmth]" }, "A good crust is worth taking your time over.", "There's nothing wrong with enjoying a small, ordinary part of the day." },
+            befriended = { { "I'd be glad to walk with you. Tell me what you've been enjoying between the errands. I like hearing about the pleasant little bits people almost forget to mention. They can be the best part of a journey.", tone = "[sincere easy companionship, warmly interested]" } },
+            poke = { "Yes? What would you like?", "Go on. I'm listening." },
+            rest = { { "A good chance to sit. We can let the next errand wait a moment and have a proper conversation. Tell me one small thing that went well today. A good meal counts, if you had one.", tone = "[relaxed hospitable warmth, contented conversational curiosity]" } },
+            quest = { "Finished your work? I hope there's time to enjoy the rest of the day." },
+            loot = { "Something useful? Let me have a look." },
+            learned = { "A new thing to try. Were you pleased when it came right?" },
+            zone = { "A different view. I wonder what makes a good ordinary meal around here." },
+            levelUp = { "Well done! Take a moment to be pleased about that." },
+            hearth = { "Home again. A familiar place and a little time to settle in." },
+        },
+    },
     -- Sentinel Hill: Riell 820 (human female scout, 2374), Heather 8931
     -- (human female innkeeper, 8185), William MacGregor 1668 (human bowyer, 3259).
     -- Current Forever friendly identities; Riell's full quest 214 researched.

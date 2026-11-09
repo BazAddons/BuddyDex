@@ -319,6 +319,46 @@
     "text": "A splendid achievement! Let the company hear it! Huzzah!",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore239_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:239",
+    "spoken": "[boisterous dwarven pleasure, jaunty rhythm, sincere friendly warmth] A road with good company calls for a cheer; I'll gladly come walking, I'm happy you're here. No need for a flourish, no grand thing to do; A pleasant old ramble will suit me and you.",
+    "text": "A road with good company calls for a cheer; I'll gladly come walking, I'm happy you're here. No need for a flourish, no grand thing to do; A pleasant old ramble will suit me and you.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore239_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:239",
+    "spoken": "[jovial dwarven warmth, rhythmic playful delivery, welcoming] A friend on the road! Now that's a fine sight. You've arrived just in time for a verse done right. Pull up for a moment and tell me your tale. I'll listen as gladly as I fuss over ale.",
+    "text": "A friend on the road! Now that's a fine sight. You've arrived just in time for a verse done right. Pull up for a moment and tell me your tale. I'll listen as gladly as I fuss over ale.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore239_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:239",
+    "spoken": "[jovial rhythmic storytelling, softening into sincere affection] A toast can be polished till silver would shine; I worked on the words till I lost the next line. Then out came a greeting, quite simple and true: I'm glad of this company. Especially you.",
+    "text": "A toast can be polished till silver would shine; I worked on the words till I lost the next line. Then out came a greeting, quite simple and true: I'm glad of this company. Especially you.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore239_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:239",
+    "spoken": "[relaxed jovial rhythm, contented sincere warmth] A pause on the road and a place for our feet; There's plenty of pleasure in finding a seat. I could think of a toast, but the plain words will do: It's good to be sitting and talking with you.",
+    "text": "A pause on the road and a place for our feet; There's plenty of pleasure in finding a seat. I could think of a toast, but the plain words will do: It's good to be sitting and talking with you.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore2460_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
