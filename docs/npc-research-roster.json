@@ -728,5 +728,26 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed exact current Horde-friendly adult Goblin/Tauren model and pin, full courier/referral/research/seasonal context or exact zeppelin gossip, current stock and installed text; no Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-welcomes-and-frezzas-announcements.md"
+  },
+  {
+    "npc_id": 3344,
+    "name": "Kardris Dreamseeker",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult model and current/published identity; complete available quest chains and installed gossip reviewed; conditional or missing access evidence, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-questions-and-common-remedies.md"
+  },
+  {
+    "npc_id": 3403,
+    "name": "Sian'tsu",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult model and current/published identity; complete available quest chains and installed gossip reviewed; conditional or missing access evidence, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-questions-and-common-remedies.md"
+  },
+  {
+    "npc_id": 3347,
+    "name": "Yelmak",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult model and current/published identity; complete available quest chains and installed gossip reviewed; conditional or missing access evidence, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-questions-and-common-remedies.md"
   }
 ]

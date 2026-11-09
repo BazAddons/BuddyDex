@@ -2317,7 +2317,7 @@
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18339,7 +18339,7 @@
           "source_page": 16,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18587,7 +18587,7 @@
           "source_page": 17,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -30149,7 +30149,7 @@
           "name": "Sian'tsu",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -36271,7 +36271,7 @@
           "name": "Yelmak",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39229,8 +39229,22 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 3347,
+      "name": "Yelmak",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3401,
       "name": "Shenthul",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 3403,
+      "name": "Sian'tsu",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "complete"
@@ -39624,20 +39638,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 3403,
-      "name": "Sian'tsu",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 3347,
-      "name": "Yelmak",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

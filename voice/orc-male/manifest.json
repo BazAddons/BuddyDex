@@ -119,6 +119,46 @@
     "text": "Hands steady. Pack secure. Now look out there... that's yours to see.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3347_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3347",
+    "spoken": "[gruff] [warm] [wry] I enjoy your company. There. Said it before I could add a correction. Come along, friend. If you keep walking, I might manage another compliment before we get back.",
+    "text": "I enjoy your company. There. Said it before I could add a correction. Come along, friend. If you keep walking, I might manage another compliment before we get back.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3347_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3347",
+    "spoken": "[gruff] [dryly amused] You again. Good. I could use a walk before someone asks whether a rarer herb would improve the mixture. First I would like them to try measuring the ordinary one.",
+    "text": "You again. Good. I could use a walk before someone asks whether a rarer herb would improve the mixture. First I would like them to try measuring the ordinary one.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3347_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3347",
+    "spoken": "[gruff] [reflective] Whuut has talent. I will say that much. Getting him to slow down long enough to use it properly is another matter. Still, I would rather teach someone who wants to learn everything.",
+    "text": "Whuut has talent. I will say that much. Getting him to slow down long enough to use it properly is another matter. Still, I would rather teach someone who wants to learn everything.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3347_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3347",
+    "spoken": "[confident] [instructive] Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.",
+    "text": "Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3432_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

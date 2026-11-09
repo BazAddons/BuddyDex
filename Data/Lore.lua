@@ -41,6 +41,106 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kardris Dreamseeker, Orc female Shaman Trainer, Orgrimmar, NPC 3344.
+    -- Facts: installed spirit greetings; Classic Elemental Mastery referral
+    -- to Bath'rah. No later Wavebinder/Dark Shaman history is imported.
+    -- Her unfinished questions and personal habits are BuddyDex fiction.
+    -- Research: docs/research/orgrimmar-questions-and-common-remedies.md.
+    [3344] = {
+        quote = "Ask the question you came to ask. We can find the proper words afterward.",
+        likes = { "An honest question", "A moment to listen", "Someone admitting uncertainty" },
+        dislikes = { "Answers given without listening", "Shouting over a student", "Pretending to understand" },
+        gossip = "Students say Kardris can hear an unasked question. Usually she has just noticed someone lingering by the door.",
+        bio = "Kardris Dreamseeker teaches shamans in Orgrimmar. She welcomes those guided by the spirits and sends experienced students to Bath'rah the Windwatcher to pursue elemental mastery.",
+        backstory = "Kardris began pausing after each lesson when she noticed students waiting until the others left to ask for help. Now she leaves a little silence at the end. Someone nearly always fills it.",
+        secret = "She still has questions she cannot answer. On difficult days, she says one aloud where nobody can hear, just to remember how much courage that takes.",
+        bestFriend = "I have a question of my own today. Will you walk with me while I try to find the words?",
+        favorite = { emote = "NOD", hint = "Values a quiet sign that someone is listening." },
+        lines = {
+            greet = { { "There you are. Walk with me a while. I have spent the morning answering questions, and I would like to hear what has been on your mind.", tone = "[warm] [thoughtful]" },
+                "We have time. Start wherever you need to." },
+            idle = { { "I recognize that look. Someone has a question and is deciding whether it sounds foolish. Ask it. We will learn far more that way than by standing here looking wise.", tone = "[patient] [gently amused]" },
+                "A pause does not always mean the lesson is finished.",
+                "Sometimes I discover the right question halfway home." },
+            befriended = { { "You have listened to me often enough. Today I would like to listen to you. No lesson, no test. Just two friends finding their way through a conversation.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You do not need to raise a hand out here.", "I was listening. Even before the elbow." },
+            learned = { { "Give yourself a moment with what you have learned. There will be another question soon enough. You need not rush past this one just to prove you are ready.", tone = "[steady] [encouraging]" } },
+            levelUp = { "You are asking different questions now. That is growth." },
+            quest = { "What surprised you? That is often worth remembering." },
+            combatEnd = { "Breathe. We can speak when your hands are steady." },
+            rest = { "We can leave that thought unfinished for a while." },
+            zone = { "Let us listen before we decide what this place is like." },
+            comforted = { "Thank you. I did not quite know how to ask." },
+        },
+    },
+
+    -- Sian'tsu, Troll female Shaman Trainer, Orgrimmar, NPC 3403.
+    -- Facts: installed blessings and training gossip; Classic 8410 referral.
+    -- No later funeral, Vision enemy, corruption or retail pet is imported.
+    -- The humming habit and private harmony are original BuddyDex writing.
+    -- Research: docs/research/orgrimmar-questions-and-common-remedies.md.
+    [3403] = {
+        quote = "Spirits watch over you. Now watch where you put your feet, too.",
+        likes = { "A tune shared on a walk", "Students finding their footing", "A heartfelt thank-you" },
+        dislikes = { "Careless steps near a ledge", "Lessons interrupted by boasting", "Being told to sing louder" },
+        gossip = "Sian'tsu hums between visitors. Her students keep trying to learn the tune, but she changes it every time.",
+        bio = "Sian'tsu is a shaman trainer in Orgrimmar. She recognizes the spirits' strength in her students and offers their protection to other visitors. Experienced shamans can seek Bath'rah through her referral.",
+        backstory = "Between lessons, Sian'tsu took to humming whatever few notes came to her. A student asked how the tune ended. She tried to finish it, disliked the result, and decided it could keep growing instead.",
+        secret = "She leaves room in the tune for another voice. She has never quite worked up the nerve to ask someone to join in without making it sound like a lesson.",
+        bestFriend = "You know that tune of mine? Try a few notes with me. We can find out together where it goes.",
+        favorite = { emote = "THANK", hint = "A sincere word of appreciation makes her day." },
+        lines = {
+            greet = { { "Good to see you, friend. May the spirits protect us on the road. And if I start humming, you are welcome to join me. I make no promises about the tune.", tone = "[warm] [playful]" },
+                "Come along. Tell me how the day has treated you." },
+            idle = { { "Someone asked me how that little tune ends. I wish I knew. Every time I try to finish it, another few notes come along and ask to stay.", tone = "[amused] [gentle]" },
+                "I lost the tune again. Perhaps it went ahead of us.",
+                "That breeze is welcome. Let us stand here a moment." },
+            befriended = { { "There you are. I saved a little space in my tune for you. No need to sing well. I would just like to hear what it sounds like with a friend.", tone = "[affectionate] [slightly shy]" } },
+            poke = { "You keeping time on my shoulder now?", "I can hear you without that, friend." },
+            learned = { { "Take your time. You do not have to make it look effortless on the first try. I would rather see you stop and ask than carry a mistake into the next lesson.", tone = "[patient] [encouraging]" } },
+            rest = { "A comfortable seat improves most conversations." },
+            levelUp = { "You have found your footing. I am glad I got to see it." },
+            quest = { "Tell me the part you enjoyed. We have time for that, too." },
+            combatEnd = { "Still with me? Good. Take a breath, friend." },
+            zone = { "I wonder what songs people sing here." },
+            comforted = { "Ah. Thank you for sitting with me." },
+        },
+    },
+
+    -- Yelmak, Orc male Expert Alchemist, the Drag, Orgrimmar, NPC 3347.
+    -- Facts: gruff installed gossip, novice referral to Whuut, advanced
+    -- referral to Halsey. Forever 97242/97275: Whuut is a prodigy who needs
+    -- basic practice; Yelmak demonstrates a cattail/speargrass tonic.
+    -- Unspoken compliments are ours. No retail Vision or master ranks.
+    -- Research: docs/research/orgrimmar-questions-and-common-remedies.md.
+    [3347] = {
+        quote = "Rare ingredients will not rescue careless work. Start with what grows under your feet.",
+        likes = { "Careful work with common herbs", "A clean stirring rod", "An apprentice who checks the result" },
+        dislikes = { "Wasting rare reagents", "Skipping the basics", "Interruptions near an open flask" },
+        gossip = "The shop says Yelmak can turn a compliment into a correction before it leaves his mouth. Whuut is getting plenty of practice.",
+        bio = "Yelmak teaches alchemy in Orgrimmar's Drag. He calls Whuut a prodigy but wants him to master basic technique. His potion of local speargrass and cattail shows the apprentice what care can achieve.",
+        backstory = "Kor'geld gathered help for a local remedy while Yelmak and Whuut were at odds. Yelmak used the simple ingredients to make a teaching tonic. Tasting it made Whuut reconsider his rush toward exotic reagents.",
+        secret = "He rehearses compliments while cleaning his tools. They come out kinder then. Once someone is listening, he usually adds a warning about the stirring rod.",
+        bestFriend = "You did well. I had a longer speech prepared, but that was the part I wanted you to hear. Stay a while.",
+        favorite = { emote = "NOD", hint = "Appreciates someone taking a lesson seriously." },
+        lines = {
+            greet = { { "You again. Good. I could use a walk before someone asks whether a rarer herb would improve the mixture. First I would like them to try measuring the ordinary one.", tone = "[gruff] [dryly amused]" },
+                "Mind the pouch. Those bottles took work." },
+            idle = { { "Whuut has talent. I will say that much. Getting him to slow down long enough to use it properly is another matter. Still, I would rather teach someone who wants to learn everything.", tone = "[gruff] [reflective]" },
+                "Perfectly good plants, growing beside the water. People walk past them.",
+                "I had something encouraging to say. Give me a moment." },
+            befriended = { { "I enjoy your company. There. Said it before I could add a correction. Come along, friend. If you keep walking, I might manage another compliment before we get back.", tone = "[gruff] [warm] [wry]" } },
+            poke = { "That had better not be the stirring rod.", "Careful. I brought glass." },
+            learned = { { "Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.", tone = "[confident] [instructive]" } },
+            loot = { "Keep that separate from the clean ingredients." },
+            bagsFull = { "Something will break if you force another bottle in there." },
+            quest = { "Finished? Check your work before handing it over." },
+            levelUp = { "Good progress. Yes, that was praise." },
+            rest = { "Sit. You cannot do careful work with shaking hands." },
+            combatEnd = { "Everyone whole? Bottles can be replaced." },
+        },
+    },
+
 
     -- Frezza (9564), adult male Goblin Zeppelin Master, outside Orgrimmar, Durotar.
     -- Current Horde-friendly display 8848 / race 9 sex 0. Installed Undercity

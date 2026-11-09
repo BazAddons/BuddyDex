@@ -1,3 +1,7 @@
+# Completed: Kardris, Sian'tsu and Yelmak
+
+Completed and validated on 2026-11-09: all three have ten fields, fifteen lines and four selected racial v4 signatures. See [full research](orgrimmar-questions-and-common-remedies.md). Development now has 312 complete profiles. The identity shortlist below is preserved as historical planning, not current pending status.
+
 # Next: Kardris, Sian'tsu and Yelmak
 
 Identity shortlist, 2026-11-09, after 309 completed profiles. Continue practical Orgrimmar teaching contacts with female Orc, female Troll and male Orc coverage. These three profiles are not authored, recorded or counted complete; no personal Scout encounter is claimed. Ordinary live named/adult/reaction/non-attackability gates remain required.

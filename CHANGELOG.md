@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Kardris Dreamseeker, Sian'tsu and Yelmak: full Orgrimmar profiles, fifteen personal lines and four selected Orc/Troll Eleven v4 signatures each. Include the full elemental referral chain and Forever's Whuut teaching tonic; preserve conditional/missing access evidence and omit later retail events. Development now has 312 complete profiles.
+
 - Complete Frezza, Tal and Innkeeper Pala: full profiles, fifteen personal lines and four selected Goblin/Tauren Eleven v4 signatures each. Research the complete courier loop, innkeeper referrals and seasonal branches, current stock and exact zeppelin gossip. Development now has 309 complete profiles.
 
 - Complete Shenthul, Shankys and Snurk Bucksquick: full Orgrimmar-area profiles, fifteen personal lines and four selected Troll male/Orc female/Goblin female Eleven v4 signatures each. Research full Hand training missions, actual fishing stock and Grom'gol/Frezza gossip; preserve qualified and conditional access evidence. Development now has 306 complete profiles.

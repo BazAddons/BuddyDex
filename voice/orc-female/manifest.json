@@ -159,6 +159,46 @@
     "text": "Good. Now consider what the effort taught you. Strength matters, but so do the way you approach a challenge and the care you take in meeting it. Remember what can be learned from subtlety and mercy. Bring thought to your actions, and you will have more to show than proof of a successful hunt.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3344_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3344",
+    "spoken": "[warm] [sincere] You have listened to me often enough. Today I would like to listen to you. No lesson, no test. Just two friends finding their way through a conversation.",
+    "text": "You have listened to me often enough. Today I would like to listen to you. No lesson, no test. Just two friends finding their way through a conversation.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3344_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3344",
+    "spoken": "[warm] [thoughtful] There you are. Walk with me a while. I have spent the morning answering questions, and I would like to hear what has been on your mind.",
+    "text": "There you are. Walk with me a while. I have spent the morning answering questions, and I would like to hear what has been on your mind.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3344_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3344",
+    "spoken": "[patient] [gently amused] I recognize that look. Someone has a question and is deciding whether it sounds foolish. Ask it. We will learn far more that way than by standing here looking wise.",
+    "text": "I recognize that look. Someone has a question and is deciding whether it sounds foolish. Ask it. We will learn far more that way than by standing here looking wise.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3344_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3344",
+    "spoken": "[steady] [encouraging] Give yourself a moment with what you have learned. There will be another question soon enough. You need not rush past this one just to prove you are ready.",
+    "text": "Give yourself a moment with what you have learned. There will be another question soon enough. You need not rush past this one just to prove you are ready.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

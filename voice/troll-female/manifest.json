@@ -39,6 +39,46 @@
     "text": "Good. Now take your time putting that lesson to use. Look closely, learn what you are gathering, and bring it back with a little care. A crushed bundle teaches you less than one you can examine properly. You will get quicker with practice. You need not begin by rushing past the important part.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
   },
+  "lore3403_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3403",
+    "spoken": "[affectionate] [slightly shy] There you are. I saved a little space in my tune for you. No need to sing well. I would just like to hear what it sounds like with a friend.",
+    "text": "There you are. I saved a little space in my tune for you. No need to sing well. I would just like to hear what it sounds like with a friend.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3403_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3403",
+    "spoken": "[warm] [playful] Good to see you, friend. May the spirits protect us on the road. And if I start humming, you are welcome to join me. I make no promises about the tune.",
+    "text": "Good to see you, friend. May the spirits protect us on the road. And if I start humming, you are welcome to join me. I make no promises about the tune.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3403_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3403",
+    "spoken": "[amused] [gentle] Someone asked me how that little tune ends. I wish I knew. Every time I try to finish it, another few notes come along and ask to stay.",
+    "text": "Someone asked me how that little tune ends. I wish I knew. Every time I try to finish it, another few notes come along and ask to stay.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3403_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3403",
+    "spoken": "[patient] [encouraging] Take your time. You do not have to make it look effortless on the first try. I would rather see you stop and ask than carry a mistake into the next lesson.",
+    "text": "Take your time. You do not have to make it look effortless on the first try. I would rather see you stop and ask than carry a mistake into the next lesson.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore3706_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

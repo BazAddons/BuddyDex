@@ -420,6 +420,20 @@
       "zone": "Orgrimmar",
       "route": "Female Shaman trainers and male Orc alchemy service",
       "reason": "Exact current adult female Orc/female Troll/male Orc models verified; current or published Orgrimmar location evidence reviewed, with Neutral/missing reaction qualified. Full personal lore/services pending. See docs/research/orgrimmar-spirit-and-alchemy-queue.md"
+    },
+    {
+      "npc_id": 3026,
+      "name": "Aska Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Female Tauren cooking and male Tauren fishing services",
+      "reason": "Exact current adult models, Horde-friendly icons and city pins checked; full personal profession/quest/gossip/literary review pending. See docs/research/thunder-bluff-cooking-and-fishing-queue.md"
+    },
+    {
+      "npc_id": 3028,
+      "name": "Kah Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Female Tauren cooking and male Tauren fishing services",
+      "reason": "Exact current adult models, Horde-friendly icons and city pins checked; full personal profession/quest/gossip/literary review pending. See docs/research/thunder-bluff-cooking-and-fishing-queue.md"
     }
   ]
 }
