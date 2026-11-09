@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Deathknell: Mordo 1568/undead male/1582, Sarvis 1569/undead male/1584,
+    -- Elreth 1661/undead female/1593. Classic quests and current Forever
+    -- text checked, including Sarvis's paladin referral 98601. Elreth's
+    -- friendship with Marla Fipps is explicit. Greeting practice, private
+    -- jokes and bright patchwork are original. Forsaken voice selection
+    -- remains pending. docs/research/deathknell-first-awakenings.md.
+    [1568] = {
+        quote = "Good. Standing, listening, capable of an answer. We can work with that. Take a moment to find your bearings before deciding where to put your feet.",
+        likes = { "An answer given in someone's own words", "A newcomer finding their bearings", "A greeting that causes less alarm" },
+        dislikes = { "An empty stare where an answer belongs", "Someone else's will doing the talking", "A speech that forgets its point" },
+        gossip = "Mordo has considered a more reassuring greeting. Most attempts apparently become instructions before he finishes them.",
+        bio = "Mordo tends the crypt of Deathknell. When a newly awakened Forsaken can answer for themselves, he sends them to Shadow Priest Sarvis in the chapel. His welcome is blunt, but the distinction between freedom and mindless servitude matters.",
+        backstory = "He tried composing a greeting that would cause less alarm. Each attempt turned into practical instructions before he reached the end. He began to suspect that reassurance might simply sound different when he was the one delivering it.",
+        secret = "He settled on being pleased to see someone. Then he worried it needed an explanation. With a friend, he occasionally manages to leave the explanation out.",
+        bestFriend = "Pleased to see you. There. No directions, no qualification. You may take that as it stands, my friend.",
+        favorite = { emote = "GREET", hint = "An ordinary, deliberate welcome can answer someone who has put a surprising amount of thought into his own." },
+        lines = {
+            greet = { { "There you are. Standing, listening, and apparently willing to walk with me. A promising beginning. Take a moment to find your bearings, my friend. There is no need to hurry the first step.", tone = "[dry weathered Forsaken humor, restrained warmth, welcoming]" }, "Good to see you. Yes, I meant that as a greeting. No further instructions yet." },
+            idle = { { "I considered a more reassuring greeting. It became instructions before I reached the end. Tried again. More instructions. I may have to accept that reassurance has a rather practical sound when I deliver it.", tone = "[rasping dry self-awareness, quiet amusement, confiding]" }, "An answer in your own words is a welcome thing.", "There is value in taking a moment to decide where you mean to go." },
+            befriended = { { "You would like my company? Very well, my friend. I am pleased to see you. No qualification. Let us leave that sentence alone and find somewhere agreeable to walk.", tone = "[guarded sincere affection, dry relief, inviting]" } },
+            poke = { "Yes? An answer would help me understand the question.", "I am listening. You have my attention." },
+            rest = { { "Sit a moment, if you wish. Find your bearings. There is no prize for beginning the next task before you know what you intend to do. We have time for an answer in your own words.", tone = "[matter-of-fact reassurance, patient weathered warmth, clear]" } },
+            quest = { "Good. A task completed, and you here to say so." },
+            learned = { "Something new to make use of. Take a moment to understand it." },
+            combatEnd = { "Still capable of an answer? Good. See what needs attention." },
+            zone = { "Find your bearings before committing yourself to a direction." },
+            comforted = { "Stay a moment. I can listen without turning it into instructions." },
+            hearth = { "Back to familiar ground. You may take a moment before the next business." },
+        },
+    },
+    [1569] = {
+        quote = "Your will is your own. See that you use it. And if a little laughter survives everything else, I would not be in a hurry to discard it.",
+        likes = { "A mind that remains its own", "A quick reply with some wit in it", "A joke that improves on being retold" },
+        dislikes = { "Freedom mistaken for an empty word", "A task abandoned without an effort", "An explanation longer than the joke" },
+        gossip = "Sarvis can give a very poor joke a remarkably patient second chance. The silence afterward seems to amuse him too.",
+        bio = "Shadow Priest Sarvis receives new Forsaken in Deathknell's chapel. He explains their freedom from the Lich King, tests them against the Scourge and passes along trainers' scrolls. Elreth assists him while tending the wounded and their equipment.",
+        backstory = "He has a few private jokes that improve considerably in his own retelling. A pause, a different last word, another attempt: the exercise amuses him. An audience's silence does not always persuade him that the effort has been wasted.",
+        secret = "One joke has never earned a laugh from anyone else. He still enjoys its final line. Sometimes the pleasure is in deciding that he will keep it anyway.",
+        bestFriend = "Stay, my friend. I have an improved version. You are free to disagree with that description. I shall enjoy your answer.",
+        favorite = { emote = "GRIN", hint = "A small sign of shared amusement may say enough when a solemn face is part of the joke." },
+        lines = {
+            greet = { { "There you are, my friend. Have you time for a walk? I have improved a joke. You need not agree that it required another attempt, but I shall be interested in your answer.", tone = "[dry rasping Forsaken wit, composed warmth, welcoming]" }, "Welcome. Your company would be agreeable, and your opinion may yet prove useful." },
+            idle = { { "There is one joke that has never earned a laugh from anyone else. I still enjoy the final line. Occasionally I improve the pause before it. The silence afterward remains remarkably consistent.", tone = "[sardonic private amusement, deliberate timing, confiding]" }, "Your own answer is worth more than an empty agreement.", "A little wit can survive a great deal. I see no reason to discourage it." },
+            befriended = { { "You choose my company? Very well, my friend. I am pleased. Lead on. We have time for conversation, and perhaps you can tell me what you think of the improved final line.", tone = "[restrained sincere affection, wry pleasure, inviting]" } },
+            poke = { "Yes? I take it you have an answer.", "Speak, my friend. I would rather hear your thought than invent it for you." },
+            learned = { { "Good. A new ability deserves a little thought. Make use of it deliberately. Your will is your own; the next choice should be more than the repetition of someone else's instructions.", tone = "[firm measured approval, dry encouragement, clear]" } },
+            quest = { "A result worth reporting. Consider what the effort has shown you." },
+            combatEnd = { "See to your wounds. There is more to accomplish, and little sense in neglecting what keeps you capable of it." },
+            zone = { "A new place. Keep your wits about you and decide what deserves your attention." },
+            rest = { "A pause, then. I may use it to reconsider the timing of that last line." },
+            comforted = { "You may speak, or remain a while without speaking. I am not asking you to perform composure for me." },
+            hearth = { "Back to familiar ground. There is still room for an answer of your own." },
+        },
+    },
+    [1661] = {
+        quote = "There is work enough in seeing someone safely on their way. A wound attended to, a seam made sound, a last wish remembered. None of it becomes smaller because it is quiet.",
+        likes = { "A sound seam that will serve its wearer", "The dead remembered with respect", "A bright thread in ordinary cloth" },
+        dislikes = { "A wound left until it becomes worse", "Care treated as unimportant work", "A last wish dismissed as inconvenient" },
+        gossip = "Elreth takes care over useful stitching. A patch on something of her own is apparently allowed a little extra color.",
+        bio = "Novice Elreth tends Deathknell's wounded, makes clothes and armor, and assists Shadow Priest Sarvis. She also asks that her friend Marla Fipps' final wish be honored: burial with Samuel, the husband the plague took from her.",
+        backstory = "While mending something of her own, she chose a brighter thread than the repair required. The seam was sound, which mattered first. Still, the little change pleased her whenever she noticed it, and she left it as it was.",
+        secret = "She could make that patch less noticeable. She has the skill and suitable thread. She simply likes it as it is: a useful repair with one small pleasure of her own.",
+        bestFriend = "Sit with me a moment, my friend. Tell me how you have been. I am glad you thought to spend a little of the day here.",
+        favorite = { emote = "THANK", hint = "A sincere acknowledgment can mean a great deal to someone whose careful work often passes quietly." },
+        lines = {
+            greet = { { "It is good to see you, my friend. Shall we walk a little? Tell me how you have been, and give me an honest answer. There is time to attend to what needs care before we hurry on.", tone = "[weathered Forsaken gentleness, practical attentiveness, welcoming]" }, "Welcome, my friend. Have you had a moment to see to yourself?" },
+            idle = { { "I chose a bright thread for a repair on something of my own. The seam is sound. I could make it less noticeable, but I rather like seeing it. A useful piece of work may hold a small pleasure too.", tone = "[quietly pleased warmth, modest private delight, confiding]" }, "Quiet work still deserves to be done with care.", "A last wish is worth remembering when the day's other business presses in." },
+            befriended = { { "I would welcome your company, my friend. Come on. We can walk for a little while, and you can tell me what the day has held. I am glad you thought to ask me along.", tone = "[sincere gentle affection, grateful pleasure, inviting]" } },
+            poke = { "Yes, my friend? What needs attention?", "I am listening. Tell me how you have been." },
+            gear = { { "Look at the seams and how it sits. It should serve the person wearing it. If there is a small detail that pleases you as well, I see no reason that should count against a useful piece of work.", tone = "[practical caring approval, restrained amusement, clear]" } },
+            combatEnd = { "See to your wounds, my friend. Care is easier before neglect has added to the work." },
+            quest = { "You saw it through. Some duties matter most to the person who asked us to remember." },
+            rest = { "Sit a moment. There is nothing careless in recognizing when attention is needed." },
+            learned = { "A new skill may let you give better care to something that matters." },
+            comforted = { "Stay with me a while. You need not set your grief aside to be welcome." },
+            hearth = { "Back to familiar ground. Tell me if there is anything that needs seeing to." },
+        },
+    },
     -- Forever Mage Quarter: Antonio 258568/human male/140828 sells two
     -- reagent-bag patterns; Fyrenz 270581/night elf female/147118 offers
     -- transmogrification. Krazore 277721/dwarf male/147926 is observed in

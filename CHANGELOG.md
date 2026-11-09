@@ -11,6 +11,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Add written profiles and personal companion dialogue for Undertaker Mordo, Shadow Priest Sarvis, and Novice Elreth. Their signature recordings await selection of the official Forsaken voices.
 - Build friendships by talking, visiting merchants and trainers, using services, interacting with quest givers, and sharing emotes.
 - Progress through six tiers, from Stranger to Best Friend.
 - Discover each NPC's favorite emote for bonus friendship.

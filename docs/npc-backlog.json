@@ -668,6 +668,33 @@
       "status": "complete"
     },
     {
+      "npc_id": 1568,
+      "name": "Undertaker Mordo",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1569,
+      "name": "Shadow Priest Sarvis",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
+      "npc_id": 1661,
+      "name": "Novice Elreth",
+      "zone": "Tirisfal Glades",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "needs_completion"
+    },
+    {
       "npc_id": 1721,
       "name": "Nikova Raskol",
       "zone": "Stormwind City",
@@ -1846,27 +1873,6 @@
     {
       "npc_id": 2126,
       "name": "Maximillion",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1661,
-      "name": "Novice Elreth",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1569,
-      "name": "Shadow Priest Sarvis",
-      "zone": "Tirisfal Glades",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1568,
-      "name": "Undertaker Mordo",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
