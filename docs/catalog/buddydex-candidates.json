@@ -988,7 +988,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -2124,7 +2124,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -26526,7 +26526,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38872,6 +38872,39 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 1308,
+      "name": "Owen Vaughn",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Owen Vaughn",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 1312,
+      "name": "Ardwyn Cailen",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Ardwyn Cailen",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 1315,
+      "name": "Allan Hafgan",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Allan Hafgan",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 1339,
       "name": "Mayda Thane",
       "source": "Existing local backlog; absent from source filter",
@@ -39246,28 +39279,6 @@
       "profile_status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1315,
-      "name": "Allan Hafgan",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Allan Hafgan",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1312,
-      "name": "Ardwyn Cailen",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Ardwyn Cailen",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 1367,
       "name": "Billy",
       "source": "Existing local backlog; absent from source filter",
@@ -39416,17 +39427,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Orphan Matron Nightingale",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1308,
-      "name": "Owen Vaughn",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Owen Vaughn",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,

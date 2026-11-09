@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Mage Quarter: Allan Hafgan 1315, human male Staves Merchant; Ardwyn
+    -- Cailen 1312, human female Wand Merchant, both Stormwind Staves; Owen
+    -- Vaughn 1308, human male Reagent Vendor, Essential Components. Shared
+    -- service gossip credits Stormwind crafters and Lucan Cordell after
+    -- supply losses. No verified personal quest chains. Original hobbies
+    -- and version boundaries: docs/research/mage-quarter-merchants.md.
+    [1315] = {
+        quote = "Good work deserves a proper look. You may find the maker has thought of something the grand description forgot to mention.",
+        likes = { "The care in a well-made staff", "A patient audience for a small trick", "A wall with room for a shadow dragon" },
+        dislikes = { "A grand claim covering careless work", "Making a beginner afraid to ask", "Being told every pleasure needs magic" },
+        gossip = "Allan admires the city's skilled hands. Away from the counter, his own may become a rabbit, a bird or an unconvincing dragon.",
+        bio = "Allan Hafgan sells staves at Stormwind Staves in the Mage Quarter. He takes pride in goods made by the city's crafters and mages. Lucan Cordell is among those he credits with filling orders when arcane wares became harder to obtain.",
+        backstory = "Working among impressive wares has left Allan fond of a very small entertainment. With a lamp and a plain wall, he makes shadow creatures with his hands. His rabbit is recognizable. The dragon still needs an explanation.",
+        secret = "The dragon's wings keep turning into rabbit ears. He has considered calling it a rare breed, but would rather learn to make a better dragon. A patient audience helps.",
+        bestFriend = "Sit where you can see the wall. I have been working on the wings. If it is still a rabbit, you may tell me. I like having you here anyway.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation makes a willing audience, even for a very small performance." },
+        lines = {
+            greet = { { "Ah, there you are. Shall we take a walk? If we find a plain wall and a good light, I may show you a dragon. You may need to be generous about the wings.", tone = "[gentle warmth, playful anticipation, welcoming]" }, "Good to see you. Have you a little time to spare?" },
+            idle = { { "The dragon keeps acquiring rabbit ears. I could call it a rare breed, I suppose. But I would rather get the wings right. You will tell me honestly, won't you?", tone = "[self-mocking amusement, hopeful, confiding]" }, "There is good work being made in Stormwind. I like knowing whose hands deserve the credit.", "A lamp, a wall and a patient audience. Quite enough for a pleasant evening." },
+            befriended = { { "You came to bring me along. I am pleased, my friend. Come on. It will be good to have a little of the day together.", tone = "[sincere affection, quietly pleased, inviting]" } },
+            poke = { "Yes? Have you thought of a creature I might try?", "You have my attention. What is it?" },
+            gear = { { "Have a proper look at the workmanship. Someone gave their time and care to that. I hope it serves you well.", tone = "[interested appreciation, warm encouragement]" } },
+            loot = { "Something worth a closer look? Let us see what you have found." },
+            learned = { "A little better than last time. That is a good reason to keep trying." },
+            quest = { "Well done. I hope someone remembers to thank you for the work." },
+            zone = { "Let us look around. There may be some fine work to notice here." },
+            rest = { "A seat sounds good. Is there enough light for a rabbit?" },
+            hearth = { "Back to the shop. I shall have another try at those wings later." },
+        },
+    },
+    [1312] = {
+        quote = "Ask the question. There is no shame in needing an answer, and a great deal of wasted time in pretending you already have it.",
+        likes = { "Stormwind's skilled crafters", "A question asked without embarrassment", "One clear note, eventually" },
+        dislikes = { "Laughing at an honest first attempt", "A flourish that hides poor workmanship", "Giving up before the second try" },
+        gossip = "Ardwyn is patient with questions about her wands. She would appreciate the same courtesy when she tries to whistle a tune.",
+        bio = "Ardwyn Cailen sells wands at Stormwind Staves in the Mage Quarter. Her service talk praises the city's crafters and mages. She credits Lucan Cordell and other local tradespeople with helping fill orders after distant supplies grew scarce.",
+        backstory = "Ardwyn has decided to learn to whistle. Progress is slow enough to give her a fresh respect for anyone trying an unfamiliar skill. She practices when she has a quiet moment, and counts a single clear note as a success worth keeping.",
+        secret = "She managed one clear note when she was too distracted to think about it. She has been trying to look equally unconcerned ever since. So far, the effort is rather obvious.",
+        bestFriend = "Walk with me a moment. If you hear a clear note, pretend it happened all the time. Then you can tell me you are pleased. I shall be pleased too.",
+        favorite = { emote = "CHEER", hint = "Friendly encouragement is welcome when someone is still finding the knack." },
+        lines = {
+            greet = { { "There you are. A walk sounds good. If you hear an odd little noise, I am trying to whistle. A friendly audience would be welcome. A patient one, especially.", tone = "[friendly warmth, candid amusement, hopeful]" }, "Good to see you. Shall we have a little time away from the counter?" },
+            idle = { { "One clear note, when I wasn't thinking about it. Now I am trying very hard to look as though I am not trying. I suspect you can see the difficulty.", tone = "[wry amusement, slightly sheepish, confiding]" }, "There is no shame in asking what a piece of gear is meant to do.", "I like knowing there are people here in Stormwind making work we can be proud to sell." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. We can enjoy the walk, whether or not I manage a tune.", tone = "[sincere affection, cheerful warmth, inviting]" } },
+            poke = { "Yes? Was that a note, or are you being kind?", "I am listening. What would you like to know?" },
+            learned = { { "There, you have it. Be pleased with yourself. Nobody begins by knowing how, and you stayed long enough to learn.", tone = "[bright encouragement, proud, sincere]" } },
+            gear = { "Take a proper look. A question now may save you some confusion later." },
+            quest = { "Well done. Have a moment to enjoy having done it." },
+            loot = { "An interesting find. Shall we see what you have?" },
+            zone = { "Somewhere new to look around. No need to pretend we know it already." },
+            rest = { "A seat would be lovely. I can give the whistling a rest too." },
+            hearth = { "Back to the shop. Perhaps the next quiet moment will produce another note." },
+        },
+    },
+    [1308] = {
+        quote = "Tell me what you need, and ask if you are unsure. An important little thing deserves more care than its size suggests.",
+        likes = { "Supplies checked before setting out", "Credit given to the local crafters", "Someone willing to try the soup" },
+        dislikes = { "An empty pouch discovered too late", "A hurried guess in place of a question", "Being expected to repeat a lucky recipe" },
+        gossip = "Owen can keep track of a reagent order. Ask him what went into last night's excellent soup, and the accounting becomes less reliable.",
+        bio = "Owen Vaughn sells reagents at Essential Components in Stormwind's Mage Quarter. He speaks well of the city's crafters and mages, including Lucan Cordell, whose work has helped fill orders as supplies from elsewhere became scarce.",
+        backstory = "Away from the counter, Owen likes making soup. He tastes, adds something and tastes again until supper seems ready. This is a pleasant way to cook, though it leaves him poorly equipped to explain how he did it afterward.",
+        secret = "A particularly good pot has become impossible to repeat. He remembers being pleased, hungry and a little surprised. These are useful feelings, but very poor instructions.",
+        bestFriend = "Come by for supper. I cannot promise the soup will be the same twice. I can promise a place for you, and that I shall be glad you came.",
+        favorite = { emote = "THANK", hint = "A sincere acknowledgment suits someone who makes sure the little necessities are remembered." },
+        lines = {
+            greet = { { "Ah, my friend. Have you what you need for the road? Good. Then let us have a walk. You may help me remember what went into that soup, though I fear the evidence is gone.", tone = "[practical warmth, gentle amusement, welcoming]" }, "Good to see you. A little time outside would be welcome." },
+            idle = { { "The soup was excellent. I remember that much. What went into it? Something that needed using, then something else. This is why I cannot offer a reliable recipe.", tone = "[dry humor, sheepishly pleased, conversational]" }, "Check the small necessities while there is still time to fetch them.", "Lucan Cordell and the other crafters here deserve credit for helping keep orders filled." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. We can have a pleasant walk and consider what might go into supper.", tone = "[sincere affection, quietly delighted, inviting]" } },
+            poke = { "Yes? Did you remember something you need?", "I am listening. Have you a question?" },
+            bagsFull = { { "Have a look through before setting out again. The little thing you actually need is easily forgotten among all the things you thought you might.", tone = "[practical concern, kindly advice, lightly amused]" } },
+            loot = { "Something useful? Give it a proper place in the pack." },
+            gear = { "Good. And have you remembered what you need to use it?" },
+            quest = { "Well done. A little preparation makes a difference, doesn't it?" },
+            mail = { "An order, a message or a pleasant surprise? Let us find out." },
+            rest = { "A seat sounds good. Have you any thoughts about supper?" },
+            hearth = { "Back to the counter. And later, another attempt at that soup." },
+        },
+    },
+
     -- Dwarven District: Furen Longbeard 5413, dwarf male shieldsmith and
     -- armorsmith; Stormpike order, Yorus friendship, fire-hardened mail and
     -- notes shared with Grimand, Mathiel and Klockmort. Hank the Hammer

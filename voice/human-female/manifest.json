@@ -319,6 +319,46 @@
     "text": "Look at you. Another skill to your name! You'll have to show me how it's done when we have a moment.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1312_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1312",
+    "spoken": "[sincere affection, cheerful warmth, inviting] You came to bring me along. I am glad, my friend. Come on. We can enjoy the walk, whether or not I manage a tune.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. We can enjoy the walk, whether or not I manage a tune.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1312_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1312",
+    "spoken": "[friendly warmth, candid amusement, hopeful] There you are. A walk sounds good. If you hear an odd little noise, I am trying to whistle. A friendly audience would be welcome. A patient one, especially.",
+    "text": "There you are. A walk sounds good. If you hear an odd little noise, I am trying to whistle. A friendly audience would be welcome. A patient one, especially.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1312_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1312",
+    "spoken": "[wry amusement, slightly sheepish, confiding] One clear note, when I wasn't thinking about it. Now I am trying very hard to look as though I am not trying. I suspect you can see the difficulty.",
+    "text": "One clear note, when I wasn't thinking about it. Now I am trying very hard to look as though I am not trying. I suspect you can see the difficulty.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1312_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1312",
+    "spoken": "[bright encouragement, proud, sincere] There, you have it. Be pleased with yourself. Nobody begins by knowing how, and you stayed long enough to learn.",
+    "text": "There, you have it. Be pleased with yourself. Nobody begins by knowing how, and you stayed long enough to learn.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1313_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

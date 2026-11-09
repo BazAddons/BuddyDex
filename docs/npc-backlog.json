@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 129,
-  "remaining_count": 88,
+  "completed_count": 132,
+  "remaining_count": 85,
   "completed": [
     {
       "npc_id": 54,
@@ -371,6 +371,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 1308,
+      "name": "Owen Vaughn",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1309,
       "name": "Wynne Larson",
       "zone": "Stormwind City",
@@ -389,8 +398,26 @@
       "status": "complete"
     },
     {
+      "npc_id": 1312,
+      "name": "Ardwyn Cailen",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1313,
       "name": "Maria Lumere",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1315,
+      "name": "Allan Hafgan",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1256,13 +1283,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1315,
-      "name": "Allan Hafgan",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 258568,
       "name": "Antonio Bolero",
       "zone": "Stormwind City",
@@ -1272,13 +1292,6 @@
     {
       "npc_id": 1284,
       "name": "Archbishop Benedictus",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1312,
-      "name": "Ardwyn Cailen",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1517,13 +1530,6 @@
     {
       "npc_id": 1323,
       "name": "Osric Strang",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1308,
-      "name": "Owen Vaughn",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
