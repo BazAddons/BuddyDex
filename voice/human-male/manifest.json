@@ -2661,6 +2661,46 @@
     "spoken": "[contentedly] There we are. Sit before your knees make the decision for you.",
     "text": "There we are. Sit before your knees make the decision for you."
   },
+  "lore3089_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3089",
+    "spoken": "[sincere friendly pleasure, gently self-deprecating warmth] I'd enjoy a walk with you. It's pleasant to have a friend who'll still invite me along after hearing the jokes. Tell me your news as we go. I promise I can listen without turning every sentence into a punchline.",
+    "text": "I'd enjoy a walk with you. It's pleasant to have a friend who'll still invite me along after hearing the jokes. Tell me your news as we go. I promise I can listen without turning every sentence into a punchline.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3089_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3089",
+    "spoken": "[genial welcome, dry playful humor] Good to see you. Need something for the road? Take your time choosing. I can offer a little conversation while you look. The jokes cost nothing, though you may feel I've charged too much once you've heard one.",
+    "text": "Good to see you. Need something for the road? Take your time choosing. I can offer a little conversation while you look. The jokes cost nothing, though you may feel I've charged too much once you've heard one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3089_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3089",
+    "spoken": "[deadpan setup, pleased mischievous amusement] I was going to tell you a joke about a fine cut of meat, but I'm afraid I've butchered the ending. There we are. A groan is perfectly fair. I did give you a little warning.",
+    "text": "I was going to tell you a joke about a fine cut of meat, but I'm afraid I've butchered the ending. There we are. A groan is perfectly fair. I did give you a little warning.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore3089_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3089",
+    "spoken": "[relaxed attentive kindness, quiet humor] A good place to sit and catch our breath. Tell me how your day has been. I'll save the next joke for later. Sometimes a friend needs a willing ear much more than another reason to groan.",
+    "text": "A good place to sit and catch our breath. Tell me how your day has been. I'll save the next joke for later. Sometimes a friend needs a willing ear much more than another reason to groan.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore328_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

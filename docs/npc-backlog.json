@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 205,
+  "completed_count": 208,
   "remaining_count": 37,
   "completed": [
     {
@@ -321,6 +321,16 @@
       "name": "Thor",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 777,
+      "name": "Amy Davenport",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+      "research_notes": "docs/research/lakeshire-three-suppliers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -1212,6 +1222,26 @@
       "name": "Karrina Mekenda",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3085,
+      "name": "Gloria Femmel",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+      "research_notes": "docs/research/lakeshire-three-suppliers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3089,
+      "name": "Sherman Femmel",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+      "research_notes": "docs/research/lakeshire-three-suppliers.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

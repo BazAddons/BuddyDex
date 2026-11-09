@@ -1319,6 +1319,46 @@
     "text": "A letter? Take your time with it. Someone may have spent all morning finding those words.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore3085_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3085",
+    "spoken": "[pleased friendly warmth, playful anticipation] I'd love to come along. Show me a little of your day, and I'll try to find a rhythm that suits the walk. You needn't sing. Though if you do, perhaps you can help me keep my place.",
+    "text": "I'd love to come along. Show me a little of your day, and I'll try to find a rhythm that suits the walk. You needn't sing. Though if you do, perhaps you can help me keep my place.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3085_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3085",
+    "spoken": "[bright practical welcome, lightly playful warmth] Hello there. What are you planning to make? We can find the supplies first and leave the worrying for later. If you heard a bit of tapping, that was only me finding another use for an empty tin.",
+    "text": "Hello there. What are you planning to make? We can find the supplies first and leave the worrying for later. If you heard a bit of tapping, that was only me finding another use for an empty tin.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3085_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3085",
+    "spoken": "[cheerful self-deprecating amusement, buoyant enthusiasm] An empty tin makes quite a good little drum. I can keep the rhythm until I start humming. Then one of them wanders off without the other. Still, there's nothing to stop me enjoying another attempt.",
+    "text": "An empty tin makes quite a good little drum. I can keep the rhythm until I start humming. Then one of them wanders off without the other. Still, there's nothing to stop me enjoying another attempt.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore3085_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3085",
+    "spoken": "[encouraging warmth, gently amused confidence] Something new to practice! Give yourself a little time with it. I still lose my beat whenever I try adding a tune, and I haven't stopped enjoying the effort. Getting a bit further is a pleasure of its own.",
+    "text": "Something new to practice! Give yourself a little time with it. I still lose my beat whenever I try adding a tune, and I haven't stopped enjoying the effort. Getting a bit further is a pleasure of its own.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore3626_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1932,6 +1972,46 @@
     "source": "lore:6778",
     "spoken": "[gentle, reassuring voice, unhurried welcome] Settle yourself. You don't have to be on your way every moment of the day.",
     "text": "Settle yourself. You don't have to be on your way every moment of the day.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore777_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:777",
+    "spoken": "[sincere friendly warmth, eager curiosity] I'd be glad to come with you. Tell me about the places you've seen. I enjoy hearing what a traveler notices, even when it's only an odd little sign above a door. Especially then, sometimes.",
+    "text": "I'd be glad to come with you. Tell me about the places you've seen. I enjoy hearing what a traveler notices, even when it's only an odd little sign above a door. Especially then, sometimes.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore777_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:777",
+    "spoken": "[capable welcoming warmth, curious playful interest] Good to see you. What are you working on today? We can think through what you'll need before you leave. And if you've passed a shop with a particularly good name, I'd like to hear about that too.",
+    "text": "Good to see you. What are you working on today? We can think through what you'll need before you leave. And if you've passed a shop with a particularly good name, I'd like to hear about that too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore777_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:777",
+    "spoken": "[thoughtful whimsy, quietly delighted amusement] The Slightly Lost Button. That's my favorite name for an imaginary shop. I haven't decided what it sells. I keep picturing the sign instead. Perhaps that's a fine way to enjoy a business I never have to stock.",
+    "text": "The Slightly Lost Button. That's my favorite name for an imaginary shop. I haven't decided what it sells. I keep picturing the sign instead. Perhaps that's a fine way to enjoy a business I never have to stock.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore777_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:777",
+    "spoken": "[bright observant curiosity, gently amused warmth] Somewhere different. Let's take a look around before we hurry on. I wonder what people call their little shops here. A good name can stay with me long after I've forgotten what I went in to buy.",
+    "text": "Somewhere different. Let's take a look around before we hurry on. I wonder what people call their little shops here. A good name can stay with me long after I've forgotten what I went in to buy.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore820_befriended_1.ogg": {

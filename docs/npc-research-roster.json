@@ -175,5 +175,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed external candidate; current Forever identity, Classic quest and installed dialogue",
     "research_notes": "docs/research/lakeshire-innkeepers.md"
+  },
+  {
+    "npc_id": 3085,
+    "name": "Gloria Femmel",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+    "research_notes": "docs/research/lakeshire-three-suppliers.md"
+  },
+  {
+    "npc_id": 3089,
+    "name": "Sherman Femmel",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+    "research_notes": "docs/research/lakeshire-three-suppliers.md"
+  },
+  {
+    "npc_id": 777,
+    "name": "Amy Davenport",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
+    "research_notes": "docs/research/lakeshire-three-suppliers.md"
   }
 ]

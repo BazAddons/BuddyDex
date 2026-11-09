@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gloria Femmel 3085: cooking supplies, human woman, display 3375.
+    -- Sherman Femmel 3089: butcher, human man, display 3373. Lakeshire Inn.
+    -- Amy Davenport 777: tradeswoman, human woman, display 3366, Lakeshire.
+    -- Current friendly Forever identities and stock; no personal quests found.
+    -- Tin rhythms / bad meat jokes / imaginary shop signs are BuddyDex writing.
+    -- docs/research/lakeshire-three-suppliers.md.
+    [3085] = {
+        quote = "A little preparation makes the cooking easier. A little music makes the preparation pleasanter. An empty tin will do, if you haven't a proper instrument.",
+        likes = { "A cook finding the supplies they need", "A lively rhythm on an empty tin", "Someone joining in for a few beats" },
+        dislikes = { "Good ingredients carelessly wasted", "A busy task made needlessly gloomy", "Losing the beat halfway through" },
+        gossip = "Gloria's supplies help a kitchen get started. An empty tin and a wooden spoon can get a rather different performance started afterward.",
+        bio = "Gloria Femmel sells cooking supplies in the Lakeshire inn. Spices, flour and sagefish recipes are among her goods. Cooks can prepare for their next meal here, while the butcher Sherman Femmel works nearby.",
+        backstory = "A spoon tapping an empty tin gave her a pleasant little rhythm while she tidied. She tried adding another beat, then another. Her improvised music became a cheerful way to finish an ordinary task without wishing the time away.",
+        secret = "The moment she tries humming along, she loses the rhythm. She laughs and starts again. One day she hopes to manage a whole tune without having to choose between the two.",
+        bestFriend = "You keep that part steady, and I'll try the tune. There, we've nearly got it! It's much more fun with you here to help.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation can encourage someone giving an ordinary object a musical turn." },
+        lines = {
+            greet = { { "Hello there. What are you planning to make? We can find the supplies first and leave the worrying for later. If you heard a bit of tapping, that was only me finding another use for an empty tin.", tone = "[bright practical welcome, lightly playful warmth]" }, "Come and tell me what you need. We'll get you started." },
+            idle = { { "An empty tin makes quite a good little drum. I can keep the rhythm until I start humming. Then one of them wanders off without the other. Still, there's nothing to stop me enjoying another attempt.", tone = "[cheerful self-deprecating amusement, buoyant enthusiasm]" }, "That was nearly a whole tune. Nearly.", "A little preparation leaves more time to enjoy what you're doing." },
+            befriended = { { "I'd love to come along. Show me a little of your day, and I'll try to find a rhythm that suits the walk. You needn't sing. Though if you do, perhaps you can help me keep my place.", tone = "[pleased friendly warmth, playful anticipation]" } },
+            poke = { "Yes? Have you thought of something else?", "I'm listening. The tin can have a quiet moment." },
+            learned = { { "Something new to practice! Give yourself a little time with it. I still lose my beat whenever I try adding a tune, and I haven't stopped enjoying the effort. Getting a bit further is a pleasure of its own.", tone = "[encouraging warmth, gently amused confidence]" } },
+            loot = { "A useful find. I like seeing something put to good use." },
+            quest = { "Your task is done. Now there's a good reason for a cheerful little tune." },
+            rest = { "Let's sit a moment. Even a lively rhythm needs a pause." },
+            zone = { "A different place. I wonder what songs people enjoy here." },
+            levelUp = { "Well done! That deserves a little applause." },
+            hearth = { "Back to somewhere familiar. That's a pleasant end to the day." },
+        },
+    },
+    [3089] = {
+        quote = "Good provisions can improve a long day. I also have a few jokes, though I can't promise they'll improve it quite as reliably.",
+        likes = { "A traveler properly provisioned", "An awful joke finding a willing ear", "A grin that arrives after a groan" },
+        dislikes = { "Food wasted through poor packing", "An empty stomach on a long journey", "Forgetting his own punchline" },
+        gossip = "Sherman's meat is easier to recommend than his jokes. He seems perfectly satisfied if a listener groans first and smiles afterward.",
+        bio = "Sherman Femmel is the butcher at the Lakeshire inn in Redridge. His goods range from jerky to ham and roasted quail. Gloria Femmel sells cooking supplies nearby; visitors can see to several practical needs in one stop.",
+        backstory = "He tried a small joke while a visitor considered the provisions. The groan it earned was followed by a smile. That seemed a worthwhile result, so he began saving new puns for anyone willing to risk hearing another.",
+        secret = "He sometimes forgets which jokes he's already told. If a friend grins at one anyway, he takes it as a kindness and tries to remember a different one for next time.",
+        bestFriend = "You've heard that one? I thought you might have. Stay a little anyway. I like your company even when I've run out of new material.",
+        favorite = { emote = "GRIN", hint = "Let him see that even a very questionable punchline has found a friendly audience." },
+        lines = {
+            greet = { { "Good to see you. Need something for the road? Take your time choosing. I can offer a little conversation while you look. The jokes cost nothing, though you may feel I've charged too much once you've heard one.", tone = "[genial welcome, dry playful humor]" }, "Come and tell me how you've been. I've probably got a joke you haven't heard." },
+            idle = { { "I was going to tell you a joke about a fine cut of meat, but I'm afraid I've butchered the ending. There we are. A groan is perfectly fair. I did give you a little warning.", tone = "[deadpan setup, pleased mischievous amusement]" }, "A good meal and a little company can improve things considerably.", "Have I told you that one already? I thought the grin looked familiar." },
+            befriended = { { "I'd enjoy a walk with you. It's pleasant to have a friend who'll still invite me along after hearing the jokes. Tell me your news as we go. I promise I can listen without turning every sentence into a punchline.", tone = "[sincere friendly pleasure, gently self-deprecating warmth]" } },
+            poke = { "Yes? I'm listening.", "Another joke? You're a brave one." },
+            rest = { { "A good place to sit and catch our breath. Tell me how your day has been. I'll save the next joke for later. Sometimes a friend needs a willing ear much more than another reason to groan.", tone = "[relaxed attentive kindness, quiet humor]" } },
+            loot = { "Something worth carrying? Pack it so it survives the journey." },
+            bagsFull = { "That's a full load. Leave yourself a little room for provisions." },
+            quest = { "One more task finished. I hope you get a decent meal between errands." },
+            zone = { "A new place. Perhaps there's someone here with better jokes than mine." },
+            levelUp = { "Well done! I'll try to find a joke worthy of the occasion." },
+            hearth = { "Home again. Put the load down and give yourself a moment." },
+        },
+    },
+    [777] = {
+        quote = "Tell me what you need, and I'll see what I have. Tell me an interesting shop name, and you may find me writing it down after you've gone.",
+        likes = { "A customer finding the right tool", "A familiar traveler returning safely", "A shop sign with an unexpected name" },
+        dislikes = { "A useful purchase left behind", "Supplies packed where nobody can find them", "A promising name slipping her mind" },
+        gossip = "Amy keeps useful goods ready for travelers. Some of the shop names she dreams up suggest rather less practical businesses.",
+        bio = "Amy Davenport is a tradeswoman in Lakeshire, Redridge Mountains. Tools, thread, vials and other trade goods fill her stock. People preparing for a job or a journey can stop here for the ordinary things that are easy to overlook.",
+        backstory = "An unusual shop name in a traveler's story caught her fancy. She began imagining signs of her own, pairing ordinary objects with unlikely words. It became a small pleasure between the practical questions that fill a working day.",
+        secret = "Her favorite imagined sign is The Slightly Lost Button. She has no idea what the shop would sell. Deciding that seems much less entertaining than picturing its front door.",
+        bestFriend = "Tell me what sort of place you'd put behind that sign. I've been wondering, and I'd much rather work it out with you.",
+        favorite = { emote = "NOD", hint = "An interested response can encourage her to share an idea she has been turning over." },
+        lines = {
+            greet = { { "Good to see you. What are you working on today? We can think through what you'll need before you leave. And if you've passed a shop with a particularly good name, I'd like to hear about that too.", tone = "[capable welcoming warmth, curious playful interest]" }, "Hello again. Tell me what you need, or simply how you've been." },
+            idle = { { "The Slightly Lost Button. That's my favorite name for an imaginary shop. I haven't decided what it sells. I keep picturing the sign instead. Perhaps that's a fine way to enjoy a business I never have to stock.", tone = "[thoughtful whimsy, quietly delighted amusement]" }, "An unexpected name can make an ordinary doorway interesting.", "Have you checked for the little things before setting off?" },
+            befriended = { { "I'd be glad to come with you. Tell me about the places you've seen. I enjoy hearing what a traveler notices, even when it's only an odd little sign above a door. Especially then, sometimes.", tone = "[sincere friendly warmth, eager curiosity]" } },
+            poke = { "Yes? Have you remembered something?", "What have you been thinking about?" },
+            zone = { { "Somewhere different. Let's take a look around before we hurry on. I wonder what people call their little shops here. A good name can stay with me long after I've forgotten what I went in to buy.", tone = "[bright observant curiosity, gently amused warmth]" } },
+            loot = { "A useful thing to have. Let's make sure you can find it again." },
+            bagsFull = { "A full bag can hide something you need. Take a moment to sort it." },
+            quest = { "That's your errand done. Did you see anything interesting along the way?" },
+            learned = { "A new skill to try. Have you thought about the tools you'll need?" },
+            rest = { "A quiet moment. Tell me something you noticed today." },
+            hearth = { "Back again, and safely. I'm pleased to see it." },
+        },
+    },
     -- Innkeeper Brianna 6727: human woman, Lakeshire innkeeper, display 5407.
     -- Barkeep Daniels 346: human man, same inn, display 3370, Dry Times 116.
     -- Current Forever identities/services/quest; Classic and installed dialogue.
