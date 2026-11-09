@@ -559,6 +559,46 @@
     "text": "Hold on to your hat! Yes, even the expensive one. Especially the expensive one!",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1314_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1314",
+    "spoken": "[sincere friendly pleasure, gently teasing warmth] I'd be happy to come along. It'll be pleasant to stretch my legs and enjoy your company. If we stop for a rest, you can tell me whether you think juggling is mainly practice or a willingness to look foolish.",
+    "text": "I'd be happy to come along. It'll be pleasant to stretch my legs and enjoy your company. If we stop for a rest, you can tell me whether you think juggling is mainly practice or a willingness to look foolish.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1314_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1314",
+    "spoken": "[easy practical warmth, dry good-humored amusement] Good to see you. How has your gear been treating you? We can talk about the fit, or simply have a pleasant visit. I promise not to demonstrate my juggling unless you ask. Probably.",
+    "text": "Good to see you. How has your gear been treating you? We can talk about the fit, or simply have a pleasant visit. I promise not to demonstrate my juggling unless you ask. Probably.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1314_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1314",
+    "spoken": "[relaxed self-deprecating humor, warm amused recollection] Two rolled socks are quite manageable. Add a third, and suddenly I've got more hands to wish for. Last time it landed on my head. I laughed and dropped the others. A very memorable performance.",
+    "text": "Two rolled socks are quite manageable. Add a third, and suddenly I've got more hands to wish for. Last time it landed on my head. I laughed and dropped the others. A very memorable performance.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1314_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1314",
+    "spoken": "[playful inviting amusement, relaxed cheerful confidence] A good place to sit. Shall I try the trick? No, you needn't look solemn about it. If everything falls down, we can have a laugh and call that the entertainment. That part usually goes quite well.",
+    "text": "A good place to sit. Shall I try the trick? No, you needn't look solemn about it. If everything falls down, we can have a laugh and call that the entertainment. That part usually goes quite well.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1315_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -877,6 +917,46 @@
     "source": "lore:1341",
     "spoken": "[relaxed warmth, playful interest, inviting] A seat sounds good. If we have room for the little board, you can have the first move. Otherwise, tell me what you would try. I am curious.",
     "text": "A seat sounds good. If we have room for the little board, you can have the first move. Otherwise, tell me what you would try. I am curious.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1346_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1346",
+    "spoken": "[warm pleased enthusiasm, playful creative anticipation] I'd be pleased to join you. A walk may supply a new idea, and I enjoy seeing what catches your eye. If I begin describing an impossible hat, you have my permission to suggest an even more impossible one.",
+    "text": "I'd be pleased to join you. A walk may supply a new idea, and I enjoy seeing what catches your eye. If I begin describing an impossible hat, you have my permission to suggest an even more impossible one.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1346_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1346",
+    "spoken": "[confident craftsman's warmth, theatrical amused pride] Welcome back! Have you brought work to discuss, or have you time to look at something ridiculous? I've added another flourish to a hat design. It is becoming quite magnificent, provided nobody actually tries to wear it.",
+    "text": "Welcome back! Have you brought work to discuss, or have you time to look at something ridiculous? I've added another flourish to a hat design. It is becoming quite magnificent, provided nobody actually tries to wear it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1346_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1346",
+    "spoken": "[relaxed creative delight, amused confiding warmth] The hat on this page will never be made. It wouldn't fit through the door, for one thing. But every now and then I add another flourish. An idea needn't become an order to give a person pleasure.",
+    "text": "The hat on this page will never be made. It wouldn't fit through the door, for one thing. But every now and then I add another flourish. An idea needn't become an order to give a person pleasure.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1346_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:1346",
+    "spoken": "[assured patient instruction, encouraging professional warmth] Good! Give the new method a little practice before you judge it. The first attempt tells you where the work begins. Bring your questions as well as your successes; both can make a useful lesson.",
+    "text": "Good! Give the new method a little practice before you judge it. The first attempt tells you where the work begins. Bring your questions as well as your successes; both can make a useful lesson.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore1351_bagsFull_1.ogg": {

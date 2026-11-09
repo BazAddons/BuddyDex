@@ -41,6 +41,84 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Duncan's Textiles, Mage Quarter: Georgio Bolero 1346 (tailor, male),
+    -- Alexandra Bolero 1347 (supplies, female), Duncan Cullen 1314 (armor, male).
+    -- Current Forever human/friendly identities and displays 1502/1497/1488.
+    -- Local gossip verifies established trade; no direct quest chain found.
+    -- Impossible hat / color guesses / sock juggling are original BuddyDex.
+    -- Research: docs/research/duncans-textiles.md.
+    [1346] = {
+        quote = "A fine idea still needs a sound seam. Inspiration is welcome here, but it must eventually fit through the door.",
+        likes = { "A student with patience and promise", "A garment that sits properly", "An extravagant idea on spare paper" },
+        dislikes = { "Hurrying past the basic stitches", "Good cloth wasted on poor preparation", "A splendid hat meeting a low doorway" },
+        gossip = "Georgio has sketched a hat so magnificent that getting it through the shop door would require a second design entirely.",
+        bio = "Georgio Bolero practices and teaches tailoring at Duncan's Textiles in Stormwind's Mage Quarter. He speaks confidently of his skill and the shop's busy trade, while directing those seeking greater knowledge toward Theramore.",
+        backstory = "An idle hat sketch acquired another flourish, then another. By the time he considered the doorway, the design had become delightfully impractical. He kept it as a place to try ideas that need never become an order.",
+        secret = "He sometimes adds another impossible flourish when nobody is waiting for a lesson. The hat will never be made. That is part of why he enjoys working on it.",
+        bestFriend = "Come and see the latest addition. Yes, it is absurd. I thought you might enjoy helping me make it even worse.",
+        favorite = { emote = "GRIN", hint = "Show him you can appreciate an idea that exists purely for its own amusement." },
+        lines = {
+            greet = { { "Welcome back! Have you brought work to discuss, or have you time to look at something ridiculous? I've added another flourish to a hat design. It is becoming quite magnificent, provided nobody actually tries to wear it.", tone = "[confident craftsman's warmth, theatrical amused pride]" }, "Good to see you. Tell me what you have been making." },
+            idle = { { "The hat on this page will never be made. It wouldn't fit through the door, for one thing. But every now and then I add another flourish. An idea needn't become an order to give a person pleasure.", tone = "[relaxed creative delight, amused confiding warmth]" }, "A sound stitch gives a splendid idea somewhere to stand.", "Perhaps one more feather. On the drawing, of course." },
+            befriended = { { "I'd be pleased to join you. A walk may supply a new idea, and I enjoy seeing what catches your eye. If I begin describing an impossible hat, you have my permission to suggest an even more impossible one.", tone = "[warm pleased enthusiasm, playful creative anticipation]" } },
+            poke = { "Yes? What have you thought of?", "I'm listening. I was only making the doorway problem considerably worse." },
+            learned = { { "Good! Give the new method a little practice before you judge it. The first attempt tells you where the work begins. Bring your questions as well as your successes; both can make a useful lesson.", tone = "[assured patient instruction, encouraging professional warmth]" } },
+            loot = { "An interesting texture. May I have a closer look?" },
+            rest = { "A pause can improve a design. Or make it more extravagant." },
+            quest = { "Finished work is a pleasure. What did you learn in the making?" },
+            zone = { "There is always something new to notice if you look carefully." },
+            levelUp = { "Congratulations! Care and practice have left their mark." },
+            hearth = { "Home again. I wonder whether the hat needs another addition." },
+        },
+    },
+    [1347] = {
+        quote = "What color did you have in mind? Tell me before I guess. My guesses are becoming quite impressively wrong.",
+        likes = { "A customer with an unexpected idea", "The right thread for the work", "A color combination she hadn't imagined" },
+        dislikes = { "A good shade dismissed unheard", "Thread chosen in too much of a hurry", "Dye spilled across a tidy counter" },
+        gossip = "Alexandra sometimes guesses which color a customer will ask for. Being wrong appears to interest her more than winning.",
+        bio = "Alexandra Bolero sells tailoring supplies at Duncan's Textiles in Stormwind's Mage Quarter. Thread, dyes and patterns support the work of visiting tailors. Her sales talk proudly credits the city's own crafters for good merchandise.",
+        backstory = "A customer chose a color she had never expected. She pictured the finished garment and found herself liking the idea. Guessing the next visitor's choice became a private game, with the surprises often proving the best part.",
+        secret = "She remembers her wrong guesses more clearly than the right ones. They leave her with a new combination to imagine after the customer has gone on with their day.",
+        bestFriend = "Tell me what you would choose. I won't guess this time. I'd rather hear the idea exactly as you see it.",
+        favorite = { emote = "WINK", hint = "A little shared amusement can acknowledge the guessing game behind her helpful questions." },
+        lines = {
+            greet = { { "Hello again! What are you planning to make? I was about to guess the color, but I'd rather let you surprise me. People have much more interesting ideas than my first guess usually gives them credit for.", tone = "[bright attentive friendliness, amused curiosity, welcoming]" }, "Come and tell me what you're working on. We can think about the supplies together." },
+            idle = { { "I sometimes guess what color the next customer will ask for. I'm often wrong. But then I imagine the garment they described, and there's a new combination I might never have thought of by myself.", tone = "[confiding playful amusement, thoughtful creative delight]" }, "That shade might work better than I first imagined.", "I wonder what the next person will be making." },
+            befriended = { { "I'd enjoy coming along. You can point out the things you like, and I'll try to keep my guesses to myself until you've had your say. It is much more interesting to find out how someone else sees the world.", tone = "[sincere warm interest, gently playful anticipation]" } },
+            poke = { "Yes? Have you settled on a color?", "Go on. I was imagining how that combination would look." },
+            loot = { { "Let me see! Oh, that color is lovely beside the one you're wearing. Would you have put them together? I don't think I would have guessed it, but now I want to remember how they look.", tone = "[bright appreciative discovery, curious enthusiasm]" } },
+            learned = { "A new method gives you more choices. What will you try first?" },
+            quest = { "Finished? I'd like to hear whether it came out as you imagined." },
+            rest = { "A pleasant place to sit and look around. There is plenty to notice." },
+            zone = { "The colors here give me quite a different idea." },
+            levelUp = { "Well done! You have given yourself something to be pleased about." },
+            hearth = { "Back again. I wonder what everyone's been making while we were away." },
+        },
+    },
+    [1314] = {
+        quote = "Good clothes should let you get on with your day. If you're thinking about a pinching seam every other step, something wants attention.",
+        likes = { "A comfortable fit", "A repair made before trouble spreads", "A harmless trick finally coming right" },
+        dislikes = { "Damage left until it gets worse", "Fine looks excusing a poor fit", "The third sock landing on his head" },
+        gossip = "Duncan can discuss armor with a very serious face. Ask about juggling, though, and he may look rather less composed.",
+        bio = "Duncan Cullen sells light armor and offers repairs at Duncan's Textiles in Stormwind's Mage Quarter. His stock includes cloth and leather goods, while Georgio and Alexandra Bolero provide tailoring knowledge and supplies nearby.",
+        backstory = "Two rolled socks were easy enough to toss from hand to hand. Adding a third proved much less cooperative. He kept trying in spare moments, enjoying the small challenge even when the result was more catching than juggling.",
+        secret = "The third sock once landed squarely on his head. He laughed so hard he dropped the other two. He still considers that a rather successful attempt at enjoying himself.",
+        bestFriend = "Will you watch this attempt? If the third one lands on my head again, you may applaud. It took practice to miss that precisely.",
+        favorite = { emote = "CLAP", hint = "An appreciative audience can make even a very untidy little performance worthwhile." },
+        lines = {
+            greet = { { "Good to see you. How has your gear been treating you? We can talk about the fit, or simply have a pleasant visit. I promise not to demonstrate my juggling unless you ask. Probably.", tone = "[easy practical warmth, dry good-humored amusement]" }, "Come in and take your time. Tell me what needs attention." },
+            idle = { { "Two rolled socks are quite manageable. Add a third, and suddenly I've got more hands to wish for. Last time it landed on my head. I laughed and dropped the others. A very memorable performance.", tone = "[relaxed self-deprecating humor, warm amused recollection]" }, "A small repair is much pleasanter than a large avoidable one.", "I think the third one is leaving my hand too soon." },
+            befriended = { { "I'd be happy to come along. It'll be pleasant to stretch my legs and enjoy your company. If we stop for a rest, you can tell me whether you think juggling is mainly practice or a willingness to look foolish.", tone = "[sincere friendly pleasure, gently teasing warmth]" } },
+            poke = { "Yes? What can I do for you?", "I'm here. I was only reconsidering the third sock." },
+            rest = { { "A good place to sit. Shall I try the trick? No, you needn't look solemn about it. If everything falls down, we can have a laugh and call that the entertainment. That part usually goes quite well.", tone = "[playful inviting amusement, relaxed cheerful confidence]" } },
+            loot = { "Have a look at how it's put together. The finish can tell you quite a bit." },
+            gear = { "How does that sit when you move? Comfort is worth checking." },
+            quest = { "Finished your work? I hope you've left some time to enjoy the afternoon." },
+            learned = { "Something new to practice. Better if you can enjoy the awkward attempts too." },
+            levelUp = { "Well done! That's worth a little appreciation." },
+            hearth = { "Home again. A comfortable finish to the outing." },
+        },
+    },
     -- Lucan Cordell <Expert Enchanter> and Jessara Cordell <Enchanting Supplies>,
     -- Canals, Stormwind. Adult humans; displays 1492 male / 1481 female.
     -- Current trainer/vendor data and installed Classic gossip corroborate roles.

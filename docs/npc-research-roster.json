@@ -19,5 +19,26 @@
     "zone": "Stormwind City",
     "source": "Reviewed external candidate; current Forever node, quest and installed gossip",
     "research_notes": "docs/research/canals-enchanting-and-fishing.md"
+  },
+  {
+    "npc_id": 1346,
+    "name": "Georgio Bolero",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node and installed gossip",
+    "research_notes": "docs/research/duncans-textiles.md"
+  },
+  {
+    "npc_id": 1347,
+    "name": "Alexandra Bolero",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node and installed gossip",
+    "research_notes": "docs/research/duncans-textiles.md"
+  },
+  {
+    "npc_id": 1314,
+    "name": "Duncan Cullen",
+    "zone": "Stormwind City",
+    "source": "Reviewed external candidate; current Forever node and installed gossip",
+    "research_notes": "docs/research/duncans-textiles.md"
   }
 ]
