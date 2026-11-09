@@ -80,15 +80,22 @@ function Mixin(obj, ...)
 end
 function CreateFromMixins(...) return Mixin({}, ...) end
 function CreateColor(r, g, b, a) return { r = r, g = g, b = b, a = a } end
-function hooksecurefunc(name, fn)
-    local original = _G[name]
-    _G[name] = function(...)
+function hooksecurefunc(owner, name, fn)
+    if type(owner) ~= "table" then owner, name, fn = _G, owner, name end
+    local original = owner[name]
+    owner[name] = function(...)
         local results = { original(...) }
         fn(...)
         return unpack(results)
     end
 end
-function DoEmote(token, target) MOCK.lastEmote = token end
+C_ChatInfo = { PerformEmote = function(token, target)
+    MOCK.lastEmote, MOCK.lastEmoteTarget = token, target
+    return true
+end }
+function DoEmote(token, target)
+    return C_ChatInfo.PerformEmote(token, target)
+end
 
 -- Timers ---------------------------------------------------------------------------
 
@@ -587,6 +594,16 @@ function MOCK.ClickEverything(desc)
     end
 end
 MenuUtil = {}
+Menu = { ModifyMenu = function(tag, callback)
+    MOCK.menuModifiers = MOCK.menuModifiers or {}
+    MOCK.menuModifiers[tag] = callback
+end }
+function MOCK.UnitMenu(tag, unit)
+    local root = NewDescription(nil, "root")
+    local callback = MOCK.menuModifiers and MOCK.menuModifiers[tag]
+    if callback then callback(UIParent, root, { unit = unit }) end
+    return root
+end
 function MenuUtil.CreateContextMenu(owner, generator)
     MOCK.lastContextMenu = MOCK.RunMenu(generator, owner)
 end

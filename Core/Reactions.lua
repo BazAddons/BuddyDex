@@ -489,15 +489,7 @@ local function OnEmote(token, target)
     companion.Play(mirror[2], mirror[3])
 end
 
-if hooksecurefunc and DoEmote then
-    hooksecurefunc("DoEmote", function(...)
-        local ok, err = pcall(OnEmote, ...)
-        if not ok then
-            local handler = geterrorhandler and geterrorhandler()
-            if handler then handler(err) end
-        end
-    end)
-end
+Util.HookEmotes(OnEmote)
 
 -- Friendships ---------------------------------------------------------------------------
 

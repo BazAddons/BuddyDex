@@ -143,6 +143,16 @@ local RUDE_EMOTES = {
     PUNCH = true, THREATEN = true, TAUNT = true, GLARE = true, SCOFF = true, RASP = true,
 }
 
+-- The NPC menu uses the same whitelist as friendship, including all accepted
+-- friendly choices. No rude emote is offered as a friendship action.
+local EMOTE_LABELS = { HIGHFIVE = "High Five", GOLFCLAP = "Golf Clap" }
+Friendship.EMOTES = {}
+for token in pairs(FRIENDLY_EMOTES) do
+    local label = EMOTE_LABELS[token] or (token:sub(1, 1) .. token:sub(2):lower())
+    Friendship.EMOTES[#Friendship.EMOTES + 1] = { token = token, label = label .. " (/" .. token:lower() .. ")" }
+end
+table.sort(Friendship.EMOTES, function(a, b) return a.label < b.label end)
+
 local function Lower(v)
     v = Util.Plain(v)
     return type(v) == "string" and v:lower() or ""
@@ -307,6 +317,15 @@ local function Snapshot(unit)
     }
 end
 
+-- Read-only eligibility for the unit-frame menu; never adds a friend.
+function Friendship.EligibleNpcID(unit)
+    local id = FriendlyNpc(unit)
+    if not id then return nil end
+    local entry = Snapshot(unit)
+    if entry and Friendship.IsSomeone(entry.name, id) then return id end
+    return nil
+end
+
 -- Gaining ------------------------------------------------------------------------------
 
 local function Friends()
@@ -458,9 +477,8 @@ local function OnInteraction(_, event)
     end
 end
 
--- Emotes: DoEmote(token, target) runs for /wave and friends and for the
--- emote menu. A post-hook only reads what happened. The emote's target is
--- the named unit or, without one, the player's target.
+-- Chat uses C_ChatInfo.PerformEmote; legacy macros may use DoEmote. Both
+-- post-hooks observe the action without changing Blizzard's chat functions.
 local function OnEmote(token, target)
     token = Util.Plain(token)
     if type(token) ~= "string" then return end
@@ -470,8 +488,17 @@ local function OnEmote(token, target)
     if type(target) == "string" and target ~= "" then
         -- An explicit recipient that isn't available must not silently
         -- credit whichever other NPC the player happens to have targeted.
-        if not Util.Read(UnitExists, target) then return end
-        unit = target
+        if Util.Read(UnitExists, target) then
+            unit = target
+        else
+            -- The API takes a target name as well as unit tokens. Match only
+            -- a currently available unit, never an unrelated selected NPC.
+            unit = nil
+            for _, candidate in ipairs({ "target", "focus", "mouseover", "npc" }) do
+                if Text(UnitName, candidate) == target then unit = candidate break end
+            end
+            if not unit then return end
+        end
     end
     local friends = Friends()
     if not friends then return end
@@ -507,15 +534,7 @@ local frame = CreateFrame("Frame")
 for event in pairs(INTERACTIONS) do frame:RegisterEvent(event) end
 frame:SetScript("OnEvent", OnInteraction)
 
-if hooksecurefunc and DoEmote then
-    hooksecurefunc("DoEmote", function(token, target)
-        local ok, err = pcall(OnEmote, token, target)
-        if not ok then
-            local handler = geterrorhandler and geterrorhandler()
-            if handler then handler(err) end
-        end
-    end)
-end
+Util.HookEmotes(OnEmote)
 
 -- Friends made before the one-of-many rule who break it leave the Dex at
 -- login, with a word in chat.

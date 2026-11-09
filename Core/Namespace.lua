@@ -50,6 +50,23 @@ function Util.Read(fn, ...)
     return Plain(a), Plain(b)
 end
 
+-- Forever's chat box calls PerformEmote directly. Keep the legacy hook for
+-- macros/addons too; consumers' daily caps/cooldowns make forwarding harmless.
+function Util.HookEmotes(callback)
+    if type(hooksecurefunc) ~= "function" then return end
+    local function After(...)
+        local ok, err = pcall(callback, ...)
+        if not ok then
+            local handler = geterrorhandler and geterrorhandler()
+            if handler then handler(err) end
+        end
+    end
+    if C_ChatInfo and type(C_ChatInfo.PerformEmote) == "function" then
+        hooksecurefunc(C_ChatInfo, "PerformEmote", After)
+    end
+    if type(DoEmote) == "function" then hooksecurefunc("DoEmote", After) end
+end
+
 -- Creature GUIDs read "Creature-0-<server>-<instance>-<zone>-<npcID>-<spawn>",
 -- and vehicles share the layout. Players, pets and objects carry no NPC ID.
 -- Plain string matching keeps this cheap for the scout and free of strsplit.

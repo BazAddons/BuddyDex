@@ -81,6 +81,8 @@ function MOCK.LoadAddonFile(src, chunkname, addonName, ns)
                 return setmetatable({}, { __index = function(_, field)
                     MOCK.namespaced[k .. "." .. field] = true
                     return v[field]
+                end, __newindex = function(_, field, value)
+                    v[field] = value
                 end })
             end
             return v
@@ -247,6 +249,78 @@ step("the favorite emote, and a rude one", function()
     assert(BuddyDexDB.friends[8720].favoriteFound, "favorite not marked found")
     DoEmote("RUDE")
     assert(Points(8720) == 225, "rude did not cost: " .. tostring(Points(8720)))
+end)
+
+step("Forever's chat emote API introduces Jenn without the legacy function", function()
+    MOCK.units.npc = nil
+    MOCK.units.target = { guid = "Creature-0-1-2-3-3626-0000AB", npcID = 3626,
+        name = "Jenn Langston", type = "Humanoid", typeID = 7, class = "normal",
+        sex = 3, reaction = 5, faction = "Alliance" }
+    -- ChatFrameEditBox passes HELLO and an empty message for /hi.
+    C_ChatInfo.PerformEmote("HELLO", "")
+    assert(Points(3626) == 25, "chat /hi did not introduce Jenn")
+    C_ChatInfo.PerformEmote("KISS", "")
+    C_ChatInfo.PerformEmote("BOW", "")
+    C_ChatInfo.PerformEmote("HUG", "")
+    assert(Points(3626) == 25, "chat emotes bypassed the shared daily cap")
+    C_ChatInfo.PerformEmote("WAVE", "")
+    assert(Points(3626) == 175, "chat favorite was not recognized")
+    DoEmote("WAVE")
+    assert(Points(3626) == 175, "legacy forwarding counted twice")
+    ns.Database.Remove(3626)
+    MOCK.units.target = GUARD
+end)
+
+step("NPC unit menus offer real emotes and retain their original recipient", function()
+    local jenn = { guid = "Creature-0-1-2-3-3626-0000AB", npcID = 3626,
+        name = "Jenn Langston", type = "Humanoid", class = "normal", reaction = 5 }
+    MOCK.units.npc = nil
+    MOCK.units.target = jenn
+    local root = MOCK.UnitMenu("MENU_UNIT_TARGET", "target")
+    assert(not BuddyDexDB.friends[3626], "opening the menu befriended its NPC")
+    local submenu = root.children[2]
+    assert(submenu and submenu.text == "BuddyDex Emotes" and #submenu.children > 20,
+        "missing friendly emote submenu")
+    local hello, wave
+    for _, item in ipairs(submenu.children) do
+        if item.text == "Hello (/hello)" then hello = item end
+        if item.text == "Wave (/wave)" then wave = item end
+        assert(item.text ~= "Rude (/rude)", "a harmful emote was offered as friendship")
+    end
+    assert(hello and wave, "missing greeting choices")
+    hello.a()
+    assert(MOCK.lastEmote == "HELLO" and MOCK.lastEmoteTarget == jenn.name,
+        "the menu did not perform an emote at Jenn")
+    assert(Points(3626) == 25, "menu greeting did not introduce Jenn")
+    wave.a()
+    wave.a()
+    assert(Points(3626) == 175, "menu favorite/daily cap failed")
+    MOCK.units.target = GUARD_THOMAS
+    hello.a()
+    assert(not BuddyDexDB.friends[261] and Points(3626) == 175,
+        "a stale menu greeted another target")
+    ns.Database.Remove(3626)
+    MOCK.units.focus = jenn
+    MOCK.units.target = GUARD
+    local focusMenu = MOCK.UnitMenu("MENU_UNIT_TARGET", "focus")
+    for _, item in ipairs(focusMenu.children[2].children) do
+        if item.text == "Hello (/hello)" then item.a() end
+    end
+    assert(Points(3626) == 25 and not BuddyDexDB.friends[5595],
+        "focus menu credited the unrelated current target")
+    ns.Database.Remove(3626)
+    MOCK.units.focus = nil
+    for _, unit in ipairs({ GUARD, GRUNT, { name = "A Player", player = true, reaction = 5 } }) do
+        MOCK.units.target = unit
+        assert(#MOCK.UnitMenu("MENU_UNIT_TARGET", "target").children == 0,
+            "an ineligible unit received BuddyDex actions")
+    end
+    MOCK.units.target = jenn
+    MOCK.combat = true
+    local combatMenu = MOCK.UnitMenu("MENU_UNIT_TARGET", "target")
+    MOCK.combat = false
+    assert(#combatMenu.children == 0, "combat menu offered restricted friendship actions")
+    MOCK.units.target = GUARD
 end)
 
 step("emotes never befriend generic NPCs, even with authored lore", function()
@@ -1021,8 +1095,8 @@ step("flights, emotes at it, targeting a friend", function()
     FireAll("CHAT_MSG_LOOT", "Someone receives loot: |cffa335ee|Hitem:1::::::::|h[Thing]|h|r.", "Someone")
     assert(not Saying(), "talked about someone else's loot")
     MOCK.units.target = nil
-    DoEmote("WAVE")
-    assert(FromPile(Saying(), ns.Lines.waveBack) and Actor().__anim == 67, "didn't wave back")
+    C_ChatInfo.PerformEmote("WAVE", "")
+    assert(FromPile(Saying(), ns.Lines.waveBack) and Actor().__anim == 67, "didn't wave back to a chat emote")
     Quiet()
     MOCK.units.target = { guid = "Creature-0-1-2-3-523-0000AB", npcID = 523, name = "Thor", reaction = 5 }
     FireAll("PLAYER_TARGET_CHANGED")

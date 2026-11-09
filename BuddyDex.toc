@@ -31,4 +31,5 @@ UI\DexList.lua
 UI\DexDetail.lua
 UI\Pages.lua
 UI\DexFrame.lua
+UI\NpcMenu.lua
 Core\Commands.lua
