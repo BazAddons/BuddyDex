@@ -1,0 +1,26 @@
+# Klockmort Spannerspan and Master Mechanic Castpipe
+
+Researched November 8, 2026. Installed Scout: **6169 Klockmort Spannerspan**, level 43, and **7950 Master Mechanic Castpipe**, level 57, both male (sex 2), named Alliance Humanoids, reaction 5, no attackable flag, Tinker Town, Ironforge. Current local identity takes precedence over external databases that map Castpipe to the surrounding Dun Morogh world coordinates. Both qualify through normal quests/conversation or friendly emotes. Classic displays **4999** and **7041** route to the male gnome voice.
+
+Identity and Classic quest lists: [Klockmort](https://classicdb.ch/?npc=6169), [Castpipe](https://classicdb.ch/?npc=7950). Embedded start/end lists were inspected because the text-only pages omit them. [Klockmort biography](https://warcraft.wiki.gg/wiki/Klockmort_Spannerspan) identifies the blacksmith and Mathiel friendship; [Castpipe biography](https://warcraft.wiki.gg/wiki/Master_Mechanic_Castpipe) identifies the mechanic. Wiki pages blocked direct opening but indexed text was available. No new locally captured gossip or direct book/comic narrative was established. Targeted searches found an atlas index and a scholarly account of playing Data Rescue, neither of which adds personal canonical history.
+
+## Klockmort's Classic work
+
+Full descriptions, available progress and completion passages reviewed:
+
+- [Klockmort's Essentials 2925](https://classicdb.ch/?quest=2925) has Mathiel explicitly describe Klockmort as a friend and send help in his stead. [Essential Artificials 2924](https://classicdb.ch/?quest=2924) seeks twelve near-universal components left in Gnomeregan during the escape, stored in artificial extrapolators. Completion permits experiments to begin; it does not identify a completed invention.
+- [Klockmort Spannerspan 1704](https://classicdb.ch/?quest=1704) delivers Furen Longbeard's notes, prompting extravagant delight. [Iron Coral 1708](https://classicdb.ch/?quest=1708) seeks twenty loads of searing coral from south of Menethil for combining Furen's technique with Klockmort's. Its full text was retrieved directly after browser timeouts. [Klockmort's Creation 1709](https://classicdb.ch/?quest=1709) awards the armor and praises the process. Siege-engine resilience is Klockmort's exuberant boast, not a literal guarantee in this profile.
+- Prerequisite context: [The Rethban Gauntlet 1699](https://classicdb.ch/?quest=1699) is Yorus's timed trial. [The Shieldsmith 1702](https://classicdb.ch/?quest=1702) sends the successful warrior with a cask to Furen. [Fire Hardened Mail 1701](https://classicdb.ch/?quest=1701) gathers Furen's unusual materials before he shares his notes. Klockmort is not assigned the trial, shield, or another smith's armor work. Warrior restrictions are not assumed to hold for every Forever character.
+- [The Brassbolts Brothers 2769](https://classicdb.ch/?quest=2769) sends help to Wizzle's rocket-car experiments in the Shimmering Flats. [Gahz'rilla 2770](https://classicdb.ch/?quest=2770) requests an electrified scale for Wizzle to investigate. Neither the car nor the scale experiment belongs to Klockmort; no successful final racing result is invented.
+
+[Forever reference](https://db.icy-veins.com/wow-forever/npcs/6169) lists Essential Artificials and its referral; [Questie-derived Forever reference](https://wow4ever.quest/en/quests/klockmorts-essentials) corroborates the path. These references do not establish unchanged dialogue, rewards or restrictions in every current build. The profile uses Classic characterization with local identity and assumes no player completion.
+
+## Castpipe's Classic data mission
+
+[Gaxim's referral, Castpipe's Task 2931](https://classicdb.ch/?quest=2931) organizes a high-security recovery mission and explicitly says Castpipe is not a member of Gaxim's Enlightened Assembly. It does not prove membership, a formal rank over Gaxim, or kinship. [Data Rescue 2930](https://classicdb.ch/?quest=2930), read through description, progress and completion, establishes abandoned data and cards, sequential clearance through terminals A/B/C to D, and the prismatic card. Completion celebrates successful recovery without explaining the data's contents. Those contents remain unspecified. [Forever reference](https://wow4ever.quest/en/quests/castpipes-task) preserves the referral and follow-up; [Forever NPC reference](https://metaforge.app/wow-forever/database/npcs/master-mechanic-castpipe) also lists them while acknowledging VMaNGOS data. No retail reclamation outcome is imported.
+
+## Original character writing and voice
+
+Klockmort's rehearsed restrained thank-you, workshop gossip and preferences are original hooks anchored in his exuberant quest speech. Castpipe's copied crooked drawing, urgency labels, meticulous habits and quiet attachment to an ordinary keepsake are original. The unnamed friend is not assigned a canonical identity or family relationship. All quotes and companion dialogue are newly written; none reproduces game dialogue.
+
+Each profile has fifteen personal lines and four Eleven v4 clips in the established male gnome voice, with individual emotion direction. Automated layout, mapping, decode and playback checks are distinct from human listening and live visual review.

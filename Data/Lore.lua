@@ -42,6 +42,58 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Klockmort 6169 and Castpipe 7950: male gnomes in Tinker Town.
+    -- Blacksmith/researcher and mechanic/data recovery organizer. Classic
+    -- chains and modest original hooks: docs/research/klockmort-and-castpipe.md.
+    [6169] = {
+        quote = "A good idea is wonderful. A good idea shared with another smith? Now we can both make something astonishing!",
+        likes = { "A colleague sharing a new technique", "An experiment ready for its first test", "Someone joining in his excitement" },
+        dislikes = { "A breakthrough kept to oneself", "Missing the one essential component", "Being told to contain his enthusiasm" },
+        gossip = "When Klockmort gets a promising letter, the whole workshop knows before he's finished reading it. Sometimes the next workshop knows too.",
+        bio = "Klockmort Spannerspan is a blacksmith in Tinker Town. Furen Longbeard's techniques inspire his armor work, while Mathiel sends help for his Gnomeregan research. He also points adventurers toward the Brassbolts brothers' latest needs.",
+        backstory = "The exodus left useful components behind in Gnomeregan. Klockmort seeks essential artificials for new experiments. His eagerness for tougher materials goes hand in hand with his delight in another craftsperson's discoveries.",
+        secret = "He practices a short, dignified thank-you before someone brings him good news. It never survives the actual meeting. He has decided this is probably a good thing.",
+        bestFriend = "I had a very sensible speech prepared. Oh, never mind it! You're here, and I'm delighted, and you know the rest!",
+        favorite = { emote = "CHEER", hint = "When an idea excites him, he hopes someone else will share the feeling." },
+        lines = {
+            greet = { { "An outing! Splendid! I may have a thought or two along the way. Or twelve!", tone = "[buoyant, rapid enthusiasm, delighted]" }, "Tools packed, ideas plentiful! What shall we try first?" },
+            idle = { { "I meant to say thank you calmly. Then I saw what they'd brought me. Impossible!", tone = "[cheerfully self-aware, bubbling excitement]" }, "A clever technique travels farther when you tell another smith.", "The first test! That little moment before you find out! Wonderful!" },
+            befriended = { { "You listen when I get excited! And you come back for the next idea! What a splendid friend!", tone = "[effusive, warm, sincerely delighted]" } },
+            poke = { "Yes! What is it? Something marvelous?", "Oh! I thought of something! No, wait. That was you." },
+            learned = { { "Again, please! Slower this time! I want to understand every bit of it!", tone = "[eager, fascinated, inviting explanation]" } },
+            gear = { "A new piece! How does it move? How does it hold? So many questions!" },
+            loot = { "Perhaps that's the very thing someone needs for a breakthrough!" },
+            quest = { "Useful work! Someone can get started now!" },
+            levelUp = { "Better already! Imagine what you'll be able to do next!" },
+            combatEnd = { "All in one piece? Excellent! A result worth celebrating!" },
+            hearth = { "Back to the workshop! I must write that idea down before it escapes!" },
+        },
+    },
+    [7950] = {
+        quote = "A machine can be replaced. The information it held may be rather more difficult. Please keep the card dry.",
+        likes = { "A complete and legible record", "Security steps followed in order", "The person who remembers to say thanks" },
+        dislikes = { "Data dismissed as a few old numbers", "Punch cards used as coasters", "An urgent note without any details" },
+        gossip = "Castpipe marks so many papers urgent that his neighbors wonder how he chooses what to read first. He says the answer needs a diagram.",
+        bio = "Master Mechanic Castpipe organizes data recovery missions from Tinker Town. Gaxim Rustfizzle directs adventurers to him. Castpipe needs a prismatic punch card from Gnomeregan's secured terminals to retrieve information left behind.",
+        backstory = "Fleeing Gnomeregan meant leaving vital data and security cards inside. Reaching the highest-clearance terminal requires working through lower ones first. Castpipe's anxious instructions reflect how much he fears losing what remains.",
+        secret = "Among his careful records is a crooked drawing a friend made of him. It contains no useful measurements. He has made a second copy anyway, in case something happens to the first.",
+        bestFriend = "I remembered to make a copy of the drawing. I should also remember to tell you why I keep it. It makes me smile.",
+        favorite = { emote = "THANK", hint = "He knows how much a recovery depends on someone else's care and effort." },
+        lines = {
+            greet = { { "Ready. Have we packed everything? Check once more. Then we can be ready properly.", tone = "[brisk, meticulous, slightly anxious]" }, "A journey! There will be details worth recording. I brought paper." },
+            idle = { { "Yes, I copied the little drawing too. Some things matter without being useful.", tone = "[quietly fond, a little self-conscious]" }, "Write down the step you took, not merely that it didn't work.", "A label that says important is less helpful when every label says important." },
+            befriended = { { "You take care with things other people might overlook. I am very glad to have you here.", tone = "[earnest, warmly grateful, unhurried]" } },
+            poke = { "One moment. I nearly lost my place.", "Yes? Please begin with the relevant details." },
+            mail = { { "A message! Keep the envelope a moment. There may be a useful note on the back.", tone = "[alert curiosity, careful professional interest]" } },
+            quest = { "Recovered, delivered, accounted for. A very satisfying sequence." },
+            loot = { "Before we discard anything, let's establish what it is." },
+            bagsFull = { "Do not fold the cards to make room. We shall rearrange the bag." },
+            learned = { "A new method. Excellent. Explain it while I write." },
+            combatEnd = { "Everyone safe? Good. Now I can worry about the records." },
+            hearth = { "Home. A dry desk, a proper lamp, and time to put this in order." },
+        },
+    },
+
     -- Gnoarn 6569, male gnome, Tinker Town, Ironforge. Classic quest
     -- referrals 2039/2041/2927: Bingles, Shoni and Ozzie; radiation hair loss.
     -- Gearcutter 5175 is a male gnome engineering supplier in Tinker Town.

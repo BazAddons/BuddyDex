@@ -2189,6 +2189,46 @@
     "text": "Before you sell that, let me see how the pieces fit together.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore6169_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6169",
+    "spoken": "[effusive, warm, sincerely delighted] You listen when I get excited! And you come back for the next idea! What a splendid friend!",
+    "text": "You listen when I get excited! And you come back for the next idea! What a splendid friend!",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6169_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6169",
+    "spoken": "[buoyant, rapid enthusiasm, delighted] An outing! Splendid! I may have a thought or two along the way. Or twelve!",
+    "text": "An outing! Splendid! I may have a thought or two along the way. Or twelve!",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6169_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6169",
+    "spoken": "[cheerfully self-aware, bubbling excitement] I meant to say thank you calmly. Then I saw what they'd brought me. Impossible!",
+    "text": "I meant to say thank you calmly. Then I saw what they'd brought me. Impossible!",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore6169_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:6169",
+    "spoken": "[eager, fascinated, inviting explanation] Again, please! Slower this time! I want to understand every bit of it!",
+    "text": "Again, please! Slower this time! I want to understand every bit of it!",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore6569_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -2227,6 +2267,46 @@
     "source": "lore:6569",
     "spoken": "[trying to sound practical, a little anxious] Should we be late, please make certain someone knows where to look.",
     "text": "Should we be late, please make certain someone knows where to look.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7950_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7950",
+    "spoken": "[earnest, warmly grateful, unhurried] You take care with things other people might overlook. I am very glad to have you here.",
+    "text": "You take care with things other people might overlook. I am very glad to have you here.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7950_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7950",
+    "spoken": "[brisk, meticulous, slightly anxious] Ready. Have we packed everything? Check once more. Then we can be ready properly.",
+    "text": "Ready. Have we packed everything? Check once more. Then we can be ready properly.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7950_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7950",
+    "spoken": "[quietly fond, a little self-conscious] Yes, I copied the little drawing too. Some things matter without being useful.",
+    "text": "Yes, I copied the little drawing too. Some things matter without being useful.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore7950_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:7950",
+    "spoken": "[alert curiosity, careful professional interest] A message! Keep the envelope a moment. There may be a useful note on the back.",
+    "text": "A message! Keep the envelope a moment. There may be a useful note on the back.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
   "lowHealth_1.ogg": {
