@@ -910,6 +910,20 @@
       "zone": "Teldrassil",
       "route": "Female Orc/Night Elf service and travel coverage",
       "reason": "Exact current named adult female model, individual friendly icon and pin checked; Gorina current supplier title requires role verification, Nessa full travel-chain research pending. See docs/research/gorina-and-nessa-queue.md"
+    },
+    {
+      "npc_id": 9501,
+      "name": "Innkeeper Adegwa",
+      "zone": "Arathi Highlands",
+      "route": "Horde Tauren/Goblin regional inn coverage",
+      "reason": "Exact current named adult model, individual Horde-friendly icon, pin and runtime voice checked; Adegwa male, Zizplink female; full own service/quest/literary research pending. See docs/research/adegwa-and-zizplink-queue.md"
+    },
+    {
+      "npc_id": 255894,
+      "name": "Innkeeper Zizplink",
+      "zone": "Riverglades",
+      "route": "Horde Tauren/Goblin regional inn coverage",
+      "reason": "Exact current named adult model, individual Horde-friendly icon, pin and runtime voice checked; Adegwa male, Zizplink female; full own service/quest/literary research pending. See docs/research/adegwa-and-zizplink-queue.md"
     }
   ]
 }

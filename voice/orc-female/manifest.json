@@ -359,6 +359,46 @@
     "text": "Give yourself a moment with what you have learned. There will be another question soon enough. You need not rush past this one just to prove you are ready.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3358_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:3358",
+    "spoken": "[practical] [gravelly] [firm] Before you leave anything behind, think about what you will need for the next stretch of work. Preparation is easier here than halfway through a long journey. I cannot decide for you which treasure deserves the last space, but I can remind you that forgotten supplies make a very dull adventure.",
+    "text": "Before you leave anything behind, think about what you will need for the next stretch of work. Preparation is easier here than halfway through a long journey. I cannot decide for you which treasure deserves the last space, but I can remind you that forgotten supplies make a very dull adventure.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3358_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3358",
+    "spoken": "[warm] [gravelly] [sincere] You keep coming back with more than a request for supplies. I like hearing what you have been doing. Come along, friend. Let us see what the road has waiting. When we return, you may walk straight across the clean floor. I would rather see you than preserve it.",
+    "text": "You keep coming back with more than a request for supplies. I like hearing what you have been doing. Come along, friend. Let us see what the road has waiting. When we return, you may walk straight across the clean floor. I would rather see you than preserve it.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3358_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3358",
+    "spoken": "[welcoming] [gravelly] [dryly amused] There you are. Come through, and tell me what you need for the work ahead. Yes, I have just swept. No, you do not have to remain outside admiring it. A clean threshold is pleasant, but a customer standing beyond it is taking the victory rather too seriously.",
+    "text": "There you are. Come through, and tell me what you need for the work ahead. Yes, I have just swept. No, you do not have to remain outside admiring it. A clean threshold is pleasant, but a customer standing beyond it is taking the victory rather too seriously.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3358_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3358",
+    "spoken": "[conversational] [gravelly] [wry] I once meant to finish sweeping before another pair of boots crossed the floor. Orgrimmar disagreed. These days I enjoy the clean patch while it lasts. Then someone arrives, the dust returns, and there is a person to talk to. The broom can wait until they have finished.",
+    "text": "I once meant to finish sweeping before another pair of boots crossed the floor. Orgrimmar disagreed. These days I enjoy the clean patch while it lasts. Then someone arrives, the dust returns, and there is a person to talk to. The broom can wait until they have finished.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore4049_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

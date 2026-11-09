@@ -1,4 +1,44 @@
 {
+  "lore10118_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:10118",
+    "spoken": "[warm] [sincere] You have brought me questions, news, and company I have come to value. Come along, friend. I would like to see what catches your attention beyond the shore. You need not return with an extraordinary tale every time. I enjoy hearing about an ordinary day when it has you in it.",
+    "text": "You have brought me questions, news, and company I have come to value. Come along, friend. I would like to see what catches your attention beyond the shore. You need not return with an extraordinary tale every time. I enjoy hearing about an ordinary day when it has you in it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore10118_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:10118",
+    "spoken": "[warm] [curious] [gently amused] Welcome back. Have you brought news from the mainland, or a story about your latest catch? I would like to hear either. If the fish was larger than your boat, I may ask a question about the boat. I shall try to let you reach the exciting part first.",
+    "text": "Welcome back. Have you brought news from the mainland, or a story about your latest catch? I would like to hear either. If the fish was larger than your boat, I may ask a question about the boat. I shall try to let you reach the exciting part first.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore10118_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:10118",
+    "spoken": "[thoughtful] [wry] A fisher once held both hands apart to show me the size of a catch. I asked how wide the measure had been. Everyone laughed. It seems there is a moment in a fishing story when a useful question becomes an interruption. I am learning to recognize it.",
+    "text": "A fisher once held both hands apart to show me the size of a catch. I asked how wide the measure had been. Everyone laughed. It seems there is a moment in a fishing story when a useful question becomes an interruption. I am learning to recognize it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore10118_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:10118",
+    "spoken": "[measured] [curious] The bones and scales were sent to Laird so we could compare our catch with the mainland's. A useful answer can leave a larger question waiting. We know the fish differ. We still have reason to ask why. I would rather keep asking than turn a rumor into a certainty.",
+    "text": "The bones and scales were sent to Laird so we could compare our catch with the mainland's. A useful answer can leave a larger question waiting. We know the fish differ. We still have reason to ask why. I would rather keep asking than turn a rumor into a certainty.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore2083_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

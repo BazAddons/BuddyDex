@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gorina <Mining Supplier>, Valley of Honor, Orgrimmar, 3358/1380.
+    -- Adult female Orc, current Horde-friendly. Supplies title/current pin;
+    -- Classic four-item stock, own current relation coverage empty.
+    -- No training or personal quest inferred. Her contest with dust is ours.
+    -- Research: docs/research/orgrimmar-dust-and-ruttheran-fish-stories.md.
+    [3358] = {
+        quote = "A clean threshold. A fine sight. Now come through it before I start hoping it stays that way.",
+        likes = { "Supplies checked before a long trip", "A freshly swept threshold", "Customers returning with useful finds" },
+        dislikes = { "Dust finding its way into lunch", "A tool forgotten until the work begins", "Someone calling preparation wasted time" },
+        gossip = "Gorina wages a daily contest against dust. She admires a clean threshold, then welcomes the next customer straight across it.",
+        bio = "Gorina supplies miners in Orgrimmar's Valley of Honor. She values the ordinary preparation that lets someone get on with their work. Around the supplies, she keeps a small patch of floor in better order than the dust would prefer.",
+        backstory = "Gorina once decided she would finish sweeping before another pair of boots crossed the floor. The city had other plans. She still enjoys the moment everything looks tidy, though she has stopped expecting it to last through a busy day.",
+        secret = "The first dusty footprints after sweeping please her almost as much as the clean floor. They mean someone has come in. She would rather have company than an undefeated broom.",
+        bestFriend = "Come in, dust and all. I can sweep again. I cannot make a good friend appear just by keeping the threshold clear.",
+        favorite = { emote = "WAVE", hint = "Welcomes a familiar visitor announcing their arrival before worrying about the state of their boots." },
+        lines = {
+            greet = { { "There you are. Come through, and tell me what you need for the work ahead. Yes, I have just swept. No, you do not have to remain outside admiring it. A clean threshold is pleasant, but a customer standing beyond it is taking the victory rather too seriously.", tone = "[welcoming] [gravelly] [dryly amused]" },
+                "Back with a useful find, or here to remember what you forgot before leaving?" },
+            idle = { { "I once meant to finish sweeping before another pair of boots crossed the floor. Orgrimmar disagreed. These days I enjoy the clean patch while it lasts. Then someone arrives, the dust returns, and there is a person to talk to. The broom can wait until they have finished.", tone = "[conversational] [gravelly] [wry]" },
+                "The dust has made an ambitious advance. I shall answer it after lunch.",
+                "Remembering your supplies before you leave is less impressive than a tale of hardship. Usually more useful, too." },
+            befriended = { { "You keep coming back with more than a request for supplies. I like hearing what you have been doing. Come along, friend. Let us see what the road has waiting. When we return, you may walk straight across the clean floor. I would rather see you than preserve it.", tone = "[warm] [gravelly] [sincere]" } },
+            poke = { "Yes? I was allowing the dust a moment of confidence.", "I am listening. The floor will still be there afterward." },
+            bagsFull = { { "Before you leave anything behind, think about what you will need for the next stretch of work. Preparation is easier here than halfway through a long journey. I cannot decide for you which treasure deserves the last space, but I can remind you that forgotten supplies make a very dull adventure.", tone = "[practical] [gravelly] [firm]" } },
+            loot = { "A useful find? Good. That makes the dust on your boots easier to forgive." },
+            zone = { "Different ground, different dust. I expect some of it will travel home with us." },
+            rest = { "Set things down. We can leave the next task waiting for a little while." },
+            lowHealth = { "Back a step. Finish the work alive before worrying about finishing it quickly." },
+            laughAlong = { "There. Worth putting the broom down for." },
+            hearth = { "Back to Orgrimmar. I wonder how much ground the dust has reclaimed." },
+        },
+    },
+
+    -- Nessa Shadowsong <Fishing Supplies>, Rut'theran Village, Teldrassil.
+    -- Adult female Night Elf, 10118/9344, current Alliance-friendly Vendor.
+    -- 6344/6341/6342/6343: Mydrannul referral, samples via Vesprystus to
+    -- Laird, reply returned. Cause of fish size remains a suspicion.
+    -- Her troublesome precision in fish stories is original; no kin guessed.
+    -- Research: docs/research/orgrimmar-dust-and-ruttheran-fish-stories.md.
+    [10118] = {
+        quote = "Larger than your boat? How interesting. Tell me what kind of boat before we begin.",
+        likes = { "A catch described with honest curiosity", "News brought back from the mainland", "A fishing story with good company in it" },
+        dislikes = { "A rumor offered as a settled answer", "Samples arriving without an explanation", "Real abundance dismissed as boasting" },
+        gossip = "Nessa listens closely to fishing tales. Sometimes too closely: a storyteller spreading their hands may find her asking for a measurement.",
+        bio = "Nessa sells fishing supplies in Rut'theran Village. Curious about Teldrassil's great fish, she sends bones and scales to Laird in Auberdine. His reply confirms the striking difference, though the World Tree's part in it remains a question.",
+        backstory = "A fisher spread both hands while describing a catch. Nessa asked how far apart they had been when it was measured. The laughter surprised her. She still enjoys a useful comparison, but is learning when a story deserves to finish first.",
+        secret = "Her favorite fishing tale contains no remarkable catch. Everyone stayed talking long after the lines were drawn in. For once, she cannot remember the size of a single fish.",
+        bestFriend = "Tell me about the afternoon, too. I like knowing what you noticed, and who made you laugh. The fish need not be extraordinary.",
+        favorite = { emote = "NOD", hint = "Appreciates a thoughtful listener who leaves room for a question instead of insisting on an easy answer." },
+        lines = {
+            greet = { { "Welcome back. Have you brought news from the mainland, or a story about your latest catch? I would like to hear either. If the fish was larger than your boat, I may ask a question about the boat. I shall try to let you reach the exciting part first.", tone = "[warm] [curious] [gently amused]" },
+                "There you are. Tell me what you have seen beyond our stretch of coast." },
+            idle = { { "A fisher once held both hands apart to show me the size of a catch. I asked how wide the measure had been. Everyone laughed. It seems there is a moment in a fishing story when a useful question becomes an interruption. I am learning to recognize it.", tone = "[thoughtful] [wry]" },
+                "Laird's comparison gave us more to consider. It did not settle why the fish here grow so large.",
+                "Sometimes the best part of an afternoon is how long everyone stays talking after the fishing ends." },
+            befriended = { { "You have brought me questions, news, and company I have come to value. Come along, friend. I would like to see what catches your attention beyond the shore. You need not return with an extraordinary tale every time. I enjoy hearing about an ordinary day when it has you in it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was trying to let the storyteller finish before asking that.", "You have my attention. Was there something curious in the catch?" },
+            quest = { { "The bones and scales were sent to Laird so we could compare our catch with the mainland's. A useful answer can leave a larger question waiting. We know the fish differ. We still have reason to ask why. I would rather keep asking than turn a rumor into a certainty.", tone = "[measured] [curious]" } },
+            loot = { "Worth comparing with what you found before. Notice what is different before deciding what it means." },
+            taxi = { "Vesprystus can help with the journey to Auberdine. The samples need a courier, not a tale about one." },
+            zone = { "Another place to make a comparison. What strikes you first?" },
+            rest = { "We can stay a little after the work is done. That part of the afternoon is easily overlooked." },
+            laughAlong = { "Very well. I shall save the question about its exact size until afterward." },
+            hearth = { "Back to Rut'theran. There may be news waiting by the shore." },
+        },
+    },
+
     -- Borya <Tailoring Supplies>, Magar's Cloth Goods, the Drag, Orgrimmar.
     -- Adult male Orc, 3364/1386, current Horde-friendly Vendor; 22 stock
     -- rows, no own current quest/training rows. Customer color names are

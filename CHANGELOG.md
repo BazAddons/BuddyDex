@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Gorina and Nessa Shadowsong: full female Orc/Night Elf profiles, fifteen personal lines and four approved v4 signatures each; preserve Gorina's supplier role and Nessa's unresolved fish comparison.
+
 - Add Borya and Xen'to: full Orc/Troll supplier profiles, fifteen personal lines and four approved v4 signatures each; preserve their vendor roles and separate nearby trainers and quest givers.
 
 - Add Ventaari Brightwish and Donaal Downbreeze: full Skyborne profiles, fifteen personal lines and four approved v4 signatures each; preserve Ventaari's Horde-only access and Donaal's verified shared hospitality.

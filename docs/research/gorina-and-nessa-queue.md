@@ -1,3 +1,7 @@
+# Completed: Gorina and Nessa Shadowsong
+
+Full final source/writing/validation note: [Orgrimmar dust and Rut'theran fish stories](orgrimmar-dust-and-ruttheran-fish-stories.md). Original plan/source checkpoint below is historical.
+
 # Next: Gorina and Nessa Shadowsong
 
 Current exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout observation claimed. Cache `C:/Users/brett/BuddyDex-builds/gorina-nessa-research/npc-ID.json`.

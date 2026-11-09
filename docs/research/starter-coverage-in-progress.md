@@ -407,3 +407,10 @@ Next individually checked [Borya and Xen'to](borya-and-xento-queue.md), Orc/Trol
 380 completed profiles. Borya and Xen'to add adult male Orc/Troll Horde supplier profiles, fifteen personal lines/four v4 signatures each. Friendly counts Alliance 198, Horde 92, unverified 97, seven shared overlapping entries. Capital service coverage is not a new beginner milestone. Sources/writing/validation: [Orgrimmar color names and plain apples](orgrimmar-color-names-and-plain-apples.md).
 
 Next individually checked [Gorina and Nessa](gorina-and-nessa-queue.md), adult female Orc/Night Elf identities not yet authored or counted complete. Verify Gorina's actual Forever supplier/trainer role and Nessa's full travel chain. Wider 1510-name research pool remains active; short queue does not replace it.
+
+
+## 2026-11-09: Gorina and Nessa
+
+382 completed profiles. Female Orc/Night Elf supply and travel personalities, fifteen personal lines/four v4 signatures each. Friendly counts Alliance 199, Horde 93, unverified 97, seven shared overlapping entries. Specific supplier roles/current sparse relations are not permission to invent training or assume quests removed. Nessa's full comparison chain/readable-letter era distinction retained. Sources/validation: [Orgrimmar dust and Rut'theran fish stories](orgrimmar-dust-and-ruttheran-fish-stories.md).
+
+Next individually checked [Adegwa and Zizplink](adegwa-and-zizplink-queue.md), adult male Tauren/female Goblin Horde innkeepers, not yet authored or counted complete. Rotate regions and services; regional access is separate from starter milestones. Wider 1510-name pool remains the scope.
