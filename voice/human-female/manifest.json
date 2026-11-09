@@ -39,6 +39,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1428_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1428",
+    "spoken": "[sincere, welcoming, relaxed warmth] It's good to see you when nothing needs delivering. Come along, then. Today we can enjoy the company.",
+    "text": "It's good to see you when nothing needs delivering. Come along, then. Today we can enjoy the company.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1428_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1428",
+    "spoken": "[warm, practical, quietly pleased] There you are. Let me put this away properly, and I'll come with you. We can't spend every day behind a counter.",
+    "text": "There you are. Let me put this away properly, and I'll come with you. We can't spend every day behind a counter.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1428_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1428",
+    "spoken": "[gentle maternal affection, fond, a soft smile] This little seam? Thurman's. Yes, it's crooked. I didn't keep it for the stitching.",
+    "text": "This little seam? Thurman's. Yes, it's crooked. I didn't keep it for the stitching.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1428_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1428",
+    "spoken": "[reassuring, appreciative, gently emphatic] An errand finished. It may have seemed small, but someone was waiting for it. You helped.",
+    "text": "An errand finished. It may have seemed small, but someone was waiting for it. You helped.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore2329_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -39,6 +39,46 @@
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1427_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1427",
+    "spoken": "[sincere, welcoming, easy warmth] You needn't have a message to bring. I'm glad to see you for your own sake. Shall we get out for a while?",
+    "text": "You needn't have a message to bring. I'm glad to see you for your own sake. Shall we get out for a while?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1427_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1427",
+    "spoken": "[friendly, relieved, pleasantly curious] A walk would do me good. I've been looking at stock all morning. Let's see what everyone else is doing.",
+    "text": "A walk would do me good. I've been looking at stock all morning. Let's see what everyone else is doing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1427_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1427",
+    "spoken": "[thoughtful, wistful, quietly hopeful] Picnic blankets. That's what the empty line is for. I'd like to fill an order for a pleasant day, for once.",
+    "text": "Picnic blankets. That's what the empty line is for. I'd like to fill an order for a pleasant day, for once.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1427_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1427",
+    "spoken": "[warm appreciation, reassuring, earnest] Thank you. You made someone's day a little easier. I know how much a simple delivery can mean.",
+    "text": "Thank you. You made someone's day a little easier. I know how much a simple delivery can mean.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1430_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -77,6 +117,46 @@
     "source": "lore:1430",
     "spoken": "[warm, lightly self-conscious voice, amused restraint] A good moment for a meal. If you're cooking, I'll try very hard to stay out of your way.",
     "text": "A good moment for a meal. If you're cooking, I'll try very hard to stay out of your way.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1433_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1433",
+    "spoken": "[sincere affection, cheerful, unhurried] You make an ordinary walk feel like a day out. That's a fine thing in a friend. Shall we?",
+    "text": "You make an ordinary walk feel like a day out. That's a fine thing in a friend. Shall we?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1433_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1433",
+    "spoken": "[easygoing, cheerful, companionable] An outing together? Lovely. I've no bundle to carry this time. What a difference that makes.",
+    "text": "An outing together? Lovely. I've no bundle to carry this time. What a difference that makes.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1433_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1433",
+    "spoken": "[fond, matter-of-fact, quietly amused] I saved a piece for Rema. Well, of course I did. No sense bringing home nothing but the wrapping.",
+    "text": "I saved a piece for Rema. Well, of course I did. No sense bringing home nothing but the wrapping.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1433_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1433",
+    "spoken": "[satisfied, jovial, hopeful] Delivery made! Now, have we time to find something nice for lunch? I believe we've earned it.",
+    "text": "Delivery made! Now, have we time to find something nice for lunch? I believe we've earned it.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore151_bagsFull_1.ogg": {

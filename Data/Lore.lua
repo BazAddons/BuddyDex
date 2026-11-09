@@ -42,6 +42,91 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Harlan Bagley 1427, Stormwind Trade District. Human male.
+    -- Quest 333 and readable Cloth Request 2724: knitted-goods demand,
+    -- Rema as supplier, a request for news of Thurman's studies.
+    -- No war foreknowledge or presumed player delivery. Picnic orders
+    -- are original BuddyDex writing. See docs/research/schneider-family.md.
+    [1427] = {
+        quote = "Good business is welcome. I just wish more people were buying clothes for a pleasant day out.",
+        likes = { "A promptly delivered cloth order", "Good news from the Schneiders", "A season that calls for lighter clothes" },
+        dislikes = { "Running short of knitted goods", "Stock promised before it arrives", "Customers expecting harsher days" },
+        gossip = "Harlan counts every knitted shirt, then leaves a blank line in his book. Nobody knows what order he's saving it for.",
+        bio = "Harlan Bagley works in Stormwind's Trade District. When brisk sales run down his knitted clothing, he asks for a message to be taken to Rema Schneider. He's grateful for trade, though all the demand for sturdy clothes makes him uneasy.",
+        backstory = "His request to the Schneiders mixes business with a kind inquiry about their son Thurman's studies. Harlan has learned to value reliable suppliers and the people behind the orders. Corbett's deliveries keep that connection familiar.",
+        secret = "The empty line in his stock book is for picnic blankets. He hasn't placed the order. He just likes the thought of preparing for a day when everyone expects something pleasant.",
+        bestFriend = "When I finally order those blankets, we'll try one ourselves. You can tell me your news without either of us watching the door.",
+        favorite = { emote = "CHEER", hint = "A little optimism would be welcome among all his worries about the next season." },
+        lines = {
+            greet = { { "A walk would do me good. I've been looking at stock all morning. Let's see what everyone else is doing.", tone = "[friendly, relieved, pleasantly curious]" }, "Hello again! No order for you this time. Just glad of the company." },
+            idle = { { "Picnic blankets. That's what the empty line is for. I'd like to fill an order for a pleasant day, for once.", tone = "[thoughtful, wistful, quietly hopeful]" }, "Must remember to ask Rema how Thurman's studies are going.", "A busy shop is good. A calm season would be better." },
+            befriended = { { "You needn't have a message to bring. I'm glad to see you for your own sake. Shall we get out for a while?", tone = "[sincere, welcoming, easy warmth]" } },
+            poke = { "Yes? I hope I haven't forgotten an order.", "I'm here. You don't need to knock on me." },
+            quest = { { "Thank you. You made someone's day a little easier. I know how much a simple delivery can mean.", tone = "[warm appreciation, reassuring, earnest]" } },
+            bagsFull = { "Now there's someone who needs a stockroom." },
+            loot = { "That might sell. I hope you won't have to keep it on the shelf for long." },
+            mail = { "News from a supplier? Let's hope it's good." },
+            rest = { "Yes, let's sit. I can count the stock again tomorrow." },
+            combatEnd = { "Everyone all right? Good. Let's find somewhere quieter." },
+            hearth = { "Home. I hope the news there is good." },
+        },
+    },
+
+    -- Rema 1428 and Corbett Schneider 1433: human wife/husband, Stormwind.
+    -- Rema handles Harlan's cloth request (333) and sends her apprentice
+    -- son Thurman his kit (334). Corbett's delivery includes a cheese stop.
+    -- Original keepsakes and shared-snack hook are BuddyDex additions.
+    -- Sources, readable Cloth Request and version notes:
+    -- docs/research/schneider-family.md.
+    [1428] = {
+        quote = "Everyone's errands are important to someone. Even a little package can hold up a whole day's work.",
+        likes = { "A neatly packed sewing kit", "Customers who remember the suppliers", "News of Thurman's apprenticeship" },
+        dislikes = { "Tools left behind in a hurry", "Troubling rumors without answers", "A day's work waiting on one delivery" },
+        gossip = "Rema can find a missing needle faster than most people find their keys. There's one crooked little sample she never puts away with the rest.",
+        bio = "Rema Schneider handles business at Stormwind's Canal Tailor and Fit Shop. Harlan Bagley sends her cloth requests. Her son Thurman apprentices at Larson Clothiers in the Mage Quarter, and she asks a courier to bring him his forgotten sewing kit.",
+        backstory = "Brisk trade keeps the shop busy, but Harlan's demand for armor and sturdy clothes leaves Rema wondering what the nobles aren't saying. At home, she worries about simpler things: whether Thurman has the tools he needs to do his work.",
+        secret = "She keeps a small, uneven practice seam of Thurman's in her sewing box. The stitches aren't why she saved it. Some days she just likes knowing his work is close by.",
+        bestFriend = "You can leave your things here. I know what belongs to you now. That makes you rather more than someone passing through.",
+        favorite = { emote = "THANK", hint = "A little appreciation for the person keeping everyone's errands in order goes a long way." },
+        lines = {
+            greet = { { "There you are. Let me put this away properly, and I'll come with you. We can't spend every day behind a counter.", tone = "[warm, practical, quietly pleased]" }, "Ready when you are. Have you brought everything you need?" },
+            idle = { { "This little seam? Thurman's. Yes, it's crooked. I didn't keep it for the stitching.", tone = "[gentle maternal affection, fond, a soft smile]" }, "A shop hears plenty of rumors. I'd like a few more answers.", "I do hope Thurman remembered his tools today." },
+            befriended = { { "It's good to see you when nothing needs delivering. Come along, then. Today we can enjoy the company.", tone = "[sincere, welcoming, relaxed warmth]" } },
+            poke = { "Careful. You don't know where I've put the needles.", "Yes, dear? There's no need to tug." },
+            quest = { { "An errand finished. It may have seemed small, but someone was waiting for it. You helped.", tone = "[reassuring, appreciative, gently emphatic]" } },
+            bagsFull = { "Let's see what can be folded before you start throwing things away." },
+            loot = { "Useful cloth? Keep it clean, then." },
+            learned = { "There. Practice has a way of paying you back." },
+            hearth = { "Back home. I'll be glad to see how everyone's getting on." },
+            rest = { "A little rest now will save a lot of mistakes later." },
+            levelUp = { "You've worked hard for that. Give yourself a moment to be pleased." },
+        },
+    },
+    [1433] = {
+        quote = "Finish the delivery first. Then you've earned a pleasant walk past the cheese shop.",
+        likes = { "A brisk sale and a proper lunch", "A friendly word with the Trias family", "Bringing something home to share" },
+        dislikes = { "Cloth bundles in the canal", "A snack eaten standing in a rush", "Keeping Rema wondering where he is" },
+        gossip = "Corbett's delivery route has a very convenient cheese shop on it. He comes home pleased with the business and careful with the wrapping.",
+        bio = "Corbett Schneider carries knitted goods from the Canal Tailor and Fit Shop to Harlan Bagley. Rema is his wife. After the delivery, he visits Trias' Cheese for a snack, trades a little shop news, and makes his way home.",
+        backstory = "He answers Rema's call for a delivery with affection and heads out with the load. A successful sale means a few coins for lunch. Corbett likes the ordinary pleasures along the route, but knows there's work waiting back at the shop.",
+        secret = "He saves a good piece of cheese for Rema. He'll discuss his own lunch at length, then tuck her portion into its wrapping as if the thought had only just occurred to him.",
+        bestFriend = "I've kept you a piece. Sit down, won't you? The delivery's done, and for once neither of us needs to hurry off.",
+        favorite = { emote = "GREET", hint = "A friendly greeting makes a familiar delivery route feel like a visit." },
+        lines = {
+            greet = { { "An outing together? Lovely. I've no bundle to carry this time. What a difference that makes.", tone = "[easygoing, cheerful, companionable]" }, "There you are! If this takes us past a cheese shop, all the better." },
+            idle = { { "I saved a piece for Rema. Well, of course I did. No sense bringing home nothing but the wrapping.", tone = "[fond, matter-of-fact, quietly amused]" }, "I wonder what the Trias family has made today.", "A good sale and a good lunch. Some days don't need much improving." },
+            befriended = { { "You make an ordinary walk feel like a day out. That's a fine thing in a friend. Shall we?", tone = "[sincere affection, cheerful, unhurried]" } },
+            poke = { "Mind the cheese! Oh. Force of habit.", "Yes? Is my bundle coming loose? I haven't got one, have I?" },
+            quest = { { "Delivery made! Now, have we time to find something nice for lunch? I believe we've earned it.", tone = "[satisfied, jovial, hopeful]" } },
+            bagsFull = { "I know that feeling. Keep a good hold on the bottom." },
+            loot = { "Something worth a few coins? That'll cover a snack." },
+            hearth = { "Home we go. Rema will be wondering how the day went." },
+            rest = { "Good idea. Lunch tastes better sitting down." },
+            mail = { "A request for another load, perhaps? Business must be good." },
+            landed = { "Everything arrived in one piece. Including us. Very good." },
+        },
+    },
+
     -- Boborus Overvolt 274917: male gnome in Tinker Town, Ironforge.
     -- Scout confirms identity/location/friendly Humanoid; Forever WarcraftDB
     -- supplies race 7/display 147954. No verified personal quest or gossip.
