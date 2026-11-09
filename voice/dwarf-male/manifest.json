@@ -399,6 +399,46 @@
     "text": "A copper on its edge can be more interesting than a mountain of gold.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore4961_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4961",
+    "spoken": "[rough fondness, pleased swagger, inviting] You want me along? Aye, then. You've made your choice, friend. Come on. I can offer company and a very good account of how I ought to have won the last argument.",
+    "text": "You want me along? Aye, then. You've made your choice, friend. Come on. I can offer company and a very good account of how I ought to have won the last argument.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore4961_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:4961",
+    "spoken": "[gruff comic bluster, relieved, self-serving humor] There. A moment to breathe. If this becomes a story, I expect ye to remember that I was impressively composed throughout. More or less. We needn't argue over every detail.",
+    "text": "There. A moment to breathe. If this becomes a story, I expect ye to remember that I was impressively composed throughout. More or less. We needn't argue over every detail.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore4961_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4961",
+    "spoken": "[gruff familiarity, swaggering dry humor, welcoming] There ye are. Come on, then. I've thought of a better answer to a conversation that was over some time ago. You can tell me whether it was worth the wait.",
+    "text": "There ye are. Come on, then. I've thought of a better answer to a conversation that was over some time ago. You can tell me whether it was worth the wait.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore4961_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4961",
+    "spoken": "[blustering confidence, conspiratorial amusement, gruff] That was not quite what I said at the time. It is what I should have said, and it improves the story considerably. If ye noticed the difference, we can keep that between ourselves.",
+    "text": "That was not quite what I said at the time. It is what I should have said, and it improves the story considerably. If ye noticed the difference, we can keep that between ourselves.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "lore5107_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

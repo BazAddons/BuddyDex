@@ -41,6 +41,95 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ol' Beasley 1395: human male beggar, Old Town, display 1508; Scout
+    -- friendly level 10. All six installed chatter lines checked; shared
+    -- beggar patter is not a unique farm/war history or a genuine miracle.
+    -- No personal quest chain found. Enjoying a long new word is original.
+    -- docs/research/ol-beasley.md.
+    [1395] = {
+        quote = "Spare a moment, friend? I can make a perfectly ordinary conversation sound a great deal more distinguished. Indubitably.",
+        likes = { "A good long word given its due", "Someone willing to stop for a moment", "A bit of work paid fairly" },
+        dislikes = { "Being treated as part of the pavement", "Cruelty dressed up as a joke", "Getting tangled in his new syllables" },
+        gossip = "Beasley has acquired a splendid new word. Friends expect a perfectly ordinary question to receive a rather distinguished answer.",
+        bio = "Ol' Beasley is a human beggar in Stormwind's Old Town. He asks passersby for help and offers to shine armor. His street patter mixes appeals, complaints about a farm and a very theatrical claim about his eyesight.",
+        backstory = "He hears some grand words as people pass through Old Town. Indubitably has become a favorite. He has practiced it under his breath until the syllables go together smoothly, and looks for chances to use it where a plain yes would do.",
+        secret = "He asked what the word meant and was pleased to learn it meant certainly. Being glad to see a friend, he decided, was an excellent occasion to use it.",
+        bestFriend = "Am I glad you stopped? Indubitably. There, a fine word put to proper use. Sit a moment and tell me how you've been.",
+        favorite = { emote = "SMILE", hint = "A friendly expression can make an ordinary greeting feel worth stopping for." },
+        lines = {
+            greet = { { "There you are. Have ye a moment? I've a fine new word to try out. Am I pleased to see a familiar face? Indubitably. Come on, then. Tell me how you've been.", tone = "[weathered friendly warmth, pleased wordplay, welcoming]" }, "A familiar face! Stop a moment, friend. How's the day treating ye?" },
+            idle = { { "Indubitably. A fine long word. I asked what it meant, and it means certainly. Well, I'm certainly glad when a friend stops to talk. There's a proper use for it straight away.", tone = "[wry delight, unhurried enunciation, confiding]" }, "People carry some grand words through this alley. A few are worth keeping.", "A plain yes would do. But I've practiced the other one, and it deserves an outing." },
+            befriended = { { "You thought of bringing me along? Aye, friend, I'd like that. Indubitably. Come on. It'll be good to have someone to talk with while we see a little of the day.", tone = "[grateful affection, pleased, warmly inviting]" } },
+            poke = { "Eh? Give me a moment; I was arranging the syllables.", "Aye, I'm listening. Have ye a good word for me?" },
+            rest = { { "Sit a moment, friend. An ordinary bit of company can improve a day considerably. Considerably. Another good word. I'll try not to use all the long ones before you've had a turn.", tone = "[relaxed good humor, appreciative warmth, inviting]" } },
+            loot = { "A fine find, indubitably. There. I knew the word would come in handy." },
+            learned = { "Something new to remember. Say it over once, so it doesn't get away from ye." },
+            quest = { "Sorted, is it? Good. A bit of work finished deserves its moment." },
+            mail = { "A message? Read it properly. Someone took the time to put those words together." },
+            bagsFull = { "A little room would help. Even a grand new word needs somewhere to fit." },
+            hearth = { "Back to Old Town. I may hear another good word before the day's done." },
+        },
+    },
+    -- Benedictus 1284: human male Cathedral archbishop, display 5072;
+    -- Scout/current Forever friendly world boss. Original manual confirms
+    -- Faol's pupil, Cathedral construction and succession. Full Eye of
+    -- Paleth chain, Bring the Light and Archbishop's Mercy context read.
+    -- Ordinary glass-bead pastime is original; later Twilight plot excluded.
+    -- docs/research/benedictus-and-stonefist.md.
+    [1284] = {
+        quote = "A bright surface is no assurance of safety. Attend to what a thing carries before admiring what it might do.",
+        likes = { "A careful look at a troubled relic", "Clear light across a page", "An ordinary glint in a plain glass bead" },
+        dislikes = { "A dangerous thing handled carelessly", "A question dismissed before inspection", "Confusing bright polish with purity" },
+        gossip = "Benedictus considers relics with grave care. Friends say something as ordinary as a bead of glass can still hold his attention.",
+        bio = "Archbishop Benedictus leads the Church of the Holy Light from Stormwind's Cathedral. He recognizes and cleanses the tainted Eye of Paleth, and has called adventurers against Amnennar the Coldbringer's Scourge power in Razorfen Downs.",
+        backstory = "He spent years studying under Archbishop Alonsus Faol and helped raise the Cathedral of Light in Stormwind. After his mentor's death, Benedictus took charge of the Church and pledged to continue the work Faol had begun.",
+        secret = "A plain glass bead makes a bright fleck travel over his desk when he turns it. He has followed that fleck with a finger and lost his place in a far more serious book.",
+        bestFriend = "Stay awhile, my friend. Tell me what caught your attention today. I should like to hear what you found worth looking at.",
+        favorite = { emote = "BOW", hint = "A courteous gesture of respect makes a fitting beginning before the Cathedral's archbishop." },
+        lines = {
+            greet = { { "A little time together? Gladly. Come, tell me what has occupied your attention. I was considering something quite ordinary, and finding that it had held my interest longer than I intended.", tone = "[measured dignified warmth, reflective interest, welcoming]" }, "Welcome, my friend. What have you noticed on your travels?" },
+            idle = { { "A plain bead of glass can send a bright fleck traveling over the desk. I have followed it with a finger, then discovered I had lost my place in a much more serious book. An undemanding little diversion.", tone = "[quiet private amusement, thoughtful, unhurried]" }, "An object may carry a sorrow that its appearance does not explain.", "A careful look should come before a confident conclusion." },
+            befriended = { { "You came for my company. I am pleased, my friend. Let us walk a little. There is time to hear what is on your mind and to give it proper attention.", tone = "[reserved sincere affection, calm hospitality, inviting]" } },
+            poke = { "Yes? What would you have me consider?", "I am listening. Tell me what brought the question to mind." },
+            loot = { { "Give it a proper look. A bright surface can be pleasing without telling you everything you need to know. If something about it troubles you, attend to that before putting it to use.", tone = "[grave careful instruction, observant, deliberate]" } },
+            learned = { "Consider where the lesson belongs before deciding that you understand all of it." },
+            quest = { "The work is done. Take a moment to consider what its result requires of you." },
+            rest = { "A pause may let you notice what hurry carried you past." },
+            mail = { "Read with care. The meaning may require more attention than the first line suggests." },
+            combatEnd = { "Gather yourself. Attend to your wounds before judging what comes next." },
+            hearth = { "Back to the Cathedral. There will be matters awaiting consideration." },
+        },
+    },
+    -- Dashel Stonefist 4961: dwarf male in Old Town, display 3238, Scout
+    -- and current Forever friendly level 26. Full Missing Diplomat chain
+    -- and three-page Defias Docket read: Fist switched the guard roster
+    -- for the failed abduction plan, yields after a brawl, identifies Slim.
+    -- Late retorts/retold arguments are original; no innocence or reform.
+    -- docs/research/benedictus-and-stonefist.md.
+    [4961] = {
+        quote = "Ask your question. Plainly. If you're here for a fight, at least say so before I waste a perfectly good threat.",
+        likes = { "Getting the last word", "A bargain with room to move", "An audience that lets him finish" },
+        dislikes = { "Questions about his private business", "Having his bluff called", "The clever answer arriving too late" },
+        gossip = "Fist can find words almost as quickly as trouble. The finest ones sometimes arrive long after the conversation has ended.",
+        bio = "Dashel Stonefist is a dwarf in Stormwind's Old Town, known as Fist for his brawling. The Defias Docket names him as the man who switched the tunnel guard roster for a failed abduction. Pressed hard, he gives up the lead to Slim in Menethil.",
+        backstory = "After a sharp exchange, he often finds the perfect retort halfway down another street. He rehearses it under his breath, trying different endings until the conversation in his head has become rather more satisfactory than the original.",
+        secret = "He sometimes improves a story with the answer he only thought of afterward. He knows the difference. If a friend notices, he'd prefer they keep it between themselves.",
+        bestFriend = "Aye, you heard what I said the first time. Let me have the better version now. Sit a moment, friend. Tell me your side.",
+        favorite = { emote = "FLEX", hint = "A confident show of strength is a language this brawler readily understands." },
+        lines = {
+            greet = { { "There ye are. Come on, then. I've thought of a better answer to a conversation that was over some time ago. You can tell me whether it was worth the wait.", tone = "[gruff familiarity, swaggering dry humor, welcoming]" }, "Aye, friend. Have ye got a question, or shall I get to finish a sentence first?" },
+            idle = { { "That was not quite what I said at the time. It is what I should have said, and it improves the story considerably. If ye noticed the difference, we can keep that between ourselves.", tone = "[blustering confidence, conspiratorial amusement, gruff]" }, "A fine answer can arrive inconveniently late. I've had some very fine answers.", "Me private business is still private. We can discuss your day instead." },
+            befriended = { { "You want me along? Aye, then. You've made your choice, friend. Come on. I can offer company and a very good account of how I ought to have won the last argument.", tone = "[rough fondness, pleased swagger, inviting]" } },
+            poke = { "What? I was improving the ending.", "Aye, I'm listening. Get to the part ye want to know." },
+            combatEnd = { { "There. A moment to breathe. If this becomes a story, I expect ye to remember that I was impressively composed throughout. More or less. We needn't argue over every detail.", tone = "[gruff comic bluster, relieved, self-serving humor]" } },
+            quest = { "Done, is it? Good. A finished bit of business leaves fewer questions hanging about." },
+            loot = { "Have a look before ye decide what it's worth. No need to announce it to everyone." },
+            learned = { "There. Something useful for the next time someone thinks they've the better of ye." },
+            rest = { "A seat? Aye. I've a story, and this time I'll get to the good answer promptly." },
+            bagsFull = { "Sort it out before we're standing here all day. Keep the useful bits where ye can find them." },
+            hearth = { "Back to Old Town. I may have another answer ready by the time we get there." },
+        },
+    },
     -- Valley of Heroes: human males Major Mattingly 14394/display 14431,
     -- General Marcus Jonathan 466/display 1688, Squire Rowe 17804/17250.
     -- Scout confirms friendly current Forever identities. Full Windsor

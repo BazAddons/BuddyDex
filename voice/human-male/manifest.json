@@ -239,6 +239,46 @@
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1284_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1284",
+    "spoken": "[reserved sincere affection, calm hospitality, inviting] You came for my company. I am pleased, my friend. Let us walk a little. There is time to hear what is on your mind and to give it proper attention.",
+    "text": "You came for my company. I am pleased, my friend. Let us walk a little. There is time to hear what is on your mind and to give it proper attention.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1284_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1284",
+    "spoken": "[measured dignified warmth, reflective interest, welcoming] A little time together? Gladly. Come, tell me what has occupied your attention. I was considering something quite ordinary, and finding that it had held my interest longer than I intended.",
+    "text": "A little time together? Gladly. Come, tell me what has occupied your attention. I was considering something quite ordinary, and finding that it had held my interest longer than I intended.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1284_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1284",
+    "spoken": "[quiet private amusement, thoughtful, unhurried] A plain bead of glass can send a bright fleck traveling over the desk. I have followed it with a finger, then discovered I had lost my place in a much more serious book. An undemanding little diversion.",
+    "text": "A plain bead of glass can send a bright fleck traveling over the desk. I have followed it with a finger, then discovered I had lost my place in a much more serious book. An undemanding little diversion.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1284_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:1284",
+    "spoken": "[grave careful instruction, observant, deliberate] Give it a proper look. A bright surface can be pleasing without telling you everything you need to know. If something about it troubles you, attend to that before putting it to use.",
+    "text": "Give it a proper look. A bright surface can be pleasing without telling you everything you need to know. If something about it troubles you, attend to that before putting it to use.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1285_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -837,6 +877,46 @@
     "source": "lore:1351",
     "spoken": "[reflective, humble amusement, confiding] The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.",
     "text": "The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1395_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1395",
+    "spoken": "[grateful affection, pleased, warmly inviting] You thought of bringing me along? Aye, friend, I'd like that. Indubitably. Come on. It'll be good to have someone to talk with while we see a little of the day.",
+    "text": "You thought of bringing me along? Aye, friend, I'd like that. Indubitably. Come on. It'll be good to have someone to talk with while we see a little of the day.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1395_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1395",
+    "spoken": "[weathered friendly warmth, pleased wordplay, welcoming] There you are. Have ye a moment? I've a fine new word to try out. Am I pleased to see a familiar face? Indubitably. Come on, then. Tell me how you've been.",
+    "text": "There you are. Have ye a moment? I've a fine new word to try out. Am I pleased to see a familiar face? Indubitably. Come on, then. Tell me how you've been.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1395_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1395",
+    "spoken": "[wry delight, unhurried enunciation, confiding] Indubitably. A fine long word. I asked what it meant, and it means certainly. Well, I'm certainly glad when a friend stops to talk. There's a proper use for it straight away.",
+    "text": "Indubitably. A fine long word. I asked what it meant, and it means certainly. Well, I'm certainly glad when a friend stops to talk. There's a proper use for it straight away.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1395_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:1395",
+    "spoken": "[relaxed good humor, appreciative warmth, inviting] Sit a moment, friend. An ordinary bit of company can improve a day considerably. Considerably. Another good word. I'll try not to use all the long ones before you've had a turn.",
+    "text": "Sit a moment, friend. An ordinary bit of company can improve a day considerably. Considerably. Another good word. I'll try not to use all the long ones before you've had a turn.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore1402_befriended_1.ogg": {
