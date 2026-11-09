@@ -273,6 +273,20 @@
       "zone": "Winterspring",
       "route": "Goblin quest/service review with neutral-access gate",
       "reason": "Adult female Goblin exact current merchant identity/model verified; sparse node has no location/reaction; current Everlook stock, access and any dialogue pending; later travel destination, not beginner coverage. See docs/research/goblin-quest-and-trade-queue.md"
+    },
+    {
+      "npc_id": 3615,
+      "name": "Devrak",
+      "zone": "The Barrens",
+      "route": "Crossroads Horde quest and travel services",
+      "reason": "Adult male Orc exact current Wind Rider Master identity/model, explicit Horde-friendly icon and Crossroads pin verified; full flight/referral/delivery chains and services pending. See docs/research/crossroads-flight-and-hunt-queue.md"
+    },
+    {
+      "npc_id": 3338,
+      "name": "Sergra Darkthorn",
+      "zone": "The Barrens",
+      "route": "Crossroads Horde quest and travel services",
+      "reason": "Adult female Orc exact current identity/model and Crossroads pin verified; current Horde-icon Neutral listing is not a friendly/non-attackable guarantee; full hunting chains and access review pending. See docs/research/crossroads-flight-and-hunt-queue.md"
     }
   ]
 }
