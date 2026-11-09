@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Archmage Malin 2708 and Brother Sarno 7917, male humans, Stormwind.
+    -- Malin's Classic Trelane recovery chain: 690/691/693-697. Sarno's
+    -- Overspark/Techbot referral: 2923 -> 2922. No assumed player completion,
+    -- repaired Techbot, later Northrend loss or post-Classic book event.
+    -- Original mentor-approval/returned-welcome hooks and full sources:
+    -- docs/research/malin-and-sarno.md.
+    [2708] = {
+        quote = "An impressive title doesn't mean one's work is finished. There are still people I hope to make proud.",
+        likes = { "Good news from Refuge Pointe", "Help that respects an old obligation", "A familiar face patient with distraction" },
+        dislikes = { "His agents left without enough help", "Trelane's belongings in hostile hands", "Losing track of a helpful visitor" },
+        gossip = "Malin can discuss great matters quite calmly. Mention giving Trelane good news, though, and he seems to choose every word twice.",
+        bio = "Archmage Malin works in Stormwind's Mage Quarter. His original master, Trelane, fled the siege of Stromgarde and asked for help recovering belongings left behind. Malin sends adventurers to aid his agents at Refuge Pointe.",
+        backstory = "Skuerto and Apprentice Kryten handle the expedition in Arathi: reagents, the wand and Trelane's remaining possessions. Malin's relief at a successful report is plain. For him, this work is also an obligation to the teacher who helped him begin.",
+        secret = "He rehearses giving Trelane good news, then discards the grand phrases. For all his titles, he still wants his old master to say he's done well.",
+        bestFriend = "You needn't bring a report to be welcome. Sit with me. It's a pleasure to see you when no one is waiting for an answer.",
+        favorite = { emote = "PRAISE", hint = "An honest word of appreciation can reach him more deeply than another formal title." },
+        lines = {
+            greet = { { "Ah, there you are. No report today? An outing? Yes, that would be very welcome. I've had quite enough correspondence.", tone = "[thoughtful, distracted at first, warming with recognition]" }, "Good to see you. Come along. You can tell me what I've missed beyond the Mage Quarter." },
+            idle = { { "I rehearse the good news for Trelane. Then I abandon the speech. Strange, isn't it? An archmage still hoping to please his first teacher.", tone = "[reflective, candid, warm self-awareness]" }, "Skuerto and Kryten have work enough without being forgotten at this end.", "Forgive me. I was following a thought and nearly walked straight past the conversation." },
+            befriended = { { "A friend, rather than another obligation. I'm glad. You may remind me to look up from the work now and then.", tone = "[sincere warmth, relieved, welcoming]" } },
+            poke = { "Yes? Forgive me, I was elsewhere in my head.", "You have my attention. What have I missed?" },
+            quest = { { "A result delivered. Wonderful. Someone will be very pleased to hear that their trust was well placed.", tone = "[warm approval, pleased surprise, grateful]" } },
+            learned = { "There. Another lesson becomes part of what you can do." },
+            mail = { "A letter? Let's hope it brings good news." },
+            levelUp = { "You've come a long way. Remember those who helped you begin." },
+            combatEnd = { "Everyone safe? Good. Take the time you need." },
+            hearth = { "Back to Stormwind. There will be news to catch up on." },
+            rest = { "Yes, let's sit. A thought can wait while a friend finishes speaking." },
+        },
+    },
+    [7917] = {
+        quote = "Welcome. You needn't have an important reason for coming through the door. I'm glad you're here.",
+        likes = { "A greeting offered in return", "Someone helping a distressed friend", "A familiar visitor with time to stay" },
+        dislikes = { "A worried person brushed aside", "Giving up on something once helpful", "Mistaking a welcome for a formality" },
+        gossip = "Sarno has a welcome ready for nearly everyone. Offer one to him first, and for a moment he seems delighted to have lost his turn.",
+        bio = "Brother Sarno welcomes visitors at Stormwind's Cathedral of Light. He remembers Techbot as a helpful creation and hears how distressed Tinkmaster Overspark is by its malfunction. Sarno sends willing help to the inventor in Ironforge.",
+        backstory = "Sarno's concern reaches beyond the cathedral doors. Hearing of Overspark's trouble, he sees a chance for someone to help. His hope is that Techbot might be repaired, not a claim that the work is already finished.",
+        secret = "A welcome offered back to him can brighten his whole afternoon. He spends so much time being ready for others that it still catches him pleasantly by surprise.",
+        bestFriend = "You made room for me on your road. I like that. A welcome goes both ways, and I am very glad to have yours.",
+        favorite = { emote = "WELCOME", hint = "Try offering him the same warmth he gives everyone at the cathedral door." },
+        lines = {
+            greet = { { "Welcome, my friend! Oh, we're going out? How lovely. You'll have to show me where we're headed.", tone = "[warm delight, welcoming, gently amused]" }, "There you are. It's good to see you with a little time to spare." },
+            idle = { { "A welcome back to me. Such a small thing, and it can brighten the whole afternoon. You'd think I'd be used to it by now.", tone = "[grateful, quietly delighted, affectionate]" }, "I hope Overspark has had some encouraging news.", "You don't need a grand reason to stop and speak with someone." },
+            befriended = { { "A place beside you for a while. Thank you, my friend. I'm glad a welcome can lead to company like this.", tone = "[sincere affection, grateful warmth]" } },
+            poke = { "Yes? I'm here. What would you like to tell me?", "You needn't knock twice, my friend." },
+            quest = { { "You saw someone who needed help, and you answered. I'm very glad. There is kindness in seeing a thing through.", tone = "[warm approval, sincere, quietly encouraging]" } },
+            learned = { "Something new you can do. Perhaps it will help someone in turn." },
+            levelUp = { "Well done, my friend. You have reason to be pleased." },
+            combatEnd = { "Everyone here? Good. Let's make room for a little quiet." },
+            rest = { "A comfortable seat and time to talk. That sounds very good." },
+            hearth = { "Home again. I hope there's a friendly face waiting." },
+            mail = { "Perhaps a little news from someone glad to know you're well." },
+        },
+    },
+
     -- The Protective Hide, Old Town, Stormwind. Human leatherworkers:
     -- Simon Tanner 5564 (male Expert), Jillian Tanner 5565 (female supplier),
     -- Randal Worth 11096 (male Journeyman). Installed gossip establishes

@@ -886,6 +886,46 @@
     "text": "Sit down, have a drink, tell me what you think. No grand description required.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore2708_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2708",
+    "spoken": "[sincere warmth, relieved, welcoming] A friend, rather than another obligation. I'm glad. You may remind me to look up from the work now and then.",
+    "text": "A friend, rather than another obligation. I'm glad. You may remind me to look up from the work now and then.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2708_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2708",
+    "spoken": "[thoughtful, distracted at first, warming with recognition] Ah, there you are. No report today? An outing? Yes, that would be very welcome. I've had quite enough correspondence.",
+    "text": "Ah, there you are. No report today? An outing? Yes, that would be very welcome. I've had quite enough correspondence.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2708_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2708",
+    "spoken": "[reflective, candid, warm self-awareness] I rehearse the good news for Trelane. Then I abandon the speech. Strange, isn't it? An archmage still hoping to please his first teacher.",
+    "text": "I rehearse the good news for Trelane. Then I abandon the speech. Strange, isn't it? An archmage still hoping to please his first teacher.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2708_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2708",
+    "spoken": "[warm approval, pleased surprise, grateful] A result delivered. Wonderful. Someone will be very pleased to hear that their trust was well placed.",
+    "text": "A result delivered. Wonderful. Someone will be very pleased to hear that their trust was well placed.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore279_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1649,6 +1689,46 @@
     "source": "lore:74",
     "spoken": "[dry, playful voice, mock dignity] Those slippers are a serious study in comfort. A very pleasant study.",
     "text": "Those slippers are a serious study in comfort. A very pleasant study.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7917_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7917",
+    "spoken": "[sincere affection, grateful warmth] A place beside you for a while. Thank you, my friend. I'm glad a welcome can lead to company like this.",
+    "text": "A place beside you for a while. Thank you, my friend. I'm glad a welcome can lead to company like this.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7917_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7917",
+    "spoken": "[warm delight, welcoming, gently amused] Welcome, my friend! Oh, we're going out? How lovely. You'll have to show me where we're headed.",
+    "text": "Welcome, my friend! Oh, we're going out? How lovely. You'll have to show me where we're headed.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7917_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7917",
+    "spoken": "[grateful, quietly delighted, affectionate] A welcome back to me. Such a small thing, and it can brighten the whole afternoon. You'd think I'd be used to it by now.",
+    "text": "A welcome back to me. Such a small thing, and it can brighten the whole afternoon. You'd think I'd be used to it by now.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore7917_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:7917",
+    "spoken": "[warm approval, sincere, quietly encouraging] You saw someone who needed help, and you answered. I'm very glad. There is kindness in seeing a thing through.",
+    "text": "You saw someone who needed help, and you answered. I'm very glad. There is kindness in seeing a thing through.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore8670_befriended_1.ogg": {
