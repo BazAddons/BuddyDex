@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 251,
+  "completed_profiles": 254,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
     "alliance": 179,
-    "unverified": 48,
-    "horde": 24
+    "unverified": 50,
+    "horde": 25
   },
   "npc_race_counts": {
     "1": 165,
@@ -13,7 +13,9 @@
     "5": 25,
     "2": 2,
     "7": 23,
-    "4": 6
+    "4": 6,
+    "8": 2,
+    "6": 1
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -24,7 +26,9 @@
     "Ironforge": 32,
     "Tirisfal Glades": 25,
     "Orgrimmar": 2,
-    "Deeprun Tram": 3
+    "Deeprun Tram": 3,
+    "Durotar": 2,
+    "Mulgore": 1
   },
   "entries": [
     {
@@ -3193,6 +3197,41 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
+    },
+    {
+      "npc_id": 3188,
+      "name": "Master Gadrin",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3188"
+    },
+    {
+      "npc_id": 2981,
+      "name": "Chief Hawkwind",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2981"
+    },
+    {
+      "npc_id": 5884,
+      "name": "Mai'ah",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5884"
     }
   ]
 }

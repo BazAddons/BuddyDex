@@ -42,6 +42,90 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Master Gadrin (3188), adult male Darkspear troll, Sen'jin Village, display 4072.
+    -- Minshina 808, Zalazane 826, Burning Blade referrals; Shadra chain; Forever 97225 idols.
+    -- Classic manual adviser/training role. Plain seashell pastime is original, never a ritual item.
+    -- docs/research/horde-starter-trio.md.
+    [3188] = {
+        quote = "Come, sit a while. A troubled thought is easier to understand when you give it room, and someone willing to listen.",
+        likes = { "Respect shown to the loa", "A visitor who listens carefully", "The smooth turn of an ordinary shell" },
+        dislikes = { "Spirits held against their will", "Zalazane's hold over his people", "A quiet thought hurried to an answer" },
+        gossip = "Gadrin sometimes turns a small shell in his fingers. Sen'jin wonders what secret he hears inside it.",
+        bio = "Master Gadrin guides the Darkspear in Sen'jin Village. He opposes Zalazane, seeks freedom for his brother Minshina's spirit, and helps recover sacred loa idols. He is a trusted adviser to Vol'jin.",
+        backstory = "He picked up a small shell during a quiet walk by the shore. Its smooth curve rested pleasantly against his thumb. He kept it as something simple to turn in his hand while allowing a thought to settle.",
+        secret = "There is no hidden voice in the shell. He likes its shape, and the little pause it gives him before he speaks.",
+        bestFriend = "Sit beside me. We can let the sea have its say for a moment. I am glad you found time to come.",
+        favorite = { emote = "COMFORT", hint = "Offer quiet understanding for the cares he carries for his people." },
+        lines = {
+            greet = { { "You found me. Come, sit a moment and tell me how the day has been. There is room for a difficult thought, or a small pleasant one. We need not hurry either of them away before you have finished speaking.", tone = "[warm elder welcome, thoughtful patience, grounded]" }, "Good to see you. What has been on your mind?" },
+            idle = { { "This shell is only a shell. Smooth beneath the thumb, a pleasing shape to turn in the hand. Sometimes that is enough to help a thought settle. I listen better when I leave a little space before the answer.", tone = "[quiet reflective warmth, gently amused, unhurried]" }, "Listen to the whole story before you decide which part matters most.", "A small pause can save a careless word." },
+            befriended = { { "I would be glad to walk with you. We can speak along the way, and leave some quiet between the words. Tell me what you have noticed. A familiar path may still have something to show us when we share it with a friend.", tone = "[sincere gentle pleasure, calm companionship]" } },
+            poke = { "Yes? I am listening.", "Take your time. The thought will come." },
+            rest = { { "Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.", tone = "[deep patient reassurance, warm elder affection]" } },
+            quest = { "You have followed the matter through. Tell me what you learned along the way." },
+            comforted = { "Thank you. It helps to know someone understands." },
+            learned = { "Give the lesson time to settle. Understanding grows with care." },
+            zone = { "Listen a little before we hurry on. Every place has its own sounds." },
+            levelUp = { "May your wisdom grow alongside your strength." },
+            hearth = { "A familiar place. There is comfort in finding our way back." },
+        },
+    },
+    -- Chief Hawkwind (2981), adult male tauren, Camp Narache, display 3809.
+    -- Humble Task/Rites chains, Greatmother and Grull kinship, carved totem, 781; Forever Kaga referral 96659.
+    -- Plain carved leaf is original, without a new totem or spiritual power.
+    [2981] = {
+        quote = "A willingness to help is a good beginning. Give it patience and care, and even a humble task can show the strength of your spirit.",
+        likes = { "Work shared for the good of the tribe", "Eagerness tempered by experience", "A small carving taking a pleasing shape" },
+        dislikes = { "Boasting in place of useful service", "Bristleback threats to the camp", "A careless cut in patient work" },
+        gossip = "Hawkwind studies a little wooden leaf between duties. Narache wonders whether a new ceremony requires it.",
+        bio = "Chief Hawkwind leads Camp Narache and guides young tauren into the Rites of the Earthmother. Grull is his son and Greatmother Hawkwind his mother. In caring for his people, he also remembers Kaga Wildhoof's past help.",
+        backstory = "While carving, he set aside a small scrap of wood and gave it the outline of a leaf. He worked at its curve in spare moments. The simple shape gave him something to enjoy without needing a grand purpose.",
+        secret = "The leaf is for his own pleasure. One edge is uneven, but he likes the way it rests in his palm and has decided to leave it so.",
+        bestFriend = "Sit with me a little while. You can tell me what you have been learning, and I will show you how this small leaf is coming along.",
+        favorite = { emote = "NOD", hint = "Show the elder that you have listened and are ready to learn with care." },
+        lines = {
+            greet = { { "Welcome, my friend. Sit with me a moment. I have been working on a small carving between other duties. A leaf, nothing elaborate. There is pleasure in letting a simple shape take its time. Tell me how your own work has been going.", tone = "[deep resonant warmth, patient grounded welcome]" }, "It is good to see you. What have you learned since we last spoke?" },
+            idle = { { "This little leaf came from a scrap I had set aside. I found I liked working at the curve in quiet moments. One edge is still uneven. I may leave it that way. It rests pleasantly in my hand, and that is reason enough to enjoy it.", tone = "[earthy thoughtful satisfaction, gentle warmth, measured]" }, "A useful deed does not become smaller because it was humble.", "Patience gives the hands time to learn what the mind intended." },
+            befriended = { { "I would welcome a walk with you. There is much we can notice when we give ourselves time. Tell me where your path has taken you, and what you have found worth remembering. I am glad to share a little of the journey.", tone = "[steady sincere pleasure, generous grounded warmth]" } },
+            poke = { "Yes, my friend?", "Speak when you are ready. I am listening." },
+            learned = { { "A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not.", tone = "[calm elder encouragement, thoughtful, warmly practical]" } },
+            quest = { "You have given your effort to the task. Tell me what it taught you." },
+            rest = { "Sit a while. A quiet moment can be part of a useful day." },
+            gear = { "May it serve you well in the work you choose to do." },
+            zone = { "Take time to notice the land beneath your feet." },
+            levelUp = { "Your strength grows. Keep making room for wisdom as well." },
+            hearth = { "Home again. There is work here, and there are people worth returning to." },
+        },
+    },
+    -- Mai'ah (5884), adult female troll mage trainer, Valley of Trials, display 4526.
+    -- 3086 Glyphic Tablet + its readable text; Forever orc mage 98576; actual class/retraining gossip.
+    -- Ordinary folded paper fan is original, not a glyph, magical focus or teaching reward.
+    [5884] = {
+        quote = "Power can make a fool very confident. Take your time, watch carefully, and learn enough to know which answer the moment requires.",
+        likes = { "Patience before a powerful spell", "A pupil asking a useful question", "A small breeze from a paper fan" },
+        dislikes = { "Magical confidence without caution", "A warning mistaken for weakness", "A fold that refuses to sit evenly" },
+        gossip = "Mai'ah turns a folded scrap this way and that. The valley is waiting to hear what sort of glyph it might be.",
+        bio = "Mai'ah teaches mages near the Den in the Valley of Trials. Her tablet calls troll pupils to learn; a parchment brings orc mages too. She values power guided by patience and warns that magic can cloud its user's judgment.",
+        backstory = "During a hot, quiet spell, she folded a scrap of paper into a small fan. A slight change of angle made the breeze more pleasant. She enjoyed finding how much difference such a simple adjustment could make.",
+        secret = "The folded scrap is an ordinary fan. She likes the little breeze it gives her, especially after she has found just the right angle.",
+        bestFriend = "Come, sit beside me. There is time for a pleasant conversation. Tell me something you noticed when you slowed down enough to look.",
+        favorite = { emote = "BOW", hint = "Approach her knowledge with the respect she asks of a willing pupil." },
+        lines = {
+            greet = { { "There you are. Come and sit a moment. I have found a pleasant angle for this little fan, and I am prepared to enjoy it. Tell me what you have been learning. You may find I have an opinion, especially if you tried to hurry the lesson.", tone = "[confident warm welcome, lightly teasing, composed]" }, "Good to see you. Have you brought a question worth considering?" },
+            idle = { { "A scrap of paper, a few folds, and a little care with the angle. That is all this fan needs. I like the moment when a small adjustment makes it work better. It pays to notice what the thing in your hand is actually doing.", tone = "[thoughtful amused satisfaction, observant, relaxed]" }, "Power is useful. Knowing when and how to use it matters too.", "That breeze is very agreeable. I shall allow myself to appreciate it." },
+            befriended = { { "I would enjoy a walk with you. Keep your eyes open and tell me what catches your attention. We need not turn every observation into a lesson. A little curiosity and good company can make the journey pleasant enough by themselves.", tone = "[sincere friendly pleasure, poised, gently amused]" } },
+            poke = { "Yes? Ask what you wish to ask.", "I am listening. Give the thought a moment." },
+            learned = { { "Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked.", tone = "[firm patient encouragement, knowing warmth]" } },
+            quest = { "Finished? Tell me the part that asked you to think." },
+            rest = { "Sit a little. A clear head is worth making time for." },
+            gear = { "A useful tool deserves a little understanding, however impressive it looks." },
+            zone = { "There is always something to notice if you look before you hurry." },
+            levelUp = { "You are growing stronger. Stay thoughtful about what you can do." },
+            hearth = { "Back again. I hope the journey gave you something worth considering." },
+        },
+    },
+
+
     -- Dockmaster Baren (381), adult male human, Lakeshire docks, display 3360.
     -- Classic/current 127 sunfish and 150 murloc fins; friendly installed business gossip.
     -- Enjoying rain on the lake from dry cover is original. No ferry/vendor service added.

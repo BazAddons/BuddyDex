@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Begin the balanced starter-coverage rotation with Master Gadrin, Chief Hawkwind, and Mai'ah: full profiles, fifteen personal lines and four Eleven v4 signature recordings each. Add troll male/female and Tauren voice routing using the selected racial voices.
+
 - Add complete Dockmaster Baren, Corporal Keeshan, and Lucius profiles, with fifteen personal lines and four Eleven v4 signatures apiece in their verified human or dwarf voices.
 - Add complete Bailiff Conacher and Foreman Oslow profiles, each with fifteen personal companion lines and four Eleven v4 signature recordings.
 - Add complete Magistrate Solomon and Marshal Marris profiles, with fifteen personal companion lines and four Eleven v4 signatures each.

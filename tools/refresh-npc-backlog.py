@@ -80,6 +80,8 @@ def main():
             assert (ROOT / row["research_notes"]).is_file(), "Missing research notes"
             if npc in candidates:
                 assert candidates[npc]["name"] == row["name"], "Research/Scout identity mismatch"
+                if candidates[npc]["source"] == "Coverage-first research priority; eligibility/lore pending":
+                    candidates[npc] = dict(row)
             else:
                 candidates[npc] = dict(row)
     completed = []

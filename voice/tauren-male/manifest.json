@@ -1,0 +1,42 @@
+{
+  "lore2981_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2981",
+    "spoken": "[steady sincere pleasure, generous grounded warmth] I would welcome a walk with you. There is much we can notice when we give ourselves time. Tell me where your path has taken you, and what you have found worth remembering. I am glad to share a little of the journey.",
+    "text": "I would welcome a walk with you. There is much we can notice when we give ourselves time. Tell me where your path has taken you, and what you have found worth remembering. I am glad to share a little of the journey.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2981_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2981",
+    "spoken": "[deep resonant warmth, patient grounded welcome] Welcome, my friend. Sit with me a moment. I have been working on a small carving between other duties. A leaf, nothing elaborate. There is pleasure in letting a simple shape take its time. Tell me how your own work has been going.",
+    "text": "Welcome, my friend. Sit with me a moment. I have been working on a small carving between other duties. A leaf, nothing elaborate. There is pleasure in letting a simple shape take its time. Tell me how your own work has been going.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2981_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2981",
+    "spoken": "[earthy thoughtful satisfaction, gentle warmth, measured] This little leaf came from a scrap I had set aside. I found I liked working at the curve in quiet moments. One edge is still uneven. I may leave it that way. It rests pleasantly in my hand, and that is reason enough to enjoy it.",
+    "text": "This little leaf came from a scrap I had set aside. I found I liked working at the curve in quiet moments. One edge is still uneven. I may leave it that way. It rests pleasantly in my hand, and that is reason enough to enjoy it.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2981_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2981",
+    "spoken": "[calm elder encouragement, thoughtful, warmly practical] A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not.",
+    "text": "A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  }
+}

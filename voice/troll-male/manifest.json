@@ -1,0 +1,42 @@
+{
+  "lore3188_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3188",
+    "spoken": "[sincere gentle pleasure, calm companionship] I would be glad to walk with you. We can speak along the way, and leave some quiet between the words. Tell me what you have noticed. A familiar path may still have something to show us when we share it with a friend.",
+    "text": "I would be glad to walk with you. We can speak along the way, and leave some quiet between the words. Tell me what you have noticed. A familiar path may still have something to show us when we share it with a friend.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3188_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3188",
+    "spoken": "[warm elder welcome, thoughtful patience, grounded] You found me. Come, sit a moment and tell me how the day has been. There is room for a difficult thought, or a small pleasant one. We need not hurry either of them away before you have finished speaking.",
+    "text": "You found me. Come, sit a moment and tell me how the day has been. There is room for a difficult thought, or a small pleasant one. We need not hurry either of them away before you have finished speaking.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3188_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3188",
+    "spoken": "[quiet reflective warmth, gently amused, unhurried] This shell is only a shell. Smooth beneath the thumb, a pleasing shape to turn in the hand. Sometimes that is enough to help a thought settle. I listen better when I leave a little space before the answer.",
+    "text": "This shell is only a shell. Smooth beneath the thumb, a pleasing shape to turn in the hand. Sometimes that is enough to help a thought settle. I listen better when I leave a little space before the answer.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3188_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3188",
+    "spoken": "[deep patient reassurance, warm elder affection] Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.",
+    "text": "Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  }
+}

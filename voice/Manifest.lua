@@ -5548,5 +5548,23 @@ ns.VoicePack = {
             ["I'd better remember the way back."] = "skyborne-male\\npc_zone_11.ogg",
             ["Well, this is a change of scenery."] = "skyborne-male\\npc_zone_12.ogg",
         },
+        ["tauren-male"] = {
+            ["I would welcome a walk with you. There is much we can notice when we give ourselves time. Tell me where your path has taken you, and what you have found worth remembering. I am glad to share a little of the journey."] = "tauren-male\\lore2981_befriended_1.ogg",
+            ["Welcome, my friend. Sit with me a moment. I have been working on a small carving between other duties. A leaf, nothing elaborate. There is pleasure in letting a simple shape take its time. Tell me how your own work has been going."] = "tauren-male\\lore2981_greet_1.ogg",
+            ["This little leaf came from a scrap I had set aside. I found I liked working at the curve in quiet moments. One edge is still uneven. I may leave it that way. It rests pleasantly in my hand, and that is reason enough to enjoy it."] = "tauren-male\\lore2981_idle_1.ogg",
+            ["A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not."] = "tauren-male\\lore2981_learned_1.ogg",
+        },
+        ["troll-female"] = {
+            ["I would enjoy a walk with you. Keep your eyes open and tell me what catches your attention. We need not turn every observation into a lesson. A little curiosity and good company can make the journey pleasant enough by themselves."] = "troll-female\\lore5884_befriended_1.ogg",
+            ["There you are. Come and sit a moment. I have found a pleasant angle for this little fan, and I am prepared to enjoy it. Tell me what you have been learning. You may find I have an opinion, especially if you tried to hurry the lesson."] = "troll-female\\lore5884_greet_1.ogg",
+            ["A scrap of paper, a few folds, and a little care with the angle. That is all this fan needs. I like the moment when a small adjustment makes it work better. It pays to notice what the thing in your hand is actually doing."] = "troll-female\\lore5884_idle_1.ogg",
+            ["Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked."] = "troll-female\\lore5884_learned_1.ogg",
+        },
+        ["troll-male"] = {
+            ["I would be glad to walk with you. We can speak along the way, and leave some quiet between the words. Tell me what you have noticed. A familiar path may still have something to show us when we share it with a friend."] = "troll-male\\lore3188_befriended_1.ogg",
+            ["You found me. Come, sit a moment and tell me how the day has been. There is room for a difficult thought, or a small pleasant one. We need not hurry either of them away before you have finished speaking."] = "troll-male\\lore3188_greet_1.ogg",
+            ["This shell is only a shell. Smooth beneath the thumb, a pleasing shape to turn in the hand. Sometimes that is enough to help a thought settle. I listen better when I leave a little space before the answer."] = "troll-male\\lore3188_idle_1.ogg",
+            ["Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say."] = "troll-male\\lore3188_rest_1.ogg",
+        },
     },
 }

@@ -64,6 +64,8 @@ VOICES = {
     "human-female": "PlKpB8vhnGrFk9fhJGWb",    # BuddyDex Human Female (Guard)
     "forsaken-male": "xNLT6f0TsMKlsUoMALsm",   # approved Forsaken audition A, 2026-11-09
     "forsaken-female": "6lg3YonFTCHEchATaHoV", # approved Forsaken audition C, 2026-11-09
+    "tauren-male": "UHjFz97GTxtpwstZu19x",     # approved Tauren audition C, 2026-11-09
+    "tauren-female": "HriwExkmKzil2cQ4bGmf",   # approved Tauren audition B, 2026-11-09
     "orc-male": "SsUXUYPOaoD5XMe36mlU",       # BuddyDex Orc Male (Gravel), approved audition B
     "orc-female": "QooG6jOovlSJWv2vSqN8",     # approved second-round C
     "troll-male": "X3ETuf4PfUMURFMpRT73",     # approved second-round A, Jamaican

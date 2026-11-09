@@ -322,5 +322,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
     "research_notes": "docs/research/lakeshire-docks-and-an-escort.md"
+  },
+  {
+    "npc_id": 3188,
+    "name": "Master Gadrin",
+    "zone": "Durotar",
+    "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/horde-starter-trio.md"
+  },
+  {
+    "npc_id": 2981,
+    "name": "Chief Hawkwind",
+    "zone": "Mulgore",
+    "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/horde-starter-trio.md"
+  },
+  {
+    "npc_id": 5884,
+    "name": "Mai'ah",
+    "zone": "Durotar",
+    "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/horde-starter-trio.md"
   }
 ]

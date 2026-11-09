@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 48 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 50 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -14,9 +14,9 @@ The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC
 | 4 | Hana'zua | 3287 | Durotar / troll and orc early route |
 | 5 | Zureetha Fargaze | 3145 | Durotar / troll and orc early route |
 
-All five exact names were checked against current Forever NPC nodes. Their character models resolve through the cached DB2 display/extra tables; full quest-chain research and eligibility review remain outstanding. These are research candidates, not completed profiles, and no paid recordings were made for them in this coverage pass.
+All five exact names were checked against current Forever NPC nodes. Their character models resolve through the cached DB2 display/extra tables; Gadrin, Hawkwind and Mai'ah now have completed profiles and four v4 recordings each; see [their research notes](horde-starter-trio.md). Hana'zua and Zureetha remain research candidates awaiting full review.
 
-Gadrin's current node explicitly reports Horde-friendly reaction and a Durotar pin. The other four current definitions confirm identity/race but omit reaction/location fields; current quest/dialogue or equivalent current client evidence must fill those gaps before authoring. They are not marked friendly merely because they are orcs, trolls or Tauren. A name-based attempt for Mother Hawkwind at 2991 returned 404 and is not admitted to the verified shortlist; identity itself needs checking before that candidate is used.
+Gadrin's current node explicitly reports Horde-friendly reaction and a Durotar pin. The other four current definitions confirm identity/race but omit reaction/location fields; current quest/dialogue or equivalent current client evidence must fill those gaps before authoring. They are not marked friendly merely because they are orcs, trolls or Tauren. Greatmother Hawkwind (2991), Chief Hawkwind's mother, is identified in the primary quest text. Her current node returned 404; current availability still needs review before she is added to the shortlist. The missing node does not establish death or removal.
 
 Four of these candidates are absent from the original filtered public catalog. This shows why that snapshot is not an exhaustive census of eligible Horde NPCs. They are retained through the explicit research-priority source with uncertainty visible, rather than excluded as generic or silently treated as removed. No account/character progress is changed by this authoring queue.
 

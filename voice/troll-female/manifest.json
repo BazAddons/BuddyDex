@@ -1,0 +1,42 @@
+{
+  "lore5884_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5884",
+    "spoken": "[sincere friendly pleasure, poised, gently amused] I would enjoy a walk with you. Keep your eyes open and tell me what catches your attention. We need not turn every observation into a lesson. A little curiosity and good company can make the journey pleasant enough by themselves.",
+    "text": "I would enjoy a walk with you. Keep your eyes open and tell me what catches your attention. We need not turn every observation into a lesson. A little curiosity and good company can make the journey pleasant enough by themselves.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5884_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5884",
+    "spoken": "[confident warm welcome, lightly teasing, composed] There you are. Come and sit a moment. I have found a pleasant angle for this little fan, and I am prepared to enjoy it. Tell me what you have been learning. You may find I have an opinion, especially if you tried to hurry the lesson.",
+    "text": "There you are. Come and sit a moment. I have found a pleasant angle for this little fan, and I am prepared to enjoy it. Tell me what you have been learning. You may find I have an opinion, especially if you tried to hurry the lesson.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5884_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5884",
+    "spoken": "[thoughtful amused satisfaction, observant, relaxed] A scrap of paper, a few folds, and a little care with the angle. That is all this fan needs. I like the moment when a small adjustment makes it work better. It pays to notice what the thing in your hand is actually doing.",
+    "text": "A scrap of paper, a few folds, and a little care with the angle. That is all this fan needs. I like the moment when a small adjustment makes it work better. It pays to notice what the thing in your hand is actually doing.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore5884_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5884",
+    "spoken": "[firm patient encouragement, knowing warmth] Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked.",
+    "text": "Good. Now give yourself time to understand what you have learned. Watch what changes when you try it carefully. Confidence has its uses, but I am much more interested in the moment when you can explain why something worked.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  }
+}

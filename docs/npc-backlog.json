@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 251,
-  "remaining_count": 7,
+  "completed_count": 254,
+  "remaining_count": 4,
   "completed": [
     {
       "npc_id": 54,
@@ -1316,6 +1316,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 2981,
+      "name": "Chief Hawkwind",
+      "zone": "Mulgore",
+      "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+      "research_notes": "docs/research/horde-starter-trio.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3085,
       "name": "Gloria Femmel",
       "zone": "Redridge Mountains",
@@ -1341,6 +1351,16 @@
       "zone": "Redridge Mountains",
       "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
       "research_notes": "docs/research/lakeshire-three-suppliers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3188,
+      "name": "Master Gadrin",
+      "zone": "Durotar",
+      "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+      "research_notes": "docs/research/horde-starter-trio.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1692,6 +1712,16 @@
       "name": "Kayla Smithe",
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5884,
+      "name": "Mai'ah",
+      "zone": "Durotar",
+      "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
+      "research_notes": "docs/research/horde-starter-trio.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -2305,27 +2335,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 3188,
-      "name": "Master Gadrin",
-      "zone": "Durotar",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2981,
-      "name": "Chief Hawkwind",
-      "zone": "Mulgore",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 5884,
-      "name": "Mai'ah",
-      "zone": "Durotar",
-      "source": "Coverage-first research priority; eligibility/lore pending",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 3287,
       "name": "Hana'zua",
