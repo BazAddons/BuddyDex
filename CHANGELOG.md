@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Complete Grull Hawkwind and Seer Graytongue in Mulgore, each with fifteen personal lines and four Eleven v4 signature recordings in the selected Tauren male voice.
+
 - Complete Hana'zua and Zureetha Fargaze in the Valley of Trials, with fifteen personal lines and four Eleven v4 recordings each in the selected troll male and orc female voices.
 
 - Begin the balanced starter-coverage rotation with Master Gadrin, Chief Hawkwind, and Mai'ah: full profiles, fifteen personal lines and four Eleven v4 signature recordings each. Add troll male/female and Tauren voice routing using the selected racial voices.

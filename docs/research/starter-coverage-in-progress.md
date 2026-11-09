@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 52 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 53 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -30,6 +30,6 @@ Horde starter batches take priority while the imbalance is large. Alternate unde
 
 ## Next Mulgore rotation
 
-After the two remaining Durotar profiles were completed, the research queue adds Grull Hawkwind (2980), Seer Graytongue (2982), Lanka Farshot (3061), and Meela Dawnstrider (3062). They are candidates, not completed profiles or verified personal Scout encounters. Current published Forever pages identify the first three in Mulgore, including Lanka's hunter-trainer title. Meela's current page presented a robot check; Classic identity and current client/quest evidence must be reviewed before authoring. No race, sex, adult model or friendly-access decision is inferred from a name or role alone.
+After the two remaining Durotar profiles were completed, the research queue adds Grull Hawkwind (2980), Seer Graytongue (2982), Lanka Farshot (3061), and Meela Dawnstrider (3062). Grull and Graytongue now have completed profiles and four recordings each; see [their research notes](mulgore-hunter-and-seer.md). Lanka and Meela remain research candidates. No personal Scout encounter is claimed. Current published Forever pages identify the first three in Mulgore, including Lanka's hunter-trainer title. Meela's current page presented a robot check; Classic identity and current client/quest evidence must be reviewed before authoring. No race, sex, adult model or friendly-access decision is inferred from a name or role alone.
 
 Research starting links: [Grull](https://www.wowhead.com/forever/npc=2980/grull-hawkwind), [Graytongue](https://www.wowhead.com/forever/npc=2982/seer-graytongue), [Lanka](https://www.wowhead.com/forever/npc=3061/lanka-farshot), [Meela](https://www.wowhead.com/forever/npc=3062/meela-dawnstrider).

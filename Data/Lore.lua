@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Grull Hawkwind (2980), adult male tauren, Camp Narache, display 3808 (6 / 0).
+    -- 747/750/780 provision the tribe; Chief Hawkwind is his father; 3091-3094 trainer referrals.
+    -- Enthusiasm for the last spoonful of stew is original, not a new vendor/cooking service.
+    -- docs/research/mulgore-hunter-and-seer.md.
+    [2980] = {
+        quote = "Bring back something the camp can use, and you have a hunt worth speaking of. A full pot tells me more than a wall of trophies.",
+        likes = { "Meat and hides put to good use", "A hunter who remembers the camp", "The last spoonful from a stew pot" },
+        dislikes = { "Good provisions wasted for a boast", "Bristlebacks threatening the hunting grounds", "Finding the pot already washed" },
+        gossip = "Grull always inspects the stew pot after a meal. The camp suspects he is judging how well the hunters have provided.",
+        bio = "Grull Hawkwind helps provision Camp Narache on Red Cloud Mesa. He sends hunters for meat, feathers and pelts, then against the battleboars threatening the hunting grounds. Chief Hawkwind is his father.",
+        backstory = "Once, after everyone had eaten, he tasted the little stew left at the bottom of the pot. It was richer than his first bowl. Now he takes a quiet interest in whether there might be one good spoonful left.",
+        secret = "His inspection is mostly hopeful. The last spoonful is his favorite, and he would gladly split it with a friend. Half a taste is still worth having.",
+        bestFriend = "Come, before someone washes that pot. There may be a little left, and I have decided that you deserve half.",
+        favorite = { emote = "THANK", hint = "Recognize the work that keeps the whole camp fed and clothed." },
+        lines = {
+            greet = { { "Welcome, friend. What has the day brought you? A useful hunt, I hope, or at least a story we can enjoy over a meal. I have been keeping an eye on the stew pot. There may yet be something worth sharing at the bottom.", tone = "[deep hearty welcome, practical warmth, lightly conspiratorial at the end]" }, "Good to see you. How has the hunt treated you?" },
+            idle = { { "You can keep the grand trophy. Give me a good hide, meat for the pot, and something useful to carry home. Those are things the camp will remember when the boasting is over. Though I admit I am especially attentive when the pot is nearly empty.", tone = "[rich grounded conviction, warm humor, quietly pleased]" }, "A pelt can mean a dry tent. Remember that when you count your successes.", "One spoonful left? That sounds like something we should investigate." },
+            befriended = { { "I would be glad to come along. You seem to remember there are people at the end of the road who need what we bring back. That matters to me. And if we find a good meal, I promise to divide the last spoonful fairly.", tone = "[sincere generous warmth, easy confidence, amused promise]" } },
+            poke = { "Yes? Have you something useful to show me?", "If this is about the pot, I was only looking." },
+            quest = { { "Good work. Think of what those supplies will become. A meal, a mended shelter, clothing that keeps someone warm. It is easy to see only the hunt while you are out there. I like to remember what happens after we carry it home.", tone = "[deep proud approval, thoughtful, warmly encouraging]" } },
+            loot = { "Will someone have a use for it? That is a good reason to bring it back." },
+            bagsFull = { "A full pack asks for choices. Keep the useful things in mind." },
+            rest = { "A pause, and perhaps a bite to eat. That sounds sensible." },
+            thanked = { "You are welcome. The camp does better when we all contribute." },
+            levelUp = { "Your skill grows. Put it to work for someone besides yourself." },
+            hearth = { "Home again. Let us see what we have brought to the camp." },
+        },
+    },
+    -- Seer Graytongue (2982), adult male tauren, hills south of Narache, display 3813 (6 / 0).
+    -- 755 receives Chief's initiate; 757 sends them against Bristlebacks, proof returned to Chief.
+    -- Private wordplay is original. No new rite, prophecy, spell reward or later retail death.
+    -- docs/research/mulgore-hunter-and-seer.md.
+    [2982] = {
+        quote = "Bravery is more than feeling ready. Understand what you are protecting, and take the first step with your eyes open.",
+        likes = { "An initiate who takes the rites seriously", "Courage in defense of the tribe", "A rhyme too dreadful to keep to himself" },
+        dislikes = { "Bristleback raids on the village", "Pride mistaken for proof of valor", "A good word left without a rhyme" },
+        gossip = "Graytongue pauses in the middle of a quiet murmur. Visitors wonder whether he has heard a message they cannot.",
+        bio = "Seer Graytongue receives Chief Hawkwind's initiates in the hills south of Camp Narache. He sets them on the Rite of Strength against the Bristlebacks of Brambleblade Ravine, sending their proof of valor back to the Chief.",
+        backstory = "A word from a conversation caught in his thoughts, and he tried finding others that sounded like it. Soon he had a short, ridiculous rhyme. He enjoyed it enough to try another while walking in the hills.",
+        secret = "The pause is sometimes a search for a rhyme. He is rather pleased with 'Bristleback' and 'whistle back,' though he has not found a dignified use for them.",
+        bestFriend = "Come close. I have a very poor rhyme, and I trust you to enjoy it without asking me to make it a lesson.",
+        favorite = { emote = "GRIN", hint = "Let him see that you can share a quiet bit of mischief beneath the solemn words." },
+        lines = {
+            greet = { { "Welcome. You have come with something on your mind. Speak, and I will listen. If you catch me pausing afterward, do not assume the answer is a mystery. I may simply be trying to stop a very poor rhyme from escaping into the conversation.", tone = "[deep composed welcome, attentive, a restrained playful smile]" }, "Come, tell me what brings you into the hills." },
+            idle = { { "Bristleback. Whistle back. Yes, I know. There must be a better use for those words than the one I have found. You need not look so solemn. I am allowed to enjoy a foolish rhyme without declaring it part of the rites.", tone = "[low resonant voice, dry mischievous humor, gentle amusement]" }, "A serious purpose leaves room for a little laughter along the way.", "The first step deserves care. So does the person taking it." },
+            befriended = { { "I would welcome your company. We can speak of what you have learned, or find something pleasant to notice along the path. A friend need not bring a test to every meeting. I will even spare you my worst rhyme, unless you ask to hear it.", tone = "[steady sincere affection, patient warmth, quietly teasing]" } },
+            poke = { "I am listening. What would you ask?", "A moment. I was following a thought, and it has taken an amusing turn." },
+            learned = { { "A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.", tone = "[calm thoughtful instruction, firm kindness, encouraging]" } },
+            quest = { "You have followed a task through. Take time to understand what it showed you." },
+            combatStart = { "Remember what you are protecting. Keep your head clear." },
+            lowHealth = { "Take care of yourself. Courage still needs judgment." },
+            laughAlong = { "Good. I hoped you would enjoy that as much as I did." },
+            levelUp = { "More strength, and another chance to use it wisely." },
+            hearth = { "A familiar place can give a thought room to settle." },
+        },
+    },
+
     -- Hana'zua (3287), adult male troll, Valley of Trials, display 2025 (race 8 / sex 0).
     -- Sarkoth 790/804: wounded hunter, father's criticism, renewed resolve, Gornek promises aid.
     -- Watching ordinary ants is original. No cure, death or completed rescue is assumed.

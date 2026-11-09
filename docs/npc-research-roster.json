@@ -357,5 +357,19 @@
     "zone": "Durotar",
     "source": "Reviewed Forever identity, full Classic/Forever quest chains and installed quest dialogue; no personal Scout encounter claimed",
     "research_notes": "docs/research/valley-trials-hunter-and-guide.md"
+  },
+  {
+    "npc_id": 2980,
+    "name": "Grull Hawkwind",
+    "zone": "Mulgore",
+    "source": "Reviewed current Forever identity/model, full primary quests, class notes and installed dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/mulgore-hunter-and-seer.md"
+  },
+  {
+    "npc_id": 2982,
+    "name": "Seer Graytongue",
+    "zone": "Mulgore",
+    "source": "Reviewed current Forever identity/model, full primary quests, class notes and installed dialogue; no personal Scout encounter claimed",
+    "research_notes": "docs/research/mulgore-hunter-and-seer.md"
   }
 ]

@@ -1,4 +1,44 @@
 {
+  "lore2980_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2980",
+    "spoken": "[sincere generous warmth, easy confidence, amused promise] I would be glad to come along. You seem to remember there are people at the end of the road who need what we bring back. That matters to me. And if we find a good meal, I promise to divide the last spoonful fairly.",
+    "text": "I would be glad to come along. You seem to remember there are people at the end of the road who need what we bring back. That matters to me. And if we find a good meal, I promise to divide the last spoonful fairly.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2980_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2980",
+    "spoken": "[deep hearty welcome, practical warmth, lightly conspiratorial at the end] Welcome, friend. What has the day brought you? A useful hunt, I hope, or at least a story we can enjoy over a meal. I have been keeping an eye on the stew pot. There may yet be something worth sharing at the bottom.",
+    "text": "Welcome, friend. What has the day brought you? A useful hunt, I hope, or at least a story we can enjoy over a meal. I have been keeping an eye on the stew pot. There may yet be something worth sharing at the bottom.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2980_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2980",
+    "spoken": "[rich grounded conviction, warm humor, quietly pleased] You can keep the grand trophy. Give me a good hide, meat for the pot, and something useful to carry home. Those are things the camp will remember when the boasting is over. Though I admit I am especially attentive when the pot is nearly empty.",
+    "text": "You can keep the grand trophy. Give me a good hide, meat for the pot, and something useful to carry home. Those are things the camp will remember when the boasting is over. Though I admit I am especially attentive when the pot is nearly empty.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2980_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2980",
+    "spoken": "[deep proud approval, thoughtful, warmly encouraging] Good work. Think of what those supplies will become. A meal, a mended shelter, clothing that keeps someone warm. It is easy to see only the hunt while you are out there. I like to remember what happens after we carry it home.",
+    "text": "Good work. Think of what those supplies will become. A meal, a mended shelter, clothing that keeps someone warm. It is easy to see only the hunt while you are out there. I like to remember what happens after we carry it home.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore2981_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -37,6 +77,46 @@
     "source": "lore:2981",
     "spoken": "[calm elder encouragement, thoughtful, warmly practical] A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not.",
     "text": "A new lesson. Give it care before you measure yourself by how quickly you master it. Even a small carving asks the hand to learn. With patience, the next attempt may teach you something the first one could not.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2982_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2982",
+    "spoken": "[steady sincere affection, patient warmth, quietly teasing] I would welcome your company. We can speak of what you have learned, or find something pleasant to notice along the path. A friend need not bring a test to every meeting. I will even spare you my worst rhyme, unless you ask to hear it.",
+    "text": "I would welcome your company. We can speak of what you have learned, or find something pleasant to notice along the path. A friend need not bring a test to every meeting. I will even spare you my worst rhyme, unless you ask to hear it.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2982_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2982",
+    "spoken": "[deep composed welcome, attentive, a restrained playful smile] Welcome. You have come with something on your mind. Speak, and I will listen. If you catch me pausing afterward, do not assume the answer is a mystery. I may simply be trying to stop a very poor rhyme from escaping into the conversation.",
+    "text": "Welcome. You have come with something on your mind. Speak, and I will listen. If you catch me pausing afterward, do not assume the answer is a mystery. I may simply be trying to stop a very poor rhyme from escaping into the conversation.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2982_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2982",
+    "spoken": "[low resonant voice, dry mischievous humor, gentle amusement] Bristleback. Whistle back. Yes, I know. There must be a better use for those words than the one I have found. You need not look so solemn. I am allowed to enjoy a foolish rhyme without declaring it part of the rites.",
+    "text": "Bristleback. Whistle back. Yes, I know. There must be a better use for those words than the one I have found. You need not look so solemn. I am allowed to enjoy a foolish rhyme without declaring it part of the rites.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore2982_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2982",
+    "spoken": "[calm thoughtful instruction, firm kindness, encouraging] A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.",
+    "text": "A new lesson asks something of you beyond remembering its words. Try it with care, and notice where your understanding holds. There is no shame in a question. I would rather hear one honest uncertainty than watch someone mistake a proud face for wisdom.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }
