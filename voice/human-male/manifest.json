@@ -2811,6 +2811,46 @@
     "text": "A crooked apple can still be sweet. Worth remembering when you're choosing.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore918_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:918",
+    "spoken": "[reserved affection, pleased, inviting] You came to bring me along. I am glad, my friend. Come on. A little company with no message to deliver will be welcome.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. A little company with no message to deliver will be welcome.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore918_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:918",
+    "spoken": "[low-key warmth, knowing amusement, welcoming] There you are, my friend. Shall we take a walk? Keep an ear open. There is a tune I should like you to hear, if someone happens to be playing it today.",
+    "text": "There you are, my friend. Shall we take a walk? Keep an ear open. There is a tune I should like you to hear, if someone happens to be playing it today.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore918_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:918",
+    "spoken": "[dry amusement, relaxed fondness, confiding] I know it from the first few notes. What is it called? Never learned the name. Sometimes I leave a coin before the best part, in the hope of hearing it twice. There, a modest secret for you.",
+    "text": "I know it from the first few notes. What is it called? Never learned the name. Sometimes I leave a coin before the best part, in the hope of hearing it twice. There, a modest secret for you.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore918_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:918",
+    "spoken": "[quiet approval, measured encouragement, attentive] Good. Now give yourself time to notice when the lesson is useful. Knowing a trick and choosing the right moment for it are both worth learning.",
+    "text": "Good. Now give yourself time to notice when the lesson is useful. Knowing a trick and choosing the right moment for it are both worth learning.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore927_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

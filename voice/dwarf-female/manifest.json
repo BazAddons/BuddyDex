@@ -79,6 +79,46 @@
     "text": "A letter. I hope someone far away has remembered to write of the little things.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore2879_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2879",
+    "spoken": "[sincere affection, pleased, warmly inviting] You came to bring me along. Aye, I am glad, my friend. Come on. It will be good to share some time and hear how you have been.",
+    "text": "You came to bring me along. Aye, I am glad, my friend. Come on. It will be good to share some time and hear how you have been.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2879_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2879",
+    "spoken": "[brisk warmth, friendly interest, welcoming] Ah, my friend. Have you time for a walk? Tell me what has gone well today. I like hearing about the small successes people nearly forget to mention.",
+    "text": "Ah, my friend. Have you time for a walk? Tell me what has gone well today. I like hearing about the small successes people nearly forget to mention.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2879_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2879",
+    "spoken": "[fond amusement, delighted restraint, conversational] When a lesson finally works, I want to applaud. Loudly. Which might unsettle everyone I have just helped settle down. I manage a grin instead. A very broad one, sometimes.",
+    "text": "When a lesson finally works, I want to applaud. Loudly. Which might unsettle everyone I have just helped settle down. I manage a grin instead. A very broad one, sometimes.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore2879_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2879",
+    "spoken": "[bright encouragement, approving, sincere] There, you have it. Be pleased with yourself. Give the practice its credit, and give yourself time to feel what has become easier.",
+    "text": "There, you have it. Be pleased with yourself. Give the practice its credit, and give yourself time to feel what has become easier.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "lore5099_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

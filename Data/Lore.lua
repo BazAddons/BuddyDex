@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Osborne the Night Man 918, human male Rogue Trainer outside SI:7,
+    -- Old Town: coin-purse joke, important messages, retraining, historical
+    -- Ravenholdt referral. Karrina Mekenda 2879, dwarf female Pet Trainer,
+    -- Dwarven District: teaches hunters lessons for their pets. Current
+    -- service tables checked. Original street-tune interest and restrained
+    -- delight: docs/research/osborne-and-karrina.md. No later Muzzle bear.
+    [918] = {
+        quote = "Take a moment to notice what happens while someone explains what sort of person they are. You may learn something useful in the pause.",
+        likes = { "A careful eye and a quiet question", "Private business kept with its owner", "The first notes of a familiar street tune" },
+        dislikes = { "A secret explained across the square", "A flourish that gives the game away", "Someone mistaking a joke for permission" },
+        gossip = "Osborne notices the street. He seems especially willing to pause when a musician begins one particular tune, though he has never named it.",
+        bio = "Osborne the Night Man trains rogues outside SI:7 in Stormwind's Old Town. His greeting jokes about watching his purse. He also passes along important messages, and offers retraining to students ready to change their approach.",
+        backstory = "Osborne's work rewards observation and discretion. He also enjoys listening to the street. One musician's tune has become a particular favorite: he recognizes the opening at once, though he has never learned its name.",
+        secret = "Sometimes he leaves a coin before the musician reaches the part he likes best. He hopes the tune will be played again. It is an ordinary pleasure he prefers to keep ordinary.",
+        bestFriend = "Walk a little with me. If the tune starts, we can stop. No private business to explain; I should simply like you here to enjoy it with me.",
+        favorite = { emote = "WINK", hint = "A small, knowing gesture suits a conversation that needn't announce itself to the whole street." },
+        lines = {
+            greet = { { "There you are, my friend. Shall we take a walk? Keep an ear open. There is a tune I should like you to hear, if someone happens to be playing it today.", tone = "[low-key warmth, knowing amusement, welcoming]" }, "Good to see you. Have you a quiet moment to spare?" },
+            idle = { { "I know it from the first few notes. What is it called? Never learned the name. Sometimes I leave a coin before the best part, in the hope of hearing it twice. There, a modest secret for you.", tone = "[dry amusement, relaxed fondness, confiding]" }, "A little observation is useful before you decide you know what is happening.", "If the business is private, the whole square needn't help us discuss it." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. A little company with no message to deliver will be welcome.", tone = "[reserved affection, pleased, inviting]" } },
+            poke = { "Yes? You have my attention.", "I am listening. Keep it as plain as you like." },
+            learned = { { "Good. Now give yourself time to notice when the lesson is useful. Knowing a trick and choosing the right moment for it are both worth learning.", tone = "[quiet approval, measured encouragement, attentive]" } },
+            mail = { "A message? Let us see who meant it for you." },
+            loot = { "Something worth a closer look? Take the moment to be sure." },
+            zone = { "Somewhere new. Take a moment to notice who is here before announcing yourself." },
+            combatEnd = { "Everyone clear? Good. Let us take a moment before moving." },
+            rest = { "A seat and a little time to listen. That sounds promising." },
+            hearth = { "Back to Old Town. There may be something worth hearing in the street." },
+        },
+    },
+    [2879] = {
+        quote = "Give the animal time to understand you. A lesson goes better when the hunter remembers there are two of them learning to work together.",
+        likes = { "A hunter paying attention to a companion", "Small progress noticed and encouraged", "A lesson ending with both sides calmer" },
+        dislikes = { "Trying to hurry learning with shouting", "A companion treated like a trophy", "Forgetting to notice what has improved" },
+        gossip = "Karrina values patient practice. When a lesson goes well, the grin she tries to contain suggests the waiting matters to her too.",
+        bio = "Karrina Mekenda is a pet trainer in Stormwind's Dwarven District. She teaches hunters lessons to pass on to their companions. Her training covers Growl, stamina, armor and resistances, preparing pets for the road.",
+        backstory = "Hunters come to Karrina with something to teach their pets. She likes the moment when a lesson begins to make sense to both of them. The new ability matters, but so does a hunter learning to notice the companion who is learning alongside them.",
+        secret = "When a lesson finally works, she has to resist applauding loudly and unsettling everyone again. She settles for a broad grin, then enjoys hearing how things go on the road.",
+        bestFriend = "Stay a while, friend. Tell me something that made you smile today. I like hearing about the small things that have gone well.",
+        favorite = { emote = "PRAISE", hint = "A kind acknowledgment suits someone who remembers how much practice a small success can take." },
+        lines = {
+            greet = { { "Ah, my friend. Have you time for a walk? Tell me what has gone well today. I like hearing about the small successes people nearly forget to mention.", tone = "[brisk warmth, friendly interest, welcoming]" }, "Good to see you. Shall we have a little time outside?" },
+            idle = { { "When a lesson finally works, I want to applaud. Loudly. Which might unsettle everyone I have just helped settle down. I manage a grin instead. A very broad one, sometimes.", tone = "[fond amusement, delighted restraint, conversational]" }, "A hunter has things to learn from a companion, as well as things to teach.", "It is worth noticing a little progress before asking for more." },
+            befriended = { { "You came to bring me along. Aye, I am glad, my friend. Come on. It will be good to share some time and hear how you have been.", tone = "[sincere affection, pleased, warmly inviting]" } },
+            poke = { "Aye? Have you a question?", "I am listening. Tell me what you noticed." },
+            learned = { { "There, you have it. Be pleased with yourself. Give the practice its credit, and give yourself time to feel what has become easier.", tone = "[bright encouragement, approving, sincere]" } },
+            combatEnd = { "Everyone all right? Take a moment to see who needs attention." },
+            levelUp = { "A little stronger. Take care of yourself and the companions who share the road." },
+            quest = { "Good work. Remember who helped you get it done." },
+            zone = { "Somewhere new to look around. Give yourself time to take it in." },
+            rest = { "A seat sounds good. Tell me something you have been pleased to learn." },
+            hearth = { "Back to Stormwind. There will be more to teach, and plenty still to notice." },
+        },
+    },
+
     -- Old Town human male merchants: Bryan Cross 1319, shields at The
     -- Silver Shield; Heinrich Stone 1324, blades at Honest Blades; Gerik
     -- Koen 1333, Heavy Handed Weapons. Shared tested-gear/fixed-price
