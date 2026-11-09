@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Old Town, Stormwind. Alyssa Griffith 1321: human female Bag Vendor;
+    -- Seoman Griffith 1320: human male Leather Armor Merchant, Protective
+    -- Hide. Mayda Thane 1339: human female Cobbler, Thane's Boots. Shared
+    -- fixed-price service dialogue; no verified personal quest chains.
+    -- Original packing, leather ball and squeaky boots hooks documented in
+    -- docs/research/old-town-packs-and-boots.md. No invented family tree.
+    [1321] = {
+        quote = "A larger bag is useful. Deciding what you actually need is useful too. I can help with the first; do try to manage the second.",
+        likes = { "A bag that closes without an argument", "A sensible list before a long journey", "Room for one unplanned pleasure" },
+        dislikes = { "A strap asked to carry a whole quarry", "An agreed price argued all over again", "Calling a sturdy bag beneath notice" },
+        gossip = "Alyssa has advice for a crowded pack. Her own has a space left over, though she gets vague when asked what she plans to put there.",
+        bio = "Alyssa Griffith sells bags at the Protective Hide in Stormwind's Old Town. She is confident in the quality of her goods and firm about the price. A useful purchase should be ready for the weight and wear of someone's actual journey.",
+        backstory = "Thinking about what people carry has made Alyssa a careful packer. Yet she leaves a little room in her own bag. An outing improves when there is space for something she had not put on a list, or a reason to take a different way home.",
+        secret = "That empty space has no assigned purpose. She likes being prepared, but she also likes the thought of finding a book or a little pleasure she had not planned for.",
+        bestFriend = "I have left a little room today. Choose a turning we hadn't planned to take. If we find something worth carrying home, I shall manage the packing.",
+        favorite = { emote = "THANK", hint = "Simple gratitude is welcome to a merchant who prefers clear business to haggling." },
+        lines = {
+            greet = { { "There you are. An outing? Good. I have packed sensibly and left a little room. You may choose what we do with the rest of the day.", tone = "[practical warmth, dry humor, quietly pleased]" }, "Good to see you. Have you brought what you need, or everything you own?" },
+            idle = { { "The empty space in my bag has no assigned purpose. I am allowed one unplanned pleasure. I have planned for it very carefully.", tone = "[dry self-aware humor, confiding, warm]" }, "A strap can do a great deal of work. It cannot make your decisions for you.", "You may find an ordinary sturdy bag worth appreciating after a long road." },
+            befriended = { { "You came for my company. I am pleased, my friend. Let us go. I have made room for an afternoon that was not on the list.", tone = "[reserved affection, pleased, gently playful]" } },
+            poke = { "Yes? Have you lost something in that pack again?", "You have my attention. What do you need?" },
+            bagsFull = { { "Before you ask for a larger bag, have a look at what you are carrying. Something in there may have finished being useful.", tone = "[firm practicality, wry, helpful]" } },
+            loot = { "Worth the room? Good. Then put it somewhere sensible." },
+            quest = { "A useful thing done. Perhaps we have time for a little detour now." },
+            mail = { "Read it before deciding it belongs at the bottom of your bag." },
+            zone = { "New ground. There may be something here neither of us thought to put on a list." },
+            rest = { "A seat would be welcome. Set the pack down properly." },
+            hearth = { "Home again. Now let us see what was worth bringing back." },
+        },
+    },
+    [1320] = {
+        quote = "Good gear earns its keep. Give something proper care, and it may still have a useful day in it long after the shine has gone.",
+        likes = { "A piece of gear that earns its keep", "A fair game with friendly company", "A stubborn old leather ball" },
+        dislikes = { "Sound work dismissed for being plain", "A settled price reopened for sport", "A friendly game turned mean" },
+        gossip = "Seoman can be firm about a sale. Ask whether his old ball has worn out, and he defends it with more enthusiasm than his stock.",
+        bio = "Seoman Griffith sells leather armor at the Protective Hide in Stormwind's Old Town. He stands by the quality of his goods and keeps his prices firm. He likes useful things cared for well, even when their best-looking days are behind them.",
+        backstory = "Seoman has kept an old leather ball through a good many games. Each scuff reminds him that it has been used. He finds a familiar weight in his hands more appealing than a fine new thing he would be afraid to throw.",
+        secret = "He calls the ball perfectly serviceable with great dignity. Then he tries to persuade someone to have a game. He misses the company sooner than he notices another scuff.",
+        bestFriend = "Here, catch. There is nothing to win and nothing to buy. I should like a little of your time, and I promise the ball has another game in it.",
+        favorite = { emote = "SMILE", hint = "A friendly smile may open a conversation that has nothing to do with the price." },
+        lines = {
+            greet = { { "Ah, my friend. Shall we go out? I brought the old ball. There may be somewhere with enough room for a little game.", tone = "[steady warmth, understated enthusiasm, welcoming]" }, "Good to see you. Have you time for something that isn't an errand?" },
+            idle = { { "The ball is perfectly serviceable. Yes, I know how it looks. You should see how many good afternoons have gone into those scuffs.", tone = "[mock dignity, fond amusement, relaxed]" }, "Good care can keep a useful thing going for a surprisingly long time.", "A fair price saves time for a more interesting conversation." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. Let us find somewhere to enjoy a little time without a counter between us.", tone = "[sincere affection, quietly pleased, inviting]" } },
+            poke = { "Yes? Were you asking for a throw?", "I am listening. Go on." },
+            gear = { { "How does it feel? Good equipment should be useful to the person wearing it. Take a moment to decide for yourself.", tone = "[practical interest, considerate, steady]" } },
+            loot = { "Sound work? Then take care of it." },
+            quest = { "Well done. You have made someone's day a little easier." },
+            zone = { "A little room over there, perhaps. What do you think?" },
+            group = { "Good company for a fair game, if we have a moment." },
+            rest = { "A seat sounds good. We needn't be doing something useful every moment." },
+            hearth = { "Back to Old Town. Thank you for an afternoon worth remembering." },
+        },
+    },
+    [1339] = {
+        quote = "Walk a little before you decide. A fine-looking pair of boots still has to go where you are going.",
+        likes = { "A customer who walks before choosing", "A familiar tread outside the shop", "Old boots given another useful year" },
+        dislikes = { "Judging footwear only while sitting", "Mud driven across a clean floor", "A rushed choice that pinches all day" },
+        gossip = "Mayda is serious about good footwear. Her favorite walking boots have one small squeak she seems in no hurry to mend.",
+        bio = "Mayda Thane is the cobbler at Thane's Boots in Stormwind's Old Town. She sells footwear in several kinds of armor and is firm about its quality and price. She likes a customer to think about the walk ahead before being dazzled by appearances.",
+        backstory = "Working around boots has made Mayda fond of a familiar tread at the door. She has a favorite old walking pair herself. One has acquired a little squeak, a sound that has become as familiar as the feel of the leather.",
+        secret = "She could do something about the squeak. She is not certain she wants to. Hearing it on a quiet walk makes her feel comfortably accompanied by an old acquaintance.",
+        bestFriend = "If you hear a little squeak coming after you, you'll know it's me. Save me a place beside you, and we can take our time getting home.",
+        favorite = { emote = "GREET", hint = "A familiar greeting at the door can brighten a cobbler's working day." },
+        lines = {
+            greet = { { "Good to see you. A walk would be lovely. I have my old boots on, so you may hear a little accompaniment along the way.", tone = "[practical warmth, easy amusement, welcoming]" }, "There you are. Have we time to enjoy the walk, or is someone waiting at the other end?" },
+            idle = { { "I could mend the squeak. I know. It has been keeping me company for rather a long time. I am not sure I would like the silence.", tone = "[fond amusement, reflective, confiding]" }, "You learn more about a pair of boots by walking in them than admiring them.", "A familiar step outside the door is a pleasant thing to hear." },
+            befriended = { { "You came to take me along. Thank you, my friend. Let us have a proper walk, with no hurry at either end of it.", tone = "[sincere affection, pleased, relaxed]" } },
+            poke = { "Yes? No, I haven't mistaken that for the squeak.", "You have my attention. What is it?" },
+            gear = { { "Move about a little. Comfortable? Good. You are the one who has to live in it after everyone has finished admiring it.", tone = "[firm practical encouragement, lightly wry, warm]" } },
+            zone = { "Different ground underfoot. Let us see where it leads." },
+            quest = { "A good errand finished. Perhaps the next walk can be for pleasure." },
+            bagsFull = { "You will feel every extra bit by the end of the road." },
+            rest = { "A seat sounds sensible. Give your feet a moment." },
+            learned = { "There. A little more experience to carry with you." },
+            hearth = { "Back to the shop. I hope those boots have treated you well." },
+        },
+    },
+
     -- Jenova Stoneshield 11069: dwarf female Stable Master, Dwarven
     -- District; confirmed hunter-pet care, no verified personal quests.
     -- Erich Lohan 3627: human male Blue Recluse barker, Mage Quarter;

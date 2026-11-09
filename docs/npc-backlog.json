@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 120,
-  "remaining_count": 97,
+  "completed_count": 123,
+  "remaining_count": 94,
   "completed": [
     {
       "npc_id": 54,
@@ -382,6 +382,33 @@
     {
       "npc_id": 1313,
       "name": "Maria Lumere",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1320,
+      "name": "Seoman Griffith",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1321,
+      "name": "Alyssa Griffith",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1339,
+      "name": "Mayda Thane",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1182,13 +1209,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1321,
-      "name": "Alyssa Griffith",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 258568,
       "name": "Antonio Bolero",
       "zone": "Stormwind City",
@@ -1413,13 +1433,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 1339,
-      "name": "Mayda Thane",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 12480,
       "name": "Melris Malagan",
       "zone": "Stormwind City",
@@ -1506,13 +1519,6 @@
     {
       "npc_id": 5567,
       "name": "Sellandus",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1320,
-      "name": "Seoman Griffith",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

@@ -359,6 +359,86 @@
     "text": "Something useful? Keep it safe. And if it only happens to be pretty, you're allowed to enjoy that too.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore1321_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:1321",
+    "spoken": "[firm practicality, wry, helpful] Before you ask for a larger bag, have a look at what you are carrying. Something in there may have finished being useful.",
+    "text": "Before you ask for a larger bag, have a look at what you are carrying. Something in there may have finished being useful.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1321_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1321",
+    "spoken": "[reserved affection, pleased, gently playful] You came for my company. I am pleased, my friend. Let us go. I have made room for an afternoon that was not on the list.",
+    "text": "You came for my company. I am pleased, my friend. Let us go. I have made room for an afternoon that was not on the list.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1321_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1321",
+    "spoken": "[practical warmth, dry humor, quietly pleased] There you are. An outing? Good. I have packed sensibly and left a little room. You may choose what we do with the rest of the day.",
+    "text": "There you are. An outing? Good. I have packed sensibly and left a little room. You may choose what we do with the rest of the day.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1321_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1321",
+    "spoken": "[dry self-aware humor, confiding, warm] The empty space in my bag has no assigned purpose. I am allowed one unplanned pleasure. I have planned for it very carefully.",
+    "text": "The empty space in my bag has no assigned purpose. I am allowed one unplanned pleasure. I have planned for it very carefully.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1339_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1339",
+    "spoken": "[sincere affection, pleased, relaxed] You came to take me along. Thank you, my friend. Let us have a proper walk, with no hurry at either end of it.",
+    "text": "You came to take me along. Thank you, my friend. Let us have a proper walk, with no hurry at either end of it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1339_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1339",
+    "spoken": "[firm practical encouragement, lightly wry, warm] Move about a little. Comfortable? Good. You are the one who has to live in it after everyone has finished admiring it.",
+    "text": "Move about a little. Comfortable? Good. You are the one who has to live in it after everyone has finished admiring it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1339_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1339",
+    "spoken": "[practical warmth, easy amusement, welcoming] Good to see you. A walk would be lovely. I have my old boots on, so you may hear a little accompaniment along the way.",
+    "text": "Good to see you. A walk would be lovely. I have my old boots on, so you may hear a little accompaniment along the way.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore1339_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1339",
+    "spoken": "[fond amusement, reflective, confiding] I could mend the squeak. I know. It has been keeping me company for rather a long time. I am not sure I would like the silence.",
+    "text": "I could mend the squeak. I know. It has been keeping me company for rather a long time. I am not sure I would like the silence.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore1428_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

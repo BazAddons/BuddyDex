@@ -1163,7 +1163,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -23369,7 +23369,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -29522,7 +29522,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38872,6 +38872,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 1339,
+      "name": "Mayda Thane",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Mayda Thane",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 1472,
       "name": "Morgg Stormshot",
       "source": "Existing local backlog; absent from source filter",
@@ -39361,17 +39372,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Lenny \"Fingers\" McCoy",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1339,
-      "name": "Mayda Thane",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Mayda Thane",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,

@@ -319,6 +319,46 @@
     "text": "Hold on to your hat! Yes, even the expensive one. Especially the expensive one!",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1320_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1320",
+    "spoken": "[sincere affection, quietly pleased, inviting] You came to bring me along. I am glad, my friend. Come on. Let us find somewhere to enjoy a little time without a counter between us.",
+    "text": "You came to bring me along. I am glad, my friend. Come on. Let us find somewhere to enjoy a little time without a counter between us.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1320_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1320",
+    "spoken": "[practical interest, considerate, steady] How does it feel? Good equipment should be useful to the person wearing it. Take a moment to decide for yourself.",
+    "text": "How does it feel? Good equipment should be useful to the person wearing it. Take a moment to decide for yourself.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1320_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1320",
+    "spoken": "[steady warmth, understated enthusiasm, welcoming] Ah, my friend. Shall we go out? I brought the old ball. There may be somewhere with enough room for a little game.",
+    "text": "Ah, my friend. Shall we go out? I brought the old ball. There may be somewhere with enough room for a little game.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1320_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1320",
+    "spoken": "[mock dignity, fond amusement, relaxed] The ball is perfectly serviceable. Yes, I know how it looks. You should see how many good afternoons have gone into those scuffs.",
+    "text": "The ball is perfectly serviceable. Yes, I know how it looks. You should see how many good afternoons have gone into those scuffs.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1351_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
