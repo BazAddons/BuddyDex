@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 208,
+  "completed_count": 211,
   "remaining_count": 37,
   "completed": [
     {
@@ -234,6 +234,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 342,
+      "name": "Martie Jainrose",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+      "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 346,
       "name": "Barkeep Daniels",
       "zone": "Redridge Mountains",
@@ -270,6 +280,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 379,
+      "name": "Darcy",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+      "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 395,
       "name": "Markus",
       "zone": "Elwynn Forest",
@@ -277,6 +297,16 @@
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "needs_completion"
+    },
+    {
+      "npc_id": 464,
+      "name": "Guard Parker",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+      "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 465,

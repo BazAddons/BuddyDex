@@ -196,5 +196,26 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed external candidate; current Forever identity and stock, Classic and installed source checks",
     "research_notes": "docs/research/lakeshire-three-suppliers.md"
+  },
+  {
+    "npc_id": 379,
+    "name": "Darcy",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+    "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md"
+  },
+  {
+    "npc_id": 464,
+    "name": "Guard Parker",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+    "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md"
+  },
+  {
+    "npc_id": 342,
+    "name": "Martie Jainrose",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever identity and full Classic/installed quest chains",
+    "research_notes": "docs/research/lakeshire-lunch-and-daffodils.md"
   }
 ]

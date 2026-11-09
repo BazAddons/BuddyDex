@@ -1359,6 +1359,46 @@
     "text": "Something new to practice! Give yourself a little time with it. I still lose my beat whenever I try adding a tune, and I haven't stopped enjoying the effort. Getting a bit further is a pleasure of its own.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore342_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:342",
+    "spoken": "[sincere softened warmth, gentle curiosity] I'd enjoy a little company away from the worrying. Show me something you've noticed on your travels. It needn't be grand. A flower with an odd bend in its stem can be quite enough to make a walk worthwhile.",
+    "text": "I'd enjoy a little company away from the worrying. Show me something you've noticed on your travels. It needn't be grand. A flower with an odd bend in its stem can be quite enough to make a walk worthwhile.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore342_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:342",
+    "spoken": "[brisk protective concern, curious welcoming warmth] Hello. Mind where you step, please. A garden takes a great deal more time to grow than to flatten. Now, what brings you here? If it's flowers, I can appreciate a little care and a little discretion.",
+    "text": "Hello. Mind where you step, please. A garden takes a great deal more time to grow than to flatten. Now, what brings you here? If it's flowers, I can appreciate a little care and a little discretion.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore342_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:342",
+    "spoken": "[thoughtful private affection, quietly amused] I kept a crooked daffodil from an earlier season. Pressing it didn't make it straight, of course. I found I didn't want it straight. That little bend was what made me notice it in the first place.",
+    "text": "I kept a crooked daffodil from an earlier season. Pressing it didn't make it straight, of course. I found I didn't want it straight. That little bend was what made me notice it in the first place.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore342_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:342",
+    "spoken": "[relaxed attentive warmth, quietly relieved] Let's stop for a moment. You can tell me your news, and I'll try to leave the worries alone long enough to listen. There's pleasure in a small quiet thing when nobody is hurrying us past it.",
+    "text": "Let's stop for a moment. You can tell me your news, and I'll try to leave the worries alone long enough to listen. There's pleasure in a small quiet thing when nobody is hurrying us past it.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore3626_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1477,6 +1517,46 @@
     "source": "lore:377",
     "spoken": "[gentle, earnest voice, warm approval] Someone is safer for the care you took. Remember that part, too.",
     "text": "Someone is safer for the care you took. Remember that part, too.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore379_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:379",
+    "spoken": "[sincere pleased warmth, gently teasing companionship] I'd like some company and a little fresh air. Stay close enough for a conversation, will you? You can tell me your news. I'll try to give you a perfectly ordinary kind answer before I think of a clever one.",
+    "text": "I'd like some company and a little fresh air. Stay close enough for a conversation, will you? You can tell me your news. I'll try to give you a perfectly ordinary kind answer before I think of a clever one.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore379_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:379",
+    "spoken": "[brisk friendly welcome, tender concern beneath light humor] Hello again. Come and tell me how the road looked. I like hearing that people have made it safely through. And if you've seen Parker, I'd be glad to know he's had a chance to sit and eat.",
+    "text": "Hello again. Come and tell me how the road looked. I like hearing that people have made it safely through. And if you've seen Parker, I'd be glad to know he's had a chance to sit and eat.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore379_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:379",
+    "spoken": "[wry candid amusement, a little sheepish warmth] I practiced saying thank you to a compliment without adding a joke. It went beautifully when nobody was there. Then someone asked what I was doing, and I told them I was remembering an order. Apparently I need more practice.",
+    "text": "I practiced saying thank you to a compliment without adding a joke. It went beautifully when nobody was there. Then someone asked what I was doing, and I told them I was remembering an order. Apparently I need more practice.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore379_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:379",
+    "spoken": "[relieved conversational ease, quietly sincere warmth] A chance to sit. Lovely. Tell me something pleasant while my feet remember what this feels like. If it's a compliment, give me a moment with it. I'm trying to let a kind remark be a kind remark.",
+    "text": "A chance to sit. Lovely. Tell me something pleasant while my feet remember what this feels like. If it's a compliment, give me a moment with it. I'm trying to let a kind remark be a kind remark.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore3937_bagsFull_1.ogg": {

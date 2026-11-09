@@ -41,6 +41,85 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Darcy 379: waitress, human woman, display 3367, Lakeshire Inn.
+    -- Guard Parker 464: human man, display 2150, Three Corners road patrol.
+    -- Martie Jainrose 342: human woman, display 1743, Lakeshire herbalist.
+    -- Current Forever 129/130/131, 244/246 and 34; full Classic/installed text.
+    -- Jealousy is Darcy's view, not proof of poisoned flowers. No retail marriage.
+    -- Compliment practice / folded lunch cloth / pressed bloom are original.
+    -- docs/research/lakeshire-lunch-and-daffodils.md.
+    [379] = {
+        quote = "A decent lunch can say quite a lot. Flowers can, too. Though I'd rather like to know who chose them before everyone starts looking so pleased with themselves.",
+        likes = { "Parker remembering a kindness", "Flowers brought with a little care", "A compliment she manages to accept" },
+        dislikes = { "The dangerous road beyond town", "Martie asking too many questions", "A kind remark escaping as a sharp joke" },
+        gossip = "Darcy has plenty to say about Parker's flowers and who chose them. A simple compliment meant for her can leave her oddly short of words.",
+        bio = "Darcy waits tables at the Lakeshire inn. She sends lunch to Guard Parker, whose patrol is too dangerous for her to visit. His return gift of flowers pleases her, though their passage through Martie Jainrose raises her suspicions.",
+        backstory = "After answering a kind remark with a sharper joke than she intended, she tried practicing a plain, gracious reply. It sounded easy with nobody listening. In company, the clever answer still sometimes gets out before the sincere one.",
+        secret = "She has rehearsed accepting a compliment without making a joke. If someone catches her practicing, she claims she was remembering a difficult order. That answer comes very easily.",
+        bestFriend = "That was a kind thing to say. Thank you. There, I managed it! Don't look so surprised, or I'll have to make a joke after all.",
+        favorite = { emote = "WINK", hint = "A little shared amusement can give her room to enjoy a kind moment without too much fuss." },
+        lines = {
+            greet = { { "Hello again. Come and tell me how the road looked. I like hearing that people have made it safely through. And if you've seen Parker, I'd be glad to know he's had a chance to sit and eat.", tone = "[brisk friendly welcome, tender concern beneath light humor]" }, "There you are. Is that news, or a very complicated order?" },
+            idle = { { "I practiced saying thank you to a compliment without adding a joke. It went beautifully when nobody was there. Then someone asked what I was doing, and I told them I was remembering an order. Apparently I need more practice.", tone = "[wry candid amusement, a little sheepish warmth]" }, "Flowers are lovely. I still think it's reasonable to ask who chose them.", "I hope Parker takes a proper moment for his lunch." },
+            befriended = { { "I'd like some company and a little fresh air. Stay close enough for a conversation, will you? You can tell me your news. I'll try to give you a perfectly ordinary kind answer before I think of a clever one.", tone = "[sincere pleased warmth, gently teasing companionship]" } },
+            poke = { "Yes? What is it?", "I'm listening. You needn't look quite so mysterious." },
+            rest = { { "A chance to sit. Lovely. Tell me something pleasant while my feet remember what this feels like. If it's a compliment, give me a moment with it. I'm trying to let a kind remark be a kind remark.", tone = "[relieved conversational ease, quietly sincere warmth]" } },
+            quest = { "Your errand is finished? I hope someone remembered to thank you properly." },
+            zone = { "So this is where you've been traveling. Tell me what I should notice." },
+            loot = { "Something you've been looking for? Well, let me admire it a moment." },
+            levelUp = { "Well done! There, a plain compliment. You deserve one." },
+            hearth = { "Back safely. That's news I'm always pleased to hear." },
+            died = { "Take your time getting steady. I'm glad to see you here again." },
+        },
+    },
+    [464] = {
+        quote = "Keep a clear eye on the road, and don't forget the people waiting at the other end. A little kindness from town can make a long patrol feel less lonely.",
+        likes = { "A clear report of trouble ahead", "Darcy remembering his lunch", "A small kindness properly thanked" },
+        dislikes = { "Gnoll camps gathering near the road", "Travelers ignoring a warning", "A thoughtful gift taken for granted" },
+        gossip = "Parker notices trouble along his patrol. He can be just as careful with the cloth around a lunch somebody remembered to send him.",
+        bio = "Guard Parker patrols the roads near Three Corners. He sends word of gathering gnolls to Deputy Feldon. Darcy sends him lunch from Lakeshire; he asks for flowers to be brought to her through Martie's shop, with discreet instructions.",
+        backstory = "After a meal on the road, he took a moment to smooth and fold the wrapping cloth. The small task made him think of the care taken before the food reached him. He began putting that same care into setting things aside afterward.",
+        secret = "He folds his lunch cloth more neatly than it needs. It is a small way of answering a kindness when the person who gave it is too far away to hear his thanks.",
+        bestFriend = "Thank you for the company. A quiet stretch of road feels different with a friend beside me. I'll remember this kindness too.",
+        favorite = { emote = "THANK", hint = "He understands the value of letting someone know that a thoughtful effort was noticed." },
+        lines = {
+            greet = { { "Well met. Keep an eye on the road while we talk. There are gnolls gathering nearby, and I'd rather hear your news without an unwelcome interruption. Still, a familiar face makes a long patrol considerably more pleasant.", tone = "[alert steady welcome, restrained friendly warmth]" }, "Good to see you. Have you noticed any trouble on your way here?" },
+            idle = { { "I smooth out my lunch cloth before I fold it. More carefully than necessary, perhaps. But someone took the trouble to think of me before it reached the road. I like to take a little care in return.", tone = "[quiet reflective gratitude, gentle candid warmth]" }, "A clear report can get help where it's needed.", "A meal tastes better when you know someone remembered you." },
+            befriended = { { "I'd welcome your company. We'll keep our eyes open and look after each other along the way. Tell me how you've been. It's good to have a friend to talk with when there's a quiet moment between duties.", tone = "[sincere dependable companionship, quietly pleased]" } },
+            poke = { "Yes? What have you seen?", "I'm listening. Is something the matter?" },
+            quest = { { "An errand seen through properly. Don't let the ordinary ones pass without a word of thanks. A warning delivered, a meal carried, a small kindness remembered; those things can matter a great deal to the person waiting for them.", tone = "[earnest practical appreciation, calm conviction]" } },
+            rest = { "A quiet pause. Let's make good use of it while we can." },
+            zone = { "Different ground. Take a look at the approaches before we settle in." },
+            combatStart = { "Stay alert. I'll keep my eyes on the threat." },
+            combatEnd = { "That's over. Take a moment and make sure you're steady." },
+            levelUp = { "Well done. A little more experience can make a real difference." },
+            hearth = { "Back safely. I hope there's a friendly welcome waiting." },
+        },
+    },
+    [342] = {
+        quote = "Flowers need care, and a garden needs protecting. If you're carrying a bouquet for someone, at least have the sense to treat it gently on the way.",
+        likes = { "Daffodils in a well-tended bed", "A bouquet carried without crushing it", "One crooked bloom kept as a memory" },
+        dislikes = { "Bellygrub trampling her garden", "Careful growing undone in moments", "People hurrying past the flowers" },
+        gossip = "Martie chooses daffodils for a fine bouquet. The bloom she saved for herself was apparently a much less orderly specimen.",
+        bio = "Martie Jainrose is Lakeshire's herbalist. Daffodils are her favorite flowers, and she provides a bouquet for a discreet errand begun by Guard Parker. Bellygrub's raids on her garden give her a much less welcome concern.",
+        backstory = "A crooked daffodil caught her eye among an earlier season's flowers. It was no grand choice for a bouquet, but she liked the determined bend of its stem. She pressed it flat instead of discarding it and kept the little shape.",
+        secret = "The pressed flower is still crooked. She likes it that way. It reminds her that something needn't grow exactly to plan to be worth keeping and caring about.",
+        bestFriend = "Come and look at this little flower. I saved it for myself, but I'd like you to see it. You needn't say anything clever about it.",
+        favorite = { emote = "COMFORT", hint = "A little understanding matters when something she has patiently cared for is damaged." },
+        lines = {
+            greet = { { "Hello. Mind where you step, please. A garden takes a great deal more time to grow than to flatten. Now, what brings you here? If it's flowers, I can appreciate a little care and a little discretion.", tone = "[brisk protective concern, curious welcoming warmth]" }, "Come and tell me what you need. Gently past the flowers, if you please." },
+            idle = { { "I kept a crooked daffodil from an earlier season. Pressing it didn't make it straight, of course. I found I didn't want it straight. That little bend was what made me notice it in the first place.", tone = "[thoughtful private affection, quietly amused]" }, "A daffodil is worth stopping to notice.", "Bellygrub can undo in moments what took such care to grow." },
+            befriended = { { "I'd enjoy a little company away from the worrying. Show me something you've noticed on your travels. It needn't be grand. A flower with an odd bend in its stem can be quite enough to make a walk worthwhile.", tone = "[sincere softened warmth, gentle curiosity]" } },
+            poke = { "Yes? Is something the matter?", "Have you come about the garden, or something else?" },
+            rest = { { "Let's stop for a moment. You can tell me your news, and I'll try to leave the worries alone long enough to listen. There's pleasure in a small quiet thing when nobody is hurrying us past it.", tone = "[relaxed attentive warmth, quietly relieved]" } },
+            quest = { "That's a task finished. I hope the care you took was appreciated." },
+            loot = { "Let me see. Sometimes the little things are worth keeping." },
+            zone = { "A different place to look around. I wonder what grows here." },
+            learned = { "A new thing to practice. Give it the care it needs." },
+            levelUp = { "Well done. It's a pleasure to see careful effort coming along." },
+            hearth = { "Back to familiar ground. I hope everything has been treated kindly." },
+        },
+    },
     -- Gloria Femmel 3085: cooking supplies, human woman, display 3375.
     -- Sherman Femmel 3089: butcher, human man, display 3373. Lakeshire Inn.
     -- Amy Davenport 777: tradeswoman, human woman, display 3366, Lakeshire.
