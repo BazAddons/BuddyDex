@@ -176,7 +176,7 @@ end)
 ns.VoicePack = nil
 
 -- Friendly NPCs to make friends with, and ones that must never count.
-local LYMPKIN = { guid = "Creature-0-1-2-3-8720-0000AB", npcID = 8720, name = "Auctioneer Lympkin",
+local LYMPKIN = { guid = "Creature-0-1-2-3-9859-0000AB", npcID = 9859, name = "Auctioneer Lympkin",
     type = "Humanoid", typeID = 7, class = "normal", level = 45, sex = 3, reaction = 5,
     faction = "Alliance", tip = { "Auctioneer", "Level 45", "Ironforge" } }
 local GUARD = { guid = "Creature-0-1-2-3-5595-0000AB", npcID = 5595, name = "Ironforge Guard",
@@ -232,7 +232,7 @@ step("trading starts a friendship", function()
     MOCK.today = "2026-10-10"
     MOCK.units.npc = LYMPKIN
     FireAll("MERCHANT_SHOW")
-    local e = BuddyDexCharDB.friends[8720]
+    local e = BuddyDexCharDB.friends[9859]
     assert(e, "no friend")
     assert(e.points == 60, "points " .. tostring(e.points))
     assert(e.title == "Auctioneer" and e.zone == "Ironforge", "snapshot")
@@ -262,28 +262,28 @@ end)
 step("the daily cap, though a visit still updates where they are", function()
     MOCK.position = { 0.25, 0.75 }
     FireAll("MERCHANT_SHOW")
-    assert(Points(8720) == 60, "trading twice in a day counted twice")
-    assert(BuddyDexCharDB.friends[8720].x == 0.25, "a capped visit did not update where they are")
+    assert(Points(9859) == 60, "trading twice in a day counted twice")
+    assert(BuddyDexCharDB.friends[9859].x == 0.25, "a capped visit did not update where they are")
     MOCK.position = { 0.5641, 0.5262 }
 end)
 
 step("talking reaches Acquaintance", function()
     FireAll("GOSSIP_SHOW")
-    assert(Points(8720) == 100, "points " .. tostring(Points(8720)))
-    assert(ns.Friendship.TierIndex(BuddyDexCharDB.friends[8720]) == 2, "not an Acquaintance")
+    assert(Points(9859) == 100, "points " .. tostring(Points(9859)))
+    assert(ns.Friendship.TierIndex(BuddyDexCharDB.friends[9859]) == 2, "not an Acquaintance")
     assert(Printed("now considers you an Acquaintance"), "no tier line")
 end)
 
 step("the favorite emote, and a rude one", function()
     MOCK.units.npc = nil
     MOCK.units.target = LYMPKIN
-    local fav = ns.Friendship.Favorite(BuddyDexCharDB.friends[8720])
-    assert(fav.token == "THANK", "Lympkin's favorite is " .. fav.token)
-    DoEmote("THANK")
-    assert(Points(8720) == 250, "favorite did not count: " .. tostring(Points(8720)))
-    assert(BuddyDexCharDB.friends[8720].favoriteFound, "favorite not marked found")
+    local fav = ns.Friendship.Favorite(BuddyDexCharDB.friends[9859], 9859)
+    assert(fav.token == "APPLAUD", "Lympkin's favorite is " .. fav.token)
+    DoEmote("APPLAUD")
+    assert(Points(9859) == 250, "favorite did not count: " .. tostring(Points(9859)))
+    assert(BuddyDexCharDB.friends[9859].favoriteFound, "favorite not marked found")
     DoEmote("RUDE")
-    assert(Points(8720) == 225, "rude did not cost: " .. tostring(Points(8720)))
+    assert(Points(9859) == 225, "rude did not cost: " .. tostring(Points(9859)))
 end)
 
 step("Forever's chat emote API introduces Jenn without the legacy function", function()
@@ -502,8 +502,8 @@ step("the next day counts again, and Buddy plays the fanfare", function()
     MOCK.units.target = nil
     MOCK.units.npc = LYMPKIN
     FireAll("QUEST_COMPLETE")
-    assert(Points(8720) == 325, "points " .. tostring(Points(8720)))
-    assert(ns.Friendship.IsBuddy(BuddyDexCharDB.friends[8720]), "not a Buddy")
+    assert(Points(9859) == 325, "points " .. tostring(Points(9859)))
+    assert(ns.Friendship.IsBuddy(BuddyDexCharDB.friends[9859]), "not a Buddy")
     local fanfare = false
     for _, kit in ipairs(MOCK.played) do
         if kit == "UI_GARRISON_TOAST_FOLLOWER_GAINED" then fanfare = true end
@@ -778,8 +778,8 @@ step("Thor's entry unlocks by tier, and /bd lore previews it", function()
     assert(parts.bestFriend and parts.unlocked == 7, "the preview did not show everything")
     SlashCmdList.BUDDYDEX("lore")
     assert(not ns.DexDetail.LoreParts(523, e).quote, "the preview did not turn off")
-    local other = ns.DexDetail.LoreParts(8720, { name = "Auctioneer Lympkin", points = 9999 })
-    assert((other.note or ""):find("no entry on Auctioneer Lympkin") and #other.sections == 0, "an NPC without lore")
+    local other = ns.DexDetail.LoreParts(999999, { name = "Unauthored acquaintance", points = 9999 })
+    assert((other.note or ""):find("no entry on Unauthored acquaintance") and #other.sections == 0, "an NPC without lore")
 end)
 
 -- The writing rules in docs/LORE.md that a test can check. The Lore column
@@ -1484,13 +1484,13 @@ end)
 
 step("takes over BuddyDex's old roster on login", function()
     BuddyDexDB = { roster = {
-        [8720] = { name = "Auctioneer Lympkin", title = "Auctioneer", zone = "Ironforge", seen = 4,
-            display = 7028, moves = { 66, 67 } },
+        [8720] = { name = "Auctioneer Redmuse", title = "Auctioneer", zone = "Ironforge", seen = 4,
+            display = 7989, moves = { 66, 67 } },
         [2784] = { name = "King Magni Bronzebeard", title = "Lord of Ironforge", zone = "Ironforge", class = "worldboss" },
     } }
     FireAll("PLAYER_LOGIN")
     local r = BuddyDexScoutDB.roster
-    assert(r[8720] and r[8720].display == 7028 and #r[8720].moves == 2, "Lympkin not taken over")
+    assert(r[8720] and r[8720].display == 7989 and #r[8720].moves == 2, "Redmuse not taken over")
     assert(r[2784] and r[2784].title == "Lord of Ironforge", "Magni not taken over")
 end)
 

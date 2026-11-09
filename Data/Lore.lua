@@ -42,6 +42,59 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Buckler 8671 male dwarf and Redmuse 8720 female dwarf: auctioneers
+    -- in the Commons, Ironforge, alongside Lympkin 9859. No personal quest
+    -- chain or family ties established. Original private character hooks.
+    -- docs/research/buckler-and-redmuse.md.
+    [8671] = {
+        quote = "One bidder at a time. You'll all get your chance, and I'll still be able to hear when someone actually names a price.",
+        likes = { "A clear bid from the back of the room", "Buyers who know their own limit", "A courteous pause in a busy day" },
+        dislikes = { "Three people shouting different prices", "A bidder blaming the nearest clerk", "Confusing a loud offer with a fair one" },
+        gossip = "Buckler can hold his ground through a roomful of bidders. Buying a loaf from a tired market seller seems to soften him considerably.",
+        bio = "Auctioneer Buckler works in Ironforge's Commons alongside Lympkin and Redmuse. Their counters connect sellers with buyers, turning a traveler's spare goods into someone else's next useful purchase.",
+        backstory = "Working through crowded trading days has taught him to ask one clear question at a time. He takes pride in keeping the room understandable, especially for someone trying to sell their first small lot.",
+        secret = "He never haggles over his own breakfast. A seller mentions the early start or the work behind a loaf, and he pays the asking price. He likes his bargaining better at work.",
+        bestFriend = "You needn't raise your voice with me. I've finished listening for bids. Tell me what's on your mind.",
+        favorite = { emote = "BOW", hint = "A little formal courtesy is welcome after a room full of competing voices." },
+        lines = {
+            greet = { { "A walk without a bidding crowd. Aye, that sounds very agreeable.", tone = "[steady dwarf, relieved good humor]" }, "Ready. You can leave the sales pitch behind; I've heard enough for today." },
+            idle = { { "No, I didn't bargain over breakfast. The baker was up before either of us.", tone = "[gruff warmth, mildly defensive amusement]" }, "Know your limit before the bidding starts. Easier that way.", "Some people only need a moment to finish their question." },
+            befriended = { { "Good to see you outside the auction house. No lot to sell, no bid to place. Just company.", tone = "[warm, relaxed, sincerely welcoming]" } },
+            poke = { "Is that a bid or a question?", "Aye? One at a time, please." },
+            mail = { { "A sale, perhaps. Read the notice before you start spending the proceeds.", tone = "[practical, lightly amused, conversational]" } },
+            loot = { "Useful to you, or useful to someone willing to buy it? Have a think." },
+            bagsFull = { "A bagful of possibilities. Some of them ought to find another owner." },
+            quest = { "Business concluded. Nicely done." },
+            levelUp = { "Well earned. You needn't bid for that achievement." },
+            rest = { "A quiet seat. Nobody offering me three different prices for it. Excellent." },
+            hearth = { "Back to the Commons. There'll be another crowd soon enough." },
+        },
+    },
+    [8720] = {
+        quote = "An ordinary thing can be exactly what someone was looking for. You don't have to call it legendary to make it worth their attention.",
+        likes = { "A plain description that tells the truth", "Finding a use for an overlooked object", "A good story from a passing traveler" },
+        dislikes = { "Grand claims that hide a simple flaw", "An interesting object thrown away", "Being hurried past the ordinary details" },
+        gossip = "Redmuse can find something interesting in the plainest lot. Her neighbors suspect the objects have better adventures in her head.",
+        bio = "Auctioneer Redmuse works in Ironforge's Commons with Buckler and Lympkin. She helps travelers offer goods for auction and find what others have brought to market. A busy counter brings a steady variety of objects past her.",
+        backstory = "She grew interested in the small things people passed over while searching for something impressive. Watching an unwanted object find a useful home gave her a taste for the story behind an ordinary purchase.",
+        secret = "She invents little adventures for objects in a notebook. A battered spoon explores lost kitchens; a chipped cup has retired from sea. None of these stories goes in the listings.",
+        bestFriend = "Tell me about an ordinary day of yours. The little details. I've heard plenty of grand adventures; I'd like to know you.",
+        favorite = { emote = "THANK", hint = "She appreciates a small acknowledgment when her attention has helped someone find what they needed." },
+        lines = {
+            greet = { { "An outing! Good. Tell me the little things you usually leave out of the story.", tone = "[warm dwarf, lively curiosity]" }, "Ready. I wonder what ordinary thing will catch our eye today." },
+            idle = { { "That chipped cup? In my notebook it's retired from sea. In a listing, it would still just be chipped.", tone = "[playful imagination, conspiratorial warmth]" }, "Something can be useful without having a grand name.", "I like knowing why somebody kept a little thing." },
+            befriended = { { "You stay for the conversation even when there's nothing to buy. I'm pleased about that.", tone = "[warm, sincerely pleased, unhurried]" } },
+            poke = { "Yes? Have you thought of another detail?", "You could just begin the story. I'm listening." },
+            loot = { { "What an interesting little thing. Any idea what it was used for?", tone = "[bright interest, inviting curiosity]" } },
+            mail = { "A message! There's usually more to it than the sum at the bottom." },
+            bagsFull = { "Some of those things may be exactly what another traveler needs." },
+            quest = { "Now tell me the part you didn't think was worth mentioning." },
+            rest = { "A good moment for the longer version of the story." },
+            levelUp = { "Well done! You'll remember how you got here, I hope." },
+            hearth = { "Back to Ironforge. Another day's stories will be passing the counter." },
+        },
+    },
+
     -- Vosur 1246: male dwarf, alchemy trainer, Tally's apprentice/friend;
     -- Forever Camping 101: Alchemy 96045 teaches a camp Mana Well.
     -- Mangorn 5107: male dwarf heavy armor seller/repairer, Ironforge Armory.

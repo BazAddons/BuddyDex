@@ -239,6 +239,46 @@
     "text": "Come sit down. I've allowed for the one who was certain they wouldn't want anything.",
     "voice_id": "tNPIWbrnyCsbmVIg3tPK"
   },
+  "lore8671_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8671",
+    "spoken": "[warm, relaxed, sincerely welcoming] Good to see you outside the auction house. No lot to sell, no bid to place. Just company.",
+    "text": "Good to see you outside the auction house. No lot to sell, no bid to place. Just company.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore8671_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8671",
+    "spoken": "[steady dwarf, relieved good humor] A walk without a bidding crowd. Aye, that sounds very agreeable.",
+    "text": "A walk without a bidding crowd. Aye, that sounds very agreeable.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore8671_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8671",
+    "spoken": "[gruff warmth, mildly defensive amusement] No, I didn't bargain over breakfast. The baker was up before either of us.",
+    "text": "No, I didn't bargain over breakfast. The baker was up before either of us.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
+  "lore8671_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:8671",
+    "spoken": "[practical, lightly amused, conversational] A sale, perhaps. Read the notice before you start spending the proceeds.",
+    "text": "A sale, perhaps. Read the notice before you start spending the proceeds.",
+    "voice_id": "tNPIWbrnyCsbmVIg3tPK"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

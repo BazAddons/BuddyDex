@@ -159,6 +159,46 @@
     "text": "Well done. I hope someone gives you proper credit, as well as a reward.",
     "voice_id": "aRtvtMA33YE3hteCIrqs"
   },
+  "lore8720_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8720",
+    "spoken": "[warm, sincerely pleased, unhurried] You stay for the conversation even when there's nothing to buy. I'm pleased about that.",
+    "text": "You stay for the conversation even when there's nothing to buy. I'm pleased about that.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore8720_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8720",
+    "spoken": "[warm dwarf, lively curiosity] An outing! Good. Tell me the little things you usually leave out of the story.",
+    "text": "An outing! Good. Tell me the little things you usually leave out of the story.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore8720_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8720",
+    "spoken": "[playful imagination, conspiratorial warmth] That chipped cup? In my notebook it's retired from sea. In a listing, it would still just be chipped.",
+    "text": "That chipped cup? In my notebook it's retired from sea. In a listing, it would still just be chipped.",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
+  "lore8720_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:8720",
+    "spoken": "[bright interest, inviting curiosity] What an interesting little thing. Any idea what it was used for?",
+    "text": "What an interesting little thing. Any idea what it was used for?",
+    "voice_id": "aRtvtMA33YE3hteCIrqs"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
