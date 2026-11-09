@@ -65,6 +65,7 @@ local ALIASES = {
 local frame, scene, bubble, fallback
 local npcScene                    -- the friend who came along, on a stage like the Mini Me's
 local npcModel                    -- or drawn the Dex's way, for a friend whose display isn't known yet
+local outingSerial = 0            -- cancels delayed speech from previous switches
 local buddyID                     -- their NPC ID; nil while the Mini Me is out
 local ApplyBuddy                  -- (below) shows whoever should be out
 local animTimer, holdTimer
@@ -978,8 +979,11 @@ end
 -- they came. Bringing someone along shows the buddy if it was hidden.
 function Companion.SetBuddy(npcID)
     if not ns.char then return false end
-    if npcID and not Eligible(npcID) then return false end
+    local joining = npcID and Eligible(npcID)
+    if npcID and not joining then return false end
     if npcID == buddyID and frame then return true end
+    outingSerial = outingSerial + 1
+    local serial = outingSerial
     Companion.Quiet()
     -- A friend going home says goodbye the way they do in the game.
     local leaving = BuddyDisplay()
@@ -994,7 +998,19 @@ function Companion.SetBuddy(npcID)
     else
         Companion.Refresh()
     end
-    C_Timer.After(FADE + 0.2, function() Companion.SayLine("greet", nil, WAVE) end)
+    C_Timer.After(FADE + 0.2, function()
+        -- Switching companions before the fade finishes cancels this welcome.
+        if serial ~= outingSerial or buddyID ~= npcID then return end
+        local lore = npcID and ns.Lore and ns.Lore[npcID]
+        if joining and not joining.buddyWelcomed
+            and PileFor(type(lore) == "table" and lore.lines, "befriended") then
+            if Companion.SayLine("befriended", nil, WAVE) then
+                joining.buddyWelcomed = true
+                return
+            end
+        end
+        Companion.SayLine("greet", nil, WAVE)
+    end)
     return true
 end
 

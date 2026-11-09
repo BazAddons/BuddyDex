@@ -356,3 +356,7 @@ Recorded voices are part of BuddyDex itself. The manifest uses the addon namespa
 ## Character-specific storage (current)
 
 The original account-wide storage above is historical. `ns.db` and `ns.char` now both reference `BuddyDexCharDB`, with schema version 3. All active friends, gains, visits, favorites, pins, filters, window placement, companion state and settings are character-specific. Existing character-local Mini Me fields are retained. `BuddyDexDB` is left untouched as the legacy shared backup and old Scout import source. No automatic roster migration is possible because old friendship entries have no earning-character identity.
+
+## Personal friendship welcome
+
+The first successful outing greeting for an authored NPC uses `lines.befriended`. `friends[npcID].buddyWelcomed` records delivery in the character database; later outings use `greet`. Missing or currently hidden/blocked speech does not consume the welcome. Delayed callbacks are invalidated on companion switches, including switching away and back before the fade ends. Existing recordings and text remain unchanged.

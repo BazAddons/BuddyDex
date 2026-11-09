@@ -1345,7 +1345,7 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     assert(thor.height == 2, "Thor's height was not kept")
     local own, general = ns.Lore[523].lines, ns.NpcLines
     local said = Saying()
-    assert(FromPile(said, own.greet) or FromPile(said, general.greet), "not a greeting: " .. tostring(said))
+    assert(FromPile(said, own.befriended) or FromPile(said, own.greet) or FromPile(said, general.greet), "not a greeting or welcome: " .. tostring(said))
     -- In his own voice: the human male set his model uses (greeting 5974).
     assert(Played(5974), "Thor did not greet in his own voice")
     local kits = ns.Voice.NpcKits(3263)
@@ -1398,6 +1398,65 @@ step("Thor comes along in the Mini Me's place, and goes home", function()
     assert(ns.Companion.Buddy() == nil and BuddyDexCharDB.companionNpc == nil, "Thor stayed after the friendship fell")
     assert(not model.__parent:IsShown() and model.__display == nil, "Thor is still drawn")
     assert(BuddyDexCompanion.__h == gnomeHeight, "the Mini Me did not shrink back")
+end)
+
+step("personal friendship welcomes play once when a friend first comes along", function()
+    local id, own = 5177, ns.Lore[5177].lines
+    local entry = { name = "Tally Berryfizz", points = 10000, display = 3124 }
+    BuddyDexCharDB.friends[id] = entry
+    local originalSpeak, heard = ns.Voice.Speak, {}
+    ns.Voice.Speak = function(opts) heard[#heard + 1] = opts; return true end
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    Quiet()
+    heard = {}
+    assert(ns.Companion.SetBuddy(id))
+    MOCK.Advance(1)
+    assert(#heard == 1 and heard[1].moment == "befriended"
+        and FromPile(heard[1].line, own.befriended), "personal welcome was not selected")
+    assert(entry.buddyWelcomed, "successful welcome was not saved")
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    Quiet()
+    heard = {}
+    ns.Companion.SetBuddy(id)
+    MOCK.Advance(1)
+    assert(#heard == 1 and heard[1].moment == "greet", "welcome repeated on a later outing")
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    Quiet()
+    entry.buddyWelcomed = nil
+    heard = {}
+    ns.Companion.SetBuddy(id)
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    for _, opts in ipairs(heard) do assert(opts.display ~= 3124, "cancelled welcome spoke as Tally") end
+    assert(not entry.buddyWelcomed, "cancelled welcome consumed the first welcome")
+    -- Returning to the same NPC before the first fade ends must cancel the old timer too.
+    heard = {}
+    ns.Companion.SetBuddy(id)
+    ns.Companion.SetBuddy(nil)
+    ns.Companion.SetBuddy(id)
+    MOCK.Advance(1)
+    assert(#heard == 1 and heard[1].moment == "befriended", "rapid switches duplicated the welcome")
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    Quiet()
+    entry.buddyWelcomed = nil
+    -- A friend without an authored welcome still gets a normal greeting.
+    local welcome = own.befriended
+    own.befriended = nil
+    heard = {}
+    ns.Companion.SetBuddy(id)
+    MOCK.Advance(1)
+    assert(#heard == 1 and heard[1].moment == "greet", "missing welcome blocked greeting")
+    assert(not entry.buddyWelcomed, "missing welcome was marked as delivered")
+    own.befriended = welcome
+    ns.Companion.SetBuddy(nil)
+    MOCK.Advance(1)
+    ns.Voice.Speak = originalSpeak
+    BuddyDexCharDB.friends[id] = nil
+    Quiet()
 end)
 
 step("the row menu sets a waypoint too", function()
