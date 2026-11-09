@@ -287,5 +287,19 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed current Forever identity/services, full Classic chains, installed dialogue and Forever additions",
     "research_notes": "docs/research/lakeshire-command-in-progress.md"
+  },
+  {
+    "npc_id": 900,
+    "name": "Bailiff Conacher",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed current Forever nodes, full quest text and installed dialogue",
+    "research_notes": "docs/research/lakeshire-court-and-bridge.md"
+  },
+  {
+    "npc_id": 341,
+    "name": "Foreman Oslow",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed current Forever nodes, full quest text and installed dialogue",
+    "research_notes": "docs/research/lakeshire-court-and-bridge.md"
   }
 ]

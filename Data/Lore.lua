@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Bailiff Conacher (900), adult male human, Court of Lakeshire, display 5009.
+    -- Classic/current 91: Morganth, Shadowhide pendants and Solomon's law; formal installed gossip.
+    -- Sharp green apples and his carefully composed reaction are original.
+    -- docs/research/lakeshire-court-and-bridge.md.
+    [900] = {
+        quote = "A clear account of your business, if you please. The Court of Lakeshire has much to attend to, and careful words save everyone time.",
+        likes = { "Courtesy before the court", "A task properly accounted for", "A particularly sharp green apple" },
+        dislikes = { "Morganth's hold over the Shadowhides", "An important detail left out", "Fruit going soft in a coat pocket" },
+        gossip = "Conacher's expression can become terribly grave over a bite of apple. Lakeshire wonders what news he has just remembered.",
+        bio = "Bailiff Conacher serves the Court of Lakeshire alongside Magistrate Solomon. He seeks Shadowhide pendants as proof of action against Morganth's gnoll followers, enforcing the township's harsh law against aiding its enemies.",
+        backstory = "An apple proved much sharper than he expected, making him blink halfway through the first bite. Once the surprise passed, he found he rather liked it. He began choosing the firm green ones when he had the chance.",
+        secret = "He still occasionally chooses one sharp enough to catch him off guard. He considers maintaining a composed expression part of the enjoyment.",
+        bestFriend = "Sit here a moment. I should like your opinion of this one. If my expression changes, you may enjoy the occasion.",
+        favorite = { emote = "BOW", hint = "A little formal courtesy is an agreeable way to approach the bailiff." },
+        lines = {
+            greet = { { "Ah, there you are. I have a moment before I must return to the court. I've also found a particularly promising apple. Firm, green, and likely to require a little composure. You're welcome to keep me company while I find out.", tone = "[formal welcoming restraint, dry private amusement]" }, "Good day. Have you business to report, or a moment to visit?" },
+            idle = { { "I once chose an apple rather sharper than expected. After the first surprise, I found I liked it. Now I look for the green ones. Occasionally one still makes me blink. A small test of composure, entirely of my own choosing.", tone = "[measured formal diction, wry amusement, conversational]" }, "A firm apple keeps its promise. You hear it in the first bite.", "That was rather sharp. I trust I maintained a suitable expression." },
+            befriended = { { "I should be pleased to accompany you. A walk with someone I know would be welcome. Let me finish putting things in order, then we can set out. You may tell me how your day has treated you along the way.", tone = "[reserved sincere warmth, dignified pleasure]" } },
+            poke = { "Yes? You have my attention.", "Go on. I am listening." },
+            rest = { { "This will do nicely. Sit beside me a moment. I have high expectations of this apple, though I shall try to keep the result off my face. If I fail, you may laugh. I should rather enjoy having someone to share the occasion with.", tone = "[relaxed formal warmth, quiet teasing, amused]" } },
+            quest = { "Your efforts are acknowledged. Give me the account while it is clear in your mind." },
+            learned = { "A useful accomplishment. Careful practice deserves recognition." },
+            mail = { "Read it carefully. A small detail can alter one's understanding." },
+            zone = { "Let us learn a little of the place before we form a judgment." },
+            levelUp = { "You have made progress. My congratulations." },
+            hearth = { "Home again. A familiar place is a welcome end to a journey." },
+        },
+    },
+    -- Foreman Oslow (341), adult male human, Lakeshire bridge, display 1748.
+    -- 125/89 tools and bridge; 343/344/345/347/346 book/ore chain; Forever 98386 spiders at mill.
+    -- A small empty box made from offcuts is original; no Cataclysm boulder rescue.
+    [341] = {
+        quote = "Give me sound materials, the right tools, and room to get on with it. Then we can talk about how good the finished work looks.",
+        likes = { "Tools returned in working order", "A job finished before the rains", "A little lid that fits just right" },
+        dislikes = { "Another shipment gone missing", "Spiders keeping workers from the mill", "A lid that scrapes when it closes" },
+        gossip = "Oslow keeps opening and closing a small wooden box. Lakeshire suspects he has forgotten what he put inside.",
+        bio = "Foreman Oslow works to rebuild Lakeshire's damaged bridge despite missing tools and stolen metal. He also supplies ore for Paxton's ink. When spiders infest Alther's Mill, he seeks help so workers can collect lumber safely.",
+        backstory = "He used a few small offcuts to make a box for himself. Getting the lid to fit smoothly took more care than he expected. When it finally settled with a neat little click, he opened it and tried it again.",
+        secret = "The box is empty. He keeps opening it because he likes how neatly the lid fits. He hasn't found anything that needs to go inside yet.",
+        bestFriend = "Go on, close it. Hear that? Good fit. Sit here a bit; it's pleasant having someone who appreciates the little jobs too.",
+        favorite = { emote = "PRAISE", hint = "Acknowledge the care he puts into getting a job properly finished." },
+        lines = {
+            greet = { { "Good, you're here. Have a look at this little box. A few offcuts, a bit of spare time, and a lid that finally fits the way I wanted. Close it gently. Hear that? That's the satisfying part. I may have checked it more than once.", tone = "[brisk practical warmth, quiet craft pride, wry amusement]" }, "There you are. How have things been holding up?" },
+            idle = { { "There's nothing in the box. People keep asking, so there it is. I made it because I wanted to get the fit right. Once that lid settled neatly, I opened it and tried again. Still pleasing. A small job can be worth doing for itself.", tone = "[plainspoken craft satisfaction, good humored, conversational]" }, "A little care now saves a great deal of fiddling later.", "Sound wood, a good fit. Some things are a pleasure to check." },
+            befriended = { { "I'll come along. A change of view will do me good, and I know I can enjoy your company. Give me a moment to put things where they belong. Then we can take a walk and you can tell me what you've been working on.", tone = "[warm practical assurance, pleased, relaxed]" } },
+            poke = { "Yes? Something need looking at?", "One moment. I was checking the fit." },
+            gear = { { "Let me have a look at how that sits. A good fit matters, whether it's armor, a tool handle, or the lid of a small box. There, that looks comfortable enough. You ought to enjoy something that works the way it should.", tone = "[attentive practical approval, friendly craft enthusiasm]" } },
+            rest = { "A short rest. You do better work when you've given yourself a moment." },
+            quest = { "A job carried through. Good work. What needed the most attention?" },
+            bagsFull = { "Have a look through it. Knowing what you've got is a useful start." },
+            learned = { "Try it carefully a few times. Let your hands get used to the work." },
+            zone = { "New surroundings. Let's see how things are put together here." },
+            hearth = { "Back again. I'll be glad to see how everything's holding up." },
+        },
+    },
+
+
     -- Magistrate Solomon (344), adult male human, Lakeshire Town Hall, display 1753.
     -- Classic correspondence 120/121/143-146; bounties 169/180; True Masters referrals.
     -- Forever 95999: receives Gar'im's broken staff. Spare-wax duck is original.

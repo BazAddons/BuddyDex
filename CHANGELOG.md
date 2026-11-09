@@ -11,6 +11,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Add complete Bailiff Conacher and Foreman Oslow profiles, each with fifteen personal companion lines and four Eleven v4 signature recordings.
 - Add complete Magistrate Solomon and Marshal Marris profiles, with fifteen personal companion lines and four Eleven v4 signatures each.
 - Add complete profiles for Deputy Feldon, Guard Berton, and Guard Howe, each with fifteen personal companion lines and four Eleven v4 signature recordings.
 - Restrict friendship and companions to adult NPCs. Remove ten child profiles, exclude verified child identities and models from BuddyDex and Scout, and move existing child entries out of the playable roster on reload.

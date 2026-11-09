@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 246,
+  "completed_count": 248,
   "remaining_count": 2,
   "completed": [
     {
@@ -225,6 +225,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 341,
+      "name": "Foreman Oslow",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed current Forever nodes, full quest text and installed dialogue",
+      "research_notes": "docs/research/lakeshire-court-and-bridge.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 342,
       "name": "Martie Jainrose",
       "zone": "Redridge Mountains",
@@ -430,6 +440,16 @@
       "name": "Homer Stonefield",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 900,
+      "name": "Bailiff Conacher",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed current Forever nodes, full quest text and installed dialogue",
+      "research_notes": "docs/research/lakeshire-court-and-bridge.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

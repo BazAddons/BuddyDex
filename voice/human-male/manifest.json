@@ -2861,6 +2861,46 @@
     "text": "Well done. Tell me what you observed, not only what you expected to find.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore341_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:341",
+    "spoken": "[warm practical assurance, pleased, relaxed] I'll come along. A change of view will do me good, and I know I can enjoy your company. Give me a moment to put things where they belong. Then we can take a walk and you can tell me what you've been working on.",
+    "text": "I'll come along. A change of view will do me good, and I know I can enjoy your company. Give me a moment to put things where they belong. Then we can take a walk and you can tell me what you've been working on.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore341_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:341",
+    "spoken": "[attentive practical approval, friendly craft enthusiasm] Let me have a look at how that sits. A good fit matters, whether it's armor, a tool handle, or the lid of a small box. There, that looks comfortable enough. You ought to enjoy something that works the way it should.",
+    "text": "Let me have a look at how that sits. A good fit matters, whether it's armor, a tool handle, or the lid of a small box. There, that looks comfortable enough. You ought to enjoy something that works the way it should.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore341_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:341",
+    "spoken": "[brisk practical warmth, quiet craft pride, wry amusement] Good, you're here. Have a look at this little box. A few offcuts, a bit of spare time, and a lid that finally fits the way I wanted. Close it gently. Hear that? That's the satisfying part. I may have checked it more than once.",
+    "text": "Good, you're here. Have a look at this little box. A few offcuts, a bit of spare time, and a lid that finally fits the way I wanted. Close it gently. Hear that? That's the satisfying part. I may have checked it more than once.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore341_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:341",
+    "spoken": "[plainspoken craft satisfaction, good humored, conversational] There's nothing in the box. People keep asking, so there it is. I made it because I wanted to get the fit right. Once that lid settled neatly, I opened it and tried again. Still pleasing. A small job can be worth doing for itself.",
+    "text": "There's nothing in the box. People keep asking, so there it is. I made it because I wanted to get the fit right. Once that lid settled neatly, I opened it and tried again. Still pleasing. A small job can be worth doing for itself.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore344_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -4369,6 +4409,46 @@
     "source": "lore:894",
     "spoken": "[genial, thoughtful voice, easy amusement] A crooked apple can still be sweet. Worth remembering when you're choosing.",
     "text": "A crooked apple can still be sweet. Worth remembering when you're choosing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore900_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:900",
+    "spoken": "[reserved sincere warmth, dignified pleasure] I should be pleased to accompany you. A walk with someone I know would be welcome. Let me finish putting things in order, then we can set out. You may tell me how your day has treated you along the way.",
+    "text": "I should be pleased to accompany you. A walk with someone I know would be welcome. Let me finish putting things in order, then we can set out. You may tell me how your day has treated you along the way.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore900_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:900",
+    "spoken": "[formal welcoming restraint, dry private amusement] Ah, there you are. I have a moment before I must return to the court. I've also found a particularly promising apple. Firm, green, and likely to require a little composure. You're welcome to keep me company while I find out.",
+    "text": "Ah, there you are. I have a moment before I must return to the court. I've also found a particularly promising apple. Firm, green, and likely to require a little composure. You're welcome to keep me company while I find out.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore900_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:900",
+    "spoken": "[measured formal diction, wry amusement, conversational] I once chose an apple rather sharper than expected. After the first surprise, I found I liked it. Now I look for the green ones. Occasionally one still makes me blink. A small test of composure, entirely of my own choosing.",
+    "text": "I once chose an apple rather sharper than expected. After the first surprise, I found I liked it. Now I look for the green ones. Occasionally one still makes me blink. A small test of composure, entirely of my own choosing.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore900_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:900",
+    "spoken": "[relaxed formal warmth, quiet teasing, amused] This will do nicely. Sit beside me a moment. I have high expectations of this apple, though I shall try to keep the result off my face. If I fail, you may laugh. I should rather enjoy having someone to share the occasion with.",
+    "text": "This will do nicely. Sit beside me a moment. I have high expectations of this apple, though I shall try to keep the result off my face. If I fail, you may laugh. I should rather enjoy having someone to share the occasion with.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore903_befriended_1.ogg": {
