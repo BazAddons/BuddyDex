@@ -1309,5 +1309,19 @@
     "zone": "The Barrens",
     "source": "Exact named adult model/current Friendly access checked; all own relation/stock pages and installed gossip researched. Nissa full referral/triage chain and actual manual tooltips read; sparse API/current location and readable-era limits documented, no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-introductions-and-crossroads-titles.md"
+  },
+  {
+    "npc_id": 3057,
+    "name": "Cairne Bloodhoof",
+    "zone": "Thunder Bluff",
+    "source": "Exact named adult model/current Horde Friendly access checked; full relevant Classic chains, published Forever additions, installed dialogue and accessible readable text researched. Warcraft III foundation and explicit unavailable comic/novel/era limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-shelter-and-watchful-silence.md"
+  },
+  {
+    "npc_id": 4046,
+    "name": "Magatha Grimtotem",
+    "zone": "Thunder Bluff",
+    "source": "Exact named adult model/current Horde Friendly access checked; full relevant Classic chains, published Forever additions, installed dialogue and accessible readable text researched. Warcraft III foundation and explicit unavailable comic/novel/era limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-shelter-and-watchful-silence.md"
   }
 ]

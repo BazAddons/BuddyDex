@@ -449,3 +449,10 @@ Next individually checked [Nissa and Hula'mahi](nissa-and-hulamahi-queue.md), ad
 392 completed authored profiles. Adult female Dwarf/male Troll, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance201/Horde100/unverified98, seven shared entries overlap. Sources/validation: [Ironforge introductions and Crossroads titles](ironforge-introductions-and-crossroads-titles.md). Nissa's delight at VanHowzen's invitation is separate from his patients and teaching; Hula'mahi's elaborate merchant introduction is original.
 
 Next individually checked [Cairne and Magatha](cairne-and-magatha-queue.md), adult male/female Tauren Horde leaders and quest givers, not authored or counted complete. Their wider Classic/Forever, Warcraft III and relevant literary research is pending; later-retail fates must remain separate. Wider1510-name pool and earlier unavailable-source leads remain active.
+
+
+## 2026-11-09: Cairne and Magatha
+
+394 completed authored profiles. Adult male/female Tauren Horde leaders, fifteen personal lines and four established v4 signatures each. Friendly counts Alliance201/Horde102/unverified98, seven shared entries overlap. Sources/validation: [Thunder Bluff shelter and watchful silence](thunder-bluff-shelter-and-watchful-silence.md). World Boss classification tested for Cairne without an eligibility exception; Magatha's Arikara claim remains distinct from proven fact. Unavailable literary/readable and unused chain leads stay explicit.
+
+Next individually checked [Bink and Tamar](bink-and-tamar-queue.md), adult female Gnome/male Orc, not authored or counted complete. Bink's current node is Alliance Friendly despite older catalog Neutral; Dun Morogh parent-map pin is not a proven move out of Ironforge. Wider1510-name pool and earlier unavailable-source leads remain active.

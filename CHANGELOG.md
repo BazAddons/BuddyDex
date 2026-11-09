@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Cairne Bloodhoof and Magatha Grimtotem: full Tauren leader profiles, fifteen personal lines and four approved v4 signatures each; preserve Cairne's protection of Mulgore and Magatha's guarded counsel without importing later retail events.
+
 - Add Nissa Firestone and Hula'mahi: full female Dwarf/male Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Nissa's admiration and referrals, and Hula'mahi's actual supplier role.
 
 - Add Innkeeper Boorand Plainswind and Kor'geld: full Tauren/Orc profiles, fifteen personal lines and four approved v4 signatures each; preserve Boorand's welcome and Kor'geld's actual part in Yelmak's local-herb lesson.

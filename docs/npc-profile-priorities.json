@@ -986,14 +986,28 @@
       "name": "Cairne Bloodhoof",
       "zone": "Thunder Bluff",
       "route": "Horde Tauren leaders and familiar quest givers",
-      "reason": "Exact current named adult male/female model, Horde Friendly icon/pin and established voice checked; full Classic/Forever quest, Warcraft III and relevant literary/era research pending. See docs/research/cairne-and-magatha-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; major quest networks, actual era boundaries and unavailable literary leads in docs/research/thunder-bluff-shelter-and-watchful-silence.md"
     },
     {
       "npc_id": 4046,
       "name": "Magatha Grimtotem",
       "zone": "Thunder Bluff",
       "route": "Horde Tauren leaders and familiar quest givers",
-      "reason": "Exact current named adult male/female model, Horde Friendly icon/pin and established voice checked; full Classic/Forever quest, Warcraft III and relevant literary/era research pending. See docs/research/cairne-and-magatha-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; major quest networks, actual era boundaries and unavailable literary leads in docs/research/thunder-bluff-shelter-and-watchful-silence.md"
+    },
+    {
+      "npc_id": 5144,
+      "name": "Bink",
+      "zone": "Ironforge",
+      "route": "Female Gnome/male Orc trainer and supplier coverage",
+      "reason": "Exact current named adult model, Friendly faction and established voice checked; official Classic city tour and current primary quest establish Bink in Ironforge despite parent-map pin. Full research pending. See docs/research/bink-and-tamar-queue.md"
+    },
+    {
+      "npc_id": 3366,
+      "name": "Tamar",
+      "zone": "Orgrimmar",
+      "route": "Female Gnome/male Orc trainer and supplier coverage",
+      "reason": "Exact current named adult model, Friendly faction and established voice checked; official Classic city tour and current primary quest establish Bink in Ironforge despite parent-map pin. Full research pending. See docs/research/bink-and-tamar-queue.md"
     }
   ]
 }

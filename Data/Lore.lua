@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cairne Bloodhoof <High Chieftain>, Thunder Bluff,3057/4307.
+    -- Adult male Tauren, current Horde-friendly World Boss. WC3 caravan,
+    -- rites, Winter Veil, hoofprint and Forever Longwalkers researched.
+    -- Enjoying a visitor's imperfect old story is original; no later fate.
+    -- Research: docs/research/thunder-bluff-shelter-and-watchful-silence.md.
+    [3057] = {
+        quote = "A home is something we defend together. Come into its shelter, then consider what strength you can offer those who stand beside you.",
+        likes = { "Strength used to protect the community", "The lore of the ancestors kept alive", "A visitor finding a place among the people" },
+        dislikes = { "The centaur threatening Mulgore again", "Bravery that forgets those it protects", "Treating an old warrior as helpless" },
+        gossip = "Cairne will hear an old tale to its end, even when he knows the outcome. Visitors sometimes discover he knew the people in it as well.",
+        bio = "Cairne leads the tauren from Thunder Bluff, welcoming the Horde to its shelter while guarding Mulgore. He honors service to the people, watches over his Longwalker scouts and values those who take an interest in the lore of his ancestors.",
+        backstory = "When centaur threatened his people, Cairne found an ally in Thrall. Together they defended the Bloodhoof village and brought its caravan toward Mulgore. Cairne protected the kodos and guided the young warchief toward the Oracle.",
+        secret = "He enjoys a visitor's telling of an old adventure, even when a detail has wandered. Sometimes he waits until the end to mention that he was there.",
+        bestFriend = "Walk beside me, friend. Tell me what your road has taught you. I am glad to hear the story in your own voice.",
+        favorite = { emote = "SALUTE", hint = "An honorable greeting suits a leader who recognizes service to the people and respect for their ways." },
+        lines = {
+            greet = { { "Welcome, friend. There is shelter here for the people of the Horde, and time to hear what brings you to our bluffs. Tell me of your journey. A home grows stronger through those willing to defend it, and through those who remember why it is worth defending when the fighting is done.", tone = "[warm] [dignified] [reassuring]" },
+                "You are welcome here. What news do you bring from the road?" },
+            idle = { { "A visitor once told me a fine account of a journey I remembered rather well. Some details had traveled farther than the people in the tale. I let him finish. There was pleasure in hearing what the story had become. He was quite surprised when I mentioned that I had been there.", tone = "[reflective] [gently amused]" },
+                "I have seen many seasons. There is still strength enough to stand beside my people.",
+                "A young warrior's courage matters. So does remembering whom that courage is meant to protect." },
+            befriended = { { "You have become a friend whose company I welcome beyond the business brought before a chieftain. Walk beside me. Tell me what you have seen, and what you hope to find. I am glad to hear your own account of the road, before another storyteller gives it a more remarkable ending.", tone = "[warm] [sincere] [lightly amused]" } },
+            poke = { "Yes, friend? You have my attention.", "Speak. I would hear what is on your mind." },
+            quest = { { "Service to the people continues beyond the first deed that earns their respect. Bring your strength, your judgment, and a willingness to see the work through. When the hunting is done, remember those who will gather the meat and hide. A fine deed should leave something useful for the community behind it.", tone = "[steady] [earnest] [encouraging]" } },
+            lowHealth = { "Stand together. Let our strength bring you back to safety." },
+            zone = { "New ground beneath our feet. Honor the land and those who have kept its stories." },
+            rest = { "Sit with me. The road can wait while we hear one another." },
+            hearth = { "Back to Thunder Bluff. May you find welcome upon its rises." },
+            levelUp = { "You have grown stronger. Consider what good that strength can do for those beside you." },
+            laughAlong = { "A good tale deserves a little laughter, especially when I remember it differently." },
+        },
+    },
+
+    -- Magatha Grimtotem <Elder Crone>, Elder Rise, Thunder Bluff,4046/4510.
+    -- Adult female Tauren, current Horde-friendly. Forsaken referral,
+    -- Beth'Amara tablet and ambiguous Arikara account; later retail excluded.
+    -- Enjoying an unhurried silence is an original detail.
+    -- Research: docs/research/thunder-bluff-shelter-and-watchful-silence.md.
+    [4046] = {
+        quote = "You came seeking wisdom. Begin by listening long enough to learn what question you should have brought.",
+        likes = { "A visitor who listens before speaking", "Old knowledge brought within reach", "An errand completed with discretion" },
+        dislikes = { "A hurried answer dressed as wisdom", "Being pressed for every thought at once", "Useful knowledge left in careless hands" },
+        gossip = "Magatha can make a visitor reconsider a question without answering it. Those who hurry to fill her silences often tell her rather more.",
+        bio = "Magatha, the Grimtotem elder, offers counsel on Elder Rise. She directs Stonetalon's petitioners toward Forsaken aid and seeks Beth'Amara's ancient tablet. Her interest in knowledge is clear; how much of her purpose she shares is another matter.",
+        backstory = "Her enchantment of Incendia agave helps summon Arikara. Magatha warns that the serpent may threaten Cairne, an explanation Motega finds puzzling. Those seeking her guidance have reason to listen carefully to the words she chooses.",
+        secret = "Sometimes a silence is simply a pause she is enjoying. She is curious how long a visitor will wait before deciding it must conceal something profound.",
+        bestFriend = "Stay. You have learned to let a silence stand. I find your company more agreeable when neither of us must explain every thought.",
+        favorite = { emote = "BOW", hint = "A measured gesture of respect suits an elder who expects visitors to attend carefully to her counsel." },
+        lines = {
+            greet = { { "You have returned. Take a moment before telling me everything you think I ought to hear. Listen to what is around you, and decide which question matters. I have time for a thoughtful visitor. I am less inclined to spend it untangling an answer demanded before the question was properly considered.", tone = "[measured] [commanding] [composed]" },
+                "You seek counsel again? Then give the matter your attention." },
+            idle = { { "A visitor once decided that my silence concealed a particularly important lesson. The longer I waited, the more carefully he tried to explain it to himself. I had merely paused. It was instructive to hear what he supplied. People reveal a great deal when they are certain someone else knows the answer.", tone = "[dry] [knowing] [unhurried]" },
+                "Old knowledge can remain useful long after the impatient have decided to overlook it.",
+                "You need not speak merely because I have stopped." },
+            befriended = { { "You have learned to remain without demanding that every thought become a lesson for you. I find that agreeable. Come along. We may speak when there is something worth saying, and enjoy the interval when there is not. Your company has become familiar enough that I need not account for every silence.", tone = "[reserved warmth] [measured] [sincere]" } },
+            poke = { "Yes? Consider whether you have given the matter enough thought.", "I heard you the first time." },
+            quest = { { "When Stonetalon's troubles were brought before me, I directed the petitioners toward Apothecary Zamah. The Forsaken are allies whose knowledge deserves consideration. Carry a message accurately, and distinguish the words you were given from the conclusions you have added. A useful envoy understands the importance of both listening and restraint.", tone = "[authoritative] [deliberate]" } },
+            loot = { "Consider what knowledge it carries before deciding what it is worth." },
+            bagsFull = { "Choose what you intend to keep. Carrying everything is no substitute for judgment." },
+            zone = { "Listen before deciding that a place has nothing to tell you." },
+            rest = { "You may sit. The silence requires no explanation." },
+            mail = { "A message should reach its intended reader with its meaning intact." },
+            hearth = { "Back to Thunder Bluff. There may be matters waiting on Elder Rise." },
+        },
+    },
+
     -- Nissa Firestone <First Aid Trainer>, Great Forge, Ironforge,5150/3068.
     -- Adult female Dwarf, current Alliance-friendly. Installed referrals
     -- and6625 establish admiration for VanHowzen, not study under him.

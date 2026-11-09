@@ -399,6 +399,46 @@
     "text": "This seems a good place. Sit down, put the work aside for a moment, and enjoy what you have brought. It need not be a grand feast to deserve your attention. A loaf tastes better when you give yourself time to notice it, and I would be glad to hear how you have been while we eat.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore4046_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4046",
+    "spoken": "[reserved warmth] [measured] [sincere] You have learned to remain without demanding that every thought become a lesson for you. I find that agreeable. Come along. We may speak when there is something worth saying, and enjoy the interval when there is not. Your company has become familiar enough that I need not account for every silence.",
+    "text": "You have learned to remain without demanding that every thought become a lesson for you. I find that agreeable. Come along. We may speak when there is something worth saying, and enjoy the interval when there is not. Your company has become familiar enough that I need not account for every silence.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4046_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4046",
+    "spoken": "[measured] [commanding] [composed] You have returned. Take a moment before telling me everything you think I ought to hear. Listen to what is around you, and decide which question matters. I have time for a thoughtful visitor. I am less inclined to spend it untangling an answer demanded before the question was properly considered.",
+    "text": "You have returned. Take a moment before telling me everything you think I ought to hear. Listen to what is around you, and decide which question matters. I have time for a thoughtful visitor. I am less inclined to spend it untangling an answer demanded before the question was properly considered.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4046_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4046",
+    "spoken": "[dry] [knowing] [unhurried] A visitor once decided that my silence concealed a particularly important lesson. The longer I waited, the more carefully he tried to explain it to himself. I had merely paused. It was instructive to hear what he supplied. People reveal a great deal when they are certain someone else knows the answer.",
+    "text": "A visitor once decided that my silence concealed a particularly important lesson. The longer I waited, the more carefully he tried to explain it to himself. I had merely paused. It was instructive to hear what he supplied. People reveal a great deal when they are certain someone else knows the answer.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore4046_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:4046",
+    "spoken": "[authoritative] [deliberate] When Stonetalon's troubles were brought before me, I directed the petitioners toward Apothecary Zamah. The Forsaken are allies whose knowledge deserves consideration. Carry a message accurately, and distinguish the words you were given from the conclusions you have added. A useful envoy understands the importance of both listening and restraint.",
+    "text": "When Stonetalon's troubles were brought before me, I directed the petitioners toward Apothecary Zamah. The Forsaken are allies whose knowledge deserves consideration. Carry a message accurately, and distinguish the words you were given from the conclusions you have added. A useful envoy understands the importance of both listening and restraint.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore6746_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

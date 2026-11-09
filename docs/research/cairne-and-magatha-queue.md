@@ -1,4 +1,6 @@
-# Next: Cairne Bloodhoof and Magatha Grimtotem
+# Completed: Cairne Bloodhoof and Magatha Grimtotem
+
+Completed source/writing/validation: [Thunder Bluff shelter and watchful silence](thunder-bluff-shelter-and-watchful-silence.md). Earlier pending statements preserve historical checkpoints; explicit unused/unavailable-source leads remain open.
 
 Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. Current API cache `C:/Users/brett/BuddyDex-builds/cairne-magatha-research/npc-ID.json`.
 

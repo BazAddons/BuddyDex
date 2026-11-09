@@ -399,6 +399,46 @@
     "text": "A steady cast, a sound knot, and your eyes on the water. We can practice those together. Save a little patience for yourself as well as for the fish.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3057_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3057",
+    "spoken": "[warm] [sincere] [lightly amused] You have become a friend whose company I welcome beyond the business brought before a chieftain. Walk beside me. Tell me what you have seen, and what you hope to find. I am glad to hear your own account of the road, before another storyteller gives it a more remarkable ending.",
+    "text": "You have become a friend whose company I welcome beyond the business brought before a chieftain. Walk beside me. Tell me what you have seen, and what you hope to find. I am glad to hear your own account of the road, before another storyteller gives it a more remarkable ending.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3057_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3057",
+    "spoken": "[warm] [dignified] [reassuring] Welcome, friend. There is shelter here for the people of the Horde, and time to hear what brings you to our bluffs. Tell me of your journey. A home grows stronger through those willing to defend it, and through those who remember why it is worth defending when the fighting is done.",
+    "text": "Welcome, friend. There is shelter here for the people of the Horde, and time to hear what brings you to our bluffs. Tell me of your journey. A home grows stronger through those willing to defend it, and through those who remember why it is worth defending when the fighting is done.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3057_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3057",
+    "spoken": "[reflective] [gently amused] A visitor once told me a fine account of a journey I remembered rather well. Some details had traveled farther than the people in the tale. I let him finish. There was pleasure in hearing what the story had become. He was quite surprised when I mentioned that I had been there.",
+    "text": "A visitor once told me a fine account of a journey I remembered rather well. Some details had traveled farther than the people in the tale. I let him finish. There was pleasure in hearing what the story had become. He was quite surprised when I mentioned that I had been there.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3057_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3057",
+    "spoken": "[steady] [earnest] [encouraging] Service to the people continues beyond the first deed that earns their respect. Bring your strength, your judgment, and a willingness to see the work through. When the hunting is done, remember those who will gather the meat and hide. A fine deed should leave something useful for the community behind it.",
+    "text": "Service to the people continues beyond the first deed that earns their respect. Bring your strength, your judgment, and a willingness to see the work through. When the hunting is done, remember those who will gather the meat and hide. A fine deed should leave something useful for the community behind it.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3061_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
