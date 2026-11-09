@@ -83,6 +83,44 @@ ns.Lore = {
         },
     },
 
+    -- Kira Songshine <Traveling Baker>, Elwynn Forest. Human, female.
+    -- Facts: NPC 3937; sells breads, cherry pie and drinks around Goldshire.
+    -- Classic references describe her traveling Elwynn's roads.
+    -- Warcraft: Legends vol. 4, "Bloodsail Buccaneer", also connects her
+    -- with James "Jimmy" Blackridge, who tells her his adventures. Do not
+    -- invent a marriage, separation or other outcome for that relationship.
+    -- No quest chain found in the consulted sources. Baking preferences,
+    -- the end-slice hook and companion dialogue below are BuddyDex fiction.
+    -- Sources and continuity notes: docs/research/kira-songshine.md.
+    [3937] = {
+        quote = "A loaf for the road? You can tell me where you're going while I wrap it.",
+        likes = { "The heel of a fresh loaf", "A good story over lunch", "Customers who stop to say hello" },
+        dislikes = { "Rain getting into the bread basket", "Wasted food", "Being hurried through a story" },
+        gossip = "Her regulars say Kira never sells the end slices. Nobody can agree whether she eats them all or hides them.",
+        bio = "Kira Songshine sells bread, pie and drinks in Elwynn Forest. Around Goldshire, her basket is a welcome "
+            .. "sight to travelers who packed a sword but forgot their lunch. She has time for a customer and a story.",
+        backstory = "On her rounds, Kira learned that a short walk can take all morning when everyone has news. "
+            .. "She began leaving room between deliveries for conversation. Bread travels better when nobody sits on the basket to hurry her.",
+        secret = "The heels are her favorite. She saves them for hungry travelers, then calls them leftovers so nobody has to feel they're asking for charity.",
+        bestFriend = "I saved you the best end of the loaf. Sit a moment. This time, I want the whole story, not just the exciting bits.",
+        favorite = { emote = "THANK", hint = "A little gratitude makes the whole morning worthwhile." },
+        lines = {
+            greet = { "There you are! Have you eaten?", "Mind the basket. The pie doesn't have armor." },
+            idle = { "Listen to that crust. That's a good loaf.",
+                "Everyone remembers a sword. Nobody remembers lunch.",
+                "A story's better when nobody has to tell it on an empty stomach." },
+            befriended = { "A friend for the road! I'll pack a little extra." },
+            poke = { "Checking if I've risen?", "Gently! I'm carrying the soft bread." },
+            levelUp = { "Look at you! We'll need a bigger lunch to celebrate." },
+            quest = { "Errands done. Now, when did you last eat?" },
+            loot = { "Anything edible? No? Well, someone might buy it." },
+            bagsFull = { "Don't squash the bread to make room!" },
+            zone = { "New customers, perhaps. I hope someone knows a good oven." },
+            taxi = { "Keep the basket level! There are pies in here!" },
+            landed = { "Feet on the ground. Pastry still in one piece. Lovely." },
+        },
+    },
+
     -- Auctioneer Lympkin, the Commons, Ironforge. Gnome, female. Level 50 in
     -- Forever. Facts: one of Ironforge's three auctioneers, with Auctioneer
     -- Buckler and Auctioneer Redmuse, both dwarves. No gossip or quests: she
