@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 344,
+  "completed_count": 346,
   "remaining_count": 4,
   "completed": [
     {
@@ -1397,6 +1397,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 2861,
+      "name": "Gorrik",
+      "zone": "Badlands",
+      "source": "Exact current Horde-friendly adult body/identity and map projection; full Classic own relations and connected Brutal Armor chain, complete readable instructions, installed text and literary/era review; current quest availability qualified, no Scout sighting claimed",
+      "research_notes": "docs/research/kargath-stories-and-undercity-humor.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2879,
       "name": "Karrina Mekenda",
       "zone": "Stormwind City",
@@ -2371,6 +2381,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 6411,
+      "name": "Velora Nitely",
+      "zone": "Undercity",
+      "source": "Exact current Horde-friendly adult body/identity and map projection; full Classic own relations and connected Brutal Armor chain, complete readable instructions, installed text and literary/era review; current quest availability qualified, no Scout sighting claimed",
+      "research_notes": "docs/research/kargath-stories-and-undercity-humor.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 6569,
       "name": "Gnoarn",
       "zone": "Ironforge",
@@ -3236,16 +3256,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 2861,
-      "name": "Gorrik",
-      "zone": "Badlands",
+      "npc_id": 6408,
+      "name": "Ula'elek",
+      "zone": "Durotar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 6411,
-      "name": "Velora Nitely",
-      "zone": "Undercity",
+      "npc_id": 6410,
+      "name": "Orm Stonehoof",
+      "zone": "Thunder Bluff",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
@@ -3449,7 +3469,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1503,
+    "candidate_name_groups": 1504,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

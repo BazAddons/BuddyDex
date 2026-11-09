@@ -288,3 +288,10 @@ Next: [Pixel and Vhulgra](ashenvale-pixel-and-vhulgra-queue.md), verified adult 
 Pixel 12724 and Vhulgra 12616 complete: researched adult female Goblin/Orc profiles, fifteen personal lines and four approved v4 recordings each. See [research](ashenvale-a-keepsake-and-a-wave.md). Development total **344**; public coverage Alliance 192, Horde 69, unverified 89 (shared access overlaps). Normal live eligibility remains required, including for the flight master's elite classification. No Scout encounter or live visual QA is claimed. Publication remains deferred; preserve the older upload candidate. Continue the wider catalog and retain the two older Westfall availability questions.
 
 Next individually reviewed candidates: Gorrik 2861 and Velora Nitely 6411; [identity queue](kargath-and-undercity-queue.md). Neither counts as complete.
+
+
+### 2026-11-09: Kargath and Undercity
+
+Gorrik 2861 and Velora Nitely 6411 complete: full adult Orc/Forsaken profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](kargath-stories-and-undercity-humor.md) distinguishes the full historical armor chain from unverified current quest availability. Development total **346**; public access Alliance 192, Horde 71, unverified 89, with shared access overlapping. Installed and development-packaged; publication remains deferred.
+
+Next individually checked identities: Ula'elek 6408 and Orm Stonehoof 6410; [queue](brutal-armor-smiths-queue.md). Ula'elek's public current reaction is unverified; retain live eligibility.

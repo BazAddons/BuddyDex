@@ -1,5 +1,6 @@
 # Unreleased
 
+- Complete Gorrik and Velora Nitely: full Kargath/Undercity profiles, fifteen personal lines and four approved Orc/Forsaken Eleven v4 signatures each. Preserve Velora's canonical skill, lost humor and grim material choice; distinguish historical armor quests from unverified current quest availability.
 - Complete Pixel and Vhulgra at Splintertree Post: full profiles, fifteen personal lines and four approved Goblin/Orc Eleven v4 signatures each. Preserve Pixel's travel and exact gun-for-saw-blades exchange; retain Vhulgra's flight role and friendly elite eligibility.
 - Complete Witch Doctor Jin'Zil and Innkeeper Jayka: full Stonetalon profiles, fifteen personal lines and four approved Troll/Orc Eleven v4 signatures each. Preserve Forest Magic's sinister characterization, actual old friendships and battle-weary hospitality; qualify current event/access gaps. Development now has 342 complete profiles.
 

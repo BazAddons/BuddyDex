@@ -438,5 +438,45 @@
     "spoken": "[firm practical encouragement, measured approval, clear] Good. Make certain you understand what you have learned. Being able to give an instruction is a beginning. Knowing what it requires, and whether it is the right one, will spare you a good deal of trouble.",
     "text": "Good. Make certain you understand what you have learned. Being able to give an instruction is a beginning. Knowing what it requires, and whether it is the right one, will spare you a good deal of trouble.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore6411_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6411",
+    "spoken": "[raspy] [quietly warm] You are willing to tell me when a joke has failed, and willing to stay while I ask why. I appreciate both. Come along. There may be something pleasant to discuss, even if I never quite understand what made you laugh.",
+    "text": "You are willing to tell me when a joke has failed, and willing to stay while I ask why. I appreciate both. Come along. There may be something pleasant to discuss, even if I never quite understand what made you laugh.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore6411_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6411",
+    "spoken": "[raspy] [deadpan] There you are. I have a joke, if you have a moment. No, I cannot promise it is a good one. That is where your help comes in. An honest explanation would be more useful than a very polite laugh.",
+    "text": "There you are. I have a joke, if you have a moment. No, I cannot promise it is a good one. That is where your help comes in. An honest explanation would be more useful than a very polite laugh.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore6411_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6411",
+    "spoken": "[dry] [reflective] Someone laughed at one of my jokes, so I asked why. The explanation took longer than the joke. By the end, they were no longer laughing, but they were still sitting with me. I found that I liked that part.",
+    "text": "Someone laughed at one of my jokes, so I asked why. The explanation took longer than the joke. By the end, they were no longer laughing, but they were still sitting with me. I found that I liked that part.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore6411_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:6411",
+    "spoken": "[matter-of-fact] [dry] Sturdy material matters. Something that gives way in your hands will not become sound armor because you wish it would. Check what you are working with before you begin. That advice, at least, does not require a sense of humor.",
+    "text": "Sturdy material matters. Something that gives way in your hands will not become sound armor because you wish it would. Check what you are working with before you begin. That advice, at least, does not require a sense of humor.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
   }
 }

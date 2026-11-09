@@ -1,4 +1,44 @@
 {
+  "lore2861_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2861",
+    "spoken": "[warm] [content] You stayed to hear the ending even after you knew nothing terrible would happen. I appreciate that. Come along. We have plenty to see, and perhaps we can find a pleasant little part of the day for ourselves as well.",
+    "text": "You stayed to hear the ending even after you knew nothing terrible would happen. I appreciate that. Come along. We have plenty to see, and perhaps we can find a pleasant little part of the day for ourselves as well.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2861_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2861",
+    "spoken": "[deep] [easygoing] There you are. Have a destination in mind? We can talk while you decide. I was just telling a story about a traveler who reached somewhere pleasant and had an ordinary evening. I think he has earned another one.",
+    "text": "There you are. Have a destination in mind? We can talk while you decide. I was just telling a story about a traveler who reached somewhere pleasant and had an ordinary evening. I think he has earned another one.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2861_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2861",
+    "spoken": "[storytelling] [dryly amused] Then the traveler found a seat, put down his pack, and enjoyed the view. What happened next? Nothing troubling. I know, an unusual ending. The world can provide its own dangers. I am giving this fellow a peaceful afternoon.",
+    "text": "Then the traveler found a seat, put down his pack, and enjoyed the view. What happened next? Nothing troubling. I know, an unusual ending. The world can provide its own dangers. I am giving this fellow a peaceful afternoon.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2861_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:2861",
+    "spoken": "[calm] [reassuring] Know where you are headed before you leave. Then, when there is a moment, enjoy the view. A journey does not have to become a grand tale to be worth making. Some of the best ones end with a simple welcome.",
+    "text": "Know where you are headed before you leave. Then, when there is a moment, enjoy the view. A journey does not have to become a grand tale to be worth making. Some of the best ones end with a simple welcome.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3143_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

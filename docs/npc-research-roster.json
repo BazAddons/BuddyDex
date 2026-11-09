@@ -973,5 +973,19 @@
     "zone": "Ashenvale",
     "source": "Exact current Horde-friendly adult female Goblin/Orc identity, body and Splintertree pin; full own relations, supplies/horns/gun exchange, installed gossip and literary/era review; no Scout sighting claimed",
     "research_notes": "docs/research/ashenvale-a-keepsake-and-a-wave.md"
+  },
+  {
+    "npc_id": 2861,
+    "name": "Gorrik",
+    "zone": "Badlands",
+    "source": "Exact current Horde-friendly adult body/identity and map projection; full Classic own relations and connected Brutal Armor chain, complete readable instructions, installed text and literary/era review; current quest availability qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/kargath-stories-and-undercity-humor.md"
+  },
+  {
+    "npc_id": 6411,
+    "name": "Velora Nitely",
+    "zone": "Undercity",
+    "source": "Exact current Horde-friendly adult body/identity and map projection; full Classic own relations and connected Brutal Armor chain, complete readable instructions, installed text and literary/era review; current quest availability qualified, no Scout sighting claimed",
+    "research_notes": "docs/research/kargath-stories-and-undercity-humor.md"
   }
 ]

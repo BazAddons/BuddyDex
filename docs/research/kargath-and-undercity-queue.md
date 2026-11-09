@@ -1,4 +1,6 @@
-# Next: Gorrik and Velora Nitely
+# Completed: Gorrik and Velora Nitely
+
+Completed 2026-11-09; see [full research and validation](kargath-stories-and-undercity-humor.md). Historical planning notes below.
 
 Individually checked identity shortlist, 2026-11-09. Neither is authored or recorded yet. No Scout sighting is claimed. External cache: `C:/Users/brett/BuddyDex-builds/kargath-and-undercity-research`.
 

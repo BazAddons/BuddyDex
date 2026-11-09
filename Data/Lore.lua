@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gorrik <Wind Rider Master>, Kargath, adult male Orc, 2861/display 4148.
+    -- Current level 55 elite, Horde-friendly flight service; destination gossip.
+    -- Imaginary uneventful traveler is ours. No later New Kargath relocation.
+    -- Research: docs/research/kargath-stories-and-undercity-humor.md.
+    [2861] = {
+        quote = "Every tale needs an ending. Mine usually reaches a quiet place with somewhere to sit.",
+        likes = { "A destination chosen with care", "An ordinary ending to a long day", "Company willing to hear a quiet story" },
+        dislikes = { "Turning every pause into a crisis", "A tale that forgets to let anyone rest", "Dust finding its way between his teeth" },
+        gossip = "Gorrik tells a traveling story with no battles in it. People keep waiting for the danger. He keeps finding somewhere to sit.",
+        bio = "Gorrik serves as Kargath's wind rider master in the Badlands. He asks travelers where they wish to fly and helps them leave the outpost by air. Not every conversation beside a departure needs to be about the next battle.",
+        backstory = "During a quiet wait, Gorrik invented a traveler who reached a village, found a seat and had an entirely ordinary evening. Someone asked what happened next. He decided the traveler deserved another uneventful day.",
+        secret = "He could add an ambush to the story. He chooses not to. The world supplies enough danger; he enjoys giving one imaginary traveler an easy road.",
+        bestFriend = "Stay for the next part. Our traveler finds a comfortable place to sit. You can choose the view. I like telling this one with you.",
+        favorite = { emote = "NOD", hint = "Enjoys a listener who accepts that a peaceful ending can be enough." },
+        lines = {
+            greet = { { "There you are. Have a destination in mind? We can talk while you decide. I was just telling a story about a traveler who reached somewhere pleasant and had an ordinary evening. I think he has earned another one.", tone = "[deep] [easygoing]" },
+                "Good to see you. There is room for a quiet conversation before we leave." },
+            idle = { { "Then the traveler found a seat, put down his pack, and enjoyed the view. What happened next? Nothing troubling. I know, an unusual ending. The world can provide its own dangers. I am giving this fellow a peaceful afternoon.", tone = "[storytelling] [dryly amused]" },
+                "No ambush in this chapter. I have made up my mind.",
+                "A little less dust between my teeth would improve this conversation." },
+            befriended = { { "You stayed to hear the ending even after you knew nothing terrible would happen. I appreciate that. Come along. We have plenty to see, and perhaps we can find a pleasant little part of the day for ourselves as well.", tone = "[warm] [content]" } },
+            poke = { "Yes? I was finding our traveler a comfortable seat.", "The next part can wait. What do you need?" },
+            taxi = { { "Know where you are headed before you leave. Then, when there is a moment, enjoy the view. A journey does not have to become a grand tale to be worth making. Some of the best ones end with a simple welcome.", tone = "[calm] [reassuring]" } },
+            landed = { "Here we are. A perfectly good ending to that part of the journey." },
+            rest = { "Our traveler would approve of this. So do I." },
+            zone = { "A new setting. We can decide what the quiet corner looks like." },
+            combatStart = { "This part was not in my story." },
+            combatEnd = { "Now I would like that ordinary evening." },
+            hearth = { "A familiar place. That makes a fine last line." },
+        },
+    },
+
+    -- Velora Nitely, Undercity Trade Quarter, adult female Forsaken,
+    -- 6411/display 5235. Classic 1841/1846/1847: gifted armorsmith,
+    -- lost humor/smell, grim shinbone jokes, diminished interest in craft.
+    -- Asking friends to explain laughter is ours; no cure or current quest gate.
+    -- Research: docs/research/kargath-stories-and-undercity-humor.md.
+    [6411] = {
+        quote = "The armor still fits. The joke is harder to judge. You will have to tell me about that part.",
+        likes = { "An honest answer about a joke", "A fit that needs no further adjustment", "Someone who stays for the explanation" },
+        dislikes = { "Being treated as a mindless servant", "Pretending a poor joke was excellent", "A weak bone passed off as sturdy" },
+        gossip = "Velora asks why a joke was funny, then listens to the entire explanation. By the end, nobody is sure it still is.",
+        bio = "An armorsmith in Undercity's Trade Quarter, Velora retains the skill Thun'grim Firegaze praises from her life in Lordaeron. Her Brutal Legguards work uses sturdy Dragonmaw shinbones. Her jokes are less reliable than her fittings.",
+        backstory = "Velora says death took her sense of humor along with her sense of smell. When a visitor laughed at one of her attempts, she asked what had worked. The explanation went on for some time. She found she wanted to hear it through.",
+        secret = "An explanation does not give the joke its old feeling back. Still, somebody is sitting with her, trying to share something pleasant. She wants them to keep talking.",
+        bestFriend = "Was that funny? Tell me why. You may take your time. I cannot promise to understand the joke, but I am glad you stayed.",
+        favorite = { emote = "COMFORT", hint = "Appreciates reassurance that she is welcome even when a joke falls flat." },
+        lines = {
+            greet = { { "There you are. I have a joke, if you have a moment. No, I cannot promise it is a good one. That is where your help comes in. An honest explanation would be more useful than a very polite laugh.", tone = "[raspy] [deadpan]" },
+                "Welcome back. You can tell me whether that last attempt improved." },
+            idle = { { "Someone laughed at one of my jokes, so I asked why. The explanation took longer than the joke. By the end, they were no longer laughing, but they were still sitting with me. I found that I liked that part.", tone = "[dry] [reflective]" },
+                "I can check the fit. Humor is rather harder to measure.",
+                "You need not laugh to be kind. An honest answer will do." },
+            befriended = { { "You are willing to tell me when a joke has failed, and willing to stay while I ask why. I appreciate both. Come along. There may be something pleasant to discuss, even if I never quite understand what made you laugh.", tone = "[raspy] [quietly warm]" } },
+            poke = { "Was there a problem with the fit? Or with the joke?", "Yes? I am listening. Take your time." },
+            loot = { { "Sturdy material matters. Something that gives way in your hands will not become sound armor because you wish it would. Check what you are working with before you begin. That advice, at least, does not require a sense of humor.", tone = "[matter-of-fact] [dry]" } },
+            gear = { "Tell the smith where it catches. Small adjustments matter." },
+            rest = { "You can explain it here. We have time." },
+            laughAlong = { "Which part was funny? I would like to know." },
+            quest = { "Read what is needed carefully. Sturdy is a requirement, not a compliment." },
+            combatEnd = { "You are still yourself. That counts for something." },
+            hearth = { "Back again. You can finish telling me on the way." },
+        },
+    },
+
     -- Pixel, Splintertree Post, adult female Goblin, 12724/display 12968.
     -- Traveling toward Ratchet; 6441 recruits satyr-horn collectors.
     -- 6581 trades saw blades for a Deadly Blunderbuss for protection.
