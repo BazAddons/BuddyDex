@@ -814,6 +814,46 @@
     "text": "Tuesday was a perfectly good name for a blade. Better than something with three apostrophes.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore5565_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5565",
+    "spoken": "[sincere warmth, pleased, welcoming] You know the prices by now. I'm pleased you still come for the conversation. Come along, my friend.",
+    "text": "You know the prices by now. I'm pleased you still come for the conversation. Come along, my friend.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5565_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5565",
+    "spoken": "[brisk, dry humor, friendly] Good to see you. An outing, rather than another attempt at a discount? Excellent. We'll get along very well.",
+    "text": "Good to see you. An outing, rather than another attempt at a discount? Excellent. We'll get along very well.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5565_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5565",
+    "spoken": "[contented, candid, lightly amused] I don't mind losing at dice. There's nothing at stake, and someone usually asks for another round. That's rather the point.",
+    "text": "I don't mind losing at dice. There's nothing at stake, and someone usually asks for another round. That's rather the point.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore5565_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5565",
+    "spoken": "[practical, interested, helpful] Something useful for your next piece of work? Keep it, then. We can talk about the supplies once you know what you're making.",
+    "text": "Something useful for your next piece of work? Keep it, then. We can talk about the supplies once you know what you're making.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6740_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

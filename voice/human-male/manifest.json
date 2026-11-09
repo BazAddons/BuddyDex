@@ -1,4 +1,44 @@
 {
+  "lore11096_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11096",
+    "spoken": "[sincere affection, delighted, welcoming] Someone who notices the details and stays for the company. I like you very much. Shall we go and enjoy the day?",
+    "text": "Someone who notices the details and stays for the company. I like you very much. Shall we go and enjoy the day?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11096_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11096",
+    "spoken": "[bright confidence, playful vanity, friendly] There you are. An outing? Splendid. I chose rather well today, if I do say so. We should give the outfit a little daylight.",
+    "text": "There you are. An outing? Splendid. I chose rather well today, if I do say so. We should give the outfit a little daylight.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11096_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11096",
+    "spoken": "[confiding, amused, pleased with himself] The pocket lining is for me. A little flourish nobody has to approve of. Yes, even I sometimes dress without an audience.",
+    "text": "The pocket lining is for me. A little flourish nobody has to approve of. Yes, even I sometimes dress without an audience.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore11096_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:11096",
+    "spoken": "[enthusiastic, encouraging, curious] A new technique! Excellent. Now you can make it look as good as it works. Show me when you've had a little practice.",
+    "text": "A new technique! Excellent. Now you can make it look as good as it works. Show me when you've had a little practice.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore11867_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -1450,6 +1490,46 @@
     "source": "lore:523",
     "spoken": "[excited] I know the flight path from here!",
     "text": "{zone}! I know the flight path from here."
+  },
+  "lore5564_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5564",
+    "spoken": "[sincere affection, reserved warmth, welcoming] You keep finding your way back. That means something to me. Come along, my friend. Let's see a little of the world.",
+    "text": "You keep finding your way back. That means something to me. Come along, my friend. Let's see a little of the world.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5564_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5564",
+    "spoken": "[gruff warmth, amused, quietly eager] An outing? Good. Let me get the walking bag. And remind me to put something edible in it this time.",
+    "text": "An outing? Good. Let me get the walking bag. And remind me to put something edible in it this time.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5564_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5564",
+    "spoken": "[self-deprecating, practical, fond humor] More repair thread than lunch. Again. I keep thinking someone will need a seam fixed. Perhaps we should find a baker first.",
+    "text": "More repair thread than lunch. Again. I keep thinking someone will need a seam fixed. Perhaps we should find a baker first.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore5564_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5564",
+    "spoken": "[quiet pride, encouraging, warmly approving] There. You stayed with it, and now you can do it. Remember that next time the work seems slow.",
+    "text": "There. You stayed with it, and now you can do it. Remember that next time the work seems slow.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore6175_befriended_1.ogg": {
     "line": 1,

@@ -42,6 +42,85 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- The Protective Hide, Old Town, Stormwind. Human leatherworkers:
+    -- Simon Tanner 5564 (male Expert), Jillian Tanner 5565 (female supplier),
+    -- Randal Worth 11096 (male Journeyman). Installed gossip establishes
+    -- Simon/Randal's instruction and mutual regard; Jillian's fixed prices.
+    -- No assumed marriage or Charles/Sarah family history. Original travel
+    -- bag/dice/lining hooks: docs/research/protective-hide.md.
+    [5564] = {
+        quote = "Adventure will still be there when you've finished the stitch. Though I understand why you keep looking at the door.",
+        likes = { "A student who returns to the work", "A bag ready for an ordinary outing", "Hearing how a piece held up on the road" },
+        dislikes = { "A promising lesson abandoned halfway", "Calling careful work dull", "A weak seam hidden under decoration" },
+        gossip = "Simon understands his students' urge to travel better than he admits. One well-kept walking bag never seems to find its way onto the stock shelf.",
+        bio = "Simon Tanner teaches leatherworking at the Protective Hide in Stormwind's Old Town. He calls Randal Worth dependable despite the younger trainer's fondness for style. Simon sends beginners to him and directs advanced learners toward Telonis in Darnassus.",
+        backstory = "Students often hear adventure calling before the lesson is finished. Simon grumbles about their reliability without quite blaming them. He likes seeing someone return with new experience and a piece of work to discuss.",
+        secret = "The walking bag is his. He keeps packing extra repair thread instead of enough lunch. Even when planning a day away, he thinks of what someone might need mended on the road.",
+        bestFriend = "If I start packing another spool, remind me about lunch. I'd like to enjoy the road with you before finding something that needs repairing.",
+        favorite = { emote = "GREET", hint = "A friendly return to his door means more than a promise to finish the lesson someday." },
+        lines = {
+            greet = { { "An outing? Good. Let me get the walking bag. And remind me to put something edible in it this time.", tone = "[gruff warmth, amused, quietly eager]" }, "There you are. Been somewhere worth hearing about? Tell me while we walk." },
+            idle = { { "More repair thread than lunch. Again. I keep thinking someone will need a seam fixed. Perhaps we should find a baker first.", tone = "[self-deprecating, practical, fond humor]" }, "Randal will get the work done. He'll look pleased with himself doing it, but he'll get it done.", "Can't blame someone for wanting a bit of adventure. I can still grumble about the unfinished work." },
+            befriended = { { "You keep finding your way back. That means something to me. Come along, my friend. Let's see a little of the world.", tone = "[sincere affection, reserved warmth, welcoming]" } },
+            poke = { "Yes? Is the question ready?", "I'm listening. You don't have to prod the answer out." },
+            learned = { { "There. You stayed with it, and now you can do it. Remember that next time the work seems slow.", tone = "[quiet pride, encouraging, warmly approving]" } },
+            quest = { "Finished. I like seeing someone come back with that to say." },
+            loot = { "Useful material? Keep it in good condition." },
+            bagsFull = { "Did you leave room for lunch? Asking for both of us." },
+            rest = { "A seat would be welcome. Tell me how the rest of the journey went." },
+            levelUp = { "Experience showing. Well done." },
+            hearth = { "Back to the shop. I'll be interested to see what Randal's been working on." },
+        },
+    },
+    [5565] = {
+        quote = "The price is set. The conversation needn't be. Tell me what you're making, and we'll find what you need.",
+        likes = { "A clear request for good supplies", "Rules agreed before a friendly game", "An afternoon that leaves time to talk" },
+        dislikes = { "Haggling after the price is clear", "A rule changed halfway through a game", "Being asked for a discount instead of help" },
+        gossip = "Jillian is firm about her prices, but apparently quite cheerful about losing at dice. The difference seems to be who stayed to play.",
+        bio = "Jillian Tanner sells leatherworking supplies at the Protective Hide in Old Town. Simon Tanner and Randal Worth teach there. She stands by her stock and makes it clear that the prices are settled before the bargaining starts.",
+        backstory = "A supplies counter teaches a person how many ways there are to ask for the same discount. Jillian learned to be plain about her terms. Away from business, she enjoys a friendly game more when everyone agrees on the rules and stays for the company.",
+        secret = "She keeps a little set of dice for games with nothing at stake. Losing doesn't trouble her much. An opponent asking for one more round usually means the conversation isn't over.",
+        bestFriend = "One more round? No coins on the table. I've had enough business for one day, and I like having you here.",
+        favorite = { emote = "NOD", hint = "A straightforward acknowledgment tells her you've heard the terms and can get on with a pleasant visit." },
+        lines = {
+            greet = { { "Good to see you. An outing, rather than another attempt at a discount? Excellent. We'll get along very well.", tone = "[brisk, dry humor, friendly]" }, "There you are. What are we doing with the rest of the day?" },
+            idle = { { "I don't mind losing at dice. There's nothing at stake, and someone usually asks for another round. That's rather the point.", tone = "[contented, candid, lightly amused]" }, "You can ask what you need without beginning at half the price.", "Good supplies and a clear request. Such a pleasant combination." },
+            befriended = { { "You know the prices by now. I'm pleased you still come for the conversation. Come along, my friend.", tone = "[sincere warmth, pleased, welcoming]" } },
+            poke = { "That won't make the price lower.", "Yes? Is there something you meant to ask?" },
+            loot = { { "Something useful for your next piece of work? Keep it, then. We can talk about the supplies once you know what you're making.", tone = "[practical, interested, helpful]" } },
+            bagsFull = { "An inventory before another purchase would do you good." },
+            learned = { "Good. Now you'll know what to ask for next time." },
+            quest = { "Work finished and terms met. A satisfying end to an errand." },
+            rest = { "A pause sounds good. We could let the day belong to us for a while." },
+            levelUp = { "Well done. No bargaining involved, just the work you put in." },
+            hearth = { "Home. I hope there's time for a little company after the counter closes." },
+        },
+    },
+    [11096] = {
+        quote = "Of course the work should hold together. But must it look as though nobody enjoyed making it?",
+        likes = { "A color that suits the wearer", "A fine detail noticed without prompting", "Simon's help with a difficult technique" },
+        dislikes = { "Calling good style a distraction", "A splendid look hiding weak work", "Mud in a place it has no right to be" },
+        gossip = "Randal can find a reason to discuss an outfit in almost any lesson. Simon still calls him dependable, which Randal seems to treasure.",
+        bio = "Randal Worth teaches leatherworking at the Protective Hide in Old Town. He admires his own style, but gives Simon Tanner credit for helping with technique. When a learner needs more advanced instruction, Randal points them toward Simon.",
+        backstory = "Simon regards him as something of a dandy and still trusts him to be dependable. Randal wants both parts to count. A good eye for color is a beginning; he keeps learning how to make the careful work live up to the appearance.",
+        secret = "His favorite bit of a waistcoat is a bright pocket lining nobody usually sees. He likes knowing there's one flourish he chose entirely for himself, even on a day full of other opinions.",
+        bestFriend = "You noticed the lining. I like that. More than that, I like that you'll tell me whether the rest of the work is any good.",
+        favorite = { emote = "PRAISE", hint = "An honest compliment about a detail he chose with care may brighten the whole lesson." },
+        lines = {
+            greet = { { "There you are. An outing? Splendid. I chose rather well today, if I do say so. We should give the outfit a little daylight.", tone = "[bright confidence, playful vanity, friendly]" }, "Ready? Good. I want to hear what you've been making." },
+            idle = { { "The pocket lining is for me. A little flourish nobody has to approve of. Yes, even I sometimes dress without an audience.", tone = "[confiding, amused, pleased with himself]" }, "Simon knows a great deal. It's wise to listen, even when he's grumbling about your sleeves.", "Color and detail. You can care about those and still finish the work properly." },
+            befriended = { { "Someone who notices the details and stays for the company. I like you very much. Shall we go and enjoy the day?", tone = "[sincere affection, delighted, welcoming]" } },
+            poke = { "Careful! Have you any idea how long I spent on that?", "Admiration needn't involve prodding." },
+            learned = { { "A new technique! Excellent. Now you can make it look as good as it works. Show me when you've had a little practice.", tone = "[enthusiastic, encouraging, curious]" } },
+            loot = { "That has possibilities. Hold it up in the light." },
+            bagsFull = { "There must be a tidier way to carry all of that." },
+            quest = { "Finished, and with some style, I hope." },
+            rest = { "Yes, let's sit. Somewhere the sleeves won't pick up anything unfortunate." },
+            levelUp = { "Look at you! Achievement becomes you." },
+            hearth = { "Home. I've a detail I want to show Simon." },
+        },
+    },
+
     -- Carla Granger 1291 sells cloth armor; Aldric Moore 1294 sells mail;
     -- Lara Moore 1295 sells leather, all at Lionheart Armory, Stormwind.
     -- Maris Granger 1292 teaches skinning in Old Town. All are human;
