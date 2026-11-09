@@ -1,9 +1,18 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 16,
-  "remaining_count": 158,
+  "completed_count": 18,
+  "remaining_count": 156,
   "completed": [
+    {
+      "npc_id": 66,
+      "name": "Tharynn Bouden",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 16,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
     {
       "npc_id": 234,
       "source": "Existing authored profile",
@@ -71,6 +80,15 @@
       "name": "Thor",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 927,
+      "name": "Brother Wilhelm",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -192,13 +210,6 @@
     {
       "npc_id": 797,
       "name": "Bo",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 927,
-      "name": "Brother Wilhelm",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -339,13 +350,6 @@
     {
       "npc_id": 17804,
       "name": "Squire Rowe",
-      "zone": "Elwynn Forest",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 66,
-      "name": "Tharynn Bouden",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

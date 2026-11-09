@@ -42,6 +42,74 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Brother Wilhelm <Paladin Trainer>, behind the Goldshire smithy,
+    -- Elwynn Forest. NPC 927, male human. Classic quest 2998 refers human
+    -- paladins to Duthorian Rall and the Tome of Divinity trials. No later
+    -- Legion service, presumed Northshire membership or family tie used.
+    -- Beginner practice and private reflections are BuddyDex fiction.
+    -- Sources: docs/research/wilhelm-and-tharynn.md.
+    [927] = {
+        quote = "Take your time. The person who needs your help will remember your kindness longer than your perfect stance.",
+        likes = { "Patience with a new student", "Strength used to shelter someone", "A quiet moment after practice" },
+        dislikes = { "Mistaking mercy for weakness", "A lesson hurried past understanding", "Making a beginner feel small" },
+        gossip = "Wilhelm still practices the simplest blessings when the yard is empty. Goldshire wonders what a teacher could possibly need to learn from those.",
+        bio = "Brother Wilhelm trains paladins behind Goldshire's smithy. He directs promising human students to Duthorian Rall in Stormwind's Cathedral of Light, where the Tome of Divinity sets them on a path of service.",
+        backstory = "Teaching beside a busy forge taught him to leave a little space between instructions. A student can hear a sentence without understanding it. He learned to wait for the question that comes after the nod.",
+        secret = "The first blessing still brings back the relief of getting something right after many tries. He practices it to remember how much a beginner has to be brave about.",
+        bestFriend = "You can set the example aside for a moment. Sit with me. Even someone others rely on deserves a friend to lean on.",
+        favorite = { emote = "PRAY", hint = "A moment of quiet devotion matters more than an impressive display." },
+        lines = {
+            greet = { { "Good to see you. Shall we make ourselves useful along the way?", tone = "[steady, welcoming voice, gentle conviction]" },
+                "A little time beyond the practice yard will do us both good." },
+            idle = { { "The simplest lesson is often worth returning to. I still do.", tone = "[reflective, reassuring voice, modest warmth]" },
+                "You needn't fill every silence. Leave room for someone else's question.",
+                "A steady hand can help someone stand. Remember that part, too." },
+            befriended = { { "I'm glad you feel you can speak freely with me. I hope you'll let me do the same.", tone = "[warm, sincerely grateful voice]" } },
+            poke = { "Yes? Is something troubling you?", "Gently. Attention needn't be a test of endurance." },
+            quest = { { "Someone needed help, and you made time. That is worth being proud of.", tone = "[quietly proud voice, sincere encouragement]" } },
+            levelUp = { "Well done. Remember to give yourself the patience you offer others." },
+            combatEnd = { "Look around. Who needs a steady hand before we move on?" },
+            rest = { "Rest is part of being ready to help. Sit a while." },
+            died = { "Oh, my friend. May the Light find you, even here." },
+            zone = { "Another place where a little kindness may be needed." },
+            hearth = { "Home to familiar faces. There is strength in that, too." },
+        },
+    },
+
+    -- Tharynn Bouden <Trade Supplies>, Goldshire, Elwynn Forest.
+    -- NPC 66, male human, trades beside a wagon. Classic stock includes
+    -- basic tools, thread and flour. No direct quest chain established.
+    -- Fancy knots, preferences and all personal dialogue are original.
+    -- Sources and version limits: docs/research/wilhelm-and-tharynn.md.
+    [66] = {
+        quote = "A little thread, a proper tool, and a moment to check your pack. Amazing how much trouble that saves.",
+        likes = { "A tool bought before it's needed", "A neat knot in a parcel", "Customers who know what they'll make" },
+        dislikes = { "Flour packed beside an open dye bottle", "Blaming the hammer for a missed nail", "A loose bundle on a bumpy road" },
+        gossip = "Tharynn takes unusual care tying up small orders. Customers have begun competing to see who can get a parcel home without spoiling the knot.",
+        bio = "Tharynn Bouden sells trade supplies beside a wagon in Goldshire. Tools and everyday materials help travelers turn plans into something useful. Even a grand adventure may begin with a length of thread.",
+        backstory = "Wrapping awkward orders gave him plenty of practice with string. Once the bundles stopped falling open, he began trying more elaborate knots. A plain purchase could look surprisingly fine with a little care.",
+        secret = "He practices fancy bows when trade is slow. The smallest orders get his best attempts. He likes the thought of someone opening an ordinary purchase as though it were a gift.",
+        bestFriend = "Tell me what you're making before we talk supplies. I like hearing the plan when it's yours.",
+        favorite = { emote = "THANK", hint = "A little appreciation for the ordinary things can brighten his day." },
+        lines = {
+            greet = { { "Off we go, then. You've got the tools, and I've got spare string.", tone = "[genial, practical voice, cheerful readiness]" },
+                "A look beyond the wagon! Good. Perhaps I'll learn what everyone needs out here." },
+            idle = { { "A neat knot makes a small thing feel worth opening carefully.", tone = "[warm, quietly pleased voice]" },
+                "Thread never looks important until the seam gives way.",
+                "I hope whoever packed that flour checked the lid on the dye." },
+            befriended = { { "You stop to tell me what you've made. That's my favorite part of the trade.", tone = "[sincerely appreciative voice, gentle pride]" } },
+            poke = { "Yes? Need another length of string?", "Careful. I nearly lost that loop." },
+            bagsFull = { { "Let's bundle the little things together. There may be room yet.", tone = "[calm, helpful voice, practical reassurance]" } },
+            loot = { "Useful material, perhaps. What could you make with it?" },
+            quest = { "Good work. Someone's plan needed your hands to finish it." },
+            levelUp = { "There we are! Ready for a bigger project, perhaps." },
+            rest = { "Set it down gently. A pack deserves a rest as well as its owner." },
+            combatEnd = { "Everyone safe? Good. A torn strap is something we can mend later." },
+            hearth = { "Back to Goldshire one day, I hope. I'd like to hear how this all turns out." },
+            zone = { "Different country. Same need for thread and a decent hammer." },
+        },
+    },
+
     -- Remy "Two Times", Goldshire, Elwynn Forest. NPC 241, male human.
     -- Classic: merchant from Redridge; repeats phrases; gold dust quest 47
     -- and murloc warning 40. Forever: Jason Mathers's chain 99127-99131

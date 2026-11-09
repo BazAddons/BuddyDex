@@ -731,6 +731,86 @@
     "spoken": "[excited] I know the flight path from here!",
     "text": "{zone}! I know the flight path from here."
   },
+  "lore66_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:66",
+    "spoken": "[calm, helpful voice, practical reassurance] Let's bundle the little things together. There may be room yet.",
+    "text": "Let's bundle the little things together. There may be room yet.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore66_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:66",
+    "spoken": "[sincerely appreciative voice, gentle pride] You stop to tell me what you've made. That's my favorite part of the trade.",
+    "text": "You stop to tell me what you've made. That's my favorite part of the trade.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore66_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:66",
+    "spoken": "[genial, practical voice, cheerful readiness] Off we go, then. You've got the tools, and I've got spare string.",
+    "text": "Off we go, then. You've got the tools, and I've got spare string.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore66_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:66",
+    "spoken": "[warm, quietly pleased voice] A neat knot makes a small thing feel worth opening carefully.",
+    "text": "A neat knot makes a small thing feel worth opening carefully.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore927_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:927",
+    "spoken": "[warm, sincerely grateful voice] I'm glad you feel you can speak freely with me. I hope you'll let me do the same.",
+    "text": "I'm glad you feel you can speak freely with me. I hope you'll let me do the same.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore927_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:927",
+    "spoken": "[steady, welcoming voice, gentle conviction] Good to see you. Shall we make ourselves useful along the way?",
+    "text": "Good to see you. Shall we make ourselves useful along the way?",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore927_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:927",
+    "spoken": "[reflective, reassuring voice, modest warmth] The simplest lesson is often worth returning to. I still do.",
+    "text": "The simplest lesson is often worth returning to. I still do.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore927_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:927",
+    "spoken": "[quietly proud voice, sincere encouragement] Someone needed help, and you made time. That is worth being proud of.",
+    "text": "Someone needed help, and you made time. That is worth being proud of.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
