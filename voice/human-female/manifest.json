@@ -214,6 +214,46 @@
     "spoken": "[impressed] New customers, perhaps. I hope someone knows a good oven.",
     "text": "New customers, perhaps. I hope someone knows a good oven."
   },
+  "lore54_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:54",
+    "spoken": "[warm, sincere voice, direct delivery] You bring me honest feedback. I like having someone I can speak plainly with.",
+    "text": "You bring me honest feedback. I like having someone I can speak plainly with.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore54_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:54",
+    "spoken": "[patient, attentive voice, practical reassurance] How does it feel? Take your time. Your hand gets the final say.",
+    "text": "How does it feel? Take your time. Your hand gets the final say.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore54_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:54",
+    "spoken": "[clear, practical voice, brisk warmth] Ready? Keep that edge covered until we're clear of everyone.",
+    "text": "Ready? Keep that edge covered until we're clear of everyone.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore54_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:54",
+    "spoken": "[dryly amused voice, understated mischief] Tuesday was a perfectly good name for a blade. Better than something with three apostrophes.",
+    "text": "Tuesday was a perfectly good name for a blade. Better than something with three apostrophes.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore6740_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

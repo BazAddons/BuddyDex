@@ -1290,7 +1290,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -5678,7 +5678,9 @@
         1291
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1291
+      ],
       "entries": [
         {
           "npc_id": 1291,
@@ -5691,8 +5693,12 @@
           ],
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Carla Granger",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -6606,7 +6612,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -19993,7 +19999,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -20272,7 +20278,9 @@
         1295
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1295
+      ],
       "entries": [
         {
           "npc_id": 1295,
@@ -20285,8 +20293,12 @@
           ],
           "source_page": 18,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Lara Moore",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -30171,7 +30183,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },

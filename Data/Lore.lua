@@ -42,6 +42,122 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Smith Argus <Journeyman Blacksmith>, Goldshire, male human, NPC 514.
+    -- Classic horseshoes 118-119/122, Elmore referral 1097-353; Forever
+    -- Camping 101: Blacksmithing 97916 teaches Sharpening Wheel. Dinner
+    -- bell and private preferences are ours. docs/research/goldshire-smithy.md.
+    [514] = {
+        quote = "Work to finish, lessons to teach, and someone wanting it all yesterday. Speak up, friend. The anvil won't wait for us.",
+        likes = { "A sound hammer stroke", "A courier who reads the attached note", "Being paid for an honest job" },
+        dislikes = { "An order mistaken for a favor", "Handling hot work in a hurry", "A camp set up in everyone's way" },
+        gossip = "Argus has been shaping something small between orders. Goldshire expects a fine new weapon. It doesn't look particularly sharp.",
+        bio = "Smith Argus trains blacksmiths in Goldshire. Verner Osgood sends for his horseshoes, and Argus points couriers toward Grimand Elmore. He also teaches smiths to make a sharpening wheel for a wilderness camp.",
+        backstory = "Most of his work leaves the forge to be struck, worn or marched through mud. Between orders, he began shaping a little dinner bell. He liked the thought of making something whose only job was to bring people together.",
+        secret = "The bell isn't finished. He keeps changing its note. After a day of hammering, he wants the sound that calls everyone home to be a gentle one.",
+        bestFriend = "Stay a moment when the work's done. I want your opinion on a sound that isn't a hammer. A friend's opinion, mind.",
+        favorite = { emote = "BOW", hint = "A little respect for the craft is a fine way to begin a lesson." },
+        lines = {
+            greet = { { "A break from the anvil? All right. You have my attention.", tone = "[rough, practical voice, pleasantly surprised]" }, "Hands clear, then. Let's see what needs doing." },
+            idle = { { "A good bell shouldn't sound like another order being shouted.", tone = "[thoughtful, gruff voice, quietly hopeful]" }, "I hope Verner reads the note before he opens the crate.", "There's more to a smith than making the pointy end pointier." },
+            befriended = { { "You know when to talk work and when to let it rest. I appreciate that.", tone = "[gruff, warmly sincere voice]" } },
+            poke = { "What? Speak up. I've had an anvil for company all morning.", "Steady. Give a man room to turn around." },
+            quest = { "Delivered? Good. And the note went with it, I hope?" },
+            rest = { { "Set the tools down. Good work needs rested hands.", tone = "[firm, practical voice, caring restraint]" } },
+            gear = { "Let me see the joins. That's where you'll learn what you've bought." },
+            levelUp = { "Coming along nicely. Keep your basics as sound as your ambitions." },
+            combatEnd = { "Still sound? Good. We'll look for damage before we move on." },
+            bagsFull = { "If that's iron, pack it low. Your shoulders will thank you." },
+            hearth = { "Home before the last of the heat's gone. Fine by me." },
+        },
+    },
+
+    -- Andrew Krighton <Armorer & Shieldcrafter>, Goldshire. NPC 2046,
+    -- male human; named armor vendor, no direct quest chain established.
+    -- Practice shield sketches are original. docs/research/goldshire-smithy.md.
+    [2046] = {
+        quote = "Try the shield on your arm before you admire it on the rack. It has a job to do once the looking's finished.",
+        likes = { "A shield that sits comfortably", "Strong straps and honest rivets", "Knowing what someone protects" },
+        dislikes = { "Decoration hiding a weak join", "Armor bought without moving in it", "A shield treated like a dinner tray" },
+        gossip = "Andrew draws tiny doors on his practice shields. Customers assume they're another measurement mark. They aren't very useful measurements.",
+        bio = "Andrew Krighton sells armor and shields in Goldshire's smithy. Beside the forge's other trades, his work concerns the part of a journey that comes between a traveler and a hard blow.",
+        backstory = "Sketching a shield from the wearer's side made him think about what stood behind it. He began adding a little doorway to his practice drawings. A strong piece of work ought to have a reason beyond looking strong.",
+        secret = "The doors remind him of ordinary homes. He likes imagining that one of his shields might help its owner get back through a real doorway at the end of the day.",
+        bestFriend = "When you come back, tell me how you are before you tell me how the shield held up. I'd rather hear that first.",
+        favorite = { emote = "SALUTE", hint = "He respects a quiet promise to stand between someone and harm." },
+        lines = {
+            greet = { { "Good to see you. Comfortable straps? Right, then. Let's go.", tone = "[steady, welcoming voice, practical concern]" }, "A look at how the equipment travels. Just what I needed." },
+            idle = { { "A shield has an outside for the danger and an inside for the person who matters.", tone = "[quiet, thoughtful voice, sincere conviction]" }, "Fancy paint won't keep a weak strap from breaking.", "Try lifting your arm. Good. Now imagine doing that all afternoon." },
+            befriended = { { "I used to wonder whether my customers got home. With you, I get to ask.", tone = "[warm, sincerely pleased voice]" } },
+            poke = { "Yes? Is a strap pinching?", "The shield goes between us and the trouble. That's the idea." },
+            combatEnd = { { "All right? Check yourself before the equipment. We can repair the rest.", tone = "[calm, reassuring voice, firm priorities]" } },
+            gear = { "Good fit? Move in it before you decide." },
+            levelUp = { "Well done. Growing into the work, I see." },
+            rest = { "Set it down within reach. Let that shoulder rest." },
+            quest = { "Someone counted on you. Good to see you come back from it." },
+            bagsFull = { "Keep the shield straps clear. Nothing worse than reaching for a tangled mess." },
+            hearth = { "There's the doorway I like hearing about. Home you go." },
+        },
+    },
+
+    -- Corina Steele <Weaponsmith>, Goldshire. NPC 54, female human.
+    -- Makes/sells weapons and offers repairs. No direct quest established;
+    -- exact relationship to Kurran not asserted. Private blade names and
+    -- lines are fiction. docs/research/goldshire-smithy.md.
+    [54] = {
+        quote = "A weapon ought to fit your hand, not your boasting. Here. Try the grip before you give it a grand name.",
+        likes = { "A balanced grip", "Plain answers about the work", "A blade cared for between journeys" },
+        dislikes = { "Swinging stock around the shop", "A grand name on neglected steel", "Finding rust under fresh polish" },
+        gossip = "Corina pauses before handing over a finished blade. Regulars think she's judging the buyer. She may be thinking of something much less imposing.",
+        bio = "Corina Steele makes and sells weapons at Goldshire's forge, where she also offers repairs. The town's smiths and armor sellers work close by. A plain blade in good condition still has a place among grander ambitions.",
+        backstory = "After hearing enough customers name their purchases for dragons and victories, she began quietly naming finished pieces herself. Ordinary names suited her better. A well-made tool needn't announce that it plans to become a legend.",
+        secret = "She once called a particularly fine blade Tuesday. She still wonders what fearsome name its buyer chose, and smiles whenever she thinks of the difference.",
+        bestFriend = "You take care of the work, and you tell me when something's wrong. That's trust I can return. Come along.",
+        favorite = { emote = "NOD", hint = "A sign that you understood the advice means more than showing off." },
+        lines = {
+            greet = { { "Ready? Keep that edge covered until we're clear of everyone.", tone = "[clear, practical voice, brisk warmth]" }, "A little fresh air. Good. The forge can spare me for a moment." },
+            idle = { { "Tuesday was a perfectly good name for a blade. Better than something with three apostrophes.", tone = "[dryly amused voice, understated mischief]" }, "Oil first. Fancy names later.", "If it sits badly in your hand, don't buy it to impress someone else." },
+            befriended = { { "You bring me honest feedback. I like having someone I can speak plainly with.", tone = "[warm, sincere voice, direct delivery]" } },
+            poke = { "Careful. Some of us carry sharp things for a living.", "Yes? Something need fixing?" },
+            gear = { { "How does it feel? Take your time. Your hand gets the final say.", tone = "[patient, attentive voice, practical reassurance]" } },
+            loot = { "A closer look before we call it treasure. Check the condition." },
+            quest = { "Work finished? Good. Clean the tools before the next job." },
+            levelUp = { "Well earned. Keep practicing the part that still feels awkward." },
+            rest = { "A quiet moment. I can almost hear myself think." },
+            combatEnd = { "All in one piece? Then we can worry about nicks and scratches." },
+            hearth = { "Home. Somewhere to put the blade down for a while." },
+        },
+    },
+
+    -- Kurran Steele <Cloth & Leather Armor Merchant>, Goldshire. NPC 74,
+    -- male human; sells/repairs cloth and leather. No quest chain found.
+    -- No specific family relationship asserted. Slipper habit and lines
+    -- are original. docs/research/goldshire-smithy.md.
+    [74] = {
+        quote = "Bend your knee. Lift your arm. If it only fits while you're standing still, it doesn't fit.",
+        likes = { "A comfortable seam", "Clothes that leave room to move", "Putting his feet up after closing" },
+        dislikes = { "A buckle digging into someone's side", "Calling cloth useless beside iron", "Fashion that makes walking difficult" },
+        gossip = "Kurran speaks very firmly about suitable footwear. Nobody knows what he puts on after the shop closes. He changes the subject rather quickly.",
+        bio = "Kurran Steele sells cloth and leather armor in Goldshire's forge, opposite the Lion's Pride Inn. He offers repairs alongside his stock. Among the iron and blades, lighter equipment still needs care.",
+        backstory = "Watching buyers admire a tunic without moving taught him to ask for a stretch or a step. A fine-looking seam can be an uncomfortable companion on the road. He began making room to try things properly.",
+        secret = "After closing, he likes enormous soft slippers. He calls it testing comfort when anyone asks. He isn't fooling himself, and he hopes his friends won't mind either.",
+        bestFriend = "You can laugh about the slippers. I'd rather be comfortable with a friend than impressive with sore feet.",
+        favorite = { emote = "THANK", hint = "Remembering who made the journey a little more comfortable pleases him." },
+        lines = {
+            greet = { { "A walk? Certainly. Just give me a moment to find the sensible shoes.", tone = "[friendly voice, lightly embarrassed amusement]" }, "Good to see you. Everything fitting comfortably?" },
+            idle = { { "Those slippers are a serious study in comfort. A very pleasant study.", tone = "[dry, playful voice, mock dignity]" }, "A soft lining can matter more than anyone admits.", "Move your shoulders. There. Better to find a tight seam now." },
+            befriended = { { "It's nice having a friend I don't have to look impressive for.", tone = "[warm, relieved voice, sincere affection]" } },
+            poke = { "Yes? Is something pinching?", "Easy. You'll pull that seam if you keep reaching like that." },
+            gear = { { "Try a few steps. Good clothes ought to let you forget you're wearing them.", tone = "[calm, attentive voice, encouraging patience]" } },
+            rest = { "Feet up, if you can. Even sensible shoes have their limits." },
+            loot = { "Useful cloth, perhaps. Mind where you put the muddy things." },
+            bagsFull = { "Fold the spare clothes. Don't just keep pushing." },
+            quest = { "Errands finished? You've earned a comfortable seat." },
+            levelUp = { "Well done! Don't let the new armor pinch while you're celebrating." },
+            combatEnd = { "Everyone safe? Torn cloth is something we can deal with afterward." },
+            hearth = { "Home already? I approve of a good place to put your feet up." },
+        },
+    },
+
     -- Brother Wilhelm <Paladin Trainer>, behind the Goldshire smithy,
     -- Elwynn Forest. NPC 927, male human. Classic quest 2998 refers human
     -- paladins to Duthorian Rall and the Tome of Divinity trials. No later

@@ -39,6 +39,46 @@
     "text": "That bottle has a lovely note. Shame it's full of something expensive.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore2046_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2046",
+    "spoken": "[warm, sincerely pleased voice] I used to wonder whether my customers got home. With you, I get to ask.",
+    "text": "I used to wonder whether my customers got home. With you, I get to ask.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2046_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:2046",
+    "spoken": "[calm, reassuring voice, firm priorities] All right? Check yourself before the equipment. We can repair the rest.",
+    "text": "All right? Check yourself before the equipment. We can repair the rest.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2046_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2046",
+    "spoken": "[steady, welcoming voice, practical concern] Good to see you. Comfortable straps? Right, then. Let's go.",
+    "text": "Good to see you. Comfortable straps? Right, then. Let's go.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore2046_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2046",
+    "spoken": "[quiet, thoughtful voice, sincere conviction] A shield has an outside for the danger and an inside for the person who matters.",
+    "text": "A shield has an outside for the danger and an inside for the person who matters.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore234_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
@@ -596,6 +636,46 @@
     "spoken": "[excited] Straps first. Admire the view once we're clear.",
     "text": "Straps first. Admire the view once we're clear."
   },
+  "lore514_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:514",
+    "spoken": "[gruff, warmly sincere voice] You know when to talk work and when to let it rest. I appreciate that.",
+    "text": "You know when to talk work and when to let it rest. I appreciate that.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore514_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:514",
+    "spoken": "[rough, practical voice, pleasantly surprised] A break from the anvil? All right. You have my attention.",
+    "text": "A break from the anvil? All right. You have my attention.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore514_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:514",
+    "spoken": "[thoughtful, gruff voice, quietly hopeful] A good bell shouldn't sound like another order being shouted.",
+    "text": "A good bell shouldn't sound like another order being shouted.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore514_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:514",
+    "spoken": "[firm, practical voice, caring restraint] Set the tools down. Good work needs rested hands.",
+    "text": "Set the tools down. Good work needs rested hands.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore523_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
@@ -769,6 +849,46 @@
     "source": "lore:66",
     "spoken": "[warm, quietly pleased voice] A neat knot makes a small thing feel worth opening carefully.",
     "text": "A neat knot makes a small thing feel worth opening carefully.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore74_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:74",
+    "spoken": "[warm, relieved voice, sincere affection] It's nice having a friend I don't have to look impressive for.",
+    "text": "It's nice having a friend I don't have to look impressive for.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore74_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:74",
+    "spoken": "[calm, attentive voice, encouraging patience] Try a few steps. Good clothes ought to let you forget you're wearing them.",
+    "text": "Try a few steps. Good clothes ought to let you forget you're wearing them.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore74_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:74",
+    "spoken": "[friendly voice, lightly embarrassed amusement] A walk? Certainly. Just give me a moment to find the sensible shoes.",
+    "text": "A walk? Certainly. Just give me a moment to find the sensible shoes.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore74_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:74",
+    "spoken": "[dry, playful voice, mock dignity] Those slippers are a serious study in comfort. A very pleasant study.",
+    "text": "Those slippers are a serious study in comfort. A very pleasant study.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
   "lore927_befriended_1.ogg": {
