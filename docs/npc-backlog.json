@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 214,
+  "completed_count": 216,
   "remaining_count": 37,
   "completed": [
     {
@@ -472,6 +472,16 @@
       "name": "Brother Wilhelm",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 931,
+      "name": "Ariena Stormfeather",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever services, Classic and installed source checks",
+      "research_notes": "docs/research/lakeshire-tackle-and-gryphons.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1028,6 +1038,16 @@
       "zone": "Westfall",
       "source": "Reviewed external candidate; current Forever nodes and Classic/installed source checks",
       "research_notes": "docs/research/westfall-brewer-and-suppliers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1678,
+      "name": "Vernon Hale",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed external candidate; current Forever services, Classic and installed source checks",
+      "research_notes": "docs/research/lakeshire-tackle-and-gryphons.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

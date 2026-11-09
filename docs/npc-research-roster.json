@@ -238,5 +238,19 @@
     "zone": "Redridge Mountains",
     "source": "Reviewed external candidate; current Forever trainer data, Classic and installed referral checks",
     "research_notes": "docs/research/lakeshire-profession-trainers.md"
+  },
+  {
+    "npc_id": 1678,
+    "name": "Vernon Hale",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever services, Classic and installed source checks",
+    "research_notes": "docs/research/lakeshire-tackle-and-gryphons.md"
+  },
+  {
+    "npc_id": 931,
+    "name": "Ariena Stormfeather",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed external candidate; current Forever services, Classic and installed source checks",
+    "research_notes": "docs/research/lakeshire-tackle-and-gryphons.md"
   }
 ]

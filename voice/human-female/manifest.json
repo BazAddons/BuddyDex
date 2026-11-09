@@ -2334,6 +2334,46 @@
     "text": "Good work. Remember what helped, and practice what didn't.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore931_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:931",
+    "spoken": "[sincere relaxed companionship, quietly pleased anticipation] I'd like to come with you. It's pleasant to spend a little time with someone I usually see arriving or setting off. Tell me about your travels while we walk. We can enjoy a bit of the ground together.",
+    "text": "I'd like to come with you. It's pleasant to spend a little time with someone I usually see arriving or setting off. Tell me about your travels while we walk. We can enjoy a bit of the ground together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore931_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:931",
+    "spoken": "[calm capable welcome, warmly attentive interest] Hello again. Where has the day brought you? Take a moment to settle in before the next journey. If you've just come back, I'd like to hear how it went. A familiar face returning is always worth a little attention.",
+    "text": "Hello again. Where has the day brought you? Take a moment to settle in before the next journey. If you've just come back, I'd like to hear how it went. A familiar face returning is always worth a little attention.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore931_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:931",
+    "spoken": "[gentle candid warmth, softly self-aware amusement] I sometimes keep waving after a rider is too far away to see. I know perfectly well it won't carry any farther. Still, I like sending a little more reassurance along. It's a pleasant thing to do with your hand.",
+    "text": "I sometimes keep waving after a rider is too far away to see. I know perfectly well it won't carry any farther. Still, I like sending a little more reassurance along. It's a pleasant thing to do with your hand.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore931_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:931",
+    "spoken": "[steady reassuring kindness, gentle encouraging confidence] Take a moment and get yourself settled. Look out when you're ready, and enjoy a little of the view. You needn't pretend to feel confident all at once. I'll be pleased to hear what you thought when you're back.",
+    "text": "Take a moment and get yourself settled. Look out when you're ready, and enjoy a little of the view. You needn't pretend to feel confident all at once. I'll be pleased to hear what you thought when you're back.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

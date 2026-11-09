@@ -41,6 +41,60 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Vernon Hale 1678: human man/bait and tackle supplier, display 3361.
+    -- Ariena Stormfeather 931: human woman/gryphon master, display 3364.
+    -- Current friendly Forever identities/services and Classic/installed sources.
+    -- No personal quests found. Vernon's retail boat/Ben episode is excluded.
+    -- Growing fish story / wave after a nervous rider are original BuddyDex hooks.
+    -- docs/research/lakeshire-tackle-and-gryphons.md.
+    [1678] = {
+        quote = "The supplies are just the size you see. The fish in my stories may have grown a little since I last told you about them. That's what comes of giving a tale room to breathe.",
+        likes = { "A fisher finding the right supplies", "A wonderfully oversized fishing story", "A friend grinning before the ending" },
+        dislikes = { "A trip spoiled by forgotten tackle", "A good tale hurried to its conclusion", "Running out of room to show the size" },
+        gossip = "Vernon's fishing supplies stay a practical size. One fish in his stories has apparently outgrown the space between his hands.",
+        bio = "Vernon Hale supplies bait, tackle and fish in Lakeshire, Redridge Mountains. Fishers can prepare for time by Lake Everstill here. Among the practical goods, he enjoys making room for a conversation about what someone hopes to catch.",
+        backstory = "A very modest fish once became a rather better story when he spread his hands a little wider. His listener grinned, so he let the tale grow. Repeating it became a game of seeing how much room an increasingly remarkable fish could need.",
+        secret = "The real fish was quite small, and he let it go. He likes the enormous one in the story better, especially when a friend helps make it even less believable.",
+        bestFriend = "How big was it when I told you last? We'll need a wider bit of space for this telling. Come and help me do the creature justice.",
+        favorite = { emote = "GRIN", hint = "Let him see you're enjoying the story, even if the remarkable size is becoming difficult to believe." },
+        lines = {
+            greet = { { "Good to see you. What are you hoping to catch? We can look at the supplies before you set off. Then, if you've a moment, I have a fish story that has improved considerably since its last telling.", tone = "[genial practical welcome, playful conspiratorial humor]" }, "Come and tell me how you've been. Any good catches, or even better stories?" },
+            idle = { { "That fish was about so big. No, a little bigger now I think of it. The real one was quite small, but the story has had plenty of time to grow. A good listener can do wonders for it.", tone = "[deadpan tall-tale delivery, warmly mischievous amusement]" }, "Did I leave enough room for the fish in that last telling?", "Check your tackle before you settle in for a pleasant wait." },
+            befriended = { { "I'd enjoy a walk with you. Tell me what you've been doing, and I'll try to leave enough room in the conversation for your stories. Though we may need a fairly wide path if my remarkable fish comes up again.", tone = "[sincere cheerful companionship, lightly teasing anticipation]" } },
+            poke = { "Yes? Did you remember something for the trip?", "Another telling? A willing audience is a fine thing." },
+            loot = { { "A find worth talking about? Let me have a look. You can tell me how it happened while we walk. I'll enjoy the story just as much if it stays exactly the size you remember. Mine do tend to wander.", tone = "[curious friendly interest, wry self-deprecating amusement]" } },
+            bagsFull = { "That's a full load. Leave room for the useful little things too." },
+            rest = { "A quiet place to sit. Have you a story you'd like to tell?" },
+            quest = { "Your errand is finished. Was there anything interesting along the way?" },
+            zone = { "A different place. I wonder what sort of fishing stories they tell here." },
+            levelUp = { "Well done! There's some news that needs no improving in the telling." },
+            hearth = { "Back again. Let's hear how the journey treated you." },
+        },
+    },
+    [931] = {
+        quote = "Take your time getting settled. A first journey can feel like a great deal of sky. I'll be here to hear what you thought of it when you come back.",
+        likes = { "A rider settling calmly before departure", "A familiar traveler returning safely", "The wave from a once-nervous passenger" },
+        dislikes = { "Someone mocking a nervous rider", "A departure hurried past the checks", "An arrival treated as nothing special" },
+        gossip = "Ariena watches her gryphons leave with a practiced eye. The wave she gives a nervous rider can last rather longer than anyone needs to see it.",
+        bio = "Ariena Stormfeather is Lakeshire's human gryphon master, stationed south of the bridge in Redridge Mountains. She helps travelers take to the air. Departures and returning riders bring a steady succession of journeys to her post.",
+        backstory = "She once watched an anxious rider leave and gave a reassuring wave until the gryphon was a small shape in the distance. The rider returned smiling. Since then she has particularly enjoyed seeing someone come back more confident than they left.",
+        secret = "She sometimes keeps waving when a rider is far beyond seeing it. It makes her smile to send a little more reassurance along with them, even if it travels no farther than her own hand.",
+        bestFriend = "There you are. I was glad to see you coming back. Stay a moment and tell me about the view; I like hearing it from you.",
+        favorite = { emote = "WAVE", hint = "Return the familiar gesture that helps her send a traveler off with a little confidence." },
+        lines = {
+            greet = { { "Hello again. Where has the day brought you? Take a moment to settle in before the next journey. If you've just come back, I'd like to hear how it went. A familiar face returning is always worth a little attention.", tone = "[calm capable welcome, warmly attentive interest]" }, "Good to see you. There's time to get settled before you go." },
+            idle = { { "I sometimes keep waving after a rider is too far away to see. I know perfectly well it won't carry any farther. Still, I like sending a little more reassurance along. It's a pleasant thing to do with your hand.", tone = "[gentle candid warmth, softly self-aware amusement]" }, "A nervous first departure can become a very confident return.", "I enjoy hearing what someone noticed from the air." },
+            befriended = { { "I'd like to come with you. It's pleasant to spend a little time with someone I usually see arriving or setting off. Tell me about your travels while we walk. We can enjoy a bit of the ground together.", tone = "[sincere relaxed companionship, quietly pleased anticipation]" } },
+            poke = { "Yes? What would you like to know?", "I'm listening. Is there something worrying you?" },
+            taxi = { { "Take a moment and get yourself settled. Look out when you're ready, and enjoy a little of the view. You needn't pretend to feel confident all at once. I'll be pleased to hear what you thought when you're back.", tone = "[steady reassuring kindness, gentle encouraging confidence]" } },
+            landed = { "There you are, safely down. What did you notice along the way?" },
+            zone = { "A different view from down here. Show me what you like about it." },
+            rest = { "A quiet pause. I'd like to hear how your day has been." },
+            quest = { "That's one journey's errand finished. Give yourself a moment before the next." },
+            levelUp = { "Well done. A little more confidence suits you." },
+            hearth = { "Back to a familiar welcome. I'm glad the journey brought you here." },
+        },
+    },
     -- Crystal Boughman 3087: human woman/cooking trainer, display 3379.
     -- Alma Jainrose 812: human woman/herbalism trainer, display 1745.
     -- Matthew Hooper 1680: human man/fishing trainer, display 3362, Lakeshire.
