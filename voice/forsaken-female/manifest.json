@@ -119,6 +119,86 @@
     "text": "I chose a bright thread for a repair on something of my own. The seam is sound. I could make it less noticeable, but I rather like seeing it. A useful piece of work may hold a small pleasure too.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore2114_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2114",
+    "spoken": "[quiet] [sincere] You listen without pretending to know everything already. I appreciate that. You even return for the story, though I suspect you know how it ends. Come along. I would be glad of your company.",
+    "text": "You listen without pretending to know everything already. I appreciate that. You even return for the story, though I suspect you know how it ends. Come along. I would be glad of your company.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2114_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2114",
+    "spoken": "[raspy] [wry] Walk with me. You may learn something useful about what grows beside the road. You may also hear the next part of my story. I shall leave you to decide which is the greater reward.",
+    "text": "Walk with me. You may learn something useful about what grows beside the road. You may also hear the next part of my story. I shall leave you to decide which is the greater reward.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2114_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2114",
+    "spoken": "[storytelling] [darkly amused] In my story, they pulled the weed, stamped on it, and announced that the matter was settled. A foolish announcement. You can guess what appeared beside the road the following morning. My favorite character.",
+    "text": "In my story, they pulled the weed, stamped on it, and announced that the matter was settled. A foolish announcement. You can guess what appeared beside the road the following morning. My favorite character.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2114_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:2114",
+    "spoken": "[measured] [dryly amused] Trying an incense candle at camp? See to the fire first, and take the experiment outside town. Then sit down. A camp with everyone rushing about is a poor place to hear a good dreadful story.",
+    "text": "Trying an incense candle at camp? See to the fire first, and take the experiment outside town. Then sit down. A camp with everyone rushing about is a poor place to hear a good dreadful story.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2118_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2118",
+    "spoken": "[reserved] [warm] You stayed for the whole performance. That is more than most people manage, and you did not ask for a discount afterward. I think I would enjoy having you around more often.",
+    "text": "You stayed for the whole performance. That is more than most people manage, and you did not ask for a discount afterward. I think I would enjoy having you around more often.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2118_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2118",
+    "spoken": "[dry] [wry] Coming along, are you? Good. Keep the sharp things away from the thread, and we may get through the day without an avoidable disaster. I have had quite enough of the unavoidable sort.",
+    "text": "Coming along, are you? Good. Keep the sharp things away from the thread, and we may get through the day without an avoidable disaster. I have had quite enough of the unavoidable sort.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2118_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2118",
+    "spoken": "[deadpan] [amused] That tapping was a rhythm, yes. It has a proper ending, too, if people would stop asking whether I am counting something. Coins do not require quite so much artistic preparation.",
+    "text": "That tapping was a rhythm, yes. It has a proper ending, too, if people would stop asking whether I am counting something. Coins do not require quite so much artistic preparation.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2118_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:2118",
+    "spoken": "[dryly amused] [practical] Put the glass where it will not meet the hammer. The hammer will be perfectly well afterward, of course. It is the other half of that meeting that tends to become expensive.",
+    "text": "Put the glass where it will not meet the hammer. The hammer will be perfectly well afterward, of course. It is the other half of that meeting that tends to become expensive.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore2124_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

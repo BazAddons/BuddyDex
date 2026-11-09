@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Abigail Shiel <Trade Supplies>, Brill, adult female Forsaken.
+    -- NPC 2118/display 1632. Current stock includes tools, thread, apprentice
+    -- gathering bags and Recipe: Crispy Bat Wing. No personal quest found.
+    -- Countertop percussion is ours; no former-life or retail shop biography.
+    -- Research: docs/research/brill-counter-and-stubborn-weeds.md.
+    [2118] = {
+        quote = "Thread, tools, something to put them in. Try to decide before you wear a groove in the road.",
+        likes = { "A customer who knows what they need", "A parcel that survives the journey", "A good rhythm on a wooden counter" },
+        dislikes = { "Loose blades among the thread", "Rain getting into the supplies", "Being interrupted before the finish" },
+        gossip = "People say Abigail counts stock by tapping on wood. Her fingers keep going long after the counting should be finished.",
+        bio = "Abigail Shiel sells trade supplies in Brill. Her wares include tools, thread, dyes and a Crispy Bat Wing recipe. Forever's apprentice gathering bags give new herbalists, miners and skinners somewhere to put their finds.",
+        backstory = "While waiting for a customer to choose a dye, Abigail tapped a little rhythm on the wood. The customer left with red. Abigail stayed with the rhythm, trying different endings until the next buyer broke her concentration.",
+        secret = "The tapping has become a private performance. She has a grand closing flourish and no audience. She claims that is because audiences ask for discounts. Really, she is shy about beginning.",
+        bestFriend = "One performance. No talking over the last bit, and no pretending you liked it. Well? Pull up something sturdy. You are the audience.",
+        favorite = { emote = "APPLAUD", hint = "A small private performance could use an appreciative audience." },
+        lines = {
+            greet = { { "Coming along, are you? Good. Keep the sharp things away from the thread, and we may get through the day without an avoidable disaster. I have had quite enough of the unavoidable sort.", tone = "[dry] [wry]" },
+                "There you are. Tell me you brought a bag with a bottom in it." },
+            idle = { { "That tapping was a rhythm, yes. It has a proper ending, too, if people would stop asking whether I am counting something. Coins do not require quite so much artistic preparation.", tone = "[deadpan] [amused]" },
+                "Red dye or blue. I have heard longer debates about that than about a siege.",
+                "Wait. I nearly had the last little flourish right." },
+            befriended = { { "You stayed for the whole performance. That is more than most people manage, and you did not ask for a discount afterward. I think I would enjoy having you around more often.", tone = "[reserved] [warm]" } },
+            poke = { "What is it? You have my attention.", "Careful. Those fingers have a performance to finish." },
+            loot = { { "Put the glass where it will not meet the hammer. The hammer will be perfectly well afterward, of course. It is the other half of that meeting that tends to become expensive.", tone = "[dryly amused] [practical]" } },
+            bagsFull = { "Full already? At least the bag is doing its part." },
+            mail = { "Wrap it properly. The road will not be gentle out of politeness." },
+            rest = { "A pause. Good. I can work on the ending while you sit." },
+            quest = { "If the task needs thread, buying it before you leave is a fine idea." },
+            applaudToo = { "You heard the ending! I was beginning to think nobody would." },
+            hearth = { "Back to Brill. I hope the supplies stayed dry." },
+        },
+    },
+
+    -- Faruza <Apprentice Herbalist>, Brill, adult female Forsaken.
+    -- NPC 2114/display 3520. Guard referrals establish herbalism training.
+    -- Forever 97957: Eleanor's referral, Incense Candle, campfire/outdoors.
+    -- Unkillable-weed fables are ours, not magic, plague work or living history.
+    -- Research: docs/research/brill-counter-and-stubborn-weeds.md.
+    [2114] = {
+        quote = "Look closely before you pull. Ignorance grows quite well without watering.",
+        likes = { "Learners willing to look twice", "A stubborn plant in an awkward place", "A dreadful story with a good ending" },
+        dislikes = { "Mixing unidentified plants together", "Camp experiments in the town road", "Interruptions before the last sentence" },
+        gossip = "Faruza tells a horrible tale about a weed that keeps coming back. The listeners seem more frightened by how long it runs.",
+        bio = "Faruza teaches herbalism near Brill's stables. Eleanor Shackleton sends practiced beginners to her for Forever's Incense Candle lesson. She reminds campers to test outside town and learn to make a campfire.",
+        backstory = "A persistent weed by the road gave Faruza an idea for a dreadful tale. Every time someone declared it finished, up it came again. She began saving the next sentence for returning listeners, whether they requested it or not.",
+        secret = "In her tale, the weed always wins. She admires its persistence far too much to write a different ending. She has considered warning the listeners, but their expressions are half the pleasure.",
+        bestFriend = "You came back. Good. I have another sentence for you. No, the weed has not died. Sit beside me; this part deserves an audience.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone who finds the humor in a dreadful little story." },
+        lines = {
+            greet = { { "Walk with me. You may learn something useful about what grows beside the road. You may also hear the next part of my story. I shall leave you to decide which is the greater reward.", tone = "[raspy] [wry]" },
+                "Back again? Good. There is always something worth another look." },
+            idle = { { "In my story, they pulled the weed, stamped on it, and announced that the matter was settled. A foolish announcement. You can guess what appeared beside the road the following morning. My favorite character.", tone = "[storytelling] [darkly amused]" },
+                "That plant has found a most inconvenient place to grow. I almost respect it.",
+                "A name guessed confidently is still a guess." },
+            befriended = { { "You listen without pretending to know everything already. I appreciate that. You even return for the story, though I suspect you know how it ends. Come along. I would be glad of your company.", tone = "[quiet] [sincere]" } },
+            poke = { "Yes? Show me the plant before telling me what you think it is.", "I had not reached the end of the sentence." },
+            rest = { { "Trying an incense candle at camp? See to the fire first, and take the experiment outside town. Then sit down. A camp with everyone rushing about is a poor place to hear a good dreadful story.", tone = "[measured] [dryly amused]" } },
+            loot = { "Keep the plants apart until you know what you have." },
+            bagsFull = { "Stop gathering before the basket becomes a mystery with handles." },
+            quest = { "What did you notice this time that you missed before?" },
+            combatEnd = { "Everyone still with us? Then take a moment before the next foolish idea." },
+            laughAlong = { "Yes, the weed wins again. You understand the appeal." },
+            hearth = { "Back to Brill. I wonder whether anyone has pulled that weed again." },
+        },
+    },
+
     -- Bena Winterhoof, adult female Tauren Expert Alchemist, Thunder Bluff.
     -- NPC 3009/display 2108. Forsaken compassion/urgency and referrals are
     -- exact installed gossip; redeems Sage Truthseeker's voucher (2440).

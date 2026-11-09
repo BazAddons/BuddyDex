@@ -861,5 +861,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current adult Tauren identity/body/title and published Thunder Bluff location; full Uldaman/Uldum reward and Forever camping/referral text, installed gossip and literary boundaries reviewed; current reaction/pin omitted, no Scout encounter claimed",
     "research_notes": "docs/research/winterhoof-remedies-and-campfire.md"
+  },
+  {
+    "npc_id": 2118,
+    "name": "Abigail Shiel",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current adult female Forsaken body, Horde friendly icon and Brill regional pin; full current/Classic stock/training, recipe tooltip, connected camping/referral and installed text reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-counter-and-stubborn-weeds.md"
+  },
+  {
+    "npc_id": 2114,
+    "name": "Faruza",
+    "zone": "Tirisfal Glades",
+    "source": "Exact current adult female Forsaken body, Horde friendly icon and Brill regional pin; full current/Classic stock/training, recipe tooltip, connected camping/referral and installed text reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-counter-and-stubborn-weeds.md"
   }
 ]

@@ -224,3 +224,12 @@ Preserving these two identities expands the combined research catalog to **1,497
 Bena Winterhoof and Komin Winterhoof bring development to **328 complete profiles**, each with fifteen personal lines and four approved Tauren v4 signatures. [Full research](winterhoof-remedies-and-campfire.md) preserves Bena's urgency about the Forsaken, actual referrals and Sage Truthseeker voucher, and Komin's Forever Incense Candle lesson. No cure, specific family relationship, completed player quest or public access icon is invented. Public access totals are 192 Alliance, 58 Horde and 84 unverified, with six shared profiles overlapping faction counts. Authored Tauren profiles now total twenty. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
 
 Next: [Abigail Shiel and Faruza](brill-herbalism-and-trade-queue.md), two adult female Forsaken profession contacts in Brill. Current bodies, titles, Horde friendly icons and regional pins are individually verified; full own service/quest/gossip/literary research is pending. No profile or Scout encounter is claimed yet.
+
+
+## Brill counter and stubborn weeds completed
+
+Abigail Shiel and Faruza bring development to **330 complete profiles**, each with fifteen personal lines and four approved Forsaken female v4 signatures. [Full research](brill-counter-and-stubborn-weeds.md) preserves actual stock/training, current apprentice gathering bags, Faruza's Forever Incense Candle referral and the limits of recipe authorship evidence. Private percussion and weed fables are original, not a former living history or new magical powers. Public access totals are 192 Alliance, 60 Horde and 84 unverified, with six shared profiles overlapping faction counts. Authored Forsaken profiles now total thirty. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
+
+Next: [Ollanus and Shan'ti](orgrimmar-cloth-and-fruit-queue.md), male/female adult Orc armor and fruit merchants. Exact current identities/bodies/titles and published Orgrimmar location checked; missing current reaction and pin stay qualified. Full personal source review is pending.
+
+Individually preserving these merchant identities expands the combined catalog to **1,499 name groups**, 1,512 retained entries and 81 local identities absent from the original filter. These overlap the completed roster and must not be added as separate totals.

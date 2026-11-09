@@ -546,6 +546,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill female Forsaken herbalism and trade contacts",
       "reason": "Exact current adult Forsaken bodies, titles, friendly Horde icons and regional pins verified. Own full service/quest/gossip/literary research pending. See docs/research/brill-herbalism-and-trade-queue.md"
+    },
+    {
+      "npc_id": 3317,
+      "name": "Ollanus",
+      "zone": "Orgrimmar",
+      "route": "Male/female Orc cloth armor and fruit merchants",
+      "reason": "Exact current adult Orc bodies, titles and published Orgrimmar identities checked; missing current level/reaction/pin qualified. Own full service/quest/gossip/literary research pending. See docs/research/orgrimmar-cloth-and-fruit-queue.md"
+    },
+    {
+      "npc_id": 3342,
+      "name": "Shan'ti",
+      "zone": "Orgrimmar",
+      "route": "Male/female Orc cloth armor and fruit merchants",
+      "reason": "Exact current adult Orc bodies, titles and published Orgrimmar identities checked; missing current level/reaction/pin qualified. Own full service/quest/gossip/literary research pending. See docs/research/orgrimmar-cloth-and-fruit-queue.md"
     }
   ]
 }

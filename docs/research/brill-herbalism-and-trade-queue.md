@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](brill-counter-and-stubborn-weeds.md). The plan and progress notes below are historical.
+
 # Next: Abigail Shiel and Faruza
 
 Identity shortlist, 2026-11-09. Continue underserved Horde coverage with two adult female Forsaken profession contacts in Brill, Tirisfal Glades. Neither has an authored profile or recordings yet; do not count them complete or claim a personal Scout encounter.
