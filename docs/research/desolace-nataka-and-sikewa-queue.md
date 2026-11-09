@@ -1,3 +1,5 @@
+> Completed in development: both full profiles, fifteen lines and four v4 signatures each. See [research and validation](desolace-reports-and-cheese-diplomacy.md). The plan below is historical.
+
 # Next: Nataka Longhorn and Innkeeper Sikewa
 
 Identity shortlist, 2026-11-09. Continue Horde regional coverage in Desolace with adult male/female Tauren: a Ghost Walker Post quest contact and a Shadowprey innkeeper. Neither is authored or recorded yet; no personal Scout sighting is claimed.

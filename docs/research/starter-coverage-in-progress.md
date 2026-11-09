@@ -249,3 +249,12 @@ Jinar'Zillen and Mai'Lahii bring development to **334 complete profiles**, each 
 Next: [Nataka Longhorn and Innkeeper Sikewa](desolace-nataka-and-sikewa-queue.md), adult male/female Tauren in Desolace. Exact current bodies, levels, Horde friendly icons and pins are verified; full own source review remains pending. No profile or Scout encounter is claimed yet.
 
 Preserving these two Desolace identities expands the overlapping combined research catalog to **1,501 name groups**, 1,514 retained entries and 83 local identities absent from the original filter. These are not extra completed NPCs.
+
+
+## Desolace reports and cheese diplomacy completed
+
+Nataka Longhorn and Innkeeper Sikewa bring development to **336 complete profiles**, each with fifteen personal lines and four approved Tauren v4 signatures. [Full research](desolace-reports-and-cheese-diplomacy.md) includes the actual brother relationship, full family/centaur/Grimtotem context and all five readable message/note pages, plus exact innkeeper gossip and current twelve-item stock. Later betrayal knowledge and retail events are excluded; private lunch maps and cheese diplomacy are original. Public access totals are 192 Alliance, 64 Horde and 86 unverified, with six shared profiles overlapping faction counts. Authored Tauren profiles now total twenty-two; Desolace has four. Publication remains deferred; the wider catalog and two old Westfall availability checks remain open.
+
+Next: [Gazlowe and Haughty Modiste](gazlowe-and-modiste-queue.md), adult male/female Goblin quest/fashion contacts. Exact current bodies/identities checked; neutral versus missing access and later retail chronology require care. Full personal source review remains pending. No authored profile or Scout encounter is claimed yet.
+
+Preserving the next Goblin identities expands the overlapping combined catalog to **1,502 name groups**, 1,515 retained entries and 84 local identities absent from the original source. These overlap completed profiles and must not be added as extra NPC totals.

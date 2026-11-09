@@ -1,4 +1,44 @@
 {
+  "lore11259_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11259",
+    "spoken": "[sincere] [welcoming] You have brought more than useful news to this post. I look forward to your company, too. Stay beside me a while. I would like to hear something that matters to you, whether or not it belongs in a report.",
+    "text": "You have brought more than useful news to this post. I look forward to your company, too. Stay beside me a while. I would like to hear something that matters to you, whether or not it belongs in a report.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11259_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11259",
+    "spoken": "[warm] [lightly amused] Welcome. Come and walk beside me. You can tell me what you have seen along the road, and I will try not to interrupt when you reach the part about stopping for a meal.",
+    "text": "Welcome. Come and walk beside me. You can tell me what you have seen along the road, and I will try not to interrupt when you reach the part about stopping for a meal.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11259_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11259",
+    "spoken": "[thoughtful] [amused] I have an imaginary map of meals I would like to try. It is a poor guide to the road. Whole stretches seem to disappear between the interesting parts. I suspect traveling by it would take months.",
+    "text": "I have an imaginary map of meals I would like to try. It is a poor guide to the road. Whole stretches seem to disappear between the interesting parts. I suspect traveling by it would take months.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore11259_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:11259",
+    "spoken": "[curious] [warm] A good place to stop. Tell me about a meal you remember from your travels. Not the grandest feast, necessarily. Sometimes the right company makes a simple supper the one you keep thinking about afterward.",
+    "text": "A good place to stop. Tell me about a meal you remember from your travels. Not the grandest feast, necessarily. Sometimes the right company makes a simple supper the one you keep thinking about afterward.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore2948_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

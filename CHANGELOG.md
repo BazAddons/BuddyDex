@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Nataka Longhorn and Innkeeper Sikewa: full Desolace profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research the actual brother/report relationship, complete centaur/Grimtotem context and five readable pages; preserve current inn stock and exclude later retail betrayal knowledge. Development now has 336 complete profiles.
+
 - Complete Jinar'Zillen and Mai'Lahii: full Shadowprey profiles, fifteen personal lines and four approved Troll Eleven v4 signatures each. Read full fish/clam requests and actual gossip, preserve current stock changes and qualify missing quest endpoints without importing Cataclysm branches. Development now has 334 complete profiles.
 
 - Complete Ollanus and Shan'ti: full Orgrimmar profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Preserve actual merchant identities, distinguish historical stock from sparse current relations and exclude later retail moves/conversations. Development now has 332 complete profiles.

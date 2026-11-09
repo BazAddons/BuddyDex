@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Nataka Longhorn, Ghost Walker Post, adult male Tauren, 11259/11469.
+    -- Family Tree 5361: Cliffwatcher's brother; report about centaur activity.
+    -- Catch of the Day 5386: Bloodbelly fish, Jinar'Zillen referral, appetite.
+    -- Mental lunch map is ours; no later betrayal knowledge or chef service.
+    -- Research: docs/research/desolace-reports-and-cheese-diplomacy.md.
+    [11259] = {
+        quote = "Tell me what you learned along the road. If there was a good meal on the way, I would like to hear that part, too.",
+        likes = { "Fried Bloodbelly fish", "News from Cliffwatcher Longhorn", "A travel story with a good lunch stop" },
+        dislikes = { "Centaurs harassing the post", "Important reports arriving in pieces", "A promising meal interrupted" },
+        gossip = "Nataka says every road has something worth remembering. Quite often, he means the place where someone stopped for lunch.",
+        bio = "Nataka Longhorn is stationed at Ghost Walker Post. His brother Cliffwatcher sends a report about centaur activity from Thousand Needles. Nataka also sends adventurers to Jinar'Zillen for his favorite Bloodbelly fish.",
+        backstory = "A traveler once described a long journey and a remarkable meal along the way. Nataka remembered the meal better than the turns. Since then, he has kept an imaginary map of the places he would like to stop and eat.",
+        secret = "His private map is useless for giving directions. Entire stretches of road vanish between remembered meals. He suspects the journey would take far longer than any sensible route.",
+        bestFriend = "Tell me about a meal you still remember. No report, no grand deed. I would like to know what made an ordinary stop worth keeping.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone who understands how a good meal can improve a serious day." },
+        lines = {
+            greet = { { "Welcome. Come and walk beside me. You can tell me what you have seen along the road, and I will try not to interrupt when you reach the part about stopping for a meal.", tone = "[warm] [lightly amused]" },
+                "Good to see you. What news have you brought this time?" },
+            idle = { { "I have an imaginary map of meals I would like to try. It is a poor guide to the road. Whole stretches seem to disappear between the interesting parts. I suspect traveling by it would take months.", tone = "[thoughtful] [amused]" },
+                "Desolace has its pleasures. They are easier to notice without a centaur interruption.",
+                "A good fish supper is worth remembering in some detail." },
+            befriended = { { "You have brought more than useful news to this post. I look forward to your company, too. Stay beside me a while. I would like to hear something that matters to you, whether or not it belongs in a report.", tone = "[sincere] [welcoming]" } },
+            poke = { "Yes? I am listening.", "If you have news, there is no need to nudge me first." },
+            rest = { { "A good place to stop. Tell me about a meal you remember from your travels. Not the grandest feast, necessarily. Sometimes the right company makes a simple supper the one you keep thinking about afterward.", tone = "[curious] [warm]" } },
+            quest = { "Well done. Make your report while the details are still clear." },
+            loot = { "Keep the papers somewhere they will survive the journey." },
+            zone = { "What would you remember about the road through here?" },
+            combatEnd = { "Check on one another. We can think about supper once everyone is accounted for." },
+            levelUp = { "Well earned. I hope the road ahead treats you kindly." },
+            hearth = { "Back to Ghost Walker Post. I should see what news has come." },
+        },
+    },
+
+    -- Innkeeper Sikewa, Shadowprey Village, adult female Tauren, 11106/10564.
+    -- Exact welcome, dungeon/seasonal gossip; current twelve cheese/drink rows.
+    -- No own quest chain. Imaginary cheese diplomacy is ours, not politics.
+    -- Research: docs/research/desolace-reports-and-cheese-diplomacy.md.
+    [11106] = {
+        quote = "Come in and give the road a moment to stop arguing with your feet.",
+        likes = { "A traveler setting down a heavy pack", "Cheeses with faraway names", "Someone willing to enjoy a small joke" },
+        dislikes = { "Hurrying through a needed rest", "Judging supper by its name alone", "An argument that spoils the table" },
+        gossip = "Sikewa has been heard asking the brie to let the cheddar finish. Her guests are not certain which cheese started the argument.",
+        bio = "Sikewa keeps the inn at Shadowprey Village. She welcomes travelers, offers a hearth and sells cheeses and drinks. She shares directions and stories of distant dungeons with guests preparing for the road.",
+        backstory = "A weary guest once asked whether cheeses from so many places argued on the same table. Sikewa replied that Dwarven Mild was a patient listener. Since then, she has occasionally imagined the negotiations over supper.",
+        secret = "She once ended an imaginary disagreement by eating the loudest participant. The remaining cheeses reached an excellent understanding. She would like you to appreciate the diplomacy involved.",
+        bestFriend = "Sit beside me. Dwarven Mild has agreed to hear your news, and the brie has been warned to let you finish. I am glad you came back.",
+        favorite = { emote = "GRIN", hint = "Her little supper-table jokes deserve a pleased smile." },
+        lines = {
+            greet = { { "There you are. Come along, and leave a little space in the day for a proper rest. I would like to hear where you have been, once the road has stopped making quite so much noise in your thoughts.", tone = "[warm] [gentle]" },
+                "Welcome back. Settle yourself before telling me how far you have come." },
+            idle = { { "Someone asked whether all those cheeses argued at supper. I said Dwarven Mild was a patient listener. The brie, perhaps less so. I have been imagining their negotiations ever since. A very lively table.", tone = "[playful] [amused]" },
+                "A place can feel more welcoming as soon as someone puts down their pack.",
+                "The cheese names travel farther than many of the guests." },
+            befriended = { { "You are welcome without a story to entertain me or a task to explain your visit. I enjoy having you here. Today, let us spend a little time together simply because we would both be glad of it.", tone = "[tender] [sincere]" } },
+            poke = { "Yes? What can I help you with?", "I heard you. You need not compete with the cheese." },
+            rest = { { "Sit for a while. We can hear about the dangerous places after you have caught your breath. Supper will not demand a heroic account before allowing you to enjoy it. At least, mine never has.", tone = "[soothing] [lightly amused]" } },
+            quest = { "Well done. Give yourself time to feel the relief of finishing." },
+            loot = { "Put the sharp edges away before reaching across the table." },
+            zone = { "Every road needs a place where a traveler can stop being in a hurry." },
+            combatEnd = { "Everyone safe? Good. We can be quiet for a moment." },
+            laughAlong = { "You see? An excellent conclusion to the negotiations." },
+            hearth = { "Home again. I hope the first thing you feel is welcome." },
+        },
+    },
+
     -- Jinar'Zillen, Shadowprey Village, adult male Troll, 11317/display 11468.
     -- Fish in a Bucket 5421; Nataka's Catch of the Day 5386 referral.
     -- Exact gossip: bubbly fissures, shellfish traps, avoiding competition.

@@ -903,5 +903,19 @@
     "zone": "Desolace",
     "source": "Exact current adult Troll body, Horde friendly icon and Desolace pin; all own merchant/quest relations, full connected fish/clam text and installed gossip reviewed; two missing current quest endpoints qualified, no Scout sighting claimed",
     "research_notes": "docs/research/shadowprey-shellfish-and-a-day-off.md"
+  },
+  {
+    "npc_id": 11259,
+    "name": "Nataka Longhorn",
+    "zone": "Desolace",
+    "source": "Exact current adult Tauren body, Horde friendly icon and Desolace pin; full own service/quest lists, family/report/centaur branches, all five readable message/note pages and exact gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/desolace-reports-and-cheese-diplomacy.md"
+  },
+  {
+    "npc_id": 11106,
+    "name": "Innkeeper Sikewa",
+    "zone": "Desolace",
+    "source": "Exact current adult Tauren body, Horde friendly icon and Desolace pin; full own service/quest lists, family/report/centaur branches, all five readable message/note pages and exact gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/desolace-reports-and-cheese-diplomacy.md"
   }
 ]

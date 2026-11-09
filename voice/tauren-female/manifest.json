@@ -1,4 +1,44 @@
 {
+  "lore11106_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11106",
+    "spoken": "[tender] [sincere] You are welcome without a story to entertain me or a task to explain your visit. I enjoy having you here. Today, let us spend a little time together simply because we would both be glad of it.",
+    "text": "You are welcome without a story to entertain me or a task to explain your visit. I enjoy having you here. Today, let us spend a little time together simply because we would both be glad of it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore11106_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11106",
+    "spoken": "[warm] [gentle] There you are. Come along, and leave a little space in the day for a proper rest. I would like to hear where you have been, once the road has stopped making quite so much noise in your thoughts.",
+    "text": "There you are. Come along, and leave a little space in the day for a proper rest. I would like to hear where you have been, once the road has stopped making quite so much noise in your thoughts.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore11106_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11106",
+    "spoken": "[playful] [amused] Someone asked whether all those cheeses argued at supper. I said Dwarven Mild was a patient listener. The brie, perhaps less so. I have been imagining their negotiations ever since. A very lively table.",
+    "text": "Someone asked whether all those cheeses argued at supper. I said Dwarven Mild was a patient listener. The brie, perhaps less so. I have been imagining their negotiations ever since. A very lively table.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore11106_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:11106",
+    "spoken": "[soothing] [lightly amused] Sit for a while. We can hear about the dangerous places after you have caught your breath. Supper will not demand a heroic account before allowing you to enjoy it. At least, mine never has.",
+    "text": "Sit for a while. We can hear about the dangerous places after you have caught your breath. Supper will not demand a heroic account before allowing you to enjoy it. At least, mine never has.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3009_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

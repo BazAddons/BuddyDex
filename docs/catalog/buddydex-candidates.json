@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 83,
-    "combined_retained_entries": 1514,
-    "candidate_name_groups": 1501,
+    "local_backlog_entries_missing_from_source": 84,
+    "combined_retained_entries": 1515,
+    "candidate_name_groups": 1502,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -12257,7 +12257,7 @@
           "source_page": 11,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -14932,6 +14932,23 @@
       ]
     },
     {
+      "name": "Haughty Modiste",
+      "npc_ids": [
+        15165
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 15165,
+          "name": "Haughty Modiste",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Heglan Shadeeye",
       "npc_ids": [
         275657
@@ -16599,7 +16616,7 @@
           "name": "Innkeeper Sikewa",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25181,7 +25198,7 @@
           "name": "Nataka Longhorn",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39628,8 +39645,22 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 11106,
+      "name": "Innkeeper Sikewa",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 11189,
       "name": "Qia",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 11259,
+      "name": "Nataka Longhorn",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "complete"
@@ -39818,15 +39849,8 @@
       "profile_status": "complete"
     },
     {
-      "npc_id": 11259,
-      "name": "Nataka Longhorn",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 11106,
-      "name": "Innkeeper Sikewa",
+      "npc_id": 15165,
+      "name": "Haughty Modiste",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "pending_identity_and_lore_research"

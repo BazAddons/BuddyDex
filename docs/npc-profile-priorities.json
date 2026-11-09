@@ -588,6 +588,20 @@
       "zone": "Desolace",
       "route": "Ghost Walker quest contact and Shadowprey innkeeper, male/female Tauren",
       "reason": "Exact current adult Tauren bodies, levels, friendly Horde icons and regional pins verified; full own service/quest/gossip/literary review pending. See docs/research/desolace-nataka-and-sikewa-queue.md"
+    },
+    {
+      "npc_id": 3391,
+      "name": "Gazlowe",
+      "zone": "The Barrens",
+      "route": "Male/female Goblin quest and fashion contacts",
+      "reason": "Exact current adult Goblin bodies and identities checked; Gazlowe neutral Barrens pin and Modiste historical Tanaris location with missing current access/pin qualified. Full own source and chronology review pending. See docs/research/gazlowe-and-modiste-queue.md"
+    },
+    {
+      "npc_id": 15165,
+      "name": "Haughty Modiste",
+      "zone": "Tanaris",
+      "route": "Male/female Goblin quest and fashion contacts",
+      "reason": "Exact current adult Goblin bodies and identities checked; Gazlowe neutral Barrens pin and Modiste historical Tanaris location with missing current access/pin qualified. Full own source and chronology review pending. See docs/research/gazlowe-and-modiste-queue.md"
     }
   ]
 }
