@@ -195,3 +195,11 @@ Sputtervalve and Wenikee Boltbucket bring development to **320 complete profiles
 Next: Ziz Fizziks (4201), current Horde-friendly adult male Goblin in Stonetalon, and Rilli Greasygob (9317), exact adult male Goblin with published/quest Orgrimmar location but missing current pin/reaction. Their connected chains were read with this batch; [their own relation/gossip/literary audits remain pending](fizziks-and-greasygob-queue.md). Rilli is preserved explicitly despite absence from the original filtered catalog.
 
 Retaining Rilli expands the combined research catalog to **1,494 name groups**, with 1,507 retained entries and 76 local identities absent from the original source. These totals overlap the completed roster and are not an additional NPC count.
+
+## Fizziks and Greasygob completed
+
+Ziz Fizziks and Rilli Greasygob bring development to **322 complete profiles**, each with fifteen personal lines and four approved Goblin v4 signatures. [Full research](fizziks-and-greasygob.md) adds Piznik's ore branch to their own relation audit, preserves the samophlange's unresolved outcome and excludes Draenor/Siege events. Authored Goblins now total eight. Public access totals are 192 Alliance, 56 Horde and 80 unverified, with six shared profiles overlapping faction totals; Rilli's missing current pin/reaction remains qualified. Orgrimmar now has nine authored profiles. The wider 1,494-name pool and two old Westfall questions remain open. Publication is deferred.
+
+Next: Ur'kyo (6018), current Horde-friendly adult male Troll priest trainer, and Pephredo (5882), exact adult female Troll mage trainer with published Orgrimmar location but missing current pin/reaction. [Full personal class research remains pending](urkyo-and-pephredo-queue.md). Pephredo is individually preserved despite omission from the original filtered catalog.
+
+Preserving Pephredo expands the combined research catalog to **1,495 name groups**, with 1,508 retained entries and 77 local identities absent from the original source. These overlap the completed roster and must not be added as separate NPC totals.

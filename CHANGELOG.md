@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Ziz Fizziks and Rilli Greasygob: full profiles, fifteen personal lines and four approved Goblin Eleven v4 signatures each. Audit their own relation lists, add the complete Piznik ore-sampling branch and preserve unresolved repairs, actual testimony and later-expansion boundaries. Development now has 322 complete profiles.
+
 - Complete Sputtervalve and Wenikee Boltbucket: full profiles, fifteen personal lines and four approved Goblin Eleven v4 signatures each. Research the full samophlange/manual, shredder espionage, escape and shard referral branches; preserve actual repair failures and conditional neutral access without later retail imports. Development now has 320 complete profiles.
 
 - Complete Gretchen Dedmar and Deathguard Dillinger: full Brill profiles, fifteen personal lines and four approved Forsaken Eleven v4 signatures each. Preserve Gretchen's uncertainty, Dillinger's sarcastic directions and Forever's demand for reinforcements; research the full warrior referral sequence and new report/punishment quests. Development now has 318 complete profiles.

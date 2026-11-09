@@ -805,5 +805,19 @@
     "zone": "The Barrens",
     "source": "Exact current adult Goblin model and separate location pin, conditional neutral access; full samophlange/manual, industrial espionage, escape and shard branches with installed text reviewed; no Scout sighting claimed",
     "research_notes": "docs/research/barrens-borrowed-machines.md"
+  },
+  {
+    "npc_id": 4201,
+    "name": "Ziz Fizziks",
+    "zone": "Stonetalon Mountains",
+    "source": "Exact current adult Goblin body and current/published location; own relation lists, full connected espionage/ore and samophlange/manual branches and installed text checked; qualified access, no Scout sighting claimed",
+    "research_notes": "docs/research/fizziks-and-greasygob.md"
+  },
+  {
+    "npc_id": 9317,
+    "name": "Rilli Greasygob",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Goblin body and current/published location; own relation lists, full connected espionage/ore and samophlange/manual branches and installed text checked; qualified access, no Scout sighting claimed",
+    "research_notes": "docs/research/fizziks-and-greasygob.md"
   }
 ]

@@ -490,6 +490,20 @@
       "zone": "Orgrimmar",
       "route": "Union espionage and samophlange repair contacts",
       "reason": "Exact current adult male Goblin models verified; Ziz current friendly regional pin and Rilli published/quest Orgrimmar location qualified. Own full relation/gossip/literary audit pending. See docs/research/fizziks-and-greasygob-queue.md"
+    },
+    {
+      "npc_id": 6018,
+      "name": "Ur'kyo",
+      "zone": "Orgrimmar",
+      "route": "Male Troll priest and female Troll mage teaching contacts",
+      "reason": "Exact current adult Troll body/title verified; Urkyo friendly pin and Pephredo published Orgrimmar location with missing current fields qualified. Own full quest/training/gossip/literary review pending. See docs/research/urkyo-and-pephredo-queue.md"
+    },
+    {
+      "npc_id": 5882,
+      "name": "Pephredo",
+      "zone": "Orgrimmar",
+      "route": "Male Troll priest and female Troll mage teaching contacts",
+      "reason": "Exact current adult Troll body/title verified; Urkyo friendly pin and Pephredo published Orgrimmar location with missing current fields qualified. Own full quest/training/gossip/literary review pending. See docs/research/urkyo-and-pephredo-queue.md"
     }
   ]
 }

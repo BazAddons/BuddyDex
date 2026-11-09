@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ziz Fizziks, adult male Goblin, Windshear Crag, NPC 4201/display 7156.
+    -- Former Venture engineer hired by Sputtervalve: stolen plans, Piznik's
+    -- ore sample and Gerenzo's removal. A future workshop is his aspiration,
+    -- not an awarded post. The chair sketch is original BuddyDex fiction.
+    -- No later Draenor robot/follower history. Research: docs/research/fizziks-and-greasygob.md.
+    [4201] = {
+        quote = "Sputtervalve knows genius when he sees it. He could stand to mention that a little more often.",
+        likes = { "An audience that lets him finish", "A workshop with his name on it", "A chair that does not wobble" },
+        dislikes = { "Gerenzo taking his place", "Sputtervalve doubting his loyalty", "The dangerous part of field research" },
+        gossip = "Ziz keeps sketching his future workshop. People expect a colossal machine. So far, the chair has received the most attention.",
+        bio = "Ziz Fizziks works in Windshear Crag after leaving the Venture Company for Sputtervalve's Union work. He seeks rival plans, has Piznik gather ore, and helps arrange action against Gerenzo Wrenchwhistle.",
+        backstory = "Imagining a better posting, Ziz began sketching the perfect workshop. He meant to start with the machines. Instead, he kept adjusting the chair and the space around the bench. There always seemed to be room for one more stool.",
+        secret = "The grand workshop can wait. He would settle for a steady chair, a bench that stays his, and someone who visits without asking how soon the next invention will be ready.",
+        bestFriend = "I left room for you beside the bench. Yes, in the grand workshop. Until then, I suppose we can find two decent seats here.",
+        favorite = { emote = "APPLAUD", hint = "Never objects to a little recognition of his brilliance." },
+        lines = {
+            greet = { { "Good, you're here. I was just considering my future workshop. Plenty of room, excellent equipment, a proper chair. We should take a walk before I spend the entire imaginary budget on the chair.", tone = "[self-important] [amused]" },
+                "Come along. You can hear the plan while we walk." },
+            idle = { { "I drew the workshop again. Magnificent place. Somehow I spent more time making room beside the bench than deciding which machines belong there. Apparently even genius likes having someone to talk to.", tone = "[reflective] [wry]" },
+                "That seat looks steady. A rare accomplishment.",
+                "Gadgetzan. Undermine. Somewhere they appreciate what I bring to a workshop." },
+            befriended = { { "I have quite a speech prepared about the advantages of my company. But you keep coming back without hearing it. I suppose that means I can simply say I am glad you're here.", tone = "[warm] [slightly awkward]" } },
+            poke = { "Yes? The genius was thinking.", "If that's applause, the technique needs work." },
+            quest = { { "You're back. Excellent. Let's see what you found before anybody decides who deserves the credit. I would particularly like to know whether the interesting part is still in one piece.", tone = "[eager] [calculating]" } },
+            loot = { "Keep that little sample separate. For examination, naturally." },
+            learned = { "Interesting. Leave room for an improvement I might think of." },
+            bagsFull = { "Make space. We are not leaving the useful part behind." },
+            rest = { "A level patch of ground. Good start for a workshop." },
+            combatEnd = { "Still here? Good. Fieldwork has far too many moving hazards." },
+            levelUp = { "You're improving. Clearly you chose excellent company." },
+        },
+    },
+
+    -- Rilli Greasygob, adult male Goblin, Nogg's Machine Shop, NPC 9317.
+    -- Display 8631. Former Venture engineer; Copperplug withheld knowledge.
+    -- Samophlange Manual completion promises investigation, not a final fix.
+    -- Machines in little hats are ours; no later move/Siege death imported.
+    -- Research: docs/research/fizziks-and-greasygob.md.
+    [9317] = {
+        quote = "Bring the whole manual. I have had quite enough of people deciding which pages I am allowed to understand.",
+        likes = { "A complete set of instructions", "Someone describing what actually broke", "A clean scrap for a silly sketch" },
+        dislikes = { "Copperplug hoarding useful knowledge", "A diagram missing its labels", "A head blocking his work light" },
+        gossip = "Rilli's scrap drawings show machines in little hats. Nobody has worked out what the hats do. Rilli seems pleased by that.",
+        bio = "Rilli Greasygob works at Nogg's Machine Shop in Orgrimmar. A former Venture Company engineer, he seeks Copperplug's closely guarded manual to understand the battered samophlange sent on by Wenikee.",
+        backstory = "Waiting for a repair to settle, Rilli drew its mechanism on a scrap and gave it a ridiculous hat. The next sketch got a taller one. He began saving these small drawings beside his practical notes, where nobody needed to approve them.",
+        secret = "The hats do nothing. That is what he enjoys about them. After studying diagrams where every mark must mean something, it is pleasant to draw one that simply makes him smile.",
+        bestFriend = "I saved you a clean scrap. Draw the most useless addition you can think of. We can admire it without trying to make it work.",
+        favorite = { emote = "GRIN", hint = "Enjoys someone understanding a joke that needs no explanation." },
+        lines = {
+            greet = { { "There you are. Let me clear the little parts off this sheet. There is a perfectly useless drawing on the other side I wanted to show you. The hat came out rather well.", tone = "[dryly amused] [welcoming]" },
+                "Come along. I could use a different view for a while." },
+            idle = { { "I drew a pump wearing a hat. Someone asked what the hat was for. Nothing at all. After a day spent explaining every other piece, that was a remarkably satisfying answer.", tone = "[amused] [confiding]" },
+                "A whole page. No missing corner. A promising beginning.",
+                "Give me a moment. I am deciding how tall the hat should be." },
+            befriended = { { "I like having you here when there is nothing to repair. We can talk, or draw something absurd on a scrap. It is good company when nobody needs to justify the time.", tone = "[warm] [sincere]" } },
+            poke = { "Your hand is now between me and the thing I was looking at.", "Yes? You may announce yourself without testing the casing." },
+            learned = { { "Read the whole explanation, including the bit someone told you was unimportant. Copperplug used to hand out knowledge in pieces. I prefer having enough of the picture to ask my own questions.", tone = "[firm] [thoughtful]" } },
+            quest = { "Good work. Let's look at what you brought before deciding what comes next." },
+            loot = { "Keep the label with it. We may be glad of that later." },
+            bagsFull = { "Don't fold the instructions around the heavy parts." },
+            rest = { "A quiet moment. Let us see how long we can keep it." },
+            combatEnd = { "Everybody whole? Good. We can count the tools afterward." },
+            levelUp = { "Well earned. You should give yourself a moment to enjoy it." },
+        },
+    },
+
     -- Sputtervalve, adult male Goblin, Ratchet, NPC 3442/display 7054.
     -- Facts: Union shredder program under Riddlevox; Wizzlecrank/Fizziks
     -- technology theft, broken samophlange referral, Falla shard advice.

@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 320,
+  "completed_count": 322,
   "remaining_count": 4,
   "completed": [
     {
@@ -1877,6 +1877,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 4201,
+      "name": "Ziz Fizziks",
+      "zone": "Stonetalon Mountains",
+      "source": "Exact current adult Goblin body and current/published location; own relation lists, full connected espionage/ore and samophlange/manual branches and installed text checked; qualified access, no Scout sighting claimed",
+      "research_notes": "docs/research/fizziks-and-greasygob.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 4961,
       "name": "Dashel Stonefist",
       "zone": "Stormwind City",
@@ -2504,6 +2514,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 9317,
+      "name": "Rilli Greasygob",
+      "zone": "Orgrimmar",
+      "source": "Exact current adult Goblin body and current/published location; own relation lists, full connected espionage/ore and samophlange/manual branches and installed text checked; qualified access, no Scout sighting claimed",
+      "research_notes": "docs/research/fizziks-and-greasygob.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 9564,
       "name": "Frezza",
       "zone": "Durotar",
@@ -2996,15 +3016,15 @@
   ],
   "remaining": [
     {
-      "npc_id": 4201,
-      "name": "Ziz Fizziks",
-      "zone": "Stonetalon Mountains",
+      "npc_id": 6018,
+      "name": "Ur'kyo",
+      "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 9317,
-      "name": "Rilli Greasygob",
+      "npc_id": 5882,
+      "name": "Pephredo",
       "zone": "Orgrimmar",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
@@ -3209,7 +3229,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1493,
+    "candidate_name_groups": 1494,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

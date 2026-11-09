@@ -1,3 +1,7 @@
+# Completed: Ziz Fizziks and Rilli Greasygob
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four approved Goblin v4 signatures each. Development now has 322 complete profiles. See [full research](fizziks-and-greasygob.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Ziz Fizziks and Rilli Greasygob
 
 Identity shortlist, 2026-11-09, after 320 completed profiles. Follow the already researched engineering connections to two named adult Goblins. Neither is authored, recorded or counted complete. No personal Scout sighting is claimed.
