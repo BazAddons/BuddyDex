@@ -399,6 +399,27 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff rest/arrival and male Goblin zeppelin service",
       "reason": "Exact current Horde-friendly adult male Goblin/male Elite Tauren/female Tauren identities, models and pins verified; full personal quest/services/literary review pending. See docs/research/thunder-bluff-rest-and-travel-queue.md"
+    },
+    {
+      "npc_id": 3344,
+      "name": "Kardris Dreamseeker",
+      "zone": "Orgrimmar",
+      "route": "Female Shaman trainers and male Orc alchemy service",
+      "reason": "Exact current adult female Orc/female Troll/male Orc models verified; current or published Orgrimmar location evidence reviewed, with Neutral/missing reaction qualified. Full personal lore/services pending. See docs/research/orgrimmar-spirit-and-alchemy-queue.md"
+    },
+    {
+      "npc_id": 3403,
+      "name": "Sian'tsu",
+      "zone": "Orgrimmar",
+      "route": "Female Shaman trainers and male Orc alchemy service",
+      "reason": "Exact current adult female Orc/female Troll/male Orc models verified; current or published Orgrimmar location evidence reviewed, with Neutral/missing reaction qualified. Full personal lore/services pending. See docs/research/orgrimmar-spirit-and-alchemy-queue.md"
+    },
+    {
+      "npc_id": 3347,
+      "name": "Yelmak",
+      "zone": "Orgrimmar",
+      "route": "Female Shaman trainers and male Orc alchemy service",
+      "reason": "Exact current adult female Orc/female Troll/male Orc models verified; current or published Orgrimmar location evidence reviewed, with Neutral/missing reaction qualified. Full personal lore/services pending. See docs/research/orgrimmar-spirit-and-alchemy-queue.md"
     }
   ]
 }
