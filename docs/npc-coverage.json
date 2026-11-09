@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 314,
+  "completed_profiles": 316,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 192,
-    "unverified": 76,
-    "horde": 52
+    "unverified": 77,
+    "horde": 53
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,7 +14,7 @@
     "5": 26,
     "4": 11,
     "6": 18,
-    "2": 13,
+    "2": 15,
     "8": 11,
     "9": 4,
     "96": 3,
@@ -33,8 +33,8 @@
     "Mulgore": 10,
     "Thunder Bluff": 5,
     "Durotar": 15,
-    "Orgrimmar": 7,
-    "The Barrens": 8,
+    "Orgrimmar": 8,
+    "The Barrens": 9,
     "Silverpine Forest": 1,
     "Winterspring": 1,
     "Deeprun Tram": 3,
@@ -2454,6 +2454,30 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3937"
+    },
+    {
+      "npc_id": 4047,
+      "name": "Zor Lonetree",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde-icon Neutral; live non-attackability required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4047"
+    },
+    {
+      "npc_id": 4049,
+      "name": "Seereth Stonebreak",
+      "zone": "The Barrens",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4049"
     },
     {
       "npc_id": 4078,

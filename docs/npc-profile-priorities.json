@@ -448,6 +448,20 @@
       "zone": "The Barrens",
       "route": "Orgrimmar and Stonetalon approach quest investigation",
       "reason": "Exact current adult male/female Orc models and city/Barrens pins checked; Neutral versus Horde-friendly access qualified. Full personal quest/gossip/literary review pending. See docs/research/zor-and-seereth-queue.md"
+    },
+    {
+      "npc_id": 1521,
+      "name": "Gretchen Dedmar",
+      "zone": "Tirisfal Glades",
+      "route": "Brill female and male Forsaken quest contacts",
+      "reason": "Exact current adult Forsaken body, Horde-friendly icon and Tirisfal pin verified; full personal quest/gossip/literary review pending. See docs/research/brill-gretchen-and-dillinger-queue.md"
+    },
+    {
+      "npc_id": 1496,
+      "name": "Deathguard Dillinger",
+      "zone": "Tirisfal Glades",
+      "route": "Brill female and male Forsaken quest contacts",
+      "reason": "Exact current adult Forsaken body, Horde-friendly icon and Tirisfal pin verified; full personal quest/gossip/literary review pending. See docs/research/brill-gretchen-and-dillinger-queue.md"
     }
   ]
 }

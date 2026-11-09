@@ -763,5 +763,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current Horde-friendly adult Tauren model and city pin, training and full installed gossip reviewed; connected profession quest clusters and books read, no personal Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-suppers-and-fishing-verses.md"
+  },
+  {
+    "npc_id": 4047,
+    "name": "Zor Lonetree",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult Orc body, current city/border pin and qualified reaction; full Stonetalon and Dustwallow report chains, readable documents and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/zor-and-seereth-unfinished-matters.md"
+  },
+  {
+    "npc_id": 4049,
+    "name": "Seereth Stonebreak",
+    "zone": "The Barrens",
+    "source": "Exact current adult Orc body, current city/border pin and qualified reaction; full Stonetalon and Dustwallow report chains, readable documents and installed gossip reviewed; no Scout sighting claimed",
+    "research_notes": "docs/research/zor-and-seereth-unfinished-matters.md"
   }
 ]

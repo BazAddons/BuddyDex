@@ -199,6 +199,46 @@
     "text": "Give yourself a moment with what you have learned. There will be another question soon enough. You need not rush past this one just to prove you are ready.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore4049_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4049",
+    "spoken": "[warm] [earnest] You keep coming back, even when I have more worries than good news. I notice that. Walk with me, friend. Perhaps today we will find a little quiet worth sharing.",
+    "text": "You keep coming back, even when I have more worries than good news. I notice that. Walk with me, friend. Perhaps today we will find a little quiet worth sharing.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore4049_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4049",
+    "spoken": "[resolute] [warm] Good. I am glad to have you beside me. Keep your ears open as we walk. I would welcome a little birdsong after listening to so many reports of machines.",
+    "text": "Good. I am glad to have you beside me. Keep your ears open as we walk. I would welcome a little birdsong after listening to so many reports of machines.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore4049_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4049",
+    "spoken": "[wry] [gently amused] I tried to answer a bird near camp. The first two notes were almost right. It stayed for the third, which I consider either encouragement or a very poor opinion of my chances.",
+    "text": "I tried to answer a bird near camp. The first two notes were almost right. It stayed for the third, which I consider either encouragement or a very poor opinion of my chances.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore4049_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:4049",
+    "spoken": "[firm] [grateful] Thank you for doing something. The work is not finished, but that does not make your effort small. We will need strength, and we will need wisdom enough to know what comes next.",
+    "text": "Thank you for doing something. The work is not finished, but that does not make your effort small. We will need strength, and we will need wisdom enough to know what comes next.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore6929_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

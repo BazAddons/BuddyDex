@@ -1,5 +1,7 @@
 # Unreleased
 
+- Complete Zor Lonetree and Seereth Stonebreak: full profiles, fifteen personal lines and four approved Orc Eleven v4 signatures each. Research the entire Stonetalon aid/toxin branches and Dustwallow report/pendant chain, including all readable report/note pages. Preserve unresolved mysteries, conditional neutral access and Classic/Forever chronology. Development now has 316 complete profiles.
+
 - Complete Aska and Kah Mistrunner: full Thunder Bluff profiles, fifteen personal lines and four approved Tauren Eleven v4 signatures each. Research current cooking/campfire training, installed professional referrals, full connected cooking/fishing trials and skill books; omit later retail dailies. Development now has 314 complete profiles.
 
 - Complete Kardris Dreamseeker, Sian'tsu and Yelmak: full Orgrimmar profiles, fifteen personal lines and four selected Orc/Troll Eleven v4 signatures each. Include the full elemental referral chain and Forever's Whuut teaching tonic; preserve conditional/missing access evidence and omit later retail events. Development now has 312 complete profiles.

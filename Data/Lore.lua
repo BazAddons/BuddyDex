@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Zor Lonetree, adult male Orc Elder Far Seer, Orgrimmar, NPC 4047.
+    -- Facts: sends aid to Seereth; Nazeer values his Alliance political
+    -- knowledge. Has scholars study Marg's pendant; ownership stays open.
+    -- His fondness for small surprises is original BuddyDex fiction.
+    -- No Stormrage, retail Vision or Season of Discovery vendor import.
+    -- Research: docs/research/zor-and-seereth-unfinished-matters.md.
+    [4047] = {
+        quote = "Respect what you do not yet understand. That applies to people as well as spirits.",
+        likes = { "A report that admits uncertainty", "An unexpected kindness", "A walk without an itinerary" },
+        dislikes = { "Treating the spirits as servants", "Certainty without evidence", "Every remark taken as a prophecy" },
+        gossip = "Visitors say Zor knows where every conversation will lead. He keeps asking them to get to the interesting part.",
+        bio = "Zor Lonetree is an Elder Far Seer in Orgrimmar. He sends help to Seereth in Stonetalon and knows enough of Alliance politics for Nazeer to seek his judgment about a mysterious human pendant.",
+        backstory = "People began treating Zor's ordinary remarks as predictions. He found it difficult to ask a question without someone assuming he already knew the answer. A friend once surprised him with a new walking route. He enjoyed every turn.",
+        secret = "He likes a small surprise: an unfamiliar path, an unexpected meal, a story he has never heard. He sometimes asks no questions just to let one reach him intact.",
+        bestFriend = "Choose the road today. You need not tell me where it leads. I would like to discover it beside you.",
+        favorite = { emote = "BOW", hint = "Appreciates respect offered without a long speech." },
+        lines = {
+            greet = { { "There you are. Shall we walk? You may choose the direction. If you have something pleasant planned, there is no need to explain it. I would enjoy finding out along the way.", tone = "[warm] [unhurried]" },
+                "Tell me what you have seen. Begin with what surprised you." },
+            idle = { { "A visitor once took every question I asked as proof that I knew the answer. We had a very long conversation, and I learned almost nothing about what he wanted.", tone = "[dryly amused] [reflective]" },
+                "I have not heard this story before. Please, go on.",
+                "There is a difference between listening and waiting for your turn to speak." },
+            befriended = { { "I value your company. With you, I can ask an ordinary question and receive an ordinary answer. That is a greater kindness than you may realize. Come, let us see where today leads.", tone = "[warm] [sincere]" } },
+            poke = { "You have my attention. You may also have my elbow if this continues.", "Yes? An ordinary greeting would have reached me." },
+            quest = { { "Tell me what you know, and what remains uncertain. We can be grateful for good work without pretending every mystery is settled. Some answers will require more time and more careful eyes.", tone = "[measured] [thoughtful]" } },
+            learned = { "Good. Leave room for the next thing you do not know." },
+            loot = { "Interesting. Let us understand it before deciding what it means." },
+            zone = { "A new place deserves a little attention before an opinion." },
+            rest = { "Let the reports wait a moment. How have you been?" },
+            combatEnd = { "Take stock of one another before we go on." },
+            levelUp = { "You have grown. I hope the world still has surprises for you." },
+        },
+    },
+
+    -- Seereth Stonebreak, adult female Orc shaman, Barrens border, NPC 4049.
+    -- Facts: reports Stonetalon deforestation, urges force against Venture
+    -- Co.; sees XT:4/XT:9, seeks tauren counsel through Magatha. No blanket
+    -- pacifism, toxin authorship or later Honor's Stand escape is assigned.
+    -- Bird-call practice is ours. Research: docs/research/zor-and-seereth-unfinished-matters.md.
+    [4049] = {
+        quote = "The forest has been calling for help. I intend to make certain someone answers.",
+        likes = { "The sound of leaves without saws", "Someone answering a call for aid", "A bird staying to finish its song" },
+        dislikes = { "The Venture Company's shredders", "Hearing suffering dismissed as noise", "Advice that never becomes action" },
+        gossip = "Seereth stops to listen whenever a bird calls. Travelers say she understands them. Her own attempts suggest otherwise.",
+        bio = "Seereth Stonebreak watches Stonetalon from the Barrens border. She hears the spirits' pain, sends help against Venture Company loggers and shredders, and seeks tauren counsel through Magatha.",
+        backstory = "During a quiet moment near camp, Seereth tried to copy a bird's call. It sounded dreadful. The bird stayed nearby anyway. She began trying again between reports, grateful for something small she could practice without a battle.",
+        secret = "She has nearly mastered the first two notes. The third is still terrible. She suspects the bird stays because it cannot quite believe she will try it again.",
+        bestFriend = "Stay a moment. I almost have the tune. If the last note goes wrong, you are allowed to laugh. Just stay for another try.",
+        favorite = { emote = "CHEER", hint = "Welcomes a little encouragement when the work feels endless." },
+        lines = {
+            greet = { { "Good. I am glad to have you beside me. Keep your ears open as we walk. I would welcome a little birdsong after listening to so many reports of machines.", tone = "[resolute] [warm]" },
+                "Come along. We can talk while we keep watch." },
+            idle = { { "I tried to answer a bird near camp. The first two notes were almost right. It stayed for the third, which I consider either encouragement or a very poor opinion of my chances.", tone = "[wry] [gently amused]" },
+                "Listen. For a moment, we can hear the leaves.",
+                "That was the bird. I cannot take credit for that one." },
+            befriended = { { "You keep coming back, even when I have more worries than good news. I notice that. Walk with me, friend. Perhaps today we will find a little quiet worth sharing.", tone = "[warm] [earnest]" } },
+            poke = { "Speak. I would rather hear you than feel that again.", "I am listening to something. Give me a moment." },
+            quest = { { "Thank you for doing something. The work is not finished, but that does not make your effort small. We will need strength, and we will need wisdom enough to know what comes next.", tone = "[firm] [grateful]" } },
+            combatStart = { "Stand with me. We will not give them an easy path." },
+            combatEnd = { "Everyone standing? Good. Now we can breathe." },
+            rest = { "Sit. You cannot keep watch forever without resting." },
+            zone = { "Let us find out what threatens this place, and what still thrives." },
+            levelUp = { "Stronger. I am glad to have seen the work that brought you here." },
+            comforted = { "Thank you. I needed to hear another voice for a moment." },
+        },
+    },
+
     -- Aska Mistrunner, adult female Tauren Cooking Trainer, Thunder Bluff.
     -- Facts: NPC 3026/display 2107, current cooking/campfire training;
     -- installed lifelong-learning greeting and Wulan/Dirge referrals.

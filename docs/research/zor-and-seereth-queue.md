@@ -1,3 +1,7 @@
+# Completed: Zor Lonetree and Seereth Stonebreak
+
+Completed and validated on 2026-11-09: ten fields, fifteen lines and four selected Orc v4 signatures each. Development now has 316 complete profiles. See [full research](zor-and-seereth-unfinished-matters.md). The identity shortlist below is preserved as historical planning.
+
 # Next: Zor Lonetree and Seereth Stonebreak
 
 Identity shortlist, 2026-11-09, after 314 completed profiles. Return to named Horde quest contacts, with male and female Orc coverage. Neither profile is authored, recorded or counted complete. No personal Scout encounter is claimed.

@@ -239,6 +239,46 @@
     "text": "Before you settle in, make certain everything you are carrying is secure. A little care now makes the journey easier to enjoy. And when you arrive somewhere new, remember to meet its wind rider master. Knowing where you can return is a useful part of knowing where you have been.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore4047_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4047",
+    "spoken": "[warm] [sincere] I value your company. With you, I can ask an ordinary question and receive an ordinary answer. That is a greater kindness than you may realize. Come, let us see where today leads.",
+    "text": "I value your company. With you, I can ask an ordinary question and receive an ordinary answer. That is a greater kindness than you may realize. Come, let us see where today leads.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4047_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4047",
+    "spoken": "[warm] [unhurried] There you are. Shall we walk? You may choose the direction. If you have something pleasant planned, there is no need to explain it. I would enjoy finding out along the way.",
+    "text": "There you are. Shall we walk? You may choose the direction. If you have something pleasant planned, there is no need to explain it. I would enjoy finding out along the way.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4047_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4047",
+    "spoken": "[dryly amused] [reflective] A visitor once took every question I asked as proof that I knew the answer. We had a very long conversation, and I learned almost nothing about what he wanted.",
+    "text": "A visitor once took every question I asked as proof that I knew the answer. We had a very long conversation, and I learned almost nothing about what he wanted.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4047_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:4047",
+    "spoken": "[measured] [thoughtful] Tell me what you know, and what remains uncertain. We can be grateful for good work without pretending every mystery is settled. Some answers will require more time and more careful eyes.",
+    "text": "Tell me what you know, and what remains uncertain. We can be grateful for good work without pretending every mystery is settled. Some answers will require more time and more careful eyes.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore6928_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
