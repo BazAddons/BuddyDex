@@ -40,4 +40,10 @@ The explicit research queue now adds Gornek (3143) for Durotar's fifth completed
 
 Identity check caught a possible ID mix-up before admission: 2078 is Athridas Bearmantle, not Gilshalan. Gilshalan is verified as 2082. The queue uses 2082; no profile or duplicate identity was authored from the mistaken association.
 
-This preserves the wider coverage rotation: Mulgore now has five, and Gornek brings Durotar to five as well; see [his research notes](gornek-at-the-den.md). Teldrassil now has its first two completed starter profiles, Conservator Ilthalaine and Dirania Silvershine; see [their research notes](shadowglen-first-friends.md). Gilshalan, Alyissia and Shanda remain in the research queue to reach five. Dun Morogh and both Skyborne faction paths remain outstanding starter experiences, rather than being counted as covered by city NPCs.
+This preserves the wider coverage rotation: Mulgore now has five, and Gornek brings Durotar to five as well; see [his research notes](gornek-at-the-den.md). Teldrassil now has five completed starter profiles: Conservator Ilthalaine, Dirania Silvershine, Gilshalan Windwalker, Alyissia and Shanda. See [the first pair](shadowglen-first-friends.md) and [the researcher/trainers](shadowglen-researcher-and-trainers.md). Dun Morogh and both Skyborne faction paths remain outstanding starter experiences, rather than being counted as covered by city NPCs.
+
+## Next: Coldridge Valley and Anvilmar
+
+With Shadowglen at five, the research queue now turns to Sten Stoutarm (658), Nori Pridedrift (12738), Durnan Furcutter (836), Alamar Grimm (460), and Wren Darkspring (6376). Exact names and character models were checked in current Forever definitions. These are research candidates, not completed profiles or verified personal Scout encounters. The intended mix includes dwarf and gnome NPCs, quest givers, trade and training, and Wren as a female gnome candidate. Adult models, sex, full quests/services and current friendly access still require individual review before authoring.
+
+Identity checks excluded erroneous associations before queue admission: 698 is Bloodscalp Tiger, not Durnan (836); 6374 is Cylina Darkheart, not Wren (6376). No profiles or eligibility exceptions were created from those wrong associations. Both Skyborne faction starting paths remain outstanding after the shared dwarf/gnome route.

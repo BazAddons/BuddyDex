@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Complete Gilshalan Windwalker, Alyissia, and Shanda, each with fifteen personal lines and four Eleven v4 signatures. Include Shanda's verified Forever racial lesson and bring Shadowglen to five completed starter profiles.
+
 - Begin Shadowglen starter coverage with Conservator Ilthalaine and Dirania Silvershine, each with fifteen personal lines and four Eleven v4 recordings in the established male/female night elf voices.
 
 - Complete Gornek with fifteen personal lines and four Eleven v4 signatures in the selected male orc voice. Include his Forever training-weapon recovery role and bring Durotar to five completed starter profiles.

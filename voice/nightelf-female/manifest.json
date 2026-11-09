@@ -39,6 +39,86 @@
     "text": "I kept an ordinary brown leaf because I could not quite describe its color. It dried before I settled the question. I still enjoyed the looking. Some small pleasures need no better result than that.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore3593_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3593",
+    "spoken": "[steady sincere affection, relaxed confidence] I would be glad to walk with you. You have given me reason to trust your company, and it is pleasant to speak without making every moment a lesson. Tell me what you have enjoyed today. We can leave the drills for another time.",
+    "text": "I would be glad to walk with you. You have given me reason to trust your company, and it is pleasant to speak without making every moment a lesson. Tell me what you have enjoyed today. We can leave the drills for another time.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3593_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3593",
+    "spoken": "[confident clear welcome, practical warmth, dry amusement] Welcome. Come ready to pay attention, and we will find something useful to practice. If you saw that little turn, it was a dance step. I am still adding a pace that does not belong. You may be relieved to hear I am not teaching it as a fighting technique.",
+    "text": "Welcome. Come ready to pay attention, and we will find something useful to practice. If you saw that little turn, it was a dance step. I am still adding a pace that does not belong. You may be relieved to hear I am not teaching it as a fighting technique.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3593_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3593",
+    "spoken": "[focused then lightly amused, composed, warmly candid] One, two, turn. There, that should be enough. My feet appear to have another opinion. It is useful to practice something that does not come easily, especially when you spend your day helping others learn. Though I would appreciate a little agreement from the rhythm.",
+    "text": "One, two, turn. There, that should be enough. My feet appear to have another opinion. It is useful to practice something that does not come easily, especially when you spend your day helping others learn. Though I would appreciate a little agreement from the rhythm.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3593_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3593",
+    "spoken": "[firm constructive teacher, patient encouragement, assured] Good. Practice it carefully before trying to make it quick. Notice what your body is doing, and where your attention wanders. A mistake you understand is something you can work on. You need not hide it from me behind a show of confidence.",
+    "text": "Good. Practice it carefully before trying to make it quick. Notice what your body is doing, and where your attention wanders. A mistake you understand is something you can work on. You need not hide it from me behind a show of confidence.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3595_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3595",
+    "spoken": "[sincere composed affection, open and pleased] I would welcome the chance to accompany you. There is much to notice beyond the questions brought to my door, and I have come to value how you see things. Tell me what is on your mind. We need not make every conversation an instruction.",
+    "text": "I would welcome the chance to accompany you. There is much to notice beyond the questions brought to my door, and I have come to value how you see things. Tell me what is on your mind. We need not make every conversation an instruction.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3595_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3595",
+    "spoken": "[calm gracious welcome, attentive warmth, gentle amusement] Welcome, my friend. Bring your questions, and we can consider them together. You have caught me working at a little tangle in this cord. There is no mystery hidden in it. I simply enjoy finding the loop that allows the rest to loosen.",
+    "text": "Welcome, my friend. Bring your questions, and we can consider them together. You have caught me working at a little tangle in this cord. There is no mystery hidden in it. I simply enjoy finding the loop that allows the rest to loosen.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3595_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3595",
+    "spoken": "[patient concentration, quietly satisfied, softly humorous] Pulling harder would make this knot less agreeable. I have tried it before, so I speak with some experience. A little room, a careful turn, and there it goes. No special blessing was needed. I am pleased enough with an ordinary cord becoming useful again.",
+    "text": "Pulling harder would make this knot less agreeable. I have tried it before, so I speak with some experience. A little room, a careful turn, and there it goes. No special blessing was needed. I am pleased enough with an ordinary cord becoming useful again.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3595_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3595",
+    "spoken": "[clear gentle teacher, thoughtful encouragement, reassuring] You have learned something worth carrying with you. Give it thought, and consider where it may help another person. There will be more to understand in time. For now, take care with what you know, and do not be afraid to return with another question.",
+    "text": "You have learned something worth carrying with you. Give it thought, and consider where it may help another person. There will be more to understand in time. For now, take care with what you know, and do not be afraid to return with another question.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore5499_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

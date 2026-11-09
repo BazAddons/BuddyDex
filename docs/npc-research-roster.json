@@ -406,5 +406,26 @@
     "zone": "Teldrassil",
     "source": "Reviewed current friendly identity/model, full primary quests and sigils, Atlas entries and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/shadowglen-first-friends.md"
+  },
+  {
+    "npc_id": 2082,
+    "name": "Gilshalan Windwalker",
+    "zone": "Teldrassil",
+    "source": "Reviewed current friendly identity/model, full primary quest chains and sigils, Forever addition, Atlas and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-researcher-and-trainers.md"
+  },
+  {
+    "npc_id": 3593,
+    "name": "Alyissia",
+    "zone": "Teldrassil",
+    "source": "Reviewed current friendly identity/model, full primary quest chains and sigils, Forever addition, Atlas and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-researcher-and-trainers.md"
+  },
+  {
+    "npc_id": 3595,
+    "name": "Shanda",
+    "zone": "Teldrassil",
+    "source": "Reviewed current friendly identity/model, full primary quest chains and sigils, Forever addition, Atlas and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-researcher-and-trainers.md"
   }
 ]

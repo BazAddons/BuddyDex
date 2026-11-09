@@ -11,9 +11,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded child rows | 18 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,431 |
-| Local backlog entries missing from source | 60 |
-| Combined retained entries | 1,491 |
-| Candidate name groups | 1,478 |
+| Local backlog entries missing from source | 63 |
+| Combined retained entries | 1,494 |
+| Candidate name groups | 1,481 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -51,6 +51,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Akeri Duskblade**: [251389](https://forever.warcraftdb.com/data/npc/251389)
 - **Alaana Stormwalker**: [259119](https://forever.warcraftdb.com/data/npc/259119)
 - **Alaindia**: [3562](https://forever.warcraftdb.com/data/npc/3562)
+- **Alamar Grimm**: [460](https://forever.warcraftdb.com/data/npc/460)
 - **Alanndarian Nightsong**: [3702](https://forever.warcraftdb.com/data/npc/3702)
 - **Alard Schmied**: [28694](https://forever.warcraftdb.com/data/npc/28694)
 - **Alba Fairmoon** *: [253092](https://forever.warcraftdb.com/data/npc/253092), [253279](https://forever.warcraftdb.com/data/npc/253279)
@@ -1047,6 +1048,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Nixxrax Fillamug**: [2832](https://forever.warcraftdb.com/data/npc/2832)
 - **Nogg**: [3412](https://forever.warcraftdb.com/data/npc/3412)
 - **Nordun Steadysight** — Scout: [268238](https://forever.warcraftdb.com/data/npc/268238)
+- **Nori Pridedrift**: [12738](https://forever.warcraftdb.com/data/npc/12738)
 - **Novice Elreth** — Scout: [1661](https://forever.warcraftdb.com/data/npc/1661)
 - **Novice Thaivand**: [2429](https://forever.warcraftdb.com/data/npc/2429)
 - **Nuara Tremorhoof**: [272633](https://forever.warcraftdb.com/data/npc/272633)
@@ -1462,6 +1464,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Woo Ping** — Scout: [11867](https://forever.warcraftdb.com/data/npc/11867)
 - **Worb Strongstitch**: [8159](https://forever.warcraftdb.com/data/npc/8159)
 - **Wrahk**: [3485](https://forever.warcraftdb.com/data/npc/3485)
+- **Wren Darkspring**: [6376](https://forever.warcraftdb.com/data/npc/6376)
 - **Wrenix the Wretched**: [7161](https://forever.warcraftdb.com/data/npc/7161)
 - **Wu Shen**: [5479](https://forever.warcraftdb.com/data/npc/5479)
 - **Wuark**: [3167](https://forever.warcraftdb.com/data/npc/3167)

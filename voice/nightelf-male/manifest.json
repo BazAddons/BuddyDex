@@ -39,6 +39,46 @@
     "text": "Look at what this place supports. Its creatures, its plants, the food and shelter they share. We need not understand everything at once, but we should remember that each thing we notice belongs to a larger whole. Walk with care, and keep looking.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore2082_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2082",
+    "spoken": "[sincere appreciative warmth, curious pleasure] I would welcome your company. You ask useful questions, and you are willing to enjoy a foolish drawing without mistaking it for my work. Those are qualities worth having beside me. Let us see what catches our attention along the way.",
+    "text": "I would welcome your company. You ask useful questions, and you are willing to enjoy a foolish drawing without mistaking it for my work. Those are qualities worth having beside me. Let us see what catches our attention along the way.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2082_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2082",
+    "spoken": "[curious articulate welcome, thoughtful, gently amused] Good, you are here. Tell me what you have noticed, and let us keep the observations separate from the guesses. There is room for both, if we label them honestly. The little spider in boots is neither. That is something I drew for my own amusement.",
+    "text": "Good, you are here. Tell me what you have noticed, and let us keep the observations separate from the guesses. There is room for both, if we label them honestly. The little spider in boots is neither. That is something I drew for my own amusement.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2082_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2082",
+    "spoken": "[absorbed scholarly humor, quietly delighted, wry] Eight legs make for rather a lot of footwear. I have fitted seven boots into this drawing, and now the last foot is waiting beyond the edge. No, it is not a specimen. I am allowed an occasional idea that need not survive examination.",
+    "text": "Eight legs make for rather a lot of footwear. I have fitted seven boots into this drawing, and now the last foot is waiting beyond the edge. No, it is not a specimen. I am allowed an occasional idea that need not survive examination.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2082_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2082",
+    "spoken": "[attentive researcher, measured approval, warmly interested] Thank you. Careful work gives us something we can actually examine. I would rather have one reliable observation than a dozen impressive claims. Tell me how you found it, and whether anything surprised you. The part that failed to fit your expectations may be especially useful.",
+    "text": "Thank you. Careful work gives us something we can actually examine. I would rather have one reliable observation than a dozen impressive claims. Tell me how you found it, and whether anything surprised you. The part that failed to fit your expectations may be especially useful.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore5500_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

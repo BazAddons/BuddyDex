@@ -1,9 +1,9 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 263,
+  "completed_profiles": 266,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
-    "alliance": 181,
+    "alliance": 184,
     "unverified": 56,
     "horde": 26
   },
@@ -13,7 +13,7 @@
     "5": 25,
     "2": 4,
     "7": 23,
-    "4": 8,
+    "4": 11,
     "8": 3,
     "6": 5
   },
@@ -29,7 +29,7 @@
     "Deeprun Tram": 3,
     "Durotar": 5,
     "Mulgore": 5,
-    "Teldrassil": 2
+    "Teldrassil": 5
   },
   "entries": [
     {
@@ -3338,6 +3338,45 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8583"
+    },
+    {
+      "npc_id": 2082,
+      "name": "Gilshalan Windwalker",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2082"
+    },
+    {
+      "npc_id": 3593,
+      "name": "Alyissia",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3593"
+    },
+    {
+      "npc_id": 3595,
+      "name": "Shanda",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3595"
     }
   ]
 }

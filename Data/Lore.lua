@@ -42,6 +42,91 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Gilshalan Windwalker (2082), adult male night elf, Aldrassil, display 2458 (4 / 0).
+    -- 916/917 specimens and a hypothesis about Teldrassil; 920 passes Tenaron's summons.
+    -- Booted spider doodles are original, not actual specimens, a new pet or a confirmed discovery.
+    -- docs/research/shadowglen-researcher-and-trainers.md.
+    [2082] = {
+        quote = "A promising idea is a reason to look more closely, not a reason to stop asking questions. Bring me what you actually observed, and we can begin there.",
+        likes = { "A specimen handled with care", "Questions that survive a second look", "Drawing a spider in eight tiny boots" },
+        dislikes = { "A guess passed off as a discovery", "An egg broken through carelessness", "Running out of room for the final boot" },
+        gossip = "Gilshalan sketches beside his notes. Visitors suspect he has discovered a most unusual kind of spider. The footwear is puzzling.",
+        bio = "Gilshalan Windwalker studies Shadowglen's webwood spiders. He suspects Teldrassil has changed them and seeks venom and an egg for comparison in Darnassus. He also sends adventurers to answer Tenaron Stormgrip's summons.",
+        backstory = "A spare mark beside his notes became a little spider, and he added a boot for amusement. Seven more followed. Fitting all the footwear onto the tiny drawing proved a surprisingly enjoyable challenge.",
+        secret = "The boots are an idle fancy. He knows perfectly well what a spider looks like. He simply enjoys imagining how much work it would have getting dressed.",
+        bestFriend = "Come and look. Eight boots, and I have fitted them all on the page. You may admire my great achievement with appropriate restraint.",
+        favorite = { emote = "NOD", hint = "Show that you are following the difference between an idea and the evidence for it." },
+        lines = {
+            greet = { { "Good, you are here. Tell me what you have noticed, and let us keep the observations separate from the guesses. There is room for both, if we label them honestly. The little spider in boots is neither. That is something I drew for my own amusement.", tone = "[curious articulate welcome, thoughtful, gently amused]" }, "Welcome. Have you seen something that deserves a closer look?" },
+            idle = { { "Eight legs make for rather a lot of footwear. I have fitted seven boots into this drawing, and now the last foot is waiting beyond the edge. No, it is not a specimen. I am allowed an occasional idea that need not survive examination.", tone = "[absorbed scholarly humor, quietly delighted, wry]" }, "An interesting resemblance is a beginning. We still need to compare what lies beneath it.", "Imagine fastening all those boots. I should think it would take the spider most of the morning." },
+            befriended = { { "I would welcome your company. You ask useful questions, and you are willing to enjoy a foolish drawing without mistaking it for my work. Those are qualities worth having beside me. Let us see what catches our attention along the way.", tone = "[sincere appreciative warmth, curious pleasure]" } },
+            poke = { "Yes? Give me the observation before the explanation.", "A moment. I was finding space for one last boot." },
+            quest = { { "Thank you. Careful work gives us something we can actually examine. I would rather have one reliable observation than a dozen impressive claims. Tell me how you found it, and whether anything surprised you. The part that failed to fit your expectations may be especially useful.", tone = "[attentive researcher, measured approval, warmly interested]" } },
+            loot = { "Handle it carefully. We may learn more from it intact." },
+            learned = { "Good. Now see which questions the answer has left open." },
+            rest = { "A pause can help us notice what we passed over in our hurry." },
+            zone = { "What is different here? Let us look before deciding why." },
+            levelUp = { "More experience, and more reason to keep asking useful questions." },
+            hearth = { "Familiar surroundings. A good place to put our observations in order." },
+        },
+    },
+    -- Alyissia (3593), adult female night elf warrior trainer, Aldrassil, display 1721 (4 / 1).
+    -- Simple Sigil 3116/item 9545: protect the people, welcome other Alliance races, train pupils.
+    -- Practicing an ordinary dance step is original, not a combat technique or trainer reward.
+    -- docs/research/shadowglen-researcher-and-trainers.md.
+    [3593] = {
+        quote = "Learn what your strength is for. Protect our people, give our allies a fair welcome, and bring the same care to your practice that you would bring to a real danger.",
+        likes = { "Practice with a clear purpose", "Allies welcomed without prejudice", "Getting a troublesome dance step right" },
+        dislikes = { "Confidence without control", "Judging an ally before knowing them", "Counting a beat that has already passed" },
+        gossip = "Alyissia repeats a small pattern of steps between lessons. A few pupils are certain it is an advanced fighting technique.",
+        bio = "Alyissia trains warriors in Aldrassil. Her Simple Sigil calls for protectors in a changing world. She teaches pupils to defend their people while giving the other Alliance races arriving in Teldrassil a fair measure of trust.",
+        backstory = "She tried following a dance step during a quiet break. The turn pleased her, but her feet wanted one extra pace afterward. She began practicing it between lessons, enjoying the difference from her usual work.",
+        secret = "It is only a dance step. She keeps adding one pace too many. A friend willing to count the rhythm with her would be more welcome than an admiring audience.",
+        bestFriend = "Stand beside me and count the beat. If I take that extra step again, you may laugh. Then we will try it once more.",
+        favorite = { emote = "SALUTE", hint = "Show respect for the responsibility that comes with learning to protect others." },
+        lines = {
+            greet = { { "Welcome. Come ready to pay attention, and we will find something useful to practice. If you saw that little turn, it was a dance step. I am still adding a pace that does not belong. You may be relieved to hear I am not teaching it as a fighting technique.", tone = "[confident clear welcome, practical warmth, dry amusement]" }, "Good to see you. What have you been working to improve?" },
+            idle = { { "One, two, turn. There, that should be enough. My feet appear to have another opinion. It is useful to practice something that does not come easily, especially when you spend your day helping others learn. Though I would appreciate a little agreement from the rhythm.", tone = "[focused then lightly amused, composed, warmly candid]" }, "Being a protector begins with remembering who your strength is meant to serve.", "Give an ally a chance to show you who they are." },
+            befriended = { { "I would be glad to walk with you. You have given me reason to trust your company, and it is pleasant to speak without making every moment a lesson. Tell me what you have enjoyed today. We can leave the drills for another time.", tone = "[steady sincere affection, relaxed confidence]" } },
+            poke = { "Yes? Tell me what needs attention.", "You have caught me counting. I shall start the turn again later." },
+            learned = { { "Good. Practice it carefully before trying to make it quick. Notice what your body is doing, and where your attention wanders. A mistake you understand is something you can work on. You need not hide it from me behind a show of confidence.", tone = "[firm constructive teacher, patient encouragement, assured]" } },
+            combatStart = { "Keep control. Remember who is depending on you." },
+            gear = { "Know how it serves you. Equipment still needs a thoughtful hand." },
+            rest = { "Take a breath. Good practice includes knowing when to pause." },
+            danceAlong = { "Count me in. Let us see whether I can leave out that extra step." },
+            levelUp = { "Your strength grows. Keep giving it a worthy purpose." },
+            hearth = { "Home again. There are people here worth returning to." },
+        },
+    },
+    -- Shanda (3595), adult female night elf priest trainer, Aldrassil, display 1733 (4 / 1).
+    -- 3119/item 9557; 5622 refers to Laurna; Forever 97979 teaches racial gifts, not BuddyDex powers.
+    -- Untangling an ordinary cord is original, not a religious rite or magical thread.
+    -- docs/research/shadowglen-researcher-and-trainers.md.
+    [3595] = {
+        quote = "You need not understand the whole journey before taking the next thoughtful step. Bring your questions, help where you can, and leave room to learn from those beside you.",
+        likes = { "Knowledge shared with patience", "Pupils who help their neighbors", "A stubborn knot finally coming loose" },
+        dislikes = { "A sincere question met with ridicule", "Pulling a knot tight in frustration", "Power mistaken for understanding" },
+        gossip = "Shanda turns a little cord carefully in her hands. Some visitors wonder what blessing she is weaving into it.",
+        bio = "Shanda teaches priests in Aldrassil and encourages them to help Shadowglen's people. She points pupils toward Laurna Morninglight for further instruction. In Forever, she also guides kaldorei through Elune's Light and Shadowmeld.",
+        backstory = "A cord became tangled while she was putting things away. Rather than cut it, she worked at the loops until they slipped free. The small satisfaction stayed with her, and she found herself enjoying the next tangle too.",
+        secret = "The cord carries no special blessing. She likes the moment a patient touch loosens a stubborn loop. It is a simple pleasure, and she is happy to share it.",
+        bestFriend = "Sit with me. This knot has been persistent, and I could use another pair of eyes. There is no test here, only good company.",
+        favorite = { emote = "BOW", hint = "Approach the knowledge she shares with quiet respect." },
+        lines = {
+            greet = { { "Welcome, my friend. Bring your questions, and we can consider them together. You have caught me working at a little tangle in this cord. There is no mystery hidden in it. I simply enjoy finding the loop that allows the rest to loosen.", tone = "[calm gracious welcome, attentive warmth, gentle amusement]" }, "It is good to see you. How may I help you understand the next step?" },
+            idle = { { "Pulling harder would make this knot less agreeable. I have tried it before, so I speak with some experience. A little room, a careful turn, and there it goes. No special blessing was needed. I am pleased enough with an ordinary cord becoming useful again.", tone = "[patient concentration, quietly satisfied, softly humorous]" }, "A question gives us somewhere honest to begin.", "You can share what you understand without pretending you have nothing left to learn." },
+            befriended = { { "I would welcome the chance to accompany you. There is much to notice beyond the questions brought to my door, and I have come to value how you see things. Tell me what is on your mind. We need not make every conversation an instruction.", tone = "[sincere composed affection, open and pleased]" } },
+            poke = { "Yes? I am listening.", "One moment. This loop has nearly come free. There, what would you like to ask?" },
+            learned = { { "You have learned something worth carrying with you. Give it thought, and consider where it may help another person. There will be more to understand in time. For now, take care with what you know, and do not be afraid to return with another question.", tone = "[clear gentle teacher, thoughtful encouragement, reassuring]" } },
+            quest = { "You have helped someone. Let that matter alongside whatever else you gained." },
+            rest = { "Sit a little. There is room to think without hurrying toward an answer." },
+            comforted = { "Thank you. It is good to receive the kindness we hope to offer others." },
+            lowHealth = { "Take care. There is wisdom in accepting help when you need it." },
+            levelUp = { "May your growing strength find good work in the world." },
+            hearth = { "A familiar welcome. May you find a peaceful moment here." },
+        },
+    },
+
     -- Conservator Ilthalaine (2079), adult male night elf, Shadowglen, display 1285 (4 / 0).
     -- Balance of Nature 456/457: heavy rain, finite forage, necessary thinning; class sigil referrals.
     -- Balancing an ordinary fallen leaf is original, not a rite or forest-health measurement.

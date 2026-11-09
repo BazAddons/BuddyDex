@@ -105,6 +105,41 @@
       "zone": "Teldrassil",
       "route": "Night elf starter route",
       "reason": "Shadowglen priest trainer; verify full adult eligibility, quests and friendly access before authoring"
+    },
+    {
+      "npc_id": 658,
+      "name": "Sten Stoutarm",
+      "zone": "Dun Morogh",
+      "route": "Dwarf/gnome starter route",
+      "reason": "Coldridge quest guide; exact current identity/model checked, full adult/access/lore review pending"
+    },
+    {
+      "npc_id": 12738,
+      "name": "Nori Pridedrift",
+      "zone": "Dun Morogh",
+      "route": "Dwarf/gnome starter route",
+      "reason": "Coldridge delivery quest giver; exact current identity/model checked, full adult/access/lore review pending"
+    },
+    {
+      "npc_id": 836,
+      "name": "Durnan Furcutter",
+      "zone": "Dun Morogh",
+      "route": "Dwarf/gnome starter route",
+      "reason": "Anvilmar armor merchant; exact current identity/model checked, full adult/access/lore review pending"
+    },
+    {
+      "npc_id": 460,
+      "name": "Alamar Grimm",
+      "zone": "Dun Morogh",
+      "route": "Dwarf/gnome starter route",
+      "reason": "Anvilmar warlock trainer; exact current identity/model checked, full adult/access/lore review pending"
+    },
+    {
+      "npc_id": 6376,
+      "name": "Wren Darkspring",
+      "zone": "Dun Morogh",
+      "route": "Dwarf/gnome starter route",
+      "reason": "Anvilmar demon trainer; exact current identity/model checked, full adult/access/lore review pending"
     }
   ]
 }
