@@ -1,5 +1,7 @@
 # BuddyDex v002 - Next Release
 
+- Complete Ailee Farheart and Rorian the Dayseeker in Thendal Grove, each with full lore, fifteen personal lines and four Eleven v4 signatures. Both are friendly to either faction; include both High Order and Windshaper NPC identities in starter coverage.
+
 - Expand completed NPC profiles and signature recordings, prioritizing balanced starter-area coverage across races and factions.
 - Include the shared Coldridge/Anvilmar starter selection and begin Zephras Isle coverage for both Skyborne paths.
 - Continue individual lore and quest-chain research with the selected racial voices and Eleven v4 emotional direction.

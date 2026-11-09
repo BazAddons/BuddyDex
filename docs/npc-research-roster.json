@@ -469,5 +469,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current both-friendly identity/adult model, full seasonal crab quest including progress, installed ancestral-cooking gossip and services; no Scout sighting claimed",
     "research_notes": "docs/research/nyalah-brightfire.md"
+  },
+  {
+    "npc_id": 251362,
+    "name": "Ailee Farheart",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly identity/adult model, full grove quest chain and class referrals, available readables and installed gossip; inaccessible readable bodies documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-first-guides.md"
+  },
+  {
+    "npc_id": 251361,
+    "name": "Rorian the Dayseeker",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current both-friendly identity/adult model, full grove quest chain and class referrals, available readables and installed gossip; inaccessible readable bodies documented; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-first-guides.md"
   }
 ]

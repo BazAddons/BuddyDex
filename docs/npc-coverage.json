@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 272,
+  "completed_profiles": 274,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 187,
+    "alliance": 189,
     "unverified": 59,
-    "horde": 27
+    "horde": 29
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,8 @@
     "6": 5,
     "2": 4,
     "8": 3,
-    "95": 1
+    "96": 1,
+    "95": 2
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -32,7 +33,7 @@
     "Durotar": 5,
     "Orgrimmar": 2,
     "Deeprun Tram": 3,
-    "Zephras Isle": 1
+    "Zephras Isle": 3
   },
   "entries": [
     {
@@ -3313,6 +3314,34 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
+    },
+    {
+      "npc_id": 251361,
+      "name": "Rorian the Dayseeker",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Friendly to both factions",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251361"
+    },
+    {
+      "npc_id": 251362,
+      "name": "Ailee Farheart",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Friendly to both factions",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251362"
     },
     {
       "npc_id": 251507,

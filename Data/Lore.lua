@@ -42,6 +42,63 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Ailee Farheart (251362), Rangers of Thendal Grove, adult female High Order Skyborne.
+    -- Display 136968 / race 95 sex 1; both-friendly. Coming of Age 92460 sends adults to Rorian.
+    -- Her rehearsed welcomes are original. docs/research/thendal-first-guides.md.
+    [251362] = {
+        quote = "You needn't have the whole journey planned before you take the first step. Come, let us get you started.",
+        likes = { "A nervous newcomer finding their feet", "A wave from someone returning home", "A welcome that leaves room for questions" },
+        dislikes = { "Making uncertainty feel like a failing", "A greeting that sounds like an order", "Goodbyes hurried past without a word" },
+        gossip = "Ailee always seems to have the right welcome ready. The other rangers wonder whether anyone has ever caught her searching for the words.",
+        bio = "Ailee Farheart serves among the Rangers of Thendal Grove. She welcomes newly come-of-age Skyborne and sends them to village leader Rorian the Dayseeker by the greatfather tree, where their first steps in service to Zephras begin.",
+        backstory = "She once tried rehearsing a grand welcome and found it sounded more like instructions for a drill. She shortened it until there was room for a nervous person to answer. A few encouraging words suited her better than a splendid speech.",
+        secret = "She still practices an opening line when nobody is nearby. The moment someone arrives looking worried, she usually forgets it and asks how they are feeling instead.",
+        bestFriend = "You know the way now, but I am glad you still stop here. This time there is no one I need to send you to. Stay and talk.",
+        favorite = { emote = "WAVE", hint = "Let her see a familiar face greeting her on the way back." },
+        lines = {
+            greet = { { "There you are. Take a breath before we set off; excitement has a way of making everything feel urgent. You do not need an answer to every question today. We can begin with the path in front of us, and you can tell me what you are looking forward to.", tone = "[bright reassuring welcome, kind curiosity, easy confidence]" }, "Shall we walk a little? I would like to hear how you have been." },
+            idle = { { "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.", tone = "[light self-deprecating amusement, thoughtful warmth, conversational]" }, "You can be ready to begin and nervous at the same time.", "I like recognizing the faces coming back along the path." },
+            befriended = { { "I am glad you asked me along. Usually I watch someone take their first steps and wonder what they will find beyond the village. This time I get to share a little of the journey. You needn't impress me every moment; I am here because I enjoy your company.", tone = "[sincere friendly affection, bright anticipation, gently reassuring]" } },
+            poke = { "Yes? You may ask. It needn't be a grand question.", "I am listening. You have no need to rehearse first." },
+            back = { { "Welcome back. No, I had not prepared a speech for the occasion. Well, perhaps the beginning of one. Never mind that now. Tell me where you went, and whether it was anything like you expected. I would much rather hear your story than finish rehearsing mine.", tone = "[delighted recognition, slightly sheepish humor, eager interest]" } },
+            quest = { "Another step taken. What did you make of it?" },
+            levelUp = { "You have grown more confident. I hope you can see it, too." },
+            learned = { "There is a beginning worth remembering. Give yourself time to learn it well." },
+            zone = { "A new stretch of the journey. Shall we take a look together?" },
+            rest = { "Sit with me a moment. You can tell me the part you hurried past earlier." },
+            hearth = { "Heading home? I hope someone has a warm welcome waiting for you." },
+        },
+    },
+
+    -- Rorian the Dayseeker (251361), village leader, Thendal Grove; adult male Windshaper.
+    -- Display 136966 / race 96 sex 0; both-friendly. Heirloom rite, balance, Yala and Aetheen referrals.
+    -- Falling With Style establishes Myriaal's prank and his caution, not a hatred of flight.
+    -- Private amusement and practiced composure are original. docs/research/thendal-first-guides.md.
+    [251361] = {
+        quote = "The first task may seem small. Give it your attention all the same; our home depends on more than its grandest deeds.",
+        likes = { "The grove kept in careful balance", "Skyborne gifts used with judgment", "A thoughtful question before a bold leap" },
+        dislikes = { "The cult agitating the wind sprites", "Power spent merely to startle someone", "Ordinary duties dismissed as beneath notice" },
+        gossip = "Rorian recovers from surprise landings so calmly that some suspect he can hear Myriaal planning the next prank from the tower.",
+        bio = "Rorian leads Thendal Village and bestows coming-of-age heirlooms. He guides newcomers through the grove's troubles, relies on his apprentice Yala Windwatcher, and sends promising adventurers to Aetheen of the Gales for their next trial.",
+        backstory = "Myriaal's enthusiasm has given him reason to practice a composed expression. He lets a breath pass before replying to a sudden landing. The pause helps his dignity, though it does little for the smile threatening to spoil it.",
+        secret = "A harmless landing sometimes amuses him. He saves the smile for after his warning, lest Myriaal mistake it for an invitation to arrange a more elaborate surprise.",
+        bestFriend = "You may sit beside me without another task between us. I value what you have done for the grove, but I am glad simply to see you.",
+        favorite = { emote = "BOW", hint = "A composed greeting suits him better than arriving with a startling flourish." },
+        lines = {
+            greet = { { "Come, let us walk together. There will be time for whatever questions you have brought, and perhaps a few moments in which neither of us needs to speak. Attend to the small things along the way. A place is kept whole by more than the deeds that earn a great telling.", tone = "[calm dignified welcome, patient warmth, gentle authority]" }, "You have my attention. Tell me what is on your mind." },
+            idle = { { "Myriaal believes a sudden landing is an excellent way to improve my day. I have explained the need for judgment several times. Yes, a little practice is acceptable. No, I do not intend to announce that quite so loudly that it becomes the beginning of another competition.", tone = "[restrained dry humor, fond exasperation, composed amusement]" }, "Yala knows the value of observing before deciding what must be done.", "The absence of our old benefactors does not free us from caring for what remains." },
+            befriended = { { "You have given the grove your effort, and me the pleasure of your company. I would be glad to accompany you. Let us put aside the next trial for a little while. Friendship need not always arrive carrying another duty, however much work the day may still hold.", tone = "[sincere quiet affection, dignified gratitude, relaxed warmth]" } },
+            poke = { "I heard you. There is no need to make a trial of my composure.", "A question would also have secured my attention." },
+            landed = { { "There. Arriving safely is a worthy result in itself. I trust nobody has offered you imaginary points for landing at my feet this time. A gift used wisely will serve you far better than a fine surprise, though I concede the surprise can be difficult to forget.", tone = "[mild admonishment, wry amusement, reassuring composure]" } },
+            quest = { "A necessary service, well performed. Consider what it has taught you before moving on." },
+            learned = { "New knowledge deserves judgment as well as enthusiasm." },
+            levelUp = { "Your strength grows. May your care for others grow with it." },
+            rest = { "A pause is not a failure to act. Sometimes it is how we choose the right action." },
+            hearth = { "Carry what you have learned home with you. There is always more to understand there." },
+            lowHealth = { "Steady yourself. Preserve the strength you still have." },
+        },
+    },
+
     -- Nyalah Brightfire (257006), adult female High Order Skyborne cook, Valanaar.
     -- Display 140040 / race 95 sex 1; current node explicitly friendly to both factions.
     -- Crab Season 93317; ancestral recipe adaptations and past island visits in dialogue.

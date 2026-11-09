@@ -1,4 +1,44 @@
 {
+  "lore251362_back_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "back",
+    "say": null,
+    "source": "lore:251362",
+    "spoken": "[delighted recognition, slightly sheepish humor, eager interest] Welcome back. No, I had not prepared a speech for the occasion. Well, perhaps the beginning of one. Never mind that now. Tell me where you went, and whether it was anything like you expected. I would much rather hear your story than finish rehearsing mine.",
+    "text": "Welcome back. No, I had not prepared a speech for the occasion. Well, perhaps the beginning of one. Never mind that now. Tell me where you went, and whether it was anything like you expected. I would much rather hear your story than finish rehearsing mine.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251362_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251362",
+    "spoken": "[sincere friendly affection, bright anticipation, gently reassuring] I am glad you asked me along. Usually I watch someone take their first steps and wonder what they will find beyond the village. This time I get to share a little of the journey. You needn't impress me every moment; I am here because I enjoy your company.",
+    "text": "I am glad you asked me along. Usually I watch someone take their first steps and wonder what they will find beyond the village. This time I get to share a little of the journey. You needn't impress me every moment; I am here because I enjoy your company.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251362_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251362",
+    "spoken": "[bright reassuring welcome, kind curiosity, easy confidence] There you are. Take a breath before we set off; excitement has a way of making everything feel urgent. You do not need an answer to every question today. We can begin with the path in front of us, and you can tell me what you are looking forward to.",
+    "text": "There you are. Take a breath before we set off; excitement has a way of making everything feel urgent. You do not need an answer to every question today. We can begin with the path in front of us, and you can tell me what you are looking forward to.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore251362_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251362",
+    "spoken": "[light self-deprecating amusement, thoughtful warmth, conversational] I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
+    "text": "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "lore257006_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

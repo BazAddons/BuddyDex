@@ -1,4 +1,44 @@
 {
+  "lore251361_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251361",
+    "spoken": "[sincere quiet affection, dignified gratitude, relaxed warmth] You have given the grove your effort, and me the pleasure of your company. I would be glad to accompany you. Let us put aside the next trial for a little while. Friendship need not always arrive carrying another duty, however much work the day may still hold.",
+    "text": "You have given the grove your effort, and me the pleasure of your company. I would be glad to accompany you. Let us put aside the next trial for a little while. Friendship need not always arrive carrying another duty, however much work the day may still hold.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251361_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251361",
+    "spoken": "[calm dignified welcome, patient warmth, gentle authority] Come, let us walk together. There will be time for whatever questions you have brought, and perhaps a few moments in which neither of us needs to speak. Attend to the small things along the way. A place is kept whole by more than the deeds that earn a great telling.",
+    "text": "Come, let us walk together. There will be time for whatever questions you have brought, and perhaps a few moments in which neither of us needs to speak. Attend to the small things along the way. A place is kept whole by more than the deeds that earn a great telling.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251361_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251361",
+    "spoken": "[restrained dry humor, fond exasperation, composed amusement] Myriaal believes a sudden landing is an excellent way to improve my day. I have explained the need for judgment several times. Yes, a little practice is acceptable. No, I do not intend to announce that quite so loudly that it becomes the beginning of another competition.",
+    "text": "Myriaal believes a sudden landing is an excellent way to improve my day. I have explained the need for judgment several times. Yes, a little practice is acceptable. No, I do not intend to announce that quite so loudly that it becomes the beginning of another competition.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
+  "lore251361_landed_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "landed",
+    "say": null,
+    "source": "lore:251361",
+    "spoken": "[mild admonishment, wry amusement, reassuring composure] There. Arriving safely is a worthy result in itself. I trust nobody has offered you imaginary points for landing at my feet this time. A gift used wisely will serve you far better than a fine surprise, though I concede the surprise can be difficult to forget.",
+    "text": "There. Arriving safely is a worthy result in itself. I trust nobody has offered you imaginary points for landing at my feet this time. A gift used wisely will serve you far better than a fine surprise, though I concede the surprise can be difficult to forget.",
+    "voice_id": "8chV49fDd6WKeqeufgPU"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
