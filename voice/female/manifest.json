@@ -2069,6 +2069,86 @@
     "text": "There! You know something you didn't know this morning. Try it while it's fresh.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore11029_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11029",
+    "spoken": "[bright affection, pleased amusement] A new friend! I'll need a bigger table. That was going to happen anyway.",
+    "text": "A new friend! I'll need a bigger table. That was going to happen anyway.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11029_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11029",
+    "spoken": "[confident, mischievously enthusiastic] An expedition! Excellent. Keep an eye out for exceptionally large poultry.",
+    "text": "An expedition! Excellent. Keep an eye out for exceptionally large poultry.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11029_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11029",
+    "spoken": "[grand confidence, playful stubbornness] The turkey is a separate engineering problem. I refuse to let it delay the baster.",
+    "text": "The turkey is a separate engineering problem. I refuse to let it delay the baster.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore11029_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:11029",
+    "spoken": "[encouraging, conspiratorial delight] There! Once the basics hold together, you can try something gloriously unnecessary.",
+    "text": "There! Once the basics hold together, you can try something gloriously unnecessary.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5178_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5178",
+    "spoken": "[warm, welcoming, sincerely pleased] You needn't find an excuse to visit. A smile and a little conversation are quite enough.",
+    "text": "You needn't find an excuse to visit. A smile and a little conversation are quite enough.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5178_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5178",
+    "spoken": "[composed, friendly, lightly practical] A little walk sounds pleasant. Are all those bottles closed properly?",
+    "text": "A little walk sounds pleasant. Are all those bottles closed properly?",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5178_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5178",
+    "spoken": "[dryly amused, quietly content] Plain water. Excellent clarity, no surprises. I remain a devoted customer.",
+    "text": "Plain water. Excellent clarity, no surprises. I remain a devoted customer.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore5178_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5178",
+    "spoken": "[practical, attentive, gentle humor] An intact container is worth keeping. Just find out what was in it first.",
+    "text": "An intact container is worth keeping. Just find out what was in it first.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore9859_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

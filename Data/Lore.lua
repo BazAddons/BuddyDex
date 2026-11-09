@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Trixie 11029: female gnome Expert Engineer, Springspindle's Gadgets;
+    -- Jemma's sister in Classic training gossip; plans an oversized baster.
+    -- Soolie 5178: female gnome alchemy supplier, Berryfizz's Potions and
+    -- Mixed Drinks. No personal quest chain found for either.
+    -- docs/research/trixie-and-soolie.md separates facts and original hooks.
+    [11029] = {
+        quote = "If the turkey is too small for the baster, that is a problem with the turkey. The design remains magnificent.",
+        likes = { "An ambition with room to grow", "Students ready for the next lesson", "A little admiration for a big idea" },
+        dislikes = { "Being told to make it smaller", "Skipping Jemma's basic lessons", "Doors narrower than the prototype" },
+        gossip = "Trixie's neighbors wonder how she'll find a turkey large enough for her plans. She seems more concerned about the dinner table.",
+        bio = "Trixie Quikswitch teaches engineering at Springspindle's Gadgets in Tinker Town. Her sister Jemma covers the basics. Trixie's own conversation reveals plans for a turkey baster on a scale that leaves the turkey itself rather a problem.",
+        backstory = "Lessons keep her working with useful little components, but her imagination rarely stays little for long. A kitchen tool becomes a grand project, and practical questions tend to arrive after she has settled on the impressive dimensions.",
+        secret = "She has sketched a table for that impossible turkey dinner. The guest list matters more than the mechanism: she keeps adding chairs for people she likes.",
+        bestFriend = "I've added a chair for you. Yes, the whole dinner is still theoretical. Your place at the table isn't.",
+        favorite = { emote = "PRAISE", hint = "A bold proposal is easier to defend when someone appreciates the ambition." },
+        lines = {
+            greet = { { "An expedition! Excellent. Keep an eye out for exceptionally large poultry.", tone = "[confident, mischievously enthusiastic]" }, "I'm ready. We can discuss the dimensions as we walk." },
+            idle = { { "The turkey is a separate engineering problem. I refuse to let it delay the baster.", tone = "[grand confidence, playful stubbornness]" }, "A small prototype? Certainly. How small is this room?", "The best part of a big dinner is having enough places for everyone." },
+            befriended = { { "A new friend! I'll need a bigger table. That was going to happen anyway.", tone = "[bright affection, pleased amusement]" } },
+            poke = { "Yes? Have you found the turkey?", "Careful. I'm calculating something impressive." },
+            learned = { { "There! Once the basics hold together, you can try something gloriously unnecessary.", tone = "[encouraging, conspiratorial delight]" } },
+            gear = { "New equipment? Can it do anything on a larger scale?" },
+            loot = { "A useful component. Perhaps several of them would be even more useful." },
+            bagsFull = { "You see? Thinking bigger eventually becomes a practical necessity." },
+            levelUp = { "A bigger challenge next, I think. You're ready for one." },
+            quest = { "Finished! Now we can consider the ambitious version." },
+            hearth = { "Back to the workshop. I need to measure a doorway." },
+        },
+    },
+    [5178] = {
+        quote = "Please read the label before asking what it tastes like. That saves a surprising amount of trouble at an alchemy counter.",
+        likes = { "A customer who knows which vial fits", "A clear label facing outward", "A friendly smile across the counter" },
+        dislikes = { "Bottles put back on the wrong shelf", "Guessing a potion by its color", "Sticky fingers on clean glass" },
+        gossip = "Soolie can make an empty bottle sound like an excellent purchase. Her own favorite drink apparently needs very little description.",
+        bio = "Soolie Berryfizz sells alchemy supplies in Berryfizz's Potions and Mixed Drinks in Tinker Town. Her stock includes vials and alchemical recipes. She supplies the workbench; the person buying the ingredients still has to do the brewing.",
+        backstory = "A supply counter taught her that small mistakes can travel home in someone's bag. She prefers a quick question before a sale to a long explanation afterward, and likes sending people away properly prepared.",
+        secret = "She writes grand descriptions of plain water in a private notebook: splendid clarity, dependable flavor, no unexpected transformations. It remains her favorite drink.",
+        bestFriend = "I can offer you something wonderfully ordinary. Clean cup, fresh water, and a little time to sit. You've earned that much.",
+        favorite = { emote = "SMILE", hint = "She welcomes a pleasant face, even when its owner hasn't come to buy anything." },
+        lines = {
+            greet = { { "A little walk sounds pleasant. Are all those bottles closed properly?", tone = "[composed, friendly, lightly practical]" }, "Ready. I've left the shelves in order. Let us hope they stay that way." },
+            idle = { { "Plain water. Excellent clarity, no surprises. I remain a devoted customer.", tone = "[dryly amused, quietly content]" }, "The label is there to save you a very inconvenient guess.", "An empty vial is only boring until you need one." },
+            befriended = { { "You needn't find an excuse to visit. A smile and a little conversation are quite enough.", tone = "[warm, welcoming, sincerely pleased]" } },
+            poke = { "Yes? Did something leak?", "I'm listening. You can leave the bottles where they are." },
+            loot = { { "An intact container is worth keeping. Just find out what was in it first.", tone = "[practical, attentive, gentle humor]" } },
+            bagsFull = { "Let us separate the fragile things before we rearrange anything." },
+            quest = { "Properly supplied and safely back. A good result." },
+            rest = { "A clean cup and a moment's peace. Very little preparation required." },
+            combatEnd = { "Everyone well? Good. We can check for broken glass afterward." },
+            levelUp = { "Well done. Still, read the label. Experience doesn't change what's in the bottle." },
+            hearth = { "Back to the counter. I hope someone remembered to wipe it down." },
+        },
+    },
+
     -- Jemma 11028 and Springspindle 5174: female/male gnome engineers in
     -- Springspindle's Gadgets, Tinker Town. Jemma's Forever archive quest
     -- 95041 is in the installed quest corpus; Springspindle's Classic

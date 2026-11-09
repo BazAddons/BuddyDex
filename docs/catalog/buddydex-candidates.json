@@ -30688,7 +30688,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -33988,7 +33988,7 @@
           "zone": "Ironforge",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38982,6 +38982,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 11029,
+      "name": "Trixie Quikswitch",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Trixie Quikswitch",
+      "zone": "Ironforge",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 12997,
       "name": "Monty",
       "source": "Existing local backlog; absent from source filter",
@@ -39174,17 +39185,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Thief Catcher Thunderbrew",
-      "zone": "Ironforge",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 11029,
-      "name": "Trixie Quikswitch",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Trixie Quikswitch",
       "zone": "Ironforge",
       "scout_reaction": 5,
       "scout_attackable": false,
