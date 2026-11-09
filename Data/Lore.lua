@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Apothecary Renferrel <Royal Apothecary Society>, Sepulcher, Silverpine.
+    -- Adult male Forsaken, 1937/display 1661; current Horde-friendly.
+    -- Quinn's potions, Society plague research, Bethor's magical assistance;
+    -- Forever adds 91920/91921 and the three-versus-six-heart correction.
+    -- His disputed coin tosses are ours. No benevolent-healer rewrite.
+    -- Research: docs/research/silverpine-six-hearts-and-lake-leaf-boats.md.
+    [1937] = {
+        quote = "An unexpected result is information. Unless we are tossing a coin. Then it is grounds for another toss.",
+        likes = { "The correct quantity of ingredients", "A colleague's useful findings", "A coin finally landing as predicted" },
+        dislikes = { "A substitute offered without explanation", "Being interrupted halfway through a dose", "Anyone declaring a coin toss conclusive" },
+        gossip = "Renferrel can explain a failed potion with great precision. Explaining why he lost a coin toss apparently requires another coin toss.",
+        bio = "Renferrel serves the Royal Apothecary Society at the Sepulcher. He treats Quinn Yorick, investigates Rot Hide ichor with Bethor Iceshard's aid and shares plague research with his colleagues. The Dark Lady's challenge remains his priority.",
+        backstory = "Offered a coin toss to settle a trivial disagreement, Renferrel predicted the result and lost. He requested a second trial. By the fifth, he was discussing the thrower's technique. Nobody can remember what the disagreement was about.",
+        secret = "He knows the coin is fair. He simply enjoys the tiny, entirely unreasonable conviction that this time it will obey him. He would prefer you not include that in a report.",
+        bestFriend = "Choose a side. I will accept the result without argument. That is the extent of my confidence in you. We shall see how long it lasts.",
+        favorite = { emote = "GRIN", hint = "Someone who sees through his coin-toss objections might let a little amusement show." },
+        lines = {
+            greet = { { "You again. If this concerns a potion, begin with the ingredients you actually delivered. Not the ingredients you intended to deliver. There is a difference, and the difference tends to return to my workbench asking why it still feels unwell.", tone = "[raspy] [dryly impatient]" },
+                "A useful observation, or another interruption? I am prepared to be surprised." },
+            idle = { { "Choose a side of the coin. I shall predict the result. Hm. Again. No, that proves very little about my prediction. Your throwing technique has changed. I distinctly noticed it. We ought to continue until we have something resembling a respectable set of observations.", tone = "[raspy] [deadpan]" },
+                "Six means six. It is not a suggestion with room for interpretation.",
+                "Bethor understands forces I do not. Knowing when to consult a colleague is useful." },
+            befriended = { { "You have brought useful observations, followed instructions, and survived my impatience. I find your continued presence acceptable. Come along. If we must settle which way to walk with a coin, you may choose a side. I shall attempt to accept the result with suitable dignity.", tone = "[raspy] [grudgingly amused]" } },
+            poke = { "If you have lost the coin, our conclusions will have to wait.", "State the problem. I cannot diagnose an expectant expression." },
+            quest = { { "Quinn required another potion. The first delivery contained fewer hearts than the recipe required. He also sent murloc eyes, which were worth considering. A complaint can contain useful information. That does not excuse delivering half the ingredients and then looking wounded when I notice.", tone = "[raspy] [precise]" } },
+            loot = { "Identify it before deciding it can replace something in a formula." },
+            learned = { "You have discovered a gap in your knowledge. An excellent place to begin." },
+            rest = { "A pause. We could settle one small question of probability." },
+            zone = { "Different surroundings may yield different specimens. Observe them." },
+            combatEnd = { "If anything unusual happened, describe it before exaggeration improves it." },
+            hearth = { "Back to the work. Bring the coin; our investigation is inconclusive." },
+        },
+    },
+
+    -- Denalan, Lake Al'Ameth, Teldrassil; adult male Night Elf, 2080/2484.
+    -- Current Alliance-friendly. Classic seeds/soil, Rellian, Oakenscowl,
+    -- cleansed heart and frond recalling a Swamp of Sorrows visit decades ago.
+    -- Leaf boats and deliberately choosing the slower one are ours.
+    -- Research: docs/research/silverpine-six-hearts-and-lake-leaf-boats.md.
+    [2080] = {
+        quote = "An afternoon beside the lake need not produce a discovery. Though I do hope you will tell me if it does.",
+        likes = { "Fresh soil arriving at last", "A strange plant brought for study", "Leaf boats taking the long way home" },
+        dislikes = { "Corruption spreading through the lake", "A promising seed carrying its taint", "A race that ends before the conversation" },
+        gossip = "Denalan has been racing fallen leaves along the lakeshore. He seems remarkably pleased when the boat he chooses comes in last.",
+        bio = "Denalan studies Teldrassil's plants beside Lake Al'Ameth. He prepares soil for timberling seeds and works with Rellian Greenspyre against their corruption. Oakenscowl's terrible condition troubles him; finding its cause still matters.",
+        backstory = "A shimmering frond recalls his visit to the Swamp of Sorrows decades ago. These days, between studies, he folds fallen leaves into little boats. He once followed a stubbornly slow one far enough to forget which boat had won.",
+        secret = "He chooses the slower leaf boat on purpose. Following it gives a visitor one more bend of the shore to finish what they were saying. He would rather hear the ending than win.",
+        bestFriend = "Choose your boat. I will take this one. We have the whole shore ahead, and you were in the middle of telling me something.",
+        favorite = { emote = "WAVE", hint = "Appreciates a friendly arrival at his lakeside camp, even without a specimen to deliver." },
+        lines = {
+            greet = { { "Welcome. Have you found an unfamiliar plant, or have you simply come to walk beside the water? Either is a good reason to stop here. I spend so much time looking closely at things that it helps to have someone remind me to look up occasionally.", tone = "[gentle] [curious]" },
+                "There you are. We can discuss the plants as we walk, if you like." },
+            idle = { { "That fallen leaf would make a fine little boat. Fold it here, and let the water take it. Mine seems to be moving very slowly. How fortunate. We shall have another bend of the shore before it arrives, and you have not finished your story.", tone = "[warm] [quietly playful]" },
+                "A familiar frond once brought back a journey I had not thought of in decades.",
+                "I wonder whether Rellian has noticed anything new. I should ask him." },
+            befriended = { { "You have helped me look closely, and given me reasons to look beyond my work. I value both. Let us take the longer walk today. Bring whatever you wished to tell me. We can follow the water for a while without needing to arrive anywhere in particular.", tone = "[warm] [sincere]" } },
+            poke = { "Hm? Oh, forgive me. Something growing caught my attention.", "Shall we see how far that leaf has traveled?" },
+            quest = { { "The timberlings reflect the life of this great tree. Their anger concerns me, but so do the seeds that carry their corruption. Rellian and I are trying to understand what can still be helped. Good soil offers possibilities. It is not a promise that every wound will heal.", tone = "[thoughtful] [concerned]" } },
+            loot = { "Where did you find it? Its surroundings may be as interesting as the specimen." },
+            rest = { "We may sit awhile. Some things are easier to notice when we stop searching." },
+            zone = { "Let us see what grows here before deciding we have seen it all." },
+            learned = { "A new understanding. Leave a little room beside it for the next question." },
+            sitToo = { "A fine place to stop. There need not be anything more to it than that." },
+            hearth = { "Back to the lake. Perhaps our little boats have reached the next bend." },
+        },
+    },
+
     -- Apothecary Johaan, Brill, adult male Forsaken, 1518/display 1565.
     -- Current Horde-friendly Royal Apothecary Society member. Classic/current
     -- New Plague, captive tests, pumpkins and findings to Renferrel.

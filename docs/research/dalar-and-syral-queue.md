@@ -1,0 +1,10 @@
+# Next: Dalar Dawnweaver and Syral Bladeleaf
+
+Individually checked current identities 2026-11-09. Neither profile authored or recorded. No Scout sighting claimed. Source cache `C:/Users/brett/BuddyDex-builds/renferrel-denalan-research/next-npc-ID.json`.
+
+- [Dalar Dawnweaver 1938](https://forever.warcraftdb.com/api/data/node/npc/1938): named Undead humanoid, level 21, Silverpine Forest map 1421 about 44.2, 39.9. Current **Horde-icon Neutral**, not Friendly. Display 1278 -> installed DB2 race 5, sex 0, standard adult male Forsaken; named/adult/runtime `forsaken-male` route checked. Neutral reaction can satisfy the existing live minimum, but the public label alone is not evidence of non-attackability or universally friendly access. Preserve the normal live checks; do not count as verified friendly faction coverage without stronger evidence.
+- [Syral Bladeleaf 2083](https://forever.warcraftdb.com/api/data/node/npc/2083): named Night Elf humanoid, level 12, current Alliance-icon Friendly. Teldrassil/map 1438 about 56.1, 57.8, Dolanaar. Display 2459 -> race 4, sex 1, standard adult female, runtime `nightelf-female` route checked. No age inference from level or player-class inference from race.
+
+Read all own current/Classic starts, ends, teaches and sells, exact installed gossip and quest text, full connected quest chains including objectives/progress/completion, and relevant books/comics or document absent verified evidence. Denalan's earth delivery was already read in [the preceding batch](silverpine-six-hearts-and-lake-leaf-boats.md); identify Syral's actual relationship from her own source rather than copying another NPC's history. Dalar's Silverpine investigations need his own full context.
+
+Ten fields, fifteen personal lines and four signatures each using approved voices and Eleven v4. Validate layout, audio, model routes and fresh-session discovery/first-outing behavior; smoke test, install, separate development v002 package, persistent backlog/changelog, commit and push. No CurseForge tag or upload while publication is deferred. The two older Westfall availability reviews and wider catalog remain open.

@@ -784,6 +784,20 @@
       "zone": "Teldrassil",
       "route": "Forsaken/Night Elf quest-giver coverage",
       "reason": "Exact current named adult body, friendly faction icon and pin checked; complete own quest/service/literary research pending. See docs/research/renferrel-and-denalan-queue.md"
+    },
+    {
+      "npc_id": 1938,
+      "name": "Dalar Dawnweaver",
+      "zone": "Silverpine Forest",
+      "route": "Forsaken/Night Elf quest-giver coverage",
+      "reason": "Exact current named adult body, reaction icon and pin checked; full own quest/service/literary research pending. See docs/research/dalar-and-syral-queue.md; Dalar current Horde-neutral icon is not a friendly-access claim"
+    },
+    {
+      "npc_id": 2083,
+      "name": "Syral Bladeleaf",
+      "zone": "Teldrassil",
+      "route": "Forsaken/Night Elf quest-giver coverage",
+      "reason": "Exact current named adult body, reaction icon and pin checked; full own quest/service/literary research pending. See docs/research/dalar-and-syral-queue.md; Dalar current Horde-neutral icon is not a friendly-access claim"
     }
   ]
 }

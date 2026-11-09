@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both profiles, fifteen lines and four approved v4 signatures each. See [research and validation](silverpine-six-hearts-and-lake-leaf-boats.md). Original planning below is retained as history.
+
 # Next: Apothecary Renferrel and Denalan
 
 Individually checked named adult identities, 2026-11-09. Neither profile authored or recorded; no Scout capture claimed. Cache: `C:/Users/brett/BuddyDex-builds/renferrel-denalan-research`.

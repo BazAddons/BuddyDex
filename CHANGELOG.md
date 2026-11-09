@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Apothecary Renferrel and Denalan, with full Forsaken/Night Elf personalities, fifteen personal lines and four approved v4 recordings each; preserve Forever's second potion and the limits of Denalan's timberling research.
+
 - Complete Apothecary Johaan and Carolai Anise: full Brill Forsaken profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve Johaan's plague/prisoner research and Carolai's conversation concerns alongside her actual Forever elixir business; no invented cure or redemption.
 - Complete Marin Noggenfogger and Eylah Sunhorn: full Goblin/Tauren profiles, fifteen personal lines and four approved Eleven v4 signatures each. Preserve the elixir collaboration and Forever incense guidance, qualify missing current access evidence and verify Eylah's newer voice route.
 - Complete Mon'ye and Pa'zula: full profiles for two named Forever Troll services, fifteen personal lines and four approved Eleven v4 signatures each. Preserve appearance weaving and the removal of Zalazane's bindings for slain spirits; verify their newer model voice routes.

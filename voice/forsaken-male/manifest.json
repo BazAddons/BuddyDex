@@ -399,6 +399,46 @@
     "text": "No elaborate test proves this the best stick. It is familiar and comfortable. Those reasons seem persuasive when the choice is mine. I have stopped preparing a longer explanation for anyone who asks.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore1937_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1937",
+    "spoken": "[raspy] [grudgingly amused] You have brought useful observations, followed instructions, and survived my impatience. I find your continued presence acceptable. Come along. If we must settle which way to walk with a coin, you may choose a side. I shall attempt to accept the result with suitable dignity.",
+    "text": "You have brought useful observations, followed instructions, and survived my impatience. I find your continued presence acceptable. Come along. If we must settle which way to walk with a coin, you may choose a side. I shall attempt to accept the result with suitable dignity.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1937_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1937",
+    "spoken": "[raspy] [dryly impatient] You again. If this concerns a potion, begin with the ingredients you actually delivered. Not the ingredients you intended to deliver. There is a difference, and the difference tends to return to my workbench asking why it still feels unwell.",
+    "text": "You again. If this concerns a potion, begin with the ingredients you actually delivered. Not the ingredients you intended to deliver. There is a difference, and the difference tends to return to my workbench asking why it still feels unwell.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1937_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1937",
+    "spoken": "[raspy] [deadpan] Choose a side of the coin. I shall predict the result. Hm. Again. No, that proves very little about my prediction. Your throwing technique has changed. I distinctly noticed it. We ought to continue until we have something resembling a respectable set of observations.",
+    "text": "Choose a side of the coin. I shall predict the result. Hm. Again. No, that proves very little about my prediction. Your throwing technique has changed. I distinctly noticed it. We ought to continue until we have something resembling a respectable set of observations.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore1937_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1937",
+    "spoken": "[raspy] [precise] Quinn required another potion. The first delivery contained fewer hearts than the recipe required. He also sent murloc eyes, which were worth considering. A complaint can contain useful information. That does not excuse delivering half the ingredients and then looking wounded when I notice.",
+    "text": "Quinn required another potion. The first delivery contained fewer hearts than the recipe required. He also sent murloc eyes, which were worth considering. A complaint can contain useful information. That does not excuse delivering half the ingredients and then looking wounded when I notice.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore2113_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -39,6 +39,46 @@
     "text": "Look at what this place supports. Its creatures, its plants, the food and shelter they share. We need not understand everything at once, but we should remember that each thing we notice belongs to a larger whole. Walk with care, and keep looking.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore2080_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2080",
+    "spoken": "[warm] [sincere] You have helped me look closely, and given me reasons to look beyond my work. I value both. Let us take the longer walk today. Bring whatever you wished to tell me. We can follow the water for a while without needing to arrive anywhere in particular.",
+    "text": "You have helped me look closely, and given me reasons to look beyond my work. I value both. Let us take the longer walk today. Bring whatever you wished to tell me. We can follow the water for a while without needing to arrive anywhere in particular.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2080_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2080",
+    "spoken": "[gentle] [curious] Welcome. Have you found an unfamiliar plant, or have you simply come to walk beside the water? Either is a good reason to stop here. I spend so much time looking closely at things that it helps to have someone remind me to look up occasionally.",
+    "text": "Welcome. Have you found an unfamiliar plant, or have you simply come to walk beside the water? Either is a good reason to stop here. I spend so much time looking closely at things that it helps to have someone remind me to look up occasionally.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2080_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2080",
+    "spoken": "[warm] [quietly playful] That fallen leaf would make a fine little boat. Fold it here, and let the water take it. Mine seems to be moving very slowly. How fortunate. We shall have another bend of the shore before it arrives, and you have not finished your story.",
+    "text": "That fallen leaf would make a fine little boat. Fold it here, and let the water take it. Mine seems to be moving very slowly. How fortunate. We shall have another bend of the shore before it arrives, and you have not finished your story.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore2080_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2080",
+    "spoken": "[thoughtful] [concerned] The timberlings reflect the life of this great tree. Their anger concerns me, but so do the seeds that carry their corruption. Rellian and I are trying to understand what can still be helped. Good soil offers possibilities. It is not a promise that every wound will heal.",
+    "text": "The timberlings reflect the life of this great tree. Their anger concerns me, but so do the seeds that carry their corruption. Rellian and I are trying to understand what can still be helped. Good soil offers possibilities. It is not a promise that every wound will heal.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore2082_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
