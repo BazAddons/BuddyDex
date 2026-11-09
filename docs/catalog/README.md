@@ -10,9 +10,9 @@ This is a trimmed research list, not a verified eligibility census. Neutral targ
 | Excluded generic rows | 132 |
 | Ambiguous rows for review | 6 |
 | Retained source entries | 1,449 |
-| Local backlog entries missing from source | 47 |
-| Combined retained entries | 1,496 |
-| Candidate name groups | 1,483 |
+| Local backlog entries missing from source | 52 |
+| Combined retained entries | 1,501 |
+| Candidate name groups | 1,488 |
 | Same name groups requiring id review | 8 |
 
 The original exports are preserved. Exclusions and ambiguous identities are retained in the JSON with reasons. Multiple IDs for one name are grouped for review; no ID was silently selected or discarded.
@@ -99,7 +99,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Arch Druid Fandral Staghelm**: [3516](https://forever.warcraftdb.com/data/npc/3516)
 - **Arch Druid Hamuul Runetotem**: [5769](https://forever.warcraftdb.com/data/npc/5769)
 - **Archaeologist Hollee**: [2913](https://forever.warcraftdb.com/data/npc/2913)
-- **Archbishop Benedictus**: [1284](https://forever.warcraftdb.com/data/npc/1284)
+- **Archbishop Benedictus** — Scout: [1284](https://forever.warcraftdb.com/data/npc/1284)
 - **Archibald**: [11870](https://forever.warcraftdb.com/data/npc/11870)
 - **Archibald Kava**: [2113](https://forever.warcraftdb.com/data/npc/2113)
 - **Archmage Ansirem Runeweaver** *: [2543](https://forever.warcraftdb.com/data/npc/2543), [256621](https://forever.warcraftdb.com/data/npc/256621)
@@ -114,7 +114,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Arnok**: [3373](https://forever.warcraftdb.com/data/npc/3373)
 - **Arnold Leland**: [5493](https://forever.warcraftdb.com/data/npc/5493)
 - **Arnorea Shadowfoot**: [258295](https://forever.warcraftdb.com/data/npc/258295)
-- **Arthur the Faithful**: [5491](https://forever.warcraftdb.com/data/npc/5491)
+- **Arthur the Faithful** — Scout: [5491](https://forever.warcraftdb.com/data/npc/5491)
 - **Artilleryman Sheldonore**: [14183](https://forever.warcraftdb.com/data/npc/14183)
 - **Aska Mistrunner**: [3026](https://forever.warcraftdb.com/data/npc/3026)
 - **Astarii Starseeker**: [4090](https://forever.warcraftdb.com/data/npc/4090)
@@ -184,6 +184,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Billy Maclure** — Scout: [247](https://forever.warcraftdb.com/data/npc/247)
 - **Bink**: [5144](https://forever.warcraftdb.com/data/npc/5144)
 - **Bishop DeLavey**: [4960](https://forever.warcraftdb.com/data/npc/4960)
+- **Bishop Farthing** — Scout: [1212](https://forever.warcraftdb.com/data/npc/1212)
 - **Bixi Wobblebonk**: [13084](https://forever.warcraftdb.com/data/npc/13084)
 - **Blacksmith Rand**: [2116](https://forever.warcraftdb.com/data/npc/2116)
 - **Blademaster Ren**: [251964](https://forever.warcraftdb.com/data/npc/251964)
@@ -221,14 +222,17 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Bronk**: [8158](https://forever.warcraftdb.com/data/npc/8158)
 - **Bront Coldcleave**: [2365](https://forever.warcraftdb.com/data/npc/2365)
 - **Brooke Stonebraid**: [5514](https://forever.warcraftdb.com/data/npc/5514)
-- **Brother Cassius**: [1351](https://forever.warcraftdb.com/data/npc/1351)
+- **Brother Benjamin** — Scout: [5484](https://forever.warcraftdb.com/data/npc/5484)
+- **Brother Cassius** — Scout: [1351](https://forever.warcraftdb.com/data/npc/1351)
+- **Brother Crowley** — Scout: [12336](https://forever.warcraftdb.com/data/npc/12336)
 - **Brother Danil**: [152](https://forever.warcraftdb.com/data/npc/152)
-- **Brother Joshua**: [5489](https://forever.warcraftdb.com/data/npc/5489)
-- **Brother Kristoff**: [1444](https://forever.warcraftdb.com/data/npc/1444)
+- **Brother Joshua** — Scout: [5489](https://forever.warcraftdb.com/data/npc/5489)
+- **Brother Kristoff** — Scout: [1444](https://forever.warcraftdb.com/data/npc/1444)
 - **Brother Neals**: [952](https://forever.warcraftdb.com/data/npc/952)
 - **Brother Paxton**: [951](https://forever.warcraftdb.com/data/npc/951)
+- **Brother Romulus** — Scout: [205278](https://forever.warcraftdb.com/data/npc/205278)
 - **Brother Sammuel**: [925](https://forever.warcraftdb.com/data/npc/925)
-- **Brother Sarno**: [7917](https://forever.warcraftdb.com/data/npc/7917)
+- **Brother Sarno** — Scout: [7917](https://forever.warcraftdb.com/data/npc/7917)
 - **Brother Wilhelm** — Scout: [927](https://forever.warcraftdb.com/data/npc/927)
 - **Bryaes Galechaser**: [258277](https://forever.warcraftdb.com/data/npc/258277)
 - **Bryan Cross** — Scout: [1319](https://forever.warcraftdb.com/data/npc/1319)
@@ -402,7 +406,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Duncan Cullen**: [1314](https://forever.warcraftdb.com/data/npc/1314)
 - **Dungar Longdrink**: [352](https://forever.warcraftdb.com/data/npc/352)
 - **Durnan Furcutter**: [836](https://forever.warcraftdb.com/data/npc/836)
-- **Duthorian Rall**: [6171](https://forever.warcraftdb.com/data/npc/6171)
+- **Duthorian Rall** — Scout: [6171](https://forever.warcraftdb.com/data/npc/6171)
 - **Eagan Peltskinner**: [196](https://forever.warcraftdb.com/data/npc/196)
 - **Ealaane Nimbuswalker**: [259012](https://forever.warcraftdb.com/data/npc/259012)
 - **Earthseer Farsen**: [264936](https://forever.warcraftdb.com/data/npc/264936)
@@ -510,7 +514,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Garryeth**: [4209](https://forever.warcraftdb.com/data/npc/4209)
 - **Garyl**: [5188](https://forever.warcraftdb.com/data/npc/5188)
 - **Gaxim Rustfizzle**: [4077](https://forever.warcraftdb.com/data/npc/4077)
-- **Gazin Tenorm**: [6173](https://forever.warcraftdb.com/data/npc/6173)
+- **Gazin Tenorm** — Scout: [6173](https://forever.warcraftdb.com/data/npc/6173)
 - **Gazlowe**: [3391](https://forever.warcraftdb.com/data/npc/3391)
 - **Gazrog**: [3464](https://forever.warcraftdb.com/data/npc/3464)
 - **Gearcutter Cogspinner** — Scout: [5175](https://forever.warcraftdb.com/data/npc/5175)
@@ -632,6 +636,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Hewa**: [8358](https://forever.warcraftdb.com/data/npc/8358)
 - **High Executor Darthalia**: [2215](https://forever.warcraftdb.com/data/npc/2215)
 - **High Executor Hadrec**: [1952](https://forever.warcraftdb.com/data/npc/1952)
+- **High Priestess Laurena** — Scout: [376](https://forever.warcraftdb.com/data/npc/376)
 - **High Sorcerer Andromath**: [5694](https://forever.warcraftdb.com/data/npc/5694)
 - **High Tinker Mekkatorque** — Scout: [7937](https://forever.warcraftdb.com/data/npc/7937)
 - **Highlord Bolvar Fordragon**: [1748](https://forever.warcraftdb.com/data/npc/1748)
@@ -1213,7 +1218,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Shadow Priest Sarvis**: [1569](https://forever.warcraftdb.com/data/npc/1569)
 - **Shael'dryn**: [3916](https://forever.warcraftdb.com/data/npc/3916)
 - **Shailiea**: [7295](https://forever.warcraftdb.com/data/npc/7295)
-- **Shaina Fuller**: [2327](https://forever.warcraftdb.com/data/npc/2327)
+- **Shaina Fuller** — Scout: [2327](https://forever.warcraftdb.com/data/npc/2327)
 - **Shalumon**: [5191](https://forever.warcraftdb.com/data/npc/5191)
 - **Shanda**: [3595](https://forever.warcraftdb.com/data/npc/3595)
 - **Shankys**: [3333](https://forever.warcraftdb.com/data/npc/3333)
@@ -1346,7 +1351,7 @@ An asterisk means multiple NPC IDs need identity/version review. Scout denotes a
 - **Thief Catcher Shadowdelve** — Scout: [14363](https://forever.warcraftdb.com/data/npc/14363)
 - **Thief Catcher Thunderbrew** — Scout: [14367](https://forever.warcraftdb.com/data/npc/14367)
 - **Thom Filch**: [265003](https://forever.warcraftdb.com/data/npc/265003)
-- **Thomas**: [4982](https://forever.warcraftdb.com/data/npc/4982)
+- **Thomas** — Scout: [4982](https://forever.warcraftdb.com/data/npc/4982)
 - **Thomas Arlento**: [2309](https://forever.warcraftdb.com/data/npc/2309)
 - **Thomas Miller** — Scout: [3518](https://forever.warcraftdb.com/data/npc/3518)
 - **Thonys Pillarstone**: [11065](https://forever.warcraftdb.com/data/npc/11065)

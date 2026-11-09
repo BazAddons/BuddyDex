@@ -7,7 +7,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 - A gnome Mini Me wearing your character's armor, updated when you change gear.
 - Animated reactions and speech bubbles for quests, combat, level-ups, travel, and more.
 - Hundreds of dialogue lines, with shuffled selections to reduce repetition.
-- Built-in recorded voices and an adjustable chattiness setting. New signature lines for Gryshka, Doras, Jenn Langston, Morgan Pestle, the Bouchers, Remy, Allison, Brother Wilhelm, Tharynn Bouden, and the Goldshire smithy group use Eleven v4 with individual emotional direction and the selected racial voices.
+- Built-in recorded voices and an adjustable chattiness setting. New signature lines for Gryshka, Doras, Jenn Langston, Morgan Pestle, the Bouchers, Remy, Allison, Brother Wilhelm, Tharynn Bouden, the Goldshire smithy group, Maybell, and the Stonefields use Eleven v4 with individual emotional direction and the selected racial voices.
 
 ### NPC Friendships and Collection
 
@@ -24,7 +24,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 - Choose an NPC at Buddy tier or higher to take your Mini Me's place on screen.
 - Enjoy companion dialogue, animations, and recorded voices for supported NPC races.
-- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, William Pestle, Gryan Stoutmantle, Innkeeper Gryshka, Doras, Jenn Langston, Morgan Pestle, Keldric Boucher, Kyra Boucher, Remy "Two Times", Innkeeper Allison, Brother Wilhelm, Tharynn Bouden, Smith Argus, Andrew Krighton, Corina Steele, and Kurran Steele, with personal companion recordings.
+- Unlock personality details, stories, and secrets as friendships grow for NPCs with authored entries. Authored entries include Thor, Auctioneer Lympkin, Kira Songshine, Innkeeper Farley, Marshal Dughan, Dungar Longdrink, William Pestle, Gryan Stoutmantle, Innkeeper Gryshka, Doras, Jenn Langston, Morgan Pestle, Keldric Boucher, Kyra Boucher, Remy "Two Times", Innkeeper Allison, Brother Wilhelm, Tharynn Bouden, Smith Argus, Andrew Krighton, Corina Steele, Kurran Steele, Maybell Maclure, Tommy Joe Stonefield, Gramma Stonefield, and "Auntie" Bernice Stonefield, with personal companion recordings.
 
 ### Make It Your Own
 

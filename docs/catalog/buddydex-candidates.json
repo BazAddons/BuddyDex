@@ -7,9 +7,9 @@
     "excluded_generic_rows": 132,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1449,
-    "local_backlog_entries_missing_from_source": 47,
-    "combined_retained_entries": 1496,
-    "candidate_name_groups": 1483,
+    "local_backlog_entries_missing_from_source": 52,
+    "combined_retained_entries": 1501,
+    "candidate_name_groups": 1488,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -39,7 +39,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -1906,7 +1906,9 @@
         1284
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1284
+      ],
       "entries": [
         {
           "npc_id": 1284,
@@ -1918,8 +1920,12 @@
           ],
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Archbishop Benedictus",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -2284,7 +2290,9 @@
         5491
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        5491
+      ],
       "entries": [
         {
           "npc_id": 5491,
@@ -2297,8 +2305,12 @@
           ],
           "source_page": 2,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Arthur the Faithful",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -4045,6 +4057,29 @@
       ]
     },
     {
+      "name": "Bishop Farthing",
+      "npc_ids": [
+        1212
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        1212
+      ],
+      "entries": [
+        {
+          "npc_id": 1212,
+          "name": "Bishop Farthing",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Bishop Farthing",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Bixi Wobblebonk",
       "npc_ids": [
         13084
@@ -4947,12 +4982,37 @@
       ]
     },
     {
+      "name": "Brother Benjamin",
+      "npc_ids": [
+        5484
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        5484
+      ],
+      "entries": [
+        {
+          "npc_id": 5484,
+          "name": "Brother Benjamin",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Brother Benjamin",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Brother Cassius",
       "npc_ids": [
         1351
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1351
+      ],
       "entries": [
         {
           "npc_id": 1351,
@@ -4965,8 +5025,35 @@
           ],
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Brother Cassius",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
+      "name": "Brother Crowley",
+      "npc_ids": [
+        12336
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        12336
+      ],
+      "entries": [
+        {
+          "npc_id": 12336,
+          "name": "Brother Crowley",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Brother Crowley",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -5000,7 +5087,9 @@
         5489
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        5489
+      ],
       "entries": [
         {
           "npc_id": 5489,
@@ -5013,8 +5102,12 @@
           ],
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Brother Joshua",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -5024,7 +5117,9 @@
         1444
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        1444
+      ],
       "entries": [
         {
           "npc_id": 1444,
@@ -5037,8 +5132,12 @@
           ],
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Brother Kristoff",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -5091,6 +5190,29 @@
       ]
     },
     {
+      "name": "Brother Romulus",
+      "npc_ids": [
+        205278
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        205278
+      ],
+      "entries": [
+        {
+          "npc_id": 205278,
+          "name": "Brother Romulus",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Brother Romulus",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Brother Sammuel",
       "npc_ids": [
         925
@@ -5120,7 +5242,9 @@
         7917
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        7917
+      ],
       "entries": [
         {
           "npc_id": 7917,
@@ -5133,8 +5257,12 @@
           ],
           "source_page": 5,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Brother Sarno",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -9363,7 +9491,9 @@
         6171
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        6171
+      ],
       "entries": [
         {
           "npc_id": 6171,
@@ -9376,8 +9506,12 @@
           ],
           "source_page": 9,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Duthorian Rall",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -12078,7 +12212,9 @@
         6173
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        6173
+      ],
       "entries": [
         {
           "npc_id": 6173,
@@ -12091,8 +12227,12 @@
           ],
           "source_page": 11,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Gazin Tenorm",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -13004,7 +13144,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -15043,6 +15183,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "High Priestess Laurena",
+      "npc_ids": [
+        376
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        376
+      ],
+      "entries": [
+        {
+          "npc_id": 376,
+          "name": "High Priestess Laurena",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "High Priestess Laurena",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -22983,7 +23146,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -29403,7 +29566,9 @@
         2327
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        2327
+      ],
       "entries": [
         {
           "npc_id": 2327,
@@ -29416,8 +29581,12 @@
           ],
           "source_page": 26,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Shaina Fuller",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -32676,7 +32845,9 @@
         4982
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        4982
+      ],
       "entries": [
         {
           "npc_id": 4982,
@@ -32689,8 +32860,12 @@
           ],
           "source_page": 29,
           "source": "Warcraft DB listing; availability and attackability unverified",
-          "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "scout_observed": true,
+          "scout_name": "Thomas",
+          "zone": "Stormwind City",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -33306,7 +33481,7 @@
           "zone": "Elwynn Forest",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -38825,6 +39000,50 @@
       "profile_status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 1212,
+      "name": "Bishop Farthing",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Bishop Farthing",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5484,
+      "name": "Brother Benjamin",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Benjamin",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 12336,
+      "name": "Brother Crowley",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Crowley",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 205278,
+      "name": "Brother Romulus",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Brother Romulus",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 1319,
       "name": "Bryan Cross",
       "source": "Existing local backlog; absent from source filter",
@@ -38863,6 +39082,17 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Heinrich Stone",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 376,
+      "name": "High Priestess Laurena",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "High Priestess Laurena",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,

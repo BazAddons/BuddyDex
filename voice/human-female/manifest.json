@@ -39,6 +39,126 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore246_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:246",
+    "spoken": "[mature, warmly sincere voice, restrained emotion] You come to see me when you don't need anything. I notice that, dear.",
+    "text": "You come to see me when you don't need anything. I notice that, dear.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore246_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:246",
+    "spoken": "[mature, brisk voice, gruff affection] A walk, is it? Very well. Nobody had better touch that pie while I'm gone.",
+    "text": "A walk, is it? Very well. Nobody had better touch that pie while I'm gone.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore246_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:246",
+    "spoken": "[mature, thoughtful voice, softening warmth] The edge takes as long as it takes. Some things are worth doing quietly.",
+    "text": "The edge takes as long as it takes. Some things are worth doing quietly.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore246_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:246",
+    "spoken": "[mature, sincerely grateful voice] You took the trouble for me? Thank you, dear. I won't forget the kindness.",
+    "text": "You took the trouble for me? Thank you, dear. I won't forget the kindness.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore248_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:248",
+    "spoken": "[mature, tender voice, sincere reassurance] You've made room for other people's hopes. I hope you know there's room here for yours.",
+    "text": "You've made room for other people's hopes. I hope you know there's room here for yours.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore248_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:248",
+    "spoken": "[mature, warm voice, affectionate welcome] There you are, dear. Tell me something worth making time for.",
+    "text": "There you are, dear. Tell me something worth making time for.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore248_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:248",
+    "spoken": "[mature, reflective voice, quietly hopeful] One table, enough chairs, and nobody counting old wrongs. I'd like to see that.",
+    "text": "One table, enough chairs, and nobody counting old wrongs. I'd like to see that.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore248_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:248",
+    "spoken": "[mature, warmly approving voice] You helped without asking them to be less themselves. That's a kindness to be proud of.",
+    "text": "You helped without asking them to be less themselves. That's a kindness to be proud of.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:251",
+    "spoken": "[sincerely grateful voice, gentle resolve] Thank you for listening to me as a person, not just somebody's daughter.",
+    "text": "Thank you for listening to me as a person, not just somebody's daughter.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:251",
+    "spoken": "[warm, hopeful voice, pleased recognition] There you are! Have you a moment to walk with me?",
+    "text": "There you are! Have you a moment to walk with me?",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:251",
+    "spoken": "[soft, wistful voice, quiet hope] Someday I'd like to ask what he wants for supper. With no one hurrying us.",
+    "text": "Someday I'd like to ask what he wants for supper. With no one hurrying us.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore251_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:251",
+    "spoken": "[tender, attentive voice, unhurried] A letter? Take your time with it. Someone may have spent all morning finding those words.",
+    "text": "A letter? Take your time with it. Someone may have spent all morning finding those words.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore3626_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -42,6 +42,125 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Maybell Maclure, Maclure Vineyards, Elwynn. NPC 251, female human.
+    -- Classic quests 106-114: loves Tommy Joe despite the family feud;
+    -- asks for a letter delivery and feels conflicted about sneaking away.
+    -- No later marriage or Draenor history. Private wishes and lines are
+    -- original. Sources: docs/research/stonefields-and-maybell.md.
+    [251] = {
+        quote = "I'd like one conversation that doesn't have to end when someone hears footsteps. Is that so much to hope for?",
+        likes = { "A letter meant only for her", "Tommy Joe's name said kindly", "Time for an ordinary conversation" },
+        dislikes = { "Being asked to inherit a quarrel", "People reading over her shoulder", "Goodbyes that come too soon" },
+        gossip = "Maybell spends ages choosing words for a letter. Anyone expecting grand poetry might be surprised by what she most wants to say.",
+        bio = "Maybell lives at the Maclure Vineyards and loves Tommy Joe Stonefield. Their families' feud keeps them apart. Her letter sets Gramma Stonefield and William Pestle looking for a way to help them meet in secret.",
+        backstory = "With every conversation hurried or hidden, she began treasuring the questions people usually ask without thinking. Letters can carry so much longing. She wishes they had room for a whole uneventful afternoon.",
+        secret = "She dreams of asking Tommy Joe what he'd like for supper. It sounds small, but a question about an ordinary evening would mean they had time to share one.",
+        bestFriend = "You don't have to bring a letter to visit. Tell me how your day went. I like having a friend I can ask that.",
+        favorite = { emote = "LOVE", hint = "A little kindness toward an affection others condemn means a great deal." },
+        lines = {
+            greet = { { "There you are! Have you a moment to walk with me?", tone = "[warm, hopeful voice, pleased recognition]" }, "A little farther than the vines today. I'd like that." },
+            idle = { { "Someday I'd like to ask what he wants for supper. With no one hurrying us.", tone = "[soft, wistful voice, quiet hope]" }, "Everyone has so much to say about our names. I wish they'd ask about us.", "An ordinary afternoon can sound like the most wonderful adventure." },
+            befriended = { { "Thank you for listening to me as a person, not just somebody's daughter.", tone = "[sincerely grateful voice, gentle resolve]" } },
+            poke = { "Yes? Sorry, I was choosing my words.", "A hello would have done. You needn't make me jump." },
+            mail = { { "A letter? Take your time with it. Someone may have spent all morning finding those words.", tone = "[tender, attentive voice, unhurried]" } },
+            quest = { "You took the time to help. That can change more than people think." },
+            zone = { "New faces. Perhaps they won't know which side they're meant to be on." },
+            rest = { "A whole quiet moment. Let's keep it for ourselves." },
+            levelUp = { "Look at you! Does the road feel a little more possible now?" },
+            combatEnd = { "You're safe? Good. I was trying very hard not to worry." },
+            hearth = { "Home. I hope everyone has something kinder to talk about today." },
+        },
+    },
+
+    -- Tommy Joe Stonefield, river beside Stonefield Farm. NPC 252, male
+    -- human. Classic 106/111: loves Maybell, turns to his grandmother for
+    -- help. No retail marriage/barn/capture history. Rehearsing by the river
+    -- is fiction. Sources: docs/research/stonefields-and-maybell.md.
+    [252] = {
+        quote = "I know what I want to say until she's there. Then somehow hello turns out to be all I can manage.",
+        likes = { "News from Maybell", "Gramma taking him seriously", "A quiet spot beside the river" },
+        dislikes = { "Old arguments deciding his future", "Being laughed at for caring", "Losing his words at the wrong moment" },
+        gossip = "Tommy Joe has been heard making speeches beside the river. The fish are probably very impressed. Maybell hasn't heard his best ones yet.",
+        bio = "Tommy Joe Stonefield waits by the river near his family's farm. He loves Maybell Maclure despite the feud between their families. When he needs a way to see her, he trusts Gramma Stonefield to help.",
+        backstory = "He began practicing what he wanted to say while the river kept him company. The words were easier without anyone listening. Then he realized the important part wasn't a perfect speech; it was having someone worth saying hello to.",
+        secret = "The river has heard some magnificent declarations. He thinks Maybell might prefer the awkward hello, if it meant he could finally say it to her face.",
+        bestFriend = "If I talk about Maybell too much, tell me. I'd like to hear what's on your mind, too. Friends ought to get a turn.",
+        favorite = { emote = "COMFORT", hint = "A little reassurance helps when every path seems to start an argument." },
+        lines = {
+            greet = { { "Oh, hello! I wasn't talking to the river. Well... perhaps a little.", tone = "[friendly, bashful voice, surprised amusement]" }, "A walk might help me find the right words. Coming?" },
+            idle = { { "The speech went much better when there wasn't anyone to hear it.", tone = "[sheepish, lightly amused voice]" }, "Gramma listens before she tells me what I ought to do. I like that.", "Maybell would like this view. Sorry. There I go again." },
+            befriended = { { "You don't make me feel foolish for hoping. That's a good kind of friend to have.", tone = "[warm, sincerely relieved voice]" } },
+            poke = { "What? Sorry, I was rehearsing something.", "Yes, yes. You've got my attention now." },
+            mail = { "Take care with that letter. Someone might be waiting by a river for it." },
+            quest = { { "You found a way to help? Good. I like hearing that a difficult thing isn't impossible.", tone = "[hopeful, encouraged voice, growing confidence]" } },
+            rest = { "A quiet place. I might manage a whole sentence here." },
+            levelUp = { "Well done! I ought to try being brave about a few more things, too." },
+            combatEnd = { "You're all right? Good. I had rather more words of worry ready than useful advice." },
+            zone = { "Somewhere new. Nobody's already decided what to think of us." },
+            hearth = { "Home again. I hope Gramma has time for a talk." },
+        },
+    },
+
+    -- Mildred "Gramma" Stonefield, Stonefield farmhouse. NPC 248, female
+    -- human; Tommy Joe's grandmother, William Pestle's old friend. Her note
+    -- asks help for the lovers and values love amid dark news. No romance
+    -- with William invented. Table plan and lines are original writing.
+    -- Sources: docs/research/stonefields-and-maybell.md.
+    [248] = {
+        quote = "If every young heart must wait for the old quarrels to finish, we'll never have any happiness worth passing on.",
+        likes = { "Young people given room to hope", "An old friend making time to visit", "A conversation without raised voices" },
+        dislikes = { "A grudge handed down as a duty", "Treating affection like a crime", "Interrupting before a story is told" },
+        gossip = "Gramma sometimes studies the table as if something is missing. Everyone assumes she's counting plates. In a way, she is.",
+        bio = "Mildred Stonefield is Tommy Joe's grandmother and an old friend of William Pestle. She wants her grandson and Maybell to have a chance despite the feud, and writes to William asking for his help.",
+        backstory = "Listening to the same quarrel wear different voices taught her to ask a different question: what would make tomorrow kinder? When the young people came to her, she listened for their hopes instead of their surnames.",
+        secret = "She has worked out where everyone could sit at one long supper table. No grand speech planned. She'd settle for a first meal with nobody keeping score.",
+        bestFriend = "Come sit beside me, dear. You needn't have a problem for me to listen. Your ordinary news is welcome, too.",
+        favorite = { emote = "HUG", hint = "A little uncomplicated affection is a welcome change from all the feuding." },
+        lines = {
+            greet = { { "There you are, dear. Tell me something worth making time for.", tone = "[mature, warm voice, affectionate welcome]" }, "A walk? Good. My thoughts could do with a little fresh air." },
+            idle = { { "One table, enough chairs, and nobody counting old wrongs. I'd like to see that.", tone = "[mature, reflective voice, quietly hopeful]" }, "William ought to visit when he has a moment. We've plenty to chuckle over.", "A young person's worry doesn't become small because an older person has heard it before." },
+            befriended = { { "You've made room for other people's hopes. I hope you know there's room here for yours.", tone = "[mature, tender voice, sincere reassurance]" } },
+            poke = { "Yes, dear? I can hear you without the elbow.", "Go on. You have the look of someone who wants to ask something." },
+            quest = { { "You helped without asking them to be less themselves. That's a kindness to be proud of.", tone = "[mature, warmly approving voice]" } },
+            mail = { "A short note can open a door that an argument has kept shut for years." },
+            rest = { "Sit. We can put the world's quarrels down for a little while." },
+            levelUp = { "Well done, dear. I hope you feel as proud as you look." },
+            combatEnd = { "All here? Good. Come close enough that I can stop worrying." },
+            hearth = { "Home again. Let's hope there's room for a peaceful supper." },
+            zone = { "New places, new people. A chance to start without an old quarrel." },
+        },
+    },
+
+    -- "Auntie" Bernice Stonefield, Stonefield Farm. NPC 246, female human.
+    -- Classic 85/86/84/87: necklace, Billy's pie bargain, Goldtooth; widow
+    -- recalls husband losing his life on campaign. His lucky reward item
+    -- is not identified as her necklace. Crust habits and lines are ours.
+    -- Sources: docs/research/stonefields-and-maybell.md.
+    [246] = {
+        quote = "I've work to do and a pie to watch. Say what you need, dear, before the crust gets all my attention.",
+        likes = { "A pie given time to bake properly", "Her belongings where she left them", "Someone thanking her plainly" },
+        dislikes = { "Billy Maclure's pie negotiations", "A hand in the cooling pastry", "Being told to stop making a fuss" },
+        gossip = "Bernice is very particular about the edge of a pie. The family says it's decoration. She says they can bake the next one if they know so much.",
+        bio = "Bernice Stonefield lives at the farm and is known for pork belly pies. Her missing necklace leads to a bargain involving Billy Maclure and Goldtooth. A widow, she also remembers a husband lost on campaign.",
+        backstory = "Busy farm days gave her reason to make the kitchen work count. Even a troublesome request might get a pie out of her, though it would get an opinion as well. She learned to put equal care into the pastry and the last word.",
+        secret = "Pressing the edge of a pie is her quietest part of the day. She takes longer over it than she needs to. For those few minutes, the whole house can wait.",
+        bestFriend = "You can sit while the pie cools. No bargain required. Just mind your hands, and tell me how you've been.",
+        favorite = { emote = "THANK", hint = "Plain gratitude gets a warmer reception than another clever bargain." },
+        lines = {
+            greet = { { "A walk, is it? Very well. Nobody had better touch that pie while I'm gone.", tone = "[mature, brisk voice, gruff affection]" }, "There you are, dear. What trouble have you brought me today?" },
+            idle = { { "The edge takes as long as it takes. Some things are worth doing quietly.", tone = "[mature, thoughtful voice, softening warmth]" }, "If Billy wants another pie, he can ask without a performance.", "An old widow can still notice a hand creeping toward the pastry." },
+            befriended = { { "You come to see me when you don't need anything. I notice that, dear.", tone = "[mature, warmly sincere voice, restrained emotion]" } },
+            poke = { "Hands to yourself. I haven't forgotten how to rap a knuckle.", "Yes, dear? I'm busy, not invisible." },
+            quest = { { "You took the trouble for me? Thank you, dear. I won't forget the kindness.", tone = "[mature, sincerely grateful voice]" } },
+            loot = { "Put it somewhere safe before you start admiring it." },
+            bagsFull = { "Leave a little room. What if someone sends you home with supper?" },
+            rest = { "Sit down. You'll wear a hole in the floor with all that worrying." },
+            levelUp = { "Well done. That deserves something better than a crust eaten standing up." },
+            combatEnd = { "You're all right? Good. Don't make me ask twice." },
+            hearth = { "Home. If we're lucky, the house has managed without us for five minutes." },
+        },
+    },
+
     -- Smith Argus <Journeyman Blacksmith>, Goldshire, male human, NPC 514.
     -- Classic horseshoes 118-119/122, Elmore referral 1097-353; Forever
     -- Camping 101: Blacksmithing 97916 teaches Sharpening Wheel. Dinner

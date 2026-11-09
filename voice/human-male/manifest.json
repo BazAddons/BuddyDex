@@ -290,6 +290,46 @@
     "text": "They listened? Good. Some warnings need more than a merchant behind them.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore252_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:252",
+    "spoken": "[warm, sincerely relieved voice] You don't make me feel foolish for hoping. That's a good kind of friend to have.",
+    "text": "You don't make me feel foolish for hoping. That's a good kind of friend to have.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore252_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:252",
+    "spoken": "[friendly, bashful voice, surprised amusement] Oh, hello! I wasn't talking to the river. Well... perhaps a little.",
+    "text": "Oh, hello! I wasn't talking to the river. Well... perhaps a little.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore252_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:252",
+    "spoken": "[sheepish, lightly amused voice] The speech went much better when there wasn't anyone to hear it.",
+    "text": "The speech went much better when there wasn't anyone to hear it.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore252_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:252",
+    "spoken": "[hopeful, encouraged voice, growing confidence] You found a way to help? Good. I like hearing that a difficult thing isn't impossible.",
+    "text": "You found a way to help? Good. I like hearing that a difficult thing isn't impossible.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore253_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
