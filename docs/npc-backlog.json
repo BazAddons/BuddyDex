@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 388,
+  "completed_count": 390,
   "remaining_count": 4,
   "completed": [
     {
@@ -1874,6 +1874,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3348,
+      "name": "Kor'geld",
+      "zone": "Orgrimmar",
+      "source": "Exact named adult model/current role and Horde Friendly reaction checked; full own relation/stock pages and exact installed gossip researched. Kor'geld Forever lesson chain full published and installed text read; source/era limits documented, no Scout sighting claimed",
+      "research_notes": "docs/research/crossroads-farewells-and-orgrimmar-herbs.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3358,
       "name": "Gorina",
       "zone": "Orgrimmar",
@@ -2116,6 +2126,16 @@
       "zone": "Mulgore",
       "source": "Reviewed exact current adult Tauren identity/model, full seven-stage well/report dialogue and readable or sparse baker relations with Classic stock/Atlas; current reaction uncertainty retained; no Scout sighting claimed",
       "research_notes": "docs/research/mulgore-water-and-bread.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3934,
+      "name": "Innkeeper Boorand Plainswind",
+      "zone": "The Barrens",
+      "source": "Exact named adult model/current role and Horde Friendly reaction checked; full own relation/stock pages and exact installed gossip researched. Kor'geld Forever lesson chain full published and installed text read; source/era limits documented, no Scout sighting claimed",
+      "research_notes": "docs/research/crossroads-farewells-and-orgrimmar-herbs.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3676,16 +3696,16 @@
   ],
   "remaining": [
     {
-      "npc_id": 3934,
-      "name": "Innkeeper Boorand Plainswind",
-      "zone": "The Barrens",
+      "npc_id": 5150,
+      "name": "Nissa Firestone",
+      "zone": "Ironforge",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 3348,
-      "name": "Kor'geld",
-      "zone": "Orgrimmar",
+      "npc_id": 3490,
+      "name": "Hula'mahi",
+      "zone": "The Barrens",
       "source": "Coverage-first research priority; eligibility/lore pending",
       "status": "pending_identity_and_lore_research"
     },

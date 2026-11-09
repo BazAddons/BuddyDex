@@ -435,3 +435,10 @@ Next individually checked [Hollee and Sovik](hollee-and-sovik-queue.md), adult f
 388 authored profiles. Adult female Dwarf/male Goblin, fifteen personal lines and four established v4 signatures each. Friendly coverage Alliance200/Horde97/unverified98, seven shared entries overlap. Full archaeology/classmate/engineering chains and accessible readable text compared; Hollee's actual note and Aman's event body remain explicit unavailable-source leads. Sources/validation: [Auberdine brushes and Orgrimmar promises](auberdine-brushes-and-orgrimmar-promises.md).
 
 Next individually checked [Boorand and Kor'geld](boorand-and-korgeld-queue.md), adult male Tauren/Orc Horde service candidates, not authored or counted complete. Wider1510-name research pool and earlier unavailable-source leads remain active.
+
+
+## 2026-11-09: Boorand and Kor'geld
+
+390 completed authored profiles. Adult male Tauren/Orc Horde services, fifteen personal lines and four approved v4 signatures each. Friendly counts Alliance200/Horde99/unverified98, seven shared entries overlap. Source/writing/validation: [Crossroads farewells and Orgrimmar herbs](crossroads-farewells-and-orgrimmar-herbs.md). Kor'geld's Forever lesson supports his actual supplier/helper role; Yelmak remains the brewer and Whuut the apprentice.
+
+Next individually checked [Nissa and Hula'mahi](nissa-and-hulamahi-queue.md), adult female Dwarf/male Troll, not authored or counted complete. Nissa primary Forever page confirms Ironforge; current Dun Morogh parent-map pin is not a proven relocation. Wider1510-name pool and earlier unavailable-source leads remain active.

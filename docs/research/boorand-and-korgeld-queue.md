@@ -1,4 +1,6 @@
-# Next: Innkeeper Boorand Plainswind and Kor'geld
+# Completed: Innkeeper Boorand Plainswind and Kor'geld
+
+Completed source/writing/validation: [Crossroads farewells and Orgrimmar herbs](crossroads-farewells-and-orgrimmar-herbs.md). Pending statements below preserve the historical checkpoint.
 
 Exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External current API cache `C:/Users/brett/BuddyDex-builds/boorand-korgeld-research/npc-ID.json`.
 

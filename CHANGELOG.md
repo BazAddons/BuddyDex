@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Innkeeper Boorand Plainswind and Kor'geld: full Tauren/Orc profiles, fifteen personal lines and four approved v4 signatures each; preserve Boorand's welcome and Kor'geld's actual part in Yelmak's local-herb lesson.
+
 - Add Archaeologist Hollee and Sovik: full Dwarf/Goblin profiles, fifteen personal lines and four approved v4 signatures each; preserve Hollee's excavation concerns and Sovik's confirmed work with Scooty.
 
 - Add Chepi and Ezekiel Graves: full Tauren/Forsaken vendor profiles, fifteen personal lines and four approved v4 signatures each; preserve Ezekiel's ordinary neutral/non-attackable eligibility gates.

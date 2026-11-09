@@ -279,6 +279,46 @@
     "text": "Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3348_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3348",
+    "spoken": "[warm] [sincere] You pay attention to the ordinary things, and you are willing to ask what you have missed. I enjoy that in a companion. Come along, friend. Show me something familiar through your eyes. I shall try to notice it before deciding that I already know everything worth knowing about it.",
+    "text": "You pay attention to the ordinary things, and you are willing to ask what you have missed. I enjoy that in a companion. Come along, friend. Show me something familiar through your eyes. I shall try to notice it before deciding that I already know everything worth knowing about it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3348_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3348",
+    "spoken": "[steady] [welcoming] [thoughtful] Welcome back. Do you need supplies, or have you found something worth a closer look? It need not be rare. We pass useful things every day while imagining that the answer must grow somewhere more distant. Tell me what caught your attention before you tell me how difficult it was to obtain.",
+    "text": "Welcome back. Do you need supplies, or have you found something worth a closer look? It need not be rare. We pass useful things every day while imagining that the answer must grow somewhere more distant. Tell me what caught your attention before you tell me how difficult it was to obtain.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3348_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3348",
+    "spoken": "[dry] [self-deprecating] I once paid rather well for an unfamiliar dried herb. Then someone showed me the same plant growing beside my usual walk. I kept the wrapping. It reminds me that an impressive journey to the shelf does not mean I understand what is sitting there. An ordinary plant can be an expensive lesson.",
+    "text": "I once paid rather well for an unfamiliar dried herb. Then someone showed me the same plant growing beside my usual walk. I kept the wrapping. It reminds me that an impressive journey to the shelf does not mean I understand what is sitting there. An ordinary plant can be an expensive lesson.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3348_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3348",
+    "spoken": "[thoughtful] [matter-of-fact] Yelmak wanted Whuut to give the local plants another look. The apprentice has talent, but talent needs practice as well as rare ingredients. I helped gather what Yelmak needed for the lesson. New eyes on old ingredients can lead somewhere interesting, if pride leaves enough room for a useful question.",
+    "text": "Yelmak wanted Whuut to give the local plants another look. The apprentice has talent, but talent needs practice as well as rare ingredients. I helped gather what Yelmak needed for the lesson. New eyes on old ingredients can lead somewhere interesting, if pride leaves enough room for a useful question.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3364_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

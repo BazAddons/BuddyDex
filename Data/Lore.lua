@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Boorand Plainswind, Crossroads, The Barrens,3934/3881.
+    -- Adult male Tauren, current Horde-friendly innkeeper/vendor. His wind
+    -- welcome and shared dungeon directions are real; long farewells ours.
+    -- Research: docs/research/crossroads-farewells-and-orgrimmar-herbs.md.
+    [3934] = {
+        quote = "A farewell should leave room for one more useful thing. That is why mine sometimes takes longer than the journey to the door.",
+        likes = { "A familiar face coming through the door", "An unhurried farewell", "News of the road brought back in person" },
+        dislikes = { "A guest leaving without needed supplies", "A welcome offered only to the important", "Calling someone back for a trivial thing" },
+        gossip = "Boorand can say farewell several times before a guest reaches the door. There is usually one more thing he hopes will help along the road.",
+        bio = "Boorand keeps the Crossroads inn in the Barrens, welcoming travelers like the wind on the plains. He offers food, drink and a place to bind a hearthstone. His directions can lead toward a dungeon; his welcome leaves room for the journey back.",
+        backstory = "Working at a crossroads has given Boorand many chances to practice a farewell. He still thinks of another useful detail as a guest reaches the door. He tries to remember it sooner next time, with little lasting success.",
+        secret = "He once called a guest back three times, then forgot his own errand on the way outside. He remembered it while saying farewell to someone else.",
+        bestFriend = "Stay a little longer, if your road allows it. I enjoy your company before I have thought of anything useful to say.",
+        favorite = { emote = "WAVE", hint = "A familiar parting gesture suits a host who always seems to have one more thing to add." },
+        lines = {
+            greet = { { "Welcome back, friend. Have you come a long way, or only far enough to remember something you meant to ask? Either way, you are welcome here. I shall try to give you everything useful before you reach the door. That would make a pleasant change for both of us.", tone = "[warm] [welcoming] [gently amused]" },
+                "There you are. Come in, and tell me how the road treated you." },
+            idle = { { "I once called a traveler back three times before he managed to leave. Food for the road, a direction he had asked about, and something else that seemed important. Then I went outside and forgot my own errand. Remembered it while saying farewell to the next person. A well-practiced habit.", tone = "[conversational] [wry]" },
+                "At a crossroads, a farewell may be the beginning of a familiar face returning.",
+                "I am trying to think of the useful thing before you reach the door this time." },
+            befriended = { { "You have become someone I look forward to seeing before I know what you need. I would be glad to walk with you, friend. We can begin without making a ceremony of leaving. I shall save at least one farewell for when we actually part, though you may have to remind me.", tone = "[warm] [sincere] [gently playful]" } },
+            poke = { "Yes? Have I remembered something, or have you?", "You have my attention. There is no need to call from the doorway." },
+            hearth = { { "Back to the Crossroads. Let the road wait while you come inside. There is food and drink, and I would like to hear how the journey went. Tell me before you are ready to leave again. I have a habit of remembering my best questions as someone reaches the door.", tone = "[welcoming] [easygoing]" } },
+            bagsFull = { "Make room for the supplies you will want after the things you are carrying have been sold." },
+            taxi = { "Safe travels. And before you go... ah, you see how it happens." },
+            dungeon = { "Ask your directions before setting out. It is easier to begin a long journey from the right road." },
+            rest = { "You are welcome to sit without preparing a reason to leave." },
+            lowHealth = { "Back to safety, friend. We can talk when you are well enough to enjoy it." },
+            laughAlong = { "Yes, that was another farewell. You may count them if it amuses you." },
+        },
+    },
+
+    -- Kor'geld <Alchemy Supplies>, Yelmak's Alchemy and Potions,3348/1369.
+    -- Adult male Orc, current Horde-friendly. Forever97242/97275 establish
+    -- the local-herb lesson; Yelmak brews it and Whuut learns, not Kor'geld.
+    -- His expensive ordinary-herb reminder is original. Research below.
+    -- Research: docs/research/crossroads-farewells-and-orgrimmar-herbs.md.
+    [3348] = {
+        quote = "Rare is a useful word for stocktaking. It is a poor substitute for understanding what grows outside.",
+        likes = { "Fresh attention paid to familiar plants", "Useful questions about ordinary supplies", "Talent willing to practice the basics" },
+        dislikes = { "Rarity mistaken for understanding", "Pride that will not ask for help", "Good ingredients wasted on impatience" },
+        gossip = "Kor'geld has little patience for boasting about a rare ingredient. Ask him what the common plants can do, and the conversation improves.",
+        bio = "Kor'geld supplies alchemists at Yelmak's shop in Orgrimmar. He gathers help finding local cattail and speargrass for Yelmak's lesson to Whuut. New recipes, he believes, can begin when fresh eyes return to old ingredients.",
+        backstory = "Kor'geld once paid well for an unfamiliar dried herb, then learned the same plant grew along his usual walk. He kept the wrapping as a reminder. An impressive journey to the shelf does not make an ingredient better understood.",
+        secret = "He still has that expensive herb's wrapping. The plant was ordinary; the reminder has lasted. He would rather you ask about it than pretend you knew all along.",
+        bestFriend = "Walk with me. Show me something familiar that I have stopped noticing. I enjoy seeing the ordinary world through your eyes.",
+        favorite = { emote = "NOD", hint = "An attentive sign that a simple lesson has landed pleases him more than an impressive boast." },
+        lines = {
+            greet = { { "Welcome back. Do you need supplies, or have you found something worth a closer look? It need not be rare. We pass useful things every day while imagining that the answer must grow somewhere more distant. Tell me what caught your attention before you tell me how difficult it was to obtain.", tone = "[steady] [welcoming] [thoughtful]" },
+                "Good to see you. What have you noticed since we last spoke?" },
+            idle = { { "I once paid rather well for an unfamiliar dried herb. Then someone showed me the same plant growing beside my usual walk. I kept the wrapping. It reminds me that an impressive journey to the shelf does not mean I understand what is sitting there. An ordinary plant can be an expensive lesson.", tone = "[dry] [self-deprecating]" },
+                "A familiar ingredient may still have something to teach the person who has stopped noticing it.",
+                "There is no shame in asking for help. Wasting good supplies to protect your pride is another matter." },
+            befriended = { { "You pay attention to the ordinary things, and you are willing to ask what you have missed. I enjoy that in a companion. Come along, friend. Show me something familiar through your eyes. I shall try to notice it before deciding that I already know everything worth knowing about it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Something worth another look?", "I am listening. There is no need to dress the question in a grander name." },
+            learned = { { "Yelmak wanted Whuut to give the local plants another look. The apprentice has talent, but talent needs practice as well as rare ingredients. I helped gather what Yelmak needed for the lesson. New eyes on old ingredients can lead somewhere interesting, if pride leaves enough room for a useful question.", tone = "[thoughtful] [matter-of-fact]" } },
+            quest = { "If Yelmak needs those cuttings, look around the water in the Valley of Honor. There is value growing close to home." },
+            loot = { "Look at what you found before judging it by how far you traveled." },
+            bagsFull = { "You need not carry something merely because it was difficult to find." },
+            zone = { "Different ground. Let us notice the familiar things as carefully as the strange ones." },
+            rest = { "We can talk without turning every subject into a lesson." },
+            hearth = { "Back to Orgrimmar. The common plants will still be doing useful things without an audience." },
+        },
+    },
+
     -- Archaeologist Hollee <Explorers' League>, Auberdine, Darkshore.
     -- Adult female Dwarf, 2913/1286, current Alliance-friendly. Remtravel
     -- assignment, golem danger, fossil referral; Forever98461 Tarrel note.

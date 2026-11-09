@@ -559,6 +559,46 @@
     "text": "That is useful work. A creature helped or a finding understood gives us something to build upon. Thank you for bringing your care as well as your strength to it.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3934_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3934",
+    "spoken": "[warm] [sincere] [gently playful] You have become someone I look forward to seeing before I know what you need. I would be glad to walk with you, friend. We can begin without making a ceremony of leaving. I shall save at least one farewell for when we actually part, though you may have to remind me.",
+    "text": "You have become someone I look forward to seeing before I know what you need. I would be glad to walk with you, friend. We can begin without making a ceremony of leaving. I shall save at least one farewell for when we actually part, though you may have to remind me.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3934_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3934",
+    "spoken": "[warm] [welcoming] [gently amused] Welcome back, friend. Have you come a long way, or only far enough to remember something you meant to ask? Either way, you are welcome here. I shall try to give you everything useful before you reach the door. That would make a pleasant change for both of us.",
+    "text": "Welcome back, friend. Have you come a long way, or only far enough to remember something you meant to ask? Either way, you are welcome here. I shall try to give you everything useful before you reach the door. That would make a pleasant change for both of us.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3934_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:3934",
+    "spoken": "[welcoming] [easygoing] Back to the Crossroads. Let the road wait while you come inside. There is food and drink, and I would like to hear how the journey went. Tell me before you are ready to leave again. I have a habit of remembering my best questions as someone reaches the door.",
+    "text": "Back to the Crossroads. Let the road wait while you come inside. There is food and drink, and I would like to hear how the journey went. Tell me before you are ready to leave again. I have a habit of remembering my best questions as someone reaches the door.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3934_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3934",
+    "spoken": "[conversational] [wry] I once called a traveler back three times before he managed to leave. Food for the road, a direction he had asked about, and something else that seemed important. Then I went outside and forgot my own errand. Remembered it while saying farewell to the next person. A well-practiced habit.",
+    "text": "I once called a traveler back three times before he managed to leave. Food for the road, a direction he had asked about, and something else that seemed important. Then I went outside and forgot my own errand. Remembered it while saying farewell to the next person. A well-practiced habit.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore6410_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
