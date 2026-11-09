@@ -319,6 +319,46 @@
     "text": "Hold on to your hat! Yes, even the expensive one. Especially the expensive one!",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1351_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:1351",
+    "spoken": "[considerate, practical encouragement, calm] Perhaps we should make room before adding anything more. Keep the little things where they will not be crushed or forgotten.",
+    "text": "Perhaps we should make room before adding anything more. Keep the little things where they will not be crushed or forgotten.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1351_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1351",
+    "spoken": "[sincere gratitude, affectionate, warmly inviting] You came to bring me along. Thank you. I am glad of your friendship, and glad to share a little of the road with you.",
+    "text": "You came to bring me along. Thank you. I am glad of your friendship, and glad to share a little of the road with you.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1351_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1351",
+    "spoken": "[gentle warmth, courteous, lightly amused] Welcome, my friend. Are we going out? Give me a moment. I should like to leave this little puzzle behind before it occupies the whole day.",
+    "text": "Welcome, my friend. Are we going out? Give me a moment. I should like to leave this little puzzle behind before it occupies the whole day.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1351_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1351",
+    "spoken": "[reflective, humble amusement, confiding] The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.",
+    "text": "The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1427_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

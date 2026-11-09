@@ -479,6 +479,46 @@
     "text": "People hear of the Stockade, and the Defias, and the bandanas. His name was Mac. I would like them to remember that too.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore2327_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2327",
+    "spoken": "[sincere affection, quietly pleased, relaxed] You thought of me. Thank you, my friend. I am glad to come along. We can take a little time for ourselves today.",
+    "text": "You thought of me. Thank you, my friend. I am glad to come along. We can take a little time for ourselves today.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2327_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2327",
+    "spoken": "[calm warmth, attentive curiosity, welcoming] Good to see you. Shall we have a walk? I would like to hear what you have been learning away from the cathedral.",
+    "text": "Good to see you. Shall we have a walk? I would like to hear what you have been learning away from the cathedral.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2327_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2327",
+    "spoken": "[gentle self-deprecating humor, thoughtful, reassuring] I kept an old practice roll. Quite a dreadful little bundle. It helps me remember that a first attempt is allowed to look like one.",
+    "text": "I kept an old practice roll. Quite a dreadful little bundle. It helps me remember that a first attempt is allowed to look like one.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2327_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2327",
+    "spoken": "[patient encouragement, approving, warm] There. Better than the last attempt. Take a moment to be pleased with that before deciding how far you still have to go.",
+    "text": "There. Better than the last attempt. Take a moment to be pleased with that before deciding how far you still have to go.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore2329_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

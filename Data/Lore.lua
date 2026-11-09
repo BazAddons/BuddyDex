@@ -42,6 +42,60 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Cathedral of Light, Stormwind. Shaina Fuller 2327: human female
+    -- First Aid Trainer; Deneb Walker book and Gustaf VanHowzen referrals.
+    -- Brother Cassius 1351: human male Reagent Vendor; offers a blessing
+    -- and help browsing. Original practice roll and wooden puzzle hooks:
+    -- docs/research/fuller-and-cassius.md. No later comic meeting imported.
+    [2327] = {
+        quote = "Show me where you got stuck. We can make something useful of a mistake once you stop being ashamed to show it.",
+        likes = { "A learner willing to ask for help", "Knowing when to seek another teacher", "Patient practice without an audience" },
+        dislikes = { "Mocking someone's first attempt", "Pretending to know beyond one's skill", "Calling care for others beneath notice" },
+        gossip = "Shaina treats awkward first attempts kindly. Her own untidy old practice roll may have something to do with it.",
+        bio = "Shaina Fuller teaches first aid in Stormwind's Cathedral of Light. She welcomes fellow physicians and wants their learning to help them on the road. She points students toward Deneb Walker's book in Stromgarde and Doctor VanHowzen in Theramore.",
+        backstory = "Shaina does not see another teacher's expertise as a slight to her own. There is always more to learn. A lesson goes better when a student can admit what is difficult, a habit she has tried to keep in herself as well.",
+        secret = "She kept one of her earliest practice rolls. It is a dismal little bundle. She looks at it when her patience grows thin, then remembers to let the next learner begin again.",
+        bestFriend = "You may be unsure with me. You needn't arrive with everything mastered. Sit beside me, and tell me what you have been trying to learn.",
+        favorite = { emote = "THANK", hint = "A little gratitude recognizes a patient teacher's time and care." },
+        lines = {
+            greet = { { "Good to see you. Shall we have a walk? I would like to hear what you have been learning away from the cathedral.", tone = "[calm warmth, attentive curiosity, welcoming]" }, "There you are. Have you time for some company?" },
+            idle = { { "I kept an old practice roll. Quite a dreadful little bundle. It helps me remember that a first attempt is allowed to look like one.", tone = "[gentle self-deprecating humor, thoughtful, reassuring]" }, "It is good to know when another teacher can help you further.", "A question is easier to help with when someone is willing to ask it." },
+            befriended = { { "You thought of me. Thank you, my friend. I am glad to come along. We can take a little time for ourselves today.", tone = "[sincere affection, quietly pleased, relaxed]" } },
+            poke = { "Yes? Tell me what you need.", "Gently, now. You have my attention." },
+            learned = { { "There. Better than the last attempt. Take a moment to be pleased with that before deciding how far you still have to go.", tone = "[patient encouragement, approving, warm]" } },
+            quest = { "Something useful done for someone else. Well done." },
+            bagsFull = { "Keep what you need where you can find it." },
+            rest = { "A pause would do us good. You needn't earn every moment of rest." },
+            zone = { "New surroundings. There may be someone here with something to teach us." },
+            comforted = { "You can sit with me. There is no need to explain before you are ready." },
+            hearth = { "Back to the cathedral. I wonder what the next learner will ask." },
+        },
+    },
+    [1351] = {
+        quote = "May your journey begin well. And if there is some small thing you still need, there is time to ask before you go.",
+        likes = { "A traveler who checks the little things", "Patient work on a stubborn puzzle", "A blessing offered back in kindness" },
+        dislikes = { "A parcel crushed beneath heavier gear", "Confusing haste with preparedness", "Giving up on someone too quickly" },
+        gossip = "Cassius has a blessing for travelers. Between visitors, two little wooden rings seem to demand all his patient attention.",
+        bio = "Brother Cassius supplies reagents at Stormwind's Cathedral of Light. A member of the Church of the Holy Light, he welcomes travelers with a blessing and offers help browsing. The small things needed for a journey deserve some patient attention.",
+        backstory = "Cassius has come to value the questions asked before a traveler leaves. There is comfort in a small difficulty put right. Away from his supplies, he spends some of that same patience on a puzzle made of interlocking wooden rings.",
+        secret = "He has not separated the rings yet. Asking for help is proving oddly difficult for someone who offers it so readily. He hopes a friend will be curious enough to try.",
+        bestFriend = "Here, have a look. I should be glad of your help. We needn't solve it before we enjoy the time together. Shall I start us some tea?",
+        favorite = { emote = "PRAISE", hint = "A kind word offered back may encourage someone who sends others away with a blessing." },
+        lines = {
+            greet = { { "Welcome, my friend. Are we going out? Give me a moment. I should like to leave this little puzzle behind before it occupies the whole day.", tone = "[gentle warmth, courteous, lightly amused]" }, "It is good to see you. Have you everything you need for the road?" },
+            idle = { { "The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.", tone = "[reflective, humble amusement, confiding]" }, "A small question before departure can spare a larger worry on the road.", "There is time to look properly. I would rather help than hurry you." },
+            befriended = { { "You came to bring me along. Thank you. I am glad of your friendship, and glad to share a little of the road with you.", tone = "[sincere gratitude, affectionate, warmly inviting]" } },
+            poke = { "Yes, my friend? What can I help with?", "Ah. I was considering those rings again. You have rescued me." },
+            bagsFull = { { "Perhaps we should make room before adding anything more. Keep the little things where they will not be crushed or forgotten.", tone = "[considerate, practical encouragement, calm]" } },
+            loot = { "Something you needed? Good. Take care of it." },
+            mail = { "Some news to carry with you, perhaps. I hope it is welcome." },
+            quest = { "May the kindness you have offered find its way back to you." },
+            zone = { "Another stretch of road. I am glad of the company." },
+            rest = { "A quiet seat would be welcome. Would you care to try a little puzzle?" },
+            hearth = { "Back to my corner of the cathedral. Thank you for sharing the journey." },
+        },
+    },
+
     -- Aldwin Laughlin 4974: human male Guild Master at Stormwind's
     -- Visitor's Center; installed guild-registry welcome. Nikova Raskol
     -- 1721: human female, Old Town; The Color of Blood 388, Mac's
