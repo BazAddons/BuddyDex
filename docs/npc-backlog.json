@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 144,
-  "remaining_count": 73,
+  "completed_count": 146,
+  "remaining_count": 71,
   "completed": [
     {
       "npc_id": 54,
@@ -472,6 +472,15 @@
     {
       "npc_id": 1351,
       "name": "Brother Cassius",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 1402,
+      "name": "Topper McNabb",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
@@ -1271,6 +1280,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 14450,
+      "name": "Orphan Matron Nightingale",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 14842,
       "name": "Melnan Darkstone",
       "zone": "Ironforge",
@@ -1566,13 +1584,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 14450,
-      "name": "Orphan Matron Nightingale",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 918,
       "name": "Osborne the Night Man",
       "zone": "Stormwind City",
@@ -1617,13 +1628,6 @@
     {
       "npc_id": 1429,
       "name": "Thurman Schneider",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 1402,
-      "name": "Topper McNabb",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

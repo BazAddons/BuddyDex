@@ -559,6 +559,46 @@
     "text": "The wooden rings are meant to come apart. I have yet to persuade them. Perhaps I should practice accepting the help I am so ready to offer.",
     "voice_id": "O7V4YABJUNMVqaNkOPe8"
   },
+  "lore1402_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1402",
+    "spoken": "[surprised affection, restrained pleasure, inviting] You came to bring me along. Well, I'm glad of that. Come on, friend. A walk with someone who wants the company sounds good to me.",
+    "text": "You came to bring me along. Well, I'm glad of that. Come on, friend. A walk with someone who wants the company sounds good to me.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1402_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1402",
+    "spoken": "[rough warmth, cautious hope, conversational] Ah, there you are. Have you time for a walk? I've got a little plan. One bean, bit of cloth, nowhere to plant it yet. You may know a place with decent soil.",
+    "text": "Ah, there you are. Have you time for a walk? I've got a little plan. One bean, bit of cloth, nowhere to plant it yet. You may know a place with decent soil.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1402_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1402",
+    "spoken": "[guarded tenderness, quiet hope, confiding] One bean. I call it seed, you understand. Makes tomorrow sound a bit more open. Haven't chosen the ground yet. I'd like someone there when I do. No grand occasion. Just company.",
+    "text": "One bean. I call it seed, you understand. Makes tomorrow sound a bit more open. Haven't chosen the ground yet. I'd like someone there when I do. No grand occasion. Just company.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore1402_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:1402",
+    "spoken": "[tentative curiosity, practical interest, quietly hopeful] Different ground here. Give me a moment to look. A small thing might grow in the right patch, even if nobody has given the place much thought.",
+    "text": "Different ground here. Give me a moment to look. A small thing might grow in the right patch, even if nobody has given the place much thought.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore1427_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

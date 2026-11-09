@@ -42,6 +42,61 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Orphan Matron Nightingale 14450, human female, Cathedral Square:
+    -- Children's Week, war's cost to children, Forever Heartweaver letter
+    -- 92415/95161; she knows Jeremy's adoption, not the full Horde account.
+    -- Topper McNabb 1402, human male, Trade District: alms, armor polishing,
+    -- comic promises and farm complaints. Original ghost-story delivery
+    -- and saved seed: docs/research/nightingale-and-mcnabb.md.
+    [14450] = {
+        quote = "A child needs more than a safe roof. Give them something wonderful to remember, and someone who will listen when they come home to tell it.",
+        likes = { "A promise to a child kept carefully", "News of a former ward's new home", "A spooky story ending in giggles" },
+        dislikes = { "Children forgotten in accounts of war", "Kindness offered only for an audience", "A visitor too hurried to hear an answer" },
+        gossip = "Nightingale can explain why a child's outing matters. Her ghost-story voice is less solemn, especially once she starts smiling.",
+        bio = "Nightingale cares for children in Stormwind's Cathedral Square. Children's Week lets a ward see the world with an adventurer. She remembers Jeremy Heartweaver and directs a search for him to his adoptive mother, Avette Fellwood.",
+        backstory = "She asks people to notice the children left behind by war. An outing can give a ward discoveries and stories to bring home. Even the matrons' spooky tales become something to look forward to, with an attentive grown-up close enough to hear the questions.",
+        secret = "Her fearsome ghost voice rarely survives the first delighted interruption. She tries to keep looking mysterious. Once the children start giggling, she is usually smiling too.",
+        bestFriend = "Come and sit, my friend. Tell me something good you have seen. There is room for another cheerful story here, and I am glad of your company.",
+        favorite = { emote = "COMFORT", hint = "A reassuring gesture is welcome to someone who spends her days caring for others." },
+        lines = {
+            greet = { { "Welcome, my friend. Have you time for a little walk? Tell me something wonderful you have seen. A small discovery can make a very good story for someone who has not been there.", tone = "[gentle authority, interested warmth, welcoming]" }, "Good to see you. Have you news, or shall we enjoy a little quiet company?" },
+            idle = { { "I try to give the ghost a fearsome voice. Then someone interrupts with a delighted question, and there goes my mysterious expression. It is difficult to haunt a room while smiling.", tone = "[fond amusement, playful warmth, tender]" }, "It is good to hear how a child is doing after they have left our care.", "A promise kept can matter long after the exciting part of an outing is over." },
+            befriended = { { "You came to bring me along. I am glad, my friend. Come on. It will be lovely to share a little of the day and hear how you have been.", tone = "[warm affection, pleased, inviting]" } },
+            poke = { "Yes, dear? I am listening.", "Have you a question? Take your time." },
+            quest = { { "You made time to help. I hope you will remember to return when there is no task waiting, too. Being glad to see someone needn't depend on an errand.", tone = "[sincere appreciation, gentle encouragement, warm]" } },
+            mail = { "A letter? I hope there is welcome news of someone you have been thinking of." },
+            zone = { "Somewhere new to look around. What do you think someone at home would like to hear about?" },
+            loot = { "Something worth keeping? Perhaps there is a pleasant story to go with it." },
+            levelUp = { "I am glad to see you doing well. Take care of yourself on the road ahead." },
+            rest = { "A seat would be welcome. Tell me what has been on your mind." },
+            hearth = { "Back to Stormwind. There will be familiar faces, and plenty of questions." },
+        },
+    },
+    [1402] = {
+        quote = "A bloke can have a sharp tongue and still be glad you stopped. Give me a moment to get past the speech, and I might ask how you're doing.",
+        likes = { "A meal before another long speech", "Good soil with something growing in it", "Company that stays for the answer" },
+        dislikes = { "A farm caught in somebody else's war", "Being spoken of as though he isn't here", "A kind expression turned into a joke" },
+        gossip = "Topper has a complaint and a pitch for most passersby. Stay a little longer, and he may ask if you have seen a good patch of soil.",
+        bio = "Topper McNabb asks for alms in Stormwind's Trade District. His street calls offer armor polishing, promise repayment and complain of a farm caught between Alliance towers and orc attacks. His complaints have room for both armies.",
+        backstory = "His calls mix hunger, jokes and blame. Away from the pitch, he likes to think about growing things again. One bean wrapped in a scrap of cloth has become a very small plan, waiting for a patch of good ground.",
+        secret = "He hasn't decided where to plant it. Calling it seed instead of supper makes the future feel a little less finished. He would rather have company than advice on how much it is worth.",
+        bestFriend = "Walk with me. If you see good soil, point it out. I haven't forgotten how to begin. It would be good to have company.",
+        favorite = { emote = "SMILE", hint = "An ordinary kind expression can welcome the person behind a familiar street call." },
+        lines = {
+            greet = { { "Ah, there you are. Have you time for a walk? I've got a little plan. One bean, bit of cloth, nowhere to plant it yet. You may know a place with decent soil.", tone = "[rough warmth, cautious hope, conversational]" }, "Good to see you. You stopping for a talk, then?" },
+            idle = { { "One bean. I call it seed, you understand. Makes tomorrow sound a bit more open. Haven't chosen the ground yet. I'd like someone there when I do. No grand occasion. Just company.", tone = "[guarded tenderness, quiet hope, confiding]" }, "I remember what good soil feels like. Funny, the things a bloke keeps hold of.", "I do notice when someone stays to hear the answer." },
+            befriended = { { "You came to bring me along. Well, I'm glad of that. Come on, friend. A walk with someone who wants the company sounds good to me.", tone = "[surprised affection, restrained pleasure, inviting]" } },
+            poke = { "Aye? I'm here. What is it?", "You have my attention. Tell me." },
+            zone = { { "Different ground here. Give me a moment to look. A small thing might grow in the right patch, even if nobody has given the place much thought.", tone = "[tentative curiosity, practical interest, quietly hopeful]" } },
+            loot = { "Something useful? Worth having a proper look before you throw it away." },
+            bagsFull = { "Might be something in there you don't need to carry any further." },
+            quest = { "Done, then? Have you time to catch your breath before they want something else?" },
+            mail = { "A letter? Hope it's somebody pleased to hear from you." },
+            rest = { "A seat sounds good. Stay and talk a bit, if you like." },
+            hearth = { "Back to Stormwind. Good to have company for the return, too." },
+        },
+    },
+
     -- Trade District: Melris Malagan 12480, human male Captain of the Guard;
     -- Justine Demalier 12481, human female Stormwind Recruiter. Shared
     -- Classic recruitment dialogue recognizes heroes and sends them to

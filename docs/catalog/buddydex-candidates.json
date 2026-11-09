@@ -26299,7 +26299,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -33747,7 +33747,7 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39191,6 +39191,17 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 14450,
+      "name": "Orphan Matron Nightingale",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Orphan Matron Nightingale",
+      "zone": "Stormwind City",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 274917,
       "name": "Boborus Overvolt",
       "source": "Existing local backlog; absent from source filter",
@@ -39416,17 +39427,6 @@
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": true,
       "scout_name": "Ol' Beasley",
-      "zone": "Stormwind City",
-      "scout_reaction": 5,
-      "scout_attackable": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 14450,
-      "name": "Orphan Matron Nightingale",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": true,
-      "scout_name": "Orphan Matron Nightingale",
       "zone": "Stormwind City",
       "scout_reaction": 5,
       "scout_attackable": false,
