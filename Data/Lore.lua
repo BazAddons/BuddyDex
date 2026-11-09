@@ -83,6 +83,42 @@ ns.Lore = {
         },
     },
 
+    -- Dungar Longdrink <Gryphon Master>, Stormwind. Human, male; NPC 352.
+    -- Facts: Stormwind flight master; Classic courier chain 6181 -> 6281
+    -- -> 6261 -> 6285 links Lewis, Thor, Osric and Dungar. His progress
+    -- dialogue recommends flying over running; he explains route training.
+    -- Singing, handling habits and personal dialogue are BuddyDex fiction.
+    -- Excludes the later Goldshire/Argus rewrite, Lunarfall and Hearthstone
+    -- characterization. Sources: docs/research/dungar-longdrink.md.
+    [352] = {
+        quote = "The gryphon knows the way. Your job is to hold on and enjoy having somewhere to sit for a change.",
+        likes = { "A confident first-time flyer", "Secure straps and balanced parcels", "A clean landing at Sentinel Hill" },
+        dislikes = { "Loose buckles", "Couriers running past the roost", "Being interrupted during feeding" },
+        gossip = "Some riders swear they've heard singing from Dungar's roost after dark. He blames a squeaky saddle every time.",
+        bio = "Dungar Longdrink runs Stormwind's gryphon roost. Osric Strang sends couriers to him with armor for "
+            .. "Quartermaster Lewis. Dungar arranges the flight to Thor at Sentinel Hill and explains how the trained routes work.",
+        backstory = "Talking over hungry gryphons taught Dungar to keep instructions short. A nervous rider needs a "
+            .. "steady voice, a checked buckle and a clear destination. He saves his longer speeches for people who insist that walking will be quicker.",
+        secret = "He sings to restless hatchlings. He can't hold a tune, but they settle down anyway. He suspects they do it to make him stop; he keeps singing just in case.",
+        bestFriend = "Stay a while after the last flight. You can help settle the little ones. If Thor asks about the singing, you heard nothing.",
+        favorite = { emote = "CHEER", hint = "Thinks conquering your first flight jitters deserves a celebration." },
+        lines = {
+            greet = { "A journey on foot? I'll try to remember how those work.", "Right, then. Who's watching the gryphons?" },
+            idle = { "You can tell a hungry gryphon from a cross one. Usually.",
+                "Thor will say his birds are faster. Ask him which way the wind was blowing.",
+                "No, I wasn't humming. That was my boot." },
+            befriended = { "A familiar face at the roost. Makes the whole day easier." },
+            poke = { "That's where a gryphon would nip you back.", "Easy. I'm not a saddle that needs adjusting." },
+            taxi = { "Straps first. Admire the view once we're clear." },
+            landed = { "There! A proper landing. Give the bird a little credit." },
+            quest = { "A delivery? Osric's crates would look light beside that lot." },
+            bagsFull = { "Pack it evenly. One side shouldn't weigh more than the rider." },
+            mount = { "Perfectly respectable. Bit short on wings, though." },
+            levelUp = { "Look at you now! Hard to believe you ever needed directions." },
+            hearth = { "Neat trick. Doesn't give you much of a view, mind." },
+        },
+    },
+
     -- Marshal Dughan, Goldshire, Elwynn Forest. Human, male; NPC 240.
     -- Facts: Stormwind marshal responsible for Goldshire and nearby roads.
     -- Fargodeep/Jasperlode scouting text asks for confirmed kobold reports.
