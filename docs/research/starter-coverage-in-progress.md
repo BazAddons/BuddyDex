@@ -56,6 +56,10 @@ Sten Stoutarm is now complete; see [his full research](sten-stoutarm.md). Coldri
 
 ## Zephras coverage underway
 
+### Next CurseForge release milestone
+
+User authorized publishing to CurseForge when the addon reaches a good release point (2026-11-09). Use the initial five-completed-Buddies-per-starting-experience milestone, including verified access for both Skyborne paths, as that checkpoint. Preserve full lore and audio standards; do not count pending candidates or infer faction access from race. After reaching it, review the initial-release description and changelog, run the release checks, refresh and verify the v001 ZIP, and publish it to the existing BuddyDex CurseForge project. Confirm the actual project and account through the available authenticated service before uploading; no CurseForge project ID or upload integration is currently recorded in the repository. Publication authorization does not imply that the wider NPC-profile goal is finished.
+
 Nyalah Brightfire is complete with fifteen personal lines and four female Skyborne v4 signatures; see [her research](nyalah-brightfire.md). Current explicit friendly icons and both-faction quest access support one shared profile for either starter path. This remains one unique NPC, and both five-profile milestones are still open. The audit now has 272 unique profiles: 187 Alliance-access listings, 27 Horde-access listings and 59 unverified; the shared listing makes faction access totals overlap.
 
 The [Zephras research queue](zephras-first-candidates.md) and machine-readable priorities now include early guides, a Windshaper guide, an innkeeper and faction-specific shaman trainers. A sparse public quest-tab listing is not taken as proof of no chain. Complete the full linked quests before authoring.
