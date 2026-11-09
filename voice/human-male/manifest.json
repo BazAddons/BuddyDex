@@ -701,6 +701,46 @@
     "spoken": "[contentedly] There we are. Sit before your knees make the decision for you.",
     "text": "There we are. Sit before your knees make the decision for you."
   },
+  "lore328_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:328",
+    "spoken": "[reserved, sincere voice, gentle warmth] You ask what interests me when there isn't a lesson to be had. I appreciate that more than I expected.",
+    "text": "You ask what interests me when there isn't a lesson to be had. I appreciate that more than I expected.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore328_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:328",
+    "spoken": "[composed, precise voice, dry amusement] Good. A walk gives us time to observe things without setting any of them alight.",
+    "text": "Good. A walk gives us time to observe things without setting any of them alight.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore328_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:328",
+    "spoken": "[thoughtful, quietly delighted voice] A thing needn't be enchanted to deserve a closer look.",
+    "text": "A thing needn't be enchanted to deserve a closer look.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
+  "lore328_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:328",
+    "spoken": "[measured, approving voice, curious invitation] Well done. Tell me what you observed, not only what you expected to find.",
+    "text": "Well done. Tell me what you observed, not only what you expected to find.",
+    "voice_id": "O7V4YABJUNMVqaNkOPe8"
+  },
   "lore352_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

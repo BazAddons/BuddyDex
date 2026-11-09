@@ -1,5 +1,11 @@
 # BuddyDex art, icons and polish assets (WoW Forever / Camelot build 1.60.1.70338)
 
+## November 8 portrait and progress-bar adjustment
+
+Toast and journal row portraits now share `Art.CreatePortraitBorder`: the existing `TempPortraitAlphaMask` clips live/cached portraits inside an original neutral beveled ring (`Media/PortraitRing.tga`, 128x128 RGBA, transparent center). The mask is inset by one sixteenth of the icon's size to meet the ring's inner edge. Rarity still tints the ring. The mask is created once with its row/toast and remains attached across portrait/fallback changes.
+
+Friendship bars retain the native gold track and text but own the fill texture/geometry: three-pixel horizontal insets, height minus six, and a hidden fill at zero. This avoids atlas padding and native-size resets on differently sized bars. The original native fill mask is detached from that replacement fill. Ad hoc mock checks cover empty/40%/full/max at toast, list and detail sizes and both template/fallback paths. Live-client visual verification remains a separate check after reload.
+
 ## Summary
 
 Camelot belongs to the "mainline" load family. Each .toc says "[AllowLoadGameType mainline] [ExcludeLoadGameType camelot]" whenever a Mainline file must be kept out, so mainline-tagged and [Family]=Mainline files do load for Camelot. Inside the load-on-demand Blizzard_Collections, Camelot loads Mainline/Blizzard_MountCollection.* and Classic/Blizzard_PetCollection.*. Everything below either appears in code this client loads or exists as a file in the art export. BuddyDex can copy the journal look without loading Blizzard_Collections.

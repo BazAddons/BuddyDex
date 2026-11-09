@@ -95,9 +95,7 @@ local function Build()
     f.Icon = f:CreateTexture(nil, "ARTWORK")
     f.Icon:SetSize(PORTRAIT, PORTRAIT)
     f.Icon:SetPoint("LEFT", INSET, 0)
-    f.IconBorder = f:CreateTexture(nil, "OVERLAY")
-    f.IconBorder:SetAllPoints(f.Icon)
-    if art.ICON_BORDER then f.IconBorder:SetTexture(art.ICON_BORDER) end
+    f.IconBorder = art.CreatePortraitBorder(f, f.Icon, PORTRAIT)
 
     f.Name = f:CreateFontString(nil, "ARTWORK", "GameFontNormalMed2")
     f.Name:SetPoint("TOPLEFT", f, "TOPLEFT", CONTENT_LEFT, -11)

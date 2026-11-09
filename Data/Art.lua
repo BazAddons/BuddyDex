@@ -52,6 +52,24 @@ Art.NEW_GLOW = "collections-newglow"
 -- Row icons. The border is white so it can be tinted by rarity, the way
 -- the pet journal tints it by quality.
 Art.ICON_BORDER = "Interface\\Common\\WhiteIconFrame"
+Art.PORTRAIT_BORDER = "Interface\\AddOns\\BuddyDex\\Media\\PortraitRing.tga"
+Art.PORTRAIT_MASK = "Interface\\CharacterFrame\\TempPortraitAlphaMask"
+
+-- The live portrait renderer can draw past its nominal texture bounds.
+-- Mask the image inside a circular rim, shared by cached and live heads
+-- and by the creature-type fallback. Build once per pooled row/toast.
+function Art.CreatePortraitBorder(parent, portrait, size)
+    local mask = parent:CreateMaskTexture()
+    mask:SetTexture(Art.PORTRAIT_MASK, "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE")
+    local inset = size / 16
+    mask:SetPoint("TOPLEFT", portrait, "TOPLEFT", inset, -inset)
+    mask:SetPoint("BOTTOMRIGHT", portrait, "BOTTOMRIGHT", -inset, inset)
+    portrait:AddMaskTexture(mask)
+    local border = parent:CreateTexture(nil, "OVERLAY")
+    border:SetAllPoints(portrait)
+    border:SetTexture(Art.PORTRAIT_BORDER)
+    return border
+end
 Art.EMPTY_ICON = "Interface\\PetBattles\\MountJournalEmptyIcon"
 Art.UNKNOWN_ICON = "Interface\\Icons\\INV_Misc_QuestionMark"
 
@@ -461,9 +479,12 @@ end
 -- Friendship bars ------------------------------------------------------------------
 -- The bar Forever's own reputation panel draws (ReputationBarTemplate is
 -- ColoredProgressBarTemplate at 160 x 29, Blizzard_UIPanels_Game/Camelot/
--- ReputationFrame.xml:56), so friendship reads like reputation. It sizes its
--- fill from its width, so every bar is given an explicit size.
+-- ReputationFrame.xml:56), so friendship reads like reputation.
+-- Background/text are native. Own the fill geometry so atlas padding and
+-- native-size resets cannot leave a gap inside a short or wide track.
 local BAR_TEMPLATE = "ColoredProgressBarTemplate"
+local BAR_COLORS = { Red = { 0.85, 0.2, 0.2 }, Green = { 0.2, 0.8, 0.2 },
+    Blue = { 0.2, 0.55, 1 }, White = { 0.85, 0.85, 0.85 } }
 
 function Art.CreateFriendshipBar(parent, width, height, font)
     height = height or 29
@@ -484,19 +505,28 @@ function Art.CreateFriendshipBar(parent, width, height, font)
         bar.Fill:SetColorTexture(0.25, 0.8, 0.25)
         bar.Text = bar:CreateFontString(nil, "ARTWORK", font or "GameFontHighlightSmall")
         bar.Text:SetPoint("CENTER")
-        function bar:SetFillPercent(p)
-            self.Fill:SetWidth(math.max(1, p * (self:GetWidth() - 4)))
-        end
         function bar:SetText(text) self.Text:SetText(text) end
+    end
+
+    -- Keep the textured gold track; inset the fill evenly inside its rim.
+    -- A zero-width Texture renders at its natural size, so hide it at zero.
+    if bar.Mask then bar.Fill:RemoveMaskTexture(bar.Mask) end
+    bar.Fill:ClearAllPoints()
+    bar.Fill:SetPoint("LEFT", bar, "LEFT", 3, 0)
+    bar.Fill:SetHeight(math.max(1, height - 6))
+    bar.Fill:SetTexture("Interface\\TargetingFrame\\UI-StatusBar")
+    function bar:SetFillPercent(p)
+        p = math.min(1, math.max(0, p))
+        self.fillPercent = p
+        self.Fill:SetShown(p > 0)
+        self.Fill:SetWidth(math.max(1, p * math.max(0, self:GetWidth() - 6)))
+        self.Fill:SetTexCoord(0, p, 0, 1)
     end
 
     -- info is ns.Friendship.TierInfo(entry).
     function bar:SetFriendship(info, text)
-        local mixin = ColoredProgressBarMixin
-        if mixin and mixin.ColorType and self.SetFillTextureByColorType and info.colorType then
-            -- Resets the fill's size to the atlas, so the percent comes after.
-            pcall(self.SetFillTextureByColorType, self, mixin.ColorType[info.colorType])
-        end
+        local color = BAR_COLORS[info.colorType] or BAR_COLORS.White
+        self.Fill:SetVertexColor(color[1], color[2], color[3])
         local percent = 1
         if not info.isMax then
             percent = (info.needed or 0) > 0 and (info.current or 0) / info.needed or 0

@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 40,
-  "remaining_count": 168,
+  "completed_count": 44,
+  "remaining_count": 164,
   "completed": [
     {
       "npc_id": 54,
@@ -157,11 +157,29 @@
       "status": "complete"
     },
     {
+      "npc_id": 328,
+      "name": "Zaldimar Wefhellt",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 16,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 352,
       "source": "Existing authored profile",
       "name": "Dungar Longdrink",
       "written_lines": 15,
       "personal_recordings": 15,
+      "status": "complete"
+    },
+    {
+      "npc_id": 377,
+      "name": "Priestess Josetta",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
       "status": "complete"
     },
     {
@@ -245,6 +263,15 @@
       "status": "complete"
     },
     {
+      "npc_id": 2329,
+      "name": "Michelle Belle",
+      "zone": "Lion's Pride Inn",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2460,
       "name": "Barnum Stonemantle",
       "zone": "Ironforge",
@@ -302,6 +329,15 @@
       "npc_id": 6740,
       "name": "Innkeeper Allison",
       "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6778,
+      "name": "Melika Isenstrider",
+      "zone": "Lion's Pride Inn",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -654,34 +690,6 @@
       "npc_id": 1246,
       "name": "Vosur Brakthel",
       "zone": "Ironforge",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6778,
-      "name": "Melika Isenstrider",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2329,
-      "name": "Michelle Belle",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 377,
-      "name": "Priestess Josetta",
-      "zone": "Lion's Pride Inn",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 328,
-      "name": "Zaldimar Wefhellt",
-      "zone": "Lion's Pride Inn",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
     },
@@ -1594,7 +1602,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1489,
+    "candidate_name_groups": 1492,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

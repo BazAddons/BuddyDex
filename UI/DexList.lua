@@ -327,8 +327,7 @@ local function BuildRow(row)
     row.Icon:SetSize(ICON_SIZE, ICON_SIZE)
     row.Icon:SetPoint("LEFT", ICON_X, 0)
 
-    row.IconBorder = row:CreateTexture(nil, "ARTWORK", nil, -1)
-    row.IconBorder:SetAllPoints(row.Icon)
+    row.IconBorder = ns.Art.CreatePortraitBorder(row, row.Icon, ICON_SIZE)
 
     row.Tier = row:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
     row.Tier:SetPoint("TOPRIGHT", -10, -9)
@@ -360,7 +359,6 @@ local function BuildRow(row)
     SetAtlas(row.Background, art.ROW_BG)
     SetAtlas(row.Selected, art.ROW_SELECTED)
     SetAtlas(row.Highlight, art.ROW_HIGHLIGHT)
-    if art.ICON_BORDER then row.IconBorder:SetTexture(art.ICON_BORDER) end
 
     row:SetScript("OnClick", OnRowClick)
     row:SetScript("OnEnter", ShowRowTooltip)

@@ -39,6 +39,46 @@
     "text": "That stone? Entirely ordinary. It's very good at staying where I put it.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
+  "lore2329_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2329",
+    "spoken": "[quiet, grateful voice, personal warmth] You make it easy to admit when I need a little patience myself. Thank you for that.",
+    "text": "You make it easy to admit when I need a little patience myself. Thank you for that.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2329_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2329",
+    "spoken": "[calm, capable voice, friendly readiness] A little time outside? Yes, I'd like that. I've got my supplies together.",
+    "text": "A little time outside? Yes, I'd like that. I've got my supplies together.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2329_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2329",
+    "spoken": "[patient, reassuring voice, matter-of-fact kindness] Everyone's hands are awkward at first. That's what practice is for.",
+    "text": "Everyone's hands are awkward at first. That's what practice is for.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore2329_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:2329",
+    "spoken": "[steady, gently approving voice] A sensible stop. You don't have to wait until you're exhausted to take one.",
+    "text": "A sensible stop. You don't have to wait until you're exhausted to take one.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
   "lore244_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -237,6 +277,46 @@
     "source": "lore:3626",
     "spoken": "[calm, warm voice, quietly reassuring] No need to fill every quiet moment. I'm happy to sit here with you.",
     "text": "No need to fill every quiet moment. I'm happy to sit here with you.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore377_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:377",
+    "spoken": "[warm, sincerely moved voice] You encourage me with the same patience I try to give my pupils. I treasure that.",
+    "text": "You encourage me with the same patience I try to give my pupils. I treasure that.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore377_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:377",
+    "spoken": "[gentle, hesitant voice, growing resolve] A journey together? Yes. I think I'd like to say yes this time.",
+    "text": "A journey together? Yes. I think I'd like to say yes this time.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore377_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:377",
+    "spoken": "[quietly wondering voice, peaceful delight] I used to imagine distant roads. It's a pleasure to have a real one beneath my feet.",
+    "text": "I used to imagine distant roads. It's a pleasure to have a real one beneath my feet.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore377_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:377",
+    "spoken": "[gentle, earnest voice, warm approval] Someone is safer for the care you took. Remember that part, too.",
+    "text": "Someone is safer for the care you took. Remember that part, too.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "lore3937_bagsFull_1.ogg": {
@@ -452,6 +532,46 @@
     "source": "lore:6740",
     "spoken": "[gentle, soothing voice, relaxed pace] There. Let the busy people hurry past for a little while.",
     "text": "There. Let the busy people hurry past for a little while.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6778_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6778",
+    "spoken": "[warm, touched voice, sincere affection] You know my name, not just what you need from me. That's a welcome all of its own.",
+    "text": "You know my name, not just what you need from me. That's a welcome all of its own.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6778_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6778",
+    "spoken": "[bright, welcoming voice, easy warmth] There you are! A walk sounds lovely. Give me a moment to put this folding down.",
+    "text": "There you are! A walk sounds lovely. Give me a moment to put this folding down.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6778_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6778",
+    "spoken": "[softly pleased voice, playful secrecy] A little stitch in the corner. Most people never notice, but I know it's there.",
+    "text": "A little stitch in the corner. Most people never notice, but I know it's there.",
+    "voice_id": "PlKpB8vhnGrFk9fhJGWb"
+  },
+  "lore6778_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:6778",
+    "spoken": "[gentle, reassuring voice, unhurried welcome] Settle yourself. You don't have to be on your way every moment of the day.",
+    "text": "Settle yourself. You don't have to be on your way every moment of the day.",
     "voice_id": "PlKpB8vhnGrFk9fhJGWb"
   },
   "npc_alive_1.ogg": {
