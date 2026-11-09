@@ -2,7 +2,7 @@
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
   "completed_count": 16,
-  "remaining_count": 145,
+  "remaining_count": 158,
   "completed": [
     {
       "npc_id": 234,
@@ -148,6 +148,13 @@
   ],
   "remaining": [
     {
+      "npc_id": 14041,
+      "name": "Haggle",
+      "zone": "Deeprun Tram",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 12997,
       "name": "Monty",
       "zone": "Deeprun Tram",
@@ -192,6 +199,13 @@
     {
       "npc_id": 927,
       "name": "Brother Wilhelm",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5917,
+      "name": "Clara Charles",
       "zone": "Elwynn Forest",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -288,6 +302,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 395,
+      "name": "Markus",
+      "zone": "Elwynn Forest",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 251,
       "name": "Maybell Maclure",
       "zone": "Elwynn Forest",
@@ -379,6 +400,20 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 5569,
+      "name": "Fizzlebang Booms",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5175,
+      "name": "Gearcutter Cogspinner",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 6569,
       "name": "Gnoarn",
       "zone": "Ironforge",
@@ -393,8 +428,22 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 11028,
+      "name": "Jemma Quikswitch",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 6175,
       "name": "John Turner",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 6169,
+      "name": "Klockmort Spannerspan",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -470,6 +519,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 5174,
+      "name": "Springspindle Fizzlegear",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 5177,
       "name": "Tally Berryfizz",
       "zone": "Ironforge",
@@ -500,6 +556,13 @@
     {
       "npc_id": 7944,
       "name": "Tinkmaster Overspark",
+      "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11029,
+      "name": "Trixie Quikswitch",
       "zone": "Ironforge",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -862,6 +925,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 277721,
+      "name": "Krazore",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 1300,
       "name": "Lawrence Schneider",
       "zone": "Stormwind City",
@@ -899,6 +969,13 @@
     {
       "npc_id": 1414,
       "name": "Lisan Pierce",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1299,
+      "name": "Lisbeth Schneider",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -995,6 +1072,13 @@
       "status": "pending_identity_and_lore_research"
     },
     {
+      "npc_id": 14450,
+      "name": "Orphan Matron Nightingale",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 918,
       "name": "Osborne the Night Man",
       "zone": "Stormwind City",
@@ -1018,6 +1102,13 @@
     {
       "npc_id": 11096,
       "name": "Randal Worth",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 1428,
+      "name": "Rema Schneider",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -1185,6 +1276,16 @@
       "reason": "Generic role, not an individual"
     },
     {
+      "npc_id": 6491,
+      "name": "Spirit Healer",
+      "reason": "Generic role, not an individual"
+    },
+    {
+      "npc_id": 14121,
+      "name": "Deeprun Diver",
+      "reason": "Generic role, not an individual"
+    },
+    {
       "npc_id": 14849,
       "name": "Darkmoon Faire Carnie",
       "reason": "Generic role, not an individual"
@@ -1194,5 +1295,10 @@
       "name": "League of Arathor Emissary",
       "reason": "Generic role, not an individual"
     }
-  ]
+  ],
+  "external_research_catalog": {
+    "path": "docs/catalog/buddydex-candidates.json",
+    "candidate_name_groups": 1483,
+    "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
+  }
 }

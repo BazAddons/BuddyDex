@@ -1,0 +1,34 @@
+{
+  "named_exceptions": {
+    "251366": {"name": "Aetheen of the Gales", "reason": "Personal name with an epithet; the gameplay name heuristic currently rejects 'of the'."},
+    "2766": {"name": "Lolo the Lookout", "reason": "Personal name followed by a role; the gameplay name heuristic currently rejects the final word."}
+  },
+  "generic_names": [
+    "Alliance Brigadier General", "Ancestral Spirit", "Argent Healer", "Bandarion Keep Paladin",
+    "Beaten Corpse", "Blackwater Deckhand", "Camp Mojache Brave", "Captured Bandit", "Captured Farmer",
+    "Captured Scarlet Zealot", "Captured Servant of Azora", "Dead Cultist", "Deathstalker Agent",
+    "Defias Profiteer", "Dockhand", "Eastvale Lumberjack", "Everlook Bruiser", "Forsaken Adventurer",
+    "Freewind Brave", "Frightened Paladin", "Gnome Pit Crewman", "Goblin Pit Crewman",
+    "High Order Dockmaster", "High Order Mage", "High Order Messenger", "Horde Warbringer",
+    "Kirin Tor Mage", "Lumberjack", "Menethil Sentry", "Night Elf Courier", "Paladin Trainee",
+    "Peacekeeper Elite", "Powderfuse Bruiser", "Refugee Child", "Royal Dreadguard", "Servant of Azora",
+    "Shady Smuggler", "Spirit Healer", "Steamwheedle Courier", "Stockade Archer", "Temple Highguard",
+    "Thendal Grove Ranger", "Town Crier", "Westfall Woodworker", "Windshaper Elementalist",
+    "Windshaper Shaman", "Windshapers Dockmaster", "Booty Bay Bruiser", "Cenarion Hold Infantry",
+    "Dalaran Citizen", "Darkmoon Faire Carnie", "Darkspear Elite", "Darkspear Emissary",
+    "Defias Messenger", "Defilers Emissary", "Earthen Ring Shaman", "Farholde Scout",
+    "Frostwolf Emissary", "Gadgetzan Bruiser", "Gelkis Outrunner", "Gelkis Scout", "Gelkis Stamper",
+    "Gelkis Windchaser", "Iron Kingsguard", "Kor'kron Elite", "League of Arathor Emissary",
+    "Moonglade Warden", "Ratchet Bruiser", "Silverpine Elite", "Steamwheedle Bruiser",
+    "Theramore Emissary", "Zandalar Headshrinker", "Animated Broom", "Kobold Vermin", "Kobold Worker"
+  ],
+  "local_only_generic_names": ["Deeprun Diver"],
+  "review_names": {
+    "Happy Camper": "Could be an individual with a descriptive name; research before deciding.",
+    "Knight of Mourning": "Descriptive title; verify whether it identifies a unique character.",
+    "Strange Hermit": "May be a quest identity rather than a generic role; research required.",
+    "The Defias Traitor": "Unique quest role without a personal name; decide eligibility after reviewing identity.",
+    "Teronis' Corpse": "Named remains; verify whether any living/friendly companion form is usable.",
+    "Slim's Friend": "Relationship label without a personal name; verify identity before including."
+  }
+}

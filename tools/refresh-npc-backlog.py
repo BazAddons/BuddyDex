@@ -36,12 +36,18 @@ def main():
         lua.execute((ROOT / rel).read_text(encoding="utf-8"), "BuddyDex", ns)
     lua.execute(args.scout.read_text(encoding="utf-8-sig"))
     roster = lua.globals().BuddyDexScoutDB.roster
+    trim_rules_path = ROOT / "docs/catalog/trim-rules.json"
+    generic_names = set()
+    if trim_rules_path.exists():
+        trim_rules = json.loads(trim_rules_path.read_text(encoding="utf-8"))
+        generic_names.update(trim_rules.get("generic_names", []))
+        generic_names.update(trim_rules.get("local_only_generic_names", []))
     candidates = {}
     excluded = []
     for npc, entry in roster.items():
         if not (entry.reaction and entry.reaction >= 4 and not entry.attackable and entry.type == "Humanoid"):
             continue
-        if npc in GENERIC or not ns.Friendship.IsSomeone(entry.name, npc):
+        if npc in GENERIC or entry.name in generic_names or not ns.Friendship.IsSomeone(entry.name, npc):
             excluded.append({"npc_id": npc, "name": entry.name, "reason": "Generic role, not an individual"})
             continue
         candidates[npc] = {"npc_id": npc, "name": entry.name, "zone": entry.zone, "source": "Installed Scout record"}
@@ -78,6 +84,14 @@ def main():
         "remaining": remaining,
         "excluded_generic": sorted(excluded, key=lambda row: row["npc_id"]),
     }
+    catalog_path = ROOT / "docs/catalog/buddydex-candidates.json"
+    if catalog_path.exists():
+        catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+        result["external_research_catalog"] = {
+            "path": "docs/catalog/buddydex-candidates.json",
+            "candidate_name_groups": catalog["counts"]["candidate_name_groups"],
+            "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles.",
+        }
     out = ROOT / "docs/npc-backlog.json"
     out.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Backlog: {result['completed_count']} complete, {result['remaining_count']} remaining; {len(excluded)} generic roles excluded")
