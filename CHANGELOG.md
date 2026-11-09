@@ -1,3 +1,9 @@
+# BuddyDex v002 - Next Release
+
+- Expand completed NPC profiles and signature recordings, prioritizing balanced starter-area coverage across races and factions.
+- Include the shared Coldridge/Anvilmar starter selection and begin Zephras Isle coverage for both Skyborne paths.
+- Continue individual lore and quest-chain research with the selected racial voices and Eleven v4 emotional direction.
+
 # BuddyDex v001 - Initial Release
 
 The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziBuddy-style companion and an NPC friendship collection to Azeroth.
