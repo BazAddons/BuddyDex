@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Borya <Tailoring Supplies>, Magar's Cloth Goods, the Drag, Orgrimmar.
+    -- Adult male Orc, 3364/1386, current Horde-friendly Vendor; 22 stock
+    -- rows, no own current quest/training rows. Customer color names are
+    -- original; later retail siege/death/vision events are excluded.
+    -- Research: docs/research/orgrimmar-color-names-and-plain-apples.md.
+    [3364] = {
+        quote = "Blue dye is blue dye. But if you call it 'finally stopped raining,' I will remember which one you wanted.",
+        likes = { "A color named after a good day", "Customers returning with finished work", "Thread bought before the last spool ends" },
+        dislikes = { "Dye opened over someone else's cloth", "A useful bag dismissed as a small thing", "Being told gray cannot be cheerful" },
+        gossip = "Borya remembers unusual names customers give colors. Ask for 'finally stopped raining' and he may ask how the rest of your week went.",
+        bio = "Borya sells tailoring supplies at Magar's Cloth Goods in the Drag. Thread, dyes and patterns keep Orgrimmar's cloth work moving. He leaves the lessons to the trainers, but likes hearing what a customer plans to make.",
+        backstory = "A customer once asked Borya for a blue that felt like the rain had finally stopped. He sold the usual dye and remembered the description. Since then, the names people give ordinary colors have made familiar purchases more interesting.",
+        secret = "He cannot mix a dye that promises a better day. He can remember who asked for one, though. Sometimes the next visit brings a happier name for the same blue.",
+        bestFriend = "No purchase needed. Tell me what color the day has been. I know the supplies well enough; your answer still gives me something new.",
+        favorite = { emote = "SMILE", hint = "Enjoys seeing that a familiar customer's day has become a little brighter." },
+        lines = {
+            greet = { { "Back again? Good. Tell me what you are making before we count the thread. If you need blue dye, I have blue dye. If you need the color of a morning when everything finally went right, I may have the same bottle and a little more interest in your story.", tone = "[warm] [dryly amused]" },
+                "There you are. Finished the last project, or found a reason to begin another?" },
+            idle = { { "Someone once asked me for a blue that felt like the rain had finally stopped. The dye was ordinary enough. The name stayed with me. Next time they came in, I asked about the weather. They laughed, and told me the week had improved. A useful thing to know.", tone = "[thoughtful] [gentle]" },
+                "Gray can be cheerful. Ask someone who has been looking for precisely that gray all morning.",
+                "A pattern tells you what to make. A customer can spend much longer telling you why." },
+            befriended = { { "You have given me more than a list of supplies to remember you by. Come along, friend. I would like to see some of the places behind your stories. Perhaps afterward you can tell me what color the day was. I promise not to turn every answer into a sale.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was wondering whether that counts as hopeful green.", "I am listening. You may describe the color however you please." },
+            bagsFull = { { "A full bag is an excellent argument for planning the next one. Think about what you carry before choosing the pattern. Cloth, thread, and a little attention can save a great deal of muttering on the road. Unfortunately, I do not sell a pattern for deciding what to leave behind.", tone = "[practical] [wry]" } },
+            loot = { "Interesting cloth? Look at the color before you hide it under the rest." },
+            learned = { "Put the pattern to use. I enjoy hearing how the finished work turned out." },
+            zone = { "There may be a name for that shade already. You can still tell me a better one." },
+            rest = { "We have time for the story that did not fit between counting the supplies." },
+            laughAlong = { "That one deserves remembering. I may need a longer label for the blue." },
+            hearth = { "Back to the Drag. Someone may be waiting to tell me what they finally finished." },
+        },
+    },
+
+    -- Xen'to <Cooking Supplier>, Borstan's Firepit, the Drag, Orgrimmar.
+    -- Adult male Troll, 3400/2735, current Horde-friendly Vendor, 12 stock
+    -- rows including both sagefish recipes; no own quest/training rows.
+    -- Changing Tastes belongs to Borstan. Plain-apple preference is ours.
+    -- Research: docs/research/orgrimmar-color-names-and-plain-apples.md.
+    [3400] = {
+        quote = "Let the spices speak. Just leave a little room for the fish to answer.",
+        likes = { "A cook tasting before adding more", "An apple enjoyed just as it is", "A recipe put to use on the road" },
+        dislikes = { "Heat treated as proof of courage", "Every flavor buried under seasoning", "Supplies remembered after the fire is lit" },
+        gossip = "Xen'to sells plenty of spices but asks cooks to taste before adding more. His simplest recommendation is an apple. No recipe required.",
+        bio = "Xen'to supplies cooks at Borstan's Firepit in Orgrimmar's Drag. He sells spices, fuel and sagefish recipes while Zamja handles cooking lessons. He enjoys a lively meal, provided its ingredients still have something to say.",
+        backstory = "Trying to improve a meal, Xen'to once added a little of every seasoning within reach. He could no longer taste what he had cooked. A plain apple afterward was a relief. He has since treated knowing when to stop as part of the work.",
+        secret = "For all his interest in seasoning, he looks forward to the first bite of a good apple. He takes his time with it. Some things arrive tasting exactly as they should.",
+        bestFriend = "Stay for a bite, friend. You do not have to impress me with what you can endure. I would rather know what you enjoy.",
+        favorite = { emote = "NOD", hint = "Appreciates a thoughtful sign that you understand the difference between more seasoning and a better meal." },
+        lines = {
+            greet = { { "Come, tell me what you plan to cook. I have spices, supplies, and a little advice if you want it. Taste before you add more. You might find the meal was already saying something worth hearing before you invited every seasoning on the shelf to speak over it.", tone = "[welcoming] [playful]" },
+                "Good to see you. Brought an appetite, or a recipe you are ready to try?" },
+            idle = { { "I once tried to improve a meal with a little of every seasoning I could reach. By the end, I could not have told you what I had cooked. Ate an apple afterward. Best thing I had tasted all evening. That was a useful lesson, though I preferred the apple.", tone = "[conversational] [amused]" },
+                "If you can still taste the fish, the spices are leaving it room to answer.",
+                "A crisp apple. No impressive preparation, no list of instructions. Just a very good bite." },
+            befriended = { { "You listen when I talk about food, and you bring more to the conversation than a shopping list. I like that. Come along, friend. We will see what the road offers. If we find something good to eat, you may enjoy it without proving anything at all to me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was deciding whether that needed anything else. Probably not.", "I hear you. No need to add another pinch to the question." },
+            rest = { { "Now we can enjoy a meal without hurrying toward the next thing. Take a bite before you decide what is missing. Sometimes the cook has already done enough. Sometimes an apple needs nothing at all. Either way, I would rather hear that you enjoyed it than that you survived it.", tone = "[relaxed] [warm] [gently amused]" } },
+            loot = { "Good ingredients? Give them a chance before emptying the spice jar." },
+            bagsFull = { "You remembered the treasures. Did you leave room for what you will need at supper?" },
+            learned = { "A recipe is a good beginning. Tasting what you make is worth remembering, too." },
+            zone = { "Let us find out what people enjoy eating here before deciding how to season it." },
+            laughAlong = { "That is a better noise at supper than someone trying to pretend their mouth is not burning." },
+            hearth = { "Back to the Firepit. I wonder what the cooks have been trying while we were away." },
+        },
+    },
+
     -- Ventaari Brightwish <Windshapers>, Thendal Village, Zephras, 251487/139694.
     -- Adult female Windshaper Skyborne, Horde-friendly/Alliance-hostile.
     -- 92598 teaches Skysight practice; installed gossip: departed spirits,

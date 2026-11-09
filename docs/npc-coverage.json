@@ -1,21 +1,21 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 378,
+  "completed_profiles": 380,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 198,
     "unverified": 97,
-    "horde": 90
+    "horde": 92
   },
   "npc_race_counts": {
     "1": 165,
     "3": 33,
     "7": 25,
-    "2": 25,
+    "2": 26,
     "5": 36,
     "4": 17,
     "6": 29,
-    "8": 22,
+    "8": 23,
     "9": 15,
     "96": 5,
     "95": 6
@@ -37,7 +37,7 @@
     "Mulgore": 10,
     "Thunder Bluff": 12,
     "Durotar": 19,
-    "Orgrimmar": 15,
+    "Orgrimmar": 17,
     "The Barrens": 14,
     "Ashenvale": 3,
     "Stonetalon Mountains": 3,
@@ -2531,6 +2531,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3347"
     },
     {
+      "npc_id": 3364,
+      "name": "Borya",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Exact current Horde-icon Friendly; no Alliance access inferred",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3364"
+    },
+    {
       "npc_id": 3389,
       "name": "Regthar Deathgate",
       "zone": "The Barrens",
@@ -2566,6 +2579,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; live eligibility required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3399"
+    },
+    {
+      "npc_id": 3400,
+      "name": "Xen'to",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Exact current Horde-icon Friendly; no Alliance access inferred",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3400"
     },
     {
       "npc_id": 3401,

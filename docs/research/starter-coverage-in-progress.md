@@ -400,3 +400,10 @@ Next checked Zephras pair: Ventaari Brightwish 251487 and Donaal Downbreeze 2559
 378 completed profiles. Ventaari adds a second female Windshaper; Donaal adds a second male High Order Skyborne. Ventaari remains Horde-friendly/Alliance-hostile; Donaal is explicitly shared. Friendly counts Alliance 198, Horde 90, unverified 97, **seven shared overlapping profiles**. Starter access and racial identity remain separate; no new universal friendship exception. Full sources/writing/validation in [Thendal sketches and Calmbreeze story endings](thendal-sketches-and-calmbreeze-story-endings.md).
 
 Next individually checked [Borya and Xen'to](borya-and-xento-queue.md), Orc/Troll male vendor coverage in Orgrimmar, not yet authored or counted complete. Continue rotating underserved routes and female candidates; capital-city services do not establish a new beginner milestone. Wider 1510-name research pool remains active.
+
+
+## 2026-11-09: Borya and Xen'to
+
+380 completed profiles. Borya and Xen'to add adult male Orc/Troll Horde supplier profiles, fifteen personal lines/four v4 signatures each. Friendly counts Alliance 198, Horde 92, unverified 97, seven shared overlapping entries. Capital service coverage is not a new beginner milestone. Sources/writing/validation: [Orgrimmar color names and plain apples](orgrimmar-color-names-and-plain-apples.md).
+
+Next individually checked [Gorina and Nessa](gorina-and-nessa-queue.md), adult female Orc/Night Elf identities not yet authored or counted complete. Verify Gorina's actual Forever supplier/trainer role and Nessa's full travel chain. Wider 1510-name research pool remains active; short queue does not replace it.

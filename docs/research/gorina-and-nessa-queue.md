@@ -1,0 +1,10 @@
+# Next: Gorina and Nessa Shadowsong
+
+Current exact identities checked 2026-11-09; neither authored, recorded or counted complete. No Scout observation claimed. Cache `C:/Users/brett/BuddyDex-builds/gorina-nessa-research/npc-ID.json`.
+
+- [Gorina 3358](https://forever.warcraftdb.com/api/data/node/npc/3358), **Mining Supplier** current title, named Orc humanoid, Horde-icon Friendly, Orgrimmar 73.1, 26.8. Display 1380 -> installed DB2 race 2/sex 1, standard adult female; runtime `orc-female`. Classic guides call her a mining trainer; verify actual current teaches/sells responses before claiming either current service. Sparse service field does not establish removal. Named/adult/voice checked, no existing profile.
+- [Nessa Shadowsong 10118](https://forever.warcraftdb.com/api/data/node/npc/10118), Fishing Supplies, named Night Elf Vendor, Alliance-icon Friendly, Teldrassil 56.3, 92.4, Rut'theran Village vicinity. Display 9344 -> race 4/sex 1, standard adult female, runtime `nightelf-female`. Named/adult/voice checked, no existing profile. Read Nessa's linked delivery/travel chain in full and distinguish her goods from other NPCs' actions.
+
+Read all own current relation/stock/training pages, installed exact gossip/name matches and full relevant Classic/Forever chains including objectives, descriptions, progress and completions, actual readable items and books/comics where relevant. Current icons do not establish every player's live attackability. Keep named/adult/reaction gates and no profession/class/quest prerequisite.
+
+Then ten fields, fifteen supported lines, four established Eleven v4 signatures each, full layout/audio/discovery/first-welcome validation, installed development v002 ZIP/backlog/changelog and commit/push. Approved Orc female `QooG6jOovlSJWv2vSqN8`, Night Elf female `XcBDzfqZip1cdcLC3B2W`, verify config. Preserve handed-off candidate and deferred CF publication. This pair rotates female Orc/Night Elf coverage; capital vendor presence is not automatically starter coverage. Wider catalog remains the scope.

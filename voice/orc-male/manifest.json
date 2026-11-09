@@ -279,6 +279,46 @@
     "text": "Speargrass and cattail. Nothing exotic. Whuut could hardly believe what a careful hand made from them. Remember that when someone tells you the secret must be an expensive ingredient.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3364_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:3364",
+    "spoken": "[practical] [wry] A full bag is an excellent argument for planning the next one. Think about what you carry before choosing the pattern. Cloth, thread, and a little attention can save a great deal of muttering on the road. Unfortunately, I do not sell a pattern for deciding what to leave behind.",
+    "text": "A full bag is an excellent argument for planning the next one. Think about what you carry before choosing the pattern. Cloth, thread, and a little attention can save a great deal of muttering on the road. Unfortunately, I do not sell a pattern for deciding what to leave behind.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3364_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3364",
+    "spoken": "[warm] [sincere] You have given me more than a list of supplies to remember you by. Come along, friend. I would like to see some of the places behind your stories. Perhaps afterward you can tell me what color the day was. I promise not to turn every answer into a sale.",
+    "text": "You have given me more than a list of supplies to remember you by. Come along, friend. I would like to see some of the places behind your stories. Perhaps afterward you can tell me what color the day was. I promise not to turn every answer into a sale.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3364_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3364",
+    "spoken": "[warm] [dryly amused] Back again? Good. Tell me what you are making before we count the thread. If you need blue dye, I have blue dye. If you need the color of a morning when everything finally went right, I may have the same bottle and a little more interest in your story.",
+    "text": "Back again? Good. Tell me what you are making before we count the thread. If you need blue dye, I have blue dye. If you need the color of a morning when everything finally went right, I may have the same bottle and a little more interest in your story.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3364_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3364",
+    "spoken": "[thoughtful] [gentle] Someone once asked me for a blue that felt like the rain had finally stopped. The dye was ordinary enough. The name stayed with me. Next time they came in, I asked about the weather. They laughed, and told me the week had improved. A useful thing to know.",
+    "text": "Someone once asked me for a blue that felt like the rain had finally stopped. The dye was ordinary enough. The name stayed with me. Next time they came in, I asked about the weather. They laughed, and told me the week had improved. A useful thing to know.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3389_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

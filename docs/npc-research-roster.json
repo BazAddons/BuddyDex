@@ -1211,5 +1211,19 @@
     "zone": "Zephras Isle",
     "source": "Exact current named adult model, individual faction icons and pin; all own relations, full available racial quest/service gossip, stock and published approach scene reviewed; source limitations documented; no Scout sighting claimed",
     "research_notes": "docs/research/thendal-sketches-and-calmbreeze-story-endings.md"
+  },
+  {
+    "npc_id": 3364,
+    "name": "Borya",
+    "zone": "Orgrimmar",
+    "source": "Exact current named adult male model, Horde-friendly icon and pin; all own relations/stock, installed text absence, nine recipe tooltips and nearby Borstan quest reviewed; later retail and source limitations documented; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-color-names-and-plain-apples.md"
+  },
+  {
+    "npc_id": 3400,
+    "name": "Xen'to",
+    "zone": "Orgrimmar",
+    "source": "Exact current named adult male model, Horde-friendly icon and pin; all own relations/stock, installed text absence, nine recipe tooltips and nearby Borstan quest reviewed; later retail and source limitations documented; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-color-names-and-plain-apples.md"
   }
 ]

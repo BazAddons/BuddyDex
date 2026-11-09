@@ -896,6 +896,20 @@
       "zone": "Orgrimmar",
       "route": "Orc/Troll Horde service coverage",
       "reason": "Exact current named adult male model, Horde-friendly icon and pin verified; full vendor/quest/literary research pending. See docs/research/borya-and-xento-queue.md"
+    },
+    {
+      "npc_id": 3358,
+      "name": "Gorina",
+      "zone": "Orgrimmar",
+      "route": "Female Orc/Night Elf service and travel coverage",
+      "reason": "Exact current named adult female model, individual friendly icon and pin checked; Gorina current supplier title requires role verification, Nessa full travel-chain research pending. See docs/research/gorina-and-nessa-queue.md"
+    },
+    {
+      "npc_id": 10118,
+      "name": "Nessa Shadowsong",
+      "zone": "Teldrassil",
+      "route": "Female Orc/Night Elf service and travel coverage",
+      "reason": "Exact current named adult female model, individual friendly icon and pin checked; Gorina current supplier title requires role verification, Nessa full travel-chain research pending. See docs/research/gorina-and-nessa-queue.md"
     }
   ]
 }

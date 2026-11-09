@@ -199,6 +199,46 @@
     "text": "Pal'juh has promise. Promise does not make going into danger alone a wise decision. I am grateful when someone brings her safely out of trouble. I would be more pleased if she learned enough from the journey not to need the same rescue again.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore3400_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3400",
+    "spoken": "[warm] [sincere] You listen when I talk about food, and you bring more to the conversation than a shopping list. I like that. Come along, friend. We will see what the road offers. If we find something good to eat, you may enjoy it without proving anything at all to me.",
+    "text": "You listen when I talk about food, and you bring more to the conversation than a shopping list. I like that. Come along, friend. We will see what the road offers. If we find something good to eat, you may enjoy it without proving anything at all to me.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3400_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3400",
+    "spoken": "[welcoming] [playful] Come, tell me what you plan to cook. I have spices, supplies, and a little advice if you want it. Taste before you add more. You might find the meal was already saying something worth hearing before you invited every seasoning on the shelf to speak over it.",
+    "text": "Come, tell me what you plan to cook. I have spices, supplies, and a little advice if you want it. Taste before you add more. You might find the meal was already saying something worth hearing before you invited every seasoning on the shelf to speak over it.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3400_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3400",
+    "spoken": "[conversational] [amused] I once tried to improve a meal with a little of every seasoning I could reach. By the end, I could not have told you what I had cooked. Ate an apple afterward. Best thing I had tasted all evening. That was a useful lesson, though I preferred the apple.",
+    "text": "I once tried to improve a meal with a little of every seasoning I could reach. By the end, I could not have told you what I had cooked. Ate an apple afterward. Best thing I had tasted all evening. That was a useful lesson, though I preferred the apple.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3400_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3400",
+    "spoken": "[relaxed] [warm] [gently amused] Now we can enjoy a meal without hurrying toward the next thing. Take a bite before you decide what is missing. Sometimes the cook has already done enough. Sometimes an apple needs nothing at all. Either way, I would rather hear that you enjoyed it than that you survived it.",
+    "text": "Now we can enjoy a meal without hurrying toward the next thing. Take a bite before you decide what is missing. Sometimes the cook has already done enough. Sometimes an apple needs nothing at all. Either way, I would rather hear that you enjoyed it than that you survived it.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3401_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

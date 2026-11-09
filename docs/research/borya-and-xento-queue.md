@@ -1,3 +1,7 @@
+# Completed: Borya and Xen'to
+
+Profiles authored; full final source/validation/delivery note: [Orgrimmar color names and plain apples](orgrimmar-color-names-and-plain-apples.md). Original planning/checkpoint below is historical.
+
 # Next: Borya and Xen'to
 
 Current identities individually checked 2026-11-09; neither authored, recorded or counted complete. No Scout sighting claimed. External cache `C:/Users/brett/BuddyDex-builds/borya-xento-research/npc-ID.json`.
@@ -22,6 +26,6 @@ Exact installed NPC-ID gossip blocks are absent for both; whole generated gossip
 
 [Modern Borya character article](https://warcraft.wiki.gg/wiki/Borya) indexed history distinguishes Siege of Orgrimmar shop barricading, post-Vol'jin-death conversation with Ollanus and Vision of Orgrimmar. These are later retail events, excluded from Forever writing. [Modern Xen'to article](https://warcraft.wiki.gg/wiki/Xen%27to) likewise has later Valley of Spirits, Vol'jin/Zamja/Xon'cha and Vision events; exclude them. Its Escalation quote explicitly names **Huju** in the action text: do not treat that as verified Classic/Forever Xen'to dialogue. Hex ability in a retail article does not establish his class or grant a companion hex.
 
-Generic third-party ?Quest giver? flags have no named quest in own current relations or installed text. The search hit **Changing Tastes** belongs to nearby **Borstan**, not Xen'to; its relationship/text may be checked for context before mentioning it. Fine Thread's unrelated Bartolo quest is not Borya's personal quest. No verified personal book/comic identified; broad unqualified Borya searches produce unrelated real people and other games, which are excluded. No claim of an unavailable literary reading.
+Generic third-party "Quest giver" flags have no named quest in own current relations or installed text. The search hit **Changing Tastes** belongs to nearby **Borstan**, not Xen'to; its relationship/text may be checked for context before mentioning it. Fine Thread's unrelated Bartolo quest is not Borya's personal quest. No verified personal book/comic identified; broad unqualified Borya searches produce unrelated real people and other games, which are excluded. No claim of an unavailable literary reading.
 
 Still to do: inspect the actual sold recipe/item tooltips for any quest/readable hook, check any relevant nearby quest text if used, then write original modest personalities and fifteen lines, record/validate/package/commit as above. No Borya/Xen'to profile or paid recording created yet. Current completed total remains **378**, from the pushed Ventaari/Donaal batch (`8a6fa00`).
