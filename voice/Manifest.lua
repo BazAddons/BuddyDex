@@ -4831,9 +4831,13 @@ ns.VoicePack = {
             ["Sit down. You don't have to earn every moment of rest."] = "orc-female\\lore6929_rest_1.ogg",
         },
         ["orc-male"] = {
+            ["I would be glad to have your company. There, you heard me. You have earned more than another task to carry away from the Den. Tell me where you would like to go, and I will try to leave a few of my warnings behind."] = "orc-male\\lore3143_befriended_1.ogg",
             ["You're more than a fare and a destination to me, friend."] = "orc-male\\lore3310_befriended_1.ogg",
+            ["Still in one piece? Good. Come here and tell me what you have been doing. I expect there is something worth hearing beneath all that dust. If you have done well, I might even say so without immediately finding another thing to warn you about."] = "orc-male\\lore3143_greet_1.ogg",
             ["Ready? There's a whole world beyond the edge of that tower."] = "orc-male\\lore3310_greet_1.ogg",
+            ["Well done. That should be simple enough to say. Two words. Yet somehow I keep finding a warning to put after them. You may remind me to stop when I have already made my point. Once. Do not make a new habit of it."] = "orc-male\\lore3143_idle_1.ogg",
             ["Some riders count the coins. I watch for the smile when they come back."] = "orc-male\\lore3310_idle_1.ogg",
+            ["You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it."] = "orc-male\\lore3143_quest_1.ogg",
             ["Hands steady. Pack secure. Now look out there... that's yours to see."] = "orc-male\\lore3310_taxi_1.ogg",
         },
         ["skyborne-female"] = {

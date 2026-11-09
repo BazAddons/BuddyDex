@@ -1,4 +1,44 @@
 {
+  "lore3143_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3143",
+    "spoken": "[deep gravelly sincerity, reserved warmth, wry at the end] I would be glad to have your company. There, you heard me. You have earned more than another task to carry away from the Den. Tell me where you would like to go, and I will try to leave a few of my warnings behind.",
+    "text": "I would be glad to have your company. There, you heard me. You have earned more than another task to carry away from the Den. Tell me where you would like to go, and I will try to leave a few of my warnings behind.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3143_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3143",
+    "spoken": "[gravelly blunt welcome, assessing, grudging friendly humor] Still in one piece? Good. Come here and tell me what you have been doing. I expect there is something worth hearing beneath all that dust. If you have done well, I might even say so without immediately finding another thing to warn you about.",
+    "text": "Still in one piece? Good. Come here and tell me what you have been doing. I expect there is something worth hearing beneath all that dust. If you have done well, I might even say so without immediately finding another thing to warn you about.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3143_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3143",
+    "spoken": "[rough dry self-awareness, restrained amusement, gruff affection] Well done. That should be simple enough to say. Two words. Yet somehow I keep finding a warning to put after them. You may remind me to stop when I have already made my point. Once. Do not make a new habit of it.",
+    "text": "Well done. That should be simple enough to say. Two words. Yet somehow I keep finding a warning to put after them. You may remind me to stop when I have already made my point. Once. Do not make a new habit of it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3143_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3143",
+    "spoken": "[firm rough approval, deliberate sincere praise, quietly warm] You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it.",
+    "text": "You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3310_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

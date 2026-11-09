@@ -11,6 +11,8 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
+- Complete Gornek with fifteen personal lines and four Eleven v4 signatures in the selected male orc voice. Include his Forever training-weapon recovery role and bring Durotar to five completed starter profiles.
+
 - Complete Lanka Farshot and Meela Dawnstrider with fifteen personal lines and four Eleven v4 signatures each, bringing Mulgore to five completed starter profiles. Bundle the first selected female Tauren signature recordings.
 
 - Complete Grull Hawkwind and Seer Graytongue in Mulgore, each with fifteen personal lines and four Eleven v4 signature recordings in the selected Tauren male voice.

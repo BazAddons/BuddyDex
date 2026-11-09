@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 55 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 56 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -40,4 +40,4 @@ The explicit research queue now adds Gornek (3143) for Durotar's fifth completed
 
 Identity check caught a possible ID mix-up before admission: 2078 is Athridas Bearmantle, not Gilshalan. Gilshalan is verified as 2082. The queue uses 2082; no profile or duplicate identity was authored from the mistaken association.
 
-This preserves the wider coverage rotation: Mulgore now has five, Durotar has four, and Teldrassil still needs its first starter batch. Dun Morogh and both Skyborne faction paths remain outstanding starter experiences, rather than being counted as covered by city NPCs.
+This preserves the wider coverage rotation: Mulgore now has five, and Gornek brings Durotar to five as well; see [his research notes](gornek-at-the-den.md). Teldrassil still needs its first starter batch. Dun Morogh and both Skyborne faction paths remain outstanding starter experiences, rather than being counted as covered by city NPCs.

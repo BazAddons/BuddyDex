@@ -385,5 +385,12 @@
     "zone": "Mulgore",
     "source": "Reviewed current identity/model, full primary class notes and hunter chain, Atlas entries and installed dialogue; no personal Scout sighting claimed",
     "research_notes": "docs/research/mulgore-first-trainers.md"
+  },
+  {
+    "npc_id": 3143,
+    "name": "Gornek",
+    "zone": "Durotar",
+    "source": "Reviewed current identity/model, full primary trials and class referrals, readables, Forever additions and installed dialogue; no personal Scout sighting claimed",
+    "research_notes": "docs/research/gornek-at-the-den.md"
   }
 ]

@@ -1,17 +1,17 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 260,
+  "completed_profiles": 261,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage.",
   "faction_counts": {
     "alliance": 179,
-    "unverified": 55,
+    "unverified": 56,
     "horde": 26
   },
   "npc_race_counts": {
     "1": 165,
     "3": 30,
     "5": 25,
-    "2": 3,
+    "2": 4,
     "7": 23,
     "4": 6,
     "8": 3,
@@ -27,7 +27,7 @@
     "Tirisfal Glades": 25,
     "Orgrimmar": 2,
     "Deeprun Tram": 3,
-    "Durotar": 4,
+    "Durotar": 5,
     "Mulgore": 5
   },
   "entries": [
@@ -3300,6 +3300,17 @@
       "public_friendly_factions": [],
       "reaction_evidence": "No current reaction icon; see mulgore-first-trainers.md for independent quest/trainer evidence",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3062"
+    },
+    {
+      "npc_id": 3143,
+      "name": "Gornek",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; see gornek-at-the-den.md for independent quest/role evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3143"
     }
   ]
 }

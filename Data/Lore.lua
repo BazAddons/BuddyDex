@@ -42,6 +42,35 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Gornek (3143), adult male orc, the Den / Valley of Trials, display 1653 (2 / 0).
+    -- 4641/788/789 recruit trials; 804 promises aid to Hana'zua; class referrals; Forever 97279 Kzan weapons.
+    -- Practicing a compliment without adding a warning is original, not a new quest or rank.
+    -- docs/research/gornek-at-the-den.md.
+    [3143] = {
+        quote = "Do the work, pay attention, and come back alive. If I give you another warning afterward, it means I expect you to be around long enough to need it.",
+        likes = { "Honest effort before a boast", "Training weapons returned for repair", "Seeing a recruit grow into their courage" },
+        dislikes = { "Underestimating a small opponent", "Useful weapons left in the dirt", "Praise that comes out sounding like orders" },
+        gossip = "Gornek sometimes mutters after a recruit leaves. The Den suspects he has thought of one more thing they did wrong.",
+        bio = "Gornek tests recruits at the Den in the Valley of Trials. Boars and scorpids teach his early lessons. He promises aid for wounded Hana'zua, passes along trainers' messages, and sends abandoned weapons to Kzan for repair.",
+        backstory = "After a recruit's good work, he noticed that his praise had ended with yet another warning. He tried saying the compliment again when no one was listening. Two words ought to be simple. He has been practicing.",
+        secret = "He is trying to say 'well done' without adding 'but.' He means the praise. The warnings are simply a difficult habit to put down.",
+        bestFriend = "You did well. There. No warning after it. Sit a while; I can enjoy your company without finding you another task.",
+        favorite = { emote = "SALUTE", hint = "Show the stern guide that you take his training and your responsibilities seriously." },
+        lines = {
+            greet = { { "Still in one piece? Good. Come here and tell me what you have been doing. I expect there is something worth hearing beneath all that dust. If you have done well, I might even say so without immediately finding another thing to warn you about.", tone = "[gravelly blunt welcome, assessing, grudging friendly humor]" }, "Back again. Let us hear what you have learned." },
+            idle = { { "Well done. That should be simple enough to say. Two words. Yet somehow I keep finding a warning to put after them. You may remind me to stop when I have already made my point. Once. Do not make a new habit of it.", tone = "[rough dry self-awareness, restrained amusement, gruff affection]" }, "A boar is a useful first lesson. Surviving it is not permission to stop thinking.", "Return the weapons instead of stepping over them. The next recruit will need something to hold." },
+            befriended = { { "I would be glad to have your company. There, you heard me. You have earned more than another task to carry away from the Den. Tell me where you would like to go, and I will try to leave a few of my warnings behind.", tone = "[deep gravelly sincerity, reserved warmth, wry at the end]" } },
+            poke = { "Yes? Speak plainly.", "I heard you the first time. I am deciding whether it needs an answer." },
+            quest = { { "You followed it through. Well done. I was about to add something about the next task, but that can wait. Let the work you finished have its moment. An honest effort deserves recognition, and you should not have to dig through three warnings to find it.", tone = "[firm rough approval, deliberate sincere praise, quietly warm]" } },
+            learned = { "Put it to use carefully. Knowing a thing and trusting yourself with it take practice." },
+            lowHealth = { "Take care of yourself. Pride is no substitute for coming back alive." },
+            rest = { "A pause is sensible. I can give orders to someone who has caught their breath." },
+            levelUp = { "You have grown stronger. Good work. I shall leave it at that." },
+            thanked = { "You are welcome. Remember the lesson, and that will be thanks enough." },
+            hearth = { "Back safely. Good. That is the first part of a report I want to hear." },
+        },
+    },
+
     -- Lanka Farshot (3061), adult male tauren hunter trainer, Narache, display 3810 (6 / 0).
     -- Etched Note 3092/item 9565: hunter's service to tribe; 6066 refers pet lessons to Yaw.
     -- Poor bird-call imitation is original, never a new pet or hunter ability.
