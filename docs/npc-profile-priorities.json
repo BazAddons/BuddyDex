@@ -826,6 +826,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Horde Orc female flight-master coverage",
       "reason": "Exact current named adult female Orc body, friendly Horde icon, flight service and pin checked; full own quest/service/literary research pending. See docs/research/urda-and-thysta-queue.md"
+    },
+    {
+      "npc_id": 3173,
+      "name": "Swart",
+      "zone": "Durotar",
+      "route": "Horde Orc/Forsaken starter trainer coverage",
+      "reason": "Exact current named adult body, friendly Horde icon and starter-town pin checked; full own quest/service/literary research pending. See docs/research/swart-and-marion-queue.md"
+    },
+    {
+      "npc_id": 2130,
+      "name": "Marion Call",
+      "zone": "Tirisfal Glades",
+      "route": "Horde Orc/Forsaken starter trainer coverage",
+      "reason": "Exact current named adult body, friendly Horde icon and starter-town pin checked; full own quest/service/literary research pending. See docs/research/swart-and-marion-queue.md"
     }
   ]
 }

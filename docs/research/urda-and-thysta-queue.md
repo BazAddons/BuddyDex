@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen lines and four approved v4 signatures each. See [research and validation](hammerfall-riddles-and-gromgol-small-wings.md). Original planning below retained as history.
+
 # Next: Urda and Thysta
 
 Current identities individually checked 2026-11-09. Neither authored or recorded; no Scout sighting invented. Cache `C:/Users/brett/BuddyDex-builds/una-zarrin-research/next-npc-ID.json`.

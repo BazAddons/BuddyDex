@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Urda <Wind Rider Master>, Hammerfall, Arathi Highlands, 2851/3972.
+    -- Adult female Orc; current Horde-friendly Elite flight master.
+    -- Own current/Classic lists have no quests; installed flight greeting.
+    -- Deliberately outrageous riddle guesses are original, not quest lore.
+    -- Research: docs/research/hammerfall-riddles-and-gromgol-small-wings.md.
+    [2851] = {
+        quote = "Ask me a riddle while you wait. I might know the answer. I might have a better one that happens to be wrong.",
+        likes = { "A rider with a new riddle", "A ridiculous answer delivered firmly", "A departure with no loose straps" },
+        dislikes = { "Being told guessing is undignified", "A laugh cut short by needless hurry", "A passenger neglecting their gear" },
+        gossip = "Urda has answered three different riddles with 'the wind.' One concerned a cooking pot. She says the answer deserved consideration.",
+        bio = "Urda tends the Horde's wind rider service at Hammerfall in the Arathi Highlands. Travelers come to her when their next road lies through the sky. She keeps the departure practical, then sees whether there is time for a riddle.",
+        backstory = "A waiting rider once offered Urda a riddle. Her first guess was so wrong that they both laughed. She remembered that part better than the answer, and began asking other travelers whether they had a new one to try.",
+        secret = "She can usually make a better guess than 'the wind.' But watching someone struggle to explain why a cooking pot cannot be a breeze is often worth being wrong for a moment.",
+        bestFriend = "Give me the difficult one. I trust you to tell me when my answer is nonsense. If I make you laugh first, I will count that as a victory.",
+        favorite = { emote = "GRIN", hint = "A good-humored response to a very questionable guess is welcome while waiting to depart." },
+        lines = {
+            greet = { { "Ready to travel? Check what you are carrying and make sure it will stay with you. Once that is settled, you may ask me a riddle while we wait. I make no promise about finding the right answer. I can promise to consider an interesting wrong one.", tone = "[gravelly] [confident] [playful]" },
+                "There you are. A destination first, or a riddle you cannot bear to keep?" },
+            idle = { { "The answer is the wind. You have not asked the question yet? Then there is still every chance I am right. A cooking pot, you say. Hm. You will have to explain the difference carefully. I was quite pleased with that answer, and I would like to defend it.", tone = "[gravelly] [deadpan] [amused]" },
+                "A wrong guess can be useful. It tells you which friend is trying not to laugh.",
+                "Finish fastening that before the wind offers to carry it separately." },
+            befriended = { { "You tell a good riddle, and you do not let me escape with a bad answer. I appreciate a friend who can do both. Come along. We will see what the road offers. If you have been saving a difficult one, now is an excellent time to ask it.", tone = "[gravelly] [warm]" } },
+            poke = { "Is that the answer? Or are you objecting to mine?", "I am listening. This time I may even wait for the question." },
+            taxi = { { "Check your gear before we leave. A loose strap does not become more secure in the air. There. Now settle yourself. You may spend the flight considering your next riddle. If it has anything to do with the wind, I expect to have a considerable advantage.", tone = "[gravelly] [assured] [wry]" } },
+            landed = { "Back on the ground, with your belongings. A satisfactory answer to that journey." },
+            mount = { "A sound choice. Give the creature a moment before asking it for speed." },
+            rest = { "Time for one more question. I have several very doubtful answers ready." },
+            laughAlong = { "That was worth the wrong guess. Now tell me what it actually was." },
+            zone = { "New surroundings. Someone here must know a riddle I have not heard." },
+            hearth = { "Back to Hammerfall. I still owe someone a proper answer." },
+        },
+    },
+
+    -- Thysta <Wind Rider Master>, Grom'gol, Stranglethorn Vale, 1387/1868.
+    -- Adult female Orc; current Horde-friendly Elite flight master.
+    -- Own current/Classic lists have no quests; installed flight greeting.
+    -- Sheltering moths from rain is ours. No later Zandalari story imported.
+    -- Research: docs/research/hammerfall-riddles-and-gromgol-small-wings.md.
+    [1387] = {
+        quote = "Small wings still have somewhere to go. Give them a dry moment before you send them back into the rain.",
+        likes = { "A rider arriving safely", "A dry place during a jungle shower", "A moth finding its own way out" },
+        dislikes = { "Wet gear left without attention", "A harmless creature swatted for waiting", "Someone calling a little care a weakness" },
+        gossip = "Thysta has been seen holding one hand over the other during a shower. She insists she is attending to a very small traveler.",
+        bio = "Thysta runs the Horde's wind rider service at Grom'gol Base Camp in Stranglethorn Vale. She asks riders where they need to go and tends to departures. Between larger journeys, she notices the smaller wings seeking shelter nearby.",
+        backstory = "A moth once settled on Thysta's hand as rain swept through the camp. Rather than brush it off, she shielded it until the shower passed. She found herself watching for the small departure as carefully as she watched a rider leave.",
+        secret = "She sometimes pretends to inspect a strap while a sheltered moth takes its time. It costs her very little to wait, and she likes seeing something leave because it is ready.",
+        bestFriend = "There is room beside me until the rain passes. You do not need a destination to stay awhile. I am glad you came back.",
+        favorite = { emote = "WAVE", hint = "Appreciates a friendly arrival at the roost as much as a rider's farewell." },
+        lines = {
+            greet = { { "Welcome back. Where do you need to go? If the rain caught you on the way here, take a moment to see to your gear before we arrange the next part. There is no sense carrying a small problem into the sky when you can settle it on the ground.", tone = "[gravelly] [steady] [welcoming]" },
+                "There you are. Staying a moment, or looking for your next flight?" },
+            idle = { { "Hold still a moment. There is a moth on my hand. It came out of the rain, and I am giving it somewhere dry until it decides to leave. No, I have not taken a new passenger. I am simply not in such a hurry that I need to brush it away.", tone = "[gravelly] [quietly gentle]" },
+                "A little shelter is not a difficult thing to offer.",
+                "There. Off it goes. Small wings, but it seems to know where it wants to be." },
+            befriended = { { "You return even when you do not need a flight. I have come to look forward to that. Come along, friend. We can see where the day takes us. If a shower catches us, there is nothing wrong with sharing a dry place and waiting a little while.", tone = "[gravelly] [warm] [sincere]" } },
+            poke = { "Yes? Mind where you put your hand; something is resting there.", "A moment, friend. This traveler is not quite ready to leave." },
+            taxi = { { "Settle your gear and take your place. We will see you on your way. If something feels wrong before you leave, say so while we can still attend to it here. A little care on the ground is a better beginning than a surprise in the air.", tone = "[gravelly] [calm] [assured]" } },
+            landed = { "There you are, safely down. Take a breath before deciding what comes next." },
+            rest = { "Stay awhile. You need not be on your way every time I see you." },
+            loot = { "Keep it secure. Something worth carrying is worth not losing." },
+            zone = { "A different place. Let us see where we can stop if the weather turns." },
+            comforted = { "Thank you. Quiet company is useful sometimes." },
+            hearth = { "Back to Grom'gol. There may be a familiar traveler waiting." },
+        },
+    },
+
     -- Una <Artisan Leatherworker>, Thunder Bluff; adult female Tauren,
     -- 3007/display 2127. Current Horde-friendly trainer, including Camp Tent.
     -- Classic 2860: Jangdor's teacher; installed gossip credits Cairne's

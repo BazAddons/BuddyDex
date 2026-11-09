@@ -1141,5 +1141,19 @@
     "zone": "Teldrassil",
     "source": "Exact current named adult body, friendly icon, trainer service and pin; full current/Classic relations including both Una teaching pages, exact installed dialogue, complete Wild Leather and Forever camping chains, item/literary/era checks; no Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-patches-and-dolanaar-shadows.md"
+  },
+  {
+    "npc_id": 2851,
+    "name": "Urda",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult female Orc body, Horde-friendly icon, Elite flight service and pin; full own current/Classic empty relations, exact installed flight gossip, no quest name matches, literary/identity/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/hammerfall-riddles-and-gromgol-small-wings.md"
+  },
+  {
+    "npc_id": 1387,
+    "name": "Thysta",
+    "zone": "Stranglethorn Vale",
+    "source": "Exact current named adult female Orc body, Horde-friendly icon, Elite flight service and pin; full own current/Classic empty relations, exact installed flight gossip, no quest name matches, literary/identity/era review; no Scout sighting claimed",
+    "research_notes": "docs/research/hammerfall-riddles-and-gromgol-small-wings.md"
   }
 ]

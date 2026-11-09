@@ -39,6 +39,86 @@
     "text": "Have your destination settled? Good. Take a moment to say your farewells, and enjoy the view when you are ready. If you turn to look behind you, there may be someone down there still wishing you a good journey.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore1387_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1387",
+    "spoken": "[gravelly] [warm] [sincere] You return even when you do not need a flight. I have come to look forward to that. Come along, friend. We can see where the day takes us. If a shower catches us, there is nothing wrong with sharing a dry place and waiting a little while.",
+    "text": "You return even when you do not need a flight. I have come to look forward to that. Come along, friend. We can see where the day takes us. If a shower catches us, there is nothing wrong with sharing a dry place and waiting a little while.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore1387_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1387",
+    "spoken": "[gravelly] [steady] [welcoming] Welcome back. Where do you need to go? If the rain caught you on the way here, take a moment to see to your gear before we arrange the next part. There is no sense carrying a small problem into the sky when you can settle it on the ground.",
+    "text": "Welcome back. Where do you need to go? If the rain caught you on the way here, take a moment to see to your gear before we arrange the next part. There is no sense carrying a small problem into the sky when you can settle it on the ground.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore1387_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1387",
+    "spoken": "[gravelly] [quietly gentle] Hold still a moment. There is a moth on my hand. It came out of the rain, and I am giving it somewhere dry until it decides to leave. No, I have not taken a new passenger. I am simply not in such a hurry that I need to brush it away.",
+    "text": "Hold still a moment. There is a moth on my hand. It came out of the rain, and I am giving it somewhere dry until it decides to leave. No, I have not taken a new passenger. I am simply not in such a hurry that I need to brush it away.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore1387_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:1387",
+    "spoken": "[gravelly] [calm] [assured] Settle your gear and take your place. We will see you on your way. If something feels wrong before you leave, say so while we can still attend to it here. A little care on the ground is a better beginning than a surprise in the air.",
+    "text": "Settle your gear and take your place. We will see you on your way. If something feels wrong before you leave, say so while we can still attend to it here. A little care on the ground is a better beginning than a surprise in the air.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2851_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2851",
+    "spoken": "[gravelly] [warm] You tell a good riddle, and you do not let me escape with a bad answer. I appreciate a friend who can do both. Come along. We will see what the road offers. If you have been saving a difficult one, now is an excellent time to ask it.",
+    "text": "You tell a good riddle, and you do not let me escape with a bad answer. I appreciate a friend who can do both. Come along. We will see what the road offers. If you have been saving a difficult one, now is an excellent time to ask it.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2851_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2851",
+    "spoken": "[gravelly] [confident] [playful] Ready to travel? Check what you are carrying and make sure it will stay with you. Once that is settled, you may ask me a riddle while we wait. I make no promise about finding the right answer. I can promise to consider an interesting wrong one.",
+    "text": "Ready to travel? Check what you are carrying and make sure it will stay with you. Once that is settled, you may ask me a riddle while we wait. I make no promise about finding the right answer. I can promise to consider an interesting wrong one.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2851_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2851",
+    "spoken": "[gravelly] [deadpan] [amused] The answer is the wind. You have not asked the question yet? Then there is still every chance I am right. A cooking pot, you say. Hm. You will have to explain the difference carefully. I was quite pleased with that answer, and I would like to defend it.",
+    "text": "The answer is the wind. You have not asked the question yet? Then there is still every chance I am right. A cooking pot, you say. Hm. You will have to explain the difference carefully. I was quite pleased with that answer, and I would like to defend it.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2851_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:2851",
+    "spoken": "[gravelly] [assured] [wry] Check your gear before we leave. A loose strap does not become more secure in the air. There. Now settle yourself. You may spend the flight considering your next riddle. If it has anything to do with the wind, I expect to have a considerable advantage.",
+    "text": "Check your gear before we leave. A loose strap does not become more secure in the air. There. Now settle yourself. You may spend the flight considering your next riddle. If it has anything to do with the wind, I expect to have a considerable advantage.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore3145_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -368,4 +368,10 @@ Next checked profession pair: Una 3007 and Zarrin 6286, [queue](una-and-zarrin-q
 
 Una 3007 and Zarrin 6286 complete: full Tauren/Night Elf profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](thunder-bluff-patches-and-dolanaar-shadows.md) retains Una's teaching/student relationships, Zarrin's nature lesson and actual Forever campfire guidance. Development total **368**; public friendly access Alliance 197, Horde 80, unverified 97, with six shared entries overlapping. Installed/development-packaged; no publication.
 
-Next checked flight-master pair: Urda 2851 and Thysta 1387, [queue](urda-and-thysta-queue.md). Both verified adult female Orcs, Horde-friendly; neither counted complete. This gives the next pair entirely to Horde coverage.
+Next checked flight-master pair: Urda 2851 and Thysta 1387, [queue](urda-and-thysta-queue.md). Both verified adult female Orcs, Horde-friendly; neither counted complete at this point. This gives the next pair entirely to Horde coverage.
+
+### 2026-11-09: Hammerfall and Grom'gol departures
+
+Urda 2851 and Thysta 1387 complete: full adult female Orc flight-master profiles, fifteen personal lines and four approved v4 recordings each. [Research and validation](hammerfall-riddles-and-gromgol-small-wings.md) verifies both identities/services, empty quest lists and short installed greetings, separating all invented personality from later-retail events. Development total **370**; public friendly access Alliance 197, Horde 82, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
+
+Next checked starter trainer pair: Swart 3173 and Marion Call 2130, [queue](swart-and-marion-queue.md). Neither counted complete; rotates Orc male/Forsaken female coverage in Razor Hill and Brill.
