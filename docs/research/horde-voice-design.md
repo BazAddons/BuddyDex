@@ -1,6 +1,14 @@
 # Horde voice auditions
 
-Requested by the user November 8, 2026. The user will select official male/female voices for each race. No audition is an approved production voice yet.
+Requested by the user November 8, 2026. The user selects official male/female voices for each race.
+
+## User review and second round
+
+The user approved **orc male B**, saved as **BuddyDex Orc Male (Gravel)**, voice ID `SsUXUYPOaoD5XMe36mlU`. It is registered in the recording tool. Runtime race routing will be enabled with bundled recordings so existing NPC audio is not silenced prematurely.
+
+The user rejected the first orc female options as too soft and requested more gravel. Round two asks for a very low contralto with a pronounced coarse rasp, throaty growl and rough texture even during friendly speech. The user also requested Jamaican accents for trolls; round two explicitly specifies distinct Jamaican English pronunciation and rhythm for both sexes, replacing the broader Caribbean-inspired prompt. These three roles still await selection.
+
+Second-round previews live at `C:/Users/brett/BuddyDex-voice-auditions/2026-11-08-round2/`. First-round previews are preserved.
 
 ## Current options
 

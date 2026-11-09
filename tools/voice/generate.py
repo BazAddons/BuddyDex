@@ -60,6 +60,7 @@ VOICES = {
     "male": "ouL9IsyrSnUkCmfnD02u", "female": "syFkX6FF9X5Ae3tA21pD",
     "human-male": "O7V4YABJUNMVqaNkOPe8",      # BuddyDex Human Male (Steady)
     "human-female": "PlKpB8vhnGrFk9fhJGWb",    # BuddyDex Human Female (Guard)
+    "orc-male": "SsUXUYPOaoD5XMe36mlU",       # BuddyDex Orc Male (Gravel), approved audition B
     "dwarf-male": "tNPIWbrnyCsbmVIg3tPK",      # BuddyDex Dwarf Male (Mountaineer)
     "dwarf-female": "aRtvtMA33YE3hteCIrqs",    # BuddyDex Dwarf Female (Barmaid)
     "nightelf-male": "I9kX73xcHhkTOd7JNhet",   # BuddyDex Night Elf Male (Druid)
