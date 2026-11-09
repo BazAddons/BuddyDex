@@ -1,4 +1,6 @@
-# Next: Zamja and Dannelor
+# Completed: Zamja and Dannelor
+
+Completed 2026-11-09; see [full research and validation](orgrimmar-new-tricks-and-darnassus-mazes.md). Historical planning notes below.
 
 Individually checked identity shortlist, 2026-11-09. Neither profile authored or recorded yet; no Scout sighting claimed. Exact node caches: `C:/Users/brett/BuddyDex-builds/zamja-dannelor-research`.
 

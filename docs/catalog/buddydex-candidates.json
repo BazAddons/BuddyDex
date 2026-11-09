@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 88,
-    "combined_retained_entries": 1519,
-    "candidate_name_groups": 1506,
+    "local_backlog_entries_missing_from_source": 90,
+    "combined_retained_entries": 1521,
+    "candidate_name_groups": 1508,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -7428,7 +7428,7 @@
           "source_page": 7,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -25390,6 +25390,23 @@
       ]
     },
     {
+      "name": "Nida Winterhoof",
+      "npc_ids": [
+        3014
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3014,
+          "name": "Nida Winterhoof",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Nikova Raskol",
       "npc_ids": [
         1721
@@ -30877,6 +30894,23 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Sprinkle",
+      "npc_ids": [
+        7583
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 7583,
+          "name": "Sprinkle",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -36732,7 +36766,7 @@
           "source_page": 32,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39950,6 +39984,20 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 7583,
+      "name": "Sprinkle",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3014,
+      "name": "Nida Winterhoof",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

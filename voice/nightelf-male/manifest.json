@@ -119,6 +119,46 @@
     "text": "Cooking rewards attention over a lifetime. A book can take you further, and another teacher can show you what you have yet to notice. Keep practicing, and keep tasting. An explanation becomes much more useful when you discover what it means for yourself.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore4211_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4211",
+    "spoken": "[warm] [sincere] You are willing to sit beside me and look, without making my question seem foolish. I value that. Come along. We can share a little of the day, and perhaps notice something that one of us would have passed by on our own.",
+    "text": "You are willing to sit beside me and look, without making my question seem foolish. I value that. Come along. We can share a little of the day, and perhaps notice something that one of us would have passed by on our own.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4211_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4211",
+    "spoken": "[gentle] [amused] Welcome back. Have a moment to look at something with me? A little maze on a scrap of paper. I drew it, which apparently does not mean I remember the way out. Your company would be welcome even if neither of us finds it.",
+    "text": "Welcome back. Have a moment to look at something with me? A little maze on a scrap of paper. I drew it, which apparently does not mean I remember the way out. Your company would be welcome even if neither of us finds it.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4211_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4211",
+    "spoken": "[reflective] [lightly amused] I made this maze yesterday and forgot which passage led out. Someone found the turn I had missed. Rather than being embarrassed, I wanted to draw another. It is pleasant to be lost somewhere small enough that you can simply begin again.",
+    "text": "I made this maze yesterday and forgot which passage led out. Someone found the turn I had missed. Rather than being embarrassed, I wanted to draw another. It is pleasant to be lost somewhere small enough that you can simply begin again.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4211_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4211",
+    "spoken": "[patient] [encouraging] Ask when you are unsure, and seek further instruction when you need it. There is no loss of dignity in discovering that someone else can show you what you missed. A useful lesson should leave you better able to continue learning for yourself.",
+    "text": "Ask when you are unsure, and seek further instruction when you need it. There is no loss of dignity in discovering that someone else can show you what you missed. A useful lesson should leave you better able to continue learning for yourself.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore5500_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

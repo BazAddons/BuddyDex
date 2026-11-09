@@ -714,6 +714,20 @@
       "zone": "Darnassus",
       "route": "Troll female/Night Elf male coverage",
       "reason": "Exact current named adult body, friendly faction icon and pin checked; full own personal/service/quest research pending. See docs/research/zamja-and-dannelor-queue.md"
+    },
+    {
+      "npc_id": 7583,
+      "name": "Sprinkle",
+      "zone": "Tanaris",
+      "route": "Goblin female/Tauren female coverage",
+      "reason": "Exact current named adult body checked; historical own relations reviewed, full current service/quest/literary research pending. See docs/research/sprinkle-and-nida-queue.md; faction access remains unverified"
+    },
+    {
+      "npc_id": 3014,
+      "name": "Nida Winterhoof",
+      "zone": "Thunder Bluff",
+      "route": "Goblin female/Tauren female coverage",
+      "reason": "Exact current named adult body checked; historical own relations reviewed, full current service/quest/literary research pending. See docs/research/sprinkle-and-nida-queue.md; faction access remains unverified"
     }
   ]
 }

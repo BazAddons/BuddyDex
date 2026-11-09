@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Zamja <Cooking Trainer>, the Drag, adult female Troll,
+    -- 3399/display 2734; current Horde-friendly Trainer/Basic Campfire.
+    -- 6611 asks advanced students to return and teach her; Forever 95697
+    -- credits her homestyle raptor suggestion to Borstan. Private tips are ours.
+    -- Research: docs/research/orgrimmar-new-tricks-and-darnassus-mazes.md.
+    [3399] = {
+        quote = "You learned something new? Good. Show Zamja. A teacher needs more than old stories to keep a kitchen interesting.",
+        likes = { "Students returning with something new", "Familiar flavors given proper attention", "A lesson that gets her sleeves rolled up" },
+        dislikes = { "Acting as though learning is finished", "Overlooking homestyle favorites", "Describing a trick without showing it" },
+        gossip = "Returning cooks barely put down their packs before Zamja asks what they learned. She has a great many questions for someone giving the lesson.",
+        bio = "Zamja teaches cooking at Borstan's Firepit in the Drag. She sends advanced learners to Dirge in Gadgetzan and asks them to return and teach her. Borstan also credits her with suggesting homestyle raptor dishes to draw in new customers.",
+        backstory = "A returning cook once showed Zamja a small trick. She watched, tried it and asked to see it again. Later, working alone, she repeated it until it felt natural. Now she makes room for a demonstration whenever a traveler brings one.",
+        secret = "For a few minutes, she enjoys being the learner. She does not announce that the lesson has changed hands. She just rolls up her sleeves and asks another question.",
+        bestFriend = "Show Zamja again. Slowly, this time. Yes, she is learning too. It is good to have someone worth asking, and better when they stay.",
+        favorite = { emote = "NOD", hint = "Appreciates someone who notices that even the teacher is ready to learn." },
+        lines = {
+            greet = { { "Back already? Good. What did you learn out there? Put down the pack before you try to show Zamja. There is always room for another useful idea in the kitchen, and she would rather see it done than hear a grand name for it.", tone = "[brisk] [curious]" },
+                "You came to visit? Good. You do not need a new recipe to do that." },
+            idle = { { "Someone showed Zamja a little trick once. She tried it, asked to see it again, and practiced after they left. What, a teacher cannot learn? Roll up your sleeves. If you have something worth showing, she has time to pay attention.", tone = "[playful] [confident]" },
+                "Familiar food deserves care. Do not overlook it while chasing a grand idea.",
+                "Again. Slowly. Zamja wants to see what your hands are doing." },
+            befriended = { { "You can ask questions, bring an idea back, and stay without making a ceremony of it. Zamja likes that. Come along. We will find something worth noticing, and neither of us has to pretend to know everything before we start the day.", tone = "[warm] [approving]" } },
+            poke = { "Yes? Was that the part Zamja should watch again?", "You have her attention. Show, then explain." },
+            learned = { { "When a teacher has shown you what she knows, find the next lesson. Then come back and share a little of it. Zamja can learn too. A kitchen stays interesting when the people in it bring more than their old habits to the work.", tone = "[encouraging] [animated]" } },
+            loot = { "A familiar ingredient can still deserve a new look." },
+            quest = { "Listen to what the cook actually asked for before chasing a different feast." },
+            rest = { "Sit a little. You can show Zamja after you catch your breath." },
+            zone = { "Somewhere new. Keep your eyes open for something worth bringing home." },
+            laughAlong = { "Yes, even Zamja has to ask twice sometimes." },
+            hearth = { "Back to familiar work. Let us see what we can do with it." },
+        },
+    },
+
+    -- Dannelor <First Aid Trainer>, Craftsmen's Terrace, adult male
+    -- Night Elf, 4211/display 2248; current Alliance-friendly Trainer.
+    -- Exact gossip: first aid, Deneb Walker's book, Gustaf in Theramore.
+    -- Paper mazes are ours. No later Burning rescue or new healing spell.
+    -- Research: docs/research/orgrimmar-new-tricks-and-darnassus-mazes.md.
+    [4211] = {
+        quote = "A little patience is useful in many things. So is knowing when to ask someone else to take a look.",
+        likes = { "A clear question from a learner", "A maze with one overlooked turning", "Someone willing to look beside him" },
+        dislikes = { "Pretending a question is beneath notice", "An answer smudged before he reaches it", "Refusing help to preserve appearances" },
+        gossip = "Dannelor draws little mazes, then gets lost in his own work the next day. He seems unusually pleased when someone finds the turning he missed.",
+        bio = "Dannelor teaches first aid on Darnassus's Craftsmen's Terrace. For further study, he recommends Deneb Walker's book in Stromgarde and Doctor Gustaf VanHowzen at Theramore's barracks. He knows instruction can continue beyond his own door.",
+        backstory = "Dannelor turned a few idle marks on scrap parchment into a maze. Returning to it later, he forgot which passage led out. A visitor found the answer beside him. He enjoyed the shared search enough to draw another.",
+        secret = "He likes being briefly lost somewhere that fits on a scrap of paper. There is time to start again, and pleasure in having a friend notice what he missed.",
+        bestFriend = "Look beside me. I think the turn is here, but I would like your opinion. We need not hurry. It is good to find the way together.",
+        favorite = { emote = "WINK", hint = "Enjoys a friendly hint that someone has spotted the turning he overlooked." },
+        lines = {
+            greet = { { "Welcome back. Have a moment to look at something with me? A little maze on a scrap of paper. I drew it, which apparently does not mean I remember the way out. Your company would be welcome even if neither of us finds it.", tone = "[gentle] [amused]" },
+                "Good to see you. There is time to ask what you need." },
+            idle = { { "I made this maze yesterday and forgot which passage led out. Someone found the turn I had missed. Rather than being embarrassed, I wanted to draw another. It is pleasant to be lost somewhere small enough that you can simply begin again.", tone = "[reflective] [lightly amused]" },
+                "There is a turning here somewhere. I may have made it rather too well.",
+                "A second pair of eyes can make a difficult question feel smaller." },
+            befriended = { { "You are willing to sit beside me and look, without making my question seem foolish. I value that. Come along. We can share a little of the day, and perhaps notice something that one of us would have passed by on our own.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you found the turning?", "I am listening. The little maze can wait." },
+            learned = { { "Ask when you are unsure, and seek further instruction when you need it. There is no loss of dignity in discovering that someone else can show you what you missed. A useful lesson should leave you better able to continue learning for yourself.", tone = "[patient] [encouraging]" } },
+            loot = { "Something useful is worth recognizing before it is needed." },
+            rest = { "Sit. We can take our time with this part of the day." },
+            zone = { "A new place to notice. We need not understand all of it at once." },
+            quest = { "A clear understanding of the task is a worthwhile beginning." },
+            combatEnd = { "Take a moment. You need not hurry into the next difficulty." },
+            hearth = { "Familiar surroundings. I am glad we came back together." },
+        },
+    },
+
     -- Lui'Mala <Fisherman>, Shadowprey Village, adult female Troll,
     -- 12032/display 12038, current Horde-friendly. Classic fishing ranks;
     -- exact installed gossip refers learners to Heming's book and Nat Pagle.

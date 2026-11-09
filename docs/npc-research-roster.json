@@ -1029,5 +1029,19 @@
     "zone": "Darnassus",
     "source": "Exact current adult body, friendly faction icon and pin; full own Classic/current relations, exact fishing/cooking gossip, connected profession referral clusters, books and literary/era review; no Scout sighting claimed",
     "research_notes": "docs/research/shadowprey-endings-and-darnassus-first-bites.md"
+  },
+  {
+    "npc_id": 3399,
+    "name": "Zamja",
+    "zone": "Orgrimmar",
+    "source": "Exact current adult body, friendly faction icon and pin; full own relations, installed gossip and cooking/first-aid referral clusters; Forever Changing Tastes description verified with missing completion qualified; literary/era review, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-new-tricks-and-darnassus-mazes.md"
+  },
+  {
+    "npc_id": 4211,
+    "name": "Dannelor",
+    "zone": "Darnassus",
+    "source": "Exact current adult body, friendly faction icon and pin; full own relations, installed gossip and cooking/first-aid referral clusters; Forever Changing Tastes description verified with missing completion qualified; literary/era review, no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-new-tricks-and-darnassus-mazes.md"
   }
 ]

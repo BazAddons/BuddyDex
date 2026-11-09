@@ -119,6 +119,46 @@
     "text": "Good. Now take your time putting that lesson to use. Look closely, learn what you are gathering, and bring it back with a little care. A crushed bundle teaches you less than one you can examine properly. You will get quicker with practice. You need not begin by rushing past the important part.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
   },
+  "lore3399_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3399",
+    "spoken": "[warm] [approving] You can ask questions, bring an idea back, and stay without making a ceremony of it. Zamja likes that. Come along. We will find something worth noticing, and neither of us has to pretend to know everything before we start the day.",
+    "text": "You can ask questions, bring an idea back, and stay without making a ceremony of it. Zamja likes that. Come along. We will find something worth noticing, and neither of us has to pretend to know everything before we start the day.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3399_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3399",
+    "spoken": "[brisk] [curious] Back already? Good. What did you learn out there? Put down the pack before you try to show Zamja. There is always room for another useful idea in the kitchen, and she would rather see it done than hear a grand name for it.",
+    "text": "Back already? Good. What did you learn out there? Put down the pack before you try to show Zamja. There is always room for another useful idea in the kitchen, and she would rather see it done than hear a grand name for it.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3399_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3399",
+    "spoken": "[playful] [confident] Someone showed Zamja a little trick once. She tried it, asked to see it again, and practiced after they left. What, a teacher cannot learn? Roll up your sleeves. If you have something worth showing, she has time to pay attention.",
+    "text": "Someone showed Zamja a little trick once. She tried it, asked to see it again, and practiced after they left. What, a teacher cannot learn? Roll up your sleeves. If you have something worth showing, she has time to pay attention.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3399_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3399",
+    "spoken": "[encouraging] [animated] When a teacher has shown you what she knows, find the next lesson. Then come back and share a little of it. Zamja can learn too. A kitchen stays interesting when the people in it bring more than their old habits to the work.",
+    "text": "When a teacher has shown you what she knows, find the next lesson. Then come back and share a little of it. Zamja can learn too. A kitchen stays interesting when the people in it bring more than their old habits to the work.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore3403_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
