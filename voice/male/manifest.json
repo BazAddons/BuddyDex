@@ -2309,6 +2309,86 @@
     "text": "Before you sell that, let me see how the pieces fit together.",
     "voice_id": "ouL9IsyrSnUkCmfnD02u"
   },
+  "lore5518_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5518",
+    "spoken": "[warm appreciation, lively, welcoming] Someone who listens, asks questions, and still comes back. That's a fine friend for an engineer. Shall we see what's out there?",
+    "text": "Someone who listens, asks questions, and still comes back. That's a fine friend for an engineer. Shall we see what's out there?",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5518_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5518",
+    "spoken": "[distracted enthusiasm, curious, brisk] Out we go. I can finish that calculation while we walk. Unless something more interesting turns up, which it very well might.",
+    "text": "Out we go. I can finish that calculation while we walk. Unless something more interesting turns up, which it very well might.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5518_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5518",
+    "spoken": "[defensive pride, dry amusement, conceding the joke] The bread carrier required three pages. The basket required a handle. Yes, I took the basket. I still enjoyed the three pages.",
+    "text": "The bread carrier required three pages. The basket required a handle. Yes, I took the basket. I still enjoyed the three pages.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5518_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5518",
+    "spoken": "[animated approval, encouraging curiosity] A new skill! Excellent. Now think of something useful to do with it. That is where the interesting work begins.",
+    "text": "A new skill! Excellent. Now think of something useful to do with it. That is where the interesting work begins.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5519_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5519",
+    "spoken": "[sincere affection, cheerful welcome] You heard the tune and stayed for the company. I like that. Come along, my friend. We can make a little noise together.",
+    "text": "You heard the tune and stayed for the company. I like that. Come along, my friend. We can make a little noise together.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5519_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5519",
+    "spoken": "[cheerful, mischievous, companionable] A walk sounds good. If you hear me keeping time, don't mind it. The stockroom's a very musical place when nobody's looking.",
+    "text": "A walk sounds good. If you hear me keeping time, don't mind it. The stockroom's a very musical place when nobody's looking.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5519_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5519",
+    "spoken": "[mock innocence, playful, admitting it with a chuckle] I wasn't drumming. I was checking the tins. Thoroughly. In a rather catchy sequence. Yes, all right, I was drumming.",
+    "text": "I wasn't drumming. I was checking the tins. Thoroughly. In a rather catchy sequence. Yes, all right, I was drumming.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
+  "lore5519_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:5519",
+    "spoken": "[curious, practical, amused] That might be useful. Any markings on it? Let's find out what it is before you ask it to do something dramatic.",
+    "text": "That might be useful. Any markings on it? Let's find out what it is before you ask it to do something dramatic.",
+    "voice_id": "ouL9IsyrSnUkCmfnD02u"
+  },
   "lore5569_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

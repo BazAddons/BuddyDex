@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-08",
   "scope": "Known priority NPCs and friendly named humanoids from the installed Scout snapshot. Candidate identity, lore and eligibility require research before authoring.",
-  "completed_count": 88,
-  "remaining_count": 129,
+  "completed_count": 91,
+  "remaining_count": 126,
   "completed": [
     {
       "npc_id": 54,
@@ -524,6 +524,24 @@
       "status": "complete"
     },
     {
+      "npc_id": 5518,
+      "name": "Lilliam Sparkspindle",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 5519,
+      "name": "Billibub Cogspinner",
+      "zone": "Stormwind City",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5569,
       "name": "Fizzlebang Booms",
       "zone": "Ironforge",
@@ -554,6 +572,15 @@
       "npc_id": 6569,
       "name": "Gnoarn",
       "zone": "Ironforge",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 6579,
+      "name": "Shoni the Shilent",
+      "zone": "Stormwind City",
       "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
@@ -957,13 +984,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5519,
-      "name": "Billibub Cogspinner",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 1367,
       "name": "Billy",
       "zone": "Stormwind City",
@@ -1237,13 +1257,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 5518,
-      "name": "Lilliam Sparkspindle",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 5499,
       "name": "Lilyssia Nightbreeze",
       "zone": "Stormwind City",
@@ -1414,13 +1427,6 @@
     {
       "npc_id": 2327,
       "name": "Shaina Fuller",
-      "zone": "Stormwind City",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6579,
-      "name": "Shoni the Shilent",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"

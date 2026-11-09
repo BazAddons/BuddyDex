@@ -42,6 +42,86 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Dwarven District, Stormwind. Shoni 6579: female gnome commander
+    -- seeking a shredder power supply and robot parts (2041/2040/2928).
+    -- Lilliam 5518: male gnome Expert Engineer, refers students to Sprite,
+    -- Springspindle, Overspark and Nixx. Billibub 5519: male gnome supplier
+    -- whose gossip directs assembly questions to Lilliam. No assumed kin.
+    -- Original flags/basket/tin rhythm hooks and researched boundaries:
+    -- docs/research/stormwind-gnome-engineers.md.
+    [6579] = {
+        quote = "Parts first. A stirring speech won't move an excavationator an inch, however beautifully you deliver it.",
+        likes = { "An intact part brought back promptly", "A report with something useful in it", "Another machine ready for the road" },
+        dislikes = { "A fleet waiting on spare parts", "Being told to make do with a speech", "Mistaking a repaired machine for victory" },
+        gossip = "Shoni's plans are all power supplies and spare parts. Someone spotted tiny flags in a margin. She turned the page rather quickly.",
+        bio = "Shoni the Shilent commands an underground assault crew. Gnoarn sends help to her in Stormwind. She needs a Deadmines shredder's power supply and robot parts from Gnomeregan for the gyrodrillmatic excavationators meant to help reclaim the city.",
+        backstory = "Breaking through Gnomeregan's underground borders takes more than determination. Shoni's fleet needs power and repairs before it can reach Dun Morogh. She has little patience for delays, but welcomes useful help with the enormous parts problem.",
+        secret = "The little flags are for a welcome home she imagines after the work is done. She can draw the celebration while knowing perfectly well that the road there is still unfinished.",
+        bestFriend = "If we get that day, I'd like you beside me for it. Until then, I'm glad you're here for the work and the waiting.",
+        favorite = { emote = "SALUTE", hint = "A crisp acknowledgment tells the commander you're ready to help." },
+        lines = {
+            greet = { { "An outing? Good. Tell me what you've seen. Useful information, if possible. I have quite enough speeches waiting at home.", tone = "[brisk command, energetic, dry humor]" }, "There you are. Let's get moving while we have the chance." },
+            idle = { { "The flags? For when we have our home back. Yes, I know there's work left. That's why they're still drawings.", tone = "[quietly hopeful, firm, guarded affection]" }, "A machine can be ready while the next one is still waiting on a part. That's the trouble with fleets.", "An intact power supply. Intact is the important word." },
+            befriended = { { "You keep coming back. Not just when there's a reward waiting. I value that. Come along, my friend.", tone = "[sincere appreciation, gruff warmth, welcoming]" } },
+            poke = { "Report? Or are you checking whether I'm still here?", "Yes? Make it useful." },
+            quest = { { "Work finished. Good. Every useful thing done is one less thing standing in the way. Now, take a breath.", tone = "[satisfied, encouraging, decisive]" } },
+            loot = { "A useful part? Keep it where we can find it again." },
+            bagsFull = { "An inventory would be helpful before we add anything else." },
+            learned = { "Good. Another way to get past a problem." },
+            levelUp = { "More capable than yesterday. Keep that going." },
+            combatEnd = { "Everyone accounted for? Equipment comes afterward." },
+            hearth = { "Back to work. Let's see what progress has been made." },
+        },
+    },
+    [5518] = {
+        quote = "A useful invention ought to improve the day. Preferably without removing the person whose day it was meant to improve.",
+        likes = { "An ingenious device with a useful purpose", "A student following the calculation", "A question asked before assembly" },
+        dislikes = { "Explosions offered as an explanation", "Skipping the part that makes it work", "Being interrupted halfway through a sum" },
+        gossip = "Lilliam makes small problems look wonderfully complicated. One elaborate drawing appears to be for carrying bread.",
+        bio = "Lilliam Sparkspindle teaches engineering in Stormwind's Dwarven District. He sends beginners to Sprite Jumpsprocket and advanced students to Springspindle Fizzlegear. He favors gnomish devices while explaining both specializations.",
+        backstory = "He gives engineers a manual and refers them to Overspark in Ironforge or Nixx in Gadgetzan. Lilliam calls useful gadgets the superior path. His duty to explain the alternative doesn't stop him warning about its explosions.",
+        secret = "He drew three pages of plans for a mechanical bread carrier, then took a plain basket to buy lunch. He keeps the plans. A simpler answer doesn't make the drawing less enjoyable.",
+        bestFriend = "If I've drawn three gears where a handle would do, you may tell me. I'll grumble, of course. Then I'll listen.",
+        favorite = { emote = "NOD", hint = "A thoughtful acknowledgment reassures him that someone is following the explanation." },
+        lines = {
+            greet = { { "Out we go. I can finish that calculation while we walk. Unless something more interesting turns up, which it very well might.", tone = "[distracted enthusiasm, curious, brisk]" }, "Hello again! What have you been making? Or shall we find a new question?" },
+            idle = { { "The bread carrier required three pages. The basket required a handle. Yes, I took the basket. I still enjoyed the three pages.", tone = "[defensive pride, dry amusement, conceding the joke]" }, "A device that leaves its user in one piece has already made a favorable first impression.", "Now, where was I in that calculation?" },
+            befriended = { { "Someone who listens, asks questions, and still comes back. That's a fine friend for an engineer. Shall we see what's out there?", tone = "[warm appreciation, lively, welcoming]" } },
+            poke = { "There goes the sum. Again.", "Yes? Is it a question or a demonstration?" },
+            learned = { { "A new skill! Excellent. Now think of something useful to do with it. That is where the interesting work begins.", tone = "[animated approval, encouraging curiosity]" } },
+            quest = { "A problem solved. Was the solution elegant? Tell me while we walk." },
+            loot = { "Interesting material. Any idea what we might use it for?" },
+            bagsFull = { "Perhaps the basket had advantages I haven't fully appreciated." },
+            levelUp = { "Progress! I do like a result one can point to." },
+            rest = { "Sit, yes. I can think just as well sitting." },
+            combatEnd = { "Still in one piece? Good. A very important result." },
+        },
+    },
+    [5519] = {
+        quote = "I can help you find the parts. Ask Lilliam about putting them together before you make the exciting noise.",
+        likes = { "A parts list he can actually read", "Customers asking before they assemble", "A pleasant rhythm on an empty tin" },
+        dislikes = { "Calling every small part a thingy", "An explosion mistaken for success", "A drawer full of mixed sizes" },
+        gossip = "Billibub counts stock to a surprisingly lively rhythm. When someone stops to listen, the empty tins become very ordinary tins again.",
+        bio = "Billibub Cogspinner sells engineering supplies in Stormwind's Dwarven District. He directs customers to Lilliam Sparkspindle for instruction on assembly. Finding the right part is his business; understanding how it fits still deserves a lesson.",
+        backstory = "Working beside an engineering trainer gave Billibub plenty of practice separating a request for supplies from a question about using them. He keeps the parts moving, and fills the quiet moments between customers with little rhythms on empty tins.",
+        secret = "He likes the sound of a small tin band more than he cares to admit. If anyone catches him tapping out a tune, he claims to be checking the containers. Sometimes they join in anyway.",
+        bestFriend = "Take that empty tin. I'll start slowly. You needn't buy anything, and neither of us has to call it checking the stock.",
+        favorite = { emote = "CLAP", hint = "A little rhythm of your own might encourage his quiet bit of percussion." },
+        lines = {
+            greet = { { "A walk sounds good. If you hear me keeping time, don't mind it. The stockroom's a very musical place when nobody's looking.", tone = "[cheerful, mischievous, companionable]" }, "There you are! What do you need? Ah, an outing. I can supply the company." },
+            idle = { { "I wasn't drumming. I was checking the tins. Thoroughly. In a rather catchy sequence. Yes, all right, I was drumming.", tone = "[mock innocence, playful, admitting it with a chuckle]" }, "A parts list with sizes on it. Such a little thing to make a whole morning easier.", "Lilliam can explain that bit. I'd rather sell you the right part than guess loudly." },
+            befriended = { { "You heard the tune and stayed for the company. I like that. Come along, my friend. We can make a little noise together.", tone = "[sincere affection, cheerful welcome]" } },
+            poke = { "That's not how you check whether I'm in stock.", "Yes? Which thingy did you mean this time?" },
+            loot = { { "That might be useful. Any markings on it? Let's find out what it is before you ask it to do something dramatic.", tone = "[curious, practical, amused]" } },
+            bagsFull = { "Keep the little parts together. They have a talent for disappearing." },
+            learned = { "Good. Now you'll know which questions to ask before putting it together." },
+            rest = { "A quiet moment. We could see what makes a nice tapping sound here." },
+            quest = { "One request sorted out. That's a pleasing sort of finish." },
+            levelUp = { "Well done! That deserves a little fanfare. I'll improvise." },
+            hearth = { "Back to the stock. And the tins. Mostly the stock, naturally." },
+        },
+    },
+
     -- Weller's Arsenal, Trade District, Stormwind: Woo Ping 11867 is a
     -- human male weapon master; Gunther Weller 1289/Marda Weller 1287 are
     -- human male/female weapons merchants. Scout and current services

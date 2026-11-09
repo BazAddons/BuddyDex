@@ -2189,6 +2189,46 @@
     "text": "An intact container is worth keeping. Just find out what was in it first.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore6579_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6579",
+    "spoken": "[sincere appreciation, gruff warmth, welcoming] You keep coming back. Not just when there's a reward waiting. I value that. Come along, my friend.",
+    "text": "You keep coming back. Not just when there's a reward waiting. I value that. Come along, my friend.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6579_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6579",
+    "spoken": "[brisk command, energetic, dry humor] An outing? Good. Tell me what you've seen. Useful information, if possible. I have quite enough speeches waiting at home.",
+    "text": "An outing? Good. Tell me what you've seen. Useful information, if possible. I have quite enough speeches waiting at home.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6579_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6579",
+    "spoken": "[quietly hopeful, firm, guarded affection] The flags? For when we have our home back. Yes, I know there's work left. That's why they're still drawings.",
+    "text": "The flags? For when we have our home back. Yes, I know there's work left. That's why they're still drawings.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore6579_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:6579",
+    "spoken": "[satisfied, encouraging, decisive] Work finished. Good. Every useful thing done is one less thing standing in the way. Now, take a breath.",
+    "text": "Work finished. Good. Every useful thing done is one less thing standing in the way. Now, take a breath.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore9859_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v3",
