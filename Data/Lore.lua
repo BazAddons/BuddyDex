@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bashana Runetotem, Elder Rise, Thunder Bluff,9087/8356.
+    -- Adult female Tauren/Cenarion Circle.3782 Hamuul's daughter;
+    --3786 research,6561 Kelris,95664/98823 relic referral to Muln.
+    -- Seedling measurement mishap is original; no later retail events.
+    -- Research: docs/research/bashana-and-jandi-queue.md.
+    [9087] = {
+        quote = "A surprising result deserves attention. So does the possibility that someone moved the pot while you were measuring the seedling.",
+        likes = { "A careful observation honestly shared", "New growth worth looking at twice", "Knowledge used to protect living things" },
+        dislikes = { "Innocent lives sacrificed for power", "Certainty unsupported by observation", "Pride getting in the way of learning" },
+        gossip = "Bashana once recorded a seedling's remarkable growth before discovering its pot had moved. She tells that part of the story herself.",
+        bio = "Bashana, Hamuul Runetotem's daughter, serves the Cenarion Circle on Elder Rise. She collects morrowgrain for research, thanks those who stop Kelris's sacrifices and sends a mysterious Titan Relic to Muln Earthfury for further study.",
+        backstory = "She once measured a seedling against a marked slat. Its sudden growth seemed remarkable until she realized the pot had been moved. After correcting the measurement, she looked again and found a new leaf. There was still something worth noticing.",
+        secret = "She has kept the mistaken mark. It reminds her to admit an error without letting embarrassment spoil the pleasure of finding something real.",
+        bestFriend = "Walk with me. We may find something worth a closer look. If I become too certain of my explanation, you may ask about the pot.",
+        favorite = { emote = "SMILE", hint = "A kind expression helps a curious researcher enjoy admitting a harmless mistake." },
+        lines = {
+            greet = { { "Welcome, friend. Have you found something that deserves a closer look? You need not arrive with an explanation already prepared. A careful observation can be a good beginning. I have learned to check a surprising result twice, especially when a seedling appears to have grown farther than its pot will reasonably allow.", tone = "[warm] [thoughtful] [lightly amused]" },
+                "Blessings upon your road. What have you noticed since we last spoke?" },
+            idle = { { "I once thought a seedling had grown remarkably overnight. Then I discovered its pot had been moved beside the measuring slat. After correcting my mistake, I found a new leaf. I was glad I had looked again. There was something wonderful there, even if it was smaller than my first explanation suggested.", tone = "[reflective] [gently amused]" },
+                "An unfamiliar thing need not surrender all its secrets to the first person who looks at it.",
+                "The Circle's work grows through many hands. A carefully gathered sample deserves our gratitude." },
+            befriended = { { "You have become someone I am glad to share an unfinished thought with. Come along, friend. We can look at what the road offers without deciding too quickly what it means. If I grow rather proud of an explanation, you may ask whether anyone has moved the pot. I will know what you mean.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes, friend? What have you noticed?", "I am listening. An unexpected question may be a useful one." },
+            quest = { { "The morrowgrain you bring helps our research, and the lives spared from Kelris matter far beyond any reward. Remember what the work is meant to serve. When an object calls for wisdom beyond our own, there is honor in taking it to someone better prepared to understand it. Knowledge should bring care with it.", tone = "[earnest] [gentle] [steady]" } },
+            learned = { "Let what you have learned sharpen your attention, rather than close the question too soon." },
+            loot = { "Something unusual? Notice where it came from before deciding what it must be." },
+            rest = { "We can look without measuring everything. A new leaf is still pleasant to see." },
+            zone = { "Different ground may offer different questions. Let us pay attention to what lives here." },
+            laughAlong = { "Yes, the pot had moved. I do include that part when I tell the story." },
+            hearth = { "Back to Elder Rise. There will be work to share and new observations to consider." },
+        },
+    },
+
+    -- Jandi <Herbalism Trainer>, the Drag, Orgrimmar,3404/4358.
+    -- Adult female Troll, Horde-friendly.97905 Brakk referral/Incense
+    -- Candle lesson and campfire advice; current own relation tabs sparse.
+    -- Ordinary weed in a fine cup is original; no modern relocation.
+    -- Research: docs/research/bashana-and-jandi-queue.md.
+    [3404] = {
+        quote = "Look at the leaves, mon. A fine cup does not make a common weed rare. It only makes the guessing more expensive.",
+        likes = { "Leaves examined before names are guessed", "A useful lesson carried into camp", "A stubborn plant growing well" },
+        dislikes = { "Judging a plant by its container", "Careless picking passed off as expertise", "A camp planned without its fire" },
+        gossip = "Jandi keeps a common weed in a fine cup. Students sometimes guess its value before looking closely enough to see what it is.",
+        bio = "Jandi teaches herbalism in Orgrimmar's Drag. Brakk sends developing herbalists to her for an Incense Candle lesson. She reminds them to make camp in the wilderness and learn a campfire from a cooking trainer before setting up.",
+        backstory = "She put an ordinary weed in a fine cup while arranging her plant samples. A visitor assumed it must be valuable. Jandi asked him to look at the leaves. Since then, the little plant has served as a useful reminder to examine before guessing.",
+        secret = "She could put the weed in a plainer pot now. She keeps it in the cup because it grows well there, and she has become fond of its stubborn little leaves.",
+        bestFriend = "Come along, mon. You can enjoy a plant without naming its price. I like having someone beside me who remembers that part.",
+        favorite = { emote = "NOD", hint = "A thoughtful sign that you understand suits a teacher who asks you to look before guessing." },
+        lines = {
+            greet = { { "Come closer, mon. What do you see in that cup? Look at the leaves before you decide how rare it is. A fine container can fool an eager student. We can begin with careful eyes, then talk about what you hope to learn. There is more to herbalism than making a confident guess.", tone = "[warm] [wry] [instructive]" },
+                "Welcome back. Have you brought a question, or a plant you have already decided to misidentify?" },
+            idle = { { "I put a common weed in a fine cup while arranging my samples. A visitor asked what such a valuable plant might cost. He had looked at the cup first. I keep it there now. It makes a useful lesson, and I admit those stubborn little leaves have grown on me in their own way.", tone = "[conversational] [amused] [warm]" },
+                "Take a good look before you pick. A name guessed loudly is still a guess.",
+                "A little care with the plants can become something useful for everyone sitting at your camp." },
+            befriended = { { "You have become someone I am happy to see without preparing a lesson first. Come along, friend. We can look at what is growing beside the road. You need not name every leaf or tell me what it would fetch. Sometimes I enjoy a stubborn little plant simply because it is doing well.", tone = "[warm] [sincere] [unhurried]" } },
+            poke = { "Yes, mon? Have you looked closely?", "Still a common weed. The cup has not changed that." },
+            learned = { { "An incense candle is something a learning herbalist can bring to camp. Give the work care, then take it into the wilderness where a camp belongs. Remember the fire before arranging the rest. A cooking trainer can teach you that beginning. A useful lesson works better when you have remembered what it needs.", tone = "[instructive] [encouraging] [steady]" } },
+            loot = { "Look closely. The thing you found may be more interesting than the price you first imagined." },
+            bagsFull = { "Make room before gathering more. Crushed samples teach a different lesson than you intended." },
+            rest = { "You can enjoy what grows around us without turning every leaf into a test." },
+            quest = { "Know what you are looking for before you begin filling your pack." },
+            laughAlong = { "A fine cup and a very ordinary weed. I thought you might enjoy that." },
+            hearth = { "Back to Orgrimmar. I wonder how the little plant is doing." },
+        },
+    },
+
     -- Innkeeper Greul, Camp Mojache, Feralas,7737/6554.
     -- Adult female Tauren, Horde-friendly Innkeeper/Vendor. Current twelve
     -- bread/drink rows and actual plains-wind welcome; no personal quest.

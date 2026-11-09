@@ -1370,14 +1370,28 @@
     "npc_id": 9087,
     "name": "Bashana Runetotem",
     "zone": "Thunder Bluff",
-    "source": "Exact current named adult female model, Horde Friendly icon and established voice checked; full own lore/quest/service research pending, no Scout sighting claimed",
+    "source": "Exact current named adult female model/Horde Friendly/voice checked; own sparse relations, installed dialogue and actual Classic/Forever research, relic, Blackfathom and camping chains researched. Explicit unavailable current/readable/literary gaps, no Scout sighting claimed",
     "research_notes": "docs/research/bashana-and-jandi-queue.md"
   },
   {
     "npc_id": 3404,
     "name": "Jandi",
     "zone": "Orgrimmar",
-    "source": "Exact current named adult female model, Horde Friendly icon and established voice checked; full own lore/quest/service research pending, no Scout sighting claimed",
+    "source": "Exact current named adult female model/Horde Friendly/voice checked; own sparse relations, installed dialogue and actual Classic/Forever research, relic, Blackfathom and camping chains researched. Explicit unavailable current/readable/literary gaps, no Scout sighting claimed",
     "research_notes": "docs/research/bashana-and-jandi-queue.md"
+  },
+  {
+    "npc_id": 8997,
+    "name": "Gershala Nightwhisper",
+    "zone": "Darkshore",
+    "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gershala-and-jandia-queue.md"
+  },
+  {
+    "npc_id": 4877,
+    "name": "Jandia",
+    "zone": "Thousand Needles",
+    "source": "Exact current named adult model/Friendly icon/approved runtime voice checked; full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gershala-and-jandia-queue.md"
   }
 ]

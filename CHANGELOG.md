@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Bashana Runetotem and Jandi: full female Tauren/Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Bashana's research and relic referral, and Jandi's actual Incense Candle lesson.
+
 - Add Innkeeper Greul and Nogg: full female Tauren/male Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain Greul's inn welcome and Nogg's actual rig and ring quests.
 
 - Add Kamari and Elisa Steelhand: full female Orc/Dwarf profiles, fifteen personal lines and four approved v4 signatures each; preserve Kamari's building-hide commission and Elisa's actual camping lesson.

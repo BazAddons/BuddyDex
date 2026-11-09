@@ -1042,14 +1042,28 @@
       "name": "Bashana Runetotem",
       "zone": "Thunder Bluff",
       "route": "Female Tauren/Troll Horde quest and herbalism coverage",
-      "reason": "Exact current named adult female model, Horde Friendly icon and established runtime voice checked; full research pending. See docs/research/bashana-and-jandi-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; verified Cenarion/relic and camping roles with original-writing/source/era limits in docs/research/bashana-and-jandi-queue.md"
     },
     {
       "npc_id": 3404,
       "name": "Jandi",
       "zone": "Orgrimmar",
       "route": "Female Tauren/Troll Horde quest and herbalism coverage",
-      "reason": "Exact current named adult female model, Horde Friendly icon and established runtime voice checked; full research pending. See docs/research/bashana-and-jandi-queue.md"
+      "reason": "Completed full profile, fifteen lines/four v4 signatures; verified Cenarion/relic and camping roles with original-writing/source/era limits in docs/research/bashana-and-jandi-queue.md"
+    },
+    {
+      "npc_id": 8997,
+      "name": "Gershala Nightwhisper",
+      "zone": "Darkshore",
+      "route": "Male Night Elf/female Tauren regional quest and service coverage",
+      "reason": "Exact current named adult model, Friendly icon and approved runtime voice checked; full research pending. See docs/research/gershala-and-jandia-queue.md"
+    },
+    {
+      "npc_id": 4877,
+      "name": "Jandia",
+      "zone": "Thousand Needles",
+      "route": "Male Night Elf/female Tauren regional quest and service coverage",
+      "reason": "Exact current named adult model, Friendly icon and approved runtime voice checked; full research pending. See docs/research/gershala-and-jandia-queue.md"
     }
   ]
 }

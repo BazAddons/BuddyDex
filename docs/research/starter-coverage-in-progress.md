@@ -477,3 +477,10 @@ Next individually verified [Greul and Nogg](greul-and-nogg-queue.md), adult fema
 400 completed authored profiles. Adult female Tauren/male Goblin Horde additions,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance203/Horde106/unverified98, seven shared entries overlap. [Research/writing/validation](greul-and-nogg-queue.md) preserves actual inn stock/welcome and rig/ring quests. Lore layouts19/20lines, full smoke and separate fresh Horde sessions passed. Installed/development ZIP verified6134files/6106mappings/122.66MiB. No live visual/listening approval claimed, no CF upload/tag.
 
 Next individually checked [Bashana and Jandi](bashana-and-jandi-queue.md), adult female Tauren/Troll Horde quest/training candidates. Jandi's current model proves female Troll despite earlier incomplete historical-hint scan. Neither authored/counted complete. Wider1510-name pool and previous explicit source gaps remain active.
+
+
+## 2026-11-09: Bashana Runetotem and Jandi
+
+402 completed authored profiles. Adult female Tauren/Troll Horde additions,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance203/Horde108/unverified98 with seven shared overlaps. [Research/validation](bashana-and-jandi-queue.md) preserves actual research, family, relic-referral and Incense Candle roles. Layout20lines each/full smoke/two fresh Horde sessions passed, eight exact metadata/audio mappings checked. Installed/development ZIP6142files/6114mappings/123.21MiB. No live visual/listening approval claimed; original candidate hash unchanged, CF deferred.
+
+Next individually verified [Gershala and Jandia](gershala-and-jandia-queue.md), adult male Night Elf/female Tauren, regional quest/service candidates. Jandia is not Jandi and no fishing identity is assumed. Neither counted complete. Wider1510-name pool and earlier explicit source gaps remain active.

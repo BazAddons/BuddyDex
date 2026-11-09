@@ -279,6 +279,46 @@
     "text": "Take your time. You do not have to make it look effortless on the first try. I would rather see you stop and ask than carry a mistake into the next lesson.",
     "voice_id": "0xQXygLnre17fk87G6Kt"
   },
+  "lore3404_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3404",
+    "spoken": "[warm] [sincere] [unhurried] You have become someone I am happy to see without preparing a lesson first. Come along, friend. We can look at what is growing beside the road. You need not name every leaf or tell me what it would fetch. Sometimes I enjoy a stubborn little plant simply because it is doing well.",
+    "text": "You have become someone I am happy to see without preparing a lesson first. Come along, friend. We can look at what is growing beside the road. You need not name every leaf or tell me what it would fetch. Sometimes I enjoy a stubborn little plant simply because it is doing well.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3404_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3404",
+    "spoken": "[warm] [wry] [instructive] Come closer, mon. What do you see in that cup? Look at the leaves before you decide how rare it is. A fine container can fool an eager student. We can begin with careful eyes, then talk about what you hope to learn. There is more to herbalism than making a confident guess.",
+    "text": "Come closer, mon. What do you see in that cup? Look at the leaves before you decide how rare it is. A fine container can fool an eager student. We can begin with careful eyes, then talk about what you hope to learn. There is more to herbalism than making a confident guess.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3404_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3404",
+    "spoken": "[conversational] [amused] [warm] I put a common weed in a fine cup while arranging my samples. A visitor asked what such a valuable plant might cost. He had looked at the cup first. I keep it there now. It makes a useful lesson, and I admit those stubborn little leaves have grown on me in their own way.",
+    "text": "I put a common weed in a fine cup while arranging my samples. A visitor asked what such a valuable plant might cost. He had looked at the cup first. I keep it there now. It makes a useful lesson, and I admit those stubborn little leaves have grown on me in their own way.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
+  "lore3404_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3404",
+    "spoken": "[instructive] [encouraging] [steady] An incense candle is something a learning herbalist can bring to camp. Give the work care, then take it into the wilderness where a camp belongs. Remember the fire before arranging the rest. A cooking trainer can teach you that beginning. A useful lesson works better when you have remembered what it needs.",
+    "text": "An incense candle is something a learning herbalist can bring to camp. Give the work care, then take it into the wilderness where a camp belongs. Remember the fire before arranging the rest. A cooking trainer can teach you that beginning. A useful lesson works better when you have remembered what it needs.",
+    "voice_id": "0xQXygLnre17fk87G6Kt"
+  },
   "lore3706_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

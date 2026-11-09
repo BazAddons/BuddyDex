@@ -598,5 +598,45 @@
     "spoken": "[grateful] [hopeful] Thank you for seeing it through. A little help can reach farther than you know. I came to Silverpine hoping to offer some, and I have learned to appreciate receiving it, too.",
     "text": "Thank you for seeing it through. A little help can reach farther than you know. I came to Silverpine hoping to offer some, and I have learned to appreciate receiving it, too.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore9087_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9087",
+    "spoken": "[warm] [sincere] [gently amused] You have become someone I am glad to share an unfinished thought with. Come along, friend. We can look at what the road offers without deciding too quickly what it means. If I grow rather proud of an explanation, you may ask whether anyone has moved the pot. I will know what you mean.",
+    "text": "You have become someone I am glad to share an unfinished thought with. Come along, friend. We can look at what the road offers without deciding too quickly what it means. If I grow rather proud of an explanation, you may ask whether anyone has moved the pot. I will know what you mean.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore9087_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9087",
+    "spoken": "[warm] [thoughtful] [lightly amused] Welcome, friend. Have you found something that deserves a closer look? You need not arrive with an explanation already prepared. A careful observation can be a good beginning. I have learned to check a surprising result twice, especially when a seedling appears to have grown farther than its pot will reasonably allow.",
+    "text": "Welcome, friend. Have you found something that deserves a closer look? You need not arrive with an explanation already prepared. A careful observation can be a good beginning. I have learned to check a surprising result twice, especially when a seedling appears to have grown farther than its pot will reasonably allow.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore9087_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9087",
+    "spoken": "[reflective] [gently amused] I once thought a seedling had grown remarkably overnight. Then I discovered its pot had been moved beside the measuring slat. After correcting my mistake, I found a new leaf. I was glad I had looked again. There was something wonderful there, even if it was smaller than my first explanation suggested.",
+    "text": "I once thought a seedling had grown remarkably overnight. Then I discovered its pot had been moved beside the measuring slat. After correcting my mistake, I found a new leaf. I was glad I had looked again. There was something wonderful there, even if it was smaller than my first explanation suggested.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore9087_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:9087",
+    "spoken": "[earnest] [gentle] [steady] The morrowgrain you bring helps our research, and the lives spared from Kelris matter far beyond any reward. Remember what the work is meant to serve. When an object calls for wisdom beyond our own, there is honor in taking it to someone better prepared to understand it. Knowledge should bring care with it.",
+    "text": "The morrowgrain you bring helps our research, and the lives spared from Kelris matter far beyond any reward. Remember what the work is meant to serve. When an object calls for wisdom beyond our own, there is honor in taking it to someone better prepared to understand it. Knowledge should bring care with it.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
   }
 }
