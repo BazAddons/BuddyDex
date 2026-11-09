@@ -2,7 +2,7 @@
 
 Policy agreed 2026-11-09: new players of every playable race and faction should find nearby completed Buddies. This is an interim coverage milestone inside the wider NPC goal, not a reduction of that goal.
 
-The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 59 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
+The completed-profile audit is in [npc-coverage.json](../npc-coverage.json). NPC race, friendly-faction evidence and starting-area access are separate measures. Public definitions can be sparse: 62 completed profiles lack a faction icon in the current node, so those are marked unverified rather than guessed from NPC race.
 
 ## First Horde research shortlist
 
@@ -81,3 +81,7 @@ Aamelia Windfield completes the first Zephras research queue after all eight orc
 The next persistent queue adds Gennia Runetotem (3064), Cook Torka (3191), Pyall Silentstride (3067) and Innkeeper Kauth (6747); see [initial identity review](next-horde-services.md). Gennia supplies a female Tauren candidate; Torka is verified male. All adult models and exact names were checked. Torka has current Horde-friendly/location evidence; the three sparse Tauren nodes still require current access/location and full lore review before authoring. None is marked complete or given invented Scout sightings.
 
 Gennia Runetotem and Cook Torka are complete with fifteen personal lines and four v4 signatures each; see [full chain research](bloodhoof-druid-and-razor-hill-cook.md). Mulgore and Durotar now each have six authored profiles. Gennia adds another female Tauren; Torka adds a male orc cooking service and verified Forever fruit/camping roles. Source coverage reaches 281 unique profiles: 192 Alliance-access, 35 Horde-access and 60 unverified (six shared profiles overlap). Gennia remains unverified in the public-icon audit because her current node lacks reaction icons; conventional Bloodhoof identity and quest evidence are documented, without inventing a current sighting. Pyall and Kauth remain next in this service rotation.
+
+## Bloodhoof services completed
+
+Pyall Silentstride and Innkeeper Kauth bring development to **283 complete profiles**, with fifteen personal lines and four v4 signatures each. See [their full research](bloodhoof-cook-and-innkeeper.md). Mulgore now has eight authored starter-area profiles; Durotar remains six. The public access audit lists 192 Alliance, 35 Horde and 62 unverified, with six shared entries overlapping the faction counts. Missing reaction icons for both new Tauren remain unverified; no gameplay access gate is bypassed. Next research should rotate useful Horde services, quests and female NPCs, retaining the wider catalog and unresolved old Westfall identities. Publication remains deferred until tonight.

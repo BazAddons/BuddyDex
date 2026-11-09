@@ -16356,7 +16356,7 @@
           "name": "Innkeeper Kauth",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -27022,7 +27022,7 @@
           "name": "Pyall Silentstride",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
-          "profile_status": "pending_identity_and_lore_research"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39027,6 +39027,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 3067,
+      "name": "Pyall Silentstride",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3143,
       "name": "Gornek",
       "source": "Existing local backlog; absent from source filter",
@@ -39178,6 +39185,13 @@
     {
       "npc_id": 6376,
       "name": "Wren Darkspring",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 6747,
+      "name": "Innkeeper Kauth",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "complete"
@@ -39408,20 +39422,6 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
-    },
-    {
-      "npc_id": 3067,
-      "name": "Pyall Silentstride",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 6747,
-      "name": "Innkeeper Kauth",
-      "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
-      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

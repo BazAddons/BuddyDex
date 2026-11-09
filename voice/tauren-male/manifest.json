@@ -158,5 +158,85 @@
     "spoken": "[firm encouraging teacher, grounded warmth, gently humorous] Good. Try it carefully before deciding you have mastered it. Watch what changes when you slow down. One successful attempt is worth enjoying, and the next one is worth your full attention. That applies to a fine shot, or to a very stubborn whistle.",
     "text": "Good. Try it carefully before deciding you have mastered it. Watch what changes when you slow down. One successful attempt is worth enjoying, and the next one is worth your full attention. That applies to a fine shot, or to a very stubborn whistle.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3067_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3067",
+    "spoken": "[sincere affectionate welcome, grounded warmth, calm and conversational] I would be glad to come with you. A good companion makes even an ordinary meal worth remembering, and I have enjoyed our time together. You need not bring a recipe or a question every time we meet. Your company is reason enough to sit down and share what we have.",
+    "text": "I would be glad to come with you. A good companion makes even an ordinary meal worth remembering, and I have enjoyed our time together. You need not bring a recipe or a question every time we meet. Your company is reason enough to sit down and share what we have.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3067_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3067",
+    "spoken": "[warm unhurried welcome, gentle amusement, quietly pleased] Good to see you. Shall we take a walk? I have brought something to eat, though I make no promises about its shape when we stop. The flavor should still be there. If you have room for a bowl, we will be prepared for either a trailcake or a pleasant collection of crumbs.",
+    "text": "Good to see you. Shall we take a walk? I have brought something to eat, though I make no promises about its shape when we stop. The flavor should still be there. If you have room for a bowl, we will be prepared for either a trailcake or a pleasant collection of crumbs.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3067_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3067",
+    "spoken": "[thoughtful mild humor, patient curiosity, relaxed warmth] This batch held together rather well until I put my other belongings in the pack. I could call that a success and carry nothing else, but it would be a strange sort of traveling food. Still, the pieces taste good. We should not let a small disappointment become a wasted meal.",
+    "text": "This batch held together rather well until I put my other belongings in the pack. I could call that a success and carry nothing else, but it would be a strange sort of traveling food. Still, the pieces taste good. We should not let a small disappointment become a wasted meal.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3067_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3067",
+    "spoken": "[patient encouraging teacher, steady confidence, friendly seriousness] Good. Now give yourself time to practice. A lesson begins a skill; it does not finish it. When you are ready for more, seek the teachers and books that can carry you farther. There is no shame in needing another lesson. I would worry more about someone who believed they had learned everything.",
+    "text": "Good. Now give yourself time to practice. A lesson begins a skill; it does not finish it. When you are ready for more, seek the teachers and books that can carry you farther. There is no shame in needing another lesson. I would worry more about someone who believed they had learned everything.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6747_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:6747",
+    "spoken": "[sincere warm friendship, quietly moved, unhurried and welcoming] Yes, I would enjoy your company beyond the doorway. I have heard a little of your travels, and now I should like to share some of the road with you. We can take our time. You have become more than a familiar visitor to me, and I am glad of that.",
+    "text": "Yes, I would enjoy your company beyond the doorway. I have heard a little of your travels, and now I should like to share some of the road with you. We can take our time. You have become more than a familiar visitor to me, and I am glad of that.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6747_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:6747",
+    "spoken": "[deep hospitable warmth, easy pace, gentle concern] There you are, my friend. We can walk a little before you settle in, if that is what you wish. But tell me honestly when your feet have had enough. There is no prize for arriving too tired to enjoy the welcome, and I would rather hear your story while you are comfortable.",
+    "text": "There you are, my friend. We can walk a little before you settle in, if that is what you wish. But tell me honestly when your feet have had enough. There is no prize for arriving too tired to enjoy the welcome, and I would rather hear your story while you are comfortable.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6747_hearth_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "hearth",
+    "say": null,
+    "source": "lore:6747",
+    "spoken": "[reassuring homecoming, mellow warmth, gently encouraging rest] Home again. Take a moment before you begin planning the next departure. Put down what you have carried, let your shoulders settle, and notice that you have arrived. The road will be there when you are ready for it. For now, I am pleased to have you here, safe and in good company.",
+    "text": "Home again. Take a moment before you begin planning the next departure. Put down what you have carried, let your shoulders settle, and notice that you have arrived. The road will be there when you are ready for it. For now, I am pleased to have you here, safe and in good company.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore6747_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:6747",
+    "spoken": "[reflective gentle humor, relaxed and grounded, affectionate interest] You can hear something of a journey in the way a traveler comes through a door. Sometimes it is eagerness, sometimes weariness, and sometimes a boot that needs attention. I do not pretend to understand every footstep. But I like hearing those same feet leave with a little more ease the next morning.",
+    "text": "You can hear something of a journey in the way a traveler comes through a door. Sometimes it is eagerness, sometimes weariness, and sometimes a boot that needs attention. I do not pretend to understand every footstep. But I like hearing those same feet leave with a little more ease the next morning.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }

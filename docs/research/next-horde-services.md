@@ -18,3 +18,5 @@ Starting primary references: [Classic Gennia](https://classicdb.ch/?npc=3064), [
 Verified IDs prevent wrong-name associations: Gennia is 3064, Kauth is 6747, and Torka is 3191. No profiles were created from guessed alternatives. Adult/named/faction/attackability gates remain unchanged. The remaining old Westfall availability questions and the wider 1,481-plus name research pool are not marked complete by this new rotation.
 
 Gennia and Torka are now complete; see [their full research](bloodhoof-druid-and-razor-hill-cook.md). Pyall and Kauth remain pending. Gennia's missing current faction icon is preserved in the public audit; no exception to live eligibility was added.
+
+Pyall and Kauth are now complete; see [cook and innkeeper research](bloodhoof-cook-and-innkeeper.md). Both current nodes omit reaction icons, retained as unverified in the public audit; published Forever quests and installed services confirm their Bloodhoof roles. Continue rotating useful Horde routes and female NPCs rather than returning to an Alliance city run.

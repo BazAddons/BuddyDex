@@ -42,6 +42,64 @@ local ADDON_NAME, ns = ...
 
 ns.Lore = {
 
+    -- Pyall Silentstride (3067), adult male Tauren cook, Bloodhoof Village, Mulgore.
+    -- Display 3795 / race 6 sex 0; installed lifelong-learning gossip and Wulan/Dirge referrals.
+    -- Forever 96659 -> 96605 -> 96661 leads Kaga's campers to his cooking lesson.
+    -- Trailcake experiments are original. docs/research/bloodhoof-cook-and-innkeeper.md.
+    [3067] = {
+        quote = "A meal is part of the journey. Learn to make one, and you carry a little comfort wherever you go.",
+        likes = { "Learners who taste their own cooking", "A campfire tended with care", "Trailcakes that survive a full pack" },
+        dislikes = { "Treating practice as a wasted meal", "Food packed beneath heavy tools", "Deciding there is nothing left to learn" },
+        gossip = "Pyall keeps testing a trailcake that will survive a crowded pack. His latest batch came back in several promising pieces.",
+        bio = "Pyall Silentstride teaches cooking in Bloodhoof Village. Kaga Wildhoof sends campers to him for cooking and campfire basics. He encourages further study, directing experienced learners toward Wulan's cookbook and Dirge Quikcleave.",
+        backstory = "Packing food for a walk gave him a small problem to enjoy: a trailcake should travel well without becoming unpleasantly hard. He began trying different batches. Some survived the pack; others were better suited to eating before departure.",
+        secret = "He rather enjoys the broken batches. Sharing the crumbs makes a fine excuse to sit together, and no one worries about cutting equal portions.",
+        bestFriend = "I saved you some of the latest batch. Bring a bowl. We may have to enjoy this one a spoonful at a time.",
+        favorite = { emote = "THANK", hint = "Let him know that the meal and the lesson were appreciated." },
+        lines = {
+            greet = { { "Good to see you. Shall we take a walk? I have brought something to eat, though I make no promises about its shape when we stop. The flavor should still be there. If you have room for a bowl, we will be prepared for either a trailcake or a pleasant collection of crumbs.", tone = "[warm unhurried welcome, gentle amusement, quietly pleased]" }, "Come along. A walk is a useful test of anything meant to be eaten on one." },
+            idle = { { "This batch held together rather well until I put my other belongings in the pack. I could call that a success and carry nothing else, but it would be a strange sort of traveling food. Still, the pieces taste good. We should not let a small disappointment become a wasted meal.", tone = "[thoughtful mild humor, patient curiosity, relaxed warmth]" }, "One can spend a lifetime learning to cook. There is no need to be discouraged by the first pot.", "I wonder whether that trailcake needed a little more time. Or rather less weight on top of it." },
+            befriended = { { "I would be glad to come with you. A good companion makes even an ordinary meal worth remembering, and I have enjoyed our time together. You need not bring a recipe or a question every time we meet. Your company is reason enough to sit down and share what we have.", tone = "[sincere affectionate welcome, grounded warmth, calm and conversational]" } },
+            poke = { "Yes? If you would like a taste, you may simply ask.", "Careful. You are very close to becoming part of the packing experiment." },
+            learned = { { "Good. Now give yourself time to practice. A lesson begins a skill; it does not finish it. When you are ready for more, seek the teachers and books that can carry you farther. There is no shame in needing another lesson. I would worry more about someone who believed they had learned everything.", tone = "[patient encouraging teacher, steady confidence, friendly seriousness]" } },
+            loot = { "Perhaps keep the food away from that. Whatever it is, it does not look like seasoning." },
+            bagsFull = { "If the trailcakes must go underneath, we had better bring bowls." },
+            rest = { "A pleasant place to pause. Let us see what shape our meal is in." },
+            quest = { "Work finished, and a little more experience to carry onward." },
+            levelUp = { "Well done. There is pleasure in seeing practice begin to show." },
+            hearth = { "Back to familiar ground. I may try another batch while we are here." },
+        },
+    },
+
+    -- Innkeeper Kauth (6747), adult male Tauren innkeeper, Bloodhoof Village, Mulgore.
+    -- Display 5486 / race 6 sex 0. Quest 1656: Antur's furs become guest blankets.
+    -- Installed rest/hearth gossip; no current sparse-node reaction override.
+    -- Footstep recognition is original. docs/research/bloodhoof-cook-and-innkeeper.md.
+    [6747] = {
+        quote = "You have walked far enough to reach my door. That is all the reason you need to rest here.",
+        likes = { "Travelers arriving before exhaustion", "Blankets ready for a tired guest", "The easier steps of someone well rested" },
+        dislikes = { "Mistaking weariness for weakness", "A welcome made to feel like a burden", "Leaving before the rest has done its work" },
+        gossip = "They say Kauth recognizes returning guests by their footsteps. He certainly has a welcome ready before they finish coming inside.",
+        bio = "Innkeeper Kauth welcomes travelers to Bloodhoof Village. He receives the furs Antur Fallow sends for guest blankets, offers a comfortable place to rest, and helps visitors make the inn their home with a hearthstone.",
+        backstory = "Listening between duties, he began noticing how differently people crossed the doorway after a good rest. The same traveler who had dragged every step might leave almost lightly. He grew fond of hearing that small change.",
+        secret = "He does not always know whose footsteps he hears. Sometimes he welcomes a stranger as though they have returned. He sees little reason to make the greeting less kind.",
+        bestFriend = "I know those steps now. Come in, my friend. Tell me how you are before you tell me where you have been.",
+        favorite = { emote = "BOW", hint = "Return his welcome with a quiet gesture of respect." },
+        lines = {
+            greet = { { "There you are, my friend. We can walk a little before you settle in, if that is what you wish. But tell me honestly when your feet have had enough. There is no prize for arriving too tired to enjoy the welcome, and I would rather hear your story while you are comfortable.", tone = "[deep hospitable warmth, easy pace, gentle concern]" }, "A familiar step, and welcome company. Where shall we go today?" },
+            idle = { { "You can hear something of a journey in the way a traveler comes through a door. Sometimes it is eagerness, sometimes weariness, and sometimes a boot that needs attention. I do not pretend to understand every footstep. But I like hearing those same feet leave with a little more ease the next morning.", tone = "[reflective gentle humor, relaxed and grounded, affectionate interest]" }, "A good blanket asks very little of the person resting beneath it.", "I may have welcomed you before I recognized you. It was still meant for you." },
+            befriended = { { "Yes, I would enjoy your company beyond the doorway. I have heard a little of your travels, and now I should like to share some of the road with you. We can take our time. You have become more than a familiar visitor to me, and I am glad of that.", tone = "[sincere warm friendship, quietly moved, unhurried and welcoming]" } },
+            poke = { "I am listening. You need not knock twice.", "Does something trouble you, or are you making certain I am still here?" },
+            hearth = { { "Home again. Take a moment before you begin planning the next departure. Put down what you have carried, let your shoulders settle, and notice that you have arrived. The road will be there when you are ready for it. For now, I am pleased to have you here, safe and in good company.", tone = "[reassuring homecoming, mellow warmth, gently encouraging rest]" } },
+            rest = { "That is better. Let the pause be long enough to help you." },
+            lowHealth = { "Take care, my friend. I want to hear your footsteps coming home." },
+            bagsFull = { "You seem to have brought a very heavy journey with you." },
+            quest = { "A promise kept. Now consider whether you need a moment for yourself." },
+            levelUp = { "You have learned much on the road. Give yourself time to feel pleased about it." },
+            zone = { "New ground beneath us. I wonder where its weary travelers find their rest." },
+        },
+    },
+
     -- Gennia Runetotem (3064), adult female Tauren druid trainer, Bloodhoof Village.
     -- Display 3820 / race 6 sex 1. Cenarius/balance gossip; Heeding the Call referral to Turak.
     -- Cloud-shape pastime is original, not divination. docs/research/bloodhoof-druid-and-razor-hill-cook.md.

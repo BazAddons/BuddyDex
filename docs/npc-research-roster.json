@@ -532,5 +532,19 @@
     "zone": "Durotar",
     "source": "Reviewed current adult identity/model, full bear referral or food/camping chains with available primary progress/completion, installed training gossip and Atlas; sparse Gennia reaction audit preserved; no Scout sighting claimed",
     "research_notes": "docs/research/bloodhoof-druid-and-razor-hill-cook.md"
+  },
+  {
+    "npc_id": 3067,
+    "name": "Pyall Silentstride",
+    "zone": "Mulgore",
+    "source": "Reviewed current adult identity/model, published full Forever camping or fur-delivery dialogue and installed gossip; current faction icons absent and live eligibility retained; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-cook-and-innkeeper.md"
+  },
+  {
+    "npc_id": 6747,
+    "name": "Innkeeper Kauth",
+    "zone": "Mulgore",
+    "source": "Reviewed current adult identity/model, published full Forever camping or fur-delivery dialogue and installed gossip; current faction icons absent and live eligibility retained; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-cook-and-innkeeper.md"
   }
 ]
