@@ -301,6 +301,20 @@
       "zone": "Durotar",
       "route": "Senjin/Darkspear profession services research",
       "reason": "Published Forever exact-name Fisherman page confirms Durotar training/ending lead, but current Warcraft DB node returned 404; current identity/duplicate resolution, adult model and full fishing/camping access review pending; do not use rejected generic ID 3180. See docs/research/senjin-alchemy-and-fishing-queue.md"
+    },
+    {
+      "npc_id": 7714,
+      "name": "Innkeeper Byula",
+      "zone": "The Barrens",
+      "route": "Camp Taurajo rest and Crossroads referrals",
+      "reason": "Exact current Horde-friendly adult male Tauren identity/model and Camp Taurajo pin verified; full services/quest relations and continuity review pending. See docs/research/taurajo-rest-and-crossroads-queue.md"
+    },
+    {
+      "npc_id": 3418,
+      "name": "Kirge Sternhorn",
+      "zone": "The Barrens",
+      "route": "Camp Taurajo rest and Crossroads referrals",
+      "reason": "Exact current Horde-friendly adult male Tauren identity/model and Camp Taurajo pin verified; full services/quest relations and continuity review pending. See docs/research/taurajo-rest-and-crossroads-queue.md"
     }
   ]
 }
