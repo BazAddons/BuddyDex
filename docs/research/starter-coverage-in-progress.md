@@ -386,4 +386,10 @@ Next checked Horde pair: Master Vornal 3304 and Kuna Thunderhorn 3015, [queue](v
 
 Master Vornal 3304 and Kuna Thunderhorn 3015 complete: full Troll/Tauren profiles, fifteen personal lines and four approved v4 signatures each. [Research and validation](senjin-small-lessons-and-thunder-bluff-surprises.md) retains Vornal's failing sight/apprentice refusal, verified Forever quests and Kuna's actual current shop role, excluding non-canon RPG family and later-retail events. Development total **374**; public friendly access Alliance 197, Horde 86, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
 
-Next checked pair: Sessaria Skystride 252382 and Innkeeper Fizzgrimble 7733, [queue](sessaria-and-fizzgrimble-queue.md). Neither counted complete. This rotates toward female Windshaper Skyborne and Goblin coverage; faction access and race representation remain separate.
+Next checked pair: Sessaria Skystride 252382 and Innkeeper Fizzgrimble 7733, [queue](sessaria-and-fizzgrimble-queue.md). Neither counted complete at this point. This rotates toward female Windshaper Skyborne and Goblin coverage; faction access and race representation remain separate.
+
+### 2026-11-09: Valanaar guidance and Gadgetzan hospitality
+
+Sessaria Skystride 252382 and Innkeeper Fizzgrimble 7733 complete: full Skyborne/Goblin profiles, fifteen personal lines and four approved v4 signatures each. [Research, limitations and validation](valanaar-thanks-and-gadgetzan-grand-tours.md) preserves Sessaria's own ritual role and Fizzgrimble's service greeting; unavailable delivery text/comic panels are not invented. Development total **376**; public friendly access Alliance 197, Horde 88, unverified 97, six shared entries overlap. Installed/development-packaged; no publication.
+
+Next checked Zephras pair: Ventaari Brightwish 251487 and Donaal Downbreeze 255940, [queue](ventaari-and-donaal-queue.md). Neither complete. Ventaari's Horde-only public access remains separate from Donaal's explicitly shared access, while expanding female Windshaper/male High Order representation.

@@ -1183,5 +1183,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current named adult body, Horde-friendly icon and pin; complete own current/Classic relations, exact quest text/Forever additions and vendor stock, installed dialogue search, item/literary/era and non-canon family checks; no Scout sighting claimed",
     "research_notes": "docs/research/senjin-small-lessons-and-thunder-bluff-surprises.md"
+  },
+  {
+    "npc_id": 252382,
+    "name": "Sessaria Skystride",
+    "zone": "Zephras Isle",
+    "source": "Exact current named adult body, Horde-friendly icon, role and pin; own current relations, installed full service gossip, complete published fire rite/current stock, literary/era and unresolved delivery/comic limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-thanks-and-gadgetzan-grand-tours.md"
+  },
+  {
+    "npc_id": 7733,
+    "name": "Innkeeper Fizzgrimble",
+    "zone": "Tanaris",
+    "source": "Exact current named adult body, Horde-friendly icon, role and pin; own current relations, installed full service gossip, complete published fire rite/current stock, literary/era and unresolved delivery/comic limits documented; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-thanks-and-gadgetzan-grand-tours.md"
   }
 ]

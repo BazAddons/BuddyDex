@@ -239,6 +239,46 @@
     "text": "The dew was a promising idea with a rather unfortunate taste. Sprinkle knew how to improve that part. A useful friend to have when an invention needs a little help. Now, if you stand just over there, I can explain how successful it might become.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore7733_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7733",
+    "spoken": "[warm] [upbeat] You come back with stories, questions, and occasionally enough sense to stop for a while. I like that in a friend. Come along. We'll see what the day offers. If every attraction turns out to involve danger, I'll find us somewhere to sit and improve the itinerary.",
+    "text": "You come back with stories, questions, and occasionally enough sense to stop for a while. I like that in a friend. Come along. We'll see what the day offers. If every attraction turns out to involve danger, I'll find us somewhere to sit and improve the itinerary.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore7733_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7733",
+    "spoken": "[brisk] [cheerful] [salesman charm] An adventurer! Come in, find a chair, and get comfortable. If you want cage matches, we can talk about those. If you want my grand tour, you're already at the first attraction. A very respectable place to sit. I recommend giving it a thorough inspection before proceeding.",
+    "text": "An adventurer! Come in, find a chair, and get comfortable. If you want cage matches, we can talk about those. If you want my grand tour, you're already at the first attraction. A very respectable place to sit. I recommend giving it a thorough inspection before proceeding.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore7733_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7733",
+    "spoken": "[amused] [self-satisfied] A guest asked what there was to enjoy without fighting anything. I suggested shade, a chair, and a drink. By the time I'd described them properly, it sounded like a grand tour. An excellent tour, too. Nobody had to draw a weapon or walk particularly far.",
+    "text": "A guest asked what there was to enjoy without fighting anything. I suggested shade, a chair, and a drink. By the time I'd described them properly, it sounded like a grand tour. An excellent tour, too. Nobody had to draw a weapon or walk particularly far.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore7733_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:7733",
+    "spoken": "[welcoming] [pleased] Now that's an excellent decision. Sit down and let the next adventure wait outside for a moment. Food, drink, a comfortable place to collect your thoughts. I can recommend all three without asking you to defeat anything first. A remarkably agreeable arrangement, when you consider it.",
+    "text": "Now that's an excellent decision. Sit down and let the next adventure wait outside for a moment. Food, drink, a comfortable place to collect your thoughts. I can recommend all three without asking you to defeat anything first. A remarkably agreeable arrangement, when you consider it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore9317_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

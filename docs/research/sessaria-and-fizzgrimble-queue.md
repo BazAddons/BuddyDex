@@ -1,3 +1,5 @@
+> Completed 2026-11-09: both full profiles, fifteen personal lines and four approved v4 signatures each. See [final evidence, source limits and validation](valanaar-thanks-and-gadgetzan-grand-tours.md). Delivery-text/comic-panel limitations remain documented; original planning/checkpoints below retained as history.
+
 # Next: Sessaria Skystride and Innkeeper Fizzgrimble
 
 Individually verified current identities 2026-11-09. Neither authored/recorded or counted complete; no Scout sighting claimed. Cache `C:/Users/brett/BuddyDex-builds/vornal-kuna-research/next-npc-ID.json`.

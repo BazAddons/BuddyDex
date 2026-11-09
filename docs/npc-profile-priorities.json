@@ -868,6 +868,20 @@
       "zone": "Tanaris",
       "route": "Horde Windshaper female/Goblin service coverage",
       "reason": "Exact current named adult body, friendly Horde icon, role and pin checked; full own quest/service/literary research pending. See docs/research/sessaria-and-fizzgrimble-queue.md"
+    },
+    {
+      "npc_id": 251487,
+      "name": "Ventaari Brightwish",
+      "zone": "Zephras Isle",
+      "route": "Windshaper female/High Order male starter coverage",
+      "reason": "Exact current named adult model, faction icons and pin verified; Ventaari Horde-friendly/Alliance-hostile, Donaal friendly to both; full own quest/service/literary research pending. See docs/research/ventaari-and-donaal-queue.md"
+    },
+    {
+      "npc_id": 255940,
+      "name": "Donaal Downbreeze",
+      "zone": "Zephras Isle",
+      "route": "Windshaper female/High Order male starter coverage",
+      "reason": "Exact current named adult model, faction icons and pin verified; Ventaari Horde-friendly/Alliance-hostile, Donaal friendly to both; full own quest/service/literary research pending. See docs/research/ventaari-and-donaal-queue.md"
     }
   ]
 }

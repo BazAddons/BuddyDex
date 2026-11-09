@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sessaria Skystride <Shaman Trainer>, Valanaar, Zephras, 252382/140050.
+    -- Adult female Windshaper Skyborne, current Horde-friendly. Installed
+    -- wind-spirit departure gossip; 97243 referral, 97257 fire-rite return.
+    -- Her practice accepting personal thanks is ours, not ritual speech.
+    -- Research: docs/research/valanaar-thanks-and-gadgetzan-grand-tours.md.
+    [252382] = {
+        quote = "You may thank the spirits, and Olariaan, and your own patience. If you meant a little of that thanks for me, I am learning to let it stay.",
+        likes = { "A learner returning with understanding", "Respect that outlasts the first success", "A kind word she manages not to redirect" },
+        dislikes = { "Elemental power treated as a possession", "Hurry mistaken for readiness", "Turning someone's gratitude into a speech" },
+        gossip = "Sessaria answers thanks by praising a learner's patience. Friends are teaching her that accepting a kind word need not diminish anyone else.",
+        bio = "Sessaria teaches shamans in Valanaar. Though the wind spirits have gone, she urges patient respect for elemental power. She sends learners to Olariaan's fire rite, then receives their return when the Eternal Flame burns again.",
+        backstory = "A learner once thanked Sessaria for making a difficult path clearer. She began praising everyone else involved. They waited, then thanked her again. She has since been practicing a simpler reply, with fewer explanations between the words.",
+        secret = "She remembers that small thanks more clearly than many grand declarations. When she finally lets a kind word remain hers, she enjoys it for a little while before finding anything else to say.",
+        bestFriend = "You need not explain why you value my company. I am trying to listen without arguing you out of the compliment. I am glad of yours, too.",
+        favorite = { emote = "THANK", hint = "A patient expression of gratitude gives her practice receiving the kindness she offers others." },
+        lines = {
+            greet = { { "Welcome back. Have you brought a question, or news of what you have learned? I am glad to hear either. If you have come simply to thank me, I shall try to accept it without immediately listing everyone else who deserves a share of the credit.", tone = "[gentle] [welcoming] [wry]" },
+                "There you are. Tell me what the journey has helped you understand." },
+            idle = { { "A learner thanked me for making a difficult path clearer. I explained how much their own patience had done. They thanked me again. Apparently both things could be true. I am practicing a shorter reply now. It requires less explanation than I keep wanting to give it.", tone = "[thoughtful] [gently amused]" },
+                "Patience does not mean doing nothing. It means giving your attention without demanding an answer at once.",
+                "A kind word need not be returned so quickly that neither person has time to enjoy it." },
+            befriended = { { "You have given me company I value, and allowed me time to grow comfortable saying so. Come along, friend. We may find something worth learning together. If you tell me afterward that you enjoyed the day, I will try to let those words remain exactly as you offered them.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was finding a reply shorter than another explanation.", "I am listening. That includes the pleasant things, even when I hesitate to answer." },
+            learned = { { "The power of the elements is not a possession to hold without thought. Respect it in your travels, as you did while learning to approach it. A completed trial is a beginning. What you carry from it should include understanding, not only the sign that you succeeded.", tone = "[steady] [earnest]" } },
+            quest = { "Olariaan will guide the fire rite. Go ready to listen, not merely to return with a reward." },
+            rest = { "We can be quiet for a while without making the quiet another test." },
+            zone = { "Listen before deciding this place has nothing more to teach you." },
+            thanked = { "You are welcome. There. I managed to leave the reply at that." },
+            lowHealth = { "Steady yourself. Respect for power includes knowing when to pause." },
+            hearth = { "Back to Valanaar. There may be someone returning with a question worth hearing." },
+        },
+    },
+
+    -- Innkeeper Fizzgrimble, Road Warrior, Gadgetzan/Tanaris, 7733/7346.
+    -- Adult male Goblin, current Horde-friendly Innkeeper/Vendor, 13 stock
+    -- rows. Installed greeting invites adventurers/rest and cage matches.
+    -- His chair-centered grand tour is ours; unverified delivery text omitted.
+    -- Research: docs/research/valanaar-thanks-and-gadgetzan-grand-tours.md.
+    [7733] = {
+        quote = "My grand tour starts with a chair and a drink. If you're still determined to see the sights after that, we can discuss standing up.",
+        likes = { "Adventurers remembering to take a break", "A visitor asking for a pleasant sight", "A grand tour with somewhere to sit" },
+        dislikes = { "Sand following a guest into every corner", "A meal treated as a race to the door", "Every recommendation requiring a weapon" },
+        gossip = "Fizzgrimble offers a grand tour of his finest attractions. The first is a chair. Guests suspect the second is the same chair with a drink.",
+        bio = "Fizzgrimble welcomes adventurers to the Road Warrior in Gadgetzan. He offers food, drink and a place to rest, then asks whether they plan to try the cage matches. He has dungeon directions, too, though a chair remains his easiest recommendation.",
+        backstory = "A guest once asked Fizzgrimble what there was to enjoy without fighting anything. He began describing the inn's shade, a chair and something to drink. By the time he had finished, he had decided it sounded remarkably like a grand tour.",
+        secret = "He likes persuading a hardened adventurer to stop looking for the next danger long enough to enjoy a seat. A satisfied guest who lingers is good for the inn, and pleasant company besides.",
+        bestFriend = "Stay a little longer. You've seen the finest chair on the tour. Now we can enjoy the afternoon without either of us selling it.",
+        favorite = { emote = "WAVE", hint = "Welcomes a familiar face arriving before they have even decided what business brought them in." },
+        lines = {
+            greet = { { "An adventurer! Come in, find a chair, and get comfortable. If you want cage matches, we can talk about those. If you want my grand tour, you're already at the first attraction. A very respectable place to sit. I recommend giving it a thorough inspection before proceeding.", tone = "[brisk] [cheerful] [salesman charm]" },
+                "Welcome back! Looking for the next adventure, or ready to enjoy the last one from a chair?" },
+            idle = { { "A guest asked what there was to enjoy without fighting anything. I suggested shade, a chair, and a drink. By the time I'd described them properly, it sounded like a grand tour. An excellent tour, too. Nobody had to draw a weapon or walk particularly far.", tone = "[amused] [self-satisfied]" },
+                "The next attraction is the same comfortable seat, appreciated from a slightly different angle.",
+                "You can tell me about the dangerous part after you've remembered how to sit down." },
+            befriended = { { "You come back with stories, questions, and occasionally enough sense to stop for a while. I like that in a friend. Come along. We'll see what the day offers. If every attraction turns out to involve danger, I'll find us somewhere to sit and improve the itinerary.", tone = "[warm] [upbeat]" } },
+            poke = { "Ready for the next stop? Don't get up just yet.", "Yes? If you're asking for the best attraction, I stand by the chair." },
+            rest = { { "Now that's an excellent decision. Sit down and let the next adventure wait outside for a moment. Food, drink, a comfortable place to collect your thoughts. I can recommend all three without asking you to defeat anything first. A remarkably agreeable arrangement, when you consider it.", tone = "[welcoming] [pleased]" } },
+            loot = { "Something worth a story? Tell me the interesting part before we reach the price." },
+            bagsFull = { "All that and no room for supplies? Your next stop may need a little planning." },
+            zone = { "New sights! Let's find out which ones come with somewhere comfortable nearby." },
+            dungeon = { "If you're going somewhere dangerous, see to the supplies before admiring the entrance." },
+            laughAlong = { "There! Worth stopping for. No admission charge on that one." },
+            hearth = { "Back to Gadgetzan. The grand tour always welcomes a returning customer." },
+        },
+    },
+
     -- Master Vornal, Sen'jin Village, Durotar; adult male Troll, 3304/4086.
     -- Current Horde-friendly. 818: failing sight, alchemy, no apprentices.
     -- Forever 97225 idols to Gadrin; 99123 thanks for Pal'juh's rescue.

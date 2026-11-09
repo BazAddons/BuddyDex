@@ -39,6 +39,46 @@
     "text": "I had a fine welcome planned once. Very impressive, very polished, and entirely too much like giving orders. I tried saying less. People found it easier to answer me then. A conversation is a better beginning than making someone stand patiently through all your carefully chosen words.",
     "voice_id": "lQ79RJ1oEygPMVWvoXTH"
   },
+  "lore252382_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:252382",
+    "spoken": "[warm] [sincere] You have given me company I value, and allowed me time to grow comfortable saying so. Come along, friend. We may find something worth learning together. If you tell me afterward that you enjoyed the day, I will try to let those words remain exactly as you offered them.",
+    "text": "You have given me company I value, and allowed me time to grow comfortable saying so. Come along, friend. We may find something worth learning together. If you tell me afterward that you enjoyed the day, I will try to let those words remain exactly as you offered them.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252382_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:252382",
+    "spoken": "[gentle] [welcoming] [wry] Welcome back. Have you brought a question, or news of what you have learned? I am glad to hear either. If you have come simply to thank me, I shall try to accept it without immediately listing everyone else who deserves a share of the credit.",
+    "text": "Welcome back. Have you brought a question, or news of what you have learned? I am glad to hear either. If you have come simply to thank me, I shall try to accept it without immediately listing everyone else who deserves a share of the credit.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252382_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:252382",
+    "spoken": "[thoughtful] [gently amused] A learner thanked me for making a difficult path clearer. I explained how much their own patience had done. They thanked me again. Apparently both things could be true. I am practicing a shorter reply now. It requires less explanation than I keep wanting to give it.",
+    "text": "A learner thanked me for making a difficult path clearer. I explained how much their own patience had done. They thanked me again. Apparently both things could be true. I am practicing a shorter reply now. It requires less explanation than I keep wanting to give it.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore252382_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:252382",
+    "spoken": "[steady] [earnest] The power of the elements is not a possession to hold without thought. Respect it in your travels, as you did while learning to approach it. A completed trial is a beginning. What you carry from it should include understanding, not only the sign that you succeeded.",
+    "text": "The power of the elements is not a possession to hold without thought. Respect it in your travels, as you did while learning to approach it. A completed trial is a beginning. What you carry from it should include understanding, not only the sign that you succeeded.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "lore252800_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
