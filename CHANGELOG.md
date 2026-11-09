@@ -11,7 +11,7 @@ The first release of BuddyDex for **World of Warcraft: Forever** brings a BonziB
 
 ### NPC Friendships and Collection
 
-- Add written profiles and personal companion dialogue for Undertaker Mordo, Shadow Priest Sarvis, Novice Elreth, Executor Arren, Deathguard Saltain, Aramis Hammerhand, Blacksmith Rand, Harold Raims, Archibald Kava, Joshua Kien, Maquell Ebonwood, Claire Willower, Dannal Stern, David Trias, Dark Cleric Duesten, Isabella, Maximillion, and Kayla Smithe. Their signature recordings await selection of the official Forsaken voices.
+- Add written profiles and personal companion dialogue for Undertaker Mordo, Shadow Priest Sarvis, Novice Elreth, Executor Arren, Deathguard Saltain, Aramis Hammerhand, Blacksmith Rand, Harold Raims, Archibald Kava, Joshua Kien, Maquell Ebonwood, Claire Willower, Dannal Stern, David Trias, Dark Cleric Duesten, Isabella, Maximillion, Kayla Smithe, Venya Marthand, Clarence Gillian, and Florence Nightshade. Their signature recordings await selection of the official Forsaken voices.
 - Build friendships by talking, visiting merchants and trainers, using services, interacting with quest givers, and sharing emotes.
 - Progress through six tiers, from Stranger to Best Friend.
 - Discover each NPC's favorite emote for bonus friendship.
