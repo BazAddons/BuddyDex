@@ -1,0 +1,282 @@
+{
+  "lore11945_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:11945",
+    "spoken": "[sincere gracious affection, quiet pleasure, inviting] I would welcome your company, my friend. Lead on. No elaborate title is needed. I am simply pleased that you thought to ask me along, and glad to have a little time to hear how you have been.",
+    "text": "I would welcome your company, my friend. Lead on. No elaborate title is needed. I am simply pleased that you thought to ask me along, and glad to have a little time to hear how you have been.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore11945_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:11945",
+    "spoken": "[gracious weathered Forsaken warmth, dry playful formality, welcoming] Welcome, my friend. I am pleased to see you. Shall we walk? A beetle has just declined a rather grand introduction by continuing straight past. I trust you can spare a little more time for conversation.",
+    "text": "Welcome, my friend. I am pleased to see you. Shall we walk? A beetle has just declined a rather grand introduction by continuing straight past. I trust you can spare a little more time for conversation.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore11945_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:11945",
+    "spoken": "[light dry amusement, fond theatrical restraint, confiding] I gave a passing beetle an elaborate introduction. It went on about its business. Not the slightest acknowledgment of its new distinction. I enjoyed the ceremony anyway. A welcome need not demand a reply.",
+    "text": "I gave a passing beetle an elaborate introduction. It went on about its business. Not the slightest acknowledgment of its new distinction. I enjoyed the ceremony anyway. A welcome need not demand a reply.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore11945_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:11945",
+    "spoken": "[playfully formal curiosity, gentle warmth, clear] Another place to make a gracious entrance. Take a moment to look around, my friend. There may be a very small traveler with important business to attend to. We can allow it room before continuing with our own.",
+    "text": "Another place to make a gracious entrance. Take a moment to look around, my friend. There may be a very small traveler with important business to attend to. We can allow it room before continuing with our own.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1661_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1661",
+    "spoken": "[sincere gentle affection, grateful pleasure, inviting] I would welcome your company, my friend. Come on. We can walk for a little while, and you can tell me what the day has held. I am glad you thought to ask me along.",
+    "text": "I would welcome your company, my friend. Come on. We can walk for a little while, and you can tell me what the day has held. I am glad you thought to ask me along.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1661_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:1661",
+    "spoken": "[practical caring approval, restrained amusement, clear] Look at the seams and how it sits. It should serve the person wearing it. If there is a small detail that pleases you as well, I see no reason that should count against a useful piece of work.",
+    "text": "Look at the seams and how it sits. It should serve the person wearing it. If there is a small detail that pleases you as well, I see no reason that should count against a useful piece of work.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1661_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1661",
+    "spoken": "[weathered Forsaken gentleness, practical attentiveness, welcoming] It is good to see you, my friend. Shall we walk a little? Tell me how you have been, and give me an honest answer. There is time to attend to what needs care before we hurry on.",
+    "text": "It is good to see you, my friend. Shall we walk a little? Tell me how you have been, and give me an honest answer. There is time to attend to what needs care before we hurry on.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore1661_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1661",
+    "spoken": "[quietly pleased warmth, modest private delight, confiding] I chose a bright thread for a repair on something of my own. The seam is sound. I could make it less noticeable, but I rather like seeing it. A useful piece of work may hold a small pleasure too.",
+    "text": "I chose a bright thread for a repair on something of my own. The seam is sound. I could make it less noticeable, but I rather like seeing it. A useful piece of work may hold a small pleasure too.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2124_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2124",
+    "spoken": "[reserved sincere affection, composed pleasure, inviting] You would welcome my company? I would be pleased, my friend. Lead on. We have time to look around us and hear what has interested you. I should enjoy that.",
+    "text": "You would welcome my company? I would be pleased, my friend. Lead on. We have time to look around us and hear what has interested you. I should enjoy that.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2124_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2124",
+    "spoken": "[composed weathered Forsaken warmth, dry observant amusement, welcoming] A moment, my friend. Does that shadow suggest anything to you? I have been seeing a cat in a very ordinary arrangement. There is no mystery to solve. I simply enjoy noticing it.",
+    "text": "A moment, my friend. Does that shadow suggest anything to you? I have been seeing a cat in a very ordinary arrangement. There is no mystery to solve. I simply enjoy noticing it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2124_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2124",
+    "spoken": "[quietly amused precision, reflective warmth, confiding] I know precisely what makes the shadow. I still look for the cat. A change in the light brings it back, then takes it away. Understanding the ordinary cause has done very little to diminish the pleasure.",
+    "text": "I know precisely what makes the shadow. I still look for the cat. A change in the light brings it back, then takes it away. Understanding the ordinary cause has done very little to diminish the pleasure.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2124_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2124",
+    "spoken": "[firm thoughtful encouragement, measured approval, clear] Good. Give the new ability the study it deserves. Understanding its use includes knowing when to exercise restraint. Your next choice is worth as much attention as the first successful attempt.",
+    "text": "Good. Give the new ability the study it deserves. Understanding its use includes knowing when to exercise restraint. Your next choice is worth as much attention as the first successful attempt.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2315_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2315",
+    "spoken": "[sincere unhurried affection, quietly pleased, inviting] I would enjoy your company, my friend. Lead on. We needn't keep count of anything. There is time to walk, to notice what catches your attention, and to hear how the day has been.",
+    "text": "I would enjoy your company, my friend. Lead on. We needn't keep count of anything. There is time to walk, to notice what catches your attention, and to hear how the day has been.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2315_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2315",
+    "spoken": "[weathered Forsaken gentleness, easy private amusement, welcoming] There you are, my friend. Shall we walk a little? I was counting the steps along a familiar stretch, but a conversation would be an agreeable reason to lose the number. Tell me how you have been.",
+    "text": "There you are, my friend. Shall we walk a little? I was counting the steps along a familiar stretch, but a conversation would be an agreeable reason to lose the number. Tell me how you have been.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2315_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2315",
+    "spoken": "[quiet contentment, dry fond amusement, confiding] I wondered how many steps a familiar walk would take. Then I stopped to speak to someone, turned to look at something, and took a few extra steps beside a friend. I found I rather enjoyed the interruptions.",
+    "text": "I wondered how many steps a familiar walk would take. Then I stopped to speak to someone, turned to look at something, and took a few extra steps beside a friend. I found I rather enjoyed the interruptions.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2315_zone_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "zone",
+    "say": null,
+    "source": "lore:2315",
+    "spoken": "[attentive gentle curiosity, relaxed warmth, clear] A different place for a walk. Let us take a moment to look around. Tell me what you notice first, my friend. I enjoy discovering which small things someone else thinks worth stopping for.",
+    "text": "A different place for a walk. Let us take a moment to look around. Tell me what you notice first, my friend. I enjoy discovering which small things someone else thinks worth stopping for.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore267326_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:267326",
+    "spoken": "[sincere gentle affection, contented interest, inviting] I would welcome your company, my friend. Come on. We can walk without hurrying past every ordinary thing along the way. Tell me what you have been noticing. I should enjoy hearing it.",
+    "text": "I would welcome your company, my friend. Come on. We can walk without hurrying past every ordinary thing along the way. Tell me what you have been noticing. I should enjoy hearing it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore267326_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:267326",
+    "spoken": "[attentive weathered Forsaken warmth, quiet delight, welcoming] There you are, my friend. Have you a moment to look at something ordinary? A little grass has found room between stones. I have been enjoying seeing it still there. We can spare it a glance before our walk.",
+    "text": "There you are, my friend. Have you a moment to look at something ordinary? A little grass has found room between stones. I have been enjoying seeing it still there. We can spare it a glance before our walk.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore267326_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:267326",
+    "spoken": "[gentle matter-of-fact pleasure, reflective warmth, confiding] I have no special ingredient in mind when I look for that grass. I like seeing it still there. Nothing rare about it. An ordinary little pleasure is enough reason to notice a familiar thing again.",
+    "text": "I have no special ingredient in mind when I look for that grass. I like seeing it still there. Nothing rare about it. An ordinary little pleasure is enough reason to notice a familiar thing again.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore267326_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:267326",
+    "spoken": "[patient practical encouragement, thoughtful approval, clear] Well done. Give the new knowledge a little practice and attention. Learn to recognize what is actually before you. The ordinary things are worth understanding as carefully as the discovery you hoped to make.",
+    "text": "Well done. Give the new knowledge a little practice and attention. Learn to recognize what is actually before you. The ordinary things are worth understanding as carefully as the discovery you hoped to make.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5667_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5667",
+    "spoken": "[reserved sincere affection, assured warmth, inviting] You would welcome my company? I would be pleased, my friend. Lead on. We have time for conversation, and I should enjoy hearing what has interested you since our last meeting.",
+    "text": "You would welcome my company? I would be pleased, my friend. Lead on. We have time for conversation, and I should enjoy hearing what has interested you since our last meeting.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5667_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5667",
+    "spoken": "[measured weathered Forsaken confidence, private warmth, welcoming] There you are, my friend. Have you time to consider a small puzzle? I know its answer. I still enjoy seeing the steps come together, and I should be interested to hear how you would approach it.",
+    "text": "There you are, my friend. Have you time to consider a small puzzle? I know its answer. I still enjoy seeing the steps come together, and I should be interested to hear how you would approach it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5667_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5667",
+    "spoken": "[precise quiet amusement, composed contentment, confiding] I know the answer to that puzzle. I still work through it occasionally. The parts fit, and I enjoy the moment when they do. A familiar result need not take away all pleasure in reaching it.",
+    "text": "I know the answer to that puzzle. I still work through it occasionally. The parts fit, and I enjoy the moment when they do. A familiar result need not take away all pleasure in reaching it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5667_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5667",
+    "spoken": "[firm deliberate encouragement, thoughtful approval, clear] Good. Now attend to how you will apply it. A lesson deserves more than the first excitement of success. Understand the steps, then decide where the knowledge will serve the purpose you have chosen.",
+    "text": "Good. Now attend to how you will apply it. A lesson deserves more than the first excitement of success. Understand the steps, then decide where the knowledge will serve the purpose you have chosen.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5749_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5749",
+    "spoken": "[guarded sincere affection, practical warmth, inviting] You would like my company? Gladly, friend. Lead on. We can leave the day's instructions behind for a little while. Tell me how you have been, and what has pleased you since we last spoke.",
+    "text": "You would like my company? Gladly, friend. Lead on. We can leave the day's instructions behind for a little while. Tell me how you have been, and what has pleased you since we last spoke.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5749_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5749",
+    "spoken": "[dry weathered Forsaken practicality, restrained wit, welcoming] There you are, friend. I have just complimented my most obedient assistant. An ordinary stone, keeping papers in place. Very reliable. Now, have you time for a little company that requires fewer instructions?",
+    "text": "There you are, friend. I have just complimented my most obedient assistant. An ordinary stone, keeping papers in place. Very reliable. Now, have you time for a little company that requires fewer instructions?",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5749_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5749",
+    "spoken": "[gruff dry amusement, quiet appreciation, confiding] The stone stays exactly where I put it. I know it is simply a stone. I still occasionally call it my most obedient assistant. A small, reliable service can be remarkably pleasant after a demanding day.",
+    "text": "The stone stays exactly where I put it. I know it is simply a stone. I still occasionally call it my most obedient assistant. A small, reliable service can be remarkably pleasant after a demanding day.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5749_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5749",
+    "spoken": "[firm practical encouragement, measured approval, clear] Good. Make certain you understand what you have learned. Being able to give an instruction is a beginning. Knowing what it requires, and whether it is the right one, will spare you a good deal of trouble.",
+    "text": "Good. Make certain you understand what you have learned. Being able to give an instruction is a beginning. Knowing what it requires, and whether it is the right one, will spare you a good deal of trouble.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  }
+}

@@ -24,29 +24,37 @@ OUT = ROOT / "Data" / "NpcSounds.lua"
 URL = "https://wago.tools/db2/{table}/csv?branch={branch}"
 PER_LINE = 10
 # Races whose NPCs have recorded voices (Core/Voice.lua RACE_VOICES), by
-# ChrRaces ID: 1 human, 2 orc, 3 dwarf, 4 night elf, 7 gnome, and Forever's
+# ChrRaces ID: 1 human, 2 orc, 3 dwarf, 4 night elf, 5 Forsaken, 7 gnome, and Forever's
 # Skyborne, 95 High Order and 96 Windshaper.
-VOICED_RACES = {1, 2, 3, 4, 7, 95, 96}
+VOICED_RACES = {1, 2, 3, 4, 5, 7, 95, 96}
 
 
-def table(name, branch):
+def table(name, branch, cache_dir=None):
+    cached = cache_dir / f"{name}.csv" if cache_dir else None
+    if cached and cached.exists():
+        return list(csv.DictReader(io.StringIO(cached.read_text(encoding="utf-8-sig"))))
     request = urllib.request.Request(URL.format(table=name, branch=branch),
                                      headers={"User-Agent": "BuddyDex data tool"})
     with urllib.request.urlopen(request, timeout=120) as response:
-        return list(csv.DictReader(io.StringIO(response.read().decode("utf-8"))))
+        text = response.read().decode("utf-8-sig")
+    if cached:
+        cached.parent.mkdir(parents=True, exist_ok=True)
+        cached.write_text(text, encoding="utf-8")
+    return list(csv.DictReader(io.StringIO(text)))
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--branch", default="wow_classic_beta")
+    parser.add_argument("--cache-dir", type=pathlib.Path, help="CSV snapshot directory; preserve it to reproduce this build")
     args = parser.parse_args()
 
     sets = {}
-    for row in table("NPCSounds", args.branch):
+    for row in table("NPCSounds", args.branch, args.cache_dir):
         kits = [int(row[f"SoundID_{i}"]) for i in range(3)]
         if any(kits):
             sets[int(row["ID"])] = kits
-    creatures = table("CreatureDisplayInfo", args.branch)
+    creatures = table("CreatureDisplayInfo", args.branch, args.cache_dir)
     displays = sorted(
         (int(row["ID"]), int(row["NPCSoundID"]))
         for row in creatures
@@ -54,7 +62,7 @@ def main():
     )
     used = sorted({s for _, s in displays})
     extra = {int(row["ID"]): (int(row["DisplayRaceID"]), int(row["DisplaySexID"]))
-             for row in table("CreatureDisplayInfoExtra", args.branch)}
+             for row in table("CreatureDisplayInfoExtra", args.branch, args.cache_dir)}
     bodies = sorted(
         (int(row["ID"]),) + extra[int(row["ExtendedDisplayInfoID"])]
         for row in creatures

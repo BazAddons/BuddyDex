@@ -1,5 +1,7 @@
 # Blacksmith Rand and Harold Raims
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched and written November 9, 2026. Fifteen personal lines and four directed signature scripts each are ready; official Forsaken voice recordings remain pending, so neither profile is complete.
 
 ## Identity and eligibility

@@ -1,5 +1,7 @@
 # Deathknell's four named deathguards
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched and written November 9, 2026. Bartrand, Oliver, Phillip and Randolph each have fifteen personal lines and four directed signature scripts. **Official Forsaken recordings remain pending, so these profiles are not complete.**
 
 ## Identity and eligibility

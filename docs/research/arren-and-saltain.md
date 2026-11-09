@@ -1,5 +1,7 @@
 # Executor Arren and Deathguard Saltain
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched November 9, 2026. Both profiles are written with fifteen lines and four directed signature scripts; recordings remain pending the official Forsaken voice choice. They must not be counted complete yet.
 
 ## Identity and eligibility

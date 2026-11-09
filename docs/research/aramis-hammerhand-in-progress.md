@@ -1,5 +1,7 @@
 # Aramis Hammerhand
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched and written November 9, 2026. **Official Forsaken recordings remain pending; this profile is not complete.** The filename preserves the earlier research note's path. The referral and later training context have now been checked as described below.
 
 ## Identity and available dialogue

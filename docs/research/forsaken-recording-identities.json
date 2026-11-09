@@ -1,0 +1,595 @@
+{
+  "as_of": "2026-11-09",
+  "sources": "Current Forever NPC nodes; installed Scout snapshot; cached wow_classic_beta CreatureDisplayInfo/Extra",
+  "entries": [
+    {
+      "npc_id": 1568,
+      "name": "Undertaker Mordo",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1582,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "rest"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1568"
+    },
+    {
+      "npc_id": 1569,
+      "name": "Shadow Priest Sarvis",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1584,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1569"
+    },
+    {
+      "npc_id": 1570,
+      "name": "Executor Arren",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1583,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "quest"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1570"
+    },
+    {
+      "npc_id": 1661,
+      "name": "Novice Elreth",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 1593,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "gear",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1661"
+    },
+    {
+      "npc_id": 1736,
+      "name": "Deathguard Randolph",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1590,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1736"
+    },
+    {
+      "npc_id": 1737,
+      "name": "Deathguard Oliver",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1588,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "rest"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1737"
+    },
+    {
+      "npc_id": 1739,
+      "name": "Deathguard Phillip",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1589,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "loot"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1739"
+    },
+    {
+      "npc_id": 1740,
+      "name": "Deathguard Saltain",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 3523,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "bagsFull",
+        "befriended",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1740"
+    },
+    {
+      "npc_id": 1741,
+      "name": "Deathguard Bartrand",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1587,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "gear",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1741"
+    },
+    {
+      "npc_id": 2113,
+      "name": "Archibald Kava",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1574,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "gear",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2113"
+    },
+    {
+      "npc_id": 2115,
+      "name": "Joshua Kien",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1577,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "bagsFull",
+        "befriended",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2115"
+    },
+    {
+      "npc_id": 2116,
+      "name": "Blacksmith Rand",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1575,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "gear",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2116"
+    },
+    {
+      "npc_id": 2117,
+      "name": "Harold Raims",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1576,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "gear",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2117"
+    },
+    {
+      "npc_id": 2119,
+      "name": "Dannal Stern",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1578,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2119"
+    },
+    {
+      "npc_id": 2122,
+      "name": "David Trias",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1580,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "loot"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2122"
+    },
+    {
+      "npc_id": 2123,
+      "name": "Dark Cleric Duesten",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1579,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "rest"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2123"
+    },
+    {
+      "npc_id": 2124,
+      "name": "Isabella",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 1592,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2124"
+    },
+    {
+      "npc_id": 2126,
+      "name": "Maximillion",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 1581,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "rest"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2126"
+    },
+    {
+      "npc_id": 2315,
+      "name": "Maquell Ebonwood",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 1594,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "zone"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2315"
+    },
+    {
+      "npc_id": 5667,
+      "name": "Venya Marthand",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 3944,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5667"
+    },
+    {
+      "npc_id": 5749,
+      "name": "Kayla Smithe",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 4175,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5749"
+    },
+    {
+      "npc_id": 11945,
+      "name": "Claire Willower",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 11904,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "zone"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
+    },
+    {
+      "npc_id": 244808,
+      "name": "Aramis Hammerhand",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 129405,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "comforted",
+        "greet",
+        "idle"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
+    },
+    {
+      "npc_id": 267323,
+      "name": "Clarence Gillian",
+      "voice": "forsaken-male",
+      "sex": 2,
+      "models": [
+        {
+          "display": 145032,
+          "file_id": 959310,
+          "race": 5,
+          "sex": 0
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267323"
+    },
+    {
+      "npc_id": 267326,
+      "name": "Florence Nightshade",
+      "voice": "forsaken-female",
+      "sex": 3,
+      "models": [
+        {
+          "display": 145035,
+          "file_id": 997378,
+          "race": 5,
+          "sex": 1
+        }
+      ],
+      "signatures": [
+        "befriended",
+        "greet",
+        "idle",
+        "learned"
+      ],
+      "zone": "Tirisfal Glades",
+      "reaction": 5,
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267326"
+    }
+  ],
+  "table_snapshots": {
+    "CreatureDisplayInfo": {
+      "sha256": "1a3ba3b5f1e3126bb0e6d906536455b9b1e6deaf78f97b64636b23084821e880",
+      "source_url": "https://wago.tools/db2/CreatureDisplayInfo/csv?branch=wow_classic_beta"
+    },
+    "CreatureDisplayInfoExtra": {
+      "sha256": "ea490dee019677dbfb102f1ad6db98273f9448876cc3963b53e04a5c13fe4e9e",
+      "source_url": "https://wago.tools/db2/CreatureDisplayInfoExtra/csv?branch=wow_classic_beta"
+    },
+    "NPCSounds": {
+      "sha256": "9b2b4d16530e0c1576c40cfa6c7bcd6bdbaeb5d7e728418c9ebaeb9ba208fc66",
+      "source_url": "https://wago.tools/db2/NPCSounds/csv?branch=wow_classic_beta"
+    }
+  }
+}

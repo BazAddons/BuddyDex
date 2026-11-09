@@ -1,5 +1,7 @@
 # Dannal Stern, David Trias and Dark Cleric Duesten
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched and written November 9, 2026. Each profile has fifteen personal lines and four directed signature scripts. **Recordings await the official Forsaken voice choice; these profiles are not complete.**
 
 ## Identities and direct observations

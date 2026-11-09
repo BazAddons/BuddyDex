@@ -157,6 +157,8 @@ step("the main addon loads its bundled voices", function()
         "Horde service NPC voice identity mismatch")
     for _, sample in ipairs({ {3310, 1311, "orc-male"}, {6929, 5706, "orc-female"},
         {3626, 1697, "human-female"}, {279, 5082, "human-male"},
+        {1568, 1582, "forsaken-male"}, {1661, 1593, "forsaken-female"},
+        {244808, 129405, "forsaken-male"}, {267326, 145035, "forsaken-female"},
         {1257, 1431, "human-male"}, {1275, 1444, "human-female"} }) do
         assert(ns.Voice.NpcVoice(sample[2]) == sample[3], "signature voice identity mismatch")
         local line = ns.Lore[sample[1]].lines.greet[1][1]

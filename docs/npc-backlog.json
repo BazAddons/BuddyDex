@@ -1,8 +1,8 @@
 {
   "as_of": "2026-11-09",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 219,
-  "remaining_count": 27,
+  "completed_count": 244,
+  "remaining_count": 4,
   "completed": [
     {
       "npc_id": 54,
@@ -950,8 +950,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1569,
@@ -959,8 +959,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1570,
@@ -968,8 +968,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1661,
@@ -977,8 +977,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1668,
@@ -1035,8 +1035,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1737,
@@ -1044,8 +1044,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1739,
@@ -1053,8 +1053,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1740,
@@ -1062,8 +1062,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 1741,
@@ -1071,8 +1071,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2046,
@@ -1089,8 +1089,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2115,
@@ -1098,8 +1098,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2116,
@@ -1107,8 +1107,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2117,
@@ -1116,8 +1116,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2119,
@@ -1125,8 +1125,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2122,
@@ -1134,8 +1134,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2123,
@@ -1143,8 +1143,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2124,
@@ -1152,8 +1152,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2126,
@@ -1161,8 +1161,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2198,
@@ -1179,8 +1179,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 2327,
@@ -1624,8 +1624,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 5749,
@@ -1633,8 +1633,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 5917,
@@ -1943,8 +1943,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 12336,
@@ -2141,8 +2141,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 251507,
@@ -2177,8 +2177,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 267326,
@@ -2186,8 +2186,8 @@
       "zone": "Tirisfal Glades",
       "source": "Installed Scout record",
       "written_lines": 15,
-      "personal_recordings": 0,
-      "status": "needs_completion"
+      "personal_recordings": 4,
+      "status": "complete"
     },
     {
       "npc_id": 268238,
@@ -2236,6 +2236,22 @@
     }
   ],
   "remaining": [
+    {
+      "npc_id": 344,
+      "name": "Magistrate Solomon",
+      "zone": "Redridge Mountains",
+      "source": "Current Forever node, complete starts/ends page; full lore/chain research still in progress",
+      "research_notes": "docs/research/lakeshire-command-in-progress.md",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 382,
+      "name": "Marshal Marris",
+      "zone": "Redridge Mountains",
+      "source": "Current Forever node, complete starts/ends page; full lore/chain research still in progress",
+      "research_notes": "docs/research/lakeshire-command-in-progress.md",
+      "status": "pending_identity_and_lore_research"
+    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

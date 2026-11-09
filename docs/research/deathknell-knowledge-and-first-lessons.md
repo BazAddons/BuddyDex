@@ -1,5 +1,7 @@
 # Venya Marthand, Clarence Gillian and Florence Nightshade
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Researched and written November 9, 2026. Each has fifteen personal lines and four directed signature scripts. **Official Forsaken recordings remain pending; these profiles are not complete.**
 
 ## Identity and eligibility

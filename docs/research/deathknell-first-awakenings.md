@@ -1,5 +1,7 @@
 # Deathknell's first awakenings
 
+**Production update, 2026-11-09:** The profiles authored in this note now have four verified Eleven v4 signatures each, using the approved Forsaken race/sex voices. See [the completed recording audit](forsaken-recording-completion.md). Pending-recording statements below describe the earlier authoring stage.
+
 Research and written profiles: November 9, 2026. **Recordings are pending the user's Forsaken voice selection; these three profiles are not complete.** New recordings will use the user's selected Eleven v4 model, superseding the old goal's v3 wording. No existing race voice is borrowed without that decision.
 
 ## Verified identities and eligibility
