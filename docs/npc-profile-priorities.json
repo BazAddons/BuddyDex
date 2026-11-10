@@ -1148,6 +1148,20 @@
       "zone": "Arathi Highlands",
       "route": "Horde regional shaman quest/bowyer coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; source comparisons and normal299/300 boundary validation in docs/research/torgan-and-muuta-queue.md"
+    },
+    {
+      "npc_id": 2792,
+      "name": "Gor'mul",
+      "zone": "Arathi Highlands",
+      "route": "Horde male/female Orc regional quest and trade-goods coverage",
+      "reason": "Identity verified; full source comparisons and profile writing pending. See docs/research/gormul-and-keena-queue.md"
+    },
+    {
+      "npc_id": 2821,
+      "name": "Keena",
+      "zone": "Arathi Highlands",
+      "route": "Horde male/female Orc regional quest and trade-goods coverage",
+      "reason": "Identity verified; full source comparisons and profile writing pending. See docs/research/gormul-and-keena-queue.md"
     }
   ]
 }

@@ -1477,5 +1477,19 @@
     "zone": "Arathi Highlands",
     "source": "Exact current named adult model/Friendly/approved voice verified; full sourced profile, fifteen personal lines/four v4 signatures, normal299/300 Buddy and live gates tested; source/era/original limits documented, no Scout sighting claimed",
     "research_notes": "docs/research/torgan-and-muuta-queue.md"
+  },
+  {
+    "npc_id": 2792,
+    "name": "Gor'mul",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult model/Friendly/approved voice verified; own tabs and initial linked-chain/stock research; full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gormul-and-keena-queue.md"
+  },
+  {
+    "npc_id": 2821,
+    "name": "Keena",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult model/Friendly/approved voice verified; own tabs and initial linked-chain/stock research; full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gormul-and-keena-queue.md"
   }
 ]
