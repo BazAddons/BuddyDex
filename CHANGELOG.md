@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Librarian Mae Paledust and Geofram Bouldertoe: complete Dwarf profiles with thirty personal lines queued.
+- Ground Ironforge library and mining companions in the full book-recovery quest, actual Classic book pages, and current training.
+
 - Add Kithas and Jhag: complete female and male Orc profiles with thirty personal lines queued.
 - Expand Orgrimmar companions with current enchanting supplies and the researched Enchanted Lute camping lesson.
 

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Librarian Mae Paledust and Geofram Bouldertoe: complete Dwarf profiles with thirty personal lines queued.
+- Ground Ironforge library and mining companions in the full book-recovery quest, actual Classic book pages, and current training.
+
 - Add Kithas and Jhag: complete female and male Orc profiles with thirty personal lines queued.
 - Expand Orgrimmar companions with current enchanting supplies and the researched Enchanted Lute camping lesson.
 
@@ -204,4 +207,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **612 fully written NPC profiles**: 454 have initial signature recordings, and one hundred fifty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **614 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -2849,5 +2849,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Orc female/male bodies, actual Friendly access, full own stock/training/gossip and Jhag camping branch; no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-enchanting-fit-and-friendly-tusks.md"
+  },
+  {
+    "npc_id": 3979,
+    "name": "Librarian Mae Paledust",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Dwarf female/male bodies, Friendly access, full quest1050/actual Classic book or current/Classic training; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-questions-and-corrected-estimates.md"
+  },
+  {
+    "npc_id": 4254,
+    "name": "Geofram Bouldertoe",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Dwarf female/male bodies, Friendly access, full quest1050/actual Classic book or current/Classic training; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-questions-and-corrected-estimates.md"
   }
 ]

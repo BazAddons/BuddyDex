@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Librarian Mae Paledust <Explorers League>, Library, Ironforge. Adult
+    -- Dwarf female2049/M2 950080, Alliance Friendly. Full1050dialogue
+    -- and actual four-page Classic5536book read. Question page original;
+    -- no later SI7/library-book biographical claim imported.
+    -- Research: docs/research/ironforge-questions-and-corrected-estimates.md
+    [3979] = {
+        quote = "A question honestly kept is better than an answer carelessly borrowed.",
+        likes = { "A historical text brought to safety", "A reader asking what remains uncertain", "Care taken with another person's work" },
+        dislikes = { "A treasured book left among zealots", "A confident claim with no source", "Curiosity dismissed as foolishness" },
+        gossip = "Mae has a page reserved for questions that have grown more interesting instead of easier to answer. She does not consider the page a failure.",
+        bio = "Librarian Mae Paledust serves the Explorers' League in Ironforge's library. She seeks Mythology of the Titans from the Scarlet Monastery, believing that studying the past can help prepare people for an uncertain future.",
+        backstory = "She regards the Monastery as a corrupted former place of learning, and wants its historical treasure housed safely in Ironforge. Her thanks recognize both the difficulty of retrieving it and the benefit to the dwarves and her League.",
+        secret = "Her private page of unresolved questions has room for a visitor to add one. She likes returning to a question that has become richer with study. Not knowing yet can be a worthwhile beginning.",
+        bestFriend = "Bring me the question you have not found a place to ask. We need not pretend to settle it today. I would enjoy considering it with you.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates recognition for the patient care that preserves knowledge for other readers.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "Good to see you. What question has found its way here with you today?", tone = "[thoughtful] [welcoming]" }, "Ready. There may be something beyond the shelves that gives an old question a new beginning." },
+            idle = { { "That page holds questions I have not settled. Some have become more interesting. I consider that a useful change.", tone = "[reflective] [pleased]" }, "Preserving a text keeps open the chance for someone else to understand what we have not.", "A source may tell us what its writer believed. We should take care before calling that the last answer." },
+            befriended = { { "You have shown care for the learning as well as the result. I would be glad to share more questions with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you are trying to find, and what you already know of it.", "I was considering whether that question has improved since I last wrote it down." },
+            learned = { { "A new piece of knowledge. Consider what it answers, and which questions it makes possible.", tone = "[patient] [encouraging]" } },
+            quest = { "Establish what was requested before deciding you have found it. A similar title may belong to quite another thing." },
+            loot = { "Something worth keeping? If it carries knowledge, give it the care you would want for another reader." },
+            bagsFull = { "Make room for what deserves care. A historical treasure should not be crushed beneath forgotten errands." },
+            mail = { "A message. Its sender may have supplied the detail we were missing." },
+            rest = { "A pause can leave a question room to change shape. We need not force an answer out of every moment." },
+            thanked = { "You are welcome. Let the next curious person benefit from what you have learned." },
+        },
+    },
+
+    -- Geofram Bouldertoe <Mining Trainer>, Great Forge, Ironforge. Adult
+    -- Dwarf male3092/M2 878772, Alliance Friendly/Trainer.16current
+    -- training rows and full Classic table; no own quest/installed gossip.
+    -- Overenthusiastic estimate/correction are original, no new rewards.
+    -- Research: docs/research/ironforge-questions-and-corrected-estimates.md
+    [4254] = {
+        quote = "Have a closer look before you give it a glorious name.",
+        likes = { "A sample examined before a claim", "A learner willing to look again", "An honest note corrected in time" },
+        dislikes = { "A grand estimate made from a glance", "A beginner shamed for an ordinary error", "Careful observations lost to a boast" },
+        gossip = "Geofram has kept an old note with a rather ambitious first estimate. He appears fonder of the quiet correction written beneath it.",
+        bio = "Geofram Bouldertoe teaches mining in Ironforge near the Great Forge. His current lessons include mining, smelting, and Lodestone. He values knowing what one has found before deciding what grand thing it must become.",
+        backstory = "He once wrote an enthusiastic estimate after a promising first glance at a sample. Closer examination gave him a much plainer answer. He kept the note, deciding that correcting the claim had been the useful part of the work.",
+        secret = "The correction says: interesting, but needs checking. He likes how much work those words leave room to do. He has not tried to make the earlier excitement look wiser.",
+        bestFriend = "Take another look with me. You need not defend your first guess. I would rather enjoy finding out what is here together.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone taking the time to reconsider an observation before making a claim.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Bring a willing eye, and leave a little room for a second look.", tone = "[steady] [welcoming]" }, "Ready. I have made no grand estimate of the day. We can begin by seeing what is here." },
+            idle = { { "Interesting, but needs checking. That correction has served me rather better than the estimate above it.", tone = "[wry] [reflective]" }, "An ordinary sample has not disappointed you merely because your first guess was grander.", "Keep what you observed separate from what you hope to find. It makes returning to the work much easier." },
+            befriended = { { "You can look again without making an honest mistake into a disgrace. I would enjoy more work and company with you.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? What have you found, and what have you actually noticed about it?", "I was reading the old estimate. Still enthusiastic. The correction remains the better part." },
+            learned = { { "Good. Let the new skill help you notice more, rather than hurry to the same old conclusion.", tone = "[patient] [encouraging]" } },
+            loot = { "Have a proper look before you decide what sort of find you have made." },
+            bagsFull = { "Sort the samples so you know what came from where. A heap is an awkward set of notes." },
+            quest = { "What is needed? Begin with that, and check the thing you intend to bring." },
+            gear = { "Know what it does for you before letting the name make the whole decision." },
+            zone = { "Different ground. We should find out what is here before calling it familiar." },
+            thanked = { "You are welcome. A little care now can save a much larger correction later." },
+        },
+    },
+
     -- Kithas <Enchanting Supplies>, Godan's Runeworks, Drag, Orgrimmar.
     -- Adult Orc female1367/M2 949470, Horde Friendly/Vendor.12current
     -- goods differ from12Classic; no own quest/gossip. Well-fitting

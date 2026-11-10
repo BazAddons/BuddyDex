@@ -2520,6 +2520,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar Drag early Durotar enchanting/camping referral",
       "reason": "Complete adult Orc female/male profile with fifteen queued lines; current stock and real profession lesson separated from original private humor; no synthesis"
+    },
+    {
+      "npc_id": 3979,
+      "name": "Librarian Mae Paledust",
+      "zone": "Ironforge",
+      "route": "Ironforge Library Explorers League",
+      "reason": "Complete adult Dwarf female/male profile with fifteen queued lines; actual book/quest or profession training distinguished from original private story; no synthesis"
+    },
+    {
+      "npc_id": 4254,
+      "name": "Geofram Bouldertoe",
+      "zone": "Ironforge",
+      "route": "Ironforge Great Forge mining trainer",
+      "reason": "Complete adult Dwarf female/male profile with fifteen queued lines; actual book/quest or profession training distinguished from original private story; no synthesis"
     }
   ]
 }
