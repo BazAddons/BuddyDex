@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Renzik the Shiv and Wrenix the Wretched: two adult Goblin profiles with thirty personal lines queued.
+- Research Renzik's recruitment network and Wrenix's Forever salvage quest, preserving their distinct voices and documented original friendship writing.
+
 - Add Wizbang Cranktoggle: a full adult Gnome profile with fifteen personal lines queued.
 - Research the complete Buzzbox chain, historical fishing errands and installed greeting; preserve the liquor reveal and document original friendship writing.
 

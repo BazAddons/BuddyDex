@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Renzik the Shiv and Wrenix the Wretched: two adult Goblin profiles with thirty personal lines queued.
+- Research Renzik's recruitment network and Wrenix's Forever salvage quest, preserving their distinct voices and documented original friendship writing.
+
 - Add Wizbang Cranktoggle: a full adult Gnome profile with fifteen personal lines queued.
 - Research the complete Buzzbox chain, historical fishing errands and installed greeting; preserve the liquor reveal and document original friendship writing.
 
@@ -375,4 +378,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **716 fully written NPC profiles**: 454 have initial signature recordings, and two hundred sixty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **718 fully written NPC profiles**: 454 have initial signature recordings, and two hundred sixty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3248,6 +3248,20 @@
       "zone": "Darkshore",
       "route": "Auberdine Gnome inventor on the Darkshore route",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original practice of candid explanation; no synthesis"
+    },
+    {
+      "npc_id": 6946,
+      "name": "Renzik \"The Shiv\"",
+      "zone": "Stormwind City",
+      "route": "Old Town SI:7 recruiting",
+      "reason": "Complete adult profile with fifteen personal lines queued; researched recruitment network and third-person voice, original guarded first-person welcome; no synthesis"
+    },
+    {
+      "npc_id": 7161,
+      "name": "Wrenix the Wretched",
+      "zone": "The Barrens",
+      "route": "Ratchet early salvage route",
+      "reason": "Complete adult profile with fifteen personal lines queued; researched current salvage quest and historical rogue chain, original imaginary prototype demonstration; no synthesis"
     }
   ]
 }

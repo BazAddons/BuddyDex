@@ -3577,5 +3577,19 @@
     "zone": "Darkshore",
     "source": "Reviewed adult Gnome man, current Alliance Friendly; full Buzzbox and historical fishing chains plus installed own gossip; candid-admission practice original; no Scout sighting claimed",
     "research_notes": "docs/research/wizbang-and-the-second-purpose.md"
+  },
+  {
+    "npc_id": 6946,
+    "name": "Renzik \"The Shiv\"",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult Alliance Friendly Goblin man; complete training referrals and installed own Barrens gossip; third-person speech retained, first-person welcome original; no Scout sighting claimed",
+    "research_notes": "docs/research/renziks-recruits-and-wrenixs-prototype.md"
+  },
+  {
+    "npc_id": 7161,
+    "name": "Wrenix the Wretched",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Horde Neutral Goblin man; full current Parts and Pieces and historical rogue chain; imaginary prototype demonstration original; live eligibility required; no Scout sighting claimed",
+    "research_notes": "docs/research/renziks-recruits-and-wrenixs-prototype.md"
   }
 ]

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Renzik "The Shiv" <SI:7 Operative>, Stormwind. Adult Goblin
+    -- male7613/M2 119376, Alliance Friendly. Full referrals and
+    -- Lucius training chain read; installed own gossip credits Shaw.
+    -- Third-person speech is Classic; private first-person slip original.
+    -- Research: docs/research/renziks-recruits-and-wrenixs-prototype.md
+    [6946] = {
+        quote = "Renzik wants you coming back with experience. Looking impressive is a poor substitute.",
+        likes = { "A recruit who learns before showing off", "An old associate keeping their word", "The sound of returning footsteps" },
+        dislikes = { "Confidence standing in for practice", "A promising rogue wasted in the field", "Help remembered only as a debt" },
+        gossip = "Renzik sounds hardest on recruits he wants to see return. A successful training errand sometimes earns a suspiciously relieved grunt.",
+        bio = "Renzik the Shiv serves SI:7 in Stormwind's Old Town. Mathias Shaw's second in command sends unready rogues to Lucius in Lakeshire for practice. His sharp assessment has a practical purpose: he has no use for another dead recruit.",
+        backstory = "Renzik says Mathias found him abandoned by the Venture Company in the Barrens and saved his life. Now he works among Stormwind's agents, with contacts reaching Hulfdan's rogues. He knows help can change the road ahead of someone.",
+        secret = "When someone he worried about returns, he rehearses a brisk assessment. Sometimes a simple I am glad you came back nearly gets out first.",
+        bestFriend = "Renzik knows what you can do. And I am glad you came back. There. You may keep that second part between us.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He appreciates a composed acknowledgment from someone who takes the work seriously without making a performance of it.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Renzik was beginning to wonder. Ready? Keep your eyes open, and save looking impressive for when the work is finished.", tone = "[brisk] [quietly relieved]" }, "Good. You came prepared. Renzik appreciates that. Now tell me where we are going before you begin proving how quickly you can get there." },
+            idle = { { "A recruit returns with a little more experience. Renzik calls that progress. If there is a relieved grunt attached to the assessment, that is no concern of yours.", tone = "[dry] [guarded]" }, "Mathias found me left for dead by the Venture Company in the Barrens. Renzik has not forgotten what a different road can depend on.", "Some people hear go and practice as an insult. Renzik would rather hear a complaint today than an explanation of why the promising rogue never came back." },
+            befriended = { { "You have become someone whose return matters beyond the work. Renzik could dress that up as an assessment. I am glad you came back. Come along, friend.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Renzik is listening. Give the useful part room to arrive before the impressive part.", "You have my attention. If this is something you do not know how to do, say so. We can work with that." },
+            saluteBack = { { "Acknowledged. Keep that head clear. Renzik expects to hear how the practice went when you return.", tone = "[firm] [approving]" } },
+            learned = { "Good. Practice it until confidence has something solid beneath it. Renzik can make use of someone willing to learn." },
+            quest = { "Know what you are being sent to do. If you need practice first, take it. Renzik has seen enough confidence arrive without the necessary experience." },
+            rest = { "Take the pause if you need it. Renzik can tolerate waiting better than a needless mistake made to hide exhaustion." },
+            newFriend = { "Someone new. Watch whether they keep their word. Useful connections can begin with something as simple as that." },
+            group = { "Who needs a hand before we move? Find out now. Renzik prefers the answer before someone tries to conceal the trouble." },
+            thanked = { "You're welcome. Remember what helped, and use it when someone else needs the same chance." },
+        },
+    },
+
+    -- Wrenix the Wretched, Ratchet. Adult Goblin male7154/M2 119376,
+    -- current Horde Neutral. Forever97253 parts retrieval, installed
+    -- completion and historical rogue chain read. Imaginary-machine
+    -- demonstration is original, not a functional device or minigame.
+    -- Research: docs/research/renziks-recruits-and-wrenixs-prototype.md
+    [7161] = {
+        quote = "Stand there a moment. Imagine a lever in that hand. Good! Now, the magnificent part is about to happen.",
+        likes = { "A prototype explained with both hands", "Returned parts ready for another attempt", "Someone following the imaginary machinery" },
+        dislikes = { "Pirates dismantling a promising machine", "Gagsprocket's lectures about metal", "Running out of arm before the explanation" },
+        gossip = "Wrenix can demonstrate a machine before he has built it. The explanation may need both arms and someone willing to hold an imaginary lever.",
+        bio = "Wrenix the Wretched works in Ratchet. His attempt to send a machine against the pirates left parts scattered through their camp. He wants the metal recovered for another prototype, with an enthusiasm that runs well ahead of his reward planning.",
+        backstory = "While explaining a new design, he ran out of hands for its moving pieces. He asked a listener to hold an imaginary lever. They played along, and for one glorious moment the entire unbuilt contraption worked exactly as he intended.",
+        secret = "He remembers that empty-handed demonstration fondly. Nothing jammed, nobody interrupted, and someone stayed to see the magnificent part happen.",
+        bestFriend = "Hold that imaginary lever for me, pal. You've got the timing. I like having someone who wants to see where the idea goes.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys an audience that stays through the demonstration and appreciates the grand finish, even before the machine exists.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal! Ready? I've got an idea to explain on the way. If I ask you to hold a lever, don't worry. This one's imaginary.", tone = "[animated] [welcoming]" }, "Good timing! Both hands free? Excellent. You may be about to play a vital role in a completely unbuilt piece of machinery." },
+            idle = { { "So this turns, that rises, and the little arm goes over here. No, I've run out of hands. Hold the imaginary lever, pal. The magnificent part is next!", tone = "[excited] [demonstrating]" }, "Best demonstration I ever gave used no metal whatsoever. Nothing jammed. My audience held an imaginary lever and stayed for the grand finish.", "Gagsprocket has thoughts about the cost of metal. Several thoughts. Long ones. I'd rather show you what the next prototype is going to do." },
+            befriended = { { "You stayed to see the idea through, even when all I had was waving hands and an imaginary lever. Come along, pal. I like having you in the demonstration.", tone = "[bright] [sincere]" } },
+            poke = { "Yes? Keep holding that imaginary lever. We're at a delicate stage of the explanation.", "What's up, pal? If you're wondering where the machine is, we're still enjoying the part before buying the metal." },
+            applaudToo = { { "That's the finish! Beautiful timing, pal. Did you see the little arm? Of course you did. You were operating half the thing.", tone = "[delighted] [theatrical]" } },
+            quest = { "Find out what needs bringing back. Parts, treasure, whatever it is. I have occasionally reached the reward discussion later than I meant to." },
+            gear = { "Take a look at how the pieces fit. Now imagine a second little arm right there. No? All right, finish checking the useful thing first." },
+            loot = { "Metal? Useful parts? Give me a moment. There may be a completely new prototype in that pile, waiting for an explanation." },
+            rest = { "A pause. Excellent. Sit where you can see both hands. This explanation has a grand finish, and I'd hate for you to miss it." },
+            group = { "More hands! Nobody move yet. I may finally be able to demonstrate every moving piece at the same time." },
+            learned = { "Something new! Show me how it works. Start slowly, then we can get to the magnificent part." },
+        },
+    },
+
     -- Wizbang Cranktoggle, Auberdine, Darkshore. Adult Gnome male
     -- 4474/M2 900914, current Alliance Friendly. Full Buzzbox chain
     -- 983/1001/1002/1003 reveals liquor purpose; 1579/1580 are

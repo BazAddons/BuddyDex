@@ -3,8 +3,8 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 303,
-    "unverified": 157,
+    "alliance": 304,
+    "unverified": 158,
     "horde": 281
   },
   "npc_race_counts": {
@@ -15,7 +15,7 @@
     "5": 78,
     "4": 57,
     "8": 55,
-    "9": 44,
+    "9": 46,
     "6": 82,
     "96": 19,
     "95": 25
@@ -24,7 +24,7 @@
     "Elwynn Forest": 28,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
-    "Stormwind City": 115,
+    "Stormwind City": 116,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 21,
@@ -44,7 +44,7 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 49,
-    "The Barrens": 35,
+    "The Barrens": 36,
     "Stonetalon Mountains": 10,
     "Darnassus": 9,
     "Burning Steppes": 1,
@@ -6514,6 +6514,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6929"
     },
     {
+      "npc_id": 6946,
+      "name": "Renzik \"The Shiv\"",
+      "zone": "Stormwind City",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6946"
+    },
+    {
       "npc_id": 6966,
       "name": "Lucius",
       "zone": "Redridge Mountains",
@@ -6538,6 +6551,17 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7089"
+    },
+    {
+      "npc_id": 7161,
+      "name": "Wrenix the Wretched",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral on current primary node; no explicit Friendly count; live nonattackability and reaction checks required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7161"
     },
     {
       "npc_id": 7207,
@@ -9182,6 +9206,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 716,
-  "awaiting_signature_audio_profiles": 262
+  "authored_profiles": 718,
+  "awaiting_signature_audio_profiles": 264
 }
