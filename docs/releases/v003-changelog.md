@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Jahan Hawkwing and Halija Whitestrider: two complete adult Tauren profiles at the Crossroads, with thirty personal lines queued.
+- Ground Jahan in his hide-delivery circuit and Halija in current cloth/repair services, with distinct original friendship stories.
+
 - Add Falorne Fallwind and Dorii Brightwhisper: two full adult Skyborne profiles on the Thendal initiation route, with thirty personal lines queued.
 - Preserve Falorne's High Order stance and faction hostility alongside Dorii's encouraging mentorship; keep racial, training and friendship rewards separate.
 
@@ -108,4 +111,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **550 fully written NPC profiles**: 454 have initial signature recordings, and ninety-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **552 fully written NPC profiles**: 454 have initial signature recordings, and ninety-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

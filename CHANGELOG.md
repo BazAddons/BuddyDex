@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jahan Hawkwing and Halija Whitestrider: two complete adult Tauren profiles at the Crossroads, with thirty personal lines queued.
+- Ground Jahan in his hide-delivery circuit and Halija in current cloth/repair services, with distinct original friendship stories.
+
 - Add Falorne Fallwind and Dorii Brightwhisper: two full adult Skyborne profiles on the Thendal initiation route, with thirty personal lines queued.
 - Preserve Falorne's High Order stance and faction hostility alongside Dorii's encouraging mentorship; keep racial, training and friendship rewards separate.
 

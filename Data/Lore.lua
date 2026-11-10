@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jahan Hawkwing <Leather & Mail Armor Merchant>, Crossroads, Barrens.
+    -- Adult Tauren male3872/M2 968705, Horde Friendly. Full6361-6364
+    -- supply/flight chain and installed fortitude gossip; current tabs sparse.
+    -- Judging the afternoon shade is original character writing.
+    -- Research: docs/research/crossroads-hides-cloth-and-small-contests.md
+    [3483] = {
+        quote = "Fortitude matters. Knowing when to use the shade matters too.",
+        likes = { "A delivery carried through", "Equipment ready for the road", "A pause earned without apology" },
+        dislikes = { "Trade treated as work beneath notice", "Damage ignored until the next journey", "Endurance confused with poor judgment" },
+        gossip = "Jahan speaks well of the Barrens as a test of fortitude. He also knows precisely when the shade reaches his counter.",
+        bio = "Jahan Hawkwing is a leather and mail armor merchant at the Crossroads. His trade with Ahanu in Thunder Bluff turns Barrens hides into finished goods. He values the strength to face the region, and the reliable hands that keep its travelers supplied.",
+        backstory = "He once measured a hard day by how long he endured the heat. Watching good work done in a sensible place gave him another measure. Effort mattered less when it made the next task needlessly difficult. He began allowing himself the shade.",
+        secret = "He can judge the afternoon by the shade beside his counter. He calls this useful market knowledge. It is also the part of the day he quietly looks forward to.",
+        bestFriend = "Stay a moment. There is room in the shade, and no one here needs you to prove that you can do without it.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a steady acknowledgment of work carried through.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Let us face what the day requires without inventing extra hardships.", tone = "[steady] [warm]" }, "I am ready. Have you checked what you will need along the road?" },
+            idle = { { "The shade reaches that spot in the afternoon. Useful knowledge, even if it proves no great fortitude.", tone = "[dry] [content]" }, "A good pair of hands at the other end of a journey can make this end possible.", "There is strength in carrying a task through. There is judgment in not making it heavier than it is." },
+            befriended = { { "You have become company I need not put to work before welcoming. Come; we can spare a little of the day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is something needed before you set out?", "I was considering the sun. Some calculations are pleasantly simple." },
+            quest = { { "Know who is waiting at the other end. That is part of carrying a task properly.", tone = "[practical]" } },
+            gear = { "Attend to the wear before the road asks more of it." },
+            taxi = { "Secure what you carry. A quick journey still deserves care." },
+            mail = { "News from someone whose work you may depend on. Give it your attention." },
+            bagsFull = { "Distribute the weight before deciding you only need a stronger back." },
+            rest = { "A sensible pause. You may take it without turning it into a defeat." },
+            combatEnd = { "See what needs tending. Enduring damage is no reason to neglect it." },
+        },
+    },
+
+    -- Halija Whitestrider <Clothier>, Crossroads, Barrens. Adult Tauren
+    -- female3875/M2 986648, Horde Friendly, Repair/Vendor13current items.
+    -- No own quest/gossip found; no later Legion event assigned.
+    -- Informal beetle races and poor predictions are original writing.
+    -- Research: docs/research/crossroads-hides-cloth-and-small-contests.md
+    [3486] = {
+        quote = "Finish the small repair. Then we may give the small contest our full attention.",
+        likes = { "A repair made before the tear spreads", "A little friendly competition", "Someone cheering the unlikely winner" },
+        dislikes = { "Careless edges near good cloth", "A contest decided before it begins", "A loose fastening left for later" },
+        gossip = "Halija attends carefully to her cloth goods. A beetle crossing the ground can occasionally command the same attention.",
+        bio = "Halija Whitestrider is the clothier at the Crossroads. She sells cloth armor, shirts, robes, and cloaks, and offers repairs. Travelers keep her practical attention occupied, but she also enjoys finding a little amusement in the pauses between tasks.",
+        backstory = "Two beetles once crossed a quiet patch of ground while she waited. She chose a likely winner, then watched it turn completely the wrong way. The smaller beetle kept going. It was an excellent reminder not to award a victory too soon.",
+        secret = "She has strong opinions about which beetles look fast. These opinions have been wrong often enough that she now calls them sporting encouragement rather than predictions.",
+        bestFriend = "Come and choose a winner with me. You may even choose mine. I have discovered there is enough enthusiasm for both.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She enjoys encouragement that gives even an unlikely contender a chance.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good to see you. I have finished what needs doing. We may now be properly interested in the day.", tone = "[warm] [lively]" }, "Ready when you are. Keep the sharp things away from the cloth." },
+            idle = { { "That little one looks quick. I should warn you that I have said this with great confidence before.", tone = "[playful] [wry]" }, "A beetle has no obligation to take the route its admirer finds sensible.", "Attend to the loose thread first. The entertainment will probably find another way to surprise us." },
+            befriended = { { "You can enjoy a small foolish thing without making anyone feel foolish for enjoying it. I am glad to come along.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Were you watching the little one on the left?", "I am listening. I am also reconsidering a rather poor prediction." },
+            gear = { { "A small repair now is kinder to the cloth than an impressive repair later.", tone = "[practical]" } },
+            loot = { "Keep it where it will not catch on everything else you own." },
+            bagsFull = { "There is a corner pressing into something it should not. Give them a little room." },
+            rest = { "A quiet patch of ground. Let us see whether anyone else is making use of it." },
+            group = { "Everyone may have a favorite. We need not make an enemy of anyone who chooses differently." },
+            cheerAlong = { "There! An unlikely contender deserves a little enthusiasm." },
+            combatEnd = { "All here? Good. We can save our arguments for something pleasantly unimportant." },
+        },
+    },
+
     -- Falorne Fallwind <High Order>, Thendal Grove, Zephras. Adult male
     -- body136972:96:0/M2 7478487; current Windshaper race, High Order
     -- allegiance/gossip. Alliance Friendly/Horde Hostile, not shared access.

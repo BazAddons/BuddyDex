@@ -2086,6 +2086,20 @@
       "zone": "Zephras Isle",
       "route": "Alliance Thendal leyline/class initiation route",
       "reason": "Full adult Skyborne male/female profiles and fifteen queued lines each; current Alliance-only Friendly access, race/allegiance distinguished, live eligibility and class/racial services unchanged, no synthesis"
+    },
+    {
+      "npc_id": 3483,
+      "name": "Jahan Hawkwing",
+      "zone": "The Barrens",
+      "route": "Horde Tauren male/female Crossroads armor and trade contacts",
+      "reason": "Full adult profile and fifteen queued personal lines; Barrens next-route coverage distinct from Mulgore starters, sparse current quests not promised live, ordinary eligibility unchanged, no synthesis"
+    },
+    {
+      "npc_id": 3486,
+      "name": "Halija Whitestrider",
+      "zone": "The Barrens",
+      "route": "Horde Tauren male/female Crossroads armor and trade contacts",
+      "reason": "Full adult profile and fifteen queued personal lines; Barrens next-route coverage distinct from Mulgore starters, sparse current quests not promised live, ordinary eligibility unchanged, no synthesis"
     }
   ]
 }

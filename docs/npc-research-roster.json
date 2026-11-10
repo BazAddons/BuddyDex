@@ -2415,5 +2415,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed unique adult model, current faction fields, full own/referral quest context and dialogue; Falorne model race separate from allegiance/access; no Scout sighting claimed",
     "research_notes": "docs/research/thendal-ley-lines-and-arcane-first-steps.md"
+  },
+  {
+    "npc_id": 3483,
+    "name": "Jahan Hawkwing",
+    "zone": "The Barrens",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete available stock/quest tabs and full historical/corpus delivery chain or sparse personal lore; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-hides-cloth-and-small-contests.md"
+  },
+  {
+    "npc_id": 3486,
+    "name": "Halija Whitestrider",
+    "zone": "The Barrens",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete available stock/quest tabs and full historical/corpus delivery chain or sparse personal lore; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-hides-cloth-and-small-contests.md"
   }
 ]

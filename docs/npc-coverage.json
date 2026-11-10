@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 238,
     "unverified": 135,
-    "horde": 190
+    "horde": 192
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 36,
     "8": 42,
     "9": 27,
-    "6": 62,
+    "6": 64,
     "96": 8,
     "95": 13
   },
@@ -41,7 +41,7 @@
     "Mulgore": 14,
     "Thunder Bluff": 32,
     "Durotar": 43,
-    "The Barrens": 25,
+    "The Barrens": 27,
     "Ashenvale": 6,
     "Stonetalon Mountains": 6,
     "Darnassus": 7,
@@ -3586,6 +3586,32 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3482"
     },
     {
+      "npc_id": 3483,
+      "name": "Jahan Hawkwing",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3483"
+    },
+    {
+      "npc_id": 3486,
+      "name": "Halija Whitestrider",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3486"
+    },
+    {
       "npc_id": 3489,
       "name": "Zargh",
       "zone": "The Barrens",
@@ -7052,6 +7078,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 550,
-  "awaiting_signature_audio_profiles": 96
+  "authored_profiles": 552,
+  "awaiting_signature_audio_profiles": 98
 }
