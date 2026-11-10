@@ -41,6 +41,65 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gazrog, Crossroads, Barrens. Adult male Orc3464/display3846. Current
+    -- HordeNeutral: normal live gates apply. Current869/3281 and Classic
+    -- full Dogran chain read; payroll theft by raptors, no later Ratchet move.
+    -- Purse-checking reflex original. docs/research/barrens-payroll-and-specimens.md.
+    [3464] = {
+        recordingVoice = "orc-male",
+        quote = "I will consider the raptors' remarkable intelligence after the guards have their pay. Until then, I would prefer the silver.",
+        likes = { "A report that reaches its destination", "Guards receiving their earned pay", "Help that produces more than a theory" },
+        dislikes = { "Laughing before hearing the whole theft", "A messenger who never returns", "A clever explanation without the silver" },
+        gossip = "Gazrog checks his purse at the mention of raptors. He calls it sensible. He has also done it indoors, which weakens the argument.",
+        bio = "Gazrog at the Crossroads wants the guards' stolen payroll recovered from raptors. Their interest in silver baffles him. He also helps direct an urgent effort to obtain a healing draught for the injured, captive grunt Dogran.",
+        backstory = "A thief caught during the payroll theft turned out to be a raptor. Gazrog had expected many possible troubles, but not that one. He has since found himself checking his purse whenever the creatures enter a conversation.",
+        secret = "He knows the habit has outgrown its usefulness. He would like to tell the story once without reaching for his purse. A friend noticing kindly makes it easier to laugh at himself.",
+        bestFriend = "Yes, I checked it again. You may smile. I am glad to have someone here who can hear a ridiculous story without forgetting why it matters.",
+        favorite = { emote = "SMILE", hint = "He could use someone enjoying the absurdity without dismissing the trouble behind it." },
+        lines = {
+            greet = { { "Good to see you. I have checked the purse already. We can begin with the conversation.", tone = "[gravelly] [wry]" }, "There you are. Tell me what you found, and take your time with the useful parts." },
+            idle = { { "You said raptor, and I checked it again. Yes, I am aware we are standing nowhere near one.", tone = "[gravelly] [dryly embarrassed]" }, "Interesting theories do not put the guards' pay back where it belongs.", "A message overdue on the road is not a thing I enjoy guessing about." },
+            befriended = { { "You have taken the trouble seriously without making the company miserable. I would be glad to spend more time with you.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? I did hear you. My hand has apparently developed an independent interest in the purse.", "If this is another explanation of what a raptor might buy, let me sit down first." },
+            quest = { { "A clear report matters. Someone may be waiting for more than a story at the other end.", tone = "[gravelly] [earnest]" } },
+            loot = { "Secure it before admiring it. I have a particularly irritating example of why." },
+            mail = { "News arrived. Good. I would rather read what happened than keep inventing reasons for the silence." },
+            bagsFull = { "Make room for what you were actually sent to recover." },
+            zone = { "Keep an eye on the road, and I shall try not to inspect the purse at every rustle." },
+            rest = { "A pause. No theory required to explain why that would be welcome." },
+            hearth = { "Home safely. A good ending to a journey with something important to carry." },
+        },
+    },
+    -- Tatternack Steelforge, Camp Taurajo, Barrens. Adult male Orc3433/
+    -- display3858, Horde Friendly. Warchief's study commission and full
+    -- current893->1153: revise underestimated craft, ore result conditional.
+    -- No Cataclysm/Vendetta Point; retained crossed-out note original.
+    -- docs/research/barrens-payroll-and-specimens.md.
+    [3433] = {
+        recordingVoice = "orc-male",
+        quote = "I can dislike an answer and still examine the evidence. Underestimating an enemy does not become wiser because I did it confidently.",
+        likes = { "A specimen worth a closer look", "Work that serves the Warchief's purpose", "A helper who brings more than a rumor" },
+        dislikes = { "Being refused a useful ore sample", "Pride that ignores better workmanship", "An interruption before he has examined it" },
+        gossip = "Tatternack keeps a note with a confident judgment crossed out. He does not display it prominently, but he has not thrown it away either.",
+        bio = "Tatternack Steelforge studies weapons and armor at Camp Taurajo under the Warchief's orders. He seeks Razormane examples and unusual ore from Thousand Needles. His low opinion of an enemy's craft does not always survive the specimens.",
+        backstory = "Sent to learn from travelers and the Barrens' cultures, Tatternack approached the work with more pride than generosity. He wants useful results for the Horde. When an example challenges his expectations, examining it matters more than defending the guess.",
+        secret = "He keeps one crossed-out judgment in his notes. Certainty was not enough to make it right. He would prefer you notice what he learned, rather than only the error.",
+        bestFriend = "Bring me the answer that makes me reconsider, if that is the answer you found. I trust your company more when you have no need to flatter me.",
+        favorite = { emote = "NOD", hint = "A patient acknowledgment gives him room to examine a difficult answer without turning it into a contest." },
+        lines = {
+            greet = { { "There you are. Tell me what you have actually seen. I have enough opinions of my own.", tone = "[gravelly] [focused]" }, "Come along. You may point out something I would otherwise dismiss too quickly." },
+            idle = { { "I crossed it out. I did not burn the page. There is a difference between correcting a judgment and pretending I never made it.", tone = "[gravelly] [dry]" }, "Disliking the maker will not tell me how the thing was made.", "I would rather be annoyed by a useful sample than pleased by an empty theory." },
+            befriended = { { "You have been willing to bring me something worth thinking about. I value that, and I would be glad of your company.", tone = "[gravelly] [reserved sincerity]" } },
+            poke = { "A moment. I am trying to see what is here before remembering what I expected.", "Yes? If you have an objection, make it a useful one." },
+            loot = { { "Let me look closely before we decide what it proves. A promising surface is still only a surface.", tone = "[gravelly] [intent]" } },
+            gear = { "Study the work itself. Your opinion of its origin should not do the examination for you." },
+            quest = { "An actual result. Now we may discover whether the expectation deserved its confidence." },
+            learned = { "Good. Keep the correction as well as the answer. You may need to remember how you reached it." },
+            bagsFull = { "Make room for the specimen. A very detailed description will not let me examine it." },
+            rest = { "A short pause. The note I am reconsidering will remain wrong until I return." },
+            hearth = { "Home. I hope there is time to inspect what we brought before someone asks for a grand conclusion." },
+        },
+    },
     -- Shimra <General Trade Goods Merchant>, Orgrimmar General Store,
     -- Valley of Strength. Adult female Orc5817/display4356, Horde Friendly.
     -- Current36vendor rows; no own quests/gossip. Counter game original;

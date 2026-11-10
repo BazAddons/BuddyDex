@@ -2100,5 +2100,19 @@
     "zone": "Orgrimmar",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/orc-and-tauren-craft-rotation.md"
+  },
+  {
+    "npc_id": 3464,
+    "name": "Gazrog",
+    "zone": "The Barrens",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-payroll-and-specimens.md"
+  },
+  {
+    "npc_id": 3433,
+    "name": "Tatternack Steelforge",
+    "zone": "The Barrens",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/barrens-payroll-and-specimens.md"
   }
 ]

@@ -1771,6 +1771,20 @@
       "zone": "Orgrimmar",
       "route": "Three adult Horde women and one Orc male across trade and equipment services",
       "reason": "Full researched text and fifteen queued lines; approved adult Orc female/male and Tauren female voices; explicit Horde Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3464,
+      "name": "Gazrog",
+      "zone": "The Barrens",
+      "route": "Crossroads and Camp Taurajo quest context",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc male voices; Gazrog Neutral conditional and Tatternack Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3433,
+      "name": "Tatternack Steelforge",
+      "zone": "The Barrens",
+      "route": "Crossroads and Camp Taurajo quest context",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc male voices; Gazrog Neutral conditional and Tatternack Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
     }
   ]
 }

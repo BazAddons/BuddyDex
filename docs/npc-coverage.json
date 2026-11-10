@@ -4,14 +4,14 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 218,
-    "unverified": 130,
-    "horde": 166
+    "unverified": 131,
+    "horde": 167
   },
   "npc_race_counts": {
     "1": 165,
     "3": 38,
     "7": 29,
-    "2": 62,
+    "2": 64,
     "5": 48,
     "4": 29,
     "8": 38,
@@ -40,7 +40,7 @@
     "Mulgore": 14,
     "Thunder Bluff": 28,
     "Durotar": 41,
-    "The Barrens": 22,
+    "The Barrens": 24,
     "Ashenvale": 6,
     "Stonetalon Mountains": 5,
     "Darnassus": 6,
@@ -3316,6 +3316,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3432"
     },
     {
+      "npc_id": 3433,
+      "name": "Tatternack Steelforge",
+      "zone": "The Barrens",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3433"
+    },
+    {
       "npc_id": 3442,
       "name": "Sputtervalve",
       "zone": "The Barrens",
@@ -3371,6 +3384,17 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Neutral with Horde icon; not an explicit friendly listing or non-attackable proof; live neutral non-attackable access required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3453"
+    },
+    {
+      "npc_id": 3464,
+      "name": "Gazrog",
+      "zone": "The Barrens",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3464"
     },
     {
       "npc_id": 3481,
@@ -6473,6 +6497,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 505,
-  "awaiting_signature_audio_profiles": 51
+  "authored_profiles": 507,
+  "awaiting_signature_audio_profiles": 53
 }

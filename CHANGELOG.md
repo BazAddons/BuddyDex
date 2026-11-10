@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gazrog and Tatternack Steelforge: complete adult Barrens profiles with thirty queued personal lines, grounded in the payroll, Dogran and specimen quest chains.
+- Preserve unresolved raptor motives and ore results, actual Camp Taurajo/Crossroads locations and normal live eligibility, including Gazrog's Neutral reaction.
+
 - Add Shimra, Kulwia, Sura Wildmane and Shoma: four full researched adult Horde profiles with sixty personal lines queued, including female Orc and Tauren coverage.
 - Preserve actual trade, harness and weapon services, current stock and normal character-local friendship rules; exclude later expansion events and invented family ties.
 
