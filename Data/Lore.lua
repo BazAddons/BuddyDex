@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jaeana <Meat Vendor>, Tradesmen's Terrace/Darnassus,4169/2217.
+    -- Adult female Night Elf/current AllianceFriendly; historical wandering
+    -- meat/drink role corroborated, exact current stock/route not asserted.
+    -- Hunger/bad-mood observations below are original BuddyDex writing.
+    -- No later Burning of Teldrassil/rescue or invented personal quest.
+    -- Research: docs/research/jaeana-and-yldan-queue.md.
+    [4169] = {
+        quote = "Before we decide the whole afternoon has gone wrong, tell me when you last ate.",
+        likes = { "A tense face relaxing over lunch", "A quiet word instead of a fuss", "Someone remembering to feed the vendor" },
+        dislikes = { "A meal postponed for one more errand", "Hunger mistaken for a quarrel", "Good food getting crushed beneath gear" },
+        gossip = "Jaeana can sometimes settle a disagreement by asking when everyone last ate. She never claims that counts as diplomacy.",
+        bio = "Jaeana sells meat and drinks around Darnassus's Tradesmen's Terrace. She meets travelers in the middle of busy errands and likes to ask a practical question before listening to complaints: have they remembered a meal?",
+        backstory = "A sharp exchange once softened considerably after everyone stopped to eat. Jaeana remembered the change. She began checking whether a difficult afternoon might simply be a long one between meals, without making a public fuss about it.",
+        secret = "She sometimes spends so long reminding others to eat that she forgets her own lunch. A friend asking the same question usually gets an embarrassed laugh.",
+        bestFriend = "You remembered to ask whether I had eaten. Come, sit with me. I could use my own advice, and I would enjoy your company.",
+        favorite = { emote = "SMILE", hint = "Let her see that a little care has improved your afternoon." },
+        lines = {
+            greet = { { "There you are. Before you tell me everything that has gone wrong today, have you remembered to eat? I am glad to hear the story either way. I simply find that a difficult afternoon can look rather different after a meal. Come along, friend. You may ask me the same question if I get sharp.", tone = "[warm] [practical] [gently amused]" },
+                "Good to see you. A meal first, or have you actually remembered one today?" },
+            idle = { { "I once heard a very sharp disagreement become an ordinary conversation after everyone stopped to eat. It was a useful thing to notice. I do not pretend every quarrel can be settled that way. But before deciding the whole afternoon has gone wrong, it seems sensible to check when lunch disappeared from the plan.", tone = "[reflective] [friendly] [conversational]" },
+                "One more errand can become a remarkably long time without lunch.",
+                "Yes, you may ask whether I remembered my own meal. I deserve the question." },
+            befriended = { { "You keep finding a moment for me among all your errands, and I appreciate it. Come, friend. We can share a little of the afternoon without turning it into another task. Tell me what has been happening. If either of us grows impatient, we can take a breath and consider whether it is time to eat.", tone = "[sincere] [warm] [relaxed]" } },
+            rest = { { "Here is a good place to stop. Set your things down and give yourself enough time to enjoy a meal. I shall do the same, since you have caught me forgetting my own advice before. We need not solve the whole day while we sit. I would be content to hear how you have been.", tone = "[calm] [welcoming] [fond]" } },
+            poke = { "Yes? You need not elbow your way to the front with me.", "I noticed you. Is something wrong, or have you missed lunch?" },
+            bagsFull = { "Keep the meal where it will survive the journey. The armor can take a knock." },
+            quest = { "That errand is finished. Please do not replace lunch with the next one." },
+            combatEnd = { "Take a breath. Tell me what you need before we move on." },
+            loot = { "Look it over before you bury it beneath everything else." },
+            hearth = { "Home for a while? I hope there is time for a seat and a meal." },
+            levelUp = { "Well done. That deserves a little time to celebrate." },
+        },
+    },
+
+    -- Yldan <Bag Merchant>, Tradesmen's Terrace/Darnassus,4230/2277.
+    -- Adult male Night Elf; current sparse identity/public access unverified.
+    -- Classic ordinary bags/location referenced, no capacities/current stock.
+    -- Imagining journeys with an empty bag is original BuddyDex writing.
+    -- No later Burning of Teldrassil/rescue or Illidan relationship imported.
+    -- Research: docs/research/jaeana-and-yldan-queue.md.
+    [4230] = {
+        quote = "An empty bag is a pleasant thing. For a moment, everything you might bring home still fits.",
+        likes = { "A traveler looking forward to the road", "A bag with room left in it", "Hearing what someone chose to bring home" },
+        dislikes = { "A strap carrying more than it should", "Packing away something still wet", "Treating every empty space as a problem" },
+        gossip = "Yldan can look quite pleased while examining an empty bag. His neighbors suspect he has packed an entire journey into it already.",
+        bio = "Yldan sells bags in Darnassus's Tradesmen's Terrace. He hears what travelers need to carry and what they hope to bring back. An empty bag gives him a moment to imagine the journey before all its practical details arrive.",
+        backstory = "While checking an empty bag, Yldan imagined filling it with the small discoveries of a pleasant trip. He enjoyed the thought enough to linger. Since then, he has left himself a little room to look forward to things he cannot yet name.",
+        secret = "His imagined packing is wonderfully light. It has no wet socks, spare buckles, or purchases he regrets. He knows a real journey will require more patience.",
+        bestFriend = "Come, let us see what the day brings. I would rather share a real journey with you than pack another perfect one in my head.",
+        favorite = { emote = "NOD", hint = "Show him you understand why a little space can be something to enjoy." },
+        lines = {
+            greet = { { "There you are. Have you left a little room in your bag, or is the whole journey packed already? I enjoy that moment before we know everything we shall need. There is still space for a discovery. Come, friend. We can see what the day brings before deciding how to carry it home.", tone = "[warm] [thoughtful] [conversational]" },
+                "Ready? Good. We need not know everything the day will hold before we begin." },
+            idle = { { "I was examining an empty bag and imagined what I might bring home from a pleasant journey. The packing was excellent. Nothing wet, nothing heavy, and no awkward purchase I wished I had left behind. I enjoyed the thought, though I suspect a real trip will ask a little more of me than that.", tone = "[reflective] [amused] [relaxed]" },
+                "Leave a little room. You have not met the whole day yet.",
+                "My imaginary journeys contain remarkably few spare socks. A serious oversight." },
+            befriended = { { "I have enjoyed hearing what you bring back, but I would rather share a little of the journey itself. Come, friend. We can leave the perfect packing for another day. I expect there will be awkward things to carry and decisions we reconsider. I would still be glad to have gone with you.", tone = "[sincere] [warm] [hopeful]" } },
+            bagsFull = { { "Let us look through it before you force the clasp. Some things are worth carrying home. Others looked more useful when the bag was empty. Set everything down carefully and give yourself time to decide. I enjoy imagining a journey without this particular difficulty, but the real one always seems to include it.", tone = "[practical] [patient] [wry]" } },
+            poke = { "Yes? I was considering the road ahead, not hiding in a bag.", "I am here. There is no need to test the stitching." },
+            loot = { "Something to bring home? Leave it room enough to arrive intact." },
+            gear = { "Check the straps before we discover their limits far from a shop." },
+            rest = { "Set it down for a while. You may enjoy the view without carrying everything." },
+            quest = { "One matter settled. Has the journey left you with something worth keeping?" },
+            hearth = { "Home, then. I look forward to seeing what you chose to bring back." },
+            levelUp = { "You have come a long way. I hope there is still something ahead to look forward to." },
+        },
+    },
+
     -- Anya Maulray <Stable Master>, Trade Quarter/Undercity,10053/9273.
     -- Adult female Forsaken/current HordeFriendly; exact map pin uncertain.
     -- No personal quest found; later reclaimed Ruins/pet recovery excluded.

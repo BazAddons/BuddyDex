@@ -1,10 +1,10 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 446,
+  "completed_profiles": 448,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 207,
-    "unverified": 103,
+    "alliance": 208,
+    "unverified": 104,
     "horde": 143
   },
   "npc_race_counts": {
@@ -13,7 +13,7 @@
     "7": 27,
     "2": 43,
     "5": 43,
-    "4": 21,
+    "4": 23,
     "8": 31,
     "9": 22,
     "6": 46,
@@ -43,7 +43,7 @@
     "The Barrens": 21,
     "Ashenvale": 3,
     "Stonetalon Mountains": 4,
-    "Darnassus": 3,
+    "Darnassus": 5,
     "Thousand Needles": 4,
     "Undercity": 5,
     "Tanaris": 5,
@@ -3400,6 +3400,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4164"
     },
     {
+      "npc_id": 4169,
+      "name": "Jaeana",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current API explicitly shows Alliance Friendly; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4169"
+    },
+    {
       "npc_id": 4201,
       "name": "Ziz Fizziks",
       "zone": "Stonetalon Mountains",
@@ -3437,6 +3450,17 @@
       ],
       "reaction_evidence": "Alliance icon Friendly; live eligibility required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4211"
+    },
+    {
+      "npc_id": 4230,
+      "name": "Yldan",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current API confirms identity/model but no current public reaction. Historical Alliance merchant references do not establish current access; ordinary live gates apply.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4230"
     },
     {
       "npc_id": 4312,

@@ -199,6 +199,46 @@
     "text": "Ask when you are unsure, and seek further instruction when you need it. There is no loss of dignity in discovering that someone else can show you what you missed. A useful lesson should leave you better able to continue learning for yourself.",
     "voice_id": "I9kX73xcHhkTOd7JNhet"
   },
+  "lore4230_bagsFull_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "bagsFull",
+    "say": null,
+    "source": "lore:4230",
+    "spoken": "[practical] [patient] [wry] Let us look through it before you force the clasp. Some things are worth carrying home. Others looked more useful when the bag was empty. Set everything down carefully and give yourself time to decide. I enjoy imagining a journey without this particular difficulty, but the real one always seems to include it.",
+    "text": "Let us look through it before you force the clasp. Some things are worth carrying home. Others looked more useful when the bag was empty. Set everything down carefully and give yourself time to decide. I enjoy imagining a journey without this particular difficulty, but the real one always seems to include it.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4230_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4230",
+    "spoken": "[sincere] [warm] [hopeful] I have enjoyed hearing what you bring back, but I would rather share a little of the journey itself. Come, friend. We can leave the perfect packing for another day. I expect there will be awkward things to carry and decisions we reconsider. I would still be glad to have gone with you.",
+    "text": "I have enjoyed hearing what you bring back, but I would rather share a little of the journey itself. Come, friend. We can leave the perfect packing for another day. I expect there will be awkward things to carry and decisions we reconsider. I would still be glad to have gone with you.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4230_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4230",
+    "spoken": "[warm] [thoughtful] [conversational] There you are. Have you left a little room in your bag, or is the whole journey packed already? I enjoy that moment before we know everything we shall need. There is still space for a discovery. Come, friend. We can see what the day brings before deciding how to carry it home.",
+    "text": "There you are. Have you left a little room in your bag, or is the whole journey packed already? I enjoy that moment before we know everything we shall need. There is still space for a discovery. Come, friend. We can see what the day brings before deciding how to carry it home.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
+  "lore4230_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4230",
+    "spoken": "[reflective] [amused] [relaxed] I was examining an empty bag and imagined what I might bring home from a pleasant journey. The packing was excellent. Nothing wet, nothing heavy, and no awkward purchase I wished I had left behind. I enjoyed the thought, though I suspect a real trip will ask a little more of me than that.",
+    "text": "I was examining an empty bag and imagined what I might bring home from a pleasant journey. The packing was excellent. Nothing wet, nothing heavy, and no awkward purchase I wished I had left behind. I enjoyed the thought, though I suspect a real trip will ask a little more of me than that.",
+    "voice_id": "I9kX73xcHhkTOd7JNhet"
+  },
   "lore5500_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

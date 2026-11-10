@@ -1687,5 +1687,19 @@
     "zone": "Undercity",
     "source": "Individually reviewed current named adult model/primary Undercity identity; Anya current HordeFriendly, Richard current public reaction unverified; historical quest and later retail separated; no Scout sighting claimed",
     "research_notes": "docs/research/anya-maulray-and-richard-kerwin-queue.md"
+  },
+  {
+    "npc_id": 4169,
+    "name": "Jaeana",
+    "zone": "Darnassus",
+    "source": "Individually reviewed current named adult model/primary Darnassus identity; Jaeana current AllianceFriendly, Yldan current public reaction unverified; historical stock and later retail separated; no Scout sighting claimed",
+    "research_notes": "docs/research/jaeana-and-yldan-queue.md"
+  },
+  {
+    "npc_id": 4230,
+    "name": "Yldan",
+    "zone": "Darnassus",
+    "source": "Individually reviewed current named adult model/primary Darnassus identity; Jaeana current AllianceFriendly, Yldan current public reaction unverified; historical stock and later retail separated; no Scout sighting claimed",
+    "research_notes": "docs/research/jaeana-and-yldan-queue.md"
   }
 ]
