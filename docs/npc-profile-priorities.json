@@ -2681,6 +2681,20 @@
       "zone": "Ironforge",
       "route": "Ironforge Finespindle leatherworker",
       "reason": "Complete Human woman/Gnome man profile, fifteen personal lines queued, verified flight or mentor role and distinct original farewell/extra-hands humor; no synthesis"
+    },
+    {
+      "npc_id": 3982,
+      "name": "Monika Sengutz",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill ring-return and mourning contact",
+      "reason": "Complete female Forsaken/Night Elf profile, fifteen personal lines queued, sourced loss or trade role preserved with distinct original private detail; no synthesis"
+    },
+    {
+      "npc_id": 4084,
+      "name": "Chylina",
+      "zone": "Stonetalon Mountains",
+      "route": "Stonetalon Peak general supplier; normal neutral-unit checks required",
+      "reason": "Complete female Forsaken/Night Elf profile, fifteen personal lines queued, sourced loss or trade role preserved with distinct original private detail; no synthesis"
     }
   ]
 }

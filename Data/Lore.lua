@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Monika Sengutz, Tarren Mill, Hillsbrad. Adult Forsaken
+    -- female2050/M2 997378, Horde Friendly. Full1051current/Classic/
+    -- installed text: Vorrel husband, stolen ring, revenge and mourning.
+    -- Unfinished remembered sentence is original, not his ghost or a cure.
+    -- Research: docs/research/tarren-mill-mourning-and-stonetalon-sharing.md
+    [3982] = {
+        quote = "You may sit with me. You do not have to explain why I ought to feel better.",
+        likes = { "Respect for a promise kept", "Company that knows when to be quiet", "Vorrel remembered as a person" },
+        dislikes = { "The cruelty of Scarlet tormentors", "Pity that demands an answer", "Grief treated as unfinished work" },
+        gossip = "Monika does not welcome a stranger simply because they have arrived. Care offered without demands has a better chance of being heard.",
+        bio = "Monika Sengutz lives in Tarren Mill. Vorrel is her husband, and the return of his stolen wedding ring brings news of his death. She thanks his avenger, condemns the humans responsible, and asks to be left to mourn.",
+        backstory = "Tortured by Interrogator Vishas, Vorrel asks for revenge and the return of his ring. Vishas gave it to his wife, Nancy, near Lordamere Lake. Vorrel's final wish sends the recovered ring onward to Monika, rather than back to the monastery.",
+        secret = "Sometimes she begins a sentence meant for Vorrel before stopping. She does not always want to explain the unfinished words. A friend may simply let them be.",
+        bestFriend = "You may stay. We need not speak of him, and we need not avoid his name. I am glad you understand the difference.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She values kindness that does not insist she stop grieving in order to receive it.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "I would like company today. We need not pretend that means the sadness has gone.", tone = "[quiet] [measured]" }, "You are here. Give me a moment, and we can walk together." },
+            idle = { { "I began a sentence meant for Vorrel. You need not ask me to finish it.", tone = "[soft] [grieving]" }, "Remembering someone need not become a lesson about how I ought to live without him.", "There are things I can be grateful for without calling what happened bearable." },
+            befriended = { { "You have offered care without asking me to make my grief easier for you. I would like you to stay.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? Speak plainly. I would rather hear what you mean than an explanation of what I should feel.", "I heard you. I needed a moment before answering." },
+            comforted = { { "Thank you. That is enough. You need not find words that undo what happened.", tone = "[quiet] [grateful]" } },
+            quest = { "Remember that the person waiting at the end may receive more than the object you were sent to bring." },
+            group = { "If someone needs a quiet moment, let them have it without making them account for every part of it." },
+            zone = { "Different surroundings. We can look before deciding whether I wish to speak." },
+            rest = { "A pause would be welcome. You may sit beside me." },
+            thanked = { "You are welcome. I am glad the small kindness was of use." },
+            hearth = { "Homeward. Some journeys carry more with them than what is in the bags." },
+        },
+    },
+
+    -- Chylina <General Supplies>, Stonetalon Peak. Adult Night Elf
+    -- female4106/M2 921844, Alliance Neutral. All23current/21Classic
+    -- goods read; no own quest/training/installed gossip.
+    -- Overcomplicated equal snack portions are original; no food reward.
+    -- Research: docs/research/tarren-mill-mourning-and-stonetalon-sharing.md
+    [4084] = {
+        quote = "You choose first. It is generous, and it saves me from comparing the pieces again.",
+        likes = { "A shared snack without a debate", "Someone choosing before she compares", "Enough provisions for the way home" },
+        dislikes = { "Food wasted to make portions look perfect", "An ordinary meal made into a contest", "A traveler leaving hungry" },
+        gossip = "Chylina once tried to divide a snack into two perfectly equal portions. She finished with many smaller pieces and a much less ambitious plan.",
+        bio = "Chylina sells general supplies at Stonetalon Peak. Meat, drinks, bags, ammunition, throwing weapons, and campfire necessities are among her goods. Practical preparations matter when the journey takes a traveler through the mountains.",
+        backstory = "She tried making two portions look exactly alike. Each adjustment made another piece seem too large. Eventually there were more pieces, less certainty, and still no one eating. She put them together and invited her companion to choose.",
+        secret = "She now offers the first choice before comparing portions. It is good manners, and it neatly prevents her from beginning the whole problem again.",
+        bestFriend = "Choose whichever piece pleases you. I shall enjoy mine considerably more if we begin before I start making comparisons.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates someone enjoying the simple kindness before turning it into a question of perfect fairness.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. Everything needed for the journey, and no portions waiting for me to compare. We can go.", tone = "[warm] [lighthearted]" }, "Ready. If we pause for a snack, you may choose first. It makes the whole occasion much easier." },
+            idle = { { "More pieces, less certainty, and nobody eating. It was a remarkably thorough way to delay a snack.", tone = "[wry] [amused]" }, "An ordinary kindness need not survive a perfect measurement before we enjoy it.", "Preparing enough for the way home is a useful thought to have before setting out." },
+            befriended = { { "You enjoyed the company without asking whether the portions matched. I should like more afternoons with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If this concerns which piece looks larger, I am deliberately not deciding.", "I was considering how much simpler things became once someone began enjoying them." },
+            rest = { { "A good time to pause. Let us enjoy it before I discover some needless comparison to make.", tone = "[relaxed] [playful]" } },
+            loot = { "Keep what you can use. Having more pieces is not always the same as making a better arrangement." },
+            bagsFull = { "Make room before the useful supplies are pressed against everything you could not leave behind." },
+            quest = { "Read what is needed before making the preparations more elaborate than the task." },
+            gear = { "Will it serve you well? Begin there before deciding whether everything matches." },
+            zone = { "New surroundings. We can notice what is pleasant before deciding what we ought to compare it with." },
+            thanked = { "You are welcome. I am pleased we found time to enjoy the ordinary kindness." },
+        },
+    },
+
     -- Shellei Brondir <Gryphon Master>, Menethil Harbor, Wetlands.
     -- Adult Human female5130/M2 1000764, Alliance Friendly.
     -- Flight Master; all own tabs0, one installed flight greeting.

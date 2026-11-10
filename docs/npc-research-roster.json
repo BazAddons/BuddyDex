@@ -3010,5 +3010,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Human female/Gnome male, Alliance Friendly, all own tabs and full installed flight or leatherworker dialogue; Classic training gaps and cousin speculation preserved, no Scout sighting claimed",
     "research_notes": "docs/research/menethil-farewells-and-ironforge-extra-hands.md"
+  },
+  {
+    "npc_id": 3982,
+    "name": "Monika Sengutz",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult Forsaken/Night Elf women, Horde Friendly or Alliance Neutral, full1051personal story and complete current/Classic stock; no Scout sighting claimed",
+    "research_notes": "docs/research/tarren-mill-mourning-and-stonetalon-sharing.md"
+  },
+  {
+    "npc_id": 4084,
+    "name": "Chylina",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult Forsaken/Night Elf women, Horde Friendly or Alliance Neutral, full1051personal story and complete current/Classic stock; no Scout sighting claimed",
+    "research_notes": "docs/research/tarren-mill-mourning-and-stonetalon-sharing.md"
   }
 ]

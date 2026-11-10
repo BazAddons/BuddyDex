@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Monika Sengutz and Chylina: two complete profiles with thirty personal lines queued.
+- Preserve Monika's full ring-return tragedy and add distinct Stonetalon supplier writing without changing quest outcomes or eligibility.
+
 - Add Shellei Brondir and Fimble Finespindle: two complete Alliance profiles with thirty personal lines queued.
 - Ground their farewell and extra-hands humor in Menethil flight service and Fimble's full leatherworker dialogue.
 
