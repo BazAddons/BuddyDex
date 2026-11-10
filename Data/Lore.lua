@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jannok Breezesong <Rogue Trainer>, Dolanaar/Teldrassil. Adult
+    -- Night Elf male1704/M2 974343, Alliance Friendly. Full2241/2242/
+    -- 2259/2260 and own gossip. Hummed entrance incident is original.
+    -- Research: docs/research/jannoks-entrance-and-kaals-approval.md
+    [3599] = {
+        quote = "I was making a perfectly silent entrance. The humming was an unrelated artistic decision. You need not confuse the two merely because you heard both.",
+        likes = { "A melody given an appreciative hearing", "An entrance noticed at the right moment", "A friend enjoying the performance" },
+        dislikes = { "His humming described as poor concealment", "A dramatic explanation interrupted early", "Being reminded how plainly he can be heard" },
+        gossip = "Jannok attempted a silent entrance while humming to himself. The listener admired the tune. He has disputed whether this counts as being noticed.",
+        bio = "Jannok Breezesong trains rogues in Dolanaar. His talk of shadows shares space with a musical, lovelorn manner. He sends a rose to Syurna, who does not welcome his attention, and later directs rogues to Erion Shadewhisper.",
+        backstory = "He attempted an unobtrusive entrance while humming a little tune. A familiar listener greeted him before he finished. Jannok maintained that the music and the success of his approach were entirely separate questions.",
+        secret = "He likes being recognized by someone pleased to hear him. A friend need not admire every dramatic explanation to make the arrival feel welcome. He may still finish the tune.",
+        bestFriend = "There you are. Come along, friend. You have already noticed the entrance, so we may begin with hearing about your day.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates an audience willing to enjoy the performance instead of only discussing its concealment.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are. Come along. You may admire the entrance without deciding that the humming gave anything away. I would prefer we begin on that understanding.", tone = "[theatrical] [lightly indignant]" }, "Good company. Tell me how you have been while I decide whether the arrival deserved a more impressive final note." },
+            idle = { { "A silent approach and a little music. I see no reason they should be considered incompatible merely because you greeted me before I reached the end.", tone = "[wry] [self-important amusement]" }, "I had not finished the tune when they said hello. An appreciative audience would have allowed the final note before making its observations.", "You recognized me and seemed pleased. I can concede that this is a tolerable outcome, even if it complicates my account of the entrance." },
+            befriended = { { "You have become somebody I am pleased to find listening, even when the performance attracts more notice than intended. Come along, friend. I would enjoy your company.", tone = "[warm] [playfully sincere]" } },
+            poke = { "Yes? I can leave the final note long enough to hear what you have to say.", "Go on. A conversation may be allowed a little space between the entrances." },
+            learned = { { "Observe what actually happened before deciding the attempt was successful. Yes, I am aware that this advice may be returned to me later.", tone = "[measured] [dry humor]" } },
+            quest = { "Hear the request through before deciding how grandly to describe your part in it. The destination matters more than the speech." },
+            rest = { "A quiet pause. I can permit the silence a little time before finding something musical to contribute." },
+            zone = { "Somewhere different. Let us notice what is here before assuming we already know how best to enter." },
+            newFriend = { "Someone new. A proper introduction first. We can discover whether they appreciate the music afterward." },
+            thanked = { "You are welcome. An appreciative conclusion is always pleasant to hear." },
+            group = { "Room for everyone. If the company is speaking, I shall allow the next performance to wait its turn." },
+        },
+    },
+
+    -- Kaal Soulreaper <Warlock Trainer>, Undercity. Adult Orc male
+    -- 2675/M2 917116, Horde Friendly. Own will/retraining gossip and
+    -- four full referrals read. Misheard approval scene is original.
+    -- Research: docs/research/jannoks-entrance-and-kaals-approval.md
+    [4563] = {
+        quote = "You did well. That was approval. You may stop looking as though another test is about to begin.",
+        likes = { "A strong will guided by understanding", "Ambition matched by the work required", "His approval recognized without alarm" },
+        dislikes = { "Dangerous knowledge without understanding", "Power mistaken for mastery", "A plain compliment treated as a threat" },
+        gossip = "Kaal offered a word of approval. The listener waited for the warning. He appeared rather displeased that he had to explain the compliment.",
+        bio = "Kaal Soulreaper is an Orc warlock trainer in Undercity. He judges readiness and strength of will, directing promising warlocks to further teachers. His severe manner leaves little room for complacency, even when he acknowledges progress.",
+        backstory = "He offered a familiar visitor a plain word of approval. They waited for the test that must surely follow. Kaal found it mildly irritating that a compliment should require more explanation than a warning.",
+        secret = "He enjoys company that can hear the approval without bracing for the next demand. A strong will need not spend every quiet moment preparing to prove itself to him.",
+        bestFriend = "Come along. I asked because your company pleases me. You need not search for the concealed test in every welcome.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He appreciates a composed gesture of regard from someone who understands the value of resolve.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. I asked for your company because I wished to have it. You may accept the welcome without first discovering what difficult lesson it conceals.", tone = "[low] [commanding calm]" }, "Good to see you. Tell me what you have been doing. I can hear an account without requiring it to become a demonstration of power." },
+            idle = { { "You did well. A plain statement of approval. They waited for the warning. Apparently I must now explain a compliment more carefully than a threat.", tone = "[severe] [darkly amused]" }, "Knowing enough to be dangerous is a poor place to stop. Ambition becomes more useful when it survives the work of understanding what it reaches for.", "A strong will is valuable. So is knowing when the conversation does not require another display of it." },
+            befriended = { { "You have become company whose presence I am pleased to request without attaching another trial to the invitation. Come along, friend. That is approval; you may hear it plainly.", tone = "[restrained approval] [sincere]" } },
+            poke = { "Yes? You need not prepare a defense before telling me what you want.", "Speak. I can hear the question before judging what you understand of its answer." },
+            learned = { { "Good. Now master what you have learned before treating it as proof that the next limit no longer concerns you.", tone = "[firm] [approving]" } },
+            gear = { "A useful tool deserves understanding as well as possession. Make certain you know what you are relying on." },
+            combatEnd = { "Take stock. Strength that survives an encounter should leave you capable of recognizing what nearly escaped your control." },
+            rest = { "A pause. You may recover your attention without mistaking the need to do so for a defeat." },
+            newFriend = { "Someone new. Let them speak before deciding whether their confidence has anything substantial beneath it." },
+            thanked = { "You are welcome. Put the useful part of the lesson to work." },
+            group = { "Each person has a part to understand. Make the plan plain before ambition persuades everyone to act at once." },
+        },
+    },
+
     -- Grinkle <Fishing Promoter>, Orgrimmar. Adult Goblin male
     -- 15237/M2 119376, Horde Friendly. Own two promotional gossips;
     -- historical flier version limits noted. Silent cheer is original.

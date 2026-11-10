@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jannok Breezesong and Kaal Soulreaper: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review rogue and warlock referrals plus own gossip; preserve unrequited-romance and class-role boundaries in original character scenes.
+
 - Add Grinkle and Crane Operator Bigglefuzz: adult Goblin profiles with thirty personal lines queued.
 - Review fishing-promotion version limits and full stolen-port dialogue; document original silent-cheer and plain-request stories.
 

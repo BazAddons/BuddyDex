@@ -3759,6 +3759,20 @@
       "zone": "The Barrens",
       "route": "Ratchet docks",
       "reason": "Full959 including gift and job pressure; original plain request; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3599,
+      "name": "Jannok Breezesong",
+      "zone": "Teldrassil",
+      "route": "Dolanaar rogue trainer",
+      "reason": "Full2241/2242/2259/2260 and own gossip; original hummed entrance; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4563,
+      "name": "Kaal Soulreaper",
+      "zone": "Undercity",
+      "route": "Undercity warlock trainer",
+      "reason": "Full four referrals and will/retraining gossip; original misheard approval; fifteen personal lines queued without synthesis"
     }
   ]
 }

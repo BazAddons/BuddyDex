@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 337,
+    "alliance": 338,
     "unverified": 166,
-    "horde": 323
+    "horde": 324
   },
   "npc_race_counts": {
     "1": 167,
     "3": 68,
     "7": 58,
-    "2": 84,
+    "2": 85,
     "5": 85,
-    "4": 66,
+    "4": 67,
     "8": 60,
     "9": 57,
     "6": 85,
@@ -33,9 +33,9 @@
     "Ironforge": 59,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
-    "Undercity": 18,
+    "Undercity": 19,
     "Silverpine Forest": 8,
-    "Teldrassil": 26,
+    "Teldrassil": 27,
     "Hillsbrad Foothills": 10,
     "Arathi Highlands": 11,
     "Orgrimmar": 53,
@@ -4575,6 +4575,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3596"
     },
     {
+      "npc_id": 3599,
+      "name": "Jannok Breezesong",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3599"
+    },
+    {
       "npc_id": 3600,
       "name": "Laurna Morninglight",
       "zone": "Teldrassil",
@@ -5415,6 +5428,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4561"
+    },
+    {
+      "npc_id": 4563,
+      "name": "Kaal Soulreaper",
+      "zone": "Undercity",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4563"
     },
     {
       "npc_id": 4565,
@@ -10127,6 +10153,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 789,
-  "awaiting_signature_audio_profiles": 335
+  "authored_profiles": 791,
+  "awaiting_signature_audio_profiles": 337
 }

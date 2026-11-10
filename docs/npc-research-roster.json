@@ -4088,5 +4088,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult unverified man; Full959 including gift and job pressure; original plain request; no Scout sighting claimed",
     "research_notes": "docs/research/grinkles-silent-cheer-and-bigglefuzzs-request.md"
+  },
+  {
+    "npc_id": 3599,
+    "name": "Jannok Breezesong",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance man; Full2241/2242/2259/2260 and own gossip; original hummed entrance; no Scout sighting claimed",
+    "research_notes": "docs/research/jannoks-entrance-and-kaals-approval.md"
+  },
+  {
+    "npc_id": 4563,
+    "name": "Kaal Soulreaper",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde man; Full four referrals and will/retraining gossip; original misheard approval; no Scout sighting claimed",
+    "research_notes": "docs/research/jannoks-entrance-and-kaals-approval.md"
   }
 ]
