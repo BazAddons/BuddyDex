@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kithas <Enchanting Supplies>, Godan's Runeworks, Drag, Orgrimmar.
+    -- Adult Orc female1367/M2 949470, Horde Friendly/Vendor.12current
+    -- goods differ from12Classic; no own quest/gossip. Well-fitting
+    -- empty box is original, no new container or enchantment reward.
+    -- Research: docs/research/orgrimmar-enchanting-fit-and-friendly-tusks.md
+    [3346] = {
+        quote = "That lid fits. No enchantment. It is allowed to be satisfying anyway.",
+        likes = { "Materials chosen for the actual task", "A box lid settling neatly into place", "A small pleasure left uncomplicated" },
+        dislikes = { "A supply chosen only for its shine", "Containers forced shut over the contents", "Every useful thing needing a boast" },
+        gossip = "Kithas can be particular about the supplies a job needs. She can also be quietly pleased with an empty box whose lid fits exceptionally well.",
+        bio = "Kithas sells enchanting supplies in Godan's Runeworks in Orgrimmar's Drag. Her stock includes rods, wood, magical materials, oil formulas, and a pouch pattern. She values choosing the right thing before beginning the work.",
+        backstory = "She kept a small empty box after noticing how neatly its lid settled into place. It did not need a grander use to please her. Between practical tasks, she sometimes opens it simply to enjoy closing it again.",
+        secret = "She has left the box empty on purpose. No rare material waits inside, and no hidden enchantment improves the fit. She likes the plain little thing exactly as it is.",
+        bestFriend = "Try the lid if you wish. There. A small, satisfying thing. You may stay without needing to find a more impressive reason.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone recognizing a small practical pleasure without demanding a spectacle.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "Good to see you. Tell me what the work needs, and we can begin with a useful answer.", tone = "[steady] [welcoming]" }, "Ready. The small box can manage being empty while we are away." },
+            idle = { { "The lid settles properly. No magic, no rare contents. A very satisfactory little box.", tone = "[quietly pleased] [dryly amused]" }, "Choose for the task before you choose for the shine. You may find both in the same thing.", "A plain pleasure does not become less pleasant because nobody can sell it as a wonder." },
+            befriended = { { "You noticed what pleased me without trying to make it grander. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What are you trying to make? That will tell us more than a hurried list of supplies.", "I was considering whether the box needs a purpose. I remain unconvinced." },
+            bagsFull = { { "Make room before forcing it shut. What you are keeping deserves better than being crushed.", tone = "[practical] [firm]" } },
+            loot = { "Keep the materials where you can identify them when the work begins." },
+            learned = { "Give the new skill a clear beginning. Know what you are using, and why." },
+            gear = { "A useful improvement should answer a need. An impressive name is not the whole explanation." },
+            mail = { "A message. Let us see what they actually need before deciding we already know." },
+            rest = { "A little pause. It may be pleasant without having to become productive." },
+            thanked = { "You are welcome. I am glad we found a useful answer." },
+        },
+    },
+
+    -- Jhag <Journeyman Enchanter>, Godan's Runeworks, Drag, Orgrimmar.
+    -- Adult Orc male10589/M2 917116, Horde Friendly/Trainer. Current
+    --97901camping lesson, full96652/96604context, three installed gossip
+    -- variants;9Classic training rows. Cheerful boar drawing original.
+    -- Research: docs/research/orgrimmar-enchanting-fit-and-friendly-tusks.md
+    [11066] = {
+        quote = "I meant to draw a fierce boar. Those are tusks, not a smile. Hm. Perhaps both.",
+        likes = { "A learner surviving to learn more", "A useful question asked without shame", "A fierce drawing with a friendly face" },
+        dislikes = { "Glory used to excuse poor preparation", "Pretending to be the expert in everything", "A harmless drawing judged as a battle" },
+        gossip = "Jhag can speak boldly of battle and useful enchantments. His drawings of fearsome beasts have a rather less intimidating effect.",
+        bio = "Jhag teaches enchanting in Godan's Runeworks in Orgrimmar. He points advanced learners toward Godan and jokes that his teaching may keep them alive longer. In Forever, Brakk also sends budding enchanters to him for a camping lesson.",
+        backstory = "His camping lesson introduces an Enchanted Lute and reminds learners to take their camp into the wilderness, with a fire as its basis. He values the practical side of learning: preparation, useful instruction, and knowing when another teacher can help.",
+        secret = "He drew a boar with tusks intended to look alarming. They made it seem delighted instead. He has kept the drawing, and rather enjoys its failure to frighten anyone.",
+        bestFriend = "Look at that face. I think it is pleased we are here. We can let it be pleased, and keep each other company a little longer.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He enjoys someone accepting the unexpectedly friendly face in his fierce little drawing.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good to see you. Come ready to learn something useful, and stay ready to come back afterward.", tone = "[hearty] [welcoming]" }, "Ready. The fierce boar drawing is guarding absolutely nothing, with considerable cheerfulness." },
+            idle = { { "Those tusks were meant to look alarming. The boar appears to be enjoying itself. I find that I do not mind.", tone = "[amused] [warm]" }, "Glory is a fine subject for a story. Preparation may give you more time to tell it.", "If Godan can teach you more, ask him. Knowing where to send a learner is useful too." },
+            befriended = { { "You can take the learning seriously without making every pleasant moment a test. I would like to come with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you are trying to learn. We can find a useful beginning.", "I was examining the boar. Still far too pleased with the world to frighten it." },
+            learned = { { "Good. Know what the lesson does for you, then practice with care.", tone = "[proud] [encouraging]" } },
+            rest = { "A pause can help the next part of the journey. You need not prove yourself by refusing it." },
+            gear = { "A little preparation may be worth more than a very fine speech afterward." },
+            quest = { "Understand the task before you decide which part will make the best story." },
+            loot = { "Something useful? Keep it where you can reach it when the need comes." },
+            cheerAlong = { "Yes! A little encouragement belongs beside the practical advice." },
+            thanked = { "You are welcome. Bring a good question when you return." },
+        },
+    },
+
     -- Lauren Newcomb <Light Armor Merchant>, Trade Quarter, Undercity.
     -- Adult Forsaken female2666/M2 997378, Horde Friendly, Repair/Vendor.
     -- All39current goods match39Classic; no own quest/gossip. Grand

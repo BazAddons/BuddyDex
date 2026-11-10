@@ -2835,5 +2835,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult Forsaken female body, Horde Friendly, all own tabs and39matching current/Classic goods; no own quest/gossip or Scout sighting claimed",
     "research_notes": "docs/research/lauren-newcomb-plain-goods-and-grand-words.md"
+  },
+  {
+    "npc_id": 3346,
+    "name": "Kithas",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Orc female/male bodies, actual Friendly access, full own stock/training/gossip and Jhag camping branch; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-enchanting-fit-and-friendly-tusks.md"
+  },
+  {
+    "npc_id": 11066,
+    "name": "Jhag",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Orc female/male bodies, actual Friendly access, full own stock/training/gossip and Jhag camping branch; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-enchanting-fit-and-friendly-tusks.md"
   }
 ]

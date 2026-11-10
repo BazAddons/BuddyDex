@@ -2506,6 +2506,20 @@
       "zone": "Undercity",
       "route": "Undercity Trade Quarter light armor",
       "reason": "Complete Forsaken female profile, fifteen queued lines, researched current trade and documented original humor; no synthesis"
+    },
+    {
+      "npc_id": 3346,
+      "name": "Kithas",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Drag enchanting supplies",
+      "reason": "Complete adult Orc female/male profile with fifteen queued lines; current stock and real profession lesson separated from original private humor; no synthesis"
+    },
+    {
+      "npc_id": 11066,
+      "name": "Jhag",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Drag early Durotar enchanting/camping referral",
+      "reason": "Complete adult Orc female/male profile with fifteen queued lines; current stock and real profession lesson separated from original private humor; no synthesis"
     }
   ]
 }

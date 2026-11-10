@@ -5,13 +5,13 @@
   "faction_counts": {
     "alliance": 258,
     "unverified": 146,
-    "horde": 222
+    "horde": 224
   },
   "npc_race_counts": {
     "1": 165,
     "3": 46,
     "7": 40,
-    "2": 70,
+    "2": 72,
     "5": 65,
     "4": 45,
     "8": 47,
@@ -36,7 +36,7 @@
     "Teldrassil": 19,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
-    "Orgrimmar": 40,
+    "Orgrimmar": 42,
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 18,
@@ -3484,6 +3484,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3344"
     },
     {
+      "npc_id": 3346,
+      "name": "Kithas",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3346"
+    },
+    {
       "npc_id": 3347,
       "name": "Yelmak",
       "zone": "Orgrimmar",
@@ -6592,6 +6605,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11029"
     },
     {
+      "npc_id": 11066,
+      "name": "Jhag",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11066"
+    },
+    {
       "npc_id": 11069,
       "name": "Jenova Stoneshield",
       "zone": "Stormwind City",
@@ -7814,6 +7840,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 610,
-  "awaiting_signature_audio_profiles": 156
+  "authored_profiles": 612,
+  "awaiting_signature_audio_profiles": 158
 }

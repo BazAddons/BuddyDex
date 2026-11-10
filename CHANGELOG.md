@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kithas and Jhag: complete female and male Orc profiles with thirty personal lines queued.
+- Expand Orgrimmar companions with current enchanting supplies and the researched Enchanted Lute camping lesson.
+
 - Add Lauren Newcomb: a complete female Forsaken profile with fifteen personal lines queued.
 - Expand Undercity companions with verified light-armor trade and a private gray-shirt writing joke.
 
