@@ -552,3 +552,8 @@ Added3081adultfemaleTauren BloodhoofVillage/3008adultmaleTauren ThunderBluff, fi
 ### 2026-11-09: Shadi Mistrunner and Vel'rin Fang (426)
 
 Completed female Tauren trade supplier8363 and male Troll Sen'jin quest giver3194: ten fields/fifteen lines/four approved v4 signatures each. Both Horde Friendly, full normal live gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Vel'rin research includes full Practical Prey817 and Forever Legging It96821; Gar'Thok speaks latter completion. Shadi imaginary courtyard/Vel'rin tiger performance are marked original. Research: docs/research/shadi-and-velrin-queue.md. Installed6,238files/developmentZIP130.13MiB,6,210runtime mappings. Coverage207Alliance/126Horde/100unverified, seven overlaps; wider catalog remains active. CF deferred, original public ZIP preserved.
+
+
+### 2026-11-09: Lar Prowltusk and Nyse (428)
+
+Completed Troll scout3140 and female Tauren Freewind flight master4317, fifteen lines/four approved v4 signatures each. Sources/era/original writing and full validation: docs/research/lar-and-nyse-queue.md. Lar normal100/300, Nyse Elite150/450 thresholds tested with normal25/150interaction gains; first recorded welcome exactlyonce. Layout/audio/main+Scout smoke pass; installed6,246files/devZIP130.72MiB,6,218runtime mappings. Public207Alliance/128Horde/100unverified seven overlaps. Wider catalog active, CF deferred/public original preserved.

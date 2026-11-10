@@ -1218,6 +1218,20 @@
       "zone": "Durotar",
       "route": "Horde Tauren trade supplies and Troll Sen'jin quest coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/shadi-and-velrin-queue.md"
+    },
+    {
+      "npc_id": 3140,
+      "name": "Lar Prowltusk",
+      "zone": "Durotar",
+      "route": "Horde Troll scout and female Tauren Freewind flight coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal Lar and Elite Nyse boundaries verified; docs/research/lar-and-nyse-queue.md"
+    },
+    {
+      "npc_id": 4317,
+      "name": "Nyse",
+      "zone": "Thousand Needles",
+      "route": "Horde Troll scout and female Tauren Freewind flight coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal Lar and Elite Nyse boundaries verified; docs/research/lar-and-nyse-queue.md"
     }
   ]
 }

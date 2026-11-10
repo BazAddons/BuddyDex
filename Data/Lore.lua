@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lar Prowltusk, outside Sen'jin Village/Durotar,3140/4070.
+    -- Adult male Troll, Horde Friendly/Normal. Quest786: infiltrated Kolkar
+    -- camp, three attack plans, prevents bloodshed. Meal signals original.
+    -- Research: docs/research/lar-and-nyse-queue.md.
+    [3140] = {
+        quote = "Keep your voice low. A warning heard in time can spare a battle. That other signal? I was asking you to pass the bread.",
+        likes = { "A warning delivered before trouble comes", "Lives spared by a well-considered plan", "Someone who understands the bread signal" },
+        dislikes = { "A careless shout near a hidden threat", "Bloodshed that could have been prevented", "An urgent gesture mistaken for a greeting" },
+        gossip = "Lar has a quiet gesture for every danger. His friends suspect a few of them simply mean he would like something passed at supper.",
+        bio = "Lar watches Sen'jin's western flank. After infiltrating the Kolkar camp during a raid, he uncovered plans against the Valley of Trials, Sen'jin Village, and Orgrimmar. Destroying those plans can spare the Horde an unnecessary battle.",
+        backstory = "Lar learned what the Kolkar intended by going where a careless sound could betray him. Away from danger, that habit has become a quieter joke: a grave expression and an elaborate gesture across a meal, followed by a perfectly ordinary request for bread.",
+        secret = "He has made the bread signal more elaborate each time a friend understands it. He enjoys the moment they stop studying his hands and simply pass the loaf.",
+        bestFriend = "You may sit close, friend. I trust you to hear the warning, and to know when I am only asking for bread.",
+        favorite = { emote = "NOD", hint = "A quiet sign that you understand will suit someone who begins a warning by asking for a lowered voice." },
+        lines = {
+            greet = { { "Keep your voice low, friend. The Kolkar lie beyond the ridge, and a warning is most useful before trouble reaches our people. I learned what they intended by slipping into their camp. We can spare lives by acting on it in time. When the work is done, sit beside me. The next solemn gesture may only mean I would like the bread.", tone = "[quietly] [serious] [gently amused]" },
+                "Good to see you. Come close enough that I need not raise my voice." },
+            idle = { { "I gave a friend a very solemn look across a meal and made a gesture for the bread. They studied my hand as though I were warning of an approaching army. Now the signal grows a little more elaborate whenever they understand it. I enjoy the moment the loaf arrives without either of us saying a word.", tone = "[quietly] [amused] [conversational]" },
+                "A plan is useful because of what it prevents, as well as what it accomplishes.",
+                "You understood that one. I may need to improve the bread signal." },
+            befriended = { { "You have become someone I trust beside me, friend. You listen when a warning matters, and you understand why an unnecessary battle is worth preventing. Stay close. There will be difficult days, but there should be room for a quiet meal between them. I would enjoy sharing one with someone who already understands my most elaborate request.", tone = "[warm] [sincere] [quietly amused]" } },
+            poke = { "Yes? That was a warning. The bread signal uses the other hand.", "I hear you. Tell me what you have seen." },
+            questAccepted = { { "The Kolkar have plans against the Valley of Trials, Sen'jin Village, and Orgrimmar. I found them divided among three of their leaders when I slipped into the camp. Destroy those plans before the attack can begin. Our warriors can fight, but sparing them a battle and unnecessary bloodshed is a better use of what we have learned.", tone = "[serious] [instructive] [quietly]" } },
+            quest = { "Good. A danger prevented may leave little to boast of, but it leaves our people alive." },
+            combatStart = { "Stay aware. Make the next move count." },
+            combatEnd = { "See who needs help before we move on." },
+            rest = { "A place to sit, and perhaps a meal. You remember the signal?" },
+            laughAlong = { "You saw that coming. Next time I shall make the request even more solemn." },
+            hearth = { "Back toward Sen'jin. There are people worth watching the road for." },
+        },
+    },
+
+    -- Nyse <Wind Rider Master>, Freewind Post/Thousand Needles,4317/2412.
+    -- Adult female Tauren, Horde Friendly/Elite. Current service/pin and
+    -- installed destination gossip; passenger's tight boots anecdote original.
+    -- Research: docs/research/lar-and-nyse-queue.md.
+    [4317] = {
+        quote = "Where would you like to fly? And when you return, tell me what you noticed first. I have learned that the answer is not always the view.",
+        likes = { "A returning rider sharing an impression", "A journey begun without a hurried worry", "An answer she would never have guessed" },
+        dislikes = { "A nervous traveler laughed at", "A question rushed past before departure", "Letting discomfort spoil a fine view" },
+        gossip = "Nyse asks returning riders what they noticed first. One answered that their boots were too tight. She still enjoys the surprise.",
+        bio = "Nyse tends the wind rider flights at Freewind Post in Thousand Needles. She helps travelers choose a destination and enjoys hearing their impressions afterward, especially when the answer is something she would never have thought to ask about.",
+        backstory = "Nyse once expected a returning rider to describe the view. Instead, they complained about tight boots. She laughed with them, then began leaving more room for an unexpected answer. A flight can look rather different from the passenger's place.",
+        secret = "She sometimes guesses a rider's first impression before asking. The boots taught her to enjoy being wrong. She would rather hear your answer than finish her own.",
+        bestFriend = "Come, friend. I enjoy hearing how the world looks from your place, even when the first thing you notice is your boots.",
+        favorite = { emote = "WAVE", hint = "A familiar farewell and a cheerful return both suit someone who sends travelers into the sky." },
+        lines = {
+            greet = { { "Welcome to Freewind Post, friend. Where would you like to fly? Take a moment if there is something you wish to ask before leaving. And when you return, tell me what you noticed first. I once expected a splendid account of the view and heard about a pair of tight boots instead. I have learned to leave room for the unexpected answer.", tone = "[warm] [welcoming] [gently amused]" },
+                "There you are. Have you chosen a destination, or brought back an impression to share?" },
+            idle = { { "I asked a returning rider what they noticed first. I was expecting the view, of course. They told me their boots were too tight. We laughed, and afterward I found myself wondering what other answers I had been overlooking. I still enjoy guessing, but it is rather better when someone tells me something I would never have thought to ask.", tone = "[amused] [conversational] [warm]" },
+                "The same journey can give two travelers quite different stories. I enjoy hearing both.",
+                "I have a guess, but I would rather hear your answer before I settle on it." },
+            befriended = { { "I am glad to have you beside me, friend. You have become someone whose impressions I want to hear even when there is no flight to arrange. Tell me what you notice as we travel. There is room for the splendid view, the small discomfort, and the thing neither of us expected. I enjoy the world a little more for hearing your part of it.", tone = "[warm] [sincere] [friendly]" } },
+            poke = { "Yes? I am ready for the unexpected answer.", "I am listening. Begin with the part you noticed." },
+            taxi = { { "Settle yourself before we leave, friend, and ask if there is something worrying you. A question is easier to answer while we are still here. Enjoy the journey. When you return, I would like to hear what caught your attention first. It may be the view. It may be something much smaller that makes the whole story yours.", tone = "[reassuring] [instructive] [warm]" } },
+            landed = { "Welcome back. What caught your attention first? You may surprise me." },
+            mount = { "Take a moment to settle before setting off. A hurried discomfort can follow you a long way." },
+            rest = { "Sit with me. We have time for the part of the journey you have not told anyone yet." },
+            zone = { "What did you notice first? I would enjoy seeing this place through your answer." },
+            laughAlong = { "Yes, the boots. A fine reminder that I cannot guess another person's whole journey." },
+            hearth = { "Back to Freewind Post. I will be glad to hear what you noticed along the way." },
+        },
+    },
+
     -- Shadi Mistrunner <Trade Goods Supplier>, Thunder Bluff,8363/7628.
     -- Adult female Tauren, Horde Friendly; full current36-stock read.
     -- Imagined purple gate/project guessing is original, no family inferred.

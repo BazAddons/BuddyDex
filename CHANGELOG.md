@@ -1,4 +1,5 @@
 # Unreleased
+- Add Lar Prowltusk and Nyse: full Troll scout and female Tauren flight-master profiles, fifteen personal lines and four approved v4 signatures each; retain Nyse's Elite friendship thresholds.
 - Add Shadi Mistrunner and Vel'rin Fang: full female Tauren trade-supplier and male Troll quest-giver profiles, fifteen personal lines and four approved v4 signatures each, including Vel'rin's Forever road-safety quest.
 - Add Wunna Darkmane and Mak: full female/male Tauren trade-goods and leatherworking profiles, fifteen personal lines and four approved v4 signatures each, supporting Mulgore and Thunder Bluff coverage.
 - Add Gikkix and Mebok Mizzyrix: full Goblin fisherman and quest-giver profiles, fifteen personal lines and four approved v4 signatures each; preserve normal live eligibility checks for neutral NPCs.
