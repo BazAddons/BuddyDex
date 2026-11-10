@@ -3332,6 +3332,20 @@
       "zone": "Tanaris",
       "route": "Steamwheedle Port security duties",
       "reason": "Complete adult profile with fifteen personal lines queued; verified Goblin identity and researched commercial security duties, original small-card story; no synthesis"
+    },
+    {
+      "npc_id": 3517,
+      "name": "Rellian Greenspyre",
+      "zone": "Darnassus",
+      "route": "Cenarion Enclave early timberling study",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified druid identity and research limits, original ordinary-leaf reminder; no synthesis"
+    },
+    {
+      "npc_id": 7313,
+      "name": "Priestess A'moora",
+      "zone": "Darnassus",
+      "route": "Temple of the Moon early Sathrah route",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified priestess and full Sathrah chain, original quiet company after prayer; no synthesis"
     }
   ]
 }

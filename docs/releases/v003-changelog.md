@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Rellian Greenspyre and Priestess A'moora: two adult Night Elf profiles with thirty personal lines queued.
+- Research the complete timberling and Sathrah routes, preserving their difficult choices and documenting the original leaf and fountain stories.
+
 - Add Stitch Pinwizzle and Security Chief Bilgewhizzle: two adult Goblin profiles with thirty personal lines queued.
 - Expand Powderfuse and Steamwheedle port contacts with researched supply/security roles and distinct original thread-bridge and cramped-card stories.
 
@@ -393,4 +396,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **728 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **730 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

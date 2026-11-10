@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rellian Greenspyre and Priestess A'moora: two adult Night Elf profiles with thirty personal lines queued.
+- Research the complete timberling and Sathrah routes, preserving their difficult choices and documenting the original leaf and fountain stories.
+
 - Add Stitch Pinwizzle and Security Chief Bilgewhizzle: two adult Goblin profiles with thirty personal lines queued.
 - Expand Powderfuse and Steamwheedle port contacts with researched supply/security roles and distinct original thread-bridge and cramped-card stories.
 

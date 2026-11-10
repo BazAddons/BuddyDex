@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 307,
+    "alliance": 309,
     "unverified": 159,
     "horde": 288
   },
@@ -13,7 +13,7 @@
     "7": 53,
     "2": 79,
     "5": 79,
-    "4": 57,
+    "4": 59,
     "8": 57,
     "9": 48,
     "6": 82,
@@ -46,7 +46,7 @@
     "Durotar": 51,
     "The Barrens": 36,
     "Stonetalon Mountains": 11,
-    "Darnassus": 9,
+    "Darnassus": 11,
     "Burning Steppes": 1,
     "Ashenvale": 12,
     "Thousand Needles": 9,
@@ -4292,6 +4292,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3490"
     },
     {
+      "npc_id": 3517,
+      "name": "Rellian Greenspyre",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3517"
+    },
+    {
       "npc_id": 3518,
       "name": "Thomas Miller",
       "zone": "Stormwind City",
@@ -6639,6 +6652,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7312"
+    },
+    {
+      "npc_id": 7313,
+      "name": "Priestess A'moora",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7313"
     },
     {
       "npc_id": 7564,
@@ -9336,6 +9362,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 728,
-  "awaiting_signature_audio_profiles": 274
+  "authored_profiles": 730,
+  "awaiting_signature_audio_profiles": 276
 }

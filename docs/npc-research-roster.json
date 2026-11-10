@@ -3661,5 +3661,19 @@
     "zone": "Tanaris",
     "source": "Reviewed adult Horde Neutral Goblin man; full three-duty quest set and installed profit/security dialogue; cramped business-card story original; live eligibility required; no Scout sighting claimed",
     "research_notes": "docs/research/powderfuse-thread-bridge-and-chiefs-card.md"
+  },
+  {
+    "npc_id": 3517,
+    "name": "Rellian Greenspyre",
+    "zone": "Darnassus",
+    "source": "Reviewed adult Alliance Night Elf man; full Denalan/seed/tumor/Oakenscowl context, limits and lethal measures retained; ordinary leaf original; no Scout sighting claimed",
+    "research_notes": "docs/research/rellians-leaf-and-amooras-fountain.md"
+  },
+  {
+    "npc_id": 7313,
+    "name": "Priestess A'moora",
+    "zone": "Darnassus",
+    "source": "Reviewed adult Alliance Night Elf woman; complete Aquinne/Sathrah three-stage chain with regret and hope, no assumed rebirth; fountain pause original; no Scout sighting claimed",
+    "research_notes": "docs/research/rellians-leaf-and-amooras-fountain.md"
   }
 ]

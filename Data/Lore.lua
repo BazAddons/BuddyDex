@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rellian Greenspyre, Cenarion Enclave/Darnassus. Adult Night
+    -- Elf male5071/M2 974343, Alliance Friendly. Full seed/tumor/
+    -- Denalan/Oakenscowl branch read; his limits and lethal duty kept.
+    -- Ordinary pressed leaf is original, not a cure or enchanted item.
+    -- Research: docs/research/rellians-leaf-and-amooras-fountain.md
+    [3517] = {
+        quote = "Tell me what you observed before deciding what it must mean. The living thing deserves that much attention.",
+        likes = { "Careful observations shared openly", "Denalan's skill with growing things", "An ordinary leaf worth a second look" },
+        dislikes = { "A cure promised without understanding", "Corruption dismissed without examination", "A living thing reduced to its affliction" },
+        gossip = "Rellian keeps an ordinary pressed leaf among his notes. He sometimes looks at it before returning to the more troubling specimens.",
+        bio = "Rellian Greenspyre is a druid in Darnassus's Cenarion Enclave. He shares Denalan's interest in timberlings, studies their corruption and admits the limits of his own skill. He asks for action against those beyond help while hoping for healthier generations.",
+        backstory = "After filling a page with observations of damage, he set an ordinary fallen leaf beside the notes. He kept it there. Understanding what was wrong mattered, but he wanted to remember the living forest the work was meant to serve.",
+        secret = "The leaf is not rare, enchanted or an extraordinary discovery. He likes having something ordinary worth noticing beside the difficult questions.",
+        bestFriend = "Come look with me, friend. Show me something ordinary you nearly passed by. I enjoy remembering how much there is to notice with you beside me.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a thoughtful acknowledgment from someone who has listened to the observation before deciding on its meaning.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Good to see you, friend. Shall we? Tell me what you have noticed, including the ordinary thing you nearly passed by.", tone = "[thoughtful] [welcoming]" }, "Come along. Your observations would be welcome company for the walk." },
+            idle = { { "An ordinary leaf, beside a page of damaged specimens. I kept it. The work concerns the living forest, not only the things going wrong within it.", tone = "[reflective] [gentle]" }, "Denalan has a gift for growing things. Knowing where my own skill ends is part of knowing whom to ask.", "Observe first. A confident explanation is easier to find than a careful one." },
+            befriended = { { "You have become someone I am glad to look and think beside. Come along, friend. There is more to notice than the difficult questions alone.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Tell me what you saw.", "I am listening. There is room for an uncertain observation." },
+            learned = { { "Good. Let understanding follow the lesson. There may still be something to ask, and someone whose experience will help.", tone = "[measured] [encouraging]" } },
+            quest = { "Keep the purpose of the work in view. The specimen is part of a living place." },
+            rest = { "A pause. Look at something ordinary before returning to the troubling question." },
+            loot = { "Examine it carefully. A familiar appearance does not finish the observation." },
+            group = { "Ask what each person noticed. Someone may have seen the detail we passed over." },
+            newFriend = { "Someone new to know. Leave room for what they have learned along their own road." },
+            thanked = { "You are welcome, friend. Share what you learn when there is more to understand." },
+        },
+    },
+
+    -- Priestess A'moora, Temple of the Moon. Adult Night Elf
+    -- female6348/M2 921844, Alliance Friendly. Full2519/2518/2520
+    -- Sathrah chain read; loss and hope preserved, no assumed rebirth.
+    -- Quiet company after prayer is original, not a quest event.
+    -- Research: docs/research/rellians-leaf-and-amooras-fountain.md
+    [7313] = {
+        quote = "We may finish a prayer without hurrying away from what brought us to it.",
+        likes = { "A prayer offered with patient attention", "Quiet company beside the fountain", "Remembrance allowed its own time" },
+        dislikes = { "Grief made into a test of devotion", "A hard duty celebrated without thought", "A visitor hurried through remembrance" },
+        gossip = "A'moora sometimes remains by the fountain after a prayer ends. She does not require the next moment to be filled with another answer.",
+        bio = "Priestess A'moora serves in Darnassus's Temple of the Moon. She mourns the corrupted Lady Sathrah and guides the sacrifice of her spinnerets at the fountain, hoping Elune will grant the great spider renewal and peace.",
+        backstory = "A visitor once asked what came after the prayer. A'moora stayed beside the fountain with them for a quiet moment. There was no further task to explain. She was content to offer company without finding another lesson to fill the pause.",
+        secret = "The quiet helps her too. She does not always have words that would improve upon someone choosing to remain beside her.",
+        bestFriend = "Stay a little, friend. You need not bring an answer or another prayer. I am pleased that you wanted to share this moment with me.",
+        favorite = {
+            emote = "PRAY",
+            hint = "A moment of sincere devotion offered without haste is welcome beside the temple's work of remembrance.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome, friend. Shall we walk? We have time to begin without hurrying through the greeting.", tone = "[gentle] [welcoming]" }, "Good to see you. A little quiet company would be welcome today." },
+            idle = { { "The visitor asked what came after the prayer. I stayed beside the fountain with them. For that moment, company was enough to offer.", tone = "[reflective] [soft]" }, "A difficult duty does not make mourning an error. We can remember what was loved.", "The prayer may end before we are ready to leave. There is room for that pause." },
+            befriended = { { "Your company has become something I am pleased to welcome for its own sake. Come along, friend. We need not fill every moment to share it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? I am listening.", "You have my attention. Begin where you wish." },
+            comforted = { { "Thank you, friend. We can let the quiet belong to us both for a little while.", tone = "[quietly grateful] [sincere]" } },
+            thanked = { "You are welcome. I am glad you chose to share the moment with me." },
+            quest = { "A necessary task may still be hard. Give what it concerns a moment of thought." },
+            rest = { "A comfortable place to pause. There is no need to make a lesson of the quiet." },
+            newFriend = { "Someone new to welcome. Let the greeting leave room for them to answer." },
+            group = { "Give everyone a little room. Not every companion will have the same words to offer." },
+            combatEnd = { "Take a moment to see who needs your attention before the next duty begins." },
+        },
+    },
+
     -- Stitch Pinwizzle <Tailoring Supplies>, Powderfuse Port. Adult
     -- Goblin male145182/M2 119376, Horde Friendly. Current own
     -- tables0;19secondary goods/item nodes and installed greeting read.
