@@ -3906,5 +3906,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Troll man; current Horde Neutral, positive faction access unverified; Full fire water air referrals and downstream rites; original call to supper, no access override; no Scout sighting claimed",
     "research_notes": "docs/research/afadras-dependable-colleague-and-searns-supper.md"
+  },
+  {
+    "npc_id": 2111,
+    "name": "Sida",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance Dwarf woman; Full470 and unknown-content limits; original honest untidy account; no Scout sighting claimed",
+    "research_notes": "docs/research/sidas-untidy-version-and-grapheds-note.md"
+  },
+  {
+    "npc_id": 263384,
+    "name": "Mister Graphed",
+    "zone": "Riverglades",
+    "source": "Reviewed adult horde Goblin man; Fifteen current goods and exact adult identity; original courteous rosecap note; no Scout sighting claimed",
+    "research_notes": "docs/research/sidas-untidy-version-and-grapheds-note.md"
   }
 ]

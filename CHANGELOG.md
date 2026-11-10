@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sida and Mister Graphed: adult Alliance Dwarf and Horde Goblin profiles in Menethil and Powderfuse, with thirty personal lines queued.
+- Review complete bag-recovery text and all current materials; document original honest-retelling and courteous-note stories.
+
 - Add Afadra Dunwall and Searn Firewarder: adult Dwarf Lorekeeper and Troll elemental-referral profiles, with thirty personal lines queued.
 - Review complete keeper and elemental quest text; preserve ordinary eligibility and document original broom ceremony and supper calling.
 

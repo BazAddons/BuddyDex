@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sida, Menethil Harbor/Wetlands. Adult Dwarf female1407/M2
+    -- 950080, Alliance Friendly. Full470: panic, bag thrown, important
+    -- unidentified contents retrieved; no invented tomb relationship.
+    -- Rehearsing an account without the panic is original writing.
+    -- Research: docs/research/sidas-untidy-version-and-grapheds-note.md
+    [2111] = {
+        quote = "I can tell you exactly how it happened. It is not the version that makes me sound clever, but at least it is the true one.",
+        likes = { "Help offered without a lecture", "A friend who can hear the untidy version", "An ordinary possession safely kept" },
+        dislikes = { "Her panic retold as a clever plan", "Someone guessing what was in her bag", "Being mocked when she asks for help" },
+        gossip = "Sida tried telling her bag story without the panic. She said it sounded so unlikely that she had to put the panic back in.",
+        bio = "Sida lives in Menethil Harbor. During a weekly visit to Ironbeard's Tomb, an ooze attack sent her fleeing after she threw her bag at one. She asks for the contents back; recovering them matters more to her than keeping the bag.",
+        backstory = "Throwing the bag bought her time to escape, although she could not identify which ooze swallowed it. When it is recovered, she hastily gathers the contents and offers the emptied, messy bag to the helper. Relief comes before dignity.",
+        secret = "She tried rehearsing a calmer account of the encounter. It sounded ridiculous. She would rather a friend hear that she panicked than admire a clever plan she never actually made.",
+        bestFriend = "Stay a little. I can tell you the untidy version without trying to sound brave. It is good to have someone who will hear it kindly.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates kindness that lets her admit she was frightened without making her feel foolish.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Come along. I have no dramatic plan for the walk, and I am quite content to keep it that way.", tone = "[friendly] [lightly wry]" }, "Good to see you. I am glad to have company I can speak plainly with." },
+            idle = { { "I tried describing it without the panic. It sounded far less believable. So I put the panic back in. At least that part I can account for properly.", tone = "[self-deprecating] [amused]" }, "I did throw the bag. I cannot claim I had thought very far beyond throwing the bag at the time.", "An ordinary possession can matter a great deal. You need not know everything inside it to understand that." },
+            befriended = { { "You make it easier to tell a story without pretending I behaved perfectly in it. Come along, friend. I am glad of that sort of company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You may ask. I would rather answer than hear what someone has guessed.", "Go on. I am listening, even if the story begins with something you would rather have done differently." },
+            comforted = { { "Thank you. I was frightened, and it is good to be able to say so without being made to feel smaller for it.", tone = "[soft] [grateful]" } },
+            loot = { "Mind where you put it. There are less alarming ways to lose track of your belongings than the one I managed." },
+            bagsFull = { "Take your time sorting that out. I have developed an appreciation for knowing what is in the bag and where the bag is." },
+            rest = { "A sensible pause. I would like to enjoy a moment that does not need to become an exciting account afterward." },
+            newFriend = { "Someone new. Let them choose what they would like to tell us. We need not begin with their most embarrassing moment." },
+            thanked = { "You are welcome. Asking for help is easier when someone answers kindly." },
+            quest = { "Listen to what they need back. The thing that matters most may not be the part you would have guessed." },
+        },
+    },
+
+    -- Mister Graphed <Agent of the Black Market>, Powderfuse Port/
+    -- Riverglades. Adult Goblin male143688/M2 119376, Horde Friendly.
+    -- Fifteen current goods, no own quests/gossip; vendor not auctioneer.
+    -- Courteous folded rosecap note is original, no invented crime ties.
+    -- Research: docs/research/sidas-untidy-version-and-grapheds-note.md
+    [263384] = {
+        quote = "Ask plainly. A rosecap is a request I can understand. A dramatic silence leaves me guessing which shelf you mean.",
+        likes = { "A clear request after an elaborate entrance", "A courteous note with an ordinary point", "A customer who can laugh at the mystery" },
+        dislikes = { "Whispering that obscures the order", "A question answered with another riddle", "A plain question buried in a performance" },
+        gossip = "A customer addressed him as a mysterious gentleman in a folded note asking for a rosecap. Mister Graphed appeared delighted by the courtesy.",
+        bio = "Mister Graphed is a goblin Agent of the Black Market in Powderfuse Port, Riverglades. His wares include herbs, minerals, crystals and pristine materials, with a straightforward answer ready beneath the imposing title.",
+        backstory = "A buyer once slid him an elaborately folded note. Beneath a greeting to a mysterious gentleman was a very ordinary request for a rosecap. He appreciated being addressed politely, even if the request could have been spoken aloud.",
+        secret = "He has kept that greeting in mind. The elaborate mystery was unnecessary, but the courtesy pleased him. A plain request from someone he likes can be just as welcome without the folded paper.",
+        bestFriend = "Come along, mysterious friend. You may tell me what you actually want to talk about. I promise to appreciate a perfectly ordinary answer.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a clear acknowledgment that does not require another layer of mystery.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along, mysterious friend. We can dispense with the folded note unless you particularly enjoyed making it.", tone = "[dry] [amiable]" }, "Good to see you. An ordinary greeting will do splendidly. I have developed an appreciation for knowing what people mean." },
+            idle = { { "Dear mysterious gentleman. A courteous opening. Then a request for a rosecap. I appreciated the greeting, though the folding had suggested a considerably longer conversation.", tone = "[amused] [precise]" }, "A title can make people lower their voices so far that I cannot tell which material they wanted. Mystery has its practical limits.", "Arcane Crystal is a clear request. A meaningful glance toward an entire collection of goods requires considerably more interpretation." },
+            befriended = { { "Your company is welcome without an order attached. Come along. We may enjoy a conversation whose point is simply that we wanted to have it.", tone = "[warm] [understated]" } },
+            poke = { "Yes? You can put the request in ordinary words. I am quite prepared for them.", "Go on. We have completed the significant glance. I should like the rest of the sentence." },
+            mail = { { "A folded message. Let us read the request before deciding that the shape of the paper is the important part.", tone = "[wry] [interested]" } },
+            loot = { "Identify what you found before deciding its name ought to impress you. A crystal still deserves a proper look." },
+            bagsFull = { "Make a little order in there. Pristine materials deserve better than being mistaken for whatever happened to land on top." },
+            newFriend = { "Someone new. A clear introduction is a courtesy. They need not solve a riddle to learn whom they have met." },
+            thanked = { "You are welcome. I am pleased the ordinary answer proved useful." },
+            quest = { "Establish the actual request before admiring how dramatically it has been delivered." },
+            rest = { "A pause. We can have an ordinary conversation here. I shall try not to make the lack of mystery seem suspicious." },
+        },
+    },
+
     -- Afadra Dunwall <Lorekeeper of Ironforge>, Hall of Thanes entrance.
     -- Adult Dwarf female144322/M2 950080, Alliance Friendly. Full96394
     -- incl primary progress/completion; practical keeper response.

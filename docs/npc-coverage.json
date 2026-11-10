@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 328,
+    "alliance": 329,
     "unverified": 161,
-    "horde": 308
+    "horde": 309
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 65,
+    "3": 66,
     "7": 57,
     "2": 82,
     "5": 81,
     "4": 63,
     "8": 60,
-    "9": 51,
+    "9": 52,
     "6": 83,
     "96": 23,
     "95": 31
@@ -29,7 +29,7 @@
     "Loch Modan": 1,
     "Duskwood": 4,
     "Dun Morogh": 21,
-    "Wetlands": 4,
+    "Wetlands": 5,
     "Ironforge": 58,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
@@ -59,7 +59,7 @@
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
     "Zephras Isle": 53,
-    "Riverglades": 10
+    "Riverglades": 11
   },
   "entries": [
     {
@@ -2092,6 +2092,19 @@
       ],
       "reaction_evidence": "Alliance icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2083"
+    },
+    {
+      "npc_id": 2111,
+      "name": "Sida",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2111"
     },
     {
       "npc_id": 2113,
@@ -9511,6 +9524,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263326"
     },
     {
+      "npc_id": 263384,
+      "name": "Mister Graphed",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263384"
+    },
+    {
       "npc_id": 263570,
       "name": "Creeg Bothunk",
       "zone": "The Barrens",
@@ -9795,6 +9821,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 763,
-  "awaiting_signature_audio_profiles": 309
+  "authored_profiles": 765,
+  "awaiting_signature_audio_profiles": 311
 }

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Sida and Mister Graphed: adult Alliance Dwarf and Horde Goblin profiles in Menethil and Powderfuse, with thirty personal lines queued.
+- Review complete bag-recovery text and all current materials; document original honest-retelling and courteous-note stories.
+
 - Add Afadra Dunwall and Searn Firewarder: adult Dwarf Lorekeeper and Troll elemental-referral profiles, with thirty personal lines queued.
 - Review complete keeper and elemental quest text; preserve ordinary eligibility and document original broom ceremony and supper calling.
 
@@ -447,4 +450,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **763 fully written NPC profiles**: 454 have initial signature recordings, and three hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **765 fully written NPC profiles**: 454 have initial signature recordings, and three hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

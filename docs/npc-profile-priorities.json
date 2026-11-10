@@ -3577,6 +3577,20 @@
       "zone": "Orgrimmar",
       "route": "Classic elemental referral contact",
       "reason": "Full fire water air referrals and downstream rites; original call to supper, no access override; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2111,
+      "name": "Sida",
+      "zone": "Wetlands",
+      "route": "Menethil Harbor bag recovery contact",
+      "reason": "Full470 and unknown-content limits; original honest untidy account; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 263384,
+      "name": "Mister Graphed",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port material vendor",
+      "reason": "Fifteen current goods and exact adult identity; original courteous rosecap note; fifteen personal lines queued without synthesis"
     }
   ]
 }
