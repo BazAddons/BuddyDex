@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 269,
-    "unverified": 150,
+    "alliance": 270,
+    "unverified": 151,
     "horde": 241
   },
   "npc_race_counts": {
     "1": 166,
     "3": 51,
-    "7": 42,
+    "7": 43,
     "2": 75,
     "5": 67,
-    "4": 48,
+    "4": 49,
     "8": 51,
     "9": 38,
     "6": 76,
@@ -25,7 +25,7 @@
     "Lion's Pride Inn": 10,
     "Westfall": 17,
     "Stormwind City": 114,
-    "Redridge Mountains": 23,
+    "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 16,
     "Ironforge": 48,
@@ -46,7 +46,7 @@
     "Durotar": 49,
     "The Barrens": 31,
     "Stonetalon Mountains": 9,
-    "Darnassus": 8,
+    "Darnassus": 9,
     "Burning Steppes": 1,
     "Ashenvale": 9,
     "Thousand Needles": 6,
@@ -7848,6 +7848,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255940"
     },
     {
+      "npc_id": 256733,
+      "name": "Fritz Fizzle",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Alliance Neutral only; public Friendly unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/256733"
+    },
+    {
       "npc_id": 257006,
       "name": "Nyalah Brightfire",
       "zone": "Zephras Isle",
@@ -7913,6 +7924,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258568"
+    },
+    {
+      "npc_id": 258572,
+      "name": "Dani'ill",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258572"
     },
     {
       "npc_id": 258930,
@@ -8239,6 +8263,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 643,
-  "awaiting_signature_audio_profiles": 189
+  "authored_profiles": 645,
+  "awaiting_signature_audio_profiles": 191
 }

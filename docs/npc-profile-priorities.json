@@ -2737,6 +2737,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar Valley of Strength capital contact",
       "reason": "Complete adult Horde female profile, fifteen personal lines queued, sourced spiritual research or quartermaster context with distinct original personality; no synthesis"
+    },
+    {
+      "npc_id": 256733,
+      "name": "Fritz Fizzle",
+      "zone": "Redridge Mountains",
+      "route": "Three Corners profession depot regional route",
+      "reason": "Complete adult profile, fifteen personal lines queued, source-based trade welcome and distinct original character writing; no synthesis"
+    },
+    {
+      "npc_id": 258572,
+      "name": "Dani'ill",
+      "zone": "Darnassus",
+      "route": "Darnassus capital tailoring contact",
+      "reason": "Complete adult profile, fifteen personal lines queued, source-based trade welcome and distinct original character writing; no synthesis"
     }
   ]
 }

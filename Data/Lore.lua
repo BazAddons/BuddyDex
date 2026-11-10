@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Fritz Fizzle <Engineer>, Three Corners, Redridge. Adult female Gnome
+    -- 139800/M2 940356; Alliance Neutral, not verified public Friendly.
+    -- All27current goods and installed tinkering welcome read.
+    -- Enjoying a snail without improving it is original character writing.
+    -- Research: docs/research/three-corners-patience-and-darnassus-lunch.md
+    [256733] = {
+        quote = "I have watched a snail cross a stone without suggesting a single improvement. A very successful morning.",
+        likes = { "A curious visitor with time to tinker", "A small creature left to its own pace", "A problem understood before it is fixed" },
+        dislikes = { "A repair begun before anyone asks", "Mistaking quiet for a broken mechanism", "An outing measured only by its speed" },
+        gossip = "Fritz has found something she refuses to make faster. It has no instruction sheet and a remarkable talent for ignoring suggestions.",
+        bio = "Fritz Fizzle is a gnome engineer at Three Corners in Redridge Mountains. She welcomes fellow tinkerers and offers Engineering schematics for Merchant's Favor, alongside an Engineering Certification. Curiosity is a good way to begin a visit.",
+        backstory = "Watching a snail negotiate a stone, she began imagining ways to help it cross. Then she noticed it was doing perfectly well without her. She stayed to watch, with no repair to make and no better machine waiting to replace the creature.",
+        secret = "She sometimes watches a snail simply to enjoy its progress. When an improvement occurs to her, she keeps it to herself. The snail has not asked for assistance.",
+        bestFriend = "Come along. We can enjoy the road without inventing a faster way past everything worth noticing.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone understanding when an observation does not require an intervention.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Good to see you! I am ready. We need not hurry unless something actually needs us to hurry.", tone = "[bright] [welcoming]" }, "An outing sounds splendid. I have left the snail to manage its own arrangements." },
+            idle = { { "I watched a snail cross a stone. Thought of three ways to help, and then noticed it had managed without any of them.", tone = "[curious] [amused]" }, "Tinkering begins with noticing what something does. Occasionally that is also a perfectly good place to stop.", "The snail did not seem concerned about the delay. I decided not to be concerned on its behalf." },
+            befriended = { { "You can enjoy an idea with me without insisting every quiet moment needs an invention. Come along, friend. I like how you notice things.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? No, I am not calculating its speed. I was simply watching.", "I hear you. An interesting question is welcome, even if we leave it without a device attached." },
+            learned = { { "Something new to understand! Let us see how it works before deciding which part needs improving.", tone = "[eager] [thoughtful]" } },
+            gear = { "What does it need to do? A sensible question before adding another impressive feature." },
+            rest = { "A pause. I have found they can function quite well without being filled with useful adjustments." },
+            zone = { "New surroundings! Let us notice a few things before designing a quicker way through." },
+            quest = { "Find out what help is wanted. Being pleased with an idea does not mean it answers the request." },
+            loot = { "An interesting find. We can look at it for a moment before deciding it must become part of something else." },
+            thanked = { "You are welcome! I am pleased it helped. That is rather better than merely being an impressive idea." },
+        },
+    },
+
+    -- Dani'ill <Tailoring Recipes>, Darnassus. Adult male Night Elf
+    -- 140831/M2 974343; Alliance Friendly. Current own tabs0; installed
+    -- fair-price/limited-selection greeting read. No guessed live stock.
+    -- Grand assessments of an ordinary apple are original writing.
+    -- Research: docs/research/three-corners-patience-and-darnassus-lunch.md
+    [258572] = {
+        quote = "An apple may have a splendid opening and an abrupt conclusion. I still recommend lunch.",
+        likes = { "Supplies offered at a fair price", "A meal enjoyed without a performance", "A friend who appreciates a foolish joke" },
+        dislikes = { "Ordinary questions met with condescension", "A useful pattern explained carelessly", "Being mistaken for a serious food critic" },
+        gossip = "Dani'ill gives lunch elaborate assessments. The apple received a favorable verdict. Nobody has asked the apple about the review.",
+        bio = "Dani'ill offers tailoring recipes in Darnassus. He tells tradespeople that many supplies can be found out in the world, while he provides a limited selection at a fair price. His welcome is practical, whatever a visitor's experience.",
+        backstory = "One quiet lunch, he described an apple as though it were an important performance. The opening was excellent; the core arrived rather suddenly. He enjoyed the foolishness enough to try it again, taking the joke far more seriously than the meal.",
+        secret = "His grandest lunch assessments are delivered privately. He is not seeking a reputation as a critic. He simply enjoys making an ordinary apple sound as though it deserves an audience.",
+        bestFriend = "Stay for a little company. I can offer an extremely unnecessary opinion about lunch, or we can simply enjoy it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone recognizing the affection beneath an absurdly serious appraisal of lunch.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "It is good to see you. Shall we go? I have finished the apple, though its assessment could apparently continue indefinitely.", tone = "[warm] [wry]" }, "Ready. I promise the outing will not require a formal opinion about every meal we pass." },
+            idle = { { "An excellent opening, a pleasing middle, and a rather abrupt core. The apple remains warmly recommended.", tone = "[deadpan] [playful]" }, "There is nothing wrong with enjoying something ordinary. Giving it a ridiculous assessment is optional.", "I am not a food critic. It would be a difficult profession if every favorable review ended with eating the subject." },
+            befriended = { { "You understood that the important part was enjoying the company, even when I gave lunch an entirely unnecessary review. Come along, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering a generous verdict on lunch. No corrections are required from the apple.", "I hear you. A proper question deserves a proper answer. The joke can wait." },
+            rest = { { "A pause would be pleasant. We may enjoy it without awarding the occasion an impressive description.", tone = "[gentle] [amused]" } },
+            bagsFull = { "Check what you actually need. A little space is useful when you find the supplies you set out for." },
+            learned = { "Ask if a step is unclear. A pattern is more useful when its explanation makes sense to the person following it." },
+            quest = { "Understand the request before gathering supplies. Bringing back a great quantity of the wrong thing is a tiring mistake." },
+            loot = { "Something useful, perhaps. Take a moment to see what it is before deciding it deserves a place in the bag." },
+            zone = { "Different surroundings. I should like to notice something pleasant before reducing the visit to its errands." },
+            thanked = { "You are welcome. I am glad to be useful without giving the occasion a formal review." },
+        },
+    },
+
     -- Endaria Mistgaze, Valanaar, Zephras Isle. Adult Windshaper Skyborne
     -- female138130/M2 7478494, Horde Friendly. Full93736 current/installed
     -- and published progress; feelings about essences are not solved origins.

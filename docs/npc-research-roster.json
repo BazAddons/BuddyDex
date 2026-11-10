@@ -3066,5 +3066,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Windshaper Skyborne and Orc women, Horde Friendly, full Hollow task and introductory dialogue or legacy quartermaster/rank context; no Scout sighting claimed",
     "research_notes": "docs/research/zephras-disquiet-and-orgrimmar-welcomes.md"
+  },
+  {
+    "npc_id": 256733,
+    "name": "Fritz Fizzle",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed adult Gnome woman and Night Elf man, exact current identities and installed welcomes; Alliance Neutral engineer or Alliance Friendly pattern vendor; no Scout sighting claimed",
+    "research_notes": "docs/research/three-corners-patience-and-darnassus-lunch.md"
+  },
+  {
+    "npc_id": 258572,
+    "name": "Dani'ill",
+    "zone": "Darnassus",
+    "source": "Reviewed adult Gnome woman and Night Elf man, exact current identities and installed welcomes; Alliance Neutral engineer or Alliance Friendly pattern vendor; no Scout sighting claimed",
+    "research_notes": "docs/research/three-corners-patience-and-darnassus-lunch.md"
   }
 ]

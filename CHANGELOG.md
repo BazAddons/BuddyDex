@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Fritz Fizzle and Dani'ill: two complete adult profiles with thirty personal lines queued.
+- Expand Three Corners Engineering and Darnassus tailoring contacts with researched trade dialogue and distinct friendship stories.
+
 - Add Endaria Mistgaze and Sergeant Ba'sha: two complete adult Horde profiles with thirty personal lines queued.
 - Expand Valanaar and Orgrimmar coverage with researched Hollow study and quartermaster context, plus distinct personal friendship stories.
 
