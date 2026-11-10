@@ -3864,6 +3864,20 @@
       "zone": "The Barrens",
       "route": "Morshan watchtower",
       "reason": "Full report and territorial-response quests; original off-duty greeting; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 247226,
+      "name": "Kelsey Fargo",
+      "zone": "Elwynn Forest",
+      "route": "Northshire mining trainer",
+      "reason": "Full book-theft chain and own gossip; original stone assistant; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 258878,
+      "name": "Auctioneer Quickcoin",
+      "zone": "The Barrens",
+      "route": "Crossroads auctioneer; also Three Corners",
+      "reason": "Current multi-zone identity and auction service; original woolen-boats list; fifteen personal lines queued without synthesis"
     }
   ]
 }

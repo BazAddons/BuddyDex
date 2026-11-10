@@ -3,25 +3,25 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 344,
+    "alliance": 345,
     "unverified": 168,
-    "horde": 331
+    "horde": 332
   },
   "npc_race_counts": {
-    "1": 167,
+    "1": 168,
     "3": 70,
     "7": 58,
     "2": 88,
     "5": 86,
     "4": 70,
     "8": 60,
-    "9": 58,
+    "9": 59,
     "6": 86,
     "96": 26,
     "95": 35
   },
   "zone_counts": {
-    "Elwynn Forest": 28,
+    "Elwynn Forest": 29,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
     "Stormwind City": 121,
@@ -44,7 +44,7 @@
     "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
-    "The Barrens": 43,
+    "The Barrens": 44,
     "Stonetalon Mountains": 14,
     "Darnassus": 15,
     "Burning Steppes": 1,
@@ -8857,6 +8857,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246795"
     },
     {
+      "npc_id": 247226,
+      "name": "Kelsey Fargo",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/247226"
+    },
+    {
       "npc_id": 248248,
       "name": "Blixie Fitzwink",
       "zone": "Elwynn Forest",
@@ -9769,6 +9782,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258572"
     },
     {
+      "npc_id": 258878,
+      "name": "Auctioneer Quickcoin",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly and Alliance Neutral icons; only positive Horde access counted",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258878"
+    },
+    {
       "npc_id": 258930,
       "name": "Isaac Chan",
       "zone": "Elwynn Forest",
@@ -10320,6 +10346,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 804,
-  "awaiting_signature_audio_profiles": 350
+  "authored_profiles": 806,
+  "awaiting_signature_audio_profiles": 352
 }

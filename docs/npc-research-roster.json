@@ -4193,5 +4193,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde man; Full report and territorial-response quests; original off-duty greeting; no Scout sighting claimed",
     "research_notes": "docs/research/kaelas-reinforcements-and-kadraks-greeting.md"
+  },
+  {
+    "npc_id": 247226,
+    "name": "Kelsey Fargo",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult alliance woman; Full book-theft chain and own gossip; original stone assistant; no Scout sighting claimed",
+    "research_notes": "docs/research/kelseys-assistant-and-quickcoins-boats.md"
+  },
+  {
+    "npc_id": 258878,
+    "name": "Auctioneer Quickcoin",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde man; Current multi-zone identity and auction service; original woolen-boats list; no Scout sighting claimed",
+    "research_notes": "docs/research/kelseys-assistant-and-quickcoins-boats.md"
   }
 ]

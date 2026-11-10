@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kelsey Fargo, Northshire junior mining trainer. Adult human female144024/M2 1000764, Alliance Friendly. Full book chain and own kobold gossip; stone assistant is original.
+    -- Research: docs/research/kelseys-assistant-and-quickcoins-boats.md
+    [247226] = {
+        quote = "That stone is not a valuable specimen. I gave it eyebrows, and now it looks disappointed in my technique. I am keeping it anyway.",
+        likes = { "A beginner asking before swinging the pick", "Plain stones with a little character", "A lesson that leaves room to laugh" },
+        dislikes = { "Kobolds interrupting another demonstration", "A simple question made embarrassing", "Every stone judged only by what it sells for" },
+        gossip = "Kelsey drew a stern face on a thoroughly ordinary stone. She now claims her assistant is watching the lesson, though it contributes very little.",
+        bio = "Kelsey Fargo teaches mining outside Echo Ridge Mine in Northshire. Kobold traffic interrupts her work, but she offers instruction and tools. Her observations about their stolen books help Brother Paxton and Marshal McBride follow the thefts.",
+        backstory = "An ordinary stone stayed beside her tools after a demonstration. She gave it a pair of eyebrows while waiting for the path to clear. It looked so disapproving that she set it facing the next lesson and introduced it as her assistant.",
+        secret = "She can make the stone seem delighted or appalled by turning it a little. She particularly enjoys a friend who notices the change before she has explained the joke.",
+        bestFriend = "Come along, friend. The assistant may look disapproving, but I am pleased you are here. You need not impress either of us.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone catching the small joke before the stony assistant has been formally introduced.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "There you are. Come along. My assistant looks disappointed, but that is mainly the angle of the eyebrows. I am pleased to have company with more than one expression.", tone = "[bright] [playful]" }, "Good to see you. Tell me what you have found today. It may be interesting without turning out to be worth a fortune." },
+            idle = { { "It is an ordinary stone with eyebrows. Turn it a little and it looks appalled by the whole demonstration. I did not intend to create such a demanding assistant.", tone = "[amused] [matter-of-fact]" }, "The kobolds keep passing through with books and enough noise to interrupt another lesson. You notice a fair amount while waiting to get back to work.", "Ask the simple question. I would rather explain the movement twice than have you make your first attempt while pretending you already understand." },
+            befriended = { { "You have become company I am glad to see without any lesson to arrange first. Come along, friend. You can tell me your news while the assistant maintains its impossible standards.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was I taking instruction from the stone again?", "Go on. I promise the assistant will not interrupt." },
+            learned = { { "Good. Try it slowly enough to notice what your hands are doing. The result will make more sense once the movement does.", tone = "[clear] [encouraging]" } },
+            loot = { "Have a look. Even an ordinary find can become interesting when you give it a little attention." },
+            gear = { "Make sure the tool suits the task before deciding that more force will settle everything." },
+            quest = { "A job finished. Tell the person waiting what you actually found, including the little detail that seemed odd." },
+            rest = { "A pause. The assistant can supervise the empty patch of ground while we find something else to talk about." },
+            newFriend = { "Someone new. You may introduce the stone if you must, but let the person finish their own name first." },
+            thanked = { "You are welcome. I am glad the useful part was useful, even if the assistant looked unconvinced." },
+        },
+    },
+
+    -- Auctioneer Quickcoin, Barrens and Redridge. Adult goblin male10754/M2 119376, Horde Friendly and Alliance Neutral. Auctioneer flag, all four related tables empty; woolen boats list is original.
+    -- Research: docs/research/kelseys-assistant-and-quickcoins-boats.md
+    [258878] = {
+        quote = "A pair of fine woolen boats. A splendid mistake. I drew little sails beside the words and have been reluctant to correct them ever since.",
+        likes = { "A clear description with one good surprise", "An honest sale without the theatrical mystery", "A harmless mistake worth a little drawing" },
+        dislikes = { "Wear disguised by an impressive description", "A laugh used to humiliate the writer", "Every idle conversation becoming a bargain" },
+        gossip = "Quickcoin once wrote boats instead of boots on a private list. He gave them little sails before making the correction.",
+        bio = "Auctioneer Quickcoin offers auction services in the Barrens and Redridge Mountains. He attends closely to what a description actually promises. A harmless slip on his own private list can receive more affectionate attention than a flawless sales pitch.",
+        backstory = "He wrote boats where he meant boots while making a private list. Before correcting the word, he added a little sail beside each imaginary vessel. The result amused him enough to leave the shopping unfinished for a moment.",
+        secret = "The best part is that the mistake was his own. He enjoys sharing it with someone who can laugh at the tiny fleet without searching for another person to embarrass.",
+        bestFriend = "Walk with me, friend. You may hear the latest voyage of the woolen fleet, provided you do not ask what I expect for it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He enjoys a little shared amusement over a harmless mistake, without making someone the target of the joke.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. I have an update on the woolen fleet, which remains a pair of boots if anyone asks for the accurate description.", tone = "[quick] [amused]" }, "Good to see you. Tell me what you have been doing. We may have a conversation without deciding what either account ought to fetch." },
+            idle = { { "I wrote boats instead of boots and drew little sails before correcting it. A pair of fine woolen vessels. Remarkable comfort, provided you do not attempt the harbor.", tone = "[wry] [playful]" }, "A description should tell you what you are considering. If it takes three magnificent sentences to avoid mentioning the damage, read it again.", "It was my mistake. That improves the joke considerably; I can share it without having to pretend someone else deserved the attention." },
+            befriended = { { "You have become someone with whom I can share a foolish little mistake without making a sale or finding a victim. Come along, friend. I enjoy your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has another woolen vessel escaped its description?", "Go on. I will hear the question before deciding whether you are making an offer." },
+            mail = { { "Read the words before guessing what they promise. One missing letter can send a perfectly serviceable pair of boots out to sea.", tone = "[dry] [amused]" } },
+            loot = { "Check the condition as well as the name. You will want to know what you have before deciding what story to tell about it." },
+            bagsFull = { "Make room before adding more. An impressive account of your packing does not create another pocket." },
+            rest = { "A pause. The fleet can remain safely on the page while we enjoy a little ordinary company." },
+            newFriend = { "Someone new. Begin with an introduction that leaves them room to decide what they wish to tell you." },
+            thanked = { "You are welcome. That can be the whole exchange, with no further offers required." },
+            gear = { "Give it a proper look. You want something that does the work described, not merely something with a persuasive name." },
+        },
+    },
+
     -- Kaela Shadowspear, Stonetalon. Adult night elf female2183/M2 921844, Alliance Neutral; positive access unverified. Own quests and full immediate chains checked; camp-tea reinforcements are original.
     -- Research: docs/research/kaelas-reinforcements-and-kadraks-greeting.md
     [4080] = {

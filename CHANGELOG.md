@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kelsey Fargo and Auctioneer Quickcoin: adult Human and Goblin profiles with thirty personal lines queued.
+- Review the full Northshire book-theft chain and cross-zone auctioneer evidence; document original stone-assistant and woolen-boats scenes.
+
 - Add Kaela Shadowspear and Kadrak: adult Night Elf and Orc profiles with thirty personal lines queued.
 - Review Stonetalon investigation and Warsong reporting chains; document original camp-tea and off-duty greeting scenes while preserving faction priorities.
 
