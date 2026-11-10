@@ -3171,5 +3171,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult Night Elf woman and Forsaken man, Alliance/Horde Friendly respectively; full road task, legacy referrals and skull-collection/campaign context; no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-councilor-and-tarren-mill-critic.md"
+  },
+  {
+    "npc_id": 254345,
+    "name": "Syriel Nightrain",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne man/woman, Horde Friendly or both Friendly; full camping lesson/training and actual welcomes with table gaps documented; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-flower-hats-and-ordinary-water.md"
+  },
+  {
+    "npc_id": 257005,
+    "name": "Valiena Swiftgale",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne man/woman, Horde Friendly or both Friendly; full camping lesson/training and actual welcomes with table gaps documented; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-flower-hats-and-ordinary-water.md"
   }
 ]

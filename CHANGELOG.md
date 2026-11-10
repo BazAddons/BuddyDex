@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Syriel Nightrain and Valiena Swiftgale: two complete adult Windshaper profiles with thirty personal lines queued.
+- Expand Valanaar Herbalism and Alchemy contacts with researched camping context and distinct personal stories.
+
 - Add Moon Priestess Amara and Deathguard Samsa: two complete adult profiles with thirty personal lines queued.
 - Expand Teldrassil and Tarren Mill contacts with full road-task and Hillsbrad campaign research, preserving their different outlooks.
 

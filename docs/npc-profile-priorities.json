@@ -2842,6 +2842,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill regional Deathguard contact",
       "reason": "Complete adult profile, fifteen personal lines queued, sourced road duty or grim trophy collector with original pinecone-councilor or silent-critic humor; no synthesis"
+    },
+    {
+      "npc_id": 254345,
+      "name": "Syriel Nightrain",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Windshaper Herbalism/camping starter-region contact",
+      "reason": "Complete adult Windshaper profile, fifteen personal lines queued, sourced profession role with distinct original imaginary-flower or plain-water humor; no synthesis"
+    },
+    {
+      "npc_id": 257005,
+      "name": "Valiena Swiftgale",
+      "zone": "Zephras Isle",
+      "route": "Valanaar shared Alchemist starter-region contact",
+      "reason": "Complete adult Windshaper profile, fifteen personal lines queued, sourced profession role with distinct original imaginary-flower or plain-water humor; no synthesis"
     }
   ]
 }

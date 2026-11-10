@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Syriel Nightrain <Herbalist>, Valanaar, Zephras Isle. Adult
+    -- Windshaper male138131/M2 7478487, Horde Friendly. Five current
+    -- lessons/full97968and96101camp context; unreadable-language gossip
+    -- not translated. Imaginary flower hats are original drawings.
+    -- Research: docs/research/valanaar-flower-hats-and-ordinary-water.md
+    [254345] = {
+        quote = "It is a drawing of a flower wearing a hat. I would not advise trying to identify it in the wild.",
+        likes = { "An herb identified before it is gathered", "A useful lesson explained patiently", "A drawing allowed to be a little foolish" },
+        dislikes = { "A guess passed off as plant knowledge", "A camp prepared without its essentials", "Treating an imaginary flower as a discovery" },
+        gossip = "Syriel's latest flower drawing wears a hat. It looks very dignified. No one has established where the specimen could possibly grow.",
+        bio = "Syriel Nightrain teaches Herbalism in Valanaar on Zephras Isle. Raan Wildwind directs practiced gatherers to him for an Incense Candle lesson. He reminds learners that a camp belongs out in the wilds and needs a campfire as well as its special fixture.",
+        backstory = "During a quiet pause, he began sketching a flower. The blossom reminded him of a small hat, so he gave it a brim. He liked the result enough to leave it that way. A precise account of a real plant could wait on another page.",
+        secret = "The flower is entirely imaginary. He has no secret patch of well-dressed plants to reveal. He simply enjoys deciding which hat would suit the next drawing.",
+        bestFriend = "Stay for a little company. You may suggest a hat for the next flower. I trust you to know when the drawing is only for fun.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone recognizing when careful botanical observation has given way to a private joke.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have left the well-dressed flower on the page, where it can continue being entirely imaginary.", tone = "[warm] [playful]" }, "Ready. We can notice the real plants on the road without expecting any of them to be wearing a hat." },
+            idle = { { "It began as an ordinary flower drawing. Then the blossom looked like a hat. I added a brim and decided it was allowed to remain a foolish drawing.", tone = "[wry] [gentle]" }, "An imaginary plant may look however I please. A real one deserves more careful attention before somebody decides to gather it.", "The next flower might need a smaller hat. No, that is not a botanical conclusion." },
+            befriended = { { "You asked honestly about the real work and enjoyed the little joke afterward. I would be glad to have more of your company, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you are asking about a real plant, I shall put the imaginary millinery aside.", "I hear you. Tell me what you have noticed before deciding whether the question sounds impressive enough." },
+            learned = { { "Understand what you are looking at before deciding what to do with it. A name guessed confidently is still a guess.", tone = "[patient] [earnest]" } },
+            quest = { "Listen to the whole instruction. Learning to make a camp fixture does not remove the need to prepare the rest of the camp." },
+            rest = { "A pause. There is room for a little company without making it another lesson." },
+            zone = { "Different surroundings. Let us notice the plants here before assuming the names we already know will explain them all." },
+            bagsFull = { "Check what you meant to gather. A bag full of uncertain guesses is not quite the same as useful preparation." },
+            group = { "Make sure the others understand what is needed too. A good explanation should be allowed to reach more than one listener." },
+            thanked = { "You are welcome. I am pleased the lesson helped, and pleased you stayed for the company." },
+        },
+    },
+
+    -- Valiena Swiftgale <Alchemist>, Valanaar, Zephras Isle. Adult
+    -- Windshaper female140070/M2 7478494, Alliance/Horde Friendly.
+    -- Two installed welcomes; own tabs0, no guessed current inventory.
+    -- Ordinary-water misunderstanding is original, not a service reward.
+    -- Research: docs/research/valanaar-flower-hats-and-ordinary-water.md
+    [257005] = {
+        quote = "It is water. Even an alchemist may simply be thirsty.",
+        likes = { "Careful work given proper attention", "A clear answer to an honest question", "An ordinary drink enjoyed without ceremony" },
+        dislikes = { "Important work interrupted for a whim", "Assuming every cup contains an experiment", "A friend too nervous to ask what it is" },
+        gossip = "Valiena was asked what her drink does. The answer was ordinary. She appears determined to enjoy it without adding a special property.",
+        bio = "Valiena Swiftgale is an alchemist in Valanaar on Zephras Isle. Her greeting offers help, while another makes it clear that she values the work an interruption takes her from. She appreciates a visitor getting to the point without being afraid to ask.",
+        backstory = "Offered an ordinary cup of water, a visitor asked what it would do. She answered that it would be welcome if they were thirsty. The question amused her. Even away from her work, she seemed unable to have an entirely uneventful drink.",
+        secret = "She likes having something to drink without discussing its possible effects. There is no hidden ingredient in the joke. Sometimes water and a little company are quite sufficient.",
+        bestFriend = "Sit with me. You may ask what is in the cup. Then, once that is settled, I would enjoy hearing how your day has been.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates a plain kindness being received without the expectation of an extraordinary benefit.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have finished the water, with no remarkable consequences to report.", tone = "[warm] [dryly amused]" }, "Ready. I would enjoy some company without having to explain an experiment at every turn." },
+            idle = { { "It was water. I said it might be welcome if the visitor was thirsty. Apparently that was not the effect they had been expecting from an alchemist.", tone = "[deadpan] [amused]" }, "You may ask what is in the cup. I would rather answer than have a friend sit there too uncertain to enjoy it.", "Some things deserve a careful explanation. An ordinary drink need not become an impressive account of my work." },
+            befriended = { { "You have made room for the work and for a visit with nothing extraordinary required of it. I would enjoy more of your company, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need. An honest question is a better beginning than guessing what I am doing.", "I hear you. If this is a visit rather than a request, you may say so. I would be pleased to know." },
+            rest = { { "A pause would be welcome. We may enjoy it without giving the occasion a complicated explanation.", tone = "[gentle] [unhurried]" } },
+            learned = { "Ask if the explanation is unclear. Looking certain is less useful than understanding what you are about to do." },
+            gear = { "Consider what it actually does. A grand description can make an ordinary thing sound rather more mysterious than necessary." },
+            quest = { "Listen to the request before supplying the answer you expected to be asked for." },
+            group = { "Let everyone hear what has been explained. There is little sense in a whole group carrying different guesses into the same task." },
+            comforted = { "Thank you. A simple kindness can be enough. It need not claim to put everything right." },
+            thanked = { "You are welcome. I am glad the help was useful, and glad the company was welcome." },
+        },
+    },
+
     -- Moon Priestess Amara, road west of Dolanaar, Teldrassil. Adult
     -- Night Elf female1681/M2 921844, Alliance Friendly. Full487current/
     -- Classic/installed; older489/1684multi-giver limits documented.
