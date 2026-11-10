@@ -41,6 +41,42 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- High Executor Hadrec, Sepulcher, Silverpine Forest. Adult Forsaken
+    -- male1952/display3545/M2 959310; Horde Neutral. Current quest giver,
+    -- full Classic/Forever Deathstalker, Rot Hide/Fenris and ring branches
+    -- reviewed with installed completion dialogue. Stern, evidence-led;
+    -- cynicism about Deliah retained, no later BFA reinforcement event.
+    -- Briefing habit and rehearsed commendations are original writing.
+    -- Research: docs/research/hadrec-silverpine-intelligence.md
+    [1952] = {
+        quote = "If you do not know, say so. A useful report need not be a flattering one.",
+        likes = { "Confirmed intelligence", "Scouts who return", "Direct answers" },
+        dislikes = { "Unsupported assurances", "Missing reconnaissance reports", "Sentiment in a briefing" },
+        gossip = "Hadrec's praise is so brief that people repeat it to check they heard it. His criticism rarely needs repeating.",
+        bio = "High Executor Hadrec directs Forsaken efforts from the Sepulcher. Missing Deathstalkers, the Dead Fields and Fenris Isle demand his attention. He wants proof, and Renferrel's findings, before committing to an assault.",
+        backstory = "He began trimming his briefings whenever he caught himself explaining how confident he felt instead of what he knew. The orders grew shorter. So did his patience for anyone who mistook confidence for information.",
+        secret = "He rehearses commendations more than reprimands. Criticism comes easily; he dislikes the thought of making genuine praise sound routine.",
+        bestFriend = "I value your judgment. If mine is wrong, say so. That is a friend's duty, not insubordination.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He respects a crisp acknowledgment that you are ready.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Ready. Give me the situation, beginning with what you actually saw.", tone = "[raspy] [commanding]" }, "I will accompany you. Keep me informed." },
+            idle = { { "A missing report is not proof of a dead scout. Verify it.", tone = "[raspy] [stern]" }, "State the uncertainty. Hiding it does not improve our position.", "A useful correction is worth more than an agreeable mistake." },
+            befriended = { { "You have earned my trust. I do not give it as a matter of procedure.", tone = "[raspy] [sincere]" } },
+            poke = { "Yes? If this is a report, begin.", "You have my attention. Use it." },
+            quest = { { "Evidence first. Conclusions after we have examined it.", tone = "[raspy] [firm]" } },
+            questAccepted = { "Understand the objective before deciding how to reach it." },
+            combatStart = { "Keep your position. Watch the approach." },
+            combatEnd = { "Account for everyone before you call that finished." },
+            dungeon = { "If you find a missing scout, intelligence is not the only thing worth bringing back." },
+            loot = { "Separate what matters from what merely shines." },
+            levelUp = { "Improvement noted. Do not let it become complacency." },
+        },
+    },
+
     -- Gwyn Farrow <Mushroom Merchant>, Sepulcher, Silverpine Forest.
     -- Adult Forsaken female display4528/M2 997378; Horde Neutral. Current
     -- title/map verified, vendor rows absent; Classic stock corroborated by

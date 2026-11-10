@@ -1820,6 +1820,13 @@
       "zone": "Silverpine Forest",
       "route": "Sepulcher Forsaken onward route",
       "reason": "Complete researched personality/lore and fifteen queued lines; approved female/male Forsaken voice, Neutral live gates preserved, no synthesis"
+    },
+    {
+      "npc_id": 1952,
+      "name": "High Executor Hadrec",
+      "zone": "Silverpine Forest",
+      "route": "Sepulcher Forsaken onward quest route",
+      "reason": "Full current/Classic/corpus chain review and fifteen queued Forsaken male lines; Neutral conditional live gates preserved, no synthesis"
     }
   ]
 }

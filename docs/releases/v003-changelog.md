@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add High Executor Hadrec: a full Sepulcher profile grounded in his Deathstalker, Rot Hide, Fenris Isle and engraved-ring quest chains.
+- Preserve his stern judgment and evidence-first priorities, with fifteen personal lines queued for the approved Forsaken male voice.
+
 - Add Gwyn Farrow and Innkeeper Bates at the Sepulcher: full adult Forsaken profiles with thirty personal lines queued for their approved voices.
 - Give Gwyn crisp mushroom-merchant humor and Bates measured hospitality, with researched roles and normal character-specific friendship rewards.
 
@@ -60,4 +63,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **512 fully written NPC profiles**: 454 have initial signature recordings, and fifty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **513 fully written NPC profiles**: 454 have initial signature recordings, and fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

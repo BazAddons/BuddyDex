@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add High Executor Hadrec: a full Sepulcher profile grounded in his Deathstalker, Rot Hide, Fenris Isle and engraved-ring quest chains.
+- Preserve his stern judgment and evidence-first priorities, with fifteen personal lines queued for the approved Forsaken male voice.
+
 - Add Gwyn Farrow and Innkeeper Bates at the Sepulcher: full adult Forsaken profiles with thirty personal lines queued for their approved voices.
 - Give Gwyn crisp mushroom-merchant humor and Bates measured hospitality, with researched roles and normal character-specific friendship rewards.
 
