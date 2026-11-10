@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shoja'my and Xao'tsu: two adult Troll profiles with thirty personal lines queued.
+- Expand Razor Hill and Orgrimmar contacts with researched stable/training roles and distinct original shade-sharing and unimpressed-beast stories.
+
 - Add Renzik the Shiv and Wrenix the Wretched: two adult Goblin profiles with thirty personal lines queued.
 - Research Renzik's recruitment network and Wrenix's Forever salvage quest, preserving their distinct voices and documented original friendship writing.
 

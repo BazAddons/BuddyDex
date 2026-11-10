@@ -3591,5 +3591,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Horde Neutral Goblin man; full current Parts and Pieces and historical rogue chain; imaginary prototype demonstration original; live eligibility required; no Scout sighting claimed",
     "research_notes": "docs/research/renziks-recruits-and-wrenixs-prototype.md"
+  },
+  {
+    "npc_id": 9987,
+    "name": "Shoja'my",
+    "zone": "Durotar",
+    "source": "Reviewed adult Horde Friendly Troll woman; exact stable role, empty current own tables and no personal quest/gossip found; shade-sharing original; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-shade-and-the-unimpressed-beast.md"
+  },
+  {
+    "npc_id": 10088,
+    "name": "Xao'tsu",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Horde Friendly Troll man; all45current lessons and spell stats/effects plus installed greetings; Growl demonstration and yawn original; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-shade-and-the-unimpressed-beast.md"
   }
 ]

@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 304,
     "unverified": 158,
-    "horde": 281
+    "horde": 283
   },
   "npc_race_counts": {
     "1": 167,
@@ -14,7 +14,7 @@
     "2": 78,
     "5": 78,
     "4": 57,
-    "8": 55,
+    "8": 57,
     "9": 46,
     "6": 82,
     "96": 19,
@@ -38,12 +38,12 @@
     "Teldrassil": 26,
     "Hillsbrad Foothills": 8,
     "Arathi Highlands": 11,
-    "Orgrimmar": 47,
+    "Orgrimmar": 48,
     "Badlands": 1,
     "Darkshore": 9,
     "Mulgore": 22,
     "Thunder Bluff": 39,
-    "Durotar": 49,
+    "Durotar": 50,
     "The Barrens": 36,
     "Stonetalon Mountains": 10,
     "Darnassus": 9,
@@ -7184,6 +7184,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9983"
     },
     {
+      "npc_id": 9987,
+      "name": "Shoja'my",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9987"
+    },
+    {
       "npc_id": 9988,
       "name": "Xon'cha",
       "zone": "Orgrimmar",
@@ -7247,6 +7260,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10086"
+    },
+    {
+      "npc_id": 10088,
+      "name": "Xao'tsu",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10088"
     },
     {
       "npc_id": 10118,
@@ -9206,6 +9232,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 718,
-  "awaiting_signature_audio_profiles": 264
+  "authored_profiles": 720,
+  "awaiting_signature_audio_profiles": 266
 }

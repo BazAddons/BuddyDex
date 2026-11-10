@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shoja'my <Stable Master>, Razor Hill. Adult Troll female9262/
+    -- M2 1018060, Horde Friendly. Own four tables0, no own installed
+    -- gossip or personal Classic quests. Making shade for a resting
+    -- companion is original, not later battle-pet or rebellion lore.
+    -- Research: docs/research/razor-hill-shade-and-the-unimpressed-beast.md
+    [9987] = {
+        quote = "Mind where you stand, friend. Somebody may have chosen your shadow for a very important rest.",
+        likes = { "A companion finding a comfortable spot", "The long shade of a quiet afternoon", "Someone noticing before they hurry past" },
+        dislikes = { "An animal hurried out of a good rest", "A loud entrance beside a settled beast", "The sun moving without consulting her" },
+        gossip = "Shoja'my sometimes stays in one spot longer than intended. Look down before asking her to move; her shadow may have company.",
+        bio = "Shoja'my is Razor Hill's Troll stable master in Durotar. Hunters can leave their companions in her care while attending to the village's business. She notices where an animal has settled before deciding what needs moving next.",
+        backstory = "One hot afternoon, a companion settled in the narrow shade at her feet. Shoja'my meant to move after a moment. Instead she found herself adjusting her stance as the sun shifted, trying to keep the little patch comfortable.",
+        secret = "Now she sometimes chooses where to stand by the shade she will cast. She calls it finding a sensible place to work. The extra company is a pleasant consequence.",
+        bestFriend = "Come stand here, friend. There is room beside me. We can let the world hurry around us for a little while.",
+        favorite = {
+            emote = "PET",
+            hint = "A gentle, affectionate gesture suits someone who makes room for a companion's comfort before hurrying on.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "There you are, friend. Give me a moment to look down before I move. Good. Nobody borrowing my shadow just now. Shall we go?", tone = "[warm] [lightly amused]" }, "Good to see you. Come along. If we find a comfortable patch of shade, I may ask you to admire it with me." },
+            idle = { { "An animal settled in the shade at my feet. I meant to stay a moment. Then the sun moved, and somehow I became responsible for keeping the whole little patch comfortable.", tone = "[fond] [wry]" }, "Sometimes I choose where to stand by the shadow I will cast. A sensible place to work, I say. The company is a pleasant consequence.", "Before you ask somebody to move, look down. You may discover a very contented reason they have been standing there so long." },
+            befriended = { { "You noticed before asking me to hurry. I like that about you, friend. Come along. There is room beside me, and I would enjoy sharing the way.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? Mind your feet. I am checking whether anyone has made a comfortable plan beneath them.", "I am listening. We have time enough for you to finish before deciding where to hurry next." },
+            rest = { { "A good patch of shade. Sit where you are comfortable, friend. We can give this little place our attention for a while.", tone = "[soft] [contented]" } },
+            mount = { "Let your companion know you are moving. A steady beginning is kinder than surprising someone who has just settled." },
+            group = { "Look around before we go. Make sure the quietest companion has been noticed too." },
+            combatEnd = { "Take a breath, friend. Check who needs a moment before asking everyone to move again." },
+            thanked = { "You are welcome. I am pleased you are comfortable. That is a good enough reason to take a little care." },
+            quest = { "Business finished? Good. You can give the next small thing a moment before setting off again." },
+            hearth = { "Back toward familiar company. I hope there is a comfortable place waiting, and someone who notices when you arrive." },
+        },
+    },
+
+    -- Xao'tsu <Pet Trainer>, Valley of Honor. Adult Troll male9336/
+    -- M2 1022938, Horde Friendly. All45current lessons/spell nodes read;
+    -- installed hunter/nonhunter greetings, own0quests/sales. Original
+    -- Growl demonstration and yawn; no later pet specializations.
+    -- Research: docs/research/razor-hill-shade-and-the-unimpressed-beast.md
+    [10088] = {
+        quote = "The lesson is Growl. My demonstration may be less alarming than the name suggests.",
+        likes = { "A hunter listening before teaching", "Good practice followed by a shared grin", "A beast permitted its own opinion" },
+        dislikes = { "Shouting used instead of understanding", "A small mistake turned into humiliation", "An attentive companion overlooked" },
+        gossip = "Xao'tsu can explain a formidable growl. His own demonstration once earned a yawn, which he accepted with considerable dignity.",
+        bio = "Xao'tsu trains hunters in Orgrimmar's Valley of Honor, teaching lessons they can pass to their pets. His instruction includes Growl, stamina, armor and resistances. He takes the work seriously without demanding that every moment sound impressive.",
+        backstory = "While explaining Growl, he tried a low demonstration of his own. The listening beast yawned. Xao'tsu paused, finished the explanation, then admitted that the audience had delivered a fairly clear assessment.",
+        secret = "He rather likes that memory. The beast was comfortable, the hunter was listening, and his dignity survived a little laughter. He can think of worse lessons.",
+        bestFriend = "You may grin, friend. I know how that demonstration went. Stay a while; I enjoy company that can laugh with me and still listen.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone sharing a little amusement without making a harmless mistake into a cruel joke.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you, friend. Shall we? You may leave the impressive entrance for another day. My own growling demonstration has taught me some perspective.", tone = "[easygoing] [warm]" }, "There you are. Come along. Tell me what you have been learning, including the part that was funnier than you expected." },
+            idle = { { "I demonstrated a low growl. The beast yawned. An admirably clear assessment. I finished the explanation before admitting that the audience had made a fair point.", tone = "[deadpan] [amused]" }, "The hunter was listening, the beast was comfortable, and my dignity survived a little laughter. There are worse lessons than that.", "You learn something, then help a companion understand it. Give both parts of the work their time. Looking impressive is optional." },
+            befriended = { { "You can enjoy the joke and still listen to what I am trying to teach. I appreciate that, friend. Come along. I should like to hear what you have been learning too.", tone = "[relaxed] [sincere]" } },
+            poke = { "Yes, friend? If you want the growling demonstration, remember that its previous audience was not terribly alarmed.", "I am listening. Start with what you understand, then tell me where the difficulty begins." },
+            learned = { { "Good. Give yourself time to understand it before passing it along. And if the first attempt earns a yawn, you may still have something useful to teach.", tone = "[encouraging] [lightly amused]" } },
+            laughAlong = { "A fair response, friend. My dignity has survived worse than an honest laugh shared kindly." },
+            group = { "Who is explaining, and who is still trying to understand? Make room for both before deciding everyone is ready." },
+            combatEnd = { "A moment to check on your companions. Knowing what they need is part of knowing how to work together." },
+            gear = { "A useful piece. Take the time to understand it. Impressive noise and a fine appearance do not explain everything it can do." },
+            rest = { "A pause sounds good. You may yawn if you need to. I have learned not to take every assessment personally." },
+            thanked = { "You are welcome, friend. Use what helped, and be patient when someone else needs the explanation again." },
+        },
+    },
+
     -- Renzik "The Shiv" <SI:7 Operative>, Stormwind. Adult Goblin
     -- male7613/M2 119376, Alliance Friendly. Full referrals and
     -- Lucius training chain read; installed own gossip credits Shaw.

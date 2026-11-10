@@ -3262,6 +3262,20 @@
       "zone": "The Barrens",
       "route": "Ratchet early salvage route",
       "reason": "Complete adult profile with fifteen personal lines queued; researched current salvage quest and historical rogue chain, original imaginary prototype demonstration; no synthesis"
+    },
+    {
+      "npc_id": 9987,
+      "name": "Shoja'my",
+      "zone": "Durotar",
+      "route": "Razor Hill early stable contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified female Troll identity and original shade-sharing story; no synthesis"
+    },
+    {
+      "npc_id": 10088,
+      "name": "Xao'tsu",
+      "zone": "Orgrimmar",
+      "route": "Valley of Honor pet training",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified male Troll identity and original unimpressed-beast demonstration; no synthesis"
     }
   ]
 }
