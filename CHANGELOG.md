@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Yorba Screwspigot and Grizzlowe: two complete adult Goblin profiles with thirty personal lines queued.
+- Expand Steamwheedle Port and Booty Bay contacts with full family-bounty research and shipmaster dialogue.
+
 - Add Uthrar Threx and Sraaz: two complete adult Dwarf/Gnome profiles with thirty personal lines queued.
 - Expand Ironforge contacts using researched tailoring dialogue and Sraaz's cherry-pie enthusiasm, with distinct friendship stories.
 

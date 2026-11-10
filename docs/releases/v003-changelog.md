@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Yorba Screwspigot and Grizzlowe: two complete adult Goblin profiles with thirty personal lines queued.
+- Expand Steamwheedle Port and Booty Bay contacts with full family-bounty research and shipmaster dialogue.
+
 - Add Uthrar Threx and Sraaz: two complete adult Dwarf/Gnome profiles with thirty personal lines queued.
 - Expand Ironforge contacts using researched tailoring dialogue and Sraaz's cherry-pie enthusiasm, with distinct friendship stories.
 
@@ -267,4 +270,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **649 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **651 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

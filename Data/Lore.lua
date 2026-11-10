@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Yorba Screwspigot, Steamwheedle Port, Tanaris. Adult Goblin
+    -- female11388/M2 119369, Horde Friendly. Full4324->4136current/
+    -- Classic/installed family bounty dialogue; no later tsunami.
+    -- Keeping ordinary green glass for pleasure is original, not a gem.
+    -- Research: docs/research/steamwheedle-green-glass-and-booty-bay-welcomes.md
+    [9706] = {
+        quote = "It is glass. Not an emerald. I know precisely what it is worth, and I am keeping it anyway.",
+        likes = { "An opportunity that actually pays", "A clear account of what a scheme costs", "Green glass catching the light" },
+        dislikes = { "Ribbly spending the family's money", "A promise without a useful return", "Being told to sell something she likes" },
+        gossip = "Yorba knows the value of what she has. There is one little green exception. She becomes unusually firm when anyone suggests finding it a buyer.",
+        bio = "Yorba Screwspigot lives at Steamwheedle Port in Tanaris. Her sister Yuka seeks their brother Ribbly, whose failed schemes have cost the family money. Yorba sends hired help toward Flame Crest, pleased that a bounty has finally made him valuable.",
+        backstory = "Yuka's hunt leads into Blackrock Depths, where Ribbly is hiding from Baron Revilgaz's bounty. The sisters see profit in turning him in; Yuka accepts his head if he will not come. Yorba's referral is an opportunity, not a tender family rescue.",
+        secret = "She keeps a smooth piece of green glass because she likes how it catches the light. It is not a gem or an investment. She has no intention of looking for a buyer.",
+        bestFriend = "You may look at the glass. You need not tell me what I could get for it. I have already decided why I keep it.",
+        favorite = {
+            emote = "WINK",
+            hint = "She appreciates someone understanding a private exception without turning it into another negotiation.",
+        },
+        recordingVoice = "goblin-female",
+        lines = {
+            greet = { { "Good to see you. Ready for an outing. The little piece of glass is staying with me, before you ask whether I have found a buyer.", tone = "[brisk] [wry]" }, "Ready. Tell me what we are doing before anyone begins promising a magnificent return." },
+            idle = { { "It is green glass. I know it is not an emerald. That does not prevent me liking it, and liking it does not require me to find a buyer.", tone = "[dry] [confiding]" }, "Ribbly has always been very good at finding uses for the family's money. Finding a return was another matter.", "A scheme ought to survive a plain account of what it costs. Enthusiasm is a remarkably poor substitute for that account." },
+            befriended = { { "You understood the exception without trying to turn it into a sale. Come along, friend. I enjoy your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? No, I have not had the glass appraised again. The question was settled when I decided to keep it.", "I hear you. If there is a proposition, begin with what is actually being asked of us." },
+            quest = { { "Find out what the arrangement really is. A family name on the request does not necessarily make it an act of affection.", tone = "[firm] [matter-of-fact]" } },
+            loot = { "Look properly before pricing it. Then decide whether a price is the reason you want to keep it." },
+            bagsFull = { "Check what you meant to carry. I am not making room by throwing away the one thing I deliberately kept." },
+            rest = { "A pause. I can enjoy how the light catches something without calculating an income from the moment." },
+            group = { "Be clear about everyone's part before the promises begin. It saves a great many imaginative explanations afterward." },
+            zone = { "New surroundings. We can take a look without immediately declaring everything an opportunity." },
+            thanked = { "You are welcome. The useful part was understanding what needed doing before making an impressive promise." },
+        },
+    },
+
+    -- Grizzlowe <Shipmaster>, Booty Bay, Stranglethorn Vale. Adult
+    -- Goblin male8847/M2 119376, Horde Neutral, public Friendly unverified.
+    -- Both installed chowder/Maiden's Fancy/Ratchet variants read.
+    -- His unused brief greeting is original, no guaranteed sailing time.
+    -- Research: docs/research/steamwheedle-green-glass-and-booty-bay-welcomes.md
+    [9559] = {
+        quote = "Welcome aboard the subject of chowder. Ah. You meant the ship. Of course you did.",
+        likes = { "Booty Bay's clam chowder", "A traveler comfortable while waiting", "Someone letting him finish the food part" },
+        dislikes = { "An anxious passenger given no information", "A good bowl going cold during a speech", "Being hurried past the chowder entirely" },
+        gossip = "Grizzlowe has an efficient harbor greeting. It gets straight to the ship. He has not managed to say it without improving the beginning.",
+        bio = "Grizzlowe is the shipmaster at Booty Bay's berth for the Maiden's Fancy, the passenger ship to Ratchet. He tells travelers to settle in while she returns. First, however, he likes to praise the local clam chowder as the finest in the South Seas.",
+        backstory = "He tried composing a greeting that began with the ship and ended with useful information. It was clear, brief, and entirely satisfactory. Then he remembered how much a waiting traveler might appreciate knowing about the chowder.",
+        secret = "He remembers the short greeting perfectly. He prefers the extra recommendation. Efficiency has its merits, but the visitor might otherwise miss the best part.",
+        bestFriend = "Stay a little. I know you have heard the recommendation. This time I would like to hear what you enjoy while you wait.",
+        favorite = {
+            emote = "NOD",
+            hint = "He enjoys an attentive listener who understands why the food recommendation belongs in the welcome.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you. Ready for the road. I had a very brief greeting prepared, but thought you might appreciate the chowder recommendation first.", tone = "[animated] [welcoming]" }, "An outing sounds splendid. You need not be waiting for a ship to enjoy a little company." },
+            idle = { { "The short greeting gets straight to the ship. I know it perfectly. It just seems a shame to let someone wait without mentioning the chowder.", tone = "[confiding] [amused]" }, "A comfortable passenger is better company than a worried one who has been told nothing useful.", "I can remember the whole recommendation. Remembering to stop talking before the bowl cools is a separate accomplishment." },
+            befriended = { { "You stayed for the company even after you knew where the ship was going. Come along, friend. I would enjoy hearing more about you as well.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If the question concerns the ship, I can begin with the ship. I shall make a proper attempt.", "I hear you. Tell me what you need to know before I improve the welcome again." },
+            rest = { { "A pause. Make yourself comfortable. I can let you enjoy it before presenting every reason I think you ought to.", tone = "[gentle] [cheerful]" } },
+            taxi = { "A little time before departure is easier when you know where you are going. Listen for the information you need." },
+            landed = { "Arrived. Take a moment to notice the place before hurrying toward the next departure." },
+            group = { "More company. Ask what the others enjoy, too. A recommendation need not be the whole conversation." },
+            zone = { "New surroundings. There may be a very fine welcome here, and I intend to let someone else give it." },
+            comforted = { "Thank you. Knowing someone is willing to stay can make a wait much easier." },
+            thanked = { "You are welcome. I am glad the information helped, and glad you enjoyed the company." },
+        },
+    },
+
     -- Uthrar Threx <Journeyman Tailor>, Great Forge, Ironforge. Adult
     -- Dwarf male10629/M2 878772, Alliance Friendly.24Classic training
     -- rows and3installed welcomes/assistant/Stonebrew references read.

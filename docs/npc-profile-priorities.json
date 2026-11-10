@@ -2779,6 +2779,20 @@
       "zone": "Ironforge",
       "route": "Great Forge pie-vendor contact",
       "reason": "Complete adult Alliance profile, fifteen personal lines queued, sourced tailor assistant or cherry-pie character with original shadow-duck or favorite-bite writing; no synthesis"
+    },
+    {
+      "npc_id": 9706,
+      "name": "Yorba Screwspigot",
+      "zone": "Tanaris",
+      "route": "Steamwheedle Port family-referral contact",
+      "reason": "Complete adult Goblin profile, fifteen personal lines queued, source-based family bounty or shipmaster identity with original green-glass/greeting hook; no synthesis"
+    },
+    {
+      "npc_id": 9559,
+      "name": "Grizzlowe",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay Ratchet-ship contact",
+      "reason": "Complete adult Goblin profile, fifteen personal lines queued, source-based family bounty or shipmaster identity with original green-glass/greeting hook; no synthesis"
     }
   ]
 }

@@ -3108,5 +3108,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Dwarf and Gnome men, Alliance Friendly, full Classic training or pie stock and installed personal welcomes; no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-shadow-ducks-and-cherry-pie.md"
+  },
+  {
+    "npc_id": 9706,
+    "name": "Yorba Screwspigot",
+    "zone": "Tanaris",
+    "source": "Reviewed adult Goblin woman/man, current identity and full family bounty chain or installed shipmaster dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/steamwheedle-green-glass-and-booty-bay-welcomes.md"
+  },
+  {
+    "npc_id": 9559,
+    "name": "Grizzlowe",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult Goblin woman/man, current identity and full family bounty chain or installed shipmaster dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/steamwheedle-green-glass-and-booty-bay-welcomes.md"
   }
 ]

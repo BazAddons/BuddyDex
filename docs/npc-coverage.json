@@ -4,8 +4,8 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 272,
-    "unverified": 151,
-    "horde": 243
+    "unverified": 152,
+    "horde": 244
   },
   "npc_race_counts": {
     "1": 166,
@@ -15,7 +15,7 @@
     "5": 67,
     "4": 49,
     "8": 53,
-    "9": 38,
+    "9": 40,
     "6": 76,
     "96": 11,
     "95": 18
@@ -29,7 +29,7 @@
     "Loch Modan": 1,
     "Dun Morogh": 16,
     "Ironforge": 50,
-    "Stranglethorn Vale": 3,
+    "Stranglethorn Vale": 4,
     "Tirisfal Glades": 39,
     "Undercity": 14,
     "Wetlands": 1,
@@ -51,7 +51,7 @@
     "Ashenvale": 9,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
-    "Tanaris": 6,
+    "Tanaris": 7,
     "Feralas": 2,
     "Desolace": 8,
     "Winterspring": 1,
@@ -6617,6 +6617,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9555"
     },
     {
+      "npc_id": 9559,
+      "name": "Grizzlowe",
+      "zone": "Stranglethorn Vale",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral only; public Friendly unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9559"
+    },
+    {
       "npc_id": 9564,
       "name": "Frezza",
       "zone": "Durotar",
@@ -6628,6 +6639,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9564"
+    },
+    {
+      "npc_id": 9706,
+      "name": "Yorba Screwspigot",
+      "zone": "Tanaris",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9706"
     },
     {
       "npc_id": 9796,
@@ -8315,6 +8339,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 649,
-  "awaiting_signature_audio_profiles": 195
+  "authored_profiles": 651,
+  "awaiting_signature_audio_profiles": 197
 }
