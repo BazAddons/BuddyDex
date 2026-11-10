@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 302,
+    "alliance": 303,
     "unverified": 157,
     "horde": 281
   },
   "npc_race_counts": {
     "1": 167,
     "3": 60,
-    "7": 50,
+    "7": 51,
     "2": 78,
     "5": 78,
     "4": 57,
@@ -40,7 +40,7 @@
     "Arathi Highlands": 11,
     "Orgrimmar": 47,
     "Badlands": 1,
-    "Darkshore": 8,
+    "Darkshore": 9,
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 49,
@@ -4567,6 +4567,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Horde Neutral; live eligibility still required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3658"
+    },
+    {
+      "npc_id": 3666,
+      "name": "Wizbang Cranktoggle",
+      "zone": "Darkshore",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node; quest Both side label not treated as Horde reaction evidence",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3666"
     },
     {
       "npc_id": 3701,
@@ -9169,6 +9182,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 715,
-  "awaiting_signature_audio_profiles": 261
+  "authored_profiles": 716,
+  "awaiting_signature_audio_profiles": 262
 }

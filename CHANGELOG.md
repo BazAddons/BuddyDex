@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Wizbang Cranktoggle: a full adult Gnome profile with fifteen personal lines queued.
+- Research the complete Buzzbox chain, historical fishing errands and installed greeting; preserve the liquor reveal and document original friendship writing.
+
 - Add Mrs. Winters and Kayren Soothallow: two full adult Forsaken profiles with thirty personal lines queued.
 - Expand Brill and Tarren Mill contacts with verified supply roles and clearly marked original introduction/heavy-bag stories.
 

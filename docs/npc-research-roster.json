@@ -3570,5 +3570,12 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult Horde Forsaken woman in Tarren Mill; all twenty-two current goods and item nodes, historical stock differences documented; original anonymous heavy-bag anecdote distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/brill-introductions-and-tarren-mill-bags.md"
+  },
+  {
+    "npc_id": 3666,
+    "name": "Wizbang Cranktoggle",
+    "zone": "Darkshore",
+    "source": "Reviewed adult Gnome man, current Alliance Friendly; full Buzzbox and historical fishing chains plus installed own gossip; candid-admission practice original; no Scout sighting claimed",
+    "research_notes": "docs/research/wizbang-and-the-second-purpose.md"
   }
 ]

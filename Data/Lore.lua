@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Wizbang Cranktoggle, Auberdine, Darkshore. Adult Gnome male
+    -- 4474/M2 900914, current Alliance Friendly. Full Buzzbox chain
+    -- 983/1001/1002/1003 reveals liquor purpose; 1579/1580 are
+    -- historical fishing errands, not current own quest relations.
+    -- Practicing plain disclosure is original BuddyDex writing.
+    -- Research: docs/research/wizbang-and-the-second-purpose.md
+    [3666] = {
+        quote = "Yes, it carries voices. Yes, it also makes liquor. I should probably lead with both of those.",
+        likes = { "A machine with more than one purpose", "A quiet place to think", "An explanation heard all the way through" },
+        dislikes = { "Ironforge's noise after a late night", "An inconvenient follow-up question", "Parts disappearing overboard" },
+        gossip = "Wizbang's repair instructions become much clearer once you ask whether the machine was broken, or merely thirsty.",
+        bio = "Wizbang Cranktoggle invents in Auberdine. His buzzboxes carry voices across Darkshore, but their repair errands conceal a second purpose: brewing liquor. He is clever with machinery and rather less direct about what he needs from a helper.",
+        backstory = "He placed buzzboxes near creatures that supplied their ingredients. Adventurers brought crawler legs, thresher eyes, moonstalker fangs and bear scalps. The boxes could already carry his voice; their other purpose emerged after several errands.",
+        secret = "He has been practicing one sentence: I should have explained the whole thing first. He keeps trying to improve it with a technically, then starting again.",
+        bestFriend = "You can ask the awkward question. I'd rather have you beside me than a perfectly comfortable explanation that leaves you out.",
+        favorite = {
+            emote = "NOD",
+            hint = "Let him know you have followed the explanation, including the part he was hoping you might overlook.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are! Ready? No mysterious maintenance errand today. If I need something, I shall attempt the whole explanation before you leave.", tone = "[bright] [slightly sheepish]" }, "A walk with a friend. Excellent! There may be ideas, but the company does not have to supply the ingredients." },
+            idle = { { "The buzzboxes really do carry voices. They also brew liquor. Those are both useful facts. The order in which I mention them has occasionally been too carefully considered.", tone = "[conspiratorial] [amused]" }, "I should have explained the whole thing first. There. A perfectly workable sentence. No technically required. Why is it harder to say with someone looking at me?", "A machine can do two things at once. That is good engineering. Making a helper discover the second thing after several errands is a separate matter." },
+            befriended = { { "You know enough about my explanations to ask the awkward question, and you still wanted my company. Come along, friend. I shall try to deserve both the question and the invitation.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You have the look of someone approaching a follow-up question. Very well. Ask it.", "I'm listening. If the answer begins with technically, you may ask me to begin again." },
+            quest = { { "Read the whole request. If an important detail seems to be missing, ask. Even an ingenious explanation can have an extremely convenient gap.", tone = "[knowing] [candid]" } },
+            learned = { "A new technique! Find out all its uses before deciding which one belongs in the explanation." },
+            gear = { "What does it do? And now the second question: what else does it do? That one is easy to forget when the first answer is impressive." },
+            thanked = { "You're welcome. I am pleased it helped. No second purpose concealed in that answer." },
+            rest = { "Quiet for a little while. I do like a place where an idea can finish before the next noise arrives." },
+            group = { "Does everyone understand what we are doing? The whole thing, I mean. I am attempting to make that a more useful question." },
+            loot = { "Useful parts, perhaps. Let us establish what they are for before calling this a repair errand." },
+        },
+    },
+
     -- Mrs. Winters <General Supplies>, Brill. Adult Forsaken female
     -- 1637/M2 997378, Horde Friendly. Current own tables0; eight
     -- Classic goods and exact role read, no own quest/gossip found.
