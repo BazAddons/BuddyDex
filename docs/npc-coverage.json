@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 261,
     "unverified": 146,
-    "horde": 224
+    "horde": 226
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,7 +15,7 @@
     "5": 65,
     "4": 45,
     "8": 47,
-    "9": 33,
+    "9": 35,
     "6": 73,
     "96": 8,
     "95": 18
@@ -55,7 +55,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Zephras Isle": 25,
-    "Riverglades": 4
+    "Riverglades": 6
   },
   "entries": [
     {
@@ -7694,6 +7694,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/259119"
     },
     {
+      "npc_id": 260487,
+      "name": "Gritta Chumwater",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown; external both-faction reaction not substituted for absent primary Alliance icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260487"
+    },
+    {
       "npc_id": 260558,
       "name": "Krix",
       "zone": "Riverglades",
@@ -7705,6 +7718,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; wider faction access not established by current reaction field",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260558"
+    },
+    {
+      "npc_id": 263326,
+      "name": "Madam Swyndle",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown; external both-faction reaction not substituted for absent primary Alliance icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263326"
     },
     {
       "npc_id": 266881,
@@ -7879,6 +7905,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 615,
-  "awaiting_signature_audio_profiles": 161
+  "authored_profiles": 617,
+  "awaiting_signature_audio_profiles": 163
 }

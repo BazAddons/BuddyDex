@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gritta Chumwater and Madam Swyndle: complete female Goblin profiles with thirty personal lines queued.
+- Expand Powderfuse Port companions with researched fishing and Black Market roles, without changing trade or quest rewards.
+
 - Add Bixi Wobblebonk: a complete female Gnome weapon-master profile with fifteen personal lines queued.
 - Preserve her researched training and referrals while adding a distinct off-duty paper-toss story.
 
@@ -210,4 +213,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **615 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **617 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

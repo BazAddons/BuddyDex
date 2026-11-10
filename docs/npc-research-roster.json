@@ -2870,5 +2870,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult female Gnome body, Alliance Friendly, all three current/Classic training rows and two own referral/greeting dialogues; no Scout sighting claimed",
     "research_notes": "docs/research/bixi-wobblebonk-technique-and-paper.md"
+  },
+  {
+    "npc_id": 260487,
+    "name": "Gritta Chumwater",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Goblin female body, Horde Friendly, own tabs/stock/gossip or agent role; contextual quest text gaps documented, no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-standards-and-private-composure.md"
+  },
+  {
+    "npc_id": 263326,
+    "name": "Madam Swyndle",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Goblin female body, Horde Friendly, own tabs/stock/gossip or agent role; contextual quest text gaps documented, no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-standards-and-private-composure.md"
   }
 ]

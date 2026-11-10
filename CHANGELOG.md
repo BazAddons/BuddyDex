@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gritta Chumwater and Madam Swyndle: complete female Goblin profiles with thirty personal lines queued.
+- Expand Powderfuse Port companions with researched fishing and Black Market roles, without changing trade or quest rewards.
+
 - Add Bixi Wobblebonk: a complete female Gnome weapon-master profile with fifteen personal lines queued.
 - Preserve her researched training and referrals while adding a distinct off-duty paper-toss story.
 

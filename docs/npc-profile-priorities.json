@@ -2541,6 +2541,20 @@
       "zone": "Ironforge",
       "route": "Ironforge Timberline Arms weapon master",
       "reason": "Complete female Gnome profile, fifteen queued lines, sourced weapon expertise/referrals and original off-duty hobby; no synthesis"
+    },
+    {
+      "npc_id": 260487,
+      "name": "Gritta Chumwater",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port fishing supplies",
+      "reason": "Complete adult female Goblin profile with fifteen queued lines; sourced role separated from original humor, no auction/quest rewards or synthesis"
+    },
+    {
+      "npc_id": 263326,
+      "name": "Madam Swyndle",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port Black Market agent",
+      "reason": "Complete adult female Goblin profile with fifteen queued lines; sourced role separated from original humor, no auction/quest rewards or synthesis"
     }
   ]
 }

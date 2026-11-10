@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gritta Chumwater <Fisherman>, Powderfuse Port, Riverglades. Adult
+    -- Goblin female142489/M2 119369, Horde Friendly/Vendor.14current
+    -- goods and own classy/boot-tracks gossip. Chum95988context is
+    -- Zizplinks task; own muddy-boots incident is original.
+    -- Research: docs/research/powderfuse-standards-and-private-composure.md
+    [260487] = {
+        quote = "Classy means you wipe your boots. The fish have an exemption.",
+        likes = { "Customers minding their muddy boots", "Fishing supplies kept ready for use", "A little ceremony for an ordinary shop" },
+        dislikes = { "Fresh tracks across a tidied space", "Carelessness around hooks and goods", "Her business dismissed as a shabby stall" },
+        gossip = "Gritta calls for a little class around her fishing goods. She can give a muddy footprint a remarkably forceful reception.",
+        bio = "Gritta Chumwater sells fish, fishing supplies, recipes, and Fresh Chum in Powderfuse Port. Her welcome makes clear that she considers the place a classy establishment. Customers are expected to mind where their boots have been.",
+        backstory = "She once prepared a fine lecture after finding fresh muddy tracks. Following them led her back to her own boots. She stopped, checked the soles, and found the whole performance much funnier than she had intended.",
+        secret = "She now glances at her own boots before beginning the grander part of a lecture. She still expects customers to mind theirs. The extra glance merely gives her a reason to smile first.",
+        bestFriend = "Mind the boots, and I shall mind mine. There. A very classy beginning. Stay a little, if you came for the company as well.",
+        favorite = {
+            emote = "BOW",
+            hint = "She appreciates someone treating her establishment with a little friendly ceremony.",
+        },
+        recordingVoice = "goblin-female",
+        lines = {
+            greet = { { "Good to see you. Mind the boots. We are beginning this outing with a little class.", tone = "[brisk] [welcoming]" }, "Ready. I have checked my own soles before offering anyone else an opinion." },
+            idle = { { "A very fine set of tracks. An excellent lecture prepared. My own boots at the end of them. Hm.", tone = "[wry] [amused]" }, "A fishing business can have standards. You need not buy something grand to remember your manners.", "Keep the supplies where you can find them. A classy beginning still needs the practical things." },
+            befriended = { { "You can enjoy a little ceremony without forgetting the joke. I would like more company of that sort.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Practical business, or are we admiring how carefully we arrived?", "I was considering whether the grand lecture needs a shorter beginning." },
+            bowBack = { { "Very gracious. I shall return the courtesy, having first checked where I am standing.", tone = "[playfully formal] [pleased]" } },
+            loot = { "Something useful? Keep it clear of what you mean to throw away." },
+            bagsFull = { "A proper sorting. A jumble does not become a fine collection merely because you carried it here." },
+            gear = { "See that it serves you before deciding it has improved the whole occasion." },
+            rest = { "A little pause is quite respectable. We can enjoy it without making a production of being busy." },
+            zone = { "New surroundings. We should find out which practical things the locals expect us to remember." },
+            thanked = { "You are welcome. A little care makes the business more pleasant for everyone." },
+        },
+    },
+
+    -- Madam Swyndle <Agent of the Black Market>, Powderfuse Port. Adult
+    -- Goblin female143669/M2 119369, Horde Friendly. Current own tabs0;
+    -- actual title/auction association distinct from beta inventory claims.
+    -- Absurd turnip announcement is original, no actual auction or discount.
+    -- Research: docs/research/powderfuse-standards-and-private-composure.md
+    [263326] = {
+        quote = "A composed expression is useful. A joke that defeats it is better kept among friends.",
+        likes = { "An offer understood before an answer", "A patient listener who notices a pause", "A private joke kept in good company" },
+        dislikes = { "Terms guessed at instead of read", "Friendship presented as a discount", "Every private moment becoming a performance" },
+        gossip = "Madam Swyndle can keep a composed expression through a great deal of business. A sufficiently absurd sentence is another matter.",
+        bio = "Madam Swyndle is an Agent of the Black Market in Powderfuse Port. She is associated with the port's Black Market auctions. Her manner leaves room to consider an offer before deciding how much of a response it deserves.",
+        backstory = "She began testing her composure with increasingly absurd announcements in private. Most became easy to deliver seriously. One involving a turnip remained troublesome, and she found herself looking forward to trying it again.",
+        secret = "The turnip has declined your offer. She can give the sentence a magnificent pause, but the solemn ending still threatens to make her laugh. She has no wish to train all the pleasure out of it.",
+        bestFriend = "You may supply the next absurd announcement. I shall attempt the proper expression. If I fail, I trust we can enjoy that privately.",
+        favorite = {
+            emote = "WINK",
+            hint = "She appreciates someone recognizing a private joke without making it the whole room's business.",
+        },
+        recordingVoice = "goblin-female",
+        lines = {
+            greet = { { "Good to see you. Take a moment to consider what the day is actually offering.", tone = "[composed] [welcoming]" }, "Ready. My expression is in order. The turnip announcement remains a private difficulty." },
+            idle = { { "The turnip has declined your offer. A pause. A very serious expression. Nearly.", tone = "[deadpan] [suppressing a laugh]" }, "An impressive introduction does not relieve you of understanding what is being offered.", "A private joke can remain pleasant without being performed for everybody who passes." },
+            befriended = { { "You have been good company without trying to turn it into a special arrangement. I would welcome more of that.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? State the practical matter, and leave a little time for the answer.", "I was considering whether the turnip would permit a further discussion. An entirely imaginary question." },
+            rest = { { "A quiet interval. No audience, no announcement. We may simply enjoy being here.", tone = "[relaxed] [warm]" } },
+            loot = { "Establish what you have before allowing the prospect of it to decide the whole question." },
+            bagsFull = { "A little review may show you which things you actually intended to keep." },
+            mail = { "A message. We should read the terms before composing a suitably impressive reply." },
+            gear = { "Useful for your purpose? That is a question worth asking before admiring the presentation." },
+            zone = { "New surroundings. Take a little time to learn what is understood here." },
+            thanked = { "You are welcome. We need not turn a pleasant acknowledgment into another negotiation." },
+        },
+    },
+
     -- Bixi Wobblebonk <Weapon Master>, Timberline Arms, Ironforge.
     -- Adult Gnome female12992/M2 940356, Alliance Friendly/Trainer.
     -- Three current/Classic weapon entries, two installed gossip variants
