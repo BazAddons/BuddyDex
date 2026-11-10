@@ -3521,5 +3521,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult High Order Skyborne woman, both factions Friendly; all fifteen current published general goods and item nodes, secondary stock disagreements documented; no own quest/gossip found; original backward-hopping paper frog distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/zephras-two-errands-and-a-backward-hop.md"
+  },
+  {
+    "npc_id": 256083,
+    "name": "Riaani Nightwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper man, Horde Friendly/Alliance Hostile; full93735/93737/93738repair and93746aftermath, progress text and installed greetings; anti-High Order attitude retained; original ducking habit distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-repairs-and-the-imaginary-miner.md"
+  },
+  {
+    "npc_id": 257022,
+    "name": "Messana Crestwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper woman, both Friendly; all sixteen lessons/four supplies and full97970/96638/96101camping context, two installed greetings; original day-off extension to sourced joke distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-repairs-and-the-imaginary-miner.md"
   }
 ]

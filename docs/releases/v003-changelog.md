@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Riaani Nightwind and Messana Crestwind: two full adult Windshaper profiles with thirty personal lines queued.
+- Research the full construct repair and immediate aftermath, mining lessons and camping chain; preserve Riaani's faction hostility and clearly mark original friendship writing.
+
 - Add Belandiel Farflight and Veena Vericloud: two full adult Skyborne profiles friendly to both factions, with thirty personal lines queued.
 - Research their exact published vendor stock and source differences; distinguish original shopping-list and paper-frog stories from established facts.
 
@@ -360,4 +363,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **708 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **710 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

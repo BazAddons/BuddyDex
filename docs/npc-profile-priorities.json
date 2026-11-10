@@ -3192,6 +3192,20 @@
       "zone": "Zephras Isle",
       "route": "Zephras early general goods",
       "reason": "Complete adult shared-friendly profile with fifteen personal lines queued; verified general vendor and original paper frog pastime; no synthesis"
+    },
+    {
+      "npc_id": 256083,
+      "name": "Riaani Nightwind",
+      "zone": "Zephras Isle",
+      "route": "Valanaar construct repair",
+      "reason": "Complete adult Horde profile with fifteen lines queued; verified repair chain and retained Alliance hostility; original open-air ducking habit; no synthesis"
+    },
+    {
+      "npc_id": 257022,
+      "name": "Messana Crestwind",
+      "zone": "Zephras Isle",
+      "route": "Shendar mining and camping",
+      "reason": "Complete adult shared-friendly profile with fifteen lines queued; verified mining/camping role and original day-off extension to sourced invisible-force joke; no synthesis"
     }
   ]
 }

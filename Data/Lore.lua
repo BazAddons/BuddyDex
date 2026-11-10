@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Riaani Nightwind <Windshaper Artisan>, western Valanaar. Adult
+    -- Windshaper male138120/M2 7478487, Horde Friendly/Alliance Hostile.
+    -- Full93735/93737/93738repair and93746aftermath read; strong
+    -- anti-High Order position retained. Open-air ducking is original.
+    -- Research: docs/research/valanaar-repairs-and-the-imaginary-miner.md
+    [256083] = {
+        quote = "Mind the plate. There is no plate here? Good. Consider it a precaution.",
+        likes = { "Components returned to their proper purpose", "A useful observation stated plainly", "A quiet acknowledgment while he works" },
+        dislikes = { "High Order tampering with wind devices", "A working mechanism stripped for curiosity", "Confidence offered in place of a part" },
+        gossip = "Riaani spends so much time beneath construct plates that he sometimes ducks in the open air. He calls this a sensible precaution.",
+        bio = "Riaani Nightwind is a Windshaper artisan repairing a damaged construct in western Valanaar. Ayessa sends help to recover its missing components. He hopes restoring the machine will also preserve its account of the theft.",
+        backstory = "The wind spirits' departure left few constructs working. Riaani needs a core, an Enchanted Gyrozephyr and Crystallized Lightning. Evidence of High Order interference sends his report to Ayessa, whose next decision is hers to make.",
+        secret = "Away from the construct, he sometimes ducks where a plate would have been. If a friend notices, he gives the empty air an offended look before admitting the habit.",
+        bestFriend = "Come along. I trust your company. If I duck under something that is not there, you may remind me. Once will be sufficient.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a quiet sign that you understood, especially when his attention is on a difficult repair.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "You are here. Good. Come along, and mind your head. Yes, I can see there is no plate overhead. A sensible habit need not be abandoned at every change of scenery.", tone = "[gruff] [welcoming]" }, "Ready. I trust you to notice what matters and say it plainly. I am pleased to have your company." },
+            idle = { { "I ducked. There was nothing above me. You may enjoy the observation briefly, and then we can both agree that familiarity with a construct's underside leaves a habit.", tone = "[dry] [reluctantly amused]" }, "A component has a purpose. Removing it to satisfy curiosity can leave the entire construct struggling to keep together. I have little patience for that sort of meddling.", "The missing parts are difficult enough. Whether the construct's memory has survived is another question, and one I would prefer not to answer with a guess." },
+            befriended = { { "You have become someone whose presence I welcome, even when there is no repair to discuss. Come along, friend. You may leave the occasional unnecessary duck unremarked.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? A useful observation? Say it plainly. I am listening.", "You have my attention. If I failed to notice you arriving, I was occupied. You may speak." },
+            quest = { { "Bring the actual part, and tell me where you found it. The explanation should serve the repair, not conceal what is still missing.", tone = "[firm] [focused]" } },
+            learned = { "Something learned. Give the new knowledge a proper purpose before pulling apart a thing that already works." },
+            gear = { "Check how the parts belong together. An impressive piece is little comfort when the essential component beside it is missing." },
+            loot = { "Look carefully. A thing removed from its purpose may not be nearly as useful elsewhere as somebody imagined." },
+            rest = { "A pause. Very well. I can sit without listening for a failing mechanism. Give me a moment to remember that." },
+            group = { "Give each person a clear task. If you expect useful help, make sure the helper knows what is actually needed." },
+            comforted = { "Thank you. I have not asked for reassurance, but I appreciate the company. You may stay." },
+        },
+    },
+
+    -- Messana Crestwind <Miner>, Shendar Village, Zephras. Adult
+    -- Windshaper female140079/M2 7478494; both factions Friendly.
+    -- All16lessons/four goods, two gossip variants and97970camping
+    -- chain read. Invisible-force joke is sourced; day-off joke original.
+    -- Research: docs/research/valanaar-repairs-and-the-imaginary-miner.md
+    [257022] = {
+        quote = "If I am inventing an invisible miner, I can allow the poor fiction a day off.",
+        likes = { "A learner willing to ask about the rock", "A good joke with the answer still open", "A little rest after honest work" },
+        dislikes = { "Speculation presented as a proven cause", "A novice blamed for needing a lesson", "Treating a pause as evidence of laziness" },
+        gossip = "Messana jokes about whoever keeps providing the island's mineral deposits. On a quiet day, she suggests the invisible worker has earned a break.",
+        bio = "Messana Crestwind teaches mining in Shen'dar Village. She sells picks, coal and flux, and teaches campers to make a Lodestone once they have shown their skill. A floating island still gives her profession plenty to discover.",
+        backstory = "Her own account wonders how the island keeps yielding minerals after so many ages. She offers an invisible force as a joke rather than a settled answer. The deposits remain work for miners, whatever the explanation may be.",
+        secret = "When she imagines the invisible miner taking a well-earned rest, it is partly permission for herself. She finds the joke a pleasant way to admit she has done enough for the day.",
+        bestFriend = "Come along. I am glad you can enjoy both the question and the joke. If we stop for a rest, the imaginary miner may join us.",
+        favorite = {
+            emote = "WINK",
+            hint = "Her theory about an unseen worker invites a friend to recognize the joke without demanding a final answer.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Shall we? I should like your company. If the invisible miner is working today, I have yet to receive a report. We may have to enjoy the walk without one.", tone = "[warm] [wry]" }, "Ready, friend. Tell me what you have found. An interesting question is welcome, even if it has not brought its answer along." },
+            idle = { { "If I am inventing an invisible miner to explain the new deposits, I can allow the poor fiction a day off. On occasion, I extend the same consideration to myself.", tone = "[dry] [amused]" }, "A floating island, and still plenty for miners to learn. The joke about an invisible force is not a substitute for looking carefully at what is actually here.", "Picks, coal and flux. The useful supplies deserve attention before the most entertaining theory takes over the whole lesson." },
+            befriended = { { "You have become welcome company, whether the day brings a remarkable discovery or a sensible stopping place. Come along, friend. I am glad we can enjoy both.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A discovery, or a question about the imaginary worker? I can offer more certainty about the first if you show it to me.", "I am listening. Take your time. A learner should not have to disguise a question as an answer." },
+            laughAlong = { { "Exactly. A very convenient invisible colleague. I can give the joke a little credit without making it responsible for my mining.", tone = "[knowing] [amused]" } },
+            learned = { "Something learned. Look at the material again with that in mind, and see what you notice now." },
+            loot = { "Have a look before deciding what it is worth. Knowing the material is more useful than a confident guess about its appearance." },
+            rest = { "A pause. The imaginary miner may have one, and so may we. I am pleased to sit with you." },
+            group = { "Make sure everyone has heard the explanation. A question left unasked can travel a long way with a group." },
+            zone = { "Notice what the ground has to tell you. The account you brought is useful, but it is worth looking for yourself." },
+            quest = { "Understand what you are being asked to learn. A useful lesson leaves you better able to do the next part for yourself." },
+        },
+    },
+
     -- Belandiel Farflight <Trade Supplies>, Zephras Isle. Adult High
     -- Order Skyborne male138145/M2 7478487; both factions Friendly.
     -- All18published goods/item nodes read; hotfix stock gap noted.

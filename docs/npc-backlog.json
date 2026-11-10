@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 708,
-  "written_complete_count": 708,
-  "awaiting_signature_audio_count": 254,
+  "authored_count": 710,
+  "written_complete_count": 710,
+  "awaiting_signature_audio_count": 256,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 256,
+  "remaining_count": 258,
   "completed": [
     {
       "npc_id": 54,
@@ -6875,6 +6875,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 256083,
+      "name": "Riaani Nightwind",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Windshaper man, Horde Friendly/Alliance Hostile; full93735/93737/93738repair and93746aftermath, progress text and installed greetings; anti-High Order attitude retained; original ducking habit distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/valanaar-repairs-and-the-imaginary-miner.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 256733,
       "name": "Fritz Fizzle",
       "zone": "Redridge Mountains",
@@ -6974,6 +6986,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult Skyborne women/man, explicit faction Friendly; all own relationship/lesson/stock rows, installed dialogue and exact related camp handoffs read; primary faction icons distinguished; no Scout sighting claimed",
       "research_notes": "docs/research/zephras-chairs-cake-and-a-lost-boot.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 257022,
+      "name": "Messana Crestwind",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Windshaper woman, both Friendly; all sixteen lessons/four supplies and full97970/96638/96101camping context, two installed greetings; original day-off extension to sourced joke distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/valanaar-repairs-and-the-imaginary-miner.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
