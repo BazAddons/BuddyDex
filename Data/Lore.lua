@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Afadra Dunwall <Lorekeeper of Ironforge>, Hall of Thanes entrance.
+    -- Adult Dwarf female144322/M2 950080, Alliance Friendly. Full96394
+    -- incl primary progress/completion; practical keeper response.
+    -- Formal thanks to a broom are original, not a reward/ritual.
+    -- Research: docs/research/afadras-dependable-colleague-and-searns-supper.md
+    [264943] = {
+        quote = "A hall does not keep itself. Not when it is quiet, and certainly not when the dead begin offering opinions.",
+        likes = { "A resting place kept in proper order", "Useful help without a grand ceremony", "A laugh after stubborn work" },
+        dislikes = { "A ghost story offered instead of help", "The keepers' work treated as invisible", "An ordinary task made into an ordeal" },
+        gossip = "Afadra has called a broom her most dependable colleague. Judging by her expression, she may have been complimenting the broom.",
+        bio = "Afadra Dunwall is a Lorekeeper of Ironforge near the Hall of Thanes. With the tombs disturbed and keepers reluctant to enter, she asks an adventurer to deal with the restless dead so the hall's duties can continue.",
+        backstory = "Strange sounds from the vaults and awakened spirits make a practical problem for the keepers. Afadra's response is brisk: settle the dead and get the work moving. The dignity of the hall includes the ordinary effort of maintaining it.",
+        secret = "She once thanked a broom with a very formal bow after a stubborn cobweb gave way. There was no audience she knew of. She would prefer you enjoy the joke without arranging a ceremony of your own.",
+        bestFriend = "Come along. The dependable colleague can manage without us for a moment. If you bow to the broom, do it when I am not looking.",
+        favorite = {
+            emote = "BOW",
+            hint = "She can appreciate a little solemn dignity when both people know there is a joke beneath it.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Come along. I would like a little company that does not begin with a report of something moaning in a vault.", tone = "[brisk] [dryly welcoming]" }, "Good to see you. We may speak of ordinary things for a while. I have no objection to ordinary things behaving themselves." },
+            idle = { { "I thanked the broom very properly. It had been useful, and it had not once refused to go near a cobweb. Dependable work deserves recognition.", tone = "[deadpan] [amused]" }, "A hall is not kept by a fine title. Someone has to do the work while everyone else admires what is being kept.", "I would rather hear what needs doing than another elaborate account of why it ought to frighten me." },
+            befriended = { { "You have been useful company, and pleasant company besides. Come along, friend. We may leave the grand ceremony for someone with less to do.", tone = "[rough warmth] [sincere]" } },
+            poke = { "Yes? Is there something to be done, or something worth hearing?", "Go on. Keep the dramatic introduction brief." },
+            rest = { { "A moment away from the work is allowed. Even a dependable colleague can lean against the wall for a little while.", tone = "[wry] [at ease]" } },
+            quest = { "Find out what needs doing, do it properly, and report back. A frightening description does not finish the task for you." },
+            loot = { "Have a look before you pocket it. Knowing what belongs where is part of keeping a place in order." },
+            newFriend = { "Someone new. Tell me their name before you tell me how impressive I am meant to find them." },
+            thanked = { "You are welcome. Good to know the work was useful." },
+            group = { "All of us have something to do. Let us make certain the quiet jobs are remembered as well as the impressive ones." },
+            combatEnd = { "Good. Check what still needs attention before you begin the account of how difficult that was." },
+        },
+    },
+
+    -- Searn Firewarder, Orgrimmar. Adult Troll male4534/M2 1022938.
+    -- Current Horde Neutral; positive faction access unverified. Full1522/
+    -- 1528/1531 and downstream rites reviewed; teacher respect and teasing.
+    -- Call to supper is original, not a new class quest or item reward.
+    -- Research: docs/research/afadras-dependable-colleague-and-searns-supper.md
+    [5892] = {
+        quote = "Not every calling sends you across the Barrens. The call to supper can be answered much closer to home.",
+        likes = { "A student ready to respect the next teacher", "A joke received in good humor", "Company answering the call to supper" },
+        dislikes = { "Readiness mistaken for knowing everything", "A teacher greeted without respect", "A friendly invitation made too complicated" },
+        gossip = "Asked what calling followed air, Searn suggested supper. His directions were unusually short, and this time he offered to come along.",
+        bio = "Searn Firewarder guides shamans from Orgrimmar toward Kranal Fiss, Islen Waterseer and Prate Cloudseer. He recognizes progress and sends students onward with practical directions, respect for their teachers and an occasional teasing aside.",
+        backstory = "His referrals mark readiness for fire, water and air. The journeys and rites belong to the student and the teachers ahead. Searn can point out the road without pretending the learning is finished before the traveler has taken it.",
+        secret = "He likes calling supper a great calling. For once he can take the short road himself and hear about a friend's journey over a meal, instead of sending them away.",
+        bestFriend = "The next calling can be supper. I know a shorter road for that one. Come with me. I would like the company, not a report afterward.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates respect that still leaves room for a friendly bit of teasing.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "There you are. Come along. This road need not end at another teacher. I am glad to have company for the walk itself.", tone = "[easygoing] [welcoming]" }, "Good to see you. Tell me how you have been doing. There is time before I send anybody anywhere." },
+            idle = { { "They asked what calling comes after air. I suggested supper. Short directions, no grand journey, and this time I could come along. A promising sort of calling.", tone = "[playful] [warm]" }, "Being ready for the next teacher does not mean there is nothing left to learn. It means you have come far enough to begin again.", "Show a teacher respect. A little good humor can travel with it, provided you know when to let the joke rest." },
+            befriended = { { "I would like a little company that stays beside me for a while. Come along, friend. We need not make every visit into another set of directions.", tone = "[sincere] [fond]" } },
+            poke = { "Yes? Looking for the next road, or just a little conversation?", "Go on. I hope the directions were useful. If not, we can begin with the part you needed me to explain." },
+            rest = { { "A fine time to answer the call to supper. No need to cross half the land before you take a proper pause.", tone = "[amused] [settled]" } },
+            learned = { "Good. Carry that lesson with you when you meet the next one. A new understanding need not push the old one out." },
+            quest = { "Listen to the whole request before setting off. A clear direction is no help if you leave before hearing it." },
+            newFriend = { "Someone new. Give them room to tell you who they are before deciding where they ought to go next." },
+            thanked = { "You are welcome. Good to know the words helped you find your way." },
+            group = { "Make certain everyone knows where we are going. The quickest traveler is not much help if the others have been left guessing." },
+            zone = { "Take a good look at the place you have reached. Directions should bring you somewhere worth noticing." },
+        },
+    },
+
     -- Fendaal Windstone <Peacekeeper>, Zephras Isle. Adult High Order
     -- Skyborne male147228/M2 7478487, both factions Friendly. Full98512
     -- acceptance/progress/completion and connected campaign reviewed.

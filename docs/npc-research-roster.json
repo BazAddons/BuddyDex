@@ -3892,5 +3892,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult Dwarf woman; explicit Friendly horde; Two own greetings and converted outlook; original visitor settling toward the view; no Scout sighting claimed",
     "research_notes": "docs/research/fendaals-safe-noise-and-agriels-view.md"
+  },
+  {
+    "npc_id": 264943,
+    "name": "Afadra Dunwall",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Alliance Dwarf woman; Full96394 and dungeon tablet context; original solemn thanks to an ordinary broom; no Scout sighting claimed",
+    "research_notes": "docs/research/afadras-dependable-colleague-and-searns-supper.md"
+  },
+  {
+    "npc_id": 5892,
+    "name": "Searn Firewarder",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Troll man; current Horde Neutral, positive faction access unverified; Full fire water air referrals and downstream rites; original call to supper, no access override; no Scout sighting claimed",
+    "research_notes": "docs/research/afadras-dependable-colleague-and-searns-supper.md"
   }
 ]

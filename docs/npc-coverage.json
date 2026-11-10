@@ -3,18 +3,18 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 327,
-    "unverified": 160,
+    "alliance": 328,
+    "unverified": 161,
     "horde": 308
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 64,
+    "3": 65,
     "7": 57,
     "2": 82,
     "5": 81,
     "4": 63,
-    "8": 59,
+    "8": 60,
     "9": 51,
     "6": 83,
     "96": 23,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 4,
-    "Ironforge": 57,
+    "Ironforge": 58,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
     "Undercity": 16,
@@ -38,7 +38,7 @@
     "Teldrassil": 26,
     "Hillsbrad Foothills": 9,
     "Arathi Highlands": 11,
-    "Orgrimmar": 50,
+    "Orgrimmar": 51,
     "Badlands": 1,
     "Darkshore": 11,
     "Mulgore": 22,
@@ -6343,6 +6343,17 @@
       "audio_status": "All personal recordings pending; user requested no synthesis until billing confirmed fixed"
     },
     {
+      "npc_id": 5892,
+      "name": "Searn Firewarder",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5892"
+    },
+    {
       "npc_id": 5917,
       "name": "Clara Charles",
       "zone": "Elwynn Forest",
@@ -9522,6 +9533,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/264074"
     },
     {
+      "npc_id": 264943,
+      "name": "Afadra Dunwall",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/264943"
+    },
+    {
       "npc_id": 265348,
       "name": "Agriel Firebrew",
       "zone": "Wetlands",
@@ -9771,6 +9795,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 761,
-  "awaiting_signature_audio_profiles": 307
+  "authored_profiles": 763,
+  "awaiting_signature_audio_profiles": 309
 }

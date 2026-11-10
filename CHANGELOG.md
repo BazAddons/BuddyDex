@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Afadra Dunwall and Searn Firewarder: adult Dwarf Lorekeeper and Troll elemental-referral profiles, with thirty personal lines queued.
+- Review complete keeper and elemental quest text; preserve ordinary eligibility and document original broom ceremony and supper calling.
+
 - Add Fendaal Windstone and Agriel Firebrew: shared Skyborne Peacekeeper and Horde-friendly Dwarf host profiles, with thirty personal lines queued.
 - Review patrol/campaign text and hospitality dialogue; preserve faction evidence and document original safe-noise and lookout-view stories.
 
