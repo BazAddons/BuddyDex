@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Thom Filch and Master Mycologist Shurome: adult Gnome and Forsaken profiles with thirty personal lines queued.
+- Preserve Important Heirlooms quest ambiguity; document original wording-rehearsal and mushroom-sketch stories.
+
 - Add Grenhild Darktalon and Xaphod Bizznox: adult Dwarf and Goblin profiles, with thirty personal lines queued.
 - Review full Snowbound dialogue and all four vendor goods; document original mentor-visit and kitten-supervisor stories.
 

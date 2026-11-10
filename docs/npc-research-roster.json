@@ -3976,5 +3976,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult unverified man; Four current goods and neutral-access limits; original kitten-supervisor joke; no Scout sighting claimed",
     "research_notes": "docs/research/grenhilds-visit-and-xaphods-supervisor.md"
+  },
+  {
+    "npc_id": 265003,
+    "name": "Thom Filch",
+    "zone": "Ironforge",
+    "source": "Reviewed adult unverified man; Full96403 self-corrections; original dignified-wording rehearsal; no Scout sighting claimed",
+    "research_notes": "docs/research/thoms-wording-and-shuromes-door.md"
+  },
+  {
+    "npc_id": 259585,
+    "name": "Master Mycologist Shurome",
+    "zone": "Felwood",
+    "source": "Reviewed adult horde man; Exact Emerald Circle title and current trainer body; original imaginary door sketch; no Scout sighting claimed",
+    "research_notes": "docs/research/thoms-wording-and-shuromes-door.md"
   }
 ]

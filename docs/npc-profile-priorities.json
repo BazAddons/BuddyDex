@@ -3647,6 +3647,20 @@
       "zone": "Stonetalon Mountains",
       "route": "Southern Stonetalon camp vendor",
       "reason": "Four current goods and neutral-access limits; original kitten-supervisor joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 265003,
+      "name": "Thom Filch",
+      "zone": "Ironforge",
+      "route": "Hall of Thanes entrance",
+      "reason": "Full96403 self-corrections; original dignified-wording rehearsal; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 259585,
+      "name": "Master Mycologist Shurome",
+      "zone": "Felwood",
+      "route": "Emerald Sanctuary trainer",
+      "reason": "Exact Emerald Circle title and current trainer body; original imaginary door sketch; fifteen personal lines queued without synthesis"
     }
   ]
 }

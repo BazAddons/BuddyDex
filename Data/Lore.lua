@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Thom Filch, Hall of Thanes entrance/Ironforge. Adult Gnome
+    -- male144349/M2 900914; Alliance Neutral, positive access unverified.
+    -- Full96403 includes conspicuous appraisal/loot corrections.
+    -- Practicing dignified wording with still hands is original.
+    -- Research: docs/research/thoms-wording-and-shuromes-door.md
+    [265003] = {
+        quote = "If I pause before saying cultural significance, I am selecting the respectful expression. You will appreciate the care I take with words.",
+        likes = { "An enterprising helper", "A useful object described respectfully", "A friend who catches the correction" },
+        dislikes = { "His wording corrected before he finishes", "A promising find handled carelessly", "A perfectly good explanation overexamined" },
+        gossip = "Thom has practiced a respectful description while holding his hands very still. Apparently the hands have a habit of explaining too much.",
+        bio = "Thom Filch requests heirlooms from the Hall of Thanes in Ironforge. He promises they will be cataloged and returned to honor. His repeated corrections of words about loot and appraisal give his explanation a distinctly enterprising character.",
+        backstory = "He says he was in the vaults when Dark Iron dwarves arrived in mole machines. Unsure of their purpose, he asks for relics recovered. His interest in their value is difficult to hide, however carefully he describes the task.",
+        secret = "He has practiced a dignified explanation with his hands held still. It lasts until he imagines the interesting object being discussed. Then he has to begin again with a little more dignity.",
+        bestFriend = "Come along. You may enjoy the careful wording without correcting every pause. I believe we understand one another quite adequately.",
+        favorite = {
+            emote = "WINK",
+            hint = "He enjoys a companion recognizing the thought that slipped between his careful words.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. I have been practicing a very respectful description. You may judge the wording, provided you allow me to reach the respectful part.", tone = "[smooth] [self-satisfied]" }, "Good company. A conversation with you need not require quite so many corrections before we understand one another." },
+            idle = { { "I kept my hands still for almost the entire explanation. A promising result. Then I imagined the object and had to begin again. Dignity requires practice.", tone = "[wry] [confiding]" }, "An object's importance may be appreciated from several angles. You need not interrupt merely because I began with the most immediately apparent one.", "I would like a little time to choose my words. It is remarkably difficult to sound properly respectful when someone keeps finishing the sentence." },
+            befriended = { { "You have become company I am pleased to see without first inventing a particularly dignified reason for the visit. Come along, friend.", tone = "[warm] [sly]" } },
+            poke = { "Yes? I was about to select the more suitable expression.", "Go on. We can both take a moment to decide what we actually mean." },
+            loot = { { "Handle it carefully. A useful appraisal begins with an object still in the condition in which you found it.", tone = "[attentive] [measured]" } },
+            quest = { "Hear the request through to its conclusion. A pause in the explanation may simply indicate exceptional care with the wording." },
+            mail = { "A message. Let us see what the writer chose to say before appreciating everything they have carefully avoided saying." },
+            rest = { "A useful pause. One can recover one's dignity without needing an audience for the process." },
+            newFriend = { "Someone new. A courteous introduction will do. We can discover whether a more elaborate explanation is required afterward." },
+            thanked = { "You are welcome. I appreciate your recognizing the useful part of the arrangement." },
+            group = { "Let everyone finish explaining their part before we decide how impressively to describe the whole undertaking." },
+        },
+    },
+
+    -- Master Mycologist Shurome <Emerald Circle>, Emerald Sanctuary/
+    -- Felwood. Adult Forsaken male141677/M2 959310, Horde Friendly.
+    -- Trainer service, no own linked quest/gossip; exact rank unpromised.
+    -- Mushroom sketch with an imaginary little door is original.
+    -- Research: docs/research/thoms-wording-and-shuromes-door.md
+    [259585] = {
+        quote = "The gills belong in the drawing. The tiny door was a private addition. You may consider that part of the picture less instructive.",
+        likes = { "A specimen observed carefully", "A patient look at a small drawing", "A smile at an unnecessary little detail" },
+        dislikes = { "An identification made from a hasty glance", "A private doodle treated as a new species", "Every small amusement required to be useful" },
+        gossip = "Shurome has drawn a tiny door beneath a mushroom cap. The rest of the drawing appeared rather more serious. He declined to identify the tenant.",
+        bio = "Master Mycologist Shurome is a Forsaken trainer of the Emerald Circle in Felwood's Emerald Sanctuary. He enjoys studying fungi closely. Occasionally a careful drawing acquires a little detail whose purpose is simply to amuse him.",
+        backstory = "A sketch of a mushroom cap left room for a tiny doorway below it. He added one, then considered where a window might fit. The drawing remained useful enough; the imaginary house was an enjoyable private complication.",
+        secret = "He keeps changing where the little door ought to go. The sketch needs no tenant and no explanation. It pleases him to spend careful attention on an entirely invented problem.",
+        bestFriend = "Stay a moment. I moved the little door again. Tell me whether you prefer it there. We need no lesson to enjoy the question.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He appreciates someone enjoying the fanciful detail without demanding that it teach anything.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. Come along. I have been looking closely at a small problem. An invented one, for a change. There is a certain pleasure in being able to move the door.", tone = "[low] [dryly amused]" }, "Good to see you. You may ask what I have noticed, or what I have drawn where no observation required it." },
+            idle = { { "The little door looked wrong on that side. I moved it. No specimen was altered, no grand discovery occurred, and I found the afternoon agreeably improved.", tone = "[deadpan] [pleased]" }, "A fanciful addition to a drawing need not become a claim about the thing being drawn. I have no intention of identifying a new species by its windows.", "Look at a small thing for long enough and you may find something worth noticing. Occasionally you may also decide it would suit a tiny door." },
+            befriended = { { "Your company gives me room to share an unnecessary little amusement without defending it as useful work. Come along, friend. I appreciate that.", tone = "[restrained warmth] [sincere]" } },
+            poke = { "Yes? You may ask about the specimen. If you ask about the door, I reserve the right to move it again.", "Go on. Let me hear what caught your attention before I explain what caught mine." },
+            learned = { { "Good. Keep the observation distinct from the idea it suggested. Both may be interesting, but they answer different questions.", tone = "[measured] [instructive]" } },
+            loot = { "Have a proper look before deciding you recognize it. A familiar shape may still deserve a second observation." },
+            rest = { "A little pause. We may enjoy an entirely invented question without requiring it to advance the work." },
+            zone = { "Let us take a little time to notice what is here. The first glance need not complete the whole account." },
+            newFriend = { "Someone new. There may be something they have noticed that we have been passing without seeing." },
+            thanked = { "You are welcome. I am pleased the observation proved worth sharing." },
+            group = { "Let each person describe what they saw before we decide which explanation ought to occupy the whole conversation." },
+        },
+    },
+
     -- Grenhild Darktalon, Thelsamar/Loch Modan. Adult Dwarf female
     -- 36630/M2 950080, Alliance Friendly. Full86667 confirms mentor
     -- Norric, local elementals, snow errand and his wish for a visit.
