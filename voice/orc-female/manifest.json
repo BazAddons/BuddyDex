@@ -119,6 +119,46 @@
     "text": "Or'Kalar bears an old hatred for my husband. My auguries warn of a trap, and I have kept its signs from Drum because I fear how quickly he would rush toward it. You may question my silence. I have questioned it myself. That has not made me willing to surrender his life to another person's revenge.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore2821_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2821",
+    "spoken": "[warm] [sincere] [playful] You have become someone I am glad to see after the useful part of the conversation is finished. Come along, friend. There is more to company than remembering the next thing to buy. If you wish, you may help choose the next scrap for the tassel. Consider it carefully. I expect a truly unreasonable combination of colors from someone I trust.",
+    "text": "You have become someone I am glad to see after the useful part of the conversation is finished. Come along, friend. There is more to company than remembering the next thing to buy. If you wish, you may help choose the next scrap for the tassel. Consider it carefully. I expect a truly unreasonable combination of colors from someone I trust.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2821_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2821",
+    "spoken": "[brisk] [friendly] [wry] What do you need today? Thread, dye, tools, spices? Give me a clear request and we can get somewhere useful. If you have stopped to inspect my little tassel, that is another conversation. I am considering a new scrap for it. The colors do not agree with each other, which is becoming rather the point of the thing.",
+    "text": "What do you need today? Thread, dye, tools, spices? Give me a clear request and we can get somewhere useful. If you have stopped to inspect my little tassel, that is another conversation. I am considering a new scrap for it. The colors do not agree with each other, which is becoming rather the point of the thing.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2821_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2821",
+    "spoken": "[dryly amused] [proud] [conversational] I tied a few leftover pieces of colored thread together because they were still useful. Then I added another. Someone said the colors ought to match, so I considered the matter carefully and added a color that made that considerably less possible. A small piece of work, but I remain very pleased with the decision.",
+    "text": "I tied a few leftover pieces of colored thread together because they were still useful. Then I added another. Someone said the colors ought to match, so I considered the matter carefully and added a color that made that considerably less possible. A small piece of work, but I remain very pleased with the decision.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2821_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:2821",
+    "spoken": "[instructive] [practical] [warm] Look at what you have before deciding what must be bought. A useful supply can save another journey if you know where you put it. Then tell me clearly what is missing. Thread, vials, tools, spices: each has its purpose. Keep a little scrap aside if it catches your eye. Mine eventually became something worth a conversation.",
+    "text": "Look at what you have before deciding what must be bought. A useful supply can save another journey if you know where you put it. Then tell me clearly what is missing. Thread, vials, tools, spices: each has its purpose. Keep a little scrap aside if it catches your eye. Mine eventually became something worth a conversation.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore2851_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

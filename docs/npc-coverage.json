@@ -1,17 +1,17 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 416,
+  "completed_profiles": 418,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 207,
     "unverified": 99,
-    "horde": 117
+    "horde": 119
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 33,
+    "2": 35,
     "5": 39,
     "4": 21,
     "8": 27,
@@ -33,7 +33,7 @@
     "Silverpine Forest": 3,
     "Teldrassil": 9,
     "Hillsbrad Foothills": 1,
-    "Arathi Highlands": 7,
+    "Arathi Highlands": 9,
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 10,
@@ -2137,6 +2137,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2772"
     },
     {
+      "npc_id": 2792,
+      "name": "Gor'mul",
+      "zone": "Arathi Highlands",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2792"
+    },
+    {
       "npc_id": 2795,
       "name": "Lenny \"Fingers\" McCoy",
       "zone": "Stormwind City",
@@ -2146,6 +2159,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2795"
+    },
+    {
+      "npc_id": 2821,
+      "name": "Keena",
+      "zone": "Arathi Highlands",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2821"
     },
     {
       "npc_id": 2832,

@@ -39,6 +39,46 @@
     "text": "The enemy you have already beaten is no reason to grow comfortable. There are harder foes ahead, and Hammerfall needs fighters who can meet them. Finish the task, return, and tell me what happened. If battle tests you, let it find tenacity. I have respect for someone who keeps answering the challenge when it grows harder.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore2792_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2792",
+    "spoken": "[reserved] [sincere] [gentle] I know your step now. You have become someone whose return I notice, and whose company I am willing to keep. Come, friend. I cannot promise a bright answer for every day ahead. I can say that I am glad you came back today. We need not make a speech of more than that before we walk together.",
+    "text": "I know your step now. You have become someone whose return I notice, and whose company I am willing to keep. Come, friend. I cannot promise a bright answer for every day ahead. I can say that I am glad you came back today. We need not make a speech of more than that before we walk together.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2792_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2792",
+    "spoken": "[weary] [reserved] [gruff] You have come back. I heard your step before I looked up. There is no need to arrive with a speech about what I ought to feel. Stand beside me if you wish, or tell me something plain about the road. I can listen without promising the answer you may have hoped to hear.",
+    "text": "You have come back. I heard your step before I looked up. There is no need to arrive with a speech about what I ought to feel. Stand beside me if you wish, or tell me something plain about the road. I can listen without promising the answer you may have hoped to hear.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2792_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2792",
+    "spoken": "[reflective] [quiet] [gruff] A familiar step can tell you who is coming before you turn your head. I have learned a few of them here. Once, I was certain I knew a visitor's boots and looked up to find someone else. He stayed awhile anyway. I found I did not much mind being wrong about the sound.",
+    "text": "A familiar step can tell you who is coming before you turn your head. I have learned a few of them here. Once, I was certain I knew a visitor's boots and looked up to find someone else. He stayed awhile anyway. I found I did not much mind being wrong about the sound.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2792_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:2792",
+    "spoken": "[quiet] [weary] [sincere] Stay a moment if you wish. You need not search for the words that will put an old memory right. Tell me something ordinary, or let the silence stand. I have heard enough people speak as though a better sentence would settle everything. For now, I am willing to share this moment with you as it is.",
+    "text": "Stay a moment if you wish. You need not search for the words that will put an old memory right. Tell me something ordinary, or let the silence stand. I have heard enough people speak as though a better sentence would settle everything. For now, I am willing to share this moment with you as it is.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore2861_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

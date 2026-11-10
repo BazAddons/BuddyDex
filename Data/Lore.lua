@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gor'mul, Hammerfall,2792/4048. Adult male Orc, Horde Friendly.
+    --655/672/674/675/701/702/847: former captive, witnesses Doomhammer's
+    -- death, rejects amulet then agrees temporarily to hear Tor'gan.
+    -- Recognizing familiar footsteps is original; no permanent cure.
+    -- Research: docs/research/gormul-and-keena-queue.md.
+    [2792] = {
+        quote = "You may speak, or stand beside me awhile. I have heard many words about hope. I do not always need more of them.",
+        likes = { "Company that does not demand a story", "A familiar step returning to the camp", "Strength remembered without boasting" },
+        dislikes = { "Pity offered as an easy answer", "Orgrim's death made into a grand boast", "Being hurried into a cheerful reply" },
+        gossip = "Gor'mul recognizes the pace of familiar boots before looking up. He rarely makes much of knowing who is coming.",
+        bio = "Gor'mul remains in Hammerfall, burdened by memories of captivity and Doomhammer's death. Tor'gan tries to reach him through shamanistic power. He rejects an amulet, but an orb later stirs his interest enough to listen, at least for a time.",
+        backstory = "A captive in the camp, Gor'mul saw Orgrim fall during the liberation led by Thrall and Doomhammer. Left behind while others escaped, he wandered without hope for years. He was still lost when the Horde returned to establish Hammerfall.",
+        secret = "He has mistaken one visitor's footsteps for another's. When the visitor stayed anyway, he found he did not much mind having been wrong.",
+        bestFriend = "I know your step now. Stay awhile, friend. You need not put everything right. Your company is enough for this moment.",
+        favorite = { emote = "NOD", hint = "A quiet acknowledgment leaves him room to answer without demanding a speech." },
+        lines = {
+            greet = { { "You have come back. I heard your step before I looked up. There is no need to arrive with a speech about what I ought to feel. Stand beside me if you wish, or tell me something plain about the road. I can listen without promising the answer you may have hoped to hear.", tone = "[weary] [reserved] [gruff]" },
+                "It is you. I thought I knew the pace of those boots." },
+            idle = { { "A familiar step can tell you who is coming before you turn your head. I have learned a few of them here. Once, I was certain I knew a visitor's boots and looked up to find someone else. He stayed awhile anyway. I found I did not much mind being wrong about the sound.", tone = "[reflective] [quiet] [gruff]" },
+                "Tor'gan keeps trying. I have not always welcomed the effort.",
+                "There are things I remember clearly. A louder telling does not make them easier to carry." },
+            befriended = { { "I know your step now. You have become someone whose return I notice, and whose company I am willing to keep. Come, friend. I cannot promise a bright answer for every day ahead. I can say that I am glad you came back today. We need not make a speech of more than that before we walk together.", tone = "[reserved] [sincere] [gentle]" } },
+            poke = { "Yes? I heard you.", "I am here. Say what you came to say." },
+            rest = { { "Stay a moment if you wish. You need not search for the words that will put an old memory right. Tell me something ordinary, or let the silence stand. I have heard enough people speak as though a better sentence would settle everything. For now, I am willing to share this moment with you as it is.", tone = "[quiet] [weary] [sincere]" } },
+            quest = { "Tor'gan's first amulet did not move me. The power in his orb was another matter. I agreed to hear him." },
+            combatStart = { "Mind the danger in front of you." },
+            combatEnd = { "You are still standing. Take a moment before you speak of what comes next." },
+            lowHealth = { "Enough. Get clear while you can still move." },
+            back = { "You returned. I noticed." },
+            hearth = { "Hammerfall again. I know this ground." },
+        },
+    },
+
+    -- Keena <Trade Goods>, Hammerfall,2821/3953. Adult female Orc,
+    -- Horde Friendly. Current32-row stock includes supplies and recipes;
+    -- no own quest/teaching. Mismatched thread tassel is original.
+    -- No retail Red Dawn/Dezco aftermath imported.
+    -- Research: docs/research/gormul-and-keena-queue.md.
+    [2821] = {
+        quote = "Tell me what you need, and we will find the useful thing. If you are looking at my tassel, I make no promise about its usefulness.",
+        likes = { "Knowing which supply a customer needs", "A useful scrap given another purpose", "A truly unreasonable mixture of colors" },
+        dislikes = { "A vague request followed by impatience", "Good thread discarded without a thought", "Being told the tassel ought to match" },
+        gossip = "Keena adds scraps to her thread tassel. Each addition makes it less likely to match anything she owns. That seems to please her.",
+        bio = "Keena sells trade goods in Hammerfall: thread, dye, tools, vials, spices, and other practical supplies. Her stock also includes patterns, an enchanting formula, and cooking recipes. A clear request helps her find what a busy customer actually needs.",
+        backstory = "Keena once tied a few leftover lengths of colored thread together rather than throw them away. The little tassel grew with each useful scrap. When someone suggested making the colors match, she added another that made the suggestion much harder to follow.",
+        secret = "She weighs each new scrap against the tassel with a very serious face. The most ridiculous combination usually wins.",
+        bestFriend = "Come along, friend. I enjoy your company after the shopping is done. Help me choose the next terrible color combination.",
+        favorite = { emote = "WINK", hint = "A small conspiratorial gesture would show you understand how seriously she takes that ridiculous tassel." },
+        lines = {
+            greet = { { "What do you need today? Thread, dye, tools, spices? Give me a clear request and we can get somewhere useful. If you have stopped to inspect my little tassel, that is another conversation. I am considering a new scrap for it. The colors do not agree with each other, which is becoming rather the point of the thing.", tone = "[brisk] [friendly] [wry]" },
+                "There you are. Have you remembered what you needed, or come to argue with the tassel?" },
+            idle = { { "I tied a few leftover pieces of colored thread together because they were still useful. Then I added another. Someone said the colors ought to match, so I considered the matter carefully and added a color that made that considerably less possible. A small piece of work, but I remain very pleased with the decision.", tone = "[dryly amused] [proud] [conversational]" },
+                "That scrap might go rather badly with the others. Let me have another look. Yes, very promising.",
+                "I sell useful things all day. The tassel is allowed to have other ambitions." },
+            befriended = { { "You have become someone I am glad to see after the useful part of the conversation is finished. Come along, friend. There is more to company than remembering the next thing to buy. If you wish, you may help choose the next scrap for the tassel. Consider it carefully. I expect a truly unreasonable combination of colors from someone I trust.", tone = "[warm] [sincere] [playful]" } },
+            poke = { "Yes? Tell me which thing you mean.", "I am listening. I was considering a very serious color disagreement." },
+            loot = { { "Look at what you have before deciding what must be bought. A useful supply can save another journey if you know where you put it. Then tell me clearly what is missing. Thread, vials, tools, spices: each has its purpose. Keep a little scrap aside if it catches your eye. Mine eventually became something worth a conversation.", tone = "[instructive] [practical] [warm]" } },
+            bagsFull = { "Useful things become less useful when you cannot find them under yesterday's useful things." },
+            gear = { "That color might look very wrong beside my tassel. I would like to compare them." },
+            quest = { "Work out what the task needs before you fill your pack with things it does not." },
+            rest = { "There is time to sort the small things before they become another reason to turn back." },
+            laughAlong = { "Yes, I chose the colors carefully. That makes the result much more satisfying." },
+            hearth = { "Back to Hammerfall. I wonder whether I put that last scrap aside." },
+        },
+    },
+
     -- Tor'gan, Hammerfall,2706/4047. Adult male Troll, Horde Friendly.
     --655-847: restores hope to Gor'mul, detects demonic magic;640-641
     -- reconstructs Thoradin sigil. Forever95143 names brother Tan'jani.
