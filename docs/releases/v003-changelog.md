@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Aldia and Alaindia: two complete adult Night Elf women, with thirty personal lines queued.
+- Ground Aldia in her Forever Soft Saber Pelts task and distinguish her early Dolanaar trade from Alaindia's Darnassus reagent service and original friendship story.
+
 - Add Lizzarik and Zixil: two complete adult Goblin roadside-merchant profiles, with thirty personal lines queued.
 - Preserve Neutral live eligibility, original road-and-guard context, and distinct friendship stories without importing later expansion or other-server quests.
 
@@ -117,4 +120,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **556 fully written NPC profiles**: 454 have initial signature recordings, and one hundred two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **558 fully written NPC profiles**: 454 have initial signature recordings, and one hundred four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Aldia <General Supplies>, Dolanaar, Teldrassil. Adult Night Elf
+    -- female1700/M2 921844, Alliance Friendly, Vendor12goods. Full
+    -- Forever87288: friendly village, useful pelts, regret/road safety.
+    -- Pleasant details added to directions are original writing, not waypoints.
+    -- Research: docs/research/aldia-and-alaindia-small-necessities.md
+    [3608] = {
+        quote = "I hope you remember more of Dolanaar than the errands you did here.",
+        likes = { "A visitor feeling at home", "Materials put to a lasting use", "A familiar face returning" },
+        dislikes = { "Cruelty called practical necessity", "A greeting made only to hurry past it", "Useful things needlessly spoiled" },
+        gossip = "Ask Aldia for a direction and she may tell you something she likes along the way. The village is part of the answer.",
+        bio = "Aldia trades general supplies in Dolanaar. She values its small, friendly life and asks for nightsaber pelts for blankets and shawls. She regrets harming such fine animals while recognizing the danger they can pose to travelers on the roads.",
+        backstory = "Giving directions became a chance to share little things she liked about home. A place to pause, a pleasant turn in the path, the feeling of arriving somewhere welcoming: these seemed worth adding after the practical explanation.",
+        secret = "She sometimes adds a pleasant detail to directions she has given many times, hoping the traveler will notice it. She likes imagining someone remembering the village fondly.",
+        bestFriend = "You know the way here now. Come back even when you need nothing. I should like Dolanaar to mean a welcome to you.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She appreciates someone returning the village warmth she offers to visitors.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. Shall we make room in the day for something besides the errands?", tone = "[warm] [gentle]" }, "I am ready. Tell me what you have enjoyed here, if you have a moment." },
+            idle = { { "A direction can include something pleasant to notice. It need not be only a way to leave.", tone = "[thoughtful] [warm]" }, "Small places can give a traveler a good reason to remember them.", "Useful material deserves care. It did not become ours without a cost." },
+            befriended = { { "You came back for my company. I am glad this place has given you that reason to return.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can help you find the way, or simply keep you company a moment.", "I was noticing the path. It is pleasant to look at without sending anyone down it." },
+            quest = { { "Be careful with what is needed, and do not mistake necessity for permission to be cruel.", tone = "[gentle] [firm]" } },
+            loot = { "Keep it where it will not be spoiled. There may be good use left in it." },
+            bagsFull = { "Perhaps something can stay behind before the useful things are crushed together." },
+            zone = { "New surroundings. I wonder what the people here hope a visitor remembers." },
+            mail = { "News from someone who has gone on. Let us see what they wished to share." },
+            rest = { "A pause can be part of remembering a place well." },
+            hearth = { "Homeward. I hope there is a friendly greeting waiting." },
+        },
+    },
+
+    -- Alaindia <Reagent Vendor>, Darnassus. Adult Night Elf female2203/
+    -- M2 921844, Alliance Friendly, seventeen current/Classic reagents.
+    -- No own quest/installed gossip found; no later Teldrassil fate assumed.
+    -- An ordinary potted seed and its unanswered questions are original writing.
+    -- Research: docs/research/aldia-and-alaindia-small-necessities.md
+    [3562] = {
+        quote = "A small thing may be needed for a great task. It still deserves to be handled carefully.",
+        likes = { "A clear request before a hurried search", "Small necessities kept in order", "Something allowed time to grow" },
+        dislikes = { "Containers left carelessly open", "Different seeds mixed together", "Patience praised but never practiced" },
+        gossip = "Alaindia can help a traveler find a necessary reagent. Her advice to one small potted plant is rather less specific.",
+        bio = "Alaindia sells reagents while moving through Darnassus near the Temple Gardens and the Temple of the Moon. Powders, seeds, candles, and runes make up part of her trade. She treats finding the right small necessity as work worth doing carefully.",
+        backstory = "Handling useful seeds every day made her curious about an ordinary one that had no task attached to it. She tried growing it for the pleasure of seeing what would happen. The waiting proved less orderly than arranging stock.",
+        secret = "She sometimes asks her small potted plant whether it needs anything. It has never answered. She considers continuing to ask a reasonable precaution.",
+        bestFriend = "You may ask how the plant is doing. I shall be pleased you remembered, even when there is very little new to report.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She enjoys a gentle greeting that does not begin with a hurried demand.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. I am ready, provided we have left enough time not to hurry past everything.", tone = "[warm] [unhurried]" }, "Let us go. I should like to notice something that does not need to be put in order." },
+            idle = { { "I ask the plant whether it needs anything. A lack of answer is not quite the same as an assurance.", tone = "[wry] [gentle]" }, "Waiting is less tidy than arranging things. It offers so little to straighten.", "An ordinary seed can be interesting without being the right reagent for anything." },
+            befriended = { { "You remembered something small I told you. I am glad to have the sort of company that gives such things room.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you are looking for before we begin the search.", "I was considering whether it is time to ask the plant again." },
+            loot = { { "Keep the little things separate. Finding one later will be easier if it has not become part of everything else.", tone = "[practical]" } },
+            bagsFull = { "A container is not improved by opening it accidentally inside another container." },
+            learned = { "Knowing what is needed is a good beginning. Having it to hand is a useful second part." },
+            quest = { "Read what is asked for carefully. Something almost right may still be quite different." },
+            rest = { "A pause, then. We need not make the waiting into a problem to solve." },
+            zone = { "New surroundings. We can look before deciding we know what belongs here." },
+            thanked = { "You are welcome. I am pleased the small preparation proved useful." },
+        },
+    },
+
     -- Lizzarik <Weapon Dealer>, Barrens road Ratchet-Crossroads. Adult
     -- Goblin male7057/M2 119376, current Horde Neutral, Repair/Vendor11goods.
     -- Jorb3659 explicitly his bodyguard. No own current/Classic quest found.

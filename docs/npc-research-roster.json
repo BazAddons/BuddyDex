@@ -2457,5 +2457,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed unique adult Goblin model, current Neutral reaction/complete stock tabs, original road/guard context and actual or unavailable dialogue evidence; no Scout sighting claimed",
     "research_notes": "docs/research/two-goblin-roadside-merchants.md"
+  },
+  {
+    "npc_id": 3608,
+    "name": "Aldia",
+    "zone": "Teldrassil",
+    "source": "Reviewed unique adult Alliance Friendly Night Elf female body/role, complete current stock/tabs and full available Forever pelt quest or sparse reagent-seller lore; no Scout sighting claimed",
+    "research_notes": "docs/research/aldia-and-alaindia-small-necessities.md"
+  },
+  {
+    "npc_id": 3562,
+    "name": "Alaindia",
+    "zone": "Darnassus",
+    "source": "Reviewed unique adult Alliance Friendly Night Elf female body/role, complete current stock/tabs and full available Forever pelt quest or sparse reagent-seller lore; no Scout sighting claimed",
+    "research_notes": "docs/research/aldia-and-alaindia-small-necessities.md"
   }
 ]

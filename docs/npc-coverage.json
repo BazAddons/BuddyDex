@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 238,
+    "alliance": 240,
     "unverified": 137,
     "horde": 194
   },
@@ -13,7 +13,7 @@
     "7": 34,
     "2": 65,
     "5": 57,
-    "4": 36,
+    "4": 38,
     "8": 43,
     "9": 29,
     "6": 64,
@@ -32,7 +32,7 @@
     "Tirisfal Glades": 35,
     "Undercity": 11,
     "Silverpine Forest": 7,
-    "Teldrassil": 13,
+    "Teldrassil": 14,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
     "Orgrimmar": 35,
@@ -42,9 +42,9 @@
     "Thunder Bluff": 32,
     "Durotar": 44,
     "The Barrens": 28,
+    "Darnassus": 8,
     "Ashenvale": 6,
     "Stonetalon Mountains": 6,
-    "Darnassus": 7,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
@@ -3662,6 +3662,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3537"
     },
     {
+      "npc_id": 3562,
+      "name": "Alaindia",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3562"
+    },
+    {
       "npc_id": 3567,
       "name": "Tallonkai Swiftroot",
       "zone": "Teldrassil",
@@ -3712,6 +3725,19 @@
       ],
       "reaction_evidence": "Alliance icon Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3596"
+    },
+    {
+      "npc_id": 3608,
+      "name": "Aldia",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3608"
     },
     {
       "npc_id": 3615,
@@ -7126,6 +7152,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 556,
-  "awaiting_signature_audio_profiles": 102
+  "authored_profiles": 558,
+  "awaiting_signature_audio_profiles": 104
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Aldia and Alaindia: two complete adult Night Elf women, with thirty personal lines queued.
+- Ground Aldia in her Forever Soft Saber Pelts task and distinguish her early Dolanaar trade from Alaindia's Darnassus reagent service and original friendship story.
+
 - Add Lizzarik and Zixil: two complete adult Goblin roadside-merchant profiles, with thirty personal lines queued.
 - Preserve Neutral live eligibility, original road-and-guard context, and distinct friendship stories without importing later expansion or other-server quests.
 
