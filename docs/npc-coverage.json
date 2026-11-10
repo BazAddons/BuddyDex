@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 235,
     "unverified": 134,
-    "horde": 187
+    "horde": 190
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,8 +14,8 @@
     "2": 64,
     "5": 57,
     "4": 36,
-    "8": 40,
-    "9": 26,
+    "8": 42,
+    "9": 27,
     "6": 62,
     "96": 7,
     "95": 12
@@ -28,7 +28,7 @@
     "Redridge Mountains": 23,
     "Dun Morogh": 10,
     "Ironforge": 40,
-    "Stranglethorn Vale": 2,
+    "Stranglethorn Vale": 3,
     "Tirisfal Glades": 35,
     "Undercity": 11,
     "Silverpine Forest": 7,
@@ -40,7 +40,7 @@
     "Darkshore": 7,
     "Mulgore": 14,
     "Thunder Bluff": 32,
-    "Durotar": 41,
+    "Durotar": 43,
     "The Barrens": 25,
     "Ashenvale": 6,
     "Stonetalon Mountains": 6,
@@ -2837,6 +2837,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3145"
     },
     {
+      "npc_id": 3149,
+      "name": "Nez'raz",
+      "zone": "Stranglethorn Vale",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3149"
+    },
+    {
       "npc_id": 3153,
       "name": "Frang",
       "zone": "Durotar",
@@ -3024,6 +3037,32 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3185"
+    },
+    {
+      "npc_id": 3186,
+      "name": "K'waii",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3186"
+    },
+    {
+      "npc_id": 3187,
+      "name": "Tai'tasi",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3187"
     },
     {
       "npc_id": 3188,
@@ -6963,6 +7002,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 543,
-  "awaiting_signature_audio_profiles": 89
+  "authored_profiles": 546,
+  "awaiting_signature_audio_profiles": 92
 }

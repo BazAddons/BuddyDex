@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tai'tasi, K'waii and Nez'raz: two adult Troll women in Sen'jin and a Goblin zeppelin contact in Grom'gol, with forty-five personal lines queued.
+- Keep early-route supply coverage separate from later travel coverage, with distinct original friendships and verified current roles.
+
 - Add Tallonkai Swiftroot and Nyoma: two complete adult Night Elf profiles along the Dolanaar starter route, with thirty personal lines queued.
 - Preserve the Forever Twisted Hatred follow-up and keep later Nyoma quest rewrites out of her cooking-supplier story.
 
@@ -99,4 +102,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **543 fully written NPC profiles**: 454 have initial signature recordings, and eighty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **546 fully written NPC profiles**: 454 have initial signature recordings, and ninety-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

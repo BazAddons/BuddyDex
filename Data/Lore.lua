@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tai'tasi <Trade Supplies>, Sen'jin, Durotar. Adult Troll female
+    -- display4087/M2 1018060, Horde Friendly; eighteen current goods.
+    -- No own quest/gossip; Lar786 reviewed, later mate/trader claims omitted.
+    -- Half-finished colored braid and competing projects are original writing.
+    -- Research: docs/research/senjin-supplies-and-gromgol-zeppelin.md
+    [3187] = {
+        quote = "Start with what you need. We can admire the colors after that.",
+        likes = { "A project actually finished", "A useful tool cared for", "Seeing what the supplies became" },
+        dislikes = { "Dye bottles left open", "A new idea replacing every old one", "Borrowed tools returned carelessly" },
+        gossip = "Tai'tasi likes hearing what people made with her supplies. Ask about her own projects, and she becomes remarkably interested in yours.",
+        bio = "Tai'tasi sells trade supplies in Sen'jin Village. Dyes, thread, tools, vials, and other small necessities pass through her hands. She enjoys the part after a purchase, when someone returns to show what those ordinary supplies helped them make.",
+        backstory = "Keeping a little material aside for her own projects seemed sensible. Then another color suggested another idea, and a third idea interrupted both. She became very good at encouraging others to finish what they had begun.",
+        secret = "She has a braid of colored threads that is nearly finished. It has been nearly finished through several excellent ideas for entirely different braids.",
+        bestFriend = "If I tell you about a new idea, you may ask about the old one first. I will grumble. Then I will thank you.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She likes encouragement that helps someone carry an idea through.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "Good to see you. I have put the projects down. All of them, for the moment.", tone = "[warm] [lively]" }, "I am ready. Tell me what you have actually finished today." },
+            idle = { { "The braid is almost done. Almost is a very roomy word, it turns out.", tone = "[amused] [self-aware]" }, "That is a fine color. No, I do not need another project.", "Come back and show me what you made. The buying is only the beginning." },
+            befriended = { { "You may ask how my own work is going. I have decided that is one of the privileges of friendship.", tone = "[warm] [playful]" } },
+            poke = { "Yes? If you have another idea, let me put this one down first.", "I was thinking about a color. It is a habit with consequences." },
+            learned = { { "Give the new skill a proper try before you collect three more.", tone = "[encouraging]" } },
+            loot = { "Useful material. Have you a use in mind, or merely a very good excuse?" },
+            bagsFull = { "There are several possible projects in there and very little space left for finishing one." },
+            questAccepted = { "One clear task. We may both benefit from that." },
+            gear = { "Someone finished making that. I am trying to take the example kindly." },
+            rest = { "A pause is allowed. Abandoning it for a different task is what gets complicated." },
+            cheerAlong = { "There now! A little encouragement can carry a person past nearly finished." },
+        },
+    },
+
+    -- K'waii <General Goods>, Sen'jin, Durotar. Adult Troll female
+    -- display4089/M2 1018060, Horde Friendly; twelve current goods include
+    -- red-ribboned wrapping paper. No own quest/installed gossip found.
+    -- Saving then using good paper for small gifts is original writing.
+    -- Research: docs/research/senjin-supplies-and-gromgol-zeppelin.md
+    [3186] = {
+        quote = "Something useful can still be a pleasure to give.",
+        likes = { "A parcel chosen for its recipient", "A surprise with no grand occasion", "Travelers bringing news back" },
+        dislikes = { "A gift treated as a debt", "Supplies packed where they cannot be reached", "Saving all the good paper forever" },
+        gossip = "K'waii can supply an ordinary journey. She also has strong opinions about which ordinary things deserve a ribbon.",
+        bio = "K'waii sells general goods in Sen'jin Village: bags, water, ammunition, and other travel necessities. Her stock also includes red-ribboned wrapping paper. She sees no reason practical preparations should leave out the pleasure of a small surprise.",
+        backstory = "She once saved a good piece of wrapping paper for an occasion important enough to deserve it. The occasion kept changing. Eventually she used it for a small, ordinary gift and decided the day had improved considerably.",
+        secret = "She still folds a little paper over before deciding what belongs inside. The anticipation pleases her almost as much as finding the right small gift.",
+        bestFriend = "No debt, no occasion, and no reason you must earn it. Sometimes being glad to see a friend is reason enough.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She likes a greeting that makes someone feel expected rather than obliged.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "Good to see you. An ordinary outing is a perfectly good occasion.", tone = "[warm] [bright]" }, "Ready when you are. Have you left anything useful behind?" },
+            idle = { { "Good wrapping paper deserves to be used. Otherwise it is only a very patient decoration.", tone = "[amused]" }, "An ordinary useful thing can make a fine gift if you have thought about the person.", "I used the good paper. It turns out the world did not require a ceremony." },
+            befriended = { { "You need not bring anything to make this a welcome visit. Your company will do very well.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering what would fit inside that.", "If you are planning a surprise, I shall try not to guess too loudly." },
+            mail = { { "A parcel! Let the person who sent it have a moment of being remembered before you pull it apart.", tone = "[pleased]" } },
+            bagsFull = { "Put the things you will need first where you can reach them." },
+            loot = { "Keep it safe. It may be useful, or it may be just right for someone else." },
+            group = { "Room for one more. Nobody needs a special occasion to join good company." },
+            rest = { "A pause with friends is not wasted merely because nothing gets done." },
+            hearth = { "Homeward, then. Bring a little news with the supplies." },
+            thanked = { "You are welcome. No, that does not put you in my debt." },
+        },
+    },
+
+    -- Nez'raz <Zeppelin Master>, Grom'gol, Stranglethorn Vale. Adult
+    -- Goblin male9352/M2 119376, Horde Friendly. Installed gossip confirms
+    -- Orgrimmar route, sunny posting and brother Zapetta in Tirisfal.
+    -- Cloudy coast drawing is original; no alpha quests or portals added.
+    -- Research: docs/research/senjin-supplies-and-gromgol-zeppelin.md
+    [3149] = {
+        quote = "The view is part of the job. I happen to have negotiated an excellent view.",
+        likes = { "Sunny Grom'gol shores", "Passengers hearing the destination", "An outing with a view" },
+        dislikes = { "Being asked whether this is Tirisfal", "A departure wasted complaining", "A joke that outlasts its welcome" },
+        gossip = "Nez'raz considers Grom'gol a fine posting. His brother's complaints about Tirisfal have done little to persuade him otherwise.",
+        bio = "Nez'raz is a zeppelin master at Grom'gol Base Camp. His zeppelin goes to Orgrimmar. He praises the sunny shore and clear water while warning travelers about his brother Zapetta, who is less happy with a posting in Tirisfal.",
+        backstory = "A fine view can become familiar when it is beside your workplace every day. Hearing another person complain about a less fortunate posting gave him a fresh appreciation of his own. It also supplied a story he repeats rather too readily.",
+        secret = "He has considered sending Zapetta a little sketch of the coast. Every version looks like gloating, so he keeps adding clouds. The drawing is becoming quite gloomy.",
+        bestFriend = "If I start sounding too pleased with myself, you can say so. Preferably before my brother gets the pleasure of agreeing with you.",
+        favorite = {
+            emote = "WAVE",
+            hint = "He likes a greeting that suits people arriving and setting off.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you. I trust this outing comes with a view worth leaving mine for.", tone = "[brisk] [cheerful]" }, "I am ready. Tell me the destination before we begin admiring the journey." },
+            idle = { { "I tried drawing the coast without looking smug. Apparently it needs considerably more clouds.", tone = "[wry] [amused]" }, "A sunny posting is a thing to appreciate. Quietly, if my brother is listening.", "There is a limit to how often a person should tell the same story. I am investigating where it is." },
+            befriended = { { "You can enjoy a good view without making it a contest. I think we shall travel very well together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Orgrimmar is the destination. Unless you are asking about something else for once.", "I am listening. If this concerns my brother, I reserve the right to find it amusing." },
+            taxi = { { "Check the destination, then enjoy the view. In that order.", tone = "[brisk] [practical]" } },
+            landed = { "There we are. Now you can decide whether the place deserved the journey." },
+            zone = { "New surroundings. Let us see what the local staff have been taking for granted." },
+            mail = { "News from elsewhere. Perhaps I ought to send some that contains fewer weather comparisons." },
+            rest = { "A good place to pause. A better place if nobody begins complaining." },
+            group = { "Everyone knows where we are going? Good. It is an inexpensive question to ask." },
+            hearth = { "Back home. Take a moment to appreciate what you normally hurry past." },
+        },
+    },
+
     -- Tallonkai Swiftroot, Dolanaar, Teldrassil. Adult Night Elf male
     -- display2686/M2 974343, Alliance Friendly. Full2438/2459/932 and
     -- Forever98403 reviewed; treasured gift and reputation-driven secrecy.

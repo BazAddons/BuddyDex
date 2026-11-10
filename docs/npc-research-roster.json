@@ -2366,5 +2366,26 @@
     "zone": "Teldrassil",
     "source": "Reviewed unique adult Night Elf, current Alliance Friendly/model fields, full available linked quest/version text and stock; no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-dreams-and-cooking-supplies.md"
+  },
+  {
+    "npc_id": 3187,
+    "name": "Tai'tasi",
+    "zone": "Durotar",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete available quest/service tabs and relevant relationship/transport dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-supplies-and-gromgol-zeppelin.md"
+  },
+  {
+    "npc_id": 3186,
+    "name": "K'waii",
+    "zone": "Durotar",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete available quest/service tabs and relevant relationship/transport dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-supplies-and-gromgol-zeppelin.md"
+  },
+  {
+    "npc_id": 3149,
+    "name": "Nez'raz",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete available quest/service tabs and relevant relationship/transport dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/senjin-supplies-and-gromgol-zeppelin.md"
   }
 ]

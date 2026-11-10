@@ -2037,6 +2037,27 @@
       "zone": "Teldrassil",
       "route": "Alliance Night Elf male/female Dolanaar early route",
       "reason": "Full adult profile and fifteen queued personal lines; Forever Twisted Hatred follow-up retained, Cataclysm Nyoma quest rewrite excluded, ordinary live gates unchanged, no synthesis"
+    },
+    {
+      "npc_id": 3187,
+      "name": "Tai'tasi",
+      "zone": "Durotar",
+      "route": "Shared Orc/Troll Senjin supply route",
+      "reason": "Full adult profile and fifteen queued lines; verified female Troll/male Goblin groups, version-specific relationship/transport claims separated, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 3186,
+      "name": "K'waii",
+      "zone": "Durotar",
+      "route": "Shared Orc/Troll Senjin supply route",
+      "reason": "Full adult profile and fifteen queued lines; verified female Troll/male Goblin groups, version-specific relationship/transport claims separated, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 3149,
+      "name": "Nez'raz",
+      "zone": "Stranglethorn Vale",
+      "route": "Horde later Gromgol zeppelin contact",
+      "reason": "Full adult profile and fifteen queued lines; verified female Troll/male Goblin groups, version-specific relationship/transport claims separated, ordinary live gates retained, no synthesis"
     }
   ]
 }

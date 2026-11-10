@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tai'tasi, K'waii and Nez'raz: two adult Troll women in Sen'jin and a Goblin zeppelin contact in Grom'gol, with forty-five personal lines queued.
+- Keep early-route supply coverage separate from later travel coverage, with distinct original friendships and verified current roles.
+
 - Add Tallonkai Swiftroot and Nyoma: two complete adult Night Elf profiles along the Dolanaar starter route, with thirty personal lines queued.
 - Preserve the Forever Twisted Hatred follow-up and keep later Nyoma quest rewrites out of her cooking-supplier story.
 
