@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mia Tanglewrench and Tah Winterhoof: two complete profiles with thirty personal lines queued.
+- Expand female Goblin and Tauren coverage with an original fanciful storyteller and a painter grounded in Forever's pigment quest.
+
 - Add Brix Xizzix and Fizzix Boomshot: two complete Goblin profiles with thirty personal lines queued.
 - Expand northern Mulgore and Powderfuse coverage with sourced opportunist and gunsmith dialogue plus distinct original friendship stories.
 
@@ -231,4 +234,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **626 fully written NPC profiles**: 454 have initial signature recordings, and one hundred seventy-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **628 fully written NPC profiles**: 454 have initial signature recordings, and one hundred seventy-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

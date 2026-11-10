@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mia Tanglewrench, Powderfuse Port, Riverglades. Adult Goblin
+    -- female148597/M2 119369, Horde Friendly. All own tabs0 and no
+    -- installed gossip; no engineering job inferred from her surname.
+    -- The kettle/moon/borrowed-boots tale is original BuddyDex fiction.
+    -- Research: docs/research/powderfuse-tales-and-thunder-bluff-pigments.md
+    [260563] = {
+        quote = "A kettle, the moon, and a pair of boots. That is enough for a story. I am less certain about the ending.",
+        likes = { "An absurd story told with conviction", "An unexpected way to finish a tale", "Company that joins in the joke" },
+        dislikes = { "A harmless invention passed off as news", "Every story needing to teach a lesson", "An ending that explains away the fun" },
+        gossip = "Mia gave a kettle reason to borrow the moon's boots. Getting them returned is proving a harder piece of storytelling.",
+        bio = "Mia Tanglewrench is a Goblin at Powderfuse Port in the Riverglades. In a place full of practical business, she makes her own amusement by imagining unlikely adventures for ordinary things. Her stories are inventions, freely admitted.",
+        backstory = "An idle thought put a kettle in a pair of borrowed boots. That required an explanation, and soon the moon wanted them back. She meant to make it a short tale. The kettle had developed rather more interesting plans by then.",
+        secret = "She still has not decided how the kettle returns the boots. She likes imagining it somewhere new. Finishing the story would mean choosing where it stops.",
+        bestFriend = "Stay a little. I have a perfectly ridiculous story, and it would be a shame to leave you out of the laughter.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She likes someone recognizing the joke before asking whether kettles can actually walk.",
+        },
+        recordingVoice = "goblin-female",
+        lines = {
+            greet = { { "There you are! The kettle has borrowed the moon's boots again. Come along before I decide where it goes.", tone = "[bright] [playful]" }, "Ready. An outing should give us something to enjoy, even if I have to invent a little of it." },
+            idle = { { "The moon wants its boots back. Fair enough, but the kettle has only just discovered dancing.", tone = "[amused] [storytelling]" }, "I could explain why the kettle needed boots. I am enjoying not having a sensible explanation yet.", "An ordinary thing can have an extraordinary afternoon in a story. It need not apply for permission first." },
+            befriended = { { "You laughed before asking how any of it worked. I like telling stories with you around.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was deciding whether the moon would accept a pair of slippers instead.", "Still here. Still considering the regrettably complicated matter of returning imaginary boots." },
+            rest = { { "A pause. The kettle can have a rest too; it has been traveling for a remarkably short story.", tone = "[lighthearted] [relaxed]" } },
+            zone = { "New surroundings. I shall let them be real for a moment before making up anything about them." },
+            loot = { "A perfectly ordinary object. I can leave it that way, if you insist." },
+            quest = { "Read what is actually asked for. My imaginary kettle is no help with real instructions." },
+            learned = { "Something new! That may deserve trying before I invent a ridiculous use for it." },
+            mail = { "Somebody wanted you to hear something. Let us give their real words a turn." },
+            thanked = { "You are welcome. A ridiculous idea improves considerably when there is someone to laugh with." },
+        },
+    },
+
+    -- Tah Winterhoof, Thunder Bluff. Adult Tauren male2097/M2 968705,
+    -- Horde Friendly. Full current/installed97538offer: red pigment
+    -- from dried Mirkfallon mirkweed. No completion text available.
+    -- His small wall/light study is original; no later Legion fate imported.
+    -- Research: docs/research/powderfuse-tales-and-thunder-bluff-pigments.md
+    [3024] = {
+        quote = "I saved the brightest color for an impressive idea. Then an ordinary afternoon gave me a reason to use it.",
+        likes = { "A vivid red worth waiting for", "Someone noticing the light", "A familiar place seen with fresh attention" },
+        dislikes = { "Good color left forever unused", "Praise that notices nothing in particular", "A long journey dismissed as a small favor" },
+        gossip = "Tah values a strong red for his paints. The little study he returns to most often depicts something far less grand than the color suggests.",
+        bio = "Tah Winterhoof lives in Thunder Bluff and works with paints. When his red pigment runs out, he asks a traveler to gather mirkweed pods from Mirkfallon Lake in Stonetalon. He explains that the pods become a vivid red when dried.",
+        backstory = "He once saved his brightest color for a subject that seemed worthy of it. Waiting produced very little painting. An ordinary wall caught the afternoon light, and he finally began. The small study pleased him more than the grand plans had.",
+        secret = "The study is only a corner of a wall in warm light. He keeps it because it reminds him how much he would have missed by waiting for something more impressive.",
+        bestFriend = "Tell me what caught your eye. You need not know how to paint it. I would enjoy seeing what made you stop.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He appreciates someone taking a moment to notice what another person has put care into.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Tell me if something catches your eye; I would like to know what you noticed.", tone = "[warm] [unhurried]" }, "Ready. There may be a familiar thing waiting to look different today." },
+            idle = { { "It was only a corner of a wall. The light made me stop. That was enough reason to begin.", tone = "[reflective] [content]" }, "A vivid color need not wait for a grand subject. An ordinary afternoon has room for it.", "If you ask someone to make a long journey, remember the distance when they return." },
+            befriended = { { "You took time to notice what pleased me about something small. I would be glad to share more of the day with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was looking at the light. It changes the things we thought we already knew.", "I am here. You need not bring a grand subject to have something worth showing me." },
+            quest = { { "Know what is needed and where it grows. A favor may carry someone much farther than the first request sounds.", tone = "[gentle] [considerate]" } },
+            loot = { "Take a moment to see it properly. Something useful may also be pleasing to look at." },
+            zone = { "New surroundings. Let us notice one ordinary thing before deciding what deserves our attention." },
+            rest = { "A good time to look without needing to go anywhere." },
+            mail = { "Someone took time to send their words. We can take time to receive them." },
+            learned = { "Try it. Waiting until the first attempt can be impressive may mean never beginning." },
+            thanked = { "You are welcome. I am pleased we had time to notice it together." },
+        },
+    },
+
     -- Brix Xizzix <Entrepreneur>, northern Mulgore. Adult Goblin male
     -- display116260/M2 119376, Horde Friendly. Own tabs0; installed
     -- gossip explicitly seeks business among the sky-arriving elves.

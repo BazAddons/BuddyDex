@@ -2947,5 +2947,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult male Goblin body, Horde Friendly, all current own tabs and installed opportunist/gunpowder dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/mulgore-opportunity-and-powderfuse-aromas.md"
+  },
+  {
+    "npc_id": 260563,
+    "name": "Mia Tanglewrench",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Goblin female or Tauren male body, Horde Friendly, all own tabs and available97538paint quest text; gaps documented and no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-tales-and-thunder-bluff-pigments.md"
+  },
+  {
+    "npc_id": 3024,
+    "name": "Tah Winterhoof",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult Goblin female or Tauren male body, Horde Friendly, all own tabs and available97538paint quest text; gaps documented and no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-tales-and-thunder-bluff-pigments.md"
   }
 ]

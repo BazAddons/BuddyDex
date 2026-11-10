@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mia Tanglewrench and Tah Winterhoof: two complete profiles with thirty personal lines queued.
+- Expand female Goblin and Tauren coverage with an original fanciful storyteller and a painter grounded in Forever's pigment quest.
+
 - Add Brix Xizzix and Fizzix Boomshot: two complete Goblin profiles with thirty personal lines queued.
 - Expand northern Mulgore and Powderfuse coverage with sourced opportunist and gunsmith dialogue plus distinct original friendship stories.
 

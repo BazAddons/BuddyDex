@@ -2618,6 +2618,20 @@
       "zone": "Riverglades",
       "route": "Powderfuse Port gunsmith",
       "reason": "Complete distinct Goblin male profile with fifteen personal lines queued; actual business or gunpowder speech and own-tab research, no synthesis"
+    },
+    {
+      "npc_id": 260563,
+      "name": "Mia Tanglewrench",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port named Goblin woman",
+      "reason": "Complete distinct female Goblin or male Tauren profile with fifteen personal lines queued; identity and limited lore respected, no synthesis"
+    },
+    {
+      "npc_id": 3024,
+      "name": "Tah Winterhoof",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff painter and Stonetalon pigment errand",
+      "reason": "Complete distinct female Goblin or male Tauren profile with fifteen personal lines queued; identity and limited lore respected, no synthesis"
     }
   ]
 }
