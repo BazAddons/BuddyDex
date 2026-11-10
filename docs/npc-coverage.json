@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 283,
-    "unverified": 152,
+    "alliance": 284,
+    "unverified": 153,
     "horde": 254
   },
   "npc_race_counts": {
     "1": 166,
     "3": 54,
-    "7": 45,
+    "7": 46,
     "2": 76,
     "5": 70,
     "4": 52,
     "8": 54,
-    "9": 40,
+    "9": 41,
     "6": 77,
     "96": 15,
     "95": 20
@@ -28,8 +28,8 @@
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 18,
-    "Ironforge": 50,
-    "Stranglethorn Vale": 4,
+    "Ironforge": 51,
+    "Stranglethorn Vale": 5,
     "Tirisfal Glades": 41,
     "Undercity": 14,
     "Wetlands": 2,
@@ -6365,6 +6365,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7798"
     },
     {
+      "npc_id": 7853,
+      "name": "Scooty",
+      "zone": "Stranglethorn Vale",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Explicit Horde Neutral icon; no public Friendly faction verified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7853"
+    },
+    {
       "npc_id": 7917,
       "name": "Brother Sarno",
       "zone": "Stormwind City",
@@ -7566,6 +7577,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14722"
     },
     {
+      "npc_id": 14724,
+      "name": "Bubulo Acerbus",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14724"
+    },
+    {
       "npc_id": 14842,
       "name": "Melnan Darkstone",
       "zone": "Ironforge",
@@ -8576,6 +8600,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 669,
-  "awaiting_signature_audio_profiles": 215
+  "authored_profiles": 671,
+  "awaiting_signature_audio_profiles": 217
 }

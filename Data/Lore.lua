@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bubulo Acerbus <Alliance Cloth Quartermaster>, Tinker Town, Ironforge.
+    -- Adult Gnome male14752/M2 900914, Alliance Friendly. Full five
+    -- donation texts and installed appeal read; current starts2/ends0.
+    -- Shortened thank-you draft is original; no current reputation promise.
+    -- Research: docs/research/tinker-town-thanks-and-booty-bay-hinges.md
+    [14724] = {
+        quote = "I prepared a magnificent speech about your generosity. Then I realized you might prefer to hear that you helped.",
+        likes = { "A donation acknowledged to its giver", "Many people helping replenish the reserves", "A thank-you that reaches its point" },
+        dislikes = { "Treating a contribution as merely a number", "A donor kept waiting through a speech", "A shortage dismissed as someone else's worry" },
+        gossip = "Bubulo once prepared a grand thank-you speech. It keeps becoming shorter, although he insists the gratitude is not shrinking.",
+        bio = "Bubulo Acerbus is the Alliance cloth quartermaster in Ironforge's Tinker Town. He calls for donations to replenish the cloth reserves of the Gnomeregan exiles. His appeals rely on many people contributing, rather than one donor supplying everything.",
+        backstory = "He wrote a speech to honor a generous contribution. Each revision added another worthy thought. Imagining the donor waiting through all of them led him to a different improvement: reaching the thanks sooner.",
+        secret = "His favorite version simply says that the person helped. He still keeps the longer draft. It reminds him how much he means when he chooses the shorter words.",
+        bestFriend = "Come along. You helped, and I am glad to know you. There. I believe we can spend the rest of the afternoon on the conversation.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates someone acknowledging the care behind his work as well as the size of the cloth reserves.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Shall we go? I have shortened the welcome considerably, so we may have time left to enjoy being together.", tone = "[warm] [lightly amused]" }, "Ready. Tell me how the day has treated you before I turn the greeting into another account of the reserves." },
+            idle = { { "I prepared a magnificent speech about a donation. Then I imagined the donor waiting through it. You helped. That reaches the important part much sooner.", tone = "[reflective] [wry]" }, "When many people each bring what they can spare, the reserve becomes something none of them had to provide alone.", "The number belongs in the account. The person deserves a moment of your attention as well." },
+            befriended = { { "You noticed the person behind the appeal, and stayed after there was nothing left to count. Come along, friend. I am pleased to know you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have a moment, tell me what you need. I shall try to keep the preamble proportionate to the question.", "I hear you. A greeting does not need to arrive wrapped around a contribution." },
+            thanked = { { "You are welcome. I am pleased the work mattered to you. I shall resist adding three more paragraphs to explain how pleased.", tone = "[grateful] [amused]" } },
+            loot = { "Consider what you need before deciding what you can spare. A useful contribution need not leave the giver unprepared." },
+            bagsFull = { "Sort what you meant to keep from what you meant to bring. It is easier to be generous when you know which bundle is which." },
+            group = { "Give each person a chance to contribute. A shared effort becomes rather less shared if one voice answers every question." },
+            quest = { "Hear the request carefully. Helping with the actual need is worth more than a magnificent answer to a different question." },
+            rest = { "A pause. We can enjoy the company without making another worthy appeal for a little while." },
+            mail = { "Check who sent it. Someone may have taken the trouble to say something that deserves a reply, however brief." },
+        },
+    },
+
+    -- Scooty <Chief Engineer>, Booty Bay, Stranglethorn Vale. Adult
+    -- Goblin male7036/M2 119376, Horde Neutral (not proven Friendly).
+    -- Full2841/2842/2843/2904 current/Classic/installed chains read.
+    -- Hinge appreciation is original, not a new teleport/friendship perk.
+    -- Research: docs/research/tinker-town-thanks-and-booty-bay-hinges.md
+    [7853] = {
+        quote = "A good hinge gets you there and back without recalibration. You can admire that and still appreciate a transpolyporter.",
+        likes = { "An invention that includes a return trip", "A small mechanism doing its job well", "An audience appreciating the engineering" },
+        dislikes = { "A passenger leaving before calibration", "An impressive departure with no way back", "Good work dismissed because it is ordinary" },
+        gossip = "Scooty has been admiring an ordinary door hinge. He has not abandoned transportation engineering; he says this counts.",
+        bio = "Scooty is the Goblin chief engineer in Booty Bay. He and Sovik developed the Transpolyporter 6000 route to Gnomeregan. Scooty calibrates a transponder for passengers, and receives the report after Kernobee's rescue from the dungeon.",
+        backstory = "After describing an impressive journey, he noticed how neatly an ordinary door handled going out and coming back. He began taking a little pride in appreciating the hinge. An engineer ought to recognize a good mechanism even when it lacks a dramatic name.",
+        secret = "He once gave a particularly smooth hinge a quiet round of applause. No audience, no demonstration. He simply thought the little mechanism deserved acknowledgment.",
+        bestFriend = "Come along. I enjoy showing you the spectacular work, but I like that you will stop and admire the ordinary clever bit with me too.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates someone recognizing a mechanism that does its job well, even when the result looks ordinary.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Chief engineer Scooty, ready for an outing! Tell me where we are going, and let us include the return journey in the general excitement.", tone = "[confident] [upbeat]" }, "There you are. Shall we go? I promise to admire the engineering without requiring every doorway to become a formal demonstration." },
+            idle = { { "A good hinge gets you out and back without recalibration. I gave one a little applause once. An engineer should be able to appreciate work that does not need a spectacular name.", tone = "[appreciative] [amused]" }, "The impressive departure is only part of the trip. Knowing how you are getting back improves the whole presentation.", "Sovik and I did not develop the transpolyporter merely to make walking sound less interesting. There is engineering worth appreciating there." },
+            befriended = { { "You appreciate the impressive work and still notice the ordinary clever bit. Come along, friend. I would enjoy another pair of interested eyes.", tone = "[warm] [pleased]" } },
+            poke = { "Yes? If you have found another fine mechanism, describe the useful part before telling me how grandly it was introduced.", "I hear you. A question first, a demonstration afterward. It gives everyone a better chance to enjoy the explanation." },
+            applaudToo = { { "Thank you! A little appreciation for a job well done. It need not explode to deserve recognition.", tone = "[delighted] [proud]" } },
+            learned = { "Understand the adjustment before declaring it ready. Calibration is part of the achievement, not an interruption to announcing it." },
+            hearth = { "A return journey. You see? It belongs in the plan from the beginning, even when the departure received all the attention." },
+            landed = { "Here we are. Arrival is an excellent stage of the demonstration. Take a moment before beginning the next one." },
+            quest = { "Bring the actual report. If Kernobee sent word, what he asked you to say matters more than a dramatic summary of the journey." },
+            rest = { "A pause. There is nothing wrong with appreciating a chair that achieves the result without a control panel." },
+            group = { "Make sure everybody has heard the instructions before the first person decides the demonstration has begun." },
+        },
+    },
+
     -- Danlyia <Food & Drink Vendor>, Dolanaar, Teldrassil. Adult Night
     -- Elf female4235/M2 921844, Alliance Friendly. All20current/Classic
     -- goods read; no own linked quests or installed gossip.

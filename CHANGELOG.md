@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Bubulo Acerbus and Scooty: two complete adult profiles with thirty personal lines queued.
+- Expand Gnome cloth-quartermaster and Goblin engineering contacts using full donation, transport and rescue quest research.
+
 - Add Danlyia and Tumi: two complete adult profiles with thirty personal lines queued.
 - Expand Night Elf Dolanaar food and Orc Orgrimmar armor contacts, with distinct researched roles and original stories.
 

@@ -2919,6 +2919,20 @@
       "zone": "Orgrimmar",
       "route": "Valley of Honor Orc heavy-armor service",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original interrupted-first-sip or shield-reflection writing; no synthesis"
+    },
+    {
+      "npc_id": 14724,
+      "name": "Bubulo Acerbus",
+      "zone": "Ironforge",
+      "route": "Tinker Town Gnome cloth quartermaster",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original short-thank-you or hinge-appreciation writing; no synthesis"
+    },
+    {
+      "npc_id": 7853,
+      "name": "Scooty",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay Goblin engineering/quest contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original short-thank-you or hinge-appreciation writing; no synthesis"
     }
   ]
 }

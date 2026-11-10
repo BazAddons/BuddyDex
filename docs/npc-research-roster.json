@@ -3248,5 +3248,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Night Elf / Orc women, explicit faction Friendly; all relationship tabs/current and Classic stock pages read; related family dialogue checked; no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-first-sips-and-orgrimmar-reflections.md"
+  },
+  {
+    "npc_id": 14724,
+    "name": "Bubulo Acerbus",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Gnome / Goblin men, explicit faction Friendly; full donation/transport/rescue chains and installed dialogue read; Alliance Friendly / Horde Neutral distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/tinker-town-thanks-and-booty-bay-hinges.md"
+  },
+  {
+    "npc_id": 7853,
+    "name": "Scooty",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult Gnome / Goblin men, explicit faction Friendly; full donation/transport/rescue chains and installed dialogue read; Alliance Friendly / Horde Neutral distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/tinker-town-thanks-and-booty-bay-hinges.md"
   }
 ]
