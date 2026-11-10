@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Burbik Gearspanner and Finbus Geargrind: two complete adult Gnome profiles, with thirty personal lines queued.
+- Give Ironforge trade supplies and Darkshire engineering distinct friendship stories, grounded in current stock and established training dialogue.
+
 - Add Patrice Dwyer and Innkeeper Renee: two complete adult Forsaken women, with thirty personal lines queued.
 - Expand Sepulcher and Brill character coverage with distinct supplies-trader and brusque innkeeper stories, grounded in established roles and the full letter-delivery chain.
 

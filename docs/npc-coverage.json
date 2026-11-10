@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 240,
+    "alliance": 242,
     "unverified": 138,
     "horde": 195
   },
   "npc_race_counts": {
     "1": 165,
     "3": 42,
-    "7": 34,
+    "7": 36,
     "2": 65,
     "5": 59,
     "4": 38,
@@ -27,10 +27,11 @@
     "Stormwind City": 114,
     "Redridge Mountains": 23,
     "Dun Morogh": 12,
-    "Ironforge": 40,
+    "Ironforge": 41,
     "Stranglethorn Vale": 3,
     "Tirisfal Glades": 36,
     "Undercity": 11,
+    "Duskwood": 1,
     "Silverpine Forest": 8,
     "Teldrassil": 14,
     "Hillsbrad Foothills": 4,
@@ -1666,6 +1667,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1670"
+    },
+    {
+      "npc_id": 1676,
+      "name": "Finbus Geargrind",
+      "zone": "Duskwood",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1676"
     },
     {
       "npc_id": 1678,
@@ -4509,6 +4523,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5158"
     },
     {
+      "npc_id": 5163,
+      "name": "Burbik Gearspanner",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5163"
+    },
+    {
       "npc_id": 5174,
       "name": "Springspindle Fizzlegear",
       "zone": "Ironforge",
@@ -7176,6 +7203,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 560,
-  "awaiting_signature_audio_profiles": 106
+  "authored_profiles": 562,
+  "awaiting_signature_audio_profiles": 108
 }

@@ -2485,5 +2485,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed exact adult Forsaken female body, current Horde reaction, full own tabs and Classic/installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/sepulcher-supplies-and-brill-hospitality.md"
+  },
+  {
+    "npc_id": 5163,
+    "name": "Burbik Gearspanner",
+    "zone": "Ironforge",
+    "source": "Reviewed exact adult male Gnome body, current Alliance Friendly, complete current tabs and Classic stock/training plus installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/gnome-supplies-and-learning.md"
+  },
+  {
+    "npc_id": 1676,
+    "name": "Finbus Geargrind",
+    "zone": "Duskwood",
+    "source": "Reviewed exact adult male Gnome body, current Alliance Friendly, complete current tabs and Classic stock/training plus installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/gnome-supplies-and-learning.md"
   }
 ]

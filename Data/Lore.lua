@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Burbik Gearspanner <Trade Supplier>, Ironforge. Adult Gnome male
+    -- display3112/M2 900914; Alliance Friendly, twenty current supplies.
+    -- No own quest/gossip found; map1426 pin is not starter proof.
+    -- Empty-box miniature theaters are original friendship writing.
+    -- Research: docs/research/gnome-supplies-and-learning.md
+    [5163] = {
+        quote = "A supply shop is a fine place to discover how many different plans people can have before lunch.",
+        likes = { "Hearing what a purchase is for", "An empty box with possibilities", "A customer returning with good news" },
+        dislikes = { "A useful box thrown away", "Stock mistaken for finished work", "Someone belittling a modest project" },
+        gossip = "Burbik seems almost as interested in an empty box as a full one. He insists that contents are only one way to judge a container.",
+        bio = "Burbik Gearspanner sells trade supplies in Ironforge. His stock serves several crafts, from thread and spices to rods and tools. He enjoys hearing what customers hope to make, especially when an unremarkable purchase begins an ambitious plan.",
+        backstory = "A discarded box once suggested a stage to him. He began arranging scraps behind its open side, making a scene instead of another useful device. His private little theaters became an excuse to enjoy materials without selling or improving them.",
+        secret = "His favorite tiny stage has no actors. He likes the moment before a performance, when the empty space could still become almost anything.",
+        bestFriend = "Come and look at the empty stage. Tell me what you imagine there. We need not build it for the visit to have been worthwhile.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a greeting that makes an ordinary little moment feel like a performance.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Splendid, an outing! Shall we see what people are making of the day?", tone = "[bright] [curious]" }, "Ready when you are. I have left the little stage exactly as it is." },
+            idle = { { "The empty stage is my favorite. Nothing has gone wrong yet, and almost anything might happen.", tone = "[delighted] [thoughtful]" }, "A box need not contain stock to contain a possibility.", "I enjoy hearing what people intend to make. The purchases alone never quite tell the story." },
+            befriended = { { "You wanted to hear about the little theater without asking what it was good for. I am glad we shall have more time together.", tone = "[warm] [pleased]" } },
+            poke = { "Yes? Have you thought of a scene for the stage?", "I was picturing an entrance. We do not yet need anyone to make it." },
+            loot = { { "What an interesting beginning. Do you know what you want to make of it?", tone = "[curious]" } },
+            bagsFull = { "An empty space can be useful too. Perhaps we should preserve one." },
+            learned = { "Now there is another possibility that was not there yesterday." },
+            quest = { "A modest list may belong to a very ambitious plan. Read it before judging." },
+            zone = { "New scenery! I wonder which part would fit behind the little stage." },
+            cheerAlong = { "A fine moment for an audience. I am pleased to supply one." },
+            thanked = { "My pleasure. Come back and tell me how the project went." },
+        },
+    },
+
+    -- Finbus Geargrind <Expert Engineer>, Darkshire, Duskwood. Adult Gnome
+    -- male4285/M2 900914; Alliance Friendly, current own tabs empty.
+    -- Installed training gossip welcomes learners and refers other teachers.
+    -- Unclear old sketch is original writing; no later Legion events assumed.
+    -- Research: docs/research/gnome-supplies-and-learning.md
+    [1676] = {
+        quote = "I can make time for a stranger. For a question that helps you learn, I can usually find a little more.",
+        likes = { "A learner asking an honest question", "Someone ready for a better teacher", "First attempts kept for comparison" },
+        dislikes = { "Pretending to understand", "A beginner shamed for asking", "Pride getting in the way of progress" },
+        gossip = "Finbus can sound almost as pleased to send a learner onward as to begin a lesson. He considers growing beyond him a success.",
+        bio = "Finbus Geargrind is an expert engineer in Darkshire. His training dialogue welcomes industrious learners, sends beginners toward Sprite Jumpsprocket, and directs those beyond his instruction to Springspindle Fizzlegear in Ironforge.",
+        backstory = "He began keeping his own rough attempts after realizing how easily a finished piece could hide the work of learning. An untidy sketch seemed a better reminder of where a good question could begin than a polished demonstration.",
+        secret = "One old sketch is so confused that he no longer remembers what he meant to make. He keeps it anyway. It reminds him not to mistake uncertainty for a lack of promise.",
+        bestFriend = "Show me the part you do not understand. You need not tidy it up first. We can begin with an honest question between friends.",
+        favorite = {
+            emote = "THANK",
+            hint = "He likes hearing that advice helped, even when it sent a learner to someone else.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "An outing? Certainly! I can put this down without pretending it was finished.", tone = "[brisk] [friendly]" }, "Good to see you. What have you been trying to understand?" },
+            idle = { { "I cannot remember what that old sketch was meant to become. I do remember being very determined about it.", tone = "[amused] [reflective]" }, "Sending someone to a better teacher is useful advice too.", "A clear question is a fine result for a first attempt." },
+            befriended = { { "You stayed to share the uncertain part. I should be pleased to have that sort of company more often.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Never too busy for a stranger. Almost never. You need not be a stranger now.", "I was trying to follow my old drawing. Some mysteries are quite small and entirely my own fault." },
+            learned = { { "Good work! If you have grown beyond what I can show you, that is a reason to be pleased.", tone = "[proud] [encouraging]" } },
+            quest = { "Ask what you need to know before you begin. Enthusiasm need not do all the work alone." },
+            loot = { "What might you learn from that? A confident guess is still worth checking." },
+            rest = { "Put it down a moment. A difficult question can wait while you gather yourself." },
+            zone = { "Someone here may know something we do not. Shall we allow them the pleasure of explaining?" },
+            cheerAlong = { "There! You have made progress. Let us give that its due." },
+            thanked = { "Glad it helped. Advice need not keep a learner nearby to have been worth giving." },
+        },
+    },
+
     -- Patrice Dwyer <Poison Supplies>, Sepulcher, Silverpine. Adult Forsaken
     -- female3543/M2 997378; current Horde Neutral, own tabs empty.
     -- Classic eleven-item supplies trade; no own gossip/quest found.

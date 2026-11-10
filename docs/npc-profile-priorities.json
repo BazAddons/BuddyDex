@@ -2156,6 +2156,20 @@
       "zone": "Tirisfal Glades",
       "route": "Horde Brill early innkeeper",
       "reason": "Complete female Forsaken profile with fifteen queued lines; current Neutral versus Friendly preserved, full letter/duel chain reviewed, no synthesis"
+    },
+    {
+      "npc_id": 5163,
+      "name": "Burbik Gearspanner",
+      "zone": "Ironforge",
+      "route": "Alliance Ironforge trade-supply city contact",
+      "reason": "Complete male Gnome profile with fifteen queued lines; city/later-zone contacts distinguished from starter coverage, current/Classic differences retained, no synthesis"
+    },
+    {
+      "npc_id": 1676,
+      "name": "Finbus Geargrind",
+      "zone": "Duskwood",
+      "route": "Alliance Darkshire later engineering contact",
+      "reason": "Complete male Gnome profile with fifteen queued lines; city/later-zone contacts distinguished from starter coverage, current/Classic differences retained, no synthesis"
     }
   ]
 }
