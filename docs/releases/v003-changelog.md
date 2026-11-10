@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Kaela Shadowspear and Kadrak: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review Stonetalon investigation and Warsong reporting chains; document original camp-tea and off-duty greeting scenes while preserving faction priorities.
+
 - Add Gorbold Steelhand and Wharfmaster Lozgil: adult Dwarf and Goblin profiles with thirty personal lines queued.
 - Review Auberdine loss and family text, the full sponsorship chain, and Forever courier quests; document original letter and imaginary-copper scenes.
 
@@ -504,4 +507,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **802 fully written NPC profiles**: 454 have initial signature recordings, and three hundred forty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **804 fully written NPC profiles**: 454 have initial signature recordings, and three hundred fifty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

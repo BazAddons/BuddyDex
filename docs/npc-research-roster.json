@@ -4179,5 +4179,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult unverified man; Full sponsorship and Forever courier chains; original imaginary restraint tally; no Scout sighting claimed",
     "research_notes": "docs/research/gorbolds-reply-and-lozgils-copper.md"
+  },
+  {
+    "npc_id": 4080,
+    "name": "Kaela Shadowspear",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult unverified woman; Full direct quests and immediate chains; original camp-tea reinforcements; no Scout sighting claimed",
+    "research_notes": "docs/research/kaelas-reinforcements-and-kadraks-greeting.md"
+  },
+  {
+    "npc_id": 8582,
+    "name": "Kadrak",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde man; Full report and territorial-response quests; original off-duty greeting; no Scout sighting claimed",
+    "research_notes": "docs/research/kaelas-reinforcements-and-kadraks-greeting.md"
   }
 ]

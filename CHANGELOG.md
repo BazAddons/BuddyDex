@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kaela Shadowspear and Kadrak: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review Stonetalon investigation and Warsong reporting chains; document original camp-tea and off-duty greeting scenes while preserving faction priorities.
+
 - Add Gorbold Steelhand and Wharfmaster Lozgil: adult Dwarf and Goblin profiles with thirty personal lines queued.
 - Review Auberdine loss and family text, the full sponsorship chain, and Forever courier quests; document original letter and imaginary-copper scenes.
 

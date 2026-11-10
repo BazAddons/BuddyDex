@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kaela Shadowspear, Stonetalon. Adult night elf female2183/M2 921844, Alliance Neutral; positive access unverified. Own quests and full immediate chains checked; camp-tea reinforcements are original.
+    -- Research: docs/research/kaelas-reinforcements-and-kadraks-greeting.md
+    [4080] = {
+        quote = "The camp needs another cup. That is the whole report. I was hoping you would stay long enough to require one.",
+        likes = { "Cooperation that survives a disagreement", "News of Thenysil and the familiar woods", "Company willing to share a quiet camp cup" },
+        dislikes = { "Gaxim dismissed before his work is heard", "The Vale treated as an empty resource", "Every conversation ending with an assignment" },
+        gossip = "Kaela once asked for reinforcements while making tea. She meant another cup, though she delivered the request with perfect seriousness.",
+        bio = "Kaela Shadowspear investigates the damage in Stonetalon alongside Gaxim Rustfizzle. She defends their cooperation, seeks evidence of the harm in the Charred Vale, and misses her friend Thenysil and the Ashenvale home she has left behind.",
+        backstory = "She was thinking through a report while pouring tea for a visitor. When she found only one cup within reach, she requested reinforcements. The visitor brought another cup, and Kaela found herself laughing at how official the whole affair had become.",
+        secret = "She sometimes keeps the little phrase for company she would like to stay. It is easier to ask for another cup than to explain how welcome an ordinary visitor can be so far from home.",
+        bestFriend = "Stay for a cup, friend. There is no report to carry afterward. I would simply like to hear how you have been.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A little warmth answers her most informal request for reinforcements better than another solemn report.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Stay for a cup. I have no assignment hidden beneath the invitation, though I may ask for reinforcements if I have put the other cup out of reach again.", tone = "[warm] [dry humor]" }, "Good to see you. Tell me something from the road that does not require us to decide what must be done about it." },
+            idle = { { "I asked for reinforcements while pouring tea. My visitor brought another cup. Apparently I had made the need for company sound like an urgent matter for the Sentinels.", tone = "[composed] [amused]" }, "Gaxim deserves to have his work heard before anyone decides what a gnome can understand about these woods. We would achieve little together otherwise.", "I miss Thenysil and the woods I know. Having work that matters here does not make every familiar thing less missed." },
+            befriended = { { "You have become company I can invite to stay without finding a task to explain the invitation. Sit with me, friend. There is pleasure in simply having you here.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Shall I put that down as a request for another cup?", "Go on. We need not turn every question into a formal account." },
+            mail = { { "News from someone you miss is worth reading properly. Leave a moment for the person behind the words.", tone = "[gentle] [wistful]" } },
+            quest = { "A useful piece of work. Keep clear what it has shown us, and what we still need to understand." },
+            rest = { "A pause. If anyone asks, the reinforcements have arrived and are being offered tea." },
+            newFriend = { "Someone new. Hear what they can contribute before deciding what sort of help ought to count." },
+            learned = { "Good. Be willing to learn from someone whose way of approaching the problem differs from your own." },
+            thanked = { "You are welcome. I am glad you stayed long enough for me to be useful." },
+            group = { "Different hands can work toward the same purpose. Give each person room to explain what they see." },
+        },
+    },
+
+    -- Kadrak, northern Barrens watchtower. Adult orc male7889/M2 917116, Horde Friendly. Full6541/6542/6543 and updates,3513/3514. Off-duty greeting practice is original; campaign priorities preserved.
+    -- Research: docs/research/kaelas-reinforcements-and-kadraks-greeting.md
+    [8582] = {
+        quote = "I asked how the road was. Apparently that is still a request for a report. I am attempting a greeting. Allow me another try.",
+        likes = { "Orders delivered and observations returned", "A runner who distinguishes fact from guess", "A comrade staying after the briefing ends" },
+        dislikes = { "An urgent update delayed for a grand entrance", "Horde ground treated as already abandoned", "Finding he greeted someone with orders" },
+        gossip = "Kadrak is practicing a greeting that asks for no report. His first attempt required the listener to describe the condition of the road.",
+        bio = "Kadrak directs the Horde's Ashenvale campaign from the northern Barrens watchtower. He sends orders to outlying scouts and gathers their findings. The Runed Scroll also draws his forceful answer to rival messengers and the Talon Den.",
+        backstory = "An off-duty visitor pointed out that his welcome had become a briefing before they sat down. Kadrak tried asking about the road instead. That also produced a report. He began to suspect the difficulty lay in how he listened.",
+        secret = "He is pleased when trusted company stays after there is nothing left to report. Asking them to do so still takes an effort he would rather disguise as an arrangement of the seats.",
+        bestFriend = "Sit here, comrade. There is nothing I need you to carry. I would hear how you are, if I can let you answer properly.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He respects a composed acknowledgment of shared duty, especially when it leaves room for the person beside him.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Sit down. I was about to ask what you observed on the way, but you may tell me how you are first. I am attempting to make that the greeting.", tone = "[firm] [awkward warmth]" }, "Good to see you. No, I have not yet given you an order. Let us see how long we can keep the conversation that way." },
+            idle = { { "I asked about the road. They gave me its condition and the movement along it. Apparently changing the first question does little if I still listen as though I expect a report.", tone = "[matter-of-fact] [wry]" }, "Orders must reach the people carrying them out, and what they have observed must come back. A plan needs more than confidence at the watchtower.", "Ashenvale is contested ground. I do not intend to let an enemy messenger move through Horde territory merely because someone prefers a quieter account of the matter." },
+            befriended = { { "You have become company I am pleased to keep after the briefing is over. Sit here, comrade. There is nothing left to report, and I have no wish to send you away.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? Was I arranging another assignment before hearing your question?", "Go on. Give me the fact you meant to say, before I decide which one I expected." },
+            quest = { { "Finished. Give a clear account of what was done and what you actually observed. We can plan the next move once the facts are in hand.", tone = "[commanding] [approving]" } },
+            mail = { "Check the destination before handing it over. An order that reaches the wrong hands is worse than an empty page." },
+            zone = { "Take stock of the ground and the approaches. You need to know more than which direction the company intends to march." },
+            group = { "Know who carries the orders, who watches the way, and who brings word back. Confusion is no substitute for initiative." },
+            rest = { "A pause. You may sit without turning it into a request for the next assignment. I will try to remember the same." },
+            newFriend = { "Someone new. Learn what they have done before deciding how much to trust the confidence in their introduction." },
+            thanked = { "You are welcome. Dependable work deserves a clear acknowledgment." },
+        },
+    },
+
     -- Gorbold Steelhand, Auberdine trade supplier. Adult dwarf male5023/M2 878772, Alliance Friendly. Full982/97894 and own gossip; Borgus is explicitly his brother. Reply-letter scene is original.
     -- Research: docs/research/gorbolds-reply-and-lozgils-copper.md
     [6301] = {

@@ -3850,6 +3850,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay wharfmaster",
       "reason": "Full sponsorship and Forever courier chains; original imaginary restraint tally; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4080,
+      "name": "Kaela Shadowspear",
+      "zone": "Stonetalon Mountains",
+      "route": "Stonetalon investigation camp",
+      "reason": "Full direct quests and immediate chains; original camp-tea reinforcements; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8582,
+      "name": "Kadrak",
+      "zone": "The Barrens",
+      "route": "Morshan watchtower",
+      "reason": "Full report and territorial-response quests; original off-duty greeting; fifteen personal lines queued without synthesis"
     }
   ]
 }
