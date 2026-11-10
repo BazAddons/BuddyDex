@@ -39,3 +39,6 @@ Main/Scout smoke passes with zero load errors/failures, including lore/page/line
 656 fully written profiles / 454 with initial signature recordings / 202 written-complete audio-pending. Tysha3639 adds15 personal jobs/1951 tagged input characters in approved female Night Elf. Full offline audit11495 missing jobs/772934 tagged input characters: shared3548/personal7947, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-656/queue.json`. Two uncertain Westfall identities remain unprofiled. Catalog1536 name groups/1549 retained identities unchanged; it overlaps the backlog. No synthesis/account/billing calls.
 
 Explicit public Friendly276Alliance/247Horde/152unverified, nineteen shared overlaps, yields656 unique profiles. Local developmentv003 installed/hash-verified6362 releasefiles; ZIP6362files/6334 audio mappings/138.59MiB; source/installed/ZIP Lore bytes match and ZIP CRC passes. SHA256 `2acbcde2a3f8c932028618b0369df3bd1739a297e988f422acb6bf223ac63476`. Publishedv002 untouched. No human listening or live visual check.
+
+
+Follow-up November10: Moon Priestess Amara2151 now fully researched/authored in [Dolanaar councilor and Tarren Mill critic](dolanaar-councilor-and-tarren-mill-critic.md). Earlier deferred status and totals above are historical. No Scout sighting invented.

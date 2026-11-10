@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Moon Priestess Amara and Deathguard Samsa: two complete adult profiles with thirty personal lines queued.
+- Expand Teldrassil and Tarren Mill contacts with full road-task and Hillsbrad campaign research, preserving their different outlooks.
+
 - Add Sentinel Tysha Moonblade: a complete adult Night Elf profile with fifteen personal lines queued.
 - Expand Darkshore coverage using the full historical task and both Ameth'Aran tablets, with a distinct personal journal story.
 

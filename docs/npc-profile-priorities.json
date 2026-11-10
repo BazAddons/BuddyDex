@@ -2828,6 +2828,20 @@
       "zone": "Darkshore",
       "route": "Roadside AmethAran contact on early Darkshore route",
       "reason": "Complete adult Night Elf profile, fifteen personal lines queued, sourced historical task plus original journal of ordinary days; no synthesis"
+    },
+    {
+      "npc_id": 2151,
+      "name": "Moon Priestess Amara",
+      "zone": "Teldrassil",
+      "route": "Dolanaar-Darnassus starting-region road contact",
+      "reason": "Complete adult profile, fifteen personal lines queued, sourced road duty or grim trophy collector with original pinecone-councilor or silent-critic humor; no synthesis"
+    },
+    {
+      "npc_id": 2418,
+      "name": "Deathguard Samsa",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill regional Deathguard contact",
+      "reason": "Complete adult profile, fifteen personal lines queued, sourced road duty or grim trophy collector with original pinecone-councilor or silent-critic humor; no synthesis"
     }
   ]
 }

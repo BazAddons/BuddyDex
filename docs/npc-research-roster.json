@@ -3157,5 +3157,19 @@
     "zone": "Darkshore",
     "source": "Reviewed adult Night Elf woman, Alliance Friendly; full953task and both three-page AmethAran tablets; no Scout sighting claimed",
     "research_notes": "docs/research/tysha-moonblade-and-ordinary-days.md"
+  },
+  {
+    "npc_id": 2151,
+    "name": "Moon Priestess Amara",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult Night Elf woman and Forsaken man, Alliance/Horde Friendly respectively; full road task, legacy referrals and skull-collection/campaign context; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-councilor-and-tarren-mill-critic.md"
+  },
+  {
+    "npc_id": 2418,
+    "name": "Deathguard Samsa",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult Night Elf woman and Forsaken man, Alliance/Horde Friendly respectively; full road task, legacy referrals and skull-collection/campaign context; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-councilor-and-tarren-mill-critic.md"
   }
 ]

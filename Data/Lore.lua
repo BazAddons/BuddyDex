@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Moon Priestess Amara, road west of Dolanaar, Teldrassil. Adult
+    -- Night Elf female1681/M2 921844, Alliance Friendly. Full487current/
+    -- Classic/installed; older489/1684multi-giver limits documented.
+    -- Pinecone councilor is original, ordinary and not a prophecy.
+    -- Research: docs/research/dolanaar-councilor-and-tarren-mill-critic.md
+    [2151] = {
+        quote = "The pinecone is not a member of the Council. It does listen very well.",
+        likes = { "Travelers able to use the road safely", "A useful warning delivered clearly", "Company with room for a private joke" },
+        dislikes = { "News delayed by avoidable danger", "Gnarlpine attacks on travelers", "Being asked for the pinecone's opinion" },
+        gossip = "Amara has a remarkably patient listener. It offers no advice and never interrupts a report. Someone has apparently mistaken its silence for wisdom.",
+        bio = "Moon Priestess Amara protects the road between Dolanaar and Darnassus. Gnarlpine ambushers threaten the travelers who carry news and commerce along it. She asks for help against them and thanks those who serve the people of both settlements.",
+        backstory = "She speaks as a member of Teldrassil's Sentinel force when she salutes those who help clear the road. Her concern is practical as well as sacred: the route must remain usable for the people who depend on it.",
+        secret = "She once addressed a fallen pinecone as though it were a very solemn councilor. It is an ordinary pinecone, not a sign or a spirit. She enjoyed having a listener with nothing urgent to add.",
+        bestFriend = "Stay beside me a little. You may interrupt. I enjoy your company more than the councilor's silence, however dignified it appears.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone understanding a solemn little joke without mistaking it for an omen.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "It is good to see you. Shall we go? The solemn councilor can remain where it fell. Its duties are entirely imaginary.", tone = "[warm] [playful]" }, "Ready. I would enjoy your company, and I promise to hear what you say before consulting any pinecones." },
+            idle = { { "It was an ordinary pinecone. I addressed it very solemnly, and it offered no advice at all. A remarkably undemanding councilor.", tone = "[dry] [amused]" }, "The road carries news as well as trade. Keeping it usable matters to people who may never think to thank the person watching it.", "You may laugh at the joke. I would rather that than have someone decide the pinecone has delivered a prophecy." },
+            befriended = { { "You heard the warning, understood the joke, and came back for my company. I am glad to have you beside me, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You have my attention. The councilor has made no objection to our conversation.", "I hear you. Tell me what you have seen before deciding whether it is important enough to mention." },
+            quest = { { "Listen to what the danger threatens. A road is more than a line between places; people depend on reaching the other end.", tone = "[steady] [earnest]" } },
+            zone = { "Different surroundings. Let us learn the road before assuming the next turn will be as safe as the last." },
+            group = { "Make sure everyone has heard the warning. Being prepared is easier when the information has reached more than the loudest person." },
+            rest = { "A pause. You need not be as silent as the councilor to make the company welcome." },
+            gear = { "Check that it will serve you well on the road. Looking prepared and being prepared are separate accomplishments." },
+            comforted = { "Thank you. A little company is welcome even when there is no urgent problem for it to solve." },
+            thanked = { "You are welcome. I am glad the warning helped you reach the place you meant to go." },
+        },
+    },
+
+    -- Deathguard Samsa, Tarren Mill, Hillsbrad. Adult Forsaken male1646/
+    -- M2 959310, Horde Friendly. Full546and related527->550campaign
+    -- current/Classic/installed; violent trophy interest not softened away.
+    -- Motionless skull called the Critic is original, not a haunting.
+    -- Research: docs/research/dolanaar-councilor-and-tarren-mill-critic.md
+    [2418] = {
+        quote = "That grin is merely the shape of the skull. I know that. I still prefer it facing the other way.",
+        likes = { "Human skulls for his collection", "A visitor who appreciates the display", "An arrangement free of distracting grins" },
+        dislikes = { "Being left on guard during a battle", "A disappointing haul of trophies", "The impression his collection is amused" },
+        gossip = "Samsa keeps adjusting his skull collection. One specimen appears unconvinced. It has become the display's most influential critic.",
+        bio = "Deathguard Samsa stands guard in Tarren Mill. He envies those fighting the humans of Hillsbrad, including their pillaging and terror. As Darthalia's campaign proceeds, he asks for human skulls to add to his collection and promises a reward.",
+        backstory = "He resents keeping watch while Darthalia's recruits fight. He greets a delivery of human skulls with delight and pays as promised. His interest is in trophies from the violence, not rescuing the people it harms.",
+        secret = "He calls one skull the Critic because its fixed grin seems to question every arrangement. It neither moves nor speaks. He turns it aside when he wants to admire the rest without commentary.",
+        bestFriend = "Stay for a little company. You may have an opinion about the arrangement. I find it preferable to the Critic's permanent expression.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a display receiving proper appreciation from an audience that can actually express it.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Good to see you. Ready for an outing. I have turned the Critic aside; it may withhold its opinion of the arrangement until I return.", tone = "[raspy] [dryly amused]" }, "Ready. Your company is a welcome improvement on another interval spent explaining the display to a fixed grin." },
+            idle = { { "It is the shape of the skull. Nothing moves, nothing speaks. It still manages to look as though it has found a fault in the entire arrangement.", tone = "[gravelly] [mock-indignant]" }, "I was left standing guard while others had the excitement in Hillsbrad. The collection gave me something to look forward to in their return.", "The Critic is a private name, not a haunting. I would know if I had invited an opinion that could actually answer back." },
+            befriended = { { "You stayed for my company after you had heard about the collection. Come along, friend. An audience with a changeable expression is worth appreciating.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have an opinion, you may state it plainly. I have had quite enough of the silent version.", "I hear you. No, turning the Critic aside has not ended the difficulty. I can still remember the grin." },
+            loot = { { "Look properly at the find. An impressive account of a trophy does not make an uninteresting specimen more suitable for the collection.", tone = "[appraising] [wry]" } },
+            quest = { "Be certain what was requested before promising a collection. Not every souvenir satisfies the person waiting for it." },
+            rest = { "A pause. We can enjoy the company without rearranging anything for a while." },
+            group = { "More company. At least I need not guess which opinion belongs to which expression for the entire conversation." },
+            bagsFull = { "Review what you actually intended to keep. A collection gains little from being unable to see anything in it." },
+            gear = { "See that it will do its work. An impressive appearance is easier to admire when the useful part is sound." },
+            thanked = { "You are welcome. A little appreciation from someone willing to say it is pleasant to hear." },
+        },
+    },
+
     -- Sentinel Tysha Moonblade, road beside AmethAran, Darkshore. Adult
     -- Night Elf female1750/M2 921844, Alliance Friendly. Full953current/
     -- Classic/installed and both three-page tablets17188/17189read.
