@@ -1246,6 +1246,20 @@
       "zone": "Orgrimmar",
       "route": "Horde Orc Crossroads defense and Orgrimmar engineering coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/thork-and-thund-queue.md"
+    },
+    {
+      "npc_id": 2226,
+      "name": "Karos Razok",
+      "zone": "Silverpine Forest",
+      "route": "Male/female Forsaken Silverpine flight and Hillsbrad reconnaissance coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; Elite Karos and normal Lesh live eligibility validated; docs/research/karos-and-lesh-queue.md"
+    },
+    {
+      "npc_id": 2214,
+      "name": "Deathstalker Lesh",
+      "zone": "Hillsbrad Foothills",
+      "route": "Male/female Forsaken Silverpine flight and Hillsbrad reconnaissance coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; Elite Karos and normal Lesh live eligibility validated; docs/research/karos-and-lesh-queue.md"
     }
   ]
 }

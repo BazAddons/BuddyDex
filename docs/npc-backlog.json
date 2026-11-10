@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 430,
+  "completed_count": 432,
   "remaining_count": 2,
   "completed": [
     {
@@ -1410,6 +1410,26 @@
       "name": "Crier Goodman",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2214,
+      "name": "Deathstalker Lesh",
+      "zone": "Hillsbrad Foothills",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/karos-and-lesh-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2226,
+      "name": "Karos Razok",
+      "zone": "Silverpine Forest",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/karos-and-lesh-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

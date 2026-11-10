@@ -1,4 +1,5 @@
 # Unreleased
+- Add Karos Razok and Deathstalker Lesh: full male/female Forsaken flight-master and scout profiles, fifteen personal lines and four approved v4 signatures each; preserve Elite Karos friendship thresholds and Lesh's established Hillsbrad mission.
 - Add Thork and Thund: full male Orc Crossroads defender and Orgrimmar engineer profiles, fifteen personal lines and four approved v4 signatures each, grounded in their quest and workshop dialogue.
 - Add Lar Prowltusk and Nyse: full Troll scout and female Tauren flight-master profiles, fifteen personal lines and four approved v4 signatures each; retain Nyse's Elite friendship thresholds.
 - Add Shadi Mistrunner and Vel'rin Fang: full female Tauren trade-supplier and male Troll quest-giver profiles, fifteen personal lines and four approved v4 signatures each, including Vel'rin's Forever road-safety quest.

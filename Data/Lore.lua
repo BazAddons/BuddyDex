@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Karos Razok <Bat Handler>, Sepulcher/Silverpine,2226/3832.
+    -- Adult male Forsaken/Horde Friendly/Elite. Full flight tutorial context,
+    -- actual well-fed/trained bat gossip; Quartermaster nickname original.
+    -- Research: docs/research/karos-and-lesh-queue.md.
+    [2226] = {
+        quote = "Well trained, well fed, and ready. The Quartermaster has inspected the food again. His standards are exacting, especially about his own portion.",
+        likes = { "Bats properly trained and fed", "Needed supplies reaching the Sepulcher", "A passenger ready when arrangements end" },
+        dislikes = { "An urgent order left lying about", "Careless handling around the bats", "The Quartermaster inspecting every portion" },
+        gossip = "Karos calls one bat the Quartermaster. It inspects the food before anyone else, though its interest in the paperwork is limited.",
+        bio = "Karos handles the bats at the Sepulcher in Silverpine. He takes pride in their training and feeding. When Podrig needs weapons from Gordon Wendham in the Undercity, Karos recognizes the urgency and arranges the messenger's flight.",
+        backstory = "A bat's determined interest in every portion of food earned it a title from Karos: the Quartermaster. He began addressing it as though an inspection were underway. The bat showed no interest in the joke, but continued to examine the supplies.",
+        secret = "He enjoys delivering a solemn report to the Quartermaster before feeding it. Its impatience is familiar enough that he sometimes answers before it makes a sound.",
+        bestFriend = "Stay close, friend. I enjoy your company. The Quartermaster will expect a report, though it chiefly concerns his supper.",
+        favorite = { emote = "THANK", hint = "A little appreciation suits someone who takes pride in well-kept bats and an efficiently arranged journey." },
+        lines = {
+            greet = { { "Greetings, friend. The bats are well trained and fed. Tell me where you need to go, and we can settle the arrangements. If you are on urgent business, have your order ready. The Quartermaster has already inspected the food. That is what I call the bat with an interest in every portion, particularly any portion he considers his own.", tone = "[dry] [matter-of-fact] [wry]" },
+                "Back again. Your business, or an inspection from the Quartermaster?" },
+            idle = { { "The Quartermaster earned his title by inspecting the food before anyone else could approach it. I began giving him solemn reports. He had no interest in the words, but his attention improved considerably when supper followed. Now I sometimes answer before he makes a sound. The objection is familiar, and it generally concerns the size of his portion.", tone = "[dryly amused] [conversational] [restrained]" },
+                "An order is useful when it reaches the person who can fill it. Best not leave it waiting here.",
+                "Inspection concluded. He would like to inspect the next portion as well." },
+            befriended = { { "You are welcome beside me, friend. I have grown accustomed to your company, and I find I miss it when you are away. Stay a while. There need not be an order to carry or a journey to arrange every time you visit. We may even have a moment before the Quartermaster decides that supper requires another urgent report.", tone = "[quietly warm] [sincere] [wry]" } },
+            poke = { "Yes? I am listening.", "If this concerns supper, I have already received the first complaint." },
+            taxi = { { "Have your business settled before departure, friend. A needed order should reach the person who can act on it promptly. At the Sepulcher, an overlooked supply can matter more than an impressive speech about the journey. The bats are trained and fed. Tell me when you are ready, and we can see to the arrangements without further ceremony.", tone = "[instructive] [steady] [dry]" } },
+            landed = { "Back safely. Good. Tell me how the business went." },
+            loot = { "Keep what is needed where you can find it. An urgent order deserves better than the bottom of a heap." },
+            quest = { "Business concluded. That is useful news to bring back." },
+            rest = { "We may sit a moment. The Quartermaster has not yet requested a second supper." },
+            laughAlong = { "Yes, a strict inspection. Remarkably little of the evidence survives it." },
+            hearth = { "Back to the Sepulcher. I expect there will be business waiting, and a bat with an opinion." },
+        },
+    },
+
+    -- Deathstalker Lesh, Southpoint Tower/Hillsbrad,2214/2863.
+    -- Adult female Forsaken/Horde Friendly/Normal. Quest494 reconnaissance
+    -- for Darthalia's attack; weather small-talk/field-report joke original.
+    -- Research: docs/research/karos-and-lesh-queue.md.
+    [2214] = {
+        quote = "Quiet. Observe first, speak afterward. If I ask about the weather, an ordinary answer is permitted. I am practicing.",
+        likes = { "A message delivered without alteration", "A listener who remembers the instructions", "Company comfortable with a quiet pause" },
+        dislikes = { "Careless noise near an observation post", "A guess passed off as verified intelligence", "An urgent message delayed by chatter" },
+        gossip = "Lesh once tried discussing the weather and delivered a field report. Her idea of small talk is still a work in progress.",
+        bio = "Lesh conducts reconnaissance near Southpoint Tower, surveying Hillsbrad for the Forsaken. Her urgent coded message goes to High Executor Darthalia in Tarren Mill, signaling that the town is ready for attack. Silence and exact instructions matter to her.",
+        backstory = "During a pause, Lesh answered a weather question with wind direction, visibility, and their value for observation. Her listener laughed. She has since tried an ordinary conversation without turning it into a report.",
+        secret = "She rehearses a casual remark, then catches herself improving its precision. The difficult part is allowing a pleasant evening to be only a pleasant evening.",
+        bestFriend = "Stay, friend. You need not fill the silence. If I discuss the weather, you may remind me this is a conversation.",
+        favorite = { emote = "NOD", hint = "A quiet acknowledgment shows an attentive listener has understood without drawing attention to the post." },
+        lines = {
+            greet = { { "Quiet, friend. Observe first, speak afterward. A message loses its purpose if the messenger changes it, or delays until the opportunity has passed. If you have business, attend to the instructions. If you have come for company, you may stay. I was considering an ordinary remark about the weather. So far it sounds rather too much like a field report.", tone = "[quiet] [precise] [dry]" },
+                "There you are. Come closer. There is no need to announce yourself to the whole hillside." },
+            idle = { { "Someone asked me about the weather. I gave the wind direction, the visibility, and the usefulness of each for observation. Apparently a shorter answer would have served the conversation. I have been considering that. It is difficult to leave out a detail once I have noticed it, particularly when I can think of a reason it might matter.", tone = "[dryly amused] [measured] [conversational]" },
+                "A pleasant evening. There. I managed to stop before discussing the visibility.",
+                "Say what you observed. We can distinguish it from what you suspect afterward." },
+            befriended = { { "You are welcome beside me, friend. Stay. You need not fill every silence, and I need not turn every observation into instructions. If I discuss the weather, remind me this is a conversation. I find your company worth practicing for, even when the first attempt sounds like a report.", tone = "[quietly warm] [restrained] [sincere]" } },
+            poke = { "Yes? Speak quietly.", "I noticed. Now tell me what you intended." },
+            questAccepted = { { "My work here is reconnaissance. What I learn must reach High Executor Darthalia in Tarren Mill promptly, and the message must arrive as I give it. Pay attention to the instructions and the road signs. An embellishment may seem harmless to the messenger. To the person waiting for the signal, it can change the meaning of the whole report.", tone = "[stern] [precise] [quiet]" } },
+            quest = { "Delivered as instructed? Good. A clear report gives the next person something they can act on." },
+            zone = { "Observe the ground before deciding what the first glance has told you." },
+            combatStart = { "Enough delay. Attend to the threat." },
+            rest = { "You may sit. Quiet company is acceptable." },
+            laughAlong = { "Yes, that became a report again. I had intended a remark about the weather." },
+            hearth = { "Back toward my post. There may be a change worth observing." },
+        },
+    },
+
     -- Thork, Crossroads/The Barrens,3429/3856. Adult male Orc/Normal,
     -- Horde Friendly. Actual defense/supply quests and gratitude;906 admits
     -- mistaken leader. Scrap-paper wolves original, no item reward promised.

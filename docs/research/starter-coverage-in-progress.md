@@ -562,3 +562,8 @@ Completed Troll scout3140 and female Tauren Freewind flight master4317, fifteen 
 ### 2026-11-09: Thork and Thund (430)
 
 Completed male Orc Crossroads defender3429 and Orgrimmar engineer2857: fifteen lines/four approved v4 signatures each. Full sources/era/original limits and validation: docs/research/thork-and-thund-queue.md. Normal live gates/99-100and299-300boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,254files/devZIP131.31MiB,6,226runtime mappings. Public207Alliance/130Horde/100unverified, seven overlaps. Wider catalog active; CF deferred/public original preserved.
+
+
+### 2026-11-09: Karos Razok and Deathstalker Lesh (432)
+
+Completed male Forsaken Sepulcher flight master2226 and female Forsaken Hillsbrad scout2214: fifteen lines/four approved v4 signatures each. Full sources/era/original limits: docs/research/karos-and-lesh-queue.md, including actual readable Podrig order and Hillsbrad Registry, source limits for sparse tutorial links. EliteKaros150/450andnormalLesh100/300boundaries tested, normal25/150gains, exactlyone recordedwelcome, audio/layout/main+Scout smoke pass. Installed6,262files/devZIP131.96MiB/6,234runtime mappings. Public207Alliance/132Horde/100unverified seven overlaps. Wider catalog active, CF deferred/public original preserved.

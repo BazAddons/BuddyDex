@@ -799,6 +799,46 @@
     "text": "An agreeable time to pause. Consider what you would actually enjoy before turning the moment into another obligation. I find that a little company can make an ordinary afternoon sufficient in itself.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore2226_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2226",
+    "spoken": "[quietly warm] [sincere] [wry] You are welcome beside me, friend. I have grown accustomed to your company, and I find I miss it when you are away. Stay a while. There need not be an order to carry or a journey to arrange every time you visit. We may even have a moment before the Quartermaster decides that supper requires another urgent report.",
+    "text": "You are welcome beside me, friend. I have grown accustomed to your company, and I find I miss it when you are away. Stay a while. There need not be an order to carry or a journey to arrange every time you visit. We may even have a moment before the Quartermaster decides that supper requires another urgent report.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2226_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2226",
+    "spoken": "[dry] [matter-of-fact] [wry] Greetings, friend. The bats are well trained and fed. Tell me where you need to go, and we can settle the arrangements. If you are on urgent business, have your order ready. The Quartermaster has already inspected the food. That is what I call the bat with an interest in every portion, particularly any portion he considers his own.",
+    "text": "Greetings, friend. The bats are well trained and fed. Tell me where you need to go, and we can settle the arrangements. If you are on urgent business, have your order ready. The Quartermaster has already inspected the food. That is what I call the bat with an interest in every portion, particularly any portion he considers his own.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2226_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2226",
+    "spoken": "[dryly amused] [conversational] [restrained] The Quartermaster earned his title by inspecting the food before anyone else could approach it. I began giving him solemn reports. He had no interest in the words, but his attention improved considerably when supper followed. Now I sometimes answer before he makes a sound. The objection is familiar, and it generally concerns the size of his portion.",
+    "text": "The Quartermaster earned his title by inspecting the food before anyone else could approach it. I began giving him solemn reports. He had no interest in the words, but his attention improved considerably when supper followed. Now I sometimes answer before he makes a sound. The objection is familiar, and it generally concerns the size of his portion.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2226_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:2226",
+    "spoken": "[instructive] [steady] [dry] Have your business settled before departure, friend. A needed order should reach the person who can act on it promptly. At the Sepulcher, an overlooked supply can matter more than an impressive speech about the journey. The bats are trained and fed. Tell me when you are ready, and we can see to the arrangements without further ceremony.",
+    "text": "Have your business settled before departure, friend. A needed order should reach the person who can act on it promptly. At the Sepulcher, an overlooked supply can matter more than an impressive speech about the journey. The bats are trained and fed. Tell me when you are ready, and we can see to the arrangements without further ceremony.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore2388_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

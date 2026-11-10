@@ -1575,5 +1575,19 @@
     "zone": "Orgrimmar",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/thork-and-thund-queue.md"
+  },
+  {
+    "npc_id": 2226,
+    "name": "Karos Razok",
+    "zone": "Silverpine Forest",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/karos-and-lesh-queue.md"
+  },
+  {
+    "npc_id": 2214,
+    "name": "Deathstalker Lesh",
+    "zone": "Hillsbrad Foothills",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/karos-and-lesh-queue.md"
   }
 ]
