@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rezlak and Urtrun Clanbringer: two complete adult Goblin and Orc profiles, with thirty personal lines queued.
+- Ground their caravan and guild friendships in full Classic/Forever supply quests and established clan-service dialogue.
+
 - Add Shelene Rhobart and Rand Rhobart: two complete adult Forsaken profiles, with thirty personal lines queued.
 - Expand early Tirisfal profession friendships with sourced post-plague learning, new hide-gathering lore and camping lessons kept separate from BuddyDex rewards.
 

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Rezlak and Urtrun Clanbringer: two complete adult Goblin and Orc profiles, with thirty personal lines queued.
+- Ground their caravan and guild friendships in full Classic/Forever supply quests and established clan-service dialogue.
+
 - Add Shelene Rhobart and Rand Rhobart: two complete adult Forsaken profiles, with thirty personal lines queued.
 - Expand early Tirisfal profession friendships with sourced post-plague learning, new hide-gathering lore and camping lessons kept separate from BuddyDex rewards.
 
@@ -147,4 +150,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **576 fully written NPC profiles**: 454 have initial signature recordings, and one hundred twenty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **578 fully written NPC profiles**: 454 have initial signature recordings, and one hundred twenty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

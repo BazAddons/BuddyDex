@@ -2597,5 +2597,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Forsaken female/male body and current Horde Friendly; full97558 and camping referrals plus installed training dialogue, no Scout sighting claimed",
     "research_notes": "docs/research/brill-hides-and-a-place-to-sit.md"
+  },
+  {
+    "npc_id": 3293,
+    "name": "Rezlak",
+    "zone": "Durotar",
+    "source": "Reviewed adult Goblin/Orc male body and current Horde Neutral/Friendly distinction; full caravan/orb chains or installed guild greeting/current services, no Scout sighting claimed",
+    "research_notes": "docs/research/durotar-caravans-and-clan-purpose.md"
+  },
+  {
+    "npc_id": 3370,
+    "name": "Urtrun Clanbringer",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Goblin/Orc male body and current Horde Neutral/Friendly distinction; full caravan/orb chains or installed guild greeting/current services, no Scout sighting claimed",
+    "research_notes": "docs/research/durotar-caravans-and-clan-purpose.md"
   }
 ]

@@ -4,18 +4,18 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 248,
-    "unverified": 139,
-    "horde": 204
+    "unverified": 140,
+    "horde": 205
   },
   "npc_race_counts": {
     "1": 165,
     "3": 44,
     "7": 37,
-    "2": 67,
+    "2": 68,
     "5": 61,
     "4": 40,
     "8": 44,
-    "9": 29,
+    "9": 30,
     "6": 66,
     "96": 8,
     "95": 15
@@ -36,12 +36,12 @@
     "Teldrassil": 16,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
-    "Orgrimmar": 36,
+    "Orgrimmar": 37,
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 14,
     "Thunder Bluff": 34,
-    "Durotar": 45,
+    "Durotar": 46,
     "The Barrens": 28,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
@@ -3190,6 +3190,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3287"
     },
     {
+      "npc_id": 3293,
+      "name": "Rezlak",
+      "zone": "Durotar",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3293"
+    },
+    {
       "npc_id": 3304,
       "name": "Master Vornal",
       "zone": "Durotar",
@@ -3382,6 +3393,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3367"
+    },
+    {
+      "npc_id": 3370,
+      "name": "Urtrun Clanbringer",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3370"
     },
     {
       "npc_id": 3389,
@@ -7385,6 +7409,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 576,
-  "awaiting_signature_audio_profiles": 122
+  "authored_profiles": 578,
+  "awaiting_signature_audio_profiles": 124
 }

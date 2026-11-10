@@ -2268,6 +2268,20 @@
       "zone": "Tirisfal Glades",
       "route": "Horde early Brill-to-Undercity skinning contact",
       "reason": "Complete adult Forsaken profile with fifteen queued lines in approved sex-specific voice; actual hide/camping skills separate from friendship rewards, no synthesis"
+    },
+    {
+      "npc_id": 3293,
+      "name": "Rezlak",
+      "zone": "Durotar",
+      "route": "Durotar early caravan and storm-orb contact",
+      "reason": "Complete adult male profile with fifteen queued lines in approved race voice; experiment success and game guild services separate from friendship rewards, no synthesis"
+    },
+    {
+      "npc_id": 3370,
+      "name": "Urtrun Clanbringer",
+      "zone": "Orgrimmar",
+      "route": "Horde Orgrimmar guild services contact",
+      "reason": "Complete adult male profile with fifteen queued lines in approved race voice; experiment success and game guild services separate from friendship rewards, no synthesis"
     }
   ]
 }

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rezlak <Tinkers' Union>, Durotar. Adult Goblin male7129/M2 119376,
+    -- current Horde Neutral. Full834->835 and97281->97282 read;
+    -- Gazlowe employment/advice and uncertain orb experiment are sourced.
+    -- Actual sand-castle attempt is original, inspired by a progress joke.
+    -- Research: docs/research/durotar-caravans-and-clan-purpose.md
+    [3293] = {
+        quote = "Doing it yourself is excellent advice. Knowing what to pay someone else is excellent advice too.",
+        likes = { "A shipment arriving as promised", "A salvage find with possibilities", "A job agreed on before it begins" },
+        dislikes = { "Dustwind harpies taking supplies", "Idle hands with nothing to work with", "A guarantee that fails at the canyon" },
+        gossip = "Rezlak has advice from Gazlowe for most occasions. If one piece sounds inconvenient, another may explain why he is hiring help.",
+        bio = "Rezlak of the Tinkers' Union works for Gazlowe in Durotar. Harpy attacks on supply caravans keep interrupting the job. A strange storm orb offers another possibility, and he hopes thunder-lizard organs may help restore its charge.",
+        backstory = "Gazlowe sent him to help the orcs. Recovering supplies is only the first difficulty; he also seeks to stop the attacks. He quotes both self-reliance and the value of paid help, finding room for both lessons when the work needs doing.",
+        secret = "While waiting for supplies, he once tried building a small sand castle. He rather enjoyed a project that needed no shipment. He was less pleased when the wind demanded changes.",
+        bestFriend = "No shipment to count, no task to price. We can spend a little time together. If we build anything, let it be something we can laugh at.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys company that notices when a stalled job finally begins moving again.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Hey, good to see you. Shall we get moving before another delivery becomes an interesting story?", tone = "[brisk] [upbeat]" }, "Ready! We can agree on the plan while we walk." },
+            idle = { { "The sand castle needed no shipment. Then the wind took an interest in the design.", tone = "[wry] [animated]" }, "My boss had advice for doing it yourself and advice for hiring help. A well-stocked collection, advice.", "A promising idea and a working result are two different things. I am hoping to introduce them." },
+            befriended = { { "You stayed for the company after we finished talking about the job. I like the sound of doing that again.", tone = "[warm] [pleased]" } },
+            poke = { "Yes? News of supplies, or something more cheerful?", "I was considering whether the wind counts as an unsolicited partner." },
+            quest = { { "Let us be clear about the job before you begin. It saves an impressive amount of discussion afterward.", tone = "[businesslike] [brisk]" } },
+            loot = { "Now that has possibilities. Let us inspect it before promising what it can do." },
+            bagsFull = { "Recovered supplies still need someone to carry them. A familiar difficulty." },
+            learned = { "A useful bit of knowledge. Perhaps we can save ourselves a failed attempt with it." },
+            combatEnd = { "Good. Now let us see whether the things we came for are still here." },
+            zone = { "New surroundings. How do the supplies get through?" },
+            group = { "Good help is worth finding. I have advice from Gazlowe to support that conclusion." },
+        },
+    },
+
+    -- Urtrun Clanbringer <Guild Master>, Orgrimmar. Adult Orc male1392/
+    -- M2 917116, Horde Friendly; guild/charter/tabard services, own tabs0.
+    -- Installed clan/Warchief greeting; no own quest. Private crest
+    -- indecision is original, no later DK/Legion/fan-video history imported.
+    -- Research: docs/research/durotar-caravans-and-clan-purpose.md
+    [3370] = {
+        quote = "A banner can show where you stand. The people beside you still need to know what you stand for.",
+        likes = { "A purpose agreed upon together", "A promise kept after the ceremony", "A crest simple enough to recognize" },
+        dislikes = { "Grand symbols used to excuse poor conduct", "One person taking credit for everyone", "Promises made on another's behalf" },
+        gossip = "Urtrun takes a clan's purpose seriously. His attempts at designing a perfectly simple private crest have been less decisive.",
+        bio = "Urtrun Clanbringer is a guild master in Orgrimmar. He helps clans establish their guild identity through charters and tabards. His welcome places those clans beneath the Warchief's banner, where even an age of peace still calls for readiness.",
+        backstory = "Hearing people explain what they hoped to do together made him interested in the promise behind the symbol. He began imagining how little a crest might need to say, provided the people wearing it already understood one another.",
+        secret = "He once reduced his private crest to a few plain lines. Then he turned the page over and preferred the other way up. He has not settled which version was the original.",
+        bestFriend = "We need no crest for this visit. I know whose company I wanted, and you have come. That will do very well.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values an acknowledgment that carries respect and a sense of shared purpose.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good to see you. Let us agree on where we are going before making an occasion of setting out.", tone = "[steady] [welcoming]" }, "I am ready. Company with a clear purpose is welcome." },
+            idle = { { "The crest became simpler. Deciding which way up to hold it did not.", tone = "[dry] [amused]" }, "A fine symbol cannot keep a promise on anyone's behalf.", "People need to understand what they mean to do together. The banner can follow." },
+            befriended = { { "You have shared your purpose with me and made room to hear mine. I would welcome more time in that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What did you wish to discuss?", "I was considering whether turning the page counted as a new design." },
+            group = { { "Know what you ask of one another, and give each person their share of the credit.", tone = "[firm] [encouraging]" } },
+            quest = { "Be clear about the commitment before offering to make it for someone else." },
+            combatEnd = { "Account for the people beside you. They are more than the colors they wear." },
+            gear = { "Care for what you carry. A symbol deserves better than neglect." },
+            zone = { "New surroundings. It would be wise to learn what matters to the people here." },
+            saluteBack = { "Well met. Let the respect remain when the gesture is finished." },
+            thanked = { "You are welcome. I am pleased the understanding proved useful." },
+        },
+    },
+
     -- Shelene Rhobart <Journeyman Leatherworker>, road southeast of Brill.
     -- Adult Forsaken female1607/M2 997378, Horde Friendly, Trainer.
     -- Full97558/97958 and camping context, three installed gossips read.
