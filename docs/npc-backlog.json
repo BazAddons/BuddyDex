@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 704,
-  "written_complete_count": 704,
-  "awaiting_signature_audio_count": 250,
+  "authored_count": 706,
+  "written_complete_count": 706,
+  "awaiting_signature_audio_count": 252,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 252,
+  "remaining_count": 254,
   "completed": [
     {
       "npc_id": 54,
@@ -4056,6 +4056,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 4454,
+      "name": "Fizzle Brassbolts",
+      "zone": "Thousand Needles",
+      "source": "Reviewed adult Gnome man at Mirage Raceway, current explicit Horde Friendly; full engineering/delivery/rival quests and two-page5827letter; installed greeting; original reserved naming story distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/raceway-pistons-and-gwinas-pouch.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 4552,
       "name": "Eunice Burch",
       "zone": "Undercity",
@@ -4316,6 +4328,18 @@
       "zone": "Ironforge",
       "source": "Reviewed unique adult city identity, current Friendly/model/service fields, full available relevant quests/dialogue and stock; no Scout sighting claimed",
       "research_notes": "docs/research/ironforge-herbs-hospitality-and-patterns.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 5138,
+      "name": "Gwina Stonebranch",
+      "zone": "Ironforge",
+      "source": "Reviewed adult Alliance Dwarf woman at Ironforge Physician; four current supply goods/item nodes, no personal quests/gossip found; supplier not trainer; no inferred Reyna kinship; original button collection distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/raceway-pistons-and-gwinas-pouch.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

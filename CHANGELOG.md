@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Fizzle Brassbolts and Gwina Stonebranch: full adult Gnome and Dwarf profiles with thirty personal lines queued.
+- Research the Raceway engineering chains and full letter to Martek, plus Gwina's current supplies; keep original friendship stories separate from established facts.
+
 - Add Clyde Kellen and Martine Tramblay: two full adult Forsaken profiles with thirty personal lines queued.
 - Research Clyde's fishing/camping instruction and Martine's current supplies; distinguish original fish-interview and empty-plate anecdotes from established facts.
 

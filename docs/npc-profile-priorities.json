@@ -3164,6 +3164,20 @@
       "zone": "Tirisfal Glades",
       "route": "Deaths Watch Waystation fishing supplies",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original fish interview or empty-plate anecdote; no synthesis"
+    },
+    {
+      "npc_id": 4454,
+      "name": "Fizzle Brassbolts",
+      "zone": "Thousand Needles",
+      "route": "Mirage Raceway engineering",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified engineering chains/two-page letter and original reserved car name story; no synthesis"
+    },
+    {
+      "npc_id": 5138,
+      "name": "Gwina Stonebranch",
+      "zone": "Ironforge",
+      "route": "Ironforge Physician herbalism supplies",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified supplier role and original Herb Pouch button collection; no synthesis"
     }
   ]
 }

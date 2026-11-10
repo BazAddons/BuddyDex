@@ -3493,5 +3493,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Horde Forsaken woman at Deaths Watch Waystation; all eight current wares and item nodes, no personal quests/gossip found; later retail relocation excluded; original empty-plate anecdote distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/brightwater-questions-and-the-empty-plate.md"
+  },
+  {
+    "npc_id": 4454,
+    "name": "Fizzle Brassbolts",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult Gnome man at Mirage Raceway, current explicit Horde Friendly; full engineering/delivery/rival quests and two-page5827letter; installed greeting; original reserved naming story distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/raceway-pistons-and-gwinas-pouch.md"
+  },
+  {
+    "npc_id": 5138,
+    "name": "Gwina Stonebranch",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Alliance Dwarf woman at Ironforge Physician; four current supply goods/item nodes, no personal quests/gossip found; supplier not trainer; no inferred Reyna kinship; original button collection distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/raceway-pistons-and-gwinas-pouch.md"
   }
 ]

@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 296,
+    "alliance": 297,
     "unverified": 157,
-    "horde": 273
+    "horde": 274
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 57,
-    "7": 49,
+    "3": 58,
+    "7": 50,
     "2": 78,
     "5": 76,
     "4": 57,
@@ -29,7 +29,7 @@
     "Loch Modan": 1,
     "Dun Morogh": 20,
     "Wetlands": 3,
-    "Ironforge": 53,
+    "Ironforge": 54,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 46,
     "Undercity": 14,
@@ -49,7 +49,7 @@
     "Darnassus": 9,
     "Burning Steppes": 1,
     "Ashenvale": 12,
-    "Thousand Needles": 7,
+    "Thousand Needles": 8,
     "Dustwallow Marsh": 1,
     "Tanaris": 7,
     "Feralas": 3,
@@ -5066,6 +5066,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4317"
     },
     {
+      "npc_id": 4454,
+      "name": "Fizzle Brassbolts",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4454"
+    },
+    {
       "npc_id": 4552,
       "name": "Eunice Burch",
       "zone": "Undercity",
@@ -5375,6 +5388,19 @@
       ],
       "reaction_evidence": "Alliance Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5137"
+    },
+    {
+      "npc_id": 5138,
+      "name": "Gwina Stonebranch",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5138"
     },
     {
       "npc_id": 5144,
@@ -9023,6 +9049,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 704,
-  "awaiting_signature_audio_profiles": 250
+  "authored_profiles": 706,
+  "awaiting_signature_audio_profiles": 252
 }

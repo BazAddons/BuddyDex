@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Fizzle Brassbolts, Mirage Raceway. Adult Gnome male5427/
+    -- M2 900914. Current primary explicitly Horde Friendly; Classic
+    -- shared access noted separately. Full fuel/piston/delivery and
+    -- rival branches, two-page5827letter, installed greeting read.
+    -- Waiting to name a tested car with a friend is original.
+    -- Research: docs/research/raceway-pistons-and-gwinas-pouch.md
+    [4454] = {
+        quote = "A failed piston is an answer! An annoying answer. I would prefer a different answer.",
+        likes = { "A result that suggests the next experiment", "Martek's knowledge of stubborn metal", "Company willing to share the excitement" },
+        dislikes = { "A piston giving up before the engine does", "Being told there are enough designs", "An important detail lost in the shouting" },
+        gossip = "Fizzle has plenty of designs and almost as much enthusiasm. He has been unusually slow to choose a name for the car he most wants to see run.",
+        bio = "Fizzle Brassbolts develops rocket cars at Mirage Raceway. His scorpid-venom fuel demands stronger parts, while his brother Wizzle works to contain its effects. Fizzle sends a letter to Martek seeking pistons that can endure the strain.",
+        backstory = "Martek tests indurium for the engine's heat and stress. Parts also reach Fizzle through Kravel's deliveries. Each promising material opens another possibility for a designer already eager to try far more ideas than his car can hold.",
+        secret = "He is saving one good name for a car that finishes its test in one piece. He has not chosen it yet. For once, he wants to wait and hear what a trusted friend thinks.",
+        bestFriend = "Come along! I want your company, and someday your opinion on that name. First, let us get the whole car across the line.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He wants someone to share the excitement when a stubborn experiment finally offers a promising result.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "You are here! Excellent! Come along. I have ideas to tell you, questions to ask, and possibly enough time to hear your answers if I remember to stop talking.", tone = "[excited] [welcoming]" }, "Ready! I am pleased you came. You need not understand every part immediately. Give me a moment, and I will explain the interesting part first." },
+            idle = { { "I am saving one good name for a car that finishes its test in one piece. No, I have not chosen it yet! That part can wait until I hear what you think.", tone = "[eager] [fond]" }, "More heat, more speed, and then the piston objects! It is a very definite objection. I would be delighted to find a material with a more cooperative opinion.", "Martek knows metal. Wizzle worries about what my fuel will do to the car. There is rather a lot to consider between making a thing faster and keeping it together." },
+            befriended = { { "You have become someone I want beside me when a result is worth celebrating. Come along, friend! And when we finally need that name, I want to hear your suggestion.", tone = "[bright] [sincere]" } },
+            poke = { "Yes? You have my attention! If I begin answering a question you did not ask, interrupt before I get to the third improvement.", "Tell me! A new observation? A question? Either could be just the thing. I am listening." },
+            learned = { { "There! Something we did not know before. Let us see what it changes before declaring the entire problem solved. Though I do have a promising idea!", tone = "[animated] [curious]" } },
+            quest = { "Find out exactly what is needed. A promising material still needs the right test before it belongs in the engine." },
+            loot = { "Interesting! What can it withstand? And what can we learn without destroying the only sample? That second question is worth remembering." },
+            rest = { "A pause! Very well. I can enjoy your company without improving anything for a moment. You may need to remind me when the moment begins." },
+            group = { "Tell us what you noticed! The useful detail may be the one the rest of us were too busy explaining our own ideas to hear." },
+            cheerAlong = { "Yes! A result worth being excited about! Let us enjoy it, and then remember precisely what produced it." },
+            zone = { "Have a look! Different ground, different conditions. There is plenty to notice before deciding the same design will behave the same way here." },
+        },
+    },
+
+    -- Gwina Stonebranch <Herbalism Supplier>, Great Forge, Ironforge.
+    -- Adult Dwarf female3064/M2 950080, Alliance Friendly. Four current
+    -- goods/item nodes read; no personal quests/gossip found. Button
+    -- collection is original. No inferred Reyna family relationship.
+    -- Research: docs/research/raceway-pistons-and-gwinas-pouch.md
+    [5138] = {
+        quote = "A well-made pouch does not ask what you put in it. I appreciate that.",
+        likes = { "A sturdy container put to use", "Buttons that refuse to match", "A friend who enjoys a harmless oddity" },
+        dislikes = { "A loose vial knocked against its neighbor", "A practical thing dismissed as plain", "Being asked whether buttons are herbs" },
+        gossip = "Gwina keeps an Herb Pouch for a collection that contains very little greenery. She maintains that this proves the quality of the pouch.",
+        bio = "Gwina Stonebranch supplies herbalists at Ironforge Physician in the Great Forge. Her current wares include Empty, Leaded and Crystal Vials, along with an Herb Pouch. She sells supplies rather than teaching the profession.",
+        backstory = "An empty pouch once kept a found button from disappearing into her pocket. There was room for another, and then a few more. Gwina discovered that a good herb container could serve a thoroughly different collection.",
+        secret = "A plain wooden button sits among the brighter ones. She considered setting it aside, then decided it looked too lonely by itself. It has kept its place ever since.",
+        bestFriend = "Come along. You may see the collection later, if you like. For now, I am pleased to have your company without defending the contents of a bag.",
+        favorite = {
+            emote = "WINK",
+            hint = "She enjoys a friend acknowledging the joke when her Herb Pouch turns out to hold something unexpected.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Shall we? I have room for a little company, even if the pouch is becoming a separate question.", tone = "[warm] [wry]" }, "Ready, friend. Tell me what you have been doing. I should like a conversation that does not begin with the price of a vial." },
+            idle = { { "An Herb Pouch is an excellent place for buttons. They stay together, they do not rattle against the glassware, and the pouch has never raised an objection.", tone = "[matter-of-fact] [amused]" }, "There is a plain wooden one among the brighter buttons. I nearly put it aside. It looked rather lonely on its own, so back it went.", "Empty, Leaded and Crystal Vials. Choose the supply the work calls for, and give the glass a little care while you are carrying it." },
+            befriended = { { "You have become welcome company. Come along, friend. I enjoy having someone who can hear about a harmless oddity without requiring a grand reason for it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. If this is about the buttons, I stand by the suitability of the pouch.", "What is on your mind? Take your time. I am pleased you wanted to tell me." },
+            laughAlong = { { "Exactly. A pouch can have a title without making its contents sign an agreement.", tone = "[dry] [playful]" } },
+            bagsFull = { "Make a little room before you need to find something quickly. And yes, I am aware that this advice invites a remark about my own pouch." },
+            loot = { "A useful little thing, perhaps. Give it a look before deciding that plain means uninteresting." },
+            gear = { "A good fastening is worth noticing. The grandest coat still has to remain on the person wearing it." },
+            rest = { "A pause. You need not produce an explanation for enjoying it. We can simply sit together for a while." },
+            group = { "Let everyone find what they need before hurrying on. A small difficulty becomes larger when someone is afraid to mention it." },
+            thanked = { "You are welcome. I am glad it helped. Take care with the glass on your way." },
+        },
+    },
+
     -- Clyde Kellen, Brightwater Lake, Tirisfal. Adult Forsaken male
     -- 4007/M2 959310, Horde Friendly. Fishing instruction, three installed
     -- greetings and full97956/96607/96656camping context read.
