@@ -1946,6 +1946,20 @@
       "zone": "Zephras Isle",
       "route": "Shared High Order/Windshaper Thendal Grove starting route",
       "reason": "Complete adult female/male Skyborne profile and fifteen approved-voice lines queued; verified shared access counted once per NPC, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 252095,
+      "name": "Hanaa Nightwind",
+      "zone": "Zephras Isle",
+      "route": "Shared female Skyborne Thendal-Shendar early route",
+      "reason": "Complete adult High Order female profile and fifteen queued lines; shared player access separate from NPC race, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 251906,
+      "name": "Teeri Wellwind",
+      "zone": "Zephras Isle",
+      "route": "Shared female Skyborne Thendal-Shendar early route",
+      "reason": "Complete adult High Order female profile and fifteen queued lines; shared player access separate from NPC race, ordinary live gates retained, no synthesis"
     }
   ]
 }

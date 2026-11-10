@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hanaa Nightwind and Teeri Wellwind: two full female Skyborne profiles along the shared early Zephras route, with thirty personal lines queued.
+- Preserve the ranger's warning duty and Shen'dar's supply tradeoffs, with original friendship stories and ordinary character-specific unlocks.
+
 - Add Jolee Brightmeadows and Elatrell Featherlight in Thendal Grove: two full Skyborne starter profiles accessible to both faction paths, with thirty personal lines queued.
 - Ground their stories in verified armor services and the cirrusfly investigation while keeping original personality details and normal friendship rewards distinct.
 

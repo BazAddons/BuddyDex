@@ -2275,5 +2275,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current adult model, explicit both-faction Friendly fields, full own stock/quest tabs and installed infestation dialogue; no claimed Scout sighting",
     "research_notes": "docs/research/thendal-armor-and-ranger.md"
+  },
+  {
+    "npc_id": 252095,
+    "name": "Hanaa Nightwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current adult model, explicit both-faction Friendly fields, complete own tasks/arrival context and installed/public dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/zephras-warnings-and-village-operations.md"
+  },
+  {
+    "npc_id": 251906,
+    "name": "Teeri Wellwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current adult model, explicit both-faction Friendly fields, complete own tasks/arrival context and installed/public dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/zephras-warnings-and-village-operations.md"
   }
 ]

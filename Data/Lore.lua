@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hanaa Nightwind <Rangers of Thendal Grove>, Zephras Isle. Adult
+    -- High Order female252095/display137338/M2 7478494, Alliance/Horde
+    -- Friendly. Full current/installed Al'Aketh Thugs92544: stays to warn
+    -- travelers, wants to join action. No permanent cult defeat assumed.
+    -- Her private imagined sprint is original BuddyDex character writing.
+    -- Research: docs/research/zephras-warnings-and-village-operations.md
+    [252095] = {
+        quote = "I am staying here so the next traveler hears the warning too.",
+        likes = { "A warning taken seriously", "A clear stretch for a sprint", "A greeting for the watch" },
+        dislikes = { "Cultists preying on travelers", "Recklessness dressed up as courage", "Standing watch called doing nothing" },
+        gossip = "Hanaa looks ready to spring into action. Staying at her post is sometimes the harder part of her duty.",
+        bio = "Hanaa Nightwind guards a road out of Thendal Grove with its rangers. Al'Aketh thugs threaten travelers near the temple ruins. She asks for help against Malduko Cloudcrush while remaining at her post to warn the next person along.",
+        backstory = "She once measured a good watch by how much ground she had covered. Guarding a road gave her another measure: how many people heard the warning before meeting the danger. It has not made her any less eager to move.",
+        secret = "She sometimes imagines a race down the path beginning with a perfectly fierce shout. She never makes the shout. There is a watch to keep.",
+        bestFriend = "When we have a clear stretch of path, I want a race. Friendship does not oblige me to let you win.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She values a greeting that recognizes the work of keeping watch.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "I will come. Let us keep our eyes open and our pace useful.", tone = "[alert] [warm]" }, "Good to see you. Ready to move?" },
+            idle = { { "Standing watch is not doing nothing. It is sometimes wishing you were elsewhere.", tone = "[wry] [honest]" }, "There is a fine stretch for a sprint. Not a challenge. Yet.", "A warning does its work before anyone has a heroic story to tell." },
+            befriended = { { "I am glad to walk beside you. Good company deserves attention as much as danger does.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I have not stopped listening.", "I was considering a route. You may call it a race if you wish." },
+            quest = { { "See that the next traveler is safer, not only that the task sounds impressive.", tone = "[firm]" } },
+            questAccepted = { "Take the warning seriously. Then take care of yourself out there." },
+            combatStart = { "Watch the approach. Keep room for one another." },
+            combatEnd = { "Check the road before calling it clear." },
+            zone = { "Different ground. The same need to see what lies ahead." },
+            rest = { "A pause is sensible. I am reminding myself as well as you." },
+            group = { "A greeting for everyone. Then let us keep one another in view." },
+        },
+    },
+
+    -- Teeri Wellwind, Shen'dar Village, Zephras Isle. Adult High Order
+    -- female251906/display138107/M2 7478494, Alliance/Horde Friendly.
+    -- Full own quests92516/93319, arrival context and installed V.L.O.
+    -- gossip read; current progress supports Aonda's manpower tradeoff.
+    -- Windstones give temporary relief; planned leisure is original writing.
+    -- Research: docs/research/zephras-warnings-and-village-operations.md
+    [251906] = {
+        quote = "A village does not keep running because everyone has something more exciting to do.",
+        likes = { "An emergency reserve still in reserve", "Work finished properly", "A thank-you without another request" },
+        dislikes = { "Supply shortages called surprises", "Important work left to someone else", "A day off turned into a meeting" },
+        gossip = "Teeri can turn a quiet afternoon into an orderly plan. People are advised not to ask whether she has a plan for relaxing.",
+        bio = "Teeri Wellwind manages Village Live Operations in Shen'dar. Keeping travelers safe and emergency windstones available leaves her little time for chatter. She puts willing helpers to work against nesting hippogryphs and supply thieves.",
+        backstory = "Planning small tasks helped her make room for larger ones. She tried the same method on her free time and produced a very efficient list of obligations. She is still learning the difference between an afternoon off and a well-run afternoon.",
+        secret = "She has a plan for a perfectly uneventful afternoon. It includes several contingencies. She considers this reassuring, not contradictory.",
+        bestFriend = "No business, no report, and no request. Stay a little while. I shall try not to organize the conversation.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates someone noticing the work that keeps a village running.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "I will come. Let us establish whether this is an outing or another incident.", tone = "[brisk] [wry]" }, "Good to see you. I have decided not to begin with a list." },
+            idle = { { "The afternoon is planned. The absence of emergencies is the difficult part.", tone = "[dry]" }, "A reserve is supposed to be there before someone needs it.", "I can enjoy a quiet moment. I need not write down how well it went." },
+            befriended = { { "You have asked for my company, rather than another piece of work. I appreciate the difference.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Please tell me this is not another shortage.", "I am listening. Is it urgent, or simply interesting?" },
+            quest = { { "Put the supplies back where they are needed. A tidy victory is not enough.", tone = "[practical]" } },
+            questAccepted = { "Be clear about what needs doing, and who is counting on it." },
+            bagsFull = { "You have reached capacity. Calling it temporary will not create another pocket." },
+            loot = { "A useful recovery. Keep track of what it is meant to replace." },
+            mail = { "News, a request, or a problem choosing not to announce itself?" },
+            rest = { "A break. Very well. I will resist assigning it an objective." },
+            thanked = { "Thank you for saying so. It is pleasant when the work is noticed." },
+        },
+    },
+
     -- Jolee Brightmeadows <Cloth & Leather Armor>, Thendal Grove, Zephras.
     -- Adult High Order female251365/display138156/M2 7478494; explicit
     -- Alliance/Horde Friendly. Current Repair/Vendor, twelve armor rows, no

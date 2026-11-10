@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Hanaa Nightwind and Teeri Wellwind: two full female Skyborne profiles along the shared early Zephras route, with thirty personal lines queued.
+- Preserve the ranger's warning duty and Shen'dar's supply tradeoffs, with original friendship stories and ordinary character-specific unlocks.
+
 - Add Jolee Brightmeadows and Elatrell Featherlight in Thendal Grove: two full Skyborne starter profiles accessible to both faction paths, with thirty personal lines queued.
 - Ground their stories in verified armor services and the cirrusfly investigation while keeping original personality details and normal friendship rewards distinct.
 
@@ -84,4 +87,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **530 fully written NPC profiles**: 454 have initial signature recordings, and seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **532 fully written NPC profiles**: 454 have initial signature recordings, and seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
