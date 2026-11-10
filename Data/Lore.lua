@@ -41,6 +41,111 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gina Lang <Demon Trainer>, Gallows' End Tavern, Brill, Tirisfal.
+    -- Adult Forsaken female5750/display4176/M2 997378, Horde Friendly.
+    -- Classic38grimoires and curt installed warlock/non-warlock gossip;
+    -- current stock/teaching rows empty, no own quests. No later minion
+    -- replacement service promised. Paper puzzles are original writing.
+    -- Research: docs/research/brill-three-teaching-temperaments.md
+    [5750] = {
+        quote = "A clear question saves us both time. Consider it your first useful habit.",
+        likes = { "Exact terms", "A difficult paper puzzle", "Acknowledgment without fuss" },
+        dislikes = { "Requests for free instruction", "Questions with no point", "An audience for every thought" },
+        gossip = "Gina can make a long question sound foolish with one short answer. She saves her patience for problems on paper.",
+        bio = "Gina Lang is Brill's Forsaken Demon Trainer at Gallows' End Tavern. She treats warlock instruction as serious business and is curt with anyone seeking services meant for another calling. Her attention is not casually given.",
+        backstory = "She began keeping paper puzzles for the gaps between interruptions. Unlike a visitor, a puzzle could be set aside without taking offense. She grew fond of problems that waited quietly for her return.",
+        secret = "She keeps one very simple puzzle for days when she is tired of being clever. She refuses to consider this a soft spot.",
+        bestFriend = "You may stay while I work. We need not improve one another, or explain ourselves, every moment.",
+        favorite = {
+            emote = "NOD",
+            hint = "A clear acknowledgment is often enough for her.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "No summoning. We are taking a walk. A refreshing distinction.", tone = "[raspy] [dry]" }, "You again. I have decided that is acceptable." },
+            idle = { { "A paper puzzle has the courtesy to wait until I am ready.", tone = "[raspy] [wry]" }, "Yes, I sometimes choose an easy problem. Keep your observations to yourself.", "We need not fill every silence with a request." },
+            befriended = { { "I have room for your company. Do not turn that into an application for free lessons.", tone = "[raspy] [restrained warmth]" } },
+            poke = { "A question, I presume. Make it a useful one.", "I was thinking. This may surprise you, but it takes attention." },
+            learned = { { "Learn what it does before deciding what it proves about you.", tone = "[raspy] [firm]" } },
+            rest = { "A pause. I approve of this particular lack of activity." },
+            loot = { "Examine it. Then decide whether it deserves your interest." },
+            bagsFull = { "You have collected beyond your capacity. An avoidable puzzle." },
+            mail = { "Perhaps a message that gets to the point. We can hope." },
+            zone = { "Different surroundings. The same need to pay attention." },
+            combatEnd = { "Now that the interruption is over, let us collect our thoughts." },
+        },
+    },
+
+    -- Rupert Boch <Warlock Trainer>, Gallows' End Tavern, Brill. Adult
+    -- Forsaken male2127/display1604/M2 959310, Horde Friendly. Installed
+    -- deference-demanding gossip; current own tabs empty, no Classic quests.
+    -- SoD artifact/rune and retail Proving Grounds excluded. His preserved
+    -- favorite explanations and student correction are original writing.
+    -- Research: docs/research/brill-three-teaching-temperaments.md
+    [2127] = {
+        quote = "Knowledge is a privilege. My attention is another.",
+        likes = { "An attentive audience", "A memorable turn of phrase", "A worthy question" },
+        dislikes = { "Casual interruptions", "Flattery without understanding", "Having his words improved" },
+        gossip = "Rupert occasionally repeats an explanation because it was useful. Occasionally, it was simply too good to use once.",
+        bio = "Rupert Boch is Brill's Forsaken Warlock Trainer in Gallows' End Tavern. He expects deference from those seeking his knowledge and has little patience for outsiders interrupting his work. Confidence is not something he lacks.",
+        backstory = "He began keeping his favorite explanations so that no particularly fine phrase would be lost between lessons. Rereading them became a pleasure of its own. He considers this a sound teaching practice.",
+        secret = "One of his favorite notes is a student's shorter correction of his own explanation. He has tried to improve it. He has not succeeded.",
+        bestFriend = "You have earned the right to interrupt me. Occasionally. A privilege worth exercising with care.",
+        favorite = {
+            emote = "BOW",
+            hint = "He expects a suitably respectful approach.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "I shall accompany you. Try to make proper use of my attention.", tone = "[raspy] [haughty]" }, "A familiar face. You may dispense with the longer introduction." },
+            idle = { { "A well-turned phrase deserves preservation. Especially one of mine.", tone = "[raspy] [self-satisfied]" }, "I have not dismissed your correction. I am considering how to improve it.", "Brevity is a virtue. I merely have several other virtues to accommodate." },
+            befriended = { { "Your company has become worth my time for its own sake. Understand the distinction.", tone = "[raspy] [restrained warmth]" } },
+            poke = { "Yes? This had better improve the conversation.", "I had not finished. You may proceed anyway." },
+            learned = { { "Knowledge deserves application, not merely congratulation.", tone = "[raspy] [instructive]" } },
+            levelUp = { "Promising. Remain attentive to what you have yet to learn." },
+            questAccepted = { "Be certain you understand what has been asked of you." },
+            loot = { "A discovery is only a beginning. Consider what it means." },
+            mail = { "A written question. At least someone has taken time to compose it." },
+            combatEnd = { "An adequate conclusion. Now, where were we?" },
+            thanked = { "Your appreciation is noted. Quite properly." },
+        },
+    },
+
+    -- Austil de Mon <Warrior Trainer>, Gallows' End Tavern, Brill. Adult
+    -- Forsaken male2131/display1599/M2 959310, Horde Friendly. Installed
+    -- protection doctrine and full Dillinger/Ulag/Coleman/heirloom branch
+    -- reviewed; current quest nodes sparse/404, no abilities awarded by
+    -- friendship. Wood wedges and steady furniture are original writing.
+    -- Research: docs/research/brill-three-teaching-temperaments.md
+    [2131] = {
+        quote = "Hold your ground with someone behind you in mind.",
+        likes = { "Steady footing", "Companions kept safe", "A practical repair" },
+        dislikes = { "Glory bought with another's safety", "A shield neglected for show", "A table that will not stand still" },
+        gossip = "Austil can spot unsteady footing across a room. This includes the table legs. He finds the resemblance instructive.",
+        bio = "Austil de Mon is Brill's Forsaken Warrior Trainer. He teaches protection of comrades and the Forsaken's interests, and refers promising warriors to Deathguard Dillinger. Holding a position matters more to him than looking impressive in it.",
+        backstory = "A wobbling table once distracted him through an entire quiet moment. He fixed it with a scrap of wood, then began carrying a small wedge. Sound footing, he decided, was useful beyond a battle line.",
+        secret = "He has been known to steady a chair before sitting in another one. The first chair was not his problem. Apparently, that did not excuse it.",
+        bestFriend = "Stand beside me. We can keep one another steady without making a ceremony of it.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values an acknowledgment that you are ready for your duty.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "I will come. Keep your footing, and keep me informed.", tone = "[raspy] [steady]" }, "Ready. Let us see what needs looking after." },
+            idle = { { "That table needs a wedge. A small failure of formation.", tone = "[raspy] [dry]" }, "A shield kept polished but unchecked is a poor sort of reassurance.", "Standing firm is useful. Knowing whom you stand for matters more." },
+            befriended = { { "We can look out for one another. I am glad to have someone worth that trust.", tone = "[raspy] [sincere]" } },
+            poke = { "Aye? I am listening.", "You have my attention. Is something unsteady?" },
+            combatStart = { { "Hold your position. Remember who needs the space behind you.", tone = "[raspy] [firm]" } },
+            combatEnd = { "Check on the others before admiring your own work." },
+            quest = { "A duty deserves more care than a boast." },
+            group = { "Keep an eye on the one beside you." },
+            gear = { "See that it is sound, not merely impressive." },
+            rest = { "Rest your feet. They have work enough without needless strain." },
+            comforted = { "Thank you. A steady hand is welcome on this side too." },
+        },
+    },
+
     -- Grizzek <General Goods>, Riverglades. Adult Goblin male255895/
     -- display145179/M2 119376, Horde Friendly. Current Vendor/23stock
     -- rows and welcoming installed gossip; no own quests. No merger with

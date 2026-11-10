@@ -1911,6 +1911,27 @@
       "zone": "Thousand Needles",
       "route": "Riverglades Goblin and Mirage Raceway Gnome travel/service rotation",
       "reason": "Complete adult profile and fifteen approved-voice lines queued; current stock/teaching/faction gaps preserved, later travel not a starting milestone, no synthesis"
+    },
+    {
+      "npc_id": 5750,
+      "name": "Gina Lang",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Forsaken starting-route teachers",
+      "reason": "Full adult Forsaken female/male profile and fifteen approved-voice lines queued; current service gaps and class/quest limits retained, no synthesis"
+    },
+    {
+      "npc_id": 2127,
+      "name": "Rupert Boch",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Forsaken starting-route teachers",
+      "reason": "Full adult Forsaken female/male profile and fifteen approved-voice lines queued; current service gaps and class/quest limits retained, no synthesis"
+    },
+    {
+      "npc_id": 2131,
+      "name": "Austil de Mon",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Forsaken starting-route teachers",
+      "reason": "Full adult Forsaken female/male profile and fifteen approved-voice lines queued; current service gaps and class/quest limits retained, no synthesis"
     }
   ]
 }

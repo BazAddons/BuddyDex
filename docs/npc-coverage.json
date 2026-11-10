@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 226,
     "unverified": 134,
-    "horde": 174
+    "horde": 177
   },
   "npc_race_counts": {
     "1": 165,
     "3": 39,
     "7": 32,
     "2": 64,
-    "5": 51,
+    "5": 54,
     "4": 34,
     "8": 40,
     "9": 26,
@@ -29,7 +29,7 @@
     "Dun Morogh": 10,
     "Ironforge": 37,
     "Stranglethorn Vale": 2,
-    "Tirisfal Glades": 32,
+    "Tirisfal Glades": 35,
     "Silverpine Forest": 7,
     "Teldrassil": 11,
     "Hillsbrad Foothills": 3,
@@ -2011,6 +2011,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2126"
     },
     {
+      "npc_id": 2127,
+      "name": "Rupert Boch",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2127"
+    },
+    {
       "npc_id": 2130,
       "name": "Marion Call",
       "zone": "Tirisfal Glades",
@@ -2022,6 +2035,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2130"
+    },
+    {
+      "npc_id": 2131,
+      "name": "Austil de Mon",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2131"
     },
     {
       "npc_id": 2132,
@@ -4558,6 +4584,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5749"
     },
     {
+      "npc_id": 5750,
+      "name": "Gina Lang",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5750"
+    },
+    {
       "npc_id": 5753,
       "name": "Martha Strain",
       "zone": "Undercity",
@@ -6725,6 +6764,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 525,
-  "awaiting_signature_audio_profiles": 71
+  "authored_profiles": 528,
+  "awaiting_signature_audio_profiles": 74
 }

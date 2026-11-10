@@ -2240,5 +2240,26 @@
     "zone": "Thousand Needles",
     "source": "Reviewed current adult body, explicit Horde Friendly field, complete own stock/trainer/quest tabs and available Classic/installed role text; no claimed Scout sighting",
     "research_notes": "docs/research/riverglades-and-raceway-supplies.md"
+  },
+  {
+    "npc_id": 5750,
+    "name": "Gina Lang",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult model/Horde Friendly access, complete own tabs, Classic/installed role text and full Austil referral branch; no claimed Scout sighting",
+    "research_notes": "docs/research/brill-three-teaching-temperaments.md"
+  },
+  {
+    "npc_id": 2127,
+    "name": "Rupert Boch",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult model/Horde Friendly access, complete own tabs, Classic/installed role text and full Austil referral branch; no claimed Scout sighting",
+    "research_notes": "docs/research/brill-three-teaching-temperaments.md"
+  },
+  {
+    "npc_id": 2131,
+    "name": "Austil de Mon",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult model/Horde Friendly access, complete own tabs, Classic/installed role text and full Austil referral branch; no claimed Scout sighting",
+    "research_notes": "docs/research/brill-three-teaching-temperaments.md"
   }
 ]
