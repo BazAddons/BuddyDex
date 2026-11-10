@@ -2499,5 +2499,19 @@
     "zone": "Duskwood",
     "source": "Reviewed exact adult male Gnome body, current Alliance Friendly, complete current tabs and Classic stock/training plus installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/gnome-supplies-and-learning.md"
+  },
+  {
+    "npc_id": 3050,
+    "name": "Veren Tallstrider",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed exact adult Tauren body, current Horde Friendly, complete stock or full two-part leather quest chain and installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-useful-work-and-riddles.md"
+  },
+  {
+    "npc_id": 3022,
+    "name": "Sunn Ragetotem",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed exact adult Tauren body, current Horde Friendly, complete stock or full two-part leather quest chain and installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-useful-work-and-riddles.md"
   }
 ]

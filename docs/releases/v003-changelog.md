@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Veren Tallstrider and Sunn Ragetotem: two complete adult Tauren profiles, with thirty personal lines queued.
+- Build their Thunder Bluff friendships around respect for useful leatherwork and an original staff merchant riddle-writing pastime.
+
 - Add Burbik Gearspanner and Finbus Geargrind: two complete adult Gnome profiles, with thirty personal lines queued.
 - Give Ironforge trade supplies and Darkshire engineering distinct friendship stories, grounded in current stock and established training dialogue.
 
@@ -126,4 +129,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **562 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **564 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ten new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

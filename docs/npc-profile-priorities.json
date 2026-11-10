@@ -2170,6 +2170,20 @@
       "zone": "Duskwood",
       "route": "Alliance Darkshire later engineering contact",
       "reason": "Complete male Gnome profile with fifteen queued lines; city/later-zone contacts distinguished from starter coverage, current/Classic differences retained, no synthesis"
+    },
+    {
+      "npc_id": 3050,
+      "name": "Veren Tallstrider",
+      "zone": "Thunder Bluff",
+      "route": "Horde Thunder Bluff leather quest city contact",
+      "reason": "Complete Tauren profile with fifteen queued lines in approved sex-specific voice; actual quest pattern distinct from friendship, city coverage only, no synthesis"
+    },
+    {
+      "npc_id": 3022,
+      "name": "Sunn Ragetotem",
+      "zone": "Thunder Bluff",
+      "route": "Horde Thunder Bluff staff/repair city contact",
+      "reason": "Complete Tauren profile with fifteen queued lines in approved sex-specific voice; actual quest pattern distinct from friendship, city coverage only, no synthesis"
     }
   ]
 }

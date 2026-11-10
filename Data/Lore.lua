@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Veren Tallstrider, Thunder Bluff. Adult Tauren male4517/M2 968705,
+    -- Horde Friendly. Full768->769 leather trade/pattern; installed
+    -- Earthmother/beast respect gossip, not a Bloodhoof trainer.
+    -- Imagining useful belongings on later journeys is original writing.
+    -- Research: docs/research/thunder-bluff-useful-work-and-riddles.md
+    [3050] = {
+        quote = "What the hunt provides deserves care long after the hunter has returned.",
+        likes = { "Good material carefully used", "A learner taking pride in a craft", "A useful thing serving someone well" },
+        dislikes = { "A beast taken and then wasted", "Care mistaken for weakness", "Fine work dismissed as merely useful" },
+        gossip = "Veren enjoys hearing that something he made is still useful. A tale about an old bag can hold his attention remarkably well.",
+        bio = "Veren Tallstrider works hides into clothing and armor for Thunder Bluff. He trades for leather and shares the Kodo Hide Bag pattern with an interested leatherworker. His respect for the Earthmother includes the beasts whose bodies sustain others.",
+        backstory = "He began asking what became of finished work after someone mentioned a well-used piece in passing. A thing leaving his hands was no longer the end of its story. He found pleasure in hearing how ordinary belongings remained part of a life.",
+        secret = "He sometimes imagines an old piece he made still going somewhere he has never seen. He knows he cannot follow every stitch, but enjoys wishing it a useful journey.",
+        bestFriend = "Tell me what has stayed useful on your travels. I would like to hear the part of the story that happens after the making.",
+        favorite = {
+            emote = "THANK",
+            hint = "He values a moment of gratitude for the care and materials behind something useful.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Shall we find out where the things we carry will serve us today?", tone = "[warm] [steady]" }, "I am ready. There is more to a journey than bringing something home." },
+            idle = { { "An old bag can have a fine story. I enjoy hearing what happened after someone began using it.", tone = "[thoughtful] [pleased]" }, "Respect does not end when the hunt is over. There is still the care of what it provided.", "Strength and steadiness are qualities worth appreciating in small things too." },
+            befriended = { { "You stayed to hear why the work matters to me. I would be glad to learn what matters to you on the road.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you a story about something that has served you well?", "I was imagining a journey beyond the part I know." },
+            loot = { { "Give it proper care. What has been taken should not be treated as though it cost nothing.", tone = "[solemn] [gentle]" } },
+            bagsFull = { "Consider what can still be used before you let it go to waste." },
+            learned = { "Good. Take pride in learning to make something another person may depend on." },
+            quest = { "Attend to what is asked, and remember the care that belongs with the work." },
+            zone = { "Some of my work may have traveled farther than I have. I like the thought." },
+            rest = { "A useful thing deserves care. So does the person who carries it." },
+            thanked = { "You are welcome. May it continue to serve you well." },
+        },
+    },
+
+    -- Sunn Ragetotem <Staff Merchant>, Rainsticks, Thunder Bluff High Rise.
+    -- Adult Tauren female2124/M2 986648, Horde Friendly; Repair/Vendor,
+    -- Battle/War Staff stock. No own quests/installed gossip found.
+    -- Improving her riddles is original writing; no weather powers or Legion.
+    -- Research: docs/research/thunder-bluff-useful-work-and-riddles.md
+    [3022] = {
+        quote = "A staff can do its work without a grand story. A riddle, unfortunately, needs a little more effort.",
+        likes = { "A sound staff properly cared for", "Someone trying an unexpected answer", "A good-natured grin" },
+        dislikes = { "Damage left to become worse", "A boast offered instead of an inspection", "A riddle with no possible answer" },
+        gossip = "Sunn has been trying to invent riddles. A listener who guesses a staff too quickly may be invited to wait for the next attempt.",
+        bio = "Sunn Ragetotem sells staves and offers repairs at Rainsticks on the High Rise of Thunder Bluff. A Battle Staff or War Staff is practical stock, however impressive a customer may wish to sound while choosing one.",
+        backstory = "She tried passing a quiet interval by composing riddles about things nearby. The first answers came rather too easily. Instead of abandoning the pastime, she began asking what made a fair question interesting in the first place.",
+        secret = "Her favorite answer to one of her riddles was wrong. It was also better than the answer she had planned. She is still trying to write a question worthy of it.",
+        bestFriend = "Try your answer. I shall tell you what I meant, and you can tell me whether I have finally made a better question.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She enjoys seeing that someone has taken her little challenge in good humor.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Come along, then. I may think of a better question while we walk.", tone = "[friendly] [wry]" }, "Good to see you. No, I shall not begin with another riddle about a staff." },
+            idle = { { "The wrong answer was much more interesting than mine. I feel the question has some catching up to do.", tone = "[amused] [thoughtful]" }, "A fair riddle should leave you a way to reach the answer. I am working on that part.", "Not every quiet moment requires a challenge. I can allow this one to remain quiet." },
+            befriended = { { "You let me try again without pretending the first attempt was brilliant. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you thought of an answer, or a better question?", "I was considering a hint. It may be more revealing than I intended." },
+            gear = { { "Give it a proper inspection. A confident description will not repair the damage.", tone = "[practical] [firm]" } },
+            loot = { "Look at what you actually have before deciding what story to tell about it." },
+            rest = { "We can stop here. There is no question you must answer before sitting down." },
+            quest = { "Read the request carefully. This is probably not the moment for a clever alternative answer." },
+            zone = { "New surroundings. Perhaps I shall find a subject that is not standing in my own shop." },
+            laughAlong = { "Yes, I heard how obvious that was just after I said it." },
+            thanked = { "You are welcome. I prefer hearing it helped to hearing it sounded impressive." },
+        },
+    },
+
     -- Burbik Gearspanner <Trade Supplier>, Ironforge. Adult Gnome male
     -- display3112/M2 900914; Alliance Friendly, twenty current supplies.
     -- No own quest/gossip found; map1426 pin is not starter proof.

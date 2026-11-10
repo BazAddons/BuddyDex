@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Veren Tallstrider and Sunn Ragetotem: two complete adult Tauren profiles, with thirty personal lines queued.
+- Build their Thunder Bluff friendships around respect for useful leatherwork and an original staff merchant riddle-writing pastime.
+
 - Add Burbik Gearspanner and Finbus Geargrind: two complete adult Gnome profiles, with thirty personal lines queued.
 - Give Ironforge trade supplies and Darkshire engineering distinct friendship stories, grounded in current stock and established training dialogue.
 

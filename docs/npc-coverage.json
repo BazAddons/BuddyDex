@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 242,
     "unverified": 138,
-    "horde": 195
+    "horde": 197
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 38,
     "8": 43,
     "9": 29,
-    "6": 64,
+    "6": 66,
     "96": 8,
     "95": 13
   },
@@ -40,7 +40,7 @@
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 14,
-    "Thunder Bluff": 32,
+    "Thunder Bluff": 34,
     "Durotar": 44,
     "The Barrens": 28,
     "Darnassus": 8,
@@ -2616,6 +2616,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3017"
     },
     {
+      "npc_id": 3022,
+      "name": "Sunn Ragetotem",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3022"
+    },
+    {
       "npc_id": 3023,
       "name": "Sura Wildmane",
       "zone": "Thunder Bluff",
@@ -2679,6 +2692,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3034"
+    },
+    {
+      "npc_id": 3050,
+      "name": "Veren Tallstrider",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3050"
     },
     {
       "npc_id": 3057,
@@ -7203,6 +7229,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 562,
-  "awaiting_signature_audio_profiles": 108
+  "authored_profiles": 564,
+  "awaiting_signature_audio_profiles": 110
 }
