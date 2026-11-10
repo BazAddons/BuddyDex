@@ -199,6 +199,46 @@
     "text": "Here is a place to sit. Let your hands rest for a moment. You need not bring me a question every time we meet. Your company is welcome too. We can watch the light move, and speak when there is something we wish to say.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore3194_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3194",
+    "spoken": "[warm] [sincere] [playful] You are welcome beside me, friend. I am glad to share a road with someone who understands why the work matters, and still has time to enjoy a story afterward. Our people need warmth and safe journeys. We need laughter too. Stay for the whole telling. I trust you with the tiger's finest performance.",
+    "text": "You are welcome beside me, friend. I am glad to share a road with someone who understands why the work matters, and still has time to enjoy a story afterward. Our people need warmth and safe journeys. We need laughter too. Stay for the whole telling. I trust you with the tiger's finest performance.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3194_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3194",
+    "spoken": "[warm] [storytelling] [gently amused] Good to see you, friend. A hunt should bring something useful home. Our people need hides for blankets, armor, and tents, and the tigers need room to thrive as well. Sit with me when your work is done. I can tell you about my first hunt. I have been practicing the tiger's part of that story.",
+    "text": "Good to see you, friend. A hunt should bring something useful home. Our people need hides for blankets, armor, and tents, and the tigers need room to thrive as well. Sit with me when your work is done. I can tell you about my first hunt. I have been practicing the tiger's part of that story.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3194_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3194",
+    "spoken": "[storytelling] [animated] [amused] On my first tiger hunt, I waited in the foliage of the largest Echo Isle for nearly a whole day. Muscles ready, eyes watching, waiting for that tiger to take the bait. When I tell it now, I try to give the tiger a proper entrance. Keeping a fierce face is harder when I can see you enjoying it.",
+    "text": "On my first tiger hunt, I waited in the foliage of the largest Echo Isle for nearly a whole day. Muscles ready, eyes watching, waiting for that tiger to take the bait. When I tell it now, I try to give the tiger a proper entrance. Keeping a fierce face is harder when I can see you enjoying it.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3194_questAccepted_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "questAccepted",
+    "say": null,
+    "source": "lore:3194",
+    "spoken": "[concerned] [instructive] [encouraging] There have been fewer travelers coming from Razor Hill. Scorpids were trouble enough, and now spiders are making nests along the road. If your journey takes you north, help clear them out and let Gar'Thok know the way is safer. A path matters to everyone who needs to use it, not only the traveler walking it today.",
+    "text": "There have been fewer travelers coming from Razor Hill. Scorpids were trouble enough, and now spiders are making nests along the road. If your journey takes you north, help clear them out and let Gar'Thok know the way is safer. A path matters to everyone who needs to use it, not only the traveler walking it today.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3287_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

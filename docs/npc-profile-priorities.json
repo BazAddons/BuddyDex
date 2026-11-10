@@ -1204,6 +1204,20 @@
       "zone": "Thunder Bluff",
       "route": "Female/male Tauren beginner-route trade goods and leatherworking coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/wunna-and-mak-queue.md"
+    },
+    {
+      "npc_id": 8363,
+      "name": "Shadi Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren trade supplies and Troll Sen'jin quest coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/shadi-and-velrin-queue.md"
+    },
+    {
+      "npc_id": 3194,
+      "name": "Vel'rin Fang",
+      "zone": "Durotar",
+      "route": "Horde Tauren trade supplies and Troll Sen'jin quest coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/shadi-and-velrin-queue.md"
     }
   ]
 }

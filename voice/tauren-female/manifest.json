@@ -639,6 +639,46 @@
     "text": "Remembering the name is useful. Understanding what you need it for is useful too. There is no shame in asking about either. A spell may sound grand when it is finished, but preparation is often a matter of small things remembered before the moment you need them.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore8363_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8363",
+    "spoken": "[warm] [sincere] [gently amused] I enjoy the stories you bring, friend. You have become someone I am glad to see after the supplies are settled and there is nothing left to buy. Come along. Tell me what you hope to make, or what you have been imagining. There is room beside that ridiculous gate for an idea of yours.",
+    "text": "I enjoy the stories you bring, friend. You have become someone I am glad to see after the supplies are settled and there is nothing left to buy. Come along. Tell me what you hope to make, or what you have been imagining. There is room beside that ridiculous gate for an idea of yours.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8363_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8363",
+    "spoken": "[warm] [curious] [amused] Welcome, friend. What are you planning to make? A hammer and purple dye once had me imagining a splendid gate, and I furnished half the courtyard before asking the customer. Tell me your actual plan. I enjoy hearing what the goods are for, even when the answer is rather more sensible than the picture in my head.",
+    "text": "Welcome, friend. What are you planning to make? A hammer and purple dye once had me imagining a splendid gate, and I furnished half the courtyard before asking the customer. Tell me your actual plan. I enjoy hearing what the goods are for, even when the answer is rather more sensible than the picture in my head.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8363_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8363",
+    "spoken": "[playful] [conversational] [warm] That imaginary courtyard has become quite elaborate. I only meant to picture a gate when I saw the hammer and purple dye. Then I wondered what ought to go beside it. There is no courtyard, of course. But if you have an utterly impractical suggestion for one, I would enjoy hearing it. We can make room.",
+    "text": "That imaginary courtyard has become quite elaborate. I only meant to picture a gate when I saw the hammer and purple dye. Then I wondered what ought to go beside it. There is no courtyard, of course. But if you have an utterly impractical suggestion for one, I would enjoy hearing it. We can make room.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore8363_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:8363",
+    "spoken": "[curious] [friendly] [practical] That may be just what your project needs. Tell me what you intend before I begin imagining something altogether larger. I sell tools and thread and dyes, but I do enjoy hearing what happens after they leave the counter. A useful thing can have quite a journey between the shopping list and the finished work.",
+    "text": "That may be just what your project needs. Tell me what you intend before I begin imagining something altogether larger. I sell tools and thread and dyes, but I do enjoy hearing what happens after they leave the counter. A useful thing can have quite a journey between the shopping list and the finished work.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore8385_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 424,
+  "completed_count": 426,
   "remaining_count": 2,
   "completed": [
     {
@@ -1906,6 +1906,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3194,
+      "name": "Vel'rin Fang",
+      "zone": "Durotar",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/shadi-and-velrin-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3287,
       "name": "Hana'zua",
       "zone": "Durotar",
@@ -3203,6 +3213,16 @@
       "zone": "Thunder Bluff",
       "source": "Exact named adult model/current role and reaction checked; all own stock/relations, cross-module installed dialogue absence and full supplier-connected chain read. Ezekiel primary Undercity location and Neutral access limits documented; no Scout sighting claimed",
       "research_notes": "docs/research/thunder-bluff-questions-and-undercity-whispers.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 8363,
+      "name": "Shadi Mistrunner",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/shadi-and-velrin-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

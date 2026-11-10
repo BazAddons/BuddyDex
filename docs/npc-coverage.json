@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 424,
+  "completed_profiles": 426,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 207,
     "unverified": 100,
-    "horde": 124
+    "horde": 126
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,9 +14,9 @@
     "2": 37,
     "5": 39,
     "4": 21,
-    "8": 27,
+    "8": 28,
     "9": 21,
-    "6": 40,
+    "6": 41,
     "96": 5,
     "95": 6
   },
@@ -37,8 +37,8 @@
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 11,
-    "Thunder Bluff": 17,
-    "Durotar": 19,
+    "Thunder Bluff": 18,
+    "Durotar": 20,
     "Orgrimmar": 24,
     "The Barrens": 17,
     "Ashenvale": 3,
@@ -2599,6 +2599,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3191"
     },
     {
+      "npc_id": 3194,
+      "name": "Vel'rin Fang",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3194"
+    },
+    {
       "npc_id": 3287,
       "name": "Hana'zua",
       "zone": "Durotar",
@@ -4287,6 +4300,19 @@
       ],
       "reaction_evidence": "Exact current Horde-icon Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8361"
+    },
+    {
+      "npc_id": 8363,
+      "name": "Shadi Mistrunner",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8363"
     },
     {
       "npc_id": 8385,

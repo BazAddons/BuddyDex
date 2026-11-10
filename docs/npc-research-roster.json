@@ -1533,5 +1533,19 @@
     "zone": "Thunder Bluff",
     "source": "Exact current named adult model/Friendly/approved voice verified; complete sourced profile, fifteen lines/four v4 signatures, normal thresholds/ordinary live gates tested, no Scout sighting claimed",
     "research_notes": "docs/research/wunna-and-mak-queue.md"
+  },
+  {
+    "npc_id": 8363,
+    "name": "Shadi Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/shadi-and-velrin-queue.md"
+  },
+  {
+    "npc_id": 3194,
+    "name": "Vel'rin Fang",
+    "zone": "Durotar",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/shadi-and-velrin-queue.md"
   }
 ]

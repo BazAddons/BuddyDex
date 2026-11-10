@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shadi Mistrunner <Trade Goods Supplier>, Thunder Bluff,8363/7628.
+    -- Adult female Tauren, Horde Friendly; full current36-stock read.
+    -- Imagined purple gate/project guessing is original, no family inferred.
+    -- Research: docs/research/shadi-and-velrin-queue.md.
+    [8363] = {
+        quote = "A hammer and purple dye? Now I am imagining a splendid gate. Tell me your actual plan before I furnish the entire courtyard.",
+        likes = { "Hearing what a customer plans to make", "Supplies chosen with a purpose", "An ordinary errand with a good story" },
+        dislikes = { "Guesswork passed off as good advice", "A question dismissed as too simple", "A useful tool treated carelessly" },
+        gossip = "Shadi can imagine an entire courtyard from a hammer and some dye. Ask what the customer actually wanted and she laughs.",
+        bio = "Shadi supplies Thunder Bluff's craftspeople with tools, thread, dyes, vials, spices, and other trade goods. Her stock includes apprentice gathering bags. A short list can set her wondering about the project behind it.",
+        backstory = "A customer's hammer and purple dye once gave Shadi an extravagant idea for a painted gate. She imagined the courtyard before asking what the goods were for. Since then she has enjoyed the difference between her guesses and the stories customers tell.",
+        secret = "She still adds things to that imaginary courtyard. The gate has become rather grand. She would be delighted if you suggested something utterly impractical for it.",
+        bestFriend = "Come along, friend. Tell me your plans. There is room for your wildest idea beside my imaginary gate.",
+        favorite = { emote = "GRIN", hint = "Share the amusement when a simple shopping list becomes an extravagant imaginary project." },
+        lines = {
+            greet = { { "Welcome, friend. What are you planning to make? A hammer and purple dye once had me imagining a splendid gate, and I furnished half the courtyard before asking the customer. Tell me your actual plan. I enjoy hearing what the goods are for, even when the answer is rather more sensible than the picture in my head.", tone = "[warm] [curious] [amused]" },
+                "There you are. Have you brought a sensible list, or something that will set me imagining again?" },
+            idle = { { "That imaginary courtyard has become quite elaborate. I only meant to picture a gate when I saw the hammer and purple dye. Then I wondered what ought to go beside it. There is no courtyard, of course. But if you have an utterly impractical suggestion for one, I would enjoy hearing it. We can make room.", tone = "[playful] [conversational] [warm]" },
+                "A shopping list is only the beginning of a story. The person carrying it usually knows the interesting part.",
+                "I should ask what you intend before suggesting the furnishings." },
+            befriended = { { "I enjoy the stories you bring, friend. You have become someone I am glad to see after the supplies are settled and there is nothing left to buy. Come along. Tell me what you hope to make, or what you have been imagining. There is room beside that ridiculous gate for an idea of yours.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? Were you thinking of adding something to the courtyard?", "I am listening. You may begin with the sensible version." },
+            loot = { { "That may be just what your project needs. Tell me what you intend before I begin imagining something altogether larger. I sell tools and thread and dyes, but I do enjoy hearing what happens after they leave the counter. A useful thing can have quite a journey between the shopping list and the finished work.", tone = "[curious] [friendly] [practical]" } },
+            learned = { "Now you can tell me what that makes possible. I will try to ask before guessing." },
+            bagsFull = { "Perhaps we should look at what is already in there before furnishing another courtyard." },
+            gear = { "Someone began with a plan and a few supplies. It is pleasing to see what became of them." },
+            rest = { "Sit with me. I would like to hear the part of your story that never made it onto the list." },
+            laughAlong = { "Yes, the gate is still purple. There seems little reason to be restrained about an imaginary one." },
+            hearth = { "Back to Thunder Bluff, where the actual errands may be simpler than my guesses." },
+        },
+    },
+
+    -- Vel'rin Fang, Sen'jin Village/Durotar,3194/4074. Adult male Troll.
+    -- Horde Friendly; Practical Prey817 full text, Forever Legging It96821
+    -- road concern/report to Gar'Thok. Tiger imitation is original.
+    -- Research: docs/research/shadi-and-velrin-queue.md.
+    [3194] = {
+        quote = "A good hunt brings something useful home. Stay for the story, friend. I have been practicing the tiger's part.",
+        likes = { "Hides put to use for the village", "A patient hunter who knows when to stop", "An audience for a very convincing tiger" },
+        dislikes = { "Hunting without thought for tomorrow", "Spiders making the road unsafe", "A tale hurried past its best moment" },
+        gossip = "Vel'rin has told his first tiger hunt often enough to practice the tiger's part. The waiting is quieter than the performance.",
+        bio = "Vel'rin gathers tiger furs for Sen'jin's blankets, armor, and tents, mindful that the beasts must also thrive. In Forever, he asks travelers to clear road spiders and report to Gar'Thok in Razor Hill.",
+        backstory = "On his first hunt, Vel'rin waited in the largest Echo Isle's foliage for nearly a day before a tiger took his bait. He remembers the taut patience as a great victory. In his telling, the long stillness gives way to an increasingly practiced tiger imitation.",
+        secret = "He sometimes practices the tiger's part without an audience. Holding the fierce expression is difficult once he notices how much he is enjoying himself.",
+        bestFriend = "Stay beside me, friend. You have earned the whole story, and I trust you with the tiger's best performance.",
+        favorite = { emote = "APPLAUD", hint = "Let a patient storyteller know when his tiger imitation deserves an appreciative audience." },
+        lines = {
+            greet = { { "Good to see you, friend. A hunt should bring something useful home. Our people need hides for blankets, armor, and tents, and the tigers need room to thrive as well. Sit with me when your work is done. I can tell you about my first hunt. I have been practicing the tiger's part of that story.", tone = "[warm] [storytelling] [gently amused]" },
+                "Welcome back. Have you brought a story, or shall I give the tiger another turn?" },
+            idle = { { "On my first tiger hunt, I waited in the foliage of the largest Echo Isle for nearly a whole day. Muscles ready, eyes watching, waiting for that tiger to take the bait. When I tell it now, I try to give the tiger a proper entrance. Keeping a fierce face is harder when I can see you enjoying it.", tone = "[storytelling] [animated] [amused]" },
+                "The waiting matters. If I hurry through it, the tiger arrives before anyone appreciates my patience.",
+                "I was practicing that expression. You were not meant to see it until the tiger appeared." },
+            befriended = { { "You are welcome beside me, friend. I am glad to share a road with someone who understands why the work matters, and still has time to enjoy a story afterward. Our people need warmth and safe journeys. We need laughter too. Stay for the whole telling. I trust you with the tiger's finest performance.", tone = "[warm] [sincere] [playful]" } },
+            poke = { "Yes? The tiger was just about to arrive.", "I am listening. That was only my fierce expression." },
+            questAccepted = { { "There have been fewer travelers coming from Razor Hill. Scorpids were trouble enough, and now spiders are making nests along the road. If your journey takes you north, help clear them out and let Gar'Thok know the way is safer. A path matters to everyone who needs to use it, not only the traveler walking it today.", tone = "[concerned] [instructive] [encouraging]" } },
+            loot = { "Think of what a useful hide can become: shelter, protection, warmth when the seasons change." },
+            quest = { "It is good to see the work helping people. There is the reason for doing it." },
+            rest = { "A good place to sit. Now, picture the foliage, and remember that the tiger has not arrived yet." },
+            combatEnd = { "Take what is needed. There must be something left to thrive after we have gone." },
+            laughAlong = { "Ah, you noticed the expression. That is the tiger, not my opinion of your company." },
+            hearth = { "Back to Sen'jin. There is always a reason to bring something useful home." },
+        },
+    },
+
     -- Wunna Darkmane <Trade Goods>, Bloodhoof Village,3081/3806.
     -- Adult female Tauren, Horde Friendly; current19-row stock includes
     -- apprentice gathering bags/Roasted Kodo Meat recipe. Apple map is

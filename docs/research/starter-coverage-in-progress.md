@@ -547,3 +547,8 @@ Added8137maleGoblin inTanaris/3446maleGoblin inRatchet, fifteen personal lines/f
 ### Wunna Darkmane and Mak:424 profiles
 
 Added3081adultfemaleTauren BloodhoofVillage/3008adultmaleTauren ThunderBluff, fifteenlines/four approved emotion-taggedv4signatures each. Source/era/original limits in `wunna-and-mak-queue.md`; current apprenticebags verified, no speculative Darkmane relatives/roleplay marriage, Mak's gift for Cairne remains an intention. Public coverage207Alliance/124Horde/100unverified/sevenoverlaps,424unique. Normal25+150 gains/99-100/299-300 thresholds/gates/welcome tested; main23/Scout6pass. No fabricatedScout sightings. Developmentv002 separate from preservedpubliccandidate.
+
+
+### 2026-11-09: Shadi Mistrunner and Vel'rin Fang (426)
+
+Completed female Tauren trade supplier8363 and male Troll Sen'jin quest giver3194: ten fields/fifteen lines/four approved v4 signatures each. Both Horde Friendly, full normal live gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Vel'rin research includes full Practical Prey817 and Forever Legging It96821; Gar'Thok speaks latter completion. Shadi imaginary courtyard/Vel'rin tiger performance are marked original. Research: docs/research/shadi-and-velrin-queue.md. Installed6,238files/developmentZIP130.13MiB,6,210runtime mappings. Coverage207Alliance/126Horde/100unverified, seven overlaps; wider catalog remains active. CF deferred, original public ZIP preserved.
