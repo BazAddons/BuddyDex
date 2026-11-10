@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Shimra, Kulwia, Sura Wildmane and Shoma: four full researched adult Horde profiles with sixty personal lines queued, including female Orc and Tauren coverage.
+- Preserve actual trade, harness and weapon services, current stock and normal character-local friendship rules; exclude later expansion events and invented family ties.
+
 - Add Naleeia Tattermend, Alaana Stormwalker and Alvarion Windfield: three full adult Skyborne profiles with forty-five personal lines queued for approved voices.
 - Deepen both Zephras paths and the Horde arrival in Mulgore; preserve actual camping/arrival context, Alvarion's injuries and unresolved family/construct details.
 
@@ -48,4 +51,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **501 fully written NPC profiles**: 454 have initial signature recordings, and forty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **505 fully written NPC profiles**: 454 have initial signature recordings, and fifty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shimra, Kulwia, Sura Wildmane and Shoma: four full researched adult Horde profiles with sixty personal lines queued, including female Orc and Tauren coverage.
+- Preserve actual trade, harness and weapon services, current stock and normal character-local friendship rules; exclude later expansion events and invented family ties.
+
 - Add Naleeia Tattermend, Alaana Stormwalker and Alvarion Windfield: three full adult Skyborne profiles with forty-five personal lines queued for approved voices.
 - Deepen both Zephras paths and the Horde arrival in Mulgore; preserve actual camping/arrival context, Alvarion's injuries and unresolved family/construct details.
 

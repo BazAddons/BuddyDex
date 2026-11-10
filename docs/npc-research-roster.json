@@ -2072,5 +2072,33 @@
     "zone": "Zephras Isle",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/skyborne-medic-vanguard-and-orchard.md"
+  },
+  {
+    "npc_id": 5817,
+    "name": "Shimra",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/orc-and-tauren-craft-rotation.md"
+  },
+  {
+    "npc_id": 12043,
+    "name": "Kulwia",
+    "zone": "Stonetalon Mountains",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/orc-and-tauren-craft-rotation.md"
+  },
+  {
+    "npc_id": 3023,
+    "name": "Sura Wildmane",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/orc-and-tauren-craft-rotation.md"
+  },
+  {
+    "npc_id": 3361,
+    "name": "Shoma",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/orc-and-tauren-craft-rotation.md"
   }
 ]

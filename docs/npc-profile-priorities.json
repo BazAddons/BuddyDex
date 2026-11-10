@@ -1743,6 +1743,34 @@
       "zone": "Zephras Isle",
       "route": "Shared Skyborne medic/orchard and Horde Windshaper mainland arrival",
       "reason": "Full researched text and fifteen queued lines; approved adult Skyborne female/male voices; two shared Friendly and one Horde Friendly, no injury cure, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 5817,
+      "name": "Shimra",
+      "zone": "Orgrimmar",
+      "route": "Three adult Horde women and one Orc male across trade and equipment services",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc female/male and Tauren female voices; explicit Horde Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 12043,
+      "name": "Kulwia",
+      "zone": "Stonetalon Mountains",
+      "route": "Three adult Horde women and one Orc male across trade and equipment services",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc female/male and Tauren female voices; explicit Horde Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3023,
+      "name": "Sura Wildmane",
+      "zone": "Thunder Bluff",
+      "route": "Three adult Horde women and one Orc male across trade and equipment services",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc female/male and Tauren female voices; explicit Horde Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3361,
+      "name": "Shoma",
+      "zone": "Orgrimmar",
+      "route": "Three adult Horde women and one Orc male across trade and equipment services",
+      "reason": "Full researched text and fifteen queued lines; approved adult Orc female/male and Tauren female voices; explicit Horde Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
     }
   ]
 }

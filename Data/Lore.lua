@@ -41,6 +41,122 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shimra <General Trade Goods Merchant>, Orgrimmar General Store,
+    -- Valley of Strength. Adult female Orc5817/display4356, Horde Friendly.
+    -- Current36vendor rows; no own quests/gossip. Counter game original;
+    -- no later siege/captivity. docs/research/orc-and-tauren-craft-rotation.md.
+    [5817] = {
+        recordingVoice = "orc-female",
+        quote = "If you want supplies, ask. If you want an easy victory, find somebody else. I take my little counter game very seriously.",
+        likes = { "A maker who knows what is missing", "An opponent who makes her think", "Winning without being handed the game" },
+        dislikes = { "Scattering small supplies", "Being allowed to win out of politeness", "Treating a pause as wasted time" },
+        gossip = "Shimra plays a little game with bottle caps and chalk squares. Visitors expecting a polite loss have sometimes found the match surprisingly brief.",
+        bio = "Shimra sells general trade goods in Orgrimmar's Valley of Strength. Tools, dyes, thread and vials support many kinds of work. Her stock also includes apprentice gathering bags, useful beginnings for people setting out to make their own way.",
+        backstory = "Shimra drew a few chalk squares during a quiet break and moved bottle caps between them. A visitor suggested a better move. She invited a proper contest and discovered she liked having a reason to look forward to the next pause.",
+        secret = "She dislikes a courtesy victory more than a clean defeat. Losing gives her something to reconsider after the counter gets busy again. She has no interest in being flattered out of that pleasure.",
+        bestFriend = "Sit down when you have time. I have been thinking about your last move. You need not buy anything to give me a difficult afternoon.",
+        favorite = { emote = "GRIN", hint = "A friendly challenger should look ready to enjoy a match, rather than ready to surrender politely." },
+        lines = {
+            greet = { { "There you are. Have you brought a useful question or a better move? I welcome either.", tone = "[gravelly] [confidently amused]" }, "Come along. I could use company that does not confuse kindness with letting me win." },
+            idle = { { "You moved the wrong cap. That is not a criticism. I am enjoying the consequences.", tone = "[gravelly] [playful]" }, "A small missing thing can bring a very impressive project to a stop.", "A clean defeat is interesting. A victory given to me is merely inconvenient." },
+            befriended = { { "I like the way you keep me thinking. I would be glad to share some time beyond the counter.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? I am considering the board. The supplies can share my attention for a moment.", "If you have a better move, show me. That is a welcome interruption." },
+            bagsFull = { { "Leave space for the little supply you actually came to find.", tone = "[gravelly] [practical]" } },
+            learned = { "Good. Now see whether you understand it when someone makes the next step difficult." },
+            loot = { "Useful, or simply another piece to move around your bag?" },
+            rest = { "A pause. We could make it interesting without making it urgent." },
+            quest = { "Done. Take the satisfaction before you rush toward the next problem." },
+            mail = { "A message? I hope it contains a clear request rather than a very long guess." },
+            hearth = { "Home. Perhaps there is time to reconsider that move I was so certain about." },
+        },
+    },
+    -- Kulwia <Trade Supplies>, Sun Rock Retreat, Stonetalon Mountains.
+    -- Adult female Tauren12043/display12059, Horde Friendly. Current19stock
+    -- rows, no own training/quests/gossip. Charcoal sketches original, not
+    -- cartography. docs/research/orc-and-tauren-craft-rotation.md.
+    [12043] = {
+        recordingVoice = "tauren-female",
+        quote = "I can tell you which supplies are on the shelf. What I meant to draw on this paper is a less settled question.",
+        likes = { "Travelers who explain their project", "A mountain shape caught in charcoal", "A friend who enjoys an imperfect sketch" },
+        dislikes = { "Calling every formula a lesson she teaches", "Charcoal mixed into the clean stock", "Pretending her drawn kodo looks convincing" },
+        gossip = "Kulwia draws a respectable mountain. Her kodo tend to look like smaller mountains. She says the important thing is knowing which is which.",
+        bio = "Kulwia supplies trades at Sun Rock Retreat in the Stonetalon Mountains. Her goods serve makers, fishers and other travelers. Enchanting formulas on her shelf are supplies for a craft, not a claim that she teaches every spell herself.",
+        backstory = "Kulwia tried sketching the mountain shapes around the retreat during a quiet moment. She liked how a few dark strokes could suggest something so large. Adding a kodo made the drawing much less accurate and considerably more entertaining.",
+        secret = "She keeps some of the least convincing animals beside the better landscapes. They remind her that enjoying the work need not wait until she is equally good at every part of it.",
+        bestFriend = "Sit where I can see you, if you like. I will try a portrait. You may laugh honestly if I have given you a mountain's shoulders.",
+        favorite = { emote = "SMILE", hint = "She would rather share enjoyment of an imperfect picture than receive a solemn, unconvincing compliment." },
+        lines = {
+            greet = { { "Good to see you. Would you like to hear about the supplies, or help identify something I have drawn?", tone = "[warm] [self-deprecating]" }, "Come along. I have spent enough of today looking at the view without sharing it." },
+            idle = { { "That is meant to be a kodo. The resemblance to a hillside is an ongoing difficulty.", tone = "[gentle] [amused]" }, "A useful purchase starts with knowing what you intend to make.", "I enjoy a good drawing. I am learning to enjoy the other sort as well." },
+            befriended = { { "I would be glad to come. You make it easy to enjoy something without first pretending it is perfect.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have worked out which way the drawn animal is facing, tell me.", "A moment. I am trying not to put charcoal on the things people need to keep clean." },
+            bagsFull = { { "Check what your work needs before filling the last space with something merely interesting.", tone = "[steady] [practical]" } },
+            learned = { "One part becomes clearer. That is a good reason to try the next." },
+            zone = { "I wonder which shapes I would notice first if I tried to draw this place." },
+            rest = { "We can stop here. There is no need to turn every quiet moment into useful work." },
+            loot = { "What could someone make with it? I like hearing the answer to that." },
+            mail = { "Perhaps a note about something finished. It is pleasant to hear how the work turned out." },
+            hearth = { "Home. I may try another sketch before deciding I understand what I saw." },
+        },
+    },
+    -- Sura Wildmane <War Harness Vendor>, High Rise, Thunder Bluff. Adult
+    -- female Tauren3023/display2125, Horde Friendly; Repair/Vendor4harnesses.
+    -- No own quests/gossip or proved Nara kinship. Dance practice original;
+    -- no later Legion feast/Void. docs/research/orc-and-tauren-craft-rotation.md.
+    [3023] = {
+        recordingVoice = "tauren-female",
+        quote = "Try moving before you decide it fits. You need not make the turn graceful, but you should be able to finish it.",
+        likes = { "A harness that lets its wearer move", "A dance partner with patience", "Making room for another person's step" },
+        dislikes = { "Ignoring a poor fit for appearance", "Declaring grace a matter of size", "Turning a shared dance into a contest" },
+        gossip = "Sura tests an easy turn before calling a harness comfortable. Some customers suspect she is practicing a dance step. She has not denied it.",
+        bio = "Sura Wildmane sells war harnesses on Thunder Bluff's High Rise and offers repairs. She likes a wearer to consider movement as well as appearance. The best-looking purchase still has to accompany someone through an ordinary day.",
+        backstory = "Sura tried an easy dance turn while considering how a harness moved. The step pleased her enough to practice without work as an excuse. She found that giving someone else room was as important as knowing where her own feet went.",
+        secret = "She would rather learn a simple dance with a patient partner than perform an impressive one alone. A missed step is easier to enjoy when both people can laugh and begin again.",
+        bestFriend = "One slow turn. We can start again if we miss it. I would enjoy learning the step with you more than showing you I already know it.",
+        favorite = { emote = "DANCE", hint = "A little shared movement might tell her more than another speech about looking impressive." },
+        lines = {
+            greet = { { "Good to see you. Shall we find a comfortable pace before anyone tries to be impressive?", tone = "[warm] [confident]" }, "Come along. A little room to move and good company would suit me well." },
+            idle = { { "A slow turn. There. No applause needed. I was enjoying the step itself.", tone = "[relaxed] [pleased]" }, "Looking comfortable and being comfortable are not always the same purchase.", "If we both miss the step, we can agree it was a new one." },
+            befriended = { { "I would be happy to join you. You leave room for another person's pace, and I appreciate it.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? If you are counting the steps, start slowly.", "I am here. Give me room to turn before you decide I am ignoring you." },
+            gear = { { "Try moving in it. The journey will ask more of it than standing still does.", tone = "[practical] [instructive]" } },
+            rest = { "A pause. There is no prize for making every step a test of endurance." },
+            learned = { "Good. Let yourself practice without demanding a perfect first attempt." },
+            combatEnd = { "Check what carried you through that. A repair remembered early is easier to welcome." },
+            mount = { "Comfort matters before the long stretch of road begins." },
+            levelUp = { "More capable. I hope you still have time to enjoy a simple thing." },
+            hearth = { "Home. Perhaps there will be room for a slow turn before the next errand." },
+        },
+    },
+    -- Shoma <Weapon Vendor>, Arms of Legend, Valley of Honor, Orgrimmar.
+    -- Adult male Orc3361/display1383, Horde Friendly. Repair/Vendor and
+    -- current19weapons, no own quests/training/gossip. Wooden practice grip
+    -- original, no military past. docs/research/orc-and-tauren-craft-rotation.md.
+    [3361] = {
+        recordingVoice = "orc-male",
+        quote = "Ask whether it suits your hand before asking what legends surround it. Most things on my shelf are waiting for an ordinary first owner.",
+        likes = { "A weapon chosen for the person using it", "Care that makes a tool last", "A request without a boast attached" },
+        dislikes = { "Judging a blade only by its story", "Careless handling near other people", "Being asked to invent a famous former owner" },
+        gossip = "Shoma shapes plain wooden grips during quiet moments. The work has no edge and no impressive history. He seems satisfied to let it be useful.",
+        bio = "Shoma sells weapons and offers repairs at Arms of Legend in Orgrimmar's Valley of Honor. His stock includes blades and paired fist weapons. He would rather help someone choose a suitable tool than decorate it with a false history.",
+        backstory = "Shoma shaped a scrap of wood into a comfortable practice grip. With no blade attached, he could consider its feel without a display of steel. He kept working on the shape, finding more to notice than a quick glance had suggested.",
+        secret = "He keeps the plain grip nearby because it has nothing to boast about. Nobody can mistake it for a hero's relic. A visitor has to ask what he enjoys about the work instead.",
+        bestFriend = "You may sit here without proving anything. Tell me what matters to you. I would rather know the person than hear another weapon's legend.",
+        favorite = { emote = "NOD", hint = "A straightforward acknowledgment suits him better than a performance of strength." },
+        lines = {
+            greet = { { "Good to see you. We can have a conversation without deciding whose weapon deserves the longest story.", tone = "[gravelly] [matter-of-fact warmth]" }, "Come along. I would enjoy hearing what you have noticed beyond the next purchase." },
+            idle = { { "Plain wood. A comfortable shape. It needs no famous former owner to interest me.", tone = "[gravelly] [content]" }, "A fine name will not make a poor choice suit your hand.", "There is no shame in wanting something reliable rather than remarkable." },
+            befriended = { { "I appreciate being asked about the work instead of being asked to invent a legend. I would be glad of your company.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? You may ask an ordinary question. I prefer those.", "I am listening. The piece of wood will wait." },
+            gear = { { "Consider how you will use it, not how the name will sound when you describe it.", tone = "[gravelly] [practical]" } },
+            loot = { "Find out what it is before supplying it with a heroic history." },
+            combatEnd = { "A moment of care now may spare you an unpleasant discovery later." },
+            rest = { "We can pause. No one needs to turn the quiet into a demonstration." },
+            learned = { "Useful knowledge. Give it the practice that makes it dependable." },
+            quest = { "Done. The person who needed the work matters more than the story you could make of it." },
+            hearth = { "Home. A good place to put things down and speak without a performance." },
+        },
+    },
     -- Naleeia Tattermend <Medic>, Shen'dar Village, Zephras Isle. Adult
     -- female High Order Skyborne257018/display140076, both factionsFriendly.
     -- Current97965 and thirteen training rows establish first aid/camp kit.
