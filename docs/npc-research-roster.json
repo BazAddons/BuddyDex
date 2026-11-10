@@ -3948,5 +3948,19 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult alliance Night Elf man; Current and Classic identity with service limits; original interlocking-wire puzzle; no Scout sighting claimed",
     "research_notes": "docs/research/sulhasas-return-path-and-xaianders-loops.md"
+  },
+  {
+    "npc_id": 11046,
+    "name": "Whuut",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Full97275/97242 and three own greetings; original practicing an admission; no Scout sighting claimed",
+    "research_notes": "docs/research/whuuts-admission-and-fimbos-introduction.md"
+  },
+  {
+    "npc_id": 259962,
+    "name": "Fimbo Greasemitz",
+    "zone": "Riverglades",
+    "source": "Reviewed adult unverified man; Full95121/95254 resolves return-text hold; original overlong dish introduction; no Scout sighting claimed",
+    "research_notes": "docs/research/whuuts-admission-and-fimbos-introduction.md"
   }
 ]

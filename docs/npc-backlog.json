@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 769,
-  "written_complete_count": 769,
-  "awaiting_signature_audio_count": 315,
+  "authored_count": 771,
+  "written_complete_count": 771,
+  "awaiting_signature_audio_count": 317,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 317,
+  "remaining_count": 319,
   "completed": [
     {
       "npc_id": 54,
@@ -6298,6 +6298,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 11046,
+      "name": "Whuut",
+      "zone": "Orgrimmar",
+      "source": "Reviewed adult horde man; Full97275/97242 and three own greetings; original practicing an admission; no Scout sighting claimed",
+      "research_notes": "docs/research/whuuts-admission-and-fimbos-introduction.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 11065,
       "name": "Thonys Pillarstone",
       "zone": "Ironforge",
@@ -7726,6 +7738,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 259962,
+      "name": "Fimbo Greasemitz",
+      "zone": "Riverglades",
+      "source": "Reviewed adult unverified man; Full95121/95254 resolves return-text hold; original overlong dish introduction; no Scout sighting claimed",
+      "research_notes": "docs/research/whuuts-admission-and-fimbos-introduction.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "goblin-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

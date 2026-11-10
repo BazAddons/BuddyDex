@@ -3619,6 +3619,20 @@
       "zone": "Ashenvale",
       "route": "Named Ashenvale Weaponsmith",
       "reason": "Current and Classic identity with service limits; original interlocking-wire puzzle; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11046,
+      "name": "Whuut",
+      "zone": "Orgrimmar",
+      "route": "Drag alchemist local-plant lesson",
+      "reason": "Full97275/97242 and three own greetings; original practicing an admission; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 259962,
+      "name": "Fimbo Greasemitz",
+      "zone": "Riverglades",
+      "route": "Powderfuse waterfront cafe and supplies",
+      "reason": "Full95121/95254 resolves return-text hold; original overlong dish introduction; fifteen personal lines queued without synthesis"
     }
   ]
 }

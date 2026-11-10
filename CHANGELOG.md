@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Whuut and Fimbo Greasemitz: adult Orc alchemist and Goblin cafe profiles, with thirty personal lines queued.
+- Review the full common-plant lesson and both seafood quests; resolve missing return text and document original admission/introduction stories.
+
 - Add Sulhasa and Xai'ander: adult Horde Tauren and Alliance Night Elf profiles, with thirty personal lines queued.
 - Review the complete Forever rescue quest and weaponsmith identity; document original return-path and wire-puzzle stories without new services.
 

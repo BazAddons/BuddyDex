@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Whuut <Journeyman Alchemist>, Orgrimmar. Adult Orc male10578/
+    -- M2 917116, Horde Friendly. Three own gossip captures, full97275/
+    -- 97242 local-plant lesson; gifted but impatient, beginning to rethink.
+    -- Practicing an admission without a qualification is original.
+    -- Research: docs/research/whuuts-admission-and-fimbos-introduction.md
+    [11046] = {
+        quote = "Common ingredients, carefully handled. Apparently that counts as impressive. I am working on saying it without apparently.",
+        likes = { "A result worth being proud of", "Credit for practicing the basics", "A friend hearing an awkward admission" },
+        dislikes = { "Being dismissed as stupid", "Mistaking rare ingredients for skill", "An admission interrupted before he finishes" },
+        gossip = "Whuut has been considering an impressive result made with ordinary plants. The plants seem to have troubled his explanation more than the result.",
+        bio = "Whuut is a journeyman alchemist in Orgrimmar. Proud of his work and determined to prove himself, he spends much attention on his pots. Yelmak calls him gifted, but worries that rare ingredients are distracting him from basic skill.",
+        backstory = "Yelmak offers a lesson in a simple tonic made from local cattail and speargrass. Whuut is surprised by what those familiar plants can do. He begins to wonder what he has missed by reaching for the rarest flora first.",
+        secret = "He practices saying Yelmak may have a point without adding his own explanation. He hopes a friend will let him finish. It is a harder bit of practice than he expected.",
+        bestFriend = "Come along. If I manage the whole admission, you may look pleased. Just let me reach the end before you begin being right as well.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates acknowledgment that gives him room to finish a difficult admission.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. I have been practicing something. An admission, if you must know. It requires rather more care than I anticipated.", tone = "[gruff] [self-conscious warmth]" }, "Good company. You may ask what I have learned. I am trying to begin with the useful part before describing how impressive it is." },
+            idle = { { "Yelmak may have a point. There. A complete sentence. I did not even explain why I had almost reached the same conclusion first.", tone = "[dry] [reluctantly amused]" }, "Those plants grow where we can see them every day. I had been looking past them toward something harder to find. There may be a lesson in that.", "I can watch a pot and see it boil. That much is settled. What I do before and after it boils still deserves some attention." },
+            befriended = { { "You have given me room to be proud of the work and still admit there is more to learn. Come along, friend. I appreciate that.", tone = "[earnest] [warm]" } },
+            poke = { "Yes? If you wait a moment, I may reach the useful part of the explanation.", "Go on. I am listening. I shall try not to treat every question as a challenge." },
+            learned = { { "Good. Practice it carefully before reaching for something rarer. I am beginning to understand why that advice keeps finding me.", tone = "[steady] [thoughtful]" } },
+            loot = { "Look at the ordinary things too. I have recently been given cause to reconsider how much their familiarity tells me." },
+            quest = { "Understand what is being asked before displaying how much more complicated you could make it." },
+            newFriend = { "Someone new. I can introduce myself without listing the day's entire work. I expect." },
+            thanked = { "You are welcome. I am glad the result was useful. That is a respectable thing to be pleased about." },
+            rest = { "A little time to pause. I may discover a thought I have been talking too quickly to hear." },
+            group = { "Let everyone finish their part. A result can depend on somebody doing a basic thing properly." },
+        },
+    },
+
+    -- Fimbo Greasemitz, Powderfuse Port/Riverglades. Adult Goblin
+    -- male142111/M2 119376, Horde Neutral, positive access unverified.
+    -- Twelve current goods, full95121/95254 incl primary completions.
+    -- Overlong dish introduction is original, no meal/recipe grant.
+    -- Research: docs/research/whuuts-admission-and-fimbos-introduction.md
+    [259962] = {
+        quote = "A good dish deserves a fine introduction. Preferably one you can finish before the customer finishes the dish.",
+        likes = { "Local ingredients doing something new", "An eager first taste of a new dish", "A name short enough to leave time to eat" },
+        dislikes = { "The same menu without another idea", "A grand introduction outlasting supper", "Good ingredients dismissed before trying" },
+        gossip = "Fimbo has considered a dish name so grand that he ran out of breath before reaching the end. He has since praised the merits of try this.",
+        bio = "Fimbo Greasemitz runs a waterfront cafe at Powderfuse Port in Riverglades. Tired of the same roasted boar and fish, he seeks local ingredients for seafood stew. He also wants the claw of a bait-stealing crab beneath the docks.",
+        backstory = "His call for fresh murloc eyes and crab meat offers a change to the menu. Trapclaw presents another opportunity: a whole claw for a dish with butter and his spice blend. An irritating dockside problem can also suggest a meal.",
+        secret = "He once practiced a dish's grand introduction until it took longer than eating ought to. He now appreciates an invitation short enough to let the customer enjoy the meal.",
+        bestFriend = "Come along. You can tell me what you enjoyed today. I promise to try hearing the whole answer before I turn it into a menu idea.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys company that shares his excitement when the familiar menu might gain something new.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what you have enjoyed lately. It may become an idea, though I am attempting to hear the story before naming the dish.", tone = "[brisk] [enthusiastic]" }, "Good company. I have been considering a shorter introduction. It would leave considerably more room for the interesting part." },
+            idle = { { "I ran out of breath before I finished the magnificent name. A fine warning. Try this is much easier to say before somebody begins enjoying the food.", tone = "[animated] [amused]" }, "Local ingredients can suggest a very interesting change. You need not look beyond the coast before finding a reason to try something new.", "A crab stealing bait and cutting lines is a nuisance. A whole claw is also an opportunity. A cook can hold both thoughts at once." },
+            befriended = { { "I enjoy your company even when it does not provide the next menu idea. Come along, friend. We can have a conversation that needs no advertisement.", tone = "[warm] [cheerful]" } },
+            poke = { "Yes? A new idea, or simply a good story? I have room for either.", "Go on. I shall save the splendid introduction until I know what you are introducing." },
+            rest = { { "A little time to stop. If there is a story to tell, let it be one we can enjoy without hurrying to the next thing.", tone = "[settled] [friendly]" } },
+            loot = { "Look at what you actually found before deciding it could not possibly be useful. A familiar ingredient may have another possibility in it." },
+            quest = { "Find out what ingredients are being requested before arriving with a magnificent explanation of the wrong meal." },
+            newFriend = { "Someone new. I wonder what they like. I should probably ask before offering the full account of what I have been planning." },
+            thanked = { "You are welcome. Good to know the idea was worth sharing." },
+            group = { "Leave room for everyone's opinion. A new idea may need more than the loudest person deciding it sounds splendid." },
+            zone = { "Have a look around. A place has its own possibilities, even before we begin imagining what to make of them." },
+        },
+    },
+
     -- Sulhasa, southern Barrens/Camp Taurajo. Adult Tauren female
     -- 14306/M2 986648, Horde Friendly. Full98093 including progress/
     -- completion: pleasant walk, tree refuge, rescued careful descent.
