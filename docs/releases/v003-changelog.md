@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Pal'juh and Kuray'bin: two complete Troll profiles with thirty personal lines queued.
+- Expand female and male Troll coverage in Durotar and Ashenvale using their full rescue and outrunner quest dialogue.
+
 - Add Monika Sengutz and Chylina: two complete profiles with thirty personal lines queued.
 - Preserve Monika's full ring-return tragedy and add distinct Stonetalon supplier writing without changing quest outcomes or eligibility.
 
@@ -249,4 +252,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **637 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **639 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

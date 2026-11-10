@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Paljuh <Shadow Hunter Trainee>, southern Durotar. Adult Troll
+    -- female148391/M2 1018060, Horde Friendly. Full99123offer,
+    -- Vornal completion and published escort speech reviewed.
+    -- Unhurried expression/eager foot are original; no new shadow power.
+    -- Research: docs/research/troll-plans-and-plain-welcomes.md
+    [275811] = {
+        quote = "I have a plan. This time, telling someone comes before the part where I leave.",
+        likes = { "A chance to prove what she is learning", "A companion who hears the plan", "A way forward that brings everyone home" },
+        dislikes = { "Being stuck while help is out of reach", "A warning dismissed as cowardice", "Enthusiasm mistaken for a finished plan" },
+        gossip = "Pal'juh is practicing an unhurried expression. It works rather well until someone notices the foot that is already preparing to leave.",
+        bio = "Pal'juh is a Shadow Hunter trainee in southern Durotar. Scouting Kolkar Crag alone leaves her hiding when her magic runs out. She asks for help escaping and sends news of her safety to Master Vornal in Sen'jin Village.",
+        backstory = "Vornal recognizes her promise but hopes she learns not to go alone. He compares her eagerness to a raptor rather than a tiger. She would like the next report to mention a sound plan as well as the trouble she managed to survive.",
+        secret = "She practices looking as though she has considered everything and feels no need to hurry. Usually one foot begins moving before she is satisfied with the expression.",
+        bestFriend = "Tell me what you think before we go. I want your company, and I am learning to make room for your answer.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone considering the plan she has finally taken time to explain.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "There you are! I have a plan, and I am going to explain it before I start walking. That is an improvement.", tone = "[eager] [welcoming]" }, "Ready. Nearly. I should find out whether you are ready before deciding that for both of us." },
+            idle = { { "The expression was unhurried. The foot was less convincing. I am working on the whole performance.", tone = "[playful] [self-aware]" }, "Being keen to begin does not tell me what happens when the first idea stops working.", "Vornal saw promise. I would like to give him something sensible to say about the preparation too." },
+            befriended = { { "You heard the plan and stayed to give me your answer. Come with me; I like the way that changes the beginning.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I had nearly started walking. Thank you for catching the part of the plan I had not explained.", "I am listening. Keeping the foot still is also going quite well at the moment." },
+            group = { { "Here is what I was thinking. Now I will let you tell me what I have not considered before we all set off.", tone = "[bright] [attentive]" } },
+            quest = { "Know where the task ends and who needs to hear what happened. Getting out of trouble is not always the last part." },
+            rest = { "A pause. I can do that without making it look like a very slow departure." },
+            learned = { "Something new to practice. I shall try to understand what happens when I cannot rely on it as well." },
+            gear = { "Let us see what is ready before announcing that everything is." },
+            zone = { "New ground. I can look at it with you before deciding I should already be farther along." },
+            comforted = { "Thank you. It helps to be reminded that asking for help need not be the worst part of the story." },
+        },
+    },
+
+    -- Kuraybin, Splintertree Post region, Ashenvale. Adult Troll male
+    -- 12956/M2 1022938, Horde Friendly. Full current/Classic/installed
+    -- 6503outrunner task and military rationale; no later relocation.
+    -- Friend visit mistaken for a patrol schedule is original writing.
+    -- Research: docs/research/troll-plans-and-plain-welcomes.md
+    [12867] = {
+        quote = "A report should say what you saw. A welcome can be simpler. I am glad you came.",
+        likes = { "A report based on careful observation", "Someone following through on a task", "A promise spoken plainly" },
+        dislikes = { "Spies learning the post's defenses", "Certainty with nothing observed behind it", "A warning made vague to sound impressive" },
+        gossip = "Kuray'bin can be very particular about a report. He is learning that a friend promising to visit soon need not supply a patrol schedule.",
+        bio = "Kuray'bin watches for threats near Splintertree Post in Ashenvale. Reports of Silverwing outrunners near Horde territory lead him to request their deaths before they gather intelligence about the post's defenses.",
+        backstory = "He asks for a search south of the post and east of Silverwing. When the hunter returns, he praises the work and explains his reasoning: an Alliance denied information is less likely to attack. He values what the result prevents.",
+        secret = "He once asked a friend to be more precise about visiting soon. It took him a moment to realize that a promise of company was not a patrol report.",
+        bestFriend = "I am glad you are here. I meant to begin with that. The rest of the report can wait while we have a moment together.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He appreciates someone showing they have heard him and intend to follow through.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. No report required before I say that. I am making an effort to remember the order.", tone = "[reserved] [warm]" }, "Ready. Keep your attention on what is there before deciding what it must mean." },
+            idle = { { "Soon was a promise of company. I asked for a more precise time as though I were arranging a patrol.", tone = "[dry] [self-aware]" }, "A clear account does not need to make the uncertain part sound certain.", "Knowing what an enemy cannot learn can matter as much as knowing where they have been seen." },
+            befriended = { { "You follow through on what you say, and you came back without needing another task. I am glad to have your company.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? Tell me what you saw before we decide what needs doing about it.", "I heard you. You need not make an ordinary question sound urgent to have my attention." },
+            quest = { { "Return with a clear account. The person waiting should not have to guess which part you actually witnessed.", tone = "[steady] [firm]" } },
+            group = { "Be clear about what each person is doing. Confidence alone is a poor arrangement." },
+            zone = { "Look carefully. New surroundings deserve more than an old assumption repeated with certainty." },
+            learned = { "Good. Give the new understanding something solid to rest on before making a claim about it." },
+            rest = { "We can stop. A moment with a friend need not be treated as a gap in the report." },
+            waveBack = { "I see you. It is good to have a greeting that says enough without more detail." },
+            thanked = { "You are welcome. I am pleased the care taken was useful." },
+        },
+    },
+
     -- Monika Sengutz, Tarren Mill, Hillsbrad. Adult Forsaken
     -- female2050/M2 997378, Horde Friendly. Full1051current/Classic/
     -- installed text: Vorrel husband, stolen ring, revenge and mourning.

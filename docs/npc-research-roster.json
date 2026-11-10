@@ -3024,5 +3024,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult Forsaken/Night Elf women, Horde Friendly or Alliance Neutral, full1051personal story and complete current/Classic stock; no Scout sighting claimed",
     "research_notes": "docs/research/tarren-mill-mourning-and-stonetalon-sharing.md"
+  },
+  {
+    "npc_id": 275811,
+    "name": "Pal'juh",
+    "zone": "Durotar",
+    "source": "Reviewed adult Troll female/male, Horde Friendly, full99123rescue/escort context or6503outrunner dialogue, unrelated later lore excluded; no Scout sighting claimed",
+    "research_notes": "docs/research/troll-plans-and-plain-welcomes.md"
+  },
+  {
+    "npc_id": 12867,
+    "name": "Kuray'bin",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult Troll female/male, Horde Friendly, full99123rescue/escort context or6503outrunner dialogue, unrelated later lore excluded; no Scout sighting claimed",
+    "research_notes": "docs/research/troll-plans-and-plain-welcomes.md"
   }
 ]

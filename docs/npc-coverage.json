@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 267,
     "unverified": 150,
-    "horde": 237
+    "horde": 239
   },
   "npc_race_counts": {
     "1": 166,
@@ -14,7 +14,7 @@
     "2": 74,
     "5": 67,
     "4": 48,
-    "8": 49,
+    "8": 51,
     "9": 38,
     "6": 76,
     "96": 10,
@@ -42,12 +42,12 @@
     "Darkshore": 7,
     "Mulgore": 21,
     "Thunder Bluff": 38,
-    "Durotar": 48,
+    "Durotar": 49,
     "The Barrens": 31,
     "Stonetalon Mountains": 9,
     "Darnassus": 8,
     "Burning Steppes": 1,
-    "Ashenvale": 8,
+    "Ashenvale": 9,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
@@ -7141,6 +7141,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12816"
     },
     {
+      "npc_id": 12867,
+      "name": "Kuray'bin",
+      "zone": "Ashenvale",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12867"
+    },
+    {
       "npc_id": 12997,
       "name": "Monty",
       "zone": "Deeprun Tram",
@@ -8149,6 +8162,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/274917"
     },
     {
+      "npc_id": 275811,
+      "name": "Pal'juh",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/275811"
+    },
+    {
       "npc_id": 277721,
       "name": "Krazore",
       "zone": "Stormwind City",
@@ -8160,6 +8186,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 637,
-  "awaiting_signature_audio_profiles": 183
+  "authored_profiles": 639,
+  "awaiting_signature_audio_profiles": 185
 }

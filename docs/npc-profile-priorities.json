@@ -2695,6 +2695,20 @@
       "zone": "Stonetalon Mountains",
       "route": "Stonetalon Peak general supplier; normal neutral-unit checks required",
       "reason": "Complete female Forsaken/Night Elf profile, fifteen personal lines queued, sourced loss or trade role preserved with distinct original private detail; no synthesis"
+    },
+    {
+      "npc_id": 275811,
+      "name": "Pal'juh",
+      "zone": "Durotar",
+      "route": "Southern Durotar Shadow Hunter trainee rescue",
+      "reason": "Complete female/male Troll profile, fifteen personal lines queued, actual eager learner or defensive report role and distinct original private detail; no synthesis"
+    },
+    {
+      "npc_id": 12867,
+      "name": "Kuray'bin",
+      "zone": "Ashenvale",
+      "route": "Ashenvale Splintertree outer post contact",
+      "reason": "Complete female/male Troll profile, fifteen personal lines queued, actual eager learner or defensive report role and distinct original private detail; no synthesis"
     }
   ]
 }

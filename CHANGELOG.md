@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Pal'juh and Kuray'bin: two complete Troll profiles with thirty personal lines queued.
+- Expand female and male Troll coverage in Durotar and Ashenvale using their full rescue and outrunner quest dialogue.
+
 - Add Monika Sengutz and Chylina: two complete profiles with thirty personal lines queued.
 - Preserve Monika's full ring-return tragedy and add distinct Stonetalon supplier writing without changing quest outcomes or eligibility.
 
