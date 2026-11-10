@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 256,
-    "unverified": 143,
+    "alliance": 257,
+    "unverified": 144,
     "horde": 221
   },
   "npc_race_counts": {
     "1": 165,
     "3": 46,
-    "7": 39,
+    "7": 40,
     "2": 70,
     "5": 63,
     "4": 43,
     "8": 47,
-    "9": 32,
+    "9": 33,
     "6": 73,
     "96": 8,
     "95": 18
@@ -31,7 +31,7 @@
     "Stranglethorn Vale": 3,
     "Tirisfal Glades": 39,
     "Undercity": 12,
-    "Duskwood": 1,
+    "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 19,
     "Hillsbrad Foothills": 4,
@@ -2955,6 +2955,30 @@
       ],
       "reaction_evidence": "Horde Friendly explicitly shown",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3093"
+    },
+    {
+      "npc_id": 3133,
+      "name": "Herble Baubbletump",
+      "zone": "Duskwood",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3133"
+    },
+    {
+      "npc_id": 3134,
+      "name": "Kzixx",
+      "zone": "Duskwood",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Alliance Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3134"
     },
     {
       "npc_id": 3140,
@@ -7742,6 +7766,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 604,
-  "awaiting_signature_audio_profiles": 150
+  "authored_profiles": 606,
+  "awaiting_signature_audio_profiles": 152
 }

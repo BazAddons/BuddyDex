@@ -2793,5 +2793,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult Tauren identity, Horde Friendly, all own tabs and complete current/Classic stock; no supported personal quests/gossip or Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-rhythms-and-paper-hats.md"
+  },
+  {
+    "npc_id": 3134,
+    "name": "Kzixx",
+    "zone": "Duskwood",
+    "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
+    "research_notes": "docs/research/duskwood-keepsakes-and-workbench-company.md"
+  },
+  {
+    "npc_id": 3133,
+    "name": "Herble Baubbletump",
+    "zone": "Duskwood",
+    "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
+    "research_notes": "docs/research/duskwood-keepsakes-and-workbench-company.md"
   }
 ]

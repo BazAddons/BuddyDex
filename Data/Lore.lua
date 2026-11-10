@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kzixx <Rare Goods>, Darkened Bank road, Duskwood. Adult Goblin male
+    -- display7131/M2 119376, Alliance Neutral. Current1recipe vs10Classic
+    -- goods; no own quests/gossip. Gift stone and personal attitudes
+    -- are original, not an actual collectible or new trade mechanic.
+    -- Research: docs/research/duskwood-keepsakes-and-workbench-company.md
+    [3134] = {
+        quote = "Some things I keep. That is the whole price discussion.",
+        likes = { "A gift with no bargain attached", "An honest description of the goods", "Someone who can leave a kindness simple" },
+        dislikes = { "A promise the goods cannot fulfill", "Every kindness turned into a debt", "Being pressed to price a keepsake" },
+        gossip = "Kzixx has a small stone he will not sell. He appears perfectly aware that it is an ordinary stone, which makes the refusal rather puzzling.",
+        bio = "Kzixx deals in rare goods beside the road near the Darkened Bank in Duskwood. His current listed stock includes a Holy Protection Potion recipe. He prefers a plain account of an item to a promise it cannot keep.",
+        backstory = "Someone once gave him a small stone as thanks for an ordinary kindness. He began a joke about its value, then thought better of it. Keeping a gift without turning it into a bargain became a pleasure of its own.",
+        secret = "There is nothing unusual about the stone. He likes remembering that someone chose to give him something without asking for anything back. He has stopped rehearsing a clever answer.",
+        bestFriend = "You do not owe me a return for every good moment. I am keeping the company because I like it. We can leave it there.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates a simple expression of gratitude without another bargain being added.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you. Your company is welcome before we discuss anything practical.", tone = "[wry] [welcoming]" }, "Ready. The small stone is staying with me. No, it is not part of the stock." },
+            idle = { { "An ordinary stone. A gift. I have managed to leave the description that short.", tone = "[warm] [lightly amused]" }, "Tell people what the thing does. A disappointed customer remembers an impressive promise.", "You can enjoy a kindness without immediately deciding what you owe for it." },
+            befriended = { { "You came back for the company as well as the business. I would like to see where that takes us.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A practical question, or a moment to talk?", "If you are asking about the stone, the answer remains that I am keeping it." },
+            thanked = { { "You are welcome. There. A perfectly good exchange, and nobody needs to add a clever ending.", tone = "[gentle] [sincere]" } },
+            loot = { "Check what it actually is before you decide what a splendid find it must be." },
+            bagsFull = { "A little sorting. You may discover you are carrying several things you already meant to leave behind." },
+            mail = { "A message for you. Let us find out what the sender meant, before we guess at it." },
+            gear = { "Does it do the job you need? That is a useful beginning to any discussion of value." },
+            rest = { "A pause is a good thing. We need not make a transaction of enjoying it together." },
+            zone = { "New surroundings. Ask what is known here, and keep a little room for an honest answer." },
+        },
+    },
+
+    -- Herble Baubbletump <Engineering and Mining Supplies>, Darkshire.
+    -- Adult Gnome male4286/M2 900914, Alliance Friendly. Current11goods
+    -- versus17Classic; no own quests/gossip. Full174/175/177/181context
+    -- belongs to Viktori/Cog/Mary, not Herble. Workbench drawings original.
+    -- Research: docs/research/duskwood-keepsakes-and-workbench-company.md
+    [3133] = {
+        quote = "I added a second stool to the drawing. The workbench seemed more promising with company.",
+        likes = { "Supplies chosen for a clear purpose", "An imagined workspace with two seats", "A visitor adding an idea to a sketch" },
+        dislikes = { "A useful tool buried under clutter", "A question answered with needless scorn", "A plan leaving no room for company" },
+        gossip = "Herble has drawn several ideal workbenches. The tools move about between versions, but lately every design has room for a second stool.",
+        bio = "Herble Baubbletump sells engineering and mining supplies in Darkshire. His current goods include tools, flux, stocks, ink, parchment, and blasting powder. He enjoys considering what would make an ordinary workspace pleasant to use.",
+        backstory = "He began a private sketch of a workbench with everything within easy reach. A visitor offered a better place for one tool. Herble added another stool, and found himself liking the conversation as much as the arrangement.",
+        secret = "The newest version has a little more space between the stools. He wants someone to be able to stay without needing to help. He thinks that is the best improvement he has drawn.",
+        bestFriend = "Have a seat beside me. You need not bring an answer. I would enjoy hearing what occurs to you while we look at the page.",
+        favorite = {
+            emote = "NOD",
+            hint = "He welcomes someone taking a thoughtful interest in a small idea still being worked out.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Good to see you. I have room for another opinion, or simply another person beside me.", tone = "[bright] [welcoming]" }, "Ready. The workbench can remain on paper while we see something beyond it." },
+            idle = { { "The second stool improved the drawing more than another shelf. I keep finding reasons to leave it there.", tone = "[pleased] [warm]" }, "Knowing which supply the job needs is a better beginning than gathering everything that looks useful.", "A plan can become easier to enjoy when somebody asks a question you had not considered." },
+            befriended = { { "You offered company without needing the sketch to become anything grand. I would welcome more of that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you are trying to do before we choose the supplies.", "I was considering where to put the stools. It seems a surprisingly worthwhile part of the drawing." },
+            rest = { { "You may sit without having to help. A pleasant pause is a perfectly good reason to stay.", tone = "[gentle] [reassuring]" } },
+            loot = { "Something for a project? Keep it where you can identify it when the time comes." },
+            bagsFull = { "Sort the tools from the materials. You will find both more readily afterward." },
+            learned = { "Try it carefully enough to notice what changes. A small beginning can teach you quite a lot." },
+            gear = { "Useful equipment deserves enough room that you can reach it when you need it." },
+            zone = { "Different surroundings. There may be a practical idea here I would never have thought to draw." },
+            thanked = { "You are welcome. I enjoyed having someone to think aloud with." },
+        },
+    },
+
     -- Grod <Leather Armor Merchant>, Thunder Bluff. Adult Tauren male
     -- display2129/M2 968705, Horde Friendly, Repair/Vendor.18current
     -- goods match18Classic; no own quest/gossip. Rhythms/forgetfulness

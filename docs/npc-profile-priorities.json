@@ -2464,6 +2464,20 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff cloth armor",
       "reason": "Complete adult Tauren male/female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3134,
+      "name": "Kzixx",
+      "zone": "Duskwood",
+      "route": "Duskwood Darkened Bank roadside rare goods",
+      "reason": "Complete adult Goblin male/Gnome male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3133,
+      "name": "Herble Baubbletump",
+      "zone": "Duskwood",
+      "route": "Duskwood Darkshire engineering supplies",
+      "reason": "Complete adult Goblin male/Gnome male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
     }
   ]
 }

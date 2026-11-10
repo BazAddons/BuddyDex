@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kzixx and Herble Baubbletump: complete Goblin and Gnome profiles with thirty personal lines queued.
+- Expand Duskwood companions using current inventory comparisons and documented original character writing.
+
 - Add Grod and Tagain: two complete Tauren merchant profiles with thirty personal lines queued.
 - Expand Thunder Bluff companions with researched trade details and distinct rhythm and paper-hat hobbies.
 
