@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Shellei Brondir and Fimble Finespindle: two complete Alliance profiles with thirty personal lines queued.
+- Ground their farewell and extra-hands humor in Menethil flight service and Fimble's full leatherworker dialogue.
+
 - Add Eleanor Rusk and Kaja: two complete Horde women's profiles with thirty personal lines queued.
 - Ground their distinct humor and friendship stories in current Undercity supplies and Boomstick Imports repair-bill context.
 
@@ -243,4 +246,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **633 fully written NPC profiles**: 454 have initial signature recordings, and one hundred seventy-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **635 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

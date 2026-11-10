@@ -2996,5 +2996,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult female Forsaken/Tauren bodies, Horde Friendly, full current/Classic own stock and repair-bill flavor where relevant; no personal quest or installed gossip, no Scout sighting claimed",
     "research_notes": "docs/research/undercity-laughter-and-boomstick-invitations.md"
+  },
+  {
+    "npc_id": 1571,
+    "name": "Shellei Brondir",
+    "zone": "Wetlands",
+    "source": "Reviewed adult Human female/Gnome male, Alliance Friendly, all own tabs and full installed flight or leatherworker dialogue; Classic training gaps and cousin speculation preserved, no Scout sighting claimed",
+    "research_notes": "docs/research/menethil-farewells-and-ironforge-extra-hands.md"
+  },
+  {
+    "npc_id": 5127,
+    "name": "Fimble Finespindle",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Human female/Gnome male, Alliance Friendly, all own tabs and full installed flight or leatherworker dialogue; Classic training gaps and cousin speculation preserved, no Scout sighting claimed",
+    "research_notes": "docs/research/menethil-farewells-and-ironforge-extra-hands.md"
   }
 ]

@@ -2667,6 +2667,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar Valley of Strength Boomstick Imports",
       "reason": "Complete female Forsaken/Tauren profile, fifteen personal lines queued, actual vendor role respected and original humor or invitation distinguished; no synthesis"
+    },
+    {
+      "npc_id": 1571,
+      "name": "Shellei Brondir",
+      "zone": "Wetlands",
+      "route": "Menethil Harbor gryphon point",
+      "reason": "Complete Human woman/Gnome man profile, fifteen personal lines queued, verified flight or mentor role and distinct original farewell/extra-hands humor; no synthesis"
+    },
+    {
+      "npc_id": 5127,
+      "name": "Fimble Finespindle",
+      "zone": "Ironforge",
+      "route": "Ironforge Finespindle leatherworker",
+      "reason": "Complete Human woman/Gnome man profile, fifteen personal lines queued, verified flight or mentor role and distinct original farewell/extra-hands humor; no synthesis"
     }
   ]
 }

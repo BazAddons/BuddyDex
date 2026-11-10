@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shellei Brondir and Fimble Finespindle: two complete Alliance profiles with thirty personal lines queued.
+- Ground their farewell and extra-hands humor in Menethil flight service and Fimble's full leatherworker dialogue.
+
 - Add Eleanor Rusk and Kaja: two complete Horde women's profiles with thirty personal lines queued.
 - Ground their distinct humor and friendship stories in current Undercity supplies and Boomstick Imports repair-bill context.
 

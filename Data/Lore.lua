@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shellei Brondir <Gryphon Master>, Menethil Harbor, Wetlands.
+    -- Adult Human female5130/M2 1000764, Alliance Friendly.
+    -- Flight Master; all own tabs0, one installed flight greeting.
+    -- The overlong imagined farewell is original; no later harbor flooding.
+    -- Research: docs/research/menethil-farewells-and-ironforge-extra-hands.md
+    [1571] = {
+        quote = "Safe flight. There. I used to take much longer to say that.",
+        likes = { "A rider ready before the farewell", "A familiar face returning", "A good wish that reaches its listener" },
+        dislikes = { "A loose belonging discovered too late", "A departure delayed for needless fuss", "Being hurried through a friendly hello" },
+        gossip = "Shellei once devised a magnificent farewell. By the time she reached its finest part, her imagined rider was already well away.",
+        bio = "Shellei Brondir is the Human gryphon master at Menethil Harbor in the Wetlands. She helps travelers take to the air from the port, asking where they would like to fly. Between journeys, the next departure is rarely far from her work.",
+        backstory = "She tried composing a farewell worthy of a grand journey, with fine wishes for every stage of the flight. Saying it aloud took rather longer than expected. She imagined the rider vanishing into the distance before the final flourish.",
+        secret = "She still remembers the long version. It has a very fine ending. An off-duty friend with nowhere urgent to go might eventually hear it.",
+        bestFriend = "Stay a little. I should like a conversation that does not need to finish before someone takes off.",
+        favorite = {
+            emote = "WAVE",
+            hint = "She enjoys a farewell that can be returned in a moment, even as someone sets out.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Good to see you. Nothing needs to take off before we have finished saying hello. Let us enjoy that.", tone = "[warm] [lighthearted]" }, "Ready. I shall save the magnificent farewell until we actually part company." },
+            idle = { { "The long version has a very fine ending. By then, admittedly, the rider would be well on the way.", tone = "[wry] [amused]" }, "Safe flight is a useful beginning. It is also a perfectly respectable place to stop.", "A familiar face returning deserves a moment before asking where it is going next." },
+            befriended = { { "You stopped for a conversation with nowhere urgent to fly. I would be glad of more company like yours.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering whether the farewell really needed another wish for the middle of the journey.", "I am listening. We have time for more than the short version." },
+            taxi = { { "Ready for the journey. Keep your belongings together, and take the good wishes as understood.", tone = "[bright] [reassuring]" } },
+            landed = { "Arrived. A fine end to the journey, with no need to wait for me to finish the farewell." },
+            mount = { "Another way to travel. Give yourself a moment to get ready before deciding where to hurry toward." },
+            hearth = { "Homeward. I hope someone is pleased to see you when you arrive." },
+            zone = { "New surroundings. Let us look before deciding we have another departure to arrange." },
+            rest = { "A pause. We can say hello properly and leave the going somewhere until later." },
+            thanked = { "You are welcome. I am glad the good wishes reached you before the rest of my speech." },
+        },
+    },
+
+    -- Fimble Finespindle <Expert Leatherworker>, Ironforge. Adult
+    -- Gnome male3104/M2 900914, Alliance Friendly. Four installed
+    -- gossip variants, fifteen Classic training rows, current own tabs0.
+    -- Unnamed cousin story is sourced speech, not identified as Bombus.
+    -- Imaginary four-handed tea/story workday is original; no literal gadget.
+    -- Research: docs/research/menethil-farewells-and-ironforge-extra-hands.md
+    [5127] = {
+        quote = "Four hands? One for tea, one for telling the story... no, I see the difficulty.",
+        likes = { "A student ready for the next lesson", "A familiar story with room for a flourish", "Another skilled pair of hands" },
+        dislikes = { "A hurried piece of careless work", "A learner ashamed to begin simply", "An afternoon too crowded for a pause" },
+        gossip = "Fimble imagines how useful four hands would be. His plan becomes less efficient when he remembers the tea and the gestures his stories require.",
+        bio = "Fimble Finespindle is an expert leatherworker at Finespindle's Leather Goods in Ironforge. His conversation welcomes improving students, sends beginners to Gretta, and recommends Telonis in Darnassus to those ready to go beyond his skills.",
+        backstory = "He recalls a cousin accidentally vaporizing Gnomeregan's cloth and leather, leaving a remarkably drafty aftermath. Busy days bring the tale to mind. He can be pleased with a pupil's progress and still find time to enjoy his own telling.",
+        secret = "In his imagined four-handed working day, one hand holds tea and another supplies grand gestures. He suspects only the usual two would get much work done.",
+        bestFriend = "Sit with me a moment. An extra pair of hands would be useful, but a friend need not be put to work to be welcome.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys someone appreciating the flourish at the end of a well-loved story.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are! An extra pair of hands, or better still, someone who will remind me to take a pause.", tone = "[animated] [welcoming]" }, "Ready. I have brought the usual number of hands and rather more plans than they can reasonably manage." },
+            idle = { { "One hand for tea, one for a splendid gesture. Four hands might only make me more elaborate about not working.", tone = "[wry] [amused]" }, "A student getting better is a pleasure. Besides, my hands are only so fast.", "I do enjoy that story. A familiar ending can still deserve a good flourish." },
+            befriended = { { "You came for my company and stayed through the story. Come along; I think I can spare the imaginary extra hands for another afternoon.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was determining how many hands the tea would leave available.", "I heard you. I can put the grand gesture aside long enough to listen." },
+            learned = { { "Coming along nicely! Give the new skill some care before deciding it ought to be hurried.", tone = "[bright] [encouraging]" } },
+            gear = { "Look at the work as well as the shape. Something well made deserves to be noticed and looked after." },
+            group = { "A little help is welcome. Remember the people offering it are company as well as useful hands." },
+            quest = { "Find out what the work asks for before announcing how quickly we can finish it." },
+            rest = { "A pause. I would set down all four hands if I had them." },
+            bagsFull = { "Make room before everything is pressed into a shape its maker never intended." },
+            thanked = { "You are welcome. I am pleased the time and care proved useful." },
+        },
+    },
+
     -- Eleanor Rusk <General Goods Vendor>, Trade Quarter, Undercity.
     -- Adult Forsaken female2660/M2 997378, Horde Friendly. All29current
     -- and20Classic goods; no own quest/training/installed gossip.
