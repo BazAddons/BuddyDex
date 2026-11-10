@@ -1330,6 +1330,20 @@
       "zone": "Orgrimmar",
       "route": "Male Troll bow merchant and female Orc meat vendor, conditional Orgrimmar coverage",
       "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed, installed and developmentZIP verified; current public friendly access unverified; docs/research/jinsora-and-olvia-queue.md"
+    },
+    {
+      "npc_id": 3017,
+      "name": "Nan Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Female and male Tauren trade/service coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/nan-and-naal-mistrunner-queue.md"
+    },
+    {
+      "npc_id": 3027,
+      "name": "Naal Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Female and male Tauren trade/service coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/nan-and-naal-mistrunner-queue.md"
     }
   ]
 }

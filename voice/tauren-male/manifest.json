@@ -399,6 +399,46 @@
     "text": "A good camp takes a little preparation. If you are trying an incense candle, remember the campfire first, and give the people in town their space. Then sit down and enjoy the company.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3027_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3027",
+    "spoken": "[sincere] [warm] [relaxed] You have become someone I am glad to see, with or without an errand to do. Come, friend. We need not fill the whole walk with advice. Tell me what has been on your mind. If I start explaining your own journey to you, I trust you will stop me before I get too far.",
+    "text": "You have become someone I am glad to see, with or without an errand to do. Come, friend. We need not fill the whole walk with advice. Tell me what has been on your mind. If I start explaining your own journey to you, I trust you will stop me before I get too far.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3027_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3027",
+    "spoken": "[warm] [measured] [wry] Welcome, friend. Have you checked your supplies before setting off? A meal is easier to prepare when the small things are already packed. I have learned to check the fire as well. There is little sense in telling a pot to be patient while I am the one making everything too hot.",
+    "text": "Welcome, friend. Have you checked your supplies before setting off? A meal is easier to prepare when the small things are already packed. I have learned to check the fire as well. There is little sense in telling a pot to be patient while I am the one making everything too hot.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3027_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3027",
+    "spoken": "[reflective] [gently amused] [conversational] I apologized to a cooking pot once. The meal had scorched, and I called the pot stubborn before noticing the fire I had built. It could not hear me, of course. Still, I had made an unfair accusation aloud. It seemed only reasonable to offer the correction where the accusation had been made.",
+    "text": "I apologized to a cooking pot once. The meal had scorched, and I called the pot stubborn before noticing the fire I had built. It could not hear me, of course. Still, I had made an unfair accusation aloud. It seemed only reasonable to offer the correction where the accusation had been made.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3027_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3027",
+    "spoken": "[calm] [practical] [amused] Let us stop here and take a little time. A meal need not be a race to the next thing waiting for us. Set the fire carefully, check what we brought, and sit. I will try to address any complaints to the cook before involving the pot. That seems a fair arrangement for everyone.",
+    "text": "Let us stop here and take a little time. A meal need not be a race to the next thing waiting for us. Set the fire carefully, check what we brought, and sit. I will try to address any complaints to the cook before involving the pot. That seems a fair arrangement for everyone.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3028_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Nan Mistrunner <Fruit Vendor>, middle rise/Thunder Bluff,3017/2117.
+    -- Adult female Tauren, current HordeFriendly; no personal quest found.
+    -- Fruit faces and private pumpkin joke are original BuddyDex writing.
+    -- No later Legion feast/Void events or invented family relationships.
+    -- Research: docs/research/nan-and-naal-mistrunner-queue.md.
+    [3017] = {
+        quote = "That pumpkin has a very serious expression. I should turn it around before it frightens the apples.",
+        likes = { "A colorful fruit display", "A customer noticing the little joke", "A face brightening at the counter" },
+        dislikes = { "Bruised fruit hidden underneath", "A basket left in the walking path", "Being hurried through a good laugh" },
+        gossip = "Nan's fruit sometimes seems to be looking back at the customers. She says she is merely keeping the display tidy.",
+        bio = "Nan Mistrunner sells fruit on Thunder Bluff's middle rise. Between customers, she finds expressions in the produce and arranges a few pieces to complete the face. She enjoys watching someone notice without saying a word.",
+        backstory = "A pumpkin's solemn expression once reminded Nan of herself after a long morning. She added a few pieces of fruit and found the resemblance even better. A customer laughed, and she decided careful sorting could leave room for a joke.",
+        secret = "The sternest pumpkin is usually her own portrait. She turns it toward herself when she needs reminding how funny a very serious face can look.",
+        bestFriend = "Come closer. This one is meant to be me. You may laugh; I already have. I saved the best view for you.",
+        favorite = { emote = "WINK", hint = "Let her know you noticed the joke hiding in the fruit display." },
+        lines = {
+            greet = { { "There you are. I was just wondering whether that pumpkin looked stern or merely thoughtful. It reminded me of someone, and then I realized who. You may laugh. I did. Come along, friend. Perhaps we will find something out here with a more cheerful expression than my portrait at the counter.", tone = "[warm] [amused] [conversational]" },
+                "Good to see you. Let me turn that solemn face toward the other fruit before we go." },
+            idle = { { "A few pieces of fruit can make a very convincing face. I discovered that while tidying the display. The pumpkin needed almost no help at all. It already looked exactly as I do when someone leaves a basket in the walking path. I thought it only fair to laugh at myself first.", tone = "[playful] [storytelling] [gentle]" },
+                "That looks like a face. Perhaps I have spent too long arranging fruit.",
+                "I wonder whether anyone has noticed who the pumpkin resembles yet." },
+            befriended = { { "I enjoy having someone to share the little jokes with. You notice things without needing the whole explanation, though I am glad you stay to hear it anyway. Come, friend. You have seen my most serious pumpkin portrait. I think I can trust you with the less dignified ones as well.", tone = "[sincere] [fond] [amused]" } },
+            loot = { { "Have a careful look before you put that away. Something useful ought to survive the trip home. At my counter, I dislike finding good fruit bruised beneath the rest. A little room makes all the difference. I suppose your new treasure deserves the same courtesy, even if it has a rather less pleasant smell.", tone = "[practical] [friendly] [lightly teasing]" } },
+            poke = { "Checking whether I am the portrait or the original?", "Yes? I noticed you without the nudge." },
+            bagsFull = { "Give the softer things some room. They have had a long journey too." },
+            rest = { "Sit beside me. Tell me what made you laugh today." },
+            quest = { "Another errand done. Did anyone remember to thank you?" },
+            levelUp = { "A good reason to smile. Hold that expression; I may need it for a display." },
+            zone = { "A different view. I wonder what people put on their tables here." },
+            combatEnd = { "Still here? Good. I would rather see you smiling than fighting." },
+        },
+    },
+
+    -- Naal Mistrunner <Cooking Supplier>, high rise/Thunder Bluff,3027/2095.
+    -- Adult male Tauren/current HordeFriendly/Vendor; fifteen current wares.
+    -- Traditions of the Bluff97485 names him as ceremonial tinder supplier;
+    -- Eylah gives/finishes the quest, no ritual office or friendship gate.
+    -- Talking to and apologizing to cookware are modest original fiction.
+    -- Research: docs/research/nan-and-naal-mistrunner-queue.md.
+    [3027] = {
+        quote = "I told the pot to take its time. It would have helped if I had given it a smaller fire.",
+        likes = { "A cook checking the supplies first", "Enough time for a meal to simmer", "An apology offered without being asked" },
+        dislikes = { "A scorched meal blamed on the pot", "An empty spice jar discovered too late", "Rushing someone through a tradition" },
+        gossip = "Naal has been heard reasoning with his cooking pot. His regulars wonder whether it ever wins the argument.",
+        bio = "Naal Mistrunner sells cooking supplies by Aska's Kitchen on Thunder Bluff's high rise. He also supplies ceremonial tinder for Eylah Sunhorn's incense tradition. Everyday meals and moments of gratitude both need preparation.",
+        backstory = "Naal once blamed a scorched meal on a stubborn pot, then noticed how high he had built the fire. He apologized aloud before anyone could remind him. Since then, he tries to examine his own part in a mishap before scolding the equipment.",
+        secret = "He knows the pot cannot hear an apology. Leaving an unfair accusation unanswered still bothers him, even when the accused is cookware.",
+        bestFriend = "If I am being unfair, tell me. I will listen. You deserve that much more consideration than a cooking pot.",
+        favorite = { emote = "THANK", hint = "A little appreciation belongs beside the practical work of preparing a meal." },
+        lines = {
+            greet = { { "Welcome, friend. Have you checked your supplies before setting off? A meal is easier to prepare when the small things are already packed. I have learned to check the fire as well. There is little sense in telling a pot to be patient while I am the one making everything too hot.", tone = "[warm] [measured] [wry]" },
+                "Good to see you. We can discuss the meal while we walk." },
+            idle = { { "I apologized to a cooking pot once. The meal had scorched, and I called the pot stubborn before noticing the fire I had built. It could not hear me, of course. Still, I had made an unfair accusation aloud. It seemed only reasonable to offer the correction where the accusation had been made.", tone = "[reflective] [gently amused] [conversational]" },
+                "Check the fire before you begin your argument with the cookware.",
+                "An empty spice jar has a remarkable way of making itself known halfway through supper." },
+            befriended = { { "You have become someone I am glad to see, with or without an errand to do. Come, friend. We need not fill the whole walk with advice. Tell me what has been on your mind. If I start explaining your own journey to you, I trust you will stop me before I get too far.", tone = "[sincere] [warm] [relaxed]" } },
+            rest = { { "Let us stop here and take a little time. A meal need not be a race to the next thing waiting for us. Set the fire carefully, check what we brought, and sit. I will try to address any complaints to the cook before involving the pot. That seems a fair arrangement for everyone.", tone = "[calm] [practical] [amused]" } },
+            poke = { "Yes? There is no need to stir me.", "I am listening. Take your time." },
+            bagsFull = { "Keep the supplies where we can find them without unpacking the whole journey." },
+            quest = { "A small part supplied with care can help someone finish something meaningful." },
+            loot = { "Look it over. Useful things are worth keeping in good condition." },
+            combatEnd = { "Take a breath. We can decide what comes next when everyone is ready." },
+            hearth = { "Home, then. I hope there is time to sit before starting the next task." },
+            levelUp = { "Well done. Experience is useful when we remember to listen to it." },
+        },
+    },
+
     -- Jin'sora <Bow Merchant>, Valley of Honor/Orgrimmar,3410/4359.
     -- Adult male Troll; current identity/model, historical/beta location.
     -- Sparse current API: faction access remains unverified, live gates apply.

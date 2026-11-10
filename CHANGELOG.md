@@ -1,4 +1,5 @@
 # Unreleased
+- Add Nan and Naal Mistrunner: full Tauren fruit-vendor and cooking-supplier profiles, fifteen personal lines and four approved v4 signatures each. Include Naal's supplier role in Forever's Traditions of the Bluff quest.
 - Add Jin'sora and Olvia: complete bow-merchant and meat-vendor profiles, fifteen personal lines and four approved v4 signatures each. Current faction access remains unverified and normal live eligibility checks apply.
 - Add Barg and Soran: full Orc general-supplies and banker profiles, fifteen personal lines and four approved v4 signatures each; include Soran's established Hyjal and bank-security dialogue.
 - Add Kozish and Mooranta: full Goblin inn-patron and female Tauren skinning-trainer profiles, fifteen personal lines and four approved v4 signatures each; Kozish remains befriendable through normal friendly emotes without a service window.

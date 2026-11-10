@@ -239,6 +239,46 @@
     "text": "A surprise should not require so many revealing questions. I know that. But suppose I choose the wrong color? Then I ask which color they prefer, and what size, and whether they would like... You see the difficulty. By then, we are both looking forward to it.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore3017_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3017",
+    "spoken": "[sincere] [fond] [amused] I enjoy having someone to share the little jokes with. You notice things without needing the whole explanation, though I am glad you stay to hear it anyway. Come, friend. You have seen my most serious pumpkin portrait. I think I can trust you with the less dignified ones as well.",
+    "text": "I enjoy having someone to share the little jokes with. You notice things without needing the whole explanation, though I am glad you stay to hear it anyway. Come, friend. You have seen my most serious pumpkin portrait. I think I can trust you with the less dignified ones as well.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3017_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3017",
+    "spoken": "[warm] [amused] [conversational] There you are. I was just wondering whether that pumpkin looked stern or merely thoughtful. It reminded me of someone, and then I realized who. You may laugh. I did. Come along, friend. Perhaps we will find something out here with a more cheerful expression than my portrait at the counter.",
+    "text": "There you are. I was just wondering whether that pumpkin looked stern or merely thoughtful. It reminded me of someone, and then I realized who. You may laugh. I did. Come along, friend. Perhaps we will find something out here with a more cheerful expression than my portrait at the counter.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3017_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3017",
+    "spoken": "[playful] [storytelling] [gentle] A few pieces of fruit can make a very convincing face. I discovered that while tidying the display. The pumpkin needed almost no help at all. It already looked exactly as I do when someone leaves a basket in the walking path. I thought it only fair to laugh at myself first.",
+    "text": "A few pieces of fruit can make a very convincing face. I discovered that while tidying the display. The pumpkin needed almost no help at all. It already looked exactly as I do when someone leaves a basket in the walking path. I thought it only fair to laugh at myself first.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3017_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3017",
+    "spoken": "[practical] [friendly] [lightly teasing] Have a careful look before you put that away. Something useful ought to survive the trip home. At my counter, I dislike finding good fruit bruised beneath the rest. A little room makes all the difference. I suppose your new treasure deserves the same courtesy, even if it has a rather less pleasant smell.",
+    "text": "Have a careful look before you put that away. Something useful ought to survive the trip home. At my counter, I dislike finding good fruit bruised beneath the rest. A little room makes all the difference. I suppose your new treasure deserves the same courtesy, even if it has a rather less pleasant smell.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3026_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

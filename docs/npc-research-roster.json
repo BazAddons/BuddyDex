@@ -1659,5 +1659,19 @@
     "zone": "Orgrimmar",
     "source": "Individually reviewed named adult model/current identity; current/beta/historical service references distinguished; current public friendly access unverified; no Scout sighting claimed",
     "research_notes": "docs/research/jinsora-and-olvia-queue.md"
+  },
+  {
+    "npc_id": 3017,
+    "name": "Nan Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current named adult model/HordeFriendly identity and all own tabs; Naal related Forever quest full text checked; no Scout sighting claimed",
+    "research_notes": "docs/research/nan-and-naal-mistrunner-queue.md"
+  },
+  {
+    "npc_id": 3027,
+    "name": "Naal Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current named adult model/HordeFriendly identity and all own tabs; Naal related Forever quest full text checked; no Scout sighting claimed",
+    "research_notes": "docs/research/nan-and-naal-mistrunner-queue.md"
   }
 ]

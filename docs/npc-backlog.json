@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 442,
+  "completed_count": 444,
   "remaining_count": 2,
   "completed": [
     {
@@ -1746,11 +1746,31 @@
       "status": "complete"
     },
     {
+      "npc_id": 3017,
+      "name": "Nan Mistrunner",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current named adult model/HordeFriendly identity and all own tabs; Naal related Forever quest full text checked; no Scout sighting claimed",
+      "research_notes": "docs/research/nan-and-naal-mistrunner-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3026,
       "name": "Aska Mistrunner",
       "zone": "Thunder Bluff",
       "source": "Exact current Horde-friendly adult Tauren model and city pin, training and full installed gossip reviewed; connected profession quest clusters and books read, no personal Scout sighting claimed",
       "research_notes": "docs/research/thunder-bluff-suppers-and-fishing-verses.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3027,
+      "name": "Naal Mistrunner",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current named adult model/HordeFriendly identity and all own tabs; Naal related Forever quest full text checked; no Scout sighting claimed",
+      "research_notes": "docs/research/nan-and-naal-mistrunner-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
