@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Orgnil Soulscar and Denni'ka: two complete adult Horde profiles, with thirty personal lines queued.
+- Ground Razor Hill's investigator in his full Classic and Forever quest chains, and give Malaka'jin's butcher a distinct original friendship story.
+
 - Add Veren Tallstrider and Sunn Ragetotem: two complete adult Tauren profiles, with thirty personal lines queued.
 - Build their Thunder Bluff friendships around respect for useful leatherwork and an original staff merchant riddle-writing pastime.
 

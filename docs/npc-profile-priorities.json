@@ -2184,6 +2184,20 @@
       "zone": "Thunder Bluff",
       "route": "Horde Thunder Bluff staff/repair city contact",
       "reason": "Complete Tauren profile with fifteen queued lines in approved sex-specific voice; actual quest pattern distinct from friendship, city coverage only, no synthesis"
+    },
+    {
+      "npc_id": 3142,
+      "name": "Orgnil Soulscar",
+      "zone": "Durotar",
+      "route": "Horde Razor Hill early investigation quests",
+      "reason": "Complete adult Horde profile with fifteen queued lines in approved race/sex voice; Forever scout/naga chain and Classic context distinguished, no synthesis"
+    },
+    {
+      "npc_id": 3411,
+      "name": "Denni'ka",
+      "zone": "Stonetalon Mountains",
+      "route": "Horde Malakajin later-route butcher",
+      "reason": "Complete adult Horde profile with fifteen queued lines in approved race/sex voice; Forever scout/naga chain and Classic context distinguished, no synthesis"
     }
   ]
 }

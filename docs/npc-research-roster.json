@@ -2513,5 +2513,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed exact adult Tauren body, current Horde Friendly, complete stock or full two-part leather quest chain and installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-useful-work-and-riddles.md"
+  },
+  {
+    "npc_id": 3142,
+    "name": "Orgnil Soulscar",
+    "zone": "Durotar",
+    "source": "Reviewed exact adult Orc male or Troll female body, current Horde Friendly, complete own tabs and full Classic/Forever investigation chains or current butcher stock; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-investigations-and-malakajin-meals.md"
+  },
+  {
+    "npc_id": 3411,
+    "name": "Denni'ka",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed exact adult Orc male or Troll female body, current Horde Friendly, complete own tabs and full Classic/Forever investigation chains or current butcher stock; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-investigations-and-malakajin-meals.md"
   }
 ]

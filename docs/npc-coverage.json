@@ -5,16 +5,16 @@
   "faction_counts": {
     "alliance": 242,
     "unverified": 138,
-    "horde": 197
+    "horde": 199
   },
   "npc_race_counts": {
     "1": 165,
     "3": 42,
     "7": 36,
-    "2": 65,
+    "2": 66,
     "5": 59,
     "4": 38,
-    "8": 43,
+    "8": 44,
     "9": 29,
     "6": 66,
     "96": 8,
@@ -41,11 +41,11 @@
     "Darkshore": 7,
     "Mulgore": 14,
     "Thunder Bluff": 34,
-    "Durotar": 44,
+    "Durotar": 45,
     "The Barrens": 28,
+    "Stonetalon Mountains": 7,
     "Darnassus": 8,
     "Ashenvale": 6,
-    "Stonetalon Mountains": 6,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
@@ -2855,6 +2855,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3140"
     },
     {
+      "npc_id": 3142,
+      "name": "Orgnil Soulscar",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3142"
+    },
+    {
       "npc_id": 3143,
       "name": "Gornek",
       "zone": "Durotar",
@@ -3443,6 +3456,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current identity/model confirmed but current API reaction absent; beta Friendly or community Horde affiliation is not current reaction proof. Ordinary live reaction/nonattackability gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3410"
+    },
+    {
+      "npc_id": 3411,
+      "name": "Denni'ka",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3411"
     },
     {
       "npc_id": 3412,
@@ -7229,6 +7255,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 564,
-  "awaiting_signature_audio_profiles": 110
+  "authored_profiles": 566,
+  "awaiting_signature_audio_profiles": 112
 }

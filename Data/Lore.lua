@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Orgnil Soulscar, Razor Hill, Durotar. Adult Orc male1877/M2 917116,
+    -- Horde Friendly. Full Burning Blade reports/collar/Demon Seed chain
+    -- and Forever99048/49/51/52 scout/naga/giant text reviewed.
+    -- Private stone-board game is original; no new patrol/quest mechanics.
+    -- Research: docs/research/razor-hill-investigations-and-malakajin-meals.md
+    [3142] = {
+        quote = "Bring me what you found, not merely what you fear. Then we can act.",
+        likes = { "A report with evidence behind it", "Advice sought before a dangerous task", "Travelers reaching Razor Hill safely" },
+        dislikes = { "The Burning Blade gaining ground", "A warning dismissed without inquiry", "Bravery used as an excuse to go alone" },
+        gossip = "Orgnil is decisive about threats to Razor Hill. At his private board game, he can spend much longer deciding which stone to move.",
+        bio = "Orgnil Soulscar investigates threats around Razor Hill. He acts against Fizzle Darkstorm and values Margoz's counsel on the Burning Blade. When Heglan's reports cease, he seeks answers; naga evidence reveals another danger to the settlement.",
+        backstory = "Receiving news from Sen'jin links his work to dangers beyond Razor Hill. His investigations lead from cultists in Thunder Ridge toward Margoz's knowledge of Skull Rock. He wants action, but recognizes when another person knows more.",
+        secret = "He plays a small game with stones to relax. He keeps trying to defend every edge of the board at once. He enjoys a bold opponent, provided the only things at risk are pebbles.",
+        bestFriend = "Set out the stones. This time you may take the dangerous move, and I can enjoy finding out whether it works.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a clear acknowledgment before an important matter is discussed.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good. Let us see what there is to learn before deciding what must be done.", tone = "[firm] [focused]" }, "Ready. If you have news, speak plainly." },
+            idle = { { "A bold move is easier to enjoy when the only things at risk are stones on a board.", tone = "[dry] [relaxed]" }, "I can defend the edges, or I can win the game. I am told there is a difference.", "A missing report deserves a question. Silence alone is not an answer." },
+            befriended = { { "You have stood with me. I would welcome your company when there is more to share than another warning.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? What have you found?", "I was considering the next move. For once, it can wait." },
+            quest = { { "Seek the evidence, hear the advice, and take help when the danger calls for it.", tone = "[firm] [instructive]" } },
+            combatStart = { "Stay alert. Confidence is no protection against being caught off guard." },
+            combatEnd = { "Account for everyone before calling the matter settled." },
+            group = { "Good. Some dangers are better faced with help than with a boast." },
+            loot = { "Keep hold of what may explain the threat. A useful report needs more than a guess." },
+            rest = { "Set out the stones, if you wish. We can face a smaller problem for a little while." },
+            zone = { "Who watches the roads here? It would be wise to know." },
+        },
+    },
+
+    -- Denni'ka <Butcher>, Malaka'jin, Stonetalon Mountains. Adult Troll
+    -- female4357/M2 1018060, Horde Friendly, twelve meat/drink items.
+    -- Current/Classic no own quests; no installed own gossip.
+    -- Food-shaped descriptions of scenery are original; no beta/Cata duties.
+    -- Research: docs/research/razor-hill-investigations-and-malakajin-meals.md
+    [3411] = {
+        quote = "A fine view is better when your belly is not arguing with it.",
+        likes = { "A traveler remembering to eat", "A lively description of a meal", "Company willing to share a laugh" },
+        dislikes = { "Supplies forgotten until too late", "A mouthful hurried past its taste", "A tall tale delaying a needed meal" },
+        gossip = "Ask Denni'ka about the scenery and she may describe a meal. She insists that this still tells you something worth knowing.",
+        bio = "Denni'ka is a Troll butcher at Malaka'jin in the Stonetalon Mountains. She sells meat and drinks to travelers: practical supplies for a journey that can feel rather longer once hunger has made itself heard.",
+        backstory = "Hearing travelers praise distant views, she tried to describe the landscape for herself. Comparisons from her work kept finding their way in. Instead of changing them all, she began enjoying the moment someone recognized what she meant.",
+        secret = "She once described a cloud so much like a roast that she made herself hungry. She remembers the description more clearly than the cloud, and considers that a fair result.",
+        bestFriend = "Tell me what you saw today. If I say it sounds delicious, keep going. That means I am listening.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She likes company that enjoys an unexpected turn in a conversation.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "Good to see you. Have you eaten, or must your belly do all the talking on this trip?", tone = "[lively] [teasing]" }, "Come, then. We can look at the scenery and still remember our supplies." },
+            idle = { { "That cloud put me in mind of a roast. I cannot tell you whether that is good observation or poor timing.", tone = "[amused] [playful]" }, "Describe a grand view on an empty belly and see how soon the meal enters your story.", "A little care before the journey makes a better tale afterward." },
+            befriended = { { "You let me finish the description even after the mountain began sounding like supper. I like your company.", tone = "[warm] [amused]" } },
+            poke = { "Yes? Something to eat, or something to tell me?", "I was looking at the view. No, I shall not promise to keep food out of it." },
+            rest = { { "Take a moment to enjoy the meal. You have carried it far enough to give it some attention.", tone = "[warm] [practical]" } },
+            bagsFull = { "Make room for what the journey needs, before hunger makes the decision for you." },
+            loot = { "Useful for the road? Good. Put it where you can find it again." },
+            zone = { "Now there is a view. Let me think how to describe it before you start laughing." },
+            quest = { "Attend to the work, but remember you still need to eat while doing it." },
+            laughAlong = { "You understood what I meant, though. That is the important part." },
+            thanked = { "Glad to help. May the road feel shorter for it." },
+        },
+    },
+
     -- Veren Tallstrider, Thunder Bluff. Adult Tauren male4517/M2 968705,
     -- Horde Friendly. Full768->769 leather trade/pattern; installed
     -- Earthmother/beast respect gossip, not a Bloodhoof trainer.
