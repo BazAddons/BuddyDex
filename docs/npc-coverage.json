@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 236,
+    "alliance": 238,
     "unverified": 135,
     "horde": 190
   },
@@ -17,8 +17,8 @@
     "8": 42,
     "9": 27,
     "6": 62,
-    "96": 7,
-    "95": 12
+    "96": 8,
+    "95": 13
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -53,7 +53,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 18,
+    "Zephras Isle": 20,
     "Riverglades": 3
   },
   "entries": [
@@ -6559,6 +6559,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251368"
     },
     {
+      "npc_id": 251371,
+      "name": "Falorne Fallwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly; Horde Hostile",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251371"
+    },
+    {
       "npc_id": 251374,
       "name": "Windshaper Boro",
       "zone": "Zephras Isle",
@@ -6570,6 +6583,19 @@
       ],
       "reaction_evidence": "Horde friendly; Alliance hostile",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251374"
+    },
+    {
+      "npc_id": 251379,
+      "name": "Dorii Brightwhisper",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251379"
     },
     {
       "npc_id": 251487,
@@ -7026,6 +7052,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 548,
-  "awaiting_signature_audio_profiles": 94
+  "authored_profiles": 550,
+  "awaiting_signature_audio_profiles": 96
 }

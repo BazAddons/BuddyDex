@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Falorne Fallwind and Dorii Brightwhisper: two full adult Skyborne profiles on the Thendal initiation route, with thirty personal lines queued.
+- Preserve Falorne's High Order stance and faction hostility alongside Dorii's encouraging mentorship; keep racial, training and friendship rewards separate.
+
 - Add Gimrizz Shadowcog and Turuk Amberstill: full Gnome and Dwarf profiles along the early Dun Morogh route, with thirty personal lines queued.
 - Give the stern warlock trainer and joking ranch weaponsmith distinct friendships while preserving live Neutral eligibility and separate game-service roles.
 

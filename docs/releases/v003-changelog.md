@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Falorne Fallwind and Dorii Brightwhisper: two full adult Skyborne profiles on the Thendal initiation route, with thirty personal lines queued.
+- Preserve Falorne's High Order stance and faction hostility alongside Dorii's encouraging mentorship; keep racial, training and friendship rewards separate.
+
 - Add Gimrizz Shadowcog and Turuk Amberstill: full Gnome and Dwarf profiles along the early Dun Morogh route, with thirty personal lines queued.
 - Give the stern warlock trainer and joking ranch weaponsmith distinct friendships while preserving live Neutral eligibility and separate game-service roles.
 
@@ -105,4 +108,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **548 fully written NPC profiles**: 454 have initial signature recordings, and ninety-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **550 fully written NPC profiles**: 454 have initial signature recordings, and ninety-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

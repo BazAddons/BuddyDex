@@ -2072,6 +2072,20 @@
       "zone": "Dun Morogh",
       "route": "Shared Dwarf/Gnome Kharanos-Amberstill early route",
       "reason": "Full adult male Gnome/Dwarf profile and fifteen queued lines; current Neutral not relabeled Friendly, training/ranch roles separated, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 251371,
+      "name": "Falorne Fallwind",
+      "zone": "Zephras Isle",
+      "route": "Alliance Thendal leyline/class initiation route",
+      "reason": "Full adult Skyborne male/female profiles and fifteen queued lines each; current Alliance-only Friendly access, race/allegiance distinguished, live eligibility and class/racial services unchanged, no synthesis"
+    },
+    {
+      "npc_id": 251379,
+      "name": "Dorii Brightwhisper",
+      "zone": "Zephras Isle",
+      "route": "Alliance Thendal leyline/class initiation route",
+      "reason": "Full adult Skyborne male/female profiles and fifteen queued lines each; current Alliance-only Friendly access, race/allegiance distinguished, live eligibility and class/racial services unchanged, no synthesis"
     }
   ]
 }

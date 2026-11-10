@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 548,
-  "written_complete_count": 548,
-  "awaiting_signature_audio_count": 94,
+  "authored_count": 550,
+  "written_complete_count": 550,
+  "awaiting_signature_audio_count": 96,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 96,
+  "remaining_count": 98,
   "completed": [
     {
       "npc_id": 54,
@@ -5084,6 +5084,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 251371,
+      "name": "Falorne Fallwind",
+      "zone": "Zephras Isle",
+      "source": "Reviewed unique adult model, current faction fields, full own/referral quest context and dialogue; Falorne model race separate from allegiance/access; no Scout sighting claimed",
+      "research_notes": "docs/research/thendal-ley-lines-and-arcane-first-steps.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 251374,
       "name": "Windshaper Boro",
       "zone": "Zephras Isle",
@@ -5092,6 +5104,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 251379,
+      "name": "Dorii Brightwhisper",
+      "zone": "Zephras Isle",
+      "source": "Reviewed unique adult model, current faction fields, full own/referral quest context and dialogue; Falorne model race separate from allegiance/access; no Scout sighting claimed",
+      "research_notes": "docs/research/thendal-ley-lines-and-arcane-first-steps.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 251487,

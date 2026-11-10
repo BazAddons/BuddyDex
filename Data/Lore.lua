@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Falorne Fallwind <High Order>, Thendal Grove, Zephras. Adult male
+    -- body136972:96:0/M2 7478487; current Windshaper race, High Order
+    -- allegiance/gossip. Alliance Friendly/Horde Hostile, not shared access.
+    -- Full92597 reviewed. Ordinary wooden puzzle is original writing.
+    -- Research: docs/research/thendal-ley-lines-and-arcane-first-steps.md
+    [251371] = {
+        quote = "The unknown will remain unknown if we stand here congratulating ourselves on caution.",
+        likes = { "A discovery followed through", "A question with an unexpected answer", "The promise of arcane knowledge" },
+        dislikes = { "Inaction defended as wisdom", "The High Order dismissed as fools", "A conclusion accepted without inquiry" },
+        gossip = "Falorne can make an investigation sound like destiny. A small puzzle can hold his attention just as completely.",
+        bio = "Falorne Fallwind speaks for the High Order in Thendal Grove. He urges initiates to explore the leylines and reclaim lost arcane knowledge. His enthusiasm for discovery comes with sharp words for Windshaper opposition and little patience for inaction.",
+        backstory = "A small wooden puzzle once resisted an answer he considered obvious. Setting it aside would have been easier than admitting the answer was poor. Working it out left him with an irritating respect for questions that appear beneath notice.",
+        secret = "He keeps that ordinary puzzle and enjoys seeing someone find a solution he missed. He introduces it as an exercise in concentration, which is only part of the truth.",
+        bestFriend = "Show me where I am wrong, if you can. I would rather discover something with you than be agreed with to no purpose.",
+        favorite = {
+            emote = "NOD",
+            hint = "He values acknowledgment from someone prepared to consider an idea seriously.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Come, then. Let us find something more useful than another reason to wait.", tone = "[assured] [eager]" }, "Good. You are ready to look beyond what you already know." },
+            idle = { { "An ordinary puzzle can be remarkably impertinent about refusing an obvious answer.", tone = "[wry] [thoughtful]" }, "Discovery requires more than admiring the possibility from a distance.", "If the answer is unexpected, that is a reason to look closer." },
+            befriended = { { "You need not agree with every conclusion to be welcome at my side. Bring me a better one, and I will listen.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? I was considering whether the question was as simple as it appeared.", "I am listening. Please let it be an idea rather than another objection to having one." },
+            learned = { { "Now consider where else that knowledge may lead. A first discovery is not a boundary.", tone = "[encouraging] [intent]" } },
+            quest = { "Go and establish it. We have spent enough time deciding it might be interesting." },
+            loot = { "Examine it before deciding you know all that it can tell you." },
+            zone = { "Unfamiliar ground. Precisely the sort worth attending to." },
+            rest = { "A pause need not become an entire philosophy of inaction." },
+            group = { "Several minds. Let us see whether they can produce more than several reasons to delay." },
+            levelUp = { "A step forward. Keep the willingness that made it possible." },
+        },
+    },
+
+    -- Dorii Brightwhisper <Mage Trainer>, Thendal Grove, Zephras. Adult
+    -- High Order female136977:95:1/M2 7478494, Alliance Friendly. Six
+    -- training rows; full92481/referral crystal and shared arrival context.
+    -- Learning a nonmagical whistle is original character writing.
+    -- Research: docs/research/thendal-ley-lines-and-arcane-first-steps.md
+    [251379] = {
+        quote = "There is promise in a first attempt. Let us give it somewhere to go.",
+        likes = { "A beginner returning to try again", "A question asked without shame", "Encouragement that makes room to learn" },
+        dislikes = { "Aptitude mistaken for finished learning", "Mistakes treated as a reason to stop", "A pupil too embarrassed to ask" },
+        gossip = "Dorii has a confident word for a new mage. When she is learning something herself, she appreciates one just as much.",
+        bio = "Dorii Brightwhisper teaches magic in Thendal Grove. Rorian passes her recall crystal to promising initiates, inviting them to begin training. She sees new students as part of the effort to recover arcane knowledge her people have lost.",
+        backstory = "Watching so many first attempts reminded her that being new at something was worth remembering. She chose a small skill with no arcane importance: whistling a clear note. It proved remarkably resistant to a confident explanation.",
+        secret = "She has not mastered that whistle. Occasionally a nearly proper note escapes, and for a moment she is as pleased as any pupil with a first success.",
+        bestFriend = "If you hear a proper note, you may cheer. I shall probably look very pleased before remembering to look dignified.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She welcomes the kind of encouragement that gives a learner heart.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. There is always something worth learning beyond a familiar doorway.", tone = "[warm] [bright]" }, "I am ready. Shall we see what the day can teach us?" },
+            idle = { { "A clear whistle ought to be a small achievement. I am developing considerable respect for it.", tone = "[wry] [gentle]" }, "Confidence is useful. It does not always explain where to put your lips.", "A first success deserves a moment of being enjoyed. There will be time for the next lesson." },
+            befriended = { { "You need not make every visit a demonstration of progress. I am glad you came for my company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Please ask. A question is an excellent beginning.", "Was that a proper note? No? Well, I shall try again later." },
+            learned = { { "There. Remember how the first step felt, even when the later ones come easily.", tone = "[encouraging] [patient]" } },
+            quest = { "Read it through, then ask what is unclear. That is part of doing it well." },
+            questAccepted = { "A new task. Give yourself time to learn what it requires." },
+            levelUp = { "Well done. You may be proud without pretending the learning is finished." },
+            rest = { "A good time to put something difficult down before trying it again." },
+            group = { "Everyone begins somewhere. Let us leave room for the questions." },
+            cheerAlong = { "Thank you. It is pleasant to be encouraged, however small the achievement." },
+        },
+    },
+
     -- Gimrizz Shadowcog <Warlock Trainer>, Kharanos, Dun Morogh. Adult
     -- Gnome male3607/M2 900914, Alliance Friendly. Installed stern training,
     -- nonwarlock and retraining gossip; no own quest found. Not Alamar3115.

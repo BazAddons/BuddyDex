@@ -2401,5 +2401,19 @@
     "zone": "Dun Morogh",
     "source": "Reviewed unique adult identity/model, current Friendly or Neutral access, full available role/related quest context and installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/kharanos-discipline-and-amberstill-humor.md"
+  },
+  {
+    "npc_id": 251371,
+    "name": "Falorne Fallwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed unique adult model, current faction fields, full own/referral quest context and dialogue; Falorne model race separate from allegiance/access; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-ley-lines-and-arcane-first-steps.md"
+  },
+  {
+    "npc_id": 251379,
+    "name": "Dorii Brightwhisper",
+    "zone": "Zephras Isle",
+    "source": "Reviewed unique adult model, current faction fields, full own/referral quest context and dialogue; Falorne model race separate from allegiance/access; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-ley-lines-and-arcane-first-steps.md"
   }
 ]
