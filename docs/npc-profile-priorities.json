@@ -1140,14 +1140,14 @@
       "name": "Tor'gan",
       "zone": "Arathi Highlands",
       "route": "Horde regional shaman quest/bowyer coverage",
-      "reason": "Identity verified; full source/quest comparisons and profile writing pending. See docs/research/torgan-and-muuta-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source comparisons and normal299/300 boundary validation in docs/research/torgan-and-muuta-queue.md"
     },
     {
       "npc_id": 9555,
       "name": "Mu'uta",
       "zone": "Arathi Highlands",
       "route": "Horde regional shaman quest/bowyer coverage",
-      "reason": "Identity verified; full source/quest comparisons and profile writing pending. See docs/research/torgan-and-muuta-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source comparisons and normal299/300 boundary validation in docs/research/torgan-and-muuta-queue.md"
     }
   ]
 }

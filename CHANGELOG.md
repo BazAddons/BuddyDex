@@ -1,4 +1,5 @@
 # Unreleased
+- Add Tor'gan and Mu'uta: full male Troll/Orc Hammerfall profiles, fifteen personal lines and four approved v4 signatures each; research covers Tor'gan's Classic chains and Forever search for Tan'jani.
 - Add Korin Fel and Zengu: full female Orc/male Troll Hammerfall profiles, fifteen personal lines and four approved v4 signatures each, grounded in The Real Threat and the Trol'kalar quest chain.
 - Add Gretta Finespindle and Drum Fel: full female Gnome/male Orc profiles, fifteen personal lines and four approved v4 signatures each; include Gretta's Forever camping lesson and Drum's quest-confirmed relationship with Korin.
 

@@ -79,6 +79,46 @@
     "text": "When you gather the fragments of the broken sigil, take them to Tor'gan. His skill can make them whole again. Do not mistake the pieces for something already ready to use, or a warded tomb for a chest left open. We need the protections answered properly if Trol'kalar is to serve the purpose Vol'jin has given us.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore2706_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2706",
+    "spoken": "[warm] [sincere] [hopeful] You have become someone I am glad to have beside me when an answer does not come easily. Come along, friend. I value your willingness to think, to try, and to return when the first attempt has disappointed us. There is room for laughter as well. If my joke ends differently this time, perhaps we will discover the better version together.",
+    "text": "You have become someone I am glad to have beside me when an answer does not come easily. Come along, friend. I value your willingness to think, to try, and to return when the first attempt has disappointed us. There is room for laughter as well. If my joke ends differently this time, perhaps we will discover the better version together.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2706_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2706",
+    "spoken": "[warm] [resolute] [thoughtful] Welcome, friend. There is still hope here, even among the remains of this old prison. Sometimes it takes more than a story to help someone feel it. Sometimes the first attempt fails. I will think again before I abandon the effort. If you have come to help, let us consider what we can try next.",
+    "text": "Welcome, friend. There is still hope here, even among the remains of this old prison. Sometimes it takes more than a story to help someone feel it. Sometimes the first attempt fails. I will think again before I abandon the effort. If you have come to help, let us consider what we can try next.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2706_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2706",
+    "spoken": "[amused] [conversational] [warm] I remember telling a joke that made someone laugh until I began laughing too. A good result. Unfortunately, I no longer remember the ending that earned it. I have tried several possibilities since then. Some have been very doubtful. Still, one person laughed at my attempt to explain the problem. Perhaps that is another ending worth keeping.",
+    "text": "I remember telling a joke that made someone laugh until I began laughing too. A good result. Unfortunately, I no longer remember the ending that earned it. I have tried several possibilities since then. Some have been very doubtful. Still, one person laughed at my attempt to explain the problem. Perhaps that is another ending worth keeping.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2706_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2706",
+    "spoken": "[concerned] [earnest] [measured] My brother Tan'jani was always searching for something. A traveler brought word of him from south of Loch Modan. Later came a bloodstained letter, with Riverglades and Rog'mar among the few things I could read. I do not know the rest. If you can find him, bring care to the search. A fragment of news leaves much unanswered.",
+    "text": "My brother Tan'jani was always searching for something. A traveler brought word of him from south of Loch Modan. Later came a bloodstained letter, with Riverglades and Rog'mar among the few things I could read. I do not know the rest. If you can find him, bring care to the search. A fragment of news leaves much unanswered.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3184_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

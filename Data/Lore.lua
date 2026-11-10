@@ -41,6 +41,71 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tor'gan, Hammerfall,2706/4047. Adult male Troll, Horde Friendly.
+    --655-847: restores hope to Gor'mul, detects demonic magic;640-641
+    -- reconstructs Thoradin sigil. Forever95143 names brother Tan'jani.
+    -- Joke-telling habit is original; no permanent cure/search outcome.
+    -- Research: docs/research/torgan-and-muuta-queue.md.
+    [2706] = {
+        quote = "One attempt has failed. That tells me to think again. It has not yet persuaded me to abandon someone who needs help.",
+        likes = { "Hope given another honest chance", "A broken thing made useful again", "A laugh that survives a poor telling" },
+        dislikes = { "Demonic power taking root nearby", "A person dismissed after one failure", "A warning treated as idle curiosity" },
+        gossip = "Tor'gan enjoys a listener's laugh even after tangling a joke. He values the result more than a perfect telling.",
+        bio = "Tor'gan works to give Gor'mul hope through shamanistic power, and investigates demonic magic near Hammerfall. He also restores the broken Sigil of Thoradin for Zengu's task. He sees reason for hope even amid the remains of the former prison.",
+        backstory = "In Forever, Tor'gan asks after his brother Tan'jani. A traveler reported him south of Loch Modan. A later, bloodstained letter mentioned Riverglades and Rog'mar, with the rest unreadable. Tor'gan asks a capable adventurer to find him.",
+        secret = "He remembers the laugh from one particularly good telling, but has forgotten how the joke ended. Trying to recover it has produced several very doubtful endings.",
+        bestFriend = "Walk with me, friend. I value your willingness to try again. Perhaps this time we will find the better ending to my joke.",
+        favorite = { emote = "SMILE", hint = "A little sign of returning cheer would hearten someone who keeps looking for hope." },
+        lines = {
+            greet = { { "Welcome, friend. There is still hope here, even among the remains of this old prison. Sometimes it takes more than a story to help someone feel it. Sometimes the first attempt fails. I will think again before I abandon the effort. If you have come to help, let us consider what we can try next.", tone = "[warm] [resolute] [thoughtful]" },
+                "There you are. Have you brought news, or a little time to help me think?" },
+            idle = { { "I remember telling a joke that made someone laugh until I began laughing too. A good result. Unfortunately, I no longer remember the ending that earned it. I have tried several possibilities since then. Some have been very doubtful. Still, one person laughed at my attempt to explain the problem. Perhaps that is another ending worth keeping.", tone = "[amused] [conversational] [warm]" },
+                "A failed attempt calls for thought. I am not ready to call it the last attempt.",
+                "A restored sigil must return to the person who needs it. There is more to helping than admiring the work." },
+            befriended = { { "You have become someone I am glad to have beside me when an answer does not come easily. Come along, friend. I value your willingness to think, to try, and to return when the first attempt has disappointed us. There is room for laughter as well. If my joke ends differently this time, perhaps we will discover the better version together.", tone = "[warm] [sincere] [hopeful]" } },
+            poke = { "Yes, friend? I was considering another approach.", "I am listening. Have you thought of something we have not tried?" },
+            quest = { { "My brother Tan'jani was always searching for something. A traveler brought word of him from south of Loch Modan. Later came a bloodstained letter, with Riverglades and Rog'mar among the few things I could read. I do not know the rest. If you can find him, bring care to the search. A fragment of news leaves much unanswered.", tone = "[concerned] [earnest] [measured]" } },
+            questAccepted = { "Consider what is needed before you begin. A careful effort gives us something useful to build upon." },
+            rest = { "Take a moment. Hope need not ask you to spend every last bit of strength at once." },
+            combatEnd = { "You are here. Let us see what needs tending before another danger claims our attention." },
+            loot = { "Look closely before discarding it. A fragment may still belong to something worth restoring." },
+            laughAlong = { "Good! Whatever happened to the telling, I am pleased with that result." },
+            hearth = { "Back to Hammerfall. There is work there I have not given up on." },
+        },
+    },
+
+    -- Mu'uta <Bowyer>, Hammerfall,9555/8677. Adult male Orc, Horde Friendly.
+    -- Current repair/vendor stock: bows, arrows and quivers; no own quest.
+    -- Wood-shaving mustache is original. No later Hammerfall Down/resupply.
+    -- Research: docs/research/torgan-and-muuta-queue.md.
+    [9555] = {
+        quote = "Need a bow, arrows, or a quiver? Say which. If you came for a magnificent mustache, I might have a shaving of wood that will serve briefly.",
+        likes = { "A bow returned for care before it fails", "A quiver ready for the road", "A good curl in a shaving of wood" },
+        dislikes = { "Damage hidden behind a proud boast", "Setting out without enough arrows", "A fine curl crushed under a boot" },
+        gossip = "Mu'uta held a curled shaving beneath his nose and tried to keep a stern face. His expression lasted less time than the mustache.",
+        bio = "Mu'uta is Hammerfall's bowyer. His wares include bows, arrows, and quivers, and he offers repairs. Fighters preparing to leave the outpost can turn to him for the practical things a grand account of their next battle may have overlooked.",
+        backstory = "A long curl of wood once caught Mu'uta's eye while he worked. Held beneath his nose, it made an impressive mustache. He tried his sternest greeting on a visitor, who laughed. Mu'uta has since enjoyed finding a good curl among the shavings.",
+        secret = "The stern face takes practice. He usually begins laughing before anyone else has seen the mustache. That is why its public appearances are so brief.",
+        bestFriend = "Come along, friend. Tell me what needs attention. And save any fine curls of wood. I have a reputation to improve.",
+        favorite = { emote = "GRIN", hint = "A broad, knowing expression would suit someone whose stern face conceals a ridiculous wooden mustache." },
+        lines = {
+            greet = { { "Need a bow, arrows, or a quiver? Tell me what you came for, and let me see what needs repair before you head out again. A proud story about your next fight can wait until you have the things to meet it. If you caught me examining this curl of wood, the story behind that can wait too.", tone = "[gruff] [businesslike] [wry]" },
+                "Back again? Good. Show me the damage while there is time to do something about it." },
+            idle = { { "A shaving of wood curled so neatly that I held it beneath my nose and tried a stern greeting on a visitor. An impressive mustache. A very short performance. He laughed, and I could not keep the face. I have been practicing. The trouble is remembering the expression before I start enjoying the mustache myself.", tone = "[dryly amused] [playful] [gruff]" },
+                "Careful where you put your boots. That was a fine curl before you flattened it.",
+                "A quiver is easier to prepare here than after you have discovered what you forgot on the road." },
+            befriended = { { "You have become someone I am glad to see without a sale or repair waiting between us. Come along, friend. Tell me plainly when something needs attention, and I will do the same for you. If you happen to find a particularly fine curl of wood, keep it safe. I still mean to finish that stern greeting without laughing.", tone = "[warm] [sincere] [amused]" } },
+            poke = { "Yes? What needs attention?", "I am listening. I was examining the curl, not hiding behind it." },
+            gear = { { "Look over what you need before leaving. Bows, arrows, a quiver, and repairs are practical matters. There is no honor in discovering halfway down the road that you admired your own plans more carefully than your equipment. Show me the damage now. You will have enough to concern you once the next fight begins.", tone = "[instructive] [firm] [gruff]" } },
+            loot = { "Show me the worn part. Admiring the rest will not mend it." },
+            bagsFull = { "Leave room for what you intend to carry. A crowded pack does not make an empty quiver useful." },
+            combatStart = { "Enough talk. You brought what you need, I hope." },
+            rest = { "Now is a good time to check what the last stretch of road has worn down." },
+            laughAlong = { "Ha! I had the stern face ready until you noticed the mustache." },
+            hearth = { "Back to Hammerfall. Let us see what needs putting right." },
+        },
+    },
+
     -- Korin Fel, Hammerfall,2772/4046. Adult female Orc, Horde Friendly.
     --680: Drum's wife; auguries reveal Or'Kalar's trap, she conceals signs
     -- and seeks help. No universal foresight/class title inferred.

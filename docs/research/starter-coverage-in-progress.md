@@ -522,3 +522,8 @@ Completed named adult1466/2771, one Alliance female Gnome trainer and one Horde 
 ### Korin Fel / Zengu:414 profiles
 
 Added2772adult female Orc/2703adult male Troll in Hammerfall, two Horde profiles with fifteen lines/four approved v4 signatures each. Current chain, eleven-fragment change, Korin's difficult protective choice and later-retail exclusion documented in `korin-and-zengu-queue.md`. Public coverage207Alliance/115Horde/99unverified with seven shared overlaps,414unique. No eligibility bypass/quest prerequisite; normal25+150 gains and299/300 Buddy threshold tested. No fabricated Scout sightings. Development v002 remains separate from public upload candidate.
+
+
+### Tor'gan / Mu'uta:416profiles
+
+Completed2706maleTroll/9555maleOrc inHammerfall, fifteenlines/fourapprovedemotion-taggedv4signatures each. Current Classic/Foreverchain/stock/identitylimits and unresolvedTan'janicompletion documented in `torgan-and-muuta-queue.md`; no invented resolution. Coverage207Alliance/117Horde/99unverified,sevensharedoverlaps,416unique. Normal25+150gains/299-300Buddyboundary/gates validated, main23/Scout6pass. Developmentv002 separatefrompreservedpubliccandidate; no fabricatedScout sightings.

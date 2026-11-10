@@ -678,5 +678,45 @@
     "spoken": "[mock-ceremonial flourish, hearty dry humor, cheerful self-awareness] To the putting away of supplies, without which every grand victory would end in an argument about where the food went. No? Too long? I am still working on that one. It deserves a little dignity. People notice a warrior at the gate, but they certainly notice when the shelves behind him are empty.",
     "text": "To the putting away of supplies, without which every grand victory would end in an argument about where the food went. No? Too long? I am still working on that one. It deserves a little dignity. People notice a warrior at the gate, but they certainly notice when the shelves behind him are empty.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9555_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9555",
+    "spoken": "[warm] [sincere] [amused] You have become someone I am glad to see without a sale or repair waiting between us. Come along, friend. Tell me plainly when something needs attention, and I will do the same for you. If you happen to find a particularly fine curl of wood, keep it safe. I still mean to finish that stern greeting without laughing.",
+    "text": "You have become someone I am glad to see without a sale or repair waiting between us. Come along, friend. Tell me plainly when something needs attention, and I will do the same for you. If you happen to find a particularly fine curl of wood, keep it safe. I still mean to finish that stern greeting without laughing.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9555_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:9555",
+    "spoken": "[instructive] [firm] [gruff] Look over what you need before leaving. Bows, arrows, a quiver, and repairs are practical matters. There is no honor in discovering halfway down the road that you admired your own plans more carefully than your equipment. Show me the damage now. You will have enough to concern you once the next fight begins.",
+    "text": "Look over what you need before leaving. Bows, arrows, a quiver, and repairs are practical matters. There is no honor in discovering halfway down the road that you admired your own plans more carefully than your equipment. Show me the damage now. You will have enough to concern you once the next fight begins.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9555_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9555",
+    "spoken": "[gruff] [businesslike] [wry] Need a bow, arrows, or a quiver? Tell me what you came for, and let me see what needs repair before you head out again. A proud story about your next fight can wait until you have the things to meet it. If you caught me examining this curl of wood, the story behind that can wait too.",
+    "text": "Need a bow, arrows, or a quiver? Tell me what you came for, and let me see what needs repair before you head out again. A proud story about your next fight can wait until you have the things to meet it. If you caught me examining this curl of wood, the story behind that can wait too.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9555_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9555",
+    "spoken": "[dryly amused] [playful] [gruff] A shaving of wood curled so neatly that I held it beneath my nose and tried a stern greeting on a visitor. An impressive mustache. A very short performance. He laughed, and I could not keep the face. I have been practicing. The trouble is remembering the expression before I start enjoying the mustache myself.",
+    "text": "A shaving of wood curled so neatly that I held it beneath my nose and tried a stern greeting on a visitor. An impressive mustache. A very short performance. He laughed, and I could not keep the face. I have been practicing. The trouble is remembering the expression before I start enjoying the mustache myself.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
   }
 }
