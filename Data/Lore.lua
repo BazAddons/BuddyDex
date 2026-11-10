@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Xan'tish <Snake Vendor>, Valley of Spirits, Orgrimmar. Adult
+    -- Troll male8404/display7631/M2 1022938, Horde Friendly. Current
+    -- Vendor stock: Black Kingsnake, Brown Snake, Crimson Snake, Jungle
+    -- Boa; no own quests or installed gossip. No later Kor'kron event.
+    -- Formal snake introductions and shy self-introduction are original.
+    -- Research: docs/research/troll-companions-and-camp-supplies.md
+    [8404] = {
+        quote = "A fine companion need not have fur, feathers, or much to say.",
+        likes = { "Curious visitors", "A courteous introduction", "An unhurried look at a snake" },
+        dislikes = { "Scales mistaken for bad temper", "Animals treated as ornaments", "Hands waved without warning" },
+        gossip = "Xan'tish introduces snakes with the dignity of visiting dignitaries. His own introductions are rather less polished.",
+        bio = "Xan'tish is Orgrimmar's Troll Snake Vendor in the Valley of Spirits. Black kingsnakes, brown snakes, crimson snakes and jungle boas are his trade. He sees companions where a startled passerby may see only scales.",
+        backstory = "He began practicing introductions for snakes as though announcing honored guests. Passersby laughed, then looked more closely. He decided a little ceremony was fair payment for a creature so often dismissed.",
+        secret = "He can recommend a snake without a moment of hesitation. Introducing himself to someone he admires leaves him searching for words.",
+        bestFriend = "Let me try the introduction without the performance. I am glad you stopped to know me, too.",
+        favorite = {
+            emote = "BOW",
+            hint = "A little ceremony suits his introductions.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "A distinguished companion joins your distinguished company. That would be me.", tone = "[playful] [warm]" }, "Good to see you, mon. Shall we take a little walk?" },
+            idle = { { "A brown snake deserves a fine introduction too. Color is not character.", tone = "[gentle] [earnest]" }, "Some of the best company says very little.", "I had a splendid introduction ready. It has decided to hide." },
+            befriended = { { "Today I come along for my own company. I am pleased you asked.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You need not make a grand announcement.", "I am listening. Quietly, if you prefer." },
+            newFriend = { { "A new acquaintance! Give them room to make their own introduction.", tone = "[pleased]" } },
+            zone = { "There is always someone who has never looked kindly at a snake." },
+            loot = { "A lovely thing. Do not confuse every lovely thing with a creature to keep." },
+            rest = { "Stillness need not mean unfriendly company." },
+            group = { "I trust there is room for one more interesting companion." },
+            waveBack = { "A friendly greeting. A promising beginning." },
+            comforted = { "Thank you, mon. That needed no introduction at all." },
+        },
+    },
+
+    -- Xen'Zilla, Malaka'jin, Stonetalon Mountains. Adult Troll male
+    -- 12816/display12709/M2 1022938, Horde Friendly. Full standalone
+    -- Blood Feeders6461 text: camp hunt raided, bravado about night
+    -- walks, gratitude. No claim the player already killed the spiders.
+    -- Supper-invitation awkwardness is original BuddyDex writing.
+    -- Research: docs/research/troll-companions-and-camp-supplies.md
+    [12816] = {
+        quote = "Dinner should bring friends to camp, mon. Not things that want to eat the friends.",
+        likes = { "Meals shared with company", "Daylight on the trail", "A boast that earns a laugh" },
+        dislikes = { "Spiders near the camp", "Rustling beside the food", "Being the dinner guest" },
+        gossip = "Xen'Zilla can explain exactly why his evening walk is better postponed until morning. None of his reasons involve fear, naturally.",
+        bio = "Xen'Zilla lives at Malaka'jin in Stonetalon Mountains. Spiders raiding the camps threaten the hunt his people depend on. He asks for help against the blood feeders and is quick to thank those who give it.",
+        backstory = "He used to invent bold explanations for preferring company on a walk. Then he found that friends needed no explanation at all. He still enjoys the bold versions; they are better stories.",
+        secret = "He can deliver an enormous boast without hesitation. Asking a friend to stay for supper takes him three attempts. He does not want to sound lonely.",
+        bestFriend = "Stay for a meal sometime. There, I have asked. No heroic excuse required.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "An invitation can mean more to him than a challenge.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "A walk together? An excellent tactical arrangement, mon.", tone = "[playful] [confident]" }, "Company! I mean, yes, I was already prepared to go." },
+            idle = { { "I have no objection to the dark. I simply prefer to see what is in it.", tone = "[wry]" }, "A good boast leaves everyone smiling, not checking the bushes.", "Perhaps we could share a meal later. If you have nowhere more important to be." },
+            befriended = { { "No grand reason this time. I like your company, and I am glad to have it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was keeping a perfectly casual eye on that movement.", "You have my attention, mon." },
+            quest = { { "Help that keeps a camp fed is worth taking seriously.", tone = "[earnest]" } },
+            rest = { "A rest is good. Better with someone to talk to." },
+            combatStart = { "Watch the sides! I have this side. Probably." },
+            combatEnd = { "Good. Now let us check that nothing else has joined the party." },
+            group = { "The more eyes watching the trail, the finer the journey." },
+            dungeon = { "A narrow passage. There had better not be room for eight legs beside us." },
+            loot = { "A useful find. Let us not leave our supplies for unwanted guests." },
+        },
+    },
+
     -- Falla Sagewind, hill above Wailing Caverns, The Barrens. Adult
     -- Tauren female8418/display7870/M2 986648, current Horde Friendly.
     -- Full Glowing Shard variants and both In Nightmares branches read;

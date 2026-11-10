@@ -2191,5 +2191,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed current adult body and explicit Horde Friendly reaction, complete own tabs, Classic stock/quest variants and installed text; no claimed Scout sighting",
     "research_notes": "docs/research/tauren-shard-and-crafting-supplies.md"
+  },
+  {
+    "npc_id": 8404,
+    "name": "Xan'tish",
+    "zone": "Orgrimmar",
+    "source": "Reviewed current adult model, explicit Horde Friendly access, complete own tabs and Classic/installed role or standalone quest; no claimed Scout sighting",
+    "research_notes": "docs/research/troll-companions-and-camp-supplies.md"
+  },
+  {
+    "npc_id": 12816,
+    "name": "Xen'Zilla",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed current adult model, explicit Horde Friendly access, complete own tabs and Classic/installed role or standalone quest; no claimed Scout sighting",
+    "research_notes": "docs/research/troll-companions-and-camp-supplies.md"
   }
 ]

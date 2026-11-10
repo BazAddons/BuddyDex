@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Xan'tish and Xen'Zilla: full Troll profiles for Orgrimmar's snake vendor and Malaka'jin's camp defender, with thirty personal lines queued.
+- Ground their distinct personalities in verified companion stock and Blood Feeders dialogue while preserving ordinary friendship unlocks and character-local progress.
+
 - Add Falla Sagewind and Mahu: full Tauren profiles spanning the Wailing Caverns onward route and Thunder Bluff crafting supplies, with thirty personal lines queued.
 - Keep Falla's Nightmare investigation unresolved and Mahu's verified supply role distinct from the original personality details unlocked through friendship.
 
@@ -69,4 +72,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **518 fully written NPC profiles**: 454 have initial signature recordings, and sixty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **520 fully written NPC profiles**: 454 have initial signature recordings, and sixty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

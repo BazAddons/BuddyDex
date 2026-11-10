@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Xan'tish and Xen'Zilla: full Troll profiles for Orgrimmar's snake vendor and Malaka'jin's camp defender, with thirty personal lines queued.
+- Ground their distinct personalities in verified companion stock and Blood Feeders dialogue while preserving ordinary friendship unlocks and character-local progress.
+
 - Add Falla Sagewind and Mahu: full Tauren profiles spanning the Wailing Caverns onward route and Thunder Bluff crafting supplies, with thirty personal lines queued.
 - Keep Falla's Nightmare investigation unresolved and Mahu's verified supply role distinct from the original personality details unlocked through friendship.
 
