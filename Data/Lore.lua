@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Grinkle <Fishing Promoter>, Orgrimmar. Adult Goblin male
+    -- 15237/M2 119376, Horde Friendly. Own two promotional gossips;
+    -- historical flier version limits noted. Silent cheer is original.
+    -- Research: docs/research/grinkles-silent-cheer-and-bigglefuzzs-request.md
+    [15116] = {
+        quote = "That was a silent cheer. All the enthusiasm, none of the fish being startled. Yes, I know my face did something unusual. I am still refining the technique.",
+        likes = { "An angler ready for the challenge", "Enthusiasm returned in good company", "A cheer that waits for the right moment" },
+        dislikes = { "An audience departing before the pitch", "Excitement mistaken for preparation", "His silent celebration mistaken for distress" },
+        gossip = "Grinkle has been practicing a cheer that makes no noise. Nobody doubts the enthusiasm. A few people have asked whether he is all right.",
+        bio = "Grinkle is a Goblin fishing promoter in Orgrimmar. He encourages qualified anglers to test themselves in Stranglethorn and warns others that enthusiasm alone will not prepare them for its waters. His own enthusiasm is rarely difficult to detect.",
+        backstory = "He decided a good promoter ought to be able to celebrate without disturbing a waiting angler. The silent cheer proved more difficult than expected. His expression conveyed excitement, though not always the kind he intended.",
+        secret = "He enjoys a friend recognizing the silent cheer before asking whether something hurts. Sharing the joke is almost as pleasing as finding someone who shares his excitement about fishing.",
+        bestFriend = "There you are! Come along, friend. You already understand the expression, so we can begin with a welcome instead of an explanation.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates someone returning the enthusiasm he brings to an occasion.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Come along. A familiar face, excellent company, and no need to explain why I look so enthusiastic. We are off to a fine beginning.", tone = "[buoyant] [welcoming]" }, "Good to see you. Tell me what you have been doing. I can give a perfectly ordinary afternoon an enthusiastic hearing." },
+            idle = { { "A silent cheer. The enthusiasm is clear, the fish remain undisturbed, and only one person has asked whether I need to sit down. An improvement over the previous attempt.", tone = "[showman pride] [comic timing]" }, "Excitement is a fine beginning. Preparation is what keeps an angler able to enjoy the place I have been telling them about.", "You recognized the expression. Excellent. I can stop demonstrating before my face decides it would prefer a different line of work." },
+            befriended = { { "You have become company who understands the enthusiasm and enjoys the person making the pitch. Come along, friend. That deserves a proper cheer.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? That expression was intentional. I am celebrating discreetly.", "Go on. Let me hear your news before deciding how enthusiastically it ought to be announced." },
+            loot = { { "There it is! A fine moment to enjoy the finding. I can provide the enthusiasm while you decide what to do with it.", tone = "[bright] [pleased]" } },
+            rest = { "A quiet pause. I shall attempt to convey my approval without making it the loudest part of the afternoon." },
+            quest = { "Hear what the challenge requires. A splendid introduction cannot replace knowing what you actually need to do." },
+            zone = { "Somewhere different. Let us have a look before I begin describing it as the opportunity you have been waiting for." },
+            newFriend = { "Someone new! Give them room to say hello before the welcome becomes a whole promotional speech." },
+            thanked = { "You are welcome. I am pleased the enthusiasm found somebody ready to enjoy it." },
+            group = { "Room for everyone. A fine occasion improves when the company feels included in the excitement." },
+        },
+    },
+
+    -- Crane Operator Bigglefuzz, Ratchet/Barrens. Adult Goblin male
+    -- 7051/M2 119376, Horde Neutral, positive access unverified.
+    -- Full959 read; practicing a plain request for help is original.
+    -- Research: docs/research/grinkles-silent-cheer-and-bigglefuzzs-request.md
+    [3665] = {
+        quote = "I could use a hand. There, I said it before describing the shipment. You may consider that a small improvement in how this conversation is going.",
+        likes = { "A little help requested in time", "Cargo handled within its limits", "A friend hearing the plain admission" },
+        dislikes = { "Being urged to hurry an overloaded job", "A missing shipment and an impatient superior", "Needing a grand explanation to ask for help" },
+        gossip = "Bigglefuzz has tried a shorter explanation of a difficult job. It begins with admitting that he could use another pair of hands.",
+        bio = "Crane Operator Bigglefuzz works at Ratchet. Rushing a huge Booty Bay shipment, he overloaded the crane and saw the cargo fall. Mad Magglish stole an old bottle of port; Bigglefuzz followed him to Wailing Caverns but would not enter.",
+        backstory = "After another long explanation of how much work lay ahead, he tried stopping before the impressive description. He simply said he could use a hand. The request felt awkward, but easier than defending everything at once.",
+        secret = "He is relieved when a friend lets the plain request stand. He need not make the shipment sound impossible before admitting that he would rather have help with it.",
+        bestFriend = "Come along, friend. I can ask for your company without explaining how much there is to do. I am pleased you are here.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone understanding the straightforward request without making the admission a spectacle.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. I could use the company. See? A perfectly straightforward request, with no need to begin by explaining the size of a shipment.", tone = "[brisk] [relieved warmth]" }, "Good to see you. Tell me how things have been. I would enjoy a conversation that does not begin with someone asking what has gone wrong." },
+            idle = { { "The shipment was enormous. That remains true. It is also true that I tried to move more than I could handle. I am learning to finish both parts of the account.", tone = "[defensive] [candid]" }, "I could use a hand. A short sentence. Remarkable how long an explanation a person can put in front of it.", "You let the request stand without making a performance of the admission. I appreciate that more than another suggestion that I should simply hurry." },
+            befriended = { { "You have become somebody I can ask for company without first proving how difficult the whole day has been. Come along, friend. I am glad you are here.", tone = "[sincere] [relieved]" } },
+            poke = { "Yes? I can give you the short explanation, provided we both allow it to remain short.", "Go on. I would like to hear the request before beginning to worry about the size of it." },
+            loot = { { "Handle that carefully. Getting something found is only the beginning of getting it where it belongs.", tone = "[attentive] [practical]" } },
+            bagsFull = { "That is a good point to stop adding more. Finding room afterward is a less agreeable plan than leaving it in the first place." },
+            quest = { "Hear what needs doing, then say plainly if you will need another pair of hands. An impressive explanation can wait." },
+            rest = { "A pause. The work will be easier to face once we stop pretending that hurrying is the only possible answer." },
+            newFriend = { "Someone new. A simple greeting will do. They need not hear every difficulty before deciding whether to stay and talk." },
+            thanked = { "You are welcome. I am pleased we got the useful part done." },
+            group = { "Enough hands to share the work, if we let each person know what actually needs doing. Let us begin there." },
+        },
+    },
+
     -- Mahren Skyseer, Barrens coast/Tidus Stair. Adult Tauren
     -- female3848/M2 986648, Horde Friendly. Full873/874 and preceding
     -- Jorn context read. Wave-interrupted explanation is original.

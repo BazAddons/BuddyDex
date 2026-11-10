@@ -3745,6 +3745,20 @@
       "zone": "Stormwind City",
       "route": "Dwarven District hunter trainer",
       "reason": "Own hunter/retraining gossip and6076/6722; original dry joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 15116,
+      "name": "Grinkle",
+      "zone": "Orgrimmar",
+      "route": "Fishing promoter",
+      "reason": "Own two gossips and flier version limits; original silent cheer; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3665,
+      "name": "Crane Operator Bigglefuzz",
+      "zone": "The Barrens",
+      "route": "Ratchet docks",
+      "reason": "Full959 including gift and job pressure; original plain request; fifteen personal lines queued without synthesis"
     }
   ]
 }

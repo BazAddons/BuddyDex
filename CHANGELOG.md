@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Grinkle and Crane Operator Bigglefuzz: adult Goblin profiles with thirty personal lines queued.
+- Review fishing-promotion version limits and full stolen-port dialogue; document original silent-cheer and plain-request stories.
+
 - Add Mahren Skyseer and Einris Brightspear: adult Tauren and Dwarf profiles with thirty personal lines queued.
 - Review full coastal-hunt and hunter-referral dialogue, own trainer gossip and complete training tables; document original character scenes.
 

@@ -4,8 +4,8 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 337,
-    "unverified": 165,
-    "horde": 322
+    "unverified": 166,
+    "horde": 323
   },
   "npc_race_counts": {
     "1": 167,
@@ -15,7 +15,7 @@
     "5": 85,
     "4": 66,
     "8": 60,
-    "9": 55,
+    "9": 57,
     "6": 85,
     "96": 26,
     "95": 33
@@ -38,13 +38,13 @@
     "Teldrassil": 26,
     "Hillsbrad Foothills": 10,
     "Arathi Highlands": 11,
-    "Orgrimmar": 52,
+    "Orgrimmar": 53,
     "Badlands": 1,
     "Darkshore": 11,
     "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
-    "The Barrens": 41,
+    "The Barrens": 42,
     "Stonetalon Mountains": 13,
     "Darnassus": 14,
     "Burning Steppes": 1,
@@ -4701,6 +4701,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3658"
     },
     {
+      "npc_id": 3665,
+      "name": "Crane Operator Bigglefuzz",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3665"
+    },
+    {
       "npc_id": 3666,
       "name": "Wizbang Cranktoggle",
       "zone": "Darkshore",
@@ -8544,6 +8555,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14842"
     },
     {
+      "npc_id": 15116,
+      "name": "Grinkle",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15116"
+    },
+    {
       "npc_id": 15165,
       "name": "Haughty Modiste",
       "zone": "Tanaris",
@@ -10103,6 +10127,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 787,
-  "awaiting_signature_audio_profiles": 333
+  "authored_profiles": 789,
+  "awaiting_signature_audio_profiles": 335
 }

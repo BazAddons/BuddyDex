@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Grinkle and Crane Operator Bigglefuzz: adult Goblin profiles with thirty personal lines queued.
+- Review fishing-promotion version limits and full stolen-port dialogue; document original silent-cheer and plain-request stories.
+
 - Add Mahren Skyseer and Einris Brightspear: adult Tauren and Dwarf profiles with thirty personal lines queued.
 - Review full coastal-hunt and hunter-referral dialogue, own trainer gossip and complete training tables; document original character scenes.
 
@@ -483,4 +486,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **787 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **789 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
