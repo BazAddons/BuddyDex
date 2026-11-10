@@ -1098,14 +1098,28 @@
       "name": "Caylais Moonfeather",
       "zone": "Darkshore",
       "route": "Female Night Elf/male Tauren regional flight services",
-      "reason": "Exact current named adult Elite model/Friendly/approved voice checked; full source and Elite session checks pending. See docs/research/caylais-and-tharm-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; actual flight roles and Elite150/450 boundaries, source/original-writing limits in docs/research/caylais-and-tharm-queue.md"
     },
     {
       "npc_id": 4312,
       "name": "Tharm",
       "zone": "Stonetalon Mountains",
       "route": "Female Night Elf/male Tauren regional flight services",
-      "reason": "Exact current named adult Elite model/Friendly/approved voice checked; full source and Elite session checks pending. See docs/research/caylais-and-tharm-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; actual flight roles and Elite150/450 boundaries, source/original-writing limits in docs/research/caylais-and-tharm-queue.md"
+    },
+    {
+      "npc_id": 1466,
+      "name": "Gretta Finespindle",
+      "zone": "Ironforge",
+      "route": "Female Gnome/male Orc training and regional quest coverage",
+      "reason": "Exact current named adult model/Friendly/approved voice verified; actual primary zone checked, full research pending. See docs/research/gretta-and-drumfel-queue.md"
+    },
+    {
+      "npc_id": 2771,
+      "name": "Drum Fel",
+      "zone": "Arathi Highlands",
+      "route": "Female Gnome/male Orc training and regional quest coverage",
+      "reason": "Exact current named adult model/Friendly/approved voice verified; actual primary zone checked, full research pending. See docs/research/gretta-and-drumfel-queue.md"
     }
   ]
 }

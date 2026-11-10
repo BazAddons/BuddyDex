@@ -1426,14 +1426,28 @@
     "npc_id": 3841,
     "name": "Caylais Moonfeather",
     "zone": "Darkshore",
-    "source": "Exact current named adult Elite flight-master model/Friendly/voice checked; full source and tier/session checks pending, no Scout sighting claimed",
+    "source": "Exact current named adult Elite flight-master model/Friendly/voice checked; own relations, full installed gossip, actual Nessa travel-chain context/readable historical letter and era limits documented. Elite boundaries and normal gains validated, no Scout sighting claimed",
     "research_notes": "docs/research/caylais-and-tharm-queue.md"
   },
   {
     "npc_id": 4312,
     "name": "Tharm",
     "zone": "Stonetalon Mountains",
-    "source": "Exact current named adult Elite flight-master model/Friendly/voice checked; full source and tier/session checks pending, no Scout sighting claimed",
+    "source": "Exact current named adult Elite flight-master model/Friendly/voice checked; own relations, full installed gossip, actual Nessa travel-chain context/readable historical letter and era limits documented. Elite boundaries and normal gains validated, no Scout sighting claimed",
     "research_notes": "docs/research/caylais-and-tharm-queue.md"
+  },
+  {
+    "npc_id": 1466,
+    "name": "Gretta Finespindle",
+    "zone": "Ironforge",
+    "source": "Exact current named adult model/Friendly/voice checked; primary zone retained over Gretta parent-map pin. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gretta-and-drumfel-queue.md"
+  },
+  {
+    "npc_id": 2771,
+    "name": "Drum Fel",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult model/Friendly/voice checked; primary zone retained over Gretta parent-map pin. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/gretta-and-drumfel-queue.md"
   }
 ]

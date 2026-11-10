@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Caylais Moonfeather <Hippogryph Master>, Auberdine,3841/1932.
+    -- Adult female Night Elf, Alliance-friendly Elite/Flight Master.
+    -- Actual gossip honors training hippogryphs;6343 return to Rut'theran.
+    -- Formal introductions are original; no later Cataclysm fate/kinship.
+    -- Research: docs/research/caylais-and-tharm-queue.md.
+    [3841] = {
+        quote = "A proud creature deserves a proper introduction. You are about to trust those wings with your journey. A little courtesy is hardly too much to offer.",
+        likes = { "Hippogryphs treated with respect", "A passenger approaching with courtesy", "The familiar strength of a well-kept roost" },
+        dislikes = { "A noble beast treated as luggage", "Hands reaching carelessly for feathers", "Haste that leaves no room for attention" },
+        gossip = "Caylais can make meeting a hippogryph sound like a formal introduction at court. She seems pleased when the traveler takes it seriously.",
+        bio = "Caylais tends Auberdine's hippogryph flights, proud of the swift creatures she trains. Laird directs couriers to her for the return to Rut'theran with his response to Nessa, placing her roost on the path of their fish comparison.",
+        backstory = "A traveler once greeted a waiting hippogryph with a very formal bow. Caylais thought the courtesy entirely appropriate. Since then she has enjoyed making the introduction with enough ceremony to remind a hurried passenger whose wings will carry them.",
+        secret = "She sometimes makes those grand introductions when no traveler is waiting. The birds already know her voice, but she enjoys letting them hear how highly she regards them.",
+        bestFriend = "Come beside me. I am glad to share the roost with someone who sees more than a quick way to the next place. Your company is welcome here.",
+        favorite = { emote = "BOW", hint = "A courteous gesture suits someone who gives a proud creature a very dignified introduction." },
+        lines = {
+            greet = { { "Welcome. Where does your journey lead? Take a moment to greet the hippogryph before thinking only of the distance ahead. These are proud, swift creatures, and training them is an honor. I like a passenger who notices the wings carrying them. A little courtesy makes a very good beginning to the flight.", tone = "[warm] [dignified] [proud]" },
+                "There you are. Shall I make the introductions before we discuss the journey?" },
+            idle = { { "A traveler once bowed very formally to a waiting hippogryph. I thought it an excellent introduction. Since then I have enjoyed giving the occasion a little ceremony. A hurried passenger may discover they are meeting a proud creature, rather than collecting another piece of luggage. I am pleased when they remember the distinction.", tone = "[dignified] [gently amused] [warm]" },
+                "I sometimes make the introduction before a traveler arrives. There is no harm in the birds hearing my good opinion.",
+                "Give a proud creature room to notice you. The journey need not begin with careless hands." },
+            befriended = { { "You have become someone I welcome beside the roost even when there is no journey to arrange. Come along, friend. We can enjoy the company without hurrying to the next destination. If you hear a rather grand introduction while no passenger is waiting, you may smile. I am simply making my good opinion known again.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? I hope we have allowed the introductions their proper moment.", "I am listening. The journey is easier to arrange once I know where you intend to go." },
+            taxi = { { "If Laird has sent you back to Rut'theran, I can help with the flight. Keep his response safe for Nessa, and give your attention to the creature that will carry you. Their questions about the fish may take time to answer. For this part of the journey, we can begin with care and courtesy.", tone = "[instructive] [calm] [warm]" } },
+            landed = { "Back on the ground. I hope you took a moment to appreciate the wings that brought you." },
+            mount = { "Every creature carrying a traveler deserves more consideration than the pack strapped behind them." },
+            quest = { "Carry the message with care. Someone at the other end is waiting to learn what it says." },
+            rest = { "There is time to enjoy the company at the roost before choosing another journey." },
+            laughAlong = { "Yes, a formal introduction. I remain quite satisfied that the occasion deserves it." },
+            hearth = { "Back to Auberdine. I will be glad to hear the familiar sounds of the roost." },
+        },
+    },
+
+    -- Tharm <Wind Rider Master>, Sun Rock Retreat,4312/2411.
+    -- Adult male Tauren, Horde-friendly Elite/Flight Master; actual gossip
+    -- asks destination. No own quest found, no retail route list imported.
+    -- Familiar shapes in clouds are original, not weather predictions.
+    -- Research: docs/research/caylais-and-tharm-queue.md.
+    [4312] = {
+        quote = "Where would you like to go? Take a moment to decide. While you consider the road ahead, I am considering whether that cloud has the shape of a kodo.",
+        likes = { "A destination chosen without a rush", "A familiar shape found in the sky", "Travelers sharing what they noticed" },
+        dislikes = { "A nervous traveler hurried into silence", "The view dismissed before it is enjoyed", "Treating every cloud as a prediction" },
+        gossip = "Tharm finds a kodo in a surprising number of clouds. He will hear another opinion, especially if the sky offers a second candidate.",
+        bio = "Tharm keeps the wind rider flights at Sun Rock Retreat in the Stonetalon Mountains. His greeting asks where a traveler wishes to fly. The choice begins a practical conversation, with a chance to look up before the journey carries them away.",
+        backstory = "While a traveler considered a destination, Tharm noticed a cloud shaped rather like a kodo. The traveler saw something else. He enjoyed hearing the explanation and has since liked asking what another person sees when there is time to watch the sky.",
+        secret = "He sometimes sees a different shape as soon as someone explains it. He may still defend his first kodo for a moment, simply to keep the conversation going.",
+        bestFriend = "Walk beside me, friend. Tell me what you see up there. I enjoy the sky more when there is someone willing to share a different view.",
+        favorite = { emote = "CHEER", hint = "A little enthusiasm is welcome to someone who enjoys sharing a discovery in the sky." },
+        lines = {
+            greet = { { "Where would you like to fly? Take a moment if you have not decided. The journey begins more comfortably when you can say what you want from it. While you consider that, look at the cloud above us. I think there is a kodo in it. You may have another suggestion worth hearing.", tone = "[warm] [steady] [gently amused]" },
+                "Welcome back. Have you a destination in mind, or a different opinion about the clouds?" },
+            idle = { { "A traveler once saw something quite different in a cloud I had decided was a kodo. After hearing the explanation, I could see it too. I defended my kodo for another moment. The conversation was pleasant, and the cloud was changing quickly enough that we might both have been right before we finished speaking.", tone = "[reflective] [amused] [unhurried]" },
+                "A shape in a cloud is something to enjoy. I am not offering a weather forecast.",
+                "The sky looks different when someone tells you what caught their eye." },
+            befriended = { { "You have become someone whose view I am glad to hear before another journey needs arranging. Come along, friend. Tell me what you notice above the road. I may begin by finding another kodo, but I will listen to your explanation. There is pleasure in seeing something familiar change when a friend looks at it differently.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes, friend? Have you spotted something?", "I am listening. You may persuade me that it is not another kodo." },
+            taxi = { { "Choose where you wish to go, then give yourself time to settle before the flight. If you have a question, ask it. A nervous traveler need not pretend that everything is already understood. There will be plenty to notice along the way. I hope you find something in the view worth telling another person about afterward.", tone = "[steady] [reassuring] [warm]" } },
+            landed = { "Back on the ground. What did you notice while the world was passing beneath you?" },
+            mount = { "Another way to travel. There is still a sky to look at above the road." },
+            zone = { "Different ground below us. I wonder what shapes the clouds will offer here." },
+            rest = { "We can watch a while without requiring the sky to give us an answer." },
+            laughAlong = { "Yes, another kodo. I am willing to admit a certain preference." },
+            hearth = { "Back toward Sun Rock Retreat. I hope someone has a new view to share." },
+        },
+    },
+
     -- Hannah Akeley <Reagent Supplier>, Undercity,4575/2663.
     -- Adult female Forsaken, Horde-friendly Vendor,17 current reagents.
     -- Published Scourge alerts are event text, not a personal battle story.

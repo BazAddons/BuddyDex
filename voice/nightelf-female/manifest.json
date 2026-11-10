@@ -199,6 +199,46 @@
     "text": "You have learned something worth carrying with you. Give it thought, and consider where it may help another person. There will be more to understand in time. For now, take care with what you know, and do not be afraid to return with another question.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore3841_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3841",
+    "spoken": "[warm] [sincere] [gently amused] You have become someone I welcome beside the roost even when there is no journey to arrange. Come along, friend. We can enjoy the company without hurrying to the next destination. If you hear a rather grand introduction while no passenger is waiting, you may smile. I am simply making my good opinion known again.",
+    "text": "You have become someone I welcome beside the roost even when there is no journey to arrange. Come along, friend. We can enjoy the company without hurrying to the next destination. If you hear a rather grand introduction while no passenger is waiting, you may smile. I am simply making my good opinion known again.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3841_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3841",
+    "spoken": "[warm] [dignified] [proud] Welcome. Where does your journey lead? Take a moment to greet the hippogryph before thinking only of the distance ahead. These are proud, swift creatures, and training them is an honor. I like a passenger who notices the wings carrying them. A little courtesy makes a very good beginning to the flight.",
+    "text": "Welcome. Where does your journey lead? Take a moment to greet the hippogryph before thinking only of the distance ahead. These are proud, swift creatures, and training them is an honor. I like a passenger who notices the wings carrying them. A little courtesy makes a very good beginning to the flight.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3841_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3841",
+    "spoken": "[dignified] [gently amused] [warm] A traveler once bowed very formally to a waiting hippogryph. I thought it an excellent introduction. Since then I have enjoyed giving the occasion a little ceremony. A hurried passenger may discover they are meeting a proud creature, rather than collecting another piece of luggage. I am pleased when they remember the distinction.",
+    "text": "A traveler once bowed very formally to a waiting hippogryph. I thought it an excellent introduction. Since then I have enjoyed giving the occasion a little ceremony. A hurried passenger may discover they are meeting a proud creature, rather than collecting another piece of luggage. I am pleased when they remember the distinction.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore3841_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:3841",
+    "spoken": "[instructive] [calm] [warm] If Laird has sent you back to Rut'theran, I can help with the flight. Keep his response safe for Nessa, and give your attention to the creature that will carry you. Their questions about the fish may take time to answer. For this part of the journey, we can begin with care and courtesy.",
+    "text": "If Laird has sent you back to Rut'theran, I can help with the flight. Keep his response safe for Nessa, and give your attention to the creature that will carry you. Their questions about the fish may take time to answer. For this part of the journey, we can begin with care and courtesy.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore3955_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

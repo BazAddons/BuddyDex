@@ -639,6 +639,46 @@
     "text": "I once called a traveler back three times before he managed to leave. Food for the road, a direction he had asked about, and something else that seemed important. Then I went outside and forgot my own errand. Remembered it while saying farewell to the next person. A well-practiced habit.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore4312_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4312",
+    "spoken": "[warm] [sincere] [gently amused] You have become someone whose view I am glad to hear before another journey needs arranging. Come along, friend. Tell me what you notice above the road. I may begin by finding another kodo, but I will listen to your explanation. There is pleasure in seeing something familiar change when a friend looks at it differently.",
+    "text": "You have become someone whose view I am glad to hear before another journey needs arranging. Come along, friend. Tell me what you notice above the road. I may begin by finding another kodo, but I will listen to your explanation. There is pleasure in seeing something familiar change when a friend looks at it differently.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore4312_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4312",
+    "spoken": "[warm] [steady] [gently amused] Where would you like to fly? Take a moment if you have not decided. The journey begins more comfortably when you can say what you want from it. While you consider that, look at the cloud above us. I think there is a kodo in it. You may have another suggestion worth hearing.",
+    "text": "Where would you like to fly? Take a moment if you have not decided. The journey begins more comfortably when you can say what you want from it. While you consider that, look at the cloud above us. I think there is a kodo in it. You may have another suggestion worth hearing.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore4312_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4312",
+    "spoken": "[reflective] [amused] [unhurried] A traveler once saw something quite different in a cloud I had decided was a kodo. After hearing the explanation, I could see it too. I defended my kodo for another moment. The conversation was pleasant, and the cloud was changing quickly enough that we might both have been right before we finished speaking.",
+    "text": "A traveler once saw something quite different in a cloud I had decided was a kodo. After hearing the explanation, I could see it too. I defended my kodo for another moment. The conversation was pleasant, and the cloud was changing quickly enough that we might both have been right before we finished speaking.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore4312_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:4312",
+    "spoken": "[steady] [reassuring] [warm] Choose where you wish to go, then give yourself time to settle before the flight. If you have a question, ask it. A nervous traveler need not pretend that everything is already understood. There will be plenty to notice along the way. I hope you find something in the view worth telling another person about afterward.",
+    "text": "Choose where you wish to go, then give yourself time to settle before the flight. If you have a question, ask it. A nervous traveler need not pretend that everything is already understood. There will be plenty to notice along the way. I hope you find something in the view worth telling another person about afterward.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore6410_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

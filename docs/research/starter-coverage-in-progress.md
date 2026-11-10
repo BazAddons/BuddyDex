@@ -505,3 +505,10 @@ Next individually checked [Hannah and Shay](hannah-and-shay-queue.md), adult fem
 408 authored profiles. Adult female/male Forsaken Horde services,15 personal lines/four approved v4 signatures each. [Sources/writing/validation](hannah-and-shay-queue.md) keeps actual diverse reagent stock/inn welcome distinct from original counter/floorboard humor; no personal rituals, future invasion or Shay Leafrunner story invented. Lore21lines each, full smoke/two fresh Horde sessions passed, eight exact audio mappings verified. Friendly coverage Alliance205/Horde111/unverified99 with seven shared overlaps. Installed/dev ZIP6166files/6138mappings/124.94MiB. No live visual/listening claim, CF deferred/original candidate preserved.
 
 Next individually verified [Caylais and Tharm](caylais-and-tharm-queue.md), adult female Night Elf/male Tauren Elite flight masters. Actual Elite tier scaling must be tested, no normal-class fixture substitution. Neither counted complete; wider1510-name pool and earlier explicit source gaps remain active.
+
+
+## 2026-11-09: Caylais Moonfeather and Tharm
+
+410 completed authored profiles. Adult female Night Elf/male Tauren Elite flight masters,15 personal lines/four approved v4 signatures each. [Research/validation](caylais-and-tharm-queue.md) preserves actual roost/travel roles and excludes later retail deaths/routes. Lore21lines each/full smoke/separate fresh faction sessions passed. Actual stored Elite,150Acquaintance/450Buddy boundaries verified;449companion rejected/450recorded welcome, normal25+150gains unchanged. Friendly coverage Alliance206/Horde112/unverified99, seven shared overlap. Installed/dev ZIP6174files/6146mappings/125.50MiB, original CF candidate hash unchanged/no publish. No live visual/listening claim.
+
+Next individually verified [Gretta and Drum Fel](gretta-and-drumfel-queue.md), adult female Gnome/male Orc trainer/regional quest candidates, neither complete. Gretta current Journeyman Leatherworker and primary Ironforge override remembered Skinning role/parent-map assumptions. Wider1510-name pool and earlier source gaps remain active.
