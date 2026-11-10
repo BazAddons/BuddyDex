@@ -3451,5 +3451,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult Dwarf woman, Alliance Friendly; full305/306and actual three-page2639letter, direct Classic excavation context; verified husband/rescuer separated from original homecoming hope; no Scout sighting claimed",
     "research_notes": "docs/research/anvilmar-greetings-and-merrins-letter.md"
+  },
+  {
+    "npc_id": 5724,
+    "name": "Ageron Kargal",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Forsaken man, Horde Friendly; full1478/1473/1471handoff and grimoire metadata; referral distinguished from Carendin teaching and original encouraging opening; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-invitations-and-tarren-mill-command.md"
+  },
+  {
+    "npc_id": 2215,
+    "name": "High Executor Darthalia",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult Forsaken woman, Horde Friendly; seven campaign stages, all bounties and scout continuation, three registry pages and exact installed gossip; original private trust distinguished from canonical ruthlessness; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-invitations-and-tarren-mill-command.md"
   }
 ]

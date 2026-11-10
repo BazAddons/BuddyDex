@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ageron Kargal and High Executor Darthalia: two full adult Forsaken profiles with thirty personal lines queued.
+- Research the complete voidwalker handoff, seven-stage Hillsbrad campaign, bounties, new scout branch and full registry while preserving their distinct roles and allegiances.
+
 - Add Marryk Nurribit and Merrin Rockweaver: two full adult Alliance profiles with thirty personal lines queued.
 - Research the actual Glyphic Memorandum, all three Merrin letter pages and full early/correspondence quest context without importing later storylines.
 

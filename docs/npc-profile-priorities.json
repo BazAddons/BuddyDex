@@ -3122,6 +3122,20 @@
       "zone": "Wetlands",
       "route": "Whelgar excavation correspondence",
       "reason": "Complete adult Alliance profile with fifteen personal lines queued; full correspondence, actual three-page letter and original hope of homecoming; no synthesis"
+    },
+    {
+      "npc_id": 5724,
+      "name": "Ageron Kargal",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Halgar referral",
+      "reason": "Complete adult Horde Forsaken profile with fifteen lines queued; full three-stage Halgar handoff and original encouraging message; no synthesis"
+    },
+    {
+      "npc_id": 2215,
+      "name": "High Executor Darthalia",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill Forsaken command",
+      "reason": "Complete adult Horde Forsaken profile with fifteen lines queued; full Hillsbrad campaign/bounties/scout branch and original earned private company; ruthless allegiance retained; no synthesis"
     }
   ]
 }

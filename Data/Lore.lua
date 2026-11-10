@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ageron Kargal, Gallows' End Tavern, Brill. Adult Forsaken male
+    -- 4107/M2 959310, Horde Friendly. Full1478/1473/1471chain read;
+    -- Ageron refers, Carendin instructs. Encouraging news preceding a
+    -- solemn title is original; no new training role or grimoire lore.
+    -- Research: docs/research/brill-invitations-and-tarren-mill-command.md
+    [5724] = {
+        quote = "A summons can be good news. Give me a moment to tell you who has asked to see you.",
+        likes = { "An opportunity properly recognized", "A learner allowed to enjoy good news", "A greeting before the formal message" },
+        dislikes = { "A useful summons mistaken for a sentence", "An important name buried beneath a speech", "Bragging before the instruction begins" },
+        gossip = "Ageron has learned to put the encouraging part of a summons first. A solemn opening can make a promising invitation sound alarmingly final.",
+        bio = "Ageron Kargal stays in Brill's Gallows' End Tavern. He carries word that Carendin Halgar wishes to instruct a promising warlock, directing the learner to the Magic Quarter near the Temple of the Damned.",
+        backstory = "He once began a promising invitation so solemnly that the listener braced for bad news. Explaining the opportunity changed the whole greeting. Since then, he has preferred to let congratulations arrive before the imposing title.",
+        secret = "He enjoys seeing someone realize the message gives them a reason for pride. In a place with so many grim arrivals, conveying a little anticipation is a pleasure he keeps for himself.",
+        bestFriend = "Come along, friend. Today I am pleased to see you for the company. There is time to enjoy the greeting before any message follows.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates someone recognizing an encouraging opportunity before worrying about the impressive name attached to it.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. Come along. I am pleased to see you, and that is the beginning of the greeting. We can allow the rest to follow at its own pace.", tone = "[reserved] [welcoming]" }, "Ready. A promising invitation deserves a moment of being enjoyed before someone begins worrying about the title at the other end." },
+            idle = { { "I once made an encouraging summons sound like very bad news. A solemn opening can do that. I now prefer to let the congratulations arrive before the imposing title.", tone = "[dry] [amused]" }, "Carendin Halgar's interest is something a learner can take pride in. That pride should still leave room for the instruction to come.", "A message is easier to understand when its most useful part arrives before the speaker has finished admiring the introduction." },
+            befriended = { { "You have become a friend I am glad to greet without an assignment ready to explain. Come along. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. You may begin with the part you actually came to say.", "You have my attention. Take a moment. A quiet beginning can still lead to useful news." },
+            learned = { { "An opportunity taken. Be pleased with what you have learned, then leave room for what the next teacher can show you.", tone = "[approving] [measured]" } },
+            quest = { "Hear who is asking and where they expect you. A grand name is easier to appreciate when you arrive at the right door." },
+            mail = { "Read it through. The first solemn line may be preparing you for better news than you expected." },
+            zone = { "Find your bearings. A direction toward an important place is most useful when you also know where you are starting." },
+            rest = { "A pause. We can enjoy the company before deciding whether there is anything important enough to announce." },
+            group = { "Let everyone hear the message. A useful invitation should reach more than the person quickest to stand in front of the speaker." },
+            thanked = { "You are welcome. I was pleased to bring the news. Seeing it properly understood is a satisfactory part of the work." },
+        },
+    },
+
+    -- High Executor Darthalia, Tarren Mill, Hillsbrad. Adult Forsaken
+    -- female1645/M2 997378, Horde Friendly. Full seven-stage campaign,
+    -- three bounties,494/98094/98095and three registry pages read.
+    -- Quiet company after a report is original; ruthless allegiance retained.
+    -- Research: docs/research/brill-invitations-and-tarren-mill-command.md
+    [2215] = {
+        quote = "State the result. I will decide whether it warrants praise.",
+        likes = { "A report with its result plainly stated", "Orders carried out without theatrics", "Reliability beneath an earned reputation" },
+        dislikes = { "An inflated tale concealing an omission", "The Alliance delaying her campaign", "A subordinate demanding idle attention" },
+        gossip = "Darthalia can make permission to stand at ease feel earned. Being allowed to remain without a report is a rarer distinction.",
+        bio = "High Executor Darthalia directs Tarren Mill's Forsaken forces for Sylvanas and Varimathras. Her Hillsbrad campaign targets farms, fleeing peasants, town leaders and mines, then turns against the dwarves at Dun Garok.",
+        backstory = "Lesh's reconnaissance gives her an opening to attack. She follows the food supply through the forge, council and mine, using the captured registry for further targets. Service that meets her expectations can earn a sealed commendation to Varimathras.",
+        secret = "She has noticed that a trusted person's quiet presence can be welcome after the report is finished. Allowing that person to stay is easier than explaining why she permits it.",
+        bestFriend = "At ease. Stay a while. Your presence has earned its place, and I am willing to hear what you came to say.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She expects a disciplined acknowledgment from someone who understands that permission to relax is hers to give.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "You have arrived. Come with me. State what requires attention, and keep the result where I can find it in the report.", tone = "[commanding] [controlled]" }, "Ready. Your reputation has brought you this far. Maintain the reliability beneath it." },
+            idle = { { "A trusted person can remain after the report is finished. I have found the quiet presence tolerable. You may regard the permission to stay as the explanation.", tone = "[reserved] [dry]" }, "Hillsbrad's farms, forge, council and mine are parts of the same campaign. Removing one obstacle does not make the others cease to matter.", "A sealed commendation carries the high command's attention. Earned praise should be as deliberate as the orders that preceded it." },
+            befriended = { { "You have earned my trust through the time you have spent beside me. At ease, friend. Stay. I am willing to hear your account without requiring a formal report first.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? Give the interruption a purpose. I am listening.", "You have my attention. Keep what matters clear, and I will decide what follows." },
+            quest = { { "Hear the complete assignment. A captured registry can reveal the next target. A useful campaign continues beyond the first report of success.", tone = "[cold] [precise]" } },
+            saluteBack = { "Acknowledged. Discipline should remain when the gesture is finished. Carry that understanding with you." },
+            group = { "Confirm that everyone understands their part. A collection of confident individuals still requires coordination." },
+            combatEnd = { "Report the outcome. We will assess the position before deciding the next move." },
+            loot = { "Examine what was recovered. Information and supplies may serve the next stage of the campaign." },
+            rest = { "At ease for the moment. Use the pause well. I will tell you when there is further business to address." },
+            thanked = { "Acknowledged. Retain what proved useful, and be ready when it is required again." },
+        },
+    },
+
     -- Marryk Nurribit, Anvilmar, Coldridge Valley. Adult Gnome male
     -- 10216/M2 900914, Alliance Friendly. Full179/3114and one-page
     -- 9573memorandum read; six Classic lessons/three installed greetings.

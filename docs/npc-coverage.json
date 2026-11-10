@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 294,
     "unverified": 157,
-    "horde": 269
+    "horde": 271
   },
   "npc_race_counts": {
     "1": 167,
     "3": 57,
     "7": 49,
     "2": 78,
-    "5": 72,
+    "5": 74,
     "4": 55,
     "8": 55,
     "9": 43,
@@ -31,12 +31,12 @@
     "Wetlands": 3,
     "Ironforge": 53,
     "Stranglethorn Vale": 5,
-    "Tirisfal Glades": 43,
+    "Tirisfal Glades": 44,
     "Undercity": 14,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 24,
-    "Hillsbrad Foothills": 6,
+    "Hillsbrad Foothills": 7,
     "Arathi Highlands": 11,
     "Orgrimmar": 47,
     "Badlands": 1,
@@ -2336,6 +2336,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2214"
+    },
+    {
+      "npc_id": 2215,
+      "name": "High Executor Darthalia",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2215"
     },
     {
       "npc_id": 2226,
@@ -5808,6 +5821,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5695"
     },
     {
+      "npc_id": 5724,
+      "name": "Ageron Kargal",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5724"
+    },
+    {
       "npc_id": 5749,
       "name": "Kayla Smithe",
       "zone": "Tirisfal Glades",
@@ -8945,6 +8971,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 698,
-  "awaiting_signature_audio_profiles": 244
+  "authored_profiles": 700,
+  "awaiting_signature_audio_profiles": 246
 }
