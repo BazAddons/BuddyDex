@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Adlin Pridedrift and Cain Firesong: two complete adult profiles with thirty personal lines queued.
+- Expand Coldridge Valley general-supply and Brill mage contacts, using researched class referrals and distinct original character stories.
+
 - Add Bethaine Flinthammer and Je'lu: two complete adult profiles with thirty personal lines queued.
 - Expand Alliance Dwarf stable-service and Horde Troll wanderer coverage in Wetlands and Desolace, with distinct original character stories.
 

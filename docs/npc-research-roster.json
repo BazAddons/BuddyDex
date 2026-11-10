@@ -3220,5 +3220,19 @@
     "zone": "Desolace",
     "source": "Reviewed adult Dwarf woman / Troll man, explicit faction Friendly; all relationship tabs and installed gossip absence checked; no Scout sighting claimed",
     "research_notes": "docs/research/menethil-ears-and-desolace-announcements.md"
+  },
+  {
+    "npc_id": 829,
+    "name": "Adlin Pridedrift",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Dwarf / Forsaken men, explicit faction Friendly; all relationship tabs and installed dialogue checked; full mage referral chains read; no Scout sighting claimed",
+    "research_notes": "docs/research/coldridge-weather-and-brill-warnings.md"
+  },
+  {
+    "npc_id": 2128,
+    "name": "Cain Firesong",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Dwarf / Forsaken men, explicit faction Friendly; all relationship tabs and installed dialogue checked; full mage referral chains read; no Scout sighting claimed",
+    "research_notes": "docs/research/coldridge-weather-and-brill-warnings.md"
   }
 ]

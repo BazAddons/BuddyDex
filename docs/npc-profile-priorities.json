@@ -2891,6 +2891,20 @@
       "zone": "Desolace",
       "route": "Southwestern Desolace named Horde resident",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original ear-sketch or ceremonial-announcement writing; no synthesis"
+    },
+    {
+      "npc_id": 829,
+      "name": "Adlin Pridedrift",
+      "zone": "Dun Morogh",
+      "route": "Coldridge Valley general supplies",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original snow-journal or cushion-warning writing; no synthesis"
+    },
+    {
+      "npc_id": 2128,
+      "name": "Cain Firesong",
+      "zone": "Tirisfal Glades",
+      "route": "Brill early Forsaken Mage contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original snow-journal or cushion-warning writing; no synthesis"
     }
   ]
 }

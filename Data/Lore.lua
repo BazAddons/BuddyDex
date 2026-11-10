@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Adlin Pridedrift <General Supplies>, Coldridge Valley, Dun Morogh.
+    -- Adult Dwarf male3388/M2 878772, Alliance Friendly. All11current
+    -- goods/four Classic goods read; no own quests or installed gossip.
+    -- Weather journal is original; no Nori kinship inferred.
+    -- Research: docs/research/coldridge-weather-and-brill-warnings.md
+    [829] = {
+        quote = "Snow, snow, and snow coming in sideways. I am beginning to see a pattern in my weather journal.",
+        likes = { "A traveler choosing what they need", "A dry place to consider the weather", "An honest description of a cold morning" },
+        dislikes = { "Calling a novice's question foolish", "Packing a whole shop for a short walk", "Pretending sideways snow is something new" },
+        gossip = "Adlin keeps a weather journal in Coldridge Valley. Most entries say snow. He considers the longer entries important distinctions.",
+        bio = "Adlin Pridedrift sells general supplies in Coldridge Valley, Dun Morogh. Bread, water, ammunition and gathering tools share his stock with apprentice herb, mining and skinning bags. He is one of the valley's early stops for travelers preparing to set out.",
+        backstory = "He began noting the weather to see whether one morning really differed from the next. The entries were very similar. Rather than abandon the journal, he became more particular about whether the snow fell quietly, briskly or sideways.",
+        secret = "He left room for a grand entry about entirely different weather. So far, his finest variation is snow arriving from a particularly inconvenient direction.",
+        bestFriend = "Come along. You may describe the weather today. I would enjoy another opinion, even if we both settle on snow.",
+        favorite = {
+            emote = "NOD",
+            hint = "He enjoys someone recognizing an ordinary observation without requiring a grander account of the morning.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have described the weather already, but I left room for a second opinion on which direction it is taking.", tone = "[warm] [wry]" }, "Ready. Have a look at what you actually need before deciding the whole shop ought to come with you." },
+            idle = { { "Snow. Snow again. Snow coming in sideways. My weather journal makes very useful distinctions once you stop expecting a completely different subject.", tone = "[matter-of-fact] [amused]" }, "A pick and a clear idea of where you put it can be more useful than carrying three tools you never meant to use.", "Ask the ordinary question. Everyone sets out for the first time at some point." },
+            befriended = { { "You took time over the small preparations and stayed to hear the weather report. Come along, friend. I would welcome your company on the next stretch.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If the snow has changed direction, say so. I do try to keep the record accurate.", "I hear you. Tell me what you need before we make the simple part of leaving into another expedition." },
+            bagsFull = { { "Decide which things you meant to carry. Being prepared and taking everything within reach can begin to look uncomfortably similar.", tone = "[practical] [gently amused]" } },
+            loot = { "A useful find, perhaps. Put it where you will remember looking when it becomes useful." },
+            rest = { "A pause. We can describe the cold perfectly well while giving our feet a little less work." },
+            zone = { "New surroundings. I shall resist completing the weather entry before looking at the sky." },
+            gear = { "Check what you will actually use. A fine piece of equipment still needs someone who remembers bringing it." },
+            mail = { "See who sent it before leaving it among the supplies. An ordinary message deserves to reach the person it was meant for." },
+            thanked = { "You are welcome. I am pleased the preparations helped, even if the weather declined to cooperate." },
+        },
+    },
+
+    -- Cain Firesong <Mage Trainer>, Brill, Tirisfal Glades. Adult
+    -- Forsaken male1600/M2 959310, Horde Friendly. Three installed
+    -- dialogues and1881/1882/1959/1960/1961/1962 full chains read.
+    -- Current own tabs empty, historical referral not a live quest promise.
+    -- Cushion warning is original; no Larah kinship or later events.
+    -- Research: docs/research/coldridge-weather-and-brill-warnings.md
+    [2128] = {
+        quote = "The warning on the cushion is a private joke. The warnings about magic are considerably less optional.",
+        likes = { "A student who hears the whole warning", "A precise question before a dangerous guess", "A dry joke allowed to remain dry" },
+        dislikes = { "Treating ignorance as protection from magic", "An old mistake repeated with confidence", "A warning dismissed before it is understood" },
+        gossip = "Cain has considered putting a warning on a cushion. His students are not entirely certain whether they should laugh.",
+        bio = "Cain Firesong teaches mages in Brill, in Tirisfal Glades. He warns other travelers that magic can harm the untrained. His early referral sends a promising mage to Anastasia Hartwell in the Undercity's Magic Quarter for a first Forsaken assignment.",
+        backstory = "After another earnest warning about dangerous magic, he imagined a warning for something that needed none. A cushion seemed suitable. The more carefully he described its entirely ordinary risks, the more the exercise entertained him.",
+        secret = "The cushion's warning says it may encourage sitting. He has no intention of reading it aloud during a lesson. Discovering who notices the joke is more satisfying.",
+        bestFriend = "Come along. I trust you to hear a warning before making the mistake, and to recognize a joke without requiring a demonstration.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone quietly catching a very dry joke without mistaking it for the whole lesson.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You have arrived. Good. Shall we go? I assume you will hear the warning before deciding whether you already know the subject.", tone = "[dry] [measured]" }, "Ready. We can proceed without making your lack of preparation the most interesting event of the day." },
+            idle = { { "I considered a warning for a cushion. May encourage sitting. Entirely accurate, thoroughly unnecessary. The warnings about magic deserve rather more attention.", tone = "[deadpan] [quietly amused]" }, "Magic does not become harmless because the person approaching it has no training. That is a poor theory to test with your own fingers.", "If Anastasia has asked for information, bring information. An impressive guess is still a guess." },
+            befriended = { { "You listen before repeating a mistake, and you recognize when I am making a joke. Come along, friend. Both are qualities I can appreciate.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? State the question. We may discover it is safer than the conclusion you were about to reach without asking.", "I hear you. If this concerns the cushion, its warning remains accurate and its lesson remains exceedingly brief." },
+            learned = { { "Understand what changed before attempting it again. Repetition is useful only when it is doing more than preserving the same error.", tone = "[stern] [precise]" } },
+            quest = { "Hear the actual request. A referral is not permission to decide what the next instructor intended before meeting her." },
+            loot = { "Look before assuming you understand it. Familiar appearances are capable of concealing a rather inconvenient lesson." },
+            combatEnd = { "It is over. Consider which part you controlled and which part merely failed to become worse." },
+            rest = { "A pause. The imaginary warning did allow for sitting. You need not prove its accuracy by falling over." },
+            group = { "Let the question be heard. An unanswered misunderstanding does not become less dangerous because more people share it." },
+            thanked = { "You are welcome. Remembering the useful part later will be a perfectly adequate acknowledgment." },
+        },
+    },
+
     -- Bethaine Flinthammer <Stable Master>, Menethil Harbor, Wetlands.
     -- Adult Dwarf female9264/M2 950080, Alliance Friendly. No own linked
     -- quests or installed gossip; ear sketches are original fiction.
