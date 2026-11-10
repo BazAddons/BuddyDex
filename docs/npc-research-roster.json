@@ -4165,5 +4165,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Full361 and installed completion; original ordinary-walk conversation; no Scout sighting claimed",
     "research_notes": "docs/research/darnath-borstan-and-yvette.md"
+  },
+  {
+    "npc_id": 6301,
+    "name": "Gorbold Steelhand",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance man; Full982/97894 and own gossip; original reply to brother; no Scout sighting claimed",
+    "research_notes": "docs/research/gorbolds-reply-and-lozgils-copper.md"
+  },
+  {
+    "npc_id": 4631,
+    "name": "Wharfmaster Lozgil",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult unverified man; Full sponsorship and Forever courier chains; original imaginary restraint tally; no Scout sighting claimed",
+    "research_notes": "docs/research/gorbolds-reply-and-lozgils-copper.md"
   }
 ]

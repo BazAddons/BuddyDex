@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gorbold Steelhand and Wharfmaster Lozgil: adult Dwarf and Goblin profiles with thirty personal lines queued.
+- Review Auberdine loss and family text, the full sponsorship chain, and Forever courier quests; document original letter and imaginary-copper scenes.
+
 - Add Darnath Bladesinger, Borstan, and Yvette Farthing: adult Night Elf, Orc, and Forsaken profiles with forty-five personal lines queued.
 - Review warrior trials, Forever cooking quests, and the undelivered-letter story; document original character scenes and preserve Yvette's boundaries.
 

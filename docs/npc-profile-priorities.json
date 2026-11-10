@@ -3836,6 +3836,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill named resident",
       "reason": "Full361 and installed completion; original ordinary-walk conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6301,
+      "name": "Gorbold Steelhand",
+      "zone": "Darkshore",
+      "route": "Auberdine trade supplier",
+      "reason": "Full982/97894 and own gossip; original reply to brother; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4631,
+      "name": "Wharfmaster Lozgil",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay wharfmaster",
+      "reason": "Full sponsorship and Forever courier chains; original imaginary restraint tally; fifteen personal lines queued without synthesis"
     }
   ]
 }

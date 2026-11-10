@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gorbold Steelhand, Auberdine trade supplier. Adult dwarf male5023/M2 878772, Alliance Friendly. Full982/97894 and own gossip; Borgus is explicitly his brother. Reply-letter scene is original.
+    -- Research: docs/research/gorbolds-reply-and-lozgils-copper.md
+    [6301] = {
+        quote = "Borgy asks whether I am all right, and I send him the state of trade. A fine answer to a question he did not ask.",
+        likes = { "A fair price plainly offered", "Personal effects returned with care", "News from his brother without a sales pitch" },
+        dislikes = { "A wreck reduced to the value of its cargo", "Concern answered with an inventory", "A merchant forgetting the people at the dock" },
+        gossip = "Gorbold can fill a letter with the state of trade and still forget to tell Borgus whether he is well. He is working on the first line.",
+        bio = "Gorbold Steelhand supplies trade goods in Auberdine. His brother Borgus sends someone to check on him when news stops coming. With business shaken by shipwrecks, Gorbold asks for the lost captains' effects on behalf of the surviving crews.",
+        backstory = "He began a reply to Borgus with a careful account of the stall. Halfway down the page, he realized his brother had asked after him. Gorbold put the inventory aside and tried to write one plain sentence about himself.",
+        secret = "The plain sentence takes longer than the prices. He can be easy company at the stall and still find it awkward to put a little brotherly reassurance into ink.",
+        bestFriend = "Sit with me, friend. You may hear the first line before I bury it under everything the stall has been doing.",
+        favorite = {
+            emote = "THANK",
+            hint = "He values sincere appreciation for the person taking care, beyond the goods that change hands.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Sit a while. I was trying to answer a letter without making it sound as though the stall itself had taken up the pen.", tone = "[warm] [wry]" }, "Good to see you. How have you been? I can ask that without first discussing the state of trade, if I remember myself." },
+            idle = { { "Borgy wants to know whether I am all right. I have given him prices, supplies, and the state of business. A thorough account of nearly everything except what he asked.", tone = "[self-aware] [fond]" }, "The captains left people ashore who remember them. Their belongings deserve more thought than a price assigned to whatever comes out of the water.", "A plain sentence should be easier than an inventory. Somehow I keep reaching for a number when I mean to say I appreciate being asked." },
+            befriended = { { "You have become company I am glad to see when there is nothing to buy or put in order. Sit with me, friend. I can leave the state of trade for another moment.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was I answering a different question again?", "Go on. There is room for something besides business in the conversation." },
+            mail = { { "A letter. Read what they are asking before deciding which account of your affairs will fill the page most efficiently.", tone = "[gentle] [amused]" } },
+            loot = { "Have a proper look. What something means to the person who lost it may not be written on its price." },
+            rest = { "A pause. We can have company without requiring the whole conversation to accomplish a piece of work." },
+            quest = { "A job finished. Take the thanks before anyone starts counting what remains undone." },
+            newFriend = { "Someone new. Ask how they are before asking what they have brought to sell." },
+            thanked = { "You are welcome. It is good to hear the care reached someone." },
+            hearth = { "Heading back? Send a little news when you can. Someone may be waiting to hear more than the list of places you have been." },
+        },
+    },
+
+    -- Wharfmaster Lozgil, Booty Bay. Adult goblin male7106/M2 119376, Horde Neutral; positive access unverified. Full classic sponsorship chain and current97328/97329/97331/97332; imaginary restraint tally is original.
+    -- Research: docs/research/gorbolds-reply-and-lozgils-copper.md
+    [4631] = {
+        quote = "I nearly said I told you so. There ought to be a payment for stopping myself. Unfortunately, I am the only one willing to fund it.",
+        likes = { "A delivery that reaches its destination", "Trust earned through what actually arrives", "An excuse that admits the part worth hearing" },
+        dislikes = { "A missing shipment explained by another story", "Celebrating before the trouble is finished", "Being right about an expensive disaster" },
+        gossip = "Lozgil pays himself an imaginary copper whenever he stops himself saying he warned you. The purse remains disappointingly light.",
+        bio = "Wharfmaster Lozgil watches the traffic through Booty Bay. His cargo records help trace a missing racing shipment. Lost deliveries and Zimmix's mishaps have worn his patience thin; he can resent the courier and still be glad he survived captivity.",
+        backstory = "After catching another warning on his tongue, he decided restraint deserved a copper. Nobody agreed to pay it, so he kept an imaginary tally. Within the hour he had spent the entire fortune explaining why he had been right.",
+        secret = "A friend can catch the warning forming and make him grin before it comes out. He complains about the lost copper, then supplies the warning anyway. At least they can laugh at the account together.",
+        bestFriend = "Come along, friend. I have nearly saved another copper. You may distract me before I spend it proving my point.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates being caught in the moment before another expensive warning becomes a familiar complaint.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. I nearly said I warned you about something, but I will let you tell me what happened before spending the whole conversation being right.", tone = "[brisk] [dry humor]" }, "Good to see you. Did everything arrive where it belonged, or should I allow a little time for the explanation?" },
+            idle = { { "I award myself a copper whenever I stop myself saying I told you so. Nobody is funding it. Even the imaginary purse empties the moment someone offers an especially bad explanation.", tone = "[wry] [self-aware]" }, "I can be glad someone got out alive and still refuse to put the next important delivery in their hands. Those are separate decisions.", "At this port, a confident account is easy to find. The thing it claims to account for can take considerably longer." },
+            befriended = { { "You have become company I can trust to hear the complaint without mistaking it for the whole welcome. Come along, friend. I am pleased you made it here.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? Was the warning already visible on my face?", "Go on. I will try to hear the whole explanation before assigning it a cost." },
+            mail = { { "Check where it is meant to go. Someone waiting at the other end may have had quite enough cheerful assurances already.", tone = "[practical] [pointed]" } },
+            quest = { "A job finished. Excellent. We may appreciate that before anyone announces how little could possibly go wrong next." },
+            taxi = { "An arrival in good order would be welcome. I have heard enough inventive accounts of the alternative." },
+            landed = { "Here we are. A perfectly ordinary arrival, and no explanation required. I could grow fond of these." },
+            newFriend = { "Someone new. Learn what they actually do before handing over anything important on the strength of an introduction." },
+            thanked = { "You are welcome. Keep the thanks; I have not found a reliable way to deposit it." },
+            rest = { "A pause. I can leave one warning unsaid while we enjoy the view. Do not make a wager on how long." },
+        },
+    },
+
     -- Darnath Bladesinger, Darnassus warrior trainer. Adult night elf male6071/M2 974343, Alliance Friendly. Own retraining gossip and1718/1719 checked. Rehearsed victory speech is original.
     -- Research: docs/research/darnath-borstan-and-yvette.md
     [7315] = {
