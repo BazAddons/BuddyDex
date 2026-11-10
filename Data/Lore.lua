@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Spackle Thornberry, Slaughtered Lamb/Stormwind. Adult
+    -- Gnome male3316/M2 900914, Alliance Friendly. Own paid-power/
+    -- dismissal gossip; Classic7562 referral and full mount branch read.
+    -- Plain stool/instrument of ascension is original, not a magic item.
+    -- Research: docs/research/spackles-footing-and-korrans-margin.md
+    [5520] = {
+        quote = "A firm footing is not beneath a practitioner of the dark arts. The floor is.",
+        likes = { "A support that does not wobble", "Instructions followed in order", "A friend capable of discretion" },
+        dislikes = { "Professional help assumed to be free", "An ominous object handled without asking", "A grand entrance followed by a stumble" },
+        gossip = "Spackle has an instrument of ascension. It appears to be a plain stepstool, though few people seem eager to ask.",
+        bio = "Spackle Thornberry is a Gnome demon trainer beneath Stormwind's Slaughtered Lamb. He offers greater demonic power for payment and brusquely dismisses those outside his profession. His manner leaves little doubt that this is serious work.",
+        backstory = "He needed something steady to reach a high shelf. After testing a plain stepstool, he called it an instrument of ascension. The name sounded suitably imposing. It also gave him an excellent reason to object when someone borrowed it.",
+        secret = "It has no enchantment. It is simply steady. He trusts a close friend to understand why a warlock might prefer that over something more impressive.",
+        bestFriend = "Come along. You may call it a stool when we are alone. Yes, that is a privilege. Try to appreciate it without making a speech.",
+        favorite = {
+            emote = "BOW",
+            hint = "A restrained show of respect suits someone who takes both his profession and his own dignity seriously.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. I have decided your company will not interfere excessively with my dignity.", tone = "[dry] [reluctantly warm]" }, "Ready? Good. Let us leave before somebody asks to borrow the instrument of ascension." },
+            idle = { { "It is a stool. An extremely steady stool. You see why I prefer the other name in professional company.", tone = "[conspiratorial] [wry]" }, "Greater power generally comes with a price. Being surprised by that does not alter the price.", "I tested the footing before trusting the height. There is a lesson in that, if you insist on finding one." },
+            befriended = { { "You have shown a tolerable amount of discretion and an unexpected talent for being welcome. Come along. I will not repeat that more loudly.", tone = "[gruffly fond] [sincere]" } },
+            poke = { "Yes? I am listening. That need not become public knowledge.", "Proceed. Preferably before the interruption acquires an introduction." },
+            learned = { { "Read the instruction before attempting to impress anyone. Especially yourself.", tone = "[stern] [precise]" } },
+            gear = { "Reliable? Good. An imposing appearance is a poor substitute for something that works." },
+            rest = { "A sensible pause. I do not require every moment to demonstrate the extent of my power." },
+            loot = { "Do you know what it does? Then perhaps wait before putting your fingers on it." },
+            group = { "Make certain everyone understands their part before beginning. A dramatic misunderstanding remains a misunderstanding." },
+            newFriend = { "An introduction will suffice. You need not reveal every private matter immediately." },
+            thanked = { "You are welcome. Accept that quietly and we will both retain some dignity." },
+        },
+    },
+
+    -- Korran, Crossroads/Barrens. Adult Troll male4092/
+    -- M2 1022938, Horde Friendly. Full868/1145/1146/1147/1148/1184
+    -- investigation read; studies/reporting, no solved silithid origin.
+    -- Drawing with no room for legs is original, not a quest event.
+    -- Research: docs/research/spackles-footing-and-korrans-margin.md
+    [3428] = {
+        quote = "Tell me what you saw. We can take the danger seriously while there still be questions to answer.",
+        likes = { "Specimens brought back intact", "Travelers who report what they saw", "Enough room to finish a drawing" },
+        dislikes = { "A growing threat dismissed too soon", "An important message treated lightly", "A guess passed along as a finding" },
+        gossip = "Korran leaves extra room around his drawings now. Apparently a carefully sketched carapace once left nowhere for the legs.",
+        bio = "Korran studies the Barrens for his masters in Orgrimmar from the Crossroads. He gathers silithid eggs and specimens, takes travelers' reports seriously and warns Belgrom Rockmaul that the insects pose a greater threat than first believed.",
+        backstory = "He once drew a carapace with great care, then discovered the legs would run off the page. He kept the drawing. Before the next attempt, he asked a visitor where they would begin. Their answer made him look at the specimen afresh.",
+        secret = "The cramped drawing still amuses him. It reminds him that taking a study seriously need not mean defending every way he first went about it.",
+        bestFriend = "Walk with me, friend. If I begin another drawing too near the edge, you may remind me. I be trusting your eye as well as your company.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a thoughtful acknowledgment from someone prepared to treat the findings and the courier's task seriously.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. Tell me what you have seen, and leave a little room for what we do not know yet.", tone = "[warm] [attentive]" }, "There you are. Your company be welcome, even if you have no specimen to bring today." },
+            idle = { { "The carapace fit beautifully. The legs went off the page. Next time, I thought, perhaps leave room for the rest of the creature.", tone = "[wry] [lightly amused]" }, "Travelers bring more than eggs. When enough of them speak of danger, I be paying attention.", "Belgrom needs a serious report. Saying there is more to learn does not make the warning less important." },
+            befriended = { { "You have become someone whose company I welcome and whose observations I trust. Come along, friend. There be room for another pair of eyes.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? What caught your attention?", "I be listening. Start with what you saw." },
+            quest = { { "An important message deserves a careful courier. Keep the purpose in mind along the road.", tone = "[serious] [encouraging]" } },
+            loot = { "Keep it intact if you can. A useful specimen may answer something we have not thought to ask." },
+            learned = { "Good. Leave room for the next finding to change how you think about this one." },
+            rest = { "A pause. I can look over the notes without making another mark just yet." },
+            group = { "Ask what each person saw. One pair of eyes may have missed what another caught." },
+            newFriend = { "A new traveler. Their account may be worth hearing before we decide what to make of them." },
+            thanked = { "Glad to help, friend. Tell me if you notice what I have overlooked." },
+        },
+    },
+
     -- Destin Thriceforged, Thendal Grove/Zephras Isle. Adult
     -- High Order male136969/M2 7478487, both factions Friendly. Weapon
     -- merchant/repairs, eight current goods; own quest/training tables0.

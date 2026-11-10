@@ -3703,5 +3703,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult male Goblin, Horde Friendly; Full six-quest Argent context and own boastful gossip; original interrupted introduction; no Scout sighting claimed",
     "research_notes": "docs/research/destins-staff-and-glixs-introduction.md"
+  },
+  {
+    "npc_id": 5520,
+    "name": "Spackle Thornberry",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult Alliance Gnome man; Own paid-power/dismissal gossip, historical referral and full ritual campaign/book reviewed; original ordinary stool; no Scout sighting claimed",
+    "research_notes": "docs/research/spackles-footing-and-korrans-margin.md"
+  },
+  {
+    "npc_id": 3428,
+    "name": "Korran",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Horde Troll man; Full six-quest investigation and specimen/note items; Horde loyalty preserved; original cramped drawing; no Scout sighting claimed",
+    "research_notes": "docs/research/spackles-footing-and-korrans-margin.md"
   }
 ]

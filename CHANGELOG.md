@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Spackle Thornberry and Korran: adult Alliance Gnome and Horde Troll profiles, with thirty personal lines queued.
+- Review the demon-trainer referral, ritual instructions and complete silithid investigation; document the original stool and drawing stories.
+
 - Add Destin Thriceforged and Glix Xizzix: adult High Order and Goblin profiles with thirty personal lines queued.
 - Review starter weapon stock and the full Argent letter route; retain Glix's boastful business persona and document original friendship stories.
 

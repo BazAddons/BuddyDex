@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 734,
-  "written_complete_count": 734,
-  "awaiting_signature_audio_count": 280,
+  "authored_count": 736,
+  "written_complete_count": 736,
+  "awaiting_signature_audio_count": 282,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 282,
+  "remaining_count": 284,
   "completed": [
     {
       "npc_id": 54,
@@ -3205,6 +3205,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 3428,
+      "name": "Korran",
+      "zone": "The Barrens",
+      "source": "Reviewed adult Horde Troll man; Full six-quest investigation and specimen/note items; Horde loyalty preserved; original cramped drawing; no Scout sighting claimed",
+      "research_notes": "docs/research/spackles-footing-and-korrans-margin.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "troll-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3429,
       "name": "Thork",
       "zone": "The Barrens",
@@ -4663,6 +4675,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5520,
+      "name": "Spackle Thornberry",
+      "zone": "Stormwind City",
+      "source": "Reviewed adult Alliance Gnome man; Own paid-power/dismissal gossip, historical referral and full ritual campaign/book reviewed; original ordinary stool; no Scout sighting claimed",
+      "research_notes": "docs/research/spackles-footing-and-korrans-margin.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 5543,

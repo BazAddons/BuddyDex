@@ -3,18 +3,18 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 312,
+    "alliance": 313,
     "unverified": 159,
-    "horde": 292
+    "horde": 293
   },
   "npc_race_counts": {
     "1": 167,
     "3": 60,
-    "7": 53,
+    "7": 54,
     "2": 79,
     "5": 79,
     "4": 59,
-    "8": 57,
+    "8": 58,
     "9": 49,
     "6": 82,
     "96": 20,
@@ -24,7 +24,7 @@
     "Elwynn Forest": 28,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
-    "Stormwind City": 116,
+    "Stormwind City": 117,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 21,
@@ -44,7 +44,7 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 51,
-    "The Barrens": 36,
+    "The Barrens": 37,
     "Stonetalon Mountains": 11,
     "Darnassus": 11,
     "Burning Steppes": 1,
@@ -4087,6 +4087,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3419"
     },
     {
+      "npc_id": 3428,
+      "name": "Korran",
+      "zone": "The Barrens",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3428"
+    },
+    {
       "npc_id": 3429,
       "name": "Thork",
       "zone": "The Barrens",
@@ -5797,6 +5810,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5519"
+    },
+    {
+      "npc_id": 5520,
+      "name": "Spackle Thornberry",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5520"
     },
     {
       "npc_id": 5543,
@@ -9417,6 +9443,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 734,
-  "awaiting_signature_audio_profiles": 280
+  "authored_profiles": 736,
+  "awaiting_signature_audio_profiles": 282
 }

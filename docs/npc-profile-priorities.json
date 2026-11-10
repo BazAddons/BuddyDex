@@ -3374,6 +3374,20 @@
       "zone": "Undercity",
       "route": "Undercity barber at the end of the early Argent route",
       "reason": "Full six-quest Argent context and own boastful gossip; original interrupted introduction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5520,
+      "name": "Spackle Thornberry",
+      "zone": "Stormwind City",
+      "route": "Slaughtered Lamb city demon trainer",
+      "reason": "Own paid-power/dismissal gossip, historical referral and full ritual campaign/book reviewed; original ordinary stool; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3428,
+      "name": "Korran",
+      "zone": "The Barrens",
+      "route": "Crossroads investigator and later silithid report route",
+      "reason": "Full six-quest investigation and specimen/note items; Horde loyalty preserved; original cramped drawing; fifteen personal lines queued without synthesis"
     }
   ]
 }
