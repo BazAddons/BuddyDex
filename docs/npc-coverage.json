@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 258,
     "unverified": 146,
-    "horde": 221
+    "horde": 222
   },
   "npc_race_counts": {
     "1": 165,
     "3": 46,
     "7": 40,
     "2": 70,
-    "5": 64,
+    "5": 65,
     "4": 45,
     "8": 47,
     "9": 33,
@@ -30,7 +30,7 @@
     "Ironforge": 44,
     "Stranglethorn Vale": 3,
     "Tirisfal Glades": 39,
-    "Undercity": 12,
+    "Undercity": 13,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 19,
@@ -4690,6 +4690,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4556"
     },
     {
+      "npc_id": 4558,
+      "name": "Lauren Newcomb",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4558"
+    },
+    {
       "npc_id": 4561,
       "name": "Daniel Bartlett",
       "zone": "Undercity",
@@ -7801,6 +7814,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 609,
-  "awaiting_signature_audio_profiles": 155
+  "authored_profiles": 610,
+  "awaiting_signature_audio_profiles": 156
 }

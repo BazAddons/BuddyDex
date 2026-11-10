@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lauren Newcomb: a complete female Forsaken profile with fifteen personal lines queued.
+- Expand Undercity companions with verified light-armor trade and a private gray-shirt writing joke.
+
 - Add Apothecary Helbrim: a complete Crossroads Forsaken profile with fifteen personal lines queued.
 - Ground his exacting personality in the full specimen, timed-emulsion, shipping, and Silverpine sample-delivery dialogue.
 

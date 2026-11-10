@@ -2499,6 +2499,13 @@
       "zone": "The Barrens",
       "route": "Crossroads early Horde apothecary",
       "reason": "Complete Forsaken male profile, fifteen queued lines, sourced contract/specimen/toxin priorities and full sample-courier context; no synthesis"
+    },
+    {
+      "npc_id": 4558,
+      "name": "Lauren Newcomb",
+      "zone": "Undercity",
+      "route": "Undercity Trade Quarter light armor",
+      "reason": "Complete Forsaken female profile, fifteen queued lines, researched current trade and documented original humor; no synthesis"
     }
   ]
 }

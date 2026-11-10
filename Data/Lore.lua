@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lauren Newcomb <Light Armor Merchant>, Trade Quarter, Undercity.
+    -- Adult Forsaken female2666/M2 997378, Horde Friendly, Repair/Vendor.
+    -- All39current goods match39Classic; no own quest/gossip. Grand
+    -- gray-shirt paragraph is original private humor, not a sales promise.
+    -- No BFA evacuation or alternate130976profile imported.
+    -- Research: docs/research/lauren-newcomb-plain-goods-and-grand-words.md
+    [4558] = {
+        quote = "It is a shirt. I like it. The longer description was for my own amusement.",
+        likes = { "A useful garment described plainly", "A little exaggeration kept as a joke", "A customer comfortable with their choice" },
+        dislikes = { "A plain purchase treated as shameful", "Fine words hiding a poor answer", "A private joke turned into a sales claim" },
+        gossip = "Lauren describes her stock plainly enough. A scrap kept for herself, however, gives an ordinary gray shirt a remarkably distinguished introduction.",
+        bio = "Lauren Newcomb sells light armor in the Trade Quarter of Undercity and offers repairs. Her wares include leather and cloth pieces alongside plain shirts. She prefers customers to understand what they are choosing.",
+        backstory = "She once amused herself by giving a common gray shirt an extravagantly grand description on a spare scrap. Each revision made it less useful for selling a shirt, and considerably more enjoyable for her to read.",
+        secret = "She kept the grand paragraph, then wrote a much shorter verdict beneath it: it is a shirt, and she likes it. The contrast still pleases her. She has never needed to use the paragraph on a customer.",
+        bestFriend = "You may read the long version if you like. I shall enjoy seeing where you start to smile. The shirt itself remains perfectly ordinary.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She enjoys someone noticing when her very serious description has become a private joke.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good to see you. We can begin with a plain answer and see whether the day deserves a little elaboration.", tone = "[dry] [welcoming]" }, "Ready. The shirt has survived its distinguished introduction without becoming any less ordinary." },
+            idle = { { "A gray of remarkable restraint. That was one of the phrases. It remains an ordinary gray shirt.", tone = "[deadpan] [amused]" }, "A clear description lets someone choose. An impressive description ought to manage at least that much.", "You are allowed to enjoy a simple thing without defending it as something rare." },
+            befriended = { { "You understood the joke without mistaking it for a promise. I would enjoy more of your company.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Would the plain explanation do, or are we amusing ourselves?", "I was considering another unnecessary adjective. The shirt has already endured several." },
+            gear = { { "Does it serve you comfortably? We can begin there before making the description longer.", tone = "[practical] [gentle]" } },
+            loot = { "Find out what it does before deciding how splendidly you will describe it." },
+            bagsFull = { "A little sorting may be more useful than another enthusiastic addition." },
+            mail = { "Words someone thought worth sending. Let us give them a little attention." },
+            rest = { "A quiet pause. I could give it a much grander introduction, but I am enjoying it already." },
+            questAccepted = { "Be certain what they asked for. An elaborate account of the wrong errand will not help them." },
+            thanked = { "You are welcome. A plain acknowledgment is quite sufficient, though I appreciate it all the same." },
+        },
+    },
+
     -- Apothecary Helbrim, Crossroads, Barrens. Adult Forsaken male
     -- display1965/M2 959310, Horde Neutral. Full848/853/1492/1358
     -- plus Silverpine sample/escort context and own installed gossip.

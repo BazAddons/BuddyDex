@@ -2828,5 +2828,12 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Forsaken male body, Horde Neutral, full personal tasks and Silverpine sample progression plus own gossip; no Scout sighting claimed",
     "research_notes": "docs/research/crossroads-helbrim-specimens-and-contracts.md"
+  },
+  {
+    "npc_id": 4558,
+    "name": "Lauren Newcomb",
+    "zone": "Undercity",
+    "source": "Reviewed adult Forsaken female body, Horde Friendly, all own tabs and39matching current/Classic goods; no own quest/gossip or Scout sighting claimed",
+    "research_notes": "docs/research/lauren-newcomb-plain-goods-and-grand-words.md"
   }
 ]

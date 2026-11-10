@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Lauren Newcomb: a complete female Forsaken profile with fifteen personal lines queued.
+- Expand Undercity companions with verified light-armor trade and a private gray-shirt writing joke.
+
 - Add Apothecary Helbrim: a complete Crossroads Forsaken profile with fifteen personal lines queued.
 - Ground his exacting personality in the full specimen, timed-emulsion, shipping, and Silverpine sample-delivery dialogue.
 
@@ -198,4 +201,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **609 fully written NPC profiles**: 454 have initial signature recordings, and one hundred fifty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **610 fully written NPC profiles**: 454 have initial signature recordings, and one hundred fifty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
