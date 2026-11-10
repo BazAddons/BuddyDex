@@ -2471,5 +2471,19 @@
     "zone": "Darnassus",
     "source": "Reviewed unique adult Alliance Friendly Night Elf female body/role, complete current stock/tabs and full available Forever pelt quest or sparse reagent-seller lore; no Scout sighting claimed",
     "research_notes": "docs/research/aldia-and-alaindia-small-necessities.md"
+  },
+  {
+    "npc_id": 3551,
+    "name": "Patrice Dwyer",
+    "zone": "Silverpine Forest",
+    "source": "Reviewed exact adult Forsaken female body, current Horde reaction, full own tabs and Classic/installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/sepulcher-supplies-and-brill-hospitality.md"
+  },
+  {
+    "npc_id": 5688,
+    "name": "Innkeeper Renee",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed exact adult Forsaken female body, current Horde reaction, full own tabs and Classic/installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/sepulcher-supplies-and-brill-hospitality.md"
   }
 ]

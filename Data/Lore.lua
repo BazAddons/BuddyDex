@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Patrice Dwyer <Poison Supplies>, Sepulcher, Silverpine. Adult Forsaken
+    -- female3543/M2 997378; current Horde Neutral, own tabs empty.
+    -- Classic eleven-item supplies trade; no own gossip/quest found.
+    -- Plain answers and a deliberately dull private story are original writing.
+    -- Research: docs/research/sepulcher-supplies-and-brill-hospitality.md
+    [3551] = {
+        quote = "Ask for what you need. I can manage a sale without managing your secrets.",
+        likes = { "A clear request", "Containers properly closed", "An ordinary conversation after work" },
+        dislikes = { "Customers trying to sound sinister", "Careless handling of supplies", "A private question asked twice" },
+        gossip = "Patrice hears customers practice their mysterious voices. She seems more impressed when they remember what they came for.",
+        bio = "Patrice Dwyer deals in poison supplies at the Sepulcher in Silverpine Forest. Vials, powders, ingredients, and thieves' tools belong to her established trade. She prefers a plain request to a performance of how dangerous the customer is.",
+        backstory = "After enough customers tried to make a purchase sound like a secret assignment, she began practicing the least mysterious answers possible. Eventually the habit followed her away from work. Ordinary conversation became a small pleasure.",
+        secret = "She has been composing an exceptionally dull account of her day. She hopes someone will ask to hear the end without expecting it to conceal a threat.",
+        bestFriend = "Would you like to hear what happened today? Very little. I thought you might appreciate being told something without a hidden meaning.",
+        favorite = {
+            emote = "GREET",
+            hint = "She appreciates a straightforward greeting without a theatrical entrance.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good. You are here. We can leave the mysterious introductions to someone with more patience.", tone = "[dry] [restrained]" }, "Shall we go? I have no cryptic instructions for you." },
+            idle = { { "Nothing remarkable happened today. I was hoping to tell someone who would let it stay that way.", tone = "[wry] [quiet]" }, "Some customers lower their voices before asking for an empty vial. It remains an empty vial.", "Privacy is easier to respect when nobody insists on announcing it." },
+            befriended = { { "You have stayed for a conversation without asking what I am hiding. I appreciate that.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? An ordinary question will do.", "I was considering how to make that story less interesting." },
+            loot = { { "Keep the containers closed. Whatever impression you wish to make, a spill will not improve it.", tone = "[practical] [firm]" } },
+            bagsFull = { "Perhaps stop forcing things together before something opens." },
+            mail = { "A letter can simply be a letter. Let us allow this one the opportunity." },
+            rest = { "We can sit without planning anything. I recommend trying it." },
+            quest = { "Read the request. A dramatic interpretation may not be the useful one." },
+            zone = { "New surroundings. Shall we look around before declaring that something is afoot?" },
+            thanked = { "You are welcome. A perfectly sufficient exchange." },
+        },
+    },
+
+    -- Innkeeper Renee, Brill, Tirisfal. Adult Forsaken female8190/M2
+    -- 997378, current Horde Friendly; Innkeeper/Vendor, twelve goods.
+    -- Full8->590: private letter, theatrical welcome, brusque dismissal.
+    -- Quiet hospitality and unwritten farewells are original writing;
+    -- no later retail return or unverified comic events inserted.
+    -- Research: docs/research/sepulcher-supplies-and-brill-hospitality.md
+    [5688] = {
+        quote = "There is room to rest. There is no need to make a ceremony of it.",
+        likes = { "A guest taking a needed rest", "Private letters kept private", "Company that can bear a blunt answer" },
+        dislikes = { "Questions about someone else's letter", "An implausibly cheerful performance", "Rest treated as an inconvenience" },
+        gossip = "Renee can make a welcome sound like a dismissal. The guest who actually needs a rest may find the welcome was the useful part.",
+        bio = "Innkeeper Renee tends the inn in Brill, offering food, drink, and a place for weary travelers. Calvin Montague sends her a letter through a courier. She tries a cheerful explanation, then sharply refuses further interest in its sender.",
+        backstory = "In the stories she tells here, a guest once apologized for needing to stop. Renee found it easier to argue about that apology than admit she had been concerned. Since then, she has practiced making room without making a speech.",
+        secret = "She imagines a farewell that admits she will notice a guest's absence. Every version sounds too elaborate. She usually settles for telling them to rest before they go.",
+        bestFriend = "Sit a moment. You need not buy anything to justify staying with me. Do not expect me to make that sound prettier.",
+        favorite = {
+            emote = "NOD",
+            hint = "She prefers a quiet acknowledgment to a grand display of appreciation.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Ready to go, or shall we spend the whole evening announcing it?", tone = "[dry] [unhurried]" }, "Come along, then. We can find somewhere to stop when you need it." },
+            idle = { { "You can need a rest without apologizing for it. I have heard quite enough apologies on the subject.", tone = "[gruff] [concerned]" }, "A private letter is not improved by an audience.", "There. We have managed a little quiet without anyone making a speech." },
+            befriended = { { "You came for my company. Sit down a moment, then. I am pleased, though I shall not perform it for you.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? If you need something, ask.", "I heard you. I was allowing the silence another moment." },
+            rest = { { "Stop before you are worn through. I would rather argue about your resting than about your collapsing.", tone = "[firm] [caring]" } },
+            hearth = { "Homeward. Make use of the welcome when you reach it." },
+            mail = { "Read your own correspondence. Leave everyone else the same courtesy." },
+            quest = { "Attend to the errand. Speculating about the recipient may earn you a short answer." },
+            zone = { "Find your bearings. Then find somewhere sensible to stop." },
+            combatEnd = { "Still standing? Good. Now consider resting before you need to be carried." },
+            thanked = { "Yes, well. I am glad it helped. Leave it at that." },
+        },
+    },
+
     -- Aldia <General Supplies>, Dolanaar, Teldrassil. Adult Night Elf
     -- female1700/M2 921844, Alliance Friendly, Vendor12goods. Full
     -- Forever87288: friendly village, useful pelts, regret/road safety.

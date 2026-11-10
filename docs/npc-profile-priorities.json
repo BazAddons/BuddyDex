@@ -2142,6 +2142,20 @@
       "zone": "Darnassus",
       "route": "Alliance Darnassus reagent-seller city contact",
       "reason": "Full adult female Night Elf profile and fifteen queued lines; pelt quest reward separate from friendship, city versus starter coverage distinguished, normal live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 3551,
+      "name": "Patrice Dwyer",
+      "zone": "Silverpine Forest",
+      "route": "Horde Sepulcher early supplies",
+      "reason": "Complete female Forsaken profile with fifteen queued lines; current Neutral versus Friendly preserved, full letter/duel chain reviewed, no synthesis"
+    },
+    {
+      "npc_id": 5688,
+      "name": "Innkeeper Renee",
+      "zone": "Tirisfal Glades",
+      "route": "Horde Brill early innkeeper",
+      "reason": "Complete female Forsaken profile with fifteen queued lines; current Neutral versus Friendly preserved, full letter/duel chain reviewed, no synthesis"
     }
   ]
 }

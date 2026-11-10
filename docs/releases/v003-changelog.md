@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Patrice Dwyer and Innkeeper Renee: two complete adult Forsaken women, with thirty personal lines queued.
+- Expand Sepulcher and Brill character coverage with distinct supplies-trader and brusque innkeeper stories, grounded in established roles and the full letter-delivery chain.
+
 - Add Aldia and Alaindia: two complete adult Night Elf women, with thirty personal lines queued.
 - Ground Aldia in her Forever Soft Saber Pelts task and distinguish her early Dolanaar trade from Alaindia's Darnassus reagent service and original friendship story.
 
@@ -120,4 +123,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **558 fully written NPC profiles**: 454 have initial signature recordings, and one hundred four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **560 fully written NPC profiles**: 454 have initial signature recordings, and one hundred six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

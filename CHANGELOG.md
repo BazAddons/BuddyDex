@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Patrice Dwyer and Innkeeper Renee: two complete adult Forsaken women, with thirty personal lines queued.
+- Expand Sepulcher and Brill character coverage with distinct supplies-trader and brusque innkeeper stories, grounded in established roles and the full letter-delivery chain.
+
 - Add Aldia and Alaindia: two complete adult Night Elf women, with thirty personal lines queued.
 - Ground Aldia in her Forever Soft Saber Pelts task and distinguish her early Dolanaar trade from Alaindia's Darnassus reagent service and original friendship story.
 

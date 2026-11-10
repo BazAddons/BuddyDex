@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 558,
-  "written_complete_count": 558,
-  "awaiting_signature_audio_count": 104,
+  "authored_count": 560,
+  "written_complete_count": 560,
+  "awaiting_signature_audio_count": 106,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 106,
+  "remaining_count": 108,
   "completed": [
     {
       "npc_id": 54,
@@ -2796,6 +2796,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 3551,
+      "name": "Patrice Dwyer",
+      "zone": "Silverpine Forest",
+      "source": "Reviewed exact adult Forsaken female body, current Horde reaction, full own tabs and Classic/installed dialogue; no Scout sighting claimed",
+      "research_notes": "docs/research/sepulcher-supplies-and-brill-hospitality.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3562,
       "name": "Alaindia",
       "zone": "Darnassus",
@@ -3743,6 +3755,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5688,
+      "name": "Innkeeper Renee",
+      "zone": "Tirisfal Glades",
+      "source": "Reviewed exact adult Forsaken female body, current Horde reaction, full own tabs and Classic/installed dialogue; no Scout sighting claimed",
+      "research_notes": "docs/research/sepulcher-supplies-and-brill-hospitality.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 5749,
