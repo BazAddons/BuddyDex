@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 593,
-  "written_complete_count": 593,
-  "awaiting_signature_audio_count": 139,
+  "authored_count": 595,
+  "written_complete_count": 595,
+  "awaiting_signature_audio_count": 141,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 141,
+  "remaining_count": 143,
   "completed": [
     {
       "npc_id": 54,
@@ -2103,6 +2103,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 3065,
+      "name": "Yaw Sharpmane",
+      "zone": "Mulgore",
+      "source": "Reviewed adult Tauren male/current Horde Friendly; complete41-string direction dialogue or full companion chain plus Forever Chakuyak offer/completion; no Scout sighting claimed",
+      "research_notes": "docs/research/bloodhoof-directions-and-hunters-care.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3066,
       "name": "Narm Skychaser",
       "zone": "Mulgore",
@@ -2467,6 +2479,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 3212,
+      "name": "Brave Ironhorn",
+      "zone": "Mulgore",
+      "source": "Reviewed adult Tauren male/current Horde Friendly; complete41-string direction dialogue or full companion chain plus Forever Chakuyak offer/completion; no Scout sighting claimed",
+      "research_notes": "docs/research/bloodhoof-directions-and-hunters-care.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

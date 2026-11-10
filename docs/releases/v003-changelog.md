@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Brave Ironhorn and Yaw Sharpmane: two complete adult Tauren profiles, with thirty personal lines queued.
+- Expand early Bloodhoof companions with village guidance, animal-partnership lessons, and the Forever Chakuyak hunt context.
+
 - Add Friz Frazzlespark: a complete adult Goblin woman, with fifteen personal lines queued.
 - Expand Riverglades companions with her established cargo dealings, pirate rivalry, and courier lessons.
 
@@ -174,4 +177,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **593 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **595 fully written NPC profiles**: 454 have initial signature recordings, and one hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

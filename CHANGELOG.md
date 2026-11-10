@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brave Ironhorn and Yaw Sharpmane: two complete adult Tauren profiles, with thirty personal lines queued.
+- Expand early Bloodhoof companions with village guidance, animal-partnership lessons, and the Forever Chakuyak hunt context.
+
 - Add Friz Frazzlespark: a complete adult Goblin woman, with fifteen personal lines queued.
 - Expand Riverglades companions with her established cargo dealings, pirate rivalry, and courier lessons.
 

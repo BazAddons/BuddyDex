@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brave Ironhorn, Bloodhoof Village, Mulgore. Adult Tauren male
+    -- 3775/M2 968705, Horde Friendly.41installed village-direction lines;
+    -- no own current/Classic quest. Describing home through its sounds is
+    -- original, not magical hearing, a new waypoint or a measured patrol.
+    -- Research: docs/research/bloodhoof-directions-and-hunters-care.md
+    [3212] = {
+        quote = "Ask again if the way is unclear. A direction is useful when it helps you arrive.",
+        likes = { "A familiar laugh across the village", "A visitor willing to ask again", "Someone returning with a story" },
+        dislikes = { "A newcomer embarrassed to need help", "A place reduced to a list of services", "A greeting hurried past unheard" },
+        gossip = "Ironhorn knows the way around Bloodhoof Village. He also likes trying to describe the place without pointing at anything at all.",
+        bio = "Brave Ironhorn helps visitors find their way around Bloodhoof Village. He directs travelers to its teachers, Innkeeper Kauth, and Seikwa, and sends them north to Thunder Bluff when the village cannot provide the service they need.",
+        backstory = "He tried describing home without naming a building or pointing down a path. A familiar voice, work under way, the sound of someone welcomed back: the exercise made him notice how much of a village can be recognized before it is seen.",
+        secret = "His favorite version ends with someone laughing at a joke he has not heard. He likes recognizing a place as home without needing to know every word being said.",
+        bestFriend = "You need not be looking for anything to stop here. Tell me what the road sounded like today. I would be glad to hear it.",
+        favorite = {
+            emote = "GREET",
+            hint = "He appreciates someone taking a moment to acknowledge him before asking the way.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Have you come looking for the way, or shall we enjoy arriving for a moment?", tone = "[warm] [welcoming]" }, "I am ready. Let us listen as well as look while we go." },
+            idle = { { "A laugh can make a place familiar even when you have missed the joke. I like that about a village.", tone = "[reflective] [fond]" }, "Ask again if the direction was unclear. There is no shame in wanting to arrive in the right place.", "A place has more to tell you than the names of its buildings." },
+            befriended = { { "You have given me a reason to look forward to a visitor who needs no directions. I would welcome more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What would help you find your way?", "I was thinking about how to describe home without pointing at it." },
+            zone = { { "New surroundings. Listen a moment before deciding that the map has told us everything.", tone = "[curious] [unhurried]" } },
+            quest = { "Make certain you know whom you are seeking. An honest question may save a long walk." },
+            rest = { "A pause. We can enjoy being somewhere before choosing where to go next." },
+            hearth = { "Homeward. I hope there is a familiar greeting waiting." },
+            newFriend = { "Another person to remember, and another reason a place may begin to feel familiar." },
+            thanked = { "You are welcome. I am pleased the way became clearer." },
+            waveBack = { "And to you. May the road give you a good reason to return." },
+        },
+    },
+
+    -- Yaw Sharpmane <Hunter Trainer>, Bloodhoof Village, Mulgore. Adult
+    -- Tauren male3811/M2 968705, Horde Friendly. Full historical pet chain
+    -- and Forever96130 installed offer/completion: safety, regret, no waste.
+    -- Plainstrider teaching him in a private sketch is original writing.
+    -- Research: docs/research/bloodhoof-directions-and-hunters-care.md
+    [3065] = {
+        quote = "A beast beside you is a companion to learn with, not a prize to stop thinking about.",
+        likes = { "A hunter prepared to learn from a beast", "Help offered to another hunter", "A life taken without waste or boasting" },
+        dislikes = { "A companion treated as a mere weapon", "A dangerous hunt entered through pride", "A useful pelt left to spoil" },
+        gossip = "Yaw guides hunters toward animal companions. A private sketch lets a very solemn plainstrider give him a lesson in return.",
+        bio = "Yaw Sharpmane teaches hunters in Bloodhoof Village. He values becoming one with nature through practice beside a beast. He also asks travelers to end Chakuyak's threat, grieving the beautiful wolf while promising her pelt will not be wasted.",
+        backstory = "His lessons move from a plainstrider to a prairie stalker and then a swoop. Each asks the learner to practice a different partnership. He sends the prepared hunter to Holt Thunderhorn for further guidance in caring for and training a pet.",
+        secret = "In a private sketch, a solemn plainstrider is teaching him how to run. He enjoys deciding which piece of his own advice the bird would offer first.",
+        bestFriend = "You may suggest the next lesson in the sketch. I am sure the plainstrider will have an opinion. I would like to hear yours as well.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates a gesture that gives respect to the lives and lessons a hunter encounters.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Shall we bring care as well as readiness to the road?", tone = "[steady] [welcoming]" }, "I am ready. There is always something to notice before deciding we have learned enough." },
+            idle = { { "The plainstrider in my sketch has very sound advice about running. I am considering whether I look ready to hear it.", tone = "[gentle] [amused]" }, "A companion must face the journey beside you. Remember that when you decide what to ask of it.", "If a difficult hunt needs another pair of hands, accepting help need not diminish the deed." },
+            befriended = { { "You have shown care in the company you keep. I would be glad to share more of the road with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What have you noticed?", "I was considering which lesson the bird should teach next." },
+            learned = { { "Practice with care. A new ability asks for judgment as well as confidence.", tone = "[patient] [encouraging]" } },
+            combatStart = { "Attend to the danger, and remember who faces it beside you." },
+            combatEnd = { "See what needs care before looking for the next challenge." },
+            quest = { "Understand the need behind the hunt. Danger is not made smaller by boasting about it." },
+            rest = { "A pause. Care includes knowing when to let a companion rest." },
+            zone = { "New ground. Watch what lives here before assuming you know its ways." },
+            thanked = { "You are welcome. May the lesson help you care for what travels beside you." },
+        },
+    },
+
     -- Friz Frazzlespark <Specialty Goods>, Powderfuse Port, Riverglades.
     -- Adult Goblin female139287/M2 119369, current Horde Friendly.45goods.
     -- Available full quest offers/objectives: stolen cargo, Bentcoin delivery,

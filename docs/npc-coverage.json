@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 253,
     "unverified": 142,
-    "horde": 213
+    "horde": 215
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 43,
     "8": 46,
     "9": 32,
-    "6": 69,
+    "6": 71,
     "96": 8,
     "95": 15
   },
@@ -39,7 +39,7 @@
     "Orgrimmar": 38,
     "Badlands": 1,
     "Darkshore": 7,
-    "Mulgore": 16,
+    "Mulgore": 18,
     "Thunder Bluff": 35,
     "Durotar": 47,
     "The Barrens": 30,
@@ -2803,6 +2803,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3064"
     },
     {
+      "npc_id": 3065,
+      "name": "Yaw Sharpmane",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3065"
+    },
+    {
       "npc_id": 3066,
       "name": "Narm Skychaser",
       "zone": "Mulgore",
@@ -3255,6 +3268,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3209"
+    },
+    {
+      "npc_id": 3212,
+      "name": "Brave Ironhorn",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3212"
     },
     {
       "npc_id": 3287,
@@ -7600,6 +7626,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 593,
-  "awaiting_signature_audio_profiles": 139
+  "authored_profiles": 595,
+  "awaiting_signature_audio_profiles": 141
 }

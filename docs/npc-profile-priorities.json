@@ -2387,6 +2387,20 @@
       "zone": "Riverglades",
       "route": "Horde Powderfuse Port Goblin trade contact",
       "reason": "Complete adult female profile with fifteen queued lines; available quest network reviewed without inventing missing completion outcomes or dual Friendly access, no synthesis"
+    },
+    {
+      "npc_id": 3212,
+      "name": "Brave Ironhorn",
+      "zone": "Mulgore",
+      "route": "Horde Bloodhoof early information contact",
+      "reason": "Complete adult male Tauren profile with fifteen queued lines; actual guidance/animal partnership and current hunt regret preserved, no synthesis"
+    },
+    {
+      "npc_id": 3065,
+      "name": "Yaw Sharpmane",
+      "zone": "Mulgore",
+      "route": "Horde Bloodhoof early hunter trainer",
+      "reason": "Complete adult male Tauren profile with fifteen queued lines; actual guidance/animal partnership and current hunt regret preserved, no synthesis"
     }
   ]
 }

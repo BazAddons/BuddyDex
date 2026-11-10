@@ -2716,5 +2716,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult Goblin female, explicit Horde Friendly, full45-item stock and available connected quest offers/objectives; missing completions documented, no Scout sighting claimed",
     "research_notes": "docs/research/friz-frazzlespark-quest-network.md"
+  },
+  {
+    "npc_id": 3212,
+    "name": "Brave Ironhorn",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Tauren male/current Horde Friendly; complete41-string direction dialogue or full companion chain plus Forever Chakuyak offer/completion; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-directions-and-hunters-care.md"
+  },
+  {
+    "npc_id": 3065,
+    "name": "Yaw Sharpmane",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Tauren male/current Horde Friendly; complete41-string direction dialogue or full companion chain plus Forever Chakuyak offer/completion; no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-directions-and-hunters-care.md"
   }
 ]
