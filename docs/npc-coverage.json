@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 251,
+    "alliance": 253,
     "unverified": 142,
     "horde": 211
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 44,
-    "7": 37,
+    "3": 45,
+    "7": 38,
     "2": 69,
     "5": 63,
     "4": 43,
@@ -26,8 +26,8 @@
     "Westfall": 17,
     "Stormwind City": 114,
     "Redridge Mountains": 23,
-    "Dun Morogh": 13,
-    "Ironforge": 42,
+    "Dun Morogh": 14,
+    "Ironforge": 43,
     "Stranglethorn Vale": 3,
     "Tirisfal Glades": 39,
     "Undercity": 12,
@@ -1344,6 +1344,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1351"
+    },
+    {
+      "npc_id": 1355,
+      "name": "Cook Ghilm",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1355"
     },
     {
       "npc_id": 1387,
@@ -4814,6 +4827,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5158"
     },
     {
+      "npc_id": 5162,
+      "name": "Tansy Puddlefizz",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5162"
+    },
+    {
       "npc_id": 5163,
       "name": "Burbik Gearspanner",
       "zone": "Ironforge",
@@ -7548,6 +7574,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 589,
-  "awaiting_signature_audio_profiles": 135
+  "authored_profiles": 591,
+  "awaiting_signature_audio_profiles": 137
 }

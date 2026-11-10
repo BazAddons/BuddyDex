@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Cook Ghilm and Tansy Puddlefizz: two complete adult Dwarf and Gnome profiles, with thirty personal lines queued.
+- Expand Dun Morogh and Ironforge companions with researched cooking guidance and a distinct fishing-supplier story.
+
 - Add Tarshaw Jaggedscar and Kil'hala: two complete adult Orc and Troll profiles, with thirty personal lines queued.
 - Expand Razor Hill and Crossroads companions with researched warrior-referral and mage-garment quest context.
 

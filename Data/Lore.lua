@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cook Ghilm <Cooking Trainer>, Gol'Bolar Quarry, Dun Morogh. Adult
+    -- Dwarf male3416/M2 878772, Alliance Friendly,10current training rows.
+    -- Lifelong-learning and Shandrina/Dirge referrals in installed gossip;
+    -- imaginary tavern naming is original, no later Live Bait daily imported.
+    -- Research: docs/research/quarry-cooking-and-ironforge-fishing-stories.md
+    [1355] = {
+        quote = "There is always another good thing to learn. Best leave a little room for it.",
+        likes = { "A beginner willing to try again", "A meal shared while it is still warm", "Good instruction passed along freely" },
+        dislikes = { "A spoiled attempt called the end of learning", "Fine words served instead of supper", "A cook too proud to seek another teacher" },
+        gossip = "Ghilm has a name for the tavern he imagines opening. Ask again tomorrow and it may have a better name. The menu is taking longer.",
+        bio = "Cook Ghilm teaches cooking at Gol'Bolar Quarry in Dun Morogh. He treats the craft as a lifelong pursuit and welcomes another learner's interest. His guidance also points beyond his own lessons to other sources of instruction.",
+        backstory = "Planning a meal set him imagining a small tavern where everyone would find something worth sitting down for. Choosing its name became an agreeable pastime. A new name suggests a different sort of place, and then he starts considering the welcome again.",
+        secret = "His imaginary tavern has had several promising names and very little settled menu. He can picture the company around its tables more clearly than he can decide what to feed them.",
+        bestFriend = "Sit with me. We can settle the imaginary tavern another day. For now, I am pleased the company does not have to be imaginary.",
+        favorite = {
+            emote = "THANK",
+            hint = "He enjoys knowing that a little instruction or hospitality has been appreciated.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Shall we leave room in the day to learn something worth sharing?", tone = "[hearty] [welcoming]" }, "Ready. I have another excellent name for the tavern, if the menu ever catches up." },
+            idle = { { "A fine name for a tavern. Now I must decide whether it sounds as though it serves breakfast.", tone = "[fond] [amused]" }, "A first attempt tells you what to try differently. It need not tell you to stop.", "Knowing when another teacher can help is useful knowledge of its own." },
+            befriended = { { "You have made room at the table for my company. I would be glad to keep sharing more than the recipes.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? What would you like to try?", "I was considering the welcome. The imaginary tavern deserves a good one." },
+            learned = { { "Good. Try it with care, then pass along what helped when someone else is beginning.", tone = "[patient] [encouraging]" } },
+            loot = { "Something useful for the work ahead? Keep it where it will not be spoiled." },
+            quest = { "Read what is needed before deciding you have brought almost the same thing." },
+            rest = { "A pause. We can enjoy the company without making a business plan of it." },
+            levelUp = { "More room to learn, and more reason to remember how a beginning feels." },
+            hearth = { "Homeward. I hope there is somewhere pleasant to sit when we arrive." },
+            thanked = { "You are welcome. A good lesson is worth sharing." },
+        },
+    },
+
+    -- Tansy Puddlefizz <Fishing Supplier>, Ironforge. Adult Gnome female
+    -- 3121/M2 940356, Alliance Friendly; current own tabs0/title retained.
+    -- Classic ten fishing goods, no own quest/installed gossip found.
+    -- Sir Almost is her imagined fish story, not a canonical named creature.
+    -- Research: docs/research/quarry-cooking-and-ironforge-fishing-stories.md
+    [5162] = {
+        quote = "The fish that got away is entitled to tell its own version. Mine will be more entertaining.",
+        likes = { "A patient outing with good company", "The right lure kept where it can be found", "A fishing story told with a little humor" },
+        dislikes = { "A missed catch made into a personal feud", "Supplies tangled beyond finding", "Every quiet outing judged by its haul" },
+        gossip = "Tansy has a name for a fish she never quite caught. Its alleged manners have improved considerably in the retelling.",
+        bio = "Tansy Puddlefizz supplies fishing goods in Ironforge. Her established trade includes poles, lures, and recipes for preparing several kinds of fish. She likes an angler to have the needed supplies, and something pleasant to say about the wait.",
+        backstory = "After a missed catch, she amused herself by imagining the fish explaining its escape. The tale grew more courteous each time she told it. Before long, she had supplied the fish with a fine name and a very polite excuse for not staying.",
+        secret = "She privately calls the fish Sir Almost. In its version of the tale, it escaped just before receiving a great deal of advice. She suspects she would enjoy that storyteller.",
+        bestFriend = "Stay for the other version of the story. You may take Sir Almost at his word if you like. I shall still be glad of your company.",
+        favorite = {
+            emote = "WAVE",
+            hint = "She enjoys a cheerful greeting or sendoff, even after an outing that produced only a story.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Good to see you. Have we time for a useful errand and a pleasantly unnecessary story?", tone = "[bright] [welcoming]" }, "Ready. Sir Almost has offered another very courteous excuse for being elsewhere." },
+            idle = { { "In his version, he escaped a lengthy explanation of the correct lure. A narrow escape, apparently.", tone = "[playful] [wry]" }, "A quiet outing may give you a good story even when it gives you nothing to carry.", "Keep the lure where you can find it. Patience is easier when the waiting is intentional." },
+            befriended = { { "You stayed to hear both sides of a story with only one actual storyteller. I would be glad of more company like that.", tone = "[warm] [amused]" } },
+            poke = { "Yes? Looking for something useful, or the latest excuse?", "I was considering what Sir Almost might say in his defense." },
+            loot = { { "Useful supplies? Keep them separate enough that finding them does not become the longest part of the outing.", tone = "[practical] [cheerful]" } },
+            bagsFull = { "A little order now may save us a remarkably tedious fishing story later." },
+            quest = { "Check the request. A good tale about almost finding it may not be the thing they asked for." },
+            rest = { "A pause. Shall we let the fish have the first word this time?" },
+            zone = { "New surroundings. I wonder what the local fish consider a convincing excuse." },
+            waveBack = { "And to you! May the outing give you something worth remembering." },
+            thanked = { "You are welcome. I hope the wait gives you good company as well as a chance of a catch." },
+        },
+    },
+
     -- Tarshaw Jaggedscar <Warrior Trainer>, Razor Hill, Durotar. Adult
     -- Orc male3743/M2 917116, Horde Friendly. Full1505 to1498/1502/1503
     -- and installed blunt class/retraining gossip read; no later rebellion.

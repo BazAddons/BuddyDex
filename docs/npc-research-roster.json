@@ -2688,5 +2688,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult male Orc/Troll bodies and current Horde Friendly/Neutral; complete defense/weapon or mage-garment chain and own dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-discipline-and-crossroads-recognition.md"
+  },
+  {
+    "npc_id": 1355,
+    "name": "Cook Ghilm",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Dwarf male/Gnome female bodies and explicit Alliance Friendly; complete training or fishing trade, installed guidance and version boundaries; no Scout sighting claimed",
+    "research_notes": "docs/research/quarry-cooking-and-ironforge-fishing-stories.md"
+  },
+  {
+    "npc_id": 5162,
+    "name": "Tansy Puddlefizz",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Dwarf male/Gnome female bodies and explicit Alliance Friendly; complete training or fishing trade, installed guidance and version boundaries; no Scout sighting claimed",
+    "research_notes": "docs/research/quarry-cooking-and-ironforge-fishing-stories.md"
   }
 ]

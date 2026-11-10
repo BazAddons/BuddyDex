@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Cook Ghilm and Tansy Puddlefizz: two complete adult Dwarf and Gnome profiles, with thirty personal lines queued.
+- Expand Dun Morogh and Ironforge companions with researched cooking guidance and a distinct fishing-supplier story.
+
 - Add Tarshaw Jaggedscar and Kil'hala: two complete adult Orc and Troll profiles, with thirty personal lines queued.
 - Expand Razor Hill and Crossroads companions with researched warrior-referral and mage-garment quest context.
 
@@ -165,4 +168,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **589 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **591 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

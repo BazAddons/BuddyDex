@@ -2359,6 +2359,20 @@
       "zone": "The Barrens",
       "route": "Horde Crossroads tailoring travel contact",
       "reason": "Complete adult male profile with fifteen queued lines; connected chains/speakers and current Neutral distinction preserved, no synthesis"
+    },
+    {
+      "npc_id": 1355,
+      "name": "Cook Ghilm",
+      "zone": "Dun Morogh",
+      "route": "Alliance early Gol Bolar Quarry cooking contact",
+      "reason": "Complete adult profile with fifteen queued lines; current training/historical trade and city surface projection distinguished, no synthesis"
+    },
+    {
+      "npc_id": 5162,
+      "name": "Tansy Puddlefizz",
+      "zone": "Ironforge",
+      "route": "Alliance Ironforge fishing-supply contact",
+      "reason": "Complete adult profile with fifteen queued lines; current training/historical trade and city surface projection distinguished, no synthesis"
     }
   ]
 }
