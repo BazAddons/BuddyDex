@@ -542,3 +542,8 @@ Completed9976/4954 adult male Orc stable-master/butcher Hammerfall profiles, fif
 ### Gikkix and Mebok Mizzyrix:422 authored profiles
 
 Added8137maleGoblin inTanaris/3446maleGoblin inRatchet, fifteen personal lines/four approved emotion-taggedv4signatures each. Full chain/manual/source/original limits in `gikkix-and-mebok-queue.md`. MebokNeutral is conditional on live reaction/nonattackability, not automatically accessible; coverage staysunverified. Current public counts207Alliance/122Horde/100unverified/sevenoverlaps,422unique. Normal gains25+150,99/100 and299/300 thresholds, conditional Horde/Alliance neutral sessions/generic exclusion/welcome validated, main23/Scout6pass. No fabricatedScout sighting. Development v002 separate from originalpubliccandidate.
+
+
+### Wunna Darkmane and Mak:424 profiles
+
+Added3081adultfemaleTauren BloodhoofVillage/3008adultmaleTauren ThunderBluff, fifteenlines/four approved emotion-taggedv4signatures each. Source/era/original limits in `wunna-and-mak-queue.md`; current apprenticebags verified, no speculative Darkmane relatives/roleplay marriage, Mak's gift for Cairne remains an intention. Public coverage207Alliance/124Horde/100unverified/sevenoverlaps,424unique. Normal25+150 gains/99-100/299-300 thresholds/gates/welcome tested; main23/Scout6pass. No fabricatedScout sightings. Developmentv002 separate from preservedpubliccandidate.

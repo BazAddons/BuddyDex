@@ -359,6 +359,46 @@
     "text": "Give yourself time to understand what you have learned. A lesson is more than the words we can repeat afterward. Consider what it asks of your actions, and where another teacher may help you see farther. That is part of why I send learners onward when they are ready.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore3081_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3081",
+    "spoken": "[warm] [sincere] [gently amused] You have become someone whose company I enjoy after the list of supplies is finished. Come, friend. I am glad to share the road with you. We can stop over a question without treating it as a delay. And if I make another little map, you may guard the village while I consider what to say next.",
+    "text": "You have become someone whose company I enjoy after the list of supplies is finished. Come, friend. I am glad to share the road with you. We can stop over a question without treating it as a delay. And if I make another little map, you may guard the village while I consider what to say next.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3081_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3081",
+    "spoken": "[warm] [friendly] [gently amused] Welcome. Tell me what you need for the road, and take your time with the question. A new trade can leave you wondering which small things matter. If you need directions, I can explain those too. That apple was marking the village on my little map. I should have finished explaining before taking a bite.",
+    "text": "Welcome. Tell me what you need for the road, and take your time with the question. A new trade can leave you wondering which small things matter. If you need directions, I can explain those too. That apple was marking the village on my little map. I should have finished explaining before taking a bite.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3081_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3081",
+    "spoken": "[amused] [conversational] [warm] I arranged some goods into a rough map while explaining the way to a traveler. The apple marked the village. Then I took a bite while considering the next direction, and the traveler laughed. Now I sometimes watch a listener's face when I reach for it. It is pleasant when they notice the missing landmark before I explain.",
+    "text": "I arranged some goods into a rough map while explaining the way to a traveler. The apple marked the village. Then I took a bite while considering the next direction, and the traveler laughed. Now I sometimes watch a listener's face when I reach for it. It is pleasant when they notice the missing landmark before I explain.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore3081_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3081",
+    "spoken": "[instructive] [reassuring] [practical] Consider what the work needs before filling the rest of your pack. Tools, thread, a vial, the right bag for gathering: small things can make a beginning easier. If you are unsure which is useful, ask. There is time to settle a question here before the road makes you wish you had stopped to hear the answer.",
+    "text": "Consider what the work needs before filling the rest of your pack. Tools, thread, a vial, the right bag for gathering: small things can make a beginning easier. If you are unsure which is useful, ask. There is time to settle a question here before the road makes you wish you had stopped to hear the answer.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore3884_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 422,
-  "remaining_count": 4,
+  "completed_count": 424,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -1666,6 +1666,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3008,
+      "name": "Mak",
+      "zone": "Thunder Bluff",
+      "source": "Exact current named adult model/Friendly/approved voice verified; complete sourced profile, fifteen lines/four v4 signatures, normal thresholds/ordinary live gates tested, no Scout sighting claimed",
+      "research_notes": "docs/research/wunna-and-mak-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3009,
       "name": "Bena Winterhoof",
       "zone": "Thunder Bluff",
@@ -1771,6 +1781,16 @@
       "zone": "Mulgore",
       "source": "Reviewed current adult identity/model, published full Forever camping or fur-delivery dialogue and installed gossip; current faction icons absent and live eligibility retained; no Scout sighting claimed",
       "research_notes": "docs/research/bloodhoof-cook-and-innkeeper.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3081,
+      "name": "Wunna Darkmane",
+      "zone": "Mulgore",
+      "source": "Exact current named adult model/Friendly/approved voice verified; complete sourced profile, fifteen lines/four v4 signatures, normal thresholds/ordinary live gates tested, no Scout sighting claimed",
+      "research_notes": "docs/research/wunna-and-mak-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -4015,22 +4035,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 3081,
-      "name": "Wunna Darkmane",
-      "zone": "Mulgore",
-      "source": "Exact current named adult model/Friendly/approved voice verified; own tabs/installed text and initial source limits checked, full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/wunna-and-mak-queue.md",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 3008,
-      "name": "Mak",
-      "zone": "Thunder Bluff",
-      "source": "Exact current named adult model/Friendly/approved voice verified; own tabs/installed text and initial source limits checked, full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/wunna-and-mak-queue.md",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

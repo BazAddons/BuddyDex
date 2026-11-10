@@ -1196,14 +1196,14 @@
       "name": "Wunna Darkmane",
       "zone": "Mulgore",
       "route": "Female/male Tauren beginner-route trade goods and leatherworking coverage",
-      "reason": "Identity checked; full stock/teaching/gossip/quest/era research pending. See docs/research/wunna-and-mak-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/wunna-and-mak-queue.md"
     },
     {
       "npc_id": 3008,
       "name": "Mak",
       "zone": "Thunder Bluff",
       "route": "Female/male Tauren beginner-route trade goods and leatherworking coverage",
-      "reason": "Identity checked; full stock/teaching/gossip/quest/era research pending. See docs/research/wunna-and-mak-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal boundary validation in docs/research/wunna-and-mak-queue.md"
     }
   ]
 }

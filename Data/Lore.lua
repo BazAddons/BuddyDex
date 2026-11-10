@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Wunna Darkmane <Trade Goods>, Bloodhoof Village,3081/3806.
+    -- Adult female Tauren, Horde Friendly; current19-row stock includes
+    -- apprentice gathering bags/Roasted Kodo Meat recipe. Apple map is
+    -- original; no speculative Darkmane family or roleplay marriage.
+    -- Research: docs/research/wunna-and-mak-queue.md.
+    [3081] = {
+        quote = "Tell me what you need for the road. If you need directions too, I can explain. The apple was marking the village, until I took a bite of it.",
+        likes = { "A traveler preparing for a new trade", "Ordinary things put to imaginative use", "Someone who enjoys the missing landmark" },
+        dislikes = { "A beginner hurried through a question", "Useful supplies forgotten before leaving", "An explanation made harder than it needs" },
+        gossip = "Wunna once used an apple to mark the village on a little map of goods. Halfway through the explanation, the village lost a bite.",
+        bio = "Wunna sells trade goods in Bloodhoof Village: tools, thread, dye, spices, and a Roasted Kodo Meat recipe. She also stocks apprentice bags for herbs, mining, and skinning, useful supplies for someone beginning a new trade.",
+        backstory = "While explaining the way to a traveler, Wunna arranged a few ordinary goods into a rough map. An apple marked the village. She took a bite while considering the next direction, and the traveler laughed. She enjoyed how easily the explanation became a conversation.",
+        secret = "She now watches a listener's face when she reaches for the apple. Sometimes they notice what is about to happen before the village loses another piece.",
+        bestFriend = "Come, friend. I enjoy your company. If we need a map, mind the village while I consider the directions.",
+        favorite = { emote = "SMILE", hint = "A little amusement would suit someone whose improvised map has a very edible landmark." },
+        lines = {
+            greet = { { "Welcome. Tell me what you need for the road, and take your time with the question. A new trade can leave you wondering which small things matter. If you need directions, I can explain those too. That apple was marking the village on my little map. I should have finished explaining before taking a bite.", tone = "[warm] [friendly] [gently amused]" },
+                "There you are. Have you remembered the last thing you needed, or come to inspect the village again?" },
+            idle = { { "I arranged some goods into a rough map while explaining the way to a traveler. The apple marked the village. Then I took a bite while considering the next direction, and the traveler laughed. Now I sometimes watch a listener's face when I reach for it. It is pleasant when they notice the missing landmark before I explain.", tone = "[amused] [conversational] [warm]" },
+                "A useful explanation leaves room for a question. There is no need to hurry a beginner past one.",
+                "If you are minding the map, keep an eye on that apple. The village may become smaller." },
+            befriended = { { "You have become someone whose company I enjoy after the list of supplies is finished. Come, friend. I am glad to share the road with you. We can stop over a question without treating it as a delay. And if I make another little map, you may guard the village while I consider what to say next.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? Tell me which part needs explaining.", "I am listening. The apple can wait another moment." },
+            loot = { { "Consider what the work needs before filling the rest of your pack. Tools, thread, a vial, the right bag for gathering: small things can make a beginning easier. If you are unsure which is useful, ask. There is time to settle a question here before the road makes you wish you had stopped to hear the answer.", tone = "[instructive] [reassuring] [practical]" } },
+            bagsFull = { "It is easier to find the useful thing when it has not disappeared under everything else." },
+            learned = { "A new beginning. Ask the questions that will help you use it well." },
+            quest = { "Think what you need for the task before turning to the road." },
+            rest = { "A little time to sit may improve both the explanation and the listening." },
+            laughAlong = { "Yes, that was the village. Fortunately, the traveler understood before it disappeared." },
+            hearth = { "Back to Bloodhoof Village. The real one is rather more difficult to misplace than my apple." },
+        },
+    },
+
+    -- Mak <Journeyman Leatherworker>, Thunder Bluff,3008/2094.
+    -- Adult male Tauren, Horde Friendly. Actual gossip values clean hands/
+    -- leather's beauty, refers to Tarn, intends fitting gift for Cairne.
+    -- Crooked practice seam is original; no gift type/delivery inferred.
+    -- Research: docs/research/wunna-and-mak-queue.md.
+    [3008] = {
+        quote = "Clean hands before you begin. Give the leather the care its beauty deserves, and let the first uneven stitch teach you what to try next.",
+        likes = { "Clean hands and a carefully begun project", "A student willing to examine a mistake", "Leather's natural beauty respected" },
+        dislikes = { "Blood or dirt staining careful work", "A learner ashamed to ask for guidance", "Pretending to know an advanced technique" },
+        gossip = "Mak keeps a crooked practice seam. Ask about it and he will show what improved, rather than hide the part that needed work.",
+        bio = "Mak teaches leatherworking in Thunder Bluff. He values clean hands and the leather's natural beauty, directing advanced students to Tarn. He hopes to seek Cairne's wisdom after crafting a fitting gift.",
+        backstory = "Mak kept an early practice piece instead of throwing it away. Its uneven seam made the next attempt easier to understand. When a student's mistake reminded him of it, he brought the piece out and showed how a difficult beginning could become useful instruction.",
+        secret = "Students may think he keeps that seam only for their lessons. He also likes the reminder that his own hands needed practice, and still have things to learn.",
+        bestFriend = "Walk beside me, friend. Your company needs no perfect stitching. I enjoy sharing what I know and hearing what you notice.",
+        favorite = { emote = "THANK", hint = "A little gratitude matters to someone who would rather help you learn than hide a difficult beginning." },
+        lines = {
+            greet = { { "Welcome, friend. Clean your hands before beginning a project, and give the leather the care its natural beauty deserves. There is no need to hide the first uneven stitch. Look at it and consider the next attempt. If your needs go beyond what I can teach, I will direct you to Tarn. Knowing that limit is useful too.", tone = "[calm] [instructive] [warm]" },
+                "There you are. Shall we look at what the last attempt has taught you?" },
+            idle = { { "I kept an early practice piece with a seam that wandered where I had not intended it to go. It made the next attempt easier to understand. Later, a student's difficulty reminded me of it. I brought it out. A mistake is more useful when you can examine it than when you spend the whole lesson pretending it never happened.", tone = "[reflective] [patient] [warm]" },
+                "I hope to seek Cairne's wisdom once I have crafted a fitting gift. That deserves careful thought.",
+                "Tarn knows more of leather than I do. A student should know where further teaching can be found." },
+            befriended = { { "You have become someone I am glad to have beside me when there is no lesson to arrange. Come along, friend. Your company needs no perfect stitching. I enjoy hearing what you have noticed, and I can admit what I still need to learn. We may both find something useful in the conversation before the next project begins.", tone = "[warm] [sincere] [steady]" } },
+            poke = { "Yes, friend? Show me the part that is troubling you.", "I am listening. You may ask without hiding the first attempt." },
+            learned = { { "Give the new technique an attentive beginning. Clean hands, a careful look at the material, and an honest examination of the first attempt are useful companions to any lesson. If the seam wanders, consider where it began to change. I kept an old practice piece because it helped me understand exactly that kind of question.", tone = "[instructive] [patient] [encouraging]" } },
+            gear = { "Look at the work closely. Even a small seam can tell you where care was taken." },
+            loot = { "Treat the material with care before deciding what you will make of it." },
+            rest = { "Let your hands rest a moment. Then return to the work with your attention ready." },
+            levelUp = { "Progress comes into clearer view when you remember where the first attempt began." },
+            laughAlong = { "Yes, the seam wandered. It has been a useful teacher all the same." },
+            hearth = { "Back to Thunder Bluff. There is work there I mean to approach with care." },
+        },
+    },
+
     -- Gikkix <Fisherman>, Steamwheedle Port,8137/7354. Adult male Goblin,
     -- current Horde Friendly; vendor of raw fish, drinks, four recipes.
     -- Cork races are original; no fishing trainer/retail relocation claim.

@@ -319,6 +319,46 @@
     "text": "There is the lift of the wings. Keep your bundle secure and let yourself notice the journey. Strength and speed are fine things, but the view is worth a little attention too.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
   },
+  "lore3008_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3008",
+    "spoken": "[warm] [sincere] [steady] You have become someone I am glad to have beside me when there is no lesson to arrange. Come along, friend. Your company needs no perfect stitching. I enjoy hearing what you have noticed, and I can admit what I still need to learn. We may both find something useful in the conversation before the next project begins.",
+    "text": "You have become someone I am glad to have beside me when there is no lesson to arrange. Come along, friend. Your company needs no perfect stitching. I enjoy hearing what you have noticed, and I can admit what I still need to learn. We may both find something useful in the conversation before the next project begins.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3008_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3008",
+    "spoken": "[calm] [instructive] [warm] Welcome, friend. Clean your hands before beginning a project, and give the leather the care its natural beauty deserves. There is no need to hide the first uneven stitch. Look at it and consider the next attempt. If your needs go beyond what I can teach, I will direct you to Tarn. Knowing that limit is useful too.",
+    "text": "Welcome, friend. Clean your hands before beginning a project, and give the leather the care its natural beauty deserves. There is no need to hide the first uneven stitch. Look at it and consider the next attempt. If your needs go beyond what I can teach, I will direct you to Tarn. Knowing that limit is useful too.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3008_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3008",
+    "spoken": "[reflective] [patient] [warm] I kept an early practice piece with a seam that wandered where I had not intended it to go. It made the next attempt easier to understand. Later, a student's difficulty reminded me of it. I brought it out. A mistake is more useful when you can examine it than when you spend the whole lesson pretending it never happened.",
+    "text": "I kept an early practice piece with a seam that wandered where I had not intended it to go. It made the next attempt easier to understand. Later, a student's difficulty reminded me of it. I brought it out. A mistake is more useful when you can examine it than when you spend the whole lesson pretending it never happened.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore3008_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:3008",
+    "spoken": "[instructive] [patient] [encouraging] Give the new technique an attentive beginning. Clean hands, a careful look at the material, and an honest examination of the first attempt are useful companions to any lesson. If the seam wanders, consider where it began to change. I kept an old practice piece because it helped me understand exactly that kind of question.",
+    "text": "Give the new technique an attentive beginning. Clean hands, a careful look at the material, and an honest examination of the first attempt are useful companions to any lesson. If the seam wanders, consider where it began to change. I kept an old practice piece because it helped me understand exactly that kind of question.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
   "lore3013_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
