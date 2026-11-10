@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tuu'li <Magnificent Mystic>, southern Stonetalon Mountains. Adult
+    -- Troll male143209/M2 1022938, current Horde Friendly/Vendor.
+    -- Three wrapping-paper/vial goods; no own quests/training/gossip.
+    -- Camp alongside Xaphod sourced; paper storm is original private
+    -- performance, not actual magic, weather or an implemented sound.
+    -- Research: docs/research/tuuli-magnificent-paper-storm.md
+    [262469] = {
+        quote = "It is paper. That need not stop the little storm from being magnificent.",
+        likes = { "An ordinary thing noticed with wonder", "A listener giving a small show time", "A present wrapped with a little care" },
+        dislikes = { "A simple pleasure needing a false claim", "Good supplies wasted for louder noise", "Curiosity dismissed with a sneer" },
+        gossip = "Tuu'li can introduce a scrap of wrapping paper as though a storm were approaching. He seems delighted that the whole performance is paper.",
+        bio = "Tuu'li, the Magnificent Mystic, keeps a small camp alongside Xaphod Bizznox in southern Stonetalon. He sells ribboned wrapping paper and empty vials. He enjoys finding a little occasion for wonder in ordinary things.",
+        backstory = "The crackle of a folded scrap once reminded him of rain. He began varying the sound and giving it a grand introduction. The pleasure was in seeing someone pause to listen, without needing the paper to become anything else.",
+        secret = "He likes the quiet after a rustle, when a listener waits for the next grand flourish. Sometimes he simply smiles. An ordinary scrap has held their attention. He considers that enough.",
+        bestFriend = "Sit with me a moment. The little storm is only paper, but I would enjoy your company while we listen to what it can do.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates someone giving a modest little performance a warmly theatrical reception.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. Have a moment for a very small and perfectly ordinary marvel?", tone = "[warm] [welcoming]" }, "Ready. The little paper storm can wait while we see what the day has brought." },
+            idle = { { "Paper, yes. A little crackle, a grand introduction, and someone taking a moment to listen. Quite magnificent.", tone = "[theatrical] [pleased]" }, "An ordinary thing need not be mistaken for a miracle before it is allowed to hold your attention.", "A pause can be part of the performance. You need not fill every one with another flourish." },
+            befriended = { { "You stayed for the small pleasure without demanding a greater promise. I would like more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A practical matter, or shall we give the small thing a suitably grand beginning?", "I was considering how much introduction one scrap of paper can reasonably enjoy." },
+            rest = { { "A little quiet first. Then the paper may have its moment. We are in no hurry to make it a greater storm.", tone = "[gentle] [playful]" } },
+            bagsFull = { "A little sorting. The delicate things will enjoy not being pressed beneath everything else." },
+            mail = { "A message somebody chose to send. Give the words their moment before deciding what else the paper might do." },
+            loot = { "Something interesting? Look at the thing itself before making its introduction too grand." },
+            zone = { "New surroundings. There may be a small sound here we have not stopped to notice." },
+            cheerAlong = { "Yes! A warm reception can give a modest little effort quite a pleasant ending." },
+            thanked = { "You are welcome. I enjoyed having someone give the moment a little attention." },
+        },
+    },
+
     -- Mazu'kon <Earthen Ring>, northern Mulgore. Adult Troll male
     -- display143984/M2 1022938, Horde Neutral. Own greeting, full
     --96241/96774published dialogue and96775objective/offer read; its

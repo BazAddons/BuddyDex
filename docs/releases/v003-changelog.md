@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tuu'li: a complete male Troll profile with fifteen personal lines queued.
+- Expand southern Stonetalon companions with a researched camp merchant and an original paper-storm performance.
+
 - Add Mazu'kon: a complete male Troll Earthen Ring profile with fifteen personal lines queued.
 - Retain his researched toxin curiosity, private idol transaction, and Zum'rah grievance without inventing missing quest outcomes.
 
@@ -219,4 +222,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **620 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **621 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

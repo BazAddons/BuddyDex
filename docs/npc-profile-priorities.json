@@ -2576,6 +2576,13 @@
       "zone": "Mulgore",
       "route": "Northern Mulgore Earthen Ring camp",
       "reason": "Complete Troll male profile, fifteen queued lines, sourced curiosity/private idol transaction and unresolved grievance; no synthesis"
+    },
+    {
+      "npc_id": 262469,
+      "name": "Tuu'li",
+      "zone": "Stonetalon Mountains",
+      "route": "Southern Stonetalon small camp vendor",
+      "reason": "Complete Troll male profile, fifteen queued lines, sourced title/camp/goods and original ordinary-paper performance; no synthesis"
     }
   ]
 }

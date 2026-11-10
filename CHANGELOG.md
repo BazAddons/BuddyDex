@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tuu'li: a complete male Troll profile with fifteen personal lines queued.
+- Expand southern Stonetalon companions with a researched camp merchant and an original paper-storm performance.
+
 - Add Mazu'kon: a complete male Troll Earthen Ring profile with fifteen personal lines queued.
 - Retain his researched toxin curiosity, private idol transaction, and Zum'rah grievance without inventing missing quest outcomes.
 

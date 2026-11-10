@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 261,
     "unverified": 147,
-    "horde": 228
+    "horde": 229
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,7 +14,7 @@
     "2": 74,
     "5": 65,
     "4": 45,
-    "8": 48,
+    "8": 49,
     "9": 35,
     "6": 73,
     "96": 8,
@@ -43,7 +43,7 @@
     "Thunder Bluff": 37,
     "Durotar": 48,
     "The Barrens": 31,
-    "Stonetalon Mountains": 7,
+    "Stonetalon Mountains": 8,
     "Darnassus": 8,
     "Burning Steppes": 1,
     "Ashenvale": 8,
@@ -7747,6 +7747,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260558"
     },
     {
+      "npc_id": 262469,
+      "name": "Tuu'li",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown; secondary Neutral listing not substituted",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262469"
+    },
+    {
       "npc_id": 263326,
       "name": "Madam Swyndle",
       "zone": "Riverglades",
@@ -7943,6 +7956,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 620,
-  "awaiting_signature_audio_profiles": 166
+  "authored_profiles": 621,
+  "awaiting_signature_audio_profiles": 167
 }
