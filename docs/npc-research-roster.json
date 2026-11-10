@@ -3850,5 +3850,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult High Order Skyborne woman, both factions explicitly Friendly; full refugee quests, own gossip and ancient-work dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/ealaanes-keepsakes-and-resaans-exclusion.md"
+  },
+  {
+    "npc_id": 10216,
+    "name": "Gubber Blump",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance man; Full1138/1141 and letter review; original welcome for a new crab dish; no Scout sighting claimed",
+    "research_notes": "docs/research/gubbers-next-dish-and-uthroks-pouch.md"
+  },
+  {
+    "npc_id": 3488,
+    "name": "Uthrok",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde man; Eleven current goods; original larger small shot pouch wordplay; no Scout sighting claimed",
+    "research_notes": "docs/research/gubbers-next-dish-and-uthroks-pouch.md"
   }
 ]

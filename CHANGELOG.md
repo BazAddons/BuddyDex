@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gubber Blump and Uthrok: adult Alliance Dwarf and Horde Orc profiles in Auberdine and the Crossroads, with thirty personal lines queued.
+- Review complete fishing quests and letter evidence alongside current bowyer stock; document original recipe conversation and pouch wordplay.
+
 - Add Ealaane Nimbuswalker, a shared-faction adult Skyborne refugee, with fifteen personal lines queued.
 - Review refugee and heirloom dialogue; preserve grief and exclude the deceased Resaan from recruitable profile additions.
 

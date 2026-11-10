@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gubber Blump and Uthrok: adult Alliance Dwarf and Horde Orc profiles in Auberdine and the Crossroads, with thirty personal lines queued.
+- Review complete fishing quests and letter evidence alongside current bowyer stock; document original recipe conversation and pouch wordplay.
+
 - Add Ealaane Nimbuswalker, a shared-faction adult Skyborne refugee, with fifteen personal lines queued.
 - Review refugee and heirloom dialogue; preserve grief and exclude the deceased Resaan from recruitable profile additions.
 
@@ -435,4 +438,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **755 fully written NPC profiles**: 454 have initial signature recordings, and three hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **757 fully written NPC profiles**: 454 have initial signature recordings, and three hundred three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

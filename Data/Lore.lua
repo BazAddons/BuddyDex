@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gubber Blump, Auberdine/Darkshore. Adult Dwarf male9550/M2
+    -- 878772, Alliance Friendly. Full1138/1141 + own greetings reviewed;
+    -- grouper, crab, family pole and cousin Graun established.
+    -- His private pleasure in a friend adding a dish is original.
+    -- Research: docs/research/gubbers-next-dish-and-uthroks-pouch.md
+    [10216] = {
+        quote = "I like hearing how other folks cook crab. Sometimes they know a way I haven't thought of yet. Then I have another one to tell folks about.",
+        likes = { "Someone giving fishing a try", "Another way to cook crab", "A friend's catch worth writing about" },
+        dislikes = { "Being hurried away from a good cast", "A fishing friend giving up too soon", "Crab left out of the meal entirely" },
+        gossip = "Gubber can tell you a great many ways to cook crab. Tell him another and he may begin the list again, just to make room for it.",
+        bio = "Gubber Blump fishes at Auberdine in Darkshore. Proud of the Blump family's fishing, he asks for Darkshore grouper and fine crab chunks. He has plenty to say about a catch, especially if it might become dinner.",
+        backstory = "Murlocs have kept the fishing boats from going out as they used to. Gubber still wants to catch grouper and shares the family pole with a helpful angler. His praise reaches as far as his cousin Graun's fishing ability.",
+        secret = "He would gladly hear a crab dish he has never thought of. Adding it to his list would mean someone had shared a little of their own supper with him, even before a pan was lit.",
+        bestFriend = "Your turn. Tell me how you would cook crab. I'll listen. I might remember another way while you're talking, though.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He likes seeing his enthusiasm catch on with the person beside him.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Hello, friend. Come along. You can tell me if you have been fishing. I like hearing about that, even when it wasn't a very big catch.", tone = "[cheerful] [unhurried]" }, "Good to see you. I was thinking about supper. You might have a way to cook it that I haven't tried yet." },
+            idle = { { "I like hearing another way to cook crab. Then I have a new one to tell somebody. It makes the list longer, but that is a good sort of problem.", tone = "[earnest] [delighted]" }, "My cousin Graun can fish real well. It is a good thing to be known for, I reckon.", "Them murlocs have made a bother of going out in the boats. That doesn't stop me thinking about the grouper." },
+            befriended = { { "I am glad we are friends. Come along. You can tell me something you like, and I will try to wait until you finish before I tell you about fishing again.", tone = "[warm] [sincere]" } },
+            poke = { "What is it, friend? Did you think of another way to cook crab?", "I am listening. Was it about fishing, or something else you like?" },
+            mail = { { "A letter is a good way to ask whether somebody is still fishing. They might write back and tell you what they caught.", tone = "[fond] [hopeful]" } },
+            loot = { "Have a good look. I have found things while fishing that weren't much use for supper, but somebody else might like them." },
+            rest = { "A little rest is nice. I could think about what to cook next. You could tell me what you like." },
+            newFriend = { "Someone new. I wonder if they fish. There is no harm in asking." },
+            thanked = { "You are welcome. I am glad I could do something nice for you." },
+            quest = { "Make sure you have what they asked for. A good catch is even better when it is the catch somebody needs." },
+            learned = { "That is good. Give it a try while you still remember what to do. You might find you like it." },
+        },
+    },
+
+    -- Uthrok <Bowyer & Gunsmith>, Crossroads/Barrens. Adult Orc
+    -- male1866/M2 917116, Horde Friendly vendor/repair,11 current goods.
+    -- No own quest/gossip established. Larger small pouch joke is original.
+    -- Research: docs/research/gubbers-next-dish-and-uthroks-pouch.md
+    [3488] = {
+        quote = "Tell me which part you mean. Small shot pouch can be a surprisingly long conversation if we begin at different ends of the name.",
+        likes = { "A question asked before a purchase", "A good fit over an impressive name", "A dry joke caught without explaining" },
+        dislikes = { "Choosing equipment without looking", "Rough handling at the counter", "A name treated as the whole description" },
+        gossip = "Someone asked Uthrok for a larger small shot pouch. He repeated it very carefully, then began to laugh. Apparently names have limits.",
+        bio = "Uthrok is the bowyer and gunsmith at the Crossroads in the Barrens. He sells bows, guns, ammunition and quivers, and offers repairs. He likes a traveler to look at the actual equipment before choosing by its name.",
+        backstory = "A visitor asked him for a larger small shot pouch. He repeated the request to be certain, only to hear how odd it sounded. They shared a laugh before returning to the perfectly sensible matter of what the traveler needed.",
+        secret = "He still hears that request whenever he names the pouch. Sometimes he slows down over the words, hoping a familiar customer will notice. A shared joke makes a long day shorter.",
+        bestFriend = "Come along. We can discuss large small things on the way. You understand what I mean. That saves us a good deal of explaining.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys the moment someone catches the joke hidden in an ordinary request.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. We can leave the discussion of larger small pouches for another day. Unless you have a better name for one.", tone = "[dry] [friendly]" }, "Good to see you. Tell me what you need, or what has amused you. Either is a useful beginning." },
+            idle = { { "A larger small shot pouch. A sensible request, until I heard myself repeating it. I am glad we both found that funny.", tone = "[deadpan] [amused]" }, "A name is a beginning. Take a look at the thing before deciding you have understood all of it.", "Sometimes a customer asks the simplest question, and I discover I have made the answer needlessly long." },
+            befriended = { { "We understand one another well enough to share a joke without a full explanation. Come along, friend. I count that as a good beginning.", tone = "[rough warmth] [sincere]" } },
+            poke = { "Which part did you mean? I would rather ask than guess wrong.", "Yes? If this is about a pouch, we may need to agree on the size of the question first." },
+            gear = { { "Look it over carefully. Decide whether it suits you before being impressed by what someone calls it.", tone = "[steady] [practical]" } },
+            loot = { "See what you actually have before making room for what you hoped to find." },
+            bagsFull = { "Larger small pouches again, is it? Put things in order before deciding what you need." },
+            rest = { "A useful pause. You can look over your equipment while you are no longer trying to walk with it." },
+            newFriend = { "Someone new. Give them a clear introduction. They should not need to guess what we meant." },
+            thanked = { "You are welcome. Glad we found the useful answer before using up the whole conversation." },
+            quest = { "Be sure the request is clear. Repeating it aloud can reveal a misunderstanding. Occasionally it reveals a joke." },
+        },
+    },
+
     -- Ealaane Nimbuswalker, Zephras Isle near Valanaar. Adult High Order
     -- Skyborne female138006/M2 7478494, both factions Friendly. Full94896/
     -- 94897, own island-collapse gossip and ancient-hilt dialogue reviewed.

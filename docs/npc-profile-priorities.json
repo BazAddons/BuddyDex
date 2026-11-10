@@ -3521,6 +3521,20 @@
       "zone": "Zephras Isle",
       "route": "Shared Zephras refugee contact near Valanaar",
       "reason": "Community aid, grief and ancestral craft; fifteen personal lines queued; deceased Resaan excluded"
+    },
+    {
+      "npc_id": 10216,
+      "name": "Gubber Blump",
+      "zone": "Darkshore",
+      "route": "Auberdine fishing and crab requests",
+      "reason": "Full1138/1141 and letter review; original welcome for a new crab dish; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3488,
+      "name": "Uthrok",
+      "zone": "The Barrens",
+      "route": "Crossroads bowyer gunsmith and repairs",
+      "reason": "Eleven current goods; original larger small shot pouch wordplay; fifteen personal lines queued without synthesis"
     }
   ]
 }
