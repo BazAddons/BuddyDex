@@ -2436,6 +2436,20 @@
       "zone": "Ironforge",
       "route": "Alliance Ironforge leatherworking supplies",
       "reason": "Complete adult Dwarf/Gnome profile with fifteen queued lines; historical/current trade distinguished and no synthesis"
+    },
+    {
+      "npc_id": 3332,
+      "name": "Lumak",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Valley of Honor fishing",
+      "reason": "Complete adult Orc male/Troll female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3405,
+      "name": "Zeal'aya",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Drag herbalism supplies",
+      "reason": "Complete adult Orc male/Troll female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
     }
   ]
 }

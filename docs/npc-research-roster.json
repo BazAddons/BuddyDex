@@ -2765,5 +2765,19 @@
     "zone": "Ironforge",
     "source": "Reviewed exact adult Dwarf/Gnome identity, current own tabs and full Classic/current stock; no personal quests/gossip found and no Scout sighting claimed",
     "research_notes": "docs/research/quarry-pie-and-ironforge-color.md"
+  },
+  {
+    "npc_id": 3332,
+    "name": "Lumak",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-fishing-and-leaf-shadows.md"
+  },
+  {
+    "npc_id": 3405,
+    "name": "Zeal'aya",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-fishing-and-leaf-shadows.md"
   }
 ]

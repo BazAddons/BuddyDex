@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Lumak and Zeal'aya: complete Orc and Troll profiles with thirty personal lines queued.
+- Expand Orgrimmar fishing and herbalism companions while keeping researched trade and original personality details distinct.
+
 - Add Kazan Mogosh and Bombus Finespindle: complete Dwarf and Gnome profiles with thirty personal lines queued.
 - Expand Gol'Bolar Quarry and Ironforge companions using documented current and Classic trade evidence.
 
@@ -183,4 +186,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **600 fully written NPC profiles**: 454 have initial signature recordings, and one hundred forty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **602 fully written NPC profiles**: 454 have initial signature recordings, and one hundred forty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

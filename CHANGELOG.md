@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lumak and Zeal'aya: complete Orc and Troll profiles with thirty personal lines queued.
+- Expand Orgrimmar fishing and herbalism companions while keeping researched trade and original personality details distinct.
+
 - Add Kazan Mogosh and Bombus Finespindle: complete Dwarf and Gnome profiles with thirty personal lines queued.
 - Expand Gol'Bolar Quarry and Ironforge companions using documented current and Classic trade evidence.
 

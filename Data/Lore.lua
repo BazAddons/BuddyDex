@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lumak <Fishing Trainer>, Valley of Honor, Orgrimmar. Adult Orc male
+    -- display1332/M2 917116, Horde Neutral. Current3training rows;
+    -- Classic6608 and full Nat6607, installed own food/training/referral gossip.
+    -- Celebrating beginners and passing encouragement are original.
+    -- Research: docs/research/orgrimmar-fishing-and-leaf-shadows.md
+    [3332] = {
+        quote = "When you learn more than me, I got something to cheer about.",
+        likes = { "A learner proud of a small catch", "Fish cooked while the company stays", "Knowing when to recommend a friend" },
+        dislikes = { "Pretending to know every answer", "A first success laughed away", "A good meal hurried past" },
+        gossip = "Lumak can make a small catch feel like a great achievement. The fish does not have to grow any larger for his praise to get louder.",
+        bio = "Lumak teaches fishing in Orgrimmar's Valley of Honor. He enjoys fish and readily admits when a learner needs more than he can teach. His referral names Nat Pagle as a friend who can help them go further.",
+        backstory = "He began making a little celebration of the catches people were embarrassed to show him. The size mattered less than the pleased face behind it. Now he tries to notice the moment a learner realizes they have done something well.",
+        secret = "He is especially pleased when someone brings a beginner over to show him their catch. A little of his encouragement has found another voice. He likes that better than being thanked.",
+        bestFriend = "You know something I do not? Good. Come sit. We can trade a little learning while we wait for a bite.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He likes a little celebration when someone discovers they have made progress.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good, you here. Come along. Maybe we find a bite and something worth learning.", tone = "[hearty] [welcoming]" }, "Ready. You bring the company. I bring a very good appetite." },
+            idle = { { "A little fish can be a big moment for somebody. Let them enjoy it.", tone = "[warm] [encouraging]" }, "You learn all I know, I tell you who knows more. That is good teaching too.", "Fish for the table, friends around it. A fine way to finish a day." },
+            befriended = { { "You make room for a good word as well as a good catch. I am glad to come with you.", tone = "[warm] [sincere]" } },
+            poke = { "What you need? A little advice, or somebody to be pleased with you?", "If you found a better way, tell me. I can learn too." },
+            learned = { { "There. A little more than you knew before. That deserves a happy moment.", tone = "[proud] [encouraging]" } },
+            loot = { "Something useful? A small find can still be worth bringing home." },
+            bagsFull = { "Make room before you take more. A good catch needs somewhere to go." },
+            rest = { "A pause is good. Stay a while. You do not need to fill all the quiet." },
+            zone = { "New water somewhere here, maybe. Somebody local will know more than me." },
+            cheerAlong = { "Yes! Let them know you saw what they managed." },
+            thanked = { "Glad to help. Pass a good word to the next one learning." },
+        },
+    },
+
+    -- Zeal'aya <Herbalism Supplier>, Drag, Orgrimmar. Adult Troll female
+    -- display4362/M2 1018060, Horde Friendly. Classic4supplies, current
+    -- own tabs0, no supported personal quest/gossip. Leaf-shadow drawings
+    -- are original; no retail poisons, Legion events or new item rewards.
+    -- Research: docs/research/orgrimmar-fishing-and-leaf-shadows.md
+    [3405] = {
+        quote = "A shadow can show you a leaf you hurried past.",
+        likes = { "Leaf shadows shifting in the light", "A small drawing kept for pleasure", "Supplies packed with room to spare" },
+        dislikes = { "A delicate leaf crushed carelessly", "Every quiet hobby needing a purpose", "Vials knocked loose in a full pack" },
+        gossip = "Zeal'aya sometimes pauses over a scrap of paper when the light changes. She is waiting for a leaf's shadow to settle into a shape she likes.",
+        bio = "Zeal'aya is an herbalism supplier in Orgrimmar's Drag. Vials and an herb pouch appear in her Classic stock. Away from the practical business, she enjoys noticing the shapes leaves cast across a page.",
+        backstory = "A leaf shadow once crossed a scrap she was using for a note. She traced its edge before it moved. She began keeping these small shapes for herself, without needing the pages to teach anything or become a finished picture.",
+        secret = "Her favorite page shows an untidy little weed. She remembers how its shadow spread across the paper, looking far grander than the plant. She has never tried to improve it.",
+        bestFriend = "The light will move soon. Sit with me a moment. We can enjoy this shape before it becomes another one.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates quiet company that notices the small thing holding her attention.",
+        },
+        recordingVoice = "troll-female",
+        lines = {
+            greet = { { "Good to see you. Come, we may find something worth a second look.", tone = "[gentle] [welcoming]" }, "Ready. I have a little paper tucked away, if the light gives us a reason." },
+            idle = { { "A leaf shadow does not stay for a finished drawing. Sometimes the beginning is enough.", tone = "[thoughtful] [pleased]" }, "Pack the delicate things where you can reach them without crushing everything else.", "A small pleasure can keep its own purpose. You need not turn it into useful work." },
+            befriended = { { "You stayed to notice something with me. I would like more moments of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? There is time to look before we hurry on.", "I was watching that shape change. Such a small thing to hold the attention." },
+            rest = { { "Let the light move while we stay still a little. There is no task to finish here.", tone = "[calm] [content]" } },
+            loot = { "Keep it safe if it is delicate. The bottom of a crowded pack is a hard place for small things." },
+            bagsFull = { "A little room makes it easier to care for what you mean to keep." },
+            zone = { "Different light here. I wonder what shapes it will lay across a page." },
+            hearth = { "Homeward. There is pleasure in a place where you know how the afternoon light falls." },
+            mail = { "A page somebody took the time to send. Let us see what they wanted you to know." },
+            thanked = { "You are welcome. A little attention is a kind thing to offer." },
+        },
+    },
+
     -- Kazan Mogosh <Food & Drink Merchant>, Gol'Bolar Quarry, Dun Morogh.
     -- Adult Dwarf male3418/M2 878772, Alliance Friendly. Classic18foods/
     -- drinks; current own tabs0/no Vendor flag; no own quest/gossip.

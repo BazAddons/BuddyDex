@@ -4,17 +4,17 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 256,
-    "unverified": 142,
-    "horde": 218
+    "unverified": 143,
+    "horde": 219
   },
   "npc_race_counts": {
     "1": 165,
     "3": 46,
     "7": 39,
-    "2": 69,
+    "2": 70,
     "5": 63,
     "4": 43,
-    "8": 46,
+    "8": 47,
     "9": 32,
     "6": 71,
     "96": 8,
@@ -36,7 +36,7 @@
     "Teldrassil": 19,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
-    "Orgrimmar": 38,
+    "Orgrimmar": 40,
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 18,
@@ -3379,6 +3379,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3320"
     },
     {
+      "npc_id": 3332,
+      "name": "Lumak",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3332"
+    },
+    {
       "npc_id": 3333,
       "name": "Shankys",
       "zone": "Orgrimmar",
@@ -3610,6 +3621,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3404"
+    },
+    {
+      "npc_id": 3405,
+      "name": "Zeal'aya",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3405"
     },
     {
       "npc_id": 3410,
@@ -7692,6 +7716,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 600,
-  "awaiting_signature_audio_profiles": 146
+  "authored_profiles": 602,
+  "awaiting_signature_audio_profiles": 148
 }
