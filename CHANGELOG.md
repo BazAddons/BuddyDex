@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gimble Thistlefuzz, Tilli Thistlefuzz and Jabbey: three full researched adult Gnome/Goblin profiles with forty-five personal lines queued.
+- Preserve current enchanting/supply roles and normal live eligibility; exclude unverified family ties, Season of Discovery biography and later retail events.
+
 - Add Wulan, Lah'Mawhani, Hahrana Ironhide and Laird: four researched adult service profiles with sixty personal lines queued for approved voices.
 - Expand male/female Troll and female Tauren coverage; preserve Hahrana's local armor priorities and Laird's unresolved fish comparison without later retail events.
 

@@ -41,6 +41,94 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gimble Thistlefuzz <Expert Enchanter>, Thistlefuzz Arcanery, Ironforge.
+    -- Adult male Gnome5157/display3111, Alliance Friendly. Own gossip is
+    -- brusque; refers learners to Thonys/Kitta. No invented Tilli kinship.
+    -- Ordinary spoon original. docs/research/thistlefuzz-and-jabbey.md.
+    [5157] = {
+        recordingVoice = "male",
+        quote = "Yes, I teach enchanting. No, that does not mean every perfectly useful object in reach needs an improvement.",
+        likes = { "A pupil who demonstrates the work", "A clear question asked once", "Tea stirred with an ordinary spoon" },
+        dislikes = { "Being mistaken for every enchanter", "Confidence without competence", "Suggestions for improving his teaspoon" },
+        gossip = "Gimble keeps a completely ordinary teaspoon. Visitors have suggested enchantments for it. The suggestions have not improved his temper.",
+        bio = "Gimble Thistlefuzz teaches enchanting upstairs in Ironforge's Thistlefuzz Arcanery. He is brisk with uncertain visitors and unimpressed by swagger. Demonstrate competence, and there is a real lesson behind the sharp welcome.",
+        backstory = "A suggestion that Gimble enchant his teaspoon arrived just as he sat down for tea. He refused. The more people proposed improvements, the more fond he grew of a small object that already did exactly what he required.",
+        secret = "He likes one part of the day to work without a spell, a demonstration or an argument. The spoon is not a failed experiment. It is a spoon, and he finds that entirely satisfactory.",
+        bestFriend = "Sit down. There is another cup. Neither it nor your company requires an improvement before I can enjoy it.",
+        favorite = { emote = "NOD", hint = "He appreciates someone hearing a plain answer without demanding a more impressive one." },
+        lines = {
+            greet = { { "Ah. You. Good. We can begin without establishing which enchanter I am.", tone = "[brusque] [quietly pleased]" }, "Come along. I could use a conversation that starts with a specific point." },
+            idle = { { "It is a spoon. It stirs the tea. I remain satisfied with the arrangement.", tone = "[dry] [firm]" }, "Confidence is useful once the hands can support the claim.", "I have been perfectly clear. I am willing to be clear again, but I would rather drink my tea." },
+            befriended = { { "You listen, you ask sensible questions, and you came back. Yes, I would enjoy your company.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? If it concerns the teaspoon, reconsider.", "I am listening. A short question need not have a grand introduction." },
+            learned = { { "Good. You have demonstrated it. Now we can stop discussing whether you can do it.", tone = "[brisk] [approving]" } },
+            gear = { "Useful work begins by knowing what actually needs improving." },
+            loot = { "Examine it before congratulating yourself on what it might be." },
+            rest = { "A pause. I am not accepting suggestions for its enchantment." },
+            bagsFull = { "More possessions do not amount to greater competence. They do amount to a heavier bag." },
+            levelUp = { "Progress. Very well. You may be pleased without becoming unbearable." },
+            hearth = { "Home. With luck, someone has left the ordinary things alone." },
+        },
+    },
+    -- Tilli Thistlefuzz <Enchanting Supplies>, Thistlefuzz Arcanery,
+    -- Ironforge. Adult female Gnome5158/display3120, Alliance Friendly.
+    -- Current12stock rows; supplier, not assumed trainer or Gimble's wife.
+    -- Paper crowns original. docs/research/thistlefuzz-and-jabbey.md.
+    [5158] = {
+        recordingVoice = "female",
+        quote = "A paper crown improves an afternoon beautifully. It does nothing for enchanting, but not everything has to.",
+        likes = { "A maker returning with a finished tale", "A neat fold in an ordinary sheet", "A little ceremony over a modest pleasure" },
+        dislikes = { "Dust scattered across the counter", "Assuming a supplier teaches every spell", "Taking a paper title too seriously" },
+        gossip = "Tilli folds spare paper into crowns. She says the quality of the fold matters more than the grandeur of the title. Hers sits quite straight.",
+        bio = "Tilli Thistlefuzz supplies enchanters at the Thistlefuzz Arcanery in Ironforge. Rods, dust, essences and formulas support the work around her. She likes hearing what became of the materials after they left her counter.",
+        backstory = "Tilli folded an unused sheet into a crown during a quiet moment. Putting it on made the ordinary afternoon feel pleasantly ceremonial. She began keeping a clean piece of spare paper for days that could use a small celebration.",
+        secret = "She has considered several magnificent titles, but prefers being the person who can call a celebration over very little. A crown is more enjoyable when nobody mistakes it for authority.",
+        bestFriend = "There is paper for two crowns. Choose your title. Mine can wait until we decide what harmless little thing deserves celebrating.",
+        favorite = { emote = "CURTSEY", hint = "She would enjoy a playful bit of ceremony, provided nobody mistook it for a serious demand." },
+        lines = {
+            greet = { { "There you are. Shall we declare this a splendid occasion on very little evidence?", tone = "[bright] [playful]" }, "Come along. I have spent enough of today wondering what everyone else is making." },
+            idle = { { "The crown is paper. Its impressive powers consist of making me enjoy my afternoon.", tone = "[cheerful] [wry]" }, "A finished piece is interesting. So is hearing what the maker learned along the way.", "A perfectly ordinary day may still deserve a small ceremony." },
+            befriended = { { "You came for the company. Then I declare the visit a success before we have even gone anywhere.", tone = "[warm] [delighted]" } },
+            poke = { "Yes? Is the crown crooked? Be honest. That matters more than my title.", "You may address me as Tilli. The grand title is still under consideration." },
+            learned = { { "A new skill! That seems a perfectly good reason for a little celebration.", tone = "[pleased] [encouraging]" } },
+            loot = { "What will you do with it? I like knowing that part of the story." },
+            bagsFull = { "Save a little space for what you meant to make, not only what you happened to find." },
+            mail = { "Perhaps news from somebody who finished their work. Open it before I start guessing." },
+            rest = { "We can pause. No ceremony has ever improved by exhausting everyone attending." },
+            levelUp = { "Splendid. I shall allow a slightly grander title for the afternoon." },
+            hearth = { "Home again. An excellent occasion, even without a crown." },
+        },
+    },
+    -- Jabbey <General Goods>, Steamwheedle Port, Tanaris. Adult male Goblin
+    -- 8139/display7355, current Horde Friendly only; no inferred Alliance
+    -- icon. Current23stock rows include chowder recipe, no own quest chain.
+    -- No SoD medallion/Enie or Cataclysm fate; sand buildings original.
+    -- docs/research/thistlefuzz-and-jabbey.md.
+    [8139] = {
+        recordingVoice = "goblin-male",
+        quote = "I built a very fine warehouse out of sand. Excellent view. Terrible lease. The tide refused to negotiate.",
+        likes = { "A customer who checks the supplies", "A sand wall that survives one more wave", "A friend with an ambitious building plan" },
+        dislikes = { "Sand inside a perfectly good bag", "Expecting a recipe to cook itself", "Being told the tide is a business partner" },
+        gossip = "Jabbey builds little sand warehouses when he has time by the shore. He claims the sea gives thorough inspections. The reviews are severe.",
+        bio = "Jabbey sells general goods at Steamwheedle Port in Tanaris. Bags, drinks and ammunition help travelers stay supplied, and cooks can seek his Undermine Clam Chowder recipe. A recipe on his shelf is not a meal already prepared.",
+        backstory = "Jabbey shaped damp sand into a little warehouse during a break by the water. The tide demolished it. He returned to build a broader wall, enjoying a challenge whose failure required neither a refund nor a ruined shipment.",
+        secret = "He knows the sea will win. That makes the project pleasantly temporary. He can attempt a ridiculous tower and laugh when it falls, without pretending the loss belongs to a customer.",
+        bestFriend = "Come help with the next tower. Make it absurd. It only has to stand long enough for us to admire our excellent judgment.",
+        favorite = { emote = "CHEER", hint = "A little encouragement suits a builder whose most reliable critic is the next wave." },
+        lines = {
+            greet = { { "There you are. Interested in a building project with very little future and an excellent view?", tone = "[brisk] [dryly amused]" }, "Come along. A walk is a fine investment if the company is good." },
+            idle = { { "The sea inspected the warehouse again. Apparently it prefers an open floor plan.", tone = "[wry] [playful]" }, "A recipe and a hot supper are different purchases. An important distinction.", "The tower fell beautifully. I would like to claim that part was planned." },
+            befriended = { { "You came back without needing supplies. Good. I would rather have a friend than another excuse to count the stock.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you found sand in the bag, that was not an advertised feature.", "I have a plan for the next wall. The sea has not approved it." },
+            bagsFull = { { "A sound bag helps. Filling it with everything you see remains a separate decision.", tone = "[brisk] [practical]" } },
+            loot = { "Will it travel well? Best to ask before you discover the answer on your back." },
+            rest = { "A break. We could design something wildly impractical while it lasts." },
+            quest = { "Done? Good. I appreciate a task that stays finished when the water comes in." },
+            zone = { "New surroundings. I am trying to admire them before considering storage space." },
+            mail = { "A letter. At last, something that can arrive without a whole crate." },
+            hearth = { "Home. Sensibly built on something more reliable than my last sand warehouse." },
+        },
+    },
     -- Wulan <Cooking Supplies>, Shadowprey Village, Desolace. Adult male
     -- Troll12033/display12036, Horde Friendly. Current15stock rows include
     -- Expert Cookbook; supplier, not assumed author/trainer. No own quest.

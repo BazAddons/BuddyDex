@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 214,
+    "alliance": 216,
     "unverified": 130,
-    "horde": 158
+    "horde": 159
   },
   "npc_race_counts": {
     "1": 165,
     "3": 38,
-    "7": 27,
+    "7": 29,
     "2": 60,
     "5": 48,
     "4": 29,
     "8": 38,
-    "9": 23,
+    "9": 24,
     "6": 55,
     "96": 5,
     "95": 7
@@ -27,7 +27,7 @@
     "Stormwind City": 114,
     "Redridge Mountains": 23,
     "Dun Morogh": 7,
-    "Ironforge": 35,
+    "Ironforge": 37,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
     "Silverpine Forest": 4,
@@ -47,7 +47,7 @@
     "Thousand Needles": 5,
     "Undercity": 8,
     "Dustwallow Marsh": 1,
-    "Tanaris": 5,
+    "Tanaris": 6,
     "Feralas": 2,
     "Desolace": 8,
     "Winterspring": 1,
@@ -4040,6 +4040,32 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5150"
     },
     {
+      "npc_id": 5157,
+      "name": "Gimble Thistlefuzz",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5157"
+    },
+    {
+      "npc_id": 5158,
+      "name": "Tilli Thistlefuzz",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5158"
+    },
+    {
       "npc_id": 5174,
       "name": "Springspindle Fizzlegear",
       "zone": "Ironforge",
@@ -4976,6 +5002,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8137"
+    },
+    {
+      "npc_id": 8139,
+      "name": "Jabbey",
+      "zone": "Tanaris",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8139"
     },
     {
       "npc_id": 8361,
@@ -6341,6 +6380,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 495,
-  "awaiting_signature_audio_profiles": 41
+  "authored_profiles": 498,
+  "awaiting_signature_audio_profiles": 44
 }

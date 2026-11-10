@@ -1701,6 +1701,27 @@
       "zone": "Darkshore",
       "route": "Shadowprey male/female Troll supplies, female Feralas master and Auberdine fish vendor",
       "reason": "Full researched text and fifteen queued lines; adult Troll male/female, Tauren female and Night Elf male approved voices; current explicit Friendly evidence, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 5157,
+      "name": "Gimble Thistlefuzz",
+      "zone": "Ironforge",
+      "route": "Adult Gnome enchanter/supplier pair and Steamwheedle Goblin supplier",
+      "reason": "Full researched text and fifteen queued lines; approved adult Gnome male/female and Goblin male voices; explicit current Friendly evidence, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 5158,
+      "name": "Tilli Thistlefuzz",
+      "zone": "Ironforge",
+      "route": "Adult Gnome enchanter/supplier pair and Steamwheedle Goblin supplier",
+      "reason": "Full researched text and fifteen queued lines; approved adult Gnome male/female and Goblin male voices; explicit current Friendly evidence, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 8139,
+      "name": "Jabbey",
+      "zone": "Tanaris",
+      "route": "Adult Gnome enchanter/supplier pair and Steamwheedle Goblin supplier",
+      "reason": "Full researched text and fifteen queued lines; approved adult Gnome male/female and Goblin male voices; explicit current Friendly evidence, ordinary live gates retained; no synthesis"
     }
   ]
 }

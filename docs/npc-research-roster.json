@@ -2030,5 +2030,26 @@
     "zone": "Darkshore",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/horde-craft-and-auberdine.md"
+  },
+  {
+    "npc_id": 5157,
+    "name": "Gimble Thistlefuzz",
+    "zone": "Ironforge",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/thistlefuzz-and-jabbey.md"
+  },
+  {
+    "npc_id": 5158,
+    "name": "Tilli Thistlefuzz",
+    "zone": "Ironforge",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/thistlefuzz-and-jabbey.md"
+  },
+  {
+    "npc_id": 8139,
+    "name": "Jabbey",
+    "zone": "Tanaris",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/thistlefuzz-and-jabbey.md"
   }
 ]
