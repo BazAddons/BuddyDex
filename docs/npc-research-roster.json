@@ -4116,5 +4116,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde man; Full6623/6622 and own teaching gossip; original imagined introduction; no Scout sighting claimed",
     "research_notes": "docs/research/brocks-clean-shirt-and-arnoks-questions.md"
+  },
+  {
+    "npc_id": 5412,
+    "name": "Gurda Wildmane",
+    "zone": "Desolace",
+    "source": "Reviewed adult horde woman; Five full own quest texts and clan gossip; original private tree carving; no Scout sighting claimed",
+    "research_notes": "docs/research/gurdas-little-tree-and-maliynns-crescent.md"
+  },
+  {
+    "npc_id": 3961,
+    "name": "Maliynn",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult alliance woman; Full98027 confirms late parents and lost gift; original crescent tracing; no Scout sighting claimed",
+    "research_notes": "docs/research/gurdas-little-tree-and-maliynns-crescent.md"
   }
 ]

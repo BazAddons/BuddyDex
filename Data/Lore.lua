@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gurda Wildmane, Ghost Walker Post/Desolace. Adult Tauren
+    -- female4695/M2 986648, Horde Friendly. All five own quest texts
+    -- read; strategic intent retained. Private tree carving is original.
+    -- Research: docs/research/gurdas-little-tree-and-maliynns-crescent.md
+    [5412] = {
+        quote = "That piece of wood is not intended to buy anything. I am trying to make the tree look as though the wind has just reached it.",
+        likes = { "An advantage noticed before it is lost", "Patient work that rewards a closer look", "An unexpected source of useful observations" },
+        dislikes = { "An enemy underestimated through habit", "A hurried imitation praised as finished work", "Every small effort required to earn leverage" },
+        gossip = "Gurda has been carving a little tree. She says it is not meant to purchase anyone's cooperation, which appears to be part of its attraction.",
+        bio = "Gurda Wildmane watches the centaur clans from Ghost Walker Post in Desolace. She would use their rivalries to weaken them. Their trade in carved totems offers leverage, though the stories in the carvings surprise her into a closer appreciation.",
+        backstory = "Examining the centaur work gave her more to consider than a means of buying cooperation. She began a small carving of a tree herself, trying to suggest the instant a gust reaches it. The patient work became interesting on its own terms.",
+        secret = "Her little tree has no price or promised advantage. She likes having one effort whose success means simply that she looked carefully and made something she wanted to see.",
+        bestFriend = "Come along. Tell me whether the tree looks caught by the wind. For once, we need not decide whose advantage the answer serves.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone taking a patient observation seriously before deciding what use it has.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me what you have noticed while I decide whether the little tree looks caught by the wind or merely badly arranged.", tone = "[measured] [wry curiosity]" }, "Good to see you. An unexpected observation may prove useful. I am also willing to hear one that is simply interesting." },
+            idle = { { "A little tree in wood. No bargain depends upon it, and no clan has been promised an advantage. I find this a surprisingly agreeable condition under which to work.", tone = "[dry] [quietly pleased]" }, "I underestimated the patience in those carvings. An observation can correct an assumption without requiring me to abandon every other reason for caution.", "The tree should look as though the wind has just reached it. A small distinction, and one that becomes much larger while I try to make it." },
+            befriended = { { "Your company has become something I may enjoy without first calculating what advantage the meeting will bring. Come along, friend. I am pleased to have found that exception.", tone = "[reserved warmth] [sincere]" } },
+            poke = { "Yes? You may tell me what you actually see before deciding what you think I want to hear.", "Go on. I can leave the next cut long enough to listen." },
+            learned = { { "Good. Leave room for the next observation to change what you think you know. A useful assumption remains an assumption.", tone = "[steady] [approving]" } },
+            loot = { "Look closely before deciding it is merely another example of something familiar. That mistake can conceal both value and a useful detail." },
+            quest = { "Hear what each person wants from the arrangement. An offer can be useful without being as simple as its greeting." },
+            rest = { "A pause. We may look at something without immediately deciding how to turn it to advantage." },
+            newFriend = { "Someone new. Let them speak. Their account may reveal something the first impression missed." },
+            thanked = { "You are welcome. I am pleased the observation proved useful." },
+            group = { "Let each person make their account plain. We will understand the arrangement better once everyone has stopped guessing at the others." },
+        },
+    },
+
+    -- Maliynn <Food & Drink Vendor>, Astranaar/Ashenvale. Adult
+    -- Night Elf female2058/M2 921844, Alliance Friendly. Full98027
+    -- confirms late parents and lost gift. Crescent-tracing is original.
+    -- Research: docs/research/gurdas-little-tree-and-maliynns-crescent.md
+    [3961] = {
+        quote = "It is a small shape. Some things need very little room to hold a great deal.",
+        likes = { "A familiar memory beside an ordinary day", "Supplies reaching someone who needs them", "Kind company without a hurried answer" },
+        dislikes = { "An irreplaceable keepsake priced as a trinket", "A quiet memory treated as an inconvenience", "Care dismissed because the object is small" },
+        gossip = "Maliynn sometimes traces a crescent with one finger while speaking of an ordinary thing. She seems not to notice the little gesture.",
+        bio = "Maliynn sells food and drink in Astranaar. A crescent necklace from her late parents means far more to her than ordinary jewelry. She lost it while delivering supplies to an outpost, then searched the road until she thought the search hopeless.",
+        backstory = "The necklace carries a short inscription naming her. Its loss was more than a missing possession: it was a gift she could not replace by choosing another ornament. The familiar curve remains easy for her hand to remember.",
+        secret = "She traces the crescent even while telling an unrelated story. The small gesture lets a beloved memory remain beside an ordinary day, without requiring every conversation to become a farewell.",
+        bestFriend = "Stay a little while, friend. We can speak of ordinary things. A kind presence need not find an answer for every memory.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates a gentle presence when speaking of something that cannot simply be replaced.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along. Tell me about your day. We can begin with ordinary things and let the conversation find its own pace.", tone = "[gentle] [welcoming]" }, "Good to see you. There is no need to arrive with the perfect thing to say. I am pleased to have your company." },
+            idle = { { "I was speaking of something quite ordinary when I noticed my finger drawing the crescent. The hand remembers a little curve without waiting for the conversation to explain why it matters.", tone = "[reflective] [tender]" }, "Some things are valuable because of the person who gave them. Another ornament may be beautiful without being the thing you miss.", "It is pleasant to speak of an ordinary day with someone who does not hurry a quiet moment into a different subject." },
+            befriended = { { "Your company has become a kindness I can enjoy without finding the right words for everything it means. Come along, friend. I am glad you are here.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can leave the little curve unfinished and listen.", "Go on. I would like to hear what you came to tell me." },
+            mail = { { "A message. Take your time with it. A few familiar words can carry more than their place on the page suggests.", tone = "[soft] [attentive]" } },
+            loot = { "Have a careful look before deciding what it is worth. A small object may matter to someone for reasons you cannot see." },
+            quest = { "Hear what was lost as well as what is being requested. Returning a possession can mean more than bringing back its shape." },
+            rest = { "A quiet pause. We need not fill it before either of us is ready to speak." },
+            newFriend = { "Someone new. Begin kindly. We rarely know the whole story behind what a person chooses to carry." },
+            thanked = { "You are welcome. I am pleased it reached you with the care intended." },
+            group = { "Room for everyone. A little patience gives a quieter person the chance to be heard as well." },
+        },
+    },
+
     -- Brock Stoneseeker <Mining Trainer>, Thelsamar/Loch Modan.
     -- Adult Dwarf male1822/M2 878772, Alliance Friendly. Full6387/
     -- 6391/6388/6392 and dust gossip; clean-shirt scene is original.

@@ -3787,6 +3787,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar first aid trainer",
       "reason": "Full6623/6622 and own teaching gossip; original imagined introduction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5412,
+      "name": "Gurda Wildmane",
+      "zone": "Desolace",
+      "route": "Ghost Walker Post centaur strategy",
+      "reason": "Five full own quest texts and clan gossip; original private tree carving; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3961,
+      "name": "Maliynn",
+      "zone": "Ashenvale",
+      "route": "Astranaar food and drink vendor",
+      "reason": "Full98027 confirms late parents and lost gift; original crescent tracing; fifteen personal lines queued without synthesis"
     }
   ]
 }

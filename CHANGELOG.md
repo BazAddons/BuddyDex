@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gurda Wildmane and Maliynn: adult Tauren and Night Elf profiles with thirty personal lines queued.
+- Review all five centaur quests and the lost-necklace story; document original carving and crescent-tracing scenes.
+
 - Add Brock Stoneseeker and Arnok: adult Dwarf and Orc profiles with thirty personal lines queued.
 - Review the full honorary-pick and Horde Trauma chains; document original clean-shirt and imagined-introduction stories.
 

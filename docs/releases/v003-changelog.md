@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gurda Wildmane and Maliynn: adult Tauren and Night Elf profiles with thirty personal lines queued.
+- Review all five centaur quests and the lost-necklace story; document original carving and crescent-tracing scenes.
+
 - Add Brock Stoneseeker and Arnok: adult Dwarf and Orc profiles with thirty personal lines queued.
 - Review the full honorary-pick and Horde Trauma chains; document original clean-shirt and imagined-introduction stories.
 
@@ -492,4 +495,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **793 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **795 fully written NPC profiles**: 454 have initial signature recordings, and three hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 339,
+    "alliance": 340,
     "unverified": 166,
-    "horde": 325
+    "horde": 326
   },
   "npc_race_counts": {
     "1": 167,
@@ -13,10 +13,10 @@
     "7": 58,
     "2": 86,
     "5": 85,
-    "4": 67,
+    "4": 68,
     "8": 60,
     "9": 57,
-    "6": 85,
+    "6": 86,
     "96": 26,
     "95": 33
   },
@@ -48,12 +48,12 @@
     "Stonetalon Mountains": 13,
     "Darnassus": 14,
     "Burning Steppes": 1,
-    "Ashenvale": 13,
+    "Ashenvale": 14,
     "Thousand Needles": 11,
     "Dustwallow Marsh": 1,
+    "Desolace": 11,
     "Tanaris": 8,
     "Feralas": 3,
-    "Desolace": 10,
     "Winterspring": 2,
     "Moonglade": 1,
     "Deeprun Tram": 3,
@@ -4970,6 +4970,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3955"
     },
     {
+      "npc_id": 3961,
+      "name": "Maliynn",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3961"
+    },
+    {
       "npc_id": 3962,
       "name": "Haljan Oakheart",
       "zone": "Ashenvale",
@@ -5865,6 +5878,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5178"
+    },
+    {
+      "npc_id": 5412,
+      "name": "Gurda Wildmane",
+      "zone": "Desolace",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5412"
     },
     {
       "npc_id": 5413,
@@ -10179,6 +10205,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 793,
-  "awaiting_signature_audio_profiles": 339
+  "authored_profiles": 795,
+  "awaiting_signature_audio_profiles": 341
 }
