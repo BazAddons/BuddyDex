@@ -2114,5 +2114,26 @@
     "zone": "The Barrens",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/barrens-payroll-and-specimens.md"
+  },
+  {
+    "npc_id": 3702,
+    "name": "Alanndarian Nightsong",
+    "zone": "Darkshore",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/darkshore-care-and-nightsaber-riding.md"
+  },
+  {
+    "npc_id": 3701,
+    "name": "Tharnariun Treetender",
+    "zone": "Darkshore",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/darkshore-care-and-nightsaber-riding.md"
+  },
+  {
+    "npc_id": 4753,
+    "name": "Jartsam",
+    "zone": "Darnassus",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/darkshore-care-and-nightsaber-riding.md"
   }
 ]

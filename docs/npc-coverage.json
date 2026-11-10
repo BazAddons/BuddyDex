@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 218,
+    "alliance": 221,
     "unverified": 131,
     "horde": 167
   },
@@ -13,7 +13,7 @@
     "7": 29,
     "2": 64,
     "5": 48,
-    "4": 29,
+    "4": 32,
     "8": 38,
     "9": 24,
     "6": 57,
@@ -36,14 +36,14 @@
     "Arathi Highlands": 11,
     "Orgrimmar": 33,
     "Badlands": 1,
-    "Darkshore": 5,
+    "Darkshore": 7,
     "Mulgore": 14,
     "Thunder Bluff": 28,
     "Durotar": 41,
     "The Barrens": 24,
     "Ashenvale": 6,
     "Stonetalon Mountains": 5,
-    "Darnassus": 6,
+    "Darnassus": 7,
     "Thousand Needles": 5,
     "Undercity": 8,
     "Dustwallow Marsh": 1,
@@ -3523,6 +3523,32 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3627"
     },
     {
+      "npc_id": 3701,
+      "name": "Tharnariun Treetender",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3701"
+    },
+    {
+      "npc_id": 3702,
+      "name": "Alanndarian Nightsong",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3702"
+    },
+    {
       "npc_id": 3706,
       "name": "Tai'jin",
       "zone": "Durotar",
@@ -3940,6 +3966,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Neutral",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4591"
+    },
+    {
+      "npc_id": 4753,
+      "name": "Jartsam",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4753"
     },
     {
       "npc_id": 4877,
@@ -6497,6 +6536,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 507,
-  "awaiting_signature_audio_profiles": 53
+  "authored_profiles": 510,
+  "awaiting_signature_audio_profiles": 56
 }

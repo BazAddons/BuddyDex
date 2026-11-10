@@ -1785,6 +1785,27 @@
       "zone": "The Barrens",
       "route": "Crossroads and Camp Taurajo quest context",
       "reason": "Full researched text and fifteen queued lines; approved adult Orc male voices; Gazrog Neutral conditional and Tatternack Friendly, ordinary live gates, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3702,
+      "name": "Alanndarian Nightsong",
+      "zone": "Darkshore",
+      "route": "Night Elf onward route, two Auberdine care stories and Darnassus riding",
+      "reason": "Full researched text and fifteen queued lines; approved adult Night Elf female/male voices; separate deer/bear outcomes and riding conditions, live gates unchanged, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3701,
+      "name": "Tharnariun Treetender",
+      "zone": "Darkshore",
+      "route": "Night Elf onward route, two Auberdine care stories and Darnassus riding",
+      "reason": "Full researched text and fifteen queued lines; approved adult Night Elf female/male voices; separate deer/bear outcomes and riding conditions, live gates unchanged, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 4753,
+      "name": "Jartsam",
+      "zone": "Darnassus",
+      "route": "Night Elf onward route, two Auberdine care stories and Darnassus riding",
+      "reason": "Full researched text and fifteen queued lines; approved adult Night Elf female/male voices; separate deer/bear outcomes and riding conditions, live gates unchanged, ordinary live gates retained; no synthesis"
     }
   ]
 }

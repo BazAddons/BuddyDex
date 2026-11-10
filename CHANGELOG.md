@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Alanndarian Nightsong, Tharnariun Treetender and Jartsam: three full adult Night Elf profiles with forty-five personal lines queued.
+- Ground the Darkshore entries in their distinct deer/bear story outcomes; retain actual riding services and normal live friendship rules without later retail fates.
+
 - Add Gazrog and Tatternack Steelforge: complete adult Barrens profiles with thirty queued personal lines, grounded in the payroll, Dogran and specimen quest chains.
 - Preserve unresolved raptor motives and ore results, actual Camp Taurajo/Crossroads locations and normal live eligibility, including Gazrog's Neutral reaction.
 

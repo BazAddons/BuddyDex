@@ -41,6 +41,96 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Alanndarian Nightsong, Auberdine, Darkshore. Adult female Night Elf
+    -- 3702/display4487, Alliance Friendly. CurrentPetTrainer title does not
+    -- prove a working pet service. Full druid poison chain and historical
+    -- strider stew quest read; no later torture/death or solved corruption.
+    -- docs/research/darkshore-care-and-nightsaber-riding.md.
+    [3702] = {
+        recordingVoice = "nightelf-female",
+        quote = "A good meal deserves your attention. So does a sick creature. I see no reason to be careless with either.",
+        likes = { "A helper who follows the work through", "An honest opinion of her stew", "Careful questions before a confident answer" },
+        dislikes = { "Treating a living crisis as an exercise", "Confusing relief with a finished cure", "A supper left to wait on ceremony" },
+        gossip = "Alanndarian likes a warm thank-you, but also a guest who sits before the stew cools. The second point is easily overlooked.",
+        bio = "Alanndarian Nightsong helps address the poisoning of Darkshore's deer from Auberdine. She works with aid from Moonglade to prepare a curative salve. The wider taint remains a concern beyond the creatures one dose can help.",
+        backstory = "Alanndarian requested the Cenarion Circle's help when the deer began suffering. Water from Cliffspring Falls reveals pollution, but not the whole cause. Reagents and patient work let her prepare salve while the village works toward more.",
+        secret = "She hopes a friend will sometimes come only to discuss supper. Being known for an ordinary pleasure feels precious when so many conversations begin with something that has gone wrong.",
+        bestFriend = "Sit with me when you have time. I am glad of your help, but I would also like an afternoon that needs no crisis to bring us together.",
+        favorite = { emote = "THANK", hint = "She appreciates help acknowledged warmly, especially when it becomes a conversation rather than a speech." },
+        lines = {
+            greet = { { "Good to see you. Shall we begin with how you are, before deciding what needs doing?", tone = "[warm] [attentive]" }, "There you are. It is pleasant to recognize the person, not only the errand." },
+            idle = { { "An honest opinion of supper is welcome. It need not begin with a formal expression of gratitude.", tone = "[gently amused]" }, "Helping one sick creature matters. It does not mean the larger problem has vanished.", "Careful work is still needed when the first encouraging result arrives." },
+            befriended = { { "I would be glad to share some time with you. You have become more than a pair of hands arriving with the next task.", tone = "[sincere] [welcoming]" } },
+            poke = { "Yes? A clear question is a welcome beginning.", "If this concerns the stew, say so. Not everything needs to be a grave announcement." },
+            quest = { { "Follow the work through. Someone at the other end needs the result, not merely a promising beginning.", tone = "[steady] [earnest]" } },
+            learned = { "Remember the work it takes when there is no simple incantation to rely on." },
+            loot = { "Keep the sample clear of the other things. Knowing what you brought matters." },
+            rest = { "A pause, perhaps even a meal. Concern need not make us forget those entirely." },
+            bagsFull = { "Leave room for what you were asked to gather before collecting another curiosity." },
+            combatEnd = { "I hope the necessary work leaves room for gentler things afterward." },
+            hearth = { "Home. An ordinary welcome can mean a great deal after a difficult day." },
+        },
+    },
+    -- Tharnariun Treetender, Auberdine, Darkshore. Adult male Night Elf
+    -- 3701/display4485, Alliance Friendly. Full2118->2138->2139: bear cure
+    -- fails, culling limits damage without ending plague. No Lor'danel move
+    -- or new successful cure. Seed pot original, not a quest reagent.
+    -- docs/research/darkshore-care-and-nightsaber-riding.md.
+    [3701] = {
+        recordingVoice = "nightelf-male",
+        quote = "Hope does not spare us the work, or make every answer kind. I keep it because the work still needs doing.",
+        likes = { "Care that survives a disappointment", "Someone noticing quiet signs of life", "A companion who can sit without an answer" },
+        dislikes = { "Calling necessary death a pleasure", "Promising a cure before it works", "Calling brief relief the end of the plague" },
+        gossip = "Tharnariun keeps a small pot of soil where nothing has appeared yet. He checks it without making a grand prediction. It is still worth tending.",
+        bio = "Tharnariun Treetender works against the sickness afflicting Darkshore's thistle bears. An attempted cure fails, forcing a sorrowful effort to limit the damage instead. Protecting Auberdine does not make him enjoy the cost to nature.",
+        backstory = "Tharnariun first seeks a living sick bear to study. When his cure fails, he reluctantly calls for infected bears to be slain, then turns to the Den Mother. He knows such measures can ease the forest's pain without ending the plague.",
+        secret = "He tends a small pot of soil without knowing when its seed will sprout. It is not another cure to prove. He likes caring for something without demanding that it justify his hope today.",
+        bestFriend = "Sit here a little. We need not turn the silence into a promise. It is enough to share the waiting with someone who understands.",
+        favorite = { emote = "COMFORT", hint = "He could use company that acknowledges a difficult burden without offering an easy answer." },
+        lines = {
+            greet = { { "I am glad you came. There is room for a friend's company beside all that remains to be done.", tone = "[somber] [gently welcoming]" }, "Hello, friend. I hope the day has left you something peaceful to notice." },
+            idle = { { "Nothing has sprouted yet. I can tend the soil without insisting that today be the day.", tone = "[quiet] [patient]" }, "A failed cure must be admitted, however much we wanted the answer to be different.", "I would rather keep hope honestly than make it depend upon pretending the loss was small." },
+            befriended = { { "You have allowed room for sorrow as well as resolve. I value your company, and I would be glad to share some of the road.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? I was considering something that has not given me an answer yet.", "There need not be a new promise every time we speak." },
+            quest = { { "A little relief is worth the work. Let us be clear about what it has achieved, and what it has not.", tone = "[measured] [earnest]" } },
+            combatEnd = { "It is over for the moment. I need not celebrate every necessary death." },
+            rest = { "We can stop. Caring for the land does not mean refusing care for ourselves." },
+            zone = { "Look for what is living here, as well as what has wounded the place." },
+            learned = { "An answer worth learning may be a difficult one. It still deserves to be faced." },
+            loot = { "Consider what it cost to obtain, as well as what use we may make of it." },
+            hearth = { "Home. I hope you find someone willing to share a quiet moment there." },
+        },
+    },
+    -- Jartsam <Nightsaber Riding Instructor>, Cenarion Enclave, Darnassus.
+    -- Adult male Night Elf4753/display5070, Alliance Friendly. Current2
+    -- riding skills; no own quests. Cost/reputation gossip not a friendship
+    -- bypass. Quiet thanks to mounts original; no later Stormwind evacuation.
+    -- docs/research/darkshore-care-and-nightsaber-riding.md.
+    [4753] = {
+        recordingVoice = "nightelf-male",
+        quote = "The nightsaber is not taking the lesson. You are. I suggest you make a good impression on both of us.",
+        likes = { "A beginner honest about being new", "A mount's patience acknowledged", "Confidence that leaves room to listen" },
+        dislikes = { "Treating payment as proof of skill", "Blaming the saber for a rider's hurry", "Showing off before finding a steady seat" },
+        gossip = "Jartsam thanks the nightsaber after a lesson. Someone, he says, should acknowledge how patiently it listened to the same instructions.",
+        bio = "Jartsam teaches nightsaber riding in Darnassus's Cenarion Enclave. Riders come to him for instruction, not simply permission to look impressive. He likes a learner to remember that a living partner carries them through the lesson.",
+        backstory = "After a lesson, a grateful pupil thanked Jartsam at length and nearly forgot the mount. Jartsam offered the saber a quiet thanks of his own. He found he liked ending the work by acknowledging both sides of the partnership.",
+        secret = "He sometimes apologizes to a patient mount before a very confident newcomer begins. He does not claim the animal understands the words. The reminder is mostly meant for the teacher.",
+        bestFriend = "We need not make every meeting a lesson. I would enjoy your company even if we learned nothing impressive all afternoon.",
+        favorite = { emote = "THANK", hint = "He appreciates gratitude that remembers the patient partner as well as the person giving instructions." },
+        lines = {
+            greet = { { "Good to see you. We can begin without proving that you already know everything.", tone = "[warm] [dryly amused]" }, "Come along. A comfortable pace and a little attention will serve us well." },
+            idle = { { "I thanked the saber. It had listened to the lesson longer than the rider had.", tone = "[wry] [fond]" }, "Gold pays for instruction. It does not complete the practice on your behalf.", "A little less hurry can leave you much more time to enjoy the ride." },
+            befriended = { { "I would be happy to join you. You make room for another voice without making a contest of it.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? I am listening. You need not sit any straighter for the conversation.", "If you want advice, ask. If you want company, that is welcome too." },
+            mount = { { "Give your partner a calm beginning. The road will provide enough excitement without your help.", tone = "[patient] [instructive]" } },
+            learned = { "Good. Now let the practice become familiar without becoming careless." },
+            landed = { "Arrived safely. A fine result, even if nobody applauds it." },
+            rest = { "Let everyone settle, including the one who has been carrying the weight." },
+            gear = { "Comfort and care are worth considering before appearance." },
+            zone = { "Different ground. Pay attention before deciding it is no different from the last road." },
+            hearth = { "Home again. I hope the journey left room for enjoyment as well as instruction." },
+        },
+    },
     -- Gazrog, Crossroads, Barrens. Adult male Orc3464/display3846. Current
     -- HordeNeutral: normal live gates apply. Current869/3281 and Classic
     -- full Dogran chain read; payroll theft by raptors, no later Ratchet move.
