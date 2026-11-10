@@ -4,20 +4,20 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 329,
-    "unverified": 161,
-    "horde": 309
+    "unverified": 162,
+    "horde": 310
   },
   "npc_race_counts": {
     "1": 167,
     "3": 66,
     "7": 57,
     "2": 82,
-    "5": 81,
+    "5": 82,
     "4": 63,
     "8": 60,
     "9": 52,
     "6": 83,
-    "96": 23,
+    "96": 24,
     "95": 31
   },
   "zone_counts": {
@@ -33,7 +33,7 @@
     "Ironforge": 58,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
-    "Undercity": 16,
+    "Undercity": 17,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
     "Hillsbrad Foothills": 9,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 53,
+    "Zephras Isle": 54,
     "Riverglades": 11
   },
   "entries": [
@@ -8463,6 +8463,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15659"
     },
     {
+      "npc_id": 15684,
+      "name": "Auctioneer Tricket",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15684"
+    },
+    {
       "npc_id": 17804,
       "name": "Squire Rowe",
       "zone": "Elwynn Forest",
@@ -9280,6 +9293,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257554"
     },
     {
+      "npc_id": 258284,
+      "name": "Holaan Glenprancer",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258284"
+    },
+    {
       "npc_id": 258294,
       "name": "Eelitha Fernstep",
       "zone": "Zephras Isle",
@@ -9821,6 +9845,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 765,
-  "awaiting_signature_audio_profiles": 311
+  "authored_profiles": 767,
+  "awaiting_signature_audio_profiles": 313
 }

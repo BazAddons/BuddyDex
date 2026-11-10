@@ -3920,5 +3920,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult horde Goblin man; Fifteen current goods and exact adult identity; original courteous rosecap note; no Scout sighting claimed",
     "research_notes": "docs/research/sidas-untidy-version-and-grapheds-note.md"
+  },
+  {
+    "npc_id": 15684,
+    "name": "Auctioneer Tricket",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; Exact adult/service evidence, no own quests; original grand pebble description; no Scout sighting claimed",
+    "research_notes": "docs/research/trickets-pebble-and-holaans-cloud.md"
+  },
+  {
+    "npc_id": 258284,
+    "name": "Holaan Glenprancer",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult unverified man; Adult Windshaper body and neutral-access limits; original fox/sock cloud scene; no Scout sighting claimed",
+    "research_notes": "docs/research/trickets-pebble-and-holaans-cloud.md"
   }
 ]

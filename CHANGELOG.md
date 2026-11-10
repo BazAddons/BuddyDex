@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Auctioneer Tricket and Holaan Glenprancer: adult Forsaken and Windshaper Skyborne profiles, with thirty personal lines queued.
+- Verify normal adult bodies and role/access limits; document original pebble performance and shared cloud-shape stories.
+
 - Add Sida and Mister Graphed: adult Alliance Dwarf and Horde Goblin profiles in Menethil and Powderfuse, with thirty personal lines queued.
 - Review complete bag-recovery text and all current materials; document original honest-retelling and courteous-note stories.
 

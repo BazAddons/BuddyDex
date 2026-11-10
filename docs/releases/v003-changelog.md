@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Auctioneer Tricket and Holaan Glenprancer: adult Forsaken and Windshaper Skyborne profiles, with thirty personal lines queued.
+- Verify normal adult bodies and role/access limits; document original pebble performance and shared cloud-shape stories.
+
 - Add Sida and Mister Graphed: adult Alliance Dwarf and Horde Goblin profiles in Menethil and Powderfuse, with thirty personal lines queued.
 - Review complete bag-recovery text and all current materials; document original honest-retelling and courteous-note stories.
 
@@ -450,4 +453,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **765 fully written NPC profiles**: 454 have initial signature recordings, and three hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **767 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Auctioneer Tricket, Undercity. Adult Forsaken female15783/
+    -- M2 997378, Horde Friendly, Auctioneer service. No own quests/gossip.
+    -- Grand ordinary-pebble description is original, no auction change.
+    -- Research: docs/research/trickets-pebble-and-holaans-cloud.md
+    [15684] = {
+        quote = "One entirely ordinary pebble. Excellent weight, restrained conversation, and a most dignified presence. Presentation matters.",
+        likes = { "A well-delivered description", "An audience that enjoys a dry performance", "A little dignity spent on an ordinary thing" },
+        dislikes = { "Someone talking over the final word", "A joke spoiled by explaining it too soon", "Every conversation reduced to its price" },
+        gossip = "Tricket has described a pebble with such solemn attention that someone turned to see what rarity she had found. She appeared satisfied.",
+        bio = "Auctioneer Tricket works in Undercity, near the circle between the Trade Quarter and the Canals. Her work concerns other people's goods. Away from a transaction, she enjoys giving an ordinary object an unnecessarily dignified introduction.",
+        backstory = "A smooth pebble became the subject of a grand description during a quiet conversation. She praised its weight and admirable silence with complete solemnity. Her listener's delayed laugh made the effort worthwhile.",
+        secret = "She remembers the pebble when a day has been tedious. There is something pleasing about lavishing a fine delivery on a thing that will never interrupt or demand a better price.",
+        bestFriend = "Come along. I have an entirely ordinary observation to present with far more dignity than it deserves. Your audience would be welcome.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "She appreciates a listener who recognizes the performance and lets her enjoy its finish.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. Your company is available without an appraisal, which improves the beginning of the conversation considerably.", tone = "[dry] [welcoming]" }, "Good. An audience I know. I have been saving an unnecessarily dignified description for a suitable moment." },
+            idle = { { "One entirely ordinary pebble. Admirable weight. Remarkable silence. You would be surprised how long a solemn delivery can delay the laughter.", tone = "[deadpan] [theatrical]" }, "A description deserves a proper ending. Particularly when the object has been doing so little to earn the attention.", "I like a conversation whose value does not require somebody to name a price before we can enjoy it." },
+            befriended = { { "Your company has proved welcome without requiring a transaction to justify it. Come along. I have decided to appreciate that at length.", tone = "[restrained warmth] [sincere]" } },
+            poke = { "Yes? I had reached the pause before the final word. You may consider that an impressive entrance.", "Go on. You have the floor. I shall attempt to let you finish the description." },
+            loot = { { "Observe it properly before announcing what a remarkable find it is. An ordinary thing can survive a little honest attention.", tone = "[measured] [wry]" } },
+            mail = { "A message. Read the actual words before supplying the magnificent news you hoped it might contain." },
+            rest = { "A useful pause. Even a fine delivery benefits from somebody knowing when to stop speaking." },
+            newFriend = { "Someone new. Introduce them plainly. We may discover the magnificent qualities after they have had time to speak." },
+            thanked = { "You are welcome. I appreciate an acknowledgment that allows the work to be finished." },
+            group = { "Let one person finish before the next begins. A room full of competing endings is exhausting." },
+            quest = { "Find out what is being requested before admiring how impressively the request has been described." },
+        },
+    },
+
+    -- Holaan Glenprancer <Nightclaw Druid>, Zephras Isle. Adult
+    -- Windshaper Skyborne male138046/M2 7478487; Horde Neutral.
+    -- Positive access unverified, no own quests/gossip; no druid override.
+    -- Cloud fox/lost sock scene is original, no prophecy or new magic.
+    -- Research: docs/research/trickets-pebble-and-holaans-cloud.md
+    [258284] = {
+        quote = "I thought that cloud looked like a fox. A friend saw a lost sock. I have not been able to find the fox again.",
+        likes = { "An observation he would not have made", "Time to watch a cloud change", "A friend sharing an unexpected likeness" },
+        dislikes = { "Every difference turned into a dispute", "Being hurried past a small amusement", "A joke required to become a lesson" },
+        gossip = "Holaan has studied a cloud very seriously before starting to laugh. Apparently the explanation required knowing what someone else had seen in it.",
+        bio = "Holaan Glenprancer is a Nightclaw Druid on Zephras Isle. He enjoys looking at the world with someone who notices different things. A shared observation need not end with both people settling on the same answer.",
+        backstory = "He pointed out a cloud that resembled a fox. His companion thought it looked like a lost sock. Once he had seen that likeness, the fox was impossible to recover. The afternoon became more amusing than he had intended.",
+        secret = "He still catches himself looking for that cloud's shape. Not because a sock in the sky explains anything important, but because he would enjoy having a reason to share the laugh again.",
+        bestFriend = "Walk with me. Tell me what you notice before I tell you what I think it is. I would like to see something I would have missed alone.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys the moment a second person's unexpected observation becomes a shared joke.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what you have noticed today. I may have been looking at the same thing and seen something quite different.", tone = "[gentle] [curious]" }, "Good company. We need not hurry through the whole view before finding one small thing worth sharing." },
+            idle = { { "It had been a perfectly good fox until they mentioned the sock. Then I could see nothing else. I am glad they told me, even if I never recovered the fox.", tone = "[lightly amused] [fond]" }, "A cloud does not need to settle our disagreement. It may have become something entirely different while we were speaking.", "I like hearing what another person noticed first. It gives me a chance to look at a familiar thing again." },
+            befriended = { { "You have shown me things I would have passed without noticing. Come along, friend. I should like to share another part of the day with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What did you see?", "Go on. If the fox has become something ridiculous again, I should like to know." },
+            zone = { { "Look around before we move on. Tell me the first small thing that catches your attention.", tone = "[interested] [unhurried]" } },
+            rest = { "A little time to watch things change. We need not agree on every shape to enjoy the same sky." },
+            newFriend = { "Someone new. I wonder what they would notice that we have been looking past." },
+            group = { "We may each have noticed a different part. Let us hear them before deciding that there is only one useful account." },
+            thanked = { "You are welcome. I am pleased that what I noticed was worth sharing." },
+            learned = { "Good. Keep looking after you have found the first answer. There may be another detail waiting beside it." },
+            loot = { "Take a proper look before putting it away. You might notice something that the first glance missed." },
+        },
+    },
+
     -- Sida, Menethil Harbor/Wetlands. Adult Dwarf female1407/M2
     -- 950080, Alliance Friendly. Full470: panic, bag thrown, important
     -- unidentified contents retrieved; no invented tomb relationship.

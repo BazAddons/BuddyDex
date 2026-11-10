@@ -3591,6 +3591,20 @@
       "zone": "Riverglades",
       "route": "Powderfuse Port material vendor",
       "reason": "Fifteen current goods and exact adult identity; original courteous rosecap note; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 15684,
+      "name": "Auctioneer Tricket",
+      "zone": "Undercity",
+      "route": "Named Undercity auction contact",
+      "reason": "Exact adult/service evidence, no own quests; original grand pebble description; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 258284,
+      "name": "Holaan Glenprancer",
+      "zone": "Zephras Isle",
+      "route": "Normal-model Nightclaw Druid contact",
+      "reason": "Adult Windshaper body and neutral-access limits; original fox/sock cloud scene; fifteen personal lines queued without synthesis"
     }
   ]
 }

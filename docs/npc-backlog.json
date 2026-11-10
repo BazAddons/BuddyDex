@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 765,
-  "written_complete_count": 765,
-  "awaiting_signature_audio_count": 311,
+  "authored_count": 767,
+  "written_complete_count": 767,
+  "awaiting_signature_audio_count": 313,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 313,
+  "remaining_count": 315,
   "completed": [
     {
       "npc_id": 54,
@@ -6885,6 +6885,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 15684,
+      "name": "Auctioneer Tricket",
+      "zone": "Undercity",
+      "source": "Reviewed adult horde woman; Exact adult/service evidence, no own quests; original grand pebble description; no Scout sighting claimed",
+      "research_notes": "docs/research/trickets-pebble-and-holaans-cloud.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 17804,
       "name": "Squire Rowe",
       "zone": "Elwynn Forest",
@@ -7572,6 +7584,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult Windshaper man, both factions Friendly; Own complete anchor quest and gratitude/gift limits; original private hope for travelers; no Scout sighting claimed",
       "research_notes": "docs/research/halaans-view-and-iallions-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 258284,
+      "name": "Holaan Glenprancer",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult unverified man; Adult Windshaper body and neutral-access limits; original fox/sock cloud scene; no Scout sighting claimed",
+      "research_notes": "docs/research/trickets-pebble-and-holaans-cloud.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
