@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Takrin Pathseeker, Razor Hill, Durotar. Adult Orc male3884/M2 917116,
+    -- Horde Friendly. Full840/842dialogue and actual4992/4995letters
+    -- read. Kargal friend/scout assessment sourced. Unassigned walk
+    -- is original, no modern Ashenvale/tree gossip imported.
+    -- Research: docs/research/razor-hill-directions-and-flame-crest-pauses.md
+    [3336] = {
+        quote = "Good directions should leave you knowing where to put your next foot.",
+        likes = { "A newcomer ready to take the next step", "Clear directions given without a sneer", "A walk with nothing that needs reporting" },
+        dislikes = { "A recruit dismissed before being heard", "A simple route buried under a boast", "Every quiet moment becoming another duty" },
+        gossip = "Takrin can give a newcomer a direction and a purpose. He also enjoys the occasional walk in which neither is particularly urgent.",
+        bio = "Takrin Pathseeker is a scout in Razor Hill. He sends recruits to his friend Kargal Battlescar across the bridge into the Barrens. Kargal values his scouting, then directs the signed letter onward to Sergra at the Crossroads.",
+        backstory = "His recruitment letter gives a glowing account of the bearer, followed by his own brief approval. Kargal adds the signature for Crossroads duty. The work puts him at an early turning point for travelers leaving Durotar.",
+        secret = "He imagines a walk with no message to carry or arrival to announce. Its destination can remain undecided. After directing others, he enjoys leaving that choice open for himself.",
+        bestFriend = "We can walk a little without making it an assignment. If you have something to tell me, I would enjoy hearing it along the way.",
+        favorite = {
+            emote = "WAVE",
+            hint = "He appreciates a friendly acknowledgment before someone sets off on their next stretch of road.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good to see you. Know your next step, and leave a little room to notice the road as you take it.", tone = "[steady] [welcoming]" }, "Ready. No letter to carry for this little outing, unless you have brought one of your own." },
+            idle = { { "A walk with no message to deliver. I can leave its destination undecided a little longer.", tone = "[relaxed] [pleased]" }, "Clear directions are a useful kindness. Nobody improves a route by making a newcomer feel foolish.", "Someone may need a chance to begin more than another speech about what they have not done." },
+            befriended = { { "You have become good company beyond the practical business. I would be glad to walk a little farther with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Where are you trying to go, and what do you already know of the way?", "I was considering which part of a walk I would leave unplanned. Perhaps the ending." },
+            zone = { { "Different surroundings. Find out which way the road actually goes before deciding you know the rest.", tone = "[practical] [encouraging]" } },
+            quest = { "Know who is waiting at the other end and what they need you to bring." },
+            mail = { "A message. Let us see whether it asks for action or simply deserves a careful reading." },
+            bagsFull = { "Sort what must arrive from what merely accumulated along the road." },
+            rest = { "A pause is allowed. Every step need not be a report of progress." },
+            waveBack = { "Good to see a friendly face on the way." },
+            thanked = { "You are welcome. Pass the clear directions on to the next person who needs them." },
+        },
+    },
+
+    -- Gruna <Food & Drink>, Flame Crest, Burning Steppes. Adult Orc female
+    -- display13970/M2 949470, Horde Friendly/Vendor.12current foods/
+    -- drinks match12Classic; no own quest/gossip. Reminder/forgotten
+    -- meal are original, no cooking rank or new food reward.
+    -- Research: docs/research/razor-hill-directions-and-flame-crest-pauses.md
+    [3708] = {
+        quote = "The advice to take a proper break includes me. I am still practicing that part.",
+        likes = { "An ordinary meal given enough time", "A visitor remembering their own needs", "Company that can let the work wait" },
+        dislikes = { "Her own break postponed yet again", "A meal treated as an interruption", "Useful care offered with a lecture" },
+        gossip = "Gruna is ready to remind a traveler about an ordinary meal. A little note tucked aside reminds her to take her own advice.",
+        bio = "Gruna sells bread and drinks at Flame Crest in the Burning Steppes. Her wares include simple loaves, cherry pie, water, milk, and juices. She values the ordinary pause a meal can make in a demanding day.",
+        backstory = "She once kept postponing her own meal while dealing with the practical business around her. When she finally noticed what she had set aside, she wrote herself a short reminder to be included in the care she recommended.",
+        secret = "The reminder says: including you. She knows who wrote it and who needs to read it. The plainness makes her smile, which helps her actually take the pause instead of planning another one.",
+        bestFriend = "Sit with me a moment. We can both be included this time. I would enjoy a pause in which neither of us has to hurry the other along.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates someone offering the same quiet care she tries to remember for other people.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "Good to see you. Have you left room in the day for your own ordinary needs?", tone = "[grounded] [welcoming]" }, "Ready. I have read the reminder, and I am attempting to follow it." },
+            idle = { { "Including you. A short reminder, and a remarkably persistent one. I am glad I kept it.", tone = "[wry] [warm]" }, "You need not finish every task in the world before allowing yourself an ordinary meal.", "I can recommend a pause very sensibly. Remembering to take mine remains part of the work." },
+            befriended = { { "You made room for me as well as the practical business. I would like more company that remembers to do that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A practical thing first, or a moment in which we let it wait?", "I was considering whether I had postponed another pause by thinking about it too long." },
+            rest = { { "Let us both stop a moment. This time I am including the person offering the advice.", tone = "[easygoing] [content]" } },
+            comforted = { "Thank you. It is pleasant to receive a little care without having to earn it first." },
+            loot = { "Something useful? Keep it where it will still serve you when the need comes." },
+            bagsFull = { "A little sorting before carrying more. There may be things here you already meant to put down." },
+            hearth = { "Homeward. Leave a little time there before letting the next errand take the whole evening." },
+            zone = { "New surroundings. Find out where people stop to take care of ordinary things." },
+            thanked = { "You are welcome. Remember to include yourself when you decide who needs a little care." },
+        },
+    },
+
     -- Gritta Chumwater <Fisherman>, Powderfuse Port, Riverglades. Adult
     -- Goblin female142489/M2 119369, Horde Friendly/Vendor.14current
     -- goods and own classy/boot-tracks gossip. Chum95988context is

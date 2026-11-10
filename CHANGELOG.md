@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Takrin Pathseeker and Gruna: complete Orc profiles with thirty personal lines queued.
+- Expand early Razor Hill and later Flame Crest companions with researched recruitment and provisioning roles.
+
 - Add Gritta Chumwater and Madam Swyndle: complete female Goblin profiles with thirty personal lines queued.
 - Expand Powderfuse Port companions with researched fishing and Black Market roles, without changing trade or quest rewards.
 

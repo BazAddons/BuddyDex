@@ -2555,6 +2555,20 @@
       "zone": "Riverglades",
       "route": "Powderfuse Port Black Market agent",
       "reason": "Complete adult female Goblin profile with fifteen queued lines; sourced role separated from original humor, no auction/quest rewards or synthesis"
+    },
+    {
+      "npc_id": 3336,
+      "name": "Takrin Pathseeker",
+      "zone": "Durotar",
+      "route": "Razor Hill early Barrens recruitment route",
+      "reason": "Complete adult Orc male/female profile with fifteen queued lines; source roles and location distinguished from original private story; no synthesis"
+    },
+    {
+      "npc_id": 3708,
+      "name": "Gruna",
+      "zone": "Burning Steppes",
+      "route": "Flame Crest later Horde provisions",
+      "reason": "Complete adult Orc male/female profile with fifteen queued lines; source roles and location distinguished from original private story; no synthesis"
     }
   ]
 }

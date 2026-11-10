@@ -5,13 +5,13 @@
   "faction_counts": {
     "alliance": 261,
     "unverified": 146,
-    "horde": 226
+    "horde": 228
   },
   "npc_race_counts": {
     "1": 165,
     "3": 48,
     "7": 41,
-    "2": 72,
+    "2": 74,
     "5": 65,
     "4": 45,
     "8": 47,
@@ -41,10 +41,11 @@
     "Darkshore": 7,
     "Mulgore": 18,
     "Thunder Bluff": 37,
-    "Durotar": 47,
+    "Durotar": 48,
     "The Barrens": 31,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
+    "Burning Steppes": 1,
     "Ashenvale": 8,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
@@ -3451,6 +3452,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3333"
     },
     {
+      "npc_id": 3336,
+      "name": "Takrin Pathseeker",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3336"
+    },
+    {
       "npc_id": 3338,
       "name": "Sergra Darkthorn",
       "zone": "The Barrens",
@@ -4281,6 +4295,19 @@
       "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 in Valley of Trials/The Den; normal live gates still required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3707",
       "audio_status": "All personal recordings queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 3708,
+      "name": "Gruna",
+      "zone": "Burning Steppes",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3708"
     },
     {
       "npc_id": 3841,
@@ -7905,6 +7932,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 617,
-  "awaiting_signature_audio_profiles": 163
+  "authored_profiles": 619,
+  "awaiting_signature_audio_profiles": 165
 }

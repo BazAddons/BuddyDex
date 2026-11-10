@@ -2884,5 +2884,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult Goblin female body, Horde Friendly, own tabs/stock/gossip or agent role; contextual quest text gaps documented, no Scout sighting claimed",
     "research_notes": "docs/research/powderfuse-standards-and-private-composure.md"
+  },
+  {
+    "npc_id": 3336,
+    "name": "Takrin Pathseeker",
+    "zone": "Durotar",
+    "source": "Reviewed adult Orc male/female bodies, Friendly access, full recruitment route/letters or matching12goods with no own quest/gossip; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-directions-and-flame-crest-pauses.md"
+  },
+  {
+    "npc_id": 3708,
+    "name": "Gruna",
+    "zone": "Burning Steppes",
+    "source": "Reviewed adult Orc male/female bodies, Friendly access, full recruitment route/letters or matching12goods with no own quest/gossip; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-directions-and-flame-crest-pauses.md"
   }
 ]

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Takrin Pathseeker and Gruna: complete Orc profiles with thirty personal lines queued.
+- Expand early Razor Hill and later Flame Crest companions with researched recruitment and provisioning roles.
+
 - Add Gritta Chumwater and Madam Swyndle: complete female Goblin profiles with thirty personal lines queued.
 - Expand Powderfuse Port companions with researched fishing and Black Market roles, without changing trade or quest rewards.
 
@@ -213,4 +216,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **617 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **619 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
