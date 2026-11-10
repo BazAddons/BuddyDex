@@ -1176,6 +1176,20 @@
       "zone": "Arathi Highlands",
       "route": "Horde stable and butcher services",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal299/300 boundary validation in docs/research/tharlidun-and-uttnar-queue.md"
+    },
+    {
+      "npc_id": 8137,
+      "name": "Gikkix",
+      "zone": "Tanaris",
+      "route": "Goblin regional vendor/quest coverage",
+      "reason": "Identity checked; full chain/readable/eligibility research pending, MebokNeutral not a live eligibility exemption. See docs/research/gikkix-and-mebok-queue.md"
+    },
+    {
+      "npc_id": 3446,
+      "name": "Mebok Mizzyrix",
+      "zone": "The Barrens",
+      "route": "Goblin regional vendor/quest coverage",
+      "reason": "Identity checked; full chain/readable/eligibility research pending, MebokNeutral not a live eligibility exemption. See docs/research/gikkix-and-mebok-queue.md"
     }
   ]
 }
