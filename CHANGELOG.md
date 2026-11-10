@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ealaane Nimbuswalker, a shared-faction adult Skyborne refugee, with fifteen personal lines queued.
+- Review refugee and heirloom dialogue; preserve grief and exclude the deceased Resaan from recruitable profile additions.
+
 - Add Barkeep Morag and Sylvanna Forestmoon: adult Horde Orc and Alliance Night Elf profiles, with thirty personal lines queued.
 - Ground shared-rhythm and simple-wonder stories in current goods and the alchemist's own teaching dialogue.
 

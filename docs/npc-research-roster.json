@@ -3843,5 +3843,12 @@
     "zone": "Darnassus",
     "source": "Reviewed adult alliance woman; Four own greetings preserve precision humility and renewed wonder; original soap-bubble scene; no Scout sighting claimed",
     "research_notes": "docs/research/morags-last-beat-and-sylvannas-colors.md"
+  },
+  {
+    "npc_id": 259012,
+    "name": "Ealaane Nimbuswalker",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order Skyborne woman, both factions explicitly Friendly; full refugee quests, own gossip and ancient-work dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/ealaanes-keepsakes-and-resaans-exclusion.md"
   }
 ]

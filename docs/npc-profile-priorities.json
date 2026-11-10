@@ -3514,6 +3514,13 @@
       "zone": "Darnassus",
       "route": "Craftsmens Terrace alchemy teacher",
       "reason": "Four own greetings preserve precision humility and renewed wonder; original soap-bubble scene; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 259012,
+      "name": "Ealaane Nimbuswalker",
+      "zone": "Zephras Isle",
+      "route": "Shared Zephras refugee contact near Valanaar",
+      "reason": "Community aid, grief and ancestral craft; fifteen personal lines queued; deceased Resaan excluded"
     }
   ]
 }

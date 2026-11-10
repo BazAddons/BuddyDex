@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Ealaane Nimbuswalker, a shared-faction adult Skyborne refugee, with fifteen personal lines queued.
+- Review refugee and heirloom dialogue; preserve grief and exclude the deceased Resaan from recruitable profile additions.
+
 - Add Barkeep Morag and Sylvanna Forestmoon: adult Horde Orc and Alliance Night Elf profiles, with thirty personal lines queued.
 - Ground shared-rhythm and simple-wonder stories in current goods and the alchemist's own teaching dialogue.
 
@@ -432,4 +435,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **754 fully written NPC profiles**: 454 have initial signature recordings, and three hundred new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **755 fully written NPC profiles**: 454 have initial signature recordings, and three hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

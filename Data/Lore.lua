@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ealaane Nimbuswalker, Zephras Isle near Valanaar. Adult High Order
+    -- Skyborne female138006/M2 7478494, both factions Friendly. Full94896/
+    -- 94897, own island-collapse gossip and ancient-hilt dialogue reviewed.
+    -- Resaan is her deceased love; the soup memory is original writing.
+    -- Research: docs/research/ealaanes-keepsakes-and-resaans-exclusion.md
+    [259012] = {
+        quote = "Tell me what they loved, too. There is more to a person than the day we lost them.",
+        likes = { "Belongings returned to their owners", "An ordinary memory told with affection", "Help that leaves room for grief" },
+        dislikes = { "Another person's keepsake treated as loot", "Comfort that insists on an ending", "A disappearance dismissed as nothing" },
+        gossip = "Ealaane asks who a recovered possession belongs to before asking what it is worth. For her, the answer begins with a person.",
+        bio = "Ealaane Nimbuswalker is a refugee from Ban'aethal on Zephras Isle. She asks for abandoned belongings to be returned to their owners. She also recognizes the ancient work of Luminarian, whose craft matters deeply to her people.",
+        backstory = "Ban'aethal's sudden evacuation cost her a home. Resaan, her love, went back for supplies and did not return. Learning his fate brings grief; his heirloom offers some closure. She still helps the other refugees begin again.",
+        secret = "She remembers Resaan saying the soup was cool enough, then blowing on every spoonful. It is a foolish, dear memory. She wants to keep those alongside the sorrow.",
+        bestFriend = "Stay a little. I would like to tell you something about Resaan that might make us both smile. There is room for that, too.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates kindness that can stay beside sorrow without hurrying it away.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Walk with me a little. You need not have news to bring. I am glad to have your company.", tone = "[soft] [welcoming]" }, "It is good to see you. Let us take a little time together before the next errand." },
+            idle = { { "Resaan would say the soup was cool enough, then blow on every spoonful. I can still hear how certain he sounded. I want to remember that, too.", tone = "[tender] [wistful smile]" }, "A thing can look very ordinary until you know whose hands used it. Please be careful with what someone has left behind.", "The islands have been moving apart for years. Knowing that does not make it easier to imagine your own home falling into the sky." },
+            befriended = { { "You have made room for more than my worries. Thank you. Come along. I would like to share a little of the day with you.", tone = "[quiet gratitude] [warm]" } },
+            poke = { "Yes? Is there someone who needs us? Tell me what has happened.", "Take your time. You need not find perfect words before you speak." },
+            comforted = { { "Thank you. You do not have to make the sorrow leave before your kindness can matter.", tone = "[low] [sincere]" } },
+            loot = { "If that belonged to someone, look for its owner before deciding it is yours to keep." },
+            quest = { "Please listen to what is being asked. A small errand may carry more of a life than its size suggests." },
+            rest = { "A little rest. Helping someone else begin again does not mean you no longer need a moment yourself." },
+            newFriend = { "Someone new. Ask what they would like to tell you. Their hardest day need not be their introduction." },
+            thanked = { "You are welcome. I am glad there was something I could do." },
+            group = { "Let us make sure everyone has been heard. A quiet request can matter as much as a confident one." },
+        },
+    },
+
     -- Barkeep Morag, Orgrimmar. Adult Orc male3606/M2 917116.
     -- Horde Friendly vendor,17 current foods/drinks, no own quests/gossip.
     -- Counter rhythm and shared last beat are original BuddyDex writing.
