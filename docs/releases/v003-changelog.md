@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Bethaine Flinthammer and Je'lu: two complete adult profiles with thirty personal lines queued.
+- Expand Alliance Dwarf stable-service and Horde Troll wanderer coverage in Wetlands and Desolace, with distinct original character stories.
+
 - Add Boramu: a full adult Tauren recipe-vendor profile in Thunder Bluff, with fifteen personal lines queued.
 - Ground his role in both verified reagent-bag patterns, with an original imaginary bag story and normal friendship unlocks.
 
@@ -291,4 +294,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **663 fully written NPC profiles**: 454 have initial signature recordings, and two hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **665 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

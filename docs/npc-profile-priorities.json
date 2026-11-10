@@ -2877,6 +2877,20 @@
       "zone": "Thunder Bluff",
       "route": "Tauren capital tailoring recipe vendor",
       "reason": "Complete adult Horde service profile, fifteen personal lines queued; original imaginary bag of bags; no synthesis"
+    },
+    {
+      "npc_id": 10046,
+      "name": "Bethaine Flinthammer",
+      "zone": "Wetlands",
+      "route": "Menethil Harbor stable service",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original ear-sketch or ceremonial-announcement writing; no synthesis"
+    },
+    {
+      "npc_id": 277059,
+      "name": "Je'lu",
+      "zone": "Desolace",
+      "route": "Southwestern Desolace named Horde resident",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original ear-sketch or ceremonial-announcement writing; no synthesis"
     }
   ]
 }

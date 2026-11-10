@@ -3206,5 +3206,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult Tauren male, Horde Friendly; all current relationship tabs and both recipe items read; no Scout sighting claimed",
     "research_notes": "docs/research/boramu-and-the-imaginary-bag.md"
+  },
+  {
+    "npc_id": 10046,
+    "name": "Bethaine Flinthammer",
+    "zone": "Wetlands",
+    "source": "Reviewed adult Dwarf woman / Troll man, explicit faction Friendly; all relationship tabs and installed gossip absence checked; no Scout sighting claimed",
+    "research_notes": "docs/research/menethil-ears-and-desolace-announcements.md"
+  },
+  {
+    "npc_id": 277059,
+    "name": "Je'lu",
+    "zone": "Desolace",
+    "source": "Reviewed adult Dwarf woman / Troll man, explicit faction Friendly; all relationship tabs and installed gossip absence checked; no Scout sighting claimed",
+    "research_notes": "docs/research/menethil-ears-and-desolace-announcements.md"
   }
 ]

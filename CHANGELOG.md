@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Bethaine Flinthammer and Je'lu: two complete adult profiles with thirty personal lines queued.
+- Expand Alliance Dwarf stable-service and Horde Troll wanderer coverage in Wetlands and Desolace, with distinct original character stories.
+
 - Add Boramu: a full adult Tauren recipe-vendor profile in Thunder Bluff, with fifteen personal lines queued.
 - Ground his role in both verified reagent-bag patterns, with an original imaginary bag story and normal friendship unlocks.
 

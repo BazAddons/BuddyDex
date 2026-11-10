@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bethaine Flinthammer <Stable Master>, Menethil Harbor, Wetlands.
+    -- Adult Dwarf female9264/M2 950080, Alliance Friendly. No own linked
+    -- quests or installed gossip; ear sketches are original fiction.
+    -- Retail toy/battle-pet services are not imported.
+    -- Research: docs/research/menethil-ears-and-desolace-announcements.md
+    [10046] = {
+        quote = "I started with the ears. The rest of the portrait is taking rather longer.",
+        likes = { "An animal given time to settle", "Recognizing a familiar pair of ears", "An owner explaining a companion's habits" },
+        dislikes = { "A nervous beast hurried along", "Treating a companion like spare luggage", "A perfectly good sketch called two marks" },
+        gossip = "Bethaine's animal portraits begin with the ears. Some never get any further, although she insists she knows who they are.",
+        bio = "Bethaine Flinthammer is the Dwarf stable master in Menethil Harbor, in the Wetlands. Visitors can find her outside the Deepwater Tavern. Her work belongs to a busy port where travelers arrive with companions as well as luggage.",
+        backstory = "She tried sketching an animal she had been watching, beginning with its ears. Those two marks already reminded her so strongly of it that she put the sketch aside. Later attempts have had a similar difficulty getting past recognition.",
+        secret = "Several unfinished portraits are still only pairs of ears. She can remember which animal each one belongs to. Explaining that to someone else is harder than drawing them.",
+        bestFriend = "Come along. I will show you the sketches later. You can tell me whether you recognize anybody before I explain the ears.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates someone enjoying her unfinished pictures without demanding that they be masterpieces.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have left the unfinished portraits where nobody will mistake them for a list of fence posts.", tone = "[warm] [wry]" }, "Ready. Tell me how your companion is settling in before we hurry on to the rest of the day." },
+            idle = { { "I start with the ears. Sometimes those two marks remind me of the animal so clearly that I forget the rest still needs drawing. I do know who they are.", tone = "[fond] [amused]" }, "Give a nervous animal a little time. A busy harbor can have quite enough to say before we add our own instructions.", "An owner can tell you the habit that matters. It is worth listening before deciding you know the whole animal." },
+            befriended = { { "You gave the creatures time and the unfinished drawings a fair chance. Come along, friend. I would enjoy having you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need. If it is a verdict on the sketches, remember they are not all meant to be the same animal.", "I hear you. There is time for a greeting without making it a reason to hurry somebody else." },
+            learned = { { "Let the animal notice you first. Friendship need not begin with the quickest possible hand on its head.", tone = "[patient] [gentle]" } },
+            rest = { "A pause. Being still for a little while can tell you more than another round of anxious instructions." },
+            mount = { "Give your companion a moment to be ready as well. Leaving together should mean both of you know you are leaving." },
+            landed = { "Here we are. Take a breath before gathering everyone into the next part of the journey." },
+            group = { "Make room for the one taking longer to settle. A welcome need not be delivered at a gallop." },
+            gear = { "Check how it sits before admiring how it looks. The one wearing it will appreciate the difference." },
+            thanked = { "You are welcome. If the company is comfortable, I am pleased with the result." },
+        },
+    },
+
+    -- Je'lu, southwestern Desolace. Adult Troll male148779/M2 1022938,
+    -- Horde Friendly. All four current tabs empty; no installed gossip.
+    -- Ceremonial turnip announcement is original, not a quest or title.
+    -- Research: docs/research/menethil-ears-and-desolace-announcements.md
+    [277059] = {
+        quote = "Behold the turnip! There. Nearly any words can make an entrance if you give them enough ceremony.",
+        likes = { "Ordinary words given a splendid entrance", "A listener sharing the joke", "A greeting without a hurried departure" },
+        dislikes = { "A little joke made into a serious quarrel", "Being assigned a grand title he never claimed", "An audience that has no chance to answer" },
+        gossip = "Je'lu can make a turnip sound like an honored visitor. The vegetable has yet to offer a reply.",
+        bio = "Je'lu is a Troll living near the southwestern coast of Desolace. He is friendly to Horde travelers. Between the comings and goings of the day, he enjoys giving ordinary things a welcome far grander than their appearance might suggest.",
+        backstory = "He amused himself by announcing a very ordinary vegetable with the ceremony of a grand arrival. The contrast made him laugh. Now he sometimes tries another plain word, enjoying the moment before a listener realizes what has received the introduction.",
+        secret = "The turnip is still his favorite. More impressive words make worse announcements: they already sound important and leave him with much less of a joke.",
+        bestFriend = "Come along. You may announce the next ordinary thing. I will give it the splendid welcome it has almost certainly never requested.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys a listener joining the cheerful ceremony once the very ordinary guest has been announced.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. Shall we go? You deserve a proper welcome, even without an announcement that makes the whole coast turn around.", tone = "[warm] [playful]" }, "Ready. I have not prepared a grand title for you. I thought I would let you tell me your name instead." },
+            idle = { { "Behold the turnip! Give an ordinary word a magnificent entrance and wait for the listener to catch up. The turnip has never complained about the attention.", tone = "[theatrical] [amused]" }, "An impressive word is less entertaining. It already expects a fine introduction and leaves me very little to do.", "If someone stays to share the joke, I would rather hear their answer than begin the whole performance again." },
+            befriended = { { "You joined the welcome and stayed to talk after the important vegetable had its moment. Come along, friend. I am pleased you are here.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If this is a very important interruption, I can give it a very ordinary introduction for a change.", "I hear you. Tell me what you came to say before I decide which word deserves the grand entrance." },
+            cheerAlong = { { "A fine welcome. Our distinguished guest may be ordinary, but you have given the occasion everything it needed.", tone = "[delighted] [playful]" } },
+            loot = { "Something new. Does it require a grand announcement, or shall we enjoy finding it without alarming the neighbors?" },
+            zone = { "New surroundings. Let us hear what the place has to say before giving everything our own splendid titles." },
+            rest = { "A pause. We can enjoy the company without making the next quiet moment wait for its introduction." },
+            group = { "Give the newcomer a chance to answer. Even the finest welcome needs to become a conversation eventually." },
+            mail = { "See who wrote before deciding how grandly to announce the letter. It may simply be someone pleased to hear from you." },
+            thanked = { "You are welcome. I enjoyed being asked, and I enjoy knowing the answer helped." },
+        },
+    },
+
     -- Boramu <Tailoring Recipes>, Thunder Bluff. Adult Tauren male
     -- display140795/M2 968705, Horde Friendly. Both reagent-bag patterns
     -- read; no linked quests/lessons or installed gossip found.

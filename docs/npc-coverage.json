@@ -3,18 +3,18 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 280,
+    "alliance": 281,
     "unverified": 152,
-    "horde": 251
+    "horde": 252
   },
   "npc_race_counts": {
     "1": 166,
-    "3": 52,
+    "3": 53,
     "7": 45,
     "2": 75,
     "5": 69,
     "4": 51,
-    "8": 53,
+    "8": 54,
     "9": 40,
     "6": 77,
     "96": 15,
@@ -32,7 +32,7 @@
     "Stranglethorn Vale": 4,
     "Tirisfal Glades": 40,
     "Undercity": 14,
-    "Wetlands": 1,
+    "Wetlands": 2,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 22,
@@ -53,7 +53,7 @@
     "Dustwallow Marsh": 1,
     "Tanaris": 7,
     "Feralas": 2,
-    "Desolace": 8,
+    "Desolace": 9,
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
@@ -6800,6 +6800,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10045"
     },
     {
+      "npc_id": 10046,
+      "name": "Bethaine Flinthammer",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10046"
+    },
+    {
       "npc_id": 10053,
       "name": "Anya Maulray",
       "zone": "Undercity",
@@ -8487,6 +8500,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/275811"
     },
     {
+      "npc_id": 277059,
+      "name": "Je'lu",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277059"
+    },
+    {
       "npc_id": 277721,
       "name": "Krazore",
       "zone": "Stormwind City",
@@ -8498,6 +8524,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 663,
-  "awaiting_signature_audio_profiles": 209
+  "authored_profiles": 665,
+  "awaiting_signature_audio_profiles": 211
 }
