@@ -2723,6 +2723,20 @@
       "zone": "Loch Modan",
       "route": "Thelsamar mining supplier on early Loch Modan route",
       "reason": "Complete Dwarf male profile, fifteen personal lines queued, sourced family/trade role with distinct original verse or loch-walk character writing; no synthesis"
+    },
+    {
+      "npc_id": 254344,
+      "name": "Endaria Mistgaze",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Windshaper regional starting route",
+      "reason": "Complete adult Horde female profile, fifteen personal lines queued, sourced spiritual research or quartermaster context with distinct original personality; no synthesis"
+    },
+    {
+      "npc_id": 12799,
+      "name": "Sergeant Ba'sha",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Valley of Strength capital contact",
+      "reason": "Complete adult Horde female profile, fifteen personal lines queued, sourced spiritual research or quartermaster context with distinct original personality; no synthesis"
     }
   ]
 }

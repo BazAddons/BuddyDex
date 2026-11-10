@@ -3052,5 +3052,19 @@
     "zone": "Loch Modan",
     "source": "Reviewed adult Dwarf men, Alliance Friendly, actual distillery family dialogue/full ribs and stolen-lager tasks or Classic mining stock; current tab gaps documented, no Scout sighting claimed",
     "research_notes": "docs/research/thunderbrew-pride-and-ironquill-walks.md"
+  },
+  {
+    "npc_id": 254344,
+    "name": "Endaria Mistgaze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne and Orc women, Horde Friendly, full Hollow task and introductory dialogue or legacy quartermaster/rank context; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-disquiet-and-orgrimmar-welcomes.md"
+  },
+  {
+    "npc_id": 12799,
+    "name": "Sergeant Ba'sha",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Windshaper Skyborne and Orc women, Horde Friendly, full Hollow task and introductory dialogue or legacy quartermaster/rank context; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-disquiet-and-orgrimmar-welcomes.md"
   }
 ]

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Endaria Mistgaze and Sergeant Ba'sha: two complete adult Horde profiles with thirty personal lines queued.
+- Expand Valanaar and Orgrimmar coverage with researched Hollow study and quartermaster context, plus distinct personal friendship stories.
+
 - Add Ragnar Thunderbrew and Karm Ironquill: two complete Dwarf profiles with thirty personal lines queued.
 - Expand Kharanos and Thelsamar coverage using the full distillery/family recipe story and established mining-supplier identity.
 

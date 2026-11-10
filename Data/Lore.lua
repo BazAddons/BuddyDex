@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Endaria Mistgaze, Valanaar, Zephras Isle. Adult Windshaper Skyborne
+    -- female138130/M2 7478494, Horde Friendly. Full93736 current/installed
+    -- and published progress; feelings about essences are not solved origins.
+    -- Evening cup name is original, not a magical cure or a quest item.
+    -- Research: docs/research/zephras-disquiet-and-orgrimmar-welcomes.md
+    [254344] = {
+        quote = "I can be frightened by what I have found and still be honest about what I do not know.",
+        likes = { "Observations kept apart from guesses", "Help that respects an unanswered question", "An ordinary cup after difficult work" },
+        dislikes = { "Fear mistaken for proof", "Unease dismissed as weakness", "An answer announced before the evidence" },
+        gossip = "Endaria has a very firm name for her evening cup. It is the only thing in her studies that seems determined to discourage further questions.",
+        bio = "Endaria Mistgaze studies the Wind Hollows in Shadowgale Forest. These strange sprites appeared after the wind spirits left the Windshapers. She asks adventurers to disperse them and bring their essences to her in Valanaar.",
+        backstory = "Handling the essences fills her with deep unease. She senses something malevolent and regretful, shudders, and dreads further study. Those feelings tell her how disturbing the work is; they do not yet explain what the Hollows truly are.",
+        secret = "She calls her ordinary evening cup No More Questions. It has never answered a mystery, banished an essence, or even stopped her thinking. She enjoys the hopeful name all the same.",
+        bestFriend = "Stay a while. You need not solve anything for me. I would rather have your company than another hurried answer.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates a kindness that does not demand she pretend the frightening work is easy.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "It is good to see you. Shall we go somewhere I have not already filled with unanswered questions?", tone = "[gentle] [welcoming]" }, "Ready. I would like some company, and a little time away from the essences." },
+            idle = { { "I call my evening cup No More Questions. It has not discouraged a single one. Still, I am fond of the name.", tone = "[quiet] [wry]" }, "The Hollows appeared after the spirits left. That is something we know. Why they appeared is still a question.", "I can describe the unease. I cannot yet tell you what it proves. Those are different things." },
+            befriended = { { "You have been kind without asking me to pretend I am unafraid. I would be glad to have you beside me, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was enjoying a perfectly ordinary thought. I should have known it would attract a question.", "I heard you. Tell me what you have noticed, even if you do not know what it means." },
+            quest = { { "Listen carefully to what is being asked. Gathering evidence and announcing an answer are not the same part of the work.", tone = "[thoughtful] [earnest]" } },
+            learned = { "Something new to consider. Let us understand what it tells us before asking it to explain everything." },
+            rest = { "A pause would be welcome. An ordinary cup would be welcome too, whatever ambitious name I give it." },
+            comforted = { "Thank you. I do not need to be told there is nothing to fear. It helps that you are willing to stay." },
+            zone = { "Different surroundings. I should like to notice them before deciding what I expect to find." },
+            group = { "Ask what the others observed. A question can become clearer when it is not carried by one person alone." },
+            thanked = { "You are welcome. I am glad the work helped, even with so much left to understand." },
+        },
+    },
+
+    -- Sergeant Ba'sha, Valley of Strength, Orgrimmar. Adult Orc female
+    -- 12681/M2 949470, Horde Friendly. Legacy accessories quartermaster;
+    -- current own tabs0, no guaranteed stock. Rank book context read.
+    -- Failed friendly wink is original, no new animation or healer quest.
+    -- Research: docs/research/zephras-disquiet-and-orgrimmar-welcomes.md
+    [12799] = {
+        quote = "A salute I can manage. Anything involving one eyelid is apparently an advanced maneuver.",
+        likes = { "Equipment cared for before it is needed", "Laughter without someone being belittled", "A greeting that looks like a greeting" },
+        dislikes = { "Rank used as an excuse for cruelty", "Boasting in place of doing the work", "Being asked whether her eye hurts" },
+        gossip = "Ba'sha can make a greeting look like a warning. Lately she has been trying something friendlier. People keep offering to fetch a healer.",
+        bio = "Sergeant Ba'sha stands in Orgrimmar's Valley of Strength, near the Hall of Legends. Her established quartermaster role concerns the Horde's rank-associated accessories, including tabards and insignia. Her name carries a rank of her own.",
+        backstory = "She wanted a greeting that would not feel like an inspection. A friendly wink seemed simple enough. First both eyes closed, then her whole face joined in. She can prepare a proper salute much more easily than this supposedly casual welcome.",
+        secret = "She can almost wink if nobody is watching. The moment she tries to demonstrate, it becomes a fierce squint. A trusted friend is allowed to laugh, provided they do not ask about her eye.",
+        bestFriend = "There. That was meant to be a wink. You may laugh. It is a considerable improvement that you knew what I was attempting.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "A clear, respectful greeting is one maneuver she can return without any difficulty.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "Good to see you. That was a greeting, by the way. I was attempting a wink, not inspecting your equipment.", tone = "[gruff] [dryly amused]" }, "Ready when you are. A salute will have to do until I have mastered the less formal maneuver." },
+            idle = { { "One eyelid. That is all the movement requires. Somehow the rest of my face insists on being involved.", tone = "[gravelly] [wry]" }, "A rank should tell you what duty someone carries. It is a poor excuse for treating another person badly.", "I tried the friendly expression again. Nobody offered to fetch a healer this time. Progress." },
+            befriended = { { "You understood the welcome even when the expression went wrong. I would enjoy your company, friend. And yes, you may laugh.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? No, there is nothing in my eye. I was practicing.", "I hear you. Give me a moment to stop looking as though I disapprove of the weather." },
+            gear = { { "Take care of what you rely on. Something impressive to wear will not do its job simply because you admire it.", tone = "[firm] [practical]" } },
+            saluteBack = { "A proper salute. Clear, respectful, and no explanation of the eyelids required." },
+            group = { "A group needs people doing their part. It does not improve because one voice keeps announcing its own importance." },
+            rest = { "A pause. I shall leave my face alone and see whether that makes the welcome more convincing." },
+            quest = { "Know what the duty is before promising to finish it. A fine title is no substitute for understanding the task." },
+            thanked = { "You are welcome. A kindness need not turn into a ceremony every time someone notices it." },
+            zone = { "New surroundings. Let us look properly before I accidentally give the entire place a disapproving squint." },
+        },
+    },
+
     -- Ragnar Thunderbrew, Kharanos, Dun Morogh. Adult Dwarf male
     -- 1684/M2 878772, Alliance Friendly. Full384and4128->4126
     -- current/Classic/installed dialogue; Arkilus father/Grimbooze
