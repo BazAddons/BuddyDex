@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jixo Madrocket and Auctioneer Naxxremis: adult Goblin and Forsaken profiles with thirty personal lines queued.
+- Reconcile current wyvern quest text with historical versions; document original small-success and dance-counting stories.
+
 - Add Delia Verana and Sylista: adult Forsaken and Night Elf profiles with thirty personal lines queued.
 - Document current identities and sparse dialogue evidence; add original thimble-trick and straw-crown character stories.
 

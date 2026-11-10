@@ -5,17 +5,17 @@
   "faction_counts": {
     "alliance": 332,
     "unverified": 165,
-    "horde": 314
+    "horde": 316
   },
   "npc_race_counts": {
     "1": 167,
     "3": 67,
     "7": 58,
     "2": 83,
-    "5": 84,
+    "5": 85,
     "4": 65,
     "8": 60,
-    "9": 54,
+    "9": 55,
     "6": 84,
     "96": 24,
     "95": 31
@@ -33,7 +33,7 @@
     "Ironforge": 59,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
-    "Undercity": 17,
+    "Undercity": 18,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
     "Hillsbrad Foothills": 10,
@@ -45,7 +45,7 @@
     "Thunder Bluff": 39,
     "Durotar": 51,
     "The Barrens": 40,
-    "Stonetalon Mountains": 12,
+    "Stonetalon Mountains": 13,
     "Darnassus": 13,
     "Burning Steppes": 1,
     "Ashenvale": 13,
@@ -8529,6 +8529,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15659"
     },
     {
+      "npc_id": 15683,
+      "name": "Auctioneer Naxxremis",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15683"
+    },
+    {
       "npc_id": 15684,
       "name": "Auctioneer Tricket",
       "zone": "Undercity",
@@ -8575,6 +8588,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/205278"
+    },
+    {
+      "npc_id": 210845,
+      "name": "Jixo Madrocket",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/210845"
     },
     {
       "npc_id": 244808,
@@ -9970,6 +9996,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 777,
-  "awaiting_signature_audio_profiles": 323
+  "authored_profiles": 779,
+  "awaiting_signature_audio_profiles": 325
 }

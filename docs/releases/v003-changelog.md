@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Jixo Madrocket and Auctioneer Naxxremis: adult Goblin and Forsaken profiles with thirty personal lines queued.
+- Reconcile current wyvern quest text with historical versions; document original small-success and dance-counting stories.
+
 - Add Delia Verana and Sylista: adult Forsaken and Night Elf profiles with thirty personal lines queued.
 - Document current identities and sparse dialogue evidence; add original thimble-trick and straw-crown character stories.
 
@@ -468,4 +471,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **777 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **779 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

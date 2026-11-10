@@ -3675,6 +3675,20 @@
       "zone": "Stormwind City",
       "route": "Stormwind stable master",
       "reason": "Current stable title and adult body; original crooked straw crown; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 210845,
+      "name": "Jixo Madrocket",
+      "zone": "Stonetalon Mountains",
+      "route": "Windshear Crag daredevil",
+      "reason": "Current78114/78121 and primary quotes; original ordinary-success flourish; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 15683,
+      "name": "Auctioneer Naxxremis",
+      "zone": "Undercity",
+      "route": "Undercity auctioneer",
+      "reason": "Current service and adult body; original dance-counting cadence; fifteen personal lines queued without synthesis"
     }
   ]
 }

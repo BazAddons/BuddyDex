@@ -4004,5 +4004,19 @@
     "zone": "Stormwind City",
     "source": "Reviewed adult alliance woman; Current stable title and adult body; original crooked straw crown; no Scout sighting claimed",
     "research_notes": "docs/research/delias-thimble-and-sylistas-crown.md"
+  },
+  {
+    "npc_id": 210845,
+    "name": "Jixo Madrocket",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult horde man; Current78114/78121 and primary quotes; original ordinary-success flourish; no Scout sighting claimed",
+    "research_notes": "docs/research/jixos-small-finishes-and-naxxremis-rhythm.md"
+  },
+  {
+    "npc_id": 15683,
+    "name": "Auctioneer Naxxremis",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; Current service and adult body; original dance-counting cadence; no Scout sighting claimed",
+    "research_notes": "docs/research/jixos-small-finishes-and-naxxremis-rhythm.md"
   }
 ]

@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jixo Madrocket <Amateur Daredevil>, Stonetalon. Adult Goblin
+    -- male7193/M2 119376, Horde Friendly. Current78114 differs from SoD.
+    -- Celebrating ordinary accomplishments with a flourish is original.
+    -- Research: docs/research/jixos-small-finishes-and-naxxremis-rhythm.md
+    [210845] = {
+        quote = "A grand finish is important. Even if all you did was get the lid off. Especially if the lid put up a fight.",
+        likes = { "A crowd enjoying the finish", "An ordinary success properly celebrated", "A friend cheering before the big show" },
+        dislikes = { "An audience already walking away", "A grand idea dismissed without a hearing", "A little triumph allowed to pass unnoticed" },
+        gossip = "Jixo has begun taking a bow after ordinary accomplishments. The lid came off, apparently. It was quite a finish.",
+        bio = "Jixo Madrocket is an amateur Goblin daredevil in Stonetalon Mountains. He imagines a paying audience for wyvern stunts and plans a calming wand. His appetite for a grand finish extends to much smaller accomplishments.",
+        backstory = "The triumphant finish seemed too enjoyable to save for the big act. He began adding a flourish after little successes as well. An awkward lid opened, a dropped object caught: each could have its moment.",
+        secret = "He is delighted when a friend joins the cheer for something small. For a moment, the pleasure is in sharing the finish rather than imagining how big the crowd might become.",
+        bestFriend = "There you are! A welcome deserves a finish too. Come along, friend. We can find something worth cheering before the big act.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates an audience giving even a little success the finish he thinks it deserves.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! A fine arrival, a familiar face, and nobody missed the beginning. Come along. I can work with an opening like that.", tone = "[buoyant] [showman energy]" }, "Ready when you are. We can talk about your travels while I find an ordinary accomplishment worthy of a magnificent finish." },
+            idle = { { "Got the lid off. Took a little work, but the finish was excellent. You have to let a triumph breathe before asking what was in the jar.", tone = "[proud] [comic timing]" }, "The big act deserves a crowd. The little successes deserve somebody who is pleased to be there. You are doing a fine job of that.", "A flourish costs very little. A grand flourish costs a little more attention, which is why I appreciate your remaining for the conclusion." },
+            befriended = { { "You stayed to cheer for the small thing. Come along, friend. An audience is good, but company who shares the pleasure is something better.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You caught me between the achievement and the bow. A delicate moment.", "Go on. I want to hear what happened before we decide how grandly to celebrate it." },
+            quest = { { "You heard the request, did the work, and came back with it finished. A perfectly respectable occasion for a cheer.", tone = "[enthusiastic] [approving]" } },
+            loot = { "Found it! There is your finish. Take a moment to enjoy it before deciding how impressive the next discovery ought to be." },
+            rest = { "A pause. Even a splendid finish needs a little quiet before the next beginning." },
+            mount = { "An excellent departure. Let the mount find its footing before you start imagining the applause." },
+            newFriend = { "Someone new. Let them say hello before we start promising the most magnificent show they have ever witnessed." },
+            thanked = { "You are welcome. A proper thank-you makes a rather fine finish in its own right." },
+            group = { "Plenty of company. Let everyone have their moment when the work is done. There is room for more than one bow." },
+        },
+    },
+
+    -- Auctioneer Naxxremis, Undercity. Adult Forsaken female
+    -- 7995/M2 997378, Horde Friendly, Auctioneer service.
+    -- Dance counting interrupted by auction cadence is original.
+    -- Research: docs/research/jixos-small-finishes-and-naxxremis-rhythm.md
+    [15683] = {
+        quote = "One, two, three. That is the step. If I say going twice, kindly wait for me to find my feet before making an offer.",
+        likes = { "A patient dancing partner", "A rhythm allowed to settle", "A private mistake met with a smile" },
+        dislikes = { "Being hurried through an unfamiliar step", "A lesson turned into a public spectacle", "Every pause filled with another offer" },
+        gossip = "Naxxremis has been counting dance steps. The count occasionally sounds suspiciously ready to close a sale.",
+        bio = "Auctioneer Naxxremis works in Undercity. Away from the business of bids and goods, she enjoys learning a few dance steps. Her practiced auction cadence has a habit of entering the count at the wrong moment.",
+        backstory = "She tried counting a simple step aloud. Familiar words slipped into the rhythm, and the little lesson briefly sounded like a sale. Beginning again proved less embarrassing with someone willing to smile and wait.",
+        secret = "She likes the moment the count becomes unnecessary. For a few steps she can follow another person without preparing the next word. She is quietly proud of that.",
+        bestFriend = "Stay for a turn. We can begin slowly, and I need not get every step right to be pleased that you are here.",
+        favorite = {
+            emote = "DANCE",
+            hint = "She appreciates company willing to share a gentle rhythm while she finds the next step.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me about your day while I stop counting in my head. I was nearly keeping the proper rhythm.", tone = "[composed] [quietly amused]" }, "Good to see you. We may begin with a conversation and leave the more ambitious footwork for later." },
+            idle = { { "One, two, going twice. No. That is how the wrong words enter the count. I shall begin again, and you may kindly look as though nothing unusual occurred.", tone = "[dry] [self-aware amusement]" }, "For a few steps I did not need to count. I was simply following the rhythm. A small accomplishment, but one I am pleased to repeat.", "A patient partner makes a mistake feel like something one may correct rather than an announcement to the whole room." },
+            befriended = { { "Your company has become something I can enjoy without preparing the next word. Come along, friend. I am pleased to have found that rhythm with you.", tone = "[restrained warmth] [sincere]" } },
+            poke = { "Yes? I was counting. You have rescued me before the count became an offer.", "Go on. I can set the next step aside long enough to hear you." },
+            mail = { { "A message. Read it through before deciding what is being asked of you. An offer benefits from hearing the whole account.", tone = "[measured] [attentive]" } },
+            loot = { "Have a good look before deciding what it is worth to you. That question need not always have the same answer as its price." },
+            rest = { "A little pause. No count, no offer, and no need to fill the silence before we are ready." },
+            gear = { "A practical choice. I hope it leaves you comfortable enough to move as well as impressive enough to admire." },
+            newFriend = { "Someone new. Let them introduce themselves at their own pace. We can find the conversational rhythm together." },
+            thanked = { "You are welcome. Your patience has been appreciated as well." },
+            group = { "Make room for everyone. A little consideration prevents more confusion than speaking over the entire company." },
+        },
+    },
+
     -- Delia Verana, Tarren Mill/Hillsbrad. Adult Forsaken female
     -- 3651/M2 997378, Horde Friendly; no own linked quests/gossip.
     -- Thimble sleight-of-hand performance is original, not a spell.
