@@ -38,8 +38,8 @@ def subscription(key):
                                  headers={'xi-api-key': key})
     with urllib.request.urlopen(req, timeout=30) as response:
         data = json.load(response)
-    return {k: data.get(k) for k in ('character_count', 'character_limit',
-                                    'next_character_count_reset_unix')}
+    return {k: data.get(k) for k in ('character_count', 'character_limit', 'status',
+                                    'has_open_invoices', 'next_character_count_reset_unix')}
 
 
 def audible(path):
@@ -127,6 +127,10 @@ def main():
                      remaining=len(queue), status='recording')
         save(args.state_dir / 'progress.json', state)
         try:
+            if initial.get('status') == 'past_due':
+                state['status'] = 'payment_required'
+                print('Recording stopped: subscription is past due. No synthesis requested.', flush=True)
+                return
             for job in queue:
                 if args.max_clips and state['made'] >= args.max_clips:
                     state['status'] = 'batch_limit'
