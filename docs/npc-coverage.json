@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 253,
+    "alliance": 254,
     "unverified": 142,
-    "horde": 215
+    "horde": 218
   },
   "npc_race_counts": {
     "1": 165,
@@ -18,7 +18,7 @@
     "9": 32,
     "6": 71,
     "96": 8,
-    "95": 15
+    "95": 18
   },
   "zone_counts": {
     "Elwynn Forest": 26,
@@ -54,7 +54,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 22,
+    "Zephras Isle": 25,
     "Riverglades": 4
   },
   "entries": [
@@ -7105,6 +7105,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251371"
     },
     {
+      "npc_id": 251373,
+      "name": "Xyton Silverwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Alliance Friendly and Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251373"
+    },
+    {
       "npc_id": 251374,
       "name": "Windshaper Boro",
       "zone": "Zephras Isle",
@@ -7155,6 +7169,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251507"
+    },
+    {
+      "npc_id": 251902,
+      "name": "Illaya Amberwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly and Alliance Hostile; Elder Windshaper allegiance separate from model race95",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251902"
     },
     {
       "npc_id": 251905,
@@ -7224,6 +7251,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252382"
+    },
+    {
+      "npc_id": 252392,
+      "name": "Orsaan Dalewind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly only in current source; external both-friendly disagreement not substituted",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252392"
     },
     {
       "npc_id": 252448,
@@ -7626,6 +7666,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 595,
-  "awaiting_signature_audio_profiles": 141
+  "authored_profiles": 598,
+  "awaiting_signature_audio_profiles": 144
 }

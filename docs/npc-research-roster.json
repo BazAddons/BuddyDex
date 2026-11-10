@@ -2730,5 +2730,26 @@
     "zone": "Mulgore",
     "source": "Reviewed adult Tauren male/current Horde Friendly; complete41-string direction dialogue or full companion chain plus Forever Chakuyak offer/completion; no Scout sighting claimed",
     "research_notes": "docs/research/bloodhoof-directions-and-hunters-care.md"
+  },
+  {
+    "npc_id": 251902,
+    "name": "Illaya Amberwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed exact adult Skyborne body/model race and political access separately; own quests/gossip, full arrival/referral or guild welcome, no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-elder-crafters-and-druid.md"
+  },
+  {
+    "npc_id": 252392,
+    "name": "Orsaan Dalewind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed exact adult Skyborne body/model race and political access separately; own quests/gossip, full arrival/referral or guild welcome, no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-elder-crafters-and-druid.md"
+  },
+  {
+    "npc_id": 251373,
+    "name": "Xyton Silverwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed exact adult Skyborne body/model race and political access separately; own quests/gossip, full arrival/referral or guild welcome, no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-elder-crafters-and-druid.md"
   }
 ]

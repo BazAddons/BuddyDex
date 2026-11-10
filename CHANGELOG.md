@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Illaya Amberwind, Orsaan Dalewind, and Xyton Silverwind: three complete adult Skyborne profiles, with forty-five personal lines queued.
+- Expand Zephras companions across Shendar, Valanaar, and Thendal while preserving each NPC's actual faction access.
+
 - Add Brave Ironhorn and Yaw Sharpmane: two complete adult Tauren profiles, with thirty personal lines queued.
 - Expand early Bloodhoof companions with village guidance, animal-partnership lessons, and the Forever Chakuyak hunt context.
 

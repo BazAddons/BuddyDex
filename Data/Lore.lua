@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Illaya Amberwind <Elder Windshaper>, Shen'dar, Zephras Isle. Adult
+    -- female138155/M2 7478494, model race95; Windshaper allegiance,
+    -- Horde Friendly/Alliance Hostile. Full92595/94411 and own gossip read.
+    -- Ordinary unfinished tune is original, not the returning spirits' song.
+    -- Research: docs/research/zephras-elder-crafters-and-druid.md
+    [251902] = {
+        quote = "Tell me what you hear, child of the winds. Hope needs voices willing to answer.",
+        likes = { "Young voices willing to listen", "Hope carried with honest uncertainty", "An ordinary tune shared in company" },
+        dislikes = { "Fear used to gather power", "Careless magic near fragile anchors", "Kinship forgotten in a quarrel" },
+        gossip = "Illaya listens for the spirits. She also enjoys an ordinary tune of her own, leaving its ending for a visitor to suggest.",
+        bio = "Illaya Amberwind, Shen'dar's Elder Windshaper, seeks the vanished wind spirits. She fears careless magic may imperil Zephras. Reluctant to condone bloodshed, she nevertheless sends aid against High Order apprentices at sacred stones.",
+        backstory = "Centuries of communion make the absence of the spirits painful to her. Her own strength has diminished, but her apprentice Ayessa still faintly hears their song. She places hope in those who can carry the search forward, rather than pretending the danger has passed.",
+        secret = "She sometimes leaves the last few notes of an ordinary tune unfinished. It is a small tune of her own, and she likes hearing where another person thinks it should go.",
+        bestFriend = "You may choose the next note. We need not know the whole song to enjoy making a small part of it together.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She welcomes a little warmth offered without pretending that every worry has been settled.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. Come, let us hear what the day has given you to tell.", tone = "[gentle] [welcoming]" }, "I am ready. We can carry care and hope upon the same road." },
+            idle = { { "I have left the tune unfinished again. Perhaps your next note will be different from the one I expected.", tone = "[warm] [lightly amused]" }, "A young voice may hear a question differently. That can be a reason to listen more closely.", "Fear asks much of our people. We must be careful whose purpose it is made to serve." },
+            befriended = { { "You have stayed to hear my hopes as well as my worries. I would be glad to share more of both with a friend.", tone = "[tender] [sincere]" } },
+            poke = { "Yes, child of the winds? What is on your mind?", "I was considering where the little tune might go next." },
+            quest = { { "Understand what you are being asked to protect. Resolve need not make you careless with another life.", tone = "[calm] [firm]" } },
+            combatEnd = { "See who needs help. Conflict among our people leaves more than one kind of wound." },
+            rest = { "A pause. We may give this moment a little company without asking it to solve every sorrow." },
+            learned = { "Let the new understanding deepen your care, as well as your confidence." },
+            zone = { "New surroundings. Listen before deciding what they mean." },
+            thanked = { "You are welcome. I am glad the words found someone willing to hear them." },
+            comforted = { "Thank you. A kind presence can give hope a little room to breathe." },
+        },
+    },
+
+    -- Orsaan Dalewind <Crafter's Hall Administrator>, Valanaar, Zephras.
+    -- Adult male140069/M2 7478487, model race95, Horde Friendly source.
+    -- Tradesman's Guild welcome/resource shortage; own tabs0. Chair's
+    -- imaginary title is original, not an actual official or new service.
+    -- Research: docs/research/zephras-elder-crafters-and-druid.md
+    [252392] = {
+        quote = "Tell me what you are trying to make. A small beginning still deserves useful help.",
+        likes = { "A question asked before materials are wasted", "Good work given an honest welcome", "An ordinary object with a splendid title" },
+        dislikes = { "Scarce materials handled carelessly", "A beginner made to feel unwelcome", "Importance confused with elaborate wording" },
+        gossip = "Orsaan's chair has a surprisingly senior title. Its duties remain largely a matter of support.",
+        bio = "Orsaan Dalewind administers the crafters' hall in Valanaar. He welcomes visitors to the Tradesman's Guild, acknowledges the shortage of resources on Zephras, and offers to help with questions about the materials and wares available there.",
+        backstory = "An ordinary piece of work given a grand name amused him more than he expected. He began privately thinking of elaborate titles for very plain things. The joke was most satisfying when the humble object could be said to deserve its new responsibility.",
+        secret = "He privately calls his chair the Acting Administrator. On a difficult day, he considers its steady support and refusal to leave the post an excellent example to the rest of the hall.",
+        bestFriend = "Sit a while. The Acting Administrator can bear a little responsibility while I enjoy company that has not come with a question.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates knowing that a welcome or a useful answer helped someone get started.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you. Tell me what you have in mind, and we can consider what might help.", tone = "[courteous] [welcoming]" }, "Ready. I have left matters in the capable support of the Acting Administrator." },
+            idle = { { "A chair with a grand title still has a very practical duty. There is something reassuring in that.", tone = "[wry] [pleased]" }, "A small beginning can be worth good materials and a clear answer.", "Resources are tight. Care in using them is a kindness to the next person who needs them." },
+            befriended = { { "You came to know the person behind the welcome. I would be glad to share more of the day with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What would you like to know?", "I was considering whether another ordinary object has earned a promotion." },
+            learned = { { "Good. Ask what the new work needs before gathering everything that might possibly be useful.", tone = "[practical] [encouraging]" } },
+            loot = { "Something useful? Give it a place where the next task can actually find it." },
+            bagsFull = { "A little order may be more helpful than another container full of uncertainty." },
+            quest = { "Let us settle the important details before committing the materials." },
+            rest = { "A pause. The chair has been setting a fine example of patient support." },
+            thanked = { "You are welcome. I am pleased the answer gave you somewhere to begin." },
+            newFriend = { "Another person to welcome. There is always room to begin with a kind greeting." },
+        },
+    },
+
+    -- Xyton Silverwind <Druid Trainer>, Thendal Grove, Zephras Isle.
+    -- Adult male136974/M2 7478487, model race95, both factions Friendly.
+    -- Full92485/282420 readable note, five current training rows. Bark-face
+    -- resemblance and greeting are original, not a speaking or magical tree.
+    -- Research: docs/research/zephras-elder-crafters-and-druid.md
+    [251373] = {
+        quote = "The living world asks for care before it offers a lesson. Begin by noticing what is here.",
+        likes = { "A learner noticing more than a name", "Care for the life beneath familiar ground", "A quiet pleasure in an ordinary pattern" },
+        dislikes = { "Balance mistaken for something effortless", "Living things ignored until they are useful", "A lesson hurried past its difficult part" },
+        gossip = "Xyton asks students to notice the life around them. He has also noticed a very sleepy face in the bark, and seems pleased to greet it.",
+        bio = "Xyton Silverwind teaches Druids in Thendal Grove. His note calls for care for the birds, beasts, and roots threatened since the wind spirits vanished. He welcomes a learner with potential while warning that keeping the balance of living things is a demanding path.",
+        backstory = "Between lessons, a curl of bark suggested a sleepy face. Looking again did not make it less amusing. He began giving it a nod, pleased that close attention could offer an ordinary pleasure as well as a serious lesson.",
+        secret = "He greets that curl of bark with a nod before some of his lessons. The sleepy expression seems well suited to receiving a very earnest explanation of the morning.",
+        bestFriend = "You may tell me what you see in it. We need not agree about the face to enjoy stopping here together.",
+        favorite = {
+            emote = "NOD",
+            hint = "He enjoys a quiet acknowledgment that shows someone has paused to notice.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you. Shall we take time to notice what has been here while we were thinking of other things?", tone = "[calm] [welcoming]" }, "I am ready. There may be a lesson in the next ordinary thing we nearly pass." },
+            idle = { { "The face in the bark appears well rested. I trust it will forgive another earnest explanation of the morning.", tone = "[gentle] [amused]" }, "A name can help you recognize something. It need not be the end of noticing it.", "Keeping balance asks for attention even when nothing is calling loudly for help." },
+            befriended = { { "You have made time to notice what matters to me. I would be glad to keep learning what matters to you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What have you noticed?", "I was considering whether the face looks sleepier from this side." },
+            learned = { { "Let the new knowledge make you more attentive to what your actions ask of living things.", tone = "[patient] [encouraging]" } },
+            zone = { "New ground. Remember that life continues beneath the part we can easily see." },
+            quest = { "Understand the need behind the task before deciding that completing it is all there is to learn." },
+            loot = { "Consider what has been gathered and how it can be used with care." },
+            rest = { "A pause. We may look without requiring the next thing we notice to be a problem." },
+            combatEnd = { "See what needs tending before turning your thoughts to another challenge." },
+            thanked = { "You are welcome. There is room for another question when you are ready." },
+        },
+    },
+
     -- Brave Ironhorn, Bloodhoof Village, Mulgore. Adult Tauren male
     -- 3775/M2 968705, Horde Friendly.41installed village-direction lines;
     -- no own current/Classic quest. Describing home through its sounds is

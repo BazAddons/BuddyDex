@@ -2401,6 +2401,27 @@
       "zone": "Mulgore",
       "route": "Horde Bloodhoof early hunter trainer",
       "reason": "Complete adult male Tauren profile with fifteen queued lines; actual guidance/animal partnership and current hunt regret preserved, no synthesis"
+    },
+    {
+      "npc_id": 251902,
+      "name": "Illaya Amberwind",
+      "zone": "Zephras Isle",
+      "route": "Horde Shendar Windshaper elder",
+      "reason": "Complete adult Skyborne profile with fifteen queued lines; actual allegiance/access, own dialogue and relevant written source distinguished, no synthesis"
+    },
+    {
+      "npc_id": 252392,
+      "name": "Orsaan Dalewind",
+      "zone": "Zephras Isle",
+      "route": "Horde Valanaar crafters hall",
+      "reason": "Complete adult Skyborne profile with fifteen queued lines; actual allegiance/access, own dialogue and relevant written source distinguished, no synthesis"
+    },
+    {
+      "npc_id": 251373,
+      "name": "Xyton Silverwind",
+      "zone": "Zephras Isle",
+      "route": "Shared Thendal early Druid trainer",
+      "reason": "Complete adult Skyborne profile with fifteen queued lines; actual allegiance/access, own dialogue and relevant written source distinguished, no synthesis"
     }
   ]
 }
