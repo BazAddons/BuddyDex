@@ -3633,5 +3633,19 @@
     "zone": "Alterac Mountains",
     "source": "Reviewed adult Alliance Friendly Gnome woman in Forever Dalaran; primary alchemist role with empty own tables, no personal gossip/quests found; original riddle-order story; no Scout sighting claimed",
     "research_notes": "docs/research/gaxims-living-forest-and-linzys-riddle.md"
+  },
+  {
+    "npc_id": 3139,
+    "name": "Gar'Thok",
+    "zone": "Durotar",
+    "source": "Reviewed adult Horde Orc man; complete current duties, Admiral chain/two readable pages and Forever spider referral; lost fastening original; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-fastening-and-neelas-patient.md"
+  },
+  {
+    "npc_id": 5759,
+    "name": "Nurse Neela",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Horde Forsaken woman; full First Aid camping referral, installed own training/manual/doctor gossip and historical lessons; practice patient original; no Scout sighting claimed",
+    "research_notes": "docs/research/razor-hill-fastening-and-neelas-patient.md"
   }
 ]

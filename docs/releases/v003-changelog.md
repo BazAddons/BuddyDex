@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gar'Thok and Nurse Neela: two adult Horde profiles with thirty personal lines queued.
+- Expand Razor Hill and Brill early contacts using researched command duties and First Aid camping instruction, with original friendship stories documented.
+
 - Add Gaxim Rustfizzle and Linzy Blackbolt: two adult Gnome profiles with thirty personal lines queued.
 - Research Gaxim's full Stonetalon/Castpipe branches and Linzy's Forever Dalaran identity, with original birdsong and riddle-telling stories documented separately.
 
@@ -387,4 +390,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **724 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **726 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 307,
     "unverified": 158,
-    "horde": 285
+    "horde": 287
   },
   "npc_race_counts": {
     "1": 167,
     "3": 60,
     "7": 53,
-    "2": 78,
-    "5": 78,
+    "2": 79,
+    "5": 79,
     "4": 57,
     "8": 57,
     "9": 46,
@@ -31,7 +31,7 @@
     "Wetlands": 3,
     "Ironforge": 55,
     "Stranglethorn Vale": 5,
-    "Tirisfal Glades": 47,
+    "Tirisfal Glades": 48,
     "Undercity": 14,
     "Duskwood": 3,
     "Silverpine Forest": 8,
@@ -43,7 +43,7 @@
     "Darkshore": 9,
     "Mulgore": 22,
     "Thunder Bluff": 39,
-    "Durotar": 50,
+    "Durotar": 51,
     "The Barrens": 36,
     "Stonetalon Mountains": 11,
     "Darnassus": 9,
@@ -3245,6 +3245,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3134"
     },
     {
+      "npc_id": 3139,
+      "name": "Gar'Thok",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3139"
+    },
+    {
       "npc_id": 3140,
       "name": "Lar Prowltusk",
       "zone": "Durotar",
@@ -6015,6 +6028,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5753"
+    },
+    {
+      "npc_id": 5759,
+      "name": "Nurse Neela",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5759"
     },
     {
       "npc_id": 5765,
@@ -9286,6 +9312,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 724,
-  "awaiting_signature_audio_profiles": 270
+  "authored_profiles": 726,
+  "awaiting_signature_audio_profiles": 272
 }

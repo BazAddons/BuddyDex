@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gar'Thok and Nurse Neela: two adult Horde profiles with thirty personal lines queued.
+- Expand Razor Hill and Brill early contacts using researched command duties and First Aid camping instruction, with original friendship stories documented.
+
 - Add Gaxim Rustfizzle and Linzy Blackbolt: two adult Gnome profiles with thirty personal lines queued.
 - Research Gaxim's full Stonetalon/Castpipe branches and Linzy's Forever Dalaran identity, with original birdsong and riddle-telling stories documented separately.
 

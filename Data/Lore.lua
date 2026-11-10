@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gar'Thok, Razor Hill. Adult Orc male3736/M2 917116, Horde
+    -- Friendly. All current duties/full Admiral chain, new96821 and
+    -- readable two-page orders checked. Hostile defensive policy kept;
+    -- lost fastening and discreet helping hand are original.
+    -- Research: docs/research/razor-hill-fastening-and-neelas-patient.md
+    [3139] = {
+        quote = "Bring me what you observed. A useful fact serves Durotar better than a boast with nothing behind it.",
+        likes = { "A scout's precise observation", "Useful knowledge recovered for the Horde", "A quiet hand finding a missing fastening" },
+        dislikes = { "Durotar left vulnerable to its enemies", "A threat dismissed before it is understood", "An audience gathering around a small mistake" },
+        gossip = "Gar'Thok studies recovered tools. One small fastening drew a lengthy inspection, including some time spent finding it beneath a bench.",
+        bio = "Gar'Thok commands Razor Hill. He sends adventurers against the threats to Durotar, recovers Alliance tools for study, and forwards Proudmoore's orders to Nazgrel. His work prizes useful information alongside a warrior's willingness to act.",
+        backstory = "While inspecting an unfamiliar tool, he released a fastening that vanished beneath a bench. Understanding the mechanism became a less dignified undertaking. He accepted a companion's help finding the piece, then resumed his inspection.",
+        secret = "He remembers that the help arrived without a grand announcement of his mistake. A quiet, useful hand earned more respect than its owner may have realized.",
+        bestFriend = "You are welcome beside me. And if I ask you to hold a light beneath a bench, there need not be an audience for the inspection.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "A composed acknowledgment suits a commander who expects attention to the work before the telling of heroic deeds.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Ready? Tell me where we are going and what you have observed. I would rather begin with something useful than a fine account of how impressive it will be.", tone = "[firm] [welcoming]" }, "Good. Your company is welcome. Keep your eyes open on the road, and speak when you notice something that matters." },
+            idle = { { "The fastening went beneath the bench. Yes, I was examining the tool. Finding the piece became part of the examination. The companion who helped had the sense not to announce it across the room.", tone = "[gruff] [dry]" }, "An enemy's machinery is worth understanding. Dismissing it does not make it less useful to them, or teach us anything about how it works.", "A scout who notices something small can bring back the most useful part of the report. Give the observation its attention before asking how grandly it was obtained." },
+            befriended = { { "You bring useful attention, and you know when a little help needs no announcement. I respect that. Come along, friend. You are welcome beside me.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? Tell me the useful part. If it is small, that does not make it unworthy of attention.", "I am listening. If you have found the missing fastening, I do not require a full audience for the report." },
+            saluteBack = { { "Acknowledged. Keep your attention on the work. I know you can make yourself useful without announcing every step.", tone = "[commanding] [approving]" } },
+            quest = { "Know what the task requires. Bring back the information when it matters, and do not mistake a lengthy account for a completed duty." },
+            gear = { "Inspect it. Learn how the pieces work together before trusting it to answer every difficulty by strength alone." },
+            loot = { "Look closely. An unfamiliar tool may teach us something. Secure the small pieces before taking your attention elsewhere." },
+            group = { "Who has seen what lies ahead? Hear the observations before deciding which plan sounds the boldest." },
+            rest = { "A pause. Use it to put your equipment in order. Then we can continue without leaving some small necessary thing behind." },
+            thanked = { "You are welcome. The help was useful. Remember that when someone beside you needs the same quiet attention." },
+        },
+    },
+
+    -- Nurse Neela <First Aid Trainer>, Brill. Adult Forsaken
+    -- female4179/M2 997378, Horde Friendly. Full97955 camping
+    -- referral, installed training/manual/doctor directions read.
+    -- Rolled-cloth exemplary patient is original, not a real NPC.
+    -- Research: docs/research/razor-hill-fastening-and-neelas-patient.md
+    [5759] = {
+        quote = "Hold still, please. Yes, I was addressing the practice bundle. An exemplary patient, if rather short on conversation.",
+        likes = { "A student willing to ask again", "Practical care carried into the wilderness", "A small joke easing a tense lesson" },
+        dislikes = { "A question hidden to preserve appearances", "Supplies forgotten until they are needed", "An anxious learner made to feel foolish" },
+        gossip = "Nurse Neela has addressed a rolled practice bundle as though it were a patient. Its excellent manners have received several dry compliments.",
+        bio = "Nurse Neela teaches First Aid in Brill. Eleanor Shackleton sends learners to her for the camping lesson's First Aid Kit. Her work gives adventurers practical skills to take beyond town, where a prepared camp can offer needed care.",
+        backstory = "During a lesson, she asked the rolled practice cloth to hold still. A student laughed, and Neela praised the bundle's exemplary cooperation. The little absurdity left room for the student to admit which part they had not understood.",
+        secret = "She does not mind being caught talking to the practice bundle. If a dry joke makes a learner comfortable enough to ask again, it has done useful work.",
+        bestFriend = "Stay a while, friend. You can ask again if you need to. Unlike my most composed practice patient, you are allowed an opinion about the lesson.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone recognizing a dry little joke without making another learner the object of it.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are, friend. Shall we? My practice bundle has offered no objection. An exemplary patient, though conversation with you is rather more rewarding.", tone = "[dry] [welcoming]" }, "Good to see you. Come along. If there is something you meant to ask, there is time to begin without pretending you already know the answer." },
+            idle = { { "I asked the practice bundle to hold still. The student laughed. I praised its excellent cooperation. After that, asking to hear part of the lesson again seemed a little less alarming.", tone = "[deadpan] [fond]" }, "An exemplary patient: patient, composed, and entirely made of practice cloth. I do not demand the same standard of silence from a learner.", "There is no advantage in leaving a lesson with a question hidden for the sake of appearances. Ask. We can make something useful of that." },
+            befriended = { { "You can share the little joke without making someone else feel foolish. I appreciate that, friend. Come along. I would be pleased to have your company beyond the lesson.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes, friend? You are allowed to interrupt with a useful question. The practice bundle has been very quiet about everything.", "I am listening. Begin with the part that troubled you, even if you believe you ought to know it already." },
+            learned = { { "Good. Now take the time to understand what you have learned. If you need the explanation again, say so. Your cooperation need not be quite as silent as my practice patient's.", tone = "[measured] [encouraging]" } },
+            rest = { "A pause. Put down what you can, and take the moment. A learner is allowed to need time as well as another explanation." },
+            group = { "Ask whether everyone understands. A quiet companion may be considering a useful question rather than agreeing with every word." },
+            combatEnd = { "Take a moment to see who needs attention. Useful care begins with noticing the companion who has not spoken yet." },
+            thanked = { "You are welcome. I am pleased the lesson helped. Bring the questions back with you when there are more." },
+            quest = { "Read what the preparation asks of you. Practical skills deserve practice, including the parts a confident introduction tends to skip." },
+            bagsFull = { "Keep the useful supplies where you can find them. Being certain you packed something is less helpful than knowing where it is." },
+        },
+    },
+
     -- Gaxim Rustfizzle, Stonetalon. Adult Gnome male2180/M2 900914,
     -- Alliance Friendly. Full18quest Stonetalon/Castpipe branches and
     -- installed explosives gossip read. Forest conservation is factual;

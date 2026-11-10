@@ -3304,6 +3304,20 @@
       "zone": "Alterac Mountains",
       "route": "Dalaran alchemy contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified Forever alchemist identity and original riddle-order enthusiasm; no synthesis"
+    },
+    {
+      "npc_id": 3139,
+      "name": "Gar'Thok",
+      "zone": "Durotar",
+      "route": "Razor Hill early command duties",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified current command duties and original fastening/discreet-help story; no synthesis"
+    },
+    {
+      "npc_id": 5759,
+      "name": "Nurse Neela",
+      "zone": "Tirisfal Glades",
+      "route": "Brill early First Aid route",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified adult trainer/referral and original rolled-cloth patient story; no synthesis"
     }
   ]
 }
