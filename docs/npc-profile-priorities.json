@@ -3213,6 +3213,20 @@
       "zone": "Thousand Needles",
       "route": "Mirage Raceway goblin engineering",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original sand-bucket crewman nickname and private care; no synthesis"
+    },
+    {
+      "npc_id": 9980,
+      "name": "Shelby Stoneflint",
+      "zone": "Dun Morogh",
+      "route": "Kharanos hunter companion care",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified hunter-companion stable role and original pale-fur blizzard; no synthesis"
+    },
+    {
+      "npc_id": 258548,
+      "name": "Ellie Stonebrow",
+      "zone": "Ironforge",
+      "route": "Ironforge reagent-bag patterns",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified pattern vendor and original story-versus-stitch-count anecdote; no synthesis"
     }
   ]
 }

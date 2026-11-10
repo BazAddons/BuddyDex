@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shelby Stoneflint and Ellie Stonebrow: two full adult Dwarf profiles with thirty personal lines queued.
+- Expand Kharanos companion-care and Ironforge pattern-vendor coverage, separating confirmed roles from original fur-blizzard and stitch-count stories.
+
 - Add Pozzik: a full adult Goblin profile with fifteen personal lines queued.
 - Research his full sponsorship/pilot chain and indurium rivalry, retaining his engineering history, practical precautions and competitive theft.
 

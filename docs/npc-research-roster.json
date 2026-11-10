@@ -3542,5 +3542,19 @@
     "zone": "Thousand Needles",
     "source": "Reviewed adult Goblin man, current Horde Friendly; full ten-stage sponsorship/pilot chain and indurium rivalry; sand bucket confirmed in published Forever progress, private nickname original; no Scout sighting claimed",
     "research_notes": "docs/research/pozzik-sponsorship-and-the-sand-bucket.md"
+  },
+  {
+    "npc_id": 9980,
+    "name": "Shelby Stoneflint",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Alliance Dwarf woman, Kharanos stable master; all own tables, Classic role and mountaineer directions; later Legion rescue excluded; original fur-blizzard story distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/kharanos-fur-and-ironforge-stitches.md"
+  },
+  {
+    "npc_id": 258548,
+    "name": "Ellie Stonebrow",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Alliance Dwarf woman, Ironforge pattern vendor; both reagent-bag item nodes and all own tables; map projection clarified, no personal quest/gossip found; original stitch-count/listening anecdote distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/kharanos-fur-and-ironforge-stitches.md"
   }
 ]

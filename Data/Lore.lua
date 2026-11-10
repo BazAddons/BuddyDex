@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shelby Stoneflint <Stable Master>, Kharanos, Dun Morogh. Adult
+    -- Dwarf female9253/M2 950080, Alliance Friendly. Current own tabs0;
+    -- Classic role and mountaineer directions confirm hunter-pet care.
+    -- Fur blizzard is original; no later Legion rescue imported.
+    -- Research: docs/research/kharanos-fur-and-ironforge-stitches.md
+    [9980] = {
+        quote = "Some of the snow around here has opinions about being brushed.",
+        likes = { "Gentle hands and a little patience", "A companion treated as part of the journey", "A coat brushed before it covers hers" },
+        dislikes = { "A handler who tugs instead of listening", "A hurried departure without checking comfort", "Calling a restless beast troublesome" },
+        gossip = "Shelby calls a pile of pale fur a local blizzard. She insists the weather becomes much friendlier after a good brushing.",
+        bio = "Shelby Stoneflint is the stable master in Kharanos, near the Thunderbrew Distillery. She looks after companions belonging to the local hunters. The mountaineers direct travelers to her when a pet needs care.",
+        backstory = "A thick-coated companion once left a drift of pale fur around her feet. Shelby announced a local blizzard, then produced a brush as the day's weather plan. The joke made an ordinary part of the work rather more pleasant.",
+        secret = "She calls a good brushing a small spring. Watching a restless companion settle is the part she enjoys most; a stray tuft on her sleeve seems a fair price.",
+        bestFriend = "Come along. I am glad you notice the companion as well as the journey. A little patience and good company make fine provisions.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates someone noticing the patient work that helps a traveling companion feel settled.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Shall we? Give me a moment to check the sleeve. Some of the local blizzard has decided to travel with me.", tone = "[warm] [amused]" }, "Ready, friend. I am pleased to have your company. Let us make sure everyone is comfortable before deciding how quickly we ought to go." },
+            idle = { { "Some of the snow around here has opinions about brushes. A good brushing makes the weather much friendlier, though I occasionally bring a little of it home on my sleeve.", tone = "[dry] [fond]" }, "I call it a small spring when a restless companion finally settles. The clean coat is pleasing too, but that is the part worth waiting for.", "A hunter's companion has made the journey as well. Give them time to settle before treating the stop as only another item on the day's errands." },
+            befriended = { { "You have become someone I am pleased to walk beside. Come along, friend. I like company that notices when a little patience would make the way kinder.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have spotted pale fur on the sleeve, I am already familiar with the weather report.", "I am listening. Take your time. The most useful detail is sometimes the one somebody was too hurried to mention." },
+            thanked = { { "You are welcome. It is good to hear that the care helped. A companion settling comfortably is thanks I can understand too.", tone = "[gentle] [pleased]" } },
+            rest = { "A pause. Check on the one who cannot tell you in words how the journey felt. Then let yourself settle as well." },
+            mount = { "Give everyone room before you set off. A calm beginning is worth a moment of attention." },
+            gear = { "Have a look at the fit. Something rubbing through a long journey can become a problem that a short check would have spared." },
+            group = { "Make sure nobody is being hurried past what they need. The company matters more than an impressive departure." },
+            loot = { "Keep it somewhere useful, and leave room for the things that should stay clean. I speak with some experience of unexpected fur." },
+            sitToo = { "I will sit with you. We can enjoy a little quiet while the local weather decides whether to attach itself to my other sleeve." },
+        },
+    },
+
+    -- Ellie Stonebrow <Tailoring Recipes>, Ironforge. Adult Dwarf
+    -- female140823/M2 950080, Alliance Friendly. Two exact current
+    -- reagent-bag patterns read; no own quests/gossip/training found.
+    -- Story versus stitch-count anecdote is original, not game dialogue.
+    -- Research: docs/research/kharanos-fur-and-ironforge-stitches.md
+    [258548] = {
+        quote = "Give me the end of this row. Then I want the end of that story.",
+        likes = { "A story worth setting the work aside for", "A careful count before the next stitch", "Company willing to save the punch line" },
+        dislikes = { "Pretending to listen while losing the thread", "A beginner shamed for asking where to start", "An interruption blamed on someone else" },
+        gossip = "Ellie can count her stitches or follow a good story. She is increasingly unwilling to promise both at once.",
+        bio = "Ellie Stonebrow sells tailoring patterns in Ironforge. Her wares include patterns for Linen and Woolen Reagent Bags, giving tailors practical projects for keeping an adventurer's crafting supplies together.",
+        backstory = "A friend once told her a story while she was counting stitches. She wanted the ending, lost her place, and had to begin the count again. Ellie decided a good tale deserved the same attention as a careful seam.",
+        secret = "She sometimes asks for the funny part again after putting the needle aside. She wants to enjoy the punch line without immediately wondering which stitch it cost her.",
+        bestFriend = "Come along. The needle can wait. I want to hear your story properly, and I am pleased you wanted to tell it to me.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She enjoys a friendly face willing to wait a moment, then share the amusing part of a story.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Give me the end of this row, and then I want the end of that story. I am ready to hear it properly this time.", tone = "[warm] [amused]" }, "Shall we? The work can wait a little. I should like your company, and a conversation that does not have to compete with a stitch count." },
+            idle = { { "I tried counting stitches while a friend told me a story. Lost my place just before the good part. I have become less ambitious about doing both things at once.", tone = "[wry] [amused]" }, "A pattern gives you a useful beginning. The next part still takes the learner's care. There is no shame in looking at the instructions again.", "Sometimes I ask for the funny part twice. Once while I am trying to finish the row, and once when I can enjoy it without recounting anything afterward." },
+            befriended = { { "You have become someone whose stories I want to hear with my whole attention. Come along, friend. I am glad we have time for the telling as well as the work.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Give me this last count. There. Now tell me what you wanted to say.", "I am listening. If the tale is a good one, the needle can wait." },
+            laughAlong = { { "There, that deserved my attention. I am pleased I put the work aside before you reached that part.", tone = "[bright] [amused]" } },
+            learned = { "Something learned. Look back at the instructions and see which part makes more sense now." },
+            bagsFull = { "Make a little room, and keep the supplies together. A useful bag cannot tell you where you put the thread if you did not notice." },
+            gear = { "Give the small details a look. A careful seam may receive less praise than a grand design, but it still has work to do." },
+            rest = { "A pause. If you have a story, I should like it now. I can promise the count will not be interrupting us." },
+            group = { "Let the person finish explaining. Hearing half the account can leave everyone repeating a part they thought was settled." },
+            quest = { "Read what is actually asked. A useful beginning is worth a moment of attention before you start supplying the missing parts yourself." },
+        },
+    },
+
     -- Pozzik, Mirage Raceway. Adult Goblin male7199/M2 119376;
     -- current primary Horde Friendly, historical shared access noted.
     -- Full ten-stage sponsorship/pilot chain, indurium branch and
