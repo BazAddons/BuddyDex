@@ -1134,6 +1134,20 @@
       "zone": "Arathi Highlands",
       "route": "Horde female Orc/male Troll regional quest coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; sources, original/era limits and normal299/300 boundary validation in docs/research/korin-and-zengu-queue.md"
+    },
+    {
+      "npc_id": 2706,
+      "name": "Tor'gan",
+      "zone": "Arathi Highlands",
+      "route": "Horde regional shaman quest/bowyer coverage",
+      "reason": "Identity verified; full source/quest comparisons and profile writing pending. See docs/research/torgan-and-muuta-queue.md"
+    },
+    {
+      "npc_id": 9555,
+      "name": "Mu'uta",
+      "zone": "Arathi Highlands",
+      "route": "Horde regional shaman quest/bowyer coverage",
+      "reason": "Identity verified; full source/quest comparisons and profile writing pending. See docs/research/torgan-and-muuta-queue.md"
     }
   ]
 }

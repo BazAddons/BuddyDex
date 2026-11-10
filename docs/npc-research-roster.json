@@ -1463,5 +1463,19 @@
     "zone": "Arathi Highlands",
     "source": "Exact current named adult model/Friendly/voice verified; complete sourced profile, fifteen lines/four approved v4 signatures, live eligibility gates and normal299/300 Buddy boundary tested; full chain/Forever eleven-fragment change/era/original limits documented, no Scout sighting claimed",
     "research_notes": "docs/research/korin-and-zengu-queue.md"
+  },
+  {
+    "npc_id": 2706,
+    "name": "Tor'gan",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult model/Friendly/approved voice verified; full own tabs/initial chain research, no Scout sighting claimed; full research pending",
+    "research_notes": "docs/research/torgan-and-muuta-queue.md"
+  },
+  {
+    "npc_id": 9555,
+    "name": "Mu'uta",
+    "zone": "Arathi Highlands",
+    "source": "Exact current named adult model/Friendly/approved voice verified; full own tabs/initial chain research, no Scout sighting claimed; full research pending",
+    "research_notes": "docs/research/torgan-and-muuta-queue.md"
   }
 ]
