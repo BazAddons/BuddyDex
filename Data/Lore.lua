@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Canaga Earthcaller, Valley of Trials, Durotar. NPC5887/display4532:
+    -- standard adult male Troll. Installed Scout: Horde, reaction5, normal.
+    -- Classic1516-1518/1463 and installed text: earth's patience, sapta at
+    -- Spirit Rock, quartz returned for a totem. Modern Hana'zua role excluded.
+    -- Impatience over cooling bread is original, not an altered sacred rite.
+    -- docs/research/canaga-earthcaller-and-shikrik.md.
+    [5887] = {
+        recordingVoice = "troll-male",
+        quote = "Earth has patience enough for mountains. I am still working on patience enough for hot bread.",
+        likes = { "Humility before the elements", "Someone who returns as promised", "Bread just cool enough to eat" },
+        dislikes = { "Treating a sacred rite as a shortcut", "Mistaking a small stone for nothing", "Being told the food needs longer" },
+        gossip = "Canaga can speak at length about earth's patience. Set fresh bread nearby, and his lesson becomes noticeably shorter.",
+        bio = "Canaga Earthcaller guides shamans in Durotar's Valley of Trials. His earth rite leads to Spirit Rock, where humility matters more than a show of force. A small piece of quartz becomes the heart of a totem.",
+        backstory = "After teaching patience one afternoon, Canaga tried a piece of bread before it had cooled. He spent the next few moments practicing his lesson in silence. Remembering it helps him forgive a novice who has hurried ahead.",
+        secret = "He breaks his bread into small pieces so it will cool faster. He calls this cooperating with the elements. He knows exactly how that sounds.",
+        bestFriend = "Sit with me. This piece should be cool enough now. If it is not, you may remind me of my own advice. Once.",
+        favorite = { emote = "BOW", hint = "A humble visitor understands something that a boastful one may miss." },
+        lines = {
+            greet = { { "Welcome back, my friend. Have you come for a little company? I would be glad of yours.", tone = "[warmly] [unhurried]" },
+                "A good day to put one foot in front of the other. Shall we?" },
+            idle = { { "There is wisdom in waiting. There is also fresh bread cooling somewhere, and I would like to know where.", tone = "[dryly amused]" },
+                "Something small may endure long after something grand has fallen.",
+                "No, sapta is not an ordinary drink. Some things deserve care." },
+            befriended = { { "You returned when there was no rite to finish and no reward waiting. That tells me something. Come, let us spend a little time as friends.", tone = "[sincere] [warmly]" } },
+            poke = { "Earth is patient. My ribs have limits.", "You have my attention. You may put the finger away." },
+            rest = { { "We can wait here. The road will remain where it is, and I would enjoy hearing what brought you along it.", tone = "[calm] [friendly]" } },
+            learned = { "Good. Now give that knowledge a little time to take root." },
+            quest = { "A promise kept. There is strength in that." },
+            loot = { "Look closely before you dismiss a small thing." },
+            zone = { "Different ground. The same need to tread with respect." },
+            combatEnd = { "Stand steady. It is finished for now." },
+            levelUp = { "Strength, patience, wisdom. Keep room for all three." },
+        },
+    },
+
+    -- Shikrik <Shaman Trainer>, Valley of Trials, Durotar. NPC3157/display1878:
+    -- standard adult female Orc, Scout Horde/reaction5. Classic3084/3089 and
+    -- installed text: busy teacher, learned from Troll shamans, ancestors,
+    -- leadership through wisdom/protection. No Mankrik kinship inferred.
+    -- Practice-page scorpid doodles are original; no canonical rune altered.
+    -- docs/research/canaga-earthcaller-and-shikrik.md.
+    [3157] = {
+        recordingVoice = "orc-female",
+        quote = "Ask the question. If you were meant to know everything already, I would have a very quiet day.",
+        likes = { "A student who admits uncertainty", "Strength used to protect someone", "Room left at the edge of a page" },
+        dislikes = { "Pretending a lesson is beneath you", "Power used as an excuse for cruelty", "Ink running into the important part" },
+        gossip = "Shikrik's practice pages sometimes have little scorpids in the margins. Her students debate whether they are part of a lesson.",
+        bio = "Shikrik teaches shamans in the Valley of Trials. An Orc who remembers learning from Troll shamans, she asks students to prepare for lives of guidance and protection. Power brings responsibilities as well as new spells.",
+        backstory = "Between lessons, Shikrik began sketching a scorpid on a spare practice page. It needed another leg, then a better claw. She found herself enjoying a small piece of work that no student needed her to explain.",
+        secret = "The scorpids are not a lesson. She simply likes drawing them. One has a raised claw that looks rather as if it wishes to ask a question.",
+        bestFriend = "Here. I left room beside this one. Draw something if you like. For once, neither of us needs to know the right answer.",
+        favorite = { emote = "THANK", hint = "A teacher remembers someone who appreciates the time spent helping them." },
+        lines = {
+            greet = { { "There you are. I can put the practice pages away for a while. What have you been doing?", tone = "[gravelly] [warmly]" },
+                "Come along, then. I would like to hear something beyond my own lessons." },
+            idle = { { "That little scorpid is only a drawing. No ancient meaning, no secret test. I thought the page could use a claw in the corner.", tone = "[gravelly] [dryly amused]" },
+                "Remembering your own first lesson makes teaching someone else rather easier.",
+                "There should be room for questions. Even a question asked twice." },
+            befriended = { { "You do not come to me only when you need a new lesson. I appreciate that. I would be glad to spend some time simply being your friend.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? Use your words.", "That is quite enough practical demonstration." },
+            learned = { { "Good. Practice until you understand it, then practice using it wisely. Those are not always the same thing.", tone = "[gravelly] [firmly encouraging]" } },
+            quest = { "Someone was relying on you. I am glad you saw it through." },
+            levelUp = { "More power. More reason to think before using it." },
+            combatEnd = { "Look to the others. Who needs help?" },
+            rest = { "A short pause. Even a teacher may run out of words." },
+            zone = { "New surroundings. I shall try to be the one asking questions." },
+            loot = { "Useful? Keep it. Interesting? Tell me why." },
+        },
+    },
+
     -- Karn Stonehoof <Expert Blacksmith>, lower rise, Thunder Bluff.
     -- NPC2998/display2090: standard adult male Tauren, current HordeFriendly.
     -- His installed gossip links learning the forge to listening to spirits;

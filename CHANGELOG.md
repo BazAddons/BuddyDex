@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add full Canaga Earthcaller and Shikrik profiles from Scout-observed Durotar identities, fifteen lines each; approved Troll male/Orc female voices assigned, with recordings deferred until billing confirmation.
+
 - Add full Karn Stonehoof and Nara Wildmane profiles (Thunder Bluff), fifteen personal lines each; approved Tauren voices assigned and all thirty recordings queued until the user confirms billing is fixed.
 - Track text-complete profiles separately from those with initial signature audio; preserve display-based voice routing and all live friendship checks.
 

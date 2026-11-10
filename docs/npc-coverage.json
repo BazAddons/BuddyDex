@@ -4,17 +4,17 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 208,
-    "unverified": 107,
+    "unverified": 109,
     "horde": 148
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 44,
+    "2": 45,
     "5": 45,
     "4": 23,
-    "8": 32,
+    "8": 33,
     "9": 23,
     "6": 49,
     "96": 5,
@@ -39,7 +39,7 @@
     "Darkshore": 4,
     "Mulgore": 11,
     "Thunder Bluff": 23,
-    "Durotar": 21,
+    "Durotar": 23,
     "The Barrens": 22,
     "Ashenvale": 3,
     "Stonetalon Mountains": 4,
@@ -2642,6 +2642,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3145"
     },
     {
+      "npc_id": 3157,
+      "name": "Shikrik",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout records Horde/reaction5 in Valley of Trials. Ordinary live gates still apply.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3157",
+      "audio_status": "All personal recordings pending; user requested no synthesis until billing confirmed fixed"
+    },
+    {
       "npc_id": 3158,
       "name": "Duokna",
       "zone": "Durotar",
@@ -4086,6 +4102,22 @@
       "public_friendly_factions": [],
       "reaction_evidence": "No current reaction icon; see horde-starter-trio.md for independent quest/role evidence",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5884"
+    },
+    {
+      "npc_id": 5887,
+      "name": "Canaga Earthcaller",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout records Horde/reaction5 in Valley of Trials. Ordinary live gates still apply.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5887",
+      "audio_status": "All personal recordings pending; user requested no synthesis until billing confirmed fixed"
     },
     {
       "npc_id": 5917,
@@ -5780,6 +5812,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 456,
-  "awaiting_signature_audio_profiles": 2
+  "authored_profiles": 458,
+  "awaiting_signature_audio_profiles": 4
 }

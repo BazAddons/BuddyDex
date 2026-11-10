@@ -1757,5 +1757,19 @@
     "zone": "Thunder Bluff",
     "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
     "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md"
+  },
+  {
+    "npc_id": 5887,
+    "name": "Canaga Earthcaller",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 Valley of Trials sighting; current adult model and full Classic/installed texts reviewed; no public reaction inferred",
+    "research_notes": "docs/research/canaga-earthcaller-and-shikrik.md"
+  },
+  {
+    "npc_id": 3157,
+    "name": "Shikrik",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 Valley of Trials sighting; current adult model and full Classic/installed texts reviewed; no public reaction inferred",
+    "research_notes": "docs/research/canaga-earthcaller-and-shikrik.md"
   }
 ]

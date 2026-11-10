@@ -1428,6 +1428,20 @@
       "zone": "Thunder Bluff",
       "route": "Male and female Tauren trade/quest coverage while audio billing is unavailable",
       "reason": "Reviewed adult identity, current HordeFriendly access and full source text; approved voices assigned; all dialogue queued without synthesis"
+    },
+    {
+      "npc_id": 5887,
+      "name": "Canaga Earthcaller",
+      "zone": "Durotar",
+      "route": "Scout-observed male Troll and female Orc Valley of Trials beginner coverage",
+      "reason": "Actual named adult Horde-friendly Scout identity reviewed; full Classic/installed class quest text; approved voice and complete written profile, audio deferred"
+    },
+    {
+      "npc_id": 3157,
+      "name": "Shikrik",
+      "zone": "Durotar",
+      "route": "Scout-observed male Troll and female Orc Valley of Trials beginner coverage",
+      "reason": "Actual named adult Horde-friendly Scout identity reviewed; full Classic/installed class quest text; approved voice and complete written profile, audio deferred"
     }
   ]
 }
