@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Goma and Hai'zan: complete adult Orc and Troll profiles for a named Orgrimmar resident and the Sen'jin butcher, with thirty personal lines queued.
+- Expand ordinary emote-based encounters alongside trade contacts, keeping later expansion stories and unsupported services out of the profiles.
+
 - Add Jahan Hawkwing and Halija Whitestrider: two complete adult Tauren profiles at the Crossroads, with thirty personal lines queued.
 - Ground Jahan in his hide-delivery circuit and Halija in current cloth/repair services, with distinct original friendship stories.
 

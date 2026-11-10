@@ -2100,6 +2100,20 @@
       "zone": "The Barrens",
       "route": "Horde Tauren male/female Crossroads armor and trade contacts",
       "reason": "Full adult profile and fifteen queued personal lines; Barrens next-route coverage distinct from Mulgore starters, sparse current quests not promised live, ordinary eligibility unchanged, no synthesis"
+    },
+    {
+      "npc_id": 5606,
+      "name": "Goma",
+      "zone": "Orgrimmar",
+      "route": "Horde ordinary named city resident",
+      "reason": "Full adult male Orc/Troll profile and fifteen queued lines; sparse canon distinguished from original friendship, current services not invented, ordinary emote/live eligibility retained, no synthesis"
+    },
+    {
+      "npc_id": 3933,
+      "name": "Hai'zan",
+      "zone": "Durotar",
+      "route": "Shared Orc/Troll early Senjin butcher contact",
+      "reason": "Full adult male Orc/Troll profile and fifteen queued lines; sparse canon distinguished from original friendship, current services not invented, ordinary emote/live eligibility retained, no synthesis"
     }
   ]
 }

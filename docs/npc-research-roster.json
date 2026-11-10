@@ -2429,5 +2429,19 @@
     "zone": "The Barrens",
     "source": "Reviewed unique adult Horde Friendly identity/model, complete available stock/quest tabs and full historical/corpus delivery chain or sparse personal lore; no Scout sighting claimed",
     "research_notes": "docs/research/crossroads-hides-cloth-and-small-contests.md"
+  },
+  {
+    "npc_id": 5606,
+    "name": "Goma",
+    "zone": "Orgrimmar",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete sparse quest/service tabs, Classic role/location and later-version exclusions; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-welcome-and-senjin-provisions.md"
+  },
+  {
+    "npc_id": 3933,
+    "name": "Hai'zan",
+    "zone": "Durotar",
+    "source": "Reviewed unique adult Horde Friendly identity/model, complete sparse quest/service tabs, Classic role/location and later-version exclusions; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-welcome-and-senjin-provisions.md"
   }
 ]

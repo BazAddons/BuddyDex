@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Goma, Valley of Strength, Orgrimmar. Adult Orc male3604/M2 917116,
+    -- Horde Friendly, no verified service/own quest/gossip. Later siege and
+    -- war-campaign events excluded; no invented guildmaster or combat rank.
+    -- Making room for quiet arrivals is original BuddyDex character writing.
+    -- Research: docs/research/orgrimmar-welcome-and-senjin-provisions.md
+    [5606] = {
+        quote = "You need not have a tale worth shouting to sit with me.",
+        likes = { "Room made for a late arrival", "Company comfortable with quiet", "A greeting without a challenge" },
+        dislikes = { "A guest left standing unnoticed", "Every story turned into a contest", "Someone speaking for a quieter friend" },
+        gossip = "Goma does not make much ceremony of a welcome. Somehow there is usually room beside him when someone needs it.",
+        bio = "Goma is an orc resident of Orgrimmar, found near Gryshka's inn in the Valley of Strength. Among the city's busy traders and travelers, he is content to offer a place in the conversation and a little company before the next journey.",
+        backstory = "He once noticed a late arrival waiting while a table kept talking. By the time anyone made space, the visitor had gone. Afterward he began leaving room before it was needed, finding that a welcome could be offered without interrupting a story.",
+        secret = "He will sometimes take the less comfortable place so a new arrival gets the better one. Asked about it, he says he prefers the breeze. Occasionally this is even true.",
+        bestFriend = "There is room for you. You need not arrive with news, or a reason. I am glad you came back.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "He appreciates a greeting that makes room for someone without putting them on display.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good to see you. Shall we walk a little, or is there something you would like to tell me?", tone = "[low] [warm]" }, "I am ready. You need not make a grand occasion of it." },
+            idle = { { "That place gets more of a breeze. A useful explanation, whether or not it is the reason I chose it.", tone = "[dry] [gentle]" }, "A person need not shout to have something worth hearing.", "Leave a little room. Someone may join us who has not decided how to ask." },
+            befriended = { { "You have become someone I am glad to see without asking what brings you here. That is enough reason to come along.", tone = "[low] [sincere]" } },
+            poke = { "Yes? You have my attention. Take your time.", "I was listening. You need not begin again more loudly." },
+            group = { { "Make room for the one at the edge. They should not have to earn a place in the conversation.", tone = "[steady] [welcoming]" } },
+            rest = { "A good place to pause. We do not have to fill it with a story." },
+            mail = { "Someone has thought to write. Let them have a little of your attention." },
+            hearth = { "Homeward. It is good to know someone will be glad you arrived." },
+            zone = { "New surroundings. Perhaps there will be good company here too." },
+            quest = { "Let them finish saying what they need before you decide you understand." },
+            thanked = { "You are welcome. No need to make a debt of it." },
+        },
+    },
+
+    -- Hai'zan <Butcher>, Sen'jin, Durotar. Adult Troll male4082/M2
+    -- 1022938, Horde Friendly. Classic six meats; current own four tabs zero,
+    -- no installed gossip. Not shared-model Ya'mon or later Jamai's history.
+    -- Favorite crisp apple after work is original BuddyDex character writing.
+    -- Research: docs/research/orgrimmar-welcome-and-senjin-provisions.md
+    [3933] = {
+        quote = "Enough for the road is sensible. Enjoying a little of it is sensible too.",
+        likes = { "Provisions enough for the company", "Something crisp after work", "A pause that is allowed to be a pause" },
+        dislikes = { "Food packed where it will be spoiled", "Every meal turned into a boast", "A traveler forgetting to feed themselves" },
+        gossip = "Hai'zan can discuss a portion of meat with authority. Ask what he most enjoys after work, and the answer may need a little coaxing.",
+        bio = "Hai'zan is the butcher in Sen'jin Village, supplying meat to the people passing through. A journey is easier to face with provisions, but he also likes a meal that gives its eaters time to enjoy the company rather than merely prepare for another task.",
+        backstory = "Being asked about meat so often made it an easy answer to every food question. One quiet break reminded him that what he sold and what he happened to want were not always the same. He began saving a little appetite for a crisp apple.",
+        secret = "A crisp apple is one of his favorite small pleasures. He does not mind saying so, once he has finished explaining that his professional judgment on meat remains excellent.",
+        bestFriend = "Bring something you enjoy. I would rather share a good pause with you than defend a reputation for eating only one thing.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates someone noticing the practical care behind a well-provisioned trip.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. I hope this outing leaves time to enjoy what we have brought.", tone = "[warm] [easygoing]" }, "I am ready. Have you enough for yourself as well as everyone else?" },
+            idle = { { "An apple after work does not disqualify a butcher from having sound opinions about meat.", tone = "[amused] [matter-of-fact]" }, "There is no need to make a meal into proof of your courage.", "A pause can be enjoyed before we decide how useful it has been." },
+            befriended = { { "You asked what I enjoy instead of what I can supply. I am pleased to come along and find out what you enjoy too.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A question about provisions, or shall we talk about something else for once?", "I was considering supper. Not every thought has to be more important than that." },
+            rest = { { "Put the work down long enough to enjoy the break. It will find you again soon enough.", tone = "[gentle] [practical]" } },
+            bagsFull = { "Keep the provisions away from whatever is leaking in the bottom." },
+            loot = { "Useful for the journey? Make certain you can carry it without spoiling the rest." },
+            group = { "Enough to go around, and a little time to enjoy sharing it." },
+            questAccepted = { "Provision the trip before you make it sound easy." },
+            combatEnd = { "Everyone still here? Good. We can attend to what needs tending before thinking of supper." },
+            hearth = { "Homeward. A familiar meal can be a fine welcome." },
+        },
+    },
+
     -- Jahan Hawkwing <Leather & Mail Armor Merchant>, Crossroads, Barrens.
     -- Adult Tauren male3872/M2 968705, Horde Friendly. Full6361-6364
     -- supply/flight chain and installed fortitude gossip; current tabs sparse.
