@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Brave Windfeather and Jyn Stonehoof: two complete adult Tauren women, with thirty personal lines queued.
+- Expand Red Cloud Mesa and Thunder Bluff companions with distinct defender and weapons-merchant profiles.
+
 - Add Frahun Shadewhisper, Janna Brightmoon, and Keina: three complete adult Night Elf profiles, with forty-five personal lines queued.
 - Expand Shadowglen companions with a researched rogue introduction and two distinct merchant stories.
 
@@ -156,4 +159,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **583 fully written NPC profiles**: 454 have initial signature recordings, and one hundred twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **585 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

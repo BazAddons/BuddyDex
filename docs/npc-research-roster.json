@@ -2646,5 +2646,19 @@
     "zone": "Teldrassil",
     "source": "Reviewed exact adult Night Elf body/current Alliance Friendly; full own tabs, established stock or complete sigil introduction/readable letter; no Scout sighting claimed",
     "research_notes": "docs/research/shadowglen-lessons-and-small-performances.md"
+  },
+  {
+    "npc_id": 3209,
+    "name": "Brave Windfeather",
+    "zone": "Mulgore",
+    "source": "Reviewed adult female Tauren body and current Horde Friendly; complete Sharptusk charge/adjacent report or full37-item trade; no Scout sighting claimed",
+    "research_notes": "docs/research/red-cloud-resolve-and-thunder-bluff-balance.md"
+  },
+  {
+    "npc_id": 2997,
+    "name": "Jyn Stonehoof",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult female Tauren body and current Horde Friendly; complete Sharptusk charge/adjacent report or full37-item trade; no Scout sighting claimed",
+    "research_notes": "docs/research/red-cloud-resolve-and-thunder-bluff-balance.md"
   }
 ]

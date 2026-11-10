@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brave Windfeather and Jyn Stonehoof: two complete adult Tauren women, with thirty personal lines queued.
+- Expand Red Cloud Mesa and Thunder Bluff companions with distinct defender and weapons-merchant profiles.
+
 - Add Frahun Shadewhisper, Janna Brightmoon, and Keina: three complete adult Night Elf profiles, with forty-five personal lines queued.
 - Expand Shadowglen companions with a researched rogue introduction and two distinct merchant stories.
 

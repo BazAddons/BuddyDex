@@ -2317,6 +2317,20 @@
       "zone": "Teldrassil",
       "route": "Alliance Shadowglen early trainer and merchants",
       "reason": "Complete adult Night Elf profile with fifteen queued lines; sigil speaker/prerequisite or full trade reviewed, no synthesis"
+    },
+    {
+      "npc_id": 3209,
+      "name": "Brave Windfeather",
+      "zone": "Mulgore",
+      "route": "Horde Red Cloud Mesa early defender",
+      "reason": "Complete adult Tauren female profile with fifteen queued lines; historical quest/current gaps or full stock separated, no synthesis"
+    },
+    {
+      "npc_id": 2997,
+      "name": "Jyn Stonehoof",
+      "zone": "Thunder Bluff",
+      "route": "Horde Thunder Bluff weapons merchant",
+      "reason": "Complete adult Tauren female profile with fifteen queued lines; historical quest/current gaps or full stock separated, no synthesis"
     }
   ]
 }

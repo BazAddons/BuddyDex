@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brave Windfeather, Red Cloud Mesa, Mulgore. Adult Tauren female
+    -- 3770/M2 986648, Horde Friendly. Full3376 objective/offer/progress/
+    -- completion read, current own tabs0/node404; unverified60115 not imported.
+    -- Tongue-twister practice is original, not a canonical saying or reward.
+    -- Research: docs/research/red-cloud-resolve-and-thunder-bluff-balance.md
+    [3209] = {
+        quote = "A threat to our home deserves an answer. Let your deeds make it plain.",
+        likes = { "A newcomer who follows through", "Clear proof behind a confident report", "A challenge met without excuses" },
+        dislikes = { "Threats against the people of Mulgore", "Boasts offered instead of action", "A dangerous foe dismissed as harmless" },
+        gossip = "Windfeather has little patience for a challenge left unanswered. Even a troublesome tongue twister can find itself facing a very determined opponent.",
+        bio = "Brave Windfeather watches the road near Camp Narache on Red Cloud Mesa. She calls on newcomers to confront Chief Sharptusk Thornmantle of the Bristlebacks. To her, decisive action against a threat to their home is a deed worth recognizing.",
+        backstory = "Her charge against Sharptusk asks a newcomer to face a cunning foe and return with proof. She wants those who threaten the Tauren home to understand the answer. Away from that duty, she has found a smaller opponent in words that refuse to come out neatly.",
+        secret = "She practices a tongue twister under her breath, then insists on one more attempt whenever she stumbles. Beating it once is not enough. She wants to know she can do it again.",
+        bestFriend = "You may listen to the next attempt. If I stumble, laugh with me, then let me try once more. I do not intend to leave it undefeated.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She values a clear acknowledgment of the duty to protect those at home.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good. Let us see what needs doing, and then do it.", tone = "[firm] [welcoming]" }, "Ready. A confident beginning is useful if we follow it with action." },
+            idle = { { "The words were in the right order until I said them. I will try again.", tone = "[determined] [dryly amused]" }, "A cunning foe deserves more attention than a careless boast gives it.", "If you have good news, tell it plainly. It need not be made larger to matter." },
+            befriended = { { "You have given me reason to trust more than your words. I would be glad to have you beside me.", tone = "[steady] [warm]" } },
+            poke = { "Yes? What have you found?", "One moment. I almost had the words that time." },
+            combatStart = { { "Stay alert. Respect the danger, and answer it with purpose.", tone = "[commanding] [focused]" } },
+            combatEnd = { "See that the danger has passed before announcing the victory." },
+            quest = { "Understand the charge, and bring back what proves the task is done." },
+            questAccepted = { "Then go with resolve. Someone is depending on what you do next." },
+            rest = { "A pause is sensible. Calling it a pause does not make it a defeat." },
+            cheerAlong = { "Well done. You followed through." },
+            saluteBack = { "And to you. May we both be worthy of the trust behind it." },
+        },
+    },
+
+    -- Jyn Stonehoof <Weapons Merchant>, Thunder Bluff. Adult Tauren
+    -- female2110/M2 986648, Horde Friendly, repairs/37current Classic goods.
+    -- No own quest/installed gossip found; no Stonehoof kinship invented.
+    -- Spoon-balancing practice and recovery are original, not a game effect.
+    -- Research: docs/research/red-cloud-resolve-and-thunder-bluff-balance.md
+    [2997] = {
+        quote = "Choose what you can handle well. An impressive name will not do the handling for you.",
+        likes = { "A sensible choice made without apology", "Equipment looked after before it fails", "A small trick practiced for pleasure" },
+        dislikes = { "A weapon chosen only for its size", "Wear hidden until it becomes damage", "A simple tool treated as beneath notice" },
+        gossip = "Jyn can discuss the balance of a weapon quite seriously. The same attention occasionally goes to an ordinary spoon balanced on one finger.",
+        bio = "Jyn Stonehoof sells weapons and offers repairs in Thunder Bluff. Her stock includes walking sticks, clubs, swords, axes, maces, firearms, shot, and a pouch. She prefers a useful choice to a showy one.",
+        backstory = "An idle attempt to balance a spoon became a little challenge she kept returning to. It was pleasant to practice something that needed no purchase and impressed nobody by its size. She began enjoying the moment just before it tipped as much as a successful try.",
+        secret = "She has become rather good at catching the spoon when it tips. A spectator might mistake that recovery for part of the trick. She enjoys the possibility without claiming it was planned.",
+        bestFriend = "Stay for another try. If it tips, you may admire the recovery. I shall appreciate having someone who knows both parts of the trick.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a quiet sign that someone understands the practical choice being made.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good to see you. Shall we choose a useful way to spend the day?", tone = "[practical] [welcoming]" }, "Ready. I have put the spoon down before making a more ambitious beginning." },
+            idle = { { "The catch was rather good, I thought. The balancing may still need work.", tone = "[wry] [pleased]" }, "A large weapon does not make a small mistake less likely.", "Something simple can repay attention without needing a grand name." },
+            befriended = { { "You know the difference between the trick and the recovery, and stayed for both. I would welcome more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need it to do.", "I was considering the balance. Of something rather smaller than you might expect." },
+            gear = { { "Consider how you handle it, not only how it looks beside someone else.", tone = "[measured] [advising]" } },
+            loot = { "Useful, perhaps. Look at its condition before deciding where it belongs." },
+            bagsFull = { "See what is worth carrying before letting the whole load make the decision for you." },
+            combatEnd = { "A good time to check for wear, while it can still be put right." },
+            learned = { "Practice will show you what a new technique asks of your hands." },
+            rest = { "A pause. I can attempt the trick if you will forgive a possible recovery." },
+            thanked = { "You are welcome. May the sensible choice serve you well." },
+        },
+    },
+
     -- Frahun Shadewhisper <Rogue Trainer>, Aldrassil, Teldrassil. Adult
     -- Night Elf male1725/M2 974343, Alliance Friendly. Full sigil3118/
     -- readable9551 and prerequisite456 read; current own tabs0.

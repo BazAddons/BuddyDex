@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 251,
     "unverified": 141,
-    "horde": 206
+    "horde": 208
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 43,
     "8": 45,
     "9": 30,
-    "6": 67,
+    "6": 69,
     "96": 8,
     "95": 15
   },
@@ -39,8 +39,8 @@
     "Orgrimmar": 37,
     "Badlands": 1,
     "Darkshore": 7,
-    "Mulgore": 15,
-    "Thunder Bluff": 34,
+    "Mulgore": 16,
+    "Thunder Bluff": 35,
     "Durotar": 46,
     "The Barrens": 29,
     "Stonetalon Mountains": 7,
@@ -2488,6 +2488,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2995"
     },
     {
+      "npc_id": 2997,
+      "name": "Jyn Stonehoof",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2997"
+    },
+    {
       "npc_id": 2998,
       "name": "Karn Stonehoof",
       "zone": "Thunder Bluff",
@@ -3190,6 +3203,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3194"
+    },
+    {
+      "npc_id": 3209,
+      "name": "Brave Windfeather",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3209"
     },
     {
       "npc_id": 3287,
@@ -7472,6 +7498,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 583,
-  "awaiting_signature_audio_profiles": 129
+  "authored_profiles": 585,
+  "awaiting_signature_audio_profiles": 131
 }
