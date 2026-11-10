@@ -2492,6 +2492,13 @@
       "zone": "Ashenvale",
       "route": "Astranaar general supplies",
       "reason": "Complete adult Night Elf female/male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3390,
+      "name": "Apothecary Helbrim",
+      "zone": "The Barrens",
+      "route": "Crossroads early Horde apothecary",
+      "reason": "Complete Forsaken male profile, fifteen queued lines, sourced contract/specimen/toxin priorities and full sample-courier context; no synthesis"
     }
   ]
 }

@@ -2821,5 +2821,12 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult Night Elf identity, actual reaction, all own tabs and complete current/Classic stock; no supported personal quest/gossip or Scout sighting claimed",
     "research_notes": "docs/research/astranaar-visible-care-and-quiet-endings.md"
+  },
+  {
+    "npc_id": 3390,
+    "name": "Apothecary Helbrim",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Forsaken male body, Horde Neutral, full personal tasks and Silverpine sample progression plus own gossip; no Scout sighting claimed",
+    "research_notes": "docs/research/crossroads-helbrim-specimens-and-contracts.md"
   }
 ]

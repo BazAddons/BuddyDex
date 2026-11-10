@@ -4,7 +4,7 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 258,
-    "unverified": 145,
+    "unverified": 146,
     "horde": 221
   },
   "npc_race_counts": {
@@ -12,7 +12,7 @@
     "3": 46,
     "7": 40,
     "2": 70,
-    "5": 63,
+    "5": 64,
     "4": 45,
     "8": 47,
     "9": 33,
@@ -42,7 +42,7 @@
     "Mulgore": 18,
     "Thunder Bluff": 37,
     "Durotar": 47,
-    "The Barrens": 30,
+    "The Barrens": 31,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
     "Ashenvale": 8,
@@ -3597,6 +3597,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3389"
+    },
+    {
+      "npc_id": 3390,
+      "name": "Apothecary Helbrim",
+      "zone": "The Barrens",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3390"
     },
     {
       "npc_id": 3391,
@@ -7790,6 +7801,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 608,
-  "awaiting_signature_audio_profiles": 154
+  "authored_profiles": 609,
+  "awaiting_signature_audio_profiles": 155
 }

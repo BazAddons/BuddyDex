@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Apothecary Helbrim, Crossroads, Barrens. Adult Forsaken male
+    -- display1965/M2 959310, Horde Neutral. Full848/853/1492/1358
+    -- plus Silverpine sample/escort context and own installed gossip.
+    -- Inkblot beetle is original; poison research is retained, no retail
+    -- Legion potion stand, Hearthstone feats or new profession reward.
+    -- Research: docs/research/crossroads-helbrim-specimens-and-contracts.md
+    [3390] = {
+        quote = "An accurate label is a courtesy. An accurate delivery is a greater one.",
+        likes = { "A specimen kept with its proper label", "A courier who understands urgency", "A useful answer without embellishment" },
+        dislikes = { "A sample separated from its origin", "A promise forgotten after payment", "Guesswork presented as a result" },
+        gossip = "Helbrim can explain why a specimen matters in exacting detail. He is rather less forthcoming about the small inkblot he has chosen to keep.",
+        bio = "Apothecary Helbrim studies the Barrens from the Crossroads. He seeks useful fungal spores and researches Lordaeron toxins. Zamah is his associate in Thunder Bluff; reliable specimens and couriers matter to his work.",
+        backstory = "Silverpine wolf-heart samples reach him through Renferrel and Zinge. He welcomes their potential for poison research. Spores collected nearby serve another task: an emulsion sent to Zamah before it loses potency.",
+        secret = "A blot on a spare scrap resembles a small beetle to him. He labeled it unidentified and of no practical use, then kept it. He enjoys that it requires no further investigation.",
+        bestFriend = "You may sit a while. The scrap is not a specimen, and your company need not produce a finding. I am content to leave both as they are.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone showing considered interest without pretending to have an answer.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You are here. Good. A reliable arrival is an agreeable beginning.", tone = "[dry] [welcoming]" }, "Ready. The work can remain properly labeled while I consider something beyond it." },
+            idle = { { "The inkblot resembles a beetle. It has no practical use. I have kept it without attempting to improve that assessment.", tone = "[dryly amused] [quietly pleased]" }, "A specimen without its origin is a question someone has made needlessly difficult to answer.", "A contract should remain worth honoring after the interesting work has been done." },
+            befriended = { { "You have shown yourself dependable without making every conversation a negotiation. I would welcome your company.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? State the practical matter first. We can consider its implications afterward.", "The inkblot remains unidentified. I am allowing it that small distinction." },
+            quest = { { "Understand what must arrive, where it must go, and whether delay changes its usefulness.", tone = "[precise] [firm]" } },
+            learned = { "A new result deserves a careful look before an impressive explanation." },
+            loot = { "Keep its origin clear. Not every interesting object is an invitation to experiment." },
+            bagsFull = { "Separate what matters from what has merely accumulated. Then label the former properly." },
+            mail = { "A message. We should establish what the sender actually reports before inventing a conclusion." },
+            rest = { "A pause is permissible. Not every moment requires an entry under useful results." },
+            thanked = { "You are welcome. I prefer a plain acknowledgment to an elaborate claim of obligation." },
+        },
+    },
+
     -- Aeolynn <Clothier>, Astranaar, Ashenvale. Adult Night Elf female
     -- display2054/M2 921844, Alliance Neutral, Repair/Vendor.24current
     -- cloth goods match24Classic; no own quests/gossip. Visible stitch

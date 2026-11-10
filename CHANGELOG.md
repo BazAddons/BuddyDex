@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Apothecary Helbrim: a complete Crossroads Forsaken profile with fifteen personal lines queued.
+- Ground his exacting personality in the full specimen, timed-emulsion, shipping, and Silverpine sample-delivery dialogue.
+
 - Add Aeolynn and Haljan Oakheart: complete Night Elf profiles with thirty personal lines queued.
 - Expand Astranaar companions with researched clothier and general-goods roles and original friendship stories.
 
