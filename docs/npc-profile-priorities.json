@@ -2296,6 +2296,27 @@
       "zone": "The Barrens",
       "route": "Horde Crossroads bag-seller travel contact",
       "reason": "Complete adult male profile with fifteen queued lines in verified approved race voice; rite speakers/conditional steps and actual rewards separate from friendship, no synthesis"
+    },
+    {
+      "npc_id": 3594,
+      "name": "Frahun Shadewhisper",
+      "zone": "Teldrassil",
+      "route": "Alliance Shadowglen early trainer and merchants",
+      "reason": "Complete adult Night Elf profile with fifteen queued lines; sigil speaker/prerequisite or full trade reviewed, no synthesis"
+    },
+    {
+      "npc_id": 3590,
+      "name": "Janna Brightmoon",
+      "zone": "Teldrassil",
+      "route": "Alliance Shadowglen early trainer and merchants",
+      "reason": "Complete adult Night Elf profile with fifteen queued lines; sigil speaker/prerequisite or full trade reviewed, no synthesis"
+    },
+    {
+      "npc_id": 3589,
+      "name": "Keina",
+      "zone": "Teldrassil",
+      "route": "Alliance Shadowglen early trainer and merchants",
+      "reason": "Complete adult Night Elf profile with fifteen queued lines; sigil speaker/prerequisite or full trade reviewed, no synthesis"
     }
   ]
 }

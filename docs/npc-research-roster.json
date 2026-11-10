@@ -2625,5 +2625,26 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Tauren/Troll male body and current Horde Friendly/Neutral distinction; complete shaman referrals/connected rites or established bag trade, no Scout sighting claimed",
     "research_notes": "docs/research/bloodhoof-patience-and-crossroads-keepsakes.md"
+  },
+  {
+    "npc_id": 3594,
+    "name": "Frahun Shadewhisper",
+    "zone": "Teldrassil",
+    "source": "Reviewed exact adult Night Elf body/current Alliance Friendly; full own tabs, established stock or complete sigil introduction/readable letter; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-lessons-and-small-performances.md"
+  },
+  {
+    "npc_id": 3590,
+    "name": "Janna Brightmoon",
+    "zone": "Teldrassil",
+    "source": "Reviewed exact adult Night Elf body/current Alliance Friendly; full own tabs, established stock or complete sigil introduction/readable letter; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-lessons-and-small-performances.md"
+  },
+  {
+    "npc_id": 3589,
+    "name": "Keina",
+    "zone": "Teldrassil",
+    "source": "Reviewed exact adult Night Elf body/current Alliance Friendly; full own tabs, established stock or complete sigil introduction/readable letter; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-lessons-and-small-performances.md"
   }
 ]

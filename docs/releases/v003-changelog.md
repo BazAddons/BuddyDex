@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Frahun Shadewhisper, Janna Brightmoon, and Keina: three complete adult Night Elf profiles, with forty-five personal lines queued.
+- Expand Shadowglen companions with a researched rogue introduction and two distinct merchant stories.
+
 - Add Narm Skychaser and Kalyimah Stormcloud: two complete adult Tauren and Troll profiles, with thirty personal lines queued.
 - Expand Bloodhoof and Crossroads friendships with researched shaman-referral context and an original bag seller keepsake story.
 
@@ -153,4 +156,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **580 fully written NPC profiles**: 454 have initial signature recordings, and one hundred twenty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **583 fully written NPC profiles**: 454 have initial signature recordings, and one hundred twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

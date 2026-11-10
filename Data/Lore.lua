@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Frahun Shadewhisper <Rogue Trainer>, Aldrassil, Teldrassil. Adult
+    -- Night Elf male1725/M2 974343, Alliance Friendly. Full sigil3118/
+    -- readable9551 and prerequisite456 read; current own tabs0.
+    -- Spoiling his own surprise endings is original, not secret faction lore.
+    -- Research: docs/research/shadowglen-lessons-and-small-performances.md
+    [3594] = {
+        quote = "Being unseen is useful. Knowing when someone should find you is useful too.",
+        likes = { "A learner who observes before acting", "Information checked before it is trusted", "Company that respects a confidence" },
+        dislikes = { "Boasting that gives away a plan", "Suspicion mistaken for certain knowledge", "A pupil too proud to ask directions" },
+        gossip = "Frahun speaks impressively about shadows. Ask him to tell a story with a surprising ending and the suspense becomes rather less reliable.",
+        bio = "Frahun Shadewhisper trains rogues in Aldrassil. His encrypted sigil invites learners to seek him out and stresses cooperation in uncertain times. He encourages gathering information around the tree and returning as their skills develop.",
+        backstory = "His invitation offers a point of contact for those who work unseen. He worries that fragile peace may fail, yet makes room for a learner to ask questions. In private company, he has begun trying a different skill: telling an entertaining story.",
+        secret = "He enjoys stories with clever reversals, but ruins his own by checking whether his listener has guessed the ending. He wants them to enjoy being right rather too early.",
+        bestFriend = "I have a story for you. This time I shall not ask whether you have guessed. You may remind me of that promise.",
+        favorite = {
+            emote = "WINK",
+            hint = "He enjoys a quiet sign that someone has understood more than they need to say.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Good. You found me. Shall we see what there is to notice today?", tone = "[quiet] [welcoming]" }, "I am ready. We need not announce every intention before we leave." },
+            idle = { { "There is an unexpected turn in this story. You have not guessed it already, have you? Ah. I have done it again.", tone = "[dry] [amused]" }, "An untested suspicion is a reason to look more carefully, not a reason to stop looking.", "There is a difference between keeping a confidence and refusing a friend an honest answer." },
+            befriended = { { "I am glad we know where to find one another. Even those who value shadows need someone they can trust.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Tell me what you noticed.", "I was trying to let the ending remain a surprise. It requires restraint." },
+            learned = { { "Practice until the new skill serves your judgment. Knowing how is only part of being ready.", tone = "[measured] [encouraging]" } },
+            quest = { "Read the message before deciding what its bearer meant." },
+            combatStart = { "Watch closely. Do not give your intention away." },
+            combatEnd = { "Now check what happened, rather than only what you expected." },
+            zone = { "New surroundings. Let us learn something before assuming we understand them." },
+            rest = { "A pause. I could tell the story, if you will let me begin again." },
+            thanked = { "You are welcome. Knowing when to seek another is a useful skill." },
+        },
+    },
+
+    -- Janna Brightmoon <Clothier>, Aldrassil, Teldrassil. Adult Night Elf
+    -- female1727/M2 921844, Alliance Friendly, repairs/six Thin Cloth goods.
+    -- No own quests/gossip found. Blanket entrance is original, no kinship
+    -- inferred from Brightmoon or later retail fate imported.
+    -- Research: docs/research/shadowglen-lessons-and-small-performances.md
+    [3590] = {
+        quote = "An ordinary tunic need not make the person wearing it feel ordinary.",
+        likes = { "Clothes that let their wearer move", "A simple outfit worn with pleasure", "Someone taking a compliment kindly" },
+        dislikes = { "Price mistaken for personal worth", "A sleeve that spoils every gesture", "Practical things treated with contempt" },
+        gossip = "Janna has a thoughtful eye for an outfit. She also has a surprisingly grand way of carrying a plain blanket when she thinks nobody is watching.",
+        bio = "Janna Brightmoon is a clothier at Aldrassil in Shadowglen. Her trade includes thin cloth armor, belts, bracers, gloves, pants, and shoes, with repairs for worn equipment. She likes useful clothes to leave room for the person wearing them.",
+        backstory = "Watching people try on simple clothes gave her an interest in the moment they stopped inspecting the garment and began enjoying it. She likes that change of bearing. Privately, she began practicing an altogether grander entrance of her own.",
+        secret = "She sometimes drapes a blanket over her shoulders and rehearses a splendid entrance. The blanket is quite plain. In her imagination, the welcome is not.",
+        bestFriend = "You may applaud the entrance if you wish. I shall accept it with dignity, provided the blanket stays on my shoulders.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "She enjoys someone appreciating a little flourish without demanding an expensive costume.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. Shall we give the day a reasonably graceful beginning?", tone = "[bright] [welcoming]" }, "Ready. I have decided the occasion does not require the blanket." },
+            idle = { { "The entrance is quite splendid until the blanket slips. I am working on a dignified recovery.", tone = "[playful] [warm]" }, "A comfortable sleeve gives an impressive gesture a much better chance.", "You need not apologize for enjoying something simple. It is yours to enjoy." },
+            befriended = { { "You noticed the person as well as the clothes. I would be glad to share a little more of the day with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Does something need adjusting, or have you come for company?", "I was considering an entrance. Nothing that requires moving the furniture." },
+            gear = { { "Try moving in it before deciding. A garment should permit the person inside to have a day.", tone = "[practical] [gentle]" } },
+            loot = { "Is it something you like, or only something you think you ought to like?" },
+            bagsFull = { "Leave the clothes room enough not to become a single determined knot." },
+            quest = { "Let us hear what is needed before dressing the task in grander language." },
+            rest = { "A pause. Every splendid entrance needs somewhere comfortable to finish." },
+            cheerAlong = { "Yes! That deserves a little flourish." },
+            thanked = { "You are welcome. Wear it as though you are allowed to enjoy it." },
+        },
+    },
+
+    -- Keina <Bowyer>, Aldrassil, Teldrassil. Adult Night Elf female1728/
+    -- M2 921844, Alliance Friendly, repairs/six bow-arrow-quiver goods.
+    -- No own quests/gossip found. Wandering whistle/bird answer is original,
+    -- not a learned spell, class restriction or magical communication.
+    -- Research: docs/research/shadowglen-lessons-and-small-performances.md
+    [3589] = {
+        quote = "A good bow deserves attention. So does the moment when you decide to lower it.",
+        likes = { "Equipment checked before setting out", "A careful choice of when to shoot", "A companion who can laugh kindly" },
+        dislikes = { "An arrow loosed to impress a spectator", "A frayed strap ignored until it fails", "Every quiet moment made a contest" },
+        gossip = "Keina knows the worth of a steady hand. Her attempts to whistle a tune suggest that steadiness has not yet reached every part of her technique.",
+        bio = "Keina is the bowyer at Aldrassil in Shadowglen. She sells recurve bows, arrows, and quivers, and offers repairs. Her practical advice begins with looking after equipment and thinking about a shot before taking it.",
+        backstory = "She took up whistling as a small pleasure that needed no equipment at all. Finding the tune proved harder than expected. Unlike a sensible check of a bow, it gave her no reliable way to know that the next attempt would be an improvement.",
+        secret = "She sometimes mistakes a nearby birdcall for an answer to her whistling. She knows better than to call that proof. It still makes her want to try the tune once more.",
+        bestFriend = "You may laugh if the tune wanders. Stay for another attempt, though. It is more pleasant to practice with a friend nearby.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She appreciates encouragement for an honest attempt, even when it is not yet accomplished.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. Shall we look where we are going before making a confident start?", tone = "[easygoing] [welcoming]" }, "I am ready. The tune may require a little more preparation." },
+            idle = { { "That bird answered at a very encouraging moment. I shall avoid asking whether it meant to.", tone = "[wry] [amused]" }, "A quiet moment need not be improved by proving who can make the longest shot.", "Whistling seemed a wonderfully simple pastime before I tried to keep the same tune twice." },
+            befriended = { { "You gave me room to try without turning it into a contest. I would be glad to have your company again.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Something to check before we go?", "I was following the tune. It appears to have taken another path." },
+            combatStart = { { "Choose the opening carefully. A hurried shot does not become wiser after it leaves.", tone = "[focused] [steady]" } },
+            combatEnd = { "Check your equipment while there is time to notice what needs care." },
+            gear = { "A secure strap is a small thing to appreciate before it becomes a large problem." },
+            loot = { "Useful equipment. Let us see what condition it is in." },
+            quest = { "Look carefully at what is being asked. Skill includes choosing the right task." },
+            rest = { "A pause. I can try the tune, if you are feeling generous." },
+            cheerAlong = { "That is worth encouraging. Go on!" },
+        },
+    },
+
     -- Narm Skychaser <Shaman Trainer>, Bloodhoof Village, Mulgore. Adult
     -- Tauren male3816/M2 968705, Horde Friendly. Full2984 fire and
     -- historical2986 water referrals/connected rites read; own tabs0.

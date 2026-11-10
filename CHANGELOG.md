@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Frahun Shadewhisper, Janna Brightmoon, and Keina: three complete adult Night Elf profiles, with forty-five personal lines queued.
+- Expand Shadowglen companions with a researched rogue introduction and two distinct merchant stories.
+
 - Add Narm Skychaser and Kalyimah Stormcloud: two complete adult Tauren and Troll profiles, with thirty personal lines queued.
 - Expand Bloodhoof and Crossroads friendships with researched shaman-referral context and an original bag seller keepsake story.
 
