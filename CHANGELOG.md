@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tai'ree Farsight and Xy'aaria Streamrunner: two adult High Order profiles accessible to both factions, with thirty personal lines queued.
+- Research Thendal's hunter referral and Valanaar's interrupted imports; document the original novice stumble and rehearsed welcome.
+
 - Add Rellian Greenspyre and Priestess A'moora: two adult Night Elf profiles with thirty personal lines queued.
 - Research the complete timberling and Sathrah routes, preserving their difficult choices and documenting the original leaf and fountain stories.
 

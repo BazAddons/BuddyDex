@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tai'ree Farsight, Thendal Grove/Zephras Isle. Adult High
+    -- Order female136976/M2 7478494, both factions Friendly. Hunter
+    -- trainer; full92460/92461/92482, five lessons, own gossip read.
+    -- Novice bird/root stumble is original, not a recorded quest event.
+    -- Research: docs/research/thendal-roots-and-valanaar-welcome.md
+    [251376] = {
+        quote = "Keep an eye on the horizon. Spare the other for what your boots are about to meet.",
+        likes = { "A learner willing to look again", "Quick reflexes and a little humility", "The wilds observed at every distance" },
+        dislikes = { "Confidence that outruns attention", "A novice mocked for an honest stumble", "Danger dismissed as someone else's task" },
+        gossip = "Tai'ree can make a lesson out of a distant bird and a nearby root. The root seems to be the part she remembers best.",
+        bio = "Tai'ree Farsight trains hunters in Thendal Grove on Zephras Isle. With harsher winds and fading magic making the wilds dangerous, she offers guidance to new hunters and remembers the day she stood before her own mentor.",
+        backstory = "As a novice, she once followed a distant bird with such concentration that she tripped over a root. Years later, she found herself telling the story to a discouraged learner. A keen eye could still benefit from a glance downward.",
+        secret = "She no longer remembers what kind of bird it was. She remembers the root very clearly, and enjoys admitting that before a learner can ask.",
+        bestFriend = "Walk with me, friend. You watch the horizon for a moment. I will watch our footing. We can exchange observations when I stop smiling.",
+        favorite = {
+            emote = "NOD",
+            hint = "She welcomes a thoughtful acknowledgment from someone who can accept a lesson without pretending they never needed it.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. Between us, we can manage the horizon and the path under our boots.", tone = "[warm] [lightly amused]" }, "Ready for a walk? There is plenty to notice before we decide how much we know." },
+            idle = { { "I watched that bird until a root interrupted the lesson. No, I cannot remember the bird. The root made a stronger impression.", tone = "[wry] [playful]" }, "Our hunters are needed. Harsher winds leave little room for confidence without attention.", "I remember standing before my own mentor. Remembering the uncertainty helps when someone comes to me." },
+            befriended = { { "You have become good company, friend. Come along. We can learn something without making every step an examination.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Something near, or something on the horizon?", "I am listening. Take your time finding the words." },
+            learned = { { "Good. Try it with care. Needing a second attempt does not disqualify you from the lesson.", tone = "[steady] [encouraging]" } },
+            quest = { "Keep your attention on what the task asks of you. The wilds offer distractions enough." },
+            rest = { "A sensible pause. Even a keen pair of eyes benefits from a little rest." },
+            combatEnd = { "Look around before you move on. Quick reflexes are useful; noticing what remains is useful too." },
+            group = { "Different eyes, different distances. Tell the others what you have noticed." },
+            newFriend = { "A new acquaintance. Give them room to be uncertain. We all began somewhere." },
+            thanked = { "Glad to help, friend. I hope the lesson costs you less dignity than my root cost me." },
+        },
+    },
+
+    -- Xy'aaria Streamrunner, Valanaar/Zephras Isle. Adult High
+    -- Order female137339/M2 7478494, both factions Friendly. Imports;
+    -- own gossip says ferries stopped years ago; other islands uncertain.
+    -- Rehearsed welcome is original; no ferry return or stock invented.
+    -- Research: docs/research/thendal-roots-and-valanaar-welcome.md
+    [252478] = {
+        quote = "I would like news of what lies beyond us. Until then, I am pleased to have someone here to greet.",
+        likes = { "A visitor who stays for conversation", "Hope that leaves room for uncertainty", "A welcome offered before questions" },
+        dislikes = { "Rumor passed along as certain news", "Someone's arrival reduced to cargo", "Kindness withheld until it is useful" },
+        gossip = "Xy'aaria has considered what she would ask a returning ferry. Lately, she seems more concerned with how she would greet its passengers.",
+        bio = "Xy'aaria Streamrunner handles imports in Valanaar on Zephras Isle. The skycutters and ferries have not run in years. Unsure whether other islands remain to trade with, she keeps her place in case they return.",
+        backstory = "She once tried to decide her first question for a returning ferry. What cargo? What news? Who was still out there? Eventually she put every question second. She wanted the people arriving to hear a welcome before anything else.",
+        secret = "She has practiced that welcome, though she has no arrival to announce. Friends visiting for no particular reason give her a happier use for it.",
+        bestFriend = "There you are, friend. Welcome. You need not bring news from anywhere. I am happy that you came to spend a little time with me.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She appreciates someone sharing the warmth she hopes to offer a traveler before asking what they brought.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Welcome, friend. Shall we go? Your company is a perfectly good reason to be pleased today.", tone = "[warm] [welcoming]" }, "Good to see you. No news to report? That is all right. I am glad you came." },
+            idle = { { "I rehearsed a dozen questions for a returning ferry. Then I realized I would want to say welcome before asking any of them.", tone = "[wistful] [hopeful]" }, "It has been years since the ferries ran. I will not pretend to know what that means for every island beyond us.", "Some days, having someone stop to talk is enough to look forward to." },
+            befriended = { { "I have come to look forward to your visits for their own sake. Come along, friend. I would like to share a little of your day.", tone = "[tender] [sincere]" } },
+            poke = { "Yes, friend? I have time for you.", "Something on your mind? You need not make it important to tell me." },
+            newFriend = { { "Someone to welcome. Let that be the first thing they hear, before the questions begin.", tone = "[gentle] [encouraging]" } },
+            mail = { "A message. I hope there is someone at the other end pleased to hear from you." },
+            rest = { "A little time together. I am glad we did not need an occasion for it." },
+            group = { "It is good to have company. Make room for whoever has yet to feel at ease." },
+            quest = { "Go carefully. I would be happy to hear how you fared when you return." },
+            waveBack = { "Hello, friend. Yes, I am pleased to see you too." },
+            thanked = { "You are welcome. It is a pleasure to have something kind to offer today." },
+        },
+    },
+
     -- Rellian Greenspyre, Cenarion Enclave/Darnassus. Adult Night
     -- Elf male5071/M2 974343, Alliance Friendly. Full seed/tumor/
     -- Denalan/Oakenscowl branch read; his limits and lethal duty kept.

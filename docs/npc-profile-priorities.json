@@ -3346,6 +3346,20 @@
       "zone": "Darnassus",
       "route": "Temple of the Moon early Sathrah route",
       "reason": "Complete adult profile with fifteen personal lines queued; verified priestess and full Sathrah chain, original quiet company after prayer; no synthesis"
+    },
+    {
+      "npc_id": 251376,
+      "name": "Tai'ree Farsight",
+      "zone": "Zephras Isle",
+      "route": "Thendal Grove hunter introduction",
+      "reason": "Attentive trainer; full referral and five lessons; original novice bird/root story; complete adult profile, fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252478,
+      "name": "Xy'aaria Streamrunner",
+      "zone": "Zephras Isle",
+      "route": "Valanaar isolated imports",
+      "reason": "Interrupted ferries and uncertainty preserved; original rehearsed welcome; complete adult profile, fifteen personal lines queued without synthesis"
     }
   ]
 }

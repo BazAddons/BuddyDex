@@ -3675,5 +3675,19 @@
     "zone": "Darnassus",
     "source": "Reviewed adult Alliance Night Elf woman; complete Aquinne/Sathrah three-stage chain with regret and hope, no assumed rebirth; fountain pause original; no Scout sighting claimed",
     "research_notes": "docs/research/rellians-leaf-and-amooras-fountain.md"
+  },
+  {
+    "npc_id": 251376,
+    "name": "Tai'ree Farsight",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order woman, both factions Friendly; Attentive trainer; full referral and five lessons; original novice bird/root story; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-roots-and-valanaar-welcome.md"
+  },
+  {
+    "npc_id": 252478,
+    "name": "Xy'aaria Streamrunner",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order woman, both factions Friendly; Interrupted ferries and uncertainty preserved; original rehearsed welcome; no Scout sighting claimed",
+    "research_notes": "docs/research/thendal-roots-and-valanaar-welcome.md"
   }
 ]

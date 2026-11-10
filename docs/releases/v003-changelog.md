@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tai'ree Farsight and Xy'aaria Streamrunner: two adult High Order profiles accessible to both factions, with thirty personal lines queued.
+- Research Thendal's hunter referral and Valanaar's interrupted imports; document the original novice stumble and rehearsed welcome.
+
 - Add Rellian Greenspyre and Priestess A'moora: two adult Night Elf profiles with thirty personal lines queued.
 - Research the complete timberling and Sathrah routes, preserving their difficult choices and documenting the original leaf and fountain stories.
 
@@ -396,4 +399,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **730 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **732 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
