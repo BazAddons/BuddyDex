@@ -1,0 +1,61 @@
+# Kharanos: three trainers, three personalities
+
+Reviewed November 10, 2026. Dannie Fizzwizzle6328, Magis Sparkmantle1228 and Azar Stronghammer1232 are individually reviewed external catalog candidates, each one exact name/ID without variants. No Scout sighting fabricated. All have explicit current Alliance Friendly icons, verified adult character bodies and fifteen newly written personal lines. This is Dun Morogh starting-route coverage, not capital-city coverage.
+
+## Current primary identities and service limits
+
+| Identity | Current definition | Adult display / body | Current position |
+| --- | --- | --- | --- |
+| Dannie6328 | [API](https://forever.warcraftdb.com/api/data/node/npc/6328), Demon Trainer, Gnome humanoid14 |5042 / female7:1 / M2 940356 | Dun Morogh1426,47.1488/53.7233 |
+| Magis1228 | [API](https://forever.warcraftdb.com/api/data/node/npc/1228), Mage Trainer, Gnome humanoid10, Trainer service flag |10215 / male7:0 / M2 900914 |1426,47.4331/51.9873 |
+| Azar1232 | [API](https://forever.warcraftdb.com/api/data/node/npc/1232), Paladin Trainer, Dwarf humanoid12 |1622 / male3:0 / M2 878772 |1426,47.4737/52.0178 |
+
+Installed Data/NpcSounds.lua supplies those race/sex mappings. Current adult character-body references: [Wren6376](https://forever.warcraftdb.com/api/data/node/npc/6376), display5093/M2 940356; [Alamar460](https://forever.warcraftdb.com/api/data/node/npc/460), display1930/M2 900914; [Durnan836](https://forever.warcraftdb.com/api/data/node/npc/836), display3406/M2 878772. Adult status comes from standard adult bodies, not name/level/size. Approved voices respectively female, male, dwarf-male match live display routing.
+
+For all three, current starts/ends/sells/teaches endpoints return zero rows/pages. Links follow https://forever.warcraftdb.com/api/data/node/npc/ID/tab/starts?page=1 (replace the tab for the other three). The current title is supported, Magis has an explicit Trainer flag, but missing rows do not establish removal or guarantee a specific sale/training ability. No exact prices, spell ranks, free training, class access, talent reset costs or new game services promised. Historical referrals are characterization, not a current quest-availability guarantee. Normal nonattackability/reaction checks and character-local progress remain unchanged.
+
+## Dannie: brusque demon business
+
+[Classic NPC6328](https://classicdb.ch/?npc=6328) has no quest starts/ends. Entire historical vendor list reviewed:38grimoires, Firebolt ranks2-7, Blood Pact1-5, Fire Shield1-5, Phase Shift, Torment2-6, Sacrifice1-6, Consume Shadows1-6 and Suffering1-4. These are Classic stock, not asserted current inventory. No chain identified to follow. Installed SpokenQuestsAudioGossip/generated/npc_gossip_file_lookups.lua6328 has two lines: a businesslike offer to improve demons for a price and a curt dismissal of non-warlocks. This is installed corpus evidence, not newly observed live interaction. No attempt to grant training to other classes through friendship.
+
+[Warcraft Wiki](https://warcraft.wiki.gg/wiki/Dannie_Fizzwizzle) confirms female Gnome warlock/Kharanos and separates later Legion content. [Classic Wowhead](https://www.wowhead.com/classic/npc=6328/dannie-fizzwizzle) corroborates old vendor role and southern Kharanos placement. No Legion invasions, TBC stock, invented demon names, family, Fel corruption or Gnomeregan personal escape narrative imported.
+
+Original BuddyDex character writing: exacting questions, dry humor, dislike of being patronized, mentally editing grandiose speeches and a deliberately dreadful imaginary villain performance shared only with friends. This is invented harmless taste/history, not a recovered in-game anecdote. GRIN is an authored favorite. Her friendship welcome is an exception for company, expressly distinct from free instruction, and does not make her universally welcoming.
+
+## Magis: careful magic and referrals
+
+[Classic NPC1228](https://classicdb.ch/?npc=1228) links Speak with Bink1879; current own tabs are sparse. Installed gossip1228 warns non-mages about dangerous untrained magic, identifies him as a mage trainer and includes shared historical talent-retraining dialogue. That does not verify current spell lists/reset prices. [Wiki](https://warcraft.wiki.gg/wiki/Magis_Sparkmantle) also links Report to Jennea1919, which historical multi-giver records attribute to Magis/Dink/Zaldimar while Classic/current individual nodes list Dink. Preserve that evidence difference; no second personality or alternative ID inferred.
+
+Read full objectives, descriptions, progress/completion from Classic and available current nodes, plus installed accept/completion for all six relevant quests. Current API equivalent for each link is https://forever.warcraftdb.com/api/data/node/quest/ID:
+
+- [Speak with Bink1879](https://classicdb.ch/?quest=1879) -> [Mage-tastic Gizmonitor1880](https://classicdb.ch/?quest=1880). Magis calls Bink his gnome colleague and refers a capable mage to her task in Ironforge. Bink needs her knowledge-storing device recovered from a hut outside Gnomeregan after evacuation; its energy may run out. Completion returns her device and offers her old tools. This is Bink's device and history, not Magis's invention or proof he shares her exact escape. Current1879 is404;1880 corroborates the description, device and tool rewards. Installed1879 completion adds Bink's concern about good/bad mages.
+- [Report to Jennea1919](https://classicdb.ch/?quest=1919) -> [Investigate the Blue Recluse1920](https://classicdb.ch/?quest=1920) -> [Gathering Materials1921](https://classicdb.ch/?quest=1921) -> [Manaweave Robe1941](https://classicdb.ch/?quest=1941). Jennea sends a mage to reveal/subdue/capture invisible creatures, then promises study of their arrival; a mana rift is suspected, not conclusively explained. Linen and charged rift gems go to Wynne Larson for a robe. No friendship fixes the rift, grants robes or proves the player already finished it. Current1919/1920/1921 corroborate objectives/descriptions;1941 is404 but installed completion and Classic describe the finished robe. The erroneous numerical guess1922 did not produce a quest record and is not treated as part of this chain.
+- [Speak with Jennea1860](https://classicdb.ch/?quest=1860) was checked as an explicitly mutually exclusive alternative to1879, not concatenated into Magis's Bink chain. Its Mirror Lake branch belongs to Zaldimar/Jennea, not a new Magis task. No claim that all alternatives were completed by one player.
+
+Original BuddyDex writing: earnest safety lessons made memorable by terrible rhymes, with a private struggle to rhyme arcane instability. His quote/lines express caution in fresh language; no copied gossip, magical failure that injures students, or invented family. THANK is authored favorite. Exclude later Legion defense, Proving Grounds and Arcane Momentum techniques; later Bink/Dink novel events do not become Magis's Classic-era biography.
+
+## Azar: help beyond the order
+
+[Classic NPC1232](https://classicdb.ch/?npc=1232) starts Tome of Divinity2997. Installed gossip1232 offers assistance even to non-paladins, and includes paladin greeting/shared retraining text. [Wiki](https://warcraft.wiki.gg/wiki/Azar_Stronghammer) confirms dwarf male/Kharanos paladin trainer and referral to Tiza; its later Legion, Sanctum of Light, Broken Shore, Midnight and speculative Commander Stronghammer kinship are excluded. Current ordinary adult ID1232 is not confused with later combat copies.
+
+Read the full dwarven route, book lesson and associated item replacement, with Classic objectives/descriptions/progress/completions, available current descriptions and installed accept/completion:
+
+[Referral2997](https://classicdb.ch/?quest=2997) -> [Tiza's book1645](https://classicdb.ch/?quest=1645) -> [Book-started1646](https://classicdb.ch/?quest=1646) -> [Find John Turner1647](https://classicdb.ch/?quest=1647) -> [Linen charity1648](https://classicdb.ch/?quest=1648) -> [Return1778](https://classicdb.ch/?quest=1778) -> [Muiredon1779](https://classicdb.ch/?quest=1779) -> [Narm1783](https://classicdb.ch/?quest=1783) -> [Dark Iron Script1784](https://classicdb.ch/?quest=1784) -> [Tiza1785](https://classicdb.ch/?quest=1785), with [Symbol replacement1789](https://classicdb.ch/?quest=1789).
+
+Azar praises Tiza's ability to teach what the Light expects. The book emphasizes aiding others, compassion, patience and bravery rather than seeking godhood. John collects linen for his and Stephanie's orphanage; this adult charitable storyline does not add any child profile. Tiza tests charity, then provides a Symbol of Life and directs the player to her injured husband Muiredon. He asks help for Narm after a Dark Iron ambush; Narm is restored through that quest-specific symbol and asks recovery of orders. Returning the script supplies evidence to the council; Tiza completes instruction in resurrection. Muiredon's wounds, Tiza's marriage and Narm's rescue are their events, not Azar's invented personal war history. Spell/item rewards belong to the game quest, never BuddyDex friendship or all player classes. Do not assume the current player completed it.
+
+Current2997/1789 return404;1645-1648/1778-1779/1783-1785 have current records, though many omit giver/turn-in links or completion rewards. Installed and Classic preserve those details, not proof of full live availability or unchanged resurrection mechanics. Alternative2999/3000 breadcrumbs are not extra sequential steps. The book's text was read through current/Classic1646, not invented from its title.
+
+Original BuddyDex writing: making help a shared task to spare embarrassment, teaching through small jobs, and sometimes asking assistance so accepting kindness feels ordinary. Personality and friendship reveal habits, not undocumented biography or a claim he authored Tiza's doctrine. WELCOME is an authored favorite.
+
+## Dialogue and validation
+
+Each profile has2greet/3idle/1befriended/2poke and7role/event lines, all actual supported addon moments, with four character-appropriate hidden delivery tags. Approved groups female/male/dwarf-male are authoring metadata, not live routing overrides. Normal friendship unlocks personality/lore and companion access; no game skills/items/services granted. No ElevenLabs calls, billing reads, credits or recordings.
+
+Main/Scout smoke passes with zero load errors/failures, including all lore/page/favorite/line budgets and fresh/existing per-character roster isolation. Actual-addon harness C:/Users/brett/AppData/Local/Temp/buddydex-kharanos-516.py confirms all three named adult displays, approved live/declared voice groups, fifteen unrecorded personal lines each and accepted favorites. Three fresh Alliance scenarios reject attackable/reaction3 units without discovery, accept nonattackable/reaction5, grant25ordinary/150favorite points, pass99/100and299/300 tiers, reject early companion activation and allow text-only welcome at300without mismatched sound. Generic guards reject. No runtime/storage code changed or quest reward/service granted.
+
+Complete offline decoded-audio/exact-text audit:9395missing jobs/580756tagged inputcharacters, shared3548/personal5847, no MiniMe gaps. Each new source contributes15jobs in the approved group;45newjobs/2865characters. Queue C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-516/queue.json. Existing recordings retained; no audio/account/billing request or credit spending.
+
+516fully written/454with initial signature recordings/62awaiting initial recordings. Explicit public Friendly224Alliance/167Horde/134unverified, nine shared overlaps. Two uncertain Westfall identities remain unprofiled; catalog1536namegroups/1549retained identities unchanged. No fabricated Scout sightings.
+
+Developmentv003 installed/hash-verified6362releasefiles, one runtime file updated. ZIP6362files/6334audio mappings/138.45MiB; CRC and source/installed/ZIP Lore byte comparisons pass. ZIP SHA256 `0ebf4f8f041661a2df163d17c6712e19040cc3eb6c420a1b62b47e04ee394c96`. Publishedv002 unchanged; no tag or CurseForge publication. Current/Classic/corpus caches: C:/Users/brett/BuddyDex-builds/kharanos-trainers. No live visual check or human listening claimed. No CurseForge publication.

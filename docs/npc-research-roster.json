@@ -2156,5 +2156,26 @@
     "zone": "Silverpine Forest",
     "source": "Reviewed adult model, own current/Classic tabs, twenty-one linked quests and adjacent delivery, installed completion/gossip; no claimed Scout sighting",
     "research_notes": "docs/research/hadrec-silverpine-intelligence.md"
+  },
+  {
+    "npc_id": 6328,
+    "name": "Dannie Fizzwizzle",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current adult body and explicit Friendly reaction, sparse current own tabs, complete Classic/installed referrals and role dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/kharanos-trainer-personalities.md"
+  },
+  {
+    "npc_id": 1228,
+    "name": "Magis Sparkmantle",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current adult body and explicit Friendly reaction, sparse current own tabs, complete Classic/installed referrals and role dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/kharanos-trainer-personalities.md"
+  },
+  {
+    "npc_id": 1232,
+    "name": "Azar Stronghammer",
+    "zone": "Dun Morogh",
+    "source": "Reviewed current adult body and explicit Friendly reaction, sparse current own tabs, complete Classic/installed referrals and role dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/kharanos-trainer-personalities.md"
   }
 ]

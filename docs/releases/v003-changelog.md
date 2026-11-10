@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Dannie Fizzwizzle, Magis Sparkmantle and Azar Stronghammer along the Kharanos starting route, each with a full profile and fifteen personal lines queued.
+- Give the three trainers distinct personalities grounded in their dialogue and quest referrals; friendship keeps its normal unlocks and grants no game abilities.
+
 - Add High Executor Hadrec: a full Sepulcher profile grounded in his Deathstalker, Rot Hide, Fenris Isle and engraved-ring quest chains.
 - Preserve his stern judgment and evidence-first priorities, with fifteen personal lines queued for the approved Forsaken male voice.
 
@@ -63,4 +66,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **513 fully written NPC profiles**: 454 have initial signature recordings, and fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **516 fully written NPC profiles**: 454 have initial signature recordings, and sixty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -41,6 +41,111 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dannie Fizzwizzle <Demon Trainer>, Kharanos, Dun Morogh. Adult
+    -- Gnome female6328/display5042/M2 940356, Alliance Friendly. Classic
+    -- grimoires and installed class-restricted, brusque gossip; current
+    -- service/stock rows absent, no current grimoire sale promised.
+    -- Imaginary villain speeches and selective friendship are original.
+    -- Research: docs/research/kharanos-trainer-personalities.md
+    [6328] = {
+        quote = "If you want a pleasant answer, ask a pleasant question. If you want a useful one, ask me.",
+        likes = { "Questions with a point", "Knowing grins", "A well-timed exit" },
+        dislikes = { "Requests for free instruction", "Endless villain speeches", "Being called adorable" },
+        gossip = "Dannie has a short answer for everything. Her friends suspect she saves the longer answers for herself.",
+        bio = "Dannie Fizzwizzle bears the title Demon Trainer in Kharanos. Her welcome is brisk, her patience selective. She takes warlock business seriously and has little interest in entertaining every passerby.",
+        backstory = "She began mentally editing pompous speeches to pass the time between conversations. It became a private game: cut the boasting, keep the threat, and see whether anything worth saying remained.",
+        secret = "She has rewritten an entire imaginary villain's final speech as one sentence. Ask nicely and she might perform both versions. The long one is dreadful.",
+        bestFriend = "You may stay. That is an invitation, not a request for another question about demons.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing expression suits her dry sense of humor.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Fine. I am coming. Try to make this interesting.", tone = "[dry] [brisk]" }, "You again. A tolerable development." },
+            idle = { { "A villain who needs a long speech has lost control of the conversation.", tone = "[wry]" }, "I am choosing not to comment. Appreciate the effort.", "No, I will not do the voice. Not here." },
+            befriended = { { "I am making an exception for your company. Do not mistake it for free instruction.", tone = "[dry] [fond]" } },
+            poke = { "That had better be the beginning of a good question.", "Yes, yes. I noticed you." },
+            learned = { { "Useful. Now understand it before showing it off.", tone = "[firm]" } },
+            loot = { "A book? Check whether it contains knowledge or merely confidence." },
+            quest = { "The important part first. Save the ominous pause." },
+            combatStart = { "Less theater. More attention." },
+            combatEnd = { "That required no final speech at all." },
+            rest = { "A break. Even my patience needs one." },
+            laughAlong = { "Yes, that was funny. Do not ruin it by explaining." },
+        },
+    },
+
+    -- Magis Sparkmantle <Mage Trainer>, Thunderbrew Distillery, Kharanos.
+    -- Adult Gnome male1228/display10215/M2 900914, Alliance Friendly.
+    -- Current Trainer flag, sparse teaching rows. Full Bink and Jennea
+    -- chains reviewed; no later Legion/Proving Grounds imported. Safety
+    -- warning is installed gossip; rhyming lessons are original writing.
+    -- Research: docs/research/kharanos-trainer-personalities.md
+    [1228] = {
+        quote = "A spell worth learning is worth learning safely. The warning is part of the lesson.",
+        likes = { "Careful questions", "Students who practice", "An unexpectedly good rhyme" },
+        dislikes = { "Magic treated as a party trick", "Skipped precautions", "Rhymes that nearly work" },
+        gossip = "Magis's safety lectures occasionally rhyme. He insists this makes them memorable. Sadly, it does.",
+        bio = "Magis Sparkmantle teaches mages at Kharanos's Thunderbrew Distillery. He warns travelers about magic in untrained hands. His wider teaching circle includes Bink in Ironforge, whose tasks call for a capable mage.",
+        backstory = "He tried putting a safety reminder into verse after a plain warning failed to hold his listener's attention. The rhyme was awful. The listener remembered it. Magis has been improving the method ever since.",
+        secret = "He is searching for a dignified rhyme for arcane instability. So far, the results have lacked both dignity and stability.",
+        bestFriend = "You can tell me when the verse is dreadful. Remembering the lesson does not oblige you to admire the poem.",
+        favorite = {
+            emote = "THANK",
+            hint = "He likes to know that his advice has been useful.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Prepared? Excellent. Precautions first, expedition second.", tone = "[bright] [precise]" }, "I am coming along. There may be something instructive." },
+            idle = { { "I need a rhyme for instability. Preferably a stable one.", tone = "[thoughtful] [wry]" }, "The warning is memorable. The verse is still under review.", "Bink has never mistaken a few pretty sparks for a complete education." },
+            befriended = { { "Good company and an attentive mind. I shall enjoy traveling with you.", tone = "[warm]" } },
+            poke = { "Yes? Please let that be a question about the lesson.", "I was composing. You may have rescued the poem." },
+            learned = { { "A new lesson! Take time to understand what can go wrong.", tone = "[encouraging]" } },
+            quest = { "Read the instructions. Then read the warning that seemed unimportant." },
+            combatStart = { "Mind your surroundings. Enthusiasm is no substitute." },
+            combatEnd = { "Now we can discuss which precautions proved useful." },
+            loot = { "An intriguing find. We can be curious without being hasty." },
+            levelUp = { "Progress deserves practice, as well as celebration." },
+            rest = { "A pause for reflection. And perhaps a better rhyme." },
+        },
+    },
+
+    -- Azar Stronghammer <Paladin Trainer>, Thunderbrew Distillery, Kharanos.
+    -- Adult Dwarf male1232/display1622/M2 878772, Alliance Friendly.
+    -- Installed non-paladin aid offer; full Tiza Tome of Divinity chain
+    -- reviewed. No friendship-granted abilities or later retail events.
+    -- Shared small jobs and making help ordinary are original writing.
+    -- Research: docs/research/kharanos-trainer-personalities.md
+    [1232] = {
+        quote = "If your hands are free, there's probably something useful they can be doing.",
+        likes = { "Help offered without fuss", "Patient learners", "Shared work" },
+        dislikes = { "Kindness used to boast", "Pride that refuses all help", "Unfinished promises" },
+        gossip = "Azar can turn carrying a sack into a lesson about the Light. He still carries the sack.",
+        bio = "Azar Stronghammer is Kharanos's dwarven paladin trainer. He offers aid beyond his own order and points promising apprentices toward Tiza Battleforge in Ironforge. For him, helping and teaching belong together.",
+        backstory = "He once thought offering help was the easy part. Then he noticed how often people refused it out of embarrassment. Now he makes a job something to share, rather than a favor someone must repay.",
+        secret = "He sometimes asks for a hand with a small job he could manage alone. Accepting help ought to feel ordinary, too.",
+        bestFriend = "Give me a hand, would you? Nothing heroic. I'd just like to do this with you.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "Making someone feel included matters to him.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Room for another pair of hands? Good. Let us get to it.", tone = "[warm] [steady]" }, "Aye, I will come. There is usually someone who could use a hand." },
+            idle = { { "Help need not arrive with a speech attached.", tone = "[gentle] [wry]" }, "Tiza has much to teach an apprentice beyond the swing of a hammer.", "A small kindness still counts when nobody sees it." },
+            befriended = { { "You have made room for me. I am glad to stand beside you.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Tell me what needs doing.", "I am listening. Take your time." },
+            quest = { { "Before asking what the reward is, ask who needs the help.", tone = "[earnest]" } },
+            questAccepted = { "Then we have given our word. Best make it count." },
+            combatStart = { "Stand firm. Look out for the others." },
+            combatEnd = { "Is everyone accounted for? See who needs a hand." },
+            group = { "Make room. Nobody should have to ask twice to be included." },
+            rest = { "Rest is sensible. You need not prove yourself every moment." },
+            comforted = { "Aye. Thank you for that. I can accept a little kindness too." },
+        },
+    },
+
     -- High Executor Hadrec, Sepulcher, Silverpine Forest. Adult Forsaken
     -- male1952/display3545/M2 959310; Horde Neutral. Current quest giver,
     -- full Classic/Forever Deathstalker, Rot Hide/Fenris and ring branches

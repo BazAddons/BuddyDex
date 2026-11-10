@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Dannie Fizzwizzle, Magis Sparkmantle and Azar Stronghammer along the Kharanos starting route, each with a full profile and fifteen personal lines queued.
+- Give the three trainers distinct personalities grounded in their dialogue and quest referrals; friendship keeps its normal unlocks and grants no game abilities.
+
 - Add High Executor Hadrec: a full Sepulcher profile grounded in his Deathstalker, Rot Hide, Fenris Isle and engraved-ring quest chains.
 - Preserve his stern judgment and evidence-first priorities, with fifteen personal lines queued for the approved Forsaken male voice.
 

@@ -1827,6 +1827,27 @@
       "zone": "Silverpine Forest",
       "route": "Sepulcher Forsaken onward quest route",
       "reason": "Full current/Classic/corpus chain review and fifteen queued Forsaken male lines; Neutral conditional live gates preserved, no synthesis"
+    },
+    {
+      "npc_id": 6328,
+      "name": "Dannie Fizzwizzle",
+      "zone": "Dun Morogh",
+      "route": "Kharanos dwarf/gnome starting route",
+      "reason": "Fully researched adult trainer personality and fifteen queued lines in approved voice; sparse service/quest data documented, no eligibility exception or synthesis"
+    },
+    {
+      "npc_id": 1228,
+      "name": "Magis Sparkmantle",
+      "zone": "Dun Morogh",
+      "route": "Kharanos dwarf/gnome starting route",
+      "reason": "Fully researched adult trainer personality and fifteen queued lines in approved voice; sparse service/quest data documented, no eligibility exception or synthesis"
+    },
+    {
+      "npc_id": 1232,
+      "name": "Azar Stronghammer",
+      "zone": "Dun Morogh",
+      "route": "Kharanos dwarf/gnome starting route",
+      "reason": "Fully researched adult trainer personality and fifteen queued lines in approved voice; sparse service/quest data documented, no eligibility exception or synthesis"
     }
   ]
 }

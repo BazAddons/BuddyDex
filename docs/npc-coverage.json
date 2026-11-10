@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 221,
+    "alliance": 224,
     "unverified": 134,
     "horde": 167
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 38,
-    "7": 29,
+    "3": 39,
+    "7": 31,
     "2": 64,
     "5": 51,
     "4": 32,
@@ -26,7 +26,7 @@
     "Westfall": 17,
     "Stormwind City": 114,
     "Redridge Mountains": 23,
-    "Dun Morogh": 7,
+    "Dun Morogh": 10,
     "Ironforge": 37,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
@@ -854,6 +854,32 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1212"
+    },
+    {
+      "npc_id": 1228,
+      "name": "Magis Sparkmantle",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1228"
+    },
+    {
+      "npc_id": 1232,
+      "name": "Azar Stronghammer",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1232"
     },
     {
       "npc_id": 1246,
@@ -4739,6 +4765,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6300"
     },
     {
+      "npc_id": 6328,
+      "name": "Dannie Fizzwizzle",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6328"
+    },
+    {
       "npc_id": 6376,
       "name": "Wren Darkspring",
       "zone": "Dun Morogh",
@@ -6569,6 +6608,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 513,
-  "awaiting_signature_audio_profiles": 59
+  "authored_profiles": 516,
+  "awaiting_signature_audio_profiles": 62
 }
