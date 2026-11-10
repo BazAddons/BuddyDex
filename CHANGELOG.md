@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tordrin Sternblade: a complete Northshire Dwarf Hunter-trainer profile with fifteen personal lines queued.
+- Ground his practical encouragement in the full stolen-library quest progression and trainer-letter dialogue.
+
 - Add Antelariaa Cloudgaze and Vayn Moongaze: two complete Skyborne profiles with thirty personal lines queued.
 - Expand Zephras route coverage with distinct supplier and Nightclaw personalities, preserving current faction access and the actual ear-quest dialogue.
 

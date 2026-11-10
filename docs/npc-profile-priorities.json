@@ -2646,6 +2646,13 @@
       "zone": "Zephras Isle",
       "route": "Shadowgale Nightclaw contact; normal neutral-unit checks required",
       "reason": "Complete distinct female/male Skyborne profile, fifteen personal lines queued, original writing separated from actual supply or vengeance/record-recovery role; no synthesis"
+    },
+    {
+      "npc_id": 248415,
+      "name": "Tordrin Sternblade",
+      "zone": "Elwynn Forest",
+      "route": "Northshire early Human experience Dwarf Hunter trainer",
+      "reason": "Complete Dwarf male profile, fifteen personal lines queued, Ironforge arrival/tracking-kit role and helping-others encouragement preserved; no synthesis"
     }
   ]
 }

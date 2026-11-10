@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tordrin Sternblade <Hunter Trainer>, Northshire, Elwynn Forest.
+    -- Adult Dwarf male3395/M2 878772, Alliance Friendly. All5training
+    -- rows, three installed gossip variants, full eight-task stolen-book
+    -- progression, inventory branch and trainer letter reviewed.
+    -- A learner asking who needs help and his unspoken pride are original.
+    -- Research: docs/research/tordrin-sternblade-useful-skills-and-stolen-books.md
+    [248415] = {
+        quote = "A fine shot is a fine thing. Knowing who could use your help is finer.",
+        likes = { "A learner putting skill to good use", "A trail followed beyond the first guess", "Someone returning with what they found" },
+        dislikes = { "A conclusion made before checking signs", "Skill shown off while a neighbor struggles", "A question dismissed because it is basic" },
+        gossip = "Tordrin may say less about a pupil's finest shot than about the first time they noticed someone else needed help.",
+        bio = "Tordrin Sternblade arrived from Ironforge to teach Hunters beside Northshire Abbey's stable. When stolen books lead to a departing kobold, he prepares a tracking kit and sends the findings onward to Marshal Dughan in Goldshire.",
+        backstory = "A learner finished practicing and asked who else could use some help. He had expected a question about the next technique. That simple change of subject pleased him more than he knew how to explain before the learner set off.",
+        secret = "He only gave a brief nod at the time. He still wishes he had said plainly that it was the best question he had heard all morning.",
+        bestFriend = "I am glad you came back. No lesson needed, and no report owed. A friend is reason enough to stop here.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He appreciates someone showing they are ready to put their abilities to useful work.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Shall we find out who could use a hand before deciding what we mean to show off?", tone = "[hearty] [welcoming]" }, "Ready. Keep an eye on the trail, and leave room for it to tell you something you did not expect." },
+            idle = { { "The question was who else needed help. I should have said how pleased I was before they set off.", tone = "[reflective] [warm]" }, "A useful skill can do more than give its owner something to boast about.", "The first sign is a beginning. Follow far enough to find out whether your first guess deserved the confidence." },
+            befriended = { { "You came back after the work was done. I am glad of that. There is room here for company as well as training.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Ask plainly. We shall get farther with a question than with pretending there is none.", "I heard you. I was considering whether I had followed the thought far enough before deciding where it led." },
+            learned = { { "Good. Give it some practice, then see what useful work it can do for someone.", tone = "[firm] [encouraging]" } },
+            quest = { "Keep hold of what you find, and bring the account to the person who needs it. Following a trail ought to lead somewhere useful." },
+            group = { "Ask what help is needed before competing to be the one who looks most capable." },
+            loot = { "Look carefully before deciding what it tells you. A thing found and a conclusion reached are not quite the same." },
+            zone = { "New ground. Learn the lay of it before deciding you already know what is ahead." },
+            rest = { "A pause, then. I can enjoy sitting with a friend without turning it into another lesson." },
+            thanked = { "You are welcome. I was glad to help, even if I gave you a shorter answer at the time." },
+        },
+    },
+
     -- Antelariaa Cloudgaze <General Goods>, Zephras Isle. Adult
     -- Windshaper Skyborne female140054/M2 7478494, both factions
     -- Friendly; all15goods, no own quest/gossip/training.

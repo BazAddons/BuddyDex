@@ -34,6 +34,8 @@ The two own tasks form the relevant initial/further-ear context; no claim they r
 
 Tordrin Sternblade248415 proved to be an adult male Dwarf Hunter trainer in Northshire, not Skyborne. All own tabs/three installed gossip variants read: start Shhh! We're Hunting Kobolds, ends A Scribbled Letter/Follow That Kobold, five training rows. His full stolen-book chain has not been researched; no profile/completion count added. Endaria Mistgaze254344was also probed: adult female Windshaper Skyborne, Horde Friendly, own93736 Unwelcome Spirits, no stock/training/installed gossip. Full93736text not yet researched and no profile added. Elaadrin Evengale252475has multiple catalog IDs and many personal quest links; not authored or treated as a resolved single identity. These probes are future research leads, not fabricated Scout encounters.
 
+Follow-up: Tordrin's deferred research was completed in the631-profile batch. See [full stolen-library and trainer-letter research](tordrin-sternblade-useful-skills-and-stolen-books.md). The preceding paragraph records the earlier630-batch probe; Endaria and Elaadrin remain deferred.
+
 ## Original BuddyDex writing and rewards
 
 Antelariaa's supply list set to an inconveniently persistent tune, likes/dislikes, gossip, quote and friendship invitation are original characterization. No established Skyborne anthem, actual copyrighted melody or magical singing effect claimed. Text delivery remains conversational, not a guarantee of synthesized singing. CLAP favorite, fifteen personal lines/four hidden directions in approved female Skyborne.

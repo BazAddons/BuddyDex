@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 264,
+    "alliance": 265,
     "unverified": 149,
     "horde": 234
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 48,
+    "3": 49,
     "7": 41,
     "2": 74,
     "5": 65,
@@ -21,7 +21,7 @@
     "95": 18
   },
   "zone_counts": {
-    "Elwynn Forest": 26,
+    "Elwynn Forest": 27,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
     "Stormwind City": 114,
@@ -7315,6 +7315,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/248248"
     },
     {
+      "npc_id": 248415,
+      "name": "Tordrin Sternblade",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/248415"
+    },
+    {
       "npc_id": 251361,
       "name": "Rorian the Dayseeker",
       "zone": "Zephras Isle",
@@ -8070,6 +8083,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 630,
-  "awaiting_signature_audio_profiles": 176
+  "authored_profiles": 631,
+  "awaiting_signature_audio_profiles": 177
 }

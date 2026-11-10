@@ -2975,5 +2975,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Windshaper Skyborne female/male, own stock and complete available Nightclaw dialogue; current Friendly/Neutral distinctions and quest conflicts documented, no Scout sighting claimed",
     "research_notes": "docs/research/zephras-supply-songs-and-guarded-rest.md"
+  },
+  {
+    "npc_id": 248415,
+    "name": "Tordrin Sternblade",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult Dwarf male, Alliance Friendly, five training rows, full stolen-library progression/inventory branch/trainer letter and available progress speech; no Scout sighting claimed",
+    "research_notes": "docs/research/tordrin-sternblade-useful-skills-and-stolen-books.md"
   }
 ]

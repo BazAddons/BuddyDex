@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tordrin Sternblade: a complete Northshire Dwarf Hunter-trainer profile with fifteen personal lines queued.
+- Ground his practical encouragement in the full stolen-library quest progression and trainer-letter dialogue.
+
 - Add Antelariaa Cloudgaze and Vayn Moongaze: two complete Skyborne profiles with thirty personal lines queued.
 - Expand Zephras route coverage with distinct supplier and Nightclaw personalities, preserving current faction access and the actual ear-quest dialogue.
 
@@ -237,4 +240,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **630 fully written NPC profiles**: 454 have initial signature recordings, and one hundred seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **631 fully written NPC profiles**: 454 have initial signature recordings, and one hundred seventy-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
