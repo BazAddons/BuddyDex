@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Drusilla La Salle and Dark Cleric Beryl: two full early-zone class-trainer profiles with thirty personal lines queued.
+- Research the stolen Abbey text, Tainted Letter and Beryl's healing/fortitude test; preserve book ownership and ordinary friendship eligibility.
+
 - Add Sheendra Tallgrass and Tammra Windfield: two full adult Horde Tauren profiles with thirty personal lines queued.
 - Cover Camp Mojache trade supplies and Sun Rock Retreat restoration/family-news quests with researched facts and distinct original writing.
 
@@ -327,4 +330,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **686 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **688 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

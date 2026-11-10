@@ -3367,5 +3367,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult Tauren woman, explicit Horde Friendly; full6301/6381and6523/6401chains and current/Classic relationships; established aunt relationship separated from original travel-news writing; no Scout sighting claimed",
     "research_notes": "docs/research/mojache-colors-and-stonetalon-news.md"
+  },
+  {
+    "npc_id": 459,
+    "name": "Drusilla La Salle",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult Human woman, Alliance Friendly; full early Northshire handoff, stolen tome and actual Tainted Letter; original envy separated from canonical book ownership; no Scout sighting claimed",
+    "research_notes": "docs/research/northshire-opportunities-and-brill-seams.md"
+  },
+  {
+    "npc_id": 2129,
+    "name": "Dark Cleric Beryl",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Forsaken man, Horde Friendly; full5651/5650test and5663referral, exact installed dialogue and Classic/current training gaps; original robe anecdote separated from canon; no Scout sighting claimed",
+    "research_notes": "docs/research/northshire-opportunities-and-brill-seams.md"
   }
 ]

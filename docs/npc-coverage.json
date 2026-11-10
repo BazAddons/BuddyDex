@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 289,
+    "alliance": 290,
     "unverified": 153,
-    "horde": 265
+    "horde": 266
   },
   "npc_race_counts": {
-    "1": 166,
+    "1": 167,
     "3": 55,
     "7": 48,
     "2": 77,
-    "5": 71,
+    "5": 72,
     "4": 54,
     "8": 54,
     "9": 42,
@@ -21,7 +21,7 @@
     "95": 22
   },
   "zone_counts": {
-    "Elwynn Forest": 27,
+    "Elwynn Forest": 28,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
     "Stormwind City": 115,
@@ -30,7 +30,7 @@
     "Dun Morogh": 18,
     "Ironforge": 53,
     "Stranglethorn Vale": 5,
-    "Tirisfal Glades": 42,
+    "Tirisfal Glades": 43,
     "Undercity": 14,
     "Wetlands": 2,
     "Duskwood": 3,
@@ -524,6 +524,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/382"
+    },
+    {
+      "npc_id": 459,
+      "name": "Drusilla La Salle",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/459"
     },
     {
       "npc_id": 460,
@@ -2180,6 +2193,19 @@
       ],
       "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2128"
+    },
+    {
+      "npc_id": 2129,
+      "name": "Dark Cleric Beryl",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2129"
     },
     {
       "npc_id": 2130,
@@ -8796,6 +8822,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 686,
-  "awaiting_signature_audio_profiles": 232
+  "authored_profiles": 688,
+  "awaiting_signature_audio_profiles": 234
 }

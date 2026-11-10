@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Drusilla La Salle and Dark Cleric Beryl: two full early-zone class-trainer profiles with thirty personal lines queued.
+- Research the stolen Abbey text, Tainted Letter and Beryl's healing/fortitude test; preserve book ownership and ordinary friendship eligibility.
+
 - Add Sheendra Tallgrass and Tammra Windfield: two full adult Horde Tauren profiles with thirty personal lines queued.
 - Cover Camp Mojache trade supplies and Sun Rock Retreat restoration/family-news quests with researched facts and distinct original writing.
 

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Drusilla La Salle, Northshire, Elwynn Forest. Adult Human female
+    -- 3345/M2 1000764, Alliance Friendly. Full3105/1598and prior783/7
+    -- read, including9576letter. Wants stolen Abbey text, not her own
+    -- returned property. Envy at the novice reaching it first is original.
+    -- Research: docs/research/northshire-opportunities-and-brill-seams.md
+    [459] = {
+        quote = "Ambition needs restraint. So does one's expression when an unexpected opportunity becomes useful.",
+        likes = { "Ambition accompanied by self-control", "A useful text finally within reach", "An opportunity noticed before it passes" },
+        dislikes = { "Curious guards watching her too closely", "A boast that spoils a quiet advantage", "A pupil mistaking recklessness for power" },
+        gossip = "Drusilla has a talent for finding a lesson in someone else's misconduct. It helps when the misconduct puts a wanted book within reach.",
+        bio = "Drusilla La Salle trains warlocks outside Northshire Abbey. She urges patience without surrendering ambition, and sends novices after Powers of the Void, a library book stolen by a student who joined the Defias.",
+        backstory = "The text had been kept in a protected library wing where her lingering would draw suspicion. An Abbey novice's theft created an opportunity. Sending a pupil after it tests the pupil and serves her own interests rather neatly.",
+        secret = "Part of her irritation is that an Abbey novice reached the book before she did. She prefers to describe the matter as an instructive example of seizing an opportunity.",
+        bestFriend = "You may enjoy the joke. I trust you to know which part need not be repeated near the abbey. Come along; discretion is better company.",
+        favorite = {
+            emote = "BOW",
+            hint = "She appreciates a controlled acknowledgment that makes its point without drawing a crowd.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "There you are. Come along. We can discuss what you have noticed without announcing every promising opportunity to the entire road.", tone = "[composed] [conspiratorial]" }, "Ready. Ambition is useful. An inability to keep it from one's expression can become an inconvenience." },
+            idle = { { "That novice reached a protected book before I did. Naturally, I regard the matter as an instructive example of opportunity. There is no need to sound so amused by the order of events.", tone = "[dry] [slightly irritated]" }, "Patience need not smother ambition. It can keep your ambition from making its intentions embarrassingly obvious.", "The guards need not understand every reason for a warlock's interest in a library. That does not mean I must invite their curiosity." },
+            befriended = { { "I have come to trust your discretion, and to enjoy your company. Do not make me regret saying both in the same breath. Come along, friend.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? You have my attention. Make the interruption worth the attention it is already receiving.", "I hear you. A quiet word will do. We need not make every exchange look like a discovery." },
+            quest = { { "Consider who benefits from the request as well as what it asks you to do. A lesson can be perfectly useful to more than one person.", tone = "[knowing] [measured]" } },
+            learned = { "Good. Keep your control as your knowledge grows. An impressive beginning excuses very little if you cannot manage what follows." },
+            loot = { "Examine it before boasting. Knowing why a thing is valuable is more useful than loudly insisting that it must be." },
+            mail = { "Read it before showing the seal to every curious passerby. A message may deserve more discretion than its delivery received." },
+            bowBack = { "That will do. A point made clearly, with no audience required. An encouraging sign." },
+            rest = { "A pause is not the surrender of ambition. It may be how you avoid making your next decision in a foolish hurry." },
+            thanked = { "You are welcome. I am pleased the arrangement proved useful. There is no need to pretend usefulness excludes satisfaction." },
+        },
+    },
+
+    -- Dark Cleric Beryl, Brill, Tirisfal. Adult Forsaken male1602/
+    -- M2 959310, Horde Friendly. Full5651/5650and5663referral read;
+    -- healer/fortitude test, optional robe are established. Inside-out
+    -- robe anecdote is original, not an official training ceremony.
+    -- Research: docs/research/northshire-opportunities-and-brill-seams.md
+    [2129] = {
+        quote = "The robe marks an achievement. It does not perform the work for you, whichever way round you wear it.",
+        likes = { "Skill that survives a change of clothes", "A pupil remembering to fortify an ally", "An achievement acknowledged without fuss" },
+        dislikes = { "A grand title offered instead of action", "Healing dismissed as a lesser talent", "Mistaking a solemn appearance for proof" },
+        gossip = "Beryl judges a pupil's work more seriously than the robe afterward. He has a private reason for not trusting the seams.",
+        bio = "Dark Cleric Beryl trains priests in Brill's Gallows' End Tavern. He tests their healing and fortitude on Deathguard Kel, then recognizes the achievement whether or not they choose to wear the reward robe.",
+        backstory = "He once finished a solemn explanation before discovering that his own robe was inside out. The explanation had remained perfectly correct. He decided the incident supported a principle, rather than inviting further discussion of the garment.",
+        secret = "He occasionally remembers that lesson while someone stands very stiffly awaiting his judgment. It makes the impressive appearance harder to regard as the most important part.",
+        bestFriend = "Come along, friend. I know what you can do without inspecting the garment. You may grant me the same consideration.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values a clear acknowledgment of earned achievement more than an elaborate display of the clothing that marks it.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You have arrived. Come along. We can see what requires doing before anyone begins explaining how impressive they look while prepared to do it.", tone = "[dry] [welcoming]" }, "Ready. You need not stand more solemnly on my account. I am interested in what the solemnity is meant to accompany." },
+            idle = { { "I once concluded an entirely correct explanation before discovering my robe was inside out. Naturally, I took it as evidence that the explanation mattered more than the garment.", tone = "[deadpan] [wry]" }, "Healing a companion and strengthening that companion for what follows are both worth remembering. A taste for darker powers does not make those duties disappear.", "An earned achievement remains earned when the robe is folded away. Cloth is a rather poor substitute for knowing what one is doing." },
+            befriended = { { "You have become someone whose company I value without a demonstration arranged beforehand. Come along, friend. There is no inspection of the seams today.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? I hear you. State the matter before deciding whether the opening requires a more dignified posture.", "You have my attention. No additional title is needed to make the question audible." },
+            saluteBack = { { "Acknowledged. Keep the respect attached to what was earned. A gesture is more useful when we remember what it recognizes.", tone = "[formal] [approving]" } },
+            quest = { "Listen carefully. If a task requires both healing and strengthening, completing the first part is not a reason to overlook the second." },
+            combatEnd = { "It is over. Look to your companions before beginning the account of your own effectiveness." },
+            gear = { "Examine it. A suitable garment may be useful. Wearing it impressively does not settle the question of your skill." },
+            learned = { "Good. Put understanding beneath the confident appearance. It is considerably harder to lose that way." },
+            comforted = { "Thank you. A simple acknowledgment will suffice. I had no wish to turn the moment into another formal occasion." },
+            thanked = { "You are welcome. Remember the work when the ceremony is over. That part is considerably more likely to matter tomorrow." },
+        },
+    },
+
     -- Sheendra Tallgrass, Camp Mojache, Feralas. Adult Tauren female
     -- 7359/M2 986648, Horde Friendly. All34current/Classic goods
     -- reviewed; no personal quests or installed gossip. Her spirited
