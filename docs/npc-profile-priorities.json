@@ -2331,6 +2331,20 @@
       "zone": "Thunder Bluff",
       "route": "Horde Thunder Bluff weapons merchant",
       "reason": "Complete adult Tauren female profile with fifteen queued lines; historical quest/current gaps or full stock separated, no synthesis"
+    },
+    {
+      "npc_id": 2137,
+      "name": "Eliza Callen",
+      "zone": "Tirisfal Glades",
+      "route": "Horde Brill early leather merchant",
+      "reason": "Complete adult Forsaken profile with fifteen queued lines; actual trade verified, map projection/identity distinctions preserved, no synthesis"
+    },
+    {
+      "npc_id": 4561,
+      "name": "Daniel Bartlett",
+      "zone": "Undercity",
+      "route": "Horde Undercity general trade supplier",
+      "reason": "Complete adult Forsaken profile with fifteen queued lines; actual trade verified, map projection/identity distinctions preserved, no synthesis"
     }
   ]
 }

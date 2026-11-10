@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Eliza Callen <Leather Armor Merchant>, Brill, Tirisfal Glades. Adult
+    -- Forsaken female1634/M2 997378, Horde Friendly, repairs/six goods.
+    -- Own quest/training tabs0; no installed gossip or supported own chain.
+    -- Unrhymed verse about boots is original, not the Duskwood Eliza story.
+    -- Research: docs/research/brill-leather-and-undercity-necessities.md
+    [2137] = {
+        quote = "Call the leather battered if you like. Let it finish doing its job before you dismiss it.",
+        likes = { "A useful thing given a fair chance", "An honest account of what needs repair", "A plain compliment with some weight" },
+        dislikes = { "Wear treated as proof of worthlessness", "Damage concealed until it gets worse", "Grand words that explain nothing" },
+        gossip = "Eliza praises dependable boots in very plain language. Her attempts to do so in verse are still finding their feet.",
+        bio = "Eliza Callen sells leather armor and offers repairs in Brill. Her stock is the battered leather set: harness, belt, pants, boots, bracers, and gloves. She judges equipment by what it can still do, rather than the unflattering sound of its name.",
+        backstory = "A short remark about dependable boots sounded almost like the beginning of a poem. She tried finishing it. Finding an honest final line proved harder than finding a grand one, which made the small exercise interesting enough to continue.",
+        secret = "Her best boot poem does not rhyme. She has decided that keeping a useful meaning is a better defense of the boots than forcing them into a rhyme they do not deserve.",
+        bestFriend = "I can read you the latest attempt. You may tell me the ending needs work. I would rather hear that from someone who stayed to listen.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone enjoying a dry remark without requiring her to dress it up.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good. Shall we find out what the day needs before announcing what it deserves?", tone = "[dry] [welcoming]" }, "Ready. There is still useful work left in the day." },
+            idle = { { "The boots were dependable. The final line was not. I am revising the line.", tone = "[deadpan] [amused]" }, "A worn thing may need attention. That is not the same as needing contempt.", "If the plain explanation works, I see no duty to make it grander." },
+            befriended = { { "You heard me out without asking me to make it prettier. I would be glad of more company like that.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? What needs looking at?", "I was considering whether the poem needs another line. It may need one less." },
+            gear = { { "Look at what it can still do, and what needs putting right. The name will not settle either question.", tone = "[practical] [firm]" } },
+            loot = { "There may be use left in that. Inspect it before deciding." },
+            bagsFull = { "Make a choice. Leaving everything to crush everything else is a poor sort of care." },
+            combatEnd = { "Check the damage while there is time to do something sensible about it." },
+            rest = { "A pause. I can try the verse, if you will give the boots a fair hearing." },
+            thanked = { "You are welcome. Plainly said is quite sufficient." },
+            laughAlong = { "Yes. I thought the boots might enjoy a better ending too." },
+        },
+    },
+
+    -- Daniel Bartlett <General Trade Supplier>, Undercity. Adult Forsaken
+    -- male2622/M2 959310, Horde Friendly.37current goods versus32Classic;
+    -- no own quest/installed gossip. Tirisfal pin is a city map projection.
+    -- Conducting imaginary musicians is original, no sounds or concert mechanic.
+    -- Research: docs/research/brill-leather-and-undercity-necessities.md
+    [4561] = {
+        quote = "Tell me what the job needs. If you only ask for something important, we shall be here a while.",
+        likes = { "A clear request for an ordinary tool", "Supplies returned to a useful order", "A small pleasure that needs no audience" },
+        dislikes = { "Important details left until the end", "Different materials carelessly mixed", "An ordinary necessity called beneath notice" },
+        gossip = "Daniel arranges a practical assortment of supplies. His hands occasionally arrange a performance that makes no sound at all.",
+        bio = "Daniel Bartlett supplies general trade goods in Undercity: tools, thread, dyes, spices, containers, and more. He takes an interest in the exact small thing a large undertaking cannot proceed without.",
+        backstory = "He began marking out a tune with his hands while considering a familiar list of stock. The gestures became a private amusement: an imagined performance that needed no instruments, preparation, or interruption of anyone else at work.",
+        secret = "He sometimes gives the imagined musicians a particularly solemn signal to begin. The lack of a single note has not stopped him from deciding that this entrance was better than the last.",
+        bestFriend = "You are welcome to watch the next performance. I shall give you a proper beginning, even if we must imagine the rest between us.",
+        favorite = {
+            emote = "BOW",
+            hint = "He enjoys a small courteous flourish that makes an ordinary meeting feel like an occasion.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Good to see you. Tell me what we are setting out to do, and we can consider what it needs.", tone = "[measured] [welcoming]" }, "Ready. I have brought the performance to a satisfactory pause." },
+            idle = { { "A better entrance that time, I thought. The musicians remain entirely imaginary, but the gesture is improving.", tone = "[dry] [pleased]" }, "Something need not be impressive to be the thing you cannot proceed without.", "A clear request is a kindness to everyone who must help fill it." },
+            befriended = { { "You made room for something I enjoyed without requiring it to be useful. I would welcome your company again.", tone = "[quiet] [warm]" } },
+            poke = { "Yes? What are we looking for?", "I was considering the beginning. It deserves a little care, even in silence." },
+            loot = { { "Keep the small necessities separate enough to find when the larger task needs them.", tone = "[practical] [unhurried]" } },
+            bagsFull = { "Decide what belongs where before the entire load becomes a single difficult search." },
+            quest = { "Check the details. The last thing requested may be the first thing you need." },
+            learned = { "New knowledge may call for a very ordinary tool. Remember that part of the preparation." },
+            rest = { "A pause. If you wish, I can give the imagined musicians their signal." },
+            mail = { "Someone has chosen what to tell us. Let us read it before choosing our answer." },
+            thanked = { "You are welcome. I am pleased the small necessity was to hand." },
+        },
+    },
+
     -- Brave Windfeather, Red Cloud Mesa, Mulgore. Adult Tauren female
     -- 3770/M2 986648, Horde Friendly. Full3376 objective/offer/progress/
     -- completion read, current own tabs0/node404; unverified60115 not imported.

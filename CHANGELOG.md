@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Eliza Callen and Daniel Bartlett: two complete adult Forsaken profiles, with thirty personal lines queued.
+- Expand Brill and Undercity companions with distinct leather-merchant and trade-supplier stories, using their current Forever stock.
+
 - Add Brave Windfeather and Jyn Stonehoof: two complete adult Tauren women, with thirty personal lines queued.
 - Expand Red Cloud Mesa and Thunder Bluff companions with distinct defender and weapons-merchant profiles.
 

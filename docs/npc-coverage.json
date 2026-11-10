@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 251,
     "unverified": 141,
-    "horde": 208
+    "horde": 210
   },
   "npc_race_counts": {
     "1": 165,
     "3": 44,
     "7": 37,
     "2": 68,
-    "5": 61,
+    "5": 63,
     "4": 43,
     "8": 45,
     "9": 30,
@@ -29,8 +29,8 @@
     "Dun Morogh": 13,
     "Ironforge": 42,
     "Stranglethorn Vale": 3,
-    "Tirisfal Glades": 38,
-    "Undercity": 11,
+    "Tirisfal Glades": 39,
+    "Undercity": 12,
     "Duskwood": 1,
     "Silverpine Forest": 8,
     "Teldrassil": 19,
@@ -2099,6 +2099,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2132"
+    },
+    {
+      "npc_id": 2137,
+      "name": "Eliza Callen",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2137"
     },
     {
       "npc_id": 2198,
@@ -4490,6 +4503,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4556"
+    },
+    {
+      "npc_id": 4561,
+      "name": "Daniel Bartlett",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4561"
     },
     {
       "npc_id": 4565,
@@ -7498,6 +7524,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 585,
-  "awaiting_signature_audio_profiles": 131
+  "authored_profiles": 587,
+  "awaiting_signature_audio_profiles": 133
 }

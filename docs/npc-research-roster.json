@@ -2660,5 +2660,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult female Tauren body and current Horde Friendly; complete Sharptusk charge/adjacent report or full37-item trade; no Scout sighting claimed",
     "research_notes": "docs/research/red-cloud-resolve-and-thunder-bluff-balance.md"
+  },
+  {
+    "npc_id": 2137,
+    "name": "Eliza Callen",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed exact adult female/male Forsaken body and current Horde Friendly; full current/Classic stock and own quest/gossip absence; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-leather-and-undercity-necessities.md"
+  },
+  {
+    "npc_id": 4561,
+    "name": "Daniel Bartlett",
+    "zone": "Undercity",
+    "source": "Reviewed exact adult female/male Forsaken body and current Horde Friendly; full current/Classic stock and own quest/gossip absence; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-leather-and-undercity-necessities.md"
   }
 ]
