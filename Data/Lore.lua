@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tawny Grisette <Mushroom Vendor>, Trade Quarter, Undercity. Adult
+    -- Forsaken female2674/M2 997378, Horde Friendly. Classic twelve stock,
+    -- current own four tabs zero/no gossip. Later Lordaeron move excluded.
+    -- Arranged fungal dignitaries and tiny paper crown are original writing.
+    -- Research: docs/research/undercity-fungus-supplies-and-old-friendships.md
+    [4554] = {
+        quote = "You may call it a mushroom. I was hoping you would notice the shape.",
+        likes = { "A well-shaped mushroom cap", "An unexpected compliment", "Small things displayed with care" },
+        dislikes = { "Every fungus dismissed as rot", "A display poked without asking", "Praise that is only about price" },
+        gossip = "Tawny arranges her mushrooms as though important guests are expected. Some of the mushrooms seem to have better places than others.",
+        bio = "Tawny Grisette is a mushroom vendor in Undercity's Trade Quarter. Among the city's passing shoppers, she takes pride in things most people glance at only long enough to decide whether they are edible. She thinks a fine cap deserves a second look.",
+        backstory = "Arranging her goods became a pleasure of its own. A broad cap belonged beside a little one; a crooked stem made the whole group more interesting. Customers saw provisions. She was beginning to see a rather distinguished gathering.",
+        secret = "She once folded a tiny paper crown for an especially fine mushroom. It looked absurd. She left it there until the end of the day anyway.",
+        bestFriend = "There. The little crooked one. I thought you might appreciate it without asking what makes it valuable.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She likes someone noticing the care in an easily overlooked display.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good to see you. Shall we look for something the hurried people have missed?", tone = "[raspy] [bright]" }, "I am ready. A change of surroundings might improve my eye." },
+            idle = { { "A little paper crown did suit it. Not every mushroom could have carried it off.", tone = "[raspy] [amused]" }, "You need not want to buy a thing before you are allowed to admire it.", "There is a fine shape to that. Yes, I do notice things other than mushrooms." },
+            befriended = { { "You take a second look at things. I like that about you. I should like to come along.", tone = "[raspy] [warm]" } },
+            poke = { "Careful. Some of us have been arranged to best advantage.", "Yes? Have you seen something worth showing me?" },
+            loot = { { "An interesting little find. Put it where it will not be crushed by something impressive.", tone = "[raspy] [pleased]" } },
+            bagsFull = { "Your splendid discoveries appear to be sitting on your smaller discoveries." },
+            zone = { "New surroundings. Let us see what everyone is walking past." },
+            rest = { "A moment to look properly. That is often the best part." },
+            mail = { "Someone has taken the trouble to send a little of their day to you." },
+            gear = { "A curious shape. Is it meant to sit like that?" },
+            thanked = { "You are welcome. It is nice when the little attentions are noticed." },
+        },
+    },
+
+    -- Gordon Wendham <Weapons Merchant>, Trade Quarter, Undercity. Adult
+    -- Forsaken male2629/M2 959310, Horde Friendly, Repair/Vendor16goods.
+    -- Full6321/6323/6322/6324 supply chain and installed smiling gossip read.
+    -- Remembering returning customers before their names is original writing.
+    -- Research: docs/research/undercity-fungus-supplies-and-old-friendships.md
+    [4556] = {
+        quote = "My expression is a poor guide to how pleased I am to see you.",
+        likes = { "Equipment ready before it is needed", "A customer returning safely", "An order checked before packing" },
+        dislikes = { "A welcome mistaken for a threat", "Careless edges in a crowded shop", "A missing item discovered at the destination" },
+        gossip = "Gordon can look alarming while offering an excellent welcome. Regular customers learn which part of the greeting to believe.",
+        bio = "Gordon Wendham sells weapons in Undercity's Trade Quarter. He fills the Sepulcher's requisition and sends its supplies toward the bat master, Michael Garrett. Keeping gear ready matters to him, even when his face gives little encouragement.",
+        backstory = "A customer once returned to tell him the journey had gone well. That ordinary piece of news stayed with him longer than the details of the sale. He began asking after the traveler as carefully as he asked after the equipment.",
+        secret = "When someone comes back, he often remembers what they bought before he remembers their name. He waits until he recalls both before admitting either.",
+        bestFriend = "I am glad you came back. There is no order to collect. I simply wanted to say it before you went anywhere else.",
+        favorite = {
+            emote = "GREET",
+            hint = "He appreciates a proper greeting from someone who trusts his welcome.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Good to see you. I am aware my face has made that less obvious than I intended.", tone = "[raspy] [warm]" }, "Ready when you are. I trust you have checked what you are carrying." },
+            idle = { { "A customer returning in one piece is news worth hearing. Even when they have nothing to buy.", tone = "[raspy] [sincere]" }, "I can be pleased without looking particularly pleasant. It is an inconvenience.", "A crate should be checked before it becomes someone else's problem." },
+            befriended = { { "You came for my company. Very well. I am pleased, and you may take my word for it.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? That was my attentive expression.", "I am listening. The silence was not intended as a warning." },
+            gear = { { "Look after it now, while you have the time to do the work properly.", tone = "[raspy] [practical]" } },
+            quest = { "Check what they need, and where it must arrive. The rest is easier to arrange." },
+            bagsFull = { "Something in there is pressing against something it ought not to." },
+            mail = { "An order, or news from someone who has made it home?" },
+            taxi = { "Keep the crate secure. The bat master has enough to attend to already." },
+            combatEnd = { "You are still here. Good. Let us look at the damage before moving on." },
+            hearth = { "Homeward. There is much to be said for arriving safely." },
+        },
+    },
+
+    -- Bethor Iceshard, Magic Quarter, Undercity. Adult Forsaken male
+    -- display4055/M2 959310, Horde Friendly. Full lich/Rot Hide/wand chains
+    -- reviewed: Kirin Tor friends Gunther/Thule, free will versus betrayal.
+    -- Remembered inconsequential argument is original, no new reunion claimed.
+    -- Research: docs/research/undercity-fungus-supplies-and-old-friendships.md
+    [1498] = {
+        quote = "Freedom is of little use to a mind that refuses to examine its own conclusions.",
+        likes = { "Evidence worth the interruption", "A mind acting of its own will", "An old argument honestly remembered" },
+        dislikes = { "Scourge domination", "Talent excusing betrayal", "Flattery offered instead of findings" },
+        gossip = "Bethor has little patience for interruptions. An intelligent disagreement sometimes keeps a visitor longer than an agreeable report.",
+        bio = "Bethor Iceshard studies magic in the Undercity. He seeks a free-willed lich for the Forsaken and lends his knowledge to the Rot Hide investigation. His past with Gunther Arcanus and Thule Ravenclaw makes both matters more than distant research.",
+        backstory = "Bethor, Gunther, and Thule were friends and students of the Kirin Tor in Dalaran. Their apprentice wands were woven into a symbol of that friendship. The Plague and Thule's allegiance to the Scourge divided lives that had once been joined.",
+        secret = "He can still recall an old argument with Gunther that settled nothing. Privately, he would welcome the chance to have so unimportant a disagreement again.",
+        bestFriend = "Stay a while. You need not justify every visit with a discovery. A contrary opinion will do, provided it is yours.",
+        favorite = {
+            emote = "NOD",
+            hint = "He values acknowledgment that suggests the speaker has actually considered his words.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You have my attention. Let us see whether this outing deserves it.", tone = "[raspy] [measured]" }, "I will accompany you. Do not mistake that for agreement in advance." },
+            idle = { { "An argument need not settle anything to be worth remembering. I did not always think so.", tone = "[raspy] [reflective]" }, "A familiar spell can reveal more about its maker than a carefully prepared account.", "The mind is free. It might occasionally trouble itself to think." },
+            befriended = { { "You have proved worth listening to. I am prepared to hear what you say without first asking what use it is to me.", tone = "[raspy] [reserved]" } },
+            poke = { "Yes? Have you a finding, or merely an interruption?", "I am considering it. You may distinguish that from ignoring you by exercising patience." },
+            quest = { { "Bring the evidence intact. A confident account will not replace the thing itself.", tone = "[raspy] [firm]" } },
+            questAccepted = { "Find out what is there before deciding what you expect it to mean." },
+            learned = { "Knowledge is useful. So is remembering who taught you, and what they chose afterward." },
+            loot = { "An object may preserve an association long after the people have parted." },
+            combatStart = { "Attend to the enemy. Speculation can wait." },
+            combatEnd = { "Now examine what happened. Survival does not make every decision a sound one." },
+            rest = { "A pause, then. You may offer an opinion. I reserve the right to disagree." },
+        },
+    },
+
     -- Hewa <Cloth Armor Merchant>, lower rise, Thunder Bluff. Adult Tauren
     -- male, display7622/M2 968705, Horde Friendly. Classic cloth stock;
     -- current own four tabs zero, no own installed gossip. No Legion event.

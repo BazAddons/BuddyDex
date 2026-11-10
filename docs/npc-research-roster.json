@@ -2331,5 +2331,26 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed unique adult city identity, current Horde Friendly/model fields, complete available quest/service tabs, Classic stock and installed gossip search; no Scout sighting claimed",
     "research_notes": "docs/research/thunder-bluff-cloth-weaving-and-bags.md"
+  },
+  {
+    "npc_id": 4554,
+    "name": "Tawny Grisette",
+    "zone": "Undercity",
+    "source": "Reviewed unique adult Forsaken, current Horde Friendly/model fields, complete available own/linked chains, stock and installed/public dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/undercity-fungus-supplies-and-old-friendships.md"
+  },
+  {
+    "npc_id": 4556,
+    "name": "Gordon Wendham",
+    "zone": "Undercity",
+    "source": "Reviewed unique adult Forsaken, current Horde Friendly/model fields, complete available own/linked chains, stock and installed/public dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/undercity-fungus-supplies-and-old-friendships.md"
+  },
+  {
+    "npc_id": 1498,
+    "name": "Bethor Iceshard",
+    "zone": "Undercity",
+    "source": "Reviewed unique adult Forsaken, current Horde Friendly/model fields, complete available own/linked chains, stock and installed/public dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/undercity-fungus-supplies-and-old-friendships.md"
   }
 ]

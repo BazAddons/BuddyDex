@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 233,
     "unverified": 134,
-    "horde": 184
+    "horde": 187
   },
   "npc_race_counts": {
     "1": 165,
     "3": 41,
     "7": 33,
     "2": 64,
-    "5": 54,
+    "5": 57,
     "4": 34,
     "8": 40,
     "9": 26,
@@ -30,6 +30,7 @@
     "Ironforge": 40,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 35,
+    "Undercity": 11,
     "Silverpine Forest": 7,
     "Teldrassil": 11,
     "Hillsbrad Foothills": 3,
@@ -45,7 +46,6 @@
     "Stonetalon Mountains": 6,
     "Darnassus": 7,
     "Thousand Needles": 6,
-    "Undercity": 8,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
     "Feralas": 2,
@@ -1549,6 +1549,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1496"
+    },
+    {
+      "npc_id": 1498,
+      "name": "Bethor Iceshard",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1498"
     },
     {
       "npc_id": 1518,
@@ -4035,6 +4048,32 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4552"
+    },
+    {
+      "npc_id": 4554,
+      "name": "Tawny Grisette",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4554"
+    },
+    {
+      "npc_id": 4556,
+      "name": "Gordon Wendham",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4556"
     },
     {
       "npc_id": 4565,
@@ -6898,6 +6937,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 538,
-  "awaiting_signature_audio_profiles": 84
+  "authored_profiles": 541,
+  "awaiting_signature_audio_profiles": 87
 }

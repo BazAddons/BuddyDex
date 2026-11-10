@@ -2002,6 +2002,27 @@
       "zone": "Thunder Bluff",
       "route": "Horde Tauren male/female capital-city craft and trade contacts",
       "reason": "Full adult Tauren profile with fifteen queued personal lines; current stock uncertainty retained, city coverage separate from starter milestones, ordinary live gates unchanged, no synthesis"
+    },
+    {
+      "npc_id": 4554,
+      "name": "Tawny Grisette",
+      "zone": "Undercity",
+      "route": "Horde Forsaken Trade Quarter and Magic Quarter city coverage",
+      "reason": "Full adult profile with fifteen queued personal lines; original friendships grounded in current roles and full relevant quest chains, city/starter distinction and ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 4556,
+      "name": "Gordon Wendham",
+      "zone": "Undercity",
+      "route": "Horde Forsaken Trade Quarter and Magic Quarter city coverage",
+      "reason": "Full adult profile with fifteen queued personal lines; original friendships grounded in current roles and full relevant quest chains, city/starter distinction and ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 1498,
+      "name": "Bethor Iceshard",
+      "zone": "Undercity",
+      "route": "Horde Forsaken Trade Quarter and Magic Quarter city coverage",
+      "reason": "Full adult profile with fifteen queued personal lines; original friendships grounded in current roles and full relevant quest chains, city/starter distinction and ordinary live gates retained, no synthesis"
     }
   ]
 }

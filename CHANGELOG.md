@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tawny Grisette, Gordon Wendham and Bethor Iceshard: three complete Forsaken profiles in Undercity, with forty-five personal lines queued.
+- Ground Gordon in the Sepulcher supply chain and Bethor in the full Gunther, Thule and Woven Wand stories, with distinct original friendship writing and normal character-specific unlocks.
+
 - Add Hewa, Tand and Pakwa: three full adult Tauren profiles in Thunder Bluff, with forty-five personal lines queued.
 - Give the cloth merchant, basket weaver and bag vendor distinct friendship stories while preserving current service uncertainty and normal character-specific unlocks.
 

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tawny Grisette, Gordon Wendham and Bethor Iceshard: three complete Forsaken profiles in Undercity, with forty-five personal lines queued.
+- Ground Gordon in the Sepulcher supply chain and Bethor in the full Gunther, Thule and Woven Wand stories, with distinct original friendship writing and normal character-specific unlocks.
+
 - Add Hewa, Tand and Pakwa: three full adult Tauren profiles in Thunder Bluff, with forty-five personal lines queued.
 - Give the cloth merchant, basket weaver and bag vendor distinct friendship stories while preserving current service uncertainty and normal character-specific unlocks.
 
@@ -93,4 +96,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **538 fully written NPC profiles**: 454 have initial signature recordings, and eighty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **541 fully written NPC profiles**: 454 have initial signature recordings, and eighty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
