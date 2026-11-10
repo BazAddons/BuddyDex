@@ -41,6 +41,110 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Grizzek <General Goods>, Riverglades. Adult Goblin male255895/
+    -- display145179/M2 119376, Horde Friendly. Current Vendor/23stock
+    -- rows and welcoming installed gossip; no own quests. No merger with
+    -- later Grizzek Fizwrench. Grand errand titles are original writing.
+    -- Research: docs/research/riverglades-and-raceway-supplies.md
+    [255895] = {
+        quote = "An ordinary errand is an adventure that hasn't had a proper title yet.",
+        likes = { "A well-prepared departure", "Grand names for small errands", "Customers with a story" },
+        dislikes = { "An errand declared boring in advance", "Supplies forgotten until departure", "A story stopped at the price" },
+        gossip = "Grizzek can make fetching water sound like a voyage of discovery. His customers sometimes forget it was only water.",
+        bio = "Grizzek sells general goods in Riverglades. Bags, drinks and travel supplies are his business. His welcome is brisk and cheerful; a customer with a plain shopping list may leave with a much grander name for the outing.",
+        backstory = "Answering the same small questions began to weary him. So he gave his own errands increasingly magnificent titles. The work stayed much the same. He found he minded it considerably less.",
+        secret = "His private list of adventures includes taking an unfamiliar path and finishing a morning without talking business. He has heroic titles for both.",
+        bestFriend = "What shall we call today's expedition? You can choose. I have been naming things all morning.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys a little enthusiasm for a grandly announced departure.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "The expedition begins! Yes, even if we are only going for a walk.", tone = "[bright] [playful]" }, "Hey, hey! A familiar customer becomes traveling company. I like it." },
+            idle = { { "The Great Procurement of Water. A stirring tale, if properly told.", tone = "[playful]" }, "We need not do anything expensive for this to count as an adventure.", "Give an errand a good title. It travels better." },
+            befriended = { { "Today I am coming for the company. No shopping list required.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Does this interruption have a suitably grand title?", "I was considering our next chapter. What is yours?" },
+            loot = { { "Supplies secured! That is the practical chapter of every great tale.", tone = "[pleased]" } },
+            bagsFull = { "A heroic quantity of belongings. A less heroic amount of space." },
+            mail = { "Correspondence! Perhaps our expedition has acquired a chronicler." },
+            zone = { "A fresh setting. Let us not waste it on a dull introduction." },
+            hearth = { "The Triumphant Return. We can leave out the part about the wrong turn." },
+            questAccepted = { "A purpose! Excellent. I shall try not to improve its name too much." },
+            rest = { "An interval of strategic leisure. You may call it a break." },
+        },
+    },
+
+    -- Krix <Superior Fisherman>, Powderfuse Port, Riverglades. Adult
+    -- Goblin male260558/display142468/M2 119376, Horde Friendly. Current
+    -- Trainer flag, sparse teaching rows; installed instruction and generic
+    -- Nat Pagle referral. No friendship-granted fishing skill or Fish Bowl.
+    -- Quiet lesson endings and fishless pond idea are original writing.
+    -- Research: docs/research/riverglades-and-raceway-supplies.md
+    [260558] = {
+        quote = "No fish yet? You've learned to wait without shouting. That's progress.",
+        likes = { "Patient students", "Unhurried time by the water", "A smile without a question" },
+        dislikes = { "Splashing beside a waiting line", "Every quiet moment priced", "Catch counts used as insults" },
+        gossip = "Krix can make a lesson without a catch sound worthwhile. People suspect he rather enjoys the quiet himself.",
+        bio = "Krix is a goblin Superior Fisherman at Powderfuse Port in Riverglades. He offers fishing instruction and knows when a learner needs guidance beyond his own. He sees patience as something to practice, not merely praise.",
+        backstory = "He noticed that some learners stayed beside the water after they had finished fishing. They were not waiting for another lesson. He began leaving a little quiet at the end, without asking them to explain it.",
+        secret = "He likes the idea of a pond with no fish at all. Then everyone could sit beside it without pretending to be busy. He is not proposing to build one. Yet.",
+        bestFriend = "We can stay a moment longer. You needn't tell me what you hope to catch, or hope to catch anything.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He appreciates an easy moment without another demand.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "I will come. A change of company can be as good as a change of bait.", tone = "[easygoing] [warm]" }, "Good to see you. We need not rush off this instant." },
+            idle = { { "A pond with no fish. Think of all the uninterrupted sitting.", tone = "[wry] [thoughtful]" }, "There is more than one reason to stay beside the water.", "No need to count this moment. We can simply have it." },
+            befriended = { { "I am pleased you asked me along. We can enjoy the company without calling it a lesson.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was not asleep. Just unoccupied.", "I am listening. There is time." },
+            learned = { { "A useful skill. Give yourself time to become comfortable with it.", tone = "[encouraging]" } },
+            loot = { "A catch is welcome. A quiet spell without one is not a defeat." },
+            rest = { "Sit a while if you like. Nobody needs a reason for you." },
+            zone = { "We can find something worth noticing without hurrying past it." },
+            levelUp = { "Progress. Enjoy it before counting the next step." },
+            combatEnd = { "Let things settle before you hurry on." },
+            comforted = { "Thank you. That was kindly done." },
+        },
+    },
+
+    -- Jinky Twizzlefixxit <Engineering Supplies>, Mirage Raceway, Thousand
+    -- Needles. Adult Gnome female6730/display5425/M2 940356, current Horde
+    -- Friendly. Twelve current vendor rows vs fourteen Classic, no own
+    -- quests or installed gossip. Not later speedbarge NPC40475. Fascination
+    -- with race fastenings and slow racers is original character writing.
+    -- Research: docs/research/riverglades-and-raceway-supplies.md
+    [6730] = {
+        quote = "A part that stays put deserves a little applause.",
+        likes = { "Fastenings that hold", "Careful workmanship", "Time to inspect the details" },
+        dislikes = { "Speed before sound construction", "Useful parts dismissed as dull", "A finish too quick to examine" },
+        gossip = "Jinky can miss a race finish while admiring a wheel fastening. She considers this a perfectly reasonable use of her eyes.",
+        bio = "Jinky Twizzlefixxit sells engineering supplies at Mirage Raceway in Thousand Needles. Powder, stocks, tools and schematics are her trade. Amid the racing excitement, she has an eye for the ordinary parts that make a clever design useful.",
+        backstory = "Watching races, she found herself studying the small details instead of the order of the vehicles. A neat fastening could hold her attention longer than a brilliant start. She stopped apologizing for that.",
+        secret = "She sometimes roots for the slowest racer. It gives her longer to admire the workmanship as it goes past. She insists this is a respectable reason.",
+        bestFriend = "Watch the finish for me. I will tell you what I liked about the wheels. Between us, we may see the whole race.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "She likes useful work getting its share of appreciation.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "I will come. Try not to hurry past all the interesting details.", tone = "[bright] [curious]" }, "Good company, and perhaps something worth a closer look." },
+            idle = { { "A fine fastening. You were looking at something else, were you?", tone = "[pleased] [wry]" }, "The slow one gives you longer to admire it. That is an advantage.", "I did see the finish. Approximately." },
+            befriended = { { "You make room for what interests me. I am happy to make room for your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was looking at how that was put together.", "You have my attention. For the moment." },
+            gear = { { "A little workmanship worth noticing there. Look closely.", tone = "[interested]" } },
+            learned = { "Understand the ordinary steps. They hold the clever ones together." },
+            loot = { "Small parts can make a large difference. Mind where you put them." },
+            bagsFull = { "A place for everything would help. Having a place left would help more." },
+            mount = { "A different kind of motion. Still worth watching carefully." },
+            cheerAlong = { "A little appreciation for something that worked properly!" },
+            rest = { "Time for a closer look, without missing where we are going." },
+        },
+    },
+
     -- Ayanna Everstride <Hunter Trainer>, Aldrassil, Shadowglen, Teldrassil.
     -- Adult Night Elf female3596/display1723/M2 921844, Alliance Friendly.
     -- Etched Sigil/book and full Hunter Path/Dazalar/Jocaste chain read.

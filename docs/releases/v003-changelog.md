@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Grizzek, Krix and Jinky Twizzlefixxit: three full profiles across Riverglades and Mirage Raceway, with forty-five personal lines queued.
+- Expand Goblin and female Gnome travel contacts with distinct personalities, researched service roles, and ordinary character-specific friendship rewards.
+
 - Add Ayanna Everstride and Sentinel Kyra Starsong: full profiles along the Night Elf starting route, with thirty personal lines queued.
 - Ground their stories in hunter training and Forever's sentinel quests, preserving the difference between a successful rescue and relief without a confirmed cure.
 
@@ -75,4 +78,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **522 fully written NPC profiles**: 454 have initial signature recordings, and sixty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **525 fully written NPC profiles**: 454 have initial signature recordings, and seventy-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

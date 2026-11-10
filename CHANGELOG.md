@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Grizzek, Krix and Jinky Twizzlefixxit: three full profiles across Riverglades and Mirage Raceway, with forty-five personal lines queued.
+- Expand Goblin and female Gnome travel contacts with distinct personalities, researched service roles, and ordinary character-specific friendship rewards.
+
 - Add Ayanna Everstride and Sentinel Kyra Starsong: full profiles along the Night Elf starting route, with thirty personal lines queued.
 - Ground their stories in hunter training and Forever's sentinel quests, preserving the difference between a successful rescue and relief without a confirmed cure.
 

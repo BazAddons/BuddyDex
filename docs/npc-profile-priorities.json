@@ -1890,6 +1890,27 @@
       "zone": "Teldrassil",
       "route": "Night Elf female Shadowglen-Dolanaar starting route",
       "reason": "Complete researched adult profile and fifteen queued Night Elf female lines; normal live gates and quest outcome limits retained, no synthesis"
+    },
+    {
+      "npc_id": 255895,
+      "name": "Grizzek",
+      "zone": "Riverglades",
+      "route": "Riverglades Goblin and Mirage Raceway Gnome travel/service rotation",
+      "reason": "Complete adult profile and fifteen approved-voice lines queued; current stock/teaching/faction gaps preserved, later travel not a starting milestone, no synthesis"
+    },
+    {
+      "npc_id": 260558,
+      "name": "Krix",
+      "zone": "Riverglades",
+      "route": "Riverglades Goblin and Mirage Raceway Gnome travel/service rotation",
+      "reason": "Complete adult profile and fifteen approved-voice lines queued; current stock/teaching/faction gaps preserved, later travel not a starting milestone, no synthesis"
+    },
+    {
+      "npc_id": 6730,
+      "name": "Jinky Twizzlefixxit",
+      "zone": "Thousand Needles",
+      "route": "Riverglades Goblin and Mirage Raceway Gnome travel/service rotation",
+      "reason": "Complete adult profile and fifteen approved-voice lines queued; current stock/teaching/faction gaps preserved, later travel not a starting milestone, no synthesis"
     }
   ]
 }

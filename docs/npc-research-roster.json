@@ -2219,5 +2219,26 @@
     "zone": "Teldrassil",
     "source": "Reviewed current adult model/Friendly access, complete own tabs, Classic hunter/book or Council context and full Forever runner/escort text; no claimed Scout sighting",
     "research_notes": "docs/research/shadowglen-hunter-and-dolanaar-sentinel.md"
+  },
+  {
+    "npc_id": 255895,
+    "name": "Grizzek",
+    "zone": "Riverglades",
+    "source": "Reviewed current adult body, explicit Horde Friendly field, complete own stock/trainer/quest tabs and available Classic/installed role text; no claimed Scout sighting",
+    "research_notes": "docs/research/riverglades-and-raceway-supplies.md"
+  },
+  {
+    "npc_id": 260558,
+    "name": "Krix",
+    "zone": "Riverglades",
+    "source": "Reviewed current adult body, explicit Horde Friendly field, complete own stock/trainer/quest tabs and available Classic/installed role text; no claimed Scout sighting",
+    "research_notes": "docs/research/riverglades-and-raceway-supplies.md"
+  },
+  {
+    "npc_id": 6730,
+    "name": "Jinky Twizzlefixxit",
+    "zone": "Thousand Needles",
+    "source": "Reviewed current adult body, explicit Horde Friendly field, complete own stock/trainer/quest tabs and available Classic/installed role text; no claimed Scout sighting",
+    "research_notes": "docs/research/riverglades-and-raceway-supplies.md"
   }
 ]

@@ -5,17 +5,17 @@
   "faction_counts": {
     "alliance": 226,
     "unverified": 134,
-    "horde": 171
+    "horde": 174
   },
   "npc_race_counts": {
     "1": 165,
     "3": 39,
-    "7": 31,
+    "7": 32,
     "2": 64,
     "5": 51,
     "4": 34,
     "8": 40,
-    "9": 24,
+    "9": 26,
     "6": 59,
     "96": 6,
     "95": 9
@@ -44,7 +44,7 @@
     "Ashenvale": 6,
     "Stonetalon Mountains": 6,
     "Darnassus": 7,
-    "Thousand Needles": 5,
+    "Thousand Needles": 6,
     "Undercity": 8,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
@@ -54,7 +54,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Zephras Isle": 14,
-    "Riverglades": 1
+    "Riverglades": 3
   },
   "entries": [
     {
@@ -4904,6 +4904,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6727"
     },
     {
+      "npc_id": 6730,
+      "name": "Jinky Twizzlefixxit",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly; wider faction access not established by current reaction field",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6730"
+    },
+    {
       "npc_id": 6739,
       "name": "Innkeeper Bates",
       "zone": "Silverpine Forest",
@@ -6420,6 +6433,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255894"
     },
     {
+      "npc_id": 255895,
+      "name": "Grizzek",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly; wider faction access not established by current reaction field",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255895"
+    },
+    {
       "npc_id": 255940,
       "name": "Donaal Downbreeze",
       "zone": "Zephras Isle",
@@ -6512,6 +6538,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/259119"
+    },
+    {
+      "npc_id": 260558,
+      "name": "Krix",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly; wider faction access not established by current reaction field",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260558"
     },
     {
       "npc_id": 266881,
@@ -6686,6 +6725,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 522,
-  "awaiting_signature_audio_profiles": 68
+  "authored_profiles": 525,
+  "awaiting_signature_audio_profiles": 71
 }
