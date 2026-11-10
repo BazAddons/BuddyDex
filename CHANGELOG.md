@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Fendaal Windstone and Agriel Firebrew: shared Skyborne Peacekeeper and Horde-friendly Dwarf host profiles, with thirty personal lines queued.
+- Review patrol/campaign text and hospitality dialogue; preserve faction evidence and document original safe-noise and lookout-view stories.
+
 - Add Laris Geardawdle and Grimble: adult Gnome researcher and Goblin shipmaster profiles, with thirty personal lines queued.
 - Preserve unproven ooze theories and neutral-access limits; document original thank-you rehearsal and gull-audience stories.
 

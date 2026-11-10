@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 326,
+    "alliance": 327,
     "unverified": 160,
-    "horde": 306
+    "horde": 308
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 63,
+    "3": 64,
     "7": 57,
     "2": 82,
     "5": 81,
@@ -18,7 +18,7 @@
     "9": 51,
     "6": 83,
     "96": 23,
-    "95": 30
+    "95": 31
   },
   "zone_counts": {
     "Elwynn Forest": 28,
@@ -29,7 +29,7 @@
     "Loch Modan": 1,
     "Duskwood": 4,
     "Dun Morogh": 21,
-    "Wetlands": 3,
+    "Wetlands": 4,
     "Ironforge": 57,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 52,
+    "Zephras Isle": 53,
     "Riverglades": 10
   },
   "entries": [
@@ -9522,6 +9522,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/264074"
     },
     {
+      "npc_id": 265348,
+      "name": "Agriel Firebrew",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icons on current primary node; no other access inferred",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265348"
+    },
+    {
       "npc_id": 265574,
       "name": "Winklespark",
       "zone": "The Barrens",
@@ -9683,6 +9696,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/272526"
     },
     {
+      "npc_id": 273017,
+      "name": "Fendaal Windstone",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance/Horde Friendly icons on current primary node; no other access inferred",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/273017"
+    },
+    {
       "npc_id": 273065,
       "name": "Ribbly Spinwhistle",
       "zone": "Stormwind City",
@@ -9744,6 +9771,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 759,
-  "awaiting_signature_audio_profiles": 305
+  "authored_profiles": 761,
+  "awaiting_signature_audio_profiles": 307
 }

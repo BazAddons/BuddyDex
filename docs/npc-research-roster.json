@@ -3878,5 +3878,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult unverified man; Current Horde Neutral and two own passage pitches; original gull audience, no access override; no Scout sighting claimed",
     "research_notes": "docs/research/laris-future-thanks-and-grimbles-audience.md"
+  },
+  {
+    "npc_id": 273017,
+    "name": "Fendaal Windstone",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne man; explicit Friendly alliance,horde; Full98512 and immediate campaign context; original safe bread-crust sound; no Scout sighting claimed",
+    "research_notes": "docs/research/fendaals-safe-noise-and-agriels-view.md"
+  },
+  {
+    "npc_id": 265348,
+    "name": "Agriel Firebrew",
+    "zone": "Wetlands",
+    "source": "Reviewed adult Dwarf woman; explicit Friendly horde; Two own greetings and converted outlook; original visitor settling toward the view; no Scout sighting claimed",
+    "research_notes": "docs/research/fendaals-safe-noise-and-agriels-view.md"
   }
 ]

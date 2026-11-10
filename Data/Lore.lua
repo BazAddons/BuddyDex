@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Fendaal Windstone <Peacekeeper>, Zephras Isle. Adult High Order
+    -- Skyborne male147228/M2 7478487, both factions Friendly. Full98512
+    -- acceptance/progress/completion and connected campaign reviewed.
+    -- Pleasure in a bread crust after danger is original texture.
+    -- Research: docs/research/fendaals-safe-noise-and-agriels-view.md
+    [273017] = {
+        quote = "Quiet while there is danger. Afterward, we can appreciate the sort of noise that comes from breaking a fresh loaf.",
+        likes = { "A warning heeded without argument", "A helper returning safely", "The crack of a fresh bread crust" },
+        dislikes = { "A shout giving away a position", "A report that forgets the helper", "A quiet warning mistaken for ceremony" },
+        gossip = "Fendaal is particular about unnecessary noise on a patrol. His opinions on a good bread crust suggest he makes exceptions afterward.",
+        bio = "Fendaal Windstone is a Peacekeeper near the Shen'dar Highlands on Zephras Isle. Finding Al'Aketh assassins around a house, he warns an adventurer to stay low and quiet, asks for help and promises to watch their back.",
+        backstory = "His border patrol brings him upon a threatening group whose purpose he does not know. When the helper returns, he is relieved and promises to mention their aid in his report to Valanaar. Vigilance does not make the danger less real.",
+        secret = "When bread is fresh, he breaks the crust slowly just to hear it crack. It is a small, safe noise he can make for no better reason than pleasure. Not every sound needs to become a warning.",
+        bestFriend = "When we have a safe moment, stay for a bite. I would like to hear a good crust crack without having to tell anyone to be quiet.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a quiet acknowledgment that his warning has been understood.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along. We will keep our wits about us, and find time for a quieter sort of company when we can.", tone = "[watchful] [warm]" }, "Good to see you. Tell me if there is trouble ahead. If there is not, I am glad of that news too." },
+            idle = { { "A fresh crust makes a good sound when you break it. I like having a noise I can enjoy without first deciding where the danger is.", tone = "[quietly pleased] [reflective]" }, "I can tell you what I saw near that house. I will not pretend I knew what they intended before we had evidence.", "If someone helps, their part belongs in the report. A useful name should not disappear behind the word assistance." },
+            befriended = { { "I am glad we can share a little time that is not another urgent warning. Come along, friend. Your company is welcome.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? Keep it low if there may be trouble nearby.", "What have you noticed? I would rather hear it early." },
+            rest = { { "A safe pause. Take it while you can. If there is fresh bread, I shall have no objection to the noise.", tone = "[dry] [at ease]" } },
+            group = { "Make sure everyone heard the warning before anyone moves. Quiet does not help if half the group has misunderstood." },
+            quest = { "Hear the request, then look at the ground for yourself. A report is a beginning, not permission to stop noticing." },
+            newFriend = { "Someone new. Learn their name. We may owe them more than an anonymous line in a report." },
+            thanked = { "You are welcome. I am glad the help was useful and that you are here to say so." },
+            loot = { "Look it over when you can do so safely. There is little sense losing track of the danger while counting what you found." },
+            combatEnd = { "Take a moment and make sure everyone is accounted for. I would like the next report to include a safe return." },
+        },
+    },
+
+    -- Agriel Firebrew, Drunken Dwarf/Wetlands. Adult Dwarf female
+    -- 146540/M2 950080, current Horde Friendly; Alliance access unverified.
+    -- Two own greetings establish converted outlook and no-growth focus.
+    -- Visitor turning a chair toward the view is original writing.
+    -- Research: docs/research/fendaals-safe-noise-and-agriels-view.md
+    [265348] = {
+        quote = "Find yourself a seat and enjoy the view. Just leave us room to pass. A fine welcome gets awkward when we cannot get to the table.",
+        likes = { "Visitors finding their own pace", "A seat turned toward the view", "Good company without a business pitch" },
+        dislikes = { "A comfortable room treated as a deal", "Chairs blocking the way through", "Being hurried to make the place bigger" },
+        gossip = "Agriel has watched a visitor turn a chair toward the view and settle in without another question. She took that as a splendid review.",
+        bio = "Agriel Firebrew runs the Drunken Dwarf in the Wetlands. She describes converting an old outlook the kingdom no longer wished to maintain. Traders now want their wares on the menu, but she values letting folk come as they please.",
+        backstory = "The converted outlook has welcomed visitors for over a year. Growing attention brings offers of brews and food from merchants. She has little interest in turning every arrival into a negotiation; a comfortable place is already a good result.",
+        secret = "She especially likes seeing someone turn a chair toward the view and simply stay. No proposal, no demand for a grander attraction. It tells her the old outlook still has something worth offering.",
+        bestFriend = "Sit a while. You need not tell me how to improve the place. Tell me what you can see from here. I am glad to share it with you.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She enjoys knowing someone is content to be here without asking for a bigger attraction.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Come along. You can tell me what you have seen without trying to sell me a new plan for the place.", tone = "[hearty] [welcoming]" }, "Good company. Leave yourself a little time to enjoy where you are, instead of planning the next stop already." },
+            idle = { { "They turned the chair toward the view and settled in. Not a word about what else I ought to build. I thought that was a fine compliment.", tone = "[contented] [amused]" }, "There is always someone ready to make a bigger arrangement. I would like to hear whether the folk already here are comfortable first.", "A chair can be anywhere comfortable, provided the rest of us can still get past it. Hospitality does need a little room to move." },
+            befriended = { { "You know how to be here without turning the whole visit into a proposal. Come along, friend. I am glad to have your company for its own sake.", tone = "[warm] [sincere]" } },
+            poke = { "What is it? I hope you have brought news rather than another business arrangement.", "Go on. I can listen without promising to put it on the menu." },
+            rest = { { "A little time to sit and look. You need not make the pause earn its keep before enjoying it.", tone = "[settled] [fond]" } },
+            zone = { "Have a look around before asking what else ought to be here. A place deserves that much of a welcome." },
+            newFriend = { "Someone new. Give them room to settle before asking for their whole story." },
+            thanked = { "You are welcome. Good to know you enjoyed being here." },
+            group = { "Leave a way through, all of you. A cheerful gathering is easier to enjoy when nobody has to climb over it." },
+            loot = { "See what you have, then put it somewhere sensible. A good seat is more comfortable without a pile of sharp belongings on it." },
+            mail = { "Another offer, perhaps. Or a friend's news. I know which one I would rather have a little time for." },
+        },
+    },
+
     -- Laris Geardawdle, Library/Hall of Explorers/Ironforge. Adult
     -- Gnome male8829/M2 900914, Alliance Friendly. Full4512/4513 and
     -- five own gossip entries; ooze-origin theory remains unproven.

@@ -3549,6 +3549,20 @@
       "zone": "The Barrens",
       "route": "Ratchet named Shipmaster",
       "reason": "Current Horde Neutral and two own passage pitches; original gull audience, no access override; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 273017,
+      "name": "Fendaal Windstone",
+      "zone": "Zephras Isle",
+      "route": "Shared border patrol and cult-house watch",
+      "reason": "Full98512 and immediate campaign context; original safe bread-crust sound; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 265348,
+      "name": "Agriel Firebrew",
+      "zone": "Wetlands",
+      "route": "Drunken Dwarf hospitality contact",
+      "reason": "Two own greetings and converted outlook; original visitor settling toward the view; fifteen personal lines queued without synthesis"
     }
   ]
 }
