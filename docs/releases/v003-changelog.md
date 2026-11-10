@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Sulhasa and Xai'ander: adult Horde Tauren and Alliance Night Elf profiles, with thirty personal lines queued.
+- Review the complete Forever rescue quest and weaponsmith identity; document original return-path and wire-puzzle stories without new services.
+
 - Add Auctioneer Tricket and Holaan Glenprancer: adult Forsaken and Windshaper Skyborne profiles, with thirty personal lines queued.
 - Verify normal adult bodies and role/access limits; document original pebble performance and shared cloud-shape stories.
 
@@ -453,4 +456,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **767 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **769 fully written NPC profiles**: 454 have initial signature recordings, and three hundred fifteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

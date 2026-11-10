@@ -3934,5 +3934,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult unverified man; Adult Windshaper body and neutral-access limits; original fox/sock cloud scene; no Scout sighting claimed",
     "research_notes": "docs/research/trickets-pebble-and-holaans-cloud.md"
+  },
+  {
+    "npc_id": 14242,
+    "name": "Sulhasa",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde Tauren woman; Full98093; original hope for a pleasant walk and clear return path; no Scout sighting claimed",
+    "research_notes": "docs/research/sulhasas-return-path-and-xaianders-loops.md"
+  },
+  {
+    "npc_id": 11137,
+    "name": "Xai'ander",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult alliance Night Elf man; Current and Classic identity with service limits; original interlocking-wire puzzle; no Scout sighting claimed",
+    "research_notes": "docs/research/sulhasas-return-path-and-xaianders-loops.md"
   }
 ]

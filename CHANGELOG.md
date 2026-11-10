@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sulhasa and Xai'ander: adult Horde Tauren and Alliance Night Elf profiles, with thirty personal lines queued.
+- Review the complete Forever rescue quest and weaponsmith identity; document original return-path and wire-puzzle stories without new services.
+
 - Add Auctioneer Tricket and Holaan Glenprancer: adult Forsaken and Windshaper Skyborne profiles, with thirty personal lines queued.
 - Verify normal adult bodies and role/access limits; document original pebble performance and shared cloud-shape stories.
 

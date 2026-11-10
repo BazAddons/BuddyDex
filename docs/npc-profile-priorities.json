@@ -3605,6 +3605,20 @@
       "zone": "Zephras Isle",
       "route": "Normal-model Nightclaw Druid contact",
       "reason": "Adult Windshaper body and neutral-access limits; original fox/sock cloud scene; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 14242,
+      "name": "Sulhasa",
+      "zone": "The Barrens",
+      "route": "Southern Barrens tree-refuge rescue",
+      "reason": "Full98093; original hope for a pleasant walk and clear return path; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11137,
+      "name": "Xai'ander",
+      "zone": "Ashenvale",
+      "route": "Named Ashenvale Weaponsmith",
+      "reason": "Current and Classic identity with service limits; original interlocking-wire puzzle; fifteen personal lines queued without synthesis"
     }
   ]
 }

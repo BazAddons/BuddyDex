@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 329,
+    "alliance": 330,
     "unverified": 162,
-    "horde": 310
+    "horde": 311
   },
   "npc_race_counts": {
     "1": 167,
@@ -13,10 +13,10 @@
     "7": 57,
     "2": 82,
     "5": 82,
-    "4": 63,
+    "4": 64,
     "8": 60,
     "9": 52,
-    "6": 83,
+    "6": 84,
     "96": 24,
     "95": 31
   },
@@ -44,11 +44,11 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 51,
-    "The Barrens": 39,
+    "The Barrens": 40,
     "Stonetalon Mountains": 11,
     "Darnassus": 13,
     "Burning Steppes": 1,
-    "Ashenvale": 12,
+    "Ashenvale": 13,
     "Thousand Needles": 11,
     "Dustwallow Marsh": 1,
     "Tanaris": 8,
@@ -7854,6 +7854,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11119"
     },
     {
+      "npc_id": 11137,
+      "name": "Xai'ander",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11137"
+    },
+    {
       "npc_id": 11189,
       "name": "Qia",
       "zone": "Winterspring",
@@ -8302,6 +8315,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14041"
+    },
+    {
+      "npc_id": 14242,
+      "name": "Sulhasa",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14242"
     },
     {
       "npc_id": 14363,
@@ -9845,6 +9871,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 767,
-  "awaiting_signature_audio_profiles": 313
+  "authored_profiles": 769,
+  "awaiting_signature_audio_profiles": 315
 }

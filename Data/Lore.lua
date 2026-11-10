@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sulhasa, southern Barrens/Camp Taurajo. Adult Tauren female
+    -- 14306/M2 986648, Horde Friendly. Full98093 including progress/
+    -- completion: pleasant walk, tree refuge, rescued careful descent.
+    -- Her wish for an uneventful next walk is original personality.
+    -- Research: docs/research/sulhasas-return-path-and-xaianders-loops.md
+    [14242] = {
+        quote = "A lovely walk ought to have a lovely way home. I have developed a firmer opinion about the second part.",
+        likes = { "A friendly wave from the road", "Good weather and a clear return path", "A pleasant walk with sensible company" },
+        dislikes = { "An escape route crowded with beasts", "A view she cannot leave when she likes", "Someone hurrying a careful climb" },
+        gossip = "Sulhasa's idea of a lovely morning walk now includes a particularly firm opinion about how easily one can get home afterward.",
+        bio = "Sulhasa is a tauren from Camp Taurajo. A fine morning takes her down the Golden Road, but hyenas and Stormhide lizards cut off her return. From a tree in the southern Barrens, she asks a passing adventurer to clear a way out.",
+        backstory = "She climbs to escape circling beasts, then finds too many enemies below to run for home. Help allows her to make a careful descent. She promises Camp Taurajo will hear of the rescue, grateful she need not remain aloft all day.",
+        secret = "She still wants another lovely morning walk. Coming home with nothing to report but the weather would be a thoroughly satisfactory ending, as far as she is concerned.",
+        bestFriend = "Come along. I would like to enjoy the good weather with you. We can appreciate the path ahead and remember to look at the way home.",
+        favorite = {
+            emote = "WAVE",
+            hint = "She appreciates knowing that someone on the road has noticed her and is willing to answer.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Come along. I would like a pleasant walk with company and a sensible way home at the end of it.", tone = "[warm] [hopeful]" }, "Good to see you. The weather is worth enjoying. Let us make sure the path is worth taking too." },
+            idle = { { "A lovely morning, a pleasant walk, and then a tree I could not conveniently leave. I have become more particular about how a good outing ought to finish.", tone = "[wry] [gentle]" }, "I still like a fine morning. I should simply prefer to admire the view from somewhere I can leave when I choose.", "Getting home with nothing to tell but the weather sounds like a very satisfactory story to me." },
+            befriended = { { "I am glad to have company for more than an urgent call for help. Come along, friend. Let us enjoy a little of the day together.", tone = "[sincere] [fond]" } },
+            poke = { "Yes? Have you noticed something on the path?", "Go on. I am listening. I have learned to appreciate a useful warning." },
+            rest = { { "A comfortable pause. It is especially pleasant when you may choose to get up again whenever you like.", tone = "[settled] [lightly amused]" } },
+            zone = { "Have a look at the way ahead, and remember the way back. Both can be part of enjoying a new place." },
+            newFriend = { "Someone new. A friendly greeting is a good beginning. It is a comfort to know who has noticed you." },
+            thanked = { "You are welcome. I am glad we could make the journey easier for someone." },
+            quest = { "Hear what is keeping them from getting home. A little help in the right place can change the whole day." },
+            group = { "Let us make certain the path is clear for everyone before we decide the walk is easy." },
+            combatEnd = { "A good moment to find our footing and look for the safer path. We need not hurry into the next difficulty." },
+        },
+    },
+
+    -- Xai'ander <Weaponsmith>, Ashenvale. Adult Night Elf
+    -- male10636/M2 974343, Alliance Friendly. No own linked quests/gossip
+    -- or current player profession service established.
+    -- Two-wire-loop puzzle and private delight are original writing.
+    -- Research: docs/research/sulhasas-return-path-and-xaianders-loops.md
+    [11137] = {
+        quote = "I made the wire loops, and still had to turn them three times to see the answer. An honest little puzzle.",
+        likes = { "Patient hands finding a simple answer", "A small piece of work enjoyed carefully", "An explanation that leaves room to try" },
+        dislikes = { "Force used where attention would serve", "A puzzle spoiled before the first attempt", "An ordinary success dismissed as too small" },
+        gossip = "Xai'ander has spent some time puzzling over two wire loops he made himself. He says knowing the maker does not always reveal the answer.",
+        bio = "Xai'ander is a night elf weaponsmith in Ashenvale. He takes pleasure in a small piece of work that asks for patient attention. An idle pair of wire loops can hold his interest even after he has made them himself.",
+        backstory = "He bent two loops into a simple puzzle, then discovered he could not immediately remember the turn that freed them. A quiet attempt revealed the answer. He enjoyed the moment more than an effortless demonstration would have allowed.",
+        secret = "He likes the pause just before someone works the loops free. For a moment he can share their discovery without improving it, explaining it or reaching over to finish the work himself.",
+        bestFriend = "Come along. Tell me what you have worked out today. A small answer can be worth sharing, particularly with someone pleased to hear it.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates the quiet moment when someone understands and is ready to try for themselves.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what has occupied your attention today. I may have spent too long being defeated by my own wire loops.", tone = "[calm] [dryly amused]" }, "Good company. We can leave a little room in the conversation for something neither of us has worked out yet." },
+            idle = { { "I made the loops. That did not prevent me turning them the wrong way twice. I was pleased when the answer came, which may have improved the whole little exercise.", tone = "[thoughtful] [wry]" }, "There is a useful pause before someone finds the answer. I try not to fill it with my explanation simply because I have one ready.", "A small success deserves its moment. It need not become a grand accomplishment before someone is allowed to enjoy it." },
+            befriended = { { "Your company has become a pleasure that needs no finished piece of work to account for it. Come along, friend. I am glad to share the time.", tone = "[steady] [warm]" } },
+            poke = { "Yes? Let me hear what you have noticed before I offer my explanation.", "Go on. If there is a small puzzle involved, I should like a moment to consider it." },
+            learned = { { "Good. Keep the moment in which you understood it. You need not hurry to the next difficulty before enjoying this one.", tone = "[encouraging] [measured]" } },
+            gear = { "Give it a proper look. Careful attention is useful before deciding that something needs a more forceful answer." },
+            loot = { "Look at what you have found before sorting it by the first name that comes to mind." },
+            rest = { "A little time away from the work. If a small question follows us, it can wait until we choose to take it up." },
+            newFriend = { "Someone new. Let them tell us how they see it. A different starting point can be useful company." },
+            thanked = { "You are welcome. I am pleased there was something useful to share." },
+            quest = { "Understand the request before deciding you have the answer. That first quiet moment may save a good deal of unnecessary work." },
+        },
+    },
+
     -- Auctioneer Tricket, Undercity. Adult Forsaken female15783/
     -- M2 997378, Horde Friendly, Auctioneer service. No own quests/gossip.
     -- Grand ordinary-pebble description is original, no auction change.
