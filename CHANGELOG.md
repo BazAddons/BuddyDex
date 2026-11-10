@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Laris Geardawdle and Grimble: adult Gnome researcher and Goblin shipmaster profiles, with thirty personal lines queued.
+- Preserve unproven ooze theories and neutral-access limits; document original thank-you rehearsal and gull-audience stories.
+
 - Add Gubber Blump and Uthrok: adult Alliance Dwarf and Horde Orc profiles in Auberdine and the Crossroads, with thirty personal lines queued.
 - Review complete fishing quests and letter evidence alongside current bowyer stock; document original recipe conversation and pouch wordplay.
 

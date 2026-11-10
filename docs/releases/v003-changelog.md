@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Laris Geardawdle and Grimble: adult Gnome researcher and Goblin shipmaster profiles, with thirty personal lines queued.
+- Preserve unproven ooze theories and neutral-access limits; document original thank-you rehearsal and gull-audience stories.
+
 - Add Gubber Blump and Uthrok: adult Alliance Dwarf and Horde Orc profiles in Auberdine and the Crossroads, with thirty personal lines queued.
 - Review complete fishing quests and letter evidence alongside current bowyer stock; document original recipe conversation and pouch wordplay.
 
@@ -438,4 +441,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **757 fully written NPC profiles**: 454 have initial signature recordings, and three hundred three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **759 fully written NPC profiles**: 454 have initial signature recordings, and three hundred five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

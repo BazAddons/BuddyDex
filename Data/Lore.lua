@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Laris Geardawdle, Library/Hall of Explorers/Ironforge. Adult
+    -- Gnome male8829/M2 900914, Alliance Friendly. Full4512/4513 and
+    -- five own gossip entries; ooze-origin theory remains unproven.
+    -- Rehearsing a future thank-you speech is original writing.
+    -- Research: docs/research/laris-future-thanks-and-grimbles-audience.md
+    [9616] = {
+        quote = "If I ever have a discovery to announce, remind me who helped me reach it. I have been practicing that part already.",
+        likes = { "A sample that tests his theory", "A helper remembered in the thanks", "An astonishing connection worth checking" },
+        dislikes = { "A guess presented as a proven result", "A sample's surroundings ignored", "Gnomish work dismissed before examination" },
+        gossip = "Laris has practiced announcing a discovery he has yet to make. Most of the speech was about the people he would need to thank.",
+        bio = "Laris Geardawdle studies oozes in Ironforge. Curious about their origins, he seeks Felwood specimens and samples free of outside corruption. He hopes his work can earn respect for gnomish science, but his grand theory remains unproven.",
+        backstory = "Helping recover a woman's bag in Menethil and seeing apothecaries gather ooze sharpened his questions. Corrupted specimens led him to seek an untouched environment. His search needs better evidence, not just another clever explanation.",
+        secret = "He has worked out more of his future thanks than his future announcement. He can imagine being celebrated, but cannot bear to picture a speech that forgets the people who helped.",
+        bestFriend = "If I ever make that announcement, stand where I can see you. I may lose my place. You will remind me of the important part.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He treasures encouragement for work that still has much to prove.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. I have questions, a few promising connections and no final announcement. The thanks are progressing rather well, though.", tone = "[bright] [eager]" }, "Good to see you. Tell me what you noticed. An awkward observation may be exactly what the explanation needs." },
+            idle = { { "I practiced what I might say if the work succeeds. I reached the people I ought to thank and never quite returned to the discovery. There were rather a lot of them.", tone = "[animated] [fondly embarrassed]" }, "Oozes seem to reflect their surroundings. That makes the place a sample came from part of the question, not an incidental detail.", "It is a theory. I should like it to be an important one. Those are two separate statements until the evidence catches up." },
+            befriended = { { "Your help deserves more than a place in some future speech. Come along, friend. I would like your company while the questions are still questions.", tone = "[earnest] [warm]" } },
+            poke = { "Yes? Is that an observation, or a question? I have room for either.", "Go on. If I have started explaining before you finish, you may remind me." },
+            learned = { { "Good. Now ask what would show that you had misunderstood. That can be a remarkably useful next lesson.", tone = "[thoughtful] [encouraging]" } },
+            loot = { "Notice where you found it. A thing separated from its surroundings may leave you with half an explanation." },
+            quest = { "Please keep the request and the evidence straight. A confident return is not the same as the sample we needed." },
+            newFriend = { "Someone new. I ought to learn their name before I begin explaining why their observation might be useful." },
+            thanked = { "You are welcome. It matters that we remember whose work helped us get this far." },
+            rest = { "A pause. I may use it to think, but you need not regard that as a requirement to keep supplying me with answers." },
+            group = { "Let us hear what everyone observed before agreeing which explanation sounds most impressive." },
+        },
+    },
+
+    -- Grimble <Shipmaster>, Ratchet/Barrens. Adult Goblin male8846/
+    -- M2 119376, current Horde Neutral, positive faction access unverified.
+    -- Two own Maiden's Fancy pitch captures; no own linked quests.
+    -- Failed pitch to a gull is original; no passage or access override.
+    -- Research: docs/research/laris-future-thanks-and-grimbles-audience.md
+    [9558] = {
+        quote = "Finest passenger ship on these waters. I tried telling a gull that. It had a cheaper arrangement and flew away.",
+        likes = { "A traveler ready for the crossing", "A good audience for a polished pitch", "A joke that survives a poor reception" },
+        dislikes = { "An introduction drowned out by squawking", "Someone climbing aboard carelessly", "A splendid pitch met with indifference" },
+        gossip = "Grimble once delivered his finest passenger pitch to a gull. It left halfway through. He maintains it had already arranged passage.",
+        bio = "Grimble is Ratchet's goblin shipmaster. He directs travelers to the Maiden's Fancy for passage across the Great Sea toward Stranglethorn and Booty Bay. He makes the journey sound splendid before anyone has boarded.",
+        backstory = "A quiet stretch at the berth gave him time to polish his welcome. A gull was the only audience available. He described a magnificent crossing; it squawked, spread its wings and left. He had to concede it knew another way across.",
+        secret = "He retells the failed gull pitch to familiar travelers. A laugh is a better response than he received the first time, and he enjoys having an audience that stays for the ending.",
+        bestFriend = "Come along. You may interrupt the pitch when you recognize it. Preferably with a better joke than that gull managed.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates an audience that catches the joke as well as the sales pitch.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. You already know my finest pitch, so we can begin with the part where you tell me something worth hearing.", tone = "[brisk] [amiable]" }, "Good company. At last, an audience that is unlikely to squawk and fly away halfway through the introduction." },
+            idle = { { "I offered that gull a magnificent description of passage over the sea. It flew off. A cheaper arrangement, obviously. No appreciation for the presentation.", tone = "[showman] [wry]" }, "A good welcome should make a traveler look forward to arriving. Ideally without making them forget to watch where they are stepping.", "The Maiden's Fancy can carry a good many stories across the sea. I enjoy hearing which ones people bring back." },
+            befriended = { { "A familiar face that stays for the ending. Come along, friend. I would rather hear your next story than rehearse mine at another gull.", tone = "[warm] [playful]" } },
+            poke = { "Yes? You have my attention. The gull never managed to keep it for this long.", "Go on. I can make room between the introduction and the magnificent description." },
+            zone = { { "New surroundings. Give them a look before deciding how you would describe them to someone who has never been here.", tone = "[interested] [upbeat]" } },
+            rest = { "A little time before the next departure is useful. You can tell me what I ought to hear before I start talking again." },
+            newFriend = { "Someone new. Let me try a shorter introduction. I would like to hear theirs before we are both ready to leave." },
+            thanked = { "You are welcome. A satisfied traveler is a far better audience than a gull." },
+            mail = { "News from somewhere else. Read it before deciding that the place was exactly as you imagined." },
+            group = { "Make room for the next person. Even the finest introduction needs to leave a little space." },
+            loot = { "Mind what you have brought with you. A splendid arrival is improved by still having your belongings." },
+        },
+    },
+
     -- Gubber Blump, Auberdine/Darkshore. Adult Dwarf male9550/M2
     -- 878772, Alliance Friendly. Full1138/1141 + own greetings reviewed;
     -- grouper, crab, family pole and cousin Graun established.

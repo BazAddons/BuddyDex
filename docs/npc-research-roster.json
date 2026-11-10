@@ -3864,5 +3864,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde man; Eleven current goods; original larger small shot pouch wordplay; no Scout sighting claimed",
     "research_notes": "docs/research/gubbers-next-dish-and-uthroks-pouch.md"
+  },
+  {
+    "npc_id": 9616,
+    "name": "Laris Geardawdle",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Full4512/4513 and five own gossip entries; original future thank-you speech; no Scout sighting claimed",
+    "research_notes": "docs/research/laris-future-thanks-and-grimbles-audience.md"
+  },
+  {
+    "npc_id": 9558,
+    "name": "Grimble",
+    "zone": "The Barrens",
+    "source": "Reviewed adult unverified man; Current Horde Neutral and two own passage pitches; original gull audience, no access override; no Scout sighting claimed",
+    "research_notes": "docs/research/laris-future-thanks-and-grimbles-audience.md"
   }
 ]

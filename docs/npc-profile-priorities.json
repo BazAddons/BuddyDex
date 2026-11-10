@@ -3535,6 +3535,20 @@
       "zone": "The Barrens",
       "route": "Crossroads bowyer gunsmith and repairs",
       "reason": "Eleven current goods; original larger small shot pouch wordplay; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9616,
+      "name": "Laris Geardawdle",
+      "zone": "Ironforge",
+      "route": "Hall of Explorers ooze researcher",
+      "reason": "Full4512/4513 and five own gossip entries; original future thank-you speech; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9558,
+      "name": "Grimble",
+      "zone": "The Barrens",
+      "route": "Ratchet named Shipmaster",
+      "reason": "Current Horde Neutral and two own passage pitches; original gull audience, no access override; fifteen personal lines queued without synthesis"
     }
   ]
 }

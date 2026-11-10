@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 325,
-    "unverified": 159,
+    "alliance": 326,
+    "unverified": 160,
     "horde": 306
   },
   "npc_race_counts": {
     "1": 167,
     "3": 63,
-    "7": 56,
+    "7": 57,
     "2": 82,
     "5": 81,
     "4": 63,
     "8": 59,
-    "9": 50,
+    "9": 51,
     "6": 83,
     "96": 23,
     "95": 30
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 3,
-    "Ironforge": 56,
+    "Ironforge": 57,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
     "Undercity": 16,
@@ -44,7 +44,7 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 51,
-    "The Barrens": 38,
+    "The Barrens": 39,
     "Stonetalon Mountains": 11,
     "Darnassus": 13,
     "Burning Steppes": 1,
@@ -7325,6 +7325,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9555"
     },
     {
+      "npc_id": 9558,
+      "name": "Grimble",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9558"
+    },
+    {
       "npc_id": 9559,
       "name": "Grizzlowe",
       "zone": "Stranglethorn Vale",
@@ -7347,6 +7358,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9564"
+    },
+    {
+      "npc_id": 9616,
+      "name": "Laris Geardawdle",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9616"
     },
     {
       "npc_id": 9706,
@@ -9720,6 +9744,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 757,
-  "awaiting_signature_audio_profiles": 303
+  "authored_profiles": 759,
+  "awaiting_signature_audio_profiles": 305
 }
