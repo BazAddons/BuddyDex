@@ -3787,5 +3787,19 @@
     "zone": "Winterspring",
     "source": "Reviewed adult Horde Goblin man; Stable identity and cold setting, modern pet/SoD extras excluded; original blanket for shivering owner; no Scout sighting claimed",
     "research_notes": "docs/research/cogs-plan-and-azzlebys-blanket.md"
+  },
+  {
+    "npc_id": 11041,
+    "name": "Milla Fairancora",
+    "zone": "Darnassus",
+    "source": "Reviewed adult Alliance Night Elf woman; Own welcoming/forest-bounty/referral greetings and historical lessons; original memorable-fragrance wordplay; no Scout sighting claimed",
+    "research_notes": "docs/research/millas-description-and-elus-homeward-view.md"
+  },
+  {
+    "npc_id": 10377,
+    "name": "Elu",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult Horde Tauren man; Full Wind Rider task, still awaiting training; original hoped-for view of home from above; no Scout sighting claimed",
+    "research_notes": "docs/research/millas-description-and-elus-homeward-view.md"
   }
 ]

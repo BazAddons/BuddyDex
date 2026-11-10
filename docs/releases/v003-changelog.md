@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Milla Fairancora and Elu: adult Alliance Night Elf and Horde Tauren profiles, with thirty personal lines queued.
+- Review the alchemist's own dialogue and complete wind rider task; document original fragrance and future homeward-view details.
+
 - Add Cog Glitzspinner and Azzleby: adult Alliance Gnome and Horde Goblin profiles, with thirty personal lines queued.
 - Read the full star-viewing quest chain and verify the Everlook stable role; document original plan-turning and blanket anecdotes.
 
@@ -420,4 +423,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **746 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **748 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3458,6 +3458,20 @@
       "zone": "Winterspring",
       "route": "Everlook stable master",
       "reason": "Stable identity and cold setting, modern pet/SoD extras excluded; original blanket for shivering owner; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11041,
+      "name": "Milla Fairancora",
+      "zone": "Darnassus",
+      "route": "Craftsmen's Terrace alchemy contact",
+      "reason": "Own welcoming/forest-bounty/referral greetings and historical lessons; original memorable-fragrance wordplay; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10377,
+      "name": "Elu",
+      "zone": "Thousand Needles",
+      "route": "Freewind Post wind rider apprenticeship",
+      "reason": "Full Wind Rider task, still awaiting training; original hoped-for view of home from above; fifteen personal lines queued without synthesis"
     }
   ]
 }

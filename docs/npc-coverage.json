@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 319,
+    "alliance": 320,
     "unverified": 159,
-    "horde": 300
+    "horde": 301
   },
   "npc_race_counts": {
     "1": 167,
@@ -13,10 +13,10 @@
     "7": 56,
     "2": 80,
     "5": 80,
-    "4": 60,
+    "4": 61,
     "8": 58,
     "9": 50,
-    "6": 82,
+    "6": 83,
     "96": 23,
     "95": 29
   },
@@ -46,10 +46,10 @@
     "Durotar": 51,
     "The Barrens": 37,
     "Stonetalon Mountains": 11,
-    "Darnassus": 11,
+    "Darnassus": 12,
     "Burning Steppes": 1,
     "Ashenvale": 12,
-    "Thousand Needles": 10,
+    "Thousand Needles": 11,
     "Dustwallow Marsh": 1,
     "Tanaris": 8,
     "Feralas": 3,
@@ -7485,6 +7485,19 @@
       "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
     },
     {
+      "npc_id": 10377,
+      "name": "Elu",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10377"
+    },
+    {
       "npc_id": 10378,
       "name": "Omusa Thunderhorn",
       "zone": "The Barrens",
@@ -7583,6 +7596,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11029"
+    },
+    {
+      "npc_id": 11041,
+      "name": "Milla Fairancora",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11041"
     },
     {
       "npc_id": 11065,
@@ -9576,6 +9602,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 746,
-  "awaiting_signature_audio_profiles": 292
+  "authored_profiles": 748,
+  "awaiting_signature_audio_profiles": 294
 }

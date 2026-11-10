@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 746,
-  "written_complete_count": 746,
-  "awaiting_signature_audio_count": 292,
+  "authored_count": 748,
+  "written_complete_count": 748,
+  "awaiting_signature_audio_count": 294,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 294,
+  "remaining_count": 296,
   "completed": [
     {
       "npc_id": 54,
@@ -6059,6 +6059,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 10377,
+      "name": "Elu",
+      "zone": "Thousand Needles",
+      "source": "Reviewed adult Horde Tauren man; Full Wind Rider task, still awaiting training; original hoped-for view of home from above; no Scout sighting claimed",
+      "research_notes": "docs/research/millas-description-and-elus-homeward-view.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 10378,
       "name": "Omusa Thunderhorn",
       "zone": "The Barrens",
@@ -6140,6 +6152,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 11041,
+      "name": "Milla Fairancora",
+      "zone": "Darnassus",
+      "source": "Reviewed adult Alliance Night Elf woman; Own welcoming/forest-bounty/referral greetings and historical lessons; original memorable-fragrance wordplay; no Scout sighting claimed",
+      "research_notes": "docs/research/millas-description-and-elus-homeward-view.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 11065,

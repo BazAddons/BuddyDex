@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Milla Fairancora, Craftsmen's Terrace/Darnassus. Adult
+    -- Night Elf female10573/M2 921844, Alliance Friendly. Own three
+    -- alchemy/welcome/Sylvanna-referral greetings read; sparse lessons.
+    -- Memorable fragrance wordplay is original, not a recipe effect.
+    -- Research: docs/research/millas-description-and-elus-homeward-view.md
+    [11041] = {
+        quote = "A useful brew need not offer a pleasant fragrance. I promise to be clearer than that when describing its purpose.",
+        likes = { "The forest's gifts put to thoughtful use", "Knowing whom to ask for the next lesson", "Kind words that still tell the truth" },
+        dislikes = { "A lovely name instead of clear guidance", "Someone shamed for needing instruction", "Skill claimed beyond what is understood" },
+        gossip = "Milla has called a strong-smelling brew memorable. The visitor seems to have understood her perfectly, and rather enjoyed the description.",
+        bio = "Milla Fairancora is an alchemist on the Craftsmen's Terrace in Darnassus. She delights in what forest plants can provide, welcomes those seeking help and directs learners beyond her own skill to Sylvanna Forestmoon.",
+        backstory = "She once tried to describe a brew's smell generously and settled on memorable. The visitor understood at once. Since then, Milla has found the word useful when an excellent result offers a rather less excellent fragrance.",
+        secret = "She has a small stock of generous words for disagreeable fragrances. Memorable remains the most accurate, and the one most likely to earn a grin.",
+        bestFriend = "Come along, friend. If our path proves memorable, I trust you to tell me whether you mean the view or the smell.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone recognizing a gentle joke that remains kind without ceasing to be accurate.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. I hope our walk is memorable in an entirely pleasant sense.", tone = "[gentle] [playfully warm]" }, "There you are. Ready for a little company? You are welcome without a lesson to ask for." },
+            idle = { { "Memorable, I called it. The visitor understood the fragrance at once. A kind description need not be an inaccurate one.", tone = "[wry] [amused]" }, "What the plants of the forest can offer still astonishes me. There is much to appreciate before claiming to understand it all.", "When someone needs more than I can teach, knowing whom to ask is a useful part of helping." },
+            befriended = { { "Your company has become a pleasure I look forward to beyond the lessons and questions. Come along, friend. I am happy to share a little of the day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? What would you like to understand?", "I am listening. There is no need to disguise the question in impressive words." },
+            learned = { { "Good. Let the lesson be a beginning. There may be someone whose experience can help you take the next step.", tone = "[patient] [encouraging]" } },
+            loot = { "Consider what it is before choosing a beautiful name for what it might become." },
+            quest = { "Clear instructions are a kindness. Read what is being asked before beginning." },
+            rest = { "A pleasant pause. I do not think it requires a more elaborate description." },
+            newFriend = { "Someone new to welcome. Leave them room to ask what they came to ask." },
+            group = { "Ask what help each person needs. We need not all have the same answer to be useful together." },
+            thanked = { "You are welcome, friend. I am glad I could help, and glad you came." },
+        },
+    },
+
+    -- Elu, Freewind Post/Thousand Needles. Adult Tauren male
+    -- 9901/M2 968705, Horde Friendly; installed9901:6:0. Full4767
+    -- acceptance/progress/completion, still awaiting training.
+    -- First view of home from above is original; no flight unlock.
+    -- Research: docs/research/millas-description-and-elus-homeward-view.md
+    [10377] = {
+        quote = "I have thought about where I will fly first. Before anywhere distant, I would like to see home from above.",
+        likes = { "A small step toward wind rider training", "Careful work before an eager beginning", "Thinking of home from a new direction" },
+        dislikes = { "Inexperience passed off as expertise", "A wyvern's readiness taken for granted", "A hope dismissed before work can begin" },
+        gossip = "Elu has considered several first flights. The directions change, but he seems particularly fond of beginning by looking back toward Freewind Post.",
+        bio = "Elu is a Tauren wind rider apprentice in Freewind Post, Thousand Needles. He helps recruit wyverns for the master riders as demand grows, hoping the work will let him begin his own wind rider training.",
+        backstory = "He asks for ten wyvern eggs from Highperch, warning that their parents guard them fiercely. Helping meet the master riders' needs is his present task; his own hope is to follow their path when his training can begin.",
+        secret = "Before choosing a distant destination, he wants to see Freewind Post from above. He wonders how familiar home might look from the path he has watched others take.",
+        bestFriend = "Walk with me, friend. There is still ground beneath our feet today. I am glad to share this part of the way while I work toward the next.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He welcomes encouragement for the work that brings his hoped-for training a little nearer, without pretending it is already complete.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. There is ground beneath our feet today, and I am glad to share the way with you.", tone = "[warm] [hopeful]" }, "There you are. Ready for a walk? I was thinking about where the next part of the journey might lead." },
+            idle = { { "Before anywhere distant, I would like to look back at Freewind Post from above. To see familiar home from a way I have only watched others take.", tone = "[quietly excited] [reflective]" }, "The master riders need more wyverns. There is work I can do toward that while I wait for the training I hope for.", "I am eager to begin. That does not mean I should pretend I have already learned what comes next." },
+            befriended = { { "Your company has become something I am grateful to have along the way. Come with me, friend. There is room to enjoy today while hoping for tomorrow.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Something you would like to share?", "I am listening. Tell me what is on your mind." },
+            learned = { { "Another step forward. Let it matter without asking it to be the whole journey already.", tone = "[steady] [encouraging]" } },
+            quest = { "Do the part that has been asked of you carefully. An eager beginning still needs good work." },
+            taxi = { "A rider setting out. One day, I hope to take my own place in that work." },
+            landed = { "Here we are. I wonder how the place looked from above before we came down to meet it." },
+            rest = { "A welcome pause. Hoping for the next step need not make this one impossible to enjoy." },
+            newFriend = { "Someone new to know. They may have a journey they are working toward as well." },
+            thanked = { "Glad to help, friend. I appreciate the company as much as the chance to be useful." },
+        },
+    },
+
     -- Cog Glitzspinner, Darkshire/Duskwood. Adult Gnome
     -- male4287/M2 900914, Alliance Friendly. Full174/175/177/181
     -- name his blueprint and friendship with Viktori; no solved curse.

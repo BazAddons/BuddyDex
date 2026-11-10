@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Milla Fairancora and Elu: adult Alliance Night Elf and Horde Tauren profiles, with thirty personal lines queued.
+- Review the alchemist's own dialogue and complete wind rider task; document original fragrance and future homeward-view details.
+
 - Add Cog Glitzspinner and Azzleby: adult Alliance Gnome and Horde Goblin profiles, with thirty personal lines queued.
 - Read the full star-viewing quest chain and verify the Everlook stable role; document original plan-turning and blanket anecdotes.
 
