@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kazan Mogosh and Bombus Finespindle: complete Dwarf and Gnome profiles with thirty personal lines queued.
+- Expand Gol'Bolar Quarry and Ironforge companions using documented current and Classic trade evidence.
+
 - Add Illaya Amberwind, Orsaan Dalewind, and Xyton Silverwind: three complete adult Skyborne profiles, with forty-five personal lines queued.
 - Expand Zephras companions across Shendar, Valanaar, and Thendal while preserving each NPC's actual faction access.
 

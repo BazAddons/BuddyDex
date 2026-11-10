@@ -2751,5 +2751,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed exact adult Skyborne body/model race and political access separately; own quests/gossip, full arrival/referral or guild welcome, no Scout sighting claimed",
     "research_notes": "docs/research/zephras-elder-crafters-and-druid.md"
+  },
+  {
+    "npc_id": 1237,
+    "name": "Kazan Mogosh",
+    "zone": "Dun Morogh",
+    "source": "Reviewed exact adult Dwarf/Gnome identity, current own tabs and full Classic/current stock; no personal quests/gossip found and no Scout sighting claimed",
+    "research_notes": "docs/research/quarry-pie-and-ironforge-color.md"
+  },
+  {
+    "npc_id": 5128,
+    "name": "Bombus Finespindle",
+    "zone": "Ironforge",
+    "source": "Reviewed exact adult Dwarf/Gnome identity, current own tabs and full Classic/current stock; no personal quests/gossip found and no Scout sighting claimed",
+    "research_notes": "docs/research/quarry-pie-and-ironforge-color.md"
   }
 ]

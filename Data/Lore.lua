@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kazan Mogosh <Food & Drink Merchant>, Gol'Bolar Quarry, Dun Morogh.
+    -- Adult Dwarf male3418/M2 878772, Alliance Friendly. Classic18foods/
+    -- drinks; current own tabs0/no Vendor flag; no own quest/gossip.
+    -- Imagined pie inspector rules are original, no actual food reward.
+    -- Research: docs/research/quarry-pie-and-ironforge-color.md
+    [1237] = {
+        quote = "An inspection sample is a serious responsibility. I am prepared to shoulder it.",
+        likes = { "A meal given time to be enjoyed", "A friendly argument over fair portions", "Someone remembering to take a break" },
+        dislikes = { "Good food left to spoil", "A hungry traveler too hurried to stop", "Grand rules that leave nobody fed" },
+        gossip = "Kazan has firm ideas about sharing a pie. The imaginary pie in his explanation always seems to require an inspector's portion.",
+        bio = "Kazan Mogosh is a Dwarf food and drink merchant at Gol'Bolar Quarry. His established trade includes breads, cheeses, drinks, and cherry pie. He likes the moment a traveler stops planning the next task long enough to enjoy a meal.",
+        backstory = "A conversation about sharing a pie became an increasingly elaborate set of rules. He enjoyed giving each slice a ceremonial importance. The most convenient rule reserved a small sample for the person arranging the portions.",
+        secret = "His private rules give the inspector a sample before anyone else. The inspector resembles Kazan remarkably closely. He enjoys hearing a friend argue for a turn at the post.",
+        bestFriend = "You may be inspector today. I shall expect a thorough opinion, and I would be glad to have your company while we discuss it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone recognizing the joke beneath his very serious explanation of a portion.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Have you left room in the day for a proper pause?", tone = "[hearty] [welcoming]" }, "Ready. The imaginary pie has passed inspection, though the portions may need reviewing." },
+            idle = { { "The inspector must have a sample. A demanding office, and I have borne it with considerable enthusiasm.", tone = "[solemn] [playfully amused]" }, "A meal can wait for a little company more readily than it can wait forever.", "If the rules for sharing leave everyone hungry, I suggest we improve the rules." },
+            befriended = { { "You stayed for the joke as well as the practical business. I would be glad to share more of the day with you.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Is it time for a pause, or a second opinion?", "I was considering whether the inspector needs an assistant. A fair question to raise." },
+            rest = { { "Sit a moment. We can enjoy a pause without making you earn it by telling a grand story.", tone = "[easygoing] [warm]" } },
+            loot = { "Useful supplies? Keep them where they will not be spoiled before you need them." },
+            bagsFull = { "Have a look through it. Something useful may be suffering beneath what you meant to leave behind." },
+            hearth = { "Homeward. I hope there is time to sit before the next errand begins." },
+            zone = { "New surroundings. I wonder what the people here like to share at a table." },
+            mail = { "News from someone elsewhere. Let us see what they found worth telling us." },
+            thanked = { "You are welcome. A little care for an ordinary need can matter quite a lot." },
+        },
+    },
+
+    -- Bombus Finespindle <Leatherworking Supplies>, Great Forge, Ironforge.
+    -- Adult Gnome male3105/M2 900914, Alliance Friendly.19current goods
+    -- versus17Classic, adds Forceful/Mystic Medium Armor Kit patterns.
+    -- Orange/pink scraps are original, no inferred Finespindle kinship.
+    -- Research: docs/research/quarry-pie-and-ironforge-color.md
+    [5128] = {
+        quote = "The right thread matters. After that, you are allowed to enjoy the color.",
+        likes = { "Materials chosen for the actual job", "A bright combination tried with confidence", "A first project finished with care" },
+        dislikes = { "Good thread wasted through haste", "A small creative pleasure mocked", "One sensible color declared the only choice" },
+        gossip = "Bombus gives practical advice about supplies. Ask which colors he likes together and the answer becomes rather less restrained.",
+        bio = "Bombus Finespindle sells leatherworking supplies in Ironforge's Great Forge. His goods include thread, dyes, salt, a skinning knife, and patterns. He enjoys seeing a practical choice leave room for a little pleasure in how the finished thing looks.",
+        backstory = "He began trying color combinations on small scraps for his own amusement. Choosing for pleasure, rather than a request, led him toward much brighter pairings. He likes the freedom of a sample that does not have to become anything more.",
+        secret = "Orange beside pink is a particular favorite. He knows the combination is not quiet. The cheerful insistence of it is exactly what pleases him.",
+        bestFriend = "You may call them cheerful. You may call them alarming. I shall enjoy finding out which you meant, and showing you the next pair.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates encouragement for someone enjoying a bold little creative choice.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Good to see you. What are we trying today, and may it include something cheerful?", tone = "[bright] [welcoming]" }, "Ready. I have given the orange and pink a very satisfactory place beside one another." },
+            idle = { { "The colors are rather insistent together. Yes. That was the part I liked.", tone = "[pleased] [playful]" }, "Choose the right material with care. You may still enjoy deciding how it should look.", "A small sample is allowed to be interesting without becoming a whole outfit." },
+            befriended = { { "You asked what I enjoyed, as well as what the work needed. I would welcome more company that makes room for both.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what the project needs before we start gathering supplies.", "I was considering whether the next pair should be even more cheerful." },
+            loot = { { "Keep the materials where you can tell them apart. A promising project deserves a clear beginning.", tone = "[practical] [encouraging]" } },
+            bagsFull = { "A tangled collection is not improved by another loose spool dropped on top." },
+            learned = { "Good. Try the new skill with something small enough that you can notice what it teaches you." },
+            gear = { "Useful can still be something you enjoy looking at. There is no rule requiring it to be dull." },
+            quest = { "Check the exact materials requested. Almost the right thing may make quite a different result." },
+            cheerAlong = { "Yes! It is pleasant to see someone enjoy what they have made." },
+            thanked = { "You are welcome. I hope the work gives you a little pleasure as well as a useful result." },
+        },
+    },
+
     -- Illaya Amberwind <Elder Windshaper>, Shen'dar, Zephras Isle. Adult
     -- female138155/M2 7478494, model race95; Windshaper allegiance,
     -- Horde Friendly/Alliance Hostile. Full92595/94411 and own gossip read.

@@ -2422,6 +2422,20 @@
       "zone": "Zephras Isle",
       "route": "Shared Thendal early Druid trainer",
       "reason": "Complete adult Skyborne profile with fifteen queued lines; actual allegiance/access, own dialogue and relevant written source distinguished, no synthesis"
+    },
+    {
+      "npc_id": 1237,
+      "name": "Kazan Mogosh",
+      "zone": "Dun Morogh",
+      "route": "Alliance Golbolar Quarry food stop",
+      "reason": "Complete adult Dwarf/Gnome profile with fifteen queued lines; historical/current trade distinguished and no synthesis"
+    },
+    {
+      "npc_id": 5128,
+      "name": "Bombus Finespindle",
+      "zone": "Ironforge",
+      "route": "Alliance Ironforge leatherworking supplies",
+      "reason": "Complete adult Dwarf/Gnome profile with fifteen queued lines; historical/current trade distinguished and no synthesis"
     }
   ]
 }
