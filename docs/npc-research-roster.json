@@ -3605,5 +3605,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Horde Friendly Troll man; all45current lessons and spell stats/effects plus installed greetings; Growl demonstration and yawn original; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-shade-and-the-unimpressed-beast.md"
+  },
+  {
+    "npc_id": 256507,
+    "name": "Belann Windwood",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult both-Friendly Windshaper Skyborne man; complete focus chain and century-long craft history; returning apprentice/worn-grip story original; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-worn-focus-and-nyassas-flower.md"
+  },
+  {
+    "npc_id": 257019,
+    "name": "Nyassa Swiftdraught",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Horde Friendly High Order Skyborne woman; current vials, full camping referral and installed proud alchemist dialogue; vial-flower story original; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-worn-focus-and-nyassas-flower.md"
   }
 ]

@@ -3276,6 +3276,20 @@
       "zone": "Orgrimmar",
       "route": "Valley of Honor pet training",
       "reason": "Complete adult profile with fifteen personal lines queued; verified male Troll identity and original unimpressed-beast demonstration; no synthesis"
+    },
+    {
+      "npc_id": 256507,
+      "name": "Belann Windwood",
+      "zone": "Zephras Isle",
+      "route": "Valanaar focus-crafting route",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified race96 adult male identity, researched focus tradition, original worn-grip story; no synthesis"
+    },
+    {
+      "npc_id": 257019,
+      "name": "Nyassa Swiftdraught",
+      "zone": "Zephras Isle",
+      "route": "Shendar early alchemy route",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified race95 adult female identity, researched camping referral and original flower-vial story; no synthesis"
     }
   ]
 }

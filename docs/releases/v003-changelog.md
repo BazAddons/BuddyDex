@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Belann Windwood and Nyassa Swiftdraught: two adult Skyborne profiles with thirty personal lines queued.
+- Expand Valanaar and Shen'dar contacts with researched focus-crafting and alchemy traditions, keeping new friendship stories distinct from game lore.
+
 - Add Shoja'my and Xao'tsu: two adult Troll profiles with thirty personal lines queued.
 - Expand Razor Hill and Orgrimmar contacts with researched stable/training roles and distinct original shade-sharing and unimpressed-beast stories.
 
@@ -381,4 +384,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **720 fully written NPC profiles**: 454 have initial signature recordings, and two hundred sixty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **722 fully written NPC profiles**: 454 have initial signature recordings, and two hundred sixty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

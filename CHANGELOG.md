@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Belann Windwood and Nyassa Swiftdraught: two adult Skyborne profiles with thirty personal lines queued.
+- Expand Valanaar and Shen'dar contacts with researched focus-crafting and alchemy traditions, keeping new friendship stories distinct from game lore.
+
 - Add Shoja'my and Xao'tsu: two adult Troll profiles with thirty personal lines queued.
 - Expand Razor Hill and Orgrimmar contacts with researched stable/training roles and distinct original shade-sharing and unimpressed-beast stories.
 

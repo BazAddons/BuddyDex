@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Belann Windwood <Staff Merchant>, Valanaar. Adult Windshaper
+    -- Skyborne male139671/M2 7478487, both factions Friendly. Full
+    -- 93791/93797 text: over a century crafting for High Order. Four
+    -- current staves. Returning apprentice/worn grip story original.
+    -- Research: docs/research/valanaar-worn-focus-and-nyassas-flower.md
+    [256507] = {
+        quote = "A little wear on the grip? Good. Someone has been out discovering what their focus can do.",
+        likes = { "A first focus brought back with stories", "Good wood given a useful life", "An apprentice finding a question of their own" },
+        dislikes = { "A useful piece dismissed for its age", "Fine decoration mistaken for understanding", "An old lesson treated as finished learning" },
+        gossip = "Belann notices a well-worn grip before an expensive flourish. Bring back a first focus, and he may ask about every place it has traveled.",
+        bio = "Belann Windwood crafts staves and wands in Valanaar. For over a century he has worked for the High Order. Aspiring mages bring him wind-infused boughs for their own spell focuses, and he shares the tradition as they work.",
+        backstory = "An apprentice once returned with a first focus, its grip polished smooth by use. There was nothing to replace. They had come to show him where it had traveled. Belann put his work aside and listened to the journey.",
+        secret = "He remembers that worn grip fondly. Someone had thought he would want to hear what happened after the work left his hands. They were right.",
+        bestFriend = "Tell me where you have been, friend. I like knowing how the road continues after someone leaves my door. I am glad yours led back here.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates knowing that something he helped make has mattered to the person who carried it into the world.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are, friend. Shall we? Tell me where you have been. I enjoy hearing how a journey continues after someone leaves my door.", tone = "[measured] [welcoming]" }, "Good to see you. Come along. A little road and a story from you would be welcome company today." },
+            idle = { { "An apprentice returned with a first focus, its grip polished by use. Nothing needed replacing. They had simply thought I would want to hear where it had traveled. I put my work aside.", tone = "[reflective] [fond]" }, "A useful piece acquires small signs of the life around it. I often notice the worn grip before the finest decoration.", "We gather fallen wood that still carries a trace of elemental wind. The tradition has room for an eager mage to listen, learn and find a question of their own." },
+            befriended = { { "You have become someone whose journey I want to hear, and whose company I would gladly share. Come along, friend. I am pleased the road brought you back.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Have you a question, or a story from the road? I should like to hear either.", "I am listening. Begin where it became interesting to you. That is often the best place." },
+            thanked = { { "You are welcome. I am glad the work has served you. Tell me what you have discovered with it when there is time.", tone = "[quietly pleased] [attentive]" } },
+            gear = { "Look at how you hold it. A little wear may tell you that it has been useful company. Age alone is a poor reason to put good work aside." },
+            learned = { "Good. Let that lesson become a beginning. There will be things to discover that nobody can put into the first explanation." },
+            quest = { "An errand can be the beginning of a tradition you will make your own. Give the work your attention, and bring back the questions it leaves you." },
+            rest = { "A comfortable pause. Tell me something you nearly forgot to mention. The small part of a journey can be worth hearing too." },
+            newFriend = { "Someone new to know. Leave room for the road they have already traveled, as well as the first thing you notice." },
+            group = { "Let everyone finish their account. The same journey can leave quite different stories in the hands of those who shared it." },
+        },
+    },
+
+    -- Nyassa Swiftdraught <Alchemist>, Shen'dar Village. Adult High
+    -- Order Skyborne female140077/M2 7478494, Horde Friendly. Four
+    -- current vials; full97963 Mana Well referral and installed own
+    -- proud/abrupt greetings read. Flower in a vial is original.
+    -- Research: docs/research/valanaar-worn-focus-and-nyassas-flower.md
+    [257019] = {
+        quote = "That vial is occupied. No, the flower is not an ingredient. Must everything on this bench have a practical explanation?",
+        likes = { "A properly considered alchemy question", "Good technique noticed without flattery", "Fresh water for the flower in her vial" },
+        dislikes = { "Important work interrupted carelessly", "A confident guess offered as technique", "Every small pleasure assigned a purpose" },
+        gossip = "Nyassa keeps a flower in a spare vial. Ask which preparation requires it, and you may receive a rather pointed lesson about assumptions.",
+        bio = "Nyassa Swiftdraught is an alchemist in Shen'dar Village. She supplies vials and takes pride in proper technique. The camping lesson sends alchemists to her to learn a Mana Well, while her sharp greeting reminds visitors that her work deserves attention.",
+        backstory = "She once put a flower in a spare vial while clearing her bench. It looked well there, so she left it. Questions about its supposed use became tiresome. Nyassa saw no reason that liking the sight required a more complicated explanation.",
+        secret = "She changes the flower's water before the day's work begins. She is quite willing to be exact about something that has no purpose beyond pleasing her.",
+        bestFriend = "You may stay a while. I know you can appreciate careful work without explaining away every pleasant thing beside it. I enjoy that about you.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates a specific acknowledgment of good work from someone who has taken the trouble to notice it.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Ah, there you are. Shall we? I have attended to the work, and the flower has fresh water. Both were worth doing properly.", tone = "[self-possessed] [welcoming]" }, "Good. You have arrived with a little time to spare, I hope. I would like your company, provided the conversation has room for an answer." },
+            idle = { { "The flower is not an ingredient. It is a flower in a spare vial because I like seeing it there. A complete explanation, despite its disappointing lack of complication.", tone = "[dry] [lightly amused]" }, "I change its water before beginning the day's work. If something pleases me, I am quite capable of attending to it carefully.", "A useful question deserves a proper answer. A confident assumption may require us to begin rather further back." },
+            befriended = { { "You have learned when to ask, when to listen, and when a pleasant thing needs no justification. I appreciate that. Come along, friend. I would enjoy your company.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Consider the question for a moment. You have my attention, and I should prefer to make good use of it.", "I am listening. If this concerns the flower, its purpose remains entirely satisfactory to me." },
+            learned = { { "Good. Now understand why the technique works. Remembering a name is a beginning, and I expect you to make something of it.", tone = "[precise] [approving]" } },
+            thanked = { "You are welcome. I am pleased you noticed the care involved. It generally improves the result." },
+            gear = { "Look at what it is meant to do before praising its appearance. You can enjoy the appearance afterward without making claims for it." },
+            loot = { "Identify it before deciding what purpose it must serve. A confident description does not become an examination merely by being spoken aloud." },
+            rest = { "A pause. Good. You may tell me something you have enjoyed without first inventing a practical reason for enjoying it." },
+            group = { "Make certain everyone understands the preparation. An assumption shared by several people remains an assumption." },
+            quest = { "Read the request carefully. If it asks you to demonstrate proficiency, a confident introduction will not do the work for you." },
+        },
+    },
+
     -- Shoja'my <Stable Master>, Razor Hill. Adult Troll female9262/
     -- M2 1018060, Horde Friendly. Own four tables0, no own installed
     -- gossip or personal Classic quests. Making shade for a resting
