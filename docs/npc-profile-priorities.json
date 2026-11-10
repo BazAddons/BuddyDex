@@ -2632,6 +2632,20 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff painter and Stonetalon pigment errand",
       "reason": "Complete distinct female Goblin or male Tauren profile with fifteen personal lines queued; identity and limited lore respected, no synthesis"
+    },
+    {
+      "npc_id": 252390,
+      "name": "Antelariaa Cloudgaze",
+      "zone": "Zephras Isle",
+      "route": "Zephras general supplier for both factions",
+      "reason": "Complete distinct female/male Skyborne profile, fifteen personal lines queued, original writing separated from actual supply or vengeance/record-recovery role; no synthesis"
+    },
+    {
+      "npc_id": 254151,
+      "name": "Vayn Moongaze",
+      "zone": "Zephras Isle",
+      "route": "Shadowgale Nightclaw contact; normal neutral-unit checks required",
+      "reason": "Complete distinct female/male Skyborne profile, fifteen personal lines queued, original writing separated from actual supply or vengeance/record-recovery role; no synthesis"
     }
   ]
 }

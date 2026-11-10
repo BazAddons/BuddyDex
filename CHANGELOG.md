@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Antelariaa Cloudgaze and Vayn Moongaze: two complete Skyborne profiles with thirty personal lines queued.
+- Expand Zephras route coverage with distinct supplier and Nightclaw personalities, preserving current faction access and the actual ear-quest dialogue.
+
 - Add Mia Tanglewrench and Tah Winterhoof: two complete profiles with thirty personal lines queued.
 - Expand female Goblin and Tauren coverage with an original fanciful storyteller and a painter grounded in Forever's pigment quest.
 

@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Antelariaa Cloudgaze <General Goods>, Zephras Isle. Adult
+    -- Windshaper Skyborne female140054/M2 7478494, both factions
+    -- Friendly; all15goods, no own quest/gossip/training.
+    -- The supply-list tune is original BuddyDex character writing.
+    -- Research: docs/research/zephras-supply-songs-and-guarded-rest.md
+    [252390] = {
+        quote = "I remembered everything on the list. Unfortunately, I also remembered the tune.",
+        likes = { "A useful thing found before departure", "A tune with an ending", "Someone sharing the joke" },
+        dislikes = { "Heavy supplies crushing delicate things", "A refrain that follows her all day", "A forgotten need discovered far away" },
+        gossip = "Antelariaa can remember a list of supplies remarkably well. Forgetting the tune she put it to has proved much harder.",
+        bio = "Antelariaa Cloudgaze sells general goods on Zephras Isle. Bags, drinks, ammunition, throwing weapons, and simple travel supplies make up her stock. Her ordinary necessities give a traveler good reason to stop before setting out.",
+        backstory = "She put a short supply list to a tune to remember it. The list grew; the tune accommodated it rather too well. A useful aid became something she caught herself humming even after every item had been found and put away.",
+        secret = "She no longer remembers what the tune was before it became a list. She suspects it had a better ending than milk, a pouch, and more ammunition.",
+        bestFriend = "Sit a moment. I would like to hear about your day. If I begin the tune, you have my permission to interrupt.",
+        favorite = {
+            emote = "CLAP",
+            hint = "She enjoys someone recognizing the rhythm without asking her to repeat the entire list.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. Everything remembered, everything ready, and the tune still following me. Let us go.", tone = "[warm] [lighthearted]" }, "Ready. Tell me about your day before I find a way to put the preparations to music." },
+            idle = { { "I cannot remember what the tune was before it included milk and a pouch. It probably ended more gracefully.", tone = "[amused] [conversational]" }, "A short list seemed harmless. The melody was more accommodating than it needed to be.", "Remembering what is needed before departure leaves room to enjoy something else along the way." },
+            befriended = { { "You shared the joke without making me repeat the whole tune. I think we shall enjoy each other's company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was trying to remember an ending that did not require more supplies.", "I am listening. Thinking about something other than the list is a welcome improvement." },
+            bagsFull = { { "Let us make room before the heavy things decide where the delicate ones belong.", tone = "[practical] [gentle]" } },
+            loot = { "See whether it has a use before giving it the last space you meant to keep." },
+            mail = { "News, perhaps. I hope it is a story rather than another list." },
+            quest = { "Check what is needed before leaving. Remembering it halfway along the road is a less useful accomplishment." },
+            rest = { "A pause. No preparations to finish for a moment." },
+            zone = { "New surroundings. I should like to hear what you notice before deciding what I have forgotten to bring." },
+            thanked = { "You are welcome. We managed the useful part; now let us enjoy the rest of the day." },
+        },
+    },
+
+    -- Vayn Moongaze, Shadowgale Forest, Zephras Isle. Adult Windshaper
+    -- Skyborne male138042/M2 7478487, both factions Neutral.
+    -- Full93165/93459available speech, two gossip variants, all50goods.
+    -- Preserve slain-ear vengeance and Ban-aethal plans, not crafter rank.
+    -- The private root seat is original; no new rest/quest/reputation effect.
+    -- Research: docs/research/zephras-supply-songs-and-guarded-rest.md
+    [254151] = {
+        quote = "We want peace. Do not mistake that for a promise to tolerate every intrusion.",
+        likes = { "Quiet untroubled by intruders", "Promises followed by visible effort", "A friend who asks before entering" },
+        dislikes = { "The Al'Aketh's violence", "Recklessness in Shadowgale", "A threat dismissed as harmless curiosity" },
+        gossip = "Vayn has sharp words for careless strangers. A friend may discover he can also recommend a comfortable root to sit on.",
+        bio = "Vayn Moongaze stands with the Nightclaw in Shadowgale Forest. Angered by the Al'Aketh's attack on their enclave, he asks allies for the ears of slain cultists. His warning to reckless visitors is no empty courtesy.",
+        backstory = "The Nightclaw recovered crafting plans from ruined Ban'aethal. Vayn explains that his order are naturalists, not crafters, and offers the records to proven allies. Their wish for quiet lives has not softened their anger at the cult.",
+        secret = "He knows a root that makes a comfortable seat. He rarely mentions it to strangers. Inviting someone to rest there feels rather different from warning them where to tread.",
+        bestFriend = "There is room to sit. You have heard enough warnings from me to know this is an invitation. Stay a while.",
+        favorite = {
+            emote = "BOW",
+            hint = "He respects a visitor who approaches with care rather than assuming a welcome.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "You are welcome beside me. Tread carefully; being a friend does not make the forest yours to disregard.", tone = "[reserved] [warm]" }, "Ready. Keep your attention on where we are going, and on what the people there have reason to protect." },
+            idle = { { "The root makes a comfortable seat. I would not point it out to every stranger who passes.", tone = "[quiet] [confiding]" }, "Wanting a quiet life does not mean forgetting who threatened it.", "A warning is worth hearing before deciding that caution is merely unfriendly." },
+            befriended = { { "You have shown care in how you approach us. I can offer you something more than another warning now: my company.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? Speak plainly. I would rather hear the reason than guess at your intentions.", "I am listening. A quiet reply need not be an unwilling one." },
+            quest = { { "Understand whom you are helping and what they have lost. A task is not made trivial by being offered to a stranger.", tone = "[grave] [firm]" } },
+            zone = { "Take care before entering. The people here may have reasons to be wary that you have not heard." },
+            rest = { "We can stop here. I am glad to share a moment that asks nothing more of us." },
+            group = { "Care in your actions will speak more clearly than an assurance that no harm was intended." },
+            learned = { "Understanding something is a beginning. Let what you do with it earn the trust you ask for." },
+            comforted = { "Thank you. You need not tell me the loss was small in order to sit beside me." },
+            thanked = { "You are welcome. I have not forgotten the care you took." },
+        },
+    },
+
     -- Mia Tanglewrench, Powderfuse Port, Riverglades. Adult Goblin
     -- female148597/M2 119369, Horde Friendly. All own tabs0 and no
     -- installed gossip; no engineering job inferred from her surname.

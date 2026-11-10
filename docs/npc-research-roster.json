@@ -2961,5 +2961,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult Goblin female or Tauren male body, Horde Friendly, all own tabs and available97538paint quest text; gaps documented and no Scout sighting claimed",
     "research_notes": "docs/research/powderfuse-tales-and-thunder-bluff-pigments.md"
+  },
+  {
+    "npc_id": 252390,
+    "name": "Antelariaa Cloudgaze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne female/male, own stock and complete available Nightclaw dialogue; current Friendly/Neutral distinctions and quest conflicts documented, no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-supply-songs-and-guarded-rest.md"
+  },
+  {
+    "npc_id": 254151,
+    "name": "Vayn Moongaze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne female/male, own stock and complete available Nightclaw dialogue; current Friendly/Neutral distinctions and quest conflicts documented, no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-supply-songs-and-guarded-rest.md"
   }
 ]

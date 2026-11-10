@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 263,
-    "unverified": 148,
-    "horde": 233
+    "alliance": 264,
+    "unverified": 149,
+    "horde": 234
   },
   "npc_race_counts": {
     "1": 165,
@@ -17,7 +17,7 @@
     "8": 49,
     "9": 38,
     "6": 75,
-    "96": 8,
+    "96": 10,
     "95": 18
   },
   "zone_counts": {
@@ -55,7 +55,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 25,
+    "Zephras Isle": 27,
     "Riverglades": 8
   },
   "entries": [
@@ -7532,6 +7532,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252382"
     },
     {
+      "npc_id": 252390,
+      "name": "Antelariaa Cloudgaze",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252390"
+    },
+    {
       "npc_id": 252392,
       "name": "Orsaan Dalewind",
       "zone": "Zephras Isle",
@@ -7612,6 +7626,17 @@
       ],
       "reaction_evidence": "Friendly to both factions",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254089"
+    },
+    {
+      "npc_id": 254151,
+      "name": "Vayn Moongaze",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Alliance Neutral and Horde Neutral; no explicit Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254151"
     },
     {
       "npc_id": 255894,
@@ -8045,6 +8070,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 628,
-  "awaiting_signature_audio_profiles": 174
+  "authored_profiles": 630,
+  "awaiting_signature_audio_profiles": 176
 }
