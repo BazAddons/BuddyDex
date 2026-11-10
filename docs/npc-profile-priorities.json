@@ -3689,6 +3689,20 @@
       "zone": "Undercity",
       "route": "Undercity auctioneer",
       "reason": "Current service and adult body; original dance-counting cadence; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 265809,
+      "name": "Brakk",
+      "zone": "Durotar",
+      "route": "Razor Hill camping introduction",
+      "reason": "Full journal/camping/profession dialogue; original snoring defense; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4155,
+      "name": "Idriana",
+      "zone": "Darnassus",
+      "route": "Darnassus banker",
+      "reason": "Own bank gossip and full4510 voucher dialogue; original owl hand shadow; fifteen personal lines queued without synthesis"
     }
   ]
 }

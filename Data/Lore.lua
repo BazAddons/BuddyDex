@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brakk <Adventurer>, Razor Hill/Durotar. Adult Orc male
+    -- 144648/M2 917116, Horde Friendly. Full journal/camping lessons read.
+    -- Snoring explained as a wildlife warning is original camp humor.
+    -- Research: docs/research/brakks-night-watch-and-idrianas-owl.md
+    [265809] = {
+        quote = "I do not snore. That is a low warning to discourage anything prowling near the camp. You are welcome to appreciate the service.",
+        likes = { "A traveler settling comfortably by the fire", "Every trade having something to contribute", "A friendly joke kept friendly" },
+        dislikes = { "An exhausted traveler refusing to rest", "A camp treated as one person's work", "His night noises given unflattering names" },
+        gossip = "Brakk maintains that the low rumbling at camp is a useful warning to wildlife. His companions have proposed a simpler explanation.",
+        bio = "Brakk is an Orc adventurer near Razor Hill. His lost journal leads travelers to lessons in camping. He teaches the value of a fire, proper rest and the things different trades can contribute to a camp.",
+        backstory = "He once woke to find a companion looking rather amused. Brakk explained that the noise had been a precaution against prowling creatures. The explanation has since required more defending than the camp.",
+        secret = "He knows what the rumbling sounds like. He enjoys the friendly argument anyway. A companion comfortable enough to tease him is good company to wake beside.",
+        bestFriend = "Sit a while, friend. You need not call the noise anything grand. I am pleased you rested comfortably enough to hear it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone sharing the joke without making the welcome less comfortable.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. We can talk about your travels, and you can decide whether that tale of my supposed snoring requires another hearing.", tone = "[hearty] [playful denial]" }, "Good to see you. Have you been giving yourself time to rest, or only finding new things to be tired from?" },
+            idle = { { "A low warning to anything prowling nearby. That is my explanation, and I see no reason to abandon it merely because you were lying awake listening.", tone = "[matter-of-fact] [amused]" }, "A cook makes the fire possible. Other trades bring their own contributions. There is more to a good camp than one person announcing they know the wilderness.", "You may smile. A little friendly teasing is a fine sign that someone has begun feeling at home by the fire." },
+            befriended = { { "You have become company I am pleased to see at the fire, even when you bring that expression about the rumbling. Come along, friend. There is room beside me.", tone = "[warm] [welcoming]" } },
+            poke = { "Yes? If this concerns a noise during the night, I have already explained its protective purpose.", "Go on. Let us hear what your road has been like." },
+            rest = { { "Sit and give yourself a proper pause. You do not need to prove your strength by remaining tired when there is a chance to recover.", tone = "[steady] [reassuring]" } },
+            learned = { "Good. Think about what that skill can contribute when you make camp with others. There is room for more than one kind of useful hand." },
+            loot = { "Keep the useful things where you can find them. A splendid pack is little comfort when everything you need has settled at the bottom." },
+            quest = { "Hear the request through. Then make sure you have prepared for the journey as well as the telling of it afterward." },
+            newFriend = { "Someone new. Make room. We can hear their story once they have stopped wondering whether they are welcome." },
+            thanked = { "You are welcome. Seeing you ready for the next stretch of road is a good result." },
+            group = { "Everyone brings something. Give each person room to contribute before deciding who ought to explain the whole camp." },
+        },
+    },
+
+    -- Idriana <Banker>, Darnassus. Adult Night Elf female2210/
+    -- M2 921844, Alliance Friendly. Own bank gossip and full4510 read.
+    -- Owl hand-shadow hobby is original, not a spell or new reward.
+    -- Research: docs/research/brakks-night-watch-and-idrianas-owl.md
+    [4155] = {
+        quote = "It is an owl. The resemblance improves if you attend to the wings and allow the head a little generosity.",
+        likes = { "A careful record and a courteous welcome", "A small amusement shared quietly", "A friend finding the owl in the shadow" },
+        dislikes = { "Another person's valuables handled casually", "Confidence offered instead of authorization", "A harmless attempt mocked unkindly" },
+        gossip = "Idriana has been making an owl with the shadow of her hands. Its wings are convincing. The head remains a matter of charitable interpretation.",
+        bio = "Idriana is a banker in Darnassus, welcoming visitors to its accounts and deposit boxes. She handles Gracina Spiritmight's reward voucher. Away from formal business, she enjoys a small amusement requiring only her hands and a light.",
+        backstory = "She tried making an owl-shaped shadow with her hands. The wings appeared readily enough; the head was less cooperative. She kept trying, pleased that this little exercise required neither a record nor a perfect result.",
+        secret = "She likes a friend recognizing the owl before the shape is quite right. It feels like being met halfway, which is a pleasant kindness to receive after a formal day.",
+        bestFriend = "Stay a moment. I believe the owl is improving. You may recognize it kindly, and then tell me how you have been.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates a kind expression that lets her enjoy the imperfect little performance.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along. I can set the formal welcome aside and ask how you have been. The owl may make an appearance once the conversation allows.", tone = "[courteous] [gently amused]" }, "Good to see you. No voucher required for a conversation. I am pleased you came to visit." },
+            idle = { { "The wings were quite convincing. The head required a charitable observer. Fortunately, a little shadow need not meet the standards of a financial record.", tone = "[composed] [playful]" }, "I was pleased you recognized the owl. It is a small kindness to let another person finish an imperfect attempt without explaining every flaw.", "The light, the hands, a little patience. It is agreeable to attempt something for which there is no account to balance afterward." },
+            befriended = { { "You have become someone I can welcome without reaching first for the proper formal words. Come along, friend. I am pleased to have your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can unfold the owl long enough to listen.", "Go on. There need be nothing official about what you came to tell me." },
+            mail = { { "A message. Read the authorization carefully if it concerns another person's belongings. A courteous request and a permitted withdrawal are different things.", tone = "[measured] [attentive]" } },
+            loot = { "Take a moment to decide what matters to you before putting it away. The care you give an object need not be measured only by its price." },
+            rest = { "A little quiet. We need not turn every pause into another task requiring a finished result." },
+            quest = { "A request deserves a careful hearing. It is much easier to help when one knows what has actually been entrusted to whom." },
+            newFriend = { "Someone new. Let us begin with a welcome that gives them room to answer." },
+            thanked = { "You are welcome. I am glad the care was useful to you." },
+            group = { "Room for everyone. We can give each person a courteous hearing without making the conversation sound like a queue at the counter." },
+        },
+    },
+
     -- Jixo Madrocket <Amateur Daredevil>, Stonetalon. Adult Goblin
     -- male7193/M2 119376, Horde Friendly. Current78114 differs from SoD.
     -- Celebrating ordinary accomplishments with a flourish is original.

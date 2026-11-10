@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brakk and Idriana: adult Orc and Night Elf profiles with thirty personal lines queued.
+- Review full camping and bank-voucher dialogue; document original snoring and shadow-puppet stories and exclude deceased Heglan.
+
 - Add Jixo Madrocket and Auctioneer Naxxremis: adult Goblin and Forsaken profiles with thirty personal lines queued.
 - Reconcile current wyvern quest text with historical versions; document original small-success and dance-counting stories.
 

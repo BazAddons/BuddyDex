@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 779,
-  "written_complete_count": 779,
-  "awaiting_signature_audio_count": 325,
+  "authored_count": 781,
+  "written_complete_count": 781,
+  "awaiting_signature_audio_count": 327,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 327,
+  "remaining_count": 329,
   "completed": [
     {
       "npc_id": 54,
@@ -4072,6 +4072,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 4155,
+      "name": "Idriana",
+      "zone": "Darnassus",
+      "source": "Reviewed adult alliance woman; Own bank gossip and full4510 voucher dialogue; original owl hand shadow; no Scout sighting claimed",
+      "research_notes": "docs/research/brakks-night-watch-and-idrianas-owl.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 4160,
       "name": "Ainethil",
       "zone": "Darnassus",
@@ -8038,6 +8050,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "goblin-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 265809,
+      "name": "Brakk",
+      "zone": "Durotar",
+      "source": "Reviewed adult horde man; Full journal/camping/profession dialogue; original snoring defense; no Scout sighting claimed",
+      "research_notes": "docs/research/brakks-night-watch-and-idrianas-owl.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

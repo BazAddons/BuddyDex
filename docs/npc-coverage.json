@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 332,
+    "alliance": 333,
     "unverified": 165,
-    "horde": 316
+    "horde": 317
   },
   "npc_race_counts": {
     "1": 167,
     "3": 67,
     "7": 58,
-    "2": 83,
+    "2": 84,
     "5": 85,
-    "4": 65,
+    "4": 66,
     "8": 60,
     "9": 55,
     "6": 84,
@@ -43,10 +43,10 @@
     "Darkshore": 11,
     "Mulgore": 22,
     "Thunder Bluff": 39,
-    "Durotar": 51,
+    "Durotar": 52,
     "The Barrens": 40,
     "Stonetalon Mountains": 13,
-    "Darnassus": 13,
+    "Darnassus": 14,
     "Burning Steppes": 1,
     "Ashenvale": 13,
     "Thousand Needles": 11,
@@ -5069,6 +5069,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4084"
     },
     {
+      "npc_id": 4155,
+      "name": "Idriana",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4155"
+    },
+    {
       "npc_id": 4160,
       "name": "Ainethil",
       "zone": "Darnassus",
@@ -9771,6 +9784,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265574"
     },
     {
+      "npc_id": 265809,
+      "name": "Brakk",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265809"
+    },
+    {
       "npc_id": 266881,
       "name": "Pa'zula",
       "zone": "Durotar",
@@ -9996,6 +10022,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 779,
-  "awaiting_signature_audio_profiles": 325
+  "authored_profiles": 781,
+  "awaiting_signature_audio_profiles": 327
 }

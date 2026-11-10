@@ -4018,5 +4018,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde woman; Current service and adult body; original dance-counting cadence; no Scout sighting claimed",
     "research_notes": "docs/research/jixos-small-finishes-and-naxxremis-rhythm.md"
+  },
+  {
+    "npc_id": 265809,
+    "name": "Brakk",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde man; Full journal/camping/profession dialogue; original snoring defense; no Scout sighting claimed",
+    "research_notes": "docs/research/brakks-night-watch-and-idrianas-owl.md"
+  },
+  {
+    "npc_id": 4155,
+    "name": "Idriana",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Own bank gossip and full4510 voucher dialogue; original owl hand shadow; no Scout sighting claimed",
+    "research_notes": "docs/research/brakks-night-watch-and-idrianas-owl.md"
   }
 ]
