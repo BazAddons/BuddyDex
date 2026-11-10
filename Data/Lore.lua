@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hyusaa Quickbreeze <Peacekeeper>, Shrine of Akir, Zephras. Adult
+    -- High Order female137888/M2 7478494; both factions Friendly.
+    -- Valennia second, full92947/93958 and connected campaign reviewed.
+    -- Ordinary pocket stone is original; no protective item or prophecy.
+    -- Research: docs/research/zephras-watch-and-relief.md
+    [253576] = {
+        quote = "I can watch your back without pretending there is nothing ahead of you to fear.",
+        likes = { "A careful look before moving onward", "Concern spoken plainly", "The weight of an ordinary pocket stone" },
+        dislikes = { "Silence mistaken for safety", "A victory declared too soon", "Someone dismissed for admitting fear" },
+        gossip = "Hyusaa keeps watch when others press ahead. She is less willing to call a quiet place safe than to make certain someone is watching it.",
+        bio = "Hyusaa Quickbreeze is a peacekeeper at the Shrine of Akir and Valennia Stormfist's second during the assault. She receives reports from the fighting and directs help toward the inner sanctum, remaining outside to watch the approach.",
+        backstory = "The assault brings Windshapers and High Order together against the cult. Hyusaa has fought to reach the shrine, but the unsettling quiet after the breach troubles her. She sends aid onward without claiming to know what waits inside.",
+        secret = "She carries a smooth, ordinary stone because she likes its weight in her hand. It offers no prophecy or protection. She finds it restful to ask so little of something.",
+        bestFriend = "We can sit a moment. The stone has no advice, and I need not give any either. I am glad you are here.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She values kindness that acknowledges concern without pretending all danger is gone.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "I am ready. Let us keep an eye on the way behind us as well as the way ahead.", tone = "[steady] [watchful]" }, "Good to see you. You need not hide a concern before speaking of it." },
+            idle = { { "The stone is quite ordinary. It has never offered a prophecy, and I do not consider that a failing.", tone = "[dry] [gentle]" }, "A quiet place and a safe place are not always the same thing.", "I like the weight of something that asks no judgment of me." },
+            befriended = { { "You stayed without asking me to make every concern disappear. I would welcome more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What have you noticed?", "I was keeping watch. We can still speak while I do." },
+            quest = { { "Find out what is needed before assuming the difficult part has ended.", tone = "[firm] [cautious]" } },
+            combatStart = { "Stay aware of the approach. We may not have seen everything yet." },
+            combatEnd = { "Look around before lowering your guard." },
+            group = { "Good. Someone can watch while another moves." },
+            rest = { "A pause, then. I can let an ordinary stone remain an ordinary stone." },
+            comforted = { "Thank you. It helps to have the concern heard without having to defend it." },
+            zone = { "Let us learn the way in, and keep the way out in mind." },
+        },
+    },
+
+    -- Yorana Windyreed <Peacekeeper>, Gustberry Lowlands eastern watchtower.
+    -- Adult High Order female137825/M2 7478494; both factions Friendly.
+    -- Full93320/92642/92645/92880 and connected campaign reviewed.
+    -- Practicing an unqualified admission is original; no extra commander rank.
+    -- Research: docs/research/zephras-watch-and-relief.md
+    [252378] = {
+        quote = "I would rather be wrong about the help we can expect than right about how little there is.",
+        likes = { "Help that exceeds her expectations", "A fighter honest about being tired", "Thanks earned through useful action" },
+        dislikes = { "An assault met with too few defenders", "Boasts that consume everyone's time", "The cult pressing exhausted fighters" },
+        gossip = "Yorana can revise a sharp first opinion. A pleasant surprise may earn a better one, though she keeps the admission brief.",
+        bio = "Peacekeeper Yorana Windyreed leads relief at the eastern watchtower in the Gustberry Lowlands. With the defenders tiring, she seeks to break the cult attack by disrupting its fighters and healers and removing Commander Belguilos.",
+        backstory = "She expects reinforcements and finds herself relying on a lone helper. Her first judgment is sharp, but success earns real gratitude. When the tower becomes more stable, she sends a report to Valennia while the remaining work continues.",
+        secret = "She has practiced admitting a mistaken judgment without adding any qualification. She can manage the words. Resisting the urge to add this once takes more effort.",
+        bestFriend = "You have heard my first opinion. Stay a while, and I may have the pleasure of replacing it with a better one.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates a plain acknowledgment after someone has done useful work.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "You are here. Good. I shall try not to spend the whole outing predicting how it will go.", tone = "[dry] [brisk]" }, "Ready. Perhaps the day intends to surprise me favorably." },
+            idle = { { "I can admit I was wrong. The difficulty is leaving it there without adding a qualification.", tone = "[wry] [matter-of-fact]" }, "A tired fighter needs help, not another person explaining how tired they look.", "An unexpectedly good result deserves to be noticed. Briefly, if possible." },
+            befriended = { { "You have given me reason to improve my opinion. I would be glad of more company that can do that.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? A useful suggestion would be welcome.", "I was reconsidering. You may allow me a moment to enjoy the novelty." },
+            quest = { { "Consider what keeps the trouble coming, rather than only what stands nearest to you.", tone = "[firm] [practical]" } },
+            combatStart = { "Keep your attention on what is helping them hold out." },
+            combatEnd = { "Good. Now see who needs a moment before the next task." },
+            group = { "Useful help. I am prepared to call that a promising start." },
+            rest = { "Sit down if you are tired. Pretending otherwise will not improve our position." },
+            thanked = { "You are welcome. I am pleased the work mattered." },
+            cheerAlong = { "Yes, that went better than I expected. You need not make me repeat it." },
+        },
+    },
+
     -- Blixie Fitzwink, near Tower of Azora, Elwynn. Adult Gnome female
     -- 148275/M2 940356, Alliance Friendly. Full Forever91725: Theocritus
     -- errand, gnoll ambush, escaped parcel, feared polymorph cleanup.

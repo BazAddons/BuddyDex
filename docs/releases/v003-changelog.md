@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Hyusaa Quickbreeze and Yorana Windyreed: two complete adult Skyborne profiles available through normal checks to both factions, with thirty personal lines queued.
+- Ground their watch and relief-force friendships in the full Forever quest context, with distinct cautious and skeptical personalities.
+
 - Add Blixie Fitzwink and Felika: two complete adult female profiles, with thirty personal lines queued.
 - Give Elwynn's Gnome supply-runner and Orgrimmar's wandering Orc merchant distinct friendships grounded in Forever quest text and current trade stock.
 
@@ -138,4 +141,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **570 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **572 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

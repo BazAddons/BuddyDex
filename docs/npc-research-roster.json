@@ -2555,5 +2555,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed exact adult female Gnome/Orc body and current faction Friendly; full Forever91725 or current36-item trade stock, no Scout sighting claimed",
     "research_notes": "docs/research/blixie-deliveries-and-felika-colors.md"
+  },
+  {
+    "npc_id": 253576,
+    "name": "Hyusaa Quickbreeze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order female body, current both factions Friendly, all own quests and full connected campaign context; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-watch-and-relief.md"
+  },
+  {
+    "npc_id": 252378,
+    "name": "Yorana Windyreed",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order female body, current both factions Friendly, all own quests and full connected campaign context; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-watch-and-relief.md"
   }
 ]

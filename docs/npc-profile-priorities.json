@@ -2226,6 +2226,20 @@
       "zone": "Orgrimmar",
       "route": "Horde Orgrimmar wandering trade merchant",
       "reason": "Complete adult female profile with fifteen queued lines in verified approved race voice; delivery/merchant facts separate from original friendship stories, no synthesis"
+    },
+    {
+      "npc_id": 253576,
+      "name": "Hyusaa Quickbreeze",
+      "zone": "Zephras Isle",
+      "route": "Shared Zephras shrine-assault peacekeeper",
+      "reason": "Complete adult Skyborne female profile with fifteen queued lines; both factions Friendly checked separately, campaign branches not universal prerequisites, no synthesis"
+    },
+    {
+      "npc_id": 252378,
+      "name": "Yorana Windyreed",
+      "zone": "Zephras Isle",
+      "route": "Shared Zephras eastern watchtower relief peacekeeper",
+      "reason": "Complete adult Skyborne female profile with fifteen queued lines; both factions Friendly checked separately, campaign branches not universal prerequisites, no synthesis"
     }
   ]
 }

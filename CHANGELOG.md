@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hyusaa Quickbreeze and Yorana Windyreed: two complete adult Skyborne profiles available through normal checks to both factions, with thirty personal lines queued.
+- Ground their watch and relief-force friendships in the full Forever quest context, with distinct cautious and skeptical personalities.
+
 - Add Blixie Fitzwink and Felika: two complete adult female profiles, with thirty personal lines queued.
 - Give Elwynn's Gnome supply-runner and Orgrimmar's wandering Orc merchant distinct friendships grounded in Forever quest text and current trade stock.
 
