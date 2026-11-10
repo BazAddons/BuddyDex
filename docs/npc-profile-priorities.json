@@ -1722,6 +1722,27 @@
       "zone": "Tanaris",
       "route": "Adult Gnome enchanter/supplier pair and Steamwheedle Goblin supplier",
       "reason": "Full researched text and fifteen queued lines; approved adult Gnome male/female and Goblin male voices; explicit current Friendly evidence, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 257018,
+      "name": "Naleeia Tattermend",
+      "zone": "Zephras Isle",
+      "route": "Shared Skyborne medic/orchard and Horde Windshaper mainland arrival",
+      "reason": "Full researched text and fifteen queued lines; approved adult Skyborne female/male voices; two shared Friendly and one Horde Friendly, no injury cure, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 259119,
+      "name": "Alaana Stormwalker",
+      "zone": "Mulgore",
+      "route": "Shared Skyborne medic/orchard and Horde Windshaper mainland arrival",
+      "reason": "Full researched text and fifteen queued lines; approved adult Skyborne female/male voices; two shared Friendly and one Horde Friendly, no injury cure, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 252448,
+      "name": "Alvarion Windfield",
+      "zone": "Zephras Isle",
+      "route": "Shared Skyborne medic/orchard and Horde Windshaper mainland arrival",
+      "reason": "Full researched text and fifteen queued lines; approved adult Skyborne female/male voices; two shared Friendly and one Horde Friendly, no injury cure, ordinary live gates retained; no synthesis"
     }
   ]
 }

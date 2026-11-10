@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Naleeia Tattermend, Alaana Stormwalker and Alvarion Windfield: three full adult Skyborne profiles with forty-five personal lines queued for approved voices.
+- Deepen both Zephras paths and the Horde arrival in Mulgore; preserve actual camping/arrival context, Alvarion's injuries and unresolved family/construct details.
+
 - Add Gimble Thistlefuzz, Tilli Thistlefuzz and Jabbey: three full researched adult Gnome/Goblin profiles with forty-five personal lines queued.
 - Preserve current enchanting/supply roles and normal live eligibility; exclude unverified family ties, Season of Discovery biography and later retail events.
 

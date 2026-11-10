@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 216,
+    "alliance": 218,
     "unverified": 130,
-    "horde": 159
+    "horde": 162
   },
   "npc_race_counts": {
     "1": 165,
@@ -17,8 +17,8 @@
     "8": 38,
     "9": 24,
     "6": 55,
-    "96": 5,
-    "95": 7
+    "96": 6,
+    "95": 9
   },
   "zone_counts": {
     "Elwynn Forest": 25,
@@ -37,7 +37,7 @@
     "Orgrimmar": 31,
     "Badlands": 1,
     "Darkshore": 5,
-    "Mulgore": 13,
+    "Mulgore": 14,
     "Thunder Bluff": 27,
     "Durotar": 41,
     "The Barrens": 22,
@@ -53,7 +53,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 12,
+    "Zephras Isle": 14,
     "Riverglades": 1
   },
   "entries": [
@@ -6087,6 +6087,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252382"
     },
     {
+      "npc_id": 252448,
+      "name": "Alvarion Windfield",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Alliance Friendly; Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252448"
+    },
+    {
       "npc_id": 252800,
       "name": "Aamelia Windfield",
       "zone": "Zephras Isle",
@@ -6169,6 +6183,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257006"
     },
     {
+      "npc_id": 257018,
+      "name": "Naleeia Tattermend",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Alliance Friendly; Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257018"
+    },
+    {
       "npc_id": 257037,
       "name": "Zelena Favorbreeze",
       "zone": "Zephras Isle",
@@ -6206,6 +6234,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258930"
+    },
+    {
+      "npc_id": 259119,
+      "name": "Alaana Stormwalker",
+      "zone": "Mulgore",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/259119"
     },
     {
       "npc_id": 266881,
@@ -6380,6 +6421,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 498,
-  "awaiting_signature_audio_profiles": 44
+  "authored_profiles": 501,
+  "awaiting_signature_audio_profiles": 47
 }

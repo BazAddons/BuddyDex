@@ -41,6 +41,97 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Naleeia Tattermend <Medic>, Shen'dar Village, Zephras Isle. Adult
+    -- female High Order Skyborne257018/display140076, both factionsFriendly.
+    -- Current97965 and thirteen training rows establish first aid/camp kit.
+    -- Unfinished personal shopping list original; no invented Tattermend kin.
+    -- docs/research/skyborne-medic-vanguard-and-orchard.md.
+    [257018] = {
+        recordingVoice = "skyborne-female",
+        quote = "I am glad to help. Once this is finished, you may remind me that the person carrying the supplies is allowed a little care, too.",
+        likes = { "A learner who prepares before leaving", "Care extended to the one giving it", "An afternoon with one fewer obligation" },
+        dislikes = { "Supplies remembered after the injury", "Interruptions with no clear purpose", "Treating rest as somebody else's privilege" },
+        gossip = "Naleeia keeps a short list of things to buy. The last line says something for myself. It has been awaiting a more precise description.",
+        bio = "Naleeia Tattermend is a medic in Shen'dar Village. She teaches first aid and helps prepared learners craft a kit for their wilderness camps. Her readiness to help does not mean the work already before her can always be set aside.",
+        backstory = "After a day spent remembering what others needed, Naleeia wrote herself a small shopping list. She added a final line for something of her own choosing. Deciding what belonged there proved harder than gathering everyone else's supplies.",
+        secret = "She has kept that last line open rather than filling it out of duty. She would like to choose a pleasure without first explaining how it might be useful to somebody else.",
+        bestFriend = "Stay a little. We need not turn the visit into another task. This may be what I wanted to put on the last line all along.",
+        favorite = { emote = "COMFORT", hint = "Someone who is often ready to help might appreciate having that care returned." },
+        lines = {
+            greet = { { "Good to see you. May this be a visit, rather than another urgent item on the list?", tone = "[composed] [gently hopeful]" }, "There you are. I can make a little room for good company." },
+            idle = { { "Something for myself. A perfectly clear instruction until I try to decide what it means.", tone = "[thoughtful] [dryly amused]" }, "Being ready to help does not make the work already in my hands unimportant.", "The person carrying the kit should remember to rest as well." },
+            befriended = { { "I would enjoy your company. It is good to be asked what I would like, as well as what I can do.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need clearly, and give me a moment to finish this.", "The last line is still undecided. You may suggest something pleasantly unnecessary." },
+            learned = { { "Practice before you need it. Preparation is a kindness you can offer your future self.", tone = "[steady] [instructive]" } },
+            bagsFull = { "Useful supplies need a place you can reach, not merely a place they can fit." },
+            rest = { "A campfire and a little time to settle. We are allowed to benefit from the care we prepare." },
+            combatEnd = { "A moment to take stock before the next demand. That includes you." },
+            quest = { "Finished. Let yourself put it down instead of immediately inventing another obligation." },
+            mail = { "I hope it is good news rather than another list of things that cannot wait." },
+            hearth = { "Home. A good place to remember that not every choice needs to be useful." },
+        },
+    },
+    -- Alaana Stormwalker <Windshapers>, Mulgore.
+    -- Adult female Windshaper Skyborne259119/display143208, Horde Friendly.
+    -- Current95349/95350 and full six-stage departure chain read. Receiving
+    -- vanguard, not author of all preceding deeds; ordinary helpers list is
+    -- original. docs/research/skyborne-medic-vanguard-and-orchard.md.
+    [259119] = {
+        recordingVoice = "skyborne-female",
+        quote = "We should learn the names of those who lead our allies. And of the person who stopped to show us the road when we were lost.",
+        likes = { "A newcomer made welcome", "Directions offered without mockery", "Remembering an ordinary helper's name" },
+        dislikes = { "Pretending to know an unfamiliar land", "Treating allies as useful strangers", "Forgetting the kindness behind an arrival" },
+        gossip = "Alaana writes down useful names. Her list has room for important leaders, but also for people who took a moment to help someone find the way.",
+        bio = "Alaana Stormwalker receives Windshapers arriving in Mulgore. Establishing themselves in Azeroth will take time, and she urges newcomers to learn the lands nearby. Their new Horde allies matter to their survival as well as their welcome.",
+        backstory = "While thinking through the names a newcomer should know, Alaana left space beside the prominent ones. She wanted to remember quieter help as well: a patient answer, a direction offered, a moment when an unfamiliar place felt less distant.",
+        secret = "She hopes the ordinary names will eventually fill more space than the grand ones. A new alliance should become more than a list of people important enough to ask for favors.",
+        bestFriend = "Your name belongs among the ones that make this world feel less unfamiliar. I am glad our meeting became more than an introduction.",
+        favorite = { emote = "WELCOME", hint = "She knows how much a sincere reception matters when someone arrives among unfamiliar people." },
+        lines = {
+            greet = { { "It is good to see a familiar friend in a world with so much still to learn.", tone = "[warm] [confident]" }, "Come. There is room for curiosity alongside all the work of getting established." },
+            idle = { { "I left space for the ordinary names. I hope that becomes the longer list.", tone = "[thoughtful] [hopeful]" }, "An honest question is a better beginning than pretending the road is familiar.", "A welcome is worth remembering after the directions have served their purpose." },
+            befriended = { { "I would be glad to come along. Knowing a place becomes much richer when you begin to know its people.", tone = "[sincere] [welcoming]" } },
+            poke = { "Yes? If it is a question neither of us can answer, we may learn something together.", "I remember your name for more than the help you could offer." },
+            zone = { { "New ground. Let us learn who calls it home, as well as which road crosses it.", tone = "[curious] [respectful]" } },
+            quest = { "A little more understanding to carry with us. I hope the meeting mattered on both sides." },
+            mail = { "News can make a distant ally feel a little less distant." },
+            rest = { "We need not become familiar with the whole world in one afternoon." },
+            learned = { "Good. There is no shame in having needed someone to show you." },
+            landed = { "Arrived. Now we can take the time to understand where we are." },
+            hearth = { "A familiar place, and perhaps another familiar face. Both are welcome." },
+        },
+    },
+    -- Alvarion Windfield, recovering in Valanaar, Zephras Isle. Adult male
+    -- High Order Skyborne252448/display144573, both factionsFriendly. Full
+    -- orchard chain/own spoken account: Aamelia his wife, repeated extortion,
+    -- hired warrior's assault. Still injured; no assumed recovery, victory,
+    -- disclosed pregnancy or construct repair. Quiet breakfast wish original.
+    -- docs/research/skyborne-medic-vanguard-and-orchard.md.
+    [252448] = {
+        recordingVoice = "skyborne-male",
+        quote = "I used to think a quiet morning was an ordinary thing. Now I think I would like very much to have another one.",
+        likes = { "A patient visitor", "Honest news from the orchard", "The thought of an unhurried breakfast" },
+        dislikes = { "Promises that hide a threat", "People who prey on someone asking for help", "Being told worry proves a lack of courage" },
+        gossip = "Alvarion talks about a quiet breakfast at home as though it were a great ambition. Those who have heard him describe the orchard understand why.",
+        bio = "Alvarion Windfield lies injured in Valanaar after seeking help for the orchard he runs with his wife, Aamelia. Bandits have demanded more than their light harvest can bear. He needs someone trustworthy to reach her while he cannot.",
+        backstory = "Repeated raids left Alvarion looking for fighters to protect the farm. The warrior he hired instead robbed and nearly killed him. With the peacekeepers stretched by the cult, he is left asking a stranger to do what he cannot do from his bed.",
+        secret = "He imagines an ordinary breakfast with Aamelia, with nothing urgent to explain before the meal. He knows imagining it is not the same as being safe. He wants to keep the wish anyway.",
+        bestFriend = "Thank you for sitting with me. Whatever news the next day brings, your company has made this one easier to bear.",
+        favorite = { emote = "COMFORT", hint = "He needs someone to hear the fear behind his request, not mistake it for weakness." },
+        lines = {
+            greet = { { "You came back. It is good to have someone here who will listen for a little while.", tone = "[weary] [quietly grateful]" }, "Hello, friend. Tell me how the day has treated you." },
+            idle = { { "A quiet breakfast. Nothing heroic. Just time to finish a meal without wondering what will be taken next.", tone = "[softly] [wistful]" }, "I know wishing will not make the orchard safe. I do not think that means I must stop wishing.", "Aamelia is at the orchard. I wish I could do more than send someone to her." },
+            befriended = { { "You listened and returned. After what happened when I went looking for help, that means more than I can easily say.", tone = "[strained] [sincere]" } },
+            poke = { "Yes? Give me a moment. I am still here with you.", "I would welcome an ordinary story today, if you have one to tell." },
+            quest = { { "If someone trusted you with their trouble, I hope they know what that trust meant to you.", tone = "[weary] [earnest]" } },
+            rest = { "You may rest without defending the choice to me. There is no virtue in pretending you need none." },
+            mail = { "News from someone you love can make the distance feel very large, or a little smaller." },
+            loot = { "I hope what you gain has not been taken from someone who could not afford to lose it." },
+            combatEnd = { "I hope you have come through safely. Please take a moment to be sure." },
+            levelUp = { "I am glad you are growing more capable. I hope you keep the kindness that makes it matter." },
+            hearth = { "A familiar doorway. I hope someone there is glad to hear you have returned." },
+        },
+    },
     -- Gimble Thistlefuzz <Expert Enchanter>, Thistlefuzz Arcanery, Ironforge.
     -- Adult male Gnome5157/display3111, Alliance Friendly. Own gossip is
     -- brusque; refers learners to Thonys/Kitta. No invented Tilli kinship.

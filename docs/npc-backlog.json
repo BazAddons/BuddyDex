@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 498,
-  "written_complete_count": 498,
-  "awaiting_signature_audio_count": 44,
+  "authored_count": 501,
+  "written_complete_count": 501,
+  "awaiting_signature_audio_count": 47,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 46,
+  "remaining_count": 49,
   "completed": [
     {
       "npc_id": 54,
@@ -4629,6 +4629,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 252448,
+      "name": "Alvarion Windfield",
+      "zone": "Zephras Isle",
+      "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+      "research_notes": "docs/research/skyborne-medic-vanguard-and-orchard.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 252800,
       "name": "Aamelia Windfield",
       "zone": "Zephras Isle",
@@ -4689,6 +4701,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 257018,
+      "name": "Naleeia Tattermend",
+      "zone": "Zephras Isle",
+      "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+      "research_notes": "docs/research/skyborne-medic-vanguard-and-orchard.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 257037,
       "name": "Zelena Favorbreeze",
       "zone": "Zephras Isle",
@@ -4715,6 +4739,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 259119,
+      "name": "Alaana Stormwalker",
+      "zone": "Mulgore",
+      "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+      "research_notes": "docs/research/skyborne-medic-vanguard-and-orchard.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 266881,
