@@ -3801,6 +3801,20 @@
       "zone": "Ashenvale",
       "route": "Astranaar food and drink vendor",
       "reason": "Full98027 confirms late parents and lost gift; original crescent tracing; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251913,
+      "name": "Aedi Thriceforged",
+      "zone": "Zephras Isle",
+      "route": "Shendar blacksmith",
+      "reason": "Own hammer/tricks gossip and97964; original missing-hammer incident; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251964,
+      "name": "Blademaster Ren",
+      "zone": "Zephras Isle",
+      "route": "Thendal warrior trainer",
+      "reason": "Full92532 and resolve gossip; original last learner scene; fifteen personal lines queued without synthesis"
     }
   ]
 }

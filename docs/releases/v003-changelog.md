@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Aedi Thriceforged and Blademaster Ren: adult High Order profiles with thirty personal lines queued.
+- Review camping and warrior-introduction text plus own gossip; document original hammer and last-learner scenes.
+
 - Add Gurda Wildmane and Maliynn: adult Tauren and Night Elf profiles with thirty personal lines queued.
 - Review all five centaur quests and the lost-necklace story; document original carving and crescent-tracing scenes.
 
@@ -495,4 +498,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **795 fully written NPC profiles**: 454 have initial signature recordings, and three hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **797 fully written NPC profiles**: 454 have initial signature recordings, and three hundred forty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

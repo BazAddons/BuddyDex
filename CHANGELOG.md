@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Aedi Thriceforged and Blademaster Ren: adult High Order profiles with thirty personal lines queued.
+- Review camping and warrior-introduction text plus own gossip; document original hammer and last-learner scenes.
+
 - Add Gurda Wildmane and Maliynn: adult Tauren and Night Elf profiles with thirty personal lines queued.
 - Review all five centaur quests and the lost-necklace story; document original carving and crescent-tracing scenes.
 

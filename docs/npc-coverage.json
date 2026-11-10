@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 340,
+    "alliance": 342,
     "unverified": 166,
-    "horde": 326
+    "horde": 328
   },
   "npc_race_counts": {
     "1": 167,
@@ -18,7 +18,7 @@
     "9": 57,
     "6": 86,
     "96": 26,
-    "95": 33
+    "95": 35
   },
   "zone_counts": {
     "Elwynn Forest": 28,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 57,
+    "Zephras Isle": 59,
     "Riverglades": 12,
     "Felwood": 1
   },
@@ -9000,6 +9000,34 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251906"
     },
     {
+      "npc_id": 251913,
+      "name": "Aedi Thriceforged",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251913"
+    },
+    {
+      "npc_id": 251964,
+      "name": "Blademaster Ren",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251964"
+    },
+    {
       "npc_id": 251991,
       "name": "Taleen Shimmerthread",
       "zone": "Zephras Isle",
@@ -10205,6 +10233,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 795,
-  "awaiting_signature_audio_profiles": 341
+  "authored_profiles": 797,
+  "awaiting_signature_audio_profiles": 343
 }

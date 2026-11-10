@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Aedi Thriceforged <Blacksmith>, Shendar/Zephras. Adult High
+    -- Order male144935/M2 7478487, both Friendly. Own hammer gossip
+    -- and97964 checked; pointing with the missing hammer is original.
+    -- Research: docs/research/aedis-hammer-and-rens-last-learner.md
+    [251913] = {
+        quote = "If I ask whether you have seen my hammer, first look at my hand. There is a reasonable chance I am pointing with it.",
+        likes = { "A willing learner trying the useful trick", "A sound tool understood by its user", "A friend correcting him without a spectacle" },
+        dislikes = { "Impressive talk replacing careful work", "A hurried answer to a practical question", "A missing hammer called a mystery too soon" },
+        gossip = "Aedi asked where his hammer had gone while pointing with it. He maintains that the demonstration was already under way.",
+        bio = "Aedi Thriceforged is a blacksmith in Shen'dar Village on Zephras Isle. He offers practical instruction and useful tricks at the hammer. An explanation sometimes absorbs enough of his attention that the tool already in his hand escapes his notice.",
+        backstory = "He was explaining a useful trick when he asked where his hammer had gone. His listener looked at the hand he was using to point. Aedi decided the demonstration had already begun and continued from there.",
+        secret = "He appreciates a friend who can point out the obvious quietly. There is room to laugh at the little oversight without losing the pleasure of sharing something he knows how to do.",
+        bestFriend = "Come along, friend. You may keep an eye on the hammer while I hear your news. I am pleased to have company who knows where to look.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates a little shared understanding that lets a harmless oversight remain a private joke.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me what you have been doing while I make certain I have not misplaced anything I am presently holding.", tone = "[warm] [self-aware humor]" }, "Good to see you. There may be a useful trick to share, provided we leave time to hear what you have discovered as well." },
+            idle = { { "I asked where the hammer had gone. They looked at my hand. A practical answer, which allowed the demonstration to continue with very little additional explanation.", tone = "[matter-of-fact] [amused]" }, "A sound tool is worth understanding. You will learn more from knowing what your hand is doing than from making the explanation sound impressive.", "You may point out the obvious quietly. I appreciate the useful correction more readily when it has not become a public search for the missing hammer." },
+            befriended = { { "You have become company with whom I can share a useful thing and a foolish little oversight without spoiling either pleasure. Come along, friend. I am glad to have you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Before asking about the hammer, kindly confirm that it is not in the hand I am using to answer.", "Go on. I can set the explanation aside long enough to hear the question." },
+            learned = { { "Good. Try it carefully enough to understand what changed. A useful trick is better carried in the hand than merely repeated in the telling.", tone = "[steady] [encouraging]" } },
+            gear = { "Have a proper look at how it sits and moves. The work becomes easier when the thing you rely on does not fight the way you use it." },
+            loot = { "Something useful. Put it where you will remember it, unless you intend to spend the next conversation asking who has seen it." },
+            rest = { "A pause. We can let the next demonstration wait and hear a story that requires nothing to be set right first." },
+            newFriend = { "Someone new. Give them a proper greeting before deciding how many useful things they ought to learn at once." },
+            thanked = { "You are welcome. I am pleased the useful part reached you." },
+            group = { "Room for each pair of hands. We will get farther once everyone understands what they are trying to do." },
+        },
+    },
+
+    -- Blademaster Ren <Warrior Trainer>, Thendal/Zephras. Adult High
+    -- Order female138170/M2 7478494, both Friendly. Full92532 and
+    -- resolve gossip; waiting for a learner to pack is original.
+    -- Research: docs/research/aedis-hammer-and-rens-last-learner.md
+    [251964] = {
+        quote = "The lesson is over. That does not mean I must leave before the last person has finished putting their things away.",
+        likes = { "Resolve used to protect the company", "A learner given room to finish properly", "A leader noticing who has fallen behind" },
+        dislikes = { "Courage reduced to a loud performance", "A finished lesson used as excuse to leave", "The quietest person hurried out of the group" },
+        gossip = "Ren often waits for the last learner to finish putting their kit away. She appears to count this as part of finishing the lesson.",
+        bio = "Blademaster Ren trains warriors in Thendal Village on Zephras Isle. She expects resolve in the face of danger and teaches with the survival of her people in mind. Growing stronger should prepare a warrior to lead and protect others.",
+        backstory = "After a lesson, she noticed one learner still gathering their kit. Ren stayed until they were ready to leave. It seemed a plain way to practice the care she expected others to carry into danger.",
+        secret = "She values the moment a quieter person realizes they need not hurry to avoid being left behind. A small pause can teach something a shouted order cannot.",
+        bestFriend = "Come along, friend. There is time to finish what you are doing. I have no wish to begin our company by leaving you behind.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She appreciates a composed gesture of respect for resolve carried on behalf of others.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along when you are ready. Finish putting your things in order; I can wait a moment without considering the whole journey delayed.", tone = "[composed] [reassuring]" }, "Good to see you. Tell me how you have been, and whether you have given yourself the same consideration you would offer the company." },
+            idle = { { "The lesson had finished, but one person was still gathering their kit. I stayed. It seemed a poor demonstration of standing together to leave them hurrying after me.", tone = "[firm] [quiet warmth]" }, "Resolve matters most when it gives another person reason to trust that you will remain beside them. A loud account of your courage is less useful.", "You may finish the small task. Not every pause is a failure of discipline, and not every hurried departure is a sign of purpose." },
+            befriended = { { "You have become company I am pleased to stand beside when there is no lesson or danger requiring it. Come along, friend. We may begin at a pace that leaves neither of us behind.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? There is time to hear the question properly.", "Go on. Finish the account before deciding which part I need to answer." },
+            learned = { { "Good. Carry the lesson beyond the moment someone is watching. Strength becomes dependable through what you continue to practice.", tone = "[steady] [approving]" } },
+            gear = { "Put it in order before the company needs to move. Preparation should give you more attention for those beside you, not less." },
+            combatEnd = { "Take stock of everyone before moving on. The end of a fight does not put each person in the same condition." },
+            rest = { "A pause. Let the whole company have the chance to recover before the most restless person decides everyone must be ready." },
+            newFriend = { "Someone new. Make the introduction clear, and leave them room to find their place in the conversation." },
+            thanked = { "You are welcome. I am pleased the care was useful to you." },
+            group = { "Before we move, look at who is still preparing. A little attention now prevents someone beginning the journey already behind." },
+        },
+    },
+
     -- Gurda Wildmane, Ghost Walker Post/Desolace. Adult Tauren
     -- female4695/M2 986648, Horde Friendly. All five own quest texts
     -- read; strategic intent retained. Private tree carving is original.

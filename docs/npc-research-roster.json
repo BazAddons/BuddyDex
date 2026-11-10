@@ -4130,5 +4130,19 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult alliance woman; Full98027 confirms late parents and lost gift; original crescent tracing; no Scout sighting claimed",
     "research_notes": "docs/research/gurdas-little-tree-and-maliynns-crescent.md"
+  },
+  {
+    "npc_id": 251913,
+    "name": "Aedi Thriceforged",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde man; Own hammer/tricks gossip and97964; original missing-hammer incident; no Scout sighting claimed",
+    "research_notes": "docs/research/aedis-hammer-and-rens-last-learner.md"
+  },
+  {
+    "npc_id": 251964,
+    "name": "Blademaster Ren",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full92532 and resolve gossip; original last learner scene; no Scout sighting claimed",
+    "research_notes": "docs/research/aedis-hammer-and-rens-last-learner.md"
   }
 ]
