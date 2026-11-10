@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gaxim Rustfizzle and Linzy Blackbolt: two adult Gnome profiles with thirty personal lines queued.
+- Research Gaxim's full Stonetalon/Castpipe branches and Linzy's Forever Dalaran identity, with original birdsong and riddle-telling stories documented separately.
+
 - Add Belann Windwood and Nyassa Swiftdraught: two adult Skyborne profiles with thirty personal lines queued.
 - Expand Valanaar and Shen'dar contacts with researched focus-crafting and alchemy traditions, keeping new friendship stories distinct from game lore.
 

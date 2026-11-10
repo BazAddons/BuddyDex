@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gaxim Rustfizzle, Stonetalon. Adult Gnome male2180/M2 900914,
+    -- Alliance Friendly. Full18quest Stonetalon/Castpipe branches and
+    -- installed explosives gossip read. Forest conservation is factual;
+    -- pausing his presentation for birdsong is original.
+    -- Research: docs/research/gaxims-living-forest-and-linzys-riddle.md
+    [4077] = {
+        quote = "The point is to save the forest. The impressive demonstration is merely how I intend to get your attention.",
+        likes = { "Magic and engineering solving one problem", "A useful plan carried through alive", "Birdsong interrupting a grand explanation" },
+        dislikes = { "The Venture Company's deforestation", "A distraction mistaken for the objective", "A useful science dismissed unheard" },
+        gossip = "Gaxim can explain an invention for quite some time. A bird calling above the camp once persuaded him to leave the next sentence unfinished.",
+        bio = "Gaxim Rustfizzle works with Kaela Shadowspear in Stonetalon. An EAAAES member, he combines magic, alchemy and engineering against the Venture Company. His explosive distractions serve a larger aim: recovering information and helping save the forest.",
+        backstory = "While describing another device, he heard a bird call above the camp. Gaxim stopped to listen. For a moment, the forest he meant to protect had supplied an explanation of its own, and he was content to let it finish.",
+        secret = "He enjoys that pause more than he admits in his grand presentations. A living forest has things to say that require no improvement from him.",
+        bestFriend = "Come listen a moment, friend. I can explain the device afterward. This is part of what I want the whole splendid plan to protect.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys an enthusiastic acknowledgment when a useful plan brings the work of protecting the forest a little further along.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are! Ready, friend? I have a splendid explanation prepared. But if we hear something worth listening to on the way, the explanation can wait.", tone = "[animated] [welcoming]" }, "Good to see you! Come along. Magic, mixtures and mechanisms have plenty to offer, and I should enjoy telling you what I have been considering." },
+            idle = { { "A bird called while I was explaining a device. I stopped. For once, the forest I meant to protect had supplied the more interesting part of the conversation.", tone = "[thoughtful] [quietly amused]" }, "The distraction is not the objective. Bring back the information, and bring yourself back with it. I can appreciate a splendid demonstration without confusing those things.", "People hear magic, alchemy and engineering as three different arguments. I keep imagining what they could accomplish if allowed into the same plan." },
+            befriended = { { "You understand that there is a forest beyond the demonstration, and you have stayed to hear what I hope we can do for it. Come along, friend. I am glad to have you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was just reaching the useful part. All right, perhaps I should have begun there. What is it?", "I am listening. A question about the objective is particularly welcome before anyone becomes too impressed with the distraction." },
+            cheerAlong = { { "Progress! Splendid! Give the useful result its due. Then listen a moment. I should like the forest to have something left to add.", tone = "[enthusiastic] [pleased]" } },
+            quest = { "Know the objective before admiring the method. A beautiful distraction is only useful if it helps you finish what you went there to do." },
+            learned = { "Another possibility! Consider how it might work beside something you already know. Useful ideas do not always arrive in the same discipline." },
+            gear = { "What can it help you do? Begin there. The magnificent description will have its opportunity after the useful question has been answered." },
+            combatEnd = { "Back in one piece? Good. Now take the moment to notice what needs attention before beginning the next splendid undertaking." },
+            rest = { "A pause. Listen a little. There are things worth keeping in the world that need no new mechanism from me." },
+            thanked = { "You are welcome, friend. I am pleased the plan helped. Remember the part you made work, as well as the invention." },
+        },
+    },
+
+    -- Linzy Blackbolt <Alchemist>, Dalaran, Alterac. Adult Gnome
+    -- female130186/M2 940356, Alliance Friendly/Horde Neutral. Own
+    -- four current tables0, no installed own gossip. Riddle-order
+    -- enthusiasm is original; no Northrend profession lore imported.
+    -- Research: docs/research/gaxims-living-forest-and-linzys-riddle.md
+    [246795] = {
+        quote = "I know a splendid riddle. Oh, wait. You need the question before I explain why the answer is so clever.",
+        likes = { "The clever turn in an ordinary riddle", "Someone sharing the amusement", "A useful explanation arriving in order" },
+        dislikes = { "Giving away the answer too soon", "A listener made foolish for a harmless guess", "A question lost beneath its explanation" },
+        gossip = "Linzy knows a splendid riddle. She may explain the clever part before remembering that her listener has not heard the question yet.",
+        bio = "Linzy Blackbolt is a Gnome alchemist in Dalaran, in the Alterac Mountains. Away from the practical business of her profession, she enjoys a good riddle. Her enthusiasm for its answer can arrive rather ahead of the question.",
+        backstory = "She began telling a visitor a riddle, then became so pleased with its clever explanation that she finished it before they could guess. The visitor laughed and asked what the question had been. Linzy realized she had skipped an important step.",
+        secret = "She enjoys sharing the clever part more than keeping someone puzzled. A friend who already knows the answer can still be excellent company for the telling.",
+        bestFriend = "Come along. You may know this one already. I would still enjoy the part where we both grin at it, and I like sharing that with you.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She likes the little moment when someone sees the clever turn and shares her enjoyment of it.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "There you are! Shall we? I have a splendid riddle to tell you. Question first this time. I have given that order some consideration.", tone = "[bright] [welcoming]" }, "Good to see you. Come along. If you already know the answer, we can still enjoy the clever part together." },
+            idle = { { "The visitor asked what the question had been. A very reasonable request. I had become so delighted with the answer that I explained it before leaving them time to guess.", tone = "[amused] [self-aware]" }, "The clever turn is the part I want to share. Keeping someone puzzled is pleasant enough, but I do find myself hurrying toward the bit that makes us both grin.", "Question, pause, answer, explanation. A perfectly sensible order. Remembering it while excited is apparently another skill to practice." },
+            befriended = { { "You can know the answer and still enjoy hearing me tell it. I like that about you, friend. Come along. It will be good to share a little amusement on the way.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have I left out the question again? Tell me where I should begin this time.", "I am listening. If you have a riddle, I promise to let you reach the question before admiring the explanation." },
+            laughAlong = { { "Exactly! That is the part I was trying to save for the end. No harm in enjoying it a little sooner, I suppose.", tone = "[delighted] [playful]" } },
+            learned = { "Good. Give the explanation a moment to settle before racing toward what you can do with it. I speak with some experience of hurrying the interesting part." },
+            quest = { "Read the question before deciding you recognize the answer. Enthusiasm has persuaded me to get those in the wrong order before." },
+            group = { "Has everyone heard the beginning? Good. I have recently been reminded how useful that can be." },
+            rest = { "A comfortable pause. I could tell you a riddle, or you could tell me one. I shall try to leave the answer where you put it." },
+            thanked = { "You are welcome. I am pleased it helped. And thank you for staying through the explanation." },
+            newFriend = { "Someone new to know. I wonder whether they enjoy a good riddle. I shall attempt to ask before explaining my favorite one." },
+        },
+    },
+
     -- Belann Windwood <Staff Merchant>, Valanaar. Adult Windshaper
     -- Skyborne male139671/M2 7478487, both factions Friendly. Full
     -- 93791/93797 text: over a century crafting for High Order. Four

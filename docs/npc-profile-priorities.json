@@ -3290,6 +3290,20 @@
       "zone": "Zephras Isle",
       "route": "Shendar early alchemy route",
       "reason": "Complete adult profile with fifteen personal lines queued; verified race95 adult female identity, researched camping referral and original flower-vial story; no synthesis"
+    },
+    {
+      "npc_id": 4077,
+      "name": "Gaxim Rustfizzle",
+      "zone": "Stonetalon Mountains",
+      "route": "Stonetalon conservation and combined sciences",
+      "reason": "Complete adult profile with fifteen personal lines queued; researched sciences/forest purpose and original birdsong pause; no synthesis"
+    },
+    {
+      "npc_id": 246795,
+      "name": "Linzy Blackbolt",
+      "zone": "Alterac Mountains",
+      "route": "Dalaran alchemy contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified Forever alchemist identity and original riddle-order enthusiasm; no synthesis"
     }
   ]
 }

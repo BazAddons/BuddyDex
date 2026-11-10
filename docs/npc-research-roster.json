@@ -3619,5 +3619,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Horde Friendly High Order Skyborne woman; current vials, full camping referral and installed proud alchemist dialogue; vial-flower story original; no Scout sighting claimed",
     "research_notes": "docs/research/valanaar-worn-focus-and-nyassas-flower.md"
+  },
+  {
+    "npc_id": 4077,
+    "name": "Gaxim Rustfizzle",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult Alliance Friendly Gnome man;18full relevant quest texts and installed own explosives dialogue; original birdsong pause; no Scout sighting claimed",
+    "research_notes": "docs/research/gaxims-living-forest-and-linzys-riddle.md"
+  },
+  {
+    "npc_id": 246795,
+    "name": "Linzy Blackbolt",
+    "zone": "Alterac Mountains",
+    "source": "Reviewed adult Alliance Friendly Gnome woman in Forever Dalaran; primary alchemist role with empty own tables, no personal gossip/quests found; original riddle-order story; no Scout sighting claimed",
+    "research_notes": "docs/research/gaxims-living-forest-and-linzys-riddle.md"
   }
 ]
