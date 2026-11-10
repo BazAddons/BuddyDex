@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Dink and Vance Undergloom: two complete adult profiles with thirty personal lines queued.
+- Expand Gnome mage and Forsaken enchanting contacts using full quest-chain, lesson and dialogue research.
+
 - Add Ishlee Breezewhisper, Halassa Fernbreeze and Baelann Swiftcurrent: three complete adult profiles with forty-five personal lines queued.
 - Expand Zephras Isle Skinning, Herbalism and Fishing contacts with verified training roles and distinct personal stories.
 

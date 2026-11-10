@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dink <Mage Trainer>, Hall of Mysteries, Ironforge. Adult Gnome
+    -- male6072/M2 900914, Alliance Friendly. Full robe/Magecraft chains,
+    -- 161current lessons/four pages and three installed dialogues read.
+    -- Meal without demonstrations original; later novel events excluded.
+    -- Research: docs/research/ironforge-invitations-and-brill-directions.md
+    [7312] = {
+        quote = "Befriend a mage, certainly. You are also allowed to invite one along without requiring a demonstration.",
+        likes = { "A non-mage curious about the craft", "A friendly invitation with no task attached", "A story worth hearing without a spell" },
+        dislikes = { "A companion valued only for a useful trick", "A learner hurried past understanding", "Assuming every invitation needs a performance" },
+        gossip = "Dink once prepared several tricks for a friendly meal. The conversation went so well that none of them received a demonstration.",
+        bio = "Dink teaches mages in Ironforge's Hall of Mysteries. He encourages other travelers to befriend a mage, and directs developing students to Jennea Cannon in Stormwind. His cheerful advice sits alongside the serious study of the craft.",
+        backstory = "Invited to a meal, he prepared a few clever demonstrations in case the company expected them. Nobody asked. He was busy enjoying the stories, and did not notice the absence of a performance until the visit was over.",
+        secret = "He can no longer remember which trick he had planned to show first. He remembers the conversation rather better, and has decided that is a pleasant result.",
+        bestFriend = "Come along. No demonstration required. I would enjoy hearing your story before deciding whether the day needs any further magic.",
+        favorite = {
+            emote = "GREET",
+            hint = "He appreciates a straightforward welcome from someone pleased to see the person as well as the mage.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are! Shall we go? I am pleased to be invited before anyone has thought of a trick the occasion might require.", tone = "[bright] [warm]" }, "Ready. Tell me how your day has been. Befriending a mage need not turn every greeting into a request for a demonstration." },
+            idle = { { "I prepared several clever tricks for a friendly meal. Nobody asked for one. I was too busy enjoying the conversation to notice until afterward. A very satisfactory visit.", tone = "[cheerful] [reflective]" }, "A curious question from someone who does not practice magic can still be a very good question.", "If Jennea has a task for you, listen to what she actually asks. The introduction is a beginning, not the whole lesson." },
+            befriended = { { "You have become someone I am glad to see before I have considered what clever thing to show. Come along, friend. I would enjoy more of that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you brought a question, a story, or simply a greeting? All three are perfectly welcome beginnings.", "I hear you. Give me a moment to put the explanation aside and attend to the person asking." },
+            learned = { { "Understanding the craft takes more than admiring the impressive result. Ask which part you have not understood before pretending the whole lesson was clear.", tone = "[encouraging] [earnest]" } },
+            quest = { "Hear the request as it was given. A fine display will not substitute for bringing the right information to the next person." },
+            group = { "Welcome the newcomer before deciding which useful skill they brought. They may also have a story you would enjoy hearing." },
+            rest = { "A pause. I can enjoy sitting with you without producing a demonstration as payment for the invitation." },
+            loot = { "Something worth studying? Remember what you actually found before the explanation becomes more impressive than the object." },
+            zone = { "New surroundings. Tell me what caught your attention before I begin choosing which part needs an explanation." },
+            thanked = { "You are welcome. I am pleased the advice helped, and pleased you stayed to tell me how it went." },
+        },
+    },
+
+    -- Vance Undergloom <Journeyman Enchanter>, Brill, Tirisfal Glades.
+    -- Adult Forsaken male4039/M2 959310, Horde Friendly. Three installed
+    -- welcomes/referrals, nine Classic lessons and96607/97953camp text
+    -- read. Two-sided turn-over note is original, not an enchanted item.
+    -- Research: docs/research/ironforge-invitations-and-brill-directions.md
+    [5695] = {
+        quote = "The paper says turn over. So does the other side. I have discovered an unusually durable mystery.",
+        likes = { "A learner asking about the arcane", "Knowing when another teacher is needed", "A dry joke that survives a second look" },
+        dislikes = { "Claiming every mystery is already solved", "A pupil sent away without a useful direction", "Following directions without noticing results" },
+        gossip = "Vance has a scrap of paper with an instruction on each side. Following either one appears to require investigating the other again.",
+        bio = "Vance Undergloom teaches Enchanting in Brill, with a room upstairs at the Gallows' End Tavern. He invites travelers to study arcane mysteries, but admits his limits and points advanced pupils toward Lavinia Crowe in the Undercity.",
+        backstory = "He put a reminder to check the other side on a scrap of paper, then added the same instruction to its reverse. Each turn became less informative. Keeping the scrap for its quiet joke seemed more entertaining than improving the directions.",
+        secret = "He does not consider the paper enchanted. Its persistence requires nothing more mysterious than a reader obligingly doing what it says. He enjoys knowing when to stop.",
+        bestFriend = "Come along. Tell me when an explanation brings us back to its beginning. I would rather share the joke than make another circuit.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates a friend quietly noticing the joke before volunteering to investigate the other side again.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. Shall we go? I have put the most persistent investigation aside. Turning the paper over again seemed unlikely to improve the afternoon.", tone = "[dry] [warm]" }, "Ready. Tell me what you wish to know. I may have an answer, or a useful direction toward someone who knows more." },
+            idle = { { "Turn over. The other side says the same. No enchantment required. The investigator supplies all the movement, and the paper remains remarkably free of an obligation to explain itself.", tone = "[deadpan] [quietly amused]" }, "Even I have limits. If Lavinia can take your training further, sending you to her is a useful answer rather than an admission that the question was unworthy.", "A mystery deserves attention. It need not receive the same unsuccessful approach merely because that approach sounded impressive." },
+            befriended = { { "You can ask about the difficult things and still recognize when I am enjoying a very ordinary joke. Come along, friend. I welcome that company.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? If you have followed the instructions on the paper, I believe I can predict your next proposed step.", "I hear you. State the question before deciding whether it requires an appropriately mysterious introduction." },
+            learned = { { "Notice what the instruction actually changed. Repeating the motion is not always the same as advancing your understanding.", tone = "[measured] [instructive]" } },
+            quest = { "Hear the whole request. A useful instruction should eventually bring you somewhere other than back to the same unexamined assumption." },
+            loot = { "Look before declaring it enchanted. An ordinary object can provide an unreasonable amount of speculation without any assistance from magic." },
+            rest = { "A pause. We may leave the investigation on whichever side happens to be facing upward." },
+            group = { "Let the question reach the person who can answer it. Passing it around indefinitely is a fine demonstration of something less useful." },
+            zone = { "New surroundings. Observe before deciding the familiar explanation has arrived here ahead of us." },
+            thanked = { "You are welcome. I am pleased the direction was useful, especially if it did not return you immediately to the beginning." },
+        },
+    },
+
     -- Ishlee Breezewhisper <Skinner>, Valanaar, Zephras Isle. Adult High
     -- Order female140068/M2 7478494, Horde Friendly. Five lessons/two
     -- installed welcomes read; empty-chair supervisor is original.

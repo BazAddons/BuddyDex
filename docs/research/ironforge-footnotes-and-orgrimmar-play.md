@@ -47,3 +47,6 @@ Ten fields/fifteen supported personal lines each. Wrapped lore Bink3/6/5/3/3=20,
 - Installed/hash-verified6118 release files, ten updated. Separate development ZIP verified6118 files/6090 runtime audio mappings/121.60 MiB. Docs/tools/manifests and character saves excluded.
 - Original handed-off candidate SHA256 unchanged: `696a680d5baa18c35df523976257fd48b413e2d357b004f9bc9b46ab4403645b`. No CF upload/tag while publication deferred.
 - Next individually verified [Kamari and Elisa](kamari-and-elisa-queue.md), not counted complete. Wider goal and earlier explicit unused/unavailable-source leads remain active.
+
+
+Follow-up November10: Dink now has a separate completed written profile. [Ironforge invitations and Brill directions](ironforge-invitations-and-brill-directions.md) rechecks the full robe referral/Magecraft context and distinguishes later novel material from Forever. No new Bink/Dink kinship claim or transfer of her gizmonitor history. Earlier counts and recordings above remain historical.

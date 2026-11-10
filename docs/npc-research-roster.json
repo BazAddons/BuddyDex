@@ -3304,5 +3304,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Skyborne women/man, explicit faction Friendly; all own relationship/lesson/stock rows, installed dialogue and exact related camp handoffs read; primary faction icons distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/zephras-chairs-cake-and-a-lost-boot.md"
+  },
+  {
+    "npc_id": 7312,
+    "name": "Dink",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Gnome / Forsaken men, explicit faction Friendly; full mage referral/camping chains,161current Dink lessons,146/nine Classic lessons and installed dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-invitations-and-brill-directions.md"
+  },
+  {
+    "npc_id": 5695,
+    "name": "Vance Undergloom",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Gnome / Forsaken men, explicit faction Friendly; full mage referral/camping chains,161current Dink lessons,146/nine Classic lessons and installed dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-invitations-and-brill-directions.md"
   }
 ]

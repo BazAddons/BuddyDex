@@ -2975,6 +2975,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar Skinning/Fishing starter-region contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original supervising-chair, unexamined-cake or lost-boot story; no synthesis"
+    },
+    {
+      "npc_id": 7312,
+      "name": "Dink",
+      "zone": "Ironforge",
+      "route": "Hall of Mysteries Gnome Mage capital contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original invitation-without-demonstrations or two-sided-note story; no synthesis"
+    },
+    {
+      "npc_id": 5695,
+      "name": "Vance Undergloom",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Enchanting early Forsaken contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original invitation-without-demonstrations or two-sided-note story; no synthesis"
     }
   ]
 }
