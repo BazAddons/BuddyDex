@@ -4032,5 +4032,19 @@
     "zone": "Darnassus",
     "source": "Reviewed adult alliance woman; Own bank gossip and full4510 voucher dialogue; original owl hand shadow; no Scout sighting claimed",
     "research_notes": "docs/research/brakks-night-watch-and-idrianas-owl.md"
+  },
+  {
+    "npc_id": 263113,
+    "name": "Myriaal Mistwake",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full92474 and own Halaan gossip; original returned surprise; no Scout sighting claimed",
+    "research_notes": "docs/research/myriaals-returned-surprise-and-ouras-visitor.md"
+  },
+  {
+    "npc_id": 276171,
+    "name": "Oura Stormspinner",
+    "zone": "Mulgore",
+    "source": "Reviewed adult horde woman; Full wool and sparse silk donation evidence; original social visit; no Scout sighting claimed",
+    "research_notes": "docs/research/myriaals-returned-surprise-and-ouras-visitor.md"
   }
 ]

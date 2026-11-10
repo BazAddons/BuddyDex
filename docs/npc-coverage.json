@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 333,
+    "alliance": 334,
     "unverified": 165,
-    "horde": 317
+    "horde": 319
   },
   "npc_race_counts": {
     "1": 167,
@@ -17,7 +17,7 @@
     "8": 60,
     "9": 55,
     "6": 84,
-    "96": 24,
+    "96": 26,
     "95": 31
   },
   "zone_counts": {
@@ -41,7 +41,7 @@
     "Orgrimmar": 52,
     "Badlands": 1,
     "Darkshore": 11,
-    "Mulgore": 22,
+    "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
     "The Barrens": 40,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 54,
+    "Zephras Isle": 55,
     "Riverglades": 12,
     "Felwood": 1
   },
@@ -9688,6 +9688,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262560"
     },
     {
+      "npc_id": 263113,
+      "name": "Myriaal Mistwake",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263113"
+    },
+    {
       "npc_id": 263326,
       "name": "Madam Swyndle",
       "zone": "Riverglades",
@@ -9998,6 +10012,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/275811"
     },
     {
+      "npc_id": 276171,
+      "name": "Oura Stormspinner",
+      "zone": "Mulgore",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/276171"
+    },
+    {
       "npc_id": 277059,
       "name": "Je'lu",
       "zone": "Desolace",
@@ -10022,6 +10049,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 781,
-  "awaiting_signature_audio_profiles": 327
+  "authored_profiles": 783,
+  "awaiting_signature_audio_profiles": 329
 }

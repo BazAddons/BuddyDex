@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Myriaal Mistwake and Oura Stormspinner: two adult Windshaper profiles with thirty personal lines queued.
+- Review the Walk on Air game and cloth-donation dialogue; document original returned-surprise and social-visit stories.
+
 - Add Brakk and Idriana: adult Orc and Night Elf profiles with thirty personal lines queued.
 - Review full camping and bank-voucher dialogue; document original snoring and shadow-puppet stories and exclude deceased Heglan.
 
@@ -474,4 +477,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **781 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **783 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

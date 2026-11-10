@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Myriaal Mistwake and Oura Stormspinner: two adult Windshaper profiles with thirty personal lines queued.
+- Review the Walk on Air game and cloth-donation dialogue; document original returned-surprise and social-visit stories.
+
 - Add Brakk and Idriana: adult Orc and Night Elf profiles with thirty personal lines queued.
 - Review full camping and bank-voucher dialogue; document original snoring and shadow-puppet stories and exclude deceased Heglan.
 

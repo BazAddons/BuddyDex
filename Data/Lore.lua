@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Myriaal Mistwake <Rangers of Thendal Grove>, Zephras Isle.
+    -- Adult Windshaper female143516/M2 7478494, both Friendly.
+    -- Full92474 and own Halaan gossip. Returning her surprise is original.
+    -- Research: docs/research/myriaals-returned-surprise-and-ouras-visitor.md
+    [263113] = {
+        quote = "Yes, you startled me. Excellent timing. No, you may not count it twice just because I made that noise.",
+        likes = { "A well-timed harmless surprise", "A companion who can return the joke", "An ordinary watch made less dull" },
+        dislikes = { "A joke that only one person can enjoy", "Being expected to remain solemn all day", "Her own startle awarded excessive points" },
+        gossip = "Myriaal gives out points for startling other people. When someone surprised her instead, she immediately began disputing the score.",
+        bio = "Myriaal Mistwake serves with the Rangers of Thendal Grove on Zephras Isle. Boredom on the watchtower inspires her games. She encourages practice with Walk on Air and particularly enjoys the idea of startling Rorian.",
+        backstory = "Her games usually put someone else at the surprising end of an arrival. Then a familiar visitor greeted her before she noticed them. Her own indignant little jump proved quite as entertaining as any she had planned.",
+        secret = "She enjoyed being the surprised one. A friend willing to turn the joke around keeps her from having to invent all the amusement herself. She still disputes the points.",
+        bestFriend = "There you are. I noticed you this time. Come along, friend. You may keep the point, if you promise to remain interesting company.",
+        favorite = {
+            emote = "WINK",
+            hint = "She appreciates someone recognizing the mischief and being ready to share in it.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are! I noticed you this time. Come along. You may tell me what you have been doing while I decide how generously to score that entrance.", tone = "[bright] [mischievous]" }, "Good company, arriving before the boredom becomes unbearable. A welcome contribution. You may consider yourself already ahead." },
+            idle = { { "You startled me once. An excellent effort, and I have said so. That does not entitle you to count the noise and the jump as separate achievements.", tone = "[mock indignant] [amused]" }, "There are only so many times I can bother Halaan before even that becomes predictable. A little novelty is a reasonable thing to want from an afternoon.", "I enjoyed your surprise. There, I have admitted it. Now you can stop looking as though the admission ought to earn another point." },
+            befriended = { { "You have become someone who can turn the joke around without making the company less pleasant. Come along, friend. I like having somebody else invent the amusement now and then.", tone = "[warm] [playfully sincere]" } },
+            poke = { "Yes? I noticed the approach. You will need another plan.", "Go on. You have my attention, which is more useful than my pretending to be solemn." },
+            landed = { { "A fine arrival. I reserve the right to admire the style without accepting your account of how many points it deserves.", tone = "[playful] [approving]" } },
+            rest = { "A pause. I can endure a little quiet when it comes with company I enjoy. There is no need to test quite how much." },
+            quest = { "Hear the request before deciding where the amusement lies. Some tasks are less forgiving than a game in the village." },
+            zone = { "Somewhere different. There must be something here we have not already found a way to make predictable." },
+            newFriend = { "Someone new. Say hello before deciding whether they will enjoy being included in the joke." },
+            thanked = { "You are welcome. I am pleased you enjoyed it, even if your account of the score remains deeply questionable." },
+            group = { "Make room for everyone. The joke improves when the company can share it instead of wondering who has been chosen as the target." },
+        },
+    },
+
+    -- Oura Stormspinner <Windshapers Cloth Quartermaster>, Mulgore.
+    -- Adult Windshaper female148494/M2 7478494, Horde Friendly.
+    -- Wool/silk donation role; empty-handed social visit is original.
+    -- Research: docs/research/myriaals-returned-surprise-and-ouras-visitor.md
+    [276171] = {
+        quote = "You came simply to say hello? Then I can put the counting aside. It is pleasant to be remembered without a bundle in the greeting.",
+        likes = { "A useful donation freely given", "A thank-you offered without ceremony", "A visitor returning just for conversation" },
+        dislikes = { "Generosity used to belittle someone else", "A person reduced to the bundle they bring", "Being hurried past the chance to say thanks" },
+        gossip = "Oura has begun greeting a familiar visitor before looking for the cloth. She seems especially pleased when there is nothing to count.",
+        bio = "Oura Stormspinner is the Windshapers cloth quartermaster in Mulgore. She accepts wool and silk to replenish her people's supplies. Behind each useful donation she sees a person whose generosity deserves recognition.",
+        backstory = "A familiar visitor once arrived without a bundle. Oura had already begun preparing to count, then realized the visit was simply a greeting. The conversation became a part of the day she was glad to remember.",
+        secret = "She hopes a generous visitor will return when they have nothing to donate. It is pleasant to discover that being useful to one another was only the beginning of knowing one another.",
+        bestFriend = "You need bring nothing today, friend. Stay and tell me how you have been. I am pleased you remembered to visit.",
+        favorite = {
+            emote = "GREET",
+            hint = "She enjoys a familiar person recognizing her before there is any business to discuss.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along. You need bring no bundle to make the visit welcome. I would like to hear how you have been before we discuss anything that needs counting.", tone = "[warm] [welcoming]" }, "Good to see you. A conversation is quite enough reason to come by. I am pleased you remembered." },
+            idle = { { "I had begun preparing to count before noticing there was no bundle. They had come simply to say hello. It was a pleasant thing to discover I had been expecting the wrong kind of gift.", tone = "[reflective] [quietly pleased]" }, "The cloth is useful. The generosity belongs to the person who chose to bring it. I would rather not let the first part obscure the second.", "A familiar face returning without a request can change the shape of an ordinary day. I have begun leaving room in the greeting for that possibility." },
+            befriended = { { "You have become someone I am glad to see before I know whether there is any business to discuss. Come along, friend. That is a welcome I am pleased to offer.", tone = "[affectionate] [sincere]" } },
+            poke = { "Yes? There need be nothing to hand over before you tell me what is on your mind.", "Go on. I can put the counting aside and listen." },
+            loot = { { "Something useful. Take care of it, and remember the people who helped make the finding possible. They deserve more than disappearing behind the tally.", tone = "[steady] [appreciative]" } },
+            mail = { "A message. There may be someone who has been waiting to hear from you, even if neither of you has anything practical to ask." },
+            rest = { "A little pause. We can enjoy the company without finding another useful thing to accomplish first." },
+            quest = { "Let us hear what is needed, and let us remember to thank the person who helps. The work and the acknowledgment both matter." },
+            newFriend = { "Someone new. Begin with a welcome. There will be time to discover what each of you may have to offer." },
+            thanked = { "You are welcome. I am pleased the help reached someone who could use it." },
+            group = { "Room for everyone. Some contributions are easy to count; others are easier to notice once we have listened." },
+        },
+    },
+
     -- Brakk <Adventurer>, Razor Hill/Durotar. Adult Orc male
     -- 144648/M2 917116, Horde Friendly. Full journal/camping lessons read.
     -- Snoring explained as a wildlife warning is original camp humor.

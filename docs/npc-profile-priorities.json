@@ -3703,6 +3703,20 @@
       "zone": "Darnassus",
       "route": "Darnassus banker",
       "reason": "Own bank gossip and full4510 voucher dialogue; original owl hand shadow; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 263113,
+      "name": "Myriaal Mistwake",
+      "zone": "Zephras Isle",
+      "route": "Thendal Grove watchtower",
+      "reason": "Full92474 and own Halaan gossip; original returned surprise; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 276171,
+      "name": "Oura Stormspinner",
+      "zone": "Mulgore",
+      "route": "Windshapers cloth quartermaster",
+      "reason": "Full wool and sparse silk donation evidence; original social visit; fifteen personal lines queued without synthesis"
     }
   ]
 }
