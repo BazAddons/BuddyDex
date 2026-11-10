@@ -1645,5 +1645,19 @@
     "zone": "Orgrimmar",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/barg-and-soran-queue.md"
+  },
+  {
+    "npc_id": 3410,
+    "name": "Jin'sora",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed named adult model/current identity; current/beta/historical service references distinguished; current public friendly access unverified; no Scout sighting claimed",
+    "research_notes": "docs/research/jinsora-and-olvia-queue.md"
+  },
+  {
+    "npc_id": 3312,
+    "name": "Olvia",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed named adult model/current identity; current/beta/historical service references distinguished; current public friendly access unverified; no Scout sighting claimed",
+    "research_notes": "docs/research/jinsora-and-olvia-queue.md"
   }
 ]

@@ -1316,6 +1316,20 @@
       "zone": "Orgrimmar",
       "route": "Male Orc Crossroads general supplies and Orgrimmar banking coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/barg-and-soran-queue.md"
+    },
+    {
+      "npc_id": 3410,
+      "name": "Jin'sora",
+      "zone": "Orgrimmar",
+      "route": "Male Troll bow merchant and female Orc meat vendor, conditional Orgrimmar coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed, installed and developmentZIP verified; current public friendly access unverified; docs/research/jinsora-and-olvia-queue.md"
+    },
+    {
+      "npc_id": 3312,
+      "name": "Olvia",
+      "zone": "Orgrimmar",
+      "route": "Male Troll bow merchant and female Orc meat vendor, conditional Orgrimmar coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed, installed and developmentZIP verified; current public friendly access unverified; docs/research/jinsora-and-olvia-queue.md"
     }
   ]
 }

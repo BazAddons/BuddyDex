@@ -439,6 +439,46 @@
     "text": "You watched, understood, and then acted. Keep that order in mind. A lesson practiced carefully here may spare you a much less forgiving correction when you are in the field.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore3410_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3410",
+    "spoken": "[warm] [sincere] [gently amused] You keep coming back, and I am glad of it. You can tell me about a good shot, a bad shot, or something that has nothing to do with bows. I would enjoy the company either way. Come, friend. This time I will bring my own explanations if we need them.",
+    "text": "You keep coming back, and I am glad of it. You can tell me about a good shot, a bad shot, or something that has nothing to do with bows. I would enjoy the company either way. Come, friend. This time I will bring my own explanations if we need them.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3410_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:3410",
+    "spoken": "[practical] [friendly] [lightly amused] That equipment deserves a proper look before we set off. Check what is worn, what is loose, and what you meant to replace yesterday. I enjoy a fine explanation as much as anyone, but I would rather hear it over supper than while we search the dirt for a missing piece.",
+    "text": "That equipment deserves a proper look before we set off. Check what is worn, what is loose, and what you meant to replace yesterday. I enjoy a fine explanation as much as anyone, but I would rather hear it over supper than while we search the dirt for a missing piece.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3410_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3410",
+    "spoken": "[friendly] [amused] [conversational] There you are, friend. Got your bow, got your arrows? Good. Now we only need an explanation ready in case the shot goes wide. I hear plenty at the shop. Wind, dust, a sudden noise. My favorite ones take longer to tell than it would take to fetch the arrow.",
+    "text": "There you are, friend. Got your bow, got your arrows? Good. Now we only need an explanation ready in case the shot goes wide. I hear plenty at the shop. Wind, dust, a sudden noise. My favorite ones take longer to tell than it would take to fetch the arrow.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore3410_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3410",
+    "spoken": "[storytelling] [wry] [relaxed] One customer said a sneeze behind the target spoiled the shot. I asked how he heard it from so far away. He said he had very good ears. Well, that settled nothing, but I enjoyed the answer. You learn to appreciate a little invention when you sell bows all day.",
+    "text": "One customer said a sneeze behind the target spoiled the shot. I asked how he heard it from so far away. He said he had very good ears. Well, that settled nothing, but I enjoyed the answer. You learn to appreciate a little invention when you sell bows all day.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3482_bagsFull_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

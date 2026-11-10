@@ -587,3 +587,8 @@ Completed maleGoblin BrokenTusk inhabitant5610 and femaleTauren skinning trainer
 ### 2026-11-09: Barg and Soran (440)
 
 Completed maleOrc Crossroads general supplier3481 and Orgrimmar banker3320: fifteen lines/four approvedv4signatures each. Full sources/era/original limits: docs/research/barg-and-soran-queue.md. Actual15rowstock and SoranHyjal/banksecuritydialogue, no guessed Armoryownership/latergruntrole. Normal gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,294files/devZIP134.35MiB/6,266runtime mappings. Public207Alliance/140Horde/100unverified sevenoverlaps. Widercatalog active, CF deferred/public original preserved.
+
+
+### 2026-11-09: Jin'sora and Olvia (442)
+
+Two complete conditional Orgrimmar service profiles: adult male Troll bow merchant3410/display4359 and female Orc meat vendor3312/display1312. Fifteen personal lines/four approved emotion-taggedv4 recordings each; identity/era/source separation in `docs/research/jinsora-and-olvia-queue.md`. Current public reaction absent, so both remain faction-unverified; no friendly-access override or Scout sighting. Coverage207Alliance/140Horde/102unverified (seven overlaps); city service coverage is not a beginner milestone claim. Main/Scout smoke, exact audio/routing, fresh Horde normal friendship boundaries/gates passed; installed and developmentZIP verified6,302files/6,274runtime mappings/134.84MiB. Wider catalog1,513namegroups/1,526identities remains active; next candidates need full individual research. Public candidate/CF publication deferred.

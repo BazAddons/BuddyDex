@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jin'sora <Bow Merchant>, Valley of Honor/Orgrimmar,3410/4359.
+    -- Adult male Troll; current identity/model, historical/beta location.
+    -- Sparse current API: faction access remains unverified, live gates apply.
+    -- Missed-shot excuses and all personal history below are original fiction.
+    -- Research: docs/research/jinsora-and-olvia-queue.md.
+    [3410] = {
+        quote = "A bow can send an arrow a long way. An explanation for missing can travel even farther.",
+        likes = { "A well-kept bow", "An honest account of a missed shot", "An excuse he has never heard before" },
+        dislikes = { "Bent arrows blamed on the bow", "Loose gear rattling in a quiver", "Someone standing beyond the target" },
+        gossip = "Jin'sora hears so many excuses for missed shots that his regulars now compete to bring him a new one.",
+        bio = "Jin'sora sells bows and ammunition in Orgrimmar's Valley of Honor. Customers bring questions about their equipment; he also gets explanations for where the last arrow went. He has grown fond of the inventive ones.",
+        backstory = "A customer once blamed a missed shot on a sneeze from somewhere behind the target. Jin'sora asked how the customer had heard it from so far away. The answer was better than the excuse, and he began paying closer attention.",
+        secret = "His favorite excuse is his own: the target looked so pleased with itself that he wanted to give it one more moment. He admits this explains nothing.",
+        bestFriend = "With you, I can admit when I miss. Though if you have a good explanation ready, I would still like to hear it.",
+        favorite = { emote = "GRIN", hint = "Show him you appreciate an explanation that has wandered far beyond the facts." },
+        lines = {
+            greet = { { "There you are, friend. Got your bow, got your arrows? Good. Now we only need an explanation ready in case the shot goes wide. I hear plenty at the shop. Wind, dust, a sudden noise. My favorite ones take longer to tell than it would take to fetch the arrow.", tone = "[friendly] [amused] [conversational]" },
+                "Ready when you are. Let us see where the arrows actually go." },
+            idle = { { "One customer said a sneeze behind the target spoiled the shot. I asked how he heard it from so far away. He said he had very good ears. Well, that settled nothing, but I enjoyed the answer. You learn to appreciate a little invention when you sell bows all day.", tone = "[storytelling] [wry] [relaxed]" },
+                "That target looked smug. I gave it a little more time.",
+                "A quiver should hold arrows. The explanation can stay in your head." },
+            befriended = { { "You keep coming back, and I am glad of it. You can tell me about a good shot, a bad shot, or something that has nothing to do with bows. I would enjoy the company either way. Come, friend. This time I will bring my own explanations if we need them.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Careful. You nearly knocked an excellent excuse out of my head.", "I am listening. Is this the short version?" },
+            gear = { { "That equipment deserves a proper look before we set off. Check what is worn, what is loose, and what you meant to replace yesterday. I enjoy a fine explanation as much as anyone, but I would rather hear it over supper than while we search the dirt for a missing piece.", tone = "[practical] [friendly] [lightly amused]" } },
+            loot = { "Anything useful? Give it a look before you invent a use for it." },
+            bagsFull = { "Keep the arrows straight. Something else can ride on top." },
+            combatEnd = { "Everyone clear? Good. Now, whose shot was that?" },
+            quest = { "Tell them what happened. You can save the decoration for me." },
+            rest = { "Sit. I want to hear the part you skipped while we were walking." },
+            levelUp = { "Your aim is improving. Your excuses will have to work harder." },
+        },
+    },
+
+    -- Olvia <Meat Vendor>, Valley of Strength/Orgrimmar,3312/1312.
+    -- Adult female Orc; current identity/model and community-logged vendor.
+    -- No current reaction icon confirmed; ordinary live gates remain in force.
+    -- Dinner toasts and personal habits below are original BuddyDex writing.
+    -- No later Wrath/Siege/Broken Shore/anniversary events imported.
+    -- Research: docs/research/jinsora-and-olvia-queue.md.
+    [3312] = {
+        quote = "A meal deserves a proper welcome. Lift your cup. I will try to finish speaking before the meat gets cold.",
+        likes = { "A table with room for another plate", "A hearty toast before dinner", "Hearing what everyone has been doing" },
+        dislikes = { "Good food eaten in a hurry", "A speech longer than the meal", "Walking away before saying goodbye" },
+        gossip = "Olvia can make yesterday's supper sound like a feast for champions. Her regulars suspect the speech improves with each reheating.",
+        bio = "Olvia sells meat in Orgrimmar's Valley of Strength. From jerky for the road to a more substantial meal, she helps keep travelers fed. In private, she likes to greet an ordinary dinner with an unnecessarily grand toast.",
+        backstory = "Olvia once announced a modest supper with such ceremony that everyone laughed before sitting down. She liked the sound of that welcome. Since then, even a plate of leftovers has sometimes received a few carefully chosen words.",
+        secret = "She rehearses her shortest dinner toast and keeps adding one more sentence. She would rather everyone laugh with a full plate than admire her speech with an empty one.",
+        bestFriend = "To you, my friend. Good company, a full plate, and no more speeches. There. I finally kept one short.",
+        favorite = { emote = "SALUTE", hint = "Answer her grand welcome with a little ceremony of your own." },
+        lines = {
+            greet = { { "There you are. Have you eaten, or shall I make the customary speech about setting off hungry? I can make it a short one. I have been practicing. A full plate, good company, and enough time to enjoy both. There, that was nearly a toast. We can walk while I improve it.", tone = "[hearty] [welcoming] [amused]" },
+                "Good to see you. Tell me what you have been doing while we walk." },
+            idle = { { "I once welcomed a plate of leftovers as though it had won a great battle. Everyone laughed, and dinner began pleasantly. That seems a useful thing for a few words to accomplish. I do try to stop before the food gets cold. A stirring welcome is less impressive when supper needs heating again.", tone = "[storytelling] [warm] [wry]" },
+                "A fine speech. Now let someone eat before you add the ending.",
+                "I wonder whether yesterday's supper deserves a second introduction." },
+            befriended = { { "To my friend, who keeps returning with stories worth hearing. May there be food enough, time enough, and someone glad to see you at the end of the road. That is the whole toast. I could add more, but I would rather hear how you have been. Come, tell me while we go.", tone = "[ceremonial] [warm] [sincere]" } },
+            poke = { "Yes? Were you proposing a toast?", "I had almost finished that sentence." },
+            rest = { { "A good place to stop. Set your things down and take a proper breath before you eat. I will keep the welcome brief. To a little rest, and to having someone beside you to share it. There. No grand ending, no second speech. Pass the food before I think of another sentence.", tone = "[relaxed] [hearty] [playful]" } },
+            bagsFull = { "Leave the food where you can reach it. Hunger has no patience for packing." },
+            loot = { "Useful, perhaps. Do not set it on the dinner plate." },
+            combatEnd = { "Still with me? Good. We will find something to eat when you are ready." },
+            quest = { "Work done. Surely we can spare a moment for a meal now." },
+            hearth = { "Home deserves a welcome. I shall keep this one to a sentence." },
+            levelUp = { "A fine reason to celebrate. Someone stop me if I begin a second toast." },
+        },
+    },
+
     -- Barg <General Supplies>, Crossroads/Barrens,3481/3868.
     -- Adult male Orc/HordeFriendly/Normal. Actual15-row stock;
     -- bow on ordinary parcel original, no wrapping mechanic promised.

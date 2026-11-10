@@ -279,6 +279,46 @@
     "text": "Look at what you have before you shove it into the first space you find. If it is useful, give it room to arrive in useful condition. If you do not need it, decide that now. I have seen plenty of people carry a bag full of trouble and still insist they are well prepared.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore3312_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3312",
+    "spoken": "[ceremonial] [warm] [sincere] To my friend, who keeps returning with stories worth hearing. May there be food enough, time enough, and someone glad to see you at the end of the road. That is the whole toast. I could add more, but I would rather hear how you have been. Come, tell me while we go.",
+    "text": "To my friend, who keeps returning with stories worth hearing. May there be food enough, time enough, and someone glad to see you at the end of the road. That is the whole toast. I could add more, but I would rather hear how you have been. Come, tell me while we go.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3312_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3312",
+    "spoken": "[hearty] [welcoming] [amused] There you are. Have you eaten, or shall I make the customary speech about setting off hungry? I can make it a short one. I have been practicing. A full plate, good company, and enough time to enjoy both. There, that was nearly a toast. We can walk while I improve it.",
+    "text": "There you are. Have you eaten, or shall I make the customary speech about setting off hungry? I can make it a short one. I have been practicing. A full plate, good company, and enough time to enjoy both. There, that was nearly a toast. We can walk while I improve it.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3312_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3312",
+    "spoken": "[storytelling] [warm] [wry] I once welcomed a plate of leftovers as though it had won a great battle. Everyone laughed, and dinner began pleasantly. That seems a useful thing for a few words to accomplish. I do try to stop before the food gets cold. A stirring welcome is less impressive when supper needs heating again.",
+    "text": "I once welcomed a plate of leftovers as though it had won a great battle. Everyone laughed, and dinner began pleasantly. That seems a useful thing for a few words to accomplish. I do try to stop before the food gets cold. A stirring welcome is less impressive when supper needs heating again.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore3312_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:3312",
+    "spoken": "[relaxed] [hearty] [playful] A good place to stop. Set your things down and take a proper breath before you eat. I will keep the welcome brief. To a little rest, and to having someone beside you to share it. There. No grand ending, no second speech. Pass the food before I think of another sentence.",
+    "text": "A good place to stop. Set your things down and take a proper breath before you eat. I will keep the welcome brief. To a little rest, and to having someone beside you to share it. There. No grand ending, no second speech. Pass the food before I think of another sentence.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore3333_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

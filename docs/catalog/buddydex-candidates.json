@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 93,
-    "combined_retained_entries": 1524,
-    "candidate_name_groups": 1511,
+    "local_backlog_entries_missing_from_source": 95,
+    "combined_retained_entries": 1526,
+    "candidate_name_groups": 1513,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -17725,6 +17725,23 @@
       ]
     },
     {
+      "name": "Jin'sora",
+      "npc_ids": [
+        3410
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3410,
+          "name": "Jin'sora",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "complete"
+        }
+      ]
+    },
+    {
       "name": "Jinar'Zillen",
       "npc_ids": [
         11317
@@ -26073,6 +26090,23 @@
         {
           "npc_id": 3317,
           "name": "Ollanus",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Olvia",
+      "npc_ids": [
+        3312
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 3312,
+          "name": "Olvia",
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
           "profile_status": "complete"
@@ -39563,6 +39597,13 @@
       "profile_status": "complete"
     },
     {
+      "npc_id": 3312,
+      "name": "Olvia",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
       "npc_id": 3317,
       "name": "Ollanus",
       "source": "Existing local backlog; absent from source filter",
@@ -39593,6 +39634,13 @@
     {
       "npc_id": 3403,
       "name": "Sian'tsu",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 3410,
+      "name": "Jin'sora",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "complete"
