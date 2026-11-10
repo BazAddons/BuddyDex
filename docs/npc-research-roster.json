@@ -3507,5 +3507,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Alliance Dwarf woman at Ironforge Physician; four current supply goods/item nodes, no personal quests/gossip found; supplier not trainer; no inferred Reyna kinship; original button collection distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/raceway-pistons-and-gwinas-pouch.md"
+  },
+  {
+    "npc_id": 254360,
+    "name": "Belandiel Farflight",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order Skyborne man, both factions Friendly; all eighteen published trade goods and item nodes, post-hotfix bag snapshot gap documented; no own quest/gossip found; original two-shopping-list story distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-two-errands-and-a-backward-hop.md"
+  },
+  {
+    "npc_id": 254358,
+    "name": "Veena Vericloud",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order Skyborne woman, both factions Friendly; all fifteen current published general goods and item nodes, secondary stock disagreements documented; no own quest/gossip found; original backward-hopping paper frog distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-two-errands-and-a-backward-hop.md"
   }
 ]

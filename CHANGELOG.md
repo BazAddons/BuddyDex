@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Belandiel Farflight and Veena Vericloud: two full adult Skyborne profiles friendly to both factions, with thirty personal lines queued.
+- Research their exact published vendor stock and source differences; distinguish original shopping-list and paper-frog stories from established facts.
+
 - Add Fizzle Brassbolts and Gwina Stonebranch: full adult Gnome and Dwarf profiles with thirty personal lines queued.
 - Research the Raceway engineering chains and full letter to Martek, plus Gwina's current supplies; keep original friendship stories separate from established facts.
 

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Belandiel Farflight <Trade Supplies>, Zephras Isle. Adult High
+    -- Order Skyborne male138145/M2 7478487; both factions Friendly.
+    -- All18published goods/item nodes read; hotfix stock gap noted.
+    -- No personal quest/gossip found. Two shopping lists is original.
+    -- Research: docs/research/zephras-two-errands-and-a-backward-hop.md
+    [254360] = {
+        quote = "I had a wonderful theory. Then you explained that it was two shopping lists.",
+        likes = { "A practical answer to an elaborate guess", "Hearing what someone hopes to make", "A friend enjoying a harmless mistake" },
+        dislikes = { "Curiosity becoming an interrogation", "A learner ashamed of a simple purchase", "A guess repeated after the answer arrives" },
+        gossip = "Belandiel once imagined a remarkable project from a customer's purchases. Two separate errands turned out to be the missing explanation.",
+        bio = "Belandiel Farflight sells trade supplies on Zephras Isle. His wares serve several crafts, from thread and dyes to tools, spices, vials and fishing gear. Travelers of either faction can find a friendly merchant here.",
+        backstory = "A purchase of thread and spices set him wondering about one elaborate commission. The customer explained that they were doing two people's shopping. Belandiel found the answer less grand and considerably funnier.",
+        secret = "He still enjoys imagining the project those supplies might have made. These days he asks how many errands are involved before explaining his grand theory.",
+        bestFriend = "Come along. You need not have a remarkable project to tell me about. I enjoy your company, even when the answer is two errands.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone enjoying the moment when his elaborate theory meets a very ordinary explanation.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Shall we? Tell me what you are doing today before I turn two perfectly ordinary errands into one remarkable undertaking.", tone = "[warm] [amused]" }, "Ready, friend. I should like your company. A practical plan is welcome, and so is simply wanting to see where the road takes us." },
+            idle = { { "Thread and spices. I had a wonderful theory about the commission. Then the customer explained that they were doing two people's shopping. An important detail!", tone = "[animated] [wry]" }, "I still wonder what that project might have looked like. I keep the question to myself until I have asked how many errands are involved.", "A shop with supplies for several trades gives curiosity plenty to work with. It also provides many opportunities to discover that curiosity guessed wrong." },
+            befriended = { { "You have become someone I am pleased to see, whatever you are making or buying. Come along, friend. There is more to your company than the next interesting explanation.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me. I will try to hear the whole answer before supplying a theory of my own.", "You have my attention. One errand or several? That question has saved me a surprising amount of explanation." },
+            laughAlong = { { "Exactly. Two shopping lists. Such a sensible answer to a project I had already made needlessly magnificent.", tone = "[dry] [amused]" } },
+            mail = { "An order or a message? Give it a proper read. Several perfectly separate requests can arrive in the same envelope." },
+            loot = { "Have a look at what it actually is before deciding what magnificent undertaking must have produced it." },
+            bagsFull = { "Make a little room, and keep the separate errands straight. A crowded bag can tell a much stranger story than its owner intended." },
+            learned = { "Something useful learned. Try it for yourself, and let the result have a say before the theory becomes too elaborate." },
+            rest = { "A pause. We need not explain it as preparation for some greater enterprise. I am pleased to have the company." },
+            group = { "Ask what each person needs. A group is allowed to contain more than one sensible plan." },
+        },
+    },
+
+    -- Veena Vericloud <General Goods>, Zephras Isle. Adult High Order
+    -- female138144/M2 7478494; both factions Friendly. All15published
+    -- goods/item nodes read; no personal quest/gossip found. Paper
+    -- frog folding/backward hop is original, not a usable item reward.
+    -- Research: docs/research/zephras-two-errands-and-a-backward-hop.md
+    [254358] = {
+        quote = "Backwards is still a hop. Let the frog have that much.",
+        likes = { "A small project doing something surprising", "A friend willing to enjoy the attempt", "Useful supplies and a little spare paper" },
+        dislikes = { "A crooked fold treated as a disaster", "Laughing at someone afraid to begin", "A pleasant experiment made into a duty" },
+        gossip = "Veena's first hopping paper frog went backwards. She considers this an achievement with a small question of direction attached.",
+        bio = "Veena Vericloud sells general goods on Zephras Isle. Her supplies include bags, water, milk, ammunition, throwing weapons, fire-making materials and red wrapping paper. She welcomes travelers from both factions.",
+        backstory = "A spare piece of paper became a folding experiment between ordinary tasks. Several attempts sat still. One finally hopped, directly backwards. Veena decided this was enough progress to deserve a little applause.",
+        secret = "She has kept the crooked frog that first hopped. Better folds may go in the intended direction, but that one was the first to surprise her. She still gives it a place of honor.",
+        bestFriend = "Come along. I am glad you enjoy the attempt as much as the tidy result. We can leave room for a pleasant surprise on the way.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "She thinks even a small, unexpected success in a harmless project deserves a little recognition.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Shall we? I should like your company, and perhaps a chance to tell you how the folding experiment went. There was movement. Direction remains a separate triumph.", tone = "[bright] [welcoming]" }, "Ready, friend. You need not have accomplished anything grand to be welcome. I am pleased you came." },
+            idle = { { "The first paper frog that hopped went directly backwards. I applauded. Better folds can worry about direction. That one had already done something the others had not.", tone = "[fond] [amused]" }, "I kept the crooked one. It earned its place by surprising me. A tidier frog will have to find its own argument for the position.", "Bags, water, fire-making supplies. The practical things are worth remembering before a little spare paper becomes the most interesting part of the day." },
+            befriended = { { "You have become someone I enjoy sharing the small successes with. Come along, friend. I am glad we can laugh at an unexpected result and still be pleased we tried.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me. If this concerns the frog, I continue to defend its achievement.", "I am listening. How did your attempt go? Start with what surprised you." },
+            cheerAlong = { { "Yes, a success! We can give it a little applause before discussing whether it went quite where we intended.", tone = "[bright] [encouraging]" } },
+            loot = { "Have a look. Something useful, perhaps, or something that gives you an idea worth trying." },
+            bagsFull = { "Make a little room. The important supplies deserve space before the harmless experiments begin occupying every corner." },
+            rest = { "A pause. We can enjoy the quiet without requiring it to produce anything. I am pleased to sit with you." },
+            zone = { "Have a look around. There may be something pleasant here that the hurried account of the journey would leave out." },
+            group = { "Give the person trying something new a little room. We all had a first attempt, even if the story improves when we tell it later." },
+            learned = { "Something learned. Now you have another way to try. Enjoy seeing what changes." },
+        },
+    },
+
     -- Fizzle Brassbolts, Mirage Raceway. Adult Gnome male5427/
     -- M2 900914. Current primary explicitly Horde Friendly; Classic
     -- shared access noted separately. Full fuel/piston/delivery and

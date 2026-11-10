@@ -3178,6 +3178,20 @@
       "zone": "Ironforge",
       "route": "Ironforge Physician herbalism supplies",
       "reason": "Complete adult profile with fifteen personal lines queued; verified supplier role and original Herb Pouch button collection; no synthesis"
+    },
+    {
+      "npc_id": 254360,
+      "name": "Belandiel Farflight",
+      "zone": "Zephras Isle",
+      "route": "Zephras early trade supplies",
+      "reason": "Complete adult shared-friendly profile with fifteen personal lines queued; verified trade vendor and original two-errand story; no synthesis"
+    },
+    {
+      "npc_id": 254358,
+      "name": "Veena Vericloud",
+      "zone": "Zephras Isle",
+      "route": "Zephras early general goods",
+      "reason": "Complete adult shared-friendly profile with fifteen personal lines queued; verified general vendor and original paper frog pastime; no synthesis"
     }
   ]
 }

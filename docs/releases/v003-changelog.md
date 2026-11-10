@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Belandiel Farflight and Veena Vericloud: two full adult Skyborne profiles friendly to both factions, with thirty personal lines queued.
+- Research their exact published vendor stock and source differences; distinguish original shopping-list and paper-frog stories from established facts.
+
 - Add Fizzle Brassbolts and Gwina Stonebranch: full adult Gnome and Dwarf profiles with thirty personal lines queued.
 - Research the Raceway engineering chains and full letter to Martek, plus Gwina's current supplies; keep original friendship stories separate from established facts.
 
@@ -357,4 +360,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **706 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **708 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

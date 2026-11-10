@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 297,
+    "alliance": 299,
     "unverified": 157,
-    "horde": 274
+    "horde": 276
   },
   "npc_race_counts": {
     "1": 167,
@@ -18,7 +18,7 @@
     "9": 43,
     "6": 82,
     "96": 17,
-    "95": 23
+    "95": 25
   },
   "zone_counts": {
     "Elwynn Forest": 28,
@@ -57,7 +57,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 39,
+    "Zephras Isle": 41,
     "Riverglades": 9
   },
   "entries": [
@@ -8427,6 +8427,34 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254345"
     },
     {
+      "npc_id": 254358,
+      "name": "Veena Vericloud",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254358"
+    },
+    {
+      "npc_id": 254360,
+      "name": "Belandiel Farflight",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254360"
+    },
+    {
       "npc_id": 255894,
       "name": "Innkeeper Zizplink",
       "zone": "Riverglades",
@@ -9049,6 +9077,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 706,
-  "awaiting_signature_audio_profiles": 252
+  "authored_profiles": 708,
+  "awaiting_signature_audio_profiles": 254
 }
