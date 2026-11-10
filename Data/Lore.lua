@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Doyo'da, Valley of Strength, Orgrimmar. Adult male Troll
+    -- 3608/M2 1022938, Horde Friendly. Current own tabs0/no installed gossip.
+    -- Later Broken Tusk/Siege/cage/totem story excluded.
+    -- Frightening tale softened by a lost stranger is original fiction.
+    -- Research: docs/research/orgrimmar-tales-and-mulgore-welcomes.md
+    [5613] = {
+        quote = "The shape in the dark was very frightening until it asked which way to the inn. Then I felt I ought to help.",
+        likes = { "A story told with room for a listener", "A frightening shape with ordinary worries", "A laugh that leaves someone welcome" },
+        dislikes = { "A joke that makes a stranger unwelcome", "Being rushed to the end of a story", "A mysterious noise explained too soon" },
+        gossip = "Doyo'da tells a terrifying tale. The figure in the darkness keeps becoming more sympathetic. There may not be a villain left.",
+        bio = "Doyo'da is a Troll resident of Orgrimmar's Valley of Strength. In a city full of business to finish, he enjoys a visit with time for a tale. He is more interested in what a listener makes of the story than in keeping its ending properly frightening.",
+        backstory = "He began a tale about a shape following a traveler through the dark. Before long he wondered whether the shape was simply lost. He gave it a question, then directions to an inn. The frightening tale became rather difficult to finish as intended.",
+        secret = "He keeps his most ominous voice for the beginning. Then the figure asks for directions. He likes the listener's relief too much to restore the intended fright.",
+        bestFriend = "Stay for the tale. You may guess the ending, but leave the stranger a little dignity when we discover what it wanted.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone sharing the joke when a terrible mystery turns out to have a very ordinary concern.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you, friend. Ready for the road? I have a dreadful tale whose ending has become rather less dreadful.", tone = "[warm] [playful]" }, "An outing sounds good. We can give the story a little room before anyone guesses who is making that noise." },
+            idle = { { "A terrible shape came out of the darkness. Then it asked which way to the inn. I felt quite rude making it remain a monster after that.", tone = "[hushed] [amused]" }, "The beginning is still frightening. It is the directions afterward that have done most of the damage.", "A stranger can be lost without hiding a terrible purpose. That does make some stories harder to finish." },
+            befriended = { { "You listened long enough to let the frightening stranger become a person. I would enjoy more of your company, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering whether a second mysterious noise would rescue the atmosphere.", "I heard you. Tell me what you thought of the ending, but do not blame the stranger for needing directions." },
+            zone = { { "New surroundings. A good place for a mysterious traveler, though we should learn the way ourselves before advising one.", tone = "[curious] [lighthearted]" } },
+            rest = { "A pause. There is time for a story, and perhaps time to let its listener say something too." },
+            quest = { "Hear what is being asked before deciding what sort of person is asking it. A fine beginning can still mislead you." },
+            group = { "More company. Let everyone find a place in the conversation before one person takes charge of the entire tale." },
+            loot = { "Something in the dark! Ah, an ordinary find. We may need a different opening for that story." },
+            comforted = { "Thank you. An ordinary kindness can be a very welcome end to an unpleasant moment." },
+            thanked = { "You are welcome. I am glad it helped. No need to invent a mysterious motive for it." },
+        },
+    },
+
+    -- Var'jun, Bloodhoof Village, Mulgore. Adult male Troll11054/
+    -- M2 1022938, Horde Friendly. Installed seeking-someone greeting;
+    -- full5655/5661current/Classic/installed referrals, not5654Tai'jin.
+    -- A visitor staying simply for his company is original writing.
+    -- Research: docs/research/orgrimmar-tales-and-mulgore-welcomes.md
+    [11407] = {
+        quote = "I know how to send a priest home. I am still learning how to ask a friend to stay.",
+        likes = { "A traveler given clear directions", "Help offered beyond one's own people", "A greeting with no urgent errand behind it" },
+        dislikes = { "An important message left undelivered", "A stranger dismissed without being heard", "Assuming every visitor needs sending away" },
+        gossip = "Var'jun is practiced at sending people to someone they need to meet. A visitor who only wants his company may leave him looking unusually uncertain.",
+        bio = "Var'jun waits in Bloodhoof Village, Mulgore, seeking priests who should return to their teachers. He directs Trolls toward Ur'kyo in Orgrimmar. He also offers Forsaken priests directions to Aelthalyste in the Undercity's War Quarter.",
+        backstory = "His search is important to him, and his usual greeting asks not to be disturbed. The referrals show another side: being sent to find his own people does not stop him helping a Forsaken traveler reach the teacher they need.",
+        secret = "A visitor once stayed after the directions were finished. There was no lost road or message to explain it. Var'jun is still pleased that, for once, he was the person someone had come to see.",
+        bestFriend = "No directions today, unless you want them. You found me, and I am glad you did. Stay a little.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "He appreciates being wanted for his company after so much time sending visitors onward.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. I have no directions prepared for this visit. We can decide where to go together.", tone = "[reserved] [welcoming]" }, "Ready. It makes a pleasant change to travel beside someone instead of pointing out where they should go." },
+            idle = { { "When the directions were finished, the visitor stayed. No other message, no wrong turn. Someone had simply come to see me.", tone = "[reflective] [warm]" }, "I was sent to find priests of my own people. That need not prevent me helping another traveler find their way.", "An important search can fill your thoughts. It is still worth hearing why someone has stopped beside you." },
+            befriended = { { "You came back without needing another direction. I understand now that you wanted my company. I would be glad to have yours, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need. If it is only a little company, that is an answer too.", "I hear you. I will try not to assume the conversation ends as soon as the road is explained." },
+            quest = { { "Make sure the message reaches the person who needs to hear it. Knowing the way is only the beginning of the journey.", tone = "[firm] [earnest]" } },
+            learned = { "Ask the teacher who can help you understand it. Finding the right person is a useful part of learning." },
+            zone = { "Different surroundings. Let us learn where we are before confidently directing anyone else through them." },
+            rest = { "A pause. You need not find another question to justify staying beside me." },
+            group = { "Hear who needs help. They do not have to come from the same home to deserve a clear answer." },
+            thanked = { "You are welcome. I am pleased you found what you needed, and pleased you came back to tell me." },
+            comforted = { "Thank you. You need not carry a message for me. It is good to know you are here." },
+        },
+    },
+
     -- Fritz Fizzle <Engineer>, Three Corners, Redridge. Adult female Gnome
     -- 139800/M2 940356; Alliance Neutral, not verified public Friendly.
     -- All27current goods and installed tinkering welcome read.

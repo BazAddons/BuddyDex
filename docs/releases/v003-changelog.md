@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Doyo'da and Var'jun: two complete adult Troll profiles with thirty personal lines queued.
+- Expand Orgrimmar and Bloodhoof Village contacts with early-era character research, full priest referrals and distinct friendship stories.
+
 - Add Fritz Fizzle and Dani'ill: two complete adult profiles with thirty personal lines queued.
 - Expand Three Corners Engineering and Darnassus tailoring contacts with researched trade dialogue and distinct friendship stories.
 
@@ -261,4 +264,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **645 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **647 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

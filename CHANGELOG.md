@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Doyo'da and Var'jun: two complete adult Troll profiles with thirty personal lines queued.
+- Expand Orgrimmar and Bloodhoof Village contacts with early-era character research, full priest referrals and distinct friendship stories.
+
 - Add Fritz Fizzle and Dani'ill: two complete adult profiles with thirty personal lines queued.
 - Expand Three Corners Engineering and Darnassus tailoring contacts with researched trade dialogue and distinct friendship stories.
 

@@ -3080,5 +3080,19 @@
     "zone": "Darnassus",
     "source": "Reviewed adult Gnome woman and Night Elf man, exact current identities and installed welcomes; Alliance Neutral engineer or Alliance Friendly pattern vendor; no Scout sighting claimed",
     "research_notes": "docs/research/three-corners-patience-and-darnassus-lunch.md"
+  },
+  {
+    "npc_id": 5613,
+    "name": "Doyo'da",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Troll men, Horde Friendly; current identities, no personal early-era quest for Doyoda, full Varjun priest referrals and installed greeting; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-tales-and-mulgore-welcomes.md"
+  },
+  {
+    "npc_id": 11407,
+    "name": "Var'jun",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Troll men, Horde Friendly; current identities, no personal early-era quest for Doyoda, full Varjun priest referrals and installed greeting; no Scout sighting claimed",
+    "research_notes": "docs/research/orgrimmar-tales-and-mulgore-welcomes.md"
   }
 ]

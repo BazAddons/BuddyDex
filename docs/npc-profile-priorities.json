@@ -2751,6 +2751,20 @@
       "zone": "Darnassus",
       "route": "Darnassus capital tailoring contact",
       "reason": "Complete adult profile, fifteen personal lines queued, source-based trade welcome and distinct original character writing; no synthesis"
+    },
+    {
+      "npc_id": 5613,
+      "name": "Doyo'da",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar Valley of Strength named resident",
+      "reason": "Complete adult Troll male profile, fifteen personal lines queued, sourced resident/referral identity with distinct original storytelling or friendship welcome; no synthesis"
+    },
+    {
+      "npc_id": 11407,
+      "name": "Var'jun",
+      "zone": "Mulgore",
+      "route": "Bloodhoof Village regional starting-route priest referral",
+      "reason": "Complete adult Troll male profile, fifteen personal lines queued, sourced resident/referral identity with distinct original storytelling or friendship welcome; no synthesis"
     }
   ]
 }
