@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Blixie Fitzwink and Felika: two complete adult female profiles, with thirty personal lines queued.
+- Give Elwynn's Gnome supply-runner and Orgrimmar's wandering Orc merchant distinct friendships grounded in Forever quest text and current trade stock.
+
 - Add Laurna Morninglight and Brannol Eaglemoon: two complete adult Night Elf profiles, with thirty personal lines queued.
 - Expand early Dolanaar priest and clothier friendships, grounded in the current Sisterhood of Elune chain and verified knitted-goods trade.
 

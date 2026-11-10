@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Blixie Fitzwink, near Tower of Azora, Elwynn. Adult Gnome female
+    -- 148275/M2 940356, Alliance Friendly. Full Forever91725: Theocritus
+    -- errand, gnoll ambush, escaped parcel, feared polymorph cleanup.
+    -- Elaborate speech for an uneventful errand is original, not a Goblin voice.
+    -- Research: docs/research/blixie-deliveries-and-felika-colors.md
+    [248248] = {
+        quote = "An uneventful delivery would be a wonderful achievement. I am prepared to celebrate one.",
+        likes = { "Supplies arriving where they belong", "A little encouragement after trouble", "A task finished without a surprise" },
+        dislikes = { "Gnolls choosing the worst moment", "A parcel abandoned in an ambush", "The prospect of polymorph cleanup" },
+        gossip = "Blixie has considered a triumphant speech for an ordinary delivery. She may need an audience with no further errands that day.",
+        bio = "Blixie Fitzwink runs an enchanting-supplies errand for Master Theocritus near the Tower of Azora. Gnolls ambush her on the return trip. She escapes without the package and asks for help recovering it, fearing weeks of polymorph-experiment cleanup.",
+        backstory = "Thinking about the explanation she might have to give made her imagine a better one: a grand account of an errand completed without incident. She began planning a little speech for that happy possibility. The harmless version grew surprisingly elaborate.",
+        secret = "The speech has a pause for applause. She suspects that, when the moment comes, she will forget the whole thing and simply be relieved that nothing is missing.",
+        bestFriend = "If I manage a perfectly ordinary errand, you may cheer. You understand why that would mean rather more than it sounds.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She appreciates encouragement for a small success after an errand has gone badly.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Good, company! Perhaps today we can return with everything we intended to carry.", tone = "[hopeful] [bright]" }, "Ready! I would welcome an outing with fewer unexpected developments." },
+            idle = { { "There is a pause for applause in the speech. That may be ambitious for a delivery, but I should like to be prepared.", tone = "[playful] [hopeful]" }, "A perfectly ordinary errand sounds better to me every time I imagine one.", "I have not decided how to describe the part where nothing goes wrong. Briefly, perhaps." },
+            befriended = { { "You understand why an uneventful day might deserve a little celebration. I should be glad to share one with you.", tone = "[warm] [relieved]" } },
+            poke = { "Yes? Is something missing, or may I continue being hopeful?", "I was rehearsing the happy version of the report." },
+            quest = { { "Check what must come back with us. I would much rather count it now than explain its absence later.", tone = "[earnest] [focused]" } },
+            loot = { "There it is. Let us put it somewhere we will remember." },
+            bagsFull = { "Could we make room before the important parcel is the thing left behind?" },
+            combatEnd = { "Are we clear? Good. Let us see what we still have with us." },
+            rest = { "A moment without an unexpected task. I shall try to enjoy it before inventing one." },
+            cheerAlong = { "Thank you! I had prepared a speech, but being pleased may have to do." },
+            thanked = { "You are welcome. I am very glad it worked out." },
+        },
+    },
+
+    -- Felika <General Trade Goods Merchant>, wandering Orgrimmar. Adult
+    -- Orc female1389/M2 949470, Horde Friendly; thirty-six current goods.
+    -- No own quest/gossip found; original color names remain private,
+    -- no stock renaming, fixed patrol timing or later martial law imported.
+    -- Research: docs/research/blixie-deliveries-and-felika-colors.md
+    [3367] = {
+        quote = "Tell me which color you need. I may think of a finer name for it while we talk.",
+        likes = { "A clear request for the right material", "A vivid color noticed in passing", "A friendly face along the way" },
+        dislikes = { "Supplies carelessly wasted", "A hurried guess in place of a request", "An ordinary day called colorless" },
+        gossip = "Felika sometimes gives a color a name fit for a long story. A customer can still ask for red and get on with the work.",
+        bio = "Felika wanders Orgrimmar selling general trade goods. Her supplies serve several crafts: thread, dyes, tools, vials, spices, and more. She enjoys the changing life of the city as well as the practical business of a sale.",
+        backstory = "Walking between customers gave her time to notice how familiar colors changed with the light. She began inventing names for the shades she liked. It became a private amusement, with no need to change the names on the goods.",
+        secret = "She has thought of several grand names for a certain red. Her own favorite is still simply red. She considers being free to prefer it part of the pleasure.",
+        bestFriend = "Walk a little way with me. You may tell me what you notice, and I shall try to let a perfectly good color keep its short name.",
+        favorite = {
+            emote = "WAVE",
+            hint = "She enjoys a friendly acknowledgment from someone she passes along the way.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "Good to see you. Shall we find something worth noticing along the way?", tone = "[warm] [lively]" }, "Ready. You may ask for an ordinary walk without a grand description." },
+            idle = { { "I had a very fine name for that red. Then I realized I still preferred calling it red.", tone = "[amused] [thoughtful]" }, "A familiar place can show you a different color when the light changes.", "The goods can keep their sensible names. My private amusement need not become a customer's problem." },
+            befriended = { { "You stayed to hear about something I noticed on the way. I would enjoy more walks in that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A particular supply, or a little conversation?", "I was deciding whether the longer name improved anything." },
+            loot = { { "Keep it where it will remain useful. A fine material deserves more than being crushed in with everything else.", tone = "[practical]" } },
+            bagsFull = { "Perhaps make room before a careful purchase becomes a careless bundle." },
+            learned = { "Good. Knowing what you need makes the next request easier to answer." },
+            zone = { "New surroundings. I wonder what colors will catch my eye here." },
+            rest = { "We can stop. There will still be things to notice when we begin again." },
+            waveBack = { "Good to see you passing this way." },
+            thanked = { "You are welcome. May it serve the work you have in mind." },
+        },
+    },
+
     -- Laurna Morninglight <Priest Trainer>, Dolanaar. Adult Night Elf
     -- female1708/M2 921844; Alliance Friendly, current98391 to Aquinne.
     -- Full Sisterhood/Sathrah chain and historical priest lessons read;

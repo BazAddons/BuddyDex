@@ -2212,6 +2212,20 @@
       "zone": "Teldrassil",
       "route": "Alliance Dolanaar early cloth/repair contact",
       "reason": "Complete adult Night Elf profile with fifteen queued lines in approved sex-specific voice; current Forever versus older/private-server quests separated, no synthesis"
+    },
+    {
+      "npc_id": 248248,
+      "name": "Blixie Fitzwink",
+      "zone": "Elwynn Forest",
+      "route": "Alliance Elwynn Gnome errand contact",
+      "reason": "Complete adult female profile with fifteen queued lines in verified approved race voice; delivery/merchant facts separate from original friendship stories, no synthesis"
+    },
+    {
+      "npc_id": 3367,
+      "name": "Felika",
+      "zone": "Orgrimmar",
+      "route": "Horde Orgrimmar wandering trade merchant",
+      "reason": "Complete adult female profile with fifteen queued lines in verified approved race voice; delivery/merchant facts separate from original friendship stories, no synthesis"
     }
   ]
 }

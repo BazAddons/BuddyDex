@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 244,
+    "alliance": 245,
     "unverified": 138,
-    "horde": 199
+    "horde": 200
   },
   "npc_race_counts": {
     "1": 165,
     "3": 42,
-    "7": 36,
-    "2": 66,
+    "7": 37,
+    "2": 67,
     "5": 59,
     "4": 40,
     "8": 44,
@@ -21,7 +21,7 @@
     "95": 13
   },
   "zone_counts": {
-    "Elwynn Forest": 25,
+    "Elwynn Forest": 26,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
     "Stormwind City": 114,
@@ -36,7 +36,7 @@
     "Teldrassil": 16,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
-    "Orgrimmar": 35,
+    "Orgrimmar": 36,
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 14,
@@ -3358,6 +3358,19 @@
       ],
       "reaction_evidence": "Current Horde icon Friendly; ordinary live reaction/non-attackability gates remain",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3366"
+    },
+    {
+      "npc_id": 3367,
+      "name": "Felika",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3367"
     },
     {
       "npc_id": 3389,
@@ -6732,6 +6745,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
     },
     {
+      "npc_id": 248248,
+      "name": "Blixie Fitzwink",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/248248"
+    },
+    {
       "npc_id": 251361,
       "name": "Rorian the Dayseeker",
       "zone": "Zephras Isle",
@@ -7281,6 +7307,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 568,
-  "awaiting_signature_audio_profiles": 114
+  "authored_profiles": 570,
+  "awaiting_signature_audio_profiles": 116
 }

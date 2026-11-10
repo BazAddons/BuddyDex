@@ -2541,5 +2541,19 @@
     "zone": "Teldrassil",
     "source": "Reviewed exact adult Night Elf body, current Alliance Friendly, full Sisterhood/Sathrah chain or matching knitted stock; historical referral mismatches documented, no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-devotion-and-dignified-introductions.md"
+  },
+  {
+    "npc_id": 248248,
+    "name": "Blixie Fitzwink",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed exact adult female Gnome/Orc body and current faction Friendly; full Forever91725 or current36-item trade stock, no Scout sighting claimed",
+    "research_notes": "docs/research/blixie-deliveries-and-felika-colors.md"
+  },
+  {
+    "npc_id": 3367,
+    "name": "Felika",
+    "zone": "Orgrimmar",
+    "source": "Reviewed exact adult female Gnome/Orc body and current faction Friendly; full Forever91725 or current36-item trade stock, no Scout sighting claimed",
+    "research_notes": "docs/research/blixie-deliveries-and-felika-colors.md"
   }
 ]
