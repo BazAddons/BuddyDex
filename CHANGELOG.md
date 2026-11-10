@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brix Xizzix and Fizzix Boomshot: two complete Goblin profiles with thirty personal lines queued.
+- Expand northern Mulgore and Powderfuse coverage with sourced opportunist and gunsmith dialogue plus distinct original friendship stories.
+
 - Add Kal and Narret Shadowgrove: two complete Dolanaar profiles with thirty personal lines queued.
 - Ground their distinct teacher and merchant personalities in full bear-lesson dialogue, current training pages, and Forever trade stock.
 

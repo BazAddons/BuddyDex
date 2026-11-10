@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brix Xizzix <Entrepreneur>, northern Mulgore. Adult Goblin male
+    -- display116260/M2 119376, Horde Friendly. Own tabs0; installed
+    -- gossip explicitly seeks business among the sky-arriving elves.
+    -- A pitch forgotten during enjoyable conversation is original writing.
+    -- Research: docs/research/mulgore-opportunity-and-powderfuse-aromas.md
+    [262502] = {
+        quote = "An hour without a sale? Depends who I spent it talking to. Do not put that in my advertisements.",
+        likes = { "A promising new arrival", "An audience that asks questions", "A pitch with a strong opening" },
+        dislikes = { "An opportunity recognized too late", "A listener leaving before the good part", "Being mistaken for someone else" },
+        gossip = "Brix arrived looking for new customers. He once talked for an hour without finishing his pitch. He objects to calling the hour wasted.",
+        bio = "Brix Xizzix is an entrepreneur in northern Mulgore. Hearing of elves arriving from the sky brought him looking for opportunity. His talk of promising customers makes his eagerness rather less charitable than he first tries to sound.",
+        backstory = "He had a splendid opening ready when a listener answered with a story of their own. Questions followed, then another story. By the time they parted, he had forgotten to explain what he meant to sell. He remembered enjoying himself.",
+        secret = "He has tried to calculate what that conversation cost him. He keeps remembering something funny the other person said and losing his place. He does not much mind.",
+        bestFriend = "I had a pitch ready. It can wait. Tell me what happened to you today; I would rather hear the part you have been saving.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a listener showing appreciation when he reaches the end of his grand opening.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Excellent timing. I have a magnificent opening, unless you have a better story.", tone = "[animated] [welcoming]" }, "Ready. New surroundings, new opportunities, and somebody who knows when I am getting carried away." },
+            idle = { { "I forgot to finish the pitch. An entire hour! I would be more upset if I had not enjoyed it so much.", tone = "[amused] [confiding]" }, "Opportunity fell out of the sky. You can appreciate why that caught my attention.", "Some people ask a question that is worth hearing before you tell them what the answer costs." },
+            befriended = { { "You came back and asked how I was doing. No business attached. I could get used to that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Give me a moment to decide whether this needs the magnificent opening.", "I was listening! Go on. I can have a brilliant idea later." },
+            zone = { { "New place, new possibilities. Let me look around before I announce I understood them all along.", tone = "[eager] [playful]" } },
+            mail = { "A reply! Those can be promising, even when they begin by explaining you have misunderstood something." },
+            loot = { "Interesting. Ask what it is good for before I get too attached to what it might be worth." },
+            quest = { "Listen to what they actually want. A splendid opening does not make up for answering the wrong question." },
+            rest = { "We can sit. I will try not to turn the whole pause into a presentation." },
+            group = { "An audience! Or company. Right, company. I am still learning when to tell the difference." },
+            thanked = { "You are welcome. We can leave the terms at that. Just this once." },
+        },
+    },
+
+    -- Fizzix Boomshot <Gunsmith>, Powderfuse Port, Riverglades. Adult
+    -- Goblin male145183/M2 119376, Horde Friendly, Repair/Vendor.
+    -- All8current goods; no own quests/training. Installed greeting
+    -- prizes discharged gunpowder smell. Bread comparison is original.
+    -- Research: docs/research/mulgore-opportunity-and-powderfuse-aromas.md
+    [260566] = {
+        quote = "Fresh gunpowder. Nothing like it. Fresh bread comes closer than I expected, but do not get carried away.",
+        likes = { "The smell of freshly discharged powder", "Equipment kept in good working order", "Fresh bread while it is still warm" },
+        dislikes = { "Neglected repairs", "An impressive name on a poor weapon", "Bread praised as the superior aroma" },
+        gossip = "Fizzix has strong opinions about the finest smell in the world. He recently conceded that bread deserved an honorable mention.",
+        bio = "Fizzix Boomshot is a gunsmith at Powderfuse Port in the Riverglades. He offers repairs, guns, ammunition, and a dynamite schematic. His greeting leaves little doubt about his favorite part of the trade: freshly discharged gunpowder.",
+        backstory = "Trying to explain his favorite smell, he borrowed the grand language of a very important tasting. The description sounded more and more like praise for a bakery. Investigating the comparison seemed only fair. The bread was annoyingly good.",
+        secret = "He has decided that fresh bread may hold second place. This is a carefully considered ranking, not a confession that gunpowder has competition. He is very particular about that.",
+        bestFriend = "You can tell me you prefer flowers. I can enjoy your company while being completely baffled by your taste.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys a friend sharing his enthusiasm, even when they disagree about what deserves it.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you! Tell me there is something worth getting enthusiastic about today.", tone = "[upbeat] [welcoming]" }, "Ready. Equipment looked after, plans considered, and time to enjoy being out." },
+            idle = { { "Fresh bread gets an honorable mention. That is all I agreed to, and I stand by the exact wording.", tone = "[playful] [emphatic]" }, "I tried describing gunpowder like a very expensive meal. Apparently I made myself hungry.", "A grand name stamped on it does not excuse a poor piece of work." },
+            befriended = { { "You let me enjoy my enthusiasms and tell me when I am talking nonsense. That is company worth having.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If this is about the bread, second place remains second place.", "I was considering the difference between a strong opinion and a good excuse to get another loaf." },
+            gear = { { "Give it a proper look. Admiring equipment and caring for it ought to happen together.", tone = "[practical] [encouraging]" } },
+            loot = { "Interesting piece. Let us see the condition before we start admiring the name." },
+            rest = { "A pause, then. I can enjoy a quiet moment without insisting it needs an explosion." },
+            quest = { "Know what the job needs before choosing the most impressive thing you could bring." },
+            bagsFull = { "Keep things where you can find them. Digging through everything is a poor beginning to looking after it." },
+            group = { "Different tastes, same outing. We can manage that without agreeing on every smell in the world." },
+            thanked = { "You are welcome. Enthusiasm is better with somebody to share it, even somebody who prefers flowers." },
+        },
+    },
+
     -- Kal <Druid Trainer>, Dolanaar, Teldrassil. Adult Night Elf male
     -- display1706/M2 974343, Alliance Friendly. Four installed gossip
     -- variants, all184current training rows and full Classic5923 bear

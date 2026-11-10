@@ -2933,5 +2933,19 @@
     "zone": "Teldrassil",
     "source": "Reviewed adult male Night Elf body, Alliance Friendly, all current training/stock pages and full relevant Classic bear lesson/installed dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-second-beginnings-and-ordinary-projects.md"
+  },
+  {
+    "npc_id": 262502,
+    "name": "Brix Xizzix",
+    "zone": "Mulgore",
+    "source": "Reviewed adult male Goblin body, Horde Friendly, all current own tabs and installed opportunist/gunpowder dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-opportunity-and-powderfuse-aromas.md"
+  },
+  {
+    "npc_id": 260566,
+    "name": "Fizzix Boomshot",
+    "zone": "Riverglades",
+    "source": "Reviewed adult male Goblin body, Horde Friendly, all current own tabs and installed opportunist/gunpowder dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-opportunity-and-powderfuse-aromas.md"
   }
 ]

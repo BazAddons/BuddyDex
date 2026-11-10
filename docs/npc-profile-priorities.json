@@ -2604,6 +2604,20 @@
       "zone": "Teldrassil",
       "route": "Dolanaar early Night Elf village",
       "reason": "Complete distinct male Night Elf profile with fifteen personal lines queued; sourced Druid welcome/retraining or current trade stock, no synthesis"
+    },
+    {
+      "npc_id": 262502,
+      "name": "Brix Xizzix",
+      "zone": "Mulgore",
+      "route": "Northern Mulgore camp entrepreneur",
+      "reason": "Complete distinct Goblin male profile with fifteen personal lines queued; actual business or gunpowder speech and own-tab research, no synthesis"
+    },
+    {
+      "npc_id": 260566,
+      "name": "Fizzix Boomshot",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port gunsmith",
+      "reason": "Complete distinct Goblin male profile with fifteen personal lines queued; actual business or gunpowder speech and own-tab research, no synthesis"
     }
   ]
 }
