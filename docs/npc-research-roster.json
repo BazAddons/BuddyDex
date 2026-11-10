@@ -4144,5 +4144,26 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde woman; Full92532 and resolve gossip; original last learner scene; no Scout sighting claimed",
     "research_notes": "docs/research/aedis-hammer-and-rens-last-learner.md"
+  },
+  {
+    "npc_id": 7315,
+    "name": "Darnath Bladesinger",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance man; Own retraining gossip and1718/1719; original rehearsed victory speech; no Scout sighting claimed",
+    "research_notes": "docs/research/darnath-borstan-and-yvette.md"
+  },
+  {
+    "npc_id": 3368,
+    "name": "Borstan",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Full95697/97246/97249; original elaborate dish names; no Scout sighting claimed",
+    "research_notes": "docs/research/darnath-borstan-and-yvette.md"
+  },
+  {
+    "npc_id": 1560,
+    "name": "Yvette Farthing",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Full361 and installed completion; original ordinary-walk conversation; no Scout sighting claimed",
+    "research_notes": "docs/research/darnath-borstan-and-yvette.md"
   }
 ]

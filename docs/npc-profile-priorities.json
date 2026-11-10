@@ -3815,6 +3815,27 @@
       "zone": "Zephras Isle",
       "route": "Thendal warrior trainer",
       "reason": "Full92532 and resolve gossip; original last learner scene; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 7315,
+      "name": "Darnath Bladesinger",
+      "zone": "Darnassus",
+      "route": "Darnassus warrior trainer",
+      "reason": "Own retraining gossip and1718/1719; original rehearsed victory speech; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3368,
+      "name": "Borstan",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar meat vendor",
+      "reason": "Full95697/97246/97249; original elaborate dish names; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1560,
+      "name": "Yvette Farthing",
+      "zone": "Tirisfal Glades",
+      "route": "Brill named resident",
+      "reason": "Full361 and installed completion; original ordinary-walk conversation; fifteen personal lines queued without synthesis"
     }
   ]
 }

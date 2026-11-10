@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Darnath Bladesinger, Borstan, and Yvette Farthing: adult Night Elf, Orc, and Forsaken profiles with forty-five personal lines queued.
+- Review warrior trials, Forever cooking quests, and the undelivered-letter story; document original character scenes and preserve Yvette's boundaries.
+
 - Add Aedi Thriceforged and Blademaster Ren: adult High Order profiles with thirty personal lines queued.
 - Review camping and warrior-introduction text plus own gossip; document original hammer and last-learner scenes.
 

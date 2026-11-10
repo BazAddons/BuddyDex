@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 342,
+    "alliance": 343,
     "unverified": 166,
-    "horde": 328
+    "horde": 330
   },
   "npc_race_counts": {
     "1": 167,
     "3": 69,
     "7": 58,
-    "2": 86,
-    "5": 85,
-    "4": 68,
+    "2": 87,
+    "5": 86,
+    "4": 69,
     "8": 60,
     "9": 57,
     "6": 86,
@@ -32,13 +32,13 @@
     "Wetlands": 5,
     "Ironforge": 59,
     "Stranglethorn Vale": 5,
-    "Tirisfal Glades": 48,
+    "Tirisfal Glades": 49,
     "Undercity": 19,
     "Silverpine Forest": 8,
     "Teldrassil": 27,
     "Hillsbrad Foothills": 10,
     "Arathi Highlands": 11,
-    "Orgrimmar": 54,
+    "Orgrimmar": 55,
     "Badlands": 1,
     "Darkshore": 11,
     "Mulgore": 23,
@@ -46,7 +46,7 @@
     "Durotar": 52,
     "The Barrens": 42,
     "Stonetalon Mountains": 13,
-    "Darnassus": 14,
+    "Darnassus": 15,
     "Burning Steppes": 1,
     "Ashenvale": 14,
     "Thousand Needles": 11,
@@ -1735,6 +1735,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1521"
+    },
+    {
+      "npc_id": 1560,
+      "name": "Yvette Farthing",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1560"
     },
     {
       "npc_id": 1568,
@@ -3966,6 +3979,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3367"
+    },
+    {
+      "npc_id": 3368,
+      "name": "Borstan",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3368"
     },
     {
       "npc_id": 3370,
@@ -7000,6 +7026,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7313"
+    },
+    {
+      "npc_id": 7315,
+      "name": "Darnath Bladesinger",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7315"
     },
     {
       "npc_id": 7564,
@@ -10233,6 +10272,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 797,
-  "awaiting_signature_audio_profiles": 343
+  "authored_profiles": 800,
+  "awaiting_signature_audio_profiles": 346
 }

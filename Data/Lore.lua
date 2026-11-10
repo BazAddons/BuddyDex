@@ -41,6 +41,99 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Darnath Bladesinger, Darnassus warrior trainer. Adult night elf male6071/M2 974343, Alliance Friendly. Own retraining gossip and1718/1719 checked. Rehearsed victory speech is original.
+    -- Research: docs/research/darnath-borstan-and-yvette.md
+    [7315] = {
+        quote = "If you must rehearse your victory speech, do it while walking back. You may discover that the important part needed fewer words.",
+        likes = { "A challenge accepted without boasting", "A student willing to begin again", "A victory recounted with some perspective" },
+        dislikes = { "Renown mistaken for finished training", "An excuse longer than the whole contest", "A boast that leaves no room for learning" },
+        gossip = "Darnath once rehearsed a grand account of a victory. By the time he finished the walk home, he had edited it to one sentence.",
+        bio = "Darnath Bladesinger teaches warriors in Darnassus. He offers demanding retraining and values testing skill against other warriors. His directions to Fray Island send rising fighters to Klannoc Macleod, where reputation must meet a real challenge.",
+        backstory = "Walking back from practice, he composed a magnificent account of one good exchange. Each retelling seemed less useful than remembering the opening he had missed. He reached his door with the speech reduced to a brief admission.",
+        secret = "He still occasionally rehearses the magnificent version. A friend may hear it, provided they allow him to supply the modest correction before applauding.",
+        bestFriend = "Walk with me. I have a splendid victory to recount, and then the shorter account of what actually happened.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates quiet acknowledgment when a grand account finally reaches its honest conclusion.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Come along. I have an account of a fine exchange in practice. If the walk is long enough, I may have shortened it to the useful part before we arrive.", tone = "[composed] [dry humor]" }, "Good to see you. Tell me what you have learned since we last spoke. You may leave the magnificent introduction for later." },
+            idle = { { "The speech was magnificent. The exchange itself involved one good movement and an opening I ought to have seen. Walking home gave me time to put those in the proper order.", tone = "[reflective] [wry]" }, "Renown can bring you to the edge of a challenge. It cannot take the next step for you.", "I sometimes rehearse the grand account for my own amusement. You need not mistake it for the whole truth, or spoil it before the correction." },
+            befriended = { { "You have become someone with whom I can share the splendid account and the small, honest correction. Come along, friend. I enjoy having you hear both.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was the introduction growing longer than the story?", "Go on. There is no need to make the question sound like a challenge." },
+            learned = { { "Good. Try it again with attention to what changed. Learning a movement is the beginning of understanding when to use it.", tone = "[steady] [instructive]" } },
+            combatEnd = { "Remember the opening you missed as well as the movement that worked. Both belong in the account." },
+            gear = { "Move in it before praising it. You will learn more from a turn than from an admiring speech." },
+            rest = { "A pause. A worthwhile lesson can wait while we enjoy a little company without measuring anyone." },
+            newFriend = { "Someone new. Let them introduce themselves before deciding what their reputation ought to mean." },
+            thanked = { "You are welcome. Keep the useful part, and tell the story as you please." },
+            group = { "Know where the others stand. A fine individual performance is less impressive when it leaves the company exposed." },
+        },
+    },
+
+    -- Borstan, Orgrimmar meat vendor. Adult orc male1390/M2 917116, Horde Friendly. Full95697/97246/97249; six current goods. Elaborate dish names are original.
+    -- Research: docs/research/darnath-borstan-and-yvette.md
+    [3368] = {
+        quote = "I am considering a magnificent name for the dish. Taste it first. Then tell me whether I have made the name too small.",
+        likes = { "Familiar food given a grand new turn", "An honest opinion before the compliments", "Customers returning with their friends" },
+        dislikes = { "A fine name covering a dull mouthful", "Lunch forgotten for the whole afternoon", "A good idea dismissed as too ordinary" },
+        gossip = "Borstan can make the name of a dish sound like a triumph. He still watches your first bite more closely than your applause.",
+        bio = "Borstan sells meat at his Firepit in Orgrimmar. Zamja suggests familiar raptor cooking; he wants a grand city version and seeks meat from the Wetlands. He also finds a way to make Migi's varied lunches tempting enough to interrupt his games.",
+        backstory = "He tried a grand new name on a familiar dish, then caught himself waiting for his listener to praise the words. Borstan stopped explaining and let the first mouthful make its case. The silence was unexpectedly difficult.",
+        secret = "He has more elaborate names ready than he has dishes to attach them to. An honest friend gets the first taste before hearing any of them.",
+        bestFriend = "Sit down, friend. Tell me how it tastes before I unveil the name. I have been saving the longest one for you.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a proper show of appreciation once the taste has earned his grand introduction.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are! Come along. I have been considering a name worthy of the dish, but you may judge the taste before I risk making the introduction.", tone = "[hearty] [eager]" }, "Good to see you. Tell me where you have been and whether anyone there understands what a proper lunch should accomplish." },
+            idle = { { "Zamja has a good thought about familiar cooking. I want the first taste to remind you of home, and the next to remind you that you are eating in Orgrimmar.", tone = "[proud] [animated]" }, "A grand name needs something worth eating beneath it. Otherwise I have merely seasoned the air.", "The moment before someone gives an honest opinion lasts longer than it ought to. I can fill it with three excellent names if no one stops me." },
+            befriended = { { "You have become someone whose opinion I want before the compliments arrive. Come along, friend. There is pleasure in knowing the person across the table will tell me the truth.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was I naming the dish again before anyone had tasted it?", "Go on. I can hear a suggestion without making it part of the menu." },
+            quest = { { "A job finished. You deserve thanks before I begin describing the next possibility it has put in my head.", tone = "[pleased] [appreciative]" } },
+            loot = { "Have a look. Something ordinary may deserve a better use than the first one you thought of." },
+            rest = { "A pause. Meals and company both suffer when everyone insists they have no time to sit." },
+            bagsFull = { "Make room before accepting more. A fine appetite does not make a pack any larger." },
+            newFriend = { "Someone new. Give them room at the table before asking what they think of the cooking." },
+            thanked = { "You are welcome. An honest appetite is a pleasure to work with." },
+            group = { "Good company. Now let each person have a say before the loudest opinion becomes the whole table." },
+        },
+    },
+
+    -- Yvette Farthing, Brill. Adult Forsaken female3517/M2 997378, Horde Friendly. Full361 and installed completion checked. Ordinary-walk conversation is original; friendship does not undo her past.
+    -- Research: docs/research/darnath-borstan-and-yvette.md
+    [1560] = {
+        quote = "You may sit here without asking what I was thinking about. Tell me something from your day. Something that happened today.",
+        likes = { "Company that accepts an unanswered question", "An ordinary account of the present day", "A quiet goodbye without a final inquiry" },
+        dislikes = { "Pity performed before an audience", "The past used to explain everything she does", "A private silence treated as a puzzle" },
+        gossip = "Yvette will stop a question about yesterday, then ask whether anything interesting happened on your walk over. Choose the walk.",
+        bio = "Yvette Farthing lives in Brill. A lost letter from Thurman Agamand touches the life she tried to leave behind. She urged him to escape the Mills with her and her father; grief briefly breaks her reserve before she insists on new Forsaken goals.",
+        backstory = "A visitor once accepted her refusal to discuss the past and described a thoroughly uneventful walk instead. Yvette found herself asking how it ended. Nothing had happened. For once, that was a tolerable answer.",
+        secret = "She likes a friend who can bring an ordinary story without making it a remedy. Company may be welcome without requiring her to explain what it means.",
+        bestFriend = "Sit here, friend. Tell me the unremarkable part of your day. I should like to hear what you noticed on the way.",
+        favorite = {
+            emote = "GREET",
+            hint = "She appreciates a plain acknowledgment of who is here now, without an inquiry into who she used to be.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. You may sit with me a while. Tell me something from your day, and allow it to be a story without deciding it must improve my mood.", tone = "[reserved] [quietly welcoming]" }, "Good to see you. Was the walk interesting? It need not have been. I have discovered there are tolerable accounts of very little happening." },
+            idle = { { "The visitor said nothing had happened on the walk. I asked how it ended. Apparently, one can become interested in an account without any grand event to justify it.", tone = "[dry] [reflective]" }, "You need not ask the question differently. I heard it the first time, and I am content to speak of something else.", "An ordinary conversation does not require an explanation of my whole life. I would prefer to hear what you noticed today." },
+            befriended = { { "You have become company I can welcome without preparing an explanation for every silence. Stay a while, friend. I would like to hear the rest of your day.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? You may begin with what happened today.", "Go on. I am listening, even if I have not supplied the expression you expected." },
+            mail = { { "A letter deserves to reach the person it names. What they choose to say about it afterward belongs to them.", tone = "[somber] [measured]" } },
+            zone = { "Look around. There may be something here worth noticing without making it a lesson about another place." },
+            rest = { "A pause. We can sit without accounting for every moment of it." },
+            newFriend = { "Someone new. Give them the courtesy of deciding what they wish to tell you." },
+            thanked = { "You are welcome. That may stand as the whole exchange." },
+            hearth = { "Going back, then. Take your time saying goodbye; there is no need to turn it into an inquiry." },
+            comforted = { "Stay a moment, if you wish. I have no explanation to offer, but I have not asked you to leave." },
+        },
+    },
+
     -- Aedi Thriceforged <Blacksmith>, Shendar/Zephras. Adult High
     -- Order male144935/M2 7478487, both Friendly. Own hammer gossip
     -- and97964 checked; pointing with the missing hammer is original.
