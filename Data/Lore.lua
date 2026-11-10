@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tog Rustsprocket, Kharanos, Dun Morogh. Adult male Gnome4864/
+    -- M2 900914, Alliance Friendly. Installed wet-robe/snow complaint;
+    -- current own tabs0. Legacy Lago referral documented, not live guarantee.
+    -- Imaginary snowman robe is original; no quest or weather control.
+    -- Research: docs/research/kharanos-snow-and-tirisfal-persistence.md
+    [6119] = {
+        quote = "A snowman is an improvement. At least that bit of snow has agreed to stay in one place.",
+        likes = { "A dry hem after a walk", "Snow remaining where someone put it", "A friend listening through the grumbling" },
+        dislikes = { "Snow soaking his robe", "Being told it is only a little damp", "A fresh drift covering the path again" },
+        gossip = "Tog has found a use for the snow. His proposed snowman is very respectable. There appears to be a suspiciously small robe in the design.",
+        bio = "Tog Rustsprocket is a gnome in Kharanos, Dun Morogh. He complains that the ever-present snow wets his robe and gets in the way of everything. A visitor is likely to hear about the weather before the conversation has properly begun.",
+        backstory = "Considering all the snow he wished would go away, he decided a snowman might at least keep some of it in one place. The plan became rather elaborate. He began wondering whether the figure should have a robe, so it might appreciate the difficulty.",
+        secret = "The robe is imaginary. He would not leave a perfectly good garment in a snowdrift just to make a point. He does, however, take considerable pleasure in explaining the snowman's problem.",
+        bestFriend = "Come along. I may complain about the snow, but I am glad you chose to walk with me. The company is worth a little damp.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "He appreciates sympathy for the wet robe before someone tries to praise the scenery.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Good to see you. Ready for a walk, provided you understand that the snow will almost certainly receive a few remarks along the way.", tone = "[grumbling] [affectionate]" }, "An outing sounds good. I have decided the company may be worth the risk to the hem." },
+            idle = { { "A snowman would keep some of the stuff in one place. I considered giving it a robe, so it might finally understand what I have been explaining.", tone = "[wry] [muttering]" }, "The robe in the plan is imaginary. I am not wasting a useful garment merely to win an argument with the weather.", "You may admire the view. I am capable of hearing that without agreeing that my robe ought to be wet." },
+            befriended = { { "You listened to the complaints and still came back for my company. Come along, friend. I shall try to leave room for your side of the conversation.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? No, the snowman has not submitted an apology. The plan remains under consideration.", "I heard you. Tell me what you need before the weather becomes the whole discussion again." },
+            comforted = { { "Thank you. A little sympathy for the damp is welcome. We can consider how picturesque it all looks afterward.", tone = "[gruff] [grateful]" } },
+            rest = { "A pause would be pleasant. Preferably somewhere the snow is not already making arrangements for my robe." },
+            zone = { "Different surroundings. I shall try to notice something besides what they might do to the hem." },
+            mount = { "A little farther from the snow. I will call that a promising beginning." },
+            group = { "More company. Someone else may choose the next subject; I have made my feelings about the weather reasonably clear." },
+            quest = { "Hear where you need to go before setting out. A wrong turn is especially irritating when you are already wet." },
+            thanked = { "You are welcome. I am pleased to have been useful as well as informative about the snow." },
+        },
+    },
+
+    -- Deathguard Linnea, eastern Tirisfal waystation. Adult female
+    -- Forsaken2858/M2 997378, Horde Friendly. Full359/356/360/99156
+    -- current/Classic/installed and Kristof92422context researched.
+    -- Private commendation of an ordinary weed is original fiction.
+    -- Research: docs/research/kharanos-snow-and-tirisfal-persistence.md
+    [1495] = {
+        quote = "The weed has held its position between those stones. I see no harm in acknowledging persistence.",
+        likes = { "A patrol report with useful details", "The defenders' supply road kept open", "A small sign of persistence noticed" },
+        dislikes = { "A warning dismissed as routine", "Bravery mistaken for going alone", "Quiet work receiving no acknowledgment" },
+        gossip = "Linnea has noticed a persistent presence by the stones. It needs neither weapons nor supplies. She seems inclined to commend it anyway.",
+        bio = "Deathguard Linnea watches the eastern Tirisfal waystation. She reports Scourge activity to Magistrate Sevren and sends patrols toward Balnir Farmstead to protect the Bulwark's rear and supplies. She treats the rogue abomination Riptear as a serious threat.",
+        backstory = "A report of Riptear near Venomweb Vale makes her question how an abomination passed unnoticed. She urges adventurers to bring allies and rewards coordination. An earlier patrol earns a promised commendation to her superior, Executor Zygand.",
+        secret = "She has privately commended an ordinary weed growing between two stones. It needs no audience and offers no report. She simply likes seeing something small persist without being ordered to.",
+        bestFriend = "Sit beside me a while. You do not need a report to justify the visit. I am glad you chose to stay.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She values someone noticing persistence and careful work, even when neither makes an impressive story.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good to see you. Ready for the road. We should know where we are going and who is coming before anyone decides enthusiasm is enough preparation.", tone = "[raspy] [steady]" }, "Ready. You need not have a patrol report to make your company welcome." },
+            idle = { { "It is an ordinary weed between two stones. I have privately commended its persistence. There is no requirement for it to become anything more impressive.", tone = "[dry] [quietly fond]" }, "A rear attack can undo good work at the front. So can a supply road nobody thought worth protecting.", "Cunning and coordination are worth recognizing. Calling an unnecessary risk brave will not make it sensible." },
+            befriended = { { "You paid attention to the work and still found room to see the person doing it. Come along, friend. I would be glad to have you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you have seen. A useful detail need not arrive in an impressive speech.", "I hear you. If this is a visit rather than a report, you may say that too." },
+            quest = { { "Be certain what needs protecting, and bring the help the danger calls for. Going alone is not proof that you understood the assignment.", tone = "[firm] [earnest]" } },
+            group = { "Work together. Knowing who is covering which part is more useful than discovering afterward that everyone watched the same direction." },
+            gear = { "Make sure it is fit for what lies ahead. Confidence is easier to trust when the preparation supports it." },
+            rest = { "A pause. We can notice something that is still here without making it prove its usefulness to us." },
+            zone = { "New surroundings. Learn the approaches before assuming the danger will arrive from the direction you expect." },
+            comforted = { "Thank you. You need not promise that everything is safe. Knowing someone will pay attention with me is welcome." },
+            thanked = { "You are welcome. Careful work deserves acknowledgment, even when the result is that nothing went wrong." },
+        },
+    },
+
     -- Nasalanna Windsinger <Enchanter>, Shendar Village, Zephras Isle.
     -- Adult High Order female140076/M2 7478494, both Friendly. Full
     -- Camping96101/98286/98284context,11goods/10lessons/7gossips.

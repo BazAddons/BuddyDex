@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tog Rustsprocket and Deathguard Linnea: two complete adult early-route profiles with thirty personal lines queued.
+- Expand Kharanos and Tirisfal waystation contacts using actual dialogue and the full Forever patrol follow-up.
+
 - Add Nasalanna Windsinger and Eaysaa Brightgust: two complete adult Skyborne profiles with thirty personal lines queued.
 - Expand shared Zephras Enchanting contacts with full camping lesson research and distinct friendship stories.
 
@@ -273,4 +276,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **653 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **655 fully written NPC profiles**: 454 have initial signature recordings, and two hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

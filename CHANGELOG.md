@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tog Rustsprocket and Deathguard Linnea: two complete adult early-route profiles with thirty personal lines queued.
+- Expand Kharanos and Tirisfal waystation contacts using actual dialogue and the full Forever patrol follow-up.
+
 - Add Nasalanna Windsinger and Eaysaa Brightgust: two complete adult Skyborne profiles with thirty personal lines queued.
 - Expand shared Zephras Enchanting contacts with full camping lesson research and distinct friendship stories.
 

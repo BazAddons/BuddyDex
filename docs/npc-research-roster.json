@@ -3136,5 +3136,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult High Order Skyborne women, both factions explicitly Friendly; full current training/stock and installed dialogue, camping referrals researched; no Scout sighting claimed",
     "research_notes": "docs/research/shendar-petals-and-valanaar-proverbs.md"
+  },
+  {
+    "npc_id": 6119,
+    "name": "Tog Rustsprocket",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Gnome man and Forsaken woman, explicit Alliance/Horde Friendly respectively; installed snow complaint or full patrol/report/Riptear chain; no Scout sighting claimed",
+    "research_notes": "docs/research/kharanos-snow-and-tirisfal-persistence.md"
+  },
+  {
+    "npc_id": 1495,
+    "name": "Deathguard Linnea",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Gnome man and Forsaken woman, explicit Alliance/Horde Friendly respectively; installed snow complaint or full patrol/report/Riptear chain; no Scout sighting claimed",
+    "research_notes": "docs/research/kharanos-snow-and-tirisfal-persistence.md"
   }
 ]

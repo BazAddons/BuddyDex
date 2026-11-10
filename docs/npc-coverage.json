@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 274,
+    "alliance": 275,
     "unverified": 152,
-    "horde": 246
+    "horde": 247
   },
   "npc_race_counts": {
     "1": 166,
     "3": 52,
-    "7": 44,
+    "7": 45,
     "2": 75,
-    "5": 67,
+    "5": 68,
     "4": 49,
     "8": 53,
     "9": 40,
@@ -27,10 +27,10 @@
     "Stormwind City": 114,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
-    "Dun Morogh": 16,
+    "Dun Morogh": 17,
     "Ironforge": 50,
     "Stranglethorn Vale": 4,
-    "Tirisfal Glades": 39,
+    "Tirisfal Glades": 40,
     "Undercity": 14,
     "Wetlands": 1,
     "Duskwood": 3,
@@ -1603,6 +1603,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1478"
+    },
+    {
+      "npc_id": 1495,
+      "name": "Deathguard Linnea",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1495"
     },
     {
       "npc_id": 1496,
@@ -5796,6 +5809,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6018"
     },
     {
+      "npc_id": 6119,
+      "name": "Tog Rustsprocket",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6119"
+    },
+    {
       "npc_id": 6169,
       "name": "Klockmort Spannerspan",
       "zone": "Ironforge",
@@ -8367,6 +8393,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 653,
-  "awaiting_signature_audio_profiles": 199
+  "authored_profiles": 655,
+  "awaiting_signature_audio_profiles": 201
 }

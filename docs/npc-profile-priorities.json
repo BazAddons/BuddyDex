@@ -2807,6 +2807,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar shared Skyborne regional profession contact",
       "reason": "Complete adult Skyborne female profile, fifteen personal lines queued, sourced Enchanting role with distinct original petal-arrangement or proverb humor; no synthesis"
+    },
+    {
+      "npc_id": 6119,
+      "name": "Tog Rustsprocket",
+      "zone": "Dun Morogh",
+      "route": "Kharanos early Dun Morogh named resident",
+      "reason": "Complete adult early-route profile, fifteen personal lines queued, actual snow complaint or patrol duties with distinct original snowman/weed writing; no synthesis"
+    },
+    {
+      "npc_id": 1495,
+      "name": "Deathguard Linnea",
+      "zone": "Tirisfal Glades",
+      "route": "Eastern Brill waystation early Tirisfal patrol contact",
+      "reason": "Complete adult early-route profile, fifteen personal lines queued, actual snow complaint or patrol duties with distinct original snowman/weed writing; no synthesis"
     }
   ]
 }
