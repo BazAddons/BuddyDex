@@ -1,6 +1,7 @@
 # BuddyDex v002
 
 ## More friends across Azeroth
+- Add Zelena Favorbreeze and Zargh: full female Skyborne auctioneer and male Orc butcher profiles, fifteen personal lines and four approved v4 signatures each, with sourced Valanaar identity and Zargh's Gryshka delivery story.
 - Add Karos Razok and Deathstalker Lesh: full male/female Forsaken flight-master and scout profiles, fifteen personal lines and four approved v4 signatures each; preserve Elite Karos friendship thresholds and Lesh's established Hillsbrad mission.
 - Add Thork and Thund: full male Orc Crossroads defender and Orgrimmar engineer profiles, fifteen personal lines and four approved v4 signatures each, grounded in their quest and workshop dialogue.
 - Add Lar Prowltusk and Nyse: full Troll scout and female Tauren flight-master profiles, fifteen personal lines and four approved v4 signatures each; retain Nyse's Elite friendship thresholds.
@@ -79,7 +80,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **432 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **434 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

@@ -1589,5 +1589,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/karos-and-lesh-queue.md"
+  },
+  {
+    "npc_id": 257037,
+    "name": "Zelena Favorbreeze",
+    "zone": "Zephras Isle",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/zelena-and-zargh-queue.md"
+  },
+  {
+    "npc_id": 3489,
+    "name": "Zargh",
+    "zone": "The Barrens",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/zelena-and-zargh-queue.md"
   }
 ]

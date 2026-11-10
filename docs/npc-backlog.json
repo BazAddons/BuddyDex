@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 432,
+  "completed_count": 434,
   "remaining_count": 2,
   "completed": [
     {
@@ -2274,6 +2274,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3489,
+      "name": "Zargh",
+      "zone": "The Barrens",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/zelena-and-zargh-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3490,
       "name": "Hula'mahi",
       "zone": "The Barrens",
@@ -3998,6 +4008,16 @@
       "zone": "Zephras Isle",
       "source": "Reviewed current both-friendly identity/adult model, full seasonal crab quest including progress, installed ancestral-cooking gossip and services; no Scout sighting claimed",
       "research_notes": "docs/research/nyalah-brightfire.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 257037,
+      "name": "Zelena Favorbreeze",
+      "zone": "Zephras Isle",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/zelena-and-zargh-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

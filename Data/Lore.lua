@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Zelena Favorbreeze <Auctioneer>, Valanaar/Zephras,257037/140072.
+    -- Adult female High Order Skyborne body; explicit current HordeFriendly,
+    -- no Alliance/market-sharing inference. Clay frog original, not item reward.
+    -- Research: docs/research/zelena-and-zargh-queue.md.
+    [257037] = {
+        quote = "Tell me what you wish to list. The little frog is staying with me. I know its feet are crooked; that is part of why I like it.",
+        likes = { "A seller clear about what they offer", "Care in something made simply", "The crooked feet of her little clay frog" },
+        dislikes = { "An important detail hidden from a buyer", "Dismissing a possession only for its price", "A thoughtful question hurried aside" },
+        gossip = "Zelena keeps a clay frog with crooked feet. People expecting an explanation of its price discover she simply likes looking at it.",
+        bio = "Zelena handles auctions in Valanaar on Zephras Isle. She enjoys helping a seller describe what they offer clearly. Her own little clay frog is an exception to the business around her: it makes her laugh, and she intends to keep it.",
+        backstory = "Zelena noticed a small clay frog whose feet looked halfway through an awkward bow. She liked it enough to keep it. When someone asked what made it valuable, she found herself explaining the pleasure of seeing those feet each day rather than naming a price.",
+        secret = "She sometimes turns the frog a little to see whether the bow improves. It never does. That is usually enough to make her smile before the next conversation begins.",
+        bestFriend = "Stay, friend. I enjoy having you here. Some things are worth keeping close because they make the day better.",
+        favorite = { emote = "SMILE", hint = "Share her amusement when an ordinary little possession proves more pleasing than its price could explain." },
+        lines = {
+            greet = { { "Welcome, friend. Tell me what you wish to list, and make the important details clear. The little clay frog is staying with me. Yes, its feet are crooked. They look as though it stopped halfway through an awkward bow. I enjoy seeing them. That is enough of an explanation for a possession I have no intention of selling.", tone = "[warm] [clear] [gently amused]" },
+                "There you are. Business today, or a moment to admire the frog's unfortunate bow?" },
+            idle = { { "Someone asked what made my little frog valuable. I began explaining the feet, and how I enjoy seeing them at the start of the day. They had expected a price. I understand the question, of course, but sometimes the answer is simply that something makes you smile. I have turned it again. The bow has not improved.", tone = "[amused] [conversational] [warm]" },
+                "A clear description gives another person something fair to consider.",
+                "No, that angle is not better. Perhaps the frog is pleased with its bow as it is." },
+            befriended = { { "I am glad you have become someone who stays after the business is finished, friend. Sit with me a while. We need not find a price for every pleasant part of the day. Your company has become one of them. Tell me what made you smile on the road, and I will try to offer something better than another opinion about the frog.", tone = "[warm] [sincere] [gently playful]" } },
+            poke = { "Yes? I am listening.", "The feet are still crooked. I find that reassuring." },
+            loot = { { "Have a good look before deciding what you wish to do with it. If you offer it to someone else, describe it clearly. If you keep it, you may have a reason a price would never explain. I spend my work among things changing hands. It is pleasant to remember that a possession can simply make its owner glad.", tone = "[thoughtful] [instructive] [warm]" } },
+            mail = { "Read what has arrived carefully. The small details deserve a moment." },
+            bagsFull = { "Consider what you mean to keep, and what you are ready to let go." },
+            gear = { "Someone may see more in a familiar possession than its first appearance suggests." },
+            rest = { "A moment without business. Tell me something you were pleased to find today." },
+            laughAlong = { "Yes, the bow. I have decided the frog is satisfied with it." },
+            hearth = { "Back to Valanaar. I expect the frog will have made very little progress with those feet." },
+        },
+    },
+
+    -- Zargh <Butcher>, Crossroads/The Barrens,3489/3877.
+    -- Adult male Orc/HordeFriendly/Normal. Full6365-6386/Letter16307;
+    -- Gryshka affection/finger accident/wedding joke, no marriage inferred.
+    -- Research: docs/research/zelena-and-zargh-queue.md.
+    [3489] = {
+        quote = "Take good provisions into the Barrens. And if you happen to hear from Gryshka, there is no need to keep a friend waiting for the news.",
+        likes = { "A traveler leaving with good provisions", "Gryshka enjoying the cuts he sent", "Good news delivered before the suspense" },
+        dislikes = { "Setting out without enough food", "Fine meat handled carelessly", "Someone drawing out a welcome answer" },
+        gossip = "Zargh tries to sound casual when he asks about Gryshka's reply. The grin tends to arrive before the question is finished.",
+        bio = "Zargh sells meat at the Crossroads and urges travelers to provision for the Barrens. He sends choice cuts to his friend Gryshka in Orgrimmar. Her warm thanks delight him enough to tease a helpful courier about a possible wedding invitation.",
+        backstory = "Zargh practiced asking after Gryshka's reply as though it were an ordinary delivery. The words sounded casual until he reached her name. Then the grin gave him away. He has since found that a short question gets the welcome news home sooner.",
+        secret = "He sometimes begins practicing that casual question again. He knows the grin will spoil the attempt, but thinking of a good reply is pleasant enough to let it happen.",
+        bestFriend = "Come, friend. I enjoy your company. You can tell me the good news without making me pretend I am not eager to hear it.",
+        favorite = { emote = "CHEER", hint = "An enthusiastic response suits someone whose delight at a welcome reply is difficult to hide." },
+        lines = {
+            greet = { { "Have you stocked up for the Barrens, friend? A journey is easier to begin with good provisions. If you happen to hear from Gryshka in Orgrimmar, you can bring that news as well. I sent her some choice cuts. I was going to ask about the reply quite casually, but you have already noticed the grin, haven't you?", tone = "[hearty] [friendly] [amused]" },
+                "There you are. Provisions, news, or both? I have time to hear the answer." },
+            idle = { { "I practiced asking after Gryshka's reply as though it were an ordinary delivery. It sounded sensible until I reached her name. Then I grinned. Now I try a shorter question. There is little use making a grand performance of appearing patient when the person with the answer can see how much I want to hear it.", tone = "[amused] [conversational] [warm]" },
+                "Good provisions first. You can consider the grand stories after you have remembered to eat.",
+                "I was not about to ask again. Well, perhaps a shorter version of the question." },
+            befriended = { { "You have become a friend I am glad to see coming along the road. Stay a while. There need not be a delivery in your hands for me to enjoy your company. Tell me how you have been. If there is good news, you may give it without making me pretend I have learned to wait for it with a straight face.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? You have news?", "I am listening. You needn't keep the interesting part until the end." },
+            quest = { { "That is good news, friend! I am glad the delivery was welcome. You have done me a real service, and I appreciate the trouble you took. There is more pleasure in hearing that someone enjoyed what you sent than in practicing a dignified question about it. Hah! You can see how well the dignity is holding up.", tone = "[delighted] [grateful] [hearty]" } },
+            loot = { "Keep the provisions where you can find them. A full pack is not always a well-prepared one." },
+            bagsFull = { "Leave room for the food you mean to take with you." },
+            rest = { "A good time to eat and hear how the journey went." },
+            questAccepted = { "A favor for a friend. I appreciate you taking the time." },
+            laughAlong = { "Yes, the grin. It has more practice than the dignified question." },
+            hearth = { "Back to the Crossroads. I will be glad to hear what the road has brought you." },
+        },
+    },
+
     -- Karos Razok <Bat Handler>, Sepulcher/Silverpine,2226/3832.
     -- Adult male Forsaken/Horde Friendly/Elite. Full flight tutorial context,
     -- actual well-fed/trained bat gossip; Quartermaster nickname original.

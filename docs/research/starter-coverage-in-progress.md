@@ -567,3 +567,8 @@ Completed male Orc Crossroads defender3429 and Orgrimmar engineer2857: fifteen l
 ### 2026-11-09: Karos Razok and Deathstalker Lesh (432)
 
 Completed male Forsaken Sepulcher flight master2226 and female Forsaken Hillsbrad scout2214: fifteen lines/four approved v4 signatures each. Full sources/era/original limits: docs/research/karos-and-lesh-queue.md, including actual readable Podrig order and Hillsbrad Registry, source limits for sparse tutorial links. EliteKaros150/450andnormalLesh100/300boundaries tested, normal25/150gains, exactlyone recordedwelcome, audio/layout/main+Scout smoke pass. Installed6,262files/devZIP131.96MiB/6,234runtime mappings. Public207Alliance/132Horde/100unverified seven overlaps. Wider catalog active, CF deferred/public original preserved.
+
+
+### 2026-11-09: Zelena Favorbreeze and Zargh (434)
+
+Completed female HighOrderSkyborne body/Valanaar auctioneer257037 and maleOrc/Crossroads butcher3489: fifteen lines/four approvedv4signatures each. Full sources/access/era/original limits: docs/research/zelena-and-zargh-queue.md. ExplicitcurrentHordeFriendly counted for Zelena, Alliance unverified, no shared-market inference or eligibility bypass. Full quest/Letter16307comparisons avoid assumed marriage. Normal gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,270files/devZIP132.51MiB/6,242runtime mappings. Public207Alliance/134Horde/100unverified seven overlaps. Wider catalog active, CF deferred/public original preserved.

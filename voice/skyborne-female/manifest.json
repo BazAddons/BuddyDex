@@ -239,6 +239,46 @@
     "text": "Sit a moment. When I used to make those journeys, people wanted the crawler meat almost before I had arrived. It is the welcome I remember as much as the food. We cannot make every journey again today, but we can still share a good meal here.",
     "voice_id": "lQ79RJ1oEygPMVWvoXTH"
   },
+  "lore257037_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:257037",
+    "spoken": "[warm] [sincere] [gently playful] I am glad you have become someone who stays after the business is finished, friend. Sit with me a while. We need not find a price for every pleasant part of the day. Your company has become one of them. Tell me what made you smile on the road, and I will try to offer something better than another opinion about the frog.",
+    "text": "I am glad you have become someone who stays after the business is finished, friend. Sit with me a while. We need not find a price for every pleasant part of the day. Your company has become one of them. Tell me what made you smile on the road, and I will try to offer something better than another opinion about the frog.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257037_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:257037",
+    "spoken": "[warm] [clear] [gently amused] Welcome, friend. Tell me what you wish to list, and make the important details clear. The little clay frog is staying with me. Yes, its feet are crooked. They look as though it stopped halfway through an awkward bow. I enjoy seeing them. That is enough of an explanation for a possession I have no intention of selling.",
+    "text": "Welcome, friend. Tell me what you wish to list, and make the important details clear. The little clay frog is staying with me. Yes, its feet are crooked. They look as though it stopped halfway through an awkward bow. I enjoy seeing them. That is enough of an explanation for a possession I have no intention of selling.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257037_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:257037",
+    "spoken": "[amused] [conversational] [warm] Someone asked what made my little frog valuable. I began explaining the feet, and how I enjoy seeing them at the start of the day. They had expected a price. I understand the question, of course, but sometimes the answer is simply that something makes you smile. I have turned it again. The bow has not improved.",
+    "text": "Someone asked what made my little frog valuable. I began explaining the feet, and how I enjoy seeing them at the start of the day. They had expected a price. I understand the question, of course, but sometimes the answer is simply that something makes you smile. I have turned it again. The bow has not improved.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
+  "lore257037_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:257037",
+    "spoken": "[thoughtful] [instructive] [warm] Have a good look before deciding what you wish to do with it. If you offer it to someone else, describe it clearly. If you keep it, you may have a reason a price would never explain. I spend my work among things changing hands. It is pleasant to remember that a possession can simply make its owner glad.",
+    "text": "Have a good look before deciding what you wish to do with it. If you offer it to someone else, describe it clearly. If you keep it, you may have a reason a price would never explain. I spend my work among things changing hands. It is pleasant to remember that a possession can simply make its owner glad.",
+    "voice_id": "lQ79RJ1oEygPMVWvoXTH"
+  },
   "npc_alive_1.ogg": {
     "line": 1,
     "model": "eleven_v3",

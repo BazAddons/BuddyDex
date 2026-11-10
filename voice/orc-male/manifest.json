@@ -679,6 +679,46 @@
     "text": "Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3489_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3489",
+    "spoken": "[warm] [sincere] [gently amused] You have become a friend I am glad to see coming along the road. Stay a while. There need not be a delivery in your hands for me to enjoy your company. Tell me how you have been. If there is good news, you may give it without making me pretend I have learned to wait for it with a straight face.",
+    "text": "You have become a friend I am glad to see coming along the road. Stay a while. There need not be a delivery in your hands for me to enjoy your company. Tell me how you have been. If there is good news, you may give it without making me pretend I have learned to wait for it with a straight face.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3489_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3489",
+    "spoken": "[hearty] [friendly] [amused] Have you stocked up for the Barrens, friend? A journey is easier to begin with good provisions. If you happen to hear from Gryshka in Orgrimmar, you can bring that news as well. I sent her some choice cuts. I was going to ask about the reply quite casually, but you have already noticed the grin, haven't you?",
+    "text": "Have you stocked up for the Barrens, friend? A journey is easier to begin with good provisions. If you happen to hear from Gryshka in Orgrimmar, you can bring that news as well. I sent her some choice cuts. I was going to ask about the reply quite casually, but you have already noticed the grin, haven't you?",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3489_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3489",
+    "spoken": "[amused] [conversational] [warm] I practiced asking after Gryshka's reply as though it were an ordinary delivery. It sounded sensible until I reached her name. Then I grinned. Now I try a shorter question. There is little use making a grand performance of appearing patient when the person with the answer can see how much I want to hear it.",
+    "text": "I practiced asking after Gryshka's reply as though it were an ordinary delivery. It sounded sensible until I reached her name. Then I grinned. Now I try a shorter question. There is little use making a grand performance of appearing patient when the person with the answer can see how much I want to hear it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3489_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3489",
+    "spoken": "[delighted] [grateful] [hearty] That is good news, friend! I am glad the delivery was welcome. You have done me a real service, and I appreciate the trouble you took. There is more pleasure in hearing that someone enjoyed what you sent than in practicing a dignified question about it. Hah! You can see how well the dignity is holding up.",
+    "text": "That is good news, friend! I am glad the delivery was welcome. You have done me a real service, and I appreciate the trouble you took. There is more pleasure in hearing that someone enjoyed what you sent than in practicing a dignified question about it. Hah! You can see how well the dignity is holding up.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3615_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
