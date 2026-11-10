@@ -4,14 +4,14 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 208,
-    "unverified": 117,
+    "unverified": 121,
     "horde": 148
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 51,
+    "2": 55,
     "5": 45,
     "4": 23,
     "8": 35,
@@ -39,7 +39,7 @@
     "Darkshore": 4,
     "Mulgore": 11,
     "Thunder Bluff": 23,
-    "Durotar": 31,
+    "Durotar": 35,
     "The Barrens": 22,
     "Ashenvale": 3,
     "Stonetalon Mountains": 4,
@@ -2685,6 +2685,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3158"
     },
     {
+      "npc_id": 3159,
+      "name": "Kzan Thornslash",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 named adult Valley/Den identity; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3159",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
       "npc_id": 3160,
       "name": "Huklah",
       "zone": "Durotar",
@@ -2699,6 +2715,22 @@
       "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 in Valley of Trials/The Den; normal live gates still required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3160",
       "audio_status": "All personal recordings queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 3161,
+      "name": "Rarc",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 named adult Valley/Den identity; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3161",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
     },
     {
       "npc_id": 3173,
@@ -3353,6 +3385,22 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3841"
+    },
+    {
+      "npc_id": 3882,
+      "name": "Zlagk",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 named adult Valley/Den identity; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3882",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
     },
     {
       "npc_id": 3884,
@@ -5823,6 +5871,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267326"
     },
     {
+      "npc_id": 267327,
+      "name": "Kagil",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 named adult Valley/Den identity; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267327",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
       "npc_id": 267328,
       "name": "Norzsh",
       "zone": "Durotar",
@@ -5940,6 +6004,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 466,
-  "awaiting_signature_audio_profiles": 12
+  "authored_profiles": 470,
+  "awaiting_signature_audio_profiles": 16
 }

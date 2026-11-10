@@ -41,6 +41,143 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kagil <Junior Skinning Trainer>, The Den, Durotar. NPC267327/display145036:
+    -- adult male Orc, current base model matches verified adult Frang;
+    -- actual Scout Horde/reaction5. Current title and installed leather/tools
+    -- gossip confirm role. No personal quest or mentor established. Quiet
+    -- interest in passing beetles is original, not a named pet or new ability.
+    -- docs/research/den-skinning-and-supplies.md.
+    [267327] = {
+        recordingVoice = "orc-male",
+        quote = "Careful work, useful leather, tools put away. Then I may have time to see where that beetle has gone.",
+        likes = { "Making good use of what is gathered", "A tool returned to its place", "A beetle with an impressive little shell" },
+        dislikes = { "Waste after the hard work is finished", "Leaving a blade loose in a pack", "Squashing something out of impatience" },
+        gossip = "Kagil can become unexpectedly interested in a beetle crossing the floor. He seems especially taken with the ones that look well armored.",
+        bio = "Kagil introduces new skinners to their craft in the Den, in Durotar's Valley of Trials. His lessons concern gathering leather from slain beasts and handling the tools for that work. He appreciates care after the hunt as much as effort during it.",
+        backstory = "While putting his tools away, Kagil watched a beetle negotiate a difficult bit of ground. Its determination held his attention longer than expected. He began noticing the small travelers that passed through an otherwise busy day.",
+        secret = "He has no collection and knows no grand names for them. He simply likes seeing a little armored creature make its way without needing anything from him.",
+        bestFriend = "Stay a moment. Look at that one climbing. We can admire the effort without making a lesson of it.",
+        favorite = { emote = "SMILE", hint = "A shared bit of quiet delight is a welcome way to spend a moment." },
+        lines = {
+            greet = { { "Good timing. The tools are put away, and I would enjoy a walk. Let me check the floor before we step out.", tone = "[gruff] [friendly]" },
+                "There you are. What have you noticed on the way here?" },
+            idle = { { "See that beetle? There is a remarkable amount of determination under that tiny shell. I wonder whether it knows where it is going.", tone = "[quietly delighted]" },
+                "A little care when packing saves a long search afterward.",
+                "The hunt is not quite finished while useful things are being left behind." },
+            befriended = { { "You waited while I watched that little creature find its way. I enjoyed having someone there who understood the pleasure of it. Come along, my friend.", tone = "[gruff] [warmly]" } },
+            poke = { "Gently. I was following something much smaller.", "Yes? Mind where you put your feet." },
+            learned = { { "There. Take your time with the first attempts. Careful habits are worth keeping long after the lesson is familiar.", tone = "[patient] [encouraging]" } },
+            loot = { "Worth using? Then let us see it gets used." },
+            bagsFull = { "Put the sharp tools somewhere secure before rearranging anything." },
+            rest = { "A quiet patch. We may find a small traveler or two if we sit still." },
+            quest = { "All done? Check what needs putting away before you leave." },
+            zone = { "Different ground, different little lives going about their business." },
+            combatEnd = { "Finished. Take a breath before reaching for anything sharp." },
+        },
+    },
+
+    -- Kzan Thornslash <Weaponsmith>, The Den, Durotar. NPC3159/display1883:
+    -- adult male Orc, actual Scout Horde/reaction5. Current8weapon stock;
+    -- Forever97279Gornek->Kzan recovers6training weapons; installed completion
+    -- says he repairs them for new recruits. No named captured player imported.
+    -- Giving tools little speeches is original. docs/research/den-skinning-and-supplies.md.
+    [3159] = {
+        recordingVoice = "orc-male",
+        quote = "Back again? Good. I prefer that in both customers and their weapons.",
+        likes = { "A useful weapon returned from the dirt", "A grip that suits its owner", "Work ready for another pair of hands" },
+        dislikes = { "Training weapons abandoned outside", "A loose grip ignored until too late", "Buying by appearance alone" },
+        gossip = "Kzan has been heard telling a restored weapon to behave itself. Nobody is quite sure which of them was receiving the lecture.",
+        bio = "Kzan Thornslash supplies weapons in the Den, in Durotar's Valley of Trials. Gornek sends recovered training weapons to him when supplies run low. He puts them back into working order for another wave of recruits.",
+        backstory = "While fixing a battered grip, Kzan told the weapon to stay with its next owner. The little speech made the work more pleasant. He found he had something to say to the next neglected piece as well.",
+        secret = "He knows they are not listening. The speeches help him picture another recruit getting a fair beginning with something useful in hand. He finds that worth a little foolishness.",
+        bestFriend = "This time, we can talk to one another. Sit where I can see you. I have had enough conversations with unresponsive metal today.",
+        favorite = { emote = "PRAISE", hint = "Someone noticing useful work gives a craftsman a good reason to feel pleased." },
+        lines = {
+            greet = { { "The work can wait a little. Come, let us find something to discuss that can answer back.", tone = "[gruff] [lightly amused]" },
+                "There you are. A familiar face is a welcome change from a familiar pile of repairs." },
+            idle = { { "I told that weapon to stay in someone's hand this time. No, I do not expect obedience. I would settle for a more careful recruit.", tone = "[dryly amused]" },
+                "Something left in the dirt may still have useful work ahead of it.",
+                "Try the grip before falling in love with the blade." },
+            befriended = { { "You came back when there was nothing to buy and nothing to put right. I appreciated the visit. I would enjoy seeing where you go next.", tone = "[gruff] [sincere]" } },
+            poke = { "Mind the hands. They have work to do.", "Yes? I had noticed you were here." },
+            gear = { { "Hold it comfortably. A useful weapon should not feel like an argument before you have even begun.", tone = "[practical] [approving]" } },
+            loot = { "Do not dismiss it before checking the condition." },
+            bagsFull = { "Leave room around the edges. Yours, preferably, as well as the sharp ones." },
+            quest = { "Returned what was needed? Good. There is satisfaction in seeing something back where it belongs." },
+            learned = { "A little practice now. Let the skill catch up with the enthusiasm." },
+            rest = { "Sit down. The tools will survive being left alone for a moment." },
+            levelUp = { "You have grown. See whether that old grip still suits you." },
+        },
+    },
+
+    -- Rarc <Armorer & Shieldcrafter>, The Den, Durotar. NPC3161/display1885:
+    -- adult male Orc, actual Scout Horde/reaction5. Classic armor/shield8stock;
+    -- current own tabs empty, no personal quest found. No exact service/rank
+    -- promises. Overprotective cup-cover habit is original, not a game item.
+    -- docs/research/den-skinning-and-supplies.md.
+    [3161] = {
+        recordingVoice = "orc-male",
+        quote = "Good protection should suit the thing it protects. Yes, that includes keeping dust out of my drink.",
+        likes = { "A shield held comfortably", "Useful protection without fuss", "A drink that has remained dust-free" },
+        dislikes = { "Carrying a shield as decoration", "A strap that keeps slipping", "Someone lifting his cup cover" },
+        gossip = "Rarc covers his cup with unusual care. He has explained its defenses at greater length than anyone expected.",
+        bio = "Rarc is the armorer and shieldcrafter in the Den, in Durotar's Valley of Trials. Armor and shields are his trade. He values a comfortable grip and a secure strap, especially when someone is still learning how to carry their equipment.",
+        backstory = "Dust settled in a drink while Rarc was busy with work. He put a cover over the next one, then found himself considering how well it fit. A quiet break became an oddly satisfying little exercise in protecting something ordinary.",
+        secret = "He knows a simpler cover would do. He enjoys taking one small comfort seriously. There is no grand lesson in it, though he can sound as if there ought to be.",
+        bestFriend = "Sit here. Your cup can have a cover, too. We can enjoy a thoroughly well-defended break without explaining ourselves.",
+        favorite = { emote = "SALUTE", hint = "A little acknowledgment suits someone who takes protection seriously." },
+        lines = {
+            greet = { { "A little time away? Good. Let me finish here. There, nothing is likely to fall over while I am gone.", tone = "[gruff] [contented]" },
+                "Ready when you are. Are the straps sitting comfortably?" },
+            idle = { { "It is a cup cover. I admit that the fit received more attention than it strictly required. I have enjoyed several very clean drinks as a result.", tone = "[matter-of-fact] [amused]" },
+                "You should be able to lift the thing you mean to shelter behind.",
+                "An ordinary comfort is worth a little care." },
+            befriended = { { "You stayed to talk when the business was done. I enjoyed that. Let us see whether a walk together is as pleasant as a shared break.", tone = "[gruff] [warmly]" } },
+            poke = { "Checking for a weak point?", "I am paying attention. You may stop testing the padding." },
+            gear = { { "Check the strap before setting out. A small adjustment now is much easier than one made in a hurry later.", tone = "[steady] [practical]" } },
+            combatEnd = { "Everyone still standing? Good. Look after the ones who are not." },
+            quest = { "There. Something useful accomplished. That deserves a comfortable seat." },
+            rest = { "A good place to sit. I shall try not to discuss cup defenses for the entire break." },
+            zone = { "New surroundings. Keep a little room around you while you look." },
+            loot = { "Useful protection, perhaps. Check the condition first." },
+            levelUp = { "Stronger. Your old shield should feel a little less cumbersome." },
+        },
+    },
+
+    -- Zlagk <Butcher>, Valley of Trials, Durotar. NPC3882/display3753:
+    -- adult male Orc, actual Scout Horde/reaction5. Current12meat/drink stock
+    -- includes Ice Cold Milk. No own quests/gossip found. Later Frostwall Barn
+    -- and meat-god quote excluded. Saving a cold cup for a quiet break is fiction.
+    -- docs/research/den-skinning-and-supplies.md.
+    [3882] = {
+        recordingVoice = "orc-male",
+        quote = "Food for the road? Good. And when you stop, actually stop. You can eat without marching for a few moments.",
+        likes = { "Someone remembering to have lunch", "A parcel that stays properly wrapped", "A cold cup enjoyed without interruption" },
+        dislikes = { "Food crushed beneath spare equipment", "A break cut short for no good reason", "Sand in the last mouthful" },
+        gossip = "Zlagk can discuss provisions all day. Ask about his own favorite break and he becomes surprisingly particular about a cup of cold milk.",
+        bio = "Zlagk sells meat and drinks in Durotar's Valley of Trials. His provisions cover a hungry traveler and someone who simply needs water for the road. Among the talk of training, his trade supplies a practical reason to pause.",
+        backstory = "After a busy stretch of customers, Zlagk sat with a cold cup of milk and let the next few moments belong to nobody else. He liked the unhurried little break enough to begin looking forward to another.",
+        secret = "For all his talk of hearty provisions, that plain cold cup is often the part of the day he most enjoys. Company is welcome if it does not require him to hurry.",
+        bestFriend = "Sit down. Tell me about your day while I finish this. We have time enough for the last mouthful and the end of the story.",
+        favorite = { emote = "THANK", hint = "A little appreciation for everyday comforts is always welcome." },
+        lines = {
+            greet = { { "Good timing. I could use a little company and a look beyond the supplies. Have you eaten?", tone = "[hearty] [friendly]" },
+                "There you are. A familiar face improves a busy afternoon." },
+            idle = { { "A cold cup, a comfortable place to sit, and nobody asking me to hurry. I have had grander plans turn out less pleasantly.", tone = "[contented] [dryly amused]" },
+                "Do not put the food beneath the spare boots. I should not need to say it.",
+                "There is a difference between carrying lunch and remembering to eat it." },
+            befriended = { { "You stayed for the conversation after the provisions were sorted. I enjoyed that. I would be glad to share a little more of the day with you.", tone = "[hearty] [warmly]" } },
+            poke = { "Yes? I was thinking about lunch.", "The parcel needs checking. I do not." },
+            rest = { { "Here. Sit comfortably. We can let this be a proper break instead of something we fit between two hurried steps.", tone = "[relaxed] [welcoming]" } },
+            loot = { "Something useful? Keep it away from the food until you are certain." },
+            bagsFull = { "You could make a little room by eating the lunch you packed." },
+            quest = { "Finished. Now perhaps there is time for a meal." },
+            zone = { "New places mean new provisions. I wonder what people here take on the road." },
+            levelUp = { "Look at you! That is a good reason to stop and enjoy something." },
+            hearth = { "Home again. I hope there is a seat with your name on it." },
+        },
+    },
+
     -- Galgar, Valley of Trials, Durotar. NPC9796/display9151: adult male Orc,
     -- actual Scout Horde/reaction5. Current4402:10cactus apples, cooling
     -- dessert and training manual; installed text retains older food offer.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kagil, Kzan Thornslash, Rarc and Zlagk: four full Scout-observed service profiles, fifteen personal lines each, with approved Orc male audio queued for later recording.
+- Ground Kzan's salvage-and-repair role in Forever's Wayward Weapons text; keep later Draenor material and unverified service details out of the profiles.
+
 - Add Galgar, Kaltunk, Norzsh and Zor'la: four full Scout-observed Durotar profiles, including individually verified adult Forever gathering trainers, with fifteen personal lines each queued for later recording.
 
 - Add full Frang, Ken'jai, Magga and Huklah profiles from Scout's Valley of Trials/Den observations, with fifteen personal lines each and approved Orc/Troll voices assigned for later recording.

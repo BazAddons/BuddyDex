@@ -1827,5 +1827,33 @@
     "zone": "Durotar",
     "source": "Actual Scout Horde/reaction5 named adult; current individual models, Classic/current quest bodies and custom Forever trainer roles reviewed; no public reaction invented",
     "research_notes": "docs/research/valley-arrivals-and-forever-names.md"
+  },
+  {
+    "npc_id": 267327,
+    "name": "Kagil",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 adult Orc; current standard adult model, complete own tabs, Forever97279and Classic/installed sources reviewed; no public reaction invented",
+    "research_notes": "docs/research/den-skinning-and-supplies.md"
+  },
+  {
+    "npc_id": 3159,
+    "name": "Kzan Thornslash",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 adult Orc; current standard adult model, complete own tabs, Forever97279and Classic/installed sources reviewed; no public reaction invented",
+    "research_notes": "docs/research/den-skinning-and-supplies.md"
+  },
+  {
+    "npc_id": 3161,
+    "name": "Rarc",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 adult Orc; current standard adult model, complete own tabs, Forever97279and Classic/installed sources reviewed; no public reaction invented",
+    "research_notes": "docs/research/den-skinning-and-supplies.md"
+  },
+  {
+    "npc_id": 3882,
+    "name": "Zlagk",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 adult Orc; current standard adult model, complete own tabs, Forever97279and Classic/installed sources reviewed; no public reaction invented",
+    "research_notes": "docs/research/den-skinning-and-supplies.md"
   }
 ]

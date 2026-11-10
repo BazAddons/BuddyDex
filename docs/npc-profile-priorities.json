@@ -1498,6 +1498,34 @@
       "zone": "Durotar",
       "route": "Actual Scout Valley arrivals and adult Forever gathering-trainer coverage",
       "reason": "Current identity/model and quest/service sources reviewed; complete written profile, approved voice, audio queued until user confirms billing fix"
+    },
+    {
+      "npc_id": 267327,
+      "name": "Kagil",
+      "zone": "Durotar",
+      "route": "Actual Scout Den skinning, weapon, armor and food service coverage",
+      "reason": "Full written adult profile grounded in current/Classic/installed role evidence; approved voice assigned, all audio queued without synthesis"
+    },
+    {
+      "npc_id": 3159,
+      "name": "Kzan Thornslash",
+      "zone": "Durotar",
+      "route": "Actual Scout Den skinning, weapon, armor and food service coverage",
+      "reason": "Full written adult profile grounded in current/Classic/installed role evidence; approved voice assigned, all audio queued without synthesis"
+    },
+    {
+      "npc_id": 3161,
+      "name": "Rarc",
+      "zone": "Durotar",
+      "route": "Actual Scout Den skinning, weapon, armor and food service coverage",
+      "reason": "Full written adult profile grounded in current/Classic/installed role evidence; approved voice assigned, all audio queued without synthesis"
+    },
+    {
+      "npc_id": 3882,
+      "name": "Zlagk",
+      "zone": "Durotar",
+      "route": "Actual Scout Den skinning, weapon, armor and food service coverage",
+      "reason": "Full written adult profile grounded in current/Classic/installed role evidence; approved voice assigned, all audio queued without synthesis"
     }
   ]
 }
