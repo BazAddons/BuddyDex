@@ -3262,5 +3262,12 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult Gnome / Goblin men, explicit faction Friendly; full donation/transport/rescue chains and installed dialogue read; Alliance Friendly / Horde Neutral distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/tinker-town-thanks-and-booty-bay-hinges.md"
+  },
+  {
+    "npc_id": 260559,
+    "name": "Gilliwigs",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Goblin male, Horde Friendly; all current relationship tabs,28goods and installed scenic greeting read; no Scout sighting claimed",
+    "research_notes": "docs/research/gilliwigs-and-the-empty-frame.md"
   }
 ]

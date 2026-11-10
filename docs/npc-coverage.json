@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 284,
     "unverified": 153,
-    "horde": 254
+    "horde": 255
   },
   "npc_race_counts": {
     "1": 166,
@@ -15,7 +15,7 @@
     "5": 70,
     "4": 52,
     "8": 54,
-    "9": 41,
+    "9": 42,
     "6": 77,
     "96": 15,
     "95": 20
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Zephras Isle": 34,
-    "Riverglades": 8
+    "Riverglades": 9
   },
   "entries": [
     {
@@ -8315,6 +8315,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260558"
     },
     {
+      "npc_id": 260559,
+      "name": "Gilliwigs",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260559"
+    },
+    {
       "npc_id": 260563,
       "name": "Mia Tanglewrench",
       "zone": "Riverglades",
@@ -8600,6 +8613,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 671,
-  "awaiting_signature_audio_profiles": 217
+  "authored_profiles": 672,
+  "awaiting_signature_audio_profiles": 218
 }

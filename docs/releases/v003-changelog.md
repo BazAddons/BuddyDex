@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gilliwigs: a full adult Goblin trade-goods profile in Riverglades, with fifteen personal lines queued.
+- Ground his profile in the full stock list and scenic greeting, with an original empty-frame story and normal friendship unlocks.
+
 - Add Bubulo Acerbus and Scooty: two complete adult profiles with thirty personal lines queued.
 - Expand Gnome cloth-quartermaster and Goblin engineering contacts using full donation, transport and rescue quest research.
 
@@ -303,4 +306,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **671 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventeen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **672 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

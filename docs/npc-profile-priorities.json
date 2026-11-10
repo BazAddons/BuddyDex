@@ -2933,6 +2933,13 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay Goblin engineering/quest contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original short-thank-you or hinge-appreciation writing; no synthesis"
+    },
+    {
+      "npc_id": 260559,
+      "name": "Gilliwigs",
+      "zone": "Riverglades",
+      "route": "Riverglades Horde trade-goods contact",
+      "reason": "Complete adult Horde service profile, fifteen personal lines queued; original empty-frame story; no synthesis"
     }
   ]
 }

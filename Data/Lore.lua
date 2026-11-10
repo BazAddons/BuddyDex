@@ -41,6 +41,39 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gilliwigs <Trade Goods>, Riverglades. Adult Goblin male145180/
+    -- M2 119376, Horde Friendly. All28stock rows and installed view
+    -- greeting read; no own linked quests. Empty picture frame is original.
+    -- Research: docs/research/gilliwigs-and-the-empty-frame.md
+    [260559] = {
+        quote = "I tried putting a frame around the view. The trouble was everything I kept leaving outside it.",
+        likes = { "A good view shared without a hurry", "The small supply that finishes a job", "A visitor noticing something he missed" },
+        dislikes = { "A fine sight treated as empty space", "A simple request buried under a sales pitch", "Leaving a pleasant detail out of the picture" },
+        gossip = "Gilliwigs found an empty picture frame for the view. He has spent more time lowering it than deciding what belongs inside.",
+        bio = "Gilliwigs sells trade goods in Riverglades. Thread, dyes, vials and tools are among his supplies. He takes particular pleasure in the view around him, and his greeting invites a visitor to appreciate it too.",
+        backstory = "He held an empty frame at arm's length to decide which part of the view would make a picture. Each choice left out another detail he liked. Eventually he lowered the frame and enjoyed having nothing at all to leave out.",
+        secret = "The frame is still empty. He thinks it has done useful work: it keeps reminding him to put it down and look at the whole view again.",
+        bestFriend = "Come along. You may notice the part I keep overlooking. I would rather share the whole view than argue about what fits in the frame.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He appreciates someone sharing his enjoyment of the surroundings before hurrying back to business.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Take a look around before we go. I would hate to give you all the useful supplies and let you miss the best part of stopping here.", tone = "[warm] [appreciative]" }, "Ready. Tell me what caught your attention today. There may be something worth looking at before we make the next sale the whole story." },
+            idle = { { "I held an empty frame up to the view. Every choice left out something I liked. Putting the frame down was a considerable improvement to the picture.", tone = "[wry] [pleased]" }, "A little thread or the right vial can be the part somebody came all this way to find. Ordinary supplies deserve their moment.", "I know the view is still there. That does not mean I have finished enjoying it." },
+            befriended = { { "You stopped to enjoy the view and showed me something I had not noticed. Come along, friend. I would enjoy seeing the next stretch with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have chosen what belongs in the frame, tell me what you had to leave out. That was where I kept finding the difficulty.", "I hear you. Ask for what you need. We can discuss the view without making the supplies difficult to find." },
+            zone = { { "New surroundings. Let us take a look before choosing one detail and deciding it explains the whole place.", tone = "[curious] [unhurried]" } },
+            loot = { "A useful find, perhaps. Give it a proper look before deciding whether it belongs with what you meant to carry." },
+            bagsFull = { "Sort what you need before adding another bundle. The whole view can come with you as a memory; the whole shop cannot." },
+            learned = { "Ask which small thing the work actually needs. A grand explanation is less helpful when the missing piece is a length of thread." },
+            rest = { "A pause. No need to frame this one. We can enjoy the surroundings without deciding what would make the finest picture." },
+            group = { "Ask what the others noticed. More than one person can have a good view without anybody losing theirs." },
+            thanked = { "You are welcome. I am glad the supplies helped, and glad you had a moment to enjoy where you found them." },
+        },
+    },
+
     -- Bubulo Acerbus <Alliance Cloth Quartermaster>, Tinker Town, Ironforge.
     -- Adult Gnome male14752/M2 900914, Alliance Friendly. Full five
     -- donation texts and installed appeal read; current starts2/ends0.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gilliwigs: a full adult Goblin trade-goods profile in Riverglades, with fifteen personal lines queued.
+- Ground his profile in the full stock list and scenic greeting, with an original empty-frame story and normal friendship unlocks.
+
 - Add Bubulo Acerbus and Scooty: two complete adult profiles with thirty personal lines queued.
 - Expand Gnome cloth-quartermaster and Goblin engineering contacts using full donation, transport and rescue quest research.
 
