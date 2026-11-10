@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Uthrar Threx <Journeyman Tailor>, Great Forge, Ironforge. Adult
+    -- Dwarf male10629/M2 878772, Alliance Friendly.24Classic training
+    -- rows and3installed welcomes/assistant/Stonebrew references read.
+    -- Current own tabs0. Shadow-duck performance is original fiction.
+    -- Research: docs/research/ironforge-shadow-ducks-and-cherry-pie.md
+    [1703] = {
+        quote = "Fancy tailoring? Ask Stonebrew. A duck made out of shadows? That I can manage.",
+        likes = { "A new pupil eager to begin", "Knowing when another teacher can help", "A small performance enjoyed for fun" },
+        dislikes = { "Pretending to know the advanced answer", "A beginner made ashamed to ask", "Insisting every shadow must be a wolf" },
+        gossip = "Uthrar has mastered one shadow creature. It appears when he puts his hands together. Attempts at other creatures look suspiciously similar.",
+        bio = "Uthrar Threx teaches beginning tailors at Stonebrow's Clothier in Ironforge. He welcomes new students with enthusiasm, but calls himself an assistant. For the fancy work, he points visitors toward Stonebrew instead of claiming every answer himself.",
+        backstory = "During a pause, he tried making a wolf's shadow with his hands. It looked like a duck. So did the next creature. Rather than insist the audience was mistaken, he decided that a convincing duck deserved a little appreciation of its own.",
+        secret = "The shadow duck is the whole performance. No magnificent second act waits behind it. He enjoys giving the little creature a bow as though it had just accomplished something splendid.",
+        bestFriend = "Stay for the performance. You know what it will be, and I know you came for the company. That is an excellent audience.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a little appreciation for a modest performance that makes no claim to be grand.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you! Ready for an outing. I can bring the duck, though it will need a cooperative patch of light.", tone = "[hearty] [welcoming]" }, "Ready. An assistant can enjoy a little time away from the shop without claiming to have become the master." },
+            idle = { { "I meant to make a wolf with my hands. It looked like a duck. The next creature also looked like a duck. I have decided to appreciate the duck.", tone = "[wry] [cheerful]" }, "Being pleased to teach a beginner does not require pretending you can teach everything.", "The little performance has no second act. I feel the duck has done quite enough for one appearance." },
+            befriended = { { "You enjoyed the little performance without asking why it was not something grander. Come along, friend. I would like more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you were expecting a different creature, I should explain the limits of the performance.", "I hear you. A proper question deserves more attention than another attempt at the wolf." },
+            learned = { { "A good beginning! Ask again if a step is unclear. I would rather hear the question than have you quietly struggle with the wrong idea.", tone = "[encouraging] [earnest]" } },
+            gear = { "Does it do the work you need? Fancy is a pleasant extra once that question has an answer." },
+            rest = { "A pause. If the light is willing, the duck may make a brief appearance. It has a very manageable schedule." },
+            cheerAlong = { "Thank you! The duck accepts the compliment. Its assistant is quite pleased as well." },
+            quest = { "Know what you have been asked to do. If the question belongs with someone more experienced, there is no shame in finding them." },
+            group = { "Let the newcomer ask. We all began before we knew which questions would seem simple later." },
+            thanked = { "You are welcome. I am glad the explanation helped. That is a good result for an assistant." },
+        },
+    },
+
+    -- Sraaz <Pie Vendor>, Great Forge, Ironforge. Adult Gnome male
+    -- 8353/M2 900914, Alliance Friendly. Current/Classic one pie8950;
+    -- eight installed remarks including Nana. No later holiday achievement.
+    -- Debating which bite is best is original; no copied song lyrics.
+    -- Research: docs/research/ironforge-shadow-ducks-and-cherry-pie.md
+    [9099] = {
+        quote = "The first bite is the best part. Unless it is the last bite. I may need to reconsider.",
+        likes = { "Warm cherry pie", "A good bite given time to be enjoyed", "Someone saving a little room for company" },
+        dislikes = { "An excellent slice eaten in a hurry", "A bad day given the whole conversation", "Being asked to choose crust or filling" },
+        gossip = "Sraaz knows which part of a cherry pie is best. His answer may change before the slice is finished. He remains completely convinced.",
+        bio = "Sraaz sells Homemade Cherry Pie in Ironforge. His calls praise its taste and promise a cheerful moment in a bad day. He remembers Nana's fondness for a warm slice. Whatever else a visitor needs, his own favorite food is no mystery.",
+        backstory = "He began praising the first bite as the finest part of a slice. Then he reached the last bite and found another excellent argument. Crust and filling complicated the matter further. He has never found this uncertainty a reason to enjoy less pie.",
+        secret = "He sometimes saves the last bite while considering whether it really is the best. The answer becomes much less important once he eats it. He calls that a satisfactory conclusion.",
+        bestFriend = "Stay a while. You may choose your own favorite bite. We need not agree to enjoy the company.",
+        favorite = {
+            emote = "LOVE",
+            hint = "He understands an unembarrassed declaration of affection for something that brings a little joy.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Good to see you! Ready for an outing. I have been considering the merits of the first bite. There are several.", tone = "[bright] [welcoming]" }, "An outing sounds splendid. We can enjoy the company without settling which part of the slice is best." },
+            idle = { { "The first bite is the best, until I reach the last one. Then I am quite certain I ought to have praised that instead.", tone = "[animated] [amused]" }, "Crust or filling? A needlessly difficult question to ask someone who was having a perfectly pleasant time.", "Nana appreciated a warm slice. I can remember that without requiring a grand explanation for why I enjoy one too." },
+            befriended = { { "You stayed for the company as well as hearing about the pie. Come along, friend. I have enjoyed having you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering whether the middle bites have been unfairly neglected in the discussion.", "I heard you. Tell me how your day has been. The pie can wait its turn in the conversation." },
+            rest = { { "A pause. Give something pleasant a little time instead of hurrying straight to the next thing you need to finish.", tone = "[gentle] [cheerful]" } },
+            comforted = { "Thank you. Sometimes being willing to hear about the bad day is the kindness someone needs most." },
+            group = { "Good company. Let everyone have a little space in the conversation; I can praise the filling afterward." },
+            loot = { "A pleasant find! Enjoy knowing what it is before deciding what else you ought to have found." },
+            bagsFull = { "Make a little room. There is sense in leaving space for something you will actually enjoy having." },
+            zone = { "Different surroundings. Let us find something to appreciate before asking where the next errand starts." },
+            thanked = { "You are welcome. I am glad you enjoyed a little of the day with me." },
+        },
+    },
+
     -- Doyo'da, Valley of Strength, Orgrimmar. Adult male Troll
     -- 3608/M2 1022938, Horde Friendly. Current own tabs0/no installed gossip.
     -- Later Broken Tusk/Siege/cage/totem story excluded.

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Uthrar Threx and Sraaz: two complete adult Dwarf/Gnome profiles with thirty personal lines queued.
+- Expand Ironforge contacts using researched tailoring dialogue and Sraaz's cherry-pie enthusiasm, with distinct friendship stories.
+
 - Add Doyo'da and Var'jun: two complete adult Troll profiles with thirty personal lines queued.
 - Expand Orgrimmar and Bloodhoof Village contacts with early-era character research, full priest referrals and distinct friendship stories.
 
@@ -264,4 +267,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **647 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **649 fully written NPC profiles**: 454 have initial signature recordings, and one hundred ninety-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

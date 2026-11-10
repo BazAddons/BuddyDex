@@ -2765,6 +2765,20 @@
       "zone": "Mulgore",
       "route": "Bloodhoof Village regional starting-route priest referral",
       "reason": "Complete adult Troll male profile, fifteen personal lines queued, sourced resident/referral identity with distinct original storytelling or friendship welcome; no synthesis"
+    },
+    {
+      "npc_id": 1703,
+      "name": "Uthrar Threx",
+      "zone": "Ironforge",
+      "route": "Great Forge beginning tailor contact",
+      "reason": "Complete adult Alliance profile, fifteen personal lines queued, sourced tailor assistant or cherry-pie character with original shadow-duck or favorite-bite writing; no synthesis"
+    },
+    {
+      "npc_id": 9099,
+      "name": "Sraaz",
+      "zone": "Ironforge",
+      "route": "Great Forge pie-vendor contact",
+      "reason": "Complete adult Alliance profile, fifteen personal lines queued, sourced tailor assistant or cherry-pie character with original shadow-duck or favorite-bite writing; no synthesis"
     }
   ]
 }

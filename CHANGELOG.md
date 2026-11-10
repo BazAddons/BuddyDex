@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Uthrar Threx and Sraaz: two complete adult Dwarf/Gnome profiles with thirty personal lines queued.
+- Expand Ironforge contacts using researched tailoring dialogue and Sraaz's cherry-pie enthusiasm, with distinct friendship stories.
+
 - Add Doyo'da and Var'jun: two complete adult Troll profiles with thirty personal lines queued.
 - Expand Orgrimmar and Bloodhoof Village contacts with early-era character research, full priest referrals and distinct friendship stories.
 
