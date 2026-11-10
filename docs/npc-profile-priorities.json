@@ -1190,6 +1190,20 @@
       "zone": "The Barrens",
       "route": "Goblin regional vendor/quest coverage",
       "reason": "Completed authored profile/fifteen lines/four v4 signatures; full chains/manual and conditional neutral gates tested, source limits in docs/research/gikkix-and-mebok-queue.md"
+    },
+    {
+      "npc_id": 3081,
+      "name": "Wunna Darkmane",
+      "zone": "Mulgore",
+      "route": "Female/male Tauren beginner-route trade goods and leatherworking coverage",
+      "reason": "Identity checked; full stock/teaching/gossip/quest/era research pending. See docs/research/wunna-and-mak-queue.md"
+    },
+    {
+      "npc_id": 3008,
+      "name": "Mak",
+      "zone": "Thunder Bluff",
+      "route": "Female/male Tauren beginner-route trade goods and leatherworking coverage",
+      "reason": "Identity checked; full stock/teaching/gossip/quest/era research pending. See docs/research/wunna-and-mak-queue.md"
     }
   ]
 }
