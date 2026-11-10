@@ -678,5 +678,45 @@
     "spoken": "[playful] [gentle] A stick, a patch of sand, and a fish with a crooked tail. That is all. No secret message from the spirits. I could straighten it, but then it would look like a fish that already knows where it is going.",
     "text": "A stick, a patch of sand, and a fish with a crooked tail. That is all. No secret message from the spirits. I could straighten it, but then it would look like a fish that already knows where it is going.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore9988_back_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "back",
+    "say": null,
+    "source": "lore:9988",
+    "spoken": "[welcoming] [warm] [relaxed] Welcome back, friend. Come, tell me how it went. I am glad to hear the little details as well as the important part of the journey. There is time for them. You need not begin planning the next departure before you have enjoyed arriving. We can consider the farewell later, and allow for the extra moment it usually needs.",
+    "text": "Welcome back, friend. Come, tell me how it went. I am glad to hear the little details as well as the important part of the journey. There is time for them. You need not begin planning the next departure before you have enjoyed arriving. We can consider the farewell later, and allow for the extra moment it usually needs.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore9988_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9988",
+    "spoken": "[warm] [sincere] [gently amused] I enjoy having you here, friend. You have become someone I am glad to see even when there is no business to settle. Stay another moment. We can hear the rest of your story before deciding it is time to go. If the farewell takes two attempts, I think we know each other well enough to enjoy the extra one.",
+    "text": "I enjoy having you here, friend. You have become someone I am glad to see even when there is no business to settle. Stay another moment. We can hear the rest of your story before deciding it is time to go. If the farewell takes two attempts, I think we know each other well enough to enjoy the extra one.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore9988_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9988",
+    "spoken": "[warm] [friendly] [gently amused] Welcome, friend. Tell me what I should know, and take your time with the small concerns. I hear them often enough to know they matter. If you need one last affectionate pat before leaving, there is no need to pretend it will be a very brief farewell. I have made that promise myself, and found another reason to stay.",
+    "text": "Welcome, friend. Tell me what I should know, and take your time with the small concerns. I hear them often enough to know they matter. If you need one last affectionate pat before leaving, there is no need to pretend it will be a very brief farewell. I have made that promise myself, and found another reason to stay.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore9988_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9988",
+    "spoken": "[amused] [conversational] [warm] One last affectionate pat, they say. Then another little pause, and another farewell. I noticed the same thing happening when I meant to finish my own work. Now I sometimes begin saying goodbye early. It rarely saves time. Thinking of the goodbye gives me a new reason to stay, and I find I am still standing there after all.",
+    "text": "One last affectionate pat, they say. Then another little pause, and another farewell. I noticed the same thing happening when I meant to finish my own work. Now I sometimes begin saying goodbye early. It rarely saves time. Thinking of the goodbye gives me a new reason to stay, and I find I am still standing there after all.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
   }
 }

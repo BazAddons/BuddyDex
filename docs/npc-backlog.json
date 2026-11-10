@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 434,
+  "completed_count": 436,
   "remaining_count": 2,
   "completed": [
     {
@@ -3458,6 +3458,26 @@
       "zone": "Arathi Highlands",
       "source": "Exact current named adult model/Friendly/approved voice verified; full sourced profile, fifteen lines/four v4 signatures, normal299/300 Buddy and ordinary live gates tested, no Scout sighting claimed",
       "research_notes": "docs/research/tharlidun-and-uttnar-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 9983,
+      "name": "Kelsuwa",
+      "zone": "The Barrens",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/kelsuwa-and-xoncha-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 9988,
+      "name": "Xon'cha",
+      "zone": "Orgrimmar",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/kelsuwa-and-xoncha-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

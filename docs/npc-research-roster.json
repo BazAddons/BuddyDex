@@ -1603,5 +1603,19 @@
     "zone": "The Barrens",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/zelena-and-zargh-queue.md"
+  },
+  {
+    "npc_id": 9983,
+    "name": "Kelsuwa",
+    "zone": "The Barrens",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/kelsuwa-and-xoncha-queue.md"
+  },
+  {
+    "npc_id": 9988,
+    "name": "Xon'cha",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/kelsuwa-and-xoncha-queue.md"
   }
 ]

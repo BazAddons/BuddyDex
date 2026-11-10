@@ -878,5 +878,45 @@
     "spoken": "[soothing] [warm] [wry] There is no need to apologize for stopping. You have been carrying the day long enough to set it down for a while. A little food, a drink, familiar company. We can leave the next danger outside the conversation until you are ready. I can offer a worse joke instead.",
     "text": "There is no need to apologize for stopping. You have been carrying the day long enough to set it down for a while. A little food, a drink, familiar company. We can leave the next danger outside the conversation until you are ready. I can offer a worse joke instead.",
     "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9983_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9983",
+    "spoken": "[warm] [sincere] [gently amused] I am glad to have you beside me, friend. You have become someone who can share a quiet pause without trying to hurry it into something else. Stay a while. Tell me what you have noticed along the road. If the brush disappears, you may help me look surprised. I suspect you know the game well enough to enjoy that part with me.",
+    "text": "I am glad to have you beside me, friend. You have become someone who can share a quiet pause without trying to hurry it into something else. Stay a while. Tell me what you have noticed along the road. If the brush disappears, you may help me look surprised. I suspect you know the game well enough to enjoy that part with me.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9983_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9983",
+    "spoken": "[warm] [patient] [gently amused] Welcome, friend. Take your time, and tell me what I should know. An owner often notices small habits that are worth hearing about. If an animal is unfamiliar with me, I prefer to let it approach. One came close enough to take my brush. I brought a spare. You may find that I sound more surprised about it than I really am.",
+    "text": "Welcome, friend. Take your time, and tell me what I should know. An owner often notices small habits that are worth hearing about. If an animal is unfamiliar with me, I prefer to let it approach. One came close enough to take my brush. I brought a spare. You may find that I sound more surprised about it than I really am.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9983_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9983",
+    "spoken": "[amused] [conversational] [gentle] I waited quietly for an animal to approach, and it took my brush. Then it stepped back with the prize. I brought a spare rather than spoil the confidence it had found. Now I make a solemn request for the first one to return. It is difficult to sound properly surprised when I am already trying not to smile.",
+    "text": "I waited quietly for an animal to approach, and it took my brush. Then it stepped back with the prize. I brought a spare rather than spoil the confidence it had found. Now I make a solemn request for the first one to return. It is difficult to sound properly surprised when I am already trying not to smile.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
+  },
+  "lore9983_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:9983",
+    "spoken": "[calm] [reassuring] [warm] Give yourself a moment to settle, friend. There is no need to rush every quiet pause. I have learned to leave room for an unfamiliar animal to make the first approach. Sometimes that ends with a stolen brush and a game I had not planned. It is a pleasant reminder that patience can lead somewhere better than the next task.",
+    "text": "Give yourself a moment to settle, friend. There is no need to rush every quiet pause. I have learned to leave room for an unfamiliar animal to make the first approach. Sometimes that ends with a stolen brush and a game I had not planned. It is a pleasant reminder that patience can lead somewhere better than the next task.",
+    "voice_id": "UHjFz97GTxtpwstZu19x"
   }
 }

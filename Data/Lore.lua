@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kelsuwa <Stable Master>, Camp Taurajo/Barrens,9983/9256.
+    -- Adult male Tauren/HordeFriendly/Normal, current stable role/pin.
+    -- Brush game original; no Cataclysm flight/refugee history imported.
+    -- Research: docs/research/kelsuwa-and-xoncha-queue.md.
+    [9983] = {
+        quote = "Let an unfamiliar animal take its time. And if it takes my brush as well, do not look so surprised. I have brought a spare.",
+        likes = { "Giving an unfamiliar animal time to settle", "An owner explaining a companion's habits", "The return of his borrowed brush" },
+        dislikes = { "A nervous animal hurried into contact", "An owner's concern dismissed", "Discovering both brushes have gone missing" },
+        gossip = "Kelsuwa keeps a spare brush. The first tends to disappear into a familiar animal's game, and his solemn request for its return.",
+        bio = "Kelsuwa tends the stables at Camp Taurajo in the Barrens. He likes to hear how an owner describes a companion's habits. Taking time to listen suits him, even when a familiar animal uses the pause to make off with his brush.",
+        backstory = "Kelsuwa once waited quietly for an animal to approach. It came close enough to take his brush, then retreated with its prize. He brought a spare rather than spoil the new confidence. The brush has since become part of a familiar game.",
+        secret = "He sounds very solemn when he asks for the brush back. He is usually trying not to smile. A quiet approach that ends in play is a beginning he enjoys.",
+        bestFriend = "Stay beside me, friend. There is time to settle here. If my brush disappears, you may help me look suitably surprised.",
+        favorite = { emote = "SMILE", hint = "Share the quiet amusement of someone whose patient approach has become a familiar game." },
+        lines = {
+            greet = { { "Welcome, friend. Take your time, and tell me what I should know. An owner often notices small habits that are worth hearing about. If an animal is unfamiliar with me, I prefer to let it approach. One came close enough to take my brush. I brought a spare. You may find that I sound more surprised about it than I really am.", tone = "[warm] [patient] [gently amused]" },
+                "There you are. Come, settle a moment. I have accounted for at least one of the brushes." },
+            idle = { { "I waited quietly for an animal to approach, and it took my brush. Then it stepped back with the prize. I brought a spare rather than spoil the confidence it had found. Now I make a solemn request for the first one to return. It is difficult to sound properly surprised when I am already trying not to smile.", tone = "[amused] [conversational] [gentle]" },
+                "Tell me the small habit you notice. It may be more useful than a grand description.",
+                "There goes the brush. I had hoped to finish the solemn request before the game began." },
+            befriended = { { "I am glad to have you beside me, friend. You have become someone who can share a quiet pause without trying to hurry it into something else. Stay a while. Tell me what you have noticed along the road. If the brush disappears, you may help me look surprised. I suspect you know the game well enough to enjoy that part with me.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? Tell me what you have noticed.", "If you are looking for the brush, I have a promising suspicion." },
+            rest = { { "Give yourself a moment to settle, friend. There is no need to rush every quiet pause. I have learned to leave room for an unfamiliar animal to make the first approach. Sometimes that ends with a stolen brush and a game I had not planned. It is a pleasant reminder that patience can lead somewhere better than the next task.", tone = "[calm] [reassuring] [warm]" } },
+            back = { "Welcome back. I am glad to hear how the journey went." },
+            mount = { "Take a moment to settle before setting out again." },
+            quest = { "A task finished. Tell me the part that surprised you." },
+            loot = { "You have found something useful. I hope I can say the same about my brush shortly." },
+            laughAlong = { "Yes, the brush. My solemn expression has not improved matters." },
+            hearth = { "Back to Taurajo. I expect there will be familiar habits to hear about." },
+        },
+    },
+
+    -- Xon'cha <Stable Master>, Valley of Honor/Orgrimmar,9988/9261.
+    -- Adult male Troll/HordeFriendly/Normal. Current stable role/pin;
+    -- extended pet farewell original, no later ValleyofSpirits services.
+    -- Research: docs/research/kelsuwa-and-xoncha-queue.md.
+    [9988] = {
+        quote = "One last affectionate pat before you go? Take your time. I have heard that promise before, and made it myself often enough.",
+        likes = { "An owner taking time for a gentle farewell", "Hearing a companion's familiar habits", "A returning visitor with a story" },
+        dislikes = { "Concern for an animal treated as foolish", "A goodbye hurried without a reason", "Pretending he never delays his own leaving" },
+        gossip = "Xon'cha knows how often one last affectionate pat becomes several. His own farewells are not always as short as he intended.",
+        bio = "Xon'cha is a stable master in Orgrimmar's Valley of Honor. He hears the little concerns and habits owners bring with their companions. A farewell may take longer than expected, and he has some sympathy for the person who is not quite ready to leave.",
+        backstory = "Xon'cha noticed how often an owner's last farewell became another moment beside a companion. He found the same thing happening when he meant to finish his own work. He had already said goodbye, yet there was one more affectionate pat to give.",
+        secret = "He sometimes begins his farewell early to allow for the extra moment. It rarely saves time. Thinking of the goodbye reminds him of another reason to stay.",
+        bestFriend = "Stay a moment, friend. I enjoy your company. We can say goodbye when we mean it, or laugh when it takes another try.",
+        favorite = { emote = "WAVE", hint = "A familiar farewell suits someone who understands why leaving sometimes takes an extra moment." },
+        lines = {
+            greet = { { "Welcome, friend. Tell me what I should know, and take your time with the small concerns. I hear them often enough to know they matter. If you need one last affectionate pat before leaving, there is no need to pretend it will be a very brief farewell. I have made that promise myself, and found another reason to stay.", tone = "[warm] [friendly] [gently amused]" },
+                "There you are. Returning already, or still finishing the last goodbye?" },
+            idle = { { "One last affectionate pat, they say. Then another little pause, and another farewell. I noticed the same thing happening when I meant to finish my own work. Now I sometimes begin saying goodbye early. It rarely saves time. Thinking of the goodbye gives me a new reason to stay, and I find I am still standing there after all.", tone = "[amused] [conversational] [warm]" },
+                "Tell me the habit you are worried I will miss. It is worth taking a moment to hear.",
+                "I had finished saying goodbye. I had not quite finished leaving." },
+            befriended = { { "I enjoy having you here, friend. You have become someone I am glad to see even when there is no business to settle. Stay another moment. We can hear the rest of your story before deciding it is time to go. If the farewell takes two attempts, I think we know each other well enough to enjoy the extra one.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? I have time to listen.", "Another farewell? We may be improving at them." },
+            back = { { "Welcome back, friend. Come, tell me how it went. I am glad to hear the little details as well as the important part of the journey. There is time for them. You need not begin planning the next departure before you have enjoyed arriving. We can consider the farewell later, and allow for the extra moment it usually needs.", tone = "[welcoming] [warm] [relaxed]" } },
+            mount = { "Ready to leave? Take the moment you need before setting off." },
+            rest = { "Sit a while. A story is easier to hear when neither of us is halfway through a goodbye." },
+            quest = { "That is good news to bring back. I would enjoy hearing how it happened." },
+            gear = { "Settle what needs adjusting before you hurry off again." },
+            laughAlong = { "Yes, another last moment. I had almost convinced myself I was leaving." },
+            hearth = { "Back to Orgrimmar. I am glad there is another arrival to enjoy." },
+        },
+    },
+
     -- Zelena Favorbreeze <Auctioneer>, Valanaar/Zephras,257037/140072.
     -- Adult female High Order Skyborne body; explicit current HordeFriendly,
     -- no Alliance/market-sharing inference. Clay frog original, not item reward.

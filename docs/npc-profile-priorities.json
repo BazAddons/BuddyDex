@@ -1274,6 +1274,20 @@
       "zone": "The Barrens",
       "route": "Female Skyborne Valanaar auctioneer and male Orc Crossroads butcher coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/zelena-and-zargh-queue.md"
+    },
+    {
+      "npc_id": 9983,
+      "name": "Kelsuwa",
+      "zone": "The Barrens",
+      "route": "Male Tauren Camp Taurajo and male Troll Orgrimmar stable-master coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kelsuwa-and-xoncha-queue.md"
+    },
+    {
+      "npc_id": 9988,
+      "name": "Xon'cha",
+      "zone": "Orgrimmar",
+      "route": "Male Tauren Camp Taurajo and male Troll Orgrimmar stable-master coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kelsuwa-and-xoncha-queue.md"
     }
   ]
 }

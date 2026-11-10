@@ -1,4 +1,5 @@
 # Unreleased
+- Add Kelsuwa and Xon'cha: full Tauren and Troll stable-master profiles, fifteen personal lines and four approved v4 signatures each, with friendly emote access for every class under normal eligibility rules.
 - Add Zelena Favorbreeze and Zargh: full female Skyborne auctioneer and male Orc butcher profiles, fifteen personal lines and four approved v4 signatures each, with sourced Valanaar identity and Zargh's Gryshka delivery story.
 - Add Karos Razok and Deathstalker Lesh: full male/female Forsaken flight-master and scout profiles, fifteen personal lines and four approved v4 signatures each; preserve Elite Karos friendship thresholds and Lesh's established Hillsbrad mission.
 - Add Thork and Thund: full male Orc Crossroads defender and Orgrimmar engineer profiles, fifteen personal lines and four approved v4 signatures each, grounded in their quest and workshop dialogue.
