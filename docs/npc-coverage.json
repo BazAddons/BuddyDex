@@ -4,7 +4,7 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 261,
-    "unverified": 146,
+    "unverified": 147,
     "horde": 228
   },
   "npc_race_counts": {
@@ -14,7 +14,7 @@
     "2": 74,
     "5": 65,
     "4": 45,
-    "8": 47,
+    "8": 48,
     "9": 35,
     "6": 73,
     "96": 8,
@@ -39,7 +39,7 @@
     "Orgrimmar": 42,
     "Badlands": 1,
     "Darkshore": 7,
-    "Mulgore": 18,
+    "Mulgore": 19,
     "Thunder Bluff": 37,
     "Durotar": 48,
     "The Barrens": 31,
@@ -7760,6 +7760,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263326"
     },
     {
+      "npc_id": 264074,
+      "name": "Mazu'kon",
+      "zone": "Mulgore",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/264074"
+    },
+    {
       "npc_id": 266881,
       "name": "Pa'zula",
       "zone": "Durotar",
@@ -7932,6 +7943,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 619,
-  "awaiting_signature_audio_profiles": 165
+  "authored_profiles": 620,
+  "awaiting_signature_audio_profiles": 166
 }

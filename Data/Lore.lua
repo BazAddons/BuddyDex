@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mazu'kon <Earthen Ring>, northern Mulgore. Adult Troll male
+    -- display143984/M2 1022938, Horde Neutral. Own greeting, full
+    --96241/96774published dialogue and96775objective/offer read; its
+    -- completion unavailable. Idol secrecy from Muln is sourced, not
+    -- proof of an innocent purpose or an invented future ritual.
+    -- Research: docs/research/mazukon-curiosity-and-private-idols.md
+    [264074] = {
+        quote = "Curiosity be useful. So be knowing when to lower your voice.",
+        likes = { "Unusual properties worth investigating", "A delivery that answers the actual question", "Discretion about an interesting transaction" },
+        dislikes = { "An important sample left behind", "Every private matter announced to a crowd", "Promises made without doing the work" },
+        gossip = "Mazu'kon speaks of academic interests. His errands suggest that the phrase can cover a remarkably interesting range of business.",
+        bio = "Mazu'kon is a Troll of the Earthen Ring in northern Mulgore. Gloomrise's unusual venom catches his interest. His concerns also reach toward Gurubashi relics and a personal grievance with Witch Doctor Zum'rah.",
+        backstory = "He sends an extractor for toxin samples and appreciates their unusual properties. An idol sought from the Drowned City raises another interest in dark blood magic. He presents that request as academic, while wanting the transaction kept quiet.",
+        secret = "He wants the recovered idol kept between him and the adventurer, away from Muln and the others. He insists nobody will be hurt, but leaves his intended use of it unexplained.",
+        bestFriend = "You can sit a while without bringing another delivery. I would enjoy a little company before the next interesting question finds us.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates someone recognizing that an interesting matter need not be announced to everyone.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you, mon. What brings you here: an interesting question, or a little time to talk?", tone = "[easygoing] [welcoming]" }, "Ready. Curiosity can find work for itself while we see a little more of the world." },
+            idle = { { "Academic interest. A useful phrase, though it does tend to make people listen a little more closely.", tone = "[wry] [amused]" }, "A rumor can begin a question. It cannot do all the work of answering one.", "Discretion does not need a great announcement of how discreet we are about to be." },
+            befriended = { { "You remember what was asked, and you know when to listen. I would welcome more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "What do you need, mon? Tell me the practical part before we discuss the interesting possibilities.", "I was considering how many questions can begin with one unusual property." },
+            quest = { { "Bring what is needed, and keep the account clear. A different interesting thing does not finish the same errand.", tone = "[precise] [firm]" } },
+            loot = { "Unusual? Perhaps. Let us establish what it is before deciding what it means." },
+            bagsFull = { "Sort what matters from what you happened to pick up. An important sample deserves a little attention." },
+            learned = { "Good. A new thing to consider, and perhaps a better question than the one we began with." },
+            mail = { "A message. Read what the sender actually reports before adding what you hope they meant." },
+            rest = { "A pause is welcome. Not every conversation needs to begin with another errand." },
+            thanked = { "You are welcome. A plain acknowledgment will do; the whole camp need not hear it." },
+        },
+    },
+
     -- Takrin Pathseeker, Razor Hill, Durotar. Adult Orc male3884/M2 917116,
     -- Horde Friendly. Full840/842dialogue and actual4992/4995letters
     -- read. Kargal friend/scout assessment sourced. Unassigned walk

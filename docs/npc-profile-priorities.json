@@ -2569,6 +2569,13 @@
       "zone": "Burning Steppes",
       "route": "Flame Crest later Horde provisions",
       "reason": "Complete adult Orc male/female profile with fifteen queued lines; source roles and location distinguished from original private story; no synthesis"
+    },
+    {
+      "npc_id": 264074,
+      "name": "Mazu'kon",
+      "zone": "Mulgore",
+      "route": "Northern Mulgore Earthen Ring camp",
+      "reason": "Complete Troll male profile, fifteen queued lines, sourced curiosity/private idol transaction and unresolved grievance; no synthesis"
     }
   ]
 }

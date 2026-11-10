@@ -2898,5 +2898,12 @@
     "zone": "Burning Steppes",
     "source": "Reviewed adult Orc male/female bodies, Friendly access, full recruitment route/letters or matching12goods with no own quest/gossip; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-directions-and-flame-crest-pauses.md"
+  },
+  {
+    "npc_id": 264074,
+    "name": "Mazu'kon",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Troll male, Horde Neutral, full96241/96774dialogue, available96775offer/objective and own greeting; completion gap documented, no Scout sighting claimed",
+    "research_notes": "docs/research/mazukon-curiosity-and-private-idols.md"
   }
 ]

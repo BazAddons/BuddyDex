@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mazu'kon: a complete male Troll Earthen Ring profile with fifteen personal lines queued.
+- Retain his researched toxin curiosity, private idol transaction, and Zum'rah grievance without inventing missing quest outcomes.
+
 - Add Takrin Pathseeker and Gruna: complete Orc profiles with thirty personal lines queued.
 - Expand early Razor Hill and later Flame Crest companions with researched recruitment and provisioning roles.
 
@@ -216,4 +219,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **619 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **620 fully written NPC profiles**: 454 have initial signature recordings, and one hundred sixty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

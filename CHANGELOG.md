@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mazu'kon: a complete male Troll Earthen Ring profile with fifteen personal lines queued.
+- Retain his researched toxin curiosity, private idol transaction, and Zum'rah grievance without inventing missing quest outcomes.
+
 - Add Takrin Pathseeker and Gruna: complete Orc profiles with thirty personal lines queued.
 - Expand early Razor Hill and later Flame Crest companions with researched recruitment and provisioning roles.
 
