@@ -41,6 +41,146 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Galgar, Valley of Trials, Durotar. NPC9796/display9151: adult male Orc,
+    -- actual Scout Horde/reaction5. Current4402:10cactus apples, cooling
+    -- dessert and training manual; installed text retains older food offer.
+    -- No WoD Provisioner/retail heritage/dancing-table history imported.
+    -- Practicing a surprised serving face is original BuddyDex fiction.
+    -- docs/research/valley-arrivals-and-forever-names.md.
+    [9796] = {
+        recordingVoice = "orc-male",
+        quote = "The apples are expected. The surprise takes presentation. Watch my face. No, wait. I can do that better.",
+        likes = { "A cool treat on a hot afternoon", "Someone enjoying the first bite", "A properly dramatic presentation" },
+        dislikes = { "Sand finding its way into the food", "A portion left in the sun", "Being told the surprise is obvious" },
+        gossip = "Galgar has been practicing a look of astonishment. Nobody has asked why a cook should be surprised by his own dessert.",
+        bio = "Galgar makes cactus apple surprise in Durotar's Valley of Trials. He asks travelers to gather fruit from the nearby cactuses, offering a cooling treat for the road. He knows that a hot afternoon need not be improved by another fight.",
+        backstory = "While preparing a serving, Galgar tried announcing the surprise with a suitably amazed expression. The result amused him enough to try another. Finding the right face has become almost as satisfying as finding ripe fruit.",
+        secret = "He knows exactly what is in the bowl. He hopes his grand delivery will make someone laugh before the first bite. A pleased audience makes the heat easier to bear.",
+        bestFriend = "This serving needs no performance. Sit in the shade with me. You can tell me honestly whether the last face was too much.",
+        favorite = { emote = "APPLAUD", hint = "Good food and an appreciative audience can improve a hot day." },
+        lines = {
+            greet = { { "Come along, then. A walk in good company sounds better than standing here thinking about the heat.", tone = "[hearty] [warmly]" },
+                "There you are! Tell me you found some shade along the way." },
+            idle = { { "How was that expression? Astonished? Delighted? I am aiming for surprise, but apparently there is more technique to it than I expected.", tone = "[theatrical] [amused]" },
+                "Cactus apples. A useful reminder that not everything in this valley wants to bite you.",
+                "I would like a breeze. I will settle for a cloud." },
+            befriended = { { "You came back without a basket of ingredients or an empty bowl. Just to see me. I am glad of that, my friend.", tone = "[hearty] [sincere]" } },
+            poke = { "The surprise is not hidden in my ribs.", "Careful. You nearly spoiled a very good expression." },
+            rest = { { "Here. Shade first, conversation second. We can make a perfectly good occasion of sitting still.", tone = "[contented] [friendly]" } },
+            quest = { "Finished? Good. Your next task can be taking a moment for yourself." },
+            loot = { "Anything for the table? No? Then perhaps someone else will want it." },
+            bagsFull = { "Mind what you put on top of the food." },
+            zone = { "New ground. I wonder what grows here, and whether it tastes any good." },
+            levelUp = { "A fine occasion! I shall prepare my most impressive congratulatory face." },
+            hearth = { "Home. I hope it has a cool corner and a decent table." },
+        },
+    },
+
+    -- Kaltunk, Valley of Trials, Durotar. NPC10176/display9470: adult male
+    -- Orc, actual Scout Horde/reaction5. Current4641 sends new recruits to
+    -- Gornek in the Den; imagined dragon/demon glory tempered by first tasks.
+    -- Later Heritage of Draenor/Gor'krosh storyline excluded. Watching a
+    -- newcomer's first confident steps is original, not a tracking feature.
+    -- docs/research/valley-arrivals-and-forever-names.md.
+    [10176] = {
+        recordingVoice = "orc-male",
+        quote = "A fine ambition. Keep it. Now take the first few steps without tripping over it.",
+        likes = { "A newcomer finding their bearings", "Confidence with room for advice", "Someone remembering to look back" },
+        dislikes = { "Grand plans without a first step", "Sending the unready into danger", "A perfectly clear direction ignored" },
+        gossip = "Kaltunk can laugh at a recruit's grand ambitions, then spend rather longer than necessary watching them find the Den.",
+        bio = "Kaltunk greets new recruits in Durotar's Valley of Trials. He can appreciate dreams of dragons and demons while recommending a less dangerous beginning. Gornek in the Den is the next person he sends them to meet.",
+        backstory = "After giving directions, Kaltunk noticed how often a recruit's shoulders settled once they knew where to go. He began watching those first steps a little longer. A clear path could do what a grand speech sometimes could not.",
+        secret = "He likes the moment someone stops checking the way and walks with purpose. If they glance back, he makes a small gesture to send them on, then pretends he was looking elsewhere.",
+        bestFriend = "You know your way now. Stay a moment anyway. It is pleasant to see someone return without needing directions.",
+        favorite = { emote = "SALUTE", hint = "A confident acknowledgment says you are ready to take the next step." },
+        lines = {
+            greet = { { "Back again? Good. You need no directions from me today. I would be glad to walk beside you instead.", tone = "[gruff] [welcoming]" },
+                "You look as though you know where you are going. Shall I come along?" },
+            idle = { { "There is a moment when a newcomer stops looking lost. I enjoy seeing it. No, that does not mean I watch every first step. Only the important ones.", tone = "[reflective] [warmly]" },
+                "Ambition is useful. It need not choose the largest possible enemy first.",
+                "A small beginning is still a beginning." },
+            befriended = { { "You found your own road and still chose to return here. I appreciate that. Let us see a little of it together, my friend.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes, I can see you. You are considerably closer than the Den.", "A greeting will do." },
+            quest = { { "One task done properly. That is how a grand ambition begins to earn its place.", tone = "[approving] [steady]" } },
+            learned = { "Good. Keep that lesson for the moment you need it." },
+            levelUp = { "Another step forward. You seem less surprised by it now." },
+            zone = { "New surroundings. Take a moment to find your bearings." },
+            rest = { "Sit. Knowing when to pause is part of knowing where you are going." },
+            combatEnd = { "Still here. Good. Check the others before thinking about the next fight." },
+            hearth = { "A familiar place can be worth returning to." },
+        },
+    },
+
+    -- Norzsh <Junior Mining Trainer>, The Den, Durotar. NPC267328/display145037:
+    -- adult male Orc, actual Scout Horde/reaction5. Current adult base model
+    -- matches Frang; junior describes service rank, not age. Title and
+    -- installed mining gossip corroborate role. No invented personal quests.
+    -- Tapping out rock rhythms is a private pastime, not ore detection magic.
+    -- docs/research/valley-arrivals-and-forever-names.md.
+    [267328] = {
+        recordingVoice = "orc-male",
+        quote = "A steady grip first. You can look impressive after you have learned where the pick is going.",
+        likes = { "Someone handling a tool with care", "A clear place to work", "An unexpectedly pleasant tapping sound" },
+        dislikes = { "Swinging before looking around", "Leaving tools where feet will find them", "Mistaking every sparkle for a fortune" },
+        gossip = "Norzsh has been tapping different bits of stone. Ask whether he found something valuable and he says the rhythm is coming along.",
+        bio = "Norzsh teaches beginning miners in the Den, in Durotar's Valley of Trials. His work gives new travelers an introduction to gathering ore. He takes the first careful use of a tool as seriously as any impressive-looking find.",
+        backstory = "A loose stone made a pleasing sound against another while Norzsh was tidying up. He tried a second tap, then a different beat. A few ordinary bits of rock became something he enjoyed hearing rather than something he meant to sell.",
+        secret = "The stones are not a test for ore. He is trying to finish a little rhythm without losing the beat. He thinks he nearly has it, until someone asks him to demonstrate.",
+        bestFriend = "Stay for the next attempt. You can keep the beat if I lose it. I would rather have company than pretend I got it perfect.",
+        favorite = { emote = "CLAP", hint = "An appreciative beat can help a hesitant performance along." },
+        lines = {
+            greet = { { "A walk? Good. I have put the tools where nobody will step on them. Let us go before I find another reason to tidy.", tone = "[gruff] [friendly]" },
+                "There you are. Shall we see something beyond the work area?" },
+            idle = { { "Listen to this. No, I am not telling you the stone contains anything valuable. I just like the sound. I was doing rather well until you asked.", tone = "[slightly bashful] [amused]" },
+                "Look around before lifting a tool. Other people may have the same idea.",
+                "An ordinary stone need not apologize for being ordinary." },
+            befriended = { { "You stayed after the lesson was finished. I enjoyed that more than I expected. I would be glad to spend some time together without a tool between us.", tone = "[gruff] [sincere]" } },
+            poke = { "Mind the elbow. I was keeping time.", "Yes? You can simply say my name." },
+            learned = { { "There. A useful beginning. Give yourself time to become comfortable with it before trying to impress anyone.", tone = "[patient] [encouraging]" } },
+            loot = { "Worth a closer look. Worth carrying all day is another question." },
+            bagsFull = { "You need not bring home every interesting stone. I give that advice more easily than I follow it." },
+            gear = { "Can you grip properly in those? Good." },
+            quest = { "Work finished, tools accounted for. That is a satisfying end." },
+            rest = { "Set the weight down. Your hands can be empty for a little while." },
+            levelUp = { "Stronger. Keep the careful habits as well." },
+        },
+    },
+
+    -- Zor'la <Junior Herbalism Trainer>, Valley of Trials, Durotar.
+    -- NPC267329/display145038: adult female Troll, actual Scout Horde/reaction5.
+    -- Standard adult base matches Mai'Lahii; current title and actual Forever
+    -- trainer listing confirm the role. No inferred family/mentor/quest chain.
+    -- Plant-name word games are original, not incantations or a skill test.
+    -- docs/research/valley-arrivals-and-forever-names.md.
+    [267329] = {
+        recordingVoice = "troll-female",
+        quote = "Learn the name, then look at the plant. Reciting everything very quickly is something else entirely. I do enjoy it, though.",
+        likes = { "A learner looking closely", "Leaving room for another plant to grow", "A pleasing string of plant names" },
+        dislikes = { "Pulling first and asking afterward", "Crushing a leaf to prove a point", "Losing her place halfway through" },
+        gossip = "Zor'la can make a list of ordinary herbs sound like a competition. She seems to be competing chiefly with her own tongue.",
+        bio = "Zor'la introduces new herbalists to their craft in Durotar's Valley of Trials. A familiar name means more when a learner recognizes the plant beneath it. She is pleased to see someone stop and look before reaching for a handful.",
+        backstory = "While repeating plant names, Zor'la noticed how nicely some followed one another. She began trying longer strings when no lesson needed her attention. Knowing the plants proved easier than getting every syllable past her teeth at speed.",
+        secret = "The word game has no useful purpose. She simply likes the sounds, especially the moment a muddled attempt makes her laugh. She would welcome someone willing to try it, too.",
+        bestFriend = "Your turn. Slowly first. We can make a splendid mess of it together once we know where the words are meant to go.",
+        favorite = { emote = "GRIN", hint = "A muddled attempt is easier to enjoy with someone who shares the joke." },
+        lines = {
+            greet = { { "Come along. I would enjoy seeing what you notice when nobody has told you what to look for.", tone = "[warmly] [curious]" },
+                "There you are. Shall we leave the lesson for a while and enjoy the walk?" },
+            idle = { { "Silverleaf, peacebloom, earthroot, silverleaf... There. No, that was not a spell. I was seeing how far I could get without tripping over a word.", tone = "[playful] [lightly amused]" },
+                "Looking closely can be its own small pleasure.",
+                "You can learn a name without immediately filling your bags with its owner." },
+            befriended = { { "You stayed for the ridiculous word game. I think we can enjoy a good deal more together than lessons. Come, my friend. Let us see what catches our attention.", tone = "[warmly] [sincere]" } },
+            poke = { "I nearly had the next word!", "Yes? Give me a moment to stop counting syllables." },
+            learned = { { "Good. Now give yourself time to recognize it without rushing. The name will come more easily with a little familiarity.", tone = "[patient] [encouraging]" } },
+            loot = { "Interesting. Tell me what caught your eye." },
+            bagsFull = { "Perhaps a little less gathering and a little more looking for now." },
+            zone = { "Somewhere new. Let us see what grows quietly between the grand sights." },
+            quest = { "There. Something accomplished, and perhaps something learned." },
+            rest = { "We can stop here. I promise not to turn every quiet moment into a lesson." },
+            levelUp = { "Look how much more the world has to teach you now." },
+        },
+    },
+
     -- Frang <Warrior Trainer>, Valley of Trials, Durotar. NPC3153/display1880:
     -- adult male Orc, actual Scout Horde/reaction5. Classic2383/3065 and
     -- installed dialogue introduce Orc/Troll warriors; no retail/SoD quests.

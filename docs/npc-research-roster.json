@@ -1799,5 +1799,33 @@
     "zone": "Durotar",
     "source": "Actual installed Scout Horde/reaction5 named adult in Valley of Trials/The Den; current adult model, all own tabs and Classic/installed texts individually reviewed; no public reaction inferred",
     "research_notes": "docs/research/valley-trials-trainers-and-merchants.md"
+  },
+  {
+    "npc_id": 9796,
+    "name": "Galgar",
+    "zone": "Durotar",
+    "source": "Actual Scout Horde/reaction5 named adult; current individual models, Classic/current quest bodies and custom Forever trainer roles reviewed; no public reaction invented",
+    "research_notes": "docs/research/valley-arrivals-and-forever-names.md"
+  },
+  {
+    "npc_id": 10176,
+    "name": "Kaltunk",
+    "zone": "Durotar",
+    "source": "Actual Scout Horde/reaction5 named adult; current individual models, Classic/current quest bodies and custom Forever trainer roles reviewed; no public reaction invented",
+    "research_notes": "docs/research/valley-arrivals-and-forever-names.md"
+  },
+  {
+    "npc_id": 267328,
+    "name": "Norzsh",
+    "zone": "Durotar",
+    "source": "Actual Scout Horde/reaction5 named adult; current individual models, Classic/current quest bodies and custom Forever trainer roles reviewed; no public reaction invented",
+    "research_notes": "docs/research/valley-arrivals-and-forever-names.md"
+  },
+  {
+    "npc_id": 267329,
+    "name": "Zor'la",
+    "zone": "Durotar",
+    "source": "Actual Scout Horde/reaction5 named adult; current individual models, Classic/current quest bodies and custom Forever trainer roles reviewed; no public reaction invented",
+    "research_notes": "docs/research/valley-arrivals-and-forever-names.md"
   }
 ]

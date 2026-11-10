@@ -1470,6 +1470,34 @@
       "zone": "Durotar",
       "route": "Scout Valley of Trials class training, cloth/leather service and named wanderer coverage",
       "reason": "Reviewed full named adult identity, current/Classic sources and observed Horde-friendly access; complete written profile/approved voice; no synthesis before user billing confirmation"
+    },
+    {
+      "npc_id": 9796,
+      "name": "Galgar",
+      "zone": "Durotar",
+      "route": "Actual Scout Valley arrivals and adult Forever gathering-trainer coverage",
+      "reason": "Current identity/model and quest/service sources reviewed; complete written profile, approved voice, audio queued until user confirms billing fix"
+    },
+    {
+      "npc_id": 10176,
+      "name": "Kaltunk",
+      "zone": "Durotar",
+      "route": "Actual Scout Valley arrivals and adult Forever gathering-trainer coverage",
+      "reason": "Current identity/model and quest/service sources reviewed; complete written profile, approved voice, audio queued until user confirms billing fix"
+    },
+    {
+      "npc_id": 267328,
+      "name": "Norzsh",
+      "zone": "Durotar",
+      "route": "Actual Scout Valley arrivals and adult Forever gathering-trainer coverage",
+      "reason": "Current identity/model and quest/service sources reviewed; complete written profile, approved voice, audio queued until user confirms billing fix"
+    },
+    {
+      "npc_id": 267329,
+      "name": "Zor'la",
+      "zone": "Durotar",
+      "route": "Actual Scout Valley arrivals and adult Forever gathering-trainer coverage",
+      "reason": "Current identity/model and quest/service sources reviewed; complete written profile, approved voice, audio queued until user confirms billing fix"
     }
   ]
 }

@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Galgar, Kaltunk, Norzsh and Zor'la: four full Scout-observed Durotar profiles, including individually verified adult Forever gathering trainers, with fifteen personal lines each queued for later recording.
+
 - Add full Frang, Ken'jai, Magga and Huklah profiles from Scout's Valley of Trials/Den observations, with fifteen personal lines each and approved Orc/Troll voices assigned for later recording.
 - Preserve Magga's historical gift-voucher context without promising current rewards, and ground Ken'jai's profile in his Darkspear teaching and Tai'jin referral.
 

@@ -4,17 +4,17 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 208,
-    "unverified": 113,
+    "unverified": 117,
     "horde": 148
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 48,
+    "2": 51,
     "5": 45,
     "4": 23,
-    "8": 34,
+    "8": 35,
     "9": 23,
     "6": 49,
     "96": 5,
@@ -39,7 +39,7 @@
     "Darkshore": 4,
     "Mulgore": 11,
     "Thunder Bluff": 23,
-    "Durotar": 27,
+    "Durotar": 31,
     "The Barrens": 22,
     "Ashenvale": 3,
     "Stonetalon Mountains": 4,
@@ -4898,6 +4898,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9564"
     },
     {
+      "npc_id": 9796,
+      "name": "Galgar",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 Valley of Trials/The Den; individually checked adult models and ordinary live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9796",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
+    },
+    {
       "npc_id": 9859,
       "name": "Auctioneer Lympkin",
       "zone": "Ironforge",
@@ -4987,6 +5003,22 @@
       ],
       "reaction_evidence": "Exact current Alliance-icon Friendly; item vendor A/H list does not override NPC access",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10118"
+    },
+    {
+      "npc_id": 10176,
+      "name": "Kaltunk",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 Valley of Trials/The Den; individually checked adult models and ordinary live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10176",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
     },
     {
       "npc_id": 10537,
@@ -5791,6 +5823,38 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267326"
     },
     {
+      "npc_id": 267328,
+      "name": "Norzsh",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 Valley of Trials/The Den; individually checked adult models and ordinary live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267328",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
+    },
+    {
+      "npc_id": 267329,
+      "name": "Zor'la",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public node reaction absent; actual installed Scout Horde/reaction5 Valley of Trials/The Den; individually checked adult models and ordinary live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267329",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
+    },
+    {
       "npc_id": 268238,
       "name": "Nordun Steadysight",
       "zone": "Elwynn Forest",
@@ -5876,6 +5940,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 462,
-  "awaiting_signature_audio_profiles": 8
+  "authored_profiles": 466,
+  "awaiting_signature_audio_profiles": 12
 }

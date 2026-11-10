@@ -3,9 +3,9 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 462,
-  "written_complete_count": 462,
-  "awaiting_signature_audio_count": 8,
+  "authored_count": 466,
+  "written_complete_count": 466,
+  "awaiting_signature_audio_count": 12,
   "remaining_count": 23,
   "completed": [
     {
@@ -3681,6 +3681,17 @@
       "status": "complete"
     },
     {
+      "npc_id": 9796,
+      "name": "Galgar",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 9859,
       "name": "Auctioneer Lympkin",
       "zone": "Ironforge",
@@ -3748,6 +3759,17 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 10176,
+      "name": "Kaltunk",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 10537,
@@ -4357,6 +4379,28 @@
       "status": "complete"
     },
     {
+      "npc_id": 267328,
+      "name": "Norzsh",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 267329,
+      "name": "Zor'la",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "troll-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 268238,
       "name": "Nordun Steadysight",
       "zone": "Elwynn Forest",
@@ -4424,13 +4468,6 @@
   ],
   "remaining": [
     {
-      "npc_id": 9796,
-      "name": "Galgar",
-      "zone": "Durotar",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 12776,
       "name": "Hraug",
       "zone": "Durotar",
@@ -4452,13 +4489,6 @@
       "status": "pending_identity_and_lore_research"
     },
     {
-      "npc_id": 10176,
-      "name": "Kaltunk",
-      "zone": "Durotar",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
       "npc_id": 3159,
       "name": "Kzan Thornslash",
       "zone": "Durotar",
@@ -4468,13 +4498,6 @@
     {
       "npc_id": 3156,
       "name": "Nartok",
-      "zone": "Durotar",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 267328,
-      "name": "Norzsh",
       "zone": "Durotar",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
@@ -4503,13 +4526,6 @@
     {
       "npc_id": 3882,
       "name": "Zlagk",
-      "zone": "Durotar",
-      "source": "Installed Scout record",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 267329,
-      "name": "Zor'la",
       "zone": "Durotar",
       "source": "Installed Scout record",
       "status": "pending_identity_and_lore_research"
