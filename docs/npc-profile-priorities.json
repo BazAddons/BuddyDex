@@ -2373,6 +2373,13 @@
       "zone": "Ironforge",
       "route": "Alliance Ironforge fishing-supply contact",
       "reason": "Complete adult profile with fifteen queued lines; current training/historical trade and city surface projection distinguished, no synthesis"
+    },
+    {
+      "npc_id": 11017,
+      "name": "Roxxik",
+      "zone": "Orgrimmar",
+      "route": "Horde Orgrimmar engineering contact",
+      "reason": "Complete adult Goblin male profile with fifteen queued lines; actual standards/referral and later-expansion boundaries preserved, no synthesis"
     }
   ]
 }

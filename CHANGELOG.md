@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Roxxik: a complete adult Goblin engineer profile, with fifteen personal lines queued.
+- Expand Orgrimmar companions with his established confident humor, training standards, and willingness to refer advanced learners.
+
 - Add Cook Ghilm and Tansy Puddlefizz: two complete adult Dwarf and Gnome profiles, with thirty personal lines queued.
 - Expand Dun Morogh and Ironforge companions with researched cooking guidance and a distinct fishing-supplier story.
 

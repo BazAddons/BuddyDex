@@ -2702,5 +2702,12 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Dwarf male/Gnome female bodies and explicit Alliance Friendly; complete training or fishing trade, installed guidance and version boundaries; no Scout sighting claimed",
     "research_notes": "docs/research/quarry-cooking-and-ironforge-fishing-stories.md"
+  },
+  {
+    "npc_id": 11017,
+    "name": "Roxxik",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Goblin male and explicit Horde Friendly, full Classic training/installed guidance and current own gaps; no Scout sighting claimed",
+    "research_notes": "docs/research/roxxik-engineering-and-riverglades-research.md"
   }
 ]

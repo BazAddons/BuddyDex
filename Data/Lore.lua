@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Roxxik <Artisan Engineer>, Valley of Honor, Orgrimmar. Adult Goblin
+    -- male10472/M2 119376, Horde Friendly. Classic52training rows/own
+    -- installed surprise, experience, teasing encouragement, Buzzek referral.
+    -- Rehearsed astonishment is original, no later Siege or specialization.
+    -- Research: docs/research/roxxik-engineering-and-riverglades-research.md
+    [11017] = {
+        quote = "A surprise is more impressive when you can explain why it worked.",
+        likes = { "A result worth understanding", "A learner who brings real experience", "Someone noticing the clever part" },
+        dislikes = { "Being asked to teach what he does not know", "A confident claim without a working result", "A useful question buried under boasting" },
+        gossip = "Roxxik can be delighted by his own results. His private demonstrations of surprise sometimes look suspiciously well rehearsed.",
+        bio = "Roxxik is an artisan engineer in Orgrimmar's Valley of Honor. He delights in impressive results, demands experience from a learner, and sends advanced students to Buzzek Bracketswing when his own knowledge is exhausted.",
+        backstory = "A particularly satisfying result left him wishing he had found a better way to announce it. He began trying out the moment again in private. Getting the right expression of astonishment became a small project quite separate from making anything work.",
+        secret = "He occasionally rehearses looking surprised by an imaginary success. His best version includes a modest pause before congratulating himself. He is rather pleased with that pause.",
+        bestFriend = "Stay for the next attempt. You may tell me whether the surprise looked convincing. I would value a second opinion before admiring it again.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys an appreciative response to a clever result, especially when someone noticed what made it clever.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you. Shall we find something worth being impressed by?", tone = "[animated] [welcoming]" }, "Ready. I have an excellent expression prepared if the result deserves it." },
+            idle = { { "A short pause, then the astonishment. Very convincing. I nearly surprised myself with the rehearsal.", tone = "[delighted] [wry]" }, "An impressive result gives us something to understand, not an excuse to stop asking why.", "There is someone who knows more. Finding them is a better use of time than pretending I can teach everything." },
+            befriended = { { "You noticed the clever part and stayed to hear why it mattered to me. I would welcome more of that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What have you managed?", "I was considering the pause before the surprise. It deserves a little care." },
+            learned = { { "Good. Put the lesson to work, then show that you understand the result.", tone = "[brisk] [encouraging]" } },
+            loot = { "Useful parts? Check what they are before deciding what they might become." },
+            quest = { "Read the instructions. A surprise in the wrong place may not be the result they wanted." },
+            combatEnd = { "Check what worked. We can admire it more intelligently afterward." },
+            rest = { "A pause. I can demonstrate a particularly good one, if you wish." },
+            cheerAlong = { "Yes! That deserves a little appreciation." },
+            thanked = { "You are welcome. I am pleased the explanation earned its keep." },
+        },
+    },
+
     -- Cook Ghilm <Cooking Trainer>, Gol'Bolar Quarry, Dun Morogh. Adult
     -- Dwarf male3416/M2 878772, Alliance Friendly,10current training rows.
     -- Lifelong-learning and Shandrina/Dirge referrals in installed gossip;

@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 253,
     "unverified": 142,
-    "horde": 211
+    "horde": 212
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,7 +15,7 @@
     "5": 63,
     "4": 43,
     "8": 46,
-    "9": 30,
+    "9": 31,
     "6": 69,
     "96": 8,
     "95": 15
@@ -36,7 +36,7 @@
     "Teldrassil": 19,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
-    "Orgrimmar": 37,
+    "Orgrimmar": 38,
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 16,
@@ -6370,6 +6370,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10539"
     },
     {
+      "npc_id": 11017,
+      "name": "Roxxik",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11017"
+    },
+    {
       "npc_id": 11026,
       "name": "Sprite Jumpsprocket",
       "zone": "Stormwind City",
@@ -7574,6 +7587,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 591,
-  "awaiting_signature_audio_profiles": 137
+  "authored_profiles": 592,
+  "awaiting_signature_audio_profiles": 138
 }
