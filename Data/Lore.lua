@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Eleanor Rusk <General Goods Vendor>, Trade Quarter, Undercity.
+    -- Adult Forsaken female2660/M2 997378, Horde Friendly. All29current
+    -- and20Classic goods; no own quest/training/installed gossip.
+    -- Her bag-and-empty-purse joke and private laughter are original.
+    -- Research: docs/research/undercity-laughter-and-boomstick-invitations.md
+    [4555] = {
+        quote = "A bag for everything you want? Perhaps what you need is a purse with nothing in it. Wait. I am trying to keep a straight face.",
+        likes = { "A familiar joke that still makes her laugh", "A listener honest about the punch line", "Useful supplies found before departure" },
+        dislikes = { "Polite laughter offered as a duty", "Heavy things crushing a fragile purchase", "Being hurried through the good part" },
+        gossip = "Eleanor can keep track of a varied stock. Keeping a straight face through her own joke is a less dependable accomplishment.",
+        bio = "Eleanor Rusk sells general goods in Undercity's Trade Quarter. Drinks, bags, ammunition, throwing weapons, and campfire supplies are among her wares. A traveler can attend to several ordinary needs without leaving her counter.",
+        backstory = "Someone asked for a bag big enough for everything they wanted. She suggested an empty purse might shorten the list. Remembering the exchange later made her laugh. It still does, even when she has barely reached the question.",
+        secret = "She knows it is hardly the finest joke ever told. That has not helped her finish it with a straight face. Sometimes she begins laughing just because she knows what comes next.",
+        bestFriend = "You need not laugh out of kindness. Give me a moment to finish, and I shall probably provide enough laughter for both of us.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She likes a friend sharing the amusement without pretending the joke was a masterpiece.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good to see you. I have nearly managed to finish the joke with a straight face. Nearly. Come along.", tone = "[dry] [amused]" }, "Ready. Tell me something before I remember why the empty purse seemed so funny." },
+            idle = { { "A bag for everything you want. An empty purse would shorten the list. There. I almost finished it properly.", tone = "[amused] [conversational]" }, "I know it is not a masterpiece. Apparently that does not prevent it from being funny to me.", "A practical purchase can wait until the laughter is finished. I do make an effort to finish." },
+            befriended = { { "You did not pretend the joke was brilliant. You stayed for the company anyway. I rather like that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was remembering the question. This is where the difficulty generally begins.", "I heard you. Give me a moment to put the punch line somewhere it will not interrupt." },
+            bagsFull = { { "Make room before the heavy things turn your careful purchases into a less useful assortment.", tone = "[practical] [measured]" } },
+            loot = { "See whether you want it enough to carry it. This is practical advice, despite the joke it reminds me of." },
+            mail = { "Something to read. Let us give someone else the pleasure of reaching the end of a sentence." },
+            quest = { "Check what is actually needed. It is a useful habit even when nobody is buying anything." },
+            rest = { "A pause. We can enjoy being here without finding a reason to fill it." },
+            zone = { "New surroundings. I should like to notice something before deciding what I ought to have brought." },
+            thanked = { "You are welcome. The company has been pleasant, even allowing for my interruption of my own story." },
+        },
+    },
+
+    -- Kaja <Guns and Ammo Merchant>, Boomstick Imports, Orgrimmar.
+    -- Adult Tauren female1322/M2 986648, Horde Friendly, Repair/Vendor.
+    -- All9current/10Classic goods and18234repair-bill flavor reviewed.
+    -- An invitation on a settled bill is original; no discounts or debt effect.
+    -- Research: docs/research/undercity-laughter-and-boomstick-invitations.md
+    [3322] = {
+        quote = "Not every visit needs to end with a bill. I enjoy the other sort too.",
+        likes = { "Equipment cared for before it fails", "A familiar face returning safely", "An invitation with no errand attached" },
+        dislikes = { "A repair postponed until it is worse", "Fine equipment treated as indestructible", "A visit measured only by its purchases" },
+        gossip = "Kaja's shop is associated with repair bills. One old, settled bill has a reason to be kept that has nothing to do with the numbers.",
+        bio = "Kaja runs Boomstick Imports in Orgrimmar's Valley of Strength. She sells guns, ammunition, and a small shot pouch, and offers repairs. The busy location makes her a familiar practical stop for adventurers passing through the city.",
+        backstory = "An old repair bill came back to her with an invitation to share a meal written on the reverse. The account was already settled. She went, enjoyed an ordinary afternoon, and kept the paper for the part that had asked nothing of her work.",
+        secret = "She folds the paper with the invitation facing out. The numbers mattered once. The other side is the reason she still likes finding it.",
+        bestFriend = "Stay a while. Nothing need be broken, bought, or brought for me to be pleased you stopped to see me.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates a friend noticing the care in an ordinary piece of useful work.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good to see you. Everything in one piece? Excellent. That leaves us free to enjoy the visit.", tone = "[warm] [welcoming]" }, "Ready. An outing with a friend need not begin by finding something that needs my work." },
+            idle = { { "The bill was settled. The invitation was on the other side. That is the part I kept facing out.", tone = "[fond] [reflective]" }, "Good equipment deserves care before it gives you a reason to regret the delay.", "An ordinary afternoon can be worth remembering without anyone accomplishing something impressive." },
+            befriended = { { "You stopped to see me when nothing needed buying or mending. I am glad we have that sort of company to offer each other.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You need not find a practical reason to ask for a moment of my time.", "I am listening. Tell me how you have been, if you would like." },
+            gear = { { "Give it a little attention while it is still serving you well. Care is easier before something has been allowed to get worse.", tone = "[steady] [practical]" } },
+            loot = { "Look at the condition as well as the name. Something impressive still needs looking after." },
+            mail = { "An invitation, perhaps. A pleasant thought to have while we find out." },
+            rest = { "A good time to stop. We need not make the pause earn its place in the day." },
+            quest = { "Know what is needed before choosing what to bring. Useful preparation can be quite ordinary." },
+            group = { "Take care with what you rely on, including the people who have offered their help." },
+            thanked = { "You are welcome. I am pleased you noticed the care taken with it." },
+        },
+    },
+
     -- Tordrin Sternblade <Hunter Trainer>, Northshire, Elwynn Forest.
     -- Adult Dwarf male3395/M2 878772, Alliance Friendly. All5training
     -- rows, three installed gossip variants, full eight-task stolen-book

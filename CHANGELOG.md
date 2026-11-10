@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Eleanor Rusk and Kaja: two complete Horde women's profiles with thirty personal lines queued.
+- Ground their distinct humor and friendship stories in current Undercity supplies and Boomstick Imports repair-bill context.
+
 - Add Tordrin Sternblade: a complete Northshire Dwarf Hunter-trainer profile with fifteen personal lines queued.
 - Ground his practical encouragement in the full stolen-library quest progression and trainer-letter dialogue.
 

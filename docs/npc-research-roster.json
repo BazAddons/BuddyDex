@@ -2982,5 +2982,19 @@
     "zone": "Elwynn Forest",
     "source": "Reviewed adult Dwarf male, Alliance Friendly, five training rows, full stolen-library progression/inventory branch/trainer letter and available progress speech; no Scout sighting claimed",
     "research_notes": "docs/research/tordrin-sternblade-useful-skills-and-stolen-books.md"
+  },
+  {
+    "npc_id": 4555,
+    "name": "Eleanor Rusk",
+    "zone": "Undercity",
+    "source": "Reviewed adult female Forsaken/Tauren bodies, Horde Friendly, full current/Classic own stock and repair-bill flavor where relevant; no personal quest or installed gossip, no Scout sighting claimed",
+    "research_notes": "docs/research/undercity-laughter-and-boomstick-invitations.md"
+  },
+  {
+    "npc_id": 3322,
+    "name": "Kaja",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult female Forsaken/Tauren bodies, Horde Friendly, full current/Classic own stock and repair-bill flavor where relevant; no personal quest or installed gossip, no Scout sighting claimed",
+    "research_notes": "docs/research/undercity-laughter-and-boomstick-invitations.md"
   }
 ]
