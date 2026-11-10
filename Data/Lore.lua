@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sheendra Tallgrass, Camp Mojache, Feralas. Adult Tauren female
+    -- 7359/M2 986648, Horde Friendly. All34current/Classic goods
+    -- reviewed; no personal quests or installed gossip. Her spirited
+    -- defense of gray is original; no Tallgrass family ties inferred.
+    -- Research: docs/research/mojache-colors-and-stonetalon-news.md
+    [8145] = {
+        quote = "Gray is a color. A very good one. You needn't sound disappointed when you ask for it.",
+        likes = { "Gray wool beside a brighter color", "A shopping list read before departure", "A customer with a preference of their own" },
+        dislikes = { "Calling a useful color dull", "Finding the thread beneath the hammer", "Someone else's taste imposed as a rule" },
+        gossip = "Sheendra stocks several bright dyes, but gray has an unexpectedly spirited defender behind the counter. Ask politely and she will make her case.",
+        bio = "Sheendra Tallgrass sells trade supplies at Camp Mojache in Feralas. Her stock ranges from thread and dyes to tools, fishing supplies and cooking recipes. Even a colorful shopping list has room for her favorite shade.",
+        backstory = "Someone once asked for gray dye as though apologizing for the choice. She answered with an enthusiastic account of rain-dark stone and soft wool. The customer left with the dye and the discovery that a practical errand could start a lively conversation.",
+        secret = "She does not need everyone to agree with her. Someone defending a completely different color with equal enthusiasm is much better company than a reluctant convert.",
+        bestFriend = "Come along. You can choose the colors you like. I would enjoy hearing the reasons, especially the ones I would never have thought of.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She enjoys someone recognizing the affection behind her unexpectedly spirited defense of an ordinary color.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Shall we go? You may choose a brighter color without disappointing me. I would rather hear what you like about it.", tone = "[warm] [playful]" }, "Ready. Check the list before leaving. We can disagree agreeably about the colors on the way." },
+            idle = { { "Gray is a color. Someone once asked for the dye as though apologizing. I gave a spirited defense of it. They had expected a much shorter shopping trip.", tone = "[earnest] [amused]" }, "Rain-dark stone. Soft wool. There are plenty of things worth liking that need no bright dye to draw the eye.", "Thread, tools, spices. A useful shop makes room for more than one kind of work." },
+            befriended = { { "You have become someone whose opinion I enjoy hearing, even when the shade is one I would never choose. Come along, friend. Tell me what you see in it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You needn't prepare a defense before asking. I was pleased with the question already.", "I hear you. If it concerns gray dye, I can give the short answer this time. Probably." },
+            laughAlong = { { "You see the affection in it. Good. It would be a pity to spend all that enthusiasm making a quarrel instead of enjoying the conversation.", tone = "[wry] [friendly]" } },
+            loot = { "Have a look. A useful thing deserves better than being lost beneath the next useful thing in the bag." },
+            bagsFull = { "Make some room before putting the delicate supplies under the tools. The thread did not agree to carry the hammer." },
+            rest = { "A pause. You can tell me what caught your eye without first deciding whether it was important enough to mention." },
+            quest = { "Read the request through. One kind of thread can look very much like another until you arrive with the wrong one." },
+            sitToo = { "Bright baubles have their place. So do quiet moments by the water. You needn't choose only one to appreciate." },
+            thanked = { "You are welcome. I enjoyed the conversation. Agreement would have been far too small a price to ask for it." },
+        },
+    },
+
+    -- Tammra Windfield, Sun Rock Retreat, Stonetalon. Adult Tauren
+    -- female11796/M2 986648, Horde Friendly. Full6301/6381planting and
+    -- 6523/6401Kaya chains read; Kaya is her niece. Ordinary travel
+    -- news and looking toward the path are original. No later fate.
+    -- Research: docs/research/mojache-colors-and-stonetalon-news.md
+    [11864] = {
+        quote = "The land needs tending, and people need news of those they love. There is room in my day for both.",
+        likes = { "Gaea seeds safely brought from the lake", "A traveler returning with family news", "Small growth given time to take hold" },
+        dislikes = { "Forests treated as nothing but lumber", "Hope spoken as an excuse for doing nothing", "A messenger hurried past before speaking" },
+        gossip = "Tammra can be intent on her seeds and still notice someone arriving on the path. Work for the land has not made family news less important.",
+        bio = "Tammra Windfield lives at Sun Rock Retreat. She blesses Gaea seeds from Mirkfallon Lake for planting in the Charred Vale. Makaba Flathoof also sends travelers to tell her that her niece Kaya has survived an attack.",
+        backstory = "She caught herself looking toward the path while considering the work ahead. Rather than pretend a patient gardener never worried about a traveler, she made room to listen. The land's wounds and a family's fears need not compete for her attention.",
+        secret = "She likes hearing about uneventful parts of a journey: a dry resting place, a familiar turn in the road. News need not be dreadful or astonishing to be worth carrying.",
+        bestFriend = "Walk with me. Tell me one small thing you noticed on the way. I will be pleased to hear it without waiting for a grander report.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a quiet acknowledgment that hope deserves patient work, without promising an instant cure.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "I am glad to see you. Shall we walk? Tell me how the way has been. There is time to hear more than the danger you passed through.", tone = "[warm] [attentive]" }, "Ready. We can look at what needs doing without forgetting to notice what has begun to grow." },
+            idle = { { "Sometimes I find myself looking toward the path while thinking of the seeds. Patience with the land does not mean I have stopped caring who comes home along that road.", tone = "[thoughtful] [tender]" }, "The Gaea seeds come from near Mirkfallon Lake. The damaged ground in the Charred Vale needs more than our sorrow for it.", "Hope should give our hands something to do. It should not become a reason to leave the work to someone else." },
+            befriended = { { "You have become a friend I am glad to hear approaching. Come with me. You may tell me the ordinary parts of your day as well as the difficult ones.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? There is time to listen. A small piece of news need not apologize for being small.", "I hear you. Tell me what you have come to say before worrying about how important it sounds." },
+            zone = { { "Look closely. A place is more than the harm done to it, but caring for it means seeing that harm plainly too.", tone = "[steady] [reflective]" } },
+            quest = { "Listen to the whole request. A person waiting for news and ground waiting for seeds both deserve care in how we answer." },
+            learned = { "Something learned. Give it time to settle, then consider what good you can do with it." },
+            rest = { "Be at ease for a little while. Tell me about a safe place you found along the road. I would enjoy hearing of one." },
+            combatEnd = { "It is over. Check on the others. Relief is worth sharing before we begin deciding what must happen next." },
+            comforted = { "Thank you. A companion need not promise the whole forest healed to make the work feel less lonely." },
+            thanked = { "You are welcome. Keep caring when the first hopeful moment has passed. New life still needs the days that follow." },
+        },
+    },
+
     -- Thonys Pillarstone, Great Forge, Ironforge. Adult Dwarf male
     -- 10588/M2 878772, Alliance Friendly. Three installed greetings,
     -- nine Classic lessons and Forever camping96059/96608/96628 read.

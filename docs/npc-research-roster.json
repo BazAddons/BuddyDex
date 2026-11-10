@@ -3353,5 +3353,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Dwarf male, Alliance Friendly; all current relationship tabs, nine Classic lessons, three installed greetings and full camping context read; no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-enchanting-and-the-evening.md"
+  },
+  {
+    "npc_id": 8145,
+    "name": "Sheendra Tallgrass",
+    "zone": "Feralas",
+    "source": "Reviewed adult Tauren woman, explicit Horde Friendly; all34goods and own relationship pages; original gray preference separated from established vendor role; no Scout sighting claimed",
+    "research_notes": "docs/research/mojache-colors-and-stonetalon-news.md"
+  },
+  {
+    "npc_id": 11864,
+    "name": "Tammra Windfield",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult Tauren woman, explicit Horde Friendly; full6301/6381and6523/6401chains and current/Classic relationships; established aunt relationship separated from original travel-news writing; no Scout sighting claimed",
+    "research_notes": "docs/research/mojache-colors-and-stonetalon-news.md"
   }
 ]

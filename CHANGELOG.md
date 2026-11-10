@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sheendra Tallgrass and Tammra Windfield: two full adult Horde Tauren profiles with thirty personal lines queued.
+- Cover Camp Mojache trade supplies and Sun Rock Retreat restoration/family-news quests with researched facts and distinct original writing.
+
 - Add Thonys Pillarstone: a full adult Dwarf enchanting profile in Ironforge, with fifteen personal lines queued.
 - Research his Gimble referral and Forever camping lesson; add an original story about enjoying an evening for its own sake.
 

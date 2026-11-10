@@ -3024,6 +3024,20 @@
       "zone": "Ironforge",
       "route": "Ironforge Alliance enchanting contact",
       "reason": "Complete adult Alliance trainer profile, fifteen personal lines queued; original pupil question about a tune protecting the evening; no synthesis"
+    },
+    {
+      "npc_id": 8145,
+      "name": "Sheendra Tallgrass",
+      "zone": "Feralas",
+      "route": "Camp Mojache trade supplies",
+      "reason": "Complete adult Horde Tauren woman with fifteen personal lines queued; full vendor research and original spirited defense of gray; no synthesis"
+    },
+    {
+      "npc_id": 11864,
+      "name": "Tammra Windfield",
+      "zone": "Stonetalon Mountains",
+      "route": "Sun Rock Retreat planting and family-news contact",
+      "reason": "Complete adult Horde Tauren woman with fifteen personal lines queued; full planting/Kaya quest chains and original care for ordinary family news; no synthesis"
     }
   ]
 }
