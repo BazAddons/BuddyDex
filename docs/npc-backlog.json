@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 726,
-  "written_complete_count": 726,
-  "awaiting_signature_audio_count": 272,
+  "authored_count": 728,
+  "written_complete_count": 728,
+  "awaiting_signature_audio_count": 274,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 274,
+  "remaining_count": 276,
   "completed": [
     {
       "npc_id": 54,
@@ -5436,6 +5436,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 7882,
+      "name": "Security Chief Bilgewhizzle",
+      "zone": "Tanaris",
+      "source": "Reviewed adult Horde Neutral Goblin man; full three-duty quest set and installed profit/security dialogue; cramped business-card story original; live eligibility required; no Scout sighting claimed",
+      "research_notes": "docs/research/powderfuse-thread-bridge-and-chiefs-card.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "goblin-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 7917,
       "name": "Brother Sarno",
       "zone": "Stormwind City",
@@ -7338,6 +7350,18 @@
       "zone": "Riverglades",
       "source": "Reviewed adult male Goblin body, Horde Friendly, all current own tabs and installed opportunist/gunpowder dialogue; no Scout sighting claimed",
       "research_notes": "docs/research/mulgore-opportunity-and-powderfuse-aromas.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "goblin-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 260570,
+      "name": "Stitch Pinwizzle",
+      "zone": "Riverglades",
+      "source": "Reviewed adult Horde Friendly Goblin man; primary tailoring-supplies role, installed greeting and19secondary goods/item nodes; thread-bridge pastime original; no Scout sighting claimed",
+      "research_notes": "docs/research/powderfuse-thread-bridge-and-chiefs-card.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

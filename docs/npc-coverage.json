@@ -4,8 +4,8 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 307,
-    "unverified": 158,
-    "horde": 287
+    "unverified": 159,
+    "horde": 288
   },
   "npc_race_counts": {
     "1": 167,
@@ -15,7 +15,7 @@
     "5": 79,
     "4": 57,
     "8": 57,
-    "9": 46,
+    "9": 48,
     "6": 82,
     "96": 20,
     "95": 26
@@ -51,7 +51,7 @@
     "Ashenvale": 12,
     "Thousand Needles": 9,
     "Dustwallow Marsh": 1,
-    "Tanaris": 7,
+    "Tanaris": 8,
     "Feralas": 3,
     "Desolace": 9,
     "Winterspring": 1,
@@ -59,7 +59,7 @@
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
     "Zephras Isle": 45,
-    "Riverglades": 9
+    "Riverglades": 10
   },
   "entries": [
     {
@@ -6737,6 +6737,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7853"
     },
     {
+      "npc_id": 7882,
+      "name": "Security Chief Bilgewhizzle",
+      "zone": "Tanaris",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; not counted as explicit Friendly; normal live nonattackability and reaction checks required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7882"
+    },
+    {
       "npc_id": 7917,
       "name": "Brother Sarno",
       "zone": "Stormwind City",
@@ -9031,6 +9042,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260566"
     },
     {
+      "npc_id": 260570,
+      "name": "Stitch Pinwizzle",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260570"
+    },
+    {
       "npc_id": 262469,
       "name": "Tuu'li",
       "zone": "Stonetalon Mountains",
@@ -9312,6 +9336,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 726,
-  "awaiting_signature_audio_profiles": 272
+  "authored_profiles": 728,
+  "awaiting_signature_audio_profiles": 274
 }

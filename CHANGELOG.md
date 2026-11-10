@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Stitch Pinwizzle and Security Chief Bilgewhizzle: two adult Goblin profiles with thirty personal lines queued.
+- Expand Powderfuse and Steamwheedle port contacts with researched supply/security roles and distinct original thread-bridge and cramped-card stories.
+
 - Add Gar'Thok and Nurse Neela: two adult Horde profiles with thirty personal lines queued.
 - Expand Razor Hill and Brill early contacts using researched command duties and First Aid camping instruction, with original friendship stories documented.
 

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Stitch Pinwizzle <Tailoring Supplies>, Powderfuse Port. Adult
+    -- Goblin male145182/M2 119376, Horde Friendly. Current own
+    -- tables0;19secondary goods/item nodes and installed greeting read.
+    -- Thread-bridge pastime original, not a new interactive minigame.
+    -- Research: docs/research/powderfuse-thread-bridge-and-chiefs-card.md
+    [260570] = {
+        quote = "That is a bridge. Yes, it is made of thread. No, it is not rated for carts.",
+        likes = { "A loop of thread becoming a little bridge", "Someone staying to see the figure finished", "A useful supply given a little amusement" },
+        dislikes = { "A tangle mistaken for the finished design", "Pulling the loop before the grand reveal", "Every idle moment required to turn a profit" },
+        gossip = "Stitch can make a little bridge from thread between his fingers. Admire it before asking how many carts it can carry.",
+        bio = "Stitch Pinwizzle supplies tailoring goods in Powderfuse Port, Riverglades. His greeting promises new threads to visitors. He enjoys finding a little amusement in the ordinary materials around his work, including a loop stretched between his fingers.",
+        backstory = "During a quiet interval, he worked a loop of thread into a little bridge. A visitor stayed to watch him finish. Stitch gave the span a grand inspection, then explained that it was not quite ready for the harbor's carts.",
+        secret = "The bridge is most of his repertoire. He would be pleased if a friend showed him another figure, provided they let him enjoy the grand reveal first.",
+        bestFriend = "Hold a moment, pal. I nearly have the bridge. Then you can show me a new figure, or simply admire this one with me. I like the company.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys an audience appreciating the finished little performance before deciding how practical it might be.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal! Ready? Give me a moment to put down the thread. This bridge has not been approved for walking, so we'll take the ordinary road.", tone = "[bright] [welcoming]" }, "Good to see you! Come along. If you know a new thread figure, I would be delighted to see it. After a proper appreciation of my bridge, naturally." },
+            idle = { { "A bridge, between the fingers. Very fine span. No carts, please. No cargo either. Admiring the construction remains entirely permissible.", tone = "[playful] [mock-serious]" }, "The visitor stayed until I finished the little figure. A gratifying audience. Not every interesting use for thread needs to end with a purchase.", "The bridge is most of my repertoire. I am open to learning another figure, once everyone has had time to enjoy the engineering of this one." },
+            befriended = { { "You stayed to enjoy the little thing I was making. I liked that, pal. Come along. We can share the road without requiring every minute to turn into business.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, pal? A moment. I am at a delicate stage of a very small public works project.", "What's up? If that is a question about the bridge, remember that its cargo rating remains firmly at nothing." },
+            applaudToo = { { "There we are! A fine appreciation of a fine little span. You may now ask whether I know a second figure. I have been considering that question myself.", tone = "[delighted] [amused]" } },
+            learned = { "Something new! Show me when you have the hang of it. Knowing one good figure is pleasant; learning another would be an improvement." },
+            gear = { "Useful work. Take a look at how the pieces come together. You may admire the appearance as well as checking what it can bear." },
+            loot = { "Something useful? Give it a look. Ordinary material can offer more possibilities than the first sensible description suggests." },
+            bagsFull = { "Make a little room, pal. A tangle in the pack is much less impressive than a figure deliberately made from one." },
+            rest = { "A pause. Excellent. Sit where you can see my hands. This is a small performance, and I would hate for you to miss the span." },
+            group = { "Has everyone seen it? Good. Now someone may tell me how to make the next figure. One bridge need not be the end of my education." },
+        },
+    },
+
+    -- Security Chief Bilgewhizzle <Water Co. Security>, Steamwheedle.
+    -- Adult Goblin male11387/M2 119376, current Horde Neutral.
+    -- Full8366/2875/2876 current/Classic/installed text read; no current
+    -- own relations. Small business card is original, not quest fine print.
+    -- Research: docs/research/powderfuse-thread-bridge-and-chiefs-card.md
+    [7882] = {
+        quote = "The whole title goes on the card. Read it closely. No, closer than that. The office is important; the card is inconveniently small.",
+        likes = { "Company goods arriving without trouble", "An accurate report about a real threat", "The title recognized without squinting" },
+        dislikes = { "Pirates ignoring paid protection money", "Being expected in two places at once", "A grand title defeated by a small card" },
+        gossip = "The Chief once tried to fit his full title on a little card. The result demanded rather more concentration than most visitors had brought.",
+        bio = "Security Chief Bilgewhizzle serves the Gadgetzan Water Company at Steamwheedle Port. Pirates threaten the profitable movement of goods. He wants help dealing with them while he keeps order, and treats an accurate shipping schedule as serious business.",
+        backstory = "He wanted a card bearing the full importance of his office. The title fitted, at the expense of nearly everything a reader could see. He turned it over and wrote Chief in larger letters. The improvement was difficult to dispute.",
+        secret = "He has considered ordering a larger card. Unfortunately, that would require a larger pocket. Calling him Chief remains the most efficient solution.",
+        bestFriend = "Chief will do, pal. Saves ink and squinting. Come along. I could use some company that recognizes me without bringing another impossible assignment.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He appreciates a clear acknowledgment of his office that does not require reading its entire title in very small print.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal. Ready? Chief will do. Reading the full title from the card could take longer than the walk, and I have enough demands on my time.", tone = "[brisk] [welcoming]" }, "Good. Some company. Tell me where we're going, and please let it be one place at a time. I've had enough experience being expected in two." },
+            idle = { { "The whole title fitted on the card. Very impressive. Almost unreadable. I turned it over and wrote Chief in large letters. A rare administrative improvement requiring no committee.", tone = "[dry] [self-important]" }, "A larger card would mean a larger pocket. I have considered the matter. For now, recognizing the Chief without squinting is the most economical solution.", "We want the goods arriving and the profits remaining ours. Pirates disregarding protection money complicate a perfectly straightforward business ambition." },
+            befriended = { { "You recognize me without needing the card, and your company doesn't immediately require me in two places at once. I appreciate that, pal. Come along. Chief will do.", tone = "[wry] [sincere]" } },
+            poke = { "Yes? One thing at a time, pal. The title may be extensive; the number of places I can occupy has not increased.", "You have my attention. If this is about the print on the card, the reverse side contains a considerable improvement." },
+            quest = { { "Read what the assignment actually requires. Small print has an unfortunate habit of occupying more of the business than its size would suggest.", tone = "[knowing] [dry]" } },
+            mail = { "Who sent it, and what are they asking? Establish that before volunteering me for another duty at the far end of the coast." },
+            gear = { "Check what it does. An impressive title may require a closer inspection before you decide how much protection it offers." },
+            newFriend = { "Someone new. Introduce us. Chief will do unless they have brought exceptional eyesight and a great deal of time." },
+            group = { "Work out who is doing what before everyone begins assigning the same person to opposite ends of the problem." },
+            rest = { "A pause. One place, one chair, and a moment without another assignment. I can see the administrative advantages." },
+            thanked = { "You're welcome, pal. I appreciate a useful result being noticed. A brief acknowledgment is quite sufficient; no tiny print required." },
+        },
+    },
+
     -- Gar'Thok, Razor Hill. Adult Orc male3736/M2 917116, Horde
     -- Friendly. All current duties/full Admiral chain, new96821 and
     -- readable two-page orders checked. Hostile defensive policy kept;

@@ -3647,5 +3647,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Horde Forsaken woman; full First Aid camping referral, installed own training/manual/doctor gossip and historical lessons; practice patient original; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-fastening-and-neelas-patient.md"
+  },
+  {
+    "npc_id": 260570,
+    "name": "Stitch Pinwizzle",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Horde Friendly Goblin man; primary tailoring-supplies role, installed greeting and19secondary goods/item nodes; thread-bridge pastime original; no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-thread-bridge-and-chiefs-card.md"
+  },
+  {
+    "npc_id": 7882,
+    "name": "Security Chief Bilgewhizzle",
+    "zone": "Tanaris",
+    "source": "Reviewed adult Horde Neutral Goblin man; full three-duty quest set and installed profit/security dialogue; cramped business-card story original; live eligibility required; no Scout sighting claimed",
+    "research_notes": "docs/research/powderfuse-thread-bridge-and-chiefs-card.md"
   }
 ]

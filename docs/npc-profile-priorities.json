@@ -3318,6 +3318,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill early First Aid route",
       "reason": "Complete adult profile with fifteen personal lines queued; verified adult trainer/referral and original rolled-cloth patient story; no synthesis"
+    },
+    {
+      "npc_id": 260570,
+      "name": "Stitch Pinwizzle",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port tailoring contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified Goblin identity and original thread-bridge pastime; no synthesis"
+    },
+    {
+      "npc_id": 7882,
+      "name": "Security Chief Bilgewhizzle",
+      "zone": "Tanaris",
+      "route": "Steamwheedle Port security duties",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified Goblin identity and researched commercial security duties, original small-card story; no synthesis"
     }
   ]
 }
