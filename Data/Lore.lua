@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shelene Rhobart <Journeyman Leatherworker>, road southeast of Brill.
+    -- Adult Forsaken female1607/M2 997378, Horde Friendly, Trainer.
+    -- Full97558/97958 and camping context, three installed gossips read.
+    -- Learned after plague is sourced; polished private button is original.
+    -- Research: docs/research/brill-hides-and-a-place-to-sit.md
+    [3549] = {
+        quote = "I learned a new trade after dying. You may allow yourself the time to learn one while merely inconvenienced.",
+        likes = { "A useful new skill put to work", "Material chosen for the job", "A grin that meets a bleak joke" },
+        dislikes = { "Learning dismissed as too late", "Different hides treated as interchangeable", "A pupil ashamed to need another teacher" },
+        gossip = "Shelene can make a lesson about skin unexpectedly funny. Her practical explanation tends to arrive just as a visitor decides whether to laugh.",
+        bio = "Shelene Rhobart teaches leatherworking southeast of Brill. She gathers different hides for Forsaken repairs and explains why their qualities matter. Her dry humor does not diminish the practical need behind the work.",
+        backstory = "Before the plague, she knew nothing about leather. Undeath gave her time to learn enough to teach others. When a pupil passes beyond her instruction, she sends them to Arthur Moore rather than pretending she can offer the next lesson.",
+        secret = "She still enjoys polishing an entirely unimportant button. It need not hold anything together particularly well for her to take pleasure in seeing one small thing shine.",
+        bestFriend = "Sit with me. You may admire the button or make a dreadful joke. I shall be pleased you came for something beyond the next lesson.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone meeting her bleak humor with a little warmth.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Good, company. Let us see what can be made of the time we have.", tone = "[dry] [welcoming]" }, "Ready. You need not have a lesson prepared to spend a little time with me." },
+            idle = { { "The button is entirely unimportant. I find that a pleasant qualification for something I enjoy polishing.", tone = "[wry] [pleased]" }, "I knew nothing of leather before the plague. An inconvenient beginning need not be the final state of affairs.", "A material can be perfectly good and still quite wrong for the job." },
+            befriended = { { "You stayed after the practical explanation. I should be pleased to have more company that can do that.", tone = "[warm] [reserved]" } },
+            poke = { "Yes? A question, or have you thought of a worse joke?", "I was attending to one small unnecessary shine." },
+            learned = { { "Good. And if you need a teacher beyond me, I shall be pleased to send you to one.", tone = "[encouraging] [matter-of-fact]" } },
+            loot = { "Keep the different materials separate. Their differences may be the useful part." },
+            quest = { "Attend to the variety requested. One great heap of the wrong thing will still be wrong." },
+            gear = { "Have a look at the wear before declaring it perfectly serviceable." },
+            rest = { "A little time with no lesson to finish. I believe we can make use of that." },
+            laughAlong = { "Yes, dreadful. I am glad you caught the intended spirit." },
+            thanked = { "You are welcome. Put what you learned to good use." },
+        },
+    },
+
+    -- Rand Rhobart <Skinner>, road between Brill and Undercity. Adult
+    -- Forsaken male4993/M2 959310, Horde Friendly. Full97960 camping
+    -- referral/completion read despite empty current own quest tabs.
+    -- Unfinished list of chair virtues is original; no spouse inferred.
+    -- Research: docs/research/brill-hides-and-a-place-to-sit.md
+    [6289] = {
+        quote = "A useful hide can become a comfortable chair. I admire work that knows when to stop being work.",
+        likes = { "A hide put to practical use", "A proper place to sit after effort", "Company content to take a load off" },
+        dislikes = { "Good material wasted through haste", "Rest postponed for the sake of a boast", "A pause turned into another assignment" },
+        gossip = "Rand values a useful skill. Ask about its finer rewards and a comfortable seat may enter the discussion sooner than expected.",
+        bio = "Rand Rhobart is a skinning instructor on the road between Brill and Undercity. His camping lesson turns gathered hides toward making a Camp Chair, joining a practical trade to the useful business of taking a rest.",
+        backstory = "Helping people learn to use what they gather gave him an appreciation for the moment the work could be put down. A camp furnishing seemed a sensible result: something made through effort that gave the next quiet interval a place to happen.",
+        secret = "He has considered making a list of the virtues of a good chair. Every attempt begins with sitting in it, which has so far proved more satisfying than finishing the list.",
+        bestFriend = "Take a seat. There is no examination afterward. If the conversation stops for a little while, I shall consider the arrangement successful.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates an easy acknowledgment that lets a quiet moment stay quiet.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Ready. Let us hope the outing leaves room for the occasional useful pause.", tone = "[dry] [unhurried]" }, "Good to see you. Have we somewhere sensible to stop along the way?" },
+            idle = { { "I intended to list the virtues of the chair. Testing the first one has occupied the available time.", tone = "[wry] [content]" }, "A useful skill should occasionally make the day more comfortable.", "You can stop working without turning the pause into a failure." },
+            befriended = { { "You have allowed a little quiet without trying to fill it with another task. I should enjoy more of that company.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? We need not rise merely because a question has occurred.", "I was giving the matter the consideration possible from a comfortable seat." },
+            rest = { { "Put the work down a moment. A place to sit is more useful when someone actually sits in it.", tone = "[practical] [gentle]" } },
+            learned = { "Good. Now think what use the skill can be beyond proving you have it." },
+            loot = { "Handle it with care. Good material can still be lost through a hasty hand." },
+            bagsFull = { "Perhaps make room before useful hides become an inconvenient heap." },
+            quest = { "Read what is asked for. Finishing the wrong task is an inefficient route to a rest." },
+            zone = { "New surroundings. I wonder where one could sit and appreciate them." },
+            thanked = { "You are welcome. I hope it makes the next pause a better one." },
+        },
+    },
+
     -- Rudra Amberstill, Amberstill Ranch, Dun Morogh. Adult Dwarf
     -- female1651/M2 950080; current Alliance Neutral. Full314 and
     -- Forever95212 herd/saddle tasks reviewed, no friendship mount reward.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shelene Rhobart and Rand Rhobart: two complete adult Forsaken profiles, with thirty personal lines queued.
+- Expand early Tirisfal profession friendships with sourced post-plague learning, new hide-gathering lore and camping lessons kept separate from BuddyDex rewards.
+
 - Add Rudra Amberstill and Poranna Snowbraid: two complete adult Dwarf women, with thirty personal lines queued.
 - Ground their ranch and tailoring-supplies friendships in full herd/saddle quest text and current reagent-bag pattern stock.
 

@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 248,
     "unverified": 139,
-    "horde": 202
+    "horde": 204
   },
   "npc_race_counts": {
     "1": 165,
     "3": 44,
     "7": 37,
     "2": 67,
-    "5": 59,
+    "5": 61,
     "4": 40,
     "8": 44,
     "9": 29,
@@ -29,7 +29,7 @@
     "Dun Morogh": 13,
     "Ironforge": 42,
     "Stranglethorn Vale": 3,
-    "Tirisfal Glades": 36,
+    "Tirisfal Glades": 38,
     "Undercity": 11,
     "Duskwood": 1,
     "Silverpine Forest": 8,
@@ -3752,6 +3752,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3537"
     },
     {
+      "npc_id": 3549,
+      "name": "Shelene Rhobart",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3549"
+    },
+    {
       "npc_id": 3551,
       "name": "Patrice Dwyer",
       "zone": "Silverpine Forest",
@@ -5261,6 +5274,19 @@
       ],
       "reaction_evidence": "Alliance icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6286"
+    },
+    {
+      "npc_id": 6289,
+      "name": "Rand Rhobart",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6289"
     },
     {
       "npc_id": 6300,
@@ -7359,6 +7385,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 574,
-  "awaiting_signature_audio_profiles": 120
+  "authored_profiles": 576,
+  "awaiting_signature_audio_profiles": 122
 }

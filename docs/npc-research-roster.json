@@ -2583,5 +2583,19 @@
     "zone": "Ironforge",
     "source": "Reviewed standard adult female Dwarf body and current Alliance Neutral/Friendly distinction; full Classic/Forever ranch tasks or current17-item supplies, no Scout sighting claimed",
     "research_notes": "docs/research/amberstill-care-and-ironforge-beginnings.md"
+  },
+  {
+    "npc_id": 3549,
+    "name": "Shelene Rhobart",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Forsaken female/male body and current Horde Friendly; full97558 and camping referrals plus installed training dialogue, no Scout sighting claimed",
+    "research_notes": "docs/research/brill-hides-and-a-place-to-sit.md"
+  },
+  {
+    "npc_id": 6289,
+    "name": "Rand Rhobart",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Forsaken female/male body and current Horde Friendly; full97558 and camping referrals plus installed training dialogue, no Scout sighting claimed",
+    "research_notes": "docs/research/brill-hides-and-a-place-to-sit.md"
   }
 ]

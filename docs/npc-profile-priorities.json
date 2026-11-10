@@ -2254,6 +2254,20 @@
       "zone": "Ironforge",
       "route": "Alliance Ironforge tailoring-supplies city contact",
       "reason": "Complete adult female Dwarf profile with fifteen queued lines; verified current reaction retained, game mounts/patterns separate from friendship, no synthesis"
+    },
+    {
+      "npc_id": 3549,
+      "name": "Shelene Rhobart",
+      "zone": "Tirisfal Glades",
+      "route": "Horde early road southeast of Brill leatherworker",
+      "reason": "Complete adult Forsaken profile with fifteen queued lines in approved sex-specific voice; actual hide/camping skills separate from friendship rewards, no synthesis"
+    },
+    {
+      "npc_id": 6289,
+      "name": "Rand Rhobart",
+      "zone": "Tirisfal Glades",
+      "route": "Horde early Brill-to-Undercity skinning contact",
+      "reason": "Complete adult Forsaken profile with fifteen queued lines in approved sex-specific voice; actual hide/camping skills separate from friendship rewards, no synthesis"
     }
   ]
 }
