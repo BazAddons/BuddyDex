@@ -2919,5 +2919,19 @@
     "zone": "Mulgore",
     "source": "Reviewed adult Tauren female, Horde Neutral, all184training rows, own dialogue and full6126-6130chain with final Turak recipient preserved; no Scout sighting claimed",
     "research_notes": "docs/research/hana-lighthoof-different-paths-and-care.md"
+  },
+  {
+    "npc_id": 3602,
+    "name": "Kal",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult male Night Elf body, Alliance Friendly, all current training/stock pages and full relevant Classic bear lesson/installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-second-beginnings-and-ordinary-projects.md"
+  },
+  {
+    "npc_id": 3614,
+    "name": "Narret Shadowgrove",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult male Night Elf body, Alliance Friendly, all current training/stock pages and full relevant Classic bear lesson/installed dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-second-beginnings-and-ordinary-projects.md"
   }
 ]

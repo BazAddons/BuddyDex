@@ -2590,6 +2590,20 @@
       "zone": "Mulgore",
       "route": "Northern Mulgore Camp Gevrek Druid trainer",
       "reason": "Complete Tauren female profile, fifteen queued lines, actual shared-goal/different-method dialogue and responsible teaching; no synthesis"
+    },
+    {
+      "npc_id": 3602,
+      "name": "Kal",
+      "zone": "Teldrassil",
+      "route": "Dolanaar early Night Elf village",
+      "reason": "Complete distinct male Night Elf profile with fifteen personal lines queued; sourced Druid welcome/retraining or current trade stock, no synthesis"
+    },
+    {
+      "npc_id": 3614,
+      "name": "Narret Shadowgrove",
+      "zone": "Teldrassil",
+      "route": "Dolanaar early Night Elf village",
+      "reason": "Complete distinct male Night Elf profile with fifteen personal lines queued; sourced Druid welcome/retraining or current trade stock, no synthesis"
     }
   ]
 }

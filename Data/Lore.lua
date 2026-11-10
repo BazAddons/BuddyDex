@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kal <Druid Trainer>, Dolanaar, Teldrassil. Adult Night Elf male
+    -- display1706/M2 974343, Alliance Friendly. Four installed gossip
+    -- variants, all184current training rows and full Classic5923 bear
+    -- lesson chain reviewed. Malfurion remains in the Dreaming.
+    -- Respect for a returning uncertain student is original interpretation.
+    -- Research: docs/research/dolanaar-second-beginnings-and-ordinary-projects.md
+    [3602] = {
+        quote = "I may ask you to begin again. That does not make you unwelcome.",
+        likes = { "A student willing to reconsider", "Strength guided by clear purpose", "A question asked without pretense" },
+        dislikes = { "Habit mistaken for understanding", "Power practiced without responsibility", "Embarrassment used as a teaching tool" },
+        gossip = "Kal welcomes those seeking to learn. He can sound just as welcoming when explaining that their familiar approach must be learned anew.",
+        bio = "Kal teaches druids in Dolanaar. While Malfurion remains in the Dreaming, he speaks of preserving balance. His welcome is warm, but retraining means breaking with previous learning before beginning again.",
+        backstory = "His referral to Mathrengyl Bearwalker opens the bear lessons: Dendrite and the Great Bear Spirit teach purpose, then Lunaclaw tests body and heart. Kal sends the learner onward rather than claiming every lesson as his own.",
+        secret = "He respects someone who returns willing to start over. He would rather hear an uncertain question than a confident answer kept only to avoid embarrassment.",
+        bestFriend = "You need not arrive certain of everything. There is room beside me for a friend who is still finding the question.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone taking a difficult explanation seriously without pretending to understand it already.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Welcome. Bring what you have learned, and leave room for what may ask you to reconsider it.", tone = "[warm] [measured]" }, "I am ready. An unfamiliar path may give a familiar lesson something more to teach us." },
+            idle = { { "Beginning again is difficult enough without someone making it a cause for shame.", tone = "[reflective] [gentle]" }, "A practiced movement can conceal an unanswered question. It is useful to notice which one we are repeating.", "Strength needs a purpose that can bear being examined." },
+            befriended = { { "You are willing to ask, even when the answer may change something familiar. I would be glad of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Ask it as plainly as you can. We can find the difficult part together.", "I was considering whether my explanation made room for a question, or merely expected agreement." },
+            learned = { { "Good. Show yourself that you understand it before allowing familiarity to carry you along.", tone = "[patient] [firm]" } },
+            quest = { "Know what the task asks you to protect. Finishing it is not the whole of understanding it." },
+            rest = { "We can pause. Thinking carefully need not look like hurrying." },
+            gear = { "Consider what it helps you do, and whether you understand the responsibility that follows." },
+            group = { "Hear what each person has noticed. An unfamiliar explanation may reveal something useful." },
+            comforted = { "Thank you. A little kindness can make it easier to admit what remains difficult." },
+            thanked = { "You are welcome. Return with the next question, even if it brings us back to the beginning." },
+        },
+    },
+
+    -- Narret Shadowgrove <Trade Supplies>, Dolanaar, Teldrassil. Adult
+    -- Night Elf male1711/M2 974343, Alliance Friendly. All18current
+    -- goods versus14Classic rows reviewed; no own quest/gossip found.
+    -- His abbreviated afternoon list is original BuddyDex writing.
+    -- Research: docs/research/dolanaar-second-beginnings-and-ordinary-projects.md
+    [3614] = {
+        quote = "A project may be as simple as a good afternoon.",
+        likes = { "A request explained before the purchase", "Beginners finding what they need", "An apple eaten without hurrying" },
+        dislikes = { "A useful tool bought for no purpose", "Every pause turned into preparation", "Something pleasant made needlessly costly" },
+        gossip = "Narret can supply tools for several kinds of work. His own most carefully planned afternoon eventually required only an apple.",
+        bio = "Narret Shadowgrove sells trade supplies in Dolanaar: tools, thread, dyes, reagents, and fishing necessities. His Forever stock also includes apprentice gathering bags and a shiny red apple among the practical purchases.",
+        backstory = "He once made an elaborate list for an afternoon of his own. Reading it back, he realized he had planned more work. He crossed out the tasks and kept the apple. Choosing somewhere pleasant to sit could wait until he arrived.",
+        secret = "He kept the shortened list. When a pleasant idea begins requiring too many preparations, he rereads it. The apple was sufficient.",
+        bestFriend = "We have enough for an afternoon together. Let us be careful about adding anything that would make us too busy to enjoy it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He enjoys a friendly greeting that does not need to become another errand.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Good to see you. I hope this outing needs less preparation than my first attempt at a quiet afternoon.", tone = "[warm] [lighthearted]" }, "Ready. We can decide where to pause when we find somewhere worth pausing." },
+            idle = { { "I crossed the tasks off the list and kept the apple. It became a much more promising afternoon.", tone = "[wry] [relaxed]" }, "A good tool can make work easier. It cannot decide whether you needed another task.", "There is pleasure in helping someone begin. There is also pleasure in knowing when to leave a little time unplanned." },
+            befriended = { { "You make room for company without finding it a job to do. I should like an afternoon with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you mean to do before we decide what it needs.", "I was considering whether the plan would improve if we left something out." },
+            rest = { { "Here will do nicely. Nothing needs arranging before we enjoy the pause.", tone = "[content] [unhurried]" } },
+            loot = { "Keep it if you have a use for it. Owning the tool need not commit you to the project." },
+            bagsFull = { "Perhaps the next useful thing is a little room among the useful things." },
+            learned = { "A beginning, then. Give yourself time to try it before buying everything the expert owns." },
+            quest = { "Check what is actually needed. A long list is not always a thoughtful one." },
+            gear = { "Does it suit what you want to do? That is a better question than whether there is more to buy." },
+            thanked = { "You are welcome. I hope the preparation leaves you time to enjoy what follows." },
+        },
+    },
+
     -- Hana Lighthoof <Druid Trainer>, Camp Gevrek, northern Mulgore.
     -- Adult Tauren female143264/M2 986648, Horde Neutral/Trainer.
     -- All184training rows across4pages, two installed gossip variants,

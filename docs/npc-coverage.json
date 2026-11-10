@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 261,
+    "alliance": 263,
     "unverified": 148,
     "horde": 229
   },
@@ -13,7 +13,7 @@
     "7": 41,
     "2": 74,
     "5": 65,
-    "4": 45,
+    "4": 47,
     "8": 49,
     "9": 35,
     "6": 74,
@@ -33,7 +33,7 @@
     "Undercity": 13,
     "Duskwood": 3,
     "Silverpine Forest": 8,
-    "Teldrassil": 19,
+    "Teldrassil": 21,
     "Hillsbrad Foothills": 4,
     "Arathi Highlands": 11,
     "Orgrimmar": 42,
@@ -4168,6 +4168,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3600"
     },
     {
+      "npc_id": 3602,
+      "name": "Kal",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3602"
+    },
+    {
       "npc_id": 3608,
       "name": "Aldia",
       "zone": "Teldrassil",
@@ -4192,6 +4205,19 @@
       ],
       "reaction_evidence": "Alliance Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3611"
+    },
+    {
+      "npc_id": 3614,
+      "name": "Narret Shadowgrove",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3614"
     },
     {
       "npc_id": 3615,
@@ -7967,6 +7993,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 622,
-  "awaiting_signature_audio_profiles": 168
+  "authored_profiles": 624,
+  "awaiting_signature_audio_profiles": 170
 }

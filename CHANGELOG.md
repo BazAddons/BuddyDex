@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kal and Narret Shadowgrove: two complete Dolanaar profiles with thirty personal lines queued.
+- Ground their distinct teacher and merchant personalities in full bear-lesson dialogue, current training pages, and Forever trade stock.
+
 - Add Hana Lighthoof: a complete female Tauren profile with fifteen personal lines queued.
 - Ground her teaching in actual Earth Mother dialogue, complete training pages, and the full poison-lesson referral.
 
