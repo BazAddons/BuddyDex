@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Myriam Moonsinger, Razorfen Downs approaches, southern Barrens.
+    -- Adult Night Elf female12964/M2 921844, primary Horde Friendly.
+    -- Full6626and exact installed reconnaissance dialogue read. Scourge
+    -- diplomat identity remains her assessment. Evidence habit original.
+    -- Research: docs/research/razorfen-evidence-and-freewind-welcomes.md
+    [12866] = {
+        quote = "I would be relieved to be mistaken. That is different from having found a reason to stop watching.",
+        likes = { "An observation described accurately", "A correction supported by evidence", "Company that takes a warning seriously" },
+        dislikes = { "Fear repeated as though it were proof", "A concern dismissed before it is heard", "Pretending she can face every threat alone" },
+        gossip = "Myriam takes careful notes. She would be pleased to correct a frightening conclusion, provided someone brought a sound reason to do so.",
+        bio = "Myriam Moonsinger scouts the quilboar near Razorfen Downs. Watching an undead diplomat gather followers, she suspects a Scourge connection and distinguishes him from the Forsaken. She seeks help against the growing force while continuing her study.",
+        backstory = "She began separating what she had seen from what she feared it meant. The second part was easier to write with certainty than it deserved. Keeping the two accounts distinct has become a discipline, especially when the warning feels urgent.",
+        secret = "She hopes a report may one day need a much less frightening correction. Being wrong would not trouble her nearly as much as overlooking the evidence that made it possible.",
+        bestFriend = "Come along. You can tell me what you noticed, and I will listen. I would welcome another careful pair of eyes beside my own.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone listening carefully before deciding which parts of an account have actually been established.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Shall we go? Tell me what you observed, and we can begin with the part we have a reason to trust.", tone = "[calm] [attentive]" }, "Ready. I would welcome the company. Recognizing when another pair of eyes is needed is part of taking the work seriously." },
+            idle = { { "I would be relieved to be mistaken. That does not give me a reason to stop watching. I keep what I saw apart from what I suspect it means, and try not to let the second account write the first.", tone = "[reflective] [measured]" }, "The diplomat's growing following concerns me. Calling the whole matter merely strange would not make the danger smaller.", "I have seen enough to ask for help. I need not pretend that asking makes the investigation less important." },
+            befriended = { { "You hear the concern without making the account grander, and take the trouble to look carefully yourself. Come along, friend. I would welcome your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you saw before choosing the explanation you think I expect to hear.", "I hear you. If you have a correction, I would rather examine it than defend the old account merely because I wrote it." },
+            quest = { { "Hear what is actually known, and what still needs investigating. A serious warning deserves both care and a willingness to learn more.", tone = "[earnest] [precise]" } },
+            loot = { "Remember where it was found. An object and the story we immediately give it are not always the same piece of evidence." },
+            zone = { "New surroundings. Let us observe before deciding the old explanation applies here too." },
+            group = { "There is good reason to seek help against a threat beyond one person's strength. Make sure the others have heard the actual concern." },
+            combatEnd = { "It is over. Consider what the encounter showed us, and check who needs attention before continuing." },
+            rest = { "A pause. We may let the next explanation wait until we have something new to add to it." },
+            thanked = { "You are welcome. I am glad the account was useful. Tell me if you notice something that changes it." },
+        },
+    },
+
+    -- Thalia Amberhide, Freewind Post, Thousand Needles. Adult Tauren
+    -- female10093/M2 986648, Horde Friendly. Full4904Classic/current/
+    -- installed text read; no own current links/gossip. Lakota is her
+    -- friend, not an invented sibling/spouse. Private welcome habit original.
+    -- Research: docs/research/razorfen-evidence-and-freewind-welcomes.md
+    [10645] = {
+        quote = "You are welcome before you have explained the journey. Come in, and tell me what you wish to tell.",
+        likes = { "A friend reaching a safe welcome", "An account told in the speaker's own time", "Company that leaves room for quiet" },
+        dislikes = { "A welcome made conditional on an explanation", "Someone else's wishes treated as a promise", "Questions crowding out a person's relief" },
+        gossip = "Thalia can think of many questions for a returning friend. She tries to make the welcome the first thing they hear.",
+        bio = "Thalia Amberhide lives at Freewind Post in Thousand Needles. Lakota Windsong names her as the friend she needs to reach while seeking escape from Darkcloud Pinnacle. Thalia's thanks to the rescuer speak of deep trust in Lakota's return.",
+        backstory = "Imagining a friend's return, she found herself preparing question after question. She set that imagined conversation aside and tried beginning with a welcome. There would be time to listen afterward, without making arrival another demand to answer.",
+        secret = "She still thinks of the questions. Choosing which one can wait is part of how she tries to make a friend feel safe enough to speak freely.",
+        bestFriend = "Come along. You need not prepare a cheerful account for me. I am glad to share the way, and I will hear the story when you wish to tell it.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She appreciates a greeting that makes room for the person before asking for an account of where they have been.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. I am glad to see you. Shall we go? You need not explain the whole journey before I can welcome your company.", tone = "[warm] [welcoming]" }, "Ready. Tell me what you wish to tell, and let the rest wait until you are comfortable speaking of it." },
+            idle = { { "I can think of many questions when I imagine a friend's return. Where have you been, what happened, why so long? I try to let the welcome arrive before the questions do.", tone = "[reflective] [gentle]" }, "Lakota wanted to find her way back. The wishes of the person making the journey deserve to be heard.", "A quiet moment need not mean someone has nothing to say. Sometimes it gives them room to decide how to begin." },
+            befriended = { { "You have become someone whose company I am glad to welcome before knowing what news you bring. Come along, friend. We can share the way without hurrying the story.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. You may begin with the part you are ready to tell.", "I hear you. If you only wanted to know whether I was glad to see you, the answer is yes." },
+            hugged = { { "Thank you. Sometimes a little shared comfort says the first thing better than another carefully prepared question.", tone = "[soft] [grateful]" } },
+            quest = { "Hear what the person asks for, and let their own wishes matter in how you offer help." },
+            group = { "Welcome the one who has just arrived. There will be time to ask for the account after they know they have a place among us." },
+            rest = { "A pause. We can enjoy being here together without making the quiet explain itself." },
+            zone = { "New surroundings. Tell me if you would like to stop and look before we decide the next part must be hurried." },
+            combatEnd = { "It is over. Look to the others. The next question may matter less than letting someone know they are safe with us for this moment." },
+            thanked = { "You are welcome. I am glad the help mattered. You need not find an impressive way to say so." },
+        },
+    },
+
     -- Dink <Mage Trainer>, Hall of Mysteries, Ironforge. Adult Gnome
     -- male6072/M2 900914, Alliance Friendly. Full robe/Magecraft chains,
     -- 161current lessons/four pages and three installed dialogues read.

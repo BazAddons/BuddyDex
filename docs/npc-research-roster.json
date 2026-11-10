@@ -3318,5 +3318,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Gnome / Forsaken men, explicit faction Friendly; full mage referral/camping chains,161current Dink lessons,146/nine Classic lessons and installed dialogue read; no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-invitations-and-brill-directions.md"
+  },
+  {
+    "npc_id": 12866,
+    "name": "Myriam Moonsinger",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full current/Classic/published/installed6626and4904text, all tabs and Myriam exact scouting dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/razorfen-evidence-and-freewind-welcomes.md"
+  },
+  {
+    "npc_id": 10645,
+    "name": "Thalia Amberhide",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full current/Classic/published/installed6626and4904text, all tabs and Myriam exact scouting dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/razorfen-evidence-and-freewind-welcomes.md"
   }
 ]

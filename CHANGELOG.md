@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Myriam Moonsinger and Thalia Amberhide: two complete adult profiles with thirty personal lines queued.
+- Expand Razorfen scouting and Freewind friendship stories using full quest text and current faction evidence.
+
 - Add Dink and Vance Undergloom: two complete adult profiles with thirty personal lines queued.
 - Expand Gnome mage and Forsaken enchanting contacts using full quest-chain, lesson and dialogue research.
 
