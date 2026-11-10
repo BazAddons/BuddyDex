@@ -2114,6 +2114,20 @@
       "zone": "Durotar",
       "route": "Shared Orc/Troll early Senjin butcher contact",
       "reason": "Full adult male Orc/Troll profile and fifteen queued lines; sparse canon distinguished from original friendship, current services not invented, ordinary emote/live eligibility retained, no synthesis"
+    },
+    {
+      "npc_id": 3658,
+      "name": "Lizzarik",
+      "zone": "The Barrens",
+      "route": "Goblin male roadside trade contact, later travel coverage",
+      "reason": "Full adult profile and fifteen queued lines; Neutral remains unverified for Friendly totals and live-gated, later/private-server stories excluded, guards not auto-unlocked, no synthesis"
+    },
+    {
+      "npc_id": 3537,
+      "name": "Zixil",
+      "zone": "Hillsbrad Foothills",
+      "route": "Goblin male roadside trade contact, later travel coverage",
+      "reason": "Full adult profile and fifteen queued lines; Neutral remains unverified for Friendly totals and live-gated, later/private-server stories excluded, guards not auto-unlocked, no synthesis"
     }
   ]
 }

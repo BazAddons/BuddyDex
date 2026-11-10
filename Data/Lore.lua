@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lizzarik <Weapon Dealer>, Barrens road Ratchet-Crossroads. Adult
+    -- Goblin male7057/M2 119376, current Horde Neutral, Repair/Vendor11goods.
+    -- Jorb3659 explicitly his bodyguard. No own current/Classic quest found.
+    -- Quiet roadside inspection is original; BFA/other-server quests excluded.
+    -- Research: docs/research/two-goblin-roadside-merchants.md
+    [3658] = {
+        quote = "A shop can travel. A good place to pause is worth remembering too.",
+        likes = { "A well-tended weapon", "A greeting from a familiar traveler", "A quiet stretch of roadside" },
+        dislikes = { "A loose load on a long road", "Being hurried through a sensible pause", "Every pleasant moment priced aloud" },
+        gossip = "Lizzarik can find a reason to stop and check his goods. Some stretches of road seem to require a more thoughtful inspection.",
+        bio = "Lizzarik deals weapons along the road between Ratchet and the Crossroads, accompanied by his ogre bodyguard Jorb. Traveling brings customers and dust, but also chances to notice a familiar journey in a different light.",
+        backstory = "An ordinary stop to check a load once gave him a quiet minute beside the road. He noticed how different the journey seemed when nothing needed selling. Since then, a useful inspection has occasionally lasted a little longer than necessary.",
+        secret = "There is a patch of roadside where he likes hearing the wind in the grass. He need not count anything while he is there. He sometimes counts anyway, to keep up appearances.",
+        bestFriend = "We can stop here a moment. If anyone asks, I am checking the load. You need not ask what the inspection is worth.",
+        favorite = {
+            emote = "WAVE",
+            hint = "He enjoys a greeting that recognizes a familiar face along the road.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Good to see you. Shall we find out what the road has to offer besides customers?", tone = "[brisk] [friendly]" }, "Ready when you are. A sensible pause along the way is included." },
+            idle = { { "I am inspecting the load. The load happens to be beside a very pleasant patch of grass.", tone = "[wry] [content]" }, "A road looks different when you are not deciding where to make the next sale.", "Some things are worth stopping for without needing to be worth anything else." },
+            befriended = { { "You have become someone I can walk with without turning every quiet moment into an offer. I rather like that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was listening to something that did not need buying.", "If you are asking whether we should move on, give the inspection another moment." },
+            gear = { { "Check the fastening before the road has a chance to loosen it further.", tone = "[practical]" } },
+            loot = { "Useful, if you can get it home without damaging everything beside it." },
+            bagsFull = { "Redistribute the load. A stronger sales pitch will not make it lighter." },
+            zone = { "New ground. We may find a good place for a pause as well as a customer." },
+            rest = { "There now. We need not make this part complicated." },
+            group = { "Company for the road. Let us keep everyone in sight." },
+            hearth = { "Homeward. A traveling shop still appreciates knowing where the journey ends." },
+        },
+    },
+
+    -- Zixil <Merchant Supreme>, Hillsbrad road. Adult Goblin male7133/M2
+    -- 119376, current Horde Neutral, Repair/Vendor4goods. Installed blunt
+    -- greeting and public Classic-style vendor speeches; Overwatch I guard.
+    -- Private Adequate scrap is original; no TBC/retail/SoD history imported.
+    -- Research: docs/research/two-goblin-roadside-merchants.md
+    [3537] = {
+        quote = "Supreme is not an empty word. I have filled it with considerable effort.",
+        likes = { "A customer recognizing quality", "His name remembered without prompting", "An audience willing to hear the offer" },
+        dislikes = { "A sales pitch interrupted halfway", "A title dismissed before its owner speaks", "Being asked whether the rival town pays more" },
+        gossip = "Zixil puts considerable weight behind Merchant Supreme. Using only his name takes a little practice, even when he is speaking about himself.",
+        bio = "Zixil, Merchant Supreme, trades along the Hillsbrad road between Southshore and Tarren Mill. Overwatch Mark I guards his travels. He urges each town to buy before he takes his business elsewhere, giving an ordinary sale the air of a missed opportunity.",
+        backstory = "Finding the right description of himself took almost as much attention as finding goods to sell. Each phrase outdid the previous one. Once he reached Supreme, he decided the words had done their part and he should do his.",
+        secret = "He once lettered Merchant Adequate on a scrap as a private joke. He kept it. Some days its modest demands are strangely reassuring, although it stays out of sight.",
+        bestFriend = "Zixil will do. You know the rest already. I should like to hear you say it without sounding as though you want a discount.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates a greeting with enough ceremony to acknowledge his importance.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "Merchant Supreme, at your service. Zixil, if we are keeping this pleasantly informal.", tone = "[brisk] [grandly amused]" }, "Good. An outing. I shall try not to announce it as an exclusive opportunity." },
+            idle = { { "Merchant Adequate. No, I am not changing the title. It was an experiment of a very private nature.", tone = "[dry] [self-conscious]" }, "A good offer deserves attention. So does the person making it, occasionally.", "Supreme is a demanding word. There are mornings when I notice." },
+            befriended = { { "You remembered my name before asking about the goods. I have decided that entitles you to a little of my time without a pitch.", tone = "[warm] [reserved]" } },
+            poke = { "Yes? This is the part where I attend to your request with supreme interest.", "I was considering an announcement. I am prepared to hear an objection before making it." },
+            loot = { { "An interesting find. Let us establish what it is before announcing how fortunate everyone should feel.", tone = "[brisk] [practical]" } },
+            bagsFull = { "You are approaching the limits of your carrying arrangements. I recommend admitting it." },
+            mail = { "A useful inquiry, or someone attempting to sound more important than the subject? I recognize the temptation." },
+            zone = { "New surroundings. I shall allow them a moment before making my introduction." },
+            group = { "An audience. Excellent. No, wait. Company. I am practicing the distinction." },
+            rest = { "A pause is acceptable. Supreme does not require constant motion." },
+            thanked = { "You are welcome. A simple acknowledgment can be surprisingly satisfactory." },
+        },
+    },
+
     -- Goma, Valley of Strength, Orgrimmar. Adult Orc male3604/M2 917116,
     -- Horde Friendly, no verified service/own quest/gossip. Later siege and
     -- war-campaign events excluded; no invented guildmaster or combat rank.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lizzarik and Zixil: two complete adult Goblin roadside-merchant profiles, with thirty personal lines queued.
+- Preserve Neutral live eligibility, original road-and-guard context, and distinct friendship stories without importing later expansion or other-server quests.
+
 - Add Goma and Hai'zan: complete adult Orc and Troll profiles for a named Orgrimmar resident and the Sen'jin butcher, with thirty personal lines queued.
 - Expand ordinary emote-based encounters alongside trade contacts, keeping later expansion stories and unsupported services out of the profiles.
 

@@ -2443,5 +2443,19 @@
     "zone": "Durotar",
     "source": "Reviewed unique adult Horde Friendly identity/model, complete sparse quest/service tabs, Classic role/location and later-version exclusions; no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-welcome-and-senjin-provisions.md"
+  },
+  {
+    "npc_id": 3658,
+    "name": "Lizzarik",
+    "zone": "The Barrens",
+    "source": "Reviewed unique adult Goblin model, current Neutral reaction/complete stock tabs, original road/guard context and actual or unavailable dialogue evidence; no Scout sighting claimed",
+    "research_notes": "docs/research/two-goblin-roadside-merchants.md"
+  },
+  {
+    "npc_id": 3537,
+    "name": "Zixil",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed unique adult Goblin model, current Neutral reaction/complete stock tabs, original road/guard context and actual or unavailable dialogue evidence; no Scout sighting claimed",
+    "research_notes": "docs/research/two-goblin-roadside-merchants.md"
   }
 ]
