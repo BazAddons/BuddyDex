@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 290,
-    "unverified": 153,
+    "alliance": 291,
+    "unverified": 155,
     "horde": 266
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 55,
+    "3": 56,
     "7": 48,
     "2": 77,
     "5": 72,
-    "4": 54,
+    "4": 55,
     "8": 54,
-    "9": 42,
+    "9": 43,
     "6": 81,
     "96": 16,
     "95": 22
@@ -27,7 +27,7 @@
     "Stormwind City": 115,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
-    "Dun Morogh": 18,
+    "Dun Morogh": 19,
     "Ironforge": 53,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 43,
@@ -44,11 +44,11 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 49,
-    "The Barrens": 32,
+    "The Barrens": 33,
     "Stonetalon Mountains": 10,
     "Darnassus": 9,
     "Burning Steppes": 1,
-    "Ashenvale": 10,
+    "Ashenvale": 11,
     "Thousand Needles": 7,
     "Dustwallow Marsh": 1,
     "Tanaris": 7,
@@ -1824,6 +1824,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1680"
+    },
+    {
+      "npc_id": 1701,
+      "name": "Dank Drizzlecut",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1701"
     },
     {
       "npc_id": 1703,
@@ -4709,6 +4722,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3995"
+    },
+    {
+      "npc_id": 3996,
+      "name": "Faldreas Goeth'Shael",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Explicit Alliance Neutral; Friendly access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3996"
     },
     {
       "npc_id": 4046,
@@ -8624,6 +8648,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/264074"
     },
     {
+      "npc_id": 265574,
+      "name": "Winklespark",
+      "zone": "The Barrens",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Explicit Horde Neutral; Friendly access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265574"
+    },
+    {
       "npc_id": 266881,
       "name": "Pa'zula",
       "zone": "Durotar",
@@ -8822,6 +8857,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 688,
-  "awaiting_signature_audio_profiles": 234
+  "authored_profiles": 691,
+  "awaiting_signature_audio_profiles": 237
 }

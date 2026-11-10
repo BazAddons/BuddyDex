@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Faldreas Goeth'Shael, Astranaar, Ashenvale. Adult Night Elf male
+    -- 4172/M2 974343, Alliance Neutral. Full1056/1057/1059chain read.
+    -- Brief directions becoming longer is original; no Edune/Cata
+    -- story, class title, completed regrowth or eligibility override.
+    -- Research: docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md
+    [3996] = {
+        quote = "I can give the short version. Explaining what it leaves out takes a little longer.",
+        likes = { "A traveler listening past the first turn", "A useful landmark clearly described", "A question asked before the road divides" },
+        dislikes = { "Calling a perilous journey a mere stroll", "Instructions shortened beyond usefulness", "A confident answer to the wrong question" },
+        gossip = "Faldreas has considered a shorter explanation of the journey. So far, explaining the missing details has made it considerably longer.",
+        bio = "Faldreas Goeth'Shael lives in Astranaar. He listens to the forest spirits and directs willing travelers through Talondeep Path toward Keeper Albagorm on Stonetalon Peak, warning them that the journey is perilous.",
+        backstory = "He tried reducing the directions to a few important words. A listener's questions required him to explain every omitted landmark. He decided a clear account was kinder than a brief one, though he still occasionally attempts the experiment.",
+        secret = "He rather enjoys describing the climb. Asked for the short version, he has to resist beginning with why the longer one is much more helpful.",
+        bestFriend = "Come along. You need not pretend to understand before I have finished. I enjoy a companion who asks where the next turn actually leads.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a listener showing that the details have arrived safely before the journey begins.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are. Shall we go? I can explain the way as we walk. Stop me at the point where a useful detail becomes a question you would rather ask.", tone = "[calm] [welcoming]" }, "Ready. If you would like the short version, I should warn you that explaining what I omitted may take us a while." },
+            idle = { { "I tried giving the directions in only a few important words. Explaining those words took longer than describing the landmarks. Brevity has proved a surprisingly lengthy experiment.", tone = "[thoughtful] [wry]" }, "Talondeep Path leads through to Windshear Crag. Remember where you emerge as well as the destination you hope to reach.", "Being willing to travel does not make the journey harmless. A warning belongs with the directions, not in an apology afterward." },
+            befriended = { { "You have become someone I am glad to see before there is a journey to explain. Come along, friend. We can enjoy the company between the landmarks too.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Ask before the next turn. A question here is considerably easier to answer than confusion halfway up the wrong slope.", "I hear you. If the explanation needs a pause, say so. I would rather know where I lost you." },
+            zone = { { "Look at the landmarks before setting off toward the name on the map. Knowing which way a place lies is only the beginning of finding the road.", tone = "[patient] [instructive]" } },
+            quest = { "Hear the request through. Keeper Albagorm has work of his own, and my directions are meant to bring you to the person who can explain it." },
+            rest = { "A pause is sensible. The journey does not become more perilous merely because we acknowledge that it takes effort." },
+            group = { "Make sure everyone heard the turn before the first person hurries ahead. Confidence at the front is little help to someone left guessing behind." },
+            taxi = { "A different way to travel. Notice what lies below, but do not mistake the view from above for instructions on finding the path." },
+            landed = { "Here we are. Find your bearings before deciding which way to walk. The destination and the road are separate questions." },
+            thanked = { "You are welcome. If the directions helped, I am pleased. You need not praise the number of words they required." },
+        },
+    },
+
+    -- Dank Drizzlecut, Gol'Bolar Quarry, Dun Morogh. Adult Dwarf male
+    -- 3424/M2 878772, Alliance Friendly. All16current training rows,
+    -- Classic lessons and Lodestone metadata read. Snow appraisal is
+    -- original humor, not an actual ore, recipe or mining mechanic.
+    -- Research: docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md
+    [1701] = {
+        quote = "Snow is plentiful, easy to gather, and gives a miserable yield in the furnace. I cannot recommend it as ore.",
+        likes = { "A learner asking what a sample really is", "Sound footing before an eager swing", "A bad mineral joke properly recognized" },
+        dislikes = { "Glitter accepted as proof of good ore", "A hurried swing near someone else's hands", "Snow hiding the edge underfoot" },
+        gossip = "Dank has assessed the local snow as a possible ore. His report is thorough, unfavorable and delivered with suspicious satisfaction.",
+        bio = "Dank Drizzlecut teaches mining at Gol'Bolar Quarry in Dun Morogh. His lessons include mining, smelting and the Lodestone craft. He likes an eager learner to look closely before deciding what a promising sample might be.",
+        backstory = "Snow melting near a warm work area prompted him to describe its disappointing smelting yield. Someone laughed. He expanded the observation into a solemn appraisal, complete with praise for the supply and regret over the complete absence of metal.",
+        secret = "He enjoys the groan almost as much as the laugh. A listener recognizing the appraisal before he has finished means the joke has become familiar company.",
+        bestFriend = "Come along, friend. I shall spare you the snow appraisal unless you ask. I am pleased you came back even knowing what the report contains.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone recognizing the very serious delivery of an entirely unserious mineral appraisal.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you! Shall we go? The snow remains plentiful and the smelting yield remains disappointing. I have other observations if you would prefer one.", tone = "[hearty] [dryly amused]" }, "Ready. Look at the ground before swinging the pick. Enthusiasm does not make an uncertain edge any firmer." },
+            idle = { { "Snow. Easy to gather, plentiful supply, absolutely miserable metal yield. A sound appraisal should mention every advantage before concluding that the material is entirely unsuitable.", tone = "[deadpan] [pleased]" }, "A promising glint is a reason to look more closely. It is not the end of deciding what you have found.", "Give a learner time to ask about the sample. A question can save considerably more effort than a confident swing." },
+            befriended = { { "You have become a friend I am glad to see even when you have brought no sample to examine. Come along. I enjoy your company beyond the lesson.", tone = "[warm] [sincere]" } },
+            laughAlong = { { "A fair response to the appraisal. I am pleased the serious delivery has not persuaded you to bring a sack of snow for smelting.", tone = "[wry] [amused]" } },
+            poke = { "Aye? If it concerns the snow, my conclusions remain unchanged. If it concerns anything else, I am listening.", "You have my attention. Ask the question before attempting to prove you already know the answer." },
+            learned = { "Well done. Understanding what you have learned is better than merely remembering what the lesson was called." },
+            loot = { "Examine it. A useful sample deserves a careful look before it disappears beneath everything else you collected." },
+            rest = { "A pause. There is no need to keep swinging just to demonstrate that you have not forgotten how." },
+            quest = { "Hear what is wanted before gathering a bagful. A thorough search for the wrong material is still the wrong errand." },
+            levelUp = { "A fine advance! Be proud, and leave room for the next question. Knowing more gives you better ones to ask." },
+            thanked = { "You are welcome. I enjoyed explaining it. That part is quite sincere, whatever conclusions you reached about the snow." },
+        },
+    },
+
+    -- Winklespark, Ratchet Quartermaster, Barrens. Adult Goblin male
+    -- 144562/M2 119376, Horde Neutral. All six current goods and item
+    -- nodes read; no own quest, lesson or installed gossip. Maintaining
+    -- a respectable rumple is original, not a new sale or gear effect.
+    -- Research: docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md
+    [265574] = {
+        quote = "It's a Rumpled Kilt. If you smooth every crease away, we'll have a disagreement with the label.",
+        likes = { "Merchandise matching its description", "A customer who notices the small joke", "An orderly pile with honest labels" },
+        dislikes = { "A description promising the wrong thing", "Someone unfolding the whole display", "A good crease improved beyond recognition" },
+        gossip = "Winklespark can fold a kilt carefully while insisting it remain rumpled. He calls this consistency with the description.",
+        bio = "Winklespark is Ratchet's quartermaster. His goods include the Barrens Basher, Ratchet Wristwraps, Quilted Cloak and Rumpled Kilt. He takes an unexpectedly precise interest in how a properly described display ought to look.",
+        backstory = "He once folded a Rumpled Kilt so neatly that it stopped looking like its name. Rather than change the label, he loosened the folds. Since then, he has maintained that an orderly display and a respectable rumple are perfectly compatible.",
+        secret = "He likes the moment a customer notices the distinction and smiles. It turns a bit of stock into a shared joke without requiring him to promise a single extra feature.",
+        bestFriend = "Come along. You know which part of the display is a joke, and I trust you with the rest. That's a pleasant sort of company.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates a customer noticing why an orderly quartermaster might deliberately preserve a few creases.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Shall we go? The display is in order, including the rumples. You may admire the consistency without unfolding the entire pile.", tone = "[brisk] [playful]" }, "Ready. You know what you are looking at before asking what it does. I appreciate that in a traveling companion." },
+            idle = { { "I folded a Rumpled Kilt so neatly that it stopped matching the label. Had to loosen the folds. An orderly display and a respectable rumple are entirely compatible.", tone = "[matter-of-fact] [amused]" }, "A description ought to tell you what you are getting. A very impressive description of the wrong thing is still the wrong description.", "One kilt opened for inspection is reasonable. Every kilt opened to compare the rumples becomes a rather different afternoon." },
+            befriended = { { "You have become someone I enjoy seeing after the merchandise has been discussed. Come along, friend. We can share a joke without adding it to the description.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need before rearranging the display to explain it. I can listen with the folds where they are.", "I hear you. If it concerns a crease, I may already have considered it. Go on." },
+            laughAlong = { { "You noticed! Good. The distinction is much more enjoyable when someone else can see why I am pleased with it.", tone = "[quick] [delighted]" } },
+            gear = { "Read the description, try the fit, and make your decision. A name can tell you something without telling you everything you need to know." },
+            loot = { "Have a proper look before announcing what it must be. An honest description begins with the thing in front of you." },
+            bagsFull = { "Make some room. A carefully packed bag can still hold the wrong pile of things for the next trip." },
+            mail = { "Check what arrived before deciding the description was wrong. You may have opened the other parcel first." },
+            rest = { "A pause. We can enjoy the company without making an offer or describing a new feature." },
+            thanked = { "You are welcome. I am pleased it suited you. There is no need to improve the description merely to make the thanks sound grander." },
+        },
+    },
+
     -- Drusilla La Salle, Northshire, Elwynn Forest. Adult Human female
     -- 3345/M2 1000764, Alliance Friendly. Full3105/1598and prior783/7
     -- read, including9576letter. Wants stolen Abbey text, not her own

@@ -3052,6 +3052,27 @@
       "zone": "Tirisfal Glades",
       "route": "Brill priest trainer",
       "reason": "Complete adult early-zone profile with fifteen personal lines queued; Brill healing/fortitude test and original inside-out robe anecdote; no synthesis"
+    },
+    {
+      "npc_id": 3996,
+      "name": "Faldreas Goeth'Shael",
+      "zone": "Ashenvale",
+      "route": "Astranaar Stonetalon referral",
+      "reason": "Complete adult profile with fifteen personal lines queued; Full three-stage Stonetalon chain and original route-brevity writing; Alliance Neutral access remains subject to live checks; no synthesis"
+    },
+    {
+      "npc_id": 1701,
+      "name": "Dank Drizzlecut",
+      "zone": "Dun Morogh",
+      "route": "Golbolar Quarry mining",
+      "reason": "Complete adult profile with fifteen personal lines queued; Full current mining lessons and original mock snow appraisal; Alliance Friendly quarry contact; no synthesis"
+    },
+    {
+      "npc_id": 265574,
+      "name": "Winklespark",
+      "zone": "The Barrens",
+      "route": "Ratchet quartermaster",
+      "reason": "Complete adult profile with fifteen personal lines queued; Full six-good stock/item review and original label-consistent rumples; Horde Neutral access remains subject to live checks; no synthesis"
     }
   ]
 }

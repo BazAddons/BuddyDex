@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Faldreas Goeth'Shael, Dank Drizzlecut and Winklespark: three complete adult profiles with forty-five personal lines queued.
+- Research the full Stonetalon referral chain, current mining lessons and six quartermaster goods; retain neutral-unit eligibility checks.
+
 - Add Drusilla La Salle and Dark Cleric Beryl: two full early-zone class-trainer profiles with thirty personal lines queued.
 - Research the stolen Abbey text, Tainted Letter and Beryl's healing/fortitude test; preserve book ownership and ordinary friendship eligibility.
 
@@ -330,4 +333,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **688 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **691 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
