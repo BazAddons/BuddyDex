@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brock Stoneseeker and Arnok: adult Dwarf and Orc profiles with thirty personal lines queued.
+- Review the full honorary-pick and Horde Trauma chains; document original clean-shirt and imagined-introduction stories.
+
 - Add Jannok Breezesong and Kaal Soulreaper: adult Night Elf and Orc profiles with thirty personal lines queued.
 - Review rogue and warlock referrals plus own gossip; preserve unrequited-romance and class-role boundaries in original character scenes.
 

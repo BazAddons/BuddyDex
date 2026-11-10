@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 338,
+    "alliance": 339,
     "unverified": 166,
-    "horde": 324
+    "horde": 325
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 68,
+    "3": 69,
     "7": 58,
-    "2": 85,
+    "2": 86,
     "5": 85,
     "4": 67,
     "8": 60,
@@ -26,7 +26,7 @@
     "Westfall": 17,
     "Stormwind City": 121,
     "Redridge Mountains": 24,
-    "Loch Modan": 2,
+    "Loch Modan": 3,
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 5,
@@ -38,7 +38,7 @@
     "Teldrassil": 27,
     "Hillsbrad Foothills": 10,
     "Arathi Highlands": 11,
-    "Orgrimmar": 53,
+    "Orgrimmar": 54,
     "Badlands": 1,
     "Darkshore": 11,
     "Mulgore": 23,
@@ -1865,6 +1865,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1680"
+    },
+    {
+      "npc_id": 1681,
+      "name": "Brock Stoneseeker",
+      "zone": "Loch Modan",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1681"
     },
     {
       "npc_id": 1701,
@@ -3966,6 +3979,19 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3370"
+    },
+    {
+      "npc_id": 3373,
+      "name": "Arnok",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3373"
     },
     {
       "npc_id": 3388,
@@ -10153,6 +10179,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 791,
-  "awaiting_signature_audio_profiles": 337
+  "authored_profiles": 793,
+  "awaiting_signature_audio_profiles": 339
 }

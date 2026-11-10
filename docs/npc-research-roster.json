@@ -4102,5 +4102,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde man; Full four referrals and will/retraining gossip; original misheard approval; no Scout sighting claimed",
     "research_notes": "docs/research/jannoks-entrance-and-kaals-approval.md"
+  },
+  {
+    "npc_id": 1681,
+    "name": "Brock Stoneseeker",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance man; Full honorary-pick chain and own dust gossip; original clean shirt; no Scout sighting claimed",
+    "research_notes": "docs/research/brocks-clean-shirt-and-arnoks-questions.md"
+  },
+  {
+    "npc_id": 3373,
+    "name": "Arnok",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Full6623/6622 and own teaching gossip; original imagined introduction; no Scout sighting claimed",
+    "research_notes": "docs/research/brocks-clean-shirt-and-arnoks-questions.md"
   }
 ]

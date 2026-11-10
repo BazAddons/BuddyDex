@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brock Stoneseeker <Mining Trainer>, Thelsamar/Loch Modan.
+    -- Adult Dwarf male1822/M2 878772, Alliance Friendly. Full6387/
+    -- 6391/6388/6392 and dust gossip; clean-shirt scene is original.
+    -- Research: docs/research/brocks-clean-shirt-and-arnoks-questions.md
+    [1681] = {
+        quote = "The shirt was clean when I put it on. Then someone brought an interesting sample. I trust you understand my priorities.",
+        likes = { "A student proud of careful work", "An interesting sample worth a closer look", "Recognition that names who earned it" },
+        dislikes = { "A clean appearance mistaken for skill", "An earned honor treated carelessly", "Being hurried past an interesting deposit" },
+        gossip = "Brock keeps a clean shirt for important occasions. It stays clean until someone brings a sample he cannot resist examining.",
+        bio = "Brock Stoneseeker teaches mining in Thelsamar. He arranges honorary picks for students who do well, with Golnir Bouldertoe engraving their names in Ironforge. A little black dust is rarely far from his idea of a worthwhile day.",
+        backstory = "He put on a clean shirt before congratulating a student, then leaned over an interesting sample without thinking. The first dust arrived before the first formal word. Brock found the conversation had improved considerably.",
+        secret = "He prefers the dusty conversation to the clean ceremony. A student eager to show what they found is the recognition he most enjoys receiving.",
+        bestFriend = "Come along, friend. Tell me what caught your eye. If the shirt acquires another mark, we may consider that part of a useful visit.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates an earned result receiving a little proper recognition.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what you have found since we last spoke, and I shall decide afterward whether the shirt needed to remain respectable for the occasion.", tone = "[hearty] [cheerfully practical]" }, "Good to see you. Have you brought a story about the work, or something interesting enough that we ought to have a proper look before talking?" },
+            idle = { { "A clean shirt, ready for an important occasion. Then somebody brought a sample. The dust arrived before the formal words, and the afternoon was better for it.", tone = "[fond] [amused]" }, "An earned pick ought to bear the right name. The person who did the work deserves more recognition than being somewhere in a list of promising results.", "You may admire the clean cuff while it lasts. I make no promises about its condition once the conversation becomes interesting." },
+            befriended = { { "You have become somebody whose discoveries I look forward to hearing about, respectable shirt or otherwise. Come along, friend. Let us see what has caught your attention.", tone = "[gruff warmth] [sincere]" } },
+            poke = { "Yes? If it is an interesting sample, you may put it where I can have a look.", "Go on. I can leave the formal greeting long enough to hear the useful part." },
+            loot = { { "There it is. Give it a proper look before deciding you have seen everything worth noticing.", tone = "[interested] [approving]" } },
+            learned = { "Good. Practice it carefully enough that you can explain what you are doing as well as show the result." },
+            gear = { "Does it serve the work? A fine appearance is pleasant, but I would rather know it is comfortable in the hand." },
+            rest = { "A pause. We can let the dust settle and hear the part of the story that did not require another hurried step." },
+            newFriend = { "Someone new. Let us hear what they have been working on before deciding which part deserves a closer look." },
+            thanked = { "You are welcome. It is good to see a useful lesson put to work." },
+            group = { "Room for everyone. Give each person credit for their part instead of letting the loudest account claim the whole result." },
+        },
+    },
+
+    -- Arnok <First Aid Trainer>, Orgrimmar. Adult Orc male1395/
+    -- M2 917116, Horde Friendly. Full6623/6622 and own teaching gossip.
+    -- Imagined question-filled introduction to Victor is original.
+    -- Research: docs/research/brocks-clean-shirt-and-arnoks-questions.md
+    [3373] = {
+        quote = "If I could study with Doctor Gregory Victor, I would try to keep the introduction brief. The questions might take rather longer.",
+        likes = { "A willing learner asking carefully", "A chance to study with a respected teacher", "A student making good use of opportunity" },
+        dislikes = { "An opportunity to learn squandered", "Confidence that leaves no room for questions", "Another person shamed for needing instruction" },
+        gossip = "Arnok imagined a brief introduction to Doctor Gregory Victor. He reached several questions before remembering to finish the greeting.",
+        bio = "Arnok teaches first aid in Orgrimmar. He welcomes those who come to learn and speaks with great admiration of Doctor Gregory Victor. Sending a promising student to Hammerfall is an opportunity he urges them to value.",
+        backstory = "He imagined what he would say if given the chance to study with Doctor Gregory Victor. A polite introduction quickly became several questions. Arnok found he was more eager to learn than to sound distinguished.",
+        secret = "Seeing another learner given a chance delights him almost as much as imagining it for himself. He hopes they understand how much there is to ask, and how worthwhile it is to listen.",
+        bestFriend = "Come along, friend. Tell me what you learned. I enjoy company in which a question need not feel like failure.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He values someone recognizing the work of a teacher and the effort that went into learning.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what you have been learning, and I shall try to hear the whole account before beginning with the questions it suggests.", tone = "[warm] [eager curiosity]" }, "Good to see you. There need be no examination today. A conversation with somebody willing to learn is quite enough reason to be pleased." },
+            idle = { { "I imagined a brief introduction to Doctor Gregory Victor. Then I thought of a question. Then another. A distinguished greeting became less important than the chance to hear his answers.", tone = "[admiring] [quietly amused]" }, "There is no disgrace in finding you have more to learn. I would be far more concerned by somebody who had stopped expecting another useful question.", "When a student is given a chance I would gladly take myself, I want them to understand the value of it. Enthusiasm is difficult to keep entirely out of the explanation." },
+            befriended = { { "You have become company in which I can enjoy a question without needing to turn it into a test of either of us. Come along, friend. I am pleased to learn what you have to tell me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You may ask plainly. I would rather hear the question than watch you worry about whether it should be asked.", "Go on. Let us hear what you are trying to understand." },
+            learned = { { "Good. Give yourself time to understand it, and remember the person who took the care to teach you.", tone = "[steady] [encouraging]" } },
+            combatEnd = { "Take a moment to attend to the company. A struggle ending does not mean everyone is ready to be hurried onward." },
+            loot = { "Something useful. Consider where it is needed before deciding that possession is the whole accomplishment." },
+            rest = { "A little rest. We may enjoy a quiet conversation without proving how much we can accomplish before the next departure." },
+            newFriend = { "Someone new. Make the introduction kindly. There may be much they can teach us once they feel welcome enough to speak." },
+            thanked = { "You are welcome. I am pleased you found the lesson useful." },
+            group = { "Give each person room to speak. A question from someone less experienced may be the thing the rest of us have stopped noticing." },
+        },
+    },
+
     -- Jannok Breezesong <Rogue Trainer>, Dolanaar/Teldrassil. Adult
     -- Night Elf male1704/M2 974343, Alliance Friendly. Full2241/2242/
     -- 2259/2260 and own gossip. Hummed entrance incident is original.

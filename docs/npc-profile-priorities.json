@@ -3773,6 +3773,20 @@
       "zone": "Undercity",
       "route": "Undercity warlock trainer",
       "reason": "Full four referrals and will/retraining gossip; original misheard approval; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1681,
+      "name": "Brock Stoneseeker",
+      "zone": "Loch Modan",
+      "route": "Thelsamar mining trainer",
+      "reason": "Full honorary-pick chain and own dust gossip; original clean shirt; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3373,
+      "name": "Arnok",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar first aid trainer",
+      "reason": "Full6623/6622 and own teaching gossip; original imagined introduction; fifteen personal lines queued without synthesis"
     }
   ]
 }
