@@ -41,6 +41,124 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Chaw Stronghide <Journeyman Leatherworker>, Bloodhoof Village,
+    -- Mulgore. Adult male Tauren3069/display3796, Horde Friendly. Installed
+    -- gossip: use the whole hunt, mutual strength, belonging to the land.
+    -- Forever97934 teaches Camp Tent; crooked first belt is original.
+    -- docs/research/mulgore-razor-hill-and-moonglade.md.
+    [3069] = {
+        recordingVoice = "tauren-male",
+        quote = "Show me what you made. If the stitches wander, we can begin there. They need not be hidden from me.",
+        likes = { "Leather put to lasting use", "An apprentice showing honest work", "Shelter shared with a companion" },
+        dislikes = { "Discarding a useful scrap", "Pretending care is wasted effort", "Laughing at a learner's first attempt" },
+        gossip = "Chaw keeps an old belt with wandering stitches. Visitors assume it was a pupil's. He never quite says that it was.",
+        bio = "Chaw Stronghide teaches leatherworking in Bloodhoof Village. He values every useful part of a hunt and the strength people lend one another. His camping lesson helps leatherworkers turn their skill toward shelter in the wilderness.",
+        backstory = "Chaw kept an early belt after his hands grew surer. Its uneven stitches reminded him of the effort behind a beginner's work. He started setting it within reach when a hesitant pupil arrived with something to show.",
+        secret = "The belt was his own first attempt. He lets learners inspect it before he tells them. A crooked seam seems less shameful once the teacher has admitted to making one himself.",
+        bestFriend = "Bring your work, or simply bring yourself. Neither needs to be finished or impressive for me to be glad you came.",
+        favorite = { emote = "THANK", hint = "He likes to know that patient help and carefully used materials are appreciated." },
+        lines = {
+            greet = { { "Come. We can walk without finding fault with every stitch along the way.", tone = "[deep] [gentle]" }, "Good to see you. What have your hands been learning?" },
+            idle = { { "That belt is mine. The wandering stitches are also mine. I see no need to separate the credit.", tone = "[deep] [warmly amused]" }, "A useful scrap deserves a little thought before it is thrown aside.", "We belong to the land. Care for it is part of caring for ourselves." },
+            befriended = { { "I would be glad to come with you. There is strength in making room for one another.", tone = "[deep] [sincere]" } },
+            poke = { "You may show me the mistake. I have made enough to recognize the effort around it.", "Yes? No, I am not replacing the old belt. It still teaches something." },
+            learned = { { "Keep the first attempt long enough to see how far the next one takes you.", tone = "[deep] [encouraging]" } },
+            gear = { "Good leather should serve the one wearing it, not merely impress the one looking." },
+            loot = { "Consider what can be used. A small piece may spare the need for a larger one." },
+            bagsFull = { "Saving everything is not the same as finding a use for it. Let us look carefully." },
+            rest = { "A campfire first, then a place to settle. Shelter is a skill worth learning." },
+            combatEnd = { "Take a moment. Strong alone does not mean we must tend to everything alone." },
+            quest = { "Someone's skill has made another person's road easier. That is work worth doing." },
+        },
+    },
+    -- Moorat Longstride <General Goods>, Bloodhoof Village, Mulgore.
+    -- Adult male Tauren3076/display3800, Horde Friendly; current12stock rows.
+    -- No own quest/gossip found. No fan-created marriage/shop inheritance.
+    -- Picnic indecision original. docs/research/mulgore-razor-hill-and-moonglade.md.
+    [3076] = {
+        recordingVoice = "tauren-male",
+        quote = "I can help you choose a bag in a moment. Choosing where to stop for lunch may take me considerably longer.",
+        likes = { "Travelers who remember the basics", "A pleasant place to unpack a meal", "Someone else choosing the picnic spot" },
+        dislikes = { "Packing water as an afterthought", "A sharp stone beneath his seat", "Discovering a better spot after settling" },
+        gossip = "Moorat can select supplies for a long journey without hesitation. Asked where he wants to sit, he suddenly needs to examine the options.",
+        bio = "Moorat Longstride sells general goods in Bloodhoof Village. Bags, water, ammunition and simple camp supplies help travelers prepare for Mulgore's roads. He enjoys hearing where a modest purchase is meant to take someone.",
+        backstory = "Moorat once spent his whole meal break comparing places to sit. By the time he chose, it was time to return. Since then, he has asked companions to choose the spot while he makes sure the useful things are packed.",
+        secret = "He still notices a better place after sitting down. He has learned to keep the observation to himself. A meal already shared beats a perfect picnic that never starts.",
+        bestFriend = "Choose a place and call me over. I have the practical things covered. Today I would rather enjoy your company than improve the view.",
+        favorite = { emote = "WELCOME", hint = "An invitation to join someone can settle a decision he would otherwise take all afternoon to make." },
+        lines = {
+            greet = { { "Good to see you. If we stop for lunch, you are choosing where.", tone = "[deep] [warmly amused]" }, "A walk together? Let me make certain we have the simple things first." },
+            idle = { { "That spot has shade. The next has a view. This is how I lose a perfectly good meal break.", tone = "[deep] [self-deprecating]" }, "A small pouch can carry an excellent plan. A large one can carry a great deal of forgetting.", "I am not suggesting we move. I am merely noticing another comfortable-looking stone." },
+            befriended = { { "I would enjoy coming along. You bring the invitation; I will try not to overthink the stopping place.", tone = "[deep] [sincere]" } },
+            poke = { "Yes? If you have chosen a place, I accept before I reconsider.", "I can decide. I simply seem to decide more than once." },
+            bagsFull = { { "Let us make room for what the journey needs, rather than what the last hour happened to provide.", tone = "[deep] [practical]" } },
+            loot = { "Will it serve the road ahead? That is worth asking before we pack it." },
+            rest = { "Here? Yes. Here is good. I shall sit before inspecting the alternatives." },
+            zone = { "A new stretch of road. I wonder what people most often forget before taking it." },
+            mail = { "News can travel with very little baggage. An admirable arrangement." },
+            hearth = { "Home settles the question of where to stop rather neatly." },
+            mount = { "Check the useful things before you settle into the saddle." },
+        },
+    },
+    -- Jark <General Goods>, Razor Hill Barracks, Durotar. Adult male Orc
+    -- 3164/display3737, Horde Friendly. CurrentVendor12stock rows; no own
+    -- quests/gossip found. Grand welcome practice original, no new shop or
+    -- military rank. docs/research/mulgore-razor-hill-and-moonglade.md.
+    [3164] = {
+        recordingVoice = "orc-male",
+        quote = "Welcome to Jark's exceptionally well-supplied... No. Welcome. What do you need? That sounds more like me.",
+        likes = { "A clear request", "Travelers returning prepared", "A welcome that sounds like himself" },
+        dislikes = { "Grand promises over ordinary goods", "Discovering an empty waterskin too late", "Being hurried through a friendly visit" },
+        gossip = "Jark has been practicing an impressive welcome for his customers. The longer versions rarely survive the arrival of an actual customer.",
+        bio = "Jark sells general goods in Razor Hill's barracks. He keeps useful travel basics, from bags and water to ammunition and camp supplies. A plain question about what someone needs usually serves him better than a grand sales pitch.",
+        backstory = "Jark tried inventing a welcome worthy of an important merchant. Each version grew longer until a customer interrupted to ask for water. He liked the simple conversation that followed, though he kept trying new openings in private.",
+        secret = "The elaborate welcome is mostly for his own amusement now. He sometimes gets through a whole version with an empty room. It is the only audience that never needs anything first.",
+        bestFriend = "You need nothing today? Good. Then stay a moment. I would like a conversation that does not end when the bag is packed.",
+        favorite = { emote = "PRAISE", hint = "An honest compliment would please him more than the grand welcome he keeps rehearsing." },
+        lines = {
+            greet = { { "Welcome, valued companion of distinguished... Good to see you. That will do.", tone = "[gravelly] [dryly amused]" }, "There you are. No sales speech today. Let us walk." },
+            idle = { { "A shop of unparalleled provision. I got that far before someone asked for arrows.", tone = "[gravelly] [wry]" }, "Useful goods do not become better because I take longer to name them.", "I can talk without selling you something. I would like to, in fact." },
+            befriended = { { "You came back for my company. I am glad of that. You have mine.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? I had a very fine word ready, but yours may be more useful.", "If you want the long welcome, say so. I have been practicing." },
+            bagsFull = { { "A better bag is useful. Deciding what belongs in it is still your work.", tone = "[gravelly] [practical]" } },
+            loot = { "Useful, or simply new? I find that a good question." },
+            rest = { "A pause needs no impressive name. I am pleased to take one." },
+            quest = { "Done. That is a fine short word when there has been work behind it." },
+            mail = { "If it is an announcement, I hope they reach the point before the ink runs out." },
+            mount = { "Water, supplies, then the road. A grand departure can wait for those." },
+            hearth = { "Welcome back. I can make it longer if you missed my speeches." },
+        },
+    },
+    -- Tajarri, Shrine of Remulos, Moonglade. Adult female Night Elf11799/
+    -- display11766; both current factionsNeutral, normal live gates required.
+    -- Current28/29and30/272, full Classic aquatic chains and own shrine
+    -- warning read. No RPG human pupil story. Duck imitation original.
+    -- docs/research/mulgore-razor-hill-and-moonglade.md.
+    [11799] = {
+        recordingVoice = "nightelf-female",
+        quote = "Respect the shrine and we will get along. Ignore that request and you will find I am quite capable of being clearer.",
+        likes = { "Visitors who respect sacred ground", "Druids who understand the lesson", "An unexpectedly convincing bird call" },
+        dislikes = { "Treating a trial as mere collection", "Confusing patience with permission", "A joke at the shrine's expense" },
+        gossip = "Tajarri can sound remarkably like an irritated duck. No one is entirely sure how often a rude visitor has mistaken one for the other.",
+        bio = "Tajarri guards the Shrine of Remulos in Moonglade. A trusted warden, she receives druids after the Trial of the Lake and guides their next trial. Her welcome leaves little doubt that visitors must treat the shrine with respect.",
+        backstory = "During a quiet watch, Tajarri heard a duck deliver a thoroughly indignant complaint. She tried the sound herself and found she could reproduce it rather well. It became a private amusement between serious duties.",
+        secret = "She once answered a friend's teasing in the duck's voice without smiling. Holding that expression was harder than the imitation. She is waiting for a suitable rematch.",
+        bestFriend = "You know when I am serious. I appreciate that. Now walk with me, and do not look so triumphant if you hear the duck.",
+        favorite = { emote = "BOW", hint = "A visitor's manner should show that this place matters before any request is made." },
+        lines = {
+            greet = { { "You are welcome in my company. You have already shown that you understand what welcome asks of you.", tone = "[composed] [warm beneath sternness]" }, "Come. We may speak freely without forgetting where we stand." },
+            idle = { { "That was an imitation. The duck itself has no official duties at this shrine.", tone = "[deadpan] [playful underneath]" }, "A lesson carried away matters more than an object carried in.", "Being patient does not prevent me from being quite definite." },
+            befriended = { { "I trust the care you bring with you. It would be a pleasure to share some of the road.", tone = "[measured] [sincere]" } },
+            poke = { "Yes? Choose your next remark carefully. I have an excellent reply in reserve.", "If you came only to request the duck, I may decline on principle." },
+            quest = { { "Consider what the task asked you to understand, as well as what it asked you to bring.", tone = "[instructive] [firm]" } },
+            learned = { "Agility and endurance must work together. Being proud of only one leaves a lesson unfinished." },
+            rest = { "You may rest without treating the place around you carelessly." },
+            zone = { "Care does not stop at the edge of a sacred place." },
+            combatEnd = { "Enough. Take stock before deciding that force has settled everything." },
+            levelUp = { "More capable, I see. Let your judgment keep pace." },
+            hearth = { "A familiar place deserves the same respect as a remarkable one." },
+        },
+    },
     -- Eunice Burch <Cooking Trainer>, Trade Quarter, Undercity. Adult
     -- female Forsaken4552/display2662, current Horde Friendly. Current ten
     -- training rows and installed cooking/referral gossip; no own quests.

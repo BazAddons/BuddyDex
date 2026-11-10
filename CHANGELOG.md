@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Chaw Stronghide, Moorat Longstride, Jark and Tajarri: four full adult profiles with sixty queued personal lines, expanding Bloodhoof/Razor Hill services and Moonglade character coverage.
+- Include Chaw's researched Forever camping role and Tajarri's shrine/trial duties while preserving normal live reaction, character isolation and friendship rules.
+
 - Add Eunice Burch, Mary Edras, Balir Frosthammer and Tannok Frosthammer: four full adult profiles across Undercity services and the Coldridge-Kharanos route, with sixty personal lines queued.
 - Retain current Forever cooking/first-aid roles and source-grounded trogg/delivery context; preserve ordinary live eligibility and character-local progress.
 

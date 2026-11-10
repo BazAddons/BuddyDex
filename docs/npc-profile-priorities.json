@@ -1645,6 +1645,34 @@
       "zone": "Dun Morogh",
       "route": "Undercity female service trainers and Coldridge-Kharanos starter route",
       "reason": "Full researched text and fifteen queued lines; adult Forsaken female/dwarf male approved voices; Mary Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3069,
+      "name": "Chaw Stronghide",
+      "zone": "Mulgore",
+      "route": "Bloodhoof services, Razor Hill goods and conditional Moonglade warden",
+      "reason": "Full researched text and fifteen queued lines; adult Tauren/Orc male and Night Elf female approved voices; Tajarri Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3076,
+      "name": "Moorat Longstride",
+      "zone": "Mulgore",
+      "route": "Bloodhoof services, Razor Hill goods and conditional Moonglade warden",
+      "reason": "Full researched text and fifteen queued lines; adult Tauren/Orc male and Night Elf female approved voices; Tajarri Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 3164,
+      "name": "Jark",
+      "zone": "Durotar",
+      "route": "Bloodhoof services, Razor Hill goods and conditional Moonglade warden",
+      "reason": "Full researched text and fifteen queued lines; adult Tauren/Orc male and Night Elf female approved voices; Tajarri Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 11799,
+      "name": "Tajarri",
+      "zone": "Moonglade",
+      "route": "Bloodhoof services, Razor Hill goods and conditional Moonglade warden",
+      "reason": "Full researched text and fifteen queued lines; adult Tauren/Orc male and Night Elf female approved voices; Tajarri Neutral conditional, ordinary live gates retained; no synthesis"
     }
   ]
 }

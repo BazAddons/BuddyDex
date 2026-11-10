@@ -1974,5 +1974,33 @@
     "zone": "Dun Morogh",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/forsaken-and-coldridge-rotation.md"
+  },
+  {
+    "npc_id": 3069,
+    "name": "Chaw Stronghide",
+    "zone": "Mulgore",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; Forever camping and aquatic chain variants researched; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-razor-hill-and-moonglade.md"
+  },
+  {
+    "npc_id": 3076,
+    "name": "Moorat Longstride",
+    "zone": "Mulgore",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; Forever camping and aquatic chain variants researched; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-razor-hill-and-moonglade.md"
+  },
+  {
+    "npc_id": 3164,
+    "name": "Jark",
+    "zone": "Durotar",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; Forever camping and aquatic chain variants researched; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-razor-hill-and-moonglade.md"
+  },
+  {
+    "npc_id": 11799,
+    "name": "Tajarri",
+    "zone": "Moonglade",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; Forever camping and aquatic chain variants researched; no Scout sighting claimed",
+    "research_notes": "docs/research/mulgore-razor-hill-and-moonglade.md"
   }
 ]

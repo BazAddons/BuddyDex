@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Chaw Stronghide, Moorat Longstride, Jark and Tajarri: four full adult profiles with sixty queued personal lines, expanding Bloodhoof/Razor Hill services and Moonglade character coverage.
+- Include Chaw's researched Forever camping role and Tajarri's shrine/trial duties while preserving normal live reaction, character isolation and friendship rules.
+
 - Add Eunice Burch, Mary Edras, Balir Frosthammer and Tannok Frosthammer: four full adult profiles across Undercity services and the Coldridge-Kharanos route, with sixty personal lines queued.
 - Retain current Forever cooking/first-aid roles and source-grounded trogg/delivery context; preserve ordinary live eligibility and character-local progress.
 
@@ -36,4 +39,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **487 fully written NPC profiles**: 454 have initial signature recordings, and thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **491 fully written NPC profiles**: 454 have initial signature recordings, and thirty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
