@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 311,
+    "alliance": 312,
     "unverified": 159,
-    "horde": 290
+    "horde": 292
   },
   "npc_race_counts": {
     "1": 167,
@@ -15,10 +15,10 @@
     "5": 79,
     "4": 59,
     "8": 57,
-    "9": 48,
+    "9": 49,
     "6": 82,
     "96": 20,
-    "95": 28
+    "95": 29
   },
   "zone_counts": {
     "Elwynn Forest": 28,
@@ -32,7 +32,7 @@
     "Ironforge": 55,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
-    "Undercity": 14,
+    "Undercity": 15,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 47,
+    "Zephras Isle": 48,
     "Riverglades": 10
   },
   "entries": [
@@ -8270,6 +8270,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251362"
     },
     {
+      "npc_id": 251364,
+      "name": "Destin Thriceforged",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251364"
+    },
+    {
       "npc_id": 251365,
       "name": "Jolee Brightmeadows",
       "zone": "Zephras Isle",
@@ -9329,6 +9343,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270582"
     },
     {
+      "npc_id": 272526,
+      "name": "Glix Xizzix",
+      "zone": "Undercity",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/272526"
+    },
+    {
       "npc_id": 273065,
       "name": "Ribbly Spinwhistle",
       "zone": "Stormwind City",
@@ -9390,6 +9417,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 732,
-  "awaiting_signature_audio_profiles": 278
+  "authored_profiles": 734,
+  "awaiting_signature_audio_profiles": 280
 }

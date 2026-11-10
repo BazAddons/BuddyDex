@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Destin Thriceforged and Glix Xizzix: adult High Order and Goblin profiles with thirty personal lines queued.
+- Review starter weapon stock and the full Argent letter route; retain Glix's boastful business persona and document original friendship stories.
+
 - Add Tai'ree Farsight and Xy'aaria Streamrunner: two adult High Order profiles accessible to both factions, with thirty personal lines queued.
 - Research Thendal's hunter referral and Valanaar's interrupted imports; document the original novice stumble and rehearsed welcome.
 

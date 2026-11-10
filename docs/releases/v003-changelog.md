@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Destin Thriceforged and Glix Xizzix: adult High Order and Goblin profiles with thirty personal lines queued.
+- Review starter weapon stock and the full Argent letter route; retain Glix's boastful business persona and document original friendship stories.
+
 - Add Tai'ree Farsight and Xy'aaria Streamrunner: two adult High Order profiles accessible to both factions, with thirty personal lines queued.
 - Research Thendal's hunter referral and Valanaar's interrupted imports; document the original novice stumble and rehearsed welcome.
 
@@ -399,4 +402,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **732 fully written NPC profiles**: 454 have initial signature recordings, and two hundred seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **734 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3689,5 +3689,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult High Order woman, both factions Friendly; Interrupted ferries and uncertainty preserved; original rehearsed welcome; no Scout sighting claimed",
     "research_notes": "docs/research/thendal-roots-and-valanaar-welcome.md"
+  },
+  {
+    "npc_id": 251364,
+    "name": "Destin Thriceforged",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult male High Order, both factions Friendly; Verified eight starter weapons and repair role; original short-staff joke; no Scout sighting claimed",
+    "research_notes": "docs/research/destins-staff-and-glixs-introduction.md"
+  },
+  {
+    "npc_id": 272526,
+    "name": "Glix Xizzix",
+    "zone": "Undercity",
+    "source": "Reviewed adult male Goblin, Horde Friendly; Full six-quest Argent context and own boastful gossip; original interrupted introduction; no Scout sighting claimed",
+    "research_notes": "docs/research/destins-staff-and-glixs-introduction.md"
   }
 ]

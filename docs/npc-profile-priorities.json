@@ -3360,6 +3360,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar isolated imports",
       "reason": "Interrupted ferries and uncertainty preserved; original rehearsed welcome; complete adult profile, fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251364,
+      "name": "Destin Thriceforged",
+      "zone": "Zephras Isle",
+      "route": "Thendal Grove early weapon merchant",
+      "reason": "Verified eight starter weapons and repair role; original short-staff joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 272526,
+      "name": "Glix Xizzix",
+      "zone": "Undercity",
+      "route": "Undercity barber at the end of the early Argent route",
+      "reason": "Full six-quest Argent context and own boastful gossip; original interrupted introduction; fifteen personal lines queued without synthesis"
     }
   ]
 }

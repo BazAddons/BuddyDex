@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Destin Thriceforged, Thendal Grove/Zephras Isle. Adult
+    -- High Order male136969/M2 7478487, both factions Friendly. Weapon
+    -- merchant/repairs, eight current goods; own quest/training tables0.
+    -- Short-staff joke is original; no growing weapon or family invented.
+    -- Research: docs/research/destins-staff-and-glixs-introduction.md
+    [251364] = {
+        quote = "A short staff is a complete staff. Whether it will grow into a long one depends on how long you intend to keep asking me.",
+        likes = { "A first weapon chosen without shame", "A customer with a harmless joke", "Plain equipment that suits its owner" },
+        dislikes = { "A novice embarrassed for asking", "A purchase made only to look important", "The same joke becoming a sales promise" },
+        gossip = "Destin has an answer ready for anyone asking whether a short staff will grow. He seems disappointed when nobody asks.",
+        bio = "Destin Thriceforged sells weapons and offers repairs in Thendal Grove on Zephras Isle. His stock includes simple swords, axes, clubs, a dirk and a short staff for adventurers making their first equipment choices.",
+        backstory = "A visitor once asked whether a short staff would grow. Destin began a serious explanation before noticing the grin. He spent the next quiet spell finding a better answer, then wished the visitor would return to hear it.",
+        secret = "His favorite reply changes whenever he thinks of another. He suspects the visitor's joke was better, but enjoys having a reason to try again.",
+        bestFriend = "Come along, friend. Tell me if you think of a better answer about the staff. I will complain for a moment, then remember it all day.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A little shared amusement is welcome, especially from someone who can let a harmless joke stay harmless.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. I have a better answer about the staff, unless you have one better still.", tone = "[warm] [playfully expectant]" }, "Ready for a walk? I could use some company that does not require a price attached." },
+            idle = { { "Will the short staff grow? I began explaining the difference in length. Then I saw the grin. A merchant should notice those things sooner.", tone = "[wry] [amused]" }, "A plain club is allowed to be exactly what you need. No apology required.", "My newest answer is that the staff has reached its preferred height. Too much? I thought it might be." },
+            befriended = { { "You have become someone I enjoy seeing even when there is nothing to sell. Come along, friend. Bring whatever joke you have been saving.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? A real question, or should I look for the grin first?", "I am listening. You may have to explain why that last one was funny." },
+            loot = { { "See whether it suits your hand before admiring how impressive it looks. There is time for both.", tone = "[practical] [friendly]" } },
+            gear = { "Comfortable with the choice? Good. You will be the one carrying it." },
+            learned = { "Ask if you need to. Nobody begins by knowing every difference." },
+            rest = { "A little quiet. Usually when I think of what I should have said an hour ago." },
+            newFriend = { "Someone new. Give them a proper greeting before trying the joke on them." },
+            laughAlong = { "Yes, yes. That one deserved it. I will have a better reply next time." },
+            thanked = { "Glad to help, friend. No, you do not owe me a laugh. I prefer to earn those." },
+        },
+    },
+
+    -- Glix Xizzix, Trade Quarter/Undercity. Adult Goblin
+    -- male147088/M2 119376, Horde Friendly. Full six-quest Argent
+    -- branch and own boasts read; supplying resistance is his claim.
+    -- Friend interrupting introduction is original, not a quest event.
+    -- Research: docs/research/destins-staff-and-glixs-introduction.md
+    [272526] = {
+        quote = "Visionary, entrepreneur, barber. We can discuss the order after you have admired the results.",
+        likes = { "An appreciative audience", "Several sources of income", "A friend who skips the introduction" },
+        dislikes = { "A tip promised with somebody else's coin", "An autograph treated as complimentary", "Credentials interrupted by closing time" },
+        gossip = "Glix can finish discussing a haircut before he finishes introducing himself. Friends apparently have permission to interrupt the introduction.",
+        bio = "Glix Xizzix is a Goblin barber in Undercity's Trade Quarter. He boasts of supplying the Forsaken resistance, charges for autographs and calls barbering diversification. Leonid's letter brings him a courier and an unwelcome dispute over a tip.",
+        backstory = "He was listing his accomplishments for a visitor when they interrupted to tell him their news. He almost began the introduction again. Instead, he asked what happened next. By the end, he had forgotten which accomplishment he was on.",
+        secret = "He likes when a friend skips the performance and starts talking. It suggests they came to see him without needing to be convinced he was worth the visit.",
+        bestFriend = "Skip the introduction, pal. You know who I am. Tell me what happened to you today. Yes, I am listening. No introductory fee.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He welcomes someone giving his accomplishments a little of the recognition he already considers them due.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal. Visionary, entrepreneur... ah, you know the rest. Come on. Tell me what happened since I saw you.", tone = "[brisk] [self-satisfied]" }, "Ready? Good. A man with several revenue streams can still take a walk with a friend." },
+            idle = { { "They interrupted my introduction to tell me their news. The nerve. Anyway, it was an excellent story. I asked what happened next.", tone = "[mock offended] [amused]" }, "I call the barbershop diversification. Sounds better than admitting there is only so much demand for an autograph.", "Leonid promised a tip on my behalf. Generosity comes easily when it is somebody else's coin." },
+            befriended = { { "You keep coming back without asking for the list of accomplishments. I like that. Come along, pal. Tell me something I have not heard about you.", tone = "[gruffly warm] [sincere]" } },
+            poke = { "Yes, pal? You have the attention of a very diversified businessgob.", "Go on. You may skip the part about how fortunate you are to know me." },
+            mail = { { "A letter. Establish who promised the tip before accepting the delivery. Believe me, it matters.", tone = "[dry] [emphatic]" } },
+            loot = { "Useful? Valuable? Both? I appreciate a possession with more than one selling point." },
+            bagsFull = { "Running out of room is a fine reason to reconsider what you insist is indispensable." },
+            newFriend = { "A new acquaintance. Give them a moment to introduce themselves. I am told that is polite." },
+            applaudToo = { "Recognition well deserved. Go on, enjoy it. There is no need to look modest on my account." },
+            rest = { "A pause. Fine. Tell me your news before I find another accomplishment to mention." },
+            thanked = { "You are welcome, pal. There, gracious and concise. Another accomplishment for the list." },
+        },
+    },
+
     -- Tai'ree Farsight, Thendal Grove/Zephras Isle. Adult High
     -- Order female136976/M2 7478494, both factions Friendly. Hunter
     -- trainer; full92460/92461/92482, five lessons, own gossip read.
