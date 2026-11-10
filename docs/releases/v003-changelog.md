@@ -2,6 +2,9 @@
 
 ## More friends across Azeroth
 
+- Add Hraug, Jen'shan, Nartok, Ruzan and Rwag, each with full personalities, lore pages, favorite emotes and fifteen personal lines awaiting recording.
+- Complete written profiles for all nineteen newly discovered Durotar Scout candidates. Keep Forever's Tainted Tablet introduction separate from older class letters, and retain the actual hunter, warlock and rogue histories.
+
 - Add Kagil, Kzan Thornslash, Rarc and Zlagk with complete personalities, lore pages, favorite emotes and fifteen personal lines each.
 - Include Forever's new skinning trainer and Kzan's training-weapon recovery role, with all sixty personal recordings queued until voice-service billing is resolved.
 
@@ -24,4 +27,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **470 fully written NPC profiles**: 454 have initial signature recordings, and sixteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **475 fully written NPC profiles**: 454 have initial signature recordings, and twenty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

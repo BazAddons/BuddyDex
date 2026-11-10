@@ -120,6 +120,8 @@ def main():
         "authored_count": len(completed),
         "written_complete_count": sum(row["status"] in ("complete", "written_complete_audio_pending") for row in completed),
         "awaiting_signature_audio_count": sum(row["status"] == "written_complete_audio_pending" for row in completed),
+        "unprofiled_count": len(remaining),
+        "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
         "remaining_count": len(remaining) + sum(row["status"] != "complete" for row in completed),
         "completed": sorted(completed, key=lambda row: row["npc_id"]),
         "remaining": remaining,
@@ -136,7 +138,9 @@ def main():
         }
     out = ROOT / "docs/npc-backlog.json"
     out.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Backlog: {result['completed_count']} complete, {result['remaining_count']} remaining; {len(excluded)} generic roles excluded")
+    print(f"Backlog: {result['written_complete_count']} fully written, {result['completed_count']} with initial audio, "
+          f"{result['awaiting_signature_audio_count']} awaiting initial audio, {result['unprofiled_count']} unprofiled; "
+          f"{len(excluded)} generic roles excluded")
 
 
 if __name__ == "__main__":

@@ -1526,6 +1526,41 @@
       "zone": "Durotar",
       "route": "Actual Scout Den skinning, weapon, armor and food service coverage",
       "reason": "Full written adult profile grounded in current/Classic/installed role evidence; approved voice assigned, all audio queued without synthesis"
+    },
+    {
+      "npc_id": 12776,
+      "name": "Hraug",
+      "zone": "Durotar",
+      "route": "Final five actual Scout Valley/Den class and demon-service profiles",
+      "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
+    },
+    {
+      "npc_id": 3154,
+      "name": "Jen'shan",
+      "zone": "Durotar",
+      "route": "Final five actual Scout Valley/Den class and demon-service profiles",
+      "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
+    },
+    {
+      "npc_id": 3156,
+      "name": "Nartok",
+      "zone": "Durotar",
+      "route": "Final five actual Scout Valley/Den class and demon-service profiles",
+      "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
+    },
+    {
+      "npc_id": 5765,
+      "name": "Ruzan",
+      "zone": "Durotar",
+      "route": "Final five actual Scout Valley/Den class and demon-service profiles",
+      "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
+    },
+    {
+      "npc_id": 3155,
+      "name": "Rwag",
+      "zone": "Durotar",
+      "route": "Final five actual Scout Valley/Den class and demon-service profiles",
+      "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
     }
   ]
 }

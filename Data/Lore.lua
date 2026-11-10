@@ -41,6 +41,177 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hraug <Demon Trainer>, The Den, Durotar. NPC12776/display14371:
+    -- adult male Orc, actual Scout Horde/reaction5. Current17imp grimoires
+    -- and installed demon-training gossip; no own quest chain established.
+    -- His unsent list of complaints is original, not a book/item/quest.
+    -- docs/research/valley-last-scout-trainers.md.
+    [12776] = {
+        recordingVoice = "orc-male",
+        quote = "I have books for the problems that can be taught out of a demon. For the rest, I have a list of complaints.",
+        likes = { "A page returned without scorch marks", "A customer who knows what they need", "Finishing a complaint in peace" },
+        dislikes = { "Treating instruction as an optional extra", "Ink spilled on the useful part", "Being interrupted before the last point" },
+        gossip = "Hraug has been composing a list of complaints. It seems to grow whenever someone asks whether he has finished it.",
+        bio = "Hraug handles demon instruction in the Den, in Durotar's Valley of Trials. His grimoires include training for imps, and his advice comes with little patience for idle interference. He expects a customer to take the work seriously.",
+        backstory = "After another small disruption, Hraug wrote down what had annoyed him. Choosing the precise wording proved satisfying. The list became a place to put frustrations that neither a sale nor a lecture would usefully resolve.",
+        secret = "He has nobody to send it to. Most entries lose their urgency once they are written. He keeps the list because crossing one out can feel surprisingly pleasant.",
+        bestFriend = "Sit. You may interrupt the list. I have discovered that a tolerable conversation can make several entries unnecessary.",
+        favorite = { emote = "NOD", hint = "A brief acknowledgment suits someone who has already made his point." },
+        lines = {
+            greet = { { "A walk? Very well. I can leave the complaints where they are. They will still be complaints when I return.", tone = "[gruff] [dryly amused]" },
+                "You again. At least I need not explain why I am pleased to see a familiar face." },
+            idle = { { "No, I have not posted the list. There is nobody suitable to receive it, and several of the complaints improve considerably once crossed out.", tone = "[wry] [matter-of-fact]" },
+                "Do not leave that near an open flame. I am speaking from considerable irritation.",
+                "A little attention before opening a book can spare a long explanation afterward." },
+            befriended = { { "You came for the conversation, and somehow I did not mind putting the work aside. That is unusual enough to deserve another visit. Come along, then.", tone = "[gruff] [warmly]" } },
+            poke = { "That is going on the list.", "Yes? I had almost finished being uninterrupted." },
+            learned = { { "Read it properly. The important part has an unfortunate habit of being the part someone hurried past.", tone = "[firm] [patient]" } },
+            loot = { "Keep the pages dry if there are any." },
+            bagsFull = { "Do not solve the problem by crushing the books." },
+            mail = { "A letter? I hope its author has fewer complaints than I do." },
+            rest = { "A quiet place. This is promising." },
+            quest = { "Finished correctly? Good. One less thing requiring a lengthy discussion." },
+            levelUp = { "More capable. I shall try to keep my expectations reasonable." },
+        },
+    },
+
+    -- Jen'shan <Hunter Trainer>, Valley of Trials, Durotar. NPC3154/display1882:
+    -- adult FEMALE Troll, actual Scout sex3/Horde/reaction5; adult model8sex1.
+    -- Classic3082/3087cross-racial teaching;6068refers to Thotar's pet training.
+    -- No Cataclysm replacement or SoD rune story. Her elaborately drawn
+    -- story routes are original, not actual quest/maps. docs/research/valley-last-scout-trainers.md.
+    [3154] = {
+        recordingVoice = "troll-female",
+        quote = "Tell me where you went. Leave room for the small details. They are often the part I wanted to hear.",
+        likes = { "A learner paying attention to the land", "The exchange of useful knowledge", "A story with a route worth following" },
+        dislikes = { "Mistaking a hunt for mere target practice", "Assuming an ally has nothing to teach", "A good tale hurried to its ending" },
+        gossip = "Jen'shan sometimes draws a route while telling a story. By the end, the ground has acquired more scenery than anyone remembers passing.",
+        bio = "Jen'shan teaches hunters in the Valley of Trials. She speaks of Troll and Orc allies learning from one another, and of the skill required to work with beasts. Her introduction to the hunter's path sends learners onward to Thotar in Razor Hill.",
+        backstory = "While describing a journey, Jen'shan traced its turns on the ground. She added a hill to explain one part, then another detail to explain the hill. Drawing the route became a pleasure almost separate from telling the story.",
+        secret = "Some of the little flourishes are there because she enjoys making them. She can give a perfectly useful direction when needed. The extra hill is for a listener who has time.",
+        bestFriend = "Sit beside me. Tell your version while I draw. Between us, we may produce a very fine journey with a few more turns than expected.",
+        favorite = { emote = "APPLAUD", hint = "An attentive audience can make the last part of a tale especially enjoyable." },
+        lines = {
+            greet = { { "Come, let us see where the day takes us. You can tell me what I missed while we walk.", tone = "[warmly] [curious]" },
+                "There you are. Have you brought a story, or shall we find one?" },
+            idle = { { "The extra hill? It helps the story along. If you need directions, I will give you the short version. If you are staying, I rather like this one.", tone = "[playful] [warmly]" },
+                "An ally may know something you have not yet thought to ask.",
+                "Watching a beast carefully is work of its own." },
+            befriended = { { "You stayed for the little turns in the story. I would enjoy hearing more of yours. Come along, my friend. We can find the next part together.", tone = "[sincere] [pleased]" } },
+            poke = { "I was just reaching the interesting part.", "Yes? Give me room to finish this turn." },
+            learned = { { "Good. Remember the patient work that brought you here. It will be useful long after the first lesson is over.", tone = "[steady] [encouraging]" } },
+            zone = { "A new stretch of the story. Let us look closely." },
+            quest = { "Done. Now tell me something you noticed on the way." },
+            rest = { "Good ground for sitting. I might fit a whole journey in this patch of dust." },
+            combatEnd = { "Take a breath. Look after everyone who came with you." },
+            levelUp = { "More experience. I expect a few good stories came with it." },
+            taxi = { "Quite a view! I shall need room to draw all this later." },
+        },
+    },
+
+    -- Nartok <Warlock Trainer>, The Den, Durotar. NPC3156/display1884:
+    -- adult male Orc, actual Scout Horde/reaction5. Classic3090warning and
+    -- actual Forever98575TaintedTablet: guarded power, boldness and cunning.
+    -- Preserve independent will, not invented servitude/Clan/military history.
+    -- Ordinary puzzle box is fiction, not magical loot. docs/research/valley-last-scout-trainers.md.
+    [3156] = {
+        recordingVoice = "orc-male",
+        quote = "Possessing power and having command of it are different accomplishments. Keep that in mind before announcing the first.",
+        likes = { "Will guided by a clear intention", "A question asked discreetly", "An ordinary problem that resists him" },
+        dislikes = { "Mistaking boldness for carelessness", "Carelessly displaying guarded knowledge", "Being offered an axe for the puzzle box" },
+        gossip = "Nartok has spent an unusual amount of attention on a small wooden box. Someone suggested breaking it open. The suggestion was unwelcome.",
+        bio = "Nartok trains warlocks in the Den, in Durotar's Valley of Trials. He speaks of claiming power while guarding it from the fearful and foolish. His warnings leave little room for assuming that a strong spell can excuse weak judgment.",
+        backstory = "A plain wooden puzzle box held Nartok's attention between lessons. Its resistance involved no hidden magic, merely a lid that required the correct movement. He found himself returning to a problem that could be left safely unfinished.",
+        secret = "He enjoys not knowing the answer immediately. He can set the box aside without endangering anyone, then try another approach. He would prefer that this remain a private pleasure.",
+        bestFriend = "Your turn with the box. Keep the axe away. I would like to see what you try before either of us pretends we knew the answer.",
+        favorite = { emote = "BOW", hint = "A measured approach makes a better impression than a careless display." },
+        lines = {
+            greet = { { "A little time elsewhere may be useful. Come. Tell me what has been occupying you.", tone = "[measured] [quietly pleased]" },
+                "There you are. I can set this aside for a while." },
+            idle = { { "It is an ordinary wooden box. No seal from the Nether, no lurking intelligence. I have found it a particularly satisfying refusal to cooperate.", tone = "[dryly amused] [thoughtful]" },
+                "Guard what you know without becoming careless about what you do not.",
+                "A patient second look may accomplish more than an impressive first gesture." },
+            befriended = { { "You return without always seeking a stronger spell or a secret. I find your company worth making time for. Come, let us see where the day leads.", tone = "[reserved] [sincere]" } },
+            poke = { "I am considering something. Speak.", "Yes? You may put the finger away." },
+            learned = { { "Good. Understand what you have gained before deciding what to do with it. There is little merit in being powerfully foolish.", tone = "[firm] [measured]" } },
+            quest = { "Finished. Consider what the task has taught you before rushing onward." },
+            levelUp = { "More strength. Keep it under your command." },
+            rest = { "We can leave a question unanswered for a few quiet moments." },
+            combatEnd = { "Enough. Make certain the danger has actually passed." },
+            loot = { "Look carefully. An intriguing appearance is not an explanation." },
+            zone = { "New surroundings. Keep your judgment as close as your belongings." },
+        },
+    },
+
+    -- Ruzan, Valley of Trials, Durotar. NPC5765/display4209, adult male Orc,
+    -- actual Scout Horde/reaction5. Current1485six familiar heads/control
+    -- before summoning;1499refers to Zureetha, not her separate792kill quest.
+    -- He will not choose a warlock's way of life or teach before readiness.
+    -- Comfort in an ordinary sheltered candle is fiction. docs/research/valley-last-scout-trainers.md.
+    [5765] = {
+        recordingVoice = "orc-male",
+        quote = "Ask again if you are unsure. I would rather repeat a warning than discover you were afraid to admit you needed it.",
+        likes = { "Control learned before the display", "Someone willing to admit uncertainty", "An ordinary sheltered candle flame" },
+        dislikes = { "Risking a novice to prove a point", "Dismissing a small demon as harmless", "A warning mistaken for contempt" },
+        gossip = "Ruzan can take a quiet interest in a perfectly ordinary candle. He seems pleased by how little explanation it requires.",
+        bio = "Ruzan guides novice warlocks in the Valley of Trials. He asks them to face vile familiars before learning to summon, stressing control and readiness. After their work, he sends them to assist Zureetha Fargaze against the cave's darker powers.",
+        backstory = "After a day of difficult explanations, Ruzan watched a candle burn behind a simple shelter from the draft. There was no hidden purpose to consider. He found that a small, familiar light made the quiet part of an evening more welcome.",
+        secret = "He likes knowing how easily that flame can be put out. It is a modest pleasure after speaking about things that demand considerably greater caution.",
+        bestFriend = "Sit with me. We need not turn this into a lesson. A little ordinary light and a familiar voice will do very well.",
+        favorite = { emote = "NOD", hint = "Knowing that a warning was heard matters more than an impressive answer." },
+        lines = {
+            greet = { { "I am glad to see you. Let us take a little time to talk without making every word an instruction.", tone = "[calm] [warmly]" },
+                "There you are. Tell me how the day has treated you." },
+            idle = { { "An ordinary candle. That is all. I enjoy a little light that needs no elaborate precautions before I can simply sit beside it.", tone = "[quiet] [contented]" },
+                "A question asked twice is better than a mistake made because you were afraid to ask.",
+                "Something small may still require a great deal of care." },
+            befriended = { { "You came back for company rather than another test. I am pleased you did. I would like to spend a little of the day at your side, my friend.", tone = "[sincere] [gentle]" } },
+            poke = { "Yes? I was only thinking.", "A word will do. You need not startle either of us." },
+            learned = { { "Good. Take the time to become certain of what you are doing. You need not prove readiness by pretending you have no questions.", tone = "[patient] [earnest]" } },
+            quest = { "Done safely? Good. That part matters to me." },
+            rest = { "Here. A little quiet, and no test waiting at the end of it." },
+            combatEnd = { "Take a breath. Check that nobody has been left behind." },
+            levelUp = { "Stronger, and I hope more certain of your own limits." },
+            zone = { "Somewhere new. We can learn about it a little at a time." },
+            died = { "My friend... I wish I could have kept you from this." },
+        },
+    },
+
+    -- Rwag <Rogue Trainer>, The Den, Durotar. NPC3155/display1886:
+    -- adult male Orc, actual Scout Horde/reaction5. Classic3083/3088:
+    -- Shattered Hand training/watchfulness; specifically distrusts Nartok.
+    -- Do not invent a friendship between nearby trainers or a later crime.
+    -- His own-coin trick is original and not actual theft/gameplay.
+    -- docs/research/valley-last-scout-trainers.md.
+    [3155] = {
+        recordingVoice = "orc-male",
+        quote = "Watch the hands. Mine, yours, and anyone else's who has found a reason to stand so close.",
+        likes = { "A learner who notices the small detail", "A quiet approach", "An audience that thinks it caught him" },
+        dislikes = { "Announcing a discreet conversation", "A skill neglected because it seems small", "Questions asked loudly across the Den" },
+        gossip = "Rwag has a small coin trick. Anyone who says they saw how it worked is likely to be invited to watch another attempt.",
+        bio = "Rwag trains rogues in the Den, in Durotar's Valley of Trials. The Shattered Hand expects him to prepare useful recruits. He keeps his conversations discreet and is openly suspicious of Nartok farther inside the cave.",
+        backstory = "An idle moment with his own coin became a small exercise in keeping a movement unnoticed. Rwag tried it again for an observer. The pause before they decided where it had gone proved almost as enjoyable as the trick.",
+        secret = "It is his own coin, and he rather likes being caught by someone observant. He will argue about the next attempt, of course. Giving up the performance would spoil the company.",
+        bestFriend = "Watch again. You may have worked it out, but I would like one more attempt before we agree how clever you are.",
+        favorite = { emote = "WINK", hint = "A discreet acknowledgment can say enough without announcing everything." },
+        lines = {
+            greet = { { "You found me. Quietly, too. Good. Let us see what there is to notice beyond this place.", tone = "[low] [wryly pleased]" },
+                "There you are. I was beginning to think I had been too discreet." },
+            idle = { { "My own coin. You may stop checking your purse. Now, tell me which hand you think it is in. No, I did not say I would make this easy.", tone = "[playful] [low]" },
+                "The small skill is often the one you wish you had practiced.",
+                "A loud explanation rather defeats the point of a quiet approach." },
+            befriended = { { "You keep noticing things, and you keep coming back. I find both worth encouraging. Come along. We may enjoy one another's company out here.", tone = "[reserved] [warmly]" } },
+            poke = { "You are making your approach rather obvious.", "Yes? Keep your hands where we can both admire the effort." },
+            learned = { { "Again. Slowly enough to see what you did. You can make it look effortless once it actually works.", tone = "[quiet] [firm]" } },
+            loot = { "Keep track of what you put away. A useful habit." },
+            quest = { "Finished? Then leave without announcing the result to every passerby." },
+            bagsFull = { "A little order might save a great deal of conspicuous searching." },
+            rest = { "A good place to sit and notice who passes." },
+            zone = { "Unfamiliar ground. Let us avoid being the least observant people here." },
+            levelUp = { "More capable. Try not to become more obvious with it." },
+        },
+    },
+
     -- Kagil <Junior Skinning Trainer>, The Den, Durotar. NPC267327/display145036:
     -- adult male Orc, current base model matches verified adult Frang;
     -- actual Scout Horde/reaction5. Current title and installed leather/tools

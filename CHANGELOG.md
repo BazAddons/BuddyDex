@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hraug, Jen'shan, Nartok, Ruzan and Rwag: five full Scout-observed adult profiles with fifteen personal lines each, completing the nineteen newly discovered Durotar identities in text. Recording remains deferred.
+- Preserve Jen'shan's female Troll voice, Nartok's Forever tablet introduction, Ruzan's careful summoning instruction and Rwag's actual Shattered Hand/Nartok history.
+
 - Add Kagil, Kzan Thornslash, Rarc and Zlagk: four full Scout-observed service profiles, fifteen personal lines each, with approved Orc male audio queued for later recording.
 - Ground Kzan's salvage-and-repair role in Forever's Wayward Weapons text; keep later Draenor material and unverified service details out of the profiles.
 

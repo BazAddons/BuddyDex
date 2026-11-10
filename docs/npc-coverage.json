@@ -4,17 +4,17 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 208,
-    "unverified": 121,
+    "unverified": 126,
     "horde": 148
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 55,
+    "2": 59,
     "5": 45,
     "4": 23,
-    "8": 35,
+    "8": 36,
     "9": 23,
     "6": 49,
     "96": 5,
@@ -39,7 +39,7 @@
     "Darkshore": 4,
     "Mulgore": 11,
     "Thunder Bluff": 23,
-    "Durotar": 35,
+    "Durotar": 40,
     "The Barrens": 22,
     "Ashenvale": 3,
     "Stonetalon Mountains": 4,
@@ -2658,6 +2658,54 @@
       "audio_status": "All personal recordings queued; no synthesis until user confirms billing fixed"
     },
     {
+      "npc_id": 3154,
+      "name": "Jen'shan",
+      "zone": "Durotar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3154",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 3155,
+      "name": "Rwag",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3155",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 3156,
+      "name": "Nartok",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3156",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
       "npc_id": 3157,
       "name": "Shikrik",
       "zone": "Durotar",
@@ -4151,6 +4199,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5753"
     },
     {
+      "npc_id": 5765,
+      "name": "Ruzan",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5765",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
       "npc_id": 5770,
       "name": "Nara Wildmane",
       "zone": "Thunder Bluff",
@@ -5381,6 +5445,22 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12738"
     },
     {
+      "npc_id": 12776,
+      "name": "Hraug",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "observed_friendly_factions": [
+        "horde"
+      ],
+      "observed_on": "2026-11-09",
+      "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12776",
+      "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
       "npc_id": 12805,
       "name": "Officer Areyn",
       "zone": "Stormwind City",
@@ -6004,6 +6084,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 470,
-  "awaiting_signature_audio_profiles": 16
+  "authored_profiles": 475,
+  "awaiting_signature_audio_profiles": 21
 }
