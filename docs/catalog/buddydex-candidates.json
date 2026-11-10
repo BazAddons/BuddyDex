@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 92,
-    "combined_retained_entries": 1523,
-    "candidate_name_groups": 1510,
+    "local_backlog_entries_missing_from_source": 93,
+    "combined_retained_entries": 1524,
+    "candidate_name_groups": 1511,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -19854,6 +19854,23 @@
       ]
     },
     {
+      "name": "Korin Fel",
+      "npc_ids": [
+        2772
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 2772,
+          "name": "Korin Fel",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
+          "profile_status": "complete"
+        }
+      ]
+    },
+    {
       "name": "Korran",
       "npc_ids": [
         3428
@@ -37016,7 +37033,7 @@
           "source_page": 32,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -39420,6 +39437,13 @@
       "zone": "Ironforge",
       "scout_reaction": 5,
       "scout_attackable": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 2772,
+      "name": "Korin Fel",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
       "profile_status": "complete"
     },
     {

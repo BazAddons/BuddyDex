@@ -517,3 +517,8 @@ Next individually verified [Gretta and Drum Fel](gretta-and-drumfel-queue.md), a
 ### Gretta Finespindle / Drum Fel:412 profiles
 
 Completed named adult1466/2771, one Alliance female Gnome trainer and one Horde male Orc Hammerfall quest giver. Four approved emotion-tagged v4 signatures/fifteen personal lines each; full source/era/relationship limits in `gretta-and-drumfel-queue.md`. Public coverage now207Alliance/113Horde/99unverified, with seven shared profiles,412unique. CurrentFriendly icons inform coverage, not eligibility overrides. Ordinary25+150 gains and normal299/300 Buddy boundary/recorded welcome validated. No Scout sighting fabricated; development v002 continues separately from preserved public candidate.
+
+
+### Korin Fel / Zengu:414 profiles
+
+Added2772adult female Orc/2703adult male Troll in Hammerfall, two Horde profiles with fifteen lines/four approved v4 signatures each. Current chain, eleven-fragment change, Korin's difficult protective choice and later-retail exclusion documented in `korin-and-zengu-queue.md`. Public coverage207Alliance/115Horde/99unverified with seven shared overlaps,414unique. No eligibility bypass/quest prerequisite; normal25+150 gains and299/300 Buddy threshold tested. No fabricated Scout sightings. Development v002 remains separate from public upload candidate.

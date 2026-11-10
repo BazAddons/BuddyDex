@@ -1126,14 +1126,14 @@
       "name": "Korin Fel",
       "zone": "Arathi Highlands",
       "route": "Horde female Orc/male Troll regional quest coverage",
-      "reason": "Current identity verified; full lore/linked chain and authoring pending. See docs/research/korin-and-zengu-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; sources, original/era limits and normal299/300 boundary validation in docs/research/korin-and-zengu-queue.md"
     },
     {
       "npc_id": 2703,
       "name": "Zengu",
       "zone": "Arathi Highlands",
       "route": "Horde female Orc/male Troll regional quest coverage",
-      "reason": "Current identity verified; full lore/linked chain and authoring pending. See docs/research/korin-and-zengu-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; sources, original/era limits and normal299/300 boundary validation in docs/research/korin-and-zengu-queue.md"
     }
   ]
 }

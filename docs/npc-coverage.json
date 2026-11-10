@@ -1,22 +1,22 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 412,
+  "completed_profiles": 414,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 207,
     "unverified": 99,
-    "horde": 113
+    "horde": 115
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
-    "2": 31,
+    "2": 32,
     "5": 39,
     "4": 21,
+    "8": 26,
     "9": 19,
     "6": 38,
-    "8": 25,
     "96": 5,
     "95": 6
   },
@@ -33,7 +33,7 @@
     "Silverpine Forest": 3,
     "Teldrassil": 9,
     "Hillsbrad Foothills": 1,
-    "Arathi Highlands": 3,
+    "Arathi Highlands": 5,
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 10,
@@ -2072,6 +2072,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2695"
     },
     {
+      "npc_id": 2703,
+      "name": "Zengu",
+      "zone": "Arathi Highlands",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2703"
+    },
+    {
       "npc_id": 2708,
       "name": "Archmage Malin",
       "zone": "Stormwind City",
@@ -2096,6 +2109,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2771"
+    },
+    {
+      "npc_id": 2772,
+      "name": "Korin Fel",
+      "zone": "Arathi Highlands",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2772"
     },
     {
       "npc_id": 2795,

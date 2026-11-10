@@ -79,6 +79,46 @@
     "text": "Settle your gear and take your place. We will see you on your way. If something feels wrong before you leave, say so while we can still attend to it here. A little care on the ground is a better beginning than a surprise in the air.",
     "voice_id": "QooG6jOovlSJWv2vSqN8"
   },
+  "lore2772_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2772",
+    "spoken": "[warm] [sincere] [resolute] You have listened long enough to hear more than the decision you first expected to judge. I value that. Come with me, friend. There are things I can say in your company without first arranging every word against an argument. We may still disagree. I would rather have your honest answer than an easy assurance you do not mean.",
+    "text": "You have listened long enough to hear more than the decision you first expected to judge. I value that. Come with me, friend. There are things I can say in your company without first arranging every word against an argument. We may still disagree. I would rather have your honest answer than an easy assurance you do not mean.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2772_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2772",
+    "spoken": "[firm] [measured] [serious] You have come to speak with me? Then listen before deciding what you think of my choice. There are dangers that pride makes worse, and people I mean to protect. I do not expect every decision to sit easily upon me. I do expect to consider what it will cost the people I love.",
+    "text": "You have come to speak with me? Then listen before deciding what you think of my choice. There are dangers that pride makes worse, and people I mean to protect. I do not expect every decision to sit easily upon me. I do expect to consider what it will cost the people I love.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2772_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2772",
+    "spoken": "[dryly amused] [deliberate] [warm] Once, a visitor had already left before I found the answer his boasting deserved. I kept it for his return. He looked so surprised that I almost laughed before finishing. Now I give myself a moment before answering foolishness. Sometimes the answer improves while the fool becomes more certain that he has impressed me.",
+    "text": "Once, a visitor had already left before I found the answer his boasting deserved. I kept it for his return. He looked so surprised that I almost laughed before finishing. Now I give myself a moment before answering foolishness. Sometimes the answer improves while the fool becomes more certain that he has impressed me.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
+  "lore2772_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2772",
+    "spoken": "[grave] [protective] [resolute] Or'Kalar bears an old hatred for my husband. My auguries warn of a trap, and I have kept its signs from Drum because I fear how quickly he would rush toward it. You may question my silence. I have questioned it myself. That has not made me willing to surrender his life to another person's revenge.",
+    "text": "Or'Kalar bears an old hatred for my husband. My auguries warn of a trap, and I have kept its signs from Drum because I fear how quickly he would rush toward it. You may question my silence. I have questioned it myself. That has not made me willing to surrender his life to another person's revenge.",
+    "voice_id": "QooG6jOovlSJWv2vSqN8"
+  },
   "lore2851_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

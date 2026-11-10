@@ -39,6 +39,46 @@
     "text": "This looks like a fine place to stop. We should test it properly before deciding to move on. A few quiet minutes, perhaps. Longer, if the conversation is good and the sun keeps its distance.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore2703_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2703",
+    "spoken": "[warm] [sincere] [gently amused] You have shown me care as well as strength, and I trust both. Come along, friend. A difficult purpose is easier to carry with someone who understands why the small things matter. If I check my pouch once more before we leave, give me a moment. I may also be remembering something I wanted to tell you.",
+    "text": "You have shown me care as well as strength, and I trust both. Come along, friend. A difficult purpose is easier to carry with someone who understands why the small things matter. If I check my pouch once more before we leave, give me a moment. I may also be remembering something I wanted to tell you.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2703_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2703",
+    "spoken": "[steady] [purposeful] [welcoming] Welcome, friend. Have you come to help with the work before us? Vol'jin has given me a task that will need careful hands as well as strength. Trol'kalar lies behind protections we must gather the means to open. A missing piece will not become less important because the purpose behind it is great. We begin by paying attention.",
+    "text": "Welcome, friend. Have you come to help with the work before us? Vol'jin has given me a task that will need careful hands as well as strength. Trol'kalar lies behind protections we must gather the means to open. A missing piece will not become less important because the purpose behind it is great. We begin by paying attention.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2703_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2703",
+    "spoken": "[wry] [conversational] [warm] I explain how much depends on gathering every sigil, then find myself counting the ordinary things in my pouch before leaving. Twice, sometimes. It is a useful habit. Less useful when someone notices that I have just told them I am ready. Give me a moment, friend. I would rather be thorough than return for something small.",
+    "text": "I explain how much depends on gathering every sigil, then find myself counting the ordinary things in my pouch before leaving. Twice, sometimes. It is a useful habit. Less useful when someone notices that I have just told them I am ready. Give me a moment, friend. I would rather be thorough than return for something small.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2703_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2703",
+    "spoken": "[instructive] [serious] [steady] When you gather the fragments of the broken sigil, take them to Tor'gan. His skill can make them whole again. Do not mistake the pieces for something already ready to use, or a warded tomb for a chest left open. We need the protections answered properly if Trol'kalar is to serve the purpose Vol'jin has given us.",
+    "text": "When you gather the fragments of the broken sigil, take them to Tor'gan. His skill can make them whole again. Do not mistake the pieces for something already ready to use, or a warded tomb for a chest left open. We need the protections answered properly if Trol'kalar is to serve the purpose Vol'jin has given us.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore3184_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

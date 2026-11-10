@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Korin Fel, Hammerfall,2772/4046. Adult female Orc, Horde Friendly.
+    --680: Drum's wife; auguries reveal Or'Kalar's trap, she conceals signs
+    -- and seeks help. No universal foresight/class title inferred.
+    -- Saving the last sharp remark for later is original character writing.
+    -- Research: docs/research/korin-and-zengu-queue.md.
+    [2772] = {
+        quote = "I can stand by a difficult choice without enjoying it. If you have come to judge, first listen to what I am trying to protect.",
+        likes = { "Courage used to protect another person", "Someone who listens before judging", "A sharp remark saved for the right time" },
+        dislikes = { "Love dismissed as a kind of weakness", "Pride leading someone into a trap", "Being asked to foresee every small thing" },
+        gossip = "Korin sometimes lets a foolish remark pass without answering. The answer usually arrives later, when the speaker has grown rather pleased with himself.",
+        bio = "Korin lives at Hammerfall with her husband, Drum Fel. Her auguries reveal Or'Kalar's trap for him. Fearing Drum would rush toward his old enemy, she conceals the signs and asks another fighter to stop the ogre, defending her choice as an act of love.",
+        backstory = "Korin once thought of the perfect answer after a boastful visitor had left. Rather than waste it, she remembered it for his next visit. His surprise pleased her enough that she has since allowed herself a moment before deciding whether to answer a fool.",
+        secret = "She has forgotten the boast that prompted one of her favorite replies. The reply still pleases her. She is waiting for someone to earn it again.",
+        bestFriend = "Stay beside me. I value a friend who will hear a difficult thought through. With you, I need not prepare every word before speaking.",
+        favorite = { emote = "NOD", hint = "A small sign that you have heard her out means more than a grand display of certainty." },
+        lines = {
+            greet = { { "You have come to speak with me? Then listen before deciding what you think of my choice. There are dangers that pride makes worse, and people I mean to protect. I do not expect every decision to sit easily upon me. I do expect to consider what it will cost the people I love.", tone = "[firm] [measured] [serious]" },
+                "Come closer. I would rather speak plainly than make you guess at every silence." },
+            idle = { { "Once, a visitor had already left before I found the answer his boasting deserved. I kept it for his return. He looked so surprised that I almost laughed before finishing. Now I give myself a moment before answering foolishness. Sometimes the answer improves while the fool becomes more certain that he has impressed me.", tone = "[dryly amused] [deliberate] [warm]" },
+                "No, I cannot tell you what will happen to every buckle and misplaced spoon. Look where you left it.",
+                "A difficult choice deserves thought. It does not become easier merely because someone speaks loudly about honor." },
+            befriended = { { "You have listened long enough to hear more than the decision you first expected to judge. I value that. Come with me, friend. There are things I can say in your company without first arranging every word against an argument. We may still disagree. I would rather have your honest answer than an easy assurance you do not mean.", tone = "[warm] [sincere] [resolute]" } },
+            poke = { "Yes? I was considering whether that required an answer.", "I am listening. You need not settle your whole argument in the first breath." },
+            quest = { { "Or'Kalar bears an old hatred for my husband. My auguries warn of a trap, and I have kept its signs from Drum because I fear how quickly he would rush toward it. You may question my silence. I have questioned it myself. That has not made me willing to surrender his life to another person's revenge.", tone = "[grave] [protective] [resolute]" } },
+            rest = { "Sit a moment. You can consider the next decision without making it on tired legs." },
+            combatStart = { "Take care. An enemy may be counting on your anger." },
+            combatEnd = { "You are still here. Let us give that its proper weight before speaking of the next fight." },
+            lowHealth = { "Pull back. Pride is a poor bargain for your life." },
+            laughAlong = { "Yes, that answer was worth keeping. I am pleased you think so too." },
+            hearth = { "Back to Hammerfall. There are people there whose safety matters to me." },
+        },
+    },
+
+    -- Zengu, Hammerfall,2703/4013. Adult male Troll, Horde Friendly.
+    --638-646: seasoned Darkspear hunter on Vol'jin's Trol'kalar task;
+    -- Tor'gan reconstructs Thoradin sigil, onward delivery intended.
+    -- Recounting ordinary belongings is original; no retail death imported.
+    -- Research: docs/research/korin-and-zengu-queue.md.
+    [2703] = {
+        quote = "A great purpose can depend on one small piece. Look carefully before you tell me that everything is here.",
+        likes = { "Every piece accounted for", "Hunters who observe before pursuing", "Help offered with a task's purpose in mind" },
+        dislikes = { "A missing piece dismissed as unimportant", "Taking a warded tomb for an open chest", "Carelessness with another person's work" },
+        gossip = "Zengu counts the things in his pouch before leaving. Then he checks again, usually after telling someone else that he is quite ready.",
+        bio = "Vol'jin sent Zengu, a seasoned Darkspear hunter, to Hammerfall to oversee recovery of Trol'kalar. He seeks the sigils guarding Trollbane's tomb so the sword can serve the Darkspear against Zul'Gurub. Nimboya is his intended recipient at Grom'gol.",
+        backstory = "After explaining how much depended on gathering every sigil, Zengu caught himself checking his ordinary belongings twice. He found the habit useful. He is less pleased when someone notices that he has finished assuring them there is no need to delay.",
+        secret = "His second count sometimes buys time to remember what he meant to say before leaving. If you ask, he was being thorough.",
+        bestFriend = "Come, friend. I trust your care as much as your strength. If I count everything twice before we leave, give me a moment. I will be ready.",
+        favorite = { emote = "THANK", hint = "Recognition for the care behind a difficult task matters to him more than impatience for the result." },
+        lines = {
+            greet = { { "Welcome, friend. Have you come to help with the work before us? Vol'jin has given me a task that will need careful hands as well as strength. Trol'kalar lies behind protections we must gather the means to open. A missing piece will not become less important because the purpose behind it is great. We begin by paying attention.", tone = "[steady] [purposeful] [welcoming]" },
+                "There you are. Tell me what you found, and let us account for it properly." },
+            idle = { { "I explain how much depends on gathering every sigil, then find myself counting the ordinary things in my pouch before leaving. Twice, sometimes. It is a useful habit. Less useful when someone notices that I have just told them I am ready. Give me a moment, friend. I would rather be thorough than return for something small.", tone = "[wry] [conversational] [warm]" },
+                "Tor'gan can restore the broken sigil. I know better than to claim his work as mine.",
+                "A horse can carry a man far while you are still deciding where he ought to have been." },
+            befriended = { { "You have shown me care as well as strength, and I trust both. Come along, friend. A difficult purpose is easier to carry with someone who understands why the small things matter. If I check my pouch once more before we leave, give me a moment. I may also be remembering something I wanted to tell you.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes, friend? Have we overlooked a piece?", "One moment. I was remembering what I meant to say before we left." },
+            quest = { { "When you gather the fragments of the broken sigil, take them to Tor'gan. His skill can make them whole again. Do not mistake the pieces for something already ready to use, or a warded tomb for a chest left open. We need the protections answered properly if Trol'kalar is to serve the purpose Vol'jin has given us.", tone = "[instructive] [serious] [steady]" } },
+            loot = { "Check carefully. Small things have a way of becoming the reason a great task must wait." },
+            bagsFull = { "Make room before another useful piece is lost among things you meant to sort yesterday." },
+            group = { "Good. Let everyone understand the task before we begin dividing it among ourselves." },
+            rest = { "Take the moment. I would rather begin with everything accounted for." },
+            laughAlong = { "Twice is thorough. A third count might mean I have forgotten my own story." },
+            hearth = { "Back to Hammerfall. Let us be certain we have what we came for." },
+        },
+    },
+
     -- Gretta Finespindle <Journeyman Leatherworker>, Ironforge,1466/10620.
     -- Adult female Gnome, Alliance Friendly. Gossip: impatient hide-curing,
     -- refers advanced students to Fimble. Forever96031 teaches Camp Tent.

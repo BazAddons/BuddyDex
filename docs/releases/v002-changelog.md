@@ -1,6 +1,7 @@
 # BuddyDex v002
 
 ## More friends across Azeroth
+- Add Korin Fel and Zengu: full female Orc/male Troll Hammerfall profiles, fifteen personal lines and four approved v4 signatures each, grounded in The Real Threat and the Trol'kalar quest chain.
 - Add Gretta Finespindle and Drum Fel: full female Gnome/male Orc profiles, fifteen personal lines and four approved v4 signatures each; include Gretta's Forever camping lesson and Drum's quest-confirmed relationship with Korin.
 
 - Add Caylais Moonfeather and Tharm: full female Night Elf/male Tauren flight-master profiles, fifteen personal lines and four approved v4 signatures each; validate their actual Elite friendship thresholds without changing interaction gains.
@@ -69,7 +70,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **412 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **414 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.
