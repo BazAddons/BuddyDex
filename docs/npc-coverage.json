@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 291,
-    "unverified": 155,
-    "horde": 266
+    "alliance": 292,
+    "unverified": 156,
+    "horde": 267
   },
   "npc_race_counts": {
     "1": 167,
@@ -17,8 +17,8 @@
     "8": 54,
     "9": 43,
     "6": 81,
-    "96": 16,
-    "95": 22
+    "96": 17,
+    "95": 23
   },
   "zone_counts": {
     "Elwynn Forest": 28,
@@ -57,7 +57,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 37,
+    "Zephras Isle": 39,
     "Riverglades": 9
   },
   "entries": [
@@ -8206,6 +8206,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254082"
     },
     {
+      "npc_id": 254084,
+      "name": "Elayaa Easewind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly and Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254084"
+    },
+    {
       "npc_id": 254089,
       "name": "Coriella Calmbreeze",
       "zone": "Zephras Isle",
@@ -8442,6 +8456,17 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257037"
+    },
+    {
+      "npc_id": 258294,
+      "name": "Eelitha Fernstep",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Explicit Horde Neutral; public Friendly access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258294"
     },
     {
       "npc_id": 258306,
@@ -8857,6 +8882,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 691,
-  "awaiting_signature_audio_profiles": 237
+  "authored_profiles": 693,
+  "awaiting_signature_audio_profiles": 239
 }

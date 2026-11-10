@@ -3073,6 +3073,20 @@
       "zone": "The Barrens",
       "route": "Ratchet quartermaster",
       "reason": "Complete adult profile with fifteen personal lines queued; Full six-good stock/item review and original label-consistent rumples; Horde Neutral access remains subject to live checks; no synthesis"
+    },
+    {
+      "npc_id": 254084,
+      "name": "Elayaa Easewind",
+      "zone": "Zephras Isle",
+      "route": "Shendar shared hunter training",
+      "reason": "Complete adult female Skyborne profile, fifteen lines queued; shared Friendly evidence and full taming handoff; no synthesis"
+    },
+    {
+      "npc_id": 258294,
+      "name": "Eelitha Fernstep",
+      "zone": "Zephras Isle",
+      "route": "Shadowgale Nightclaw resident",
+      "reason": "Complete adult female Skyborne profile, fifteen lines queued; Neutral access remains subject to live checks; neighboring quest deeds not transferred; no synthesis"
     }
   ]
 }

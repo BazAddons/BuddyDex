@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Elayaa Easewind and Eelitha Fernstep: two full adult female Skyborne profiles with thirty personal lines queued.
+- Research all124hunter lessons, the five-stage taming handoff and independent Nightclaw context while preserving faction/neutral eligibility.
+
 - Add Faldreas Goeth'Shael, Dank Drizzlecut and Winklespark: three complete adult profiles with forty-five personal lines queued.
 - Research the full Stonetalon referral chain, current mining lessons and six quartermaster goods; retain neutral-unit eligibility checks.
 

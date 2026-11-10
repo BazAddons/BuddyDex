@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Elayaa Easewind, Shen'dar Village, Zephras. Adult High Order
+    -- Skyborne female137999/M2 7478494, both factions Friendly.
+    -- All124lessons, three installed greetings and full94007/94978/
+    -- 94979/94013/94050chain read. Loose buckle anecdote is original.
+    -- Research: docs/research/zephras-loose-buckles-and-fern-courtesy.md
+    [254084] = {
+        quote = "Before you blame a beast for the noise, check your own buckle. I include myself in that advice.",
+        likes = { "A pupil noticing what the teacher missed", "Patient attention before a sudden move", "A companion's needs taken seriously" },
+        dislikes = { "A careless noise blamed on the wilds", "Confidence mistaken for readiness", "Treating an animal as mere equipment" },
+        gossip = "Elayaa welcomes a pupil noticing the smallest sound. She has learned to accept it gracefully when the sound comes from her own equipment.",
+        bio = "Elayaa Easewind trains hunters in Shen'dar Village. She warns of harsher winds and Zephras's fading magic, teaching survival to protect her people. When learners are ready for an animal companion, she sends them to Quel'ana Quickgale.",
+        backstory = "She had just explained the value of quiet movement when a loose buckle rattled. A pupil noticed. She fastened it properly, allowed the laugh and began again. The interruption became a useful reminder to apply her own lesson first.",
+        secret = "She was pleased the pupil heard it. Noticing the teacher's mistake meant the lesson had worked, even if the demonstration needed a less dignified ending.",
+        bestFriend = "Come along. If my buckle rattles, tell me. I trust you to notice, and I enjoy knowing we can share the laugh afterward.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates quiet attention that remains ready to notice something the instructor herself has missed.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Shall we go? Keep your attention on the way ahead, and feel free to point out anything I ought to have noticed too.", tone = "[confident] [welcoming]" }, "Ready. A little care before moving is more useful than a grand explanation of the noise afterward." },
+            idle = { { "I had just explained quiet movement when my own buckle rattled. A pupil noticed. I fastened it, allowed the laugh and began again. At least the listening part of the lesson had worked.", tone = "[wry] [good-humored]" }, "The winds grow harsher, and the magic sustaining Zephras is fading. People need hunters who can look after more than their own pride.", "When a learner is ready for an animal companion, Quel'ana can begin the taming instruction. Knowing when to send someone onward is part of teaching." },
+            befriended = { { "You have become a friend whose attention I trust and whose company I enjoy. Come along. We can learn from what the other notices without making a contest of it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you noticed a sound, tell me what it was before deciding what must have made it.", "I hear you. A question is welcome. An unnecessarily loud demonstration of the question may be less helpful." },
+            learned = { { "Well noticed. Keep that care when the lesson feels familiar. A teacher's loose buckle is a useful reminder that knowing is not always the same as remembering.", tone = "[approving] [lightly amused]" } },
+            gear = { "Check how it sits before moving. Something useful can still make exactly the wrong noise when you forget to fasten it." },
+            zone = { "Watch the land and the wind together. Familiar surroundings still deserve your attention when conditions change." },
+            quest = { "Hear the instructions through. Being eager for an animal companion is a good beginning, but it does not replace learning how to care for one." },
+            rest = { "A pause. Let your attention settle without turning every sound into the next thing you must chase." },
+            combatEnd = { "It is over. Check on your companions before congratulating yourself on what you managed alone." },
+            thanked = { "You are welcome. Keep noticing, including when I am the one who needs the reminder. I would rather have a careful companion than an audience." },
+        },
+    },
+
+    -- Eelitha Fernstep, Nightclaw Druid, Shadowgale, Zephras. Adult
+    -- Windshaper Skyborne female138043/M2 7478494, Horde Neutral.
+    -- Own current tabs empty; no installed gossip. Independent order
+    -- confirmed by faction2758. Fern apology is original, not a quest.
+    -- Research: docs/research/zephras-loose-buckles-and-fern-courtesy.md
+    [258294] = {
+        quote = "That fern did not step into my way. I stepped into its place. The distinction deserves a little care.",
+        likes = { "Careful steps through living undergrowth", "Courtesy without a demand for an answer", "A visitor respecting the grove's quiet" },
+        dislikes = { "Crushing what one has stopped to admire", "Assuming silence is an invitation", "Promises made for the whole forest" },
+        gossip = "Eelitha has been heard asking a fern's pardon. She seems more concerned with remembering her own feet than with waiting for a reply.",
+        bio = "Eelitha Fernstep is a Windshaper Skyborne Nightclaw Druid in Shadowgale Forest on Zephras Isle. The secretive order remains independent of the island's other factions. She values a visitor who takes care where they step.",
+        backstory = "She stopped to admire the forest and nearly stepped on a fern beside her. The apology came before she had considered how it sounded. It has become a small way of reminding herself that admiring a place is not the same as moving through it carefully.",
+        secret = "She knows the fern is not waiting for an apology. The words are for her: a moment to notice where she is standing before taking another thoughtless step.",
+        bestFriend = "Walk beside me. You need not ask the fern's pardon too. I would enjoy your company and the care you bring along with it.",
+        favorite = {
+            emote = "BOW",
+            hint = "She appreciates a little courtesy that makes room for another presence without insisting on a reply.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "You have come. Walk carefully, and we can share the way for a while. There is room for company without making the whole grove answer to it.", tone = "[quiet] [welcoming]" }, "Ready. Notice where you are placing your feet as well as what you have come to admire." },
+            idle = { { "I stopped to admire the forest and nearly trod on a fern. I asked its pardon. I do not expect an answer; the reminder is meant for the person who forgot where she was stepping.", tone = "[reflective] [dryly amused]" }, "A quiet visitor can still be a careless one. Silence does not tell the undergrowth where you intend to put your foot.", "The Nightclaw follow our own way. A visitor should not mistake courtesy for a promise made on behalf of every druid here." },
+            befriended = { { "You have become someone whose presence I am pleased to share the path with. Come along, friend. You need not make yourself into a grand occasion to be welcome beside me.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? I hear you. Give the question a little space before deciding that a louder version will be clearer.", "You have my attention. We can speak without requiring the whole forest to become part of the conversation." },
+            zone = { { "Look where you are standing. Admiration is a fine beginning, but a place also has to endure how we move through it.", tone = "[steady] [thoughtful]" } },
+            bowBack = { "Acknowledged. Courtesy is pleasant when it leaves room for the other presence rather than demanding a performance from it." },
+            rest = { "A pause. Notice what is close at hand. The small thing beside your foot need not be splendid before it deserves care." },
+            group = { "Let everyone find room before pressing onward. A place shared carefully is different from one simply filled with more feet." },
+            comforted = { "Thank you. You need not promise an answer to everything. Your care in this moment is something I can recognize." },
+            quest = { "Hear what is actually being asked. Offering to help does not give us the right to decide what every other person must want." },
+            thanked = { "You are welcome. Carry the care with you after the words have passed. That is the part the path will receive." },
+        },
+    },
+
     -- Faldreas Goeth'Shael, Astranaar, Ashenvale. Adult Night Elf male
     -- 4172/M2 974343, Alliance Neutral. Full1056/1057/1059chain read.
     -- Brief directions becoming longer is original; no Edune/Cata

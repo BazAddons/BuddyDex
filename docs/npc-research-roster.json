@@ -3402,5 +3402,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Goblin man; Full six-good stock/item review and original label-consistent rumples; Horde Neutral access remains subject to live checks; no Scout sighting claimed",
     "research_notes": "docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md"
+  },
+  {
+    "npc_id": 254084,
+    "name": "Elayaa Easewind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne woman; both Friendly,124training rows, three installed greetings and full five-stage hunter handoff; original buckle anecdote; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md"
+  },
+  {
+    "npc_id": 258294,
+    "name": "Eelitha Fernstep",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne woman; Horde Neutral, all own tabs empty/no installed gossip, independent Nightclaw faction definition; original fern apology; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md"
   }
 ]

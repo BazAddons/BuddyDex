@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 691,
-  "written_complete_count": 691,
-  "awaiting_signature_audio_count": 237,
+  "authored_count": 693,
+  "written_complete_count": 693,
+  "awaiting_signature_audio_count": 239,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 239,
+  "remaining_count": 241,
   "completed": [
     {
       "npc_id": 54,
@@ -1338,7 +1338,7 @@
       "npc_id": 1701,
       "name": "Dank Drizzlecut",
       "zone": "Dun Morogh",
-      "source": "Reviewed adult Night Elf/Dwarf/Goblin men; exact current neutral/friendly distinctions, full own pages and three-stage peak chain; original directions/snow appraisal/creases distinguished; no Scout sighting claimed",
+      "source": "Reviewed adult Dwarf man; Full current mining lessons and original mock snow appraisal; Alliance Friendly quarry contact; no Scout sighting claimed",
       "research_notes": "docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md",
       "written_lines": 15,
       "personal_recordings": 0,
@@ -3763,7 +3763,7 @@
       "npc_id": 3996,
       "name": "Faldreas Goeth'Shael",
       "zone": "Ashenvale",
-      "source": "Reviewed adult Night Elf/Dwarf/Goblin men; exact current neutral/friendly distinctions, full own pages and three-stage peak chain; original directions/snow appraisal/creases distinguished; no Scout sighting claimed",
+      "source": "Reviewed adult Night Elf man; Full three-stage Stonetalon chain and original route-brevity writing; Alliance Neutral access remains subject to live checks; no Scout sighting claimed",
       "research_notes": "docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md",
       "written_lines": 15,
       "personal_recordings": 0,
@@ -6605,6 +6605,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 254084,
+      "name": "Elayaa Easewind",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Skyborne woman; both Friendly,124training rows, three installed greetings and full five-stage hunter handoff; original buckle anecdote; no Scout sighting claimed",
+      "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 254089,
       "name": "Coriella Calmbreeze",
       "zone": "Zephras Isle",
@@ -6811,6 +6823,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 258294,
+      "name": "Eelitha Fernstep",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Skyborne woman; Horde Neutral, all own tabs empty/no installed gossip, independent Nightclaw faction definition; original fern apology; no Scout sighting claimed",
+      "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 258306,
       "name": "Granny Finespindle",
       "zone": "Ironforge",
@@ -7000,7 +7024,7 @@
       "npc_id": 265574,
       "name": "Winklespark",
       "zone": "The Barrens",
-      "source": "Reviewed adult Night Elf/Dwarf/Goblin men; exact current neutral/friendly distinctions, full own pages and three-stage peak chain; original directions/snow appraisal/creases distinguished; no Scout sighting claimed",
+      "source": "Reviewed adult Goblin man; Full six-good stock/item review and original label-consistent rumples; Horde Neutral access remains subject to live checks; no Scout sighting claimed",
       "research_notes": "docs/research/astranaar-directions-quarry-snow-and-ratchet-creases.md",
       "written_lines": 15,
       "personal_recordings": 0,

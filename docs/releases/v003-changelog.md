@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Elayaa Easewind and Eelitha Fernstep: two full adult female Skyborne profiles with thirty personal lines queued.
+- Research all124hunter lessons, the five-stage taming handoff and independent Nightclaw context while preserving faction/neutral eligibility.
+
 - Add Faldreas Goeth'Shael, Dank Drizzlecut and Winklespark: three complete adult profiles with forty-five personal lines queued.
 - Research the full Stonetalon referral chain, current mining lessons and six quartermaster goods; retain neutral-unit eligibility checks.
 
@@ -333,4 +336,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **691 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **693 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
