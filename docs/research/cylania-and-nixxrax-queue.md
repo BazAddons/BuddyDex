@@ -27,3 +27,21 @@ Actual [primary NixxraxNPC](https://www.wowhead.com/forever/npc=2832/nixxrax-fil
 [Wiki indexed Nixxrax](https://warcraft.wiki.gg/wiki/Nixxrax_Fillamug) confirms male Goblin/Salty Sailor, but its Cape of Stranglethorn pin/modern drinks and scaled levels are later. Use current old-world1434map/primary quest; no later Cataclysm model or post-flood geography. Actual current display7180 already verified male/adult, no race inference from surname.
 
 Before authoring: full relevant referral/relationships context, explicit numeric98463 installed check, actual relevant item/readable/literary checks, original hooks and Neutral eligibility sessions. No profiles or recordings yet;404 complete remains accurate. Earlier source gaps and wider1510-name goal remain active.
+
+
+## Final source and original-writing checkpoint
+
+Exact numeric installed98463 absent. Kelly2366 current starts page independently lists98463; actual primary full objective/description/completion previously read, no separate published progress. No additional direct referral stage identified; current quest metadata doesn't impose a friendship prerequisite. No invented familial/business partnership or ownership of Salty Sailor asserted.
+
+Targeted personal novel/comic checks identified no relevant passage read for either NPC; no exhaustive absence claim. These ordinary stock items expose no named personal readable lore in the sources used. Attempted primary current Junglevine Wine4595 tooltip returned verification, Chainmail Armor847 cache miss. Current stock rows establish inventory without inventing origin, manufacture, exact present price or unobserved item text. Modern Cylania blacksmithing gossip/Dragonflight quests remain excluded.
+
+Unused wine context: actual primary Classic619 Enticing Negolash read (food/wine on Smotts' Revenge lifeboat, completion places meal); current Forever619 timed out. Full Classic8552 Monogrammed Sash/8553 Captain's Cutlass/8554 Facing Negolash bodies read, plus8551 Captain's Chest context. Sprogger's cooking and Smotts' lost ships/crews belong to them, not Nixxrax. Old alternate615/618 and new Forever changed chain/event comparisons remain unverified, no current quest availability or Nixxrax personal participation invented. Profile uses only his independently verified current sale of the wine and direct98463 welcome, not this unrelated adventure's outcome. No unread sash/compass/chest hidden text assumed.
+
+Original additions: Cylania's customer who can pose but not reach comfortably, amusement at heroic entrances, favorite pose of her own and preferences. These are not canonical tailored-armor crafting or training claims. Nixxrax's collection/borrowing of clever customer comebacks, remembered reply and friendship humor are original; no free-drink, currency discount or trade override mechanic promised. His actual payment joke and welcoming98463 completion provide the seed.
+
+Ten fields/fifteen supported lines each, lore21lines each: Cylania3/5/6/4/3, Nixxrax3/6/5/4/3. Four v4 signatures greet/idle/befriended plus Cylania learned/Nixxrax quest. Favorite GRIN/APPLAUD. Eight clips decoded finite/nonsilent mono22050Hz0.5-25seconds; exact approved model/voice/text/hidden-tone/source/runtime paths passed. Full main23/Scout6-file smoke suite passed. Separate CylaniaAlliance reaction5 and NixxraxHorde/Alliance reaction4 fresh sessions passed, including attackable/reaction3 rejection, HELLO25+favorite150, exactly one recorded first-Buddy welcome/flag and generic-role exclusion. No live visual/attackability or human listening claim. Nixxrax remains unverified Friendly coverage despite conditional Neutral eligibility.
+
+
+## Delivered checkpoint
+
+406 authored profiles. Friendly coverage Alliance205/Horde109/unverified99; seven shared overlap. Nixxrax public Neutral remains unverified Friendly, not silently added to faction counts. Installed/hash-verified6158releasefiles/10updated; separate development v002 ZIP verified6158files/6130audio mappings/124.34MiB. Original public candidate preserved, no CF upload/tag. Next [Hannah and Shay](hannah-and-shay-queue.md), neither complete. Short backlog4 is not the wider1510-name scope. Earlier explicit current readable/unused variant/literary limits remain active.

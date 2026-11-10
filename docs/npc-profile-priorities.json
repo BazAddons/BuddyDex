@@ -1070,14 +1070,28 @@
       "name": "Cylania",
       "zone": "Darnassus",
       "route": "Female Night Elf/male Goblin services; neutral access requires live gates",
-      "reason": "Exact current named adult model and established voice checked; Alliance Friendly Cylania/Horde Neutral Nixxrax. Full research pending. See docs/research/cylania-and-nixxrax-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; actual repair/vendor and tavern-referral roles, Neutral/non-attackability gates and source/original-writing limits in docs/research/cylania-and-nixxrax-queue.md"
     },
     {
       "npc_id": 2832,
       "name": "Nixxrax Fillamug",
       "zone": "Stranglethorn Vale",
       "route": "Female Night Elf/male Goblin services; neutral access requires live gates",
-      "reason": "Exact current named adult model and established voice checked; Alliance Friendly Cylania/Horde Neutral Nixxrax. Full research pending. See docs/research/cylania-and-nixxrax-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; actual repair/vendor and tavern-referral roles, Neutral/non-attackability gates and source/original-writing limits in docs/research/cylania-and-nixxrax-queue.md"
+    },
+    {
+      "npc_id": 4575,
+      "name": "Hannah Akeley",
+      "zone": "Undercity",
+      "route": "Female/male Forsaken Horde reagent and inn services",
+      "reason": "Exact current named adult model/Horde Friendly/approved voice individually checked; full own research pending. See docs/research/hannah-and-shay-queue.md"
+    },
+    {
+      "npc_id": 2388,
+      "name": "Innkeeper Shay",
+      "zone": "Hillsbrad Foothills",
+      "route": "Female/male Forsaken Horde reagent and inn services",
+      "reason": "Exact current named adult model/Horde Friendly/approved voice individually checked; full own research pending. See docs/research/hannah-and-shay-queue.md"
     }
   ]
 }

@@ -39,6 +39,46 @@
     "text": "Cork and Rigger need the caravan to arrive, and I need them to keep paying for the kodos. That gives all of us an interest in seeing the road go well. It also gives me an excellent reason to complain about escort expenses.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore2832_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2832",
+    "spoken": "[warm] [sincere] [wry] You have become someone I am glad to see before I start wondering what you will order. Come along, pal. Bring a story, or save a sharp answer for the next bad joke I try on you. We can enjoy the conversation without making every word part of a sales pitch. I know the difference.",
+    "text": "You have become someone I am glad to see before I start wondering what you will order. Come along, pal. Bring a story, or save a sharp answer for the next bad joke I try on you. We can enjoy the conversation without making every word part of a sales pitch. I know the difference.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore2832_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2832",
+    "spoken": "[bright] [wry] [welcoming] Welcome to the Salty Sailor, pal. Looking for something to eat or something to fill the mug? I can help with both. If you have already heard my first-drink joke, bring a better answer this time. I enjoy a customer who can keep up with the conversation while remembering which side of the counter handles payment.",
+    "text": "Welcome to the Salty Sailor, pal. Looking for something to eat or something to fill the mug? I can help with both. If you have already heard my first-drink joke, bring a better answer this time. I enjoy a customer who can keep up with the conversation while remembering which side of the counter handles payment.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore2832_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2832",
+    "spoken": "[conversational] [amused] [lively] A customer once had a better answer to my sales pitch than I had prepared. I laughed, took the coin, and remembered the line. Now I listen more carefully when somebody grins before replying. A good sale can be entertaining on both sides of the counter. I am happy to give the other side a chance.",
+    "text": "A customer once had a better answer to my sales pitch than I had prepared. I laughed, took the coin, and remembered the line. Now I listen more carefully when somebody grins before replying. A good sale can be entertaining on both sides of the counter. I am happy to give the other side a chance.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore2832_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2832",
+    "spoken": "[welcoming] [upbeat] [wry] Kelly sent you my way? Then you have arrived where the recommendation intended. There is plenty of company at the Salty Sailor, and I am pleased to help you enjoy the visit. Stay a while. Tell me what you would like, keep a little coin ready, and do not be afraid to answer a bad joke with a better one.",
+    "text": "Kelly sent you my way? Then you have arrived where the recommendation intended. There is plenty of company at the Salty Sailor, and I am pleased to help you enjoy the visit. Stay a while. Tell me what you would like, keep a little coin ready, and do not be afraid to answer a bad joke with a better one.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3391_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

@@ -1398,14 +1398,28 @@
     "npc_id": 4164,
     "name": "Cylania",
     "zone": "Darnassus",
-    "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+    "source": "Exact named adult models and voices checked; full current stock/relations, installed gossip and actual Forever tavern referral researched. Explicit Neutral access/stock-era/literary limits and unused wine-chain context; no Scout sighting claimed",
     "research_notes": "docs/research/cylania-and-nixxrax-queue.md"
   },
   {
     "npc_id": 2832,
     "name": "Nixxrax Fillamug",
     "zone": "Stranglethorn Vale",
-    "source": "Exact current named adult model/voice checked; Cylania Alliance Friendly, Nixxrax public Horde Neutral not Friendly/shared coverage. Full research pending, no Scout sighting claimed",
+    "source": "Exact named adult models and voices checked; full current stock/relations, installed gossip and actual Forever tavern referral researched. Explicit Neutral access/stock-era/literary limits and unused wine-chain context; no Scout sighting claimed",
     "research_notes": "docs/research/cylania-and-nixxrax-queue.md"
+  },
+  {
+    "npc_id": 4575,
+    "name": "Hannah Akeley",
+    "zone": "Undercity",
+    "source": "Exact current named adult model/Horde Friendly/voice checked; primary actual zone agrees despite Hannah parent-map pin. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/hannah-and-shay-queue.md"
+  },
+  {
+    "npc_id": 2388,
+    "name": "Innkeeper Shay",
+    "zone": "Hillsbrad Foothills",
+    "source": "Exact current named adult model/Horde Friendly/voice checked; primary actual zone agrees despite Hannah parent-map pin. Full research pending, no Scout sighting claimed",
+    "research_notes": "docs/research/hannah-and-shay-queue.md"
   }
 ]

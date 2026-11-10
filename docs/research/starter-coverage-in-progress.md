@@ -491,3 +491,10 @@ Next individually verified [Gershala and Jandia](gershala-and-jandia-queue.md), 
 404 completed authored profiles. Adult male Night Elf/female Tauren,15 personal lines/four approved v4 signatures each. Friendly coverage Alliance204/Horde109/unverified98, seven shared overlaps. [Sources/writing/validation](gershala-and-jandia-queue.md) preserves unfinished corruption research/actual Argos brotherhood and caravan protection, distinct from invented friendly moments. Lore20/21lines/full smoke/separate fresh Alliance/Horde sessions passed. Installed/dev ZIP6150files/6122mappings/123.77MiB. No live visual/listening claim, original CF candidate preserved/publication deferred.
 
 Next individually checked [Cylania and Nixxrax](cylania-and-nixxrax-queue.md), adult female Night Elf/male Goblin services. Nixxrax public Horde Neutral requires ordinary live gates and is not Friendly/shared coverage. Neither authored. Wider1510-name scope and earlier explicit source gaps remain active.
+
+
+## 2026-11-09: Cylania and Nixxrax Fillamug
+
+406 authored profiles. Adult female Night Elf/male Goblin,15 personal lines/four approved v4 signatures each. [Research/validation](cylania-and-nixxrax-queue.md) preserves actual armor repair/stock and current Kelly tavern referral, with original character moments. Lore21lines each/full smoke/three fresh Alliance/Horde sessions passed; Nixxrax ordinary Neutral4 accepted only non-attackable, reaction3/attackable rejected. Friendly coverage Alliance205/Horde109/unverified99, seven shared overlap. Nixxrax is not public Friendly/shared coverage. Installed/dev ZIP6158files/6130mappings/124.34MiB; no live visual/listening claim, no CF publish.
+
+Next individually checked [Hannah and Shay](hannah-and-shay-queue.md), adult female/male Forsaken Horde services, neither counted complete. Hannah primary Undercity location overrides a parent Tirisfal map pin. Wider1510-name pool and earlier explicit source gaps remain active.

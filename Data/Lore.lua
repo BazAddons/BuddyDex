@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cylania <Night Elf Armorer>, Darnassus,4164/2199.
+    -- Adult female Night Elf, Alliance-friendly Repair/Vendor,36 current
+    -- cloth/leather/mail pieces. No confirmed current profession training.
+    -- Heroic posing anecdote is original; later Dream Warden roles excluded.
+    -- Research: docs/research/cylania-and-nixxrax-queue.md.
+    [4164] = {
+        quote = "Lift your arms. Turn. Now bend a little. You may look heroic standing still, but the road is unlikely to let you remain that way.",
+        likes = { "Equipment suited to its wearer", "A repair attended to before the journey", "A fine pose followed by a comfortable step" },
+        dislikes = { "A brave appearance hiding a poor fit", "Damage ignored until it becomes trouble", "Equipment chosen only to impress a crowd" },
+        gossip = "Cylania lets a customer enjoy a heroic pose before asking them to bend. She has a surprisingly practiced eye for both parts of the performance.",
+        bio = "Cylania sells armor and offers repairs in Darnassus. Knitted and heavy weave clothing share her stock with leather and mail. Her practical range serves travelers choosing equipment for the next road, rather than a single kind of warrior.",
+        backstory = "A customer once stood very proudly in new armor until she asked him to reach for something. The pose was excellent; the movement was less convincing. She has enjoyed giving a dramatic entrance its moment before asking how the wearer intends to walk away.",
+        secret = "She has a favorite heroic pose of her own. She calls it checking how the equipment sits. A friend who catches the expression on her face may suspect otherwise.",
+        bestFriend = "Come along. You need not stand impressively on my account. I would rather enjoy the road with you moving comfortably beside me.",
+        favorite = { emote = "GRIN", hint = "A knowing flash of amusement suits an armorer who appreciates the performance as well as the practical fit." },
+        lines = {
+            greet = { { "Welcome. Looking for equipment, or bringing something back for repair? Tell me what the next journey asks of you. You may try the heroic stance afterward. I am willing to admire it for a moment before asking you to lift your arms and turn. A fine appearance should survive the first comfortable step.", tone = "[warm] [practical] [gently amused]" },
+                "Good to see you. Is the equipment ready for the road, or only for an impressive entrance?" },
+            idle = { { "A customer once stood very proudly in his new armor. Then I asked him to reach for something. The look on his face changed considerably. I still let people enjoy a fine pose before asking them to move. There is pleasure in the performance, provided they can manage the journey after their audience has gone.", tone = "[conversational] [wry] [warm]" },
+                "Cloth, leather, mail. Begin with what suits the wearer and the journey.",
+                "An impressive entrance is pleasant. Being able to leave comfortably deserves some attention too." },
+            befriended = { { "You have become someone I am happy to walk beside after the equipment has been put right. Come along, friend. We can enjoy the road without preparing an audience first. If you catch me looking rather pleased with a heroic pose of my own, you may grin. I shall know exactly what you have noticed.", tone = "[warm] [sincere] [lightly amused]" } },
+            poke = { "Yes? Have you tested the comfortable step yet?", "I am listening. You may relax the heroic expression." },
+            learned = { { "Try moving before you decide the choice is perfect. Lift your arms, turn, and consider the journey ahead. Equipment has work to do beyond looking impressive in front of a seller. Bring damage for attention before it grows worse. There will be time to admire the entrance after you know you can walk away from it.", tone = "[instructive] [steady] [gently amused]" } },
+            loot = { "A promising piece? Consider how it suits you before practicing the victorious stance." },
+            bagsFull = { "Leave room to carry things properly. An awkward pack will spoil even a very fine entrance." },
+            rest = { "You can sit comfortably without diminishing the effect of your earlier heroics." },
+            laughAlong = { "Yes, I have tried the pose myself. I thought it best to understand the customer's point of view." },
+            lowHealth = { "Get clear of the fighting. Your equipment is easier to put right than its wearer." },
+            hearth = { "Back to Darnassus. We can see what needs attention before another journey." },
+        },
+    },
+
+    -- Nixxrax Fillamug <Food and Drink>, Salty Sailor,2832/7180.
+    -- Adult male Goblin, current public Horde Neutral; live gates remain.
+    --98463 Kelly referral, actual payment joke,19 current food/drink rows.
+    -- Collecting customer comebacks is original, no free-drink mechanic.
+    -- Research: docs/research/cylania-and-nixxrax-queue.md.
+    [2832] = {
+        quote = "A good joke gets my attention. A good customer settles the bill too. Manage both and I may remember you before you remember what you ordered.",
+        likes = { "A sharp answer to a familiar sales pitch", "A customer enjoying the tavern", "A bill settled without a grand argument" },
+        dislikes = { "Mistaking a sales joke for a free drink", "Good mugs broken for a poor story", "A long performance about an unpaid tab" },
+        gossip = "Nixxrax remembers a clever comeback as readily as an order. Some of his best sales jokes once belonged to the customers.",
+        bio = "Nixxrax sells food and drinks at the Salty Sailor Tavern in Booty Bay. Barkeep Kelly recommends the lively place to travelers. Nixxrax welcomes the company and the trade; his joke about the first drink carefully leaves the payment with the customer.",
+        backstory = "A customer once answered his familiar pitch with a better joke. Nixxrax laughed, collected the payment and remembered the reply. Since then he has paid attention to visitors who can make a sale entertaining from the other side of the counter.",
+        secret = "Some of his best lines began as customers' comebacks. When a friend recognizes one, he grins and hopes the original speaker will improve it again.",
+        bestFriend = "Come along, pal. Bring your best answer to my next bad joke. Your company is something I can enjoy without adding it to the bill.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation for the performance pleases a seller who enjoys his own sales patter." },
+        lines = {
+            greet = { { "Welcome to the Salty Sailor, pal. Looking for something to eat or something to fill the mug? I can help with both. If you have already heard my first-drink joke, bring a better answer this time. I enjoy a customer who can keep up with the conversation while remembering which side of the counter handles payment.", tone = "[bright] [wry] [welcoming]" },
+                "There you are, pal. Got a good order, a good story, or a better answer to my last joke?" },
+            idle = { { "A customer once had a better answer to my sales pitch than I had prepared. I laughed, took the coin, and remembered the line. Now I listen more carefully when somebody grins before replying. A good sale can be entertaining on both sides of the counter. I am happy to give the other side a chance.", tone = "[conversational] [amused] [lively]" },
+                "There is bread and milk as well as wine. Tell me what you actually want before admiring the bottles.",
+                "A lively room is good for business. So is keeping the mugs in one piece." },
+            befriended = { { "You have become someone I am glad to see before I start wondering what you will order. Come along, pal. Bring a story, or save a sharp answer for the next bad joke I try on you. We can enjoy the conversation without making every word part of a sales pitch. I know the difference.", tone = "[warm] [sincere] [wry]" } },
+            poke = { "Yes, pal? Is that an order or the beginning of a good comeback?", "I heard you. Give me a moment to prepare a suitably clever answer." },
+            quest = { { "Kelly sent you my way? Then you have arrived where the recommendation intended. There is plenty of company at the Salty Sailor, and I am pleased to help you enjoy the visit. Stay a while. Tell me what you would like, keep a little coin ready, and do not be afraid to answer a bad joke with a better one.", tone = "[welcoming] [upbeat] [wry]" } },
+            loot = { "Something worth celebrating? You can begin with the story before deciding what to order." },
+            bagsFull = { "Make room for your purchases before explaining what a fine customer you intend to be." },
+            rest = { "Sit a while, pal. A good conversation need not be swallowed as quickly as the last mouthful." },
+            laughAlong = { "That was a good answer. I may need to borrow it when the next customer arrives." },
+            mail = { "Good news? I like a story that gives the room something pleasant to talk about." },
+            hearth = { "Back toward familiar company. I wonder who has been improving my jokes while I was away." },
+        },
+    },
+
     -- Gershala Nightwhisper, Auberdine, Darkshore,8997/8229.
     -- Adult male Night Elf, Alliance-friendly.3765 confirms brother Argos;
     --1275 studies naga/satyr corruption, fears blood elves' demonic path.

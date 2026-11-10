@@ -2,6 +2,8 @@
 
 ## More friends across Azeroth
 
+- Add Cylania and Nixxrax Fillamug: full female Night Elf/male Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain actual armor/repair and tavern roles with normal Neutral eligibility gates.
+
 - Add Gershala Nightwhisper and Jandia: full male Night Elf/female Tauren profiles, fifteen personal lines and four approved v4 signatures each; preserve Gershala's unfinished corruption research and Jandia's Freewind caravan protection.
 
 - Add Bashana Runetotem and Jandi: full female Tauren/Troll profiles, fifteen personal lines and four approved v4 signatures each; preserve Bashana's research and relic referral, and Jandi's actual Incense Candle lesson.
@@ -62,7 +64,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **404 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **406 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

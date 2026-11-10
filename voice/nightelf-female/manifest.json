@@ -239,6 +239,46 @@
     "text": "A small supply can make the difference between setting work aside and finishing it. Thread, a vial, the tool you nearly forgot. It is worth taking a moment to remember what you need before filling every space with something merely interesting.",
     "voice_id": "XcBDzfqZip1cdcLC3B2W"
   },
+  "lore4164_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4164",
+    "spoken": "[warm] [sincere] [lightly amused] You have become someone I am happy to walk beside after the equipment has been put right. Come along, friend. We can enjoy the road without preparing an audience first. If you catch me looking rather pleased with a heroic pose of my own, you may grin. I shall know exactly what you have noticed.",
+    "text": "You have become someone I am happy to walk beside after the equipment has been put right. Come along, friend. We can enjoy the road without preparing an audience first. If you catch me looking rather pleased with a heroic pose of my own, you may grin. I shall know exactly what you have noticed.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore4164_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4164",
+    "spoken": "[warm] [practical] [gently amused] Welcome. Looking for equipment, or bringing something back for repair? Tell me what the next journey asks of you. You may try the heroic stance afterward. I am willing to admire it for a moment before asking you to lift your arms and turn. A fine appearance should survive the first comfortable step.",
+    "text": "Welcome. Looking for equipment, or bringing something back for repair? Tell me what the next journey asks of you. You may try the heroic stance afterward. I am willing to admire it for a moment before asking you to lift your arms and turn. A fine appearance should survive the first comfortable step.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore4164_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4164",
+    "spoken": "[conversational] [wry] [warm] A customer once stood very proudly in his new armor. Then I asked him to reach for something. The look on his face changed considerably. I still let people enjoy a fine pose before asking them to move. There is pleasure in the performance, provided they can manage the journey after their audience has gone.",
+    "text": "A customer once stood very proudly in his new armor. Then I asked him to reach for something. The look on his face changed considerably. I still let people enjoy a fine pose before asking them to move. There is pleasure in the performance, provided they can manage the journey after their audience has gone.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
+  "lore4164_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4164",
+    "spoken": "[instructive] [steady] [gently amused] Try moving before you decide the choice is perfect. Lift your arms, turn, and consider the journey ahead. Equipment has work to do beyond looking impressive in front of a seller. Bring damage for attention before it grows worse. There will be time to admire the entrance after you know you can walk away from it.",
+    "text": "Try moving before you decide the choice is perfect. Lift your arms, turn, and consider the journey ahead. Equipment has work to do beyond looking impressive in front of a seller. Bring damage for attention before it grows worse. There will be time to admire the entrance after you know you can walk away from it.",
+    "voice_id": "XcBDzfqZip1cdcLC3B2W"
+  },
   "lore5499_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
