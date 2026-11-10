@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gwyn Farrow and Innkeeper Bates at the Sepulcher: full adult Forsaken profiles with thirty personal lines queued for their approved voices.
+- Give Gwyn crisp mushroom-merchant humor and Bates measured hospitality, with researched roles and normal character-specific friendship rewards.
+
 - Add Alanndarian Nightsong, Tharnariun Treetender and Jartsam: three full adult Night Elf profiles with forty-five personal lines queued.
 - Ground the Darkshore entries in their distinct deer/bear story outcomes; retain actual riding services and normal live friendship rules without later retail fates.
 
@@ -57,4 +60,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **510 fully written NPC profiles**: 454 have initial signature recordings, and fifty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **512 fully written NPC profiles**: 454 have initial signature recordings, and fifty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

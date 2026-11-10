@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gwyn Farrow <Mushroom Merchant>, Sepulcher, Silverpine Forest.
+    -- Adult Forsaken female display4528/M2 997378; Horde Neutral. Current
+    -- title/map verified, vendor rows absent; Classic stock corroborated by
+    -- Forever logger. No own quests or installed gossip. Original manners
+    -- and mushroom humor; no family, poison lore or service invented.
+    -- Research: docs/research/sepulcher-hospitality-and-mushrooms.md
+    [5886] = {
+        quote = "A mushroom is allowed to look peculiar. I extend the same courtesy to my customers.",
+        likes = { "Unusual mushroom caps", "Customers who ask questions", "Being taken seriously" },
+        dislikes = { "Mystical guesses about dinner", "Crushed merchandise", "The word disgusting" },
+        gossip = "Gwyn can turn a remark about mushrooms into a lecture on manners. Apparently, the mushrooms have better ones.",
+        bio = "Gwyn Farrow is the Sepulcher's Forsaken Mushroom Merchant. She meets the stares her title invites with crisp dignity: peculiar food is still food, and a peculiar customer is still a customer.",
+        backstory = "She once tried answering every startled look with a grand explanation. It only encouraged more staring. Now she waits for an actual question. An awkward silence is wonderfully difficult to interrupt.",
+        secret = "She enjoys a truly inventive insult about mushrooms. She will defend their honor, of course, but she may borrow the wording later.",
+        bestFriend = "You can tell me you dislike mushrooms. I trust you to mean the mushrooms.",
+        favorite = {
+            emote = "NOD",
+            hint = "A little acknowledgment goes further than a stare.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "A familiar face. How pleasantly unremarkable.", tone = "[raspy] [welcoming]" }, "Shall we go? My dignity travels well." },
+            idle = { { "That would make a magnificent mushroom cap. The hat, I mean.", tone = "[raspy] [dry]" }, "I have heard every joke about mold. Surprise me.", "You may ask. I prefer a question to a prolonged expression." },
+            befriended = { { "You stayed for the conversation. Very well. I shall stay for yours.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? Use your words. We have so many interesting ones.", "I am not checking whether you are ripe." },
+            loot = { { "Unusual does not mean worthless. Look properly.", tone = "[raspy] [firm]" } },
+            mail = { "A letter. I hope its author remembered their manners." },
+            bagsFull = { "You have room for opinions, but nothing else." },
+            mount = { "A fine mount. I shall keep my remarks about its odor to myself." },
+            rest = { "A pause. We need not fill it with explanations." },
+            zone = { "Different surroundings. The same astonished looks." },
+            cheerAlong = { "There. Enthusiasm without anyone shouting about mold." },
+        },
+    },
+
+    -- Innkeeper Bates, Sepulcher, Silverpine Forest. Adult Forsaken male
+    -- display7633/M2 959310; Horde Neutral, actual innkeeper/vendor services
+    -- and twelve current provisions. No own quests. Installed greeting and
+    -- inn/dungeon prompts corroborate role; no film biography or kinship.
+    -- Quiet hospitality and forgetful pauses are original BuddyDex writing.
+    -- Research: docs/research/sepulcher-hospitality-and-mushrooms.md
+    [6739] = {
+        quote = "An inn should give you a place to stop, not another reason to hurry.",
+        likes = { "Unhurried arrivals", "Quiet conversations", "Guests who come back" },
+        dislikes = { "Orders barked across a room", "Boasts before introductions", "Mud tracked indoors" },
+        gossip = "Bates can make an impatient traveler lower their voice without raising his. No one has worked out the trick.",
+        bio = "Innkeeper Bates welcomes travelers at the Sepulcher in Silverpine Forest. His trade includes provisions and a place to bind a hearthstone. For all the forest's troubles, his welcome makes room for a pause.",
+        backstory = "He used to answer a hurried greeting just as quickly. The conversation became a race neither person enjoyed. So he began leaving a moment before his reply. People sometimes found a better question in it.",
+        secret = "There is no innkeeper's trick to his calming silence. Occasionally he has simply forgotten what he meant to say. He lets people keep their theories.",
+        bestFriend = "Stay a moment. You needn't buy anything, or tell a marvelous story. I am glad you came back.",
+        favorite = {
+            emote = "GREET",
+            hint = "He appreciates a proper greeting before getting down to business.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "No rush. I am coming with you.", tone = "[raspy] [measured]" }, "Good to see you somewhere other than the doorway." },
+            idle = { { "We could enjoy the quiet before somebody improves it.", tone = "[raspy] [dry]" }, "A journey need not become a competition.", "I had a thought. Let it find its own way back." },
+            befriended = { { "I know you as a guest. I should like to know you as a friend.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? You have my attention.", "I was listening. The pause was included." },
+            hearth = { { "A sensible destination. Leave some of the hurry outside.", tone = "[raspy] [reassuring]" } },
+            rest = { "There. Nothing requires an answer just this moment." },
+            mail = { "A letter can wait until you have found somewhere quiet." },
+            bagsFull = { "Before buying more, consider what you meant to use." },
+            taxi = { "The bat may be in a hurry. You need not be." },
+            landed = { "Arrived. Take a moment to notice." },
+            quest = { "Tell me what happened when you are ready." },
+        },
+    },
+
     -- Alanndarian Nightsong, Auberdine, Darkshore. Adult female Night Elf
     -- 3702/display4487, Alliance Friendly. CurrentPetTrainer title does not
     -- prove a working pet service. Full druid poison chain and historical

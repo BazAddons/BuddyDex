@@ -4,7 +4,7 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 221,
-    "unverified": 131,
+    "unverified": 133,
     "horde": 167
   },
   "npc_race_counts": {
@@ -12,7 +12,7 @@
     "3": 38,
     "7": 29,
     "2": 64,
-    "5": 48,
+    "5": 50,
     "4": 32,
     "8": 38,
     "9": 24,
@@ -30,7 +30,7 @@
     "Ironforge": 37,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
-    "Silverpine Forest": 4,
+    "Silverpine Forest": 6,
     "Teldrassil": 9,
     "Hillsbrad Foothills": 3,
     "Arathi Highlands": 11,
@@ -4573,6 +4573,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5884"
     },
     {
+      "npc_id": 5886,
+      "name": "Gwyn Farrow",
+      "zone": "Silverpine Forest",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5886"
+    },
+    {
       "npc_id": 5887,
       "name": "Canaga Earthcaller",
       "zone": "Durotar",
@@ -4802,6 +4813,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6727"
+    },
+    {
+      "npc_id": 6739,
+      "name": "Innkeeper Bates",
+      "zone": "Silverpine Forest",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6739"
     },
     {
       "npc_id": 6740,
@@ -6536,6 +6558,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 510,
-  "awaiting_signature_audio_profiles": 56
+  "authored_profiles": 512,
+  "awaiting_signature_audio_profiles": 58
 }

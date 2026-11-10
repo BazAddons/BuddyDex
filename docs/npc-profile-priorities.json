@@ -1806,6 +1806,20 @@
       "zone": "Darnassus",
       "route": "Night Elf onward route, two Auberdine care stories and Darnassus riding",
       "reason": "Full researched text and fifteen queued lines; approved adult Night Elf female/male voices; separate deer/bear outcomes and riding conditions, live gates unchanged, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 5886,
+      "name": "Gwyn Farrow",
+      "zone": "Silverpine Forest",
+      "route": "Sepulcher Forsaken onward route",
+      "reason": "Complete researched personality/lore and fifteen queued lines; approved female/male Forsaken voice, Neutral live gates preserved, no synthesis"
+    },
+    {
+      "npc_id": 6739,
+      "name": "Innkeeper Bates",
+      "zone": "Silverpine Forest",
+      "route": "Sepulcher Forsaken onward route",
+      "reason": "Complete researched personality/lore and fifteen queued lines; approved female/male Forsaken voice, Neutral live gates preserved, no synthesis"
     }
   ]
 }

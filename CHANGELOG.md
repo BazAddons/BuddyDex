@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gwyn Farrow and Innkeeper Bates at the Sepulcher: full adult Forsaken profiles with thirty personal lines queued for their approved voices.
+- Give Gwyn crisp mushroom-merchant humor and Bates measured hospitality, with researched roles and normal character-specific friendship rewards.
+
 - Add Alanndarian Nightsong, Tharnariun Treetender and Jartsam: three full adult Night Elf profiles with forty-five personal lines queued.
 - Ground the Darkshore entries in their distinct deer/bear story outcomes; retain actual riding services and normal live friendship rules without later retail fates.
 

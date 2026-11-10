@@ -1,0 +1,35 @@
+# Sepulcher hospitality and mushrooms
+
+Reviewed 2026-11-10. Two individually reviewed external catalog identities, not claimed Scout sightings. High Executor Hadrec1952 remains a separate, unauthored research task: his substantial quest chains need full review.
+
+## Identity and access
+
+[Current Gwyn5886](https://forever.warcraftdb.com/api/data/node/npc/5886): Mushroom Merchant, undead humanoid16, display4528, character M2 997378, Silverpine1421 position44.1190/39.8096. Installed body mapping4528:5:1 and current [Martha Strain5753](https://forever.warcraftdb.com/api/data/node/npc/5753) adult model4149/M2 997378 corroborate female Forsaken body. [Current Bates6739](https://forever.warcraftdb.com/api/data/node/npc/6739): Innkeeper, undead humanoid30, display7633, character M2 959310, position43.2143/41.3096. Installed body7633:5:0 and current [Shadow Priest Sarvis1569](https://forever.warcraftdb.com/api/data/node/npc/1569) adult model1584/M2 959310 corroborate male Forsaken. Age is not inferred from level or size. Catalog exact names each resolve to one ID, no same-name variants.
+
+Both current reaction fields are Horde Neutral. Neither is counted as public Friendly coverage; actual reaction>=4 and nonattackability remain mandatory. No whitelist or faction inference from race. Profiles do not discover NPCs automatically, grant services, or transfer character progress.
+
+## Gwyn: sparse current merchant data
+
+[Current starts](https://forever.warcraftdb.com/api/data/node/npc/5886/tab/starts?page=1), [ends](https://forever.warcraftdb.com/api/data/node/npc/5886/tab/ends?page=1), [sells](https://forever.warcraftdb.com/api/data/node/npc/5886/tab/sells?page=1), [teaches](https://forever.warcraftdb.com/api/data/node/npc/5886/tab/teaches?page=1) all return zero rows/pages. This does not establish removal of her merchant function. [Classic NPC](https://classicdb.ch/?npc=5886) lists six fungi: Forest Mushroom Cap4604, Red-speckled Mushroom4605, Spongy Morel4606, Delicious Cave Mold4607, Raw Black Truffle4608, Dried King Bolete8948. No Classic quest links or own installed gossip block found. No quest chain was identified to follow; do not turn a broad quest-giver flag into a fictional quest.
+
+[Forever player logger](https://www.warcraftforever.wiki/wiki/Gwyn_Farrow) independently records the same location, merchant title and six stock names. [Quest & Relic](https://questandrelic.com/en/db/npcs/5886) records that stock in a test version only, not evidence of current live availability. [Warcraft Wiki](https://warcraft.wiki.gg/wiki/Gwyn_Farrow) confirms sex/race/job; its proposed relatives are explicitly speculative. Guard Farrow/Ludin Farrow relationships excluded. No poison, medicine, mushroom cultivation, family, or historical personal tragedy established. No exact price or stock promised.
+
+Original BuddyDex writing: brisk dignity, preference for questions over staring, defending peculiar food and customers, formerly overexplaining, and secretly enjoying inventive insults. These are invented character traits, not quest or canon history. NOD is an authored favorite. Fifteen new lines, approved forsaken-female, four hidden raspy delivery tags; no recording requests.
+
+## Bates: verified inn role
+
+[Current starts](https://forever.warcraftdb.com/api/data/node/npc/6739/tab/starts?page=1), [ends](https://forever.warcraftdb.com/api/data/node/npc/6739/tab/ends?page=1), [teaches](https://forever.warcraftdb.com/api/data/node/npc/6739/tab/teaches?page=1) zero rows/pages; [sells](https://forever.warcraftdb.com/api/data/node/npc/6739/tab/sells?page=1) one complete page, twelve rows: those same six fungi plus Refreshing Spring Water, Ice Cold Milk, Melon Juice, Sweet Nectar, Moonberry Juice, Morning Glory Dew. Explicit Innkeeper/Vendor services. [Classic NPC](https://classicdb.ch/?npc=6739) corroborates all twelve and no quest links. No own quest chain found.
+
+Installed SpokenQuestsAudioGossip/generated/npc_gossip_file_lookups.lua6739 corroborates welcoming weary visitors and inn/dungeon prompts, with generic holiday/dungeon background shared by innkeepers. This is installed text, not a newly observed live conversation. [Forever logger](https://www.warcraftforever.wiki/wiki/Innkeeper_Bates) corroborates greeting, inn binding, browsing and dungeon advice. [Wiki](https://warcraft.wiki.gg/wiki/Innkeeper_Bates) likewise confirms inn role but includes retail meat inventory and historical holiday goods: neither imported into current stock. Possible Psycho name homage is not a personal biography. No invented murders, mother, Norman/Morley/Overseer/Julia kinship or later retail events.
+
+Original BuddyDex writing: measured hospitality, leaving room for silence, learning not to rush a reply, and sometimes forgetting his thought while guests interpret the pause as wisdom. GREET is an authored favorite. Fifteen new lines, approved forsaken-male, four hidden raspy delivery tags. Inn binding is an ordinary game service, not a friendship reward. No physical sleep/healing or personal dungeon expertise asserted.
+
+## Validation
+
+Main/Scout smoke passes with zero load errors/failures, including all lore/page/favorite/line budgets and fresh/existing per-character roster isolation. Targeted actual-addon harness C:/Users/brett/AppData/Local/Temp/buddydex-sepulcher-512.py confirms both named adult identities, approved live and declared voice groups, fifteen unrecorded lines each and accepted favorites. Fresh Horde scenarios reject attackable and reaction3 units without discovery; reaction4/nonattackable units receive25ordinary/150favorite points;99/100and299/300 tiers pass, early companion activation rejects and300activates text-only welcome without substituted sound. Generic guards reject. Initial targeted check caught unsupported vendor/rain/cheer moments: replaced with supported mail/mount/cheerAlong and reran successfully. No runtime/storage code changed. No live game visual or human audio listening claimed.
+
+Final offline decoded-audio/exact-text audit:9335missing jobs/576900tagged inputcharacters, shared3548/personal5787, no MiniMe gaps. Both new sources have15jobs in approved groups and supported final moments;30newjobs/1822characters. Queue C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-512/queue.json. Existing recordings retained; no synthesis/account/billing calls or credit spending.
+
+512fully written/454initial signature audio/58awaiting initial audio. Public Friendly221Alliance/167Horde/133unverified, nine shared overlaps. Two uncertain Westfall identities remain unprofiled; catalog1536namegroups/1549identities unchanged. No invented Scout sightings.
+
+Developmentv003 installed/hash-verified6362releasefiles, one runtime file updated. ZIP6362files/6334audio mappings/138.44MiB; source/installed/ZIP Lore bytes match and CRC passes. SHA256 `f0333865e45ab5614d52c35e47a45a5ff68707b2770c77c08d91bb662b1c21cc`. Raw current/Classic evidence cached outside git at C:/Users/brett/BuddyDex-builds/silverpine-return. Publishedv002 unchanged, no tag or CurseForge publication.

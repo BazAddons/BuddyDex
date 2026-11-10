@@ -2135,5 +2135,19 @@
     "zone": "Darnassus",
     "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
     "research_notes": "docs/research/darkshore-care-and-nightsaber-riding.md"
+  },
+  {
+    "npc_id": 5886,
+    "name": "Gwyn Farrow",
+    "zone": "Silverpine Forest",
+    "source": "Individually reviewed adult model, current own tabs, Classic stock and installed dialogue; sparse Gwyn service rows documented, not a claimed Scout sighting",
+    "research_notes": "docs/research/sepulcher-hospitality-and-mushrooms.md"
+  },
+  {
+    "npc_id": 6739,
+    "name": "Innkeeper Bates",
+    "zone": "Silverpine Forest",
+    "source": "Individually reviewed adult model, current own tabs, Classic stock and installed dialogue; sparse Gwyn service rows documented, not a claimed Scout sighting",
+    "research_notes": "docs/research/sepulcher-hospitality-and-mushrooms.md"
   }
 ]
