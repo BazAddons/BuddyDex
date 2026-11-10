@@ -1302,6 +1302,20 @@
       "zone": "Thunder Bluff",
       "route": "Male Goblin inn inhabitant and female Tauren skinning trainer coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kozish-and-mooranta-queue.md"
+    },
+    {
+      "npc_id": 3481,
+      "name": "Barg",
+      "zone": "The Barrens",
+      "route": "Male Orc Crossroads general supplies and Orgrimmar banking coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/barg-and-soran-queue.md"
+    },
+    {
+      "npc_id": 3320,
+      "name": "Soran",
+      "zone": "Orgrimmar",
+      "route": "Male Orc Crossroads general supplies and Orgrimmar banking coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/barg-and-soran-queue.md"
     }
   ]
 }

@@ -1631,5 +1631,19 @@
     "zone": "Thunder Bluff",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/kozish-and-mooranta-queue.md"
+  },
+  {
+    "npc_id": 3481,
+    "name": "Barg",
+    "zone": "The Barrens",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/barg-and-soran-queue.md"
+  },
+  {
+    "npc_id": 3320,
+    "name": "Soran",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/barg-and-soran-queue.md"
   }
 ]

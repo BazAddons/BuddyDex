@@ -582,3 +582,8 @@ Completed maleTauren CampTaurajoStableMaster9983 and maleTroll ValleyofHonorStab
 ### 2026-11-09: Kozish and Mooranta (438)
 
 Completed maleGoblin BrokenTusk inhabitant5610 and femaleTauren skinning trainer7089: fifteen lines/four approvedv4signatures each. Full sources/era/original limits: docs/research/kozish-and-mooranta-queue.md. Uncorroborated deprecatedKozishdelivery/cousin/pirate story omitted; no specific Mooranta camping quest inferred. Normal emote eligibility/gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,286files/devZIP133.74MiB/6,258runtime mappings. Public207Alliance/138Horde/100unverified sevenoverlaps. Widercatalog active, CF deferred/public original preserved.
+
+
+### 2026-11-09: Barg and Soran (440)
+
+Completed maleOrc Crossroads general supplier3481 and Orgrimmar banker3320: fifteen lines/four approvedv4signatures each. Full sources/era/original limits: docs/research/barg-and-soran-queue.md. Actual15rowstock and SoranHyjal/banksecuritydialogue, no guessed Armoryownership/latergruntrole. Normal gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,294files/devZIP134.35MiB/6,266runtime mappings. Public207Alliance/140Horde/100unverified sevenoverlaps. Widercatalog active, CF deferred/public original preserved.

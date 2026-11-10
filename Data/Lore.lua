@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Barg <General Supplies>, Crossroads/Barrens,3481/3868.
+    -- Adult male Orc/HordeFriendly/Normal. Actual15-row stock;
+    -- bow on ordinary parcel original, no wrapping mechanic promised.
+    -- Research: docs/research/barg-and-soran-queue.md.
+    [3481] = {
+        quote = "Useful supplies deserve a good presentation. A bow does not make the parcel lighter, but it can improve the face of the person opening it.",
+        likes = { "A traveler remembering the small supplies", "An ordinary parcel received with a smile", "A bow that stays where he tied it" },
+        dislikes = { "Discovering a forgotten need on the road", "Mistaking fine wrapping for fine contents", "A practical question hurried aside" },
+        gossip = "Barg once tied a bow on an ordinary parcel of supplies. The recipient smiled before opening it, which pleased him more than the sale.",
+        bio = "Barg stocks the Crossroads with bags, ammunition, throwing weapons, drinks, and everyday supplies. Red-ribboned wrapping paper sits among the practical goods; he enjoys a little ceremony around an ordinary parcel.",
+        backstory = "Barg tied a bow on a plain parcel instead of handing it over without ceremony. The recipient smiled before discovering the useful contents. Since then he has enjoyed making a simple errand feel like something worth receiving with a little pleasure.",
+        secret = "He enjoys the moment before the parcel opens, when the bow has already done its work. He knows the contents are ordinary. The smile is the part he was hoping for.",
+        bestFriend = "Come, friend. I enjoy seeing you. There need not be a purchase or a parcel for the welcome to have some ceremony.",
+        favorite = { emote = "SMILE", hint = "Let him see the little pleasure a well-presented ordinary errand can bring." },
+        lines = {
+            greet = { { "Welcome, friend. Have you remembered the small things you will want on the road? It is easier to settle the question here than discover the answer halfway through the journey. If the supplies arrive with a little ceremony, indulge me. I once tied a bow on an ordinary parcel and saw the smile before it opened. I rather enjoyed that part.", tone = "[friendly] [practical] [gently amused]" },
+                "There you are. Supplies, a question, or a little ceremony to improve the errand?" },
+            idle = { { "I tied a bow on a plain parcel, and the recipient smiled before opening it. The contents were ordinary, useful things. Nothing rare or astonishing. I enjoyed how a simple errand became pleasant before the goods were even examined. A bow does not make the load lighter, of course. I make no claims for it beyond that first smile.", tone = "[amused] [conversational] [warm]" },
+                "A small thing forgotten can become a large inconvenience once you are well along the road.",
+                "Fine wrapping is pleasant. It still matters what is inside." },
+            befriended = { { "I am glad to see you, friend. You have become someone whose visit I enjoy after the list of supplies is finished. Stay a moment. There need not be a purchase or a parcel to give a welcome some ceremony. Tell me how you have been. An ordinary conversation can improve the day before we reach anything rare or astonishing.", tone = "[warm] [sincere] [friendly]" } },
+            poke = { "Yes? Tell me what you need.", "The bow is behaving itself. I have time to listen." },
+            loot = { { "Look at what you will actually use before filling the rest of your pack. A useful bag, something to drink, the small supply you would regret forgetting: these deserve a moment of thought. There may be nothing grand about the list. Still, an ordinary thing ready when you need it can make a journey considerably more pleasant.", tone = "[instructive] [practical] [warm]" } },
+            bagsFull = { "Consider the contents before improving the presentation. A bow will not create more room." },
+            mail = { "A parcel? I hope the contents are as welcome as the presentation." },
+            quest = { "Good work. Did the ordinary preparations turn out to be useful?" },
+            rest = { "A moment to sit. We need not turn every conversation into a list of supplies." },
+            laughAlong = { "Yes, a splendid bow. You still have to carry what is underneath it." },
+            hearth = { "Back to the Crossroads. I will be glad to hear how the supplies served you." },
+        },
+    },
+
+    -- Soran <Banker>, Valley of Strength/Orgrimmar,3320/1320.
+    -- Adult male Orc/HordeFriendly/Normal. Actual bank-security gossip,
+    -- Hyjal with brothers; cat/seat original, no later grunt role imported.
+    -- Research: docs/research/barg-and-soran-queue.md.
+    [3320] = {
+        quote = "I take the bank's security personally. The cat occupying my seat is a different matter. It has made a persuasive case for remaining there.",
+        likes = { "Clients trusting him to guard their goods", "The strength of his brothers beside him", "A quiet afternoon with business settled" },
+        dislikes = { "A threat to the bank or its clients", "Careless promises about another's property", "Being reminded the cat has won his seat" },
+        gossip = "Soran promises to face anyone threatening the bank. A cat asleep on his intended seat has discovered a less confrontational approach.",
+        bio = "Soran is a banker in Orgrimmar's Valley of Strength. He speaks of fighting at Hyjal with his brothers and guarantees the bank's security personally: thieves must face them as well as the Grunts outside.",
+        backstory = "Soran meant to sit during a quiet moment, but found a friendly cat asleep in the place he wanted. He let it remain. Later, when someone asked whether he had reclaimed the seat, he found himself making a rather stern defense of the cat's comfort.",
+        secret = "He could have encouraged the cat to move. He enjoyed the quiet company instead. Defending its place has become an easier explanation than admitting he likes standing nearby.",
+        bestFriend = "Stay, friend. I trust your company. If the seat is occupied, we can enjoy the quiet without arguing over who has won it.",
+        favorite = { emote = "SALUTE", hint = "A respectful acknowledgment suits someone who takes protecting the bank and its clients personally." },
+        lines = {
+            greet = { { "Welcome. Your goods are a responsibility I take personally. I have spoken plainly enough about what anyone seeking to steal from this bank would face. My brothers and I fought at Hyjal. We are not relying only on the Grunts outside. If you are wondering why I am standing here, the cat has made a separate arrangement concerning the seat.", tone = "[firm] [confident] [dryly amused]" },
+                "Back again. Settle your business, then tell me how you have been." },
+            idle = { { "I meant to sit for a quiet moment. The cat had reached the place first and was asleep. I let it remain. Someone later asked whether I had reclaimed the seat, and I heard myself giving a very firm explanation of why the cat should be comfortable. I could have moved it. I was enjoying the quiet company.", tone = "[dryly amused] [conversational] [restrained]" },
+                "A promise concerning another person's goods should be one you are prepared to keep.",
+                "The cat has not negotiated further. Apparently the original arrangement still suits it." },
+            befriended = { { "I am glad to have you here, friend. You have become someone whose company I welcome when the business is settled and there is a quiet moment to enjoy. Stay. If the seat is occupied, we need not argue over who has won it. I would rather hear how you have been than offer another stern explanation of why I am still standing.", tone = "[warm] [sincere] [dryly amused]" } },
+            poke = { "Yes? Speak. I am listening.", "The seat? I have already explained the arrangement." },
+            mail = { { "Attend to what has arrived, and keep the important details clear. Someone else's property deserves care, whether it comes with a grand description or very little ceremony. I have made my own promises about the goods entrusted here, and I mean them. Settle the business properly. There will be time for an easier conversation when it is done.", tone = "[instructive] [firm] [steady]" } },
+            loot = { "Keep track of what matters to you. A careless promise is no substitute for care." },
+            bagsFull = { "Take a moment to consider the goods before moving everything in a hurry." },
+            quest = { "Well done. It is good to see a responsibility carried through." },
+            rest = { "A quiet moment. The seat may already have an occupant, but you are welcome beside me." },
+            laughAlong = { "Yes, the cat won the seat. I see no reason to disturb a satisfactory arrangement." },
+            hearth = { "Back to Orgrimmar. I will be glad to see the business properly settled." },
+        },
+    },
+
     -- Kozish, Broken Tusk/Valley of Strength/Orgrimmar,5610/7137.
     -- Adult male Goblin/HordeFriendly/Normal. Inn inhabitant, no service;
     -- coin trick original, deprecated uncorroborated60121not imported.

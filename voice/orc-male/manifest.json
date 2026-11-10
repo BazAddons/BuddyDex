@@ -359,6 +359,46 @@
     "text": "Wrap the hard edges before you put that among the cloth. A little care now saves a great deal of cursing later. I have heard enough arguments with torn sleeves to know how those end.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore3320_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3320",
+    "spoken": "[warm] [sincere] [dryly amused] I am glad to have you here, friend. You have become someone whose company I welcome when the business is settled and there is a quiet moment to enjoy. Stay. If the seat is occupied, we need not argue over who has won it. I would rather hear how you have been than offer another stern explanation of why I am still standing.",
+    "text": "I am glad to have you here, friend. You have become someone whose company I welcome when the business is settled and there is a quiet moment to enjoy. Stay. If the seat is occupied, we need not argue over who has won it. I would rather hear how you have been than offer another stern explanation of why I am still standing.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3320_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3320",
+    "spoken": "[firm] [confident] [dryly amused] Welcome. Your goods are a responsibility I take personally. I have spoken plainly enough about what anyone seeking to steal from this bank would face. My brothers and I fought at Hyjal. We are not relying only on the Grunts outside. If you are wondering why I am standing here, the cat has made a separate arrangement concerning the seat.",
+    "text": "Welcome. Your goods are a responsibility I take personally. I have spoken plainly enough about what anyone seeking to steal from this bank would face. My brothers and I fought at Hyjal. We are not relying only on the Grunts outside. If you are wondering why I am standing here, the cat has made a separate arrangement concerning the seat.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3320_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3320",
+    "spoken": "[dryly amused] [conversational] [restrained] I meant to sit for a quiet moment. The cat had reached the place first and was asleep. I let it remain. Someone later asked whether I had reclaimed the seat, and I heard myself giving a very firm explanation of why the cat should be comfortable. I could have moved it. I was enjoying the quiet company.",
+    "text": "I meant to sit for a quiet moment. The cat had reached the place first and was asleep. I let it remain. Someone later asked whether I had reclaimed the seat, and I heard myself giving a very firm explanation of why the cat should be comfortable. I could have moved it. I was enjoying the quiet company.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3320_mail_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "mail",
+    "say": null,
+    "source": "lore:3320",
+    "spoken": "[instructive] [firm] [steady] Attend to what has arrived, and keep the important details clear. Someone else's property deserves care, whether it comes with a grand description or very little ceremony. I have made my own promises about the goods entrusted here, and I mean them. Settle the business properly. There will be time for an easier conversation when it is done.",
+    "text": "Attend to what has arrived, and keep the important details clear. Someone else's property deserves care, whether it comes with a grand description or very little ceremony. I have made my own promises about the goods entrusted here, and I mean them. Settle the business properly. There will be time for an easier conversation when it is done.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore3347_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -677,6 +717,46 @@
     "source": "lore:3449",
     "spoken": "[confident] [matter-of-fact] Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.",
     "text": "Good work. Tell it plainly. If somebody else did the dangerous part, give them the credit. A useful account names the right person, even when the story would sound better with your name in it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3481_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3481",
+    "spoken": "[warm] [sincere] [friendly] I am glad to see you, friend. You have become someone whose visit I enjoy after the list of supplies is finished. Stay a moment. There need not be a purchase or a parcel to give a welcome some ceremony. Tell me how you have been. An ordinary conversation can improve the day before we reach anything rare or astonishing.",
+    "text": "I am glad to see you, friend. You have become someone whose visit I enjoy after the list of supplies is finished. Stay a moment. There need not be a purchase or a parcel to give a welcome some ceremony. Tell me how you have been. An ordinary conversation can improve the day before we reach anything rare or astonishing.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3481_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3481",
+    "spoken": "[friendly] [practical] [gently amused] Welcome, friend. Have you remembered the small things you will want on the road? It is easier to settle the question here than discover the answer halfway through the journey. If the supplies arrive with a little ceremony, indulge me. I once tied a bow on an ordinary parcel and saw the smile before it opened. I rather enjoyed that part.",
+    "text": "Welcome, friend. Have you remembered the small things you will want on the road? It is easier to settle the question here than discover the answer halfway through the journey. If the supplies arrive with a little ceremony, indulge me. I once tied a bow on an ordinary parcel and saw the smile before it opened. I rather enjoyed that part.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3481_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3481",
+    "spoken": "[amused] [conversational] [warm] I tied a bow on a plain parcel, and the recipient smiled before opening it. The contents were ordinary, useful things. Nothing rare or astonishing. I enjoyed how a simple errand became pleasant before the goods were even examined. A bow does not make the load lighter, of course. I make no claims for it beyond that first smile.",
+    "text": "I tied a bow on a plain parcel, and the recipient smiled before opening it. The contents were ordinary, useful things. Nothing rare or astonishing. I enjoyed how a simple errand became pleasant before the goods were even examined. A bow does not make the load lighter, of course. I make no claims for it beyond that first smile.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3481_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:3481",
+    "spoken": "[instructive] [practical] [warm] Look at what you will actually use before filling the rest of your pack. A useful bag, something to drink, the small supply you would regret forgetting: these deserve a moment of thought. There may be nothing grand about the list. Still, an ordinary thing ready when you need it can make a journey considerably more pleasant.",
+    "text": "Look at what you will actually use before filling the rest of your pack. A useful bag, something to drink, the small supply you would regret forgetting: these deserve a moment of thought. There may be nothing grand about the list. Still, an ordinary thing ready when you need it can make a journey considerably more pleasant.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
   "lore3489_befriended_1.ogg": {

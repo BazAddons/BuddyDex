@@ -1,4 +1,5 @@
 # Unreleased
+- Add Barg and Soran: full Orc general-supplies and banker profiles, fifteen personal lines and four approved v4 signatures each; include Soran's established Hyjal and bank-security dialogue.
 - Add Kozish and Mooranta: full Goblin inn-patron and female Tauren skinning-trainer profiles, fifteen personal lines and four approved v4 signatures each; Kozish remains befriendable through normal friendly emotes without a service window.
 - Add Kelsuwa and Xon'cha: full Tauren and Troll stable-master profiles, fifteen personal lines and four approved v4 signatures each, with friendly emote access for every class under normal eligibility rules.
 - Add Zelena Favorbreeze and Zargh: full female Skyborne auctioneer and male Orc butcher profiles, fifteen personal lines and four approved v4 signatures each, with sourced Valanaar identity and Zargh's Gryshka delivery story.

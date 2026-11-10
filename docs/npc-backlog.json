@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 438,
+  "completed_count": 440,
   "remaining_count": 2,
   "completed": [
     {
@@ -1994,6 +1994,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 3320,
+      "name": "Soran",
+      "zone": "Orgrimmar",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/barg-and-soran-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 3333,
       "name": "Shankys",
       "zone": "Orgrimmar",
@@ -2259,6 +2269,16 @@
       "zone": "The Barrens",
       "source": "Reviewed current adult male Goblin model, Ratchet pin and Neutral icon; complete available shipment/parts/passenger branches, relevant book bodies, installed dialogue and literary-era limits; conditional live non-attackable access, no Scout sighting claimed",
       "research_notes": "docs/research/dizzywig-ledgers-and-paper-boats.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 3481,
+      "name": "Barg",
+      "zone": "The Barrens",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/barg-and-soran-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
