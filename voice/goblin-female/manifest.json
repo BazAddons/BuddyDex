@@ -239,6 +239,46 @@
     "text": "Marin had his dew, and I knew something that could make it taste better. A useful contribution deserves remembering. When you take the result back, do try to mention the person who helped before he starts announcing what a brilliant idea he had.",
     "voice_id": "GK7FvLcUviYyxNu6jR0D"
   },
+  "lore8496_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8496",
+    "spoken": "[warm] [sincere] [enthusiastic] You keep coming back to hear what I think, even when Marvon is not around. I appreciate that more than I can fit on a workshop sign. Come on, friend. We can talk through the next idea while we walk. You need not agree with every part. I would rather have a question that helps me make it better.",
+    "text": "You keep coming back to hear what I think, even when Marvon is not around. I appreciate that more than I can fit on a workshop sign. Come on, friend. We can talk through the next idea while we walk. You need not agree with every part. I would rather have a question that helps me make it better.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore8496_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8496",
+    "spoken": "[bright] [eager] [amused] Hi there! Marvon is still away, but you can talk to me. I have ideas of my own, and I would enjoy telling you about one. The workshop is not mine, before you ask. I am allowed to imagine the sign for a place of my own someday, though. I have been doing rather well with that part.",
+    "text": "Hi there! Marvon is still away, but you can talk to me. I have ideas of my own, and I would enjoy telling you about one. The workshop is not mine, before you ask. I am allowed to imagine the sign for a place of my own someday, though. I have been doing rather well with that part.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore8496_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8496",
+    "spoken": "[thoughtful] [hopeful] [conversational] I drew a workshop sign with my own name on it. Quite large, actually. Then I left a little room underneath for an apprentice. I suppose that is getting ahead of myself. Still, if I do have a place of my own someday, I want to remember how much it matters when someone listens to your first idea.",
+    "text": "I drew a workshop sign with my own name on it. Quite large, actually. Then I left a little room underneath for an apprentice. I suppose that is getting ahead of myself. Still, if I do have a place of my own someday, I want to remember how much it matters when someone listens to your first idea.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
+  "lore8496_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:8496",
+    "spoken": "[curious] [eager] [playful] Something new! Give me a moment to understand that before I decide what it might fit into. That is the difficult part, sometimes. An interesting idea can run a long way ahead of the explanation. Tell me how it works. I am listening, and I promise to ask before I try to improve it.",
+    "text": "Something new! Give me a moment to understand that before I decide what it might fit into. That is the difficult part, sometimes. An interesting idea can run a long way ahead of the explanation. Tell me how it works. I am listening, and I promise to ask before I try to improve it.",
+    "voice_id": "GK7FvLcUviYyxNu6jR0D"
+  },
   "lore9316_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

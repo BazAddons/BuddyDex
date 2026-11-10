@@ -1386,6 +1386,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Male Troll weapon-master and female Forsaken flight-service coverage",
       "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal Hanashi and Elite Zarise thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/hanashi-and-zarise-queue.md"
+    },
+    {
+      "npc_id": 8496,
+      "name": "Liv Rizzlefix",
+      "zone": "The Barrens",
+      "route": "Female Goblin workshop assistant and male Tauren quest-giver coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md"
+    },
+    {
+      "npc_id": 10539,
+      "name": "Hagar Lightninghoof",
+      "zone": "Thousand Needles",
+      "route": "Female Goblin workshop assistant and male Tauren quest-giver coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md"
     }
   ]
 }

@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 97,
-    "combined_retained_entries": 1528,
-    "candidate_name_groups": 1515,
+    "local_backlog_entries_missing_from_source": 98,
+    "combined_retained_entries": 1529,
+    "candidate_name_groups": 1516,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -14380,7 +14380,7 @@
           "source_page": 13,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "complete"
         }
       ]
     },
@@ -21211,6 +21211,23 @@
           "zone": "Stormwind City",
           "scout_reaction": 5,
           "scout_attackable": false,
+          "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Liv Rizzlefix",
+      "npc_ids": [
+        8496
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [],
+      "entries": [
+        {
+          "npc_id": 8496,
+          "name": "Liv Rizzlefix",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": false,
           "profile_status": "complete"
         }
       ]
@@ -39898,6 +39915,13 @@
     {
       "npc_id": 7731,
       "name": "Innkeeper Jayka",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": false,
+      "profile_status": "complete"
+    },
+    {
+      "npc_id": 8496,
+      "name": "Liv Rizzlefix",
       "source": "Existing local backlog; absent from source filter",
       "scout_observed": false,
       "profile_status": "complete"

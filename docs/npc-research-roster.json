@@ -1715,5 +1715,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Individually reviewed current named adult identity/model and all own tabs/gossip; Hanashi HordeNeutral conditional, Zarise HordeFriendly Elite; no Scout sighting claimed",
     "research_notes": "docs/research/hanashi-and-zarise-queue.md"
+  },
+  {
+    "npc_id": 8496,
+    "name": "Liv Rizzlefix",
+    "zone": "The Barrens",
+    "source": "Individually reviewed current named adult identity/model; full related quest chains and installed texts/gossip checked; Liv current access unverified, Hagar HordeFriendly; no Scout sighting claimed",
+    "research_notes": "docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md"
+  },
+  {
+    "npc_id": 10539,
+    "name": "Hagar Lightninghoof",
+    "zone": "Thousand Needles",
+    "source": "Individually reviewed current named adult identity/model; full related quest chains and installed texts/gossip checked; Liv current access unverified, Hagar HordeFriendly; no Scout sighting claimed",
+    "research_notes": "docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md"
   }
 ]

@@ -1,0 +1,5 @@
+# CurseForge publishing
+
+Verified BuddyDex project: **1793016**, https://www.curseforge.com/wow/addons/buddydex (owner Baz4k). User supplied author URL and saved a local token on2026-11-09. Configured repository Actions secret `CF_API_KEY` and variable `CF_PROJECT_ID=1793016`; secret value is outside the repository and never logged. GitHub connector has no Actions-secret capability; used authenticated GitHub CLI stdin to set encrypted secret.
+
+`.github/workflows/release.yml` follows BazUI's BigWigs packager workflow, with Forever flavor and verified project ID. Push a version tag to publish; hand-dispatch with `upload=false` only packages and retains an artifact. Verify that artifact before the release tag. Check workflow result and CurseForge receipt after tagging; a green packaging check alone is not publication proof. Existing public listing on2026-11-09 shows v001, not v002. Older274-profile v002 handoff remains preserved locally; latest development package452profiles verified before publication. Do not infer a prior manual v002 upload.

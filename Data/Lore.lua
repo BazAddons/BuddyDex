@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Liv Rizzlefix <Workshop Assistant>, Ratchet/Barrens,8496/7909.
+    -- Adult female Goblin; sparse current identity/public access unverified.
+    -- Installed gossip: Marvon mentor/absence, ambition, heavy chest outside.
+    -- Historical Zapper/volcanic chains researched; current IDs404, no promises.
+    -- Future workshop sign is original fiction; later Legion events excluded.
+    -- Research: docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md.
+    [8496] = {
+        quote = "Apprentice is a perfectly respectable title. Inventor will look even better on the sign someday.",
+        likes = { "A useful experiment of her own", "Someone taking her ideas seriously", "Space on a page for the next design" },
+        dislikes = { "Being mistaken for the workshop owner", "A chest too heavy to move alone", "Waiting for news that never arrives" },
+        gossip = "Liv has been sketching a workshop sign. She insists it is only practice, and that Marvon's name stays on the real door.",
+        bio = "Liv Rizzlefix looks after Marvon Rivetseeker's workshop in Ratchet while her mentor studies troll ruins. She admires him, worries about his long absence, and wants to become an inventor with ideas of her own.",
+        backstory = "While watching the workshop, Liv began working through experiments instead of merely waiting. Her studies turned toward volcanic ash and a prototype bug zapper. Alongside the notes, she started sketching a sign for a workshop she might run someday.",
+        secret = "On her imagined sign, her own name is large. Beneath it she has left room for an apprentice's name. She hopes she will remember what being taken seriously feels like.",
+        bestFriend = "You listen to the idea before asking where Marvon is. That means a lot. Come on, I want to hear what you think of this one.",
+        favorite = { emote = "NOD", hint = "Let her know you are following her idea, rather than waiting for her mentor." },
+        lines = {
+            greet = { { "Hi there! Marvon is still away, but you can talk to me. I have ideas of my own, and I would enjoy telling you about one. The workshop is not mine, before you ask. I am allowed to imagine the sign for a place of my own someday, though. I have been doing rather well with that part.", tone = "[bright] [eager] [amused]" },
+                "There you are! Have you come to hear the idea, or ask where Marvon went?" },
+            idle = { { "I drew a workshop sign with my own name on it. Quite large, actually. Then I left a little room underneath for an apprentice. I suppose that is getting ahead of myself. Still, if I do have a place of my own someday, I want to remember how much it matters when someone listens to your first idea.", tone = "[thoughtful] [hopeful] [conversational]" },
+                "I can remember a whole design and still lose track of that place name. Tanaris. There!",
+                "If that chest gets any heavier, I shall have to invent a different doorway for it." },
+            befriended = { { "You keep coming back to hear what I think, even when Marvon is not around. I appreciate that more than I can fit on a workshop sign. Come on, friend. We can talk through the next idea while we walk. You need not agree with every part. I would rather have a question that helps me make it better.", tone = "[warm] [sincere] [enthusiastic]" } },
+            learned = { { "Something new! Give me a moment to understand that before I decide what it might fit into. That is the difficult part, sometimes. An interesting idea can run a long way ahead of the explanation. Tell me how it works. I am listening, and I promise to ask before I try to improve it.", tone = "[curious] [eager] [playful]" } },
+            poke = { "Yes? That is not how you test the assistant.", "I am listening. Please do not knock the next idea out of place." },
+            loot = { "Useful for something? Let us find out before we call it scrap." },
+            gear = { "Mind if I have a look? I am interested in how the pieces fit." },
+            quest = { "Tell them what you found. The part that surprised you may be the useful part." },
+            bagsFull = { "Do not make me choose between the notes and the interesting bits!" },
+            rest = { "A moment to sit? Good. I have a question I have been saving." },
+            levelUp = { "Look at you! That deserves a larger space on the next page." },
+        },
+    },
+
+    -- Hagar Lightninghoof, Freewind Post/Thousand Needles,10539/10132.
+    -- Adult male Tauren/current HordeFriendly; Alien Egg4821/SerpentWild4865.
+    -- Curiosity becomes alarm; directs to Motega, not ritual caster or slayer.
+    -- Downstream Magatha/Cairne claim is uncertain, not Hagar's settled fact.
+    -- Cautious surprise/lid habit below is original BuddyDex writing.
+    -- Research: docs/research/liv-rizzlefix-and-hagar-lightninghoof-queue.md.
+    [10539] = {
+        quote = "A mystery is worth examining. That does not mean we must lean over it quite so closely.",
+        likes = { "A careful firsthand observation", "A question asked before lifting a lid", "Someone admitting when help is needed" },
+        dislikes = { "A rumor passed off as an examination", "An unexpected movement inside a parcel", "Curiosity forgetting the people nearby" },
+        gossip = "Hagar now asks a surprising number of questions before accepting a parcel. Nobody has persuaded him that 'a little surprise' is reassuring.",
+        bio = "Hagar Lightninghoof investigates a mysterious egg near Freewind Post. Curiosity turns to alarm when he recognizes danger connected to Arikara. He sends word to Motega Firemane rather than pretending he can answer every question alone.",
+        backstory = "The egg first reached Hagar as a rumor, guarded by serpents and poorly understood. Examining it brought a far more troubling discovery. Since then, he has tried to leave a little space between wanting an answer and putting his face beside it.",
+        secret = "A wrapped gift makes him ask whether anything inside can move. He knows the question sounds excessive. He would still prefer an answer before opening it.",
+        bestFriend = "You are a welcome surprise, my friend. No wrapping, no mysterious movement, and someone I am glad to see beside me.",
+        favorite = { emote = "NOD", hint = "Show him that a pause for a careful question is worth taking." },
+        lines = {
+            greet = { { "There you are, friend. Have you brought news, or something you would like me to examine? If it is a parcel, I shall ask one question first. Can anything inside it move? I know that sounds excessive. Experience has made me appreciate a little space between a mystery and the face of the person investigating it.", tone = "[warm] [careful] [wry]" },
+                "Good to see you. Let us look before we decide how close to stand." },
+            idle = { { "A rumor can make a mystery seem safely distant. The actual object is another matter. I wanted to know what the serpents were guarding, and I learned enough to seek help quickly. I still value curiosity. I simply prefer it to remember the people standing nearby, and perhaps to leave them a little room.", tone = "[reflective] [serious] [measured]" },
+                "A little surprise is not a complete description of what is inside the wrapping.",
+                "Knowing when to ask for help is also part of understanding a problem." },
+            befriended = { { "You have become someone I am glad to find beside me, whether the day brings an answer or another question. Come, friend. We can examine what lies ahead without pretending either of us must understand everything alone. Your company is a welcome surprise. I shall try to accept that particular kind without an unnecessary inspection.", tone = "[sincere] [warm] [gently amused]" } },
+            quest = { { "Tell them what you actually saw, and keep the questions that remain separate from the answers. It is tempting to make a troubling discovery sound neatly settled. I would rather hear an honest uncertainty while there is still time to seek help. A careful report can matter as much as the curiosity that began the investigation.", tone = "[steady] [thoughtful] [earnest]" } },
+            poke = { "Yes? Unexpected movement is not the best way to begin an examination.", "I noticed. Tell me what you found." },
+            loot = { "Look carefully before putting your hand inside. That is advice I value." },
+            gear = { "Check it while we have room and time to understand what is wrong." },
+            rest = { "Sit. A question can wait long enough for us to consider it properly." },
+            combatEnd = { "All here? Good. Let us be certain before calling the danger past." },
+            hearth = { "Home is a welcome destination after an unsettling discovery." },
+            levelUp = { "Well done. May your next answer leave you wiser and your friends safe." },
+        },
+    },
+
     -- Hanashi <Weapon Master>, Arms of Legend/Orgrimmar,2704/12989.
     -- Adult male Troll; current HordeNeutral, conditional live gates required.
     -- Current training row Staves227; actual gossip names other weapon masters.
