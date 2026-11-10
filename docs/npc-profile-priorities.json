@@ -2240,6 +2240,20 @@
       "zone": "Zephras Isle",
       "route": "Shared Zephras eastern watchtower relief peacekeeper",
       "reason": "Complete adult Skyborne female profile with fifteen queued lines; both factions Friendly checked separately, campaign branches not universal prerequisites, no synthesis"
+    },
+    {
+      "npc_id": 1265,
+      "name": "Rudra Amberstill",
+      "zone": "Dun Morogh",
+      "route": "Alliance Dun Morogh early ranch quests",
+      "reason": "Complete adult female Dwarf profile with fifteen queued lines; verified current reaction retained, game mounts/patterns separate from friendship, no synthesis"
+    },
+    {
+      "npc_id": 5154,
+      "name": "Poranna Snowbraid",
+      "zone": "Ironforge",
+      "route": "Alliance Ironforge tailoring-supplies city contact",
+      "reason": "Complete adult female Dwarf profile with fifteen queued lines; verified current reaction retained, game mounts/patterns separate from friendship, no synthesis"
     }
   ]
 }

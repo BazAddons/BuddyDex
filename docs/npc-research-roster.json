@@ -2569,5 +2569,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult High Order female body, current both factions Friendly, all own quests and full connected campaign context; no Scout sighting claimed",
     "research_notes": "docs/research/zephras-watch-and-relief.md"
+  },
+  {
+    "npc_id": 1265,
+    "name": "Rudra Amberstill",
+    "zone": "Dun Morogh",
+    "source": "Reviewed standard adult female Dwarf body and current Alliance Neutral/Friendly distinction; full Classic/Forever ranch tasks or current17-item supplies, no Scout sighting claimed",
+    "research_notes": "docs/research/amberstill-care-and-ironforge-beginnings.md"
+  },
+  {
+    "npc_id": 5154,
+    "name": "Poranna Snowbraid",
+    "zone": "Ironforge",
+    "source": "Reviewed standard adult female Dwarf body and current Alliance Neutral/Friendly distinction; full Classic/Forever ranch tasks or current17-item supplies, no Scout sighting claimed",
+    "research_notes": "docs/research/amberstill-care-and-ironforge-beginnings.md"
   }
 ]

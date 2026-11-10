@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rudra Amberstill and Poranna Snowbraid: two complete adult Dwarf women, with thirty personal lines queued.
+- Ground their ranch and tailoring-supplies friendships in full herd/saddle quest text and current reagent-bag pattern stock.
+
 - Add Hyusaa Quickbreeze and Yorana Windyreed: two complete adult Skyborne profiles available through normal checks to both factions, with thirty personal lines queued.
 - Ground their watch and relief-force friendships in the full Forever quest context, with distinct cautious and skeptical personalities.
 

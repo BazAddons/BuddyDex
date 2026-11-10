@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rudra Amberstill, Amberstill Ranch, Dun Morogh. Adult Dwarf
+    -- female1651/M2 950080; current Alliance Neutral. Full314 and
+    -- Forever95212 herd/saddle tasks reviewed, no friendship mount reward.
+    -- Affectionate private ram nicknames are original character writing.
+    -- Research: docs/research/amberstill-care-and-ironforge-beginnings.md
+    [1265] = {
+        quote = "Fine rams deserve fine care. That includes the ones determined to make the work difficult.",
+        likes = { "A herd safely accounted for", "Good saddles for a hard journey", "A ram with a mind of its own" },
+        dislikes = { "Vagash preying on the ranch", "Poor material offered as good enough", "An animal treated as merely a number" },
+        gossip = "Rudra can complain about a stubborn ram with remarkable feeling. She sounds even less pleased when someone suggests it is not worth the trouble.",
+        bio = "Rudra Amberstill tends to the concerns of the ram ranch in Dun Morogh. Vagash threatens the herd, and she seeks help protecting it. She also gathers fine leopard pelts for saddles as rams are prepared to support the Alterac expedition.",
+        backstory = "She knows how a threat above the ranch can reach far beyond one missing animal. The herd is a livelihood, and its rams have work ahead of them. Protecting them and demanding good material for their saddles are parts of the same care.",
+        secret = "She has private nicknames for the especially stubborn rams. The names grow less dignified as the work grows harder, but she remembers every one with affection afterward.",
+        bestFriend = "You may hear me grumbling about one of them. Stay long enough and you will hear me worrying over the very same ram. Both are mine to do.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates care and hard work being acknowledged without a grand performance.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "Good to see you. Shall we get on with it before something decides to be difficult?", tone = "[warm] [brisk]" }, "Ready. I can grumble about the work and still be glad of the company." },
+            idle = { { "The stubborn ones get the longest nicknames. They also get checked just as carefully as the rest.", tone = "[fond] [wry]" }, "Good enough is a poor argument when someone else must bear the journey.", "A herd is more than a count, though I should still like the count to be right." },
+            befriended = { { "You have seen the worry behind my grumbling. I would welcome more company that understands the difference.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is all well?", "I was remembering a particularly undignified nickname. Never mind whose." },
+            quest = { { "Bring back what was asked for. Fine work deserves proper material, not an excuse dressed up as a substitute.", tone = "[firm] [practical]" } },
+            loot = { "Keep the good material sound. It still has work ahead of it." },
+            gear = { "Check what will bear the strain before the journey asks it to." },
+            combatEnd = { "Take a look around. The danger to what we came to protect may not be over." },
+            group = { "Good. Help is worth asking for when the threat is more than one person should face." },
+            rest = { "A little rest will do us good. I can find something to grumble about afterward." },
+            thanked = { "You are welcome. I am glad the care counted for something." },
+        },
+    },
+
+    -- Poranna Snowbraid <Tailoring Supplies>, Great Forge, Ironforge.
+    -- Adult Dwarf female3069/M2 950080, Alliance Friendly, seventeen
+    -- current supplies/patterns versus fifteen Classic goods; no own quest.
+    -- An imperfect project finally completed is original, not a game recipe.
+    -- Research: docs/research/amberstill-care-and-ironforge-beginnings.md
+    [5154] = {
+        quote = "You need supplies to begin. You do not need to promise me a masterpiece.",
+        likes = { "A first project brought to completion", "A request made without embarrassment", "A mistake that teaches something useful" },
+        dislikes = { "A beginner discouraged before starting", "Good supplies left to spoil", "A boast that makes learning harder" },
+        gossip = "Poranna would rather hear that a first attempt was finished than hear a splendid explanation of why it has not yet begun.",
+        bio = "Poranna Snowbraid sells tailoring supplies near the Great Forge in Ironforge. Her stock includes thread, dyes, and reagent-bag patterns. She enjoys helping a customer turn the intention to begin into a practical purchase.",
+        backstory = "An unfinished project once lingered while she kept imagining a finer result. Eventually she decided that making something imperfect would teach her more than admiring what she had not made. She likes remembering that when a customer hesitates.",
+        secret = "She is proud of one thoroughly ordinary finished project for no reason she considers grand enough to explain. Finishing it was the important part. She finds that enough.",
+        bestFriend = "Bring me the story of how it went, mistakes included. You need not make it sound finer before I shall be pleased to hear it.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She enjoys encouragement for someone finally beginning or finishing a modest task.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "Good, you are here. Shall we begin before we talk ourselves into waiting for a better moment?", tone = "[friendly] [brisk]" }, "Ready. An ordinary beginning will suit me very well." },
+            idle = { { "Imagining the perfect result took far longer than finishing the ordinary one. I learned less from the imagining, too.", tone = "[wry] [reflective]" }, "A first attempt deserves better company than someone waiting to call it foolish.", "You can ask for what you need without proving you ought to know it already." },
+            befriended = { { "You let me tell the untidy part of the story. I should be pleased to hear yours in the same company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What would help you begin?", "I was considering whether the finer version was worth another delay." },
+            learned = { { "Good. Now give the lesson a chance to become something you have actually tried.", tone = "[encouraging] [practical]" } },
+            quest = { "Read the request, gather what is needed, and allow yourself a sensible beginning." },
+            loot = { "Keep what can serve the work. Useful supplies deserve proper care." },
+            bagsFull = { "Make a little room before good material is spoiled in the crowd." },
+            rest = { "A pause is useful. We can take one without abandoning the whole undertaking." },
+            cheerAlong = { "There! You began, or you finished. Either is worth noticing." },
+            thanked = { "Glad to help. Come back and tell me how it went." },
+        },
+    },
+
     -- Hyusaa Quickbreeze <Peacekeeper>, Shrine of Akir, Zephras. Adult
     -- High Order female137888/M2 7478494; both factions Friendly.
     -- Valennia second, full92947/93958 and connected campaign reviewed.

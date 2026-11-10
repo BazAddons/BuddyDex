@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 247,
-    "unverified": 138,
+    "alliance": 248,
+    "unverified": 139,
     "horde": 202
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 42,
+    "3": 44,
     "7": 37,
     "2": 67,
     "5": 59,
@@ -26,8 +26,8 @@
     "Westfall": 17,
     "Stormwind City": 114,
     "Redridge Mountains": 23,
-    "Dun Morogh": 12,
-    "Ironforge": 41,
+    "Dun Morogh": 13,
+    "Ironforge": 42,
     "Stranglethorn Vale": 3,
     "Tirisfal Glades": 36,
     "Undercity": 11,
@@ -907,6 +907,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1257"
+    },
+    {
+      "npc_id": 1265,
+      "name": "Rudra Amberstill",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Alliance Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1265"
     },
     {
       "npc_id": 1275,
@@ -4588,6 +4599,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5150"
     },
     {
+      "npc_id": 5154,
+      "name": "Poranna Snowbraid",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5154"
+    },
+    {
       "npc_id": 5157,
       "name": "Gimble Thistlefuzz",
       "zone": "Ironforge",
@@ -7335,6 +7359,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 572,
-  "awaiting_signature_audio_profiles": 118
+  "authored_profiles": 574,
+  "awaiting_signature_audio_profiles": 120
 }
