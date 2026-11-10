@@ -4,7 +4,7 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 261,
-    "unverified": 147,
+    "unverified": 148,
     "horde": 229
   },
   "npc_race_counts": {
@@ -16,7 +16,7 @@
     "4": 45,
     "8": 49,
     "9": 35,
-    "6": 73,
+    "6": 74,
     "96": 8,
     "95": 18
   },
@@ -39,7 +39,7 @@
     "Orgrimmar": 42,
     "Badlands": 1,
     "Darkshore": 7,
-    "Mulgore": 19,
+    "Mulgore": 20,
     "Thunder Bluff": 37,
     "Durotar": 48,
     "The Barrens": 31,
@@ -7760,6 +7760,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262469"
     },
     {
+      "npc_id": 262560,
+      "name": "Hana Lighthoof",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262560"
+    },
+    {
       "npc_id": 263326,
       "name": "Madam Swyndle",
       "zone": "Riverglades",
@@ -7956,6 +7967,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 621,
-  "awaiting_signature_audio_profiles": 167
+  "authored_profiles": 622,
+  "awaiting_signature_audio_profiles": 168
 }

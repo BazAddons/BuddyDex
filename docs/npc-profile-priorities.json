@@ -2583,6 +2583,13 @@
       "zone": "Stonetalon Mountains",
       "route": "Southern Stonetalon small camp vendor",
       "reason": "Complete Troll male profile, fifteen queued lines, sourced title/camp/goods and original ordinary-paper performance; no synthesis"
+    },
+    {
+      "npc_id": 262560,
+      "name": "Hana Lighthoof",
+      "zone": "Mulgore",
+      "route": "Northern Mulgore Camp Gevrek Druid trainer",
+      "reason": "Complete Tauren female profile, fifteen queued lines, actual shared-goal/different-method dialogue and responsible teaching; no synthesis"
     }
   ]
 }

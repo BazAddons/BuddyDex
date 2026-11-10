@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hana Lighthoof: a complete female Tauren profile with fifteen personal lines queued.
+- Ground her teaching in actual Earth Mother dialogue, complete training pages, and the full poison-lesson referral.
+
 - Add Tuu'li: a complete male Troll profile with fifteen personal lines queued.
 - Expand southern Stonetalon companions with a researched camp merchant and an original paper-storm performance.
 

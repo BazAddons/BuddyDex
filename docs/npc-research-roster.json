@@ -2912,5 +2912,12 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult Troll male, current Horde Friendly, full three goods and camp identity; no own quest/gossip, no Scout sighting claimed",
     "research_notes": "docs/research/tuuli-magnificent-paper-storm.md"
+  },
+  {
+    "npc_id": 262560,
+    "name": "Hana Lighthoof",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Tauren female, Horde Neutral, all184training rows, own dialogue and full6126-6130chain with final Turak recipient preserved; no Scout sighting claimed",
+    "research_notes": "docs/research/hana-lighthoof-different-paths-and-care.md"
   }
 ]

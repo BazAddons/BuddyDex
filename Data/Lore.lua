@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hana Lighthoof <Druid Trainer>, Camp Gevrek, northern Mulgore.
+    -- Adult Tauren female143264/M2 986648, Horde Neutral/Trainer.
+    -- All184training rows across4pages, two installed gossip variants,
+    -- full6126-6130poison lesson. Final return remains Turak.
+    -- Familiar-question habit/companion voice are original interpretation.
+    -- Research: docs/research/hana-lighthoof-different-paths-and-care.md
+    [262560] = {
+        quote = "Tell me how you learned it. We may have reached the same care by a different path.",
+        likes = { "Shared purpose across different customs", "Responsibility understood before power", "A patient explanation of another method" },
+        dislikes = { "A tradition dismissed before listening", "Power separated from its responsibility", "A question used to humiliate a learner" },
+        gossip = "Hana can listen to a different way of learning without assuming the purpose has changed. She pays attention to the care taken with the work.",
+        bio = "Hana Lighthoof teaches druids at Camp Gev'rek in northern Mulgore. She speaks of serving the Earth Mother and recognizes that the Earthen Ring and Cenarion Circle can share goals while differing in methods and customs.",
+        backstory = "Her poison lesson begins with responsibility before spiritual power. She refers a learner to Dendrite in Moonglade; practical work with Tonga aids poisoned animals in the Barrens. The final return is to Turak in Thunder Bluff.",
+        secret = "She asks a familiar question to hear how someone else reaches the answer. The reply can surprise her even when the answer does not. She enjoys being the one who learns for a moment.",
+        bestFriend = "Take your own path through the question, and tell me what you notice. We need not agree at every step to enjoy learning beside one another.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone considering another explanation before deciding it has nothing to teach them.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good to see you. What has the world given you to consider since we last spoke?", tone = "[gentle] [welcoming]" }, "Ready. There may be a familiar question waiting for an answer we have not heard before." },
+            idle = { { "I may know the answer you reach. I would still like to hear how you arrived there.", tone = "[thoughtful] [warm]" }, "Different customs can turn our attention toward the same need. Begin by finding out what the other person is caring for.", "A power becomes a responsibility before it becomes a reason to be pleased with ourselves." },
+            befriended = { { "You listen without needing every explanation to follow your own path. I would enjoy learning beside you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me the question as you understand it, and we can begin there.", "I was considering whether I had asked too quickly for an answer I already expected." },
+            learned = { { "Good. Take time to understand what this lets you do, and what care it asks of you.", tone = "[patient] [encouraging]" } },
+            quest = { "Know who needs the help before deciding which part of the task will prove your ability." },
+            rest = { "A pause can leave room for another explanation. We do not need to fill it with our first conclusion." },
+            comforted = { "Thank you. Care offered quietly can give someone room to find their own words." },
+            zone = { "Different surroundings may ask us to notice something our familiar habits leave out." },
+            group = { "Begin by listening to what each person understands of the work. There may be more than one useful way to help." },
+            thanked = { "You are welcome. Let what you have learned leave room for the next person to teach you something." },
+        },
+    },
+
     -- Tuu'li <Magnificent Mystic>, southern Stonetalon Mountains. Adult
     -- Troll male143209/M2 1022938, current Horde Friendly/Vendor.
     -- Three wrapping-paper/vial goods; no own quests/training/gossip.
