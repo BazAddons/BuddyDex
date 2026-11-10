@@ -1946,5 +1946,33 @@
     "zone": "Ashenvale",
     "source": "Individually reviewed current adult model, location, reaction and complete own tabs; Classic chains and installed dialogue corroborated; no Scout sighting claimed",
     "research_notes": "docs/research/tauren-and-ashenvale-rotation.md"
+  },
+  {
+    "npc_id": 4552,
+    "name": "Eunice Burch",
+    "zone": "Undercity",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/forsaken-and-coldridge-rotation.md"
+  },
+  {
+    "npc_id": 4591,
+    "name": "Mary Edras",
+    "zone": "Undercity",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/forsaken-and-coldridge-rotation.md"
+  },
+  {
+    "npc_id": 713,
+    "name": "Balir Frosthammer",
+    "zone": "Dun Morogh",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/forsaken-and-coldridge-rotation.md"
+  },
+  {
+    "npc_id": 6806,
+    "name": "Tannok Frosthammer",
+    "zone": "Dun Morogh",
+    "source": "Individually reviewed current adult model, reaction, complete own tabs and current/Classic quest text; installed dialogue corroborates roles; no Scout sighting claimed",
+    "research_notes": "docs/research/forsaken-and-coldridge-rotation.md"
   }
 ]

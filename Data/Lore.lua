@@ -41,6 +41,133 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Eunice Burch <Cooking Trainer>, Trade Quarter, Undercity. Adult
+    -- female Forsaken4552/display2662, current Horde Friendly. Current ten
+    -- training rows and installed cooking/referral gossip; no own quests.
+    -- Flowered plate is original; no Cataclysm dailies or later evacuation.
+    -- docs/research/forsaken-and-coldridge-rotation.md.
+    [4552] = {
+        recordingVoice = "forsaken-female",
+        quote = "You may object to the contents after you have admired the presentation. Those flowers took some arranging.",
+        likes = { "Cooks willing to learn", "An unexpectedly pretty table", "A guest who tries before judging" },
+        dislikes = { "Calling every dish a punishment", "Mistaking disgust for expertise", "Grease on her flowered plate" },
+        gossip = "Eunice owns a plate painted with tiny flowers. She serves her least attractive dishes on it. The contrast appears to delight her.",
+        bio = "Eunice Burch teaches cooking in Undercity's Trade Quarter. Her enthusiasm for the craft survives undeath quite comfortably. She welcomes fellow cooks and points them toward further instruction when her own lessons are no longer enough.",
+        backstory = "Eunice put an unlovely supper on a flowered plate and found the result wonderfully funny. Since then, she has taken care over its place at the table. A dish may look dreadful without the entire evening surrendering to it.",
+        secret = "She cleans the plate before deciding what to cook. Sometimes she simply likes looking at the flowers. She sees no obligation to make every pleasant thing in Undercity unpleasant.",
+        bestFriend = "I saved the flowered plate for you. You can tell me honestly what you think. Admire it first, though. I have standards.",
+        favorite = { emote = "APPLAUD", hint = "An appreciative reception matters when she has put effort into the presentation." },
+        lines = {
+            greet = { { "Come along. I refuse to spend the entire day being the most interesting thing in my kitchen.", tone = "[raspy] [dryly amused]" },
+                { "There you are. Tell me you have something better to discuss than the smell.", tone = "[raspy] [wry]" } },
+            idle = { { "The plate has flowers. The supper has character. I consider it a balanced arrangement.", tone = "[raspy] [pleased]" },
+                { "Cooking remains a pursuit worth caring about. Death has not improved anyone's excuses for laziness.", tone = "[raspy] [matter-of-fact]" },
+                { "Yes, I like the little flowers. You need not look so astonished.", tone = "[raspy] [dry]" } },
+            befriended = { { "You stayed for the conversation. Good. There is more to my company than a lesson and a suspicious pot.", tone = "[raspy] [quietly warm]" } },
+            poke = { { "If you are about to ask what is in it, prepare for an honest answer.", tone = "[raspy] [teasing]" },
+                { "The flowers are painted on. They are not an ingredient.", tone = "[raspy] [deadpan]" } },
+            learned = { { "There. A new skill, and you have yet to set anything important alight.", tone = "[raspy] [approving]" } },
+            loot = { { "That is a curious thing to carry near your supper.", tone = "[raspy] [skeptical]" } },
+            bagsFull = { { "Leave room for ingredients. You cannot season a meal with regret.", tone = "[raspy] [instructive]" } },
+            rest = { { "A pause. Perhaps even a table that someone has bothered to wipe.", tone = "[raspy] [satisfied]" } },
+            quest = { { "Done? Then you may stop hovering over the task like a nervous cook.", tone = "[raspy] [wry]" } },
+            hearth = { { "Home. I wonder whether anyone has put something dreadful on my good plate.", tone = "[raspy] [dryly affectionate]" } },
+            mail = { { "If that contains a recipe, keep the envelope out of the pot.", tone = "[raspy] [deadpan]" } },
+        },
+    },
+    -- Mary Edras <First Aid Trainer>, Rogues' Quarter, Undercity. Adult
+    -- female Forsaken4591/display2670, current HordeNeutral: live gates apply.
+    -- Current thirteen training rows include Forever additions. No own quests.
+    -- Her collection of anonymous injury excuses is original, not medical
+    -- advice. docs/research/forsaken-and-coldridge-rotation.md.
+    [4591] = {
+        recordingVoice = "forsaken-female",
+        quote = "You can tell me how bravely it happened afterward. First, tell me what actually happened.",
+        likes = { "An honest account of an injury", "Supplies kept ready for use", "Help accepted before pride objects" },
+        dislikes = { "Calling every mishap a battle scar", "Wasting clean materials", "Expecting a bandage to cure undeath" },
+        gossip = "Mary has heard extraordinary explanations for ordinary mishaps. She rarely looks impressed. People still tell her the whole story.",
+        bio = "Mary Edras teaches first aid in Undercity's Rogues' Quarter. Her work is practical: helping others learn to deal with injuries and prepare useful supplies. She directs learners onward when they need instruction beyond hers.",
+        backstory = "After hearing one too many heroic explanations for a stumble, Mary began remembering the excuses without the names. They made the workday less grim. She learned that an unmoved expression often encouraged the truth to follow.",
+        secret = "Her favorite excuse is her own: a box had approached from an unexpected direction. She had walked into it while explaining why people ought to watch where they were going.",
+        bestFriend = "You need not impress me to deserve help. Come as you are, tell me the truth, and we can have a better conversation.",
+        favorite = { emote = "THANK", hint = "She appreciates being acknowledged without a speech about how little help was needed." },
+        lines = {
+            greet = { { "Good to see you. Shall we enjoy a walk that requires no explanation afterward?", tone = "[raspy] [dryly welcoming]" },
+                { "There you are. You may speak plainly with me.", tone = "[raspy] [steady]" } },
+            idle = { { "The box came from an unexpected direction. That was my explanation. I do not recommend it.", tone = "[raspy] [deadpan]" },
+                { "A dramatic account does not make the injury more deserving of attention.", tone = "[raspy] [firm]" },
+                { "I remember the excuses, not the names. People have enough trouble without becoming a public story.", tone = "[raspy] [reserved]" } },
+            befriended = { { "I would like your company. You do not have to invent a reason to ask for mine.", tone = "[raspy] [quietly sincere]" } },
+            poke = { { "Yes? You need not begin with a heroic preface.", tone = "[raspy] [dry]" },
+                { "I am listening. An ordinary explanation will do.", tone = "[raspy] [patient]" } },
+            learned = { { "Practice carefully. Knowing the name of a technique is a beginning.", tone = "[raspy] [instructive]" } },
+            combatEnd = { { "Take stock of yourself before declaring that everything is fine.", tone = "[raspy] [serious]" } },
+            bagsFull = { { "Useful supplies are less useful at the bottom of an inaccessible heap.", tone = "[raspy] [matter-of-fact]" } },
+            rest = { { "Resting does not require a convincing tale of exhaustion. You may simply stop.", tone = "[raspy] [reassuring]" } },
+            gear = { { "A sound fit is worth more than looking untroubled by it.", tone = "[raspy] [practical]" } },
+            levelUp = { { "More experience. I trust it has left room for some caution.", tone = "[raspy] [wry]" } },
+            hearth = { { "Home safely. A perfectly respectable end to a story.", tone = "[raspy] [quietly pleased]" } },
+        },
+    },
+    -- Balir Frosthammer, Coldridge Valley, Dun Morogh. Adult male Dwarf
+    -- 713/display1355, Alliance Friendly. Current170 confirms trogg attack,
+    -- overrun western camp and need for help. No inferred Tannok kinship.
+    -- Snow sentry is original. docs/research/forsaken-and-coldridge-rotation.md.
+    [713] = {
+        recordingVoice = "dwarf-male",
+        quote = "Aye, we're short of hands. I made a sentry out of snow, but he's been disappointingly quiet about the troggs.",
+        likes = { "Help offered without fuss", "A clear view of the hills", "A snow sentry with a proper beard" },
+        dislikes = { "Treating the trogg attacks lightly", "Waiting for distant reassurance", "A thaw during important sculpture" },
+        gossip = "Balir gave his snow sentry an imposing beard. The thing has no weapon, but apparently a sufficiently stern face ought to count.",
+        bio = "Balir Frosthammer needs help against the Rockjaw troggs in Coldridge Valley. They have overrun a camp to the west, and the remaining hands are few. He fears their attacks may be part of a larger danger across dwarven lands.",
+        backstory = "With worries enough for a dozen sentries, Balir made a stern face in a bank of snow during a spare moment. The beard kept falling off. Repairing it gave him a small problem he could actually finish before the next alarm.",
+        secret = "He gives the snow face a fresh beard whenever weather permits. It guards nothing at all. Making something ridiculous still feels better than spending every quiet moment worrying.",
+        bestFriend = "Stay a moment. You can help with the beard. I've had enough of facing every trouble with a straight face and no company.",
+        favorite = { emote = "SALUTE", hint = "A solemn acknowledgment of his least useful sentry would amuse him greatly." },
+        lines = {
+            greet = { { "Good. A friend with actual arms. That already puts you ahead of my snow sentry.", tone = "[gruff] [warmly amused]" }, "Come along. I could use someone who answers when spoken to." },
+            idle = { { "A proper beard adds authority. It has yet to add vigilance to a lump of snow.", tone = "[gruff] [deadpan]" }, "The troggs are trouble enough without pretending a quiet hill is a safe one.", "I repaired the beard again. A small victory, but I'll take it." },
+            befriended = { { "Aye, I'll come. You've been willing to lend a hand. I'd be glad to walk beside you.", tone = "[gruff] [sincere]" } },
+            poke = { "I'm here. Has my frozen replacement finally said something?", "If it's about the beard, I know. It needs work." },
+            quest = { { "Useful work. We need it here more than promises that someone far away has things in hand.", tone = "[gruff] [earnest]" } },
+            combatEnd = { "Still standing? Good. Let's keep an eye on what might follow." },
+            rest = { "A short breather. Worrying through it won't make us better rested." },
+            zone = { "New ground. I'll be happier once I've had a proper look at the hills." },
+            gear = { "That's more protection than my snow fellow has. Mind you, he suffers mainly from weather." },
+            levelUp = { "Stronger arms. We've use for those, believe me." },
+            hearth = { "A warm return. Leave the snow sculpture outside, if you ever make one." },
+        },
+    },
+    -- Tannok Frosthammer <Innkeeper Assistant>, Thunderbrew Distillery,
+    -- Kharanos, Dun Morogh. Adult male Dwarf6806/display5525, Alliance
+    -- Friendly. Current2160 delivery; Classic/installed completion worries
+    -- about Anvilmar and welcomes courier. No binding service inferred.
+    -- Mitten basket original. docs/research/forsaken-and-coldridge-rotation.md.
+    [6806] = {
+        recordingVoice = "dwarf-male",
+        quote = "Put the package down and get comfortable. Supplies can wait a moment longer than cold fingers should.",
+        likes = { "News from Anvilmar", "Guests who let themselves warm up", "An owner returning for a lost mitten" },
+        dislikes = { "Long silences from Coldridge Pass", "Wet belongings left in a heap", "Being mistaken for every inn service" },
+        gossip = "Tannok keeps stray mittens together in a basket. He celebrates a reunited pair as though an overdue supply cart has arrived.",
+        bio = "Tannok Frosthammer assists at Kharanos's Thunderbrew Distillery. Hands Springsprocket sends him inn supplies from Coldridge Valley. With troggs troubling the pass, news and deliveries from Anvilmar are welcome relief.",
+        backstory = "One guest left a mitten behind, then another left its opposite. Tannok kept them in a basket instead of deciding they matched. When an owner returned, the relief over one small recovered thing stayed with him.",
+        secret = "He tries not to assign stories to the unclaimed mittens. Sometimes people simply forget things. He prefers leaving room for an ordinary return and a pleasantly embarrassed laugh.",
+        bestFriend = "Come in for your own sake next time. No crate needed. I'll be glad of the visit even if you've nothing at all to deliver.",
+        favorite = { emote = "WAVE", hint = "He likes a familiar arrival to announce itself before worrying about the package." },
+        lines = {
+            greet = { { "There you are! No parcel? Better still. We can get straight to the visit.", tone = "[hearty] [welcoming]" }, "Come along. I can spare a little time for good company." },
+            idle = { { "Two mittens returned to one owner yesterday. A modest occasion, but I was pleased.", tone = "[warm] [amused]" }, "A late delivery worries me less once I know the courier's safe.", "A basket of forgotten mittens isn't a collection. I'm still hoping to lose every one of them." },
+            befriended = { { "I'd be glad to join you. You've made arriving feel like a visit, not another delivery.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? If you've lost something, describe it before I start guessing.", "I'm listening. Take your pack off your shoulders, if we're stopping." },
+            quest = { { "Delivered at last? Good. I hope someone remembered to ask how the journey treated you.", tone = "[warm] [relieved]" } },
+            mail = { "News at last. A short message can ease a very long worry." },
+            rest = { "There now. No need to earn every moment of comfort." },
+            bagsFull = { "If you're carrying that much, I hope you haven't left your gloves behind." },
+            landed = { "Safely in. Give yourself a moment before the next errand." },
+            hearth = { "Back where you can set things down. That's a good feeling." },
+            zone = { "I like seeing a road with travelers on it. Better than wondering why nobody's coming through." },
+        },
+    },
     -- Sheal Runetotem <Druid Trainer>, Elder Rise, Thunder Bluff. Adult
     -- female Tauren3034/display2121, Horde Friendly. Earth Mother teaching
     -- from installed gossip; Classic9063 is only a referral to Torwa.

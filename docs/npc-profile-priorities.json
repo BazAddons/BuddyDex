@@ -1617,6 +1617,34 @@
       "zone": "Ashenvale",
       "route": "Tauren service and Ashenvale Night Elf rotation",
       "reason": "Full researched written profile and fifteen queued personal lines; approved adult display voice, ordinary live gates and Elite scaling preserved; no synthesis"
+    },
+    {
+      "npc_id": 4552,
+      "name": "Eunice Burch",
+      "zone": "Undercity",
+      "route": "Undercity female service trainers and Coldridge-Kharanos starter route",
+      "reason": "Full researched text and fifteen queued lines; adult Forsaken female/dwarf male approved voices; Mary Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 4591,
+      "name": "Mary Edras",
+      "zone": "Undercity",
+      "route": "Undercity female service trainers and Coldridge-Kharanos starter route",
+      "reason": "Full researched text and fifteen queued lines; adult Forsaken female/dwarf male approved voices; Mary Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 713,
+      "name": "Balir Frosthammer",
+      "zone": "Dun Morogh",
+      "route": "Undercity female service trainers and Coldridge-Kharanos starter route",
+      "reason": "Full researched text and fifteen queued lines; adult Forsaken female/dwarf male approved voices; Mary Neutral conditional, ordinary live gates retained; no synthesis"
+    },
+    {
+      "npc_id": 6806,
+      "name": "Tannok Frosthammer",
+      "zone": "Dun Morogh",
+      "route": "Undercity female service trainers and Coldridge-Kharanos starter route",
+      "reason": "Full researched text and fifteen queued lines; adult Forsaken female/dwarf male approved voices; Mary Neutral conditional, ordinary live gates retained; no synthesis"
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Eunice Burch, Mary Edras, Balir Frosthammer and Tannok Frosthammer: four full adult profiles across Undercity services and the Coldridge-Kharanos route, with sixty personal lines queued.
+- Retain current Forever cooking/first-aid roles and source-grounded trogg/delivery context; preserve ordinary live eligibility and character-local progress.
+
 - Add Sheal Runetotem, Hesuwa Thunderhorn, Daelyshia and Shindrell Swiftfire: full researched adult Tauren/Night Elf profiles, fifteen personal lines each queued for approved voices.
 - Preserve Shindrell's regret over the pridewings, Daelyshia's living Forever identity and Elite friendship scaling, and all ordinary live eligibility checks.
 

@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 211,
-    "unverified": 128,
-    "horde": 151
+    "alliance": 213,
+    "unverified": 129,
+    "horde": 152
   },
   "npc_race_counts": {
     "1": 165,
-    "3": 36,
+    "3": 38,
     "7": 27,
     "2": 59,
-    "5": 46,
+    "5": 48,
     "4": 27,
     "8": 36,
     "9": 23,
@@ -26,7 +26,7 @@
     "Westfall": 17,
     "Stormwind City": 114,
     "Redridge Mountains": 23,
-    "Dun Morogh": 5,
+    "Dun Morogh": 7,
     "Ironforge": 35,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
@@ -45,7 +45,7 @@
     "Stonetalon Mountains": 4,
     "Darnassus": 6,
     "Thousand Needles": 5,
-    "Undercity": 6,
+    "Undercity": 8,
     "Dustwallow Marsh": 1,
     "Tanaris": 5,
     "Feralas": 1,
@@ -608,6 +608,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/658"
+    },
+    {
+      "npc_id": 713,
+      "name": "Balir Frosthammer",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/713"
     },
     {
       "npc_id": 777,
@@ -3767,6 +3780,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4317"
     },
     {
+      "npc_id": 4552,
+      "name": "Eunice Burch",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4552"
+    },
+    {
       "npc_id": 4565,
       "name": "Richard Kerwin",
       "zone": "Undercity",
@@ -3800,6 +3826,17 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current Horde-icon Neutral; public Friendly coverage unverified. Ordinary reaction>=4 and non-attackability gate, no exception.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4585"
+    },
+    {
+      "npc_id": 4591,
+      "name": "Mary Edras",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4591"
     },
     {
       "npc_id": 4877,
@@ -4647,6 +4684,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6778"
+    },
+    {
+      "npc_id": 6806,
+      "name": "Tannok Frosthammer",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6806"
     },
     {
       "npc_id": 6928,
@@ -6188,6 +6238,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 483,
-  "awaiting_signature_audio_profiles": 29
+  "authored_profiles": 487,
+  "awaiting_signature_audio_profiles": 33
 }

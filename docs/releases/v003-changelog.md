@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Eunice Burch, Mary Edras, Balir Frosthammer and Tannok Frosthammer: four full adult profiles across Undercity services and the Coldridge-Kharanos route, with sixty personal lines queued.
+- Retain current Forever cooking/first-aid roles and source-grounded trogg/delivery context; preserve ordinary live eligibility and character-local progress.
+
 - Add Sheal Runetotem, Hesuwa Thunderhorn, Daelyshia and Shindrell Swiftfire: full researched adult Tauren/Night Elf profiles, fifteen personal lines each queued for approved voices.
 - Preserve Shindrell's regret over the pridewings, Daelyshia's living Forever identity and Elite friendship scaling, and all ordinary live eligibility checks.
 
@@ -33,4 +36,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **483 fully written NPC profiles**: 454 have initial signature recordings, and twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **487 fully written NPC profiles**: 454 have initial signature recordings, and thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
