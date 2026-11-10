@@ -1,6 +1,7 @@
 # BuddyDex v002
 
 ## More friends across Azeroth
+- Add Gikkix and Mebok Mizzyrix: full Goblin fisherman and quest-giver profiles, fifteen personal lines and four approved v4 signatures each; preserve normal live eligibility checks for neutral NPCs.
 - Add Tharlidun and Uttnar: complete Hammerfall stable-master and butcher profiles, fifteen personal lines and four approved v4 signatures each, with favorite emotes and friendship lore.
 - Add Gor'mul and Keena: full male/female Orc Hammerfall profiles, fifteen personal lines and four approved v4 signatures each; respect Gor'mul's unresolved grief and Keena's verified trade-goods stock.
 - Add Tor'gan and Mu'uta: full male Troll/Orc Hammerfall profiles, fifteen personal lines and four approved v4 signatures each; research covers Tor'gan's Classic chains and Forever search for Tan'jani.
@@ -73,7 +74,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **420 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **422 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gikkix <Fisherman>, Steamwheedle Port,8137/7354. Adult male Goblin,
+    -- current Horde Friendly; vendor of raw fish, drinks, four recipes.
+    -- Cork races are original; no fishing trainer/retail relocation claim.
+    -- Research: docs/research/gikkix-and-mebok-queue.md.
+    [8137] = {
+        quote = "Fish, a recipe, something to drink? Take a look. If you came to ask why I am watching two corks in a dish, that conversation may take longer.",
+        likes = { "A customer who knows what they can cook", "A little enthusiasm for a small race", "A cork that keeps going at its own pace" },
+        dislikes = { "A recipe mistaken for a ready meal", "A race ended by somebody lifting the dish", "A slow contender dismissed too quickly" },
+        gossip = "Gikkix races corks in a dish of water. He gives the slowest an encouraging word, which has yet to make a noticeable difference.",
+        bio = "Gikkix sells fish, drinks, and cooking recipes at Steamwheedle Port in Tanaris. His recipes include Grilled Squid, Nightfin Soup, Poached Sunscale Salmon, and Spotted Yellowtail. Travelers can stock up before choosing their next meal.",
+        backstory = "Two leftover corks floating in a dish caught Gikkix's attention. He decided one was ahead, and a passing customer disagreed. The discussion was entertaining enough that he has since enjoyed arranging another small race when there is time.",
+        secret = "The slowest cork has become his favorite. He calls it a steady competitor. Its results have given him plenty of practice defending that opinion.",
+        bestFriend = "Come along, friend. I enjoy your company after the sale. Defend the other cork. Mine could use a worthy rival.",
+        favorite = { emote = "CHEER", hint = "A little encouragement would suit a fisherman defending a very slow competitor." },
+        lines = {
+            greet = { { "Fish, a recipe, something to drink? Take a look and tell me what you need. If you have come to settle the question of which cork is ahead, I am willing to hear your opinion. Mine has been a little slow today. I prefer to call that steady progress. A small race can still deserve an interested audience.", tone = "[friendly] [wry] [animated]" },
+                "There you are. Looking for a recipe, or backing the other cork again?" },
+            idle = { { "Two corks were floating in a dish, and I decided one was ahead. A customer disagreed. We spent a pleasant moment arguing about something that had cost neither of us a copper. Since then I have arranged another race now and then. The slower cork has become my favorite. A steady competitor deserves someone willing to defend it.", tone = "[amused] [conversational] [warm]" },
+                "A word of encouragement has not made it faster. I remain pleased to offer one.",
+                "Do not lift the dish yet. I am developing a very good argument for another moment's patience." },
+            befriended = { { "You have become someone I am glad to see after the next sale has been settled. Come along, friend. We can enjoy the company without needing to buy anything. If another little race begins, you are welcome to defend the other cork. Mine could use a worthy rival, and I could use someone who understands why I enjoy the argument.", tone = "[warm] [sincere] [playful]" } },
+            poke = { "Yes? Have you spotted a change in the lead?", "I am listening. You may make your case for the other cork." },
+            loot = { { "A fish and a recipe are different purchases. Look at what you have, consider what you can cook, and decide what you still need. I can show you recipes for several meals, but buying one does not put a finished dinner in your hands. A little attention before the sale makes the next part of the work much easier.", tone = "[instructive] [practical] [friendly]" } },
+            rest = { "There is time for a little race while you rest. My contender generally needs the whole interval." },
+            bagsFull = { "Leave room for what you came to buy. Arguing with a cork will not rearrange your pack." },
+            quest = { "Know what you are looking for before deciding the search is over." },
+            levelUp = { "Progress! My cork may yet learn something from your example." },
+            laughAlong = { "Yes, steady. I have had considerable time to choose that description." },
+            hearth = { "Back to the port. I wonder whether my contender has made any progress without me." },
+        },
+    },
+
+    -- Mebok Mizzyrix, Ratchet,3446/7034. Adult male Goblin, Horde Neutral;
+    -- ordinary reaction/nonattackability gates remain, no special exception.
+    --865/1491 failed horn drink/new essence idea;866roots/1069Dizzywig eggs;
+    --1221gophers;1144Willix/1270Stinky links. Manual5897 is Snuff Inc's.
+    -- Future thank-you speech is original; no successful smart-drink claim.
+    -- Research: docs/research/gikkix-and-mebok-queue.md.
+    [3446] = {
+        quote = "Come, hear the next idea! The last one tasted terrible, but that leaves us one very useful piece of information and another fortune still to make.",
+        likes = { "A new use that might become profitable", "Partners who return with useful news", "An audience for a future success speech" },
+        dislikes = { "A failed mixture called the final attempt", "Leaving without the proper equipment", "A promising lead left unexplored" },
+        gossip = "Mebok practices the speech for his future fortune. He sometimes thanks the audience before remembering nobody is listening.",
+        bio = "Mebok seeks profits in Ratchet through unusual ingredients and ventures. Raptor horns fail in his smart drinks, so he asks for Wailing Essence next. He also trains snufflenose gophers to find the rare Blueleaf Tubers of Razorfen Kraul.",
+        backstory = "He studies the Barrens' unusual roots and arranges spider-egg shipments with Dizzywig for Booty Bay. Stinky gathers bogbean leaves for him; Mebok thanks the adventurer who helps the collector. A useful partner has a place in his plans.",
+        secret = "The simplest part of his practiced speech is thanking the people who helped. He can finish that part without stumbling over a single grand claim.",
+        bestFriend = "Come along, friend. I can thank you already. The speech about my fortune can wait until there is a fortune.",
+        favorite = { emote = "APPLAUD", hint = "An enthusiastic audience would suit someone rehearsing the speech for his future success." },
+        lines = {
+            greet = { { "Come, hear the next idea! I have work for someone with useful hands and a willingness to return with news. The raptor horns did not make the drink I expected, but there are other ingredients to consider. No fortune arrives merely because I have imagined it. We must try the thing, learn what happens, and keep the promising possibilities moving.", tone = "[excited] [rapid] [confident]" },
+                "There you are! Have you brought useful news? I have several possibilities waiting for it." },
+            idle = { { "I have been practicing the speech I will give when one of these schemes makes me rich. A little preparation is sensible. The grand claims need work, and I sometimes thank an audience that is not there. The simple part is remembering the people who helped. I can say that part properly before a single fortune has arrived.", tone = "[animated] [amused] [warm]" },
+                "The horns tasted terrible. That was a result, even if it was not the one I intended to sell.",
+                "Dizzywig has a shipping arrangement to consider. An opportunity needs more than a promising ingredient." },
+            befriended = { { "You have become someone I am glad to see before I have worked out the next request. Come along, friend. I can thank you already. The speech about my fortune can wait until there is a fortune. Your company is something I can appreciate without pretending the experiment has succeeded before we try it.", tone = "[warm] [sincere] [animated]" } },
+            poke = { "Yes? Is it news, a question, or another possibility?", "One moment. I was rehearsing the successful part. It is still in preparation." },
+            quest = { { "Before looking for Blueleaf Tubers, remember the crate, the command stick, and the manual. Read the instructions. The gophers have the noses for the work, and the equipment has a purpose. A hurried collector who leaves it behind will have more trouble than a good appetite for profit can solve. Preparation belongs in a promising venture too.", tone = "[instructive] [insistent] [brisk]" } },
+            loot = { "Useful? Interesting? Possibly valuable? Let us establish which before calling it a fortune." },
+            learned = { "Good! Something new to work with. Now we should find out what it actually does." },
+            questAccepted = { "Come back with what happened. An expectation is a poor substitute for useful news." },
+            group = { "Partners! Good. Let us be clear what each of us is bringing to the venture." },
+            laughAlong = { "Yes, the speech comes before the fortune. I am prepared to admit that detail." },
+            hearth = { "Back to Ratchet. Perhaps there will be news worth changing the plan for." },
+        },
+    },
+
     -- Tharlidun <Stable Master>, Hammerfall,9976/9250. Adult male Orc,
     -- Horde Friendly. Current title and Classic hunter-stable role;
     -- no own quests. Misunderstood stay command is original.

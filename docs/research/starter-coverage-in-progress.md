@@ -537,3 +537,8 @@ Completed adult2792maleOrc/2821femaleOrc Hammerfall profiles, fifteen lines/four
 ### Tharlidun and Uttnar: 420 profiles
 
 Completed9976/4954 adult male Orc stable-master/butcher Hammerfall profiles, fifteen lines/four approved emotion-tagged v4 signatures each. Source/era/original limits in `tharlidun-and-uttnar-queue.md`; no retail battle-pet recovery/healing or rescue events. Normal25+150 gains and299/300 Buddy boundary/live gates tested, main23/Scout6 pass. Public coverage207Alliance/121Horde/99unverified, seven overlaps,420unique. No fabricated Scout sightings; development v002 separate from preserved public candidate.
+
+
+### Gikkix and Mebok Mizzyrix:422 authored profiles
+
+Added8137maleGoblin inTanaris/3446maleGoblin inRatchet, fifteen personal lines/four approved emotion-taggedv4signatures each. Full chain/manual/source/original limits in `gikkix-and-mebok-queue.md`. MebokNeutral is conditional on live reaction/nonattackability, not automatically accessible; coverage staysunverified. Current public counts207Alliance/122Horde/100unverified/sevenoverlaps,422unique. Normal gains25+150,99/100 and299/300 thresholds, conditional Horde/Alliance neutral sessions/generic exclusion/welcome validated, main23/Scout6pass. No fabricatedScout sighting. Development v002 separate from originalpubliccandidate.

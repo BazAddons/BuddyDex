@@ -1,4 +1,5 @@
 # Unreleased
+- Add Gikkix and Mebok Mizzyrix: full Goblin fisherman and quest-giver profiles, fifteen personal lines and four approved v4 signatures each; preserve normal live eligibility checks for neutral NPCs.
 - Add Tharlidun and Uttnar: complete Hammerfall stable-master and butcher profiles, fifteen personal lines and four approved v4 signatures each, with favorite emotes and friendship lore.
 - Add Gor'mul and Keena: full male/female Orc Hammerfall profiles, fifteen personal lines and four approved v4 signatures each; respect Gor'mul's unresolved grief and Keena's verified trade-goods stock.
 - Add Tor'gan and Mu'uta: full male Troll/Orc Hammerfall profiles, fifteen personal lines and four approved v4 signatures each; research covers Tor'gan's Classic chains and Forever search for Tan'jani.

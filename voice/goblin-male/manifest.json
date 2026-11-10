@@ -239,6 +239,46 @@
     "text": "Good, you're back. Tell me what happened before I tell anybody else what we've achieved. I have learned that a promising discovery and a working machine can be quite different things.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore3446_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3446",
+    "spoken": "[warm] [sincere] [animated] You have become someone I am glad to see before I have worked out the next request. Come along, friend. I can thank you already. The speech about my fortune can wait until there is a fortune. Your company is something I can appreciate without pretending the experiment has succeeded before we try it.",
+    "text": "You have become someone I am glad to see before I have worked out the next request. Come along, friend. I can thank you already. The speech about my fortune can wait until there is a fortune. Your company is something I can appreciate without pretending the experiment has succeeded before we try it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3446_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3446",
+    "spoken": "[excited] [rapid] [confident] Come, hear the next idea! I have work for someone with useful hands and a willingness to return with news. The raptor horns did not make the drink I expected, but there are other ingredients to consider. No fortune arrives merely because I have imagined it. We must try the thing, learn what happens, and keep the promising possibilities moving.",
+    "text": "Come, hear the next idea! I have work for someone with useful hands and a willingness to return with news. The raptor horns did not make the drink I expected, but there are other ingredients to consider. No fortune arrives merely because I have imagined it. We must try the thing, learn what happens, and keep the promising possibilities moving.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3446_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3446",
+    "spoken": "[animated] [amused] [warm] I have been practicing the speech I will give when one of these schemes makes me rich. A little preparation is sensible. The grand claims need work, and I sometimes thank an audience that is not there. The simple part is remembering the people who helped. I can say that part properly before a single fortune has arrived.",
+    "text": "I have been practicing the speech I will give when one of these schemes makes me rich. A little preparation is sensible. The grand claims need work, and I sometimes thank an audience that is not there. The simple part is remembering the people who helped. I can say that part properly before a single fortune has arrived.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore3446_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3446",
+    "spoken": "[instructive] [insistent] [brisk] Before looking for Blueleaf Tubers, remember the crate, the command stick, and the manual. Read the instructions. The gophers have the noses for the work, and the equipment has a purpose. A hurried collector who leaves it behind will have more trouble than a good appetite for profit can solve. Preparation belongs in a promising venture too.",
+    "text": "Before looking for Blueleaf Tubers, remember the crate, the command stick, and the manual. Read the instructions. The gophers have the noses for the work, and the equipment has a purpose. A hurried collector who leaves it behind will have more trouble than a good appetite for profit can solve. Preparation belongs in a promising venture too.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore3453_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -397,6 +437,46 @@
     "source": "lore:7733",
     "spoken": "[welcoming] [pleased] Now that's an excellent decision. Sit down and let the next adventure wait outside for a moment. Food, drink, a comfortable place to collect your thoughts. I can recommend all three without asking you to defeat anything first. A remarkably agreeable arrangement, when you consider it.",
     "text": "Now that's an excellent decision. Sit down and let the next adventure wait outside for a moment. Food, drink, a comfortable place to collect your thoughts. I can recommend all three without asking you to defeat anything first. A remarkably agreeable arrangement, when you consider it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore8137_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:8137",
+    "spoken": "[warm] [sincere] [playful] You have become someone I am glad to see after the next sale has been settled. Come along, friend. We can enjoy the company without needing to buy anything. If another little race begins, you are welcome to defend the other cork. Mine could use a worthy rival, and I could use someone who understands why I enjoy the argument.",
+    "text": "You have become someone I am glad to see after the next sale has been settled. Come along, friend. We can enjoy the company without needing to buy anything. If another little race begins, you are welcome to defend the other cork. Mine could use a worthy rival, and I could use someone who understands why I enjoy the argument.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore8137_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:8137",
+    "spoken": "[friendly] [wry] [animated] Fish, a recipe, something to drink? Take a look and tell me what you need. If you have come to settle the question of which cork is ahead, I am willing to hear your opinion. Mine has been a little slow today. I prefer to call that steady progress. A small race can still deserve an interested audience.",
+    "text": "Fish, a recipe, something to drink? Take a look and tell me what you need. If you have come to settle the question of which cork is ahead, I am willing to hear your opinion. Mine has been a little slow today. I prefer to call that steady progress. A small race can still deserve an interested audience.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore8137_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:8137",
+    "spoken": "[amused] [conversational] [warm] Two corks were floating in a dish, and I decided one was ahead. A customer disagreed. We spent a pleasant moment arguing about something that had cost neither of us a copper. Since then I have arranged another race now and then. The slower cork has become my favorite. A steady competitor deserves someone willing to defend it.",
+    "text": "Two corks were floating in a dish, and I decided one was ahead. A customer disagreed. We spent a pleasant moment arguing about something that had cost neither of us a copper. Since then I have arranged another race now and then. The slower cork has become my favorite. A steady competitor deserves someone willing to defend it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore8137_loot_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "loot",
+    "say": null,
+    "source": "lore:8137",
+    "spoken": "[instructive] [practical] [friendly] A fish and a recipe are different purchases. Look at what you have, consider what you can cook, and decide what you still need. I can show you recipes for several meals, but buying one does not put a finished dinner in your hands. A little attention before the sale makes the next part of the work much easier.",
+    "text": "A fish and a recipe are different purchases. Look at what you have, consider what you can cook, and decide what you still need. I can show you recipes for several meals, but buying one does not put a finished dinner in your hands. A little attention before the sale makes the next part of the work much easier.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
   "lore9317_befriended_1.ogg": {

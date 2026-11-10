@@ -1510,14 +1510,14 @@
     "npc_id": 8137,
     "name": "Gikkix",
     "zone": "Tanaris",
-    "source": "Exact current named adult model/approved voice verified; own tabs and initial source readings; GikkixHordeFriendly/MebokHordeNeutral, actual nonattackability remains gated; full research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model/approved voice verified; full sourced authored profile, fifteen lines/four v4 signatures, normal thresholds/ordinary live gates tested. MebokNeutral remains conditional on nonattackability; no Scout sighting or live access claimed",
     "research_notes": "docs/research/gikkix-and-mebok-queue.md"
   },
   {
     "npc_id": 3446,
     "name": "Mebok Mizzyrix",
     "zone": "The Barrens",
-    "source": "Exact current named adult model/approved voice verified; own tabs and initial source readings; GikkixHordeFriendly/MebokHordeNeutral, actual nonattackability remains gated; full research pending, no Scout sighting claimed",
+    "source": "Exact current named adult model/approved voice verified; full sourced authored profile, fifteen lines/four v4 signatures, normal thresholds/ordinary live gates tested. MebokNeutral remains conditional on nonattackability; no Scout sighting or live access claimed",
     "research_notes": "docs/research/gikkix-and-mebok-queue.md"
   }
 ]
