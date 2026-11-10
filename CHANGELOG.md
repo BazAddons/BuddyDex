@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sheal Runetotem, Hesuwa Thunderhorn, Daelyshia and Shindrell Swiftfire: full researched adult Tauren/Night Elf profiles, fifteen personal lines each queued for approved voices.
+- Preserve Shindrell's regret over the pridewings, Daelyshia's living Forever identity and Elite friendship scaling, and all ordinary live eligibility checks.
+
 - Add Clarice Foster, Nata Dawnstrider, Aayndia Floralwind and Ainethil: four full adult female profiles across Forsaken, Tauren and Night Elf coverage, fifteen personal lines each queued for recording.
 - Preserve Clarice's anger and choice, Ainethil's unresolved observation, Nata's supplier role and Aayndia's living Forever identity. Ordinary faction/reaction and non-attackability checks remain required.
 

@@ -1918,5 +1918,33 @@
     "zone": "Darnassus",
     "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
     "research_notes": "docs/research/four-women-service-rotation.md"
+  },
+  {
+    "npc_id": 3034,
+    "name": "Sheal Runetotem",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current adult model, location, reaction and complete own tabs; Classic chains and installed dialogue corroborated; no Scout sighting claimed",
+    "research_notes": "docs/research/tauren-and-ashenvale-rotation.md"
+  },
+  {
+    "npc_id": 10086,
+    "name": "Hesuwa Thunderhorn",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current adult model, location, reaction and complete own tabs; Classic chains and installed dialogue corroborated; no Scout sighting claimed",
+    "research_notes": "docs/research/tauren-and-ashenvale-rotation.md"
+  },
+  {
+    "npc_id": 4267,
+    "name": "Daelyshia",
+    "zone": "Ashenvale",
+    "source": "Individually reviewed current adult model, location, reaction and complete own tabs; Classic chains and installed dialogue corroborated; no Scout sighting claimed",
+    "research_notes": "docs/research/tauren-and-ashenvale-rotation.md"
+  },
+  {
+    "npc_id": 3845,
+    "name": "Shindrell Swiftfire",
+    "zone": "Ashenvale",
+    "source": "Individually reviewed current adult model, location, reaction and complete own tabs; Classic chains and installed dialogue corroborated; no Scout sighting claimed",
+    "research_notes": "docs/research/tauren-and-ashenvale-rotation.md"
   }
 ]

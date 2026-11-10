@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 210,
-    "unverified": 127,
-    "horde": 149
+    "alliance": 211,
+    "unverified": 128,
+    "horde": 151
   },
   "npc_race_counts": {
     "1": 165,
@@ -13,10 +13,10 @@
     "7": 27,
     "2": 59,
     "5": 46,
-    "4": 25,
+    "4": 27,
     "8": 36,
     "9": 23,
-    "6": 50,
+    "6": 52,
     "96": 5,
     "95": 7
   },
@@ -38,10 +38,10 @@
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 11,
-    "Thunder Bluff": 25,
+    "Thunder Bluff": 27,
     "Durotar": 40,
     "The Barrens": 22,
-    "Ashenvale": 4,
+    "Ashenvale": 6,
     "Stonetalon Mountains": 4,
     "Darnassus": 6,
     "Thousand Needles": 5,
@@ -2512,6 +2512,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3028"
     },
     {
+      "npc_id": 3034,
+      "name": "Sheal Runetotem",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3034"
+    },
+    {
       "npc_id": 3057,
       "name": "Cairne Bloodhoof",
       "zone": "Thunder Bluff",
@@ -3449,6 +3462,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3841"
     },
     {
+      "npc_id": 3845,
+      "name": "Shindrell Swiftfire",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3845"
+    },
+    {
       "npc_id": 3882,
       "name": "Zlagk",
       "zone": "Durotar",
@@ -3702,6 +3726,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current API confirms identity/model but no current public reaction. Historical Alliance merchant references do not establish current access; ordinary live gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4230"
+    },
+    {
+      "npc_id": 4267,
+      "name": "Daelyshia",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4267"
     },
     {
       "npc_id": 4312,
@@ -5158,6 +5195,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10053"
     },
     {
+      "npc_id": 10086,
+      "name": "Hesuwa Thunderhorn",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10086"
+    },
+    {
       "npc_id": 10118,
       "name": "Nessa Shadowsong",
       "zone": "Teldrassil",
@@ -6138,6 +6188,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 479,
-  "awaiting_signature_audio_profiles": 25
+  "authored_profiles": 483,
+  "awaiting_signature_audio_profiles": 29
 }

@@ -41,6 +41,126 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sheal Runetotem <Druid Trainer>, Elder Rise, Thunder Bluff. Adult
+    -- female Tauren3034/display2121, Horde Friendly. Earth Mother teaching
+    -- from installed gossip; Classic9063 is only a referral to Torwa.
+    -- Her unsuccessful whistling is original, not a spell or quest reward.
+    -- docs/research/tauren-and-ashenvale-rotation.md.
+    [3034] = {
+        recordingVoice = "tauren-female",
+        quote = "You may follow the Earth Mother's path without being good at every sound along it. Listen to my whistle, for example.",
+        likes = { "Students willing to begin again", "Wind through the grass", "A tune shared without judgment" },
+        dislikes = { "Pretending a lesson was understood", "Mistaking noise for confidence", "Turning every walk into a test" },
+        gossip = "Sheal listens closely to the wind. People assume she is considering a deep lesson. Sometimes she is trying to copy the tune.",
+        bio = "Sheal Runetotem teaches druids on Thunder Bluff's Elder Rise, grounding their training in the Earth Mother. She welcomes other travelers with a blessing, too. Not every path through the world needs to be the one she teaches.",
+        backstory = "One quiet afternoon, Sheal tried to whistle along with the breeze. The result startled her more than it resembled music. She kept practicing privately, finding it useful to remember how a beginner feels.",
+        secret = "She can produce one clear note, but only by accident. Repeating it on request has proved impossible. She considers this excellent practice in accepting an honest failure.",
+        bestFriend = "Hum that tune again. I will try to join you. We need not sound impressive to enjoy walking together.",
+        favorite = { emote = "SMILE", hint = "A kind response makes it easier to try something awkward a second time." },
+        lines = {
+            greet = { { "Come. Today we can walk without deciding who must teach whom.", tone = "[warm] [unhurried]" }, "It is good to see you. How has the path treated you?" },
+            idle = { { "That was meant to be a whistle. I understand if you thought otherwise.", tone = "[gentle] [self-deprecating]" }, "The wind manages without an audience. I might learn something from that.", "You can say you do not understand. Then we have somewhere honest to begin." },
+            befriended = { { "You have heard my worst note and returned. Yes, I think we will travel well together.", tone = "[warm] [amused]" } },
+            poke = { "Shall I try the whistle again? You are very brave.", "I am listening. Take the time you need." },
+            learned = { { "Let yourself be pleased. There will be time enough for the next lesson.", tone = "[encouraging]" } },
+            levelUp = { "You need not pretend the earlier steps were easy to be proud of this one." },
+            rest = { "Sit a little. Even an eager student may put the lesson down." },
+            zone = { "There is much to notice here before we decide what it means." },
+            combatEnd = { "Take a breath. We can decide our next step when it is steady." },
+            hearth = { "A familiar doorway is a welcome sight after a long path." },
+            quest = { "Someone needed help, and you gave it. Keep that close." },
+        },
+    },
+    -- Hesuwa Thunderhorn <Pet Trainer>, Hunter Rise, Thunder Bluff. Adult
+    -- male Tauren10086/display9337, Horde Friendly. Installed gossip teaches
+    -- hunters to pass training to pets; no own quest chain found. Sitting
+    -- before his own snack is original fiction, not a new pet mechanic.
+    -- docs/research/tauren-and-ashenvale-rotation.md.
+    [10086] = {
+        recordingVoice = "tauren-male",
+        quote = "Be patient with your companion. If I followed you all morning without breakfast, I might ignore a command or two myself.",
+        likes = { "Patient hunters", "A companion given room to settle", "Taking his own advice about rest" },
+        dislikes = { "Shouting the same command louder", "Blaming a pet for a poor lesson", "Missing lunch to discuss feeding" },
+        gossip = "Hesuwa asks hunters to practice patience. At lunch, he sits very deliberately before opening his food. Apparently the lesson applies.",
+        bio = "Hesuwa Thunderhorn trains hunters in the care and teaching of their pets on Thunder Bluff's Hunter Rise. His instruction is meant to be passed on to a companion. A patient hunter is where that work begins.",
+        backstory = "After a morning reminding others to let their companions settle, Hesuwa caught himself eating on his feet. He sat down before the next bite. The tiny ritual amused him enough to become a habit.",
+        secret = "Sometimes his stomach interrupts the pause before lunch. He treats this as a reasonable objection, then sits anyway. Keeping himself well trained is an ongoing undertaking.",
+        bestFriend = "Sit with me. No commands, no lesson. I brought enough for a comfortable pause, and I would enjoy your company.",
+        favorite = { emote = "NOD", hint = "He appreciates a calm acknowledgment more than a command repeated at full volume." },
+        lines = {
+            greet = { { "Good to see you. Have you eaten, or are we both pretending that can wait?", tone = "[deep] [warmly amused]" }, "I have spent the morning teaching. A walk with you would do me good." },
+            idle = { { "I sat before opening my lunch. It is reassuring to know I can still be taught.", tone = "[deep] [dry]" }, "A command does not become clearer merely because you shout it.", "Let a companion settle. Not every pause is a refusal." },
+            befriended = { { "I would be glad to come along. Good company is worth making time for.", tone = "[deep] [sincere]" } },
+            poke = { "Yes? I am not ignoring you. I was considering lunch.", "A little patience. You already have my attention." },
+            learned = { { "Good. Give yourself time to understand it before asking more of a companion.", tone = "[deep] [encouraging]" } },
+            rest = { "I recommend sitting down. I have been practicing it myself." },
+            loot = { "Do not mistake every rustle in your pack for a request for food." },
+            bagsFull = { "Leave room for what keeps you and your companion comfortable." },
+            combatEnd = { "Let the excitement pass before you ask for the next thing." },
+            mount = { "A steady start will serve both rider and mount." },
+            hearth = { "Home. A fine place to put down a pack and remember a meal." },
+        },
+    },
+    -- Daelyshia <Hippogryph Master>, Astranaar, Ashenvale. Adult female
+    -- Night Elf4267/display2313, Alliance Friendly, current Elite55.
+    -- Flight-service gossip; no own quest chain found. Pleasure in walking
+    -- is original; no later War of the Thorns death or Amirdrassil wisp.
+    -- docs/research/tauren-and-ashenvale-rotation.md.
+    [4267] = {
+        recordingVoice = "nightelf-female",
+        quote = "Flight will get you there sooner. A walk lets you decide which small thing was worth arriving late to see.",
+        likes = { "A rider ready when called", "Dry leaves under her boots", "An outing without a timetable" },
+        dislikes = { "Loose baggage near a launch", "Being hurried on her own walk", "Treating a hippogryph as luggage" },
+        gossip = "Daelyshia spends her days helping others take wing. On a free walk, she chooses the path with the most leaves underfoot.",
+        bio = "Daelyshia tends Astranaar's hippogryph flight service in Ashenvale. Travelers come to her when they need the sky instead of the road. Away from the roost, she enjoys having no departure to arrange.",
+        backstory = "After a day of departures, Daelyshia took a short walk and heard a leaf crack beneath her boot. She slowed down to hear another. It became a small pleasure she could enjoy without checking anyone's destination.",
+        secret = "She occasionally steps out of her way for a promising patch of dry leaves. A disappointing crunch earns a second attempt. She would prefer this remain off the flight schedule.",
+        bestFriend = "Take the longer path with me. We have nowhere to send anyone just now, and I like hearing your steps beside mine.",
+        favorite = { emote = "WAVE", hint = "She knows the value of a warm farewell at the edge of a journey." },
+        lines = {
+            greet = { { "Shall we take the road today? I would like a journey I can hear under my boots.", tone = "[light] [warm]" }, "There you are. This outing has no departure bell, I hope." },
+            idle = { { "That leaf looked more promising than it sounded. One moment. I will try the next.", tone = "[playful] [quietly amused]" }, "A roost is full of departures. I enjoy a little company that stays.", "I like the sky. I also like being allowed to enjoy the ground." },
+            befriended = { { "I would be happy to join you. Leave the hurry behind for a little while.", tone = "[sincere] [welcoming]" } },
+            poke = { "I heard you. I was listening for something smaller.", "If this is a race to the next tree, I decline." },
+            taxi = { { "Baggage secure, hands clear. Give the hippogryph room to begin.", tone = "[calm] [instructive]" } },
+            landed = { "There. Give yourself a moment before rushing into the next journey." },
+            mount = { "A road has its pleasures, too. We need not apologize to the sky." },
+            rest = { "We can stop here. I am enjoying having no one to dispatch." },
+            bagsFull = { "If you cannot lift it comfortably, consider the one carrying you." },
+            zone = { "I wonder what this path sounds like after rain." },
+            hearth = { "A quick return. Now we have time for the slower pleasures." },
+        },
+    },
+    -- Shindrell Swiftfire, Astranaar, Ashenvale. Adult female Night Elf
+    -- 3845/display4126. Current AllianceNeutral remains conditional on live
+    -- reaction and non-attackability. Classic1008->1134,1132->1133 and
+    -- 4581->1011->1012 read; no invented certainty about the venom report.
+    -- Her crooked fern is fiction. docs/research/tauren-and-ashenvale-rotation.md.
+    [3845] = {
+        recordingVoice = "nightelf-female",
+        quote = "Protecting this forest should never make us forget what we wanted to keep alive in it.",
+        likes = { "Reports that distinguish fear from fact", "A small patch of undisturbed growth", "Allies who admit a hard task hurts" },
+        dislikes = { "Boasting about needless killing", "Ignoring a warning from the coast", "Calling a troubled forest peaceful" },
+        gossip = "Shindrell watches a crooked fern near her resting place. No one has persuaded her to straighten it. It seems to be doing well enough.",
+        bio = "Shindrell Swiftfire serves Astranaar as a sentinel. She calls for action against the naga at Zoram Strand and sends reports to Kayneth Stillwind. Her concern for Ashenvale leaves room for sorrow over what its defense can cost.",
+        backstory = "During a quiet pause, Shindrell noticed a fern growing crookedly around a stone. She left it alone and began looking for it when duty allowed. Its ordinary persistence gave her something to notice beyond the next threat.",
+        secret = "She once almost moved the stone to help the fern. Then she noticed the healthy new growth. Some things, she decided, could be allowed to manage without her intervention.",
+        bestFriend = "Walk with me a little. I can speak of the danger all day. With you, I would like to notice what is still growing.",
+        favorite = { emote = "COMFORT", hint = "She carries the cost of difficult orders more quietly than their urgency." },
+        lines = {
+            greet = { { "I am glad you came. We can keep our eyes open without speaking only of danger.", tone = "[measured] [warm]" }, "Come beside me. There is still beauty here worth noticing." },
+            idle = { { "I regret what must be done to the pridewings. Duty does not require me to enjoy it.", tone = "[somber] [restrained]" }, "The fern is growing around its stone. It has not asked for my advice.", "An old fear is reason to investigate carefully, not to invent an answer." },
+            befriended = { { "I trust your company. Let us remember what we are protecting, as well as what threatens it.", tone = "[sincere] [resolute]" } },
+            poke = { "I heard you. Give me a moment to put the worry down.", "No, I am leaving the stone where it is. The fern seems content." },
+            quest = { { "Tell me what you saw. What we suspect and what we know must remain separate.", tone = "[focused] [instructive]" } },
+            combatEnd = { "It is over. There is no need to celebrate every wound." },
+            rest = { "A short pause. I would like to look at something that needs no defending this moment." },
+            zone = { "Look closely. A place can be wounded and still be worth loving." },
+            mail = { "A careful report may help someone see a danger before it reaches them." },
+            learned = { "Understanding more should help us choose more carefully." },
+            hearth = { "Home is more than a place to plan the next fight." },
+        },
+    },
     -- Clarice Foster, Pools of Vision, Thunder Bluff. NPC5543/display3371:
     -- adult female Forsaken. Current HordeNeutral: all normal live reaction
     -- and non-attackability checks still required. Current264rejects Yuriv's

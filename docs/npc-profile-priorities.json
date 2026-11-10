@@ -1589,6 +1589,34 @@
       "zone": "Darnassus",
       "route": "Adult female Forsaken/Tauren Horde and Night Elf Alliance coverage rotation",
       "reason": "Current individual model/place and full known source text reviewed; complete written profile and approved female voice, normal live gates including Neutral/non-attackable required; no synthesis"
+    },
+    {
+      "npc_id": 3034,
+      "name": "Sheal Runetotem",
+      "zone": "Thunder Bluff",
+      "route": "Tauren service and Ashenvale Night Elf rotation",
+      "reason": "Full researched written profile and fifteen queued personal lines; approved adult display voice, ordinary live gates and Elite scaling preserved; no synthesis"
+    },
+    {
+      "npc_id": 10086,
+      "name": "Hesuwa Thunderhorn",
+      "zone": "Thunder Bluff",
+      "route": "Tauren service and Ashenvale Night Elf rotation",
+      "reason": "Full researched written profile and fifteen queued personal lines; approved adult display voice, ordinary live gates and Elite scaling preserved; no synthesis"
+    },
+    {
+      "npc_id": 4267,
+      "name": "Daelyshia",
+      "zone": "Ashenvale",
+      "route": "Tauren service and Ashenvale Night Elf rotation",
+      "reason": "Full researched written profile and fifteen queued personal lines; approved adult display voice, ordinary live gates and Elite scaling preserved; no synthesis"
+    },
+    {
+      "npc_id": 3845,
+      "name": "Shindrell Swiftfire",
+      "zone": "Ashenvale",
+      "route": "Tauren service and Ashenvale Night Elf rotation",
+      "reason": "Full researched written profile and fifteen queued personal lines; approved adult display voice, ordinary live gates and Elite scaling preserved; no synthesis"
     }
   ]
 }
