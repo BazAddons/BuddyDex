@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 224,
+    "alliance": 226,
     "unverified": 134,
     "horde": 171
   },
@@ -13,7 +13,7 @@
     "7": 31,
     "2": 64,
     "5": 51,
-    "4": 32,
+    "4": 34,
     "8": 40,
     "9": 24,
     "6": 59,
@@ -31,7 +31,7 @@
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
     "Silverpine Forest": 7,
-    "Teldrassil": 9,
+    "Teldrassil": 11,
     "Hillsbrad Foothills": 3,
     "Arathi Highlands": 11,
     "Orgrimmar": 34,
@@ -1831,6 +1831,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2080"
     },
     {
+      "npc_id": 2081,
+      "name": "Sentinel Kyra Starsong",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2081"
+    },
+    {
       "npc_id": 2082,
       "name": "Gilshalan Windwalker",
       "zone": "Teldrassil",
@@ -3534,6 +3547,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3595"
+    },
+    {
+      "npc_id": 3596,
+      "name": "Ayanna Everstride",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3596"
     },
     {
       "npc_id": 3615,
@@ -6660,6 +6686,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 520,
-  "awaiting_signature_audio_profiles": 66
+  "authored_profiles": 522,
+  "awaiting_signature_audio_profiles": 68
 }

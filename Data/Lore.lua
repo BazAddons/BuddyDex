@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ayanna Everstride <Hunter Trainer>, Aldrassil, Shadowglen, Teldrassil.
+    -- Adult Night Elf female3596/display1723/M2 921844, Alliance Friendly.
+    -- Etched Sigil/book and full Hunter Path/Dazalar/Jocaste chain read.
+    -- Current own service/quest rows sparse; no pet abilities granted by
+    -- friendship. Stone-skipping competition is original character writing.
+    -- Research: docs/research/shadowglen-hunter-and-dolanaar-sentinel.md
+    [3596] = {
+        quote = "Your companion is not an extra weapon. Learn the creature beside you.",
+        likes = { "Respect for animal companions", "Skills practiced patiently", "A well-skipped stone" },
+        dislikes = { "Boasting in place of practice", "Pets taken for granted", "A splash counted as a skip" },
+        gossip = "Ayanna is patient with a new hunter. Challenge her to skip a stone, however, and she becomes very interested in the score.",
+        bio = "Ayanna Everstride prepares new hunters in Aldrassil, Shadowglen. Her teaching joins accuracy with respect for animal companions and the land. Her Hunter's Path referral points capable learners toward Dazalar in Dolanaar.",
+        backstory = "She began skipping stones as a break from careful practice with a bow. Then she started counting the bounces, comparing throws, and practicing those too. Apparently, she does not relax by halves.",
+        secret = "She once claimed a stone had skipped beyond sight. It had sunk in the first ripple. She knows how unconvincing the explanation was.",
+        bestFriend = "Come, one more throw. You need not let your teacher win. Especially when she is being insufferable about it.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She appreciates encouragement for a skill practiced well.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "I will join you. There is always more to learn from the path.", tone = "[warm] [attentive]" }, "A familiar face. Shall we put our practice to use?" },
+            idle = { { "A splash is not a skip. I am well aware of the distinction.", tone = "[wry]" }, "Notice the creature beside you, not merely what it can do.", "There may be time for one more throw. Purely for practice." },
+            befriended = { { "We can walk as friends today. I need not make a lesson of every step.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you noticed something worth our attention?", "I was considering a throw. You have interrupted a very serious matter." },
+            learned = { { "Practice makes a skill dependable. Give this one that care.", tone = "[encouraging]" } },
+            mount = { "An animal companion deserves attention before admiration." },
+            levelUp = { "Progress is welcome. Keep the patience that brought you here." },
+            zone = { "Treat the land beyond home with the same respect." },
+            combatStart = { "Watch your surroundings. Keep your movements deliberate." },
+            combatEnd = { "Take stock before you turn your attention to the next challenge." },
+            rest = { "A moment to rest. I shall try not to turn it into a competition." },
+        },
+    },
+
+    -- Sentinel Kyra Starsong, Dolanaar, Teldrassil. Adult Night Elf female
+    -- 2081/display1682/M2 921844, Alliance Friendly. Classic redemption
+    -- branch and full Forever Lost Runner/salve and Lynessa escort read.
+    -- Eralya recovery unconfirmed; Lynessa is a verified personal friend.
+    -- Lengthy personal letters are original; no later Teldrassil fate.
+    -- Research: docs/research/shadowglen-hunter-and-dolanaar-sentinel.md
+    [2081] = {
+        quote = "A message matters. So does the person carrying it.",
+        likes = { "A familiar wave", "Runners kept in mind", "News of an ordinary day" },
+        dislikes = { "An unexplained absence ignored", "Orders passed on carelessly", "Cruel tricks on the forest" },
+        gossip = "Kyra keeps official messages admirably brief. A letter to a friend is another matter entirely.",
+        bio = "Sentinel Kyra Starsong serves at Dolanaar. The Council's messages and the safety of their runners concern her. She seeks news of trainee Eralya Leafshadow and is grateful for help given to her friend Lynessa Duskblossom.",
+        backstory = "Writing duty reports taught her to cut anything that did not help the reader act. She tried the same rule on a personal letter and was left with almost nothing. She decided friendship deserved a different kind of news.",
+        secret = "She has an unfinished letter full of tiny observations she would never put in a report. Every new page was supposed to be the last.",
+        bestFriend = "Tell me the small things about your day. I am listening as your friend, not waiting for a report.",
+        favorite = {
+            emote = "WAVE",
+            hint = "A familiar greeting is worth looking up for.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "I will come with you. Let us keep an eye on one another.", tone = "[steady] [warm]" }, "Good to see you. A familiar face is worth looking up for." },
+            idle = { { "An ordinary day still has news worth sharing with a friend.", tone = "[gentle]" }, "No, that would not belong in a report. You can tell me anyway.", "The letter is nearly finished. It has been nearly finished for some time." },
+            befriended = { { "Today I would like to know how you are, not only what needs doing.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You have my attention.", "I was choosing a word. It may have to wait." },
+            mail = { { "May that message find its reader safely.", tone = "[thoughtful]" } },
+            quest = { "An overdue runner deserves more than an assumption. Someone should check." },
+            questAccepted = { "Be clear about the task, and remember the people it concerns." },
+            group = { "Keep one another in sight. A familiar face can be reassuring." },
+            taxi = { "Safe travel. Notice who is waiting when you arrive." },
+            landed = { "Arrived together. Good. Let us see what is needed." },
+            comforted = { "Thank you. Even a sentinel can welcome a little reassurance." },
+        },
+    },
+
     -- Xan'tish <Snake Vendor>, Valley of Spirits, Orgrimmar. Adult
     -- Troll male8404/display7631/M2 1022938, Horde Friendly. Current
     -- Vendor stock: Black Kingsnake, Brown Snake, Crimson Snake, Jungle

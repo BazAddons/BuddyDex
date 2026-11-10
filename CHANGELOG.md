@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ayanna Everstride and Sentinel Kyra Starsong: full profiles along the Night Elf starting route, with thirty personal lines queued.
+- Ground their stories in hunter training and Forever's sentinel quests, preserving the difference between a successful rescue and relief without a confirmed cure.
+
 - Add Xan'tish and Xen'Zilla: full Troll profiles for Orgrimmar's snake vendor and Malaka'jin's camp defender, with thirty personal lines queued.
 - Ground their distinct personalities in verified companion stock and Blood Feeders dialogue while preserving ordinary friendship unlocks and character-local progress.
 

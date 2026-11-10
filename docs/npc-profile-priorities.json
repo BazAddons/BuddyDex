@@ -1876,6 +1876,20 @@
       "zone": "Stonetalon Mountains",
       "route": "Troll Orgrimmar service and Stonetalon onward route",
       "reason": "Complete adult Troll male profile and fifteen queued approved-voice lines; vendor/quest evidence separated from fiction, normal live gates, no synthesis"
+    },
+    {
+      "npc_id": 3596,
+      "name": "Ayanna Everstride",
+      "zone": "Teldrassil",
+      "route": "Night Elf female Shadowglen-Dolanaar starting route",
+      "reason": "Complete researched adult profile and fifteen queued Night Elf female lines; normal live gates and quest outcome limits retained, no synthesis"
+    },
+    {
+      "npc_id": 2081,
+      "name": "Sentinel Kyra Starsong",
+      "zone": "Teldrassil",
+      "route": "Night Elf female Shadowglen-Dolanaar starting route",
+      "reason": "Complete researched adult profile and fifteen queued Night Elf female lines; normal live gates and quest outcome limits retained, no synthesis"
     }
   ]
 }

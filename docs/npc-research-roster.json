@@ -2205,5 +2205,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed current adult model, explicit Horde Friendly access, complete own tabs and Classic/installed role or standalone quest; no claimed Scout sighting",
     "research_notes": "docs/research/troll-companions-and-camp-supplies.md"
+  },
+  {
+    "npc_id": 3596,
+    "name": "Ayanna Everstride",
+    "zone": "Teldrassil",
+    "source": "Reviewed current adult model/Friendly access, complete own tabs, Classic hunter/book or Council context and full Forever runner/escort text; no claimed Scout sighting",
+    "research_notes": "docs/research/shadowglen-hunter-and-dolanaar-sentinel.md"
+  },
+  {
+    "npc_id": 2081,
+    "name": "Sentinel Kyra Starsong",
+    "zone": "Teldrassil",
+    "source": "Reviewed current adult model/Friendly access, complete own tabs, Classic hunter/book or Council context and full Forever runner/escort text; no claimed Scout sighting",
+    "research_notes": "docs/research/shadowglen-hunter-and-dolanaar-sentinel.md"
   }
 ]
