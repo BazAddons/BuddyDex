@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Boramu: a full adult Tauren recipe-vendor profile in Thunder Bluff, with fifteen personal lines queued.
+- Ground his role in both verified reagent-bag patterns, with an original imaginary bag story and normal friendship unlocks.
+
 - Add Halavuul Cragwind and Othesia Evengale: two complete adult Skyborne profiles with thirty personal lines queued.
 - Expand Valanaar Mining and Tailoring contacts with complete profession-table research and distinct personal stories.
 

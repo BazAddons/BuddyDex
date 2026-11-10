@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Boramu <Tailoring Recipes>, Thunder Bluff. Adult Tauren male
+    -- display140795/M2 968705, Horde Friendly. Both reagent-bag patterns
+    -- read; no linked quests/lessons or installed gossip found.
+    -- Imaginary bag of other bags is original, never an actual item reward.
+    -- Research: docs/research/boramu-and-the-imaginary-bag.md
+    [258466] = {
+        quote = "A bag for carrying all your other bags. A magnificent idea until you try to find the one at the bottom.",
+        likes = { "A useful pattern explained plainly", "Finding what you packed without a search", "An idea that improves when questioned" },
+        dislikes = { "Calling every complication an improvement", "Being hurried through a careful choice", "A good question dismissed as foolish" },
+        gossip = "Boramu has imagined a bag for all the other bags. He is still considering how anyone would find anything in it.",
+        bio = "Boramu sells tailoring recipes in Thunder Bluff. His small selection includes patterns for linen and woolen reagent bags. A visitor looking for those patterns can find him in the city, rather than needing to travel beyond Mulgore.",
+        backstory = "Thinking about bags led him to imagine one splendid bag that could carry all the others. He enjoyed the idea until he pictured needing something at the very bottom. The thought still entertains him more than a practical design would.",
+        secret = "He has never made his grand bag of bags. Keeping it imaginary lets him enjoy every new complication without having to empty it afterward.",
+        bestFriend = "Come along. You may ask the question that spoils my next magnificent idea. I have found that the conversation is often the best part.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys someone sharing the joke when an impressive idea becomes much less convenient on closer inspection.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have brought the company, and left the imaginary bag of other bags safely imaginary.", tone = "[warm] [wry]" }, "Ready. Tell me what you hoped to find today. We can begin with that before making the answer more complicated." },
+            idle = { { "I imagined a magnificent bag for carrying all the other bags. Then I pictured needing something at the bottom. It remains a very entertaining bag to have never made.", tone = "[thoughtful] [amused]" }, "A small selection is not a puzzle. If the pattern you want is there, that is a perfectly good place to begin.", "You may ask an ordinary question. It does not have to sound clever before it deserves an answer." },
+            befriended = { { "You shared the joke and stayed for the conversation afterward. Come along, friend. I am pleased the company does not need a grand design.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have found the flaw in my idea, tell me. I would enjoy seeing whether it is the same one I found.", "I hear you. A greeting is a fine reason to interrupt a very imaginary piece of work." },
+            bagsFull = { { "Consider what you meant to carry before adding another bag. Otherwise you may only be giving the same search a larger place to happen.", tone = "[patient] [gently amused]" } },
+            loot = { "Before putting it away, decide where you will look for it again. That can be the useful part of finding something." },
+            learned = { "A pattern gives you something definite to work from. Understand the next step before improving it beyond recognition." },
+            mail = { "Check whom it is for as well as what is inside. A carefully packed parcel still needs to reach the right person." },
+            rest = { "A pause. I can enjoy your company without finding another problem that needs a clever container." },
+            group = { "Ask what the others need. One splendid arrangement may become less splendid when everyone has to use it." },
+            thanked = { "You are welcome. I am pleased it helped, and pleased you stayed long enough to tell me." },
+        },
+    },
+
     -- Halavuul Cragwind <Mining Trainer>, Valanaar, Zephras Isle.
     -- Adult Windshaper male140065/M2 7478487, Alliance Friendly.
     -- All16lessons and2installed floating-island mining variants read.

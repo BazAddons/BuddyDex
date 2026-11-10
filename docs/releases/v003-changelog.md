@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Boramu: a full adult Tauren recipe-vendor profile in Thunder Bluff, with fifteen personal lines queued.
+- Ground his role in both verified reagent-bag patterns, with an original imaginary bag story and normal friendship unlocks.
+
 - Add Halavuul Cragwind and Othesia Evengale: two complete adult Skyborne profiles with thirty personal lines queued.
 - Expand Valanaar Mining and Tailoring contacts with complete profession-table research and distinct personal stories.
 
@@ -288,4 +291,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **662 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **663 fully written NPC profiles**: 454 have initial signature recordings, and two hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

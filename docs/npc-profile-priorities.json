@@ -2870,6 +2870,13 @@
       "zone": "Zephras Isle",
       "route": "Valanaar Tailoring starter-region contact",
       "reason": "Complete adult Skyborne profile, fifteen personal lines queued, sourced profession role with original changing-inventory or comfortable-shirt character writing; no synthesis"
+    },
+    {
+      "npc_id": 258466,
+      "name": "Boramu",
+      "zone": "Thunder Bluff",
+      "route": "Tauren capital tailoring recipe vendor",
+      "reason": "Complete adult Horde service profile, fifteen personal lines queued; original imaginary bag of bags; no synthesis"
     }
   ]
 }

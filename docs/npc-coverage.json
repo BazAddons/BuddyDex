@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 280,
     "unverified": 152,
-    "horde": 250
+    "horde": 251
   },
   "npc_race_counts": {
     "1": 166,
@@ -16,7 +16,7 @@
     "4": 51,
     "8": 53,
     "9": 40,
-    "6": 76,
+    "6": 77,
     "96": 15,
     "95": 20
   },
@@ -42,7 +42,7 @@
     "Badlands": 1,
     "Darkshore": 8,
     "Mulgore": 22,
-    "Thunder Bluff": 38,
+    "Thunder Bluff": 39,
     "Durotar": 49,
     "The Barrens": 31,
     "Stonetalon Mountains": 9,
@@ -8135,6 +8135,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258306"
     },
     {
+      "npc_id": 258466,
+      "name": "Boramu",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258466"
+    },
+    {
       "npc_id": 258568,
       "name": "Antonio Bolero",
       "zone": "Stormwind City",
@@ -8485,6 +8498,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 662,
-  "awaiting_signature_audio_profiles": 208
+  "authored_profiles": 663,
+  "awaiting_signature_audio_profiles": 209
 }

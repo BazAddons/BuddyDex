@@ -3199,5 +3199,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Windshaper Skyborne man/woman, current Alliance Friendly only; all training/stock pages and installed mining/tailoring dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/valanaar-changing-inventories-and-quiet-compliments.md"
+  },
+  {
+    "npc_id": 258466,
+    "name": "Boramu",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult Tauren male, Horde Friendly; all current relationship tabs and both recipe items read; no Scout sighting claimed",
+    "research_notes": "docs/research/boramu-and-the-imaginary-bag.md"
   }
 ]
