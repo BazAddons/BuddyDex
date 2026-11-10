@@ -1162,6 +1162,20 @@
       "zone": "Arathi Highlands",
       "route": "Horde male/female Orc regional quest and trade-goods coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal299/300 Buddy validation in docs/research/gormul-and-keena-queue.md"
+    },
+    {
+      "npc_id": 9976,
+      "name": "Tharlidun",
+      "zone": "Arathi Highlands",
+      "route": "Horde stable and butcher services",
+      "reason": "Identity verified; full source/era checks and profile writing pending. See docs/research/tharlidun-and-uttnar-queue.md"
+    },
+    {
+      "npc_id": 4954,
+      "name": "Uttnar",
+      "zone": "Arathi Highlands",
+      "route": "Horde stable and butcher services",
+      "reason": "Identity verified; full source/era checks and profile writing pending. See docs/research/tharlidun-and-uttnar-queue.md"
     }
   ]
 }
