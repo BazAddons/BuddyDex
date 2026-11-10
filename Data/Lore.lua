@@ -41,6 +41,122 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Wulan <Cooking Supplies>, Shadowprey Village, Desolace. Adult male
+    -- Troll12033/display12036, Horde Friendly. Current15stock rows include
+    -- Expert Cookbook; supplier, not assumed author/trainer. No own quest.
+    -- Kitchen rhythms original. docs/research/horde-craft-and-auberdine.md.
+    [12033] = {
+        recordingVoice = "troll-male",
+        quote = "A cookbook can tell you what to put in the pot. It cannot tell you to stop talking and check what you already put there.",
+        likes = { "A cook who reads before guessing", "A rhythm made with ordinary things", "Someone keeping time beside him" },
+        dislikes = { "Blaming the book for an unread page", "Spice jars left open in the breeze", "Being asked to play louder than the sea" },
+        gossip = "Wulan taps little rhythms while arranging his supplies. Customers have started pausing before they speak, waiting for the phrase to finish.",
+        bio = "Wulan sells cooking supplies in Shadowprey Village. Cooks seek his Expert Cookbook, recipes and ingredients when their travels bring them to Desolace. He takes pleasure in hearing that a purchase became a meal worth sharing.",
+        backstory = "While putting away supplies, Wulan tapped a rhythm against the counter. A customer joined in before remembering the shopping. He liked that brief conversation without words and began listening for it in other ordinary sounds.",
+        secret = "He has a favorite rhythm with a pause that makes people think he has finished. When a friend remembers the last beat, he enjoys it more than a whole audience clapping early.",
+        bestFriend = "There is the last beat. You remembered. Come walk with me. We can find a rhythm that belongs to nobody else's hurry.",
+        favorite = { emote = "CLAP", hint = "An appreciative listener might answer the little rhythm he taps between customers." },
+        lines = {
+            greet = { { "Good to see you. Shall we find out what the road sounds like today?", tone = "[warm] [rhythmic]" }, "Come along. A little company is better than talking to an unopened cookbook." },
+            idle = { { "Wait for it. There. The last beat. You nearly applauded the silence again.", tone = "[playful] [amused]" }, "The book did not add that much spice by itself. Someone must accept the credit.", "Some days the sea keeps time. Other days it has a different arrangement in mind." },
+            befriended = { { "You stayed when there was nothing left to buy. I like that. Let us enjoy some time together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can stop tapping long enough to hear you.", "If you are asking for the recipe, that rhythm is not written in the cookbook." },
+            learned = { { "Read it through, then try it with care. Guessing can wait until you know what you are changing.", tone = "[friendly] [instructive]" } },
+            rest = { "A pause. Not every silence needs to be filled before the next beat." },
+            bagsFull = { "I hope the ingredients are packed better than that sounds." },
+            loot = { "Interesting. Keep it out of the flour until we know what it is." },
+            quest = { "Finished. Now give yourself a moment to enjoy the end of the phrase." },
+            zone = { "Listen. Different ground gives a walk a different rhythm." },
+            hearth = { "Home. A good place to see whether someone has saved a seat at the table." },
+        },
+    },
+    -- Lah'Mawhani <Trade Supplies>, Shadowprey Village, Desolace. Adult
+    -- female Troll12028/display12042, Horde Friendly. Current30vendor rows;
+    -- no own quests/training/gossip found. Voices for tools original, not
+    -- enchanted objects. docs/research/horde-craft-and-auberdine.md.
+    [12028] = {
+        recordingVoice = "troll-female",
+        quote = "The hammer thinks it is the most important thing on the shelf. The needle objects. I try to give them both a fair hearing.",
+        likes = { "Hearing what a maker plans to build", "A useful tool treated with care", "A friend willing to take the needle's side" },
+        dislikes = { "Calling small supplies unimportant", "A shopping list made entirely of guesses", "Mistaking a good argument for a feud" },
+        gossip = "Lah'Mawhani gives her tools opinions when the shop is quiet. The hammer makes a loud case. The needle tends to have the sharper reply.",
+        bio = "Lah'Mawhani supplies Shadowprey Village's trades with tools, thread, dyes, vials and more. Her counter brings different kinds of work together. She likes hearing what someone intends to make with the small things they came to buy.",
+        backstory = "While arranging tools, Lah'Mawhani imagined them arguing over which did the most useful work. She supplied both voices and found the debate entertaining. A quiet moment could become quite lively without moving a single hammer.",
+        secret = "In her private version of the argument, an empty vial wins by holding water for the thirsty debaters. She changes the ending if a listener makes a better case for somebody else.",
+        bestFriend = "You may argue for the needle today. I have heard my own side often enough. It is good to have someone here who can surprise me.",
+        favorite = { emote = "SMILE", hint = "She appreciates someone enjoying the lively conversation she supplies for an otherwise silent shelf." },
+        lines = {
+            greet = { { "There you are. Come defend the needle. The hammer has been boasting all morning.", tone = "[lively] [teasing]" }, "Good company! Tell me what you are making, or simply tell me how you are." },
+            idle = { { "The hammer says it settles arguments. The needle says that explains the damage.", tone = "[playful] [mock solemn]" }, "A small thing can stop a large project when nobody remembered to bring it.", "No, the tools do not actually talk. I would have far less peace if they did." },
+            befriended = { { "I would be happy to come with you. A conversation is much better when I do not have to invent both sides.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Your opinion counts. Even if the hammer disagrees.", "If you heard two voices, both were mine. Neither has finished the argument." },
+            bagsFull = { { "Did you leave space for the little thing that makes the big thing possible?", tone = "[friendly] [practical]" } },
+            learned = { "A new skill. Now you may have an entirely new opinion about the tools." },
+            loot = { "What could somebody make with that? I like that question better than how much it weighs." },
+            gear = { "A needle may deserve some of the credit, however loudly the hammer complains." },
+            mail = { "Perhaps news of something finished. I like hearing what became of a beginning." },
+            rest = { "We can pause. The debate will survive a little silence." },
+            hearth = { "Home again. I wonder whether the empty vial has won another argument in my absence." },
+        },
+    },
+    -- Hahrana Ironhide <Master Leatherworker>, Camp Mojache, Feralas.
+    -- Adult female Tauren11098/display10623, Horde Friendly. Own gossip:
+    -- in-person buyers, local fighters' armor first, Orwin asks reconsideration.
+    -- No invented Orwin relationship; bad puns original. docs/research/horde-craft-and-auberdine.md.
+    [11098] = {
+        recordingVoice = "tauren-female",
+        quote = "A strong seam can survive a bad joke. Whether you can is something we will discover during the lesson.",
+        likes = { "Buyers who explain their needs in person", "Students prepared for advanced work", "A terrible pun delivered without flinching" },
+        dislikes = { "Orders that ignore local needs", "Pretending basic work is mastered", "Being told to leave the punch line out" },
+        gossip = "Hahrana is exacting about armor and remarkably forgiving toward bad jokes. This may be because she intends to tell the next one herself.",
+        bio = "Hahrana Ironhide works at Camp Mojache, where fighters depend on her armor. Buyers must approach her in person. Orwin's requests have not changed her priorities: the people relying on her here come before distant convenience.",
+        backstory = "During a long stretch of work, Hahrana made a dreadful joke about a seam. The answering groan improved the afternoon enough that she tried another. Her standards for leather stayed high. Her standards for a pun became far more generous.",
+        secret = "She remembers a good groan longer than polite laughter. It means the listener understood the joke and stayed anyway. She considers that a promising quality in a companion.",
+        bestFriend = "Stay for another joke. You may groan honestly. I would rather have your real answer than a room full of people being careful with me.",
+        favorite = { emote = "GRIN", hint = "Her exacting manner occasionally conceals a joke that deserves an equally knowing response." },
+        lines = {
+            greet = { { "Come along. I have a joke ready, and you have had time to prepare yourself.", tone = "[steady] [dryly amused]" }, "Good to see you. A visit in person still means something to me." },
+            idle = { { "I had a joke about loose stitching, but it fell apart. You may groan now.", tone = "[deadpan] [pleased]" }, "The people here depend on the work. That is not a detail to put behind a convenient order.", "A confident pupil can still be unprepared. I prefer to see what the hands know." },
+            befriended = { { "I trust you to speak plainly with me. I would be glad to share a little of the road.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? If it is about the joke, I am already considering a worse one.", "You have my attention. Make the request your own." },
+            learned = { { "Good. Understanding what you have learned matters more than calling it advanced.", tone = "[firm] [approving]" } },
+            gear = { "Let us hope the stitching holds together better than my last punch line." },
+            combatEnd = { "Look after what protected you. It may be needed again sooner than you wish." },
+            quest = { "Work done for someone who needs it is worth taking seriously." },
+            rest = { "A pause. My next joke needs work, though that has never stopped the others." },
+            bagsFull = { "Care for the materials you have room to carry." },
+            hearth = { "Home. I wonder who has been saving a complaint about my jokes." },
+        },
+    },
+    -- Laird <Fish Vendor>, Auberdine inn, Darkshore. Adult male Night Elf
+    -- 4200/display9549, current Alliance Friendly. Full Classic6344->6341->
+    -- 6342->6343: Nessa's colleague; World Tree effect only his suspicion.
+    -- No later Cataclysm death. Fish tales original; docs/research/horde-craft-and-auberdine.md.
+    [4200] = {
+        recordingVoice = "nightelf-male",
+        quote = "If you want fish, I will be precise. If you want a fish story, say so before I waste a perfectly good exaggeration.",
+        likes = { "A useful comparison of actual catches", "A fish tale announced as a fish tale", "A listener who remembers the modest version" },
+        dislikes = { "Selling a guess as a discovery", "Confusing a fine story with evidence", "Overlooking the danger along the coast" },
+        gossip = "Laird tells enormous fish stories to empty baskets. With customers, he is precise again. Apparently baskets get more exciting fish.",
+        bio = "Laird sells fish in Auberdine and exchanges observations with Nessa Shadowsong of Rut'theran. Her fish samples reveal striking differences from the mainland's. He suspects the World Tree's influence, but the cause remains a question.",
+        backstory = "Laird tried a grand fish tale on an empty basket one quiet afternoon. With nobody to mistake it for a report, he enjoyed making each version less plausible. He began asking friends which sort of account they wanted before starting.",
+        secret = "His favorite ending is an entirely ordinary fish. After building up a magnificent description, he likes admitting that supper was modest and quite satisfactory. An attentive listener makes it work.",
+        bestFriend = "You remember the fish at its proper size. Good. Walk with me, and I will tell you the version that grew on the journey.",
+        favorite = { emote = "WINK", hint = "A knowing response can tell him that someone has caught the difference between a report and a tall tale." },
+        lines = {
+            greet = { { "There you are. Would you prefer an accurate account of the day, or the interesting one?", tone = "[warm] [wry]" }, "Come along. A walk should give the story room to grow." },
+            idle = { { "The fish was ordinary. The description was magnificent. I am willing to distinguish the two.", tone = "[dryly amused] [storytelling]" }, "A difference worth noticing is not yet a cause worth declaring.", "The empty basket never interrupts. Unfortunately, it also never appreciates a good ending." },
+            befriended = { { "I enjoy talking with you. You listen closely enough to know when I am being serious.", tone = "[measured] [sincere]" } },
+            poke = { "Yes? If the fish has become too large, I can return to the facts.", "That was the short version. I have been practicing restraint." },
+            quest = { { "Tell me what you actually found first. We may embellish the journey afterward.", tone = "[curious] [instructive]" } },
+            loot = { "An interesting specimen. Perhaps we should look before deciding what it proves." },
+            mail = { "News from a colleague can make an ordinary day considerably more interesting." },
+            rest = { "We can stop. A tale told in a hurry rarely gives the fish its proper opportunity." },
+            zone = { "Different waters can yield a surprising comparison. I would like to know more before explaining it." },
+            landed = { "Arrived safely. That part of the account needs no improvement." },
+            hearth = { "Home. By tomorrow, this walk may contain a much larger fish." },
+        },
+    },
     -- Chaw Stronghide <Journeyman Leatherworker>, Bloodhoof Village,
     -- Mulgore. Adult male Tauren3069/display3796, Horde Friendly. Installed
     -- gossip: use the whole hunt, mutual strength, belonging to the land.

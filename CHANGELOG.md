@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Wulan, Lah'Mawhani, Hahrana Ironhide and Laird: four researched adult service profiles with sixty personal lines queued for approved voices.
+- Expand male/female Troll and female Tauren coverage; preserve Hahrana's local armor priorities and Laird's unresolved fish comparison without later retail events.
+
 - Add Chaw Stronghide, Moorat Longstride, Jark and Tajarri: four full adult profiles with sixty queued personal lines, expanding Bloodhoof/Razor Hill services and Moonglade character coverage.
 - Include Chaw's researched Forever camping role and Tajarri's shrine/trial duties while preserving normal live reaction, character isolation and friendship rules.
 

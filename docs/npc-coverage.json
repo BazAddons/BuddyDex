@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 213,
+    "alliance": 214,
     "unverified": 130,
-    "horde": 155
+    "horde": 158
   },
   "npc_race_counts": {
     "1": 165,
@@ -13,10 +13,10 @@
     "7": 27,
     "2": 60,
     "5": 48,
-    "4": 28,
-    "8": 36,
+    "4": 29,
+    "8": 38,
     "9": 23,
-    "6": 54,
+    "6": 55,
     "96": 5,
     "95": 7
   },
@@ -36,7 +36,7 @@
     "Arathi Highlands": 11,
     "Orgrimmar": 31,
     "Badlands": 1,
-    "Darkshore": 4,
+    "Darkshore": 5,
     "Mulgore": 13,
     "Thunder Bluff": 27,
     "Durotar": 41,
@@ -48,8 +48,8 @@
     "Undercity": 8,
     "Dustwallow Marsh": 1,
     "Tanaris": 5,
-    "Feralas": 1,
-    "Desolace": 6,
+    "Feralas": 2,
+    "Desolace": 8,
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
@@ -3731,6 +3731,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4169"
     },
     {
+      "npc_id": 4200,
+      "name": "Laird",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4200"
+    },
+    {
       "npc_id": 4201,
       "name": "Ziz Fizziks",
       "zone": "Stonetalon Mountains",
@@ -5414,6 +5427,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11096"
     },
     {
+      "npc_id": 11098,
+      "name": "Hahrana Ironhide",
+      "zone": "Feralas",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11098"
+    },
+    {
       "npc_id": 11106,
       "name": "Innkeeper Sikewa",
       "zone": "Desolace",
@@ -5539,6 +5565,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
     },
     {
+      "npc_id": 12028,
+      "name": "Lah'Mawhani",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12028"
+    },
+    {
       "npc_id": 12031,
       "name": "Mai'Lahii",
       "zone": "Desolace",
@@ -5563,6 +5602,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; live eligibility required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12032"
+    },
+    {
+      "npc_id": 12033,
+      "name": "Wulan",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12033"
     },
     {
       "npc_id": 12136,
@@ -6289,6 +6341,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 491,
-  "awaiting_signature_audio_profiles": 37
+  "authored_profiles": 495,
+  "awaiting_signature_audio_profiles": 41
 }
