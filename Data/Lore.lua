@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gurda Ragescar, near Splintertree, Ashenvale. Adult Orc female
+    -- 12946/M2 949470, Horde Friendly. Full6504quest and all15manual
+    -- item records reviewed; no readable manual text exposed. Asking
+    -- twice without shame and hoping instructions feel ordinary are original.
+    -- Research: docs/research/ashenvale-pages-and-taurajo-courtesy.md
+    [12718] = {
+        quote = "A cover is not a manual. I have established that quite thoroughly. Now I need the pages.",
+        likes = { "An explanation repeated without a sneer", "Instructions checked before a machine starts", "A promise followed by practical help" },
+        dislikes = { "A gust getting between her and her work", "Pretending to understand a dangerous tool", "Being mocked for asking about a line" },
+        gossip = "Gurda wants the instructions before she operates the shredder. She has little patience for anyone who thinks guessing would be more impressive.",
+        bio = "Gurda Ragescar waits near Splintertree Post for the scattered pages of a shredder manual. A gust took them while she was returning from Ratchet to duty at the Warsong Lumber Camp, leaving her with only the cover.",
+        backstory = "The shredder was ready to bring back, but she still needed its instructions. Losing the pages stopped the journey. She asks travelers to recover and assemble them, knowing that a cover and a confident expression will not teach her to operate the machine.",
+        secret = "She hopes the instructions will eventually feel ordinary. Understanding a line without worrying whether she has missed something would please her more than pretending she never needed help.",
+        bestFriend = "Sit with me. If I ask for a line twice, I want it right. I trust you to understand that, and I am glad you stayed.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She appreciates encouragement for making real progress, without pretending that asking for help was a failure.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "There you are. Come along. If there is something I do not understand, I will ask. I would rather get it right than spend the day making a confident mistake.", tone = "[gruff] [welcoming]" }, "Ready. A promise to help is welcome. Following it through is what makes the difference." },
+            idle = { { "Reading is not my strongest skill. I would still rather ask about the instructions than discover what I misunderstood after the machine has begun moving.", tone = "[plainspoken] [resolute]" }, "A cover is not a manual. Looking at it with greater determination has not improved the amount of instruction it contains.", "There is work waiting at the lumber camp. That does not make guessing how the shredder works a sensible way to hurry back." },
+            befriended = { { "You have become someone I can ask without first preparing for a sneer. Come along, friend. I value that, and I am glad of your company.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? Say what you mean. I can ask about the part I do not understand after I have heard it.", "I hear you. If you came to help, begin there. We do not need a clever remark about the cover first." },
+            learned = { { "Good. I like the moment something begins to make sense. There is no need to pretend it was obvious before you understood it.", tone = "[approving] [warm]" } },
+            quest = { "Read the request properly. The pages belong in their chapters. A handful of paper is a beginning, not the finished job." },
+            loot = { "Look closely before putting it away. Something useful is easier to keep when you know which part you were missing." },
+            bagsFull = { "Make room before gathering more. Mixing everything together does not make it easier to find the piece you actually need." },
+            rest = { "A pause. You can explain the difficult part again without making a performance of how patient you are being." },
+            cheerAlong = { "That sounds like encouragement. Good. An honest bit of progress deserves more than a reminder of how far there is to go." },
+            thanked = { "You are welcome. Getting it done properly matters to me too. I would rather share the effort than watch you pretend not to need any help." },
+        },
+    },
+
+    -- Omusa Thunderhorn, Camp Taurajo, Barrens. Adult Tauren male
+    -- 9771/M2 968705, Horde Friendly. Own current/Classic tabs empty;
+    -- four installed greetings favor quiet and kindness to wind riders.
+    -- Pausing for the beast to receive thanks is original; no Cata fate.
+    -- Research: docs/research/ashenvale-pages-and-taurajo-courtesy.md
+    [10378] = {
+        quote = "A flight deserves a blessing. The beast doing the flying deserves your courtesy.",
+        likes = { "Wind riders treated as living companions", "A quiet greeting at Camp Taurajo", "Thanks offered without being prompted" },
+        dislikes = { "A mount treated as a piece of equipment", "A farewell hurried past its kindness", "Noise brought merely to fill a pause" },
+        gossip = "Omusa remembers a traveler who thanks the wind rider as well as the flight master. It is a small courtesy he is pleased not to have to suggest.",
+        bio = "Omusa Thunderhorn tends the wind riders at Camp Taurajo. He prefers its quiet to the bustle of the Crossroads, offers travelers the Earth Mother's blessing and asks them to treat the beast carrying them well.",
+        backstory = "After hearing thanks offered for a journey, he began leaving a moment for the wind rider to receive a little kindness too. The pause became part of how he wished a traveler well: a blessing for the road and care for the one doing the carrying.",
+        secret = "When a traveler notices the beast before he needs to suggest it, he is quietly delighted. The courtesy matters more to him because it was offered freely.",
+        bestFriend = "Come along, friend. You have noticed who shares the journey. I am pleased to share this part of the road with you myself.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates unhurried gratitude that remembers the living companion helping a journey happen.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "It is good to see you. Shall we go? There is time for a quiet greeting before the next journey becomes the only thing we speak about.", tone = "[deep] [welcoming]" }, "Ready. May the Earth Mother watch over the way, and may we remember those sharing it with us." },
+            idle = { { "A traveler sometimes thanks the wind rider before I have said a word about it. I am quietly pleased. A kindness freely remembered is a fine beginning to the next journey.", tone = "[gentle] [pleased]" }, "The Crossroads has its bustle. I prefer the quieter welcome of Camp Taurajo. A pause here need not become a complaint about the lack of noise.", "A wind rider is doing more than occupying a place on the route. Treat the beast with the care you would want a companion to remember." },
+            befriended = { { "You have become a friend I am glad to welcome even when there is no flight to arrange. Come along. I would enjoy sharing the road and your company for a while.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. You need not hurry the greeting to make the visit worthwhile.", "You have my attention. Tell me where your thoughts are going before deciding that we must be on our way already." },
+            taxi = { { "Treat the wind rider well, and let a little gratitude travel with you. The one doing the carrying deserves more than being forgotten at the destination.", tone = "[steady] [caring]" } },
+            landed = { "Here you are. Take a moment for the creature that brought you before turning all your attention to the next thing waiting." },
+            mount = { "Be considerate of the companion beneath you. A journey is shared even when only one of you is choosing the destination." },
+            rest = { "Be at ease. The quiet is one of the things I value here. There is room in it for welcome company." },
+            group = { "See that everyone is ready before moving on. A shared journey asks us to notice more than our own eagerness to leave." },
+            combatEnd = { "It is over. Check on those who were with you. The work done by a companion deserves to be remembered afterward." },
+            thanked = { "You are welcome. I am glad to have helped. Let a little of that gratitude remain with the others who shared the way." },
+        },
+    },
+
     -- Elayaa Easewind, Shen'dar Village, Zephras. Adult High Order
     -- Skyborne female137999/M2 7478494, both factions Friendly.
     -- All124lessons, three installed greetings and full94007/94978/

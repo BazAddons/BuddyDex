@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gurda Ragescar and Omusa Thunderhorn: two full adult Horde profiles with thirty personal lines queued.
+- Ground their writing in The Lost Pages, all manual item records and Omusa's actual quiet-camp/wind-rider dialogue.
+
 - Add Elayaa Easewind and Eelitha Fernstep: two full adult female Skyborne profiles with thirty personal lines queued.
 - Research all124hunter lessons, the five-stage taming handoff and independent Nightclaw context while preserving faction/neutral eligibility.
 

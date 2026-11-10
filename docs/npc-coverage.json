@@ -5,18 +5,18 @@
   "faction_counts": {
     "alliance": 292,
     "unverified": 156,
-    "horde": 267
+    "horde": 269
   },
   "npc_race_counts": {
     "1": 167,
     "3": 56,
     "7": 48,
-    "2": 77,
+    "2": 78,
     "5": 72,
     "4": 55,
     "8": 54,
     "9": 43,
-    "6": 81,
+    "6": 82,
     "96": 17,
     "95": 23
   },
@@ -44,11 +44,11 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 49,
-    "The Barrens": 33,
+    "The Barrens": 34,
     "Stonetalon Mountains": 10,
     "Darnassus": 9,
     "Burning Steppes": 1,
-    "Ashenvale": 11,
+    "Ashenvale": 12,
     "Thousand Needles": 7,
     "Dustwallow Marsh": 1,
     "Tanaris": 7,
@@ -7059,6 +7059,19 @@
       "audio_status": "All personal lines queued; no synthesis until user confirms billing fix"
     },
     {
+      "npc_id": 10378,
+      "name": "Omusa Thunderhorn",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10378"
+    },
+    {
       "npc_id": 10537,
       "name": "Cliffwatcher Longhorn",
       "zone": "Thousand Needles",
@@ -7499,6 +7512,19 @@
       ],
       "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12696"
+    },
+    {
+      "npc_id": 12718,
+      "name": "Gurda Ragescar",
+      "zone": "Ashenvale",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12718"
     },
     {
       "npc_id": 12724,
@@ -8882,6 +8908,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 693,
-  "awaiting_signature_audio_profiles": 239
+  "authored_profiles": 695,
+  "awaiting_signature_audio_profiles": 241
 }

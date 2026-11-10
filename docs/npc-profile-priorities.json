@@ -3087,6 +3087,20 @@
       "zone": "Zephras Isle",
       "route": "Shadowgale Nightclaw resident",
       "reason": "Complete adult female Skyborne profile, fifteen lines queued; Neutral access remains subject to live checks; neighboring quest deeds not transferred; no synthesis"
+    },
+    {
+      "npc_id": 12718,
+      "name": "Gurda Ragescar",
+      "zone": "Ashenvale",
+      "route": "Splintertree shredder manual quest",
+      "reason": "Complete adult Horde profile with fifteen personal lines queued; full Lost Pages/manual metadata research and original confidence asking for instruction; no synthesis"
+    },
+    {
+      "npc_id": 10378,
+      "name": "Omusa Thunderhorn",
+      "zone": "The Barrens",
+      "route": "Camp Taurajo wind rider master",
+      "reason": "Complete adult Horde profile with fifteen personal lines queued; four actual flight greetings and original courtesy toward wind riders; no synthesis"
     }
   ]
 }

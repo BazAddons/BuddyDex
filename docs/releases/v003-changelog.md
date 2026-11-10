@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gurda Ragescar and Omusa Thunderhorn: two full adult Horde profiles with thirty personal lines queued.
+- Ground their writing in The Lost Pages, all manual item records and Omusa's actual quiet-camp/wind-rider dialogue.
+
 - Add Elayaa Easewind and Eelitha Fernstep: two full adult female Skyborne profiles with thirty personal lines queued.
 - Research all124hunter lessons, the five-stage taming handoff and independent Nightclaw context while preserving faction/neutral eligibility.
 
@@ -336,4 +339,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **693 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **695 fully written NPC profiles**: 454 have initial signature recordings, and two hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

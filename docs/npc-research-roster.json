@@ -3416,5 +3416,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Skyborne woman; Horde Neutral, all own tabs empty/no installed gossip, independent Nightclaw faction definition; original fern apology; no Scout sighting claimed",
     "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md"
+  },
+  {
+    "npc_id": 12718,
+    "name": "Gurda Ragescar",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult Orc woman, Horde Friendly; full6504and all fifteen manual item records, no readable body; original learning confidence distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/ashenvale-pages-and-taurajo-courtesy.md"
+  },
+  {
+    "npc_id": 10378,
+    "name": "Omusa Thunderhorn",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Tauren man, Horde Friendly; all own current/Classic relationships and four installed greetings; original freely offered beast courtesy distinguished, later Cataclysm fate excluded; no Scout sighting claimed",
+    "research_notes": "docs/research/ashenvale-pages-and-taurajo-courtesy.md"
   }
 ]
