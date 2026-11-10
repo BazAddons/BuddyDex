@@ -3535,5 +3535,12 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Windshaper woman, both Friendly; all sixteen lessons/four supplies and full97970/96638/96101camping context, two installed greetings; original day-off extension to sourced joke distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/valanaar-repairs-and-the-imaginary-miner.md"
+  },
+  {
+    "npc_id": 4630,
+    "name": "Pozzik",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult Goblin man, current Horde Friendly; full ten-stage sponsorship/pilot chain and indurium rivalry; sand bucket confirmed in published Forever progress, private nickname original; no Scout sighting claimed",
+    "research_notes": "docs/research/pozzik-sponsorship-and-the-sand-bucket.md"
   }
 ]

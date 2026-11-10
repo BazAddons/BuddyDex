@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Pozzik, Mirage Raceway. Adult Goblin male7199/M2 119376;
+    -- current primary Horde Friendly, historical shared access noted.
+    -- Full ten-stage sponsorship/pilot chain, indurium branch and
+    -- installed racing greeting read. Sand bucket is sourced; his
+    -- dependable crewman nickname and private care are original.
+    -- Research: docs/research/pozzik-sponsorship-and-the-sand-bucket.md
+    [4630] = {
+        quote = "A complaining pilot can still drive. I intend to keep both conditions available.",
+        likes = { "A useful design with room for improvement", "Strength gained without needless weight", "A precaution that survives the complaints" },
+        dislikes = { "A rival keeping a good material secret", "Removing precautions for a boast", "A promised part nobody has tracked down" },
+        gossip = "Razzeric complains about the sand bucket Pozzik put on the racer. Pozzik privately calls it the crew member least likely to demand more power.",
+        bio = "Pozzik builds goblin rocket racers at Mirage Raceway. Gazlowe remembers him as a respected Undermine tinkerer who retired to racing. When he joined the team, he developed its two-engine racers.",
+        backstory = "A delayed fuel regulator sends help through Gazlowe and Revilgaz. Pozzik receives plans rather than a finished part and welcomes the chance to improve them. He also seeks the gnomes' material secrets, even by having their plans stolen.",
+        secret = "He calls the sand bucket his most dependable crewman. It never asks for a bigger booster. He would rather hear a pilot grumble than find himself needing a replacement.",
+        bestFriend = "Come along. I trust you to enjoy the race and still notice what needs checking. That makes you welcome company.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates company that shares his excitement when the team's work brings a promising result.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Come along. It is a fine day for racing, and I am pleased to have company that can enjoy the speed without ignoring what keeps the car together.", tone = "[upbeat] [welcoming]" }, "Ready, friend. Tell me what you have noticed. A small improvement can make a considerable difference when the competition is gaining." },
+            idle = { { "Razzeric complains about the sand bucket under the seat. I call it my most dependable crewman. It has never once asked me to remove another precaution or fit a bigger booster.", tone = "[dry] [fond]" }, "Gazlowe knows his parts. A delay is worth tracing. Sometimes you receive a drawing instead of the assembled device, and discover room to improve the whole design.", "If the gnomes are faster with the same design, something else has changed. A useful material can be worth more than another splendid boast about the engine." },
+            befriended = { { "You have become someone I want beside me when there is a result worth cheering. Come along, friend. I enjoy your company, including the observations I did not think to ask for.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you noticed. I am interested in the small difference, not just the impressive conclusion.", "You have my attention. If the bucket has lodged a complaint, that would be a first." },
+            gear = { { "Check what it adds and what it asks of the rest of the machine. Removing weight is useful. Removing the thing you need when trouble starts is another calculation.", tone = "[firm] [practical]" } },
+            quest = { "Trace the missing part properly. The promise, the shipment and the thing that actually arrives can be three rather different accounts." },
+            learned = { "Something useful learned. Now see what it changes in the design. A drawing is allowed to improve before the next piece is fitted." },
+            loot = { "Take a proper look. Strength, weight, heat: an interesting material should have something more to recommend it than a rival's secrecy." },
+            rest = { "A pause. Even a race needs a crew ready for the next run. I can enjoy the company while the work waits a moment." },
+            group = { "Every part of the team matters. Listen to the person who has noticed a problem before it reaches the pilot." },
+            cheerAlong = { "Yes! A result worth enjoying. Give the crew their share of the cheering. There is more behind a fast lap than the person holding the controls." },
+        },
+    },
+
     -- Riaani Nightwind <Windshaper Artisan>, western Valanaar. Adult
     -- Windshaper male138120/M2 7478487, Horde Friendly/Alliance Hostile.
     -- Full93735/93737/93738repair and93746aftermath read; strong

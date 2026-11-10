@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Pozzik: a full adult Goblin profile with fifteen personal lines queued.
+- Research his full sponsorship/pilot chain and indurium rivalry, retaining his engineering history, practical precautions and competitive theft.
+
 - Add Riaani Nightwind and Messana Crestwind: two full adult Windshaper profiles with thirty personal lines queued.
 - Research the full construct repair and immediate aftermath, mining lessons and camping chain; preserve Riaani's faction hostility and clearly mark original friendship writing.
 

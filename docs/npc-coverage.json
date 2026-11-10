@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 300,
     "unverified": 157,
-    "horde": 278
+    "horde": 279
   },
   "npc_race_counts": {
     "1": 167,
@@ -15,7 +15,7 @@
     "5": 76,
     "4": 57,
     "8": 55,
-    "9": 43,
+    "9": 44,
     "6": 82,
     "96": 19,
     "95": 25
@@ -49,7 +49,7 @@
     "Darnassus": 9,
     "Burning Steppes": 1,
     "Ashenvale": 12,
-    "Thousand Needles": 8,
+    "Thousand Needles": 9,
     "Dustwallow Marsh": 1,
     "Tanaris": 7,
     "Feralas": 3,
@@ -5203,6 +5203,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4591"
     },
     {
+      "npc_id": 4630,
+      "name": "Pozzik",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node; historical both-faction access documented separately",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4630"
+    },
+    {
       "npc_id": 4753,
       "name": "Jartsam",
       "zone": "Darnassus",
@@ -9104,6 +9117,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 710,
-  "awaiting_signature_audio_profiles": 256
+  "authored_profiles": 711,
+  "awaiting_signature_audio_profiles": 257
 }
