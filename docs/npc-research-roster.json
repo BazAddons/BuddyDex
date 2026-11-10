@@ -2310,5 +2310,26 @@
     "zone": "Ironforge",
     "source": "Reviewed unique adult city identity, current Friendly/model/service fields, full available relevant quests/dialogue and stock; no Scout sighting claimed",
     "research_notes": "docs/research/ironforge-herbs-hospitality-and-patterns.md"
+  },
+  {
+    "npc_id": 8358,
+    "name": "Hewa",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed unique adult city identity, current Horde Friendly/model fields, complete available quest/service tabs, Classic stock and installed gossip search; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-cloth-weaving-and-bags.md"
+  },
+  {
+    "npc_id": 3016,
+    "name": "Tand",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed unique adult city identity, current Horde Friendly/model fields, complete available quest/service tabs, Classic stock and installed gossip search; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-cloth-weaving-and-bags.md"
+  },
+  {
+    "npc_id": 8364,
+    "name": "Pakwa",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed unique adult city identity, current Horde Friendly/model fields, complete available quest/service tabs, Classic stock and installed gossip search; no Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-cloth-weaving-and-bags.md"
   }
 ]

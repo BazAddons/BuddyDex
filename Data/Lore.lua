@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hewa <Cloth Armor Merchant>, lower rise, Thunder Bluff. Adult Tauren
+    -- male, display7622/M2 968705, Horde Friendly. Classic cloth stock;
+    -- current own four tabs zero, no own installed gossip. No Legion event.
+    -- Comfort, hesitant bright sash and personal habits are original writing.
+    -- Research: docs/research/thunder-bluff-cloth-weaving-and-bags.md
+    [8358] = {
+        quote = "A plain coat may have a very good day in it.",
+        likes = { "Clothes worn with ease", "A bold color chosen for yourself", "A compliment without a sales pitch" },
+        dislikes = { "Comfort treated as a failing", "Judging a wearer by the price", "A sleeve that catches on everything" },
+        gossip = "Hewa has a reassuring word for plain clothing. His own ideas about color are considerably less modest.",
+        bio = "Hewa is the cloth armor merchant at Hewa's Armory on Thunder Bluff's lower rise. He has an eye for everyday clothes and the people wearing them. He would rather see someone comfortable than watch them suffer for a grand appearance.",
+        backstory = "He became good at reassuring people who felt their clothes were too ordinary. Choosing something noticeable for himself proved harder. It is easy to recommend confidence across a counter; wearing it out the door takes practice.",
+        secret = "He has a wonderfully bright sash put aside for himself. He keeps waiting for a suitable occasion, although he has advised others not to wait.",
+        bestFriend = "I think I shall wear the bright sash today. If anyone asks the occasion, I am going out with a friend.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He appreciates an honest compliment that gives someone confidence.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. I have dressed for a pleasant day, so let us give the clothes one.", tone = "[warm] [quietly amused]" }, "I am ready. You need not change on my account." },
+            idle = { { "There is nothing wrong with plain clothing. There is also nothing wrong with wanting a very bright sash.", tone = "[thoughtful] [wry]" }, "If you spend the whole day pulling at a sleeve, the sleeve is not improving your appearance.", "One day I shall take my own advice about choosing a color boldly." },
+            befriended = { { "You seem comfortable in my company. I find that means more to me than making a fine impression.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is something caught on your sleeve?", "I was considering a color. You may have noticed the time it was taking." },
+            gear = { { "Try moving in it before you decide how well it suits you.", tone = "[practical]" } },
+            loot = { "Something you would wear, or something you hope will impress a stranger?" },
+            mail = { "A letter does not need to arrive dressed grandly to be welcome." },
+            rest = { "Let your shoulders settle. That looks better already." },
+            zone = { "New surroundings. I wonder what passes for everyday dress here." },
+            hearth = { "Home, then. There is comfort in knowing where the spare clothes are." },
+            thanked = { "You are welcome. It is pleasant to be useful without taking a measurement." },
+        },
+    },
+
+    -- Tand <Basket Weaver>, middle rise, Thunder Bluff. Adult Tauren male,
+    -- display2099/M2 968705, Horde Friendly. Classic three bags, current
+    -- own four tabs zero/no gossip. Epoch Wanted quest is not Forever lore.
+    -- Humming changing tunes and leaving a final note are original writing.
+    -- Research: docs/research/thunder-bluff-cloth-weaving-and-bags.md
+    [3016] = {
+        quote = "A steady pattern leaves the mind room to wander.",
+        likes = { "A rhythm someone else can join", "A sound handle", "Work carried without fuss" },
+        dislikes = { "A load balanced on hope", "Being hurried through the last row", "A tune abandoned halfway" },
+        gossip = "Tand hums while he works. Neighbors disagree on whether he knows more than one tune, or simply many beginnings.",
+        bio = "Tand is the basket weaver at Cloudweaver's Baskets on Thunder Bluff's middle rise. He likes the quiet rhythm of making useful things. A conversation need not stop his hands, and a good one may change the tune he is humming.",
+        backstory = "Counting a repeating pattern became a little tune. He changed it when his attention wandered, then tried to remember the changes. Before long, the work was orderly and the song was not. He rather enjoyed the difference.",
+        secret = "He sometimes stops humming just before the last note to see whether anyone will finish it. He is delighted when they do, even if they choose the wrong note.",
+        bestFriend = "There is a place for you in this tune. I have left it open. Go on; I should like to hear what you choose.",
+        favorite = {
+            emote = "CLAP",
+            hint = "He enjoys a greeting that joins the rhythm of his work.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "I am ready. You may set the pace, and I shall see what tune it suggests.", tone = "[easygoing] [warm]" }, "Good to see you. I had reached a suitable stopping place. In the work, at least." },
+            idle = { { "That was not the end of the tune. I was leaving room for your contribution.", tone = "[playful] [gentle]" }, "The pattern repeats. My thoughts do not always have the courtesy.", "A handle ought to be sound before anyone needs to trust it." },
+            befriended = { { "It is good to have company that does not need every quiet moment filled with words. You may hum, though.", tone = "[warm] [content]" } },
+            poke = { "Yes? You have caught me between notes.", "Was that the tune you meant, or have we invented another one?" },
+            bagsFull = { { "Set the load down before rearranging it. Hope is a poor fastening.", tone = "[practical]" } },
+            loot = { "Consider the weight as well as the worth. You will be carrying both." },
+            rest = { "A good place to stop. The next part will still be there afterward." },
+            zone = { "Different ground, different pace. I shall need another tune." },
+            group = { "Someone keep the rhythm. Someone else may choose where we are going." },
+            learned = { "Slowly through the unfamiliar part. Speed returns when it knows the way." },
+            cheerAlong = { "That has a fine rhythm to it. I may borrow a little." },
+        },
+    },
+
+    -- Pakwa <Bag Vendor>, lower rise, Thunder Bluff. Adult Tauren female,
+    -- display7627/M2 986648, Horde Friendly. Classic four bags, current
+    -- own four tabs zero/no gossip. Not mistranslated Parqual Fintallas.
+    -- Errand-free walks and the imagined empty list are original writing.
+    -- Research: docs/research/thunder-bluff-cloth-weaving-and-bags.md
+    [8364] = {
+        quote = "Leave a little room for the reason you went out.",
+        likes = { "A journey with room for a surprise", "A load someone can actually carry", "An invitation without a shopping list" },
+        dislikes = { "Packing for every possible life", "A strap balanced on one finger", "Calling every outing an errand" },
+        gossip = "Pakwa can ask a traveler exactly what they need to carry. Asking where she would go herself takes rather longer.",
+        bio = "Pakwa is a bag vendor on Thunder Bluff's lower rise, at Kuruk's Goods. She is interested in the journey behind a traveler's load: what must come along, what can stay home, and whether there is room for anything unexpected.",
+        backstory = "Helping others prepare became an easy habit. Her own walks often turned into useful errands before she reached the first bridge. She began setting aside small stretches of time with nothing to fetch and nobody expecting a parcel.",
+        secret = "She would like to choose a path without first making a list of reasons for taking it. She suspects she will bring a list anyway, with nothing written on it.",
+        bestFriend = "Let us take a walk with nothing to fetch. If we come home with a story, we can decide where to put it then.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She likes being invited for her company, without another errand attached.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "An outing? Good. Tell me we are not simply collecting something for someone.", tone = "[warm] [hopeful]" }, "I am ready. There is room in the day for a small detour, I think." },
+            idle = { { "One day I shall choose a path without making a list. I may need a very small list to begin.", tone = "[wry] [thoughtful]" }, "If you prepare for every possible journey, you will be too tired to take this one.", "Leave some room. We have not yet discovered what this day is for." },
+            befriended = { { "You asked me to come along, and there was no parcel waiting afterward. I am very glad I said yes.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering the path we did not take.", "If this is another errand, you may at least make the telling of it interesting." },
+            bagsFull = { { "Put it down. Decide what matters before deciding how to carry it.", tone = "[calm] [firm]" } },
+            loot = { "Something worth taking home? Or merely something that was there?" },
+            mail = { "Deliveries can wait a moment while you enjoy hearing from someone." },
+            zone = { "We are somewhere new. Let us notice it before listing what we need." },
+            questAccepted = { "Very well. But I am saving a little of the day for us." },
+            taxi = { "A fine chance to look out instead of checking what we packed." },
+            hearth = { "Home again. I hope we brought back more than things." },
+        },
+    },
+
     -- Reyna Stonebranch <Herbalism Trainer>, Ironforge. Adult Dwarf female.
     -- Current display3063/M2 950080, Alliance Friendly; five training rows.
     -- Full Forever camping referral96055 and Eric96628/96608 reviewed.

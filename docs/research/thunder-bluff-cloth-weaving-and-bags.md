@@ -1,0 +1,45 @@
+# Thunder Bluff cloth, weaving and bags
+
+Reviewed November 10, 2026. Hewa8358, Tand3016 and Pakwa8364 are exact single-ID unprofiled identities from the existing catalog. Two adult male Tauren and one adult female Tauren with explicit current Horde Friendly evidence. These deepen capital-city service/wandering contacts, not Mulgore starter milestones, new Scout sightings or Alliance access. No generic NPC or child exceptions.
+
+## Current identities and adult bodies
+
+Current primary [Hewa8358](https://forever.warcraftdb.com/api/data/node/npc/8358), [Tand3016](https://forever.warcraftdb.com/api/data/node/npc/3016), [Pakwa8364](https://forever.warcraftdb.com/api/data/node/npc/8364) all identify Tauren humanoids with Horde Friendly icons. Hewa display7622 and Tand2099 use character M2 968705; installed Data/NpcSounds.lua maps7622:6:0 and2099:6:0. Fresh current adult [Karn Stonehoof2998](https://forever.warcraftdb.com/api/data/node/npc/2998), display2090/same M2, corroborates adult male Tauren body. Pakwa display7627 uses character M2 986648, installed7627:6:1. Fresh adult [Nara Wildmane5770](https://forever.warcraftdb.com/api/data/node/npc/5770), display4513/same M2, corroborates adult female Tauren body. No age inferred from level/size/personal name.
+
+Current map1456/Thunder Bluff pins: Hewa45.2855,56.0482; Tand49.4052,35.3535; Pakwa38.9621,64.3835. Approved tauren-male UHjFz97GTxtpwstZu19x and tauren-female HriwExkmKzil2cQ4bGmf match standard live display routing and declared metadata; no display overrides. Normal reaction/nonattackability, named/adult eligibility and character-specific progress remain in force. Database Friendly does not automatically discover or unlock them.
+
+Read complete own starts/ends/sells/teaches tabs for all three: each zero rows/pages, no current Vendor or Trainer flag. Their established merchant titles are retained without promising an exact enabled vendor interaction, current stock or prices. Zero current tables do not prove removal. [Hewa current cache](https://zephras.com/forever/enUS/npc/8358/) and [Tand current cache](https://zephras.com/forever/enUS/npc/3016/) independently corroborate city/body/role; those external reports are not our installed Scout observations.
+
+## Hewa: cloth and the bright sash
+
+[Classic Hewa](https://classicdb.ch/?npc=8358) has fifteen goods on a complete sells table: three common shirts plus six heavy-weave and six thick-cloth armor pieces. No own Classic quest table or installed gossip block. [Biographical reference](https://warcraft.wiki.gg/wiki/Hewa) places Hewa's Armory on the lower rise. Its later Legion Void/Highmountain feast incident is excluded, not imported into Forever or treated as an existing friendship story. Direct wiki fetch blocked this pass; search-index facts corroborate identity/location, and Classic/current records supply the primary role evidence. No other relevant quest chain, readable personal book or Classic biography found; search does not prove that no such source can exist.
+
+Original BuddyDex writing: valuing comfortable plain clothes, finding it easier to encourage a customer than wear a bold color himself, and saving a bright sash until a friendly outing supplies the occasion. Those are invented personal preferences/history and friendship revelations, not an actual item reward, tailor profession claim, canonical stock item or cosmetic change. PRAISE is authored favorite. Fifteen personal lines, four hidden warm/wry/practical delivery tags in the approved male Tauren voice, queued offline.
+
+## Tand: the work repeats; the tune wanders
+
+[Classic Tand](https://classicdb.ch/?npc=3016) sells three bags: Small Brown Pouch, Heavy Brown Bag and Brown Leather Satchel. These are the table's actual bag items, not proof he currently sells literal baskets. Basket Weaver is the verified title. [Location reference](https://warcraft.wiki.gg/wiki/Tand) places him in Cloudweaver's Baskets on the middle rise; [original atlas index](https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/connected/wowatlas/RegionalIndices_hr.pdf) independently supports middle rise/near elevators. Direct wiki access blocked; searchable location statement cross-checked with primary map/Classic data.
+
+No own Classic quest table, installed gossip or current quest rows. Some external headers generically label him a quest giver but name no task. Search surfaced Wanted: Jasone27354 on EpochHead: that is another server's quest, not Forever, and none of its centaur/exile/violence/reward story is assigned to Tand. No relevant Forever chain or personal readable literary source found. No fabricated dialogue used as game evidence.
+
+Original BuddyDex writing: counting a weave into a tune, changing the music while the pattern stays steady, and pausing before the final note to invite another voice. This is a playful craft habit and invented small history, not a real song, musical quest, canonical basket commission or crafting buff. CLAP authored favorite rewards joining the rhythm. Fifteen lines, four hidden easygoing/playful/practical tags in approved male Tauren, queued offline.
+
+## Pakwa: an outing without an errand
+
+[Classic Pakwa](https://classicdb.ch/?npc=8364) has four bags: Small Brown Pouch, Heavy Brown Bag, Brown Leather Satchel and Huge Brown Sack. No own quest table, installed gossip or current quest rows. [Biographical location reference](https://warcraft.wiki.gg/wiki/Pakwa) and [Kuruk's Goods reference](https://warcraft.wiki.gg/wiki/Kuruk%27s_Goods) establish lower-rise bag-vendor context, consistent with adjacent current Kuruk8362/Pakwa pins. Specific family, partnership or shared business ownership is not inferred from proximity.
+
+A search result mistranslates Parqual Fintallas as Pakwa Fintaras in Test of Lore1159. That is the Undercity historian, not this Tauren bag vendor; the lore trial, plague history and related chain are not assigned to Pakwa. No actual personal quest chain or relevant readable literary biography found. Generic quest-giver headers are not proof of an unnamed task. No later-expansion crafting or Darkmoon Island service inferred.
+
+Original BuddyDex writing: helping others pack while her own walks become errands, wanting an unplanned detour, and joking about bringing an empty list. These are invented personal habits/history, not a failed journey, named relationship, delivery quest or extra inventory slots. WELCOME authored favorite emphasizes an invitation for company. Fifteen personal lines, four hidden hopeful/wry/calm tags in approved female Tauren; no synthesis.
+
+Kuruk8362 was inspected but remains unauthored this round. Current Vendor inventory37rows/one full page includes profession bags, ammunition, thrown weapons, tools, drinks, bread and wrapping paper; Classic has21rows. This is separate current stock evidence, not proof of neighboring Pakwa's inventory or a fourth completed profile. No placeholder/roster completion added.
+
+## Validation
+
+Main/Scout smoke passes with zero load errors/failures, including all lore/page/line/favorite budgets and fresh/existing character roster isolation. Actual-addon harness C:/Users/brett/AppData/Local/Temp/buddydex-tb-538.py passes all three fresh Horde sessions. Each exact adult identity routes to the approved live male/female Tauren voice and has fifteen valid personal lines without existing recordings. Attackable/reaction3 rejects without discovery; reaction5/nonattackable accepts; HELLO25/favorite150 yields175.99/100and299/300 thresholds pass, companion activation at299rejects and300accepts text-only welcome without mismatched audio. Generic guards remain excluded. Runtime/storage/eligibility code, actual merchant stock, services and game quest flags unchanged.
+
+Full offline decoded-audio/exact-text audit9725missing jobs/605095tagged inputcharacters; shared3548/personal6177, no MiniMe gaps. Each new source contributes fifteen jobs in the approved group;45newjobs/3665characters. Queue C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-538/queue.json. Existing recordings retained; no synthesis/account/billing requests.
+
+538fully written profiles/454with initial signature recordings/84awaiting initial recordings. Public explicit Friendly233Alliance/184Horde/134unverified, thirteen shared overlaps. Two uncertain Westfall identities remain unprofiled, catalog1536namegroups/1549identities unchanged. Kuruk remains unauthored; these city additions do not establish three new starter milestones.
+
+Developmentv003 installed/hash-verified6362releasefiles, one runtime file updated. ZIP6362files/6334audio mappings/138.47MiB; source/installed/ZIP Lore byte checks and CRC pass. SHA256 `98092f1666dabc455ca0564abedf5f326bc6ac123e033291a2e0e26904c866a3`. Publishedv002 unchanged, no tag or CurseForge publication. Raw source cache C:/Users/brett/BuddyDex-builds/thunder-bluff-cloth-and-bags. Installed dialogue corpus is not newly observed live speech. No ElevenLabs synthesis/account/billing request, spending, human listening, live visual check, tag or CurseForge publication.

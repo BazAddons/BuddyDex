@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 233,
     "unverified": 134,
-    "horde": 181
+    "horde": 184
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 34,
     "8": 40,
     "9": 26,
-    "6": 59,
+    "6": 62,
     "96": 7,
     "95": 12
   },
@@ -38,7 +38,7 @@
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 14,
-    "Thunder Bluff": 29,
+    "Thunder Bluff": 32,
     "Durotar": 41,
     "The Barrens": 25,
     "Ashenvale": 6,
@@ -2561,6 +2561,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3015"
+    },
+    {
+      "npc_id": 3016,
+      "name": "Tand",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3016"
     },
     {
       "npc_id": 3017,
@@ -5308,6 +5321,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8139"
     },
     {
+      "npc_id": 8358,
+      "name": "Hewa",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8358"
+    },
+    {
       "npc_id": 8361,
       "name": "Chepi",
       "zone": "Thunder Bluff",
@@ -5332,6 +5358,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8363"
+    },
+    {
+      "npc_id": 8364,
+      "name": "Pakwa",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8364"
     },
     {
       "npc_id": 8385,
@@ -6859,6 +6898,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 535,
-  "awaiting_signature_audio_profiles": 81
+  "authored_profiles": 538,
+  "awaiting_signature_audio_profiles": 84
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hewa, Tand and Pakwa: three full adult Tauren profiles in Thunder Bluff, with forty-five personal lines queued.
+- Give the cloth merchant, basket weaver and bag vendor distinct friendship stories while preserving current service uncertainty and normal character-specific unlocks.
+
 - Add Reyna Stonebranch, Gwenna Firebrew and Granny Finespindle: three complete Ironforge profiles with forty-five personal lines queued.
 - Ground Reyna in her Forever camping referral, distinguish barmaid and recipe-vendor roles, and add original friendship stories with ordinary character-specific unlocks.
 

@@ -1981,6 +1981,27 @@
       "zone": "Ironforge",
       "route": "Dwarf and Gnome women, capital-city service coverage",
       "reason": "Full researched adult female profile with fifteen queued personal lines; city coverage separate from starter milestones, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 8358,
+      "name": "Hewa",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren male/female capital-city craft and trade contacts",
+      "reason": "Full adult Tauren profile with fifteen queued personal lines; current stock uncertainty retained, city coverage separate from starter milestones, ordinary live gates unchanged, no synthesis"
+    },
+    {
+      "npc_id": 3016,
+      "name": "Tand",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren male/female capital-city craft and trade contacts",
+      "reason": "Full adult Tauren profile with fifteen queued personal lines; current stock uncertainty retained, city coverage separate from starter milestones, ordinary live gates unchanged, no synthesis"
+    },
+    {
+      "npc_id": 8364,
+      "name": "Pakwa",
+      "zone": "Thunder Bluff",
+      "route": "Horde Tauren male/female capital-city craft and trade contacts",
+      "reason": "Full adult Tauren profile with fifteen queued personal lines; current stock uncertainty retained, city coverage separate from starter milestones, ordinary live gates unchanged, no synthesis"
     }
   ]
 }

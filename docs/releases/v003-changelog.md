@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Hewa, Tand and Pakwa: three full adult Tauren profiles in Thunder Bluff, with forty-five personal lines queued.
+- Give the cloth merchant, basket weaver and bag vendor distinct friendship stories while preserving current service uncertainty and normal character-specific unlocks.
+
 - Add Reyna Stonebranch, Gwenna Firebrew and Granny Finespindle: three complete Ironforge profiles with forty-five personal lines queued.
 - Ground Reyna in her Forever camping referral, distinguish barmaid and recipe-vendor roles, and add original friendship stories with ordinary character-specific unlocks.
 
@@ -90,4 +93,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **535 fully written NPC profiles**: 454 have initial signature recordings, and eighty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **538 fully written NPC profiles**: 454 have initial signature recordings, and eighty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
