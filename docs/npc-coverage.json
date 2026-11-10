@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 315,
+    "alliance": 317,
     "unverified": 159,
-    "horde": 295
+    "horde": 297
   },
   "npc_race_counts": {
     "1": 167,
@@ -17,7 +17,7 @@
     "8": 58,
     "9": 49,
     "6": 82,
-    "96": 20,
+    "96": 22,
     "95": 29
   },
   "zone_counts": {
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 48,
+    "Zephras Isle": 50,
     "Riverglades": 10
   },
   "entries": [
@@ -8632,6 +8632,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252448"
     },
     {
+      "npc_id": 252449,
+      "name": "Iallion Featherfall",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252449"
+    },
+    {
       "npc_id": 252478,
       "name": "Xy'aaria Streamrunner",
       "zone": "Zephras Isle",
@@ -9019,6 +9033,20 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257037"
+    },
+    {
+      "npc_id": 257554,
+      "name": "Halaan Hawk-Eye",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257554"
     },
     {
       "npc_id": 258294,
@@ -9495,6 +9523,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 740,
-  "awaiting_signature_audio_profiles": 286
+  "authored_profiles": 742,
+  "awaiting_signature_audio_profiles": 288
 }

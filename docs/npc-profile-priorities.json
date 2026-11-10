@@ -3416,6 +3416,20 @@
       "zone": "Orgrimmar",
       "route": "Valley of Honor harness maker",
       "reason": "Four current harnesses/repairs and correct Orc identity; original grunt greeting; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 257554,
+      "name": "Halaan Hawk-Eye",
+      "zone": "Zephras Isle",
+      "route": "Thendal Grove early pylon-view quest",
+      "reason": "Own complete anchor quest and gratitude/gift limits; original private hope for travelers; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252449,
+      "name": "Iallion Featherfall",
+      "zone": "Zephras Isle",
+      "route": "Zephras trade-supply contact",
+      "reason": "All eighteen current goods and exact Windshaper female identity; original nightcrawler queue; fifteen personal lines queued without synthesis"
     }
   ]
 }

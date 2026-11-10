@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Halaan Hawk-Eye and Iallion Featherfall: adult Windshaper profiles accessible to both factions, with thirty personal lines queued.
+- Verify race identities against current models; research the anchor-view quest and trade stock, with original private hopes and nightcrawler humor documented.
+
 - Add Brooke Stonebraid and Kiro: adult Alliance Dwarf and Horde Orc profiles, with thirty personal lines queued.
 - Ground the profiles in mining supplies, railway-price gossip and current harness stock; document the original carriage and greeting stories.
 

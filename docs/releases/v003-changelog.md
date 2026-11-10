@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Halaan Hawk-Eye and Iallion Featherfall: adult Windshaper profiles accessible to both factions, with thirty personal lines queued.
+- Verify race identities against current models; research the anchor-view quest and trade stock, with original private hopes and nightcrawler humor documented.
+
 - Add Brooke Stonebraid and Kiro: adult Alliance Dwarf and Horde Orc profiles, with thirty personal lines queued.
 - Ground the profiles in mining supplies, railway-price gossip and current harness stock; document the original carriage and greeting stories.
 
@@ -411,4 +414,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **740 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **742 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 740,
-  "written_complete_count": 740,
-  "awaiting_signature_audio_count": 286,
+  "authored_count": 742,
+  "written_complete_count": 742,
+  "awaiting_signature_audio_count": 288,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 288,
+  "remaining_count": 290,
   "completed": [
     {
       "npc_id": 54,
@@ -7005,6 +7005,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 252449,
+      "name": "Iallion Featherfall",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Windshaper woman, both factions Friendly; All eighteen current goods and exact Windshaper female identity; original nightcrawler queue; no Scout sighting claimed",
+      "research_notes": "docs/research/halaans-view-and-iallions-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 252478,
       "name": "Xy'aaria Streamrunner",
       "zone": "Zephras Isle",
@@ -7337,6 +7349,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 257554,
+      "name": "Halaan Hawk-Eye",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult Windshaper man, both factions Friendly; Own complete anchor quest and gratitude/gift limits; original private hope for travelers; no Scout sighting claimed",
+      "research_notes": "docs/research/halaans-view-and-iallions-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 258294,

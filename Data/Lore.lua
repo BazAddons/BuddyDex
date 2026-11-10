@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Halaan Hawk-Eye, Thendal Grove/Zephras Isle. Adult
+    -- Windshaper male143583/M2 7478487, both factions Friendly. Full
+    -- 92460/92461/94414 context, own pylon gaze and gift progress read.
+    -- Gift limits/gratitude canon; private hope for travelers original.
+    -- Research: docs/research/halaans-view-and-iallions-queue.md
+    [257554] = {
+        quote = "A gift need not be someone else's gift to be worth sharing. Come, look with me for a moment.",
+        likes = { "A gift appreciated for what it offers", "Company for a familiar view", "Home regarded with care and wonder" },
+        dislikes = { "A modest gift dismissed as worthless", "Beauty mistaken for proof all is well", "Worry leaving no room for appreciation" },
+        gossip = "Halaan gives thanks after sharing the distant view. He seems to value the company beside him as much as the pylon itself.",
+        bio = "Halaan Hawk-Eye is a Windshaper ranger in Thendal Grove on Zephras Isle. He watches the ancient anchor pylon and lends his gift to let visitors view it. Its beauty remains, though the magic sustaining the island has become unstable.",
+        backstory = "He cannot look between worlds through skysight or draw on the ley lines as others can. He regards his own simpler gift with gratitude. Sharing a view of home is worthwhile to him without turning that gift into something greater.",
+        secret = "He hopes a new traveler will remember home for a moment of wonder as well as the worries that sent them onward.",
+        bestFriend = "Stand with me, friend. We have not answered every worry about our home. I am still glad to see it, and glad to have you beside me.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates someone returning the gratitude he feels when another person takes a moment to share the view.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. I am glad to share a little of the road as well as the view.", tone = "[calm] [welcoming]" }, "There you are. We have time for a moment together before the next duty begins." },
+            idle = { { "The pylon is still beautiful. That does not answer the questions about its magic. Both things may deserve our attention.", tone = "[thoughtful] [gentle]" }, "My gift need not be every gift. There is something worth sharing in what it already allows.", "I hope a traveler remembers a little wonder when they think of home, as well as the worries that called them onward." },
+            befriended = { { "Your company has become something I am grateful to welcome. Come along, friend. We can share the way without needing every question answered first.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? I am listening.", "Something you would like to share? We have a moment." },
+            thanked = { { "And thank you for choosing to share the moment. I am pleased you were here.", tone = "[quietly grateful] [sincere]" } },
+            rest = { "A welcome pause. Look at where we are before deciding what remains to be done." },
+            quest = { "There is work ahead. Give the purpose a little thought before hurrying into the task." },
+            learned = { "Something new to appreciate in what you can do. Let it have its own worth." },
+            newFriend = { "Someone new to know. Leave room for the gifts and experiences they bring." },
+            group = { "There is value in having company. Each of us may bring something different to the journey." },
+            landed = { "Here we are. Give the place a moment of your attention before the next departure." },
+        },
+    },
+
+    -- Iallion Featherfall, Zephras Isle trade supplier. Adult
+    -- Windshaper female140070/M2 7478494, both factions Friendly.
+    -- All18 current item nodes read; no own quests/gossip found.
+    -- Politely addressed nightcrawler queue is original, no pet feature.
+    -- Research: docs/research/halaans-view-and-iallions-queue.md
+    [252449] = {
+        quote = "The thread can wait. The nightcrawlers appear to have another appointment.",
+        likes = { "The right tool remembered in time", "A lid secured before the next customer", "Company that appreciates a small joke" },
+        dislikes = { "Bait taking an unauthorized walk", "An important supply left off the list", "A busy counter treated carelessly" },
+        gossip = "Iallion has asked her nightcrawlers to wait their turn. The bait seems unlikely to respect the queue, though she remains very polite.",
+        bio = "Iallion Featherfall is a Windshaper trade supplier on Zephras Isle. Her stock includes craft tools, thread, dyes, vials and spices, alongside fishing poles, baubles and nightcrawlers for customers preparing their next practical task.",
+        backstory = "While counting nightcrawlers, she asked a restless one to wait its turn. A customer laughed. Iallion finished counting, secured the lid and announced that the queue had been temporarily abolished. The ordinary sale became a rather better moment.",
+        secret = "She still addresses the bait politely on a dull stretch of the day. It seldom follows instructions, but it has yet to complain about her conversation.",
+        bestFriend = "Come along, friend. Lid first, then us. I look forward to company that might actually answer when I ask where it is going.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She welcomes someone sharing the amusement of a very polite instruction given to a thoroughly uncooperative audience.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. The lid is secure, and my least cooperative customers can remain where they are.", tone = "[bright] [playfully warm]" }, "Good to see you. Ready for a walk? You are welcome company without a shopping list." },
+            idle = { { "Please wait your turn, I said. To a nightcrawler. The customer enjoyed the instruction rather more than the bait respected it.", tone = "[wry] [amused]" }, "Thread, a tool, an empty vial. The next task often begins with something easy to forget.", "I have abolished the bait queue. It was causing considerable confusion among participants who never intended to join." },
+            befriended = { { "You have become someone whose company I enjoy long after the supplies are put away. Come along, friend. I am pleased to have someone who answers back.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? You have my attention. The bait will have to wait.", "I am listening. Take your time; nothing here requires counting." },
+            bagsFull = { { "Secure the little containers before rearranging the larger things. It saves discovering which supplies can move on their own.", tone = "[practical] [lightly amused]" } },
+            loot = { "Useful for the next task? Leave a little room for the tools it might require." },
+            gear = { "The right tool is worth remembering before you begin. Check what you will need." },
+            rest = { "A pleasant pause. There is room for a conversation that does not end with a total." },
+            newFriend = { "Someone new to greet. I suggest beginning with hello rather than instructions about the queue." },
+            group = { "Everyone ready? Good. A group that can answer the question is a welcome improvement." },
+            thanked = { "You are welcome, friend. I enjoyed the company as well as being useful." },
+        },
+    },
+
     -- Brooke Stonebraid, Dwarven District/Stormwind. Adult
     -- Dwarf female3313/M2 950080, Alliance Friendly. Mining supplier;
     -- four current goods and own railway/import-fee gossip read.

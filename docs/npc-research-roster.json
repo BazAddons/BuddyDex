@@ -3745,5 +3745,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Horde Orc woman; Four current harnesses/repairs and correct Orc identity; original grunt greeting; no Scout sighting claimed",
     "research_notes": "docs/research/brookes-carriage-and-kiros-greeting.md"
+  },
+  {
+    "npc_id": 257554,
+    "name": "Halaan Hawk-Eye",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper man, both factions Friendly; Own complete anchor quest and gratitude/gift limits; original private hope for travelers; no Scout sighting claimed",
+    "research_notes": "docs/research/halaans-view-and-iallions-queue.md"
+  },
+  {
+    "npc_id": 252449,
+    "name": "Iallion Featherfall",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper woman, both factions Friendly; All eighteen current goods and exact Windshaper female identity; original nightcrawler queue; no Scout sighting claimed",
+    "research_notes": "docs/research/halaans-view-and-iallions-queue.md"
   }
 ]
