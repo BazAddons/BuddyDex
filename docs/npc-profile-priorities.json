@@ -1084,14 +1084,28 @@
       "name": "Hannah Akeley",
       "zone": "Undercity",
       "route": "Female/male Forsaken Horde reagent and inn services",
-      "reason": "Exact current named adult model/Horde Friendly/approved voice individually checked; full own research pending. See docs/research/hannah-and-shay-queue.md"
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; exact supplier/inn roles and explicit original-writing/source/era limits in docs/research/hannah-and-shay-queue.md"
     },
     {
       "npc_id": 2388,
       "name": "Innkeeper Shay",
       "zone": "Hillsbrad Foothills",
       "route": "Female/male Forsaken Horde reagent and inn services",
-      "reason": "Exact current named adult model/Horde Friendly/approved voice individually checked; full own research pending. See docs/research/hannah-and-shay-queue.md"
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; exact supplier/inn roles and explicit original-writing/source/era limits in docs/research/hannah-and-shay-queue.md"
+    },
+    {
+      "npc_id": 3841,
+      "name": "Caylais Moonfeather",
+      "zone": "Darkshore",
+      "route": "Female Night Elf/male Tauren regional flight services",
+      "reason": "Exact current named adult Elite model/Friendly/approved voice checked; full source and Elite session checks pending. See docs/research/caylais-and-tharm-queue.md"
+    },
+    {
+      "npc_id": 4312,
+      "name": "Tharm",
+      "zone": "Stonetalon Mountains",
+      "route": "Female Night Elf/male Tauren regional flight services",
+      "reason": "Exact current named adult Elite model/Friendly/approved voice checked; full source and Elite session checks pending. See docs/research/caylais-and-tharm-queue.md"
     }
   ]
 }

@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hannah Akeley <Reagent Supplier>, Undercity,4575/2663.
+    -- Adult female Forsaken, Horde-friendly Vendor,17 current reagents.
+    -- Published Scourge alerts are event text, not a personal battle story.
+    -- Contrasting orders/counter humor is original; no personal class claim.
+    -- Research: docs/research/hannah-and-shay-queue.md.
+    [4575] = {
+        quote = "A holy candle on one order, a demonic figurine on the next. Give me the proper names and quantities. The counter need not become a theological dispute.",
+        likes = { "An order stated with useful precision", "Powder kept where it belongs", "Customers letting each other do business" },
+        dislikes = { "The Scourge loose in Undercity", "Reagents spilled during an argument", "Her beliefs guessed from her inventory" },
+        gossip = "Hannah can place two very different orders side by side without starting an argument. The customers sometimes require a little more effort.",
+        bio = "Hannah supplies reagents in Undercity. Candles, demonic figurines, seeds, powders and magical runes appear among her stock. Her trade serves different kinds of spellcasters; the contents of an order do not establish her own calling.",
+        backstory = "A customer once stared meaningfully at a candle beside a demonic figurine. Hannah checked both orders and found no error. She has since enjoyed reminding people that two objects can share a counter more peaceably than the people purchasing them.",
+        secret = "She is particularly pleased when customers with very different orders agree on one thing: nobody should spill the powder. A modest basis for getting along, but useful.",
+        bestFriend = "Stay a moment. You may tell me what is on your mind without presenting it as an order. I can enjoy a precise conversation too.",
+        favorite = { emote = "NOD", hint = "A plain acknowledgment suits a supplier who values understanding without an unnecessary argument." },
+        lines = {
+            greet = { { "What do you require? Give me the proper name and quantity, and we can begin. If the next order looks very different from yours, try to leave it alone. A candle and a demonic figurine can share this counter without quarreling. I would appreciate the same restraint from the people who have come to purchase them.", tone = "[raspy] [dry] [matter-of-fact]" },
+                "Back again. State the order clearly, or tell me you have simply come to talk." },
+            idle = { { "A customer once looked very solemnly at a candle beside a demonic figurine. I checked the orders. Both were correct. The objects had caused no difficulty at all. I find that encouraging. If two customers can agree to keep the powder from spilling, perhaps the counter will survive their larger disagreements as well.", tone = "[dry] [wry] [raspy]" },
+                "Selling a reagent does not make every spell cast with it my personal profession.",
+                "You may disagree after the order is packed. Preferably somewhere the powder is not." },
+            befriended = { { "You have become someone I am willing to hear without first asking for a quantity. Come along, friend. Tell me what is on your mind. We may manage a conversation without anyone confusing my inventory with my beliefs. If we disagree, I trust we can at least refrain from knocking anything over while we discuss it.", tone = "[raspy] [warm] [dry]" } },
+            poke = { "Yes? The proper name would help.", "I am listening. This need not become a dispute." },
+            learned = { { "Know what you are asking for before you reach the counter. Similar names and a confident gesture are poor substitutes for a clear order. I keep reagents for different kinds of work. That tells you what I can supply, not every belief I hold. We can finish the transaction without settling the nature of the universe.", tone = "[raspy] [instructive] [dry]" } },
+            loot = { "Identify it before deciding what grand purpose it must serve." },
+            bagsFull = { "Make room to pack things properly. I would rather your supplies remained separate." },
+            quest = { "Check the actual request. A very persuasive explanation will not replace the missing quantity." },
+            rest = { "We can talk without comparing orders for a little while." },
+            laughAlong = { "The candle and the figurine remained perfectly civil. I thought the customers might learn from them." },
+            hearth = { "Back to Undercity. I hope the next orders arrive with names, quantities and some restraint." },
+        },
+    },
+
+    -- Innkeeper Shay, Tarren Mill, Hillsbrad,2388/3675.
+    -- Adult male Forsaken, Horde-friendly Innkeeper/Vendor,13 stock rows.
+    -- Actual weary-bones welcome; not Feralas Shay Leafrunner2844/2845.
+    -- Answering a creaky floorboard is original, not a ghost/event mechanic.
+    -- Research: docs/research/hannah-and-shay-queue.md.
+    [2388] = {
+        quote = "The floor creaks. Some of the guests do too. Neither is a reason to deny anyone a welcome. Come in and put down what you are carrying.",
+        likes = { "A familiar step at the door", "A guest beginning to feel at ease", "An ordinary welcome given without fuss" },
+        dislikes = { "A rest disturbed for no useful reason", "Every harmless creak declared a haunting", "Guests made to explain looking weary" },
+        gossip = "Shay sometimes greets a creaking floorboard before anyone enters. He knows perfectly well it cannot answer, but considers it good practice.",
+        bio = "Shay keeps the inn at Tarren Mill, welcoming travelers to rest their weary bones. Meat and drinks make up his stock, including Southshore Stout. His business offers a place to stop between journeys through Hillsbrad.",
+        backstory = "A creaking board once announced a visitor just before Shay looked up. He answered it with a welcome and found a tired guest at the door. He has continued the habit, including on occasions when the house is merely settling and nobody has arrived.",
+        secret = "He sometimes answers the board while alone. He knows it is only wood. Still, he likes keeping a welcome ready, and prefers the occasions when someone answers back.",
+        bestFriend = "There you are. A welcome is better when someone answers it. Come along, friend. I am pleased to hear your step beside mine.",
+        favorite = { emote = "WAVE", hint = "A friendly gesture on arrival reassures this innkeeper that someone has come to answer his welcome." },
+        lines = {
+            greet = { { "Come in. Put the pack down before it becomes part of your spine. There is something to eat, something to drink, and time to rest those weary bones. If you heard me greeting the floor before you reached the door, think nothing of it. The house sometimes announces a visitor before I have looked up.", tone = "[raspy] [welcoming] [dry]" },
+                "Welcome back. That step sounded rather more promising than the floorboard." },
+            idle = { { "One board creaked just before a tired traveler came through the door. I greeted it before looking up. The timing was excellent. Since then I have occasionally welcomed the house while it settles. I know perfectly well the wood is not speaking. It is still pleasant when somebody arrives and answers for it.", tone = "[raspy] [conversational] [wry]" },
+                "A creak does not always mean a ghost. Sometimes the floor has simply been doing its work for a long time.",
+                "You need not apologize for looking weary. An inn would be an odd place to complain about that." },
+            befriended = { { "You have become someone whose step I am pleased to hear before any business is mentioned. Come along, friend. There will be time to put the room right afterward. I enjoy a welcome that gets an answer, and your company is more interesting than waiting for the floor to develop a conversational opinion.", tone = "[raspy] [warm] [gently amused]" } },
+            poke = { "Yes? Good. Someone who can answer.", "I am listening. You need not creak first to get my attention." },
+            rest = { { "Sit a while. You do not have to explain every ache, every awkward step, or the reason you look as though the road has been arguing with you. Set down what you are carrying. I can offer an ordinary welcome without asking you to prove that you have earned the chance to rest.", tone = "[raspy] [gentle] [reassuring]" } },
+            loot = { "Something for the journey? I hope you have left room to carry it without bending yourself in two." },
+            bagsFull = { "Put something down. Your pack is beginning to make a very convincing argument for a rest." },
+            quest = { "Prepare before going back out. The work will be waiting when you have gathered yourself." },
+            laughAlong = { "No, the board has not answered yet. You remain the better company." },
+            lowHealth = { "Back from the fighting. Give those weary bones a chance to remain together." },
+            hearth = { "Back to Tarren Mill. Perhaps the house has saved a particularly eloquent creak for our arrival." },
+        },
+    },
+
     -- Cylania <Night Elf Armorer>, Darnassus,4164/2199.
     -- Adult female Night Elf, Alliance-friendly Repair/Vendor,36 current
     -- cloth/leather/mail pieces. No confirmed current profession training.

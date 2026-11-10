@@ -799,6 +799,46 @@
     "text": "An agreeable time to pause. Consider what you would actually enjoy before turning the moment into another obligation. I find that a little company can make an ordinary afternoon sufficient in itself.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore2388_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2388",
+    "spoken": "[raspy] [warm] [gently amused] You have become someone whose step I am pleased to hear before any business is mentioned. Come along, friend. There will be time to put the room right afterward. I enjoy a welcome that gets an answer, and your company is more interesting than waiting for the floor to develop a conversational opinion.",
+    "text": "You have become someone whose step I am pleased to hear before any business is mentioned. Come along, friend. There will be time to put the room right afterward. I enjoy a welcome that gets an answer, and your company is more interesting than waiting for the floor to develop a conversational opinion.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2388_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2388",
+    "spoken": "[raspy] [welcoming] [dry] Come in. Put the pack down before it becomes part of your spine. There is something to eat, something to drink, and time to rest those weary bones. If you heard me greeting the floor before you reached the door, think nothing of it. The house sometimes announces a visitor before I have looked up.",
+    "text": "Come in. Put the pack down before it becomes part of your spine. There is something to eat, something to drink, and time to rest those weary bones. If you heard me greeting the floor before you reached the door, think nothing of it. The house sometimes announces a visitor before I have looked up.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2388_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2388",
+    "spoken": "[raspy] [conversational] [wry] One board creaked just before a tired traveler came through the door. I greeted it before looking up. The timing was excellent. Since then I have occasionally welcomed the house while it settles. I know perfectly well the wood is not speaking. It is still pleasant when somebody arrives and answers for it.",
+    "text": "One board creaked just before a tired traveler came through the door. I greeted it before looking up. The timing was excellent. Since then I have occasionally welcomed the house while it settles. I know perfectly well the wood is not speaking. It is still pleasant when somebody arrives and answers for it.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore2388_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:2388",
+    "spoken": "[raspy] [gentle] [reassuring] Sit a while. You do not have to explain every ache, every awkward step, or the reason you look as though the road has been arguing with you. Set down what you are carrying. I can offer an ordinary welcome without asking you to prove that you have earned the chance to rest.",
+    "text": "Sit a while. You do not have to explain every ache, every awkward step, or the reason you look as though the road has been arguing with you. Set down what you are carrying. I can offer an ordinary welcome without asking you to prove that you have earned the chance to rest.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore244808_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

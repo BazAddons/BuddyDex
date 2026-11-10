@@ -498,3 +498,10 @@ Next individually checked [Cylania and Nixxrax](cylania-and-nixxrax-queue.md), a
 406 authored profiles. Adult female Night Elf/male Goblin,15 personal lines/four approved v4 signatures each. [Research/validation](cylania-and-nixxrax-queue.md) preserves actual armor repair/stock and current Kelly tavern referral, with original character moments. Lore21lines each/full smoke/three fresh Alliance/Horde sessions passed; Nixxrax ordinary Neutral4 accepted only non-attackable, reaction3/attackable rejected. Friendly coverage Alliance205/Horde109/unverified99, seven shared overlap. Nixxrax is not public Friendly/shared coverage. Installed/dev ZIP6158files/6130mappings/124.34MiB; no live visual/listening claim, no CF publish.
 
 Next individually checked [Hannah and Shay](hannah-and-shay-queue.md), adult female/male Forsaken Horde services, neither counted complete. Hannah primary Undercity location overrides a parent Tirisfal map pin. Wider1510-name pool and earlier explicit source gaps remain active.
+
+
+## 2026-11-09: Hannah Akeley and Innkeeper Shay
+
+408 authored profiles. Adult female/male Forsaken Horde services,15 personal lines/four approved v4 signatures each. [Sources/writing/validation](hannah-and-shay-queue.md) keeps actual diverse reagent stock/inn welcome distinct from original counter/floorboard humor; no personal rituals, future invasion or Shay Leafrunner story invented. Lore21lines each, full smoke/two fresh Horde sessions passed, eight exact audio mappings verified. Friendly coverage Alliance205/Horde111/unverified99 with seven shared overlaps. Installed/dev ZIP6166files/6138mappings/124.94MiB. No live visual/listening claim, CF deferred/original candidate preserved.
+
+Next individually verified [Caylais and Tharm](caylais-and-tharm-queue.md), adult female Night Elf/male Tauren Elite flight masters. Actual Elite tier scaling must be tested, no normal-class fixture substitution. Neither counted complete; wider1510-name pool and earlier explicit source gaps remain active.

@@ -1,5 +1,7 @@
 # Unreleased
 
+- Add Hannah Akeley and Innkeeper Shay: full female/male Forsaken profiles, fifteen personal lines and four approved v4 signatures each; preserve Hannah's reagent trade and Shay's Tarren Mill inn welcome.
+
 - Add Cylania and Nixxrax Fillamug: full female Night Elf/male Goblin profiles, fifteen personal lines and four approved v4 signatures each; retain actual armor/repair and tavern roles with normal Neutral eligibility gates.
 
 - Add Gershala Nightwhisper and Jandia: full male Night Elf/female Tauren profiles, fifteen personal lines and four approved v4 signatures each; preserve Gershala's unfinished corruption research and Jandia's Freewind caravan protection.

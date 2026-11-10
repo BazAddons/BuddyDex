@@ -439,6 +439,46 @@
     "text": "Keep the useful material separate, and tell me where it came from. A specimen without a clear account leaves us guessing. I would rather spend my time learning something.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore4575_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4575",
+    "spoken": "[raspy] [warm] [dry] You have become someone I am willing to hear without first asking for a quantity. Come along, friend. Tell me what is on your mind. We may manage a conversation without anyone confusing my inventory with my beliefs. If we disagree, I trust we can at least refrain from knocking anything over while we discuss it.",
+    "text": "You have become someone I am willing to hear without first asking for a quantity. Come along, friend. Tell me what is on your mind. We may manage a conversation without anyone confusing my inventory with my beliefs. If we disagree, I trust we can at least refrain from knocking anything over while we discuss it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore4575_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4575",
+    "spoken": "[raspy] [dry] [matter-of-fact] What do you require? Give me the proper name and quantity, and we can begin. If the next order looks very different from yours, try to leave it alone. A candle and a demonic figurine can share this counter without quarreling. I would appreciate the same restraint from the people who have come to purchase them.",
+    "text": "What do you require? Give me the proper name and quantity, and we can begin. If the next order looks very different from yours, try to leave it alone. A candle and a demonic figurine can share this counter without quarreling. I would appreciate the same restraint from the people who have come to purchase them.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore4575_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4575",
+    "spoken": "[dry] [wry] [raspy] A customer once looked very solemnly at a candle beside a demonic figurine. I checked the orders. Both were correct. The objects had caused no difficulty at all. I find that encouraging. If two customers can agree to keep the powder from spilling, perhaps the counter will survive their larger disagreements as well.",
+    "text": "A customer once looked very solemnly at a candle beside a demonic figurine. I checked the orders. Both were correct. The objects had caused no difficulty at all. I find that encouraging. If two customers can agree to keep the powder from spilling, perhaps the counter will survive their larger disagreements as well.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore4575_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:4575",
+    "spoken": "[raspy] [instructive] [dry] Know what you are asking for before you reach the counter. Similar names and a confident gesture are poor substitutes for a clear order. I keep reagents for different kinds of work. That tells you what I can supply, not every belief I hold. We can finish the transaction without settling the nature of the universe.",
+    "text": "Know what you are asking for before you reach the counter. Similar names and a confident gesture are poor substitutes for a clear order. I keep reagents for different kinds of work. That tells you what I can supply, not every belief I hold. We can finish the transaction without settling the nature of the universe.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore5667_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
