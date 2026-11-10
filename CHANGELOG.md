@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Narm Skychaser and Kalyimah Stormcloud: two complete adult Tauren and Troll profiles, with thirty personal lines queued.
+- Expand Bloodhoof and Crossroads friendships with researched shaman-referral context and an original bag seller keepsake story.
+
 - Add Rezlak and Urtrun Clanbringer: two complete adult Goblin and Orc profiles, with thirty personal lines queued.
 - Ground their caravan and guild friendships in full Classic/Forever supply quests and established clan-service dialogue.
 

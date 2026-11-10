@@ -2611,5 +2611,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Goblin/Orc male body and current Horde Neutral/Friendly distinction; full caravan/orb chains or installed guild greeting/current services, no Scout sighting claimed",
     "research_notes": "docs/research/durotar-caravans-and-clan-purpose.md"
+  },
+  {
+    "npc_id": 3066,
+    "name": "Narm Skychaser",
+    "zone": "Mulgore",
+    "source": "Reviewed adult Tauren/Troll male body and current Horde Friendly/Neutral distinction; complete shaman referrals/connected rites or established bag trade, no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-patience-and-crossroads-keepsakes.md"
+  },
+  {
+    "npc_id": 3487,
+    "name": "Kalyimah Stormcloud",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Tauren/Troll male body and current Horde Friendly/Neutral distinction; complete shaman referrals/connected rites or established bag trade, no Scout sighting claimed",
+    "research_notes": "docs/research/bloodhoof-patience-and-crossroads-keepsakes.md"
   }
 ]

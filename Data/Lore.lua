@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Narm Skychaser <Shaman Trainer>, Bloodhoof Village, Mulgore. Adult
+    -- Tauren male3816/M2 968705, Horde Friendly. Full2984 fire and
+    -- historical2986 water referrals/connected rites read; own tabs0.
+    -- Crooked writing with the other hand is original, no later novel death.
+    -- Research: docs/research/bloodhoof-patience-and-crossroads-keepsakes.md
+    [3066] = {
+        quote = "Patience in learning does not end when the lesson becomes powerful.",
+        likes = { "A pupil prepared to listen", "Power approached with restraint", "The patience of a fresh beginning" },
+        dislikes = { "Strength mistaken for readiness", "A lesson hurried for its reward", "An honest difficulty concealed by pride" },
+        gossip = "Narm has guided pupils toward powerful lessons. He still finds a way to remind himself what an unfamiliar beginning feels like.",
+        bio = "Narm Skychaser teaches shamans in Bloodhoof Village. He judges a patient pupil ready to seek Kranal Fiss for the lesson of fire. Kranal trusts his judgment, while reminding the learner that power still requires restraint.",
+        backstory = "His guidance sends a learner beyond Mulgore to another teacher. The journey begins with readiness to learn more, rather than a claim that strength alone is sufficient. He offers a blessing without pretending the next lesson is already mastered.",
+        secret = "He sometimes writes his name with the hand he seldom uses for writing. The crooked letters are a useful reminder of how much patience a simple beginning can require.",
+        bestFriend = "You may smile at the crooked letters. I shall be glad to have company while I practice being a beginner at something small.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a quiet acknowledgment that shows a lesson has been heard.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. Let us leave room to learn something before deciding that we understand it.", tone = "[calm] [welcoming]" }, "I am ready. May we bring patience as well as strength to the road." },
+            idle = { { "My name is less recognizable when I write it with the other hand. The need for patience is quite clear.", tone = "[gentle] [wry]" }, "A powerful lesson still begins with listening.", "Knowing that another teacher can guide you is part of understanding where you stand." },
+            befriended = { { "You have shared your questions and stayed to hear mine. I would welcome more of that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What would you like to understand?", "I was considering a small beginning. It has not yet become less crooked." },
+            learned = { { "Good. Let the new knowledge deepen your care in using it.", tone = "[steady] [encouraging]" } },
+            quest = { "Attend to the instructions. A journey to another teacher is not the lesson already completed." },
+            combatStart = { "Know when to act, and keep the judgment to stay your hand." },
+            combatEnd = { "Consider what is still needed before seeking the next display of strength." },
+            rest = { "A pause can give a thought time to become clearer." },
+            zone = { "New surroundings may ask for a new way of listening." },
+            thanked = { "You are welcome. May the guidance serve you well." },
+        },
+    },
+
+    -- Kalyimah Stormcloud <Bags & Sacks>, Crossroads, The Barrens. Adult
+    -- Troll male4097/M2 1022938, current Horde Neutral, own tabs0.
+    -- Classic three-bag trade; no installed own gossip/quest.
+    -- Battered personal cup is original, not a sold item or friendship gift.
+    -- Research: docs/research/bloodhoof-patience-and-crossroads-keepsakes.md
+    [3487] = {
+        quote = "A bag can hold many things. It cannot decide which of them you meant to bring.",
+        likes = { "A traveler finding the needed thing", "A load chosen with a little thought", "An ordinary object kept for its story" },
+        dislikes = { "Useful things buried beyond finding", "A strap blamed for every poor decision", "A small possession mocked as worthless" },
+        gossip = "Kalyimah has sound advice about what belongs in a bag. His own battered cup has survived several very reasonable arguments against packing it.",
+        bio = "Kalyimah Stormcloud is a Troll bag seller at the Crossroads. His established trade includes pouches, leather satchels, and heavier bags. He enjoys hearing what a traveler intends to carry, especially when a small thing has a longer story.",
+        backstory = "He began taking an old cup along after discovering that replacing it did not quite replace the pleasure of using it. The cup became his private exception to otherwise sensible packing advice. He has learned to allow other people their exceptions too.",
+        secret = "He can explain why the cup should stay behind more convincingly than anyone else. He still finds a place for it before leaving, and is quietly pleased when someone understands.",
+        bestFriend = "You need not defend every small thing you care about. Tell me its story, if you wish. I shall make room to hear it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He likes a friendly response to a small attachment that is not easily justified.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. Have you brought what you need, and the one thing you simply wished to bring?", tone = "[friendly] [unhurried]" }, "Ready. I have found room for the cup, despite some excellent advice." },
+            idle = { { "The argument for leaving the cup was very sound. Packing it has made me rather happier, though.", tone = "[amused] [reflective]" }, "A small thing may be worth keeping for a reason that does not show in the price.", "Being able to carry something and being able to find it are separate accomplishments." },
+            befriended = { { "You heard the story without deciding the cup was foolish. I would be glad of more company that can do that.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Something you need to find, or something you wished to tell me?", "I was considering which advice deserves a small exception." },
+            bagsFull = { { "Choose with care. You may keep a thing for its story, but you still need to find the things the journey asks for.", tone = "[practical] [gentle]" } },
+            loot = { "Useful, or something you simply like? It helps to know which reason is yours." },
+            quest = { "Keep what was requested where you can find it when it is time to return." },
+            rest = { "A pause. I believe the cup can justify having come along now." },
+            zone = { "New surroundings. There may be a story here worth remembering without carrying all of it away." },
+            mail = { "News from someone elsewhere. Let us see what they chose to share." },
+            thanked = { "You are welcome. May what you carry serve you well." },
+        },
+    },
+
     -- Rezlak <Tinkers' Union>, Durotar. Adult Goblin male7129/M2 119376,
     -- current Horde Neutral. Full834->835 and97281->97282 read;
     -- Gazlowe employment/advice and uncertain orb experiment are sourced.

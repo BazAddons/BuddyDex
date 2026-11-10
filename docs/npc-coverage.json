@@ -4,8 +4,8 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 248,
-    "unverified": 140,
-    "horde": 205
+    "unverified": 141,
+    "horde": 206
   },
   "npc_race_counts": {
     "1": 165,
@@ -14,9 +14,9 @@
     "2": 68,
     "5": 61,
     "4": 40,
-    "8": 44,
+    "8": 45,
     "9": 30,
-    "6": 66,
+    "6": 67,
     "96": 8,
     "95": 15
   },
@@ -39,10 +39,10 @@
     "Orgrimmar": 37,
     "Badlands": 1,
     "Darkshore": 7,
-    "Mulgore": 14,
+    "Mulgore": 15,
     "Thunder Bluff": 34,
     "Durotar": 46,
-    "The Barrens": 28,
+    "The Barrens": 29,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
     "Ashenvale": 6,
@@ -2764,6 +2764,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3064"
     },
     {
+      "npc_id": 3066,
+      "name": "Narm Skychaser",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3066"
+    },
+    {
       "npc_id": 3067,
       "name": "Pyall Silentstride",
       "zone": "Mulgore",
@@ -3724,6 +3737,17 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3486"
+    },
+    {
+      "npc_id": 3487,
+      "name": "Kalyimah Stormcloud",
+      "zone": "The Barrens",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3487"
     },
     {
       "npc_id": 3489,
@@ -7409,6 +7433,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 578,
-  "awaiting_signature_audio_profiles": 124
+  "authored_profiles": 580,
+  "awaiting_signature_audio_profiles": 126
 }
