@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Clyde Kellen and Martine Tramblay: two full adult Forsaken profiles with thirty personal lines queued.
+- Research Clyde's fishing/camping instruction and Martine's current supplies; distinguish original fish-interview and empty-plate anecdotes from established facts.
+
 - Add Melithar Staghelm and Sentinel Shayla Nightbreeze: two full adult Night Elf profiles with thirty personal lines queued.
 - Ground their writing in the complete woodland protector referral, Forever Gnarlpine bounty and redemption quest context, with conditional starter differences documented.
 

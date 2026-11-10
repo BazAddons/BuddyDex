@@ -3479,5 +3479,19 @@
     "zone": "Teldrassil",
     "source": "Reviewed adult Night Elf woman, Alliance Friendly, road west of Dolanaar; complete Forever490bounty and488/489redemption context; conditional starter gap documented. Original weight of duty distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/shadowglen-judgment-and-shaylas-duty.md"
+  },
+  {
+    "npc_id": 5690,
+    "name": "Clyde Kellen",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Horde Forsaken man at Brightwater Lake; full97956/96607/96656camping context, three installed greetings, two Classic fishing lessons; original fish interview distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/brightwater-questions-and-the-empty-plate.md"
+  },
+  {
+    "npc_id": 3550,
+    "name": "Martine Tramblay",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Horde Forsaken woman at Deaths Watch Waystation; all eight current wares and item nodes, no personal quests/gossip found; later retail relocation excluded; original empty-plate anecdote distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/brightwater-questions-and-the-empty-plate.md"
   }
 ]

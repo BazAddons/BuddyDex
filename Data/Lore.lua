@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Clyde Kellen, Brightwater Lake, Tirisfal. Adult Forsaken male
+    -- 4007/M2 959310, Horde Friendly. Fishing instruction, three installed
+    -- greetings and full97956/96607/96656camping context read.
+    -- Fish interview is original, not magical speech or quest dialogue.
+    -- Research: docs/research/brightwater-questions-and-the-empty-plate.md
+    [5690] = {
+        quote = "I asked a fish for its opinion. It turned away. A firm answer, if an unhelpful one.",
+        likes = { "A learner willing to make the first cast", "A little pleasure around the camp", "A fish maintaining its dignity" },
+        dislikes = { "A beginner mocked for an empty hook", "Boasting through someone else's lesson", "Pretending every question needs an answer" },
+        gossip = "Clyde sometimes asks a fish what it thinks. He treats a turn of the tail as a serious contribution to the conversation.",
+        bio = "Clyde Kellen teaches fishing beside Brightwater Lake, east of Brill. He also helps learners make a Fish Bowl for their camp, giving the practical work of fishing a place among its small pleasures.",
+        backstory = "Eleanor Shackleton sends aspiring campers to him for a fishing fixture. Clyde's lesson ends with a reminder to camp in the wilderness and prepare a campfire. A little joy belongs beside the useful equipment.",
+        secret = "He once asked a bowl's resident a very solemn question. The fish turned away halfway through. Clyde has been calling this a dignified refusal to comment ever since.",
+        bestFriend = "Come along. Your conversation is welcome, and considerably easier to follow than the fish's. I am glad you stayed.",
+        favorite = {
+            emote = "GRIN",
+            hint = "His solemn account of a fish refusing to answer invites a knowing look of amusement.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Ready, friend. You may speak freely. The fish mostly ignore my questions, so I am pleased to have company that occasionally answers.", tone = "[dry] [welcoming]" }, "Shall we? There is useful work to learn, and room for a little pleasure along the way. I am glad you came." },
+            idle = { { "I once asked a fish a perfectly serious question. It turned away before I finished. A dignified refusal to comment. I try to respect the distinction.", tone = "[deadpan] [amused]" }, "A Fish Bowl can bring a little joy to camp. Practical skills are allowed to produce something you simply enjoy looking at.", "Take the first cast. The fish have not agreed to make a beginner look impressive, but they have made no agreement with me either." },
+            befriended = { { "You have become welcome company. Come along, friend. We can talk, and should either of us run out of answers, I know a fish with an excellent example to follow.", tone = "[warm] [wry]" } },
+            poke = { "Yes? I am listening. You have already been more forthcoming than my last aquatic acquaintance.", "What is on your mind? Take your time. I am accustomed to waiting for a response." },
+            laughAlong = { { "Exactly. A solemn expression does not make the fish's contribution any more helpful.", tone = "[dry] [amused]" } },
+            learned = { "A new skill. Give yourself the chance to enjoy using it before turning every attempt into a demand for perfection." },
+            quest = { "Know what you are being asked to learn. A useful lesson should leave you able to do something for yourself." },
+            rest = { "A little quiet. You need not fill it for my benefit. I enjoy the company even when neither of us has anything to announce." },
+            zone = { "Have a look around. Some places offer a reason to linger that has nothing to do with the quickest road through." },
+            loot = { "Something to examine. Useful equipment is welcome, and so is a modest thing that makes a camp more pleasant." },
+            sitToo = { "I will keep you company. If you have a story, I should like to hear it. If you prefer the quiet, that is welcome too." },
+        },
+    },
+
+    -- Martine Tramblay, Death's Watch Waystation, Tirisfal. Adult
+    -- Forsaken female1636/M2 997378, Horde Friendly. All eight current
+    -- goods read; no own quests/gossip found. Empty-plate anecdote is
+    -- original. No later retail move to Brill or Clyde relationship.
+    -- Research: docs/research/brightwater-questions-and-the-empty-plate.md
+    [3550] = {
+        quote = "An empty plate can be excellent proof. I like to hear the part where you enjoyed it.",
+        likes = { "A first meal worth telling someone about", "Simple recipes put to use", "A little pride without an apology" },
+        dislikes = { "A small catch dismissed as worthless", "A beginner afraid to ask about cooking", "Turning every meal into a competition" },
+        gossip = "Martine enjoys hearing about a customer's first cooked catch. She once accepted an empty plate as unusually convincing evidence.",
+        bio = "Martine Tramblay sells fishing supplies southeast of Brill, at Death's Watch Waystation. Her wares include a pole, lures, a Chef's Knife and recipes for Brilliant Smallfish and Slitherskin Mackerel.",
+        backstory = "A customer once returned to show her a first cooked catch, then realized there was nothing left on the plate. Martine asked whether dinner had been good. The proud answer interested her more than its size.",
+        secret = "She liked that empty plate better than a grand fishing trophy. Someone had learned enough to make a meal, enjoyed it, and wanted her to know. That was plenty to celebrate.",
+        bestFriend = "Come along. You need not bring proof of some grand success. I enjoy hearing what made your day worth telling me about.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She makes room to celebrate a beginner's small, satisfying success.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Shall we? Tell me what pleased you today. A modest success is quite enough to begin the conversation.", tone = "[warm] [welcoming]" }, "Ready, friend. I should like your company. You need not arrive with a trophy to have something worth telling me." },
+            idle = { { "A customer once came to show me a first cooked catch. Empty plate. They had enjoyed dinner before remembering the demonstration. I considered the evidence convincing.", tone = "[fond] [amused]" }, "Brilliant Smallfish and Slitherskin Mackerel. Two recipes, and a useful beginning for someone wondering what to do after bringing a catch ashore.", "A small fish can still become a meal worth enjoying. You need not apologize for beginning with something manageable." },
+            befriended = { { "You have become someone I am pleased to see. Come along, friend. I want to hear the ordinary good parts too, even when you think they are too small to mention.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me. You need not improve the story before it is worth my attention.", "I am listening. How did it go? Start with the part you are pleased about." },
+            cheerAlong = { { "There, a success worth enjoying. Let yourself be pleased before measuring it against somebody else's.", tone = "[bright] [encouraging]" } },
+            loot = { "Have a look. Something modest can be useful long before it becomes impressive enough for a grand account." },
+            learned = { "Something you can do for yourself now. Try it, and tell me how it goes. I enjoy hearing about the first attempt." },
+            rest = { "A pause. You have time to enjoy a thing before finding the next task to justify it." },
+            group = { "Ask whether anyone needs the simple part explained. A beginner should not have to pretend understanding to keep their place." },
+            bagsFull = { "Make a little room. Keep what you can use, and do not let a bag full of possibilities prevent you from enjoying any of them." },
+            thanked = { "You are welcome. If it helped you enjoy the result, I am pleased to hear it." },
+        },
+    },
+
     -- Melithar Staghelm, outside Aldrassil, Shadowglen. Adult Night Elf
     -- male4237/M2 974343, Alliance Friendly. Full458/459chain read;
     -- Tarindrella calls him wise. Quiet pleasure in the compliment is

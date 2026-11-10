@@ -3150,6 +3150,20 @@
       "zone": "Teldrassil",
       "route": "Dolanaar road Sentinel",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original pleasure in a compliment or weight of Sentinel duty; no synthesis"
+    },
+    {
+      "npc_id": 5690,
+      "name": "Clyde Kellen",
+      "zone": "Tirisfal Glades",
+      "route": "Brightwater Lake fishing and camping",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original fish interview or empty-plate anecdote; no synthesis"
+    },
+    {
+      "npc_id": 3550,
+      "name": "Martine Tramblay",
+      "zone": "Tirisfal Glades",
+      "route": "Deaths Watch Waystation fishing supplies",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original fish interview or empty-plate anecdote; no synthesis"
     }
   ]
 }
