@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Melithar Staghelm and Sentinel Shayla Nightbreeze: two full adult Night Elf profiles with thirty personal lines queued.
+- Ground their writing in the complete woodland protector referral, Forever Gnarlpine bounty and redemption quest context, with conditional starter differences documented.
+
 - Add Ageron Kargal and High Executor Darthalia: two full adult Forsaken profiles with thirty personal lines queued.
 - Research the complete voidwalker handoff, seven-stage Hillsbrad campaign, bounties, new scout branch and full registry while preserving their distinct roles and allegiances.
 

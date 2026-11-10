@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 700,
-  "written_complete_count": 700,
-  "awaiting_signature_audio_count": 246,
+  "authored_count": 702,
+  "written_complete_count": 702,
+  "awaiting_signature_audio_count": 248,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 248,
+  "remaining_count": 250,
   "completed": [
     {
       "npc_id": 54,
@@ -1478,6 +1478,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 2077,
+      "name": "Melithar Staghelm",
+      "zone": "Teldrassil",
+      "source": "Reviewed adult Night Elf, Alliance Friendly; full woodland protector referral or Gnarlpine bounty and redemption context; source relationship gaps documented; original friendship writing distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/shadowglen-judgment-and-shaylas-duty.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 2079,
       "name": "Conservator Ilthalaine",
       "zone": "Teldrassil",
@@ -1723,6 +1735,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 2155,
+      "name": "Sentinel Shayla Nightbreeze",
+      "zone": "Teldrassil",
+      "source": "Reviewed adult Night Elf, Alliance Friendly; full woodland protector referral or Gnarlpine bounty and redemption context; source relationship gaps documented; original friendship writing distinguished; no Scout sighting claimed",
+      "research_notes": "docs/research/shadowglen-judgment-and-shaylas-duty.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 2198,
       "name": "Crier Goodman",
       "zone": "Stormwind City",
@@ -1745,7 +1769,7 @@
       "npc_id": 2215,
       "name": "High Executor Darthalia",
       "zone": "Hillsbrad Foothills",
-      "source": "Reviewed adult Forsaken man/woman, Horde Friendly; full summoning handoff, entire Hillsbrad campaign, bounties/scout branch and three registry pages; original invitation/earned company distinguished; no Scout sighting claimed",
+      "source": "Reviewed adult Forsaken woman, Horde Friendly; seven campaign stages, all bounties and scout continuation, three registry pages and exact installed gossip; original private trust distinguished from canonical ruthlessness; no Scout sighting claimed",
       "research_notes": "docs/research/brill-invitations-and-tarren-mill-command.md",
       "written_lines": 15,
       "personal_recordings": 0,
@@ -4672,7 +4696,7 @@
       "npc_id": 5724,
       "name": "Ageron Kargal",
       "zone": "Tirisfal Glades",
-      "source": "Reviewed adult Forsaken man/woman, Horde Friendly; full summoning handoff, entire Hillsbrad campaign, bounties/scout branch and three registry pages; original invitation/earned company distinguished; no Scout sighting claimed",
+      "source": "Reviewed adult Forsaken man, Horde Friendly; full1478/1473/1471handoff and grimoire metadata; referral distinguished from Carendin teaching and original encouraging opening; no Scout sighting claimed",
       "research_notes": "docs/research/brill-invitations-and-tarren-mill-command.md",
       "written_lines": 15,
       "personal_recordings": 0,

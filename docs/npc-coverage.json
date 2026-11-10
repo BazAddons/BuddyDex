@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 294,
+    "alliance": 296,
     "unverified": 157,
     "horde": 271
   },
@@ -13,7 +13,7 @@
     "7": 49,
     "2": 78,
     "5": 74,
-    "4": 55,
+    "4": 57,
     "8": 55,
     "9": 43,
     "6": 82,
@@ -35,7 +35,7 @@
     "Undercity": 14,
     "Duskwood": 3,
     "Silverpine Forest": 8,
-    "Teldrassil": 24,
+    "Teldrassil": 26,
     "Hillsbrad Foothills": 7,
     "Arathi Highlands": 11,
     "Orgrimmar": 47,
@@ -2002,6 +2002,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2046"
     },
     {
+      "npc_id": 2077,
+      "name": "Melithar Staghelm",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2077"
+    },
+    {
       "npc_id": 2079,
       "name": "Conservator Ilthalaine",
       "zone": "Teldrassil",
@@ -2310,6 +2323,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2151"
+    },
+    {
+      "npc_id": 2155,
+      "name": "Sentinel Shayla Nightbreeze",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2155"
     },
     {
       "npc_id": 2198,
@@ -8971,6 +8997,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 700,
-  "awaiting_signature_audio_profiles": 246
+  "authored_profiles": 702,
+  "awaiting_signature_audio_profiles": 248
 }

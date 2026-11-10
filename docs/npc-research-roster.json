@@ -3465,5 +3465,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult Forsaken woman, Horde Friendly; seven campaign stages, all bounties and scout continuation, three registry pages and exact installed gossip; original private trust distinguished from canonical ruthlessness; no Scout sighting claimed",
     "research_notes": "docs/research/brill-invitations-and-tarren-mill-command.md"
+  },
+  {
+    "npc_id": 2077,
+    "name": "Melithar Staghelm",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult Night Elf man, Alliance Friendly, outside Aldrassil; complete458/459referral and installed text; Tarindrella explicitly calls him a wise druid. Original enjoyment of praise distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-judgment-and-shaylas-duty.md"
+  },
+  {
+    "npc_id": 2155,
+    "name": "Sentinel Shayla Nightbreeze",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult Night Elf woman, Alliance Friendly, road west of Dolanaar; complete Forever490bounty and488/489redemption context; conditional starter gap documented. Original weight of duty distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/shadowglen-judgment-and-shaylas-duty.md"
   }
 ]

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Melithar Staghelm, outside Aldrassil, Shadowglen. Adult Night Elf
+    -- male4237/M2 974343, Alliance Friendly. Full458/459chain read;
+    -- Tarindrella calls him wise. Quiet pleasure in the compliment is
+    -- original. No Fandral kinship or later retail quest assigned.
+    -- Research: docs/research/shadowglen-judgment-and-shaylas-duty.md
+    [2077] = {
+        quote = "Knowing whom to ask is a useful beginning. I am pleased if it also passes for wisdom.",
+        likes = { "Knowing when another voice knows more", "A useful question finding its listener", "A compliment offered without ceremony" },
+        dislikes = { "Guesswork announced as a forest warning", "A visitor shamed for not knowing", "Praise used to put an end to questions" },
+        gossip = "Melithar accepts praise for his judgment with some surprise. He points out that knowing when to ask Tarindrella was part of it.",
+        bio = "Melithar Staghelm is a druid outside Aldrassil. Forest spirits tell him Tarindrella has returned to Shadowglen. Concerned by the dryad's unusual presence, he sends a traveler to discover what has brought her back.",
+        backstory = "The woodland protector's long absence made her return important news. Melithar had the warning, rather than its full explanation. He directed the next question toward Tarindrella herself, whose knowledge could guide the work ahead.",
+        secret = "He is quietly pleased to be called wise, though he is quick to credit the person who knew more. Admitting he enjoyed the compliment takes a little longer than passing on the next question.",
+        bestFriend = "Come along. I enjoy thinking with you. We can let the conversation wander without deciding which of us ought to sound wiser.",
+        favorite = {
+            emote = "THANK",
+            hint = "He appreciates recognition for useful judgment, even when that judgment sends someone to a better-informed voice.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "You are welcome here. Shall we go? Bring the question that interests you. We can give it some thought before deciding whose answer it needs.", tone = "[calm] [welcoming]" }, "Ready. I enjoy a companion willing to listen as well as ask. There is room in the conversation for both of us to learn." },
+            idle = { { "Being called wise is rather pleasant. I am quick to explain who knew more than I did. Admitting that I enjoyed the compliment seems to require a little more thought.", tone = "[reflective] [wry]" }, "Tarindrella's return matters. The next useful question belongs with the dryad who can explain what brought her to Shadowglen.", "A warning deserves attention. Its explanation deserves care too. The forest is poorly served by a confident guess dressed as certainty." },
+            befriended = { { "I enjoy your questions, and the company that brings them. Come along, friend. We can learn something together without deciding which of us ought to sound wiser.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. Give the question time to become clear before worrying whether it sounds wise enough.", "You have my attention. A simple question may be exactly the one worth hearing." },
+            thanked = { { "You are welcome. I am pleased the judgment helped. I may take a moment to enjoy being told so before explaining who deserves the rest of the credit.", tone = "[modest] [pleased]" } },
+            quest = { "Find the person who can answer the question. Carrying a warning onward can be the useful work, even before its meaning becomes clear." },
+            learned = { "Something learned. Keep the curiosity that brought you to it. A useful answer can give the next question a better beginning." },
+            zone = { "Listen to the place as well as the account you brought with you. There may be something here the earlier explanation did not include." },
+            rest = { "A pause. We can think together without turning the quiet into a test of who can produce an answer first." },
+            group = { "Let the other voices finish. Someone may have noticed the part that makes the whole matter clearer." },
+            loot = { "Examine it carefully. Knowing that a thing is unusual is a beginning; understanding why may require another person's knowledge." },
+        },
+    },
+
+    -- Sentinel Shayla Nightbreeze, road west of Dolanaar. Adult Night
+    -- Elf female2866/M2 921844, Alliance Friendly. Full490bounty and
+    -- 488/489redemption context read; conditional starter gap noted.
+    -- Private weight of former forest friendship is original, not a cure.
+    -- Research: docs/research/shadowglen-judgment-and-shaylas-duty.md
+    [2155] = {
+        quote = "A threatened road needs protection. Remembering what was lost gives that duty its weight.",
+        likes = { "Careful service without a boast", "The forest remembered beyond the danger", "A traveler considering an errand's purpose" },
+        dislikes = { "A bounty made into a gleeful tally", "An attractive promise left unquestioned", "Treating corruption as the tribe's whole past" },
+        gossip = "Shayla takes the Gnarlpine bounty seriously. Their former place among the forest's friends gives the duty weight rather than cause for boasting.",
+        bio = "Sentinel Shayla Nightbreeze serves on the road west of Dolanaar. Under Sentinel orders, she commissions proof against the corrupted Gnarlpine of Ban'ethil Hollow and Starbreeze Village, whom she regards as threats to the forest.",
+        backstory = "The Gnarlpine were once friends of the forest. The Sentinels' orders now call for a bounty against the corrupted tribe. Shayla requires fangs as proof, carrying out a duty shaped by the danger their change has brought to Teldrassil.",
+        secret = "She keeps the word friends in mind when speaking of what the Gnarlpine once were. Carrying out the bounty has not made that loss feel like an unimportant detail.",
+        bestFriend = "Walk with me. You understand why I take the duty seriously, and I am glad you can still see the forest beyond the danger.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She respects a disciplined acknowledgment from someone who understands the seriousness of protecting the road.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "You are welcome. Walk with me, and keep your attention on the way. The forest deserves to be noticed for more than the danger we have come to address.", tone = "[steady] [welcoming]" }, "Ready. Tell me what you have seen along the road. A careful account is worth more than an impressive boast." },
+            idle = { { "The Gnarlpine were once friends of the forest. I remember that word when speaking of the bounty. Duty does not become lighter merely because we stop mentioning what was lost.", tone = "[somber] [resolute]" }, "The Sentinels have ordered action against the corrupted Gnarlpine. The proof is part of the assignment. The danger is the reason for it.", "An attractive promise deserves a question about its purpose. Eagerness alone can carry a traveler into work the forest has no reason to welcome." },
+            befriended = { { "You have become a friend whose care for the road I can trust. Come along. I am glad to share the way with someone who sees the forest beyond the assignment.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Give me a clear account. I will listen to the detail that seemed too small for a grander telling.", "You have my attention. Take care with what you know, and say where the uncertainty begins." },
+            quest = { { "Understand the purpose before agreeing to the errand. A promise of something splendid can leave the harm to be noticed only afterward.", tone = "[firm] [cautioning]" } },
+            saluteBack = { "Acknowledged. Carry the care with you when the gesture is finished. That is the part the road requires." },
+            zone = { "Notice who and what depend on this place. Protecting the road means more when we remember where it leads and what lives beside it." },
+            group = { "Make sure everyone understands the way ahead. A traveler left guessing is a concern the rest of us should have noticed sooner." },
+            rest = { "A pause. Let yourself see something worth keeping here. There is more to remember than the danger." },
+            loot = { "Examine what you brought back. An assignment calls for the right proof, not the most impressive account of gathering it." },
+            comforted = { "Thank you. It is good to have company that understands why the duty matters and why it can still weigh upon me." },
+        },
+    },
+
     -- Ageron Kargal, Gallows' End Tavern, Brill. Adult Forsaken male
     -- 4107/M2 959310, Horde Friendly. Full1478/1473/1471chain read;
     -- Ageron refers, Carendin instructs. Encouraging news preceding a

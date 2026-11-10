@@ -3136,6 +3136,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill Forsaken command",
       "reason": "Complete adult Horde Forsaken profile with fifteen lines queued; full Hillsbrad campaign/bounties/scout branch and original earned private company; ruthless allegiance retained; no synthesis"
+    },
+    {
+      "npc_id": 2077,
+      "name": "Melithar Staghelm",
+      "zone": "Teldrassil",
+      "route": "Shadowglen woodland referral",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original pleasure in a compliment or weight of Sentinel duty; no synthesis"
+    },
+    {
+      "npc_id": 2155,
+      "name": "Sentinel Shayla Nightbreeze",
+      "zone": "Teldrassil",
+      "route": "Dolanaar road Sentinel",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original pleasure in a compliment or weight of Sentinel duty; no synthesis"
     }
   ]
 }
