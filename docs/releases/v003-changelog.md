@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Shylamiir and Genavie Callow: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
+- Review complete sample and vengeance quest text; preserve established characterization and document original friendship writing.
+
 - Add Tukk and Brombar Higgleby: adult Horde Troll and Alliance Dwarf profiles, with thirty personal lines queued.
 - Review the full current supply stock and Keymaster identity; document original parcel and handle anecdotes without promising unverified unlock services.
 
@@ -426,4 +429,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **750 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **752 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

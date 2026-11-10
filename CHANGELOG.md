@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Shylamiir and Genavie Callow: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
+- Review complete sample and vengeance quest text; preserve established characterization and document original friendship writing.
+
 - Add Tukk and Brombar Higgleby: adult Horde Troll and Alliance Dwarf profiles, with thirty personal lines queued.
 - Review the full current supply stock and Keymaster identity; document original parcel and handle anecdotes without promising unverified unlock services.
 

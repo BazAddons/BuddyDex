@@ -3815,5 +3815,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Alliance Dwarf man; Exact adult/title/location; unverified unlock claims excluded; original try-the-handle anecdote; no Scout sighting claimed",
     "research_notes": "docs/research/tukks-parcel-and-brombars-handle.md"
+  },
+  {
+    "npc_id": 5502,
+    "name": "Shylamiir",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance woman; Full92456 and own proud trainer gossip; original enjoyment of follow-up questions; no Scout sighting claimed",
+    "research_notes": "docs/research/shylamiirs-sample-and-genavies-terms.md"
+  },
+  {
+    "npc_id": 4486,
+    "name": "Genavie Callow",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; Full1164 preserves vengeance and accusation provenance; original plain terms and private boundaries; no Scout sighting claimed",
+    "research_notes": "docs/research/shylamiirs-sample-and-genavies-terms.md"
   }
 ]

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Shylamiir, the Park/Stormwind. Adult Night Elf female
+    -- 3296/M2 921844, Alliance Friendly. Full92456 incl primary
+    -- progress/completion read; impatient teacher, intrigued by fel bloom.
+    -- Enjoying an extended answer is original personality texture.
+    -- Research: docs/research/shylamiirs-sample-and-genavies-terms.md
+    [5502] = {
+        quote = "If you are going to interrupt me, bring a clear question. A useful sample would improve the occasion further.",
+        likes = { "A sample taken with proper care", "Recognition of hard-won expertise", "A question with an interesting follow-up" },
+        dislikes = { "Idle interruptions during important work", "A specimen dismissed before examination", "Confidence offered instead of technique" },
+        gossip = "Shylamiir can object to an interruption, then spend quite some time answering it. A good question apparently improves the occasion.",
+        bio = "Shylamiir teaches herbalism in the Park of Stormwind. Proud of her technique, she seeks a sample of Dalaran's magically infused vegetation and expects visitors to make themselves useful if they interrupt her work.",
+        backstory = "She requests mana-infused vegetation, but the task returns a fel-infused blossom. The unexpected specimen proves fascinating rather than worthless to her. She even finds a little grudging praise for the courier who brought it.",
+        secret = "A good follow-up question pleases her more than she admits. She may complain about the interruption, but she enjoys having a reason to explain the finer points.",
+        bestFriend = "Walk with me. You may ask one question. I shall attempt a short answer. We should both understand that the attempt may not succeed.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates recognition of the care and expertise behind what she calls a few proper techniques.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along. You may ask a worthwhile question while we walk. I shall decide how short the answer needs to be.", tone = "[brisk] [self-assured]" }, "Good. A little company. Try not to mistake this for permission to interrupt every thought I have." },
+            idle = { { "It was a good follow-up question. Naturally the answer required a few more details. You may regard that as a compliment to the question.", tone = "[animated] [matter-of-fact]" }, "A specimen that differs from what you expected may be the interesting one. Look before dismissing it.", "Proper technique is not an ornamental phrase. There is work behind it." },
+            befriended = { { "Your company has proved a more worthwhile interruption than most. Come along. I have decided to make room for it without demanding a specimen first.", tone = "[dry] [reluctantly fond]" } },
+            poke = { "Yes? Make the question clear. I am listening.", "You have my attention. I trust there is a reason." },
+            learned = { { "Good. Now do it carefully enough that the next result tells you something useful.", tone = "[precise] [instructive]" } },
+            loot = { "Examine what you actually found. The label you expected is not an observation." },
+            quest = { "Read the request before setting out. A confident return with the wrong sample is still the wrong sample." },
+            rest = { "A pause. If you have been saving a worthwhile question, this would be a less objectionable time." },
+            group = { "One explanation at a time. I would prefer to know which question I am answering." },
+            newFriend = { "Someone new. A clear introduction will do. There is no need for an entire account of their qualifications." },
+            thanked = { "You are welcome. I am pleased that you were paying attention." },
+        },
+    },
+
+    -- Genavie Callow, Undercity. Adult Forsaken female4012/
+    -- M2 997378, Horde Friendly. Full1164 records family/estate loss,
+    -- her theft accusation and lethal revenge; no invented estate site.
+    -- Direct conversation/private boundaries are original, no absolution.
+    -- Research: docs/research/shylamiirs-sample-and-genavies-terms.md
+    [4486] = {
+        quote = "If you want something, say what. I have had enough taken from me to dislike demands disguised as kindness.",
+        likes = { "Terms stated plainly", "An obligation acknowledged", "Company without an interrogation" },
+        dislikes = { "Pity made into another obligation", "Her grievance treated as a curiosity", "Pleasant words concealing a demand" },
+        gossip = "Genavie has cut short a visitor's sympathetic preamble to ask what they wanted. Apparently the conversation became easier after that.",
+        bio = "Genavie Callow is a Forsaken woman in Undercity. She accuses the Dabyrie family of stealing her last precious belongings, demands their deaths and speaks of returning to lucrative pursuits once her vengeance is satisfied.",
+        backstory = "The plague took her family, and war left her estate looted and burned. She sees Kenata Dabyrie and her family prospering while she suffers. Her resentment has made vengeance more important to her than recovering the things she says they took.",
+        secret = "Some company is welcome because it asks for no account of her entire life. She can choose to hear an ordinary story without accepting a stranger's remedy for everything.",
+        bestFriend = "Walk with me. You need not promise to mend my whole life. Tell me something ordinary. I have chosen to hear it from you.",
+        favorite = {
+            emote = "BOW",
+            hint = "She appreciates respect offered without pity, an interrogation or an unspoken demand attached.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. If you have something to tell me, begin with it. You may spare us the sympathetic introduction.", tone = "[cool] [direct]" }, "Good. Your company. I have decided that requires no further explanation today." },
+            idle = { { "They offered a long expression of sympathy. I asked what they wanted. We understood one another considerably better once that was answered.", tone = "[dry] [restrained]" }, "There are profitable uses for my attention, once other matters are settled. I have not forgotten that.", "I dislike being expected to explain an entire life before someone will say plainly why they came." },
+            befriended = { { "I have decided your visits are welcome without a reason to bargain over. Come along. You may take that as a compliment.", tone = "[guarded warmth] [quiet]" } },
+            poke = { "Yes? Say what you came to say.", "I am listening. That need not become an invitation to examine every part of my history." },
+            thanked = { { "You are welcome. I heard you. There is no need to make a performance of the acknowledgment.", tone = "[low] [sincere]" } },
+            loot = { "Take stock of what you have brought back. Something useful deserves more attention than an impressive account of it." },
+            quest = { "Be clear about what was agreed before promising the result. I have little patience for changed terms." },
+            mail = { "Read the words before supplying the intention you hoped to find behind them." },
+            rest = { "We can let the talk stop for a while. You are not obliged to fill every silence." },
+            group = { "Make certain the terms are understood by everyone before someone begins to claim a misunderstanding." },
+            newFriend = { "A new acquaintance. Ask their name before asking for the story they may not wish to tell." },
+        },
+    },
+
     -- Tukk, Shadowprey Village/Desolace. Adult Troll male
     -- 12039/M2 1022938, Horde Friendly. All28 current goods read,
     -- including blue-ribboned paper; own quests/training0, no gossip.

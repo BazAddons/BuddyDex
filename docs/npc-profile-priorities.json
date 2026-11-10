@@ -3486,6 +3486,20 @@
       "zone": "Ironforge",
       "route": "Great Forge named Keymaster contact",
       "reason": "Exact adult/title/location; unverified unlock claims excluded; original try-the-handle anecdote; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5502,
+      "name": "Shylamiir",
+      "zone": "Stormwind City",
+      "route": "Park herbalism and Dalaran sample",
+      "reason": "Full92456 and own proud trainer gossip; original enjoyment of follow-up questions; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4486,
+      "name": "Genavie Callow",
+      "zone": "Undercity",
+      "route": "Undercity named quest contact",
+      "reason": "Full1164 preserves vengeance and accusation provenance; original plain terms and private boundaries; fifteen personal lines queued without synthesis"
     }
   ]
 }

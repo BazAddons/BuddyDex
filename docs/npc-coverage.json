@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 321,
+    "alliance": 322,
     "unverified": 159,
-    "horde": 302
+    "horde": 303
   },
   "npc_race_counts": {
     "1": 167,
     "3": 62,
     "7": 56,
     "2": 80,
-    "5": 80,
-    "4": 61,
+    "5": 81,
+    "4": 62,
     "8": 59,
     "9": 50,
     "6": 83,
@@ -24,7 +24,7 @@
     "Elwynn Forest": 28,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
-    "Stormwind City": 118,
+    "Stormwind City": 119,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Duskwood": 4,
@@ -33,7 +33,7 @@
     "Ironforge": 56,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
-    "Undercity": 15,
+    "Undercity": 16,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
     "Hillsbrad Foothills": 9,
@@ -5249,6 +5249,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4454"
     },
     {
+      "npc_id": 4486,
+      "name": "Genavie Callow",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4486"
+    },
+    {
       "npc_id": 4552,
       "name": "Eunice Burch",
       "zone": "Undercity",
@@ -5812,6 +5825,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5500"
+    },
+    {
+      "npc_id": 5502,
+      "name": "Shylamiir",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5502"
     },
     {
       "npc_id": 5503,
@@ -9628,6 +9654,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 750,
-  "awaiting_signature_audio_profiles": 296
+  "authored_profiles": 752,
+  "awaiting_signature_audio_profiles": 298
 }
