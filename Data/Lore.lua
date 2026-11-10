@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Doc Mixilpixil, SI:7/Old Town, Stormwind. Adult Gnome male6446/
+    -- M2 900914, Alliance Friendly. Full2360/2359/2607/2608/2609chain,
+    -- three-page8046/five-page7908journals and124374plaque read.
+    -- Seating plan is original; squirrel/statue consultation is established.
+    -- Research: docs/research/stormwind-conferences-and-orgrimmar-listeners.md
+    [7207] = {
+        quote = "A proper conference needs a seating plan. Dr. Montgomery is very reliable. Noarm remains an administrative challenge.",
+        likes = { "A consultation properly introduced", "A new joke receiving acknowledgment", "A colleague who answers a question" },
+        dislikes = { "An important conference hurried along", "A seating plan ignored by its occupants", "Reagents missing the requested thread" },
+        gossip = "Doc has considered a seating plan for his colleagues. The statue presents few difficulties. The squirrel is less committed to the arrangement.",
+        bio = "Doc Mixilpixil works near SI:7 in Stormwind's Old Town. Rogues sent to him with the Touch of Zanzil undergo his examination and a reagent errand. His consultations include Noarm the squirrel and the statue of Dr. Montgomery.",
+        backstory = "He drew up a seating plan to make a consultation feel properly organized. Dr. Montgomery remained exactly where expected. Noarm proved less interested in the arrangement. Doc began describing the plan as provisional rather than admitting defeat.",
+        secret = "The introductions matter to him more than the seating. A conference feels properly begun when he has welcomed every colleague, even the one already standing on a pedestal.",
+        bestFriend = "Come along. You may choose your place without a name card. I believe the conference will benefit from a colleague who can answer back.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates a suitably formal acknowledgment at the beginning of a very unusual consultation.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Ah, there you are! A colleague who answers questions. Shall we go? I believe we can begin without waiting for the seating plan to receive unanimous approval.", tone = "[animated] [welcoming]" }, "Ready. You may make your own introduction. It is a refreshing contribution to an otherwise very carefully arranged conference." },
+            idle = { { "A proper seating plan. Dr. Montgomery stays exactly where expected. Noarm has yet to express a convincing commitment to his allotted position. I have marked the arrangement provisional.", tone = "[matter-of-fact] [amused]" }, "The introductions are important. A colleague on a pedestal should not have to wonder whether the meeting has begun.", "A little chartreuse thread can become a very important item once you have specified it in the request." },
+            befriended = { { "You have become someone I am pleased to welcome before convening a consultation. Come along, friend. A colleague who answers back is excellent company.", tone = "[warm] [delighted]" } },
+            poke = { "Yes? State your business, or your name, or both. The conference can accommodate a little flexibility in the opening remarks.", "I hear you. If you have brought the seating plan, I must warn you that Noarm has not signed it." },
+            quest = { { "Listen to the whole request before setting off for the reagents. A nearly correct spool of thread can create a surprisingly long conversation.", tone = "[brisk] [particular]" } },
+            bowBack = { "Very proper. The consultation is already acquiring a distinguished air. You may now tell me what you actually wished to ask." },
+            group = { "Let us begin with introductions. It is useful to know which colleague is expected to answer and which is simply providing a dignified presence." },
+            loot = { "An interesting acquisition. Read the label before deciding it was the very thing requested for the consultation." },
+            rest = { "A pause. There is no need to rearrange the seating immediately. We can enjoy the company where it happens to have settled." },
+            mail = { "A message! See who sent it before announcing that the absent colleague has finally answered." },
+            thanked = { "You are welcome. I am pleased the visit helped. I shall record that as an encouraging contribution to the proceedings." },
+        },
+    },
+
+    -- Sarok, Valley of Strength, Orgrimmar. Adult Orc male3609/M2
+    -- 917116, Horde Friendly. Own current/Classic tabs empty; no
+    -- installed gossip. Attentive listener/mug habit is original, not
+    -- a service role or imported Siege of Orgrimmar history.
+    -- Research: docs/research/stormwind-conferences-and-orgrimmar-listeners.md
+    [5614] = {
+        quote = "If I put the mug down, keep going. That is a compliment to the story.",
+        likes = { "A story that makes him forget the drink", "A newcomer given time to join in", "A joke enjoyed without a contest" },
+        dislikes = { "A good ending interrupted by a louder boast", "A listener treated as an empty seat", "A drink spilled because he laughed too soon" },
+        gossip = "Sarok gives a storyteller his fullest attention just after moving his drink out of reach. This is usually an encouraging sign.",
+        bio = "Sarok is an Orc in Orgrimmar's Valley of Strength. He enjoys being the audience to a good story. Around the city's talk and business, a tale that makes him set aside his drink can become the best part of a visit.",
+        backstory = "A well-timed ending once made him laugh before he had put down his mug. He decided a story deserved both hands free when it began to sound promising. Moving the drink aside has become his quiet way of asking the teller to continue.",
+        secret = "He sometimes sets the mug down before knowing whether the story is good. Giving a new teller an encouraging beginning seems worth the risk of an unremarkable ending.",
+        bestFriend = "Come along. You need not promise a splendid tale before I am pleased to listen. I would enjoy sharing the way and hearing what you make of it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He enjoys a listener sharing the moment when a story becomes amusing, without needing to outdo the teller.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Shall we go? If you have a story, I would enjoy hearing it before the next person decides the beginning needs to be louder.", tone = "[warm] [easygoing]" }, "Ready. You need not improve the ending before telling me how the day went. I am pleased to have your company already." },
+            idle = { { "If I put the mug down, keep going. That is a compliment. I once gave a very good ending rather too much assistance by laughing before the drink was safely out of reach.", tone = "[wry] [amused]" }, "A good listener need not become the next speaker the instant the teller pauses for breath.", "Let the newcomer begin. We can discover whether the story is splendid after giving it somewhere to start." },
+            befriended = { { "You have become someone I am glad to see before I know which story you brought. Come along, friend. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If that was the beginning, continue. I would rather hear it than make you find a grander introduction.", "I hear you. There is time for a greeting even when you have no splendid news to announce." },
+            laughAlong = { { "A fine ending. Give me a moment. I am glad I noticed where the drink was before that part arrived.", tone = "[hearty] [amused]" } },
+            group = { "Make room for another voice. A good table has more to offer than the loudest person's account of the whole evening." },
+            rest = { "A pause. We can enjoy the company without deciding whose story deserves to fill every quiet moment." },
+            quest = { "Let the person finish before deciding you have heard this one. The important part may still be coming." },
+            zone = { "New surroundings. Tell me what caught your attention. I would enjoy hearing which part you noticed first." },
+            combatEnd = { "It is over. Check on the others before turning the encounter into a tale of how well we all did." },
+            thanked = { "You are welcome. I have enjoyed listening too. There is no need to make that sound like a favor I suffered through." },
+        },
+    },
+
     -- Myriam Moonsinger, Razorfen Downs approaches, southern Barrens.
     -- Adult Night Elf female12964/M2 921844, primary Horde Friendly.
     -- Full6626and exact installed reconnaissance dialogue read. Scourge

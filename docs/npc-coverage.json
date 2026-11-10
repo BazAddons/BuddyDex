@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 287,
+    "alliance": 288,
     "unverified": 153,
-    "horde": 262
+    "horde": 263
   },
   "npc_race_counts": {
     "1": 166,
     "3": 54,
-    "7": 47,
-    "2": 76,
+    "7": 48,
+    "2": 77,
     "5": 71,
     "4": 54,
     "8": 54,
@@ -24,7 +24,7 @@
     "Elwynn Forest": 27,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
-    "Stormwind City": 114,
+    "Stormwind City": 115,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 18,
@@ -38,7 +38,7 @@
     "Teldrassil": 24,
     "Hillsbrad Foothills": 6,
     "Arathi Highlands": 11,
-    "Orgrimmar": 46,
+    "Orgrimmar": 47,
     "Badlands": 1,
     "Darkshore": 8,
     "Mulgore": 22,
@@ -5680,6 +5680,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5613"
     },
     {
+      "npc_id": 5614,
+      "name": "Sarok",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5614"
+    },
+    {
       "npc_id": 5667,
       "name": "Venya Marthand",
       "zone": "Tirisfal Glades",
@@ -6293,6 +6306,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7089"
+    },
+    {
+      "npc_id": 7207,
+      "name": "Doc Mixilpixil",
+      "zone": "Stormwind City",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7207"
     },
     {
       "npc_id": 7292,
@@ -8731,6 +8757,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 681,
-  "awaiting_signature_audio_profiles": 227
+  "authored_profiles": 683,
+  "awaiting_signature_audio_profiles": 229
 }

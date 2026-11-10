@@ -3003,6 +3003,20 @@
       "zone": "Thousand Needles",
       "route": "Freewind Post returning-friend quest contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original evidence/correction habit or welcome-before-questions story; no synthesis"
+    },
+    {
+      "npc_id": 7207,
+      "name": "Doc Mixilpixil",
+      "zone": "Stormwind City",
+      "route": "Old Town Gnome consultation quest contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original seating-chart or attentive-story-listener writing; no synthesis"
+    },
+    {
+      "npc_id": 5614,
+      "name": "Sarok",
+      "zone": "Orgrimmar",
+      "route": "Valley of Strength Orc named resident",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original seating-chart or attentive-story-listener writing; no synthesis"
     }
   ]
 }

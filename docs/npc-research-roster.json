@@ -3332,5 +3332,19 @@
     "zone": "Thousand Needles",
     "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full current/Classic/published/installed6626and4904text, all tabs and Myriam exact scouting dialogue read; no Scout sighting claimed",
     "research_notes": "docs/research/razorfen-evidence-and-freewind-welcomes.md"
+  },
+  {
+    "npc_id": 7207,
+    "name": "Doc Mixilpixil",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult Gnome / Orc men, explicit faction Friendly; full five-stage Rogue chain, three complete primary readables and own role/identity pages; established versus original inn-patron writing distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/stormwind-conferences-and-orgrimmar-listeners.md"
+  },
+  {
+    "npc_id": 5614,
+    "name": "Sarok",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Gnome / Orc men, explicit faction Friendly; full five-stage Rogue chain, three complete primary readables and own role/identity pages; established versus original inn-patron writing distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/stormwind-conferences-and-orgrimmar-listeners.md"
   }
 ]

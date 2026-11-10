@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Doc Mixilpixil and Sarok: two complete adult profiles with thirty personal lines queued.
+- Expand unusual SI:7 consultations and Orgrimmar social company using full Rogue quest and primary readable research.
+
 - Add Myriam Moonsinger and Thalia Amberhide: two complete adult profiles with thirty personal lines queued.
 - Expand Razorfen scouting and Freewind friendship stories using full quest text and current faction evidence.
 
