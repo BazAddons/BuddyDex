@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gimrizz Shadowcog and Turuk Amberstill: full Gnome and Dwarf profiles along the early Dun Morogh route, with thirty personal lines queued.
+- Give the stern warlock trainer and joking ranch weaponsmith distinct friendships while preserving live Neutral eligibility and separate game-service roles.
+
 - Add Tai'tasi, K'waii and Nez'raz: two adult Troll women in Sen'jin and a Goblin zeppelin contact in Grom'gol, with forty-five personal lines queued.
 - Keep early-route supply coverage separate from later travel coverage, with distinct original friendships and verified current roles.
 

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gimrizz Shadowcog <Warlock Trainer>, Kharanos, Dun Morogh. Adult
+    -- Gnome male3607/M2 900914, Alliance Friendly. Installed stern training,
+    -- nonwarlock and retraining gossip; no own quest found. Not Alamar3115.
+    -- Neat cuffs and private mending discipline are original writing.
+    -- Research: docs/research/kharanos-discipline-and-amberstill-humor.md
+    [5612] = {
+        quote = "Power does not excuse carelessness. It gives carelessness more opportunities.",
+        likes = { "Discipline maintained without an audience", "A precise question", "Small work done properly" },
+        dislikes = { "Neglect disguised as boldness", "A lesson interrupted for display", "A crooked seam called close enough" },
+        gossip = "Gimrizz has a severe word for weak discipline. The severity extends to a loose thread on his own sleeve.",
+        bio = "Gimrizz Shadowcog is a warlock trainer in Kharanos. His lessons favor rigorous practice over complacency, and his welcome to those outside his discipline can be distinctly cold. A careless student should not expect his approval merely for being ambitious.",
+        backstory = "Mending a loose seam ought to have been a small task. He found his impatience turning it into a longer one. Rather than blame the needle, he began treating such small repairs as exercises in the attention he demanded elsewhere.",
+        secret = "He calls the neatness of his cuffs a matter of discipline. He also simply likes them neat. He sees no need to emphasize the second explanation.",
+        bestFriend = "You may sit with me while I finish this. You need not produce a profound question to justify the company.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates a deliberate greeting with a measure of respect.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "I will come. Let us see whether you bring the same attention to an outing as to your work.", tone = "[measured] [stern]" }, "Good. You are ready. We may dispense with an elaborate entrance." },
+            idle = { { "A neat cuff is a matter of discipline. It is also a neat cuff. Both explanations may stand.", tone = "[dry] [reserved]" }, "If the small task defeats your patience, making it larger will not improve matters.", "I have not mistaken silence for an invitation to be careless." },
+            befriended = { { "You have become someone whose company I will accept without demanding an explanation first. Do not make a spectacle of it.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? State the question precisely.", "I am attending to a thread. The world may survive the brief delay." },
+            learned = { { "Practice it properly. An impressive beginning is not mastery.", tone = "[firm]" } },
+            gear = { "A loose fastening deserves attention before it becomes a lesson in consequences." },
+            quest = { "Understand the instruction before deciding it beneath you." },
+            combatStart = { "Concentrate. This is a poor time to admire your own power." },
+            combatEnd = { "Now consider what you did. Success does not excuse every mistake." },
+            rest = { "A pause is acceptable. Neglect is something else." },
+            loot = { "Handle it with some care. Power is not a substitute for attention." },
+        },
+    },
+
+    -- Turuk Amberstill <Dwarven Weaponsmith>, Amberstill Ranch, Dun Morogh.
+    -- Adult Dwarf male3411/M2 878772, current Alliance Neutral, Repair/Vendor
+    -- four axes/blunt weapons. No own quest/gossip; Rudra314 not his task.
+    -- Bad jokes tried on nearby rams are original, no mount service inferred.
+    -- Research: docs/research/kharanos-discipline-and-amberstill-humor.md
+    [3177] = {
+        quote = "An edge needs care. A joke can sometimes stand being a little blunt.",
+        likes = { "A tool put away safely", "A grin at a dreadful pun", "A repair made before the break" },
+        dislikes = { "Testing an edge with a bare finger", "Care mistaken for fancy decoration", "Explaining the same joke twice" },
+        gossip = "Turuk has a sound opinion on a weapon. His opinion of his own jokes is rather more generous.",
+        bio = "Turuk Amberstill is the dwarven weaponsmith at Amberstill Ranch in Dun Morogh. He sells axes and blunt weapons and offers repairs. With rams nearby and travelers passing through, he finds plenty of chances to discuss a sound handle or try a bad joke.",
+        backstory = "He found that a simple explanation of a repair was more welcome with a little humor. Improving the explanation came naturally. Improving the humor has taken longer, although he maintains that some audiences are difficult to please.",
+        secret = "He has tried a few jokes on the nearby rams. Their silence has not discouraged him. He thinks it shows they are considering the finer points.",
+        bestFriend = "You can tell me when a joke is poor. Just give it a fair moment first. Some of them need a little time to blunt the resistance.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He likes a greeting that leaves room for a shared, slightly dreadful joke.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Shall we find out whether the road has a better sense of humor than the rams?", tone = "[warm] [wry]" }, "Ready when you are. Mind where the sharp bits are pointing." },
+            idle = { { "The rams did not laugh. I prefer to think they were giving the joke proper consideration.", tone = "[dry] [amused]" }, "A blunt joke is safer than a careless edge. I shall continue to provide the former.", "There is good work in an ordinary tool. You need not name it before looking after it." },
+            befriended = { { "You can tell me the joke was poor and still stay for the next one. That is company worth keeping.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was that a question, or have you worked out the joke?", "I am listening. Keep your fingers away from the edge while you explain it." },
+            gear = { { "Have a look at the fastening now, while fixing it is still a small matter.", tone = "[practical]" } },
+            loot = { "Useful? Then carry it so it stays useful." },
+            bagsFull = { "Something sharp has found something soft in there. Best separate them before they get acquainted." },
+            combatEnd = { "Everyone standing? Good. Now we can look at what needs attention." },
+            rest = { "A sound pause. Even a bad joke benefits from one." },
+            laughAlong = { "There! I knew that one had an audience somewhere." },
+            thanked = { "You are welcome. No charge for the advice about your fingers." },
+        },
+    },
+
     -- Tai'tasi <Trade Supplies>, Sen'jin, Durotar. Adult Troll female
     -- display4087/M2 1018060, Horde Friendly; eighteen current goods.
     -- No own quest/gossip; Lar786 reviewed, later mate/trader claims omitted.

@@ -2058,6 +2058,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Horde later Gromgol zeppelin contact",
       "reason": "Full adult profile and fifteen queued lines; verified female Troll/male Goblin groups, version-specific relationship/transport claims separated, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 5612,
+      "name": "Gimrizz Shadowcog",
+      "zone": "Dun Morogh",
+      "route": "Shared Dwarf/Gnome Kharanos-Amberstill early route",
+      "reason": "Full adult male Gnome/Dwarf profile and fifteen queued lines; current Neutral not relabeled Friendly, training/ranch roles separated, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 3177,
+      "name": "Turuk Amberstill",
+      "zone": "Dun Morogh",
+      "route": "Shared Dwarf/Gnome Kharanos-Amberstill early route",
+      "reason": "Full adult male Gnome/Dwarf profile and fifteen queued lines; current Neutral not relabeled Friendly, training/ranch roles separated, ordinary live gates retained, no synthesis"
     }
   ]
 }
