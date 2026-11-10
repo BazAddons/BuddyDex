@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bixi Wobblebonk <Weapon Master>, Timberline Arms, Ironforge.
+    -- Adult Gnome female12992/M2 940356, Alliance Friendly/Trainer.
+    -- Three current/Classic weapon entries, two installed gossip variants
+    -- including Buliwyf/Woo Ping/Ilyenia referrals. No own quests.
+    -- Paper-toss game is original, not a qualification or actual minigame.
+    -- Research: docs/research/bixi-wobblebonk-technique-and-paper.md
+    [13084] = {
+        quote = "Paper is an unreasonable opponent. That is part of the entertainment.",
+        likes = { "A learner taking technique seriously", "A question sent to the right teacher", "A paper toss landing somewhere surprising" },
+        dislikes = { "A beginner mocked for needing practice", "A flourish replacing proper technique", "A harmless game treated as a qualification" },
+        gossip = "Bixi takes weapon technique seriously. During a break, a scrap of paper's surprising landing receives a much less solemn assessment.",
+        bio = "Bixi Wobblebonk is a weapon master at Timberline Arms in Ironforge. She teaches crossbows, daggers, and thrown weapons. Her directions also help learners find Buliwyf, Woo Ping, or Ilyenia Moonfire for other instruction.",
+        backstory = "A tossed scrap drifted off course during a quiet break and caught her interest. She began treating its unpredictable landings as a small game. A strange landing became more entertaining than a perfectly tidy one.",
+        secret = "She gives the most improbable landing the best imaginary score. No serious standard is being tested. She simply enjoys watching a plain scrap refuse to make a dignified entrance.",
+        bestFriend = "Stay and watch this one. You may decide where it ought to land, and we can enjoy finding out how little the paper cares.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone enjoying the deliberately unserious result of a little game.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Good to see you. A proper question for the lesson, or a little company for the pause?", tone = "[bright] [welcoming]" }, "Ready. The paper has completed another wonderfully undignified landing." },
+            idle = { { "An excellent result. Not where I expected it to go, which is much of the attraction.", tone = "[playful] [pleased]" }, "A small game is allowed to be silly. It need not demonstrate every skill you have learned.", "Know which teacher can help with the question. That is a useful thing to learn in its own right." },
+            befriended = { { "You take the learning seriously and still leave room for a little amusement. I would like more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you would like to learn, and we can find the right beginning.", "I was deciding whether that landing deserved a better imaginary score. It was remarkably unexpected." },
+            rest = { { "A pause is a pause. The scrap need not become a proper exercise before we are allowed to enjoy it.", tone = "[easygoing] [amused]" } },
+            learned = { "Good. Give the lesson enough practice that you understand it, rather than only remembering the name." },
+            gear = { "Know what you are using before deciding how impressive it looks." },
+            loot = { "Useful? Find out what you have before making the description more elaborate." },
+            bagsFull = { "Make some room. You will want to find the important thing without emptying everything else first." },
+            cheerAlong = { "Yes! Encouragement belongs beside the correction, especially while somebody is learning." },
+            thanked = { "You are welcome. Ask again when the next question becomes clear." },
+        },
+    },
+
     -- Librarian Mae Paledust <Explorers League>, Library, Ironforge. Adult
     -- Dwarf female2049/M2 950080, Alliance Friendly. Full1050dialogue
     -- and actual four-page Classic5536book read. Question page original;

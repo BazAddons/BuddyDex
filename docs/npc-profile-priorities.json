@@ -2534,6 +2534,13 @@
       "zone": "Ironforge",
       "route": "Ironforge Great Forge mining trainer",
       "reason": "Complete adult Dwarf female/male profile with fifteen queued lines; actual book/quest or profession training distinguished from original private story; no synthesis"
+    },
+    {
+      "npc_id": 13084,
+      "name": "Bixi Wobblebonk",
+      "zone": "Ironforge",
+      "route": "Ironforge Timberline Arms weapon master",
+      "reason": "Complete female Gnome profile, fifteen queued lines, sourced weapon expertise/referrals and original off-duty hobby; no synthesis"
     }
   ]
 }

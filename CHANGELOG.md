@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Bixi Wobblebonk: a complete female Gnome weapon-master profile with fifteen personal lines queued.
+- Preserve her researched training and referrals while adding a distinct off-duty paper-toss story.
+
 - Add Librarian Mae Paledust and Geofram Bouldertoe: complete Dwarf profiles with thirty personal lines queued.
 - Ground Ironforge library and mining companions in the full book-recovery quest, actual Classic book pages, and current training.
 
