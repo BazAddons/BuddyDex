@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Marryk Nurribit and Merrin Rockweaver: two full adult Alliance profiles with thirty personal lines queued.
+- Research the actual Glyphic Memorandum, all three Merrin letter pages and full early/correspondence quest context without importing later storylines.
+
 - Add Creeg Bothunk: a full adult Troll quartermaster profile near Ratchet, with fifteen personal lines queued.
 - Research his28current goods, supply/repair dialogue and Darkspear Raiders context; retain neutral-unit eligibility.
 
@@ -342,4 +345,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **696 fully written NPC profiles**: 454 have initial signature recordings, and two hundred forty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **698 fully written NPC profiles**: 454 have initial signature recordings, and two hundred forty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

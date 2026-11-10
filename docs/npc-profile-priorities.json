@@ -3108,6 +3108,20 @@
       "zone": "The Barrens",
       "route": "Ratchet-area Darkspear Raiders supplies and repairs",
       "reason": "Complete adult Troll male profile with fifteen lines queued; verified stock/dialogue/faction context and original returned-raider story; neutral access subject to live checks; no synthesis"
+    },
+    {
+      "npc_id": 944,
+      "name": "Marryk Nurribit",
+      "zone": "Dun Morogh",
+      "route": "Anvilmar Coldridge Mage trainer",
+      "reason": "Complete adult Alliance profile with fifteen personal lines queued; full early memorandum handoff and original informal welcome; no synthesis"
+    },
+    {
+      "npc_id": 1076,
+      "name": "Merrin Rockweaver",
+      "zone": "Wetlands",
+      "route": "Whelgar excavation correspondence",
+      "reason": "Complete adult Alliance profile with fifteen personal lines queued; full correspondence, actual three-page letter and original hope of homecoming; no synthesis"
     }
   ]
 }

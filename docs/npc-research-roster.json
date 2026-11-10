@@ -3437,5 +3437,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Troll male, Horde Neutral; all28goods, exact installed supply/repair greeting and faction2798context; original returning-raider/strap writing distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/creeg-returning-raiders-and-fimbo-source-gaps.md"
+  },
+  {
+    "npc_id": 944,
+    "name": "Marryk Nurribit",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Gnome man, Alliance Friendly; full179/3114handoff, one-page9573memorandum, six Classic lessons and three installed greetings; original informal welcome distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/anvilmar-greetings-and-merrins-letter.md"
+  },
+  {
+    "npc_id": 1076,
+    "name": "Merrin Rockweaver",
+    "zone": "Wetlands",
+    "source": "Reviewed adult Dwarf woman, Alliance Friendly; full305/306and actual three-page2639letter, direct Classic excavation context; verified husband/rescuer separated from original homecoming hope; no Scout sighting claimed",
+    "research_notes": "docs/research/anvilmar-greetings-and-merrins-letter.md"
   }
 ]

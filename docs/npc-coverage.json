@@ -3,14 +3,14 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 292,
+    "alliance": 294,
     "unverified": 157,
     "horde": 269
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 56,
-    "7": 48,
+    "3": 57,
+    "7": 49,
     "2": 78,
     "5": 72,
     "4": 55,
@@ -27,12 +27,12 @@
     "Stormwind City": 115,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
-    "Dun Morogh": 19,
+    "Dun Morogh": 20,
+    "Wetlands": 3,
     "Ironforge": 53,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 43,
     "Undercity": 14,
-    "Wetlands": 2,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 24,
@@ -862,6 +862,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/931"
     },
     {
+      "npc_id": 944,
+      "name": "Marryk Nurribit",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/944"
+    },
+    {
       "npc_id": 957,
       "name": "Dane Lindgren",
       "zone": "Stormwind City",
@@ -886,6 +899,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1070"
+    },
+    {
+      "npc_id": 1076,
+      "name": "Merrin Rockweaver",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1076"
     },
     {
       "npc_id": 1212,
@@ -8919,6 +8945,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 696,
-  "awaiting_signature_audio_profiles": 242
+  "authored_profiles": 698,
+  "awaiting_signature_audio_profiles": 244
 }

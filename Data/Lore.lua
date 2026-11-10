@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Marryk Nurribit, Anvilmar, Coldridge Valley. Adult Gnome male
+    -- 10216/M2 900914, Alliance Friendly. Full179/3114and one-page
+    -- 9573memorandum read; six Classic lessons/three installed greetings.
+    -- Informal welcome to a solemn visitor is original; memo unsigned.
+    -- Research: docs/research/anvilmar-greetings-and-merrins-letter.md
+    [944] = {
+        quote = "We can begin with a seat. If the memorandum frightened you, leave the difficult words at the door.",
+        likes = { "A friendly visit without formalities", "Enough coin left for the actual spells", "An ale without an accompanying examination" },
+        dislikes = { "A greeting that becomes more paperwork", "Being hurried through a comfortable pause", "Someone treating Gnomeregan as a safe stroll" },
+        gossip = "The memorandum prepares newcomers for rigor. Marryk's welcome is much easier to picture with an ale than a formidable examination.",
+        bio = "Marryk Nurribit trains Gnome mages inside Anvilmar. Sten Stoutarm passes on the Glyphic Memorandum directing pupils to him. His advice mixes avoiding trouble, saving coin for spells or ale, and staying clear of Gnomeregan.",
+        backstory = "A newcomer arrived sounding as solemn as the memorandum. Marryk answered in a much less impressive manner and suggested beginning with a seat. He decided an introduction need not become another difficult piece of language to get past.",
+        secret = "He enjoys the moment a visitor stops expecting every word to be part of an examination. He would rather have comfortable company than be admired for making a greeting difficult.",
+        bestFriend = "Come along. You needn't buy an ale to make the company worth keeping. I am pleased you came back when there was no lesson waiting.",
+        favorite = {
+            emote = "GREET",
+            hint = "He appreciates a plain, friendly beginning before anyone makes the introduction more complicated.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are! Shall we go? You can leave the formidable introduction where you found it. I recognized the greeting without all the extra words.", tone = "[casual] [welcoming]" }, "Ready. A pleasant visit need not begin with rigorous testing. We can save the difficult expression for another occasion." },
+            idle = { { "That memorandum prepares people for a very impressive beginning. Then they meet me. A seat and a less formidable greeting generally improve the arrangement.", tone = "[wry] [easygoing]" }, "Keep some coin for the spells you actually want. An ale is a pleasant thought, but it is not the whole of planning your future.", "Stay clear of Gnomeregan. I can give a short warning without finding a more impressive way to say it." },
+            befriended = { { "You have become someone I am glad to see even when nobody has sent you with a memorandum. Come along, friend. The company is welcome on its own.", tone = "[warm] [relaxed]" } },
+            poke = { "Yes? Say what you came to say. We need not turn the question into a formal introduction before I can hear it.", "I hear you. If the greeting is the whole business, that is a perfectly respectable visit." },
+            quest = { { "Read what it actually asks. A formidable collection of words may still be sending you to someone who would prefer a simple hello.", tone = "[dry] [amused]" } },
+            learned = { "Good. Something useful learned. You need not make your face look as difficult as the explanation sounded." },
+            mail = { "A message. Read it before deciding that the seal has made it more important than the person who sent it." },
+            rest = { "A seat. An excellent beginning to a pause, and considerably less demanding than finding another word for sitting down." },
+            gear = { "Have a look at what you are wearing before spending the last of your coin. There may be a more useful purchase than the most impressive one." },
+            laughAlong = { "There we are. A much more comfortable sound than someone worrying whether the greeting has passed an examination." },
+            thanked = { "You are welcome. I am pleased it helped. You may say so without preparing a formal acknowledgment." },
+        },
+    },
+
+    -- Merrin Rockweaver, Whelgar Excavation, Wetlands. Adult Dwarf
+    -- female1401/M2 950080, Alliance Friendly. Full305/306, all three
+    -- 2639letter pages and294/295/296/299neighbor context read.
+    -- Boots announcing her hoped-for return is original, not a rescue.
+    -- Research: docs/research/anvilmar-greetings-and-merrins-letter.md
+    [1076] = {
+        quote = "A report can carry our situation. I wish it could carry the sound of us coming home.",
+        likes = { "News reaching someone waiting for it", "A survivor remembered before an artifact", "Company that leaves room for fear" },
+        dislikes = { "The lost crew reduced to a number", "A hurried promise of rescue without help", "Assuming a survivor has nothing to fear" },
+        gossip = "Merrin wants word to reach the people waiting for the expedition. A report can explain the danger; it cannot quite sound like a return home.",
+        bio = "Merrin Rockweaver of the Explorers' League shelters at Whelgar's Excavation Site. Ormer Ironbraid saved her and Prospector Whelgar when raptors overwhelmed the dig. She sends a letter to her husband Tarrel explaining their danger.",
+        backstory = "The crew found rare artifacts and large bones before the raptors attacked. Many died. Ormer protected Merrin and Whelgar as they fled to shelter. Trapped above the ruined work, she sets out their situation in a letter and asks that help be sent.",
+        secret = "She imagines returning to Tarrel and setting down her boots loudly enough to announce that no letter is needed. It is a small, stubborn hope she keeps apart from the expedition's reports.",
+        bestFriend = "Sit beside me a while. You need not fill every silence with a promise. I trust your company, and I am glad you stayed.",
+        favorite = {
+            emote = "HUG",
+            hint = "A little uncomplicated reassurance means something when a report cannot quite carry what she wishes to say.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "I am glad to see you. Shall we share a little time? You need not begin by promising to make everything right before I can welcome your company.", tone = "[warm] [weary]" }, "Ready. Tell me how the way has been. I would rather hear the person than only the account of what was found." },
+            idle = { { "I imagine going back to Tarrel and setting down my boots loudly enough that no letter is needed. A very ordinary sound. I have become rather fond of the thought.", tone = "[quiet] [hopeful]" }, "Ormer saved the Prospector and me. It matters that his name remains in the telling, beside the names of those who did not survive.", "The work mattered. So did the people doing it. An inventory of what was lost should not make them sound like another set of missing artifacts." },
+            befriended = { { "You have become a friend I am glad to have beside me without first arranging the right words. Come along. We can share the way and leave room for what is difficult to say.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I hear you. Tell me what you have come to say before deciding whether it sounds important enough.", "You have my attention. A quiet question is welcome. We need not hurry past it to the next piece of news." },
+            mail = { { "See who is waiting for a reply. A message can carry facts and still leave someone listening for a familiar step that has not arrived.", tone = "[tender] [thoughtful]" } },
+            group = { "Make certain everyone is accounted for. A head count should remind us that each of those numbers has a name." },
+            rest = { "A pause. Stay if you wish. We do not have to call it a report, a promise or a useful task to value the company." },
+            comforted = { "Thank you. You need not tell me I ought to be beyond the fear. A little kindness does not require that explanation first." },
+            quest = { "Listen to the person giving the account. What happened to the work may not be the part they most need someone to hear." },
+            combatEnd = { "It is over. Check on everyone. Let us know who is safe before beginning the account of what was won." },
+            loot = { "Examine it carefully. Something old may deserve study, but do not forget the living people who helped bring you to it." },
+        },
+    },
+
     -- Creeg Bothunk, Darkspear Raiders Quartermaster, near Ratchet.
     -- Adult Troll male146070/M2 1022938, Horde Neutral. All28goods,
     -- repair/supply greeting and faction2798read; own quest tabs empty.

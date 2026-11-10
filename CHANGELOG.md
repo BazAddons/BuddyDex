@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Marryk Nurribit and Merrin Rockweaver: two full adult Alliance profiles with thirty personal lines queued.
+- Research the actual Glyphic Memorandum, all three Merrin letter pages and full early/correspondence quest context without importing later storylines.
+
 - Add Creeg Bothunk: a full adult Troll quartermaster profile near Ratchet, with fifteen personal lines queued.
 - Research his28current goods, supply/repair dialogue and Darkspear Raiders context; retain neutral-unit eligibility.
 
