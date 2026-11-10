@@ -3038,5 +3038,19 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult Troll female/male, Horde Friendly, full99123rescue/escort context or6503outrunner dialogue, unrelated later lore excluded; no Scout sighting claimed",
     "research_notes": "docs/research/troll-plans-and-plain-welcomes.md"
+  },
+  {
+    "npc_id": 1267,
+    "name": "Ragnar Thunderbrew",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult Dwarf men, Alliance Friendly, actual distillery family dialogue/full ribs and stolen-lager tasks or Classic mining stock; current tab gaps documented, no Scout sighting claimed",
+    "research_notes": "docs/research/thunderbrew-pride-and-ironquill-walks.md"
+  },
+  {
+    "npc_id": 372,
+    "name": "Karm Ironquill",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult Dwarf men, Alliance Friendly, actual distillery family dialogue/full ribs and stolen-lager tasks or Classic mining stock; current tab gaps documented, no Scout sighting claimed",
+    "research_notes": "docs/research/thunderbrew-pride-and-ironquill-walks.md"
   }
 ]

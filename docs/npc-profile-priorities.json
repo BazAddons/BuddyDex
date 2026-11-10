@@ -2709,6 +2709,20 @@
       "zone": "Ashenvale",
       "route": "Ashenvale Splintertree outer post contact",
       "reason": "Complete female/male Troll profile, fifteen personal lines queued, actual eager learner or defensive report role and distinct original private detail; no synthesis"
+    },
+    {
+      "npc_id": 1267,
+      "name": "Ragnar Thunderbrew",
+      "zone": "Dun Morogh",
+      "route": "Kharanos distillery early route and later recipe request",
+      "reason": "Complete Dwarf male profile, fifteen personal lines queued, sourced family/trade role with distinct original verse or loch-walk character writing; no synthesis"
+    },
+    {
+      "npc_id": 372,
+      "name": "Karm Ironquill",
+      "zone": "Loch Modan",
+      "route": "Thelsamar mining supplier on early Loch Modan route",
+      "reason": "Complete Dwarf male profile, fifteen personal lines queued, sourced family/trade role with distinct original verse or loch-walk character writing; no synthesis"
     }
   ]
 }

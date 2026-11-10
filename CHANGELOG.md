@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ragnar Thunderbrew and Karm Ironquill: two complete Dwarf profiles with thirty personal lines queued.
+- Expand Kharanos and Thelsamar coverage using the full distillery/family recipe story and established mining-supplier identity.
+
 - Add Pal'juh and Kuray'bin: two complete Troll profiles with thirty personal lines queued.
 - Expand female and male Troll coverage in Durotar and Ashenvale using their full rescue and outrunner quest dialogue.
 

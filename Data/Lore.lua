@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ragnar Thunderbrew, Kharanos, Dun Morogh. Adult Dwarf male
+    -- 1684/M2 878772, Alliance Friendly. Full384and4128->4126
+    -- current/Classic/installed dialogue; Arkilus father/Grimbooze
+    -- older brother per installed gossip, not later Brewfest retcon.
+    -- Unfinished Kharanos rhyme is original, not actual recipe/song text.
+    -- Research: docs/research/thunderbrew-pride-and-ironquill-walks.md
+    [1267] = {
+        quote = "Ribs will rhyme. Kharanos has been considerably less helpful.",
+        likes = { "A family recipe put to good use", "A dish praised by an empty plate", "A rhyme that arrives without a struggle" },
+        dislikes = { "Hurley taking what the family made", "A stolen recipe passed off as earned", "Food going cold while someone performs" },
+        gossip = "Ragnar can praise a meal in verse. His grand tribute to Kharanos has stalled just short of the part where the town should rhyme.",
+        bio = "Ragnar Thunderbrew runs the Thunderbrew Distillery in Kharanos. His boar ribs rely on malt and a family recipe. He is fiercely protective of the family's lager too, demanding its stolen recipe back from Hurley Blackbreath.",
+        backstory = "He names Arkilus Thunderbrew as his father and the distillery's founder. By his account, he has kept the place running since his older brother Grimbooze disappeared in a drunken haze a few harvests ago. The family work remains his concern.",
+        secret = "He has a splendid verse praising Kharanos, right up to the troublesome ending. He likes the town too much to leave it out simply because its name refuses to cooperate.",
+        bestFriend = "Sit with me. You may tell me honestly whether the verse needs work. A friend deserves more than an audience's duty to applaud.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He appreciates someone noticing the care and family pride behind a meal or a brew.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Friend! Ready for an outing. I have left the unfinished tribute to Kharanos unfinished. The town will understand.", tone = "[hearty] [welcoming]" }, "Good to see you. Come along before I decide the verse needs another beginning." },
+            idle = { { "I praised the hills, the welcome, the fine company. Then I reached Kharanos and the rhyme abandoned me.", tone = "[boisterous] [amused]" }, "A family recipe is somebody's work, passed on with care. Stealing the paper does not earn the thief that work.", "A good dish can receive its praise from an empty plate. It need not wait for the poet to improve." },
+            befriended = { { "You have heard the pride, the complaints, and the unfinished verse, and you still came for my company. Come along, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering a magnificent ending that regrettably does not rhyme with the town.", "I hear you. The middle of the verse is quite settled, if you were wondering." },
+            quest = { { "Know what you are bringing back and whom it belongs to. A family's work is more than a convenient prize for whoever takes it.", tone = "[firm] [earnest]" } },
+            loot = { "Look carefully at what it is before deciding what it is worth. A little paper can carry a great deal of someone's work." },
+            rest = { "A pause. If there is a meal to enjoy, let us begin before I compose its entire tribute." },
+            learned = { "Give it a proper try. A fine description ought to have something good behind it." },
+            group = { "Good company deserves its share of the credit. I can remember that even when I am very pleased with the result." },
+            zone = { "New ground to appreciate. I shall hear how the place is named before promising anyone a verse." },
+            thanked = { "You are welcome. I am pleased the care was noticed; that is a compliment worth hearing." },
+        },
+    },
+
+    -- Karm Ironquill <Mining Supplies>, Thelsamar, Loch Modan. Adult
+    -- Dwarf male8089/M2 878772, Alliance Friendly. Four Classic mining
+    -- goods; current own tabs0/no installed gossip, no removal inferred.
+    -- A walk to enjoy the loch without an errand is original writing.
+    -- Research: docs/research/thunderbrew-pride-and-ironquill-walks.md
+    [372] = {
+        quote = "I can tell you the practical way through town. Today I might like the pleasant one.",
+        likes = { "A tool suited to the work", "A walk with time to look at the loch", "A friend with no errand to hurry toward" },
+        dislikes = { "A useful tool ruined by carelessness", "Every pause turned into another job", "A question dismissed before it is heard" },
+        gossip = "Karm knows how easily a walk can become another errand. He has begun taking an interest in coming back with nothing to report but a pleasant view.",
+        bio = "Karm Ironquill is a mining supplier in Thelsamar, Loch Modan. Mining picks, flux, and coal are the practical necessities associated with his trade. He is accustomed to thinking about what someone will need before they set off to work.",
+        backstory = "Asked what he liked to see nearby, he began describing the quickest route between errands. That was not quite the question. He took a short walk simply to look at the loch and discovered how easily he had made every familiar path into work.",
+        secret = "He sometimes feels he ought to bring something useful back from the walk. Then he remembers that seeing the loch was the point. He is getting better at accepting that answer.",
+        bestFriend = "Walk with me a little. We need not find an errand to make the company worthwhile.",
+        favorite = {
+            emote = "WAVE",
+            hint = "He enjoys a friendly greeting that gives a familiar route a reason to become a visit.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you. Shall we take a little time to look around before deciding what needs doing?", tone = "[warm] [unhurried]" }, "Ready. I am trying an outing that does not have to return with a completed errand." },
+            idle = { { "I began giving the quickest route between jobs. The question was what I liked to see. It deserved a different answer.", tone = "[reflective] [wry]" }, "The loch was worth looking at. I need not bring back a useful object to prove the walk was worthwhile.", "A tool chosen for the work is a sensible preparation. So is knowing when the work can wait." },
+            befriended = { { "You made time for the walk without finding me another errand along it. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was remembering to look around without immediately asking what ought to be done.", "I heard you. A conversation can be a perfectly good reason to stop." },
+            zone = { { "New surroundings. Let us notice something worth seeing before deciding the quickest way past it.", tone = "[curious] [gentle]" } },
+            rest = { "A pause. I shall try not to fill it with a list of things we could finish instead." },
+            gear = { "Will it suit the work? A useful question to ask before being impressed by the name." },
+            bagsFull = { "Make room for what you need. There is no requirement to bring home everything the road offers." },
+            quest = { "Check what is actually asked for. A sensible beginning may spare an unnecessary journey." },
+            loot = { "Keep it if you have a use for it. Enjoying the walk need not depend on what fits in the bag afterward." },
+            thanked = { "You are welcome. I have enjoyed the company as well as being useful." },
+        },
+    },
+
     -- Paljuh <Shadow Hunter Trainee>, southern Durotar. Adult Troll
     -- female148391/M2 1018060, Horde Friendly. Full99123offer,
     -- Vornal completion and published escort speech reviewed.

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Ragnar Thunderbrew and Karm Ironquill: two complete Dwarf profiles with thirty personal lines queued.
+- Expand Kharanos and Thelsamar coverage using the full distillery/family recipe story and established mining-supplier identity.
+
 - Add Pal'juh and Kuray'bin: two complete Troll profiles with thirty personal lines queued.
 - Expand female and male Troll coverage in Durotar and Ashenvale using their full rescue and outrunner quest dialogue.
 
@@ -252,4 +255,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **639 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **641 fully written NPC profiles**: 454 have initial signature recordings, and one hundred eighty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
