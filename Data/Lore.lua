@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Barkeep Morag, Orgrimmar. Adult Orc male3606/M2 917116.
+    -- Horde Friendly vendor,17 current foods/drinks, no own quests/gossip.
+    -- Counter rhythm and shared last beat are original BuddyDex writing.
+    -- Research: docs/research/morags-last-beat-and-sylvannas-colors.md
+    [5611] = {
+        quote = "You can tell the story after you have eaten. It may even improve while you chew.",
+        likes = { "A hungry traveler getting a proper meal", "A good rhythm passed around the room", "A tale with room for another voice" },
+        dislikes = { "A meal neglected for a boast", "Pounding that sends cups sliding", "Mistaking louder for better" },
+        gossip = "Morag tapped a rhythm on his counter, then stopped. Three patrons finished it together. He looked pleased enough to try again.",
+        bio = "Barkeep Morag sells meat and drinks in Orgrimmar. His counter offers everything from simple jerky and water to quail and imported bottles. A grand tale can wait until the traveler telling it has had a meal.",
+        backstory = "One evening he tapped a little rhythm while tending the counter. A patron joined in, then another. When he stopped, they supplied the missing beat together. He found that more satisfying than finishing it himself.",
+        secret = "He sometimes leaves that last beat for the room on purpose. He likes hearing strangers find one small thing they can do together before returning to their separate stories.",
+        bestFriend = "Come along. You take the last beat. I have supplied enough of them; I would like to hear what you put there.",
+        favorite = {
+            emote = "CLAP",
+            hint = "He enjoys a good rhythm when another person finds the place to join it.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. You have eaten, I hope. I prefer hearing a tale to hearing a stomach argue with it.", tone = "[hearty] [welcoming]" }, "Good company. Walk with me. You can supply the next part of the story." },
+            idle = { { "I stopped tapping and three of them supplied the last beat together. Now that was worth hearing. Nobody had to win the whole room.", tone = "[amused] [pleased]" }, "A boast can wait while you chew. If it is a good one, it will survive a mouthful of food.", "There is a difference between a good strong rhythm and hitting the counter until the cups run away." },
+            befriended = { { "Come along, friend. I have heard you through a tale or two. Now I would like to hear what happens between them.", tone = "[warm] [easygoing]" } },
+            poke = { "What is it? I heard you the first time.", "Go on. You have the next beat." },
+            rest = { { "A good time to eat. Save your finest speech until you are no longer competing with your own hunger.", tone = "[practical] [fond]" } },
+            loot = { "Take a look through it before you sit down. I would rather not hear that you rested your supper on something sharp." },
+            group = { "Leave a little room for someone else to speak. A table full of people should have more than one voice." },
+            cheerAlong = { "That deserves a good loud cheer. There, now let them hear the next person too." },
+            newFriend = { "Someone new. Make room. They may have a better ending to that story than we do." },
+            thanked = { "You are welcome. Good to hear that it helped." },
+            bagsFull = { "A full bag and an empty stomach are two different problems. Set yourself right before you try to solve both at once." },
+        },
+    },
+
+    -- Sylvanna Forestmoon, Darnassus. Adult Night Elf female10574/
+    -- M2 921844, Alliance Friendly Expert Alchemist. Four own gossip lines:
+    -- precision/patience, Ainethil referral, Milla referral, renewed wonder.
+    -- Soap bubble and purposeless delight scene are original.
+    -- Research: docs/research/morags-last-beat-and-sylvannas-colors.md
+    [11042] = {
+        quote = "Care and wonder belong together. Measure precisely, and still allow yourself to be delighted.",
+        likes = { "Small changes noticed carefully", "A beginner's unguarded delight", "A colleague ready to teach her more" },
+        dislikes = { "Pride that conceals a limit", "An ingredient changed without thought", "Enthusiasm dismissed as childish" },
+        gossip = "Sylvanna once watched an ordinary soap bubble for so long that someone asked what it contained. She said that was hardly the point.",
+        bio = "Sylvanna Forestmoon is an alchemy teacher in Darnassus. She stresses patience and precise ingredients, welcomes questions and knows when to send a pupil to Ainethil. Another's new enthusiasm can renew her own.",
+        backstory = "A visitor blew a few soap bubbles outside the workroom. Sylvanna stopped to watch the shifting colors on one. Asked whether she had noticed a useful reaction, she said she had simply noticed something lovely.",
+        secret = "A little soap and water can still hold her attention without becoming a lesson. She treasures the freedom to enjoy a thing before asking what it might be useful for.",
+        bestFriend = "Stay a moment. There is no demonstration today. We can enjoy something lovely without having to explain it first.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She welcomes the simple delight that needs no lesson or explanation.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me what has caught your interest, whether or not you know its use yet.", tone = "[serene] [curious]" }, "Welcome, my friend. A little time away from the work will do us both good." },
+            idle = { { "It was only soap and water. I was asked what the bubble contained. For once I preferred watching the colors to finding a better answer.", tone = "[lightly amused] [wondering]" }, "A small change in an ingredient deserves your attention. Wonder is welcome; carelessness need not accompany it.", "You can learn much over the years and still be glad to meet something you have never noticed before." },
+            befriended = { { "Your company reminds me that there are pleasures which need no further purpose. Come along. I should like to share a few of them.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? What has caught your attention?", "I am listening. Take your time with the question." },
+            learned = { { "Well done. Keep the delight of that discovery, and take equal care with what you do next.", tone = "[encouraging] [precise]" } },
+            loot = { "Look closely before deciding what it might be for. Observation can be a pleasure in itself." },
+            rest = { "We may leave the work alone for a little while. Rest does not have to become another task." },
+            newFriend = { "A new acquaintance. Let them tell you what interests them before deciding what they ought to know." },
+            thanked = { "You are very welcome. It is a pleasure to have something worth sharing." },
+            quest = { "Understand what is being asked. If a detail is uncertain, a careful question may save much effort later." },
+            zone = { "Let us look around before we hurry through. There may be something lovely here that has no use at all." },
+        },
+    },
+
     -- Shylamiir, the Park/Stormwind. Adult Night Elf female
     -- 3296/M2 921844, Alliance Friendly. Full92456 incl primary
     -- progress/completion read; impatient teacher, intrigued by fel bloom.

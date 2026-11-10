@@ -3829,5 +3829,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde woman; Full1164 preserves vengeance and accusation provenance; original plain terms and private boundaries; no Scout sighting claimed",
     "research_notes": "docs/research/shylamiirs-sample-and-genavies-terms.md"
+  },
+  {
+    "npc_id": 5611,
+    "name": "Barkeep Morag",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Seventeen current goods and exact adult vendor; original shared counter rhythm; no Scout sighting claimed",
+    "research_notes": "docs/research/morags-last-beat-and-sylvannas-colors.md"
+  },
+  {
+    "npc_id": 11042,
+    "name": "Sylvanna Forestmoon",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Four own greetings preserve precision humility and renewed wonder; original soap-bubble scene; no Scout sighting claimed",
+    "research_notes": "docs/research/morags-last-beat-and-sylvannas-colors.md"
   }
 ]

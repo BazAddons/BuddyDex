@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 322,
+    "alliance": 323,
     "unverified": 159,
-    "horde": 303
+    "horde": 304
   },
   "npc_race_counts": {
     "1": 167,
     "3": 62,
     "7": 56,
-    "2": 80,
+    "2": 81,
     "5": 81,
-    "4": 62,
+    "4": 63,
     "8": 59,
     "9": 50,
     "6": 83,
@@ -38,7 +38,7 @@
     "Teldrassil": 26,
     "Hillsbrad Foothills": 9,
     "Arathi Highlands": 11,
-    "Orgrimmar": 49,
+    "Orgrimmar": 50,
     "Badlands": 1,
     "Darkshore": 10,
     "Mulgore": 22,
@@ -46,7 +46,7 @@
     "Durotar": 51,
     "The Barrens": 37,
     "Stonetalon Mountains": 11,
-    "Darnassus": 12,
+    "Darnassus": 13,
     "Burning Steppes": 1,
     "Ashenvale": 12,
     "Thousand Needles": 11,
@@ -6043,6 +6043,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5610"
     },
     {
+      "npc_id": 5611,
+      "name": "Barkeep Morag",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5611"
+    },
+    {
       "npc_id": 5612,
       "name": "Gimrizz Shadowcog",
       "zone": "Dun Morogh",
@@ -7648,6 +7661,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11041"
+    },
+    {
+      "npc_id": 11042,
+      "name": "Sylvanna Forestmoon",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11042"
     },
     {
       "npc_id": 11065,
@@ -9654,6 +9680,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 752,
-  "awaiting_signature_audio_profiles": 298
+  "authored_profiles": 754,
+  "awaiting_signature_audio_profiles": 300
 }

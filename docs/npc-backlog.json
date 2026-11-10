@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 752,
-  "written_complete_count": 752,
-  "awaiting_signature_audio_count": 298,
+  "authored_count": 754,
+  "written_complete_count": 754,
+  "awaiting_signature_audio_count": 300,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 300,
+  "remaining_count": 302,
   "completed": [
     {
       "npc_id": 54,
@@ -4876,6 +4876,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 5611,
+      "name": "Barkeep Morag",
+      "zone": "Orgrimmar",
+      "source": "Reviewed adult horde man; Seventeen current goods and exact adult vendor; original shared counter rhythm; no Scout sighting claimed",
+      "research_notes": "docs/research/morags-last-beat-and-sylvannas-colors.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 5612,
       "name": "Gimrizz Shadowcog",
       "zone": "Dun Morogh",
@@ -6195,6 +6207,18 @@
       "zone": "Darnassus",
       "source": "Reviewed adult Alliance Night Elf woman; Own welcoming/forest-bounty/referral greetings and historical lessons; original memorable-fragrance wordplay; no Scout sighting claimed",
       "research_notes": "docs/research/millas-description-and-elus-homeward-view.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 11042,
+      "name": "Sylvanna Forestmoon",
+      "zone": "Darnassus",
+      "source": "Reviewed adult alliance woman; Four own greetings preserve precision humility and renewed wonder; original soap-bubble scene; no Scout sighting claimed",
+      "research_notes": "docs/research/morags-last-beat-and-sylvannas-colors.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

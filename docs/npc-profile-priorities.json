@@ -3500,6 +3500,20 @@
       "zone": "Undercity",
       "route": "Undercity named quest contact",
       "reason": "Full1164 preserves vengeance and accusation provenance; original plain terms and private boundaries; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5611,
+      "name": "Barkeep Morag",
+      "zone": "Orgrimmar",
+      "route": "Valley of Strength food and drink",
+      "reason": "Seventeen current goods and exact adult vendor; original shared counter rhythm; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11042,
+      "name": "Sylvanna Forestmoon",
+      "zone": "Darnassus",
+      "route": "Craftsmens Terrace alchemy teacher",
+      "reason": "Four own greetings preserve precision humility and renewed wonder; original soap-bubble scene; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Barkeep Morag and Sylvanna Forestmoon: adult Horde Orc and Alliance Night Elf profiles, with thirty personal lines queued.
+- Ground shared-rhythm and simple-wonder stories in current goods and the alchemist's own teaching dialogue.
+
 - Add Shylamiir and Genavie Callow: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
 - Review complete sample and vengeance quest text; preserve established characterization and document original friendship writing.
 
