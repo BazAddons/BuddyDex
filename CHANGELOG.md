@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add full Frang, Ken'jai, Magga and Huklah profiles from Scout's Valley of Trials/Den observations, with fifteen personal lines each and approved Orc/Troll voices assigned for later recording.
+- Preserve Magga's historical gift-voucher context without promising current rewards, and ground Ken'jai's profile in his Darkspear teaching and Tai'jin referral.
+
 - Add full Canaga Earthcaller and Shikrik profiles from Scout-observed Durotar identities, fifteen lines each; approved Troll male/Orc female voices assigned, with recordings deferred until billing confirmation.
 
 - Add full Karn Stonehoof and Nara Wildmane profiles (Thunder Bluff), fifteen personal lines each; approved Tauren voices assigned and all thirty recordings queued until the user confirms billing is fixed.

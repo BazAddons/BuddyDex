@@ -1771,5 +1771,33 @@
     "zone": "Durotar",
     "source": "Actual installed Scout Horde/reaction5 Valley of Trials sighting; current adult model and full Classic/installed texts reviewed; no public reaction inferred",
     "research_notes": "docs/research/canaga-earthcaller-and-shikrik.md"
+  },
+  {
+    "npc_id": 3153,
+    "name": "Frang",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 named adult in Valley of Trials/The Den; current adult model, all own tabs and Classic/installed texts individually reviewed; no public reaction inferred",
+    "research_notes": "docs/research/valley-trials-trainers-and-merchants.md"
+  },
+  {
+    "npc_id": 3707,
+    "name": "Ken'jai",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 named adult in Valley of Trials/The Den; current adult model, all own tabs and Classic/installed texts individually reviewed; no public reaction inferred",
+    "research_notes": "docs/research/valley-trials-trainers-and-merchants.md"
+  },
+  {
+    "npc_id": 11943,
+    "name": "Magga",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 named adult in Valley of Trials/The Den; current adult model, all own tabs and Classic/installed texts individually reviewed; no public reaction inferred",
+    "research_notes": "docs/research/valley-trials-trainers-and-merchants.md"
+  },
+  {
+    "npc_id": 3160,
+    "name": "Huklah",
+    "zone": "Durotar",
+    "source": "Actual installed Scout Horde/reaction5 named adult in Valley of Trials/The Den; current adult model, all own tabs and Classic/installed texts individually reviewed; no public reaction inferred",
+    "research_notes": "docs/research/valley-trials-trainers-and-merchants.md"
   }
 ]

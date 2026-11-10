@@ -41,6 +41,145 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Frang <Warrior Trainer>, Valley of Trials, Durotar. NPC3153/display1880:
+    -- adult male Orc, actual Scout Horde/reaction5. Classic2383/3065 and
+    -- installed dialogue introduce Orc/Troll warriors; no retail/SoD quests.
+    -- Thumb-wrestling competition is original, not a playable minigame.
+    -- docs/research/valley-trials-trainers-and-merchants.md.
+    [3153] = {
+        recordingVoice = "orc-male",
+        quote = "Stand properly. Speak clearly. And if you want a rematch, say so before I get comfortable.",
+        likes = { "A student who gets up again", "Good footing", "A contest decided by a narrow margin" },
+        dislikes = { "Wasting a training session", "A weapon too heavy to control", "Someone forgetting who won" },
+        gossip = "Frang takes competition seriously. A visitor discovered that this includes thumb wrestling. Apparently there were several rematches.",
+        bio = "Frang trains warriors in Durotar's Valley of Trials. New Orc and Troll recruits find him near the Den, where he expects their attention and sends them back to practice. His impatience does not prevent him from welcoming another willing fighter.",
+        backstory = "An idle moment became a thumb-wrestling match. Frang discovered that a steady grip could matter more than a fearsome expression. He has since found reasons to revisit this small but important question of technique.",
+        secret = "He remembers every close match. The results are less interesting to him than finding someone who will sit down, grin at him and try again.",
+        bestFriend = "Sit. Elbow here. No weapons, no spectators, and this time we agree beforehand how many victories count as winning.",
+        favorite = { emote = "FLEX", hint = "A little confidence is welcome, provided you can back it up." },
+        lines = {
+            greet = { { "You again. Good. I have time for a walk, provided you have somewhere worth walking to.", tone = "[gruff] [pleased]" },
+                "Ready? Then let us stop discussing being ready." },
+            idle = { { "A rematch? I did not say I wanted one. I said the last result left a question of technique unsettled.", tone = "[competitive] [dryly amused]" },
+                "Your feet. Look where you have put them.",
+                "A little practice today saves a great deal of regret tomorrow." },
+            befriended = { { "You keep showing up. I respect that. There is more to you than the next lesson, and I would not mind finding out what it is.", tone = "[gruff] [sincere]" } },
+            poke = { "That finger is volunteering for a contest.", "You have my attention. Do something with it." },
+            learned = { { "Better. Remember how that felt, then do it again until you need no reminder.", tone = "[firm] [approving]" } },
+            gear = { "Can you move in it? Good. That matters." },
+            combatEnd = { "Still standing. Now check who else is." },
+            quest = { "Finished properly? Then you have earned a moment to breathe." },
+            levelUp = { "Stronger. Now make certain your judgment keeps up." },
+            rest = { "Sit down. I said practice, not grind yourself into the dirt." },
+            zone = { "Keep your eyes open. Familiar mistakes happen on unfamiliar ground." },
+        },
+    },
+
+    -- Ken'jai <Priest Trainer>, Valley of Trials, Durotar. NPC3707/display4068:
+    -- adult male Troll, actual Scout Horde/reaction5. Current3085/5649/5648;
+    -- Classic5657 referral. Preserve Troll traditions within Horde alliance.
+    -- Tai'jin's Kor'ja healing test is not Ken'jai's personal combat history.
+    -- Cord-knot pastime is original, not a tribal rite or divination.
+    -- docs/research/valley-trials-trainers-and-merchants.md.
+    [3707] = {
+        recordingVoice = "troll-male",
+        quote = "Respect our ways and we shall get along. Leave this knot alone, though. I am enjoying the argument.",
+        likes = { "Respect offered without being demanded", "Remembering where a lesson began", "A knot that comes loose cleanly" },
+        dislikes = { "Treating old traditions as curiosities", "Power without understanding", "Cutting a cord he was untangling" },
+        gossip = "Ken'jai can spend a quiet moment working a knot loose. Someone offered him a knife. The offer was not appreciated.",
+        bio = "Ken'jai teaches priests in the Valley of Trials. He values what the Darkspear gain from the Horde without abandoning their own ways. He sends learners to Tai'jin in Razor Hill to understand their people's history more deeply.",
+        backstory = "A cord tangled in Ken'jai's pack while a difficult question occupied him. He worked the loops loose as he thought. The answer took longer than the knot, but he found he liked having something harmless to puzzle through with his hands.",
+        secret = "He sometimes ties a perfectly good cord into a troublesome knot on purpose. It has no sacred meaning. He simply likes the moment when the last loop gives way.",
+        bestFriend = "Sit beside me. You can tell me what is troubling you while I finish this. We need not cut through either thing in a hurry.",
+        favorite = { emote = "BOW", hint = "Approaching another people's traditions with respect is a good beginning." },
+        lines = {
+            greet = { { "Welcome back. Come, tell me what has occupied your thoughts since we last spoke.", tone = "[measured] [warmly]" },
+                "A little company? That is a good enough reason to visit." },
+            idle = { { "No, there is no omen in this knot. I made it myself. I would like to see whether I can persuade it to come apart again.", tone = "[dryly amused] [unhurried]" },
+                "Joining our allies need not mean forgetting who we are.",
+                "A teaching deserves more than a hurried glance from a passing stranger." },
+            befriended = { { "You listen with respect, and you return without always asking for something. I notice such things. You are welcome at my side, my friend.", tone = "[sincere] [warmly]" } },
+            poke = { "Mind the cord. I am nearly through.", "You may ask before resorting to that." },
+            learned = { { "Good. Keep the meaning with the words. An empty repetition will take you only so far.", tone = "[firm] [thoughtful]" } },
+            quest = { "What did you learn from the one who sent you? Tell me that part, too." },
+            combatEnd = { "Enough. Who is still in need of help?" },
+            rest = { "Sit. A quiet moment may leave room for a better question." },
+            zone = { "New ground, other customs. Let us look before judging." },
+            levelUp = { "More strength. Remember what you meant to use it for." },
+            died = { "My friend... may the spirits receive you gently." },
+        },
+    },
+
+    -- Magga, Valley of Trials, Durotar. NPC11943/display11901, adult female
+    -- Orc, actual Scout Horde/reaction5. Historical5843 is a Collector's
+    -- Edition companion-voucher welcome, NOT a confirmed current gift service.
+    -- Later Razor Hill/Escalation history excluded. Remembering companions'
+    -- names and her little imaginary parade are original BuddyDex fiction.
+    -- docs/research/valley-trials-trainers-and-merchants.md.
+    [11943] = {
+        recordingVoice = "orc-female",
+        quote = "Tell me your name before the grand title. And who is that following you? I should learn their name, too.",
+        likes = { "A newcomer finding some company", "Learning a companion's name", "A departure that includes a goodbye" },
+        dislikes = { "Speaking over a nervous greeting", "Being remembered only for a gift", "Leaving the smallest one behind" },
+        gossip = "Magga remembers travelers warmly. She may remember the name of whatever followed them into camp even sooner.",
+        bio = "Magga is a welcoming face in Durotar's Valley of Trials. Among the talk of proving strength and leaving for greater things, she makes room for a simple introduction. A newcomer can be worth knowing before anyone calls them a hero.",
+        backstory = "After a traveler introduced a little companion, Magga found herself remembering both names whenever someone new arrived. Imagining all those unlikely traveling parties together became a pleasant way to spend a quiet moment.",
+        secret = "She imagines a grand parade of everyone's companions. There is no sensible marching order. She suspects the smallest would take charge almost immediately.",
+        bestFriend = "No grand entrance needed. I am glad it is you. Stay a moment and tell me who has been keeping you company.",
+        favorite = { emote = "WELCOME", hint = "Someone who makes room for others appreciates being included, too." },
+        lines = {
+            greet = { { "There you are! No speeches today. I would just like to hear how you have been.", tone = "[gravelly] [brightly welcoming]" },
+                "A familiar face. That makes a very good beginning." },
+            idle = { { "Imagine everyone's companions in one procession. No, I have not decided who leads. I doubt any of us would get a say.", tone = "[gravelly] [playfully]" },
+                "A great title tells me less than a friendly introduction.",
+                "You need not have an exciting story to be worth listening to." },
+            befriended = { { "You remembered to come back and see me. That means more than a fine introduction. I would be happy to go a little farther with you, my friend.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes, I noticed you!", "A tap is enough. I am not a sealed parcel." },
+            quest = { { "Another task behind you. Tell me about someone you met along the way.", tone = "[gravelly] [curious]" } },
+            levelUp = { "Look at you! I hope there is still room for an old hello." },
+            zone = { "Somewhere new. Let us make a good first impression." },
+            mount = { "Check behind you before setting off. Has everyone caught up?" },
+            rest = { "There. We can visit without walking at the same time." },
+            combatEnd = { "Is everyone here? Take a moment and make certain." },
+            hearth = { "Home again. I hope someone there is pleased to see you." },
+        },
+    },
+
+    -- Huklah <Cloth & Leather Armor Merchant>, The Den, Durotar.
+    -- NPC3160/display1881: adult male Orc, actual Scout Horde/reaction5.
+    -- Current stock:12Dirty Leather/Tattered Cloth armor pieces. No personal
+    -- quest or crafting/repair service established. His untidy travel pack
+    -- despite meticulous shop folds is original, not an inventory feature.
+    -- docs/research/valley-trials-trainers-and-merchants.md.
+    [3160] = {
+        recordingVoice = "orc-male",
+        quote = "Try moving your arms before deciding it fits. Looking impressive is a poor defense against a split seam.",
+        likes = { "Armor suited to its wearer", "A stack with straight edges", "Someone checking the fit first" },
+        dislikes = { "Mistaking a high price for a good fit", "Unfolding everything at once", "Questions about his own packing" },
+        gossip = "Huklah can fold a stack of clothing with remarkable care. Ask how he packs for a journey and he changes the subject.",
+        bio = "Huklah sells cloth and leather armor in the Den, in Durotar's Valley of Trials. His stock covers the practical needs of new travelers. He would rather see someone able to move comfortably than watch them struggle inside an impressive mistake.",
+        backstory = "Straightening a stack between customers became a satisfying part of Huklah's day. A neat fold made everything easier to see. He expected the habit to follow him when packing for a journey. It has not quite managed the trip.",
+        secret = "His own travel clothes end up in a bundle with the belt wrapped around it. He says the arrangement is temporary. It has survived several opportunities to improve.",
+        bestFriend = "If we stop somewhere, remind me to repack this properly. Or sit beside me while I explain why it can wait until morning.",
+        favorite = { emote = "NOD", hint = "A little acknowledgment after good practical advice is welcome." },
+        lines = {
+            greet = { { "A walk? Good. Give me a moment to finish this fold. There. Now I can leave it alone.", tone = "[gruff] [warmly]" },
+                "Ready when you are. And yes, I checked that these boots fit." },
+            idle = { { "My travel bundle? Entirely different from a shop display. Different requirements. We need not inspect it too closely.", tone = "[defensive] [dryly amused]" },
+                "A crease is not a wound. You may sit down.",
+                "Comfortable? Good. Nobody enjoys an adventure spent adjusting a belt." },
+            befriended = { { "You stayed to talk after the business was done. I appreciated that. Let us see what there is to discuss beyond the shop.", tone = "[gruff] [sincere]" } },
+            poke = { "Mind the fold.", "I am here. You need not test the padding." },
+            gear = { { "Lift your arms. Turn a little. If it pinches now, it will not improve halfway down the road.", tone = "[practical] [patient]" } },
+            loot = { "Useful, perhaps. See whether it fits before getting attached." },
+            bagsFull = { "You might gain some room by folding. I am willing to discuss the theory." },
+            mail = { "A parcel? I hope whoever packed it left the corners straight." },
+            quest = { "Finished, and your clothes mostly intact. A decent outcome." },
+            rest = { "Sit comfortably. That is what we took the trouble over the fit for." },
+            zone = { "Different weather. I hope you packed something suitable." },
+        },
+    },
+
     -- Canaga Earthcaller, Valley of Trials, Durotar. NPC5887/display4532:
     -- standard adult male Troll. Installed Scout: Horde, reaction5, normal.
     -- Classic1516-1518/1463 and installed text: earth's patience, sapta at

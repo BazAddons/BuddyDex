@@ -1442,6 +1442,34 @@
       "zone": "Durotar",
       "route": "Scout-observed male Troll and female Orc Valley of Trials beginner coverage",
       "reason": "Actual named adult Horde-friendly Scout identity reviewed; full Classic/installed class quest text; approved voice and complete written profile, audio deferred"
+    },
+    {
+      "npc_id": 3153,
+      "name": "Frang",
+      "zone": "Durotar",
+      "route": "Scout Valley of Trials class training, cloth/leather service and named wanderer coverage",
+      "reason": "Reviewed full named adult identity, current/Classic sources and observed Horde-friendly access; complete written profile/approved voice; no synthesis before user billing confirmation"
+    },
+    {
+      "npc_id": 3707,
+      "name": "Ken'jai",
+      "zone": "Durotar",
+      "route": "Scout Valley of Trials class training, cloth/leather service and named wanderer coverage",
+      "reason": "Reviewed full named adult identity, current/Classic sources and observed Horde-friendly access; complete written profile/approved voice; no synthesis before user billing confirmation"
+    },
+    {
+      "npc_id": 11943,
+      "name": "Magga",
+      "zone": "Durotar",
+      "route": "Scout Valley of Trials class training, cloth/leather service and named wanderer coverage",
+      "reason": "Reviewed full named adult identity, current/Classic sources and observed Horde-friendly access; complete written profile/approved voice; no synthesis before user billing confirmation"
+    },
+    {
+      "npc_id": 3160,
+      "name": "Huklah",
+      "zone": "Durotar",
+      "route": "Scout Valley of Trials class training, cloth/leather service and named wanderer coverage",
+      "reason": "Reviewed full named adult identity, current/Classic sources and observed Horde-friendly access; complete written profile/approved voice; no synthesis before user billing confirmation"
     }
   ]
 }
