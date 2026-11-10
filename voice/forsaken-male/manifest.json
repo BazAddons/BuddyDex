@@ -1038,5 +1038,125 @@
     "spoken": "[dry] [raspy] [gently amused] A letter can contain an ordinary message. An appointment, a request, a few words from someone pleased to hear from you. You may open it without assuming an elaborate plot. If it does turn out to contain one, at least find the actual request before admiring the dramatic introduction.",
     "text": "A letter can contain an ordinary message. An appointment, a request, a few words from someone pleased to hear from you. You may open it without assuming an elaborate plot. If it does turn out to contain one, at least find the actual request before admiring the dramatic introduction.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": "Lead the way.",
+    "source": "npc",
+    "spoken": "[excited] Lead the way.",
+    "text": "Lead the way, {name}.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_10.ogg": {
+    "line": 10,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] Right behind you. Where to first?",
+    "text": "Right behind you. Where to first?",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_11.ogg": {
+    "line": 11,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] I packed a lunch. Just in case.",
+    "text": "I packed a lunch. Just in case.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_12.ogg": {
+    "line": 12,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Off on an adventure! Don't tell my boss.",
+    "text": "Off on an adventure! Don't tell my boss.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_2.ogg": {
+    "line": 2,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": "Glad to come along!",
+    "source": "npc",
+    "spoken": "[cheerfully] Glad to come along!",
+    "text": "Glad to come along, {name}!",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_3.ogg": {
+    "line": 3,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Where are we off to today?",
+    "text": "Where are we off to today?",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_4.ogg": {
+    "line": 4,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[excited] I told the others I'd be out for a while. Let's make it count.",
+    "text": "I told the others I'd be out for a while. Let's make it count.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_5.ogg": {
+    "line": 5,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] It's good to get away from the counter for once.",
+    "text": "It's good to get away from the counter for once.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_6.ogg": {
+    "line": 6,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": "Ready when you are.",
+    "source": "npc",
+    "spoken": "[cheerfully] Ready when you are.",
+    "text": "Ready when you are, {name}.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_7.ogg": {
+    "line": 7,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[cheerfully] Some fresh air will do me good.",
+    "text": "Some fresh air will do me good.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_8.ogg": {
+    "line": 8,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "npc",
+    "spoken": "[warmly] Don't walk too fast. I'm not used to all this adventuring.",
+    "text": "Don't walk too fast. I'm not used to all this adventuring.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "npc_greet_9.ogg": {
+    "line": 9,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": "Well met! Good to see a friendly face.",
+    "source": "npc",
+    "spoken": "[excited] Well met! Good to see a friendly face.",
+    "text": "Well met, {name}! Good to see a friendly face.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
   }
 }

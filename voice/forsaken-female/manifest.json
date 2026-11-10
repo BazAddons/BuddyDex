@@ -679,6 +679,46 @@
     "text": "Good. Make certain you understand what you have learned. Being able to give an instruction is a beginning. Knowing what it requires, and whether it is the right one, will spare you a good deal of trouble.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore5753_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5753",
+    "spoken": "[sincere] [warm] [restrained] You keep returning, despite my rather efficient way of ending a conversation. I have noticed, and I appreciate the company. Come, friend. You need not arrive with a new question every time. I am willing to spend the afternoon beside someone who knows I am listening, even when I look otherwise occupied.",
+    "text": "You keep returning, despite my rather efficient way of ending a conversation. I have noticed, and I appreciate the company. Come, friend. You need not arrive with a new question every time. I am willing to spend the afternoon beside someone who knows I am listening, even when I look otherwise occupied.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5753_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5753",
+    "spoken": "[dry] [restrained] [matter-of-fact] There you are. Have you brought a question, or simply come to see me? Either is acceptable, provided you do not begin by tearing a corner from the page I am reading. I know my manner can be abrupt. Sit a moment, or walk with me. I can give you a little time without making an examination of it.",
+    "text": "There you are. Have you brought a question, or simply come to see me? Either is acceptable, provided you do not begin by tearing a corner from the page I am reading. I know my manner can be abrupt. Sit a moment, or walk with me. I can give you a little time without making an examination of it.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5753_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5753",
+    "spoken": "[reflective] [dry] [confiding] I repaired a plain notebook when the binding began to loosen. A new one would have been easier to obtain. The old pages still held questions worth returning to, however. Some I had already answered. I find it useful to remember that I once needed to ask them, even if I prefer not to discuss every example.",
+    "text": "I repaired a plain notebook when the binding began to loosen. A new one would have been easier to obtain. The old pages still held questions worth returning to, however. Some I had already answered. I find it useful to remember that I once needed to ask them, even if I prefer not to discuss every example.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore5753_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:5753",
+    "spoken": "[firm] [patient] [measured] Read the instruction through before deciding what you have learned. Notice what it asks you to do, and what it does not explain. There is no shame in returning with a question. I would rather hear it twice than discover you were too proud to ask while there was still time for a useful answer.",
+    "text": "Read the instruction through before deciding what you have learned. Notice what it asks you to do, and what it does not explain. There is no shame in returning with a question. I would rather hear it twice than discover you were too proud to ask while there was still time for a useful answer.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore6411_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

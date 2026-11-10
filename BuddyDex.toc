@@ -3,7 +3,7 @@
 ## Notes: Befriend the NPCs of Azeroth and collect them in your BuddyDex. /bd
 ## Author: Baz4k
 ## X-License: GPL-2.0-or-later
-## Version: 002
+## Version: 003
 ## X-Curse-Project-ID: 1793016
 ## IconTexture: Interface\Icons\Achievement_Character_Gnome_Male
 ## SavedVariables: BuddyDexDB

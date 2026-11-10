@@ -263,6 +263,7 @@ step("the main addon loads its bundled voices", function()
         {4169, 2217, "nightelf-female"}, {4230, 2277, "nightelf-male"},
         {2704, 12989, "troll-male"}, {2389, 2037, "forsaken-female"},
         {8496, 7909, "goblin-female"}, {10539, 10132, "tauren-male"},
+        {5753, 4149, "forsaken-female"}, {4926, 2972, "orc-male"},
         {1257, 1431, "human-male"}, {1275, 1444, "human-female"} }) do
         assert(ns.Voice.NpcVoice(sample[2]) == sample[3], "signature voice identity mismatch")
         local line = ns.Lore[sample[1]].lines.greet[1][1]
@@ -893,6 +894,21 @@ step("Thor's entry unlocks by tier, and /bd lore previews it", function()
     assert(not ns.DexDetail.LoreParts(523, e).quote, "the preview did not turn off")
     local other = ns.DexDetail.LoreParts(999999, { name = "Unauthored acquaintance", points = 9999 })
     assert((other.note or ""):find("no entry on Unauthored acquaintance") and #other.sections == 0, "an NPC without lore")
+end)
+
+step("friendship bar border stays above the fill", function()
+    for _, size in ipairs({ { 232, 18 }, { 340, 22 }, { 210, 26 } }) do
+        local bar = MOCK.ns.Art.CreateFriendshipBar(UIParent, size[1], size[2], "GameFontHighlightSmall")
+        assert(bar.Border:GetParent() == bar)
+        assert(bar.Border:GetFrameLevel() > bar:GetFrameLevel(), "fill can cover the rim")
+        assert(not bar.Border.__backdropInfo.bgFile, "foreground background would hide progress")
+        assert(bar.Text:GetParent() == bar.Border, "label is below the foreground rim")
+        bar:SetFillPercent(0)
+        assert(not bar.Fill:IsShown(), "empty bar displays a full texture")
+        bar:SetFriendship({ isMax = true, colorType = "Blue", label = "Best Friend" })
+        assert(bar.Fill:IsShown() and bar.fillPercent == 1)
+        assert(bar.Text:GetText() == "Best Friend")
+    end
 end)
 
 -- The writing rules in docs/LORE.md that a test can check. The Lore column
@@ -1807,8 +1823,44 @@ def run(label, addon_dir, toc_name, addon_name, session):
     return not load_errors and not failures and not problems
 
 
+CHARACTER_ROSTER = r'''
+step("legacy account friends never enter this character's journal", function()
+    local ns = MOCK.ns
+    local oldFriend = { name = "Auctioneer Lympkin", points = 5000, display = 7127 }
+    BuddyDexDB = {
+        friends = { [9859] = oldFriend },
+        companionNpc = 9859,
+        dex = { pinned = { [9859] = true } },
+        settings = { chattiness = 99 },
+    }
+    BuddyDexCharDB = {
+        settings = { chattiness = 17 },
+        friends = KEEP_OWN and { [5753] = { name = "Martha Strain", points = 175, display = 4149 } } or nil,
+    }
+    FireAll("ADDON_LOADED", "BuddyDex")
+    assert(ns.db == BuddyDexCharDB and ns.char == BuddyDexCharDB)
+    assert(not ns.db.friends[9859], "account friendship entered the character roster")
+    assert(not ns.db.companionNpc, "account companion entered the character selection")
+    assert(not (ns.db.dex.pinned and ns.db.dex.pinned[9859]), "account pin entered the character journal")
+    assert(ns.db.settings.chattiness == 17, "character preferences were overwritten")
+    assert(BuddyDexDB.friends[9859] == oldFriend, "legacy backup was altered")
+    local roster = ns.Database.GetRoster()
+    assert(not roster[9859], "shared friend shown in journal")
+    if KEEP_OWN then
+        assert(ns.db.friends[5753].points == 175 and roster[5753], "own progress was lost")
+    else
+        assert(next(roster) == nil, "a new character did not start fresh")
+    end
+end)
+'''
+
+
 def main():
     ok = run("BuddyDex", ROOT, "BuddyDex.toc", "BuddyDex", BUDDYDEX)
+    for keep_own in (False, True):
+        scenario = CHARACTER_ROSTER.replace("KEEP_OWN", "true" if keep_own else "false")
+        ok = run("Character roster: " + ("existing" if keep_own else "fresh"), ROOT,
+                 "BuddyDex.toc", "BuddyDex", scenario) and ok
     scout_dir = os.path.join(ROOT, "tools", "BuddyDexScout")
     ok = run("BuddyDex Scout", scout_dir, "BuddyDexScout.toc", "BuddyDexScout", SCOUT) and ok
     print("PASS" if ok else "FAIL")

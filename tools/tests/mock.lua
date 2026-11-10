@@ -224,6 +224,10 @@ end
 Templates.UICheckButtonTemplate = function(f) Child(f, "Text", "FontString") end
 Templates.InsetFrameTemplate = function(f) Child(f, "Bg", "Texture") end
 Templates.InsetFrameTemplate3 = Templates.InsetFrameTemplate
+Templates.BackdropTemplate = function(f)
+    rawset(f, "SetBackdrop", function(self, value) self.__backdropInfo = value end)
+    rawset(f, "SetBackdropBorderColor", function(self, ...) self.__borderColor = { ... } end)
+end
 Templates.TooltipBackdropTemplate = function(f)
     rawset(f, "SetBackdropColor", function(self, ...) self.__backdrop = { ... } end)
     rawset(f, "SetBackdropBorderColor", function() end)
@@ -384,7 +388,8 @@ function Methods:GetPoint(i)
     return p[1], p[2], p[3] or p[1], p[4] or 0, p[5] or 0
 end
 function Methods:GetParent() return self.__parent end
-function Methods:GetFrameLevel() return 1 end
+function Methods:GetFrameLevel() return self.__frameLevel or 1 end
+function Methods:SetFrameLevel(level) self.__frameLevel = level end
 function Methods:GetWidth() return 100 end
 function Methods:GetHeight() return 100 end
 function Methods:IsMouseOver() return true end

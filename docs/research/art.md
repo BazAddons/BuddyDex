@@ -2,6 +2,8 @@
 
 ## November 8 portrait and progress-bar adjustment
 
+November9 live screenshot showed the native background/rim underneath a full blue fill. The native ColoredProgressBar BG atlas combines opaque background and rim, so merely raising that texture would hide the progress. CreateFriendshipBar now draws a plain dark track and fill beneath a border-only BackdropTemplate child at a higher frame level, using UI-Tooltip-Border; the text belongs to that foreground child. This keeps the rim above the fill at every percentage without an opaque foreground center. Regression checks cover toast/list/detail sizes, foreground level, absence of a foreground background, zero and maximum progress. Installed for reload; final client appearance awaits the user's observation.
+
 Toast and journal row portraits now share `Art.CreatePortraitBorder`: the existing `TempPortraitAlphaMask` clips live/cached portraits inside an original neutral beveled ring (`Media/PortraitRing.tga`, 128x128 RGBA, transparent center). The mask is inset by one sixteenth of the icon's size to meet the ring's inner edge. Rarity still tints the ring. The mask is created once with its row/toast and remains attached across portrait/fallback changes.
 
 Friendship bars retain the native gold track and text but own the fill texture/geometry: three-pixel horizontal insets, height minus six, and a hidden fill at zero. This avoids atlas padding and native-size resets on differently sized bars. The original native fill mask is detached from that replacement fill. Ad hoc mock checks cover empty/40%/full/max at toast, list and detail sizes and both template/fallback paths. Live-client visual verification remains a separate check after reload.

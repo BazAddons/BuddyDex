@@ -1,4 +1,11 @@
 # Unreleased
+
+- Draw the friendship bar's border above its fill and keep its label above both.
+
+- Add Martha Strain and Krog: fifteen personal lines and four approved v4 signature recordings each.
+- Start v003 development while preserving published v002 artifacts.
+
+# v002 - 2026-11-09
 - Add Liv Rizzlefix and Hagar Lightninghoof: full workshop-assistant and quest-giver profiles, fifteen personal lines and four approved v4 signatures each, with researched mentor and Arikara quest-chain context.
 - Add Hanashi and Zarise: full weapon-master and bat-handler profiles, fifteen personal lines and four approved v4 signatures each; preserve neutral-unit rejection and Elite friendship thresholds.
 - Add Jaeana and Yldan: complete Night Elf food-vendor and bag-merchant profiles, fifteen personal lines and four approved v4 signatures each, with normal live eligibility checks preserved.

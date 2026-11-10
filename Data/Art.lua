@@ -477,40 +477,34 @@ function Art.CreateSmallButton(parent, width, height)
 end
 
 -- Friendship bars ------------------------------------------------------------------
--- The bar Forever's own reputation panel draws (ReputationBarTemplate is
--- ColoredProgressBarTemplate at 160 x 29, Blizzard_UIPanels_Game/Camelot/
--- ReputationFrame.xml:56), so friendship reads like reputation.
--- Background/text are native. Own the fill geometry so atlas padding and
--- native-size resets cannot leave a gap inside a short or wide track.
-local BAR_TEMPLATE = "ColoredProgressBarTemplate"
+-- A separate foreground rim keeps the fill beneath the border. The native
+-- colored-bar atlas combines its background and rim in one texture, which
+-- cannot be raised above our fill without also hiding the progress.
 local BAR_COLORS = { Red = { 0.85, 0.2, 0.2 }, Green = { 0.2, 0.8, 0.2 },
     Blue = { 0.2, 0.55, 1 }, White = { 0.85, 0.85, 0.85 } }
 
 function Art.CreateFriendshipBar(parent, width, height, font)
     height = height or 29
-    local bar
-    if Art.HasTemplate(BAR_TEMPLATE) then
-        bar = CreateFrame("Frame", nil, parent, BAR_TEMPLATE)
-        bar:SetSize(width, height)
-        if font and bar.Text then pcall(bar.Text.SetFontObject, bar.Text, font) end
-    else
-        bar = CreateFrame("Frame", nil, parent)
-        bar:SetSize(width, height)
-        local bg = bar:CreateTexture(nil, "BACKGROUND")
-        bg:SetAllPoints()
-        bg:SetColorTexture(0, 0, 0, 0.6)
-        bar.Fill = bar:CreateTexture(nil, "BORDER")
-        bar.Fill:SetPoint("LEFT", 2, 0)
-        bar.Fill:SetHeight(math.max(4, height - 10))
-        bar.Fill:SetColorTexture(0.25, 0.8, 0.25)
-        bar.Text = bar:CreateFontString(nil, "ARTWORK", font or "GameFontHighlightSmall")
-        bar.Text:SetPoint("CENTER")
-        function bar:SetText(text) self.Text:SetText(text) end
-    end
+    local bar = CreateFrame("Frame", nil, parent)
+    bar:SetSize(width, height)
+    local bg = bar:CreateTexture(nil, "BACKGROUND")
+    bg:SetAllPoints()
+    bg:SetColorTexture(0.025, 0.02, 0.015, 0.85)
+    bar.Fill = bar:CreateTexture(nil, "ARTWORK")
+
+    -- Border-only backdrop on a higher frame: no opaque center can cover
+    -- the progress, and a full bar cannot paint over its own frame.
+    bar.Border = CreateFrame("Frame", nil, bar, "BackdropTemplate")
+    bar.Border:SetAllPoints(bar)
+    bar.Border:SetFrameLevel(bar:GetFrameLevel() + 1)
+    bar.Border:SetBackdrop({ edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 8 })
+    bar.Border:SetBackdropBorderColor(0.72, 0.60, 0.38, 1)
+    bar.Text = bar.Border:CreateFontString(nil, "OVERLAY", font or "GameFontHighlightSmall")
+    bar.Text:SetPoint("CENTER", bar, "CENTER")
+    function bar:SetText(text) self.Text:SetText(text) end
 
     -- Keep the textured gold track; inset the fill evenly inside its rim.
     -- A zero-width Texture renders at its natural size, so hide it at zero.
-    if bar.Mask then bar.Fill:RemoveMaskTexture(bar.Mask) end
     bar.Fill:ClearAllPoints()
     bar.Fill:SetPoint("LEFT", bar, "LEFT", 3, 0)
     bar.Fill:SetHeight(math.max(1, height - 6))

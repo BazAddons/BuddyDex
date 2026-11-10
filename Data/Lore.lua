@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Martha Strain <Demon Trainer>, Magic Quarter/Undercity,5753/4149.
+    -- Adult female Forsaken/current HordeFriendly; installed curt trainer gossip.
+    -- Classic grimoires referenced, empty current stock not a sales guarantee.
+    -- Old notebook/repair habit original; no Legion/renaming/current7562 claim.
+    -- Research: docs/research/martha-strain-and-krog-queue.md.
+    [5753] = {
+        quote = "An old question can still be worth keeping. Try not to tear the page while deciding whether you understand it.",
+        likes = { "Instructions read before an experiment", "A page handled with care", "A question worth returning to" },
+        dislikes = { "Torn corners used as bookmarks", "Confidence without preparation", "Being interrupted halfway through a line" },
+        gossip = "Martha has repaired the same plain notebook more than once. Anyone expecting a forbidden tome is likely to be disappointed.",
+        bio = "Martha Strain is a Forsaken demon trainer in Undercity's Magic Quarter. Her manner is curt and her expectations practical. She has little patience for someone seeking greater power without first understanding what they are doing.",
+        backstory = "Martha kept a plain notebook of questions and observations. When its binding loosened, replacing it would have been easier. She repaired it instead. Returning to an earlier question sometimes showed her something she had missed the first time.",
+        secret = "The carefully repaired notebook is ordinary. Some pages hold questions she has already answered. She likes being able to see that she once had to ask them.",
+        bestFriend = "You may ask again. I know I sounded impatient the first time. Sit beside me; a question can deserve a second hearing.",
+        favorite = { emote = "NOD", hint = "Show her that you have listened before asking for the next instruction." },
+        lines = {
+            greet = { { "There you are. Have you brought a question, or simply come to see me? Either is acceptable, provided you do not begin by tearing a corner from the page I am reading. I know my manner can be abrupt. Sit a moment, or walk with me. I can give you a little time without making an examination of it.", tone = "[dry] [restrained] [matter-of-fact]" },
+                "Yes? You may speak. I have reached the end of the line." },
+            idle = { { "I repaired a plain notebook when the binding began to loosen. A new one would have been easier to obtain. The old pages still held questions worth returning to, however. Some I had already answered. I find it useful to remember that I once needed to ask them, even if I prefer not to discuss every example.", tone = "[reflective] [dry] [confiding]" },
+                "Use a bookmark. The corner was part of the page for a reason.",
+                "Understanding a thing is more useful than sounding certain about it." },
+            befriended = { { "You keep returning, despite my rather efficient way of ending a conversation. I have noticed, and I appreciate the company. Come, friend. You need not arrive with a new question every time. I am willing to spend the afternoon beside someone who knows I am listening, even when I look otherwise occupied.", tone = "[sincere] [warm] [restrained]" } },
+            learned = { { "Read the instruction through before deciding what you have learned. Notice what it asks you to do, and what it does not explain. There is no shame in returning with a question. I would rather hear it twice than discover you were too proud to ask while there was still time for a useful answer.", tone = "[firm] [patient] [measured]" } },
+            poke = { "Yes? My attention does not require that particular method.", "I heard you. Give me the courtesy of finishing this thought." },
+            gear = { "Examine it carefully. A pleasing appearance is not an explanation of how it works." },
+            quest = { "Keep what you learned. You may need the question again someday." },
+            loot = { "Look before handling it. Curiosity need not be careless." },
+            rest = { "A quiet interval. I could become accustomed to that with you." },
+            combatEnd = { "All here? Good. We can consider the mistakes after everyone has settled." },
+            levelUp = { "You have learned something. Remember there was a time when you had not." },
+        },
+    },
+
+    -- Krog, Brackenwall Village/Dustwallow Marsh,4926/2972.
+    -- Adult male Orc/current sparse identity/public access unverified.
+    -- Classic/installed Shady Rest investigation, Ogron/Kagoro/Do'gol/Mosarn.
+    -- Earthen Ring awarded Mosarn armor; no reason/membership inferred.
+    -- Private armor-care habit original; no later mystery resolution imported.
+    -- Research: docs/research/martha-strain-and-krog-queue.md.
+    [4926] = {
+        quote = "Good work deserves care. Even in this marsh, mud is not a permanent finish.",
+        likes = { "A firsthand report", "Armor made by a skilled smith", "Work kept in good condition" },
+        dislikes = { "A suspicion presented as proof", "Good iron neglected in the mud", "An order ignored for a convenient excuse" },
+        gossip = "Krog can find fault with most things in the marsh. Mosarn's workmanship is an exception, provided nobody lets it sit in mud.",
+        bio = "Krog investigates the burning of the Shady Rest Inn from Brackenwall Village. He sends others after tracks and witnesses, and asks smiths to examine a blackened shield. He also remembers the quality of armor made by Mosarn.",
+        backstory = "The Earthen Ring once awarded Krog armor crafted by Mosarn. He remembers the gift as good work. In the marsh, he made a habit of removing the mud before it could hide a damaged fastening or turn proper care into tomorrow's problem.",
+        secret = "He keeps a cloth for the last patch of mud after the armor is otherwise clean. It is a small way to show that he still values the work someone put into it.",
+        bestFriend = "You came back. Good. Set your things down before the mud dries on them. There is time to talk while we put them right.",
+        favorite = { emote = "THANK", hint = "Acknowledge the care someone has put into useful work." },
+        lines = {
+            greet = { { "You are back. Good. If you have a report, tell me what you actually saw before adding what you think it means. If you have only come to visit, set your things down. I am cleaning the last of the mud from this fastening. Good work should not be left to deteriorate simply because the marsh makes care inconvenient.", tone = "[gruff] [practical] [steady]" },
+                "There you are. A report, or a moment out of the marsh?" },
+            idle = { { "Mosarn knows his work. The armor the Earthen Ring awarded me was well made, and I remember that. A marsh will give you plenty of excuses to neglect good iron. I see no reason to accept them. Remove the mud, look at the fastenings, and deal with a small problem before it becomes a larger one.", tone = "[matter-of-fact] [gruff] [measured]" },
+                "A shield can pass through many hands. A maker's name is a lead, not an answer.",
+                "One patch left. I am not putting the cloth away yet." },
+            befriended = { { "You have become someone whose return I am glad to see. There. You need not make a ceremony of it. Come, friend. Set your things down and give them a look before we move on. We can talk while the work is done. Not every visit has to begin with another troubling report from the marsh.", tone = "[warm] [gruff] [restrained]" } },
+            gear = { { "That deserves a proper inspection before you rely on it again. Clear the dirt from the fastening. Look where the strain falls, and do not mistake a clean surface for sound work underneath. A skilled smith gives you something useful. Keeping it useful is the part you can do without waiting for someone else to notice the damage.", tone = "[practical] [firm] [patient]" } },
+            poke = { "Yes? You can give the report without jabbing me.", "I noticed you. Get to the point." },
+            quest = { "Tell them what is known. Leave the guesses where they can be questioned." },
+            loot = { "Something useful, or another object with a story we have yet to understand?" },
+            combatEnd = { "Check the damage before we leave. People first, equipment after." },
+            rest = { "Sit. There is no virtue in carrying the whole load while standing still." },
+            bagsFull = { "Put it down properly. I am not searching the mud for what falls out." },
+            levelUp = { "Good. Keep what you have learned in better condition than your boots." },
+        },
+    },
+
     -- Liv Rizzlefix <Workshop Assistant>, Ratchet/Barrens,8496/7909.
     -- Adult female Goblin; sparse current identity/public access unverified.
     -- Installed gossip: Marvon mentor/absence, ambition, heavy chest outside.

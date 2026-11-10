@@ -879,6 +879,46 @@
     "text": "Tell me what you know, and what remains uncertain. We can be grateful for good work without pretending every mystery is settled. Some answers will require more time and more careful eyes.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore4926_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4926",
+    "spoken": "[warm] [gruff] [restrained] You have become someone whose return I am glad to see. There. You need not make a ceremony of it. Come, friend. Set your things down and give them a look before we move on. We can talk while the work is done. Not every visit has to begin with another troubling report from the marsh.",
+    "text": "You have become someone whose return I am glad to see. There. You need not make a ceremony of it. Come, friend. Set your things down and give them a look before we move on. We can talk while the work is done. Not every visit has to begin with another troubling report from the marsh.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4926_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:4926",
+    "spoken": "[practical] [firm] [patient] That deserves a proper inspection before you rely on it again. Clear the dirt from the fastening. Look where the strain falls, and do not mistake a clean surface for sound work underneath. A skilled smith gives you something useful. Keeping it useful is the part you can do without waiting for someone else to notice the damage.",
+    "text": "That deserves a proper inspection before you rely on it again. Clear the dirt from the fastening. Look where the strain falls, and do not mistake a clean surface for sound work underneath. A skilled smith gives you something useful. Keeping it useful is the part you can do without waiting for someone else to notice the damage.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4926_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4926",
+    "spoken": "[gruff] [practical] [steady] You are back. Good. If you have a report, tell me what you actually saw before adding what you think it means. If you have only come to visit, set your things down. I am cleaning the last of the mud from this fastening. Good work should not be left to deteriorate simply because the marsh makes care inconvenient.",
+    "text": "You are back. Good. If you have a report, tell me what you actually saw before adding what you think it means. If you have only come to visit, set your things down. I am cleaning the last of the mud from this fastening. Good work should not be left to deteriorate simply because the marsh makes care inconvenient.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4926_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4926",
+    "spoken": "[matter-of-fact] [gruff] [measured] Mosarn knows his work. The armor the Earthen Ring awarded me was well made, and I remember that. A marsh will give you plenty of excuses to neglect good iron. I see no reason to accept them. Remove the mud, look at the fastenings, and deal with a small problem before it becomes a larger one.",
+    "text": "Mosarn knows his work. The armor the Earthen Ring awarded me was well made, and I remember that. A marsh will give you plenty of excuses to neglect good iron. I see no reason to accept them. Remove the mud, look at the fastenings, and deal with a small problem before it becomes a larger one.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore4954_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
