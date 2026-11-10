@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Delia Verana, Tarren Mill/Hillsbrad. Adult Forsaken female
+    -- 3651/M2 997378, Horde Friendly; no own linked quests/gossip.
+    -- Thimble sleight-of-hand performance is original, not a spell.
+    -- Research: docs/research/delias-thimble-and-sylistas-crown.md
+    [2392] = {
+        quote = "The thimble has vanished. Yes, I know you can see it. You are standing at a very unhelpful angle.",
+        likes = { "A trick given time to improve", "An audience keeping a straight face", "A familiar visitor staying to watch" },
+        dislikes = { "The secret announced before the reveal", "Every amusement needing a purpose", "A dropped prop declared a catastrophe" },
+        gossip = "Delia can make a thimble disappear. The effect is particularly convincing if you look away when she asks you to.",
+        bio = "Delia Verana lives in Tarren Mill in the Hillsbrad Foothills. Her dry manner conceals a fondness for little performances. A thimble, an empty palm and a patient audience provide quite enough occasion.",
+        backstory = "She began practicing a small hand trick with a thimble. Hiding it proved easier than revealing it gracefully. The occasional clatter became part of the performance, though she has yet to admit that aloud.",
+        secret = "She enjoys a friend pretending to be astonished more than a stranger being fooled. The shared pretense lasts longer than the trick, and takes considerably less practice.",
+        bestFriend = "Stay for another attempt. You may know where the thimble is. I should still like to see your astonished expression.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "She appreciates an audience willing to celebrate the performance, even after spotting the secret.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Hold out your hand. No, the other one. I had the reveal arranged for that side, and a performer must be allowed a few advantages.", tone = "[dry] [playfully imperious]" }, "Come along. You may tell me what you have been doing while I decide whether the next trick is ready for an audience." },
+            idle = { { "The thimble is not lost. Its disappearance has merely exceeded the intended duration. I shall announce the successful conclusion when I locate it.", tone = "[deadpan] [amused]" }, "I can hide the thimble quite neatly. Bringing it back without the small clatter remains the ambitious part.", "You may pretend to be astonished. I shall pretend not to notice that you are pretending. A remarkably agreeable arrangement." },
+            befriended = { { "You stayed to watch another attempt. Come along, friend. It is pleasant to have company who knows the secret and enjoys the performance anyway.", tone = "[guarded warmth] [sincere]" } },
+            poke = { "Yes? If you found the thimble, I would appreciate a discreet return before the grand reveal.", "Go on. I can put the performance aside long enough to hear what you have to say." },
+            loot = { { "There it is. An admirable discovery. Mine generally involves something I was holding only a moment earlier.", tone = "[wry] [pleased]" } },
+            rest = { "A pause between performances. The audience may stretch, and the performer may quietly check both sleeves." },
+            mail = { "A message. Do read it before I begin another attempt. Divided attention makes the astonishment less convincing." },
+            quest = { "Let them finish the request. Interrupting before the reveal seldom improves a performance, or an explanation." },
+            newFriend = { "Someone new. Let us make introductions before deciding whether they have the patience for a very small marvel." },
+            thanked = { "You are welcome. Your discretion about the thimble has also been appreciated." },
+            group = { "Company for everyone. I shall resist performing until we have finished whatever actually requires our attention." },
+        },
+    },
+
+    -- Sylista <Stable Master>, Stormwind. Adult Night Elf female
+    -- 9249/M2 921844, Alliance Friendly; no own linked quests/gossip.
+    -- Crooked straw crown and small ceremony are original.
+    -- Research: docs/research/delias-thimble-and-sylistas-crown.md
+    [9977] = {
+        quote = "The crown is straw. The ceremony may still be conducted properly. A little bow will do; we need not trouble the heralds.",
+        likes = { "Patient hands around animals", "A ceremony enjoyed without grandeur", "A friend wearing a ridiculous crown" },
+        dislikes = { "Frightening an animal for a joke", "Roughness disguised as confidence", "A small delight treated with contempt" },
+        gossip = "Sylista has made a crown of straw. She insists its realm is modest and its royal duties consist chiefly of not falling off.",
+        bio = "Sylista is a night elf stable master in Stormwind. She values a calm approach to animals and enjoys small, harmless ceremonies. A few bent stems can become a crown when the work allows a moment.",
+        backstory = "She twisted a few spare stems into a little crown. It sat crookedly, which seemed to improve its dignity. Since then she has found that a perfectly ordinary pause may deserve a small coronation.",
+        secret = "She prefers a friend accepting the crooked crown to anyone praising her handiwork. Sharing the silliness matters more than getting the stems to lie evenly.",
+        bestFriend = "Here. Your crown is crooked. Leave it so; I rather like it. We may enjoy a little ceremony before returning to the day.",
+        favorite = {
+            emote = "BOW",
+            hint = "She enjoys a small ceremonial gesture that gives an ordinary moment a little harmless grandeur.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. I have made a crown. You may accept the honor without a speech, provided you are willing to wear it at a rather undignified angle.", tone = "[gentle] [playfully formal]" }, "Come along. Tell me how you have been. The ceremony can wait until we find a moment that deserves one." },
+            idle = { { "The crown has no jewels, no disputed inheritance and very little ambition. Its chief difficulty is remaining on the head selected to wear it.", tone = "[warm] [dryly amused]" }, "I tried to straighten it. The result looked less pleased with itself. I believe the crooked version has earned its place.", "A small ceremony need not make anyone important. Sometimes it is enough to make an ordinary moment enjoyable." },
+            befriended = { { "You have given me company with whom I can share the little crown without explaining the whole joke. Come along, friend. That is an honor I am pleased to accept.", tone = "[affectionate] [sincere]" } },
+            poke = { "Yes? If this concerns your royal duties, you are presently excused from all of them.", "Go on. I would like to hear what you have noticed." },
+            mount = { { "Give your mount time to settle before asking more of it. The grand entrance will survive a little patience.", tone = "[calm] [reassuring]" } },
+            rest = { "A little rest. We may set the crown down and enjoy being entirely ordinary for a while." },
+            gear = { "That seems a more practical addition than my crown. You may still keep room for something that simply pleases you." },
+            quest = { "Let us hear what is needed. We can return to our very modest royal business afterward." },
+            newFriend = { "Someone new. Make them welcome before attempting to explain why the crown sits that way." },
+            thanked = { "You are welcome. I am glad you accepted the small ceremony in the spirit intended." },
+            group = { "Make room for everyone. There is no rank here that excuses anyone from a little consideration." },
+        },
+    },
+
     -- Thom Filch, Hall of Thanes entrance/Ironforge. Adult Gnome
     -- male144349/M2 900914; Alliance Neutral, positive access unverified.
     -- Full96403 includes conspicuous appraisal/loot corrections.

@@ -3661,6 +3661,20 @@
       "zone": "Felwood",
       "route": "Emerald Sanctuary trainer",
       "reason": "Exact Emerald Circle title and current trainer body; original imaginary door sketch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2392,
+      "name": "Delia Verana",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill named resident",
+      "reason": "No own linked quests or gossip; original thimble hand trick; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9977,
+      "name": "Sylista",
+      "zone": "Stormwind City",
+      "route": "Stormwind stable master",
+      "reason": "Current stable title and adult body; original crooked straw crown; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -3990,5 +3990,19 @@
     "zone": "Felwood",
     "source": "Reviewed adult horde man; Exact Emerald Circle title and current trainer body; original imaginary door sketch; no Scout sighting claimed",
     "research_notes": "docs/research/thoms-wording-and-shuromes-door.md"
+  },
+  {
+    "npc_id": 2392,
+    "name": "Delia Verana",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult horde woman; No own linked quests or gossip; original thimble hand trick; no Scout sighting claimed",
+    "research_notes": "docs/research/delias-thimble-and-sylistas-crown.md"
+  },
+  {
+    "npc_id": 9977,
+    "name": "Sylista",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance woman; Current stable title and adult body; original crooked straw crown; no Scout sighting claimed",
+    "research_notes": "docs/research/delias-thimble-and-sylistas-crown.md"
   }
 ]

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Delia Verana and Sylista: adult Forsaken and Night Elf profiles with thirty personal lines queued.
+- Document current identities and sparse dialogue evidence; add original thimble-trick and straw-crown character stories.
+
 - Add Thom Filch and Master Mycologist Shurome: adult Gnome and Forsaken profiles with thirty personal lines queued.
 - Preserve Important Heirlooms quest ambiguity; document original wording-rehearsal and mushroom-sketch stories.
 
@@ -465,4 +468,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **775 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **777 fully written NPC profiles**: 454 have initial signature recordings, and three hundred twenty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
