@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Valreaa Valewind and Wizzle Brassbolts: adult Windshaper and Gnome profiles with thirty personal lines queued.
+- Read the grove encroachment task and complete racer safeguards/scale context; document original quiet-news and storytelling details.
+
 - Add Halaan Hawk-Eye and Iallion Featherfall: adult Windshaper profiles accessible to both factions, with thirty personal lines queued.
 - Verify race identities against current models; research the anchor-view quest and trade stock, with original private hopes and nightcrawler humor documented.
 
@@ -414,4 +417,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **742 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **744 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

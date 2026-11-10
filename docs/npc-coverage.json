@@ -3,21 +3,21 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 317,
+    "alliance": 318,
     "unverified": 159,
-    "horde": 297
+    "horde": 299
   },
   "npc_race_counts": {
     "1": 167,
     "3": 61,
-    "7": 54,
+    "7": 55,
     "2": 80,
     "5": 80,
     "4": 60,
     "8": 58,
     "9": 49,
     "6": 82,
-    "96": 22,
+    "96": 23,
     "95": 29
   },
   "zone_counts": {
@@ -49,7 +49,7 @@
     "Darnassus": 11,
     "Burning Steppes": 1,
     "Ashenvale": 12,
-    "Thousand Needles": 9,
+    "Thousand Needles": 10,
     "Dustwallow Marsh": 1,
     "Tanaris": 8,
     "Feralas": 3,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 50,
+    "Zephras Isle": 51,
     "Riverglades": 10
   },
   "entries": [
@@ -5197,6 +5197,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4317"
     },
     {
+      "npc_id": 4453,
+      "name": "Wizzle Brassbolts",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4453"
+    },
+    {
       "npc_id": 4454,
       "name": "Fizzle Brassbolts",
       "zone": "Thousand Needles",
@@ -9035,6 +9048,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257037"
     },
     {
+      "npc_id": 257551,
+      "name": "Valreaa Valewind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257551"
+    },
+    {
       "npc_id": 257554,
       "name": "Halaan Hawk-Eye",
       "zone": "Zephras Isle",
@@ -9523,6 +9550,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 742,
-  "awaiting_signature_audio_profiles": 288
+  "authored_profiles": 744,
+  "awaiting_signature_audio_profiles": 290
 }

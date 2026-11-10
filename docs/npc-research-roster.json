@@ -3759,5 +3759,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Windshaper woman, both factions Friendly; All eighteen current goods and exact Windshaper female identity; original nightcrawler queue; no Scout sighting claimed",
     "research_notes": "docs/research/halaans-view-and-iallions-queue.md"
+  },
+  {
+    "npc_id": 257551,
+    "name": "Valreaa Valewind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper woman, both factions Friendly; Own complete ursera task and full main handoff context; original relief at ordinary village arguments; no Scout sighting claimed",
+    "research_notes": "docs/research/valreaas-quiet-news-and-wizzles-questions.md"
+  },
+  {
+    "npc_id": 4453,
+    "name": "Wizzle Brassbolts",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult Gnome man, explicit Horde Friendly only; Full shell/fin/scale/referrals and fuel/piston context; original arm-span flourish on established curiosity; no Scout sighting claimed",
+    "research_notes": "docs/research/valreaas-quiet-news-and-wizzles-questions.md"
   }
 ]

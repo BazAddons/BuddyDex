@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Valreaa Valewind and Wizzle Brassbolts: adult Windshaper and Gnome profiles with thirty personal lines queued.
+- Read the grove encroachment task and complete racer safeguards/scale context; document original quiet-news and storytelling details.
+
 - Add Halaan Hawk-Eye and Iallion Featherfall: adult Windshaper profiles accessible to both factions, with thirty personal lines queued.
 - Verify race identities against current models; research the anchor-view quest and trade stock, with original private hopes and nightcrawler humor documented.
 

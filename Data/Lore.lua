@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Valreaa Valewind, Thendal Grove/Zephras Isle. Adult
+    -- Windshaper female139409/M2 7478494, both factions Friendly.
+    -- Full92473 and main handoff context; rangers saved unnamed boy,
+    -- not a personal rescue claim. Ordinary-argument relief original.
+    -- Research: docs/research/valreaas-quiet-news-and-wizzles-questions.md
+    [257551] = {
+        quote = "Hunger can explain why a beast comes near the village. It does not make the people there any safer.",
+        likes = { "A danger reported before it reaches home", "Village voices raised without alarm", "Small disagreements that stay small" },
+        dislikes = { "An explanation mistaken for protection", "Carelessness near the edge of the grove", "An urgent warning treated as a joke" },
+        gossip = "Valreaa looks relieved to hear villagers arguing about something unimportant. Apparently that can be welcome news.",
+        bio = "Valreaa Valewind serves the Rangers of Thendal Grove on Zephras Isle. Hungry ursera encroaching on the village have become a danger, and she asks for claws as proof that the scrawniest beasts have been put down.",
+        backstory = "An adolescent ursera came near the elder tree and attacked a boy playing there. The rangers killed the beast, and the boy survived. Valreaa cites the incident when calling for action: hunger and desperation cannot be left to reach the village unchecked.",
+        secret = "She likes hearing a disagreement over something completely unimportant. It means two people have room in the day to think about a small thing.",
+        bestFriend = "Walk with me, friend. We may disagree about where to sit. I would welcome a decision that does not concern the safety of the grove.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She appreciates a clear, respectful acknowledgment from someone who understands why the watch matters.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. We may have time for a small disagreement about where to sit.", tone = "[steady] [quietly warm]" }, "There you are. Ready for a walk? I am pleased to see you with no alarm to report." },
+            idle = { { "They were disagreeing about where to put a basket. I was glad to hear it. Such a small thing to have room to argue over.", tone = "[dry] [fond]" }, "Hunger explains the danger. It does not keep the danger from reaching the village.", "A warning brought early gives us room to act before someone is hurt." },
+            befriended = { { "Your company has become something I welcome beyond the work of the watch. Come along, friend. There is room for an ordinary conversation today.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Is something wrong, or have you something pleasant to tell me?", "I am listening. Begin with what needs attention." },
+            combatEnd = { { "Look to the others before the next report. Someone may need your attention more than the account does.", tone = "[firm] [concerned]" } },
+            quest = { "Keep the purpose in view. Proof of the task matters because of what the task is meant to protect." },
+            rest = { "A welcome pause. If our greatest concern is where to sit, I will take my time choosing." },
+            group = { "See that everyone knows the way and that no one is left behind unnoticed." },
+            newFriend = { "A new face. Give them a clear greeting before asking what news they carry." },
+            landed = { "Here we are. Take a moment to see where the others have arrived." },
+            thanked = { "You are welcome, friend. I am glad to share a quieter part of the day with you." },
+        },
+    },
+
+    -- Wizzle Brassbolts, Mirage Raceway/Thousand Needles.
+    -- Adult Gnome male5428/M2 900914, explicit Horde Friendly only.
+    -- Full shell/fin/scale/referral and fuel/piston context read.
+    -- Curiosity about beast size canon; arm-span flourish original.
+    -- Research: docs/research/valreaas-quiet-news-and-wizzles-questions.md
+    [4453] = {
+        quote = "I do want to hear about the scale. First, how big was the creature? Use both arms if necessary.",
+        likes = { "A clever answer to a materials problem", "A traveler willing to describe the beast", "Enthusiasm with room for the safeguards" },
+        dislikes = { "A fuel tank forgotten in the excitement", "Salt corrosion dismissed as tomorrow's work", "A careless foot near delicate components" },
+        gossip = "A monster's scale can leave Wizzle asking about the monster before discussing the experiment. Apparently the size deserves a demonstration.",
+        bio = "Wizzle Brassbolts works with his brother Fizzle on rocket cars at Mirage Raceway in the Shimmering Flats. He seeks protective materials for their racer and an electrified scale from Gahz'rilla for another experiment.",
+        backstory = "Fizzle's powerful fuel leaves Wizzle concerned about the tanks holding it. He seeks hard tortoise shells, then tail fins for a coating against friction and salt. His enthusiasm for speed includes the work required to keep the machine together.",
+        secret = "An account of Gahz'rilla leaves him wanting the storyteller to stretch their arms a little farther. The engineer can wait a moment while he enjoys the wonder.",
+        bestFriend = "Come along, friend. Tell me what you have seen out there. I shall try to let you finish before asking how large it was. Try, mind you.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates recognition for the clever protective work that lets an exciting experiment continue.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are, friend! Come along. Tell me what you have seen. I have questions, naturally, but you may begin first.", tone = "[bright] [eagerly curious]" }, "Ready for a walk? Good! Plenty of room to talk, provided nobody steps on the delicate parts." },
+            idle = { { "The scale is for the experiment. The questions about the creature's size are for me. A perfectly reasonable division of interests.", tone = "[wry] [delighted]" }, "Fizzle is brilliant. That does not make the fuel tank immune to whatever brilliant thing he puts inside it.", "Hard without being brittle, resistant to salt, useful at speed. Materials deserve some of the applause too!" },
+            befriended = { { "I have come to enjoy your company as much as the questions you bring back with you. Come along, friend. There is plenty to wonder about together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? If this involves a very large creature, I am particularly ready to listen.", "I am listening. Mind your foot there; some things do not announce how delicate they are." },
+            learned = { { "Good! Now ask what the new idea will require of everything around it. Even a brilliant improvement has neighbors.", tone = "[animated] [encouraging]" } },
+            gear = { "Will it stand up to the work? Salt and friction are not impressed by an enthusiastic description." },
+            loot = { "Interesting! Before we decide what it could do, tell me where you found it." },
+            quest = { "Get the right part, and get yourself back with it. I would like to hear the account from you." },
+            combatEnd = { "Are you all right? Good. Catch your breath. The questions can wait until you have it back." },
+            group = { "Make room for everyone before moving. I have some experience with being overlooked at foot level." },
+            thanked = { "Glad to help, friend! Tell me how it works out. Preferably with all the interesting details." },
+        },
+    },
+
     -- Halaan Hawk-Eye, Thendal Grove/Zephras Isle. Adult
     -- Windshaper male143583/M2 7478487, both factions Friendly. Full
     -- 92460/92461/94414 context, own pylon gaze and gift progress read.
