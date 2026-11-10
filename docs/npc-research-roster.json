@@ -1561,5 +1561,19 @@
     "zone": "Thousand Needles",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/lar-and-nyse-queue.md"
+  },
+  {
+    "npc_id": 3429,
+    "name": "Thork",
+    "zone": "The Barrens",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/thork-and-thund-queue.md"
+  },
+  {
+    "npc_id": 2857,
+    "name": "Thund",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/thork-and-thund-queue.md"
   }
 ]

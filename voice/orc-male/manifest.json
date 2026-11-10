@@ -79,6 +79,46 @@
     "text": "Stay a moment if you wish. You need not search for the words that will put an old memory right. Tell me something ordinary, or let the silence stand. I have heard enough people speak as though a better sentence would settle everything. For now, I am willing to share this moment with you as it is.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore2857_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2857",
+    "spoken": "[warm] [sincere] [amused] I like having you beside me, friend. You bring questions worth considering, and you do not mind when an answer changes the plan. Come along. We can think through what we find. If I miss something obvious, say so. I would rather enjoy the discovery with you than spend the whole afternoon defending a machine that never needed building.",
+    "text": "I like having you beside me, friend. You bring questions worth considering, and you do not mind when an answer changes the plan. Come along. We can think through what we find. If I miss something obvious, say so. I would rather enjoy the discovery with you than spend the whole afternoon defending a machine that never needed building.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2857_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2857",
+    "spoken": "[confident] [animated] [amused] Engineering takes brains, friend. Think you are ready to try? Then begin with a question: what problem are you solving? I once sketched a machine to find a pencil while the pencil was behind my ear. I kept the drawing. It gives an eager learner something useful to notice before we begin building anything at all.",
+    "text": "Engineering takes brains, friend. Think you are ready to try? Then begin with a question: what problem are you solving? I once sketched a machine to find a pencil while the pencil was behind my ear. I kept the drawing. It gives an eager learner something useful to notice before we begin building anything at all.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2857_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2857",
+    "spoken": "[amused] [conversational] [encouraging] The pencil-finding machine was an interesting idea until I reached behind my ear. There was the pencil. I still have the sketch. Sometimes someone notices the answer while I am explaining the problem, and I enjoy that. Let them ask. A learner who sees something I have overlooked has done useful work before touching a tool.",
+    "text": "The pencil-finding machine was an interesting idea until I reached behind my ear. There was the pencil. I still have the sketch. Sometimes someone notices the answer while I am explaining the problem, and I enjoy that. Let them ask. A learner who sees something I have overlooked has done useful work before touching a tool.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2857_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:2857",
+    "spoken": "[proud] [instructive] [encouraging] Good. Now see what you can do with it, and keep asking where your understanding ends. There is no shame in finding the next person to learn from. Nogg is smarter than I am. If what you need goes beyond me, tell him Thund sent you. Engineering takes brains, including enough to know when another mind can help.",
+    "text": "Good. Now see what you can do with it, and keep asking where your understanding ends. There is no shame in finding the next person to learn from. Nogg is smarter than I am. If what you need goes beyond me, tell him Thund sent you. Engineering takes brains, including enough to know when another mind can help.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore2861_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -517,6 +557,46 @@
     "source": "lore:3389",
     "spoken": "[measured] [approving] You did well. Tell me what happened while the details are clear. Courage matters, but so does giving the next person enough knowledge to stand where you stood and do the work properly.",
     "text": "You did well. Tell me what happened while the details are clear. Courage matters, but so does giving the next person enough knowledge to stand where you stood and do the work properly.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3429_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:3429",
+    "spoken": "[warm] [sincere] [steady] You have earned my trust, friend. I value the strength you bring, and I am glad when I see you return. Sit beside me for a moment. There will be another report soon enough. You may look at the latest wolf while we have the time. Tell me what you notice. I have learned that a confident guess still needs someone willing to correct it.",
+    "text": "You have earned my trust, friend. I value the strength you bring, and I am glad when I see you return. Sit beside me for a moment. There will be another report soon enough. You may look at the latest wolf while we have the time. Tell me what you notice. I have learned that a confident guess still needs someone willing to correct it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3429_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:3429",
+    "spoken": "[firm] [matter-of-fact] [dryly amused] Welcome to the Crossroads. Thork. I lead the defenses here in the Warchief's name. If you know the land, there are people who could use your help. If you have a report, I will hear it. That scrap of paper is a wolf, before you ask. One ear needs work. I had a moment between more important matters.",
+    "text": "Welcome to the Crossroads. Thork. I lead the defenses here in the Warchief's name. If you know the land, there are people who could use your help. If you have a report, I will hear it. That scrap of paper is a wolf, before you ask. One ear needs work. I had a moment between more important matters.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3429_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:3429",
+    "spoken": "[reflective] [dryly amused] [warm] I folded a scrap of wrapping paper while waiting for a report. A wolf, though the ear did not turn out as intended. Someone noticed it and knew what it was before I explained. I was pleased. There is useful work enough here, but I do not mind a moment when the only fault to consider is a badly folded ear.",
+    "text": "I folded a scrap of wrapping paper while waiting for a report. A wolf, though the ear did not turn out as intended. Someone noticed it and knew what it was before I explained. I was pleased. There is useful work enough here, but I do not mind a moment when the only fault to consider is a badly folded ear.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore3429_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:3429",
+    "spoken": "[pleased] [grateful] [firm] Well done. These supplies will help the people here, and your effort will be remembered. The Crossroads depends on more than a strong defense at its walls. What comes along the road matters too. If there is something I can do for you, say it. I have thanks enough to give, even when the words come out a little roughly.",
+    "text": "Well done. These supplies will help the people here, and your effort will be remembered. The Crossroads depends on more than a strong defense at its walls. What comes along the road matters too. If there is something I can do for you, say it. I have thanks enough to give, even when the words come out a little roughly.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
   "lore3432_befriended_1.ogg": {

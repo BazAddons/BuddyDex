@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Thork, Crossroads/The Barrens,3429/3856. Adult male Orc/Normal,
+    -- Horde Friendly. Actual defense/supply quests and gratitude;906 admits
+    -- mistaken leader. Scrap-paper wolves original, no item reward promised.
+    -- Research: docs/research/thork-and-thund-queue.md.
+    [3429] = {
+        quote = "A settlement needs supplies as much as strength. Report what you have seen. That paper? A wolf. The ear needs work.",
+        likes = { "A caravan returning with needed supplies", "A strong ally who reports what they know", "A quiet moment to improve the wolf's ear" },
+        dislikes = { "Raiders taking the settlement's supplies", "A confident guess mistaken for a fact", "A useful report buried under boasting" },
+        gossip = "Thork folds scrap paper into wolves when there is a pause between reports. Most have one ear that has seen a difficult campaign.",
+        bio = "Thork leads the Crossroads' defenses in the Warchief's name. He seeks help against Razormane raids and to recover stolen caravan supplies. Blunt with new recruits, he gives generous thanks when their strength helps the settlement.",
+        backstory = "During a pause between reports, Thork folded a scrap of wrapping paper into a wolf. One ear creased badly. A visitor noticed it before speaking, and the ordinary little mistake gave them something easy to share before the serious business began.",
+        secret = "He still tries to improve that ear. He is pleased when someone recognizes the wolf before he explains it, though he usually points out the fault himself.",
+        bestFriend = "Sit beside me, friend. I trust your report, and I am glad you came back. Have a look at the latest wolf.",
+        favorite = { emote = "SALUTE", hint = "A respectful acknowledgment will suit someone who leads the settlement's defenses in the Warchief's name." },
+        lines = {
+            greet = { { "Welcome to the Crossroads. Thork. I lead the defenses here in the Warchief's name. If you know the land, there are people who could use your help. If you have a report, I will hear it. That scrap of paper is a wolf, before you ask. One ear needs work. I had a moment between more important matters.", tone = "[firm] [matter-of-fact] [dryly amused]" },
+                "Back again. Tell me what you found, then take a moment to settle." },
+            idle = { { "I folded a scrap of wrapping paper while waiting for a report. A wolf, though the ear did not turn out as intended. Someone noticed it and knew what it was before I explained. I was pleased. There is useful work enough here, but I do not mind a moment when the only fault to consider is a badly folded ear.", tone = "[reflective] [dryly amused] [warm]" },
+                "Supplies must reach people. A victory on the road should help keep them fed and equipped.",
+                "That is a better ear. I may have spoiled the other one while fixing it." },
+            befriended = { { "You have earned my trust, friend. I value the strength you bring, and I am glad when I see you return. Sit beside me for a moment. There will be another report soon enough. You may look at the latest wolf while we have the time. Tell me what you notice. I have learned that a confident guess still needs someone willing to correct it.", tone = "[warm] [sincere] [steady]" } },
+            poke = { "Yes? Speak. I am listening.", "A wolf. You recognized it? Good." },
+            quest = { { "Well done. These supplies will help the people here, and your effort will be remembered. The Crossroads depends on more than a strong defense at its walls. What comes along the road matters too. If there is something I can do for you, say it. I have thanks enough to give, even when the words come out a little roughly.", tone = "[pleased] [grateful] [firm]" } },
+            questAccepted = { "Find out what is happening before deciding you have found the whole answer." },
+            loot = { "Keep an eye out for the lost supplies. People here need what the raiders took." },
+            combatEnd = { "Check on the others. Then we can consider what comes next." },
+            rest = { "Take the pause while we have it. Even a brief one is useful." },
+            laughAlong = { "Yes, the ear. I could call it battle damage, but you have seen how it happens." },
+            hearth = { "Back to the Crossroads. A return is good news worth hearing." },
+        },
+    },
+
+    -- Thund <Journeyman Engineer>, Orgrimmar,2857/4386.
+    -- Adult male Orc/Normal/Horde Friendly. Actual gossip: brains matter,
+    -- challenges learner, calls Nogg smarter/refers. Pencil sketch original.
+    -- Research: docs/research/thork-and-thund-queue.md.
+    [2857] = {
+        quote = "Engineering takes brains. So does checking behind your ear before you design a machine to find the pencil.",
+        likes = { "A learner ready to think a problem through", "Giving Nogg credit for what he knows", "An idea improved by an honest question" },
+        dislikes = { "Assuming an orc cannot be clever", "Pretending there is nothing left to learn", "Building before checking the problem" },
+        gossip = "Thund once sketched a pencil-finding machine while the pencil was behind his ear. He keeps the drawing and enjoys the question.",
+        bio = "Thund is an engineer in Orgrimmar who takes pride in the brains the craft requires. He challenges new learners to show what they can do, and readily sends those beyond his own knowledge to Nogg, whom he calls smarter than himself.",
+        backstory = "While considering a machine to find a missing pencil, Thund reached behind his ear and found it. He kept the sketch. It makes a useful opening question for someone eager to build: what problem are they actually trying to solve?", 
+        secret = "He enjoys watching someone notice the pencil before he finishes explaining the machine. A good question can improve a lesson faster than a grand demonstration.",
+        bestFriend = "Come, friend. Bring your questions. I enjoy thinking beside you, even when the answer is behind my ear.",
+        favorite = { emote = "NOD", hint = "Show that you are thinking along with someone who would rather test an idea than pretend to know everything." },
+        lines = {
+            greet = { { "Engineering takes brains, friend. Think you are ready to try? Then begin with a question: what problem are you solving? I once sketched a machine to find a pencil while the pencil was behind my ear. I kept the drawing. It gives an eager learner something useful to notice before we begin building anything at all.", tone = "[confident] [animated] [amused]" },
+                "There you are. Bring the question over. We can think it through." },
+            idle = { { "The pencil-finding machine was an interesting idea until I reached behind my ear. There was the pencil. I still have the sketch. Sometimes someone notices the answer while I am explaining the problem, and I enjoy that. Let them ask. A learner who sees something I have overlooked has done useful work before touching a tool.", tone = "[amused] [conversational] [encouraging]" },
+                "Nogg knows things I do not. That is a reason to send you to him, and to listen when he speaks.",
+                "I have checked behind my ear. Now we may consider the more elaborate answer." },
+            befriended = { { "I like having you beside me, friend. You bring questions worth considering, and you do not mind when an answer changes the plan. Come along. We can think through what we find. If I miss something obvious, say so. I would rather enjoy the discovery with you than spend the whole afternoon defending a machine that never needed building.", tone = "[warm] [sincere] [amused]" } },
+            poke = { "Yes? If it is the pencil, I have found it.", "Ask. Thinking starts more easily with a useful question." },
+            learned = { { "Good. Now see what you can do with it, and keep asking where your understanding ends. There is no shame in finding the next person to learn from. Nogg is smarter than I am. If what you need goes beyond me, tell him Thund sent you. Engineering takes brains, including enough to know when another mind can help.", tone = "[proud] [instructive] [encouraging]" } },
+            gear = { "Consider how it works before deciding what you would change." },
+            loot = { "Useful? Perhaps. Tell me what problem you have in mind." },
+            quest = { "Good work. What did you learn while putting the plan to use?" },
+            rest = { "A moment to think. I will check for the pencil before proposing anything elaborate." },
+            laughAlong = { "Yes, behind my ear. The drawing was improving faster than the search." },
+            hearth = { "Back to Orgrimmar. There is more to consider, and Nogg may have a better answer." },
+        },
+    },
+
     -- Lar Prowltusk, outside Sen'jin Village/Durotar,3140/4070.
     -- Adult male Troll, Horde Friendly/Normal. Quest786: infiltrated Kolkar
     -- camp, three attack plans, prevents bloodshed. Meal signals original.

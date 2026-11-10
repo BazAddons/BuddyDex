@@ -557,3 +557,8 @@ Completed female Tauren trade supplier8363 and male Troll Sen'jin quest giver319
 ### 2026-11-09: Lar Prowltusk and Nyse (428)
 
 Completed Troll scout3140 and female Tauren Freewind flight master4317, fifteen lines/four approved v4 signatures each. Sources/era/original writing and full validation: docs/research/lar-and-nyse-queue.md. Lar normal100/300, Nyse Elite150/450 thresholds tested with normal25/150interaction gains; first recorded welcome exactlyonce. Layout/audio/main+Scout smoke pass; installed6,246files/devZIP130.72MiB,6,218runtime mappings. Public207Alliance/128Horde/100unverified seven overlaps. Wider catalog active, CF deferred/public original preserved.
+
+
+### 2026-11-09: Thork and Thund (430)
+
+Completed male Orc Crossroads defender3429 and Orgrimmar engineer2857: fifteen lines/four approved v4 signatures each. Full sources/era/original limits and validation: docs/research/thork-and-thund-queue.md. Normal live gates/99-100and299-300boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,254files/devZIP131.31MiB,6,226runtime mappings. Public207Alliance/130Horde/100unverified, seven overlaps. Wider catalog active; CF deferred/public original preserved.
