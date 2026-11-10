@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Grenhild Darktalon, Thelsamar/Loch Modan. Adult Dwarf female
+    -- 36630/M2 950080, Alliance Friendly. Full86667 confirms mentor
+    -- Norric, local elementals, snow errand and his wish for a visit.
+    -- Her own hope for a visit without an errand is original writing.
+    -- Research: docs/research/grenhilds-visit-and-xaphods-supervisor.md
+    [49808] = {
+        quote = "A jar of snow is a useful errand. I should also like a visit that begins with how have you been instead of what do you need.",
+        likes = { "A lesson grounded in a careful observation", "An ordinary visit to an old mentor", "A greeting before the next request" },
+        dislikes = { "A friend's visit reduced to an errand", "Guessing at magic she has not studied", "Being hurried past a useful observation" },
+        gossip = "Grenhild has considered visiting Norric without a jar or a question to deliver. She seems rather pleased with the idea.",
+        bio = "Grenhild Darktalon studies local elementals in Thelsamar, Loch Modan. Her old mentor Norric asks for snow for his shamanic work. Busy with her studies, she arranges for an adventurer to collect and deliver it instead.",
+        backstory = "Norric sends his unusual request through a minor elemental. Grenhild trusts his knowledge without claiming to know what the snow is for. The delivery helps his work, although he had hoped his former student would visit in person.",
+        secret = "She would like to visit Norric without a specimen or a question leading the way. The conversation could begin with how he has been. There is room for that sort of learning too.",
+        bestFriend = "Walk with me. Tell me how you have been before we begin the next interesting question. I would like to know both, in that order.",
+        favorite = {
+            emote = "GREET",
+            hint = "She appreciates a welcome that remembers the person before moving on to the errand.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Come along. Tell me how you have been before I ask which interesting thing has occupied you. I am trying to remember the proper order.", tone = "[warm] [attentive]" }, "Good to see you. You need not have brought a question or a specimen for the visit to be welcome." },
+            idle = { { "An ordinary visit. No jar, no specimen, no urgent question. I should like to make room for one of those as well as all the useful errands.", tone = "[thoughtful] [fond]" }, "I can trust an old teacher's knowledge and still admit I do not know what he intends to do with the snow. Those thoughts fit together quite comfortably.", "Learning about a place takes attention. I should not become so interested in the next observation that I forget the people who helped me begin." },
+            befriended = { { "Your visits have become something I welcome before I know whether there is an interesting question attached. Come along, friend. I am glad of your company.", tone = "[sincere] [pleased]" } },
+            poke = { "Yes? You may begin with how you are, if you like.", "Go on. I am listening. The question can wait until you have finished the part you came to tell me." },
+            learned = { { "Good. Keep the observation clear, and remember who helped you understand it. Both may be worth returning to.", tone = "[gentle] [encouraging]" } },
+            quest = { "Hear the actual request before deciding you know what it must be for. There is no shame in admitting a part you have not yet understood." },
+            mail = { "News from someone. Read how they have been before hurrying to the request at the end." },
+            rest = { "A little time without an errand. We can speak, or simply enjoy having stopped in the same place." },
+            newFriend = { "Someone new. Let us learn how they are before finding out what they might need from us." },
+            thanked = { "You are welcome. I am glad the help mattered to you." },
+            zone = { "Take a good look around. We may find something worth asking about, and someone worth returning to with the question." },
+        },
+    },
+
+    -- Xaphod Bizznox, southern Stonetalon Mountains. Adult Goblin
+    -- male143213/M2 119376, current Horde Neutral; access unverified.
+    -- Four current tools/pack/kitten-carrier goods, no own quests/gossip.
+    -- Kitten as supervisor is original banter, not an NPC or new mechanic.
+    -- Research: docs/research/grenhilds-visit-and-xaphods-supervisor.md
+    [262471] = {
+        quote = "A pick, a hammer, a cat. The first two are for the work. The third may have opinions about how you are doing it.",
+        likes = { "A customer catching the kitten joke", "A clear request for the proper tool", "A little amusement beside ordinary work" },
+        dislikes = { "Every purchase treated as a solemn ordeal", "An explanation that drowns out the joke", "The smallest member of the gathering ignored" },
+        gossip = "Xaphod has described a kitten as the supervisor of a customer's work. The kitten yawned. He said the inspection had clearly been exhausting.",
+        bio = "Xaphod Bizznox is a goblin vendor at a small camp in southern Stonetalon Mountains. His stock includes mining equipment, a hammer and a white kitten carrier. He enjoys letting that unusual last item interrupt a very serious discussion of tools.",
+        backstory = "A customer considered the tools while a kitten lifted its head. Xaphod announced that the supervisor was inspecting the arrangements. The kitten yawned. He explained that careful judgment could be tiring work.",
+        secret = "He likes the moment a customer stops studying the practical things and smiles at the kitten. There is room for a little company beside the work. He can leave that point wrapped in a joke.",
+        bestFriend = "Come along. We can discuss important work, or leave the supervisor to consider it while we enjoy a little company of our own.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone recognizing a very small supervisor in an ordinary conversation.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. The supervisor can consider the work without us for a little while. I should like some company that can answer in words.", tone = "[dry] [friendly]" }, "Good to see you. A practical question is welcome, and so is a visit without one." },
+            idle = { { "The kitten yawned during the inspection. Exhausting work, clearly. I would have asked for a full report, but I suspected another yawn would have covered it.", tone = "[deadpan] [amused]" }, "A hammer, a pick, a kitten. People can be very intent on the first two before noticing that the third has interrupted the entire discussion.", "A little amusement need not stop useful work. It may simply improve the company in which you are considering it." },
+            befriended = { { "Your company has proved welcome without a tool to choose or a purchase to explain. Come along, friend. We may enjoy the conversation for its own sake.", tone = "[warm] [easygoing]" } },
+            poke = { "Yes? Is this a matter for us, or should the supervisor be permitted another opinion?", "Go on. I shall attempt to keep the practical answer ahead of the kitten joke." },
+            gear = { { "Look at what you actually need before choosing. The supervisor may yawn, but you should give the matter a little attention.", tone = "[steady] [wry]" } },
+            loot = { "Have a look through it before putting it away. You may have found something useful, or something that will distract us pleasantly from the useful things." },
+            bagsFull = { "Put a little order in there. Even the most relaxed supervisor would have trouble finding what you meant to bring." },
+            rest = { "A reasonable pause. The kitten's method is not entirely without merit, though we need not begin by yawning at one another." },
+            newFriend = { "Someone new. Introduce them before inviting the supervisor's judgment. It is only polite." },
+            thanked = { "You are welcome. Good to know the practical part of the conversation survived the rest." },
+            group = { "Let everyone have a little room. A small member of the gathering may otherwise have to interrupt the important discussion." },
+        },
+    },
+
     -- Whuut <Journeyman Alchemist>, Orgrimmar. Adult Orc male10578/
     -- M2 917116, Horde Friendly. Three own gossip captures, full97275/
     -- 97242 local-plant lesson; gifted but impatient, beginning to rethink.

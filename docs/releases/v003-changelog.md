@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Grenhild Darktalon and Xaphod Bizznox: adult Dwarf and Goblin profiles, with thirty personal lines queued.
+- Review full Snowbound dialogue and all four vendor goods; document original mentor-visit and kitten-supervisor stories.
+
 - Add Whuut and Fimbo Greasemitz: adult Orc alchemist and Goblin cafe profiles, with thirty personal lines queued.
 - Review the full common-plant lesson and both seafood quests; resolve missing return text and document original admission/introduction stories.
 
@@ -459,4 +462,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **771 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventeen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **773 fully written NPC profiles**: 454 have initial signature recordings, and three hundred nineteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

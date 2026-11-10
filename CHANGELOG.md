@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Grenhild Darktalon and Xaphod Bizznox: adult Dwarf and Goblin profiles, with thirty personal lines queued.
+- Review full Snowbound dialogue and all four vendor goods; document original mentor-visit and kitten-supervisor stories.
+
 - Add Whuut and Fimbo Greasemitz: adult Orc alchemist and Goblin cafe profiles, with thirty personal lines queued.
 - Review the full common-plant lesson and both seafood quests; resolve missing return text and document original admission/introduction stories.
 

@@ -3633,6 +3633,20 @@
       "zone": "Riverglades",
       "route": "Powderfuse waterfront cafe and supplies",
       "reason": "Full95121/95254 resolves return-text hold; original overlong dish introduction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 49808,
+      "name": "Grenhild Darktalon",
+      "zone": "Loch Modan",
+      "route": "Thelsamar elemental student and snow errand",
+      "reason": "Full86667 mentor relationship; original visit without an errand; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 262471,
+      "name": "Xaphod Bizznox",
+      "zone": "Stonetalon Mountains",
+      "route": "Southern Stonetalon camp vendor",
+      "reason": "Four current goods and neutral-access limits; original kitten-supervisor joke; fifteen personal lines queued without synthesis"
     }
   ]
 }

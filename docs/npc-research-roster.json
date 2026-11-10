@@ -3962,5 +3962,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult unverified man; Full95121/95254 resolves return-text hold; original overlong dish introduction; no Scout sighting claimed",
     "research_notes": "docs/research/whuuts-admission-and-fimbos-introduction.md"
+  },
+  {
+    "npc_id": 49808,
+    "name": "Grenhild Darktalon",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance woman; Full86667 mentor relationship; original visit without an errand; no Scout sighting claimed",
+    "research_notes": "docs/research/grenhilds-visit-and-xaphods-supervisor.md"
+  },
+  {
+    "npc_id": 262471,
+    "name": "Xaphod Bizznox",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult unverified man; Four current goods and neutral-access limits; original kitten-supervisor joke; no Scout sighting claimed",
+    "research_notes": "docs/research/grenhilds-visit-and-xaphods-supervisor.md"
   }
 ]

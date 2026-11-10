@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 330,
-    "unverified": 163,
+    "alliance": 331,
+    "unverified": 164,
     "horde": 312
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 66,
+    "3": 67,
     "7": 57,
     "2": 83,
     "5": 82,
     "4": 64,
     "8": 60,
-    "9": 53,
+    "9": 54,
     "6": 84,
     "96": 24,
     "95": 31
@@ -26,7 +26,7 @@
     "Westfall": 17,
     "Stormwind City": 119,
     "Redridge Mountains": 24,
-    "Loch Modan": 1,
+    "Loch Modan": 2,
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 5,
@@ -45,7 +45,7 @@
     "Thunder Bluff": 39,
     "Durotar": 51,
     "The Barrens": 40,
-    "Stonetalon Mountains": 11,
+    "Stonetalon Mountains": 12,
     "Darnassus": 13,
     "Burning Steppes": 1,
     "Ashenvale": 13,
@@ -8526,6 +8526,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/17804"
     },
     {
+      "npc_id": 49808,
+      "name": "Grenhild Darktalon",
+      "zone": "Loch Modan",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/49808"
+    },
+    {
       "npc_id": 205278,
       "name": "Brother Romulus",
       "zone": "Stormwind City",
@@ -9561,6 +9574,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262469"
     },
     {
+      "npc_id": 262471,
+      "name": "Xaphod Bizznox",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/262471"
+    },
+    {
       "npc_id": 262502,
       "name": "Brix Xizzix",
       "zone": "Mulgore",
@@ -9895,6 +9919,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 771,
-  "awaiting_signature_audio_profiles": 317
+  "authored_profiles": 773,
+  "awaiting_signature_audio_profiles": 319
 }
