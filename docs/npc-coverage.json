@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 285,
+    "alliance": 286,
     "unverified": 153,
-    "horde": 256
+    "horde": 259
   },
   "npc_race_counts": {
     "1": 166,
@@ -17,8 +17,8 @@
     "8": 54,
     "9": 42,
     "6": 78,
-    "96": 15,
-    "95": 20
+    "96": 16,
+    "95": 22
   },
   "zone_counts": {
     "Elwynn Forest": 27,
@@ -57,7 +57,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 34,
+    "Zephras Isle": 37,
     "Riverglades": 9
   },
   "entries": [
@@ -8154,6 +8154,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/256733"
     },
     {
+      "npc_id": 257003,
+      "name": "Ishlee Breezewhisper",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon(s) on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257003"
+    },
+    {
       "npc_id": 257004,
       "name": "Eaysaa Brightgust",
       "zone": "Zephras Isle",
@@ -8196,6 +8209,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257006"
     },
     {
+      "npc_id": 257008,
+      "name": "Baelann Swiftcurrent",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Both Friendly icon(s) on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257008"
+    },
+    {
       "npc_id": 257018,
       "name": "Naleeia Tattermend",
       "zone": "Zephras Isle",
@@ -8222,6 +8249,19 @@
       ],
       "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257020"
+    },
+    {
+      "npc_id": 257021,
+      "name": "Halassa Fernbreeze",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon(s) on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257021"
     },
     {
       "npc_id": 257037,
@@ -8639,6 +8679,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 674,
-  "awaiting_signature_audio_profiles": 220
+  "authored_profiles": 677,
+  "awaiting_signature_audio_profiles": 223
 }

@@ -2954,6 +2954,27 @@
       "zone": "Ashenvale",
       "route": "Splintertree Post Horde hunting quest contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original care/uncertainty lesson or cloak-burr story; no synthesis"
+    },
+    {
+      "npc_id": 257003,
+      "name": "Ishlee Breezewhisper",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Skinning/Fishing starter-region contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original supervising-chair, unexamined-cake or lost-boot story; no synthesis"
+    },
+    {
+      "npc_id": 257021,
+      "name": "Halassa Fernbreeze",
+      "zone": "Zephras Isle",
+      "route": "Shendar Herbalism starter-region contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original supervising-chair, unexamined-cake or lost-boot story; no synthesis"
+    },
+    {
+      "npc_id": 257008,
+      "name": "Baelann Swiftcurrent",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Skinning/Fishing starter-region contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original supervising-chair, unexamined-cake or lost-boot story; no synthesis"
     }
   ]
 }

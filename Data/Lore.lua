@@ -41,6 +41,107 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ishlee Breezewhisper <Skinner>, Valanaar, Zephras Isle. Adult High
+    -- Order female140068/M2 7478494, Horde Friendly. Five lessons/two
+    -- installed welcomes read; empty-chair supervisor is original.
+    -- Research: docs/research/zephras-chairs-cake-and-a-lost-boot.md
+    [257003] = {
+        quote = "My strictest supervisor is an empty chair. It keeps pointing out that I have not sat down yet.",
+        likes = { "A rare pupil asking a careful question", "Work given proper attention", "A chair that reminds her to stop working" },
+        dislikes = { "An interruption without a question", "A task hurried past its awkward part", "Calling every pause wasted time" },
+        gossip = "Ishlee has appointed a chair to supervise her rest. Its instructions seem simple, although she does not always follow them promptly.",
+        bio = "Ishlee Breezewhisper teaches Skinning in Valanaar on Zephras Isle. Few skinners stop to seek her instruction, but she is willing to teach a prepared learner. Her lessons include the Camp Chair alongside the profession's ranks.",
+        backstory = "After another stretch of careful work, she noticed the empty chair waiting beside her. She joked that it was supervising her rest. Calling its silence an instruction has proved a useful way to remember that finishing one task need not begin another immediately.",
+        secret = "The chair has never received a complaint about its manner. She suspects it would be a much less effective supervisor if it could explain the importance of sitting down at length.",
+        bestFriend = "Come along. You can remind me when it is time to pause. I would rather hear the suggestion from a friend than be outdone by an empty chair.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates someone acknowledging a practical suggestion without turning it into another long interruption.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Shall we go? I have informed my strictest supervisor that I am taking a pause. The empty chair raised no objection.", tone = "[dry] [warm]" }, "Ready. Tell me what you need before deciding whether the question is too ordinary to deserve the interruption." },
+            idle = { { "The empty chair supervises my rest. Very firm about it. No long explanations, no competing requests. I am considering whether I should follow its advice more promptly.", tone = "[wry] [amused]" }, "I do not see many skinners seeking lessons. A prepared learner is still welcome to ask what they need to understand.", "Give the awkward part its proper attention. It will not become less awkward because you hurried past noticing it." },
+            befriended = { { "You respect the work and remember there is a person who might enjoy a pause behind it. Come along, friend. I welcome your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? State the question. If the chair sent you, I believe I already know the subject.", "I hear you. A friendly greeting can be a good cause for an interruption as well." },
+            rest = { { "A pause. We appear to have reached the part my supervisor has been recommending. Let us avoid making a task of it.", tone = "[content] [lightly amused]" } },
+            learned = { "Understand where the next careful movement begins. Knowing the name of a technique is not quite the same as being ready to use it." },
+            loot = { "Look at what is there before deciding how it should be handled. Care is easier to give before the mistake." },
+            bagsFull = { "Sort what you mean to use from what you simply kept collecting. The next useful thing still needs somewhere to go." },
+            quest = { "Hear the actual request. An interruption is much easier to welcome when it begins by telling you what matters." },
+            group = { "Let the learner ask. A quiet person may have understood less than the confident silence suggests." },
+            thanked = { "You are welcome. I am pleased you took the trouble to understand, as well as the time to say so." },
+        },
+    },
+
+    -- Halassa Fernbreeze <Herbalist>, Shendar Village, Zephras Isle.
+    -- Adult Windshaper female140080/M2 7478494, Horde Friendly. Five
+    -- lessons/five installed variants read; untranslated language not
+    -- invented. Cake/examination anecdote is original.
+    -- Research: docs/research/zephras-chairs-cake-and-a-lost-boot.md
+    [257021] = {
+        quote = "Yes, I can identify the ingredients. I am trying to enjoy the cake before it becomes an examination.",
+        likes = { "A pupil recognizing her expertise", "A useful question stated plainly", "Cake enjoyed without a lesson attached" },
+        dislikes = { "Careful study dismissed as mere guessing", "An interruption that never reaches its point", "Turning every pleasant thing into a test" },
+        gossip = "Halassa knows her herbs. At a quiet meal, however, she would prefer not to be examined on every ingredient before the first bite.",
+        bio = "Halassa Fernbreeze teaches Herbalism in Shen'dar Village on Zephras Isle. Confident in her own expertise, she offers learners proper techniques. Her instruction includes the profession's ranks and the Incense Candle.",
+        backstory = "Enjoying a piece of cake, she caught herself considering its ingredients as though a pupil had asked for an explanation. The first bite was waiting while the lesson grew. She decided that knowing an answer did not require delivering it at every meal.",
+        secret = "She sometimes reminds herself that the cake is not an examination. It helps her leave the expert's account for later and enjoy something that needs no improvement.",
+        bestFriend = "Come along. We can discuss the work when you wish. Afterward, I would enjoy sharing some cake without conducting a lesson.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates a friend sharing the joke when she catches herself making an ordinary pleasure unnecessarily scholarly.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Shall we go? I have finished considering the next lesson, and would enjoy a little conversation that does not need an examination afterward.", tone = "[confident] [warm]" }, "Ready. Ask what you wish to know. I would rather hear a clear question than have you guess what sounds worthy of my attention." },
+            idle = { { "I can identify the ingredients. That does not mean the cake needs a lecture before I take the first bite. I have begun reminding myself of the distinction.", tone = "[dry] [amused]" }, "Proper technique deserves attention. It is not improved by pretending an uncertain guess was the same as knowledge.", "A pupil may ask again. I would rather explain the part they missed than admire how confidently they misunderstand it." },
+            befriended = { { "You appreciate the work and can laugh with me when I have made the ordinary unnecessarily complicated. Come along, friend. I am pleased to know you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Put the question plainly. Unless it concerns the cake, in which case I may recommend beginning with a bite.", "I hear you. If you came to say hello, that is a perfectly comprehensible reason to interrupt." },
+            learned = { { "Distinguish what you have recognized from what you have assumed. A precise question is a better beginning than a confident name chosen too soon.", tone = "[firm] [instructive]" } },
+            loot = { "Look carefully before giving it a name. Familiarity should help you notice the details, not excuse you from seeing them." },
+            rest = { "A pause. We may enjoy the moment without turning it into an opportunity to demonstrate everything we know." },
+            quest = { "Hear what the person actually asks for. Knowing more than they need does not mean you should supply a different answer." },
+            group = { "Give the uncertain learner room to ask. Knowledge is not made less impressive by being explained clearly." },
+            bagsFull = { "Decide which things the work needs. A collection is less useful when you cannot find the part you intended to use." },
+            thanked = { "You are welcome. I am pleased the explanation helped. There is no need for a test before I believe you." },
+        },
+    },
+
+    -- Baelann Swiftcurrent <Fisher>, Valanaar, Zephras Isle. Adult High
+    -- Order male140067/M2 7478487, both factions Friendly. Three
+    -- lessons/six goods/five installed variants read. Lost boot original.
+    -- Raan fishing task names Fenn, not Baelann; no quest reassignment.
+    -- Research: docs/research/zephras-chairs-cake-and-a-lost-boot.md
+    [257008] = {
+        quote = "Not every catch belongs in a fishing story. Sometimes it belongs back on somebody's foot.",
+        likes = { "A learner willing to describe the difficulty", "A catch returned to its proper owner", "A quiet conversation beside the water" },
+        dislikes = { "A modest catch made into a false boast", "A question dismissed before it is heard", "Assuming everything landed is his to keep" },
+        gossip = "Baelann once landed a boot. He is still interested in finding its owner, although nobody has yet volunteered to claim the catch.",
+        bio = "Baelann Swiftcurrent teaches Fishing in Valanaar on Zephras Isle. He welcomes a fellow fisher's questions and offers training. Poles, fishing lures and other supplies accompany lessons in Fishing and the Fish Bowl.",
+        backstory = "An unexpected weight on the line turned out to be a boot. Once the disappointment passed, he wondered who had lost it. Keeping the catch until someone recognized it seemed a better ending than improving the story into a much larger fish.",
+        secret = "He still hopes to return the boot. A person finding something they missed would be a satisfying result, even if nobody wanted a grand account of the catch afterward.",
+        bestFriend = "Come along. You can tell me exactly what happened today. A story does not need a larger fish before it is worth sharing with a friend.",
+        favorite = {
+            emote = "GREET",
+            hint = "He enjoys someone approaching with a friendly acknowledgment before deciding whether they have an impressive fishing story.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Shall we go? Tell me what the day brought you. The catch need not become larger before I am interested in hearing about it.", tone = "[warm] [easygoing]" }, "Ready. If someone recognizes the lost boot along the way, I may finally have a proper ending to that particular fishing story." },
+            idle = { { "I landed a boot. Not a remarkable fish disguised by poor visibility. A boot. I kept it in case someone recognized it. Returning the catch might be the useful part of the story.", tone = "[matter-of-fact] [amused]" }, "Describe the difficulty before deciding you are simply no good at it. A lesson can begin with the thing that did not happen as expected.", "A quiet moment beside the water can belong in the account too. There need not be a mighty catch to justify enjoying it." },
+            befriended = { { "You can share the ordinary account without making it sound grander for my benefit. Come along, friend. I would enjoy more of that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you have a question, let me hear it. If you recognize the boot, I am particularly glad you stopped.", "I hear you. A greeting is welcome even when you have no catch to report." },
+            learned = { { "Tell me what you noticed. The point at which the attempt became difficult may be the most useful place for us to begin.", tone = "[patient] [encouraging]" } },
+            loot = { "Have a proper look at what you brought in. An unexpected result need not become a disappointing one before you know what it is." },
+            rest = { "A pause. We may enjoy the company without producing a fine catch as proof the time was well spent." },
+            zone = { "New surroundings. Take a moment to notice what differs before assuming the familiar approach is all you need." },
+            group = { "Let the newcomer describe their attempt. A room full of advice is easier to enter when somebody has first heard the question." },
+            mail = { "See who sent it. Someone may have remembered the thing you were hoping they would recognize." },
+            thanked = { "You are welcome. I am pleased the explanation helped, and glad you felt comfortable asking." },
+        },
+    },
+
     -- Byancie <First Aid Trainer>, Dolanaar, Teldrassil. Adult Night Elf
     -- female4862/M2 921844, Alliance Friendly. Full Forever Eralya
     -- chain/camping handoff, three installed referrals and Classic7lessons

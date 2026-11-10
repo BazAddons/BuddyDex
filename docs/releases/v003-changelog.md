@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Ishlee Breezewhisper, Halassa Fernbreeze and Baelann Swiftcurrent: three complete adult profiles with forty-five personal lines queued.
+- Expand Zephras Isle Skinning, Herbalism and Fishing contacts with verified training roles and distinct personal stories.
+
 - Add Byancie and Senani Thunderheart: two complete adult profiles with thirty personal lines queued.
 - Expand Dolanaar care and Ashenvale hunting contacts, grounded in the full Forever patient and Classic trophy quest chains.
 
@@ -309,4 +312,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **674 fully written NPC profiles**: 454 have initial signature recordings, and two hundred twenty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **677 fully written NPC profiles**: 454 have initial signature recordings, and two hundred twenty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

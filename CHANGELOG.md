@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ishlee Breezewhisper, Halassa Fernbreeze and Baelann Swiftcurrent: three complete adult profiles with forty-five personal lines queued.
+- Expand Zephras Isle Skinning, Herbalism and Fishing contacts with verified training roles and distinct personal stories.
+
 - Add Byancie and Senani Thunderheart: two complete adult profiles with thirty personal lines queued.
 - Expand Dolanaar care and Ashenvale hunting contacts, grounded in the full Forever patient and Classic trophy quest chains.
 

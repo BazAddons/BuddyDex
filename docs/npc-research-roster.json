@@ -3283,5 +3283,26 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full Forever patient/camping and Classic hunting chains, all relationship tabs and installed dialogue read; no Scout sighting claimed",
     "research_notes": "docs/research/dolanaar-care-and-ashenvale-patience.md"
+  },
+  {
+    "npc_id": 257003,
+    "name": "Ishlee Breezewhisper",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne women/man, explicit faction Friendly; all own relationship/lesson/stock rows, installed dialogue and exact related camp handoffs read; primary faction icons distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-chairs-cake-and-a-lost-boot.md"
+  },
+  {
+    "npc_id": 257021,
+    "name": "Halassa Fernbreeze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne women/man, explicit faction Friendly; all own relationship/lesson/stock rows, installed dialogue and exact related camp handoffs read; primary faction icons distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-chairs-cake-and-a-lost-boot.md"
+  },
+  {
+    "npc_id": 257008,
+    "name": "Baelann Swiftcurrent",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Skyborne women/man, explicit faction Friendly; all own relationship/lesson/stock rows, installed dialogue and exact related camp handoffs read; primary faction icons distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/zephras-chairs-cake-and-a-lost-boot.md"
   }
 ]

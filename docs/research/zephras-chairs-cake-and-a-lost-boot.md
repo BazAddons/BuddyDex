@@ -1,0 +1,53 @@
+# Zephras chairs, cake and a lost boot
+
+Researched November 10, 2026. Ishlee Breezewhisper257003, Halassa Fernbreeze257021 and Baelann Swiftcurrent257008 each have a single retained full-name identity with no duplicate flag. No local Scout sighting claimed. This batch extends Zephras profession contacts across adult male/female Skyborne and both verified player-faction routes. Racial identity, village and faction-friendly evidence remain separate checks.
+
+## Exact adult identities and access
+
+- [Ishlee current](https://forever.warcraftdb.com/api/data/node/npc/257003): High Order Skyborne95, female140068/M2 7478494, Skinner/Trainer/Vendor, level10, Valanaar map2521pin59.6000,75.9709. Explicit Horde Friendly only. High Order race does not turn this into verified Alliance access.
+- [Halassa current](https://forever.warcraftdb.com/api/data/node/npc/257021): Windshaper Skyborne96, female140080/M2 7478494, Herbalist/Trainer, level10, Shen'dar Village pin43.0966,43.5304. Explicit Horde Friendly only. A secondary neutral label does not replace the actual primary reaction icons, nor does Windshaper imply Valanaar residence.
+- [Baelann current](https://forever.warcraftdb.com/api/data/node/npc/257008): High Order95, male140067/M2 7478487, Fisher/Trainer/Vendor, level10, Valanaar pin63.2315,75.7012. Explicit Alliance Friendly and Horde Friendly. Shared access is counted once in unique profiles, once in each faction total. Baelann Favorbreeze is a different full-name catalog identity, not assumed to be this NPC or a relative.
+
+Fresh adult references [Vayn254151](https://forever.warcraftdb.com/api/data/node/npc/254151), male138042/M2 7478487, and [Endaria254344](https://forever.warcraftdb.com/api/data/node/npc/254344), female138130/M2 7478494, match the adult body models. Installed metadata independently records140067:95:0,140068:95:1,140080:96:1. Level, apparent size and personal name are not age/sex evidence. Profile recording metadata does not override live display routing or faction checks.
+
+## Every own relationship page and lesson
+
+All starts/ends/sells/teaches tabs read for each NPC, one page wherever nonempty:
+
+- Ishlee [starts](https://forever.warcraftdb.com/api/data/node/npc/257003/tab/starts?page=1)0, [ends](https://forever.warcraftdb.com/api/data/node/npc/257003/tab/ends?page=1)0, [sells](https://forever.warcraftdb.com/api/data/node/npc/257003/tab/sells?page=1)0, [teaches](https://forever.warcraftdb.com/api/data/node/npc/257003/tab/teaches?page=1)5. All rows: Skinning8613/8617/8618/10768 and Camp Chair1229517. Secondary [regional listing](https://azeroth.wiki/forever/map/zephras-isle/ishlee-breezewhisper) offers four supplies, but current stock0 is not silently replaced with those as a guaranteed shop.
+- Halassa [starts](https://forever.warcraftdb.com/api/data/node/npc/257021/tab/starts?page=1)0, [ends](https://forever.warcraftdb.com/api/data/node/npc/257021/tab/ends?page=1)0, [sells](https://forever.warcraftdb.com/api/data/node/npc/257021/tab/sells?page=1)0, [teaches](https://forever.warcraftdb.com/api/data/node/npc/257021/tab/teaches?page=1)5. All rows: Herbalism2366/2368/3570/11993 and Incense Candle1229705. [Current primary guide](https://www.wowhead.com/forever/guide/zephras-isle-zone-overview) corroborates Shen'dar gathering trainer location. No claims about every live price or requirement.
+- Baelann [starts](https://forever.warcraftdb.com/api/data/node/npc/257008/tab/starts?page=1)0, [ends](https://forever.warcraftdb.com/api/data/node/npc/257008/tab/ends?page=1)0, [sells](https://forever.warcraftdb.com/api/data/node/npc/257008/tab/sells?page=1)6, [teaches](https://forever.warcraftdb.com/api/data/node/npc/257008/tab/teaches?page=1)3. All stock: Aquadynamic Fish Attractor6533, Bright Baubles6532, Chef's Knife273636, Fishing Pole6256, Nightcrawlers6530 and Shiny Bauble6529. All lessons: Fishing7620/7731 and Fish Bowl1229745. This supports practical fishing training, not a canon record-size catch, fishing contest or guaranteed item through friendship.
+
+Full direct spell metadata read for [Camp Chair1229517](https://forever.warcraftdb.com/api/data/node/spell/1229517), [Incense Candle1229705](https://forever.warcraftdb.com/api/data/node/spell/1229705), [Fish Bowl1229745](https://forever.warcraftdb.com/api/data/node/spell/1229745): each is a profession20 craft. These game recipes do not make the NPC a canonical inventor of that object, guarantee a buff magnitude or add a BuddyDex craft unlock. No personal narrative book pages exposed or invented.
+
+## Full installed dialogue and related camping text
+
+Ishlee's two installed variants read: few skinning pupils but willingness to teach someone ready; interruption during important work. Halassa's five variants read: confident assessment of superior herbal skill, friendly offer of help, two interruption wordings and an unparsed fantasy-language passage. Baelann's five variants read: fellow-fisher instruction offer, open invitation to ask, friendly help, interruption, and an unparsed fantasy-language passage. The unfamiliar-language strings are not translated or expanded into new lore. Shared stock welcomes are not personal quest history. Their tones remain distinct: focused/work-minded, proud/expert, approachable/curious.
+
+All ten rows of [Raan263664 starts](https://forever.warcraftdb.com/api/data/node/npc/263664/tab/starts?page=1) read to trace the actual camping handoffs. Full current descriptions/objectives and installed accept/completion read for:
+
+- [96101 The Great Outdoors](https://forever.warcraftdb.com/api/data/node/quest/96101): sit by Raan's fire, gain the rest effect, then learn a village profession. His camp/introduction is not one of these three NPCs' new deeds.
+- [97967 Camping 101: Fishing](https://forever.warcraftdb.com/api/data/node/quest/97967): Fishing20, Fish Bowl and outdoor/fire advice, but explicitly ends at Fenn Fairweather in Shen'dar. Baelann teaches the craft in current lessons; this does not reassign Fenn's quest or dialogue to him.
+- [97971 Camping 101: Skinning](https://forever.warcraftdb.com/api/data/node/quest/97971): Skinning20, Camp Chair and outdoor/fire advice, but explicitly ends at Mendalass Tattermend in Shen'dar. Ishlee's current craft lesson does not transfer Mendalass's personal task to her.
+
+The related Herbalism97968handoff was fully researched in [Valanaar flower hats and ordinary water](valanaar-flower-hats-and-ordinary-water.md) and names Syriel Nightrain in Valanaar. It is prior contextual research, not a newly discovered Halassa quest or a claimed new read in this batch. Current empty own tabs remain a limited result, not proof the server can never offer a different task. No separate personal chain or relevant personal novel/comic located for these three custom NPCs. Common Zephras narrative/history does not establish family, ancient personal memories or participation in every island event.
+
+Primary sources cached C:/Users/brett/BuddyDex-builds/zephras-ishes-halassa-and-baelann. No live window, phase, route, service or visual observation claimed.
+
+## Original BuddyDex character writing and ordinary rewards
+
+Ishlee's empty chair jokingly supervising her breaks is original personification, not a speaking/sentient chair or a new manager NPC. NOD accepts a practical suggestion without another lecture. The lesson in rest does not establish her as the canonical inventor of Camp Chairs.
+
+Halassa catching herself analyzing a piece of cake instead of enjoying it, and choosing not to make every meal an examination, are original. No recipe, secret herb, magical cake or prescribed diet is invented. GRIN shares her dry self-awareness without reducing her actual expertise.
+
+Baelann fishing up a lost boot and hoping to return it rather than inflate the catch story is original. No known owner, boot item, collection quest, permanent catch table or free equipment reward. GREET welcomes ordinary company and honest accounts.
+
+All three have full personality fields, five lore pages, favorite hints and fifteen personal lines apiece, with four hidden delivery directions each. Approved skyborne-female for Ishlee/Halassa and skyborne-male for Baelann. Forty-five missing lines queued offline, no synthesis. Existing personality/lore/companion unlocks remain rewards; no class, skill, faction, reaction or non-attackability override. Recordings require explicit user confirmation that billing is fixed.
+
+## Validation and delivery
+
+Main/Scout smoke passes with zero load errors/failures, including lore/page/line/favorite budgets and fresh/existing character storage isolation. Initial page-fit check caught Halassa bestFriend wrapping to four lines; shortened before the successful final smoke and package. The pure-Python draft estimate was not treated as proof over the actual addon budget check. Actual-addon harness C:/Users/brett/AppData/Local/Temp/buddydex-zephras-three-677.py passes four fresh sessions: Horde Ishlee/Halassa, Alliance Baelann and Horde Baelann. Exact adult displays, approved live/declared voices, fifteen supported unmapped personal lines each, attackable/reaction3 rejection without discovery, nonattackable reaction5 acceptance, HELLO25 plus favorite150 yielding175,99/100 and299/300 tier boundaries,299companion rejection and300text-only welcome without mismatched audio. Generic guard exclusions retained. Actual addon under mocks, not a live stock, phase, training or visual observation. No runtime or saved-variable edits. Full offline queue audit was rerun after the page correction and completed successfully.
+
+677 fully written profiles / 454 with initial signature recordings / 223 written-complete audio-pending. Ishlee257003, Halassa257021 and Baelann257008 add45 personal jobs/5900 tagged input characters in approved female Skyborne (1890/2025) and male Skyborne (1985). Full offline audit11810 missing jobs/813066 tagged input characters: shared3548/personal8262, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-677/queue.json`. Two uncertain Westfall identities remain unprofiled. Catalog1536 name groups/1549 retained identities unchanged; it overlaps the backlog. No synthesis/account/billing calls in this batch.
+
+Explicit public Friendly286Alliance/259Horde/153unverified, twenty-one shared overlaps, yields677 unique profiles. Current village/race distinctions preserved rather than turning either into a guaranteed player-faction route. Local developmentv003 installed/hash-verified6362 releasefiles; ZIP6362files/6334audio mappings/138.61MiB; source/installed/ZIP Lore bytes match and ZIP CRC passes. SHA256 `1665ed705f70e1ebee475d523e1f012222006bd7ab8736d52139f38f0bfef70b`. Publishedv002 untouched.
