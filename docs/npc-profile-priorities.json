@@ -3444,6 +3444,20 @@
       "zone": "Thousand Needles",
       "route": "Mirage Raceway protective-materials and scale experiments",
       "reason": "Full shell/fin/scale/referrals and fuel/piston context; original arm-span flourish on established curiosity; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 374,
+      "name": "Cog Glitzspinner",
+      "zone": "Duskwood",
+      "route": "Darkshire star-viewing design collaborator",
+      "reason": "Full four-stage Look to the Stars names his blueprint/friendship; original polite plan turning; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11119,
+      "name": "Azzleby",
+      "zone": "Winterspring",
+      "route": "Everlook stable master",
+      "reason": "Stable identity and cold setting, modern pet/SoD extras excluded; original blanket for shivering owner; fifteen personal lines queued without synthesis"
     }
   ]
 }

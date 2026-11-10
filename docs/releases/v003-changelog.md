@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Cog Glitzspinner and Azzleby: adult Alliance Gnome and Horde Goblin profiles, with thirty personal lines queued.
+- Read the full star-viewing quest chain and verify the Everlook stable role; document original plan-turning and blanket anecdotes.
+
 - Add Valreaa Valewind and Wizzle Brassbolts: adult Windshaper and Gnome profiles with thirty personal lines queued.
 - Read the grove encroachment task and complete racer safeguards/scale context; document original quiet-news and storytelling details.
 
@@ -417,4 +420,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **744 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **746 fully written NPC profiles**: 454 have initial signature recordings, and two hundred ninety-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

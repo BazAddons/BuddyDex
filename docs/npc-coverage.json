@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 318,
+    "alliance": 319,
     "unverified": 159,
-    "horde": 299
+    "horde": 300
   },
   "npc_race_counts": {
     "1": 167,
     "3": 61,
-    "7": 55,
+    "7": 56,
     "2": 80,
     "5": 80,
     "4": 60,
     "8": 58,
-    "9": 49,
+    "9": 50,
     "6": 82,
     "96": 23,
     "95": 29
@@ -27,13 +27,13 @@
     "Stormwind City": 118,
     "Redridge Mountains": 24,
     "Loch Modan": 1,
+    "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 3,
     "Ironforge": 55,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
     "Undercity": 15,
-    "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
     "Hillsbrad Foothills": 9,
@@ -54,7 +54,7 @@
     "Tanaris": 8,
     "Feralas": 3,
     "Desolace": 9,
-    "Winterspring": 1,
+    "Winterspring": 2,
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
@@ -462,6 +462,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/372"
+    },
+    {
+      "npc_id": 374,
+      "name": "Cog Glitzspinner",
+      "zone": "Duskwood",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/374"
     },
     {
       "npc_id": 376,
@@ -7663,6 +7676,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11116"
     },
     {
+      "npc_id": 11119,
+      "name": "Azzleby",
+      "zone": "Winterspring",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11119"
+    },
+    {
       "npc_id": 11189,
       "name": "Qia",
       "zone": "Winterspring",
@@ -9550,6 +9576,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 744,
-  "awaiting_signature_audio_profiles": 290
+  "authored_profiles": 746,
+  "awaiting_signature_audio_profiles": 292
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Cog Glitzspinner and Azzleby: adult Alliance Gnome and Horde Goblin profiles, with thirty personal lines queued.
+- Read the full star-viewing quest chain and verify the Everlook stable role; document original plan-turning and blanket anecdotes.
+
 - Add Valreaa Valewind and Wizzle Brassbolts: adult Windshaper and Gnome profiles with thirty personal lines queued.
 - Read the grove encroachment task and complete racer safeguards/scale context; document original quiet-news and storytelling details.
 

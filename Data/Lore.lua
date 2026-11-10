@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cog Glitzspinner, Darkshire/Duskwood. Adult Gnome
+    -- male4287/M2 900914, Alliance Friendly. Full174/175/177/181
+    -- name his blueprint and friendship with Viktori; no solved curse.
+    -- Polite back-and-forth plan turning is original, not a quest event.
+    -- Research: docs/research/cogs-plan-and-azzlebys-blanket.md
+    [374] = {
+        quote = "A good explanation should face the person trying to follow it. If we both insist on that, we may need to sit on the same side.",
+        likes = { "A plan two people can follow", "Practical help for a friend's project", "An explanation with room for questions" },
+        dislikes = { "A drawing offered instead of an answer", "Someone embarrassed for asking to see", "A theory announced as a proven solution" },
+        gossip = "Cog has turned a plan back and forth with a visitor. Apparently both were trying to make it easier for the other to read.",
+        bio = "Cog Glitzspinner is a Gnome in Darkshire, Duskwood. He has promised to help his friend Viktori Prism'Antras build a device for viewing the stars. His blueprint calls for a tube, a reflective surface and a lens.",
+        backstory = "Explaining a drawing, Cog turned it toward his visitor. The visitor turned it toward him. This happened twice more before either noticed. Cog laughed, moved around the table and began again with both of them looking from the same side.",
+        secret = "He liked that the visitor cared whether he could follow along, even while he was the one explaining. A considerate collaborator makes the work feel less solitary.",
+        bestFriend = "Come along, friend. We can stand on the same side to begin with. I would enjoy hearing your questions before I begin answering mine.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates a thoughtful acknowledgment that someone is following the explanation and is comfortable asking what comes next.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. We can begin on the same side this time. It simplifies the explanation considerably.", tone = "[warm] [wry]" }, "There you are. Ready for a walk? Your questions would be welcome company." },
+            idle = { { "I turned the plan toward them. They turned it toward me. A very considerate exchange, with remarkably little progress until I moved my chair.", tone = "[amused] [fond]" }, "Viktori has a purpose for the star-viewing device. A useful plan should help him pursue it, rather than pretend the answer is already known.", "A tube, a reflective surface, a lens. Each part has a purpose worth explaining before admiring the whole." },
+            befriended = { { "You have become someone I enjoy thinking and talking beside. Come along, friend. There is room for your questions as well as my explanations.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Shall I turn the explanation around, or simply begin again?", "I am listening. There is no need to apologize for the question." },
+            learned = { { "Good. Now tell me how you understand it. We may discover where the explanation still needs work.", tone = "[attentive] [encouraging]" } },
+            loot = { "What could it contribute? A promising part still needs a purpose in the whole." },
+            gear = { "See how the pieces work together before deciding what the next improvement requires." },
+            quest = { "Keep the task and its purpose together. A clever part is not always the part being asked for." },
+            rest = { "A welcome pause. We can put the explanation aside and enjoy the company for a moment." },
+            group = { "Make sure everyone can follow. A plan is more useful when its collaborators can discuss it." },
+            thanked = { "Glad to help, friend. I appreciate having someone considerate to work things through with." },
+        },
+    },
+
+    -- Azzleby, Everlook/Winterspring. Adult Goblin male
+    -- 10656/M2 119376, explicit Horde Friendly. Stable Master;
+    -- own current quests/services tables0, no personal gossip found.
+    -- Blanket for shivering owner is original; no modern pet services.
+    -- Research: docs/research/cogs-plan-and-azzlebys-blanket.md
+    [11119] = {
+        quote = "The beast is settled nicely. You are still shivering. We may need to extend the care to whoever brought it.",
+        likes = { "A companion settled after a long journey", "An owner admitting they need warmth too", "Conversation without chattering teeth" },
+        dislikes = { "Stubbornness mistaken for a warm coat", "Care for the beast but none for its owner", "Snow carried into a comfortable corner" },
+        gossip = "Azzleby has apparently had to persuade a traveler to accept a blanket after settling their beast. The owner took considerably more convincing.",
+        bio = "Azzleby is a Goblin stable master by the gates of Everlook in Winterspring. Travelers can find him among the settlement's practical services, where caring for companions is ordinary work in a decidedly cold part of the world.",
+        backstory = "A traveler arrived worried about their companion's comfort while shivering through every question. Azzleby settled the beast, then put a blanket over the owner's shoulders. Persuading the traveler to sit still proved the more difficult task.",
+        secret = "The blanket was partly for his own sake. He enjoys hearing a traveler's account much more once their teeth stop chattering through it.",
+        bestFriend = "Come along, friend. Bring your coat. There is nothing admirable about chattering through a conversation I would like to hear.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "He appreciates someone remembering to check on the person doing the looking after, as well as the companion being cared for.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, friend. Come along. Have you brought your coat? Good. I would like to hear the conversation without your teeth joining in.", tone = "[dry] [warm]" }, "Good to see you. Ready for a walk? Remember that looking after yourself is allowed." },
+            idle = { { "The beast settled readily. Its owner needed a blanket and considerably more persuasion. You see the difficult part of the profession.", tone = "[wry] [fond]" }, "Admitting you are cold is useful information. It is not a confession of defeat.", "A traveler tells a much better story once their teeth stop trying to tell it first." },
+            befriended = { { "I have come to look forward to your company after the practical matters are settled. Come along, friend. I would enjoy hearing how your day has gone.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Warm enough to finish the question?", "I am listening. Take your time, provided you are not freezing in place." },
+            comforted = { { "Thank you, friend. It is pleasant to have someone remember this end of the looking after.", tone = "[quietly grateful] [sincere]" } },
+            rest = { "A sensible pause. You need not wait until the journey has made the decision for you." },
+            landed = { "There we are. See that you and your companion are both comfortable before the next errand." },
+            quest = { "Look after what the task requires, and remember that includes getting yourself back." },
+            newFriend = { "A new acquaintance. Give them a moment to settle before asking for the whole travel account." },
+            group = { "Check that everyone is comfortable enough to continue. The quiet one may still need asking." },
+            thanked = { "You are welcome, friend. Taking a little care made that much easier for both of us." },
+        },
+    },
+
     -- Valreaa Valewind, Thendal Grove/Zephras Isle. Adult
     -- Windshaper female139409/M2 7478494, both factions Friendly.
     -- Full92473 and main handoff context; rangers saved unnamed boy,

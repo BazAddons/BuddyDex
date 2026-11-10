@@ -3773,5 +3773,19 @@
     "zone": "Thousand Needles",
     "source": "Reviewed adult Gnome man, explicit Horde Friendly only; Full shell/fin/scale/referrals and fuel/piston context; original arm-span flourish on established curiosity; no Scout sighting claimed",
     "research_notes": "docs/research/valreaas-quiet-news-and-wizzles-questions.md"
+  },
+  {
+    "npc_id": 374,
+    "name": "Cog Glitzspinner",
+    "zone": "Duskwood",
+    "source": "Reviewed adult Alliance Gnome man; Full four-stage Look to the Stars names his blueprint/friendship; original polite plan turning; no Scout sighting claimed",
+    "research_notes": "docs/research/cogs-plan-and-azzlebys-blanket.md"
+  },
+  {
+    "npc_id": 11119,
+    "name": "Azzleby",
+    "zone": "Winterspring",
+    "source": "Reviewed adult Horde Goblin man; Stable identity and cold setting, modern pet/SoD extras excluded; original blanket for shivering owner; no Scout sighting claimed",
+    "research_notes": "docs/research/cogs-plan-and-azzlebys-blanket.md"
   }
 ]
