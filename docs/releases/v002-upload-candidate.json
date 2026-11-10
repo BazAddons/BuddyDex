@@ -1,12 +1,29 @@
 {
   "version": "002",
-  "file_name": "BuddyDex-v002.zip",
-  "sha256": "696a680d5baa18c35df523976257fd48b413e2d357b004f9bc9b46ab4403645b",
-  "source_commit": "71a3574ce60e489b420eeeeba0293b6bed8e7d93",
-  "completed_profiles": 274,
-  "release_files": 5630,
-  "audio_mappings": 5602,
-  "publication_status": "Unverified; automated upload did not occur",
-  "publication_note": "User authorized immediate upload. Windows browser automation stopped because URL-policy enforcement was unsupported for Firefox. User was given the ZIP and changelog for manual upload; do not infer that upload occurred.",
-  "artifact_policy": "Preserve the handed-off v002 ZIP and changelog unchanged while publication status is unresolved. Build later profile work into a separate development output directory. Confirm publication status before choosing the next public version."
+  "file_name": "BuddyDex-v002-forever.zip",
+  "sha256": "89baa5d2b8ea1a43fe3a727adfdb75ad489f940826890ca355df11a2a47bf451",
+  "source_commit": "f5a3777e524d1d018608efa322873d4d8f8a2196",
+  "tag": "v002",
+  "curseforge_project_id": 1793016,
+  "completed_profiles": 452,
+  "release_files": 6342,
+  "audio_mappings": 6314,
+  "recorded_audio_files": 6316,
+  "publication_status": "Uploaded successfully to CurseForge; public approval status not yet verified",
+  "publication_note": "Tag-push Actions run completed successfully and explicitly logged successful CurseForge upload for 1.60.1 release. GitHub release asset downloaded and independently verified. No separate CurseForge file ID returned in visible logs.",
+  "workflow_url": "https://github.com/BazAddons/BuddyDex/actions/runs/42748352716",
+  "github_release_url": "https://github.com/BazAddons/BuddyDex/releases/tag/v002",
+  "artifact_policy": "Keep v002 tag and published ZIP immutable. Continue profile work in development output; choose a new public version for the next release. Original274-profile handoff preserved in local archive and previous_handoff record.",
+  "previous_handoff": {
+    "version": "002",
+    "file_name": "BuddyDex-v002.zip",
+    "sha256": "696a680d5baa18c35df523976257fd48b413e2d357b004f9bc9b46ab4403645b",
+    "source_commit": "71a3574ce60e489b420eeeeba0293b6bed8e7d93",
+    "completed_profiles": 274,
+    "release_files": 5630,
+    "audio_mappings": 5602,
+    "publication_status": "Unverified; automated upload did not occur",
+    "publication_note": "User authorized immediate upload. Windows browser automation stopped because URL-policy enforcement was unsupported for Firefox. User was given the ZIP and changelog for manual upload; do not infer that upload occurred.",
+    "artifact_policy": "Preserve the handed-off v002 ZIP and changelog unchanged while publication status is unresolved. Build later profile work into a separate development output directory. Confirm publication status before choosing the next public version."
+  }
 }
