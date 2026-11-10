@@ -3430,5 +3430,12 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Tauren man, Horde Friendly; all own current/Classic relationships and four installed greetings; original freely offered beast courtesy distinguished, later Cataclysm fate excluded; no Scout sighting claimed",
     "research_notes": "docs/research/ashenvale-pages-and-taurajo-courtesy.md"
+  },
+  {
+    "npc_id": 263570,
+    "name": "Creeg Bothunk",
+    "zone": "The Barrens",
+    "source": "Reviewed adult Troll male, Horde Neutral; all28goods, exact installed supply/repair greeting and faction2798context; original returning-raider/strap writing distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/creeg-returning-raiders-and-fimbo-source-gaps.md"
   }
 ]

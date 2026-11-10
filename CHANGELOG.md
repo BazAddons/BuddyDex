@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Creeg Bothunk: a full adult Troll quartermaster profile near Ratchet, with fifteen personal lines queued.
+- Research his28current goods, supply/repair dialogue and Darkspear Raiders context; retain neutral-unit eligibility.
+
 - Add Gurda Ragescar and Omusa Thunderhorn: two full adult Horde profiles with thirty personal lines queued.
 - Ground their writing in The Lost Pages, all manual item records and Omusa's actual quiet-camp/wind-rider dialogue.
 

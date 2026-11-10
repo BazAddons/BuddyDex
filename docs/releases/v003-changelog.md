@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Creeg Bothunk: a full adult Troll quartermaster profile near Ratchet, with fifteen personal lines queued.
+- Research his28current goods, supply/repair dialogue and Darkspear Raiders context; retain neutral-unit eligibility.
+
 - Add Gurda Ragescar and Omusa Thunderhorn: two full adult Horde profiles with thirty personal lines queued.
 - Ground their writing in The Lost Pages, all manual item records and Omusa's actual quiet-camp/wind-rider dialogue.
 
@@ -339,4 +342,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **695 fully written NPC profiles**: 454 have initial signature recordings, and two hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **696 fully written NPC profiles**: 454 have initial signature recordings, and two hundred forty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

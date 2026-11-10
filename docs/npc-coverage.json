@@ -4,7 +4,7 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 292,
-    "unverified": 156,
+    "unverified": 157,
     "horde": 269
   },
   "npc_race_counts": {
@@ -14,7 +14,7 @@
     "2": 78,
     "5": 72,
     "4": 55,
-    "8": 54,
+    "8": 55,
     "9": 43,
     "6": 82,
     "96": 17,
@@ -44,7 +44,7 @@
     "Mulgore": 22,
     "Thunder Bluff": 39,
     "Durotar": 49,
-    "The Barrens": 34,
+    "The Barrens": 35,
     "Stonetalon Mountains": 10,
     "Darnassus": 9,
     "Burning Steppes": 1,
@@ -8688,6 +8688,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263326"
     },
     {
+      "npc_id": 263570,
+      "name": "Creeg Bothunk",
+      "zone": "The Barrens",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Explicit Horde Neutral; public Friendly access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263570"
+    },
+    {
       "npc_id": 264074,
       "name": "Mazu'kon",
       "zone": "Mulgore",
@@ -8908,6 +8919,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 695,
-  "awaiting_signature_audio_profiles": 241
+  "authored_profiles": 696,
+  "awaiting_signature_audio_profiles": 242
 }

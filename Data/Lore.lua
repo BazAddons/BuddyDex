@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Creeg Bothunk, Darkspear Raiders Quartermaster, near Ratchet.
+    -- Adult Troll male146070/M2 1022938, Horde Neutral. All28goods,
+    -- repair/supply greeting and faction2798read; own quest tabs empty.
+    -- Returned raider/damaged strap anecdote is original, not a quest.
+    -- Research: docs/research/creeg-returning-raiders-and-fimbo-source-gaps.md
+    [263570] = {
+        quote = "Bring the gear back with a complaint. I prefer a raider who can tell me what needs fixing.",
+        likes = { "A raider returning to explain the damage", "Supplies suited to the task ahead", "A practical complaint heard properly" },
+        dislikes = { "A broken strap dismissed until departure", "Bluster offered instead of a clear request", "Forgetting who has to carry the equipment" },
+        gossip = "Creeg is remarkably patient with complaints about damaged equipment. He prefers hearing the complaint to wondering what happened to its owner.",
+        bio = "Creeg Bothunk supplies the Darkspear Raiders near Ratchet and offers repairs. His stock includes rations, bandages, draughts and equipment. The Raiders contest their ancestral islands against the Theramore Expeditionary Force.",
+        backstory = "A raider returned apologizing for a damaged strap. Creeg asked where it had failed, rather than why it had been brought back. An explanation could improve the repair. More importantly, there was someone standing there able to give it.",
+        secret = "He remembers the person returning more fondly than the repaired strap. A sharp complaint is still a voice he is glad has come back to the supply line.",
+        bestFriend = "Come along, friend. You can tell me what troubles you without inventing a broken strap first. I am pleased to have you beside me.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values acknowledgment that keeping raiders supplied is part of the work, not merely preparation before the important part.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "There you are. Shall we go? Tell me what you need before making a grand speech about how little trouble you intend to be.", tone = "[steady] [welcoming]" }, "Ready. A clear request is useful. Pretending a broken strap will last another trip is less useful." },
+            idle = { { "A raider brought back a damaged strap and began apologizing. I asked where it failed. An explanation can improve a repair. Having someone standing there to explain it is a good beginning.", tone = "[dry] [thoughtful]" }, "A complaint is not always an unwelcome sound. Sometimes it tells you that someone made it back and knows what needs attention.", "The Raiders need their supplies as well as their courage. Rations and bandages do not become less important because nobody makes a fine boast about packing them." },
+            befriended = { { "You have become someone I am pleased to see without a list of damaged equipment between us. Come along, friend. You may speak plainly, and I will be glad of the company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Give me the actual trouble before deciding how impressive the explanation ought to sound.", "I hear you. You need not pretend the visit is urgent to make it worth my attention." },
+            gear = { { "Check the strap before setting out. Tell the person doing the repair where it gave way. Knowing how a thing failed is more useful than assuring me it was splendid until then.", tone = "[practical] [firm]" } },
+            combatEnd = { "It is over. Check the others before counting the damage to the equipment. The person returning matters more than the strap." },
+            loot = { "Have a look. Something useful deserves a place where you can find it when the next task actually requires it." },
+            bagsFull = { "Make room for what you need. A bag filled with impressive things can still leave out the supplies that get you through the work." },
+            group = { "Ask what the others are carrying before deciding that everyone is ready. The supply problem does not disappear when nobody mentions it." },
+            rest = { "A pause. You may tell me the complaint without arranging for it to become a lesson. Sometimes I would simply rather hear how you have been." },
+            thanked = { "You are welcome. I am pleased it helped. Remember the supplies when they are doing their job quietly too, before something gives you cause to complain." },
+        },
+    },
+
     -- Gurda Ragescar, near Splintertree, Ashenvale. Adult Orc female
     -- 12946/M2 949470, Horde Friendly. Full6504quest and all15manual
     -- item records reviewed; no readable manual text exposed. Asking

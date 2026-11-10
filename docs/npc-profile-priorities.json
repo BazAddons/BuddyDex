@@ -3101,6 +3101,13 @@
       "zone": "The Barrens",
       "route": "Camp Taurajo wind rider master",
       "reason": "Complete adult Horde profile with fifteen personal lines queued; four actual flight greetings and original courtesy toward wind riders; no synthesis"
+    },
+    {
+      "npc_id": 263570,
+      "name": "Creeg Bothunk",
+      "zone": "The Barrens",
+      "route": "Ratchet-area Darkspear Raiders supplies and repairs",
+      "reason": "Complete adult Troll male profile with fifteen lines queued; verified stock/dialogue/faction context and original returned-raider story; neutral access subject to live checks; no synthesis"
     }
   ]
 }
