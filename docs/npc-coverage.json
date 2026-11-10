@@ -1,18 +1,18 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 444,
+  "completed_profiles": 446,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 207,
-    "unverified": 102,
-    "horde": 142
+    "unverified": 103,
+    "horde": 143
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
     "2": 43,
-    "5": 41,
+    "5": 43,
     "4": 21,
     "8": 31,
     "9": 22,
@@ -45,7 +45,7 @@
     "Stonetalon Mountains": 4,
     "Darnassus": 3,
     "Thousand Needles": 4,
-    "Undercity": 3,
+    "Undercity": 5,
     "Tanaris": 5,
     "Feralas": 1,
     "Desolace": 6,
@@ -3465,6 +3465,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4317"
     },
     {
+      "npc_id": 4565,
+      "name": "Richard Kerwin",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current API confirms identity/model but no current public reaction. Historical Horde trainer references do not establish current access; ordinary live gates apply.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4565"
+    },
+    {
       "npc_id": 4575,
       "name": "Hannah Akeley",
       "zone": "Undercity",
@@ -4758,6 +4769,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10045"
+    },
+    {
+      "npc_id": 10053,
+      "name": "Anya Maulray",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly; precise map projection/location uncertain; live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10053"
     },
     {
       "npc_id": 10118,

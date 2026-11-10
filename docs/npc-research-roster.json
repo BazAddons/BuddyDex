@@ -1673,5 +1673,19 @@
     "zone": "Thunder Bluff",
     "source": "Individually reviewed current named adult model/HordeFriendly identity and all own tabs; Naal related Forever quest full text checked; no Scout sighting claimed",
     "research_notes": "docs/research/nan-and-naal-mistrunner-queue.md"
+  },
+  {
+    "npc_id": 10053,
+    "name": "Anya Maulray",
+    "zone": "Undercity",
+    "source": "Individually reviewed current named adult model/primary Undercity identity; Anya current HordeFriendly, Richard current public reaction unverified; historical quest and later retail separated; no Scout sighting claimed",
+    "research_notes": "docs/research/anya-maulray-and-richard-kerwin-queue.md"
+  },
+  {
+    "npc_id": 4565,
+    "name": "Richard Kerwin",
+    "zone": "Undercity",
+    "source": "Individually reviewed current named adult model/primary Undercity identity; Anya current HordeFriendly, Richard current public reaction unverified; historical quest and later retail separated; no Scout sighting claimed",
+    "research_notes": "docs/research/anya-maulray-and-richard-kerwin-queue.md"
   }
 ]

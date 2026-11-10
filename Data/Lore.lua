@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Anya Maulray <Stable Master>, Trade Quarter/Undercity,10053/9273.
+    -- Adult female Forsaken/current HordeFriendly; exact map pin uncertain.
+    -- No personal quest found; later reclaimed Ruins/pet recovery excluded.
+    -- Her awkward animal impressions are original BuddyDex writing.
+    -- Research: docs/research/anya-maulray-and-richard-kerwin-queue.md.
+    [10053] = {
+        quote = "Let the beast look you over. If I can wait quietly, you certainly can.",
+        likes = { "An animal given time to settle", "A patient handler", "A familiar creature recognizing her" },
+        dislikes = { "A frightened beast being hurried", "Strangers grabbing at collars", "An audience for her wolf impression" },
+        gossip = "Anya understands animals better than she imitates them. A peculiar squeak has occasionally been heard where a howl was expected.",
+        bio = "Anya Maulray is a Forsaken stable master in Undercity's Trade Quarter. Her quiet manner gives an unsettled animal time to look her over. Once it relaxes, she is content to wait a little longer while its handler catches up.",
+        backstory = "Anya once tried a reassuring animal call and produced a remarkable squeak. The beast stared. Its handler tried not to laugh. She discovered that standing quietly worked rather better, though she still practices when she thinks nobody is nearby.",
+        secret = "She has almost perfected a wolf howl, provided nobody hears it. An audience somehow turns the ending into a squeaky hinge every time.",
+        bestFriend = "You may stay for the next attempt. Laugh if you must. A friend who can hear that noise and remain beside me is worth keeping.",
+        favorite = { emote = "APPLAUD", hint = "Offer a little encouragement when her animal impression deserves marks for effort." },
+        lines = {
+            greet = { { "There you are. Give me a moment to finish making a fool of myself. That was meant to be a wolf, before you ask. Standing quietly is usually the better approach with an unsettled beast. It has certainly earned me fewer peculiar looks. Come along, friend. You can keep the imitation to yourself.", tone = "[dry] [fond] [wry]" },
+                "Good. Someone who can wait without pulling on a collar. Let us go." },
+            idle = { { "I can manage the beginning of a howl quite well when nobody is listening. The ending remains a difficulty. It becomes a squeak, and then everyone looks at me. Animals included. I suppose that is one way to get their attention. I would prefer a method that leaves me a little dignity.", tone = "[confiding] [dry] [amused]" },
+                "That was a hinge. Probably. There is no need to investigate.",
+                "Let it look you over. Trust does not improve when you hurry it." },
+            befriended = { { "You have seen enough of my awkward attempts to know I am not always as composed as I look. And you keep returning. I appreciate that. Come, friend. We can enjoy the walk without proving anything to each other. If a strange squeak follows us, I shall rely on your discretion.", tone = "[warm] [sincere] [dry]" } },
+            rest = { { "Stop a moment. Let everything settle before you decide what to do next. A frightened animal watches the hands, the voice, the way someone approaches. People could use a little of that patience too. Sit beside me. I can promise a quiet interval, provided you do not ask for the wolf impression.", tone = "[calm] [gentle] [wry]" } },
+            poke = { "Yes? I had noticed you without the pawing.", "Patience. You are rather large to be this restless." },
+            mount = { "Give it a moment to find its footing before you ask for speed." },
+            combatEnd = { "All here? Good. Stand quietly until the shaking passes." },
+            quest = { "A task finished. Take care of those who helped you do it." },
+            bagsFull = { "Do not pile the whole load onto an animal simply because you packed badly." },
+            hearth = { "Home is a fine place to be recognized without an explanation." },
+            levelUp = { "You are learning. I shall spare us both a celebratory howl." },
+        },
+    },
+
+    -- Richard Kerwin <Warlock Trainer>, Magic Quarter/Undercity,4565/2646.
+    -- Adult male Forsaken; current sparse identity, public access unverified.
+    -- Installed gossip: curt training warning/dismissal/generic retraining.
+    -- Historical Impsy chain researched, current API404: no active quest claim.
+    -- Practicing sincere praise is original fiction, no class friendship gate.
+    -- Research: docs/research/anya-maulray-and-richard-kerwin-queue.md.
+    [4565] = {
+        quote = "That was well done. I am aware it sounded like a warning. Accept the compliment before I try again.",
+        likes = { "Someone noticing a mistake early", "A lesson taken seriously", "Praise understood on the first attempt" },
+        dislikes = { "Confidence outrunning control", "A warning mistaken for a challenge", "Having to explain a compliment twice" },
+        gossip = "Richard has been heard practicing a few encouraging words. Listeners are still deciding whether they ought to be worried.",
+        bio = "Richard Kerwin trains warlocks in Undercity's Magic Quarter. He is blunt about how much a learner still has to master. Correcting a dangerous habit comes easily to him; making a well-earned compliment sound reassuring takes practice.",
+        backstory = "Richard once offered sincere praise and watched its recipient brace for a reprimand. He tried again, more slowly. That made matters worse. He began practicing a few plain words of encouragement without the ominous pause afterward.",
+        secret = "His most carefully practiced phrase is simply 'well done.' He wants it to land without anyone wondering what dreadful correction comes next.",
+        bestFriend = "I am glad you came. No correction follows. You need not have accomplished anything for that to be true.",
+        favorite = { emote = "NOD", hint = "Let him know his plainly meant words have been understood." },
+        lines = {
+            greet = { { "There you are. Good to see you. I meant that exactly as it sounded, assuming it sounded welcoming. I have been working on the delivery. A warning comes easily enough. A few words of encouragement seem to require rather more care. Come along, friend. You can tell me if that needs another attempt.", tone = "[dry] [restrained] [gently amused]" },
+                "Ready? Good. I am asking about the walk, not examining you." },
+            idle = { { "I once told someone they had done well, and they immediately prepared for a reprimand. Repeating myself more slowly did not improve matters. Apparently I left a rather ominous pause. I have been trying to remove it. Well done. There. Do you feel encouraged, or should I begin again with a different expression?", tone = "[wry] [confiding] [measured]" },
+                "Well done. That is the end of the sentence.",
+                "Confidence is useful when it remembers how much there is left to learn." },
+            befriended = { { "You keep returning, even when there is no lesson waiting for you. I have noticed, and I am glad of it. There is no hidden correction in that statement. Come, friend. Tell me what has been occupying your thoughts. I can listen without turning everything into an examination. I should like the opportunity.", tone = "[sincere] [warm] [restrained]" } },
+            combatEnd = { { "You handled that well. Take a moment and let the words stand on their own. We can consider what might be improved when everyone has had a breath. For now, I would rather you knew that I noticed the care you took. There. A compliment, delivered without a warning attached to it.", tone = "[steady] [approving] [dry]" } },
+            poke = { "Yes? You may ask the question without testing my patience first.", "I heard you. I am choosing a less alarming reply." },
+            learned = { "Understand what it does before you begin admiring what it might do." },
+            quest = { "A matter brought to its conclusion. Good. Keep whatever it taught you." },
+            gear = { "Inspect it before relying on it. An impressive appearance is a poor guarantee." },
+            rest = { "Sit. A pause need not be a failure of discipline." },
+            levelUp = { "Well done. No ominous pause this time, I hope." },
+            back = { "Welcome back. I am glad to see you. That required no rehearsal at all." },
+        },
+    },
+
     -- Nan Mistrunner <Fruit Vendor>, middle rise/Thunder Bluff,3017/2117.
     -- Adult female Tauren, current HordeFriendly; no personal quest found.
     -- Fruit faces and private pumpkin joke are original BuddyDex writing.

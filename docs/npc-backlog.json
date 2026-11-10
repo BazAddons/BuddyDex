@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 444,
+  "completed_count": 446,
   "remaining_count": 2,
   "completed": [
     {
@@ -2597,6 +2597,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 4565,
+      "name": "Richard Kerwin",
+      "zone": "Undercity",
+      "source": "Individually reviewed current named adult model/primary Undercity identity; Anya current HordeFriendly, Richard current public reaction unverified; historical quest and later retail separated; no Scout sighting claimed",
+      "research_notes": "docs/research/anya-maulray-and-richard-kerwin-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 4575,
       "name": "Hannah Akeley",
       "zone": "Undercity",
@@ -3573,6 +3583,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 10053,
+      "name": "Anya Maulray",
+      "zone": "Undercity",
+      "source": "Individually reviewed current named adult model/primary Undercity identity; Anya current HordeFriendly, Richard current public reaction unverified; historical quest and later retail separated; no Scout sighting claimed",
+      "research_notes": "docs/research/anya-maulray-and-richard-kerwin-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 10118,
       "name": "Nessa Shadowsong",
       "zone": "Teldrassil",
@@ -4435,7 +4455,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1513,
+    "candidate_name_groups": 1514,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

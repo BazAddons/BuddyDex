@@ -1,4 +1,44 @@
 {
+  "lore10053_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:10053",
+    "spoken": "[warm] [sincere] [dry] You have seen enough of my awkward attempts to know I am not always as composed as I look. And you keep returning. I appreciate that. Come, friend. We can enjoy the walk without proving anything to each other. If a strange squeak follows us, I shall rely on your discretion.",
+    "text": "You have seen enough of my awkward attempts to know I am not always as composed as I look. And you keep returning. I appreciate that. Come, friend. We can enjoy the walk without proving anything to each other. If a strange squeak follows us, I shall rely on your discretion.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore10053_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:10053",
+    "spoken": "[dry] [fond] [wry] There you are. Give me a moment to finish making a fool of myself. That was meant to be a wolf, before you ask. Standing quietly is usually the better approach with an unsettled beast. It has certainly earned me fewer peculiar looks. Come along, friend. You can keep the imitation to yourself.",
+    "text": "There you are. Give me a moment to finish making a fool of myself. That was meant to be a wolf, before you ask. Standing quietly is usually the better approach with an unsettled beast. It has certainly earned me fewer peculiar looks. Come along, friend. You can keep the imitation to yourself.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore10053_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:10053",
+    "spoken": "[confiding] [dry] [amused] I can manage the beginning of a howl quite well when nobody is listening. The ending remains a difficulty. It becomes a squeak, and then everyone looks at me. Animals included. I suppose that is one way to get their attention. I would prefer a method that leaves me a little dignity.",
+    "text": "I can manage the beginning of a howl quite well when nobody is listening. The ending remains a difficulty. It becomes a squeak, and then everyone looks at me. Animals included. I suppose that is one way to get their attention. I would prefer a method that leaves me a little dignity.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore10053_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:10053",
+    "spoken": "[calm] [gentle] [wry] Stop a moment. Let everything settle before you decide what to do next. A frightened animal watches the hands, the voice, the way someone approaches. People could use a little of that patience too. Sit beside me. I can promise a quiet interval, provided you do not ask for the wolf impression.",
+    "text": "Stop a moment. Let everything settle before you decide what to do next. A frightened animal watches the hands, the voice, the way someone approaches. People could use a little of that patience too. Sit beside me. I can promise a quiet interval, provided you do not ask for the wolf impression.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore11945_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

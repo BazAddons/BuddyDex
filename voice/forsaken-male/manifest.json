@@ -959,6 +959,46 @@
     "text": "There you are. A beginning you can build on. Give yourself time to try it, ask questions and notice which part interests you. You needn't have every later step settled before enjoying this one.",
     "voice_id": "xNLT6f0TsMKlsUoMALsm"
   },
+  "lore4565_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4565",
+    "spoken": "[sincere] [warm] [restrained] You keep returning, even when there is no lesson waiting for you. I have noticed, and I am glad of it. There is no hidden correction in that statement. Come, friend. Tell me what has been occupying your thoughts. I can listen without turning everything into an examination. I should like the opportunity.",
+    "text": "You keep returning, even when there is no lesson waiting for you. I have noticed, and I am glad of it. There is no hidden correction in that statement. Come, friend. Tell me what has been occupying your thoughts. I can listen without turning everything into an examination. I should like the opportunity.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4565_combatEnd_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "combatEnd",
+    "say": null,
+    "source": "lore:4565",
+    "spoken": "[steady] [approving] [dry] You handled that well. Take a moment and let the words stand on their own. We can consider what might be improved when everyone has had a breath. For now, I would rather you knew that I noticed the care you took. There. A compliment, delivered without a warning attached to it.",
+    "text": "You handled that well. Take a moment and let the words stand on their own. We can consider what might be improved when everyone has had a breath. For now, I would rather you knew that I noticed the care you took. There. A compliment, delivered without a warning attached to it.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4565_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4565",
+    "spoken": "[dry] [restrained] [gently amused] There you are. Good to see you. I meant that exactly as it sounded, assuming it sounded welcoming. I have been working on the delivery. A warning comes easily enough. A few words of encouragement seem to require rather more care. Come along, friend. You can tell me if that needs another attempt.",
+    "text": "There you are. Good to see you. I meant that exactly as it sounded, assuming it sounded welcoming. I have been working on the delivery. A warning comes easily enough. A few words of encouragement seem to require rather more care. Come along, friend. You can tell me if that needs another attempt.",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
+  "lore4565_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4565",
+    "spoken": "[wry] [confiding] [measured] I once told someone they had done well, and they immediately prepared for a reprimand. Repeating myself more slowly did not improve matters. Apparently I left a rather ominous pause. I have been trying to remove it. Well done. There. Do you feel encouraged, or should I begin again with a different expression?",
+    "text": "I once told someone they had done well, and they immediately prepared for a reprimand. Repeating myself more slowly did not improve matters. Apparently I left a rather ominous pause. I have been trying to remove it. Well done. There. Do you feel encouraged, or should I begin again with a different expression?",
+    "voice_id": "xNLT6f0TsMKlsUoMALsm"
+  },
   "lore4585_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

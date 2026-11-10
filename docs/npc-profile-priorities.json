@@ -1344,6 +1344,20 @@
       "zone": "Thunder Bluff",
       "route": "Female and male Tauren trade/service coverage",
       "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/nan-and-naal-mistrunner-queue.md"
+    },
+    {
+      "npc_id": 10053,
+      "name": "Anya Maulray",
+      "zone": "Undercity",
+      "route": "Female and male Forsaken stable/trainer coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/anya-maulray-and-richard-kerwin-queue.md"
+    },
+    {
+      "npc_id": 4565,
+      "name": "Richard Kerwin",
+      "zone": "Undercity",
+      "route": "Female and male Forsaken stable/trainer coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/anya-maulray-and-richard-kerwin-queue.md"
     }
   ]
 }
