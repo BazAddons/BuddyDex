@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Friz Frazzlespark: a complete adult Goblin woman, with fifteen personal lines queued.
+- Expand Riverglades companions with her established cargo dealings, pirate rivalry, and courier lessons.
+
 - Add Roxxik: a complete adult Goblin engineer profile, with fifteen personal lines queued.
 - Expand Orgrimmar companions with his established confident humor, training standards, and willingness to refer advanced learners.
 
@@ -171,4 +174,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **592 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **593 fully written NPC profiles**: 454 have initial signature recordings, and one hundred thirty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

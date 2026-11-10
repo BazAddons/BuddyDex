@@ -41,6 +41,41 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Friz Frazzlespark <Specialty Goods>, Powderfuse Port, Riverglades.
+    -- Adult Goblin female139287/M2 119369, current Horde Friendly.45goods.
+    -- Available full quest offers/objectives: stolen cargo, Bentcoin delivery,
+    -- Booty Bay and Steamwheedle errands; missing completion bodies documented.
+    -- Rehearsing final remarks is original; no invented pirate/credit outcome.
+    -- Research: docs/research/friz-frazzlespark-quest-network.md
+    [255897] = {
+        quote = "A shipment can be stolen twice. That does not mean I intend to pay for it twice.",
+        likes = { "A delivery made without extra questions", "A sharp answer that improves the deal", "A contact who knows when to follow through" },
+        dislikes = { "Someone else profiting from her stolen goods", "A debt explained instead of repaid", "A good final remark going unheard" },
+        gossip = "Friz likes having the last word in a negotiation. Her private collection of excellent parting remarks may explain why parting takes so long.",
+        bio = "Friz Frazzlespark trades specialty goods at Powderfuse Port in the Riverglades. She calls on helpers to recover cargo taken by the Eastsea pirates, openly admitting she stole it first. Business, to her, includes knowing how to answer a backstabber.",
+        backstory = "Her work connects the port with Ruzzgot in Booty Bay and associates in Steamwheedle Port. A crate can be a commission, a warning, or the beginning of another errand. She likes explaining which lesson her latest helper is supposed to learn.",
+        secret = "She privately rehearses clever parting remarks. Choosing the best one takes so long that she sometimes adds another. She is still working on a final word that actually ends the conversation.",
+        bestFriend = "Stay a while. No crate, no errand. I have a very good final remark, but for once I am in no hurry to use it.",
+        favorite = {
+            emote = "WINK",
+            hint = "She enjoys a small sign that someone has caught the meaning beneath a polished proposal.",
+        },
+        recordingVoice = "goblin-female",
+        lines = {
+            greet = { { "Good to see you. Come along. I may even let you hear the plan before the lesson starts.", tone = "[confident] [mischievous]" }, "Ready. I have a very good parting remark prepared, should we ever finish leaving." },
+            idle = { { "That would be an excellent final word. Unless I think of a better one before I stop talking.", tone = "[wry] [amused]" }, "An explanation of where my money went is not quite the same as my money coming back.", "If a crate has instructions on it, start by assuming I wanted them read." },
+            befriended = { { "You came back when I had not sent you anywhere. I rather like that. Stay, and we can leave the next errand for another time.", tone = "[warm] [confiding]" } },
+            poke = { "Yes? Tell me something useful, or at least entertaining.", "I was considering the last word. There are several strong candidates." },
+            quest = { { "Understand what is being delivered and to whom. Those are details worth getting right the first time.", tone = "[brisk] [assured]" } },
+            loot = { "Look at that. Now decide whether it is useful before deciding it belongs under everything else." },
+            bagsFull = { "Make room for what matters. A full bag is not proof that the right things are inside it." },
+            mail = { "News from a contact? Let us see whether it includes the part where they follow through." },
+            zone = { "New surroundings. Let us find out who knows what is going on here." },
+            rest = { "A pause. We can spend a little time without calling it a transaction." },
+            thanked = { "You are welcome. See? A clear answer need not take all afternoon." },
+        },
+    },
+
     -- Roxxik <Artisan Engineer>, Valley of Honor, Orgrimmar. Adult Goblin
     -- male10472/M2 119376, Horde Friendly. Classic52training rows/own
     -- installed surprise, experience, teasing encouragement, Buzzek referral.

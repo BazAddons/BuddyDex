@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Friz Frazzlespark: a complete adult Goblin woman, with fifteen personal lines queued.
+- Expand Riverglades companions with her established cargo dealings, pirate rivalry, and courier lessons.
+
 - Add Roxxik: a complete adult Goblin engineer profile, with fifteen personal lines queued.
 - Expand Orgrimmar companions with his established confident humor, training standards, and willingness to refer advanced learners.
 

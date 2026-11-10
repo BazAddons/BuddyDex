@@ -2380,6 +2380,13 @@
       "zone": "Orgrimmar",
       "route": "Horde Orgrimmar engineering contact",
       "reason": "Complete adult Goblin male profile with fifteen queued lines; actual standards/referral and later-expansion boundaries preserved, no synthesis"
+    },
+    {
+      "npc_id": 255897,
+      "name": "Friz Frazzlespark",
+      "zone": "Riverglades",
+      "route": "Horde Powderfuse Port Goblin trade contact",
+      "reason": "Complete adult female profile with fifteen queued lines; available quest network reviewed without inventing missing completion outcomes or dual Friendly access, no synthesis"
     }
   ]
 }

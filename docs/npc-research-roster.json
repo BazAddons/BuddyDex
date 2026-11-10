@@ -2709,5 +2709,12 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Goblin male and explicit Horde Friendly, full Classic training/installed guidance and current own gaps; no Scout sighting claimed",
     "research_notes": "docs/research/roxxik-engineering-and-riverglades-research.md"
+  },
+  {
+    "npc_id": 255897,
+    "name": "Friz Frazzlespark",
+    "zone": "Riverglades",
+    "source": "Reviewed adult Goblin female, explicit Horde Friendly, full45-item stock and available connected quest offers/objectives; missing completions documented, no Scout sighting claimed",
+    "research_notes": "docs/research/friz-frazzlespark-quest-network.md"
   }
 ]

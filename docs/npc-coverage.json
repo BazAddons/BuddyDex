@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 253,
     "unverified": 142,
-    "horde": 212
+    "horde": 213
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,7 +15,7 @@
     "5": 63,
     "4": 43,
     "8": 46,
-    "9": 31,
+    "9": 32,
     "6": 69,
     "96": 8,
     "95": 15
@@ -55,7 +55,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Zephras Isle": 22,
-    "Riverglades": 3
+    "Riverglades": 4
   },
   "entries": [
     {
@@ -7295,6 +7295,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255895"
     },
     {
+      "npc_id": 255897,
+      "name": "Friz Frazzlespark",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly; faction quest introductions are separate evidence and do not establish an Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/255897"
+    },
+    {
       "npc_id": 255940,
       "name": "Donaal Downbreeze",
       "zone": "Zephras Isle",
@@ -7587,6 +7600,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 592,
-  "awaiting_signature_audio_profiles": 138
+  "authored_profiles": 593,
+  "awaiting_signature_audio_profiles": 139
 }

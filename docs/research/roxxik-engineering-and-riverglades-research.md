@@ -1,5 +1,7 @@
 # Roxxik engineering and Riverglades research
 
+Follow-up: Friz now has an authored profile; [continued quest research](friz-frazzlespark-quest-network.md) distinguishes available full offers/objectives from missing progress/completion bodies. The initial research and592-profile snapshot below remain historical.
+
 Reviewed November 10, 2026. This batch authors only Roxxik11017, an exact single-ID catalog identity not previously profiled. Friz Frazzlespark255897 remains under research, not marked written/complete. Additional identity probes prevent incorrect biological race assignments. No Scout sightings fabricated.
 
 ## Roxxik: primary identity and established adult body
