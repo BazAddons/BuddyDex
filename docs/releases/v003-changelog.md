@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mahren Skyseer and Einris Brightspear: adult Tauren and Dwarf profiles with thirty personal lines queued.
+- Review full coastal-hunt and hunter-referral dialogue, own trainer gossip and complete training tables; document original character scenes.
+
 - Add Taleen Shimmerthread and Indari Sunseam: adult High Order profiles with thirty personal lines queued.
 - Review full feather, prideclaw and camping dialogue plus complete goods/training tables; document original character scenes.
 
@@ -480,4 +483,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **785 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **787 fully written NPC profiles**: 454 have initial signature recordings, and three hundred thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

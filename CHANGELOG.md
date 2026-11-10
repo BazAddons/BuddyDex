@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mahren Skyseer and Einris Brightspear: adult Tauren and Dwarf profiles with thirty personal lines queued.
+- Review full coastal-hunt and hunter-referral dialogue, own trainer gossip and complete training tables; document original character scenes.
+
 - Add Taleen Shimmerthread and Indari Sunseam: adult High Order profiles with thirty personal lines queued.
 - Review full feather, prideclaw and camping dialogue plus complete goods/training tables; document original character scenes.
 

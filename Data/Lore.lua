@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mahren Skyseer, Barrens coast/Tidus Stair. Adult Tauren
+    -- female3848/M2 986648, Horde Friendly. Full873/874 and preceding
+    -- Jorn context read. Wave-interrupted explanation is original.
+    -- Research: docs/research/mahrens-interruption-and-einris-dry-joke.md
+    [3388] = {
+        quote = "The sea interrupted my explanation rather thoroughly. Wet feet are a useful reminder that dignity is not the same thing as wisdom.",
+        likes = { "A worthy creature regarded with respect", "A hunter willing to keep learning", "Company that can share an unplanned laugh" },
+        dislikes = { "A hunt reduced to careless boasting", "The sea mistaken for a tame place", "A lesson valued only for its solemn sound" },
+        gossip = "Mahren was giving a solemn explanation when a wave reached her feet. She allowed that the sea had made its point rather plainly.",
+        bio = "Mahren Skyseer hunts the great water beasts of the Barrens coast. Jorn sends proven hunters to his sister to learn their ways. She regards Isha Awak as honorable prey and a worthy challenge rather than merely a creature to fear.",
+        backstory = "While explaining a lesson beside the water, she was interrupted by a wave washing over her feet. The solemn words gave way to laughter. She found there was no dishonor in letting the sea finish that part of the explanation.",
+        secret = "She enjoys recalling the interrupted lesson with a friend. Respect need not leave every moment solemn. Sometimes the willingness to laugh is what allows a lesson to remain with you.",
+        bestFriend = "Walk with me, friend. We may listen before speaking, and laugh if the sea decides to contribute more plainly than expected.",
+        favorite = {
+            emote = "BOW",
+            hint = "She appreciates a quiet gesture of respect that does not need a boast to explain it.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Walk with me. You may tell me what you have learned since we last spoke, and I shall try not to place my feet where the sea can interrupt the answer.", tone = "[calm] [warm amusement]" }, "Good to see you. There is room for your account beside mine. A path does not end because we have found something worth knowing." },
+            idle = { { "I was explaining myself very solemnly when the wave arrived. Wet feet did not improve the dignity of the speech. They improved my understanding of the moment considerably.", tone = "[reflective] [quiet laughter]" }, "My brother sends hunters whose strength he respects. Strength is a beginning. There remains much to learn when the path reaches the water.", "A worthy creature deserves more from us than a boast about overcoming it. Notice what you are meeting before deciding how the story ought to sound." },
+            befriended = { { "Your company has become a welcome part of the path, including the moments that refuse to remain solemn. Come along, friend. I am pleased to share them with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can leave room in the explanation for what you have noticed.", "Go on. Let me hear the account before deciding what it may teach us." },
+            combatEnd = { { "Take a moment. Attend to those beside you, and let the end of the struggle become more than the beginning of a boast.", tone = "[steady] [reverent]" } },
+            loot = { "Consider what the token represents as well as what it may do for you. A trophy alone cannot carry the whole meaning of an encounter." },
+            rest = { "A quiet pause. We may listen to what is around us without immediately finding words grand enough to describe it." },
+            zone = { "A different stretch of the path. What you learned before may help you here, provided you leave room for what is different." },
+            newFriend = { "Someone new. Let them speak of their own path before deciding how closely it resembles yours." },
+            thanked = { "You are welcome. I am pleased the lesson found someone willing to carry it thoughtfully." },
+            group = { "Each person brings a part of the account. Give the company room to notice what one pair of eyes might pass over." },
+        },
+    },
+
+    -- Einris Brightspear <Hunter Trainer>, Stormwind. Adult Dwarf
+    -- female3312/M2 950080, Alliance Friendly. Own three gossip entries,
+    -- full6076/6722 and all training rows. Wolf-notes joke is original.
+    -- Research: docs/research/mahrens-interruption-and-einris-dry-joke.md
+    [5515] = {
+        quote = "A wolf does not ask for revision notes. That was a joke. You may put the pencil down before I am obliged to explain it as a lesson.",
+        likes = { "An observer willing to learn from beasts", "A lesson practiced beyond the first success", "A friend recognizing the dry joke" },
+        dislikes = { "Confidence mistaken for understanding", "An animal reduced to an ornament", "Every remark copied down as instruction" },
+        gossip = "Einris once made a dry joke during a lesson. Someone began taking notes. She has been choosing her audience a little more carefully since.",
+        bio = "Einris Brightspear trains hunters in Stormwind's Dwarven District. She urges them to learn from the owl, sabercat and wolf. Her rigorous teaching leaves little room for careless habits, though her dry humor occasionally escapes the lesson.",
+        backstory = "She made a remark about a wolf requiring no revision notes. Her listener reached for a pencil. Einris discovered that a reputation for serious instruction could make a small joke surprisingly difficult to deliver.",
+        secret = "She enjoys company that knows when she is joking. It lets her finish a dry remark without turning the next breath into an explanation. She is quietly fond of that freedom.",
+        bestFriend = "Come along, friend. No notes required. I should like to hear your news and make the occasional remark without assigning it as practice.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates a companion catching the humor before reaching for the next lesson.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me how you have been, and I promise not to turn the whole conversation into instruction. The occasional observation may escape.", tone = "[dry] [warm]" }, "Good to see you. No pencil needed. I was hoping for company rather than an attentive transcription of everything I happen to say." },
+            idle = { { "I said that a wolf requires no revision notes. They reached for a pencil. A serious reputation is useful until one attempts a perfectly ordinary joke.", tone = "[deadpan] [amused]" }, "Observe before deciding you understand. The owl, the sabercat and the wolf each have something to show an attentive hunter.", "You noticed the joke. Good. We can both enjoy the next part without my explaining which portion was intended to be amusing." },
+            befriended = { { "You have become company in which I can leave a little room between the lesson and the laugh. Come along, friend. I am pleased to have you beside me.", tone = "[gruff warmth] [sincere]" } },
+            poke = { "Yes? This may be a conversation. You need not prepare for an examination.", "Go on. Let me hear what you noticed before I begin telling you what I think of it." },
+            learned = { { "Good. Now give the lesson enough practice to find out what you understood and what you merely recognized when someone else explained it.", tone = "[firm] [encouraging]" } },
+            gear = { "Make sure it serves the way you move and work. A fine appearance does not correct an awkward fit." },
+            combatEnd = { "Take stock before deciding the lesson is finished. What happened matters more than how impressive you can make the account sound." },
+            rest = { "A pause. I can permit one without assigning an exercise for the duration. You may enjoy that while it lasts." },
+            newFriend = { "Someone new. Let them introduce themselves before deciding what they ought to be taught." },
+            thanked = { "You are welcome. I am glad you put the useful part to work." },
+            group = { "Give everyone room to observe and speak. The loudest account does not necessarily contain the thing the rest of us missed." },
+        },
+    },
+
     -- Taleen Shimmerthread <Tailor>, Shen'dar/Zephras. Adult High
     -- Order female136970/M2 7478494, both Friendly. Full93951/97973,
     -- spirit/cloth gossip. Ticklish feather arrangement is original.

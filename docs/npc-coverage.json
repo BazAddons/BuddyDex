@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 336,
+    "alliance": 337,
     "unverified": 165,
-    "horde": 321
+    "horde": 322
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 67,
+    "3": 68,
     "7": 58,
     "2": 84,
     "5": 85,
     "4": 66,
     "8": 60,
     "9": 55,
-    "6": 84,
+    "6": 85,
     "96": 26,
     "95": 33
   },
@@ -24,7 +24,7 @@
     "Elwynn Forest": 28,
     "Lion's Pride Inn": 10,
     "Westfall": 17,
-    "Stormwind City": 120,
+    "Stormwind City": 121,
     "Redridge Mountains": 24,
     "Loch Modan": 2,
     "Duskwood": 4,
@@ -44,7 +44,7 @@
     "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
-    "The Barrens": 40,
+    "The Barrens": 41,
     "Stonetalon Mountains": 13,
     "Darnassus": 14,
     "Burning Steppes": 1,
@@ -3968,6 +3968,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3370"
     },
     {
+      "npc_id": 3388,
+      "name": "Mahren Skyseer",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3388"
+    },
+    {
       "npc_id": 3389,
       "name": "Regthar Deathgate",
       "zone": "The Barrens",
@@ -5954,6 +5967,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5514"
+    },
+    {
+      "npc_id": 5515,
+      "name": "Einris Brightspear",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5515"
     },
     {
       "npc_id": 5518,
@@ -10077,6 +10103,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 785,
-  "awaiting_signature_audio_profiles": 331
+  "authored_profiles": 787,
+  "awaiting_signature_audio_profiles": 333
 }

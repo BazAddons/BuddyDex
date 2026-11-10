@@ -3731,6 +3731,20 @@
       "zone": "Zephras Isle",
       "route": "Shendar leatherworker",
       "reason": "Full92515/97969 including safe-distance fondness; original warning incident; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3388,
+      "name": "Mahren Skyseer",
+      "zone": "The Barrens",
+      "route": "Tidus Stair coastal hunt teacher",
+      "reason": "Full873/874 and preceding Jorn context; original wave interruption; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5515,
+      "name": "Einris Brightspear",
+      "zone": "Stormwind City",
+      "route": "Dwarven District hunter trainer",
+      "reason": "Own hunter/retraining gossip and6076/6722; original dry joke; fifteen personal lines queued without synthesis"
     }
   ]
 }

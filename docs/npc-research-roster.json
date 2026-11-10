@@ -4060,5 +4060,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde man; Full92515/97969 including safe-distance fondness; original warning incident; no Scout sighting claimed",
     "research_notes": "docs/research/taleens-feather-and-indaris-fond-warning.md"
+  },
+  {
+    "npc_id": 3388,
+    "name": "Mahren Skyseer",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde woman; Full873/874 and preceding Jorn context; original wave interruption; no Scout sighting claimed",
+    "research_notes": "docs/research/mahrens-interruption-and-einris-dry-joke.md"
+  },
+  {
+    "npc_id": 5515,
+    "name": "Einris Brightspear",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance woman; Own hunter/retraining gossip and6076/6722; original dry joke; no Scout sighting claimed",
+    "research_notes": "docs/research/mahrens-interruption-and-einris-dry-joke.md"
   }
 ]
