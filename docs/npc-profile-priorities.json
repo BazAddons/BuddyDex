@@ -2198,6 +2198,20 @@
       "zone": "Stonetalon Mountains",
       "route": "Horde Malakajin later-route butcher",
       "reason": "Complete adult Horde profile with fifteen queued lines in approved race/sex voice; Forever scout/naga chain and Classic context distinguished, no synthesis"
+    },
+    {
+      "npc_id": 3600,
+      "name": "Laurna Morninglight",
+      "zone": "Teldrassil",
+      "route": "Alliance Dolanaar early priest contact",
+      "reason": "Complete adult Night Elf profile with fifteen queued lines in approved sex-specific voice; current Forever versus older/private-server quests separated, no synthesis"
+    },
+    {
+      "npc_id": 3611,
+      "name": "Brannol Eaglemoon",
+      "zone": "Teldrassil",
+      "route": "Alliance Dolanaar early cloth/repair contact",
+      "reason": "Complete adult Night Elf profile with fifteen queued lines in approved sex-specific voice; current Forever versus older/private-server quests separated, no synthesis"
     }
   ]
 }

@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Laurna Morninglight <Priest Trainer>, Dolanaar. Adult Night Elf
+    -- female1708/M2 921844; Alliance Friendly, current98391 to Aquinne.
+    -- Full Sisterhood/Sathrah chain and historical priest lessons read;
+    -- simple private prayers are original, no later retail death imported.
+    -- Research: docs/research/dolanaar-devotion-and-dignified-introductions.md
+    [3600] = {
+        quote = "A prayer need not impress me. Let it mean something to you, and let that meaning guide what you do.",
+        likes = { "Faith expressed through care", "An honest question about a lesson", "Thanks offered without an audience" },
+        dislikes = { "Devotion used to seek admiration", "Pride that keeps a wound hidden", "A lesson repeated without thought" },
+        gossip = "Laurna can give a solemn lesson its proper weight. Her own quiet words of thanks are sometimes much shorter than a student expects.",
+        bio = "Laurna Morninglight teaches priests in Dolanaar. She speaks of the Sisterhood of Elune's long charge to guide and heal the kaldorei, and sends those whose help is needed to Sister Aquinne in Darnassus.",
+        backstory = "Her teaching joins devotion to the work it asks of a person. In the older lessons, service meant aiding an injured Sentinel, not simply reciting a blessing. The Sisterhood's history gives that care a setting larger than one pupil or one day.",
+        secret = "She sometimes begins a private prayer with carefully chosen phrases, then sets them aside for a simple thank-you. She finds no shame in its being the truer version.",
+        bestFriend = "You need not find the perfect words before speaking with me. I would rather hear what you mean, and share a quiet moment with you.",
+        favorite = {
+            emote = "PRAY",
+            hint = "She values a sincere moment of devotion more than a display made to impress her.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "I am glad to see you. Let us give the day more than words of good intention.", tone = "[warm] [calm]" }, "Come, then. There may be something we can learn by attending carefully." },
+            idle = { { "Sometimes the truest prayer is shorter than the one I prepared. I am learning to let it be enough.", tone = "[reflective] [gentle]" }, "A lesson can be remembered and still need to be understood.", "The Sisterhood has guided and healed through long years. The work before us still deserves our attention." },
+            befriended = { { "You have allowed me to speak plainly as well as teach. I would welcome more time in that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You need not make your question sound wiser before asking it.", "I was considering what I wished to give thanks for." },
+            quest = { { "Read what is needed. Devotion should help us attend to the task, rather than pass over its details.", tone = "[gentle] [firm]" } },
+            learned = { "Take time to understand the lesson. Repeating it is only a beginning." },
+            combatEnd = { "Look to those beside you. There may still be care to give." },
+            rest = { "A pause can hold gratitude without needing a speech." },
+            comforted = { "Thank you. I am grateful for the care behind that kindness." },
+            zone = { "Here, too, we can consider what our intentions ask of us." },
+            thanked = { "You are welcome. May the help matter longer than the words of thanks." },
+        },
+    },
+
+    -- Brannol Eaglemoon <Clothier>, Dolanaar. Adult Night Elf male1701/
+    -- M2 974343, Alliance Friendly; Repair/Vendor, six knitted items.
+    -- Current/Classic no own quests, installed own gossip absent.
+    -- Ceremonious introductions to garments are original; no Turtle quest.
+    -- Research: docs/research/dolanaar-devotion-and-dignified-introductions.md
+    [3611] = {
+        quote = "A plain garment can make a perfectly respectable entrance. I have rehearsed enough to be certain.",
+        likes = { "A useful garment properly cared for", "A courteous introduction", "Someone enjoying a little formality" },
+        dislikes = { "A small tear left to spread", "Simple clothing treated as an insult", "An introduction that forgets the guest" },
+        gossip = "Brannol can give a simple knitted tunic a very dignified introduction. No one is certain whether the tunic appreciates the honor.",
+        bio = "Brannol Eaglemoon is a clothier in Dolanaar. He sells knitted garments and offers repairs, supplying practical clothing to travelers and local customers. He treats an ordinary purchase with a little ceremony of his own.",
+        backstory = "While arranging clothing one quiet day, he tried announcing a tunic as though it were an honored guest. He enjoyed the absurdity enough to practice again. A small habit of grand introductions grew around an otherwise practical trade.",
+        secret = "He once bowed to a garment after introducing it, then supplied its reply. He maintains that practicing both halves of a greeting is simply thorough preparation.",
+        bestFriend = "Allow me to introduce a most welcome visitor: someone who has heard the rehearsal and still chooses to return. Come in, my friend.",
+        favorite = {
+            emote = "BOW",
+            hint = "He enjoys a little courtesy that gives an ordinary meeting a sense of occasion.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "A most welcome companion arrives! There, I believe that introduction was suitably brief.", tone = "[ceremonious] [amused]" }, "Good to see you. Shall we give the day a respectable entrance?" },
+            idle = { { "The tunic did not object to its introduction. I supplied a modest reply on its behalf.", tone = "[dry] [playful]" }, "Plain clothing need not be greeted with plain discourtesy.", "There is a point at which an introduction outgrows the visit. I try to stop before it." },
+            befriended = { { "You heard the rehearsal and returned anyway. I should be very pleased to welcome you more often.", tone = "[warm] [pleased]" } },
+            poke = { "Yes? I was preparing the shorter version of the welcome.", "Would you like an introduction, or have we managed that part sufficiently?" },
+            gear = { { "Give that wear some attention. A dignified appearance is easier to maintain before a small tear spreads.", tone = "[practical]" } },
+            loot = { "Something useful? Good. We need not give it a title before carrying it." },
+            rest = { "Be seated. I shall refrain from announcing the chair." },
+            zone = { "A new setting. I wonder whether a shorter greeting would suit it." },
+            bowBack = { "A pleasure, and very gracefully done." },
+            mail = { "Correspondence! I shall allow the sender to introduce the subject." },
+            thanked = { "You are most welcome. There, a complete exchange without a rehearsal." },
+        },
+    },
+
     -- Orgnil Soulscar, Razor Hill, Durotar. Adult Orc male1877/M2 917116,
     -- Horde Friendly. Full Burning Blade reports/collar/Demon Seed chain
     -- and Forever99048/49/51/52 scout/naga/giant text reviewed.

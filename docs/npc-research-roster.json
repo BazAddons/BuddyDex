@@ -2527,5 +2527,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed exact adult Orc male or Troll female body, current Horde Friendly, complete own tabs and full Classic/Forever investigation chains or current butcher stock; no Scout sighting claimed",
     "research_notes": "docs/research/razor-hill-investigations-and-malakajin-meals.md"
+  },
+  {
+    "npc_id": 3600,
+    "name": "Laurna Morninglight",
+    "zone": "Teldrassil",
+    "source": "Reviewed exact adult Night Elf body, current Alliance Friendly, full Sisterhood/Sathrah chain or matching knitted stock; historical referral mismatches documented, no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-devotion-and-dignified-introductions.md"
+  },
+  {
+    "npc_id": 3611,
+    "name": "Brannol Eaglemoon",
+    "zone": "Teldrassil",
+    "source": "Reviewed exact adult Night Elf body, current Alliance Friendly, full Sisterhood/Sathrah chain or matching knitted stock; historical referral mismatches documented, no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-devotion-and-dignified-introductions.md"
   }
 ]

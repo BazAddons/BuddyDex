@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Laurna Morninglight and Brannol Eaglemoon: two complete adult Night Elf profiles, with thirty personal lines queued.
+- Expand early Dolanaar priest and clothier friendships, grounded in the current Sisterhood of Elune chain and verified knitted-goods trade.
+
 - Add Orgnil Soulscar and Denni'ka: two complete adult Horde profiles, with thirty personal lines queued.
 - Ground Razor Hill's investigator in his full Classic and Forever quest chains, and give Malaka'jin's butcher a distinct original friendship story.
 
