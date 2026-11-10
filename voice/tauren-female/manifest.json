@@ -599,6 +599,46 @@
     "text": "Put down what you can for a moment. You have carried the day's work this far. A little rest and good company may help you notice that something pleasant happened along the way too.",
     "voice_id": "HriwExkmKzil2cQ4bGmf"
   },
+  "lore7089_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:7089",
+    "spoken": "[warm] [sincere] [gentle] I enjoy having you beside me, friend. You have become someone whose questions I want to hear after the lesson is finished. Stay a moment. Tell me what you have been thinking about. There is no need to make it sound important before you begin. A pleasant conversation about an ordinary concern can be a very good reason to sit together.",
+    "text": "I enjoy having you beside me, friend. You have become someone whose questions I want to hear after the lesson is finished. Stay a moment. Tell me what you have been thinking about. There is no need to make it sound important before you begin. A pleasant conversation about an ordinary concern can be a very good reason to sit together.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7089_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:7089",
+    "spoken": "[warm] [instructive] [gently amused] Welcome, friend. Tell me what you are uncertain about, and we can consider it together. There is no need to pretend you understood an explanation that left you with a question. I like to leave time for one before we finish. Preferably about the work. I have already answered the one about lunch, though I was glad the learner felt able to ask.",
+    "text": "Welcome, friend. Tell me what you are uncertain about, and we can consider it together. There is no need to pretend you understood an explanation that left you with a question. I like to leave time for one before we finish. Preferably about the work. I have already answered the one about lunch, though I was glad the learner felt able to ask.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7089_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:7089",
+    "spoken": "[amused] [conversational] [patient] I invited a learner to ask one final question after a lesson. They wanted to know when we would eat. I laughed. The work mattered, but I was pleased that speaking had become easy enough for such an ordinary concern. Now I sometimes wonder which question will come last. Either way, I enjoy hearing what was on their mind.",
+    "text": "I invited a learner to ask one final question after a lesson. They wanted to know when we would eat. I laughed. The work mattered, but I was pleased that speaking had become easy enough for such an ordinary concern. Now I sometimes wonder which question will come last. Either way, I enjoy hearing what was on their mind.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
+  "lore7089_learned_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "learned",
+    "say": null,
+    "source": "lore:7089",
+    "spoken": "[encouraging] [instructive] [warm] Good. Take your time putting that understanding to use, and ask when something remains uncertain. An explanation is only useful if it helps you see what you are doing. I would rather hear the question than have you hide it for appearances. When the work is finished, we can leave room for the ordinary concerns as well. Lunch has been known to enter the conversation.",
+    "text": "Good. Take your time putting that understanding to use, and ask when something remains uncertain. An explanation is only useful if it helps you see what you are doing. I would rather hear the question than have you hide it for appearances. When the work is finished, we can leave room for the ordinary concerns as well. Lunch has been known to enter the conversation.",
+    "voice_id": "HriwExkmKzil2cQ4bGmf"
+  },
   "lore7737_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

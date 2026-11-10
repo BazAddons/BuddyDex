@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 436,
+  "completed_count": 438,
   "remaining_count": 2,
   "completed": [
     {
@@ -2859,6 +2859,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 5610,
+      "name": "Kozish",
+      "zone": "Orgrimmar",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/kozish-and-mooranta-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 5667,
       "name": "Venya Marthand",
       "zone": "Tirisfal Glades",
@@ -3139,6 +3149,16 @@
       "zone": "Redridge Mountains",
       "source": "Reviewed current Forever identity/services, full Classic quest and installed dialogue",
       "research_notes": "docs/research/lakeshire-docks-and-an-escort.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 7089,
+      "name": "Mooranta",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+      "research_notes": "docs/research/kozish-and-mooranta-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"

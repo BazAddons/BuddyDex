@@ -41,6 +41,70 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kozish, Broken Tusk/Valley of Strength/Orgrimmar,5610/7137.
+    -- Adult male Goblin/HordeFriendly/Normal. Inn inhabitant, no service;
+    -- coin trick original, deprecated uncorroborated60121not imported.
+    -- Research: docs/research/kozish-and-mooranta-queue.md.
+    [5610] = {
+        quote = "Watch the other hand. No, the other other hand. All right, you found it. Sit down; I can make the explanation more impressive than the trick.",
+        likes = { "An audience willing to enjoy a bad trick", "An interesting conversation at the inn", "Finding the coin before the grand reveal" },
+        dislikes = { "A mistake treated as a reason to leave", "An audience too polite to laugh", "Discovering he has watched the wrong hand" },
+        gossip = "Kozish is practicing a coin trick. His audience usually finds the coin first, which gives him time to improve the explanation.",
+        bio = "Kozish spends time in the Broken Tusk in Orgrimmar's Valley of Strength. He enjoys a visitor who can sit and talk. His amateur coin trick makes an easy beginning, especially when the explanation outdoes the trick.",
+        backstory = "Kozish tried a coin trick while sharing a table at the inn. The coin showed before his grand reveal, and the laughter made a better opening than the trick. He kept practicing, though he has become rather good at explaining why the audience should watch another hand.",
+        secret = "He sometimes loses track of the coin himself. When the audience notices first, he enjoys the shared discovery almost enough to call that the trick he intended.",
+        bestFriend = "Sit with me, friend. You can watch whichever hand you like. I enjoy your company more than a perfect reveal.",
+        favorite = { emote = "GRIN", hint = "Share the joke when his grand explanation proves more entertaining than the trick itself." },
+        lines = {
+            greet = { { "There you are. Watch the other hand. No, I meant the other other hand. You found the coin already? Good eyes. Sit down, friend. The trick may need practice, but I can make the explanation more impressive. We can have a conversation while I work out how it escaped the grand reveal before I was ready for it.", tone = "[animated] [playful] [amused]" },
+                "Welcome back. I have improved the explanation. The coin is still making its own decisions." },
+            idle = { { "The first time I tried this, the coin showed before I reached the impressive part. Someone laughed, and we had a better conversation than a perfect trick would have started. Now I practice the explanation as well. Occasionally I lose track of the coin myself. When you find it first, I prefer to call that a shared discovery.", tone = "[amused] [conversational] [cheerful]" },
+                "You can laugh. I have already noticed that the coin is visible.",
+                "Watch this hand. I should probably be watching it too." },
+            befriended = { { "I am glad you have become someone who stays for the conversation, friend. Sit beside me. You can watch whichever hand you like, and tell me when the coin appears before I expect it. I enjoy having someone here who can share a laugh without needing the trick to be perfect. Your company is the part I would rather keep.", tone = "[warm] [sincere] [playful]" } },
+            poke = { "Yes? You have found the coin again?", "I am listening. The explanation can become impressive later." },
+            laughAlong = { { "Yes, you saw it. I had a magnificent explanation ready, but I think that laugh served us better. There is room for a conversation now, instead of everyone politely pretending the coin has vanished. Stay a moment. Tell me something that amused you today. I can promise to listen, which is a more reliable offer than the grand reveal.", tone = "[laughing lightly] [friendly] [amused]" } },
+            loot = { "There it is. A much simpler discovery than the one I was preparing." },
+            rest = { "A place to sit and talk. That is an excellent beginning without any trick at all." },
+            back = { "Welcome back. Have you brought a story, or another explanation for the coin?" },
+            quest = { "Good work. Tell me the part that did not go as you expected." },
+            mail = { "News? I would enjoy hearing the interesting part when you have read it." },
+            hearth = { "Back to Orgrimmar. A table and a conversation sound very agreeable." },
+        },
+    },
+
+    -- Mooranta <Skinning Trainer>, Thunder Bluff,7089/5847.
+    -- Adult female Tauren/HordeFriendly/Normal. Actual trainer/official
+    -- Classic middle-rise index; final-question-about-lunch anecdote original.
+    -- Research: docs/research/kozish-and-mooranta-queue.md.
+    [7089] = {
+        quote = "Ask a question before we finish. Preferably about the work. I have already answered the one about lunch, though I am glad you felt able to ask.",
+        likes = { "A learner comfortable asking a question", "Careful hands and an unhurried explanation", "An easy conversation after the work" },
+        dislikes = { "A beginner ashamed to admit uncertainty", "Careful work rushed for appearances", "An answer that leaves the question unheard" },
+        gossip = "Mooranta asked a learner for one final question. They asked about lunch. She still enjoys how easily the conversation changed.",
+        bio = "Mooranta teaches skinning on Thunder Bluff's middle rise. She leaves time for a learner's questions before finishing a lesson. Sometimes the final question has more to do with lunch than with the work, and she enjoys the easy conversation.",
+        backstory = "After explaining a lesson, Mooranta invited one final question. The learner asked when they would eat. She laughed, pleased that the conversation had become easy enough for such an ordinary concern. She still leaves time for a question before they part.",
+        secret = "She now sometimes wonders whether the final question will be about the work or lunch. Either can please her, if it means the learner has stopped being afraid to speak.",
+        bestFriend = "Stay, friend. I enjoy hearing what is on your mind. There is time for a question, or a pleasant talk about lunch.",
+        favorite = { emote = "NOD", hint = "An attentive acknowledgment suits someone who wants to hear the question behind a learner's hesitation." },
+        lines = {
+            greet = { { "Welcome, friend. Tell me what you are uncertain about, and we can consider it together. There is no need to pretend you understood an explanation that left you with a question. I like to leave time for one before we finish. Preferably about the work. I have already answered the one about lunch, though I was glad the learner felt able to ask.", tone = "[warm] [instructive] [gently amused]" },
+                "There you are. Have you thought of the question you wanted to ask?" },
+            idle = { { "I invited a learner to ask one final question after a lesson. They wanted to know when we would eat. I laughed. The work mattered, but I was pleased that speaking had become easy enough for such an ordinary concern. Now I sometimes wonder which question will come last. Either way, I enjoy hearing what was on their mind.", tone = "[amused] [conversational] [patient]" },
+                "A careful question can make the next explanation much more useful.",
+                "Yes, there is still time for one. I have not decided whether it must concern the work." },
+            befriended = { { "I enjoy having you beside me, friend. You have become someone whose questions I want to hear after the lesson is finished. Stay a moment. Tell me what you have been thinking about. There is no need to make it sound important before you begin. A pleasant conversation about an ordinary concern can be a very good reason to sit together.", tone = "[warm] [sincere] [gentle]" } },
+            poke = { "Yes? I am listening.", "A question? You need not wait for the end to ask it." },
+            learned = { { "Good. Take your time putting that understanding to use, and ask when something remains uncertain. An explanation is only useful if it helps you see what you are doing. I would rather hear the question than have you hide it for appearances. When the work is finished, we can leave room for the ordinary concerns as well. Lunch has been known to enter the conversation.", tone = "[encouraging] [instructive] [warm]" } },
+            loot = { "Look carefully at what you have brought back. There is often a useful question in the details." },
+            rest = { "A pleasant moment to sit. We need not make every conversation a lesson." },
+            quest = { "Well done. What became clearer while you were working?" },
+            bagsFull = { "Take a moment to consider what you need before setting off again." },
+            laughAlong = { "Yes, the final question. I should have expected an ordinary answer to such an open invitation." },
+            hearth = { "Back to Thunder Bluff. I would enjoy hearing what the journey has taught you." },
+        },
+    },
+
     -- Kelsuwa <Stable Master>, Camp Taurajo/Barrens,9983/9256.
     -- Adult male Tauren/HordeFriendly/Normal, current stable role/pin.
     -- Brush game original; no Cataclysm flight/refugee history imported.

@@ -1617,5 +1617,19 @@
     "zone": "Orgrimmar",
     "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
     "research_notes": "docs/research/kelsuwa-and-xoncha-queue.md"
+  },
+  {
+    "npc_id": 5610,
+    "name": "Kozish",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/kozish-and-mooranta-queue.md"
+  },
+  {
+    "npc_id": 7089,
+    "name": "Mooranta",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed exact current named adult/Friendly identity; full own tabs and relevant quest bodies checked; no Scout sighting claimed",
+    "research_notes": "docs/research/kozish-and-mooranta-queue.md"
   }
 ]

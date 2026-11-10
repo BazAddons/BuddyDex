@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 436,
+  "completed_profiles": 438,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 207,
     "unverified": 100,
-    "horde": 136
+    "horde": 138
   },
   "npc_race_counts": {
     "1": 165,
@@ -15,8 +15,8 @@
     "5": 41,
     "4": 21,
     "8": 30,
-    "9": 21,
-    "6": 43,
+    "9": 22,
+    "6": 44,
     "96": 5,
     "95": 7
   },
@@ -34,11 +34,11 @@
     "Teldrassil": 9,
     "Hillsbrad Foothills": 2,
     "Arathi Highlands": 11,
-    "Orgrimmar": 26,
+    "Orgrimmar": 27,
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 11,
-    "Thunder Bluff": 18,
+    "Thunder Bluff": 19,
     "Durotar": 21,
     "The Barrens": 20,
     "Ashenvale": 3,
@@ -3828,6 +3828,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5569"
     },
     {
+      "npc_id": 5610,
+      "name": "Kozish",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5610"
+    },
+    {
       "npc_id": 5667,
       "name": "Venya Marthand",
       "zone": "Tirisfal Glades",
@@ -4204,6 +4217,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6966"
+    },
+    {
+      "npc_id": 7089,
+      "name": "Mooranta",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/7089"
     },
     {
       "npc_id": 7292,

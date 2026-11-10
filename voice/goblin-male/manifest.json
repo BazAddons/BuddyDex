@@ -359,6 +359,46 @@
     "text": "You're back. Excellent. Let's see what you found before anybody decides who deserves the credit. I would particularly like to know whether the interesting part is still in one piece.",
     "voice_id": "q4hkgjwgAzNLGZbjuFX9"
   },
+  "lore5610_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:5610",
+    "spoken": "[warm] [sincere] [playful] I am glad you have become someone who stays for the conversation, friend. Sit beside me. You can watch whichever hand you like, and tell me when the coin appears before I expect it. I enjoy having someone here who can share a laugh without needing the trick to be perfect. Your company is the part I would rather keep.",
+    "text": "I am glad you have become someone who stays for the conversation, friend. Sit beside me. You can watch whichever hand you like, and tell me when the coin appears before I expect it. I enjoy having someone here who can share a laugh without needing the trick to be perfect. Your company is the part I would rather keep.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore5610_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:5610",
+    "spoken": "[animated] [playful] [amused] There you are. Watch the other hand. No, I meant the other other hand. You found the coin already? Good eyes. Sit down, friend. The trick may need practice, but I can make the explanation more impressive. We can have a conversation while I work out how it escaped the grand reveal before I was ready for it.",
+    "text": "There you are. Watch the other hand. No, I meant the other other hand. You found the coin already? Good eyes. Sit down, friend. The trick may need practice, but I can make the explanation more impressive. We can have a conversation while I work out how it escaped the grand reveal before I was ready for it.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore5610_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:5610",
+    "spoken": "[amused] [conversational] [cheerful] The first time I tried this, the coin showed before I reached the impressive part. Someone laughed, and we had a better conversation than a perfect trick would have started. Now I practice the explanation as well. Occasionally I lose track of the coin myself. When you find it first, I prefer to call that a shared discovery.",
+    "text": "The first time I tried this, the coin showed before I reached the impressive part. Someone laughed, and we had a better conversation than a perfect trick would have started. Now I practice the explanation as well. Occasionally I lose track of the coin myself. When you find it first, I prefer to call that a shared discovery.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
+  "lore5610_laughAlong_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "laughAlong",
+    "say": null,
+    "source": "lore:5610",
+    "spoken": "[laughing lightly] [friendly] [amused] Yes, you saw it. I had a magnificent explanation ready, but I think that laugh served us better. There is room for a conversation now, instead of everyone politely pretending the coin has vanished. Stay a moment. Tell me something that amused you today. I can promise to listen, which is a more reliable offer than the grand reveal.",
+    "text": "Yes, you saw it. I had a magnificent explanation ready, but I think that laugh served us better. There is room for a conversation now, instead of everyone politely pretending the coin has vanished. Stay a moment. Tell me something that amused you today. I can promise to listen, which is a more reliable offer than the grand reveal.",
+    "voice_id": "q4hkgjwgAzNLGZbjuFX9"
+  },
   "lore7564_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

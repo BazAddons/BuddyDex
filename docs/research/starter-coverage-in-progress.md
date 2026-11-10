@@ -577,3 +577,8 @@ Completed female HighOrderSkyborne body/Valanaar auctioneer257037 and maleOrc/Cr
 ### 2026-11-09: Kelsuwa and Xon'cha (436)
 
 Completed maleTauren CampTaurajoStableMaster9983 and maleTroll ValleyofHonorStableMaster9988: fifteen lines/four approvedv4signatures each. Full sources/era/original limits: docs/research/kelsuwa-and-xoncha-queue.md. No personal quest found, laterretailstories excluded, no class prerequisite for friendlyemote friendship. Normal gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,278files/devZIP133.10MiB/6,250runtime mappings. Public207Alliance/136Horde/100unverified sevenoverlaps. Wider catalog active; CF deferred/public original preserved.
+
+
+### 2026-11-09: Kozish and Mooranta (438)
+
+Completed maleGoblin BrokenTusk inhabitant5610 and femaleTauren skinning trainer7089: fifteen lines/four approvedv4signatures each. Full sources/era/original limits: docs/research/kozish-and-mooranta-queue.md. Uncorroborated deprecatedKozishdelivery/cousin/pirate story omitted; no specific Mooranta camping quest inferred. Normal emote eligibility/gates/boundaries/welcome/audio/layout/main+Scout smoke pass. Installed6,286files/devZIP133.74MiB/6,258runtime mappings. Public207Alliance/138Horde/100unverified sevenoverlaps. Widercatalog active, CF deferred/public original preserved.

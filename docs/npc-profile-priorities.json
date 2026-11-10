@@ -1288,6 +1288,20 @@
       "zone": "Orgrimmar",
       "route": "Male Tauren Camp Taurajo and male Troll Orgrimmar stable-master coverage",
       "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kelsuwa-and-xoncha-queue.md"
+    },
+    {
+      "npc_id": 5610,
+      "name": "Kozish",
+      "zone": "Orgrimmar",
+      "route": "Male Goblin inn inhabitant and female Tauren skinning trainer coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kozish-and-mooranta-queue.md"
+    },
+    {
+      "npc_id": 7089,
+      "name": "Mooranta",
+      "zone": "Thunder Bluff",
+      "route": "Male Goblin inn inhabitant and female Tauren skinning trainer coverage",
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; normal thresholds and live eligibility validated; docs/research/kozish-and-mooranta-queue.md"
     }
   ]
 }
