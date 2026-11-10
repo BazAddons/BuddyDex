@@ -3556,5 +3556,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult Alliance Dwarf woman, Ironforge pattern vendor; both reagent-bag item nodes and all own tables; map projection clarified, no personal quest/gossip found; original stitch-count/listening anecdote distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/kharanos-fur-and-ironforge-stitches.md"
+  },
+  {
+    "npc_id": 2134,
+    "name": "Mrs. Winters",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult Horde Forsaken woman in Brill; exact General Supplies title, eight historical goods/current empty tables; fan campaign family lore excluded; original name-first greeting distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-introductions-and-tarren-mill-bags.md"
+  },
+  {
+    "npc_id": 2401,
+    "name": "Kayren Soothallow",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult Horde Forsaken woman in Tarren Mill; all twenty-two current goods and item nodes, historical stock differences documented; original anonymous heavy-bag anecdote distinguished; no Scout sighting claimed",
+    "research_notes": "docs/research/brill-introductions-and-tarren-mill-bags.md"
   }
 ]

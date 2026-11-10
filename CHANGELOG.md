@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mrs. Winters and Kayren Soothallow: two full adult Forsaken profiles with thirty personal lines queued.
+- Expand Brill and Tarren Mill contacts with verified supply roles and clearly marked original introduction/heavy-bag stories.
+
 - Add Shelby Stoneflint and Ellie Stonebrow: two full adult Dwarf profiles with thirty personal lines queued.
 - Expand Kharanos companion-care and Ironforge pattern-vendor coverage, separating confirmed roles from original fur-blizzard and stitch-count stories.
 

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mrs. Winters and Kayren Soothallow: two full adult Forsaken profiles with thirty personal lines queued.
+- Expand Brill and Tarren Mill contacts with verified supply roles and clearly marked original introduction/heavy-bag stories.
+
 - Add Shelby Stoneflint and Ellie Stonebrow: two full adult Dwarf profiles with thirty personal lines queued.
 - Expand Kharanos companion-care and Ironforge pattern-vendor coverage, separating confirmed roles from original fur-blizzard and stitch-count stories.
 
@@ -369,4 +372,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **713 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **715 fully written NPC profiles**: 454 have initial signature recordings, and two hundred sixty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

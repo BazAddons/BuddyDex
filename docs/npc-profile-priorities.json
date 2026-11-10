@@ -3227,6 +3227,20 @@
       "zone": "Ironforge",
       "route": "Ironforge reagent-bag patterns",
       "reason": "Complete adult profile with fifteen personal lines queued; verified pattern vendor and original story-versus-stitch-count anecdote; no synthesis"
+    },
+    {
+      "npc_id": 2134,
+      "name": "Mrs. Winters",
+      "zone": "Tirisfal Glades",
+      "route": "Brill general supplies",
+      "reason": "Complete adult profile with fifteen lines queued; verified Brill supply role and original name-first courtesy; no synthesis"
+    },
+    {
+      "npc_id": 2401,
+      "name": "Kayren Soothallow",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill general goods",
+      "reason": "Complete adult profile with fifteen lines queued; verified Tarren Mill goods and original anonymous heavy-bag joke; no synthesis"
     }
   ]
 }

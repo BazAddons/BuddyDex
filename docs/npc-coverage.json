@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 302,
     "unverified": 157,
-    "horde": 279
+    "horde": 281
   },
   "npc_race_counts": {
     "1": 167,
     "3": 60,
     "7": 50,
     "2": 78,
-    "5": 76,
+    "5": 78,
     "4": 57,
     "8": 55,
     "9": 44,
@@ -31,12 +31,12 @@
     "Wetlands": 3,
     "Ironforge": 55,
     "Stranglethorn Vale": 5,
-    "Tirisfal Glades": 46,
+    "Tirisfal Glades": 47,
     "Undercity": 14,
     "Duskwood": 3,
     "Silverpine Forest": 8,
     "Teldrassil": 26,
-    "Hillsbrad Foothills": 7,
+    "Hillsbrad Foothills": 8,
     "Arathi Highlands": 11,
     "Orgrimmar": 47,
     "Badlands": 1,
@@ -2299,6 +2299,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2132"
     },
     {
+      "npc_id": 2134,
+      "name": "Mrs. Winters",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2134"
+    },
+    {
       "npc_id": 2137,
       "name": "Eliza Callen",
       "zone": "Tirisfal Glades",
@@ -2453,6 +2466,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly and Elite classification; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2389"
+    },
+    {
+      "npc_id": 2401,
+      "name": "Kayren Soothallow",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2401"
     },
     {
       "npc_id": 2418,
@@ -9143,6 +9169,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 713,
-  "awaiting_signature_audio_profiles": 259
+  "authored_profiles": 715,
+  "awaiting_signature_audio_profiles": 261
 }

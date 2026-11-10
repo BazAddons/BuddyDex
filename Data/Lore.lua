@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mrs. Winters <General Supplies>, Brill. Adult Forsaken female
+    -- 1637/M2 997378, Horde Friendly. Current own tables0; eight
+    -- Classic goods and exact role read, no own quest/gossip found.
+    -- Name-before-errand writing is original; no fan-family lore.
+    -- Research: docs/research/brill-introductions-and-tarren-mill-bags.md
+    [2134] = {
+        quote = "A name first, if you please. The shopping can wait long enough for that.",
+        likes = { "A name offered before the errand", "Company returning without business", "A greeting given a moment of attention" },
+        dislikes = { "Someone reduced to their profession", "A visitor addressed only by their equipment", "Treating an introduction as a delay" },
+        gossip = "Mrs. Winters prefers a name before an errand. She would rather greet a person than remember only the quiver they carried.",
+        bio = "Mrs. Winters is known for general supplies in Brill, Tirisfal Glades. Among the town's merchants and travelers, her familiar place is in its everyday business. She values the person arriving as much as the errand that brought them.",
+        backstory = "She once heard a visitor introduced only as the one carrying a quiver. Mrs. Winters asked for their name instead. The errand could wait long enough for the person to have an introduction of their own.",
+        secret = "She quietly repeats a new name after the visitor leaves. She likes it to be a greeting next time, rather than another question.",
+        bestFriend = "Come along. You need not have an errand for me. I am pleased that you wanted my company, and I would like yours.",
+        favorite = {
+            emote = "GREET",
+            hint = "She appreciates a personal introduction given a little attention before the day's practical business.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. It is good to see you. The business can wait long enough for that to be said properly. Shall we go? ", tone = "[reserved] [welcoming]" }, "Ready, friend. You need not bring an errand to make your visit worthwhile. I am pleased you wanted my company." },
+            idle = { { "The one with the quiver. That was the whole introduction. I asked for a name. The errand could wait another moment without suffering for it.", tone = "[dry] [reflective]" }, "I sometimes repeat a new name after a visitor leaves. I prefer it to become a greeting, rather than a question I must ask again.", "A person can arrive with useful work, inconvenient news or no business at all. I still think an introduction deserves its own moment." },
+            befriended = { { "You have become someone I am pleased to see before knowing why you came. Come along, friend. I should like your company without requiring an errand to explain it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. Begin with what you wanted to tell me, rather than what you think ought to make it important.", "You have my attention. There is time to finish the greeting before we hurry into the next thing." },
+            waveBack = { { "Good to see you. There, a proper beginning. Now tell me how you have been.", tone = "[warm] [unhurried]" } },
+            quest = { "Make sure you know whom the errand concerns. A title or a piece of equipment is not always enough to identify the person." },
+            newFriend = { "Someone new to greet. Give the introduction a little room before deciding what sort of acquaintance they must become." },
+            group = { "Let everyone be introduced. A group need not remain a collection of professions and things people are carrying." },
+            rest = { "A pause. We can simply enjoy the company. There need not be business waiting behind every quiet moment." },
+            mail = { "A message from someone. Read the name as well as the request. It is pleasant when the sender remembers the same courtesy." },
+            thanked = { "You are welcome. I am pleased to hear it helped. And I am glad you came back to tell me." },
+        },
+    },
+
+    -- Kayren Soothallow <General Goods>, Tarren Mill. Adult Forsaken
+    -- female3659/M2 997378, Horde Friendly. All22current goods and
+    -- item nodes read; Classic15stock and own0quest/training noted.
+    -- Heavy Brown Bag misunderstanding is original, not game dialogue.
+    -- Research: docs/research/brill-introductions-and-tarren-mill-bags.md
+    [2401] = {
+        quote = "Heavy is part of the name. You must supply your own questionable packing decisions.",
+        likes = { "A useful supply chosen for the journey", "A harmless misunderstanding shared kindly", "A little room left in a traveling bag" },
+        dislikes = { "An empty bag expected to solve the packing", "A small mistake made into a cruel joke", "A confident name mistaken for its contents" },
+        gossip = "Kayren once explained that a Heavy Brown Bag did not arrive full of heavy things. She enjoys the question without naming the customer.",
+        bio = "Kayren Soothallow sells general goods in Tarren Mill. Her supplies include bags, drinks, ammunition, throwing weapons, wood and tinder. Travelers can prepare for the road without treating every useful purchase as a grand undertaking.",
+        backstory = "A customer lifted an empty Heavy Brown Bag and questioned its name. Kayren explained that the contents were still their responsibility. The misunderstanding gave an ordinary transaction a story she rather liked.",
+        secret = "She leaves the customer's name out when she tells that story. A small misunderstanding can be funny without following someone around town.",
+        bestFriend = "Come along. I enjoy your company, including the questions you think are too ordinary to ask. We can leave room for a little amusement.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She enjoys someone recognizing a dry joke without turning another person's harmless mistake into an insult.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Shall we? I should like your company. If you have brought a Heavy Brown Bag, I trust the contents were your own decision.", tone = "[dry] [welcoming]" }, "Ready, friend. Tell me what you have planned. A sensible beginning is welcome, even if it is simply leaving a little room in the bag." },
+            idle = { { "A customer lifted an empty Heavy Brown Bag and asked about the name. Heavy is part of the description. The questionable packing decisions remain the owner's responsibility.", tone = "[deadpan] [amused]" }, "I leave the name out of that story. A harmless misunderstanding can be amusing without becoming something a person must hear repeated everywhere they go.", "Drinks, wood, tinder and a bag to carry what you need. Useful preparations are allowed to remain useful without acquiring a magnificent explanation." },
+            befriended = { { "You have become welcome company, whether you have a practical question or a story worth enjoying. Come along, friend. I am pleased you wanted to share the way with me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Ask. An ordinary question is easier to answer than a confident mistake made in a hurry.", "I am listening. If this is about the weight of an empty bag, I have given the matter some consideration." },
+            laughAlong = { { "Exactly. No name is necessary. The question can be funny enough on its own.", tone = "[dry] [knowing]" } },
+            bagsFull = { "Make some room. A bag can offer space; it cannot decide which three things you were determined never to need." },
+            loot = { "Give it a look before making room for it. A grand description does not tell you everything about the contents." },
+            gear = { "Check what the thing actually does. An impressive name is pleasant company for a useful piece, rather less so for an unsuitable one." },
+            rest = { "A pause. Put the bag down, and let the weight be its own concern for a little while. I am pleased to sit with you." },
+            group = { "Ask whether everyone has what they need. The person with the most confident answer may still have forgotten something ordinary." },
+            quest = { "Read what is asked before deciding what the name must mean. It is useful advice in more places than a shop." },
+        },
+    },
+
     -- Shelby Stoneflint <Stable Master>, Kharanos, Dun Morogh. Adult
     -- Dwarf female9253/M2 950080, Alliance Friendly. Current own tabs0;
     -- Classic role and mountaineer directions confirm hunter-pet care.
