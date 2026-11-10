@@ -67,3 +67,6 @@ The local native Vorbis writer crashed while writing Sergra's welcome. Her exact
 The recording utility now prefers installed FFmpeg/libvorbis when available and publishes an encoded temporary file atomically; soundfile remains the fallback when FFmpeg is absent. A real audio round-trip and an injected encoder failure verified decoded rate/length/level and preservation of the prior clip with temporary-file cleanup. This addresses the native writer crash on this machine without changing runtime dependencies, recording models, selected voices or existing completed audio. The fallback still depends on the local soundfile library.
 
 Installed and verified 5,706 release files. The separate development v002 ZIP contains 5,678 runtime audio mappings and is 100.11 MiB. The old handed-off upload candidate remains unchanged against its recorded SHA-256.
+
+
+Follow-up November10: Senani Thunderheart now has her own full written profile. [Dolanaar care and Ashenvale patience](dolanaar-care-and-ashenvale-patience.md) rechecks all eight direct hunt/referral texts and documents her four installed guidance variants, original burr story and pending audio. The earlier Barrens-chain and recording counts above remain historical.

@@ -2940,6 +2940,20 @@
       "zone": "Riverglades",
       "route": "Riverglades Horde trade-goods contact",
       "reason": "Complete adult Horde service profile, fifteen personal lines queued; original empty-frame story; no synthesis"
+    },
+    {
+      "npc_id": 6094,
+      "name": "Byancie",
+      "zone": "Teldrassil",
+      "route": "Dolanaar First Aid starter-region contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original care/uncertainty lesson or cloak-burr story; no synthesis"
+    },
+    {
+      "npc_id": 12696,
+      "name": "Senani Thunderheart",
+      "zone": "Ashenvale",
+      "route": "Splintertree Post Horde hunting quest contact",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original care/uncertainty lesson or cloak-burr story; no synthesis"
     }
   ]
 }

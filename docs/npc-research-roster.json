@@ -3269,5 +3269,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult Goblin male, Horde Friendly; all current relationship tabs,28goods and installed scenic greeting read; no Scout sighting claimed",
     "research_notes": "docs/research/gilliwigs-and-the-empty-frame.md"
+  },
+  {
+    "npc_id": 6094,
+    "name": "Byancie",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full Forever patient/camping and Classic hunting chains, all relationship tabs and installed dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-care-and-ashenvale-patience.md"
+  },
+  {
+    "npc_id": 12696,
+    "name": "Senani Thunderheart",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult Night Elf / Tauren women, explicit faction Friendly; full Forever patient/camping and Classic hunting chains, all relationship tabs and installed dialogue read; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-care-and-ashenvale-patience.md"
   }
 ]

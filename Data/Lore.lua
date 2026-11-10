@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Byancie <First Aid Trainer>, Dolanaar, Teldrassil. Adult Night Elf
+    -- female4862/M2 921844, Alliance Friendly. Full Forever Eralya
+    -- chain/camping handoff, three installed referrals and Classic7lessons
+    -- read. Eralya survival remains unknown; private lesson/worry original.
+    -- Research: docs/research/dolanaar-care-and-ashenvale-patience.md
+    [6094] = {
+        quote = "I cannot promise that all will be well. That is no reason to leave someone alone with their suffering.",
+        likes = { "A frightened person listened to", "A learner willing to ask again", "Company that needs nothing mended" },
+        dislikes = { "An easy promise nobody can keep", "Uncertainty used as a reason to do nothing", "A person's pain treated as an inconvenience" },
+        gossip = "Byancie does not offer easy assurances. People remember that she still finds a reason to help when she cannot promise the outcome.",
+        bio = "Byancie teaches First Aid in Dolanaar, Teldrassil. When Sentinel Eralya is found wounded, she prepares a lasher-frond salve. She hopes to help the sentinel return for treatment, but admits that easing her suffering may be all it can do.",
+        backstory = "In a lesson, she imagined being asked what help was worth without certainty of success. She found she could explain the technique more easily than the answer. Since then, she has made room for both: careful work, and listening to the person who needs it.",
+        secret = "It is not always easy for her to say she does not know. With a trusted friend nearby, she finds it less lonely to be honest instead of sounding certain.",
+        bestFriend = "Stay a little. You need not bring an answer or anything for me to mend. I would welcome the chance to be the one receiving a little care.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She appreciates a friend remembering that the person giving care may sometimes need reassurance and company too.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. I would enjoy your company. Shall we go? You need not find a difficulty for me to solve before we can spend time together.", tone = "[warm] [gentle]" }, "Ready. Tell me how you are, if you wish. An ordinary answer is welcome, and you do not have to make it sound cheerful for my sake." },
+            idle = { { "I cannot always promise what will happen. It is a difficult thing to admit when someone is frightened. I would rather stay and help as carefully as I can than leave them with an easy assurance.", tone = "[reflective] [sincere]" }, "If the next step is unclear, ask. A learner deserves an explanation before being expected to work with confidence.", "Some visits need nothing mended. I enjoy those too. It is pleasant to hear how a day went without being asked to put it right." },
+            befriended = { { "You remembered there was a person behind the careful voice. Come along, friend. I am grateful that I need not always have an answer beside you.", tone = "[warm] [grateful]" } },
+            poke = { "Yes? Tell me what you need. You need not decide how serious it sounds before letting me hear it.", "I hear you. If you simply wanted to know how I am, I would be glad of that question." },
+            comforted = { { "Thank you. I am used to choosing the reassuring words. It is a relief to be allowed to hear them, and not have to supply the next answer immediately.", tone = "[soft] [relieved]" } },
+            learned = { "Take the time to understand. Confidence can follow careful practice; it need not arrive before you are allowed to begin." },
+            quest = { "Listen to what is actually asked. Sometimes easing a difficulty matters even when nobody can promise to remove it entirely." },
+            rest = { "A pause. You may let the moment be quiet. There is no need to fill it with an assurance you do not feel." },
+            group = { "Let the worried person finish. Speaking more softly does not mean their question matters less." },
+            combatEnd = { "It is over. Take a moment to notice who needs help before assuming everybody who is standing is ready to continue." },
+            thanked = { "You are welcome. I am glad it helped. You may tell me if there is still something you need to say." },
+        },
+    },
+
+    -- Senani Thunderheart, Splintertree Post, Ashenvale. Adult Tauren
+    -- female12970/M2 986648, Horde Friendly. Full8hunt/referral texts,
+    -- four installed hunting dialogues read; Night Elf training of bear
+    -- is her inference, not confirmed fact. Cloak burr is original.
+    -- Research: docs/research/dolanaar-care-and-ashenvale-patience.md
+    [12696] = {
+        quote = "I can speak wisely of the hunt and still spend half an evening being outwitted by one burr.",
+        likes = { "A hunter who brings proof of the deed", "Courage joined by careful listening", "A hard-won story told without disguise" },
+        dislikes = { "A boast offered in place of a trophy", "Underestimating a dangerous beast", "A burr that has found a very secure hold" },
+        gossip = "Senani knows the great beasts of the hunt. A burr caught in her cloak has nevertheless provided an unexpectedly stubborn opponent.",
+        bio = "Senani Thunderheart oversees the Ashenvale Hunt from Splintertree Post. She guides challengers toward Ursangous, Shadumbra and Sharptalon, and recognizes proof of their defeat. She praises courage, resolve and deeds that bring honor to the Horde.",
+        backstory = "After explaining the patience a hunt can require, she found a burr caught in her cloak. Removing it took an irritating amount of the very quality she had recommended. The resemblance was difficult to ignore, and eventually rather funny.",
+        secret = "She calls the burr her smallest worthy opponent. Not because it was dangerous, but because she had to stop pretending that being annoyed would make it let go sooner.",
+        bestFriend = "Come along. You have earned my respect, and you can hear the less glorious parts of the story without making the whole hunt smaller.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She welcomes someone sharing the satisfaction of a challenge met, even when the story ends with a little laughter.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Shall we go? Bring your courage, and enough attention to hear the part of the warning that comes after the creature's name.", tone = "[confident] [encouraging]" }, "Ready. Tell me what you mean to face before deciding that a grand account of the attempt will be enough." },
+            idle = { { "I explained the patience of a hunt, then spent half an evening removing one burr from my cloak. My smallest worthy opponent. Irritation did not persuade it to surrender any faster.", tone = "[wry] [amused]" }, "The call of the hunt is not an excuse to stop listening. Ursangous, Shadumbra and Sharptalon each require more than a brave announcement.", "Bring proof of the deed. A fine story is welcome, but it should not have to do the work of the trophy as well." },
+            befriended = { { "You have shown resolve, and you can share a less glorious story without forgetting what the greater challenge meant. Come along, friend. I welcome your company.", tone = "[warm] [respectful]" } },
+            poke = { "Yes? If you have news of the hunt, let me hear what happened before choosing the grandest way to describe it.", "I hear you. The burr did eventually release its hold. There is no need to summon additional hunters on my behalf." },
+            cheerAlong = { { "Well met! Let the success have its moment. A challenge faced properly deserves more than a hurried glance toward the next one.", tone = "[proud] [hearty]" } },
+            quest = { "Listen to the account of the creature before seeking it. The detail you dismissed may be the one you most need to remember." },
+            combatEnd = { "It is over. Consider what your resolve achieved, and what your judgment must improve before the next challenge." },
+            group = { "There is no shame in seeking aid against a mighty creature. Make certain each person understands what the group is facing." },
+            loot = { "Look at what you have brought back. Proof of a deed carries a different weight from the boast that preceded it." },
+            rest = { "A pause. Patience is easier to praise before something small and stubborn requires you to practice it." },
+            thanked = { "You are welcome. Carry the useful lesson with you, and tell the story honestly when the hunt is done." },
+        },
+    },
+
     -- Gilliwigs <Trade Goods>, Riverglades. Adult Goblin male145180/
     -- M2 119376, Horde Friendly. All28stock rows and installed view
     -- greeting read; no own linked quests. Empty picture frame is original.

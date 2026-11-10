@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Byancie and Senani Thunderheart: two complete adult profiles with thirty personal lines queued.
+- Expand Dolanaar care and Ashenvale hunting contacts, grounded in the full Forever patient and Classic trophy quest chains.
+
 - Add Gilliwigs: a full adult Goblin trade-goods profile in Riverglades, with fifteen personal lines queued.
 - Ground his profile in the full stock list and scenic greeting, with an original empty-frame story and normal friendship unlocks.
 
