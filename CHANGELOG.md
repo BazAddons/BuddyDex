@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Reyna Stonebranch, Gwenna Firebrew and Granny Finespindle: three complete Ironforge profiles with forty-five personal lines queued.
+- Ground Reyna in her Forever camping referral, distinguish barmaid and recipe-vendor roles, and add original friendship stories with ordinary character-specific unlocks.
+
 - Add Hanaa Nightwind and Teeri Wellwind: two full female Skyborne profiles along the shared early Zephras route, with thirty personal lines queued.
 - Preserve the ranger's warning duty and Shen'dar's supply tradeoffs, with original friendship stories and ordinary character-specific unlocks.
 

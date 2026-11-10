@@ -2289,5 +2289,26 @@
     "zone": "Zephras Isle",
     "source": "Reviewed current adult model, explicit both-faction Friendly fields, complete own tasks/arrival context and installed/public dialogue; no claimed Scout sighting",
     "research_notes": "docs/research/zephras-warnings-and-village-operations.md"
+  },
+  {
+    "npc_id": 5137,
+    "name": "Reyna Stonebranch",
+    "zone": "Ironforge",
+    "source": "Reviewed unique adult city identity, current Friendly/model/service fields, full available relevant quests/dialogue and stock; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-herbs-hospitality-and-patterns.md"
+  },
+  {
+    "npc_id": 5112,
+    "name": "Gwenna Firebrew",
+    "zone": "Ironforge",
+    "source": "Reviewed unique adult city identity, current Friendly/model/service fields, full available relevant quests/dialogue and stock; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-herbs-hospitality-and-patterns.md"
+  },
+  {
+    "npc_id": 258306,
+    "name": "Granny Finespindle",
+    "zone": "Ironforge",
+    "source": "Reviewed unique adult city identity, current Friendly/model/service fields, full available relevant quests/dialogue and stock; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-herbs-hospitality-and-patterns.md"
   }
 ]

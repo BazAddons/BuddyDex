@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Reyna Stonebranch, Gwenna Firebrew and Granny Finespindle: three complete Ironforge profiles with forty-five personal lines queued.
+- Ground Reyna in her Forever camping referral, distinguish barmaid and recipe-vendor roles, and add original friendship stories with ordinary character-specific unlocks.
+
 - Add Hanaa Nightwind and Teeri Wellwind: two full female Skyborne profiles along the shared early Zephras route, with thirty personal lines queued.
 - Preserve the ranger's warning duty and Shen'dar's supply tradeoffs, with original friendship stories and ordinary character-specific unlocks.
 
@@ -87,4 +90,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **532 fully written NPC profiles**: 454 have initial signature recordings, and seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **535 fully written NPC profiles**: 454 have initial signature recordings, and eighty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

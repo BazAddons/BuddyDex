@@ -1960,6 +1960,27 @@
       "zone": "Zephras Isle",
       "route": "Shared female Skyborne Thendal-Shendar early route",
       "reason": "Complete adult High Order female profile and fifteen queued lines; shared player access separate from NPC race, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 5137,
+      "name": "Reyna Stonebranch",
+      "zone": "Ironforge",
+      "route": "Dwarf and Gnome women, capital-city service coverage",
+      "reason": "Full researched adult female profile with fifteen queued personal lines; city coverage separate from starter milestones, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 5112,
+      "name": "Gwenna Firebrew",
+      "zone": "Ironforge",
+      "route": "Dwarf and Gnome women, capital-city service coverage",
+      "reason": "Full researched adult female profile with fifteen queued personal lines; city coverage separate from starter milestones, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 258306,
+      "name": "Granny Finespindle",
+      "zone": "Ironforge",
+      "route": "Dwarf and Gnome women, capital-city service coverage",
+      "reason": "Full researched adult female profile with fifteen queued personal lines; city coverage separate from starter milestones, ordinary live gates retained, no synthesis"
     }
   ]
 }

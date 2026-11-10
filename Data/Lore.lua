@@ -41,6 +41,108 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Reyna Stonebranch <Herbalism Trainer>, Ironforge. Adult Dwarf female.
+    -- Current display3063/M2 950080, Alliance Friendly; five training rows.
+    -- Full Forever camping referral96055 and Eric96628/96608 reviewed.
+    -- Pressed walks/ordinary weed are original writing; no later Magni event.
+    -- Research: docs/research/ironforge-herbs-hospitality-and-patterns.md
+    [5137] = {
+        quote = "Learn the leaf before you reach for the whole plant.",
+        likes = { "A plant left room to grow", "Careful questions", "A walk with no collecting bag" },
+        dislikes = { "Roots pulled up needlessly", "Guessing at an unfamiliar herb", "Every flower valued only in coin" },
+        gossip = "Reyna knows the useful plants by sight. She still stops to admire a perfectly useless little weed.",
+        bio = "Reyna Stonebranch teaches herbalism in Ironforge. Learners sent by Eric Brighthammer can study the Incense Candle with her once they have shown their skill. She reminds campers to try their craft outside town and remember a campfire.",
+        backstory = "Keeping specimens helped her remember where she had walked. In time, the labels became less about the plants and more about the day: a clear sky, a good companion, or a path she had been glad to find.",
+        secret = "Her favorite pressed specimen is a rather ordinary weed. She remembers laughing when she picked it. That seems a sound enough reason to keep it.",
+        bestFriend = "We need not bring anything back from this walk. I should like to remember it for the company.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She enjoys a greeting with a little warmth and no urgency.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "A little fresh air will do nicely. Mind where you put your feet.", tone = "[warm] [unhurried]" }, "Good to see you. Shall we take the longer path?" },
+            idle = { { "Not every plant needs to come home in a bag. Some are doing very well where they are.", tone = "[gentle] [wry]" }, "There is more to looking closely than deciding what a thing is worth.", "I once kept a weed for the memory. It remains a very good weed." },
+            befriended = { { "You make a pleasant change from being asked what everything is good for. I am glad to come along.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Show me what caught your eye.", "I was looking at the ground. That does not mean I have stopped listening." },
+            learned = { { "First learn to recognize it. Confidence can wait its turn.", tone = "[patient] [firm]" } },
+            loot = { "Leave a little room in the bag. A crushed specimen is a poor introduction." },
+            bagsFull = { "Perhaps we have reached the point where we admire things without collecting them." },
+            rest = { "A campfire first. Then you can worry about making the camp impressive." },
+            zone = { "New ground. Take a moment to see what grows here." },
+            quest = { "Read carefully. A useful craft begins with knowing what was actually asked." },
+            thanked = { "You are welcome. I am glad you took the time to ask." },
+        },
+    },
+
+    -- Gwenna Firebrew <Barmaid>, Stonefire Tavern, Ironforge. Adult Dwarf
+    -- female, current display3051/M2 950080, Alliance Friendly. No own
+    -- quest/gossip found; Classic drink stock is not promised current stock.
+    -- Drawing out quiet guests and her own small story are original writing.
+    -- Research: docs/research/ironforge-herbs-hospitality-and-patterns.md
+    [5112] = {
+        quote = "You can tell a fine story without shouting it across the room.",
+        likes = { "A tale with a proper ending", "A quiet guest included in the talk", "A thank-you before the next order" },
+        dislikes = { "Someone speaking for everyone", "Boasting that never reaches the point", "A table left sticky" },
+        gossip = "Gwenna can get a whole table talking. The surprising part is how seldom she tells a tale of her own.",
+        bio = "Gwenna Firebrew is a barmaid at the Stonefire Tavern in the Commons of Ironforge. Between travelers and familiar faces, she has plenty of company to notice. She likes a conversation with room for more than its loudest voice.",
+        backstory = "Listening to travelers became a habit. She learned to ask the small question that made a shy guest part of the table. Her own uneventful days seemed less worth describing, until she began noticing who asked about them.",
+        secret = "She has been practicing a little story about her own day. There is no monster in it, no treasure, and a very good ending involving a dry floor.",
+        bestFriend = "My turn for a story, then. It is a small one. I thought you might like to hear it anyway.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "She appreciates someone making room for another person in the company.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "Well, this is a change. I get to be part of the company rather than watching the tables.", tone = "[bright] [friendly]" }, "Good to see you. Have you a tale, or shall we go and find one?" },
+            idle = { { "There is a quiet one at every table. Leave a little room for them to speak.", tone = "[warm] [thoughtful]" }, "A story improves with an ending. A boast improves with one even more.", "I have a tale of my own, actually. You may need to sit through the beginning." },
+            befriended = { { "You keep asking how my day went. I have decided to take you seriously and tell you.", tone = "[warm] [amused]" } },
+            poke = { "Yes? I heard you the first time. I was making you wait for the answer.", "Is this the interesting part, or are we still describing the size of it?" },
+            group = { { "Room for everyone. Let us hear from someone who has not spoken yet.", tone = "[welcoming]" } },
+            rest = { "A chance to sit and talk. I approve of this part of the outing." },
+            mail = { "News from someone who could not be here. Go on, have a look." },
+            quest = { "If the tale leaves out what they need, ask before you set off." },
+            loot = { "A fine discovery. You need not make it larger in the retelling." },
+            combatEnd = { "Everyone still with us? Good. That is the part I wanted to hear." },
+            hearth = { "Homeward, then. Perhaps this time I will have the story worth hearing." },
+        },
+    },
+
+    -- Granny Finespindle <Leatherworking Recipes>, Ironforge. Adult Gnome
+    -- female, display140695/M2 940356, Alliance Friendly; eleven patterns.
+    -- No own quest/gossip found. No specific kinship or pet training inferred.
+    -- Kept practice scraps and learned patience are original writing.
+    -- Research: docs/research/ironforge-herbs-hospitality-and-patterns.md
+    [258306] = {
+        quote = "A pattern is a beginning, dear. You still have to do the careful part.",
+        likes = { "A beginner trying again", "A pattern kept legible", "Work made to be used" },
+        dislikes = { "Hiding a mistake under decoration", "Throwing away every practice piece", "Calling patience a lack of talent" },
+        gossip = "Granny Finespindle has a pattern for many useful things. Nobody has seen one for the curious little scraps she keeps.",
+        bio = "Granny Finespindle sells leatherworking patterns in Ironforge, including designs for boots, slippers, shoes, and several kinds of belt. She takes an interest in what a learner makes of instructions once the page is in their hands.",
+        backstory = "Her early practice pieces were not things she wanted to show off. Keeping a few helped her remember what had gone wrong. Eventually she found them more useful than a perfect example when someone was afraid to begin.",
+        secret = "She still keeps one splendidly uneven practice scrap. When someone praises her patience, she thinks of how cross she was while making it.",
+        bestFriend = "You may show me the attempt that went wrong. I shall like you just as well, and we can have a look together.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She likes encouragement that notices care rather than perfection.",
+        },
+        recordingVoice = "female",
+        lines = {
+            greet = { { "Come along, then. There is more to a day than keeping the patterns in order.", tone = "[warm] [matter-of-fact]" }, "Good to see you, dear. What have you been trying your hand at?" },
+            idle = { { "I keep a few poor attempts. They remind me that patience was something I had to practice too.", tone = "[wry] [gentle]" }, "Read the whole pattern before deciding the difficult bit must be a mistake.", "A useful thing need not look as though nobody has ever touched it." },
+            befriended = { { "You need not bring me perfect work to earn good company. I am pleased you asked me along.", tone = "[warm] [reassuring]" } },
+            poke = { "Yes, dear? I can look at it without pulling it apart. Probably.", "If you are hoping I will call that finished, show me the other side." },
+            learned = { { "There now. Try it yourself before deciding you have no talent for it.", tone = "[encouraging] [patient]" } },
+            gear = { "Fine work ought to hold up when you use it. That is rather the point." },
+            bagsFull = { "Not every scrap is a keepsake. Even I must admit that." },
+            loot = { "Useful material deserves a little care on the way home." },
+            rest = { "Put it down for a moment. Tired hands can make a small problem very interesting." },
+            quest = { "Read the instructions through. The last line sometimes explains the first." },
+            levelUp = { "A little better than last time. You are allowed to be pleased about that." },
+        },
+    },
+
     -- Hanaa Nightwind <Rangers of Thendal Grove>, Zephras Isle. Adult
     -- High Order female252095/display137338/M2 7478494, Alliance/Horde
     -- Friendly. Full current/installed Al'Aketh Thugs92544: stays to warn
