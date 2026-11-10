@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Taleen Shimmerthread and Indari Sunseam: adult High Order profiles with thirty personal lines queued.
+- Review full feather, prideclaw and camping dialogue plus complete goods/training tables; document original character scenes.
+
 - Add Myriaal Mistwake and Oura Stormspinner: two adult Windshaper profiles with thirty personal lines queued.
 - Review the Walk on Air game and cloth-donation dialogue; document original returned-surprise and social-visit stories.
 

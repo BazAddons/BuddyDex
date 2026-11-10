@@ -4046,5 +4046,19 @@
     "zone": "Mulgore",
     "source": "Reviewed adult horde woman; Full wool and sparse silk donation evidence; original social visit; no Scout sighting claimed",
     "research_notes": "docs/research/myriaals-returned-surprise-and-ouras-visitor.md"
+  },
+  {
+    "npc_id": 251991,
+    "name": "Taleen Shimmerthread",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full93951/97973 and spirit/cloth gossip; original ticklish feather; no Scout sighting claimed",
+    "research_notes": "docs/research/taleens-feather-and-indaris-fond-warning.md"
+  },
+  {
+    "npc_id": 251993,
+    "name": "Indari Sunseam",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde man; Full92515/97969 including safe-distance fondness; original warning incident; no Scout sighting claimed",
+    "research_notes": "docs/research/taleens-feather-and-indaris-fond-warning.md"
   }
 ]

@@ -3717,6 +3717,20 @@
       "zone": "Mulgore",
       "route": "Windshapers cloth quartermaster",
       "reason": "Full wool and sparse silk donation evidence; original social visit; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251991,
+      "name": "Taleen Shimmerthread",
+      "zone": "Zephras Isle",
+      "route": "Shendar tailor",
+      "reason": "Full93951/97973 and spirit/cloth gossip; original ticklish feather; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251993,
+      "name": "Indari Sunseam",
+      "zone": "Zephras Isle",
+      "route": "Shendar leatherworker",
+      "reason": "Full92515/97969 including safe-distance fondness; original warning incident; fifteen personal lines queued without synthesis"
     }
   ]
 }

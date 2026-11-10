@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Taleen Shimmerthread <Tailor>, Shen'dar/Zephras. Adult High
+    -- Order female136970/M2 7478494, both Friendly. Full93951/97973,
+    -- spirit/cloth gossip. Ticklish feather arrangement is original.
+    -- Research: docs/research/taleens-feather-and-indaris-fond-warning.md
+    [251991] = {
+        quote = "The feather tickles when I try to look solemn. I have decided that the solemn expression may be the part that needs changing.",
+        likes = { "A small joy enjoyed without apology", "Cloth moving lightly in the breeze", "A familiar face brightening at her work" },
+        dislikes = { "Beauty dismissed as useless vanity", "Someone made ashamed of a little delight", "A lesson hurried past the feel of the cloth" },
+        gossip = "Taleen made a feather ornament that would not let her keep a solemn expression. She seems to consider this one of its better qualities.",
+        bio = "Taleen Shimmerthread is a tailor in Shen'dar Village. She finds comfort in clothcraft while the spirits are absent, and gathers fallen hippogryph down for adornments. Bringing a little joy to Zephras matters to her.",
+        backstory = "A feather in an ornament brushed her cheek whenever she tried to sit very still. She began to laugh at the effort of remaining solemn. For once, the final adjustment was to leave the little delight alone.",
+        secret = "She kept the ticklish arrangement. There is comfort in making something beautiful, and another kind in being surprised into laughter by the thing she made.",
+        bestFriend = "Stay a little while. You need not find words for everything we miss. It is enough to enjoy something lovely together today.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates seeing that a little beauty has made another person glad.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along. You may tell me about your day, and I shall try not to look quite so solemn that the feather must correct me again.", tone = "[gentle] [lightly amused]" }, "Good to see you. There may be some small lovely thing we have both been too busy to notice. I would enjoy finding it in your company." },
+            idle = { { "I arranged the feather very carefully. Then it brushed my cheek, and the dignified expression became impossible. I believe the ornament improved at that point.", tone = "[fond] [quiet laughter]" }, "The spirits are absent, and I do not know when I shall see them dance again. Working the cloth gives my hands something gentle to do while I miss them.", "A little beauty need not mend everything to be worth making. If someone is glad of it, that is already something I am pleased to have done." },
+            befriended = { { "Your company has become a comfort I need not explain before enjoying it. Come along, friend. We may leave room for something lovely without pretending nothing is wrong.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I can leave the next adjustment long enough to hear you.", "Go on. I would like to know what caught your attention." },
+            gear = { { "Does it please you as well as serve you? There is room for both questions when you decide what to wear.", tone = "[attentive] [encouraging]" } },
+            loot = { "Handle it gently. Sometimes the little detail that makes a thing beautiful is the easiest part to spoil by hurrying." },
+            rest = { "A quiet moment. We can enjoy the company without finding the right words for everything that troubles us." },
+            learned = { "Take your time with the feel of the work. A pattern tells you where to begin; your hands still need the chance to learn it." },
+            newFriend = { "Someone new. A kind welcome can be a small lovely thing in its own right." },
+            thanked = { "You are welcome. I am glad it brought you some pleasure." },
+            group = { "Make room for everyone. A little consideration gives each person a chance to enjoy being here." },
+        },
+    },
+
+    -- Indari Sunseam <Leatherworker>, Shen'dar/Zephras. Adult High
+    -- Order male137059/M2 7478487, both Friendly. Full92515/97969 read.
+    -- Cute-from-safe-distance is canon; slipped fond warning is original.
+    -- Research: docs/research/taleens-feather-and-indaris-fond-warning.md
+    [251993] = {
+        quote = "A prideclaw may be charming at a distance. You may stand closer. I have developed rather more confidence in your manners.",
+        likes = { "A warning heard before the trouble begins", "A useful piece made with care", "Company he can welcome without caution" },
+        dislikes = { "A predator mistaken for a harmless pet", "A real danger dismissed as nervousness", "Useful material needlessly wasted" },
+        gossip = "Indari calls prideclaws dangerous and rather charming. He sees no contradiction, provided the admiration occurs at a safe distance.",
+        bio = "Indari Sunseam is a leatherworker in Shen'dar Village. He wants the bold prideclaws kept from its borders and can put their pelts to useful work. He also admits the beasts can look rather cute from a sufficiently safe position.",
+        backstory = "He once tried giving a thoroughly stern account of the prideclaw problem. A fond observation slipped into the warning. His listener laughed; Indari maintained that noticing a creature's charm did not make its teeth less real.",
+        secret = "He enjoys company he can praise without adding a caution about the distance. A trusted friend gives him room to be openly fond without immediately explaining the danger.",
+        bestFriend = "Come along, friend. You may stand close enough to hear the kind part without waiting for a warning to follow it.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone understanding the whole observation, including the sensible caution.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along. I can greet you warmly without first recommending a safe distance. It is a pleasant advantage of knowing your company.", tone = "[wry] [warm]" }, "Good to see you. Tell me how the road has been, and whether anything on it was considerably less harmless than it looked." },
+            idle = { { "A creature can look charming and remain a very real problem. I see no contradiction. You are smiling as though I ought to choose one observation and abandon the other.", tone = "[defensive humor] [dry]" }, "I was explaining the danger quite sternly until the fond description slipped out. The warning remained perfectly valid, whatever happened to its dignity.", "There is satisfaction in turning material into something that will help the village. I prefer useful work to repeating the same concern until somebody finally listens." },
+            befriended = { { "You have become company I can be pleased to see without preparing the warning that usually follows. Come along, friend. I am glad to have you near.", tone = "[reserved warmth] [sincere]" } },
+            poke = { "Yes? You may tell me whether this is the charming part or the part I ought to worry about.", "Go on. I can hear the account before deciding what needs a careful look." },
+            combatEnd = { { "Take a moment to see that everyone is well. A danger being over is the beginning of checking what it cost.", tone = "[steady] [concerned]" } },
+            gear = { "A good piece should let you move and do its work without demanding all your attention. Have a proper look at how it sits." },
+            loot = { "Keep the useful material. Care in what you make begins before the work reaches the table." },
+            rest = { "A proper pause helps. There is no merit in carrying all the strain of the road into the next task." },
+            newFriend = { "Someone new. Let them introduce themselves before deciding whether their cheerful approach needs a warning." },
+            thanked = { "You are welcome. I am pleased the useful part of the advice reached you." },
+            group = { "Let everyone have room to do their part. Concern for the company is more useful than competing to look unconcerned." },
+        },
+    },
+
     -- Myriaal Mistwake <Rangers of Thendal Grove>, Zephras Isle.
     -- Adult Windshaper female143516/M2 7478494, both Friendly.
     -- Full92474 and own Halaan gossip. Returning her surprise is original.
