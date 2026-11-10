@@ -1848,6 +1848,20 @@
       "zone": "Dun Morogh",
       "route": "Kharanos dwarf/gnome starting route",
       "reason": "Fully researched adult trainer personality and fifteen queued lines in approved voice; sparse service/quest data documented, no eligibility exception or synthesis"
+    },
+    {
+      "npc_id": 8418,
+      "name": "Falla Sagewind",
+      "zone": "The Barrens",
+      "route": "Tauren Barrens onward quest and Thunder Bluff service rotation",
+      "reason": "Fully researched adult female/male Tauren profile and fifteen queued lines each; current access/service limits preserved, no synthesis"
+    },
+    {
+      "npc_id": 3005,
+      "name": "Mahu",
+      "zone": "Thunder Bluff",
+      "route": "Tauren Barrens onward quest and Thunder Bluff service rotation",
+      "reason": "Fully researched adult female/male Tauren profile and fifteen queued lines each; current access/service limits preserved, no synthesis"
     }
   ]
 }

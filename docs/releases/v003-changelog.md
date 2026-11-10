@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Falla Sagewind and Mahu: full Tauren profiles spanning the Wailing Caverns onward route and Thunder Bluff crafting supplies, with thirty personal lines queued.
+- Keep Falla's Nightmare investigation unresolved and Mahu's verified supply role distinct from the original personality details unlocked through friendship.
+
 - Add Dannie Fizzwizzle, Magis Sparkmantle and Azar Stronghammer along the Kharanos starting route, each with a full profile and fifteen personal lines queued.
 - Give the three trainers distinct personalities grounded in their dialogue and quest referrals; friendship keeps its normal unlocks and grants no game abilities.
 
@@ -66,4 +69,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **516 fully written NPC profiles**: 454 have initial signature recordings, and sixty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **518 fully written NPC profiles**: 454 have initial signature recordings, and sixty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

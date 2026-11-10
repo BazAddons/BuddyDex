@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 516,
-  "written_complete_count": 516,
-  "awaiting_signature_audio_count": 62,
+  "authored_count": 518,
+  "written_complete_count": 518,
+  "awaiting_signature_audio_count": 64,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 64,
+  "remaining_count": 66,
   "completed": [
     {
       "npc_id": 54,
@@ -1764,6 +1764,18 @@
       "zone": "Thunder Bluff",
       "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
       "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 3005,
+      "name": "Mahu",
+      "zone": "Thunder Bluff",
+      "source": "Reviewed current adult body and explicit Horde Friendly reaction, complete own tabs, Classic stock/quest variants and installed text; no claimed Scout sighting",
+      "research_notes": "docs/research/tauren-shard-and-crafting-supplies.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
@@ -3996,6 +4008,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 8418,
+      "name": "Falla Sagewind",
+      "zone": "The Barrens",
+      "source": "Reviewed current adult body and explicit Horde Friendly reaction, complete own tabs, Classic stock/quest variants and installed text; no claimed Scout sighting",
+      "research_notes": "docs/research/tauren-shard-and-crafting-supplies.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 8496,

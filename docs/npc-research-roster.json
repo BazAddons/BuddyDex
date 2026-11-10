@@ -2177,5 +2177,19 @@
     "zone": "Dun Morogh",
     "source": "Reviewed current adult body and explicit Friendly reaction, sparse current own tabs, complete Classic/installed referrals and role dialogue; no claimed Scout sighting",
     "research_notes": "docs/research/kharanos-trainer-personalities.md"
+  },
+  {
+    "npc_id": 8418,
+    "name": "Falla Sagewind",
+    "zone": "The Barrens",
+    "source": "Reviewed current adult body and explicit Horde Friendly reaction, complete own tabs, Classic stock/quest variants and installed text; no claimed Scout sighting",
+    "research_notes": "docs/research/tauren-shard-and-crafting-supplies.md"
+  },
+  {
+    "npc_id": 3005,
+    "name": "Mahu",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed current adult body and explicit Horde Friendly reaction, complete own tabs, Classic stock/quest variants and installed text; no claimed Scout sighting",
+    "research_notes": "docs/research/tauren-shard-and-crafting-supplies.md"
   }
 ]

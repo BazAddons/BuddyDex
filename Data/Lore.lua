@@ -41,6 +41,77 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Falla Sagewind, hill above Wailing Caverns, The Barrens. Adult
+    -- Tauren female8418/display7870/M2 986648, current Horde Friendly.
+    -- Full Glowing Shard variants and both In Nightmares branches read;
+    -- installed Sputtervalve identifies her as a druid. Nightmare meaning
+    -- remains guarded; no later expansion answer or friendship cure.
+    -- Poor private weather guesses are original BuddyDex writing.
+    -- Research: docs/research/tauren-shard-and-crafting-supplies.md
+    [8418] = {
+        quote = "You need not understand a troubling thing to know it should be handled with care.",
+        likes = { "Clear horizons", "Visitors who listen", "Ordinary questions" },
+        dislikes = { "Danger mistaken for beauty", "Careless handling of strange objects", "Every cloud called an omen" },
+        gossip = "Falla watches the sky with a druid's solemn attention. Travelers assume she knows exactly when it will rain.",
+        bio = "Falla Sagewind is a tauren druid on the hill above the Wailing Caverns. A strange shard leads her to recognize a troubling vision of the Emerald Dream and seek wiser counsel, rather than offer easy reassurance.",
+        backstory = "She began making private guesses about the weather during her watches. The sky proved an uncooperative teacher. She still watches, but has become fond of observations that need not end in a prediction.",
+        secret = "Her weather guesses are remarkably poor. She once felt certain of a dry afternoon until the first drop landed. She would rather you asked about something else.",
+        bestFriend = "Stay a while. We can watch the clouds without asking them to tell us anything.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A little uncomplicated warmth is welcome during a long watch.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "I will walk with you. We need not make every step a search for answers.", tone = "[calm] [warm]" }, "It is good to have company for a while." },
+            idle = { { "That cloud tells me only that there is a cloud. An excellent beginning.", tone = "[dry] [gentle]" }, "The horizon need not conceal a message to be worth watching.", "You may ask an ordinary question. I would welcome one." },
+            befriended = { { "You have given me company without demanding a revelation. I value that.", tone = "[soft] [sincere]" } },
+            poke = { "Yes? Let me turn my attention to you.", "No, I was not predicting the weather." },
+            loot = { { "Beautiful things can still be dangerous. Handle that thoughtfully.", tone = "[cautious]" } },
+            quest = { "If the matter is beyond you, take it to someone better placed to help." },
+            dungeon = { "Do not mistake the end of a passage for the end of its troubles." },
+            rest = { "A quiet moment can simply be a quiet moment." },
+            zone = { "Different ground beneath us. Let us take time to notice it." },
+            hearth = { "A familiar place can be welcome after strange discoveries." },
+            comforted = { "Thank you. I need not find a wise reply to accept your kindness." },
+        },
+    },
+
+    -- Mahu <Leatherworking & Tailoring Supplies>, Thunder Bluff middle
+    -- rise. Adult Tauren male3005/display2093/M2 968705, Horde Friendly.
+    -- Current Vendor with27stock rows; no own quests or installed gossip.
+    -- Current and Classic materials/patterns reviewed; no later Void event.
+    -- Color advice and unnamed dawn shade are original BuddyDex writing.
+    -- Research: docs/research/tauren-shard-and-crafting-supplies.md
+    [3005] = {
+        quote = "The supplies are mine. What you make of them ought to be yours.",
+        likes = { "Colors chosen with confidence", "Patient craftspeople", "A well-used handmade bag" },
+        dislikes = { "Good materials wasted", "Sneering at another person's taste", "Unasked advice about colors" },
+        gossip = "Mahu can discuss a shade of dye for ages. Ask his favorite color and he suddenly becomes difficult to pin down.",
+        bio = "Mahu supplies leatherworkers and tailors on Thunder Bluff's middle rise. Thread, dyes and patterns fill his trade. He enjoys seeing familiar materials become something he would never have thought to make.",
+        backstory = "He used to answer a request for color advice with his own favorite choice. Then he noticed how different the finished work could be from the maker's first idea. Now he asks what they hoped to make before offering an opinion.",
+        secret = "His favorite shade is the sky just before dawn. He has never found a satisfactory name for it, much less a bottle to put it in.",
+        bestFriend = "Make it your way. I would rather see what you imagined than another copy of my own taste.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He notices when someone appreciates a craftsperson's work.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "I will come along. There is more to see than the colors on my shelves.", tone = "[warm] [curious]" }, "Good company. A fine reason to leave the counter for a while." },
+            idle = { { "What color is the sky before dawn? I have never liked any of my answers.", tone = "[thoughtful]" }, "A well-used bag can tell you something about the hands that made it.", "Two colors need not agree with me to belong together." },
+            befriended = { { "You have made room for my company. I look forward to seeing what you make of our travels.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering a shade without a proper name.", "You have my attention. What have you in mind?" },
+            learned = { { "A new skill gives familiar materials another possibility.", tone = "[pleased]" } },
+            loot = { "Look closely. Something useful need not look impressive." },
+            mail = { "Perhaps someone has sent news of a finished piece." },
+            bagsFull = { "Even the best bag has a last space. Yours has found it." },
+            gear = { "You chose that. Tell me what caught your eye." },
+            zone = { "There will be colors here I have forgotten to notice." },
+            rest = { "Let your hands rest as well as your feet." },
+        },
+    },
+
     -- Dannie Fizzwizzle <Demon Trainer>, Kharanos, Dun Morogh. Adult
     -- Gnome female6328/display5042/M2 940356, Alliance Friendly. Classic
     -- grimoires and installed class-restricted, brusque gossip; current

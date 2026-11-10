@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 224,
     "unverified": 134,
-    "horde": 167
+    "horde": 169
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 32,
     "8": 38,
     "9": 24,
-    "6": 57,
+    "6": 59,
     "96": 6,
     "95": 9
   },
@@ -38,9 +38,9 @@
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 14,
-    "Thunder Bluff": 28,
+    "Thunder Bluff": 29,
     "Durotar": 41,
-    "The Barrens": 24,
+    "The Barrens": 25,
     "Ashenvale": 6,
     "Stonetalon Mountains": 5,
     "Darnassus": 7,
@@ -2423,6 +2423,19 @@
       "reaction_evidence": "Explicit current Horde icon Friendly; normal live gates still required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2998",
       "audio_status": "All personal recordings pending; billing unavailable"
+    },
+    {
+      "npc_id": 3005,
+      "name": "Mahu",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3005"
     },
     {
       "npc_id": 3007,
@@ -5230,6 +5243,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8385"
     },
     {
+      "npc_id": 8418,
+      "name": "Falla Sagewind",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde icon Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8418"
+    },
+    {
       "npc_id": 8496,
       "name": "Liv Rizzlefix",
       "zone": "The Barrens",
@@ -6608,6 +6634,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 516,
-  "awaiting_signature_audio_profiles": 62
+  "authored_profiles": 518,
+  "awaiting_signature_audio_profiles": 64
 }

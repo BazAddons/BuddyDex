@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Falla Sagewind and Mahu: full Tauren profiles spanning the Wailing Caverns onward route and Thunder Bluff crafting supplies, with thirty personal lines queued.
+- Keep Falla's Nightmare investigation unresolved and Mahu's verified supply role distinct from the original personality details unlocked through friendship.
+
 - Add Dannie Fizzwizzle, Magis Sparkmantle and Azar Stronghammer along the Kharanos starting route, each with a full profile and fifteen personal lines queued.
 - Give the three trainers distinct personalities grounded in their dialogue and quest referrals; friendship keeps its normal unlocks and grants no game abilities.
 

@@ -1,0 +1,46 @@
+# Falla Sagewind and Mahu
+
+Researched November 10, 2026. Two individually reviewed single-ID catalog identities: Falla8418 and Mahu3005. No same-name variants or claimed Scout sightings. Hewa8358 was also inspected but remains unauthored; current body is male Tauren, not a female Troll. The working cache directory name tauren-and-senjin does not establish a Sen'jin sighting or route.
+
+## Current identities, adults and access
+
+| NPC | Primary definition | Adult body / voice | Location and access |
+| --- | --- | --- | --- |
+| Falla8418 | [API](https://forever.warcraftdb.com/api/data/node/npc/8418), Tauren humanoid25 | display7870,6:1,M2 986648,tauren-female |The Barrens1413,48.1768/32.8363, explicit Horde Friendly |
+| Mahu3005 | [API](https://forever.warcraftdb.com/api/data/node/npc/3005), Leatherworking & Tailoring Supplies, Tauren humanoid30, Vendor |2093,6:0,M2 968705,tauren-male |Thunder Bluff1456,43.9441/44.8385, explicit Horde Friendly |
+
+Race/sex mappings come from installed Data/NpcSounds.lua. Current adult character references [Nara5770](https://forever.warcraftdb.com/api/data/node/npc/5770), display4513/M2 986648, and [Karn2998](https://forever.warcraftdb.com/api/data/node/npc/2998), display2090/M2 968705, corroborate normal female/male Tauren bodies. Age not inferred from level/size. Live display-based voices match approved declared metadata. Current public source only establishes Horde Friendly, even though Falla has a historical/current Alliance quest branch. Alliance access is not inferred from that branch. Normal live nonattackability/reaction gates and per-character progress remain mandatory.
+
+Falla deepens the Crossroads/Wailing Caverns onward route; Mahu is capital-city service coverage, not a new first-zone milestone. No profile automatically discovers a buddy or grants services, equipment, recipes or powers.
+
+## Falla's shard: full variants and both branches
+
+Current [starts](https://forever.warcraftdb.com/api/data/node/npc/8418/tab/starts?page=1) contains3369, [ends](https://forever.warcraftdb.com/api/data/node/npc/8418/tab/ends?page=1) contains6981, one page each. Sells/teaches return zero rows/pages. An external site advertises pet-training spells, but no current trainer flag/rows corroborate that service, so it is not promised. [Classic NPC](https://classicdb.ch/?npc=8418) includes starts3369/3370 and ends3366/6981. Sparse current tabs do not establish removal of a branch.
+
+Read full available objectives/descriptions/progress/completions from all four [Classic3366](https://classicdb.ch/?quest=3366), [6981](https://classicdb.ch/?quest=6981), [3369](https://classicdb.ch/?quest=3369), [3370](https://classicdb.ch/?quest=3370), their current equivalents at https://forever.warcraftdb.com/api/data/node/quest/ID, and installed Spoken_Quests/Data/QuestText.lua. Current3366 returns404 and has no installed block: an old repeatable/event record, not a second required sequential task. Current6981/3369/3370 exist. Installed accept/completion6981/3369/3370 corroborate their text; installed corpus is not newly observed live play.
+
+- Glowing Shard6981 starts from item10441. Its brilliant green/smoky appearance is disturbing. The player is directed toward Ratchet for information, then to Falla. Installed SpokenQuestsAudioGossip/generated/npc_gossip_file_lookups.lua3442 contains Sputtervalve's referral to a female druid on the hill above Wailing Caverns; this is direct corroboration of her druid role and place. It does not establish a family, shared employer, or close personal friendship between them. Falla's completion expresses surprise, not prior complete knowledge.
+- In Nightmares3369 identifies the shard's essence with the Emerald Dream and its vision as a nightmare. Falla urges care and sends it to Hamuul Runetotem on Elder Rise. Hamuul is troubled, limits discussion and leaves the Dream's condition unresolved. Current description/objective and installed/Classic completion corroborate the branch.
+- Alliance3370 instead directs the shard to Mathrengyl Bearwalker in Darnassus, with a similarly guarded completion. It is an alternative branch, not a second delivery every player must do. Current3370 corroborates description/objective even though giver/turn-in links are absent. No faction access override based on quest side.
+
+[Wiki Falla](https://warcraft.wiki.gg/wiki/Falla_Sagewind) and [Glowing Shard](https://warcraft.wiki.gg/wiki/The_Glowing_Shard) corroborate this chain, but later Northern Barrens geography is not substituted for Forever's The Barrens position. Proposed Tahu/Hunter Sagewind kinship is explicitly speculative and excluded. No later Emerald Nightmare villain, expansion resolution, prophetic power, Naralex backstory or friendship cure invented. Her actual reticence is not turned into a Best Friend reveal of the Dream's hidden explanation. No attempt to resurrect or resolve a dungeon event through friendship.
+
+Original BuddyDex writing: a long-watch weather-guessing hobby, quietly poor predictions and appreciation of ordinary clouds without treating every one as an omen. These are harmless invented habits/history, not canonical magic limitations or a reported weather event. Her secret concerns this private hobby, not Nightmare lore. SMILE is an authored favorite. Fifteen personal lines; four calm/cautious hidden delivery tags for approved Tauren female v4 recording later.
+
+## Mahu: current materials and patterns
+
+Current [starts](https://forever.warcraftdb.com/api/data/node/npc/3005/tab/starts?page=1), [ends](https://forever.warcraftdb.com/api/data/node/npc/3005/tab/ends?page=1), [teaches](https://forever.warcraftdb.com/api/data/node/npc/3005/tab/teaches?page=1) all zero rows/pages. [Sells](https://forever.warcraftdb.com/api/data/node/npc/3005/tab/sells?page=1) one complete page27rows: Black/Blue/Gray/Green/Orange/Pink/Purple/Red/Yellow Dye, Bleach, Coarse/Fine/Heavy Silken/Rune/Silken Thread, Salt, Skinning Knife; patterns Forceful Heavy/Medium Armor Kit, Mystic Heavy/Medium Armor Kit, Linen/Woolen Reagent Bag, Orange Martial Shirt, Red Linen/Red Woolen Bag and White Wedding Dress. Exact prices/stock/skill requirements not promised by friendship.
+
+[Classic NPC3005](https://classicdb.ch/?npc=3005) lists21of those items, with the four modified armor kits and two reagent-bag patterns representing current extra rows, not projected retail stock. No own Classic quest chain or installed gossip block found. That negative result does not justify inventing a quest, training role, family, personal leatherworking mastery, wedding story or canonical customers. [Wiki Mahu](https://warcraft.wiki.gg/wiki/Mahu) confirms male Tauren, supplies role and middle-rise location. Later Legion/Highmountain feast/Void entrapment excluded.
+
+Original BuddyDex writing: interest in other people's color choices, learning to ask before advising, liking well-used handmade bags, and an unnamed favorite shade before dawn. All are invented personality/history, not game dialogue or evidence of a special dye product. PRAISE is an authored favorite for appreciating craftspeople. Fifteen personal lines, four hidden warm/thoughtful delivery tags, approved Tauren male.
+
+## Validation
+
+Main/Scout smoke passes with zero load errors/failures, including all lore/page/favorite/line budgets and fresh/existing per-character roster isolation. Actual-addon harness C:/Users/brett/AppData/Local/Temp/buddydex-tauren-518.py confirms both unique adult identities, approved declared/live voices, fifteen unsupported-by-existing-audio personal lines each and accepted favorites. Fresh Horde scenarios reject attackable and reaction3 units without discovery, accept reaction5/nonattackable, grant25ordinary/150favorite points, pass99/100and299/300 tier boundaries, reject early Buddy activation and allow text-only welcome at300without substituted audio. Generic guards remain excluded. No runtime/storage code changed, quest resolution or game reward granted.
+
+Complete offline decoded-audio/exact-text audit9425missing jobs/582849tagged inputcharacters; shared3548/personal5877, no MiniMe gaps. Each new source contributes15jobs in approved Tauren female/male;30newjobs/2093characters. Queue C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-518/queue.json. Existing recordings retained; no synthesis/account/billing calls or credit spending.
+
+518fully written/454with initial signature recordings/64awaiting initial recordings. Public explicit Friendly224Alliance/169Horde/134unverified, nine shared overlaps. Two uncertain Westfall identities remain unprofiled; catalog1536namegroups/1549identities unchanged. Hewa remains unauthored, no fake Scout sighting or faction access.
+
+Developmentv003 installed/hash-verified6362releasefiles with one runtime file updated. ZIP6362files/6334audio mappings/138.45MiB; source/installed/ZIP Lore byte checks and CRC pass. ZIP SHA256 `c313bf4bfdcb99363b33238a706d0a173f46a2cb2e1b858f03228f0eb469f5b6`. Publishedv002 unchanged; no tag or CurseForge publication. Raw current/Classic/installed evidence cached outside git at C:/Users/brett/BuddyDex-builds/tauren-and-senjin. No synthesis, account or billing requests, credits or recordings. No live game visual check or human listening claimed; no CurseForge publication.
