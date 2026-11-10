@@ -3150,5 +3150,12 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Gnome man and Forsaken woman, explicit Alliance/Horde Friendly respectively; installed snow complaint or full patrol/report/Riptear chain; no Scout sighting claimed",
     "research_notes": "docs/research/kharanos-snow-and-tirisfal-persistence.md"
+  },
+  {
+    "npc_id": 3639,
+    "name": "Sentinel Tysha Moonblade",
+    "zone": "Darkshore",
+    "source": "Reviewed adult Night Elf woman, Alliance Friendly; full953task and both three-page AmethAran tablets; no Scout sighting claimed",
+    "research_notes": "docs/research/tysha-moonblade-and-ordinary-days.md"
   }
 ]

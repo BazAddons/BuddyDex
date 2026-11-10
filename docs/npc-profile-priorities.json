@@ -2821,6 +2821,13 @@
       "zone": "Tirisfal Glades",
       "route": "Eastern Brill waystation early Tirisfal patrol contact",
       "reason": "Complete adult early-route profile, fifteen personal lines queued, actual snow complaint or patrol duties with distinct original snowman/weed writing; no synthesis"
+    },
+    {
+      "npc_id": 3639,
+      "name": "Sentinel Tysha Moonblade",
+      "zone": "Darkshore",
+      "route": "Roadside AmethAran contact on early Darkshore route",
+      "reason": "Complete adult Night Elf profile, fifteen personal lines queued, sourced historical task plus original journal of ordinary days; no synthesis"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 275,
+    "alliance": 276,
     "unverified": 152,
     "horde": 247
   },
@@ -13,7 +13,7 @@
     "7": 45,
     "2": 75,
     "5": 68,
-    "4": 49,
+    "4": 50,
     "8": 53,
     "9": 40,
     "6": 76,
@@ -40,7 +40,7 @@
     "Arathi Highlands": 11,
     "Orgrimmar": 45,
     "Badlands": 1,
-    "Darkshore": 7,
+    "Darkshore": 8,
     "Mulgore": 22,
     "Thunder Bluff": 38,
     "Durotar": 49,
@@ -4350,6 +4350,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3627"
     },
     {
+      "npc_id": 3639,
+      "name": "Sentinel Tysha Moonblade",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3639"
+    },
+    {
       "npc_id": 3658,
       "name": "Lizzarik",
       "zone": "The Barrens",
@@ -8393,6 +8406,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 655,
-  "awaiting_signature_audio_profiles": 201
+  "authored_profiles": 656,
+  "awaiting_signature_audio_profiles": 202
 }

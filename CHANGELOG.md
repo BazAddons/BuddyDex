@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sentinel Tysha Moonblade: a complete adult Night Elf profile with fifteen personal lines queued.
+- Expand Darkshore coverage using the full historical task and both Ameth'Aran tablets, with a distinct personal journal story.
+
 - Add Tog Rustsprocket and Deathguard Linnea: two complete adult early-route profiles with thirty personal lines queued.
 - Expand Kharanos and Tirisfal waystation contacts using actual dialogue and the full Forever patrol follow-up.
 

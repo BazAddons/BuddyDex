@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sentinel Tysha Moonblade, road beside AmethAran, Darkshore. Adult
+    -- Night Elf female1750/M2 921844, Alliance Friendly. Full953current/
+    -- Classic/installed and both three-page tablets17188/17189read.
+    -- Notes celebrating an ordinary day are original, not ancient records.
+    -- Research: docs/research/tysha-moonblade-and-ordinary-days.md
+    [3639] = {
+        quote = "A history that remembers only the disaster has forgotten most of the people.",
+        likes = { "An account that preserves the details", "A reader willing to admit uncertainty", "An ordinary day thought worth recording" },
+        dislikes = { "A ruined town reduced to its destruction", "Guesswork presented as a recovered fact", "The helper left out of the report" },
+        gossip = "Tysha keeps notes on ordinary things. A quiet day apparently deserves a record. She seems pleased when nothing dramatic fills it.",
+        bio = "Sentinel Tysha Moonblade studies Ameth'Aran's history in Darkshore. Spirits drove her away from its two inscribed tablets, so she asks an adventurer to read them. With that help, she can carry a fuller report to the Circle of Ancients in Auberdine.",
+        backstory = "She knows how few accounts survive from the War of the Ancients and the Well of Eternity's destruction. The tablets preserve a prosperous town as well as its ruin. There is more to remember than the ending.",
+        secret = "She has begun keeping a few lines about ordinary days. One entry says that nothing remarkable happened. She is pleased to have remembered a day that required no warning or farewell.",
+        bestFriend = "Tell me something small you enjoyed today. I would like to remember that part of your story too.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a listener giving a small remembered detail the attention a grand account would receive.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "It is good to see you. Shall we go? There may be something ordinary worth remembering along the way.", tone = "[gentle] [welcoming]" }, "Ready. I would enjoy some company and a day that does not need to become another account of a disaster." },
+            idle = { { "One of my notes says that nothing remarkable happened. I am pleased that day has a place beside all the events people insist we ought to remember.", tone = "[reflective] [warm]" }, "A town had people before it had ruins. Their ordinary days deserve more than being hurried past on the way to its destruction.", "A missing detail is still missing after someone gives it a confident explanation. I would rather know where the uncertainty begins." },
+            befriended = { { "You listened to the small things as well as the important report. I would be glad to have you beside me, friend. There is more of the day worth sharing.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you noticed. A small detail may be worth remembering even if it changes no grand conclusion.", "I heard you. I was considering whether a perfectly quiet afternoon had been given enough space in the account." },
+            quest = { { "Read what is there before deciding what it ought to say. Someone else's words deserve that much care, especially when so few of them remain.", tone = "[thoughtful] [earnest]" } },
+            learned = { "Something new to understand. Remember which part you learned and which part you are still trying to explain." },
+            zone = { "New surroundings. Let us notice something of the people here before treating the place as a route through a larger story." },
+            rest = { "A pause. It need not hide a revelation to be a pleasant part of the day." },
+            loot = { "Look carefully at what it is. An ordinary object may tell you something that its price would leave out." },
+            group = { "Hear the others' accounts. A report is poorer when the people who helped make it possible have disappeared from its telling." },
+            thanked = { "You are welcome. I am glad we took the time to notice what might otherwise have been left out." },
+        },
+    },
+
     -- Tog Rustsprocket, Kharanos, Dun Morogh. Adult male Gnome4864/
     -- M2 900914, Alliance Friendly. Installed wet-robe/snow complaint;
     -- current own tabs0. Legacy Lago referral documented, not live guarantee.
