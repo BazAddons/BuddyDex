@@ -1414,6 +1414,20 @@
       "zone": "Dustwallow Marsh",
       "route": "Female Forsaken service and male Orc Dustwallow investigator coverage",
       "reason": "Full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal threshold and eligibility checks passed; docs/research/martha-strain-and-krog-queue.md"
+    },
+    {
+      "npc_id": 2998,
+      "name": "Karn Stonehoof",
+      "zone": "Thunder Bluff",
+      "route": "Male and female Tauren trade/quest coverage while audio billing is unavailable",
+      "reason": "Reviewed adult identity, current HordeFriendly access and full source text; approved voices assigned; all dialogue queued without synthesis"
+    },
+    {
+      "npc_id": 5770,
+      "name": "Nara Wildmane",
+      "zone": "Thunder Bluff",
+      "route": "Male and female Tauren trade/quest coverage while audio billing is unavailable",
+      "reason": "Reviewed adult identity, current HordeFriendly access and full source text; approved voices assigned; all dialogue queued without synthesis"
     }
   ]
 }

@@ -99,7 +99,12 @@ def main():
         # Unscouted authored NPC names come from their researched source notes.
         row.setdefault("name", {523: "Thor", 9859: "Auctioneer Lympkin", 352: "Dungar Longdrink", 234: "Gryan Stoutmantle"}.get(npc, str(npc)))
         row.update(written_lines=len(lines), personal_recordings=len(recordings))
-        row["status"] = "complete" if all(lore[field] is not None for field in FIELDS) and 12 <= len(lines) <= 20 and len(recordings) >= 3 else "needs_completion"
+        written_complete = all(lore[field] is not None for field in FIELDS) and 12 <= len(lines) <= 20
+        row["status"] = ("complete" if len(recordings) >= 3 else "written_complete_audio_pending") if written_complete else "needs_completion"
+        if lore.recordingVoice:
+            row["recording_voice"] = lore.recordingVoice
+        if row["status"] == "written_complete_audio_pending":
+            row["audio_note"] = "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
         completed.append(row)
     priority = {npc: i for i, (npc, _, _) in enumerate(PRIORITY)}
     remaining = sorted(candidates.values(), key=lambda row: (priority.get(row["npc_id"], 999), row.get("zone") or "", row["name"]))
@@ -112,6 +117,9 @@ def main():
         "coverage_plan": "docs/research/starter-coverage-in-progress.md",
         "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
         "completed_count": sum(row["status"] == "complete" for row in completed),
+        "authored_count": len(completed),
+        "written_complete_count": sum(row["status"] in ("complete", "written_complete_audio_pending") for row in completed),
+        "awaiting_signature_audio_count": sum(row["status"] == "written_complete_audio_pending" for row in completed),
         "remaining_count": len(remaining) + sum(row["status"] != "complete" for row in completed),
         "completed": sorted(completed, key=lambda row: row["npc_id"]),
         "remaining": remaining,

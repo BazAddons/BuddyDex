@@ -1743,5 +1743,19 @@
     "zone": "Dustwallow Marsh",
     "source": "Individually reviewed current named adult identity/model; Classic and installed gossip/quest texts checked; Martha HordeFriendly, Krog current access unverified; no Scout sighting claimed",
     "research_notes": "docs/research/martha-strain-and-krog-queue.md"
+  },
+  {
+    "npc_id": 2998,
+    "name": "Karn Stonehoof",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
+    "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md"
+  },
+  {
+    "npc_id": 5770,
+    "name": "Nara Wildmane",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
+    "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md"
   }
 ]

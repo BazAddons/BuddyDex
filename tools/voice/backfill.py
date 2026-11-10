@@ -70,7 +70,16 @@ def audit():
     lua = gen.LuaRuntime(unpack_returned_tuples=True)
     lua.execute('NS = {}')
     lua.execute("assert(loadfile([[%s]]))('BuddyDex', NS)" % (ROOT / 'Data' / 'Lore.lua'))
-    sources = ['lore:' + str(n) for n in sorted(lua.eval('NS.Lore').keys())]
+    lore = lua.eval('NS.Lore')
+    sources = ['lore:' + str(n) for n in sorted(lore.keys())]
+    for npc, entry in lore.items():
+        assigned = entry.recordingVoice
+        if assigned:
+            if assigned not in gen.VOICES:
+                raise RuntimeError(f'Unapproved recording voice: {npc}/{assigned}')
+            # Text-only additions have no signature manifest yet. Persist their
+            # researched assignment in Lua without overriding live model routing.
+            owners.setdefault('lore:' + str(npc), set()).add(assigned)
     unresolved = [s for s in sources if len(owners.get(s, ())) != 1]
     if unresolved:
         raise RuntimeError('Unresolved profile voice groups: ' + ', '.join(unresolved))

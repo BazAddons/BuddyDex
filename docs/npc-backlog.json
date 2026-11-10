@@ -3,7 +3,10 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "remaining_count": 2,
+  "authored_count": 456,
+  "written_complete_count": 456,
+  "awaiting_signature_audio_count": 2,
+  "remaining_count": 23,
   "completed": [
     {
       "npc_id": 54,
@@ -1706,6 +1709,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 2998,
+      "name": "Karn Stonehoof",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
+      "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3007,
       "name": "Una",
       "zone": "Thunder Bluff",
@@ -1909,8 +1924,7 @@
       "npc_id": 3143,
       "name": "Gornek",
       "zone": "Durotar",
-      "source": "Reviewed current identity/model, full primary trials and class referrals, readables, Forever additions and installed dialogue; no personal Scout sighting claimed",
-      "research_notes": "docs/research/gornek-at-the-den.md",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1919,8 +1933,7 @@
       "npc_id": 3145,
       "name": "Zureetha Fargaze",
       "zone": "Durotar",
-      "source": "Reviewed Forever identity, full Classic/Forever quest chains and installed quest dialogue; no personal Scout encounter claimed",
-      "research_notes": "docs/research/valley-trials-hunter-and-guide.md",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1929,8 +1942,7 @@
       "npc_id": 3158,
       "name": "Duokna",
       "zone": "Durotar",
-      "source": "Reviewed current adult Orc identity/model, starter pin and services/stock, full available food-delivery dialogue or no confirmed personal quest; sparse Duokna reaction retained; Atlas/installed dialogue and later literary era distinguished; no Scout sighting claimed",
-      "research_notes": "docs/research/razor-hill-rest-and-trial-supplies.md",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -1999,8 +2011,7 @@
       "npc_id": 3287,
       "name": "Hana'zua",
       "zone": "Durotar",
-      "source": "Reviewed Forever identity, full Classic/Forever quest chains and installed quest dialogue; no personal Scout encounter claimed",
-      "research_notes": "docs/research/valley-trials-hunter-and-guide.md",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3017,6 +3028,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 5770,
+      "name": "Nara Wildmane",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current HordeFriendly adult Tauren model; Classic/full related quest and installed text checks documented; no Scout sighting claimed",
+      "research_notes": "docs/research/karn-stonehoof-and-nara-wildmane.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 5811,
       "name": "Kamari",
       "zone": "Orgrimmar",
@@ -3040,8 +3063,7 @@
       "npc_id": 5884,
       "name": "Mai'ah",
       "zone": "Durotar",
-      "source": "Reviewed current identities, Classic/Forever primary quests and installed dialogue; no personal Scout encounter claimed",
-      "research_notes": "docs/research/horde-starter-trio.md",
+      "source": "Installed Scout record",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -4336,6 +4358,139 @@
   ],
   "remaining": [
     {
+      "npc_id": 5887,
+      "name": "Canaga Earthcaller",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3153,
+      "name": "Frang",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 9796,
+      "name": "Galgar",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 12776,
+      "name": "Hraug",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3160,
+      "name": "Huklah",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3154,
+      "name": "Jen'shan",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267327,
+      "name": "Kagil",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 10176,
+      "name": "Kaltunk",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3707,
+      "name": "Ken'jai",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3159,
+      "name": "Kzan Thornslash",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11943,
+      "name": "Magga",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3156,
+      "name": "Nartok",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267328,
+      "name": "Norzsh",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3161,
+      "name": "Rarc",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5765,
+      "name": "Ruzan",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3155,
+      "name": "Rwag",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3157,
+      "name": "Shikrik",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3882,
+      "name": "Zlagk",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267329,
+      "name": "Zor'la",
+      "zone": "Durotar",
+      "source": "Installed Scout record",
+      "status": "pending_identity_and_lore_research"
+    },
+    {
       "npc_id": 6182,
       "name": "Daphne Stilwell",
       "zone": "Westfall",
@@ -4373,6 +4528,11 @@
     {
       "npc_id": 5595,
       "name": "Ironforge Guard",
+      "reason": "Generic role, not an individual"
+    },
+    {
+      "npc_id": 5952,
+      "name": "Den Grunt",
       "reason": "Generic role, not an individual"
     },
     {
@@ -4535,7 +4695,7 @@
   ],
   "external_research_catalog": {
     "path": "docs/catalog/buddydex-candidates.json",
-    "candidate_name_groups": 1517,
+    "candidate_name_groups": 1536,
     "policy": "Prioritize the local Scout backlog, then research external candidates. This catalog overlaps the backlog; do not add the counts. Verify identity, Forever availability and live eligibility before authoring. Same-name IDs require review, not automatic separate profiles."
   }
 }

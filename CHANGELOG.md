@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add full Karn Stonehoof and Nara Wildmane profiles (Thunder Bluff), fifteen personal lines each; approved Tauren voices assigned and all thirty recordings queued until the user confirms billing is fixed.
+- Track text-complete profiles separately from those with initial signature audio; preserve display-based voice routing and all live friendship checks.
+
 - Draw the friendship bar's border above its fill and keep its label above both.
 
 - Add Martha Strain and Krog: fifteen personal lines and four approved v4 signature recordings each.

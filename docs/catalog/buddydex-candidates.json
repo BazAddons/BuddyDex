@@ -8,9 +8,9 @@
     "excluded_child_rows": 18,
     "ambiguous_rows_for_review": 6,
     "retained_source_entries": 1431,
-    "local_backlog_entries_missing_from_source": 99,
-    "combined_retained_entries": 1530,
-    "candidate_name_groups": 1517,
+    "local_backlog_entries_missing_from_source": 118,
+    "combined_retained_entries": 1549,
+    "candidate_name_groups": 1536,
     "same_name_groups_requiring_id_review": 8
   },
   "candidates": [
@@ -5556,6 +5556,29 @@
       ]
     },
     {
+      "name": "Canaga Earthcaller",
+      "npc_ids": [
+        5887
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        5887
+      ],
+      "entries": [
+        {
+          "npc_id": 5887,
+          "name": "Canaga Earthcaller",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Canaga Earthcaller",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Captain Danuvin",
       "npc_ids": [
         821
@@ -9463,13 +9486,19 @@
         3158
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        3158
+      ],
       "entries": [
         {
           "npc_id": 3158,
           "name": "Duokna",
           "source": "Existing local backlog; absent from source filter",
-          "scout_observed": false,
+          "scout_observed": true,
+          "scout_name": "Duokna",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
           "profile_status": "complete"
         }
       ]
@@ -11750,6 +11779,29 @@
       ]
     },
     {
+      "name": "Frang",
+      "npc_ids": [
+        3153
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3153
+      ],
+      "entries": [
+        {
+          "npc_id": 3153,
+          "name": "Frang",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Frang",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Frast Dokner",
       "npc_ids": [
         1698
@@ -12053,6 +12105,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Galgar",
+      "npc_ids": [
+        9796
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        9796
+      ],
+      "entries": [
+        {
+          "npc_id": 9796,
+          "name": "Galgar",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Galgar",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -13087,13 +13162,19 @@
         3143
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        3143
+      ],
       "entries": [
         {
           "npc_id": 3143,
           "name": "Gornek",
           "source": "Existing local backlog; absent from source filter",
-          "scout_observed": false,
+          "scout_observed": true,
+          "scout_name": "Gornek",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
           "profile_status": "complete"
         }
       ]
@@ -14678,13 +14759,19 @@
         3287
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        3287
+      ],
       "entries": [
         {
           "npc_id": 3287,
           "name": "Hana'zua",
           "source": "Existing local backlog; absent from source filter",
-          "scout_observed": false,
+          "scout_observed": true,
+          "scout_name": "Hana'zua",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
           "profile_status": "complete"
         }
       ]
@@ -15553,6 +15640,29 @@
       ]
     },
     {
+      "name": "Hraug",
+      "npc_ids": [
+        12776
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        12776
+      ],
+      "entries": [
+        {
+          "npc_id": 12776,
+          "name": "Hraug",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Hraug",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Huey Sunnydale",
       "npc_ids": [
         256736
@@ -15573,6 +15683,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Huklah",
+      "npc_ids": [
+        3160
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3160
+      ],
+      "entries": [
+        {
+          "npc_id": 3160,
+          "name": "Huklah",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Huklah",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -17505,6 +17638,29 @@
       ]
     },
     {
+      "name": "Jen'shan",
+      "npc_ids": [
+        3154
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3154
+      ],
+      "entries": [
+        {
+          "npc_id": 3154,
+          "name": "Jen'shan",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Jen'shan",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Jenn Langston",
       "npc_ids": [
         3626
@@ -18422,6 +18578,29 @@
       ]
     },
     {
+      "name": "Kagil",
+      "npc_ids": [
+        267327
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        267327
+      ],
+      "entries": [
+        {
+          "npc_id": 267327,
+          "name": "Kagil",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Kagil",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Kah Mistrunner",
       "npc_ids": [
         3028
@@ -18568,6 +18747,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Kaltunk",
+      "npc_ids": [
+        10176
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        10176
+      ],
+      "entries": [
+        {
+          "npc_id": 10176,
+          "name": "Kaltunk",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Kaltunk",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -18809,7 +19011,7 @@
           "source_page": 17,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "written_complete_audio_pending"
         }
       ]
     },
@@ -19356,6 +19558,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Ken'jai",
+      "npc_ids": [
+        3707
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3707
+      ],
+      "entries": [
+        {
+          "npc_id": 3707,
+          "name": "Ken'jai",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Ken'jai",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -20409,6 +20634,29 @@
           "scout_reaction": 5,
           "scout_attackable": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Kzan Thornslash",
+      "npc_ids": [
+        3159
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3159
+      ],
+      "entries": [
+        {
+          "npc_id": 3159,
+          "name": "Kzan Thornslash",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Kzan Thornslash",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -21961,6 +22209,29 @@
       ]
     },
     {
+      "name": "Magga",
+      "npc_ids": [
+        11943
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        11943
+      ],
+      "entries": [
+        {
+          "npc_id": 11943,
+          "name": "Magga",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Magga",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Maggran Earthbinder",
       "npc_ids": [
         11860
@@ -22230,13 +22501,19 @@
         5884
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        5884
+      ],
       "entries": [
         {
           "npc_id": 5884,
           "name": "Mai'ah",
           "source": "Existing local backlog; absent from source filter",
-          "scout_observed": false,
+          "scout_observed": true,
+          "scout_name": "Mai'ah",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
           "profile_status": "complete"
         }
       ]
@@ -25155,7 +25432,7 @@
           "source_page": 22,
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
-          "profile_status": "unresearched_external_candidate"
+          "profile_status": "written_complete_audio_pending"
         }
       ]
     },
@@ -25252,6 +25529,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Nartok",
+      "npc_ids": [
+        3156
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3156
+      ],
+      "entries": [
+        {
+          "npc_id": 3156,
+          "name": "Nartok",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Nartok",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -25701,6 +26001,29 @@
           "source": "Existing local backlog; absent from source filter",
           "scout_observed": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Norzsh",
+      "npc_ids": [
+        267328
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        267328
+      ],
+      "entries": [
+        {
+          "npc_id": 267328,
+          "name": "Norzsh",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Norzsh",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -27914,6 +28237,29 @@
       ]
     },
     {
+      "name": "Rarc",
+      "npc_ids": [
+        3161
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3161
+      ],
+      "entries": [
+        {
+          "npc_id": 3161,
+          "name": "Rarc",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Rarc",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Rathiril Sunlance",
       "npc_ids": [
         251903
@@ -28693,6 +29039,52 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "unresearched_external_candidate"
+        }
+      ]
+    },
+    {
+      "name": "Ruzan",
+      "npc_ids": [
+        5765
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        5765
+      ],
+      "entries": [
+        {
+          "npc_id": 5765,
+          "name": "Ruzan",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Ruzan",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
+      "name": "Rwag",
+      "npc_ids": [
+        3155
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3155
+      ],
+      "entries": [
+        {
+          "npc_id": 3155,
+          "name": "Rwag",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Rwag",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -30299,6 +30691,29 @@
           "source": "Warcraft DB listing; availability and attackability unverified",
           "scout_observed": false,
           "profile_status": "complete"
+        }
+      ]
+    },
+    {
+      "name": "Shikrik",
+      "npc_ids": [
+        3157
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3157
+      ],
+      "entries": [
+        {
+          "npc_id": 3157,
+          "name": "Shikrik",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Shikrik",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
         }
       ]
     },
@@ -37237,6 +37652,29 @@
       ]
     },
     {
+      "name": "Zlagk",
+      "npc_ids": [
+        3882
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        3882
+      ],
+      "entries": [
+        {
+          "npc_id": 3882,
+          "name": "Zlagk",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Zlagk",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Zor Lonetree",
       "npc_ids": [
         4047
@@ -37262,18 +37700,47 @@
       ]
     },
     {
+      "name": "Zor'la",
+      "npc_ids": [
+        267329
+      ],
+      "same_name_variants_need_review": false,
+      "scout_observed_ids": [
+        267329
+      ],
+      "entries": [
+        {
+          "npc_id": 267329,
+          "name": "Zor'la",
+          "source": "Existing local backlog; absent from source filter",
+          "scout_observed": true,
+          "scout_name": "Zor'la",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
+          "profile_status": "pending_identity_and_lore_research"
+        }
+      ]
+    },
+    {
       "name": "Zureetha Fargaze",
       "npc_ids": [
         3145
       ],
       "same_name_variants_need_review": false,
-      "scout_observed_ids": [],
+      "scout_observed_ids": [
+        3145
+      ],
       "entries": [
         {
           "npc_id": 3145,
           "name": "Zureetha Fargaze",
           "source": "Existing local backlog; absent from source filter",
-          "scout_observed": false,
+          "scout_observed": true,
+          "scout_name": "Zureetha Fargaze",
+          "zone": "Durotar",
+          "scout_reaction": 5,
+          "scout_attackable": false,
           "profile_status": "complete"
         }
       ]
@@ -39633,21 +40100,33 @@
       "npc_id": 3143,
       "name": "Gornek",
       "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
+      "scout_observed": true,
+      "scout_name": "Gornek",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
       "profile_status": "complete"
     },
     {
       "npc_id": 3145,
       "name": "Zureetha Fargaze",
       "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
+      "scout_observed": true,
+      "scout_name": "Zureetha Fargaze",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
       "profile_status": "complete"
     },
     {
       "npc_id": 3158,
       "name": "Duokna",
       "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
+      "scout_observed": true,
+      "scout_name": "Duokna",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
       "profile_status": "complete"
     },
     {
@@ -39661,7 +40140,11 @@
       "npc_id": 3287,
       "name": "Hana'zua",
       "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
+      "scout_observed": true,
+      "scout_name": "Hana'zua",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
       "profile_status": "complete"
     },
     {
@@ -39869,7 +40352,11 @@
       "npc_id": 5884,
       "name": "Mai'ah",
       "source": "Existing local backlog; absent from source filter",
-      "scout_observed": false,
+      "scout_observed": true,
+      "scout_name": "Mai'ah",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
       "profile_status": "complete"
     },
     {
@@ -40214,6 +40701,215 @@
       "scout_reaction": 5,
       "scout_attackable": false,
       "profile_status": "complete"
+    },
+    {
+      "npc_id": 5887,
+      "name": "Canaga Earthcaller",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Canaga Earthcaller",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3153,
+      "name": "Frang",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Frang",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 9796,
+      "name": "Galgar",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Galgar",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 12776,
+      "name": "Hraug",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Hraug",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3160,
+      "name": "Huklah",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Huklah",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3154,
+      "name": "Jen'shan",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Jen'shan",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267327,
+      "name": "Kagil",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Kagil",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 10176,
+      "name": "Kaltunk",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Kaltunk",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3707,
+      "name": "Ken'jai",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Ken'jai",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3159,
+      "name": "Kzan Thornslash",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Kzan Thornslash",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 11943,
+      "name": "Magga",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Magga",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3156,
+      "name": "Nartok",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Nartok",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267328,
+      "name": "Norzsh",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Norzsh",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3161,
+      "name": "Rarc",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Rarc",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 5765,
+      "name": "Ruzan",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Ruzan",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3155,
+      "name": "Rwag",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Rwag",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3157,
+      "name": "Shikrik",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Shikrik",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 3882,
+      "name": "Zlagk",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Zlagk",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
+    },
+    {
+      "npc_id": 267329,
+      "name": "Zor'la",
+      "source": "Existing local backlog; absent from source filter",
+      "scout_observed": true,
+      "scout_name": "Zor'la",
+      "zone": "Durotar",
+      "scout_reaction": 5,
+      "scout_attackable": false,
+      "profile_status": "pending_identity_and_lore_research"
     },
     {
       "npc_id": 6182,

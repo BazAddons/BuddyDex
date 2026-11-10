@@ -1,11 +1,11 @@
 {
   "as_of": "2026-11-09",
   "completed_profiles": 454,
-  "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
+  "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 208,
     "unverified": 107,
-    "horde": 146
+    "horde": 148
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 23,
     "8": 32,
     "9": 23,
-    "6": 47,
+    "6": 49,
     "96": 5,
     "95": 7
   },
@@ -38,7 +38,7 @@
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 11,
-    "Thunder Bluff": 21,
+    "Thunder Bluff": 23,
     "Durotar": 21,
     "The Barrens": 22,
     "Ashenvale": 3,
@@ -2360,6 +2360,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2995"
     },
     {
+      "npc_id": 2998,
+      "name": "Karn Stonehoof",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit current Horde icon Friendly; normal live gates still required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2998",
+      "audio_status": "All personal recordings pending; billing unavailable"
+    },
+    {
       "npc_id": 3007,
       "name": "Una",
       "zone": "Thunder Bluff",
@@ -3565,7 +3579,9 @@
       "npc_id": 4926,
       "name": "Krog",
       "zone": "Dustwallow Marsh",
-      "race_ids": [2],
+      "race_ids": [
+        2
+      ],
       "public_friendly_factions": [],
       "reaction_evidence": "Current identity/model confirmed, public reaction absent; Classic Horde quests do not prove current access; ordinary live gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4926"
@@ -4013,10 +4029,28 @@
       "npc_id": 5753,
       "name": "Martha Strain",
       "zone": "Undercity",
-      "race_ids": [5],
-      "public_friendly_factions": ["horde"],
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5753"
+    },
+    {
+      "npc_id": 5770,
+      "name": "Nara Wildmane",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit current Horde icon Friendly; normal live gates still required",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5770",
+      "audio_status": "All personal recordings pending; billing unavailable"
     },
     {
       "npc_id": 5811,
@@ -5745,5 +5779,7 @@
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
-  ]
+  ],
+  "authored_profiles": 456,
+  "awaiting_signature_audio_profiles": 2
 }

@@ -41,6 +41,77 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Karn Stonehoof <Expert Blacksmith>, lower rise, Thunder Bluff.
+    -- NPC2998/display2090: standard adult male Tauren, current HordeFriendly.
+    -- His installed gossip links learning the forge to listening to spirits;
+    -- Classic lists training, not personal quests. No current recipe/rank promises.
+    -- Copper flowers and their anonymous maker are original BuddyDex fiction.
+    -- Sources/era limits: docs/research/karn-stonehoof-and-nara-wildmane.md.
+    [2998] = {
+        recordingVoice = "tauren-male", -- authoring queue only; live display chooses runtime voice
+        quote = "Before you take up the hammer, listen. Before you take up my hammer, ask.",
+        likes = { "A student willing to begin again", "Copper worked into a gentle curve", "The quiet after the forge cools" },
+        dislikes = { "Handling hot work with bare hands", "Confusing force with skill", "Calling every useful thing a weapon" },
+        gossip = "Little copper flowers sometimes appear beside finished work at Karn's smithy. Nobody seems to catch the gardener.",
+        bio = "Karn Stonehoof teaches blacksmithing on Thunder Bluff's lower rise. His lessons begin with the forge, the hammer and a willingness to listen to the spirits. A strong arm alone is not the whole craft.",
+        backstory = "A narrow copper offcut curled beneath Karn's hammer like a petal. He made another, then a stem. After a day of teaching edges and striking surfaces, he enjoyed making something that needed neither.",
+        secret = "The flowers are his. He leaves them beside work he admires, then asks very seriously whether anyone has been planting things on his bench.",
+        bestFriend = "This one is yours. It will not wilt, but mind the stem. I am a blacksmith, and I am still learning to be a gardener.",
+        favorite = { emote = "NOD", hint = "A small sign that you have heard the lesson means more than a show of strength." },
+        lines = {
+            greet = { { "A little time away from the forge will do me good. Which way, my friend?", tone = "[deep] [warmly]" },
+                "I put the hammer down. That means you have my full attention." },
+            idle = { { "A copper flower has one advantage over a sword. Nobody asks whether it comes in a larger size.", tone = "[dryly amused]" },
+                "That edge wants a little attention. I mean the blade, not your expression.",
+                "I wonder who has been planting copper on my workbench. A mystery." },
+            befriended = { { "You kept coming back, even when there was nothing you needed made. I noticed. I would like your company beyond the smithy, too.", tone = "[sincere] [warmly]" } },
+            poke = { "That is not how we test the temper.", "Careful. I have been known to poke back." },
+            learned = { { "There. Give the new skill time to settle in your hands. You need not prove it all in one afternoon.", tone = "[patient] [encouraging]" } },
+            gear = { "Well cared for. That pleases me more than a bright polish." },
+            loot = { "A useful piece of metal. Let us see what it might become." },
+            quest = { "Good work deserves to be acknowledged. You did well." },
+            bagsFull = { "You have room for another offcut, surely? No? A familiar problem." },
+            rest = { "Put your tools down. Your hands have earned a pause." },
+            levelUp = { "Stronger, yes. Now show me what you have learned to do gently." },
+        },
+    },
+
+    -- Nara Wildmane, Elder Rise, Thunder Bluff. NPC5770/display4513:
+    -- standard adult female Tauren; current HordeFriendly. Current1490/914
+    -- establish fierce dream reconnaissance with Hamuul and the four Fang gems.
+    -- Classic Uldum/necklace/Mulgris chains checked, without assuming current
+    -- availability, opening Uldum, or completed player quest outcomes. RPG-only
+    -- biography excluded. Her poor bird impressions are original fiction.
+    -- Sources: docs/research/karn-stonehoof-and-nara-wildmane.md.
+    [5770] = {
+        recordingVoice = "tauren-female",
+        quote = "Nature has a voice. Several, in fact. I would appreciate it if the birds stopped laughing at mine.",
+        likes = { "Courage that protects the land", "Someone who reports what they saw", "Trying a new birdcall" },
+        dislikes = { "Twisting a good purpose into cruelty", "Mistaking a warning for surrender", "An audience for the first attempt" },
+        gossip = "Nara can face dreadful things in dreams. A perfectly ordinary bird, however, has been giving her lessons she finds much harder.",
+        bio = "Nara Wildmane is a druid on Thunder Bluff's Elder Rise. She stayed in the dreaming to learn the plans of the Druids of the Fang. Now she sends aid against their leaders in the Wailing Caverns, determined to protect the Barrens.",
+        backstory = "Between grave reports, Nara tried answering a bird outside. It answered back; her second attempt brought a very different reply. She began practicing for the pleasure of learning something with no terrible consequence for getting it wrong.",
+        secret = "She cannot tell whether she has improved. The same sharp little reply greets every attempt. She suspects she has become a familiar local nuisance.",
+        bestFriend = "Stay for one more attempt. If that was a birdcall, you may applaud. If it was not, we will agree it was the wind.",
+        favorite = { emote = "CHEER", hint = "Even a fierce spirit appreciates someone willing to cheer on an awkward attempt." },
+        lines = {
+            greet = { { "There you are. Shall we see what the waking world needs from us today?", tone = "[resolute] [warmly]" },
+                "I am glad you came. Tell me what you have seen along the way." },
+            idle = { { "That was meant to be a birdcall. The reply sounded rather personal. Perhaps I should try again farther from its nest.", tone = "[wryly amused]" },
+                "A good intention does not excuse what someone does to the land.",
+                "For once, I would like a strange noise to be nothing more than a strange noise." },
+            befriended = { { "You listen when I speak of difficult things. You also stayed for the terrible bird impressions. I think that makes us friends.", tone = "[sincere] [lightly amused]" } },
+            poke = { "Yes? I was listening to something.", "You need not test whether I am awake." },
+            rest = { { "Let us sit here. No visions to explain, no urgent report. Just a little time in the world we are trying to protect.", tone = "[gentle] [thoughtful]" } },
+            quest = { "Tell them what you actually found. A clear account matters." },
+            zone = { "New ground. Let us pay attention before deciding what it needs." },
+            combatEnd = { "It is over. Take a breath, and look around us." },
+            loot = { "Keep it safe. Small things can carry important answers." },
+            died = { "My friend... I wish I could wake you from this." },
+            levelUp = { "You have grown stronger. The land could use that strength." },
+        },
+    },
+
     -- Martha Strain <Demon Trainer>, Magic Quarter/Undercity,5753/4149.
     -- Adult female Forsaken/current HordeFriendly; installed curt trainer gossip.
     -- Classic grimoires referenced, empty current stock not a sales guarantee.
