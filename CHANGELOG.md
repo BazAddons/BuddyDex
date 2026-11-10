@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jolee Brightmeadows and Elatrell Featherlight in Thendal Grove: two full Skyborne starter profiles accessible to both faction paths, with thirty personal lines queued.
+- Ground their stories in verified armor services and the cirrusfly investigation while keeping original personality details and normal friendship rewards distinct.
+
 - Add Gina Lang, Rupert Boch and Austil de Mon: three full Forsaken profiles in Brill, each with fifteen personal lines queued.
 - Preserve their distinct teaching styles and researched class boundaries; friendship unlocks stories and companionship without granting training or quest rewards.
 

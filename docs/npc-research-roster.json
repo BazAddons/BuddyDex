@@ -2261,5 +2261,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult model/Horde Friendly access, complete own tabs, Classic/installed role text and full Austil referral branch; no claimed Scout sighting",
     "research_notes": "docs/research/brill-three-teaching-temperaments.md"
+  },
+  {
+    "npc_id": 251365,
+    "name": "Jolee Brightmeadows",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current adult model, explicit both-faction Friendly fields, full own stock/quest tabs and installed infestation dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/thendal-armor-and-ranger.md"
+  },
+  {
+    "npc_id": 251368,
+    "name": "Elatrell Featherlight",
+    "zone": "Zephras Isle",
+    "source": "Reviewed current adult model, explicit both-faction Friendly fields, full own stock/quest tabs and installed infestation dialogue; no claimed Scout sighting",
+    "research_notes": "docs/research/thendal-armor-and-ranger.md"
   }
 ]

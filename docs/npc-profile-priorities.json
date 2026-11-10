@@ -1932,6 +1932,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill Forsaken starting-route teachers",
       "reason": "Full adult Forsaken female/male profile and fifteen approved-voice lines queued; current service gaps and class/quest limits retained, no synthesis"
+    },
+    {
+      "npc_id": 251365,
+      "name": "Jolee Brightmeadows",
+      "zone": "Zephras Isle",
+      "route": "Shared High Order/Windshaper Thendal Grove starting route",
+      "reason": "Complete adult female/male Skyborne profile and fifteen approved-voice lines queued; verified shared access counted once per NPC, ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 251368,
+      "name": "Elatrell Featherlight",
+      "zone": "Zephras Isle",
+      "route": "Shared High Order/Windshaper Thendal Grove starting route",
+      "reason": "Complete adult female/male Skyborne profile and fifteen approved-voice lines queued; verified shared access counted once per NPC, ordinary live gates retained, no synthesis"
     }
   ]
 }

@@ -41,6 +41,76 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jolee Brightmeadows <Cloth & Leather Armor>, Thendal Grove, Zephras.
+    -- Adult High Order female251365/display138156/M2 7478494; explicit
+    -- Alliance/Horde Friendly. Current Repair/Vendor, twelve armor rows, no
+    -- own quests or installed gossip. Elaborate private clothing sketches
+    -- are original writing, not items or special friendship repair rewards.
+    -- Research: docs/research/thendal-armor-and-ranger.md
+    [251365] = {
+        quote = "If you cannot lift your arms in it, it is not the right fit, whatever the price.",
+        likes = { "Clothes that allow movement", "A practical choice", "Room for a little imagination" },
+        dislikes = { "Shopping like a statue", "Armor chosen only for its shine", "Useful clothes treated carelessly" },
+        gossip = "Jolee asks customers to move before praising their choice. Newcomers learn not to shop like statues.",
+        bio = "Jolee Brightmeadows supplies cloth and leather armor in Thendal Grove on Zephras Isle. She also offers repairs. New adventurers need something useful to wear, and she pays attention to the person moving inside the armor.",
+        backstory = "Practical orders left little room for the elaborate clothes she sometimes imagined. She began sketching them on spare scraps instead. Most would be dreadful things to travel in. Drawing them remains a pleasure.",
+        secret = "Her favorite sketch is a gown with sleeves too large for a sensible doorway. She has drawn pockets into it anyway.",
+        bestFriend = "You may laugh at the sleeves. I know. An idea can be worth keeping even when you will never wear it.",
+        favorite = {
+            emote = "FLEX",
+            hint = "She likes to see that a garment leaves room to move.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "I will come. There is more to a journey than standing still and looking ready.", tone = "[warm] [brisk]" }, "Good company. Let us see whether everything moves as it should." },
+            idle = { { "The sleeves are impractical. The pockets are excellent. I stand by the drawing.", tone = "[wry] [pleased]" }, "A useful garment need not apologize for being useful.", "Some ideas are better on paper. That does not make them wasted." },
+            befriended = { { "You have made room for my company. I am glad to have room for yours.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was considering a very unreasonable sleeve.", "I am listening. What have you in mind?" },
+            gear = { { "Move your arms before deciding how fine it looks.", tone = "[practical]" } },
+            learned = { "A new skill gives you another reason to leave room for movement." },
+            bagsFull = { "A pocket is useful. It is not an argument for carrying everything." },
+            loot = { "Consider whether it will serve you, as well as whether it catches the eye." },
+            zone = { "Different surroundings. The same need to move comfortably." },
+            rest = { "Settle yourself. You need not look ready every moment." },
+            flexBack = { "There. A much better test than standing motionless." },
+        },
+    },
+
+    -- Elatrell Featherlight <Rangers of Thendal Grove>, Zephras Isle.
+    -- Adult Windshaper male251368/display136967/M2 7478487; explicit
+    -- Alliance/Horde Friendly. Full current/installed cirrusfly pair92462/
+    -- 92463 reviewed; dry, practical ranger. No new cause or formal ranger
+    -- appointment inferred. Leaf-shape collection is original writing.
+    -- Research: docs/research/thendal-armor-and-ranger.md
+    [251368] = {
+        quote = "A ranger notices trouble while it can still be called a nuisance.",
+        likes = { "Small changes noticed early", "Careful work", "Leaves with unlikely shapes" },
+        dislikes = { "A growing problem dismissed", "Boasts before looking closely", "Every insect treated as a monster" },
+        gossip = "Elatrell notices a great deal on a quiet watch. Sometimes it is danger. Sometimes it is a leaf shaped like something improbable.",
+        bio = "Elatrell Featherlight serves with the Rangers of Thendal Grove. He investigates a dangerous cirrusfly infestation, then directs attention to its queen and the stronger soldiers guarding her hive. Prevention suits his practical eye.",
+        backstory = "Quiet watches taught him to notice small differences. He began amusing himself by finding familiar shapes in fallen leaves. The habit survived busier duties. Not every discovery, he maintains, needs to become a problem.",
+        secret = "He has kept a leaf he insists resembles a cirrusfly. Nobody else has agreed. This has not persuaded him to discard it.",
+        bestFriend = "Look closely. You need not agree about the leaf. I am pleased to have someone else looking.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A little acknowledgment of his dry humor goes a long way.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "I will come. Keep an eye on the small things along the way.", tone = "[steady] [attentive]" }, "Good to see you. Let us notice what needs noticing." },
+            idle = { { "That leaf resembles a cirrusfly. You may require another look.", tone = "[dry] [patient]" }, "Not every small creature is a threat. An infestation is another matter.", "A quiet watch need not be an empty one." },
+            befriended = { { "I value your attention, and I enjoy your company. We need not make those the same thing.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you seen something worth a closer look?", "I was considering a resemblance. You may disagree in a moment." },
+            quest = { { "Deal with the source of the trouble, not only what is easiest to reach.", tone = "[firm] [practical]" } },
+            questAccepted = { "Understand the danger before deciding it is a small task." },
+            combatStart = { "Watch the approach. Do not let the obvious threat hide the others." },
+            combatEnd = { "Look around before deciding the trouble is over." },
+            zone = { "A different place rewards the same careful attention." },
+            loot = { "An interesting find. Let us see what it actually tells us." },
+            rest = { "A moment to rest. We can look without looking for a threat." },
+        },
+    },
+
     -- Gina Lang <Demon Trainer>, Gallows' End Tavern, Brill, Tirisfal.
     -- Adult Forsaken female5750/display4176/M2 997378, Horde Friendly.
     -- Classic38grimoires and curt installed warlock/non-warlock gossip;
