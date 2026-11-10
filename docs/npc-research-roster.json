@@ -1890,5 +1890,33 @@
     "zone": "Durotar",
     "source": "Actual Scout Horde/reaction5 named adult; complete current tabs, adult models and Classic/Forever/installed full related class texts reviewed; Jen'shan verified female Troll; no public reaction invented",
     "research_notes": "docs/research/valley-last-scout-trainers.md"
+  },
+  {
+    "npc_id": 5543,
+    "name": "Clarice Foster",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+    "research_notes": "docs/research/four-women-service-rotation.md"
+  },
+  {
+    "npc_id": 3012,
+    "name": "Nata Dawnstrider",
+    "zone": "Thunder Bluff",
+    "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+    "research_notes": "docs/research/four-women-service-rotation.md"
+  },
+  {
+    "npc_id": 3967,
+    "name": "Aayndia Floralwind",
+    "zone": "Ashenvale",
+    "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+    "research_notes": "docs/research/four-women-service-rotation.md"
+  },
+  {
+    "npc_id": 4160,
+    "name": "Ainethil",
+    "zone": "Darnassus",
+    "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+    "research_notes": "docs/research/four-women-service-rotation.md"
   }
 ]

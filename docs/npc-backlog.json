@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 475,
-  "written_complete_count": 475,
-  "awaiting_signature_audio_count": 21,
+  "authored_count": 479,
+  "written_complete_count": 479,
+  "awaiting_signature_audio_count": 25,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 23,
+  "remaining_count": 27,
   "completed": [
     {
       "npc_id": 54,
@@ -1753,6 +1753,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 3012,
+      "name": "Nata Dawnstrider",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+      "research_notes": "docs/research/four-women-service-rotation.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3013,
       "name": "Komin Winterhoof",
       "zone": "Thunder Bluff",
@@ -2622,6 +2634,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 3967,
+      "name": "Aayndia Floralwind",
+      "zone": "Ashenvale",
+      "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+      "research_notes": "docs/research/four-women-service-rotation.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3995,
       "name": "Witch Doctor Jin'Zil",
       "zone": "Stonetalon Mountains",
@@ -2678,6 +2702,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 4160,
+      "name": "Ainethil",
+      "zone": "Darnassus",
+      "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+      "research_notes": "docs/research/four-women-service-rotation.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 4164,
@@ -3055,6 +3091,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5543,
+      "name": "Clarice Foster",
+      "zone": "Thunder Bluff",
+      "source": "Individually reviewed current adult female model, pin, all own tabs and Classic/installed sources; Clarice HordeNeutral conditional, other explicit Friendly icons; no Scout sighting claimed",
+      "research_notes": "docs/research/four-women-service-rotation.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 5564,

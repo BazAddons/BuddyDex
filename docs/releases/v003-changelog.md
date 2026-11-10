@@ -2,6 +2,9 @@
 
 ## More friends across Azeroth
 
+- Add Clarice Foster and Nata Dawnstrider in Thunder Bluff, Aayndia Floralwind in Astranaar, and Ainethil in Darnassus, each with complete written lore and fifteen personal lines.
+- Expand female Forsaken, Tauren and Night Elf coverage using researched identities and approved voices. Their sixty recordings are queued; friendship still follows normal live eligibility checks.
+
 - Add Hraug, Jen'shan, Nartok, Ruzan and Rwag, each with full personalities, lore pages, favorite emotes and fifteen personal lines awaiting recording.
 - Complete written profiles for all nineteen newly discovered Durotar Scout candidates. Keep Forever's Tainted Tablet introduction separate from older class letters, and retain the actual hunter, warlock and rogue histories.
 
@@ -27,4 +30,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **475 fully written NPC profiles**: 454 have initial signature recordings, and twenty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **479 fully written NPC profiles**: 454 have initial signature recordings, and twenty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

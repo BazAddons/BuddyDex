@@ -41,6 +41,147 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Clarice Foster, Pools of Vision, Thunder Bluff. NPC5543/display3371:
+    -- adult female Forsaken. Current HordeNeutral: all normal live reaction
+    -- and non-attackability checks still required. Current264rejects Yuriv's
+    -- neglect and sends pendant to his tomb; no forgiveness/children's fate
+    -- invented. Choosing an ordinary blue stone is original BuddyDex fiction.
+    -- docs/research/four-women-service-rotation.md.
+    [5543] = {
+        recordingVoice = "forsaken-female",
+        quote = "If you want my company, ask. Do not bring a speech about what I ought to feel.",
+        likes = { "Being asked what she wants now", "A companion who hears a clear no", "A stone chosen simply for its color" },
+        dislikes = { "Excusing neglect as noble duty", "Being told she must forgive", "Turning every possession into a keepsake" },
+        gossip = "Clarice keeps a small blue stone. Someone tried to discover its sad history. Apparently she liked the color. That was all.",
+        bio = "Clarice Foster stays in Thunder Bluff's Pools of Vision. Bitter over Yuriv's neglect of his family for his crusade, she wants his pendant left on his tomb in Silverpine. Her undeath has given her no reason to excuse his choices.",
+        backstory = "Clarice chose a plain blue stone and put it in her pocket. It belonged to no story she needed to explain. She found a small satisfaction in keeping something because she wanted it, without accepting anyone else's reason.",
+        secret = "The stone is not a replacement for the pendant. She owes nobody a lesson or a memory about it. She likes having one small thing whose meaning she can choose herself.",
+        bestFriend = "Sit here. If I want to talk, I will. If I want you to stay, I can say that, too. Today, I would like you to stay.",
+        favorite = { emote = "NOD", hint = "Hearing her clearly can mean more than trying to supply the right words." },
+        lines = {
+            greet = { { "You came to see me? Then say so. I might be willing to take a walk with you.", tone = "[raspy] [reserved]" },
+                { "There you are. You may stay a little while.", tone = "[raspy] [quietly welcoming]" } },
+            idle = { { "It is blue. I liked it. You need not discover a tragedy behind every small thing I choose to keep.", tone = "[raspy] [dry]" },
+                { "Some words are very grand until you are the one left waiting behind them.", tone = "[raspy] [bitter]" },
+                { "Ask me what I want now. That is a question I can answer for myself.", tone = "[raspy] [firm]" } },
+            befriended = { { "You listened without deciding how my story ought to end. I noticed. I would not mind a little more of your company.", tone = "[raspy] [guardedly sincere]" } },
+            poke = { { "Speak. I am quite capable of hearing you.", tone = "[raspy] [flat]" },
+                { "That was unnecessary.", tone = "[raspy] [dry]" } },
+            quest = { { "Do what you said you would. Leave the speeches until afterward, if you must.", tone = "[raspy] [firm]" } },
+            rest = { { "Here is as good a place as any. You may sit beside me without finding a way to improve the silence.", tone = "[raspy] [quiet]" } },
+            zone = { { "Somewhere else, for a while. I chose to come. That matters to me.", tone = "[raspy] [measured]" } },
+            loot = { { "Worth keeping? You can choose without explaining it to everyone.", tone = "[raspy] [matter-of-fact]" } },
+            combatEnd = { { "Finished. Take a moment before making another promise.", tone = "[raspy] [weary]" } },
+            hearth = { { "Go where you mean to go. Tell those waiting whether you intend to return.", tone = "[raspy] [serious]" } },
+            levelUp = { { "More capable. I hope you remember what you meant to do with it.", tone = "[raspy] [restrained]" } },
+        },
+    },
+
+    -- Nata Dawnstrider <Enchanting Supplies>, middle rise, Thunder Bluff.
+    -- NPC3012/display2118: adult female Tauren, current HordeFriendly.
+    -- Vendor, not an assumed enchanting trainer. No personal quest found;
+    -- later Legion feast/retail wares and speculative relatives excluded.
+    -- Extravagant parcel bows are original, not magical supplies or a service.
+    -- docs/research/four-women-service-rotation.md.
+    [3012] = {
+        recordingVoice = "tauren-female",
+        quote = "Tell me what you need before admiring the wrapping. You may admire the wrapping afterward. I would be pleased if you did.",
+        likes = { "Supplies ready when they are needed", "A parcel handled with care", "A generous bow on a small package" },
+        dislikes = { "Shaking a parcel to identify it", "Putting heavy gear on delicate supplies", "Cutting the ribbon without a glance" },
+        gossip = "Nata has been tying rather splendid bows. A small parcel can leave her hands looking prepared for a much grander occasion.",
+        bio = "Nata Dawnstrider supplies enchanters on Thunder Bluff's middle rise. She handles the materials and formulas used in their work. Her trade concerns having the right supplies at hand, without requiring every visitor to make a great ceremony of buying them.",
+        backstory = "A little ribbon left after wrapping a parcel gave Nata room to try a larger bow. She liked the result enough to practice another. A plain errand could leave her counter looking pleasantly ready for a celebration.",
+        secret = "The ribbon does nothing magical. She simply enjoys making a modest purchase look as if someone took pleasure in preparing it. Sometimes that someone is herself.",
+        bestFriend = "You may untie it carefully, or admire it and leave it alone. I would enjoy sitting with you either way.",
+        favorite = { emote = "APPLAUD", hint = "A little appreciation for the finishing touch makes her day." },
+        lines = {
+            greet = { { "There you are. Give me a moment to put this parcel safely away. I would enjoy a walk with you.", tone = "[warmly] [pleased]" },
+                "A familiar face! Tell me how your day has been." },
+            idle = { { "No enchantment in the ribbon. I just liked making the bow. A small parcel ought to be allowed a little dignity.", tone = "[lightly amused] [warmly]" },
+                "Knowing what you need can save a surprising amount of searching later.",
+                "Please keep the heavy things off the delicate ones. They appreciate it, and so do I." },
+            befriended = { { "You stayed after everything was wrapped and put away. I enjoyed the conversation. Let us see what there is to enjoy beyond the counter, my friend.", tone = "[sincere] [welcoming]" } },
+            poke = { "Gently. I was considering the last loop.", "Yes? You may simply ask." },
+            mail = { { "A parcel! I wonder whether its maker enjoyed wrapping it. Let us not decide by shaking it.", tone = "[curious] [playful]" } },
+            loot = { "Useful materials? Keep them somewhere they will survive the journey." },
+            bagsFull = { "A little room around the fragile things, if you can manage it." },
+            quest = { "Finished. Perhaps the next errand can include a pleasant pause." },
+            rest = { "There. No counter between us, and no need to hurry the visit." },
+            zone = { "Somewhere new. I wonder what people here think makes a parcel special." },
+            levelUp = { "A fine occasion. I shall try not to put a bow on you." },
+        },
+    },
+
+    -- Aayndia Floralwind <Expert Leatherworker>, Astranaar, Ashenvale.
+    -- NPC3967/display2053: adult female Night Elf, current AllianceFriendly.
+    -- Installed gossip: measure carefully/conserve materials, protect Elune's
+    -- forests; trainer referrals. No personal quest. Later death/wisp excluded.
+    -- Leisurely leaf races are original, not a map event or magical ability.
+    -- docs/research/four-women-service-rotation.md.
+    [3967] = {
+        recordingVoice = "nightelf-female",
+        quote = "A careful measurement can save the work. A leaf on the water will insist on taking its own route, however well you plan.",
+        likes = { "A neat seam and little waste", "Care shown toward the forest", "An entirely unserious leaf race" },
+        dislikes = { "Cutting before checking the measure", "Disregarding the gifts of the forest", "Declaring a winner before the breeze ends" },
+        gossip = "Aayndia knows her leather. Her leaf races have rather looser rules. The wandering leaf usually gets her sympathy.",
+        bio = "Aayndia Floralwind teaches leatherworking in Astranaar, in Ashenvale. Her advice stresses careful measurement and avoiding waste. She regards Elune's gifts to her people as a responsibility to protect the forests, not a reason to take them for granted.",
+        backstory = "While resting beside the water, Aayndia watched a fallen leaf overtake another, then turn away from the bank. She stayed to see where it went. Choosing a favorite became a small pleasure with no useful task attached to its outcome.",
+        secret = "She often favors the leaf taking the least direct route. There is little glory at stake, and she enjoys having a reason to linger beside the water.",
+        bestFriend = "Choose a leaf. I will choose mine. We can stay until we agree what counted as the finish, or simply until we have enjoyed ourselves.",
+        favorite = { emote = "CHEER", hint = "A little enthusiasm can make a very small contest worth lingering over." },
+        lines = {
+            greet = { { "Come, let us take a little time away from the work. Have you seen anything worth stopping to look at?", tone = "[calm] [welcoming]" },
+                "There you are. I can leave the last careful stitch for later." },
+            idle = { { "I favor that leaf. Yes, the one going sideways. It seems determined to make the occasion last, and I find that a reasonable ambition.", tone = "[gentle] [playful]" },
+                "One careful measure can spare a great deal of needless waste.",
+                "The forest deserves our attention even when it is asking nothing of us." },
+            befriended = { { "You stayed for a small pleasure that needed no reward. I would be glad to share another with you. Come along, my friend.", tone = "[warmly] [sincere]" } },
+            learned = { { "There. Keep the careful habits as the work grows familiar. They are useful long after someone stops watching your first attempts.", tone = "[patient] [encouraging]" } },
+            poke = { "A word would be gentler on the concentration.", "Yes? I was only watching where that went." },
+            gear = { "Mind the seam. It should move comfortably with you." },
+            loot = { "Something worth using? Then let us see it is not wasted." },
+            quest = { "Finished. We can give the next quiet moment a little more room." },
+            rest = { "Here. If a leaf passes, we may find ourselves quite occupied." },
+            zone = { "New surroundings. Look at what grows between the paths as well." },
+            levelUp = { "More skill. I hope it leaves you room to enjoy the little things." },
+        },
+    },
+
+    -- Ainethil <Artisan Alchemist>, Craftsmen's Terrace, Darnassus.
+    -- NPC4160/display10624: adult female Night Elf, current AllianceFriendly.
+    -- Installed gossip: weaker potion/same ingredients, suspects plants are
+    -- changing, cause unknown. No invented cure/quest or later Teldrassil fate.
+    -- Admiring bubbles trapped in empty glass is original fiction.
+    -- docs/research/four-women-service-rotation.md.
+    [4160] = {
+        recordingVoice = "nightelf-female",
+        quote = "Tell me what you observed before telling me why it must have happened. I would like room to be curious.",
+        likes = { "Carefully compared results", "An honest admission of uncertainty", "A bubble caught inside clear glass" },
+        dislikes = { "Ignoring a changed result", "Certainty arriving before the question", "Throwing away a pleasing empty bottle" },
+        gossip = "Ainethil has set an empty bottle aside. Anyone expecting a secret potion is likely to receive a discussion of the glass instead.",
+        bio = "Ainethil practices alchemy in Darnassus's Craftsmen's Terrace. She has noticed a potion healing less despite unchanged ingredients and suspects the plants are changing. She cannot yet explain why, or what they may become.",
+        backstory = "Turning an empty bottle in the light, Ainethil noticed a small bubble caught in the glass itself. It changed the view pleasantly without needing to be solved. She kept the bottle where she could enjoy looking through it between other work.",
+        secret = "There is no remedy or hidden formula in that bottle. It is empty. She likes having one curiosity she can enjoy without making it answer a difficult question.",
+        bestFriend = "Sit where the light catches it. Tell me what you see. I shall try not to ask you to demonstrate the result twice.",
+        favorite = { emote = "NOD", hint = "Patient attention leaves room for a thought that has not reached its answer." },
+        lines = {
+            greet = { { "A little time away from the work may be useful. Come, tell me what has caught your attention lately.", tone = "[thoughtful] [warmly]" },
+                "There you are. Have you noticed anything you would like to discuss?" },
+            idle = { { "The bubble is in the glass, not a potion. The bottle is empty. I kept it because I enjoy how the light looks through it. That is enough for this particular curiosity.", tone = "[quietly amused] [reflective]" },
+                "An unexpected result is still a result worth attending to.",
+                "We can leave a question open while we consider what we actually know." },
+            befriended = { { "You stayed to talk when I had no tidy answer to offer. I appreciate that. I would enjoy a little more of your company, my friend.", tone = "[sincere] [gentle]" } },
+            poke = { "Yes? Give the thought a moment to settle.", "You can ask. I was only considering something." },
+            learned = { { "Good. Look carefully at the next attempt. Familiar ingredients do not excuse us from noticing what they actually do.", tone = "[patient] [attentive]" } },
+            loot = { "Keep what you can identify safely apart from what you are still wondering about." },
+            quest = { "Done. Tell me what you found, including anything that surprised you." },
+            rest = { "A little quiet may help. We need not fill it with an explanation." },
+            zone = { "New plants, perhaps. I would like a closer look before making any claims." },
+            bagsFull = { "Mind the glass while you rearrange things." },
+            levelUp = { "More experience. I hope it brings better questions as well as better answers." },
+        },
+    },
+
     -- Hraug <Demon Trainer>, The Den, Durotar. NPC12776/display14371:
     -- adult male Orc, actual Scout Horde/reaction5. Current17imp grimoires
     -- and installed demon-training gossip; no own quest chain established.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Clarice Foster, Nata Dawnstrider, Aayndia Floralwind and Ainethil: four full adult female profiles across Forsaken, Tauren and Night Elf coverage, fifteen personal lines each queued for recording.
+- Preserve Clarice's anger and choice, Ainethil's unresolved observation, Nata's supplier role and Aayndia's living Forever identity. Ordinary faction/reaction and non-attackability checks remain required.
+
 - Add Hraug, Jen'shan, Nartok, Ruzan and Rwag: five full Scout-observed adult profiles with fifteen personal lines each, completing the nineteen newly discovered Durotar identities in text. Recording remains deferred.
 - Preserve Jen'shan's female Troll voice, Nartok's Forever tablet introduction, Ruzan's careful summoning instruction and Rwag's actual Shattered Hand/Nartok history.
 

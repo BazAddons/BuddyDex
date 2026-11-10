@@ -1561,6 +1561,34 @@
       "zone": "Durotar",
       "route": "Final five actual Scout Valley/Den class and demon-service profiles",
       "reason": "Full written researched adult profile; approved live-model voice assigned; current98575and1485/1499and historical introductions distinguished; recording deferred"
+    },
+    {
+      "npc_id": 5543,
+      "name": "Clarice Foster",
+      "zone": "Thunder Bluff",
+      "route": "Adult female Forsaken/Tauren Horde and Night Elf Alliance coverage rotation",
+      "reason": "Current individual model/place and full known source text reviewed; complete written profile and approved female voice, normal live gates including Neutral/non-attackable required; no synthesis"
+    },
+    {
+      "npc_id": 3012,
+      "name": "Nata Dawnstrider",
+      "zone": "Thunder Bluff",
+      "route": "Adult female Forsaken/Tauren Horde and Night Elf Alliance coverage rotation",
+      "reason": "Current individual model/place and full known source text reviewed; complete written profile and approved female voice, normal live gates including Neutral/non-attackable required; no synthesis"
+    },
+    {
+      "npc_id": 3967,
+      "name": "Aayndia Floralwind",
+      "zone": "Ashenvale",
+      "route": "Adult female Forsaken/Tauren Horde and Night Elf Alliance coverage rotation",
+      "reason": "Current individual model/place and full known source text reviewed; complete written profile and approved female voice, normal live gates including Neutral/non-attackable required; no synthesis"
+    },
+    {
+      "npc_id": 4160,
+      "name": "Ainethil",
+      "zone": "Darnassus",
+      "route": "Adult female Forsaken/Tauren Horde and Night Elf Alliance coverage rotation",
+      "reason": "Current individual model/place and full known source text reviewed; complete written profile and approved female voice, normal live gates including Neutral/non-attackable required; no synthesis"
     }
   ]
 }
