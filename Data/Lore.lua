@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tukk, Shadowprey Village/Desolace. Adult Troll male
+    -- 12039/M2 1022938, Horde Friendly. All28 current goods read,
+    -- including blue-ribboned paper; own quests/training0, no gossip.
+    -- Extra wrapping and future plain-fold surprise are original.
+    -- Research: docs/research/tukks-parcel-and-brombars-handle.md
+    [12027] = {
+        quote = "There is a present in there. The wrapping is merely giving it a generous introduction.",
+        likes = { "A surprise that stays kind", "Someone enjoying the unwrapping", "Travel supplies remembered in time" },
+        dislikes = { "An ordinary gift belittled for its price", "A joke at the recipient's expense", "An essential left off the packing list" },
+        gossip = "Tukk has wrapped a small present with a surprising number of folds. The recipient apparently enjoyed reaching each new layer.",
+        bio = "Tukk sells general goods in Shadowprey Village, Desolace. His stock includes bags, drink, ammunition, throwing weapons and practical supplies, with blue-ribboned wrapping paper for an errand that calls for a little ceremony.",
+        backstory = "He once gave a small present a rather generous amount of wrapping. Its recipient kept smiling at each new fold. Tukk found himself enjoying the unwrapping as much as the moment the gift finally appeared.",
+        secret = "He thinks the next present should have one very plain fold. A good surprise should not become entirely predictable, even to a friend who knows his tricks.",
+        bestFriend = "Come along, friend. I am glad you came. That greeting can stand on its own without several extra layers of paper.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates someone sharing the amusement of a harmless surprise without spoiling it before its time.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "There you are, friend. Come along. No extra wrapping around the invitation today. I am pleased to see you.", tone = "[playful] [welcoming]" }, "Good to see you. Ready for a walk? You are welcome company without an errand to explain." },
+            idle = { { "Another fold, another smile. By the end, I was enjoying the unwrapping as much as the gift. Next time, perhaps one very plain fold.", tone = "[wry] [fond]" }, "Blue ribbon gives an ordinary parcel a little ceremony. The person receiving it supplies the interesting part.", "Water, room in the bag, the things the road will ask for. Remember them before adding the decorations." },
+            befriended = { { "I have come to enjoy your visits for their own sake. Come along, friend. There is no need to hide the pleasure in another layer of anything.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? A question, or are you wondering how much paper is left?", "I am listening. This part of the conversation needs no unwrapping." },
+            mail = { { "A parcel. I hope the recipient enjoys opening it. Eventually finding the present is a pleasure too.", tone = "[cheerful] [teasing]" } },
+            bagsFull = { "Leave room for what you need. The wrapping can be generous without the whole bag joining the gift." },
+            loot = { "Worth keeping? Or have you thought of someone who would smile to receive it?" },
+            rest = { "A pleasant pause. We can enjoy this part of the day before wondering what comes next." },
+            quest = { "Check the practical things before setting out. An extra fold will not replace forgotten water." },
+            newFriend = { "Someone new to greet. Let the greeting be simple; there is time for the joke later." },
+            thanked = { "You are welcome, friend. I enjoyed seeing you pleased." },
+        },
+    },
+
+    -- Brombar Higgleby, Great Forge/Ironforge. Adult Dwarf
+    -- male1935/M2 878772, Alliance Friendly; The Keymaster.
+    -- No own current quests/services/gossip verified; no lost-key promise.
+    -- Unlocked-door/handle anecdote is original, not a quest event.
+    -- Research: docs/research/tukks-parcel-and-brombars-handle.md
+    [3842] = {
+        quote = "Before deciding which key you need, have we tried the handle?",
+        likes = { "The simplest useful question", "A reminder offered without mockery", "A laugh shared after a mistaken guess" },
+        dislikes = { "A problem made grander than necessary", "Embarrassment standing in for an answer", "A title used to avoid being corrected" },
+        gossip = "Brombar once tried the handle after a long discussion about keys. The supposed locked-door problem became a rather shorter conversation.",
+        bio = "Brombar Higgleby, known as the Keymaster, stands near the Great Forge in Ironforge. His imposing title attracts questions; his own preference is to begin with the simplest useful one.",
+        backstory = "He and a visitor were considering which key a stubborn door might require. Brombar finally tried the handle. The door opened. They laughed together, and he found that a much better ending than pretending he had known all along.",
+        secret = "He was glad they both laughed. A mistaken guess is easier to put aside when nobody needs to be left looking foolish alone.",
+        bestFriend = "Come along, friend. If I make the problem too impressive, remind me to try the handle. I will appreciate the reminder.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He welcomes shared amusement that lets someone accept a mistaken guess without losing their dignity.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you, friend. Come along. If I make the day too complicated, you may remind me to try the handle.", tone = "[warm] [dryly amused]" }, "There you are. Ready for a walk? We can begin without solving the whole city first." },
+            idle = { { "We had discussed several keys. Then I tried the handle. An excellent reminder, followed by a very welcome laugh.", tone = "[wry] [self-deprecating]" }, "A title is no reason to make the first question more elaborate than it needs to be.", "I would rather be reminded kindly than remain impressively mistaken." },
+            befriended = { { "You have become someone whose company and reminders I welcome. Come along, friend. We can be mistaken about a small thing without spoiling the day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? The plain question is quite welcome.", "I am listening. Have I overlooked the handle again?" },
+            learned = { { "Good. Keep the useful part, including whatever made you reconsider the first answer.", tone = "[steady] [encouraging]" } },
+            quest = { "Ask what is actually needed before finding an impressive way to provide something else." },
+            loot = { "See what it is for. An interesting shape is a beginning, not the whole answer." },
+            rest = { "A sensible pause. Nothing here requires us to make a puzzle of sitting down." },
+            group = { "Let someone ask the simple question. We need not all defend the complicated answer." },
+            newFriend = { "Someone new. A clear greeting is a perfectly respectable place to begin." },
+            thanked = { "Glad to help, friend. I appreciate a good reminder in return." },
+        },
+    },
+
     -- Milla Fairancora, Craftsmen's Terrace/Darnassus. Adult
     -- Night Elf female10573/M2 921844, Alliance Friendly. Own three
     -- alchemy/welcome/Sylvanna-referral greetings read; sparse lessons.

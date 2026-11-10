@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tukk and Brombar Higgleby: adult Horde Troll and Alliance Dwarf profiles, with thirty personal lines queued.
+- Review the full current supply stock and Keymaster identity; document original parcel and handle anecdotes without promising unverified unlock services.
+
 - Add Milla Fairancora and Elu: adult Alliance Night Elf and Horde Tauren profiles, with thirty personal lines queued.
 - Review the alchemist's own dialogue and complete wind rider task; document original fragrance and future homeward-view details.
 

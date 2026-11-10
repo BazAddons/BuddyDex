@@ -3472,6 +3472,20 @@
       "zone": "Thousand Needles",
       "route": "Freewind Post wind rider apprenticeship",
       "reason": "Full Wind Rider task, still awaiting training; original hoped-for view of home from above; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 12027,
+      "name": "Tukk",
+      "zone": "Desolace",
+      "route": "Shadowprey Village general supplies",
+      "reason": "All twenty-eight current goods and historical nineteen-item list; original generous wrapping surprise; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3842,
+      "name": "Brombar Higgleby",
+      "zone": "Ironforge",
+      "route": "Great Forge named Keymaster contact",
+      "reason": "Exact adult/title/location; unverified unlock claims excluded; original try-the-handle anecdote; fifteen personal lines queued without synthesis"
     }
   ]
 }

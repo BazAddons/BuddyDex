@@ -3801,5 +3801,19 @@
     "zone": "Thousand Needles",
     "source": "Reviewed adult Horde Tauren man; Full Wind Rider task, still awaiting training; original hoped-for view of home from above; no Scout sighting claimed",
     "research_notes": "docs/research/millas-description-and-elus-homeward-view.md"
+  },
+  {
+    "npc_id": 12027,
+    "name": "Tukk",
+    "zone": "Desolace",
+    "source": "Reviewed adult Horde Troll man; All twenty-eight current goods and historical nineteen-item list; original generous wrapping surprise; no Scout sighting claimed",
+    "research_notes": "docs/research/tukks-parcel-and-brombars-handle.md"
+  },
+  {
+    "npc_id": 3842,
+    "name": "Brombar Higgleby",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Alliance Dwarf man; Exact adult/title/location; unverified unlock claims excluded; original try-the-handle anecdote; no Scout sighting claimed",
+    "research_notes": "docs/research/tukks-parcel-and-brombars-handle.md"
   }
 ]

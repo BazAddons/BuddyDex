@@ -3,18 +3,18 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 320,
+    "alliance": 321,
     "unverified": 159,
-    "horde": 301
+    "horde": 302
   },
   "npc_race_counts": {
     "1": 167,
-    "3": 61,
+    "3": 62,
     "7": 56,
     "2": 80,
     "5": 80,
     "4": 61,
-    "8": 58,
+    "8": 59,
     "9": 50,
     "6": 83,
     "96": 23,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 3,
-    "Ironforge": 55,
+    "Ironforge": 56,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 48,
     "Undercity": 15,
@@ -53,7 +53,7 @@
     "Dustwallow Marsh": 1,
     "Tanaris": 8,
     "Feralas": 3,
-    "Desolace": 9,
+    "Desolace": 10,
     "Winterspring": 2,
     "Moonglade": 1,
     "Deeprun Tram": 3,
@@ -4742,6 +4742,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3841"
     },
     {
+      "npc_id": 3842,
+      "name": "Brombar Higgleby",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3842"
+    },
+    {
       "npc_id": 3845,
       "name": "Shindrell Swiftfire",
       "zone": "Ashenvale",
@@ -7840,6 +7853,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11945"
     },
     {
+      "npc_id": 12027,
+      "name": "Tukk",
+      "zone": "Desolace",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12027"
+    },
+    {
       "npc_id": 12028,
       "name": "Lah'Mawhani",
       "zone": "Desolace",
@@ -9602,6 +9628,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 748,
-  "awaiting_signature_audio_profiles": 294
+  "authored_profiles": 750,
+  "awaiting_signature_audio_profiles": 296
 }
