@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Danlyia and Tumi: two complete adult profiles with thirty personal lines queued.
+- Expand Night Elf Dolanaar food and Orc Orgrimmar armor contacts, with distinct researched roles and original stories.
+
 - Add Adlin Pridedrift and Cain Firesong: two complete adult profiles with thirty personal lines queued.
 - Expand Coldridge Valley general-supply and Brill mage contacts, using researched class referrals and distinct original character stories.
 
@@ -297,4 +300,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **667 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **669 fully written NPC profiles**: 454 have initial signature recordings, and two hundred fifteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Danlyia and Tumi: two complete adult profiles with thirty personal lines queued.
+- Expand Night Elf Dolanaar food and Orc Orgrimmar armor contacts, with distinct researched roles and original stories.
+
 - Add Adlin Pridedrift and Cain Firesong: two complete adult profiles with thirty personal lines queued.
 - Expand Coldridge Valley general-supply and Brill mage contacts, using researched class referrals and distinct original character stories.
 

@@ -2905,6 +2905,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill early Forsaken Mage contact",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original snow-journal or cushion-warning writing; no synthesis"
+    },
+    {
+      "npc_id": 4266,
+      "name": "Danlyia",
+      "zone": "Teldrassil",
+      "route": "Dolanaar Night Elf starter-region food/drink vendor",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original interrupted-first-sip or shield-reflection writing; no synthesis"
+    },
+    {
+      "npc_id": 5812,
+      "name": "Tumi",
+      "zone": "Orgrimmar",
+      "route": "Valley of Honor Orc heavy-armor service",
+      "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original interrupted-first-sip or shield-reflection writing; no synthesis"
     }
   ]
 }

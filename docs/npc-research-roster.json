@@ -3234,5 +3234,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult Dwarf / Forsaken men, explicit faction Friendly; all relationship tabs and installed dialogue checked; full mage referral chains read; no Scout sighting claimed",
     "research_notes": "docs/research/coldridge-weather-and-brill-warnings.md"
+  },
+  {
+    "npc_id": 4266,
+    "name": "Danlyia",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult Night Elf / Orc women, explicit faction Friendly; all relationship tabs/current and Classic stock pages read; related family dialogue checked; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-first-sips-and-orgrimmar-reflections.md"
+  },
+  {
+    "npc_id": 5812,
+    "name": "Tumi",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Night Elf / Orc women, explicit faction Friendly; all relationship tabs/current and Classic stock pages read; related family dialogue checked; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-first-sips-and-orgrimmar-reflections.md"
   }
 ]

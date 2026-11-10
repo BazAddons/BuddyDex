@@ -41,6 +41,75 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Danlyia <Food & Drink Vendor>, Dolanaar, Teldrassil. Adult Night
+    -- Elf female4235/M2 921844, Alliance Friendly. All20current/Classic
+    -- goods read; no own linked quests or installed gossip.
+    -- Interrupted first sip is original; no dragon rumor/later burning.
+    -- Research: docs/research/dolanaar-first-sips-and-orgrimmar-reflections.md
+    [4266] = {
+        quote = "I meant to enjoy the first sip in silence. Then you came to say hello, which seemed a better use of the moment.",
+        likes = { "A visitor staying for a little conversation", "A drink enjoyed before the next errand", "An ordinary greeting warmly returned" },
+        dislikes = { "A welcome treated as an interruption", "Being hurried through every small pleasure", "A full day with nobody stopping to talk" },
+        gossip = "Danlyia tries to begin her own drink with a quiet moment. She rarely manages it when there is someone nearby to welcome.",
+        bio = "Danlyia sells food and drink in Dolanaar, Teldrassil. Bread, fruit, juices and dishes such as bean soup and steamed mandu make up her selection. Travelers can stop for provisions before continuing through the forest.",
+        backstory = "She decided to give the first sip of her own drink a moment of silence. A visitor greeted her just as she lifted the cup. Answering seemed more pleasant than preserving the rule, and subsequent attempts have ended much the same way.",
+        secret = "She has never felt much regret about the interrupted silence. A cup will wait for her attention. A passing person may have only that moment to stop and talk.",
+        bestFriend = "Come along. We may find somewhere to enjoy a drink later. You are welcome to interrupt the first sip with anything you wish to tell me.",
+        favorite = {
+            emote = "GREET",
+            hint = "She enjoys a simple, friendly approach from someone who has found a moment to stop and acknowledge her.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Shall we go? I would enjoy hearing about your day before we decide how much of it still needs doing.", tone = "[warm] [welcoming]" }, "Ready. If we pause for a drink along the way, you need not wait for me to finish before saying hello." },
+            idle = { { "I meant to enjoy the first sip in silence. Then someone greeted me. I answered, of course. It seems a pleasant way for a very small plan to go wrong.", tone = "[reflective] [fondly amused]" }, "A little conversation can belong to the day as surely as the next errand. It need not apologize for taking a moment.", "Choose what you would like before deciding how quickly you ought to be on your way." },
+            befriended = { { "You stopped to speak when you could have hurried on. Come along, friend. I have enjoyed the company more than an uninterrupted first sip.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? You are welcome to interrupt. I would rather hear what you came to say than wonder after you have gone.", "I hear you. If you simply wished to greet me, that was already a good reason to stop." },
+            rest = { { "A pause. Enjoy the drink, or the conversation, or both in whichever order makes the moment pleasant.", tone = "[gentle] [content]" } },
+            waveBack = { "Good to see you. A small greeting can make someone glad they looked up from the cup." },
+            quest = { "Hear what the person needs before hurrying toward the answer. They may have more to tell you than the errand alone." },
+            bagsFull = { "Leave yourself room for the provisions you meant to bring. Finding lunch should not require unpacking the whole journey." },
+            group = { "Make room for another voice. Someone who has just arrived may have been hoping for a chance to join the conversation." },
+            zone = { "New surroundings. Let us notice something we would miss by treating the place only as a route to somewhere else." },
+            thanked = { "You are welcome. I am pleased you stopped, and pleased the visit was useful as well." },
+        },
+    },
+
+    -- Tumi <Heavy Armor Merchant>, Valley of Honor, Orgrimmar. Adult
+    -- Orc female4351/M2 949470, Horde Friendly. All51goods/two current
+    -- pages/Classic stock read; repairs verified, no own linked quests/gossip.
+    -- Related Snarl/Ugthok dialogue read; no consensual match or twins
+    -- inferred. Curved-shield reflection is original fiction.
+    -- Research: docs/research/dolanaar-first-sips-and-orgrimmar-reflections.md
+    [5812] = {
+        quote = "That shield makes my stern expression look twice as wide. I doubt it will improve anyone's discipline.",
+        likes = { "Armor chosen for the person wearing it", "A sound buckle noticed before setting out", "A friend who can share an unflattering joke" },
+        dislikes = { "Ignoring a fault because the armor shines", "A grand boast offered instead of a question", "Being hurried past a practical concern" },
+        gossip = "Tumi inspected her stern look in a polished shield. She seems to have found the result more entertaining than intimidating.",
+        bio = "Tumi sells heavy armor and offers repairs in Orgrimmar's Valley of Honor. Her stock includes mail, plate and shields. Light mail and chain pieces sit alongside heavier sets for customers with different experience and needs.",
+        backstory = "Checking a polished shield, she noticed what its curved surface did to her reflection. She tried the severe expression she might give a careless customer. The wider face made the effort increasingly difficult to take seriously.",
+        secret = "She sometimes checks whether she can hold the expression without grinning. The shield has an impressive record of winning that particular contest.",
+        bestFriend = "Come along. You can tell me if I am looking unnecessarily severe. I would rather hear it from you than discover it in another shield.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates a friend sharing the harmless joke when a severe expression refuses to remain intimidating.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "Good to see you. Shall we go? Check what needs fastening before the road gives us a less convenient place to notice it.", tone = "[warm] [practical]" }, "Ready. You need not bring a great boast for the occasion. Tell me what you need and we can begin there." },
+            idle = { { "I tried my stern expression in a polished shield. Its curve made my face twice as wide. I have not yet decided whether the result would discourage carelessness or encourage laughter.", tone = "[wry] [amused]" }, "A piece that suits the wearer is more useful than a splendid name that suits the conversation.", "Mention the loose fastening before someone sets out. An ordinary observation can save a much less ordinary inconvenience." },
+            befriended = { { "You notice the practical things and know when there is a joke worth sharing. Come along, friend. I am glad to have your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you found. If it is another unflattering reflection, I may already have considered that one.", "I hear you. A direct question will do. We need not make the opening grander than the matter requires." },
+            gear = { { "Move in it before admiring it. The armor has to serve you after the first impression is finished.", tone = "[firm] [instructive]" } },
+            loot = { "Look at the condition as well as the appearance. A bright surface can be very distracting when something underneath needs attention." },
+            combatEnd = { "It is over. Check what took the strain before deciding everything that stayed in place is still sound." },
+            rest = { "A pause. You may relax your expression too. The imaginary inspection has concluded for the moment." },
+            group = { "Ask what the others need before deciding the same equipment and the same pace will suit everybody." },
+            mount = { "Check your fastenings before setting off. Remembering halfway down the road is a poor replacement for noticing here." },
+            thanked = { "You are welcome. I would rather hear that it served you well than that it merely looked impressive." },
+        },
+    },
+
     -- Adlin Pridedrift <General Supplies>, Coldridge Valley, Dun Morogh.
     -- Adult Dwarf male3388/M2 878772, Alliance Friendly. All11current
     -- goods/four Classic goods read; no own quests or installed gossip.

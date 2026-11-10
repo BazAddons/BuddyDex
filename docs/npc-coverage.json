@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 282,
+    "alliance": 283,
     "unverified": 152,
-    "horde": 253
+    "horde": 254
   },
   "npc_race_counts": {
     "1": 166,
     "3": 54,
     "7": 45,
-    "2": 75,
+    "2": 76,
     "5": 70,
-    "4": 51,
+    "4": 52,
     "8": 54,
     "9": 40,
     "6": 77,
@@ -35,10 +35,10 @@
     "Wetlands": 2,
     "Duskwood": 3,
     "Silverpine Forest": 8,
-    "Teldrassil": 22,
+    "Teldrassil": 23,
     "Hillsbrad Foothills": 6,
     "Arathi Highlands": 11,
-    "Orgrimmar": 45,
+    "Orgrimmar": 46,
     "Badlands": 1,
     "Darkshore": 8,
     "Mulgore": 22,
@@ -4886,6 +4886,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4265"
     },
     {
+      "npc_id": 4266,
+      "name": "Danlyia",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4266"
+    },
+    {
       "npc_id": 4267,
       "name": "Daelyshia",
       "zone": "Ashenvale",
@@ -5773,6 +5786,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5811"
+    },
+    {
+      "npc_id": 5812,
+      "name": "Tumi",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5812"
     },
     {
       "npc_id": 5817,
@@ -8550,6 +8576,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 667,
-  "awaiting_signature_audio_profiles": 213
+  "authored_profiles": 669,
+  "awaiting_signature_audio_profiles": 215
 }
