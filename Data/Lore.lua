@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Aeolynn <Clothier>, Astranaar, Ashenvale. Adult Night Elf female
+    -- display2054/M2 921844, Alliance Neutral, Repair/Vendor.24current
+    -- cloth goods match24Classic; no own quests/gossip. Visible stitch
+    -- story is original; distinct from Sentinel Aeolyn.
+    -- Research: docs/research/astranaar-visible-care-and-quiet-endings.md
+    [3952] = {
+        quote = "A careful repair need not pretend the tear never happened.",
+        likes = { "A worn garment made useful again", "Patient hands given fair credit", "A repair noticed without embarrassment" },
+        dislikes = { "A small tear treated as disgrace", "Useful cloth discarded for appearance", "Careful work hurried into waste" },
+        gossip = "Aeolynn can be particular about a repair without insisting it disappear. She seems rather pleased when someone notices the care in a visible stitch.",
+        bio = "Aeolynn is a clothier in Astranaar who sells woven armor and offers repairs. She values a garment that serves its wearer well. In her own work, she takes pleasure in making a useful thing ready for another ordinary day.",
+        backstory = "A small tear in her own hem needed thread she could not quite match. She considered hiding the repair, then decided to leave it neat and visible. The different stitch became a reminder of something kept rather than lost.",
+        secret = "She still likes that little line of mismatched thread. It gives her no grand story to tell. She simply remembers choosing to keep a garment she enjoyed, and is pleased she did.",
+        bestFriend = "You need not explain every worn edge to me. Let us care for what matters, and leave you room to enjoy wearing it again.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates someone noticing the patience behind an ordinary piece of careful work.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. There is no shame in bringing a well-used thing back for a little care.", tone = "[steady] [welcoming]" }, "Ready. I have left the small repair where I can see it. I like it there." },
+            idle = { { "That different thread reminds me I chose to keep something I enjoyed. A modest mark, and a pleasant one.", tone = "[reflective] [pleased]" }, "A careful repair can be visible without being careless. Those are different things.", "The work should serve the person wearing it. A fine appearance is allowed to be comfortable." },
+            befriended = { { "You noticed the care without making a spectacle of the flaw. I would be glad to spend more time with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what needs attention, and we can begin with the practical matter.", "I was looking at the little line of thread. It still pleases me." },
+            gear = { { "How does it feel when you move? Take a moment to notice before deciding it is right for you.", tone = "[practical] [gentle]" } },
+            loot = { "Something useful? Give it enough care that it remains useful when you need it." },
+            bagsFull = { "Sort the things you mean to keep. Crushing them beneath the rest will not improve their condition." },
+            learned = { "Give the new skill a patient beginning. You need not make the first attempt invisible." },
+            rest = { "A little time to attend to an ordinary need. There is value in that." },
+            comforted = { "Thank you. Quiet care can be easier to receive than a grand reassurance." },
+            thanked = { "You are welcome. I am pleased the thing can serve you a little longer." },
+        },
+    },
+
+    -- Haljan Oakheart <General Goods>, Astranaar, Ashenvale. Adult Night Elf
+    -- male2060/M2 974343, Alliance Friendly/Vendor.16current goods
+    -- versus12Classic; no own quests/gossip. Uneventful travel stories
+    -- are original, no invented battles or retail-only events.
+    -- Research: docs/research/astranaar-visible-care-and-quiet-endings.md
+    [3962] = {
+        quote = "The supplies were ready, the fire caught, and nobody lost a boot. A fine ending.",
+        likes = { "An errand prepared without a fuss", "A listener staying for a quiet ending", "A dry place for the useful supplies" },
+        dislikes = { "Preparedness mistaken for dullness", "An ordinary success needing a monster", "A forgotten necessity blamed on luck" },
+        gossip = "Haljan begins a story as though a great adventure is coming. He seems delighted when it ends with everything going according to plan.",
+        bio = "Haljan Oakheart sells general goods in Astranaar. His supplies include bags, drinks, campfire materials, ammunition, and throwing weapons. He enjoys the quiet satisfaction of a journey made easier by remembering an ordinary necessity.",
+        backstory = "He once described a well-prepared outing with all the pauses of a great adventure. His listener waited for trouble that never came. Haljan enjoyed the surprise enough to begin collecting small accounts of things going properly.",
+        secret = "His favorite ending has dry supplies and a comfortable homecoming. He gives it his longest pause. The listener who smiles without demanding a monster is welcome.",
+        bestFriend = "Stay for the ending. I promise only that it pleases me. If you have an ordinary day that went well, I would like to hear yours too.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys a listener appreciating the deliberately modest ending of his tale.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Good to see you. I have an account of an outing in which nearly everything was remembered.", tone = "[warm] [welcoming]" }, "Ready. A little preparation now may leave us a remarkably uneventful story to enjoy later." },
+            idle = { { "And after that long journey, they discovered the supplies had stayed perfectly dry. A satisfying conclusion.", tone = "[storytelling] [dryly amused]" }, "Remembering the ordinary necessity can be the finest part of an ordinary day.", "A tale is allowed to finish without anybody needing to defeat a monster." },
+            befriended = { { "You stayed for an ending that asked very little of the world. I would enjoy hearing more of your days.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? A practical question, or shall I resume the very quiet adventure?", "I was considering where to leave the pause before the ending. It deserves a little room." },
+            rest = { { "They sat down, had what they needed, and rested. I consider that a very good part of the story.", tone = "[content] [lightly amused]" } },
+            loot = { "A useful find. You may be glad you remembered to make room for it." },
+            bagsFull = { "Sort it before another useful thing becomes impossible to reach." },
+            mail = { "News from elsewhere. Perhaps someone has had an agreeably uneventful day worth sharing." },
+            zone = { "New surroundings. Ask what people prepare for here before guessing you have everything." },
+            hearth = { "Homeward. An ending in which everyone gets to sit comfortably is worth keeping." },
+            thanked = { "You are welcome. I hope the little preparation makes the rest of the day easier." },
+        },
+    },
+
     -- Kzixx <Rare Goods>, Darkened Bank road, Duskwood. Adult Goblin male
     -- display7131/M2 119376, Alliance Neutral. Current1recipe vs10Classic
     -- goods; no own quests/gossip. Gift stone and personal attitudes

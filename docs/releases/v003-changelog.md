@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Aeolynn and Haljan Oakheart: complete Night Elf profiles with thirty personal lines queued.
+- Expand Astranaar companions with researched clothier and general-goods roles and original friendship stories.
+
 - Add Kzixx and Herble Baubbletump: complete Goblin and Gnome profiles with thirty personal lines queued.
 - Expand Duskwood companions using current inventory comparisons and documented original character writing.
 
@@ -192,4 +195,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **606 fully written NPC profiles**: 454 have initial signature recordings, and one hundred fifty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **608 fully written NPC profiles**: 454 have initial signature recordings, and one hundred fifty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

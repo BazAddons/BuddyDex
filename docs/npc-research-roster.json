@@ -2807,5 +2807,19 @@
     "zone": "Duskwood",
     "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
     "research_notes": "docs/research/duskwood-keepsakes-and-workbench-company.md"
+  },
+  {
+    "npc_id": 3952,
+    "name": "Aeolynn",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult Night Elf identity, actual reaction, all own tabs and complete current/Classic stock; no supported personal quest/gossip or Scout sighting claimed",
+    "research_notes": "docs/research/astranaar-visible-care-and-quiet-endings.md"
+  },
+  {
+    "npc_id": 3962,
+    "name": "Haljan Oakheart",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult Night Elf identity, actual reaction, all own tabs and complete current/Classic stock; no supported personal quest/gossip or Scout sighting claimed",
+    "research_notes": "docs/research/astranaar-visible-care-and-quiet-endings.md"
   }
 ]

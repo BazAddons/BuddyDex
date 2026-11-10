@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Aeolynn and Haljan Oakheart: complete Night Elf profiles with thirty personal lines queued.
+- Expand Astranaar companions with researched clothier and general-goods roles and original friendship stories.
+
 - Add Kzixx and Herble Baubbletump: complete Goblin and Gnome profiles with thirty personal lines queued.
 - Expand Duskwood companions using current inventory comparisons and documented original character writing.
 

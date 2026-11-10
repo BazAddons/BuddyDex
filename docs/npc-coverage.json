@@ -3,8 +3,8 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 257,
-    "unverified": 144,
+    "alliance": 258,
+    "unverified": 145,
     "horde": 221
   },
   "npc_race_counts": {
@@ -13,7 +13,7 @@
     "7": 40,
     "2": 70,
     "5": 63,
-    "4": 43,
+    "4": 45,
     "8": 47,
     "9": 33,
     "6": 73,
@@ -45,7 +45,7 @@
     "The Barrens": 30,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
-    "Ashenvale": 6,
+    "Ashenvale": 8,
     "Thousand Needles": 6,
     "Dustwallow Marsh": 1,
     "Tanaris": 6,
@@ -4362,6 +4362,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3937"
     },
     {
+      "npc_id": 3952,
+      "name": "Aeolynn",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Alliance Neutral; no explicit Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3952"
+    },
+    {
       "npc_id": 3955,
       "name": "Shandrina",
       "zone": "Ashenvale",
@@ -4371,6 +4382,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current reaction omitted; live eligibility required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3955"
+    },
+    {
+      "npc_id": 3962,
+      "name": "Haljan Oakheart",
+      "zone": "Ashenvale",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3962"
     },
     {
       "npc_id": 3967,
@@ -7766,6 +7790,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 606,
-  "awaiting_signature_audio_profiles": 152
+  "authored_profiles": 608,
+  "awaiting_signature_audio_profiles": 154
 }

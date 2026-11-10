@@ -2478,6 +2478,20 @@
       "zone": "Duskwood",
       "route": "Duskwood Darkshire engineering supplies",
       "reason": "Complete adult Goblin male/Gnome male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3952,
+      "name": "Aeolynn",
+      "zone": "Ashenvale",
+      "route": "Astranaar clothier",
+      "reason": "Complete adult Night Elf female/male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3962,
+      "name": "Haljan Oakheart",
+      "zone": "Ashenvale",
+      "route": "Astranaar general supplies",
+      "reason": "Complete adult Night Elf female/male profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
     }
   ]
 }
