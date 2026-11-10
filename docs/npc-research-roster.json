@@ -2779,5 +2779,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult identity, actual reaction, own current/Classic tabs and available gossip/quest referral context; no Scout sighting claimed",
     "research_notes": "docs/research/orgrimmar-fishing-and-leaf-shadows.md"
+  },
+  {
+    "npc_id": 3093,
+    "name": "Grod",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult Tauren identity, Horde Friendly, all own tabs and complete current/Classic stock; no supported personal quests/gossip or Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-rhythms-and-paper-hats.md"
+  },
+  {
+    "npc_id": 3092,
+    "name": "Tagain",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult Tauren identity, Horde Friendly, all own tabs and complete current/Classic stock; no supported personal quests/gossip or Scout sighting claimed",
+    "research_notes": "docs/research/thunder-bluff-rhythms-and-paper-hats.md"
   }
 ]

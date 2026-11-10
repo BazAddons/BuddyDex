@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Grod <Leather Armor Merchant>, Thunder Bluff. Adult Tauren male
+    -- display2129/M2 968705, Horde Friendly, Repair/Vendor.18current
+    -- goods match18Classic; no own quest/gossip. Rhythms/forgetfulness
+    -- are original, no new minigame or profession reward.
+    -- Research: docs/research/thunder-bluff-rhythms-and-paper-hats.md
+    [3093] = {
+        quote = "I was certain I could repeat that rhythm. Give me a moment. I have invented another.",
+        likes = { "A rhythm answered across a table", "Gear given care before the journey", "A mistake that leaves everyone smiling" },
+        dislikes = { "A small mistake turned into shame", "Useful equipment left to fall apart", "Every pleasant pause being hurried" },
+        gossip = "Grod can tap out a rhythm for someone to copy. Ask him to repeat it afterward and he may look as surprised as his listener.",
+        bio = "Grod sells leather armor and offers repairs in Thunder Bluff. His stock ranges from battered pieces to tanned and cured leather. Between the practical matters, he enjoys trading a little rhythm with willing company.",
+        backstory = "A few idle taps on a counter brought an answering pattern from someone nearby. He liked the unexpected conversation. He began making up small rhythms, finding it much easier to invent the next one than remember the last.",
+        secret = "He sometimes forgets his own pattern before the other person has finished answering. He listens very carefully, hoping they will remind him. The discovery usually makes him laugh.",
+        bestFriend = "Will you begin this time? I would enjoy hearing what you make of it. We need not get it right to have a pleasant pause.",
+        favorite = {
+            emote = "CLAP",
+            hint = "He enjoys company willing to answer a small rhythm with one of their own.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Good to see you. There is time for a little company before the next practical matter.", tone = "[steady] [welcoming]" }, "Ready. If you hear a small rhythm, you are welcome to answer it." },
+            idle = { { "That was a good pattern. I wish I could remember whether it was the one I began with.", tone = "[amused] [warm]" }, "A few quiet taps can begin a conversation without making anyone find the words.", "Look after what carries you through an ordinary day. It need not be rare to deserve care." },
+            befriended = { { "You stayed to share a pleasant moment, even when I lost the rhythm. I would be glad to come with you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Shall we deal with the practical thing first?", "I was trying to remember the last pattern. You may have a better idea." },
+            rest = { { "You begin. I shall listen. If I answer with something different, we can enjoy that too.", tone = "[easygoing] [playful]" } },
+            loot = { "Useful equipment deserves a little space and a little care." },
+            bagsFull = { "Sort it before the important piece vanishes beneath everything you meant to leave behind." },
+            gear = { "How does it feel when you move? That matters more than a fine first glance." },
+            zone = { "Different sounds around us. Perhaps one will suggest a new pattern." },
+            cheerAlong = { "Yes. A little encouragement makes trying again much easier." },
+            thanked = { "You are welcome. I enjoyed having someone to share the pause." },
+        },
+    },
+
+    -- Tagain <Cloth Armor Merchant>, Thunder Bluff. Adult Tauren female
+    -- display2133/M2 986648, Horde Friendly.45Classic cloth pieces;
+    -- current own tabs0, no own quest/gossip. Tiny paper hats and their
+    -- imaginary stern voice are original, not actual collectible items.
+    -- Research: docs/research/thunder-bluff-rhythms-and-paper-hats.md
+    [3092] = {
+        quote = "A very small hat can still be worn with considerable confidence.",
+        likes = { "Scrap paper folded into tiny hats", "An outfit enjoyed without apology", "A joke shared without a cruel edge" },
+        dislikes = { "Someone mocked for a simple pleasure", "A useful scrap thrown away too soon", "Fine clothing treated as fine character" },
+        gossip = "Tagain has been making very small hats from spare paper. She gives each one a serious inspection, as though expecting an unusually tiny customer.",
+        bio = "Tagain is a cloth armor merchant in Thunder Bluff. Her Classic wares include everyday woven pieces, robes, and hats. Her private amusement is much less practical: folding scraps of paper into hats far too small to sell.",
+        backstory = "She folded a scrap while waiting and found a little hat taking shape. A second attempt sat more neatly than the first. Soon she was trying different folds simply to see how much character a small scrap could hold.",
+        secret = "She once set one on the tip of her finger and gave it a very stern voice. The hat seemed to have strong opinions about being handled properly. She still enjoys that little performance.",
+        bestFriend = "Choose the next fold with me. This one looks rather stern already. I think it needs someone who can make it smile.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone recognizing the playful performance behind a serious inspection.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "Good to see you. I have found a useful way to enjoy an otherwise unimportant scrap.", tone = "[warm] [welcoming]" }, "Ready. The very small hat has decided it can manage without me for a while." },
+            idle = { { "This hat looks disapproving. I believe it objects to being carried on one finger.", tone = "[playfully solemn] [amused]" }, "A scrap need not become something grand to give somebody a little pleasure.", "Enjoy what you wear. It need not explain your importance to everyone you pass." },
+            befriended = { { "You found room for a little silliness in an ordinary day. I would enjoy more of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Practical business, or another opinion from the very small hat?", "I was considering a different fold. The paper may have a better idea." },
+            rest = { { "A quiet moment and a little scrap. We have enough to make a pleasant beginning.", tone = "[gentle] [content]" } },
+            loot = { "Something useful? Put it where you can find it when the need arrives." },
+            bagsFull = { "A little sorting may uncover something you forgot you meant to keep." },
+            gear = { "Wear it comfortably. You need not perform dignity all day on account of a fine garment." },
+            zone = { "New surroundings. I wonder what small pleasures people make for themselves here." },
+            mail = { "A message for you. We should read it before considering any imaginative use for the paper." },
+            thanked = { "You are welcome. I am pleased the ordinary errand brought us a little company." },
+        },
+    },
+
     -- Lumak <Fishing Trainer>, Valley of Honor, Orgrimmar. Adult Orc male
     -- display1332/M2 917116, Horde Neutral. Current3training rows;
     -- Classic6608 and full Nat6607, installed own food/training/referral gossip.

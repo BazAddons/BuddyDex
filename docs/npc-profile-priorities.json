@@ -2450,6 +2450,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar Drag herbalism supplies",
       "reason": "Complete adult Orc male/Troll female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3093,
+      "name": "Grod",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff leather armor",
+      "reason": "Complete adult Tauren male/female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
+    },
+    {
+      "npc_id": 3092,
+      "name": "Tagain",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff cloth armor",
+      "reason": "Complete adult Tauren male/female profile with fifteen queued lines; actual dialogue/version boundaries documented, no synthesis"
     }
   ]
 }

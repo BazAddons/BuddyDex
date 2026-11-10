@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Grod and Tagain: two complete Tauren merchant profiles with thirty personal lines queued.
+- Expand Thunder Bluff companions with researched trade details and distinct rhythm and paper-hat hobbies.
+
 - Add Lumak and Zeal'aya: complete Orc and Troll profiles with thirty personal lines queued.
 - Expand Orgrimmar fishing and herbalism companions while keeping researched trade and original personality details distinct.
 

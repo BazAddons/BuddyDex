@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 256,
     "unverified": 143,
-    "horde": 219
+    "horde": 221
   },
   "npc_race_counts": {
     "1": 165,
@@ -16,7 +16,7 @@
     "4": 43,
     "8": 47,
     "9": 32,
-    "6": 71,
+    "6": 73,
     "96": 8,
     "95": 18
   },
@@ -40,7 +40,7 @@
     "Badlands": 1,
     "Darkshore": 7,
     "Mulgore": 18,
-    "Thunder Bluff": 35,
+    "Thunder Bluff": 37,
     "Durotar": 47,
     "The Barrens": 30,
     "Stonetalon Mountains": 7,
@@ -2929,6 +2929,32 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3089"
+    },
+    {
+      "npc_id": 3092,
+      "name": "Tagain",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3092"
+    },
+    {
+      "npc_id": 3093,
+      "name": "Grod",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly explicitly shown",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3093"
     },
     {
       "npc_id": 3140,
@@ -7716,6 +7742,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 602,
-  "awaiting_signature_audio_profiles": 148
+  "authored_profiles": 604,
+  "awaiting_signature_audio_profiles": 150
 }
