@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Allyndia, Auberdine/Darkshore. Adult Night Elf
+    -- female4403/M2 921844, Alliance Friendly. Food/drink vendor;
+    -- all20 current stock items read, own quests/training0.
+    -- Crooked banana display is original; no later Cataclysm fate.
+    -- Research: docs/research/allyndias-display-and-aranaes-label.md
+    [4191] = {
+        quote = "A good display should be inviting. If one banana refuses to stand in line, we may allow it a little character.",
+        likes = { "Fruit handled without bruising", "A neatly arranged counter", "A little room for something imperfect" },
+        dislikes = { "Perfect rows at the expense of good food", "Supplies crushed under heavy gear", "A harmless mistake made embarrassing" },
+        gossip = "Allyndia once arranged her fruit in faultless rows. One curved banana spoiled the effect. She seems rather fond of that arrangement now.",
+        bio = "Allyndia sells food and drink in Auberdine, Darkshore. Her current selection includes fruit, juices, ricecakes, mandu, kimchi and bean soup, giving travelers a place to replenish their supplies before returning to the road.",
+        backstory = "She had nearly finished arranging a display when a curved banana refused to fit the line. A visitor smiled. Allyndia moved the other fruit around it instead. The result looked less exact, and rather more like something someone might enjoy.",
+        secret = "Now she sometimes begins with the awkward piece. She likes discovering how an arrangement can change without anything having gone wrong.",
+        bestFriend = "Come along, friend. Tell me if something looks a little crooked. We may decide to leave it that way and enjoy the view together.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She welcomes a friendly expression that makes an imperfect arrangement feel inviting rather than wrong.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. I have left the display slightly crooked. It will survive our absence.", tone = "[warm] [lightly amused]" }, "Good to see you. Ready for a walk? We can take a little time before the next errand." },
+            idle = { { "The banana would not fit the row. I moved everything else. A surprisingly pleasant result for such an uncooperative piece of fruit.", tone = "[wry] [cheerful]" }, "A tidy arrangement is useful. Making someone afraid to take an apple rather defeats its purpose.", "Fruit, a little water, room in the bag. Supplies need not be impressive to be welcome." },
+            befriended = { { "I look forward to your visits, friend. Come along. You make it easy to enjoy the day without arranging every part of it first.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Something catch your eye?", "I am listening. You need not put the thought in perfect order first." },
+            bagsFull = { { "Leave the fruit above the heavier things, if you can. A little space is kinder than a very efficient squeeze.", tone = "[gentle] [practical]" } },
+            loot = { "Make room for it without crushing what you already wanted to keep." },
+            rest = { "A pleasant place to pause. Everything need not line up perfectly for us to enjoy it." },
+            quest = { "Check your supplies before you go. Small comforts are easier to remember before the road begins." },
+            newFriend = { "Someone new to welcome. Leave them a little room to be themselves." },
+            learned = { "There. A different way of arranging things may suit you better than the first." },
+            thanked = { "You are welcome, friend. I am pleased you found something to enjoy." },
+        },
+    },
+
+    -- Aranae Venomblood, Tarren Mill/Hillsbrad. Adult Forsaken
+    -- female3677/M2 997378, Horde Friendly. Herbalist; Classic ranks
+    -- checked against sparse current tables, no own quest/gossip found.
+    -- Not-lunch label anecdote is original, not a known poisoning.
+    -- Research: docs/research/allyndias-display-and-aranaes-label.md
+    [2390] = {
+        quote = "Identify the plant before chewing it. I would prefer our conversation to continue.",
+        likes = { "A question asked before an experiment", "Herbs identified with care", "A visitor who returns to talk" },
+        dislikes = { "Green mistaken for a guarantee", "A guess delivered as instruction", "An unknown sample treated as lunch" },
+        gossip = "Aranae has considered adding a very plain label to her herb bundles: not lunch. Apparently the distinction once needed explaining.",
+        bio = "Aranae Venomblood is a Forsaken herbalist in Tarren Mill, Hillsbrad Foothills. Her established work is the identification and gathering of herbs. The profession rewards attention to what a plant is before deciding what to do with it.",
+        backstory = "A visitor once suggested that anything green was probably worth tasting. Aranae stopped the discussion long enough to make the distinction clear. Afterward she considered a new label for her bundles. It would be short, direct and difficult to misread.",
+        secret = "She was pleased the visitor asked before trying. A question gives her a chance to help, and leaves open the possibility of another conversation.",
+        bestFriend = "Bring the question, friend. I enjoy our conversations. Let us arrange the next without an unfortunate experiment between them.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a thoughtful acknowledgment that the identification matters before anyone begins experimenting.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. Have you brought a question? Good. Those travel more safely than an unidentified mouthful.", tone = "[dry] [fond]" }, "Good to see you. I have time to hear what you have been doing." },
+            idle = { { "Not lunch. A concise label. I considered adding please, but the important part should not require a second glance.", tone = "[deadpan] [wry]" }, "Green is a color. It is not an identification, much less a recommendation.", "The visitor asked before trying. I count that as a promising beginning." },
+            befriended = { { "I have come to enjoy our conversations for their own sake. Come along, friend. There is no need to bring a specimen every time.", tone = "[quietly warm] [sincere]" } },
+            poke = { "Yes, friend? Ask before beginning the experiment.", "I am listening. An uncertain question is quite acceptable." },
+            learned = { { "Good. Knowing what you do not recognize is a useful part of knowing the subject.", tone = "[measured] [encouraging]" } },
+            loot = { "Identify it before deciding what it belongs with. Appearance can suggest rather more than it proves." },
+            quest = { "Read what is being asked. A similar-looking specimen may still be the wrong one." },
+            rest = { "A sensible pause. We can have a conversation that requires no samples at all." },
+            newFriend = { "Someone new. Ask what they know before deciding how much to explain." },
+            group = { "Make sure everyone understands the instruction. A confident nod is not always evidence." },
+            thanked = { "You are welcome, friend. Asking first made that considerably easier." },
+        },
+    },
+
     -- Spackle Thornberry, Slaughtered Lamb/Stormwind. Adult
     -- Gnome male3316/M2 900914, Alliance Friendly. Own paid-power/
     -- dismissal gossip; Classic7562 referral and full mount branch read.

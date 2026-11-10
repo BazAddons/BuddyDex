@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Allyndia and Aranae Venomblood: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
+- Review current Auberdine food stock and historical Herbalism lessons; document the original display and label anecdotes.
+
 - Add Spackle Thornberry and Korran: adult Alliance Gnome and Horde Troll profiles, with thirty personal lines queued.
 - Review the demon-trainer referral, ritual instructions and complete silithid investigation; document the original stool and drawing stories.
 
@@ -405,4 +408,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **736 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **738 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

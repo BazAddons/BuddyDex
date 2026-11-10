@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Allyndia and Aranae Venomblood: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
+- Review current Auberdine food stock and historical Herbalism lessons; document the original display and label anecdotes.
+
 - Add Spackle Thornberry and Korran: adult Alliance Gnome and Horde Troll profiles, with thirty personal lines queued.
 - Review the demon-trainer referral, ritual instructions and complete silithid investigation; document the original stool and drawing stories.
 

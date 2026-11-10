@@ -3717,5 +3717,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult Horde Troll man; Full six-quest investigation and specimen/note items; Horde loyalty preserved; original cramped drawing; no Scout sighting claimed",
     "research_notes": "docs/research/spackles-footing-and-korrans-margin.md"
+  },
+  {
+    "npc_id": 4191,
+    "name": "Allyndia",
+    "zone": "Darkshore",
+    "source": "Reviewed adult Alliance Night Elf woman; Twenty current stock nodes and Classic vendor role; original crooked banana display; no Scout sighting claimed",
+    "research_notes": "docs/research/allyndias-display-and-aranaes-label.md"
+  },
+  {
+    "npc_id": 2390,
+    "name": "Aranae Venomblood",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult Horde Forsaken woman; Current herbalist identity and four historical ranks; original not-lunch label, no poisoning; no Scout sighting claimed",
+    "research_notes": "docs/research/allyndias-display-and-aranaes-label.md"
   }
 ]

@@ -3388,6 +3388,20 @@
       "zone": "The Barrens",
       "route": "Crossroads investigator and later silithid report route",
       "reason": "Full six-quest investigation and specimen/note items; Horde loyalty preserved; original cramped drawing; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4191,
+      "name": "Allyndia",
+      "zone": "Darkshore",
+      "route": "Auberdine food and drink service",
+      "reason": "Twenty current stock nodes and Classic vendor role; original crooked banana display; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2390,
+      "name": "Aranae Venomblood",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill herbalist contact",
+      "reason": "Current herbalist identity and four historical ranks; original not-lunch label, no poisoning; fifteen personal lines queued without synthesis"
     }
   ]
 }
