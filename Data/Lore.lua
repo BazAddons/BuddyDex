@@ -41,6 +41,73 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hanashi <Weapon Master>, Arms of Legend/Orgrimmar,2704/12989.
+    -- Adult male Troll; current HordeNeutral, conditional live gates required.
+    -- Current training row Staves227; actual gossip names other weapon masters.
+    -- Staff/doorway mishap and habits below are original BuddyDex writing.
+    -- Research: docs/research/hanashi-and-zarise-queue.md.
+    [2704] = {
+        quote = "A fine staff spin. Now look at the doorway before you try it again.",
+        likes = { "A learner checking the space around them", "A well-balanced practice staff", "Someone laughing and trying again" },
+        dislikes = { "Showing off beside a low doorway", "A weapon swung without looking", "An embarrassed learner giving up" },
+        gossip = "Hanashi is particular about doorway clearance. Ask why, and he may suggest that Sayoc needs a visitor instead.",
+        bio = "Hanashi is a troll weapon master in Orgrimmar's Valley of Honor, beside Sayoc. He teaches staves and directs other weapon questions to Ansekhwa and Archibald. He likes a learner who checks their surroundings before showing off.",
+        backstory = "Hanashi once finished an impressive staff demonstration by catching the end in a doorway. He recovered his balance before his dignity. Afterward, he decided the pause was useful: nobody present forgot to check the space around them.",
+        secret = "He still glances up at a doorway even when he has no staff with him. Sometimes he realizes halfway through the glance and pretends to be admiring the building.",
+        bestFriend = "You can laugh at the doorway story. I trust you to remember the lesson and stay for the next attempt.",
+        favorite = { emote = "BOW", hint = "A little attention to headroom would show that his advice has been heard." },
+        lines = {
+            greet = { { "There you are, friend. Got everything you need? Good. Before we set off, look at the space around you. A grand movement can become a very short lesson when it meets a doorway. I have demonstrated that particular point myself. Once was enough for everyone watching, though they seem pleased to remember it.", tone = "[friendly] [wry] [amused]" },
+                "Ready? Good. Let us choose an exit with enough room for both of us." },
+            idle = { { "The staff spin was excellent until the doorway took an interest. I recovered my balance quickly enough. My dignity required longer. Still, nobody watching forgot to check the space around them afterward. A useful lesson, even if I would prefer to have explained it without the building taking part in the demonstration.", tone = "[storytelling] [amused] [conversational]" },
+                "I was admiring the doorway. No other reason for looking up.",
+                "A learner who can laugh and try again is worth taking time with." },
+            befriended = { { "You have heard the doorway story and still seem willing to walk beside me. Good. I enjoy company that can remember an awkward moment without making it the whole measure of a person. Come, friend. We can see what the road teaches us. I shall try to leave the buildings out of the lesson.", tone = "[warm] [sincere] [gently amused]" } },
+            gear = { { "Take a proper look at what you are carrying before you begin admiring how it looks. Notice the balance, the length, and what is standing beside you. Fine equipment deserves room to be useful. A doorway is an unforgiving instructor. I mention this from experience, though I would appreciate a little discretion about that part.", tone = "[practical] [patient] [wry]" } },
+            poke = { "Yes? There is room to get my attention without testing my balance.", "I saw you. No demonstration needed." },
+            learned = { "Good. Now give yourself time to understand the movement." },
+            combatEnd = { "Look around before you relax. Make sure everyone has room to breathe." },
+            rest = { "Sit. An awkward attempt is easier to consider once the embarrassment settles." },
+            quest = { "A lesson worth keeping, I hope. Even the troublesome ones can be useful." },
+            levelUp = { "Well done. Keep that confidence aware of its surroundings." },
+            zone = { "Different buildings. I shall have to admire the doorways here as well." },
+        },
+    },
+
+    -- Zarise <Bat Handler>, Tarren Mill/Hillsbrad,2389/2037.
+    -- Adult female Forsaken/current55Elite/HordeFriendly/FlightMaster.
+    -- Actual gossip asks destination; no precise current route list asserted.
+    -- Affectionate turnip nickname is original fiction, not a collectible NPC.
+    -- No later Legion invasion announcement or ruined Southshore imported.
+    -- Research: docs/research/hanashi-and-zarise-queue.md.
+    [2389] = {
+        quote = "A perfectly respectable face. The bat's, I mean. You may stop looking quite so alarmed.",
+        likes = { "A traveler settling into the saddle", "A bat stretching its ears", "Someone seeing past an alarming face" },
+        dislikes = { "A nervous animal being mocked", "Loose baggage around a saddle", "Calling a wrinkled face ugly" },
+        gossip = "Zarise has called an intimidating bat her little turnip. Anyone repeating this at the roost is advised to speak respectfully.",
+        bio = "Zarise handles the bats at Tarren Mill in the Hillsbrad Foothills. She asks travelers where they want to fly and keeps a practical eye on their departure. An alarming face troubles her less than a poorly settled rider.",
+        backstory = "A traveler once called a bat's wrinkled face dreadful. Zarise looked at the creature stretching its ears and found the complaint rather unfair. She answered with such affection that the traveler became more embarrassed than frightened.",
+        secret = "She calls an especially imposing bat her little turnip. It is the fondest description she could devise, and she sees no reason to apologize for it.",
+        bestFriend = "You know what a stern face can hide. Come, stand beside me. There is room here for someone glad to see the creatures as they are.",
+        favorite = { emote = "PET", hint = "Offer the handler a little of the kindness she gives alarming-looking creatures." },
+        lines = {
+            greet = { { "There you are. Where would you like to go? I can ask without sending you off immediately. You may stand beside me a moment. There is a rather imposing face here that deserves a kinder look. The bat's, I mean. I think the ears improve it considerably, though you are free to consider the matter quietly.", tone = "[dry] [warm] [gently amused]" },
+                "Good to see you. We need not decide on a destination before saying hello." },
+            idle = { { "Someone described a bat's face as dreadful. I thought that unfair. It had just stretched its ears and looked perfectly pleased with itself. I called it my little turnip, which seemed a more affectionate assessment. The traveler stared at me instead. Apparently kindness can be more unsettling than a mouthful of teeth.", tone = "[fond] [storytelling] [wry]" },
+                "A perfectly respectable set of ears. I will hear no complaint.",
+                "Little turnip is a term of affection. Choose your tone carefully if you repeat it." },
+            befriended = { { "You have spent enough time beside me to know that a stern face does not tell the whole story. I appreciate your staying to discover the rest. Come, friend. We can enjoy the company without rushing toward a departure. I am glad to see you, even when you have nowhere in particular to fly.", tone = "[sincere] [warm] [restrained]" } },
+            taxi = { { "Settle yourself properly before the bat moves. Check the baggage and give it room to lift. There is no need to look as pleased about the flight as it does, but do try to relax your grip a little. A face full of teeth does not mean you have been selected for supper.", tone = "[steady] [reassuring] [dry]" } },
+            poke = { "Yes? You may ask without prodding the handler.", "I noticed. You are making more fuss than the bat." },
+            landed = { "Feet down. Baggage intact, I hope. You may compliment the ears now." },
+            mount = { "Settle first. Speed can wait until everything is where it belongs." },
+            combatEnd = { "All here? Good. Stand quietly until everyone is ready to move." },
+            rest = { "Sit beside me. There need not be a departure every time we meet." },
+            hearth = { "Home is a fine destination when someone is glad to see your face." },
+            levelUp = { "Well done. I shall try to make the congratulations sound less severe." },
+        },
+    },
+
     -- Jaeana <Meat Vendor>, Tradesmen's Terrace/Darnassus,4169/2217.
     -- Adult female Night Elf/current AllianceFriendly; historical wandering
     -- meat/drink role corroborated, exact current stock/route not asserted.

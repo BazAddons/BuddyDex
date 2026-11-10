@@ -439,6 +439,46 @@
     "text": "A different place for a walk. Let us take a moment to look around. Tell me what you notice first, my friend. I enjoy discovering which small things someone else thinks worth stopping for.",
     "voice_id": "6lg3YonFTCHEchATaHoV"
   },
+  "lore2389_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2389",
+    "spoken": "[sincere] [warm] [restrained] You have spent enough time beside me to know that a stern face does not tell the whole story. I appreciate your staying to discover the rest. Come, friend. We can enjoy the company without rushing toward a departure. I am glad to see you, even when you have nowhere in particular to fly.",
+    "text": "You have spent enough time beside me to know that a stern face does not tell the whole story. I appreciate your staying to discover the rest. Come, friend. We can enjoy the company without rushing toward a departure. I am glad to see you, even when you have nowhere in particular to fly.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2389_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2389",
+    "spoken": "[dry] [warm] [gently amused] There you are. Where would you like to go? I can ask without sending you off immediately. You may stand beside me a moment. There is a rather imposing face here that deserves a kinder look. The bat's, I mean. I think the ears improve it considerably, though you are free to consider the matter quietly.",
+    "text": "There you are. Where would you like to go? I can ask without sending you off immediately. You may stand beside me a moment. There is a rather imposing face here that deserves a kinder look. The bat's, I mean. I think the ears improve it considerably, though you are free to consider the matter quietly.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2389_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2389",
+    "spoken": "[fond] [storytelling] [wry] Someone described a bat's face as dreadful. I thought that unfair. It had just stretched its ears and looked perfectly pleased with itself. I called it my little turnip, which seemed a more affectionate assessment. The traveler stared at me instead. Apparently kindness can be more unsettling than a mouthful of teeth.",
+    "text": "Someone described a bat's face as dreadful. I thought that unfair. It had just stretched its ears and looked perfectly pleased with itself. I called it my little turnip, which seemed a more affectionate assessment. The traveler stared at me instead. Apparently kindness can be more unsettling than a mouthful of teeth.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
+  "lore2389_taxi_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "taxi",
+    "say": null,
+    "source": "lore:2389",
+    "spoken": "[steady] [reassuring] [dry] Settle yourself properly before the bat moves. Check the baggage and give it room to lift. There is no need to look as pleased about the flight as it does, but do try to relax your grip a little. A face full of teeth does not mean you have been selected for supper.",
+    "text": "Settle yourself properly before the bat moves. Check the baggage and give it room to lift. There is no need to look as pleased about the flight as it does, but do try to relax your grip a little. A face full of teeth does not mean you have been selected for supper.",
+    "voice_id": "6lg3YonFTCHEchATaHoV"
+  },
   "lore267326_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

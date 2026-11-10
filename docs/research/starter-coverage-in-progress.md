@@ -607,3 +607,8 @@ AdultfemaleForsakenstablemaster10053/display9273 and adultmaleForsakenwarlocktra
 ### 2026-11-09: Jaeana and Yldan (448)
 
 AdultfemaleNightElfmeatvendor4169/display2217 and adultmaleNightElfbagmerchant4230/display2277 complete; fifteenlines/four approvedemotion-taggedv4signatures each. `docs/research/jaeana-and-yldan-queue.md` preserves historicalstock/currentemptytabs, originalpersonalhooks and excludedlaterBurningTeldrassilevents. CurrentJaeanaAllianceFriendly/Yldanunverified, no friendshipexception. Coverage208Alliance/143Horde/104unverified sevenoverlaps; citymerchantcoverage notstartermilestoneproof. ActualLua/audio/routes/freshAlliancenormalgates/thresholds/main+Scoutchecks pass. Installed/devZIP verified6,326files/6,298runtime mappings/136.50MiB. Widercatalog1,515namegroups/1,528identitiesactive; publiccandidate/CFpublicationdeferred. ReturntounderservedHordeservice/trainerqueue next.
+
+
+### 2026-11-09: Hanashi and Zarise (450)
+
+AdultmaleTrollweaponmaster2704/display12989 conditionalprofile and adultfemaleForsakenbathandler2389/display2037 complete; fifteenlines/fourapprovedemotion-taggedv4signatureseach. `docs/research/hanashi-and-zarise-queue.md` separatescurrentHanashiNeutral/singleStavestrainingrowfromClassicfullweapons and currentZarise55ElitefromlaterLegionroutes/history. Actualgossip/othermasterreferrals preservedwithoutinventedfeud. Coverage208Alliance/144Horde/105unverified sevenoverlaps; noFriendlyHanashi/sourceoverrideclaim. ActualLua/audio/routes/freshHordenormalHanashiandEliteZarisegates/thresholds/main+Scoutchecks pass; installed/devZIP verified6,334files/6,306runtime mappings/137.08MiB. Widercatalog1,515namegroups/1,528identitiesactive; publiccandidate/CFpublicationdeferred.

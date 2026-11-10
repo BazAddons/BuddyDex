@@ -1,4 +1,5 @@
 # Unreleased
+- Add Hanashi and Zarise: full weapon-master and bat-handler profiles, fifteen personal lines and four approved v4 signatures each; preserve neutral-unit rejection and Elite friendship thresholds.
 - Add Jaeana and Yldan: complete Night Elf food-vendor and bag-merchant profiles, fifteen personal lines and four approved v4 signatures each, with normal live eligibility checks preserved.
 - Add Anya Maulray and Richard Kerwin: complete Forsaken stable-master and warlock-trainer profiles, fifteen personal lines and four approved v4 signatures each. Preserve live eligibility checks and distinguish historical quests from current availability.
 - Add Nan and Naal Mistrunner: full Tauren fruit-vendor and cooking-supplier profiles, fifteen personal lines and four approved v4 signatures each. Include Naal's supplier role in Forever's Traditions of the Bluff quest.

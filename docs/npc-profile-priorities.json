@@ -1372,6 +1372,20 @@
       "zone": "Darnassus",
       "route": "Female and male Night Elf merchant coverage rotation",
       "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Alliance normal thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/jaeana-and-yldan-queue.md"
+    },
+    {
+      "npc_id": 2704,
+      "name": "Hanashi",
+      "zone": "Orgrimmar",
+      "route": "Male Troll weapon-master and female Forsaken flight-service coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal Hanashi and Elite Zarise thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/hanashi-and-zarise-queue.md"
+    },
+    {
+      "npc_id": 2389,
+      "name": "Zarise",
+      "zone": "Hillsbrad Foothills",
+      "route": "Male Troll weapon-master and female Forsaken flight-service coverage",
+      "reason": "Completed full profile/fifteen lines/four approved v4 signatures; actual Lua/audio/fresh Horde normal Hanashi and Elite Zarise thresholds/gates/main+Scout checks passed; installed/developmentZIP verified; docs/research/hanashi-and-zarise-queue.md"
     }
   ]
 }

@@ -1701,5 +1701,19 @@
     "zone": "Darnassus",
     "source": "Individually reviewed current named adult model/primary Darnassus identity; Jaeana current AllianceFriendly, Yldan current public reaction unverified; historical stock and later retail separated; no Scout sighting claimed",
     "research_notes": "docs/research/jaeana-and-yldan-queue.md"
+  },
+  {
+    "npc_id": 2704,
+    "name": "Hanashi",
+    "zone": "Orgrimmar",
+    "source": "Individually reviewed current named adult identity/model and all own tabs/gossip; Hanashi HordeNeutral conditional, Zarise HordeFriendly Elite; no Scout sighting claimed",
+    "research_notes": "docs/research/hanashi-and-zarise-queue.md"
+  },
+  {
+    "npc_id": 2389,
+    "name": "Zarise",
+    "zone": "Hillsbrad Foothills",
+    "source": "Individually reviewed current named adult identity/model and all own tabs/gossip; Hanashi HordeNeutral conditional, Zarise HordeFriendly Elite; no Scout sighting claimed",
+    "research_notes": "docs/research/hanashi-and-zarise-queue.md"
   }
 ]

@@ -1,6 +1,7 @@
 # BuddyDex v002
 
 ## More friends across Azeroth
+- Add Hanashi and Zarise: full weapon-master and bat-handler profiles, fifteen personal lines and four approved v4 signatures each; preserve neutral-unit rejection and Elite friendship thresholds.
 - Add Jaeana and Yldan: complete Night Elf food-vendor and bag-merchant profiles, fifteen personal lines and four approved v4 signatures each, with normal live eligibility checks preserved.
 - Add Anya Maulray and Richard Kerwin: complete Forsaken stable-master and warlock-trainer profiles, fifteen personal lines and four approved v4 signatures each. Preserve live eligibility checks and distinguish historical quests from current availability.
 - Add Nan and Naal Mistrunner: full Tauren fruit-vendor and cooking-supplier profiles, fifteen personal lines and four approved v4 signatures each. Include Naal's supplier role in Forever's Traditions of the Bluff quest.
@@ -87,7 +88,7 @@
 - Add Ollanus and Shan'ti, with full merchant personalities, fifteen personal lines and four approved Orc v4 recordings apiece.
 - Add Abigail Shiel and Faruza, with full Brill personalities, fifteen personal lines and four approved Forsaken v4 recordings apiece.
 - Add Bena and Komin Winterhoof, each with a complete personality, fifteen personal lines and four approved Tauren v4 recordings; include their actual alchemy and Forever camping roles.
-- Expand the collection to **448 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
+- Expand the collection to **450 completed NPC profiles**, with personalities, lore, favorite emotes, friendship secrets and personal companion dialogue.
 - Build starter-area coverage across both factions, including Durotar, Mulgore, Tirisfal Glades, Teldrassil, Dun Morogh and Elwynn Forest.
 - Add Regthar Deathgate and Darsok Swiftdagger, with full researched Barrens profiles and four approved Orc v4 signatures each.
 - Add Ur'kyo and Pephredo, with full priest/mage profiles and four approved Troll v4 signatures each.

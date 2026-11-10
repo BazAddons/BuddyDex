@@ -1,20 +1,20 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 448,
+  "completed_profiles": 450,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
     "alliance": 208,
-    "unverified": 104,
-    "horde": 143
+    "unverified": 105,
+    "horde": 144
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
     "7": 27,
     "2": 43,
-    "5": 43,
+    "5": 44,
     "4": 23,
-    "8": 31,
+    "8": 32,
     "9": 22,
     "6": 46,
     "96": 5,
@@ -32,9 +32,9 @@
     "Tirisfal Glades": 32,
     "Silverpine Forest": 4,
     "Teldrassil": 9,
-    "Hillsbrad Foothills": 2,
+    "Hillsbrad Foothills": 3,
     "Arathi Highlands": 11,
-    "Orgrimmar": 30,
+    "Orgrimmar": 31,
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 11,
@@ -2063,6 +2063,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2388"
     },
     {
+      "npc_id": 2389,
+      "name": "Zarise",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current API explicitly shows Horde Friendly and Elite classification; ordinary live reaction/nonattackability gates still apply",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2389"
+    },
+    {
       "npc_id": 2460,
       "name": "Barnum Stonemantle",
       "zone": "Ironforge",
@@ -2109,6 +2122,17 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2703"
+    },
+    {
+      "npc_id": 2704,
+      "name": "Hanashi",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current API explicitly shows Horde Neutral, not Friendly. Conditional authored profile does not establish current access; live reaction>=4 and nonattackability gates remain required.",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2704"
     },
     {
       "npc_id": 2706,

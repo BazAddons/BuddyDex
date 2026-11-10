@@ -79,6 +79,46 @@
     "text": "When you gather the fragments of the broken sigil, take them to Tor'gan. His skill can make them whole again. Do not mistake the pieces for something already ready to use, or a warded tomb for a chest left open. We need the protections answered properly if Trol'kalar is to serve the purpose Vol'jin has given us.",
     "voice_id": "X3ETuf4PfUMURFMpRT73"
   },
+  "lore2704_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2704",
+    "spoken": "[warm] [sincere] [gently amused] You have heard the doorway story and still seem willing to walk beside me. Good. I enjoy company that can remember an awkward moment without making it the whole measure of a person. Come, friend. We can see what the road teaches us. I shall try to leave the buildings out of the lesson.",
+    "text": "You have heard the doorway story and still seem willing to walk beside me. Good. I enjoy company that can remember an awkward moment without making it the whole measure of a person. Come, friend. We can see what the road teaches us. I shall try to leave the buildings out of the lesson.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2704_gear_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "gear",
+    "say": null,
+    "source": "lore:2704",
+    "spoken": "[practical] [patient] [wry] Take a proper look at what you are carrying before you begin admiring how it looks. Notice the balance, the length, and what is standing beside you. Fine equipment deserves room to be useful. A doorway is an unforgiving instructor. I mention this from experience, though I would appreciate a little discretion about that part.",
+    "text": "Take a proper look at what you are carrying before you begin admiring how it looks. Notice the balance, the length, and what is standing beside you. Fine equipment deserves room to be useful. A doorway is an unforgiving instructor. I mention this from experience, though I would appreciate a little discretion about that part.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2704_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2704",
+    "spoken": "[friendly] [wry] [amused] There you are, friend. Got everything you need? Good. Before we set off, look at the space around you. A grand movement can become a very short lesson when it meets a doorway. I have demonstrated that particular point myself. Once was enough for everyone watching, though they seem pleased to remember it.",
+    "text": "There you are, friend. Got everything you need? Good. Before we set off, look at the space around you. A grand movement can become a very short lesson when it meets a doorway. I have demonstrated that particular point myself. Once was enough for everyone watching, though they seem pleased to remember it.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
+  "lore2704_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2704",
+    "spoken": "[storytelling] [amused] [conversational] The staff spin was excellent until the doorway took an interest. I recovered my balance quickly enough. My dignity required longer. Still, nobody watching forgot to check the space around them afterward. A useful lesson, even if I would prefer to have explained it without the building taking part in the demonstration.",
+    "text": "The staff spin was excellent until the doorway took an interest. I recovered my balance quickly enough. My dignity required longer. Still, nobody watching forgot to check the space around them afterward. A useful lesson, even if I would prefer to have explained it without the building taking part in the demonstration.",
+    "voice_id": "X3ETuf4PfUMURFMpRT73"
+  },
   "lore2706_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

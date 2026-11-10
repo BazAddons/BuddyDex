@@ -2,7 +2,7 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 448,
+  "completed_count": 450,
   "remaining_count": 2,
   "completed": [
     {
@@ -1472,6 +1472,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 2389,
+      "name": "Zarise",
+      "zone": "Hillsbrad Foothills",
+      "source": "Individually reviewed current named adult identity/model and all own tabs/gossip; Hanashi HordeNeutral conditional, Zarise HordeFriendly Elite; no Scout sighting claimed",
+      "research_notes": "docs/research/hanashi-and-zarise-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 2460,
       "name": "Barnum Stonemantle",
       "zone": "Ironforge",
@@ -1504,6 +1514,16 @@
       "zone": "Arathi Highlands",
       "source": "Exact current named adult model/Friendly/voice verified; complete sourced profile, fifteen lines/four approved v4 signatures, live eligibility gates and normal299/300 Buddy boundary tested; full chain/Forever eleven-fragment change/era/original limits documented, no Scout sighting claimed",
       "research_notes": "docs/research/korin-and-zengu-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2704,
+      "name": "Hanashi",
+      "zone": "Orgrimmar",
+      "source": "Individually reviewed current named adult identity/model and all own tabs/gossip; Hanashi HordeNeutral conditional, Zarise HordeFriendly Elite; no Scout sighting claimed",
+      "research_notes": "docs/research/hanashi-and-zarise-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
