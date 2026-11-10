@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Brooke Stonebraid and Kiro: adult Alliance Dwarf and Horde Orc profiles, with thirty personal lines queued.
+- Ground the profiles in mining supplies, railway-price gossip and current harness stock; document the original carriage and greeting stories.
+
 - Add Allyndia and Aranae Venomblood: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
 - Review current Auberdine food stock and historical Herbalism lessons; document the original display and label anecdotes.
 
@@ -408,4 +411,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **738 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **740 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eighty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

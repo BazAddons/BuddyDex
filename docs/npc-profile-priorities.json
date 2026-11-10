@@ -3402,6 +3402,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill herbalist contact",
       "reason": "Current herbalist identity and four historical ranks; original not-lunch label, no poisoning; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5514,
+      "name": "Brooke Stonebraid",
+      "zone": "Stormwind City",
+      "route": "Dwarven District mining supplies",
+      "reason": "Four current goods and own railway/import-fee greeting; original coal-carriage demonstration; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3359,
+      "name": "Kiro",
+      "zone": "Orgrimmar",
+      "route": "Valley of Honor harness maker",
+      "reason": "Four current harnesses/repairs and correct Orc identity; original grunt greeting; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 738,
-  "written_complete_count": 738,
-  "awaiting_signature_audio_count": 284,
+  "authored_count": 740,
+  "written_complete_count": 740,
+  "awaiting_signature_audio_count": 286,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 286,
+  "remaining_count": 288,
   "completed": [
     {
       "npc_id": 54,
@@ -3005,6 +3005,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 3359,
+      "name": "Kiro",
+      "zone": "Orgrimmar",
+      "source": "Reviewed adult Horde Orc woman; Four current harnesses/repairs and correct Orc identity; original grunt greeting; no Scout sighting claimed",
+      "research_notes": "docs/research/brookes-carriage-and-kiros-greeting.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3361,
       "name": "Shoma",
       "zone": "Orgrimmar",
@@ -4681,6 +4693,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5514,
+      "name": "Brooke Stonebraid",
+      "zone": "Stormwind City",
+      "source": "Reviewed adult Alliance Dwarf woman; Four current goods and own railway/import-fee greeting; original coal-carriage demonstration; no Scout sighting claimed",
+      "research_notes": "docs/research/brookes-carriage-and-kiros-greeting.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 5518,

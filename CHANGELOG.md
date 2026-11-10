@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brooke Stonebraid and Kiro: adult Alliance Dwarf and Horde Orc profiles, with thirty personal lines queued.
+- Ground the profiles in mining supplies, railway-price gossip and current harness stock; document the original carriage and greeting stories.
+
 - Add Allyndia and Aranae Venomblood: adult Alliance Night Elf and Horde Forsaken profiles, with thirty personal lines queued.
 - Review current Auberdine food stock and historical Herbalism lessons; document the original display and label anecdotes.
 

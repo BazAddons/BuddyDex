@@ -3731,5 +3731,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult Horde Forsaken woman; Current herbalist identity and four historical ranks; original not-lunch label, no poisoning; no Scout sighting claimed",
     "research_notes": "docs/research/allyndias-display-and-aranaes-label.md"
+  },
+  {
+    "npc_id": 5514,
+    "name": "Brooke Stonebraid",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult Alliance Dwarf woman; Four current goods and own railway/import-fee greeting; original coal-carriage demonstration; no Scout sighting claimed",
+    "research_notes": "docs/research/brookes-carriage-and-kiros-greeting.md"
+  },
+  {
+    "npc_id": 3359,
+    "name": "Kiro",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult Horde Orc woman; Four current harnesses/repairs and correct Orc identity; original grunt greeting; no Scout sighting claimed",
+    "research_notes": "docs/research/brookes-carriage-and-kiros-greeting.md"
   }
 ]

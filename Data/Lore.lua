@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brooke Stonebraid, Dwarven District/Stormwind. Adult
+    -- Dwarf female3313/M2 950080, Alliance Friendly. Mining supplier;
+    -- four current goods and own railway/import-fee gossip read.
+    -- Coal-carriage demonstration and departure wave are original.
+    -- Research: docs/research/brookes-carriage-and-kiros-greeting.md
+    [5514] = {
+        quote = "A pick, some coal and a clear price. If the explanation needs a grand expedition, ask whether the railway has been conveniently forgotten.",
+        likes = { "A price that can be explained plainly", "Tools bought for the work at hand", "A cheerful wave before departure" },
+        dislikes = { "An impressive name for an extra fee", "The railway omitted from a sales pitch", "A practical question buried in grand talk" },
+        gossip = "Brooke has explained her opinion of import fees with a lump of coal playing a railway carriage. It was a remarkably economical demonstration.",
+        bio = "Brooke Stonebraid sells mining supplies in Stormwind's Dwarven District. She stocks picks, coal and flux, and warns customers against inflated import charges by pointing to the gnome-built railway connection with Ironforge.",
+        backstory = "To explain the journey, she once pushed a lump of coal across the counter like a carriage and brought it back. The customer understood. Brooke gave the little carriage a departure wave anyway, then found herself making one more trip.",
+        secret = "She enjoys being the conductor of that very small train. The demonstration is useful, but the departure wave is entirely for her own amusement.",
+        bestFriend = "Come along, friend. Give the little train a wave before we go. There, properly dispatched. Now tell me where you fancy walking.",
+        favorite = {
+            emote = "WAVE",
+            hint = "She enjoys a friendly send-off that gives even a very modest departure a little ceremony.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. The little train has been dispatched, and we are free to make our own journey.", tone = "[bright] [warm]" }, "Good to see you. Ready for a walk? I can leave the grand expedition fees to someone else." },
+            idle = { { "One lump of coal, across the counter and back. A railway demonstration. The departure wave was not strictly necessary. I enjoyed it.", tone = "[wry] [cheerful]" }, "Those gnomes built a railway. A useful fact to remember when someone makes getting goods here sound terribly heroic.", "A sensible tool deserves a plain explanation. You should know what your coin is buying." },
+            befriended = { { "You have become someone I am glad to see without a purchase in mind. Come along, friend. A little company is a fine reason for a journey.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? An explanation, or another departure for the little train?", "I am listening. Ask plainly; I will do my best to answer the same way." },
+            loot = { { "Useful to you? Good. A grand description can wait until you know what the thing is for.", tone = "[practical] [friendly]" } },
+            gear = { "Will it do the work? That is a worthwhile place to begin." },
+            taxi = { "A journey worth considering. I hope the explanation of the fare is shorter than the journey itself." },
+            landed = { "There we are. No need to turn arriving into an expedition of its own." },
+            rest = { "A sensible pause. Even my little coal carriage is allowed to remain at the station." },
+            waveBack = { "A proper departure wave! Or a greeting. Both suit me nicely." },
+            thanked = { "Glad to help, friend. A clear answer should not need a surcharge." },
+        },
+    },
+
+    -- Kiro, Valley of Honor/Orgrimmar. Adult Orc female
+    -- 1381/M2 949470, Horde Friendly. Four current harnesses/repairs;
+    -- not the later Vulpera namesake, no own quest/gossip found.
+    -- Customer grunt greeting is original; no training or rank granted.
+    -- Research: docs/research/brookes-carriage-and-kiros-greeting.md
+    [3359] = {
+        quote = "You need not grunt to try the Grunt's Harness. Though I appreciate the commitment.",
+        likes = { "A harness that moves with its wearer", "A strap checked before setting out", "A familiar and thoroughly absurd greeting" },
+        dislikes = { "A fine pose mistaken for a good fit", "Worn gear ignored until it fails", "A harmless joke used to belittle someone" },
+        gossip = "Kiro has heard some very impressive grunts from harness customers. She seems to know exactly which ones are meant as greetings.",
+        bio = "Kiro is an Orc war harness maker in Orgrimmar's Valley of Honor. Her shop sells Buckled, Studded Leather, Grunt's and Battle Harnesses, and offers repairs. She outfits customers for the work ahead, not merely an impressive stance.",
+        backstory = "A customer tried the Grunt's Harness with such a solemn grunt that Kiro asked whether the name was being taken as an instruction. They laughed. When the customer next visited, the greeting was a much less dignified version of the same sound.",
+        secret = "She looks forward to the ridiculous greeting. Sometimes she recognizes the joke before she looks up, and finds herself smiling before she can answer.",
+        bestFriend = "Come along, friend. A greeting is enough; you need not do the grunt. Although I admit I miss it when you forget.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She welcomes someone sharing the joke without turning another person's dignity into its price.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "There you are, friend. Was that the greeting, or are you trying to qualify for the harness again? Come along.", tone = "[gravelly] [playfully warm]" }, "Good to see you. Ready? Check the straps, then we can go." },
+            idle = { { "I told them the grunt was not required. They returned with a worse one. I have come to appreciate the dedication.", tone = "[dry] [amused]" }, "Move in the harness before deciding it fits. You will not spend the whole journey standing impressively still.", "A repair seen to in time is easier to appreciate than a strap that fails when you need it." },
+            befriended = { { "Your company has become something I look forward to, ridiculous greeting included. Come along, friend. You need no equipment to make the visit worthwhile.", tone = "[gruffly warm] [sincere]" } },
+            poke = { "Yes, friend? I heard you. The grunt carried quite well.", "I am listening. You may use words this time." },
+            gear = { { "Reach, turn, breathe comfortably. Let the fit answer before the pose does.", tone = "[practical] [steady]" } },
+            loot = { "Worth keeping? See how it works with what you already use." },
+            rest = { "A sensible pause. You can stop holding the heroic stance now." },
+            quest = { "Look over the gear before setting out. A small check belongs at this end of the journey." },
+            newFriend = { "Someone new. Give them a chance to speak before teaching them that greeting." },
+            laughAlong = { "Yes, that was a good one. I am trying to preserve a little dignity, with limited success." },
+            thanked = { "You are welcome, friend. No grunt necessary. I understood you perfectly." },
+        },
+    },
+
     -- Allyndia, Auberdine/Darkshore. Adult Night Elf
     -- female4403/M2 921844, Alliance Friendly. Food/drink vendor;
     -- all20 current stock items read, own quests/training0.
