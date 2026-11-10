@@ -3017,6 +3017,13 @@
       "zone": "Orgrimmar",
       "route": "Valley of Strength Orc named resident",
       "reason": "Complete adult profile with fifteen personal lines queued; verified identity and original seating-chart or attentive-story-listener writing; no synthesis"
+    },
+    {
+      "npc_id": 11065,
+      "name": "Thonys Pillarstone",
+      "zone": "Ironforge",
+      "route": "Ironforge Alliance enchanting contact",
+      "reason": "Complete adult Alliance trainer profile, fifteen personal lines queued; original pupil question about a tune protecting the evening; no synthesis"
     }
   ]
 }

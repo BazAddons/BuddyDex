@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Thonys Pillarstone: a full adult Dwarf enchanting profile in Ironforge, with fifteen personal lines queued.
+- Research his Gimble referral and Forever camping lesson; add an original story about enjoying an evening for its own sake.
+
 - Add Doc Mixilpixil and Sarok: two complete adult profiles with thirty personal lines queued.
 - Expand unusual SI:7 consultations and Orgrimmar social company using full Rogue quest and primary readable research.
 
@@ -321,4 +324,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **683 fully written NPC profiles**: 454 have initial signature recordings, and two hundred twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **684 fully written NPC profiles**: 454 have initial signature recordings, and two hundred thirty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

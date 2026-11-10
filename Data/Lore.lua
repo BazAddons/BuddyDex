@@ -41,6 +41,40 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Thonys Pillarstone, Great Forge, Ironforge. Adult Dwarf male
+    -- 10588/M2 878772, Alliance Friendly. Three installed greetings,
+    -- nine Classic lessons and Forever camping96059/96608/96628 read.
+    -- The pupil asking what a tune protects is original writing.
+    -- Research: docs/research/ironforge-enchanting-and-the-evening.md
+    [11065] = {
+        quote = "A tune needn't stop an axe to be worth the magic. An evening is worth improving too.",
+        likes = { "A useful question honestly asked", "An evening enjoyed for its own sake", "A pupil ready for the next teacher" },
+        dislikes = { "Treating every pleasure as wasted time", "Boasting instead of checking the work", "A learner shamed for asking why" },
+        gossip = "Thonys can explain how magic strengthens armor. Ask what a camp tune protects, and he will tell you: the evening.",
+        bio = "Thonys Pillarstone teaches enchanting in Ironforge's Great Forge. He directs advancing pupils to Gimble Thistlefuzz upstairs. His camping lesson teaches an Enchanted Lute and stresses entertainment during downtime.",
+        backstory = "A pupil once asked what protection a camp tune offered. He nearly answered with another lesson on readiness, then realized that a pleasant evening deserved to stand on its own. He has been defending that answer ever since.",
+        secret = "He remembers the pupil laughing at his answer more fondly than the explanation he had prepared. For once, nobody needed a second demonstration.",
+        bestFriend = "Come along, friend. We can enjoy the way without making every pleasant moment prove how useful it will be tomorrow.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He appreciates someone showing that a little enjoyment is already worth celebrating.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you! Shall we go? There is more to a day than proving how well prepared we are for the next one.", tone = "[hearty] [welcoming]" }, "Ready. Bring your questions, and leave room for an answer you can simply enjoy." },
+            idle = { { "A pupil asked what a camp tune protected. The evening, I said. Took me a moment to realize I meant it.", tone = "[wry] [pleased]" }, "There are ways to strengthen steel beyond the forge. There are also reasons to learn magic beyond strengthening steel.", "Gimble can take an advancing pupil further. A teacher should be pleased when someone is ready to move on." },
+            befriended = { { "You have become a friend I am pleased to see with or without a lesson ready. Come along. We can enjoy this part of the day together.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Ask away. An honest question is a much better beginning than pretending you understood.", "I hear you. No need to make the greeting sound like an examination." },
+            rest = { { "Settle yourself. A pleasant pause need not earn its place by promising a better battle afterward.", tone = "[relaxed] [reassuring]" } },
+            cheerAlong = { "There! That sounds like someone enjoying the moment. We need no grander explanation for it." },
+            learned = { "Well done. Check what you have learned, and ask again about the part that still troubles you." },
+            quest = { "Hear the instructions through. The small reminder at the end can be the one you wish you had remembered." },
+            loot = { "Have a look. An enchantment is worth understanding before you decide what the thing can do for you." },
+            levelUp = { "A fine advance! Be proud of the work. Being ready to learn from someone else is progress too." },
+            thanked = { "You are welcome. I am glad the explanation helped. Keep the question that made you ask it." },
+        },
+    },
+
     -- Doc Mixilpixil, SI:7/Old Town, Stormwind. Adult Gnome male6446/
     -- M2 900914, Alliance Friendly. Full2360/2359/2607/2608/2609chain,
     -- three-page8046/five-page7908journals and124374plaque read.

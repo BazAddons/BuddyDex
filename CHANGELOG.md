@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Thonys Pillarstone: a full adult Dwarf enchanting profile in Ironforge, with fifteen personal lines queued.
+- Research his Gimble referral and Forever camping lesson; add an original story about enjoying an evening for its own sake.
+
 - Add Doc Mixilpixil and Sarok: two complete adult profiles with thirty personal lines queued.
 - Expand unusual SI:7 consultations and Orgrimmar social company using full Rogue quest and primary readable research.
 

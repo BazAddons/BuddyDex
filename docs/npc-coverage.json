@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 288,
+    "alliance": 289,
     "unverified": 153,
     "horde": 263
   },
   "npc_race_counts": {
     "1": 166,
-    "3": 54,
+    "3": 55,
     "7": 48,
     "2": 77,
     "5": 71,
@@ -28,7 +28,7 @@
     "Redridge Mountains": 24,
     "Loch Modan": 1,
     "Dun Morogh": 18,
-    "Ironforge": 52,
+    "Ironforge": 53,
     "Stranglethorn Vale": 5,
     "Tirisfal Glades": 42,
     "Undercity": 14,
@@ -7083,6 +7083,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11029"
     },
     {
+      "npc_id": 11065,
+      "name": "Thonys Pillarstone",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11065"
+    },
+    {
       "npc_id": 11066,
       "name": "Jhag",
       "zone": "Orgrimmar",
@@ -8757,6 +8770,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 683,
-  "awaiting_signature_audio_profiles": 229
+  "authored_profiles": 684,
+  "awaiting_signature_audio_profiles": 230
 }

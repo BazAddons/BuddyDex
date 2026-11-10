@@ -3346,5 +3346,12 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult Gnome / Orc men, explicit faction Friendly; full five-stage Rogue chain, three complete primary readables and own role/identity pages; established versus original inn-patron writing distinguished; no Scout sighting claimed",
     "research_notes": "docs/research/stormwind-conferences-and-orgrimmar-listeners.md"
+  },
+  {
+    "npc_id": 11065,
+    "name": "Thonys Pillarstone",
+    "zone": "Ironforge",
+    "source": "Reviewed adult Dwarf male, Alliance Friendly; all current relationship tabs, nine Classic lessons, three installed greetings and full camping context read; no Scout sighting claimed",
+    "research_notes": "docs/research/ironforge-enchanting-and-the-evening.md"
   }
 ]
