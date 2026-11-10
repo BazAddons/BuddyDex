@@ -532,3 +532,8 @@ Completed2706maleTroll/9555maleOrc inHammerfall, fifteenlines/fourapprovedemotio
 ### Gor'mul and Keena: 418 profiles
 
 Completed adult2792maleOrc/2821femaleOrc Hammerfall profiles, fifteen lines/four approved emotion-tagged v4 signatures each. Full source/era/original limits in `gormul-and-keena-queue.md`: no invented cure for Gor'mul's grief or retail resupply events for Keena. Coverage207Alliance/119Horde/99unverified with seven overlaps,418unique. Normal25+150 gains and299/300 Buddy boundary/live gates tested; main23/Scout6 pass. No Scout sightings fabricated. Development v002 stays separate from public candidate.
+
+
+### Tharlidun and Uttnar: 420 profiles
+
+Completed9976/4954 adult male Orc stable-master/butcher Hammerfall profiles, fifteen lines/four approved emotion-tagged v4 signatures each. Source/era/original limits in `tharlidun-and-uttnar-queue.md`; no retail battle-pet recovery/healing or rescue events. Normal25+150 gains and299/300 Buddy boundary/live gates tested, main23/Scout6 pass. Public coverage207Alliance/121Horde/99unverified, seven overlaps,420unique. No fabricated Scout sightings; development v002 separate from preserved public candidate.

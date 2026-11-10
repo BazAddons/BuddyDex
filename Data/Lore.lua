@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tharlidun <Stable Master>, Hammerfall,9976/9250. Adult male Orc,
+    -- Horde Friendly. Current title and Classic hunter-stable role;
+    -- no own quests. Misunderstood stay command is original.
+    -- No retail battle-pet recovery/healing/leash/rescue imported.
+    -- Research: docs/research/tharlidun-and-uttnar-queue.md.
+    [9976] = {
+        quote = "Easy now. When I ask someone to stay, notice whom I am looking at. Last time the hunter obeyed and the beast kept walking.",
+        likes = { "A creature given time to settle", "Clear instructions and patient company", "An owner who notices the misunderstanding" },
+        dislikes = { "A nervous beast hurried for no reason", "Shouting instead of paying attention", "A companion treated as extra baggage" },
+        gossip = "Tharlidun once asked a beast to stay. Its hunter stopped at once. He now makes certain everyone knows which of them he is addressing.",
+        bio = "Tharlidun serves as Hammerfall's stable master. His work belongs to the practical business of hunters and their animal companions. He prefers a calm approach and a moment of attention before the business of another journey begins.",
+        backstory = "A hunter and beast were leaving when Tharlidun asked the beast to stay a moment. The hunter stopped instead. Rather than shout after them both, he explained himself. The hunter laughed, and Tharlidun found the misunderstanding worth remembering.",
+        secret = "Sometimes he does mean the hunter should stay. A pleasant conversation is worth another moment once the animal has settled. He tries to make that invitation clearer.",
+        bestFriend = "Stay a moment, friend. Yes, I mean you this time. I enjoy your company after the work is finished.",
+        favorite = { emote = "NOD", hint = "A patient sign of understanding would suit someone who likes his instructions to reach the right listener." },
+        lines = {
+            greet = { { "Easy now. Give the creature a moment to settle before hurrying into the next thing. If I ask someone to stay, notice whom I am looking at. A hunter once obeyed while the beast kept walking. We sorted it out without shouting. A little attention would have saved us the trouble, though I enjoyed the laugh afterward.", tone = "[calm] [patient] [gently amused]" },
+                "There you are. Come closer at an easy pace, and tell me what needs doing." },
+            idle = { { "I asked a departing beast to stay a moment, and its hunter stopped instead. The beast had other intentions. Once I explained whom I meant, the hunter laughed. Now I make the instruction clearer. Sometimes I do mean the hunter should stay. There is no harm in enjoying the conversation after the animal has settled.", tone = "[wry] [conversational] [warm]" },
+                "Clear instructions are useful. Looking at the right listener helps considerably.",
+                "A beast may need time to settle. Its companion can afford to notice that." },
+            befriended = { { "Stay a moment, friend. Yes, I mean you this time. You have become someone whose company I enjoy after the practical business is finished. Come along. We need no misunderstanding to arrange a little more conversation. I trust you to notice when something needs patience, and I am pleased to share the road with someone who does.", tone = "[warm] [sincere] [gently amused]" } },
+            poke = { "Yes? I am looking at you. We should manage this conversation well enough.", "I am listening. Take the moment you need." },
+            rest = { { "Let the creature settle before asking for more. You can use the moment yourself. A quieter voice and a little attention often make the next part easier than another shouted instruction would. There is time to see how your companion is doing. If I ask you to stay, I may simply be enjoying the company while we wait.", tone = "[reassuring] [patient] [warm]" } },
+            mount = { "Give the creature carrying you a moment of attention before thinking only of the distance ahead." },
+            combatStart = { "Keep your attention on what your companion needs as well as what the enemy is doing." },
+            combatEnd = { "Take a moment to see how everyone came through that." },
+            group = { "Good. Let us be clear whom each instruction is meant for." },
+            laughAlong = { "Yes, the hunter stayed. He was very willing to help once we agreed on the problem." },
+            hearth = { "Back to Hammerfall. An easy pace for the last part." },
+        },
+    },
+
+    -- Uttnar <Butcher>, Hammerfall,4954/3957. Adult male Orc, Horde Friendly.
+    -- Six current meat wares; empty own quest/teaching tabs, no installed
+    -- gossip. Changing his favorite meal is original personal humor.
+    -- No retail rescue or resupply event imported.
+    -- Research: docs/research/tharlidun-and-uttnar-queue.md.
+    [4954] = {
+        quote = "My favorite? That depends what you have just reminded me of. I was certain about the ham until someone mentioned the quail.",
+        likes = { "A customer with a definite appetite", "Good provisions remembered before leaving", "Another reason to reconsider dinner" },
+        dislikes = { "A meal hurried past without enjoyment", "Setting out with no thought of food", "Being held to yesterday's favorite" },
+        gossip = "Uttnar names his favorite meat with great certainty. Ask after the next order and he may give you a different answer.",
+        bio = "Uttnar is Hammerfall's butcher. His wares include jerky, haunches of meat, mutton, cured ham, wild hog shank, and roasted quail. Travelers can buy provisions before heading out again, though a question about his favorite may take longer to settle.",
+        backstory = "A customer asked which meal Uttnar liked best. He had given a firm answer when another order reminded him of a different choice. Since then he has defended several favorites with equal conviction. He considers this evidence that the question is a good one.",
+        secret = "He asks customers about dinner just to hear a new argument. Choosing his own meal can wait until the discussion is finished.",
+        bestFriend = "Come, friend. Tell me what sounds good after the road. I enjoy your answer, even when it unsettles mine.",
+        favorite = { emote = "CHEER", hint = "A little enthusiasm would please someone who can find another reason to look forward to dinner." },
+        lines = {
+            greet = { { "What will you have? Think of the road ahead before you decide that you need nothing. If you want my favorite, I can give you an answer with great certainty. It may be different from the answer you heard yesterday. Another customer has reminded me of the quail, and I am considering the matter again.", tone = "[gruff] [friendly] [amused]" },
+                "Back again? Have you decided what you want to eat? I am making progress on deciding for myself." },
+            idle = { { "I gave a customer a very firm answer about my favorite meal. Then the next order reminded me of another choice, and I began again. This has happened more than once. I see no fault in it. If a question keeps giving you a reason to look forward to dinner, it is a question worth considering carefully.", tone = "[dryly amused] [content] [conversational]" },
+                "The ham was an excellent answer. I remain willing to hear the argument for the shank.",
+                "Yesterday's favorite had its chance. You need not keep reminding me what I said." },
+            befriended = { { "You have become someone whose answer I enjoy hearing even when there is nothing to sell. Come along, friend. Tell me what sounds good after the road, and I will consider changing my mind again. We can disagree without spoiling the meal. I would rather share the company than spend dinner defending something I declared yesterday.", tone = "[warm] [sincere] [amused]" } },
+            poke = { "Yes? If you have another suggestion for dinner, I am listening.", "One moment. I thought I had settled that question." },
+            rest = { { "Take the time to enjoy what you brought. Provisions are worth remembering before a journey, and a meal is worth noticing once you stop. Tell me what you chose. I may already have decided on something else, but there is still time to hear your argument. The road will give us enough to hurry over afterward.", tone = "[content] [warm] [unhurried]" } },
+            loot = { "Keep track of the provisions before filling every last space with something you cannot eat." },
+            bagsFull = { "You left room for food, I hope. A fine collection of other things will not make dinner." },
+            quest = { "Think how long the task may take before deciding what to carry for the journey." },
+            combatEnd = { "Good. When we stop, I expect the question of dinner will seem worth our attention." },
+            laughAlong = { "Ha! I said it was my favorite. I did not promise to stop considering the others." },
+            hearth = { "Back to Hammerfall. Perhaps the walk will settle my opinion of dinner." },
+        },
+    },
+
     -- Gor'mul, Hammerfall,2792/4048. Adult male Orc, Horde Friendly.
     --655/672/674/675/701/702/847: former captive, witnesses Doomhammer's
     -- death, rejects amulet then agrees temporarily to hear Tor'gan.

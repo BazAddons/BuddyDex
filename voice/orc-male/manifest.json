@@ -679,6 +679,46 @@
     "text": "Tell me what you know, and what remains uncertain. We can be grateful for good work without pretending every mystery is settled. Some answers will require more time and more careful eyes.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   },
+  "lore4954_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:4954",
+    "spoken": "[warm] [sincere] [amused] You have become someone whose answer I enjoy hearing even when there is nothing to sell. Come along, friend. Tell me what sounds good after the road, and I will consider changing my mind again. We can disagree without spoiling the meal. I would rather share the company than spend dinner defending something I declared yesterday.",
+    "text": "You have become someone whose answer I enjoy hearing even when there is nothing to sell. Come along, friend. Tell me what sounds good after the road, and I will consider changing my mind again. We can disagree without spoiling the meal. I would rather share the company than spend dinner defending something I declared yesterday.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4954_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:4954",
+    "spoken": "[gruff] [friendly] [amused] What will you have? Think of the road ahead before you decide that you need nothing. If you want my favorite, I can give you an answer with great certainty. It may be different from the answer you heard yesterday. Another customer has reminded me of the quail, and I am considering the matter again.",
+    "text": "What will you have? Think of the road ahead before you decide that you need nothing. If you want my favorite, I can give you an answer with great certainty. It may be different from the answer you heard yesterday. Another customer has reminded me of the quail, and I am considering the matter again.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4954_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:4954",
+    "spoken": "[dryly amused] [content] [conversational] I gave a customer a very firm answer about my favorite meal. Then the next order reminded me of another choice, and I began again. This has happened more than once. I see no fault in it. If a question keeps giving you a reason to look forward to dinner, it is a question worth considering carefully.",
+    "text": "I gave a customer a very firm answer about my favorite meal. Then the next order reminded me of another choice, and I began again. This has happened more than once. I see no fault in it. If a question keeps giving you a reason to look forward to dinner, it is a question worth considering carefully.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore4954_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:4954",
+    "spoken": "[content] [warm] [unhurried] Take the time to enjoy what you brought. Provisions are worth remembering before a journey, and a meal is worth noticing once you stop. Tell me what you chose. I may already have decided on something else, but there is still time to hear your argument. The road will give us enough to hurry over afterward.",
+    "text": "Take the time to enjoy what you brought. Provisions are worth remembering before a journey, and a meal is worth noticing once you stop. Tell me what you chose. I may already have decided on something else, but there is still time to hear your argument. The road will give us enough to hurry over afterward.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore6928_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
@@ -757,6 +797,46 @@
     "source": "lore:9555",
     "spoken": "[dryly amused] [playful] [gruff] A shaving of wood curled so neatly that I held it beneath my nose and tried a stern greeting on a visitor. An impressive mustache. A very short performance. He laughed, and I could not keep the face. I have been practicing. The trouble is remembering the expression before I start enjoying the mustache myself.",
     "text": "A shaving of wood curled so neatly that I held it beneath my nose and tried a stern greeting on a visitor. An impressive mustache. A very short performance. He laughed, and I could not keep the face. I have been practicing. The trouble is remembering the expression before I start enjoying the mustache myself.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9976_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:9976",
+    "spoken": "[warm] [sincere] [gently amused] Stay a moment, friend. Yes, I mean you this time. You have become someone whose company I enjoy after the practical business is finished. Come along. We need no misunderstanding to arrange a little more conversation. I trust you to notice when something needs patience, and I am pleased to share the road with someone who does.",
+    "text": "Stay a moment, friend. Yes, I mean you this time. You have become someone whose company I enjoy after the practical business is finished. Come along. We need no misunderstanding to arrange a little more conversation. I trust you to notice when something needs patience, and I am pleased to share the road with someone who does.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9976_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:9976",
+    "spoken": "[calm] [patient] [gently amused] Easy now. Give the creature a moment to settle before hurrying into the next thing. If I ask someone to stay, notice whom I am looking at. A hunter once obeyed while the beast kept walking. We sorted it out without shouting. A little attention would have saved us the trouble, though I enjoyed the laugh afterward.",
+    "text": "Easy now. Give the creature a moment to settle before hurrying into the next thing. If I ask someone to stay, notice whom I am looking at. A hunter once obeyed while the beast kept walking. We sorted it out without shouting. A little attention would have saved us the trouble, though I enjoyed the laugh afterward.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9976_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:9976",
+    "spoken": "[wry] [conversational] [warm] I asked a departing beast to stay a moment, and its hunter stopped instead. The beast had other intentions. Once I explained whom I meant, the hunter laughed. Now I make the instruction clearer. Sometimes I do mean the hunter should stay. There is no harm in enjoying the conversation after the animal has settled.",
+    "text": "I asked a departing beast to stay a moment, and its hunter stopped instead. The beast had other intentions. Once I explained whom I meant, the hunter laughed. Now I make the instruction clearer. Sometimes I do mean the hunter should stay. There is no harm in enjoying the conversation after the animal has settled.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore9976_rest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "rest",
+    "say": null,
+    "source": "lore:9976",
+    "spoken": "[reassuring] [patient] [warm] Let the creature settle before asking for more. You can use the moment yourself. A quieter voice and a little attention often make the next part easier than another shouted instruction would. There is time to see how your companion is doing. If I ask you to stay, I may simply be enjoying the company while we wait.",
+    "text": "Let the creature settle before asking for more. You can use the moment yourself. A quieter voice and a little attention often make the next part easier than another shouted instruction would. There is time to see how your companion is doing. If I ask you to stay, I may simply be enjoying the company while we wait.",
     "voice_id": "SsUXUYPOaoD5XMe36mlU"
   }
 }

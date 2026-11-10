@@ -246,6 +246,7 @@ step("the main addon loads its bundled voices", function()
         {2772, 4046, "orc-female"}, {2703, 4013, "troll-male"},
         {2706, 4047, "troll-male"}, {9555, 8677, "orc-male"},
         {2792, 4048, "orc-male"}, {2821, 3953, "orc-female"},
+        {9976, 9250, "orc-male"}, {4954, 3957, "orc-male"},
         {1257, 1431, "human-male"}, {1275, 1444, "human-female"} }) do
         assert(ns.Voice.NpcVoice(sample[2]) == sample[3], "signature voice identity mismatch")
         local line = ns.Lore[sample[1]].lines.greet[1][1]

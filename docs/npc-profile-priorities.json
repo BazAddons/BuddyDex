@@ -1168,14 +1168,14 @@
       "name": "Tharlidun",
       "zone": "Arathi Highlands",
       "route": "Horde stable and butcher services",
-      "reason": "Identity verified; full source/era checks and profile writing pending. See docs/research/tharlidun-and-uttnar-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal299/300 boundary validation in docs/research/tharlidun-and-uttnar-queue.md"
     },
     {
       "npc_id": 4954,
       "name": "Uttnar",
       "zone": "Arathi Highlands",
       "route": "Horde stable and butcher services",
-      "reason": "Identity verified; full source/era checks and profile writing pending. See docs/research/tharlidun-and-uttnar-queue.md"
+      "reason": "Completed full profile/fifteen lines/four v4 signatures; source/era/original limits and normal299/300 boundary validation in docs/research/tharlidun-and-uttnar-queue.md"
     }
   ]
 }
