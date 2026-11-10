@@ -2856,6 +2856,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar shared Alchemist starter-region contact",
       "reason": "Complete adult Windshaper profile, fifteen personal lines queued, sourced profession role with distinct original imaginary-flower or plain-water humor; no synthesis"
+    },
+    {
+      "npc_id": 252388,
+      "name": "Halavuul Cragwind",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Mining starter-region contact",
+      "reason": "Complete adult Skyborne profile, fifteen personal lines queued, sourced profession role with original changing-inventory or comfortable-shirt character writing; no synthesis"
+    },
+    {
+      "npc_id": 252380,
+      "name": "Othesia Evengale",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Tailoring starter-region contact",
+      "reason": "Complete adult Skyborne profile, fifteen personal lines queued, sourced profession role with original changing-inventory or comfortable-shirt character writing; no synthesis"
     }
   ]
 }

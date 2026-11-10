@@ -3185,5 +3185,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult Windshaper Skyborne man/woman, Horde Friendly or both Friendly; full camping lesson/training and actual welcomes with table gaps documented; no Scout sighting claimed",
     "research_notes": "docs/research/valanaar-flower-hats-and-ordinary-water.md"
+  },
+  {
+    "npc_id": 252388,
+    "name": "Halavuul Cragwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne man/woman, current Alliance Friendly only; all training/stock pages and installed mining/tailoring dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-changing-inventories-and-quiet-compliments.md"
+  },
+  {
+    "npc_id": 252380,
+    "name": "Othesia Evengale",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult Windshaper Skyborne man/woman, current Alliance Friendly only; all training/stock pages and installed mining/tailoring dialogue; no Scout sighting claimed",
+    "research_notes": "docs/research/valanaar-changing-inventories-and-quiet-compliments.md"
   }
 ]

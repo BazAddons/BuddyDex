@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 278,
+    "alliance": 280,
     "unverified": 152,
     "horde": 250
   },
@@ -17,7 +17,7 @@
     "8": 53,
     "9": 40,
     "6": 76,
-    "96": 13,
+    "96": 15,
     "95": 20
   },
   "zone_counts": {
@@ -57,7 +57,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 32,
+    "Zephras Isle": 34,
     "Riverglades": 8
   },
   "entries": [
@@ -7803,6 +7803,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252378"
     },
     {
+      "npc_id": 252380,
+      "name": "Othesia Evengale",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252380"
+    },
+    {
       "npc_id": 252382,
       "name": "Sessaria Skystride",
       "zone": "Zephras Isle",
@@ -7814,6 +7827,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252382"
+    },
+    {
+      "npc_id": 252388,
+      "name": "Halavuul Cragwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252388"
     },
     {
       "npc_id": 252390,
@@ -8459,6 +8485,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 660,
-  "awaiting_signature_audio_profiles": 206
+  "authored_profiles": 662,
+  "awaiting_signature_audio_profiles": 208
 }

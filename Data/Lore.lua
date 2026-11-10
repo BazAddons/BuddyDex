@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Halavuul Cragwind <Mining Trainer>, Valanaar, Zephras Isle.
+    -- Adult Windshaper male140065/M2 7478487, Alliance Friendly.
+    -- All16lessons and2installed floating-island mining variants read.
+    -- Unfinished inventory is original; mineral mystery not solved.
+    -- Research: docs/research/valanaar-changing-inventories-and-quiet-compliments.md
+    [252388] = {
+        quote = "I tried calling it a final inventory. The island has been very uncooperative about the final part.",
+        likes = { "Something new in familiar ground", "A pupil looking carefully at a find", "An explanation that leaves room for wonder" },
+        dislikes = { "Assuming a floating island has no miners", "An interesting find dismissed too quickly", "Calling a guess a settled explanation" },
+        gossip = "Halavuul's inventory has a confident heading. He keeps adding lines beneath it. There is some doubt about whether it is finished.",
+        bio = "Halavuul Cragwind teaches Mining in Valanaar on Zephras Isle. He jokes that a floating island ought to have exhausted its minerals long ago, yet still yields interesting finds. New deposits make him wonder aloud about the island's magic.",
+        backstory = "He once began a list of the interesting stones he knew, intending to give it a very definite ending. Another find required another line. He discovered that he was enjoying the additions far more than the idea of a completed inventory.",
+        secret = "The heading now says Interesting Stones So Far. He can be pleased by another discovery without admitting that the final list was not final.",
+        bestFriend = "Come along. You may point out something I missed. I would rather share another good discovery than defend the old heading.",
+        favorite = {
+            emote = "NOD",
+            hint = "He enjoys someone sharing his curiosity without demanding an immediate answer to the whole mystery.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I have left room on the list for anything interesting the day refuses to leave out.", tone = "[warm] [curious]" }, "Ready. It would be a shame to decide we already knew everything worth noticing along the way." },
+            idle = { { "I called it a final inventory. Then I found another interesting stone. Interesting Stones So Far has proved a much more useful heading.", tone = "[wry] [amused]" }, "People hear floating island and wonder why there would be miners. We still manage to find things worth digging up.", "I can wonder about the magic without pretending I have explained where every new deposit comes from." },
+            befriended = { { "You were pleased to show me something I had missed, and stayed to enjoy the discovery with me. I would welcome more of your company, friend.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If there is another find, I have room beneath the improved heading.", "I hear you. Tell me what caught your attention before deciding whether it is unusual enough to mention." },
+            learned = { { "Look carefully at what is actually there. A familiar name is a useful beginning, but it should not stop you noticing a difference.", tone = "[patient] [earnest]" } },
+            loot = { "Another find. Take a proper look before deciding it is merely something you have seen before." },
+            bagsFull = { "Check which things you actually meant to carry. An interesting list need not require taking the whole landscape home." },
+            zone = { "New surroundings. Let us notice something before assuming the old inventory explains all of it." },
+            rest = { "A pause. We can enjoy the conversation without adding another line to the list for a little while." },
+            group = { "Ask what the others have noticed. More eyes are useful when everyone is allowed to describe what they saw." },
+            thanked = { "You are welcome. I have enjoyed hearing what you noticed as well as explaining what I know." },
+        },
+    },
+
+    -- Othesia Evengale <Tailor>, Valanaar, Zephras Isle. Adult
+    -- Windshaper female140066/M2 7478494, Alliance Friendly. All51
+    -- lessons/two pages/17goods/2installed welcomes read.
+    -- Comfortable-shirt compliment is original, not an actual item reward.
+    -- Research: docs/research/valanaar-changing-inventories-and-quiet-compliments.md
+    [252380] = {
+        quote = "They forgot they were wearing it. I decided that might be a very fine compliment.",
+        likes = { "A pupil understanding the next stitch", "Clothes comfortable enough to forget", "Praise that notices the useful work" },
+        dislikes = { "A learner hurried past a difficult step", "A fine appearance excusing a poor fit", "Being asked whether comfort is impressive" },
+        gossip = "Othesia remembers an unusual compliment. Someone forgot about her work for an entire day. She seems pleased rather than offended.",
+        bio = "Othesia Evengale is a tailor in Valanaar on Zephras Isle. She welcomes fellow tailors to her shop and offers lessons. Thread, dyes and reagent-bag patterns accompany instruction in clothing, bags and a Faction Banner.",
+        backstory = "A wearer told her that her new shirt had gone unnoticed all day. She first wondered what that meant. No pulling seam, no awkward sleeve, no reason to keep adjusting it: the work had done its job so well that it needed no further attention.",
+        secret = "She still remembers that ordinary compliment. A grand description of her skill would have been pleasant, but knowing someone was comfortable has stayed with her longer.",
+        bestFriend = "Stay a little. You need not find an impressive way to praise the work. I would rather hear what made the day comfortable for you.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates someone noticing good, useful work even when its best feature is how little attention it demands.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. Shall we go? I would enjoy a little company without making anyone find a grand compliment for the occasion.", tone = "[warm] [welcoming]" }, "Ready. I hope the day has given you something comfortable to appreciate, even if you had not thought to mention it." },
+            idle = { { "They said they forgot they were wearing it. No pulling seam, no awkward sleeve. I decided that was rather a fine account of the work.", tone = "[reflective] [pleased]" }, "A good fit can receive very little attention. That need not mean the work was unimportant.", "If a pupil needs the step explained again, I would rather hear the question than have them quietly struggle with a guess." },
+            befriended = { { "You noticed the useful care behind the work and still found time for my company. Come along, friend. I am pleased to have you beside me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you need. You do not have to make the question sound more impressive before asking it.", "I hear you. If you simply came to say hello, that is a pleasant reason to put the work aside." },
+            learned = { { "Understand the next step before rushing to the finished appearance. Care that disappears into a good result is still care worth taking.", tone = "[patient] [earnest]" } },
+            gear = { "Consider how it serves you as well as how it looks. You will be the one wearing it after the first impression is over." },
+            rest = { "A pause. We can enjoy being comfortable without proving the moment has accomplished anything grand." },
+            quest = { "Hear what the person actually needs. A splendid result that misses the request may be splendid for somebody else." },
+            bagsFull = { "Leave room for what you meant to carry. A bag is more useful when finding something does not require emptying everything else first." },
+            group = { "Give the newcomer time to understand. An explanation need not become hurried merely because some of us have heard it before." },
+            thanked = { "You are welcome. I am pleased it helped, even if the best part is that you need not think about the difficulty again." },
+        },
+    },
+
     -- Syriel Nightrain <Herbalist>, Valanaar, Zephras Isle. Adult
     -- Windshaper male138131/M2 7478487, Horde Friendly. Five current
     -- lessons/full97968and96101camp context; unreadable-language gossip

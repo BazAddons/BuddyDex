@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Halavuul Cragwind and Othesia Evengale: two complete adult Skyborne profiles with thirty personal lines queued.
+- Expand Valanaar Mining and Tailoring contacts with complete profession-table research and distinct personal stories.
+
 - Add Syriel Nightrain and Valiena Swiftgale: two complete adult Windshaper profiles with thirty personal lines queued.
 - Expand Valanaar Herbalism and Alchemy contacts with researched camping context and distinct personal stories.
 
@@ -285,4 +288,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **660 fully written NPC profiles**: 454 have initial signature recordings, and two hundred six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **662 fully written NPC profiles**: 454 have initial signature recordings, and two hundred eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Halavuul Cragwind and Othesia Evengale: two complete adult Skyborne profiles with thirty personal lines queued.
+- Expand Valanaar Mining and Tailoring contacts with complete profession-table research and distinct personal stories.
+
 - Add Syriel Nightrain and Valiena Swiftgale: two complete adult Windshaper profiles with thirty personal lines queued.
 - Expand Valanaar Herbalism and Alchemy contacts with researched camping context and distinct personal stories.
 
