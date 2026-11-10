@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Nasalanna Windsinger <Enchanter>, Shendar Village, Zephras Isle.
+    -- Adult High Order female140076/M2 7478494, both Friendly. Full
+    -- Camping96101/98286/98284context,11goods/10lessons/7gossips.
+    -- Fallen-petal arrangements are original, not magic or a new item.
+    -- Research: docs/research/shendar-petals-and-valanaar-proverbs.md
+    [257020] = {
+        quote = "The arrangement was mine. What the breeze makes of it is the breeze's business.",
+        likes = { "A pupil asking a thoughtful question", "Fallen petals arranged for pleasure", "A quiet pause that stays a pause" },
+        dislikes = { "Careful work interrupted for nothing", "A learner too embarrassed to ask", "Treating every pretty thing as a project" },
+        gossip = "Nasalanna has been arranging fallen petals. The breeze keeps revising her work. She seems unusually willing to let the changes stand.",
+        bio = "Nasalanna Windsinger teaches Enchanting in Shen'dar Village. She offers lessons and supplies, welcomes fellow enchanters, and values time for careful work. Her camping lesson teaches an Enchanted Lute and reminds pupils to take their camp into the wilds.",
+        backstory = "She arranged fallen petals during a pause. When a breeze scattered them, she nearly put everything back. Then she looked at the new shape. For once, there was no lesson to perfect and no correction that needed making.",
+        secret = "She sometimes leaves the arrangement unfinished. The breeze may add something she would never have chosen. She enjoys looking before deciding whether anything was spoiled.",
+        bestFriend = "Sit with me a little. You need not bring a lesson or a problem. There is room for your company in the pause.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates a quiet kindness that lets a peaceful moment remain undemanding.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "It is good to see you. Shall we go? I have left the petals where the breeze put them. They can manage without another correction.", tone = "[gentle] [welcoming]" }, "Ready. A little company would be pleasant, and I can leave the careful work behind for a while." },
+            idle = { { "I was about to restore every petal. Then I looked at what the breeze had made. It seemed worth noticing before calling it a mistake.", tone = "[reflective] [warm]" }, "An honest question is a good reason to interrupt. The learner deserves a clear answer, however simple the question seems.", "There are things I want to get precisely right. The petals need not be one of them." },
+            befriended = { { "You have learned when I need quiet and when I would welcome company. I am glad you came, friend. Shall we go together?", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you want to ask. I would rather hear it than have you stand there uncertain.", "I hear you. If you came only to say hello, I can put the work aside for that too." },
+            learned = { { "Understand the step before repeating it. Being able to explain what you are doing is worth more than a hurried appearance of confidence.", tone = "[patient] [earnest]" } },
+            rest = { "A pause. It need not become a task simply because we have noticed something beautiful during it." },
+            quest = { "Listen to the instruction, including where the finished work is meant to be used. That part belongs to the lesson too." },
+            gear = { "Look at what it actually does before deciding how it could be improved. Careful attention comes first." },
+            group = { "Let the question be heard. Someone who asks honestly is helping the rest of us notice what still needs explaining." },
+            comforted = { "Thank you. A kindness can be welcome without requiring me to find a useful purpose for it." },
+            thanked = { "You are welcome. I am pleased the explanation helped you understand the work." },
+        },
+    },
+
+    -- Eaysaa Brightgust <Enchanter>, Valanaar, Zephras Isle. Adult
+    -- High Order female138010/M2 7478494, both Friendly. Ten current
+    -- lessons/5installed greetings; current stock0not invented offers.
+    -- Mangled pot proverb is original humor, not actual spell training.
+    -- Research: docs/research/shendar-petals-and-valanaar-proverbs.md
+    [257004] = {
+        quote = "A watched pot never learns Enchanting. I am certain that is how the saying goes.",
+        likes = { "A clear lesson with room for a question", "Familiar sayings given an absurd turn", "A friend willing to correct the proverb" },
+        dislikes = { "A joke mistaken for an instruction", "Uncertainty concealed behind grand words", "Being asked to explain why the pot studies" },
+        gossip = "Eaysaa's lessons are careful. Her proverbs are less reliable. A visitor may hear sensible advice until the pot attempts to learn a profession.",
+        bio = "Eaysaa Brightgust is an enchanter in Valanaar. She offers beginning instruction, including wand work, protective enchantments and an Enchanted Lute. She welcomes fellow enchanters to her shop and expects an interruption to have a worthwhile purpose.",
+        backstory = "She gave a familiar saying one unsuitable word during a serious conversation. The advice became ridiculous, and the conversation easier. She began saving these absurdities for when the actual instruction was safely finished.",
+        secret = "Her imaginary pot has acquired a remarkably ambitious education. It is only a running joke. She enjoys a friend improving the absurdity more than being credited with the final word.",
+        bestFriend = "Stay a little. You may correct the saying, or make it worse. I trust you to know which part was the lesson.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She enjoys someone recognizing when solemn advice has deliberately taken a foolish turn.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Good to see you. Shall we go? The imaginary pot has not mastered Enchanting yet, so there is no reason to wait for it.", tone = "[warm] [dryly amused]" }, "Ready. I have a perfectly sensible welcome prepared. I shall try to leave the proverb out of it." },
+            idle = { { "A watched pot never learns Enchanting. It is a very sound observation, though I admit the usual saying may have been about something else.", tone = "[deadpan] [playful]" }, "The lesson should be clear. I can afford a little foolishness once everyone knows which words are the instruction.", "The pot is imaginary. Before you ask, so is its ambition. I would not set a real pupil such an unreasonable example." },
+            befriended = { { "You understood the lesson and stayed for the foolish saying. I would enjoy more of your company, friend. You may improve the next proverb.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If the question concerns the lesson, you deserve a straight answer. The pot can wait.", "I hear you. Tell me what you need, or tell me how you think the saying ought to end." },
+            learned = { { "Ask if a step is unclear. A careful question is far more useful than pretending the explanation made sense.", tone = "[patient] [earnest]" } },
+            rest = { "A pause. The work may wait for a little company. Even the imaginary pot has been advised to take one." },
+            gear = { "Consider what it actually needs to do. A fine description will not supply the protection the work leaves out." },
+            quest = { "Be certain which part is the request. An amusing turn of phrase does not excuse missing the actual instruction." },
+            group = { "Give the newcomer room to ask. We can enjoy the joke after everyone knows what they are meant to do." },
+            zone = { "New surroundings. Let us notice something here before confidently fitting it into an old saying." },
+            thanked = { "You are welcome. I am pleased you understood the useful part, and pleased you enjoyed the company." },
+        },
+    },
+
     -- Yorba Screwspigot, Steamwheedle Port, Tanaris. Adult Goblin
     -- female11388/M2 119369, Horde Friendly. Full4324->4136current/
     -- Classic/installed family bounty dialogue; no later tsunami.

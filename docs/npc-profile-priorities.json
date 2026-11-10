@@ -2793,6 +2793,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay Ratchet-ship contact",
       "reason": "Complete adult Goblin profile, fifteen personal lines queued, source-based family bounty or shipmaster identity with original green-glass/greeting hook; no synthesis"
+    },
+    {
+      "npc_id": 257020,
+      "name": "Nasalanna Windsinger",
+      "zone": "Zephras Isle",
+      "route": "Shendar Village shared Skyborne starter-region profession contact",
+      "reason": "Complete adult Skyborne female profile, fifteen personal lines queued, sourced Enchanting role with distinct original petal-arrangement or proverb humor; no synthesis"
+    },
+    {
+      "npc_id": 257004,
+      "name": "Eaysaa Brightgust",
+      "zone": "Zephras Isle",
+      "route": "Valanaar shared Skyborne regional profession contact",
+      "reason": "Complete adult Skyborne female profile, fifteen personal lines queued, sourced Enchanting role with distinct original petal-arrangement or proverb humor; no synthesis"
     }
   ]
 }

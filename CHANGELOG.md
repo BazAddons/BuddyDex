@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Nasalanna Windsinger and Eaysaa Brightgust: two complete adult Skyborne profiles with thirty personal lines queued.
+- Expand shared Zephras Enchanting contacts with full camping lesson research and distinct friendship stories.
+
 - Add Yorba Screwspigot and Grizzlowe: two complete adult Goblin profiles with thirty personal lines queued.
 - Expand Steamwheedle Port and Booty Bay contacts with full family-bounty research and shipmaster dialogue.
 

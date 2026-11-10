@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 272,
+    "alliance": 274,
     "unverified": 152,
-    "horde": 244
+    "horde": 246
   },
   "npc_race_counts": {
     "1": 166,
@@ -18,7 +18,7 @@
     "9": 40,
     "6": 76,
     "96": 11,
-    "95": 18
+    "95": 20
   },
   "zone_counts": {
     "Elwynn Forest": 27,
@@ -57,7 +57,7 @@
     "Winterspring": 1,
     "Moonglade": 1,
     "Deeprun Tram": 3,
-    "Zephras Isle": 28,
+    "Zephras Isle": 30,
     "Riverglades": 8
   },
   "entries": [
@@ -7935,6 +7935,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/256733"
     },
     {
+      "npc_id": 257004,
+      "name": "Eaysaa Brightgust",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257004"
+    },
+    {
       "npc_id": 257006,
       "name": "Nyalah Brightfire",
       "zone": "Zephras Isle",
@@ -7961,6 +7975,20 @@
       ],
       "reaction_evidence": "Alliance Friendly; Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257018"
+    },
+    {
+      "npc_id": 257020,
+      "name": "Nasalanna Windsinger",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257020"
     },
     {
       "npc_id": 257037,
@@ -8339,6 +8367,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 651,
-  "awaiting_signature_audio_profiles": 197
+  "authored_profiles": 653,
+  "awaiting_signature_audio_profiles": 199
 }

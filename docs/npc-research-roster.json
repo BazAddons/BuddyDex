@@ -3122,5 +3122,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult Goblin woman/man, current identity and full family bounty chain or installed shipmaster dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/steamwheedle-green-glass-and-booty-bay-welcomes.md"
+  },
+  {
+    "npc_id": 257020,
+    "name": "Nasalanna Windsinger",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order Skyborne women, both factions explicitly Friendly; full current training/stock and installed dialogue, camping referrals researched; no Scout sighting claimed",
+    "research_notes": "docs/research/shendar-petals-and-valanaar-proverbs.md"
+  },
+  {
+    "npc_id": 257004,
+    "name": "Eaysaa Brightgust",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult High Order Skyborne women, both factions explicitly Friendly; full current training/stock and installed dialogue, camping referrals researched; no Scout sighting claimed",
+    "research_notes": "docs/research/shendar-petals-and-valanaar-proverbs.md"
   }
 ]
