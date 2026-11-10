@@ -4,17 +4,17 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 251,
-    "unverified": 141,
-    "horde": 210
+    "unverified": 142,
+    "horde": 211
   },
   "npc_race_counts": {
     "1": 165,
     "3": 44,
     "7": 37,
-    "2": 68,
+    "2": 69,
     "5": 63,
     "4": 43,
-    "8": 45,
+    "8": 46,
     "9": 30,
     "6": 69,
     "96": 8,
@@ -41,8 +41,8 @@
     "Darkshore": 7,
     "Mulgore": 16,
     "Thunder Bluff": 35,
-    "Durotar": 46,
-    "The Barrens": 29,
+    "Durotar": 47,
+    "The Barrens": 30,
     "Stonetalon Mountains": 7,
     "Darnassus": 8,
     "Ashenvale": 6,
@@ -3105,6 +3105,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3164"
     },
     {
+      "npc_id": 3169,
+      "name": "Tarshaw Jaggedscar",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Horde Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3169"
+    },
+    {
       "npc_id": 3173,
       "name": "Swart",
       "zone": "Durotar",
@@ -3763,6 +3776,17 @@
       ],
       "reaction_evidence": "Horde Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3483"
+    },
+    {
+      "npc_id": 3484,
+      "name": "Kil'hala",
+      "zone": "The Barrens",
+      "race_ids": [
+        8
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Horde Neutral",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3484"
     },
     {
       "npc_id": 3486,
@@ -7524,6 +7548,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 587,
-  "awaiting_signature_audio_profiles": 133
+  "authored_profiles": 589,
+  "awaiting_signature_audio_profiles": 135
 }

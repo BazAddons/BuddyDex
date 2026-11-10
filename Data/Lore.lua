@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tarshaw Jaggedscar <Warrior Trainer>, Razor Hill, Durotar. Adult
+    -- Orc male3743/M2 917116, Horde Friendly. Full1505 to1498/1502/1503
+    -- and installed blunt class/retraining gossip read; no later rebellion.
+    -- Quiet sitting without correcting anyone is original, not a training buff.
+    -- Research: docs/research/razor-hill-discipline-and-crossroads-recognition.md
+    [3169] = {
+        quote = "Strength earns notice. The willingness to learn earns the next lesson.",
+        likes = { "Practice with a clear purpose", "A warrior willing to remain a student", "An answer that reaches the point" },
+        dislikes = { "An excuse offered before an attempt", "Old victories used to avoid new lessons", "Time wasted proving nothing" },
+        gossip = "Tarshaw demands attention from his pupils. His private attempt to sit quietly without correcting anything may be his most difficult drill.",
+        bio = "Tarshaw Jaggedscar trains warriors in Razor Hill. He is impatient with wasted time, but teaches that great warriors must also be great students. His referral sends a learner to the veteran Uzzek near Far Watch Post for further instruction.",
+        backstory = "Sending a warrior to another instructor makes room for strength to become something better taught. Tarshaw takes that principle seriously. To test a different sort of discipline, he began trying to sit for a short while without finding anything to correct.",
+        secret = "He can stay still more easily than he can leave an imperfect gesture unremarked. A quiet pause becomes a challenge the moment someone nearby does something he would teach differently.",
+        bestFriend = "Sit, if you wish. You have my word that this pause need not become a lesson. I may need a moment to keep that word.",
+        favorite = {
+            emote = "NOD",
+            hint = "He values a direct acknowledgment that the instruction has been heard.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good. Bring your attention as well as your strength.", tone = "[firm] [direct]" }, "Ready. Let us give the time a purpose." },
+            idle = { { "I am practicing leaving the correction unsaid. It has not become easier merely because I am sitting down.", tone = "[gruff] [dryly amused]" }, "A warrior who has stopped learning has mistaken an old success for a finished task.", "Say what needs saying. More words do not make an excuse into an answer." },
+            befriended = { { "You have shown me that you can listen as well as act. I would have that kind of company beside me.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Get to the point.", "I am attempting a pause. Give me a moment before deciding it requires improvement." },
+            learned = { { "Now practice it. Learning the movement is the beginning of using it well.", tone = "[authoritative] [encouraging]" } },
+            combatStart = { "Keep your attention on what is happening. A remembered victory will not fight this battle." },
+            combatEnd = { "Consider what worked, and what nearly failed. Both belong in the lesson." },
+            gear = { "Know how it changes the way you move before relying on its appearance." },
+            rest = { "Sit. A pause can have a purpose without becoming another drill." },
+            quest = { "Understand the instruction before deciding that strength alone will answer it." },
+            saluteBack = { "And to you. Be ready to learn from the next thing you face." },
+        },
+    },
+
+    -- Kil'hala <Journeyman Tailor>, Crossroads, The Barrens. Adult Troll
+    -- male4094/M2 1022938, current Horde Neutral, own tabs0. Full1943/
+    -- 1944/1945/1946 read; dryad regret limited, Deino's favor matters.
+    -- Rehearsing a modest reply to praise is original, no Legion story.
+    -- Research: docs/research/razor-hill-discipline-and-crossroads-recognition.md
+    [3484] = {
+        quote = "Comfortable, durable, and admired. I see no need to choose only one.",
+        likes = { "Materials suited to the intended work", "A satisfied wearer saying so plainly", "Praise that names the good detail" },
+        dislikes = { "A hurried request with missing details", "Fine work treated as a lucky accident", "A compliment stopped before the best part" },
+        gossip = "Kil'hala is pleased when someone admires his work. His attempts to accept a compliment calmly tend to end with a question about which detail they liked.",
+        bio = "Kil'hala is a Troll tailor at the Crossroads. He makes nether-lace from laughing sisters' hair for a mage sent by Deino. He admits only a little pity for the dryads, and hopes the wearer will report favorably to his patron.",
+        backstory = "The robe work gives him a chance to satisfy a demanding magical patron. He takes pride in the result and wants its quality recognized. Away from the work, he has tried rehearsing a graceful response to praise that does not immediately ask for more.",
+        secret = "His practiced reply is brief and modest. In company, he remembers a detail the admirer might have noticed, then asks about it before recalling why he rehearsed.",
+        bestFriend = "You may tell me which detail you liked. Or simply stay a while. I am learning to appreciate company without asking for a review.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He enjoys a visitor recognizing the care and skill that went into a finished piece.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "Good to see you. Shall we give the day enough care that someone might have a good word for it?", tone = "[confident] [welcoming]" }, "Ready. I have a very graceful reply prepared, should the occasion call for one." },
+            idle = { { "Thank you, how kind. There. Very graceful. Though I would like to know which detail they noticed.", tone = "[pleased] [wry]" }, "Comfort matters. A fine appearance need not ask the wearer to suffer for it.", "Good material still needs someone to do the work properly." },
+            befriended = { { "You notice the work, and you have stayed to know the person doing it. I would welcome more of that company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Tell me what you have in mind.", "I was practicing accepting a compliment. It leaves several interesting questions unanswered." },
+            gear = { { "Consider the comfort as well as the appearance. Something made to be worn ought to bear the wearing.", tone = "[assured] [practical]" } },
+            loot = { "Look carefully at the material before deciding what can be made of it." },
+            bagsFull = { "Fine work is not improved by being crushed under everything else you brought." },
+            quest = { "Check the requested materials. A promising substitute may still make quite the wrong garment." },
+            thanked = { "You are welcome. If it serves you well, I would be pleased to hear that too." },
+            rest = { "A pause. You need not have a finished commission to sit with me." },
+            cheerAlong = { "Well done! There is no need to pretend not to enjoy that." },
+        },
+    },
+
     -- Eliza Callen <Leather Armor Merchant>, Brill, Tirisfal Glades. Adult
     -- Forsaken female1634/M2 997378, Horde Friendly, repairs/six goods.
     -- Own quest/training tabs0; no installed gossip or supported own chain.

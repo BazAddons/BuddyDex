@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tarshaw Jaggedscar and Kil'hala: two complete adult Orc and Troll profiles, with thirty personal lines queued.
+- Expand Razor Hill and Crossroads companions with researched warrior-referral and mage-garment quest context.
+
 - Add Eliza Callen and Daniel Bartlett: two complete adult Forsaken profiles, with thirty personal lines queued.
 - Expand Brill and Undercity companions with distinct leather-merchant and trade-supplier stories, using their current Forever stock.
 

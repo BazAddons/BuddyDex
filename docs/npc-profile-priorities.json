@@ -2345,6 +2345,20 @@
       "zone": "Undercity",
       "route": "Horde Undercity general trade supplier",
       "reason": "Complete adult Forsaken profile with fifteen queued lines; actual trade verified, map projection/identity distinctions preserved, no synthesis"
+    },
+    {
+      "npc_id": 3169,
+      "name": "Tarshaw Jaggedscar",
+      "zone": "Durotar",
+      "route": "Horde Razor Hill early warrior trainer",
+      "reason": "Complete adult male profile with fifteen queued lines; connected chains/speakers and current Neutral distinction preserved, no synthesis"
+    },
+    {
+      "npc_id": 3484,
+      "name": "Kil'hala",
+      "zone": "The Barrens",
+      "route": "Horde Crossroads tailoring travel contact",
+      "reason": "Complete adult male profile with fifteen queued lines; connected chains/speakers and current Neutral distinction preserved, no synthesis"
     }
   ]
 }
