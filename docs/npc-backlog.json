@@ -2,8 +2,8 @@
   "as_of": "2026-11-09",
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
-  "completed_count": 410,
-  "remaining_count": 4,
+  "completed_count": 412,
+  "remaining_count": 2,
   "completed": [
     {
       "npc_id": 54,
@@ -1019,6 +1019,16 @@
       "status": "complete"
     },
     {
+      "npc_id": 1466,
+      "name": "Gretta Finespindle",
+      "zone": "Ironforge",
+      "source": "Exact current named adult model/Friendly/voice verified; complete sourced profile, fifteen lines/four approved v4 signatures, ordinary live gates and normal299/300 Buddy boundary tested. Research distinguishes missing tabs, Forever camping/giant additions and original humor; no Scout sighting claimed",
+      "research_notes": "docs/research/gretta-and-drumfel-queue.md",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
       "npc_id": 1472,
       "name": "Morgg Stormshot",
       "zone": "Stormwind City",
@@ -1473,6 +1483,16 @@
       "name": "Archmage Malin",
       "zone": "Stormwind City",
       "source": "Installed Scout record",
+      "written_lines": 15,
+      "personal_recordings": 4,
+      "status": "complete"
+    },
+    {
+      "npc_id": 2771,
+      "name": "Drum Fel",
+      "zone": "Arathi Highlands",
+      "source": "Exact current named adult model/Friendly/voice verified; complete sourced profile, fifteen lines/four approved v4 signatures, ordinary live gates and normal299/300 Buddy boundary tested. Research distinguishes missing tabs, Forever camping/giant additions and original humor; no Scout sighting claimed",
+      "research_notes": "docs/research/gretta-and-drumfel-queue.md",
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
@@ -3895,22 +3915,6 @@
     }
   ],
   "remaining": [
-    {
-      "npc_id": 1466,
-      "name": "Gretta Finespindle",
-      "zone": "Ironforge",
-      "source": "Exact current named adult model/Friendly/voice checked; primary zone retained over Gretta parent-map pin. Full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/gretta-and-drumfel-queue.md",
-      "status": "pending_identity_and_lore_research"
-    },
-    {
-      "npc_id": 2771,
-      "name": "Drum Fel",
-      "zone": "Arathi Highlands",
-      "source": "Exact current named adult model/Friendly/voice checked; primary zone retained over Gretta parent-map pin. Full research pending, no Scout sighting claimed",
-      "research_notes": "docs/research/gretta-and-drumfel-queue.md",
-      "status": "pending_identity_and_lore_research"
-    },
     {
       "npc_id": 6182,
       "name": "Daphne Stilwell",

@@ -2149,6 +2149,46 @@
     "text": "There! Once the basics hold together, you can try something gloriously unnecessary.",
     "voice_id": "syFkX6FF9X5Ae3tA21pD"
   },
+  "lore1466_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:1466",
+    "spoken": "[warm] [cheerful] [sincere] Come along! You have become my favorite person to share a completely unproductive complaint with. I can admit when a technique is beyond me, and I can admit that talking to leather has not made it ready any sooner. Your company, however, has improved the waiting considerably. That is a result I am happy to keep.",
+    "text": "Come along! You have become my favorite person to share a completely unproductive complaint with. I can admit when a technique is beyond me, and I can admit that talking to leather has not made it ready any sooner. Your company, however, has improved the waiting considerably. That is a result I am happy to keep.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore1466_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:1466",
+    "spoken": "[bright] [impatient] [playful] Welcome! Have you come to learn leatherworking, or to keep me company while this hide decides to be useful? I have already tried asking politely. It remains unmoved. If your questions are beyond what I can teach, I will point you toward Fimble. Until then, we can at least get your hands working.",
+    "text": "Welcome! Have you come to learn leatherworking, or to keep me company while this hide decides to be useful? I have already tried asking politely. It remains unmoved. If your questions are beyond what I can teach, I will point you toward Fimble. Until then, we can at least get your hands working.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore1466_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:1466",
+    "spoken": "[playful] [wry] [animated] I started calling one particularly stubborn hide Your Slowness. It seemed fitting for something that expects everyone else to wait upon it. Since then I have promoted it several times. No improvement whatsoever. Still, a student laughed, and the waiting became rather less tedious. That is more than the hide has managed for us.",
+    "text": "I started calling one particularly stubborn hide Your Slowness. It seemed fitting for something that expects everyone else to wait upon it. Since then I have promoted it several times. No improvement whatsoever. Still, a student laughed, and the waiting became rather less tedious. That is more than the hide has managed for us.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
+  "lore1466_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:1466",
+    "spoken": "[instructive] [brisk] [friendly] If you are learning to make a camp tent, remember where you intend to use it. The wilderness is a better place to test your shelter than the middle of town. You will need a campfire as well, so speak with a cook if you have not learned that part. A little preparation makes the lesson useful.",
+    "text": "If you are learning to make a camp tent, remember where you intend to use it. The wilderness is a better place to test your shelter than the middle of town. You will need a campfire as well, so speak with a cook if you have not learned that part. A little preparation makes the lesson useful.",
+    "voice_id": "syFkX6FF9X5Ae3tA21pD"
+  },
   "lore5144_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",

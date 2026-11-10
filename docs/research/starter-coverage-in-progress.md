@@ -512,3 +512,8 @@ Next individually verified [Caylais and Tharm](caylais-and-tharm-queue.md), adul
 410 completed authored profiles. Adult female Night Elf/male Tauren Elite flight masters,15 personal lines/four approved v4 signatures each. [Research/validation](caylais-and-tharm-queue.md) preserves actual roost/travel roles and excludes later retail deaths/routes. Lore21lines each/full smoke/separate fresh faction sessions passed. Actual stored Elite,150Acquaintance/450Buddy boundaries verified;449companion rejected/450recorded welcome, normal25+150gains unchanged. Friendly coverage Alliance206/Horde112/unverified99, seven shared overlap. Installed/dev ZIP6174files/6146mappings/125.50MiB, original CF candidate hash unchanged/no publish. No live visual/listening claim.
 
 Next individually verified [Gretta and Drum Fel](gretta-and-drumfel-queue.md), adult female Gnome/male Orc trainer/regional quest candidates, neither complete. Gretta current Journeyman Leatherworker and primary Ironforge override remembered Skinning role/parent-map assumptions. Wider1510-name pool and earlier source gaps remain active.
+
+
+### Gretta Finespindle / Drum Fel:412 profiles
+
+Completed named adult1466/2771, one Alliance female Gnome trainer and one Horde male Orc Hammerfall quest giver. Four approved emotion-tagged v4 signatures/fifteen personal lines each; full source/era/relationship limits in `gretta-and-drumfel-queue.md`. Public coverage now207Alliance/113Horde/99unverified, with seven shared profiles,412unique. CurrentFriendly icons inform coverage, not eligibility overrides. Ordinary25+150 gains and normal299/300 Buddy boundary/recorded welcome validated. No Scout sighting fabricated; development v002 continues separately from preserved public candidate.

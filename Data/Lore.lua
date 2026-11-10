@@ -41,6 +41,72 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gretta Finespindle <Journeyman Leatherworker>, Ironforge,1466/10620.
+    -- Adult female Gnome, Alliance Friendly. Gossip: impatient hide-curing,
+    -- refers advanced students to Fimble. Forever96031 teaches Camp Tent.
+    -- Talking to stubborn hides is original; no Finespindle kinship inferred.
+    -- Research: docs/research/gretta-and-drumfel-queue.md.
+    [1466] = {
+        quote = "I have asked this hide very politely to hurry up. It has declined. Perhaps you will be better company while I wait.",
+        likes = { "A student ready to try the next stitch", "A joke that makes waiting bearable", "Leather that is finally ready to work" },
+        dislikes = { "Another long wait for a stubborn hide", "Pretending to know an advanced technique", "A tent pitched in the middle of town" },
+        gossip = "Gretta has begun addressing an unready hide as Your Slowness. She insists the title is richly deserved, however little work it has done.",
+        bio = "Gretta teaches leatherworking in Ironforge. When a student's needs exceed her skills, she points them to the more experienced Fimble by the loom. In Forever, a camping lesson also sends leatherworkers to her to learn to make a tent.",
+        backstory = "Waiting for leather to become workable tries Gretta's patience. One day she gave a particularly stubborn hide a grand title and began asking after its progress. It accomplished nothing, but made the next student's visit considerably more entertaining.",
+        secret = "She occasionally changes the hide's title when nobody is listening. Your Slowness has been promoted several times without becoming any more useful.",
+        bestFriend = "Stay a moment. You understand the joke before I explain it. Your Slowness keeps us waiting, but you are always welcome.",
+        favorite = { emote = "WINK", hint = "A conspiratorial little gesture would show that you understand her joke about the stubborn hide." },
+        lines = {
+            greet = { { "Welcome! Have you come to learn leatherworking, or to keep me company while this hide decides to be useful? I have already tried asking politely. It remains unmoved. If your questions are beyond what I can teach, I will point you toward Fimble. Until then, we can at least get your hands working.", tone = "[bright] [impatient] [playful]" },
+                "There you are! Your Slowness has made no progress, but I had better hopes for you." },
+            idle = { { "I started calling one particularly stubborn hide Your Slowness. It seemed fitting for something that expects everyone else to wait upon it. Since then I have promoted it several times. No improvement whatsoever. Still, a student laughed, and the waiting became rather less tedious. That is more than the hide has managed for us.", tone = "[playful] [wry] [animated]" },
+                "I wonder whether a more impressive title would help. It has done nothing to deserve one, naturally.",
+                "Fimble has worked leather longer than I have. Knowing when to ask him is useful knowledge too." },
+            befriended = { { "Come along! You have become my favorite person to share a completely unproductive complaint with. I can admit when a technique is beyond me, and I can admit that talking to leather has not made it ready any sooner. Your company, however, has improved the waiting considerably. That is a result I am happy to keep.", tone = "[warm] [cheerful] [sincere]" } },
+            poke = { "Yes? Please tell me something has become ready.", "I am listening. Your Slowness, regrettably, never answers." },
+            quest = { { "If you are learning to make a camp tent, remember where you intend to use it. The wilderness is a better place to test your shelter than the middle of town. You will need a campfire as well, so speak with a cook if you have not learned that part. A little preparation makes the lesson useful.", tone = "[instructive] [brisk] [friendly]" } },
+            gear = { "A straight seam gives me something pleasant to look at while the next hide keeps me waiting." },
+            loot = { "Useful material? Splendid. Something that might eventually agree to become useful? Less splendid." },
+            rest = { "Rest is easier when you chose a sensible place for your tent." },
+            levelUp = { "There! Progress. I shall inform the hide that it has competition." },
+            laughAlong = { "You understand! Good. I was beginning to fear I would have to explain the title." },
+            hearth = { "Back to Ironforge. I suppose I should inquire after His Unhurried Excellence." },
+        },
+    },
+
+    -- Drum Fel, Hammerfall, Arathi Highlands,2771/4045. Adult male Orc,
+    -- Horde Friendly.676-679 defend Hammerfall;680 confirms wife Korin,
+    -- past defeat of Or'Kalar and a trap Drum does not know about.
+    --92707 brings Goliath's Wristguards. Practice-post joke is original.
+    -- Research: docs/research/gretta-and-drumfel-queue.md.
+    [2771] = {
+        quote = "Hammerfall needs strength. Bring me more than a boast, and I will give you more than a doubtful look.",
+        likes = { "Tenacity that survives a hard fight", "Strength put to work for Hammerfall", "A challenge answered with action" },
+        dislikes = { "Boasts offered in place of battle", "The forces trying to drive us out", "A task left unfinished without a word" },
+        gossip = "Drum Fel split a practice post, then complained that it offered too little resistance. Nobody expected him to praise its defense.",
+        bio = "Drum Fel demands fierce attacks on the Witherbark and Boulderfist threatening Hammerfall. He tests returning fighters against harder enemies, then the ogre leaders at Stromgarde. He wants the Horde's home in the Highlands to endure.",
+        backstory = "Korin Fel is his wife. Her account recalls his defeat of Or'Kalar years ago. The ogre now seeks revenge, and her auguries reveal a trap. She hides the warning signs from Drum, fearing he would rush out, and seeks another fighter's help.",
+        secret = "After splitting that practice post, he tried one of the pieces with his boot. He wanted to be certain the wood had not been rotten. It had been a very satisfying blow.",
+        bestFriend = "Stand with me. You have given me reason to trust your strength, and I do. Hammerfall still needs defending. I am glad to have you beside me.",
+        favorite = { emote = "SALUTE", hint = "A disciplined show of respect suits a fighter who wants action behind a boast." },
+        lines = {
+            greet = { { "You have come to Hammerfall. Good. Now give me reason to believe you can help keep it standing. The Witherbark and Boulderfist would drive us from these lands, and I have no intention of making that easy. Bring strength, bring tenacity, and leave the empty boasting for someone with time to listen to it.", tone = "[stern] [forceful] [challenging]" },
+                "Back again? Tell me what you have done. I have heard enough of what people intend to do." },
+            idle = { { "I once split a practice post with a blow that deserved a better opponent. I said as much. Then I tested a piece with my boot to make certain the wood had not been rotten. It was sound enough. A satisfying blow, then. I would still have preferred something that tried to strike back.", tone = "[gruff] [proud] [dryly amused]" },
+                "A boast cannot hold an outpost. Put your strength where it will matter.",
+                "Hammerfall is our home here. Let those who would drive us out learn what that means." },
+            befriended = { { "I know what strength looks like when it returns from a hard fight. You have earned my respect, and I will not pretend otherwise. Stand beside me, friend. There is still danger enough for both of us, and I would rather meet it with someone whose tenacity I trust. Come. We have spent enough time talking about it.", tone = "[gruff] [sincere] [resolute]" } },
+            poke = { "Speak. If there is a threat, I want to hear it.", "I am here. I expect you to be ready when you say you are." },
+            quest = { { "The enemy you have already beaten is no reason to grow comfortable. There are harder foes ahead, and Hammerfall needs fighters who can meet them. Finish the task, return, and tell me what happened. If battle tests you, let it find tenacity. I have respect for someone who keeps answering the challenge when it grows harder.", tone = "[commanding] [intense] [approving]" } },
+            combatStart = { "There is your chance to show what your boasting was worth!" },
+            combatEnd = { "Good. You met the challenge. Keep that strength ready for the next one." },
+            rest = { "Rest, then return ready. There is no shortage of fighting ahead." },
+            levelUp = { "Stronger. Good. Make the next enemy regret giving you the chance to prove it." },
+            laughAlong = { "Ha! Even that post would have offered a better defense of its reputation." },
+            hearth = { "Back to Hammerfall. I want to know how the outpost fares." },
+        },
+    },
+
     -- Caylais Moonfeather <Hippogryph Master>, Auberdine,3841/1932.
     -- Adult female Night Elf, Alliance-friendly Elite/Flight Master.
     -- Actual gossip honors training hippogryphs;6343 return to Rut'theran.

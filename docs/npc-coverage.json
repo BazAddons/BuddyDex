@@ -1,17 +1,17 @@
 {
   "as_of": "2026-11-09",
-  "completed_profiles": 410,
+  "completed_profiles": 412,
   "scope": "Completed authored profiles only. Faction counts reflect public current friendly-reaction icons; live faction/reputation/attackability checks still apply. NPC race is separate from player starting-area coverage. Major city profiles do not establish beginner-zone coverage. Shared friendly profiles count toward both faction access totals; these totals overlap and must not be added as unique NPCs.",
   "faction_counts": {
-    "alliance": 206,
+    "alliance": 207,
     "unverified": 99,
-    "horde": 112
+    "horde": 113
   },
   "npc_race_counts": {
     "1": 165,
     "3": 36,
-    "7": 26,
-    "2": 30,
+    "7": 27,
+    "2": 31,
     "5": 39,
     "4": 21,
     "9": 19,
@@ -27,13 +27,13 @@
     "Stormwind City": 114,
     "Redridge Mountains": 23,
     "Dun Morogh": 5,
-    "Ironforge": 34,
+    "Ironforge": 35,
     "Stranglethorn Vale": 2,
     "Tirisfal Glades": 32,
     "Silverpine Forest": 3,
     "Teldrassil": 9,
     "Hillsbrad Foothills": 1,
-    "Arathi Highlands": 2,
+    "Arathi Highlands": 3,
     "Badlands": 1,
     "Darkshore": 4,
     "Mulgore": 10,
@@ -1447,6 +1447,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1444"
     },
     {
+      "npc_id": 1466,
+      "name": "Gretta Finespindle",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1466"
+    },
+    {
       "npc_id": 1472,
       "name": "Morgg Stormshot",
       "zone": "Stormwind City",
@@ -2070,6 +2083,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2708"
+    },
+    {
+      "npc_id": 2771,
+      "name": "Drum Fel",
+      "zone": "Arathi Highlands",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2771"
     },
     {
       "npc_id": 2795,

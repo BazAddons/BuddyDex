@@ -1,4 +1,5 @@
 # Unreleased
+- Add Gretta Finespindle and Drum Fel: full female Gnome/male Orc profiles, fifteen personal lines and four approved v4 signatures each; include Gretta's Forever camping lesson and Drum's quest-confirmed relationship with Korin.
 
 - Add Caylais Moonfeather and Tharm: full female Night Elf/male Tauren flight-master profiles, fifteen personal lines and four approved v4 signatures each; validate their actual Elite friendship thresholds without changing interaction gains.
 

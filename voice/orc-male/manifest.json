@@ -1,4 +1,44 @@
 {
+  "lore2771_befriended_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "befriended",
+    "say": null,
+    "source": "lore:2771",
+    "spoken": "[gruff] [sincere] [resolute] I know what strength looks like when it returns from a hard fight. You have earned my respect, and I will not pretend otherwise. Stand beside me, friend. There is still danger enough for both of us, and I would rather meet it with someone whose tenacity I trust. Come. We have spent enough time talking about it.",
+    "text": "I know what strength looks like when it returns from a hard fight. You have earned my respect, and I will not pretend otherwise. Stand beside me, friend. There is still danger enough for both of us, and I would rather meet it with someone whose tenacity I trust. Come. We have spent enough time talking about it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2771_greet_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "greet",
+    "say": null,
+    "source": "lore:2771",
+    "spoken": "[stern] [forceful] [challenging] You have come to Hammerfall. Good. Now give me reason to believe you can help keep it standing. The Witherbark and Boulderfist would drive us from these lands, and I have no intention of making that easy. Bring strength, bring tenacity, and leave the empty boasting for someone with time to listen to it.",
+    "text": "You have come to Hammerfall. Good. Now give me reason to believe you can help keep it standing. The Witherbark and Boulderfist would drive us from these lands, and I have no intention of making that easy. Bring strength, bring tenacity, and leave the empty boasting for someone with time to listen to it.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2771_idle_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "idle",
+    "say": null,
+    "source": "lore:2771",
+    "spoken": "[gruff] [proud] [dryly amused] I once split a practice post with a blow that deserved a better opponent. I said as much. Then I tested a piece with my boot to make certain the wood had not been rotten. It was sound enough. A satisfying blow, then. I would still have preferred something that tried to strike back.",
+    "text": "I once split a practice post with a blow that deserved a better opponent. I said as much. Then I tested a piece with my boot to make certain the wood had not been rotten. It was sound enough. A satisfying blow, then. I would still have preferred something that tried to strike back.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
+  "lore2771_quest_1.ogg": {
+    "line": 1,
+    "model": "eleven_v4",
+    "moment": "quest",
+    "say": null,
+    "source": "lore:2771",
+    "spoken": "[commanding] [intense] [approving] The enemy you have already beaten is no reason to grow comfortable. There are harder foes ahead, and Hammerfall needs fighters who can meet them. Finish the task, return, and tell me what happened. If battle tests you, let it find tenacity. I have respect for someone who keeps answering the challenge when it grows harder.",
+    "text": "The enemy you have already beaten is no reason to grow comfortable. There are harder foes ahead, and Hammerfall needs fighters who can meet them. Finish the task, return, and tell me what happened. If battle tests you, let it find tenacity. I have respect for someone who keeps answering the challenge when it grows harder.",
+    "voice_id": "SsUXUYPOaoD5XMe36mlU"
+  },
   "lore2861_befriended_1.ogg": {
     "line": 1,
     "model": "eleven_v4",
