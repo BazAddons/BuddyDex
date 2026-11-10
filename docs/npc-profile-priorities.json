@@ -2023,6 +2023,20 @@
       "zone": "Undercity",
       "route": "Horde Forsaken Trade Quarter and Magic Quarter city coverage",
       "reason": "Full adult profile with fifteen queued personal lines; original friendships grounded in current roles and full relevant quest chains, city/starter distinction and ordinary live gates retained, no synthesis"
+    },
+    {
+      "npc_id": 3567,
+      "name": "Tallonkai Swiftroot",
+      "zone": "Teldrassil",
+      "route": "Alliance Night Elf male/female Dolanaar early route",
+      "reason": "Full adult profile and fifteen queued personal lines; Forever Twisted Hatred follow-up retained, Cataclysm Nyoma quest rewrite excluded, ordinary live gates unchanged, no synthesis"
+    },
+    {
+      "npc_id": 4265,
+      "name": "Nyoma",
+      "zone": "Teldrassil",
+      "route": "Alliance Night Elf male/female Dolanaar early route",
+      "reason": "Full adult profile and fifteen queued personal lines; Forever Twisted Hatred follow-up retained, Cataclysm Nyoma quest rewrite excluded, ordinary live gates unchanged, no synthesis"
     }
   ]
 }

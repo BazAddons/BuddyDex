@@ -3,7 +3,7 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 233,
+    "alliance": 235,
     "unverified": 134,
     "horde": 187
   },
@@ -13,7 +13,7 @@
     "7": 33,
     "2": 64,
     "5": 57,
-    "4": 34,
+    "4": 36,
     "8": 40,
     "9": 26,
     "6": 62,
@@ -32,7 +32,7 @@
     "Tirisfal Glades": 35,
     "Undercity": 11,
     "Silverpine Forest": 7,
-    "Teldrassil": 11,
+    "Teldrassil": 13,
     "Hillsbrad Foothills": 3,
     "Arathi Highlands": 11,
     "Orgrimmar": 34,
@@ -3575,6 +3575,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3518"
     },
     {
+      "npc_id": 3567,
+      "name": "Tallonkai Swiftroot",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3567"
+    },
+    {
       "npc_id": 3593,
       "name": "Alyissia",
       "zone": "Teldrassil",
@@ -3996,6 +4009,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current API confirms identity/model but no current public reaction. Historical Alliance merchant references do not establish current access; ordinary live gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4230"
+    },
+    {
+      "npc_id": 4265,
+      "name": "Nyoma",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Alliance Friendly",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4265"
     },
     {
       "npc_id": 4267,
@@ -6937,6 +6963,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 541,
-  "awaiting_signature_audio_profiles": 87
+  "authored_profiles": 543,
+  "awaiting_signature_audio_profiles": 89
 }

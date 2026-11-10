@@ -2352,5 +2352,19 @@
     "zone": "Undercity",
     "source": "Reviewed unique adult Forsaken, current Horde Friendly/model fields, complete available own/linked chains, stock and installed/public dialogue; no Scout sighting claimed",
     "research_notes": "docs/research/undercity-fungus-supplies-and-old-friendships.md"
+  },
+  {
+    "npc_id": 3567,
+    "name": "Tallonkai Swiftroot",
+    "zone": "Teldrassil",
+    "source": "Reviewed unique adult Night Elf, current Alliance Friendly/model fields, full available linked quest/version text and stock; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-dreams-and-cooking-supplies.md"
+  },
+  {
+    "npc_id": 4265,
+    "name": "Nyoma",
+    "zone": "Teldrassil",
+    "source": "Reviewed unique adult Night Elf, current Alliance Friendly/model fields, full available linked quest/version text and stock; no Scout sighting claimed",
+    "research_notes": "docs/research/dolanaar-dreams-and-cooking-supplies.md"
   }
 ]

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tallonkai Swiftroot and Nyoma: two complete adult Night Elf profiles along the Dolanaar starter route, with thirty personal lines queued.
+- Preserve the Forever Twisted Hatred follow-up and keep later Nyoma quest rewrites out of her cooking-supplier story.
+
 - Add Tawny Grisette, Gordon Wendham and Bethor Iceshard: three complete Forsaken profiles in Undercity, with forty-five personal lines queued.
 - Ground Gordon in the Sepulcher supply chain and Bethor in the full Gunther, Thule and Woven Wand stories, with distinct original friendship writing and normal character-specific unlocks.
 
@@ -96,4 +99,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **541 fully written NPC profiles**: 454 have initial signature recordings, and eighty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **543 fully written NPC profiles**: 454 have initial signature recordings, and eighty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tallonkai Swiftroot and Nyoma: two complete adult Night Elf profiles along the Dolanaar starter route, with thirty personal lines queued.
+- Preserve the Forever Twisted Hatred follow-up and keep later Nyoma quest rewrites out of her cooking-supplier story.
+
 - Add Tawny Grisette, Gordon Wendham and Bethor Iceshard: three complete Forsaken profiles in Undercity, with forty-five personal lines queued.
 - Ground Gordon in the Sepulcher supply chain and Bethor in the full Gunther, Thule and Woven Wand stories, with distinct original friendship writing and normal character-specific unlocks.
 

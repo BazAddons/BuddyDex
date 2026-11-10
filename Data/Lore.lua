@@ -41,6 +41,74 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tallonkai Swiftroot, Dolanaar, Teldrassil. Adult Night Elf male
+    -- display2686/M2 974343, Alliance Friendly. Full2438/2459/932 and
+    -- Forever98403 reviewed; treasured gift and reputation-driven secrecy.
+    -- Rehearsing an ordinary Starbreeze day is original BuddyDex writing.
+    -- Research: docs/research/dolanaar-dreams-and-cooking-supplies.md
+    [3567] = {
+        quote = "There are matters best discussed away from the road. Come closer.",
+        likes = { "A discreet acknowledgment", "A valued gift handled carefully", "A report that distinguishes fact from rumor" },
+        dislikes = { "Dolanaar made a public spectacle", "Corruption near familiar homes", "Being assured a problem cannot grow" },
+        gossip = "Tallonkai speaks warmly of protecting the groves. Ask which danger troubles him most, and his voice becomes much quieter.",
+        bio = "Tallonkai Swiftroot in Dolanaar seeks his treasured dreamcatcher and help against nearby corruption. Beyond Lord Melenas, Xethorr threatens the groves. Tallonkai also fears what these secrets could do to the village reputation.",
+        backstory = "Gaerolas Talvethen gave him the emerald dreamcatcher he left in a dresser at Starbreeze Village. Corrupted furbolg made retrieving it dangerous. A cherished gift and a once-tranquil home became reasons to ask another traveler for help.",
+        secret = "He misses being able to describe Starbreeze without first explaining what went wrong there. Sometimes he rehearses a perfectly ordinary account of an uneventful day.",
+        bestFriend = "Bring me the truth first. You need not protect my pride along with the village. I am trusting you to know the difference.",
+        favorite = {
+            emote = "NOD",
+            hint = "He values a quiet sign that a confidence has been understood.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Come, then. We may speak more freely once we are away from the road.", tone = "[measured] [quiet]" }, "Good to see you. Have you kept your eyes open?" },
+            idle = { { "I should like an account of Starbreeze in which nothing remarkable happened. I remember when that was possible.", tone = "[reflective] [restrained]" }, "A gift may matter for reasons that have little to do with its power.", "The end of one concern does not guarantee the next was not waiting behind it." },
+            befriended = { { "You have shown discretion. I should like to trust you with more than another difficult task.", tone = "[quiet] [sincere]" } },
+            poke = { "Yes? Lower your voice a little. I am listening.", "I was considering how much of that was known, and how much merely repeated." },
+            quest = { { "Distinguish what you saw from what you suspect. Both may matter, but they are not the same.", tone = "[firm]" } },
+            questAccepted = { "Take care, and take allies if the danger warrants them." },
+            loot = { "Handle it carefully. The damage may be harder to mend than it appears." },
+            zone = { "A place is more than the troubles you hear about it. Look closely." },
+            rest = { "A quiet moment. I would prefer to let it remain one." },
+            combatEnd = { "See what remains before deciding the matter is finished." },
+            learned = { "Remember what led you to that conclusion. Confidence alone is not a finding." },
+        },
+    },
+
+    -- Nyoma <Cooking Supplies>, Dolanaar, Teldrassil. Adult Night Elf
+    -- female4236/M2 921844, Alliance Friendly, Vendor14current items.
+    -- No own Classic/Forever quest or installed gossip found. Cataclysm
+    -- recipe-book/Aquinne chain excluded. Imprecise private notes invented.
+    -- Research: docs/research/dolanaar-dreams-and-cooking-supplies.md
+    [4265] = {
+        quote = "A small measure can make quite a difference. That is no reason to use a large one.",
+        likes = { "Ingredients put to good use", "A cook tasting before adding more", "A useful question asked without embarrassment" },
+        dislikes = { "Every mistake covered with spices", "Instructions skipped until something burns", "A meal judged only by its name" },
+        gossip = "Nyoma can help a cook find the right supplies. People who ask how she uses them sometimes receive a less exact answer.",
+        bio = "Nyoma sells cooking supplies in Dolanaar, including spices, basic ingredients, fuel, and fish recipes. She likes seeing a learner begin with something manageable. A meal need not be elaborate to give its cook a reason to try again.",
+        backstory = "She started noting what made an ordinary meal turn out well. Some instructions grew exact; others remained no more useful than a small pinch or a little longer. Reading them later taught her which parts she had never really explained.",
+        secret = "Her own notes still contain the instruction until it looks right. She knows this is not helpful. Every attempt to define it has ended with her looking at the pot.",
+        bestFriend = "Come and taste this before I change anything. I trust you to tell me what it needs, including nothing at all.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates someone noticing the practical help behind a good meal.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Good to see you. Let us find out whether this outing will leave time for a proper meal.", tone = "[warm] [practical]" }, "I am ready. Have you brought what you need, or only what looked interesting?" },
+            idle = { { "Until it looks right. An excellent instruction, provided you already know what right looks like.", tone = "[wry] [thoughtful]" }, "A small pinch is not a measurement that becomes clearer when written more neatly.", "You may enjoy an ordinary meal without apologizing for its simplicity." },
+            befriended = { { "You need not arrive with something impressive to share. I am glad of the company itself.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you are asking how much, I shall try to give you a useful answer.", "I was considering whether it needs anything else. Sometimes the answer is no." },
+            learned = { { "Try the simple version first. Then you will know what your improvements have changed.", tone = "[patient] [encouraging]" } },
+            bagsFull = { "Keep the ingredients where you can find them before you begin." },
+            loot = { "Something useful for supper? Check before you decide everything belongs in the same bag." },
+            rest = { "A good time to pause. Hurrying is not a substitute for being ready." },
+            quest = { "Read what is needed before you start gathering twice as much of something else." },
+            mail = { "A clear instruction can travel a long way and still be useful when it arrives." },
+            thanked = { "You are welcome. I should like to hear how it turns out." },
+        },
+    },
+
     -- Tawny Grisette <Mushroom Vendor>, Trade Quarter, Undercity. Adult
     -- Forsaken female2674/M2 997378, Horde Friendly. Classic twelve stock,
     -- current own four tabs zero/no gossip. Later Lordaeron move excluded.
