@@ -5,20 +5,20 @@
   "faction_counts": {
     "alliance": 389,
     "unverified": 183,
-    "horde": 378
+    "horde": 380
   },
   "npc_race_counts": {
     "1": 168,
     "3": 87,
     "7": 62,
-    "2": 98,
+    "2": 99,
     "5": 97,
     "4": 85,
     "9": 67,
     "8": 61,
     "6": 99,
     "96": 28,
-    "95": 49
+    "95": 50
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -57,10 +57,10 @@
     "Felwood": 4,
     "Un'Goro Crater": 1,
     "Winterspring": 2,
-    "Moonglade": 1,
+    "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 74,
+    "Zephras Isle": 75,
     "Riverglades": 14
   },
   "entries": [
@@ -9207,6 +9207,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12738"
     },
     {
+      "npc_id": 12740,
+      "name": "Faustron",
+      "zone": "Moonglade",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/12740"
+    },
+    {
       "npc_id": 12776,
       "name": "Hraug",
       "zone": "Durotar",
@@ -11386,6 +11399,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270637"
     },
     {
+      "npc_id": 271478,
+      "name": "Elaria Anvilwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/271478"
+    },
+    {
       "npc_id": 271480,
       "name": "Taliaa Brightsky",
       "zone": "Zephras Isle",
@@ -11562,6 +11588,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 901,
-  "awaiting_signature_audio_profiles": 447
+  "authored_profiles": 903,
+  "awaiting_signature_audio_profiles": 449
 }

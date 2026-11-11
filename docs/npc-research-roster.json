@@ -4872,5 +4872,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde; Full6361/6362/6363/6364, twelve goods and own craft greeting; original shoulder in skyline sketch; no Scout sighting claimed",
     "research_notes": "docs/research/alynsias-presentation-and-ahanus-landmark.md"
+  },
+  {
+    "npc_id": 271478,
+    "name": "Elaria Anvilwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult horde; Six current Zephrali goods/repair, Horde Friendly; original floor wins coin toss; no Scout sighting claimed",
+    "research_notes": "docs/research/elarias-game-and-faustrons-greeting.md"
+  },
+  {
+    "npc_id": 12740,
+    "name": "Faustron",
+    "zone": "Moonglade",
+    "source": "Reviewed adult horde; Own flight greeting and current Horde Friendly role; original carrying hello and whispered answer; no Scout sighting claimed",
+    "research_notes": "docs/research/elarias-game-and-faustrons-greeting.md"
   }
 ]

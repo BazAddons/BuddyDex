@@ -4543,6 +4543,20 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff leather goods and Jahan exchange",
       "reason": "Full6361/6362/6363/6364, twelve goods and own craft greeting; original shoulder in skyline sketch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 271478,
+      "name": "Elaria Anvilwind",
+      "zone": "Zephras Isle",
+      "route": "Zephras artisan armorsmith",
+      "reason": "Six current Zephrali goods/repair, Horde Friendly; original floor wins coin toss; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 12740,
+      "name": "Faustron",
+      "zone": "Moonglade",
+      "route": "Moonglade wind rider master",
+      "reason": "Own flight greeting and current Horde Friendly role; original carrying hello and whispered answer; fifteen personal lines queued without synthesis"
     }
   ]
 }

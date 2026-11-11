@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Elaria Anvilwind, Zephras Artisan Armorsmith/Repair. Adult High Order female146671/M2 7478494, current Horde Friendly; six Zephrali armor goods, no own quests/gossip. Floor wins coin toss original; no free armor, training or vendor entitlement bypass.
+    -- Research: docs/research/elarias-game-and-faustrons-greeting.md
+    [271478] = {
+        quote = "The coin went between the boards. My friend declared that the floor had won, and therefore owed us a story. We gave it a moment. Then we agreed to tell our own.",
+        likes = { "Careful work that holds up to use", "A small game allowed to end in laughter", "Company with no need to win every point" },
+        dislikes = { "A pleasant contest turned into a quarrel", "A loose fastening ignored for its appearance", "Waiting for the floor to begin its story" },
+        gossip = "Elaria lost a coin between the boards during a friendly toss. Her friend declared the floor the winner. They soon tired of waiting for its story.",
+        bio = "Elaria Anvilwind is an artisan armorsmith on Zephras Isle. She sells Zephrali armor and offers repairs. Outside the useful work, she enjoys a small game whose outcome need not matter very much.",
+        backstory = "They tossed a coin to decide who would tell the next story. It slipped between the boards. Her friend declared that the floor had won. They waited solemnly, then laughed and decided to hear both stories instead.",
+        secret = "She likes a friend who can let the contest end without losing the afternoon to it. The point was always the company, even before the floor made its winning move.",
+        bestFriend = "Come along, friend. We need not find a winner before hearing what you have to tell me. The floor has kept its story long enough.",
+        favorite = {
+            emote = "CLAP",
+            hint = "A little applause for a harmless shared joke keeps the afternoon pleasant.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. I have still heard nothing from the floor. A disappointing winner, considering how decisively it claimed the coin. We may have to begin the next story ourselves, without another contest to determine whose turn it is.", tone = "[playful] [amused]" }, "Welcome back. Have you brought a useful question or a good story? I should be glad to hear either before we consult the floor again." },
+            idle = { { "The coin slipped between the boards. My friend declared that the floor had won and therefore owed us a story. We gave it a very solemn moment to begin. Then we laughed and agreed to hear both our stories instead.", tone = "[dry] [amused]" }, "A small game need not decide anything important. Sometimes it is enough that the two people playing enjoy the pause together.", "Careful work deserves a proper inspection. A pleasing first impression should invite you to look more closely, not excuse you from doing so." },
+            befriended = { { "You can enjoy a little contest without making the winner more important than the company. Come along, friend. I would like to hear the next story, and I see no need to wait for the floor's permission to begin it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? If the floor has begun speaking, you had better hear the story before interrupting it.", "A moment. I am finishing the useful part before returning to our rather unusual competition." },
+            gear = { { "Look at fit, fastening, and condition. The equipment must serve the person wearing it, not merely look impressive while standing still. A small fault is easier to attend to before it has been carried a long way.", tone = "[steady] [instructive]" } },
+            rest = { "Let us pause a little. We can have a perfectly good conversation without appointing anyone its winner." },
+            newFriend = { "Let the game be a reason to talk together. If you spend the whole visit deciding who won, you may forget to enjoy meeting them." },
+            thanked = { "You are welcome. A useful answer and a pleasant visit make a good enough result for me." },
+            quest = { "Know what is required before deciding the work is finished. A confident announcement will not supply the part you overlooked." },
+            bagsFull = { "Leave the small useful things where you can reach them. Otherwise the next pause becomes a long search beneath everything else." },
+            group = { "Let everyone have a turn. We need not lose another coin deciding whose story deserves to be heard first." },
+        },
+    },
+
+    -- Faustron, Moonglade Wind Rider Master. Adult Orc male12629/M2 917116, current Horde Friendly; own flight greeting, no own quests. Carrying greeting and whispered answer original; no free route, druid-only service, invented rank or actual flight granted.
+    -- Research: docs/research/elarias-game-and-faustrons-greeting.md
+    [12740] = {
+        quote = "That greeting was meant to carry over wings, not across a quiet conversation. You need not whisper your answer quite so pointedly. I heard the suggestion. Let me try hello again.",
+        likes = { "A familiar traveler returning safely", "A quieter greeting after the wings pass", "A friend who can make the point kindly" },
+        dislikes = { "A simple question hurried into confusion", "Calling over a quiet conversation", "Forgetting to lower his voice after work" },
+        gossip = "Faustron called a greeting to a nearby friend. They whispered hello in reply. He laughed and began again more quietly.",
+        bio = "Faustron is a wind rider master in Moonglade. He asks travelers where they wish to fly. A voice accustomed to carrying over wings can make an ordinary greeting larger than its audience requires.",
+        backstory = "He called a greeting meant to carry over wingbeats, though his friend stood close by. They replied with an exaggerated whisper. Faustron laughed, lowered his voice, and tried hello again. The rest needed no calling.",
+        secret = "He is pleased when someone returns to speak with him without needing to go anywhere. A quiet conversation can be worth staying for after so many departures.",
+        bestFriend = "Come along, friend. I would like to hear what you have to say without calling over it. A quieter hello was a good beginning.",
+        favorite = {
+            emote = "GREET",
+            hint = "A familiar greeting can begin a visit that does not require anyone to depart.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend! Yes, I heard how far that carried. You need not answer with the whisper again. Let me begin more quietly. Hello. It is good to see you, particularly if you have time to remain for the next part of the conversation.", tone = "[boisterous] [amused]" }, "Welcome back. Have you a destination in mind, or a little time for a visit before deciding where to go?" },
+            idle = { { "I greeted them as though my voice needed to carry over wings. They stood quite close and whispered hello in reply. I laughed and lowered my voice. A useful suggestion, delivered quietly enough that I had to stop calling in order to hear it.", tone = "[quiet] [reflective]" }, "A clear question is worth hearing before offering a direction. There is little use in sending someone confidently toward the wrong place.", "It is pleasant when the familiar face has returned without immediately needing to leave again. A greeting can have more after it than a farewell." },
+            befriended = { { "You have become someone I am glad to see for more than the journey I can help arrange. Come along, friend. I would like to hear the rest of your story, and this time I shall try to let my greeting remain smaller than the conversation.", tone = "[gruff] [warm]" } },
+            poke = { "Yes, friend? I can hear you perfectly well at that distance.", "A moment. I would rather finish listening than offer the wrong answer in a splendidly carrying voice." },
+            rest = { { "A quiet pause would be welcome. We need not decide where anyone is going for a little while. Tell me something you wished to say simply because we have time to sit and hear one another.", tone = "[softly] [relaxed]" } },
+            zone = { "Here we are, friend. Let us notice where we have arrived before beginning the next farewell." },
+            quest = { "Make certain you understand where the message must go. A confident departure is not much help if the destination was never clear." },
+            newFriend = { "Give them room to answer the greeting. You may discover that the useful question comes after the first quiet hello." },
+            thanked = { "Glad it helped. If you have time before leaving, I would enjoy hearing something beyond the name of the next destination." },
+            group = { "Let one person finish the question before everyone begins offering directions. I have learned that a carrying voice is not always the useful one." },
+            gear = { "Check the loose things before setting out. A small care taken here can save an unwelcome interruption farther along the road." },
+        },
+    },
+
     -- Alynsia, Enchanter vendor, current Alliance Neutral Redridge11.14,71.48. Adult High Order female139799/M2 7478494, forty-one goods and confident own greeting. Hiccup presentation original; positive faction access unverified, no free enchant/recipe/certification.
     -- Research: docs/research/alynsias-presentation-and-ahanus-landmark.md
     [256732] = {

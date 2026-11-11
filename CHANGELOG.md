@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Elaria Anvilwind and Faustron: complete High Order and Orc profiles, thirty personal lines queued.
+- Add two current Horde Friendly identities on Zephras and in Moonglade; document original shared coin-toss joke and quieter greeting without granting services.
+
 - Add Alynsia and Ahanu: full High Order and Tauren profiles, thirty personal lines queued.
 - Research enchantment stock and the full hide-delivery chain; document original interrupted presentation and skyline sketch while retaining normal Neutral eligibility checks.
 
