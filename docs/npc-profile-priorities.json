@@ -4088,6 +4088,27 @@
       "zone": "Feralas",
       "route": "Camp Mojache wind rider master",
       "reason": "Own destination greeting; original ground-level canopy view and post-wingbeat pause; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4775,
+      "name": "Felicia Doan",
+      "zone": "Undercity",
+      "route": "Undercity general trade supplier",
+      "reason": "31currentgoods and Classic no-quest result; original thread-and-apple guess; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3003,
+      "name": "Fyr Mistrunner",
+      "zone": "Thunder Bluff",
+      "route": "Lower Rise bread vendor",
+      "reason": "6currentfoods and Classic no-quest result; original answering rhythm; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 264078,
+      "name": "Sutara Plainstalker",
+      "zone": "Mulgore",
+      "route": "Earthen Ring quartermaster",
+      "reason": "Own provisioning gossip,97196 request and8patterns; original unused spare; Horde Neutral; fifteen personal lines queued without synthesis"
     }
   ]
 }

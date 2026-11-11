@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Felicia Doan, Fyr Mistrunner, and Sutara Plainstalker: three adult Forsaken/Tauren women with forty-five personal lines queued.
+- Review current trade/bread/quartermaster stock and the Coldbringer artifact request; document original shopping-guess, answering-rhythm, and unused-spare scenes.
+
 - Add Jelinek Sharpshear and Shyn: adult Gnome and Tauren profiles with thirty personal lines queued.
 - Verify current barber/flight-master identities and own greetings; document original windswept-afternoon and canopy-view scenes.
 

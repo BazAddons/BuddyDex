@@ -41,6 +41,99 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Felicia Doan, Undercity trade supplier. Adult Forsaken female2811/M2 997378, Horde Friendly.31currentgoods, no personal quest/gossip; thread-and-apple shopping guess original. No Arcanist Doan kinship established.
+    -- Research: docs/research/felicia-fyr-and-sutara.md
+    [4775] = {
+        quote = "Thread and an apple. I could construct an elaborate theory about your plans, but I suspect you will call it a pocket and lunch.",
+        likes = { "A practical answer that defeats her theory", "A shopping list with a surprising purpose", "Useful goods chosen without ceremony" },
+        dislikes = { "A clever guess mistaken for a complete plan", "The wrong tool defended with a grand plan", "A simple errand made needlessly mysterious" },
+        gossip = "Felicia can imagine a remarkable expedition from two purchases. Sometimes the customer is only repairing a pocket and having lunch.",
+        bio = "Felicia Doan supplies general trade goods in Undercity. Tools, thread, dyes, vials, fishing supplies, and an apple share space in her stock. Her trade serves many different kinds of work, from the ambitious undertaking to the ordinary repair.",
+        backstory = "A customer chose thread and an apple. Felicia considered the journey they might be preparing for, then learned the thread was for a torn pocket and the apple for lunch. She appreciated the efficiency of the explanation.",
+        secret = "She enjoys being surprised by what people are actually making. The guess is a game, not a demand that their plans become impressive enough to justify her interest.",
+        bestFriend = "Come along, friend. Tell me what you are really planning before I send you on an expedition you never intended to take.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She appreciates someone quietly sharing the joke when a sensible little plan defeats her elaborate guess.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. If you have thread and an apple, I shall try to remember the possibility of a pocket and lunch before arranging a remarkable expedition on your behalf.", tone = "[dry] [amused]" }, "Good to see you. What are you planning? You may tell me the ordinary version. I am quite capable of finding that interesting." },
+            idle = { { "A customer bought thread and an apple. I began considering the journey. They were repairing a pocket and having lunch. It was a very efficient plan, and considerably easier to provision than mine.", tone = "[matter-of-fact] [wry]" }, "A useful tool need not have an impressive purpose. Something small put right may improve the whole afternoon.", "It is pleasant to learn what people actually make from a list of supplies. I would rather hear the surprising answer than insist my first guess was correct." },
+            befriended = { { "You have become someone whose plans I am pleased to hear before turning them into a shopping list. Walk beside me, friend. The ordinary account will be welcome.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Has the pocket become an expedition after all?", "Go on. I have not yet committed us to the elaborate version." },
+            gear = { { "Choose the part that serves the work. A grand explanation will not make the wrong tool suddenly understand what you meant.", tone = "[dry] [instructive]" } },
+            loot = { "Look at what you have before planning the rest. It may be useful in a way your first grand theory has overlooked." },
+            bagsFull = { "Arrange the contents before adding another necessity. A supply you cannot find is not helping as much as you intended." },
+            quest = { "Finished. Give a simple success its proper value before deciding it ought to have required a longer story." },
+            rest = { "A pause. You may have lunch without presenting it as preparation for something extraordinary." },
+            newFriend = { "Someone new. Hear what they intend before equipping them for the adventure you imagined." },
+            thanked = { "You are welcome. I am pleased the useful part found its purpose." },
+        },
+    },
+
+    -- Fyr Mistrunner, Thunder Bluff bread vendor. Adult tauren female2109/M2 986648, Horde Friendly.6currentfoods, no personal quests/gossip; answering counter rhythm original. No later retail feast event.
+    -- Research: docs/research/felicia-fyr-and-sutara.md
+    [3003] = {
+        quote = "You may answer the rhythm if you like. There is no examination, and I have yet to refuse a welcome for arriving one beat late.",
+        likes = { "A hesitant rhythm answered with a smile", "An ordinary visit finding its own pace", "Bread chosen for the journey ahead" },
+        dislikes = { "A friendly invitation made into an audition", "A visitor too embarrassed to join the joke", "A meal forgotten while everyone hurries" },
+        gossip = "Fyr sometimes taps a greeting beside the bread. A visitor answering a beat late may be the reason she smiles.",
+        bio = "Fyr Mistrunner sells bread at Breads and Grains on Thunder Bluff's lower rise. Her stock includes Mulgore spice bread, cornbread, banana bread, and cherry pie. Travelers can find provisions there before continuing across the rises or beyond the city.",
+        backstory = "Arranging the bread, she tapped a short rhythm on the counter. A customer answered a little late. Fyr repeated it more slowly, and they enjoyed a brief exchange that required neither of them to claim they were a musician.",
+        secret = "She likes the hesitant answer more than a flawless performance. It means someone accepted the invitation before deciding whether they were good at it.",
+        bestFriend = "There you are, friend. Answer when you are ready. I would rather share the rhythm than keep perfect time alone.",
+        favorite = {
+            emote = "CLAP",
+            hint = "A little answering rhythm can turn an ordinary welcome into a shared moment.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. If you answer the rhythm a little late, I shall make room for the beat. We are enjoying a visit, not judging a performance.", tone = "[warm] [playful]" }, "It is good to see you. Have you found time for a meal, or has the day persuaded you that every small kindness must wait until the work is finished?" },
+            idle = { { "I tapped a little rhythm while arranging the bread. The customer answered late, so I repeated it more slowly. We had a pleasant exchange without either of us claiming to be a musician.", tone = "[gentle] [amused]" }, "A small invitation is enough. Someone should not have to prove they are good at enjoying company before being welcome in it.", "Provisions belong in the preparation, not in the list of things you intended to remember after you were already on the road." },
+            befriended = { { "You have become company I am pleased to welcome at whatever pace the day has left you. Walk beside me, friend. We can find the rhythm as we go.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have we discovered another place to put the beat?", "Go on. There is room in the visit for what you came to say." },
+            cheerAlong = { { "There we are. A little answering rhythm, and the moment belongs to both of us. You need not improve it by deciding who performed it better.", tone = "[bright] [encouraging]" } },
+            rest = { "A pause. Let the day slow enough for you to notice whether you have eaten and how the company is doing." },
+            bagsFull = { "Leave room for the things you will actually use. A grand collection is poor preparation if it pushes the provisions out." },
+            quest = { "Finished. Allow a little satisfaction to arrive before setting a new task in its place." },
+            newFriend = { "Someone new. Offer a place in the moment before deciding whether they know how to join it." },
+            thanked = { "You are welcome. I am pleased the small kindness found you at a useful time." },
+            group = { "Let everyone settle into the pace. The person a little behind may still have a welcome answer to offer." },
+        },
+    },
+
+    -- Sutara Plainstalker, Earthen Ring quartermaster, Mulgore. Adult tauren female143985/M2 986648, Horde Neutral access unverified. Own provisioning gossip,97196 objective/description,8patterns; returned-unused spare original. No Scourge threat resolved.
+    -- Research: docs/research/felicia-fyr-and-sutara.md
+    [264078] = {
+        quote = "There is no waste in preparing for a trouble that never came. Bring the spare back. I am pleased you did not need it.",
+        likes = { "A contingency that never had to be used", "Supplies matched to the people carrying them", "A plain report of an uneventful return" },
+        dislikes = { "Provisioning dismissed until the last moment", "A shortage hidden beneath a confident speech", "An unused spare mistaken for a failed plan" },
+        gossip = "Sutara can be pleased to count unused supplies back in. An uneventful return is an excellent explanation.",
+        bio = "Sutara Plainstalker handles Earthen Ring supplies in Mulgore. She offers equipment patterns and seeks the Coldbringer's Eye from Razorfen Downs, hoping its scrying power will expose covert Scourge agents. Provision and foresight serve the same protective purpose.",
+        backstory = "A traveler apologized for returning a spare unused. Sutara asked whether the journey had gone safely, then counted it back in. She was pleased the preparation had been sound and the trouble had never arrived.",
+        secret = "She enjoys hearing that nothing remarkable happened. A safe, ordinary return can be the best account of the work, even when it leaves no dramatic tale for others to repeat.",
+        bestFriend = "Tell me the uneventful version, friend. I am glad you returned with so little to explain and so much still in good order.",
+        favorite = {
+            emote = "THANK",
+            hint = "She values recognition of the quiet preparations that help a journey remain uneventful.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. If the spare came back unused, I shall count that as good news before asking whether you thought the extra preparation worthwhile.", tone = "[steady] [warm]" }, "It is good to see you. Tell me how the journey went. An account in which nothing remarkable happened can be very welcome." },
+            idle = { { "A traveler apologized for bringing back a spare unused. The journey had gone safely. I counted the supply back in and was pleased that the trouble we had prepared for never arrived.", tone = "[matter-of-fact] [content]" }, "A limited supply asks for a clear account of what people need. Confidence in the plan does not create the missing equipment.", "Finding the hidden agents of the Scourge would let us act before their work reaches the people we are trying to protect. We need useful foresight, not merely a grand name for it." },
+            befriended = { { "You have become someone whose safe return matters to me beyond the account of what they carried. Walk beside me, friend. I should be glad to hear the ordinary version of your day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is there something the preparation has not considered?", "Go on. A small need is worth naming before it becomes an urgent one." },
+            gear = { { "Match the equipment to the work and the person using it. A preparation is useful when it leaves them ready, not only when it looks complete in the account.", tone = "[calm] [instructive]" } },
+            quest = { "Finished. Establish what the result permits before promising that it has removed every danger we hoped to face." },
+            loot = { "Make a proper account of what has arrived. Knowing what we actually have is the beginning of deciding what it can do." },
+            bagsFull = { "Arrange the supplies so the needed part can be reached. Carrying everything is less useful than finding the right thing in time." },
+            group = { "Ask what each person needs for the journey. One confident answer is not a substitute for hearing the rest of the company." },
+            rest = { "A pause is part of readiness too. No supply list can make exhausted people think as clearly as rested ones." },
+            thanked = { "You are welcome. I am pleased the quiet preparation served its purpose." },
+        },
+    },
+
     -- Jelinek Sharpshear, Stormwind barber. Adult gnome male148768/M2 900914, Alliance Friendly. Own two barber greetings, current role/location; windswept returning customer and confidence beyond mirror original. Older29142 not separately authored.
     -- Research: docs/research/jelineks-afternoon-and-shyns-canopy.md
     [277024] = {

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Felicia Doan, Fyr Mistrunner, and Sutara Plainstalker: three adult Forsaken/Tauren women with forty-five personal lines queued.
+- Review current trade/bread/quartermaster stock and the Coldbringer artifact request; document original shopping-guess, answering-rhythm, and unused-spare scenes.
+
 - Add Jelinek Sharpshear and Shyn: adult Gnome and Tauren profiles with thirty personal lines queued.
 - Verify current barber/flight-master identities and own greetings; document original windswept-afternoon and canopy-view scenes.
 
@@ -555,4 +558,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **836 fully written NPC profiles**: 454 have initial signature recordings, and three hundred eighty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **839 fully written NPC profiles**: 454 have initial signature recordings, and three hundred eighty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

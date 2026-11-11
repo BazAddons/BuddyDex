@@ -4417,5 +4417,26 @@
     "zone": "Feralas",
     "source": "Reviewed adult horde woman; Own destination greeting; original ground-level canopy view and post-wingbeat pause; no Scout sighting claimed",
     "research_notes": "docs/research/jelineks-afternoon-and-shyns-canopy.md"
+  },
+  {
+    "npc_id": 4775,
+    "name": "Felicia Doan",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; 31currentgoods and Classic no-quest result; original thread-and-apple guess; no Scout sighting claimed",
+    "research_notes": "docs/research/felicia-fyr-and-sutara.md"
+  },
+  {
+    "npc_id": 3003,
+    "name": "Fyr Mistrunner",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde woman; 6currentfoods and Classic no-quest result; original answering rhythm; no Scout sighting claimed",
+    "research_notes": "docs/research/felicia-fyr-and-sutara.md"
+  },
+  {
+    "npc_id": 264078,
+    "name": "Sutara Plainstalker",
+    "zone": "Mulgore",
+    "source": "Reviewed adult unverified woman; Own provisioning gossip,97196 request and8patterns; original unused spare; Horde Neutral; no Scout sighting claimed",
+    "research_notes": "docs/research/felicia-fyr-and-sutara.md"
   }
 ]
