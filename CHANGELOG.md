@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Iverron and Coleman Farthing: full Teldrassil and Tirisfal profiles, thirty personal lines queued.
+- Research the antidote, Agamand revenge and warrior heirloom chains; preserve recovery and established character motives.
+
 - Add Golnir Bouldertoe and Bronk: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Ground Golnir in the honorary-pick delivery and Bronk in current Feralas supplies; document original friendship stories.
 

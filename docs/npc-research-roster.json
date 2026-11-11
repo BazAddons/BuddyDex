@@ -5012,5 +5012,19 @@
     "zone": "Feralas",
     "source": "Reviewed adult horde man; Seven current goods and sparse personal sources; original flower in vial; no Scout sighting claimed",
     "research_notes": "docs/research/golnirs-names-and-bronks-flower.md"
+  },
+  {
+    "npc_id": 8584,
+    "name": "Iverron",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance man; Full4495/3519/3521/3522; original appreciation of an uneventful afternoon; no Scout sighting claimed",
+    "research_notes": "docs/research/iverrons-afternoon-and-colemans-promise.md"
+  },
+  {
+    "npc_id": 1500,
+    "name": "Coleman Farthing",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde man; Full Agamand/Sevren and warrior branches; original returned-book promise; no Scout sighting claimed",
+    "research_notes": "docs/research/iverrons-afternoon-and-colemans-promise.md"
   }
 ]

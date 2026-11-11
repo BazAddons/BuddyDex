@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 921,
-  "written_complete_count": 921,
-  "awaiting_signature_audio_count": 467,
+  "authored_count": 923,
+  "written_complete_count": 923,
+  "awaiting_signature_audio_count": 469,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 469,
+  "remaining_count": 471,
   "completed": [
     {
       "npc_id": 54,
@@ -1328,6 +1328,18 @@
       "zone": "Undercity",
       "source": "Reviewed unique adult Forsaken, current Horde Friendly/model fields, complete available own/linked chains, stock and installed/public dialogue; no Scout sighting claimed",
       "research_notes": "docs/research/undercity-fungus-supplies-and-old-friendships.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 1500,
+      "name": "Coleman Farthing",
+      "zone": "Tirisfal Glades",
+      "source": "Reviewed adult horde man; Full Agamand/Sevren and warrior branches; original returned-book promise; no Scout sighting claimed",
+      "research_notes": "docs/research/iverrons-afternoon-and-colemans-promise.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
@@ -6800,6 +6812,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 8584,
+      "name": "Iverron",
+      "zone": "Teldrassil",
+      "source": "Reviewed adult alliance man; Full4495/3519/3521/3522; original appreciation of an uneventful afternoon; no Scout sighting claimed",
+      "research_notes": "docs/research/iverrons-afternoon-and-colemans-promise.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 8670,

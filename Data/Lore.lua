@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Iverron, Shadowglen Teldrassil, adult Night Elf male7901/M2 974343, Alliance Friendly. Full4495/3519/3521/3522 missing-visit, poison and antidote chain; still rests after relief. Remembering an uneventful walk original; friendship is not a cure or actual delivery.
+    -- Research: docs/research/iverrons-afternoon-and-colemans-promise.md
+    [8584] = {
+        quote = "I once thought 'nothing happened' was a disappointing account of a walk. I would rather like a long afternoon with exactly that ending now. Dirania might even enjoy hearing it for a change.",
+        likes = { "Dirania taking his request seriously", "A familiar visit made at the usual time", "An afternoon with nothing alarming to tell" },
+        dislikes = { "Githyiss and the Webwood spiders", "Concern brushed aside as needless fuss", "Making a friend wonder why he is late" },
+        gossip = "Iverron used to want an interesting account of every walk. He is beginning to appreciate the possibilities of an uneventful afternoon.",
+        bio = "Iverron explores near Shadowglen's spider cave and regularly visits Dirania Silvershine. After Githyiss bites him, he asks for her help. Her antidote brings relief, though he still rests near the cave while recovering.",
+        backstory = "He once asked why a friend bothered describing a walk on which nothing happened. Because they enjoyed it, they said. While resting after the bite, he remembered that answer. An ordinary return began to sound like a story worth having.",
+        secret = "He likes imagining a visit to Dirania with nothing alarming to explain. Being expected can be a pleasure, rather than another cause for worry.",
+        bestFriend = "Stay a little, friend. Tell me about an ordinary walk. You need not bring an adventure before your company is worth having.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "A little comfort can acknowledge that asking for help need not be another thing to be embarrassed about.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are, friend. Have you an account of an ordinary afternoon? I used to think a walk on which nothing happened was hardly worth describing. I would rather like to hear one now. Dirania might be pleased to receive that sort of account from me for a change.", tone = "[quiet] [wry]" }, "I am glad to see you. Stay a little if you have time; the conversation need not contain another alarming discovery." },
+            idle = { { "They said nothing had happened on the walk. Why tell me, then, I asked. Because they had enjoyed it. I remembered that answer while resting here. An ordinary return at the usual time began to sound rather more appealing than I had allowed.", tone = "[reflective] [gentle]" }, "Dirania knows when to expect me. I had not thought enough about what it means for someone to notice when the familiar visit does not come.", "I know the difference now between a concern that sounds inconvenient and a concern that deserved to be heard. Those spiders provided a very unpleasant explanation." },
+            befriended = { { "You have found time for me without asking that I produce a more interesting account of the day. I value that, friend. Come along. There is something worth sharing in ordinary company, even when neither of us has a grand discovery ready to explain why we stayed.", tone = "[soft] [warm]" } },
+            poke = { "Yes, friend? A moment to gather the thought would help.", "I am listening. You need not make the account more exciting before telling it." },
+            comforted = { { "Thank you. I would rather admit that I need a little help than make someone wonder whether I am well simply because I was embarrassed to ask. You need not turn the feeling into a lesson. A little company is welcome as it is.", tone = "[tired] [grateful]" } },
+            rest = { "A quiet pause sounds very good. Tell me something ordinary while we have time for it." },
+            newFriend = { "Notice when someone is expected. A familiar visit can mean more to the person waiting than the visitor realizes." },
+            thanked = { "You are welcome. I am glad there was something useful in the account, even if I would have preferred learning it less painfully." },
+            quest = { "If someone is waiting for help, remember why the errand matters. There is a person at the other end of those instructions." },
+            zone = { "Here we are. I would be pleased if the next account included something beautiful and nothing that required an antidote." },
+            group = { "Ask whether everyone is ready before deciding the interesting part must begin immediately." },
+        },
+    },
+
+    -- Coleman Farthing, Gallows End Tavern Brill Tirisfal, adult Forsaken male3516/M2 959310, Horde Friendly. Own revenge greeting, fullAgamand/Sevren and warrior heirloom branches plus related letter context. Returned book original; anger and native losses retained, no completed quests/free class weapon/retail relocation.
+    -- Research: docs/research/iverrons-afternoon-and-colemans-promise.md
+    [1500] = {
+        quote = "You returned it when you said you would. Good. People make that sound like a small thing. I have learned to notice what they actually do with a promise.",
+        likes = { "A promise followed by the promised act", "The Agamands made to answer for their ruin", "Company that lets him finish his own tale" },
+        dislikes = { "The Agamands and their ruined assurances", "Pride that spends other people's lives", "An easy sermon about forgiving the past" },
+        gossip = "Coleman lent a friend a book. It came back on the promised day. He has little patience for anyone who calls that unimportant.",
+        bio = "Coleman Farthing once worked the Agamand mills. He blames the family's pride for the deaths of those who stayed to defend them. In Brill, he seeks revenge on his former employers and directs help toward the Forsaken's wider struggle.",
+        backstory = "He lent a friend a thin book without expecting much from the promise to return it. They brought it back on the day they named, with his place still marked. Coleman examined it, then said that keeping a small promise was worth noticing.",
+        secret = "A returned book does not soften his judgment of the Agamands. One kept promise can still give him a reason to trust one person. He keeps the distinction.",
+        bestFriend = "Sit, friend. You kept your word. I would rather hear what you have to say than another speech about making the past easier.",
+        favorite = {
+            emote = "NOD",
+            hint = "A sober nod can acknowledge his account without trying to replace it with an easy answer.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You returned when you said you would, friend. I noticed. People are very willing to call a kept promise an ordinary thing, as though that makes it less worth remembering. Sit down. I would rather hear your account than another assurance about what someone might do later.", tone = "[raspy] [measured]" }, "There you are. Sit for a while, friend. You may hear my tale, provided you do not arrive with an ending you intend to impose upon it." },
+            idle = { { "It was a thin book. They promised to bring it back on a certain day. I did not make much of the promise. Then they returned it, with my place still marked. I examined it. Good, I said. A small promise kept is still a promise kept.", tone = "[dry] [reflective]" }, "We stayed because we were loyal. The Agamands spent that loyalty defending what was theirs. Do not ask me to remember their pride as though it were concern for us.", "I want the Agamands to answer for what they brought upon us. There are people who hear that and immediately begin composing a lesson about what I ought to feel instead." },
+            befriended = { { "You have given me an act to remember instead of another promise to wait upon. I trust that much, friend. Come along. You need not make me a kinder account of the past before I can appreciate someone who keeps their word in the present.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes, friend? Say what you mean to say. I have heard enough assurances to appreciate a plain sentence.", "A moment. I intend to finish this thought myself." },
+            quest = { { "If you have undertaken the task, bring back what was asked for. An account of your good intentions is not proof of the deed. I have reason to care about the difference between what someone promises and what they are prepared to carry through.", tone = "[cold] [firm]" } },
+            rest = { "Sit if you wish. A little company need not begin with a sermon about how much easier I would feel if I forgave them." },
+            newFriend = { "Listen to what they have done with their promises. A pleasant manner will not tell you everything you need to know." },
+            thanked = { "You are welcome. I am glad there was something useful I could do, rather than merely offer another assurance." },
+            group = { "Be clear about what each person has agreed to do. Loyalty is not permission to spend the others without telling them the cost." },
+            mail = { "Read what was actually written before deciding the words must mean what you hoped to hear." },
+            zone = { "Here we are. Look at what remains, and do not hurry to tell me that the account ought to be less bitter." },
+        },
+    },
+
     -- Golnir Bouldertoe, Great Forge Ironforge Mining Supplier (current Dun Morogh projection), adult Dwarf male3093/M2 878772, Alliance Friendly. Own dwarven-miner pride and full6387/6391/6388/6392 honorary-pick chain. Former learner touching engraved name original; no exact Geofram kinship, free tool or current historical stock guarantee.
     -- Research: docs/research/golnirs-names-and-bronks-flower.md
     [4256] = {

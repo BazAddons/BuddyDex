@@ -4683,6 +4683,20 @@
       "zone": "Feralas",
       "route": "Camp Mojache alchemy supplies",
       "reason": "Seven current goods and sparse personal sources; original flower in vial; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8584,
+      "name": "Iverron",
+      "zone": "Teldrassil",
+      "route": "Shadowglen missing friend and antidote",
+      "reason": "Full4495/3519/3521/3522; original appreciation of an uneventful afternoon; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1500,
+      "name": "Coleman Farthing",
+      "zone": "Tirisfal Glades",
+      "route": "Brill Agamand revenge and heirlooms",
+      "reason": "Full Agamand/Sevren and warrior branches; original returned-book promise; fifteen personal lines queued without synthesis"
     }
   ]
 }
