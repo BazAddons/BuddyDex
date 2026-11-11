@@ -3892,6 +3892,20 @@
       "zone": "Ironforge",
       "route": "Ironforge skinning trainer",
       "reason": "Current training and primary Ironforge location; original apron knot; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 16458,
+      "name": "Innkeeper Faralia",
+      "zone": "Stonetalon Mountains",
+      "route": "Stonetalon Peak inn",
+      "reason": "Full86574 and own rest gossip; original sleeping listener; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 267310,
+      "name": "Gur'ak",
+      "zone": "The Barrens",
+      "route": "Crossroads veteran",
+      "reason": "Full97003 including progress and credit pledge; original missing contribution; fifteen personal lines queued without synthesis"
     }
   ]
 }

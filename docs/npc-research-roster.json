@@ -4221,5 +4221,19 @@
     "zone": "Ironforge",
     "source": "Reviewed adult alliance man; Current training and primary Ironforge location; original apron knot; no Scout sighting claimed",
     "research_notes": "docs/research/durelles-amber-and-balthus-apron.md"
+  },
+  {
+    "npc_id": 16458,
+    "name": "Innkeeper Faralia",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult unverified woman; Full86574 and own rest gossip; original sleeping listener; no Scout sighting claimed",
+    "research_notes": "docs/research/faralias-ending-and-guraks-credit.md"
+  },
+  {
+    "npc_id": 267310,
+    "name": "Gur'ak",
+    "zone": "The Barrens",
+    "source": "Reviewed adult unverified man; Full97003 including progress and credit pledge; original missing contribution; no Scout sighting claimed",
+    "research_notes": "docs/research/faralias-ending-and-guraks-credit.md"
   }
 ]

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Faralia, Stonetalon Peak. Adult night elf female10582/M2 921844, Alliance Neutral; positive access unverified. Own rest gossip and full86574; sleeping-listener story is original.
+    -- Research: docs/research/faralias-ending-and-guraks-credit.md
+    [16458] = {
+        quote = "If you fell asleep before the end of my story, it was doing rather well. You need not apologize for accepting the rest I offered.",
+        likes = { "A tired guest no longer trying to be polite", "Supplies put to a thoughtful use", "A story allowed to end in quiet" },
+        dislikes = { "Rest treated as another obligation", "A delivery counted without its courier", "A sleeping guest woken for a better ending" },
+        gossip = "Faralia once stopped a story halfway through when her listener fell asleep. She remembers the evening as a thoroughly successful telling.",
+        bio = "Innkeeper Faralia welcomes weary travelers at Stonetalon Peak and offers rest under Elune's care. When lost supplies arrive, she grieves for the courier who died bringing them and resolves to make good use of what was recovered.",
+        backstory = "She was halfway through a quiet story when she noticed her listener had fallen asleep. Faralia left the ending untold. In the morning the guest apologized, and she found herself explaining that the story had already accomplished what she wanted.",
+        secret = "A friend may stay awake to hear the rest, but she will never insist on it. She enjoys the moment someone feels safe enough to stop making an effort for the person keeping them company.",
+        bestFriend = "Sit with me, friend. I would like to hear your day. If we leave a story unfinished, there will be another evening.",
+        favorite = {
+            emote = "THANK",
+            hint = "She appreciates a quiet acknowledgment of the welcome, even when a guest cannot remember how the story ended.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come and sit a while. You need not make yourself sound less tired for my sake; I meant the invitation to be a rest from that effort as well.", tone = "[gentle] [welcoming]" }, "Good to see you. Tell me about the road, or let the road be finished for a little while. There is room for either." },
+            idle = { { "The listener fell asleep halfway through. I left the ending untold. In the morning they apologized, though I could hardly have asked the story to do better than that.", tone = "[soft] [amused]" }, "A shipment has someone carrying it. It is easy to remember that when they arrive, and easier than it should be to forget while waiting.", "You may sit without finding something useful to say. Company can be welcome before it has entertained anyone." },
+            befriended = { { "You have become company I am pleased to welcome when there is nothing to arrange or carry. Sit with me, friend. We may let an ordinary evening be enough.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? There is time to hear the question without hurrying it.", "Go on. If the story has an ending, it may wait until you have finished." },
+            rest = { { "Let yourself settle. Rest need not be performed well for anyone watching. You may simply have it.", tone = "[soothing] [reassuring]" } },
+            hearth = { "Heading back, then. May the welcome at the other end leave you less weary than the road." },
+            quest = { "A piece of work finished. Remember the hands that carried it this far as well as what has finally arrived." },
+            mail = { "News from the road. Read it with a little room for the person who took the trouble to send it." },
+            newFriend = { "Someone new. Offer them room to settle before asking for the whole account of their travels." },
+            thanked = { "You are welcome. I am glad you found a moment that asked less of you." },
+            group = { "Leave room for the quietest traveler to rest as well. The person with the most energy need not set the pace of the whole evening." },
+        },
+    },
+
+    -- Gurak, Crossroads. Adult orc male145025/M2 917116, Horde Neutral; positive access unverified. Full97003 includes six-fighter/four-felled account and credit pledge; missing-contribution scene is original.
+    -- Research: docs/research/faralias-ending-and-guraks-credit.md
+    [267310] = {
+        quote = "You tell me everyone did their part, then leave your own part out. Put yourself back in the account. I was listening for you as well.",
+        likes = { "A warning taken seriously before the trophy", "A fighter receiving their share of the credit", "A company preparing for what it may face" },
+        dislikes = { "A dangerous tale dismissed without thought", "Glory claimed from another person's work", "Courage measured by refusing all company" },
+        gossip = "Gur'ak once stopped a modest account to ask where the speaker had been. He considered their missing contribution the most important omission.",
+        bio = "Gur'ak stands near the Crossroads, warning of Chol'aruk at Thorn Hill. He has fought a creature of that kind: six fighters faced it, and four were struck down. He wants his warning believed, yet gives the returning hunter the glory for their own deed.",
+        backstory = "A visitor described hard work by praising everyone who helped. Gur'ak asked where the speaker had been in the account. Their own effort had vanished beneath the thanks. He insisted it be put back before the telling continued.",
+        secret = "He likes hearing someone acknowledge what they contributed without making the whole success their possession. It is a difficult balance, and he takes pleasure in helping a friend find it.",
+        bestFriend = "Come along, friend. Tell me what you did as well as who helped you. I would hear where you stood in your own day.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He values clear recognition of earned courage without taking another person's share of the achievement.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me what has occupied you, and include your own part in the account. I can hear the thanks you owe others without losing sight of what you did.", tone = "[firm] [warm]" }, "Good to see you. Have you prepared for the next piece of work, or are you still deciding that doing it alone would make a better tale?" },
+            idle = { { "They named everyone who had helped, and somehow left themselves out. I asked where they had stood. There is no honor in giving such a complete account that your own courage vanishes from it.", tone = "[reflective] [earnest]" }, "I have faced a creature of that kind with skilled fighters beside me. Knowing how to fight is no reason to treat the warning lightly.", "Proof may make people believe the account. It does not give me the right to take the returning fighter's achievement and call it my own." },
+            befriended = { { "You have become someone whose part I want to hear even when there is no great deed to bring back. Come along, friend. There is room for you in the account.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was your own contribution about to disappear again?", "Go on. Give the account before deciding which part sounds worthy enough to tell me." },
+            quest = { { "Finished. Give each person their credit, including yourself. We can acknowledge a shared success without pretending nobody carried a difficult part.", tone = "[proud] [approving]" } },
+            combatEnd = { "Take stock of the company. A victory deserves a clear account of what it cost as well as what it achieved." },
+            gear = { "Prepare it before you need it. A warning heard in good time should change what you carry into the danger." },
+            group = { "Know the strength beside you. Taking company is preparation, not an admission that the deed will count for less." },
+            rest = { "A pause. Let the account wait until everyone has had the chance to recover from living through it." },
+            newFriend = { "Someone new. Hear what they have done before deciding how much weight to give the confidence with which they introduce themselves." },
+            thanked = { "You are welcome. Keep your own share of the credit while you offer mine." },
+        },
+    },
+
     -- Apothecary Durelle, Barrens alchemist vendor. Adult Forsaken female139622/M2 997378, Horde Neutral; positive access unverified. Own fingerprints gossip and29goods; private amber-bottle light is original.
     -- Research: docs/research/durelles-amber-and-balthus-apron.md
     [248196] = {

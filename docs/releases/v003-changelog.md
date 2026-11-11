@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Innkeeper Faralia and Gur'ak: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review the lost-courier and Ravener quests in full; document original unfinished-story and shared-credit scenes while preserving the cost of each journey.
+
 - Add Apothecary Durelle and Balthus Stoneflayer: adult Forsaken and Dwarf profiles with thirty personal lines queued.
 - Review alchemy-vendor dialogue and skinning services; document original amber-light and apron-knot scenes plus location-evidence limits.
 
@@ -513,4 +516,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **808 fully written NPC profiles**: 454 have initial signature recordings, and three hundred fifty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **810 fully written NPC profiles**: 454 have initial signature recordings, and three hundred fifty-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Innkeeper Faralia and Gur'ak: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review the lost-courier and Ravener quests in full; document original unfinished-story and shared-credit scenes while preserving the cost of each journey.
+
 - Add Apothecary Durelle and Balthus Stoneflayer: adult Forsaken and Dwarf profiles with thirty personal lines queued.
 - Review alchemy-vendor dialogue and skinning services; document original amber-light and apron-knot scenes plus location-evidence limits.
 

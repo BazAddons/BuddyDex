@@ -4,16 +4,16 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 346,
-    "unverified": 169,
+    "unverified": 171,
     "horde": 332
   },
   "npc_race_counts": {
     "1": 168,
     "3": 71,
     "7": 58,
-    "2": 88,
+    "2": 89,
     "5": 87,
-    "4": 70,
+    "4": 71,
     "8": 60,
     "9": 59,
     "6": 86,
@@ -44,8 +44,8 @@
     "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
-    "The Barrens": 45,
-    "Stonetalon Mountains": 14,
+    "The Barrens": 46,
+    "Stonetalon Mountains": 15,
     "Darnassus": 15,
     "Burning Steppes": 1,
     "Ashenvale": 14,
@@ -8796,6 +8796,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15684"
     },
     {
+      "npc_id": 16458,
+      "name": "Innkeeper Faralia",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Alliance Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/16458"
+    },
+    {
       "npc_id": 17804,
       "name": "Squire Rowe",
       "zone": "Elwynn Forest",
@@ -10145,6 +10156,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/266881"
     },
     {
+      "npc_id": 267310,
+      "name": "Gur'ak",
+      "zone": "The Barrens",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/267310"
+    },
+    {
       "npc_id": 267323,
       "name": "Clarence Gillian",
       "zone": "Tirisfal Glades",
@@ -10370,6 +10392,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 808,
-  "awaiting_signature_audio_profiles": 354
+  "authored_profiles": 810,
+  "awaiting_signature_audio_profiles": 356
 }
