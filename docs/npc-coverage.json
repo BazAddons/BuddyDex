@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 445,
+    "alliance": 446,
     "unverified": 184,
-    "horde": 440
+    "horde": 441
   },
   "npc_race_counts": {
     "1": 177,
     "3": 111,
     "7": 63,
     "2": 115,
-    "5": 115,
-    "4": 101,
+    "5": 116,
+    "4": 102,
     "9": 67,
     "8": 61,
     "6": 112,
@@ -38,9 +38,9 @@
     "Teldrassil": 33,
     "Hillsbrad Foothills": 16,
     "Arathi Highlands": 11,
-    "Orgrimmar": 65,
+    "Orgrimmar": 66,
     "Badlands": 1,
-    "Darkshore": 17,
+    "Darkshore": 18,
     "Mulgore": 27,
     "Thunder Bluff": 50,
     "Durotar": 57,
@@ -6133,6 +6133,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4169"
     },
     {
+      "npc_id": 4182,
+      "name": "Dalmond",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4182"
+    },
+    {
       "npc_id": 4191,
       "name": "Allyndia",
       "zone": "Darkshore",
@@ -10698,6 +10711,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15165"
     },
     {
+      "npc_id": 15354,
+      "name": "Rachelle Gothena",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15354"
+    },
+    {
       "npc_id": 15659,
       "name": "Auctioneer Jaxon",
       "zone": "Stormwind City",
@@ -13025,6 +13051,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1013,
-  "awaiting_signature_audio_profiles": 559
+  "authored_profiles": 1015,
+  "awaiting_signature_audio_profiles": 561
 }

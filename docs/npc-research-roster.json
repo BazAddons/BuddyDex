@@ -5656,5 +5656,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde identity; Three native security and Hyjal lines; original small plum promise; no Scout sighting claimed",
     "research_notes": "docs/research/hargins-stairs-and-komas-plum.md"
+  },
+  {
+    "npc_id": 4182,
+    "name": "Dalmond",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance identity; Fifteen current wares, no personal quest; original crab riddle; no Scout sighting claimed",
+    "research_notes": "docs/research/dalmonds-riddle-and-rachelles-giggle.md"
+  },
+  {
+    "npc_id": 15354,
+    "name": "Rachelle Gothena",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde identity; Two native mask/festival/referral entries, full8312 and four branches; original giggle; no Scout sighting claimed",
+    "research_notes": "docs/research/dalmonds-riddle-and-rachelles-giggle.md"
   }
 ]

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Dalmond and Rachelle Gothena: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research Auberdine supplies and seasonal Hallow's End dialogue; preserve normal thresholds, character progress and event availability.
+
 - Add Hargin Mundar and Koma: full Dwarf and Orc profiles, thirty personal lines queued.
 - Research marsh warnings and bank security; preserve normal thresholds, character progress and the current banker identity.
 
@@ -823,4 +826,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1013 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1015 fully written NPC profiles**: 454 have initial signature recordings, and five hundred sixty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

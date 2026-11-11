@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Dalmond and Rachelle Gothena: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research Auberdine supplies and seasonal Hallow's End dialogue; preserve normal thresholds, character progress and event availability.
+
 - Add Hargin Mundar and Koma: full Dwarf and Orc profiles, thirty personal lines queued.
 - Research marsh warnings and bank security; preserve normal thresholds, character progress and the current banker identity.
 

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dalmond, Auberdine Darkshore general goods, adult Night Elf male4404/M2 974343, Alliance Friendly normal17. All15 current wares read, no own task/gossip. Crab riddle original; no Cataclysm death or survivor rescue phase.
+    -- Research: docs/research/dalmonds-riddle-and-rachelles-giggle.md
+    [4182] = {
+        quote = "I had a fine riddle about a crab. Unfortunately, I began by saying it was about a crab. My friend guessed at once. I praised their insight. It seemed the gracious thing to do.",
+        likes = { "A familiar visitor with time to spare", "A riddle enjoyed by both people", "An ordinary question asked plainly" },
+        dislikes = { "Making a game into an embarrassment", "A small mistake defended with a boast", "A visitor hurried out of a welcome" },
+        gossip = "Dalmond began his crab riddle by mentioning the crab. His friend guessed correctly. He has praised their remarkable insight.",
+        bio = "Dalmond sells general goods in Auberdine. His stock includes bags, ordinary supplies, ammunition and wrapping paper. Away from the practical questions, he enjoys a little conversation, even when his own riddle gives away its answer.",
+        backstory = "He prepared a riddle about a crab, then told a friend what it was about before asking it. They answered immediately. Dalmond congratulated them on their insight. The friend accepted the praise, then offered to help him make the next one less informative.",
+        secret = "He enjoyed how gently the friend let him discover the mistake. A little foolishness is easier to share when neither person needs to be made smaller by it.",
+        bestFriend = "There you are. I have another riddle, and I shall try not to introduce its answer. Stay a while, friend. I enjoy how you listen.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin can share the joke without making the mistaken riddle an embarrassment.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have another riddle. Before I begin, you may wish to remind me not to introduce its answer.", tone = "[gentle] [wry]" }, "Good to see you. Have you time for a little conversation before your next errand?" },
+            idle = { { "I began my crab riddle by mentioning the crab. My friend guessed at once. A remarkably efficient riddle, if we judge only by the speed of the answer.", tone = "[dry] [amused]" }, "An ordinary supply can spare a traveler an awkward moment. It need not be remarkable to be worth remembering.", "A game is more pleasant when both people can enjoy the mistake. There is no need to turn one into an embarrassment." },
+            befriended = { { "You are welcome with me, friend. I enjoy the way you listen, and the kindness with which you answer. We need not make every conversation useful before it deserves a place in the day.", tone = "[calm] [warm]" } },
+            poke = { "Yes? If you are asking for the riddle answer, I may already have supplied it.", "One moment. I was deciding whether my next question gives away too much before it begins." },
+            laughAlong = { { "Yes, a crab. Excellent insight, friend. I shall endeavor to give you a more demanding challenge next time.", tone = "[poised] [playful]" } },
+            learned = { "A mistake noticed is something you can change. You need not defend it first." },
+            newFriend = { "Give them a little room to answer. They may be glad of a conversation that does not begin as a test." },
+            rest = { "A welcome pause. We can enjoy the company without inventing another errand to justify it." },
+            thanked = { "You are welcome. I am glad the ordinary preparation proved useful." },
+            bagsFull = { "Look through what you carry before deciding you need another container for it." },
+            group = { "Keep the conversation open to the quieter voice. They may be waiting for a chance to join it." },
+        },
+    },
+
+    -- Rachelle Gothena, Orgrimmar seasonal Hallows End treats, adult Forsaken female15391/M2 997378, Horde Friendly normal30. Two native festival/mask/referral lines, four current foods, related8312+four branches read. Laugh/giggle original; seasonal availability, no child profile, pumpkin guarantee or kinship.
+    -- Research: docs/research/dalmonds-riddle-and-rachelles-giggle.md
+    [15354] = {
+        quote = "I practiced a magnificent frightening laugh. It ended in a giggle. My friend said that was the best part. Naturally, I explained that it had been the most carefully prepared part all along.",
+        likes = { "A good fright everyone enjoys", "Someone joining the celebration", "A friend who laughs with her" },
+        dislikes = { "A joke that leaves someone miserable", "Mistaking celebration for cruelty", "A willing participant being mocked" },
+        gossip = "Rachelle's frightening laugh ended in a giggle. Her friend applauded. She now describes the giggle as the most carefully rehearsed part.",
+        bio = "Rachelle Gothena is a seasonal Forsaken treats vendor in Orgrimmar. At Hallow's End she shows off her mask and explains the festivities. She enjoys a little theatrical fright, especially when the people involved can share the laughter afterward.",
+        backstory = "She practiced a frightening laugh for a friend, but the performance dissolved into giggles before the finish. The friend applauded that part most warmly. Rachelle promptly claimed it was the part she had worked hardest to perfect.",
+        secret = "She knows the giggle spoiled the grand effect. It also made the friend laugh with her. That seems a good enough reason to keep it in the performance.",
+        bestFriend = "There you are, friend! Stay for the laugh, even if the fright fails to impress you. I like having you join the fun.",
+        favorite = {
+            emote = "CHEER",
+            hint = "An enthusiastic response welcomes the performance without requiring anyone to be truly frightened.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are, friend! Prepared for a magnificent frightening laugh? The giggle at the end remains an essential part of the performance.", tone = "[raspy] [gleeful]" }, "Good to see you. Come with a little enthusiasm, and we shall find something to enjoy." },
+            idle = { { "The laugh was meant to be terrifying. It became a giggle. My friend applauded, so I explained that the difficult part had gone exactly as planned.", tone = "[theatrical] [amused]" }, "A mask gives a person a splendid excuse to be a little theatrical.", "The fun is better when someone can join it. There is no triumph in making a willing participant miserable." },
+            befriended = { { "You are welcome beside me, friend. I like someone who will join the fun and still remember the person under the mask. Stay. I am glad you came.", tone = "[raspy] [fond]" } },
+            poke = { "Yes? Has the performance acquired a critic, or are you ready for another attempt?", "One moment. I am preparing the grand effect. Or possibly the giggle. We shall discover which arrives first." },
+            cheerAlong = { { "A splendid audience! That was, of course, precisely the response my carefully prepared giggle was intended to produce.", tone = "[delighted] [playful]" } },
+            laughAlong = { "There! Much better when we can both enjoy it. I shall count that as a successful fright with an unusually cheerful conclusion." },
+            newFriend = { "Make room for them. They may prefer joining the laughter before being asked to perform." },
+            rest = { "A pause between performances. You may speak to me without first finding something frightening to say." },
+            thanked = { "You are welcome, friend. I am glad you enjoyed being part of it." },
+            group = { "Give everyone a chance to join in, and listen when someone has had enough." },
+            combatEnd = { "Everyone all right? Good. Let us make certain before finding something to laugh about again." },
+        },
+    },
+
     -- Hargin Mundar, Menethil Harbor Wetlands, adult Dwarf male3491/M2 878772, Alliance Friendly normal20. Five older ambient lines checked; no own task/gossip. Upstairs warning original, no Cataclysm floodgate history or cured leg.
     -- Research: docs/research/hargins-stairs-and-komas-plum.md
     [1476] = {

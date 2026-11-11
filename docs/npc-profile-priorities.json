@@ -5327,6 +5327,20 @@
       "zone": "Orgrimmar",
       "route": "Banker in the Valley of Strength",
       "reason": "Three native security and Hyjal lines; original small plum promise; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4182,
+      "name": "Dalmond",
+      "zone": "Darkshore",
+      "route": "General goods vendor in Auberdine",
+      "reason": "Fifteen current wares, no personal quest; original crab riddle; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 15354,
+      "name": "Rachelle Gothena",
+      "zone": "Orgrimmar",
+      "route": "Seasonal Hallows End treats vendor",
+      "reason": "Two native mask/festival/referral entries, full8312 and four branches; original giggle; fifteen personal lines queued without synthesis"
     }
   ]
 }
