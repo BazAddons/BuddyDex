@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Pallwick Boneset, Crossroads. Adult Forsaken male147896/M2 959310, Horde Neutral; positive access unverified. No quests/gossip found; imaginary sun complaint and all personality are original.
+    -- Research: docs/research/pallwicks-complaint-and-taliaas-cuff.md
+    [274845] = {
+        quote = "I am composing a complaint to the sun. Your arrival has damaged the section on how little there is to enjoy here. I shall have to revise it.",
+        likes = { "A well-phrased complaint about the heat", "Company willing to contribute one good line", "A reason to spoil his own gloomy conclusion" },
+        dislikes = { "An afternoon too hot for a proper grievance", "A joke examined until it gives up", "Being required to hate what he can mock" },
+        gossip = "Pallwick is composing a complaint to the sun. He has not settled on an address, and company keeps spoiling his account of the afternoon.",
+        bio = "Pallwick Boneset is a Forsaken found at the Crossroads in the Barrens. He has made the heat a suitable subject for an imaginary complaint. A visitor with something amusing to add can find him less committed to misery than the opening suggests.",
+        backstory = "He began a complaint about the afternoon. A visitor supplied a better description of the dust. Pallwick kept the phrase, then found that the conversation had ruined his conclusion about having nothing to enjoy.",
+        secret = "He likes a shared complaint. Enjoying the company need not stop him objecting to the weather, however inconvenient that makes the final paragraph.",
+        bestFriend = "Come along, friend. You may contribute one grievance, then tell me something that obliges me to revise the conclusion.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone catching the pleasure hidden inside a thoroughly dissatisfied account of the weather.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. Come along. I am preparing a complaint to the sun, and your arrival has already made the account of this afternoon less convincingly miserable.", tone = "[dry] [quiet amusement]" }, "Good to see you. Have you brought one especially well-phrased grievance, or must I supply the whole correspondence myself?" },
+            idle = { { "The complaint requires a final paragraph explaining that there was nothing to enjoy. Someone keeps arriving with a better line about the dust, which has made the conclusion increasingly dishonest.", tone = "[deadpan] [amused]" }, "I have not found the appropriate address for a complaint to the sun. This has not prevented me from improving the opening.", "I may enjoy the company and object to the weather. You need not settle the matter by proving that the entire afternoon has been agreeable." },
+            befriended = { { "You have become company whose arrival I am pleased to acknowledge, even when it does considerable damage to a perfectly serviceable grievance. Come along, friend. I can revise the ending.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? Has the sun supplied an answer at last?", "Go on. A good line about the heat is welcome, but I will hear another subject if you insist." },
+            zone = { { "A change of surroundings. I shall reserve judgment until I have found the most suitable detail to object to. There ought to be something worth describing.", tone = "[sardonic] [curious]" } },
+            mail = { "Correspondence. I hope someone has solved the question of where to direct a grievance concerning the sky." },
+            rest = { "A pause. You may enjoy it without asking me to withdraw every complaint that brought us here." },
+            newFriend = { "Someone new. Let us discover whether they improve the afternoon before assigning them a paragraph in its criticism." },
+            thanked = { "You are welcome. I shall try to include the exchange without making it sound quite so agreeable." },
+            group = { "More company. The section on solitude will require substantial revision." },
+            hearth = { "Heading back. Take a little time to enjoy the welcome before deciding which part of the journey deserves a complaint." },
+        },
+    },
+
+    -- Taliaa Brightsky, Zephras artisan clothier. Adult High Order female146672/M2 7478494, both Friendly. Nine current goods and Repair/Vendor flags; private bright cuff lining is original.
+    -- Research: docs/research/pallwicks-complaint-and-taliaas-cuff.md
+    [271480] = {
+        quote = "The outside may be perfectly respectable. What you put inside the cuff is allowed to please only you.",
+        likes = { "A bright lining known to its wearer", "Cloth that moves comfortably with the body", "A small detail enjoyed without an audience" },
+        dislikes = { "An unseen seam treated as unimportant", "A beautiful garment that fights its wearer", "Every private pleasure turned into a display" },
+        gossip = "Taliaa keeps a startlingly bright lining inside an otherwise plain cuff. She appears pleased when someone notices how little she needs to show it.",
+        bio = "Taliaa Brightsky is an artisan clothier on Zephras Isle. She offers Zephrali cloth pieces, airy shirts, and repair service. Her eye for a finished garment includes the parts that only its wearer may ever see.",
+        backstory = "She matched a plain outer cloth with a lining far brighter than the surface suggested. Turning the cuff gave her a brief flash of color. Taliaa left it tucked away again, pleased that the detail did not need to announce itself to everyone.",
+        secret = "She likes knowing a small bright thing is there without being asked to demonstrate it. A trusted friend may understand why a perfectly ordinary cuff has put her in a cheerful mood.",
+        bestFriend = "Come along, friend. You need not show me the bright part of your day to be allowed to enjoy it. I am glad it is there.",
+        favorite = {
+            emote = "WINK",
+            hint = "She enjoys a little shared understanding about a detail that need not be displayed to everyone.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along. I have found a very bright color for a very unassuming cuff, and I am enjoying how little explanation the combination requires.", tone = "[warm] [playful]" }, "Good to see you. Tell me what has pleased you today. You may keep some small detail for yourself if you prefer." },
+            idle = { { "The outside is plain. Turn the cuff and there is a little flash of color. I like it just as well tucked away again; the detail has not stopped being there because nobody is watching.", tone = "[pleased] [reflective]" }, "A seam deserves care even when the wearer is the only person likely to notice it. Hidden work still has to carry its part of the garment.", "A bright thing need not become a public announcement. Sometimes it is enough that you know where to look." },
+            befriended = { { "You have become company with whom I can share a small pleasure without making a display of it. Come along, friend. I enjoy knowing you understand why the plain cuff makes me smile.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the respectable outside given away the bright part again?", "Go on. You need not unfold the whole account at once." },
+            gear = { { "Move in it before admiring it for too long. The hidden seams and the comfortable turn matter as much as the part everyone sees.", tone = "[clear] [encouraging]" } },
+            loot = { "Have a proper look at the workmanship inside as well. A quiet detail may tell you how much care went into the whole thing." },
+            rest = { "A pause. You may enjoy a small good thing without requiring the rest of the day to justify it." },
+            newFriend = { "Someone new. Leave them a few things they need not explain before being welcome in the company." },
+            thanked = { "You are welcome. I am pleased the care reached the part you will actually live with." },
+            mail = { "News from someone. I hope they have included one little pleasure among the matters that needed to be reported." },
+            group = { "Make room for different preferences. Good company need not require everyone to show the same bright side." },
+        },
+    },
+
     -- Felgur Twocuts, Ghost Walker Post. Adult orc male4694/M2 917116, Horde Friendly. Full1361/1362/1365/1366; pebble game is original, centaur policy retained.
     -- Research: docs/research/felgurs-opening-and-borgus-question.md
     [5395] = {

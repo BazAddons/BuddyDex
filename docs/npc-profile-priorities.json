@@ -3962,6 +3962,20 @@
       "zone": "Stormwind City",
       "route": "Stormwind weapon crafter",
       "reason": "Own curt gossip and97894/982; original concern beneath business wording; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 274845,
+      "name": "Pallwick Boneset",
+      "zone": "The Barrens",
+      "route": "Crossroads named resident",
+      "reason": "Current adult identity and empty related tables; original imaginary sun complaint; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 271480,
+      "name": "Taliaa Brightsky",
+      "zone": "Zephras Isle",
+      "route": "Zephras artisan clothier",
+      "reason": "Nine current goods and repair flag; original private bright lining; fifteen personal lines queued without synthesis"
     }
   ]
 }

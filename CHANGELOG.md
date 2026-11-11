@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Pallwick Boneset and Taliaa Brightsky: adult Forsaken and High Order profiles with thirty personal lines queued.
+- Verify the Crossroads identity and dual-faction clothier services; document original sun-complaint and bright-cuff scenes with sparse-lore limits.
+
 - Add Felgur Twocuts and Borgus Steelhand: adult Orc and Dwarf profiles with thirty personal lines queued.
 - Review the full centaur campaign and explicit Steelhand brother relationship; document original pebble-game and concern-wording scenes.
 
