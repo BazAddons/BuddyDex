@@ -3920,6 +3920,20 @@
       "zone": "Dun Morogh",
       "route": "Anvilmar priest trainer",
       "reason": "Full3110/98574/5626 and5625; original shutter reply; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 253395,
+      "name": "Ozwin Ironsprocket",
+      "zone": "Westfall",
+      "route": "Saldean Farm engineer",
+      "reason": "Full92909/92910/92911; original safe-position diagram; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10540,
+      "name": "Vol'jin",
+      "zone": "Orgrimmar",
+      "route": "Darkspear contact in Orgrimmar",
+      "reason": "Own Windshaper welcome and831 ender discrepancy; original burden and welcome; fifteen personal lines queued without synthesis"
     }
   ]
 }

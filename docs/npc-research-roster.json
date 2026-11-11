@@ -4249,5 +4249,19 @@
     "zone": "Dun Morogh",
     "source": "Reviewed adult alliance man; Full3110/98574/5626 and5625; original shutter reply; no Scout sighting claimed",
     "research_notes": "docs/research/nuaras-voyage-and-branstocks-light.md"
+  },
+  {
+    "npc_id": 253395,
+    "name": "Ozwin Ironsprocket",
+    "zone": "Westfall",
+    "source": "Reviewed adult alliance man; Full92909/92910/92911; original safe-position diagram; no Scout sighting claimed",
+    "research_notes": "docs/research/ozwins-position-and-voljins-welcome.md"
+  },
+  {
+    "npc_id": 10540,
+    "name": "Vol'jin",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult unverified man; Own Windshaper welcome and831 ender discrepancy; original burden and welcome; no Scout sighting claimed",
+    "research_notes": "docs/research/ozwins-position-and-voljins-welcome.md"
   }
 ]

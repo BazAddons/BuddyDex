@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ozwin Ironsprocket and Vol'jin: adult Gnome and Troll profiles with thirty personal lines queued.
+- Review both harvester paths and the Forever Windshaper welcome; document original safe-position and burden scenes plus historical quest-attribution limits.
+
 - Add Nuara Tremorhoof and Branstock Khalder: adult Tauren and Dwarf profiles with thirty personal lines queued.
 - Review elemental uncertainty and both priest introductions, including the Forever gnome route; document original leaf-voyage and shutter-reply scenes.
 

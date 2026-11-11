@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ozwin Ironsprocket, Saldean Farm/Westfall. Adult gnome male148280/M2 900914, Alliance Friendly. Full92909/92910/92911; safe-position diagram is original.
+    -- Research: docs/research/ozwins-position-and-voljins-welcome.md
+    [253395] = {
+        quote = "I have identified an excellent position from which to reconsider the problem. It is inside the stable. You may call it hiding after I finish the diagram.",
+        likes = { "A mechanism whose behavior matches the plan", "A friend keeping the safe side of the doorway", "A useful part brought without a lecture" },
+        dislikes = { "Unexpectedly aggressive harvesters", "An escape plan requiring him to test it first", "A good technical excuse called hiding" },
+        gossip = "Ozwin has several technical descriptions for remaining in the stable. His friends have noticed that none requires him to cross the doorway.",
+        bio = "Ozwin Ironsprocket came from Ironforge to recalibrate Westfall's harvesters. Their aggression drove him into the stable at Saldean's Farm. He requests salvaged parts and studies a recovered assembly, hoping to build an override or a way to escape.",
+        backstory = "He marked a safe position in his diagram. A visitor noticed it was exactly where he already stood. Ozwin added another label and continued explaining, leaving the stable doorway out of the discussion.",
+        secret = "A friend who stays beside him without demanding a demonstration makes the stable feel less like the place his calculations failed. He can enjoy being heard before being asked to be brave.",
+        bestFriend = "Come along, friend. We may review the plan from a comfortable distance. You need not make me prove every word by stepping outside.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "He appreciates reassurance that does not immediately become a demand for a practical demonstration.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. I have identified a suitable position from which to discuss the next stage. You will notice it has the admirable quality of being on this side of the doorway.", tone = "[nervous] [bright humor]" }, "Good to see you. Tell me what you have discovered, preferably before asking whether I have tested anything personally." },
+            idle = { { "The position in the diagram is exactly where I am standing. That does not make it less carefully selected. It merely confirms the practical value of remaining where I already was.", tone = "[defensive] [amused]" }, "The harvesters were substantially more aggressive than the calculations allowed. I have made a note of that, though I would prefer not to collect another demonstration.", "A stable can begin to feel quite agreeable once you stop describing it exclusively as the place you ran into." },
+            befriended = { { "You have become company I can enjoy without having to prove the courage of every explanation. Stay a little while, friend. The plan will benefit from hearing your news first.", tone = "[relieved] [sincere]" } },
+            poke = { "Yes? Does the question require me to leave the doorway?", "Go on. A theoretical answer may be available immediately." },
+            learned = { { "Good. Notice what the thing actually does before trusting the behavior you expected. I have recent experience of that distinction.", tone = "[quick] [instructive]" } },
+            gear = { "Have a look at the working parts. An elegant account of the mechanism is less reassuring once it begins chasing you." },
+            loot = { "A useful part, perhaps. Give it a proper look before deciding which ambitious plan it ought to complete." },
+            quest = { "A job finished. Excellent. We may appreciate that before volunteering me for the next practical trial." },
+            rest = { "A pause. Remaining in a comfortable position can be a perfectly reasonable decision without a technical justification." },
+            newFriend = { "Someone new. Let us hear the introduction before anyone asks for a demonstration of what I do." },
+            thanked = { "You are welcome. I am pleased the useful part of the explanation made it through." },
+        },
+    },
+
+    -- Voljin, Orgrimmar. Adult troll male10357/M2 1022938, Horde Neutral; positive access unverified. Own Windshaper welcome checked;831 current ender is Nazgrel. Burden/welcome scene is original.
+    -- Research: docs/research/ozwins-position-and-voljins-welcome.md
+    [10540] = {
+        quote = "A guest tell me what they can carry for the Horde. I ask what they need to set down first. A welcome ought to make room for both answers.",
+        likes = { "A newcomer heard beyond old rivalries", "Fierce courage given a place to belong", "Company asking after the person beside them" },
+        dislikes = { "A people reduced to an old enemy's name", "A welcome beginning with a demand", "Home spoken of as though it costs nothing" },
+        gossip = "Vol'jin once let a visitor finish offering their strength, then asked what burden they had brought with it. The second answer took longer.",
+        bio = "Vol'jin of the Darkspear stands in Orgrimmar. He asks visitors whether they come as friend or enemy. In welcoming the Windshapers, he recognizes their search for a home even while acknowledging the long history of conflict between trolls and elves.",
+        backstory = "A visitor began by offering every useful thing they could do. Vol'jin heard them out, then asked what they needed to set down before taking up another burden. The answer was quieter than the introduction, and he gave it room.",
+        secret = "He appreciates company that remembers to ask how he is after speaking of what the Darkspear need. There is still a person beside them when the introductions and duties have been named.",
+        bestFriend = "Sit with me, friend. Tell me what you carry today, and what you would be glad to leave outside our company for a while.",
+        favorite = {
+            emote = "GREET",
+            hint = "He values a plain acknowledgment of friendship that leaves room for the person beyond their duties.",
+        },
+        recordingVoice = "troll-male",
+        lines = {
+            greet = { { "There you are, friend. Sit with me. You may tell me what you bring to the day, and what you would be glad to set down before taking up another task.", tone = "[warm] [measured]" }, "Good to see you. Let the introduction rest a little. I would hear how you have been, not only what you are ready to do." },
+            idle = { { "They tell me what strength they can offer. I listen. Then I ask what burden they carried here before offering to take up another. A welcome should leave room for that answer too.", tone = "[reflective] [gentle authority]" }, "My people know what it means to have no home. I will hear what a newcomer seeks before letting an old rivalry speak every word for them.", "Friendship asks more than a name for the company standing beside you. Learn what they carry, and what makes them glad to stay." },
+            befriended = { { "You have become company I am pleased to keep beyond the names of our people and the duties waiting for us. Sit here, friend. There is room to speak as ourselves.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? I am listening.", "Go on. There is time for the answer that did not fit the introduction." },
+            newFriend = { { "Someone new. Hear what brings them here before deciding that the name of their people has already told you the whole account.", tone = "[steady] [welcoming]" } },
+            group = { "Know who stands beside you, and leave room to hear what they need as well as what they can offer." },
+            quest = { "A deed finished. Give the company their share of the thanks before deciding how the account should be told." },
+            rest = { "A pause. You may set the next duty aside long enough to remember the person who will have to carry it." },
+            hearth = { "Heading home. May you find a welcome that remembers more of you than the work you bring back." },
+            thanked = { "You are welcome, friend. I am glad there was room for the answer you needed to give." },
+            mail = { "News has crossed a distance to reach you. Give a little thought to the person who hoped you would read it." },
+        },
+    },
+
     -- Nuara Tremorhoof, Mulgore Elder Farseer. Adult tauren female147112/M2 986648, Horde Neutral; positive access unverified. Own disturbance gossip and98477; leaf voyage is original.
     -- Research: docs/research/nuaras-voyage-and-branstocks-light.md
     [272633] = {
