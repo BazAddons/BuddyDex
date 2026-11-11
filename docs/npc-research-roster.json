@@ -5236,5 +5236,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde identity; Current adult Forsaken and Apothecarium context; original solemn empty-bottle cork demonstration; no Scout sighting claimed",
     "research_notes": "docs/research/rathirils-puzzle-and-lycanus-cork.md"
+  },
+  {
+    "npc_id": 2096,
+    "name": "Tarrel Rockweaver",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance identity; Full305/306, three-page Merrin letter and Forever98461; original rehearsed welcome; no Scout sighting claimed",
+    "research_notes": "docs/research/tarrels-welcome-and-podrigs-punchline.md"
+  },
+  {
+    "npc_id": 6389,
+    "name": "Deathguard Podrig",
+    "zone": "Silverpine Forest",
+    "source": "Reviewed adult horde identity; Full four-task bat supply route and written order; original spare-boot joke with changing beginning; no Scout sighting claimed",
+    "research_notes": "docs/research/tarrels-welcome-and-podrigs-punchline.md"
   }
 ]

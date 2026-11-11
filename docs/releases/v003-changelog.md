@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Tarrel Rockweaver and Deathguard Podrig: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Research the excavation letters, Forever relationship quest and complete Sepulcher supply journey; retain native eligibility and character-specific progress.
+
 - Add Rathiril Sunlance and Apothecary Lycanus: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Preserve the High Order elder's political stance and research native dialogue; expand Alliance island and Horde Undercity coverage.
 
@@ -733,4 +736,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **953 fully written NPC profiles**: 454 have initial signature recordings, and four hundred ninety-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **955 fully written NPC profiles**: 454 have initial signature recordings, and five hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Tarrel Rockweaver and Deathguard Podrig: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Research the excavation letters, Forever relationship quest and complete Sepulcher supply journey; retain native eligibility and character-specific progress.
+
 - Add Rathiril Sunlance and Apothecary Lycanus: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Preserve the High Order elder's political stance and research native dialogue; expand Alliance island and Horde Undercity coverage.
 

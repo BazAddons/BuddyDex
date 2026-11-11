@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Tarrel Rockweaver, Menethil Harbor bridge, adult Dwarf male1677/M2 878772, Alliance Friendly normal. Full305/306, Merrin letter2639 and Forever98461 reviewed: happily married to Merrin, Hollee former classmate. Rehearsed welcome original; no affair, rescue completion, replacement family or rewritten quest letter.
+    -- Research: docs/research/tarrels-welcome-and-podrigs-punchline.md
+    [2096] = {
+        quote = "I had a speech prepared about the worry she has caused me. Then I imagined Merrin standing safely before me. I seem to have misplaced most of the speech.",
+        likes = { "Merrin's familiar handwriting", "A report that says what is actually known", "A welcome without another lecture" },
+        dislikes = { "Silence where a letter should have been", "Guesswork presented as certain news", "Being told he ought to stop worrying" },
+        gossip = "Tarrel has rehearsed a stern welcome for Merrin. Every version ends with him forgetting the stern part. He hopes to have that problem.",
+        bio = "Tarrel Rockweaver waits near Menethil Harbor, worried about his wife Merrin and Whelgar's excavation team. Her letters have stopped arriving. He seeks word of her, longing for the day Magni's people can live without fear.",
+        backstory = "He prepared a speech about how much worry Merrin had caused him. A friend asked what he would say first if she stood safely before him. Tarrel tried the speech again. The opening became warmer. The rest became much shorter.",
+        secret = "He knows a lecture would not be the first thing he wanted to give her. Rehearsing the welcome lets him picture an ordinary moment he hopes they will have again.",
+        bestFriend = "Sit with me, friend. Tell me what you know, and stay a little if you can. You need not find a clever answer to every worry I have.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "A moment of quiet comfort means more than an assurance nobody can honestly give.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are, friend. Come sit a moment. If you have news, I would hear it. If you have a little time, I would welcome that too.", tone = "[worried] [warm]" }, "Good to see you. I have been improving my stern speech. There is very little of it left, which may be the best improvement yet." },
+            idle = { { "I imagined telling Merrin how much she had worried me. Then I imagined her standing safely before me. The speech lost most of its sternness. I would gladly lose the rest of it too.", tone = "[tender] [wistful]" }, "You learn to recognize a familiar hand on a letter before you have read a single word. Waiting for the next one makes that a difficult thing to forget.", "I know that worry cannot bring word any faster. Knowing it has not made me particularly skilled at putting the worry down." },
+            befriended = { { "Stay beside me, friend. You have a way of making the waiting less lonely without pretending that you know how everything will end. I value that.", tone = "[softly] [sincere]" } },
+            poke = { "Yes? Have you heard something, or shall we have a little company?", "A moment, friend. I was attempting the opening of that welcome again." },
+            quest = { { "Tell me what you actually learned. I would rather hear the difficult part clearly than mistake a hopeful guess for word from someone who was there.", tone = "[earnest] [anxious]" } },
+            mail = { "Take care with a letter. Someone may have waited a long time to recognize the hand upon it." },
+            comforted = { "Thank you. There is no need to explain the feeling away. I am glad you stayed." },
+            rest = { "A little time sitting still with company. Yes, friend. That would be welcome." },
+            newFriend = { "Ask who they hope to hear from. You may understand them a little better when you know whose news they are waiting for." },
+            thanked = { "You are welcome. I hope the help gave you one less thing to worry about." },
+            group = { "Make certain everyone knows where the others are. It is a small kindness to spare someone an unnecessary wait for word." },
+        },
+    },
+
+    -- Deathguard Podrig, Sepulcher, adult Forsaken male5345/M2 959310, Horde Friendly normal. Full6321/6323/6322/6324 and order16209 reviewed despite empty current NPC quest tabs. Spare-boot joke with changing setup original; no free gear/flight, retail Korok task or new rank.
+    -- Research: docs/research/tarrels-welcome-and-podrigs-punchline.md
+    [6389] = {
+        quote = "And that was the spare boot. An excellent ending. You may supply the beginning; the last one you invented was better than mine anyway.",
+        likes = { "Equipment ready before it is needed", "A joke with an unexpected beginning", "A report delivered plainly" },
+        dislikes = { "Weapons left short after field losses", "A crate sent without its destination", "Having the punchline explained to him" },
+        gossip = "Podrig remembers a joke about a spare boot. The beginning changes whenever his friend visits. He approves some versions with a very stern face.",
+        bio = "Deathguard Podrig serves at the Sepulcher in Silverpine. Hadrec's supply inspection puts him to work replacing weapons lost in the field. He values readiness, plain reports, and a crate that reaches the people waiting for it.",
+        backstory = "He remembered the end of a joke about a spare boot, and claimed to have forgotten the beginning. A friend supplied one. It was absurd. The next visit brought another. Podrig began looking forward to hearing how the boot would arrive this time.",
+        secret = "He remembers the original beginning perfectly well. His friend's versions are funnier. He is willing to leave the supposed gap in his memory uncorrected for the sake of further attempts.",
+        bestFriend = "There you are. I have the ending ready. Take your time with the beginning, friend. The spare boot will keep until you get to it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A grin tells him that the stern expression has failed to conceal his amusement.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You have returned. Good. I trust you brought a new beginning for the joke. The spare boot remains ready for its part in the proceedings.", tone = "[gravelly] [dry]" }, "Welcome back, friend. A report first, if you have one. Then you may explain how the spare boot enters the story today." },
+            idle = { { "I remembered the ending and claimed to have forgotten the rest. My friend supplied a beginning. Then another. I remember the original perfectly well, but these versions have become considerably more entertaining.", tone = "[deadpan] [amused]" }, "A shortage discovered before the next patrol is a problem we can prepare to address. A shortage discovered when the weapon is needed has become a different matter.", "The expression is supposed to remain stern through the entire joke. My friend has developed an inconvenient talent for choosing the moment it fails." },
+            befriended = { { "Come with me, friend. You have earned the right to invent another beginning. I will provide the ending and make a reasonable attempt at a straight face.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? If it concerns the boot, I am prepared to hear your explanation.", "A moment. I was considering whether that beginning could possibly lead to the ending. A promising attempt." },
+            group = { { "Check that everyone has what they need before setting out. Equipment lost in the field must be accounted for. Assuming the next patrol will manage is a poor way to prepare it.", tone = "[firm] [commanding]" } },
+            quest = { "Deliver the order to the person named on it, and bring back a clear account. A supply request has work waiting at both ends of the journey." },
+            gear = { "Check it before it is needed. The moment you depend on a weapon is an inconvenient time to discover what has been neglected." },
+            bagsFull = { "Leave room to carry what must return with you. A destination is easier to serve when its supplies fit into the journey." },
+            rest = { "A short pause. You may attempt the next beginning while we have the time." },
+            laughAlong = { "Yes. That one deserves the ending. And that was the spare boot." },
+            thanked = { "You are welcome. A task completed properly is worth acknowledging." },
+        },
+    },
+
     -- Rathiril Sunlance, Elder of the High Order, Zephras Isle, adult Skyborne male138154/M2 7478487, Alliance Friendly normal. All native gossip/scene rows and92596 to94413 reviewed, including violent Windshaper opposition and former student Elaadrin. Wooden puzzle corner original; no politics erased, taught magic or island rescue reward.
     -- Research: docs/research/rathirils-puzzle-and-lycanus-cork.md
     [251903] = {

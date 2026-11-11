@@ -4907,6 +4907,20 @@
       "zone": "Undercity",
       "route": "Royal Apothecary Society member",
       "reason": "Current adult Forsaken and Apothecarium context; original solemn empty-bottle cork demonstration; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2096,
+      "name": "Tarrel Rockweaver",
+      "zone": "Wetlands",
+      "route": "Menethil bridge and excavation family",
+      "reason": "Full305/306, three-page Merrin letter and Forever98461; original rehearsed welcome; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6389,
+      "name": "Deathguard Podrig",
+      "zone": "Silverpine Forest",
+      "route": "Sepulcher supply inspection",
+      "reason": "Full four-task bat supply route and written order; original spare-boot joke with changing beginning; fifteen personal lines queued without synthesis"
     }
   ]
 }
