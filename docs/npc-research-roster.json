@@ -4648,5 +4648,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Full99152 and91294 context, own hardening gossip; original practice dummy repair and returning recruit approval; no Scout sighting claimed",
     "research_notes": "docs/research/ingrids-question-and-hildas-standards.md"
+  },
+  {
+    "npc_id": 4730,
+    "name": "Lelanai",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Own saber and Jartsam gossip, full97074 and historical mount exchanges; original shared sneeze imitation; no Scout sighting claimed",
+    "research_notes": "docs/research/lelanais-laugh-and-skindles-tally.md"
+  },
+  {
+    "npc_id": 6807,
+    "name": "Innkeeper Skindle",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult horde man; Own stove greeting, no current linked quests; original quiet-afternoon tally, later Pandaria incident excluded; no Scout sighting claimed",
+    "research_notes": "docs/research/lelanais-laugh-and-skindles-tally.md"
   }
 ]

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lelanai and Innkeeper Skindle, expanding Night Elf and Goblin profiles with thirty personal lines queued.
+- Preserve researched saber-handler and tavern dialogue; separate original shared laughter and quiet-afternoon tally from native mount rewards and later stories.
+
 - Add Ingrid Dunwald and Hilda the Breaker: adult Dwarf and Forsaken trainers, with thirty personal lines queued.
 - Ground their contrasting patience and stern self-reliance in Forever class quests and gossip; keep original friendship scenes separate from quest results.
 

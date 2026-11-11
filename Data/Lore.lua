@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lelanai, Saber Handler, Cenarion Enclave/Darnassus. Adult Night Elf female2788/M2 921844, Alliance Friendly. Own saber/Sentinel/Jartsam gossip; current97074 and historical7671/7672 version-limited. Shared failed sneeze imitation original, no mount awarded by friendship.
+    -- Research: docs/research/lelanais-laugh-and-skindles-tally.md
+    [4730] = {
+        quote = "Take your time. A saber is a companion, and deserves more thought than a glance at its coat. Though I admit the little sneeze is very persuasive.",
+        likes = { "A rider who gives a saber time", "The undignified little saber sneeze", "Gentle teasing between old friends" },
+        dislikes = { "A companion chosen only for its coat", "Hands grabbing without care", "Boasting in place of riding practice" },
+        gossip = "Lelanai can describe a saber's strength with perfect composure. Ask about the little sneeze, and she may spoil her imitation by laughing.",
+        bio = "Lelanai handles riding sabers in Darnassus's Cenarion Enclave, near Jartsam. She speaks proudly of their service to the Sentinel Army and encourages visitors to examine each companion with care after learning to ride.",
+        backstory = "A visitor asked her favorite sound from the saber yard. Lelanai tried to imitate a little sneeze. She began laughing halfway through, and the visitor's attempt was no better. Neither quite recovered their dignity.",
+        secret = "She enjoys being known well enough that someone can tease her gently. A friend's terrible imitation can delight her more than a solemn compliment.",
+        bestFriend = "You may attempt the sneeze again, friend. I promise to listen with dignity. No, wait. Give me a moment before you start.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A quiet, knowing smile can undo her composure faster than an elaborate compliment.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are, friend. We can enjoy a little company before anyone asks me to be dignified. And if you have been practicing that dreadful saber sneeze, at least give me a moment to prepare.", tone = "[warm] [playful]" }, "Welcome back. Take your time beside me. Not every visit needs to begin with a decision." },
+            idle = { { "I was asked my favorite sound from the yard. Such an innocent question. I tried to demonstrate the little sneeze, began laughing, and then my companion tried. We were neither of us fit to give a solemn answer afterward.", tone = "[amused] [fond]" }, "The Sentinel Army has trusted these companions for years. Remember that there is more to a saber than the appearance of its coat.", "A creature can be fearless and still deserve a patient introduction. Give yourself time to learn, and give your companion room to know you." },
+            befriended = { { "You know when I am trying very hard not to laugh, and you are kind enough to make the attempt even more difficult. Come along, friend. I would enjoy an afternoon with someone who knows that side of me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I am listening. Please tell me that noise was intentional.", "A moment, friend. I was considering how a creature so magnificent can produce a sneeze so small." },
+            mount = { { "Let your training guide your hands. A saber is a companion beneath you, not a fine coat carrying your impatience. Give the creature the care you would hope to receive on a long road.", tone = "[gentle] [instructive]" } },
+            rest = { "A quiet pause would suit me. We need not fill every moment with instructions." },
+            newFriend = { "Give a new companion a little time. You may learn something delightful once the introductions become less formal." },
+            group = { "Leave room for the quieter companion. They may be saving the remark that makes the whole company laugh." },
+            thanked = { "You are welcome. I am glad to have helped you feel more at ease." },
+            laughAlong = { "You see? I had every intention of preserving my dignity until you encouraged me." },
+            hearth = { "Homeward, then. I hope a familiar welcome waits for you, and perhaps something pleasantly undignified." },
+        },
+    },
+
+    -- Innkeeper Skindle, Salty Sailor Tavern/Booty Bay. Adult Goblin male7105/M2 119376, current Horde Friendly. Own stove warning; current related tabs empty. Quiet-afternoon chalk tally original. Later Pandaria pearl incident not imported; no new stove explosion or faction override.
+    -- Research: docs/research/lelanais-laugh-and-skindles-tally.md
+    [6807] = {
+        quote = "Pick a seat, pal. Preferably one with a little distance from the stove. You can admire my hospitality without becoming part of the cooking arrangements.",
+        likes = { "Guests who listen to the stove warning", "A quiet afternoon honestly counted", "A friend willing to check his arithmetic" },
+        dislikes = { "Sitting too close to the stove", "A dropped spoon spoiling his count", "Guests treating every warning as a dare" },
+        gossip = "Skindle keeps a chalk tally of quiet afternoons. A dropped spoon once made him erase a mark before a guest pointed out the stove was innocent.",
+        bio = "Innkeeper Skindle welcomes travelers to Booty Bay's Salty Sailor Tavern. His greeting recommends a seat away from the stove, whose reassuringly uneventful day he seems unwilling to trust entirely.",
+        backstory = "A spoon clattered while Skindle was updating his quiet-afternoon tally. He wiped away a mark. A guest objected that the stove had done nothing. He restored it and declared the account independently inspected.",
+        secret = "He likes a friend who can challenge his arithmetic and stay to enjoy the afternoon. The little argument gives them an excuse to linger.",
+        bestFriend = "Pull up a chair, pal. That tally needs an independent witness, and I trust you to spot a suspiciously profitable afternoon.",
+        favorite = {
+            emote = "WINK",
+            hint = "A conspiratorial glance suits someone inviting you to inspect a very respectable bit of arithmetic.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal. Take a seat with a little distance from the stove. I need an independent witness for the quiet-afternoon tally, and you're just the person to question my impeccable accounting.", tone = "[bright] [conspiratorial]" }, "Welcome back. Good to see you arrive with a story and the sense to hear the warning before choosing a chair." },
+            idle = { { "A spoon fell while I was updating the tally. I erased a mark. My guest said the stove was innocent. Fair point. I put the mark back and announced the books had passed an independent inspection.", tone = "[animated] [amused]" }, "An uneventful afternoon is worth appreciating. You don't have to make a great noise about it, especially near the stove.", "People come through Booty Bay with all sorts of plans. A place to sit gives them time to decide whether they still like the plan after saying it aloud." },
+            befriended = { { "You can question my arithmetic without deciding to leave before the argument gets entertaining. That's a valuable quality, pal. Come along. I like having someone beside me who knows when I'm inviting them to stay.", tone = "[warm] [sincere]" } },
+            poke = { "Yeah? If that's the stove making the noise, move the chair first and ask me afterward.", "I'm listening, pal. Start with the part that explains why you're grinning." },
+            rest = { { "Now here's an idea I can support. Sit down, take the weight off your feet, and let an afternoon prove it can pass without demanding anything spectacular from either of us.", tone = "[relaxed] [welcoming]" } },
+            hearth = { "Heading back? Good. There's something to be said for knowing where you intend to put your feet up." },
+            bagsFull = { "You carrying supplies for a journey or trying to bring the whole journey home in your pockets?" },
+            loot = { "Have a look before you start calculating what it's worth. Arithmetic improves when you know what you're counting." },
+            thanked = { "Happy to help, pal. A satisfied guest makes the welcome sound less like a sales pitch." },
+            laughAlong = { "There we go. A good laugh belongs on the afternoon's accounts, provided nobody tries to charge it to the stove." },
+            zone = { "Have a look around. Every place has a story, and somebody nearby will be delighted to tell you the profitable version." },
+        },
+    },
+
     -- Ingrid Dunwald, Shaman Trainer, Kharanos/Dun Morogh. Adult Dwarf female140654/M2 950080, Alliance Friendly. Own spirits greeting; Earth/Fire referral context96243/94449 and related trials. Shared unanswered snow question original, no clan/family or elemental revelation invented.
     -- Research: docs/research/ingrids-question-and-hildas-standards.md
     [258113] = {

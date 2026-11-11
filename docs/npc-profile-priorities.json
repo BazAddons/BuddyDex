@@ -4319,6 +4319,20 @@
       "zone": "Tirisfal Glades",
       "route": "Bandarion Keep paladin training",
       "reason": "Full99152 and91294 context, own hardening gossip; original practice dummy repair and returning recruit approval; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4730,
+      "name": "Lelanai",
+      "zone": "Darnassus",
+      "route": "Cenarion Enclave saber handler",
+      "reason": "Own saber and Jartsam gossip, full97074 and historical mount exchanges; original shared sneeze imitation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6807,
+      "name": "Innkeeper Skindle",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay Salty Sailor Tavern",
+      "reason": "Own stove greeting, no current linked quests; original quiet-afternoon tally, later Pandaria incident excluded; fifteen personal lines queued without synthesis"
     }
   ]
 }
