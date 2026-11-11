@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Cerellean Whiteclaw and Gann Stonespire: adult Night Elf and Tauren regional profiles with thirty personal lines queued.
+- Preserve the researched grief, dispossession and vengeance; separate original remembered-afternoon and lost-path scenes from quest outcomes.
+
 - Add Rex Hardwire and Josephine Lister: adult Goblin and Forsaken profiles with thirty personal lines queued.
 - Document Rex faction/role limits and distinguish the Shadoweave trainer from unrelated quest speakers; add original stone-skipping and lamplight scenes.
 

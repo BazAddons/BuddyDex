@@ -4291,6 +4291,20 @@
       "zone": "Undercity",
       "route": "Magic Quarter master Shadoweave tailor",
       "reason": "Current title, captured shadow-power greeting; original practical lamplight; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3644,
+      "name": "Cerellean Whiteclaw",
+      "zone": "Darkshore",
+      "route": "Auberdine For Love Eternal",
+      "reason": "Full963, grief and hibernation; original patient listener to ordinary memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3341,
+      "name": "Gann Stonespire",
+      "zone": "The Barrens",
+      "route": "Southern Barrens dispossession and vengeance",
+      "reason": "Full843/846/849, journal and road gossip; original lost-path conversation; fifteen personal lines queued without synthesis"
     }
   ]
 }

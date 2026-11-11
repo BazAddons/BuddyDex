@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Cerellean Whiteclaw, Auberdine/Darkshore. Adult Night Elf male1757/M2 974343, Alliance Friendly. Full963: Anaya, hibernation and inability to release her spirit himself. Patient listener and ordinary-afternoon recollection original; grief retained, no resurrection or replacement romance.
+    -- Research: docs/research/cerelleans-memory-and-ganns-path.md
+    [3644] = {
+        quote = "I would like to remember her laughter, too. Stay a moment. Let me find the words for an afternoon that had no reason to become important.",
+        likes = { "Anaya's name spoken with kindness", "An ordinary memory allowed its time", "Company willing to hear an unfinished thought" },
+        dislikes = { "Grief measured against a calendar", "Kindness demanding a quick recovery", "Anaya reduced to the end of her story" },
+        gossip = "Cerellean may begin with an ordinary memory of Anaya and fall silent. Someone who stays quietly may hear where the memory was leading.",
+        bio = "Cerellean Whiteclaw grieves for Anaya Dawnrunner in Auberdine. He carried sorrow over Ameth'Aran's fall into long hibernation. Finding her bound spirit leaves him asking for a freedom he cannot bring himself to give, while love and grief remain tangled together.",
+        backstory = "A visitor asked what Anaya's laugh had sounded like. Cerellean began with a small afternoon memory, then fell silent. The visitor waited. When he found the next words, they were about her laughter again.",
+        secret = "He is grateful when a friend lets a memory be loving before it is sad. Keeping her name in ordinary conversation can matter without making the grief smaller or easier to explain.",
+        bestFriend = "Anaya. I am glad I can say her name to you without being asked whether I have finished grieving. Stay a moment, friend.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "He values kindness that leaves him room to remember Anaya and choose whether he is ready to speak.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are, friend. You may walk beside me for a while. I might speak of Anaya, or I might need a little quiet before the words come. I am glad you can leave room for either.", tone = "[softly] [warm]" }, "Good to see you. Let us take the day at a pace that leaves a little room to notice what is beside us." },
+            idle = { { "They asked about her laughter. I found the beginning of an ordinary afternoon, then lost the words for a moment. They waited. When I could continue, I was still remembering her laughter, and I was glad of that.", tone = "[quietly] [reflective]" }, "I carried my sorrow into sleep. Waking did not make the years arrange themselves into a simple distance from the person I loved.", "There are ordinary things I would like to remember about Anaya. They belong to her story as surely as the sorrow does." },
+            befriended = { { "You have become someone before whom I need not arrange the memory into a complete account. Come along, friend. I am grateful for the room you leave, and for the kindness with which you hear her name.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? I am here. Give me a moment to listen properly.", "A moment, please. I had nearly found the words I wanted." },
+            comforted = { { "Thank you. You need not find the words that will make this easy. Your kindness can stay beside the grief without requiring it to become a different story before you remain.", tone = "[softly] [grateful]" } },
+            rest = { "I would welcome a pause. We need not decide whether it ought to make us ready for something else." },
+            zone = { "Take a moment to look. An ordinary place can become the beginning of a memory without giving any sign of it at the time." },
+            newFriend = { "Someone new. Let them choose how much of their story they are ready to place before us." },
+            thanked = { "You are welcome, friend. I am glad there was something I could offer you today." },
+            group = { "Leave a little room for the quiet person. Having less to say does not always mean there is less to carry." },
+            hearth = { "Homeward, then. I hope the familiar place will offer you a little gentleness when you arrive." },
+        },
+    },
+
+    -- Gann Stonespire, southern Barrens. Adult Tauren male3844/M2 968705, Horde Friendly. Full843/846/849, own solitary-road and directions gossip: dispossession, failed diplomacy, vengeance. Lost-path conversation original; no forgiveness, reclaimed land or attackability override.
+    -- Research: docs/research/cerelleans-memory-and-ganns-path.md
+    [3341] = {
+        quote = "Do not ask me to call the scars a discovery. This land fed my people. Walk with me, and I will tell you where the old paths used to lead.",
+        likes = { "The lost tribe remembered with respect", "Ancestral land treated as a home", "A companion who hears more than the anger" },
+        dislikes = { "The destruction at Bael Modan", "Diplomacy praised while the digging continues", "The lost tribe reduced to an inconvenience" },
+        gossip = "Gann can describe a path that the excavation has cut away. Ask where it once led, and for a moment he will speak of home before the damage.",
+        bio = "Gann Stonespire walks the southern Barrens in defiance of Bael Modan's excavation. Tauren were killed or driven from ancestral land, and diplomacy failed. He seeks Khazgorm's journal and a strike against the dwarven flying machine as vengeance and reclamation.",
+        backstory = "A traveler asked where a path had run before the excavation. Gann traced it on the ground. For a few moments he described where it had led, rather than where the dwarves had cut it away. The traveler listened until he finished.",
+        secret = "He wants someone to remember that the land was home before it became a grievance. The old path has a place in his memory that is more than a route toward an enemy.",
+        bestFriend = "Walk with me, friend. I will tell you where the path used to lead. You understand why remembering it has not made me forgive its destruction.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates a deliberate sign of respect for the people and ancestral home his anger is defending.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Walk beside me. I can tell you where the old path once led, if you are willing to hear the place as a home and not merely another grievance waiting to be settled.", tone = "[grave] [steady]" }, "Good to see you. Keep your eyes on what has been done to the land. A fine account of discovery does not make the damage disappear." },
+            idle = { { "They asked where the path had led. I marked its turns and began to speak of home. The excavation had cut it away, but for a little while someone heard more than the shape of what the dwarves had destroyed.", tone = "[low] [reflective]" }, "I sought a diplomatic resolution. That effort failed. I will not pretend the destruction becomes acceptable because someone has found a more comfortable description of it.", "Khazgorm's plans can be turned against the work that scarred these lands. I do not feel obliged to admire the machines that were used to tear our home apart." },
+            befriended = { { "You have become someone who can hear of my people without first asking me to make the loss easier for them. Walk with me, friend. I value the respect you bring to the land and to my company.", tone = "[firm] [sincere]" } },
+            poke = { "Yes? Give me the plain question.", "A moment. I am listening, though my attention may have reached the bend before you did." },
+            zone = { { "Look at the ground as a place people lived, not only a place where someone might find something to take. Remembering that is part of understanding why these roads carry more than travelers.", tone = "[grave] [instructive]" } },
+            quest = { "Tell me what you found. I want the useful account of what the enemy is doing, and I will decide what it means for the work before us." },
+            gear = { "Keep what you need in useful order. The task is difficult enough without letting careless preparation add to it." },
+            rest = { "A pause, then. I can sit beside you without calling the work finished or the wrong forgiven." },
+            group = { "Know why you stand beside one another. The cause deserves more than a loud promise that disappears when the road grows difficult." },
+            thanked = { "You are welcome. I am glad to have been useful to someone who understands what I am defending." },
+            bowBack = { "I see the respect you offer. The memory of my people is not a small thing to place before another, and I am glad you have heard it." },
+        },
+    },
+
     -- Rex Hardwire, Riverglades. Adult Goblin male148599/M2 119376. Current Horde Neutral only, positive nonattackable access unverified. No own role/quest/gossip established; no engineering job guessed from surname. Stone-skipping pastime original.
     -- Research: docs/research/rexs-stones-and-josephines-lamp.md
     [260564] = {

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Cerellean Whiteclaw and Gann Stonespire: adult Night Elf and Tauren regional profiles with thirty personal lines queued.
+- Preserve the researched grief, dispossession and vengeance; separate original remembered-afternoon and lost-path scenes from quest outcomes.
+
 - Add Rex Hardwire and Josephine Lister: adult Goblin and Forsaken profiles with thirty personal lines queued.
 - Document Rex faction/role limits and distinguish the Shadoweave trainer from unrelated quest speakers; add original stone-skipping and lamplight scenes.
 
@@ -598,4 +601,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **865 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **867 fully written NPC profiles**: 454 have initial signature recordings, and four hundred thirteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 372,
+    "alliance": 373,
     "unverified": 181,
-    "horde": 359
+    "horde": 360
   },
   "npc_race_counts": {
     "1": 168,
@@ -13,10 +13,10 @@
     "7": 61,
     "2": 93,
     "5": 92,
-    "4": 78,
+    "4": 79,
     "8": 61,
     "9": 63,
-    "6": 96,
+    "6": 97,
     "96": 28,
     "95": 45
   },
@@ -40,11 +40,11 @@
     "Arathi Highlands": 11,
     "Orgrimmar": 59,
     "Badlands": 1,
-    "Darkshore": 14,
+    "Darkshore": 15,
     "Mulgore": 26,
     "Thunder Bluff": 42,
     "Durotar": 52,
-    "The Barrens": 48,
+    "The Barrens": 49,
     "Stonetalon Mountains": 15,
     "Darnassus": 16,
     "Burning Steppes": 1,
@@ -3936,6 +3936,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3338"
     },
     {
+      "npc_id": 3341,
+      "name": "Gann Stonespire",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3341"
+    },
+    {
       "npc_id": 3342,
       "name": "Shan'ti",
       "zone": "Orgrimmar",
@@ -4858,6 +4871,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3639"
+    },
+    {
+      "npc_id": 3644,
+      "name": "Cerellean Whiteclaw",
+      "zone": "Darkshore",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3644"
     },
     {
       "npc_id": 3658,
@@ -11096,6 +11122,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 865,
-  "awaiting_signature_audio_profiles": 411
+  "authored_profiles": 867,
+  "awaiting_signature_audio_profiles": 413
 }
