@@ -5446,5 +5446,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Native Antarion training and eight Zephrali arms; original first-attempt design story; no Scout sighting claimed",
     "research_notes": "docs/research/emruls-flowers-and-falfaans-first-attempt.md"
+  },
+  {
+    "npc_id": 259084,
+    "name": "Denaaris Stargale",
+    "zone": "Dalaran",
+    "source": "Reviewed adult alliance identity; Native authorized passage greeting and full High Order arrival context; original leisure doorway stroll; no Scout sighting claimed",
+    "research_notes": "docs/research/denaaris-doorway-and-dranhs-reply.md"
+  },
+  {
+    "npc_id": 6387,
+    "name": "Dranh",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde identity; Current adult male named skinner; later Cataclysm fate excluded; original bad-pun rivalry; no Scout sighting claimed",
+    "research_notes": "docs/research/denaaris-doorway-and-dranhs-reply.md"
   }
 ]

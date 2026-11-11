@@ -5117,6 +5117,20 @@
       "zone": "Zephras Isle",
       "route": "Artisan weapon crafter in Valanaar",
       "reason": "Native Antarion training and eight Zephrali arms; original first-attempt design story; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 259084,
+      "name": "Denaaris Stargale",
+      "zone": "Dalaran",
+      "route": "High Order arrival and Stormwind introduction contact",
+      "reason": "Native authorized passage greeting and full High Order arrival context; original leisure doorway stroll; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6387,
+      "name": "Dranh",
+      "zone": "The Barrens",
+      "route": "Skinner at Camp Taurajo",
+      "reason": "Current adult male named skinner; later Cataclysm fate excluded; original bad-pun rivalry; fifteen personal lines queued without synthesis"
     }
   ]
 }

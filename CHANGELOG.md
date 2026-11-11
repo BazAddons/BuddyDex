@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Denaaris Stargale and Dranh: full High Order Skyborne and Tauren profiles, thirty personal lines queued.
+- Research the Dalaran arrival route and current Camp Taurajo identity; preserve normal eligibility and separate character progress.
+
 - Add Emrul Riknussun and Falfaan Halfwind: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
 - Research cooking supplies and native magesmith training; verify Falfaan on both factions with normal eligibility and separate character progress.
 

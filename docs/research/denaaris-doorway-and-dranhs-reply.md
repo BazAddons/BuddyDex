@@ -1,0 +1,41 @@
+# Denaaris's doorway and Dranh's reply
+
+Reviewed November 11, 2026 for Forever. Adult catalog singletons Denaaris259084 and Dranh6387. Current NPC nodes/all four relation tabs, six current quest nodes and one item node cached at `C:/Users/brett/BuddyDex-builds/candidates-985`. No recordings, native audio reuse or fabricated Scout sightings. Installed Scout/dialogue sources remain read only.
+
+## Denaaris Stargale259084
+
+[Current NPC](https://forever.warcraftdb.com/api/data/node/npc/259084): High Order, race95 High Order Skyborne, normal10, explicit Alliance Friendly. Outer Alterac1416 pin12.26,56.36 projects Dalaran, independently established by the arrival quests. Adult male143215/M2 7478487; packed143215:95:0 matches approved skyborne-male8chV49fDd6WKeqeufgPU. Standard adult model and official arrival/liaison role support adulthood. A third-party guide uses female pronouns; current model metadata governs this profile instead. Bolvar's high-elf wording does not change the current Skyborne race.
+
+[Published Forever NPC](https://www.wowhead.com/forever/npc=259084/denaaris-stargale) confirms title and outer region, and includes his return-for-possible-tasks speech. It does not promise a recurring daily task. The own captured gossip authorizes passage to Stormwind for fellow Skyborne. Kirin Tor mages establish the portal; he is not rewritten as its inventor. No universal travel service, guaranteed non-Skyborne access or friendship teleport is added.
+
+Current starts94947, ends94946, no sells/teaches. No own generated quest-ID block; restricted installed Compendium identifies94946 ender and93089 predecessor. The spelling Danaaris in the objective is an internal text variant, not another identity. Current node and native name remain Denaaris. No invented surname kinship.
+
+### Full arrival sequence and context
+
+Re-read the documented full High Order route and parallel Windshaper distinction in [Talaanis's source review](jorins-patch-and-talaanis-doorstep.md), plus [Elaadrin's review](elaadrins-paper-bird-and-raans-spoon.md). Then freshly fetched/read current objectives/descriptions and full installed accept/completion for93835 Confront Lorthuna,94369 The Fate of Zephras,93089 What Comes Next,94946,94947 and93963. Earlier chain research is distinguished from a claim of visiting every earlier quest page again today.
+
+The confrontation leaves the island vulnerable, but the Windlord has not already destroyed it. Talaanis blesses the expedition; Elaadrin remains in Valanaar while a vanguard leaves. Ansirem assists the transport preparation. Their plans and fears do not become Denaaris's personal deeds, title or claim of certain safety.
+
+Read full published [94946 The Magical City of Dalaran](https://www.wowhead.com/forever/quest=94946/the-magical-city-of-dalaran) and [94947 Welcome to Azeroth](https://www.wowhead.com/forever/quest=94947/welcome-to-azeroth), including exposed completion. Denaaris welcomes arrivals but warns against unprepared exploration outside the city; Elaadrin directs use of the skycutter, and Denaaris sends a representative through the High Order portal to Bolvar. Bolvar grants native guest permission. Neither permission nor completed voyage is assumed for every BuddyDex user. Old ship timers and player bug comments do not become current guarantees.
+
+Read full published [93963 Exploring the Alliance](https://www.wowhead.com/forever/quest=93963/exploring-the-alliance) objective and offer/completion: Randal supplies instructions, the traveler meets Magni/Mekkatorque/Tyrande, and Bolvar suggests further work while the Order establishes itself. Denaaris is not credited with the city tour or cloak. The published [Advisor Emerson's Instructions285356](https://www.wowhead.com/forever/item=285356/advisor-emersons-instructions) exposes an empty Content heading. Raw page retrieval returned403, and the current item node has no pages; the actual readable body remains unobserved. No invented instruction text, hidden route, safe deletion advice or assumption of personal authorship assigned to Denaaris. Profile claims rest on the observed quest text rather than that missing body.
+
+Original BuddyDex writing: a leisurely city walk with an adult friend repeatedly passes one ordinary unnamed doorway. They recognize the circuit and continue enjoying the conversation. This is not a claim he misdirects official arrivals, a named new building, actual map route, travel unlock or movement feature. WAVE favorite and hearth signature. Fifteen supported personal lines/four hidden delivery-tag pairs in approved skyborne-male queued only.
+
+## Dranh6387
+
+[Current NPC](https://forever.warcraftdb.com/api/data/node/npc/6387): Skinner, Tauren6, normal15, explicit Horde Friendly. Camp Taurajo/Barrens1413 near45.09,59.00. Adult male5108/M2 968705, packed5108:6:0 matches approved tauren-male UHjFz97GTxtpwstZu19x. Standard adult body and professional role support adulthood independently of level.
+
+[Published Forever NPC](https://www.wowhead.com/forever/npc=6387/dranh) confirms title and Barrens. [Licensed Atlas index](https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/connected/wowatlas/RegionalIndices_hr.pdf) places the skinner near hides at Camp Taurajo, agreeing with the current pin. Current starts/ends/sells/teaches empty, no captured own gossip or generated quest-ID block and no restricted Compendium quest reference. No personal readable book or quest chain established. The sparse current table does not justify adding a specific skill cap, lesson price or forced trainer service.
+
+[Indexed version biography](https://warcraft.wiki.gg/wiki/Dranh) describes the later title change and Cataclysm death. Those events do not apply to the living Forever record. He is not a ghost, a ruined-camp survivor or a new participant in Honoring the Dead. No later war, family, tribal office or recovered spirit assigned.
+
+Original BuddyDex writing: a friend answers his bad pun with a worse one, beginning a playful rivalry. GOLFCLAP favorite and applaudToo signature give deliberately restrained applause a personal meaning. The adult friend, puns and contest are original, not an emote-specific native service, scorekeeping feature, event, harvesting effect or reward. Present lines also allow ordinary listening and quiet company. Fifteen supported personal lines/four hidden delivery-tag pairs queued in approved tauren-male. No synthesis.
+
+## Validation and delivery
+
+Main/Scout smoke passes with zero load errors/failures, all lore/page/line budgets and fresh/existing character roster isolation. Focused actual-addon harness `C:/Users/brett/AppData/Local/Temp/buddydex-denaaris-dranh-985.py` passes Denaaris on Alliance and Dranh on Horde, nonattackable reaction5 fresh sessions. Adult identity, approved live/declared voices, fifteen supported unmapped personal lines each, four hidden tones each, valid favorites, attackable/reaction3 rejection, HELLO25 plus favorite150=175,99/100 and299/300 normal thresholds, companion rejection at299 and text-only welcome at300 pass. Generic guards excluded. Mocked sessions do not prove live sightings, native services, rescue completion or quest results. No runtime or saved-variable changes.
+
+985 fully written profiles /454 with initial signature recordings /531 written-complete audio-pending. Denaaris259084 and Dranh6387 add30 personal jobs/4657 tagged input characters in approved skyborne-male and tauren-male. Full offline audit16430 missing jobs/1439486 tagged input characters: shared3548/personal12882, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-985/queue.json`. Prior queue retained exactly plus thirty jobs. Catalog1536 name groups/1549 retained identities unchanged, nonexhaustive and overlapping the backlog; reviewed research-roster additions retained. Two uncertain Westfall identities remain unprofiled. No synthesis.
+
+Explicit Friendly429Alliance/426Horde/184unverified with54shared overlaps yields985 unique profiles. HighOrderSkyborne61/Tauren109. Local installation and development ZIP verified6362files/6334audio mappings/138.98MiB; ZIP CRC passes and source/installed/ZIP Lore bytes match. ZIP SHA256 `957ced0e8696290b73560dd89c79cf2469888b949bce068d97a3fcbc44d2c987`. Publishedv002 unchanged; no tag or CurseForge publication.

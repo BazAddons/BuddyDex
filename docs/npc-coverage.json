@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 428,
+    "alliance": 429,
     "unverified": 184,
-    "horde": 425
+    "horde": 426
   },
   "npc_race_counts": {
     "1": 172,
@@ -16,9 +16,9 @@
     "4": 98,
     "9": 67,
     "8": 61,
-    "6": 108,
+    "6": 109,
     "96": 28,
-    "95": 60
+    "95": 61
   },
   "zone_counts": {
     "Elwynn Forest": 33,
@@ -44,7 +44,7 @@
     "Mulgore": 27,
     "Thunder Bluff": 47,
     "Durotar": 57,
-    "The Barrens": 51,
+    "The Barrens": 52,
     "Stonetalon Mountains": 16,
     "Darnassus": 23,
     "Burning Steppes": 1,
@@ -62,7 +62,8 @@
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
     "Zephras Isle": 85,
-    "Riverglades": 14
+    "Riverglades": 14,
+    "Dalaran": 1
   },
   "entries": [
     {
@@ -7827,6 +7828,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6376"
     },
     {
+      "npc_id": 6387,
+      "name": "Dranh",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6387"
+    },
+    {
       "npc_id": 6389,
       "name": "Deathguard Podrig",
       "zone": "Silverpine Forest",
@@ -11859,6 +11873,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/259012"
     },
     {
+      "npc_id": 259084,
+      "name": "Denaaris Stargale",
+      "zone": "Dalaran",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/259084"
+    },
+    {
       "npc_id": 259119,
       "name": "Alaana Stormwalker",
       "zone": "Mulgore",
@@ -12632,6 +12659,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 983,
-  "awaiting_signature_audio_profiles": 529
+  "authored_profiles": 985,
+  "awaiting_signature_audio_profiles": 531
 }

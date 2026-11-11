@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Denaaris Stargale, High Order Dalaran arrival/Stormwind introduction contact, adult male High Order Skyborne143215/M2 7478487, Alliance Friendly normal. Native authorized portal greeting, full93835/94369/93089/94946/94947/93963 context. Repeated doorway on leisure stroll original; no universal portal access, changed race or extra travel system.
+    -- Research: docs/research/denaaris-doorway-and-dranhs-reply.md
+    [259084] = {
+        quote = "That doorway does look familiar. After our third visit, my friend greeted it by name. I believe we have learned a great deal about this particular part of the city.",
+        likes = { "New arrivals finding a safe beginning", "A walk with time to notice the city", "A friend who recognizes the doorway too" },
+        dislikes = { "An unprepared departure into danger", "Directions given without listening", "Ending a pleasant walk merely on schedule" },
+        gossip = "Denaaris and a friend passed the same doorway three times on a stroll. By the third visit, his friend had begun greeting it.",
+        bio = "Denaaris Stargale welcomes High Order arrivals in Dalaran and directs them toward an introduction in Stormwind. He urges preparation before exploration. A leisurely walk with a friend has also made him unexpectedly familiar with one ordinary doorway.",
+        backstory = "A quiet stroll kept bringing him and a friend back to the same doorway. Denaaris noticed on the second circuit. His friend greeted it on the third. They laughed, then chose another turn and continued talking.",
+        secret = "He could have ended the walk sooner. But the conversation kept becoming interesting. Once they both knew the way, there seemed no reason to stop merely because they had already passed the door.",
+        bestFriend = "Walk with me, friend. We can choose the next turn together. If we meet our familiar doorway again, I expect we shall still have something to discuss.",
+        favorite = {
+            emote = "WAVE",
+            hint = "A cheerful greeting suits a familiar friend, or a doorway that has become a familiar landmark.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. It is good to recognize someone at the beginning of the visit, rather than discovering that we have walked past the same doorway for the third time. How have you been?", tone = "[polished] [amused]" }, "Good to see you. Have you come with news, a question, or time for a quiet conversation? I would hear which before offering directions." },
+            idle = { { "My friend greeted the doorway on our third visit. I had noticed it on the second. We agreed that it was becoming an extremely well-explored part of the city, and continued talking.", tone = "[wry] [warm]" }, "There is much to discover here. Take time to prepare before wandering beyond the safety of the city. Curiosity deserves a better beginning than an avoidable danger.", "A leisurely walk need not be a failed journey because it returns to the same place. Sometimes the conversation is the part you meant to continue." },
+            befriended = { { "You are welcome beside me, friend. I enjoy hearing what you notice. Choose the next turn if you like; I shall tell you when the doorway begins to look familiar again.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? If you are asking whether we have passed this way before, I should like to examine the doorway before answering.", "A moment, friend. Tell me where you mean to go before I describe where this particular turn brought us." },
+            hearth = { { "A familiar place is a pleasant sight when you intend to return. Our doorway was rather more of a surprise the first two times. I am glad to have another familiar arrival to welcome now.", tone = "[welcoming] [playful]" } },
+            quest = { "Attend to the introduction you were asked to make. Listen to the people you meet, and give yourself time to understand the place before assuming you know it." },
+            zone = { "A new place deserves a careful look. Notice what lies near you before deciding how much farther you are ready to explore." },
+            newFriend = { "Make room for an ordinary conversation. It is a good way to discover whether you would enjoy taking the long way around together." },
+            rest = { "Let us pause. We can talk without choosing another turn for a little while. I would like to hear which part of the day has stayed with you." },
+            thanked = { "You are welcome. I am glad the guidance was useful. If you have another question, ask before setting out; I would rather you left prepared." },
+            laughAlong = { "Yes, that was when the doorway received its greeting. I believe it was the most confident introduction either of us had made during that particular walk." },
+        },
+    },
+
+    -- Dranh, Skinner Camp Taurajo Barrens, adult Tauren male5108/M2 968705, Horde Friendly normal. Current named skinner and location; own tabs/gossip empty. Friendly awful-pun rivalry original; no later death/spirit, new training service, item, scorekeeping or automatic harvest.
+    -- Research: docs/research/denaaris-doorway-and-dranhs-reply.md
+    [6387] = {
+        quote = "My friend said the joke was dreadful. I offered to hide it. They came back with a worse one the next day. A very encouraging answer, once I had finished groaning.",
+        likes = { "Useful hides handled with care", "A friend bringing a worse pun", "A wonderfully unimpressed round of applause" },
+        dislikes = { "Good material needlessly wasted", "A punch line surrendered too early", "Having to explain the pun twice" },
+        gossip = "Dranh told a friend a dreadful pun. They returned with a worse one. Neither seems in any hurry to end the contest.",
+        bio = "Dranh is a skinner at Camp Taurajo in the Barrens. He values useful material and unhurried company. With a friend, he enjoys a rather less dignified practice: seeing who can offer the worse pun while appearing pleased with it.",
+        backstory = "He offered a joke about hides to a friend, who gave him an impressively long groan. The next day they came back with a worse one. Dranh listened, considered surrender, and decided that such a serious challenge deserved a reply.",
+        secret = "He enjoys knowing the friend thought of something to bring him. The pun may be awful, but the visit is welcome. He would rather lose another round than have nobody willing to play.",
+        bestFriend = "Come and sit, friend. I have a reply prepared. You may groan afterward, but I would like to hear the whole of your answer too.",
+        favorite = {
+            emote = "GOLFCLAP",
+            hint = "A deliberately restrained round of applause is a fitting reception for his most determined wordplay.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome, friend. Have you brought a reply? I have been considering how to answer your last joke. It deserves something particularly dreadful, and I would not like to disappoint you.", tone = "[warm] [wry]" }, "Good to see you. Sit a little if you have time. Tell me about the road before we decide which of us ought to apologize for the next pun." },
+            idle = { { "I said I could hide the dreadful joke. My friend groaned, then returned with a worse one. I had to admire the effort while objecting to almost every word of it.", tone = "[deadpan] [amused]" }, "Useful material deserves care. What you waste cannot become useful merely because you find a better explanation afterward.", "There is a particular pleasure in hearing a friend begin a joke with far too much confidence. I try to give the ending the reception it deserves." },
+            befriended = { { "You are welcome beside me, friend. Bring your good news, your troublesome thoughts, or your least defensible pun. I am pleased to have your company before I have heard the ending.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? Give me a moment. The answer is becoming worse, which means it may be nearly ready.", "I am listening, friend. If that was the beginning of the pun, I shall prepare an appropriately patient expression." },
+            applaudToo = { { "A very restrained reception. Excellent. I shall take that as recognition of how hard I worked to make the joke so little deserving of applause.", tone = "[pleased] [playful]" } },
+            laughAlong = { "There. That is an answer worth remembering. I shall object to it again next time, provided you come back to tell it." },
+            rest = { "Let us pause. We may speak plainly for a while. Even a determined contest needs an interval in which nobody is trying to make the other groan." },
+            loot = { "Look at the condition before deciding what you can use. A careful glance can spare a good piece from an unnecessary mistake." },
+            newFriend = { "Ask about their day before preparing your finest joke. You may discover they need a listener more than a demonstration of your confidence." },
+            thanked = { "You are welcome. I am glad it helped. If the thanks concerns the entertainment, I expect you will have a suitably dreadful reply ready soon." },
+            comforted = { "Thank you for staying, friend. We need not find a joke for every pause. There is room for an ordinary quiet moment too." },
+        },
+    },
+
     -- Emrul Riknussun, Cooking Supplier Bronze Kettle Ironforge, adult Dwarf male3095/M2 878772, Alliance Friendly normal. Twelve current wares, no own captured gossip or quests. Flour/flowers note original; not a cooking trainer or new delivery/crafting reward.
     -- Research: docs/research/emruls-flowers-and-falfaans-first-attempt.md
     [5160] = {
