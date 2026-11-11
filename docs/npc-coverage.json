@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 432,
+    "alliance": 433,
     "unverified": 184,
-    "horde": 429
+    "horde": 430
   },
   "npc_race_counts": {
     "1": 172,
@@ -13,10 +13,10 @@
     "7": 63,
     "2": 111,
     "5": 113,
-    "4": 99,
+    "4": 100,
     "9": 67,
     "8": 61,
-    "6": 109,
+    "6": 110,
     "96": 28,
     "95": 61
   },
@@ -42,11 +42,11 @@
     "Badlands": 1,
     "Darkshore": 17,
     "Mulgore": 27,
-    "Thunder Bluff": 47,
+    "Thunder Bluff": 48,
     "Durotar": 57,
     "The Barrens": 52,
     "Stonetalon Mountains": 16,
-    "Darnassus": 24,
+    "Darnassus": 25,
     "Burning Steppes": 1,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -3465,6 +3465,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3017"
     },
     {
+      "npc_id": 3019,
+      "name": "Delgo Ragetotem",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3019"
+    },
+    {
       "npc_id": 3022,
       "name": "Sunn Ragetotem",
       "zone": "Thunder Bluff",
@@ -5910,6 +5923,19 @@
       "reaction_evidence": "Explicit current alliance Friendly icon; ordinary live gates retained",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4160",
       "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 4161,
+      "name": "Lysheana",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4161"
     },
     {
       "npc_id": 4164,
@@ -12737,6 +12763,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 991,
-  "awaiting_signature_audio_profiles": 537
+  "authored_profiles": 993,
+  "awaiting_signature_audio_profiles": 539
 }

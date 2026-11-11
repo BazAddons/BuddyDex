@@ -5173,6 +5173,20 @@
       "zone": "Orgrimmar",
       "route": "Cloth and leather merchant in the Drag",
       "reason": "Forty current garments and repairs; original ghost-story cloak interruptions; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4161,
+      "name": "Lysheana",
+      "zone": "Darnassus",
+      "route": "Guild master in Craftsmen Terrace",
+      "reason": "Current guild service and indexed courteous greeting; original floor-joint stepping game; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3019,
+      "name": "Delgo Ragetotem",
+      "zone": "Thunder Bluff",
+      "route": "Axe merchant on High Rise",
+      "reason": "Current adult merchant identity and historical axe trade; original eyebrow staring contest; fifteen personal lines queued without synthesis"
     }
   ]
 }

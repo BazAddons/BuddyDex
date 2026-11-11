@@ -5502,5 +5502,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde identity; Forty current garments and repairs; original ghost-story cloak interruptions; no Scout sighting claimed",
     "research_notes": "docs/research/triannas-heron-and-handors-cloak.md"
+  },
+  {
+    "npc_id": 4161,
+    "name": "Lysheana",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance identity; Current guild service and indexed courteous greeting; original floor-joint stepping game; no Scout sighting claimed",
+    "research_notes": "docs/research/lysheanas-steps-and-delgos-eyebrow.md"
+  },
+  {
+    "npc_id": 3019,
+    "name": "Delgo Ragetotem",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Current adult merchant identity and historical axe trade; original eyebrow staring contest; no Scout sighting claimed",
+    "research_notes": "docs/research/lysheanas-steps-and-delgos-eyebrow.md"
   }
 ]

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lysheana and Delgo Ragetotem: full Night Elf and Tauren profiles, thirty personal lines queued.
+- Research current guild and axe-merchant roles; keep original friendship stories distinct from fan roleplay and later retail lore.
+
 - Add Trianna and Handor: full Night Elf and Orc profiles, thirty personal lines queued.
 - Research native weaving dialogue, the camping banner lesson and current armor stock; preserve normal eligibility and character progress.
 

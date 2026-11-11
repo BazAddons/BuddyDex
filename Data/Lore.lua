@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lysheana, Guild Master Darnassus, adult Night Elf female2216/M2 921844, Alliance Friendly normal. Current guild service, indexed courteous greeting, no own captured dialogue/quests. Floor-joint stepping game and curtsy original, not a real minigame or charter benefit; exclude player RP and later retail events.
+    -- Research: docs/research/lysheanas-steps-and-delgos-eyebrow.md
+    [4161] = {
+        quote = "My friend caught me stepping over the floor joints in a pattern. Naturally I explained the rules. A dignified curtsy is the proper way to acknowledge the winner, even when it is not me.",
+        likes = { "People finding companions", "A shared game in a quiet moment", "A gracious winner" },
+        dislikes = { "A newcomer left outside the conversation", "Victory made unpleasant for everyone", "A welcome hurried into a dismissal" },
+        gossip = "Lysheana knows a stepping game played over floor joints. Catch her at it and she may explain the rules, then challenge your dignified victory.",
+        bio = "Lysheana serves as guild master in Darnassus, helping people organize their company. She appreciates a courteous welcome and has a playful side that becomes easier to see when the formal business is finished.",
+        backstory = "A friend noticed her stepping over the floor joints in a peculiar pattern. Lysheana explained the game instead of pretending she had been walking normally. Her friend won the next round. She acknowledged defeat with an exquisitely formal curtsy.",
+        secret = "She had nearly forgotten how pleasant it was to explain the game to someone new. Losing was a small price for the invitation to play another round.",
+        bestFriend = "The business can wait a moment, friend. Do you remember the pattern? I believe I owe you an attempt at a more dignified rematch.",
+        favorite = {
+            emote = "CURTSEY",
+            hint = "A gracious acknowledgment suits a friendly victory, especially when the game has become unexpectedly dignified.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome, friend. Have we business to discuss, or shall I explain why that entirely ordinary stretch of floor deserves another attempt? I have been practicing my gracious acknowledgment of defeat.", tone = "[poised] [playful]" }, "It is good to see you. Come into the conversation. There is room for a proper welcome before we begin deciding what everyone needs." },
+            idle = { { "My friend caught me stepping over the floor joints. I explained the rules. It seemed more sensible than pretending an entirely normal walk required quite so much concentration.", tone = "[composed] [amused]" }, "People may arrive together and still need help making room for one another. A name and a greeting are useful beginnings.", "I offered an impeccably formal curtsy when my friend won. I believe that gave the occasion the dignity it had been missing." },
+            befriended = { { "I am glad you stayed, friend. You are welcome when the formal business is finished too. We have discovered that an ordinary visit can contain a rather enjoyable rematch.", tone = "[warm] [fond]" } },
+            poke = { "Yes? Have you forgotten the pattern, or are you hoping I shall explain the difficult part incorrectly?", "One moment. I am deciding whether that step was a bold new strategy or a very graceful mistake." },
+            bowBack = { { "A gracious acknowledgment. Thank you. I shall answer with the dignity this occasion deserves, then consider how to win the next round without sacrificing any of it.", tone = "[formal] [delighted]" } },
+            newFriend = { "Leave a little space for them to answer. A welcome becomes much more useful when the newcomer can actually join the conversation." },
+            group = { "Give everyone a chance to understand the arrangement before expecting them to follow it. Shared company deserves more than a shared name." },
+            rest = { "A quiet moment suits me. We may enjoy it without finding an impressive reason for the pause." },
+            thanked = { "You are welcome. I am pleased we found an arrangement that helped. Come back when you have time to tell me how it went." },
+            cheerAlong = { "That was well done. Enjoy your victory, friend. I shall be gracious about it for at least as long as it takes to ask for another round." },
+            zone = { "Take a moment to greet the people here. Finding your way around a place is easier when it begins to contain familiar faces." },
+        },
+    },
+
+    -- Delgo Ragetotem, Axe Merchant Thunder Bluff, adult Tauren male2084/M2 968705, Horde Friendly normal. Current title/pin, historical eleven axes; current vendor tab empty, no own captured quests/gossip. Eyebrow staring contest original, no combat training, special axe, invented relatives or later Legion history.
+    -- Research: docs/research/lysheanas-steps-and-delgos-eyebrow.md
+    [3019] = {
+        quote = "My friend proposed a staring contest. I was doing very well until they raised one eyebrow. It is difficult to remain formidable when you are wondering how someone learned to do that.",
+        likes = { "An axe chosen with care", "A formidable expression undone by a grin", "Time for friendly competition" },
+        dislikes = { "A weapon treated like a harmless toy", "A victory used to belittle someone", "Being told the eyebrow did not move" },
+        gossip = "Delgo can hold an impressive stare until his friend raises one eyebrow. He insists the next contest will have clearer rules about that.",
+        bio = "Delgo Ragetotem is an axe merchant in Thunder Bluff. He treats the choice of a weapon seriously. Friendly competition is another matter, especially when a visitor discovers how easily his formidable expression can give way to laughter.",
+        backstory = "A visiting friend challenged him to a staring contest. Delgo settled into a thoroughly imposing expression. Then his friend raised one eyebrow. He broke into laughter, asked how they had managed it, and requested another round.",
+        secret = "He has tried the eyebrow himself. He cannot tell whether he is improving, because his friend begins laughing before giving a useful assessment.",
+        bestFriend = "Come here, friend. Let me try the expression once more. You may laugh afterward, but I should like an honest opinion first.",
+        favorite = {
+            emote = "WINK",
+            hint = "A small movement of the face is enough to undo his formidable concentration and invite another round of laughter.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have been practicing my expression. You may tell me whether it is formidable, but try to leave that eyebrow where it is until I have properly begun.", tone = "[deep] [amused]" }, "Good to see you. Have you come to consider an axe, or have you another harmless challenge prepared for me?" },
+            idle = { { "I was winning the staring contest until my friend raised one eyebrow. I asked for clearer rules. They said the eyebrow had not moved. That did not improve my concentration.", tone = "[rumbling] [wry]" }, "Choose an axe for the use you intend. Its weight deserves consideration before it becomes something you must manage in a difficult moment.", "I have attempted the eyebrow myself. My friend laughs before telling me whether I have succeeded. This makes a careful assessment rather difficult." },
+            befriended = { { "I am glad you stayed, friend. There is room in the day for your company and a little friendly competition. I need not win every round to enjoy your return.", tone = "[warm] [steady]" } },
+            poke = { "Yes? Is this the beginning of another contest? Give me a moment to arrange a suitably formidable expression.", "One moment. I am trying to move only the eyebrow. Apparently the rest of my face has opinions about the effort." },
+            laughAlong = { { "You see? There is little point in holding a formidable stare when we are both laughing already. We shall call this a successful visit and decide the winner another time.", tone = "[booming] [joyful]" } },
+            gear = { "Give the grip and the weight a little attention. A weapon should feel manageable before you depend on it." },
+            loot = { "Consider what you can use safely before deciding how impressive it looks. A poor choice does not improve merely because it has become yours." },
+            newFriend = { "Let them see that the challenge is friendly. There is more pleasure in a contest when both people are willing to return for another." },
+            rest = { "A pause, then. You may lower the eyebrow. I believe this round has already been decided." },
+            thanked = { "You are welcome, friend. I am glad the advice helped. A useful choice is worth taking a little time to make." },
+            cheerAlong = { "Well done. Enjoy that, friend. It was your effort that brought you here, and a little celebration suits the occasion." },
+        },
+    },
+
     -- Trianna, Journeyman Tailor Darnassus, adult Night Elf female10582/M2 921844, Alliance Friendly normal. Three native gossip lines and full97950 camping lesson with96630/96606 context. Long-legged practice bird and friendship story original; no later retail fate or free profession rewards.
     -- Research: docs/research/triannas-heron-and-handors-cloak.md
     [11050] = {
