@@ -5299,6 +5299,20 @@
       "zone": "Tirisfal Glades",
       "route": "Deathguard in Brill",
       "reason": "Forty-five shared Brill directions, no personal quest chain; original pretend prediction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1326,
+      "name": "Sloan McCoy",
+      "zone": "Stormwind City",
+      "route": "Poison supplier in Old Town",
+      "reason": "Native caution line and current empty stock; original supper charades; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4451,
+      "name": "Auld Stonespire",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff displaced-land quest giver",
+      "reason": "Full1102 current/native/historical progress-completion; original second bowl welcome; fifteen personal lines queued without synthesis"
     }
   ]
 }

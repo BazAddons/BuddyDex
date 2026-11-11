@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Sloan McCoy and Auld Stonespire: full Human and Tauren profiles, thirty personal lines queued.
+- Research cautious supply work and A Vengeful Fate; preserve normal thresholds, character progress and established grief.
+
 - Add Huntress Ravenoak and Deathguard Gavin: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research Darnassus protection and shared Brill directions; preserve Elite and normal friendship thresholds and separate character progress.
 

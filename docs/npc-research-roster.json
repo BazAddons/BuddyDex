@@ -5628,5 +5628,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde identity; Forty-five shared Brill directions, no personal quest chain; original pretend prediction; no Scout sighting claimed",
     "research_notes": "docs/research/ravenoaks-leaf-and-gavins-prediction.md"
+  },
+  {
+    "npc_id": 1326,
+    "name": "Sloan McCoy",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance identity; Native caution line and current empty stock; original supper charades; no Scout sighting claimed",
+    "research_notes": "docs/research/sloans-charades-and-aulds-second-bowl.md"
+  },
+  {
+    "npc_id": 4451,
+    "name": "Auld Stonespire",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Full1102 current/native/historical progress-completion; original second bowl welcome; no Scout sighting claimed",
+    "research_notes": "docs/research/sloans-charades-and-aulds-second-bowl.md"
   }
 ]

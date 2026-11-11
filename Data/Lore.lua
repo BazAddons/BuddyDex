@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Sloan McCoy, Stormwind poison supplier, adult Human female1523/M2 1000764, Alliance Friendly normal25. Own native caution line; current all tabs zero, historical stock not promised. Supper charades original, no intelligence rank or coded-signal feature.
+    -- Research: docs/research/sloans-charades-and-aulds-second-bowl.md
+    [1326] = {
+        quote = "I tried to suggest supper without speaking. My friend guessed a locked door, a wounded duck, and an arrest. I eventually said supper. Quietly. Some messages deserve the trouble of words.",
+        likes = { "A question phrased with care", "A friend who returns her dry humor", "An invitation without an audience" },
+        dislikes = { "Careless words in dangerous company", "A private matter announced to the room", "Having every gesture called a signal" },
+        gossip = "Sloan tried to suggest supper with gestures. Her friend guessed an arrest. They have agreed that words have their uses.",
+        bio = "Sloan McCoy is a poison supplier in Stormwind. Her warning to speak with care makes her caution plain. With friends, that restraint can turn into a dry little joke about how much a person can say without a word.",
+        backstory = "She once tried to invite a friend to supper with gestures. They guessed a locked door, a wounded duck, and an arrest. Sloan finally supplied the word. Her friend accepted the invitation, then asked which gesture had been meant to suggest eating.",
+        secret = "She enjoyed the wrong guesses enough to delay the answer. Discretion is useful; making a friend laugh can be a good use of it too.",
+        bestFriend = "There you are. Supper, when there is time? I shall risk using the actual word. I like having you understand the invitation.",
+        favorite = {
+            emote = "WINK",
+            hint = "A small, knowing expression answers the joke without announcing it to everyone nearby.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Good to see you. Supper, when you have a moment? That was the invitation. The next mysterious gesture will merely be me finding somewhere to sit.", tone = "[quietly] [wry]" }, "There you are. Tell me what you need, and choose your words with a little care." },
+            idle = { { "My friend mistook my invitation to supper for an arrest. I should have stopped after the wounded duck. The message was clearly deteriorating.", tone = "[dry] [amused]" }, "A quiet voice is useful. Thinking before you speak is better.", "You need not invent a hidden meaning for every movement I make. Sometimes I am simply uncomfortable." },
+            befriended = { { "You are welcome beside me. I like someone who can enjoy a private joke and keep a private confidence. Tell me your news. We need not put on a performance for the room.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? An ordinary question will do. I am not requiring you to devise a signal.", "One moment. Let me hear what you actually mean before deciding what you might be suggesting." },
+            laughAlong = { { "A wounded duck. Yes, I remember. You could have accepted supper before proposing to have me arrested.", tone = "[softly] [playful]" } },
+            newFriend = { "Let them say what they mean before deciding they are trying to conceal something." },
+            rest = { "A little time to ourselves. You may use whole sentences. I am prepared to risk them." },
+            thanked = { "You are welcome. I am glad the care was useful. There is no need to make an announcement." },
+            group = { "Keep a confidence because someone trusted you with it. Having an audience does not change the arrangement." },
+            mail = { "Read the message before adding your own suspicions. Sometimes an invitation is simply an invitation." },
+            combatEnd = { "Everyone able to answer? Good. Take a moment before deciding what needs to be said next." },
+        },
+    },
+
+    -- Auld Stonespire, Thunder Bluff, adult Tauren male4568/M2 968705, Horde Friendly normal28. Full1102 current/native/Classic progress-completion read. Second bowl welcome original; no forced forgiveness, quest completion or death; no Cataclysm relocation.
+    -- Research: docs/research/sloans-charades-and-aulds-second-bowl.md
+    [4451] = {
+        quote = "My friend set out a second bowl before asking whether I would stay. I noticed. It is a small thing, perhaps, to expect someone at your table. It was not a small thing to me.",
+        likes = { "A place kept for him without fuss", "Company that can hear his anger", "An ordinary meal shared with a friend" },
+        dislikes = { "Holy land treated as disposable", "Being hurried toward forgiveness", "An invitation made into an interrogation" },
+        gossip = "Auld noticed the second bowl before his friend asked him to stay. He remembers being expected, not merely accommodated.",
+        bio = "Auld Stonespire lives in Thunder Bluff. He values Cairne's leadership but still seeks vengeance for his people's expulsion from holy land in the southern Barrens. Welcome at a friend's table does not require him to forget that loss.",
+        backstory = "A friend set out two bowls before asking whether he would stay for a meal. Auld accepted. They did not ask him to explain his grief before serving him. He found that he remembered the welcome as clearly as anything they had spoken about.",
+        secret = "He noticed that his friend expected him to stay. The simple certainty of that invitation mattered. He would like to offer the same welcome in return.",
+        bestFriend = "Sit with me, friend. There is a place for you. You need not bring an answer to everything that troubles me before we share it.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A sincere invitation matters more to him than an attempt to explain away his loss.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Stay a while, if you can. I remember the place you made for me. I would be glad to return the welcome.", tone = "[deep] [warm]" }, "I hear you, friend. Tell me what brings you here today." },
+            idle = { { "My friend set out a second bowl before asking me to stay. I noticed that. There was a place for me before I had to explain why I might need it.", tone = "[reflective] [gentle]" }, "Cairne has brought our people together here. I can honor that and still remember what was taken from us.", "Do not call a land empty merely because you do not know the people to whom it is holy." },
+            befriended = { { "You are welcome with me, friend. You have heard my anger without trying to speak it away. I value the company you bring as well as the care with which you listen.", tone = "[solemn] [sincere]" } },
+            poke = { "Yes, friend? I am listening. Take the time you need to say it.", "One moment. Some thoughts require more care than a quick answer permits." },
+            rest = { { "Stay. You do not need to find something useful to say before your company is welcome. We may share an ordinary moment as well.", tone = "[grounded] [warm]" } },
+            comforted = { "Thank you for hearing me. I have not forgotten the loss. I do not need you to pretend that I should have." },
+            newFriend = { "Make room for them before deciding what they must tell you to deserve the place." },
+            thanked = { "You are welcome. I remember what it means to have someone make a place for you." },
+            group = { "Keep one another in mind. A companion should not have to earn the right to be heard each time they speak." },
+            zone = { "Ask what a place means to the people who know it. The answer may matter more than what you first see." },
+            combatEnd = { "Look to your companions. Give each one the time to answer before we decide everyone is ready to move." },
+        },
+    },
+
     -- Huntress Ravenoak, Darnassus, adult Night Elf female14418/M2 921844, Alliance Friendly Elite60. Current three pins and no own captured dialogue/tasks. Falling-leaf shoulder game original; not Skymane, no Illyanna kinship, stealth detection perk or exact patrol schedule. Preserve Elite150/450.
     -- Research: docs/research/ravenoaks-leaf-and-gavins-prediction.md
     [14379] = {
