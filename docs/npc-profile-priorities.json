@@ -4641,6 +4641,20 @@
       "zone": "Orgrimmar",
       "route": "Expert enchanter and teacher referrals",
       "reason": "Five challenge/craft/Jhag/Hgarth greetings; original feather-race rematch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1572,
+      "name": "Thorgrum Borrelson",
+      "zone": "Loch Modan",
+      "route": "Thelsamar elite gryphon master",
+      "reason": "Full6387/6391/6388/6392 and own speed boast; original view conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5871,
+      "name": "Larhka",
+      "zone": "The Barrens",
+      "route": "Crossroads beverage merchant",
+      "reason": "Six current drinks and sparse personal sources; original five-legged cork kodo; fifteen personal lines queued without synthesis"
     }
   ]
 }

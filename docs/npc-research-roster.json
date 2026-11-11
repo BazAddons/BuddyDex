@@ -4970,5 +4970,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde man; Five challenge/craft/Jhag/Hgarth greetings; original feather-race rematch; no Scout sighting claimed",
     "research_notes": "docs/research/argos-letter-and-godans-rematch.md"
+  },
+  {
+    "npc_id": 1572,
+    "name": "Thorgrum Borrelson",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance man; Full6387/6391/6388/6392 and own speed boast; original view conversation; no Scout sighting claimed",
+    "research_notes": "docs/research/thorgrums-view-and-larhkas-kodo.md"
+  },
+  {
+    "npc_id": 5871,
+    "name": "Larhka",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde man; Six current drinks and sparse personal sources; original five-legged cork kodo; no Scout sighting claimed",
+    "research_notes": "docs/research/thorgrums-view-and-larhkas-kodo.md"
   }
 ]

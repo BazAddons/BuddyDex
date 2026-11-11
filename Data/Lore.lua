@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Thorgrum Borrelson, Thelsamar Loch Modan Gryphon Master, adult Dwarf male5037/M2 878772, Alliance Friendly elite. Own speed boast and full6387/6391/6388/6392 delivery despite empty current related tabs. View conversation original; native paid flight/elite friendship scaling retained.
+    -- Research: docs/research/thorgrums-view-and-larhkas-kodo.md
+    [1572] = {
+        quote = "Fast flight, aye. But if ye didn't notice the Loch, ye spent too much of it admiring yer own knees. Tell me what ye saw when ye looked up, then ye can praise the speed again.",
+        likes = { "Praise for the gryphons of Thelsamar", "A traveler who remembers the view", "A delivery prepared before departure" },
+        dislikes = { "His birds dismissed before they are tried", "The whole flight spent staring at boots", "A destination named after the rider mounts" },
+        gossip = "Thorgrum asked about the view after hearing how fast a flight was. On the next visit, the answer took longer than expected.",
+        bio = "Thorgrum Borrelson handles gryphon travel at Thelsamar in Loch Modan. He boasts about his birds' speed. Brock's honorary-pick delivery links his service to Golnir Bouldertoe and Gryth Thurden in Ironforge.",
+        backstory = "A friend returned praising the speed of the journey. Thorgrum asked what the Loch had looked like. They could not remember. On their next visit they brought a much longer account of the view. He listened, then suggested beginning with the color.",
+        secret = "For someone so proud of a quick journey, he can spend a surprising amount of time hearing what a friend noticed along the way. The speed pleases him; so does a view worth remembering.",
+        bestFriend = "Come along, friend. We needn't hurry every word between us. Tell me what ye noticed before telling me how quickly ye passed it.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He likes hearing that the gryphons of Thelsamar made a fine impression.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Have ye come to praise the speed again, or can ye tell me what the Loch looked like this time? I appreciate both accounts. I merely suggest that the view deserves a little attention before ye spend the whole journey admiring yer own knees.", tone = "[hearty] [amused]" }, "Aye, welcome back. Tell me where ye're bound before we decide how much of the conversation ought to be a farewell." },
+            idle = { { "They said the journey was fast. Excellent, I said. What did the Loch look like? No answer. On the next visit they brought a description that seemed determined to make up for it. I listened, then suggested we begin with the color and work outward.", tone = "[wry] [fond]" }, "Brock's list has a purpose beyond reaching Ironforge. Those honorary picks are meant for students who earned them. A small delivery may matter a great deal at its other end.", "A good view is not an argument against a quick journey. I see no reason a rider should not appreciate both." },
+            befriended = { { "Ye have learned to bring me something besides a destination and a complaint about the time. I enjoy hearing what ye noticed, friend. Come along. For a while, we can let the conversation take as long as it needs without making that a criticism of the gryphons.", tone = "[gruff] [warm]" } },
+            poke = { "Aye, friend? Give me the destination before the account of everywhere ye might have gone instead.", "A moment. I am considering whether that was praise for the birds or a request for another story." },
+            landed = { { "There ye are. A fine journey, I hope. Before ye tell me how quickly it passed, tell me something ye saw. A little color, a turn in the land, anything beyond the admirable condition of the boots ye stared at all the way there.", tone = "[cheerful] [teasing]" } },
+            taxi = { "Settle yerself and look up when ye can. There is more to a journey than waiting for the ground to be beneath yer feet again." },
+            quest = { "Have the delivery ready and know who is waiting for it. A quick flight is less useful if ye spend the afternoon remembering what ye meant to bring." },
+            rest = { "A pause, then. Ye may tell the long version of the view. I will attempt not to interrupt before ye reach the horizon." },
+            newFriend = { "Ask what they noticed along the way. A destination tells ye where someone was going, but rarely the whole journey." },
+            thanked = { "Aye, ye're welcome. I am pleased the journey gave ye something worth bringing back besides an estimate of the time." },
+            zone = { "Here we are. Take a proper look before deciding ye have seen everything worth mentioning." },
+        },
+    },
+
+    -- Larhka, Crossroads Barrens Beverage Merchant, adult Orc male4525/M2 917116, Horde Friendly. Six current drinks, no own current/Classic quest or captured greeting. Five-legged cork kodo and shared solution original; no beast profile, free drink or actual crafting mechanic.
+    -- Research: docs/research/thorgrums-view-and-larhkas-kodo.md
+    [5871] = {
+        quote = "Four legs would be more accurate. Five keep it standing on the shelf. It is a very small cork kodo. I think the world can spare it one practical advantage.",
+        likes = { "A cool drink chosen for the road", "Small things made from leftover corks", "A practical answer to an unsteady shelf" },
+        dislikes = { "Useful scraps thrown away too quickly", "A little joke repeated until it is tiresome", "Every quiet moment becoming a sales pitch" },
+        gossip = "Larhka's little cork kodo has five legs. He says the extra one is not anatomy. It is furniture keeping its dignity.",
+        bio = "Larhka sells beverages at the Crossroads in the Barrens. His supplies include water, milk, nectar and juices. Away from the sale, he enjoys making small, rather doubtful creatures from leftover corks.",
+        backstory = "His little cork kodo kept tipping on the shelf. A friend suggested an extra leg. Larhka added one and considered the result. It was less accurate, certainly, but the creature had finally found a way to remain upright.",
+        secret = "He likes that the extra leg recalls a solution they found together. He could make a neater model now, but would rather keep the one with something to remember.",
+        bestFriend = "Come along, friend. The kodo can manage the shelf without us now. I would enjoy seeing what we notice beyond the little things I make.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A friendly grin can appreciate the little cork creature without demanding perfect anatomy.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Welcome back, friend. It is still standing. Yes, the cork kodo. Five legs remain a practical improvement, whatever the rest of the world's kodos may think of the arrangement. You may inspect the workmanship after I have finished here.", tone = "[warm] [amused]" }, "There you are. Something for the road, friend, or have you come to see whether my little creature has fallen over again?" },
+            idle = { { "It tipped every time I set it on the shelf. They suggested another leg. I added one. Less accurate, I admit, but considerably more successful at standing. We agreed that the extra leg was a practical arrangement rather than a discovery about kodos.", tone = "[dry] [amused]" }, "A little leftover cork is not much by itself. Give it time and a few other pieces, and it may become something worth keeping, even if nobody agrees on which end is the head.", "Choose what you want for the journey. There is no need to invent an impressive reason for preferring a simple drink." },
+            befriended = { { "You found room for a little foolishness among the ordinary things that needed doing. I enjoy that, friend. Come along. The small cork kodo can hold its place on the shelf now, and I would rather spend a while in company that has a reason to laugh at it.", tone = "[gruff] [fond]" } },
+            poke = { "Yes, friend? If the question concerns the fifth leg, I stand by the result.", "A moment. I am deciding whether this scrap is useful or whether I have already imagined another creature around it." },
+            bagsFull = { { "A useful scrap deserves a little room, but not the whole bag. I could imagine creatures in half the things you carry. That does not mean you should preserve every piece until it becomes difficult to find the drink you meant to bring.", tone = "[wry] [practical]" } },
+            rest = { "A quiet pause. I need not sell you something to enjoy having you here." },
+            newFriend = { "Take an interest in the small thing they are making. It may carry more of their pleasure than the impressive work everyone already asks about." },
+            thanked = { "You are welcome. I am glad it was useful. We need not add an extra leg to every solution, though I remain pleased with that one." },
+            group = { "One suggestion at a time. We can consider the practical ones before deciding the answer needs an entire committee." },
+            quest = { "Know what was requested before offering an improvement. My little kodo could accept a fifth leg; not everyone has asked for that sort of solution." },
+            zone = { "Here we are. There may be something worth noticing that I could never fit onto a little shelf." },
+        },
+    },
+
     -- Argos Nightwhisper, Stormwind Park, adult Night Elf male5078/M2 974343, Alliance Friendly. Full3765/1275 brother Gershala referral/research chain. Ordinary dog included in letter original; no future destroyed Park, native delivery or solved research.
     -- Research: docs/research/argos-letter-and-godans-rematch.md
     [4984] = {

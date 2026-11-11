@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Thorgrum Borrelson and Larhka: full Loch Modan and Barrens profiles, thirty personal lines queued.
+- Research the honorary-pick flight chain and beverage merchant; retain elite friendship scaling and add original personal stories.
+
 - Add Argos Nightwhisper and Godan: full Night Elf and Orc profiles, thirty personal lines queued.
 - Follow the Darkshore corruption referral and preserve enchanting dialogue; add original letter and rematch friendship stories.
 
