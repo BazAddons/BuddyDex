@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 351,
-    "unverified": 174,
-    "horde": 335
+    "alliance": 352,
+    "unverified": 175,
+    "horde": 336
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 73,
+    "3": 74,
     "7": 59,
     "2": 90,
     "5": 88,
@@ -18,7 +18,7 @@
     "9": 59,
     "6": 88,
     "96": 26,
-    "95": 36
+    "95": 37
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -29,7 +29,7 @@
     "Loch Modan": 3,
     "Duskwood": 4,
     "Dun Morogh": 22,
-    "Wetlands": 5,
+    "Wetlands": 6,
     "Ironforge": 60,
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 49,
@@ -58,7 +58,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 60,
+    "Zephras Isle": 61,
     "Riverglades": 12,
     "Felwood": 1
   },
@@ -9765,6 +9765,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257022"
     },
     {
+      "npc_id": 257024,
+      "name": "Mendalass Tattermend",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257024"
+    },
+    {
       "npc_id": 257037,
       "name": "Zelena Favorbreeze",
       "zone": "Zephras Isle",
@@ -10367,6 +10381,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270582"
     },
     {
+      "npc_id": 270637,
+      "name": "Howin Kindfeather",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Alliance Neutral and Horde Hostile icons; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270637"
+    },
+    {
       "npc_id": 271480,
       "name": "Taliaa Brightsky",
       "zone": "Zephras Isle",
@@ -10517,6 +10542,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 820,
-  "awaiting_signature_audio_profiles": 366
+  "authored_profiles": 822,
+  "awaiting_signature_audio_profiles": 368
 }

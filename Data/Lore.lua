@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mendalass Tattermend, Shendar skinner. Adult High Order male140078/M2 7478487, both Friendly. Full97971 and own training/work gossip; chair-testing visit is original.
+    -- Research: docs/research/mendalass-chair-and-howins-stitch.md
+    [257024] = {
+        quote = "I was testing the chair. Sitting down is a perfectly sound part of the test. You may join me, provided you do not insist we ought to be doing something.",
+        likes = { "A beginner finding the useful movement", "A chair given a proper unhurried test", "A visit after the lesson is already learned" },
+        dislikes = { "Good material wasted through haste", "Rest explained as though it were misconduct", "A student too embarrassed to ask again" },
+        gossip = "Mendalass calls a quiet interval chair testing. He has been known to invite a visitor to assist, without assigning them anything to do.",
+        bio = "Mendalass Tattermend teaches skinning in Shen'dar Village on Zephras Isle. He supplies tools and offers the Camp Chair lesson through Raan's camping referral. He can sound occupied by important work, yet welcomes a learner who is ready to ask.",
+        backstory = "A visitor found him sitting and asked when he would return to work. Mendalass said the chair still needed testing. He invited them to help, then enjoyed discovering how little instruction the task required.",
+        secret = "He enjoys a student returning when there is nothing left to explain. Company is a different pleasure from being useful, and he is glad to have room for both.",
+        bestFriend = "Sit here, friend. The chair may pass its test while I hear your news. You need not bring a question to be welcome.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates quiet understanding that a proper pause needs no elaborate defense.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Sit here a little while. We may describe it as chair testing if you require an important purpose, though I am content simply to hear your news.", tone = "[dignified] [dry humor]" }, "Good to see you. Have you a question, or have you come for company after the lesson? There is room for either." },
+            idle = { { "They asked when I would return to the work. I explained that the chair required testing. It proved a pleasant task to share, and needed considerably less instruction than most of my demonstrations.", tone = "[matter-of-fact] [amused]" }, "Useful material deserves patient hands. You will lose more by hurrying the part you do not understand than by asking to see it once again.", "Rest can be part of being ready for what comes next. It need not become another accomplishment you must explain to the company." },
+            befriended = { { "You have become company I am glad to welcome without first finding a question to answer. Sit here, friend. The lesson can wait while I hear how you have been.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the chair test acquired a difficult new requirement?", "Go on. A simple question is often the useful place to begin." },
+            learned = { { "Good. Notice the movement that made the difference, and practice it carefully. Understanding should travel with you after the explanation has ended.", tone = "[steady] [encouraging]" } },
+            gear = { "Make sure it serves the work comfortably. What you rely on should leave you more attention for what your hands are doing." },
+            loot = { "Look at the material before deciding what it ought to become. There is useful work in recognizing what you actually have." },
+            rest = { "An excellent opportunity for further testing. You may sit without preparing an account of what the pause will accomplish." },
+            newFriend = { "Someone new. Leave them room to ask their own question before arranging the whole lesson on their behalf." },
+            thanked = { "You are welcome. I am pleased the useful part has reached your hands." },
+            group = { "Give each person room to settle. One restless member need not decide that the entire pause has finished." },
+        },
+    },
+
+    -- Howin Kindfeather, Wetlands. Adult dwarf male11740/M2 878772, Alliance Neutral/Horde Hostile; positive access unverified. Current quest chain identifies wife Claira and Bassbeak; crooked stitch is original. Older11810 not separately authored.
+    -- Research: docs/research/mendalass-chair-and-howins-stitch.md
+    [270637] = {
+        quote = "The crooked stitch is mine. I know. Bassbeak has expressed no concern, but she has never been required to admire the workmanship.",
+        likes = { "A sound plan with its preparations done", "Bassbeak fed before the next flight", "A friend noticing the care behind the temper" },
+        dislikes = { "Dragonmaw schemes reaching for another dragon", "A strap checked only after taking off", "His own crooked stitch called nearly straight" },
+        gossip = "Howin can outline a dangerous plan while criticizing one crooked stitch. Bassbeak appears more interested in lunch.",
+        bio = "Howin Kindfeather has returned to the Wetlands with designs on Grim Batol. He prepares scale armor and food for his gryphon Bassbeak, opposes renewed Dragonmaw enslavement, and sends warnings while keeping his wife Claira and Falstad in mind.",
+        backstory = "Checking the work for Bassbeak, he noticed a crooked stitch. Howin corrected it and checked again, conceding that the gryphon cared more about being fed. He still preferred having the small fault set right before the next flight.",
+        secret = "He values the small care he can finish while the larger task remains uncertain. A friend may hear the complaint about a stitch and recognize his pleasure in having set it right.",
+        bestFriend = "Come along, friend. The strap has been checked and Bassbeak has been considered. We may hear your news before the next great plan.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He values recognition of careful preparation beneath the louder account of courage and anger.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. If you have noticed the crooked stitch, I have corrected it already. We may begin with your news instead of reviewing my workmanship.", tone = "[gruff] [wry]" }, "Good to see you. Tell me what you have done, and whether you have remembered the unglamorous preparations that make the next part possible." },
+            idle = { { "The gryphon was not concerned about the stitch. She was concerned about lunch. I considered both matters, though she appeared to think I had chosen a foolish order for them.", tone = "[dry] [fond]" }, "I know the risks around Grim Batol. Anger does not mean I intend to charge in without a plan, and a plan does not excuse neglecting the straps.", "The Dragonmaw reaching for another enslaved dragon is not something I intend to watch quietly. Some things deserve more than a warning passed along the road." },
+            befriended = { { "You have become company I am pleased to have beside me when there is no immediate task to put in your hands. Come along, friend. I would hear how the day has treated you.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? Is the stitch being examined again, or have you another matter?", "Go on. I can hear a question without assuming you are telling me to abandon the plan." },
+            gear = { { "Check the part that holds when the work grows difficult. A small fault is easier to correct here than to explain halfway through a flight.", tone = "[firm] [instructive]" } },
+            quest = { "Finished. Take a proper account of what has changed before deciding how close that brings us to the larger work." },
+            taxi = { "See to the mount before congratulating yourself on being ready. The journey asks something of more than the person in the saddle." },
+            landed = { "Down in good order. Give the mount its consideration before rushing into the next piece of business." },
+            rest = { "A pause. There is room for it while the work remains unfinished; an endless task is a poor reason to forget the person doing it." },
+            newFriend = { "Someone new. Hear what help they actually offer before deciding that their introduction has promised the whole job." },
+            thanked = { "You are welcome. I am pleased the preparation proved useful." },
+        },
+    },
+
     -- Pallwick Boneset, Crossroads. Adult Forsaken male147896/M2 959310, Horde Neutral; positive access unverified. No quests/gossip found; imaginary sun complaint and all personality are original.
     -- Research: docs/research/pallwicks-complaint-and-taliaas-cuff.md
     [274845] = {

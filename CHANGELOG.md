@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mendalass Tattermend and Howin Kindfeather: adult High Order and Dwarf profiles with thirty personal lines queued.
+- Review camping instruction and the full current Wildhammer quest arc; document original chair-testing and crooked-stitch scenes, identity/version limits, and explicit family evidence.
+
 - Add Pallwick Boneset and Taliaa Brightsky: adult Forsaken and High Order profiles with thirty personal lines queued.
 - Verify the Crossroads identity and dual-faction clothier services; document original sun-complaint and bright-cuff scenes with sparse-lore limits.
 

@@ -3976,6 +3976,20 @@
       "zone": "Zephras Isle",
       "route": "Zephras artisan clothier",
       "reason": "Nine current goods and repair flag; original private bright lining; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 257024,
+      "name": "Mendalass Tattermend",
+      "zone": "Zephras Isle",
+      "route": "Shendar skinning and camp-chair trainer",
+      "reason": "Full97971 and own gossip; original chair test; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 270637,
+      "name": "Howin Kindfeather",
+      "zone": "Wetlands",
+      "route": "Wildhammer returnee in Wetlands",
+      "reason": "Full current preparation and Dragonmaw chain; original crooked stitch; fifteen personal lines queued without synthesis"
     }
   ]
 }
