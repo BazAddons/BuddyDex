@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Rex Hardwire and Josephine Lister: adult Goblin and Forsaken profiles with thirty personal lines queued.
+- Document Rex faction/role limits and distinguish the Shadoweave trainer from unrelated quest speakers; add original stone-skipping and lamplight scenes.
+
 - Add Ebru and Rau Cliffrunner: adult regional profiles with thirty personal lines queued.
 - Research the deviate-eradication, Sacred Flame and Forever storm context; document source/version limits and original green-shoot/kettle scenes.
 
@@ -595,4 +598,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **863 fully written NPC profiles**: 454 have initial signature recordings, and four hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **865 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

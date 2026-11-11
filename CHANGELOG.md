@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rex Hardwire and Josephine Lister: adult Goblin and Forsaken profiles with thirty personal lines queued.
+- Document Rex faction/role limits and distinguish the Shadoweave trainer from unrelated quest speakers; add original stone-skipping and lamplight scenes.
+
 - Add Ebru and Rau Cliffrunner: adult regional profiles with thirty personal lines queued.
 - Research the deviate-eradication, Sacred Flame and Forever storm context; document source/version limits and original green-shoot/kettle scenes.
 

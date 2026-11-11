@@ -4277,6 +4277,20 @@
       "zone": "Thousand Needles",
       "route": "Freewind Post relic and storm investigator",
       "reason": "Full1195-1197 and inspected Forever storm branch; original kettle interruption; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 260564,
+      "name": "Rex Hardwire",
+      "zone": "Riverglades",
+      "route": "Named Riverglades adult, role unspecified",
+      "reason": "Current adult identity and Neutral access limit; original stone-skipping pastime; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4578,
+      "name": "Josephine Lister",
+      "zone": "Undercity",
+      "route": "Magic Quarter master Shadoweave tailor",
+      "reason": "Current title, captured shadow-power greeting; original practical lamplight; fifteen personal lines queued without synthesis"
     }
   ]
 }

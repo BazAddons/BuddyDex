@@ -4606,5 +4606,19 @@
     "zone": "Thousand Needles",
     "source": "Reviewed adult horde man; Full1195-1197 and inspected Forever storm branch; original kettle interruption; no Scout sighting claimed",
     "research_notes": "docs/research/ebrus-shoot-and-raus-kettle.md"
+  },
+  {
+    "npc_id": 260564,
+    "name": "Rex Hardwire",
+    "zone": "Riverglades",
+    "source": "Reviewed adult unverified man; Current adult identity and Neutral access limit; original stone-skipping pastime; no Scout sighting claimed",
+    "research_notes": "docs/research/rexs-stones-and-josephines-lamp.md"
+  },
+  {
+    "npc_id": 4578,
+    "name": "Josephine Lister",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; Current title, captured shadow-power greeting; original practical lamplight; no Scout sighting claimed",
+    "research_notes": "docs/research/rexs-stones-and-josephines-lamp.md"
   }
 ]

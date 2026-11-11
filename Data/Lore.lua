@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rex Hardwire, Riverglades. Adult Goblin male148599/M2 119376. Current Horde Neutral only, positive nonattackable access unverified. No own role/quest/gossip established; no engineering job guessed from surname. Stone-skipping pastime original.
+    -- Research: docs/research/rexs-stones-and-josephines-lamp.md
+    [260564] = {
+        quote = "The stone was meant to skim. It chose a magnificent plunge instead. I respect a clear decision, though I would have preferred two skips first.",
+        likes = { "A flat stone and a quiet patch of water", "Someone keeping an honest count", "Trying again after a splendid failure" },
+        dislikes = { "A pastime turned into another contest", "A boast nobody is allowed to question", "A lucky throw declared permanent talent" },
+        gossip = "Rex's account of a stone-skipping attempt can sound grander than the splash. He is usually the first to admit the difference.",
+        bio = "Rex Hardwire is a goblin in Riverglades. He enjoys a flat stone, a patch of water, and company willing to keep an honest count. A failed attempt may receive a magnificent title, but he does not expect the title to add another skip to the result.",
+        backstory = "He announced a splendid throw. The stone made one impressive splash. Rex gave the plunge a grand description, then asked his listener to stay for the next attempt. They had both stopped expecting a demonstration of mastery.",
+        secret = "He likes the company as much as the throw that finally works. A friend who stays through the magnificent plunges has already made the afternoon worth attempting again.",
+        bestFriend = "There you are, friend. Keep an honest count. I have another promising stone and several excellent descriptions ready if it sinks.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys encouragement that leaves room to try again after the grand announcement meets the water.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Come along, friend. I've got another promising stone and an improved explanation of the last splash. You keep the count. I'll provide the unreasonable confidence and recover from it afterward.", tone = "[brisk] [amused]" }, "Good to see you. Have you got a little time for an attempt that may become a success, or at least a decent account of why it wasn't?" },
+            idle = { { "I announced a splendid throw. One splash. A magnificent plunge, obviously. The audience stayed for another attempt, which improved the afternoon considerably without improving the stone's manners at all.", tone = "[animated] [wry]" }, "Two skips is two skips. I can make the account more entertaining without asking anyone to pretend the water lost track of the result.", "An afternoon can afford a little effort that isn't trying to prove you're the best person standing beside it." },
+            befriended = { { "I like having you around for the attempts that don't make a fine demonstration. Come along, friend. If the next one sinks, we'll still have company, and I've rarely found that a wasted arrangement.", tone = "[warm] [sincere]" } },
+            poke = { "What? Has the last stone come back to appeal the count?", "One moment. I'm selecting the next highly qualified candidate for a splash." },
+            cheerAlong = { { "That's the spirit. Leave room for another try. A little encouragement can survive the discovery that the grand announcement was more impressive than the result.", tone = "[bright] [encouraging]" } },
+            rest = { "A pause sounds good. We can admire the water without immediately giving it another object to reject." },
+            zone = { "Have a look around. There may be a pleasant bit of the day hiding beside the thing we actually came here to do." },
+            loot = { "There it is. Give the result a proper look before preparing the account of how extraordinary it ought to be." },
+            group = { "Let someone else have a turn. An audience can become much better company when it doesn't have to remain an audience all afternoon." },
+            thanked = { "You're welcome. I'm pleased the useful part landed more neatly than the last stone." },
+            newFriend = { "Someone new. Make room beside us before explaining how impressive the previous attempt was supposed to have been." },
+        },
+    },
+
+    -- Josephine Lister, Master Shadoweave Tailor, Undercity. Adult Forsaken female2664/M2 997378, Horde Friendly. Own shadow-power greeting and current title, no own quest. Lamplight/stitch visit original. Not author of Nilith/Vizzklick Undermarket quests.
+    -- Research: docs/research/rexs-stones-and-josephines-lamp.md
+    [4578] = {
+        quote = "Even a shadow has a right side and a wrong side. Bring the lamp closer. Mystery is no excuse for a wandering seam.",
+        likes = { "A dark stitch given proper light", "Patient hands following the seam", "Company comfortable with a plain answer" },
+        dislikes = { "A grand explanation hiding careless work", "A lamp moved before the stitch is finished", "Skill assumed from an impressive title" },
+        gossip = "Josephine speaks of powers hidden in shadow, then asks a visitor to move the lamp. Her stitches are expected to survive ordinary inspection.",
+        bio = "Josephine Lister is a master Shadoweave tailor in Undercity's Magic Quarter. She speaks of the powers found between light and dark. That confidence extends to the plain details of the work: a fine seam still deserves enough light to see what the hands are doing.",
+        backstory = "A visitor asked how she worked with so much darkness. Josephine asked them to bring the lamp closer. Once the stitch was placed correctly, she explained that seeing the work had proved a useful beginning. The visitor kept holding the lamp.",
+        secret = "She likes the quiet cooperation of someone who holds the light where it is needed without demanding a revelation in exchange. A good companion can make ordinary work rather pleasant.",
+        bestFriend = "Come sit here, friend. Hold the light a moment and tell me about your day. I shall be glad to hear something besides my own explanation.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a quiet acknowledgment followed by attention to the practical detail she has pointed out.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. We may discuss the mysteries, provided you do not move the lamp before I finish the stitch. Even an impressive subject benefits from ordinary attention.", tone = "[raspy] [dry]" }, "Good to see you. Have you brought a question, or a moment in which the work need not supply the whole conversation?" },
+            idle = { { "They asked how I worked with so much darkness. I asked for the lamp. When the stitch was finished, I explained that seeing it had been useful. They stayed to hold the light. A satisfactory arrangement.", tone = "[gravelly] [wry]" }, "An impressive title does not finish a seam. You may inspect the plain work before deciding how much confidence to place in the explanation.", "A little light in the proper place can be more helpful than another elaborate description of what ought to be hidden there." },
+            befriended = { { "You have become someone whose presence improves the quiet part of the work. Come along, friend. You may tell me about your day without finding an impressive subject to justify the visit.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Is the question about the shadow, or the seam?", "A moment. Leave the light where it is until this small necessary part is finished." },
+            gear = { { "Look at the finishing as carefully as the grand appearance. The part nobody thought worth describing may be the part that decides how well the whole thing holds together.", tone = "[firm] [instructive]" } },
+            learned = { "Then practice until the understanding reaches your hands. A fine explanation is useful company for the skill; it does not do the work in its place." },
+            rest = { "A pause would be welcome. We may sit in the light without requiring it to reveal anything remarkable." },
+            group = { "Give the person doing the careful work enough room to finish. You may offer a useful hand without taking the whole task away." },
+            thanked = { "You are welcome. I am pleased the useful part was clear enough to take with you." },
+            zone = { "Take a proper look around. A change in the light may reveal a small detail without turning the whole place into a mystery." },
+            newFriend = { "Someone new. Let them find a place beside us before deciding which impressive account they ought to hear first." },
+        },
+    },
+
     -- Ebru, Disciple of Naralex, Barrens/Wailing Caverns. Adult Night Elf female4290/M2 921844, current Horde Friendly. Full1487: eradicate deviates as first restoration step. Careful pack beside shoot original; noncanon male RPG/retail relocation excluded.
     -- Research: docs/research/ebrus-shoot-and-raus-kettle.md
     [5768] = {
