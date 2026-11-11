@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 346,
-    "unverified": 171,
+    "alliance": 347,
+    "unverified": 172,
     "horde": 332
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 71,
+    "3": 72,
     "7": 58,
     "2": 89,
     "5": 87,
     "4": 71,
     "8": 60,
     "9": 59,
-    "6": 86,
+    "6": 87,
     "96": 26,
     "95": 35
   },
@@ -28,7 +28,7 @@
     "Redridge Mountains": 24,
     "Loch Modan": 3,
     "Duskwood": 4,
-    "Dun Morogh": 21,
+    "Dun Morogh": 22,
     "Wetlands": 5,
     "Ironforge": 60,
     "Stranglethorn Vale": 6,
@@ -41,7 +41,7 @@
     "Orgrimmar": 55,
     "Badlands": 1,
     "Darkshore": 12,
-    "Mulgore": 23,
+    "Mulgore": 24,
     "Thunder Bluff": 39,
     "Durotar": 52,
     "The Barrens": 46,
@@ -745,6 +745,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/836"
+    },
+    {
+      "npc_id": 837,
+      "name": "Branstock Khalder",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/837"
     },
     {
       "npc_id": 843,
@@ -10304,6 +10317,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/272526"
     },
     {
+      "npc_id": 272633,
+      "name": "Nuara Tremorhoof",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/272633"
+    },
+    {
       "npc_id": 273017,
       "name": "Fendaal Windstone",
       "zone": "Zephras Isle",
@@ -10392,6 +10416,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 810,
-  "awaiting_signature_audio_profiles": 356
+  "authored_profiles": 812,
+  "awaiting_signature_audio_profiles": 358
 }

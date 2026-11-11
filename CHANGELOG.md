@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Nuara Tremorhoof and Branstock Khalder: adult Tauren and Dwarf profiles with thirty personal lines queued.
+- Review elemental uncertainty and both priest introductions, including the Forever gnome route; document original leaf-voyage and shutter-reply scenes.
+
 - Add Innkeeper Faralia and Gur'ak: adult Night Elf and Orc profiles with thirty personal lines queued.
 - Review the lost-courier and Ravener quests in full; document original unfinished-story and shared-credit scenes while preserving the cost of each journey.
 

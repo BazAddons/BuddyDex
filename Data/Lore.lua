@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Nuara Tremorhoof, Mulgore Elder Farseer. Adult tauren female147112/M2 986648, Horde Neutral; positive access unverified. Own disturbance gossip and98477; leaf voyage is original.
+    -- Research: docs/research/nuaras-voyage-and-branstocks-light.md
+    [272633] = {
+        quote = "The leaf has reached the far side of the bowl. I had favored the other direction. The wind appears unmoved by my credentials.",
+        likes = { "A difficult question left open honestly", "A small leaf carried farther than expected", "Company willing to cheer a tiny voyage" },
+        dislikes = { "A title mistaken for an answer", "Every uncertainty filled with a grand theory", "A moment of play required to prove something" },
+        gossip = "Nuara once watched a leaf cross a bowl of water with great seriousness. She denies that her preferred destination made it a race.",
+        bio = "Nuara Tremorhoof is an elder farseer in Mulgore. She questions whether disturbed magic reflects arcane trouble or elemental unrest. Seeking evidence, she asks adventurers for unstable motes rather than treating an impressive theory as an answer.",
+        backstory = "She floated a leaf in a bowl and watched a breeze turn its course. A visitor noticed she favored one side. Nuara called the unexpected result a useful observation, then asked them to stay for another voyage.",
+        secret = "She likes the little voyages without requiring them to explain the world. Sometimes she simply hopes the leaf reaches her chosen side, with a friend willing to celebrate.",
+        bestFriend = "Stay for another voyage, friend. You may choose the destination this time. I will attempt to accept the wind's opinion gracefully.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She enjoys company that can give a very small voyage the welcome of a great achievement.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Stay for a little while. You may choose the far shore for the leaf this time, though I should warn you that the wind has not asked either of us for directions.", tone = "[warm] [playful]" }, "Good to see you. Tell me what you have noticed today, including anything that has refused to fit the explanation you preferred." },
+            idle = { { "I favored the left side of the bowl. The leaf reached the right. The observation was entirely useful, but my visitor appeared to think I had taken a position in a race.", tone = "[dignified] [amused]" }, "A disturbance can be felt before its cause is understood. Naming the uncertainty does more for us than covering it with a confident answer.", "The little voyage need not become a lesson. I am allowed to enjoy the moment it reaches the side I chose. So are you." },
+            befriended = { { "You have become company with whom I can leave a difficult question unanswered and enjoy a small thing beside it. Stay a while, friend. There is another voyage to watch.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the leaf declared a destination without consulting us again?", "Go on. I can hear the question without pretending the title has supplied its answer." },
+            learned = { { "Good. Keep what the observation supports, and remain willing to revise what you thought it meant. There is strength in leaving room for the next finding.", tone = "[calm] [encouraging]" } },
+            zone = { "Look around before deciding what this place must be telling you. It may offer a question you did not bring with you." },
+            loot = { "Examine it carefully. Something worth studying need not arrive looking like the answer you expected." },
+            rest = { "A pause. Not every quiet interval needs to be spent resolving the world." },
+            newFriend = { "Someone new. Hear what they have observed before deciding what their certainty ought to mean." },
+            thanked = { "You are welcome. I am pleased we had the chance to look at it together." },
+            group = { "Different eyes may notice different things. Give each account room before choosing the one that best fits your own." },
+        },
+    },
+
+    -- Branstock Khalder, Anvilmar priest trainer. Adult dwarf male3401/M2 878772, Alliance Friendly. Full3110/98574/5626 and immediate5625; illuminating/shutter reply is original.
+    -- Research: docs/research/nuaras-voyage-and-branstocks-light.md
+    [837] = {
+        quote = "I promised an illuminating lesson, and they opened the shutters. A practical answer. I was delighted to find someone taking the joke seriously.",
+        likes = { "A beginner given room to be curious", "A dreadful joke answered in kind", "Belief made useful through care" },
+        dislikes = { "A question made shameful for being simple", "A welcome that sounds like a demand for glory", "Explaining a joke after the listener escapes" },
+        gossip = "Branstock promised an illuminating lesson. When his listener opened the shutters, he seemed rather pleased with the unexpected reply.",
+        bio = "Branstock Khalder welcomes new priests in Anvilmar. His rune and memorandum introductions offer encouragement alongside bad jokes and practical faith. When students are ready, he directs them to Maxan Anvol in Kharanos for the next step.",
+        backstory = "He promised an illuminating lesson. A listener opened the shutters. Branstock laughed and moved into the better light, deciding the reply deserved more appreciation than another explanation of his joke.",
+        secret = "He likes having his jokes answered, even when the answer is better. It makes the lesson feel like a conversation instead of a test the newest person must be afraid to fail.",
+        bestFriend = "Come along, friend. You may tell me your news before deciding whether my illuminating observation requires a window.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone meeting a dreadful little joke with enough warmth to let the welcome land.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. I have an illuminating observation, but I will let you finish your news before anyone feels obliged to improve the lighting.", tone = "[hearty] [playful]" }, "Good to see you. How have you been? There is no need to arrive sounding like the most promising person Ironforge has ever produced." },
+            idle = { { "I promised an illuminating lesson, and they opened the shutters. A sound practical response, and considerably quicker than waiting for me to explain why the joke ought to have worked.", tone = "[amused] [self-aware]" }, "Curiosity belongs in the conversation. You need not pretend you have understood something merely to make the first question sound more impressive.", "Encouragement should leave a person readier to try. If it only gives them a larger crowd to disappoint, I may have delivered the welcome badly." },
+            befriended = { { "You have become company with whom I can share a useful thought and a dreadful joke without making either one an examination. Come along, friend. I am glad to have you here.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was that the sound of someone escaping before the explanation?", "Go on. A plain question is a fine place to begin." },
+            learned = { { "Good. Give yourself time to practice what it means as well as what to do. Understanding grows more comfortably when you leave room for the next question.", tone = "[steady] [encouraging]" } },
+            quest = { "A piece of work finished. Consider who was helped before deciding whether the whole account sounded heroic enough." },
+            gear = { "Make sure it lets you do the work. An impressive appearance is less useful when the person needing help has to wait for you to arrange it." },
+            rest = { "A pause. You may leave being promising to one side while we hear how the day has treated you." },
+            newFriend = { "Someone new. Give them a welcome before arranging the standard they must live up to." },
+            thanked = { "You are welcome. I am pleased the useful part arrived before the next joke did." },
+            group = { "Let the newest person ask the question. You may find that the rest of us needed to hear the answer as well." },
+        },
+    },
+
     -- Innkeeper Faralia, Stonetalon Peak. Adult night elf female10582/M2 921844, Alliance Neutral; positive access unverified. Own rest gossip and full86574; sleeping-listener story is original.
     -- Research: docs/research/faralias-ending-and-guraks-credit.md
     [16458] = {

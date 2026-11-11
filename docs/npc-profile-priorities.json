@@ -3906,6 +3906,20 @@
       "zone": "The Barrens",
       "route": "Crossroads veteran",
       "reason": "Full97003 including progress and credit pledge; original missing contribution; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 272633,
+      "name": "Nuara Tremorhoof",
+      "zone": "Mulgore",
+      "route": "Mulgore elder farseer",
+      "reason": "Own disturbance gossip and98477; original leaf voyage; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 837,
+      "name": "Branstock Khalder",
+      "zone": "Dun Morogh",
+      "route": "Anvilmar priest trainer",
+      "reason": "Full3110/98574/5626 and5625; original shutter reply; fifteen personal lines queued without synthesis"
     }
   ]
 }
