@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mountaineer Gringer Stormpike, Algaz Station Loch Modan, adult Dwarf male1894/M2 878772, Alliance Friendly normal. Native boast,307/1097/353/1339/1338 and full5998 request. Mock ceremony for one quiet watch original; not generic Stormpike Mountaineer, no finished mine clearance or gifted shield.
+    -- Research: docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md
+    [1343] = {
+        quote = "My friend congratulated me on a thoroughly uneventful watch. A stirring speech, it was. I accepted the applause with the dignity such a historic absence of trouble deserved.",
+        likes = { "Fine dwarven craftsmanship", "A deed deserving a proper account", "Friends celebrating a quiet moment" },
+        dislikes = { "Kobolds interfering with dwarven tools", "Guard duty mistaken for idleness", "An excellent story denied its audience" },
+        gossip = "Stormpike accepted solemn congratulations for an uneventful watch. His friend is still deciding how much applause such a victory deserves.",
+        bio = "Gringer Stormpike serves at Algaz Station in Loch Modan. He wants miners' tools recovered and admires fine arms, commissioning work from Grimand and Furen. His enthusiasm for glory also leaves room for a friend's celebration of a quiet watch.",
+        backstory = "During a quiet moment, he told a visiting friend there was nothing to report. They offered solemn congratulations. Stormpike accepted with an extravagant bow. The speech that followed grew rather longer than the report had been.",
+        secret = "He enjoyed having a friend there without a fresh disaster to discuss. An uneventful moment can be worth remembering, especially when someone gives it a suitably excessive reception.",
+        bestFriend = "Stay a little, friend. Tell me what deserves celebrating in your day. We can give an ordinary piece of good news a proper welcome.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "A generous reception is fitting for a stirring tale, or for a particularly peaceful moment on watch.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend! Have ye come with news worthy of a fine account, or merely time to visit? I can arrange an appropriately stirring reception for either.", tone = "[booming] [warm]" }, "Good to see ye. Tell me how the road has treated ye before I begin explaining the importance of this particular moment on guard." },
+            idle = { { "My friend congratulated me on an uneventful watch. I accepted with a bow. It was a short report, but I believe we gave the occasion the ceremony it deserved.", tone = "[grand] [amused]" }, "Good dwarven tools deserve better than being knocked about by kobolds. A useful piece of gear is worth taking the trouble to recover.", "Fine craftsmanship rewards a discerning eye. I appreciate someone who puts care into the work rather than merely supplying an impressive description." },
+            befriended = { { "Ye are welcome beside me, friend. I enjoy an audience that can appreciate a grand account and still find something to celebrate when the news is pleasantly ordinary.", tone = "[hearty] [fond]" } },
+            poke = { "Aye? Have ye another speech prepared, or is it my turn to provide the account?", "One moment. I am deciding whether the occasion requires a bow or simply a very dignified nod." },
+            applaudToo = { { "A fine reception! I shall accept on behalf of this remarkably peaceful moment. We must be careful; the speech is becoming a great deal more eventful than the watch.", tone = "[theatrical] [delighted]" } },
+            quest = { "Attend to the errand properly. A long road deserves more than an impressive beginning and an unfinished delivery." },
+            gear = { "Look at the workmanship. A carefully made piece can be worth waiting for, particularly when the smith understands exactly what ye asked for." },
+            newFriend = { "Hear their news before preparing yer own account. They may have done something worth celebrating without knowing how to make a grand speech about it." },
+            rest = { "A quiet moment is welcome. Tell me an ordinary good thing from yer day. We shall see whether it deserves a little more ceremony than it received." },
+            thanked = { "Ye are welcome. Glad the effort was useful. A clear account of what helped is a pleasant thing to hear." },
+            loot = { "Examine the useful parts before deciding it is merely another object to carry. Good tools have a way of being missed once they are gone." },
+        },
+    },
+
+    -- Hamlin Atkins, Mushroom Farmer Brill Tirisfal, adult Forsaken male1635/M2 959310, Horde Friendly normal. Six current fungus wares and three pins; no own captured gossip or quests. Shared umbrella/drizzle conversation original; no diet advice, invented cellar/family, crop mechanic or actual shelter effect.
+    -- Research: docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md
+    [3547] = {
+        quote = "A little drizzle pleased me considerably. My friend was less impressed. We improved the weather by moving the umbrella over their head. The mushrooms kept their opinion to themselves.",
+        likes = { "A promising damp day", "Care for the crop and the company", "A friend who stays beneath the umbrella" },
+        dislikes = { "A good crop handled carelessly", "A visitor left dripping while he talks", "An umbrella sheltering the wrong person" },
+        gossip = "Hamlin praised the drizzle until he noticed his friend getting wet. He shifted the umbrella and continued his favorable report on the weather.",
+        bio = "Hamlin Atkins grows and sells mushrooms around Brill in Tirisfal. He finds a promising side to a damp day, though company has taught him that not everyone enjoys standing in it.",
+        backstory = "He was explaining the merits of a little drizzle when his friend pointed out who was getting wet. Hamlin shifted the umbrella to cover them. They finished the conversation together, while he found a slightly less personal way to praise the weather.",
+        secret = "His friend stayed after the adjustment. They need not share his enthusiasm for drizzle to enjoy talking with him. An umbrella can make room for a difference of opinion.",
+        bestFriend = "Come closer, friend. There is room here. Tell me what you think of the day, and I shall try to hear it before delivering my weather report.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A companionable smile is welcome even when his favorable opinion of the drizzle is not shared.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Back again, friend. Good. What do you think of the day? I have a favorable report prepared, but I shall hear yours first. Let us make certain you are standing on the dry side of the conversation.", tone = "[dry] [welcoming]" }, "Good to see you. Have you come for mushrooms or company? You may explain the second without buying the first." },
+            idle = { { "I was praising the drizzle when my friend pointed out who was getting wet. Moving the umbrella improved the conversation considerably. The weather remained much as it was.", tone = "[deadpan] [amused]" }, "A crop deserves care before it reaches the basket. Being familiar with the work does not make it useful to hurry past the part that needs attention.", "My friend does not share my entire opinion of a damp day. We have discovered that the conversation can continue perfectly well despite this serious disagreement." },
+            befriended = { { "You are welcome beside me, friend. Bring your opinion of the day. I enjoy hearing it, even when we must rearrange the umbrella before you can deliver it comfortably.", tone = "[gruff] [fond]" } },
+            poke = { "Yes? Is the umbrella in the wrong place again? I should prefer to correct that before continuing.", "One moment. I am deciding whether you asked about the mushrooms or merely gave me an opportunity to discuss them." },
+            rest = { { "Stay a little, friend. There is room for both of us to pause without arriving at an identical opinion of the weather. Tell me what has happened to you today.", tone = "[quiet] [warm]" } },
+            loot = { "Look at the condition before deciding what belongs in the basket. A useful choice deserves more than a hurried glance." },
+            bagsFull = { "Make room before adding more. Carrying everything at once is a poor arrangement when you mean to find something again." },
+            newFriend = { "Notice whether they are comfortable before beginning your finest explanation. A little consideration can persuade someone to stay for the rest." },
+            thanked = { "You are welcome. I am glad the adjustment helped. It is pleasant to finish a conversation with the person who was there for its beginning." },
+            zone = { "Take a moment to look around. There may be something worth noticing in a place you had meant merely to pass through." },
+            comforted = { "Thank you for staying, friend. We need not discuss the weather. I can leave a little room for a quiet conversation too." },
+        },
+    },
+
     -- Rotgath Stonebeard, Expert Blacksmith Great Forge Ironforge, adult Dwarf male9741/M2 878772, Alliance Friendly normal. Four native gossip establish father/grandfather/son Groum; full Forever95816/95817/95818 adds sign work and unnamed wife tea. Tea challenge about mentioning adult son original; no new family, native sign reward or later demotion.
     -- Research: docs/research/rotgaths-tea-and-calvins-terms.md
     [10276] = {

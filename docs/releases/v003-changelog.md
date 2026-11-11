@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mountaineer Stormpike and Hamlin Atkins: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Research Algaz errands and the Brill mushroom farmer; preserve normal eligibility and separate character progress.
+
 - Add Rotgath Stonebeard and Calvin Montague: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Research native smith family/sign work and the dishonest Deathknell deal; preserve normal eligibility and separate character progress.
 
@@ -784,4 +787,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **987 fully written NPC profiles**: 454 have initial signature recordings, and five hundred thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **989 fully written NPC profiles**: 454 have initial signature recordings, and five hundred thirty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

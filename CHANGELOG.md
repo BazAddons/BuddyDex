@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mountaineer Stormpike and Hamlin Atkins: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Research Algaz errands and the Brill mushroom farmer; preserve normal eligibility and separate character progress.
+
 - Add Rotgath Stonebeard and Calvin Montague: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Research native smith family/sign work and the dishonest Deathknell deal; preserve normal eligibility and separate character progress.
 

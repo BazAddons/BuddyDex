@@ -5145,6 +5145,20 @@
       "zone": "Tirisfal Glades",
       "route": "Letter errand and dishonest bargain near Deathknell",
       "reason": "Full8/590 and conditional duel outcome; original challenge to converse without negotiating; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1343,
+      "name": "Mountaineer Stormpike",
+      "zone": "Loch Modan",
+      "route": "Named mountaineer at Algaz Station",
+      "reason": "Native boast and full307/1097/353/1339/1338 plus readable5998; original quiet-watch celebration; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3547,
+      "name": "Hamlin Atkins",
+      "zone": "Tirisfal Glades",
+      "route": "Mushroom farmer around Brill",
+      "reason": "Six current fungus wares and verified adult male model; original shared umbrella/drizzle conversation; fifteen personal lines queued without synthesis"
     }
   ]
 }

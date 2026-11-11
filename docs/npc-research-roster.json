@@ -5474,5 +5474,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde identity; Full8/590 and conditional duel outcome; original challenge to converse without negotiating; no Scout sighting claimed",
     "research_notes": "docs/research/rotgaths-tea-and-calvins-terms.md"
+  },
+  {
+    "npc_id": 1343,
+    "name": "Mountaineer Stormpike",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance identity; Native boast and full307/1097/353/1339/1338 plus readable5998; original quiet-watch celebration; no Scout sighting claimed",
+    "research_notes": "docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md"
+  },
+  {
+    "npc_id": 3547,
+    "name": "Hamlin Atkins",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Six current fungus wares and verified adult male model; original shared umbrella/drizzle conversation; no Scout sighting claimed",
+    "research_notes": "docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md"
   }
 ]
