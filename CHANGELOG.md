@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Innkeeper Keldamyr and Yorn Grimtotem: adult Night Elf and Tauren profiles with thirty personal lines queued.
+- Review the Dolanaar herb delivery and full crystalline-silk quest text; document original conversational-host and pattern-drawing scenes.
+
 - Add Innkeeper Saelienne and Karus: adult Night Elf and Orc profiles with thirty personal lines queued.
 - Ground the profiles in rest/festival dialogue and bank-security/voucher text, with original rhythmic-heel and first-loaf friendship scenes.
 

@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 826,
-  "written_complete_count": 826,
-  "awaiting_signature_audio_count": 372,
+  "authored_count": 828,
+  "written_complete_count": 828,
+  "awaiting_signature_audio_count": 374,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 374,
+  "remaining_count": 376,
   "completed": [
     {
       "npc_id": 54,
@@ -5645,6 +5645,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 6736,
+      "name": "Innkeeper Keldamyr",
+      "zone": "Teldrassil",
+      "source": "Reviewed adult alliance man; Own rest/hearth gossip and full2159; original first-bite questions; no Scout sighting claimed",
+      "research_notes": "docs/research/keldamyrs-questions-and-yorns-weave.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 6739,
       "name": "Innkeeper Bates",
       "zone": "Silverpine Forest",
@@ -8446,6 +8458,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "troll-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 264072,
+      "name": "Yorn Grimtotem",
+      "zone": "Mulgore",
+      "source": "Reviewed adult unverified man; Full96260, Horde Neutral with positive access unverified; original drawing before measurements; no Scout sighting claimed",
+      "research_notes": "docs/research/keldamyrs-questions-and-yorns-weave.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

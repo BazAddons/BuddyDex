@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Keldamyr, Dolanaar, Teldrassil. Adult night elf male5440/M2 974343, Alliance Friendly. Full2159, own rest/hearth gossip and12goods; questions at first bite and familiar-road pleasure original.
+    -- Research: docs/research/keldamyrs-questions-and-yorns-weave.md
+    [6736] = {
+        quote = "Eat first. I can wait to hear your news. I have already thought of three questions, but that does not make them urgent.",
+        likes = { "A courier staying after the delivery", "News that arrives with someone well rested", "The second telling of a familiar journey" },
+        dislikes = { "A meal interrupted by too many questions", "Rest offered only after every task is done", "A guest apologizing for taking a seat" },
+        gossip = "Keldamyr insists that a visitor eat before answering questions. Occasionally he must remind himself of the arrangement.",
+        bio = "Innkeeper Keldamyr welcomes travelers to Dolanaar in Teldrassil. He receives Porthannius's herbs from Shadowglen, wishes the sender could visit, and urges the courier to rest. To him, keeping body and spirit well is part of a hero's work.",
+        backstory = "He asked a returning traveler three questions just as they took their first bite. Catching himself, he offered to wait. By the time they finished eating, he had thought of a fourth and wisely began with a welcome instead.",
+        secret = "He enjoys a familiar journey told again. The new detail is often something the traveler was too tired to notice the first time, and he likes hearing that their eyes are open to it now.",
+        bestFriend = "Eat, friend. The questions will keep. And if you have no new story, I would gladly hear the old one with you again.",
+        favorite = {
+            emote = "GREET",
+            hint = "A friendly visit delights him most when it begins as company rather than another hurried delivery.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. I have questions about your travels, but you may finish settling yourself before I begin asking all of them at once.", tone = "[warm] [amused]" }, "It is good to see you. Have you rested since your arrival, or have you only been arranging the next departure?" },
+            idle = { { "A traveler took one bite, and I asked three questions. I did remember to wait. By the end of the meal I had a fourth, which suggested I ought to begin again with a welcome.", tone = "[gentle] [self-deprecating]" }, "A familiar road can make a different story when someone returns with enough peace to notice the small things. I am glad to hear it twice.", "Porthannius has his work in Shadowglen. I understand why a package may arrive without him, but I would still enjoy the visit." },
+            befriended = { { "You have become company I am pleased to welcome without a package or an errand. Come along, friend. Your news can wait until you are ready to tell it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have I asked a question before you finished your bite again?", "Go on. I would hear what you wish to tell, not only what I have thought to ask." },
+            rest = { { "Settle yourself. Keeping your strength and your peace is part of being ready for the road, not a distraction from it. The next question may wait.", tone = "[calm] [reassuring]" } },
+            mail = { "A delivery. There may be someone behind that package whose company would have been welcome as well." },
+            hearth = { "A familiar roof at the end of the journey. Give yourself time to arrive before treating the welcome as another stop to hurry through." },
+            quest = { "Delivered. Take a moment to consider the person who carried the work here, and give them a little rest as well." },
+            newFriend = { "Someone new. A welcome is a better first offering than every question you have saved for the next traveler." },
+            thanked = { "You are welcome. I am pleased you stayed long enough to feel it." },
+            group = { "Make room for everyone. A good visit need not ask the quietest traveler to compete for a place in it." },
+        },
+    },
+
+    -- Yorn Grimtotem, Earthen Ring, Mulgore. Adult tauren male143983/M2 968705, Horde Neutral: positive access unverified. Full96260 including protective-cloth progress/crafted-cloak completion; drawing and beauty preference original.
+    -- Research: docs/research/keldamyrs-questions-and-yorns-weave.md
+    [264072] = {
+        quote = "Strong, light, and useful. Yes, those matter. I am also allowed to like the way the light passes through the weave.",
+        likes = { "A resilient thread handled with care", "A useful weave that is pleasant to wear", "A friend noticing beauty without prompting" },
+        dislikes = { "Rumor mistaken for a finished explanation", "A promising sample wasted through impatience", "Good cloth judged only by what it can stop" },
+        gossip = "Yorn can explain why a weave should hold. Ask how it looks in the light and he may show you a different page of notes.",
+        bio = "Yorn Grimtotem of the Earthen Ring studies crystalline silk in Mulgore. A scout's return from spider-infested Gloomrise brought him a sample. He seeks more to test its light, protective weave, and has crafted a cloak from the silk already available.",
+        backstory = "Holding a test weave to the light, he noticed the pattern before checking its strength. His first note became a little drawing. He returned to the measurements, but kept the drawing beside them.",
+        secret = "He hopes a useful thing can be chosen for its beauty too. Hearing that someone likes how the cloth catches the light pleases him as much as a careful account of its strength.",
+        bestFriend = "Look here, friend. The measurements can wait a moment. Tell me what you see when the light comes through.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He values someone recognizing the thought and beauty in useful work, beyond its ability to withstand a blow.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. I have a thought about the weave, but I should like to hear what you notice before I explain what you ought to see.", tone = "[deep] [warm]" }, "It is good to see you. Have you found anything worth studying, or simply something you were pleased to look at? Both can make a visit worthwhile." },
+            idle = { { "I held a test weave to the light and began drawing the pattern before taking the measurement. I did return to the work. I have also kept the drawing.", tone = "[thoughtful] [quietly amused]" }, "A thing can be strong and still be pleasant to wear. I would not call the second quality a distraction merely because it asks a different question.", "A rumor about venom is reason to take care, not permission to declare every mystery explained. We should know what we have actually observed." },
+            befriended = { { "You have become company with whom I can share a thought before making it into a conclusion. Walk beside me, friend. I am glad to have your eyes on the world as well.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you noticed something in the pattern?", "Go on. I can put the measurements aside long enough to hear you." },
+            gear = { { "Consider how it protects, and how it moves with the wearer. Useful work should remember the person who must live inside it.", tone = "[steady] [instructive]" } },
+            loot = { "Look carefully before deciding what the material can become. A small sample may change the question you thought you were asking." },
+            learned = { "Good. Keep the observation that led you there. Another careful look may still have something to add." },
+            quest = { "Enough for the work at hand. Let us understand what these results support before promising what the next experiment will show." },
+            rest = { "A pause may change what you notice. Even a familiar pattern looks different when you stop pulling at the thread." },
+            thanked = { "You are welcome. I hope the useful part travels well with you." },
+            newFriend = { "Someone new. Ask what they have noticed before offering them the conclusion you already prepared." },
+        },
+    },
+
     -- Innkeeper Saelienne, Darnassus. Adult night elf female5439/M2 921844, Alliance Friendly. Own rest gossip,3763/8357 and research chain; rhythmic heel and losing-count pleasure original.
     -- Research: docs/research/saeliennes-rhythm-and-karus-congratulations.md
     [6735] = {
