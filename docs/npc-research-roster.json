@@ -4844,5 +4844,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult horde man; Twelve current goods/repair; original rolling buckler during stance explanation; no Scout sighting claimed",
     "research_notes": "docs/research/gaerolass-greeting-and-wuarks-buckler.md"
+  },
+  {
+    "npc_id": 956,
+    "name": "Dorin Songblade",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed adult alliance man; Full95772/95795, brother and grief established; original muddy-boot memory; no Scout sighting claimed",
+    "research_notes": "docs/research/dorins-memory-and-cawinds-basket.md"
+  },
+  {
+    "npc_id": 9548,
+    "name": "Cawind Trueaim",
+    "zone": "Feralas",
+    "source": "Reviewed adult horde man; Fifteen current goods/repair; original upside-down basket and quiet correction; no Scout sighting claimed",
+    "research_notes": "docs/research/dorins-memory-and-cawinds-basket.md"
   }
 ]

@@ -4515,6 +4515,20 @@
       "zone": "Durotar",
       "route": "Razor Hill armorer and shieldcrafter",
       "reason": "Twelve current goods/repair; original rolling buckler during stance explanation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 956,
+      "name": "Dorin Songblade",
+      "zone": "Redridge Mountains",
+      "route": "Lakeshire armorer and search for Daewyn",
+      "reason": "Full95772/95795, brother and grief established; original muddy-boot memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9548,
+      "name": "Cawind Trueaim",
+      "zone": "Feralas",
+      "route": "Camp Mojache gunsmith and bowyer",
+      "reason": "Fifteen current goods/repair; original upside-down basket and quiet correction; fifteen personal lines queued without synthesis"
     }
   ]
 }

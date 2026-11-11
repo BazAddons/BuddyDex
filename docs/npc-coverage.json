@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 388,
+    "alliance": 389,
     "unverified": 182,
-    "horde": 376
+    "horde": 377
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 86,
+    "3": 87,
     "7": 62,
     "2": 98,
     "5": 97,
     "4": 85,
     "9": 67,
     "8": 61,
-    "6": 97,
+    "6": 98,
     "96": 28,
     "95": 48
   },
@@ -25,7 +25,7 @@
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 123,
-    "Redridge Mountains": 24,
+    "Redridge Mountains": 25,
     "Loch Modan": 6,
     "Duskwood": 4,
     "Dun Morogh": 25,
@@ -53,7 +53,7 @@
     "Dustwallow Marsh": 2,
     "Desolace": 13,
     "Tanaris": 9,
-    "Feralas": 4,
+    "Feralas": 5,
     "Felwood": 4,
     "Un'Goro Crater": 1,
     "Winterspring": 2,
@@ -902,6 +902,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/944"
+    },
+    {
+      "npc_id": 956,
+      "name": "Dorin Songblade",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/956"
     },
     {
       "npc_id": 957,
@@ -8212,6 +8225,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9528"
     },
     {
+      "npc_id": 9548,
+      "name": "Cawind Trueaim",
+      "zone": "Feralas",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9548"
+    },
+    {
       "npc_id": 9555,
       "name": "Mu'uta",
       "zone": "Arathi Highlands",
@@ -11512,6 +11538,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 897,
-  "awaiting_signature_audio_profiles": 443
+  "authored_profiles": 899,
+  "awaiting_signature_audio_profiles": 445
 }

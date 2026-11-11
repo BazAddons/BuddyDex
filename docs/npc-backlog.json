@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 897,
-  "written_complete_count": 897,
-  "awaiting_signature_audio_count": 443,
+  "authored_count": 899,
+  "written_complete_count": 899,
+  "awaiting_signature_audio_count": 445,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 445,
+  "remaining_count": 447,
   "completed": [
     {
       "npc_id": 54,
@@ -639,6 +639,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 956,
+      "name": "Dorin Songblade",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed adult alliance man; Full95772/95795, brother and grief established; original muddy-boot memory; no Scout sighting claimed",
+      "research_notes": "docs/research/dorins-memory-and-cawinds-basket.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
@@ -6761,6 +6773,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 9548,
+      "name": "Cawind Trueaim",
+      "zone": "Feralas",
+      "source": "Reviewed adult horde man; Fifteen current goods/repair; original upside-down basket and quiet correction; no Scout sighting claimed",
+      "research_notes": "docs/research/dorins-memory-and-cawinds-basket.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

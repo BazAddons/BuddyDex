@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Dorin Songblade and Cawind Trueaim: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Preserve Dorin's Forever family story and native rewards; document an original brotherly memory and Cawind's quiet correction without promising cures or equipment.
+
 - Add Gaerolas Talvethren and Wuark: full Teldrassil and Durotar profiles with thirty personal lines queued.
 - Preserve the wounded Great Warden and actual ritual speakers; document original cloak greeting and rolling-buckler scene without granting healing or equipment.
 

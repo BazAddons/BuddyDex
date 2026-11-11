@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dorin Songblade, adult Dwarf male3353/M2 878772, Alliance Friendly Lakeshire armorer. Full95772/95795, Daewyn brother/loss and intended gifts established. Muddy boot excuse original shared memory; no resurrected brother, resolved guilt or free native reward.
+    -- Research: docs/research/dorins-memory-and-cawinds-basket.md
+    [956] = {
+        quote = "He blamed my boots for those muddy prints. His were twice as dirty. Tell that bit again, friend. I like hearing his name in a story that remembers how he could make a poor excuse sound magnificent.",
+        likes = { "Daewyn remembered as a person", "Company that allows a story and a silence", "Careful work meant for someone particular" },
+        dislikes = { "An easy answer offered for a painful loss", "A memory hurried toward its moral", "Gifts treated as ordinary stock" },
+        gossip = "Dorin recalls Daewyn blaming him for muddy boots. A friend's doubtful look revived the whole excuse. The laugh was brief; the company stayed.",
+        bio = "Dorin Songblade is an armorer in Lakeshire. His brother Daewyn joins an excavation in the Wetlands, but his usual letters stop. Dorin asks a traveler to seek him, and the news from the fen brings grief rather than a reunion.",
+        backstory = "Dorin had been making a surprise for Daewyn, but it was not ready before the journey. After his brother's death, he cannot bear to reforge or sell the finished pieces. They were made for a person, not merely a buyer.",
+        secret = "An ordinary story about Daewyn can matter as much as a solemn word. He values a friend who will hear it without asking the laugh to mean that the loss hurts less.",
+        bestFriend = "Stay a little, friend. We may speak of him, or sit quietly. I am glad your company does not ask me to make a tidy ending of either.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "Quiet kindness without an easy explanation of his loss is welcome.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. I was remembering an excuse he once gave me about muddy boots. A magnificent performance, considering his own were twice as dirty. If ye have time, I would like to tell the bit I remembered after ye left.", tone = "[softly] [fond]" }, "Welcome back. We can speak a little, if ye've time, or let the quiet be company for a while." },
+            idle = { { "Daewyn blamed my boots for the prints. His own were twice as dirty. When I told a friend, they gave me such a doubtful look that I remembered the whole excuse. I laughed. Then we sat a while. They did not ask the laugh to explain anything else.", tone = "[quiet] [wistful]" }, "A piece made for someone carries more thought than the measurements show. Ye may know exactly how to change it and still not wish to.", "Sometimes a plain memory needs room to stay plain. Not every story about someone has to end with the lesson we're meant to learn from losing them." },
+            befriended = { { "Ye can listen to a story and stay for the silence after it. I have come to value that more than a ready answer. Carry my good wishes with ye, friend. I am glad there is room between us for an unfinished conversation.", tone = "[softly] [sincere]" } },
+            poke = { "Aye, friend? Give me a moment to set this thought down.", "Yes? Ye needn't hurry the question on my account." },
+            comforted = { { "Thank ye. I know ye haven't come with a way to make it all right. Staying a little, and letting me speak when I can, is kindness enough for this moment. I am grateful ye thought to offer it.", tone = "[quiet] [grateful]" } },
+            rest = { "Let us sit. We need not decide what the silence means before sharing it." },
+            gear = { "Mind the fit before trusting the first impression. Something worn close should not require ye to ignore the part that hurts." },
+            quest = { "Bring the news plainly and with care. A person waiting deserves more than a hurried account, even when the telling is difficult." },
+            newFriend = { "Ask what they wish to tell ye, and leave room for what they cannot yet put into words." },
+            thanked = { "I'm glad it was of use. A little care reaching the person who needs it is worth the time." },
+            group = { "Let them finish. If the next words are slow in coming, that does not mean someone else must fill the space." },
+        },
+    },
+
+    -- Cawind Trueaim, adult Tauren male8666/M2 968705, Horde Friendly Camp Mojache gunsmith/bowyer. Fifteen current goods; no own quests/gossip. Upside-down basket and quiet correction original; no guaranteed Sylvan Shortbow, free weapon, skill or repair.
+    -- Research: docs/research/dorins-memory-and-cawinds-basket.md
+    [9548] = {
+        quote = "The basket was upside down. Two attempts, and I had not thought to check that. My friend turned it over without a word. A useful correction, delivered with considerable restraint.",
+        likes = { "A correction offered without a lecture", "Equipment checked with practical attention", "A friend who notices the simple thing" },
+        dislikes = { "A small error turned into a public spectacle", "Careless treatment of a working tool", "Pride that refuses an obvious correction" },
+        gossip = "Cawind's cord bounced off a basket twice. His friend turned the basket right way up, then bowed. He returned the bow with a rather smaller smile.",
+        bio = "Cawind Trueaim is a gunsmith and bowyer in Camp Mojache, Feralas. He sells ranged weapons, ammunition and quivers, and offers repairs. A friend's quiet correction can matter to him as much as a confident first impression.",
+        backstory = "A loose cord bounced off the basket twice. His friend turned the basket right way up and offered a solemn bow. Cawind returned it. A useful correction did not require a lecture, though the bow made their meaning clear.",
+        secret = "He values a friend who can correct an obvious mistake without turning it into a public performance. He can admit he was distracted. The bow was quite enough celebration.",
+        bestFriend = "Come along, friend. Your judgment is welcome. If I overlook something obvious, I trust you to correct it before perfecting the bow.",
+        favorite = {
+            emote = "BOW",
+            hint = "A courteous bow with a shared private joke can acknowledge a useful correction.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Before I offer an explanation, I have checked which way up the basket is standing. You need not perform the bow again. The first one made your meaning perfectly clear, and the correction was useful.", tone = "[calm] [amused]" }, "Welcome back. Have you come with something that needs attention? I will try to notice the obvious part before beginning the explanation." },
+            idle = { { "The cord bounced twice. My friend turned the basket right way up, then bowed. I returned the bow. A useful correction, made without a lecture. I had been distracted, and their restraint was almost as impressive as their expression.", tone = "[dry] [amused]" }, "Knowing how a tool should feel is useful. Taking the time to notice when it feels different is useful too.", "A clear correction need not become an audience's entertainment. A friend can make the point and allow you to keep your dignity." },
+            befriended = { { "You can point out what I have overlooked without turning it into a performance. I value that. Come along, friend. Your judgment is good company, even when the most useful thing it has to say is that the basket is upside down.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? You may make the point before considering which bow it deserves.", "A moment. I would rather finish checking this than hurry through an answer." },
+            gear = { { "Look at what is actually in front of you before deciding what must be wrong. Fit and condition deserve attention before an impressive explanation. Occasionally the whole difficulty is as simple as the basket being upside down.", tone = "[steady] [instructive]" } },
+            rest = { "A quiet pause. We need not turn the small correction into a whole afternoon of lessons." },
+            bagsFull = { "Make room before adding the loose things. And look at how the container is sitting before deciding the contents have become unusually difficult." },
+            quest = { "Understand what you need to bring back before setting out. An impressive journey is less useful if the small required thing remains behind." },
+            thanked = { "You are welcome. I appreciate useful advice as well, particularly when a friend gives it without requiring an audience." },
+            newFriend = { "Offer the correction plainly and give them room to accept it. They need not defend everything about themselves before turning a basket over." },
+            zone = { "Here we are. Let us notice what is before us before explaining what we expected to find." },
+        },
+    },
+
     -- Gaerolas Talvethren, Starbreeze/Teldrassil, current Alliance Friendly adult Night Elf male1854/M2 974343. Full475/476/483/486; wounded Great Warden, Athridas performs later ritual. Cloak caught in greeting original; no healing, completed rescue or abandoned duty granted.
     -- Research: docs/research/gaerolass-greeting-and-wuarks-buckler.md
     [2107] = {
