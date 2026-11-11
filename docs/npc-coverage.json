@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 426,
+    "alliance": 428,
     "unverified": 184,
-    "horde": 424
+    "horde": 425
   },
   "npc_race_counts": {
     "1": 172,
-    "3": 104,
+    "3": 105,
     "7": 63,
     "2": 110,
     "5": 111,
@@ -18,7 +18,7 @@
     "8": 61,
     "6": 108,
     "96": 28,
-    "95": 59
+    "95": 60
   },
   "zone_counts": {
     "Elwynn Forest": 33,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 26,
     "Wetlands": 15,
-    "Ironforge": 68,
+    "Ironforge": 69,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 60,
     "Undercity": 27,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 84,
+    "Zephras Isle": 85,
     "Riverglades": 14
   },
   "entries": [
@@ -6673,6 +6673,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5159"
     },
     {
+      "npc_id": 5160,
+      "name": "Emrul Riknussun",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5160"
+    },
+    {
       "npc_id": 5162,
       "name": "Tansy Puddlefizz",
       "zone": "Ironforge",
@@ -12377,6 +12390,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270637"
     },
     {
+      "npc_id": 271465,
+      "name": "Falfaan Halfwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/271465"
+    },
+    {
       "npc_id": 271478,
       "name": "Elaria Anvilwind",
       "zone": "Zephras Isle",
@@ -12605,6 +12632,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 981,
-  "awaiting_signature_audio_profiles": 527
+  "authored_profiles": 983,
+  "awaiting_signature_audio_profiles": 529
 }

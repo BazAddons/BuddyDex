@@ -5103,6 +5103,20 @@
       "zone": "Zephras Isle",
       "route": "Leatherworker in Valanaar",
       "reason": "Native training question and48 lessons including Camp Tent; original seventeen stitch-count punch line; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5160,
+      "name": "Emrul Riknussun",
+      "zone": "Ironforge",
+      "route": "Cooking supplier at the Bronze Kettle",
+      "reason": "Twelve current wares, current supplier role; original flour/flowers misunderstanding; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 271465,
+      "name": "Falfaan Halfwind",
+      "zone": "Zephras Isle",
+      "route": "Artisan weapon crafter in Valanaar",
+      "reason": "Native Antarion training and eight Zephrali arms; original first-attempt design story; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -5432,5 +5432,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult horde identity; Native training question and48 lessons including Camp Tent; original seventeen stitch-count punch line; no Scout sighting claimed",
     "research_notes": "docs/research/eladriels-sandals-and-emeriis-seventeen.md"
+  },
+  {
+    "npc_id": 5160,
+    "name": "Emrul Riknussun",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; Twelve current wares, current supplier role; original flour/flowers misunderstanding; no Scout sighting claimed",
+    "research_notes": "docs/research/emruls-flowers-and-falfaans-first-attempt.md"
+  },
+  {
+    "npc_id": 271465,
+    "name": "Falfaan Halfwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Native Antarion training and eight Zephrali arms; original first-attempt design story; no Scout sighting claimed",
+    "research_notes": "docs/research/emruls-flowers-and-falfaans-first-attempt.md"
   }
 ]

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Emrul Riknussun and Falfaan Halfwind: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
+- Research cooking supplies and native magesmith training; verify Falfaan on both factions with normal eligibility and separate character progress.
+
 - Add Eladriel and Emerii Tallgust: full female Night Elf and High Order Skyborne profiles, thirty personal lines queued.
 - Research current skinning and leatherworking lessons; preserve separate character progress and native camping rewards.
 

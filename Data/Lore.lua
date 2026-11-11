@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Emrul Riknussun, Cooking Supplier Bronze Kettle Ironforge, adult Dwarf male3095/M2 878772, Alliance Friendly normal. Twelve current wares, no own captured gossip or quests. Flour/flowers note original; not a cooking trainer or new delivery/crafting reward.
+    -- Research: docs/research/emruls-flowers-and-falfaans-first-attempt.md
+    [5160] = {
+        quote = "I wrote flour on the note. My friend brought flowers. We settled the spelling after I found something to put them in. No reason to waste a perfectly pleasant misunderstanding.",
+        likes = { "A clear list of what the kitchen needs", "Flowers among the ordinary supplies", "A friend who can laugh at a muddled note" },
+        dislikes = { "Discovering the flour was never ordered", "A label nobody can read", "Throwing away a welcome surprise" },
+        gossip = "Emrul asked a friend for flour and received flowers. He found them a place before admitting that his handwriting might need work.",
+        bio = "Emrul Riknussun sells cooking supplies at the Bronze Kettle in Ironforge. He likes a clear request. An unexpected bunch of flowers has made him more tolerant of one particular misunderstanding.",
+        backstory = "He wrote a quick note asking a friend to bring flour. They arrived with flowers. Emrul looked at the note, then at the stems, and fetched something to hold them. He wrote the next request more carefully, but left the flowers where he could see them.",
+        secret = "He remembers that his friend had wanted to help. The mistake gave him something pleasant to look at during the work. Now he sometimes asks whether they read the request or improved it.",
+        bestFriend = "Come in, friend. Tell me what you need, or what you thought I needed. We have made a good beginning with either sort of visit.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A shared smile is the proper answer to a request that arrived with stems instead of a sack.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you, friend. Have you come for flour, or have you brought flowers? We should settle that before either of us writes another note. There is room for a conversation afterward.", tone = "[hearty] [amused]" }, "Welcome back. Tell me what the kitchen needs. If you have no list today, you can tell me how you have been instead." },
+            idle = { { "I asked for flour and received flowers. My friend showed me the note. I found something for the stems before considering a defense of the handwriting. It was a rather pleasant delivery, all things considered.", tone = "[wry] [warm]" }, "An orderly list is useful. So is taking the time to read it together before someone carries a completely different answer all the way back.", "The flowers gave the supplies a welcome bit of color. I had been thinking only of what the kitchen lacked, and my friend had found an answer I had not considered." },
+            befriended = { { "You are welcome here, friend. Bring a list, bring a story, or bring yourself. I enjoy knowing who has come in before discovering what the visit requires of the shelves.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? If that is another note, let us agree on the spelling before you leave.", "A moment. I am deciding whether this calls for a sack or something to put the stems in." },
+            bagsFull = { { "Mind how you pack it, friend. Flour benefits from arriving in its sack. Flowers prefer a rather different arrangement. I speak with considerable experience of that distinction.", tone = "[playful] [practical]" } },
+            loot = { "Think about what you mean to use before carrying everything away. A useful supply is easier to find when it is not buried beneath every other possibility." },
+            quest = { "Read the request once more before setting out. If a word could mean two different things, the question is worth asking now." },
+            rest = { "Take a moment, friend. You can tell me something besides what still needs fetching. I should like to hear about a pleasant part of your day." },
+            thanked = { "You are welcome. Thank you for taking the trouble. Even when the note has led us somewhere unexpected, I remember that you meant to help." },
+            newFriend = { "Ask what they need, and hear the answer properly. Leave a little room for a pleasant surprise too. We cannot put every good thing on a list beforehand." },
+            laughAlong = { "Aye, that is the delivery we remember. The next note was much clearer, but the first one certainly improved the view." },
+        },
+    },
+
+    -- Falfaan Halfwind, Artisan Weapon Crafter Valanaar Zephras, adult High Order Skyborne male146668/M2 7478487, both Alliance/Horde Friendly normal. Native Antarion/Banaethal magesmith training, eight current Zephrali arms, no quests. Repeated drawing and first-attempt story original; no actual new weapon, crafting system or altered faction access.
+    -- Research: docs/research/emruls-flowers-and-falfaans-first-attempt.md
+    [271465] = {
+        quote = "A fine tradition deserves more than another careful drawing. My friend has asked to see the first attempt. I have explained it three times. Perhaps it is time I made it.",
+        likes = { "The craft passed down by his teachers", "A friend willing to see work in progress", "A first attempt followed by a better one" },
+        dislikes = { "Careless work hiding behind a fine title", "A design revised forever and never tried", "Praise that has not looked at the piece" },
+        gossip = "Falfaan kept redrawing a new design. A friend asked to see an attempt rather than another explanation. He finally put the drawing down.",
+        bio = "Falfaan Halfwind sells Zephrali arms in Valanaar. Trained by Antarion of Ban'aethal, he takes pride in a craft inherited from ancient magesmiths. A new design can still make him hesitate, particularly when he wants a friend to see his finest work.",
+        backstory = "He showed a friend several drawings for a new piece, explaining each revision. They asked to see what the first attempt would teach him. Falfaan began another explanation, stopped, and admitted that he would have to make an attempt to answer.",
+        secret = "He had wanted to show only the finished success. His friend was willing to see him finding his way. That is a different sort of confidence, and he is learning to value it.",
+        bestFriend = "I will show you the attempt, friend. Look closely and tell me what you notice. I would rather have your attention than an unexamined compliment.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "Thoughtful encouragement for a careful attempt matters more than admiration offered without looking.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have a new thought about the design. Before I explain it at considerable length, you may ask whether I have tried the last one. I suspect you will.", tone = "[confident] [wry]" }, "Good to see you. Tell me what you are looking for. I would hear the purpose before deciding which impressive description to give you." },
+            idle = { { "I had explained three revisions when my friend asked what the first attempt would teach me. A very inconvenient question for a drawing. I had to put it down and consider the work itself.", tone = "[reflective] [amused]" }, "Antarion taught me within a tradition reaching back to Kalimdor's ancient magesmiths. It deserves care in the work, not merely an impressive account of who taught whom.", "A first attempt can answer a question that another drawing will only make more elaborate. I am trying to remember that before explaining the next revision." },
+            befriended = { { "You are welcome beside me, friend. I appreciate someone willing to see the work before I have perfected the account of it. Tell me what you notice, and I shall try to listen before defending the drawing.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Another question the drawing cannot answer? I am beginning to recognize that expression.", "One moment. I am deciding whether I have improved the design or merely found a more elegant way to postpone the attempt." },
+            learned = { { "Try the part you understand, then examine what happened. Respect for a fine tradition should make you attentive to the work, not afraid to begin it.", tone = "[patient] [encouraging]" } },
+            gear = { "Look closely at the piece. I am pleased to explain the work, but I would rather you understood what you were choosing than admired the explanation alone." },
+            loot = { "Examine the details before deciding you recognize the whole. The part that differs may be the part worth your attention." },
+            quest = { "Attend to the task itself. An excellent account of what you intend to do will not stand in for doing it carefully." },
+            rest = { "Let us pause. I should like to hear something of your day before I begin explaining another revision. You may remind me of that if I forget." },
+            thanked = { "You are welcome. Thank you for looking carefully. A question that helps the work is a welcome thing, even when it interrupts a very satisfactory explanation." },
+            newFriend = { "Let them see an honest attempt now and then. You may discover that their interest does not depend on your appearing to have finished learning." },
+        },
+    },
+
     -- Eladriel, Skinning Trainer Craftsmen Terrace Darnassus, adult Night Elf female4985/M2 921844, Alliance Friendly normal. Five current lessons including Camp Chair, no own captured gossip or quests. Sandals tongue-twister original; no modern flight service/Burning rescue or old shield-vendor bug as biography.
     -- Research: docs/research/eladriels-sandals-and-emeriis-seventeen.md
     [6292] = {
