@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 389,
+    "alliance": 390,
     "unverified": 183,
-    "horde": 380
+    "horde": 381
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 87,
+    "3": 88,
     "7": 62,
     "2": 99,
-    "5": 97,
+    "5": 98,
     "4": 85,
     "9": 67,
     "8": 61,
@@ -24,7 +24,7 @@
     "Elwynn Forest": 29,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
-    "Stormwind City": 123,
+    "Stormwind City": 124,
     "Redridge Mountains": 26,
     "Loch Modan": 6,
     "Duskwood": 4,
@@ -36,7 +36,7 @@
     "Undercity": 21,
     "Silverpine Forest": 9,
     "Teldrassil": 29,
-    "Hillsbrad Foothills": 12,
+    "Hillsbrad Foothills": 13,
     "Arathi Highlands": 11,
     "Orgrimmar": 60,
     "Badlands": 1,
@@ -2703,6 +2703,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2392"
+    },
+    {
+      "npc_id": 2397,
+      "name": "Derak Nightfall",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2397"
     },
     {
       "npc_id": 2401,
@@ -6547,6 +6560,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5512"
+    },
+    {
+      "npc_id": 5513,
+      "name": "Gelman Stonehand",
+      "zone": "Stormwind City",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5513"
     },
     {
       "npc_id": 5514,
@@ -11588,6 +11614,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 903,
-  "awaiting_signature_audio_profiles": 449
+  "authored_profiles": 905,
+  "awaiting_signature_audio_profiles": 451
 }

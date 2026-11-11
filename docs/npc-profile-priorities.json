@@ -4557,6 +4557,20 @@
       "zone": "Moonglade",
       "route": "Moonglade wind rider master",
       "reason": "Own flight greeting and current Horde Friendly role; original carrying hello and whispered answer; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5513,
+      "name": "Gelman Stonehand",
+      "zone": "Stormwind City",
+      "route": "Stormwind mining trainer and camping referral",
+      "reason": "Full95998/97923, sixteen lessons, own Ironforge/brusque greetings; original grumbling impression; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2397,
+      "name": "Derak Nightfall",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill cook and supplies",
+      "reason": "Thirteen current goods, sparse personal sources; original three theories and fallen broom; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gelman Stonehand and Derak Nightfall: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Preserve Gelman's rebuilding work, homesickness and camping referral; document original grumbling impression and Derak's overly elaborate explanation.
+
 - Add Elaria Anvilwind and Faustron: complete High Order and Orc profiles, thirty personal lines queued.
 - Add two current Horde Friendly identities on Zephras and in Moonglade; document original shared coin-toss joke and quieter greeting without granting services.
 

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gelman Stonehand and Derak Nightfall: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Preserve Gelman's rebuilding work, homesickness and camping referral; document original grumbling impression and Derak's overly elaborate explanation.
+
 - Add Elaria Anvilwind and Faustron: complete High Order and Orc profiles, thirty personal lines queued.
 - Add two current Horde Friendly identities on Zephras and in Moonglade; document original shared coin-toss joke and quieter greeting without granting services.
 
@@ -655,4 +658,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **903 fully written NPC profiles**: 454 have initial signature recordings, and four hundred forty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **905 fully written NPC profiles**: 454 have initial signature recordings, and four hundred fifty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

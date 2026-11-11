@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 903,
-  "written_complete_count": 903,
-  "awaiting_signature_audio_count": 449,
+  "authored_count": 905,
+  "written_complete_count": 905,
+  "awaiting_signature_audio_count": 451,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 451,
+  "remaining_count": 453,
   "completed": [
     {
       "npc_id": 54,
@@ -2060,6 +2060,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 2397,
+      "name": "Derak Nightfall",
+      "zone": "Hillsbrad Foothills",
+      "source": "Reviewed adult horde man; Thirteen current goods, sparse personal sources; original three theories and fallen broom; no Scout sighting claimed",
+      "research_notes": "docs/research/gelmans-impression-and-deraks-theory.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
@@ -5365,6 +5377,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 5513,
+      "name": "Gelman Stonehand",
+      "zone": "Stormwind City",
+      "source": "Reviewed adult alliance man; Full95998/97923, sixteen lessons, own Ironforge/brusque greetings; original grumbling impression; no Scout sighting claimed",
+      "research_notes": "docs/research/gelmans-impression-and-deraks-theory.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 5514,

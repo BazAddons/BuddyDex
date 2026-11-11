@@ -4886,5 +4886,19 @@
     "zone": "Moonglade",
     "source": "Reviewed adult horde; Own flight greeting and current Horde Friendly role; original carrying hello and whispered answer; no Scout sighting claimed",
     "research_notes": "docs/research/elarias-game-and-faustrons-greeting.md"
+  },
+  {
+    "npc_id": 5513,
+    "name": "Gelman Stonehand",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance man; Full95998/97923, sixteen lessons, own Ironforge/brusque greetings; original grumbling impression; no Scout sighting claimed",
+    "research_notes": "docs/research/gelmans-impression-and-deraks-theory.md"
+  },
+  {
+    "npc_id": 2397,
+    "name": "Derak Nightfall",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult horde man; Thirteen current goods, sparse personal sources; original three theories and fallen broom; no Scout sighting claimed",
+    "research_notes": "docs/research/gelmans-impression-and-deraks-theory.md"
   }
 ]

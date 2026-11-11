@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gelman Stonehand, Stormwind Mining Trainer, adult Dwarf male3308/M2 878772, Alliance Friendly. Own Ironforge/rebuilding/brusque greetings, sixteen lessons, full95998/97923. Friend imitates grumbles original; no actual return home or free profession/camp reward.
+    -- Research: docs/research/gelmans-impression-and-deraks-theory.md
+    [5513] = {
+        quote = "I told ye to pay attention, not practice sounding like me. Aye, that's a fair impression. Leave out the part about going home until I've finished saying it myself.",
+        likes = { "A question ready before the interruption", "A learner putting the lesson to use", "An accurate impression from a trusted friend" },
+        dislikes = { "An interruption with no point behind it", "Careless work hidden under confidence", "His own grumbling arriving before he does" },
+        gossip = "A friend imitated Gelman's grumbling. He reserved the complaint about going home for himself, then admitted the voice was good.",
+        bio = "Gelman Stonehand teaches mining in Stormwind. He came from Ironforge to help with rebuilding and hopes enough trained hands might let him return home. He also teaches the camping Lodestone through a profession referral.",
+        backstory = "A friend repeated his complaint about interruptions with alarming accuracy. Gelman began to object, then heard the rest of the impression. He conceded the voice was good, but reserved the complaint about going home for himself.",
+        secret = "He can enjoy being understood without becoming less particular about the work. A friend's imitation pleases him because they have listened, even to the grumbles.",
+        bestFriend = "Come along, friend. I would enjoy hearing yer own voice for a while. Ye've proved ye know mine; let me keep a few of the complaints.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin from someone who has actually listened can get past his grumbling.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are. Before ye begin, I know what my voice sounds like. Ye demonstrated it very thoroughly last time. If ye have a question, ask it in yer own voice. If ye've come for company, I suppose I can provide the grumbling myself.", tone = "[gruff] [amused]" }, "Aye, friend? Have the question ready before interrupting. I'll listen better if ye don't begin by imitating the answer." },
+            idle = { { "They repeated my complaint about interruptions. The voice was annoyingly good. I began to object, then heard the rest of it. Aye, I told them, but leave the part about going home until I've finished saying it myself.", tone = "[dry] [amused]" }, "I came here to help with the rebuilding. The more people who learn the work properly, the less reason there is to keep asking the same few hands.", "Ironforge is home. Saying so does not mean I intend to leave the next learner with half a lesson and a pick they don't know how to use." },
+            befriended = { { "Ye've listened closely enough to repeat the grumbles, and stayed long enough to hear what comes after them. I appreciate that, friend. Come along. I'd like to hear yer own account for a while, provided ye leave a little complaining for me.", tone = "[gruff] [warm]" } },
+            poke = { "Aye? Make it worth the interruption, friend.", "A moment. I'd rather finish the thought once than begin it again three times." },
+            learned = { { "Now put the lesson to use carefully. Repeating my words is easy enough, as ye've demonstrated. Understanding why the work is done that way will serve ye considerably better when I am not standing beside ye to complain.", tone = "[firm] [instructive]" } },
+            quest = { "Understand what ye've been sent to learn before asking for the next part. A confident nod is not the same as having done the work." },
+            rest = { "A short pause. Ye may speak in yer own voice; I will attempt not to answer with every complaint ye've already learned." },
+            newFriend = { "Let them make their point. If ye ask a question and interrupt the answer, we will be here all afternoon." },
+            thanked = { "Aye, I'm glad the lesson was useful. Seeing it done properly is a better thanks than hearing it recited back at me." },
+            group = { "Decide who is explaining and let them finish. Five instructions at once rarely produce five useful results." },
+            zone = { "Here we are. Take a moment to look properly before announcing what ye think the place requires." },
+        },
+    },
+
+    -- Derak Nightfall, Tarren Mill Cook/Vendor, adult Forsaken male3652/M2 959310, Horde Friendly. Thirteen current goods; no own current/Classic quest or captured greeting. Scraping-door/broom tale and three theories original; no invented death history, cannibalism or cooking training.
+    -- Research: docs/research/gelmans-impression-and-deraks-theory.md
+    [2397] = {
+        quote = "I had three explanations for the scraping at the door. All more impressive than a fallen broom. Next time, tell the whole tale before I have invented an entire catastrophe for it.",
+        likes = { "A good tale allowed to keep its surprise", "An ordinary explanation after a grand theory", "Supplies chosen with the meal in mind" },
+        dislikes = { "An ending withheld until his theory is done", "An impressive guess mistaken for a fact", "A harmless joke made unpleasant by repetition" },
+        gossip = "Derak had three theories about a scraping door. A broom had fallen. He asked his friend for the ending sooner next time.",
+        bio = "Derak Nightfall is a cook and supplier in Tarren Mill. His goods include spices, ingredients and fish recipes. In company, his appetite for an explanation can outrun the ordinary ending of a friend's tale.",
+        backstory = "A friend described a scraping sound at the door. Derak proposed three explanations before they reached the end. A broom had fallen against it. He paused, then asked whether next time the broom might be mentioned earlier.",
+        secret = "He rather likes a friend who can still surprise him after he has decided he knows the answer. The ordinary ending is funnier when his own grand theory has gone ahead of it.",
+        bestFriend = "Come along, friend. I shall try to let the next tale reach its ending before appointing myself the person who has explained it.",
+        favorite = {
+            emote = "WINK",
+            hint = "A shared wink at the difference between an impressive theory and an ordinary ending suits him.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Back again? Good. If this concerns another mysterious scraping at a door, mention the broom before I reach my third explanation. My theories were considerably more impressive, but I admit your ending improved when you finally allowed it to arrive.", tone = "[dry] [amused]" }, "Welcome back, friend. Have you come for something useful, or a tale whose ordinary ending I am about to overlook?" },
+            idle = { { "They said there had been a scraping at the door. I supplied three explanations before the story had finished. A broom had fallen against it. I paused. Next time, I suggested, we might hear about the broom before constructing an entire catastrophe.", tone = "[deadpan] [amused]" }, "An explanation can sound excellent while still being wrong. A small fact arriving late has spoiled several very satisfying theories of mine.", "Tell me what the meal requires before deciding which supplies look impressive. A useful ingredient deserves better than being chosen for the speech you can make about it." },
+            befriended = { { "You can let me enjoy a theory, then supply the ordinary fact that brings it gently down. I find that good company. Come along, friend. I will try to let your next story finish before explaining what must have happened in it.", tone = "[wry] [warm]" } },
+            poke = { "Yes, friend? Begin with the part I ought to know before becoming confidently mistaken.", "A moment. I am considering whether this explanation has any facts in it yet." },
+            newFriend = { { "Let them finish the tale. You may have thought of a splendid explanation, but they were there. Occasionally the useful contribution is hearing about the broom before introducing the catastrophe.", tone = "[calm] [wry]" } },
+            quest = { "Know what was actually requested. An excellent theory about what they must have meant will not always satisfy the person waiting for the delivery." },
+            rest = { "A quiet pause. You can tell the next part at your own pace; I shall attempt to leave room for the ending." },
+            group = { "Give the person with the facts a chance to speak. We can enjoy the more elaborate theories after learning whether the broom was upright." },
+            thanked = { "You are welcome. I am pleased the useful answer arrived before I had to discard another impressive guess." },
+            bagsFull = { "Leave room for what you actually need. A splendid plan for supper is less helpful if the supplies were crushed beneath everything else." },
+            zone = { "Here we are. Shall we look around before deciding we already know what must be happening?" },
+        },
+    },
+
     -- Elaria Anvilwind, Zephras Artisan Armorsmith/Repair. Adult High Order female146671/M2 7478494, current Horde Friendly; six Zephrali armor goods, no own quests/gossip. Floor wins coin toss original; no free armor, training or vendor entitlement bypass.
     -- Research: docs/research/elarias-game-and-faustrons-greeting.md
     [271478] = {
