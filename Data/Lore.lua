@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Watcher Paige, Night Watch crossroads south of Twilight Grove Duskwood, adult Human female2396/M2 1000764, Alliance Friendly normal. Current title/pin, no own captured gossip/tasks. Three-word mishap accounts original; no generic-guard override, invented quest or later cult allegiance.
+    -- Research: docs/research/paiges-three-words-and-hogors-shuffle.md
+    [499] = {
+        quote = "Boot. Puddle. Regret. There, my friend said the account was complete in three words. I have been listening to their longer adventures rather differently since.",
+        likes = { "Travelers keeping their eyes open", "A whole story in three words", "A friend with a better ending" },
+        dislikes = { "A watch mistaken for an empty road", "Boasting that forgets what happened", "A joke kept going after its welcome" },
+        gossip = "Paige and a friend tell stories in three words. Her wet-boot account has set an exacting standard for anyone returning with a grand adventure.",
+        bio = "Watcher Paige serves the Night Watch in Duskwood, at the crossroads south of Twilight Grove. She watches the road carefully and enjoys a brief, well-told account of the smaller mishaps a traveler remembers afterward.",
+        backstory = "She began explaining how one boot had found a puddle. Her friend offered three words: boot, puddle, regret. Paige conceded that the account was complete. On their next visit, she asked for an equally concise report of their grand adventures.",
+        secret = "She likes hearing what her friend chooses to keep when the account must be short. Sometimes the smallest mishap says more about the day than the most impressive deed.",
+        bestFriend = "Three words, friend. Give me the beginning, the trouble, and the part that made you laugh. I will save my questions until afterward.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing expression is a fitting answer when three words have exposed the funny part of a supposedly grand adventure.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "There you are. Three words, friend. What happened this time? I shall try to keep my questions shorter than the adventure.", tone = "[brisk] [playful]" }, "Good to see you back. Tell me how the road treated you. You may use the longer version if you need it." },
+            idle = { { "Boot. Puddle. Regret. My friend said the account was complete. Annoyingly, they were right.", tone = "[dry] [amused]" }, "A quiet stretch of road still deserves watching. Notice what is here before deciding nothing is happening.", "The shortest account is not always the least interesting. I like hearing which part someone chooses to remember." },
+            befriended = { { "I am glad you returned, friend. Bring me the small mishaps as well as the grand deeds. I enjoy hearing your version of the day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you found a fourth word? I thought we had agreed the boot was thoroughly explained.", "One moment. I am deciding which three words will do this account justice." },
+            laughAlong = { { "There it is. The part worth remembering. You may keep the heroic version too; I rather like this one.", tone = "[bright] [laughing]" } },
+            zone = { "Look around before letting your thoughts get too far ahead of your feet. The place deserves a little attention." },
+            quest = { "Hear what is needed before preparing the impressive account of how you mean to accomplish it." },
+            combatEnd = { "Still here. Good. We can make the account entertaining after everyone has caught their breath." },
+            rest = { "A pause, then. No report required. I can enjoy a quiet moment with you." },
+            newFriend = { "Let them finish their first story before suggesting a shorter version. We have had time to learn the joke." },
+            thanked = { "You are welcome, friend. Glad it helped. That account can be quite short without losing anything important." },
+        },
+    },
+
+    -- Hogor Thunderhoof, Guns Merchant Thunder Bluff, adult Tauren male2086/M2 968705, Horde Friendly normal. Current Repair/Vendor ten goods, no own captured quest/gossip/lessons. One-handed shuffle and friend hat catch original, not actual cards/minigame; no pet training, invented relatives or later Legion history.
+    -- Research: docs/research/paiges-three-words-and-hogors-shuffle.md
+    [3018] = {
+        quote = "I tried shuffling the cards with one hand. My friend caught the escaping ones in a hat. A fine performance, they said. We are still deciding which of us performed it.",
+        likes = { "A purchase suited to its purpose", "A quiet game after business", "An assistant with a conveniently placed hat" },
+        dislikes = { "Equipment chosen without attention", "A shuffled card disappearing for good", "Taking all the credit for shared work" },
+        gossip = "Hogor tried a one-handed shuffle. His friend caught the escaping cards in a hat. They are discussing whose part deserved the applause.",
+        bio = "Hogor Thunderhoof sells guns and ammunition and offers repairs in Thunder Bluff. Away from the business of Thunderhoof's Firearms, he enjoys a quiet game and the less quiet reception his attempts at a flourish can receive.",
+        backstory = "He attempted a one-handed shuffle before a friendly game. His friend caught several escaping cards in a hat. Hogor applauded the catch. They gathered the deck, dealt normally, and continued the argument about whose performance had been more impressive.",
+        secret = "The flourish is optional. He would rather keep the friend for another game than spend the evening proving he can manage the deck without help.",
+        bestFriend = "Sit with me, friend. We can deal the cards normally this time. I should like to hear about your day before attempting anything impressive.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He appreciates a generous reception for the performance, particularly when a friend deserves part of the credit.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. We have all the cards this time. I counted before considering another flourish.", tone = "[deep] [amused]" }, "Good to see you. Business first, or have you time for a little conversation?" },
+            idle = { { "I shuffled with one hand. My friend caught the escaping cards in a hat. We gave the catch a generous round of applause.", tone = "[rumbling] [pleased]" }, "Choose equipment for the use you intend. An impressive name will not make the decision for you.", "My friend calls the hat an essential part of the performance. I am considering whether to dispute this assessment." },
+            befriended = { { "I am glad you stayed, friend. You are welcome when the business is finished too. We need no great performance to enjoy another game together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have we lost another card? I thought I had kept the deck under rather better supervision.", "One moment. I am deciding whether this occasion requires a flourish or simply both hands." },
+            applaudToo = { { "A fine reception. Thank you. Save some applause for the person holding the hat; the performance depended on them too.", tone = "[hearty] [delighted]" } },
+            gear = { "Give the equipment a careful look before the next journey. Notice the wear while you have time to attend to it." },
+            loot = { "Consider what you can use before admiring what you have found. A useful choice is worth a little thought." },
+            bagsFull = { "Make room before adding more. Finding what you need should not require dealing the entire pack onto the ground." },
+            rest = { "A quiet moment suits me. Tell me how your day has gone. I can leave the flourishes for another time." },
+            newFriend = { "Give them a fair share of the conversation, and of the credit if they have helped make it a pleasant visit." },
+            thanked = { "You are welcome, friend. I am glad it helped. A useful result can be satisfying without an impressive entrance." },
+        },
+    },
+
     -- Prospector Gehn, Explorers League Gol Bolar Quarry Dun Morogh, adult Dwarf male1623/M2 878772, Alliance Friendly normal. Current identity, no own quest/services/captured gossip. Little stone tower original, not ancient artifact, profession training, world prop or later Drugan identity.
     -- Research: docs/research/gehns-tower-and-togthars-wolf.md
     [1255] = {

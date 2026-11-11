@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Watcher Paige and Hogor Thunderhoof: full Human and Tauren profiles, thirty personal lines queued.
+- Research a Duskwood crossroads contact and current Thunder Bluff firearms trade; preserve normal eligibility and separate character progress.
+
 - Add Prospector Gehn and Togthar: full Dwarf and Orc profiles, thirty personal lines queued.
 - Expand quarry and Hillsbrad contacts with researched adult identities and rescue context; preserve normal eligibility and separate character progress.
 

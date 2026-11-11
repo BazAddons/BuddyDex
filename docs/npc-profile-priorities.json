@@ -5215,6 +5215,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Captive at Durnholde Keep",
       "reason": "Native warning, full rescue and pendant context; original pre-capture cloth-wolf memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 499,
+      "name": "Watcher Paige",
+      "zone": "Duskwood",
+      "route": "Night Watch crossroads south of Twilight Grove",
+      "reason": "Current adult named Watcher with sparse personal lore; original three-word mishap accounts; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3018,
+      "name": "Hogor Thunderhoof",
+      "zone": "Thunder Bluff",
+      "route": "Guns merchant on High Rise",
+      "reason": "Ten current wares and repairs; original card-shuffle and hat catch, no pet-training claim; fifteen personal lines queued without synthesis"
     }
   ]
 }

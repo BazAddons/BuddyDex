@@ -5544,5 +5544,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult horde identity; Native warning, full rescue and pendant context; original pre-capture cloth-wolf memory; no Scout sighting claimed",
     "research_notes": "docs/research/gehns-tower-and-togthars-wolf.md"
+  },
+  {
+    "npc_id": 499,
+    "name": "Watcher Paige",
+    "zone": "Duskwood",
+    "source": "Reviewed adult alliance identity; Current adult named Watcher with sparse personal lore; original three-word mishap accounts; no Scout sighting claimed",
+    "research_notes": "docs/research/paiges-three-words-and-hogors-shuffle.md"
+  },
+  {
+    "npc_id": 3018,
+    "name": "Hogor Thunderhoof",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Ten current wares and repairs; original card-shuffle and hat catch, no pet-training claim; no Scout sighting claimed",
+    "research_notes": "docs/research/paiges-three-words-and-hogors-shuffle.md"
   }
 ]

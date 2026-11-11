@@ -3,12 +3,12 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 435,
+    "alliance": 436,
     "unverified": 184,
-    "horde": 432
+    "horde": 433
   },
   "npc_race_counts": {
-    "1": 173,
+    "1": 174,
     "3": 108,
     "7": 63,
     "2": 112,
@@ -16,7 +16,7 @@
     "4": 100,
     "9": 67,
     "8": 61,
-    "6": 110,
+    "6": 111,
     "96": 28,
     "95": 61
   },
@@ -27,7 +27,7 @@
     "Stormwind City": 126,
     "Redridge Mountains": 28,
     "Loch Modan": 10,
-    "Duskwood": 5,
+    "Duskwood": 6,
     "Dun Morogh": 27,
     "Wetlands": 15,
     "Ironforge": 70,
@@ -42,7 +42,7 @@
     "Badlands": 1,
     "Darkshore": 17,
     "Mulgore": 27,
-    "Thunder Bluff": 48,
+    "Thunder Bluff": 49,
     "Durotar": 57,
     "The Barrens": 52,
     "Stonetalon Mountains": 16,
@@ -631,6 +631,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/491"
+    },
+    {
+      "npc_id": 499,
+      "name": "Watcher Paige",
+      "zone": "Duskwood",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/499"
     },
     {
       "npc_id": 514,
@@ -3515,6 +3528,19 @@
       ],
       "reaction_evidence": "Current API explicitly shows Horde Friendly; ordinary live reaction/nonattackability gates still apply",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3017"
+    },
+    {
+      "npc_id": 3018,
+      "name": "Hogor Thunderhoof",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3018"
     },
     {
       "npc_id": 3019,
@@ -12815,6 +12841,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 997,
-  "awaiting_signature_audio_profiles": 543
+  "authored_profiles": 999,
+  "awaiting_signature_audio_profiles": 545
 }
