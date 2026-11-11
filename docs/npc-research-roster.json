@@ -4942,5 +4942,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde man; Earth Mother/retraining greetings and184 lessons; original familiar joke pause; no Scout sighting claimed",
     "research_notes": "docs/research/bengus-tune-and-kyms-pause.md"
+  },
+  {
+    "npc_id": 257007,
+    "name": "Melasa Fairmend",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult horde man; Six greetings and13 lessons; original sand-tray detour; no Scout sighting claimed",
+    "research_notes": "docs/research/melasas-path-and-jessirs-company.md"
+  },
+  {
+    "npc_id": 11019,
+    "name": "Jessir Moonbow",
+    "zone": "Felwood",
+    "source": "Reviewed adult horde man; Full5202/5203/5204/5385 and own greeting; original shared silence; no Scout sighting claimed",
+    "research_notes": "docs/research/melasas-path-and-jessirs-company.md"
   }
 ]

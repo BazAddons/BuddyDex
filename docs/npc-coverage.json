@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 393,
     "unverified": 183,
-    "horde": 384
+    "horde": 386
   },
   "npc_race_counts": {
     "1": 168,
@@ -13,12 +13,12 @@
     "7": 62,
     "2": 100,
     "5": 99,
-    "4": 86,
+    "4": 87,
     "9": 67,
     "8": 61,
     "6": 100,
     "96": 28,
-    "95": 50
+    "95": 51
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -54,13 +54,13 @@
     "Desolace": 13,
     "Tanaris": 9,
     "Feralas": 5,
-    "Felwood": 4,
+    "Felwood": 5,
     "Un'Goro Crater": 1,
     "Winterspring": 2,
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 75,
+    "Zephras Isle": 76,
     "Riverglades": 14
   },
   "entries": [
@@ -8793,6 +8793,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11017"
     },
     {
+      "npc_id": 11019,
+      "name": "Jessir Moonbow",
+      "zone": "Felwood",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11019"
+    },
+    {
       "npc_id": 11026,
       "name": "Sprite Jumpsprocket",
       "zone": "Stormwind City",
@@ -10681,6 +10694,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257006"
     },
     {
+      "npc_id": 257007,
+      "name": "Melasa Fairmend",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257007"
+    },
+    {
       "npc_id": 257008,
       "name": "Baelann Swiftcurrent",
       "zone": "Zephras Isle",
@@ -11692,6 +11718,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 911,
-  "awaiting_signature_audio_profiles": 457
+  "authored_profiles": 913,
+  "awaiting_signature_audio_profiles": 459
 }

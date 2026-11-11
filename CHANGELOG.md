@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Melasa Fairmend and Jessir Moonbow: full Skyborne and Night Elf profiles, thirty personal lines queued.
+- Expand Valanaar and Felwood coverage; research medical dialogue and the complete Jaedenar rescue/remains chain.
+
 - Add Bengus Deepforge and Kym Wildmane: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research their craft and druid dialogue; add original friendship stories about a mixed-up duet and a familiar joke.
 

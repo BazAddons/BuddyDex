@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Melasa Fairmend, Valanaar Zephras Isle Medic, adult High Order female140076/M2 7478494, Horde Friendly. Six captured greetings (two untranslated) and13 medical lessons, no own quests. Sand-tray detour and retained pebble original; no free healing/training or translated-language inference.
+    -- Research: docs/research/melasas-path-and-jessirs-company.md
+    [257007] = {
+        quote = "You put one pebble in my little path and declared it a hill. Very well. The path goes around it now. I had not realized our evening required an expedition, but I am willing to take the longer way.",
+        likes = { "Useful questions from fellow physicians", "Small paths drawn through smooth sand", "A visitor who leaves room for her work" },
+        dislikes = { "An interruption with no purpose behind it", "Careless handling of clean supplies", "A perfectly good detour called a failure" },
+        gossip = "A friend put a pebble in Melasa's little sand path. She drew a detour. The pebble has outlasted several new landscapes.",
+        bio = "Melasa Fairmend is a medic in Valanaar on Zephras Isle. She welcomes fellow physicians and offers practical instruction. Her manner can be helpful or brisk when an interruption takes her from important work.",
+        backstory = "After work, Melasa drew a winding path in a little tray of sand. A friend set a pebble in its way and called it a hill. She considered the obstruction, drew a detour and invited them to decide where the path should go next.",
+        secret = "She smooths the sand and changes the path, but leaves her friend's pebble. It is pleasant to keep one small part of an evening while allowing the rest of the landscape to change.",
+        bestFriend = "Leave your hill where it is, friend. We can decide where to go next together. There is still room in this little landscape for both of us.",
+        favorite = {
+            emote = "NOD",
+            hint = "A quiet nod can approve the next turn in a path without interrupting the person drawing it.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Welcome back, friend. Your hill is still there. Yes, the pebble. I have drawn several paths around it since your last visit. If you would like to decide where the next one goes, there is room enough. Let me finish what I am doing first.", tone = "[gentle] [warm]" }, "Gales greet you, friend. A practical question, or have you come to inspect the landscape in the little tray?" },
+            idle = { { "I drew a path in the sand. They put a pebble in its way and announced a hill. I drew a detour. Since then the path has changed several times, but I rather like leaving that one small hill where my friend decided it belonged.", tone = "[reflective] [amused]" }, "A physician with a question is welcome to ask it. Understanding what will help on the journey is a useful beginning.", "Not every pause must be filled with conversation. A little sand, a fingertip and a path that goes nowhere in particular can occupy me quite happily." },
+            befriended = { { "You have found room beside the work and among the little things I enjoy when it is finished. I value that, friend. Come along. There is more to an evening than the tasks it contains, and I am glad to share some of that time with you.", tone = "[soft] [affectionate]" } },
+            poke = { "Yes, friend? Let me give the work a proper stopping place before we begin.", "A moment. I am deciding whether this path needs another turn, or whether I simply enjoy drawing one." },
+            learned = { { "Take care with what you learn. A useful practice deserves more than remembering its name. Ask about what you do not understand, and give the answer enough attention that you can carry it with you beyond the lesson.", tone = "[clear] [instructive]" } },
+            rest = { "A short pause. We need not turn it into a task, though you may suggest where the next little path should lead." },
+            newFriend = { "Ask what they have time for. An interruption is easier to welcome when the visitor notices the work already in progress." },
+            thanked = { "You are welcome. I am pleased it was useful. Take care with the next part of your journey." },
+            group = { "Allow one person to finish before beginning another request. Everyone will have an easier time knowing what is needed." },
+            zone = { "Here we are. A rather larger landscape than my little tray, and worth giving our attention to." },
+            bagsFull = { "Leave the clean supplies where you can find them. A full bag is less useful if everything requires searching beneath everything else." },
+        },
+    },
+
+    -- Jessir Moonbow, Emerald Sanctuary Felwood, adult Night Elf female10412/M2 921844, Horde Friendly. Own missing-friends greeting and full5202/5203/5204/5385 rescue/remains chain despite empty current related tabs. Shared-silence friendship original; no actual rescue, restored Trey or erased grief.
+    -- Research: docs/research/melasas-path-and-jessirs-company.md
+    [11019] = {
+        quote = "You need not tell me that everything will be all right. Sit beside me if you have time. I would rather have honest company than a promise neither of us can make.",
+        likes = { "News given carefully and truthfully", "A friend allowed to mourn in their own way", "Company that does not demand a brave face" },
+        dislikes = { "The Shadow Council and its cruelty", "An empty assurance offered as certainty", "Pain mistaken for a failure of strength" },
+        gossip = "Jessir does not ask a friend to fill every silence. Sometimes making room beside her is the welcome she needs most.",
+        bio = "Jessir Moonbow came from Darnassus to Felwood seeking friends who investigated the Shadow Council in Jaedenar. Arko'narin and Trey Lightforge matter deeply to her. Her search leads toward rescue and the difficult work of honoring a loss.",
+        backstory = "One evening, a friend sat beside her without offering an assurance about the road ahead. Jessir had been preparing to explain why she could not simply stop worrying. Instead, she shifted over and let them share the silence.",
+        secret = "Company does not make an uncertain road safe. She knows that. What it can do is let her be afraid for someone she loves without having to defend the feeling or hide it.",
+        bestFriend = "Stay a while, friend. You need not find the right words. Knowing you are willing to sit beside me is something I can believe.",
+        favorite = {
+            emote = "HUG",
+            hint = "A gentle embrace can offer company without making a promise about what lies ahead.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "I am glad to see you, friend. If you have news, tell me carefully. If you have only a little time to sit beside me, that is welcome too. You need not promise that the road ahead is safe in order to make this moment less lonely.", tone = "[quiet] [warm]" }, "There you are. Take a moment, friend. I would like to hear how you are before asking what brings you here." },
+            idle = { { "They sat down without telling me not to worry. I had been preparing an answer to that assurance. Instead, I moved over. It was a relief to find that sharing the silence did not require me to explain why I could not simply put my concern aside.", tone = "[somber] [reflective]" }, "Strength does not mean that a person can bear every loss alone. Sometimes the strongest face is the one that makes it hardest to ask for company.", "I came looking for friends, not an account of them stripped of their names. What happens to a person matters beyond the report of it." },
+            befriended = { { "You have stayed without asking me to make the feeling easier for you to witness. I trust that, friend. Come along. I cannot promise that every conversation will be light, but I am glad that we need not earn each other's company by pretending it is.", tone = "[tender] [sincere]" } },
+            poke = { "Yes, friend? Take your time. I am listening.", "A moment. You need not hurry to fill the silence." },
+            comforted = { { "Thank you. There are promises neither of us can make, and I am glad you have not tried to make them for me. This is enough for now: a little company, offered without asking that I become less troubled before accepting it.", tone = "[soft] [grateful]" } },
+            quest = { "Listen for the person behind the request. An errand may be the only part of their worry that they know how to put into words." },
+            rest = { "Sit beside me if you wish. We can let the silence remain a silence for a while." },
+            newFriend = { "Give them time to tell you what they can. A brave manner may be the part they find hardest to set aside." },
+            thanked = { "You are welcome. I am glad there was something I could offer besides a hope that someone else would help." },
+            group = { "Do not leave someone to explain their pain to a circle of impatient faces. Make room for them to speak, or simply to stay." },
+            hugged = { "Thank you, friend. You need not say that everything will be all right. I know you are here." },
+        },
+    },
+
     -- Bengus Deepforge, Great Forge Ironforge (current Dun Morogh projection), adult Dwarf male3097/M2 878772, Alliance Friendly. Four captured craft/Rotgath/Brikk greetings, no own quest or current taught rows. Mixed-up duet original; historical instruction not guaranteed current lesson menu.
     -- Research: docs/research/bengus-tune-and-kyms-pause.md
     [4258] = {

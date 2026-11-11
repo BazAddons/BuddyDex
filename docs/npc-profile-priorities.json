@@ -4613,6 +4613,20 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff druid trainer",
       "reason": "Earth Mother/retraining greetings and184 lessons; original familiar joke pause; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 257007,
+      "name": "Melasa Fairmend",
+      "zone": "Zephras Isle",
+      "route": "Valanaar medic and medical instruction",
+      "reason": "Six greetings and13 lessons; original sand-tray detour; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11019,
+      "name": "Jessir Moonbow",
+      "zone": "Felwood",
+      "route": "Emerald Sanctuary missing-friends quest story",
+      "reason": "Full5202/5203/5204/5385 and own greeting; original shared silence; fifteen personal lines queued without synthesis"
     }
   ]
 }
