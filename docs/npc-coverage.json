@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 431,
+    "alliance": 432,
     "unverified": 184,
-    "horde": 428
+    "horde": 429
   },
   "npc_race_counts": {
     "1": 172,
     "3": 107,
     "7": 63,
-    "2": 110,
+    "2": 111,
     "5": 113,
-    "4": 98,
+    "4": 99,
     "9": 67,
     "8": 61,
     "6": 109,
@@ -38,7 +38,7 @@
     "Teldrassil": 33,
     "Hillsbrad Foothills": 15,
     "Arathi Highlands": 11,
-    "Orgrimmar": 63,
+    "Orgrimmar": 64,
     "Badlands": 1,
     "Darkshore": 17,
     "Mulgore": 27,
@@ -46,7 +46,7 @@
     "Durotar": 57,
     "The Barrens": 52,
     "Stonetalon Mountains": 16,
-    "Darnassus": 23,
+    "Darnassus": 24,
     "Burning Steppes": 1,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -4280,6 +4280,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current identity/model confirmed but current API reaction absent; beta Friendly or community Horde affiliation is not current reaction proof. Ordinary live reaction/nonattackability gates apply.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3312"
+    },
+    {
+      "npc_id": 3316,
+      "name": "Handor",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3316"
     },
     {
       "npc_id": 3317,
@@ -9608,6 +9621,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11046"
     },
     {
+      "npc_id": 11050,
+      "name": "Trianna",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11050"
+    },
+    {
       "npc_id": 11065,
       "name": "Thonys Pillarstone",
       "zone": "Ironforge",
@@ -12711,6 +12737,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 989,
-  "awaiting_signature_audio_profiles": 535
+  "authored_profiles": 991,
+  "awaiting_signature_audio_profiles": 537
 }

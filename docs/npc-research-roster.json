@@ -5488,5 +5488,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde identity; Six current fungus wares and verified adult male model; original shared umbrella/drizzle conversation; no Scout sighting claimed",
     "research_notes": "docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md"
+  },
+  {
+    "npc_id": 11050,
+    "name": "Trianna",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance identity; Three native dialogues, full camping97950 and96630/96606 context; original hurried-heron sampler; no Scout sighting claimed",
+    "research_notes": "docs/research/triannas-heron-and-handors-cloak.md"
+  },
+  {
+    "npc_id": 3316,
+    "name": "Handor",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde identity; Forty current garments and repairs; original ghost-story cloak interruptions; no Scout sighting claimed",
+    "research_notes": "docs/research/triannas-heron-and-handors-cloak.md"
   }
 ]

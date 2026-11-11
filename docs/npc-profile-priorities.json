@@ -5159,6 +5159,20 @@
       "zone": "Tirisfal Glades",
       "route": "Mushroom farmer around Brill",
       "reason": "Six current fungus wares and verified adult male model; original shared umbrella/drizzle conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11050,
+      "name": "Trianna",
+      "zone": "Darnassus",
+      "route": "Journeyman tailor in Craftsmen Terrace",
+      "reason": "Three native dialogues, full camping97950 and96630/96606 context; original hurried-heron sampler; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3316,
+      "name": "Handor",
+      "zone": "Orgrimmar",
+      "route": "Cloth and leather merchant in the Drag",
+      "reason": "Forty current garments and repairs; original ghost-story cloak interruptions; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Trianna, Journeyman Tailor Darnassus, adult Night Elf female10582/M2 921844, Alliance Friendly normal. Three native gossip lines and full97950 camping lesson with96630/96606 context. Long-legged practice bird and friendship story original; no later retail fate or free profession rewards.
+    -- Research: docs/research/triannas-heron-and-handors-cloak.md
+    [11050] = {
+        quote = "My practice bird acquired rather too much leg. A friend named it Heron in a Hurry. I meant to unpick it, but now I should miss the ridiculous creature.",
+        likes = { "The quiet rhythm of weaving", "Learning from a more practiced hand", "A mistake with an unexpected charm" },
+        dislikes = { "Pretending there is nothing left to learn", "Good cloth hurried into poor work", "A harmless mistake denied its smile" },
+        gossip = "Trianna keeps a practice bird with absurdly long legs. A friend named it Heron in a Hurry; she has stopped threatening to unpick it.",
+        bio = "Trianna is a journeyman tailor in Darnassus. Weaving brings her peace, and she readily directs students beyond her knowledge to Me'lynn. Her camping lesson helps skilled learners make a banner, while her own practice still leaves room for surprises.",
+        backstory = "An uneven stitch stretched the legs of a bird on her practice sampler. Before she could remove it, a visiting friend named the creature Heron in a Hurry. Trianna laughed, added one more hurried foot, and set the sampler aside intact.",
+        secret = "The bird reminds her of the laugh they shared. She can practice a better stitch elsewhere. This small piece has already become something she wants to keep.",
+        bestFriend = "Come and see what I have been practicing. You may admire the neat stitches, but do save a kind word for our hurried heron.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She treasures a kind appreciation of the work, including the little practice bird that refused to turn out neatly.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome back, friend. I have been practicing. Some stitches are much improved, and our hurried heron remains entirely too pleased with its extraordinary legs.", tone = "[gentle] [amused]" }, "It is good to see you. Tell me what you have been learning. There is pleasure in comparing the things we still have to practice." },
+            idle = { { "I meant to unpick the bird. Then my friend named it Heron in a Hurry. Now removing those ridiculous legs would feel rather like asking a welcome visitor to leave.", tone = "[soft] [playful]" }, "The rhythm of weaving settles my thoughts. A little patient work can give the mind somewhere pleasant to rest.", "There is no shame in reaching the edge of what I can teach. A good teacher should be willing to tell you who can help you further." },
+            befriended = { { "I am glad you stayed, friend. Bring me your stories and your unfinished attempts. I enjoy discovering what takes shape when we give each other a little time.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you found another name for the bird? I fear its legs are becoming famous.", "One moment. I was considering whether one more stitch would improve matters or simply give the heron somewhere else to hurry." },
+            learned = { { "That took practice. Enjoy the part you understand now, and leave yourself room for the next lesson. Even our hurried heron began with someone trying to make a careful stitch.", tone = "[encouraging] [fond]" } },
+            gear = { "Look at how the cloth has been worked. Fine stitching deserves a little attention before the garment disappears beneath everything else you are wearing." },
+            rest = { "Let your thoughts settle for a moment. We need not fill every quiet interval with another task." },
+            newFriend = { "Ask them what they enjoy making. People sometimes show you a surprisingly happy part of themselves when you take an interest." },
+            thanked = { "You are welcome. I am pleased it helped. Tell me how your next attempt goes, even if it produces a bird of unexpected proportions." },
+            bagsFull = { "Keep your cloth where you can find it again. A tangled heap is a difficult beginning for a peaceful piece of work." },
+            cheerAlong = { "A little celebration seems fitting. That stitch did not come right by itself, and neither did the courage to try it again." },
+        },
+    },
+
+    -- Handor, Cloth and Leather Armor Merchant Orgrimmar, adult Orc male1316/M2 917116, Horde Friendly normal. Forty current garments and Repair service, no own captured gossip or linked quests. Ghost-story cloak interruption original; no actual haunting, invented family or later Legion events.
+    -- Research: docs/research/triannas-heron-and-handors-cloak.md
+    [3316] = {
+        quote = "My friend told a chilling tale about a traveler in a haunted cloak. Apparently I interrupted at the wrong moment. I still think someone ought to have asked what became of the cloak.",
+        likes = { "Armor suited to its wearer", "A ghost story with useful details", "A visitor with time for another tale" },
+        dislikes = { "Damage left until the next journey", "A purchase that never fits the need", "A fine cloak forgotten at the ending" },
+        gossip = "Handor can interrupt a ghost story to ask about the clothing. His friend now prepares a second ending explaining what happened to the cloak.",
+        bio = "Handor sells cloth and leather armor and offers repairs in Orgrimmar. He has a practical eye for garments, even when listening to a story meant to send a chill down his spine.",
+        backstory = "A friend told him about a traveler pursued by something inside a haunted cloak. Handor asked whether the lining had survived. His friend lost the ominous voice. They finished laughing, then worked out a satisfactory fate for the garment.",
+        secret = "He likes the voice his friend uses before the frightening part. Sometimes he saves his question until the end so they can enjoy telling the whole story.",
+        bestFriend = "Tell me another one, friend. I shall try to wait until the frightening part is over before asking about the stitching.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing expression is welcome when his practical question interrupts the most dramatic part of a tale.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. Have you brought another tale? I have questions prepared, but you may reach the frightening part before I ask what the traveler was wearing.", tone = "[gruff] [amused]" }, "Good to see you. Armor or conversation? Tell me which you need before I begin explaining the condition of your sleeves." },
+            idle = { { "My friend told me of a haunted cloak. I asked whether the lining survived. Apparently that was not the question meant to send a chill through the room.", tone = "[deadpan] [curious]" }, "A garment should suit the person who must wear it. An impressive description does not improve an uncomfortable fit.", "My friend now gives the cloak an ending of its own. I appreciate a storyteller who takes the unanswered questions seriously." },
+            befriended = { { "You are welcome beside me, friend. Bring the next story when you have it. I shall listen carefully, even if my questions arrive somewhere other than where you expected.", tone = "[rough] [warm]" } },
+            poke = { "Yes? Was that the ominous voice? I should hate to interrupt before you have properly begun.", "One moment. I am considering whether the ghost left the cloak in a condition anyone could reasonably repair." },
+            laughAlong = { { "That was a fine ending. I understood what happened to the traveler, the ghost, and the cloak. You see? A little attention to the details improves a tale considerably.", tone = "[hearty] [pleased]" } },
+            gear = { "Have a look at the wear before the next journey. Damage is easier to discuss while you have time to decide what to do about it." },
+            loot = { "Consider whether you can use it before admiring the description. Something may be well made and still be quite wrong for you." },
+            rest = { "A pause suits me. Tell the story slowly this time. I enjoy the voice you use before everything goes wrong." },
+            newFriend = { "Give them time to finish the tale. You may discover why everyone else was waiting so patiently before asking your useful question." },
+            thanked = { "You are welcome. Glad it helped. It is satisfying when something useful leaves in better condition than it arrived." },
+            zone = { "Take a look around, friend. If this place becomes the beginning of a frightening tale, I should like to know what you actually saw." },
+        },
+    },
+
     -- Mountaineer Gringer Stormpike, Algaz Station Loch Modan, adult Dwarf male1894/M2 878772, Alliance Friendly normal. Native boast,307/1097/353/1339/1338 and full5998 request. Mock ceremony for one quiet watch original; not generic Stormpike Mountaineer, no finished mine clearance or gifted shield.
     -- Research: docs/research/stormpikes-quiet-watch-and-hamlins-drizzle.md
     [1343] = {

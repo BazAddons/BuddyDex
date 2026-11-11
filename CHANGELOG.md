@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Trianna and Handor: full Night Elf and Orc profiles, thirty personal lines queued.
+- Research native weaving dialogue, the camping banner lesson and current armor stock; preserve normal eligibility and character progress.
+
 - Add Mountaineer Stormpike and Hamlin Atkins: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Research Algaz errands and the Brill mushroom farmer; preserve normal eligibility and separate character progress.
 
