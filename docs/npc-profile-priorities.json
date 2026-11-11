@@ -4333,6 +4333,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay Salty Sailor Tavern",
       "reason": "Own stove greeting, no current linked quests; original quiet-afternoon tally, later Pandaria incident excluded; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 257446,
+      "name": "Teo Hammerstorm",
+      "zone": "Dun Morogh",
+      "route": "Anvilmar shaman teaching",
+      "reason": "Full earth trials and rune introduction, own quiet-earth gossip; original travelers favorite inn hearth; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8305,
+      "name": "Kixxle",
+      "zone": "Wetlands",
+      "route": "Wetlands potion merchant",
+      "reason": "Full94237 delivery, ammunition and profit dilemma, five current goods; original frog sales-pitch audience; fifteen personal lines queued without synthesis"
     }
   ]
 }

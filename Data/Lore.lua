@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Teo Hammerstorm, Shaman Trainer, Anvilmar/Dun Morogh. Adult Dwarf male126743/M2 878772, Alliance Friendly. Own earth-listening gossip;98581/96243/94373-75/94472 guidance and earth trials. Traveler choosing an inn hearth as happiest ground original; no free training, totem or clan biography invented.
+    -- Research: docs/research/teos-hearth-and-kixxles-audience.md
+    [257446] = {
+        quote = "Tell me about the ground beneath yer travels, not just the battles above it. A road, a field, a familiar floor. Aye, even an inn floor has something worth hearing.",
+        likes = { "An honest account of an ordinary place", "Respect for the earth and its teachings", "A traveler remembering the way home" },
+        dislikes = { "Treating a totem as a mere badge", "Claiming a trial without doing the work", "A grand story that forgets the ground" },
+        gossip = "Teo once asked a traveler about the finest ground they had found. The answer was an inn floor beside a warm hearth. He approved.",
+        bio = "Teo Hammerstorm guides new shamans in Anvilmar. He shares elemental teachings kept by the Wildhammer and passed to Bronzebeard dwarves. His earth trials ask for respect, patience, and a meeting at the Spirit Stone.",
+        backstory = "A traveler prepared a grand account of distant battles. Teo asked where their boots had been happiest. After a pause, they admitted it was beside an inn hearth. He settled in to hear about that place first.",
+        secret = "He enjoys learning how an ordinary place becomes someone's welcome. A traveler need not bring a grand revelation to hold his interest.",
+        bestFriend = "Sit beside me, friend. Tell me where ye felt at home on the road. There's room for the battles after we've heard about the hearth.",
+        favorite = {
+            emote = "BOW",
+            hint = "A deliberate gesture of respect suits a teacher who asks that the earth be approached with humility.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Sit beside me. Before ye tell me about the battles, tell me where yer boots were happiest. I can learn something from an ordinary floor if ye give me the story of its welcome.", tone = "[warm] [reflective]" }, "Welcome back. Quiet the hurry for a moment, and tell me what ye've brought to the conversation." },
+            idle = { { "They had a grand tale ready, but I asked where their boots had been happiest. An inn floor beside a warm hearth, they admitted. A fine answer. We began with the place that had made them glad to arrive.", tone = "[fond] [amused]" }, "The earth's lessons ask for patience and respect. Neither is improved by announcing how quickly ye intend to master the whole matter.", "A totem is a focus for the work, not simply a badge to show the next traveler. Understand what ye carry, and why ye have earned the right to carry it." },
+            befriended = { { "Ye've become someone whose ordinary days I want to hear about, as well as the hard ones. Come along, friend. We'll leave room for both, and let the journey tell us where to begin.", tone = "[steady] [sincere]" } },
+            poke = { "Aye? Give me a moment to hear the question beneath all that hurry.", "I'm listening. Ye needn't find a grand beginning before ye speak." },
+            learned = { { "Respect what ye've learned, and keep practicing. A lesson opens the way; it doesn't walk every step for ye. The next bit of understanding may ask for rather more patience than the first.", tone = "[firm] [instructive]" } },
+            zone = { "What does this place put beneath yer feet? Listen to the answer before ye begin arranging the tale of what ye found here." },
+            rest = { "A pause, then. There's no need to turn every comfortable moment into a test of endurance." },
+            hearth = { "Homeward. Remember what makes the place a welcome, and carry a little care for it back with ye." },
+            newFriend = { "Let them tell ye about an ordinary day. It can reveal something the grand introduction leaves out." },
+            thanked = { "Glad to help. Bring an honest question next time, and we'll see where it leads." },
+            bowBack = { "Aye. Respect is a good beginning. Let it remain in the work after the greeting is done." },
+        },
+    },
+
+    -- Kixxle, Potions & Herbs, Wetlands50.11,37.88. Adult Goblin male7529/M2 119376; Horde Friendly, Alliance Neutral only. Current94237 completion: Dragonmaw attention, ammunition shortage and profit. Frog sales pitch original; no real transaction, native quest result or faction override.
+    -- Research: docs/research/teos-hearth-and-kixxles-audience.md
+    [8305] = {
+        quote = "Yeah, I could leave the Wetlands. Soon as it's sensible. There's danger on the road, sure, but there's also the terrible prospect of somebody buying something after I've gone.",
+        likes = { "A customer arriving with a clear request", "An audience that appreciates a good pitch", "Vials packed for the road ahead" },
+        dislikes = { "Dragonmaw attention near his business", "An ammunition shortage delaying departure", "A sale lost during a farewell speech" },
+        gossip = "Kixxle once delivered a sales pitch to a frog that croaked at every price. When it jumped away, he blamed difficult market conditions.",
+        bio = "Kixxle sells potions and supplies in the Wetlands. A writ delivery finds him short of ammunition after unwelcome Dragonmaw attention. Danger helps explain his delay in leaving; the prospect of more profit explains the rest.",
+        backstory = "A frog settled near his goods. Kixxle offered a pitch; it croaked at the price. He tried again. When it leaped away, he announced a difficult market and turned to his laughing companion for an appraisal.",
+        secret = "He enjoys an audience that can laugh and still admire the effort. Even a failed pitch deserves someone who notices the craftsmanship.",
+        bestFriend = "Stay a minute, pal. I want your opinion on the next pitch. Honest, this time. That frog gave me nothing useful to work with.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He enjoys an audience willing to recognize the performance, even when the sale escapes.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, pal. Good. I need an audience with a little more appreciation than the last one. You can laugh at the pitch afterward, provided you admit the opening had promise.", tone = "[bright] [eager]" }, "Welcome back. Buying, selling, or bringing me the sort of news that makes leaving sound sensible again?" },
+            idle = { { "A frog sat beside the goods and croaked every time I named a price. Tough customer. When it jumped away, I announced difficult market conditions. My companion laughed. At least somebody appreciated the performance.", tone = "[animated] [amused]" }, "Running short of ammunition out here is bad planning. Having Dragonmaw orcs look you over does not improve the situation.", "Sure, leaving has advantages. Then I imagine a customer arriving just after I've gone. You see how a reasonable decision becomes complicated?" },
+            befriended = { { "You can laugh at a pitch and still tell me where it had promise. That's useful company, pal. Come along. I'd rather hear an honest opinion from a friend than another croak from an audience with no purchasing plans.", tone = "[warm] [wry]" } },
+            bagsFull = { { "Pack the breakable things as if you're the one who has to replace them. A little care before the journey can save a very expensive conversation after the first bump in the road.", tone = "[brisk] [instructive]" } },
+            poke = { "Yeah? Give me a clear question. I charge myself enough for uncertainty already.", "I'm listening. That better not be your impression of the frog." },
+            quest = { "Check the request before making the trip. Delivering what somebody actually ordered is an excellent foundation for getting paid." },
+            gear = { "Check what you'll need before the road decides to test your preparation. I speak with a regrettable amount of experience." },
+            loot = { "Know what you're counting before deciding how much you're going to make from it." },
+            rest = { "A short pause. Long enough to think clearly, not long enough for every passing customer to conclude I've retired." },
+            applaudToo = { "Thank you. Finally, an audience that recognizes effort without trying to negotiate it downward." },
+            newFriend = { "Someone new. Give them a welcome before the pitch. You want them listening when you get to the interesting part." },
+        },
+    },
+
     -- Lelanai, Saber Handler, Cenarion Enclave/Darnassus. Adult Night Elf female2788/M2 921844, Alliance Friendly. Own saber/Sentinel/Jartsam gossip; current97074 and historical7671/7672 version-limited. Shared failed sneeze imitation original, no mount awarded by friendship.
     -- Research: docs/research/lelanais-laugh-and-skindles-tally.md
     [4730] = {

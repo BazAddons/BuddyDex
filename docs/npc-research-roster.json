@@ -4662,5 +4662,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult horde man; Own stove greeting, no current linked quests; original quiet-afternoon tally, later Pandaria incident excluded; no Scout sighting claimed",
     "research_notes": "docs/research/lelanais-laugh-and-skindles-tally.md"
+  },
+  {
+    "npc_id": 257446,
+    "name": "Teo Hammerstorm",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult alliance man; Full earth trials and rune introduction, own quiet-earth gossip; original travelers favorite inn hearth; no Scout sighting claimed",
+    "research_notes": "docs/research/teos-hearth-and-kixxles-audience.md"
+  },
+  {
+    "npc_id": 8305,
+    "name": "Kixxle",
+    "zone": "Wetlands",
+    "source": "Reviewed adult horde man; Full94237 delivery, ammunition and profit dilemma, five current goods; original frog sales-pitch audience; no Scout sighting claimed",
+    "research_notes": "docs/research/teos-hearth-and-kixxles-audience.md"
   }
 ]

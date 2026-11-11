@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 375,
+    "alliance": 376,
     "unverified": 181,
-    "horde": 362
+    "horde": 363
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 81,
+    "3": 82,
     "7": 61,
     "2": 93,
     "5": 93,
     "4": 80,
     "8": 61,
-    "9": 64,
+    "9": 65,
     "6": 97,
     "96": 28,
     "95": 45
@@ -28,8 +28,8 @@
     "Redridge Mountains": 24,
     "Loch Modan": 4,
     "Duskwood": 4,
-    "Dun Morogh": 23,
-    "Wetlands": 8,
+    "Dun Morogh": 24,
+    "Wetlands": 9,
     "Ironforge": 62,
     "Stranglethorn Vale": 7,
     "Tirisfal Glades": 51,
@@ -7689,6 +7689,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8145"
     },
     {
+      "npc_id": 8305,
+      "name": "Kixxle",
+      "zone": "Wetlands",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8305"
+    },
+    {
       "npc_id": 8358,
       "name": "Hewa",
       "zone": "Thunder Bluff",
@@ -10324,6 +10337,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257037"
     },
     {
+      "npc_id": 257446,
+      "name": "Teo Hammerstorm",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257446"
+    },
+    {
       "npc_id": 257551,
       "name": "Valreaa Valewind",
       "zone": "Zephras Isle",
@@ -11174,6 +11200,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 871,
-  "awaiting_signature_audio_profiles": 417
+  "authored_profiles": 873,
+  "awaiting_signature_audio_profiles": 419
 }

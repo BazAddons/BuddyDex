@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Teo Hammerstorm and Kixxle, with full Dwarf starting-area and Goblin Wetlands profiles and thirty personal lines queued.
+- Preserve elemental trial requirements and the merchants ammunition/profit dilemma; distinguish original hearth conversation and frog sales pitch from native quest events.
+
 - Add Lelanai and Innkeeper Skindle, expanding Night Elf and Goblin profiles with thirty personal lines queued.
 - Preserve researched saber-handler and tavern dialogue; separate original shared laughter and quiet-afternoon tally from native mount rewards and later stories.
 

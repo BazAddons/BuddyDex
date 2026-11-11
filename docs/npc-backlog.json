@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 871,
-  "written_complete_count": 871,
-  "awaiting_signature_audio_count": 417,
+  "authored_count": 873,
+  "written_complete_count": 873,
+  "awaiting_signature_audio_count": 419,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 419,
+  "remaining_count": 421,
   "completed": [
     {
       "npc_id": 54,
@@ -6308,6 +6308,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 8305,
+      "name": "Kixxle",
+      "zone": "Wetlands",
+      "source": "Reviewed adult horde man; Full94237 delivery, ammunition and profit dilemma, five current goods; original frog sales-pitch audience; no Scout sighting claimed",
+      "research_notes": "docs/research/teos-hearth-and-kixxles-audience.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "goblin-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 8358,
       "name": "Hewa",
       "zone": "Thunder Bluff",
@@ -8549,6 +8561,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 257446,
+      "name": "Teo Hammerstorm",
+      "zone": "Dun Morogh",
+      "source": "Reviewed adult alliance man; Full earth trials and rune introduction, own quiet-earth gossip; original travelers favorite inn hearth; no Scout sighting claimed",
+      "research_notes": "docs/research/teos-hearth-and-kixxles-audience.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 257551,
