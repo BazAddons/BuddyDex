@@ -5194,5 +5194,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Nephew signet grief, cult investigation and both departure branches; original curiosity about an ordinary doorstep; no Scout sighting claimed",
     "research_notes": "docs/research/jorins-patch-and-talaanis-doorstep.md"
+  },
+  {
+    "npc_id": 5153,
+    "name": "Jormund Stonebrow",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; Four native teaching greetings and51 current lessons; original repeatedly moved apron pockets; no Scout sighting claimed",
+    "research_notes": "docs/research/jormunds-pockets-and-kerrs-encore.md"
+  },
+  {
+    "npc_id": 10682,
+    "name": "Raider Kerr",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde identity; Current adult Friendly identity and Classic patrol context; original wolf sneeze during a practice cry; no Scout sighting claimed",
+    "research_notes": "docs/research/jormunds-pockets-and-kerrs-encore.md"
   }
 ]

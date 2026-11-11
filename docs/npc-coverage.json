@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 409,
+    "alliance": 410,
     "unverified": 184,
-    "horde": 407
+    "horde": 408
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 97,
+    "3": 98,
     "7": 63,
-    "2": 105,
+    "2": 106,
     "5": 105,
     "4": 93,
     "9": 67,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 26,
     "Wetlands": 13,
-    "Ironforge": 67,
+    "Ironforge": 68,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 59,
     "Undercity": 23,
@@ -43,7 +43,7 @@
     "Darkshore": 15,
     "Mulgore": 26,
     "Thunder Bluff": 46,
-    "Durotar": 55,
+    "Durotar": 56,
     "The Barrens": 50,
     "Stonetalon Mountains": 16,
     "Darnassus": 21,
@@ -6478,6 +6478,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5150"
     },
     {
+      "npc_id": 5153,
+      "name": "Jormund Stonebrow",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5153"
+    },
+    {
       "npc_id": 5154,
       "name": "Poranna Snowbraid",
       "zone": "Ironforge",
@@ -9050,6 +9063,19 @@
       ],
       "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10645"
+    },
+    {
+      "npc_id": 10682,
+      "name": "Raider Kerr",
+      "zone": "Durotar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10682"
     },
     {
       "npc_id": 10922,
@@ -12163,6 +12189,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 947,
-  "awaiting_signature_audio_profiles": 493
+  "authored_profiles": 949,
+  "awaiting_signature_audio_profiles": 495
 }

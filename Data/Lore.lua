@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jormund Stonebrow, Expert Tailor, Ironforge, adult Dwarf male3091/M2 878772, Alliance Friendly normal. Four native teaching greetings and51 current lessons reviewed; no own quests. Repeatedly moved apron pockets original; no invented Stonebrow kinship, actual item or friendship-unlocked lessons.
+    -- Research: docs/research/jormunds-pockets-and-kerrs-encore.md
+    [5153] = {
+        quote = "Aye, I moved the pockets myself. A sensible improvement. My hands will discover where everything is the moment they stop reaching for yesterday.",
+        likes = { "Fine Darnassian fabric", "A pupil who tries the stitch again", "A tool found on the second attempt" },
+        dislikes = { "Being expected to babysit", "Boasting before the work is done", "His hands remembering the old pockets" },
+        gossip = "Jormund has improved his apron pockets three times. His hands are still loyal to the first arrangement. Mention it after the lesson.",
+        bio = "Jormund Stonebrow teaches tailoring in Ironforge. He admires Darnassian fabric and expects pupils to show some promise. Beginners may hear about Uthrar; accomplished tailors may be sent to Georgio Bolero in Stormwind.",
+        backstory = "He moved his apron pockets to put everything within easier reach. Then he moved them again. Each arrangement was excellent on paper. His hands, however, kept reaching for the place where the scissors used to be.",
+        secret = "He has considered putting the pockets back. First he wants to prove that he can learn his own improvement. He finds this harder to admit than a crooked seam.",
+        bestFriend = "Sit down, friend. Scissors are in the left pocket today. If you see me reach right, a quiet cough will do. No lecture necessary.",
+        favorite = {
+            emote = "WINK",
+            hint = "A discreet wink can acknowledge a familiar mistake without making a performance of it.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Aye, come in. Scissors on the left today. You heard that. Good. One of us is certain to remember.", tone = "[gruff] [amused]" }, "Back for a lesson, or to watch me search my own pockets? Sit down either way. I expect you to pay attention." },
+            idle = { { "Moved the pockets to improve the apron. Improved them again the next day. My hands seem to have formed an attachment to the original design. Stubborn things. No idea where they get it.", tone = "[dry] [wry]" }, "Fine fabric deserves attention before the cutting starts. This Darnassian cloth makes a fellow reconsider which part of the work he was about to rush.", "A pupil shows promise by trying again after the first mistake. You may remind me of that if I reach for the wrong pocket. Quietly." },
+            befriended = { { "Aye, friend. Pull up a chair. You have earned the right to cough when I search the wrong pocket. I will decide how grateful to look afterward.", tone = "[warm] [gruff]" } },
+            poke = { "What is it? If it is the scissors, I know perfectly well where they ought to be.", "You have my attention. Make use of it before I remember what I was doing." },
+            learned = { { "There. You see the stitch now. Try it again before announcing that you have mastered the trade. Promise is a fine beginning; I want to see what you do with it.", tone = "[firm] [encouraging]" } },
+            gear = { "A sound seam will tell you something about the person who made it. An absurd pocket arrangement may tell you rather more than they intended." },
+            bagsFull = { "Empty a little space before you start arranging it. I can recommend several pocket designs, all of them awaiting final approval from my hands." },
+            thanked = { "Aye. You listened, and you tried. That makes a lesson worth the trouble." },
+            newFriend = { "Give them a chance to show what they can do. There is time enough to grumble once you have seen the first attempt." },
+            rest = { "A chair, a pause, and no one asking where I put the scissors. A fine few moments." },
+            laughAlong = { "Aye, laugh. I designed the thing. I am entitled to find it funny as well." },
+        },
+    },
+
+    -- Raider Kerr, Durotar, adult Orc male10010/M2 917116, Horde Friendly normal. Current Razor Hill pins; Classic patrol/rest context with Jhash. No own quests/services/gossip block. Wolf sneeze interrupts a practice battle cry original; no Cataclysm escort, Koshharg event, stable service or ride reward.
+    -- Research: docs/research/jormunds-pockets-and-kerrs-encore.md
+    [10682] = {
+        quote = "The cry was ready. The wolf sneezed. I gave the cry again, with greater conviction. He looked as though he had heard the first one perfectly well.",
+        likes = { "A rested wolf before the next stretch", "A battle cry with room to ring", "Company that can laugh and keep walking" },
+        dislikes = { "Rushing an animal through its rest", "A grand entrance ending in a sneeze", "Being asked to repeat the whole story" },
+        gossip = "Kerr once tried a fearsome cry beside his wolf. The wolf sneezed through it. Kerr insists the second attempt was better anyway.",
+        bio = "Raider Kerr is an orc raider in Durotar, where the road links Razor Hill and the Valley of Trials. A strong voice suits him. So does a pause long enough for a wolf to rest before the next stretch.",
+        backstory = "He tried a battle cry during a quiet pause. His wolf sneezed at the grandest part. Kerr began again, louder. The wolf stared at him. By then, someone nearby was laughing too hard to offer a useful opinion.",
+        secret = "He tells the story as a triumph of persistence. He also knows exactly where to pause for the sneeze. The second version gets a better response than the cry ever did.",
+        bestFriend = "Come along, friend. You may provide the sneeze when we tell it. Wait for my finest moment. You will know the one.",
+        favorite = {
+            emote = "CHEER",
+            hint = "An enthusiastic cheer gives his grand delivery the response he had hoped for.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are! Good lungs today? I may need someone to appreciate a magnificent cry without sneezing through the middle of it.", tone = "[booming] [playful]" }, "Come along, friend. Plenty of road for a story, and I know exactly which one you were hoping I would leave out." },
+            idle = { { "I gave the cry. The wolf sneezed. I gave it again, louder. He stared at me as if to say he had heard the first one. A difficult audience, but I refused to waste the performance.", tone = "[animated] [amused]" }, "Let a wolf finish resting before you demand another stretch of road. You would expect the same courtesy if you had been carrying me.", "Jhash has heard that story. You are welcome to laugh at a different part. I like to know which parts are improving." },
+            befriended = { { "With me, friend! A strong voice is good company. Someone who knows when to laugh is better company still. You have managed both.", tone = "[hearty] [warm]" } },
+            poke = { "Yes? If you are preparing a sneeze, give me time to reach the finest part.", "I heard you. No need to outshout me unless we have agreed to make a contest of it." },
+            cheerAlong = { { "There! That is the response the first cry deserved. We shall call this the official version and mention the wolf only if someone asks.", tone = "[booming] [delighted]" } },
+            mount = { "Give your companion a moment to settle before demanding speed. A grand departure can wait for everyone to be ready." },
+            rest = { "A useful pause. Stretch, drink, and let the animals have their turn. The road will still be there afterward." },
+            group = { "Keep a pace the whole company can manage. We can arrive with a fine shout once everyone is actually present." },
+            laughAlong = { "That was the part, yes! You have a good ear for the moment everything becomes less magnificent." },
+            newFriend = { "Ask them for a story of their own. Mine improves with company, but it need not occupy every stretch of road." },
+            waveBack = { "Safe road, friend! Save some breath for the greeting when you return." },
+        },
+    },
+
     -- Jorin Croge, Bandarion Keep supply organizer, adult Forsaken male129988/M2 959310, Horde Friendly normal. Native Light/quartermaster-like dialogue and full91316/keep-introduction context reviewed. Contrasting coat patch original; no official quartermaster rank, body treatment, free supplies or completed restoration.
     -- Research: docs/research/jorins-patch-and-talaanis-doorstep.md
     [246393] = {

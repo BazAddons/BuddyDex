@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Jormund Stonebrow and Raider Kerr: full Dwarf and Orc profiles, thirty personal lines queued.
+- Preserve Jormund?s native teaching voice and add a named Durotar raider without importing later-expansion quests or services.
+
 - Add Jorin Croge and Talaanis Shadowsong: full Forsaken and Skyborne profiles, thirty personal lines queued.
 - Research Bandarion Keep supplies, the cult investigation, family loss and both island departure routes; retain character-specific progress and ordinary eligibility.
 
@@ -724,4 +727,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **947 fully written NPC profiles**: 454 have initial signature recordings, and four hundred ninety-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **949 fully written NPC profiles**: 454 have initial signature recordings, and four hundred ninety-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
