@@ -5173,5 +5173,12 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult horde identity; Seven current goods and repair service, no personal chain found; original crooked arrow drawing; no Scout sighting claimed",
     "research_notes": "docs/research/athridas-farewell-and-borands-sign.md"
+  },
+  {
+    "npc_id": 2682,
+    "name": "Fradd Swiftgear",
+    "zone": "Wetlands",
+    "source": "Reviewed adult unverified identity; Current adult Gnome identity, Wetlands pin and11 goods; original knot-only gift; no current reaction icon; no Scout sighting claimed",
+    "research_notes": "docs/research/fradds-knot-and-rarer-race-review.md"
   }
 ]

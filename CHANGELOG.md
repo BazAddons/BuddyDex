@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Fradd Swiftgear: a full Gnome engineering-supplies profile, fifteen personal lines queued.
+- Expand the reviewed external roster for a less represented race; keep missing public faction evidence unverified and retain live eligibility checks.
+
 - Add Athridas Bearmantle and Borand: full Night Elf and Orc profiles, thirty personal lines queued.
 - Research the full Dolanaar rescue chain and Sun Rock Retreat bowyer; preserve ordinary eligibility and character-specific progress.
 

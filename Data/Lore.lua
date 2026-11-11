@@ -41,6 +41,37 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Fradd Swiftgear, Wetlands Engineering Supplies, adult Gnome male3482/M2 900914, packed7:0. Current location and11 stock goods, no reaction icon or personal quests/dialogue found. Public access stays unverified; native checks decide. Knot-only gift original, not a new item/puzzle or engineering lesson.
+    -- Research: docs/research/fradds-knot-and-rarer-race-review.md
+    [2682] = {
+        quote = "Nothing inside? Excellent. Then the knot was the whole gift. I was wondering why you had wrapped so little with such care. Now pass me the loose end; I want to see how you began.",
+        likes = { "A knot with a discoverable beginning", "A useful part described accurately", "A puzzle shared without a deadline" },
+        dislikes = { "Pulling harder instead of looking", "A perfectly good cord cut in impatience", "Being told the puzzle is taking too long" },
+        gossip = "A friend gave Fradd a knotted cord with no parcel inside. He was delighted to learn that untying it was the entire point.",
+        bio = "Fradd Swiftgear sells engineering supplies in the Wetlands. His goods include tools, parchment, ink and parts. Away from a customer's urgent request, he enjoys a knotted cord that asks for patience rather than a purchase.",
+        backstory = "A friend handed him a carefully knotted cord. Fradd worked it loose, then asked what it had been wrapped around. Nothing, they said; the knot was the gift. He turned the cord over, pleased to have been given a puzzle instead of another hurried request.",
+        secret = "He keeps the cord loose for the next visit. His friend can tie it differently, and he can enjoy discovering how it begins without needing a grander reason to spend the time.",
+        bestFriend = "There you are, friend. A new knot? Good. Sit beside me. You may tell me how your day went while I work out what you have done with this one.",
+        favorite = {
+            emote = "NOD",
+            hint = "A thoughtful nod shares his satisfaction when the beginning of a troublesome knot finally becomes clear.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "Welcome back, friend. Have you brought another knot? There is no hurry. I would enjoy hearing about your day while I discover which end you began with.", tone = "[curious] [warm]" }, "There you are. A part you need, or a puzzle that needs no explanation beyond having a little time together?" },
+            idle = { { "Nothing inside, they said. The knot was the gift. I had been wondering why such a small parcel required so much care. It was rather pleasant to discover there was no parcel at all.", tone = "[dry] [chuckling]" }, "Pulling harder is an attractive answer when you have stopped looking. The cord usually has a less dramatic opinion of what ought to happen next.", "I keep it loose between visits. My friend may tie it differently next time. A familiar cord can still supply a question I have not answered." },
+            befriended = { { "Come beside me, friend. I like that we can share a little patience without having to pretend it is an urgent task. Tell me how you have been.", tone = "[sincere] [welcoming]" } },
+            poke = { "Yes? One moment. I think I have found the beginning.", "A moment. I am deciding whether that loop is the difficulty or the way through it." },
+            gear = { { "Look at the part you actually have before deciding the whole design must be wrong. A clear account of what is there will do more for you than an impressive name for what you hoped it would be.", tone = "[thoughtful] [practical]" } },
+            quest = { "Hear what is being asked before hurrying to finish it. A great deal of pulling can leave the important part just as tangled as before." },
+            bagsFull = { "Take a moment to arrange the load. Pressing harder is not the same as discovering where everything can go." },
+            newFriend = { "Let them finish explaining. We may find the useful beginning in the part they have not reached yet." },
+            rest = { "A little patience, and no deadline. That seems a perfectly satisfactory use of a pause." },
+            thanked = { "You are welcome. I am glad the useful part became clear. It is a pleasant result after a little careful looking." },
+            group = { "One account at a time. Several people pulling at different ends can make a simple difficulty rather more elaborate." },
+        },
+    },
+
     -- Athridas Bearmantle, Dolanaar, adult Night Elf male1896/M2 974343, Alliance Friendly normal. Full475/476/483/486 chain: Gaerolas, endangered sleeping druids, relic preparation and Ursal. Quiet extra farewell original; no Broll kinship, later burning, instant ritual completion or companion magic.
     -- Research: docs/research/athridas-farewell-and-borands-sign.md
     [2078] = {

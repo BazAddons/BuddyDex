@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Fradd Swiftgear: a full Gnome engineering-supplies profile, fifteen personal lines queued.
+- Expand the reviewed external roster for a less represented race; keep missing public faction evidence unverified and retain live eligibility checks.
+
 - Add Athridas Bearmantle and Borand: full Night Elf and Orc profiles, thirty personal lines queued.
 - Research the full Dolanaar rescue chain and Sun Rock Retreat bowyer; preserve ordinary eligibility and character-specific progress.
 
@@ -718,4 +721,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **944 fully written NPC profiles**: 454 have initial signature recordings, and four hundred ninety new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **945 fully written NPC profiles**: 454 have initial signature recordings, and four hundred ninety-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

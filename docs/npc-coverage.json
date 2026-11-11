@@ -4,13 +4,13 @@
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
     "alliance": 408,
-    "unverified": 183,
+    "unverified": 184,
     "horde": 405
   },
   "npc_race_counts": {
     "1": 168,
     "3": 97,
-    "7": 62,
+    "7": 63,
     "2": 105,
     "5": 104,
     "4": 93,
@@ -29,7 +29,7 @@
     "Loch Modan": 8,
     "Duskwood": 4,
     "Dun Morogh": 26,
-    "Wetlands": 12,
+    "Wetlands": 13,
     "Ironforge": 67,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 58,
@@ -2897,6 +2897,17 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2496"
+    },
+    {
+      "npc_id": 2682,
+      "name": "Fradd Swiftgear",
+      "zone": "Wetlands",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "No current reaction icon; historical Alliance reference only, native live checks remain decisive",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2682"
     },
     {
       "npc_id": 2695,
@@ -12125,6 +12136,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 944,
-  "awaiting_signature_audio_profiles": 490
+  "authored_profiles": 945,
+  "awaiting_signature_audio_profiles": 491
 }

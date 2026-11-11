@@ -4844,6 +4844,13 @@
       "zone": "Stonetalon Mountains",
       "route": "Sun Rock Retreat bowyer",
       "reason": "Seven current goods and repair service, no personal chain found; original crooked arrow drawing; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2682,
+      "name": "Fradd Swiftgear",
+      "zone": "Wetlands",
+      "route": "Reviewed external engineering-supplies merchant",
+      "reason": "Current adult Gnome identity, Wetlands pin and11 goods; original knot-only gift; no current reaction icon; fifteen personal lines queued without synthesis"
     }
   ]
 }
