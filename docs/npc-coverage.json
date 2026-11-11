@@ -5,7 +5,7 @@
   "faction_counts": {
     "alliance": 372,
     "unverified": 180,
-    "horde": 356
+    "horde": 358
   },
   "npc_race_counts": {
     "1": 168,
@@ -13,10 +13,10 @@
     "7": 61,
     "2": 93,
     "5": 91,
-    "4": 77,
+    "4": 78,
     "8": 61,
     "9": 62,
-    "6": 95,
+    "6": 96,
     "96": 28,
     "95": 45
   },
@@ -44,12 +44,12 @@
     "Mulgore": 26,
     "Thunder Bluff": 42,
     "Durotar": 52,
-    "The Barrens": 47,
+    "The Barrens": 48,
     "Stonetalon Mountains": 15,
     "Darnassus": 16,
     "Burning Steppes": 1,
     "Ashenvale": 15,
-    "Thousand Needles": 11,
+    "Thousand Needles": 12,
     "Dustwallow Marsh": 2,
     "Desolace": 13,
     "Tanaris": 9,
@@ -5720,6 +5720,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4631"
     },
     {
+      "npc_id": 4722,
+      "name": "Rau Cliffrunner",
+      "zone": "Thousand Needles",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4722"
+    },
+    {
       "npc_id": 4753,
       "name": "Jartsam",
       "zone": "Darnassus",
@@ -6625,6 +6638,19 @@
       "reaction_evidence": "Public reaction absent; actual Scout Horde/reaction5 adult Valley/Den identity; female Troll Jen'shan and four male Orc models individually checked; normal live gates retained",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5765",
       "audio_status": "All personal lines queued; no synthesis until user confirms billing fixed"
+    },
+    {
+      "npc_id": 5768,
+      "name": "Ebru",
+      "zone": "The Barrens",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5768"
     },
     {
       "npc_id": 5770,
@@ -11046,6 +11072,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 861,
-  "awaiting_signature_audio_profiles": 407
+  "authored_profiles": 863,
+  "awaiting_signature_audio_profiles": 409
 }

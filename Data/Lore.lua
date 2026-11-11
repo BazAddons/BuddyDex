@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ebru, Disciple of Naralex, Barrens/Wailing Caverns. Adult Night Elf female4290/M2 921844, current Horde Friendly. Full1487: eradicate deviates as first restoration step. Careful pack beside shoot original; noncanon male RPG/retail relocation excluded.
+    -- Research: docs/research/ebrus-shoot-and-raus-kettle.md
+    [5768] = {
+        quote = "The work in the caves is ugly. We do it because we still want living things to have a chance here. Mind that little shoot beside your pack.",
+        likes = { "Courage followed by careful hands", "A little green given room to grow", "Helpers who remember the purpose" },
+        dislikes = { "Corruption mistaken for a new balance", "Naralex's hope dismissed as foolish", "Cruelty enjoyed for its own sake" },
+        gossip = "Ebru can hear a grim account of the caverns and still notice someone move a pack to spare a little plant. She will thank them for both efforts.",
+        bio = "Ebru, a Disciple of Naralex near the Wailing Caverns, seeks the eradication of the deviate creatures. While others work to wake her master, she fights what his nightmare has brought into the caves. She sees that work as a first step toward restoring the Barrens.",
+        backstory = "After a grim report, a visitor moved a pack to spare a green shoot. Ebru thanked them before asking another question. She had needed to see someone remember what the fighting was meant to make possible.",
+        secret = "She remembers that careful movement as clearly as the report. A little ordinary life given room to grow can help her keep hold of the purpose beneath the uglier work.",
+        bestFriend = "Stay beside me, friend. You remember what we are trying to make possible. I am glad not to carry that hope alone today.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She values kindness that helps her hold on to hope without pretending the work is already finished.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. We have difficult work before us, but I am glad to have someone beside me who remembers the living world we want to give a chance.", tone = "[resolute] [warm]" }, "Good to see you. Tell me what you found, and take a moment before you begin. You need not make a grim account sound easier than it was." },
+            idle = { { "They moved the pack without being asked. Just a little room for a green shoot. I had been listening to a grim account of the caves, and suddenly there was the purpose of the work, remembered by careful hands.", tone = "[quietly] [thoughtful]" }, "Some seek to wake Naralex. I seek to rid the caves of the creatures his nightmare has brought there. We have more than one kind of work before us.", "The deviate creatures must be dealt with. I will not pretend otherwise. I also want us to remember why a restored land is worth the effort." },
+            befriended = { { "You have become someone with whom I can share the hope as well as the harder account. Come along, friend. I am glad to have your steadiness beside me, without asking you to call the task finished.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? Give me a moment, and I will hear you.", "What have you noticed? The small useful detail belongs in the account, too." },
+            combatEnd = { { "Look to the company and give the wounded attention. Then take a moment to remember the living things this work is meant to protect. We need to carry that purpose out with us as well.", tone = "[firm] [caring]" } },
+            rest = { "A pause would do us good. Holding on to the purpose does not require us to refuse every moment of rest." },
+            zone = { "Look at what is still living here. We can notice it without pretending the danger has passed." },
+            group = { "Keep one another in sight. We need the courage of the company, and we need everyone to come back with the account." },
+            comforted = { "Thank you. You have left room for the hope without asking me to deny the harder part. I am grateful for that." },
+            thanked = { "You are welcome. I am glad the effort has reached someone willing to carry it farther." },
+            newFriend = { "Another willing helper. Let them hear the purpose clearly before the details of the task swallow it." },
+        },
+    },
+
+    -- Rau Cliffrunner, Freewind Post/Thousand Needles. Adult Tauren male2739/M2 968705, Horde Friendly. Full1195-1197 plus inspected Forever storm branch; no class or ritual reward override. Kettle interrupting an explanation original; no completed relic mystery assumed.
+    -- Research: docs/research/ebrus-shoot-and-raus-kettle.md
+    [4722] = {
+        quote = "The right water can breach that ancient flame. An ordinary kettle usually needs only to be taken off the fire. I am told this distinction deserves practice.",
+        likes = { "Careful preparation before a bold attempt", "A useful question about an old relic", "Tea remembered before the kettle protests" },
+        dislikes = { "A temporary protection trusted forever", "A report dismissed without a look", "A simple task lost beneath an explanation" },
+        gossip = "Rau can give a detailed account of a protected flame. The kettle has occasionally had to interrupt before he remembers the ordinary fire.",
+        bio = "Rau Cliffrunner seeks the Galak's Cloven Hoof from Freewind Post. Zangen Stonehoof helps supply moonwell water to breach its protective flame. Rau's work also draws him into the threat of an elemental storm over Thousand Needles.",
+        backstory = "Explaining the protected flame to a visitor, he was interrupted by a kettle's whistle. The visitor looked at the waiting cups. Rau took the kettle off the fire and admitted that they might begin with the simpler use of water.",
+        secret = "He now puts the second cup where he can see it before beginning a long explanation. He likes having someone there whose company need not wait until every mystery has been discussed.",
+        bestFriend = "Sit with me, friend. We can begin with tea, then consider the mysteries. I am even remembering the first part without assistance.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates a kindly reminder that brings an elaborate explanation back to the ordinary task at hand.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Come along. I have arranged the cups where I can see them. We may still discuss a mystery, but I intend to remember the simpler business before the kettle objects.", tone = "[warm] [wry]" }, "Good to see you. Have you brought a useful report, a question, or a moment in which we might consider something without hurrying it into a conclusion?" },
+            idle = { { "The kettle interrupted my explanation of the flame. My visitor looked at the cups. A useful distinction became apparent: this particular problem required taking something off the fire, rather than a complete account of its protection.", tone = "[thoughtful] [amused]" }, "A protection that works briefly must be understood as brief. A clever preparation can become a poor plan when you forget which part of it will end.", "A relic may promise knowledge without yielding it at the first glance. Bring a useful question, and be prepared to keep looking after the first excitement has passed." },
+            befriended = { { "You have become someone whose presence I am glad to make room for before the explanation begins. Come along, friend. We may consider the difficult questions without overlooking the simple pleasure of having company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is that a question, or has the kettle sent another representative?", "A moment. I should like to understand which part you have actually observed." },
+            learned = { { "Good. Keep the limit beside the explanation. Understanding how a thing works includes remembering where it stops working, however much more convenient an unlimited answer would have been.", tone = "[steady] [instructive]" } },
+            rest = { "A pause would be welcome. We can attend to the cups before beginning another account of the more remarkable uses of water." },
+            quest = { "A useful account. Let us look at what it actually tells us before the possibilities become larger than the evidence." },
+            group = { "Make certain everyone has heard the practical part. An elaborate explanation can leave the simplest necessary step waiting unattended." },
+            thanked = { "You are welcome. I am glad the useful part arrived before I began another explanation." },
+            zone = { "Look at the place around us. Old knowledge may help us ask a question, but we must still attend to what is happening here." },
+            gear = { "Prepare what the task requires, and keep its limits in mind. Confidence does not lengthen a protection that was only meant to last a short while." },
+        },
+    },
+
     -- Baldruc, Gryphon Master, Theramore/Dustwallow. Adult Dwarf male2417/M2 878772, current Alliance Friendly and Flight Master. Individually reviewed external name absent from retained snapshot, not a Scout claim. Long-walk destination anecdote original; later scenario excluded.
     -- Research: docs/research/baldrucs-directions-and-thalons-rhythm.md
     [4321] = {

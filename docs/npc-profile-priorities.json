@@ -4263,6 +4263,20 @@
       "zone": "Desolace",
       "route": "Shadowprey Village wind rider master",
       "reason": "Current named adult retained identity and dock; original shared rhythm; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5768,
+      "name": "Ebru",
+      "zone": "The Barrens",
+      "route": "Wailing Caverns Disciple of Naralex",
+      "reason": "Full1487 and version check; original careful pack beside green shoot; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4722,
+      "name": "Rau Cliffrunner",
+      "zone": "Thousand Needles",
+      "route": "Freewind Post relic and storm investigator",
+      "reason": "Full1195-1197 and inspected Forever storm branch; original kettle interruption; fifteen personal lines queued without synthesis"
     }
   ]
 }

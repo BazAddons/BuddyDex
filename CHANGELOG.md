@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ebru and Rau Cliffrunner: adult regional profiles with thirty personal lines queued.
+- Research the deviate-eradication, Sacred Flame and Forever storm context; document source/version limits and original green-shoot/kettle scenes.
+
 - Add Baldruc and Thalon: adult Dwarf and Tauren regional profiles with thirty personal lines queued.
 - Verify current Theramore and Shadowprey service identities; document source limits and original directions/dock-rhythm scenes.
 

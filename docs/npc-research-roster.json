@@ -4592,5 +4592,19 @@
     "zone": "Desolace",
     "source": "Reviewed adult horde man; Current named adult retained identity and dock; original shared rhythm; no Scout sighting claimed",
     "research_notes": "docs/research/baldrucs-directions-and-thalons-rhythm.md"
+  },
+  {
+    "npc_id": 5768,
+    "name": "Ebru",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde woman; Full1487 and version check; original careful pack beside green shoot; no Scout sighting claimed",
+    "research_notes": "docs/research/ebrus-shoot-and-raus-kettle.md"
+  },
+  {
+    "npc_id": 4722,
+    "name": "Rau Cliffrunner",
+    "zone": "Thousand Needles",
+    "source": "Reviewed adult horde man; Full1195-1197 and inspected Forever storm branch; original kettle interruption; no Scout sighting claimed",
+    "research_notes": "docs/research/ebrus-shoot-and-raus-kettle.md"
   }
 ]
