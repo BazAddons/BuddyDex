@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Edine Sharphorn and Gwennyth Bly'Leggonde: adult Tauren and Night Elf profiles with thirty personal lines queued.
+- Review barber dialogue and the complete beached-creature investigation, including Forever Holy Diver; document original wind-styled hair and walking-shell scenes.
+
 - Add Ozwin Ironsprocket and Vol'jin: adult Gnome and Troll profiles with thirty personal lines queued.
 - Review both harvester paths and the Forever Windshaper welcome; document original safe-position and burden scenes plus historical quest-attribution limits.
 
@@ -522,4 +525,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **814 fully written NPC profiles**: 454 have initial signature recordings, and three hundred sixty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **816 fully written NPC profiles**: 454 have initial signature recordings, and three hundred sixty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

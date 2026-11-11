@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Edine Sharphorn, Thunder Bluff barber. Adult tauren female149025/M2 986648, Horde Friendly. Own grooming gossip and empty related tables; wind-rearranged hair is original.
+    -- Research: docs/research/edines-wind-and-gwennyths-shell.md
+    [277055] = {
+        quote = "The wind has added its own finishing touches. Before you complain, look again. You might prefer what it has done.",
+        likes = { "A client enjoying their own reflection", "A bright idea worn with confidence", "A style with room for the bluff wind" },
+        dislikes = { "A change someone else insisted on", "Every stray strand declared a disaster", "A good suggestion treated as an order" },
+        gossip = "The bluff wind rearranged Edine's careful work. She studied the result and decided the weather had made a useful suggestion.",
+        bio = "Edine Sharphorn is a barber in Thunder Bluff. Her welcome offers cuts, colors, and a broad range of grooming. She enjoys helping someone choose a look they like, while keeping enough humor to survive the wind's opinion of the finished work.",
+        backstory = "She arranged her own hair with considerable care before stepping out onto the bluff. The wind undid part of it. Edine studied the result before fixing anything and discovered she liked one unruly turn better than her original plan.",
+        secret = "She is fond of a look that feels comfortable after its first encounter with the world. A friend may catch her leaving one stubborn strand alone and know she has already considered correcting it.",
+        bestFriend = "Come along, friend. Let us see what the wind suggests today. You may enjoy the view without keeping every strand in order.",
+        favorite = {
+            emote = "FLEX",
+            hint = "She appreciates someone confidently enjoying the look they chose, without apologizing for being pleased.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Come along. I have heard the wind has several suggestions for us today. We may consider them before deciding which ones deserve to be corrected.", tone = "[warm] [playful]" }, "Good to see you. Tell me how you have been, and whether you have had the chance to enjoy anything simply because it pleased you." },
+            idle = { { "I arranged it carefully. The wind rearranged it immediately. I looked before fixing anything and discovered one turn I preferred. A suggestion need not be polite to be worth considering.", tone = "[confident] [amused]" }, "I can make suggestions. You are the one who must be pleased to see the result looking back at you.", "Leave a little room for the day to happen. If every stray strand is a defeat, the bluff wind will have you exhausted before noon." },
+            befriended = { { "You have become company with whom I can enjoy a bright idea or a thoroughly windswept result without making either one an examination. Come along, friend. I am glad to see you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the wind offered another correction?", "Go on. I can hear a suggestion without turning it into an instruction." },
+            gear = { { "Move in it, turn, and have another look. You want something that feels like yours after the first moment of admiring it.", tone = "[bright] [encouraging]" } },
+            zone = { "Look around. There may be a color here you would never have thought to put beside the one you already liked." },
+            rest = { "A pause. You may let things fall out of their perfect arrangement while we enjoy a little company." },
+            newFriend = { "Someone new. Let them tell you how they like to be known before arranging an improvement for them." },
+            thanked = { "You are welcome. I am pleased you like the result." },
+            cheerAlong = { "There you are! Enjoy being pleased with yourself for a moment. It need not become an apology." },
+            mail = { "A bit of news. I hope someone has sent you more than a list of things they think you ought to change." },
+        },
+    },
+
+    -- Gwennyth BlyLeggonde, Auberdine. Adult night elf female9551/M2 921844, Alliance Friendly. Full eleven Classic beach quests and Forever87760; walking-shell interruption is original. No Cataclysm death imported.
+    -- Research: docs/research/edines-wind-and-gwennyths-shell.md
+    [10219] = {
+        quote = "The crab walked away with the shell I was discussing. I was pleased to see something on that shore making its own arrangements.",
+        likes = { "A living creature going about its own day", "Patient evidence that leads to useful action", "A friend noticing the small life beside them" },
+        dislikes = { "Cruelty disguised as the use of a beast", "A tidy theory kept after the evidence changes", "A living shore seen only as specimens" },
+        gossip = "Gwennyth once paused a careful explanation when her chosen shell walked away. She followed the little crab with a remarkably pleased expression.",
+        bio = "Gwennyth Bly'Leggonde represents the Temple of the Moon in Auberdine. Her work investigates Darkshore's beached creatures. Reports from Darnassus expose naga domination and cruelty, leading her to seek the beastmistress's rod and end its use.",
+        backstory = "She was discussing a shell when a small crab carried it away. Gwennyth let the explanation stop. Watching it make its own way along the shore seemed worth more attention than keeping the example neatly in place.",
+        secret = "After so many accounts of stranded creatures, she takes pleasure in seeing an ordinary little animal choose where to go. A friend need not bring a discovery to share that moment with her.",
+        bestFriend = "Walk with me, friend. We may notice what is living along the shore without asking it to become an answer for us.",
+        favorite = {
+            emote = "CHEER",
+            hint = "She enjoys a little shared delight when a small living creature makes its own determined progress.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Walk with me a little. You may tell me your news while we notice what is living along the shore, without requiring every small thing to become part of a report.", tone = "[gentle] [welcoming]" }, "Good to see you. Have you noticed anything today that was simply getting on with its own life? I would like to hear about it." },
+            idle = { { "I was explaining the shell when the crab carried it away. I let the explanation stop. There was pleasure in seeing something on that shore make its own decision about where to go.", tone = "[soft] [amused]" }, "The work should lead us toward helping the creatures, not merely toward a more complete description of what has happened to them.", "A useful finding must be allowed to change the question. There is little care in protecting a theory from the very evidence we asked to receive." },
+            befriended = { { "You have become company with whom I can share a small pleasure without waiting for another discovery to justify the visit. Walk with me, friend. I am pleased you came.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has our example decided to leave the discussion again?", "Go on. There is time to hear what you noticed before deciding where it belongs." },
+            quest = { { "A useful piece of work. Keep clear what it has shown, and consider what that knowledge now asks us to do.", tone = "[steady] [appreciative]" } },
+            zone = { "Look around for the small life as well as the great landmarks. A place has more going on than the troubles that brought us to it." },
+            loot = { "Examine it with care. What it can tell us matters, but so does remembering where it came from." },
+            rest = { "A pause. We can watch the shore without requiring another finding from it." },
+            newFriend = { "Someone new. Leave room to hear what they have seen without turning their whole account into our own question." },
+            thanked = { "You are welcome. I am pleased the care has been useful." },
+            group = { "Give each person room to describe what they actually noticed. The smallest observation may matter once the accounts are heard together." },
+        },
+    },
+
     -- Ozwin Ironsprocket, Saldean Farm/Westfall. Adult gnome male148280/M2 900914, Alliance Friendly. Full92909/92910/92911; safe-position diagram is original.
     -- Research: docs/research/ozwins-position-and-voljins-welcome.md
     [253395] = {

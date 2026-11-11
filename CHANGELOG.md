@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Edine Sharphorn and Gwennyth Bly'Leggonde: adult Tauren and Night Elf profiles with thirty personal lines queued.
+- Review barber dialogue and the complete beached-creature investigation, including Forever Holy Diver; document original wind-styled hair and walking-shell scenes.
+
 - Add Ozwin Ironsprocket and Vol'jin: adult Gnome and Troll profiles with thirty personal lines queued.
 - Review both harvester paths and the Forever Windshaper welcome; document original safe-position and burden scenes plus historical quest-attribution limits.
 

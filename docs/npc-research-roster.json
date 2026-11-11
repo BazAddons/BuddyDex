@@ -4263,5 +4263,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult unverified man; Own Windshaper welcome and831 ender discrepancy; original burden and welcome; no Scout sighting claimed",
     "research_notes": "docs/research/ozwins-position-and-voljins-welcome.md"
+  },
+  {
+    "npc_id": 277055,
+    "name": "Edine Sharphorn",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde woman; Own grooming dialogue; original wind-rearranged style; no Scout sighting claimed",
+    "research_notes": "docs/research/edines-wind-and-gwennyths-shell.md"
+  },
+  {
+    "npc_id": 10219,
+    "name": "Gwennyth Bly'Leggonde",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance woman; Full eleven Classic beach quests and87760; original walking-shell interruption; no Scout sighting claimed",
+    "research_notes": "docs/research/edines-wind-and-gwennyths-shell.md"
   }
 ]

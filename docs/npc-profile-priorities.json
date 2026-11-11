@@ -3934,6 +3934,20 @@
       "zone": "Orgrimmar",
       "route": "Darkspear contact in Orgrimmar",
       "reason": "Own Windshaper welcome and831 ender discrepancy; original burden and welcome; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 277055,
+      "name": "Edine Sharphorn",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff barber",
+      "reason": "Own grooming dialogue; original wind-rearranged style; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10219,
+      "name": "Gwennyth Bly'Leggonde",
+      "zone": "Darkshore",
+      "route": "Auberdine Temple investigator",
+      "reason": "Full eleven Classic beach quests and87760; original walking-shell interruption; fifteen personal lines queued without synthesis"
     }
   ]
 }
