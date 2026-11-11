@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Felgur Twocuts and Borgus Steelhand: adult Orc and Dwarf profiles with thirty personal lines queued.
+- Review the full centaur campaign and explicit Steelhand brother relationship; document original pebble-game and concern-wording scenes.
+
 - Add Edine Sharphorn and Gwennyth Bly'Leggonde: adult Tauren and Night Elf profiles with thirty personal lines queued.
 - Review barber dialogue and the complete beached-creature investigation, including Forever Holy Diver; document original wind-styled hair and walking-shell scenes.
 
@@ -525,4 +528,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **816 fully written NPC profiles**: 454 have initial signature recordings, and three hundred sixty-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **818 fully written NPC profiles**: 454 have initial signature recordings, and three hundred sixty-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

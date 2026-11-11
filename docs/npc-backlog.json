@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 816,
-  "written_complete_count": 816,
-  "awaiting_signature_audio_count": 362,
+  "authored_count": 818,
+  "written_complete_count": 818,
+  "awaiting_signature_audio_count": 364,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 364,
+  "remaining_count": 366,
   "completed": [
     {
       "npc_id": 54,
@@ -4835,6 +4835,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 5395,
+      "name": "Felgur Twocuts",
+      "zone": "Desolace",
+      "source": "Reviewed adult horde man; Full1361/1362/1365/1366; original pebble-game opening; no Scout sighting claimed",
+      "research_notes": "docs/research/felgurs-opening-and-borgus-question.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 5412,
       "name": "Gurda Wildmane",
       "zone": "Desolace",
@@ -5739,6 +5751,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 7232,
+      "name": "Borgus Steelhand",
+      "zone": "Stormwind City",
+      "source": "Reviewed adult alliance man; Own curt gossip and97894/982; original concern beneath business wording; no Scout sighting claimed",
+      "research_notes": "docs/research/felgurs-opening-and-borgus-question.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

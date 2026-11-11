@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Felgur Twocuts, Ghost Walker Post. Adult orc male4694/M2 917116, Horde Friendly. Full1361/1362/1365/1366; pebble game is original, centaur policy retained.
+    -- Research: docs/research/felgurs-opening-and-borgus-question.md
+    [5395] = {
+        quote = "You saw the opening and left it there. Why? If you are going to sit across from me, make me reconsider something.",
+        likes = { "An observation that changes the next move", "An opponent taking the opening he left", "A campaign prepared for a long struggle" },
+        dislikes = { "Centaur clans gathering a common strength", "A confident plan without useful intelligence", "A game won because the other player gave up" },
+        gossip = "Felgur leaves a tempting opening in his pebble game. He appears more annoyed when a visitor overlooks it than when they take it.",
+        bio = "Felgur Twocuts gathers intelligence at Ghost Walker Post in Desolace. He works to disrupt the centaur clans before they can unite, targeting Khan Dez'hepah and offering a wider bounty. He expects a long struggle rather than one decisive boast.",
+        backstory = "He arranged a small pebble game while waiting for word. A visitor declined to take an opening, apparently out of respect. Felgur moved the pieces back and asked them to try again. He had wanted a game, not a polite confirmation of his advantage.",
+        secret = "He enjoys the moment another player makes him stop and reconsider. A trusted friend may hear a short, pleased acknowledgment before he begins looking for a reply.",
+        bestFriend = "Sit down, friend. Take the opening if you see it. I would rather have your attention across the game than your courtesy.",
+        favorite = {
+            emote = "NOD",
+            hint = "He values a brief acknowledgment of a well-judged move before the next question of advantage begins.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Sit down. If you see the opening, take it. You have not done me a favor by leaving the same comfortable answer on the table.", tone = "[firm] [challenging]" }, "Good to see you. Tell me what you actually observed before describing what you expect the next move to be." },
+            idle = { { "They left the opening out of respect. I put the pieces back. I had asked for a game, not a polite account of how comfortably I could keep my advantage.", tone = "[dry] [matter-of-fact]" }, "The clans fight each other. I intend to keep their strength divided before they decide to turn it together against us.", "A long campaign will test the plan after the first success. Leave room to learn something you did not know when you began." },
+            befriended = { { "You have become company whose attention I value across the game and beyond it. Sit down, friend. I would hear what you see, especially when it gives me something to reconsider.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? Have you noticed the opening, or merely noticed that I left one?", "Go on. A useful observation can be brief without being incomplete." },
+            quest = { { "Finished. Give the facts clearly. A successful action is worth more when we understand what it has changed for the next one.", tone = "[commanding] [approving]" } },
+            combatEnd = { "Take stock before declaring the matter settled. One success may disrupt the enemy without ending the struggle." },
+            group = { "Know what each person is doing. Strength spent in different directions is not the same as strength brought to bear together." },
+            gear = { "Put it in order before the march. A failure you could have seen in camp is an expensive surprise later." },
+            rest = { "A pause. Sit and look at the position before deciding that another immediate move must improve it." },
+            newFriend = { "Someone new. Hear the account of what they have done before accepting their estimate of what they can do next." },
+            thanked = { "You are welcome. Keep your attention on what the help has made possible." },
+        },
+    },
+
+    -- Borgus Steelhand, Stormwind weapon crafter. Adult dwarf male6007/M2 878772, Alliance Friendly. Own curt gossip and97894/982 checked; brother relationship explicit. Concern wording is original.
+    -- Research: docs/research/felgurs-opening-and-borgus-question.md
+    [7232] = {
+        quote = "Tell me my brother is well, then you may tell me how trade is going. I am quite capable of being pleased in that order.",
+        likes = { "A fair deal plainly stated", "News that Gorbold is looking after himself", "A visitor getting to the important part" },
+        dislikes = { "A dinner knife presented as fine weapon work", "No word from his brother for too long", "Concern hidden under a business question" },
+        gossip = "Borgus may begin by asking after business in Auberdine. Listen to which answer he waits for: whether Gorbold is all right.",
+        bio = "Borgus Steelhand is a weapon crafter in Stormwind. His working manner can be curt, but he speaks proudly of fair Steelhand dealings. When news stops arriving from Gorbold's new stall in Auberdine, he asks a traveler to check on his brother.",
+        backstory = "Gorbold's merchant opportunity sounded profitable, and Borgus was pleased for him. Then weeks passed without news. The prospects of trade became less interesting than a plain account of how his brother was.",
+        secret = "He means to ask whether Gorbold is well, but often asks about business instead. A friend can answer the concern without requiring him to explain the awkward wording.",
+        bestFriend = "Come along, friend. You may tell me how you have been before we discuss what either of us has accomplished today.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "He appreciates someone hearing the worry beneath the impatient question and answering it with care.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. Tell me how you have been before I make the mistake of asking what useful thing brings you here. A visit can be reason enough.", tone = "[brisk] [warm]" }, "Good to see you. If there is news from Auberdine, begin with how my brother is doing. The state of trade may wait its turn." },
+            idle = { { "I ask about the stall when I mean to ask whether Gorbold is well. A thorough answer about the business can leave the important part exactly where it was before I spoke.", tone = "[gruff] [reflective]" }, "A fair deal should not require a magnificent explanation. Say what the work is and what you expect for it.", "He had a good opportunity. I was pleased for him. That did not stop the lack of news becoming rather more interesting than how much coin the opportunity might bring." },
+            befriended = { { "You have become company I am glad to see without first asking what business requires it. Come along, friend. I can leave the next piece of work long enough to hear how you are.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Give me a moment to hear the question before I decide it must concern the work.", "Go on. If it is important to you, there is a plain way to begin." },
+            gear = { { "Have a proper look at the work before praising its appearance. A weapon should answer to what it must do, not merely to the name someone has given it.", tone = "[firm] [instructive]" } },
+            mail = { "A letter. I hope it says how the sender is, before using the whole page for everything that has kept them busy." },
+            learned = { "Good. Carry the lesson into the next attempt. Understanding shows in what your hands do when the explanation has finished." },
+            quest = { "A job finished. Remember to give the person waiting the answer they asked for, as well as everything you had to do along the way." },
+            rest = { "A pause. You may sit without finding another reason for me to put the work aside." },
+            newFriend = { "Someone new. Let them finish the introduction before deciding how much of your time it ought to require." },
+            thanked = { "You are welcome. I am pleased the care reached the part that mattered." },
+        },
+    },
+
     -- Edine Sharphorn, Thunder Bluff barber. Adult tauren female149025/M2 986648, Horde Friendly. Own grooming gossip and empty related tables; wind-rearranged hair is original.
     -- Research: docs/research/edines-wind-and-gwennyths-shell.md
     [277055] = {

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Felgur Twocuts and Borgus Steelhand: adult Orc and Dwarf profiles with thirty personal lines queued.
+- Review the full centaur campaign and explicit Steelhand brother relationship; document original pebble-game and concern-wording scenes.
+
 - Add Edine Sharphorn and Gwennyth Bly'Leggonde: adult Tauren and Night Elf profiles with thirty personal lines queued.
 - Review barber dialogue and the complete beached-creature investigation, including Forever Holy Diver; document original wind-styled hair and walking-shell scenes.
 

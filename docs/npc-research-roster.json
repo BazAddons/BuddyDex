@@ -4277,5 +4277,19 @@
     "zone": "Darkshore",
     "source": "Reviewed adult alliance woman; Full eleven Classic beach quests and87760; original walking-shell interruption; no Scout sighting claimed",
     "research_notes": "docs/research/edines-wind-and-gwennyths-shell.md"
+  },
+  {
+    "npc_id": 5395,
+    "name": "Felgur Twocuts",
+    "zone": "Desolace",
+    "source": "Reviewed adult horde man; Full1361/1362/1365/1366; original pebble-game opening; no Scout sighting claimed",
+    "research_notes": "docs/research/felgurs-opening-and-borgus-question.md"
+  },
+  {
+    "npc_id": 7232,
+    "name": "Borgus Steelhand",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance man; Own curt gossip and97894/982; original concern beneath business wording; no Scout sighting claimed",
+    "research_notes": "docs/research/felgurs-opening-and-borgus-question.md"
   }
 ]
