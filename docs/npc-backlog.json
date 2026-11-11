@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 965,
-  "written_complete_count": 965,
-  "awaiting_signature_audio_count": 511,
+  "authored_count": 967,
+  "written_complete_count": 967,
+  "awaiting_signature_audio_count": 513,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 513,
+  "remaining_count": 515,
   "completed": [
     {
       "npc_id": 54,
@@ -6632,6 +6632,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 7009,
+      "name": "Arantir",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed adult alliance identity; Current Elite identity and full historical rogue sequence with current2358 availability caveat; original spoon click; no Scout sighting claimed",
+      "research_notes": "docs/research/arantirs-spoon-and-anders-gate.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 7089,
       "name": "Mooranta",
       "zone": "Thunder Bluff",
@@ -8621,6 +8633,18 @@
       "zone": "Tirisfal Glades",
       "source": "Reviewed adult horde identity; Native Light and supply dialogue, complete repairs quest and keep introduction; original contrasting coat patch; no Scout sighting claimed",
       "research_notes": "docs/research/jorins-patch-and-talaanis-doorstep.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 246394,
+      "name": "Ander Solliden",
+      "zone": "Tirisfal Glades",
+      "source": "Reviewed adult horde identity; All native farm/grief dialogue and full keep introduction; original squeaky gate memory; no Scout sighting claimed",
+      "research_notes": "docs/research/arantirs-spoon-and-anders-gate.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

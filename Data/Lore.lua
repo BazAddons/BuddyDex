@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Arantir, The Hand of Chaos, Lakeshire Redridge, adult Night Elf male5768/M2 974343, Alliance Friendly Elite45. Full historical2358 and linked2205/2300/2281/2282 context reviewed; current2358 API404 so no live quest offer promised. Spoon-clink demonstration original; no Ravenholdt rank, free tea, stealth buff or Legion events.
+    -- Research: docs/research/arantirs-spoon-and-anders-gate.md
+    [7009] = {
+        quote = "One spoon. One small click. I shall add it to the lesson on unnecessary equipment. You may enjoy your triumph quietly while I reconsider the demonstration.",
+        likes = { "A detail checked before the attempt", "Tea with company worth keeping", "A friend who notices the smallest sound" },
+        dislikes = { "A careless sound at the wrong moment", "A boast made before the result", "Being reminded of one very small spoon" },
+        gossip = "Arantir demonstrated a silent approach while carrying tea. His friend heard the spoon. He is revising the equipment requirements.",
+        bio = "Arantir, the Hand of Chaos, keeps a quiet presence by Lakeshire. His old Ravenholdt business and journeys as a young rogue leave room for a dry observation about preparation, particularly when one small detail announces itself.",
+        backstory = "He approached a friend without a footstep while carrying a cup of tea. The spoon clicked against the rim. His friend looked up at once. Arantir considered the result, then delivered a brief account of why the spoon had been unnecessary.",
+        secret = "He sometimes lets the spoon announce a visit to that friend. The familiar look of triumph has become a welcome part of the meeting. He need not explain the change in procedure.",
+        bestFriend = "There you are, friend. You heard the spoon, I assume. Keep your small victory. I should like to hear what else you noticed along the way.",
+        favorite = {
+            emote = "WINK",
+            hint = "A discreet wink acknowledges the small detail he would prefer you to notice without announcing it.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "You heard the spoon, I take it. A very small announcement. I shall allow you the satisfaction while you tell me what else has caught your attention.", tone = "[low] [wry]" }, "There you are, friend. Come beside me. A clear account will be welcome, particularly if it begins with what you actually observed." },
+            idle = { { "No footstep. A careful approach. Then the spoon touched the rim. My friend looked up at once. I gave a short explanation of unnecessary equipment. They appeared to enjoy that part of the lesson.", tone = "[dry] [amused]" }, "Examine the small detail before deciding the preparation is complete. An unnecessary object has a way of becoming the most noticeable part of the attempt.", "A long journey gives you time to consider what you should have brought, and rather more time to consider what you should have left behind." },
+            befriended = { { "Come along, friend. You notice the detail and know how much satisfaction to take from it. I find your company worth the occasional small announcement.", tone = "[measured] [warm]" } },
+            poke = { "Yes? Another detail for the revised account? I am prepared to hear it.", "A moment. I am deciding whether the spoon requires any further explanation." },
+            newFriend = { { "Give them room to speak. The first useful detail may arrive after the account they prepared for a stranger.", tone = "[quietly] [observant]" } },
+            gear = { "Consider what each piece contributes to the task. An impressive collection may contain one object whose contribution is entirely unwanted." },
+            quest = { "Learn what you can before committing to the attempt. An assumption made at the beginning can become expensive to correct at the end." },
+            rest = { "A little time with company is agreeable. You may set the spoon down wherever it is least likely to demand attention." },
+            group = { "Make certain each person understands the plan. A quiet assumption can cause rather more trouble than a clear question." },
+            thanked = { "You are welcome. I appreciate knowing which part proved useful." },
+            laughAlong = { "Yes. One small click. I see that the account has lost none of its appeal." },
+        },
+    },
+
+    -- Ander Solliden, Lookout, Bandarion Keep Tirisfal, adult Forsaken male129990/M2 959310, Horde Friendly normal20. All native farm/grief/defense dialogue and91282/91285/91294 tour context reviewed. Squeaky gate and imitated whistle original; no named relative, cured undeath/grief or restored farm.
+    -- Research: docs/research/arantirs-spoon-and-anders-gate.md
+    [246394] = {
+        quote = "There was a gate on the farm that answered every push with the same squeak. I once tried to answer it with a whistle. I am glad I can still remember something as ordinary as that.",
+        likes = { "A watch kept with attention", "An ordinary memory told in company", "A friend who leaves room to answer" },
+        dislikes = { "Familiar dead treated as faceless targets", "A warning dismissed without looking", "Being hurried past a painful memory" },
+        gossip = "Ander remembers the old farm's dangers and its ordinary days. A friend once asked about the gate. The answer caught him smiling.",
+        bio = "Ander Solliden keeps watch at Bandarion Keep. A Forsaken who once lived nearby, he recognizes some mindless thralls as former friends and family. The work hurts, but his memory of them also gives him purpose.",
+        backstory = "A friend asked for an ordinary memory of the farm. He recalled a gate with a particular squeak, and how he had once tried to answer it with a whistle. He found himself smiling at the recollection before he expected to.",
+        secret = "He values being asked about a life that held chores and small absurdities as well as loss. The gate story is a little room in which to remember more of it, with someone willing to listen.",
+        bestFriend = "Sit beside me, friend. Ask about the gate again. I remembered another part, and I would like to hear what the story brings to your mind.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "Quiet comfort gives him room to speak without requiring a happier ending than he can honestly offer.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "A familiar face. Welcome, friend. There is room beside me. If you have a little time, I remembered another part of the gate story.", tone = "[raspy] [gentle]" }, "There you are. How has the road been? Tell me what you noticed. A clear account is welcome, and so is a little company." },
+            idle = { { "My friend asked for an ordinary memory of the farm. I remembered a gate that squeaked, and trying to answer it with a whistle. I had not expected that to be the part of the day I would find myself smiling about.", tone = "[reflective] [softly]" }, "Some faces are harder to see among the mindless than a stranger could know. I would rather bear that recognition myself. It still hurts.", "There were ordinary days as well. Chores, small jokes, a gate making the same complaint. I appreciate having someone willing to hear about those too." },
+            befriended = { { "Stay beside me, friend. You have made room for the account I can give, including the quiet parts. I am glad to have your company on the watch.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? Have you seen something, or would you like to hear the rest?", "A moment. I was remembering the sound of that gate. A very particular complaint." },
+            comforted = { { "Thank you. You need not find an answer that makes the pain disappear. It helps to have someone stay and hear what I remember.", tone = "[raspy] [grateful]" } },
+            quest = { "Tell us what you actually saw. A warning is easier to act on when the account leaves room for the things still uncertain." },
+            group = { "Keep an eye on one another. If someone falls behind, make certain you know why before carrying on." },
+            rest = { "A little time sitting together would be welcome. We can let the story take the time it needs." },
+            newFriend = { "Ask what they remember of an ordinary day. There may be more to the person than the hardest part of their account." },
+            thanked = { "You are welcome. I am glad the help reached someone who needed it." },
+            combatEnd = { "Stay attentive a moment longer. Then we can make certain everyone who came with us is still accounted for." },
+        },
+    },
+
     -- Herbalist Pomeroy, Elwynn cottage near Stormwind/Northshire, adult Human female3269/M2 1000764, Alliance Friendly normal trainer. Five current lessons and full97921 camping context; no own captured gossip. Leaf caught in hair after a walk original; no Officer kinship, medicinal cure, new harvesting effect or free candle.
     -- Research: docs/research/pomeroys-leaf-and-snangs-spools.md
     [1218] = {

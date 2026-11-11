@@ -4991,6 +4991,20 @@
       "zone": "Orgrimmar",
       "route": "Journeyman tailor in the Drag",
       "reason": "Three native greetings, Magar referral and complete96102/Brakk camping context; original empty spool race; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 7009,
+      "name": "Arantir",
+      "zone": "Redridge Mountains",
+      "route": "Hand of Chaos at Lakeshire",
+      "reason": "Current Elite identity and full historical rogue sequence with current2358 availability caveat; original spoon click; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 246394,
+      "name": "Ander Solliden",
+      "zone": "Tirisfal Glades",
+      "route": "Bandarion Keep lookout",
+      "reason": "All native farm/grief dialogue and full keep introduction; original squeaky gate memory; fifteen personal lines queued without synthesis"
     }
   ]
 }

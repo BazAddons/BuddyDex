@@ -5320,5 +5320,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde identity; Three native greetings, Magar referral and complete96102/Brakk camping context; original empty spool race; no Scout sighting claimed",
     "research_notes": "docs/research/pomeroys-leaf-and-snangs-spools.md"
+  },
+  {
+    "npc_id": 7009,
+    "name": "Arantir",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed adult alliance identity; Current Elite identity and full historical rogue sequence with current2358 availability caveat; original spoon click; no Scout sighting claimed",
+    "research_notes": "docs/research/arantirs-spoon-and-anders-gate.md"
+  },
+  {
+    "npc_id": 246394,
+    "name": "Ander Solliden",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; All native farm/grief dialogue and full keep introduction; original squeaky gate memory; no Scout sighting claimed",
+    "research_notes": "docs/research/arantirs-spoon-and-anders-gate.md"
   }
 ]
