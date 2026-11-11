@@ -1,0 +1,42 @@
+# Kitta's lamp and Vahgruk's kite
+
+Researched/written November 11, 2026. Current source cache `C:/Users/brett/BuddyDex-builds/candidates-1007`. One Elwynn teacher and one Burning Steppes flight contact. No audio synthesis during the user's billing hold.
+
+## Current adult identities
+
+- [Kitta Firewind11072](https://forever.warcraftdb.com/api/data/node/npc/11072): Artisan Enchanter, normal44 Human humanoid, current Alliance-icon Friendly, Trainer, Elwynn64.95,70.70/Tower of Azora. Adult female display10610/M2 1000764, packed10610:1:1, approved `human-female` / `PlKpB8vhnGrFk9fhJGWb`. Standard adult body and established teaching role, single catalog ID/no ambiguity flag. Map-based Brackwell labeling on a secondary page is not substituted for her tower placement established by native greeting and quest objective.
+- [Vahgruk13177](https://forever.warcraftdb.com/api/data/node/npc/13177): Wind Rider Master, **Elite55**, Orc humanoid, current Horde-icon Friendly. Burning Steppes65.46,24.37/Flame Crest. Adult male display1652/M2 917116, packed1652:2:0, approved `orc-male` / `SsUXUYPOaoD5XMe36mlU`. Adult body and professional role, singleton catalog identity. Current node and retained catalog both classify Elite; do not normalize him to an ordinary NPC or use later retail levels.
+
+Neither exact ID was found in the inspected installed Scout file. Public Friendly evidence supports coverage while live non-attackability/reaction/adult/name checks remain authoritative. No faction exception: a historical comment describing a neutral outpost or non-aggression does not establish Alliance Friendly friendship access. No skill requirement for friendship. Per-character saved progress unchanged.
+
+## Kitta: real instruction and practical investigation
+
+All own current starts/ends/sells/teaches responses read: starts91753, ends/sells0, **55 teaching rows across50+5 pages**, all IDs/names read. They include weapon, boot, bracer, chest, cloak, glove and shield enchants, three Enchanting rank records, four wand lessons, Enchanted Lute and three runed rods. No exact live skill cap, fee, recipe availability beyond the observed rows or friendship bonus is promised.
+
+Four exact installed own gossip entries read: tower greeting, readiness refusal, praise of advancing skill and referral to **Annora in Uldaman** for the final instructor. These support an exacting teacher who recognizes progress and further expertise. Refusal to train an unready player does not refuse ordinary friendship; her Annora referral does not give Kitta that person's history. No own generated quest-ID block or restricted Compendium starter/ender link was found, so the current quest/text remain the stronger task evidence.
+
+Read full [current91753 An Enchanting Lesson](https://forever.warcraftdb.com/api/data/node/quest/91753), installed accept/completion and [published Forever objective/description/progress/completion](https://www.wowhead.com/forever/quest=91753/an-enchanting-lesson). Kitta pairs academic rigor with practical inquiry into simple kobold enchantments; the task gathers three Luminous Residue from disenchanting Crude Wax Effigies taken from Kobold Geomancers. Progress asks what the studies revealed; completion reinforces the connection between theory and practice. The installed completion contains a captured player name, which is not a new NPC or lore fact. It is a native task, not a free enchant or friendship crafting lesson. No unseen effigy narrative or magical lamp recipe is invented.
+
+Primary [Classic11072](https://classicdb.ch/?npc=11072), downloaded to cache, has teaching/comment/screenshot lists, no personal quest chain;91753 is a Forever addition rather than a missing Classic chain. Indexed [historical atlas](https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/connected/wowatlas/RegionalIndices_hr.pdf) and profession references place her on the tower's top floor. Atlas evidence is an indexed excerpt, not a rendered/full book read. Speculation about her name's real-world musical origin is not biography. No supported personal earlier novel/comic/book passage was identified in reviewed leads; no exhaustive absence claimed.
+
+## Vahgruk: actual flight role and version boundaries
+
+All four current starts/ends/sells/teaches responses empty. One installed own greeting asks the traveler's flight destination. No own generated quest-ID block or restricted Compendium task reference, and no QuestText personal-name match; no invented personal quest chain. Primary [Classic13177](https://classicdb.ch/?npc=13177), downloaded, has comment/screenshot lists and no personal quest list. Direct Forever NPC opening timed out, not counted as a read full body.
+
+Indexed [Vahgruk biography](https://warcraft.wiki.gg/wiki/Vahgruk) and [historical atlas](https://ptgmedia.pearsoncmg.com/imprint_downloads/brady/connected/wowatlas/RegionalIndices_hr.pdf) corroborate Orc male, flight role and Flame Crest. The atlas's placement beside the cave supports locality, not ownership of the cave or a family relationship with nearby residents. Indexed modern level increases, New Kargath/Bogpaddle/Chiselgrip paths and later Flame Crest military history are excluded. No exact available route, fare, flight speed, safe-travel guarantee or free passage is claimed. No relevant personal pre-Cataclysm literary passage was established in checked leads.
+
+## Original writing and rewards
+
+Kitta's friend shading an ordinary lamp, reduced glare and her acknowledgment of a useful observation are original. This expresses her native respect for practical inquiry without making the friend her canonical teacher or inventing a new enchantment. No magical lamp, vision buff, live prop adjustment, free recipe or skill gain is created. Favorite PRAISE, supported `learned` signature.
+
+Vahgruk's small paper kite, brief rise/landing and friend cheering an absurdly modest new route are original. It is a private anecdote, not a kite item, actual taxi route, flying mount, minigame or model animation. No passenger actually buys passage on a kite. Favorite CHEER, supported `cheerAlong` signature. His ordinary profession remains distinct from the joke.
+
+Both contain quote, three likes/dislikes, all five lore pages, favorite hint and fifteen supported personal lines. Existing tiers unlock personality/lore and normal companion company. Kitta retains normal100/300 Acquaintance/Buddy thresholds; Vahgruk retains **Elite150/450**. Four hidden delivery-tag pairs each are prepared with approved voices, all thirty lines queued offline, both `written_complete_audio_pending`.
+
+## Validation and delivery
+
+Main/Scout smoke passes with zero load errors/failures, all lore/page/line budgets and fresh/existing character roster isolation. Focused actual-addon harness `C:/Users/brett/AppData/Local/Temp/buddydex-kitta-vahgruk-1007.py` passes Kitta on Alliance and Vahgruk on Horde in fresh nonattackable reaction5 sessions. Adult identity, approved live/declared voices, fifteen supported unmapped personal lines each, four hidden tones each, valid favorites, attackable/reaction3 rejection, HELLO25 plus favorite150=175,Kitta99/100 and299/300 normal thresholds plus Vahgruk149/150 and449/450 Elite thresholds, companion rejection one point before Buddy and text-only welcome at the correct300/450 threshold pass. Generic guards excluded. Mocked sessions do not prove live sightings, profession services or quest completion. No runtime or saved-variable changes.
+
+1007 fully written profiles /454 with initial signature recordings /553 written-complete audio-pending. Kitta11072 and Vahgruk13177 add30 personal jobs/3700 tagged input characters in approved human-female and orc-male. Full offline audit16760 missing jobs/1483807 tagged input characters: shared3548/personal13212, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-1007/queue.json`. Prior queue retained exactly plus thirty jobs. Catalog1536 name groups/1549 retained identities unchanged, nonexhaustive and overlapping the backlog. Two uncertain Westfall identities remain unprofiled. No synthesis.
+
+Explicit Friendly442Alliance/437Horde/184unverified with56shared overlaps yields1007 unique profiles. Human176/Orc114. Local installation and development ZIP verified6362files/6334audio mappings/139.00MiB; ZIP CRC passes and source/installed/ZIP Lore bytes match. ZIP SHA256 `a306b5a00b680ef7da4420b7295a00eda847dd2e150a4688e20ba14e98a8e03d`. Publishedv002 unchanged; no tag or CurseForge publication.

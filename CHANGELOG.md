@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kitta Firewind and Vahgruk: full Human and Orc profiles, thirty personal lines queued.
+- Research practical enchanting and Flame Crest flight service; preserve normal and Elite friendship thresholds and separate character progress.
+
 - Add Foreman Stonebrow and Anathamaas Aetherwind: full Dwarf and Skyborne profiles, thirty personal lines queued.
 - Research quarry anger, mage teaching and the full focus referral; preserve distinct quest speakers and both-faction friendship checks.
 

@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 441,
+    "alliance": 442,
     "unverified": 184,
-    "horde": 436
+    "horde": 437
   },
   "npc_race_counts": {
-    "1": 175,
+    "1": 176,
     "3": 110,
     "7": 63,
-    "2": 113,
+    "2": 114,
     "5": 114,
     "4": 100,
     "9": 67,
@@ -21,7 +21,7 @@
     "95": 63
   },
   "zone_counts": {
-    "Elwynn Forest": 33,
+    "Elwynn Forest": 34,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 127,
@@ -47,7 +47,7 @@
     "The Barrens": 52,
     "Stonetalon Mountains": 17,
     "Darnassus": 25,
-    "Burning Steppes": 1,
+    "Burning Steppes": 2,
     "Ashenvale": 18,
     "Thousand Needles": 12,
     "Dustwallow Marsh": 2,
@@ -9829,6 +9829,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11069"
     },
     {
+      "npc_id": 11072,
+      "name": "Kitta Firewind",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11072"
+    },
+    {
       "npc_id": 11096,
       "name": "Randal Worth",
       "zone": "Stormwind City",
@@ -10385,6 +10398,19 @@
       ],
       "reaction_evidence": "Alliance Friendly explicitly shown",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/13084"
+    },
+    {
+      "npc_id": 13177,
+      "name": "Vahgruk",
+      "zone": "Burning Steppes",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/13177"
     },
     {
       "npc_id": 13843,
@@ -12921,6 +12947,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1005,
-  "awaiting_signature_audio_profiles": 551
+  "authored_profiles": 1007,
+  "awaiting_signature_audio_profiles": 553
 }

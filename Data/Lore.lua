@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kitta Firewind, Artisan Enchanter Tower of Azora Elwynn, adult Human female10610/M2 1000764, Alliance Friendly normal. Four native greeting/readiness/Annora-referral lines,55 lessons and full91753. Lamp-shading observation original, no free enchant, magic lamp effect or invented family.
+    -- Research: docs/research/kittas-lamp-and-vahgruks-kite.md
+    [11072] = {
+        quote = "My friend shaded the lamp while I examined the work. Less glare, more detail. A useful demonstration, requiring considerably less explanation than the one I had been preparing.",
+        likes = { "A theory tested against the actual work", "Careful observation from an unexpected source", "Company that notices a useful adjustment" },
+        dislikes = { "Education mistaken for complete understanding", "Impressive words without practical attention", "A useful observation dismissed too quickly" },
+        gossip = "Kitta's friend shaded the lamp. She saw the work more clearly and accepted the simple adjustment as a useful demonstration.",
+        bio = "Kitta Firewind teaches enchanting at the Tower of Azora. She values academic rigor and practical investigation, even examining simple kobold enchantments for insight. Her guidance also recognizes when a learner needs another instructor.",
+        backstory = "She was preparing an explanation while examining a piece beneath a bright lamp. A friend shaded the light with a hand. The distracting glare eased. Kitta looked again, acknowledged the useful adjustment, and began with what she could now see.",
+        secret = "She remembers that her friend noticed the difficulty before she finished describing it. A small practical contribution can deserve as much appreciation as a learned answer.",
+        bestFriend = "Stay beside me, friend. Tell me what you notice before I begin the explanation. I have come to value the observations you bring.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "A thoughtful appreciation of careful work matters more to her than admiration for an impressive display alone.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Welcome back, friend. Come and have a look before I explain what you ought to be seeing. Your observations may improve the order of the lesson.", tone = "[precise] [welcoming]" }, "Good to see you. Tell me where the difficulty begins, rather than where you think the answer ought to end." },
+            idle = { { "My friend shaded the lamp. Less glare, more detail. A useful demonstration, requiring fewer words than the explanation I had been preparing.", tone = "[measured] [amused]" }, "Formal study and practical examination should be willing to inform one another.", "An unlikely source may still demonstrate something worth understanding. Notice what the work actually does." },
+            befriended = { { "You are welcome beside me, friend. Bring the observations you might otherwise leave unsaid. I appreciate company that helps me look carefully as well as think carefully.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? What have you noticed? I should like to hear it before supplying my own conclusion.", "One moment. I am deciding whether the difficulty needs another explanation or a better look." },
+            learned = { { "There, something understood through the work itself. Keep the observation beside the theory; each may help you question the other.", tone = "[thoughtful] [encouraging]" } },
+            gear = { "Examine the piece before deciding what improvement it needs. A confident intention is not a substitute for attention." },
+            quest = { "Do the investigation, and notice what it reveals. The expected answer is only the beginning of what you might learn." },
+            newFriend = { "Hear the observation before deciding whether the person has the education you expected." },
+            rest = { "A pause is welcome. We may enjoy the company without turning every moment into a demonstration." },
+            thanked = { "You are welcome. I am pleased the adjustment helped. Tell me what you notice when you try the work again." },
+            loot = { "Look closely before dismissing it. A modest piece may reveal something a grander example leaves obscure." },
+        },
+    },
+
+    -- Vahgruk, Wind Rider Master Flame Crest Burning Steppes, adult Orc male1652/M2 917116, Horde Friendly Elite55. Native flight question and no own tasks. Paper kite/cheering friend original, no actual kite route, fare change or flight reward; preserve Elite150/450 thresholds, no inferred Alliance friendliness.
+    -- Research: docs/research/kittas-lamp-and-vahgruks-kite.md
+    [13177] = {
+        quote = "My paper kite flew for a moment. My friend cheered as though we had opened a new route. A generous reception. I should like another attempt before we begin promising destinations.",
+        likes = { "Travelers prepared for the journey", "A little kite catching a willing breeze", "Someone staying after the landing" },
+        dislikes = { "A departure rushed before it is ready", "A promise of a route that is not offered", "A small attempt denied its moment of success" },
+        gossip = "Vahgruk's paper kite flew briefly. His friend cheered a grand new route, though its destination was a little farther along the ground.",
+        bio = "Vahgruk is the wind rider master at Flame Crest in the Burning Steppes. His work concerns real journeys, but a small paper kite has given him and a friend an unusually modest flight to discuss afterward.",
+        backstory = "He tried a small paper kite during a quiet moment. It caught the breeze, rose briefly, and settled again. His friend cheered as though they had opened a new route. Vahgruk accepted the celebration, then suggested another attempt before selling passage.",
+        secret = "He enjoyed that his friend stayed after the landing. The flight had been very short, but the conversation it began had no reason to depart so quickly.",
+        bestFriend = "Stay a little, friend. Tell me how your day has gone. We can leave the destinations aside while we enjoy being here.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A generous celebration is welcome when a very modest flight has finally left the ground.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have made no promises about the kite route. You may still give the next attempt a generous reception.", tone = "[gruff] [amused]" }, "Good to see you. Have you a journey in mind, or time to tell me about the one behind you?" },
+            idle = { { "The paper kite flew for a moment. My friend cheered the new route. Its destination remained very close, but I appreciated the reception.", tone = "[dry] [pleased]" }, "A real journey deserves proper preparation before the departure.", "My friend stayed after the kite landed. The flight was brief; the conversation had room to continue." },
+            befriended = { { "You are welcome here, friend. Come when you have no departure planned too. I enjoy hearing your news without immediately asking where you mean to go next.", tone = "[warm] [steady]" } },
+            poke = { "Yes? Has the kite filed another request for a destination? I should prefer to see it leave the ground first.", "One moment. I am deciding whether that was a flight or merely an enthusiastic change of position." },
+            cheerAlong = { { "A fine reception. Thank you. We shall attempt a second flight before adding the route to any impressive account of the afternoon.", tone = "[hearty] [delighted]" } },
+            taxi = { "Make certain the offered journey is the one you intend before setting off. A familiar name deserves a second look when you are in a hurry." },
+            landed = { "Here again. Take a moment to see where you have arrived before preparing the next departure." },
+            zone = { "Notice the place as well as the road through it. There may be a reason to remember the stop." },
+            rest = { "A pause suits me. Tell me how you are, friend. We need no destination for a little conversation." },
+            newFriend = { "Give them time to tell you where they have been before assuming you know where they ought to go." },
+            thanked = { "You are welcome. I am glad it helped. A useful arrival deserves its share of the account too." },
+        },
+    },
+
     -- Foreman Stonebrow, Miners League Gol Bolar Quarry Dun Morogh, adult Dwarf male1569/M2 878772, Alliance Friendly normal. Native angry gossip and full432; poor aim and continuing trogg hostility preserved. Cold-tea complaint amendment original; Father Gavin99159-62 are not his quests, no quarry clearance or temper cure.
     -- Research: docs/research/stonebrows-amendment-and-anathamaass-reviewer.md
     [1254] = {

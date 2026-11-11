@@ -5600,5 +5600,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Native knowledge greeting,161 lessons and full93791/93797 context; original duck reviewer; no Scout sighting claimed",
     "research_notes": "docs/research/stonebrows-amendment-and-anathamaass-reviewer.md"
+  },
+  {
+    "npc_id": 11072,
+    "name": "Kitta Firewind",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult alliance identity; Four native teaching/referral lines,55 lessons, full91753; original lamp shading; no Scout sighting claimed",
+    "research_notes": "docs/research/kittas-lamp-and-vahgruks-kite.md"
+  },
+  {
+    "npc_id": 13177,
+    "name": "Vahgruk",
+    "zone": "Burning Steppes",
+    "source": "Reviewed adult horde identity; Current Elite55 and native flight question; original paper kite and cheering friend; no Scout sighting claimed",
+    "research_notes": "docs/research/kittas-lamp-and-vahgruks-kite.md"
   }
 ]
