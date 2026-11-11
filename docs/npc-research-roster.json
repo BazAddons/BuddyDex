@@ -5152,5 +5152,12 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult horde identity; Full7321 and current stock/native greeting; original imaginary cookbook-title argument; no Scout sighting claimed",
     "research_notes": "docs/research/velas-clue-and-christophs-title.md"
+  },
+  {
+    "npc_id": 246378,
+    "name": "Danitha Morr",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Thirty-two current related quests and native scene dialogue; original repaired-bench company; no Scout sighting claimed",
+    "research_notes": "docs/research/danithas-place-at-the-table.md"
   }
 ]

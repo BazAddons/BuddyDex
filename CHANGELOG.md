@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Danitha Morr: a full Forsaken paladin-leader profile, fifteen personal lines queued.
+- Research thirty-two related Forever quests and native scene dialogue; preserve her choice to serve the Forsaken and her elite friendship thresholds.
+
 - Add Vela El’wyth and Christoph Jeffcoat: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Expand Horde island and Hillsbrad coverage; preserve the bisque quest’s dark humor and faction attitude.
 

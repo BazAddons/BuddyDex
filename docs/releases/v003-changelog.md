@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Danitha Morr: a full Forsaken paladin-leader profile, fifteen personal lines queued.
+- Research thirty-two related Forever quests and native scene dialogue; preserve her choice to serve the Forsaken and her elite friendship thresholds.
+
 - Add Vela El’wyth and Christoph Jeffcoat: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Expand Horde island and Hillsbrad coverage; preserve the bisque quest’s dark humor and faction attitude.
 
@@ -712,4 +715,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **941 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eighty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **942 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eighty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

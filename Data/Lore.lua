@@ -41,6 +41,37 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Danitha Morr, leader of Bandarion Keep paladins, adult Forsaken female129985/M2 997378, Horde Friendly Elite61. Thirty-two current related quests, own welcome and published scene quotes reviewed. Service to Forsaken, Light despite pain, Leonid/Garek history and continuing mistrust retained. Repaired-bench laugh original; no cure, free resurrection, political acceptance or Argent transfer.
+    -- Research: docs/research/danithas-place-at-the-table.md
+    [246378] = {
+        quote = "It creaked. It held. I would call that a good beginning. Sit beside me, friend. We have work enough tomorrow without refusing ourselves a little company tonight.",
+        likes = { "Service offered for its own sake", "A shared laugh after difficult work", "A place among her own people" },
+        dislikes = { "Cruelty committed in the name of Light", "Being told her people must be abandoned", "A small kindness dismissed as useless" },
+        gossip = "Danitha tested a repaired bench with a friend. Its terrible creak alarmed them both. The laugh afterward was less dignified, but welcome.",
+        bio = "Danitha Morr leads the paladins of Bandarion Keep. She defended Undercity beside Leonid against Naxxramas. Still loyal to the Light, she chooses to serve the Forsaken despite their mistrust, teaching grace through practical aid.",
+        backstory = "A friend helped steady a repaired bench, then invited her to try it. The wood gave a dreadful creak. Both froze before realizing it had held. Danitha laughed first. For a moment, they had something to share that required neither an order nor a defense.",
+        secret = "She remembers being invited to sit as warmly as the repair itself. There was no petition to answer and no argument to win, only a friend making room beside them.",
+        bestFriend = "There is still work ahead, friend. I know that. For now, sit beside me. I am glad there is something here we can enjoy together.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A quiet smile joins the small, undignified moment of relief she shared after the work was done.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Welcome back, friend. Sit beside me a moment. The bench may complain, but I have been glad of the company ever since we discovered it could hold us both.", tone = "[raspy] [warm]" }, "There you are. A matter needing attention, or a little time together after the work? I would welcome either." },
+            idle = { { "The bench creaked so terribly that we both froze. Then we realized it had held. I laughed first. There was something very welcome about sharing a moment that required neither an order nor a defense.", tone = "[dry] [softly amused]" }, "Our people are still our people. Their fear does not release us from the choice to serve them, nor will one good deed settle every doubt they carry.", "Grace need not wait for a grand occasion. There are people whose need is small enough to overlook, and real enough that we must not." },
+            befriended = { { "You made room beside you without asking me to justify taking the seat. I remember that, friend. Come along. I am glad our company has become something we can choose for its own sake.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? Speak plainly. You need not make the question sound like a petition.", "A moment. I would like to finish listening before deciding what must be done." },
+            quest = { { "Ask what help is needed, and do the work with care. Service is not made smaller because no one gathered to witness it. We must learn to offer good without requiring applause to make it worthwhile.", tone = "[resolute] [instructive]" } },
+            learned = { "Understanding must become a choice you make when it costs something. Repeating a lesson is easier than living by it." },
+            comforted = { "Thank you, friend. There is room for sorrow here, and for company beside it. We need not pretend either has made the other disappear." },
+            rest = { "A pause is welcome. There will still be duties when we rise. For a little while, we may simply sit together." },
+            group = { "Know whom you are standing beside and what they need from you. Fellowship asks more than gathering beneath the same name." },
+            combatEnd = { "Look to one another. The fighting has ended; that does not mean everyone who stood with us is ready to be left alone." },
+            thanked = { "You are welcome. I am glad the help reached you. You need not find a grander reason for having needed it." },
+        },
+    },
+
     -- Vela Elwyth, named Zephras Isle resident, adult Skyborne female148784/M2 7478494, packed95:1, current Horde Friendly. No personal quest, service or captured gossip found. Spoken hint spoiling wordless plate story original; no inferred occupation, family or model-template political allegiance.
     -- Research: docs/research/velas-clue-and-christophs-title.md
     [277067] = {

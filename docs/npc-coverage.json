@@ -5,14 +5,14 @@
   "faction_counts": {
     "alliance": 407,
     "unverified": 183,
-    "horde": 403
+    "horde": 404
   },
   "npc_race_counts": {
     "1": 168,
     "3": 97,
     "7": 62,
     "2": 104,
-    "5": 103,
+    "5": 104,
     "4": 92,
     "9": 67,
     "8": 61,
@@ -32,7 +32,7 @@
     "Wetlands": 12,
     "Ironforge": 67,
     "Stranglethorn Vale": 9,
-    "Tirisfal Glades": 57,
+    "Tirisfal Glades": 58,
     "Undercity": 23,
     "Silverpine Forest": 9,
     "Teldrassil": 31,
@@ -10069,6 +10069,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246152"
     },
     {
+      "npc_id": 246378,
+      "name": "Danitha Morr",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246378"
+    },
+    {
       "npc_id": 246389,
       "name": "Hilda the Breaker",
       "zone": "Tirisfal Glades",
@@ -12086,6 +12099,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 941,
-  "awaiting_signature_audio_profiles": 487
+  "authored_profiles": 942,
+  "awaiting_signature_audio_profiles": 488
 }

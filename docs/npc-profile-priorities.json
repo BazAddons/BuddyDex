@@ -4823,6 +4823,13 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill trade goods and bisque quest",
       "reason": "Full7321 and current stock/native greeting; original imaginary cookbook-title argument; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 246378,
+      "name": "Danitha Morr",
+      "zone": "Tirisfal Glades",
+      "route": "Bandarion Keep paladin leader",
+      "reason": "Thirty-two current related quests and native scene dialogue; original repaired-bench company; fifteen personal lines queued without synthesis"
     }
   ]
 }
