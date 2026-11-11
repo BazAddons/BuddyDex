@@ -5229,6 +5229,20 @@
       "zone": "Thunder Bluff",
       "route": "Guns merchant on High Rise",
       "reason": "Ten current wares and repairs; original card-shuffle and hat catch, no pet-training claim; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2508,
+      "name": "Mountaineer Wuar",
+      "zone": "Loch Modan",
+      "route": "Named mountaineer at Thelsamar",
+      "reason": "Current adult guard with sparse personal lore; original loch-and-key joke and quiet applause; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4082,
+      "name": "Grawnal",
+      "zone": "Stonetalon Mountains",
+      "route": "General goods at Sun Rock Retreat",
+      "reason": "Seventeen current supplies including blue paper; original awkward gift-spoon parcel; fifteen personal lines queued without synthesis"
     }
   ]
 }

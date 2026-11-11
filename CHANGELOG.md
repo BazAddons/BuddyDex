@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mountaineer Wuar and Grawnal: full Dwarf and Orc profiles, thirty personal lines queued.
+- Expand Thelsamar and Sun Rock Retreat contacts with researched adult identities and clearly documented original stories.
+
 - Add Watcher Paige and Hogor Thunderhoof: full Human and Tauren profiles, thirty personal lines queued.
 - Research a Duskwood crossroads contact and current Thunder Bluff firearms trade; preserve normal eligibility and separate character progress.
 

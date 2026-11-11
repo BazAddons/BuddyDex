@@ -5558,5 +5558,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Ten current wares and repairs; original card-shuffle and hat catch, no pet-training claim; no Scout sighting claimed",
     "research_notes": "docs/research/paiges-three-words-and-hogors-shuffle.md"
+  },
+  {
+    "npc_id": 2508,
+    "name": "Mountaineer Wuar",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance identity; Current adult guard with sparse personal lore; original loch-and-key joke and quiet applause; no Scout sighting claimed",
+    "research_notes": "docs/research/wuars-punch-line-and-grawnals-parcel.md"
+  },
+  {
+    "npc_id": 4082,
+    "name": "Grawnal",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult horde identity; Seventeen current supplies including blue paper; original awkward gift-spoon parcel; no Scout sighting claimed",
+    "research_notes": "docs/research/wuars-punch-line-and-grawnals-parcel.md"
   }
 ]

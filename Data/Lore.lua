@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mountaineer Wuar, Thelsamar Loch Modan, adult Dwarf male1810/M2 878772, Alliance Friendly normal. Current named guard/pin, no own captured dialogue/tasks. Loch-and-key pun and restrained applause original, not actual security guarantee or generic guard override.
+    -- Research: docs/research/wuars-punch-line-and-grawnals-parcel.md
+    [2508] = {
+        quote = "My friend says the joke about loch and key needs work. I told them I was guarding the punch line. They applauded very quietly. A discerning audience.",
+        likes = { "A familiar face returning to Thelsamar", "A dreadful pun given a fair hearing", "Applause with an appropriately dry delivery" },
+        dislikes = { "A watch mistaken for an idle ornament", "A traveler ignoring what is around them", "A punch line abandoned before its moment" },
+        gossip = "Wuar has a joke about loch and key. A friend applauded so quietly that he took it as encouragement to prepare another.",
+        bio = "Mountaineer Wuar guards Thelsamar in Loch Modan. He takes the watch seriously, though familiar company may discover that his sense of duty leaves room for a very undemanding sense of humor.",
+        backstory = "He offered a friend a joke about keeping the loch under lock and key. They said the ending needed work. Wuar replied that he was guarding the punch line. The tiny round of applause that followed has sustained his confidence ever since.",
+        secret = "He recognizes the look his friend gives him before another pun. He likes that they stay to hear it, knowing perfectly well what sort of joke is coming.",
+        bestFriend = "Stay a moment, friend. I have another one. Ye may give it an honest reception; I have grown rather fond of the way ye groan.",
+        favorite = {
+            emote = "GOLFCLAP",
+            hint = "A very restrained round of applause is a fitting reception for a punch line that probably deserved a groan.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. I have another joke. Ye may prepare the expression now, but give the ending a fair hearing.", tone = "[hearty] [mischievous]" }, "Good to see ye back in one piece. How has the road treated ye?" },
+            idle = { { "Loch and key. My friend said the ending needed work. I told them I was guarding the punch line. A very small round of applause followed.", tone = "[deadpan] [pleased]" }, "A quiet moment still belongs to the watch. Keep an eye on what is around ye.", "My friend knows the look before a pun. They stay anyway. I consider that a generous quality." },
+            befriended = { { "Ye are welcome beside me, friend. Bring yer news and an honest opinion of the next joke. I enjoy the company more than a perfectly respectful audience.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Did ye think of a better ending? I am willing to hear evidence.", "One moment. The punch line requires a little careful supervision." },
+            applaudToo = { { "A restrained reception. Excellent. I shall take it as a request for another, unless that groan was intended to clarify matters.", tone = "[dry] [delighted]" } },
+            newFriend = { "Let them settle into the conversation before inflicting the finest joke ye know. We have had time to learn one another." },
+            zone = { "Look around before hurrying through. A place deserves more than becoming the bit of road behind ye." },
+            rest = { "A pause suits me. We may enjoy the company without making an occasion of it." },
+            thanked = { "Ye are welcome. Glad it helped. I can supply a useful answer without adding a pun, on special occasions." },
+            combatEnd = { "Still here. Good. Take a moment, friend. The jokes can wait until everyone is breathing easily." },
+            quest = { "Hear the whole request before setting off. It is easier to help when ye know what was actually asked." },
+        },
+    },
+
+    -- Grawnal, General Goods Sun Rock Retreat Stonetalon, adult Orc male3890/M2 917116, Horde Friendly normal. Seventeen current wares including blue wrapping paper, no own quest/gossip/training. Gift-spoon wrapping story original; no spoon stock claim, custom wrapping service, free item or invented family.
+    -- Research: docs/research/wuars-punch-line-and-grawnals-parcel.md
+    [4082] = {
+        quote = "My friend guessed the spoon before the wrapping was finished. They still opened it carefully and saved the blue paper. Apparently I had managed the important part after all.",
+        likes = { "Supplies chosen for a useful purpose", "A present opened with care", "The pleasure of giving something ordinary" },
+        dislikes = { "A purchase made only to hurry someone", "Good paper crumpled before its work is done", "A kind gesture dismissed for being small" },
+        gossip = "Grawnal tried to disguise a gift spoon with elaborate wrapping. His friend guessed it at once, then saved the blue paper anyway.",
+        bio = "Grawnal sells general goods at Sun Rock Retreat in the Stonetalon Mountains. His supplies help with ordinary travel needs. He also appreciates the way an ordinary object can become a welcome gift when someone has taken care over it.",
+        backstory = "He was wrapping a spoon for a friend when they correctly guessed the contents. Grawnal finished the awkward parcel anyway. They opened it carefully and smoothed out the blue paper to keep. He decided the failed disguise had not spoiled the gift.",
+        secret = "He had wanted the surprise to make the gift worth remembering. His friend remembered that he had chosen it for them. That was a better result than his clever wrapping.",
+        bestFriend = "Come and tell me how you are, friend. We need no parcel for this visit. I enjoy having you here when there is nothing to buy or unwrap.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A warm expression can make a small, carefully chosen gesture feel welcome even when its elaborate disguise has failed.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Good to see you, friend. No mysterious parcel today. You may enjoy the visit without pretending you cannot recognize a wrapped spoon.", tone = "[gruff] [amused]" }, "Welcome back. Have you come for supplies, or have you time to tell me how the journey went?" },
+            idle = { { "My friend guessed the spoon before I finished wrapping it. Then they saved the blue paper. I had not hidden the gift, but apparently I had made it welcome.", tone = "[dry] [fond]" }, "Choose what you will actually need. An ordinary useful thing can deserve a place in the pack.", "The wrapping was awkward. My friend still opened it carefully. There was more kindness in that than in pretending not to know the contents." },
+            befriended = { { "You are welcome here, friend. Come when there is nothing to buy as well. I am glad an ordinary visit has become something we can look forward to.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you guessed the next parcel already? I had not even chosen the paper.", "One moment. I am considering whether a spoon can be persuaded to resemble anything else." },
+            thanked = { { "You are welcome, friend. I am glad you found the care in it. A small gesture does not need an impressive disguise to be worth making.", tone = "[rough] [gentle]" } },
+            bagsFull = { "Make room before adding more. It is easier to find a useful thing when it has not vanished beneath everything else." },
+            loot = { "Consider what it can do for you. A plain object can be worth keeping without an impressive tale attached." },
+            mail = { "Take care with what someone has sent. They may have spent more thought on the small parcel than you can see at first." },
+            newFriend = { "Notice the gesture before measuring its size. Someone may have chosen a small thing with a great deal of care." },
+            rest = { "A quiet moment suits me. Tell me how you are. We can leave the business for a little while." },
+            gear = { "Keep the ordinary supplies where you can find them. Useful things tend to become much more interesting when they are suddenly missing." },
+        },
+    },
+
     -- Watcher Paige, Night Watch crossroads south of Twilight Grove Duskwood, adult Human female2396/M2 1000764, Alliance Friendly normal. Current title/pin, no own captured gossip/tasks. Three-word mishap accounts original; no generic-guard override, invented quest or later cult allegiance.
     -- Research: docs/research/paiges-three-words-and-hogors-shuffle.md
     [499] = {
