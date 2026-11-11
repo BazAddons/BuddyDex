@@ -5110,5 +5110,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Aptitude-based native greeting and184 current lessons; original unsuccessful wink practice; no Scout sighting claimed",
     "research_notes": "docs/research/denatharions-procession-and-naelunas-wink.md"
+  },
+  {
+    "npc_id": 1105,
+    "name": "Jern Hornhelm",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance identity; Native bookkeeping/prospector frustration and full excavation supply chains; original question page; no Scout sighting claimed",
+    "research_notes": "docs/research/jerns-questions-and-bulrugs-farewell.md"
+  },
+  {
+    "npc_id": 10054,
+    "name": "Bulrug",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Current stable service and primary city reference; original repeated last farewell; no Scout sighting claimed",
+    "research_notes": "docs/research/jerns-questions-and-bulrugs-farewell.md"
   }
 ]

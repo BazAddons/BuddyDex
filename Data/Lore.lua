@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jern Hornhelm, Explorers League bookkeeper in Thelsamar, adult Dwarf male1572/M2 878772, Alliance Friendly. Native frustrated prospector ambition; full436/297 and298/301/302/273/454/309 routes reviewed. Future-expedition question list original, no promised career change or blame for stolen powder.
+    -- Research: docs/research/jerns-questions-and-bulrugs-farewell.md
+    [1105] = {
+        quote = "Aye, I keep the books. That does not mean every question I have concerns a total. This page is for things I would like to find out by going to look.",
+        likes = { "A question worth leaving the desk for", "Supplies that reach the people waiting", "Someone who asks about his own plans" },
+        dislikes = { "Being mistaken for a walking ledger", "A shipment entered but never received", "An ambition dismissed as an arithmetic error" },
+        gossip = "Jern keeps a page of questions for an expedition he has yet to take. A friend added one he has no intention of crossing out.",
+        bio = "Jern Hornhelm keeps the Explorers' League's books in Thelsamar. He wanted to be a prospector, but his head for numbers put him at the accounts. He worries over Ironband's progress and helps arrange supplies for the excavation.",
+        backstory = "He began a page of questions he would like to investigate himself. A friend asked to add one. Jern expected a request about supplies. They wrote, 'May I come?' He left space beneath it rather than putting it into a column.",
+        secret = "He has not settled when he might go. Still, the page no longer feels like a complaint made to himself. Someone has asked about the journey as if he might truly take it.",
+        bestFriend = "Ye may come, friend. That answer does not require another report. I still have work to do, but I am glad ye asked about the questions that are mine.",
+        favorite = {
+            emote = "NOD",
+            hint = "A thoughtful nod takes his hoped-for expedition seriously without pretending it is already arranged.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are. A report, or a question for my other page? I am always pleased when ye remember I have one.", tone = "[wry] [warm]" }, "Welcome back, friend. The books have accounted for quite enough of my attention. Tell me what ye have been wondering." },
+            idle = { { "I thought they wanted to add a supply request. Instead they wrote, May I come? A short question. It has occupied rather more of my thoughts than its length would suggest.", tone = "[reflective] [hopeful]" }, "A head for numbers does not prevent a fellow from wanting to see what lies beyond the page. It merely makes everyone remember to bring him their totals.", "Ironband values results. When his progress slows despite the supplies sent, I want someone to look into what is happening, not simply write a smaller expectation." },
+            befriended = { { "Aye, ye may come. I have not arranged the expedition, but I can answer that part plainly. I am glad someone asked what I hope to see for myself.", tone = "[earnest] [warm]" } },
+            poke = { "Yes, friend? Which page are we discussing?", "A moment. I do not want yer question disappearing between two supply entries." },
+            quest = { { "Find out what has happened at the site. A report can show a delay, but someone must go and learn what the people there are facing.", tone = "[concerned] [practical]" } },
+            mail = { "Let the person waiting know what has actually arrived. Something written as sent can still leave them without the supplies they need." },
+            bagsFull = { "Check what ye are carrying before adding another parcel. I would rather have an honest limit than a fine total nobody can move." },
+            loot = { "Something worth examining? Tell me what ye noticed before ye ask what number it belongs beside." },
+            newFriend = { "Ask what they would like to find out for themselves. A fellow can spend a long time being useful without anyone remembering to ask." },
+            rest = { "A pause for the other page. We may discuss a question without requiring an answer before we rise." },
+            thanked = { "Ye're welcome. A useful account deserves thanks, certainly. I am particularly glad ye remembered the person keeping it." },
+        },
+    },
+
+    -- Bulrug, Thunder Bluff stable master, adult Tauren male9272/M2 968705, Horde Friendly. Current stable service, no own quests or captured personal gossip. Repeated last farewell original; no retail battle-pet recovery, goods, extra stable slots or pet transport through friendship.
+    -- Research: docs/research/jerns-questions-and-bulrugs-farewell.md
+    [10054] = {
+        quote = "One farewell, several final scratches behind the ears. I see no difficulty. The animal seems content, and neither of you appears quite ready to call the matter finished.",
+        likes = { "A familiar animal settling comfortably", "A goodbye given the time it needs", "Owners who notice their companions" },
+        dislikes = { "Affection treated as an embarrassment", "A hurried hand near an uneasy animal", "Calling a creature a burden for trusting you" },
+        gossip = "Bulrug heard an owner say goodbye several times. He considers the repeated farewells one satisfactory visit.",
+        bio = "Bulrug is a stable master in Thunder Bluff. His work concerns the animals hunters leave in his care. He has a patient manner with a visitor who finds that a final farewell sometimes requires one more moment.",
+        backstory = "A visitor announced one last scratch behind their companion's ears. Then another. Bulrug stopped counting and waited. When the owner finally looked embarrassed, he observed that the animal had made no complaint about the delay.",
+        secret = "He enjoys seeing someone reluctant to leave because the company has been good. He would rather wait through another farewell than teach them to hide that fondness.",
+        bestFriend = "Stay another moment if you wish, friend. You need not make leaving look easy to persuade me that you are capable of doing it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A gentle smile shares his fondness for a farewell that takes a little longer than planned.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. Have we finished the last farewell, or is this another part of it? Either answer is welcome.", tone = "[gentle] [amused]" }, "There you are. Take your time. The company does not become less welcome because you were here a little while ago." },
+            idle = { { "One last scratch, they said. Then another. I stopped counting. When they looked embarrassed, I pointed out that their companion had made no complaint about the delay.", tone = "[warm] [chuckling]" }, "Watch how an animal responds before deciding your hand is welcome. Good intentions do not ask it to understand a sudden movement.", "Someone may be perfectly capable of leaving and still wish to say goodbye properly. I see little reason to hurry them into proving the first part." },
+            befriended = { { "You may stay another moment, friend. I am glad the company suits you. There is no need to disguise that fondness as something you forgot to do before leaving.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? I am listening.", "A moment. Let our neighbor settle before we ask for its attention again." },
+            rest = { { "A quiet pause is welcome. You need not fill it with an explanation of why you have not gone yet. Enjoy the company while you are here.", tone = "[calm] [reassuring]" } },
+            newFriend = { "Give them a little time to settle. A welcome is easier to trust when it does not immediately demand something in return." },
+            group = { "Notice who is uneasy before pressing everyone closer together. Companions do not all become comfortable at the same pace." },
+            thanked = { "You are welcome. I was content to wait, and rather pleased that you cared enough to ask." },
+            mount = { "Take a moment to attend to the creature carrying you. A journey is shared even when only one traveler is choosing the road." },
+            hearth = { "A familiar place, and perhaps someone glad to see you return. That seems a good reason to go." },
+            comforted = { "Thank you, friend. Quiet company is welcome. We need not hurry to turn it into a speech." },
+        },
+    },
+
     -- Denatharion, Darnassus druid trainer, adult Night Elf male2250/M2 974343, Alliance Friendly. Two native greetings praise Staghelm and dismiss Circle rumors; full bear and Torwa referral chains reviewed with current starter discrepancy. Snail procession original; no later retail fate or guaranteed current referral.
     -- Research: docs/research/denatharions-procession-and-naelunas-wink.md
     [4218] = {

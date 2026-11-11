@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 405,
+    "alliance": 406,
     "unverified": 183,
-    "horde": 399
+    "horde": 400
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 95,
+    "3": 96,
     "7": 62,
     "2": 103,
     "5": 102,
     "4": 92,
     "9": 67,
     "8": 61,
-    "6": 103,
+    "6": 104,
     "96": 28,
     "95": 54
   },
@@ -26,7 +26,7 @@
     "Westfall": 18,
     "Stormwind City": 125,
     "Redridge Mountains": 26,
-    "Loch Modan": 7,
+    "Loch Modan": 8,
     "Duskwood": 4,
     "Dun Morogh": 26,
     "Wetlands": 11,
@@ -42,7 +42,7 @@
     "Badlands": 1,
     "Darkshore": 15,
     "Mulgore": 26,
-    "Thunder Bluff": 45,
+    "Thunder Bluff": 46,
     "Durotar": 55,
     "The Barrens": 50,
     "Stonetalon Mountains": 15,
@@ -967,6 +967,19 @@
       ],
       "reaction_evidence": "Current Alliance Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1078"
+    },
+    {
+      "npc_id": 1105,
+      "name": "Jern Hornhelm",
+      "zone": "Loch Modan",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1105"
     },
     {
       "npc_id": 1212,
@@ -8768,6 +8781,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10053"
     },
     {
+      "npc_id": 10054,
+      "name": "Bulrug",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10054"
+    },
+    {
       "npc_id": 10060,
       "name": "Grimestack",
       "zone": "Stranglethorn Vale",
@@ -12007,6 +12033,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 935,
-  "awaiting_signature_audio_profiles": 481
+  "authored_profiles": 937,
+  "awaiting_signature_audio_profiles": 483
 }

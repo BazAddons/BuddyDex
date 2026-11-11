@@ -4781,6 +4781,20 @@
       "zone": "Zephras Isle",
       "route": "Druid trainer on Zephras Isle",
       "reason": "Aptitude-based native greeting and184 current lessons; original unsuccessful wink practice; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1105,
+      "name": "Jern Hornhelm",
+      "zone": "Loch Modan",
+      "route": "Thelsamar Explorers League contact",
+      "reason": "Native bookkeeping/prospector frustration and full excavation supply chains; original question page; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10054,
+      "name": "Bulrug",
+      "zone": "Thunder Bluff",
+      "route": "Lower Rise stable master",
+      "reason": "Current stable service and primary city reference; original repeated last farewell; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -1,0 +1,54 @@
+# Jern's questions and Bulrug's farewell
+
+Reviewed November 11, 2026. Adult singleton Dwarf and Tauren men, Alliance Thelsamar and Horde Thunder Bluff. Written complete/audio pending; no synthesis or fabricated Scout sightings.
+
+## Jern Hornhelm: the person behind the accounts
+
+[Current primary1105](https://forever.warcraftdb.com/api/data/node/npc/1105) identifies Jern Hornhelm, Explorers' League, Dwarf3, level15, Alliance Friendly, Loch Modan37.0967,47.2119. Adult male1572/M2 878772, packed1572:3:0. Standard adult body and independent bookkeeping/expedition-contact role support adult identity. His native recollection of studying in youth is not evidence he is currently a child. [Primary Classic NPC1105](https://classicdb.ch/?npc=1105) and established references place him in Thelsamar. No Elite classification.
+
+Read his single own captured greeting in installed SpokenQuestsAudioGossip/generated/npc_gossip_file_lookups.lua: he wanted to become a prospector, but his numerical ability led the Guild to assign him bookkeeping. His frustration is real; do not rewrite it as having always preferred the desk or having fulfilled that ambition through friendship. No promotion or newly completed expedition implied.
+
+Current starts1:436 Ironband's Excavation; ends/sells/teaches0. Raw Classic table has starts273/301/436 and ends298/302. Read full current quest descriptions/objectives, raw Classic descriptions and available progress/completion, and installed acceptance/completion for all eight related quests. Empty current tabs do not erase the legacy supply route, and historical tables do not guarantee each character currently receives all its offers.
+
+### Site inquiry and complete supply route
+
+- [436 Ironband's Excavation](https://classicdb.ch/?quest=436): Jern is worried that supplies are not producing expected progress and describes Ironband as honest and results-minded. He sends the player to Magmar Fellhew for the explanation. Current quest log says Explorer Fellhew, while description retains Magmar Fellhew; do not invent two separate people or a replacement biography from this naming difference. Fellhew's completion identifies trogg interference. Jern does not personally solve it.
+- [297 Gathering Idols](https://classicdb.ch/?quest=297): Fellhew asks for eight carved idols to study and remove from trogg possession, having observed their disturbing effect. His praise of the returning adventurer belongs to Fellhew, not Jern. The inquiry route ends here in the inspected chain.
+- [298 Excavation Progress Report](https://classicdb.ch/?quest=298): Ironband sends the report and a repeated powder request to Jern. Jern wonders why the previous shipment did not arrive and thinks the new supply worthwhile whether for excavation or defense. He is not unconcerned about the field workers merely because his work involves numbers.
+- [301 Report to Ironforge](https://classicdb.ch/?quest=301): Jern needs approval and sends the report to Prospector Stormpike, warning of the latter's temper. Stormpike is alarmed that the earlier shipment is unaccounted for. Do not make Stormpike's angry completion Jern's spoken voice.
+- [302 Powder to Ironband](https://classicdb.ch/?quest=302): Stormpike sends approval ahead and asks the player to see the new powder reaches its destination. Jern has already dispatched Huldar with Miran and Saean. His surprise about the additional oversight is not a confession of theft or proof of complicity.
+- [273 Resupplying the Excavation](https://classicdb.ch/?quest=273): Jern directs the player south along the Loch to catch the loaded party. Huldar's completion reveals a Dark Iron ambush and Saean's allegiance after nearly a year of working together. The surprise and self-questioning are Huldar's. No invented clan relationship or attribution of the ambush to Jern.
+- [454 After the Ambush](https://classicdb.ch/?quest=454): Huldar watches the remaining goods while Miran moves barrels; the player is asked to escort Miran. Miran's completion anticipates further danger and asks for final preparations. Jern does not travel along on the escort merely because he arranged supplies.
+- [309 Protecting the Shipment](https://classicdb.ch/?quest=309): Miran asks for escort; the objective requires arrival and informing Ironband. Ironband's completion acknowledges the delivered powder and the troubling infiltrator news. This is the final linked task inspected; no hypothetical later investigation or resolution of all Dark Iron activity invented.
+
+Current quest-node start/end fields are sparse beyond436/297; broad Both side labels are not evidence Jern is Horde Friendly. Installed own generated quest-ID lookup has no1105 block, but QuestText includes the report referrals. Quest-only Compendium name search supplies no extra chain. No readable book linked by these inspected tasks. Reports are quest objects, not an invitation to invent unobserved report contents.
+
+Original BuddyDex story: Jern keeps a separate page of questions for an expedition he hopes to take himself. A friend adds a request to accompany him; he keeps room for it outside the accounting columns. Page, visitor, exchange and private reaction are invented. His ambition remains unfulfilled, with practical work still to do; friendship supplies company, not a career change or instant quest completion. NOD favorite, fifteen supported personal lines and four hidden tags, approved dwarf-male tNPIWbrnyCsbmVIg3tPK queued offline.
+
+## Bulrug: time for another farewell
+
+[Current primary10054](https://forever.warcraftdb.com/api/data/node/npc/10054) identifies Bulrug, Stable Master, Tauren6, level30, Horde Friendly, explicit Stable Master service. Adult male9272/M2 968705, packed9272:6:0. Standard adult body and independent service role support adult identity; no Elite classification. Current Thunder Bluff44.9022,59.4973 agrees with [primary Classic NPC10054](https://classicdb.ch/?npc=10054) and the established Lower Rise city identity. Two additional Barrens world-map pins do not establish a roaming route, three workplaces or a move away from Thunder Bluff. No personal Scout sighting claimed.
+
+All four current tabs starts/ends/sells/teaches0; raw Classic page has no related quest or goods table. No own captured gossip or generated quest-ID block; installed QuestText and quest-only Compendium searches have no Bulrug mention. No personal chain or native personal dialogue found in these inspected sources. His service title establishes a stable role without proving every contemporary retail service.
+
+Public retail references include later feast/Void events, pet recovery, battle-pet healing and a leash toy. Those are not imported into Forever. No guaranteed lost-pet recovery, battle-pet system, retail item sale, extra stable slot, native fee change or automatic transport through friendship. No relation to another Tauren inferred from profession or nearby location.
+
+Original: a visitor repeatedly announces a final scratch behind a companion's ears. Bulrug stops counting and waits, appreciating their affection rather than embarrassing them. Visitor, animal, incident, gentle humor and private preference are invented, not a captured scene or a claim every pet behaves the same way. Ordinary care and patience develop the stable role without inventing an exceptional taming power. SMILE favorite; fifteen supported lines/four hidden tags in approved tauren-male UHjFz97GTxtpwstZu19x, queued offline.
+
+## Other candidates reviewed
+
+Dermot2413: current Forsaken male1829/M2 959310, Horde Neutral near Alterac18.9762,91.8750, empty tabs and no own dialogue. Held for attackability/story review; a neutral icon alone does not establish a safe buddy.
+
+Guillaume Sorouy3557: current Journeyman Blacksmith in Silverpine, Horde Neutral, female3549/M2 997378 despite a name that may be read as masculine; no sex inferred from the name. Three own greetings express impatience, warcraft enthusiasm and a referral to James Van Brunt. Not authored this batch; current live reaction/non-attackability requires review, and no new voice assignment from a name guess.
+
+Prospector Whelgar1077: current Alliance Friendly Dwarf at the Wetlands excavation. Added Forever quest contacts98824/98216/98313/98310/95810 accompany Classic299, with differences among public quest lists. Held for a complete current-chain review, not reduced to the old single-quest story. His later retail retreat and quotes are not imported without version checks.
+
+## Scope and validation
+
+Current nodes/tabs and raw Classic NPC1105/10054, eight current quest nodes and raw Classic quest pages cached at C:/Users/brett/BuddyDex-builds/candidates-937. Both authored catalog groups are singletons without unresolved variants. Adult named role identities remain subject to ordinary live child/generic/reaction/attackability checks. Normal100/300 thresholds and character-specific progress unchanged. An Alliance Loch Modan contact and Horde capital stable master improve distinct regional/role coverage without claiming complete parity or a new Horde starter route.
+
+Main/Scout smoke passes with zero load errors/failures, all lore/page/line budgets and fresh/existing character roster isolation. Focused actual-addon harness `C:/Users/brett/AppData/Local/Temp/buddydex-jern-bulrug-937.py` passes Jern on Alliance and Bulrug on Horde, nonattackable reaction5 fresh sessions. Adult identity, approved live/declared voices, fifteen supported unmapped personal lines each, four hidden tones each, valid favorites, attackable/reaction3 rejection, HELLO25 plus favorite150=175,99/100 and299/300 normal thresholds, companion rejection at299 and text-only welcome at300 pass. Generic guards excluded. Mocked sessions do not prove live sightings, native services or quest results. No runtime or saved-variable changes.
+
+937 fully written profiles /454 with initial signature recordings /483 written-complete audio-pending. Jern1105 and Bulrug10054 add30 personal jobs/3881 tagged input characters in approved dwarf-male and tauren-male. Full offline audit15710 missing jobs/1337424 tagged input characters: shared3548/personal12162, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-937/queue.json`. Prior queue retained exactly plus thirty jobs. Catalog1536 name groups/1549 retained identities unchanged, nonexhaustive and overlapping the backlog; reviewed research-roster additions retained. Two uncertain Westfall identities remain unprofiled. No synthesis.
+
+Explicit Friendly406Alliance/400Horde/183unverified with52shared overlaps yields937 unique profiles. Dwarf96/Tauren104. Local installation and development ZIP verified6362files/6334audio mappings/138.92MiB; ZIP CRC passes and source/installed/ZIP Lore bytes match. ZIP SHA256 `04c49adb261e8235d25e028956f7c8c7c5c541adc59fe959b001cfd8112370f4`. Publishedv002 unchanged; no tag or CurseForge publication.

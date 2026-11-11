@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jern Hornhelm and Bulrug: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Read the complete excavation supply routes and preserve Jern’s ambition; give Thunder Bluff’s stable master a distinct original farewell story.
+
 - Add Denatharion and Naeluna Swiftmend: full Night Elf and Skyborne profiles, thirty personal lines queued.
 - Preserve Denatharion’s Staghelm loyalty and research both druid referral chains; verify Naeluna’s shared-friendly access and current instruction.
 
