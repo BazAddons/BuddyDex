@@ -4963,6 +4963,20 @@
       "zone": "Durotar",
       "route": "Trade supplier outside Razor Hill barracks",
       "reason": "All18 current goods and native vendor identity; original apple paperweight eaten at lunch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1632,
+      "name": "Adele Fielder",
+      "zone": "Elwynn Forest",
+      "route": "Goldshire leatherworking trainer",
+      "reason": "Three native greetings and full camping introduction97922 context; original Sir Prickle pincushion; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 270038,
+      "name": "Calder Gray",
+      "zone": "Undercity",
+      "route": "Royal Apothecary Society understudy",
+      "reason": "Full97985 including macabre progress and abomination completion; original numbered chair reconstruction; fifteen personal lines queued without synthesis"
     }
   ]
 }

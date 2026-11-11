@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Adele Fielder and Calder Gray: full female Human and Forsaken profiles, thirty personal lines queued.
+- Research Goldshire camping and native relationships alongside the Understudy's abomination quest; preserve separate character progress.
+
 - Add Warg Deepwater and Flakk: full Dwarf and Orc profiles, thirty personal lines queued.
 - Expand Loch Modan and Durotar early-route coverage with researched fishing and trade-supply roles.
 

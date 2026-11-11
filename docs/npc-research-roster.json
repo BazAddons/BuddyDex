@@ -5292,5 +5292,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult horde identity; All18 current goods and native vendor identity; original apple paperweight eaten at lunch; no Scout sighting claimed",
     "research_notes": "docs/research/wargs-dry-seat-and-flakks-paperweight.md"
+  },
+  {
+    "npc_id": 1632,
+    "name": "Adele Fielder",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult alliance identity; Three native greetings and full camping introduction97922 context; original Sir Prickle pincushion; no Scout sighting claimed",
+    "research_notes": "docs/research/adeles-sir-prickle-and-calders-chair.md"
+  },
+  {
+    "npc_id": 270038,
+    "name": "Calder Gray",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde identity; Full97985 including macabre progress and abomination completion; original numbered chair reconstruction; no Scout sighting claimed",
+    "research_notes": "docs/research/adeles-sir-prickle-and-calders-chair.md"
   }
 ]

@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 416,
+    "alliance": 417,
     "unverified": 184,
-    "horde": 414
+    "horde": 415
   },
   "npc_race_counts": {
-    "1": 168,
+    "1": 169,
     "3": 102,
     "7": 63,
     "2": 107,
-    "5": 108,
+    "5": 109,
     "4": 94,
     "9": 67,
     "8": 61,
@@ -21,7 +21,7 @@
     "95": 57
   },
   "zone_counts": {
-    "Elwynn Forest": 29,
+    "Elwynn Forest": 30,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 125,
@@ -33,7 +33,7 @@
     "Ironforge": 68,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 59,
-    "Undercity": 25,
+    "Undercity": 26,
     "Silverpine Forest": 10,
     "Teldrassil": 32,
     "Hillsbrad Foothills": 14,
@@ -1958,6 +1958,19 @@
       ],
       "reaction_evidence": "Current Alliance Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1572"
+    },
+    {
+      "npc_id": 1632,
+      "name": "Adele Fielder",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1632"
     },
     {
       "npc_id": 1652,
@@ -12080,6 +12093,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/269068"
     },
     {
+      "npc_id": 270038,
+      "name": "Calder Gray",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/270038"
+    },
+    {
       "npc_id": 270581,
       "name": "Fyrenz Vishonar",
       "zone": "Stormwind City",
@@ -12345,6 +12371,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 961,
-  "awaiting_signature_audio_profiles": 507
+  "authored_profiles": 963,
+  "awaiting_signature_audio_profiles": 509
 }

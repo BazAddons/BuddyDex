@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Adele Fielder, Journeyman Leatherworker, Goldshire Elwynn, adult Human female3335/M2 1000764, Alliance Friendly normal. Three native greetings: husband at front, Helene friendship, Simon referral; camping97922 and introduction reviewed. Sir Prickle leather pincushion original; no pet, new item, affair, husband fate or free recipe.
+    -- Research: docs/research/adeles-sir-prickle-and-calders-chair.md
+    [1632] = {
+        quote = "Sir Prickle is holding the pins today. A very dependable little knight. You may bow if you wish, though I suspect he would settle for keeping your sleeve out of his reach.",
+        likes = { "The familiar smell of leather", "Helene's kind and steadfast company", "A useful scrap made into something cheerful" },
+        dislikes = { "A good piece of leather wasted", "A pin found where a sleeve should go", "Being hurried through an explanation" },
+        gossip = "Adele made a little leather hedgehog to hold her pins. Her friend called him Sir Prickle. She now refers to him with unnecessary ceremony.",
+        bio = "Adele Fielder teaches leatherworking in Goldshire. Since her husband went to the front, Helene Peltskinner has been a source of strength and company. Adele enjoys her craft and refers accomplished learners to Simon Tanner in Stormwind.",
+        backstory = "She turned a leather offcut into a hedgehog-shaped pincushion. A friend bowed to it and called it Sir Prickle. Adele laughed, then thanked the little knight for his service. The ceremony has become a useful excuse for another smile.",
+        secret = "She straightens the little knight before a friend visits. A practical place for pins can also be something she is simply pleased to have made.",
+        bestFriend = "Come in, friend. Sir Prickle is ready, and so am I. You may begin with the grand greeting, or simply sit and tell me how your day has gone.",
+        favorite = {
+            emote = "BOW",
+            hint = "A little ceremony for her tiny workshop knight is quite enough to make her smile.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Come in, friend. Sir Prickle is ready to receive you. I have straightened him especially. A little bow will do; I am certain he understands that you have other important business.", tone = "[bright] [playful]" }, "Good to see you. How has the practice been going? Sit a moment and tell me which part you would like another look at." },
+            idle = { { "I made a little hedgehog from a leather offcut. My friend bowed and called him Sir Prickle. Now I find myself thanking him for his service whenever I put the pins away. A remarkably dignified little helper.", tone = "[warm] [amused]" }, "Helene has helped me through some difficult days. It is good to have someone whose kindness is as dependable as their willingness to stand beside you.", "I do love the smell of leather. A small offcut can still become something useful, or something that makes you pleased to sit down at the work again." },
+            befriended = { { "Come along, friend. You have earned a place in the company, with all the ceremony Sir Prickle thinks appropriate. I shall be pleased with an ordinary friendly greeting too.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? If it concerns the knight, he is attending to his duties with admirable patience.", "A moment. I am making certain the pins are where the sleeves are not." },
+            bowBack = { { "A most gracious greeting. Sir Prickle accepts, and I am trying very hard to answer with the dignity the occasion deserves.", tone = "[playful] [laughing]" } },
+            learned = { "Try it again while the explanation is still fresh. Then you can tell me which part became easier and which part would like a little more practice." },
+            gear = { "Look at how the piece is put together. The useful details deserve as much attention as the part everyone notices first." },
+            rest = { "A quiet pause would be lovely. Sit with me and tell me something about your day." },
+            newFriend = { "Make them feel welcome before asking them to be impressive. A friendly place to begin can make the rest easier." },
+            thanked = { "You are welcome. I am glad the help was useful. Show me how the next attempt goes when you have a moment." },
+            bagsFull = { "Set a little space aside before you begin. Even a small offcut deserves a better place than somewhere you will have to hunt for it later." },
+        },
+    },
+
+    -- Calder Gray, Understudy Royal Apothecary Society, Undercity, adult Forsaken male146312/M2 959310, Horde Friendly normal. Full97985 including macabre progress and abomination heart completion reviewed. Numbered chair reconstruction original; no medical cure, Society reform, friendly abomination reward or transplant feature.
+    -- Research: docs/research/adeles-sir-prickle-and-calders-chair.md
+    [270038] = {
+        quote = "Four legs, a back, and no complaints. An entirely successful assembly. Yes, I am speaking of the chair. You may inspect the workmanship before providing the final test.",
+        likes = { "An assembly that follows the notes", "A remarkable specimen to examine", "A friend willing to inspect his chair" },
+        dislikes = { "A vital component missing at the end", "Instructions that omit the useful detail", "Being interrupted before the result is clear" },
+        gossip = "Calder numbered a chair before reassembling it. His friend called sitting down the final test. He watched with great interest.",
+        bio = "Calder Gray is an understudy of the Royal Apothecary Society in the Undercity. Fascinated by abomination construction, he seeks Stormheart's massive heart for the work. His excitement has a distinctly unsettling edge.",
+        backstory = "He took apart a chair, numbered the pieces, and assembled it again from his notes. A friend asked when the testing would begin. Calder indicated the seat. It held. He considered the demonstration a success worth discussing at length.",
+        secret = "He checks that the chair is ready before that friend visits. An ordinary reconstruction can be satisfying too, especially when the person inspecting it supplies such dry commentary.",
+        bestFriend = "There you are, friend. The seat is prepared. You may give your verdict on the assembly before we discuss what else has caught your interest.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "A properly timed round of applause gives his small reconstruction the reception he was hoping for.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You have returned, friend. The chair is ready for inspection. Four legs, a back, and a successful earlier trial. You may supply another opinion while I observe the result.", tone = "[raspy] [eager]" }, "Welcome back. What have you found? I am prepared to hear the useful details at considerable length." },
+            idle = { { "I numbered every piece of the chair. Followed my notes precisely. My friend asked when I intended to test it, so I indicated the seat. It held. A successful assembly deserves an attentive account, even when it has only four legs.", tone = "[dry] [pleased]" }, "The instructions become much more interesting when you can examine the component they describe. A missing detail has a way of becoming very important at the end.", "Abomination construction. Such remarkable possibilities in the arrangement of the parts. One ought to appreciate the scale of the work before dismissing a particularly ambitious requirement." },
+            befriended = { { "Come beside me, friend. You have earned the right to inspect an ordinary reconstruction and deliver your verdict with that excellent dry expression. I shall make a proper occasion of it.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? Have you found a missing detail? I should like to hear it before the assembly continues.", "A moment. I am considering whether the notes account for that particular result." },
+            quest = { { "Stormheart is no docile creature. Bring capable company if you mean to obtain that heart. Such an impressive component warrants preparation as well as enthusiasm.", tone = "[intent] [animated]" } },
+            gear = { "Examine how the parts fit together before you depend on the whole. An attractive finish can distract from an omission in the assembly." },
+            applaudToo = { "Excellent. A suitable reception for the demonstration. I shall include your favorable assessment when I recount how well the chair held." },
+            newFriend = { "Ask what they have been working on. An ordinary answer may contain a detail worth considering." },
+            rest = { "A pause is agreeable. I have a perfectly serviceable chair to recommend, should the subject arise." },
+            thanked = { "You are welcome. I appreciate an account of what proved useful. It gives the result a more satisfactory conclusion." },
+            group = { "Make certain the company understands the task before setting out. Enthusiasm alone is a poor substitute for the people a difficult acquisition will require." },
+        },
+    },
+
     -- Warg Deepwater, Fisherman, western Loch bank Loch Modan, adult Dwarf male1848/M2 878772, Alliance Friendly normal trainer. Three native fishing/referral greetings; no own quests found. Wet boot while finding dry seat original; no Khara kinship, guaranteed catch or training cap.
     -- Research: docs/research/wargs-dry-seat-and-flakks-paperweight.md
     [1683] = {

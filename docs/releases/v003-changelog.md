@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Adele Fielder and Calder Gray: full female Human and Forsaken profiles, thirty personal lines queued.
+- Research Goldshire camping and native relationships alongside the Understudy's abomination quest; preserve separate character progress.
+
 - Add Warg Deepwater and Flakk: full Dwarf and Orc profiles, thirty personal lines queued.
 - Expand Loch Modan and Durotar early-route coverage with researched fishing and trade-supply roles.
 
@@ -745,4 +748,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **961 fully written NPC profiles**: 454 have initial signature recordings, and five hundred seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **963 fully written NPC profiles**: 454 have initial signature recordings, and five hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
