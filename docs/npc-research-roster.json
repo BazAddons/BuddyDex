@@ -4704,5 +4704,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde man; Full Ursera and Nightclaw branches, rare-druid gossip; original visitor without a message; no Scout sighting claimed",
     "research_notes": "docs/research/gothors-copper-and-lotheluums-visitor.md"
+  },
+  {
+    "npc_id": 253004,
+    "name": "Iaadaria Bitterwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance woman; Full92741 and guarded-work gossip; original elaborate introduction to ordinary water; no Scout sighting claimed",
+    "research_notes": "docs/research/iaadarias-water-and-margozs-words.md"
+  },
+  {
+    "npc_id": 3208,
+    "name": "Margoz",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde man; Full collar and Demon Seed branch, acknowledged limits; original tongue-twister practice, human namesake excluded; no Scout sighting claimed",
+    "research_notes": "docs/research/iaadarias-water-and-margozs-words.md"
   }
 ]

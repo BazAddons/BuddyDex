@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Iaadaria Bitterwind, Alchemist, Valanaar/Zephras. Adult High Order Skyborne female140062/M2 7478494, Alliance Friendly. Full92741 and own guarded-work gossip; Trainer/Vendor and four vial goods. Elaborately introduced ordinary water original, no potion recipe or friendship training benefit.
+    -- Research: docs/research/iaadarias-water-and-margozs-words.md
+    [253004] = {
+        quote = "I have important work before me. If you have come simply for company, say so. I may be persuaded to put down the elaborate description and offer you a perfectly ordinary cup of water.",
+        likes = { "Research that also serves the community", "A question worth leaving her work for", "Company that recognizes an elaborate joke" },
+        dislikes = { "Interruptions without a clear purpose", "The spread of shrieklings beyond the woods", "An untested idea presented as a result" },
+        gossip = "Iaadaria once gave a cup of water an impressively scholarly introduction. Her friend asked if it was water. She admitted the result was conclusive.",
+        bio = "Iaadaria Bitterwind is an alchemist of the High Order in Valanaar. She seeks shriekling talons for study while addressing their spread beyond Shadowgale Forest. Her enthusiasm for research shares space with a guarded workday.",
+        backstory = "A visiting friend received an elaborate account of the refreshment she had prepared. They asked whether it was water. Iaadaria paused, confirmed it was, and accepted their toast to a conclusive investigation.",
+        secret = "She enjoys a friend who can follow the scholarly flourish and gently puncture it. An ordinary conversation can be worth setting the work aside.",
+        bestFriend = "Water, friend? I shall spare you the longer introduction this time. Unless you came especially to hear how impressive I can make it sound.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing smile tells her you appreciated the scholarly flourish and understood the joke beneath it.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. Have you a question, or have you come for company? Either can justify a pause, provided you tell me which. I would hate to prepare an entire scholarly introduction when you only wanted some water.", tone = "[precise] [amused]" }, "Greetings. Give me a moment to put down the work, and tell me what has brought you here." },
+            idle = { { "I offered an elaborate account of the refreshment. My friend asked whether it was water. An admirably direct question. I confirmed the result, and we toasted a most conclusive investigation.", tone = "[dry] [playful]" }, "A problem beyond the forest can also present a question worth studying. Practical service and scholarly gain need not always compete for one's attention.", "I do value a clear purpose when someone interrupts. But company can be a purpose, once we have been honest enough to name it." },
+            befriended = { { "You can appreciate an elaborate explanation and still ask the simple question beneath it. I enjoy that more than I ought to admit. Come along, friend. There are conversations worth leaving a little work unfinished for.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Please tell me this interruption comes with an interesting question.", "A moment. I am arranging the thought so I can put it down without losing it." },
+            quest = { { "Tell me what you observed, as well as what you brought back. A useful collection becomes more valuable when someone took the trouble to notice its circumstances.", tone = "[focused] [instructive]" } },
+            learned = { "Good. Leave room between understanding the instruction and declaring yourself satisfied with every application." },
+            bagsFull = { "Keep the fragile things protected and the contents identifiable. A bag full of uncertain containers is an unfortunate substitute for preparation." },
+            rest = { "A pause, then. We can allow the conversation to remain a conversation rather than giving it a more impressive title." },
+            thanked = { "You are welcome. A clear acknowledgment is a satisfactory result." },
+            newFriend = { "Ask what they wish to know before offering an entire explanation. You may save yourselves both a considerable detour." },
+            laughAlong = { "Yes, yes. Perfectly ordinary water. I concede that your summary was more efficient." },
+        },
+    },
+
+    -- Margoz, Orc shaman, northeastern Durotar. Adult male3752/M2 917116, Horde Friendly. Full806/828/827/829/809/924: collar study, admitted limits, qualified reliance on Neeru. Harmless tongue-twister practice original. Not the human Cycle of Hatred fisherman; no solved corruption or actual quest result.
+    -- Research: docs/research/iaadarias-water-and-margozs-words.md
+    [3208] = {
+        quote = "A wise answer can begin with admitting what you do not know. That includes the words of this ridiculous phrase. Say it again, friend. More slowly.",
+        likes = { "The courage to acknowledge a limit", "An honest question before a dangerous act", "A difficult phrase learned without pretending" },
+        dislikes = { "Demonic power hidden behind promises", "Boasting beyond what one understands", "Failure concealed rather than examined" },
+        gossip = "Margoz asks a friend to repeat a tongue-twister. He has learned the opening, but refuses to claim the rest is conquered.",
+        bio = "Margoz is a shaman camped in northeastern Durotar. He studies the Burning Blade's searing collars from Skull Rock, then acknowledges his limits and seeks Neeru Fireblade's expertise despite doubts about the warlock's claims.",
+        backstory = "A friend taught him a tongue-twister. Margoz made a dignified attempt, stumbled, and asked to hear it again. When he finally managed the opening, he accepted the small triumph without pretending the rest was conquered.",
+        secret = "He enjoys learning something harmless in a friend's company. A small mistake can become a reason to laugh and try again, rather than a danger to hide.",
+        bestFriend = "Say it again, friend. Slowly. I promised to learn it, not to pretend I had already succeeded. Your patience is good company.",
+        favorite = {
+            emote = "CLAP",
+            hint = "A little appreciation for an honest small success encourages him to try the next difficult words.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. If you have brought that difficult phrase again, sit beside me. I have made progress with the opening. I would rather show you what I can manage than announce mastery of words I still cannot say.", tone = "[warm] [wry]" }, "Welcome back. Speak plainly of what you have found, and of what remains uncertain." },
+            idle = { { "My friend gave me a tongue-twister. I made a dignified beginning, then stumbled rather less impressively. We began again. There is comfort in a harmless difficulty that asks only patience, and permits us both to laugh.", tone = "[reflective] [amused]" }, "Knowing something of corruption does not mean I understand every instrument it has made. Acknowledging that limit can be more useful than defending a reputation for wisdom.", "A promise to turn dark power against demons deserves examination. I will not call a claim true simply because I need the knowledge of the person making it." },
+            befriended = { { "You can hear me admit a limit without deciding there is nothing left worth hearing. Come along, friend. I value the patience you bring, whether the difficulty is grave or merely a few troublesome words.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? Give me the question before deciding what answer you hope to hear.", "A moment, friend. I was attempting the phrase silently. This has not yet made it easier." },
+            quest = { { "Tell me what the evidence supports. If something exceeds our understanding, say so. We gain nothing by replacing a dangerous uncertainty with an impressive assertion we cannot defend.", tone = "[grave] [instructive]" } },
+            learned = { "Remember what the lesson has shown you, and where its reach ends. There is no shame in having another question afterward." },
+            rest = { "A quiet pause. We can practice the harmless difficulty, or leave even that for another moment." },
+            newFriend = { "Let them ask their question without needing first to appear accomplished. An honest beginning is worth welcoming." },
+            thanked = { "You are welcome, friend. Put the guidance to useful work, and question it where understanding asks you to." },
+            group = { "Know whose knowledge you need, as well as whose strength. None of us becomes wiser by insisting we can do everything alone." },
+            laughAlong = { "Yes, the phrase has defeated me again. Fortunately, this opponent seems content to permit another attempt." },
+        },
+    },
+
     -- Gothor Brumn, Armorer, Algaz Station/Loch Modan. Adult Dwarf male1835/M2 878772, Alliance Friendly. Current Repair/Vendor and six chainmail pieces; no linked quests/own gossip. Gloved copper encounter original; no forge history or new gear benefit.
     -- Research: docs/research/gothors-copper-and-lotheluums-visitor.md
     [1362] = {

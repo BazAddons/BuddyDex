@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Iaadaria Bitterwind and Margoz, expanding Skyborne and Orc profiles with thirty personal lines queued.
+- Preserve the alchemist's research priorities and the shaman's acknowledged limits; distinguish original water introduction and tongue-twister practice from native quests and the human Margoz namesake.
+
 - Add Gothor Brumn and Lotheluum Starbreeze, expanding Loch Modan and Skyborne coverage with thirty personal lines queued.
 - Preserve practical armorer services and the druid trainers grief and unanswered suspicions; distinguish original copper encounter and message-free visit from native rewards.
 

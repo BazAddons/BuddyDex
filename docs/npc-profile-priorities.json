@@ -4375,6 +4375,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar druid correspondence and training",
       "reason": "Full Ursera and Nightclaw branches, rare-druid gossip; original visitor without a message; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 253004,
+      "name": "Iaadaria Bitterwind",
+      "zone": "Zephras Isle",
+      "route": "Valanaar High Order alchemist",
+      "reason": "Full92741 and guarded-work gossip; original elaborate introduction to ordinary water; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3208,
+      "name": "Margoz",
+      "zone": "Durotar",
+      "route": "Northeastern Durotar shaman and Skull Rock",
+      "reason": "Full collar and Demon Seed branch, acknowledged limits; original tongue-twister practice, human namesake excluded; fifteen personal lines queued without synthesis"
     }
   ]
 }
