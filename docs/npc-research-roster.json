@@ -5068,5 +5068,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde identity; Full3568/3569/3570 including cruel progress; original empty-cup objection; no Scout sighting claimed",
     "research_notes": "docs/research/eridans-shade-and-cuelys-observation.md"
+  },
+  {
+    "npc_id": 11865,
+    "name": "Buliwyf Stonehand",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; Three plainspoken/referral greetings and6 lessons; original deliberately wrong riddle answer; no Scout sighting claimed",
+    "research_notes": "docs/research/buliwyfs-riddle-and-ansekhwas-bow.md"
+  },
+  {
+    "npc_id": 11869,
+    "name": "Ansekhwa",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Two courteous/referral greetings and3 current lessons; original bow for a quarrel resolved without blows; no Scout sighting claimed",
+    "research_notes": "docs/research/buliwyfs-riddle-and-ansekhwas-bow.md"
   }
 ]

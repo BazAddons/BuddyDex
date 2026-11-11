@@ -4739,6 +4739,20 @@
       "zone": "Undercity",
       "route": "Apothecarium Seeping Corruption experiment",
       "reason": "Full3568/3569/3570 including cruel progress; original empty-cup objection; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11865,
+      "name": "Buliwyf Stonehand",
+      "zone": "Ironforge",
+      "route": "Elite Ironforge weapon master",
+      "reason": "Three plainspoken/referral greetings and6 lessons; original deliberately wrong riddle answer; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11869,
+      "name": "Ansekhwa",
+      "zone": "Thunder Bluff",
+      "route": "Elite Thunder Bluff weapon master",
+      "reason": "Two courteous/referral greetings and3 current lessons; original bow for a quarrel resolved without blows; fifteen personal lines queued without synthesis"
     }
   ]
 }

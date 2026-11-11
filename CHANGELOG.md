@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Buliwyf Stonehand and Ansekhwa: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research current weapon lessons and distinct teaching voices; preserve elite friendship thresholds for both.
+
 - Add Eridan Bluewind and Chemist Cuely: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research restoration, Linken and Seeping Corruption chains; preserve their distinct motives and native quest outcomes.
 

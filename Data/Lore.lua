@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Buliwyf Stonehand, Ironforge Weapon Master (current Dun Morogh projection), adult Dwarf male11806/M2 878772, Alliance Friendly elite. Three plainspoken/referral greetings and6 current lessons, no own quests. Deliberately wrong riddle answer original; no inferred Stonehand family, film biography or free training.
+    -- Research: docs/research/buliwyfs-riddle-and-ansekhwas-bow.md
+    [11865] = {
+        quote = "Aye, I know the answer. I gave ye the wrong one because ye made that face again. Now speak up and give me another. A fair riddle deserves a more troublesome audience than a silent nod.",
+        likes = { "A question spoken plainly", "A riddle with a fair answer", "The look a ridiculous guess produces" },
+        dislikes = { "Mumbling in place of a clear request", "A flourish hiding poor understanding", "A riddle answered only with a sermon" },
+        gossip = "Buliwyf keeps offering the wrong answer to a friend's riddle. They suspect he has been enjoying the argument longer than the puzzle.",
+        bio = "Buliwyf Stonehand is a weapon master in Ironforge. He teaches axes, maces, fist weapons and guns, and directs other learners toward Bixi Wobblebonk and fellow Alliance masters. His instruction begins with a demand to speak up.",
+        backstory = "A friend brought a riddle. Buliwyf solved it, then offered a ridiculous answer at their next visit. The look they gave him was excellent. He asked to try again, enjoying how firmly they defended the proper answer.",
+        secret = "He likes enjoying a conversation without having to be its master. A friend who argues with his poor answer can stand beside him without waiting for instruction.",
+        bestFriend = "Come along, friend. Ye may bring another riddle. I enjoy hearing ye defend an answer, especially when ye know I am being troublesome.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin can recognize when the ridiculous answer is part of his enjoyment.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Aye, there ye are, friend. Have ye brought another riddle? Speak up. I should hear the question properly before deciding which ridiculous answer will produce that excellent expression of yers. A fair puzzle deserves a little opposition, even when I already know where it ends.", tone = "[gruff] [amused]" }, "Welcome back. A question about the work, or another opportunity for ye to tell me that my answer is plainly impossible?" },
+            idle = { { "They brought me a riddle. I found the answer, then offered a much worse one the next time. The look they gave me was excellent. Aye, I asked to try again. By then I was enjoying how firmly they defended the proper answer rather more than solving it myself.", tone = "[dry] [chuckling]" }, "Ask plainly if ye want to learn. Standing there hoping I will guess the question is a slow beginning to any lesson.", "There is no shame in needing another teacher for what I do not offer. Know what ye came to learn before deciding the whole task is finding someone impressive to ask." },
+            befriended = { { "Ye can tell me the answer is wrong without waiting to discover whether I intended a lesson in it. I enjoy that, friend. Come along. We may have a conversation in which neither of us needs to perform the part of master for every moment of it.", tone = "[hearty] [warm]" } },
+            poke = { "Aye, friend? Say the question. I shall decide afterward whether it requires the proper answer or a more troublesome one.", "A moment. I am considering whether that guess would annoy ye enough to be worth offering." },
+            learned = { { "Understand what ye are asking to learn. A confident introduction will not do the work for ye, and a grand flourish will not explain the part ye have overlooked. Speak up about what ye do not understand; that gives the lesson somewhere useful to begin.", tone = "[firm] [instructive]" } },
+            quest = { "Know what was asked before deciding the answer ought to be more impressive. My ridiculous guesses belong with the riddle, not with someone waiting for the work." },
+            gear = { "Learn what ye are handling before relying on how grand it looks. The appearance is easier to admire than the understanding is to acquire." },
+            rest = { "A pause, then. Ye may tell the riddle again, provided ye are prepared for me to enjoy the wrong answer quite deliberately." },
+            newFriend = { "Let them speak. Ye will learn more from a clear question than from deciding what they must have meant before they have begun." },
+            thanked = { "Aye, ye're welcome. I am glad the useful answer reached ye. I do provide one occasionally, despite what our riddle might suggest." },
+            group = { "One question at a time, and speak plainly. If everyone supplies a different beginning, we will spend the afternoon trying to identify what we are answering." },
+        },
+    },
+
+    -- Ansekhwa, Thunder Bluff Weapon Master, adult Tauren male11803/M2 968705, Horde Friendly elite. Courteous/referral greetings and3 current lessons, no own quests. Bow for a quarrel resolved without blows original; no universal pacifism, historical gun-training guarantee or new combat benefit.
+    -- Research: docs/research/buliwyfs-riddle-and-ansekhwas-bow.md
+    [11869] = {
+        quote = "You found another way through the quarrel. I am glad. The weapons I teach have their place; that need not mean every disagreement must be made to find one.",
+        likes = { "A learner honest about their ability", "A quarrel ended without needless injury", "Respect shared between fellow teachers" },
+        dislikes = { "A weapon drawn merely to answer an insult", "Pride that refuses a useful lesson", "An ordinary disagreement made into a test" },
+        gossip = "A friend expected Ansekhwa to judge a quarrel by who had won. He asked how it ended, then bowed when they said they had talked.",
+        bio = "Ansekhwa is a weapon master in Thunder Bluff. He offers instruction with formal courtesy to those able to learn. His current lessons cover maces and staves, while his directions acknowledge other Horde weapon masters.",
+        backstory = "A friend told him about a quarrel in which their hand had nearly gone to a weapon. Expecting a lecture, they explained that they had stepped back and talked instead. Ansekhwa bowed. That part of the account, he said, was worth remembering.",
+        secret = "He likes hearing of an argument that never became a story of blows. There is little to boast about, yet someone went home unhurt. He considers that worth a bow.",
+        bestFriend = "Tell me how you are, friend. You need not bring an account of a victory before I am glad to see you.",
+        favorite = {
+            emote = "BOW",
+            hint = "A respectful bow can acknowledge good judgment without turning the moment into a display of strength.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. How did the matter end? I would be glad to hear the account without requiring it to become a victory before it is worth telling. Sometimes a disagreement ends because someone found a better use for their voice than demanding another person yield.", tone = "[steady] [welcoming]" }, "There you are. If you wish to learn, speak honestly about where you stand. If you have come for company, that is welcome too." },
+            idle = { { "They expected a lecture. Their hand had nearly gone to a weapon during the quarrel. How did it end, I asked. They had stepped back and talked. I bowed. That seemed a part of the account worth remembering, even if it left rather less to boast about.", tone = "[reflective] [gentle]" }, "A learner who admits what they do not yet understand gives the teacher something honest to work with. Pride can make that beginning needlessly difficult.", "Another master may have the instruction you require. Respect for a teacher does not ask you to pretend that one person must provide every lesson." },
+            befriended = { { "You have shared the part of an account that is easy to overlook when everyone asks who won. I value that, friend. Come along. There is room for plain company without requiring another contest to prove that we have earned the time to spend together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Tell me what you wish to ask; there is no need to make it sound more advanced first.", "A moment. I would like to hear the answer as carefully as the question." },
+            combatEnd = { { "Take a moment to look after one another. The struggle has ended; the people who stood beside you still deserve your attention. There will be time for the account of what happened after everyone has had a chance to say how they are.", tone = "[serious] [reassuring]" } },
+            learned = { "Put the understanding beside the practice. A lesson is more useful when you know what you can do and why you would choose to do it." },
+            gear = { "Understand what the weapon asks of you before deciding its appearance is enough reason to rely upon it." },
+            newFriend = { "Give them room to describe how the matter ended. The answer may tell you more than the first claim about who was stronger." },
+            thanked = { "You are welcome. I am glad the instruction was useful. An honest question deserved a careful answer." },
+            group = { "Hear what each person has agreed to do. Cooperation is easier when no one must guess whether the others are listening." },
+            rest = { "A little quiet is welcome. We may speak without making the conversation another test of what either of us can demonstrate." },
+        },
+    },
+
     -- Eridan Bluewind, Emerald Sanctuary Felwood Emerald Circle Druid, adult Night Elf female9136/M2 921844, current Horde Friendly. FullJadefire, flute and Linken/Aquementas chains despite empty current tabs, own restoration greeting. Ordinary shade instead of monument original; no finished healing or native quest reward.
     -- Research: docs/research/eridans-shade-and-cuelys-observation.md
     [9116] = {
