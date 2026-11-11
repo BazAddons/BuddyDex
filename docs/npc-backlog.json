@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 967,
-  "written_complete_count": 967,
-  "awaiting_signature_audio_count": 513,
+  "authored_count": 969,
+  "written_complete_count": 969,
+  "awaiting_signature_audio_count": 515,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 515,
+  "remaining_count": 517,
   "completed": [
     {
       "npc_id": 54,
@@ -2105,6 +2105,18 @@
       "zone": "Hillsbrad Foothills",
       "source": "Reviewed adult horde man; Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; no Scout sighting claimed",
       "research_notes": "docs/research/glorins-table-and-krusks-cord.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 2239,
+      "name": "Drull",
+      "zone": "Hillsbrad Foothills",
+      "source": "Reviewed adult horde identity; Two native gossip entries and full rescue498 with related Krusk branch; original wrong-foot dance memory; no Scout sighting claimed",
+      "research_notes": "docs/research/helenes-voyage-and-drulls-first-step.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
@@ -6354,6 +6366,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 6306,
+      "name": "Helene Peltskinner",
+      "zone": "Elwynn Forest",
+      "source": "Reviewed adult alliance identity; Native Adele friendship and full91751/91746/97924; original bark boat voyage in basin; no Scout sighting claimed",
+      "research_notes": "docs/research/helenes-voyage-and-drulls-first-step.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "human-female",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

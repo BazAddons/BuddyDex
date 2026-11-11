@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Helene Peltskinner, Skinner near Goldshire, adult Human female5365/M2 1000764, Alliance Friendly normal trainer. Native Adele context, full91751/91746/97924; unnamed husband near abbey. Bark boat in basin original; no family inferred from surname or actual boat reward.
+    -- Research: docs/research/helenes-voyage-and-drulls-first-step.md
+    [6306] = {
+        quote = "That little boat has crossed the basin three times. A fine voyage, provided its captain does not notice we have been passing the same handle all afternoon.",
+        likes = { "A story after a good day outdoors", "Making useful things from good hides", "A cheer for an unlikely little voyage" },
+        dislikes = { "Wasteful cuts through a sound hide", "Work rushed before it is ready", "A damp sleeve in the washbasin" },
+        gossip = "Helene once launched a bark boat in a basin. Her friend cheered its grand voyage, though it kept returning to the handle.",
+        bio = "Helene Peltskinner works near Goldshire and helps Adele Fielder. Her husband hunts near the abbey. She prepares trophies, gathers pelts for orders and teaches a camping lesson. Her own small amusements require rather less wilderness.",
+        backstory = "A piece of bark looked enough like a boat to deserve a trial in a basin. Her friend supplied a stirring account of the voyage. Helene tried to steer it with a finger and soaked her sleeve. The account became considerably more dramatic.",
+        secret = "She could let the little boat drift without the commentary. But the basin seems a much larger place when her friend is there to announce what lies beyond the handle.",
+        bestFriend = "Another voyage, friend? You tell the story this time. I shall keep my sleeve safely ashore and listen for the exciting part.",
+        favorite = {
+            emote = "CHEER",
+            hint = "An enthusiastic reception can turn a very small voyage into quite an occasion.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Welcome back! The little boat has seen more of the basin than I expected. Tell me where you have been. I should like an account of a voyage that got beyond the handle.", tone = "[warm] [amused]" }, "Good to see you. Have you time for a story? I have nearly finished this part of the work, and I would rather hear yours than guess from your expression." },
+            idle = { { "My friend made that bark boat sound like a grand expedition. I tried to help it along with a finger and put my sleeve in the water. Apparently that was the storm at sea.", tone = "[bright] [playful]" }, "Good hides deserve careful handling. The part you cut away cannot be persuaded back into place, however convincing your explanation.", "There is something pleasant about a small amusement after the work. A basin need not be an ocean to give two friends an afternoon worth remembering." },
+            befriended = { { "Come and tell me a story, friend. You need not bring a trophy every time. I am perfectly willing to hear about a pleasant walk that ended without anything trying to eat you.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? Has the captain found the handle again? That landmark is becoming suspiciously familiar.", "Give me a moment to finish this cut. Then you may explain why you are smiling." },
+            cheerAlong = { { "A splendid reception! The captain will be delighted. Let us hope the next circuit of the basin contains something deserving of all that enthusiasm.", tone = "[animated] [delighted]" } },
+            quest = { "Bring the pelts you were asked for, and take care with them. A good start deserves the attention needed to finish it." },
+            learned = { "Give the skill time and practice. Understanding the explanation is a start; working carefully is how you make it useful." },
+            rest = { "Take a comfortable moment. Even a story about an ocean voyage can be told with both feet resting safely on the floor." },
+            loot = { "Look at the condition before deciding what can be made of it. A useful piece is worth more thought than a hurried glance." },
+            newFriend = { "Ask them about their day. You may discover that a small adventure is an excellent story when someone is pleased to listen." },
+            thanked = { "You are welcome. I am glad it helped. And if that was thanks for the entertainment, I shall inform the captain." },
+        },
+    },
+
+    -- Drull, captive Durnholde Hillsbrad, adult Orc male3687/M2 917116, Horde Friendly normal. Two native gossip entries, rescue498 and escape quotes; related Krusk branch reviewed. Wrong-foot dance memory before capture original; friendship does not free bonds or complete rescue.
+    -- Research: docs/research/helenes-voyage-and-drulls-first-step.md
+    [2239] = {
+        quote = "I remember a dance I could never start properly. My friend began with my wrong step instead. We looked ridiculous together. That was better.",
+        likes = { "Friends who return for one another", "A laugh that includes everyone", "Remembering the next dance" },
+        dislikes = { "Being mocked while unable to answer", "Captors keeping friends apart", "Leaving someone behind" },
+        gossip = "Drull remembers a dance he kept starting wrong. A friend copied his first step, and soon neither could keep a straight face.",
+        bio = "Drull is an orc captive at Durnholde. Krusk seeks help for him and Tog'thar after their expedition was overwhelmed. Drull resents mockery in his bonds, yet still thinks of the companion held apart from him. He has happier memories too.",
+        backstory = "Before his capture, he tried to learn a dance from a friend. He began with the wrong foot so often that the friend copied him. They made a new beginning of the mistake and laughed through the rest. He has not forgotten that beginning.",
+        secret = "The steps were never the important part. His friend could have laughed at him alone. Instead they chose to look foolish together, and made him want to try again.",
+        bestFriend = "There will be another dance, friend. When there is, begin on the wrong foot with me. I know that part very well.",
+        favorite = {
+            emote = "DANCE",
+            hint = "A friendly dance brings back a memory of someone who chose to share his mistake.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "You came back. Good. I would hear what you have to say. Speak to me as a friend, and I will try to remember something worth telling you in return.", tone = "[guarded] [warming]" }, "Do not forget Tog'thar. Being kept apart does not make him any less my concern. If you have news, I am listening." },
+            idle = { { "I kept starting a dance with the wrong foot. My friend finally started the same way. We were both wrong then, but I could hardly stop laughing long enough to care.", tone = "[reflective] [amused]" }, "A friend can laugh with you without making you feel small. I remember the difference. It matters more than knowing every step.", "I would like another ordinary evening. Nothing grand. A familiar voice, room to stand, and someone who knows why the first step is wrong." },
+            befriended = { { "I will remember you, friend. A person who returns is worth remembering. When there is room for happier things, remind me that I still owe you a very badly started dance.", tone = "[steady] [fond]" } },
+            poke = { "I hear you. Give me a moment to put the memory into words.", "If you have come to mock me, save your breath. If you have come to speak, I am here." },
+            cheerAlong = { { "That is the spirit I remember. My friend made one wrong step sound like the finest performance of the evening. I knew better. I was still pleased.", tone = "[wry] [warm]" } },
+            comforted = { "Stay a little, if you can. You need not find the perfect thing to say. Being willing to listen is already something." },
+            newFriend = { "Remember who is missing as well as who is beside you. A welcome means more when it leaves room for those who have not returned." },
+            quest = { "Do what you can for the others. My own troubles have not made me forget theirs." },
+            rest = { "Tell me about an evening when nothing went wrong. I should like to hear such a story for a change." },
+            thanked = { "You are welcome. I am glad there was something I could offer. A person does not cease to be useful because he needs help." },
+            laughAlong = { "Yes, that is how my friend laughed. With me. I have room for that kind of laughter." },
+        },
+    },
+
     -- Arantir, The Hand of Chaos, Lakeshire Redridge, adult Night Elf male5768/M2 974343, Alliance Friendly Elite45. Full historical2358 and linked2205/2300/2281/2282 context reviewed; current2358 API404 so no live quest offer promised. Spoon-clink demonstration original; no Ravenholdt rank, free tea, stealth buff or Legion events.
     -- Research: docs/research/arantirs-spoon-and-anders-gate.md
     [7009] = {

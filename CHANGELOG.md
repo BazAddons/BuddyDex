@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Helene Peltskinner and Drull: full female Human and Orc profiles, thirty personal lines queued.
+- Research Helene and Drull through Forever quests and captive dialogue; preserve separate character progress and normal eligibility.
+
 - Add Arantir and Ander Solliden: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Preserve Arantir's elite thresholds and bounded historical lore; research Ander's farm memories and keep dialogue.
 

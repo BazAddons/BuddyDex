@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 419,
+    "alliance": 420,
     "unverified": 184,
-    "horde": 417
+    "horde": 418
   },
   "npc_race_counts": {
-    "1": 170,
+    "1": 171,
     "3": 102,
     "7": 63,
-    "2": 108,
+    "2": 109,
     "5": 110,
     "4": 95,
     "9": 67,
@@ -21,7 +21,7 @@
     "95": 57
   },
   "zone_counts": {
-    "Elwynn Forest": 31,
+    "Elwynn Forest": 32,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 125,
@@ -36,7 +36,7 @@
     "Undercity": 26,
     "Silverpine Forest": 10,
     "Teldrassil": 32,
-    "Hillsbrad Foothills": 14,
+    "Hillsbrad Foothills": 15,
     "Arathi Highlands": 11,
     "Orgrimmar": 63,
     "Badlands": 1,
@@ -2743,6 +2743,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2229"
+    },
+    {
+      "npc_id": 2239,
+      "name": "Drull",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2239"
     },
     {
       "npc_id": 2310,
@@ -7686,6 +7699,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6301"
     },
     {
+      "npc_id": 6306,
+      "name": "Helene Peltskinner",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6306"
+    },
+    {
       "npc_id": 6328,
       "name": "Dannie Fizzwizzle",
       "zone": "Dun Morogh",
@@ -12423,6 +12449,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 967,
-  "awaiting_signature_audio_profiles": 513
+  "authored_profiles": 969,
+  "awaiting_signature_audio_profiles": 515
 }

@@ -5005,6 +5005,20 @@
       "zone": "Tirisfal Glades",
       "route": "Bandarion Keep lookout",
       "reason": "All native farm/grief dialogue and full keep introduction; original squeaky gate memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6306,
+      "name": "Helene Peltskinner",
+      "zone": "Elwynn Forest",
+      "route": "Skinner near Goldshire",
+      "reason": "Native Adele friendship and full91751/91746/97924; original bark boat voyage in basin; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2239,
+      "name": "Drull",
+      "zone": "Hillsbrad Foothills",
+      "route": "Captive at Durnholde",
+      "reason": "Two native gossip entries and full rescue498 with related Krusk branch; original wrong-foot dance memory; fifteen personal lines queued without synthesis"
     }
   ]
 }
