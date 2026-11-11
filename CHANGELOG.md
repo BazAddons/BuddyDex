@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lyon Mountainheart and Burkrum: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the named Ironforge resident and Splintertree Post armor merchant; distinguish original friendship stories from established facts.
+
 - Add Buliwyf Stonehand and Ansekhwa: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research current weapon lessons and distinct teaching voices; preserve elite friendship thresholds for both.
 

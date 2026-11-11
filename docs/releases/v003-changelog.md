@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Lyon Mountainheart and Burkrum: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the named Ironforge resident and Splintertree Post armor merchant; distinguish original friendship stories from established facts.
+
 - Add Buliwyf Stonehand and Ansekhwa: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research current weapon lessons and distinct teaching voices; preserve elite friendship thresholds for both.
 
@@ -697,4 +700,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **931 fully written NPC profiles**: 454 have initial signature recordings, and four hundred seventy-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **933 fully written NPC profiles**: 454 have initial signature recordings, and four hundred seventy-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

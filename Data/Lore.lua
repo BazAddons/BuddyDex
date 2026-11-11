@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lyon Mountainheart, adult Dwarf male7003/M2 878772, Alliance Friendly, Ironforge with current Dun Morogh city projection. No own quest, service or captured gossip found. Interrupted heroic opening original; no inferred job or kinship.
+    -- Research: docs/research/lyons-opening-and-burkrums-entrance.md
+    [7936] = {
+        quote = "The hero stepped into terrible silence. Then someone's stomach growled. Aye, leave that part in. Now I want to know whether the terrible silence has anything for supper.",
+        likes = { "A story interrupted at the right moment", "Company with an honest appetite", "An opening that invites another question" },
+        dislikes = { "An audience afraid to laugh", "An ending explained before the beginning", "Being solemn merely to sound important" },
+        gossip = "Lyon has been polishing the opening of a heroic tale. His favorite version now includes an interruption he did not write.",
+        bio = "Lyon Mountainheart is a dwarf in Ironforge. He enjoys giving an ordinary afternoon a heroic opening, especially when someone nearby supplies a detail grander storytellers would leave out.",
+        backstory = "He began a tale with a hero stepping into terrible silence. A friend's stomach growled before the next sentence. Lyon tried to continue, then asked whether the hero had eaten. That seemed a more pressing difficulty than the silence.",
+        secret = "He remembers the interruption better than the ending he had planned. The hero had become someone with an appetite, which made Lyon rather more interested in his fate.",
+        bestFriend = "There ye are. Shall we begin with terrible silence, or get supper first? I would hate to have the best part arrive while ye were chewing.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A grin welcomes the ordinary detail that improves his heroic opening.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. I have an opening for ye. A hero steps into terrible silence. Aye, I know what happens next in yer version. Before we begin, have ye eaten? I would like to hear the interruption clearly if it improves the tale again.", tone = "[hearty] [playful]" }, "Welcome back. I was considering a very solemn beginning. Ye arrived just in time to question whether it needs to be so solemn." },
+            idle = { { "The hero stepped into terrible silence. Then my friend's stomach growled. I tried to carry on, but by then I wanted to know whether the hero had eaten. A terrible silence is all very well. An empty stomach gives a fellow something immediate to worry about.", tone = "[storytelling] [amused]" }, "A grand beginning ought to make someone curious. If all it does is persuade them they must sit very straight, I may have mistaken a tale for a ceremony.", "I had an ending prepared. I remember the interruption much better. That is a troublesome thing to admit when ye were hoping to sound like the author." },
+            befriended = { { "Ye can interrupt, friend. I like knowing someone is listening closely enough to notice what the hero might have forgotten. Come along. There may be another fine beginning somewhere ahead of us, and I would rather hear what ye make of it than guard every word from laughter.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Have ye found a difficulty for the hero, or are ye asking what happened after the stomach growled?", "One moment. I am deciding whether terrible silence is improved by the possibility of supper." },
+            laughAlong = { { "Aye, laugh. That is how I know ye have joined the tale instead of merely waiting for me to finish it. The beginning may have been mine, but that interruption gave us something to enjoy together. I should be a poor host to ask ye to pretend it never happened.", tone = "[chuckling] [welcoming]" } },
+            rest = { "A pause before the next sentence. Not every silence needs to be terrible. This one might simply be comfortable." },
+            newFriend = { "Let them hear the beginning. Then give them room to tell us what the hero has plainly forgotten." },
+            quest = { "Hear the whole request before supplying a heroic opening. Someone waiting for an answer may be less interested in how grandly ye introduce it." },
+            thanked = { "Ye're welcome. I am glad the company suited ye. No solemn closing speech required." },
+            group = { "We have enough company for several versions of this tale. Someone should remember which one we began with." },
+            hearth = { "A familiar place is a fine destination. Even a hero who has faced terrible silence may appreciate knowing where supper is." },
+        },
+    },
+
+    -- Burkrum, Heavy Armor Merchant, adult Tauren male4726/M2 968705, Horde Friendly, Splintertree Post, Ashenvale. Seventeen current armor/shield goods, no own quest or captured gossip found. Courteous interruption of dramatic entrance original; no inferred smithing, clan or friendship discount.
+    -- Research: docs/research/lyons-opening-and-burkrums-entrance.md
+    [6028] = {
+        quote = "The entrance was meant to be imposing. Someone needed the door held open. I let them pass. You may judge the entrance as you please; I am satisfied with how it ended.",
+        likes = { "Armor suited to the wearer", "A courtesy offered without a performance", "An entrance that leaves room for others" },
+        dislikes = { "A grand gesture blocking the doorway", "Mistaking bulk for good judgment", "A companion made to feel in the way" },
+        gossip = "Burkrum once attempted an imposing entrance. He stopped to hold the door, and now insists that this was its finest part.",
+        bio = "Burkrum sells heavy armor at Splintertree Post in Ashenvale. His goods include chain and scale pieces alongside shields. His sense of a successful entrance includes the person coming through behind him.",
+        backstory = "A friend asked him to try an imposing entrance. He took a measured step, paused, and held the door for someone carrying too much to open it. His friend said the effect was ruined. Burkrum thought the result had improved.",
+        secret = "He enjoys the solemn thanks more than he would have enjoyed an admiring silence. It gave him a reason to be pleased that required no one else to feel small.",
+        bestFriend = "Come beside me, friend. We need not make an impressive entrance. I would rather make certain there is room for both of us.",
+        favorite = {
+            emote = "THANK",
+            hint = "A simple thank-you recognizes the courtesy he considers the best part of an entrance.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. Shall we attempt another imposing entrance? I should warn you that I still intend to stop if someone needs the door held open. You may consider the effect spoiled. I remain rather pleased with that part, and see little reason to practice leaving it out.", tone = "[steady] [amused]" }, "There you are. Come beside me. There is no need to wait for an entrance before we can enjoy the company." },
+            idle = { { "My friend asked for an imposing entrance. I took a measured step, then stopped to hold the door for someone carrying too much. Apparently that ruined the effect. Perhaps it did. They thanked me quite solemnly, which was a more pleasant ending than an admiring silence.", tone = "[dry] [warm]" }, "A shield should suit the person carrying it. Being impressed by its size is a brief pleasure if every movement afterward reminds you that you chose poorly.", "Someone who stands aside to let another person pass has not become less important. I find it curious how much effort some grand entrances spend disputing this." },
+            befriended = { { "You may stand beside me without making yourself smaller for the occasion. I value the company, friend. Come along. We can make an ordinary entrance together, and leave enough room for the next person to do the same. That seems a satisfactory beginning to our time together.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? You need not wait for me to finish looking imposing. I had not actually begun.", "A moment. Let them through first. We will still have the rest of the doorway afterward." },
+            gear = { { "Consider how the armor suits the wearer before deciding how impressive it makes the entrance. An admiring glance will not carry the weight for you. You are the one who must move in it after everyone else has turned their attention to something more interesting.", tone = "[calm] [instructive]" } },
+            thanked = { "You are welcome. A simple courtesy deserves no elaborate debt. I am glad there was room to help." },
+            bagsFull = { "That looks awkward to carry. Take a moment to consider the load before attempting to persuade a narrow doorway that it ought to be wider." },
+            newFriend = { "Make room beside us. A welcome loses something if the person receiving it must first wonder where they are allowed to stand." },
+            group = { "Leave room for the others to follow. A fine arrival is of little use if half the company is still waiting outside." },
+            rest = { "We may sit without making an occasion of it. I have no imposing way to rest prepared." },
+            bowBack = { "The courtesy is appreciated. You need not remain bowed; I would like to hear how you are." },
+        },
+    },
+
     -- Buliwyf Stonehand, Ironforge Weapon Master (current Dun Morogh projection), adult Dwarf male11806/M2 878772, Alliance Friendly elite. Three plainspoken/referral greetings and6 current lessons, no own quests. Deliberately wrong riddle answer original; no inferred Stonehand family, film biography or free training.
     -- Research: docs/research/buliwyfs-riddle-and-ansekhwas-bow.md
     [11865] = {

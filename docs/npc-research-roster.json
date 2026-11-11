@@ -5082,5 +5082,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Two courteous/referral greetings and3 current lessons; original bow for a quarrel resolved without blows; no Scout sighting claimed",
     "research_notes": "docs/research/buliwyfs-riddle-and-ansekhwas-bow.md"
+  },
+  {
+    "npc_id": 7936,
+    "name": "Lyon Mountainheart",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; No own quest or captured dialogue found; original interrupted heroic opening; no Scout sighting claimed",
+    "research_notes": "docs/research/lyons-opening-and-burkrums-entrance.md"
+  },
+  {
+    "npc_id": 6028,
+    "name": "Burkrum",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult horde identity; Seventeen current armor and shield goods; original courteous interruption of imposing entrance; no Scout sighting claimed",
+    "research_notes": "docs/research/lyons-opening-and-burkrums-entrance.md"
   }
 ]

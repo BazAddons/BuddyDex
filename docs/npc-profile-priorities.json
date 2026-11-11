@@ -4753,6 +4753,20 @@
       "zone": "Thunder Bluff",
       "route": "Elite Thunder Bluff weapon master",
       "reason": "Two courteous/referral greetings and3 current lessons; original bow for a quarrel resolved without blows; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 7936,
+      "name": "Lyon Mountainheart",
+      "zone": "Ironforge",
+      "route": "Named Ironforge resident",
+      "reason": "No own quest or captured dialogue found; original interrupted heroic opening; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6028,
+      "name": "Burkrum",
+      "zone": "Ashenvale",
+      "route": "Splintertree Post heavy armor merchant",
+      "reason": "Seventeen current armor and shield goods; original courteous interruption of imposing entrance; fifteen personal lines queued without synthesis"
     }
   ]
 }
