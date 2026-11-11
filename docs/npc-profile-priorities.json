@@ -4571,6 +4571,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill cook and supplies",
       "reason": "Thirteen current goods, sparse personal sources; original three theories and fallen broom; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1698,
+      "name": "Frast Dokner",
+      "zone": "Dun Morogh",
+      "route": "GolBolar Quarry apprentice weaponsmith",
+      "reason": "Full95217, eight goods and own brusque greeting; original unqualified compliment; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11901,
+      "name": "Andruk",
+      "zone": "Ashenvale",
+      "route": "Zoramgar elite wind rider master",
+      "reason": "Own flight greeting and current Horde Friendly role; original nudge and chin scratch; fifteen personal lines queued without synthesis"
     }
   ]
 }

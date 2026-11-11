@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Frast Dokner, GolBolar Apprentice Weaponsmith/Repair, current Alliance Friendly adult Dwarf male3426/M2 878772. Full95217 and own brusque greeting; eight goods, no taught rows. Unqualified well-made compliment original; apprentice is skill status, no named mentor/free recipe.
+    -- Research: docs/research/frasts-compliment-and-andruks-instruction.md
+    [1698] = {
+        quote = "Well made. That was all ye said. I waited for the rest, but ye'd finished. I don't need a grander speech. I appreciated being told what ye thought of the work itself.",
+        likes = { "His work considered on its own merits", "A resourceful answer to a practical need", "Plain praise with no qualification attached" },
+        dislikes = { "Carelessness excused as an early attempt", "A compliment that never looks at the work", "The same instruction ignored twice" },
+        gossip = "A friend called Frast's work well made, without a qualification. His brief thanks stayed in his thoughts longer than he admitted.",
+        bio = "Frast Dokner is an apprentice weaponsmith at Gol'Bolar Quarry. He sells weapons and offers repairs. When supplies are late, he asks for materials and shares techniques with a resourceful learner, expecting close attention.",
+        backstory = "A friend inspected a piece and called it well made. Frast waited for the words for an apprentice. They did not come. He gave a short thanks and returned to the work, rather pleased to have it judged on its own.",
+        secret = "He does not want encouragement in place of an honest look. A plain compliment means more when someone has taken his work seriously before offering it.",
+        bestFriend = "Come along, friend. I trust ye to look properly before saying what ye think. A plain word from ye is worth hearing.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "Sincere praise for work examined carefully matters more than indulgent encouragement.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Have ye come to look at the work, or just to tell me what ye think before seeing it? The first is welcome. Ye gave a fine example last time: well made, and nothing added afterward. I appreciated that.", tone = "[gruff] [pleased]" }, "Aye? Tell me what ye need, and give me a chance to finish the answer before asking it again." },
+            idle = { { "They looked it over and said well made. I waited for the usual qualification. Nothing followed. They'd finished the compliment. I gave a short thanks and got back to work. A plain judgment, properly arrived at, is worth a little quiet consideration.", tone = "[quiet] [reflective]" }, "If the materials are late, wishing them here won't complete the repairs. A resourceful pair of hands can be more useful than a long complaint.", "I would rather hear the part that needs attention than be praised because someone thought it would be kind to avoid looking closely." },
+            befriended = { { "Ye've taken the work seriously enough that I want to hear yer judgment. Come along, friend. We can speak plainly without turning every useful observation into a grand lesson about how much further I've yet to go.", tone = "[gruff] [warm]" } },
+            poke = { "Aye, friend? Have the question ready.", "A moment. I heard ye; I'd like to finish this part before beginning the next." },
+            gear = { { "Look at the condition, the fit, and the care in the making. Judge what is there before deciding what ought to be expected of the name beside it. The work should be able to answer a proper inspection.", tone = "[firm] [instructive]" } },
+            learned = { "Pay attention to the part being shown. Repeating the instruction will not help if ye've already decided not to listen to it." },
+            quest = { "Bring what was requested in useful condition. There is work waiting for those materials, not merely a place to put them." },
+            rest = { "A short pause. Ye may tell me something plain; I don't require the afternoon to become another examination." },
+            newFriend = { "Take them seriously enough to hear what they can do. A kind assumption is still an assumption if ye never look beyond it." },
+            thanked = { "Aye, I'm glad the work was of use. That is a fine thing to know when the last careful part is finished." },
+            group = { "Listen to the instruction before everyone tries to improve it at once. We may discover the useful question after the first explanation." },
+        },
+    },
+
+    -- Andruk, Zoramgar Wind Rider Master, current Horde Friendly elite adult Orc male11851/M2 917116. Own flight greeting, no own quests. Familiar wind rider nudges and chin scratch original; no anonymous beast profile, free flight, named mount or animal-training buff.
+    -- Research: docs/research/frasts-compliment-and-andruks-instruction.md
+    [11901] = {
+        quote = "I paused to scratch beneath its jaw without noticing I'd stopped the directions. My friend noticed. Apparently the rider master had received an instruction of his own. A very clear one.",
+        likes = { "A beast settling under a familiar hand", "A traveler clear about the next destination", "A friend noticing the quiet part of the work" },
+        dislikes = { "A hurried departure before anyone is ready", "Careless noise around an unsettled beast", "His attention divided through a useful answer" },
+        gossip = "A wind rider nudged Andruk's hand. He scratched its chin without thinking. His friend asked who had just received the instruction.",
+        bio = "Andruk is a wind rider master at Zoram'gar Outpost in Ashenvale. He asks travelers where they wish to fly. Alongside the directions and departures, a familiar nudge can draw his attention to the beast beside him.",
+        backstory = "As he explained a journey, a wind rider nudged his hand. Andruk scratched under its jaw and stopped speaking for a moment. His friend asked who was giving the instructions now. He smiled and finished the directions.",
+        secret = "He likes the quiet work of seeing an animal settle. A friend who notices that part of his day has seen more than a place to arrange the next departure.",
+        bestFriend = "Come along, friend. You notice what keeps the day running well. I am glad to have company beyond the next set of directions.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A shared smile at a familiar animal habit is a welcome part of an ordinary visit.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. If I pause in the middle of the directions, you may look beside me before deciding I have forgotten the destination. A familiar nudge can be a very clear instruction. You made that observation thoroughly enough last time.", tone = "[gruff] [amused]" }, "Welcome back. Where are you bound, or have you time for a visit before the next departure?" },
+            idle = { { "I was explaining the journey when it nudged my hand. I scratched beneath its jaw and stopped speaking for a moment. My friend asked which of us had received the instruction. A fair question. The beast had made its wishes perfectly clear.", tone = "[quiet] [amused]" }, "A calm moment before departure is useful to more than the traveler. There is work in noticing who is ready and who needs another moment.", "Some people see only the next place they wish to reach. A friend can notice what has kept this place running while they were away." },
+            befriended = { { "You have seen more of my day than the question about where you wish to fly. I appreciate that, friend. Come along. I enjoy company that notices the quiet work as well as the departure it makes possible.", tone = "[gruff] [warm]" } },
+            poke = { "Yes, friend? You need not nudge my hand as well; I heard you the first time.", "A moment. I would like to finish the directions before you have to guess where the rest of the sentence was going." },
+            rest = { { "Let us pause a little. There is no need to hurry the quiet into another departure. Tell me how you have been, and I will try not to let a familiar nudge take the whole conversation away from us.", tone = "[calm] [relaxed]" } },
+            mount = { "Give yourself a moment before setting out. Readiness is more useful than making a very confident departure before you have settled." },
+            quest = { "Be certain where the message must go. A clear destination saves a great deal of explaining after the wrong arrival." },
+            newFriend = { "Notice the work around the conversation as well as the answer you came to hear. Someone may be pleased that you took the time to see it." },
+            thanked = { "Glad it helped. If there is time before you leave, I would enjoy hearing something beyond the next destination." },
+            group = { "Let the answer reach its end before everyone asks for another direction. The last part may contain what you need." },
+            zone = { "Here we are, friend. Take a moment to notice what makes this place more than a name on the way to somewhere else." },
+        },
+    },
+
     -- Gelman Stonehand, Stormwind Mining Trainer, adult Dwarf male3308/M2 878772, Alliance Friendly. Own Ironforge/rebuilding/brusque greetings, sixteen lessons, full95998/97923. Friend imitates grumbles original; no actual return home or free profession/camp reward.
     -- Research: docs/research/gelmans-impression-and-deraks-theory.md
     [5513] = {

@@ -4900,5 +4900,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult horde man; Thirteen current goods, sparse personal sources; original three theories and fallen broom; no Scout sighting claimed",
     "research_notes": "docs/research/gelmans-impression-and-deraks-theory.md"
+  },
+  {
+    "npc_id": 1698,
+    "name": "Frast Dokner",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult alliance man; Full95217, eight goods and own brusque greeting; original unqualified compliment; no Scout sighting claimed",
+    "research_notes": "docs/research/frasts-compliment-and-andruks-instruction.md"
+  },
+  {
+    "npc_id": 11901,
+    "name": "Andruk",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult horde man; Own flight greeting and current Horde Friendly role; original nudge and chin scratch; no Scout sighting claimed",
+    "research_notes": "docs/research/frasts-compliment-and-andruks-instruction.md"
   }
 ]

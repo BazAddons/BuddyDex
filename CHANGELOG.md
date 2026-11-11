@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Frast Dokner and Andruk: complete Dun Morogh and Ashenvale profiles, thirty personal lines queued.
+- Research the Quarry smith quest and preserve native services; document original unqualified compliment and wind-rider habit with elite friendship scaling unchanged.
+
 - Add Gelman Stonehand and Derak Nightfall: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Preserve Gelman's rebuilding work, homesickness and camping referral; document original grumbling impression and Derak's overly elaborate explanation.
 
