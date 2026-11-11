@@ -5208,5 +5208,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult horde identity; Current adult Friendly identity and Classic patrol context; original wolf sneeze during a practice cry; no Scout sighting claimed",
     "research_notes": "docs/research/jormunds-pockets-and-kerrs-encore.md"
+  },
+  {
+    "npc_id": 10878,
+    "name": "Herald Moonstalker",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance identity; Native news greeting and three historical notice routes reviewed with current quest-tab caveat; original private tune news; no Scout sighting claimed",
+    "research_notes": "docs/research/moonstalkers-quiet-news-and-atepas-count.md"
+  },
+  {
+    "npc_id": 8357,
+    "name": "Atepa",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde identity; Current adult male Tauren banker and Horde Friendly identity; original interrupted walking count; no Scout sighting claimed",
+    "research_notes": "docs/research/moonstalkers-quiet-news-and-atepas-count.md"
   }
 ]

@@ -1,7 +1,10 @@
 # Unreleased
 
+- Add Herald Moonstalker and Atepa: full Night Elf and Tauren profiles, thirty personal lines queued.
+- Expand Alliance and Horde city coverage with distinct stories, researched native roles and preserved character-specific friendship progress.
+
 - Add Jormund Stonebrow and Raider Kerr: full Dwarf and Orc profiles, thirty personal lines queued.
-- Preserve Jormund?s native teaching voice and add a named Durotar raider without importing later-expansion quests or services.
+- Preserve Jormund's native teaching voice and add a named Durotar raider without importing later-expansion quests or services.
 
 - Add Jorin Croge and Talaanis Shadowsong: full Forsaken and Skyborne profiles, thirty personal lines queued.
 - Research Bandarion Keep supplies, the cult investigation, family loss and both island departure routes; retain character-specific progress and ordinary eligibility.

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Herald Moonstalker, Darnassus, adult Night Elf female10185/M2 921844, packed4:1, Alliance Friendly normal. Native news greeting and three historical notice routes researched; current own quest tabs empty. Private good news about a practiced tune original; no new broadcast service, Alyssia kinship or later Burning fate.
+    -- Research: docs/research/moonstalkers-quiet-news-and-atepas-count.md
+    [10878] = {
+        quote = "Your good news may be told as quietly as you wish. I can lower my voice. There, you see? A perfectly respectable announcement for an audience of one.",
+        likes = { "News delivered clearly", "A small success shared in confidence", "Knowing when to lower her voice" },
+        dislikes = { "A rumor presented as certain", "An announcement nobody can understand", "Private news repeated without asking" },
+        gossip = "Moonstalker can make a quiet greeting sound like an important announcement. Lately, she has been practicing a smaller audience.",
+        bio = "Herald Moonstalker brings news to the people of Darnassus. She greets heroes with reports from both continents and farther afield. Her clear public voice carries well; friendship teaches her the value of hearing a quieter account too.",
+        backstory = "A friend told her that a long-practiced tune had finally come out right. She drew breath to announce the achievement. Her friend asked to keep it between them. Moonstalker lowered her voice and asked how it had felt.",
+        secret = "She enjoys having a little good news she has permission to keep. The tune remains her friend's to perform. She can remember the pleased expression without making a public notice of it.",
+        bestFriend = "Come close, friend. Tell me the small good news, if you wish. I shall ask before giving it an audience larger than this one.",
+        favorite = {
+            emote = "GREET",
+            hint = "A friendly greeting gives her a welcome to answer in her own voice.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Greetings, friend. I was preparing quite an announcement for your arrival. A quieter welcome will serve us well. How have you been?", tone = "[clear] [warm]" }, "There you are. What news may I hear, and what part would you like to keep between us? I can manage both." },
+            idle = { { "My friend had finally played a difficult tune correctly. I nearly announced it to the street. They asked for a smaller audience. So I lowered my voice and heard the best part of the account.", tone = "[reflective] [pleased]" }, "A clear announcement should leave the listener knowing where to go. A grand voice is only the beginning of the work.", "I have news of distant places, certainly. You are also welcome to tell me about something small that went well today." },
+            befriended = { { "Walk with me, friend. I value the things you choose to tell me, including the ones you would like me to keep. We can begin with an ordinary greeting.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? You have an audience of one, attending carefully.", "A moment. I am deciding which part actually needs to be said loudly." },
+            quest = { { "Listen for the name and the destination as well as the urgency. An important call deserves a clear account of where your help is needed.", tone = "[crisp] [earnest]" } },
+            newFriend = { "Ask how they would like to be introduced. A welcome is easier to enjoy when it leaves them room to answer." },
+            learned = { "Well done. Would you like a little celebration, or would you prefer to tell me how you managed it?" },
+            mail = { "Read the name carefully before sharing the contents. News addressed to one person may be meant to stay that way." },
+            group = { "A moment for everyone to hear, and another for anyone who wishes to ask. The announcement can wait until the company is ready." },
+            rest = { "A quiet pause is welcome. You may speak first, friend." },
+            thanked = { "You are welcome. I am glad the account was clear. Tell me if there is anything you would like repeated." },
+        },
+    },
+
+    -- Atepa, Banker, Thunder Bluff, adult Tauren male7620/M2 968705, Horde Friendly normal. Current banker title/location, no own quests or captured gossip. Losing his walking step count when greeting a friend original; no changed banking, interest, free slots or actual pedometer.
+    -- Research: docs/research/moonstalkers-quiet-news-and-atepas-count.md
+    [8357] = {
+        quote = "I was counting my steps until you waved. An excellent count, completely ruined by a welcome. You will have to walk with me while I decide whether to forgive you.",
+        likes = { "A familiar face on the way to work", "A count interrupted by good company", "Time to hear how a friend has been" },
+        dislikes = { "Being hurried through a greeting", "A joke that embarrasses the listener", "Pretending he remembers the number" },
+        gossip = "Atepa blames a friend's wave for losing his step count. He seems suspiciously cheerful whenever it happens again.",
+        bio = "Atepa is a banker in Thunder Bluff. Visitors find him attending to their stored belongings on the central rise. Away from the counter, his easy humor finds another use for numbers: something to lose track of when a friend appears.",
+        backstory = "He began counting his steps on the way to work. A friend waved, and the number disappeared while he answered. Atepa accused the greeting of ruining an excellent count. His grin made the complaint difficult to take seriously.",
+        secret = "Now he sometimes starts counting when he sees that friend coming. It gives him a reason to make the same complaint. He likes hearing the reply more than he likes reaching a number.",
+        bestFriend = "There you are. I had reached a very impressive number, of course. Walk beside me and tell me how you have been. I will begin again tomorrow.",
+        favorite = {
+            emote = "WAVE",
+            hint = "A familiar wave is exactly the sort of interruption that makes him lose count.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are! I had reached an excellent number. Completely gone now. Come along, friend. You may explain how you have been while I consider this interruption.", tone = "[deep] [playful]" }, "Welcome back. I recognize that wave. My count never survives it, but I find myself looking forward to the attempt." },
+            idle = { { "I was counting my steps on the way to work. A friend waved. I answered, lost the number, and made a most serious complaint. The grin was unfortunate. It rather weakened my argument.", tone = "[warm] [amused]" }, "Sometimes I begin counting when I see a familiar face coming. It is important to give a good running joke every chance to continue.", "There is time to hear the answer when you ask someone how they have been. Otherwise you may as well greet the next number and carry on walking." },
+            befriended = { { "Walk beside me, friend. You have interrupted enough excellent counts to become part of the route. I would like to hear how your day has gone.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? I was about to blame you for a number I cannot remember.", "You have my attention, friend. The count can make another attempt tomorrow." },
+            waveBack = { { "There! Ruined again. A perfectly good count. Come closer so I can deliver the rest of this very unconvincing complaint.", tone = "[playful] [laughing]" } },
+            bagsFull = { "Take a moment to consider what you wish to keep. It is easier to choose when you have room to look at it all." },
+            loot = { "Something worth carrying? Have a look before you tuck it away and forget why you picked it up." },
+            rest = { "A welcome pause. Sit comfortably, friend. We have time for the part of the story you nearly hurried past." },
+            newFriend = { "A wave is a good beginning. Leave a little time for the answer and see where the greeting takes you." },
+            thanked = { "You are welcome. Good company is an interruption I am pleased to accept." },
+            group = { "Make room for everyone before we set off. I can lose count in excellent company more easily than I can keep it alone." },
+        },
+    },
+
     -- Jormund Stonebrow, Expert Tailor, Ironforge, adult Dwarf male3091/M2 878772, Alliance Friendly normal. Four native teaching greetings and51 current lessons reviewed; no own quests. Repeatedly moved apron pockets original; no invented Stonebrow kinship, actual item or friendship-unlocked lessons.
     -- Research: docs/research/jormunds-pockets-and-kerrs-encore.md
     [5153] = {

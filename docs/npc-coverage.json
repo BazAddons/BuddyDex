@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 410,
+    "alliance": 411,
     "unverified": 184,
-    "horde": 408
+    "horde": 409
   },
   "npc_race_counts": {
     "1": 168,
@@ -13,10 +13,10 @@
     "7": 63,
     "2": 106,
     "5": 105,
-    "4": 93,
+    "4": 94,
     "9": 67,
     "8": 61,
-    "6": 104,
+    "6": 105,
     "96": 28,
     "95": 56
   },
@@ -42,11 +42,11 @@
     "Badlands": 1,
     "Darkshore": 15,
     "Mulgore": 26,
-    "Thunder Bluff": 46,
+    "Thunder Bluff": 47,
     "Durotar": 56,
     "The Barrens": 50,
     "Stonetalon Mountains": 16,
-    "Darnassus": 21,
+    "Darnassus": 22,
     "Burning Steppes": 1,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -8260,6 +8260,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8305"
     },
     {
+      "npc_id": 8357,
+      "name": "Atepa",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8357"
+    },
+    {
       "npc_id": 8358,
       "name": "Hewa",
       "zone": "Thunder Bluff",
@@ -9076,6 +9089,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10682"
+    },
+    {
+      "npc_id": 10878,
+      "name": "Herald Moonstalker",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10878"
     },
     {
       "npc_id": 10922,
@@ -12189,6 +12215,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 949,
-  "awaiting_signature_audio_profiles": 495
+  "authored_profiles": 951,
+  "awaiting_signature_audio_profiles": 497
 }
