@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Elegael Thornpaw and Kurgul: adult High Order and Orc profiles with thirty personal lines queued.
+- Review the Nightclaw ambush/aid chain and historical demon-training referral; document original listening-pause and dusty-book scenes.
+
 - Add Ayessa Dawnsinger and Dirge Quikcleave: adult Windshaper and Goblin profiles with thirty personal lines queued.
 - Review faction-sensitive Windshaper leadership and the cooking/chimaerok subchains; document identity variants and original map-line/used-recipe scenes.
 

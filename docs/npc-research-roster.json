@@ -4375,5 +4375,19 @@
     "zone": "Tanaris",
     "source": "Reviewed adult unverified man; Own meat/drought gossip and full cooking/Narain food subchains; Horde Neutral positive access unverified; original stained signed recipe; no Scout sighting claimed",
     "research_notes": "docs/research/ayessas-return-line-and-dirges-recipe.md"
+  },
+  {
+    "npc_id": 257944,
+    "name": "Elegael Thornpaw",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full94484-94491 and94493; both Friendly; original branch-sound pause; no Scout sighting claimed",
+    "research_notes": "docs/research/elegaels-listening-and-kurguls-sneeze.md"
+  },
+  {
+    "npc_id": 5815,
+    "name": "Kurgul",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Own paid-training dialogue and historical7562 referral/ritual context; original dusty-book sneeze; no Scout sighting claimed",
+    "research_notes": "docs/research/elegaels-listening-and-kurguls-sneeze.md"
   }
 ]

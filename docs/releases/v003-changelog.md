@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Elegael Thornpaw and Kurgul: adult High Order and Orc profiles with thirty personal lines queued.
+- Review the Nightclaw ambush/aid chain and historical demon-training referral; document original listening-pause and dusty-book scenes.
+
 - Add Ayessa Dawnsinger and Dirge Quikcleave: adult Windshaper and Goblin profiles with thirty personal lines queued.
 - Review faction-sensitive Windshaper leadership and the cooking/chimaerok subchains; document identity variants and original map-line/used-recipe scenes.
 
@@ -546,4 +549,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **830 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **832 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

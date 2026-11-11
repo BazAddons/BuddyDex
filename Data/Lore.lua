@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Elegael Thornpaw, Nightclaw druid, Shadowgale Forest, Zephras. Adult High Order female140525/M2 7478494, both Friendly. Full94484-94491 and alternate94493; cousin Haalien and mate Jorel explicit. Branch-sound pause original, no healed-den outcome.
+    -- Research: docs/research/elegaels-listening-and-kurguls-sneeze.md
+    [257944] = {
+        quote = "If I stop to listen, give me a moment. I would like to name the sound myself before you tell me there is nothing to fear.",
+        likes = { "Supplies used without careless waste", "A familiar forest sound recognized at last", "A friend staying through a difficult silence" },
+        dislikes = { "The Al'Aketh treating lives as obstacles", "Betrayal excused because the traitor was kin", "Reassurance offered before listening" },
+        gossip = "Elegael may pause over the faint scrape of a branch. She is trying to hear the forest without hearing another warning.",
+        bio = "Elegael Thornpaw is a wounded Nightclaw druid in Shadowgale Forest. After the cult's ambush, she gathers poultice materials for the den's injured. Rage at betrayal coexists with care for her fellows, her mate Jorel, and the heirlooms she safeguards.",
+        backstory = "Sorting dressings, she heard a branch scrape and went still. A friend waited until she named the sound herself. It was only wood against wood. She returned to the work a little more slowly.",
+        secret = "She wants an ordinary forest sound to be ordinary again. A trusted friend may stay while she listens, without demanding that a quiet moment prove everything is well.",
+        bestFriend = "Stay a little, friend. You need not explain the silence or fill it. I am glad to know who is beside me.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "Steady kindness matters more to her than a quick promise that grief and danger have passed.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Stay beside me a while. If I stop to listen, let me name the sound before telling me I need not be afraid. I would rather hear it for myself.", tone = "[weary] [steady]" }, "You are welcome, friend. Tell me plainly what you have seen. I have little strength to spare for guessing what someone is afraid to say." },
+            idle = { { "A branch scraped, and I stopped in the middle of sorting the dressings. It was only wood against wood. The friend beside me waited until I could say so myself. I was grateful for the waiting.", tone = "[quiet] [vulnerable]" }, "Every useful piece of the supplies matters. Care is something we do with what we have, even when anger would rather send us running after the next enemy.", "The cult has taken enough from our people. I will not call betrayal a small matter because the one responsible once belonged beside us." },
+            befriended = { { "You have become someone I am willing to have beside me when I have no brave account to offer. Stay a little, friend. You need not make the quiet into another demand.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Give me a moment. I was listening to the trees.", "Speak plainly. I would hear the truth before the reassurance." },
+            comforted = { { "Thank you. I heard you. I may not have a gentle answer ready, but that does not mean your kindness has gone unnoticed.", tone = "[strained] [grateful]" } },
+            rest = { "A pause. Let it be a pause, without requiring everyone here to prove they have recovered." },
+            loot = { "Handle what belonged to another person with care. An object may carry more than the usefulness you can see at once." },
+            quest = { "Tell me what was done and who still needs help. The finished task should not hide the people who remain." },
+            zone = { "Listen before hurrying onward. There are things a place tells us that a quick glance will miss." },
+            thanked = { "You are welcome. I am glad the care reached someone who needed it." },
+            newFriend = { "Someone new. Find out what they need before deciding how they ought to answer your welcome." },
+        },
+    },
+
+    -- Kurgul, Demon Trainer, Cleft of Shadow, Orgrimmar. Adult orc male4354/M2 917116, Horde Friendly. Own paid-training/dismissal gossip, historical7562 referral and full downstream ritual reviewed. Dusty-book sneeze original; later retail death excluded.
+    -- Research: docs/research/elegaels-listening-and-kurguls-sneeze.md
+    [5815] = {
+        quote = "The sneeze was not part of the instruction. You may stop looking pleased. And pass me that cloth before you develop a theory about it.",
+        likes = { "A warlock arriving with a useful question", "Instructions understood before power is used", "A friend letting a sneeze remain a sneeze" },
+        dislikes = { "Demon training treated as a free favor", "An interruption dressed up as a revelation", "His own cough repeated for the audience" },
+        gossip = "Kurgul can end a foolish question with a look. A dusty book once interrupted him more effectively, and he remembers who noticed.",
+        bio = "Kurgul is the Demon Trainer in Orgrimmar's Cleft of Shadow. His offer of greater demonic power comes with a price, and he dismisses non-warlocks seeking his work. His historical referral points accomplished warlocks toward Mor'zul Bloodbringer.",
+        backstory = "He opened an old book to emphasize a warning and sneezed into the pause. Kurgul delivered the warning anyway, then looked at the listener until their expression became appropriately serious. It took a moment.",
+        secret = "He can appreciate a friend passing him a cloth without turning the incident into a lesson. Ordinary consideration is easier to accept when nobody insists he announce it.",
+        bestFriend = "There you are, friend. If the book interrupts me again, pass the cloth and spare me the commentary. I shall know what you mean.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He tolerates a quiet acknowledgment of the joke better than someone making a performance of his discomfort.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Come along. If you have a useful question, ask it. If you have come to repeat the sound I made over the book, consider carefully how long you wish the visit to last.", tone = "[gruff] [dry]" }, "Good to see you. Yes, a social visit is possible. No, that does not turn my professional work into a favor." },
+            idle = { { "I opened the book to emphasize a warning. The dust had an objection. I delivered the warning afterward, and the listener eventually recovered an expression suitable to the occasion.", tone = "[stern] [wry]" }, "Greater power does not make an instruction less important. It gives you a more expensive way to discover why you should have listened.", "You may appreciate a dangerous creature without forgetting what it is. Sentiment is a poor substitute for knowing what you have bound." },
+            befriended = { { "You have become someone whose company I will accept without first finding business to conclude. Walk beside me, friend. We need not announce this development to the whole city.", tone = "[gruff] [reluctantly warm]" } },
+            poke = { "Yes? Has the book been called as a witness again?", "Go on. A direct question will survive without that elaborate introduction." },
+            learned = { { "Good. Understand the instruction before congratulating yourself on the power behind it. The consequence will not be impressed by your enthusiasm.", tone = "[firm] [instructive]" } },
+            rest = { "A pause. You may sit without turning my silence into a puzzle you intend to solve aloud." },
+            loot = { "Look at what you actually have. An impressive description will not supply the part you neglected to bring." },
+            quest = { "Finished. Establish that every required part is accounted for before deciding the rest will surely work itself out." },
+            thanked = { "You are welcome. That is a sufficient acknowledgment. You need not improve it with an account of my hidden generosity." },
+            newFriend = { "Someone new. Hear the question before deciding you know what they have come to demand." },
+            bagsFull = { "Arrange what you carry before reaching blindly through the whole collection. A little order may spare us both the explanation." },
+        },
+    },
+
     -- Ayessa Dawnsinger, Grand Skyseer, Valanaar, Zephras. Adult Windshaper female137633/M2 7478494, Horde Friendly/Alliance Hostile. Own faction-sensitive gossip and eleven linked quest records; unfinished homeward map line original.
     -- Research: docs/research/ayessas-return-line-and-dirges-recipe.md
     [251968] = {
