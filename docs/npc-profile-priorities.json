@@ -3990,6 +3990,20 @@
       "zone": "Wetlands",
       "route": "Wildhammer returnee in Wetlands",
       "reason": "Full current preparation and Dragonmaw chain; original crooked stitch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6294,
+      "name": "Krom Stoutarm",
+      "zone": "Ironforge",
+      "route": "Ironforge ancient-text researcher",
+      "reason": "Full1360 and1798/1758/1802/1804/1795; original read-aloud preference; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 260562,
+      "name": "Melbin Powderfuse",
+      "zone": "Riverglades",
+      "route": "Powderfuse Port engineer",
+      "reason": "Own construction and ownership claims; original our-town exchange; fifteen personal lines queued without synthesis"
     }
   ]
 }

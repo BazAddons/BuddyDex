@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Krom Stoutarm and Melbin Powderfuse: adult Dwarf and Goblin profiles with thirty personal lines queued.
+- Review the full Tome of the Cabal chain, Krom’s treasured stein, and Melbin’s own port-building claims; distinguish original friendship scenes.
+
 - Add Mendalass Tattermend and Howin Kindfeather: adult High Order and Dwarf profiles with thirty personal lines queued.
 - Review camping instruction and the full current Wildhammer quest arc; document original chair-testing and crooked-stitch scenes, identity/version limits, and explicit family evidence.
 

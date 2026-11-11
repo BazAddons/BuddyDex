@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Krom Stoutarm, Ironforge. Adult dwarf male4988/M2 878772, Alliance Friendly. Full1360 and1798/1758/1802/1804/1795; stein and book enthusiasm established, read-aloud preference original.
+    -- Research: docs/research/kroms-stein-and-melbins-port.md
+    [6294] = {
+        quote = "A quick look at a rare book is a reasonable request. How quick? That depends on whether you intend to count the pages.",
+        likes = { "A rare text with its binding intact", "A familiar stein kept clear of the pages", "A friend willing to read one passage aloud" },
+        dislikes = { "A book torn apart for easier carrying", "Troggs among an excavation crew", "Being hurried through the interesting part" },
+        gossip = "Krom can remember a book he read years ago. His idea of a quick glance may require a chair.",
+        bio = "Krom Stoutarm studies ancient texts in Ironforge. He helps trace the scattered Tome of the Cabal for Strahad Farsan, eager to inspect it and obtain a copy. His knowledge reaches beyond the library to the Dragonmaw channeling rods.",
+        backstory = "He worked as a digger at Uldaman until troggs forced him to flee. His most treasured possession stayed behind in a chest bearing his name: a stein, worth far more to him than its materials.",
+        secret = "He likes hearing a familiar passage read aloud by a friend. Someone else always pauses in a different place, and for a moment an old page feels newly found.",
+        bestFriend = "Read that bit again, friend. I know the words. I was enjoying the way you found them.",
+        favorite = {
+            emote = "NOD",
+            hint = "He appreciates someone quietly following an explanation without hurrying him past the interesting part.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Walk with me a little. If you have found an interesting book, I should like a quick glance. We may discuss the meaning of quick afterward.", tone = "[gruff] [playful]" }, "Good to see you. Have you brought news, or shall I tell you the passage that has been occupying me?" },
+            idle = { { "Some folk hear treasured possession and imagine gold or gems. I left a stein behind at Uldaman. You may value your treasure without requiring it to impress anybody else.", tone = "[gruff] [fond]" }, "A torn binding is a poor way to share a book. Now everyone must travel farther to discover how the sentence ends.", "I remember the words well enough. Read them aloud for me sometime. Another voice can find something my own has hurried past." },
+            befriended = { { "You are welcome beside me, friend, with or without a rare discovery. I should be glad to hear what caught your attention in an ordinary day.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I had only reached the interesting part. There are several interesting parts.", "Go on. A question may be worth more than another hurried page." },
+            learned = { { "Remember where you found the answer. Knowing a thing and knowing how to find it again are both useful accomplishments.", tone = "[gruff] [encouraging]" } },
+            loot = { "Have a proper look before deciding what matters. The plain thing may be the one somebody crossed a dangerous hall to recover." },
+            quest = { "Finished. Take a moment to understand what the work has brought back before hurrying to the next request." },
+            rest = { "A chair and a little time. We could make excellent use of both without promising to finish the entire book." },
+            bagsFull = { "Keep the pages dry. A crowded pack is no excuse to let everything useful become part of the same puddle." },
+            newFriend = { "Someone new. Ask what interests them before deciding which explanation they ought to hear." },
+            thanked = { "You are welcome. If the knowledge helped, I am pleased to have kept it." },
+        },
+    },
+
+    -- Melbin Powderfuse, Powderfuse Port, Riverglades. Adult goblin male142893/M2 119376, Horde Friendly. Own gossip claims construction/ownership; our-town exchange and landmark pleasure original.
+    -- Research: docs/research/kroms-stein-and-melbins-port.md
+    [260562] = {
+        quote = "Mine. I built it. But when somebody calls it our town, I am beginning to understand that they might be offering a compliment.",
+        likes = { "A visitor finding the place they need", "His own buildings used as landmarks", "Being included without losing the credit" },
+        dislikes = { "Credit wandering off without its builder", "A grand offer with no useful part", "Having his boast interrupted before the name" },
+        gossip = "Melbin insists the port belongs to him. He listens surprisingly closely when somebody calls it their town.",
+        bio = "Melbin Powderfuse is the Master Goblin Engineer at Powderfuse Port in Riverglades. He claims he built everything there on a vacant lot, insists it belongs to him, and asks visitors what they can do for him.",
+        backstory = "A visitor called the port our town. Melbin began correcting the ownership, then noticed how proudly they said it. He finished his explanation, but found himself hoping they would say it again.",
+        secret = "He likes hearing people give directions using the places he claims. They may forget to mention his name, but they are finding their way through something he is proud of.",
+        bestFriend = "Mine, yes. And there is room for you in it. Say our town again if you like. I can survive the generosity.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "He likes recognition of the work that made a place useful, preferably with its builder mentioned.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. If anybody asks who built the place, I expect you to remember the name. If they ask whether you belong here, you can answer that yourself.", tone = "[brisk] [proud]" }, "Good to see you. Got something useful to tell me, or are we enjoying a purely social visit? I can appreciate either, with the right company." },
+            idle = { { "Somebody called it our town. I explained that the ownership was more particular than that. Funny thing is, I rather liked the way they said it. Do not make an announcement.", tone = "[confidential] [amused]" }, "When a building becomes a landmark, people stop describing the building and start finding their way. That is a useful sort of compliment. I still prefer a little credit.", "I can take pride in the work and ask what you bring to the arrangement. Those two pleasures fit together very nicely." },
+            befriended = { { "You have become somebody I am pleased to see without an offer in your hands. Come along, friend. There is room in my grand account of the place for a visit from you.", tone = "[confident] [warm]" } },
+            poke = { "Yes? You have reached the builder. Make it interesting.", "Go on. I can hear a suggestion without promising you a share of everything." },
+            zone = { { "Look at how people find their way. Where they meet, where they stop, what they use as a landmark. A place tells you plenty through its ordinary business.", tone = "[animated] [observant]" } },
+            newFriend = { "Somebody new. Let them explain what they can do before deciding you have heard the whole offer." },
+            group = { "More company. Make sure everybody knows where we are going before congratulating yourself on bringing them along." },
+            quest = { "Finished. Give the useful work its credit before the next person starts describing how they would have done it." },
+            rest = { "A pause. You may enjoy the place without turning every moment into a proposal. I am occasionally capable of that myself." },
+            thanked = { "You are welcome. That was a nicely placed acknowledgment. I could grow accustomed to them." },
+            hearth = { "Back to somewhere you know. A place begins earning its importance when people are pleased to return." },
+        },
+    },
+
     -- Mendalass Tattermend, Shendar skinner. Adult High Order male140078/M2 7478487, both Friendly. Full97971 and own training/work gossip; chair-testing visit is original.
     -- Research: docs/research/mendalass-chair-and-howins-stitch.md
     [257024] = {

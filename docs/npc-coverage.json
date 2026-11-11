@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 352,
+    "alliance": 353,
     "unverified": 175,
-    "horde": 336
+    "horde": 337
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 74,
+    "3": 75,
     "7": 59,
     "2": 90,
     "5": 88,
     "4": 72,
     "8": 61,
-    "9": 59,
+    "9": 60,
     "6": 88,
     "96": 26,
     "95": 37
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 22,
     "Wetlands": 6,
-    "Ironforge": 60,
+    "Ironforge": 61,
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 49,
     "Undercity": 19,
@@ -59,7 +59,7 @@
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
     "Zephras Isle": 61,
-    "Riverglades": 12,
+    "Riverglades": 13,
     "Felwood": 1
   },
   "entries": [
@@ -6750,6 +6750,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6291"
     },
     {
+      "npc_id": 6294,
+      "name": "Krom Stoutarm",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6294"
+    },
+    {
       "npc_id": 6300,
       "name": "Elisa Steelhand",
       "zone": "Darkshore",
@@ -10023,6 +10036,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260559"
     },
     {
+      "npc_id": 260562,
+      "name": "Melbin Powderfuse",
+      "zone": "Riverglades",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/260562"
+    },
+    {
       "npc_id": 260563,
       "name": "Mia Tanglewrench",
       "zone": "Riverglades",
@@ -10542,6 +10568,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 822,
-  "awaiting_signature_audio_profiles": 368
+  "authored_profiles": 824,
+  "awaiting_signature_audio_profiles": 370
 }

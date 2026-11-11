@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Krom Stoutarm and Melbin Powderfuse: adult Dwarf and Goblin profiles with thirty personal lines queued.
+- Review the full Tome of the Cabal chain, Krom’s treasured stein, and Melbin’s own port-building claims; distinguish original friendship scenes.
+
 - Add Mendalass Tattermend and Howin Kindfeather: adult High Order and Dwarf profiles with thirty personal lines queued.
 - Review camping instruction and the full current Wildhammer quest arc; document original chair-testing and crooked-stitch scenes, identity/version limits, and explicit family evidence.
 
@@ -534,4 +537,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **822 fully written NPC profiles**: 454 have initial signature recordings, and three hundred sixty-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **824 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

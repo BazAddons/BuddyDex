@@ -4319,5 +4319,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult unverified man; Full current preparation and Dragonmaw chain; original crooked stitch; no Scout sighting claimed",
     "research_notes": "docs/research/mendalass-chair-and-howins-stitch.md"
+  },
+  {
+    "npc_id": 6294,
+    "name": "Krom Stoutarm",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Full1360 and1798/1758/1802/1804/1795; original read-aloud preference; no Scout sighting claimed",
+    "research_notes": "docs/research/kroms-stein-and-melbins-port.md"
+  },
+  {
+    "npc_id": 260562,
+    "name": "Melbin Powderfuse",
+    "zone": "Riverglades",
+    "source": "Reviewed adult horde man; Own construction and ownership claims; original our-town exchange; no Scout sighting claimed",
+    "research_notes": "docs/research/kroms-stein-and-melbins-port.md"
   }
 ]
