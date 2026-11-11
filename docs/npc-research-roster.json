@@ -4676,5 +4676,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult horde man; Full94237 delivery, ammunition and profit dilemma, five current goods; original frog sales-pitch audience; no Scout sighting claimed",
     "research_notes": "docs/research/teos-hearth-and-kixxles-audience.md"
+  },
+  {
+    "npc_id": 4090,
+    "name": "Astarii Starseeker",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Full prayer chain and priest referrals, own wisdom/retraining gossip; original plain thank-you note; no Scout sighting claimed",
+    "research_notes": "docs/research/astariis-note-and-eleanors-throne.md"
+  },
+  {
+    "npc_id": 265812,
+    "name": "Eleanor Shackleton",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Full camping introduction and three profession referrals, sticks and firewood; original comfortable stump throne; no Scout sighting claimed",
+    "research_notes": "docs/research/astariis-note-and-eleanors-throne.md"
   }
 ]

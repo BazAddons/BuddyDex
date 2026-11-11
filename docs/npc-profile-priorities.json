@@ -4347,6 +4347,20 @@
       "zone": "Wetlands",
       "route": "Wetlands potion merchant",
       "reason": "Full94237 delivery, ammunition and profit dilemma, five current goods; original frog sales-pitch audience; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4090,
+      "name": "Astarii Starseeker",
+      "zone": "Darnassus",
+      "route": "Temple of the Moon priest trainer",
+      "reason": "Full prayer chain and priest referrals, own wisdom/retraining gossip; original plain thank-you note; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 265812,
+      "name": "Eleanor Shackleton",
+      "zone": "Tirisfal Glades",
+      "route": "Near Brill camping introduction",
+      "reason": "Full camping introduction and three profession referrals, sticks and firewood; original comfortable stump throne; fifteen personal lines queued without synthesis"
     }
   ]
 }

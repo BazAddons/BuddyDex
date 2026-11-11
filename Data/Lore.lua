@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Astarii Starseeker, Priest Trainer, Temple of the Moon/Darnassus. Adult Night Elf female2200/M2 921844, Alliance Friendly. Full3377/3378,5674,8254-57; own wisdom/retraining gossip. Plain thank-you note original. Later Burning/Maw/wisp fate excluded; no new absolution or spell reward.
+    -- Research: docs/research/astariis-note-and-eleanors-throne.md
+    [4090] = {
+        quote = "You need not make gratitude beautiful before offering it. A few plain words can remain with someone long after an elegant speech has faded.",
+        likes = { "A kindness remembered in plain words", "Students willing to begin again", "Help offered beyond familiar traditions" },
+        dislikes = { "Remorse dismissed without a hearing", "Wisdom offered without listening first", "A show of devotion replacing useful aid" },
+        gossip = "Astarii kept a small note thanking her for listening. She unfolded its plain words with the care of a much grander letter.",
+        bio = "Astarii Starseeker teaches priests in Darnassus's Temple of the Moon. She receives Zamael Lunthistle's recovered prayer and directs priests toward Alathea's guidance and the Cenarion Circle's need for aid.",
+        backstory = "A visitor left a folded scrap thanking her for listening. Astarii kept it in a book. Asked why she treasured so brief a message, she said its few words told her something she was glad to know.",
+        secret = "She does not need to be remembered as wise in every conversation. Knowing someone felt heard can be the part she treasures afterward.",
+        bestFriend = "You may speak plainly with me, friend. Our company needs no fine inscription. I am glad to know you wished to stay.",
+        favorite = {
+            emote = "THANK",
+            hint = "A simple acknowledgment of kindness means more to her than a carefully polished compliment.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are, friend. I am glad you wished to spend a little time beside me. You need not bring a fine account of your day; the plain words will give us somewhere honest to begin.", tone = "[gentle] [warm]" }, "Elune guide your steps. Tell me what has occupied your thoughts, when you are ready." },
+            idle = { { "It was only a folded scrap, thanking me for listening. I kept it in a book. So few words, yet they told me something I was glad to know: the person before me had felt heard.", tone = "[softly] [fond]" }, "Beginning again can require more courage than someone watching from the doorway imagines. Offer a little patience before deciding how easy it ought to be.", "Those in need do not always share our customs. That need can still place useful work before us, if we are willing to hear it." },
+            befriended = { { "You have become someone with whom I can share the quiet part of an afternoon, without needing to turn every thought into counsel. Come along, friend. I treasure the ease of your company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? I am listening. Take the moment you need.", "A moment, please. I would rather give your question my attention than a hurried answer." },
+            comforted = { { "Thank you. You need not choose a grand phrase. A kindness can reach someone quite clearly in a few ordinary words, and I am grateful for yours.", tone = "[softly] [grateful]" } },
+            thanked = { "You are welcome. I am glad to know the kindness reached you." },
+            learned = { "Practice with care, and allow yourself to ask again. Understanding is not diminished by an honest question." },
+            newFriend = { "Give them room to speak in their own way. A polished introduction is not the measure of a person's worth." },
+            rest = { "A quiet pause would be welcome. We can share it without asking silence to become an answer." },
+            group = { "Look beyond the person who speaks most confidently. Someone else may be waiting for a little room to be heard." },
+            hearth = { "Homeward, then. May the welcome you receive be one you can offer to another in turn." },
+        },
+    },
+
+    -- Eleanor Shackleton, Adventurer, Tirisfal near Brill57.21,55.45. Adult Forsaken female144652/M2 997378, Horde Friendly. Full86784/96656/96607/96658/97955/97959 and own greeting. Comfortable stump throne original; no friendship-created camp fixture or resting buff.
+    -- Research: docs/research/astariis-note-and-eleanors-throne.md
+    [265812] = {
+        quote = "Fortune and glory are fine ambitions. So is finding a stump at exactly the right height after a long walk. Don't underestimate a properly chosen throne.",
+        likes = { "A well-chosen place to sit", "Enough dry firewood for the evening", "A companion who joins a small celebration" },
+        dislikes = { "Preparation left until the weather turns", "Damp supplies packed without thought", "Every pleasant pause called wasted time" },
+        gossip = "Eleanor once presented a comfortable stump as the throne of her expedition. Her companion cheered, so she gave a very grand seated wave.",
+        bio = "Eleanor Shackleton is an adventurer camped near Brill. She welcomes extra firewood, demonstrates camping, and sends learners to tradeskill trainers. Her lessons connect an appetite for the wilds with practical preparation.",
+        backstory = "After a long walk, Eleanor found a stump at precisely the right height. She declared it her expedition's throne. A companion cheered, and she answered with an extravagant wave before inviting them to find a seat too.",
+        secret = "She enjoys company that makes an ordinary discovery worth celebrating. Being prepared is necessary; having a little fun is part of why she goes.",
+        bestFriend = "There you are, friend. The expedition's throne is occupied, but there's room beside it. Settle in; we can be grand about resting together.",
+        favorite = {
+            emote = "CHEER",
+            hint = "An enthusiastic response to a small outdoor triumph is likely to earn an extravagant wave.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are, friend. Find yourself a good seat. I have already claimed the expedition's throne, but I can be persuaded to recognize a neighboring kingdom if you choose a comfortable stump.", tone = "[bright] [playful]" }, "Welcome back, traveler. Tell me where the road has taken you, and whether you remembered to keep anything dry." },
+            idle = { { "After a long walk, I found a stump at exactly the right height. Naturally I declared it the expedition's throne. My companion cheered. I gave them a very grand wave, all without wasting the comfort by standing up.", tone = "[dry] [amused]" }, "Extra firewood has a way of becoming exactly enough firewood once the evening settles in. I welcome a traveler who understands that before the last branch is gone.", "The wilderness rewards preparation, but I didn't take to the road merely to inspect my own supplies. There ought to be something worth enjoying once the work is done." },
+            befriended = { { "You can take the preparations seriously and still cheer for a comfortable stump. That's the sort of company I want on a journey. Come along, friend. We'll make room for the useful things and the small triumphs.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you're challenging my claim to the throne, bring a more comfortable stump.", "I'm listening. Is this a useful discovery or an excellent reason to sit down? Both are welcome." },
+            rest = { { "Rest properly while you have the chance. A well-chosen pause belongs in the preparations for the next stretch of road, and you might even enjoy the company while you're at it.", tone = "[steady] [encouraging]" } },
+            sitToo = { "An excellent choice. I hereby recognize your claim to that very respectable seat." },
+            bagsFull = { "Leave room for what the road will ask of you. A bag full of things you cannot use is a rather heavy way to feel prepared." },
+            zone = { "Have a look before hurrying on. There may be a fine place to pause, if you let the landscape offer one." },
+            group = { "Find out what everyone can contribute. A good camp is made better by people bringing different skills." },
+            learned = { "Good. Try the new skill with care, and give it a useful place among the preparations you actually make." },
+            thanked = { "You're welcome, traveler. Put the advice to use, then tell me what the road taught you in return." },
+        },
+    },
+
     -- Teo Hammerstorm, Shaman Trainer, Anvilmar/Dun Morogh. Adult Dwarf male126743/M2 878772, Alliance Friendly. Own earth-listening gossip;98581/96243/94373-75/94472 guidance and earth trials. Traveler choosing an inn hearth as happiest ground original; no free training, totem or clan biography invented.
     -- Research: docs/research/teos-hearth-and-kixxles-audience.md
     [257446] = {

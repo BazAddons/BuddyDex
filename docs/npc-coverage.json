@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 376,
+    "alliance": 377,
     "unverified": 181,
-    "horde": 363
+    "horde": 364
   },
   "npc_race_counts": {
     "1": 168,
     "3": 82,
     "7": 61,
     "2": 93,
-    "5": 93,
-    "4": 80,
+    "5": 94,
+    "4": 81,
     "8": 61,
     "9": 65,
     "6": 97,
@@ -32,7 +32,7 @@
     "Wetlands": 9,
     "Ironforge": 62,
     "Stranglethorn Vale": 7,
-    "Tirisfal Glades": 51,
+    "Tirisfal Glades": 52,
     "Undercity": 21,
     "Silverpine Forest": 9,
     "Teldrassil": 28,
@@ -46,7 +46,7 @@
     "Durotar": 52,
     "The Barrens": 49,
     "Stonetalon Mountains": 15,
-    "Darnassus": 17,
+    "Darnassus": 18,
     "Burning Steppes": 1,
     "Ashenvale": 15,
     "Thousand Needles": 12,
@@ -5324,6 +5324,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Alliance Neutral; no explicit Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4084"
+    },
+    {
+      "npc_id": 4090,
+      "name": "Astarii Starseeker",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4090"
     },
     {
       "npc_id": 4155,
@@ -10878,6 +10891,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265809"
     },
     {
+      "npc_id": 265812,
+      "name": "Eleanor Shackleton",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/265812"
+    },
+    {
       "npc_id": 266881,
       "name": "Pa'zula",
       "zone": "Durotar",
@@ -11200,6 +11226,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 873,
-  "awaiting_signature_audio_profiles": 419
+  "authored_profiles": 875,
+  "awaiting_signature_audio_profiles": 421
 }

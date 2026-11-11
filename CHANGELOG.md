@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Astarii Starseeker and Eleanor Shackleton: complete Night Elf and Forsaken profiles with thirty personal lines queued.
+- Ground their faith, teaching and outdoor preparation in researched quests; distinguish original thank-you note and stump throne from native spells, camping rewards and later world events.
+
 - Add Teo Hammerstorm and Kixxle, with full Dwarf starting-area and Goblin Wetlands profiles and thirty personal lines queued.
 - Preserve elemental trial requirements and the merchants ammunition/profit dilemma; distinguish original hearth conversation and frog sales pitch from native quest events.
 
