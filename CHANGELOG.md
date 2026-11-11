@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Innkeeper Helbrek and Miriaan Mistblade: full Wetlands and Skyborne profiles, thirty personal lines queued.
+- Expand Menethil and both-faction Shen'dar coverage with researched hospitality and rogue-training dialogue.
+
 - Add Iverron and Coleman Farthing: full Teldrassil and Tirisfal profiles, thirty personal lines queued.
 - Research the antidote, Agamand revenge and warrior heirloom chains; preserve recovery and established character motives.
 

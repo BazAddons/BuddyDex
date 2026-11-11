@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 398,
+    "alliance": 400,
     "unverified": 183,
-    "horde": 392
+    "horde": 393
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 92,
+    "3": 93,
     "7": 62,
     "2": 102,
     "5": 101,
@@ -18,7 +18,7 @@
     "8": 61,
     "6": 101,
     "96": 28,
-    "95": 52
+    "95": 53
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -29,7 +29,7 @@
     "Loch Modan": 7,
     "Duskwood": 4,
     "Dun Morogh": 26,
-    "Wetlands": 10,
+    "Wetlands": 11,
     "Ironforge": 65,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 57,
@@ -60,7 +60,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 77,
+    "Zephras Isle": 78,
     "Riverglades": 14
   },
   "entries": [
@@ -1712,6 +1712,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1444"
+    },
+    {
+      "npc_id": 1464,
+      "name": "Innkeeper Helbrek",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1464"
     },
     {
       "npc_id": 1466,
@@ -10562,6 +10575,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254084"
     },
     {
+      "npc_id": 254087,
+      "name": "Miriaan Mistblade",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254087"
+    },
+    {
       "npc_id": 254089,
       "name": "Coriella Calmbreeze",
       "zone": "Zephras Isle",
@@ -11849,6 +11876,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 923,
-  "awaiting_signature_audio_profiles": 469
+  "authored_profiles": 925,
+  "awaiting_signature_audio_profiles": 471
 }

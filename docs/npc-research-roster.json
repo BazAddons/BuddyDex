@@ -5026,5 +5026,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde man; Full Agamand/Sevren and warrior branches; original returned-book promise; no Scout sighting claimed",
     "research_notes": "docs/research/iverrons-afternoon-and-colemans-promise.md"
+  },
+  {
+    "npc_id": 1464,
+    "name": "Innkeeper Helbrek",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance identity; Hearty native welcome and13 goods; original recognition by laugh; no Scout sighting claimed",
+    "research_notes": "docs/research/helbreks-welcome-and-miriaans-grin.md"
+  },
+  {
+    "npc_id": 254087,
+    "name": "Miriaan Mistblade",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Two playful fee-bearing greetings and112 lessons; original early grin during coin trick; no Scout sighting claimed",
+    "research_notes": "docs/research/helbreks-welcome-and-miriaans-grin.md"
   }
 ]

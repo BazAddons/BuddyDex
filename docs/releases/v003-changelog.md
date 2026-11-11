@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Innkeeper Helbrek and Miriaan Mistblade: full Wetlands and Skyborne profiles, thirty personal lines queued.
+- Expand Menethil and both-faction Shen'dar coverage with researched hospitality and rogue-training dialogue.
+
 - Add Iverron and Coleman Farthing: full Teldrassil and Tirisfal profiles, thirty personal lines queued.
 - Research the antidote, Agamand revenge and warrior heirloom chains; preserve recovery and established character motives.
 
@@ -685,4 +688,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **923 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **925 fully written NPC profiles**: 454 have initial signature recordings, and four hundred seventy-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

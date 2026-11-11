@@ -4697,6 +4697,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill Agamand revenge and heirlooms",
       "reason": "Full Agamand/Sevren and warrior branches; original returned-book promise; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1464,
+      "name": "Innkeeper Helbrek",
+      "zone": "Wetlands",
+      "route": "Menethil Deepwater Tavern innkeeper",
+      "reason": "Hearty native welcome and13 goods; original recognition by laugh; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 254087,
+      "name": "Miriaan Mistblade",
+      "zone": "Zephras Isle",
+      "route": "Shendar rogue trainer",
+      "reason": "Two playful fee-bearing greetings and112 lessons; original early grin during coin trick; fifteen personal lines queued without synthesis"
     }
   ]
 }

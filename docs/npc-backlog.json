@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 923,
-  "written_complete_count": 923,
-  "awaiting_signature_audio_count": 469,
+  "authored_count": 925,
+  "written_complete_count": 925,
+  "awaiting_signature_audio_count": 471,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 471,
+  "remaining_count": 473,
   "completed": [
     {
       "npc_id": 54,
@@ -1262,6 +1262,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 1464,
+      "name": "Innkeeper Helbrek",
+      "zone": "Wetlands",
+      "source": "Reviewed adult alliance identity; Hearty native welcome and13 goods; original recognition by laugh; no Scout sighting claimed",
+      "research_notes": "docs/research/helbreks-welcome-and-miriaans-grin.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 1466,
@@ -8782,6 +8794,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult Skyborne woman; both Friendly,124training rows, three installed greetings and full five-stage hunter handoff; original buckle anecdote; no Scout sighting claimed",
       "research_notes": "docs/research/zephras-loose-buckles-and-fern-courtesy.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 254087,
+      "name": "Miriaan Mistblade",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult alliance+horde identity; Two playful fee-bearing greetings and112 lessons; original early grin during coin trick; no Scout sighting claimed",
+      "research_notes": "docs/research/helbreks-welcome-and-miriaans-grin.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

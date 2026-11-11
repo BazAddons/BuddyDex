@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Helbrek, Deepwater Tavern Menethil Wetlands, adult Dwarf male3479/M2 878772, Alliance Friendly. Native hearty stories/drinks greeting and13 current goods, no own quest chain. Recognized laugh before grand title original; no Cataclysm flooding, free lodging or altered hearth.
+    -- Research: docs/research/helbreks-welcome-and-miriaans-grin.md
+    [1464] = {
+        quote = "A new title, is it? Congratulations. I knew it was ye from the laugh before ye reached the bar. Tell me what the title means once ye've caught yer breath.",
+        likes = { "A laugh he recognizes from the doorway", "A story allowed its proper ending", "A full table with room for another voice" },
+        dislikes = { "Guests reduced to their impressive titles", "A welcome hurried out of the conversation", "A tale drowned out before its best part" },
+        gossip = "A returning guest introduced a grand new title. Helbrek had recognized the laugh at the door. He congratulated the person first.",
+        bio = "Innkeeper Helbrek welcomes travelers to the Deepwater Tavern in Menethil Harbor. He invites guests to settle in with drinks and stories. His current supplies include meat, milk, water, juices and dwarven honeymead.",
+        backstory = "A traveler returned with a grand new title, then laughed at something by the door. Helbrek called a welcome before the introduction reached him. He congratulated them, but the laugh had told him who was back before the honors did.",
+        secret = "He cannot recite every honor his guests have earned. He remembers the company: a familiar laugh, a voice asking for the next part, the person who leaves room for someone else to speak.",
+        bestFriend = "There ye are, friend. Tell me what ye've been up to. I know the laugh; I'd like to hear the rest from the person it belongs to.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A hearty welcome returned in kind makes the conversation feel like a visit between old friends.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend! A new title to announce? Congratulations. I knew the laugh before ye reached the bar. Tell me what the honors mean once ye've caught yer breath. I would enjoy hearing the account from the person behind all the impressive words.", tone = "[hearty] [welcoming]" }, "Aye, welcome back. Bring yer own voice into the conversation; we've room for another account of the road." },
+            idle = { { "They had a grand new title ready. Then they laughed at something by the door, and I knew who had come back before the introduction arrived. Aye, I congratulated them. I simply thought the person ought to be welcomed before we worked through the honors.", tone = "[chuckling] [fond]" }, "Give a good tale room to reach its ending. If everyone supplies the best part at once, nobody will know which beginning earned it.", "I enjoy a full table when the voices make room for one another. A room can be lively without requiring the quiet guest to shout for a place in it." },
+            befriended = { { "I know more than the title ye brought through the door, friend. I have heard the laugh and the account that followed it. Come along. Ye need not arrive with another honor ready before I am glad to find time for yer company.", tone = "[warm] [sincere]" } },
+            poke = { "Aye, friend? Give the last speaker a moment, then tell me what ye wanted to say.", "I heard ye. I am waiting to find out whether this is the beginning of the story or the part everyone was supposed to keep secret until the end." },
+            rest = { { "Settle yerself for a little while. The road will have its next part soon enough. Ye may enjoy a conversation without making every word a report of what ye accomplished. I would be glad to hear what amused ye along the way as well.", tone = "[hearty] [gentle]" } },
+            newFriend = { "Learn the voice behind the introduction. Ye may be glad to recognize it long after the grand title has acquired another dozen words." },
+            thanked = { "Aye, ye're welcome. I am pleased the company suited ye. That is worth hearing without a speech to improve it." },
+            group = { "Leave room for another voice. A table is better company when the same person does not tell every beginning and every ending." },
+            mail = { "Give them something of yerself in the letter. A list of honors is a fine thing, but the person waiting may rather want to know how ye are." },
+            zone = { "Here we are. Shall we find something worth talking about before deciding the place needs an impressive description?" },
+            waveBack = { "Good to see ye, friend! I recognized the greeting. Ye can save the formal introduction for someone who has not heard the laugh yet." },
+        },
+    },
+
+    -- Miriaan Mistblade, Shendar Zephras Isle Rogue Trainer, adult High Order female138002/M2 7478494, both factions Friendly. Two teasing fee-bearing greetings and112 current lessons, no own quests. Coin flourish and early grin original; no theft/romantic service, free class skill or actual minigame.
+    -- Research: docs/research/helbreks-welcome-and-miriaans-grin.md
+    [254087] = {
+        quote = "Yes, I smiled before the flourish. That does not reveal how it was done. It merely tells you that I was enjoying the part where you were about to ask me to do it again.",
+        likes = { "An audience willing to play along", "A well-timed flourish", "Learners who look beyond the sales pitch" },
+        dislikes = { "A harmless trick turned into an accusation", "The grin arriving before the surprise", "A lesson mistaken for an effortless talent" },
+        gossip = "Miriaan can hide the coin better than her grin. A friend has learned to watch her face before asking for the trick again.",
+        bio = "Miriaan Mistblade teaches rogues in Shen'dar Village. Her teasing pitch promises success against enemies and with admirers, for a fee. In company, she enjoys a harmless flourish as much as a practiced technique.",
+        backstory = "She showed a friend a small trick with a copper coin. They asked to see it again, then watched her face. Miriaan grinned before the flourish. There, they said. She replied that enjoying the trick had not revealed its method.",
+        secret = "She could practice away the early grin, but likes seeing someone ready to enjoy the surprise. A friend who notices her amusement has noticed something worth keeping in the performance.",
+        bestFriend = "Come along, friend. Watch the hands if you wish. I rather enjoy knowing that you have learned to recognize the grin as well.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "A little applause can enjoy the flourish without demanding that she surrender every secret of the trick.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. Watching my hands already? You learned that the grin arrives before the flourish, not how the coin disappears. I consider that a distinction worth preserving. Shall we enjoy the trick again, or would you prefer a conversation without the copper?", tone = "[playful] [confident]" }, "Welcome back. I have not promised that every visit contains a surprise. I merely enjoy seeing you ready for one." },
+            idle = { { "They asked to see the trick again, then watched my face instead of my hands. I grinned. There, they said. Yes, I replied, you have discovered that I was enjoying myself. An excellent observation, though the coin's part in the matter remains unexplained.", tone = "[wry] [amused]" }, "A good flourish is pleasant. It is still not a substitute for understanding the technique behind it. The audience and the learner have different reasons to watch.", "I could practice keeping a perfectly solemn face. I am not convinced the little performance would be improved by removing every sign that I like sharing it." },
+            befriended = { { "You have learned to recognize the amusement as well as watch for the method. I enjoy that, friend. Come along. We can leave room for a surprise without pretending that every moment of company must be a test of who has concealed something better.", tone = "[warm] [playful]" } },
+            poke = { "Yes, friend? That expression was a thought, not a secret signal about the coin.", "A moment. I am deciding whether the flourish belongs before the answer or would simply delay it." },
+            learned = { { "Watch what is happening, then understand why it works. An elegant finish does not supply the practice behind it. Enjoy the flourish if you wish, but do not let an impressive promise persuade you that the lesson will perform itself.", tone = "[clear] [instructive]" } },
+            rest = { "A pause. We may speak plainly for a while; neither of us needs to make the next sentence vanish." },
+            newFriend = { "Give them a chance to enjoy the harmless part. Not every little surprise requires a contest to expose the person offering it." },
+            thanked = { "You are welcome. I am pleased you enjoyed it. I shall attempt to accept that without beginning the entire performance again." },
+            group = { "One demonstration at a time. If everyone chooses the same moment for a flourish, the audience may never discover where to look." },
+            applaudToo = { "Thank you. A little appreciation for the performance is welcome, even when you have already noticed how thoroughly I was enjoying it." },
+            zone = { "Here we are. There is something new to look at without requiring me to conceal it in one hand." },
+        },
+    },
+
     -- Iverron, Shadowglen Teldrassil, adult Night Elf male7901/M2 974343, Alliance Friendly. Full4495/3519/3521/3522 missing-visit, poison and antidote chain; still rests after relief. Remembering an uneventful walk original; friendship is not a cure or actual delivery.
     -- Research: docs/research/iverrons-afternoon-and-colemans-promise.md
     [8584] = {
