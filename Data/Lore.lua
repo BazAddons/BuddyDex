@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Queldora Quickgale, Pet Trainer, Valanaar/Zephras. Adult High Order female139682/M2 7478494, both Friendly. Full94050 identifies Quelana as brother; five-step taming context and own hunter-only service gossip. Sunny practice mat original.
+    -- Research: docs/research/queldoras-mat-and-seenas-welcome.md
+    [254411] = {
+        quote = "Before we repeat the command, look where your companion is standing. Sometimes the lesson improves when the teacher notices the sunny patch as well.",
+        likes = { "A clear cue followed by time to respond", "Hunters noticing their companions' needs", "A warm patch of light after practice" },
+        dislikes = { "Commands repeated louder instead of clearer", "Care postponed until the lesson is over", "A creature treated as a walking trophy" },
+        gossip = "Quel'dora once moved an entire practice mat into the sun. Her pupil's companion immediately seemed more interested in the lesson.",
+        bio = "Quel'dora Quickgale trains hunters to guide their pets in Valanaar. Her brother Quel'ana sends new tamers to her after their trials. Teaching abilities comes with responsibility for feeding, care, and respect for the natural balance around them.",
+        backstory = "A beast kept leaving a practice mat for a patch of sunlight. Its hunter repeated the cue. Quel'dora moved the mat instead, and the pair settled to work. She asked the hunter which pupil had needed to learn the first part.",
+        secret = "She enjoyed the hunter's laugh when the answer became clear. Noticing a companion's comfort can be a fine beginning to a lesson, even when the teacher must move the furniture.",
+        bestFriend = "Come sit here, friend. We have room in the light. Tell me what you noticed today, before we decide what needs teaching.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "She values patient reassurance that notices a companion's discomfort before asking for another effort.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. We can look at the place we have chosen before deciding that everyone else ought to be more comfortable in it. I have moved a practice mat for less.", tone = "[gentle] [wry]" }, "Good to see you. Have you learned something about your companion today, or only decided what you would like your companion to learn?" },
+            idle = { { "The beast left the mat and settled in the sunlight. The hunter repeated the cue. I moved the mat. We made rather better progress after that, though the first useful lesson had belonged to the hunter.", tone = "[patient] [amused]" }, "Give a clear cue and leave time for the answer. A louder repetition can make a simple request much less simple to understand.", "Care belongs with training. A companion's needs do not wait politely until the interesting part of your lesson has finished." },
+            befriended = { { "You have become someone who notices the other creature in the lesson. I am glad to have your company, friend. Come along. There is room to be comfortable without pretending that comfort makes us careless.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the light moved, or have we forgotten to look?", "A moment. Let the learner finish answering the first request." },
+            learned = { { "Good. Now see whether you can pass that understanding on clearly. Knowing a thing yourself and helping a companion learn it are related skills, but they do not arrive in the same instant.", tone = "[encouraging] [instructive]" } },
+            rest = { "A pause in the light would do us good. Nobody needs to produce another impressive result to justify taking it." },
+            group = { "Make room for the quieter member of the company. You may learn something by noticing where they have chosen to stand." },
+            comforted = { "Thank you. Patiently offered, and before the discomfort had to become a performance. That is a kindness worth noticing." },
+            newFriend = { "Let them become familiar with us before deciding how quickly they ought to join in." },
+            thanked = { "You are welcome. I am glad the useful part of the lesson reached both companions." },
+            zone = { "Look around before settling into the work. The surroundings may explain something the repeated instruction has not." },
+        },
+    },
+
+    -- Seena Skybreaker, Warrior Trainer, Valanaar/Zephras. Adult High Order female138004/M2 7478494, both Friendly. Full94003: murdered family here, stolen ancestral shield, Zaal, family lore and promised defense. Quiet-table toast original; grief retained, no recovery assumed.
+    -- Research: docs/research/queldoras-mat-and-seenas-welcome.md
+    [252377] = {
+        quote = "A toast is not a battle order. I know. Give me a moment; I would like this one to sound as though I know it.",
+        likes = { "A steady guard kept under pressure", "Her family's honor treated with care", "Company that allows a quiet beginning" },
+        dislikes = { "The Al'Aketh and their theft", "Pity that demands a reassuring answer", "Promises of protection made carelessly" },
+        gossip = "Seena can make a welcome sound like a command to hold the line. Someone who knows her will hear the invitation beneath it.",
+        bio = "Seena Skybreaker trains warriors in Valanaar. The Al'Aketh murdered the rest of her line on Zephras, and Zaal Stormshield holds her ancestral bulwark. Reclaiming it is bound to her family's honor; she offers the Skybreaker Defense in return.",
+        backstory = "Asked for a toast at a quiet table, she began as if addressing a formation. She stopped, considered the company, and tried a simpler greeting. Nobody hurried her into finishing. The second attempt required fewer words.",
+        secret = "She remembers the patient silence before that second attempt. A friend may hear her plainest welcome: she is glad they are here. She does not always find those words quickly.",
+        bestFriend = "Stay beside me, friend. I am glad you are here. There. We may let the words stand without turning them into an order.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a steady acknowledgment that leaves her room to finish speaking in her own time.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. I am glad of your company. I had considered a more formal welcome, but I should prefer you hear the part I actually mean before I arrange it into an instruction.", tone = "[reserved] [warm]" }, "Good to see you. Keep your guard steady. We can speak without pretending that everything beyond this moment has become safe." },
+            idle = { { "I began the toast as though I were addressing a formation. Then I stopped. The company waited. A simple welcome was enough when I found it, and I remember that they let me find it without assistance.", tone = "[quietly] [reflective]" }, "The Al'Aketh took my family here. Their theft of our bulwark is not a matter I can dismiss because someone would prefer a more comforting subject.", "Steadiness is work. A brave appearance will not keep the guard in place when your hands have forgotten what they were taught." },
+            befriended = { { "You have become someone beside whom I can pause without being pressed to explain the pause. Come along, friend. I value your presence. That is a plain enough welcome, and a sincere one.", tone = "[firm] [sincere]" } },
+            poke = { "Yes? Give me the plain question. I shall do my best to give you the plain answer.", "A moment. I am choosing the words, not waiting for someone to choose them for me." },
+            gear = { { "Know what you are trusting to your guard. A shield carries the worth of the hands behind it as well as the work of the hands that made it. Do not make a careless promise of protection.", tone = "[firm] [instructive]" } },
+            combatEnd = { "Look to those beside you. Keep your attention until you know who needs help." },
+            rest = { "A pause. We need not fill it immediately. I would be glad to sit with you for a while." },
+            group = { "Hold steady and know who stands beside you. Someone is trusting you with the space your guard protects." },
+            thanked = { "You are welcome, friend. I am glad I could answer with something useful." },
+            comforted = { "Thank you. You need not ask me to be easier in order to accept your kindness." },
+            saluteBack = { "Acknowledged. I am glad to have your steadiness beside mine." },
+        },
+    },
+
     -- Barithras Moonshade, Auberdine/Darkshore. Adult Night Elf male4414/M2 974343, Alliance Friendly. Full947/948 and Onu onward investigation; polite specimen/dish scene original. No Cataclysm death or guessed potion effect.
     -- Research: docs/research/barithras-dish-and-garyls-sleeves.md
     [3583] = {

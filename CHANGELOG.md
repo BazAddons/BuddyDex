@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Queldora Quickgale and Seena Skybreaker: adult shared-access Skyborne profiles with thirty personal lines queued.
+- Verify the full hunter-training referral and family-bulwark text; preserve native class restrictions and document original practice-mat and quiet-welcome scenes.
+
 - Add Barithras Moonshade and Garyl: adult Night Elf and Orc profiles with thirty personal lines queued.
 - Review the complete mushroom/Onu investigation and current guild-tabard role; document original specimen courtesy and muddy-sleeves scenes.
 

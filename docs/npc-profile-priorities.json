@@ -4221,6 +4221,20 @@
       "zone": "Orgrimmar",
       "route": "Valley of Strength guild-tabard seller",
       "reason": "Current guild stock and adult woman; original shared muddy sleeves; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 254411,
+      "name": "Quel'dora Quickgale",
+      "zone": "Zephras Isle",
+      "route": "Valanaar pet-training instructor",
+      "reason": "Full hunter referral, brother explicit; original sunny practice mat; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252377,
+      "name": "Seena Skybreaker",
+      "zone": "Zephras Isle",
+      "route": "Valanaar warrior trainer and family bulwark",
+      "reason": "Full94003, murdered line and stolen shield; original quiet welcome; fifteen personal lines queued without synthesis"
     }
   ]
 }

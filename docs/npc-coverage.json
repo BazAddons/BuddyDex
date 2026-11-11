@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 368,
+    "alliance": 370,
     "unverified": 180,
-    "horde": 352
+    "horde": 354
   },
   "npc_race_counts": {
     "1": 168,
@@ -18,7 +18,7 @@
     "9": 62,
     "6": 94,
     "96": 28,
-    "95": 41
+    "95": 43
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -60,7 +60,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 67,
+    "Zephras Isle": 69,
     "Riverglades": 13
   },
   "entries": [
@@ -9603,6 +9603,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252095"
     },
     {
+      "npc_id": 252377,
+      "name": "Seena Skybreaker",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252377"
+    },
+    {
       "npc_id": 252378,
       "name": "Yorana Windyreed",
       "zone": "Zephras Isle",
@@ -9883,6 +9897,20 @@
       ],
       "reaction_evidence": "Explicit Alliance and Horde Friendly icons on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254360"
+    },
+    {
+      "npc_id": 254411,
+      "name": "Quel'dora Quickgale",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254411"
     },
     {
       "npc_id": 255894,
@@ -10966,6 +10994,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 855,
-  "awaiting_signature_audio_profiles": 401
+  "authored_profiles": 857,
+  "awaiting_signature_audio_profiles": 403
 }

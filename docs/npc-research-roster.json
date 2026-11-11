@@ -4550,5 +4550,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde woman; Current guild stock and adult woman; original shared muddy sleeves; no Scout sighting claimed",
     "research_notes": "docs/research/barithras-dish-and-garyls-sleeves.md"
+  },
+  {
+    "npc_id": 254411,
+    "name": "Quel'dora Quickgale",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full hunter referral, brother explicit; original sunny practice mat; no Scout sighting claimed",
+    "research_notes": "docs/research/queldoras-mat-and-seenas-welcome.md"
+  },
+  {
+    "npc_id": 252377,
+    "name": "Seena Skybreaker",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full94003, murdered line and stolen shield; original quiet welcome; no Scout sighting claimed",
+    "research_notes": "docs/research/queldoras-mat-and-seenas-welcome.md"
   }
 ]
