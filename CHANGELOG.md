@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Argos Nightwhisper and Godan: full Night Elf and Orc profiles, thirty personal lines queued.
+- Follow the Darkshore corruption referral and preserve enchanting dialogue; add original letter and rematch friendship stories.
+
 - Add Melasa Fairmend and Jessir Moonbow: full Skyborne and Night Elf profiles, thirty personal lines queued.
 - Expand Valanaar and Felwood coverage; research medical dialogue and the complete Jaedenar rescue/remains chain.
 

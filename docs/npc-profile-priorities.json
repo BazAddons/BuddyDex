@@ -4627,6 +4627,20 @@
       "zone": "Felwood",
       "route": "Emerald Sanctuary missing-friends quest story",
       "reason": "Full5202/5203/5204/5385 and own greeting; original shared silence; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4984,
+      "name": "Argos Nightwhisper",
+      "zone": "Stormwind City",
+      "route": "Stormwind Park Darkshore referral",
+      "reason": "Full3765/1275 and established brother Gershala; original ordinary detail in letter; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3345,
+      "name": "Godan",
+      "zone": "Orgrimmar",
+      "route": "Expert enchanter and teacher referrals",
+      "reason": "Five challenge/craft/Jhag/Hgarth greetings; original feather-race rematch; fifteen personal lines queued without synthesis"
     }
   ]
 }

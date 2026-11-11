@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Argos Nightwhisper and Godan: full Night Elf and Orc profiles, thirty personal lines queued.
+- Follow the Darkshore corruption referral and preserve enchanting dialogue; add original letter and rematch friendship stories.
+
 - Add Melasa Fairmend and Jessir Moonbow: full Skyborne and Night Elf profiles, thirty personal lines queued.
 - Expand Valanaar and Felwood coverage; research medical dialogue and the complete Jaedenar rescue/remains chain.
 
@@ -670,4 +673,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **913 fully written NPC profiles**: 454 have initial signature recordings, and four hundred fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **915 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

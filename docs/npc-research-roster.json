@@ -4956,5 +4956,19 @@
     "zone": "Felwood",
     "source": "Reviewed adult horde man; Full5202/5203/5204/5385 and own greeting; original shared silence; no Scout sighting claimed",
     "research_notes": "docs/research/melasas-path-and-jessirs-company.md"
+  },
+  {
+    "npc_id": 4984,
+    "name": "Argos Nightwhisper",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance man; Full3765/1275 and established brother Gershala; original ordinary detail in letter; no Scout sighting claimed",
+    "research_notes": "docs/research/argos-letter-and-godans-rematch.md"
+  },
+  {
+    "npc_id": 3345,
+    "name": "Godan",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Five challenge/craft/Jhag/Hgarth greetings; original feather-race rematch; no Scout sighting claimed",
+    "research_notes": "docs/research/argos-letter-and-godans-rematch.md"
   }
 ]

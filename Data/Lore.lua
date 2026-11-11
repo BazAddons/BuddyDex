@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Argos Nightwhisper, Stormwind Park, adult Night Elf male5078/M2 974343, Alliance Friendly. Full3765/1275 brother Gershala referral/research chain. Ordinary dog included in letter original; no future destroyed Park, native delivery or solved research.
+    -- Research: docs/research/argos-letter-and-godans-rematch.md
+    [4984] = {
+        quote = "My brother should hear more than requests for help. I can spare a line for the dog waiting outside a butcher's door as solemnly as a sentry. It was an excellent account of patience, if not of dignity.",
+        likes = { "Letters with something besides requests", "Ordinary sights of a bustling city", "Help offered with the journey understood" },
+        dislikes = { "A long journey dismissed as a quick errand", "A promise made before hearing the request", "Every message becoming a list of troubles" },
+        gossip = "Argos added a dog outside a butcher's door to a letter for his brother. Apparently even serious news may leave room for a smile.",
+        bio = "Argos Nightwhisper came to Stormwind seeking experienced adventurers to help his brother Gershala in Auberdine. Gershala studies corruption and demonic influence. Argos knows the journey to Darkshore is no small request.",
+        backstory = "While preparing a letter, he recalled a dog waiting outside a butcher's door with the gravity of a sentry. At first the detail seemed too small beside his concerns. He wrote it down anyway. His brother deserved a little of the city beyond its troubles.",
+        secret = "He wants his letters to carry something worth smiling at, not only another reason to worry. A small ordinary sight can remind him why the larger work matters.",
+        bestFriend = "Walk a little with me, friend. There may be something worth telling my brother before we turn again to the things that trouble us.",
+        favorite = {
+            emote = "WAVE",
+            hint = "A friendly wave can begin the sort of ordinary encounter he would like to write home about.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Welcome back, friend. I found room in the letter for the dog outside the butcher's door. Yes, beside the serious matters. My brother deserves some account of the city that is not another request for help. I thought a very solemn dog was a reasonable beginning.", tone = "[measured] [warm]" }, "There you are. Shall we walk a little, friend? I would like to hear what you have noticed as well as what brought you here." },
+            idle = { { "It waited outside the butcher's door as though entrusted with an important watch. I nearly left it out of the letter. Then I thought that Gershala ought to receive something besides my concerns. So I gave the dog a line of its own.", tone = "[thoughtful] [amused]" }, "There is much to notice in a busy city. I came looking for help, but that need not make every ordinary sight disappear from view.", "A request that sends someone across such a distance deserves more thought than a hurried assurance that they will manage." },
+            befriended = { { "You have heard the request and still found time to share an ordinary walk. I value that, friend. Come along. Perhaps we shall find something worth remembering before the next letter becomes entirely occupied with the things that need to be put right.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? Tell me what is on your mind; I would rather understand it than offer a hurried answer.", "A moment. I am deciding how much dignity one dog can reasonably contribute to a letter." },
+            mail = { { "A letter may carry more than a request or a warning. Leave room for something the person receiving it would be glad to hear. I am not suggesting that serious news should be concealed, only that it need not be the whole account of a life.", tone = "[reflective] [gentle]" } },
+            quest = { "Understand the journey before agreeing to it. A willing answer means more when the person offering it has heard what is being asked." },
+            rest = { "A short pause, then. We can notice what is around us without needing to turn it into another task." },
+            newFriend = { "Learn something about them that is not a request for help. You may be glad to remember it when the conversation grows difficult." },
+            thanked = { "You are welcome. I am glad the care behind the request reached you along with the words." },
+            zone = { "Here we are. Take a moment to look. An ordinary detail may be the part of this place you most want to tell someone about." },
+            waveBack = { "Good to see you, friend. A wave is a pleasant beginning to a conversation that need not start with bad news." },
+        },
+    },
+
+    -- Godan, Orgrimmar Expert Enchanter, adult Orc male1366/M2 917116, Horde Friendly. Five craft/challenge/Jhag/Hgarth greetings; current own tabs empty, historical teaching retained as context only. Feather contest original; no actual duel, free enchantment or later Garrosh role.
+    -- Research: docs/research/argos-letter-and-godans-rematch.md
+    [3345] = {
+        quote = "The feather left the table. It did not cross the finish line. That is a different result. Before you declare me victorious, I suggest we agree on whether the contest was meant to include the floor.",
+        likes = { "A claim tested rather than repeated", "A learner with that first eager spark", "A harmless contest with clear rules" },
+        dislikes = { "Enchanting dismissed without a test", "Pride that refuses a better teacher", "A rematch begun before the rules are clear" },
+        gossip = "Godan blew both feathers off the table in a race. He requested a rematch with less enthusiasm and rather more precise rules.",
+        bio = "Godan is an expert enchanter in Orgrimmar. He challenges those who doubt his craft and recognizes promise in learners. His advice points beginners to his assistant Jhag and more advanced students toward Hgarth at Sun Rock Retreat.",
+        backstory = "A friend proposed blowing feathers across a table. Godan supplied enough breath to send both onto the floor. He considered the result, declined to claim victory and demanded a rematch. This time, he suggested, they might define the edge of the course.",
+        secret = "He enjoys a contest that ends with both people laughing and nothing important broken. The rematch matters less than having someone who will agree to another round.",
+        bestFriend = "Come along, friend. I will hear the rules before accepting the next challenge. You may enjoy remembering why, but only briefly.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin can invite another round without making a harmless mistake into a humiliation.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "You again. Have you brought another feather? Before we begin, we will agree on the course. Both competitors reaching the floor was an unexpected result, but I am prepared to accept that it was not the victory you intended me to achieve.", tone = "[confident] [amused]" }, "Welcome back, friend. A question about the craft, or a challenge whose rules you have once again neglected to explain?" },
+            idle = { { "Two feathers. One table. I supplied the breath; both feathers supplied an immediate departure. They laughed. I considered the result. No, I said, I will not claim victory until we decide whether the floor was supposed to be part of the course.", tone = "[dry] [amused]" }, "If you doubt a craft, look at what it can do. Repeating that you do not believe in it is a poor substitute for testing the claim.", "There is a look a learner gets when the work first begins to make sense. I remember having it. I enjoy recognizing it in someone else." },
+            befriended = { { "You can laugh at an unexpected result and still agree to another round. I respect that, friend. Come along. We need not make every contest a matter of pride, though I reserve the right to ask for clear rules before you produce the next feather.", tone = "[gruff] [warm]" } },
+            poke = { "Yes, friend? Explain the challenge before expecting an answer.", "A moment. I am deciding whether this requires more effort or simply less breath." },
+            learned = { { "Know where your understanding stands. A beginner should not be ashamed to build the foundation, and an accomplished learner should not refuse another teacher simply to flatter the first. The craft deserves more respect than that kind of pride.", tone = "[firm] [instructive]" } },
+            gear = { "Look at what the work contributes. An impressive appearance and a confident opinion are not the same thing as an honest test." },
+            quest = { "Hear the requirements before deciding what counts as success. I have already discovered how far enthusiasm can carry a feather beyond the intended result." },
+            rest = { "A pause. If you propose another race, I suggest something that will remain on the table long enough for us to discuss it." },
+            newFriend = { "Give them a chance to show what they know. You may discover that the lesson you needed was not where your pride expected it." },
+            thanked = { "You are welcome. Put the understanding to use. That will tell me more than another speech about how impressive the craft must be." },
+            group = { "Agree on what you are attempting before everyone supplies a different answer. Enthusiasm is easier to use when it has a direction." },
+        },
+    },
+
     -- Melasa Fairmend, Valanaar Zephras Isle Medic, adult High Order female140076/M2 7478494, Horde Friendly. Six captured greetings (two untranslated) and13 medical lessons, no own quests. Sand-tray detour and retained pebble original; no free healing/training or translated-language inference.
     -- Research: docs/research/melasas-path-and-jessirs-company.md
     [257007] = {

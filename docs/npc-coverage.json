@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 393,
+    "alliance": 394,
     "unverified": 183,
-    "horde": 386
+    "horde": 387
   },
   "npc_race_counts": {
     "1": 168,
     "3": 90,
     "7": 62,
-    "2": 100,
+    "2": 101,
     "5": 99,
-    "4": 87,
+    "4": 88,
     "9": 67,
     "8": 61,
     "6": 100,
@@ -24,7 +24,7 @@
     "Elwynn Forest": 29,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
-    "Stormwind City": 124,
+    "Stormwind City": 125,
     "Redridge Mountains": 26,
     "Loch Modan": 6,
     "Duskwood": 4,
@@ -38,7 +38,7 @@
     "Teldrassil": 30,
     "Hillsbrad Foothills": 13,
     "Arathi Highlands": 11,
-    "Orgrimmar": 60,
+    "Orgrimmar": 61,
     "Badlands": 1,
     "Darkshore": 15,
     "Mulgore": 26,
@@ -4179,6 +4179,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3344"
     },
     {
+      "npc_id": 3345,
+      "name": "Godan",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3345"
+    },
+    {
       "npc_id": 3346,
       "name": "Kithas",
       "zone": "Orgrimmar",
@@ -6171,6 +6184,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4981"
+    },
+    {
+      "npc_id": 4984,
+      "name": "Argos Nightwhisper",
+      "zone": "Stormwind City",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4984"
     },
     {
       "npc_id": 5099,
@@ -11718,6 +11744,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 913,
-  "awaiting_signature_audio_profiles": 459
+  "authored_profiles": 915,
+  "awaiting_signature_audio_profiles": 461
 }
