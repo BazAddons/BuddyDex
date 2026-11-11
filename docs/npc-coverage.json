@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 444,
+    "alliance": 445,
     "unverified": 184,
-    "horde": 439
+    "horde": 440
   },
   "npc_race_counts": {
     "1": 177,
-    "3": 110,
+    "3": 111,
     "7": 63,
-    "2": 114,
+    "2": 115,
     "5": 115,
     "4": 101,
     "9": 67,
@@ -29,7 +29,7 @@
     "Loch Modan": 11,
     "Duskwood": 6,
     "Dun Morogh": 28,
-    "Wetlands": 15,
+    "Wetlands": 16,
     "Ironforge": 70,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 64,
@@ -38,7 +38,7 @@
     "Teldrassil": 33,
     "Hillsbrad Foothills": 16,
     "Arathi Highlands": 11,
-    "Orgrimmar": 64,
+    "Orgrimmar": 65,
     "Badlands": 1,
     "Darkshore": 17,
     "Mulgore": 27,
@@ -1881,6 +1881,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1472"
+    },
+    {
+      "npc_id": 1476,
+      "name": "Hargin Mundar",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1476"
     },
     {
       "npc_id": 1477,
@@ -4447,6 +4460,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3317"
+    },
+    {
+      "npc_id": 3318,
+      "name": "Koma",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3318"
     },
     {
       "npc_id": 3320,
@@ -12999,6 +13025,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1011,
-  "awaiting_signature_audio_profiles": 557
+  "authored_profiles": 1013,
+  "awaiting_signature_audio_profiles": 559
 }

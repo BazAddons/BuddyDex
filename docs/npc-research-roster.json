@@ -5642,5 +5642,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Full1102 current/native/historical progress-completion; original second bowl welcome; no Scout sighting claimed",
     "research_notes": "docs/research/sloans-charades-and-aulds-second-bowl.md"
+  },
+  {
+    "npc_id": 1476,
+    "name": "Hargin Mundar",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance identity; Five older ambient lines, no own quest; original upstairs warning; no Scout sighting claimed",
+    "research_notes": "docs/research/hargins-stairs-and-komas-plum.md"
+  },
+  {
+    "npc_id": 3318,
+    "name": "Koma",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde identity; Three native security and Hyjal lines; original small plum promise; no Scout sighting claimed",
+    "research_notes": "docs/research/hargins-stairs-and-komas-plum.md"
   }
 ]

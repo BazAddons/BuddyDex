@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Hargin Mundar and Koma: full Dwarf and Orc profiles, thirty personal lines queued.
+- Research marsh warnings and bank security; preserve normal thresholds, character progress and the current banker identity.
+
 - Add Sloan McCoy and Auld Stonespire: full Human and Tauren profiles, thirty personal lines queued.
 - Research cautious supply work and A Vengeful Fate; preserve normal thresholds, character progress and established grief.
 

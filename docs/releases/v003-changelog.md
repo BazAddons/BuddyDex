@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Hargin Mundar and Koma: full Dwarf and Orc profiles, thirty personal lines queued.
+- Research marsh warnings and bank security; preserve normal thresholds, character progress and the current banker identity.
+
 - Add Sloan McCoy and Auld Stonespire: full Human and Tauren profiles, thirty personal lines queued.
 - Research cautious supply work and A Vengeful Fate; preserve normal thresholds, character progress and established grief.
 
@@ -820,4 +823,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1011 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1013 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Hargin Mundar, Menethil Harbor Wetlands, adult Dwarf male3491/M2 878772, Alliance Friendly normal20. Five older ambient lines checked; no own task/gossip. Upstairs warning original, no Cataclysm floodgate history or cured leg.
+    -- Research: docs/research/hargins-stairs-and-komas-plum.md
+    [1476] = {
+        quote = "I warned my friend about the marsh, the sea, and the things in both. They were only going upstairs. Well, I told them, mind the stairs too. Good advice needn't be wasted.",
+        likes = { "A familiar face returning safely", "A warning heard without a sneer", "A friend who can answer a joke" },
+        dislikes = { "Marsh dangers treated as a boast", "Being pushed beyond his injured leg", "A familiar warning mistaken for malice" },
+        gossip = "Hargin warned a friend about the marsh. They were only going upstairs. He added a warning about the stairs, to be thorough.",
+        bio = "Hargin Mundar spends time at Menethil Harbor's tavern. His older Dwarvish remarks warn of the marsh and sea, recall a sea giant, and mention his troubled leg. His caution can make a familiar face's safe return especially welcome.",
+        backstory = "He gave a friend a thorough warning about the marsh and the sea before learning they were only going upstairs. Hargin added that they should mind the stairs. They returned safely and reported that the landing had been entirely free of sea giants.",
+        secret = "He enjoyed the report about the landing. His friend had heard the concern under the warnings and found a way to return it with a joke.",
+        bestFriend = "There you are, friend. Safe and sound? Good. Sit a while. You can tell me whether the stairs have remained free of sea giants.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A friendly knowing grin hears both the care and the humor in his warnings.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Back safely, friend? Good. Tell me where you have been before I prepare a warning for somewhere you had no intention of going.", tone = "[gruff] [warm]" }, "There you are. Mind your footing, and tell me what brings you here." },
+            idle = { { "I warned my friend about the marsh and the sea. They were going upstairs. I added the stairs. A warning can be amended when new information arrives.", tone = "[dry] [amused]" }, "I saw a sea giant once. I would be content to leave that count where it stands.", "A leg that has seen better days is a reason to mind your limits, not a challenge to prove everyone wrong." },
+            befriended = { { "You are welcome with me, friend. I like seeing you come back safe, and hearing what you made of the journey. You may return the warnings with a joke. I know when you have heard me.", tone = "[rough] [fond]" } },
+            poke = { "Yes? Going somewhere, or giving me time to think of what I ought to warn you about?", "One moment. I have not yet decided whether this needs advice or simply someone to listen." },
+            laughAlong = { { "No sea giants on the landing, then? Excellent. Keep me informed if the situation changes.", tone = "[deadpan] [playful]" } },
+            zone = { "Look at the ground before putting your weight on it. A place need not look dangerous to make you regret hurrying." },
+            rest = { "A pause suits me. No one needs to make a contest of how long they can go without one." },
+            newFriend = { "Give them a moment. They may have heard enough warnings today and still be glad of a welcome." },
+            thanked = { "You are welcome. Advice is better received before the unpleasant part has happened." },
+            group = { "Mind the pace of the people beside you. Arriving together is worth a little patience." },
+            combatEnd = { "Everyone still able to answer? Good. Take your time before deciding you are ready for another stretch." },
+        },
+    },
+
+    -- Koma, Orgrimmar banker, adult Orc male1318/M2 917116, Horde Friendly normal45. Three native security/Hyjal lines read. Plum promise original, no bank perk or Cataclysm/Legion grunt conversion; not Grunt Komak.
+    -- Research: docs/research/hargins-stairs-and-komas-plum.md
+    [3318] = {
+        quote = "My friend asked me to mind a plum while they fetched a cup. It was still there when they returned. Laugh if you wish. I had given my word. A small promise is still mine to keep.",
+        likes = { "A promise kept without an audience", "Trust placed in him plainly", "A friend who values care over price" },
+        dislikes = { "A careless hand near entrusted goods", "A small promise dismissed as nothing", "Trust treated as a chance to boast" },
+        gossip = "Koma was asked to mind a plum. It returned to its owner unharmed. He regards the success as a satisfactory matter of honor.",
+        bio = "Koma is an Orgrimmar banker. He stakes his own honor on the bank's security and says he and his brothers fought at Hyjal. In his personal friendships, the same seriousness can make even a small promise worth keeping carefully.",
+        backstory = "A friend asked him to mind a plum while they fetched a cup. Koma agreed. When they returned, the fruit was where they had left it. The friend laughed at his solemn report, then thanked him just as solemnly. He appreciated both parts.",
+        secret = "He knew the plum required no great feat of strength. The point was simpler: his friend had trusted him, and he had answered. He liked having that understood without a speech.",
+        bestFriend = "There you are, friend. You have my attention. Whatever you have come to tell me need not be valuable to anyone else to matter here.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "A sincere acknowledgment of his word suits the care he gives to a promise.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. The plum was returned safely. You may bring your news with equal confidence that I intend to hear it.", tone = "[firm] [wry]" }, "Good to see you. Tell me what you need before deciding it is too small to ask." },
+            idle = { { "My friend asked me to mind a plum. I did. They laughed at the report, then thanked me. Both responses were acceptable.", tone = "[solemn] [amused]" }, "My brothers and I fought at Hyjal. I do not offer my word lightly.", "A small promise does not stop belonging to you because no one else would have noticed you breaking it." },
+            befriended = { { "You are welcome beside me, friend. I value the trust between us. You need not dress an ordinary request in grand language before I will give it care.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? Say what you mean. I am listening.", "One moment. Let me finish giving this its proper attention before I begin with the next matter." },
+            saluteBack = { { "My word stands, friend. I appreciate that you remember what it means to me.", tone = "[resolute] [warm]" } },
+            thanked = { "You are welcome. I said I would see to it. I am glad the care mattered to you." },
+            newFriend = { "Hear them before deciding what their request is worth. A person is not the price of what they carry." },
+            rest = { "A pause. We may enjoy the company without finding something to prove about it." },
+            group = { "Be clear about what you have promised one another. Then give each person reason to trust the arrangement." },
+            loot = { "Handle what belongs to another with the care you would want for your own." },
+            combatEnd = { "See that everyone is accounted for. We do not decide a companion is well merely because they have not yet complained." },
+        },
+    },
+
     -- Sloan McCoy, Stormwind poison supplier, adult Human female1523/M2 1000764, Alliance Friendly normal25. Own native caution line; current all tabs zero, historical stock not promised. Supper charades original, no intelligence rank or coded-signal feature.
     -- Research: docs/research/sloans-charades-and-aulds-second-bowl.md
     [1326] = {

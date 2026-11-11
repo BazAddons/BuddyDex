@@ -5313,6 +5313,20 @@
       "zone": "Thunder Bluff",
       "route": "Thunder Bluff displaced-land quest giver",
       "reason": "Full1102 current/native/historical progress-completion; original second bowl welcome; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1476,
+      "name": "Hargin Mundar",
+      "zone": "Wetlands",
+      "route": "Menethil Harbor tavern regular",
+      "reason": "Five older ambient lines, no own quest; original upstairs warning; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3318,
+      "name": "Koma",
+      "zone": "Orgrimmar",
+      "route": "Banker in the Valley of Strength",
+      "reason": "Three native security and Hyjal lines; original small plum promise; fifteen personal lines queued without synthesis"
     }
   ]
 }
