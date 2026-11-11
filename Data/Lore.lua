@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jeena Featherbow, Bowyer Dolanaar Teldrassil, adult Night Elf female1705/M2 921844, Alliance Friendly normal. Six current wares; no own native gossip/quest references. Twisted Hatred98403 belongs to Tallonkai, not her. Thank-you rehearsed to quivers original; no new service or later Burning lore.
+    -- Research: docs/research/jeenas-rehearsal-and-sanuyes-last-light.md
+    [3610] = {
+        quote = "A bow I can explain. Thanking a friend properly takes more practice. If you heard me addressing the quivers just now, kindly let them finish applauding.",
+        likes = { "A question asked before a purchase", "Friends who hear the unfinished sentence", "Finding the courage to give a compliment" },
+        dislikes = { "Careless handling of a sound bow", "Kind words left unsaid", "An audience arriving before rehearsal" },
+        gossip = "Jeena practiced thanking a friend in front of her quivers. The friend arrived halfway through and asked for the rest.",
+        bio = "Jeena Featherbow is the bowyer in Dolanaar, supplying bows, arrows and quivers. She is direct when discussing her stock. With a friend she wishes to thank, the words can take a little longer to find.",
+        backstory = "After a friend helped her, she rehearsed a proper thank-you while arranging her quivers. The friend came back before she finished. Jeena tried to begin again. They asked to hear the ending first, since the beginning had sounded so promising.",
+        secret = "She remembers that they waited. Nobody hurried the words out of her or turned her awkwardness into a joke. Now she tries to give a compliment before she can talk herself out of it.",
+        bestFriend = "You make it easier to say what I mean, friend. There. I wanted you to hear that before the quivers did.",
+        favorite = {
+            emote = "BLUSH",
+            hint = "A little shared embarrassment can make a heartfelt compliment easier to finish.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "You came back. I was hoping you would. There is something I meant to say last time, and I intend to reach the end of the sentence while you are still here.", tone = "[reserved] [warm]" }, "Welcome, friend. A question about bows, or have you come to talk? I have room for either, provided you give me a moment to set these down." },
+            idle = { { "I was practicing a thank-you in front of the quivers when my friend returned. They asked to hear the ending. The quivers had been a patient audience, but I was much less nervous before someone could answer.", tone = "[self-conscious] [amused]" }, "Ask what you need to know before choosing. A useful answer is better than carrying away a question you were too embarrassed to ask.", "Sometimes the kind thing you mean to say grows more difficult the longer you prepare it. I am trying to catch a few of mine before that happens." },
+            befriended = { { "I am glad we are friends. That is the whole sentence, and I have managed it without a rehearsal. Stay a little. I should like to hear what you have been thinking too.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? I was trying to remember whether I had actually said that aloud or merely prepared to.", "One moment. These quivers have heard enough from me today. It is your turn." },
+            thanked = { { "You are welcome. And thank you for coming back. I had a much longer speech prepared, but that is the part I most wanted you to hear.", tone = "[shy] [fond]" } },
+            gear = { "Take a good look before deciding. A familiar shape does not tell you everything you need to know about a piece." },
+            loot = { "Consider what you will actually use. Bringing everything along can turn a simple choice into a very heavy pack." },
+            bagsFull = { "You may need to make room before choosing anything else. Even an excellent explanation will not persuade a full bag to stretch." },
+            newFriend = { "If there is something kind you mean to tell them, try saying it. You may spare yourself an afternoon explaining it to the stock." },
+            rest = { "A quiet moment is welcome. You need not fill it for my sake. I am quite comfortable with a friend who lets me finish thinking." },
+            comforted = { "Thank you for waiting. The words will come. It helps to know there is someone willing to hear them when they do." },
+        },
+    },
+
+    -- Sanuye Runetotem, Leather Armor Merchant Camp Taurajo Barrens, adult Tauren male9772/M2 968705, Horde Friendly normal. Six current wares, no own quest/gossip. Moving cups after evening light original; no minigame, buffs, invented Runetotem kinship or later Taurajo destruction.
+    -- Research: docs/research/jeenas-rehearsal-and-sanuyes-last-light.md
+    [10380] = {
+        quote = "We moved our cups three times to keep them in the last patch of sunlight. The shade found us anyway. A worthy opponent. Shall we meet it again tomorrow?",
+        likes = { "Company at the end of the day", "Armor chosen with care", "One more minute in the evening light" },
+        dislikes = { "A strap left to chafe", "Being hurried through a farewell", "Discovering the cup was in the shade" },
+        gossip = "Sanuye and a friend once kept moving their cups into the evening sun. He said the shade had to catch them fairly.",
+        bio = "Sanuye Runetotem sells leather armor at Camp Taurajo in the Barrens. He keeps practical stock for travelers. At the end of a day, he enjoys a quieter contest: seeing how long a friend and a cup can remain in the last sunlight.",
+        backstory = "A friend shifted a cup into a patch of evening light. Sanuye moved his beside it. As the shade crept over them, they moved again. By the third move they were laughing. Neither could explain what a victory was supposed to look like.",
+        secret = "The shade can win whenever it likes. Each move gave them a reason to stay together a little longer. That was the only part of the contest he cared about keeping.",
+        bestFriend = "Stay for the last light, friend. We can give the shade a fair chance to catch us. I am in no hurry to declare a winner.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A quiet smile suits a contest whose real pleasure is having company until evening.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Have you a little time? I am not asking for a grand account of your travels. An ordinary part of your day would be welcome too.", tone = "[calm] [welcoming]" }, "Good to see you. Tell me how the road has treated you. If the answer is long, you have found someone willing to hear it." },
+            idle = { { "My friend moved a cup into the evening sun. I moved mine beside it. Three moves later we were still trying to stay ahead of the shade, with no idea how we meant to win.", tone = "[warm] [amused]" }, "A strap that troubles you at the start of a journey will not become more considerate because the road is long. Take the time to notice the fit.", "I like an evening with no urgent business left in it. There is room then for the things a person almost forgot to tell you." },
+            befriended = { { "You are welcome beside me, friend. Bring your stories, or bring a quiet mood. I do not require a reason for enjoying your company at the end of the day.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? Has the shade caught your cup already? We may have to discuss its methods.", "I am listening. Take your time. The short part of a story is not always the part that matters." },
+            rest = { { "Let us rest a little. If the light moves, we can move our cups after it. If it disappears entirely, I expect we will still have something worth talking about.", tone = "[relaxed] [wry]" } },
+            gear = { "Choose what suits the journey you mean to make. Good armor should help you attend to the road rather than remind you of itself at every step." },
+            loot = { "Look it over carefully. A useful piece deserves more attention than a quick decision made because your pack still has room." },
+            bagsFull = { "Set your thoughts in order before adding more weight. It is easier to decide what belongs with you while you can still close the bag." },
+            newFriend = { "Make a little time for them when no errand requires it. That is when a visit begins to feel different from business." },
+            thanked = { "You are welcome. I am glad to have been useful. Stay a moment if you like; there is no need to make the farewell as quick as the thanks." },
+            laughAlong = { "Yes, we must have looked very serious moving those cups. A contest is much improved when both sides remember to laugh at it." },
+        },
+    },
+
     -- Helene Peltskinner, Skinner near Goldshire, adult Human female5365/M2 1000764, Alliance Friendly normal trainer. Native Adele context, full91751/91746/97924; unnamed husband near abbey. Bark boat in basin original; no family inferred from surname or actual boat reward.
     -- Research: docs/research/helenes-voyage-and-drulls-first-step.md
     [6306] = {

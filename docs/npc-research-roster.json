@@ -5348,5 +5348,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult horde identity; Two native gossip entries and full rescue498 with related Krusk branch; original wrong-foot dance memory; no Scout sighting claimed",
     "research_notes": "docs/research/helenes-voyage-and-drulls-first-step.md"
+  },
+  {
+    "npc_id": 3610,
+    "name": "Jeena Featherbow",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance identity; Six wares, no own native gossip or quests; investigated misleading98403 listing; original thank-you rehearsal; no Scout sighting claimed",
+    "research_notes": "docs/research/jeenas-rehearsal-and-sanuyes-last-light.md"
+  },
+  {
+    "npc_id": 10380,
+    "name": "Sanuye Runetotem",
+    "zone": "The Barrens",
+    "source": "Reviewed adult horde identity; Six wares, adult male model; no own native gossip or quests; original cups following evening sunlight; no Scout sighting claimed",
+    "research_notes": "docs/research/jeenas-rehearsal-and-sanuyes-last-light.md"
   }
 ]

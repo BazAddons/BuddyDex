@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jeena Featherbow and Sanuye Runetotem: full Night Elf and Tauren profiles, thirty personal lines queued.
+- Expand Dolanaar and Camp Taurajo coverage with researched vendor roles and separate character progress.
+
 - Add Helene Peltskinner and Drull: full female Human and Orc profiles, thirty personal lines queued.
 - Research Helene and Drull through Forever quests and captive dialogue; preserve separate character progress and normal eligibility.
 

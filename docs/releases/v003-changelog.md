@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Jeena Featherbow and Sanuye Runetotem: full Night Elf and Tauren profiles, thirty personal lines queued.
+- Expand Dolanaar and Camp Taurajo coverage with researched vendor roles and separate character progress.
+
 - Add Helene Peltskinner and Drull: full female Human and Orc profiles, thirty personal lines queued.
 - Research Helene and Drull through Forever quests and captive dialogue; preserve separate character progress and normal eligibility.
 
@@ -757,4 +760,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **969 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **971 fully written NPC profiles**: 454 have initial signature recordings, and five hundred seventeen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

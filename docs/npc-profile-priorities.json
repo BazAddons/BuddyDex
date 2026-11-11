@@ -5019,6 +5019,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Captive at Durnholde",
       "reason": "Two native gossip entries and full rescue498 with related Krusk branch; original wrong-foot dance memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3610,
+      "name": "Jeena Featherbow",
+      "zone": "Teldrassil",
+      "route": "Bowyer in Dolanaar",
+      "reason": "Six wares, no own native gossip or quests; investigated misleading98403 listing; original thank-you rehearsal; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10380,
+      "name": "Sanuye Runetotem",
+      "zone": "The Barrens",
+      "route": "Leather Armor Merchant at Camp Taurajo",
+      "reason": "Six wares, adult male model; no own native gossip or quests; original cups following evening sunlight; fifteen personal lines queued without synthesis"
     }
   ]
 }

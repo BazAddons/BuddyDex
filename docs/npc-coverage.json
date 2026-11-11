@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 420,
+    "alliance": 421,
     "unverified": 184,
-    "horde": 418
+    "horde": 419
   },
   "npc_race_counts": {
     "1": 171,
@@ -13,10 +13,10 @@
     "7": 63,
     "2": 109,
     "5": 110,
-    "4": 95,
+    "4": 96,
     "9": 67,
     "8": 61,
-    "6": 106,
+    "6": 107,
     "96": 28,
     "95": 57
   },
@@ -35,7 +35,7 @@
     "Tirisfal Glades": 60,
     "Undercity": 26,
     "Silverpine Forest": 10,
-    "Teldrassil": 32,
+    "Teldrassil": 33,
     "Hillsbrad Foothills": 15,
     "Arathi Highlands": 11,
     "Orgrimmar": 63,
@@ -44,7 +44,7 @@
     "Mulgore": 27,
     "Thunder Bluff": 47,
     "Durotar": 57,
-    "The Barrens": 50,
+    "The Barrens": 51,
     "Stonetalon Mountains": 16,
     "Darnassus": 22,
     "Burning Steppes": 1,
@@ -5225,6 +5225,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3608"
     },
     {
+      "npc_id": 3610,
+      "name": "Jeena Featherbow",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3610"
+    },
+    {
       "npc_id": 3611,
       "name": "Brannol Eaglemoon",
       "zone": "Teldrassil",
@@ -9184,6 +9197,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10378"
     },
     {
+      "npc_id": 10380,
+      "name": "Sanuye Runetotem",
+      "zone": "The Barrens",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/10380"
+    },
+    {
       "npc_id": 10537,
       "name": "Cliffwatcher Longhorn",
       "zone": "Thousand Needles",
@@ -12449,6 +12475,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 969,
-  "awaiting_signature_audio_profiles": 515
+  "authored_profiles": 971,
+  "awaiting_signature_audio_profiles": 517
 }
