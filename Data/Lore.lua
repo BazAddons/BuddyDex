@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Athridas Bearmantle, Dolanaar, adult Night Elf male1896/M2 974343, Alliance Friendly normal. Full475/476/483/486 chain: Gaerolas, endangered sleeping druids, relic preparation and Ursal. Quiet extra farewell original; no Broll kinship, later burning, instant ritual completion or companion magic.
+    -- Research: docs/research/athridas-farewell-and-borands-sign.md
+    [2078] = {
+        quote = "Tell me what you know, friend. A worrying truth gives us something to answer. A pleasant assurance with nothing beneath it only asks us to wait more comfortably.",
+        likes = { "A messenger returning safely", "An honest account of an uncertain matter", "The ordinary sounds of an untroubled wood" },
+        dislikes = { "Silence where a report should have been", "Reassurance offered without knowledge", "The helpless left beyond anyone's notice" },
+        gossip = "Athridas watches the path after a friend leaves. Someone heard him add one more request to a farewell already out of earshot.",
+        bio = "Athridas Bearmantle in Dolanaar is concerned for the sleeping Druids of the Talon. When Gaerolas's report is delayed, he sends help. Recovering the Relics of Wakening and stopping Ursal are vital to the ritual he prepares for their rescue.",
+        backstory = "Gaerolas was wounded when corrupted Gnarlpines attacked. His warning brought Athridas news of danger to the barrow den. Athridas calls for the sacred relics, then asks that Ursal be slain so the wakening ritual can take effect.",
+        secret = "Once a friend has gone, he sometimes adds a quiet request that they return safely. He knows they cannot hear it. It is simply the part of the farewell he still wants to say.",
+        bestFriend = "I have thought of three more warnings, friend. I shall spare you two. Return safely, and let me hear how the ordinary parts of the journey went.",
+        favorite = {
+            emote = "WAVE",
+            hint = "A familiar wave on returning can answer the quiet concern that follows his farewells.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "You have returned. I am glad, friend. Tell me what you know, and leave room for how the journey treated you as well as what you were sent to learn.", tone = "[earnest] [warm]" }, "There you are. If the news is ordinary, I shall be pleased to hear it. Not every returning messenger needs to announce another danger." },
+            idle = { { "Sometimes I add one more request after a friend has left. Return safely. They cannot hear it by then, of course. It remains the part of the farewell I still want to say.", tone = "[quiet] [reflective]" }, "When word fails to arrive, it is tempting to invent a reason that makes waiting easier. I would rather learn what has happened while there is still something we can do.", "Those who sleep cannot tell us that danger has reached them. Their silence is no reason to forget the trust placed in those who remain awake." },
+            befriended = { { "Come beside me, friend. You have become someone whose return I am glad to see, quite apart from the report you may be carrying.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? Tell me what you have learned. We need not make the account more certain than it is.", "A moment. I was considering whether that last farewell contained everything I meant to say." },
+            quest = { { "Bring back what you truly know. If something remains uncertain, say so. A reassuring guess can cost the very time in which an honest warning might still bring help.", tone = "[concerned] [instructive]" } },
+            waveBack = { "Welcome back. A simple wave can be very good news to someone watching the path." },
+            newFriend = { "Give them time to finish the account. A quiet voice may be carrying the part we most need to hear." },
+            rest = { "A little quiet. I would like to hear the wood without deciding that every ordinary sound must conceal another warning." },
+            group = { "Remember those who cannot speak for themselves. Being out of sight does not release us from the care we promised them." },
+            comforted = { "Thank you, friend. I appreciate the company. You need not promise that all is well before you may stand beside me." },
+            thanked = { "You are welcome. I am glad the help was useful. Let me know that you have returned safely when the next journey is done." },
+        },
+    },
+
+    -- Borand, Sun Rock Retreat Bowyer, adult Orc male8668/M2 917116, Horde Friendly normal. Seven current bows/quivers/arrows, repair/vendor service, no personal quest or captured gossip found. Crooked arrow drawing on private sign original; no new shop feature, training benefit or inferred clan.
+    -- Research: docs/research/athridas-farewell-and-borands-sign.md
+    [9549] = {
+        quote = "The arrow in the drawing is crooked. The direction it points is correct. I can recognize both facts without requiring our friend to become a better artist before using the sign.",
+        likes = { "Equipment chosen for its use", "A useful instruction given plainly", "A crooked drawing with a clear purpose" },
+        dislikes = { "A boast mistaken for careful work", "Advice that conceals the actual answer", "An imperfect sketch treated like bad gear" },
+        gossip = "Borand keeps a friend's crooked arrow drawing. He says it points the right way, which is the part of the work it was asked to do.",
+        bio = "Borand is a bowyer at Sun Rock Retreat in the Stonetalon Mountains. He sells bows, arrows and quivers and repairs equipment. His practical eye makes room for an imperfect drawing that still tells someone exactly where to look.",
+        backstory = "A friend drew an arrow to mark where a box should go. The sketch looked rather more like a bent fork. Borand set the box in the indicated place and kept the drawing. His friend asked why. The instruction, he said, had worked.",
+        secret = "He enjoys hearing his friend defend the drawing. He has never disputed its usefulness, but the argument over whether it resembles an arrow remains pleasantly unsettled.",
+        bestFriend = "Come along, friend. You may explain the drawing again. I understand where it points; I am still interested in your defense of the shape.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin acknowledges that the crooked drawing has become a familiar argument he enjoys.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. The drawing still points the right way. You may begin defending its resemblance to an arrow whenever you are ready.", tone = "[gruff] [amused]" }, "Welcome back. Something you need, or another explanation of why the bent fork is clearly an arrow?" },
+            idle = { { "They drew an arrow to mark where the box belonged. It looked like a bent fork. I put the box where it pointed. The instruction worked. Apparently keeping the drawing has made my opinion of its shape more troublesome to them.", tone = "[dry] [chuckling]" }, "Understand what you need the equipment to do before deciding which piece sounds most impressive when you describe it.", "A sketch can be crooked and still give good directions. That does not mean I would sell you a bow whose faults were merely easier to explain." },
+            befriended = { { "Come along, friend. I have enjoyed the argument about the shape. You need not improve the drawing before your company is welcome here.", tone = "[steady] [warm]" } },
+            poke = { "Yes? I understand where the box goes. That part of the account is settled.", "A moment. I am considering whether your latest explanation makes the drawing more like an arrow or the fork more impressive." },
+            gear = { { "Choose for the work you intend to do. The fine account comes afterward. A piece of equipment will not become better suited to you because you described its appearance with greater confidence.", tone = "[firm] [practical]" } },
+            bagsFull = { "Know where the next thing will go before adding it to the load. A clear direction is more useful than an optimistic gesture." },
+            quest = { "Give the actual instruction. If someone must guess which part of your explanation was the request, you have left useful work undone." },
+            newFriend = { "Hear what they meant to do before deciding the result is useless. It may answer a simpler question than the one you imagined." },
+            rest = { "A pause is welcome. You may describe the arrow again, provided this explanation has a shorter beginning." },
+            thanked = { "You are welcome. I am glad the useful part was clear. There is little satisfaction in giving directions nobody can follow." },
+            group = { "Make certain everyone knows where the work is meant to lead. Several confident gestures do not always point in the same direction." },
+        },
+    },
+
     -- Danitha Morr, leader of Bandarion Keep paladins, adult Forsaken female129985/M2 997378, Horde Friendly Elite61. Thirty-two current related quests, own welcome and published scene quotes reviewed. Service to Forsaken, Light despite pain, Leonid/Garek history and continuing mistrust retained. Repaired-bench laugh original; no cure, free resurrection, political acceptance or Argent transfer.
     -- Research: docs/research/danithas-place-at-the-table.md
     [246378] = {

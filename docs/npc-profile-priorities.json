@@ -4830,6 +4830,20 @@
       "zone": "Tirisfal Glades",
       "route": "Bandarion Keep paladin leader",
       "reason": "Thirty-two current related quests and native scene dialogue; original repaired-bench company; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2078,
+      "name": "Athridas Bearmantle",
+      "zone": "Teldrassil",
+      "route": "Dolanaar druid rescue chain",
+      "reason": "Full475/476/483/486 route; original quiet additional farewell; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9549,
+      "name": "Borand",
+      "zone": "Stonetalon Mountains",
+      "route": "Sun Rock Retreat bowyer",
+      "reason": "Seven current goods and repair service, no personal chain found; original crooked arrow drawing; fifteen personal lines queued without synthesis"
     }
   ]
 }

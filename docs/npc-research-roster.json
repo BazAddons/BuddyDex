@@ -5159,5 +5159,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde identity; Thirty-two current related quests and native scene dialogue; original repaired-bench company; no Scout sighting claimed",
     "research_notes": "docs/research/danithas-place-at-the-table.md"
+  },
+  {
+    "npc_id": 2078,
+    "name": "Athridas Bearmantle",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance identity; Full475/476/483/486 route; original quiet additional farewell; no Scout sighting claimed",
+    "research_notes": "docs/research/athridas-farewell-and-borands-sign.md"
+  },
+  {
+    "npc_id": 9549,
+    "name": "Borand",
+    "zone": "Stonetalon Mountains",
+    "source": "Reviewed adult horde identity; Seven current goods and repair service, no personal chain found; original crooked arrow drawing; no Scout sighting claimed",
+    "research_notes": "docs/research/athridas-farewell-and-borands-sign.md"
   }
 ]

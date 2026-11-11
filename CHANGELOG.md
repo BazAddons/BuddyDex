@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Athridas Bearmantle and Borand: full Night Elf and Orc profiles, thirty personal lines queued.
+- Research the full Dolanaar rescue chain and Sun Rock Retreat bowyer; preserve ordinary eligibility and character-specific progress.
+
 - Add Danitha Morr: a full Forsaken paladin-leader profile, fifteen personal lines queued.
 - Research thirty-two related Forever quests and native scene dialogue; preserve her choice to serve the Forsaken and her elite friendship thresholds.
 

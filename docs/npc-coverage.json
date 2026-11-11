@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 407,
+    "alliance": 408,
     "unverified": 183,
-    "horde": 404
+    "horde": 405
   },
   "npc_race_counts": {
     "1": 168,
     "3": 97,
     "7": 62,
-    "2": 104,
+    "2": 105,
     "5": 104,
-    "4": 92,
+    "4": 93,
     "9": 67,
     "8": 61,
     "6": 104,
@@ -35,7 +35,7 @@
     "Tirisfal Glades": 58,
     "Undercity": 23,
     "Silverpine Forest": 9,
-    "Teldrassil": 31,
+    "Teldrassil": 32,
     "Hillsbrad Foothills": 14,
     "Arathi Highlands": 11,
     "Orgrimmar": 62,
@@ -45,7 +45,7 @@
     "Thunder Bluff": 46,
     "Durotar": 55,
     "The Barrens": 50,
-    "Stonetalon Mountains": 15,
+    "Stonetalon Mountains": 16,
     "Darnassus": 21,
     "Burning Steppes": 1,
     "Ashenvale": 18,
@@ -2238,6 +2238,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2077"
+    },
+    {
+      "npc_id": 2078,
+      "name": "Athridas Bearmantle",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2078"
     },
     {
       "npc_id": 2079,
@@ -8590,6 +8603,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9548"
     },
     {
+      "npc_id": 9549,
+      "name": "Borand",
+      "zone": "Stonetalon Mountains",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9549"
+    },
+    {
       "npc_id": 9555,
       "name": "Mu'uta",
       "zone": "Arathi Highlands",
@@ -12099,6 +12125,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 942,
-  "awaiting_signature_audio_profiles": 488
+  "authored_profiles": 944,
+  "awaiting_signature_audio_profiles": 490
 }
