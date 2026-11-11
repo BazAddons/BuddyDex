@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Watcher Sarah Ladimore, Darkshire Night Watch, adult Human female2375/M2 1000764, Alliance Friendly normal. Full225/227/228/229/231 and nine-page2154 book; daughter of Morgan and Lys. Personal-name welcome original, no assumed quest completion, grief cure, later command rank or gifted heirlooms.
+    -- Research: docs/research/sarahs-welcome-and-lawrences-chorus.md
+    [576] = {
+        quote = "A friend greeted me as Sarah. No question about my father, no account to explain. Just my name, and a place beside them. I had not realized how much I wanted that simple welcome.",
+        likes = { "Kindness that leaves room for silence", "Being welcomed as Sarah", "Someone returning safely" },
+        dislikes = { "Grief made into idle entertainment", "A painful answer demanded at once", "A person reduced to their worst history" },
+        gossip = "A friend greets Watcher Ladimore simply as Sarah. She has begun saving a little of her own day to tell them when they return.",
+        bio = "Sarah Ladimore serves Darkshire's Night Watch. Morgan Ladimore is her father; she survived the loss he believed had taken all his family. Her ring carries her wish that he know she lives and does not blame him.",
+        backstory = "A friend greeted her by name and left room beside them. Sarah waited for a question about her family. Instead, they told her something small from their day. On the next visit, she had an ordinary moment of her own ready to share.",
+        secret = "She values a welcome that lets her choose what to tell. Some days she speaks of her father. On others, she is glad a friend wants to hear about her day.",
+        bestFriend = "Stay a little, friend. I have something to tell you about today. Afterward, I would like to hear how the road treated you.",
+        favorite = {
+            emote = "COMFORT",
+            hint = "A gentle acknowledgment without a demand for an explanation means more than an answer offered too quickly.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "It is good to see you, friend. I have kept a small piece of today to tell you about. You need not have news of my father for your visit to mean something to me.", tone = "[gentle] [welcoming]" }, "You have returned. I am glad. Tell me how you are, if you would like to. There is room for a little conversation before we go on." },
+            idle = { { "My friend greeted me as Sarah and waited for me to join them. There was no question I had to answer first. A simple welcome can be a very kind thing.", tone = "[quiet] [reflective]" }, "I want my father to know that I am alive. There are things I wish I could have said to him, and kindness I still wish could reach him.", "Someone may be willing to speak without being ready for every question. Give them time to decide what they want to tell you." },
+            befriended = { { "Thank you for making room for me, friend. I value your company, including the ordinary things you choose to share. I am glad to have something of my own to bring to the next conversation.", tone = "[soft] [sincere]" } },
+            poke = { "Yes, friend? I was listening. You may take your time.", "One moment. I was deciding how to begin. It is only a small thing from today, but I should like to tell you." },
+            comforted = { { "Thank you. You need not find the words that explain everything. Your kindness has reached me, and I am glad you stayed.", tone = "[tender] [restrained]" } },
+            newFriend = { "Welcome them before asking for their whole story. There may be parts they are glad to share and others they cannot speak of yet." },
+            group = { "Look after one another. I would like everyone here to have someone who notices when they return." },
+            rest = { "We can be quiet for a little while, friend. I do not mind sharing a pause with you." },
+            thanked = { "You are welcome. I am glad I could help with that much. Tell me if you need a moment before we continue." },
+            combatEnd = { "You are still here. Take a breath, friend. I am glad we can speak to one another again." },
+            hearth = { "I hope there is a kind welcome where you are going. Let someone know you have returned safely." },
+        },
+    },
+
+    -- Deathguard Lawrence, Brill Tirisfal, adult Forsaken male2857/M2 959310, Horde Friendly normal. Forty-five installed Brill direction texts shared exactly with Bartholomew; no own quest. Hummed route-song and friend chorus original, not unique native gossip or actual sung recording; not Lawrence Schneider.
+    -- Research: docs/research/sarahs-welcome-and-lawrences-chorus.md
+    [1743] = {
+        quote = "I was humming. My friend supplied directions as the chorus. If we must make a song of my work, I should at least like them to remember where the south road goes.",
+        likes = { "Directions heard the first time", "A joke returned with confidence", "A tune with an unexpectedly useful chorus" },
+        dislikes = { "The same question asked over its answer", "A stranger mistaking him for a specimen", "Being blamed for the second verse" },
+        gossip = "Lawrence hummed a tune and a friend added Brill directions as the chorus. He objects to the arrangement, but has corrected the words twice.",
+        bio = "Deathguard Lawrence serves in Brill. He supplies directions with a dry tongue, sending travelers toward local tradespeople or onward to the Undercity. Familiar questions can test his patience; a familiar friend has learned to answer back.",
+        backstory = "A friend caught him humming and supplied road directions as the chorus. Lawrence objected to the idea, then corrected the route in the second verse. His friend took this as encouragement. He has been denying responsibility for the song ever since.",
+        secret = "He remembers where his friend comes in too early. Sometimes he leaves the same pause again, waiting to hear whether they will do it this time.",
+        bestFriend = "There you are. I shall take the first part, and you may ruin the chorus. Kindly remember that I did provide the correct directions.",
+        favorite = {
+            emote = "WINK",
+            hint = "A conspiratorial little expression is fitting when a friend returns his dry humor and knows exactly when to join in.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are, friend. I was about to begin the tune. You may supply the chorus, provided you remember that confidently singing the wrong direction does not improve it.", tone = "[raspy] [wry]" }, "Back again. Good. Have you a question, or have you merely come to dispute my responsibility for that unfortunate second verse?" },
+            idle = { { "I was humming. My friend added directions as the chorus. I corrected the route, which apparently made me responsible for the arrangement. An unreasonable interpretation of useful advice.", tone = "[deadpan] [amused]" }, "Brill can supply an answer to several ordinary questions. For certain services you must go onward to the Undercity. Listening to the whole direction remains a useful preliminary.", "My friend always joins the tune a little early. I have explained the pause. Somehow it continues to happen in precisely the same place." },
+            befriended = { { "Stay a little, friend. I enjoy having someone here who can return a joke without immediately asking where the bank is. We may attempt the chorus once more before you go.", tone = "[gruff] [fond]" } },
+            poke = { "Yes? Was that your entrance? I thought we had discussed the pause before the chorus.", "One moment. I am deciding whether your second verse requires correction or merely a very patient listener." },
+            laughAlong = { { "There. A fine performance, if we overlook the beginning, the second verse, and your opinion of where the road goes. I am willing to overlook them for the sake of the company.", tone = "[dry] [delighted]" } },
+            zone = { "Look around before demanding a direction, friend. A moment spent noticing the place may save you from asking a question whose answer is standing beside you." },
+            taxi = { "Ask the person who actually handles the flight. I can direct you toward the service; I cannot become it merely because you have asked with enthusiasm." },
+            learned = { "Listen to the explanation before deciding you have mastered it. My friend knows every word of the chorus and still arrives a little early." },
+            newFriend = { "Allow them a chance to answer back. A joke is much more interesting when the other person has decided to participate." },
+            rest = { "A pause. We have established that these exist between parts of a tune. We might try observing one together." },
+            thanked = { "You are welcome, friend. I am pleased the direction helped. You may remember the route without setting the entire explanation to music." },
+        },
+    },
+
     -- Lysheana, Guild Master Darnassus, adult Night Elf female2216/M2 921844, Alliance Friendly normal. Current guild service, indexed courteous greeting, no own captured dialogue/quests. Floor-joint stepping game and curtsy original, not a real minigame or charter benefit; exclude player RP and later retail events.
     -- Research: docs/research/lysheanas-steps-and-delgos-eyebrow.md
     [4161] = {

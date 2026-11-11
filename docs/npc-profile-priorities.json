@@ -5187,6 +5187,20 @@
       "zone": "Thunder Bluff",
       "route": "Axe merchant on High Rise",
       "reason": "Current adult merchant identity and historical axe trade; original eyebrow staring contest; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 576,
+      "name": "Watcher Ladimore",
+      "zone": "Duskwood",
+      "route": "Night Watch in Darkshire",
+      "reason": "Full225/227/228/229/231 and nine-page2154; original personal-name welcome preserving grief; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1743,
+      "name": "Deathguard Lawrence",
+      "zone": "Tirisfal Glades",
+      "route": "Named deathguard in Brill",
+      "reason": "Forty-five shared Brill directions, adult identity; original hummed route-song chorus; fifteen personal lines queued without synthesis"
     }
   ]
 }

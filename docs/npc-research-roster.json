@@ -5516,5 +5516,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Current adult merchant identity and historical axe trade; original eyebrow staring contest; no Scout sighting claimed",
     "research_notes": "docs/research/lysheanas-steps-and-delgos-eyebrow.md"
+  },
+  {
+    "npc_id": 576,
+    "name": "Watcher Ladimore",
+    "zone": "Duskwood",
+    "source": "Reviewed adult alliance identity; Full225/227/228/229/231 and nine-page2154; original personal-name welcome preserving grief; no Scout sighting claimed",
+    "research_notes": "docs/research/sarahs-welcome-and-lawrences-chorus.md"
+  },
+  {
+    "npc_id": 1743,
+    "name": "Deathguard Lawrence",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Forty-five shared Brill directions, adult identity; original hummed route-song chorus; no Scout sighting claimed",
+    "research_notes": "docs/research/sarahs-welcome-and-lawrences-chorus.md"
   }
 ]

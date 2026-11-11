@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Watcher Ladimore and Deathguard Lawrence: full Human and Forsaken profiles, thirty personal lines queued.
+- Research the complete Mor Ladim chain and book plus shared Brill direction dialogue; preserve quest outcomes, ordinary eligibility and separate character progress.
+
 - Add Lysheana and Delgo Ragetotem: full Night Elf and Tauren profiles, thirty personal lines queued.
 - Research current guild and axe-merchant roles; keep original friendship stories distinct from fan roleplay and later retail lore.
 
