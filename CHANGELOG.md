@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Innkeeper Shaussiy and Innkeeper Norman: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research native inn welcomes and seasonal quests; preserve normal eligibility and separate character progress.
+
 - Add Jeena Featherbow and Sanuye Runetotem: full Night Elf and Tauren profiles, thirty personal lines queued.
 - Expand Dolanaar and Camp Taurajo coverage with researched vendor roles and separate character progress.
 

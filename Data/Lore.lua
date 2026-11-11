@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Shaussiy, Auberdine Darkshore, adult Night Elf female5441/M2 921844, Alliance Friendly normal. Full44 native gossip, twelve wares, defense yell. Short restful traveler story original; no magical sleep buff, new inn reward or later Auberdine destruction.
+    -- Research: docs/research/shaussiys-ending-and-normans-guests.md
+    [6737] = {
+        quote = "The traveler found a roof, ate, and slept. There is your story. If you need a dragon, it may wait politely outside until morning.",
+        likes = { "A guest who finally rests", "Stories that let their travelers come home", "Bread shared without a hurried farewell" },
+        dislikes = { "A weary guest refusing a pause", "A tale that forgets its way home", "Trouble brought beneath her roof" },
+        gossip = "Shaussiy told a friend the shortest bedtime tale she knew. They kept asking what happened next. She kept letting the traveler rest.",
+        bio = "Innkeeper Shaussiy welcomes travelers in Auberdine, offering bread, drinks and a place to rest. Her greeting entrusts their dreams to Elune. In her own stories, a weary traveler is allowed to reach a safe roof without one more adventure.",
+        backstory = "A tired friend asked for a short story. Shaussiy told of a traveler who found an inn and went to bed. When the friend asked what came next, she said breakfast. They asked again. She added a second slice of bread and a very late departure.",
+        secret = "She enjoys the questions. Each one gives her another chance to let the traveler have something ordinary and pleasant. The friend usually stops asking long before she runs out of those.",
+        bestFriend = "Come in, friend. We can leave the dragon outside the story tonight. Tell me which ordinary, pleasant thing you would like next.",
+        favorite = {
+            emote = "NOD",
+            hint = "A contented nod tells her that a peaceful ending can be quite enough.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome back, friend. You look as though your story could use a roof for a while. Come and tell me where it has brought you. We need not decide the next chapter immediately.", tone = "[soothing] [warm]" }, "Good to see you. Take a moment before giving me the whole account. I can hear the part about your hurried arrival after you have stopped hurrying." },
+            idle = { { "My friend asked what happened after the traveler went to bed. Breakfast, I said. They asked again. Another slice of bread. It was becoming a very comfortable adventure.", tone = "[gentle] [amused]" }, "A story need not send its traveler into danger at every turn. Sometimes reaching a safe place is the part worth telling.", "I have directions for those who want another adventure. I also have considerable respect for a guest who decides to stay under a roof for a while." },
+            befriended = { { "You are welcome here, friend. You need not arrive with an exciting story to earn that welcome. I am just as pleased to hear that you had an ordinary day and came back safely.", tone = "[tender] [sincere]" } },
+            poke = { "Yes? Are you asking what happened next? The traveler was still enjoying breakfast when we last considered the matter.", "A moment, friend. I am finding a peaceful place for that sentence to end." },
+            rest = { { "There. Let this part of the story be quiet. If a dragon wishes to enter it, the dragon can learn to wait until the traveler has finished resting.", tone = "[soft] [playful]" } },
+            hearth = { "It is good to have somewhere familiar to return to. Take a breath before deciding where the road will lead you next." },
+            bagsFull = { "A heavy pack is a good reason to pause and consider what you need. Carrying every chapter at once makes a long journey longer." },
+            newFriend = { "Let them know they are welcome when there is no adventure to arrange. A quiet visit deserves a place in a friendship too." },
+            thanked = { "You are welcome. I am glad you found something pleasant here. Do not hurry the farewell on account of having finished the thanks." },
+            comforted = { "Stay a little. You need not make the ending sound happier than it is. We can begin with having someone willing to hear it." },
+            quest = { "Travel carefully. When the task is finished, give yourself time to come in out of the weather before accepting the next one." },
+        },
+    },
+
+    -- Innkeeper Norman, Undercity, adult Forsaken male5449/M2 959310, Horde Friendly normal. Full44 native gossip, twelve wares,3784 referral,8354 candy and8904/8979/8980/8982/8983/8984 seasonal investigation. Mock registration of muddy boots original; no actual fees, mind-control complicity, Bates kinship or modern Arcantina.
+    -- Research: docs/research/shaussiys-ending-and-normans-guests.md
+    [6741] = {
+        quote = "Your boots have brought enough mud to ask for a room of their own. I shall put them down as a very large party with no luggage and terrible manners.",
+        likes = { "A returning guest with a dry reply", "An unhurried evening conversation", "Boots that leave their mud outside" },
+        dislikes = { "A floor cleaned just before muddy boots", "Perfume everyone insists on discussing", "An elaborate demand made without a hello" },
+        gossip = "Norman once pretended to register the mud on a friend's boots as a separate guest. The friend asked whether it had to wipe its feet.",
+        bio = "Innkeeper Norman offers rest in Undercity. His holiday dealings include a ridiculous candy challenge and skepticism about fashionable perfume. He keeps a dry welcome ready for familiar company, especially when it arrives wearing half the road.",
+        backstory = "A friend arrived with mud thick on both boots. Norman announced that such a large traveling party should have written ahead. The friend asked whether the mud had to wipe its feet. He lost the stern expression before finishing his reply.",
+        secret = "He remembers the answer whenever that friend comes in. A familiar joke makes a welcome easy to give without turning it into a speech. He is quietly pleased when they remember it too.",
+        bestFriend = "Come in, friend. Your traveling party can wait outside. I was hoping for your company, and I have already heard enough from the mud.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin tells him his deliberately absurd complaint has found the right audience.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Back again? Good. And how many guests have your boots brought this time? I should like to greet you before being introduced to the rest of the road.", tone = "[dry] [welcoming]" }, "Come in, friend. You need not find an errand to explain the visit. A familiar face is a perfectly adequate reason to stop." },
+            idle = { { "I told my friend the mud on their boots needed its own room. They asked if it would have to wipe its feet. I had prepared an excellent complaint. A reply like that is terribly inconvenient.", tone = "[deadpan] [amused]" }, "Perfume becomes very tiring when everyone wants to explain why this particular bottle is irresistible. I can imagine several things more deserving of that enthusiasm.", "A guest who says hello before listing demands has already improved the conversation. A returning friend may even receive a second sentence." },
+            befriended = { { "You are welcome here, friend. I expect you know that by now, but there it is, said plainly. We may return to making absurd remarks about your boots whenever you are ready.", tone = "[gruff] [fond]" } },
+            poke = { "Yes? If this is a complaint from the mud, it may wait its turn.", "I hear you. I was allowing the pause to look intentional." },
+            rest = { { "Rest a while. Your boots can endure being separated from their admiring audience. I shall entertain you instead, provided you do not demand another speech.", tone = "[wry] [gentle]" } },
+            hearth = { "There is something to be said for returning to a familiar place. One need not explain every pause before the conversation can begin." },
+            bagsFull = { "You appear to have collected everything except room for it. Consider that before bringing any more distinguished visitors home in your pack." },
+            newFriend = { "Remember their name before composing your complaint. It makes the next welcome considerably less awkward." },
+            thanked = { "You are welcome. That will do nicely. No need to involve the entire room in an account of my finer qualities." },
+            laughAlong = { "Yes, very good. I see you have remembered the answer. I shall have to prepare a complaint that your boots cannot improve." },
+            quest = { "Deal with the matter before returning for another one. And if the matter involves fashionable perfume, I would welcome a particularly brief account." },
+        },
+    },
+
     -- Jeena Featherbow, Bowyer Dolanaar Teldrassil, adult Night Elf female1705/M2 921844, Alliance Friendly normal. Six current wares; no own native gossip/quest references. Twisted Hatred98403 belongs to Tallonkai, not her. Thank-you rehearsed to quivers original; no new service or later Burning lore.
     -- Research: docs/research/jeenas-rehearsal-and-sanuyes-last-light.md
     [3610] = {

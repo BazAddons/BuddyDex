@@ -5033,6 +5033,20 @@
       "zone": "The Barrens",
       "route": "Leather Armor Merchant at Camp Taurajo",
       "reason": "Six wares, adult male model; no own native gossip or quests; original cups following evening sunlight; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6737,
+      "name": "Innkeeper Shaussiy",
+      "zone": "Darkshore",
+      "route": "Innkeeper in Auberdine",
+      "reason": "Full44 native gossip and twelve wares; original restful traveler bedtime tale; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6741,
+      "name": "Innkeeper Norman",
+      "zone": "Undercity",
+      "route": "Innkeeper in Undercity",
+      "reason": "Full44 native gossip,3784/8354 and complete seasonal fragrance chain; original muddy-boots guest joke; fifteen personal lines queued without synthesis"
     }
   ]
 }

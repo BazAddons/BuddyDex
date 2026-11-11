@@ -5362,5 +5362,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde identity; Six wares, adult male model; no own native gossip or quests; original cups following evening sunlight; no Scout sighting claimed",
     "research_notes": "docs/research/jeenas-rehearsal-and-sanuyes-last-light.md"
+  },
+  {
+    "npc_id": 6737,
+    "name": "Innkeeper Shaussiy",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance identity; Full44 native gossip and twelve wares; original restful traveler bedtime tale; no Scout sighting claimed",
+    "research_notes": "docs/research/shaussiys-ending-and-normans-guests.md"
+  },
+  {
+    "npc_id": 6741,
+    "name": "Innkeeper Norman",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde identity; Full44 native gossip,3784/8354 and complete seasonal fragrance chain; original muddy-boots guest joke; no Scout sighting claimed",
+    "research_notes": "docs/research/shaussiys-ending-and-normans-guests.md"
   }
 ]
