@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ulfir Ironbeard and Baelann Favorbreeze: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
+- Research hunter instruction and the Bank of Valanaar; expand Horde Skyborne coverage with normal eligibility and separate character progress.
+
 - Add Priestess Anetta and Takata Steelblade: full female Human and Orc profiles, thirty personal lines queued.
 - Research Northshire priest lessons and the full Desolace demonic campaign; preserve normal eligibility and separate character progress.
 

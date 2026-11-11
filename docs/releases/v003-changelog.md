@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Ulfir Ironbeard and Baelann Favorbreeze: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
+- Research hunter instruction and the Bank of Valanaar; expand Horde Skyborne coverage with normal eligibility and separate character progress.
+
 - Add Priestess Anetta and Takata Steelblade: full female Human and Orc profiles, thirty personal lines queued.
 - Research Northshire priest lessons and the full Desolace demonic campaign; preserve normal eligibility and separate character progress.
 
@@ -769,4 +772,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **977 fully written NPC profiles**: 454 have initial signature recordings, and five hundred twenty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **979 fully written NPC profiles**: 454 have initial signature recordings, and five hundred twenty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

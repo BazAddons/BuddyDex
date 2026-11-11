@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ulfir Ironbeard, Hunter Trainer Stormwind Dwarven District, adult Dwarf male3309/M2 878772, Alliance Friendly normal. Three native gossip,124 current lessons, historical8151/8153/8231/8232 route. Crumb trail from own beard original; no Officer kinship, new named pet or free training.
+    -- Research: docs/research/ulfirs-evidence-and-baelanns-performance.md
+    [5516] = {
+        quote = "A fine trail of crumbs, clear as daylight. I followed it with great care. My friend eventually pointed out that the trail began in my beard. Sound observation on their part.",
+        likes = { "A detail noticed before a conclusion", "Learning from the habits of beasts", "A friend willing to point out the evidence" },
+        dislikes = { "A guess dressed up as observation", "A lesson hurried past its useful part", "Discovering the evidence in his beard" },
+        gossip = "Ulfir followed a trail of crumbs with great concentration. His friend pointed to his beard and congratulated him on finding the culprit.",
+        bio = "Ulfir Ironbeard trains hunters in Stormwind. He asks learners to observe beasts and consider their wisdom. His own attention can become so intent on the trail that a friend has to remind him to examine the hunter as well.",
+        backstory = "He noticed crumbs and began explaining what could be learned from them. His friend listened until Ulfir reached a confident conclusion, then pointed to his beard. He examined it, considered the fresh evidence and admitted the investigation had improved.",
+        secret = "He likes that the friend listened before correcting him. A useful answer need not come from the teacher. Remembering the joke helps him remember to hear someone else's view.",
+        bestFriend = "Walk with me, friend. Watch the trail, and keep an eye on the hunter too. I would rather hear your good answer than defend my first one.",
+        favorite = {
+            emote = "WINK",
+            hint = "A knowing wink can quietly suggest that the observer has overlooked something very close to home.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you, friend. Have you noticed anything interesting? Tell me what you saw before I offer a theory. You have previously saved us both a very long investigation.", tone = "[hearty] [amused]" }, "Welcome back. A lesson, or a walk and a conversation? There is something to learn in either, provided we remember to pay attention." },
+            idle = { { "My friend let me explain the trail of crumbs before pointing to my beard. I had to reconsider the culprit. A tidy conclusion is worth very little when the evidence is still on your face.", tone = "[wry] [cheerful]" }, "Watch how a beast attends to the world around it. There is more to learn there than the first movement that catches your eye.", "I am quite willing to hear that I have missed something. I would prefer to hear it before finishing a splendid explanation, but the later version is generally funnier." },
+            befriended = { { "You are a welcome friend. Keep telling me what you notice, even when I sound certain. I enjoy walking with someone who brings a pair of eyes and an answer of their own.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is there fresh evidence in the beard? I shall examine the matter before naming anyone else.", "Give me a moment. I am deciding whether I observed that or merely liked the sound of the explanation." },
+            learned = { { "Look again before defending the answer. A good correction is useful company. Mine once arrived by way of a friend pointing at a crumb I had carried through the entire lesson.", tone = "[patient] [playful]" } },
+            gear = { "Examine what you mean to use. Familiarity with the shape is not quite the same as knowing how it will serve you." },
+            loot = { "Look at the small details too. An object can tell you more than its first impressive feature suggests." },
+            rest = { "Let us pause. You can tell me what you have noticed, and I shall try to listen before deciding which beast would have noticed it sooner." },
+            newFriend = { "Give them time to describe their view. You may learn something that was hidden by how certain you felt about yours." },
+            thanked = { "You are welcome. And thank you for the correction. I would rather have a useful answer than an undisturbed reputation for being right." },
+            laughAlong = { "Aye, that was the moment I ought to have inspected the beard. I am glad you were there to improve the investigation." },
+        },
+    },
+
+    -- Baelann Favorbreeze, Bank of Valanaar Zephras, adult High Order Skyborne male140073/M2 7478487, Horde Friendly normal. Native deposit-box greeting, current Banker service, no quests. Private theatrical villain laugh original; no actual villainy, compromised deposits, new performance audio or inferred Zelena kinship.
+    -- Research: docs/research/ulfirs-evidence-and-baelanns-performance.md
+    [257036] = {
+        quote = "The laugh was meant to chill the heart. My friend applauded before I had finished it. Very difficult to maintain an air of dreadful menace with such an encouraging audience.",
+        likes = { "Belongings entrusted with clear requests", "An audience willing to enjoy the attempt", "A splendidly overdone theatrical laugh" },
+        dislikes = { "Carelessness with another person's trust", "A speech interrupted before its best part", "Letting the performance spoil the work" },
+        gossip = "Baelann once tried a dreadful villain laugh for a friend. Their enthusiastic applause made him lose the menacing expression altogether.",
+        bio = "Baelann Favorbreeze welcomes depositors at the Bank of Valanaar. His work concerns secure belongings and straightforward service. Away from the business, he enjoys a decidedly less restrained performance for a friend willing to be his audience.",
+        backstory = "He tried the laugh of a grand imaginary villain. His friend applauded halfway through. Baelann attempted to continue looking dreadful, but the welcome was too encouraging. The second half of the performance was considerably less sinister.",
+        secret = "His friend enjoyed the attempt before he had perfected the part. Being appreciated while still finding his way makes him willing to try another, even more excessive version.",
+        bestFriend = "Stay for another attempt, friend. I shall warn you when the dreadful part begins. Until then, you may consider yourself entirely welcome.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "An enthusiastic audience can persuade him to attempt one more outrageously dramatic performance.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. Have you a moment after the business is finished? I have been considering a more imposing opening for the performance. Your opinion would be welcome, even if your applause arrives early again.", tone = "[polished] [playful]" }, "Good to see you. Tell me what you need, and we shall attend to it carefully. Then I should like to hear how your day has gone." },
+            idle = { { "I had only reached the middle of the dreadful laugh when my friend applauded. One cannot maintain a proper air of menace while being so thoroughly encouraged. I had to begin again.", tone = "[theatrical] [amused]" }, "When someone entrusts a belonging to you, its importance is theirs to explain. A small thing can deserve a great deal of care.", "The next version ought to begin quietly and become increasingly excessive. My friend says that describes the first version rather well. I believe there is room for improvement." },
+            befriended = { { "You are welcome beside me, friend. I appreciate an audience who enjoys the attempt as well as the finished performance. Tell me when you have something you would like me to hear in return.", tone = "[warm] [fond]" } },
+            poke = { "Yes? Is the expression sufficiently dreadful, or have I begun smiling again?", "One moment. I am deciding whether that was an imposing pause or simply a pause that went on too long." },
+            laughAlong = { { "There! That is a reception worth another attempt. Mine is supposed to sound considerably more sinister, but I am happy to admit that yours is much more pleasant company.", tone = "[animated] [delighted]" } },
+            mail = { "Take a moment to read what has arrived. An unhurried look is a useful beginning when someone has taken the trouble to send something." },
+            bagsFull = { "Consider what you need with you before adding more. A clear arrangement is easier to maintain than a heroic explanation for a pack that will not close." },
+            loot = { "Its importance may be more than the first glance tells you. Think about why you want to keep it before deciding where it belongs." },
+            newFriend = { "An encouraging reception can make a person willing to try again. You need not wait for a flawless performance to tell them you enjoyed the effort." },
+            thanked = { "You are welcome. I am pleased it was useful. If you mean the performance, I shall accept the compliment with entirely excessive dignity." },
+            rest = { "A quiet pause is welcome. You may relax; I do not intend to fill every silence with an alarming laugh. Even the grandest imaginary villain needs an interval." },
+        },
+    },
+
     -- Priestess Anetta, Northshire Abbey Library Wing, adult Human female3344/M2 1000764, Alliance Friendly normal. Three native gossip,7/3103 and full5623/5624, readable9548 letter. Sharing books with friend original; no new spell, free retraining or modern trainee quest.
     -- Research: docs/research/anettas-books-and-takatas-visit.md
     [375] = {

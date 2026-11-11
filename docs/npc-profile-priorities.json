@@ -5075,6 +5075,20 @@
       "zone": "Desolace",
       "route": "Agent at Ghost Walker Post",
       "reason": "Native Burning Blade warning and full Alliance Relations/Corrupter context; original visit without a campaign report; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5516,
+      "name": "Ulfir Ironbeard",
+      "zone": "Stormwind City",
+      "route": "Hunter trainer in the Dwarven District",
+      "reason": "Three native greetings,124 current lessons and full historical8151/8153/8231/8232; original crumb-trail correction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 257036,
+      "name": "Baelann Favorbreeze",
+      "zone": "Zephras Isle",
+      "route": "Banker at the Bank of Valanaar",
+      "reason": "Native deposit greeting, verified adult male High Order Skyborne; original private theatrical performance; fifteen personal lines queued without synthesis"
     }
   ]
 }

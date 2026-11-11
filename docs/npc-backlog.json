@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 977,
-  "written_complete_count": 977,
-  "awaiting_signature_audio_count": 523,
+  "authored_count": 979,
+  "written_complete_count": 979,
+  "awaiting_signature_audio_count": 525,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 525,
+  "remaining_count": 527,
   "completed": [
     {
       "npc_id": 54,
@@ -5763,6 +5763,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 5516,
+      "name": "Ulfir Ironbeard",
+      "zone": "Stormwind City",
+      "source": "Reviewed adult alliance identity; Three native greetings,124 current lessons and full historical8151/8153/8231/8232; original crumb-trail correction; no Scout sighting claimed",
+      "research_notes": "docs/research/ulfirs-evidence-and-baelanns-performance.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 5518,
       "name": "Lilliam Sparkspindle",
       "zone": "Stormwind City",
@@ -9710,6 +9722,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult alliance+horde man; Full97971 and own gossip; original chair test; no Scout sighting claimed",
       "research_notes": "docs/research/mendalass-chair-and-howins-stitch.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 257036,
+      "name": "Baelann Favorbreeze",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult horde identity; Native deposit greeting, verified adult male High Order Skyborne; original private theatrical performance; no Scout sighting claimed",
+      "research_notes": "docs/research/ulfirs-evidence-and-baelanns-performance.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
