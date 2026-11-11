@@ -4802,5 +4802,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult unverified; Current adult stable-master identity; positive faction access unverified; original pawprint handwriting joke; no Scout sighting claimed",
     "research_notes": "docs/research/ivys-question-and-grimestacks-signature.md"
+  },
+  {
+    "npc_id": 4092,
+    "name": "Lariia",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Full98046/98065 and Crown chain context, own trainer greetings; original simple greeting; no Scout sighting claimed",
+    "research_notes": "docs/research/lariias-greeting-and-doreens-rhyme.md"
+  },
+  {
+    "npc_id": 2311,
+    "name": "Doreen Beltis",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Sparse current and Classic records, no own quest/gossip; original dreadful rhyme and dry applause; no Scout sighting claimed",
+    "research_notes": "docs/research/lariias-greeting-and-doreens-rhyme.md"
   }
 ]

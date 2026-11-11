@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lariia, current Alliance Friendly Darnassus priest trainer, adult Night Elf female2202/M2 921844. Full current98046/98065 and Crown context, own Elune/knowledge/retraining gossip. Lost formal greeting original; no later fire/death/wisp or free lesson/water reward.
+    -- Research: docs/research/lariias-greeting-and-doreens-rhyme.md
+    [4092] = {
+        quote = "I understood the thanks before you reached the third title. Begin again with hello, if you like. I should enjoy meeting the person beneath all that ceremony.",
+        likes = { "A nervous greeting allowed to settle", "Sacred things handled with proper care", "Plain words sincerely meant" },
+        dislikes = { "A person lost beneath their rehearsed speech", "Something precious dismissed too quickly", "Mistaking a kind welcome for an examination" },
+        gossip = "A friend lost their place in a grand greeting for Lariia. She offered a simple hello. They found the rest of the visit easier.",
+        bio = "Lariia teaches priests in Darnassus. When a drained moonwell vessel reaches her, she notices water still within it and sends it to Tyrande. Her guidance reassures a messenger who might fear meeting the High Priestess.",
+        backstory = "A friend began a greeting so formal that they forgot the next title. Lariia greeted them simply by name. They laughed, tried hello instead, and discovered that the visit could begin before the speech was perfect.",
+        secret = "She enjoys the moment when a visitor stops performing their greeting and starts speaking for themselves. Respect can remain after the rehearsed words have fallen away.",
+        bestFriend = "Hello, friend. There, we have made an excellent beginning. Come along and tell me what you meant to say before the titles complicated everything.",
+        favorite = {
+            emote = "GREET",
+            hint = "A sincere greeting is welcome without a perfect speech to accompany it.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Hello, friend. You may leave the longer introduction for an occasion that needs it. I remember who you are, and I would rather hear what brought you here than watch you search for a fourth title after forgetting the third.", tone = "[warm] [amused]" }, "Elune guide you, friend. Take a moment, and tell me what you would like to ask." },
+            idle = { { "They had prepared a very grand greeting. Somewhere among the titles, the next word escaped them. I greeted them by name. They laughed and began again with hello. It proved quite sufficient to let the conversation start.", tone = "[gentle] [amused]" }, "Care is not wasted merely because something looks nearly empty. Look closely before deciding there is nothing left worth tending.", "A little reassurance can help someone ask the question they have been carrying. They need not recite it perfectly to be heard." },
+            befriended = { { "You have become someone I am glad to greet for your own sake. Come along, friend. There is room for respect between us without a speech standing in the middle of it. I would like to hear what you meant to tell me.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? The simple version of the question will do very well.", "A moment, please. I would like to listen before deciding what guidance you need." },
+            quest = { { "Handle what has been entrusted to you with care, and listen to the person receiving it. A hurried assumption about what remains may overlook the very thing that matters.", tone = "[calm] [instructive]" } },
+            learned = { "Give the lesson time and practice. You need not hide the part you have not understood behind a confident beginning." },
+            newFriend = { "Help them begin the conversation. A sincere hello may serve better than waiting for the perfect introduction." },
+            rest = { "A quiet moment together would be welcome. We need not make an occasion of it before allowing ourselves to sit." },
+            thanked = { "Your meaning reached me. You need not find a grander way to thank me before we can speak as friends." },
+            group = { "Let each person finish speaking. A hesitant voice may have something useful to offer once there is room to hear it." },
+            comforted = { "Thank you, friend. A kindness plainly offered can reach farther than a speech about how one ought to feel." },
+        },
+    },
+
+    -- Doreen Beltis, Brill, current Horde Friendly adult Forsaken female3529/M2 997378. Current/Classic own quests and captured gossip absent. Deliberately dreadful rhyme and private audience original; no invented job, family, death history or supernatural cure.
+    -- Research: docs/research/lariias-greeting-and-doreens-rhyme.md
+    [2311] = {
+        quote = "I tried to rhyme Brill with pleasant afternoon. It was not my finest work. You may suggest improvements once you have finished making that face.",
+        likes = { "A friend willing to hear one dreadful rhyme", "Dry applause for an ambitious failure", "An afternoon that leaves room for nonsense" },
+        dislikes = { "Solemn meanings assigned to her nonsense", "A joke repeated after it stops being kind", "A perfect rhyme offered without any fun" },
+        gossip = "Doreen rhymed Brill with pleasant afternoon. Her friend applauded very quietly. She declared it the audience her work deserved.",
+        bio = "Doreen Beltis is a Forsaken woman in Brill. Among familiar company, she enjoys testing a rhyme that has no business working. The resulting expression on a friend's face is sometimes the part she likes best.",
+        backstory = "She announced a rhyme for Brill and ended with pleasant afternoon. Her friend stared, then applauded very quietly. Doreen bowed to the modest reception and promised to remember it when planning her next performance.",
+        secret = "The rhyme gives her an excuse to look forward to another visit. A friend who returns prepared to groan has still chosen to return. She is pleased, beneath the dry remarks.",
+        bestFriend = "My discerning audience returns. Come along, friend. I would hate to waste my next dreadful verse on someone who might approve.",
+        favorite = {
+            emote = "GOLFCLAP",
+            hint = "A very small, very dry round of applause suits her deliberately dreadful verse.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Ah, my audience returns. I have been considering another rhyme for Brill. Before you suggest still, ill, or hill, I should warn you that pleasant afternoon remains my most ambitious attempt. Your expression suggests the work still has its admirers.", tone = "[dry] [playful]" }, "There you are. Have you come prepared to offer a better rhyme, or merely to suffer the next one with admirable composure?" },
+            idle = { { "I ended the rhyme with pleasant afternoon. My friend stared at me for quite a while, then applauded very quietly. An appropriate reception. I bowed. One should acknowledge an audience that has measured the achievement so accurately.", tone = "[deadpan] [amused]" }, "You may improve the rhyme if you wish. I reserve the right to prefer the version that made you put your face in your hands.", "Not every remark needs a solemn explanation. Sometimes I meant to say something dreadful and enjoy the small silence afterward." },
+            befriended = { { "You keep returning, even with fair warning of the verse. I find that rather pleasing. Come along, friend. I can promise you something to groan at, and you can pretend that was not precisely what you came to hear.", tone = "[wry] [warm]" } },
+            poke = { "Yes? Have you found a word that rhymes with afternoon and is somehow even less suitable?", "A moment. This line is nearly bad enough. I would hate to interrupt it at the wrong stage." },
+            applaudToo = { { "A restrained response. Excellent judgment. Anything more enthusiastic might encourage me to call it a triumph, and I think we both deserve protection from the next verse of that particular performance.", tone = "[dry] [pleased]" } },
+            newFriend = { "Find out whether they enjoy the joke before offering an entire performance. Some people have done nothing to deserve the second verse." },
+            rest = { "We could sit without any poetry at all. An ambitious proposal, I admit, but perhaps worth trying for a little while." },
+            group = { "Let someone else have a turn. My next dreadful rhyme will keep, and their face may be worth the wait." },
+            thanked = { "You are welcome. If you were thanking me for stopping after one verse, your judgment remains excellent." },
+            zone = { "Here we are. I shall try not to rhyme the place until we have at least learned how its name is pronounced." },
+            learned = { "Something new. I might even leave it alone long enough to understand it before attempting to make it rhyme." },
+        },
+    },
+
     -- Ivy Leafrunner, Emerald Circle, adult Night Elf female10646/M2 921844, current Horde Friendly Felwood. Full5249 and linked KelTheril/ZinMalor chain plus alternate5250; no later Dreamgrove or guessed Leafrunner family. One-question bargain original; no completed travel/cure/relic reward.
     -- Research: docs/research/ivys-question-and-grimestacks-signature.md
     [10924] = {

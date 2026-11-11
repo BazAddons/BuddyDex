@@ -4473,6 +4473,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay stable master; Neutral not Friendly proof",
       "reason": "Current adult stable-master identity; positive faction access unverified; original pawprint handwriting joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4092,
+      "name": "Lariia",
+      "zone": "Darnassus",
+      "route": "Temple of the Moon; current Crown of the Earth handoff",
+      "reason": "Full98046/98065 and Crown chain context, own trainer greetings; original simple greeting; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2311,
+      "name": "Doreen Beltis",
+      "zone": "Tirisfal Glades",
+      "route": "Brill named adult resident",
+      "reason": "Sparse current and Classic records, no own quest/gossip; original dreadful rhyme and dry applause; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lariia and Doreen Beltis: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Ground Lariia in Forever moonwell dialogue; document original simple greeting and Doreen's deliberately dreadful rhyme separately from established facts.
+
 - Add Ivy Leafrunner and Grimestack: full Night Elf and Goblin profiles with thirty personal lines queued.
 - Research Ivy's Winterspring referral and linked relic chain; give both distinct original scenes while keeping Grimestack's Neutral access subject to normal checks.
 
