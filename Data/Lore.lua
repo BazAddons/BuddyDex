@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Uualia Suncrest, General Goods/Repair, Zephras Isle. Adult High Order female136970/M2 7478494, both current Alliance/Horde Friendly; eleven goods, no own quests/gossip. Errand-free afternoon original; no free goods, repair or bag benefit.
+    -- Research: docs/research/uualias-afternoon-and-jamies-invitation.md
+    [251537] = {
+        quote = "A mining pick, water, and an afternoon with no errands. I can help with the first two. The third takes more discipline than you might think. I know; I tried it.",
+        likes = { "A useful list with room for a pleasant day", "Travelers prepared for their first outing", "A friend who reminds her to take a break" },
+        dislikes = { "Every quiet moment turned into another errand", "Essentials forgotten for impressive extras", "Adding more to a finished list" },
+        gossip = "Uualia tried an afternoon with no errands. On their walk, a friend reminded her that taking a break was the task already in progress.",
+        bio = "Uualia Suncrest sells general goods and offers repairs on Zephras Isle. Her stock includes travel provisions, basic tools and apprentice gathering bags. She likes useful preparations, though taking a break requires practice too.",
+        backstory = "A friend wrote an afternoon with no errands on her list. During their walk she remembered several things she could do. They pointed to the one task she was already doing. She laughed and let the next errand wait.",
+        secret = "She is pleased when someone wants her company after the useful business is finished. A little time together need not justify itself by becoming another task.",
+        bestFriend = "Come along, friend. I have checked the useful things. Now we may practice the afternoon that does not need a list to prove it was well spent.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A welcome to ordinary company after the errands are finished is something she appreciates.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. What is on the list today? A tool, provisions, an afternoon with no errands? I can help with the first two. For the third, you may have to remind me that thinking of another task is not the same as needing to do it.", tone = "[bright] [amused]" }, "Welcome back. Have you finished what brought you here, or have you allowed yourself a little time to visit as well?" },
+            idle = { { "My friend added an afternoon with no errands to my list. On our walk I remembered three things I could do. They pointed to the task already in progress. I laughed. Taking a break required more practice than I had expected.", tone = "[warm] [reflective]" }, "A useful tool does not need an impressive explanation. Knowing what you intend to do with it is a much better beginning.", "There is a difference between preparing for a journey and filling every moment before it with another thing to check." },
+            befriended = { { "You have become someone I look forward to seeing after the useful questions are answered. Come along, friend. We may have a perfectly good afternoon without returning with a list of reasons it deserved to happen.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Is that another errand, or a reminder that I said I was finished?", "One moment. I am deciding whether this thought belongs on the list or should be allowed to pass." },
+            rest = { { "Let us sit for a while. If I begin naming things I could be doing, you may point out the one thing we agreed to do. I am learning that a quiet afternoon can be sufficient on its own.", tone = "[gentle] [relaxed]" } },
+            bagsFull = { "Check what you need before adding what merely looks useful. There is only so much room for a journey in one bag." },
+            gear = { "A little care before setting out can save a much less convenient interruption later. Look over what you will actually use." },
+            quest = { "Know which task you accepted before adding three more to it. A finished errand deserves the chance to stay finished." },
+            newFriend = { "Leave room to enjoy their company after you have explained what you need. They may have come for a visit as well." },
+            thanked = { "I am glad it helped. If that finishes the useful business, we may allow the rest of the visit to be pleasant without an explanation." },
+            zone = { "Here we are. Before planning the next three things, let us notice the place we have reached." },
+        },
+    },
+
+    -- Jamie Nore, Brill. Adult Forsaken female3528/M2 997378, current Horde Friendly. Own captured Horde intelligence greeting; current/Classic own quest tabs empty. Not work invitation original; no SoD forged memorandum/rune, new operation or disclosure reward.
+    -- Research: docs/research/uualias-afternoon-and-jamies-invitation.md
+    [2310] = {
+        quote = "Not work. Two words on the outside, an invitation to walk within. I appreciate your habit of making the important distinction before I open the note.",
+        likes = { "Discretion without a performance of mystery", "An invitation clearly separate from business", "A friend accepting an unanswered question" },
+        dislikes = { "Curiosity pressed after a clear refusal", "Important work interrupted for idle questions", "A quiet visit made into an interrogation" },
+        gossip = "Jamie received a note marked Not work. Within was an invitation to walk. She approved of the distinction and found time to accept.",
+        bio = "Jamie Nore is a Forsaken woman in Brill. She says her work concerns delicate matters of Horde intelligence and asks not to be disturbed. A friendship with her leaves room for some subjects to remain private.",
+        backstory = "A friend sent a short note marked Not work. Inside, they asked whether she would like a walk when she was free. Jamie finished what required her attention, then accepted. There were no reports to discuss.",
+        secret = "She values company that does not treat her confidence as a prize to be won. Being allowed an ordinary walk without questions about her work is part of the welcome.",
+        bestFriend = "Come along, friend. No reports, and no questions about them. I would enjoy hearing something you chose to tell me simply because we are friends.",
+        favorite = {
+            emote = "NOD",
+            hint = "A quiet acknowledgment that respects an unanswered question suits her better than pressing further.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "You have returned. If this concerns business, be concise. If it concerns another walk, I appreciate the distinction being made before the questions begin. I may be able to spare a little time once the matter before me is finished.", tone = "[reserved] [dry]" }, "Good to see you, friend. Tell me whether this needs an answer now, or can wait until I have given it proper attention." },
+            idle = { { "The note said Not work on the outside. Inside was an invitation to walk when I was free. No questions tucked behind it, no request disguised as concern. I finished what needed doing, and found that I wished to accept.", tone = "[quiet] [reflective]" }, "Some questions will remain unanswered. A friend can understand that without supplying an elaborate explanation of their own.", "Discretion does not require a mysterious expression. It is often a matter of knowing when not to ask the next question." },
+            befriended = { { "You have not mistaken friendship for permission to examine everything I keep private. I value that. Come along, friend. We may share a little time without turning it into a conversation about matters I have already declined to discuss.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Be brief if it concerns the work before me.", "A moment, friend. I would prefer to finish this before deciding whether I have time for something else." },
+            rest = { { "A quiet pause would be welcome. We need not account for every silence. If you have something ordinary to tell me, I would be glad to hear it without first explaining why we are sitting together.", tone = "[calm] [relaxed]" } },
+            quest = { "Understand what has actually been asked of you. An assumption does not become an instruction because it sounds more interesting." },
+            newFriend = { "Allow them to decide what they wish to tell you. Trust does not begin by proving that a refusal can be talked around." },
+            group = { "Keep the discussion to what everyone here needs to know. There is no virtue in displaying information merely because you have it." },
+            thanked = { "You are welcome. I appreciate your understanding without a second request for the explanation I did not offer." },
+            zone = { "We have arrived. I would like a moment to look around before discussing where we should go next." },
+            learned = { "Consider what you know, what you have inferred, and what you have only heard repeated. Those are different things." },
+        },
+    },
+
     -- Lariia, current Alliance Friendly Darnassus priest trainer, adult Night Elf female2202/M2 921844. Full current98046/98065 and Crown context, own Elune/knowledge/retraining gossip. Lost formal greeting original; no later fire/death/wisp or free lesson/water reward.
     -- Research: docs/research/lariias-greeting-and-doreens-rhyme.md
     [4092] = {

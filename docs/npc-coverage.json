@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 386,
+    "alliance": 387,
     "unverified": 182,
-    "horde": 373
+    "horde": 375
   },
   "npc_race_counts": {
     "1": 168,
     "3": 86,
     "7": 62,
     "2": 97,
-    "5": 96,
+    "5": 97,
     "4": 84,
     "9": 67,
     "8": 61,
     "6": 97,
     "96": 28,
-    "95": 47
+    "95": 48
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -32,7 +32,7 @@
     "Wetlands": 10,
     "Ironforge": 63,
     "Stranglethorn Vale": 9,
-    "Tirisfal Glades": 54,
+    "Tirisfal Glades": 55,
     "Undercity": 21,
     "Silverpine Forest": 9,
     "Teldrassil": 28,
@@ -60,7 +60,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 73,
+    "Zephras Isle": 74,
     "Riverglades": 14
   },
   "entries": [
@@ -2560,6 +2560,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2229"
+    },
+    {
+      "npc_id": 2310,
+      "name": "Jamie Nore",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2310"
     },
     {
       "npc_id": 2311,
@@ -9827,6 +9840,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251507"
     },
     {
+      "npc_id": 251537,
+      "name": "Uualia Suncrest",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251537"
+    },
+    {
       "npc_id": 251902,
       "name": "Illaya Amberwind",
       "zone": "Zephras Isle",
@@ -11459,6 +11486,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 893,
-  "awaiting_signature_audio_profiles": 439
+  "authored_profiles": 895,
+  "awaiting_signature_audio_profiles": 441
 }

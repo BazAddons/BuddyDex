@@ -4816,5 +4816,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Sparse current and Classic records, no own quest/gossip; original dreadful rhyme and dry applause; no Scout sighting claimed",
     "research_notes": "docs/research/lariias-greeting-and-doreens-rhyme.md"
+  },
+  {
+    "npc_id": 251537,
+    "name": "Uualia Suncrest",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Eleven goods and repair role; original errand-free afternoon; no Scout sighting claimed",
+    "research_notes": "docs/research/uualias-afternoon-and-jamies-invitation.md"
+  },
+  {
+    "npc_id": 2310,
+    "name": "Jamie Nore",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Own Horde intelligence greeting, no own current quests; original Not work invitation; no Scout sighting claimed",
+    "research_notes": "docs/research/uualias-afternoon-and-jamies-invitation.md"
   }
 ]

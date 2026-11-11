@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Uualia Suncrest and Jamie Nore: full High Order and Forsaken profiles, thirty personal lines queued.
+- Add a both-faction Zephras vendor while preserving Jamie's intelligence-work boundaries; document original errand-free afternoon and private walk invitation.
+
 - Add Lariia and Doreen Beltis: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Ground Lariia in Forever moonwell dialogue; document original simple greeting and Doreen's deliberately dreadful rhyme separately from established facts.
 

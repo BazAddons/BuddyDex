@@ -4487,6 +4487,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill named adult resident",
       "reason": "Sparse current and Classic records, no own quest/gossip; original dreadful rhyme and dry applause; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251537,
+      "name": "Uualia Suncrest",
+      "zone": "Zephras Isle",
+      "route": "Zephras general goods, current both Friendly",
+      "reason": "Eleven goods and repair role; original errand-free afternoon; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2310,
+      "name": "Jamie Nore",
+      "zone": "Tirisfal Glades",
+      "route": "Brill intelligence greeting",
+      "reason": "Own Horde intelligence greeting, no own current quests; original Not work invitation; fifteen personal lines queued without synthesis"
     }
   ]
 }
