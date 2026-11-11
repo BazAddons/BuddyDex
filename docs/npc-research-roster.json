@@ -4634,5 +4634,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde man; Full843/846/849, journal and road gossip; original lost-path conversation; no Scout sighting claimed",
     "research_notes": "docs/research/cerelleans-memory-and-ganns-path.md"
+  },
+  {
+    "npc_id": 258113,
+    "name": "Ingrid Dunwald",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult alliance woman; Earth and Fire trial context and own spirits greeting; original shared unanswered snow question; no Scout sighting claimed",
+    "research_notes": "docs/research/ingrids-question-and-hildas-standards.md"
+  },
+  {
+    "npc_id": 246389,
+    "name": "Hilda the Breaker",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Full99152 and91294 context, own hardening gossip; original practice dummy repair and returning recruit approval; no Scout sighting claimed",
+    "research_notes": "docs/research/ingrids-question-and-hildas-standards.md"
   }
 ]

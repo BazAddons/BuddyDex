@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ingrid Dunwald, Shaman Trainer, Kharanos/Dun Morogh. Adult Dwarf female140654/M2 950080, Alliance Friendly. Own spirits greeting; Earth/Fire referral context96243/94449 and related trials. Shared unanswered snow question original, no clan/family or elemental revelation invented.
+    -- Research: docs/research/ingrids-question-and-hildas-standards.md
+    [258113] = {
+        quote = "Aye, I listen to the spirits. That doesn't mean I've an answer for every noise the mountain makes. Some questions deserve another walk.",
+        likes = { "Questions asked without embarrassment", "Snow crunching beneath steady boots", "Patience before a display of power" },
+        dislikes = { "Pretending to hear an answer", "Power mistaken for understanding", "Every small mystery called an omen" },
+        gossip = "Ingrid once stopped a walk to ask why that patch of snow squeaked. Her companion had no answer. She invited them on another walk.",
+        bio = "Ingrid Dunwald teaches shamanism in Kharanos. She guides students toward the earth's lessons with Teo Hammerstorm and the fire trial with Bruegs Kindleborn. Her welcome gives the spirits credit for bringing a visitor to her.",
+        backstory = "Ingrid and a companion found a patch of squeaking snow. Each offered an explanation; neither quite convinced the other. She called it a worthwhile walk and suggested they listen again another day.",
+        secret = "She enjoys a question that lets teacher and companion wonder together. Admitting she has no answer can be the beginning of good company.",
+        bestFriend = "Come along, friend. The snow may have another question for us. We can enjoy the walk before deciding who ought to answer.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a thoughtful acknowledgment that leaves room to listen before claiming an answer.",
+        },
+        recordingVoice = "dwarf-female",
+        lines = {
+            greet = { { "There ye are, friend. Come for a walk? We can listen to the mountain, and if neither of us understands a particular squeak, we'll have something to wonder about together.", tone = "[warm] [curious]" }, "Welcome back. Take a breath before the questions. There's time to hear what brought ye here." },
+            idle = { { "That patch of snow squeaked beneath both our boots. We each had an explanation, and neither of us was satisfied. A fine afternoon. I don't require a mystery to surrender before I enjoy the company.", tone = "[thoughtful] [amused]" }, "The spirits may guide a meeting without supplying every word of the conversation. Ye still have to listen to the person before ye.", "Earth teaches patience. Fire asks what ye'll do with power once ye have it. Best remember the first lesson while ye're reaching for the second." },
+            befriended = { { "I like a companion who can say they don't know and keep looking beside me. Come along, friend. We'll leave room for another question, and perhaps another walk after that.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Have ye a question, or did the mountain finally send us a very small answer?", "I'm listening. Tell it in yer own words; ye needn't make it sound like a lesson." },
+            learned = { { "Try what ye've learned with care. Being able to call on power is one thing; understanding when to hold it back takes a little more listening, and rather more practice.", tone = "[steady] [instructive]" } },
+            zone = { "Hear the ground beneath our boots? A familiar road can still give ye something worth noticing." },
+            rest = { "A pause would suit me. We can wonder about things while sitting down; the questions won't mind." },
+            newFriend = { "Give them time to find their question. The first words aren't always the ones they meant to ask." },
+            thanked = { "Glad to help. Bring yer next question as well, even if ye think it's a small one." },
+            comforted = { "Thank ye. It is good to have company while a thought finds its feet." },
+            hearth = { "Homeward, then. Keep a little room for an ordinary evening after all that power and possibility." },
+        },
+    },
+
+    -- Hilda the Breaker, Paladin Trainer, Bandarion Keep/Tirisfal. Adult Forsaken female129986/M2 997378, Horde Friendly. Own hardening/self-reliance gossip and full99152;91294 tour context. Broken dummy repair and approval for returning original; nickname history left unknown.
+    -- Research: docs/research/ingrids-question-and-hildas-standards.md
+    [246389] = {
+        quote = "Stand properly. If the world means to knock you down, don't do half its work for it. And if you mean to stand beside me, be someone who comes back.",
+        likes = { "Recruits who return and improve", "Equipment repaired before it fails", "A report with the useful facts first" },
+        dislikes = { "Confidence with nothing beneath it", "Threats dismissed until they arrive", "Questions about her nickname" },
+        gossip = "Hilda once called a collapsed practice dummy's stance disgraceful. Then she made her companion hold it upright while she repaired it.",
+        bio = "Hilda the Breaker trains paladins at Bandarion Keep. She prepares recruits for danger and mistrust, including among their own people. Bones from beneath Shadowvale may help her understand the threat to the keep.",
+        backstory = "A practice dummy sagged before anyone struck it. Hilda condemned its stance, fetched cord, and put a visitor to work holding it upright. Once repaired, it received a curt order to do better.",
+        secret = "She notices who returns for another lesson more than who boasts after the first. Continued effort earns a quieter, more durable kind of approval.",
+        bestFriend = "You came back. Good. I have work for someone I trust to stay. Hold this steady, friend; even our opponents need standards.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "A crisp acknowledgment backed by readiness to do the work earns more than an impressive speech.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "You came back. Good. Stand beside me, friend. I have more use for someone who returns ready to work than someone who gives a magnificent account of why the first attempt was sufficient.", tone = "[dry] [firm]" }, "There you are. Give me the useful facts first. We can examine your dramatic pauses afterward." },
+            idle = { { "The practice dummy collapsed before the first blow. Disgraceful stance. I had a visitor hold it while I tied it upright again. I expect an opponent to put in some effort, even when it is stuffed with straw.", tone = "[deadpan] [amused]" }, "Even our own people can mistrust us. Being unprepared will not improve their opinion, and I do not intend to let it become the reason a recruit fails.", "Something beneath Shadowvale escaped notice. I want to understand how. A threat does not become smaller because we would prefer to train for a different one." },
+            befriended = { { "You keep returning, and you make yourself useful when you do. That earns something with me. Come along, friend. I can trust you with more than a flattering description of your own potential.", tone = "[gravelly] [sincere]" } },
+            poke = { "Yes? Make the question worth interrupting the answer I was already considering.", "If this is about the nickname, find another question." },
+            gear = { { "Check the fastening now. I would rather spend a moment repairing equipment than discover its weakness while someone is trying to put a blade through the person wearing it.", tone = "[stern] [instructive]" } },
+            quest = { "Tell me what you found, including the part you did not understand. An incomplete report dressed as certainty is a poor foundation." },
+            combatEnd = { "Still standing. Check your equipment, then consider what you could have done better." },
+            rest = { "A measured pause. Use it properly. Exhaustion is not a substitute for judgment." },
+            group = { "Know who is beside you and what they can do. Someone else's boast will not hold your flank." },
+            saluteBack = { "Acknowledged. Follow it with something dependable, and we will understand one another." },
+            thanked = { "You are welcome. Remember the useful part next time you need it." },
+        },
+    },
+
     -- Cerellean Whiteclaw, Auberdine/Darkshore. Adult Night Elf male1757/M2 974343, Alliance Friendly. Full963: Anaya, hibernation and inability to release her spirit himself. Patient listener and ordinary-afternoon recollection original; grief retained, no resurrection or replacement romance.
     -- Research: docs/research/cerelleans-memory-and-ganns-path.md
     [3644] = {

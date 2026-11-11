@@ -4305,6 +4305,20 @@
       "zone": "The Barrens",
       "route": "Southern Barrens dispossession and vengeance",
       "reason": "Full843/846/849, journal and road gossip; original lost-path conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 258113,
+      "name": "Ingrid Dunwald",
+      "zone": "Dun Morogh",
+      "route": "Kharanos shaman guidance",
+      "reason": "Earth and Fire trial context and own spirits greeting; original shared unanswered snow question; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 246389,
+      "name": "Hilda the Breaker",
+      "zone": "Tirisfal Glades",
+      "route": "Bandarion Keep paladin training",
+      "reason": "Full99152 and91294 context, own hardening gossip; original practice dummy repair and returning recruit approval; fifteen personal lines queued without synthesis"
     }
   ]
 }

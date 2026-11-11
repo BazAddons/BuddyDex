@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 373,
+    "alliance": 374,
     "unverified": 181,
-    "horde": 360
+    "horde": 361
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 80,
+    "3": 81,
     "7": 61,
     "2": 93,
-    "5": 92,
+    "5": 93,
     "4": 79,
     "8": 61,
     "9": 63,
@@ -28,11 +28,11 @@
     "Redridge Mountains": 24,
     "Loch Modan": 4,
     "Duskwood": 4,
-    "Dun Morogh": 22,
+    "Dun Morogh": 23,
     "Wetlands": 8,
     "Ironforge": 62,
     "Stranglethorn Vale": 6,
-    "Tirisfal Glades": 50,
+    "Tirisfal Glades": 51,
     "Undercity": 21,
     "Silverpine Forest": 9,
     "Teldrassil": 28,
@@ -9316,6 +9316,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
     },
     {
+      "npc_id": 246389,
+      "name": "Hilda the Breaker",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246389"
+    },
+    {
       "npc_id": 246795,
       "name": "Linzy Blackbolt",
       "zone": "Alterac Mountains",
@@ -10327,6 +10340,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/257944"
     },
     {
+      "npc_id": 258113,
+      "name": "Ingrid Dunwald",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/258113"
+    },
+    {
       "npc_id": 258284,
       "name": "Holaan Glenprancer",
       "zone": "Zephras Isle",
@@ -11122,6 +11148,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 867,
-  "awaiting_signature_audio_profiles": 413
+  "authored_profiles": 869,
+  "awaiting_signature_audio_profiles": 415
 }

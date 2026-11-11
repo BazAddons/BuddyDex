@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ingrid Dunwald and Hilda the Breaker: adult Dwarf and Forsaken trainers, with thirty personal lines queued.
+- Ground their contrasting patience and stern self-reliance in Forever class quests and gossip; keep original friendship scenes separate from quest results.
+
 - Add Cerellean Whiteclaw and Gann Stonespire: adult Night Elf and Tauren regional profiles with thirty personal lines queued.
 - Preserve the researched grief, dispossession and vengeance; separate original remembered-afternoon and lost-path scenes from quest outcomes.
 
