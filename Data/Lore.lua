@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Betty Quin, Journeyman Enchanter Stormwind, adult Human female10591/M2 1000764, Alliance Friendly normal. Three native teaching/referral lines, ten current lessons, full97917 camping and Sam context. Finger-string star original, no free enchant/lute, invented family or later retail title.
+    -- Research: docs/research/bettys-string-star-and-corsans-moth.md
+    [11068] = {
+        quote = "My friend showed me a little star made with string between the fingers. Mine became a very advanced tangle. I asked for the first step again. It was pleasant to be the learner for a while.",
+        likes = { "A learner willing to try again", "Knowing who can teach the next step", "Patient company and an ordinary bit of string" },
+        dislikes = { "A beginner made ashamed of a question", "Pretending to know a lesson she does not", "A tangle mistaken for proof of failure" },
+        gossip = "Betty is learning to make a star with string between her fingers. Her friend has explained the first step several times; she still enjoys trying.",
+        bio = "Betty Quin teaches enchanting in Stormwind, guiding beginners and referring more experienced students to Lucan Cordell. Her camping lesson covers an Enchanted Lute. She has not lost her own pleasure in learning something new.",
+        backstory = "A friend showed her how to make a little star with string between the fingers. Betty produced an impressive tangle. She asked to see the first step again. Being the person who needed the explanation gave the visit a pleasant rhythm of its own.",
+        secret = "She likes that her friend waits while she works out the next movement. The star can take its time. Having someone willing to explain it is already part of the pleasure.",
+        bestFriend = "Show me that first turn again, friend. I nearly have it. Afterward, tell me what you have been learning; we can compare our questions.",
+        favorite = {
+            emote = "THANK",
+            hint = "A sincere acknowledgment suits the patient help that lets someone enjoy another attempt.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Welcome back, friend. I have been practicing the little string star. Shall I show you the improved tangle?", tone = "[bright] [amused]" }, "Good to see you. Bring your questions. We can begin with the part you would like to understand." },
+            idle = { { "My friend made a star with string between the fingers. Mine became a tangle. Fortunately, the first step could be explained again.", tone = "[playful] [pleased]" }, "There is room to enjoy learning before you have become good at it.", "Knowing when another teacher can guide you further is a useful part of teaching." },
+            befriended = { { "I am glad you stayed, friend. Bring what you have been learning, and let me show you my attempts too. It is pleasant to take turns explaining the next step.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Is that the finger that goes through the loop? I had begun to suspect it.", "One moment. I am deciding whether this has become a star or merely a very confident knot." },
+            learned = { { "There, a little more understood. Enjoy that, and ask about the next part when you are ready. You need not hide the questions that helped you get here.", tone = "[encouraging] [gentle]" } },
+            thanked = { "You are welcome. I am pleased the explanation helped. Show me how the next attempt goes." },
+            gear = { "Look carefully at the piece before deciding what work it needs. An explanation is more useful when it begins with what is actually there." },
+            rest = { "A quiet moment suits me. We may let the lesson wait while we enjoy the company." },
+            newFriend = { "Give them time to ask the simple question. It may be the one that helps them find their first step." },
+            cheerAlong = { "Well done. Enjoy the progress, friend. The next attempt can wait long enough for a little celebration." },
+            group = { "Let people bring what they understand, and leave room for the person who is still learning." },
+        },
+    },
+
+    -- Corsan Earthrazer, Warrior Trainer Zephras Isle, adult High Order Skyborne male138003/M2 7478487, Alliance and Horde Friendly normal. Two captured versions of stern flinching lesson, no own tasks/current lesson rows. Moth-on-nose and considerate friend original; no native insect event, combat buff, class-gated friendship or invented ancestry.
+    -- Research: docs/research/bettys-string-star-and-corsans-moth.md
+    [254088] = {
+        quote = "A moth settled on my nose while I was making a serious point. My friend waited for it to depart before smiling. A considerate audience. The point, fortunately, had not gone anywhere.",
+        likes = { "Practice that prepares someone to act", "A friend who knows when to wait", "Humor without humiliation" },
+        dislikes = { "A danger dismissed without attention", "A learner mocked for needing practice", "An insect claiming the center of a lesson" },
+        gossip = "A moth once occupied Corsan's nose during a serious explanation. His friend waited politely. He insists the lesson survived the interruption.",
+        bio = "Corsan Earthrazer trains warriors on Zephras Isle. His stern instruction emphasizes facing danger without flinching. With familiar company, a small harmless interruption can also become a reason to smile.",
+        backstory = "He was making a serious point when a moth settled on his nose. His friend waited without comment. After it departed, they smiled. Corsan finished the explanation, then admitted that the visitor had chosen an excellent moment for its entrance.",
+        secret = "He appreciated the pause his friend allowed him. Being taken seriously need not mean everyone must pretend that an absurd interruption never happened.",
+        bestFriend = "Stay, friend. We can finish the explanation, and then you may tell me what was so amusing. I believe I have a reasonable suspicion.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A restrained, friendly expression can acknowledge an absurd moment without making someone its unwilling spectacle.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have an explanation prepared. We shall hope it attracts your attention rather than another moth.", tone = "[composed] [wry]" }, "Good to see you. Tell me what you have been practicing, and where the difficulty begins." },
+            idle = { { "The moth settled on my nose at the most serious point. My friend waited. I finished the lesson, though the insect had clearly attempted to claim the audience.", tone = "[deadpan] [amused]" }, "Practice should prepare you to act when hesitation would cost you dearly. Give the work your attention.", "A harmless interruption can be amusing without making the person interrupted feel small. I appreciate someone who understands the difference." },
+            befriended = { { "You are welcome beside me, friend. I value the attention you give the work, and the kindness you leave room for when an ordinary moment becomes absurd.", tone = "[steady] [warm]" } },
+            poke = { "Yes? I trust you have a question rather than news of another visitor approaching my nose.", "One moment. I was considering how to finish the point without providing an insect with a second entrance." },
+            laughAlong = { { "Yes, it chose its moment well. We may allow the moth that much credit without granting it responsibility for the entire lesson.", tone = "[restrained] [playful]" } },
+            learned = { "Understand the movement, then practice until you can rely on it. Knowing the explanation is a beginning." },
+            gear = { "Know the equipment you intend to depend on. Familiarity deserves work before the difficult moment arrives." },
+            combatEnd = { "Take stock of yourself and your companions. There is time to consider what happened once everyone can answer." },
+            newFriend = { "Hear where their difficulty begins before deciding what they ought already to know." },
+            rest = { "A pause is useful. Give yourself time to attend properly when we continue." },
+            thanked = { "You are welcome, friend. I am glad the explanation helped. Tell me what changes with the next attempt." },
+        },
+    },
+
     -- Mountaineer Wuar, Thelsamar Loch Modan, adult Dwarf male1810/M2 878772, Alliance Friendly normal. Current named guard/pin, no own captured dialogue/tasks. Loch-and-key pun and restrained applause original, not actual security guarantee or generic guard override.
     -- Research: docs/research/wuars-punch-line-and-grawnals-parcel.md
     [2508] = {

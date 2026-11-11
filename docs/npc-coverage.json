@@ -3,12 +3,12 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 437,
+    "alliance": 439,
     "unverified": 184,
-    "horde": 434
+    "horde": 435
   },
   "npc_race_counts": {
-    "1": 174,
+    "1": 175,
     "3": 109,
     "7": 63,
     "2": 113,
@@ -18,13 +18,13 @@
     "8": 61,
     "6": 111,
     "96": 28,
-    "95": 61
+    "95": 62
   },
   "zone_counts": {
     "Elwynn Forest": 33,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
-    "Stormwind City": 126,
+    "Stormwind City": 127,
     "Redridge Mountains": 28,
     "Loch Modan": 11,
     "Duskwood": 6,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 85,
+    "Zephras Isle": 86,
     "Riverglades": 14,
     "Dalaran": 1
   },
@@ -9790,6 +9790,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11066"
     },
     {
+      "npc_id": 11068,
+      "name": "Betty Quin",
+      "zone": "Stormwind City",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/11068"
+    },
+    {
       "npc_id": 11069,
       "name": "Jenova Stoneshield",
       "zone": "Stormwind City",
@@ -11501,6 +11514,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254087"
     },
     {
+      "npc_id": 254088,
+      "name": "Corsan Earthrazer",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254088"
+    },
+    {
       "npc_id": 254089,
       "name": "Coriella Calmbreeze",
       "zone": "Zephras Isle",
@@ -12867,6 +12894,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1001,
-  "awaiting_signature_audio_profiles": 547
+  "authored_profiles": 1003,
+  "awaiting_signature_audio_profiles": 549
 }

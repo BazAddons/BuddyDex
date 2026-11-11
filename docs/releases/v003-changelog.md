@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Betty Quin and Corsan Earthrazer: full Human and Skyborne profiles, thirty personal lines queued.
+- Research enchanting/camping instruction and a shared-friendly Zephras warrior trainer; validate both factions and preserve separate character progress.
+
 - Add Mountaineer Wuar and Grawnal: full Dwarf and Orc profiles, thirty personal lines queued.
 - Expand Thelsamar and Sun Rock Retreat contacts with researched adult identities and clearly documented original stories.
 
@@ -805,4 +808,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1001 fully written NPC profiles**: 454 have initial signature recordings, and five hundred forty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1003 fully written NPC profiles**: 454 have initial signature recordings, and five hundred forty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

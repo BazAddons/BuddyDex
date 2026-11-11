@@ -5243,6 +5243,20 @@
       "zone": "Stonetalon Mountains",
       "route": "General goods at Sun Rock Retreat",
       "reason": "Seventeen current supplies including blue paper; original awkward gift-spoon parcel; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 11068,
+      "name": "Betty Quin",
+      "zone": "Stormwind City",
+      "route": "Journeyman enchanter in Cordell shop",
+      "reason": "Three native teaching/referral dialogues, ten lessons and full97917; original string star; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 254088,
+      "name": "Corsan Earthrazer",
+      "zone": "Zephras Isle",
+      "route": "Warrior trainer on Zephras Isle",
+      "reason": "Current dual Friendly and stern native lesson; original moth interruption; fifteen personal lines queued without synthesis"
     }
   ]
 }

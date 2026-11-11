@@ -5572,5 +5572,19 @@
     "zone": "Stonetalon Mountains",
     "source": "Reviewed adult horde identity; Seventeen current supplies including blue paper; original awkward gift-spoon parcel; no Scout sighting claimed",
     "research_notes": "docs/research/wuars-punch-line-and-grawnals-parcel.md"
+  },
+  {
+    "npc_id": 11068,
+    "name": "Betty Quin",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance identity; Three native teaching/referral dialogues, ten lessons and full97917; original string star; no Scout sighting claimed",
+    "research_notes": "docs/research/bettys-string-star-and-corsans-moth.md"
+  },
+  {
+    "npc_id": 254088,
+    "name": "Corsan Earthrazer",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Current dual Friendly and stern native lesson; original moth interruption; no Scout sighting claimed",
+    "research_notes": "docs/research/bettys-string-star-and-corsans-moth.md"
   }
 ]

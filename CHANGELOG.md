@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Betty Quin and Corsan Earthrazer: full Human and Skyborne profiles, thirty personal lines queued.
+- Research enchanting/camping instruction and a shared-friendly Zephras warrior trainer; validate both factions and preserve separate character progress.
+
 - Add Mountaineer Wuar and Grawnal: full Dwarf and Orc profiles, thirty personal lines queued.
 - Expand Thelsamar and Sun Rock Retreat contacts with researched adult identities and clearly documented original stories.
 
