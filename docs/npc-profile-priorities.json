@@ -4074,6 +4074,20 @@
       "zone": "Felwood",
       "route": "Southern Felwood plant-salve researcher",
       "reason": "Full4101/4103-4112 and own gestures/salve gossip; conflicting faction indicators unresolved; original shared flower doodle; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 277024,
+      "name": "Jelinek Sharpshear",
+      "zone": "Stormwind City",
+      "route": "Stormwind barber",
+      "reason": "Own barber welcome; original windswept afternoon and confidence beyond the mirror; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8020,
+      "name": "Shyn",
+      "zone": "Feralas",
+      "route": "Camp Mojache wind rider master",
+      "reason": "Own destination greeting; original ground-level canopy view and post-wingbeat pause; fifteen personal lines queued without synthesis"
     }
   ]
 }

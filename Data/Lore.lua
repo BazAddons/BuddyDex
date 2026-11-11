@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jelinek Sharpshear, Stormwind barber. Adult gnome male148768/M2 900914, Alliance Friendly. Own two barber greetings, current role/location; windswept returning customer and confidence beyond mirror original. Older29142 not separately authored.
+    -- Research: docs/research/jelineks-afternoon-and-shyns-canopy.md
+    [277024] = {
+        quote = "The wind will have its opinion of your hair too. That is no reason to leave all the decisions to it.",
+        likes = { "A customer pleased enough to stop checking", "A good day that leaves the hair windswept", "Someone choosing the look they actually want" },
+        dislikes = { "A fine haircut treated as a reason to hide", "An unwanted change praised for being daring", "The mirror given the final word in everything" },
+        gossip = "Jelinek asks whether you enjoyed the day before asking what happened to your hair. He regards this as professional good sense.",
+        bio = "Jelinek Sharpshear is a barber in Stormwind City. He welcomes customers for cuts, coloring, and other grooming, encouraging them to settle into the chair. His attention belongs to the person choosing the change as well as the finished appearance.",
+        backstory = "A customer returned windswept after a splendid afternoon, expecting him to complain about the ruined arrangement. Jelinek asked about the afternoon instead. He was pleased to hear the haircut had accompanied something worth enjoying.",
+        secret = "He likes the moment someone stops checking the mirror. Confidence that survives leaving the chair pleases him more than a perfect arrangement nobody dares to disturb.",
+        bestFriend = "Come along, friend. Your hair may survive the afternoon or acquire a story. I should like to hear the story either way.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He enjoys the confidence of someone ready to enjoy the day instead of guarding every strand.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. If the wind has rearranged everything, I should like to hear whether the afternoon was worth it before deciding we have suffered a disaster.", tone = "[bright] [playful]" }, "Good to see you. Have you been enjoying the day, or have you been checking whether every strand remembers its instructions?" },
+            idle = { { "A customer returned after a splendid afternoon, apologizing for what the wind had done. I asked about the afternoon. The hair had apparently attended something considerably more interesting than another inspection.", tone = "[animated] [amused]" }, "The person in the chair should recognize the choice as their own. A grand reveal is less impressive if they were never asked what they wanted.", "I like the moment someone stops looking at the mirror. It usually means the visit is ready to become part of a day instead of the whole concern of it." },
+            befriended = { { "You have become company I am glad to have beyond the chair and the mirror. Come along, friend. Let the afternoon give us something worth remembering.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the wind submitted another proposal?", "Go on. You need not prepare a whole new appearance to begin a conversation." },
+            gear = { { "Choose something you can enjoy wearing into the world. A fine appearance should accompany the day, not require you to stay perfectly still through it.", tone = "[cheerful] [encouraging]" } },
+            zone = { "A new place. Let yourself see it before wondering whether the mirror would approve of the journey here." },
+            cheerAlong = { "There we are. A little confidence looks very well on you. Take it out into the afternoon and see what happens." },
+            rest = { "A pause. You may settle yourself without arranging how every part of the moment ought to look." },
+            newFriend = { "Someone new. Ask what they enjoy before deciding what change would make the introduction impressive." },
+            thanked = { "You are welcome. I am pleased you are leaving with something you wanted." },
+            loot = { "Have a proper look. A magnificent description is less useful than finding whether the thing suits you." },
+        },
+    },
+
+    -- Shyn, Camp Mojache wind rider master, Feralas. Adult tauren female7248/M2 986648, Horde Friendly. Own destination greeting, current flight-master service and Classic no-quest result; ground-level canopy view and post-wingbeat pause original.
+    -- Research: docs/research/jelineks-afternoon-and-shyns-canopy.md
+    [8020] = {
+        quote = "Look up before you leave. Feralas has gone to considerable trouble with the ceiling, and you can admire it without booking a flight.",
+        likes = { "Leaf-shadow moving through a quiet pause", "A rider noticing the place before departing", "The familiar forest sounds after wingbeats" },
+        dislikes = { "A destination chosen before hearing the offer", "A mount overlooked in the hurry to leave", "A fine view dismissed for being close at hand" },
+        gossip = "Ask Shyn for a good view and she may point at the leaves overhead. Not every recommendation requires a saddle.",
+        bio = "Shyn tends the Horde wind rider service at Camp Mojache in Feralas. Her question to travelers is simple: where would they like to fly? The roost brings departures and arrivals into a forest whose canopy offers something to notice before either.",
+        backstory = "A traveler asked where to sit for a good view of the canopy. Shyn indicated a place beneath the branches. They paused there before discussing the flight. For once the best part of the answer needed no departure.",
+        secret = "She likes the interval after the wingbeats fade, when the sounds of the forest return. A friend may share it without deciding that silence means they should hurry away.",
+        bestFriend = "Stay a moment, friend. Hear the leaves now? There is a little of the journey worth enjoying before we choose where to go.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a quiet acknowledgment of the view and the pause already around you.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Look up a moment before we choose where to go. The forest has arranged a very good view without asking anybody to find a saddle.", tone = "[warm] [wry]" }, "It is good to see you. Have you a destination in mind, or shall we notice where we are before discussing the next place?" },
+            idle = { { "A traveler asked where to sit for a good view of the canopy. I indicated a place beneath the branches. We enjoyed the answer for a while before arranging the flight.", tone = "[calm] [amused]" }, "After the wingbeats fade, the forest becomes easy to hear again. I like that interval. There is no need to fill it simply because someone has gone.", "The place you leave is part of the journey too. Give it a little attention before deciding only the destination can offer something worth remembering." },
+            befriended = { { "You have become someone with whom I am glad to share the pause between journeys. Stay beside me, friend. We may hear the leaves before finding another reason to hurry.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you noticed something overhead?", "Go on. A question need not already have a destination at the end of it." },
+            taxi = { { "Settle yourself before the departure. Remember the mount carrying you, and allow the view a little of the attention you have given the arrival.", tone = "[steady] [reassuring]" } },
+            landed = { "Back on the ground. Let the journey finish properly before turning every thought toward the next one." },
+            mount = { "See to the mount as well as the rider. Both have a part in getting the journey started in good order." },
+            hearth = { "A return to somewhere familiar. Take a moment to notice what makes you pleased to arrive." },
+            zone = { "Look at the place itself. The useful path across it is not the only thing the journey may have brought you here to see." },
+            group = { "Make sure everyone knows where you mean to go. A shared journey begins with more than one person deciding the destination." },
+            newFriend = { "Someone new. Hear where they have come from before arranging where they ought to go next." },
+        },
+    },
+
     -- Outfitter Eric, Ironforge tailoring supplier. Adult gnome male7951/M2 900914, Alliance Friendly.22currentgoods, no personal quests/gossip; magnificent-purple description and practical label original.
     -- Research: docs/research/erics-purple-and-arathandris-flower.md
     [8681] = {

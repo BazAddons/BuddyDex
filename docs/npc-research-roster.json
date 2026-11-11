@@ -4403,5 +4403,19 @@
     "zone": "Felwood",
     "source": "Reviewed adult unverified woman; Full4101/4103-4112 and own gestures/salve gossip; conflicting faction indicators unresolved; original shared flower doodle; no Scout sighting claimed",
     "research_notes": "docs/research/erics-purple-and-arathandris-flower.md"
+  },
+  {
+    "npc_id": 277024,
+    "name": "Jelinek Sharpshear",
+    "zone": "Stormwind City",
+    "source": "Reviewed adult alliance man; Own barber welcome; original windswept afternoon and confidence beyond the mirror; no Scout sighting claimed",
+    "research_notes": "docs/research/jelineks-afternoon-and-shyns-canopy.md"
+  },
+  {
+    "npc_id": 8020,
+    "name": "Shyn",
+    "zone": "Feralas",
+    "source": "Reviewed adult horde woman; Own destination greeting; original ground-level canopy view and post-wingbeat pause; no Scout sighting claimed",
+    "research_notes": "docs/research/jelineks-afternoon-and-shyns-canopy.md"
   }
 ]

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jelinek Sharpshear and Shyn: adult Gnome and Tauren profiles with thirty personal lines queued.
+- Verify current barber/flight-master identities and own greetings; document original windswept-afternoon and canopy-view scenes.
+
 - Add Outfitter Eric and Arathandris Silversky: adult Gnome and Night Elf profiles with thirty personal lines queued.
 - Review tailoring stock and the full plant-salve branches; document original color-label and shared-flower scenes and unresolved Felwood faction indicators.
 
