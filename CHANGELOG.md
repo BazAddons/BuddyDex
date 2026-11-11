@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gaerolas Talvethren and Wuark: full Teldrassil and Durotar profiles with thirty personal lines queued.
+- Preserve the wounded Great Warden and actual ritual speakers; document original cloak greeting and rolling-buckler scene without granting healing or equipment.
+
 - Add Uualia Suncrest and Jamie Nore: full High Order and Forsaken profiles, thirty personal lines queued.
 - Add a both-faction Zephras vendor while preserving Jamie's intelligence-work boundaries; document original errand-free afternoon and private walk invitation.
 

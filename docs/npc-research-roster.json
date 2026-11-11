@@ -4830,5 +4830,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Own Horde intelligence greeting, no own current quests; original Not work invitation; no Scout sighting claimed",
     "research_notes": "docs/research/uualias-afternoon-and-jamies-invitation.md"
+  },
+  {
+    "npc_id": 2107,
+    "name": "Gaerolas Talvethren",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance man; Full475/476/483/486; original cloak caught during greeting, no cure or completed rescue; no Scout sighting claimed",
+    "research_notes": "docs/research/gaerolass-greeting-and-wuarks-buckler.md"
+  },
+  {
+    "npc_id": 3167,
+    "name": "Wuark",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde man; Twelve current goods/repair; original rolling buckler during stance explanation; no Scout sighting claimed",
+    "research_notes": "docs/research/gaerolass-greeting-and-wuarks-buckler.md"
   }
 ]

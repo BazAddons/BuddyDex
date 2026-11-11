@@ -4501,6 +4501,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill intelligence greeting",
       "reason": "Own Horde intelligence greeting, no own current quests; original Not work invitation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2107,
+      "name": "Gaerolas Talvethren",
+      "zone": "Teldrassil",
+      "route": "Starbreeze wounded Great Warden",
+      "reason": "Full475/476/483/486; original cloak caught during greeting, no cure or completed rescue; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3167,
+      "name": "Wuark",
+      "zone": "Durotar",
+      "route": "Razor Hill armorer and shieldcrafter",
+      "reason": "Twelve current goods/repair; original rolling buckler during stance explanation; fifteen personal lines queued without synthesis"
     }
   ]
 }

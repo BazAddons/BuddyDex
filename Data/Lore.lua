@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gaerolas Talvethren, Starbreeze/Teldrassil, current Alliance Friendly adult Night Elf male1854/M2 974343. Full475/476/483/486; wounded Great Warden, Athridas performs later ritual. Cloak caught in greeting original; no healing, completed rescue or abandoned duty granted.
+    -- Research: docs/research/gaerolass-greeting-and-wuarks-buckler.md
+    [2107] = {
+        quote = "He made a splendid entrance until his cloak caught on the branch. Then he had to back out of the entire greeting. Tell it again, friend. I appreciated the second, less dignified arrival.",
+        likes = { "A friend who can share an ordinary mishap", "An urgent message carried faithfully", "A brief laugh without a demand to forget" },
+        dislikes = { "The sleeping druids left unprotected", "Confidence allowed to outrun attention", "His wounds mistaken for indifference" },
+        gossip = "A friend's cloak caught on a branch during a grand greeting. Gaerolas waited through the retreat, then welcomed a simpler second arrival.",
+        bio = "Gaerolas Talvethren is Great Warden to the sleeping Druids of the Talon in Ban'ethil. Wounded by corrupted Gnarlpines, he needs word carried to Athridas. His concern remains with those he was chosen to protect.",
+        backstory = "A friend approached with a splendid greeting, only to catch their cloak on a branch. They backed away to free it, then started again with a sheepish hello. Gaerolas laughed and welcomed the second arrival.",
+        secret = "He is grateful for a moment that asks nothing of him beyond enjoying a friend's company. It does not take away his worry. It gives that worry a little company.",
+        bestFriend = "The simpler greeting will do, friend. Your company is welcome. Carry my good wishes with you, wherever the road leads next.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A familiar smile can offer company without pretending his worries have disappeared.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are, friend. A simpler entrance this time, I see. You need not attempt the grand greeting again on my account, especially with a branch so close to the cloak. I was glad to see you on both occasions.", tone = "[warm] [gently amused]" }, "Welcome, friend. If you carry news, let me hear it plainly. If you have come for company, that is welcome too." },
+            idle = { { "The greeting was magnificent until the cloak caught on the branch. My friend backed out of the whole arrival, freed it, then began again with hello. I laughed. The second greeting reached me perfectly well without the ceremony.", tone = "[softly] [amused]" }, "My thoughts return to those sleeping in the den. I am grateful when someone understands why a clear message matters so much.", "A little laughter need not pretend there is nothing to fear. Sometimes a friend offers it simply so that the fear has company." },
+            befriended = { { "You have become someone whose company I welcome for its own sake. Take my good wishes with you, friend. A familiar voice and an ordinary story can mean much to someone whose thoughts have been filled with urgent matters.", tone = "[quiet] [sincere]" } },
+            poke = { "Yes, friend? You need not begin the greeting again. I heard you the first time.", "A moment. I would like to understand whether this is news that must be carried onward." },
+            quest = { { "Carry the message clearly. When someone cannot bring the warning themselves, a faithful account matters more than an impressive telling. Do not leave out the uncertainty merely to make it sound more complete.", tone = "[serious] [concerned]" } },
+            rest = { "Sit a little, if you have time. You may tell me something ordinary. Not every word shared between friends must become a report." },
+            newFriend = { "Allow them to arrive as they are. An awkward beginning need not decide the whole conversation." },
+            thanked = { "I am grateful for your care as well. A message carried faithfully and a visit freely offered are things I do not take lightly." },
+            group = { "Make certain the warning has been understood before assuming someone else will carry it. A clear answer can spare dangerous uncertainty." },
+            comforted = { "Thank you for remaining a little while. You need not promise an easy ending to make your company welcome." },
+            zone = { "Take care in this place, friend. Look closely before letting a familiar path convince you that nothing has changed." },
+        },
+    },
+
+    -- Wuark, Razor Hill, Armorer and Shieldcrafter/Repair, current Horde Friendly adult Orc male3742/M2 917116. Twelve current goods, no own quests/gossip. Rolling buckler during stance explanation original; no free shield, skill, repair or actual combat benefit.
+    -- Research: docs/research/gaerolass-greeting-and-wuarks-buckler.md
+    [3167] = {
+        quote = "A steady stance is useful. So is moving when a buckler starts rolling away. I demonstrated both. You may finish cheering now; the second part was not intended as the lesson.",
+        likes = { "Equipment checked before trouble finds it", "A sound grip and practical attention", "A friend cheering a less solemn demonstration" },
+        dislikes = { "Confidence offered instead of a proper fit", "A round shield left free to roll", "The joke retold with a steeper hill each time" },
+        gossip = "A buckler rolled away during Wuark's stance lesson. He caught it; his friend cheered. Knowing when to move was also important, he explained.",
+        bio = "Wuark is an armorer and shieldcrafter in Razor Hill. He sells light chain armor, shields and supplies, and offers repairs. Practical attention suits his work, even when a round buckler requires a less dignified demonstration.",
+        backstory = "He was explaining the value of a steady stance when a buckler began rolling away. Wuark stepped after it and caught it. His friend cheered. He explained that knowing when to move was also an important lesson.",
+        secret = "He does not mind the cheering as much as he claims. A friend can admire his work and still enjoy the moment when the craftsman has to hurry after it.",
+        bestFriend = "Come along, friend. I trust your judgment, though your version of that rolling buckler keeps acquiring a longer journey than I remember.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A good-natured cheer for a quick recovery is welcome, even if he pretends to object.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. If you have come to hear the lesson again, the stance was sound. The buckler rolled. I moved and caught it. Both are useful skills. You may leave out the cheering until we have at least finished saying hello.", tone = "[gruff] [amused]" }, "Welcome back, friend. Tell me what needs attention before telling me how far the buckler traveled in your latest account." },
+            idle = { { "I was explaining the value of a steady stance when the buckler began rolling. I stepped after it and caught it. My friend cheered. Knowing when to move is also important. I would have reached that part of the lesson eventually.", tone = "[deadpan] [amused]" }, "A proper fit is worth checking before you need to trust it. Confidence will not fasten a strap you left loose.", "It did not roll all the way through Razor Hill. Your last telling had attracted an audience before I had even taken the first step." },
+            befriended = { { "You can appreciate the care in my work and still laugh when I have to chase a piece of it. Come along, friend. I prefer that to a person who praises everything solemnly and never notices when the shield starts moving.", tone = "[gruff] [warm]" } },
+            poke = { "Yes, friend? Tell me it has remained where we put it.", "A moment. I would like to finish checking this before defending my stance again." },
+            gear = { { "Check the fit, the grip, and the fastening. A fine appearance does not answer those questions. And if you put a round shield down, make certain the ground has not decided to continue the demonstration for you.", tone = "[firm] [instructive]" } },
+            rest = { "A short pause. We may sit without turning it into a demonstration, provided nothing round is left leaning where it can escape." },
+            bagsFull = { "Pack the smaller things so you can find them. Pulling everything out beside the road is a poor way to discover where the strap went." },
+            quest = { "Know what condition the work must be in when it reaches the person waiting for it. Arriving with most of it is not always sufficient." },
+            thanked = { "You are welcome. I am pleased the advice was useful before it required an unexpected demonstration." },
+            cheerAlong = { "Yes, yes. Caught cleanly, and scarcely as far away as your version suggests. I will accept the cheer on those terms." },
+            group = { "Leave enough room for the others to move. A steady position does not become wiser because everyone else has to climb around it." },
+        },
+    },
+
     -- Uualia Suncrest, General Goods/Repair, Zephras Isle. Adult High Order female136970/M2 7478494, both current Alliance/Horde Friendly; eleven goods, no own quests/gossip. Errand-free afternoon original; no free goods, repair or bag benefit.
     -- Research: docs/research/uualias-afternoon-and-jamies-invitation.md
     [251537] = {
