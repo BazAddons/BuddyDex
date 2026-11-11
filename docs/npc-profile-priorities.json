@@ -4123,6 +4123,20 @@
       "zone": "Felwood",
       "route": "Emerald Sanctuary strategist",
       "reason": "Own corruption warning, full Jaedenar and Morphaz salve chains; original fallen-leaf briefing; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251363,
+      "name": "Dalia the Collector",
+      "zone": "Zephras Isle",
+      "route": "Thendal Grove harvesting contact",
+      "reason": "Full93552, three reward manuals, both Friendly adult model; original paperweight; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1078,
+      "name": "Ormer Ironbraid",
+      "zone": "Wetlands",
+      "route": "Wetlands excavation survivor",
+      "reason": "Full294/295/296; duty rather than invented injury; original ordinary-work longing; fifteen personal lines queued without synthesis"
     }
   ]
 }

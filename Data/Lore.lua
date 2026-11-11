@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dalia the Collector, Thendal Grove, Zephras. Adult High Order female137697/M2 7478494, both Friendly; level1 is not age evidence. Full93552 and three reward-manual nodes; plain-stone paperweight original. Exact spirit-departure timeline omitted.
+    -- Research: docs/research/dalias-paperweight-and-ormers-workday.md
+    [251363] = {
+        quote = "No, this one holds no magic. It keeps the page still while I explain the ones that do. A plain stone may have its uses too.",
+        likes = { "A useful find recognized before discarding it", "Windstones harvested with patient care", "An ordinary object solving an ordinary need" },
+        dislikes = { "A precious resource treated as limitless", "A first attempt rushed past understanding", "Something useful dismissed for lacking magic" },
+        gossip = "Dalia keeps a very ordinary stone beside the harvesting manuals. Its chief accomplishment is preventing the lesson from blowing away.",
+        bio = "Dalia the Collector gathers windstone clusters in Thendal Grove on Zephras Isle. Windstones hold wind energy and remain valuable as the island's sustaining magic fades. She introduces beginners to harvesting and offers a choice of gathering manuals.",
+        backstory = "Among the materials came a plain stone with no wind energy worth collecting. Dalia nearly set it aside, then used it to hold a manual open. The next gust left the page exactly where she needed it.",
+        secret = "She is fond of that ordinary stone. It cannot sustain the island, but it helps her explain the work that matters. She enjoys a small use that needs no grand claim.",
+        bestFriend = "Sit here, friend. The page will stay open. We may look at the next useful thing without deciding it must be extraordinary.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "She appreciates recognition of careful useful work, even when the result has no impressive glow.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. The ordinary stone is holding the page very reliably. We may discuss the extraordinary ones without chasing the lesson across the grove.", tone = "[warm] [wry]" }, "It is good to see you. Have you found something useful, or something that deserves a closer look before deciding it is not?" },
+            idle = { { "A plain stone arrived among the materials. It held no useful wind energy, but it kept the manual open when the next gust came. I have found that an ordinary success can be quite satisfying.", tone = "[matter-of-fact] [pleased]" }, "The windstones matter because their energy has a purpose. Knowing what a resource can do should make us more careful with it, not less.", "A first lesson should leave you ready to understand the next thing you gather. There is more to useful harvesting than filling the pack quickly." },
+            befriended = { { "You have become someone with whom I am glad to look at the useful things others hurry past. Walk beside me, friend. We need not find a marvel to enjoy the search.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the paperweight been asked to sustain the island again?", "Go on. An ordinary question may be the useful place to begin." },
+            learned = { { "Good. Notice what made the work useful, and what you must handle with care. Understanding should come along with the first successful collection.", tone = "[steady] [encouraging]" } },
+            loot = { "Look at the thing before deciding what its appearance promises. It may have a useful purpose without the one you first imagined." },
+            bagsFull = { "Make a little room before collecting more. Careful work includes knowing what you can carry without damaging the useful part." },
+            quest = { "Enough for the work at hand. Give the result a proper look before deciding the lesson ended when the last piece entered your pack." },
+            rest = { "A pause. The page is not going anywhere for the moment, and neither must the whole conversation." },
+            thanked = { "You are welcome. I am pleased the useful part stayed with you." },
+            newFriend = { "Someone new. Let them show what they have noticed before explaining what they ought to be looking for." },
+        },
+    },
+
+    -- Ormer Ironbraid, Wetlands dig bluff. Adult dwarf male1402/M2 878772, Alliance Friendly. Full294/295/296: raptor deaths, duty to Merrin/prospector, revenge; longing for ordinary work noise original. No injury or restored dig invented.
+    -- Research: docs/research/dalias-paperweight-and-ormers-workday.md
+    [1078] = {
+        quote = "When I ask for an ordinary day at the dig, I mean picks working and dwarves complaining. There are worse kinds of quiet than a little honest noise.",
+        likes = { "The living people who still depend on him", "An ordinary complaint about an ordinary tool", "Work remembered beyond the last battle" },
+        dislikes = { "Raptors among the excavation crew", "A duty abandoned because revenge is louder", "The fallen reduced to proof for a bounty" },
+        gossip = "Ormer speaks fiercely about revenge. Ask what he misses and he may describe the ordinary noise of a day's work instead of a trophy.",
+        bio = "Ormer Ironbraid remains on a bluff above the Wetlands dig with Merrin and the prospector after raptors kill members of the crew. He seeks vengeance, ending with a demand for Sarltooth's talon, but stays because the survivors still depend on him.",
+        backstory = "Uncovering bones drew the raptors to the excavation. The attack killed his fellows and trapped those who remained above the site. Ormer would join the fight below, but his obligation to the others keeps him on the bluff.",
+        secret = "He misses the harmless complaints of people doing ordinary work. A worn tool or an awkward stone once seemed worth a whole argument. He would gladly hear one of those arguments again.",
+        bestFriend = "Stay beside me, friend. Tell me some ordinary trouble from your day. I should like to remember how small a complaint can be.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values acknowledgment of the duty that keeps him beside the people still relying on him.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Stay beside me a moment. If you have an ordinary complaint from the day, I would hear it. A worn tool can be a welcome subject after the things we have had to discuss.", tone = "[gruff] [weary]" }, "Good to see you. Tell me plainly what has happened. The people still here deserve a proper account before another great promise." },
+            idle = { { "I miss the ordinary noise of the work. Picks, shifting stone, a dwarf insisting the tool would behave if somebody else had sharpened it properly. I would listen to that argument again with considerable patience.", tone = "[gruff] [wistful]" }, "I would be down there fighting if the others did not need me here. Wanting revenge does not release me from the people who still depend on me.", "Remember the fellows who came to do their work. They deserved better than becoming another tale about how dangerous a dig can be." },
+            befriended = { { "You have become someone I am glad to have beside me without first putting another task in your hands. Stay a while, friend. Your ordinary news would be welcome.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? Is there news from below?", "Go on. I can hear a small matter without telling you a larger one ought to have taken its place." },
+            quest = { { "Finished. Give the work its due, and remember the people it was meant to serve. Proof in the hand is not the whole account of why the task mattered.", tone = "[firm] [solemn]" } },
+            gear = { "Look after what you rely on. I should be pleased to hear a complaint about a stubborn tool instead of another report of someone left without help." },
+            combatEnd = { "See who is still standing and who needs a hand. The end of the fighting is not the end of what we owe the people beside us." },
+            loot = { "Handle what belonged to the work with care. An ordinary object may matter to someone for reasons a tally will never explain." },
+            rest = { "A pause. We can take one while keeping faith with the people who need us. Neither duty nor anger requires an endless performance." },
+            group = { "Know who is relying on whom. The loudest desire for action need not decide where every person ought to stand." },
+            thanked = { "You are welcome. I am glad the help reached someone who could use it." },
+        },
+    },
+
     -- Mountaineer Kadrell, Thelsamar, Loch Modan. Adult dwarf male1892/M2 878772, Alliance Friendly. Own brewery/duty greetings; full bounty, stout and three referral branches; upwind inspection scene original.
     -- Research: docs/research/kadrells-position-and-gretas-leaves.md
     [1340] = {

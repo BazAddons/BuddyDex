@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Dalia the Collector and Ormer Ironbraid: adult High Order and Dwarf profiles with thirty personal lines queued.
+- Review full windstone and raptor-revenge text, manual limits, and Dalia’s timeline difference; document original paperweight and ordinary-work themes.
+
 - Add Mountaineer Kadrell and Greta Mosshoof: adult Dwarf and Tauren profiles with thirty personal lines queued.
 - Review the complete linked bounty/stout/referral and Jaedenar/Morphaz branches; document original upwind inspection and leaf-briefing scenes.
 

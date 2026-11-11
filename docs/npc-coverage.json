@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 359,
+    "alliance": 361,
     "unverified": 179,
-    "horde": 345
+    "horde": 346
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 76,
+    "3": 77,
     "7": 61,
     "2": 92,
     "5": 89,
@@ -18,7 +18,7 @@
     "9": 61,
     "6": 93,
     "96": 27,
-    "95": 38
+    "95": 39
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -29,7 +29,7 @@
     "Loch Modan": 4,
     "Duskwood": 4,
     "Dun Morogh": 22,
-    "Wetlands": 6,
+    "Wetlands": 7,
     "Ironforge": 62,
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 49,
@@ -59,7 +59,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 63,
+    "Zephras Isle": 64,
     "Riverglades": 13
   },
   "entries": [
@@ -940,6 +940,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1076"
+    },
+    {
+      "npc_id": 1078,
+      "name": "Ormer Ironbraid",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1078"
     },
     {
       "npc_id": 1212,
@@ -9187,6 +9200,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251362"
     },
     {
+      "npc_id": 251363,
+      "name": "Dalia the Collector",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251363"
+    },
+    {
       "npc_id": 251364,
       "name": "Destin Thriceforged",
       "zone": "Zephras Isle",
@@ -10782,6 +10809,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 841,
-  "awaiting_signature_audio_profiles": 387
+  "authored_profiles": 843,
+  "awaiting_signature_audio_profiles": 389
 }
