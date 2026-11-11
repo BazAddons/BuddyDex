@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Historian Karnik, Ironforge library, adult Dwarf male3595/M2 878772, Alliance Friendly normal20. Native book greeting, eleven Classic-linked tasks and six-page17735, full current98313 Goaz handoff read. Worry about postponed remembrance original; no solved Uldum or future prophecy. Current pin is Dun Morogh projection.
+    -- Research: docs/research/karniks-remembrance-and-otts-thanks.md
+    [2916] = {
+        quote = "An unanswered question is not a disgrace to a scholar. Forgetting the people who helped you ask it would be another matter. Sit a while, friend. There is more worth remembering than a result.",
+        likes = { "A question pursued with honest care", "Someone interested in older legends", "The people behind a discovery remembered" },
+        dislikes = { "Certainty supplied where evidence is absent", "A person reduced to a useful source", "History mistaken for a pile of prizes" },
+        gossip = "Karnik can become tremendously excited by new evidence. He is also quite capable of admitting that it will take time to understand it.",
+        bio = "Historian Karnik works with the Explorers' League in Ironforge's library. Books, ancient discoveries and older legends interest him. Excitement does not prevent him from admitting uncertainty or recognizing when further research is needed.",
+        backstory = "He worked with Hammertoe on Uldaman's lost artifacts. News of Hammertoe's death and the amulet he sent bring grief alongside an urgent threat. Karnik postpones mourning to seek action against the Shadowforge. The work matters; so does the person it cost.",
+        secret = "He worries about how easily urgent work can postpone remembrance again. A friend willing to sit with him without requiring a discovery gives that concern a little room.",
+        bestFriend = "Sit with me, friend. We may speak of what we know, what we still need to learn, and the people we ought not hurry past remembering.",
+        favorite = {
+            emote = "NOD",
+            hint = "An attentive acknowledgment can give both an unfinished thought and its speaker room.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are, friend. A question, a discovery, or simply a visit? All three may deserve a little of our time.", tone = "[engaged] [warm]" }, "Welcome back. Tell me what you have found, and what you are still uncertain of." },
+            idle = { { "New evidence can be tremendously exciting without explaining itself at once. Sometimes the honest answer is that we need time to work out what to ask next.", tone = "[eager] [thoughtful]" }, "A legend can be worth understanding without requiring everyone who celebrates it to understand it in the same way.", "The people who help uncover a history deserve to remain in our account of it." },
+            befriended = { { "You are welcome beside me, friend. I value your questions and the care with which you hear an unfinished answer. More than that, I am glad you return for the company.", tone = "[earnest] [fond]" } },
+            poke = { "Yes? If the answer is somewhere in a book, we may have a useful place to begin.", "One moment. I would rather distinguish what I know from what I hope before answering you." },
+            learned = { { "Keep the missing piece in mind. A plausible idea becomes no stronger because we stop mentioning what it has yet to explain.", tone = "[measured] [encouraging]" } },
+            comforted = { "Thank you, friend. Work can be urgent without making grief unimportant. I appreciate having time to remember that." },
+            rest = { "A pause. We need not justify every quiet moment by finding another question to fill it." },
+            newFriend = { "Learn their name before deciding only what they might know. A person is more than a promising source." },
+            quest = { "Read the account carefully. Know who is asking, what they have actually observed, and where their uncertainty begins." },
+            thanked = { "You are welcome. Tell me what becomes clearer when you have had time to consider it." },
+            group = { "Give credit to the people who did the work. An account is not complete if it leaves them out." },
+        },
+    },
+
+    -- Ott, Tarren Mill Hillsbrad weaponsmith, adult Orc male3673/M2 917116, Horde Friendly normal32. Ten current weapons, native edge boast, current/native/full95111/95125/95126 commission and95140 outcome context. Rehearsed thanks original; no friendship commission, free weapon or Lumina magic attributed to smith.
+    -- Research: docs/research/karniks-remembrance-and-otts-thanks.md
+    [3539] = {
+        quote = "Someone looked past the plain finish and noticed the work. That matters to a smith. I can find the right shape for a blade more readily than the right words to say so.",
+        likes = { "Sound workmanship recognized plainly", "An opportunity offered in good faith", "A useful blade without empty ornament" },
+        dislikes = { "A polished surface mistaken for quality", "Boasting instead of doing the work", "Careful effort dismissed without inspection" },
+        gossip = "Ott is readier to discuss an edge than to accept praise. Recognition of his work can leave him searching for words with unusual care.",
+        bio = "Ott is a weaponsmith in Tarren Mill. His confidence rests on useful blades rather than glitter. When Trevan offers a special commission, Ott responds with surprise, humility and gratitude for the chance to show what he can make.",
+        backstory = "Trevan found unexpected quality in a sword bought from Ott. Smiths in the Undercity noticed it too. The resulting commission gives Ott an unusual opportunity. He calls his ordinary weapons honest work and hopes to meet the trust placed in him.",
+        secret = "He has quietly tried different ways of thanking someone who believes in his work. A clear edge seems easier to judge than whether the gratitude in a few words has come through.",
+        bestFriend = "You have my attention, friend. Speak plainly. I value someone who looks at the work, and still has time to ask after the smith.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "Specific, sincere appreciation of the effort reaches him more readily than an empty grand title.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. Tell me what you have been doing. I can spare a moment for more than a question about a blade.", tone = "[gruff] [warm]" }, "Good to see you. Speak plainly. I would rather hear what you mean than guess what you think I want to hear." },
+            idle = { { "I can judge an edge more readily than a sentence meant to thank someone. You want the words to carry what was intended. It takes care.", tone = "[rough] [reflective]" }, "Plain work need not be weak work. Look at what it does before deciding what it is worth.", "An opportunity offered in good faith deserves your best effort. It does not require pretending you were owed it." },
+            befriended = { { "You are welcome beside me, friend. I value how you look at the work, and that you remember to speak to the person doing it. I am glad of your company.", tone = "[steady] [sincere]" } },
+            poke = { "Yes? Tell me what needs attention before deciding how it ought to be praised.", "One moment. I would rather give you a clear answer than a quick noise of agreement." },
+            thanked = { { "You are welcome, friend. I know the words can be brief and still mean a great deal. I am glad the care was useful to you.", tone = "[gruff] [earnest]" } },
+            learned = { "Understand why the work holds before deciding an ornament will improve it." },
+            gear = { "Look past the shine. A sound piece deserves to be judged by more than how it catches the light." },
+            newFriend = { "Give them a fair hearing. A plain introduction need not conceal a lack of skill." },
+            rest = { "A pause, then. We can enjoy it without finding something else that must be proved." },
+            group = { "Be clear about the work you have agreed to do together. Give the others reason to trust your part of it." },
+            combatEnd = { "See to your companions before discussing how the weapons performed. Everyone able to answer?" },
+        },
+    },
+
     -- Dalmond, Auberdine Darkshore general goods, adult Night Elf male4404/M2 974343, Alliance Friendly normal17. All15 current wares read, no own task/gossip. Crab riddle original; no Cataclysm death or survivor rescue phase.
     -- Research: docs/research/dalmonds-riddle-and-rachelles-giggle.md
     [4182] = {

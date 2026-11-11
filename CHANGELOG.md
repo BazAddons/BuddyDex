@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Historian Karnik and Ott: full Dwarf and Orc profiles, thirty personal lines queued.
+- Research ancient discoveries, Winter Veil traditions and the Forever blade commission; preserve uncertainty and normal character-specific progress.
+
 - Add Dalmond and Rachelle Gothena: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research Auberdine supplies and seasonal Hallow's End dialogue; preserve normal thresholds, character progress and event availability.
 

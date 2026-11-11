@@ -5341,6 +5341,20 @@
       "zone": "Orgrimmar",
       "route": "Seasonal Hallows End treats vendor",
       "reason": "Two native mask/festival/referral entries, full8312 and four branches; original giggle; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2916,
+      "name": "Historian Karnik",
+      "zone": "Ironforge",
+      "route": "Explorers League library historian",
+      "reason": "Eleven linked tasks, six-page17735 and full98313 Goaz handoff; original concern for remembrance; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3539,
+      "name": "Ott",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill weaponsmith",
+      "reason": "Ten current weapons, native boast, full95111/95125/95126; original rehearsed thanks; fifteen personal lines queued without synthesis"
     }
   ]
 }

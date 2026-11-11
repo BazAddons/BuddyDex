@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 446,
+    "alliance": 447,
     "unverified": 184,
-    "horde": 441
+    "horde": 442
   },
   "npc_race_counts": {
     "1": 177,
-    "3": 111,
+    "3": 112,
     "7": 63,
-    "2": 115,
+    "2": 116,
     "5": 116,
     "4": 102,
     "9": 67,
@@ -30,13 +30,13 @@
     "Duskwood": 6,
     "Dun Morogh": 28,
     "Wetlands": 16,
-    "Ironforge": 70,
+    "Ironforge": 71,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 64,
     "Undercity": 27,
     "Silverpine Forest": 10,
     "Teldrassil": 33,
-    "Hillsbrad Foothills": 16,
+    "Hillsbrad Foothills": 17,
     "Arathi Highlands": 11,
     "Orgrimmar": 66,
     "Badlands": 1,
@@ -3371,6 +3371,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2913"
     },
     {
+      "npc_id": 2916,
+      "name": "Historian Karnik",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2916"
+    },
+    {
       "npc_id": 2948,
       "name": "Mull Thunderhorn",
       "zone": "Mulgore",
@@ -5239,6 +5252,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Horde Neutral; live eligibility still required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3537"
+    },
+    {
+      "npc_id": 3539,
+      "name": "Ott",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3539"
     },
     {
       "npc_id": 3547,
@@ -13051,6 +13077,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1015,
-  "awaiting_signature_audio_profiles": 561
+  "authored_profiles": 1017,
+  "awaiting_signature_audio_profiles": 563
 }

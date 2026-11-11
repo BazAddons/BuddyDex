@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Historian Karnik and Ott: full Dwarf and Orc profiles, thirty personal lines queued.
+- Research ancient discoveries, Winter Veil traditions and the Forever blade commission; preserve uncertainty and normal character-specific progress.
+
 - Add Dalmond and Rachelle Gothena: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research Auberdine supplies and seasonal Hallow's End dialogue; preserve normal thresholds, character progress and event availability.
 
@@ -826,4 +829,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1015 fully written NPC profiles**: 454 have initial signature recordings, and five hundred sixty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1017 fully written NPC profiles**: 454 have initial signature recordings, and five hundred sixty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

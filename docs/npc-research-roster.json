@@ -5670,5 +5670,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde identity; Two native mask/festival/referral entries, full8312 and four branches; original giggle; no Scout sighting claimed",
     "research_notes": "docs/research/dalmonds-riddle-and-rachelles-giggle.md"
+  },
+  {
+    "npc_id": 2916,
+    "name": "Historian Karnik",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; Eleven linked tasks, six-page17735 and full98313 Goaz handoff; original concern for remembrance; no Scout sighting claimed",
+    "research_notes": "docs/research/karniks-remembrance-and-otts-thanks.md"
+  },
+  {
+    "npc_id": 3539,
+    "name": "Ott",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult horde identity; Ten current weapons, native boast, full95111/95125/95126; original rehearsed thanks; no Scout sighting claimed",
+    "research_notes": "docs/research/karniks-remembrance-and-otts-thanks.md"
   }
 ]
