@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Elaadrin Evengale, High Order Supreme Magister, Valanaar. Adult Skyborne male138152/M2 7478487, race96 label does not change political role; Alliance Friendly/Horde Hostile. Full current quest branches and hostile gossip; paper bird/hat original.253847/253812 same-person appearances not separately authored.
+    -- Research: docs/research/elaadrins-paper-bird-and-raans-spoon.md
+    [252475] = {
+        quote = "It is a paper bird. Its inability to fly is not a flaw in the folding. I have simply chosen not to enchant it.",
+        likes = { "Arcane inquiry bold enough to be useful", "Reliable data before a dangerous crossing", "A friend questioning the disputed paper wings" },
+        dislikes = { "Windshaper certainty replacing investigation", "The cult mistaking diplomacy for weakness", "A title used to avoid answering a question" },
+        gossip = "Elaadrin can defend the wings of a folded paper bird with considerable authority. Calling it a hat may prolong the discussion.",
+        bio = "Elaadrin Evengale leads the High Order as Supreme Magister in Valanaar. He seeks lost arcane knowledge and Kirin Tor aid to save Zephras. Belathaan's fate turns his attempted diplomacy with the cult toward vengeance, while conflict with the Windshapers deepens.",
+        backstory = "Between calculations he folded a scrap into a bird. A visitor mistook it for a hat. Elaadrin explained the wings at length, then carefully set the disputed creature aside instead of throwing it away.",
+        secret = "He enjoys a friend willing to question the paper wings without treating the title as an obstacle. A ridiculous little disagreement can be pleasant when neither side must pretend it is a crisis.",
+        bestFriend = "You may call it a hat, friend, since you insist. But do point out which fold you would improve. I am prepared to hear the argument.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He can appreciate a trusted companion sharing the small joke without abandoning the interesting argument.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Walk beside me. If you have returned to call the paper bird a hat, I expect an explanation of which fold has misled you. A conclusion should survive a little inquiry.", tone = "[dignified] [dry humor]" }, "You are welcome, friend. What have you learned that improves the work? I would rather hear useful information than another careful arrangement of agreement." },
+            idle = { { "I folded a paper bird between calculations. The visitor called it a hat. I explained the wings. The object remains disputed, but I have found the discussion more entertaining than discarding the evidence.", tone = "[precise] [wry]" }, "The High Order cannot preserve our home by refusing to investigate what lies beyond familiar limits. Knowledge we have lost must be sought, not replaced with an assurance that we already know enough.", "The cult mistook an attempt at dialogue for weakness. Belathaan deserved better than the answer they sent. There are consequences that prudence does not require us to leave unpaid." },
+            befriended = { { "You have become someone whose company I value even when the discussion has escaped every important subject. Walk beside me, friend. The paper wings may have to endure your examination again.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Has the disputed object acquired another possible classification?", "Speak plainly. A useful question does not become insolent merely because it interrupts my explanation." },
+            learned = { { "Then establish what the result permits, and where its limits remain. A discovery becomes useful when we can distinguish the knowledge from our enthusiasm for it.", tone = "[firm] [instructive]" } },
+            gear = { "Consider the work it must support. A magnificent account of its purpose cannot replace a missing practical requirement." },
+            quest = { "Finished. Give me the result clearly, including what remains uncertain. We must calculate the next step from information rather than from how much we wish it to succeed." },
+            zone = { "Look closely. A new place may hold knowledge we need, though its usefulness will not always announce itself to the first hurried observer." },
+            group = { "Make the purpose clear before asking everyone to follow. Agreement against one danger does not settle every difference among those facing it." },
+            thanked = { "You are welcome. I am pleased the work has proved useful." },
+            loot = { "Examine what you have actually found before assigning it the importance you hoped it would possess." },
+        },
+    },
+
+    -- Raan Wildwind, adventurer/camping guide near Shendar. Adult High Order male143798/M2 7478487, both Friendly. Full96638/96101 and current Camping101 referrals plus unlisted97963/97964 context; fortune/glory/spoon packing scene original. No new camping privilege.
+    -- Research: docs/research/elaadrins-paper-bird-and-raans-spoon.md
+    [263664] = {
+        quote = "Fortune and glory. And a spoon. The first two make a fine story; the third improves supper.",
+        likes = { "A restless adventurer learning to prepare", "A useful spoon beside a glorious ambition", "A camp ready before the company is exhausted" },
+        dislikes = { "A grand expedition forgetting supper", "Rest treated as an embarrassment to courage", "A useful tradeskill dismissed as ordinary" },
+        gossip = "Raan can discuss fortune and glory with enthusiasm. Ask about the packing list and a spoon will receive serious consideration.",
+        bio = "Raan Wildwind camps near Shen'dar Village on Zephras Isle. He introduces adventurers to outdoor rest, then directs them toward cooking and profession trainers for camp furnishings. Fortune and glory require people who can keep themselves ready for the road.",
+        backstory = "His account of an expedition included distant wonders, fortune, and glory. Someone asked how he intended to eat supper. Raan added a spoon to the list and conceded that the smaller ambition deserved to travel too.",
+        secret = "He likes a friend who can ask about supper in the middle of the grand account. The adventure becomes more convincing when somebody remembers the adventurer must live through it.",
+        bestFriend = "Come along, friend. Bring the bold ambition and the useful spoon. I should like the whole company to enjoy the journey.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He welcomes enthusiasm for the road when it leaves room for the preparations that make adventure possible.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. We have fortune and glory to consider, and I am giving the spoon its proper place in the preparations before somebody asks about supper again.", tone = "[animated] [wry]" }, "Good to see you. Have you a grand destination in mind, and have you considered how you intend to eat and rest along the way?" },
+            idle = { { "The account had distant wonders, fortune, and glory. Someone asked how I meant to eat supper. I added a spoon. A useful correction can be welcome without making the journey any less grand.", tone = "[cheerful] [amused]" }, "A tradeskill brings more to a camp than something to boast about learning. Someone must know how the useful parts are made before everyone arrives expecting them.", "Restless does not have to mean unprepared. You can be eager for the next horizon and still remember that your companions will need a proper pause before reaching it." },
+            befriended = { { "You have become company I am glad to have beside me for both the grand account and the practical questions. Come along, friend. I should like to share the road with someone who remembers supper.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the spoon been omitted from another magnificent plan?", "Go on. A practical question deserves a place before the expedition is already hungry." },
+            rest = { { "Settle in and let the pause do its work. An adventurer ready for the next part has usually remembered more than how eagerly they wish to reach it.", tone = "[steady] [encouraging]" } },
+            learned = { "Good. You have another way to make the journey possible. The useful lesson belongs beside the ambition, not in the account of things you will learn after setting out." },
+            gear = { "Consider what you will actually need along the road. The impressive part should leave room for the part that gets supper into your mouth." },
+            bagsFull = { "Make a little order before adding another necessity. We should not require a whole second expedition to find the things we packed for the first." },
+            zone = { "A new place. Enjoy the sight, and look for what will help the company rest and prepare before pushing onward." },
+            group = { "Ask what each person brings and what they still need. A camp grows useful when the company can contribute more than agreement with your grand plan." },
+            hearth = { "A familiar welcome at the end of the journey. There is pleasure in returning with enough strength to enjoy the account of where you have been." },
+        },
+    },
+
     -- Dalia the Collector, Thendal Grove, Zephras. Adult High Order female137697/M2 7478494, both Friendly; level1 is not age evidence. Full93552 and three reward-manual nodes; plain-stone paperweight original. Exact spirit-departure timeline omitted.
     -- Research: docs/research/dalias-paperweight-and-ormers-workday.md
     [251363] = {

@@ -4466,5 +4466,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult alliance man; Full294/295/296; duty rather than invented injury; original ordinary-work longing; no Scout sighting claimed",
     "research_notes": "docs/research/dalias-paperweight-and-ormers-workday.md"
+  },
+  {
+    "npc_id": 252475,
+    "name": "Elaadrin Evengale",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance man; Fourteen quest records and own faction-sensitive gossip; same-person253847/253812 not separately authored; original paper bird; no Scout sighting claimed",
+    "research_notes": "docs/research/elaadrins-paper-bird-and-raans-spoon.md"
+  },
+  {
+    "npc_id": 263664,
+    "name": "Raan Wildwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde man; Full intro and profession referrals; both Friendly; original fortune/glory/spoon packing list; no Scout sighting claimed",
+    "research_notes": "docs/research/elaadrins-paper-bird-and-raans-spoon.md"
   }
 ]

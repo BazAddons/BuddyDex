@@ -4137,6 +4137,20 @@
       "zone": "Wetlands",
       "route": "Wetlands excavation survivor",
       "reason": "Full294/295/296; duty rather than invented injury; original ordinary-work longing; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252475,
+      "name": "Elaadrin Evengale",
+      "zone": "Zephras Isle",
+      "route": "Valanaar High Order leader",
+      "reason": "Fourteen quest records and own faction-sensitive gossip; same-person253847/253812 not separately authored; original paper bird; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 263664,
+      "name": "Raan Wildwind",
+      "zone": "Zephras Isle",
+      "route": "Shendar camping guide",
+      "reason": "Full intro and profession referrals; both Friendly; original fortune/glory/spoon packing list; fifteen personal lines queued without synthesis"
     }
   ]
 }

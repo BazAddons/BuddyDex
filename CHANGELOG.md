@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Elaadrin Evengale and Raan Wildwind: two adult Skyborne profiles with thirty personal lines queued.
+- Review the High Order campaign and camping referrals, identity variants and faction limits; document original paper-bird and packing-spoon scenes.
+
 - Add Dalia the Collector and Ormer Ironbraid: adult High Order and Dwarf profiles with thirty personal lines queued.
 - Review full windstone and raptor-revenge text, manual limits, and Dalia’s timeline difference; document original paperweight and ordinary-work themes.
 

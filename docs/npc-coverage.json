@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 361,
+    "alliance": 363,
     "unverified": 179,
-    "horde": 346
+    "horde": 347
   },
   "npc_race_counts": {
     "1": 168,
@@ -17,8 +17,8 @@
     "8": 61,
     "9": 61,
     "6": 93,
-    "96": 27,
-    "95": 39
+    "96": 28,
+    "95": 40
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -59,7 +59,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 64,
+    "Zephras Isle": 66,
     "Riverglades": 13
   },
   "entries": [
@@ -9581,6 +9581,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252449"
     },
     {
+      "npc_id": 252475,
+      "name": "Elaadrin Evengale",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        96
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly and Horde Hostile icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252475"
+    },
+    {
       "npc_id": 252478,
       "name": "Xy'aaria Streamrunner",
       "zone": "Zephras Isle",
@@ -10393,6 +10406,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263570"
     },
     {
+      "npc_id": 263664,
+      "name": "Raan Wildwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/263664"
+    },
+    {
       "npc_id": 264072,
       "name": "Yorn Grimtotem",
       "zone": "Mulgore",
@@ -10809,6 +10836,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 843,
-  "awaiting_signature_audio_profiles": 389
+  "authored_profiles": 845,
+  "awaiting_signature_audio_profiles": 391
 }
