@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mountaineer Flint, adult Dwarf male1783/M2 878772, Alliance Friendly Loch Modan28.14,26.01. Current/Classic own quest tabs and captured gossip empty. Pebble-in-boot reunion and all personal history original; no invented patrol route or generic guard eligibility exception.
+    -- Research: docs/research/flints-pebble-and-grimtaks-opinions.md
+    [1279] = {
+        quote = "Did ye ever get that pebble out of yer boot? Aye, I remember. Hard to forget a friend arriving on one foot and conducting an argument with the other.",
+        likes = { "A familiar traveler returning safely", "An ordinary trouble put to rest", "A good laugh after the boot comes off" },
+        dislikes = { "A small misery made needlessly grand", "Being hurried through a greeting", "A sharp pebble left to win the argument" },
+        gossip = "Flint remembers a friend's arrival by the hop they used to argue with a boot. He still asks after the pebble, though the friend returned on both feet.",
+        bio = "Mountaineer Flint is a dwarf stationed in Loch Modan. He has come to know the small stories of familiar travelers. A returning friend gives him something to ask about besides the road, even when the tale concerns a troublesome boot.",
+        backstory = "A friend arrived hopping and blaming a boot. Flint offered a place to sit while they shook out a pebble. On their next visit, both feet stayed on the ground. He asked whether the negotiations had ended well.",
+        secret = "Remembering a small trouble is one way of saying he noticed someone. The pebble is long gone; he still enjoys hearing that his friend has come through all right.",
+        bestFriend = "Both boots behaving, friend? Come along. Tell me what ye look forward to, so I can ask after something better than a pebble next time.",
+        favorite = {
+            emote = "GRIN",
+            hint = "Sharing the joke in an ordinary mishap makes a familiar visit better.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are. Both feet on the ground, I see. A good sign. Have ye made peace with that boot, or are ye saving the next round of negotiations until after we've had a proper greeting? Either way, I'm glad ye're back.", tone = "[warm] [teasing]" }, "Well met, friend. What were ye looking forward to when we last spoke? Tell me how it went." },
+            idle = { { "They came hopping toward me, conducting a fierce argument with a boot. I offered a place to sit. One small pebble fell out, and the disagreement ended. Next visit, I asked how the negotiations had gone. Both feet stayed down.", tone = "[amused] [storytelling]" }, "A small trouble still belongs to someone. Remembering it costs little, and gives ye a better question than asking whether they're still traveling.", "I wonder what that pebble would have said in its own defense. Probably that it had enjoyed a perfectly comfortable journey." },
+            befriended = { { "Ye're more than a face passing along the road now. I look forward to hearing what became of the little things ye told me. Come along, friend. We can have a good walk without giving the boots another argument.", tone = "[warm] [sincere]" } },
+            poke = { "Aye, friend? If ye've begun hopping again, I can guess the subject.", "One moment. I'd rather hear the end of yer story than greet ye twice and miss it." },
+            newFriend = { { "Ask what they're looking forward to. Then listen when ye meet again. Ye'd be surprised how much a small question can mean when someone remembers why they asked it.", tone = "[gentle] [thoughtful]" } },
+            rest = { "A fine place to sit a moment. The boots may behave better if they hear us discussing a truce." },
+            zone = { "Here we are, friend. What are ye hoping to find? I may want the rest of that story when we next meet." },
+            gear = { "Before ye blame the whole pair, check for the small thing making itself important inside one boot." },
+            thanked = { "Glad to help. A place to sit is little enough to offer a friend conducting such difficult negotiations." },
+            combatEnd = { "Catch yer breath. I'd like the next tale ye tell me to begin with how ye got through this one." },
+            group = { "Let them finish telling ye what they need. A loud answer is not always an answer to the question they were asking." },
+        },
+    },
+
+    -- Grimtak, adult Orc male3755/M2 917116, Horde Friendly Razor Hill butcher, thirteen current goods. Current6365/6384/6385/6386 concern Zargh/Crossroads, not the later Grimtak/Razor Hill variant. Three favorite cuts original; no later missing-finger story, romance, wedding or free food granted.
+    -- Research: docs/research/flints-pebble-and-grimtaks-opinions.md
+    [3881] = {
+        quote = "You asked which cut I would choose. I named three, changed my mind, and sent you away with directions for all of them. Next time, ask me something simpler. The weather, perhaps.",
+        likes = { "A customer who says what they need", "A properly wrapped journey meal", "Comparing three perfectly good choices" },
+        dislikes = { "Good provisions spoiled by poor packing", "Being expected to choose only one favorite", "A hungry traveler pretending otherwise" },
+        gossip = "Asked for his favorite meat, Grimtak defended three cuts. His friend suggested another tasting. At last, someone had offered a useful answer.",
+        bio = "Grimtak is a butcher and provision vendor in Razor Hill, Durotar. His goods include meats, drinks and a Scorpid Surprise recipe. A practical order suits him, though asking for a single favorite can delay the answer.",
+        backstory = "A friend asked which cut he liked best. Grimtak named one, defended another, then remembered a third. They suggested continuing the discussion over another tasting. He approved of a question that could improve with repetition.",
+        secret = "He likes a friend who will stay for the discussion instead of demanding a quick verdict. Choosing one favorite would put an unnecessary end to a pleasant argument.",
+        bestFriend = "Come along, friend. You understand that I can give a sound opinion without promising it will still be my favorite after the next mouthful.",
+        favorite = {
+            emote = "NOD",
+            hint = "A thoughtful agreement keeps a friendly discussion of good provisions going.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Back again? Good. I have reconsidered my answer. The first cut has its merits, but so does the second, and I was too hasty about the third. You need not agree yet. We have barely begun discussing the matter properly.", tone = "[animated] [friendly]" }, "Welcome, friend. Tell me what you need for the journey before you ask which of it I like best." },
+            idle = { { "My friend asked me to name a favorite. I chose one, defended another, then remembered a third. They proposed another tasting. At last, a useful contribution. A discussion like that should not be ended merely because someone expects a quick answer.", tone = "[amused] [storytelling]" }, "Say whether you need something for the road or a meal close by. A useful answer begins with knowing what you intend to do with it.", "You may prefer something different from me. That gives us another part of the discussion, provided you have actually tasted what you are defending." },
+            befriended = { { "You can hear three opinions from me and understand that I am still considering the question. Come along, friend. I enjoy company that knows a pleasant argument need not be settled before we have finished the walk.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If this concerns my favorite, you must allow for new evidence.", "A moment, friend. I am trying to give a straightforward answer to a more straightforward question." },
+            bagsFull = { { "Leave room for the provisions before crushing everything together. You may have an appetite for the whole journey, but that does not mean the whole journey belongs on top of your supper.", tone = "[firm] [practical]" } },
+            quest = { "Know what you are meant to deliver. A package is easier to keep in good condition when you have not mistaken it for your own lunch." },
+            rest = { "A pause will do us good. We can return to the argument afterward, or agree that there is room for more than one good answer." },
+            newFriend = { "Ask what they enjoy. Listen to their answer before explaining why your own choice deserves consideration." },
+            thanked = { "You are welcome. I am pleased the advice was useful, even if you wisely avoided asking me for a single favorite." },
+            group = { "Find out what the others need before deciding for them. Not everyone begins the journey with the same appetite." },
+            zone = { "We have arrived. If there is something good to try here, I may have to revise my opinion again." },
+        },
+    },
+
     -- Daryl Riknussun, adult Dwarf male3094/M2 878772, Alliance Friendly cooking trainer. Ironforge from primary Classic record; current Dun Morogh pin is a world-map projection. Full6612/6610 and parallel6611; own cooking gossip. Empty-bowl review original, no free cooking or actual food granted.
     -- Research: docs/research/daryls-review-and-groldars-method.md
     [5159] = {

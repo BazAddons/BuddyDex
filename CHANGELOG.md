@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mountaineer Flint and Grimtak: full Loch Modan and Razor Hill profiles with thirty personal dialogue lines queued.
+- Give the named mountaineer an original remembered reunion and the butcher a lively food debate; keep the later-version delivery story out of Forever's current Zargh chain.
+
 - Add Daryl Riknussun and Grol'dar: full Dwarf and Orc profiles with thirty personal dialogue lines queued.
 - Research their cooking and warlock referrals, retaining each speaker's role; distinguish original empty-bowl review and stubborn jam jar from native training rewards.
 

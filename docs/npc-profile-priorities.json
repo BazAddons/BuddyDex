@@ -4445,6 +4445,20 @@
       "zone": "Orgrimmar",
       "route": "Orgrimmar warlock training",
       "reason": "Full Impsy referral and doll chain plus stern retraining greeting; original stubborn jam lid; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1279,
+      "name": "Mountaineer Flint",
+      "zone": "Loch Modan",
+      "route": "Loch Modan northern approach; not a verified patrol route",
+      "reason": "Sparse named adult mountaineer, current and Classic records; original pebble-in-boot reunion; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3881,
+      "name": "Grimtak",
+      "zone": "Durotar",
+      "route": "Razor Hill provisions",
+      "reason": "Thirteen current goods; distinguish current Zargh flight chain from later Grimtak version; original favorite-cut debate; fifteen personal lines queued without synthesis"
     }
   ]
 }

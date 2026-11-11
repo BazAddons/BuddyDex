@@ -4774,5 +4774,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde man; Full Impsy referral and doll chain plus stern retraining greeting; original stubborn jam lid; no Scout sighting claimed",
     "research_notes": "docs/research/daryls-review-and-groldars-method.md"
+  },
+  {
+    "npc_id": 1279,
+    "name": "Mountaineer Flint",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance man; Sparse named adult mountaineer, current and Classic records; original pebble-in-boot reunion; no Scout sighting claimed",
+    "research_notes": "docs/research/flints-pebble-and-grimtaks-opinions.md"
+  },
+  {
+    "npc_id": 3881,
+    "name": "Grimtak",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde man; Thirteen current goods; distinguish current Zargh flight chain from later Grimtak version; original favorite-cut debate; no Scout sighting claimed",
+    "research_notes": "docs/research/flints-pebble-and-grimtaks-opinions.md"
   }
 ]

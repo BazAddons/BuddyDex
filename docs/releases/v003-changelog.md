@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Mountaineer Flint and Grimtak: full Loch Modan and Razor Hill profiles with thirty personal dialogue lines queued.
+- Give the named mountaineer an original remembered reunion and the butcher a lively food debate; keep the later-version delivery story out of Forever's current Zargh chain.
+
 - Add Daryl Riknussun and Grol'dar: full Dwarf and Orc profiles with thirty personal dialogue lines queued.
 - Research their cooking and warlock referrals, retaining each speaker's role; distinguish original empty-bowl review and stubborn jam jar from native training rewards.
 
@@ -631,4 +634,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **887 fully written NPC profiles**: 454 have initial signature recordings, and four hundred thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **889 fully written NPC profiles**: 454 have initial signature recordings, and four hundred thirty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
