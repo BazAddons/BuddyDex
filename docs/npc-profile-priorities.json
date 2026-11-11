@@ -4235,6 +4235,20 @@
       "zone": "Zephras Isle",
       "route": "Valanaar warrior trainer and family bulwark",
       "reason": "Full94003, murdered line and stolen shield; original quiet welcome; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252389,
+      "name": "Quel'ana Quickgale",
+      "zone": "Zephras Isle",
+      "route": "Valanaar hunter trainer",
+      "reason": "Full hunter chain, fading-island warning and cat Raylann; original folded cloak; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251389,
+      "name": "Akeri Duskblade",
+      "zone": "Zephras Isle",
+      "route": "Thendal watchtower rogue trainer",
+      "reason": "Full92483 and introduction, paid promotional gossip; original quiet entrance announcement; fifteen personal lines queued without synthesis"
     }
   ]
 }

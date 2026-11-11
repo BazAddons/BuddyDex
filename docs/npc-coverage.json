@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 370,
+    "alliance": 371,
     "unverified": 180,
-    "horde": 354
+    "horde": 355
   },
   "npc_race_counts": {
     "1": 168,
@@ -18,7 +18,7 @@
     "9": 62,
     "6": 94,
     "96": 28,
-    "95": 43
+    "95": 45
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -60,7 +60,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 69,
+    "Zephras Isle": 71,
     "Riverglades": 13
   },
   "entries": [
@@ -9439,6 +9439,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251379"
     },
     {
+      "npc_id": 251389,
+      "name": "Akeri Duskblade",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251389"
+    },
+    {
       "npc_id": 251487,
       "name": "Ventaari Brightwish",
       "zone": "Zephras Isle",
@@ -9668,6 +9681,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252388"
+    },
+    {
+      "npc_id": 252389,
+      "name": "Quel'ana Quickgale",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252389"
     },
     {
       "npc_id": 252390,
@@ -10994,6 +11020,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 857,
-  "awaiting_signature_audio_profiles": 403
+  "authored_profiles": 859,
+  "awaiting_signature_audio_profiles": 405
 }

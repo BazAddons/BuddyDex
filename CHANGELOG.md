@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Quelana Quickgale and Akeri Duskblade: adult Skyborne profiles with thirty personal lines queued.
+- Verify their hunter/rogue introductions, actual faction icons and local relationships; document original folded-cloak and quiet-entrance scenes.
+
 - Add Queldora Quickgale and Seena Skybreaker: adult shared-access Skyborne profiles with thirty personal lines queued.
 - Verify the full hunter-training referral and family-bulwark text; preserve native class restrictions and document original practice-mat and quiet-welcome scenes.
 

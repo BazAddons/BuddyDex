@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Quelana Quickgale and Akeri Duskblade: adult Skyborne profiles with thirty personal lines queued.
+- Verify their hunter/rogue introductions, actual faction icons and local relationships; document original folded-cloak and quiet-entrance scenes.
+
 - Add Queldora Quickgale and Seena Skybreaker: adult shared-access Skyborne profiles with thirty personal lines queued.
 - Verify the full hunter-training referral and family-bulwark text; preserve native class restrictions and document original practice-mat and quiet-welcome scenes.
 
@@ -586,4 +589,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **857 fully written NPC profiles**: 454 have initial signature recordings, and four hundred three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **859 fully written NPC profiles**: 454 have initial signature recordings, and four hundred five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Quelana Quickgale, Hunter Trainer, Valanaar/Zephras. Adult High Order male140075/M2 7478487, current Horde Friendly only. Full hunter chain, own fading-island warning, sister Queldora and cat Raylann256518 explicit. Folded-cloak scene original.
+    -- Research: docs/research/quelanas-cloak-and-akeris-entrance.md
+    [252389] = {
+        quote = "I folded the cloak for later. Raylann has interpreted later as immediately. We may begin the lesson while the question of ownership remains under discussion.",
+        likes = { "Hunters ready to protect their people", "Trust earned before a boast is made", "A cloak folded where Raylann can rest" },
+        dislikes = { "A dangerous change in the wind ignored", "An animal treated as proof of importance", "A companion's needs noticed too late" },
+        gossip = "Quel'ana can prepare a hunter for the wilds, but his folded cloak has a habit of becoming Raylann's resting place before he puts it on.",
+        bio = "Quel'ana Quickgale trains hunters in Valanaar as Zephras's winds worsen and its sustaining magic fades. His taming trials end with a referral to his sister Quel'dora for pet training. Raylann, a cat, is his own companion.",
+        backstory = "He folded his cloak during a pause in instruction. Raylann settled on it before he could put it away. Quel'ana finished the explanation without moving the cat, then informed the learner that a useful pause need not be wasted.",
+        secret = "He has begun folding the cloak before Raylann approaches. A friend who notices may share the quiet joke. He does not need the arrangement explained to his companion.",
+        bestFriend = "Sit beside me, friend. Raylann has the cloak, and I am pleased to have your company. We can afford this little pause together.",
+        favorite = {
+            emote = "SMILE",
+            hint = "He welcomes someone who notices a companion's small comfort and shares the pleasure quietly.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. If Raylann has the cloak again, we may allow the arrangement to stand. I have already prepared my explanation about making good use of a pause.", tone = "[warm] [wry]" }, "Good to see you. Keep an eye on the weather and the wilds around us. Familiar ground deserves attention when the winds themselves are changing." },
+            idle = { { "I folded the cloak, and Raylann settled on it. I finished the instruction without moving the cat. The learner seemed to find this informative, though perhaps not in quite the way I had intended.", tone = "[gentle] [amused]" }, "Hunters and rangers are needed while our island's magic falters. Skill should leave you better able to protect people, not merely better equipped to describe your own importance.", "Earning a beast's trust is a beginning. Remember that the companion beside you is still there when the first proud account of the achievement has ended." },
+            befriended = { { "You have become someone whose company I am glad to welcome after the lesson is finished. Come along, friend. We can keep our attention on the world without refusing every quiet pleasure it still offers.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the cloak been released for its original purpose?", "A moment. I would like the useful observation before the impressive account." },
+            learned = { { "Good. Carry the understanding into practice, and know when another instructor can take you farther. I send new tamers to my sister because the bond deserves more than stopping at the first successful lesson.", tone = "[steady] [instructive]" } },
+            rest = { "A pause would be welcome. Fold something comfortable nearby, and we may discover who else agrees." },
+            group = { "Know who needs your attention. Keeping the company safe is a better measure of skill than deciding who ought to receive the credit." },
+            zone = { "Look at the wind and the creatures around us. A place you know can still tell you something has changed." },
+            gear = { "Keep what you need in useful order. A fine cloak can serve more than one purpose, though I prefer it available when the weather turns." },
+            thanked = { "You are welcome. I am glad the lesson will travel with someone willing to use it carefully." },
+            newFriend = { "Someone new to the company. Give trust time to grow before demanding that it behave as though it has always been there." },
+        },
+    },
+
+    -- Akeri Duskblade, Rogue Trainer, Thendal watchtower/Zephras. Adult High Order male136981/M2 7478487, current Alliance Friendly only. Full92483, initial92460/92461 context, own paid promotional gossip. Silent entrance spoiled by announcement original.
+    -- Research: docs/research/quelanas-cloak-and-akeris-entrance.md
+    [251389] = {
+        quote = "I made a flawless silent entrance. Then I announced it. Yes, I have noticed the difficulty with claiming both accomplishments at once.",
+        likes = { "An entrance that needs no advertisement", "Practice continued after the sales pitch", "A discreet greeting from a friend" },
+        dislikes = { "Almost quiet mistaken for quiet", "Noise made to celebrate concealment", "Confidence standing in for vigilance" },
+        gossip = "Akeri knows how to arrive unnoticed. Whether he can resist explaining how unnoticed he was is a separate question, best asked quietly.",
+        bio = "Akeri Duskblade teaches rogues inside the watchtower at Thendal Grove. Rorian sends a new learner with a Simple Note. Akeri's cheerful pitch has a price; his real instruction demands silence, steadiness, and vigilance against the dangers beyond the village.",
+        backstory = "He entered quietly and nobody looked up. Pleased, he began explaining his arrival. A listener raised an eyebrow. Akeri paused, then admitted that the announcement might be omitted from the successful technique.",
+        secret = "He likes a friend noticing him without making him announce himself. A small glance can satisfy the part of him that wants an audience, while leaving the quiet achievement intact.",
+        bestFriend = "Ah, you noticed. No announcement required. Come along, friend. I shall try to let that remain an accomplishment for a moment.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates a discreet acknowledgment that shows someone noticed without alerting the whole room.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. I was about to make a discreet entrance, but your noticing me has saved us the explanation afterward. A considerable improvement in the technique, I think.", tone = "[smooth] [wry]" }, "Good to see you. Keep your attention where it belongs. Being pleased with your own approach is a poor reason to stop noticing who else has arrived." },
+            idle = { { "Nobody looked up. A fine silent entrance. Naturally, I began explaining it. There was an eyebrow, a pause, and a small adjustment to the demonstration. We shall leave the announcement out next time.", tone = "[amused] [conspiratorial]" }, "Almost quiet is an encouraging description inside a village. Outside it, the small difference may be the part that matters most.", "A promising introduction is easy to arrange. Practice must continue after everyone has stopped admiring the promise." },
+            befriended = { { "You have become someone who can acknowledge my presence without requiring a performance to prove it. Come along, friend. I value that rather more than I am likely to put into the sales pitch.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Quietly noticed, I hope.", "If you require an announcement, I have several prepared. None improves the silence." },
+            learned = { { "Good. Now practice until you can manage it while paying attention to the rest of the room. A skill that consumes every scrap of your awareness can leave an unfortunate opening elsewhere.", tone = "[firm] [instructive]" } },
+            gear = { "Check what moves and what makes a sound. An impressive appearance is not obliged to cooperate with an unobtrusive entrance." },
+            zone = { "Look before you settle into the confidence of familiar ground. The surroundings do not promise to remain arranged as you remember them." },
+            group = { "Know where the others are. You can preserve a little discretion without becoming a mystery to the people relying on you." },
+            rest = { "A pause. I shall attempt to take it without explaining how elegantly I came to a halt." },
+            thanked = { "You are welcome. I am pleased the useful part outlasted the introduction." },
+            waveBack = { "Ah, there you are. A smaller greeting would have found me just as reliably, but I appreciate the intention." },
+        },
+    },
+
     -- Queldora Quickgale, Pet Trainer, Valanaar/Zephras. Adult High Order female139682/M2 7478494, both Friendly. Full94050 identifies Quelana as brother; five-step taming context and own hunter-only service gossip. Sunny practice mat original.
     -- Research: docs/research/queldoras-mat-and-seenas-welcome.md
     [254411] = {

@@ -4564,5 +4564,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde woman; Full94003, murdered line and stolen shield; original quiet welcome; no Scout sighting claimed",
     "research_notes": "docs/research/queldoras-mat-and-seenas-welcome.md"
+  },
+  {
+    "npc_id": 252389,
+    "name": "Quel'ana Quickgale",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult horde man; Full hunter chain, fading-island warning and cat Raylann; original folded cloak; no Scout sighting claimed",
+    "research_notes": "docs/research/quelanas-cloak-and-akeris-entrance.md"
+  },
+  {
+    "npc_id": 251389,
+    "name": "Akeri Duskblade",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance man; Full92483 and introduction, paid promotional gossip; original quiet entrance announcement; no Scout sighting claimed",
+    "research_notes": "docs/research/quelanas-cloak-and-akeris-entrance.md"
   }
 ]
