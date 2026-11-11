@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Denatharion, Darnassus druid trainer, adult Night Elf male2250/M2 974343, Alliance Friendly. Two native greetings praise Staghelm and dismiss Circle rumors; full bear and Torwa referral chains reviewed with current starter discrepancy. Snail procession original; no later retail fate or guaranteed current referral.
+    -- Research: docs/research/denatharions-procession-and-naelunas-wink.md
+    [4218] = {
+        quote = "A procession need not be hurried to be splendid. Observe our little traveler. It carries its whole house, and has not once asked us to admire the burden.",
+        likes = { "The promise of renewed Teldrassil", "Small creatures given room to pass", "A greeting offered with conviction" },
+        dislikes = { "Rumor passed off as knowledge", "An impatient boot in a small path", "Praise spoken without meaning it" },
+        gossip = "Denatharion once stopped for a snail. His friend called it a procession. He agreed that its progress deserved a little ceremony.",
+        bio = "Denatharion trains druids in Darnassus's Cenarion Enclave. He welcomes learners warmly and praises Arch Druid Staghelm's leadership. He dismisses rumors of division within the Cenarion Circle, confident in Teldrassil's renewal.",
+        backstory = "A snail crossed his path during a walk with a friend. Denatharion paused. His friend called the delay a grand procession. Rather than hurry the creature, he gave its steady progress the solemn attention the description deserved.",
+        secret = "He knows the procession was a joke. He liked sharing the pause with someone who could make a small creature seem the proper center of an afternoon.",
+        bestFriend = "Walk with me, friend. Should we meet another procession, I trust you will announce it with the dignity the occasion deserves.",
+        favorite = {
+            emote = "BOW",
+            hint = "A solemn bow joins the little ceremony he and a friend made of an unhurried crossing.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Welcome, friend. Shall we walk? I have no procession planned, though our smallest neighbors seldom consult me about their arrangements.", tone = "[formal] [warm]" }, "There you are. May Cenarius bless our meeting. I am glad to have your company again." },
+            idle = { { "My friend called it a procession. It was a snail crossing the path. Of course I knew they were joking. That did not make the occasion less worthy of our attention.", tone = "[dignified] [amused]" }, "Staghelm leads us toward renewed life. I have no wish to trade that hope for every rumor passed between restless tongues.", "Our little traveler carried its house without demanding admiration. An example worth considering, even if its pace would make a difficult schedule." },
+            befriended = { { "Come beside me, friend. You gave a small pause a name that still pleases me. I would welcome more afternoons in your company.", tone = "[sincere] [welcoming]" } },
+            poke = { "Yes, friend? Have you spotted another procession?", "A moment. Let our little neighbor finish crossing before we continue." },
+            bowBack = { { "A most appropriate acknowledgment. Our distinguished traveler appears unmoved, but I am certain we have observed the proper ceremony.", tone = "[solemn] [playful]" } },
+            learned = { "Take the understanding into your practice. A proud account of a lesson is best followed by care in applying it." },
+            quest = { "Hear whom you are being asked to meet. A referral is an introduction, not a reason to mistake one teacher's work for another's." },
+            rest = { "An unhurried pause. We need not wait for a snail to give ourselves permission." },
+            newFriend = { "Welcome them properly. Let them hear that you are pleased to see them, rather than leaving them to guess." },
+            group = { "Keep a little room on the path. We need not make the smaller travelers pay for our numbers." },
+            thanked = { "You are welcome. I am pleased our time together has been useful to you." },
+        },
+    },
+
+    -- Naeluna Swiftmend, Zephras Isle druid trainer, adult High Order Skyborne female137997/M2 7478494, both Friendly. Native aptitude-based training offer,184 current lessons, no personal quests found. Unsuccessful wink practice original; no inferred Swiftmend family or friendship class training.
+    -- Research: docs/research/denatharions-procession-and-naelunas-wink.md
+    [254081] = {
+        quote = "I can judge aptitude in my own field. Winking has proved less straightforward. Both eyes closed again, yes? You may laugh. I did ask for an honest assessment.",
+        likes = { "A question with a clear purpose", "An honest assessment kindly given", "Company during an undignified attempt" },
+        dislikes = { "Pretending to understand an instruction", "Laughter meant to make someone withdraw", "A claim of mastery beyond its field" },
+        gossip = "Naeluna asked a friend to teach her a wink. Her assessment of the results has been exact, though the wink itself remains elusive.",
+        bio = "Naeluna Swiftmend is a druid trainer on Zephras Isle. She offers instruction to those with aptitude for the druidic arts. Her measured manner leaves room for a clear question, and for an honest account of what a learner understands.",
+        backstory = "A friend answered one of her dry remarks with a wink. Naeluna tried to return it and closed both eyes. She asked them to explain. Several careful attempts later, they were laughing, and she had acquired a pastime well outside her expertise.",
+        secret = "She could stop the attempts whenever she wished. She continues because her friend laughs with her, then waits for the next try without making failure feel unwelcome.",
+        bestFriend = "An honest assessment, friend. Both eyes again? Very well. I shall count the company as a success while the technique remains under review.",
+        favorite = {
+            emote = "WINK",
+            hint = "A friendly wink recalls the one small technique that still resists her careful practice.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "Welcome back. Before we begin, an assessment: was that one eye, or both? I suspect I know the answer from your expression.", tone = "[measured] [amused]" }, "There you are. A question about your training, or company for another attempt at my less successful practice?" },
+            idle = { { "I asked for an explanation of the wink. My friend demonstrated. I closed both eyes again. We have established that a precise account of the instructions does not guarantee my face will cooperate.", tone = "[dry] [chuckling]" }, "Aptitude in one field is not a claim to mastery in every other. I have supplied a small, visible demonstration of that distinction.", "Kind laughter leaves room for another attempt. I have found that rather more useful than a courteous insistence that both eyes were somehow correct." },
+            befriended = { { "You tell me the truth and still wait kindly for the next attempt. I value that, friend. Come along. We need not make a lesson of all our time together.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was blinking normally that time. Not every movement requires an assessment.", "A moment. I am attempting to persuade one eyelid that it need not accompany the other." },
+            learned = { { "Tell me which part you understand and where the difficulty begins. A clear question gives us something useful to work with. Pretending you followed the whole explanation does not.", tone = "[calm] [instructive]" } },
+            newFriend = { "Give them time to ask. A quiet arrival does not tell us how much they already understand." },
+            cheerAlong = { "Thank you for the encouragement. I shall accept it without claiming that both eyes were the intended result." },
+            laughAlong = { "You may laugh. I appreciate that you are still here for the next attempt." },
+            rest = { "A pause is sensible. Concentrating harder has not persuaded the second eyelid to remain out of the matter." },
+            thanked = { "You are welcome. I am glad the explanation met the question you were actually asking." },
+            group = { "Hear each person clearly. Agreement is easier to establish when it has not been assumed on their behalf." },
+        },
+    },
+
     -- Lyon Mountainheart, adult Dwarf male7003/M2 878772, Alliance Friendly, Ironforge with current Dun Morogh city projection. No own quest, service or captured gossip found. Interrupted heroic opening original; no inferred job or kinship.
     -- Research: docs/research/lyons-opening-and-burkrums-entrance.md
     [7936] = {

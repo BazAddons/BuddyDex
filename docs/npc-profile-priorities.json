@@ -4767,6 +4767,20 @@
       "zone": "Ashenvale",
       "route": "Splintertree Post heavy armor merchant",
       "reason": "Seventeen current armor and shield goods; original courteous interruption of imposing entrance; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4218,
+      "name": "Denatharion",
+      "zone": "Darnassus",
+      "route": "Cenarion Enclave druid trainer",
+      "reason": "Two loyal Staghelm greetings and full bear/Torwa referrals with current-starter caveat; original snail procession; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 254081,
+      "name": "Naeluna Swiftmend",
+      "zone": "Zephras Isle",
+      "route": "Druid trainer on Zephras Isle",
+      "reason": "Aptitude-based native greeting and184 current lessons; original unsuccessful wink practice; fifteen personal lines queued without synthesis"
     }
   ]
 }

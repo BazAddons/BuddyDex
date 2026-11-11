@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 403,
+    "alliance": 405,
     "unverified": 183,
-    "horde": 398
+    "horde": 399
   },
   "npc_race_counts": {
     "1": 168,
@@ -13,12 +13,12 @@
     "7": 62,
     "2": 103,
     "5": 102,
-    "4": 91,
+    "4": 92,
     "9": 67,
     "8": 61,
     "6": 103,
     "96": 28,
-    "95": 53
+    "95": 54
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -46,7 +46,7 @@
     "Durotar": 55,
     "The Barrens": 50,
     "Stonetalon Mountains": 15,
-    "Darnassus": 20,
+    "Darnassus": 21,
     "Burning Steppes": 1,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -60,7 +60,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 78,
+    "Zephras Isle": 79,
     "Riverglades": 14
   },
   "entries": [
@@ -5769,6 +5769,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4211"
     },
     {
+      "npc_id": 4218,
+      "name": "Denatharion",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4218"
+    },
+    {
       "npc_id": 4230,
       "name": "Yldan",
       "zone": "Darnassus",
@@ -10652,6 +10665,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/253576"
     },
     {
+      "npc_id": 254081,
+      "name": "Naeluna Swiftmend",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/254081"
+    },
+    {
       "npc_id": 254082,
       "name": "Aarnor Galestrike",
       "zone": "Zephras Isle",
@@ -11980,6 +12007,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 933,
-  "awaiting_signature_audio_profiles": 479
+  "authored_profiles": 935,
+  "awaiting_signature_audio_profiles": 481
 }

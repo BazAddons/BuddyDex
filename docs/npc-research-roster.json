@@ -5096,5 +5096,19 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult horde identity; Seventeen current armor and shield goods; original courteous interruption of imposing entrance; no Scout sighting claimed",
     "research_notes": "docs/research/lyons-opening-and-burkrums-entrance.md"
+  },
+  {
+    "npc_id": 4218,
+    "name": "Denatharion",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance identity; Two loyal Staghelm greetings and full bear/Torwa referrals with current-starter caveat; original snail procession; no Scout sighting claimed",
+    "research_notes": "docs/research/denatharions-procession-and-naelunas-wink.md"
+  },
+  {
+    "npc_id": 254081,
+    "name": "Naeluna Swiftmend",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Aptitude-based native greeting and184 current lessons; original unsuccessful wink practice; no Scout sighting claimed",
+    "research_notes": "docs/research/denatharions-procession-and-naelunas-wink.md"
   }
 ]

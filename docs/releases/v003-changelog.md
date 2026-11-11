@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Denatharion and Naeluna Swiftmend: full Night Elf and Skyborne profiles, thirty personal lines queued.
+- Preserve Denatharion’s Staghelm loyalty and research both druid referral chains; verify Naeluna’s shared-friendly access and current instruction.
+
 - Add Lyon Mountainheart and Burkrum: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research the named Ironforge resident and Splintertree Post armor merchant; distinguish original friendship stories from established facts.
 
@@ -700,4 +703,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **933 fully written NPC profiles**: 454 have initial signature recordings, and four hundred seventy-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **935 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eighty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

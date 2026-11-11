@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Denatharion and Naeluna Swiftmend: full Night Elf and Skyborne profiles, thirty personal lines queued.
+- Preserve Denatharion’s Staghelm loyalty and research both druid referral chains; verify Naeluna’s shared-friendly access and current instruction.
+
 - Add Lyon Mountainheart and Burkrum: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research the named Ironforge resident and Splintertree Post armor merchant; distinguish original friendship stories from established facts.
 
