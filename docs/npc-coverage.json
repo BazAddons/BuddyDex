@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 413,
+    "alliance": 414,
     "unverified": 184,
-    "horde": 411
+    "horde": 412
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 99,
+    "3": 100,
     "7": 63,
     "2": 106,
     "5": 107,
     "4": 94,
     "9": 67,
     "8": 61,
-    "6": 105,
+    "6": 106,
     "96": 28,
     "95": 57
   },
@@ -25,7 +25,7 @@
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 125,
-    "Redridge Mountains": 26,
+    "Redridge Mountains": 27,
     "Loch Modan": 8,
     "Duskwood": 4,
     "Dun Morogh": 26,
@@ -41,7 +41,7 @@
     "Orgrimmar": 62,
     "Badlands": 1,
     "Darkshore": 15,
-    "Mulgore": 26,
+    "Mulgore": 27,
     "Thunder Bluff": 47,
     "Durotar": 56,
     "The Barrens": 50,
@@ -7452,6 +7452,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6119"
     },
     {
+      "npc_id": 6166,
+      "name": "Yorus Barleybrew",
+      "zone": "Redridge Mountains",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6166"
+    },
+    {
       "npc_id": 6169,
       "name": "Klockmort Spannerspan",
       "zone": "Ironforge",
@@ -12243,6 +12256,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277067"
     },
     {
+      "npc_id": 277182,
+      "name": "Ahab Wheathoof",
+      "zone": "Mulgore",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277182"
+    },
+    {
       "npc_id": 277689,
       "name": "Drake Ekans",
       "zone": "Dun Morogh",
@@ -12267,6 +12293,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 955,
-  "awaiting_signature_audio_profiles": 501
+  "authored_profiles": 957,
+  "awaiting_signature_audio_profiles": 503
 }

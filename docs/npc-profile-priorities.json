@@ -4921,6 +4921,20 @@
       "zone": "Silverpine Forest",
       "route": "Sepulcher supply inspection",
       "reason": "Full four-task bat supply route and written order; original spare-boot joke with changing beginning; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6166,
+      "name": "Yorus Barleybrew",
+      "zone": "Redridge Mountains",
+      "route": "Lakeshire challenge giver",
+      "reason": "Full gauntlet and shield/armor follow-through with native cheers; original napkin toss; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 277182,
+      "name": "Ahab Wheathoof",
+      "zone": "Mulgore",
+      "route": "Old rancher near Bloodhoof Village",
+      "reason": "Current Forever99411 and adult identity; original Kyle supper forecast; fifteen personal lines queued without synthesis"
     }
   ]
 }

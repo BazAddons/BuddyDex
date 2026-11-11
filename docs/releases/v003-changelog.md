@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Yorus Barleybrew and Ahab Wheathoof: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the gauntlet and armor follow-through, verify the returned Forever rancher and expand Mulgore coverage.
+
 - Add Tarrel Rockweaver and Deathguard Podrig: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Research the excavation letters, Forever relationship quest and complete Sepulcher supply journey; retain native eligibility and character-specific progress.
 
@@ -736,4 +739,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **955 fully written NPC profiles**: 454 have initial signature recordings, and five hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **957 fully written NPC profiles**: 454 have initial signature recordings, and five hundred three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

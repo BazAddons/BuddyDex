@@ -5250,5 +5250,19 @@
     "zone": "Silverpine Forest",
     "source": "Reviewed adult horde identity; Full four-task bat supply route and written order; original spare-boot joke with changing beginning; no Scout sighting claimed",
     "research_notes": "docs/research/tarrels-welcome-and-podrigs-punchline.md"
+  },
+  {
+    "npc_id": 6166,
+    "name": "Yorus Barleybrew",
+    "zone": "Redridge Mountains",
+    "source": "Reviewed adult alliance identity; Full gauntlet and shield/armor follow-through with native cheers; original napkin toss; no Scout sighting claimed",
+    "research_notes": "docs/research/yorus-cheers-and-ahabs-forecast.md"
+  },
+  {
+    "npc_id": 277182,
+    "name": "Ahab Wheathoof",
+    "zone": "Mulgore",
+    "source": "Reviewed adult horde identity; Current Forever99411 and adult identity; original Kyle supper forecast; no Scout sighting claimed",
+    "research_notes": "docs/research/yorus-cheers-and-ahabs-forecast.md"
   }
 ]

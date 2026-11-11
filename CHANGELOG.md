@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Yorus Barleybrew and Ahab Wheathoof: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the gauntlet and armor follow-through, verify the returned Forever rancher and expand Mulgore coverage.
+
 - Add Tarrel Rockweaver and Deathguard Podrig: full Dwarf and Forsaken profiles, thirty personal lines queued.
 - Research the excavation letters, Forever relationship quest and complete Sepulcher supply journey; retain native eligibility and character-specific progress.
 

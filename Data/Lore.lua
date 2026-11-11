@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Yorus Barleybrew, Lakeshire Inn, adult Dwarf male4944/M2 878772, Alliance Friendly normal. Native challenge/cheering, full1698/1699/1702 and armor branches reviewed despite empty current NPC quest tabs. Rolled-napkin contest original; no new gauntlet, guaranteed shield, free drink or invented Barleybrew kinship.
+    -- Research: docs/research/yorus-cheers-and-ahabs-forecast.md
+    [6166] = {
+        quote = "A fine throw! Straight into the mug! Mine was an excellent demonstration of the alternatives. Now give our winner a cheer before I attempt another one.",
+        likes = { "A challenger who comes back", "A cheer loud enough for the winner", "A friendly contest at the table" },
+        dislikes = { "A promised reward forgotten", "A victory nobody acknowledges", "A loser who spoils the next round" },
+        gossip = "Yorus made a contest of tossing a rolled napkin into a mug. His friend won at once. The cheering was louder than the contest required.",
+        bio = "Yorus Barleybrew waits at Lakeshire's inn with the Rethban Gauntlet: a timed journey through gnoll country, begun with his family's Scalder. He cheers the warrior who returns and sends the promised shield request to his friend Furen.",
+        backstory = "He challenged a friend to toss a rolled napkin into an empty mug. Yorus missed. His friend landed the first throw. Yorus cheered so loudly that the next toss went astray. He called that an excellent reason to have another round.",
+        secret = "He enjoys being beaten at a small game when the winner looks surprised by his cheers. A good challenger deserves someone pleased to see the attempt succeed.",
+        bestFriend = "Your turn, friend! Give it a try. If you beat me, I shall provide the noise. If I beat you, I shall probably provide it then as well.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A hearty cheer gives him exactly the welcome he likes to give a successful challenger.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are! Ready for a little contest at the table? I have a mug, a rolled napkin, and an excellent record of cheering for whoever manages the throw.", tone = "[hearty] [playful]" }, "Come in, friend. How did the attempt go? Give me the account before I decide which part deserves the loudest cheer." },
+            idle = { { "I missed the mug. My friend landed the first throw. I gave such a cheer that the next toss went wide. A fine result, really. It gave us a reason to begin another round.", tone = "[boisterous] [amused]" }, "A challenger who returns deserves to be noticed. You can explain the difficult parts of the journey once everyone has heard that you made it.", "Furen knows his shield work. A fine friend to have when you have made a promise about a reward and the reward happens to be in Stormwind." },
+            befriended = { { "Come along, friend! You attempt the difficult part, and I shall make certain your success does not pass quietly. You may return the favor when I finally find the mug.", tone = "[warm] [jovial]" } },
+            poke = { "What is it? If that was your throw, I am prepared to count it as a promising beginning.", "A moment. I am deciding whether my last attempt was closer to the mug than the one before it." },
+            cheerAlong = { { "There it is! A cheer fit for someone who had the nerve to try. Give them another, and leave room for the next challenger to step forward.", tone = "[booming] [delighted]" } },
+            quest = { "Remember what you agreed to attempt, and where you must return. It is useful to have the terms clear before you begin demonstrating your courage." },
+            newFriend = { "Invite them to have a try. You may discover someone worth cheering for before you have learned the rest of their story." },
+            rest = { "A seat at the table, friend. There is time for another account of how the difficult part became possible." },
+            group = { "Make room for the next person. A contest is more entertaining when everyone has had a chance to surprise you." },
+            thanked = { "Aye, you are welcome. A promise ought to be remembered after the cheering has finished." },
+            laughAlong = { "A fine attempt! Now you see why I keep the mug empty for this particular contest." },
+        },
+    },
+
+    -- Ahab Wheathoof, The Old Rancher, Bloodhoof Village, adult Tauren male148823/M2 968705, Horde Friendly normal. Forever99411 and native dog-search lines reviewed; distinct from historical23618. Kyle supper forecast original; no weather power, pet gift, autoquest completion or invented creator biography.
+    -- Research: docs/research/yorus-cheers-and-ahabs-forecast.md
+    [277182] = {
+        quote = "Kyle predicts supper. Ask him at any hour and you will receive the same confident forecast. I have yet to convince him that this is not quite how forecasting works.",
+        likes = { "Kyle's eager company", "A friend who asks about the dog", "An ordinary meal shared in good spirits" },
+        dislikes = { "Wondering where Kyle has gone", "A hungry animal left without help", "Being hurried past a familiar greeting" },
+        gossip = "Ahab says Kyle can predict supper. His friend points out that Kyle predicts it all day. Ahab considers this a promising degree of consistency.",
+        bio = "Ahab Wheathoof is the old rancher near Bloodhoof Village. His prized puppy Kyle has run off, and he asks for help finding and feeding him. The worry is plain, as is his gratitude when someone takes the trouble to help.",
+        backstory = "A friend asked what Kyle thought of the day's weather. Ahab answered that his dog expected supper. The same forecast applied the next morning. They agreed that Kyle was remarkably confident, if a little narrow in his interests.",
+        secret = "He enjoys being asked for Kyle's forecast because it means someone remembered to ask about his dog. The answer is rarely a surprise. The familiar question is what makes him smile.",
+        bestFriend = "There you are, friend. You know the forecast already. Stay a little and tell me how you have been. I would be pleased to hear your news.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A familiar smile tells him that you remember the joke and have time to hear the answer.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome, friend. Have you come for Kyle's forecast? Supper, I believe. An exceptionally confident prediction, and the same one he offered at breakfast.", tone = "[deep] [amused]" }, "There you are. It is good to see a familiar face. How have you been? We have time for your news as well as mine." },
+            idle = { { "My friend asked what Kyle thought of the weather. I said he expected supper. They asked again the next morning. Supper remained a strong possibility. A consistent forecaster, though I cannot recommend his range.", tone = "[warm] [wry]" }, "A dog can make an ordinary day feel full of important occasions. A greeting, a meal, a place to rest. He is prepared to give each one his complete attention.", "I like hearing someone ask about Kyle. It is a small question, but it tells me they remembered something that matters to me." },
+            befriended = { { "Come beside me, friend. You remember to ask about the dog and stay long enough to hear the answer. That makes your company welcome on an ordinary day too.", tone = "[gentle] [fond]" } },
+            poke = { "Yes, friend? Has the forecast changed? I would be most surprised.", "A moment. I was considering whether Kyle has ever predicted anything that could not be served in a bowl." },
+            newFriend = { { "Ask about someone they care for. You may find a good beginning in a small familiar question. I am always pleased when someone remembers Kyle.", tone = "[kindly] [sincere]" } },
+            quest = { "If you can help, I would be grateful. A hungry dog may listen to the offer of a meal more readily than another worried call." },
+            rest = { "A comfortable pause sounds welcome. Settle beside me and tell me how the road has treated you." },
+            thanked = { "You are welcome, friend. I am glad the help reached someone who needed it." },
+            mail = { "A little news from someone familiar can brighten the day. Take your time reading it." },
+            group = { "Make certain everyone has had a chance to settle. There is time to greet the people who came with you." },
+            laughAlong = { "Yes, that is the whole forecast. He delivers it with such conviction that I almost expect the meal to arrive at once." },
+        },
+    },
+
     -- Tarrel Rockweaver, Menethil Harbor bridge, adult Dwarf male1677/M2 878772, Alliance Friendly normal. Full305/306, Merrin letter2639 and Forever98461 reviewed: happily married to Merrin, Hollee former classmate. Rehearsed welcome original; no affair, rescue completion, replacement family or rewritten quest letter.
     -- Research: docs/research/tarrels-welcome-and-podrigs-punchline.md
     [2096] = {

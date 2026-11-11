@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 955,
-  "written_complete_count": 955,
-  "awaiting_signature_audio_count": 501,
+  "authored_count": 957,
+  "written_complete_count": 957,
+  "awaiting_signature_audio_count": 503,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 503,
+  "remaining_count": 505,
   "completed": [
     {
       "npc_id": 54,
@@ -6160,6 +6160,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 6166,
+      "name": "Yorus Barleybrew",
+      "zone": "Redridge Mountains",
+      "source": "Reviewed adult alliance identity; Full gauntlet and shield/armor follow-through with native cheers; original napkin toss; no Scout sighting claimed",
+      "research_notes": "docs/research/yorus-cheers-and-ahabs-forecast.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 6169,
       "name": "Klockmort Spannerspan",
       "zone": "Ironforge",
@@ -10303,6 +10315,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 277182,
+      "name": "Ahab Wheathoof",
+      "zone": "Mulgore",
+      "source": "Reviewed adult horde identity; Current Forever99411 and adult identity; original Kyle supper forecast; no Scout sighting claimed",
+      "research_notes": "docs/research/yorus-cheers-and-ahabs-forecast.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
