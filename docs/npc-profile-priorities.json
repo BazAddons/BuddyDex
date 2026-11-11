@@ -5061,6 +5061,20 @@
       "zone": "Desolace",
       "route": "Superior Macecrafter at Ghost Walker Post",
       "reason": "Seven current wares and adult male model; original plain spoon made for friend; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 375,
+      "name": "Priestess Anetta",
+      "zone": "Elwynn Forest",
+      "route": "Priest trainer in Northshire Abbey Library Wing",
+      "reason": "Three native gossip entries,3103/5623/5624 and full readable9548 letter; original shared books lesson; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5641,
+      "name": "Takata Steelblade",
+      "zone": "Desolace",
+      "route": "Agent at Ghost Walker Post",
+      "reason": "Native Burning Blade warning and full Alliance Relations/Corrupter context; original visit without a campaign report; fifteen personal lines queued without synthesis"
     }
   ]
 }

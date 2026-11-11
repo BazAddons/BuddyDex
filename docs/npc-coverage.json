@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 423,
+    "alliance": 424,
     "unverified": 184,
-    "horde": 421
+    "horde": 422
   },
   "npc_race_counts": {
-    "1": 171,
+    "1": 172,
     "3": 103,
     "7": 63,
-    "2": 109,
+    "2": 110,
     "5": 111,
     "4": 97,
     "9": 67,
@@ -21,7 +21,7 @@
     "95": 57
   },
   "zone_counts": {
-    "Elwynn Forest": 32,
+    "Elwynn Forest": 33,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 125,
@@ -51,7 +51,7 @@
     "Ashenvale": 18,
     "Thousand Needles": 12,
     "Dustwallow Marsh": 2,
-    "Desolace": 14,
+    "Desolace": 15,
     "Swamp of Sorrows": 1,
     "Tanaris": 9,
     "Feralas": 6,
@@ -478,6 +478,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/374"
+    },
+    {
+      "npc_id": 375,
+      "name": "Priestess Anetta",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/375"
     },
     {
       "npc_id": 376,
@@ -7156,6 +7169,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5614"
     },
     {
+      "npc_id": 5641,
+      "name": "Takata Steelblade",
+      "zone": "Desolace",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5641"
+    },
+    {
       "npc_id": 5667,
       "name": "Venya Marthand",
       "zone": "Tirisfal Glades",
@@ -12527,6 +12553,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 975,
-  "awaiting_signature_audio_profiles": 521
+  "authored_profiles": 977,
+  "awaiting_signature_audio_profiles": 523
 }

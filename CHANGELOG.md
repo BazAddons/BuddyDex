@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Priestess Anetta and Takata Steelblade: full female Human and Orc profiles, thirty personal lines queued.
+- Research Northshire priest lessons and the full Desolace demonic campaign; preserve normal eligibility and separate character progress.
+
 - Add Harlo Barnaby and Muuran: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research the Dun Modr survivor and Ghost Walker macecrafter; preserve normal eligibility and separate character progress.
 

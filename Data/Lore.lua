@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Priestess Anetta, Northshire Abbey Library Wing, adult Human female3344/M2 1000764, Alliance Friendly normal. Three native gossip,7/3103 and full5623/5624, readable9548 letter. Sharing books with friend original; no new spell, free retraining or modern trainee quest.
+    -- Research: docs/research/anettas-books-and-takatas-visit.md
+    [375] = {
+        quote = "I told my friend I was quite accustomed to helping. They took half the books and said they had been paying attention. A teacher ought to recognize a lesson put into practice.",
+        likes = { "Compassion made useful", "A careful question before an eager answer", "Help offered without a grand display" },
+        dislikes = { "Haste that makes another task harder", "Kindness treated as a competition", "Forgetting to let a friend help" },
+        gossip = "Anetta once insisted she could carry all the books. Her friend took half and said they had learned something from her after all.",
+        bio = "Priestess Anetta teaches novice priests in Northshire Abbey. Her letter asks for wisdom and compassion, and she refers growing students to Josetta. She encourages useful help, though she sometimes needs a reminder to accept it herself.",
+        backstory = "She was carrying a stack of books when a friend offered to take half. Anetta said she was used to helping. The friend pointed out that they had been listening to her lessons. She handed over the books and thanked them for a convincing answer.",
+        secret = "She enjoyed walking beside someone instead of carrying everything ahead of them. Accepting half the load gave her a little room to hear about the friend who had offered.",
+        bestFriend = "Walk beside me, friend. We can share what needs carrying, and I should like to hear what you have noticed along the way.",
+        favorite = {
+            emote = "THANK",
+            hint = "A plain thank-you reminds her that accepting kindness matters as well as offering it.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Welcome back, friend. Have you something to ask, or something to tell me? I have time to listen. You need not wait until the question has become too heavy to carry alone.", tone = "[patient] [warm]" }, "It is good to see you. Tell me how your practice has gone. A difficulty honestly described is a useful place for us to begin." },
+            idle = { { "My friend offered to carry half the books. I said I was accustomed to helping. They replied that they had been listening to my lessons. I had to admit it was a very good answer.", tone = "[gentle] [amused]" }, "Good intentions deserve careful attention to the person you mean to help. Eagerness can make a task harder when it outruns understanding.", "There was room for a much better conversation once I could see over the books. I had been so intent on carrying them that I nearly missed hearing about my friend." },
+            befriended = { { "I am glad to call you a friend. Let us make room for kindness in both directions. I would hear what you need, and I shall try to remember that you are willing to help me too.", tone = "[tender] [sincere]" } },
+            poke = { "Yes, friend? I am listening. Take your time with the part that is difficult to explain.", "One moment. I am trying to decide whether I need an answer or merely need to accept the help already offered." },
+            learned = { { "A lesson becomes useful when it helps you notice what someone needs. My friend demonstrated that with a stack of books. I was pleased with the lesson, once I stopped trying to carry it all myself.", tone = "[encouraging] [wry]" } },
+            quest = { "Finish what requires your attention here, then seek the next instruction thoughtfully. A growing skill deserves wisdom as well as enthusiasm." },
+            thanked = { "You are welcome. Thank you for telling me what helped. That is something a teacher needs to hear too." },
+            comforted = { "Thank you, friend. I am listening. It is good to remember that I do not always have to be the one finding the words for someone else." },
+            newFriend = { "Ask before deciding what they need. Sometimes the offer of half a burden is welcome; sometimes they need someone willing to hear why it feels heavy." },
+            rest = { "Let us pause a little. There is time to speak of something besides the next task. I should like to know how you have been." },
+            gear = { "Consider what helps you do the work before you. A fine appearance is pleasant, but thoughtful use gives a thing its purpose." },
+        },
+    },
+
+    -- Takata Steelblade, Ghost Walker Post Desolace, adult Orc male3760/M2 917116, Horde Friendly normal. Own native Burning Blade warning, full1431-1436 branches and1480/1481/1482/1484/1488. Visit without campaign report original; no named clan, resolved demon quest, conversion or promotion to warlock.
+    -- Research: docs/research/anettas-books-and-takatas-visit.md
+    [5641] = {
+        quote = "I began giving my friend a report. They said they had come to see me, not inspect the campaign. It took me a moment to find an answer that did not begin with our progress.",
+        likes = { "Duty kept ahead of personal glory", "Friends who come without an assignment", "News that brings home a little nearer" },
+        dislikes = { "The Burning Blade and its demonic masters", "Honor used to excuse neglected duty", "Every conversation becoming a report" },
+        gossip = "Takata began a campaign report when a friend visited. They asked how he was instead. He needed a moment to change the subject.",
+        bio = "Takata Steelblade serves Thrall's campaign against demonic threats in Desolace. He works beside Maurin Bonesplitter despite reservations about warlock methods. Duty holds him at Ghost Walker Post; he hopes the work will eventually allow a return home.",
+        backstory = "A friend stopped to see him without bringing an assignment. Takata began reporting on the campaign. They interrupted to ask how he was. He nearly answered with another report. Instead he asked them to stay, and tried beginning again.",
+        secret = "He was relieved to have no progress to prove for a little while. His friend had come because they wanted his company. He is learning to accept that as a sufficient reason for a visit.",
+        bestFriend = "Stay a little, friend. Tell me how you are. We can return to the campaign when there is something that must be said of it.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A friendly welcome can begin a visit that asks nothing of him beyond his company.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "You have returned, friend. Is there urgent news? No? Then stay a little. I would like to begin this conversation with something besides what the campaign requires of us.", tone = "[guarded] [warming]" }, "Good to see you. Tell me how you are before I begin another report. I am trying to remember that a friend may have come for that conversation." },
+            idle = { { "My friend asked how I was. I began describing our progress. They said they had come to see me. A simple distinction, once someone had made me listen to it.", tone = "[reflective] [wry]" }, "I will not abandon a duty for the chance of personal glory. The task left behind does not become less important because a more impressive enemy has appeared.", "I hope there will be a day when returning home is the next thing required of me. Until then, there is work to be done here." },
+            befriended = { { "You are welcome beside me, friend. You need not bring an assignment to justify the visit. I am glad you came, and I shall try to let that be the first thing I say.", tone = "[steady] [fond]" } },
+            poke = { "Yes? News, or company? I would rather ask than assume again.", "A moment, friend. I am considering what must be done before what would bring the most praise." },
+            rest = { { "Stay for a little while. Tell me something of your day that does not require an order in reply. I may need practice at the conversation, but I would welcome it.", tone = "[quiet] [sincere]" } },
+            quest = { "Do not mistake a thirst for power for loyalty. The Burning Blade serves demonic masters. Our duty is to oppose that threat, not imitate its bargains." },
+            newFriend = { "Keep the promise you make to them, especially when no one is waiting to praise you for it." },
+            thanked = { "You are welcome. If the work was useful, that is worth knowing. We need more than impressive words to make a place safe." },
+            group = { "Know who is depending on you before deciding what you can leave behind. Another person may be carrying the consequence of your choice." },
+            combatEnd = { "See to what remains to be done. Victory does not relieve us of the duty that brought us here." },
+            hearth = { "A place to return to is worth protecting. I would like to hear of yours, if you are willing to tell me." },
+        },
+    },
+
     -- Harlo Barnaby, wounded Menethil survivor, adult Dwarf male1674/M2 878772, Alliance Friendly normal. Full472 native/current/published text and Longbraid rescue account. Interrupted solemn portrait memory before fighting original; no cure, confirmed comrades fate, completed mission or child profile.
     -- Research: docs/research/harlos-portrait-and-muurans-spoon.md
     [2097] = {
