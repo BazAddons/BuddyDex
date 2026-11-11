@@ -4718,5 +4718,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult horde man; Full collar and Demon Seed branch, acknowledged limits; original tongue-twister practice, human namesake excluded; no Scout sighting claimed",
     "research_notes": "docs/research/iaadarias-water-and-margozs-words.md"
+  },
+  {
+    "npc_id": 1217,
+    "name": "Glorin Steelbrow",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance man; Full Lightforge and Paleth chains, journal context, specialist referrals; original steady tavern table; no Scout sighting claimed",
+    "research_notes": "docs/research/glorins-table-and-krusks-cord.md"
+  },
+  {
+    "npc_id": 2229,
+    "name": "Krusk",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult horde man; Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; no Scout sighting claimed",
+    "research_notes": "docs/research/glorins-table-and-krusks-cord.md"
   }
 ]

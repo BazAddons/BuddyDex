@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Glorin Steelbrow and Krusk, expanding Wetlands and Hillsbrad profiles with thirty personal lines queued.
+- Preserve the priest's specialist referrals and the warrior's rescue mission and loyalty; distinguish original table repair and farewell cord from artifacts and native quest outcomes.
+
 - Add Iaadaria Bitterwind and Margoz, expanding Skyborne and Orc profiles with thirty personal lines queued.
 - Preserve the alchemist's research priorities and the shaman's acknowledged limits; distinguish original water introduction and tongue-twister practice from native quests and the human Margoz namesake.
 

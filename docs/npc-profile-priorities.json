@@ -4389,6 +4389,20 @@
       "zone": "Durotar",
       "route": "Northeastern Durotar shaman and Skull Rock",
       "reason": "Full collar and Demon Seed branch, acknowledged limits; original tongue-twister practice, human namesake excluded; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1217,
+      "name": "Glorin Steelbrow",
+      "zone": "Wetlands",
+      "route": "Menethil priest and Lightforge routes",
+      "reason": "Full Lightforge and Paleth chains, journal context, specialist referrals; original steady tavern table; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2229,
+      "name": "Krusk",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill rescue and Syndicate mission",
+      "reason": "Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; fifteen personal lines queued without synthesis"
     }
   ]
 }

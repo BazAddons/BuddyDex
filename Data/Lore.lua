@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Glorin Steelbrow, Menethil Harbor/Wetlands priest. Adult Dwarf male3460/M2 878772, Alliance Friendly. Full Lightforge and Paleth branches: colleague Farthing, smith Grimand, cleansing referred to Benedictus. Folded-cloth table repair original; no quest artifact or divine benefit granted.
+    -- Research: docs/research/glorins-table-and-krusks-cord.md
+    [1217] = {
+        quote = "Aye, I can help ye find the right hands for a difficult task. For this wobbling table, however, I believe the folded cloth will serve us before we call upon anyone grander.",
+        likes = { "Useful help reaching the right hands", "A steady table for a quiet conversation", "Small troubles settled without a tragedy" },
+        dislikes = { "A curse treated as harmless treasure", "Skills claimed without understanding", "A mug rocking through an earnest discussion" },
+        gossip = "Glorin steadied a tavern table with folded cloth. He seemed pleased to solve a problem without holy iron or a distant journey.",
+        bio = "Glorin Steelbrow is a dwarven priest in Menethil Harbor. He helps recover Lightforge Iron for Grimand Elmore's work and sends the cursed Eye of Paleth to Benedictus when its cleansing lies beyond him.",
+        backstory = "A friend's mug rocked during an earnest conversation. Glorin folded a cloth beneath the table's troublesome foot. Once it stood steady, he sat back with evident satisfaction and invited the conversation to continue.",
+        secret = "He relishes a small trouble put right in an ordinary afternoon. Helping need not always begin with a curse or end with another journey.",
+        bestFriend = "Sit beside me, friend. The table is steady, and nothing requires an expedition just yet. Tell me about an ordinary good day.",
+        favorite = {
+            emote = "THANK",
+            hint = "A plain acknowledgment of useful help suits someone pleased to put even a small trouble right.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Sit beside me. The table is steady, and for the moment nothing appears to require holy iron or a journey to Stormwind. I would welcome a little ordinary conversation while that happy circumstance lasts.", tone = "[warm] [wry]" }, "Welcome back. Tell me what ye need, and we'll see whose hands are best suited to the work." },
+            idle = { { "The mug kept rocking through our earnest conversation. I folded a cloth beneath the troublesome table foot. A satisfying result. No cursed treasure, no long expedition, and we could finally finish the thought without rescuing the drink.", tone = "[fond] [amused]" }, "Knowing where to send someone can be useful help. I needn't pretend to possess another person's skill in order to see the task carried forward.", "A treasure can carry more sorrow than its appearance suggests. The Eye of Paleth deserves care, not a delighted assumption that anything precious must be safe." },
+            befriended = { { "Ye've become someone with whom I can enjoy a small trouble put right, without needing the afternoon to become a grand tale. Come along, friend. I am glad of the company between the difficult tasks.", tone = "[steady] [sincere]" } },
+            poke = { "Aye? If Fitzsimmons sent ye looking for extra ale, he will have to try another purse.", "I'm listening. Give me a moment to put the previous thought safely aside." },
+            quest = { { "Tell me what ye've found, and what the task requires. If the work belongs with someone else's skill, we'll do more good by recognizing that than by making a fine show of attempting everything ourselves.", tone = "[calm] [instructive]" } },
+            gear = { "There is more to useful equipment than a remarkable name. Know what the task actually asks of it." },
+            loot = { "Take care before admiring an unfamiliar treasure. A fine appearance is no assurance about what it carries." },
+            rest = { "A quiet pause would suit me. I shall be delighted if the furniture asks nothing more of us." },
+            thanked = { "Glad to help. A small useful kindness is worth the doing." },
+            group = { "Find the person whose skill the task needs. There is no need to make the whole company wait upon one person's pride." },
+            hearth = { "Homeward, then. I hope the welcome is kind and the table entirely uneventful." },
+        },
+    },
+
+    -- Krusk, Tarren Mill/Hillsbrad warrior. Adult Orc male3685/M2 917116, Horde Friendly. Full498 and533/503/506/507/508: rescue, Syndicate captivity, loyalty without understanding Thralls pendant. Farewell cord original; no hidden lore of Taretha invented or rescue assumed.
+    -- Research: docs/research/glorins-table-and-krusks-cord.md
+    [2229] = {
+        quote = "The Warchief's orders stand. I need not understand every reason to keep my word. And no, that plain cord on my pack is not for sale. A friend tied it there.",
+        likes = { "Companions brought back from captivity", "A clear report that leads to action", "The plain cord a friend tied on his pack" },
+        dislikes = { "The Syndicates designs for orcish slaves", "Warriors left missing without a search", "A personal keepsake measured only in coin" },
+        gossip = "Krusk once called a friend's farewell cord too small to notice. Later, they found him moving it carefully out of the rain.",
+        bio = "Krusk waits in Tarren Mill after escaping a failed mission at Durnholde. He seeks captured companions and the Syndicate's plans while pursuing the pendant Thrall desires, though he admits he does not understand its importance.",
+        backstory = "A friend tied a plain cord to his pack before parting. Krusk dismissed the tiny flourish with a grunt. When rain threatened it, he shifted the knot beneath a flap. His friend noticed; he declined to make a speech.",
+        secret = "He knows who tied the cord. That is enough reason to keep it, without explaining another person's keepsake or turning his own into a grand story.",
+        bestFriend = "You tied it. I kept it. There is little more to explain, friend. Come along; I would rather have you beside me than another farewell knot.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "A firm acknowledgment backed by dependability carries weight with a warrior who keeps his word.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are, friend. Good. The cord is still where you tied it, before you ask. I would rather have your company than another farewell flourish, so come stand beside me and tell me what the road has brought.", tone = "[gruff] [warm]" }, "Welcome back. Start with what you know, and who still needs our attention." },
+            idle = { { "A friend tied a plain cord to my pack. Too small to notice, I said. Then the rain came, and I moved it beneath the flap. They noticed that. I did not see the need to provide a speech about the matter.", tone = "[dry] [fond]" }, "We were outnumbered at Durnholde, and some of our warriors were taken. I escaped. That does not make the people still missing someone else's concern.", "I do not claim to understand why the Warchief values that pendant as he does. His orders stand. I will not invent his reasons merely to make them easier to explain." },
+            befriended = { { "You have become someone whose return I am glad to see for more than the report you bring. Come along, friend. Keep your word beside me, and I will keep mine beside you.", tone = "[firm] [sincere]" } },
+            poke = { "Yes? If you are looking at the knot again, it is still only a knot.", "I am listening. Give me the useful part first." },
+            quest = { { "Tell me where the evidence leads, and who is still missing. A clear report can give us the next action. Rumor alone is a poor thing to put between a captive and the people trying to reach them.", tone = "[stern] [focused]" } },
+            group = { "Know who is beside you. If someone is missing, make certain the rest of the company knows it before moving on." },
+            gear = { "Keep it ready for the work ahead. Preparation matters most when the enemy has no intention of giving you time." },
+            rest = { "A short pause. Use it to be ready, not to forget the people depending on us." },
+            thanked = { "You are welcome. I gave my word to help; there is no mystery in keeping it." },
+            hearth = { "Return safely. There is someone for whom your arrival matters more than the story of your journey." },
+            newFriend = { "Let their actions show you what their word is worth. A strong introduction is only a beginning." },
+        },
+    },
+
     -- Iaadaria Bitterwind, Alchemist, Valanaar/Zephras. Adult High Order Skyborne female140062/M2 7478494, Alliance Friendly. Full92741 and own guarded-work gossip; Trainer/Vendor and four vial goods. Elaborately introduced ordinary water original, no potion recipe or friendship training benefit.
     -- Research: docs/research/iaadarias-water-and-margozs-words.md
     [253004] = {
