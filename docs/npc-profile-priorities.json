@@ -4361,6 +4361,20 @@
       "zone": "Tirisfal Glades",
       "route": "Near Brill camping introduction",
       "reason": "Full camping introduction and three profession referrals, sticks and firewood; original comfortable stump throne; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1362,
+      "name": "Gothor Brumn",
+      "zone": "Loch Modan",
+      "route": "Algaz Station armorer",
+      "reason": "Six current chainmail goods and repair role; original gloved copper teamwork; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252359,
+      "name": "Lotheluum Starbreeze",
+      "zone": "Zephras Isle",
+      "route": "Valanaar druid correspondence and training",
+      "reason": "Full Ursera and Nightclaw branches, rare-druid gossip; original visitor without a message; fifteen personal lines queued without synthesis"
     }
   ]
 }

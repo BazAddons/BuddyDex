@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Gothor Brumn and Lotheluum Starbreeze, expanding Loch Modan and Skyborne coverage with thirty personal lines queued.
+- Preserve practical armorer services and the druid trainers grief and unanswered suspicions; distinguish original copper encounter and message-free visit from native rewards.
+
 - Add Astarii Starseeker and Eleanor Shackleton: complete Night Elf and Forsaken profiles with thirty personal lines queued.
 - Ground their faith, teaching and outdoor preparation in researched quests; distinguish original thank-you note and stump throne from native spells, camping rewards and later world events.
 
@@ -613,4 +616,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **875 fully written NPC profiles**: 454 have initial signature recordings, and four hundred twenty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **877 fully written NPC profiles**: 454 have initial signature recordings, and four hundred twenty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

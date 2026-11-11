@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 377,
+    "alliance": 379,
     "unverified": 181,
-    "horde": 364
+    "horde": 365
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 82,
+    "3": 83,
     "7": 61,
     "2": 93,
     "5": 94,
@@ -18,7 +18,7 @@
     "9": 65,
     "6": 97,
     "96": 28,
-    "95": 45
+    "95": 46
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -26,7 +26,7 @@
     "Westfall": 18,
     "Stormwind City": 123,
     "Redridge Mountains": 24,
-    "Loch Modan": 4,
+    "Loch Modan": 5,
     "Duskwood": 4,
     "Dun Morogh": 24,
     "Wetlands": 9,
@@ -60,7 +60,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 71,
+    "Zephras Isle": 72,
     "Riverglades": 14
   },
   "entries": [
@@ -1506,6 +1506,19 @@
       ],
       "reaction_evidence": "Alliance Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1355"
+    },
+    {
+      "npc_id": 1362,
+      "name": "Gothor Brumn",
+      "zone": "Loch Modan",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1362"
     },
     {
       "npc_id": 1387,
@@ -9772,6 +9785,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252095"
     },
     {
+      "npc_id": 252359,
+      "name": "Lotheluum Starbreeze",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252359"
+    },
+    {
       "npc_id": 252377,
       "name": "Seena Skybreaker",
       "zone": "Zephras Isle",
@@ -11226,6 +11253,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 875,
-  "awaiting_signature_audio_profiles": 421
+  "authored_profiles": 877,
+  "awaiting_signature_audio_profiles": 423
 }

@@ -4690,5 +4690,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Full camping introduction and three profession referrals, sticks and firewood; original comfortable stump throne; no Scout sighting claimed",
     "research_notes": "docs/research/astariis-note-and-eleanors-throne.md"
+  },
+  {
+    "npc_id": 1362,
+    "name": "Gothor Brumn",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance man; Six current chainmail goods and repair role; original gloved copper teamwork; no Scout sighting claimed",
+    "research_notes": "docs/research/gothors-copper-and-lotheluums-visitor.md"
+  },
+  {
+    "npc_id": 252359,
+    "name": "Lotheluum Starbreeze",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde man; Full Ursera and Nightclaw branches, rare-druid gossip; original visitor without a message; no Scout sighting claimed",
+    "research_notes": "docs/research/gothors-copper-and-lotheluums-visitor.md"
   }
 ]

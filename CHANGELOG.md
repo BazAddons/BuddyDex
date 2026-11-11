@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Gothor Brumn and Lotheluum Starbreeze, expanding Loch Modan and Skyborne coverage with thirty personal lines queued.
+- Preserve practical armorer services and the druid trainers grief and unanswered suspicions; distinguish original copper encounter and message-free visit from native rewards.
+
 - Add Astarii Starseeker and Eleanor Shackleton: complete Night Elf and Forsaken profiles with thirty personal lines queued.
 - Ground their faith, teaching and outdoor preparation in researched quests; distinguish original thank-you note and stump throne from native spells, camping rewards and later world events.
 

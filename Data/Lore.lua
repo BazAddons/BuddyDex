@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Gothor Brumn, Armorer, Algaz Station/Loch Modan. Adult Dwarf male1835/M2 878772, Alliance Friendly. Current Repair/Vendor and six chainmail pieces; no linked quests/own gossip. Gloved copper encounter original; no forge history or new gear benefit.
+    -- Research: docs/research/gothors-copper-and-lotheluums-visitor.md
+    [1362] = {
+        quote = "Aye, the chainmail will serve ye well. Picking up a single copper in the gloves takes a little more negotiation. That's why a sensible traveler keeps a friend nearby.",
+        likes = { "Armor checked before the road", "A helpful hand offered without a lecture", "A worthy opponent worth one copper" },
+        dislikes = { "Damage ignored until the next journey", "A grand pose that hides a poor fit", "Small coins beneath armored fingers" },
+        gossip = "Gothor once fought a stubborn copper while wearing chainmail gloves. A friend picked it up for him. He called it a victory for teamwork.",
+        bio = "Gothor Brumn is an armorer at Algaz Station in Loch Modan. He sells chainmail and repairs worn equipment for travelers. His practical trade gives him ample reason to value a useful fit over a grand first impression.",
+        backstory = "A copper slipped while Gothor was checking a glove. He tried to gather it without taking the glove off. A friend lifted it easily. Gothor accepted the coin with a grave nod and declared teamwork had prevailed.",
+        secret = "He enjoys a friend who can help with a small indignity and share the joke. The copper has become a worthy opponent in his retelling.",
+        bestFriend = "There ye are, friend. If that copper starts trouble again, I'm calling ye in. No sense facing a seasoned opponent alone.",
+        favorite = {
+            emote = "HIGHFIVE",
+            hint = "A companion willing to celebrate their combined handiwork will find him ready to join the gesture.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Come stand beside me. Should a copper piece attempt another escape, I intend to face it with the benefit of our combined experience. A sensible armorer learns from a difficult encounter.", tone = "[warm] [wry]" }, "Welcome back. How did the equipment serve ye on the road? Give me the useful account, not just the impressive bits." },
+            idle = { { "I tried to pick up the copper without taking the glove off. My friend gathered it in a moment. Teamwork, I said. An important victory. No need to dwell on which of us had the more difficult assignment.", tone = "[deadpan] [amused]" }, "A grand pose can hide a poor fit for a moment. Walking down the road will generally reveal the disagreement.", "There's no shame in checking what has worn during a journey. Better a little attention now than a loud complaint at the least convenient moment." },
+            befriended = { { "Ye can offer a useful hand and leave a fellow enough dignity to make a joke of it. That's company worth keeping. Come along, friend. We'll give the road the benefit of our combined judgment.", tone = "[steady] [sincere]" } },
+            poke = { "Aye? Is this about armor, or has my copper been telling its version of the encounter?", "I'm listening. Let me give the question the attention it deserves." },
+            gear = { { "Move in it before deciding it suits ye. Check how it sits when ye bend and turn. The road won't limit itself to the fine pose ye practiced while admiring the purchase.", tone = "[practical] [instructive]" } },
+            loot = { "If it's small enough to disappear beneath an armored finger, find a safe place for it before admiring the rest." },
+            bagsFull = { "Keep the things ye'll need within sensible reach. Good equipment is less useful when it's buried beneath everything else." },
+            rest = { "A pause would suit me. I can put my hands down without making a professional examination of the bench." },
+            thanked = { "Glad to help. A useful job done properly deserves no more fuss than that." },
+            group = { "Someone will be good at the thing that has just defeated ye. Let them lend a hand before pride makes the job larger." },
+            newFriend = { "Give them room to show what they're good at. Ye may discover the exact assistance ye didn't know ye needed." },
+        },
+    },
+
+    -- Lotheluum Starbreeze, Druid Trainer, Valanaar/Zephras. Adult High Order Skyborne male137418/M2 7478487, both factions Friendly. Full94006/94638 and94484-91 context; own rare-druid greeting. Message-free visit original; grief retained, traitor unproven, no native training or quest result granted.
+    -- Research: docs/research/gothors-copper-and-lotheluums-visitor.md
+    [252359] = {
+        quote = "Have you brought news? No? Then stay a little while for your own sake, and mine. I am glad a friend can come to see me without a message in hand.",
+        likes = { "A visit made simply for company", "The rare druidic traditions kept alive", "A report that distinguishes doubt from fact" },
+        dislikes = { "Long silence from the druid conclave", "Loss reduced to a convenient summary", "A suspicion repeated as a proven name" },
+        gossip = "Lotheluum once looked for a message in a visitor's hands. They had come only to walk beside him. He was glad to have company without news.",
+        bio = "Lotheluum Starbreeze teaches druids in Valanaar. He directs students to Urs'endris and worries over missing word from Shadowgale Forest. News of the den's losses leaves him shaken and determined to inform the High Elder.",
+        backstory = "A friend arrived while he was waiting for correspondence. He glanced at their empty hands before hearing they had come simply to see him. He set aside the question about news and asked if they would walk together.",
+        secret = "He values being sought out as a person, not only as someone waiting for a report. Familiar company can matter without bringing an answer.",
+        bestFriend = "You came to see me. I am glad, friend. We can walk a little without pretending the unanswered questions have disappeared.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A greeting that makes room for him as a companion, without requiring news or an answer, means a great deal.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are, friend. Have you brought news? No, forgive the habit. I am glad you came simply to see me. Let us walk together a little, without requiring a message to explain your company.", tone = "[softly] [warm]" }, "Good to see you. Give me a moment to turn my thoughts toward the person beside me." },
+            idle = { { "I looked at their hands for a message before I understood. They had come to see me, nothing more. We walked together. The questions remained, but for a little while they were not the only reason someone had sought me out.", tone = "[quietly] [reflective]" }, "There are few among our people who keep these druidic ways. The knowledge matters, but so do the people who carry it, and the words we expect to hear from them.", "A silence can become difficult to bear when correspondence is overdue. I would rather seek what has happened than make a comforting answer from nothing." },
+            befriended = { { "You have become someone who can stand beside an unanswered question without demanding that I put it away. Come along, friend. I am grateful that you seek my company as well as whatever guidance I can give.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes, friend? Let me listen to what you have actually come to say.", "A moment, please. I was waiting for one sort of answer; that need not prevent me from hearing another person." },
+            quest = { { "Tell me what you know, and where uncertainty remains. Grave news deserves care. I will not turn a suspicion into a proven name merely because an answer would be easier to carry.", tone = "[grave] [steady]" } },
+            learned = { "Respect the tradition you are entering, and the lives that have carried it. Learning a shape is not the whole of understanding its strength." },
+            newFriend = { "Ask whether they would welcome company. They may have come with no message beyond the wish to see someone familiar." },
+            rest = { "A quiet pause, then. We can sit together without calling the work finished." },
+            zone = { "Look at the life around us. There is more here to safeguard than a place on a map." },
+            thanked = { "You are welcome, friend. I am glad there was something useful I could offer you today." },
+            comforted = { "Thank you. Your company need not supply the words that make this loss easy. It is enough that you have stayed to hear it." },
+        },
+    },
+
     -- Astarii Starseeker, Priest Trainer, Temple of the Moon/Darnassus. Adult Night Elf female2200/M2 921844, Alliance Friendly. Full3377/3378,5674,8254-57; own wisdom/retraining gossip. Plain thank-you note original. Later Burning/Maw/wisp fate excluded; no new absolution or spell reward.
     -- Research: docs/research/astariis-note-and-eleanors-throne.md
     [4090] = {
