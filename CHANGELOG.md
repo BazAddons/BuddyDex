@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Alynsia and Ahanu: full High Order and Tauren profiles, thirty personal lines queued.
+- Research enchantment stock and the full hide-delivery chain; document original interrupted presentation and skyline sketch while retaining normal Neutral eligibility checks.
+
 - Add Dorin Songblade and Cawind Trueaim: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Preserve Dorin's Forever family story and native rewards; document an original brotherly memory and Cawind's quiet correction without promising cures or equipment.
 

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Alynsia, Enchanter vendor, current Alliance Neutral Redridge11.14,71.48. Adult High Order female139799/M2 7478494, forty-one goods and confident own greeting. Hiccup presentation original; positive faction access unverified, no free enchant/recipe/certification.
+    -- Research: docs/research/alynsias-presentation-and-ahanus-landmark.md
+    [256732] = {
+        quote = "I had nearly reached flawless when the hiccup returned. An unfortunate interruption of an excellent presentation. Your very small applause was appreciated more than the occasion deserved.",
+        likes = { "Confidence with room for a shared laugh", "A patient listener through an awkward pause", "Careful choices made before an enchantment" },
+        dislikes = { "A harmless interruption treated as disgrace", "An audience determined to make it worse", "An impressive promise without careful work" },
+        gossip = "A hiccup interrupted Alynsia's grand presentation. Her friend's tiny applause made her laugh. The simpler second attempt went better.",
+        bio = "Alynsia is an enchanter and formula vendor found in Redridge. Her greeting confidently offers enchantments. Her stock includes formulas and an Enchanting Certification, while a personal visit can reveal a less polished moment.",
+        backstory = "She was approaching the word flawless when a hiccup interrupted her. A friend applauded very quietly. Alynsia laughed, paused, and began again without the grand opening. The visit proved pleasant without a perfect presentation.",
+        secret = "She likes being able to laugh with someone when her composure slips. Confidence is easier company when a friend does not require it to be uninterrupted.",
+        bestFriend = "Come along, friend. You have heard the grand presentation and stayed for the simpler conversation. I am glad to have both with you.",
+        favorite = {
+            emote = "GOLFCLAP",
+            hint = "A small, affectionate round of applause can turn an awkward pause into a shared joke.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. I have considered a shorter opening for our next visit. Something less ambitious than flawless, perhaps. Hello has served people well for some time, and leaves considerably less opportunity for an interruption to improve the presentation.", tone = "[bright] [wry]" }, "Welcome back. Tell me what you have in mind, and we can consider the useful details before the impressive description." },
+            idle = { { "I had nearly reached flawless when the hiccup returned. My friend applauded very quietly. I laughed, waited a moment, and began again without the grand opening. A pleasant visit did not appear to require an uninterrupted performance after all.", tone = "[amused] [reflective]" }, "Confidence is useful when it belongs to careful work. It is less useful when the presentation has become the thing receiving all the attention.", "You may laugh with me at a small interruption. I prefer that to watching someone pretend they have suddenly become fascinated by the floor." },
+            befriended = { { "You have seen a little composure desert me and remained excellent company. Come along, friend. I enjoy the conversation that follows the grand opening, especially with someone who does not need the opening to have been perfect.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? I promise the shorter introduction this time.", "A moment. Let me finish the useful thought before attempting the impressive one." },
+            rest = { { "A quiet pause would be pleasant. We need not fill it with a presentation, or apologize because the first words did not arrive quite as smoothly as intended. I am glad to share the simpler part of an afternoon with you.", tone = "[gentle] [relaxed]" } },
+            gear = { "Decide what you need the equipment to do before being persuaded by the most impressive description of it." },
+            learned = { "Put the new knowledge to careful use. Being able to name the technique is only the beginning of understanding it." },
+            quest = { "Read the request closely. A splendid account of your intentions may still leave the required detail unanswered." },
+            newFriend = { "Give them room to recover from the awkward beginning. It need not become the only part of the visit anyone remembers." },
+            thanked = { "You are welcome. I am glad the useful part of the conversation reached you, despite any assistance from the presentation." },
+            group = { "Let everyone finish the thought. A brief interruption is not a reason to decide who should be heard for the rest of the discussion." },
+        },
+    },
+
+    -- Ahanu, Thunder Bluff Leather Armor Merchant/Repair, current Horde Friendly adult Tauren male7623/M2 968705. Full6361/6362/6363/6364 and own craft greeting. Shoulder in skyline sketch original; no invented family with Jahan, free flight, goods or repair.
+    -- Research: docs/research/alynsias-presentation-and-ahanus-landmark.md
+    [8359] = {
+        quote = "That shape beside the tower is my shoulder. My friend said the drawing needed a familiar landmark. I had not thought of myself as part of the view, but I rather like the inclusion.",
+        likes = { "Good leather work used with care", "A friend including him in an ordinary picture", "News carried clearly between colleagues" },
+        dislikes = { "Careless handling after careful making", "Being reduced to the counter he stands behind", "A traveler given hurried directions" },
+        gossip = "A friend's sketch of Thunder Bluff included Ahanu's shoulder. A familiar landmark, they said. He liked being part of the view.",
+        bio = "Ahanu sells leather armor and offers repairs in Thunder Bluff. He values the quality of his wares. His work with Jahan at the Crossroads turns delivered hides into finished leather goods sent back for sale.",
+        backstory = "A friend was sketching Thunder Bluff. When Ahanu leaned over to look, they added his shoulder beside the tower. The picture needed a familiar landmark, they said. He smiled and asked that it stay in the drawing.",
+        secret = "He enjoys knowing that someone remembers him as part of a place they like to visit. A simple picture can hold more welcome than a very elaborate compliment.",
+        bestFriend = "Come along, friend. I am glad to be part of the places and people you choose to remember. Perhaps this time I can leave you a little more sky.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A familiar smile makes a visit feel like more than a stop for useful goods.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Have you brought the drawing? I would like to see whether my shoulder is still beside the tower. You said the view needed a familiar landmark. I had not considered myself part of the landscape, but the inclusion pleased me.", tone = "[warm] [amused]" }, "Welcome back. Tell me how your journey has gone before we decide what needs attention for the next one." },
+            idle = { { "My friend was sketching the city. I leaned over to look, and they added my shoulder beside the tower. A familiar landmark, they said. I asked that it remain. A view can be worth remembering for the people who stand in it.", tone = "[gentle] [reflective]" }, "Well-made goods deserve care after they leave the counter. A sound piece of work should have the chance to serve its purpose.", "A clear message between colleagues is useful work too. The person carrying it helps more than the finished parcel alone can show." },
+            befriended = { { "You have made me feel like someone you are glad to find here, beyond the useful things I can offer. Come along, friend. I am pleased to share a little of the view with you, even if I must remember not to stand in front of all of it.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? If you are drawing again, I can move aside before becoming a larger landmark.", "A moment. I would like to give your question the attention it deserves." },
+            newFriend = { { "Learn a little about the person before deciding you have seen everything the place offers. A familiar face can become part of what makes the road back worth taking, even when there is nothing you need to buy.", tone = "[calm] [thoughtful]" } },
+            gear = { "Look at how it fits and how it has been cared for. A first impression should begin the inspection, not finish it." },
+            quest = { "Keep the goods in useful condition and the message clear. Care does not end when the parcel leaves the hands that prepared it." },
+            bagsFull = { "Make room before pressing the smaller things beneath the rest. Careful packing is kinder to good work than a hurried apology afterward." },
+            rest = { "Let us sit a little. You may enjoy the view, and I shall try to leave more of it visible than I did in the drawing." },
+            thanked = { "I am glad to have helped. It is pleasant when the useful business leaves time for a proper visit." },
+            zone = { "Here we are, friend. Look around at the place and the people. There may be something you will be glad to remember." },
+        },
+    },
+
     -- Dorin Songblade, adult Dwarf male3353/M2 878772, Alliance Friendly Lakeshire armorer. Full95772/95795, Daewyn brother/loss and intended gifts established. Muddy boot excuse original shared memory; no resurrected brother, resolved guilt or free native reward.
     -- Research: docs/research/dorins-memory-and-cawinds-basket.md
     [956] = {

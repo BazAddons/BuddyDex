@@ -4529,6 +4529,20 @@
       "zone": "Feralas",
       "route": "Camp Mojache gunsmith and bowyer",
       "reason": "Fifteen current goods/repair; original upside-down basket and quiet correction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 256732,
+      "name": "Alynsia",
+      "zone": "Redridge Mountains",
+      "route": "Redridge enchanter vendor, current Neutral",
+      "reason": "Forty-one goods and own confident greeting; original interrupted presentation; no positive-access inference; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8359,
+      "name": "Ahanu",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff leather goods and Jahan exchange",
+      "reason": "Full6361/6362/6363/6364, twelve goods and own craft greeting; original shoulder in skyline sketch; fifteen personal lines queued without synthesis"
     }
   ]
 }
