@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Captain Stoutfist, Menethil Keep/Wetlands. Adult Dwarf male5409/M2 878772, Alliance Friendly. Dragonmaw defense and Forever plans/disarmament/statuette/referral branches; written lunch acknowledgment original, not a native reward.
+    -- Research: docs/research/stoutfists-lunch-and-henens-kodos.md
+    [2104] = {
+        quote = "Aye, I acknowledged the stew in writing. It arrived hot, on time, and without requesting reinforcements. Good work deserves to be recognized.",
+        likes = { "A report with something useful in it", "Recovered kit returned to his soldiers", "A hot meal delivered before it is cold" },
+        dislikes = { "Dragonmaw plans left unchallenged", "A warning dressed up as a heroic speech", "Good food forgotten beneath paperwork" },
+        gossip = "Stoutfist once sent a written acknowledgment for a bowl of stew. Nobody is certain whether the bread received a separate commendation.",
+        bio = "Captain Stoutfist directs Menethil Harbor's defense against the Dragonmaw from the keep. He seeks their banners, plans, and captured weapons. Proud of the harbor's royal name, he sends the recovered Menethil Statuette onward rather than risk it in an unsafe town.",
+        backstory = "A visitor left stew beside his reports. He wrote a brief acknowledgment without looking up. After the first mouthful, he realized he had recorded the arrival of lunch as though it were a supply column.",
+        secret = "He kept the little acknowledgment. It reminds him that a hot meal is better eaten than entered into a report. A friend may occasionally have to remind him which comes first.",
+        bestFriend = "Sit down, friend. We'll eat while it's hot. I can recognize yer distinguished service to lunch afterward.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He values a clear mark of respect from someone who understands the duty behind the rank.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are. Come along, friend. If ye brought a report, tell me the useful part first. If ye brought lunch, remind me to eat it before I start composing an acknowledgment.", tone = "[gruff] [wry]" }, "Good to see ye. A harbor needs defenders who can notice the danger before it reaches the gate. Keep yer eyes open, even when the road looks quiet." },
+            idle = { { "The bowl arrived beside me reports. I wrote that it had been received in good order. Hot, too. There have been supply columns with less satisfactory arrivals. Apparently that still made the acknowledgment unusual.", tone = "[dry] [amused]" }, "A banner, a plan, a weapon taken out of enemy hands. Bring me something I can act on, not a fine account of how dangerous the day felt.", "We bear a good king's name here. Pride in it does not make the harbor safe. That's work we must keep doing." },
+            befriended = { { "I've come to value more than yer reports, friend. Come along. Ye may tell me how the day treated ye without first making it useful to the defense of Menethil. I can spare that much attention.", tone = "[reserved] [warm]" } },
+            poke = { "Aye? Is there a report, or has the bread applied for recognition?", "Speak plainly. Ye needn't improve the news before I hear it." },
+            quest = { { "Good work. Fewer weapons in enemy hands is a result worth bringing home. We'll put what can be used into the hands of those who need it, and keep watching what the Dragonmaw do next.", tone = "[firm] [approving]" } },
+            gear = { "Check the kit. A soldier should not have to discover a missing fastening when the fighting begins." },
+            rest = { "A pause, then. If there's food, we eat it now. The written acknowledgment can wait." },
+            group = { "Keep the report clear and make certain everyone knows the task. A loud plan is not necessarily an understood one." },
+            saluteBack = { "Acknowledged. Good to have someone steady beside us." },
+            thanked = { "Glad to have helped. Some things deserve an answer longer than a signature, even if I'm still practicing it." },
+            combatEnd = { "Account for the company and look to the wounded. We can discuss the fine part of the victory afterward." },
+        },
+    },
+
+    -- Henen Ragetotem, Hunter Rise/Thunder Bluff. Adult Tauren female5371/M2 986648, Horde Friendly. No own title/service/quest/gossip verified; no trainer or family inferred from surname. Unfinished two-kodo joke original.
+    -- Research: docs/research/stoutfists-lunch-and-henens-kodos.md
+    [6393] = {
+        quote = "Two kodos were arguing about a patch of shade. No, wait. Let me begin again. I must stop laughing before we reach the second kodo.",
+        likes = { "A joke shared before it is polished", "Company willing to wait for the ending", "A broad view from Hunter Rise" },
+        dislikes = { "Cruelty passed off as cleverness", "A story interrupted to improve the teller", "Laughter used to leave someone outside" },
+        gossip = "Henen has a joke about two kodos that sounds very promising. Several listeners have enjoyed her laughter without yet hearing the ending.",
+        bio = "Henen Ragetotem stands on Hunter Rise in Thunder Bluff. Among the city's busy comings and goings, she enjoys a visitor who will stay for a story. Her composure can survive an imposing introduction much better than the beginning of her own favorite joke.",
+        backstory = "She began a tale of two kodos disputing a patch of shade. Remembering the answer made her laugh too soon. The listener joined in, and the visit became pleasant without either kodo winning the argument.",
+        secret = "She does know the ending. Her attempts fail because she remembers the first listener laughing beside her, which is funnier and dearer to her than the joke itself.",
+        bestFriend = "Stay a moment, friend. I shall try the two kodos again. If I cannot finish, you may sit beside me and make the attempt worse.",
+        favorite = {
+            emote = "GRIN",
+            hint = "She likes the look of someone already sharing her amusement, even before the story is finished.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are, friend. Come along. I believe I can finish the story this time, provided you do not make that face when I mention the second kodo. You know exactly which face I mean.", tone = "[warm] [playful]" }, "Good to see you. Have you brought a story, or shall we make another attempt at the patch of shade?" },
+            idle = { { "Two kodos were arguing about a patch of shade. I remembered the answer and began laughing. Then my listener laughed, and somehow the argument never reached a conclusion. Both kodos have been waiting rather patiently.", tone = "[amused] [bright]" }, "It is a good view from Hunter Rise. You may stop to enjoy it without arranging a grand reason for having paused.", "A joke need not make someone smaller to make the company happier. I prefer the kind that leaves room for everyone listening." },
+            befriended = { { "You have become someone whose laughter I remember before I remember the ending. Come along, friend. We may hear the whole story today, though I should not promise too confidently.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have the kodos reached an agreement without us?", "Give me a moment. I had nearly recovered my composure." },
+            laughAlong = { { "There, now you've done it. I was perfectly ready to finish, and you reminded me why I could not finish the last time. Sit beside me. We may as well enjoy the interruption properly.", tone = "[laughing] [fond]" } },
+            rest = { "A quiet moment. I could attempt the ending now, but there is something pleasant about leaving the two of them to argue a little longer." },
+            newFriend = { "Someone new to the company. Make room for them to enjoy the story before deciding which part they ought to find funny." },
+            group = { "Tell it so everyone can hear. A joke shared with half the circle can leave the rest wondering whether the laughter is at them." },
+            cheerAlong = { "That is worth a happy noise. Let them enjoy their moment without improving it into a competition." },
+            thanked = { "You are welcome. I am glad the visit has left you something pleasant to carry." },
+            zone = { "Take a look around before we move on. A place may offer a little pleasure without putting it directly in our path." },
+        },
+    },
+
     -- Dalria, Trade Goods, Astranaar/Ashenvale. Adult Night Elf female2055/M2 921844, Alliance Friendly. Current30 goods, no own quest/gossip found. String moonstag becoming a snail original.
     -- Research: docs/research/dalrias-snail-and-gryfes-lean.md
     [3954] = {

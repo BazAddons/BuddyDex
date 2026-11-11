@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Captain Stoutfist and Henen Ragetotem: adult Dwarf and Tauren profiles with thirty personal lines queued.
+- Research the Forever military, statuette and Howin referral context; separate original lunch acknowledgment and unfinished-joke scenes from established facts.
+
 - Correct Sarah Goode faction coverage to unverified; a Neutral listing alone does not prove nonattackability.
 - Add Dalria and Gryfe: adult Night Elf and Goblin profiles with thirty personal lines queued.
 - Verify Astranaar trade stock and Marshal Refuge flight dialogue; document original string-game and takeoff-lean scenes.
@@ -577,4 +580,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **851 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **853 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

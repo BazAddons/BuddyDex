@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 851,
-  "written_complete_count": 851,
-  "awaiting_signature_audio_count": 397,
+  "authored_count": 853,
+  "written_complete_count": 853,
+  "awaiting_signature_audio_count": 399,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 399,
+  "remaining_count": 401,
   "completed": [
     {
       "npc_id": 54,
@@ -1612,6 +1612,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 2104,
+      "name": "Captain Stoutfist",
+      "zone": "Wetlands",
+      "source": "Reviewed adult alliance man; Full military and statuette branches; original written lunch acknowledgment; no Scout sighting claimed",
+      "research_notes": "docs/research/stoutfists-lunch-and-henens-kodos.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 2111,
@@ -5657,6 +5669,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 6393,
+      "name": "Henen Ragetotem",
+      "zone": "Thunder Bluff",
+      "source": "Reviewed adult horde woman; Current adult named identity, no verified trainer or own chain; original unfinished two-kodo joke; no Scout sighting claimed",
+      "research_notes": "docs/research/stoutfists-lunch-and-henens-kodos.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 6408,

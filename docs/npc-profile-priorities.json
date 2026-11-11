@@ -4193,6 +4193,20 @@
       "zone": "Un'Goro Crater",
       "route": "Marshals Refuge flight master",
       "reason": "Own flight destination greeting, current Refuge pin; original takeoff lean; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2104,
+      "name": "Captain Stoutfist",
+      "zone": "Wetlands",
+      "route": "Menethil Keep Dragonmaw defense",
+      "reason": "Full military and statuette branches; original written lunch acknowledgment; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6393,
+      "name": "Henen Ragetotem",
+      "zone": "Thunder Bluff",
+      "route": "Hunter Rise named resident",
+      "reason": "Current adult named identity, no verified trainer or own chain; original unfinished two-kodo joke; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Captain Stoutfist and Henen Ragetotem: adult Dwarf and Tauren profiles with thirty personal lines queued.
+- Research the Forever military, statuette and Howin referral context; separate original lunch acknowledgment and unfinished-joke scenes from established facts.
+
 - Correct Sarah Goode faction coverage to unverified; a Neutral listing alone does not prove nonattackability.
 - Add Dalria and Gryfe: adult Night Elf and Goblin profiles with thirty personal lines queued.
 - Verify Astranaar trade stock and Marshal Refuge flight dialogue; document original string-game and takeoff-lean scenes.
