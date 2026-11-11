@@ -4998,5 +4998,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde woman; Current adult identity and sparse personal sources; original ominous courtesy game; no Scout sighting claimed",
     "research_notes": "docs/research/aondas-bench-and-anyas-greeting.md"
+  },
+  {
+    "npc_id": 4256,
+    "name": "Golnir Bouldertoe",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Full6387/6391/6388/6392, native mining pride; original engraved-name memory; no Scout sighting claimed",
+    "research_notes": "docs/research/golnirs-names-and-bronks-flower.md"
+  },
+  {
+    "npc_id": 8158,
+    "name": "Bronk",
+    "zone": "Feralas",
+    "source": "Reviewed adult horde man; Seven current goods and sparse personal sources; original flower in vial; no Scout sighting claimed",
+    "research_notes": "docs/research/golnirs-names-and-bronks-flower.md"
   }
 ]

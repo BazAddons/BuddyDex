@@ -4669,6 +4669,20 @@
       "zone": "Undercity",
       "route": "Named Undercity resident",
       "reason": "Current adult identity and sparse personal sources; original ominous courtesy game; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4256,
+      "name": "Golnir Bouldertoe",
+      "zone": "Ironforge",
+      "route": "Great Forge mining supplier and honorary picks",
+      "reason": "Full6387/6391/6388/6392, native mining pride; original engraved-name memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8158,
+      "name": "Bronk",
+      "zone": "Feralas",
+      "route": "Camp Mojache alchemy supplies",
+      "reason": "Seven current goods and sparse personal sources; original flower in vial; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 396,
+    "alliance": 397,
     "unverified": 183,
-    "horde": 390
+    "horde": 391
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 91,
+    "3": 92,
     "7": 62,
     "2": 102,
     "5": 100,
     "4": 88,
     "9": 67,
     "8": 61,
-    "6": 100,
+    "6": 101,
     "96": 28,
     "95": 52
   },
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 26,
     "Wetlands": 10,
-    "Ironforge": 64,
+    "Ironforge": 65,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 56,
     "Undercity": 22,
@@ -53,7 +53,7 @@
     "Dustwallow Marsh": 2,
     "Desolace": 13,
     "Tanaris": 9,
-    "Feralas": 5,
+    "Feralas": 6,
     "Felwood": 5,
     "Un'Goro Crater": 1,
     "Winterspring": 2,
@@ -5754,6 +5754,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4254"
     },
     {
+      "npc_id": 4256,
+      "name": "Golnir Bouldertoe",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4256"
+    },
+    {
       "npc_id": 4258,
       "name": "Bengus Deepforge",
       "zone": "Ironforge",
@@ -8051,6 +8064,19 @@
       ],
       "reaction_evidence": "Explicit Horde Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8145"
+    },
+    {
+      "npc_id": 8158,
+      "name": "Bronk",
+      "zone": "Feralas",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8158"
     },
     {
       "npc_id": 8305,
@@ -11797,6 +11823,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 919,
-  "awaiting_signature_audio_profiles": 465
+  "authored_profiles": 921,
+  "awaiting_signature_audio_profiles": 467
 }

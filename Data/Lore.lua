@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Golnir Bouldertoe, Great Forge Ironforge Mining Supplier (current Dun Morogh projection), adult Dwarf male3093/M2 878772, Alliance Friendly. Own dwarven-miner pride and full6387/6391/6388/6392 honorary-pick chain. Former learner touching engraved name original; no exact Geofram kinship, free tool or current historical stock guarantee.
+    -- Research: docs/research/golnirs-names-and-bronks-flower.md
+    [4256] = {
+        quote = "An edge can be honed again. A name deserves to be right before the pick leaves my hands. Give me the spelling, not a guess at it. The person carrying the tool will know the difference.",
+        likes = { "Dwarven miners taking pride in the trade", "A name checked before the chisel starts", "The first tool someone is proud to own" },
+        dislikes = { "A careless guess at another person's name", "Good work hurried through its final detail", "Mining dismissed as merely breaking rocks" },
+        gossip = "Golnir checks a name as carefully as an edge. He says the person receiving the pick is likely to inspect both.",
+        bio = "Golnir Bouldertoe supplies miners in Ironforge. He prepares the honorary picks for Brock Stoneseeker's successful students, chiseling their names before sending the tools toward Gryth Thurden for the return to Thelsamar.",
+        backstory = "A former learner once showed him a much-used pick. Before explaining the work it had done, they ran a thumb over their name on the handle. Golnir had expected to hear about the edge. He remembered the gesture longer than the account of the ore.",
+        secret = "He likes knowing that a name may remain important after the tool has become ordinary and worn. The engraving is a small part of the work, but it belongs to the person who earned it.",
+        bestFriend = "There ye are, friend. Tell me what ye've been learning. I like knowing the person behind a name I'm glad to hear again.",
+        favorite = {
+            emote = "THANK",
+            hint = "A sincere thanks for the care in a small detail means more than hurried praise for the whole tool.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Aye, welcome back, friend. If ye've brought a name for the work, give me the spelling before I begin. An edge can be honed again. The person carrying a pick will know whether the letters were given the same care as the rest of it.", tone = "[gruff] [welcoming]" }, "There ye are. Tell me what ye've been learning, friend. I would enjoy hearing the account before ye decide it is too ordinary to mention." },
+            idle = { { "They showed me a pick worn by honest use. Before telling me what it had done, they ran a thumb over their own name on the handle. I had expected to hear about the edge. I remembered that little gesture much longer than the account of the ore.", tone = "[reflective] [warm]" }, "Brock's students earned that recognition. The letters should be right before the picks are sent onward. It is a small part of the work, but not a part to leave careless.", "A miner has reason to be proud of the trade. Ye learn to recognize what lies before ye and put in the work to bring something useful from it." },
+            befriended = { { "Ye have given me more than a name to remember, friend. I have heard what ye care about and what ye've been learning. Come along. I enjoy knowing the person behind the account, especially when they need not make every part of it sound impressive.", tone = "[steady] [fond]" } },
+            poke = { "Aye, friend? Give me a moment to finish this detail properly.", "Yes? I would rather ask the spelling twice than chisel a confident mistake once." },
+            quest = { { "Know whose work ye are carrying and who is waiting at the other end. A list of names is not merely another piece of paper. There are people behind those letters, and they have reason to care whether the delivery reaches them properly.", tone = "[firm] [thoughtful]" } },
+            gear = { "Look after the useful thing once it is yers. The first day is not the only day a good tool deserves care." },
+            learned = { "Remember the work that brought ye to the lesson. Recognition is worth something because there was effort behind it." },
+            rest = { "A short pause. Ye can tell me how the work has been going without turning the account into a contest." },
+            newFriend = { "Learn their name properly. It is a small beginning, and one ye can take the trouble to get right." },
+            thanked = { "Aye, ye're welcome. I am glad the care was noticed. That is worth hearing without a grand speech around it." },
+            group = { "Give each person a chance to say what they are responsible for. A group is easier to trust when nobody disappears into the list." },
+        },
+    },
+
+    -- Bronk, Camp Mojache Feralas Alchemy Supplies, adult Tauren male7380/M2 968705, Horde Friendly. Seven current goods, no own current/Classic quest or captured greeting. Flower in little vial original; no inferred alchemist training, healing service or item grant.
+    -- Research: docs/research/golnirs-names-and-bronks-flower.md
+    [8158] = {
+        quote = "I asked what the flower was for. Looking at, you said. A perfectly adequate answer. I have found a place for the vial where I can remember it without inventing another purpose for it.",
+        likes = { "Useful supplies kept ready for the work", "A flower allowed to be simply beautiful", "A quiet visit with no elaborate explanation" },
+        dislikes = { "A small pleasure required to justify itself", "Careless packing around fragile glass", "Every pause filled with another task" },
+        gossip = "A friend put a flower in Bronk's vial. He asked what it was for. The answer persuaded him to leave it where he could see it.",
+        bio = "Bronk supplies alchemists at Camp Mojache in Feralas. His goods include vials, potion recipes and a healing potion. A flower standing in a little vial has become a private pleasure apart from the uses of his stock.",
+        backstory = "During a quiet visit, a friend placed a flower in an empty vial. Bronk asked what it was for. Looking at, they replied. He considered that, then set it where he could see it. He had been preparing to ask a much more complicated question.",
+        secret = "When a flower fades, he finds another. He likes keeping a little space for something that does not have to be useful before it is welcome.",
+        bestFriend = "Stay a little, friend. You need not bring a reason for every pleasant thing. I am glad to have your company beside the work.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A quiet smile can appreciate the little flower without asking what useful work it will perform.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome back, friend. There is another flower in the little vial. I have not devised a more useful purpose for it, and I am beginning to enjoy that. If you have time, stay a while. You need not prepare a complicated explanation for a pleasant visit either.", tone = "[gentle] [warm]" }, "There you are. What do you need for the work, friend? Or have you a little time to spend in company before returning to it?" },
+            idle = { { "They placed a flower in an empty vial. I asked what it was for. Looking at, they said. I had been preparing a much more complicated question. Instead, I found somewhere to put it where I would remember how sufficient that answer had been.", tone = "[thoughtful] [amused]" }, "A little clear space can be worth keeping. Not every empty part of the day needs another task placed into it.", "I replace the flower when it fades. There is nothing elaborate in the arrangement. I simply enjoy looking over and finding it there." },
+            befriended = { { "You have shared the quiet part of a visit without asking me to turn it into something more useful. I appreciate that, friend. Come along. There is work enough waiting for both of us, and I would enjoy a little company that need not explain its value before being welcome.", tone = "[soft] [affectionate]" } },
+            poke = { "Yes, friend? You need not make the question more complicated before asking it.", "A moment. I am giving this small pleasant thing a little attention before returning to the next task." },
+            bagsFull = { { "Pack the fragile things where you can find them without breaking what surrounds them. A useful supply deserves a little care on the journey. So does something you brought simply because you like it. Neither is improved by being crushed beneath everything else.", tone = "[calm] [practical]" } },
+            rest = { "A pause, then. We may enjoy it without deciding what it ought to accomplish." },
+            newFriend = { "Ask what they enjoy as well as what they can do. A person deserves some room beyond the work they are useful for." },
+            thanked = { "You are welcome. I am glad it helped. There is no need to make the thanks elaborate; I heard the care in it." },
+            quest = { "Know what the task requires. You need not invent a second purpose for every ordinary thing you notice on the way." },
+            zone = { "Here we are. There may be something worth looking at before we ask what we can make of it." },
+            group = { "Let each person speak. The quiet one may have something to contribute without making the contribution sound grand." },
+        },
+    },
+
     -- Constable Aonda, Shendar Zephras Isle Peacekeeper, adult High Order female138153/M2 7478494, both factions Friendly. Full current campaign/referral/variants/signets/bounty and two captured greetings. Breezy-bench dispute original; no rescued dead watch, finished campaign or native authority/reward through friendship.
     -- Research: docs/research/aondas-bench-and-anyas-greeting.md
     [251523] = {

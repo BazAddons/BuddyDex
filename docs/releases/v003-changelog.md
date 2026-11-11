@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Golnir Bouldertoe and Bronk: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Ground Golnir in the honorary-pick delivery and Bronk in current Feralas supplies; document original friendship stories.
+
 - Add Constable Aonda and Anya Rince: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Research the Shen'dar defense campaign; expand both-faction starter-region and Horde resident coverage.
 
@@ -679,4 +682,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **919 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **921 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

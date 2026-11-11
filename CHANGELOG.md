@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Golnir Bouldertoe and Bronk: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Ground Golnir in the honorary-pick delivery and Bronk in current Feralas supplies; document original friendship stories.
+
 - Add Constable Aonda and Anya Rince: full Skyborne and Forsaken profiles, thirty personal lines queued.
 - Research the Shen'dar defense campaign; expand both-faction starter-region and Horde resident coverage.
 
