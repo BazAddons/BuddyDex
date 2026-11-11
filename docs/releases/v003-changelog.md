@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Prospector Whelgar and Breyk: full Dwarf and Orc profiles, thirty personal lines queued.
+- Research both added Forever archaeology chains and preserve Breyk’s elite friendship thresholds at Stonard.
+
 - Add Jern Hornhelm and Bulrug: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Read the complete excavation supply routes and preserve Jern’s ambition; give Thunder Bluff’s stable master a distinct original farewell story.
 
@@ -706,4 +709,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **937 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eighty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **939 fully written NPC profiles**: 454 have initial signature recordings, and four hundred eighty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

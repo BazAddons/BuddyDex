@@ -5124,5 +5124,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Current stable service and primary city reference; original repeated last farewell; no Scout sighting claimed",
     "research_notes": "docs/research/jerns-questions-and-bulrugs-farewell.md"
+  },
+  {
+    "npc_id": 1077,
+    "name": "Prospector Whelgar",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance identity; Full current Goaz Stone and relic-delivery chains; original lamp-helper credit; no Scout sighting claimed",
+    "research_notes": "docs/research/whelgars-credit-and-breyks-destination.md"
+  },
+  {
+    "npc_id": 6026,
+    "name": "Breyk",
+    "zone": "Swamp of Sorrows",
+    "source": "Reviewed adult horde identity; Native destination question and current flight service; original dry-socks journey joke; no Scout sighting claimed",
+    "research_notes": "docs/research/whelgars-credit-and-breyks-destination.md"
   }
 ]

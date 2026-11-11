@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Prospector Whelgar, Explorers League, Wetlands excavation, adult older Dwarf male1399/M2 878772, Alliance Friendly normal. Full current299/98216/98310/98313 and95810/98824 chains reviewed including progress/completions. Lamp-helper credit original; no completed prophecy or later retail retreat.
+    -- Research: docs/research/whelgars-credit-and-breyks-destination.md
+    [1077] = {
+        quote = "Ye held the lamp steady. That belongs in the account as surely as my part does. A discovery grows enough grand names afterward; I would rather not lose the useful ones at the beginning.",
+        likes = { "A discovery with its finder credited", "Careful hands around a fragile relic", "The next words coming clear" },
+        dislikes = { "A name lost beneath an impressive title", "Damage done in a hurry to claim a find", "A mystery declared solved too soon" },
+        gossip = "Whelgar added a lamp-holder to his working notes. He says a useful pair of hands deserves a name, even when it held no relic.",
+        bio = "Prospector Whelgar studies the Goaz Stone at his Wetlands excavation. Age keeps him from braving the beasts below. He seeks help with titan relics and constructs, sharing discoveries with Ironforge's scholars and crediting their finders.",
+        backstory = "A friend held a lamp while he examined a small find. They joked that the lamp deserved the credit. Whelgar asked for the name of the person holding it, then added that help to his notes. He would not have the steady hands disappear from the account.",
+        secret = "He enjoys imagining a discovery remembered long after the dig. Still, the moment he can thank the person beside him is a pleasure no future catalogue can supply.",
+        bestFriend = "Let the catalogue have its grand account, friend. I know whose hands were here. Sit a moment; I am pleased to have ye beside me again.",
+        favorite = {
+            emote = "THANK",
+            hint = "A sincere thank-you recognizes the quiet help he wants remembered beside a discovery.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Come close enough to tell me how ye have been. I can admire a promising find after I have greeted the person who brought it.", tone = "[gruff] [warm]" }, "Welcome back. A new mystery, or company while I puzzle over the last one? Both have their place here." },
+            idle = { { "They said the lamp deserved the credit. Aye, but someone held it steady. I asked for that person's name. A useful pair of hands should not vanish from the account simply because it carried no relic.", tone = "[thoughtful] [pleased]" }, "One newly translated passage can turn a find into a far larger question. I am excited by that, certainly. Excitement is no reason to pretend we have reached the answer.", "I can imagine the catalogue already. Then I remind myself to finish examining what is actually in front of me. A grand account ought to have sound work beneath it." },
+            befriended = { { "Sit beside me, friend. I remember the help, and I am glad of the company. We need not wait for a museum to tell us that this part deserves to be valued.", tone = "[hearty] [sincere]" } },
+            poke = { "Aye? Give me a moment to look away from the marks properly. Ye deserve more than half an ear.", "Careful there, friend. I would rather hear yer question than the sound of something fragile falling." },
+            loot = { { "Look carefully before ye handle it. Notice where it came from and who helped recover it. The object may tell us a great deal, but it will not supply every part of that account by itself.", tone = "[intent] [instructive]" } },
+            quest = { "Bring back what ye truly observed. A promising theory gives us a reason to investigate, not permission to fill the gaps with what we hoped to find." },
+            newFriend = { "Ask their name. An impressive introduction is no substitute for remembering who actually stood beside ye." },
+            group = { "Remember the ones keeping the work possible. Not every useful task leaves a relic in the hands doing it." },
+            thanked = { "Ye're welcome. And ye have my thanks as well. I should be a poor keeper of the account if I forgot that part." },
+            rest = { "A pause, then. There will still be marks to puzzle over when we have given our eyes a little rest." },
+            mail = { "Keep the account with the package. The scholar receiving it should know what was found, and whose care brought it this far." },
+        },
+    },
+
+    -- Breyk, Stonard Wind Rider Master, adult Orc male4725/M2 917116, Horde Friendly elite55. Own destination question and current flight service; no personal quests found. Dry-socks destination joke original; no new route, weather guarantee, free flight or elite-threshold override.
+    -- Research: docs/research/whelgars-credit-and-breyks-destination.md
+    [6026] = {
+        quote = "Somewhere with dry socks is a fine ambition. I still need a destination. Give me the name of the place, and we can leave the condition of its laundry out of the directions.",
+        likes = { "A destination named plainly", "A traveler returning with a good joke", "Care given to the wind riders" },
+        dislikes = { "A wish offered in place of directions", "Travel plans made without listening", "A creature treated like a spare saddle" },
+        gossip = "Breyk asked a friend where they wanted to fly. They answered, 'Somewhere with dry socks.' He still asks how that journey is progressing.",
+        bio = "Breyk is Stonard's wind rider master in the Swamp of Sorrows. He asks travelers where they wish to fly. His work begins with a destination, though an exasperated answer about damp socks has given him a question to save for a friend's return.",
+        backstory = "A damp visitor requested somewhere with dry socks. Breyk asked for a place-name. At their next meeting, the friend proudly announced that their socks were dry. Breyk congratulated them on reaching a destination absent from his original question.",
+        secret = "He likes being remembered after a departure. The socks are an excuse to ask how the journey went, with room for a friend to answer as more than a passing traveler.",
+        bestFriend = "There you are, friend. Socks dry? Good. Now tell me how the rest of the journey treated you. I have been wanting the account.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin welcomes his familiar question about the progress of a journey toward dry socks.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Socks dry? Good. Now I would like to hear how the rest of the journey treated you, if you have a moment to spare.", tone = "[gruff] [amused]" }, "Welcome back, friend. A destination this time, or another ambition concerning the condition of your clothing?" },
+            idle = { { "Somewhere with dry socks, they said. I asked for a place-name. Next time they came back looking pleased with themselves. Socks dry, journey successful. Apparently I had asked the smaller question.", tone = "[dry] [chuckling]" }, "Tell me where you mean to go. I can listen to why afterward without having to guess which place your description is meant to identify.", "A traveler can return with more than another request. I enjoy hearing how the journey went when there is time to tell it." },
+            befriended = { { "Come along, friend. I would like the account that comes after the destination. You have become someone I am pleased to see again, not merely someone waiting to depart.", tone = "[steady] [warm]" } },
+            poke = { "Yes? Give me the place-name first. I shall consider the socks afterward.", "A moment. I am listening for the answer, not deciding it for you." },
+            taxi = { { "A destination, then. Dry socks remain a worthy ambition, but they are still a poor set of directions. Tell me the place you mean before describing how pleased you expect to be on arrival.", tone = "[firm] [playful]" } },
+            landed = { "There, arrived. I shall leave you to judge the socks. I would be glad to hear about the rest when you have a chance." },
+            mount = { "Attend to the creature carrying you. The journey asks something of it as well." },
+            newFriend = { "Ask where they are going before telling them where you would go. Those are not always the same question." },
+            group = { "Make certain you have agreed on the destination. A confident departure is a poor time to discover everyone meant a different place." },
+            rest = { "A pause suits me. We may share a little time without either of us needing to name the next stop." },
+            thanked = { "You are welcome. Return with the account when you can. I would like to hear how it went." },
+        },
+    },
+
     -- Jern Hornhelm, Explorers League bookkeeper in Thelsamar, adult Dwarf male1572/M2 878772, Alliance Friendly. Native frustrated prospector ambition; full436/297 and298/301/302/273/454/309 routes reviewed. Future-expedition question list original, no promised career change or blame for stolen powder.
     -- Research: docs/research/jerns-questions-and-bulrugs-farewell.md
     [1105] = {

@@ -4795,6 +4795,20 @@
       "zone": "Thunder Bluff",
       "route": "Lower Rise stable master",
       "reason": "Current stable service and primary city reference; original repeated last farewell; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1077,
+      "name": "Prospector Whelgar",
+      "zone": "Wetlands",
+      "route": "Whelgars Excavation Site scholar",
+      "reason": "Full current Goaz Stone and relic-delivery chains; original lamp-helper credit; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6026,
+      "name": "Breyk",
+      "zone": "Swamp of Sorrows",
+      "route": "Elite Stonard wind rider master",
+      "reason": "Native destination question and current flight service; original dry-socks journey joke; fifteen personal lines queued without synthesis"
     }
   ]
 }
