@@ -1,5 +1,9 @@
 # Unreleased
 
+- Correct Sarah Goode faction coverage to unverified; a Neutral listing alone does not prove nonattackability.
+- Add Dalria and Gryfe: adult Night Elf and Goblin profiles with thirty personal lines queued.
+- Verify Astranaar trade stock and Marshal Refuge flight dialogue; document original string-game and takeoff-lean scenes.
+
 - Add Brewmeister Bilger and Sarah Goode: adult Dwarf and Forsaken regional profiles with thirty personal lines queued.
 - Research Bilger’s full moonshine and Forever brewing quests; document original farewell and greeting scenes separately from established facts.
 

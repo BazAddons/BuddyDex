@@ -4179,6 +4179,20 @@
       "zone": "Silverpine Forest",
       "route": "Sepulcher stable master",
       "reason": "Current stable title/map and no own quest/gossip; original growl-and-squeak practice; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3954,
+      "name": "Dalria",
+      "zone": "Ashenvale",
+      "route": "Astranaar trade goods and enchanting-formula seller",
+      "reason": "Thirty current goods; no own quests; original string moonstag and snail; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10583,
+      "name": "Gryfe",
+      "zone": "Un'Goro Crater",
+      "route": "Marshals Refuge flight master",
+      "reason": "Own flight destination greeting, current Refuge pin; original takeoff lean; fifteen personal lines queued without synthesis"
     }
   ]
 }

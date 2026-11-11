@@ -4508,5 +4508,19 @@
     "zone": "Silverpine Forest",
     "source": "Reviewed adult horde woman; Current stable title/map and no own quest/gossip; original growl-and-squeak practice; no Scout sighting claimed",
     "research_notes": "docs/research/bilgers-farewell-and-sarahs-greeting.md"
+  },
+  {
+    "npc_id": 3954,
+    "name": "Dalria",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult alliance woman; Thirty current goods; no own quests; original string moonstag and snail; no Scout sighting claimed",
+    "research_notes": "docs/research/dalrias-snail-and-gryfes-lean.md"
+  },
+  {
+    "npc_id": 10583,
+    "name": "Gryfe",
+    "zone": "Un'Goro Crater",
+    "source": "Reviewed adult horde man; Own flight destination greeting, current Refuge pin; original takeoff lean; no Scout sighting claimed",
+    "research_notes": "docs/research/dalrias-snail-and-gryfes-lean.md"
   }
 ]

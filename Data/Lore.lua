@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Dalria, Trade Goods, Astranaar/Ashenvale. Adult Night Elf female2055/M2 921844, Alliance Friendly. Current30 goods, no own quest/gossip found. String moonstag becoming a snail original.
+    -- Research: docs/research/dalrias-snail-and-gryfes-lean.md
+    [3954] = {
+        quote = "Hold that loop, please. This was meant to be a moonstag. If we lower our expectations slightly, it is a very respectable snail.",
+        likes = { "Patient hands holding the other loop", "A clever use for an ordinary thread", "A mistake that becomes a better game" },
+        dislikes = { "Cutting a knot before trying to free it", "Good supplies scattered in the dirt", "Calling a learner clumsy for one slip" },
+        gossip = "Dalria can make a little forest out of string. The creature living in it depends on which loop slipped while she was explaining.",
+        bio = "Dalria sells trade goods in Astranaar, Ashenvale. Thread, dyes, tools, vials, and enchanting formulas make her counter useful to many crafts. Away from the stock, a spare length of string is enough to occupy her hands and invite a friend into a game.",
+        backstory = "Showing a visitor a string moonstag, she lost the antlers to a slipping loop. The shape left between their hands looked rather like a snail. They spent the rest of the attempt giving it a suitably dignified pair of feelers.",
+        secret = "She remembers the snail more fondly than several figures she can make correctly. There is something pleasing about a game improved by the part that went wrong.",
+        bestFriend = "Your loop, friend. We can attempt the moonstag again, but I should be very happy to see how our snail is getting along.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She enjoys seeing someone find pleasure in an imperfect little creation.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. I have remembered most of the moonstag, though I make no promises about its antlers. Keep a hand free in case our snail needs assistance.", tone = "[gentle] [playful]" }, "Good to see you. Shall we see what an ordinary bit of thread can become when neither of us is in too much of a hurry?" },
+            idle = { { "One loop slipped, the antlers vanished, and our moonstag became a snail. We gave it a fine pair of feelers. I have made more elaborate figures since, but I remember that one rather better.", tone = "[warm] [amused]" }, "A knot deserves a look before you cut it. Sometimes the useful loop is merely hiding behind the part you have been pulling.", "Good thread has many purposes. Not all of them need to leave you with something you can wear or sell." },
+            befriended = { { "I like having someone who will hold the other loop without demanding that the whole figure be impressive. Come along, friend. We may discover something delightful by getting it slightly wrong.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have the antlers deserted us again?", "Hold there a moment. I believe that loop belongs to your hand." },
+            learned = { { "Try it slowly. If the shape changes, look at what your hands have made before deciding it is spoiled. Our best snail began as a rather unsuccessful moonstag.", tone = "[patient] [encouraging]" } },
+            gear = { "Check the thread before trusting the seam. A fine color cannot persuade a weak fastening to hold." },
+            bagsFull = { "Keep the dyes away from anything you would prefer to remain its present color." },
+            rest = { "A little time for our hands to be idle, or to invent a creature with fewer troublesome antlers." },
+            group = { "Someone hold the other loop. The person with the quickest hands need not take every turn." },
+            thanked = { "You are welcome. I am pleased the useful part reached you before I began explaining the snail." },
+            newFriend = { "A new pair of hands. Perhaps they know a figure neither of us has seen." },
+        },
+    },
+
+    -- Gryfe, Flight Master, Marshals Refuge/UnGoro. Adult Goblin male143568/M2 119376, Horde Friendly icon. Own destination greeting, no own quest. Grounded takeoff-lean and boot inspection original; no later Marshals Stand relocation.
+    -- Research: docs/research/dalrias-snail-and-gryfes-lean.md
+    [10583] = {
+        quote = "I wasn't leaning into the turn. I was checking the slope. Very thorough inspection. You want to fly somewhere, or discuss my professional stance?",
+        likes = { "A rider clear of the ledge in good order", "A proper wave before takeoff", "A view that still catches him looking" },
+        dislikes = { "A loose pack discovered at departure", "People crowding the takeoff space", "Witnesses counting how far he leans" },
+        gossip = "Gryfe sometimes leans as a departing rider banks away. Ask about it, and he will explain that the ground required inspection.",
+        bio = "Gryfe is the goblin flight master at Marshal's Refuge in Un'Goro Crater. He offers travelers an airborne way onward from the northern camp. His businesslike question about a destination comes before his less businesslike habit of following a takeoff with his whole posture.",
+        backstory = "Watching a rider bank, he caught himself tilting after them. A visitor noticed. Gryfe bent to examine his boot and announced he had been checking his footing. Unfortunately, the visitor stayed to watch the next departure.",
+        secret = "He keeps watching until the rider is clear, even when nobody is waiting to pay. He knows the little lean accomplishes nothing. It has proved remarkably difficult to stop.",
+        bestFriend = "There you are, friend. You can stand beside me for this departure. If I lean, you can inspect the ground with me.",
+        favorite = {
+            emote = "WAVE",
+            hint = "He appreciates a clear farewell before a traveler leaves the ground.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are! Come along, friend. I've checked the footing, the slope, and every other possible explanation for that lean. You're welcome to suggest another if you think of a convincing one.", tone = "[brisk] [wry]" }, "Good to see you. Got a destination in mind, or are we taking a moment to appreciate how much room a proper departure needs?" },
+            idle = { { "The rider banked, I tilted, and someone noticed. I checked my boot. Perfectly sensible response. Then they waited for the next departure, which struck me as an unreasonable commitment to the investigation.", tone = "[animated] [dry]" }, "Watch until they're clear. You don't have to turn it into a speech. Just don't decide the departure is finished before it actually is.", "Yeah, the view's impressive. I can appreciate it and still remember I've got a job. Usually in that order, if nobody's keeping track." },
+            befriended = { { "I like having you around, even when you're noticing things I would prefer to call professional technique. Come along, friend. A good witness ought to see more than one embarrassing part of the day.", tone = "[warm] [amused]" } },
+            poke = { "What? Is the ground leaning, too?", "If this is about my boot, the inspection was conclusive." },
+            taxi = { { "Keep your pack secure and give the departure room. Once you're clear, enjoy the view. I'll be here making a perfectly unnecessary adjustment to my posture.", tone = "[brisk] [reassuring]" } },
+            landed = { "Down in good order. Take a moment before you start unloading everything you brought." },
+            bagsFull = { "Know what's fastened and what's just balanced there hopefully. Those are different packing methods." },
+            zone = { "Take a look around. Some places make even a fellow who works there stop and look again." },
+            rest = { "A pause sounds fine. I'm capable of standing still without following anyone into a turn. This should demonstrate it." },
+            thanked = { "You're welcome. Glad you got where you were going. That's the useful part of the arrangement." },
+            waveBack = { "There you go. A proper sendoff. Much easier to explain than the leaning." },
+        },
+    },
+
     -- Brewmeister Bilger, Southshore/Hillsbrad. Adult Dwarf male1663/M2 878772, Alliance Friendly. Full647 and98071 establish debt, Dun Garok hops trade and fondness for its halls. Coat-and-farewell scene original.
     -- Research: docs/research/bilgers-farewell-and-sarahs-greeting.md
     [2705] = {

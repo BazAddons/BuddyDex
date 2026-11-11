@@ -1,5 +1,9 @@
 # BuddyDex v003
 
+- Correct Sarah Goode faction coverage to unverified; a Neutral listing alone does not prove nonattackability.
+- Add Dalria and Gryfe: adult Night Elf and Goblin profiles with thirty personal lines queued.
+- Verify Astranaar trade stock and Marshal Refuge flight dialogue; document original string-game and takeoff-lean scenes.
+
 - Add Brewmeister Bilger and Sarah Goode: adult Dwarf and Forsaken regional profiles with thirty personal lines queued.
 - Research Bilger’s full moonshine and Forever brewing quests; document original farewell and greeting scenes separately from established facts.
 
@@ -573,4 +577,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **849 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **851 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
