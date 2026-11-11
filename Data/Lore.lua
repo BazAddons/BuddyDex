@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ayessa Dawnsinger, Grand Skyseer, Valanaar, Zephras. Adult Windshaper female137633/M2 7478494, Horde Friendly/Alliance Hostile. Own faction-sensitive gossip and eleven linked quest records; unfinished homeward map line original.
+    -- Research: docs/research/ayessas-return-line-and-dirges-recipe.md
+    [251968] = {
+        quote = "The journey below is a means of saving our home. Remember that when the first wonder tempts you to forget why we came.",
+        likes = { "Windshapers returning with useful knowledge", "A promise followed by preparations", "A friend willing to question her certainty" },
+        dislikes = { "High Order meddling with entrusted magic", "Cult violence excused as a misunderstanding", "Resolve offered in place of a sound answer" },
+        gossip = "Ayessa draws the way home before marking the outward journey. The return line remains unfinished, and she will not erase it.",
+        bio = "Ayessa Dawnsinger leads the Windshapers as Grand Skyseer in Valanaar. Fiercely protective of Zephras, she distrusts the High Order and demands blood for slain novices. She seeks Azeroth's knowledge and the Earthen Ring's aid to save her island.",
+        backstory = "Preparing a map for discussion, she drew the homeward line first. A question about the outward route made her pause. She left room for what they had yet to learn, but kept the line that explained why they would go.",
+        secret = "She has not finished that return line. It is a hope she means to make practical, and a trusted friend may see the uncertainty without being asked to call it weakness.",
+        bestFriend = "You may tell me when resolve has outrun the answer, friend. Stay beside me while we find the means to bring our people home.",
+        favorite = {
+            emote = "NOD",
+            hint = "She values a steady acknowledgment that understands the purpose without pretending the difficult questions are answered.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Walk beside me. If you have learned something useful, speak plainly. If you have found a fault in the plan, I would hear it before we trust lives to it.", tone = "[resolute] [measured]" }, "You are welcome here, friend. What have you seen that I have not? We gain little by repeating only what is already comfortable to hear." },
+            idle = { { "I marked the way home before the outward journey. The line is unfinished because there is work we have not yet done, not because I have forgotten where our purpose lies.", tone = "[quiet] [determined]" }, "The Windshapers remember the blood our people have lost. Cooperation against a greater danger does not erase every debt between those who stand together.", "There is knowledge beyond Skywall that we need. Recognizing that need does not make Zephras less our home." },
+            befriended = { { "You have become someone whose judgment I am willing to hear when certainty would be easier. Stay beside me, friend. I value the person who helps a promise become possible.", tone = "[reserved] [sincere]" } },
+            poke = { "Yes? Have you found the part I have not allowed enough room for?", "Speak. You need not dress a useful question as agreement." },
+            quest = { { "Finished. Tell me what the result changes, and what remains uncertain. We must build the next step on what has been learned, not only on what we hoped.", tone = "[firm] [focused]" } },
+            learned = { "Then make the knowledge useful. A discovery should improve what our people can do when the next trial comes." },
+            zone = { "Look carefully. We need more from a new place than a name we can add to the account of our travels." },
+            group = { "Know why you stand together. Shared purpose may carry people through a danger without settling every difference between them." },
+            rest = { "A pause is part of readiness. We cannot ask clear judgment from people whose strength we have spent without thought." },
+            newFriend = { "Someone new. Learn what they know before deciding what place they must take in your plan." },
+            hearth = { "A return. Remember the purpose that made the outward journey worth taking." },
+        },
+    },
+
+    -- Dirge Quikcleave, Gadgetzan butcher, Tanaris. Adult goblin male7338/M2 119376, Horde Neutral: positive access unverified. Own drought/meat gossip, full cooking and Narain food subchains,13currentgoods; stained signed recipe original.
+    -- Research: docs/research/ayessas-return-line-and-dirges-recipe.md
+    [8125] = {
+        quote = "A recipe kept spotless tells me you can preserve paper. Bring me the one you have actually cooked from. Then we can talk about your progress.",
+        likes = { "A well-used recipe with the meal to match", "Good ingredients arriving before they spoil", "An appetite equal to the sales pitch" },
+        dislikes = { "A culinary masterpiece judged before tasting", "Rare meat neglected while somebody talks", "His instructions admired but never tried" },
+        gossip = "Dirge enjoys praise for a recipe. A returning cook with a grease-spotted copy can hold his attention longer.",
+        bio = "Dirge Quikcleave is Gadgetzan's butcher and an ambitious cook. His clamlettes draw aspiring cooks from afar. For Narain's extraordinary chicken request, he devises a chimaerok substitution and a recipe involving rocket fuel and deeprock salt.",
+        backstory = "A customer asked him to sign a clean recipe. Dirge obliged with a flourish. When the same copy returned creased and spattered, he inspected the stains before his own signature, then asked how the dish had turned out.",
+        secret = "He likes evidence that somebody used what he taught. A stained page may earn more of his private pride than a pristine copy saved only to prove they met him.",
+        bestFriend = "Bring me the battered copy, friend. Tell me what worked and what went wrong. I would rather hear about your cooking than admire my signature.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "He welcomes an appreciative response to a culinary flourish, especially after someone has actually tried the result.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. Come along. If you have cooked from the recipe, tell me how it went. I can admire my own signature without an assistant, but that part requires you.", tone = "[brisk] [wry]" }, "Good to see you. Brought an appetite, a useful ingredient, or an account of the last dish? Any of those could improve the conversation." },
+            idle = { { "Somebody brought my signed recipe back covered in grease spots. They thought I would complain. I wanted to know how the meal turned out. The paper had finally done something useful.", tone = "[animated] [pleased]" }, "An extraordinary request requires an extraordinary solution. Sometimes it also requires asking what, precisely, the customer will accept as a chicken.", "Meat does not become better while you explain how impressive the delivery was. Take the praise after the ingredients have been properly handled." },
+            befriended = { { "You have become somebody I am pleased to see without a rare carcass in your pack. Come along, friend. I should like to hear what you have been making of the day.", tone = "[confident] [warm]" } },
+            poke = { "Yes? Is there a dish behind that question, or are we examining my signature again?", "Go on. If something went wrong, telling me the useful part will get us farther than defending the entire performance." },
+            loot = { { "Look at the condition before planning the masterpiece. A grand description will not make spoiled ingredients fit for the pan.", tone = "[brisk] [instructive]" } },
+            learned = { "Good. Now try it carefully. Instructions that never reach the work are only something else you can claim to have collected." },
+            bagsFull = { "Make room for what needs care. Crushing everything together is not a clever new method of preparation." },
+            quest = { "Delivered. Now we can discuss what the useful ingredients will become instead of how remarkable the errand sounded." },
+            rest = { "A pause. Let the appetite catch up with the ambition before promising the next enormous meal." },
+            thanked = { "You are welcome. I am pleased the useful part survived all the admiration." },
+            newFriend = { "Somebody new. Find out what they actually enjoy before arranging an impressive dish they never asked to eat." },
+        },
+    },
+
     -- Innkeeper Keldamyr, Dolanaar, Teldrassil. Adult night elf male5440/M2 974343, Alliance Friendly. Full2159, own rest/hearth gossip and12goods; questions at first bite and familiar-road pleasure original.
     -- Research: docs/research/keldamyrs-questions-and-yorns-weave.md
     [6736] = {

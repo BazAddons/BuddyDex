@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ayessa Dawnsinger and Dirge Quikcleave: adult Windshaper and Goblin profiles with thirty personal lines queued.
+- Review faction-sensitive Windshaper leadership and the cooking/chimaerok subchains; document identity variants and original map-line/used-recipe scenes.
+
 - Add Innkeeper Keldamyr and Yorn Grimtotem: adult Night Elf and Tauren profiles with thirty personal lines queued.
 - Review the Dolanaar herb delivery and full crystalline-silk quest text; document original conversational-host and pattern-drawing scenes.
 

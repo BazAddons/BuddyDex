@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 828,
-  "written_complete_count": 828,
-  "awaiting_signature_audio_count": 374,
+  "authored_count": 830,
+  "written_complete_count": 830,
+  "awaiting_signature_audio_count": 376,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 376,
+  "remaining_count": 378,
   "completed": [
     {
       "npc_id": 54,
@@ -5998,6 +5998,18 @@
       "status": "complete"
     },
     {
+      "npc_id": 8125,
+      "name": "Dirge Quikcleave",
+      "zone": "Tanaris",
+      "source": "Reviewed adult unverified man; Own meat/drought gossip and full cooking/Narain food subchains; Horde Neutral positive access unverified; original stained signed recipe; no Scout sighting claimed",
+      "research_notes": "docs/research/ayessas-return-line-and-dirges-recipe.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "goblin-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 8137,
       "name": "Gikkix",
       "zone": "Tanaris",
@@ -7612,6 +7624,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult alliance+horde woman; Full92532 and resolve gossip; original last learner scene; no Scout sighting claimed",
       "research_notes": "docs/research/aedis-hammer-and-rens-last-learner.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 251968,
+      "name": "Ayessa Dawnsinger",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult horde woman; Eleven own quest records and faction-sensitive gossip; reviewed same-person253813/253849 not separately authored; original homeward map line; no Scout sighting claimed",
+      "research_notes": "docs/research/ayessas-return-line-and-dirges-recipe.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

@@ -4361,5 +4361,19 @@
     "zone": "Mulgore",
     "source": "Reviewed adult unverified man; Full96260, Horde Neutral with positive access unverified; original drawing before measurements; no Scout sighting claimed",
     "research_notes": "docs/research/keldamyrs-questions-and-yorns-weave.md"
+  },
+  {
+    "npc_id": 251968,
+    "name": "Ayessa Dawnsinger",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult horde woman; Eleven own quest records and faction-sensitive gossip; reviewed same-person253813/253849 not separately authored; original homeward map line; no Scout sighting claimed",
+    "research_notes": "docs/research/ayessas-return-line-and-dirges-recipe.md"
+  },
+  {
+    "npc_id": 8125,
+    "name": "Dirge Quikcleave",
+    "zone": "Tanaris",
+    "source": "Reviewed adult unverified man; Own meat/drought gossip and full cooking/Narain food subchains; Horde Neutral positive access unverified; original stained signed recipe; no Scout sighting claimed",
+    "research_notes": "docs/research/ayessas-return-line-and-dirges-recipe.md"
   }
 ]

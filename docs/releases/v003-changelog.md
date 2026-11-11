@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Ayessa Dawnsinger and Dirge Quikcleave: adult Windshaper and Goblin profiles with thirty personal lines queued.
+- Review faction-sensitive Windshaper leadership and the cooking/chimaerok subchains; document identity variants and original map-line/used-recipe scenes.
+
 - Add Innkeeper Keldamyr and Yorn Grimtotem: adult Night Elf and Tauren profiles with thirty personal lines queued.
 - Review the Dolanaar herb delivery and full crystalline-silk quest text; document original conversational-host and pattern-drawing scenes.
 
@@ -543,4 +546,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **828 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-four new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **830 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-six new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

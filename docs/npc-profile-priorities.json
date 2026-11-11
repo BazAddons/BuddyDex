@@ -4032,6 +4032,20 @@
       "zone": "Mulgore",
       "route": "Earthen Ring crystalline-silk researcher",
       "reason": "Full96260, Horde Neutral with positive access unverified; original drawing before measurements; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251968,
+      "name": "Ayessa Dawnsinger",
+      "zone": "Zephras Isle",
+      "route": "Valanaar Windshaper leader",
+      "reason": "Eleven own quest records and faction-sensitive gossip; reviewed same-person253813/253849 not separately authored; original homeward map line; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8125,
+      "name": "Dirge Quikcleave",
+      "zone": "Tanaris",
+      "route": "Gadgetzan butcher and cook",
+      "reason": "Own meat/drought gossip and full cooking/Narain food subchains; Horde Neutral positive access unverified; original stained signed recipe; fifteen personal lines queued without synthesis"
     }
   ]
 }
