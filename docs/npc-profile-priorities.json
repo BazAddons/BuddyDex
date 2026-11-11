@@ -4977,6 +4977,20 @@
       "zone": "Undercity",
       "route": "Royal Apothecary Society understudy",
       "reason": "Full97985 including macabre progress and abomination completion; original numbered chair reconstruction; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1218,
+      "name": "Herbalist Pomeroy",
+      "zone": "Elwynn Forest",
+      "route": "Herbalism trainer near Stormwind and Northshire",
+      "reason": "Five current lessons and complete97921 camping context; original leaf caught in hair after a walk; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2855,
+      "name": "Snang",
+      "zone": "Orgrimmar",
+      "route": "Journeyman tailor in the Drag",
+      "reason": "Three native greetings, Magar referral and complete96102/Brakk camping context; original empty spool race; fifteen personal lines queued without synthesis"
     }
   ]
 }

@@ -5306,5 +5306,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde identity; Full97985 including macabre progress and abomination completion; original numbered chair reconstruction; no Scout sighting claimed",
     "research_notes": "docs/research/adeles-sir-prickle-and-calders-chair.md"
+  },
+  {
+    "npc_id": 1218,
+    "name": "Herbalist Pomeroy",
+    "zone": "Elwynn Forest",
+    "source": "Reviewed adult alliance identity; Five current lessons and complete97921 camping context; original leaf caught in hair after a walk; no Scout sighting claimed",
+    "research_notes": "docs/research/pomeroys-leaf-and-snangs-spools.md"
+  },
+  {
+    "npc_id": 2855,
+    "name": "Snang",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde identity; Three native greetings, Magar referral and complete96102/Brakk camping context; original empty spool race; no Scout sighting claimed",
+    "research_notes": "docs/research/pomeroys-leaf-and-snangs-spools.md"
   }
 ]

@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 417,
+    "alliance": 418,
     "unverified": 184,
-    "horde": 415
+    "horde": 416
   },
   "npc_race_counts": {
-    "1": 169,
+    "1": 170,
     "3": 102,
     "7": 63,
-    "2": 107,
+    "2": 108,
     "5": 109,
     "4": 94,
     "9": 67,
@@ -21,7 +21,7 @@
     "95": 57
   },
   "zone_counts": {
-    "Elwynn Forest": 30,
+    "Elwynn Forest": 31,
     "Lion's Pride Inn": 10,
     "Westfall": 18,
     "Stormwind City": 125,
@@ -38,7 +38,7 @@
     "Teldrassil": 32,
     "Hillsbrad Foothills": 14,
     "Arathi Highlands": 11,
-    "Orgrimmar": 62,
+    "Orgrimmar": 63,
     "Badlands": 1,
     "Darkshore": 16,
     "Mulgore": 27,
@@ -1018,6 +1018,19 @@
       ],
       "reaction_evidence": "Current Alliance Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1217"
+    },
+    {
+      "npc_id": 1218,
+      "name": "Herbalist Pomeroy",
+      "zone": "Elwynn Forest",
+      "race_ids": [
+        1
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1218"
     },
     {
       "npc_id": 1228,
@@ -3108,6 +3121,19 @@
       ],
       "reaction_evidence": "Horde icon Friendly; normal live named/adult/reaction/non-attackability gates required",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2851"
+    },
+    {
+      "npc_id": 2855,
+      "name": "Snang",
+      "zone": "Orgrimmar",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2855"
     },
     {
       "npc_id": 2857,
@@ -12371,6 +12397,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 963,
-  "awaiting_signature_audio_profiles": 509
+  "authored_profiles": 965,
+  "awaiting_signature_audio_profiles": 511
 }

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Herbalist Pomeroy and Snang: full female Human and Orc profiles, thirty personal lines queued.
+- Research their current camping lessons and native roles; preserve separate character progress and normal eligibility.
+
 - Add Adele Fielder and Calder Gray: full female Human and Forsaken profiles, thirty personal lines queued.
 - Research Goldshire camping and native relationships alongside the Understudy's abomination quest; preserve separate character progress.
 
@@ -748,4 +751,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **963 fully written NPC profiles**: 454 have initial signature recordings, and five hundred nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **965 fully written NPC profiles**: 454 have initial signature recordings, and five hundred eleven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

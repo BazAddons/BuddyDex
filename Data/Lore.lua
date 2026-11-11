@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Herbalist Pomeroy, Elwynn cottage near Stormwind/Northshire, adult Human female3269/M2 1000764, Alliance Friendly normal trainer. Five current lessons and full97921 camping context; no own captured gossip. Leaf caught in hair after a walk original; no Officer kinship, medicinal cure, new harvesting effect or free candle.
+    -- Research: docs/research/pomeroys-leaf-and-snangs-spools.md
+    [1218] = {
+        quote = "One leaf in my hair does not mean I have brought the whole woodland home. You may inspect the other side before making your final assessment.",
+        likes = { "A walk with time to notice the plants", "A learner asking a careful question", "A friend who spots the last leaf" },
+        dislikes = { "An identification made without looking", "A leaf discovered after the whole lesson", "Being hurried past an interesting detail" },
+        gossip = "Pomeroy explained the leaf her friend spotted in her hair before removing it. She likes to be thorough about introductions.",
+        bio = "Herbalist Pomeroy teaches in an Elwynn cottage between Stormwind and Northshire. Her instruction includes the herbalist's contribution to a campsite. She enjoys close attention to plants, occasionally bringing one home more directly than intended.",
+        backstory = "After a walk, a friend pointed out a leaf caught in her hair. Pomeroy began explaining what it was before remembering to remove it. Now the friend asks whether she has brought the woodland home again. She invites a careful inspection.",
+        secret = "She rather likes the question. It means her friend expects a story about the walk, and she is pleased to have someone willing to hear the interesting details.",
+        bestFriend = "Come along, friend. You may inspect for leaves when we return. On the way, tell me what you have noticed. I should like to hear your account too.",
+        favorite = {
+            emote = "WINK",
+            hint = "A knowing wink is a discreet way to ask whether the woodland has followed her home again.",
+        },
+        recordingVoice = "human-female",
+        lines = {
+            greet = { { "Welcome back, friend. Have I brought the woodland home again? You may inspect for leaves while I tell you which part of the walk proved especially interesting.", tone = "[warm] [playful]" }, "Good to see you. What have you noticed on the way? Take your time describing it. A small detail may be the useful part." },
+            idle = { { "My friend pointed out a leaf in my hair. I began explaining what it was before remembering to remove it. A proper introduction takes a moment. They now ask whether the rest of the woodland is coming in as well.", tone = "[bright] [amused]" }, "It is worth looking carefully before deciding that you recognize something. Familiarity can make a person overlook the part that differs.", "A walk becomes more interesting when you have time to notice what is growing beside the path. It becomes more entertaining when a friend notices what has followed you home." },
+            befriended = { { "Walk with me, friend. You have earned the right to ask about the leaf before I begin the explanation. I shall try to remember to take it out before introducing the rest of the woodland.", tone = "[gentle] [fond]" } },
+            poke = { "Yes, friend? Is there another leaf? Give me a moment to make its acquaintance properly.", "A moment. I am considering the small detail you noticed. It may be worth a second look." },
+            learned = { { "Look closely, then tell me what you observed. A careful question is a better place to begin than a confident answer given before the inspection.", tone = "[patient] [encouraging]" } },
+            quest = { "Bring your questions when you have practiced. It is easier to explain the next part when we know which detail is still giving you trouble." },
+            rest = { "A comfortable pause would be lovely. You may tell me about your walk while we settle." },
+            newFriend = { "Ask what they noticed along the way. You may discover a part of the journey you passed without seeing." },
+            thanked = { "You are welcome. I am glad the explanation helped. Tell me what you find when you look again." },
+            group = { "Leave a little time for everyone to catch up. The person who stopped to look may have something interesting to share." },
+            laughAlong = { "Only the one leaf, I believe. You are welcome to check before accepting my report." },
+        },
+    },
+
+    -- Snang, Journeyman Tailor, Magars Cloth Goods Drag Orgrimmar, adult Orc male4384/M2 917116, Horde Friendly normal. Three native greetings and96102/Brakk camping context reviewed. Empty spool race on tilted table original; no actual minigame, betting, free banner or later retail Void event.
+    -- Research: docs/research/pomeroys-leaf-and-snangs-spools.md
+    [2855] = {
+        quote = "A straight seam I can manage. A straight race between two empty spools appears to require the cooperation of the table. That has been less forthcoming.",
+        likes = { "A learner willing to practice", "A small contest after the work", "Knowing when to ask Magar" },
+        dislikes = { "Pretending he knows every technique", "A spool disappearing under the chair", "Declaring a winner before both have stopped" },
+        gossip = "Snang raced two empty spools across a table. One crossed the line. The other headed for his chair. He is considering a second finish line.",
+        bio = "Snang teaches tailoring in Magar's Cloth Goods in Orgrimmar's Drag. He offers what he knows and sends advanced learners to Magar, with a warning about his temper. His own manner leaves room for practice and a modest claim.",
+        backstory = "He and a friend rolled two empty spools across the table. One went straight; the other found a slight slope and headed for the chair. Snang proposed another finish line. His friend proposed inspecting the table before the next race.",
+        secret = "He knows which part of the table sends a spool sideways. He still likes to use it. A contest that takes an unexpected turn gives them more to laugh about afterward.",
+        bestFriend = "Your choice of spool, friend. We shall inspect the table together, then decide whether the chair deserves a finish line of its own.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A cheer can give a very small contest rather more excitement than its participants expected.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Welcome back, friend. Choose a spool. The table has been preparing an unexpected turn, and I believe your chair may be involved in the result again.", tone = "[gruff] [playful]" }, "Come in. What would you like another look at? I will help with what I know, and say so when the question deserves someone with more experience." },
+            idle = { { "One spool crossed the line. The other rolled toward the chair. I suggested a second finish line. My friend suggested examining the table. A reasonable point, though the unexpected result had been quite entertaining.", tone = "[dry] [amused]" }, "I can teach what I know. There is no sense pretending to know the next part simply because someone has asked confidently enough.", "Magar knows more of the advanced work. Give him a clear question, and avoid trying his patience before he has had a chance to answer it." },
+            befriended = { { "Come with me, friend. You have earned the first choice of spool. We can discuss whether the table cooperated once both competitors have finished going wherever they intended.", tone = "[warm] [wry]" } },
+            poke = { "Yes? Has one of the competitors gone under the chair again?", "A moment. I am considering whether that was a finish or simply the beginning of a different race." },
+            cheerAlong = { { "There! A fine reception for such a small contest. Let the second spool finish before deciding whether the chair has won anything.", tone = "[hearty] [delighted]" } },
+            learned = { "Try it again. The part you understand in the explanation may need a little practice before your hands understand it too." },
+            gear = { "Look at how the piece is made. Even familiar work can give you a useful question when you examine it carefully." },
+            quest = { "Practice until you can show the part you have learned. Then we can consider what should come next." },
+            rest = { "A short pause is welcome. Sit comfortably. We may need the space beneath the chair clear for the next demonstration." },
+            newFriend = { "Give them room to try. An attempt tells you more than deciding beforehand what they ought to know." },
+            thanked = { "You are welcome. I am glad the help was useful. Show me how the next attempt goes." },
+        },
+    },
+
     -- Adele Fielder, Journeyman Leatherworker, Goldshire Elwynn, adult Human female3335/M2 1000764, Alliance Friendly normal. Three native greetings: husband at front, Helene friendship, Simon referral; camping97922 and introduction reviewed. Sir Prickle leather pincushion original; no pet, new item, affair, husband fate or free recipe.
     -- Research: docs/research/adeles-sir-prickle-and-calders-chair.md
     [1632] = {

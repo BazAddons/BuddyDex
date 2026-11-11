@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Herbalist Pomeroy and Snang: full female Human and Orc profiles, thirty personal lines queued.
+- Research their current camping lessons and native roles; preserve separate character progress and normal eligibility.
+
 - Add Adele Fielder and Calder Gray: full female Human and Forsaken profiles, thirty personal lines queued.
 - Research Goldshire camping and native relationships alongside the Understudy's abomination quest; preserve separate character progress.
 
