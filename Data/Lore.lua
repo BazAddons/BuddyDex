@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Huntress Ravenoak, Darnassus, adult Night Elf female14418/M2 921844, Alliance Friendly Elite60. Current three pins and no own captured dialogue/tasks. Falling-leaf shoulder game original; not Skymane, no Illyanna kinship, stealth detection perk or exact patrol schedule. Preserve Elite150/450.
+    -- Research: docs/research/ravenoaks-leaf-and-gavins-prediction.md
+    [14379] = {
+        quote = "I tried to catch the falling leaf. It settled on my friend's shoulder instead. An excellent technique, they assured me. I have been considering the advantages of standing very still.",
+        likes = { "Attention given to the surroundings", "A quiet walk with familiar company", "Good fortune accepted with good humor" },
+        dislikes = { "A familiar place taken for granted", "A harmless game made into a humiliation", "Confusing luck with an infallible method" },
+        gossip = "Ravenoak reached for a leaf. It chose her friend's shoulder. She has requested another demonstration of standing still.",
+        bio = "Huntress Ravenoak watches over Darnassus. Her attention to the city also leaves room for small details, including the falling leaf that once made a friend an unexpectedly successful participant in a quiet game.",
+        backstory = "A falling leaf became a little challenge between her and a friend. Ravenoak reached for it; it settled on their shoulder. They praised the value of standing still. She accepted the result, then asked whether the technique could be demonstrated again.",
+        secret = "She knows the leaf chose its own landing. She likes the way her friend accepted the lucky moment without making it an excuse to boast at her expense.",
+        bestFriend = "Walk with me, friend. Tell me what you notice today. I shall give your method of patient observation another fair hearing.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing expression suits a lucky success shared without making either friend the unwilling joke.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome back, friend. Have you practiced standing still? I should like to know whether your leaf-catching technique has acquired a second success.", tone = "[composed] [playful]" }, "Good to see you. Walk with me a little, and tell me what has caught your attention today." },
+            idle = { { "I reached for the leaf. It settled on my friend. Apparently their shoulder had prepared a more persuasive invitation.", tone = "[dry] [amused]" }, "A familiar place still deserves attention. There is always something you might pass without noticing.", "Luck can make a pleasant moment without becoming a method anyone needs to defend." },
+            befriended = { { "You are welcome beside me, friend. I enjoy the little things you notice and the company you bring to an ordinary walk. We need not make every shared moment into a contest.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? Has another leaf volunteered to demonstrate the superiority of your shoulder?", "One moment. I was considering whether patience or a convenient breeze deserves the credit." },
+            laughAlong = { { "A fine demonstration. We may give your shoulder its due without requiring it to explain the whole technique.", tone = "[poised] [delighted]" } },
+            zone = { "Look around before deciding you know what is here. Familiarity can hide small things as easily as it reveals the path." },
+            newFriend = { "Let them find their place in the conversation before turning the meeting into a test of what they know." },
+            rest = { "A quiet moment is welcome. We can enjoy the company without preparing an account of it." },
+            thanked = { "You are welcome, friend. I am glad the attention helped. Tell me what you notice when you look again." },
+            group = { "Keep one another in mind. Someone quiet may still have something worth hearing." },
+            combatEnd = { "Take stock of your companions. We can consider the account once everyone is able to answer." },
+        },
+    },
+
+    -- Deathguard Gavin, Brill Tirisfal, adult Forsaken male2856/M2 959310, Horde Friendly normal24. Forty-five installed directions identical to Lawrence shared Brill set, no own task. Pretend palm prediction original, no actual divination/service; not human Gavin Gnarltree or Father Gavin.
+    -- Research: docs/research/ravenoaks-leaf-and-gavins-prediction.md
+    [2209] = {
+        quote = "I predicted that my friend would ask how I knew. Then they did. A successful first prophecy. I ended the consultation before the evidence could become less impressive.",
+        likes = { "Directions heard before the next question", "A friend willing to return a dry joke", "A prediction with a prompt result" },
+        dislikes = { "Being asked over the answer", "A joke mistaken for a service he provides", "A stranger treating him as a specimen" },
+        gossip = "Gavin predicted his friend would ask how he knew. They did. He retired undefeated from pretend prophecy.",
+        bio = "Deathguard Gavin serves in Brill, providing directions with the dry humor familiar to its guards. A friend has discovered that his appetite for a convenient answer can also furnish a very brief career as a pretend prophet.",
+        backstory = "He pretended to study a friend's palm and predicted that they would ask how he knew. They asked at once. Gavin declared the consultation a complete success and ended it before a second prediction could spoil his record.",
+        secret = "His friend knew it was a trick. They joined the joke anyway. He enjoys the sort of company that can play along without being taken in.",
+        bestFriend = "There you are, friend. I predict a pleasant visit, provided you help with the evidence. Tell me what has happened to you today.",
+        favorite = {
+            emote = "WINK",
+            hint = "A conspiratorial expression acknowledges that both friends understand the trick and have chosen to enjoy it.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Back again, friend. I predict that you have news. You may assist my remarkable reputation by telling me some.", tone = "[raspy] [wry]" }, "Good to see you. Have you a destination in mind, or merely a question whose arrival I can claim to have foreseen?" },
+            idle = { { "I predicted that my friend would ask how I knew. They asked. I retired from prophecy with a perfect record. A sensible professional decision.", tone = "[deadpan] [pleased]" }, "Hear the whole direction before deciding you require it again.", "My friend understood the trick and joined the joke. I appreciate an audience that can do both." },
+            befriended = { { "You are welcome here, friend. I enjoy someone who can return a joke without requiring me to explain every useful part of the arrangement. Tell me your news.", tone = "[gruff] [fond]" } },
+            poke = { "Yes? I had a remarkable suspicion that another question was approaching.", "One moment. I am deciding whether answering now would spoil the impressive prediction I have not yet made." },
+            newFriend = { { "Give them a chance to answer back. A joke becomes much more interesting when the other person has decided to join it.", tone = "[dry] [conspiratorial]" } },
+            learned = { "Listen to the explanation before deciding the answer was obvious. It tends to become obvious after the useful part has been supplied." },
+            zone = { "Look around before asking where everything is. Some answers make the effort of standing where you can see them." },
+            rest = { "A pause. I predict that we can manage one without finding another task to fill it." },
+            thanked = { "You are welcome, friend. I am glad the direction helped. A correct arrival is satisfying evidence." },
+            laughAlong = { "A fine response. I shall count that as the part of the performance we managed together." },
+            group = { "Let the quiet one finish. A conveniently prompt answer is less useful if nobody has heard the actual question." },
+        },
+    },
+
     -- Kitta Firewind, Artisan Enchanter Tower of Azora Elwynn, adult Human female10610/M2 1000764, Alliance Friendly normal. Four native greeting/readiness/Annora-referral lines,55 lessons and full91753. Lamp-shading observation original, no free enchant, magic lamp effect or invented family.
     -- Research: docs/research/kittas-lamp-and-vahgruks-kite.md
     [11072] = {

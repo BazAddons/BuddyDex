@@ -5614,5 +5614,19 @@
     "zone": "Burning Steppes",
     "source": "Reviewed adult horde identity; Current Elite55 and native flight question; original paper kite and cheering friend; no Scout sighting claimed",
     "research_notes": "docs/research/kittas-lamp-and-vahgruks-kite.md"
+  },
+  {
+    "npc_id": 14379,
+    "name": "Huntress Ravenoak",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance identity; Current three pins, no personal quest chain; original falling-leaf game; no Scout sighting claimed",
+    "research_notes": "docs/research/ravenoaks-leaf-and-gavins-prediction.md"
+  },
+  {
+    "npc_id": 2209,
+    "name": "Deathguard Gavin",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Forty-five shared Brill directions, no personal quest chain; original pretend prediction; no Scout sighting claimed",
+    "research_notes": "docs/research/ravenoaks-leaf-and-gavins-prediction.md"
   }
 ]

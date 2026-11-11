@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Huntress Ravenoak and Deathguard Gavin: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research Darnassus protection and shared Brill directions; preserve Elite and normal friendship thresholds and separate character progress.
+
 - Add Kitta Firewind and Vahgruk: full Human and Orc profiles, thirty personal lines queued.
 - Research practical enchanting and Flame Crest flight service; preserve normal and Elite friendship thresholds and separate character progress.
 
@@ -814,4 +817,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1007 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1009 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

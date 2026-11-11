@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Huntress Ravenoak and Deathguard Gavin: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research Darnassus protection and shared Brill directions; preserve Elite and normal friendship thresholds and separate character progress.
+
 - Add Kitta Firewind and Vahgruk: full Human and Orc profiles, thirty personal lines queued.
 - Research practical enchanting and Flame Crest flight service; preserve normal and Elite friendship thresholds and separate character progress.
 

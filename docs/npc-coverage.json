@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 442,
+    "alliance": 443,
     "unverified": 184,
-    "horde": 437
+    "horde": 438
   },
   "npc_race_counts": {
     "1": 176,
     "3": 110,
     "7": 63,
     "2": 114,
-    "5": 114,
-    "4": 100,
+    "5": 115,
+    "4": 101,
     "9": 67,
     "8": 61,
     "6": 111,
@@ -32,7 +32,7 @@
     "Wetlands": 15,
     "Ironforge": 70,
     "Stranglethorn Vale": 9,
-    "Tirisfal Glades": 63,
+    "Tirisfal Glades": 64,
     "Undercity": 27,
     "Silverpine Forest": 10,
     "Teldrassil": 33,
@@ -46,7 +46,7 @@
     "Durotar": 57,
     "The Barrens": 52,
     "Stonetalon Mountains": 17,
-    "Darnassus": 25,
+    "Darnassus": 26,
     "Burning Steppes": 2,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -2796,6 +2796,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2198"
+    },
+    {
+      "npc_id": 2209,
+      "name": "Deathguard Gavin",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2209"
     },
     {
       "npc_id": 2214,
@@ -10494,6 +10507,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14376"
     },
     {
+      "npc_id": 14379,
+      "name": "Huntress Ravenoak",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/14379"
+    },
+    {
       "npc_id": 14394,
       "name": "Major Mattingly",
       "zone": "Stormwind City",
@@ -12947,6 +12973,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1007,
-  "awaiting_signature_audio_profiles": 553
+  "authored_profiles": 1009,
+  "awaiting_signature_audio_profiles": 555
 }

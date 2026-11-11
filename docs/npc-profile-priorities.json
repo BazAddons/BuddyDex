@@ -5285,6 +5285,20 @@
       "zone": "Burning Steppes",
       "route": "Elite wind rider master at Flame Crest",
       "reason": "Current Elite55 and native flight question; original paper kite and cheering friend; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 14379,
+      "name": "Huntress Ravenoak",
+      "zone": "Darnassus",
+      "route": "Elite huntress in Darnassus",
+      "reason": "Current three pins, no personal quest chain; original falling-leaf game; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2209,
+      "name": "Deathguard Gavin",
+      "zone": "Tirisfal Glades",
+      "route": "Deathguard in Brill",
+      "reason": "Forty-five shared Brill directions, no personal quest chain; original pretend prediction; fifteen personal lines queued without synthesis"
     }
   ]
 }
