@@ -4746,5 +4746,19 @@
     "zone": "Stranglethorn Vale",
     "source": "Reviewed adult horde man; Full Sponsorship/Tides, Saltseer context and own greeting; original compliment-without-proposal challenge; no Scout sighting claimed",
     "research_notes": "docs/research/drakes-creak-and-revilgazs-proposal.md"
+  },
+  {
+    "npc_id": 6034,
+    "name": "Lotherias",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance woman; Full1582, careful craftsmanship and order filling; original thumb-sized boot; no Scout sighting claimed",
+    "research_notes": "docs/research/lotherias-boot-and-sharis-welcome.md"
+  },
+  {
+    "npc_id": 246152,
+    "name": "Shari Stilwell",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde woman; Full training/refuge and keep context, inclusive Light greeting; original stool brought to hesitant visitor; no Scout sighting claimed",
+    "research_notes": "docs/research/lotherias-boot-and-sharis-welcome.md"
   }
 ]

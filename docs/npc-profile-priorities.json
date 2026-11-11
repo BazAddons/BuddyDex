@@ -4417,6 +4417,20 @@
       "zone": "Stranglethorn Vale",
       "route": "Booty Bay sponsorship and artifact collection",
       "reason": "Full Sponsorship/Tides, Saltseer context and own greeting; original compliment-without-proposal challenge; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6034,
+      "name": "Lotherias",
+      "zone": "Darnassus",
+      "route": "Craftsmen Terrace leatherworking",
+      "reason": "Full1582, careful craftsmanship and order filling; original thumb-sized boot; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 246152,
+      "name": "Shari Stilwell",
+      "zone": "Tirisfal Glades",
+      "route": "Brill paladin welcome and keep referral",
+      "reason": "Full training/refuge and keep context, inclusive Light greeting; original stool brought to hesitant visitor; fifteen personal lines queued without synthesis"
     }
   ]
 }

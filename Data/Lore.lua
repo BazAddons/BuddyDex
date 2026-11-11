@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Lotherias, Craftsmen Terrace/Darnassus leatherworker. Adult Night Elf female5186/M2 921844, Alliance Friendly. Full1582 craftsmanship/order context; own current tabs sparse. Thumb-sized boot and bench demonstration original; no recipe or actual gear benefit awarded.
+    -- Research: docs/research/lotherias-boot-and-sharis-welcome.md
+    [6034] = {
+        quote = "Yes, it is a boot for my thumb. I am aware that thumbs seldom need boots. That does not excuse a crooked seam, or prevent a proper inspection of the heel.",
+        likes = { "Careful hands and an eye for detail", "Tiny useless projects made properly", "Supplies delivered in useful condition" },
+        dislikes = { "Haste substituted for craftsmanship", "Assumptions that small work is simple", "Good leather wasted through carelessness" },
+        gossip = "Lotherias made a tiny boot for her thumb. Asked what use it served, she gave a solemn demonstration of its excellent walking heel.",
+        bio = "Lotherias works among Darnassus's leatherworkers. She seeks help filling orders for adventurers and recognizes skilled hands with the Moonglow Vest pattern. Careful detail matters to her, even when the finished piece is very small.",
+        backstory = "During a pause in her work, she made a little boot for her thumb. A friend questioned its usefulness. Lotherias fitted it on, walked it across the bench, and invited them to admire the workmanship.",
+        secret = "She enjoys making something well without needing it to be important. A friend who appreciates both the craft and the nonsense is excellent company.",
+        bestFriend = "Come inspect the heel, friend. You understand the serious workmanship required for something so magnificently unnecessary.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "Appreciation for a small piece of careful work, delivered with a shared sense of fun, delights her.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are, friend. I have a very small piece of workmanship for your inspection. Before you question its usefulness, I ask that you admire the heel. A thumb may not travel far, but it deserves a properly made boot.", tone = "[warm] [playful]" }, "Welcome back. Give me a moment to put down the work, and tell me how the road has treated you." },
+            idle = { { "My friend asked what use a boot for a thumb could possibly serve. I fitted it on and walked it across the bench. An excellent demonstration, I thought. The usefulness remained disputed, but the workmanship received its due.", tone = "[deadpan] [amused]" }, "Adventurers always need supplies. There is satisfaction in work that will serve someone properly once it leaves your hands.", "A small piece does not make a careless seam less noticeable. It merely gives the seam a larger share of the attention." },
+            befriended = { { "You can admire the care in a small thing and laugh with me at its complete lack of importance. Come along, friend. I enjoy company that does not require every good stitch to have a grand purpose.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Please tell me you have come to discuss something other than fitting the rest of my fingers.", "A moment. I was considering whether the tiny heel deserved a second inspection. It does." },
+            gear = { { "Look at the fit and the finishing, not merely the first impression. Good work earns its confidence in the details, especially the ones a hurried glance is tempted to overlook.", tone = "[calm] [instructive]" } },
+            learned = { "Practice the careful part again. A new technique becomes more useful when your hands can carry it out without rushing." },
+            quest = { "Bring the work in useful condition, and tell me where you found the difficulty. There may be something worth learning in the answer." },
+            bagsFull = { "Protect the finished pieces before packing the rest around them. Care does not end when the last stitch is tied." },
+            rest = { "A pause would be welcome. We may even spend it admiring something that serves no practical purpose at all." },
+            thanked = { "Glad to help. Bring that same care to the next piece, and the work will give you more satisfaction than any compliment." },
+            applaudToo = { "Thank you. At last, a proper appreciation of a very distinguished piece of unnecessary footwear." },
+        },
+    },
+
+    -- Shari Stilwell, Paladin Trainer, Brill/Tirisfal. Adult Forsaken female129943/M2 997378, Horde Friendly. Full91208/91209/91282/99144, keep context and own inclusive Light greeting. Stool brought to hesitant visitor original; no family inferred from Stilwell, no universal cure or native training reward.
+    -- Research: docs/research/lotherias-boot-and-sharis-welcome.md
+    [246152] = {
+        quote = "You need not stand at the edge waiting to learn whether the welcome includes you. Let me bring a seat. We can begin where you feel ready to sit.",
+        likes = { "A welcome that includes the hesitant", "Community strengthened by ordinary kindness", "A visitor allowed to choose their pace" },
+        dislikes = { "Hatred dressed in the language of faith", "A welcome made into another test", "Someone left wondering if they may stay" },
+        gossip = "Shari carried a stool to a visitor lingering at the edge of a gathering. Rather than call them forward, she brought the welcome to them.",
+        bio = "Shari Stilwell trains paladins in Brill. She guides learners toward Bandarion Keep and values community and shared faith. Her welcome extends beyond paladins, including those who simply seek guidance or solace in the Light.",
+        backstory = "A visitor lingered nearby, unsure whether to approach. Shari carried over an empty stool and sat beside them. There was time for questions later; first she made certain they knew the welcome included them.",
+        secret = "She notices the person waiting at the edge. Sometimes kindness is making the first step smaller, rather than asking someone else to take a braver one.",
+        bestFriend = "Here is room beside me, friend. You need not earn your place in every conversation. I am glad you chose to come.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "A greeting that makes room for another person reflects the kindness she tries to offer in return.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are, friend. Come sit beside me, or let me bring a seat to where you are comfortable. You need not begin the visit by proving how easily you can step into the middle of everything.", tone = "[gentle] [welcoming]" }, "Good to see you. Have you come with a question, or would a little quiet company be welcome first?" },
+            idle = { { "They stood just beyond the gathering, unsure whether to approach. I brought a stool and sat beside them. We could find time for questions afterward. First, I wanted the welcome to reach the person waiting for it.", tone = "[softly] [reflective]" }, "Not everyone who seeks solace comes prepared to name it. We can offer a little room before asking them to explain what has brought them.", "Community asks something of us as well as offering something to us. A familiar face, a patient welcome, a useful kindness: these can be beginnings." },
+            befriended = { { "You have become someone whose company feels like a welcome in return. Come along, friend. I am glad there is room between us for questions, uncertainty, and an ordinary afternoon without a test at its beginning.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Take the moment you need. I am listening.", "A moment, please. I would like to give your question more than a hurried greeting." },
+            comforted = { { "Thank you. A little kindness can make the next step feel less lonely without pretending the whole road has become easy. I am grateful you thought to offer it.", tone = "[softly] [grateful]" } },
+            newFriend = { "Make room before asking for an introduction. Someone may be waiting to learn whether the invitation includes them." },
+            group = { "Look toward the edge of the company as well as its center. There may be someone who would welcome a seat beside you." },
+            rest = { "A quiet pause. We need not turn it into a lesson before allowing ourselves to share it." },
+            thanked = { "You are welcome. I am glad the kindness reached you." },
+            learned = { "Put the lesson to useful work, and return with your questions. Learning need not leave you to find every next step alone." },
+            zone = { "There are people here whose kindness can make the place less unfamiliar. Let us offer some of our own while we pass through." },
+        },
+    },
+
     -- Drake Ekans277689. Current adult Gnome male148996/M2 900914, Alliance Friendly; Dun Morogh world-map projection only, exact address/job unconfirmed. All related tabs empty/no own gossip. Mobile chair-creak imitation and all personal history original; no invented occupation or engineering role.
     -- Research: docs/research/drakes-creak-and-revilgazs-proposal.md
     [277689] = {

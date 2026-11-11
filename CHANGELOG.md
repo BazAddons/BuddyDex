@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Lotherias and Shari Stilwell: complete Night Elf and Forsaken profiles with thirty personal lines queued.
+- Ground careful leatherwork and an inclusive paladin welcome in quest dialogue; distinguish original miniature boot and offered stool from native patterns, lessons and rescues.
+
 - Add Drake Ekans and Baron Revilgaz, expanding Gnome and Goblin profiles with thirty personal lines queued.
 - Keep Drake's undocumented job and exact location unknown; preserve the Baron's sponsorship and artifact interests while separating original friendship scenes from canon and native rewards.
 

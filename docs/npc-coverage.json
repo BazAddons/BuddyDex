@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 382,
+    "alliance": 383,
     "unverified": 181,
-    "horde": 368
+    "horde": 369
   },
   "npc_race_counts": {
     "1": 168,
     "3": 84,
     "7": 62,
     "2": 95,
-    "5": 94,
-    "4": 81,
+    "5": 95,
+    "4": 82,
     "9": 66,
     "8": 61,
     "6": 97,
@@ -32,7 +32,7 @@
     "Wetlands": 10,
     "Ironforge": 62,
     "Stranglethorn Vale": 8,
-    "Tirisfal Glades": 52,
+    "Tirisfal Glades": 53,
     "Undercity": 21,
     "Silverpine Forest": 9,
     "Teldrassil": 28,
@@ -46,7 +46,7 @@
     "Durotar": 53,
     "The Barrens": 49,
     "Stonetalon Mountains": 15,
-    "Darnassus": 18,
+    "Darnassus": 19,
     "Burning Steppes": 1,
     "Ashenvale": 15,
     "Thousand Needles": 12,
@@ -6946,6 +6946,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6018"
     },
     {
+      "npc_id": 6034,
+      "name": "Lotherias",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6034"
+    },
+    {
       "npc_id": 6094,
       "name": "Byancie",
       "zone": "Teldrassil",
@@ -9433,6 +9446,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/244808"
     },
     {
+      "npc_id": 246152,
+      "name": "Shari Stilwell",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/246152"
+    },
+    {
       "npc_id": 246389,
       "name": "Hilda the Breaker",
       "zone": "Tirisfal Glades",
@@ -11331,6 +11357,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 883,
-  "awaiting_signature_audio_profiles": 429
+  "authored_profiles": 885,
+  "awaiting_signature_audio_profiles": 431
 }
