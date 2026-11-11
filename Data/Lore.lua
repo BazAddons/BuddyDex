@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rotgath Stonebeard, Expert Blacksmith Great Forge Ironforge, adult Dwarf male9741/M2 878772, Alliance Friendly normal. Four native gossip establish father/grandfather/son Groum; full Forever95816/95817/95818 adds sign work and unnamed wife tea. Tea challenge about mentioning adult son original; no new family, native sign reward or later demotion.
+    -- Research: docs/research/rotgaths-tea-and-calvins-terms.md
+    [10276] = {
+        quote = "My friend reckoned I couldn't finish a cup of tea without mentioning Groum. I agreed to try. Then I explained what fine work the lad had done that morning. A short contest, that one.",
+        likes = { "Good work that serves its purpose", "Hearing of Groum doing well", "A cup of tea and an unhurried friend" },
+        dislikes = { "A fine title excusing poor workmanship", "Useful work dismissed as too plain", "Being hurried through a proud moment" },
+        gossip = "Rotgath tried to finish a cup of tea without mentioning Groum. He lost before the cup had time to cool.",
+        bio = "Rotgath Stonebeard works at the Great Forge in Ironforge. His grandfather forged beneath Grim Batol; his son Groum continues the family craft. The reliable smith takes pride in useful work and has rather more to say when his son comes up.",
+        backstory = "A friend challenged him to finish his tea without mentioning Groum. Rotgath agreed, then began describing the work his son had done that morning. His friend pointed out the unfinished cup. He considered the result and carried on with the story.",
+        secret = "He does not regret losing. The friend had stayed to hear why he was proud. There are worse ways to spend a quiet moment than explaining a fine piece of work to someone willing to listen.",
+        bestFriend = "Sit a little, friend. Tell me what's made you proud today. I'll hear the whole account before I begin another of my own.",
+        favorite = {
+            emote = "PRAISE",
+            hint = "Thoughtful praise for honest workmanship, especially his son's, gives this quiet smith plenty to say.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see ye, friend. Have a moment? Groum has done some fine work. Aye, I know. I was going to ask how ye were first. Tell me, and I shall try to wait my turn.", tone = "[gruff] [fond]" }, "Welcome back. Work to discuss, or a little time to talk? Either is welcome if ye give it proper attention." },
+            idle = { { "I agreed not to mention Groum until the tea was finished. Then I told my friend what he had made that morning. The cup was still warm when the contest ended. I finished the story anyway.", tone = "[warm] [amused]" }, "Useful work deserves care, however plain the order. Someone is going to depend on the part that no one thinks to admire.", "My grandfather worked beneath Grim Batol. My da was a smith too. Now Groum carries the craft forward. A fellow can be proud of that." },
+            befriended = { { "Ye are welcome beside me, friend. I appreciate someone willing to hear why the work matters. Tell me what matters to ye in return. I would like to know.", tone = "[steady] [sincere]" } },
+            poke = { "Aye? If ye mean to ask whether the cup is finished, the story has a little way to go yet.", "One moment. I am looking at the part that needs doing properly, not the part that looks most impressive." },
+            learned = { { "A good lesson shows in the work afterward. I enjoy seeing someone put it to use. If ye have a moment, I could tell ye about a particularly fine example from Groum.", tone = "[proud] [wry]" } },
+            gear = { "Look at how it serves its purpose. A fine name will not hold a weak piece together when someone needs it." },
+            quest = { "Bring what was asked for and keep the agreement clear. Plain, useful work is worth finishing well." },
+            thanked = { "Ye are welcome. Glad it was useful. Tell me how it serves ye once ye have had time to put it to work." },
+            newFriend = { "Hear what they are proud of. Ye may learn more about a person from that story than from an impressive introduction." },
+            rest = { "A pause is welcome. Tell me a pleasant part of the day. I promise to let ye finish before bringing the conversation back to the forge." },
+            loot = { "Look it over carefully. The part that has taken the wear may tell ye more than the part that still shines." },
+        },
+    },
+
+    -- Calvin Montague, Deathknell Tirisfal, adult Forsaken male5509/M2 959310, Horde Friendly normal. Full8/590 letter and dishonest payment/duel context, no own captured gossip. No-deal conversation challenge original; no reform, assumed duel victory, real fee or friendship while hostile/attackable.
+    -- Research: docs/research/rotgaths-tea-and-calvins-terms.md
+    [6784] = {
+        quote = "My friend challenged me to a conversation without saying deal. I asked what the terms were. Apparently that was already a poor beginning. Very strict company, that friend.",
+        likes = { "A quick answer to a clever question", "A friend who notices the catch", "Getting one more word into the bargain" },
+        dislikes = { "A promise quoted back too accurately", "Losing an argument before the terms are set", "A suspiciously well-timed knowing wink" },
+        gossip = "Calvin accepted a challenge not to say deal during a visit. He immediately began negotiating the rules.",
+        bio = "Calvin Montague makes a tempting offer near Deathknell, but collecting the promised payment is another matter. He is quick with a bargain and quicker with an excuse. A friend who knows his habits gives him unusually lively company.",
+        backstory = "A friend challenged him to finish a conversation without calling anything a deal. Calvin began asking about the terms. They pointed out that this was exactly the difficulty. He tried to negotiate whether that counted as losing.",
+        secret = "He enjoys a friend who hears the catch before he finishes the offer. A quick answer gives him something to answer in return. He is pleased when they come back to continue the argument.",
+        bestFriend = "Stay a little, mate. Tell me how ye've been. I'll attempt a whole conversation without a proposal. Best not count that first sentence.",
+        favorite = {
+            emote = "WINK",
+            hint = "A knowing wink lets him see that the catch has been noticed before he has finished explaining it.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There ye are, mate. Have I got a propo... no? Still keeping to that rule, are we? All right. Tell me how ye have been, and I will attempt a respectable beginning.", tone = "[sly] [amused]" }, "Good to see ye. A visit, is it? No need to look so suspicious before I have said anything. Save that expression for the second sentence." },
+            idle = { { "My friend wanted a conversation without the word deal. I asked about the terms. Apparently the difficulty began there. I maintain that a fellow ought to understand the rules before being accused of losing.", tone = "[wry] [pleased]" }, "A promise can sound very fine when nobody has asked the next question. My friend has developed an inconvenient habit of asking it promptly.", "I was considering a perfectly ordinary greeting. Somehow it acquired a proposal along the way. These things require careful supervision." },
+            befriended = { { "Ye are welcome beside me, mate. I enjoy company that keeps up with the conversation. Tell me what is on yer mind before I discover an entirely unnecessary way of offering mine.", tone = "[rough] [fond]" } },
+            poke = { "Aye? If that was a question about the terms, I should like to hear who told ye to ask it.", "A moment. I am deciding whether I have found a clever answer or simply another way to lose the same argument." },
+            quest = { { "Read the offer, mate. Then ask the question the fine beginning made ye forget. I can hardly object to careful attention, even when it arrives at an inconvenient moment.", tone = "[knowing] [dry]" } },
+            mail = { "A letter can lead to a longer conversation than the envelope suggests. Best know who is receiving it before promising how simple the errand will be." },
+            newFriend = { "Hear the whole introduction before agreeing to anything. Ye can enjoy the company and still ask what the last part meant." },
+            rest = { "Sit a little, mate. We can leave the next proposal unspoken for a moment. I would like to hear something that happened to ye." },
+            thanked = { "Ye are welcome. There, a simple answer. I shall try to leave it alone before it becomes considerably more elaborate." },
+            laughAlong = { "Aye, that was a quick answer. I was rather pleased with the beginning of my argument until ye arrived at the end of it first." },
+            comforted = { "Stay a moment, mate. Ye need not find a clever reply. I can allow the conversation to be quiet when a friend has come to listen." },
+        },
+    },
+
     -- Denaaris Stargale, High Order Dalaran arrival/Stormwind introduction contact, adult male High Order Skyborne143215/M2 7478487, Alliance Friendly normal. Native authorized portal greeting, full93835/94369/93089/94946/94947/93963 context. Repeated doorway on leisure stroll original; no universal portal access, changed race or extra travel system.
     -- Research: docs/research/denaaris-doorway-and-dranhs-reply.md
     [259084] = {

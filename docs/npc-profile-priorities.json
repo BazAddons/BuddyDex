@@ -5131,6 +5131,20 @@
       "zone": "The Barrens",
       "route": "Skinner at Camp Taurajo",
       "reason": "Current adult male named skinner; later Cataclysm fate excluded; original bad-pun rivalry; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10276,
+      "name": "Rotgath Stonebeard",
+      "zone": "Ironforge",
+      "route": "Expert blacksmith by the Great Forge",
+      "reason": "Four native greetings, son Groum and full Forever sign chain95816/95817/95818; original tea challenge; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6784,
+      "name": "Calvin Montague",
+      "zone": "Tirisfal Glades",
+      "route": "Letter errand and dishonest bargain near Deathknell",
+      "reason": "Full8/590 and conditional duel outcome; original challenge to converse without negotiating; fifteen personal lines queued without synthesis"
     }
   ]
 }

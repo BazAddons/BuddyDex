@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rotgath Stonebeard and Calvin Montague: full Dwarf and Forsaken profiles, thirty personal lines queued.
+- Research native smith family/sign work and the dishonest Deathknell deal; preserve normal eligibility and separate character progress.
+
 - Add Denaaris Stargale and Dranh: full High Order Skyborne and Tauren profiles, thirty personal lines queued.
 - Research the Dalaran arrival route and current Camp Taurajo identity; preserve normal eligibility and separate character progress.
 

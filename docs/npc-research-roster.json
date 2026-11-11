@@ -5460,5 +5460,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde identity; Current adult male named skinner; later Cataclysm fate excluded; original bad-pun rivalry; no Scout sighting claimed",
     "research_notes": "docs/research/denaaris-doorway-and-dranhs-reply.md"
+  },
+  {
+    "npc_id": 10276,
+    "name": "Rotgath Stonebeard",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance identity; Four native greetings, son Groum and full Forever sign chain95816/95817/95818; original tea challenge; no Scout sighting claimed",
+    "research_notes": "docs/research/rotgaths-tea-and-calvins-terms.md"
+  },
+  {
+    "npc_id": 6784,
+    "name": "Calvin Montague",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Full8/590 and conditional duel outcome; original challenge to converse without negotiating; no Scout sighting claimed",
+    "research_notes": "docs/research/rotgaths-tea-and-calvins-terms.md"
   }
 ]
