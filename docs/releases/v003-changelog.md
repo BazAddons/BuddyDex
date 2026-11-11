@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Barithras Moonshade and Garyl: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review the complete mushroom/Onu investigation and current guild-tabard role; document original specimen courtesy and muddy-sleeves scenes.
+
 - Add Captain Stoutfist and Henen Ragetotem: adult Dwarf and Tauren profiles with thirty personal lines queued.
 - Research the Forever military, statuette and Howin referral context; separate original lunch acknowledgment and unfinished-joke scenes from established facts.
 
@@ -580,4 +583,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **853 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **855 fully written NPC profiles**: 454 have initial signature recordings, and four hundred one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

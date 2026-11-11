@@ -4536,5 +4536,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde woman; Current adult named identity, no verified trainer or own chain; original unfinished two-kodo joke; no Scout sighting claimed",
     "research_notes": "docs/research/stoutfists-lunch-and-henens-kodos.md"
+  },
+  {
+    "npc_id": 3583,
+    "name": "Barithras Moonshade",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance man; Full947/948 and Onu onward investigation; original polite specimen and dish; no Scout sighting claimed",
+    "research_notes": "docs/research/barithras-dish-and-garyls-sleeves.md"
+  },
+  {
+    "npc_id": 5188,
+    "name": "Garyl",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde woman; Current guild stock and adult woman; original shared muddy sleeves; no Scout sighting claimed",
+    "research_notes": "docs/research/barithras-dish-and-garyls-sleeves.md"
   }
 ]

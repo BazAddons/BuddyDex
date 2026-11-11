@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Barithras Moonshade and Garyl: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Review the complete mushroom/Onu investigation and current guild-tabard role; document original specimen courtesy and muddy-sleeves scenes.
+
 - Add Captain Stoutfist and Henen Ragetotem: adult Dwarf and Tauren profiles with thirty personal lines queued.
 - Research the Forever military, statuette and Howin referral context; separate original lunch acknowledgment and unfinished-joke scenes from established facts.
 

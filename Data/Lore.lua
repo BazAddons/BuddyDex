@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Barithras Moonshade, Auberdine/Darkshore. Adult Night Elf male4414/M2 974343, Alliance Friendly. Full947/948 and Onu onward investigation; polite specimen/dish scene original. No Cataclysm death or guessed potion effect.
+    -- Research: docs/research/barithras-dish-and-garyls-sleeves.md
+    [3583] = {
+        quote = "I asked the specimen to turn toward the light. It declined. Moving the dish proved more effective, though I did apologize for the inconvenience.",
+        likes = { "A specimen gathered with a careful account", "Useful details remembered from the cave", "Good manners even when working alone" },
+        dislikes = { "Labels moved as a joke", "A warning dismissed because it is unwelcome", "Samples treated as proof of a safe place" },
+        gossip = "Barithras addresses his specimens with considerable courtesy. None has answered, but that has not lowered his standard of conversation.",
+        bio = "Barithras Moonshade studies mushrooms in Auberdine. A potion calls for cave specimens from Cliffspring Falls, but the Ancients warn of danger there. He asks for samples and observations, then sends the visitor to Onu when the matter grows urgent.",
+        backstory = "Drawing a mushroom, he asked it to turn toward the light. A visitor suggested moving the dish. Barithras did so, apologized to the specimen, and continued drawing while his visitor tried very hard to remain helpful.",
+        secret = "He knew the mushroom could not answer. Speaking politely helps him slow down enough to look properly. The apology was unnecessary, but he sees no reason to withdraw it.",
+        bestFriend = "Come sit beside me, friend. You may answer when I forget which of my companions can turn toward the light unaided.",
+        favorite = {
+            emote = "BOW",
+            hint = "He appreciates courtesy offered without making a performance of someone else's small embarrassment.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. I am pleased to have company that can turn toward the light without requiring me to move the entire dish. You may remind me of that distinction if I forget.", tone = "[gentle] [wry]" }, "Good to see you. Have you noticed anything worth a careful second look? An account of the surroundings may matter as much as the specimen." },
+            idle = { { "I asked the mushroom to turn. My visitor suggested moving the dish. A sound recommendation, though I had to apologize to the specimen before proceeding. Courtesy need not depend on an answer.", tone = "[thoughtful] [amused]" }, "I hoped the Ancients would be wrong about the cave. Hoping so does not excuse me from listening to what someone actually found there.", "Keep the observation with the sample. It is easy to become so interested in what you have brought back that you forget where it was growing." },
+            befriended = { { "You have become someone I am glad to consult without first arranging a question about mushrooms. Come along, friend. Your observations are welcome, and I shall try to address them to the correct listener.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was I addressing the dish again?", "A moment, please. This is the part that benefits from looking twice." },
+            learned = { { "Then tell me what you noticed, not merely what you expected. An unwelcome observation may be the useful part. We should not discard it because a more comforting answer would have suited us.", tone = "[patient] [serious]" } },
+            loot = { "Keep it carefully. A fine specimen deserves more than being hurried into the bottom of a crowded bag." },
+            bagsFull = { "Leave the labels legible and the samples apart. We can spare the mystery of discovering which is which after the journey." },
+            zone = { "Notice the place as well as the thing that brought you here. A small detail may answer the question we have not yet thought to ask." },
+            rest = { "A pause would be welcome. The dish has made no objection, and I thought I should consult you as well." },
+            thanked = { "You are welcome. I am glad the useful part reached someone who could answer." },
+            bowBack = { "Most courteous. I am pleased to return a greeting to company capable of acknowledging it." },
+        },
+    },
+
+    -- Garyl, Tabard Vendor, Orgrimmar. Adult Orc female3128/M2 949470, Horde Friendly; current Guild Tabard only, no own quests/gossip captured. Shared muddy-sleeves scene original. No later113616 duplicate or expansion tabard stock.
+    -- Research: docs/research/barithras-dish-and-garyls-sleeves.md
+    [5188] = {
+        quote = "You spent an hour arguing over red or black. Then you helped your muddy guildmate up, and every sleeve matched. An efficient choice, if hard on the cloth.",
+        likes = { "Guildmates lending a hand without a vote", "Colors worn with honest pride", "A design chosen before the day is over" },
+        dislikes = { "A badge used to excuse bad conduct", "An argument that leaves someone outside", "Cloth blamed for a careless wearer" },
+        gossip = "Garyl remembers a guild that debated its colors for an hour. She says they finally agreed on road mud, though nobody ordered it.",
+        bio = "Garyl sells guild tabards in Orgrimmar's Valley of Strength. Her counter sees people choosing how their company will be recognized. She has a blunt eye for the difference between a proud emblem and the conduct its wearers expect one another to stand behind.",
+        backstory = "A group argued over colors until a guildmate arrived muddy from a slip. They all reached to help, then looked at their stained sleeves. Garyl observed that they had at last managed to match. The argument did not survive the laughter.",
+        secret = "She remembers how quickly every hand reached out. The matching mud made a good joke; the part she liked was watching a group behave like company worth belonging to.",
+        bestFriend = "Good to see you, friend. Whatever colors we wear today, I expect a hand when I slip. You may expect the same from me.",
+        favorite = {
+            emote = "HIGHFIVE",
+            hint = "She likes a shared success marked with the same ready hand she expects when a guildmate needs help.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. If we need matching colors, I suggest choosing them before either of us slips. I have seen the alternative. It works quickly, but the sleeves suffer.", tone = "[gravelly] [wry]" }, "Good to see you. Wear what you are proud to stand behind, and give the people beside you reason to feel the same." },
+            idle = { { "Red or black, red or black. They argued for an hour. Then a muddy guildmate needed a hand, and every sleeve matched before anyone could call another vote. I was pleased to see a decision at last.", tone = "[gruff] [amused]" }, "An emblem makes you recognizable. Remember that when someone beside you is deciding whether to trust the company wearing it.", "You may admire a good design. I shall also admire the wearer who notices a guildmate needs help before beginning another speech about loyalty." },
+            befriended = { { "I know the sort of hand you offer when someone needs one. That is company I am glad to keep. Come along, friend. We can choose our colors later, preferably somewhere less muddy.", tone = "[warm] [firm]" } },
+            poke = { "What? Has the committee reached a decision about the border?", "Yes. I remember the sleeves. Everyone remembers the sleeves." },
+            group = { { "Make room and keep an eye on one another. When someone needs a hand, offer it before discussing how helping them will reflect on the emblem. There is time to admire the colors afterward.", tone = "[gravelly] [instructive]" } },
+            gear = { "If you wear it proudly, take reasonable care of it. Cloth can carry a good emblem without surviving every careless thing its owner attempts." },
+            newFriend = { "Someone new to the company. See that they have room beside you before deciding how they ought to match." },
+            combatEnd = { "Look to your company. Someone may need a hand before they have the patience to ask for one." },
+            cheerAlong = { "Well done. A shared success ought to leave room for everyone who helped it happen." },
+            thanked = { "You are welcome. No vote was needed. You were there and a hand was useful." },
+            hugged = { "All right, friend. A little warning would have helped. At least the sleeves are clean this time." },
+        },
+    },
+
     -- Captain Stoutfist, Menethil Keep/Wetlands. Adult Dwarf male5409/M2 878772, Alliance Friendly. Dragonmaw defense and Forever plans/disarmament/statuette/referral branches; written lunch acknowledgment original, not a native reward.
     -- Research: docs/research/stoutfists-lunch-and-henens-kodos.md
     [2104] = {

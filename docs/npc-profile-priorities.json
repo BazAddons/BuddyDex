@@ -4207,6 +4207,20 @@
       "zone": "Thunder Bluff",
       "route": "Hunter Rise named resident",
       "reason": "Current adult named identity, no verified trainer or own chain; original unfinished two-kodo joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3583,
+      "name": "Barithras Moonshade",
+      "zone": "Darkshore",
+      "route": "Auberdine mushrooms and Onu referral",
+      "reason": "Full947/948 and Onu onward investigation; original polite specimen and dish; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5188,
+      "name": "Garyl",
+      "zone": "Orgrimmar",
+      "route": "Valley of Strength guild-tabard seller",
+      "reason": "Current guild stock and adult woman; original shared muddy sleeves; fifteen personal lines queued without synthesis"
     }
   ]
 }
