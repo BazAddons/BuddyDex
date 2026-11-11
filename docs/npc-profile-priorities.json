@@ -5257,6 +5257,20 @@
       "zone": "Zephras Isle",
       "route": "Warrior trainer on Zephras Isle",
       "reason": "Current dual Friendly and stern native lesson; original moth interruption; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1254,
+      "name": "Foreman Stonebrow",
+      "zone": "Dun Morogh",
+      "route": "Miners League at Gol Bolar Quarry",
+      "reason": "Native anger and full432 preserved; original cold-tea grievance amendment; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252373,
+      "name": "Anathamaas Aetherwind",
+      "zone": "Zephras Isle",
+      "route": "Mage trainer in Valanaar",
+      "reason": "Native knowledge greeting,161 lessons and full93791/93797 context; original duck reviewer; fifteen personal lines queued without synthesis"
     }
   ]
 }

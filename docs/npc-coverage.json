@@ -3,13 +3,13 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 439,
+    "alliance": 441,
     "unverified": 184,
-    "horde": 435
+    "horde": 436
   },
   "npc_race_counts": {
     "1": 175,
-    "3": 109,
+    "3": 110,
     "7": 63,
     "2": 113,
     "5": 114,
@@ -18,7 +18,7 @@
     "8": 61,
     "6": 111,
     "96": 28,
-    "95": 62
+    "95": 63
   },
   "zone_counts": {
     "Elwynn Forest": 33,
@@ -28,7 +28,7 @@
     "Redridge Mountains": 28,
     "Loch Modan": 11,
     "Duskwood": 6,
-    "Dun Morogh": 27,
+    "Dun Morogh": 28,
     "Wetlands": 15,
     "Ironforge": 70,
     "Stranglethorn Vale": 9,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 86,
+    "Zephras Isle": 87,
     "Riverglades": 14,
     "Dalaran": 1
   },
@@ -1123,6 +1123,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1246"
+    },
+    {
+      "npc_id": 1254,
+      "name": "Foreman Stonebrow",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1254"
     },
     {
       "npc_id": 1255,
@@ -11216,6 +11229,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252359"
     },
     {
+      "npc_id": 252373,
+      "name": "Anathamaas Aetherwind",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252373"
+    },
+    {
       "npc_id": 252376,
       "name": "Emerii Tallgust",
       "zone": "Zephras Isle",
@@ -12894,6 +12921,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 1003,
-  "awaiting_signature_audio_profiles": 549
+  "authored_profiles": 1005,
+  "awaiting_signature_audio_profiles": 551
 }

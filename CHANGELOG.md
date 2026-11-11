@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Foreman Stonebrow and Anathamaas Aetherwind: full Dwarf and Skyborne profiles, thirty personal lines queued.
+- Research quarry anger, mage teaching and the full focus referral; preserve distinct quest speakers and both-faction friendship checks.
+
 - Add Betty Quin and Corsan Earthrazer: full Human and Skyborne profiles, thirty personal lines queued.
 - Research enchanting/camping instruction and a shared-friendly Zephras warrior trainer; validate both factions and preserve separate character progress.
 

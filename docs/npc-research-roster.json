@@ -5586,5 +5586,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Current dual Friendly and stern native lesson; original moth interruption; no Scout sighting claimed",
     "research_notes": "docs/research/bettys-string-star-and-corsans-moth.md"
+  },
+  {
+    "npc_id": 1254,
+    "name": "Foreman Stonebrow",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult alliance identity; Native anger and full432 preserved; original cold-tea grievance amendment; no Scout sighting claimed",
+    "research_notes": "docs/research/stonebrows-amendment-and-anathamaass-reviewer.md"
+  },
+  {
+    "npc_id": 252373,
+    "name": "Anathamaas Aetherwind",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Native knowledge greeting,161 lessons and full93791/93797 context; original duck reviewer; no Scout sighting claimed",
+    "research_notes": "docs/research/stonebrows-amendment-and-anathamaass-reviewer.md"
   }
 ]

@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Foreman Stonebrow, Miners League Gol Bolar Quarry Dun Morogh, adult Dwarf male1569/M2 878772, Alliance Friendly normal. Native angry gossip and full432; poor aim and continuing trogg hostility preserved. Cold-tea complaint amendment original; Father Gavin99159-62 are not his quests, no quarry clearance or temper cure.
+    -- Research: docs/research/stonebrows-amendment-and-anathamaass-reviewer.md
+    [1254] = {
+        quote = "My friend added cold tea to my list of grievances. A useful contribution. At last, a problem on the page that did not require another expedition into the quarry.",
+        likes = { "Useful help with a real problem", "Tools and powder reaching their purpose", "A friend who notices the cold tea" },
+        dislikes = { "Troggs wrecking the work site", "Useful progress undone by destruction", "Being told the trouble has vanished" },
+        gossip = "Stonebrow listed his grievances. His friend added cold tea. He accepted the amendment: at least one problem could be put right before the next report.",
+        bio = "Foreman Stonebrow works with the Miners' League at Gol'Bolar Quarry. Trogg destruction has left him furious, and his poor aim sends him looking for help against Rockjaw Skullthumpers. A friend can still help with one smaller grievance.",
+        backstory = "He was listing everything the troggs had spoiled when a friend added his cold tea. Stonebrow paused, accepted the amendment, and attended to it. The quarry troubles remained. For once, though, one item on the list could be put right immediately.",
+        secret = "He remembers that his friend noticed a small thing he could fix. They had not pretended the quarry was safe or the work finished. The help was useful as it stood.",
+        bestFriend = "Sit a moment, friend. Give me yer news while the tea is still worth drinking. The next report will arrive soon enough.",
+        favorite = {
+            emote = "THANK",
+            hint = "A plain acknowledgment of useful help means more to him than pretending the larger trouble has already gone away.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Give me yer news before the tea becomes another grievance. I have enough of those without manufacturing extra ones.", tone = "[grumbling] [warming]" }, "Good to see ye. Tell me what has actually happened, and we can decide what needs doing." },
+            idle = { { "My friend added cold tea to my complaints. A useful amendment. At least that problem could be put right without another expedition into the quarry.", tone = "[dry] [gruff]" }, "The troggs undo the work and wreck what we need to continue it. I have good reason to be angry.", "A small useful thing is still useful. It need not repair the whole quarry before I can appreciate the help." },
+            befriended = { { "Ye are welcome here, friend. I value someone who hears the difficulty and still notices the little thing that can be put right. Sit while there is time to talk.", tone = "[rough] [sincere]" } },
+            poke = { "Aye? Tell me it is not another barrel gone. I should prefer a different report for once.", "One moment. I am deciding whether this grievance belongs above the tea or below it." },
+            thanked = { { "Ye are welcome. Glad that much helped. We can acknowledge a useful result without announcing that every last problem has obligingly disappeared.", tone = "[gruff] [pleased]" } },
+            quest = { "Understand the actual trouble before setting out. I need useful help, not a grand account of what someone nearly did." },
+            gear = { "Mind the tools. Replacing what should have been looked after is a poor use of the next day." },
+            loot = { "Look for what is useful before deciding what deserves the finest description." },
+            rest = { "A pause, then. Give me yer news. There is room for something besides the next complaint." },
+            newFriend = { "Let them explain what they can do before deciding whether it is enough. Small help may still be worth accepting." },
+            bagsFull = { "Keep the useful things where ye can reach them. A full pack is not much comfort if the needed tool has vanished into it." },
+        },
+    },
+
+    -- Anathamaas Aetherwind, Mage Trainer Valanaar Zephras, adult High Order Skyborne male140063/M2 7478487, both Friendly normal. Native Highborne knowledge greeting,161 current lessons, full93791/93797 with referral-table discrepancy. Duck beside practice diagram original, not a canonical book, magic creature or free focus/training.
+    -- Research: docs/research/stonebrows-amendment-and-anathamaass-reviewer.md
+    [252373] = {
+        quote = "My friend added a small duck beside my practice diagram. I labeled it the reviewer. The diagram remains sound, though the reviewer's opinion has yet to be expressed in words.",
+        likes = { "Knowledge recovered through careful work", "Questions with a useful next step", "A little room in the margin for company" },
+        dislikes = { "A proud claim without understanding", "Inherited knowledge treated carelessly", "Confusing an impressive display with study" },
+        gossip = "A duck appears beside one of Anathamaas's practice diagrams. His friend drew it. He labeled it the reviewer and kept the page.",
+        bio = "Anathamaas Aetherwind teaches magic in Valanaar, following the old Highborne ways and the pursuit of lost knowledge. He guides aspiring mages toward Belann and the focus tradition. His study has room for a little humor too.",
+        backstory = "A friend added a little duck beside a diagram on his practice page. Anathamaas considered the addition, labeled it the reviewer, and finished the explanation. He kept the page. The visitor had contributed no theorem, but had improved the afternoon.",
+        secret = "When he returns to that page, he remembers the company as well as the work. An ordinary drawing can recall a pleasant conversation without carrying any enchantment.",
+        bestFriend = "Stay, friend. Tell me what you notice. The reviewer has been silent, and I should enjoy a question from someone willing to explain it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing expression suits the small joke that has found a welcome place beside his serious work.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. The diagram is ready for discussion. Its small feathered reviewer has supplied no objection so far.", tone = "[measured] [wry]" }, "Good to see you. Tell me where your questions have taken you since we last spoke." },
+            idle = { { "My friend drew a duck beside the practice diagram. I labeled it the reviewer. It has proved a remarkably restrained correspondent.", tone = "[dry] [amused]" }, "The desire to recover knowledge deserves careful work. Hunger for an answer is not the same as understanding it.", "A tradition survives through people willing to learn it, not merely through admiring its age." },
+            befriended = { { "You are welcome beside me, friend. Bring your questions and your observations. I have found that serious study can make room for the pleasure of familiar company.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the reviewer finally expressed an opinion? I should prefer to hear your question first.", "One moment. I am considering whether this requires another diagram or a clearer explanation of the first." },
+            learned = { { "There, a little more understood. Keep the question that brought you here in mind. It may show you where the next useful inquiry begins.", tone = "[thoughtful] [encouraging]" } },
+            gear = { "Understand the purpose of the focus, and give the work that made it a little consideration." },
+            quest = { "Attend to the person who can guide the next step. A useful referral is part of learning, not an interruption of it." },
+            newFriend = { "Hear the question before judging how much the person ought already to know." },
+            rest = { "A pause is welcome. We may enjoy the company without requiring a new discovery to justify it." },
+            thanked = { "You are welcome, friend. I am pleased the explanation helped. Tell me what it leads you to ask next." },
+            group = { "Let people contribute what they understand. The quiet question may deserve as much attention as the confident answer." },
+        },
+    },
+
     -- Betty Quin, Journeyman Enchanter Stormwind, adult Human female10591/M2 1000764, Alliance Friendly normal. Three native teaching/referral lines, ten current lessons, full97917 camping and Sam context. Finger-string star original, no free enchant/lute, invented family or later retail title.
     -- Research: docs/research/bettys-string-star-and-corsans-moth.md
     [11068] = {

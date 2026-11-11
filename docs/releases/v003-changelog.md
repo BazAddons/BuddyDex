@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Foreman Stonebrow and Anathamaas Aetherwind: full Dwarf and Skyborne profiles, thirty personal lines queued.
+- Research quarry anger, mage teaching and the full focus referral; preserve distinct quest speakers and both-faction friendship checks.
+
 - Add Betty Quin and Corsan Earthrazer: full Human and Skyborne profiles, thirty personal lines queued.
 - Research enchanting/camping instruction and a shared-friendly Zephras warrior trainer; validate both factions and preserve separate character progress.
 
@@ -808,4 +811,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **1003 fully written NPC profiles**: 454 have initial signature recordings, and five hundred forty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **1005 fully written NPC profiles**: 454 have initial signature recordings, and five hundred fifty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
