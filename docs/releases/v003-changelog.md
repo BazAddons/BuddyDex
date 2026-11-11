@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Brewmeister Bilger and Sarah Goode: adult Dwarf and Forsaken regional profiles with thirty personal lines queued.
+- Research Bilger’s full moonshine and Forever brewing quests; document original farewell and greeting scenes separately from established facts.
+
 - Add Fenn Fairweather and Velma Warnam: adult Skyborne and Forsaken profiles with thirty personal lines queued.
 - Verify the full fishing-camp referral and native riding dialogue; document original first-catch and practice-gate scenes without new service privileges.
 
@@ -570,4 +573,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **847 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **849 fully written NPC profiles**: 454 have initial signature recordings, and three hundred ninety-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

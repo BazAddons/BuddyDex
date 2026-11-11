@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Brewmeister Bilger and Sarah Goode: adult Dwarf and Forsaken regional profiles with thirty personal lines queued.
+- Research Bilger’s full moonshine and Forever brewing quests; document original farewell and greeting scenes separately from established facts.
+
 - Add Fenn Fairweather and Velma Warnam: adult Skyborne and Forsaken profiles with thirty personal lines queued.
 - Verify the full fishing-camp referral and native riding dialogue; document original first-catch and practice-gate scenes without new service privileges.
 

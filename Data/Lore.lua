@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Brewmeister Bilger, Southshore/Hillsbrad. Adult Dwarf male1663/M2 878772, Alliance Friendly. Full647 and98071 establish debt, Dun Garok hops trade and fondness for its halls. Coat-and-farewell scene original.
+    -- Research: docs/research/bilgers-farewell-and-sarahs-greeting.md
+    [2705] = {
+        quote = "A proper farewell takes practice. Ye stand up, find yer coat, remember one last story, and sit down again. That's where most folk go wrong.",
+        likes = { "The smell of familiar hops", "A good story after the coats are fetched", "A debt paid before the last minute" },
+        dislikes = { "A fine old bottle wasted", "A farewell nobody means", "Foggy leaving the bills till tomorrow" },
+        gossip = "Bilger can get as far as his coat before remembering one more story. His friends measure a farewell in chairs pulled out again.",
+        bio = "Brewmeister Bilger works in Southshore. Foggy MacKreel owes him moonshine, and his trade with Dun Garok exchanges Fallrook wine for Homebrew Hops. The fortress feels like home; when he visits, getting comfortable can delay his return for days.",
+        backstory = "He once announced he was leaving, fetched his coat, then heard the beginning of a story. He sat down with the coat still on. Now he claims that was excellent preparation: no need to fetch it when the next farewell begins.",
+        secret = "He remembers which story made him sit down again. He will tell it to a friend who has already fetched a coat, provided they understand what they are getting into.",
+        bestFriend = "I've got me coat, friend. Tell me the beginning, and we'll see whether I need to take it off again.",
+        favorite = {
+            emote = "WELCOME",
+            hint = "He likes being made to feel at home before he has found somewhere to put his coat.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are! I've got me coat and everything. Tell me what happened today, but mind ye begin with the interesting part. I've a reputation for actually leaving to maintain.", tone = "[hearty] [amused]" }, "Good to see ye, friend. Come along. If I stop to hear a story, don't let me pretend it's only for a moment." },
+            idle = { { "I stood up, fetched me coat, and heard the beginning of a fine story. Sat down with the coat still on. Ready to leave the whole time, technically. A man should get some credit for preparation.", tone = "[wry] [conspiratorial]" }, "Dun Garok has the right sort of halls. Ye get comfortable, and suddenly leaving seems a rather poor use of the afternoon.", "Old tastes matter. A familiar smell from a sack of hops can carry more home with it than a grand speech." },
+            befriended = { { "I've become rather glad to see ye, friend. That's dangerous for any plan involving a short visit. Come along. We'll call this the beginning, and worry about the farewell when we reach it.", tone = "[warm] [sincere]" } },
+            poke = { "What is it? Has Foggy remembered what day it is?", "One last question? Aye, I know how that begins." },
+            rest = { { "Well, if we're sitting down, I may as well take me coat off. Don't look so pleased. This is sensible care of a good coat, not a promise to stay all evening.", tone = "[dry] [amused]" } },
+            bagsFull = { "Keep the bottles well packed. A long journey is no excuse for arriving with the drink on everything else." },
+            quest = { "A promise kept. That's worth remembering when the next bargain comes along." },
+            zone = { "Some places make ye want to stay. A friend can make a new place feel that way surprisingly quickly." },
+            thanked = { "Glad to help. Ye needn't pay thanks back by the deadline; that arrangement is for Foggy." },
+            group = { "If we're all saying farewell, let one person finish before the next begins a new story. Otherwise we'll be here all night." },
+            hearth = { "Homeward, then. Aye, I mean it this time. I can finish the story when we get there." },
+        },
+    },
+
+    -- Sarah Goode, Stable Master, Sepulcher/Silverpine. Adult Forsaken female9251/M2 997378, Horde Neutral. No own quests or captured personal gossip found. Private growl practice and squeak original; no invented former-life or witchcraft biography.
+    -- Research: docs/research/bilgers-farewell-and-sarahs-greeting.md
+    [9979] = {
+        quote = "Yes, I heard the growl. No, it wasn't a threat. I was attempting a greeting, and I would appreciate a little professional discretion.",
+        likes = { "A beast introduced without a crowd", "A latch checked twice", "Ridiculous names spoken with affection" },
+        dislikes = { "Hands thrust at a nervous animal", "A loud voice mistaken for reassurance", "An open gate left for someone else" },
+        gossip = "Sarah can give a visitor a remarkably forbidding growl. Watch the beast beside them: it may be considerably less impressed.",
+        bio = "Sarah Goode is the Forsaken stable master at the Sepulcher in Silverpine Forest. Hunters bring their companions to her care. She favors an unhurried introduction and keeps a dry remark ready for anyone who mistakes noise for confidence.",
+        backstory = "A visiting beast answered her greeting with a peculiar low rumble. Alone afterward, Sarah tried to copy it. She managed something fearsome until the last note escaped as a tiny squeak. The practice has continued in private.",
+        secret = "She has never quite conquered the squeak. A trusted friend may hear her latest attempt, on the understanding that applause will be interpreted as deliberate provocation.",
+        bestFriend = "Come here, friend. I believe I've nearly got the last note. You may laugh afterward, if you have the decency to stay.",
+        favorite = {
+            emote = "PET",
+            hint = "She appreciates a gentle gesture from someone who has taken the trouble to approach without startling her.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. If you hear a growl, I am practicing a greeting. You may reserve your expert opinion until the last note, when the entire business generally comes apart.", tone = "[raspy] [dry]" }, "Good to see you. Approach quietly. I should like one introduction today that does not require everyone present to prove how loud they can be." },
+            idle = { { "It was a perfectly respectable rumble until the last note. Then a squeak. I have heard much less convincing threats delivered with considerably more confidence. Naturally, I shall continue practicing in private.", tone = "[gravelly] [wry]" }, "Give a nervous beast room to decide what to make of you. Your certainty that you mean well does not oblige it to agree immediately.", "A ridiculous name is often a useful sign. Someone has spent enough time with the creature to become affectionately unreasonable about it." },
+            befriended = { { "I trust you with a rather undignified sound, and I find I am glad of your company afterward. That will do for friendship. Come along. You have earned the privilege of hearing whether practice has improved it.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Was that curiosity, or a review of the last performance?", "The squeak was not an invitation to repeat it." },
+            comforted = { { "Thank you. Quietly offered. No crowd, no grand announcement. You have understood the useful part of reassurance rather better than some people who talk about it all day.", tone = "[softly] [raspy]" } },
+            mount = { "Check the fastening. A confident departure can still come undone at the simplest point." },
+            rest = { "A quiet pause. I may attempt the greeting again, provided you do not arrange an audience." },
+            group = { "Let one person make the introduction. A circle of eager hands can look rather different from the middle." },
+            newFriend = { "Give them a moment. There is time to become familiar without demanding it at once." },
+            thanked = { "You are welcome. I shall try to accept that without making an unnecessarily alarming noise." },
+            hugged = { "Well. That was unexpected. You may stay a moment; I have no immediate objection." },
+        },
+    },
+
     -- Fenn Fairweather, Fisherman near Shendar. Adult High Order male139446/M2 7478487, both Friendly. Own paid-fishing welcome, currentpole/repair/3lessons, full97967 referral and intro context; actual-size first-catch scene original.
     -- Research: docs/research/fenns-first-catch-and-velmas-gate.md
     [251992] = {

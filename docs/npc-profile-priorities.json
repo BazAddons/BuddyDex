@@ -4165,6 +4165,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill skeletal-horse riding instructor",
       "reason": "Own training gold/qualification remarks; original plain-gap before grand entrance; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2705,
+      "name": "Brewmeister Bilger",
+      "zone": "Hillsbrad Foothills",
+      "route": "Southshore brewer and Dun Garok trade",
+      "reason": "Full647/98071 and installed completion; original coat-and-farewell scene; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9979,
+      "name": "Sarah Goode",
+      "zone": "Silverpine Forest",
+      "route": "Sepulcher stable master",
+      "reason": "Current stable title/map and no own quest/gossip; original growl-and-squeak practice; fifteen personal lines queued without synthesis"
     }
   ]
 }

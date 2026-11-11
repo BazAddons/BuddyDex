@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 847,
-  "written_complete_count": 847,
-  "awaiting_signature_audio_count": 393,
+  "authored_count": 849,
+  "written_complete_count": 849,
+  "awaiting_signature_audio_count": 395,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 395,
+  "remaining_count": 397,
   "completed": [
     {
       "npc_id": 54,
@@ -2024,6 +2024,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 2705,
+      "name": "Brewmeister Bilger",
+      "zone": "Hillsbrad Foothills",
+      "source": "Reviewed adult alliance man; Full647/98071 and installed completion; original coat-and-farewell scene; no Scout sighting claimed",
+      "research_notes": "docs/research/bilgers-farewell-and-sarahs-greeting.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 2706,
@@ -6487,6 +6499,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 9979,
+      "name": "Sarah Goode",
+      "zone": "Silverpine Forest",
+      "source": "Reviewed adult horde woman; Current stable title/map and no own quest/gossip; original growl-and-squeak practice; no Scout sighting claimed",
+      "research_notes": "docs/research/bilgers-farewell-and-sarahs-greeting.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

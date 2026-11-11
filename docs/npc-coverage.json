@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 364,
+    "alliance": 365,
     "unverified": 179,
-    "horde": 349
+    "horde": 350
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 77,
+    "3": 78,
     "7": 61,
     "2": 92,
-    "5": 90,
+    "5": 91,
     "4": 75,
     "8": 61,
     "9": 61,
@@ -34,9 +34,9 @@
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 50,
     "Undercity": 20,
-    "Silverpine Forest": 8,
+    "Silverpine Forest": 9,
     "Teldrassil": 28,
-    "Hillsbrad Foothills": 10,
+    "Hillsbrad Foothills": 11,
     "Arathi Highlands": 11,
     "Orgrimmar": 58,
     "Badlands": 1,
@@ -2670,6 +2670,19 @@
       "public_friendly_factions": [],
       "reaction_evidence": "Current API explicitly shows Horde Neutral, not Friendly. Conditional authored profile does not establish current access; live reaction>=4 and nonattackability gates remain required.",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2704"
+    },
+    {
+      "npc_id": 2705,
+      "name": "Brewmeister Bilger",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2705"
     },
     {
       "npc_id": 2706,
@@ -7924,6 +7937,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9977"
     },
     {
+      "npc_id": 9979,
+      "name": "Sarah Goode",
+      "zone": "Silverpine Forest",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Neutral icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9979"
+    },
+    {
       "npc_id": 9980,
       "name": "Shelby Stoneflint",
       "zone": "Dun Morogh",
@@ -10863,6 +10889,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 847,
-  "awaiting_signature_audio_profiles": 393
+  "authored_profiles": 849,
+  "awaiting_signature_audio_profiles": 395
 }
