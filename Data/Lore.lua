@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Constable Aonda, Shendar Zephras Isle Peacekeeper, adult High Order female138153/M2 7478494, both factions Friendly. Full current campaign/referral/variants/signets/bounty and two captured greetings. Breezy-bench dispute original; no rescued dead watch, finished campaign or native authority/reward through friendship.
+    -- Research: docs/research/aondas-bench-and-anyas-greeting.md
+    [251523] = {
+        quote = "If the urgent question is which end of a bench catches the better breeze, I can spare a moment. Sit down. We can investigate without ordering anyone to defend the middle.",
+        likes = { "Villagers who look out for one another", "An ordinary disagreement with no danger", "A report that admits what is still unknown" },
+        dislikes = { "The Al'Aketh cult's threats to Shen'dar", "Holding ground at the expense of lives", "Good people made to feel expendable" },
+        gossip = "Aonda was asked to settle a dispute over the breeziest seat. She sat in the middle. No one has filed a complaint about the ruling.",
+        bio = "Constable Aonda defends Shen'dar Village from bandits and the Al'Aketh cult. With few peacekeepers, she values her people above holding a watchtower. She arranges infiltration, village defenses and reports to Valanaar.",
+        backstory = "Two friends asked her to settle a disagreement over the breeziest end of a bench. Expecting trouble, Aonda instead found room to sit between them. For once, investigating a complaint meant sharing the seat rather than preparing a defense.",
+        secret = "She would like more disagreements to be that small. A harmless argument does not make the village safe, but it reminds her of the ordinary lives she is trying to protect.",
+        bestFriend = "Sit beside me, friend. We may disagree about the breeze. I would be glad of a little time when that is all we have to settle.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A quiet smile can remind her of the ordinary company worth making time to protect.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are, friend. Is this news I need to hear, or another dispute about the best place to sit? I will listen to either. I admit that the second is rather easier to investigate, and I would be glad of a complaint whose greatest danger is a disappointing breeze.", tone = "[steady] [warm]" }, "Welcome back. Tell me what has happened before deciding you must make it sound more impressive." },
+            idle = { { "They asked me to settle an argument. I expected trouble. One end of a bench or the other, they said. Which caught the better breeze? I sat in the middle. For once, investigating a complaint meant sharing the seat. I would welcome more disagreements like that.", tone = "[dry] [amused]" }, "I trust the people here. Trust does not give us more defenders, but it matters that we know who we are standing beside.", "A post is not worth every life it might cost to hold it. The people are the reason for the defense, not something to spend proving the ground was important." },
+            befriended = { { "You have heard the difficult news and still found room to share something ordinary with me. I value that, friend. Come along. There will be serious matters enough without making every moment of company another report to deliver or another position to defend.", tone = "[firm] [fond]" } },
+            poke = { "Yes, friend? Begin with what you know, and we can consider the rest together.", "A moment. If this concerns the breeze, I am not yet ready to call the investigation complete." },
+            group = { { "Remember who the plan is meant to protect. Do not spend people to preserve a position simply because abandoning it sounds unpleasant. Tell one another what you know, be honest about what you do not, and leave room to bring the living home.", tone = "[serious] [commanding]" } },
+            quest = { "A report should say what you found, not what you wish had been there. We can prepare better with an honest uncertainty than a comforting guess." },
+            rest = { "A short pause. We can share the seat without deciding that every silence must contain an instruction." },
+            newFriend = { "Learn who they are beyond the help they can provide. People deserve more than being remembered only when something needs doing." },
+            thanked = { "You are welcome. I am glad there was something useful we could do. Take care with the next part." },
+            comforted = { "Thank you, friend. I can accept a little company without pretending that the things troubling me have disappeared." },
+            zone = { "Here we are. Look at the people as well as the ground. A place means more than the positions someone could defend in it." },
+        },
+    },
+
+    -- Anya Rince, Undercity Forsaken resident, adult female148730/M2 997378, Horde Friendly. Current projected city-area pins and public walking-resident reference, no own current quests/services or captured dialogue. Ominous courtesy game original; no apothecary/royal occupation, death history or new threat mechanic.
+    -- Research: docs/research/aondas-bench-and-anyas-greeting.md
+    [276795] = {
+        quote = "I wished you a pleasant evening with all the gravity of a final warning. You thanked me. An excellent defense. I shall have to try being sincerely pleasant next.",
+        likes = { "A courteous phrase with dramatic timing", "A friend who hears the joke beneath it", "An ordinary evening allowed to be pleasant" },
+        dislikes = { "A harmless performance taken for a threat", "The same joke pressed beyond its welcome", "Being expected to be ominous on command" },
+        gossip = "Anya tried making a pleasant greeting sound ominous. Her friend thanked her. She concedes that this was difficult to answer.",
+        bio = "Anya Rince is a Forsaken resident of the Undercity. Her private amusement is making an ordinary courtesy sound like a dire prediction, especially when a friend cheerfully declines to be impressed.",
+        backstory = "One evening, Anya gave a perfectly polite farewell the weight of an approaching disaster. Her friend thanked her and said they intended to enjoy the evening. She paused, then admitted that the reply had rather spoiled her performance.",
+        secret = "She enjoys someone who can hear the amusement behind her solemn delivery. Having to become more frightening would be tedious. Sharing the joke is considerably better company.",
+        bestFriend = "Have a pleasant evening, friend. That was sincere. Stay a little, and we can discover whether I am capable of enjoying one as well.",
+        favorite = {
+            emote = "WINK",
+            hint = "A shared wink acknowledges the joke before her solemn courtesy becomes too convincing.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "A pleasant evening to you, friend. No, that was not a prediction of catastrophe. I have tried the dramatic pause already, and you defeated it by thanking me. I am considering whether simple courtesy might be the more surprising approach after all.", tone = "[dry] [playful]" }, "There you are. Shall I make the greeting sound ominous, or have we agreed to enjoy the evening without the performance?" },
+            idle = { { "I wished them a pleasant evening with all the gravity of a final warning. They thanked me and said they intended to have one. I had prepared a pause. Possibly a look. Neither seemed adequate after such a thoroughly cheerful answer.", tone = "[deadpan] [amused]" }, "A perfectly ordinary sentence can become rather impressive if you leave enough silence after it. That does not mean the silence contains anything useful.", "I enjoy a joke more when the other person knows it is a joke. There is very little pleasure in having to explain that the pleasant evening was not a threat." },
+            befriended = { { "You have learned to hear when I am amusing myself, and to answer without making a great performance of being unafraid. I appreciate that, friend. Come along. We may attempt an ordinary pleasant evening and see how long I can resist making the invitation sound portentous.", tone = "[wry] [warm]" } },
+            poke = { "Yes, friend? That pause contained no hidden meaning. I was simply considering the answer.", "A moment. I am deciding whether the sentence needs an ominous silence or whether I have exhausted that privilege." },
+            newFriend = { { "Listen for the person beneath the manner of speaking. A solemn voice may be enjoying itself, and a cheerful answer may be a very effective way to join the joke. You need not turn every unfamiliar courtesy into a contest of nerve.", tone = "[calm] [wry]" } },
+            rest = { "A quiet pause. We need not assign it a sinister purpose merely because I am the person keeping it." },
+            thanked = { "You are welcome. There, a perfectly sincere answer. I shall try not to diminish the occasion by adding a dramatic silence." },
+            group = { "Let them finish. If everyone adds an impressive pause at once, the entire conversation may vanish into its own importance." },
+            waveBack = { "Good evening, friend. You may accept the greeting at its ordinary value this time." },
+            zone = { "Here we are. I could say that rather ominously, but I would prefer to look around before deciding the surroundings require my assistance." },
+            laughAlong = { "Yes, that was the intended response. A laugh is much better than another careful explanation of why I wished you a pleasant evening." },
+        },
+    },
+
     -- Thorgrum Borrelson, Thelsamar Loch Modan Gryphon Master, adult Dwarf male5037/M2 878772, Alliance Friendly elite. Own speed boast and full6387/6391/6388/6392 delivery despite empty current related tabs. View conversation original; native paid flight/elite friendship scaling retained.
     -- Research: docs/research/thorgrums-view-and-larhkas-kodo.md
     [1572] = {

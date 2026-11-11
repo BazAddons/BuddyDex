@@ -4655,6 +4655,20 @@
       "zone": "The Barrens",
       "route": "Crossroads beverage merchant",
       "reason": "Six current drinks and sparse personal sources; original five-legged cork kodo; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251523,
+      "name": "Constable Aonda",
+      "zone": "Zephras Isle",
+      "route": "Shendar peacekeeper and village defense campaign",
+      "reason": "Full current campaign and two greetings; original breezy-bench dispute; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 276795,
+      "name": "Anya Rince",
+      "zone": "Undercity",
+      "route": "Named Undercity resident",
+      "reason": "Current adult identity and sparse personal sources; original ominous courtesy game; fifteen personal lines queued without synthesis"
     }
   ]
 }

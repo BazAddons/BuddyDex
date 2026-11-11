@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Constable Aonda and Anya Rince: full Skyborne and Forsaken profiles, thirty personal lines queued.
+- Research the Shen'dar defense campaign; expand both-faction starter-region and Horde resident coverage.
+
 - Add Thorgrum Borrelson and Larhka: full Loch Modan and Barrens profiles, thirty personal lines queued.
 - Research the honorary-pick flight chain and beverage merchant; retain elite friendship scaling and add original personal stories.
 

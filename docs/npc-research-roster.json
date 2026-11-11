@@ -4940,21 +4940,21 @@
     "npc_id": 3036,
     "name": "Kym Wildmane",
     "zone": "Thunder Bluff",
-    "source": "Reviewed adult horde man; Earth Mother/retraining greetings and184 lessons; original familiar joke pause; no Scout sighting claimed",
+    "source": "Reviewed adult horde woman; Earth Mother/retraining greetings and184 lessons; original familiar joke pause; no Scout sighting claimed",
     "research_notes": "docs/research/bengus-tune-and-kyms-pause.md"
   },
   {
     "npc_id": 257007,
     "name": "Melasa Fairmend",
     "zone": "Zephras Isle",
-    "source": "Reviewed adult horde man; Six greetings and13 lessons; original sand-tray detour; no Scout sighting claimed",
+    "source": "Reviewed adult horde woman; Six greetings and13 lessons; original sand-tray detour; no Scout sighting claimed",
     "research_notes": "docs/research/melasas-path-and-jessirs-company.md"
   },
   {
     "npc_id": 11019,
     "name": "Jessir Moonbow",
     "zone": "Felwood",
-    "source": "Reviewed adult horde man; Full5202/5203/5204/5385 and own greeting; original shared silence; no Scout sighting claimed",
+    "source": "Reviewed adult horde woman; Full5202/5203/5204/5385 and own greeting; original shared silence; no Scout sighting claimed",
     "research_notes": "docs/research/melasas-path-and-jessirs-company.md"
   },
   {
@@ -4984,5 +4984,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde man; Six current drinks and sparse personal sources; original five-legged cork kodo; no Scout sighting claimed",
     "research_notes": "docs/research/thorgrums-view-and-larhkas-kodo.md"
+  },
+  {
+    "npc_id": 251523,
+    "name": "Constable Aonda",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde woman; Full current campaign and two greetings; original breezy-bench dispute; no Scout sighting claimed",
+    "research_notes": "docs/research/aondas-bench-and-anyas-greeting.md"
+  },
+  {
+    "npc_id": 276795,
+    "name": "Anya Rince",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde woman; Current adult identity and sparse personal sources; original ominous courtesy game; no Scout sighting claimed",
+    "research_notes": "docs/research/aondas-bench-and-anyas-greeting.md"
   }
 ]

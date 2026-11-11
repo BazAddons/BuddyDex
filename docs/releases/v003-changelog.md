@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Constable Aonda and Anya Rince: full Skyborne and Forsaken profiles, thirty personal lines queued.
+- Research the Shen'dar defense campaign; expand both-faction starter-region and Horde resident coverage.
+
 - Add Thorgrum Borrelson and Larhka: full Loch Modan and Barrens profiles, thirty personal lines queued.
 - Research the honorary-pick flight chain and beverage merchant; retain elite friendship scaling and add original personal stories.
 
@@ -676,4 +679,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **917 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **919 fully written NPC profiles**: 454 have initial signature recordings, and four hundred sixty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

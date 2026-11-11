@@ -3,22 +3,22 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 395,
+    "alliance": 396,
     "unverified": 183,
-    "horde": 388
+    "horde": 390
   },
   "npc_race_counts": {
     "1": 168,
     "3": 91,
     "7": 62,
     "2": 102,
-    "5": 99,
+    "5": 100,
     "4": 88,
     "9": 67,
     "8": 61,
     "6": 100,
     "96": 28,
-    "95": 51
+    "95": 52
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -33,7 +33,7 @@
     "Ironforge": 64,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 56,
-    "Undercity": 21,
+    "Undercity": 22,
     "Silverpine Forest": 9,
     "Teldrassil": 30,
     "Hillsbrad Foothills": 13,
@@ -60,7 +60,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 76,
+    "Zephras Isle": 77,
     "Riverglades": 14
   },
   "entries": [
@@ -10087,6 +10087,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251507"
     },
     {
+      "npc_id": 251523,
+      "name": "Constable Aonda",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251523"
+    },
+    {
       "npc_id": 251537,
       "name": "Uualia Suncrest",
       "zone": "Zephras Isle",
@@ -11707,6 +11721,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/276171"
     },
     {
+      "npc_id": 276795,
+      "name": "Anya Rince",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/276795"
+    },
+    {
       "npc_id": 277024,
       "name": "Jelinek Sharpshear",
       "zone": "Stormwind City",
@@ -11770,6 +11797,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 917,
-  "awaiting_signature_audio_profiles": 463
+  "authored_profiles": 919,
+  "awaiting_signature_audio_profiles": 465
 }
