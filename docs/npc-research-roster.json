@@ -5264,5 +5264,19 @@
     "zone": "Mulgore",
     "source": "Reviewed adult horde identity; Current Forever99411 and adult identity; original Kyle supper forecast; no Scout sighting claimed",
     "research_notes": "docs/research/yorus-cheers-and-ahabs-forecast.md"
+  },
+  {
+    "npc_id": 6299,
+    "name": "Delfrum Flintbeard",
+    "zone": "Darkshore",
+    "source": "Reviewed adult alliance identity; Three native greetings including granite-ceiling homesickness and Grumnus referral; original inn roof review; no Scout sighting claimed",
+    "research_notes": "docs/research/delfrums-ceilings-and-rhykers-shadow.md"
+  },
+  {
+    "npc_id": 15686,
+    "name": "Auctioneer Rhyker",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde identity; Current adult female Forsaken identity and auction service; original shadow dragon mistaken for rabbit; no Scout sighting claimed",
+    "research_notes": "docs/research/delfrums-ceilings-and-rhykers-shadow.md"
   }
 ]

@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Delfrum Flintbeard and Auctioneer Rhyker: full Dwarf and female Forsaken profiles, thirty personal lines queued.
+- Preserve native blacksmith dialogue and auctioneer identity; expand Darkshore and Horde capital coverage.
+
 - Add Yorus Barleybrew and Ahab Wheathoof: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research the gauntlet and armor follow-through, verify the returned Forever rancher and expand Mulgore coverage.
 
@@ -739,4 +742,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **957 fully written NPC profiles**: 454 have initial signature recordings, and five hundred three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **959 fully written NPC profiles**: 454 have initial signature recordings, and five hundred five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

@@ -4935,6 +4935,20 @@
       "zone": "Mulgore",
       "route": "Old rancher near Bloodhoof Village",
       "reason": "Current Forever99411 and adult identity; original Kyle supper forecast; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6299,
+      "name": "Delfrum Flintbeard",
+      "zone": "Darkshore",
+      "route": "Auberdine blacksmith",
+      "reason": "Three native greetings including granite-ceiling homesickness and Grumnus referral; original inn roof review; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 15686,
+      "name": "Auctioneer Rhyker",
+      "zone": "Undercity",
+      "route": "Named female Forsaken auctioneer",
+      "reason": "Current adult female Forsaken identity and auction service; original shadow dragon mistaken for rabbit; fifteen personal lines queued without synthesis"
     }
   ]
 }

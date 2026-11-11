@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Delfrum Flintbeard, Journeyman Blacksmith, Auberdine Darkshore, adult Dwarf male5021/M2 878772, Alliance Friendly normal. Three native greetings: granite ceiling homesickness, smithing, Grumnus referral. Inn roof review original; no guaranteed lessons/cap, Loch Modan placement or cured open-sky unease.
+    -- Research: docs/research/delfrums-ceilings-and-rhykers-shadow.md
+    [6299] = {
+        quote = "A fine inn. Sound beams, a stout roof, and very little sky where the ceiling belongs. The drink? I was still getting to that part of the inspection.",
+        likes = { "A granite ceiling overhead", "Steel with sound form and function", "An inn with reassuring roof beams" },
+        dislikes = { "Stars where a ceiling ought to be", "Fine-looking work that will not hold", "Being hurried through a roof inspection" },
+        gossip = "Ask Delfrum about an inn and he begins with the ceiling. A friend once asked about the drink. He had not reached that part of the report.",
+        bio = "Delfrum Flintbeard is a blacksmith in Auberdine. Far from Ironforge, he misses the comfort of granite overhead and finds the stars unsettling. He admires well-made steel and points accomplished visitors toward Grumnus Steelshaper.",
+        backstory = "A friend asked whether he had enjoyed an inn. Delfrum described the roof beams in considerable detail. Asked about the drink, he paused. He had been so pleased with the ceiling that he had rather neglected the rest of the review.",
+        secret = "He still gives that inn an excellent recommendation. His friend now asks about the beams first. It is pleasant to have someone remember what makes a place comfortable for him.",
+        bestFriend = "Come along, friend. If we find a seat under a sound roof, I shall give you the full report. You may begin with the part I forgot to mention.",
+        favorite = {
+            emote = "NOD",
+            hint = "An understanding nod tells him that a good ceiling deserves a proper place in the conversation.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "Good to see you, friend. Any inns worth recommending? Begin with the roof. I am willing to hear about the drink once we have established the important part.", tone = "[gruff] [wry]" }, "Come along. How has your gear been holding up? Sound work is worth talking about, particularly if we can discuss it under something reassuringly solid." },
+            idle = { { "My friend asked whether I had enjoyed the inn. I described the beams. They asked about the drink. I had not reached that part of the review. A fellow ought to be thorough about the things he actually noticed.", tone = "[dry] [amused]" }, "Granite overhead. You know where you stand with granite. The stars seem to expect a man to be comfortable with a great deal of nothing between himself and everything else.", "Grumnus knows fine steel. When a piece brings form and function together properly, it is worth finding someone who can show you the next part of the craft." },
+            befriended = { { "Walk with me, friend. You remember to ask about the beams before the drink. It is good to have company that understands how a fellow chooses a comfortable seat.", tone = "[warm] [gruff]" } },
+            poke = { "Yes? Have you reached the part about the roof yet?", "A moment. I am trying to recall whether that inn had anything else worth reporting." },
+            gear = { { "Fine work should look sound and serve its purpose. Examine how the piece is made before deciding that a bright finish tells you all you need to know.", tone = "[practical] [approving]" } },
+            rest = { "A pause would be welcome. Have a look for a comfortable spot, friend. You know which feature I shall be inspecting first." },
+            newFriend = { "Ask what makes a place feel comfortable to them. It may explain the part of their story they keep returning to." },
+            learned = { "Aye, try the work and see how it holds. There is more to understanding a technique than remembering what it is called." },
+            thanked = { "You are welcome. Sound work and useful company are both worth a little attention." },
+            group = { "Make certain everyone has room to settle. We may disagree about the view while still finding somewhere pleasant to sit." },
+            hearth = { "A familiar roof at the end of a journey. A fine thing to have waiting for you." },
+        },
+    },
+
+    -- Auctioneer Rhyker, Undercity, adult Forsaken female15781/M2 997378, Horde Friendly normal. Current auction service/identity, no personal quests or captured dialogue. Candle-shadow dragon mistaken for rabbit original; no auction-price promise, new sale, pet, animation or necromantic ability.
+    -- Research: docs/research/delfrums-ceilings-and-rhykers-shadow.md
+    [15686] = {
+        quote = "A fearsome dragon. Yes, those are ears. Dragons may have ears. Perhaps not quite so much ear. You may applaud when the creature has finished being reconsidered.",
+        likes = { "A clear account of what is offered", "A candle set for a good shadow", "An audience with an unexpected answer" },
+        dislikes = { "A description that conceals the details", "Calling every shadow a rabbit", "Applause delivered before the reveal" },
+        gossip = "Rhyker tried making a dragon's shadow with her hands. Her friend saw a rabbit. Her next attempt was apparently a rabbit with ambitious wings.",
+        bio = "Auctioneer Rhyker works in the Undercity, where a clear description matters to anyone considering an offer. In private she enjoys a less dependable presentation: candle shadows whose audience keeps recognizing the wrong creature.",
+        backstory = "She arranged her hands into a splendid dragon before a candle. Her friend saw a rabbit. Rhyker added wings. Her friend admired the rabbit's ambition. The demonstration became rather difficult to finish with appropriate grandeur.",
+        secret = "She can make a perfectly recognizable rabbit. She saves it until the end, then announces a dragon with exceptional confidence. Her friend's answer is worth the preparation.",
+        bestFriend = "Your seat, friend. I have prepared a new creature. You may tell me what it resembles once I have made an entirely different announcement.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "A well-timed round of applause can give even her least convincing creature a grand reception.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "Welcome back, friend. I have been improving the dragon. The ears remain a point of discussion. You may take your seat and prepare a suitably unexpected opinion.", tone = "[raspy] [theatrical]" }, "There you are. A little company? Good. I have a presentation that benefits considerably from an audience willing to disagree with it." },
+            idle = { { "I made a dragon. My friend saw a rabbit. I added wings. They admired the rabbit's ambition. At that point I found it difficult to maintain the grandeur of the demonstration.", tone = "[dry] [amused]" }, "A good description makes the important details clear. A shadow dragon apparently requires rather more explanation than I had expected.", "I can make a perfectly respectable rabbit. I announce it as a dragon with great confidence. My friend never fails to provide the answer I was hoping to hear." },
+            befriended = { { "Come along, friend. You have earned a place at the next demonstration. I shall provide the grand announcement; you may recognize something entirely different.", tone = "[warm] [wry]" } },
+            poke = { "Yes? Is it the ears again? I have been assured that they are exceptionally convincing.", "A moment. The creature is still acquiring its necessary grandeur." },
+            applaudToo = { { "An excellent reception. The creature accepts your applause, whatever species you have decided it belongs to. I shall endeavor to make the next one equally uncertain.", tone = "[theatrical] [pleased]" } },
+            loot = { "Look closely before deciding what you have found. A confident first impression may require a second inspection." },
+            mail = { "Read the account before making your decision. It is useful to know what is actually being offered." },
+            bagsFull = { "A little room will make the next choice easier. Give the contents a proper look before putting another thing on top of them." },
+            rest = { "A quiet pause is welcome. We can save the next grand announcement until we have both settled." },
+            newFriend = { "Invite them to describe what they see. Their answer may be more entertaining than the one you prepared." },
+            laughAlong = { "Yes, yes. A rabbit with ambitious wings. I shall have to consider that a successful presentation in its own fashion." },
+        },
+    },
+
     -- Yorus Barleybrew, Lakeshire Inn, adult Dwarf male4944/M2 878772, Alliance Friendly normal. Native challenge/cheering, full1698/1699/1702 and armor branches reviewed despite empty current NPC quest tabs. Rolled-napkin contest original; no new gauntlet, guaranteed shield, free drink or invented Barleybrew kinship.
     -- Research: docs/research/yorus-cheers-and-ahabs-forecast.md
     [6166] = {

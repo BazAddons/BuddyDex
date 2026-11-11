@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Delfrum Flintbeard and Auctioneer Rhyker: full Dwarf and female Forsaken profiles, thirty personal lines queued.
+- Preserve native blacksmith dialogue and auctioneer identity; expand Darkshore and Horde capital coverage.
+
 - Add Yorus Barleybrew and Ahab Wheathoof: full Dwarf and Tauren profiles, thirty personal lines queued.
 - Research the gauntlet and armor follow-through, verify the returned Forever rancher and expand Mulgore coverage.
 

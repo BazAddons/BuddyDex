@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 414,
+    "alliance": 415,
     "unverified": 184,
-    "horde": 412
+    "horde": 413
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 100,
+    "3": 101,
     "7": 63,
     "2": 106,
-    "5": 107,
+    "5": 108,
     "4": 94,
     "9": 67,
     "8": 61,
@@ -33,14 +33,14 @@
     "Ironforge": 68,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 59,
-    "Undercity": 24,
+    "Undercity": 25,
     "Silverpine Forest": 10,
     "Teldrassil": 32,
     "Hillsbrad Foothills": 14,
     "Arathi Highlands": 11,
     "Orgrimmar": 62,
     "Badlands": 1,
-    "Darkshore": 15,
+    "Darkshore": 16,
     "Mulgore": 27,
     "Thunder Bluff": 47,
     "Durotar": 56,
@@ -7582,6 +7582,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6294"
     },
     {
+      "npc_id": 6299,
+      "name": "Delfrum Flintbeard",
+      "zone": "Darkshore",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6299"
+    },
+    {
       "npc_id": 6300,
       "name": "Elisa Steelhand",
       "zone": "Darkshore",
@@ -10125,6 +10138,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15684"
     },
     {
+      "npc_id": 15686,
+      "name": "Auctioneer Rhyker",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/15686"
+    },
+    {
       "npc_id": 16458,
       "name": "Innkeeper Faralia",
       "zone": "Stonetalon Mountains",
@@ -12293,6 +12319,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 957,
-  "awaiting_signature_audio_profiles": 503
+  "authored_profiles": 959,
+  "awaiting_signature_audio_profiles": 505
 }
