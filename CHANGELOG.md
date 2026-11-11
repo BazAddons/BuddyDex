@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Corithras Moonrage and Deathguard Burgess: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Ground their contrasting personalities in the moonwell quest chain and Brill dialogue; add original leaf and map friendship stories.
+
 - Add Frast Dokner and Andruk: complete Dun Morogh and Ashenvale profiles, thirty personal lines queued.
 - Research the Quarry smith quest and preserve native services; document original unqualified compliment and wind-rider habit with elite friendship scaling unchanged.
 

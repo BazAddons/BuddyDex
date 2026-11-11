@@ -4914,5 +4914,19 @@
     "zone": "Ashenvale",
     "source": "Reviewed adult horde man; Own flight greeting and current Horde Friendly role; original nudge and chin scratch; no Scout sighting claimed",
     "research_notes": "docs/research/frasts-compliment-and-andruks-instruction.md"
+  },
+  {
+    "npc_id": 3515,
+    "name": "Corithras Moonrage",
+    "zone": "Teldrassil",
+    "source": "Reviewed adult alliance man; Full Crown chain and current continuation; original literal leaf explanation; no Scout sighting claimed",
+    "research_notes": "docs/research/corithras-leaf-and-burgess-map.md"
+  },
+  {
+    "npc_id": 1652,
+    "name": "Deathguard Burgess",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde man; Full374 and own sarcastic directions; original one-arrow map; no Scout sighting claimed",
+    "research_notes": "docs/research/corithras-leaf-and-burgess-map.md"
   }
 ]

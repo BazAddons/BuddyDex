@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Corithras Moonrage, Dolanaar Teldrassil, adult Night Elf male1528/M2 974343, Alliance Friendly. Full Crown of the Earth referral/water/history and Forever continuation reviewed. Literal leaf explanation original; no restored immortality, solved corruption or future retail events.
+    -- Research: docs/research/corithras-leaf-and-burgess-map.md
+    [3515] = {
+        quote = "I know what turning over a new leaf means. I was holding a leaf when you said it. The explanation of its underside was perfectly sound, if somewhat beside your point.",
+        likes = { "Questions that follow the whole account", "A quiet moment beside the moonwell", "A joke with room for a thoughtful answer" },
+        dislikes = { "Sacred water handled carelessly", "An unfinished account called the whole truth", "His distraction mistaken for ignorance" },
+        gossip = "Corithras once answered a figure of speech with a lesson about a leaf. His friend is still enjoying the explanation.",
+        bio = "Corithras Moonrage tends the moonwell task at Dolanaar. Between phials of water, he recounts the losses after Hyjal and Teldrassil's troubled growth, then sends the collected water to Fandral in Darnassus.",
+        backstory = "He was studying a leaf when a friend suggested turning over a new one. Corithras turned it and began explaining the underside. Their expression finally interrupted him. He knew the saying; his attention had simply remained on the leaf.",
+        secret = "He smiled at the mistake afterward. A difficult history still deserves careful telling, but not every conversation must carry its full weight.",
+        bestFriend = "Yes, I know the expression, friend. Leave the leaf where it is. This time I would like to hear what you meant by it.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin can remind him that a conversation has more than one meaning.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "Welcome, friend. If you have come to suggest turning over a new leaf again, I know the expression. My attention happened to be elsewhere. The explanation I gave you was accurate, even if the leaf was not the part you intended me to consider.", tone = "[measured] [amused]" }, "There you are. Shall we begin with your meaning this time, before I become occupied with the nearest example?" },
+            idle = { { "I was holding a leaf. They suggested turning over a new one. Naturally, I turned it and began explaining the underside. Their expression eventually interrupted the lesson. Yes, I know the saying. My attention had simply failed to leave the object in my hand.", tone = "[reflective] [wry]" }, "Water gathered from the moonwells carries a purpose beyond the journey to collect it. Handle the phials with the care you would give the places they came from.", "The losses after Hyjal are not a brief introduction to be hurried past. Nor does repeating the account make its telling any easier." },
+            befriended = { { "You have listened to the history and stayed for a conversation that did not require another phial. I value that, friend. Come along. I shall try to hear the meaning you intended before offering an exhaustive account of whatever happens to be in my hand.", tone = "[gentle] [warm]" } },
+            poke = { "Yes, friend? You have my attention. All of it, this time.", "A moment. I am deciding whether the question concerns the leaf or the expression." },
+            quest = { { "Listen to the account as carefully as the instructions. Knowing where to carry the water is useful; understanding why it was gathered matters as well. Neither requires you to pretend the troubles of Teldrassil have already been answered.", tone = "[serious] [instructive]" } },
+            learned = { "A useful lesson leaves room for the next question. If everything seems settled, consider whether you have reached the end of the account." },
+            rest = { "We may sit quietly for a while. There need not be a lesson waiting at the end of every pause." },
+            newFriend = { "Let them finish their thought. The first meaning you recognize may not be the one they intended." },
+            thanked = { "You are welcome. I am glad the account was useful, even if my unexpected lesson about the leaf remains your favorite part." },
+            zone = { "Here we are. Look carefully, and leave room to learn more than the first impression tells you." },
+            laughAlong = { "Yes, I see why you are amused. You may enjoy the mistake without requesting the explanation of the underside a second time." },
+        },
+    },
+
+    -- Deathguard Burgess, Brill Tirisfal, adult Forsaken male1666/M2 959310, Horde Friendly. Full374 Proof of Demise and own sarcastic directions. Broad anti-human hostility and current Varimathras loyalty preserved. One-arrow map original; no new native map/service.
+    -- Research: docs/research/corithras-leaf-and-burgess-map.md
+    [1652] = {
+        quote = "Your map of Brill is one enormous arrow pointing at me. Apparently it identifies where all the answers stand. A dreadful map. Annoyingly difficult to fault its method.",
+        likes = { "A question asked once and clearly", "Black, gray and dark purple", "A little applause with sufficient irony" },
+        dislikes = { "Scarlet Crusaders and human enemies", "The same directions requested twice", "Being regarded as a taxidermy project" },
+        gossip = "A friend mapped Brill with one arrow pointing at Burgess. He called it dreadful, then struggled to dispute its accuracy.",
+        bio = "Deathguard Burgess stands in Brill, dispensing directions with biting sarcasm. He demands Scarlet insignia rings as proof of loyalty to Varimathras and the Dark Lady. His contempt extends beyond the Crusade to humans generally.",
+        backstory = "A friend presented a map of Brill: one enormous arrow pointing at him. Burgess called it the worst map in Lordaeron. They said it showed where all the answers stood. He searched for a flaw in that argument for an irritatingly long moment.",
+        secret = "The map amuses him because someone has finally noticed the person behind all the directions. He can appreciate that without offering a cheerful greeting to the next interruption.",
+        bestFriend = "Come along, friend. Your dreadful map has one useful feature: you put me on it. I suppose I can return the courtesy.",
+        favorite = {
+            emote = "GOLFCLAP",
+            hint = "A little pointed applause suits his answer better than a great burst of enthusiasm.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "You again. Have you improved your map, or does it still consist of an enormous arrow pointing at me? Yes, I remember the explanation. It shows where all the answers stand. An irritatingly defensible approach to a very badly drawn town.", tone = "[raspy] [sarcastic]" }, "Back again, friend? Tell me where you are going before asking whether I know how to get there." },
+            idle = { { "They called it a map of Brill. One arrow. Pointing at me. I called it dreadful. They said it identified where all the answers stood. I had an excellent objection prepared until I discovered it was considerably harder to explain than the map.", tone = "[deadpan] [amused]" }, "Black, gray, dark purple. A perfectly adequate range of colors. Some people insist on making even their clothing an unnecessary argument.", "Rifles, bombs, those ridiculous exploding sheep. Engineering does provide rather more entertaining possibilities than most requests for directions." },
+            befriended = { { "You have managed to notice me between requests for the tavern and the Undercity. That is an improvement on most visitors. Come along, friend. You may keep the dreadful map. I am beginning to appreciate the one feature its artist considered worth including.", tone = "[gravelly] [wry]" } },
+            poke = { "Yes? An actual question, or are you checking whether the arrow still points correctly?", "I heard you. Repetition has not improved the request." },
+            quest = { { "If an order asks for proof, return with proof. A fine account of your intentions is still an account of something you have not demonstrated. The Scarlet Crusade will not trouble itself over how impressively you described your plans before leaving.", tone = "[cold] [commanding]" } },
+            newFriend = { "Try learning their name before treating them as a convenient source of answers. Apparently it is possible. You managed it eventually." },
+            rest = { "A pause without a request for directions. I had heard such things existed. Remain quiet a moment while I investigate." },
+            thanked = { "You are welcome. There, an answer without an insult. Do not immediately spoil the occasion by asking the same question again." },
+            group = { "One question at a time. Unless you intended the entire group to arrive at different destinations." },
+            applaudToo = { "Yes, a little applause seems appropriate. Someone asked a clear question and listened to the answer. An exceptional performance." },
+            zone = { "Here we are. Consult the actual surroundings before deciding your next map needs another enormous arrow." },
+        },
+    },
+
     -- Frast Dokner, GolBolar Apprentice Weaponsmith/Repair, current Alliance Friendly adult Dwarf male3426/M2 878772. Full95217 and own brusque greeting; eight goods, no taught rows. Unqualified well-made compliment original; apprentice is skill status, no named mentor/free recipe.
     -- Research: docs/research/frasts-compliment-and-andruks-instruction.md
     [1698] = {

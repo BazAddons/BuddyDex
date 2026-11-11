@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 391,
+    "alliance": 392,
     "unverified": 183,
-    "horde": 382
+    "horde": 383
   },
   "npc_race_counts": {
     "1": 168,
     "3": 89,
     "7": 62,
     "2": 100,
-    "5": 98,
-    "4": 85,
+    "5": 99,
+    "4": 86,
     "9": 67,
     "8": 61,
     "6": 99,
@@ -32,10 +32,10 @@
     "Wetlands": 10,
     "Ironforge": 63,
     "Stranglethorn Vale": 9,
-    "Tirisfal Glades": 55,
+    "Tirisfal Glades": 56,
     "Undercity": 21,
     "Silverpine Forest": 9,
-    "Teldrassil": 29,
+    "Teldrassil": 30,
     "Hillsbrad Foothills": 13,
     "Arathi Highlands": 11,
     "Orgrimmar": 60,
@@ -1892,6 +1892,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1571"
+    },
+    {
+      "npc_id": 1652,
+      "name": "Deathguard Burgess",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1652"
     },
     {
       "npc_id": 1661,
@@ -4734,6 +4747,19 @@
       ],
       "reaction_evidence": "Current Horde icon Friendly; ordinary live reaction/non-attackability gates remain",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3490"
+    },
+    {
+      "npc_id": 3515,
+      "name": "Corithras Moonrage",
+      "zone": "Teldrassil",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3515"
     },
     {
       "npc_id": 3517,
@@ -11640,6 +11666,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 907,
-  "awaiting_signature_audio_profiles": 453
+  "authored_profiles": 909,
+  "awaiting_signature_audio_profiles": 455
 }

@@ -4585,6 +4585,20 @@
       "zone": "Ashenvale",
       "route": "Zoramgar elite wind rider master",
       "reason": "Own flight greeting and current Horde Friendly role; original nudge and chin scratch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3515,
+      "name": "Corithras Moonrage",
+      "zone": "Teldrassil",
+      "route": "Dolanaar moonwell quest giver",
+      "reason": "Full Crown chain and current continuation; original literal leaf explanation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1652,
+      "name": "Deathguard Burgess",
+      "zone": "Tirisfal Glades",
+      "route": "Brill named deathguard and directions",
+      "reason": "Full374 and own sarcastic directions; original one-arrow map; fifteen personal lines queued without synthesis"
     }
   ]
 }
