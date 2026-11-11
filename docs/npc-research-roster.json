@@ -4333,5 +4333,19 @@
     "zone": "Riverglades",
     "source": "Reviewed adult horde man; Own construction and ownership claims; original our-town exchange; no Scout sighting claimed",
     "research_notes": "docs/research/kroms-stein-and-melbins-port.md"
+  },
+  {
+    "npc_id": 6735,
+    "name": "Innkeeper Saelienne",
+    "zone": "Darnassus",
+    "source": "Reviewed adult alliance man; Own rest gossip,3763 research branch and8357 festival dance; original rhythmic heel; no Scout sighting claimed",
+    "research_notes": "docs/research/saeliennes-rhythm-and-karus-congratulations.md"
+  },
+  {
+    "npc_id": 3309,
+    "name": "Karus",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Own Hyjal and bank-security gossip, full4511 context; original first-loaf congratulations; no Scout sighting claimed",
+    "research_notes": "docs/research/saeliennes-rhythm-and-karus-congratulations.md"
   }
 ]

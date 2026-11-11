@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Innkeeper Saelienne and Karus: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Ground the profiles in rest/festival dialogue and bank-security/voucher text, with original rhythmic-heel and first-loaf friendship scenes.
+
 - Add Krom Stoutarm and Melbin Powderfuse: adult Dwarf and Goblin profiles with thirty personal lines queued.
 - Review the full Tome of the Cabal chain, Krom’s treasured stein, and Melbin’s own port-building claims; distinguish original friendship scenes.
 

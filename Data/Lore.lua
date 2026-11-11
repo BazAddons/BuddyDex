@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Innkeeper Saelienne, Darnassus. Adult night elf female5439/M2 921844, Alliance Friendly. Own rest gossip,3763/8357 and research chain; rhythmic heel and losing-count pleasure original.
+    -- Research: docs/research/saeliennes-rhythm-and-karus-congratulations.md
+    [6735] = {
+        quote = "There is a place for quiet beneath this roof, and a place for laughter. You need not ask forgiveness for requiring both.",
+        likes = { "A weary guest finally relaxing", "A dance enjoyed beyond the first wrong step", "A friend returning without an errand" },
+        dislikes = { "Exhaustion treated as a mark of virtue", "A visitor ashamed of harmless laughter", "Rest postponed until joy becomes another task" },
+        gossip = "Saelienne can offer a peaceful welcome while one heel keeps time beneath the counter. A solemn face proves little.",
+        bio = "Innkeeper Saelienne welcomes travelers in Darnassus, offering shelter and restful dreams under Elune. She directs experienced adventurers to Staghelm, though she does not know his research details. At Hallow's End, she asks for a dance in exchange for marzipan.",
+        backstory = "A guest noticed her heel keeping time during a serious conversation. Saelienne finished listening before admitting she had liked the rhythm of footsteps outside. She saw no reason a thoughtful person must always stand still.",
+        secret = "She enjoys the moment a dancer loses count and starts laughing. That is often when a guest stops trying to perform a proper visit and begins enjoying one.",
+        bestFriend = "You have nothing to prove here, friend. Rest, laugh, or tell me what has been troubling you. I have room for you.",
+        favorite = {
+            emote = "DANCE",
+            hint = "A little unselfconscious movement can reveal the playfulness beneath her peaceful welcome.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. You may bring a serious thought or a little laughter. There is no rule that we must choose one for the whole afternoon.", tone = "[gentle] [playful]" }, "It is good to see you. Have you been resting, or merely saving every pleasant moment for after the next task?" },
+            idle = { { "A guest once caught my heel keeping time while I listened. I had not missed their words. A thoughtful person may still appreciate a rhythm passing the door.", tone = "[serene] [amused]" }, "When a dancer loses count and begins to laugh, the visit often improves. There is more pleasure in company than in getting every step approved.", "Rest should leave room for the person who arrives, not just the work they have managed to finish." },
+            befriended = { { "You have become company I welcome without first asking what brings you here. Walk beside me, friend. There is time to hear whatever you wish to share.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Was my heel keeping time again?", "Go on. I am listening, even if the day has given us something to smile about." },
+            rest = { { "Let your shoulders settle. You need not turn a pause into another task you must perform correctly. There is room simply to be at ease.", tone = "[soft] [reassuring]" } },
+            cheerAlong = { "A little joy suits the occasion. Do not put it away merely because someone expected you to look dignified." },
+            newFriend = { "Someone new. Make room for the person before asking for the story of their travels." },
+            hearth = { "A familiar welcome can be a fine end to a long road. Arrive as you are, without preparing an account of every mile." },
+            quest = { "The work is done. Allow yourself a little satisfaction before filling the quiet with another obligation." },
+            thanked = { "You are welcome. I am glad the visit has made your day a little easier." },
+            group = { "Let everyone find their own ease. The quiet one may be enjoying the company as much as the storyteller." },
+        },
+    },
+
+    -- Karus, Orgrimmar banker. Adult orc male1310/M2 917116, Horde Friendly. Own blood/Hyjal/brothers gossip and4511 reward voucher; first-loaf congratulations original.
+    -- Research: docs/research/saeliennes-rhythm-and-karus-congratulations.md
+    [3309] = {
+        quote = "Your victory need not threaten a city to deserve acknowledgment. If you worked for it, stand straight while I congratulate you.",
+        likes = { "A promise of safety kept in practice", "A properly authorized withdrawal", "An ordinary achievement reported with pride" },
+        dislikes = { "A thief mistaking a banker for an easy mark", "An order to release another person's goods", "An honest success dismissed as too small" },
+        gossip = "Karus can congratulate a first successful loaf with the gravity of a battlefield victory. He is not making fun of the baker.",
+        bio = "Karus is an Orgrimmar banker who pledges his own blood to protect deposits. He says he and his brothers fought at Hyjal. When presented with Zilzibin Drumlore's voucher, he releases an authorized reward and offers congratulations.",
+        backstory = "A visitor mentioned finally baking a good loaf. Karus offered such grave congratulations that they thought he was joking. He asked whether they had worked hard to learn. They had. He saw no reason to take his words back.",
+        secret = "He enjoys a friend arriving with a small success to report. A safe city should have room for victories whose importance needs no enemy to explain it.",
+        bestFriend = "Tell me what went well, friend. I shall decide whether it deserves congratulations after hearing you, not after counting its value.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "He respects a clear acknowledgment of the responsibility behind his promise to guard what others entrust to him.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "There you are. Walk beside me. If something has gone well, I would hear it. You need not wait until your achievement is large enough for strangers to notice.", tone = "[firm] [welcoming]" }, "Good to see you. Tell me how the day has treated you. I can hear an account that does not end in a request for your deposit." },
+            idle = { { "A visitor once told me they had finally baked a good loaf. They thought my congratulations were a joke. They had worked to learn. Why should I pretend that mattered less?", tone = "[gruff] [sincere]" }, "A promise to guard another person's goods is not improved by a louder voice. It is improved by standing where the promise requires you.", "A peaceful day is not an empty achievement. People should have somewhere safe to return with the things they care about." },
+            befriended = { { "You have become someone I am pleased to see without business between us. Come along, friend. I should like to hear what has mattered to you today.", tone = "[gruff] [warm]" } },
+            poke = { "Yes? You may speak without first finding a transaction.", "Go on. I have not mistaken your question for an attempt on the vault." },
+            quest = { { "Finished. You have earned a moment to stand straight and acknowledge the work. Congratulations need not wait for someone else to decide the task was important.", tone = "[solemn] [approving]" } },
+            learned = { "Then you know something you did not know before. Remember the effort before dismissing the result as obvious." },
+            loot = { "Keep a proper account of what is yours. Finding something valuable does not release you from the responsibility of carrying it." },
+            mail = { "Read the name before claiming the contents. An item being within reach does not make its ownership uncertain." },
+            newFriend = { "Someone new. Hear them properly. You cannot know what they value by looking at what they carry." },
+            rest = { "A pause. You may set down the day's effort without pretending it cost you nothing." },
+            thanked = { "You are welcome. I gave my word, and I am pleased to have kept it." },
+        },
+    },
+
     -- Krom Stoutarm, Ironforge. Adult dwarf male4988/M2 878772, Alliance Friendly. Full1360 and1798/1758/1802/1804/1795; stein and book enthusiasm established, read-aloud preference original.
     -- Research: docs/research/kroms-stein-and-melbins-port.md
     [6294] = {

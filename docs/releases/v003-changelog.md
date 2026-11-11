@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Innkeeper Saelienne and Karus: adult Night Elf and Orc profiles with thirty personal lines queued.
+- Ground the profiles in rest/festival dialogue and bank-security/voucher text, with original rhythmic-heel and first-loaf friendship scenes.
+
 - Add Krom Stoutarm and Melbin Powderfuse: adult Dwarf and Goblin profiles with thirty personal lines queued.
 - Review the full Tome of the Cabal chain, Krom’s treasured stein, and Melbin’s own port-building claims; distinguish original friendship scenes.
 
@@ -537,4 +540,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **824 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **826 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-two new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
