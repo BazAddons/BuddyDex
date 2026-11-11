@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Ivy Leafrunner and Grimestack: full Night Elf and Goblin profiles with thirty personal lines queued.
+- Research Ivy's Winterspring referral and linked relic chain; give both distinct original scenes while keeping Grimestack's Neutral access subject to normal checks.
+
 - Add Mountaineer Flint and Grimtak: full Loch Modan and Razor Hill profiles with thirty personal dialogue lines queued.
 - Give the named mountaineer an original remembered reunion and the butcher a lively food debate; keep the later-version delivery story out of Forever's current Zargh chain.
 

@@ -4788,5 +4788,19 @@
     "zone": "Durotar",
     "source": "Reviewed adult horde man; Thirteen current goods; distinguish current Zargh flight chain from later Grimtak version; original favorite-cut debate; no Scout sighting claimed",
     "research_notes": "docs/research/flints-pebble-and-grimtaks-opinions.md"
+  },
+  {
+    "npc_id": 10924,
+    "name": "Ivy Leafrunner",
+    "zone": "Felwood",
+    "source": "Reviewed adult horde; Full5249 and linked eight-step ZinMalor chain plus alternate5250; original one-question bargain; no Scout sighting claimed",
+    "research_notes": "docs/research/ivys-question-and-grimestacks-signature.md"
+  },
+  {
+    "npc_id": 10060,
+    "name": "Grimestack",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult unverified; Current adult stable-master identity; positive faction access unverified; original pawprint handwriting joke; no Scout sighting claimed",
+    "research_notes": "docs/research/ivys-question-and-grimestacks-signature.md"
   }
 ]

@@ -4459,6 +4459,20 @@
       "zone": "Durotar",
       "route": "Razor Hill provisions",
       "reason": "Thirteen current goods; distinguish current Zargh flight chain from later Grimtak version; original favorite-cut debate; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10924,
+      "name": "Ivy Leafrunner",
+      "zone": "Felwood",
+      "route": "Emerald Sanctuary referral",
+      "reason": "Full5249 and linked eight-step ZinMalor chain plus alternate5250; original one-question bargain; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10060,
+      "name": "Grimestack",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay stable master; Neutral not Friendly proof",
+      "reason": "Current adult stable-master identity; positive faction access unverified; original pawprint handwriting joke; fifteen personal lines queued without synthesis"
     }
   ]
 }

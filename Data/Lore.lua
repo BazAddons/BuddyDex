@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Ivy Leafrunner, Emerald Circle, adult Night Elf female10646/M2 921844, current Horde Friendly Felwood. Full5249 and linked KelTheril/ZinMalor chain plus alternate5250; no later Dreamgrove or guessed Leafrunner family. One-question bargain original; no completed travel/cure/relic reward.
+    -- Research: docs/research/ivys-question-and-grimestacks-signature.md
+    [10924] = {
+        quote = "Was the ice blue, or did the sky make it seem blue? No, wait. Tell me where you were standing first. I promised to ask one question at a time. You may remind me of that promise.",
+        likes = { "A traveler describing what they noticed", "News of places she has yet to visit", "A patient answer to an eager question" },
+        dislikes = { "Guesswork dressed as firsthand knowledge", "Her own questions outrunning the answer", "Neglecting the work that needs her here" },
+        gossip = "Ivy asked so many questions about a journey that her friend raised one finger. One question at a time. She laughed, then carefully chose the first.",
+        bio = "Ivy Leafrunner of the Emerald Circle works in Felwood. With too much to do there to visit Winterspring, she encourages exploration and recommends Wynd Nightchaser in Starfall Village. She has questions ready for those who return.",
+        backstory = "A friend began describing a journey. Ivy interrupted with one question, then another, before the first answer was finished. They raised one finger. She laughed, raised her own, and chose a single question to begin with.",
+        secret = "She would like to see more than her work allows. A patient friend's account gives her room to wonder without pretending she was there. She is trying to let them finish.",
+        bestFriend = "One question first, friend. What surprised you? Come along and tell me. I will save the next question until you have had a chance to answer.",
+        favorite = {
+            emote = "NOD",
+            hint = "A patient acknowledgment helps her slow down and make room for the answer.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "You have returned! What did you notice first? Was it the light, or the cold, or something I have not thought to ask about? No, wait. One question at a time. You may raise that finger again if I forget.", tone = "[bright] [eager]" }, "Welcome back, friend. I would enjoy hearing where you have been, if you have a little time to tell me." },
+            idle = { { "They had barely begun describing the journey when I asked my second question. Then a third. My friend raised one finger. I laughed and raised my own. One question at a time seemed a reasonable bargain, once I stopped interrupting it.", tone = "[amused] [reflective]" }, "There is work for me here. That does not make the places beyond it any less worth wondering about.", "Tell me what you actually noticed. I would rather hear a small true detail than a grand account assembled from what you think I expect." },
+            befriended = { { "You make room for my curiosity without letting it hurry your story out of your hands. Come along, friend. I would like to hear the next part, and this time I shall try to let the answer arrive before my next question.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? If you have an answer, I will try to remember which question I asked first.", "A moment. I was choosing the most useful question from several rather enthusiastic candidates." },
+            zone = { { "Here we are. What catches your attention? I will look too. It is a pleasure to have a place before us instead of trying to fit every detail into a question about somewhere far away.", tone = "[curious] [pleased]" } },
+            quest = { "Ask someone who knows the place, and listen closely. Their experience may answer a question you did not know to bring." },
+            rest = { "A pause would be welcome. You can finish the story, and I can practice not interrupting the ending." },
+            newFriend = { "Give them time to answer. Interest is a better welcome when it leaves room for their own words." },
+            thanked = { "I am glad the suggestion helped. Tell me what you found, when you have time; I should enjoy hearing your own account." },
+            group = { "Let the person who was there finish explaining. The questions will be more useful once we know what they saw." },
+            learned = { "Something new to consider. I would like to understand how it works before deciding what else to ask about it." },
+        },
+    },
+
+    -- Grimestack, Booty Bay Stable Master, adult Goblin male9284/M2 119376. Current Horde Neutral, positive faction access unverified. No own quests/gossip found. Muddy pawprint handwriting joke original; normal nonattackable/reaction checks remain, no pet service or fee benefit granted.
+    -- Research: docs/research/ivys-question-and-grimestacks-signature.md
+    [10060] = {
+        quote = "That's a pawprint on my paper. Yes, I noticed. Better penmanship than some of the people I deal with, and considerably less arguing about the shape of the signature.",
+        likes = { "A nervous owner finally laughing", "An animal allowed a calm introduction", "A well-timed joke about a muddy page" },
+        dislikes = { "Someone crowding an uneasy beast", "An owner scolded for an honest mishap", "Being asked to decipher grand signatures" },
+        gossip = "Grimestack praised a muddy pawprint's handwriting. The beast's worried owner laughed. He decided the ruined page had served a useful purpose.",
+        bio = "Grimestack is a goblin stable master in Booty Bay. He deals with animals and the people who care about them. A little dry humor can ease an awkward introduction without making the beast the butt of it.",
+        backstory = "An owner apologized when their beast left a muddy pawprint on a loose sheet. Grimestack admired the handwriting and asked whether the beast had signed for them before. The owner's worried explanation finally became a laugh.",
+        secret = "He kept the muddy page because of that laugh. A ridiculous comparison had made someone feel less foolish. It was a useful result for a sheet he had not written on yet.",
+        bestFriend = "Come along, friend. You know when a kind joke helps. Should we need a signature, I trust yours is nearly as clear as the pawprint.",
+        favorite = {
+            emote = "GRIN",
+            hint = "Sharing a dry joke kindly is more welcome than making an embarrassed visitor feel worse.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are. I have been considering the standard of handwriting around here. One muddy pawprint set it surprisingly high. Don't worry, friend. I am not asking you to compete with it. A clear greeting will do for now.", tone = "[wry] [friendly]" }, "Welcome back. Tell me how the road has treated you. If you brought a beast, give it a little room while we talk." },
+            idle = { { "The beast planted a muddy paw on a loose sheet. Its owner started apologizing. I admired the handwriting and asked whether it usually signed on their behalf. At last, they laughed. A useful result for a page I hadn't written on yet.", tone = "[dry] [amused]" }, "An uneasy owner can make an uneasy beast more uneasy. A little room and a calmer voice are often a better beginning than three people offering advice at once.", "Some people work very hard on a signature no one can read. The pawprint made its meaning clear without the flourishes." },
+            befriended = { { "You understand that a joke can help a worried person without turning them into the joke. I like that. Come along, friend. There may be more sophisticated company available, but I doubt it appreciates good penmanship quite as much.", tone = "[warm] [wry]" } },
+            poke = { "Yes, friend? Have you come with a question, or another example of remarkable handwriting?", "A moment. I'd like to hear you without making the animal wonder why we are both leaning over it." },
+            newFriend = { { "Let them recover from the awkward moment. A kind joke gives someone a way to laugh with you. It need not leave them wondering whether everyone is going to repeat their mistake for the rest of the day.", tone = "[calm] [thoughtful]" } },
+            rest = { "A quiet pause. No need to fill every moment with instructions, especially when nobody asked us to sign anything." },
+            group = { "Give each other room. Being the loudest person beside an uncertain beast does not make you the most reassuring." },
+            thanked = { "Glad it helped. If the laugh came before the next apology, I consider the conversation a success." },
+            gear = { "Mind where the loose straps hang. A little attention now can save a considerably less amusing tangle later." },
+            zone = { "We've arrived, friend. Let us take a moment before deciding that everybody here needs our full introduction at once." },
+            combatEnd = { "Take a breath. Give the others a little space to settle before asking for the whole story." },
+        },
+    },
+
     -- Mountaineer Flint, adult Dwarf male1783/M2 878772, Alliance Friendly Loch Modan28.14,26.01. Current/Classic own quest tabs and captured gossip empty. Pebble-in-boot reunion and all personal history original; no invented patrol route or generic guard eligibility exception.
     -- Research: docs/research/flints-pebble-and-grimtaks-opinions.md
     [1279] = {
