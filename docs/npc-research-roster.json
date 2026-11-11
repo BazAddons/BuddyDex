@@ -4760,5 +4760,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde woman; Full training/refuge and keep context, inclusive Light greeting; original stool brought to hesitant visitor; no Scout sighting claimed",
     "research_notes": "docs/research/lotherias-boot-and-sharis-welcome.md"
+  },
+  {
+    "npc_id": 5159,
+    "name": "Daryl Riknussun",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Full cooking referral and clamlette quest, own food greeting; original empty-bowl review; no Scout sighting claimed",
+    "research_notes": "docs/research/daryls-review-and-groldars-method.md"
+  },
+  {
+    "npc_id": 3324,
+    "name": "Grol'dar",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde man; Full Impsy referral and doll chain plus stern retraining greeting; original stubborn jam lid; no Scout sighting claimed",
+    "research_notes": "docs/research/daryls-review-and-groldars-method.md"
   }
 ]

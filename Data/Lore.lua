@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Daryl Riknussun, adult Dwarf male3094/M2 878772, Alliance Friendly cooking trainer. Ironforge from primary Classic record; current Dun Morogh pin is a world-map projection. Full6612/6610 and parallel6611; own cooking gossip. Empty-bowl review original, no free cooking or actual food granted.
+    -- Research: docs/research/daryls-review-and-groldars-method.md
+    [5159] = {
+        quote = "An empty bowl and a request for seconds. Now there's a review I can understand. Tell me what needs fixing, too; flattering the cook won't put the missing salt in.",
+        likes = { "Empty bowls returned for seconds", "An honest answer from a hungry guest", "Students learning beyond his lessons" },
+        dislikes = { "Praise offered instead of tasting", "Good food wasted to impress someone", "Pride that keeps a cook from learning" },
+        gossip = "Daryl asked for a careful opinion of his stew. His guest returned an empty bowl and requested more. He called the review unusually clear.",
+        bio = "Daryl Riknussun teaches cooking in Ironforge. He recognizes an experienced cook and recommends Dirge Quikcleave in Gadgetzan when his own lessons are no longer enough. Keeping people fed matters more than claiming every answer.",
+        backstory = "He asked a friend to judge a stew and waited for a detailed opinion. They finished the bowl, handed it back, and asked for seconds. Daryl laughed and reached for the ladle. Some reviews needed no longer speech.",
+        secret = "He likes a sincere request for more better than a grand speech about his skill. Someone enjoyed the meal enough to stay; that is the part he wants to hear.",
+        bestFriend = "There's my favorite straight answer. Come along, friend. If something needs salt, tell me; if it needs another bowl, I understand that too.",
+        favorite = {
+            emote = "THANK",
+            hint = "A sincere thanks after a shared meal means more to him than an elaborate compliment.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are! I was about to ask for a careful opinion, but I remember how ye handled the last one. Empty bowl, outstretched hand, request for seconds. A splendidly clear report. Come tell me how ye've been.", tone = "[warm] [amused]" }, "Welcome back. Tell me what ye've eaten on the road. There may be a good idea in it, or a mistake worth avoiding." },
+            idle = { { "I asked for a detailed opinion of the stew. My friend finished it, handed back the bowl, and asked for more. I reached for the ladle. I've heard longer speeches with considerably less useful information in them.", tone = "[playful] [storytelling]" }, "When a student needs more than I can teach, I tell them where to look. Keeping all the credit won't make anyone a better cook.", "Taste before ye offer a compliment. I'd rather hear that it needs salt while there's still time to put some in." },
+            befriended = { { "Ye can tell me plainly when something needs fixing, and ye know when an empty bowl says enough. That's company worth keeping. Come along, friend. Let's see what the road has to offer two people with an appetite.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Have ye an opinion, or is that the look that means seconds?", "Give me a moment. I'm listening, but I'd prefer not to season this thought twice." },
+            thanked = { { "That's a fine thing to hear. A meal enjoyed and a sincere thank-you afterward: I'll take that over a grand title any day. Save the long speech until after we've cleared the bowls.", tone = "[warm] [pleased]" } },
+            learned = { "Try the lesson with yer own hands. And when ye need teaching I can't give, don't let pride keep ye from finding it." },
+            bagsFull = { "Mind the food in there. A good meal deserves better than being crushed under the thing ye meant to sell yesterday." },
+            quest = { "Read what they need before setting out. Knowing the ingredients saves a great deal of ambitious wandering." },
+            rest = { "Let's sit a little. Ye needn't turn every pause into a lesson, though I may ask what ye thought of supper." },
+            newFriend = { "Ask them what they enjoy eating. It's a useful beginning, provided ye leave time to hear the answer." },
+            zone = { "Keep an eye out for a meal we haven't tried. There's room to learn without pretending we invented the kitchen." },
+        },
+    },
+
+    -- Grol'dar, adult Orc male1324/M2 917116, Horde Friendly Orgrimmar warlock trainer. Full8419/8420/8421/8422 and own stern retraining gossip. Stubborn jam lid original; no demon identity, granted power, free reset or guaranteed quest menu.
+    -- Research: docs/research/daryls-review-and-groldars-method.md
+    [3324] = {
+        quote = "The lid resisted. I wrapped it in cloth and turned it. No invocation was required. You may admire the method without making that expression about the jam.",
+        likes = { "A will governed by deliberate choices", "The method that actually works", "A friend who can keep a straight face" },
+        dislikes = { "Power mistaken for self-control", "Repeating a mistake more forcefully", "An audience for an uncooperative lid" },
+        gossip = "Grol'dar opened a stubborn jam jar with a cloth. His friend nodded at his explanation of the method. He thought the nod rather too solemn.",
+        bio = "Grol'dar is an orc warlock trainer in Orgrimmar. His stern instruction demands a strong will and rigorous retraining. He also directs experienced warlocks toward Impsy in Felwood, treating the imp's requested offering as unusual.",
+        backstory = "A jam jar refused to open. Grol'dar wrapped the lid in cloth and tried again. When it turned, he explained the value of choosing the correct method. His friend nodded with a solemnity that did not improve his mood.",
+        secret = "He knows why the jar story amuses his friend. He can tolerate the joke from someone who also takes his warnings seriously. Their nod need not be quite so solemn.",
+        bestFriend = "Come, friend. Your judgment is sound. If you encounter a stubborn lid, remember the method without announcing my contribution.",
+        favorite = {
+            emote = "NOD",
+            hint = "A considered acknowledgment of a sound method pleases him, even if he suspects a private joke.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "You have returned. Good. If your visit concerns training, bring your attention with you. If it concerns that jar, I have already explained the method. You may stop looking as though the explanation is the amusing part.", tone = "[stern] [dry]" }, "Speak plainly, friend. I would rather consider an honest question than listen to a display of confidence." },
+            idle = { { "The lid resisted. I wrapped it in cloth and turned it again. It opened. My companion nodded as though I had demonstrated a profound truth. The method was sound. Their expression was less satisfactory.", tone = "[deadpan] [irritated]" }, "Knowing enough to be dangerous is not the same as being prepared. Many students require that distinction explained more than once.", "A stronger will is of little use if you spend it defending a method that has already failed." },
+            befriended = { { "You take my warnings seriously and reserve your foolishness for a jar of jam. I can distinguish the two. Come along, friend. I prefer company whose judgment I have tested, even when its sense of humor remains questionable.", tone = "[gruff] [warm]" } },
+            poke = { "What is it? Have the question ready before demanding my attention.", "Yes, friend? I see that expression. Choose your next comparison carefully." },
+            learned = { { "Now practice until the method survives distraction. A lesson remembered only when everything is easy is not yet a lesson you control. Do not confuse my correction with permission to stop thinking.", tone = "[stern] [instructive]" } },
+            gear = { "Know what your equipment does before trusting it. An impressive appearance will not make the decision for you." },
+            quest = { "Read the request. Consider who benefits. Something unusual does not become sensible because an imp asks politely." },
+            combatEnd = { "Consider what you did while it is still clear. Repeating a mistake with greater confidence will not improve it." },
+            rest = { "A short pause. You may sit without explaining how stillness demonstrates your mastery of the chair." },
+            thanked = { "Then make use of the correction. I would rather see the lesson hold than hear another promise about it." },
+            group = { "Know what the others intend before acting. Your will is your own; the consequences need not stop with you." },
+        },
+    },
+
     -- Lotherias, Craftsmen Terrace/Darnassus leatherworker. Adult Night Elf female5186/M2 921844, Alliance Friendly. Full1582 craftsmanship/order context; own current tabs sparse. Thumb-sized boot and bench demonstration original; no recipe or actual gear benefit awarded.
     -- Research: docs/research/lotherias-boot-and-sharis-welcome.md
     [6034] = {

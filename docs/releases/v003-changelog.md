@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Daryl Riknussun and Grol'dar: full Dwarf and Orc profiles with thirty personal dialogue lines queued.
+- Research their cooking and warlock referrals, retaining each speaker's role; distinguish original empty-bowl review and stubborn jam jar from native training rewards.
+
 - Add Lotherias and Shari Stilwell: complete Night Elf and Forsaken profiles with thirty personal lines queued.
 - Ground careful leatherwork and an inclusive paladin welcome in quest dialogue; distinguish original miniature boot and offered stool from native patterns, lessons and rescues.
 
@@ -628,4 +631,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **885 fully written NPC profiles**: 454 have initial signature recordings, and four hundred thirty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **887 fully written NPC profiles**: 454 have initial signature recordings, and four hundred thirty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

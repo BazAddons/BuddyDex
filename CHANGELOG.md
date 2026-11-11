@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Daryl Riknussun and Grol'dar: full Dwarf and Orc profiles with thirty personal dialogue lines queued.
+- Research their cooking and warlock referrals, retaining each speaker's role; distinguish original empty-bowl review and stubborn jam jar from native training rewards.
+
 - Add Lotherias and Shari Stilwell: complete Night Elf and Forsaken profiles with thirty personal lines queued.
 - Ground careful leatherwork and an inclusive paladin welcome in quest dialogue; distinguish original miniature boot and offered stool from native patterns, lessons and rescues.
 

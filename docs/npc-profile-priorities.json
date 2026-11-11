@@ -4431,6 +4431,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill paladin welcome and keep referral",
       "reason": "Full training/refuge and keep context, inclusive Light greeting; original stool brought to hesitant visitor; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5159,
+      "name": "Daryl Riknussun",
+      "zone": "Ironforge",
+      "route": "Ironforge cooking trainer; current Dun Morogh projection",
+      "reason": "Full cooking referral and clamlette quest, own food greeting; original empty-bowl review; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3324,
+      "name": "Grol'dar",
+      "zone": "Orgrimmar",
+      "route": "Orgrimmar warlock training",
+      "reason": "Full Impsy referral and doll chain plus stern retraining greeting; original stubborn jam lid; fifteen personal lines queued without synthesis"
     }
   ]
 }
