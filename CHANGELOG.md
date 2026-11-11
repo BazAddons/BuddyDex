@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Mountaineer Kadrell and Greta Mosshoof: adult Dwarf and Tauren profiles with thirty personal lines queued.
+- Review the complete linked bounty/stout/referral and Jaedenar/Morphaz branches; document original upwind inspection and leaf-briefing scenes.
+
 - Add Felicia Doan, Fyr Mistrunner, and Sutara Plainstalker: three adult Forsaken/Tauren women with forty-five personal lines queued.
 - Review current trade/bread/quartermaster stock and the Coldbringer artifact request; document original shopping-guess, answering-rhythm, and unused-spare scenes.
 

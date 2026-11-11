@@ -4109,6 +4109,20 @@
       "zone": "Mulgore",
       "route": "Earthen Ring quartermaster",
       "reason": "Own provisioning gossip,97196 request and8patterns; original unused spare; Horde Neutral; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1340,
+      "name": "Mountaineer Kadrell",
+      "zone": "Loch Modan",
+      "route": "Thelsamar mountaineer",
+      "reason": "Own brewery/duty greetings and full bounty/stout/referral branches; original upwind inspection; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 10922,
+      "name": "Greta Mosshoof",
+      "zone": "Felwood",
+      "route": "Emerald Sanctuary strategist",
+      "reason": "Own corruption warning, full Jaedenar and Morphaz salve chains; original fallen-leaf briefing; fifteen personal lines queued without synthesis"
     }
   ]
 }

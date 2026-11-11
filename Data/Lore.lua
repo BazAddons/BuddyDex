@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Mountaineer Kadrell, Thelsamar, Loch Modan. Adult dwarf male1892/M2 878772, Alliance Friendly. Own brewery/duty greetings; full bounty, stout and three referral branches; upwind inspection scene original.
+    -- Research: docs/research/kadrells-position-and-gretas-leaves.md
+    [1340] = {
+        quote = "A fellow can love Thelsamar with his whole heart and still prefer the breeze to blow away from the bounty bag. Those are perfectly compatible duties.",
+        likes = { "Thelsamar enjoyed after the work is done", "A useful report delivered plainly", "A breeze with a considerate direction" },
+        dislikes = { "Tunnel rat dens spreading into the foothills", "Bounty proof left open beside the welcome", "Unglamorous work dismissed as beneath notice" },
+        gossip = "Kadrell calls moving upwind an improvement in field position. Anyone who has carried his bounty proof understands the maneuver.",
+        bio = "Mountaineer Kadrell welcomes travelers to Thelsamar and directs willing hands toward duty in Loch Modan and beyond. He pays for tunnel rat bounty proof, enjoys Shimmer Stout, and can point adventurers toward Rockgar, Stormpike, or Pilot Stonegear.",
+        backstory = "Preparing to inspect a bounty, he chose a position fit for a dignified welcome. The wind changed. Kadrell moved and described the adjustment as better field placement. The witness beside him wisely allowed the explanation.",
+        secret = "He appreciates someone thanking the person who handles the unpleasant end of a useful job. He may complain about the smell, but he still wants the work acknowledged properly.",
+        bestFriend = "Come along, friend. We may admire Thelsamar from the upwind side and discuss the day without another inspection.",
+        favorite = {
+            emote = "THANK",
+            hint = "He values acknowledgment of the unglamorous work that keeps an ordinary town worth coming home to.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. We shall admire Thelsamar from the upwind side today. I call that an improvement in field position, and I trust you will respect the assessment.", tone = "[gruff] [wry]" }, "Good to see you. Have you come to enjoy the town, or have you found a useful task that requires a willing pair of hands?" },
+            idle = { { "I selected a dignified place for a bounty inspection. Then the wind changed. A mountaineer adapts to conditions, which is the official account of why I moved so promptly.", tone = "[matter-of-fact] [amused]" }, "The town is worth enjoying. That does not mean the work keeping it that way can be left for someone who happens to like an unpleasant task.", "Rockgar can find work beyond the pass, and Stonegear always has an eye on improving his machine. A willing traveler need not remain short of things to do." },
+            befriended = { { "You have become someone I am pleased to welcome when there is no report or bounty to put between us. Walk beside me, friend. Thelsamar has room for a proper visit.", tone = "[gruff] [warm]" } },
+            poke = { "Yes? Has the wind revised our field position again?", "Go on. A plain report is easier to hear than the grand account you have been rehearsing." },
+            thanked = { { "You are welcome. It is pleasant to have the work noticed, especially the part nobody volunteers to stand beside for very long.", tone = "[gruff] [appreciative]" } },
+            quest = { "Finished. Give the useful work its due before pretending the unpleasant part somehow completed itself." },
+            zone = { "Have a look at the place as well as the task that brought you. People do the work so there will still be something here worth enjoying." },
+            bagsFull = { "Secure what you carry. Some proofs are best presented when asked for, rather than announcing themselves through the whole pack." },
+            newFriend = { "Someone new. Give them a welcome before deciding how far you can send them with the next errand." },
+            rest = { "A pause. A town should offer more than another place to be told you ought to be working." },
+            group = { "Make sure everyone knows the plan. A fine speech at the front is little use to the fellow still asking which road we mean to take." },
+        },
+    },
+
+    -- Greta Mosshoof, Emerald Circle, Felwood. Adult tauren female10253/M2 986648, Horde Friendly. Own corruption warning; full Jaedenar water/scrying chain and Morphaz salve branch; Islen old friend explicit. Fallen-leaf briefing original.
+    -- Research: docs/research/kadrells-position-and-gretas-leaves.md
+    [10922] = {
+        quote = "The forest refuses to sit as still as a diagram. That is something we are trying to preserve, even when the wind has just scattered my explanation.",
+        likes = { "Knowledge that makes an attack less blind", "A living forest exceeding the neat diagram", "A friend remembering what the struggle saves" },
+        dislikes = { "Shadow Council power offered as an answer", "Good intentions mistaken for assured success", "The work reduced to a list of enemies slain" },
+        gossip = "Greta once laid out an explanation with fallen leaves. The wind revised it, and she allowed that the forest had a point.",
+        bio = "Greta Mosshoof of the Emerald Circle works at Felwood's Emerald Sanctuary. With help from her old friend Islen Waterseer, she seeks purified water to break Jaedenar's scrying defenses and expose Shadow Lord Fel'dan. The aim is a forest that can recover.",
+        backstory = "She arranged fallen leaves to explain a course of action. A gust scattered the outline before she finished. Greta gathered them and tried again, remarking that a living forest was entitled to complicate the briefing.",
+        secret = "She wants a friend to ask what saving the forest will look like, not only what must be destroyed. It helps her remember the life beyond the next enemy and the work beyond a single victory.",
+        bestFriend = "Help me lay this out, friend. If the wind changes it, we can try again. I am glad to plan with someone who remembers the forest.",
+        favorite = {
+            emote = "PRAY",
+            hint = "A thoughtful appeal to the spirits fits her hope that worthy work will find their aid, rather than command it.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are. Walk beside me. I have a plan to discuss, though if we illustrate it with fallen leaves again, I suggest we allow the wind some opportunity to contribute.", tone = "[steady] [wry]" }, "It is good to see you. What have you learned that may help us act with more understanding, rather than only greater force?" },
+            idle = { { "I arranged fallen leaves to explain the approach. A gust scattered the outline before I finished. A living forest is entitled to complicate a briefing. I gathered the leaves and began again.", tone = "[thoughtful] [amused]" }, "Islen knows the water spirits well. Their aid matters, and a worthy purpose does not make it ours to command without listening.", "We must remember what we hope the forest can become. An account of every enemy struck down cannot by itself tell us how to preserve the life that remains." },
+            befriended = { { "You have become someone with whom I am glad to discuss the purpose beyond the next battle. Stay beside me, friend. Help me remember what the whole effort is meant to save.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the forest revised our explanation once more?", "Go on. A useful question may improve the plan before confidence has made it difficult to change." },
+            quest = { { "A step completed. Understand what it has opened to us before declaring the larger work finished. Recovery may ask far more time than the victory that permits it.", tone = "[firm] [measured]" } },
+            learned = { "Then put the knowledge to work with care. The point of seeing farther is to act with better understanding." },
+            zone = { "Look for the life of the place as well as the threats within it. We should know what our effort is intended to preserve." },
+            group = { "Share the purpose and the risks clearly. People should know why they stand together before you ask them to advance." },
+            rest = { "Rest now. Clear judgment is part of the preparation, and we will need it for what follows." },
+            thanked = { "You are welcome. I am glad the work has brought us a little nearer to what may be saved." },
+            newFriend = { "Someone new. Hear what they understand before deciding you must supply the whole explanation." },
+        },
+    },
+
     -- Felicia Doan, Undercity trade supplier. Adult Forsaken female2811/M2 997378, Horde Friendly.31currentgoods, no personal quest/gossip; thread-and-apple shopping guess original. No Arcanist Doan kinship established.
     -- Research: docs/research/felicia-fyr-and-sutara.md
     [4775] = {

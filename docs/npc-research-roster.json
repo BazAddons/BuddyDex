@@ -4438,5 +4438,19 @@
     "zone": "Mulgore",
     "source": "Reviewed adult unverified woman; Own provisioning gossip,97196 request and8patterns; original unused spare; Horde Neutral; no Scout sighting claimed",
     "research_notes": "docs/research/felicia-fyr-and-sutara.md"
+  },
+  {
+    "npc_id": 1340,
+    "name": "Mountaineer Kadrell",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance man; Own brewery/duty greetings and full bounty/stout/referral branches; original upwind inspection; no Scout sighting claimed",
+    "research_notes": "docs/research/kadrells-position-and-gretas-leaves.md"
+  },
+  {
+    "npc_id": 10922,
+    "name": "Greta Mosshoof",
+    "zone": "Felwood",
+    "source": "Reviewed adult horde woman; Own corruption warning, full Jaedenar and Morphaz salve chains; original fallen-leaf briefing; no Scout sighting claimed",
+    "research_notes": "docs/research/kadrells-position-and-gretas-leaves.md"
   }
 ]
