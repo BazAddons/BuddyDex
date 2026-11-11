@@ -3,22 +3,22 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 363,
+    "alliance": 364,
     "unverified": 179,
-    "horde": 347
+    "horde": 349
   },
   "npc_race_counts": {
     "1": 168,
     "3": 77,
     "7": 61,
     "2": 92,
-    "5": 89,
+    "5": 90,
     "4": 75,
     "8": 61,
     "9": 61,
     "6": 93,
     "96": 28,
-    "95": 40
+    "95": 41
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -32,7 +32,7 @@
     "Wetlands": 7,
     "Ironforge": 62,
     "Stranglethorn Vale": 6,
-    "Tirisfal Glades": 49,
+    "Tirisfal Glades": 50,
     "Undercity": 20,
     "Silverpine Forest": 8,
     "Teldrassil": 28,
@@ -59,7 +59,7 @@
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 66,
+    "Zephras Isle": 67,
     "Riverglades": 13
   },
   "entries": [
@@ -5667,6 +5667,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4753"
     },
     {
+      "npc_id": 4773,
+      "name": "Velma Warnam",
+      "zone": "Tirisfal Glades",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4773"
+    },
+    {
       "npc_id": 4775,
       "name": "Felicia Doan",
       "zone": "Undercity",
@@ -9445,6 +9458,20 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251991"
     },
     {
+      "npc_id": 251992,
+      "name": "Fenn Fairweather",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance",
+        "horde"
+      ],
+      "reaction_evidence": "Current Alliance and Horde Friendly icons",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251992"
+    },
+    {
       "npc_id": 251993,
       "name": "Indari Sunseam",
       "zone": "Zephras Isle",
@@ -10836,6 +10863,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 845,
-  "awaiting_signature_audio_profiles": 391
+  "authored_profiles": 847,
+  "awaiting_signature_audio_profiles": 393
 }

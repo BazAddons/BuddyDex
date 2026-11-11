@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Fenn Fairweather and Velma Warnam: adult Skyborne and Forsaken profiles with thirty personal lines queued.
+- Verify the full fishing-camp referral and native riding dialogue; document original first-catch and practice-gate scenes without new service privileges.
+
 - Add Elaadrin Evengale and Raan Wildwind: two adult Skyborne profiles with thirty personal lines queued.
 - Review the High Order campaign and camping referrals, identity variants and faction limits; document original paper-bird and packing-spoon scenes.
 

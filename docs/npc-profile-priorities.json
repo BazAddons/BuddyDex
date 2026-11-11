@@ -4151,6 +4151,20 @@
       "zone": "Zephras Isle",
       "route": "Shendar camping guide",
       "reason": "Full intro and profession referrals; both Friendly; original fortune/glory/spoon packing list; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251992,
+      "name": "Fenn Fairweather",
+      "zone": "Zephras Isle",
+      "route": "Shendar fishing and camp-joy instructor",
+      "reason": "Own paid-fishing welcome,97967 and3training rows; original actual-size first catch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4773,
+      "name": "Velma Warnam",
+      "zone": "Tirisfal Glades",
+      "route": "Brill skeletal-horse riding instructor",
+      "reason": "Own training gold/qualification remarks; original plain-gap before grand entrance; fifteen personal lines queued without synthesis"
     }
   ]
 }

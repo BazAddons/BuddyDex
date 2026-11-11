@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Fenn Fairweather, Fisherman near Shendar. Adult High Order male139446/M2 7478487, both Friendly. Own paid-fishing welcome, currentpole/repair/3lessons, full97967 referral and intro context; actual-size first-catch scene original.
+    -- Research: docs/research/fenns-first-catch-and-velmas-gate.md
+    [251992] = {
+        quote = "It was your first fish. Its refusal to be enormous does not alter the accomplishment. Tell me how you caught it.",
+        likes = { "A first catch celebrated at its actual size", "A learner noticing what the water is doing", "A little camp joy taken seriously" },
+        dislikes = { "A small success apologized for immediately", "A fishing lesson replaced with a boast", "The quiet part hurried past for the story" },
+        gossip = "Fenn can spend a long time discussing a very small first fish. The catch need not grow in the telling to hold his attention.",
+        bio = "Fenn Fairweather fishes near Shen'dar Village on Zephras Isle. He sells poles, repairs equipment, and teaches fishing. Raan's camping referral leads to his Fish Bowl lesson, where an angler's skill can bring a little pleasure to the whole camp.",
+        backstory = "A beginner apologized for the size of a first catch. Fenn asked where the line had moved and what they had noticed before the bite. By the end of the account, the fish was still small and the angler had stopped apologizing.",
+        secret = "He listens for the moment a learner becomes pleased enough to tell the truth without enlarging it. A first little success can make a better visit than another supposedly magnificent catch.",
+        bestFriend = "Sit here, friend. Tell me the actual size and the whole account. I am glad to hear what made you pleased.",
+        favorite = {
+            emote = "CHEER",
+            hint = "He likes a small genuine success welcomed with the enthusiasm its learner has earned.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "There you are. Come along, friend. If the catch was small, you may leave it small in the account. I should like to hear what you noticed, not inspect a larger story.", tone = "[warm] [wry]" }, "It is good to see you. Have you learned something from the water today, or have you brought a quiet moment in which we might begin?" },
+            idle = { { "The beginner apologized for the size. I asked about the line, the water, and the moment before the bite. The fish remained exactly the same size. The account became much more pleased with itself.", tone = "[gentle] [amused]" }, "A small result deserves a proper look. You may discover more by noticing what happened than by hurrying to make it sound impressive.", "There is room for a little pleasure at camp. Not every useful skill must announce its worth by making the next battle louder." },
+            befriended = { { "You have become someone whose account I am glad to hear without first asking whether the catch was remarkable. Sit beside me, friend. Tell it at its proper size.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the fish grown since we last discussed it?", "Go on. I am interested in the part you actually noticed." },
+            loot = { { "There it is. Give yourself a little satisfaction before deciding the result ought to have been larger. A beginning can be worth celebrating at the size it arrives.", tone = "[bright] [encouraging]" } },
+            learned = { "Good. Remember what the line and water showed you. A useful lesson is more portable than an impressive explanation." },
+            rest = { "A pause. You need not make the quiet productive enough to defend it to the company." },
+            zone = { "Take a careful look at the water and the place around it. Arriving with an answer already prepared can leave you less able to notice the useful question." },
+            newFriend = { "Someone new. Ask what they have tried before deciding the story they should tell you." },
+            thanked = { "You are welcome. I am pleased the useful part stayed with the learner." },
+            group = { "Leave room for the first small success. The most experienced voice need not decide which account deserves to be heard." },
+        },
+    },
+
+    -- Velma Warnam, Undead Horse Riding Instructor, Tirisfal. Adult Forsaken female3945/M2 997378, Horde Friendly. Own paid/qualified skeletal-riding gossip, no own quests; plain-gap before grand-entrance exercise original. Friendship does not unlock native riding services.
+    -- Research: docs/research/fenns-first-catch-and-velmas-gate.md
+    [4773] = {
+        quote = "You may perfect the grand entrance after you can manage the ordinary gate. I should prefer the horse and the gate to survive your introduction.",
+        likes = { "A rider looking where the turn will end", "A quiet correction put into practice", "A fine entrance with room left to stop" },
+        dislikes = { "A flourish replacing control of the mount", "An instruction admired and then ignored", "A fee treated as somebody else's concern" },
+        gossip = "Velma will discuss your magnificent arrival after you can turn through a plain gap. The gap has proved difficult to flatter.",
+        bio = "Velma Warnam teaches skeletal-horse riding near Brill in Tirisfal Glades. Her instruction has a price and professional requirements; a hopeful rider must qualify for the lesson. She expects attention to the skill rather than confidence in the appearance of it.",
+        backstory = "A learner described the entrance they hoped to make. Velma set two simple markers and asked them to turn between them first. Once they managed the gap without a flourish, she invited them to describe the entrance again.",
+        secret = "She enjoys the plain successful turn more than the speech afterward. A friend may recognize her approval in a small nod, without requiring her to dress the lesson up as a triumph.",
+        bestFriend = "Come along, friend. You may tell me about the magnificent entrance. I shall assume you have left enough room to stop.",
+        favorite = {
+            emote = "NOD",
+            hint = "She appreciates a steady acknowledgment followed by the useful correction, without a performance of agreement.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Come along. If you have planned another magnificent entrance, begin by telling me where you intend to stop. I should like to know the practical part has been considered.", tone = "[dry] [firm]" }, "Good to see you. Have you been practicing the useful correction, or merely improving the account of how well you understood it?" },
+            idle = { { "The learner described a magnificent arrival. I placed two markers and asked for a turn between them. The gap did not respond to flattery, but the practice eventually improved the introduction.", tone = "[matter-of-fact] [wry]" }, "Looking confident and knowing where the mount is going are different accomplishments. I prefer the one that leaves both rider and horse in good order.", "A small successful correction is enough. You need not convert every useful lesson into a heroic announcement before it can count." },
+            befriended = { { "You have become someone whose company I will accept without arranging another lesson. Come along, friend. We may hear the account of your day at a manageable pace.", tone = "[reserved] [warm]" } },
+            poke = { "Yes? Have the markers been accused of obstructing a grand entrance?", "Go on. The question may be plain. I shall survive the disappointment." },
+            mount = { { "Look where you mean to go and leave room for the stop. The flourish can wait until the useful part is under control.", tone = "[firm] [instructive]" } },
+            landed = { "Down in good order. A tidy finish is worth something even when nobody has arranged an audience." },
+            gear = { "Choose what helps you handle the work. An impressive appearance will not take responsibility for the part you have neglected." },
+            learned = { "Then practice it until the correction belongs to your hands, rather than only to the explanation you can repeat." },
+            rest = { "A pause. You may take one without rehearsing how thoroughly you deserved it." },
+            thanked = { "You are welcome. I am pleased the instruction reached the part that actually does the work." },
+            group = { "Give everyone room to move and enough notice to stop. Your own fine entrance need not become somebody else's sudden obstacle." },
+        },
+    },
+
     -- Elaadrin Evengale, High Order Supreme Magister, Valanaar. Adult Skyborne male138152/M2 7478487, race96 label does not change political role; Alliance Friendly/Horde Hostile. Full current quest branches and hostile gossip; paper bird/hat original.253847/253812 same-person appearances not separately authored.
     -- Research: docs/research/elaadrins-paper-bird-and-raans-spoon.md
     [252475] = {

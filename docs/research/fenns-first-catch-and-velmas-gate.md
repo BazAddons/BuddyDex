@@ -1,0 +1,41 @@
+# Fenn's first catch and Velma's gate
+
+Reviewed November10,2026. Two single-ID retained catalog adult identities; no Scout sightings invented. Shared Skyborne fisherman and Horde Forsaken riding instructor. No new starter-valley milestone claimed. Audio remains offline.
+
+## Current identity and roles
+
+[Fenn251992](https://forever.warcraftdb.com/api/data/node/npc/251992): Fisherman, High Order Skyborne95, both Alliance/Horde Friendly, near Shen'dar/Windsong Lake on Zephras45.06,48.41. Adult male display139446, character M2 7478487, packed139446:95:0. Level5 does not determine age. Current starts0, ends97967; sells Fishing Pole; three training rows (Fish Bowl and two Fishing ranks). Repair/Trainer/Vendor flags explicit. A malformed required-level field in the Fish Bowl row is not converted into an invented requirement or claim of a free service. No exact skill/price/cap guarantee in the product.
+
+Own251992 installed gossip, two punctuation variants, welcomes the visitor to Shen'dar and offers fishing instruction for payment. No own quest-ID block. This establishes a paid instructor rather than a wandering master of all fishing stories. [Indexed current reference](https://bindonforever.com/npc/251992) corroborates Windsong Lake placement; current map and direct service/training tables supply the role. No invented family or personal literary episode from the surname Fairweather.
+
+[Velma4773](https://forever.warcraftdb.com/api/data/node/npc/4773): Undead Horse Riding Instructor/Trainer, Forsaken5, Horde Friendly, Tirisfal60.25,52.43. Adult female display3945, character M2 997378, packed3945:5:1. [Exact Forever NPC page](https://www.wowhead.com/forever/npc=4773/velma-warnam) confirms Tirisfal; [indexed secondary overview](https://warcraft.wiki.gg/wiki/Velma_Warnam) identifies Brill, consistent with the current pin. All current starts/ends/sells/teaches0; sparse lessons do not remove her explicit title/service. [Classic NPC4773](https://classicdb.ch/?npc=4773) inspected for starts/ends: none. Do not infer an absence of all historical riding skills from a differently named Classic table.
+
+She is a riding instructor, not a cook. The initial candidate-introduction guess was corrected after the current role check, before authoring. No cooking biography appears in product data. Own installed4773 gossip has three direct passages: paid skeletal-horse instruction, an exalted-Undercity qualification message, and an inability-to-teach-Tauren message. These are native/captured service conditions, **not new BuddyDex friendship eligibility**. A named adult nonattackable friendly Tauren can still befriend her through normal accepted interactions/emotes; no training restriction was added to friendship. Conversely friendship does not bypass any current riding requirements, fees or mount restrictions. No exact current racial/service rule is promised from old gossip alone.
+
+Both names are single retained identities. Cache `C:/Users/brett/BuddyDex-builds/candidates-847` holds fresh nodes/all four related tabs, current97967 and Classic Velma page. Installed corpora are read-only, not a claim of live player interaction.
+
+## Full fishing quest context
+
+Read [97967 Camping101: Fishing](https://www.wowhead.com/forever/quest=97967/camping-101-fishing) full objective/description/progress/completion, current [quest node](https://forever.warcraftdb.com/api/data/node/quest/97967), and installed acceptance/completion. Raan sends a practiced angler to Fenn; the lesson introduces a Fish Bowl as a source of camp joy and readiness. Completion mentions the native campfire prerequisite and wilderness use. Current starts/ends explicitly link Raan263664 to Fenn251992. The happy-camp theme comes from the quest, but no buff or fixture is awarded by friendship.
+
+Reread installed [96638 The Adventurer](https://www.wowhead.com/forever/quest=96638/the-adventurer) and [96101 The Great Outdoors](https://www.wowhead.com/forever/quest=96101/the-great-outdoors) introduction; current objective/description files and full primary96101 were inspected in the immediately preceding Raan batch under candidates-845. Aetheen refers to Raan; Raan teaches camp readiness before profession referrals. Their opening speeches belong to those NPCs, not Fenn. This is the linked fishing branch, not a new fishing mini-game, personal Fenn expedition, altered native camping rule or proof every player completed it.
+
+## Velma's era and quest limits
+
+No personal quest chain in inspected current/Classic own tables and no own quest-ID block. The indexed overview includes later [Learn to Ride in Tirisfal Glades](https://warcraft.wiki.gg/wiki/Learn_to_Ride_in_Tirisfal_Glades) (added3.3.0) and [Learn To Ride](https://warcraft.wiki.gg/wiki/Learn_To_Ride_%28forsaken%29) (added5.2.0). Their exposed objectives/progress/completions were read as version checks, not silently adopted as current Forever quests or level rules. Later mailed pamphlets/quoted fees, Battle for Lordaeron displacement, Orgrimmar relocation and return to rebuilt ruins are likewise excluded. No invented former-life riding career, personal horse name, stable ownership or relationship to the nearby mount merchant. A blocked full wiki re-fetch does not erase the available indexed passages, and no unseen novel/comic or mail body is claimed read beyond the excerpt exposed in that source.
+
+## Original BuddyDex writing
+
+Fenn's beginner apologizing for a tiny first catch, questions about what happened before the bite, and private enjoyment of an account told at its true size are original. They develop the verified paid teaching/camp-joy role without inventing a caught species, named pupil, size record or new reward. CHEER favorite, approved skyborne-male voice.
+
+Velma's learner planning a magnificent arrival, two practice markers for a plain turn, and preference for the quiet successful correction are original. It is a story, not an implemented riding tutorial, gate course, named mount, new emote trick or speed boost. NOD favorite, approved forsaken-female voice. Her dry approval does not make training free or change native class/race access.
+
+Each has all reward sections, fifteen supported personal lines and four hidden delivery tags, queued offline. No synthesis or paid request. No runtime, saved-variable, native service or character-storage changes. Child/generic/attackable exclusions remain in force.
+
+## Validation and delivery
+
+Main/Scout smoke passes with zero load errors/failures, including all lore/page/line budgets and fresh/existing character storage isolation. Actual-addon harness `C:/Users/brett/AppData/Local/Temp/buddydex-fenn-velma-847.py` passes Fenn separately on Alliance and Horde and Velma on Horde, all nonattackable reaction5 fresh sessions. Adult displays, approved live/declared voices, fifteen supported unmapped lines each, valid favorites, attackable/reaction3 rejection, normal nonattackable eligibility, HELLO25 plus favorite150=175,99/100 and299/300 boundaries, companion rejection at299 and text-only welcome at300 without mismatched audio pass. Generic guards excluded. Mocked sessions do not establish live sightings or actual fishing/camp/riding-service behavior. No runtime or saved-variable changes.
+
+847 fully written profiles /454 with initial signature recordings /393 written-complete audio-pending. Fenn251992 and Velma4773 add30 personal jobs/4015 tagged input characters in approved skyborne-male and forsaken-female. Full offline audit14360 missing jobs/1136461 tagged input characters: shared3548/personal10812, no MiniMe gaps. Queue `C:/Users/brett/BuddyDex-builds/voice-backfill/profiles-847/queue.json`. Prior queue retained exactly plus thirty jobs. Catalog1536 name groups/1549 retained identities unchanged and overlapping the backlog; two uncertain Westfall identities remain unprofiled. No synthesis.
+
+Explicit Friendly364Alliance/349Horde/179unverified with45shared overlaps yields847 unique profiles. High Order41/Forsaken90. Local installation and development ZIP verified6362files/6334audio mappings/138.80MiB; ZIP CRC passes and source/installed/ZIP Lore bytes match. ZIP SHA256 `352b9f09b2eafb059961eaa71c7572f3a4fda3ff28bb67a789a3c45a384037fc`. Publishedv002 unchanged; no tag or CurseForge publication.
