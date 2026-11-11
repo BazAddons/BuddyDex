@@ -5278,5 +5278,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde identity; Current adult female Forsaken identity and auction service; original shadow dragon mistaken for rabbit; no Scout sighting claimed",
     "research_notes": "docs/research/delfrums-ceilings-and-rhykers-shadow.md"
+  },
+  {
+    "npc_id": 1683,
+    "name": "Warg Deepwater",
+    "zone": "Loch Modan",
+    "source": "Reviewed adult alliance identity; Three native fishing/referral greetings and current adult Friendly identity; original wet-boot dry-seat inspection; no Scout sighting claimed",
+    "research_notes": "docs/research/wargs-dry-seat-and-flakks-paperweight.md"
+  },
+  {
+    "npc_id": 3168,
+    "name": "Flakk",
+    "zone": "Durotar",
+    "source": "Reviewed adult horde identity; All18 current goods and native vendor identity; original apple paperweight eaten at lunch; no Scout sighting claimed",
+    "research_notes": "docs/research/wargs-dry-seat-and-flakks-paperweight.md"
   }
 ]

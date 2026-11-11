@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Warg Deepwater and Flakk: full Dwarf and Orc profiles, thirty personal lines queued.
+- Expand Loch Modan and Durotar early-route coverage with researched fishing and trade-supply roles.
+
 - Add Delfrum Flintbeard and Auctioneer Rhyker: full Dwarf and female Forsaken profiles, thirty personal lines queued.
 - Preserve native blacksmith dialogue and auctioneer identity; expand Darkshore and Horde capital coverage.
 
@@ -742,4 +745,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **959 fully written NPC profiles**: 454 have initial signature recordings, and five hundred five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **961 fully written NPC profiles**: 454 have initial signature recordings, and five hundred seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

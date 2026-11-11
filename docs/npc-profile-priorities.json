@@ -4949,6 +4949,20 @@
       "zone": "Undercity",
       "route": "Named female Forsaken auctioneer",
       "reason": "Current adult female Forsaken identity and auction service; original shadow dragon mistaken for rabbit; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1683,
+      "name": "Warg Deepwater",
+      "zone": "Loch Modan",
+      "route": "Fishing trainer by the western Loch bank",
+      "reason": "Three native fishing/referral greetings and current adult Friendly identity; original wet-boot dry-seat inspection; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3168,
+      "name": "Flakk",
+      "zone": "Durotar",
+      "route": "Trade supplier outside Razor Hill barracks",
+      "reason": "All18 current goods and native vendor identity; original apple paperweight eaten at lunch; fifteen personal lines queued without synthesis"
     }
   ]
 }

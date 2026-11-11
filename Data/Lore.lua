@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Warg Deepwater, Fisherman, western Loch bank Loch Modan, adult Dwarf male1848/M2 878772, Alliance Friendly normal trainer. Three native fishing/referral greetings; no own quests found. Wet boot while finding dry seat original; no Khara kinship, guaranteed catch or training cap.
+    -- Research: docs/research/wargs-dry-seat-and-flakks-paperweight.md
+    [1683] = {
+        quote = "A fine dry seat. I found it after stepping in the water while looking for a fine dry seat. One wet boot is a modest fee for such a thorough inspection.",
+        likes = { "A comfortable place beside the Loch", "A learner willing to ask again", "Dry socks after an unfortunate step" },
+        dislikes = { "Ignoring the ground beside the water", "A wet boot making the same sound all day", "Mistaking a patient pause for a guarantee" },
+        gossip = "Warg found a splendid dry rock to sit on. His friend asked about the wet boot. He described it as part of the inspection.",
+        bio = "Warg Deepwater teaches fishing beside the Loch. He can introduce a visitor to the craft and knows when to point an accomplished angler toward other help. An ordinary day at the bank leaves room for both instruction and a friendly joke.",
+        backstory = "He studied the bank for a comfortable dry seat and stepped into the water while looking. A friend pointed to a broad rock nearby. Warg sat down, considered the dripping boot, and declared the inspection exceptionally thorough.",
+        secret = "His friend now asks whether the inspection needs another wet boot. Warg insists that one was quite sufficient. He enjoys having someone remember the story without demanding a grander adventure.",
+        bestFriend = "Here beside me, friend. A sound dry spot, already inspected. You may tell the boot story while I attempt to look as though I approved it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A knowing smile lets him defend the dignity of a very thorough shoreline inspection.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are, friend. Looking for a dry seat? I can recommend one with considerable authority. The boot involved in the original inspection has nearly recovered its dignity.", tone = "[gruff] [amused]" }, "Come along. How has the practice been treating you? There is time to ask a question before we decide which part of the bank deserves our attention." },
+            idle = { { "I was looking for a dry seat when I stepped into the water. My friend pointed to a rock. A thorough inspection, I said. They asked whether the second boot would be required. I considered that unnecessary.", tone = "[dry] [wry]" }, "Have a look at the ground while you are studying the water. A fellow can give excellent attention to the distance and rather poor attention to where his next step is going.", "A learner who asks again has given you another chance to explain the useful part. That is worth a little patience." },
+            befriended = { { "Sit beside me, friend. You know the story of the inspection, and you still trust me to choose a dry spot. I call that an encouraging beginning.", tone = "[warm] [playful]" } },
+            poke = { "Yes? If it concerns the boot, I have prepared a perfectly reasonable account.", "A moment. I am making certain that my next step supports the advice I just gave you." },
+            learned = { { "Try the motion and watch what happens. A name for the technique is useful, but the practice will give you something better to ask about next time.", tone = "[patient] [practical]" } },
+            rest = { "A dry seat and a little company. A fine use of a pause, provided you have inspected the approach." },
+            newFriend = { "Make a little room beside you. An ordinary story is easier to enjoy when nobody feels obliged to improve it." },
+            loot = { "Have a look at what you brought in. It is useful to know what you actually found before preparing the grand account." },
+            thanked = { "Aye, you are welcome. I am glad the explanation helped. Keep an eye on the next step as well." },
+            group = { "Give everyone room to settle. There is usually a better arrangement than making one person stand in the wet part." },
+            laughAlong = { "Yes, yes. An exceptionally thorough inspection. I have become quite fond of that version myself." },
+        },
+    },
+
+    -- Flakk, Trade Supplies, Razor Hill Durotar, adult Orc male3741/M2 917116, Horde Friendly normal vendor. All18 current goods reviewed; no own quests/dialogue. Apple paperweight eaten during work original; no actual stock note, discount, new crafting skill or scripted windy event.
+    -- Research: docs/research/wargs-dry-seat-and-flakks-paperweight.md
+    [3168] = {
+        quote = "The apple held the paper down admirably. Then I ate the apple. A flaw in the arrangement, certainly, but a very satisfactory lunch.",
+        likes = { "A tool chosen for the actual task", "An apple at a convenient moment", "A friend who notices the funny part" },
+        dislikes = { "Discovering the missing tool too late", "A paperweight disappearing bite by bite", "A confident plan with one overlooked detail" },
+        gossip = "Flakk used an apple to keep a scrap of paper in place. Lunch went well. Keeping the paper in place became less successful.",
+        bio = "Flakk supplies tradespeople in Razor Hill. His goods include tools, thread, dyes, vials and a few simple provisions. He appreciates a practical choice, although his own work can occasionally be interrupted by the practical appeal of lunch.",
+        backstory = "A breeze threatened a scrap of paper, so he set an apple on it. While working, he took a bite. Then another. By the time his friend asked how the paperweight was doing, the paper was making its departure.",
+        secret = "He admits the flaw. He also insists that the apple was better eating than the stone his friend proposed. They have yet to settle which quality mattered most.",
+        bestFriend = "Come along, friend. We can discuss the merits of the arrangement over lunch. You may keep the paper safe while I present my strongest argument.",
+        favorite = {
+            emote = "WINK",
+            hint = "A wink acknowledges the overlooked detail in an otherwise very convenient plan.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "Welcome back, friend. I have a practical arrangement to defend. The apple performed admirably until lunch. Your proposed stone would have been a much less satisfying meal.", tone = "[gruff] [wry]" }, "There you are. What does the next task need? We can think it through before discovering the one small thing that should have been brought along." },
+            idle = { { "I put an apple on the paper. A sound arrangement. I took a bite while working. Then another. My friend asked after the paperweight just as the paper decided to leave. Lunch, however, had gone very well.", tone = "[dry] [amused]" }, "Choose the tool for the thing you actually intend to do. An impressive-looking bundle is less useful when the needed piece is still somewhere else.", "My friend suggested a stone. I conceded that it would hold the paper longer. They have yet to concede that the apple was a better lunch. A discussion of considerable importance." },
+            befriended = { { "Come with me, friend. You have earned the right to inspect my arrangements for overlooked details. I will defend the convenient parts and admit the amusing ones.", tone = "[hearty] [warm]" } },
+            poke = { "Yes? Another flaw in the arrangement? Give me a moment to prepare its defense.", "A moment. I am considering whether this task requires a tool or merely a better place to put the paper." },
+            bagsFull = { { "Check what the next task actually needs before you pack another bundle. A little room and the right tool will serve you better than carrying everything you happened to see.", tone = "[firm] [practical]" } },
+            gear = { "Give the working parts a look. It is easier to notice what has been neglected before you depend on it." },
+            loot = { "Consider what it is useful for before you decide to carry it. A convenient find still needs a place in the pack." },
+            newFriend = { "Ask what they are working on. It is a good way to learn which part of the account interests them most." },
+            rest = { "A useful pause. Sit comfortably. I have an argument about lunch that benefits from an attentive audience." },
+            thanked = { "You are welcome. I am glad it served the purpose you had in mind." },
+            laughAlong = { "Yes, the paper escaped. You may have that point. I retain the point about lunch." },
+        },
+    },
+
     -- Delfrum Flintbeard, Journeyman Blacksmith, Auberdine Darkshore, adult Dwarf male5021/M2 878772, Alliance Friendly normal. Three native greetings: granite ceiling homesickness, smithing, Grumnus referral. Inn roof review original; no guaranteed lessons/cap, Loch Modan placement or cured open-sky unease.
     -- Research: docs/research/delfrums-ceilings-and-rhykers-shadow.md
     [6299] = {

@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Warg Deepwater and Flakk: full Dwarf and Orc profiles, thirty personal lines queued.
+- Expand Loch Modan and Durotar early-route coverage with researched fishing and trade-supply roles.
+
 - Add Delfrum Flintbeard and Auctioneer Rhyker: full Dwarf and female Forsaken profiles, thirty personal lines queued.
 - Preserve native blacksmith dialogue and auctioneer identity; expand Darkshore and Horde capital coverage.
 
