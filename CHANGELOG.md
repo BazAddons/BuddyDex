@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Eladriel and Emerii Tallgust: full female Night Elf and High Order Skyborne profiles, thirty personal lines queued.
+- Research current skinning and leatherworking lessons; preserve separate character progress and native camping rewards.
+
 - Add Ulfir Ironbeard and Baelann Favorbreeze: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
 - Research hunter instruction and the Bank of Valanaar; expand Horde Skyborne coverage with normal eligibility and separate character progress.
 

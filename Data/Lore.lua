@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Eladriel, Skinning Trainer Craftsmen Terrace Darnassus, adult Night Elf female4985/M2 921844, Alliance Friendly normal. Five current lessons including Camp Chair, no own captured gossip or quests. Sandals tongue-twister original; no modern flight service/Burning rescue or old shield-vendor bug as biography.
+    -- Research: docs/research/eladriels-sandals-and-emeriis-seventeen.md
+    [6292] = {
+        quote = "Seven silver sandals slide sideways. There. Once, quite clearly. If you would like a second attempt, I think it is only fair that you make it first.",
+        likes = { "Careful work and patient practice", "A friend willing to try the difficult part", "A tongue-twister improved by laughter" },
+        dislikes = { "A hurried cut through useful material", "An attempt judged before it is finished", "Being asked to say it faster" },
+        gossip = "Eladriel and a friend keep trying a sentence about silver sandals. Neither can finish their latest version without laughing.",
+        bio = "Eladriel teaches skinning in Darnassus's Craftsmen's Terrace. Her instruction includes a camping fixture. She values a careful attempt, though a private word challenge with a friend has reminded her that some mistakes are worth enjoying.",
+        backstory = "A friend challenged her to repeat a sentence about seven silver sandals. Eladriel added slowly to the ending. It did not make the sentence easier to say. They kept attempting it until the laughter became more difficult to stop than the words.",
+        secret = "She enjoys her friend's confident first attempt, knowing her own will end just as badly. A shared challenge need not become a perfect result to be worth the practice.",
+        bestFriend = "Your turn, friend. Slowly, if you like. I promise to listen to the end, though I cannot promise to keep a straight face afterward.",
+        favorite = {
+            emote = "CHEER",
+            hint = "An encouraging reception makes another attempt at the troublesome sentence much more tempting.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome back, friend. Have you practiced the sentence? I have managed it once. That is quite enough confidence to make another attempt sound like a sensible idea. You may begin.", tone = "[warm] [playful]" }, "Good to see you. A question about the work, or have you come with something else for us to try saying? I shall listen carefully in either case." },
+            idle = { { "Seven silver sandals slide sideways. I added slowly to help the sentence along. My friend says I have mistaken a helpful suggestion for one more opportunity to get the words wrong.", tone = "[amused] [precise]" }, "A careful start is worth making. Notice how the material lies before deciding where your hands should go.", "My friend prepares such a confident expression before trying the sentence. I am attempting to learn it. It may be useful when my own words refuse to stay in order." },
+            befriended = { { "I am glad we are friends. There is pleasure in trying something with a person who enjoys the attempt. Stay a little; I would hear what you have been doing besides preparing to defeat the silver sandals.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? If you are about to ask me to say it faster, I should like a demonstration first.", "A moment. I am deciding whether the sentence needs one fewer word or a considerably more patient audience." },
+            cheerAlong = { { "A fine reception! That is encouragement enough for another attempt. Give me a moment to put the words back in their proper order before you applaud the result.", tone = "[bright] [delighted]" } },
+            learned = { "Try the useful part carefully before hurrying. Repetition teaches more when you notice what changed between one attempt and the next." },
+            loot = { "Consider the condition before deciding what can be made of it. A little attention at the beginning can prevent a great deal of waste." },
+            quest = { "Attend to what was asked of you, and ask if the instruction is unclear. Guessing confidently is an awkward way to begin careful work." },
+            rest = { "Let us pause. We may speak in ordinary sentences for a while. I should like to hear about your day without challenging either of us to pronounce it three times." },
+            newFriend = { "Give them room to try before deciding what they can do. A willing companion can make an awkward first attempt worth remembering." },
+            thanked = { "You are welcome. If the practice helped, I am pleased. If you mean the entertainment, I believe the credit belongs to both of us." },
+        },
+    },
+
+    -- Emerii Tallgust, Leatherworker Valanaar Zephras, adult High Order Skyborne male140056/M2 7478487, Horde Friendly normal. Native training question,48 current lessons including Camp Tent; no own quest refs. Seventeen stitch-count punch line original; no invented clan, automatic crafting or new counting/joke feature.
+    -- Research: docs/research/eladriels-sandals-and-emeriis-seventeen.md
+    [252376] = {
+        quote = "I was counting stitches when my friend reached the end of the joke. I answered seventeen. Apparently it was an excellent punch line, though I would still like to hear the intended one.",
+        likes = { "A learner noticing a neat piece of work", "Friends who save the end of a good joke", "A shared laugh after the counting is done" },
+        dislikes = { "Losing the count and the punch line", "A seam hurried past its weak point", "Discarding a question without hearing it" },
+        gossip = "Emerii answered seventeen at the end of a friend's joke. They laughed so much that he is no longer certain what the proper answer was.",
+        bio = "Emerii Tallgust teaches leatherworking in Valanaar. His lessons include practical leather goods and a camp tent. Careful attention serves his work well, though listening to a joke while counting stitches can require a different arrangement.",
+        backstory = "A friend told a joke while he counted stitches. At the expected moment, Emerii answered with the number he had reached. They both laughed, and seventeen became their private answer whenever a story reached an unexpectedly complicated ending.",
+        secret = "He still wants to hear the proper ending. But he would miss their wrong one if it disappeared entirely. A mistake can acquire a pleasantly familiar place between two friends.",
+        bestFriend = "Tell me the story, friend. I have finished counting, and I am listening. If the ending is particularly difficult, I have an answer ready.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin suggests that the familiar wrong answer has arrived at just the right moment.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. Have you brought another story? Give me a moment to finish the count. I should like to hear this ending before deciding whether seventeen will improve it.", tone = "[warm] [amused]" }, "Good to see you. Tell me what you are working on, or simply tell me how you have been. I can set this part down long enough to listen." },
+            idle = { { "My friend reached the end of the joke just as I reached seventeen. I answered before remembering which conversation I was having. Apparently we have discovered an ending suitable for a surprising number of stories.", tone = "[wry] [playful]" }, "Look at how the piece will be used, not only how neatly it can be finished. The useful part of careful work often lies in that question.", "One day I shall hear the intended punch line. I hope it is good. We have given the accidental one a very enthusiastic reception." },
+            befriended = { { "You are welcome beside me, friend. I enjoy hearing what you have to say, even when my answer arrives from the wrong part of the work. I shall try to give your next story the attention it deserves.", tone = "[gentle] [fond]" } },
+            poke = { "Seventeen. Unless you were asking something else, in which case I should hear the question again.", "A moment, friend. I have nearly finished the count, and I would rather keep both that and the end of your story." },
+            laughAlong = { { "Yes, that is the ending we know. I have not counted anything at all this time, so I must accept responsibility for choosing it deliberately.", tone = "[bright] [delighted]" } },
+            learned = { "Look closely at the part that differs from your last attempt. A careful comparison is more useful than deciding that you ought to have understood it already." },
+            gear = { "Consider the places that take the strain. A well-finished surface is pleasing, but the piece must also serve the person using it." },
+            loot = { "Look it over before you decide. Familiar material can have a useful difference that a hurried glance misses." },
+            quest = { "Practice the part you were shown, then bring your questions. A difficulty noticed clearly gives us something useful to discuss." },
+            rest = { "Let us pause a little. You can tell me the whole story this time. I have no stitches to count and no excuse for answering from the wrong conversation." },
+            thanked = { "You are welcome. I am pleased the help was useful. If you have another question, I shall try to answer it with something more informative than a number." },
+        },
+    },
+
     -- Ulfir Ironbeard, Hunter Trainer Stormwind Dwarven District, adult Dwarf male3309/M2 878772, Alliance Friendly normal. Three native gossip,124 current lessons, historical8151/8153/8231/8232 route. Crumb trail from own beard original; no Officer kinship, new named pet or free training.
     -- Research: docs/research/ulfirs-evidence-and-baelanns-performance.md
     [5516] = {

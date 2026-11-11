@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 979,
-  "written_complete_count": 979,
-  "awaiting_signature_audio_count": 525,
+  "authored_count": 981,
+  "written_complete_count": 981,
+  "awaiting_signature_audio_count": 527,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 527,
+  "remaining_count": 529,
   "completed": [
     {
       "npc_id": 54,
@@ -6383,6 +6383,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 6292,
+      "name": "Eladriel",
+      "zone": "Darnassus",
+      "source": "Reviewed adult alliance identity; Five current lessons including Camp Chair; original silver sandals tongue-twister; no Scout sighting claimed",
+      "research_notes": "docs/research/eladriels-sandals-and-emeriis-seventeen.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 6294,
       "name": "Krom Stoutarm",
       "zone": "Ironforge",
@@ -9160,6 +9172,18 @@
       "zone": "Zephras Isle",
       "source": "Reviewed adult alliance+horde man; Full Ursera and Nightclaw branches, rare-druid gossip; original visitor without a message; no Scout sighting claimed",
       "research_notes": "docs/research/gothors-copper-and-lotheluums-visitor.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 252376,
+      "name": "Emerii Tallgust",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult horde identity; Native training question and48 lessons including Camp Tent; original seventeen stitch-count punch line; no Scout sighting claimed",
+      "research_notes": "docs/research/eladriels-sandals-and-emeriis-seventeen.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

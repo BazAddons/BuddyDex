@@ -3,9 +3,9 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 425,
+    "alliance": 426,
     "unverified": 184,
-    "horde": 423
+    "horde": 424
   },
   "npc_race_counts": {
     "1": 172,
@@ -13,12 +13,12 @@
     "7": 63,
     "2": 110,
     "5": 111,
-    "4": 97,
+    "4": 98,
     "9": 67,
     "8": 61,
     "6": 108,
     "96": 28,
-    "95": 58
+    "95": 59
   },
   "zone_counts": {
     "Elwynn Forest": 33,
@@ -46,7 +46,7 @@
     "Durotar": 57,
     "The Barrens": 51,
     "Stonetalon Mountains": 16,
-    "Darnassus": 22,
+    "Darnassus": 23,
     "Burning Steppes": 1,
     "Ashenvale": 18,
     "Thousand Needles": 12,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 83,
+    "Zephras Isle": 84,
     "Riverglades": 14
   },
   "entries": [
@@ -7712,6 +7712,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6291"
     },
     {
+      "npc_id": 6292,
+      "name": "Eladriel",
+      "zone": "Darnassus",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6292"
+    },
+    {
       "npc_id": 6294,
       "name": "Krom Stoutarm",
       "zone": "Ironforge",
@@ -10955,6 +10968,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252359"
     },
     {
+      "npc_id": 252376,
+      "name": "Emerii Tallgust",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/252376"
+    },
+    {
       "npc_id": 252377,
       "name": "Seena Skybreaker",
       "zone": "Zephras Isle",
@@ -12579,6 +12605,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 979,
-  "awaiting_signature_audio_profiles": 525
+  "authored_profiles": 981,
+  "awaiting_signature_audio_profiles": 527
 }

@@ -5089,6 +5089,20 @@
       "zone": "Zephras Isle",
       "route": "Banker at the Bank of Valanaar",
       "reason": "Native deposit greeting, verified adult male High Order Skyborne; original private theatrical performance; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6292,
+      "name": "Eladriel",
+      "zone": "Darnassus",
+      "route": "Skinning trainer in the Craftsmen Terrace",
+      "reason": "Five current lessons including Camp Chair; original silver sandals tongue-twister; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252376,
+      "name": "Emerii Tallgust",
+      "zone": "Zephras Isle",
+      "route": "Leatherworker in Valanaar",
+      "reason": "Native training question and48 lessons including Camp Tent; original seventeen stitch-count punch line; fifteen personal lines queued without synthesis"
     }
   ]
 }

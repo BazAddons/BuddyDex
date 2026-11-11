@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Eladriel and Emerii Tallgust: full female Night Elf and High Order Skyborne profiles, thirty personal lines queued.
+- Research current skinning and leatherworking lessons; preserve separate character progress and native camping rewards.
+
 - Add Ulfir Ironbeard and Baelann Favorbreeze: full Dwarf and High Order Skyborne profiles, thirty personal lines queued.
 - Research hunter instruction and the Bank of Valanaar; expand Horde Skyborne coverage with normal eligibility and separate character progress.
 
@@ -772,4 +775,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **979 fully written NPC profiles**: 454 have initial signature recordings, and five hundred twenty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **981 fully written NPC profiles**: 454 have initial signature recordings, and five hundred twenty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
