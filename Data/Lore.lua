@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Rathiril Sunlance, Elder of the High Order, Zephras Isle, adult Skyborne male138154/M2 7478487, Alliance Friendly normal. All native gossip/scene rows and92596 to94413 reviewed, including violent Windshaper opposition and former student Elaadrin. Wooden puzzle corner original; no politics erased, taught magic or island rescue reward.
+    -- Research: docs/research/rathirils-puzzle-and-lycanus-cork.md
+    [251903] = {
+        quote = "The piece was upside down. I had considered several more complicated explanations. A useful reminder, though I shall prefer it delivered without an audience next time.",
+        likes = { "Self-reliance and arcane study", "Questions that merit a full answer", "A puzzle fitted together by hand" },
+        dislikes = { "Depending on the vanished spirits", "Windshapers opposing the exposed leylines", "A simple answer overlooked for a grand one" },
+        gossip = "Rathiril solved a difficult wooden puzzle with a friend's help. He had examined every possibility except turning one piece over.",
+        bio = "Rathiril Sunlance is an elder Magister of the High Order on Zephras Isle. He urges arcane self-reliance as the island's protections fail, opposes the Windshapers at the leylines, and speaks proudly of his former student Elaadrin.",
+        backstory = "A wooden puzzle resisted his most careful reasoning. A friend turned one piece over and fitted it into place. Rathiril considered the result in silence. Then he admitted that a thorough investigation ought to include the other side.",
+        secret = "He leaves one corner unfinished until that friend visits. He could complete it himself now. He rather enjoys having an ordinary task whose conclusion can wait for company.",
+        bestFriend = "Come, friend. I have kept our corner of the puzzle. We shall turn every piece over before I explain why the arrangement is impossible.",
+        favorite = {
+            emote = "NOD",
+            hint = "An attentive nod gives this elder room to finish a thought, and perhaps consider another side.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome, friend. I have kept the remaining corner of our puzzle. You may inspect both sides of the pieces before I commit us to an elaborate theory.", tone = "[dignified] [wry]" }, "Come, sit with me. I should like to hear what you have learned, particularly the part that required you to reconsider your first explanation." },
+            idle = { { "I had considered every arrangement of that piece. My friend turned it over. A thorough investigation ought to include the other side. I acknowledged this with what I considered admirable composure.", tone = "[dry] [amused]" }, "Our former benefactors are gone. Admiration for what they once offered does not relieve us of the work now before us. We must learn to stand through our own gifts.", "Elaadrin was once my student. Headstrong and capable. You may hear both descriptions as praise, even when I take some time to explain the distinction." },
+            befriended = { { "Come beside me, friend. You have earned a place at the table, including the right to turn a troublesome piece over before I finish explaining it.", tone = "[measured] [warm]" } },
+            poke = { "Yes? Have you found another side to the question? I am prepared to examine it.", "A moment. The explanation is nearly complete. You are entitled to ask how nearly." },
+            quest = { { "The exposed leylines offer tangible knowledge of the power sustaining this place. The Windshapers would close that opportunity. I do not intend to stand aside while they return us to dependence.", tone = "[stern] [resolute]" } },
+            learned = { "Use the understanding you have gained. An inherited gift still asks something of the person who carries it." },
+            newFriend = { "Ask what they can contribute. You may discover a useful answer before you discover an agreeable temperament." },
+            rest = { "A little time at the table is welcome. The unfinished corner will keep until you are ready." },
+            thanked = { "You are welcome. I would be interested to hear what you made of the advice after putting it to use." },
+            group = { "Let each person understand the task. Agreement about every underlying principle may require a longer conversation." },
+            gear = { "Examine the simple arrangement before assuming a hidden enchantment. I have recently been reminded of the value of doing so." },
+        },
+    },
+
+    -- Apothecary Lycanus, Royal Apothecary Society, Undercity, adult Forsaken male4110/M2 959310, Horde Friendly normal. Current identity and historical Apothecarium context; no own quests/services/dialogue found. Empty bottle cork demonstration original; no medical service, plague assignment, Society reform or actual bottle item.
+    -- Research: docs/research/rathirils-puzzle-and-lycanus-cork.md
+    [5733] = {
+        quote = "An empty bottle, a sound cork, and the proper moment. You may look solemn while I demonstrate. I shall know perfectly well that you are enjoying yourself.",
+        likes = { "A cork with a satisfying pop", "An audience willing to look solemn", "Keeping a small diversion simple" },
+        dislikes = { "A cork that slips out silently", "Being hurried through a demonstration", "An empty bottle mistaken for a sample" },
+        gossip = "Lycanus has given a cork demonstration with the gravity of a grand discovery. His friend's very serious applause did not help matters.",
+        bio = "Apothecary Lycanus belongs to the Royal Apothecary Society in the Undercity. In the Apothecarium, a bottle usually invites a question about its contents. His private diversion begins with making quite certain that it is empty.",
+        backstory = "He found an empty bottle whose cork came free with a splendid pop. A friend asked for a second demonstration, then applauded with great solemnity. Lycanus tried to remain equally grave. He managed until the third attempt.",
+        secret = "He pauses before pulling the cork. His friend keeps a straight face just long enough to make him lose his own. This has become part of the demonstration.",
+        bestFriend = "A moment, friend. You must look properly solemn. There. A fine audience. We may begin as soon as one of us stops smiling.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "Very serious applause can make his smallest demonstration impossible to finish with a straight face.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. I have found a promising cork. You may take a seat and look appropriately solemn while I prepare this entirely unnecessary demonstration.", tone = "[raspy] [dry]" }, "Welcome back, friend. A little company? Good. I have been waiting for someone capable of taking a very small matter much too seriously." },
+            idle = { { "The bottle was empty. The cork made a splendid pop. My friend applauded as if I had unveiled a great discovery. I tried to maintain the same gravity. The third demonstration defeated us both.", tone = "[dry] [amused]" }, "There is a particular satisfaction in a cork that announces its departure. A silent one leaves the audience wondering whether the demonstration has begun.", "I allow a long pause before the cork comes free. My friend maintains a solemn expression. This is generally where my own composure begins to suffer." },
+            befriended = { { "Come along, friend. You understand the importance of looking solemn at precisely the wrong moment. I shall endeavor to deserve another round of your most serious applause.", tone = "[raspy] [warm]" } },
+            poke = { "Yes? The pause is deliberate. You may admire the preparation while it continues.", "A moment. I am attempting to look as serious as my audience." },
+            applaudToo = { { "Excellent. Very dignified. You have made an empty bottle sound like the subject of a major discovery. I shall require a moment before repeating it.", tone = "[deadpan] [chuckling]" } },
+            bagsFull = { "Find a little room before deciding to keep another bottle. Even a fine cork is easier to appreciate when you can actually locate it." },
+            loot = { "Have a look at what you found before putting it away. An interesting container deserves an accurate account of its contents." },
+            rest = { "A welcome pause. You may relax your expression, friend. The formal part of the demonstration has concluded." },
+            newFriend = { "Give them a moment to settle. It takes practice to discover which small absurdity another person will enjoy." },
+            thanked = { "You are welcome. Your company has made the occasion rather more entertaining." },
+            laughAlong = { "There it goes. Our composure, entirely lost. A promising result for such a simple demonstration." },
+        },
+    },
+
     -- Herald Moonstalker, Darnassus, adult Night Elf female10185/M2 921844, packed4:1, Alliance Friendly normal. Native news greeting and three historical notice routes researched; current own quest tabs empty. Private good news about a practiced tune original; no new broadcast service, Alyssia kinship or later Burning fate.
     -- Research: docs/research/moonstalkers-quiet-news-and-atepas-count.md
     [10878] = {

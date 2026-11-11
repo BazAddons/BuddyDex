@@ -3,22 +3,22 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 411,
+    "alliance": 412,
     "unverified": 184,
-    "horde": 409
+    "horde": 410
   },
   "npc_race_counts": {
     "1": 168,
     "3": 98,
     "7": 63,
     "2": 106,
-    "5": 105,
+    "5": 106,
     "4": 94,
     "9": 67,
     "8": 61,
     "6": 105,
     "96": 28,
-    "95": 56
+    "95": 57
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -33,7 +33,7 @@
     "Ironforge": 68,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 59,
-    "Undercity": 23,
+    "Undercity": 24,
     "Silverpine Forest": 9,
     "Teldrassil": 32,
     "Hillsbrad Foothills": 14,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 81,
+    "Zephras Isle": 82,
     "Riverglades": 14
   },
   "entries": [
@@ -7104,6 +7104,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5724"
     },
     {
+      "npc_id": 5733,
+      "name": "Apothecary Lycanus",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/5733"
+    },
+    {
       "npc_id": 5749,
       "name": "Kayla Smithe",
       "zone": "Tirisfal Glades",
@@ -10491,6 +10504,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251902"
     },
     {
+      "npc_id": 251903,
+      "name": "Rathiril Sunlance",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/251903"
+    },
+    {
       "npc_id": 251905,
       "name": "Zerril Softbreeze",
       "zone": "Zephras Isle",
@@ -12215,6 +12241,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 951,
-  "awaiting_signature_audio_profiles": 497
+  "authored_profiles": 953,
+  "awaiting_signature_audio_profiles": 499
 }

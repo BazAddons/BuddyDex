@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Rathiril Sunlance and Apothecary Lycanus: full Skyborne and Forsaken profiles, thirty personal lines queued.
+- Preserve the High Order elder's political stance and research native dialogue; expand Alliance island and Horde Undercity coverage.
+
 - Add Herald Moonstalker and Atepa: full Night Elf and Tauren profiles, thirty personal lines queued.
 - Expand Alliance and Horde city coverage with distinct stories, researched native roles and preserved character-specific friendship progress.
 

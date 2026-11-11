@@ -5222,5 +5222,19 @@
     "zone": "Thunder Bluff",
     "source": "Reviewed adult horde identity; Current adult male Tauren banker and Horde Friendly identity; original interrupted walking count; no Scout sighting claimed",
     "research_notes": "docs/research/moonstalkers-quiet-news-and-atepas-count.md"
+  },
+  {
+    "npc_id": 251903,
+    "name": "Rathiril Sunlance",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance identity; Full92596/94413 and native elder dialogue; original wooden puzzle corner; no Scout sighting claimed",
+    "research_notes": "docs/research/rathirils-puzzle-and-lycanus-cork.md"
+  },
+  {
+    "npc_id": 5733,
+    "name": "Apothecary Lycanus",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde identity; Current adult Forsaken and Apothecarium context; original solemn empty-bottle cork demonstration; no Scout sighting claimed",
+    "research_notes": "docs/research/rathirils-puzzle-and-lycanus-cork.md"
   }
 ]

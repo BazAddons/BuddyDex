@@ -4893,6 +4893,20 @@
       "zone": "Thunder Bluff",
       "route": "Banker on the central rise",
       "reason": "Current adult male Tauren banker and Horde Friendly identity; original interrupted walking count; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 251903,
+      "name": "Rathiril Sunlance",
+      "zone": "Zephras Isle",
+      "route": "Elder of the High Order",
+      "reason": "Full92596/94413 and native elder dialogue; original wooden puzzle corner; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 5733,
+      "name": "Apothecary Lycanus",
+      "zone": "Undercity",
+      "route": "Royal Apothecary Society member",
+      "reason": "Current adult Forsaken and Apothecarium context; original solemn empty-bottle cork demonstration; fifteen personal lines queued without synthesis"
     }
   ]
 }
