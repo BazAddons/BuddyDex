@@ -3,15 +3,15 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 434,
+    "alliance": 435,
     "unverified": 184,
-    "horde": 431
+    "horde": 432
   },
   "npc_race_counts": {
     "1": 173,
-    "3": 107,
+    "3": 108,
     "7": 63,
-    "2": 111,
+    "2": 112,
     "5": 114,
     "4": 100,
     "9": 67,
@@ -28,7 +28,7 @@
     "Redridge Mountains": 28,
     "Loch Modan": 10,
     "Duskwood": 5,
-    "Dun Morogh": 26,
+    "Dun Morogh": 27,
     "Wetlands": 15,
     "Ironforge": 70,
     "Stranglethorn Vale": 9,
@@ -36,7 +36,7 @@
     "Undercity": 27,
     "Silverpine Forest": 10,
     "Teldrassil": 33,
-    "Hillsbrad Foothills": 15,
+    "Hillsbrad Foothills": 16,
     "Arathi Highlands": 11,
     "Orgrimmar": 64,
     "Badlands": 1,
@@ -1110,6 +1110,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1246"
+    },
+    {
+      "npc_id": 1255,
+      "name": "Prospector Gehn",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/1255"
     },
     {
       "npc_id": 1257,
@@ -2809,6 +2822,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2229"
+    },
+    {
+      "npc_id": 2238,
+      "name": "Tog'thar",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        2
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2238"
     },
     {
       "npc_id": 2239,
@@ -12789,6 +12815,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 995,
-  "awaiting_signature_audio_profiles": 541
+  "authored_profiles": 997,
+  "awaiting_signature_audio_profiles": 543
 }

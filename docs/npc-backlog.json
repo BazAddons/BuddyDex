@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 995,
-  "written_complete_count": 995,
-  "awaiting_signature_audio_count": 541,
+  "authored_count": 997,
+  "written_complete_count": 997,
+  "awaiting_signature_audio_count": 543,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 543,
+  "remaining_count": 545,
   "completed": [
     {
       "npc_id": 54,
@@ -821,6 +821,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 1255,
+      "name": "Prospector Gehn",
+      "zone": "Dun Morogh",
+      "source": "Reviewed adult alliance identity; Current named adult prospector, no own tasks; original little stone tower; no Scout sighting claimed",
+      "research_notes": "docs/research/gehns-tower-and-togthars-wolf.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 1257,
@@ -2165,6 +2177,18 @@
       "zone": "Hillsbrad Foothills",
       "source": "Reviewed adult horde man; Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; no Scout sighting claimed",
       "research_notes": "docs/research/glorins-table-and-krusks-cord.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 2238,
+      "name": "Tog'thar",
+      "zone": "Hillsbrad Foothills",
+      "source": "Reviewed adult horde identity; Native warning, full rescue and pendant context; original pre-capture cloth-wolf memory; no Scout sighting claimed",
+      "research_notes": "docs/research/gehns-tower-and-togthars-wolf.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

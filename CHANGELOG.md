@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Prospector Gehn and Togthar: full Dwarf and Orc profiles, thirty personal lines queued.
+- Expand quarry and Hillsbrad contacts with researched adult identities and rescue context; preserve normal eligibility and separate character progress.
+
 - Add Watcher Ladimore and Deathguard Lawrence: full Human and Forsaken profiles, thirty personal lines queued.
 - Research the complete Mor Ladim chain and book plus shared Brill direction dialogue; preserve quest outcomes, ordinary eligibility and separate character progress.
 

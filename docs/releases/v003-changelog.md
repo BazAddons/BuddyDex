@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Prospector Gehn and Togthar: full Dwarf and Orc profiles, thirty personal lines queued.
+- Expand quarry and Hillsbrad contacts with researched adult identities and rescue context; preserve normal eligibility and separate character progress.
+
 - Add Watcher Ladimore and Deathguard Lawrence: full Human and Forsaken profiles, thirty personal lines queued.
 - Research the complete Mor Ladim chain and book plus shared Brill direction dialogue; preserve quest outcomes, ordinary eligibility and separate character progress.
 
@@ -796,4 +799,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **995 fully written NPC profiles**: 454 have initial signature recordings, and five hundred forty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **997 fully written NPC profiles**: 454 have initial signature recordings, and five hundred forty-three new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

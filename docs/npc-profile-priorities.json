@@ -5201,6 +5201,20 @@
       "zone": "Tirisfal Glades",
       "route": "Named deathguard in Brill",
       "reason": "Forty-five shared Brill directions, adult identity; original hummed route-song chorus; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 1255,
+      "name": "Prospector Gehn",
+      "zone": "Dun Morogh",
+      "route": "Explorers League at Gol Bolar Quarry",
+      "reason": "Current named adult prospector, no own tasks; original little stone tower; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2238,
+      "name": "Tog'thar",
+      "zone": "Hillsbrad Foothills",
+      "route": "Captive at Durnholde Keep",
+      "reason": "Native warning, full rescue and pendant context; original pre-capture cloth-wolf memory; fifteen personal lines queued without synthesis"
     }
   ]
 }

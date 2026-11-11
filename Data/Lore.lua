@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Prospector Gehn, Explorers League Gol Bolar Quarry Dun Morogh, adult Dwarf male1623/M2 878772, Alliance Friendly normal. Current identity, no own quest/services/captured gossip. Little stone tower original, not ancient artifact, profession training, world prop or later Drugan identity.
+    -- Research: docs/research/gehns-tower-and-togthars-wolf.md
+    [1255] = {
+        quote = "Three stones stood very well. The fourth improved the height considerably, right up until it improved the width. My friend cheered the attempt anyway. We are considering a broader foundation.",
+        likes = { "Looking closely before making a claim", "A small tower with a sound foundation", "Company that cheers another attempt" },
+        dislikes = { "A guess reported as a discovery", "Useful tools handled carelessly", "A harmless failure treated as disgrace" },
+        gossip = "Gehn built a little tower of stones. The fourth stone made it much wider rather suddenly. His friend still cheered the ambitious construction.",
+        bio = "Gehn is a prospector with the Explorers' League at Gol'Bolar Quarry in Dun Morogh. Careful observation interests him, including the question of how many ordinary stones will stand together before an ambitious addition changes the arrangement.",
+        backstory = "He balanced three stones during a quiet moment. A fourth brought the tower down. His friend cheered the ambition of the attempt. Gehn bowed, examined the pieces, and began explaining why the next construction would need a broader foundation.",
+        secret = "He likes having someone there for the attempt rather than only the successful result. The next tower need not be magnificent to give them a pleasant reason to linger.",
+        bestFriend = "Come and inspect the latest attempt, friend. Ye may give an honest opinion. I have grown rather fond of hearing what ye notice.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A little encouragement is welcome when an ambitious construction has unexpectedly returned to ground level.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Come and inspect the latest attempt. I have given the foundation a little more thought, and the stones have agreed to receive my suggestions without comment.", tone = "[hearty] [amused]" }, "Good to see ye. What have ye noticed on the way here? Something ordinary can become interesting when someone takes the trouble to look properly." },
+            idle = { { "Three stones stood very well. The fourth made the tower considerably wider. My friend cheered. A generous response to a construction that had just become a collection again.", tone = "[wry] [pleased]" }, "Look before deciding what ye have found. An interesting guess deserves a careful examination before it becomes an impressive claim.", "A broader foundation seems worth trying. There is little sense blaming the top stone before considering what I put beneath it." },
+            befriended = { { "Ye are welcome beside me, friend. I enjoy having someone here for the attempts as well as the discoveries. Tell me what ye notice; I may have missed something worth a closer look.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Is it still standing? I should prefer to know before beginning the account of its remarkable stability.", "One moment. I am deciding which stone has volunteered to become the foundation this time." },
+            cheerAlong = { { "A generous reception! Thank ye. We may yet produce a tower worthy of that enthusiasm. In the meantime, I am glad the attempt has given us something pleasant to discuss.", tone = "[boisterous] [delighted]" } },
+            loot = { "Look at the little details before dismissing it. Something need not shine to deserve a useful place in the account." },
+            learned = { "There, something to carry into the next attempt. A result can be useful even when it is not the one ye meant to produce." },
+            gear = { "Treat the useful tools with care. It is easier to look closely when the thing ye need has not been knocked about inside the pack." },
+            bagsFull = { "Keep the pieces where ye can find them again. A fine collection becomes rather less useful when every small thing disappears beneath the next." },
+            rest = { "A pause suits me. We may look at what is here without deciding that every moment needs another task." },
+            thanked = { "Ye are welcome, friend. Glad the closer look helped. Tell me what happens when ye try the next arrangement." },
+        },
+    },
+
+    -- Togthar, captive at Durnholde Hillsbrad, adult Orc male3686/M2 917116, Horde Friendly normal. Native warning plus full498/533/503/506/507/508 context and one-page3601. Pre-capture cloth-wolf memory original; no assumed rescue, chain removal, invented kinship or later Eastpoint syndrome.
+    -- Research: docs/research/gehns-tower-and-togthars-wolf.md
+    [2238] = {
+        quote = "Before this place, a friend showed me how to fold a cloth into a wolf. Mine looked like a very determined boar. We agreed that determination deserved a place at the meal too.",
+        likes = { "A friend remembered beyond hard times", "A joke shared rather than aimed at him", "The thought of another meal in freedom" },
+        dislikes = { "Captors treating people as property", "Careless visitors placed in danger", "Mockery of someone unable to answer it" },
+        gossip = "Before his capture, Tog'thar folded a cloth wolf with a friend. His became a boar. He hopes to dispute the ears over another meal.",
+        bio = "Tog'thar is an orc held captive at Durnholde Keep. He and Drull were taken when their expedition was overwhelmed; Krusk seeks help for them. Tog'thar warns visitors about the danger and still has room to remember happier company.",
+        backstory = "Before his capture, a friend showed him how to fold a cloth into a wolf for their meal. His attempt looked more like a boar. They gave it a place beside the bowl anyway. He remembers the argument over its ears as clearly as the laughter.",
+        secret = "He hopes for another meal with that friend, and another attempt at the ears. It is a small thing to want, but captivity has not made it less his to imagine.",
+        bestFriend = "Remember me as someone who can laugh with a friend. I would like another ordinary meal, and time to settle the argument about that wolf.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A shared, good-humored expression honors his remembered joke without making his captivity the subject of it.",
+        },
+        recordingVoice = "orc-male",
+        lines = {
+            greet = { { "You have returned, friend. Good. Speak to me as someone with a life beyond these chains. I have a very determined cloth boar to defend, and an argument about its ears that remains unsettled.", tone = "[rough] [warming]" }, "If you have news of Drull, I would hear it. Being held apart does not lessen my concern for him." },
+            idle = { { "My friend folded a cloth wolf for the meal. Mine became a boar. We gave it a place beside the bowl anyway. I still think the ears might have been repaired with a little more time.", tone = "[reminiscing] [amused]" }, "Do not be careless here. I would not have another visitor put into chains because they thought the danger ended with what they could already see.", "A person does not become property because a captor has found a way to bind them. Remember that when you speak to someone who cannot stand beside you freely." },
+            befriended = { { "I value your return, friend. You have given me a conversation that belongs to more than this place. I hope there will be another ordinary meal to share, and time enough to laugh over the attempt again.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes? If you mean to ask about the ears, I maintain that the resemblance was not entirely my fault.", "One moment. I was remembering the way my friend tried to explain the fold without laughing. They did not manage both for very long." },
+            laughAlong = { { "A boar can be a respectable addition to a meal without being the meal. That was my defense. My friend found the distinction extremely funny. I hope to present it again one day.", tone = "[dry] [fond]" } },
+            newFriend = { "Speak to them as a person before deciding what their circumstances must mean. They may have something of their own they would like you to hear." },
+            group = { "Keep track of one another. Someone left out of sight should not be left out of your thoughts." },
+            rest = { "A quiet moment, friend. I can remember the meal without needing to tell the whole story again. It is good to have company while I do." },
+            comforted = { "Thank you. Kindness matters without pretending the difficulty has disappeared. I know you are speaking to me, and I am glad of it." },
+            thanked = { "You are welcome. I would do what I can for a friend. There is still room for that choice." },
+            quest = { "Understand what is being asked, and look after the people involved. A report of success should not forget someone still waiting for help." },
+        },
+    },
+
     -- Watcher Sarah Ladimore, Darkshire Night Watch, adult Human female2375/M2 1000764, Alliance Friendly normal. Full225/227/228/229/231 and nine-page2154 book; daughter of Morgan and Lys. Personal-name welcome original, no assumed quest completion, grief cure, later command rank or gifted heirlooms.
     -- Research: docs/research/sarahs-welcome-and-lawrences-chorus.md
     [576] = {
