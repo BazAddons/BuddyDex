@@ -4578,5 +4578,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance man; Full92483 and introduction, paid promotional gossip; original quiet entrance announcement; no Scout sighting claimed",
     "research_notes": "docs/research/quelanas-cloak-and-akeris-entrance.md"
+  },
+  {
+    "npc_id": 4321,
+    "name": "Baldruc",
+    "zone": "Dustwallow Marsh",
+    "source": "Reviewed adult alliance man; Fresh verified external identity absent from retained snapshot; original long-walk directions; no Scout sighting claimed",
+    "research_notes": "docs/research/baldrucs-directions-and-thalons-rhythm.md"
+  },
+  {
+    "npc_id": 6726,
+    "name": "Thalon",
+    "zone": "Desolace",
+    "source": "Reviewed adult horde man; Current named adult retained identity and dock; original shared rhythm; no Scout sighting claimed",
+    "research_notes": "docs/research/baldrucs-directions-and-thalons-rhythm.md"
   }
 ]

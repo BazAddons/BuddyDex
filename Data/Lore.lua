@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Baldruc, Gryphon Master, Theramore/Dustwallow. Adult Dwarf male2417/M2 878772, current Alliance Friendly and Flight Master. Individually reviewed external name absent from retained snapshot, not a Scout claim. Long-walk destination anecdote original; later scenario excluded.
+    -- Research: docs/research/baldrucs-directions-and-thalons-rhythm.md
+    [4321] = {
+        quote = "A little farther than I meant to walk is a fine description of yer afternoon. Give me a place name as well, and we'll have the beginning of a destination.",
+        likes = { "A destination named before the long story", "Travelers who can laugh at their directions", "A gryphon given room to depart" },
+        dislikes = { "That way offered as a complete route", "A loose pack discovered too late", "A question answered with another gesture" },
+        gossip = "Baldruc has heard some remarkable destinations. A little farther than I meant to walk remains a favorite, though he has yet to find it on a map.",
+        bio = "Baldruc is Theramore's gryphon master in Dustwallow Marsh. He helps travelers find an airborne way onward from the harbor. His first practical question concerns their destination; the longer conversation sometimes reveals how much that answer needed sorting out.",
+        backstory = "A weary traveler asked to fly a little farther than they had meant to walk. Baldruc waited for the place name. When it finally came, both were laughing. He has since used the phrase to describe an afternoon that refuses to end.",
+        secret = "He enjoys the moment a confused traveler can laugh at the account and begin again. A plain question can make a welcome pause in a journey that has become unnecessarily complicated.",
+        bestFriend = "There ye are, friend. Come along. Ye can tell me the long account this time; I needn't turn it into a destination before I listen.",
+        favorite = {
+            emote = "GRIN",
+            hint = "He appreciates someone sharing the humor in a journey that took a less direct turn than expected.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are, friend. Come along. If we're going a little farther than ye meant to walk, we can at least agree on the name of the place before the afternoon gets any more ambitious.", tone = "[hearty] [wry]" }, "Good to see ye. Where are we headed, and how much of the answer requires me to know where ye were standing yesterday?" },
+            idle = { { "A little farther than I meant to walk. That was the destination, apparently. I waited for the place name. By the time it arrived, we were both laughing, and the afternoon had improved without getting any shorter.", tone = "[amused] [warm]" }, "I don't mind the long account. Just give me the place name somewhere in it, before I start imagining a new settlement called Over There.", "A plain question can save a remarkably complicated explanation. It may also give a tired traveler a moment to discover what they actually meant to ask." },
+            befriended = { { "I've come to enjoy yer company even when the answer takes the scenic route. Come along, friend. Ye may tell the account at its proper length. We needn't make a departure out of every conversation.", tone = "[warm] [sincere]" } },
+            poke = { "Aye? Is Over There nearer or farther than Yesterday?", "Go on. I'm listening for the useful landmark." },
+            taxi = { { "Name the destination, make certain yer pack is fastened, and leave the gryphon room. Once the useful details are settled, ye may enjoy the view without explaining the whole walk to it.", tone = "[brisk] [reassuring]" } },
+            landed = { "Down in good order. Take a moment to find yer bearings before improving the journey with another set of directions." },
+            zone = { "Have a proper look around. A place name is useful, but it gets better when ye have noticed the place that belongs to it." },
+            rest = { "A pause sounds wise. We may have reached A Little Farther without meaning to, and that deserves somewhere to sit." },
+            bagsFull = { "Fasten the pack before departure. It is easier to arrange the contents while everything agrees to stay on the ground." },
+            thanked = { "Glad to help. I'm pleased we found the place ye meant before the description acquired another hill." },
+            newFriend = { "Someone new. Give them a moment to explain where they've come from before deciding where they ought to go next." },
+        },
+    },
+
+    -- Thalon, Wind Rider Master, Shadowprey/Desolace. Adult Tauren male5406/M2 968705, current Horde Friendly and Flight Master. Own destination greeting, no own quest found. Shared dock-rhythm scene original; not Brackenwall.
+    -- Research: docs/research/baldrucs-directions-and-thalons-rhythm.md
+    [6726] = {
+        quote = "The board supplies one note, the water another. You may add your hands. We need not agree immediately for the afternoon to sound pleasant.",
+        likes = { "A little rhythm shared without ceremony", "Travelers taking a moment at the shore", "Departures given room and attention" },
+        dislikes = { "A loose fastening left to hope", "Laughter used to silence a shy participant", "A quiet pause hurried into another task" },
+        gossip = "Thalon sometimes keeps time with the sounds around Shadowprey's dock. A visitor's misplaced clap has become part of one favorite rhythm.",
+        bio = "Thalon is the tauren wind rider master at Shadowprey Village in Desolace, at the end of the dock. Travelers meet him where the village reaches the water. Between the business of departures, he enjoys finding a little rhythm in the ordinary sounds of the shore.",
+        backstory = "He was tapping along with a creaking board when a visitor clapped in the wrong place. They laughed, then tried it again deliberately. Thalon found he liked the uneven rhythm better once someone else was helping to make it.",
+        secret = "He remembers where the visitor's clap arrived. Sometimes he leaves that space open, pleased when a friend hears the invitation without needing the whole arrangement explained.",
+        bestFriend = "Come stand beside me, friend. There is a place for your hands in this rhythm. We can listen for it together.",
+        favorite = {
+            emote = "CLAP",
+            hint = "He enjoys someone joining the little rhythm he finds in the ordinary sounds around him.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "There you are, friend. Come along. I have left room in the rhythm, though I shall not insist that you arrive exactly where I expected. We discovered a pleasant arrangement by getting that wrong once.", tone = "[warm] [playful]" }, "Good to see you. Take a moment to hear the place around us. There may be something worth enjoying before we decide where the day should take us." },
+            idle = { { "The board creaked, I tapped, and the visitor clapped somewhere quite unexpected. We laughed and tried it again on purpose. The afternoon had acquired another participant, and the rhythm improved in a way I had not planned.", tone = "[gentle] [amused]" }, "The shore has a great many sounds. We may enjoy a few of them without asking every one to tell us something useful.", "A departure deserves attention until the rider is clear. Then there may be time for the little pleasures waiting where you are already standing." },
+            befriended = { { "You have become someone whose presence I am glad to leave room for. Come along, friend. We need not make a perfect arrangement to enjoy the sound of having company beside us.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Have you found a note I have been missing?", "A moment. There is room for the question after this little pause." },
+            applaudToo = { { "There you are. I heard where you joined in. We may keep that part, even if it was not quite where either of us expected. A shared rhythm can afford a little surprise.", tone = "[bright] [encouraging]" } },
+            taxi = { "Fasten what you are carrying and give the departure room. Enjoy the view once the practical part is settled." },
+            landed = { "Down in good order. Let the journey finish before you hurry into the next task." },
+            rest = { "A quiet pause would be welcome. We may listen until one of us discovers where to add the next note." },
+            group = { "Leave room for the one who has not joined in yet. An invitation can be quieter than the company already enjoying itself." },
+            thanked = { "You are welcome. I am pleased the visit has left you something pleasant to carry onward." },
+            zone = { "Listen as well as look. A new place sometimes becomes familiar through the ordinary sounds you nearly walked past." },
+        },
+    },
+
     -- Quelana Quickgale, Hunter Trainer, Valanaar/Zephras. Adult High Order male140075/M2 7478487, current Horde Friendly only. Full hunter chain, own fading-island warning, sister Queldora and cat Raylann256518 explicit. Folded-cloak scene original.
     -- Research: docs/research/quelanas-cloak-and-akeris-entrance.md
     [252389] = {

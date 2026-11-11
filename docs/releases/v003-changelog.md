@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Baldruc and Thalon: adult Dwarf and Tauren regional profiles with thirty personal lines queued.
+- Verify current Theramore and Shadowprey service identities; document source limits and original directions/dock-rhythm scenes.
+
 - Add Quelana Quickgale and Akeri Duskblade: adult Skyborne profiles with thirty personal lines queued.
 - Verify their hunter/rogue introductions, actual faction icons and local relationships; document original folded-cloak and quiet-entrance scenes.
 
@@ -589,4 +592,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **859 fully written NPC profiles**: 454 have initial signature recordings, and four hundred five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **861 fully written NPC profiles**: 454 have initial signature recordings, and four hundred seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

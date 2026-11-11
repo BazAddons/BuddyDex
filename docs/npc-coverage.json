@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 371,
+    "alliance": 372,
     "unverified": 180,
-    "horde": 355
+    "horde": 356
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 79,
+    "3": 80,
     "7": 61,
     "2": 93,
     "5": 91,
     "4": 77,
     "8": 61,
     "9": 62,
-    "6": 94,
+    "6": 95,
     "96": 28,
     "95": 45
   },
@@ -50,8 +50,8 @@
     "Burning Steppes": 1,
     "Ashenvale": 15,
     "Thousand Needles": 11,
-    "Dustwallow Marsh": 1,
-    "Desolace": 12,
+    "Dustwallow Marsh": 2,
+    "Desolace": 13,
     "Tanaris": 9,
     "Feralas": 4,
     "Felwood": 3,
@@ -5507,6 +5507,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4317"
     },
     {
+      "npc_id": 4321,
+      "name": "Baldruc",
+      "zone": "Dustwallow Marsh",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4321"
+    },
+    {
       "npc_id": 4453,
       "name": "Wizzle Brassbolts",
       "zone": "Thousand Needles",
@@ -7044,6 +7057,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6579"
+    },
+    {
+      "npc_id": 6726,
+      "name": "Thalon",
+      "zone": "Desolace",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6726"
     },
     {
       "npc_id": 6727,
@@ -11020,6 +11046,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 859,
-  "awaiting_signature_audio_profiles": 405
+  "authored_profiles": 861,
+  "awaiting_signature_audio_profiles": 407
 }

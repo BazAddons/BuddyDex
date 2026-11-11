@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Baldruc and Thalon: adult Dwarf and Tauren regional profiles with thirty personal lines queued.
+- Verify current Theramore and Shadowprey service identities; document source limits and original directions/dock-rhythm scenes.
+
 - Add Quelana Quickgale and Akeri Duskblade: adult Skyborne profiles with thirty personal lines queued.
 - Verify their hunter/rogue introductions, actual faction icons and local relationships; document original folded-cloak and quiet-entrance scenes.
 

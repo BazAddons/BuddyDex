@@ -4249,6 +4249,20 @@
       "zone": "Zephras Isle",
       "route": "Thendal watchtower rogue trainer",
       "reason": "Full92483 and introduction, paid promotional gossip; original quiet entrance announcement; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4321,
+      "name": "Baldruc",
+      "zone": "Dustwallow Marsh",
+      "route": "Theramore gryphon master",
+      "reason": "Fresh verified external identity absent from retained snapshot; original long-walk directions; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6726,
+      "name": "Thalon",
+      "zone": "Desolace",
+      "route": "Shadowprey Village wind rider master",
+      "reason": "Current named adult retained identity and dock; original shared rhythm; fifteen personal lines queued without synthesis"
     }
   ]
 }
