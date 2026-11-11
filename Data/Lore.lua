@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Outfitter Eric, Ironforge tailoring supplier. Adult gnome male7951/M2 900914, Alliance Friendly.22currentgoods, no personal quests/gossip; magnificent-purple description and practical label original.
+    -- Research: docs/research/erics-purple-and-arathandris-flower.md
+    [8681] = {
+        quote = "You may call the color magnificent if you like. I shall keep the bottle labeled purple until we agree what magnificent looks like.",
+        likes = { "A color chosen with a little confidence", "Useful thread beside an ambitious pattern", "A grand description followed by a plain label" },
+        dislikes = { "Cutting the thread before measuring the work", "A customer ashamed of liking bright colors", "An impressive name concealing the wrong dye" },
+        gossip = "Eric can give one purple three magnificent descriptions. The bottle has a single practical label, and he considers that good business.",
+        bio = "Outfitter Eric supplies tailoring materials in Ironforge. His stock ranges from thread and dyes to shirt, tuxedo, and reagent-bag patterns. He helps turn an idea about how something should look into materials a tailor can actually use.",
+        backstory = "He gave a purple dye an elaborate description, then watched the customer search for its ordinary name. Eric pointed to the label and smiled. He kept the description for conversation and the label for finding the right bottle.",
+        secret = "He enjoys inventing splendid names for familiar colors. A friend may hear several in a visit, but he would rather they choose what they like than agree with his finest speech.",
+        bestFriend = "Come along, friend. We may invent a glorious name for that color and still let you decide whether you like it.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates someone sharing the joke in a grand description while keeping sight of the useful thing beneath it.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are. Come along. I have thought of a magnificent description for purple, but I shall let you decide whether the color deserves all the attention I have given it.", tone = "[bright] [playful]" }, "Good to see you. Have you something in mind, or shall we enjoy a little speculation before settling on the useful materials?" },
+            idle = { { "I described a purple so grandly that the customer could no longer find it on the shelf. The label still said purple. We agreed that one of us ought to remain practical.", tone = "[animated] [wry]" }, "A good pattern can begin an ambitious afternoon. Remember to bring the thread as well as the magnificent account of what you intend to make.", "You are allowed to like a bright color without preparing a defense for the occasion. The person wearing it should have some say in the pleasure." },
+            befriended = { { "You have become somebody I am pleased to see without a shopping list in your hands. Come along, friend. We can discuss the colors without first finding you something to buy.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Has the purple acquired another title while I was not looking?", "Go on. A plain question can be as welcome as a splendid description." },
+            gear = { { "Consider what you want it to do and how you want it to look. Useful materials give a fine idea somewhere to begin.", tone = "[cheerful] [instructive]" } },
+            learned = { "Good. You have another way to make the idea real. Choose the materials with as much care as you chose the occasion." },
+            loot = { "Look at what is actually there before giving it a glorious name. The name cannot supply a missing length of thread." },
+            bagsFull = { "A little arrangement will help. Every bottle being somewhere in the bag is not quite the same as finding the one you need." },
+            rest = { "A pause. We may appreciate a color without immediately turning it into a project." },
+            thanked = { "You are welcome. I am pleased the useful part survived my description." },
+            newFriend = { "Somebody new. Ask what they like before deciding the grandest choice must be the right one." },
+        },
+    },
+
+    -- Arathandris Silversky, Emerald Circle, Felwood. Adult night elf female8657/M2 921844. Current Horde Friendly icon conflicts Alliance quest4101/language redirect; access unresolved. Full4101/4103-4112 and own four gossip remarks; shared flower doodle original.
+    -- Research: docs/research/erics-purple-and-arathandris-flower.md
+    [9528] = {
+        quote = "We may need time to find the words. We can begin with a smile, a patient hand, and a look at what needs care.",
+        likes = { "Useful help offered despite missing words", "A careful hand near a damaged plant", "A shared smile after a clumsy explanation" },
+        dislikes = { "Felwood's corruption mistaken for its nature", "Cleansing knowledge offered without trust", "A whole forest dismissed as beyond saving" },
+        gossip = "Arathandris can make a welcome understood with a smile. Her flower drawn in the dirt may require a little more interpretation.",
+        bio = "Arathandris Silversky works to reclaim Felwood through Cenarion plant salves. She studies blood amber from Warpwood elementals and makes cleansing reagents from several kinds of gathered materials. She guards that knowledge until a helper earns her trust.",
+        backstory = "To explain a plant to a visitor, she drew a flower in the dirt. They added a very uncertain petal. Arathandris smiled, and they tried again together. The drawing remained awkward; the willingness to help was clear.",
+        secret = "She remembers the shared effort longer than the picture. A visitor need not find perfect words before she can appreciate the care they are trying to offer.",
+        bestFriend = "Sit here, friend. We may have to draw the flower twice. I am glad to have someone willing to try beside me.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A simple warm expression can begin the understanding she welcomes before every word is clear.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "There you are. Come along, friend. We can begin with what needs care, and find the words as we go. An imperfect explanation need not prevent a willing hand from helping.", tone = "[gentle] [encouraging]" }, "It is good to see you. Have you noticed something that may yet be saved? I would hear what you have found." },
+            idle = { { "I drew a flower in the dirt to explain the work. The visitor added a petal that did not greatly resemble one. We tried again together. I remember the willingness more clearly than the drawing.", tone = "[warm] [amused]" }, "Felwood is not only the corruption that has taken hold of it. We must look for the life that remains and the means by which it may recover.", "Some knowledge must be guarded until the person asking has shown what they intend to do with it. Carelessness can undo work that goodwill alone cannot replace." },
+            befriended = { { "You have become someone with whom I am glad to share the patient part of the work. Stay beside me, friend. We need not understand everything at once to begin caring well.", tone = "[gentle] [sincere]" } },
+            poke = { "Yes? Have we reached the petal that needs another explanation?", "Go on. Show me what you mean if the words are not ready." },
+            learned = { { "Good. Keep both the method and its purpose in mind. Useful knowledge should bring us closer to preserving what can still be saved.", tone = "[calm] [instructive]" } },
+            loot = { "Look carefully at what seems tainted or useless. There may be a way to prepare it for work very different from the harm it has carried." },
+            quest = { "A step taken. Give it its proper value without deciding that the whole forest has been restored by one success." },
+            zone = { "Take a careful look. A place may hold both damage and the life we must learn how to protect." },
+            rest = { "A pause can help us see the part we were hurrying past. Patience belongs in the work as well as the welcome." },
+            thanked = { "You are welcome. I am glad we found a way to make the help understood." },
+            newFriend = { "Someone new. A smile and a little patience may open the visit before you have settled every word." },
+        },
+    },
+
     -- Elegael Thornpaw, Nightclaw druid, Shadowgale Forest, Zephras. Adult High Order female140525/M2 7478494, both Friendly. Full94484-94491 and alternate94493; cousin Haalien and mate Jorel explicit. Branch-sound pause original, no healed-den outcome.
     -- Research: docs/research/elegaels-listening-and-kurguls-sneeze.md
     [257944] = {

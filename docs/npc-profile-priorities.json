@@ -4060,6 +4060,20 @@
       "zone": "Orgrimmar",
       "route": "Cleft of Shadow demon trainer",
       "reason": "Own paid-training dialogue and historical7562 referral/ritual context; original dusty-book sneeze; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8681,
+      "name": "Outfitter Eric",
+      "zone": "Ironforge",
+      "route": "Ironforge tailoring supplier",
+      "reason": "22currentgoods; original magnificent-purple label conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9528,
+      "name": "Arathandris Silversky",
+      "zone": "Felwood",
+      "route": "Southern Felwood plant-salve researcher",
+      "reason": "Full4101/4103-4112 and own gestures/salve gossip; conflicting faction indicators unresolved; original shared flower doodle; fifteen personal lines queued without synthesis"
     }
   ]
 }

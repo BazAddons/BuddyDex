@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Outfitter Eric and Arathandris Silversky: adult Gnome and Night Elf profiles with thirty personal lines queued.
+- Review tailoring stock and the full plant-salve branches; document original color-label and shared-flower scenes and unresolved Felwood faction indicators.
+
 - Add Elegael Thornpaw and Kurgul: adult High Order and Orc profiles with thirty personal lines queued.
 - Review the Nightclaw ambush/aid chain and historical demon-training referral; document original listening-pause and dusty-book scenes.
 
@@ -549,4 +552,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **832 fully written NPC profiles**: 454 have initial signature recordings, and three hundred seventy-eight new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **834 fully written NPC profiles**: 454 have initial signature recordings, and three hundred eighty new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

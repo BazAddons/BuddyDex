@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Outfitter Eric and Arathandris Silversky: adult Gnome and Night Elf profiles with thirty personal lines queued.
+- Review tailoring stock and the full plant-salve branches; document original color-label and shared-flower scenes and unresolved Felwood faction indicators.
+
 - Add Elegael Thornpaw and Kurgul: adult High Order and Orc profiles with thirty personal lines queued.
 - Review the Nightclaw ambush/aid chain and historical demon-training referral; document original listening-pause and dusty-book scenes.
 

@@ -3,17 +3,17 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 356,
-    "unverified": 177,
+    "alliance": 357,
+    "unverified": 178,
     "horde": 341
   },
   "npc_race_counts": {
     "1": 168,
     "3": 75,
-    "7": 59,
+    "7": 60,
     "2": 92,
     "5": 88,
-    "4": 74,
+    "4": 75,
     "8": 61,
     "9": 61,
     "6": 89,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 22,
     "Wetlands": 6,
-    "Ironforge": 61,
+    "Ironforge": 62,
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 49,
     "Undercity": 19,
@@ -54,13 +54,13 @@
     "Desolace": 12,
     "Tanaris": 9,
     "Feralas": 3,
+    "Felwood": 2,
     "Winterspring": 2,
     "Moonglade": 1,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
     "Zephras Isle": 63,
-    "Riverglades": 13,
-    "Felwood": 1
+    "Riverglades": 13
   },
   "entries": [
     {
@@ -7567,6 +7567,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8671"
     },
     {
+      "npc_id": 8681,
+      "name": "Outfitter Eric",
+      "zone": "Ironforge",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8681"
+    },
+    {
       "npc_id": 8719,
       "name": "Auctioneer Fitch",
       "zone": "Stormwind City",
@@ -7691,6 +7704,17 @@
       ],
       "reaction_evidence": "Exact current Horde-icon Friendly; no Alliance access inferred from inn/port setting",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9501"
+    },
+    {
+      "npc_id": 9528,
+      "name": "Arathandris Silversky",
+      "zone": "Felwood",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Friendly icon conflicts current Alliance quest4101 and historical language redirect; positive faction access unresolved",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9528"
     },
     {
       "npc_id": 9555,
@@ -10669,6 +10693,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 832,
-  "awaiting_signature_audio_profiles": 378
+  "authored_profiles": 834,
+  "awaiting_signature_audio_profiles": 380
 }

@@ -4389,5 +4389,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde man; Own paid-training dialogue and historical7562 referral/ritual context; original dusty-book sneeze; no Scout sighting claimed",
     "research_notes": "docs/research/elegaels-listening-and-kurguls-sneeze.md"
+  },
+  {
+    "npc_id": 8681,
+    "name": "Outfitter Eric",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; 22currentgoods; original magnificent-purple label conversation; no Scout sighting claimed",
+    "research_notes": "docs/research/erics-purple-and-arathandris-flower.md"
+  },
+  {
+    "npc_id": 9528,
+    "name": "Arathandris Silversky",
+    "zone": "Felwood",
+    "source": "Reviewed adult unverified woman; Full4101/4103-4112 and own gestures/salve gossip; conflicting faction indicators unresolved; original shared flower doodle; no Scout sighting claimed",
+    "research_notes": "docs/research/erics-purple-and-arathandris-flower.md"
   }
 ]
