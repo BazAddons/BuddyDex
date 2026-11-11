@@ -4809,6 +4809,20 @@
       "zone": "Swamp of Sorrows",
       "route": "Elite Stonard wind rider master",
       "reason": "Native destination question and current flight service; original dry-socks journey joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 277067,
+      "name": "Vela El'wyth",
+      "zone": "Zephras Isle",
+      "route": "Named island resident",
+      "reason": "Adult Skyborne female, no personal quest/dialogue found; original spoiled wordless clue; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2393,
+      "name": "Christoph Jeffcoat",
+      "zone": "Hillsbrad Foothills",
+      "route": "Tarren Mill trade goods and bisque quest",
+      "reason": "Full7321 and current stock/native greeting; original imaginary cookbook-title argument; fifteen personal lines queued without synthesis"
     }
   ]
 }

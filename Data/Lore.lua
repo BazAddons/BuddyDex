@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Vela Elwyth, named Zephras Isle resident, adult Skyborne female148784/M2 7478494, packed95:1, current Horde Friendly. No personal quest, service or captured gossip found. Spoken hint spoiling wordless plate story original; no inferred occupation, family or model-template political allegiance.
+    -- Research: docs/research/velas-clue-and-christophs-title.md
+    [277067] = {
+        quote = "You are meant to guess what I am carrying. Yes, I said not to drop the plates. That was meant to establish the tension, not give away the entire answer.",
+        likes = { "A ridiculous guess offered confidently", "Applause for an imperfect attempt", "A listener who joins the game" },
+        dislikes = { "A joke used to shut someone out", "A correct answer with no explanation", "Being reminded that she supplied the clue" },
+        gossip = "Vela tried telling a story without words. Her friend guessed the answer just after she explained the most important part aloud.",
+        bio = "Vela El'wyth is a Skyborne resident of Zephras Isle. She enjoys a wordless guessing story, though her urge to explain a dramatic moment sometimes overtakes her determination to leave the answer for someone else.",
+        backstory = "She acted out carrying an impossible stack of plates. When her friend hesitated, she warned them not to drop the plates. They guessed correctly. Vela insisted that she had supplied atmosphere, then laughed before she could defend the distinction.",
+        secret = "She likes a ridiculous wrong answer almost as much as a correct one. It means her friend has started imagining something with her instead of simply waiting to be entertained.",
+        bestFriend = "Again, friend? No hints this time. Unless the moment requires atmosphere. I trust you will be generous about what that means.",
+        favorite = {
+            emote = "APPLAUD",
+            hint = "Friendly applause lets her enjoy the attempt even when her own explanation has spoiled the answer.",
+        },
+        recordingVoice = "skyborne-female",
+        lines = {
+            greet = { { "There you are. Another wordless story? I have prepared no explanation, which should make this attempt substantially more difficult for both of us.", tone = "[bright] [playful]" }, "Welcome back, friend. You may offer a ridiculous guess first. I enjoy hearing what you thought I was doing." },
+            idle = { { "I said not to drop the plates. My friend immediately guessed plates. I maintain that I was establishing the tension. They maintain that I had explained the entire answer. It was difficult to argue while laughing.", tone = "[dry] [chuckling]" }, "A wrong guess can be excellent. It gives us an entirely different story to consider, and occasionally a better one than I had intended.", "I meant to tell it without words. I had not considered how many words I usually need to explain that something ought to be dramatic." },
+            befriended = { { "Come along, friend. You make an attempt feel worth sharing even when I give the answer away. I enjoy imagining what you will make of the next one.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? I was thinking that time. It was not another difficult clue.", "A moment. I am trying to remember which part of the story I am meant to avoid explaining." },
+            applaudToo = { { "A fine attempt deserves some applause. An imperfect one may deserve it as well, especially when we have both been enjoying ourselves.", tone = "[delighted] [encouraging]" } },
+            laughAlong = { "Yes, laugh. The explanation was not meant to be part of the performance, but it appears to have become the best part." },
+            newFriend = { "Let them try a guess. We need not explain the answer before they have had a chance to imagine one." },
+            group = { "One guess at a time. I would like to hear which story each of you thought I was telling." },
+            rest = { "A quiet pause. I shall try not to supply an explanation of the quiet." },
+            cheerAlong = { "That is the spirit. We can enjoy the attempt without waiting for it to be perfect." },
+            thanked = { "You are welcome. I am glad the company was enjoyable, even if my wordless story acquired rather a lot of words." },
+        },
+    },
+
+    -- Christoph Jeffcoat, Tarren Mill Tradesman, adult Forsaken male3672/M2 959310, Horde Friendly. Full7321 bisque text including older anti-Alliance progress, vendor greeting and22 goods reviewed. Imaginary cookbook-title argument original; no actual new book, resurrection recipe or friendship cooking reward.
+    -- Research: docs/research/velas-clue-and-christophs-title.md
+    [2393] = {
+        quote = "An impressive title is all very well, but the cookbook would still require recipes. No, I have not written it. We are merely arguing over what ought to be on the cover.",
+        likes = { "Pride in a well-made bisque", "An outrageous title worth disputing", "A customer who states the actual request" },
+        dislikes = { "Alliance encroachment near Tarren Mill", "A grand claim with no work beneath it", "A title settled before he has objected" },
+        gossip = "Christoph and a friend keep disputing the title of a cookbook he has not written. Neither considers this a reason to stop arguing.",
+        bio = "Christoph Jeffcoat sells trade goods in Tarren Mill. Proud of his turtle bisque, he once hunted snapjaws at Lake Lordamere himself. Work now keeps him busy, so he asks others to bring the ingredients and offers to share his method.",
+        backstory = "A friend proposed a grand title for his imaginary cookbook. Christoph objected that the title promised rather more than a bowl of bisque. Then he offered a worse one. They have continued the argument without agreeing that he must actually write the book.",
+        secret = "He sometimes thinks of a new title between customers. He saves the objection that ought to follow it for his friend's next visit. A good argument should have both voices present.",
+        bestFriend = "Another title, friend. I need an objection worthy of it. You have had time to prepare; do not disappoint me with agreement.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin recognizes when his objection is an invitation to continue the joke.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are. I have another title for the cookbook I am not writing. Before you agree with it, remember that I was expecting a better argument than that.", tone = "[raspy] [amused]" }, "Welcome back. Trade goods, a question about the bisque, or an objection to the latest imaginary cover?" },
+            idle = { { "My friend proposed an extravagant title. I said it promised too much for a bowl of bisque. Then I supplied a worse one. We have not agreed to write the book, but the cover has occupied several satisfactory arguments.", tone = "[dry] [chuckling]" }, "I used to hunt the snapjaws myself. Work here has a way of turning an afternoon at the lake into something one keeps intending to arrange.", "A grand name does not supply the ingredients. That observation has done very little to discourage our debate about the cookbook." },
+            befriended = { { "Come along, friend. I have been saving an objection for your next visit. There is little satisfaction in winning the entire argument alone between customers.", tone = "[wry] [pleased]" } },
+            poke = { "Yes? If you are about to suggest another title, give me a moment to prepare the appropriate objection.", "A moment. I am deciding whether that claim belongs on the cover or should be reserved for a particularly gullible customer." },
+            loot = { { "Look at what you actually brought before describing what you hoped to find. A fine claim cannot supply a missing ingredient. I have enough extravagant promises waiting on our imaginary cover.", tone = "[gravelly] [practical]" } },
+            bagsFull = { "Check the actual space before asking for another parcel. An intention to fit everything in is not quite the same as room for it." },
+            quest = { "Hear the request properly. A secret recipe becomes less impressive when the person sent for the ingredients returns with an explanation instead." },
+            newFriend = { "Let them state what they came for. I can supply a grander description afterward if the occasion appears to demand one." },
+            rest = { "A pause. You may propose the next title, provided you leave me something worth disputing." },
+            thanked = { "You are welcome. I am glad the useful part survived whatever extravagant account you intend to give of it." },
+            group = { "Agree on what you are doing before composing the grand account. A title can accommodate several opinions more easily than a task can." },
+        },
+    },
+
     -- Prospector Whelgar, Explorers League, Wetlands excavation, adult older Dwarf male1399/M2 878772, Alliance Friendly normal. Full current299/98216/98310/98313 and95810/98824 chains reviewed including progress/completions. Lamp-helper credit original; no completed prophecy or later retail retreat.
     -- Research: docs/research/whelgars-credit-and-breyks-destination.md
     [1077] = {

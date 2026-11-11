@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Vela El’wyth and Christoph Jeffcoat: full Skyborne and Forsaken profiles, thirty personal lines queued.
+- Expand Horde island and Hillsbrad coverage; preserve the bisque quest’s dark humor and faction attitude.
+
 - Add Prospector Whelgar and Breyk: full Dwarf and Orc profiles, thirty personal lines queued.
 - Research both added Forever archaeology chains and preserve Breyk’s elite friendship thresholds at Stonard.
 

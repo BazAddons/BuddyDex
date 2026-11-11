@@ -5138,5 +5138,19 @@
     "zone": "Swamp of Sorrows",
     "source": "Reviewed adult horde identity; Native destination question and current flight service; original dry-socks journey joke; no Scout sighting claimed",
     "research_notes": "docs/research/whelgars-credit-and-breyks-destination.md"
+  },
+  {
+    "npc_id": 277067,
+    "name": "Vela El'wyth",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult horde identity; Adult Skyborne female, no personal quest/dialogue found; original spoiled wordless clue; no Scout sighting claimed",
+    "research_notes": "docs/research/velas-clue-and-christophs-title.md"
+  },
+  {
+    "npc_id": 2393,
+    "name": "Christoph Jeffcoat",
+    "zone": "Hillsbrad Foothills",
+    "source": "Reviewed adult horde identity; Full7321 and current stock/native greeting; original imaginary cookbook-title argument; no Scout sighting claimed",
+    "research_notes": "docs/research/velas-clue-and-christophs-title.md"
   }
 ]

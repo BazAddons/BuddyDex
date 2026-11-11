@@ -5,20 +5,20 @@
   "faction_counts": {
     "alliance": 407,
     "unverified": 183,
-    "horde": 401
+    "horde": 403
   },
   "npc_race_counts": {
     "1": 168,
     "3": 97,
     "7": 62,
     "2": 104,
-    "5": 102,
+    "5": 103,
     "4": 92,
     "9": 67,
     "8": 61,
     "6": 104,
     "96": 28,
-    "95": 54
+    "95": 55
   },
   "zone_counts": {
     "Elwynn Forest": 29,
@@ -36,7 +36,7 @@
     "Undercity": 23,
     "Silverpine Forest": 9,
     "Teldrassil": 31,
-    "Hillsbrad Foothills": 13,
+    "Hillsbrad Foothills": 14,
     "Arathi Highlands": 11,
     "Orgrimmar": 62,
     "Badlands": 1,
@@ -61,7 +61,7 @@
     "Moonglade": 2,
     "Deeprun Tram": 3,
     "Alterac Mountains": 1,
-    "Zephras Isle": 79,
+    "Zephras Isle": 80,
     "Riverglades": 14
   },
   "entries": [
@@ -2795,6 +2795,19 @@
       ],
       "reaction_evidence": "Current Horde Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2392"
+    },
+    {
+      "npc_id": 2393,
+      "name": "Christoph Jeffcoat",
+      "zone": "Hillsbrad Foothills",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2393"
     },
     {
       "npc_id": 2397,
@@ -12036,6 +12049,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277059"
     },
     {
+      "npc_id": 277067,
+      "name": "Vela El'wyth",
+      "zone": "Zephras Isle",
+      "race_ids": [
+        95
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277067"
+    },
+    {
       "npc_id": 277689,
       "name": "Drake Ekans",
       "zone": "Dun Morogh",
@@ -12060,6 +12086,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 939,
-  "awaiting_signature_audio_profiles": 485
+  "authored_profiles": 941,
+  "awaiting_signature_audio_profiles": 487
 }

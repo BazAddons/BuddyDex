@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 939,
-  "written_complete_count": 939,
-  "awaiting_signature_audio_count": 485,
+  "authored_count": 941,
+  "written_complete_count": 941,
+  "awaiting_signature_audio_count": 487,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 487,
+  "remaining_count": 489,
   "completed": [
     {
       "npc_id": 54,
@@ -2144,6 +2144,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "forsaken-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 2393,
+      "name": "Christoph Jeffcoat",
+      "zone": "Hillsbrad Foothills",
+      "source": "Reviewed adult horde identity; Full7321 and current stock/native greeting; original imaginary cookbook-title argument; no Scout sighting claimed",
+      "research_notes": "docs/research/velas-clue-and-christophs-title.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-male",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
@@ -10111,6 +10123,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "troll-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 277067,
+      "name": "Vela El'wyth",
+      "zone": "Zephras Isle",
+      "source": "Reviewed adult horde identity; Adult Skyborne female, no personal quest/dialogue found; original spoiled wordless clue; no Scout sighting claimed",
+      "research_notes": "docs/research/velas-clue-and-christophs-title.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "skyborne-female",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
