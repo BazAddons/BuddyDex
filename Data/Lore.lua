@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Kayneth Stillwind, Forest Song Ashenvale Druid, adult Night Elf male4170/M2 974343, Alliance Friendly. Full4581/1011/1012 plus939/4441/4442/4261 spirit branch, own balance greeting. Brief rain report original; no universal prophecy, cured Felwood, current player quest credit or later retail death.
+    -- Research: docs/research/kayneths-report-and-manslayers-salute.md
+    [3848] = {
+        quote = "A report of rain can be brief. Wet will do if you are standing in it. We can discuss the finer details after finding somewhere dry.",
+        likes = { "Observations made before alarming theories", "Reports Shindrell has prepared with care", "An ordinary rain described without drama" },
+        dislikes = { "Forsaken poisons near the Dor'danil Barrows", "The suffering of victims treated as trivial", "Every passing shower treated as an omen" },
+        gossip = "Kayneth reduced a very careful report of rain to one word. He suggested discussing the finer points somewhere dry.",
+        bio = "Kayneth Stillwind is a druid at Forest Song in Ashenvale. He studies reports and Forsaken disease, grieves for the poisoned Dor'danil druids and receives news of an ancient spirit helped out of Felwood.",
+        backstory = "A friend began a remarkably formal account of the rain while both stood in it. Kayneth listened, then proposed a shorter report: wet. They could discuss the finer points under cover. He was pleased that the suggestion made them laugh.",
+        secret = "Real visions and the suffering behind them leave much to consider. He can still enjoy an ordinary observation that asks for no revelation, only a dry place to stand with a friend.",
+        bestFriend = "Come along, friend. Tell me what you have noticed. If the report concerns rain, we may consider its subtleties from under cover.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing grin can appreciate his dry answer without mistaking it for indifference.",
+        },
+        recordingVoice = "nightelf-male",
+        lines = {
+            greet = { { "There you are, friend. Have you brought a report? If it concerns the rain, wet remains a useful beginning. I will listen to the subtleties once we have found somewhere dry. Not every ordinary observation needs the weight of an approaching revelation.", tone = "[measured] [wry]" }, "Welcome back. Tell me what you have actually seen, friend. There will be time to consider what it may mean." },
+            idle = { { "They began a very careful account of the rain while we were both standing in it. I suggested a shorter report. Wet. The finer points could wait until we found cover. I was glad the suggestion made them laugh. Some observations may remain ordinary.", tone = "[dry] [amused]" }, "A fear of corruption deserves attention, but attention is not the same thing as declaring every suspicion proved. Shindrell's observations give me something worth examining.", "The spirits in the barrows were victims before their anguish became a danger to others. Grim work does not excuse forgetting why it was necessary." },
+            befriended = { { "You can bring me the difficult observation and still share an ordinary moment afterward. I value that, friend. Come along. We need not pretend the suffering has vanished in order to notice something simple, or to enjoy a dry answer about being thoroughly wet.", tone = "[gentle] [warm]" } },
+            poke = { "Yes, friend? Give the observation before the conclusion, if you can.", "A moment. I am considering whether this requires an explanation or simply a place out of the rain." },
+            quest = { { "Look carefully at what supports the report. If suffering calls for difficult action, remember the people behind it. The poisoned druids were victims. We must not let the grimness of what is required make us careless about why we undertake it.", tone = "[grave] [resolute]" } },
+            mail = { "Read what the observer has actually written before adding the explanation you expected to find. A careful report deserves a careful reader." },
+            rest = { "A quiet pause. There may be something to appreciate here without needing to interpret every sound." },
+            newFriend = { "Hear their account before deciding what you already know about it. The detail you would have hurried past may matter most." },
+            thanked = { "You are welcome. I am glad the care was useful. Not every useful answer needs to sound like a revelation." },
+            group = { "Be clear about what you have seen and what remains uncertain. Others should not have to guess which part of the report they can rely upon." },
+            zone = { "Here we are. Look with care before deciding the place has already confirmed every fear you brought into it." },
+        },
+    },
+
+    -- Scout Manslayer, Orgrimmar named scout, adult Orc female14414/M2 949470, Horde Friendly elite. Current identity/location, Classic no personal quest and public scout reference; no own captured speech. Brief salute then ordinary conversation original; no generic-guard bypass, clan/backstory inference or later events.
+    -- Research: docs/research/kayneths-report-and-manslayers-salute.md
+    [14376] = {
+        quote = "A salute, then tell me how you are. That is enough ceremony between friends. You need not turn the whole conversation into an inspection merely because I am standing straight.",
+        likes = { "Clear reports and alert company", "A brief salute followed by a smile", "Time with someone who remembers her name" },
+        dislikes = { "Every ordinary question treated as a test", "Respect confused with never relaxing", "Attention demanded at a poor moment" },
+        gossip = "A friend saluted before every answer. Manslayer returned the first salute, then asked how they were. The conversation improved.",
+        bio = "Scout Manslayer is an orc scout in Orgrimmar. Her bearing may invite a formal greeting, but in familiar company she prefers the salute to be a beginning rather than the entire conversation.",
+        backstory = "During a quiet visit, a friend stood as though every answer would be judged. Manslayer returned the first salute, then asked how they were. She was pleased when they finally answered as a person speaking to a friend rather than reporting for inspection.",
+        secret = "She likes a gesture of respect without wanting a friend to spend the whole visit proving it. A relaxed smile afterward leaves room for something beyond the duty.",
+        bestFriend = "There you are, friend. A salute is welcome. So is hearing how you are without making you stand straighter to explain it.",
+        favorite = {
+            emote = "SALUTE",
+            hint = "She appreciates a brief, sincere salute that leaves room for a friendly conversation afterward.",
+        },
+        recordingVoice = "orc-female",
+        lines = {
+            greet = { { "There you are, friend. A salute, then tell me how you are. We need not turn the entire visit into an inspection. I can appreciate a gesture of respect without requiring you to stand straighter every time I ask an ordinary question.", tone = "[firm] [warm]" }, "Good to see you. Choose a moment when I can listen, then give me the answer you intended. A formal introduction is not required every time." },
+            idle = { { "They stood as though every answer might be judged. I returned the first salute, then asked how they were. Eventually they answered like a friend instead of someone reporting for inspection. I thought the conversation improved considerably after that.", tone = "[dry] [fond]" }, "A clear report is useful. So is knowing when the person beside you has simply asked a question because they would like to hear you speak.", "Respect does not disappear because someone relaxes after the greeting. I would rather recognize it in their conduct than ask them to perform it without pause." },
+            befriended = { { "You have learned that I can take the duty seriously and still be glad to see a familiar face. I appreciate that, friend. Come along. Keep the salute if you like it, then leave room to tell me something about yourself that does not sound like a report.", tone = "[gruff] [sincere]" } },
+            poke = { "Yes, friend? Speak plainly. There is no inspection hidden in the question.", "A moment. Attention is easier to give properly when the other person allows you time to turn toward them." },
+            group = { { "Say clearly who needs to hear the report and what they need to know. Leave room for the answer. Good attention is not a contest to see who can stand most impressively while everyone else waits to discover what was actually meant.", tone = "[steady] [commanding]" } },
+            rest = { "A pause. You may let the formal bearing rest for a moment as well; I still know who I am speaking with." },
+            newFriend = { "Learn their name and how they prefer to be greeted. A role tells you something useful, but it is not the whole person." },
+            thanked = { "You are welcome. A plain thanks will do. You need not begin a second ceremony to convince me that you meant the first." },
+            saluteBack = { "Salute received, friend. Now tell me how you are. There is room for both parts of the greeting." },
+            zone = { "Here we are. Look around before deciding the first impression is the whole account of the place." },
+            combatEnd = { "Take a moment to look after one another. There will be time to decide how impressive the account should sound after everyone has been heard." },
+        },
+    },
+
     -- Innkeeper Helbrek, Deepwater Tavern Menethil Wetlands, adult Dwarf male3479/M2 878772, Alliance Friendly. Native hearty stories/drinks greeting and13 current goods, no own quest chain. Recognized laugh before grand title original; no Cataclysm flooding, free lodging or altered hearth.
     -- Research: docs/research/helbreks-welcome-and-miriaans-grin.md
     [1464] = {

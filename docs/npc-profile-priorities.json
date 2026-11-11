@@ -4711,6 +4711,20 @@
       "zone": "Zephras Isle",
       "route": "Shendar rogue trainer",
       "reason": "Two playful fee-bearing greetings and112 lessons; original early grin during coin trick; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3848,
+      "name": "Kayneth Stillwind",
+      "zone": "Ashenvale",
+      "route": "Forest Song druid and corruption research",
+      "reason": "Full report/disease/druid and purified-flute/spirit branches; original brief rain report; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 14376,
+      "name": "Scout Manslayer",
+      "zone": "Orgrimmar",
+      "route": "Named elite orc scout",
+      "reason": "Current adult female identity and scout reference; original brief salute and ordinary conversation; fifteen personal lines queued without synthesis"
     }
   ]
 }

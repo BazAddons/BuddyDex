@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Kayneth Stillwind and Scout Manslayer: full Night Elf and Orc profiles, thirty personal lines queued.
+- Follow corruption and ancient-spirit quest chains; preserve named-scout eligibility and elite friendship scaling.
+
 - Add Innkeeper Helbrek and Miriaan Mistblade: full Wetlands and Skyborne profiles, thirty personal lines queued.
 - Expand Menethil and both-faction Shen'dar coverage with researched hospitality and rogue-training dialogue.
 

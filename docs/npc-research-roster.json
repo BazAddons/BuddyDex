@@ -5040,5 +5040,19 @@
     "zone": "Zephras Isle",
     "source": "Reviewed adult alliance+horde identity; Two playful fee-bearing greetings and112 lessons; original early grin during coin trick; no Scout sighting claimed",
     "research_notes": "docs/research/helbreks-welcome-and-miriaans-grin.md"
+  },
+  {
+    "npc_id": 3848,
+    "name": "Kayneth Stillwind",
+    "zone": "Ashenvale",
+    "source": "Reviewed adult alliance identity; Full report/disease/druid and purified-flute/spirit branches; original brief rain report; no Scout sighting claimed",
+    "research_notes": "docs/research/kayneths-report-and-manslayers-salute.md"
+  },
+  {
+    "npc_id": 14376,
+    "name": "Scout Manslayer",
+    "zone": "Orgrimmar",
+    "source": "Reviewed adult horde identity; Current adult female identity and scout reference; original brief salute and ordinary conversation; no Scout sighting claimed",
+    "research_notes": "docs/research/kayneths-report-and-manslayers-salute.md"
   }
 ]

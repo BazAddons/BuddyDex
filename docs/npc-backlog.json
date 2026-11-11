@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 925,
-  "written_complete_count": 925,
-  "awaiting_signature_audio_count": 471,
+  "authored_count": 927,
+  "written_complete_count": 927,
+  "awaiting_signature_audio_count": 473,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 473,
+  "remaining_count": 475,
   "completed": [
     {
       "npc_id": 54,
@@ -4303,6 +4303,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 3848,
+      "name": "Kayneth Stillwind",
+      "zone": "Ashenvale",
+      "source": "Reviewed adult alliance identity; Full report/disease/druid and purified-flute/spirit branches; original brief rain report; no Scout sighting claimed",
+      "research_notes": "docs/research/kayneths-report-and-manslayers-salute.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "nightelf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3881,
       "name": "Grimtak",
       "zone": "Durotar",
@@ -8001,6 +8013,18 @@
       "written_lines": 15,
       "personal_recordings": 4,
       "status": "complete"
+    },
+    {
+      "npc_id": 14376,
+      "name": "Scout Manslayer",
+      "zone": "Orgrimmar",
+      "source": "Reviewed adult horde identity; Current adult female identity and scout reference; original brief salute and ordinary conversation; no Scout sighting claimed",
+      "research_notes": "docs/research/kayneths-report-and-manslayers-salute.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "orc-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
       "npc_id": 14394,
