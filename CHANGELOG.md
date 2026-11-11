@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Drake Ekans and Baron Revilgaz, expanding Gnome and Goblin profiles with thirty personal lines queued.
+- Keep Drake's undocumented job and exact location unknown; preserve the Baron's sponsorship and artifact interests while separating original friendship scenes from canon and native rewards.
+
 - Add Glorin Steelbrow and Krusk, expanding Wetlands and Hillsbrad profiles with thirty personal lines queued.
 - Preserve the priest's specialist referrals and the warrior's rescue mission and loyalty; distinguish original table repair and farewell cord from artifacts and native quest outcomes.
 

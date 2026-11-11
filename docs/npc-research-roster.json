@@ -4732,5 +4732,19 @@
     "zone": "Hillsbrad Foothills",
     "source": "Reviewed adult horde man; Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; no Scout sighting claimed",
     "research_notes": "docs/research/glorins-table-and-krusks-cord.md"
+  },
+  {
+    "npc_id": 277689,
+    "name": "Drake Ekans",
+    "zone": "Dun Morogh",
+    "source": "Reviewed adult alliance man; Current named adult model and Friendly reaction, no known job/quest; original chair-creak imitation; no Scout sighting claimed",
+    "research_notes": "docs/research/drakes-creak-and-revilgazs-proposal.md"
+  },
+  {
+    "npc_id": 2496,
+    "name": "Baron Revilgaz",
+    "zone": "Stranglethorn Vale",
+    "source": "Reviewed adult horde man; Full Sponsorship/Tides, Saltseer context and own greeting; original compliment-without-proposal challenge; no Scout sighting claimed",
+    "research_notes": "docs/research/drakes-creak-and-revilgazs-proposal.md"
   }
 ]

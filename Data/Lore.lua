@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Drake Ekans277689. Current adult Gnome male148996/M2 900914, Alliance Friendly; Dun Morogh world-map projection only, exact address/job unconfirmed. All related tabs empty/no own gossip. Mobile chair-creak imitation and all personal history original; no invented occupation or engineering role.
+    -- Research: docs/research/drakes-creak-and-revilgazs-proposal.md
+    [277689] = {
+        quote = "That creak? An entirely ordinary chair. No, I couldn't explain why it followed me when I stood up. Perhaps it enjoys the company. Oh, very well. It was me.",
+        likes = { "A harmless mystery followed by laughter", "A friend trying the silly sound too", "An innocent expression almost maintained" },
+        dislikes = { "A joke that leaves someone hurt", "A clever performance that belittles a friend", "A good imitation spoiled by early giggling" },
+        gossip = "The creak Drake blamed on a chair followed him when he stood up. The chair was innocent. His grin was considerably less so.",
+        bio = "Drake Ekans is a gnome who enjoys turning an ordinary sound into a harmless little mystery. His innocent expression seldom lasts beyond the moment a companion starts wondering why the chair seems to be following him.",
+        backstory = "A friend's chair creaked. They stood to inspect it; the sound moved with Drake instead. His innocent look lasted until he laughed and admitted the imitation. The friend tried it too, with considerably less convincing results.",
+        secret = "He prefers the moment a friend joins the joke to the moment they are fooled. Sharing a dreadful imitation is better than remaining the cleverest person.",
+        bestFriend = "There you are, friend. Shall we blame the chair again, or have you brought a new noise for our very respectable performance?",
+        favorite = {
+            emote = "GRIN",
+            hint = "A knowing smile tells him you have spotted the trick and are willing to share the joke.",
+        },
+        recordingVoice = "male",
+        lines = {
+            greet = { { "There you are, friend. Before you choose a seat, I should warn you that one of the chairs has developed a remarkably mobile creak. It followed me all the way over here. An innocent coincidence, surely.", tone = "[bright] [mischievous]" }, "Welcome back. Have you brought a good story, or a noise that deserves an entirely unreasonable explanation?" },
+            idle = { { "The chair creaked, so my friend stood to inspect it. Then the creak followed me. I maintained an innocent expression for almost an entire moment before laughing. We spent the next little while attempting it together.", tone = "[playful] [amused]" }, "The best part is when someone knows perfectly well what you're doing and joins in anyway. You can both be terrible at the sound and still have an excellent afternoon.", "A harmless mystery ought to end with everyone allowed to laugh. If one person is left feeling small, it has wandered away from the sort of joke I enjoy." },
+            befriended = { { "You've become someone who can spot the trick and make the next attempt even more ridiculous. Come along, friend. I would rather share the performance than spend the afternoon being the only person who knows the answer.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? If you're asking about the creak, I intend to look innocent for at least another breath.", "I'm listening. Unless that was your imitation, in which case I have questions about the creature you were attempting." },
+            sitToo = { { "An excellent seat. If it creaks, we should conduct a careful investigation before accusing the furniture. I understand there is a very plausible suspect nearby, though he has a most reassuring expression.", tone = "[deadpan] [playful]" } },
+            rest = { "A pause would suit me. Maintaining this degree of innocence is surprisingly tiring." },
+            group = { "Make room for the person with the worst imitation. They may be about to make the whole afternoon worthwhile." },
+            newFriend = { "Give them a proper welcome before you attempt the mysterious noise. It helps if they know we're friendly first." },
+            laughAlong = { "There we are. Now that you know, I expect an equally dreadful attempt from you." },
+            thanked = { "You're welcome. I'm glad the company did you some good." },
+            hearth = { "Homeward, then. If the chair starts creaking after I've gone, I shall finally be entitled to look genuinely innocent." },
+        },
+    },
+
+    -- Baron Revilgaz, Booty Bay/Stranglethorn. Adult Goblin male7167/M2 119376, current Horde Friendly. Full Sponsorship/Tides branches and Krazek Saltseer context; own Steamwheedle/bouncers greeting. Compliment-without-proposal challenge original, no contract or native reward. Later Blackwater Trade Prince era excluded.
+    -- Research: docs/research/drakes-creak-and-revilgazs-proposal.md
+    [2496] = {
+        quote = "A quiet port, a winning racer, a promising relic. Plenty to appreciate, partner. And if you've come with a compliment, try to deliver it before I turn it into a proposal.",
+        likes = { "His sponsorship beside a winning racer", "Ancient relics worth adding to a collection", "A friend who notices the second sales pitch" },
+        dislikes = { "Bloodsail threats to his port", "An advantage handed to the competition", "A rival eyeing his position" },
+        gossip = "Revilgaz nearly accepted a friend's compliment without proposing a deal. Caught adding an opportunity, he demanded credit for trying.",
+        bio = "Baron Revilgaz runs Booty Bay for the Steamwheedle Cartel. He sponsors goblin racers and pursues ancient artifacts, turning rumors into opportunities. A peaceful port suits him, provided its visitors can still be useful.",
+        backstory = "A friend offered a compliment on the condition he answer without a proposal. Revilgaz thanked them, paused, and began discussing an opportunity. Caught, he declared that the pause itself showed excellent progress.",
+        secret = "He enjoys a friend who recognizes the pitch quickly enough to tease him about it. Some company improves an afternoon without requiring a signed agreement.",
+        bestFriend = "Stay a minute, partner. No agreement required. You may mark that down as progress, provided you don't attempt to charge me for it.",
+        favorite = {
+            emote = "WINK",
+            hint = "A conspiratorial glance suits someone who knows you noticed the proposal hiding inside his polite reply.",
+        },
+        recordingVoice = "goblin-male",
+        lines = {
+            greet = { { "There you are, partner. Good. I was about to turn an entirely pleasant greeting into an opportunity, and you're just the person to notice before I get to the terms. Come stand beside me; I enjoy an attentive audience.", tone = "[confident] [wry]" }, "Welcome back. I trust the visit will be peaceful and worth your while. Preferably worth mine as well." },
+            idle = { { "A friend challenged me to accept a compliment without proposing a deal. I thanked them. I paused. Then I mentioned an opportunity. They caught it, naturally. Still, that pause represented excellent progress, and I expected it to be recognized.", tone = "[dry] [amused]" }, "Sponsoring a racer is more satisfying when the news includes a new record. I do appreciate a promising investment that remembers to become a result.", "A rumor about an ancient relic can be worth attention. So can knowing which expert will tell you whether the marvelous thing is about to become your personal curse." },
+            befriended = { { "You notice the second proposal before I've finished disguising it as a pleasant remark. I find that useful, and rather entertaining. Come along, partner. We need not draw up terms for every agreeable afternoon.", tone = "[warm] [self-assured]" } },
+            poke = { "Yes, partner? If you've brought a compliment, I'll make another attempt at the uncomplicated response.", "I'm listening. Begin with the interesting part, and leave the unnecessary complications with somebody else." },
+            quest = { { "Give me the useful report: what you found, what it can do, and what complications come attached. An impressive name is no substitute for knowing what sort of opportunity we actually have in hand.", tone = "[brisk] [businesslike]" } },
+            loot = { "Interesting. Examine it properly before deciding whether it belongs in a collection or safely away from everybody's pockets." },
+            gear = { "Know what you're buying before you admire the presentation. An elaborate description is not a substitute for a useful advantage." },
+            rest = { "A quiet pause. An attractive prospect, provided nobody mistakes it for an invitation to take my place." },
+            thanked = { "You're welcome, partner. There. A perfectly satisfactory answer, and almost no proposal attached." },
+            group = { "Find out what everyone contributes before making promises on behalf of the company. A partnership improves when its advantages are understood." },
+            newFriend = { "Make the introduction civil. A peaceful first meeting leaves considerably more room for profitable possibilities." },
+        },
+    },
+
     -- Glorin Steelbrow, Menethil Harbor/Wetlands priest. Adult Dwarf male3460/M2 878772, Alliance Friendly. Full Lightforge and Paleth branches: colleague Farthing, smith Grimand, cleansing referred to Benedictus. Folded-cloth table repair original; no quest artifact or divine benefit granted.
     -- Research: docs/research/glorins-table-and-krusks-cord.md
     [1217] = {

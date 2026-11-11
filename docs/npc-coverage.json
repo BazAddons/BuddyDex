@@ -3,19 +3,19 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 381,
+    "alliance": 382,
     "unverified": 181,
-    "horde": 367
+    "horde": 368
   },
   "npc_race_counts": {
     "1": 168,
     "3": 84,
-    "7": 61,
+    "7": 62,
     "2": 95,
     "5": 94,
     "4": 81,
+    "9": 66,
     "8": 61,
-    "9": 65,
     "6": 97,
     "96": 28,
     "95": 47
@@ -28,10 +28,10 @@
     "Redridge Mountains": 24,
     "Loch Modan": 5,
     "Duskwood": 4,
-    "Dun Morogh": 24,
+    "Dun Morogh": 25,
     "Wetlands": 10,
     "Ironforge": 62,
-    "Stranglethorn Vale": 7,
+    "Stranglethorn Vale": 8,
     "Tirisfal Glades": 52,
     "Undercity": 21,
     "Silverpine Forest": 9,
@@ -2688,6 +2688,19 @@
       ],
       "reaction_evidence": "Friendly",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2461"
+    },
+    {
+      "npc_id": 2496,
+      "name": "Baron Revilgaz",
+      "zone": "Stranglethorn Vale",
+      "race_ids": [
+        9
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2496"
     },
     {
       "npc_id": 2695,
@@ -11294,6 +11307,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277059"
     },
     {
+      "npc_id": 277689,
+      "name": "Drake Ekans",
+      "zone": "Dun Morogh",
+      "race_ids": [
+        7
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277689"
+    },
+    {
       "npc_id": 277721,
       "name": "Krazore",
       "zone": "Stormwind City",
@@ -11305,6 +11331,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 881,
-  "awaiting_signature_audio_profiles": 427
+  "authored_profiles": 883,
+  "awaiting_signature_audio_profiles": 429
 }

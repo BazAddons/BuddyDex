@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Drake Ekans and Baron Revilgaz, expanding Gnome and Goblin profiles with thirty personal lines queued.
+- Keep Drake's undocumented job and exact location unknown; preserve the Baron's sponsorship and artifact interests while separating original friendship scenes from canon and native rewards.
+
 - Add Glorin Steelbrow and Krusk, expanding Wetlands and Hillsbrad profiles with thirty personal lines queued.
 - Preserve the priest's specialist referrals and the warrior's rescue mission and loyalty; distinguish original table repair and farewell cord from artifacts and native quest outcomes.
 
@@ -622,4 +625,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **881 fully written NPC profiles**: 454 have initial signature recordings, and four hundred twenty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **883 fully written NPC profiles**: 454 have initial signature recordings, and four hundred twenty-nine new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

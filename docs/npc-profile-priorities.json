@@ -4403,6 +4403,20 @@
       "zone": "Hillsbrad Foothills",
       "route": "Tarren Mill rescue and Syndicate mission",
       "reason": "Full498 and533/503/506/507/508, missive and Thrall loyalty; original farewell cord; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 277689,
+      "name": "Drake Ekans",
+      "zone": "Dun Morogh",
+      "route": "World-map projection, exact address unverified",
+      "reason": "Current named adult model and Friendly reaction, no known job/quest; original chair-creak imitation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2496,
+      "name": "Baron Revilgaz",
+      "zone": "Stranglethorn Vale",
+      "route": "Booty Bay sponsorship and artifact collection",
+      "reason": "Full Sponsorship/Tides, Saltseer context and own greeting; original compliment-without-proposal challenge; fifteen personal lines queued without synthesis"
     }
   ]
 }
