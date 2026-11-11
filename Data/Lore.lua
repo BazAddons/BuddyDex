@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Jorin Croge, Bandarion Keep supply organizer, adult Forsaken male129988/M2 959310, Horde Friendly normal. Native Light/quartermaster-like dialogue and full91316/keep-introduction context reviewed. Contrasting coat patch original; no official quartermaster rank, body treatment, free supplies or completed restoration.
+    -- Research: docs/research/jorins-patch-and-talaanis-doorstep.md
+    [246393] = {
+        quote = "The patch does not match. The coat is mended. I can regret the first without overlooking the second, particularly when the person wearing it seems pleased with what we managed.",
+        likes = { "Scant materials put to proper use", "A repair valued by the person needing it", "Faith expressed through useful care" },
+        dislikes = { "Supplies wasted to conceal an imperfect match", "A need dismissed because it is ordinary", "Being told the Forsaken must become monsters" },
+        gossip = "Jorin apologized for a patch of the wrong color. His friend said it made their coat easier to recognize. He has stopped apologizing twice.",
+        bio = "Jorin Croge helps provision Bandarion Keep and distribute its scarce supplies. Far from Undercity, even building materials are difficult to obtain. He believes the Light is still needed and that the Forsaken need not become the monsters others expect.",
+        backstory = "He found a sound patch for a friend's coat, but the color was wrong. Jorin apologized. His friend said they could now recognize the coat from farther away. He considered that, then let himself be pleased that the repair had served its purpose.",
+        secret = "He still notices the mismatch. He also remembers that his friend was pleased. It is useful to be reminded that the person receiving the care has an opinion worth hearing.",
+        bestFriend = "There you are, friend. I would know that patch anywhere. Come beside me; you may tell me what has held up well and what needs another look.",
+        favorite = {
+            emote = "THANK",
+            hint = "A simple thank-you helps him value the care that worked even when the materials could not be a perfect match.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "There you are, friend. I would recognize that patch from a distance now. Tell me how the coat has held up before I begin regretting its color again.", tone = "[raspy] [warm]" }, "Welcome back. Something needing attention, or a little company? We can begin with what you actually came to ask." },
+            idle = { { "I apologized for the color. My friend said it made the coat easier to recognize. I still notice the mismatch. I also notice that the person wearing it was pleased. Both facts deserve a place in the account.", tone = "[dry] [reflective]" }, "A shortage does not make the need disappear. We must consider what we can use well, and be honest about what is still missing.", "The world has changed. That does not decide every choice we make within it. I would rather put our care into useful work than accept that we must become what others fear." },
+            befriended = { { "Come beside me, friend. You reminded me to hear the person receiving the care, instead of only the apology I had prepared for its imperfections.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? Tell me which part needs another look.", "A moment. I am considering what we can do with what we actually have." },
+            quest = { { "Bring back materials we can use, and tell us what you found. Restoring this place asks for many ordinary tasks done carefully. An impressive account will not mend a wall by itself.", tone = "[firm] [practical]" } },
+            gear = { "Notice whether the repair serves the wearer. A poor match is visible, certainly, but it is not the only thing the work was meant to answer." },
+            bagsFull = { "Leave room for the things still needed. Carrying more than you can manage does little for the people waiting for it to arrive." },
+            newFriend = { "Ask what they need before deciding how to help. A useful beginning may be simpler than the one you prepared." },
+            rest = { "A little time without another request. I appreciate the company, friend." },
+            thanked = { "You are welcome. I am glad it helped. I shall try to hear that part before apologizing for what could not be perfect." },
+            group = { "Make certain the scant supplies reach the people who need them. The loudest request is not always the most urgent one." },
+        },
+    },
+
+    -- Talaanis Shadowsong, High Elder in Valanaar, adult Skyborne male137873/M2 7478487, packed95:0, both Friendly normal. Nephew/signet grief, cult investigation and both expedition branches reviewed. Curiosity about an ordinary worn doorstep original; no Night Elf Shadowsong kinship, guaranteed island safety or personal move to Azeroth.
+    -- Research: docs/research/jorins-patch-and-talaanis-doorstep.md
+    [252476] = {
+        quote = "Tell me about the doorstep. The one worn smooth by people coming home. I have heard of the great wonders; I would also like to know what an ordinary welcome looks like there.",
+        likes = { "Help offered across old divisions", "An honest account of an unfamiliar home", "Room for celebration beside uncertainty" },
+        dislikes = { "False certainty about an unknown danger", "People reduced to the losses they carry", "A useful chance refused out of pride" },
+        gossip = "Talaanis asked a traveler about an ordinary doorstep. He had questions long after the account of grander wonders had ended.",
+        bio = "Talaanis Shadowsong is High Elder of Zephras Isle. In Valanaar he faces the cult crisis and the grief of his nephew's death. He supports both expeditions seeking a future for their home, without pretending that its dangers have been settled.",
+        backstory = "A friend described an old doorstep worn smooth by people coming home. Talaanis asked how it looked, where the marks lay, and who waited beyond it. The traveler offered a grander tale instead. He asked to hear the ordinary part a little longer.",
+        secret = "Such details let him imagine a future as more than escape from danger. He wants to picture people living in it, with familiar paths and someone glad to see them return.",
+        bestFriend = "Stay a moment, friend. Begin wherever you please. I may have questions about the smallest part of the account; I enjoy hearing it from you.",
+        favorite = {
+            emote = "NOD",
+            hint = "A thoughtful nod leaves room for both his questions and the uncertainty he refuses to disguise.",
+        },
+        recordingVoice = "skyborne-male",
+        lines = {
+            greet = { { "Welcome back, friend. Have you another account of somewhere unfamiliar? I should like to hear the ordinary parts as well as the wonders.", tone = "[measured] [warm]" }, "There you are. Sit a moment, if you have the time. Not every meeting must begin with the gravest matter awaiting us." },
+            idle = { { "The traveler described a doorstep worn smooth by people coming home. I wanted to hear more. They offered a grander wonder instead. I asked to stay with the doorstep a little longer.", tone = "[reflective] [gentle]" }, "Hope is not improved by pretending we know when a danger will arrive. We may work toward a future while being honest about what remains uncertain.", "An unfamiliar home is more than the name of its great city. I would like to hear where people pause, whom they greet, and what tells them they have arrived." },
+            befriended = { { "Come beside me, friend. I value the time in which we can hear one another without turning every question into a decision that must be reached at once.", tone = "[steady] [sincere]" } },
+            poke = { "Yes, friend? I had another question about that small part of the account.", "A moment. I would rather consider the uncertainty than give you an answer made confident merely for the sound of it." },
+            quest = { { "Learn what you can, and tell us plainly what you could not learn. A difficult truth may still leave room for action. An assurance without understanding can close that room before we notice what we have lost.", tone = "[serious] [deliberate]" } },
+            zone = { "Look for the ordinary lives as well as the landmarks. A place becomes easier to understand when you know what returning home means to the people living there." },
+            newFriend = { "Let them describe where they have come from. We may hear something worth understanding before deciding how it fits our expectations." },
+            comforted = { "Thank you, friend. Your company is welcome. There need be no promise that loss has become smaller before we may share this time." },
+            group = { "Hear what each person can offer. A common task may require people who have not yet learned to like every part of one another." },
+            rest = { "A pause is welcome. There is much still to consider, and something to value in the company while we consider it." },
+            thanked = { "You are welcome. I am glad the help was useful. Tell me how the next part goes when you are able." },
+        },
+    },
+
     -- Fradd Swiftgear, Wetlands Engineering Supplies, adult Gnome male3482/M2 900914, packed7:0. Current location and11 stock goods, no reaction icon or personal quests/dialogue found. Public access stays unverified; native checks decide. Knot-only gift original, not a new item/puzzle or engineering lesson.
     -- Research: docs/research/fradds-knot-and-rarer-race-review.md
     [2682] = {

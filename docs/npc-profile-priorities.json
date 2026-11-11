@@ -4851,6 +4851,20 @@
       "zone": "Wetlands",
       "route": "Reviewed external engineering-supplies merchant",
       "reason": "Current adult Gnome identity, Wetlands pin and11 goods; original knot-only gift; no current reaction icon; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 246393,
+      "name": "Jorin Croge",
+      "zone": "Tirisfal Glades",
+      "route": "Bandarion Keep supply organizer",
+      "reason": "Native Light and supply dialogue, complete repairs quest and keep introduction; original contrasting coat patch; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 252476,
+      "name": "Talaanis Shadowsong",
+      "zone": "Zephras Isle",
+      "route": "High Elder in Valanaar",
+      "reason": "Nephew signet grief, cult investigation and both departure branches; original curiosity about an ordinary doorstep; fifteen personal lines queued without synthesis"
     }
   ]
 }

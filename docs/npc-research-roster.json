@@ -5180,5 +5180,19 @@
     "zone": "Wetlands",
     "source": "Reviewed adult unverified identity; Current adult Gnome identity, Wetlands pin and11 goods; original knot-only gift; no current reaction icon; no Scout sighting claimed",
     "research_notes": "docs/research/fradds-knot-and-rarer-race-review.md"
+  },
+  {
+    "npc_id": 246393,
+    "name": "Jorin Croge",
+    "zone": "Tirisfal Glades",
+    "source": "Reviewed adult horde identity; Native Light and supply dialogue, complete repairs quest and keep introduction; original contrasting coat patch; no Scout sighting claimed",
+    "research_notes": "docs/research/jorins-patch-and-talaanis-doorstep.md"
+  },
+  {
+    "npc_id": 252476,
+    "name": "Talaanis Shadowsong",
+    "zone": "Zephras Isle",
+    "source": "Reviewed adult alliance+horde identity; Nephew signet grief, cult investigation and both departure branches; original curiosity about an ordinary doorstep; no Scout sighting claimed",
+    "research_notes": "docs/research/jorins-patch-and-talaanis-doorstep.md"
   }
 ]

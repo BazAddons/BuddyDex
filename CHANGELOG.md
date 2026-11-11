@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Jorin Croge and Talaanis Shadowsong: full Forsaken and Skyborne profiles, thirty personal lines queued.
+- Research Bandarion Keep supplies, the cult investigation, family loss and both island departure routes; retain character-specific progress and ordinary eligibility.
+
 - Add Fradd Swiftgear: a full Gnome engineering-supplies profile, fifteen personal lines queued.
 - Expand the reviewed external roster for a less represented race; keep missing public faction evidence unverified and retain live eligibility checks.
 
