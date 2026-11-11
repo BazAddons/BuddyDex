@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Eridan Bluewind and Chemist Cuely: full Night Elf and Forsaken profiles, thirty personal lines queued.
+- Research restoration, Linken and Seeping Corruption chains; preserve their distinct motives and native quest outcomes.
+
 - Add Kayneth Stillwind and Scout Manslayer: full Night Elf and Orc profiles, thirty personal lines queued.
 - Follow corruption and ancient-spirit quest chains; preserve named-scout eligibility and elite friendship scaling.
 

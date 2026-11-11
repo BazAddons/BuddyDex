@@ -5054,5 +5054,19 @@
     "zone": "Orgrimmar",
     "source": "Reviewed adult horde identity; Current adult female identity and scout reference; original brief salute and ordinary conversation; no Scout sighting claimed",
     "research_notes": "docs/research/kayneths-report-and-manslayers-salute.md"
+  },
+  {
+    "npc_id": 9116,
+    "name": "Eridan Bluewind",
+    "zone": "Felwood",
+    "source": "Reviewed adult horde identity; Full Jadefire, flute and Linken branches; original ordinary shade instead of monument; no Scout sighting claimed",
+    "research_notes": "docs/research/eridans-shade-and-cuelys-observation.md"
+  },
+  {
+    "npc_id": 8390,
+    "name": "Chemist Cuely",
+    "zone": "Undercity",
+    "source": "Reviewed adult horde identity; Full3568/3569/3570 including cruel progress; original empty-cup objection; no Scout sighting claimed",
+    "research_notes": "docs/research/eridans-shade-and-cuelys-observation.md"
   }
 ]

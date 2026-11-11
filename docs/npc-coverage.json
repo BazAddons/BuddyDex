@@ -5,15 +5,15 @@
   "faction_counts": {
     "alliance": 401,
     "unverified": 183,
-    "horde": 394
+    "horde": 396
   },
   "npc_race_counts": {
     "1": 168,
     "3": 93,
     "7": 62,
     "2": 103,
-    "5": 101,
-    "4": 90,
+    "5": 102,
+    "4": 91,
     "9": 67,
     "8": 61,
     "6": 101,
@@ -33,7 +33,7 @@
     "Ironforge": 65,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 57,
-    "Undercity": 22,
+    "Undercity": 23,
     "Silverpine Forest": 9,
     "Teldrassil": 31,
     "Hillsbrad Foothills": 13,
@@ -54,7 +54,7 @@
     "Desolace": 13,
     "Tanaris": 9,
     "Feralas": 6,
-    "Felwood": 5,
+    "Felwood": 6,
     "Un'Goro Crater": 1,
     "Winterspring": 2,
     "Moonglade": 2,
@@ -8209,6 +8209,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8385"
     },
     {
+      "npc_id": 8390,
+      "name": "Chemist Cuely",
+      "zone": "Undercity",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8390"
+    },
+    {
       "npc_id": 8404,
       "name": "Xan'tish",
       "zone": "Orgrimmar",
@@ -8411,6 +8424,19 @@
       ],
       "reaction_evidence": "Explicit Alliance Friendly icon on current primary node",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9099"
+    },
+    {
+      "npc_id": 9116,
+      "name": "Eridan Bluewind",
+      "zone": "Felwood",
+      "race_ids": [
+        4
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/9116"
     },
     {
       "npc_id": 9316,
@@ -11902,6 +11928,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 927,
-  "awaiting_signature_audio_profiles": 473
+  "authored_profiles": 929,
+  "awaiting_signature_audio_profiles": 475
 }

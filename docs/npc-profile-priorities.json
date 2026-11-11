@@ -4725,6 +4725,20 @@
       "zone": "Orgrimmar",
       "route": "Named elite orc scout",
       "reason": "Current adult female identity and scout reference; original brief salute and ordinary conversation; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 9116,
+      "name": "Eridan Bluewind",
+      "zone": "Felwood",
+      "route": "Emerald Sanctuary restoration and totem quests",
+      "reason": "Full Jadefire, flute and Linken branches; original ordinary shade instead of monument; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8390,
+      "name": "Chemist Cuely",
+      "zone": "Undercity",
+      "route": "Apothecarium Seeping Corruption experiment",
+      "reason": "Full3568/3569/3570 including cruel progress; original empty-cup objection; fifteen personal lines queued without synthesis"
     }
   ]
 }

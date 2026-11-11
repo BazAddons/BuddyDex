@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Eridan Bluewind, Emerald Sanctuary Felwood Emerald Circle Druid, adult Night Elf female9136/M2 921844, current Horde Friendly. FullJadefire, flute and Linken/Aquementas chains despite empty current tabs, own restoration greeting. Ordinary shade instead of monument original; no finished healing or native quest reward.
+    -- Research: docs/research/eridans-shade-and-cuelys-observation.md
+    [9116] = {
+        quote = "I do not need a monument to the work. I would like a tree whose shade a traveler can enjoy without wondering what has gone wrong beneath it. They need not know my name.",
+        likes = { "A friend helped without losing dignity", "The thought of healthy shade in Felwood", "Small mercies that need no grand audience" },
+        dislikes = { "The Jadefire's cultivation of corruption", "Suffering made into another person's tool", "Victory declared before the land can heal" },
+        gossip = "Asked about a monument to her work, Eridan described an ordinary tree and a traveler resting in its shade instead.",
+        bio = "Eridan Bluewind is an Emerald Circle druid at Felwood's Emerald Sanctuary. She opposes the Jadefire, works to free a bound ancient and helps prepare the totem needed against Blazerunner. Healing remains her aim beyond each victory.",
+        backstory = "A friend imagined a grand monument to the work of reclaiming Felwood. Eridan pictured a tree and someone resting beneath it without fear. She would be content, she said, if the traveler never needed to learn whose work had made that possible.",
+        secret = "She hopes the healed forest might feel ordinary again. People could enjoy its shade without every step becoming a tale of victory. Her name need not be part of that peace.",
+        bestFriend = "Stay a little, friend. We may speak of what is worth protecting without pretending the work is finished. I am glad to share the hope.",
+        favorite = {
+            emote = "SMILE",
+            hint = "A quiet smile can share her hope without declaring that the hard work is already over.",
+        },
+        recordingVoice = "nightelf-female",
+        lines = {
+            greet = { { "Welcome back, friend. Have you found something worth protecting as well as something that needs to be opposed? I would like to hear both. The work is more than a list of victories, and I would be glad of a moment to remember what those victories are meant to make possible.", tone = "[gentle] [welcoming]" }, "There you are. Take a moment, friend. You need not make the account grand before I can understand why it matters to you." },
+            idle = { { "They imagined a monument to the work. I pictured a tree with someone resting beneath it, unafraid of what had gone wrong in the land. I would be content if they never needed to learn my name. There are kinds of peace that should be allowed to become ordinary.", tone = "[reflective] [hopeful]" }, "Defeating those who spread the corruption is a beginning. The damage does not vanish because the enemy responsible has fallen.", "Someone asking for help deserves care even when they cannot give you every part of the story. We can begin with what they know and what can still be done." },
+            befriended = { { "You have stayed with the hope without asking me to call the work finished. I value that, friend. Come along. There is room to enjoy what we are protecting while admitting how much remains to be done, and I am glad not to carry that hope alone.", tone = "[warm] [sincere]" } },
+            poke = { "Yes, friend? Tell me the part that concerns you, and we can consider it together.", "A moment. I would rather hear the question properly than give you a reassuring answer too quickly." },
+            newFriend = { { "Let them keep their dignity while asking for help. A missing part of the story need not prevent every useful kindness. Hear what they can tell you, then consider what is possible without pretending you know their life better than they do.", tone = "[calm] [compassionate]" } },
+            quest = { "Remember what the work is meant to restore. A victory over the source of suffering does not release us from caring for what was harmed." },
+            rest = { "A little quiet is welcome. We may speak of the forest we hope for without insisting it has already returned." },
+            thanked = { "You are welcome. I am glad there was something useful I could do. The kindness need not become a grand account before it matters." },
+            group = { "Be clear about what each person can offer. Careful help is easier to trust than a promise made impressive by its size alone." },
+            comforted = { "Thank you, friend. I can share the difficult part without asking you to make an easy answer for it." },
+            zone = { "Here we are. Look for what still deserves care, as well as what has gone wrong. Both belong in the account of a place." },
+        },
+    },
+
+    -- Chemist Cuely, Undercity Apothecarium, adult Forsaken male7597/M2 959310, Horde Friendly. Full3568/3569/3570 experimental illness chain; Thersa exploitation and cold Forsaken purpose retained. Empty-cup argument original; no benign-cure rewrite, Fuely kinship inference or player laboratory feature.
+    -- Research: docs/research/eridans-shade-and-cuelys-observation.md
+    [8390] = {
+        quote = "A correct point can still be an irritating point. You have proved this thoroughly. I will record the observation, if that allows the rest of the afternoon to proceed.",
+        likes = { "Vials returned with their labels intact", "A useful result for the Forsaken", "A concise observation he cannot dismiss" },
+        dislikes = { "Muddled labels and vague answers", "An interruption without a useful point", "Courtesy mistaken for a promise of mercy" },
+        gossip = "Cuely called a cup empty. A friend pointed out the air. He conceded the point and called the interruption irritating.",
+        bio = "Chemist Cuely works in the Undercity's Apothecarium. Thersa's desperate search for a cure becomes an experiment he judges by its value to the Forsaken. His pleasure in a swift result is not concern for the person who trusted him.",
+        backstory = "He asked for an empty cup. A friend observed that it contained air. Cuely considered the point, called it correct and then called the interruption irritating. They asked which fact he intended to remember. He replied that both seemed relevant.",
+        secret = "He likes an objection that makes him consider something without becoming a speech. He prefers to call that an occasionally useful irritation rather than affection.",
+        bestFriend = "Stay, friend. Bring an observation worth the interruption. Your irritating answers sometimes contain a point I cannot dismiss.",
+        favorite = {
+            emote = "NOD",
+            hint = "A precise nod can acknowledge the point without adding another speech for him to endure.",
+        },
+        recordingVoice = "forsaken-male",
+        lines = {
+            greet = { { "Back again, friend? Have you identified another supposedly empty object with air in it? I concede the point in advance. That should leave you time to make the observation you actually intended, and leave me time to decide whether it was worth the interruption.", tone = "[dry] [impatient]" }, "There you are. A useful observation, I hope. I have already allowed that the cup was not devoid of everything in existence." },
+            idle = { { "I asked for an empty cup. They pointed out the air. Correct, I said. Irritating, also. They asked which part I would remember. Both, naturally. A sound observation does not require me to enjoy every circumstance in which it is delivered.", tone = "[deadpan] [wry]" }, "Thersa came here because the others could not help her. Desperation makes a person very willing to accept an experiment. It also makes them remarkably eager to hear a promise.", "A useful result for our people interests me considerably more than an agreeable account of what someone hoped would happen." },
+            befriended = { { "You occasionally interrupt with something I cannot dismiss as pointless. I have learned to distinguish that from the usual noise, friend. Come along. I would rather hear your observation than endure another lengthy explanation of why I ought to enjoy hearing it.", tone = "[reserved] [wry]" } },
+            poke = { "Yes, friend? Lead with the useful part, if there is one.", "A moment. I am determining whether that was an observation or merely an announcement that you were about to make one." },
+            quest = { { "Keep the account clear. Tell me what was actually collected and do not substitute an impressive description for the thing requested. A label is useful because it lets us distinguish one result from another, not because it makes the container look industrious.", tone = "[cold] [precise]" } },
+            bagsFull = { "Keep track of the labeled vials. A collection of containers is less useful when you have made it impossible to tell which is which." },
+            learned = { "Remember what you observed, not merely the conclusion you expected to be given. There is a difference, however inconvenient it becomes to explain." },
+            rest = { "A pause. You may observe that the silence contains air as well. I believe I can anticipate that particular contribution without assistance." },
+            newFriend = { "Find out what they know before deciding how useful the introduction sounded. A confident manner is inexpensive to produce." },
+            thanked = { "You are welcome. I am pleased the useful part of the exchange was recognized without requiring another explanation of it." },
+            group = { "One account at a time. If everyone announces a different conclusion before identifying the observation, we shall spend the afternoon sorting out the beginning." },
+        },
+    },
+
     -- Kayneth Stillwind, Forest Song Ashenvale Druid, adult Night Elf male4170/M2 974343, Alliance Friendly. Full4581/1011/1012 plus939/4441/4442/4261 spirit branch, own balance greeting. Brief rain report original; no universal prophecy, cured Felwood, current player quest credit or later retail death.
     -- Research: docs/research/kayneths-report-and-manslayers-salute.md
     [3848] = {
