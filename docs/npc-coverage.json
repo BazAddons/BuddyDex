@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 422,
+    "alliance": 423,
     "unverified": 184,
-    "horde": 420
+    "horde": 421
   },
   "npc_race_counts": {
     "1": 171,
-    "3": 102,
+    "3": 103,
     "7": 63,
     "2": 109,
     "5": 111,
     "4": 97,
     "9": 67,
     "8": 61,
-    "6": 107,
+    "6": 108,
     "96": 28,
     "95": 57
   },
@@ -29,7 +29,7 @@
     "Loch Modan": 9,
     "Duskwood": 4,
     "Dun Morogh": 26,
-    "Wetlands": 14,
+    "Wetlands": 15,
     "Ironforge": 68,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 60,
@@ -51,7 +51,7 @@
     "Ashenvale": 18,
     "Thousand Needles": 12,
     "Dustwallow Marsh": 2,
-    "Desolace": 13,
+    "Desolace": 14,
     "Swamp of Sorrows": 1,
     "Tanaris": 9,
     "Feralas": 6,
@@ -2368,6 +2368,19 @@
       ],
       "reaction_evidence": "Current Alliance Friendly icon",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2096"
+    },
+    {
+      "npc_id": 2097,
+      "name": "Harlo Barnaby",
+      "zone": "Wetlands",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/2097"
     },
     {
       "npc_id": 2104,
@@ -8711,6 +8724,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8720"
     },
     {
+      "npc_id": 8878,
+      "name": "Muuran",
+      "zone": "Desolace",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/8878"
+    },
+    {
       "npc_id": 8931,
       "name": "Innkeeper Heather",
       "zone": "Westfall",
@@ -12501,6 +12527,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 973,
-  "awaiting_signature_audio_profiles": 519
+  "authored_profiles": 975,
+  "awaiting_signature_audio_profiles": 521
 }

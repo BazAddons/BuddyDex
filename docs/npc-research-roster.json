@@ -5376,5 +5376,19 @@
     "zone": "Undercity",
     "source": "Reviewed adult horde identity; Full44 native gossip,3784/8354 and complete seasonal fragrance chain; original muddy-boots guest joke; no Scout sighting claimed",
     "research_notes": "docs/research/shaussiys-ending-and-normans-guests.md"
+  },
+  {
+    "npc_id": 2097,
+    "name": "Harlo Barnaby",
+    "zone": "Wetlands",
+    "source": "Reviewed adult alliance identity; Full current/native472 and conditional Longbraid account; original unfinished portrait memory; no Scout sighting claimed",
+    "research_notes": "docs/research/harlos-portrait-and-muurans-spoon.md"
+  },
+  {
+    "npc_id": 8878,
+    "name": "Muuran",
+    "zone": "Desolace",
+    "source": "Reviewed adult horde identity; Seven current wares and adult male model; original plain spoon made for friend; no Scout sighting claimed",
+    "research_notes": "docs/research/harlos-portrait-and-muurans-spoon.md"
   }
 ]

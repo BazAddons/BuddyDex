@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Harlo Barnaby and Muuran: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the Dun Modr survivor and Ghost Walker macecrafter; preserve normal eligibility and separate character progress.
+
 - Add Innkeeper Shaussiy and Innkeeper Norman: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research native inn welcomes and seasonal quests; preserve normal eligibility and separate character progress.
 
@@ -763,4 +766,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **973 fully written NPC profiles**: 454 have initial signature recordings, and five hundred nineteen new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **975 fully written NPC profiles**: 454 have initial signature recordings, and five hundred twenty-one new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

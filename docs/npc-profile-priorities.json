@@ -5047,6 +5047,20 @@
       "zone": "Undercity",
       "route": "Innkeeper in Undercity",
       "reason": "Full44 native gossip,3784/8354 and complete seasonal fragrance chain; original muddy-boots guest joke; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 2097,
+      "name": "Harlo Barnaby",
+      "zone": "Wetlands",
+      "route": "Wounded survivor in Menethil",
+      "reason": "Full current/native472 and conditional Longbraid account; original unfinished portrait memory; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 8878,
+      "name": "Muuran",
+      "zone": "Desolace",
+      "route": "Superior Macecrafter at Ghost Walker Post",
+      "reason": "Seven current wares and adult male model; original plain spoon made for friend; fifteen personal lines queued without synthesis"
     }
   ]
 }

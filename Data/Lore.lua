@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Harlo Barnaby, wounded Menethil survivor, adult Dwarf male1674/M2 878772, Alliance Friendly normal. Full472 native/current/published text and Longbraid rescue account. Interrupted solemn portrait memory before fighting original; no cure, confirmed comrades fate, completed mission or child profile.
+    -- Research: docs/research/harlos-portrait-and-muurans-spoon.md
+    [2097] = {
+        quote = "A friend once tried to sketch me looking solemn. I almost managed it until they said I looked as though I was arguing with a particularly disappointing turnip.",
+        likes = { "News of his fellow soldiers", "A friend who stays to listen", "Remembering an ordinary laugh" },
+        dislikes = { "Not knowing who made it back", "Being hurried past a difficult answer", "A solemn face demanded for too long" },
+        gossip = "Harlo remembers a friend trying to sketch his solemn face. The drawing went unfinished because neither could stop laughing.",
+        bio = "Harlo Barnaby lies wounded in Menethil after the fall of Dun Modr. Separated from his regiment, he hopes someone can find Longbraid and the other survivors. His concern for them leaves room for memories of friends in quieter times.",
+        backstory = "Before the fighting, a friend tried to sketch him looking dignified. Harlo held the expression until they compared it to a quarrel with a turnip. He laughed, they laughed, and the solemn portrait never acquired a proper mouth.",
+        secret = "Neither of them had to look brave or important. He would like another sitting someday, without having to keep a straight face. The unfinished sketch is a good memory.",
+        bestFriend = "Stay a moment, friend. Tell me something ordinary. I should like to remember another day when we had a reason to laugh.",
+        favorite = {
+            emote = "GRIN",
+            hint = "A friendly grin recalls the portrait that never quite managed to look dignified.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "You came back, friend. Have you heard anything of the others? I will listen. And if you have no news, you may still stay a little. There is something to be said for a familiar voice.", tone = "[weary] [warm]" }, "Good to see you. Give me a moment. I am glad you stopped, even if I cannot find the right words as quickly as I would like." },
+            idle = { { "My friend said I looked as though I was arguing with a turnip. They were meant to be sketching a dignified portrait. We never finished the mouth. Neither of us could keep it still.", tone = "[reflective] [amused]" }, "I hope the others found one another. Being apart leaves a fellow with far too many questions and too little he can do about them.", "I remember an afternoon when the most difficult thing expected of me was to stop smiling for a drawing. I should like to have that particular difficulty again." },
+            befriended = { { "I am glad to call you a friend. You have given me your time without making me find a brave speech to deserve it. I will remember that when I think of you.", tone = "[quiet] [sincere]" } },
+            poke = { "I hear you, friend. Give me a moment to answer.", "Yes? If you have come for the portrait, I fear the artist gave up on the mouth." },
+            comforted = { { "Thank you for staying. You need not tell me that everything is certain to turn out well. It is enough to know you are willing to sit with me while we wait for news.", tone = "[gentle] [grateful]" } },
+            quest = { "If you can find Longbraid, let him know I survived. I fear for the regiment. I would hear of anyone who made it through." },
+            newFriend = { "Remember to look for those who are missing. A name is more than a place on a list when someone is waiting to hear it." },
+            rest = { "Take a little time, friend. Tell me about a quiet part of your day. I would welcome a story that asks nothing more of either of us." },
+            thanked = { "You are welcome. I am glad there was something I could give you besides another question." },
+            laughAlong = { "There. That is the trouble we had with the portrait. It is difficult to look solemn when a friend has found precisely the wrong thing to say." },
+            hearth = { "It is good to have somewhere to return to. I hope the others find such a place, and someone there glad to see them." },
+        },
+    },
+
+    -- Muuran, Superior Macecrafter Ghost Walker Post Desolace, adult Tauren male8169/M2 968705, Horde Friendly normal. Seven current wares, no own captured gossip or quests. Plain spoon carved for friend original; no actual item/reward, weapon buff or added training service.
+    -- Research: docs/research/harlos-portrait-and-muurans-spoon.md
+    [8878] = {
+        quote = "The spoon is quite ordinary. That was the request. It fits my friend's hand, reaches the bottom of the bowl, and has so far defeated every supper put before it.",
+        likes = { "A tool comfortable in its own hand", "A friend explaining what they need", "Making a small useful thing well" },
+        dislikes = { "A rough edge left where fingers rest", "An impressive title doing all the talking", "Work admired but never used" },
+        gossip = "Muuran once carved a plain spoon for a friend. He asks after its difficult campaigns against supper with a perfectly serious face.",
+        bio = "Muuran is the Superior Macecrafter at Ghost Walker Post in Desolace. He sells maces, staves and a blacksmithing plan. A small carving receives just as much consideration as his imposing title might suggest.",
+        backstory = "A friend asked for a spoon that felt comfortable to hold. Muuran shaped a plain one and smoothed the place where their fingers rested. They reported that it had conquered a bowl of supper. He asked whether the bowl had offered much resistance.",
+        secret = "He is pleased when the spoon comes back worn from use. The little thing has a place in an ordinary day. Knowing his friend reaches for it means more than an elaborate compliment.",
+        bestFriend = "Tell me how the spoon fares, friend. Then tell me how you fare. I am interested in both accounts, though only one requires a bowl.",
+        favorite = {
+            emote = "THANK",
+            hint = "A simple, specific thank-you for something useful is the compliment he enjoys most.",
+        },
+        recordingVoice = "tauren-male",
+        lines = {
+            greet = { { "Welcome, friend. How fares the spoon? Still holding its own against supper? Good. Now tell me about the hand that holds it. I have been wondering how your day has gone.", tone = "[warm] [wry]" }, "Good to see you. Have you something in mind, or have you come to talk? A clear request is welcome, and so is a visit without one." },
+            idle = { { "My friend reported that the spoon had conquered supper. I asked whether the bowl had resisted. They were kind enough to provide a full account. It was a remarkable victory for such a plain little thing.", tone = "[deadpan] [amused]" }, "The place where a hand rests deserves attention. A rough edge does not become more comfortable because the rest of the work looks impressive.", "I enjoy making a small thing someone will use. There is satisfaction in knowing it belongs to a familiar part of their day." },
+            befriended = { { "You are welcome beside me, friend. Tell me what you need, or tell me what has happened. I would rather hear an honest account than have you prepare something impressive for my benefit.", tone = "[gentle] [fond]" } },
+            poke = { "Yes? Has supper proved more formidable than expected?", "A moment. I am considering the part your fingers would find before your eyes did." },
+            thanked = { { "You are welcome. Tell me which part was useful. I enjoy hearing that more than an account of how impressive the work appeared from across the room.", tone = "[pleased] [sincere]" } },
+            gear = { "Consider how it feels in use as well as how it looks before you choose. Your hands will spend more time with it than your admirers will." },
+            loot = { "Look closely at the part that carries the wear. It can tell you something the polished surface has not mentioned." },
+            bagsFull = { "Make room for what you will actually use. A pack filled with impressive possibilities becomes heavy long before it becomes helpful." },
+            rest = { "Let us rest a little. You can tell me an ordinary part of the day. It need not contain an opponent worthy of a very distinguished spoon." },
+            newFriend = { "Ask what would be helpful before deciding what will impress them. A small answer may lead to better work." },
+            learned = { "Try it carefully and notice what your hands tell you. An explanation can begin the work, but practice is where you learn its feel." },
+        },
+    },
+
     -- Innkeeper Shaussiy, Auberdine Darkshore, adult Night Elf female5441/M2 921844, Alliance Friendly normal. Full44 native gossip, twelve wares, defense yell. Short restful traveler story original; no magical sleep buff, new inn reward or later Auberdine destruction.
     -- Research: docs/research/shaussiys-ending-and-normans-guests.md
     [6737] = {

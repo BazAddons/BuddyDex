@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Harlo Barnaby and Muuran: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research the Dun Modr survivor and Ghost Walker macecrafter; preserve normal eligibility and separate character progress.
+
 - Add Innkeeper Shaussiy and Innkeeper Norman: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Research native inn welcomes and seasonal quests; preserve normal eligibility and separate character progress.
 
