@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 806,
-  "written_complete_count": 806,
-  "awaiting_signature_audio_count": 352,
+  "authored_count": 808,
+  "written_complete_count": 808,
+  "awaiting_signature_audio_count": 354,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 354,
+  "remaining_count": 356,
   "completed": [
     {
       "npc_id": 54,
@@ -5459,6 +5459,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 6291,
+      "name": "Balthus Stoneflayer",
+      "zone": "Ironforge",
+      "source": "Reviewed adult alliance man; Current training and primary Ironforge location; original apron knot; no Scout sighting claimed",
+      "research_notes": "docs/research/durelles-amber-and-balthus-apron.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 6300,
       "name": "Elisa Steelhand",
       "zone": "Darkshore",
@@ -7257,6 +7269,18 @@
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",
       "recording_voice": "human-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 248196,
+      "name": "Apothecary Durelle",
+      "zone": "The Barrens",
+      "source": "Reviewed adult unverified woman; Own fingerprints gossip and current29goods; original private amber light; no Scout sighting claimed",
+      "research_notes": "docs/research/durelles-amber-and-balthus-apron.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "forsaken-female",
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {

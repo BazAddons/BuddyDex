@@ -3,16 +3,16 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 345,
-    "unverified": 168,
+    "alliance": 346,
+    "unverified": 169,
     "horde": 332
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 70,
+    "3": 71,
     "7": 58,
     "2": 88,
-    "5": 86,
+    "5": 87,
     "4": 70,
     "8": 60,
     "9": 59,
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 21,
     "Wetlands": 5,
-    "Ironforge": 59,
+    "Ironforge": 60,
     "Stranglethorn Vale": 6,
     "Tirisfal Glades": 49,
     "Undercity": 19,
@@ -44,7 +44,7 @@
     "Mulgore": 23,
     "Thunder Bluff": 39,
     "Durotar": 52,
-    "The Barrens": 44,
+    "The Barrens": 45,
     "Stonetalon Mountains": 14,
     "Darnassus": 15,
     "Burning Steppes": 1,
@@ -6711,6 +6711,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6289"
     },
     {
+      "npc_id": 6291,
+      "name": "Balthus Stoneflayer",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/6291"
+    },
+    {
       "npc_id": 6300,
       "name": "Elisa Steelhand",
       "zone": "Darkshore",
@@ -8870,6 +8883,17 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/247226"
     },
     {
+      "npc_id": 248196,
+      "name": "Apothecary Durelle",
+      "zone": "The Barrens",
+      "race_ids": [
+        5
+      ],
+      "public_friendly_factions": [],
+      "reaction_evidence": "Current Horde Neutral icon; positive faction access unverified",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/248196"
+    },
+    {
       "npc_id": 248248,
       "name": "Blixie Fitzwink",
       "zone": "Elwynn Forest",
@@ -10346,6 +10370,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 806,
-  "awaiting_signature_audio_profiles": 352
+  "authored_profiles": 808,
+  "awaiting_signature_audio_profiles": 354
 }

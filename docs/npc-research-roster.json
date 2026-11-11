@@ -4207,5 +4207,19 @@
     "zone": "The Barrens",
     "source": "Reviewed adult horde man; Current multi-zone identity and auction service; original woolen-boats list; no Scout sighting claimed",
     "research_notes": "docs/research/kelseys-assistant-and-quickcoins-boats.md"
+  },
+  {
+    "npc_id": 248196,
+    "name": "Apothecary Durelle",
+    "zone": "The Barrens",
+    "source": "Reviewed adult unverified woman; Own fingerprints gossip and current29goods; original private amber light; no Scout sighting claimed",
+    "research_notes": "docs/research/durelles-amber-and-balthus-apron.md"
+  },
+  {
+    "npc_id": 6291,
+    "name": "Balthus Stoneflayer",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Current training and primary Ironforge location; original apron knot; no Scout sighting claimed",
+    "research_notes": "docs/research/durelles-amber-and-balthus-apron.md"
   }
 ]

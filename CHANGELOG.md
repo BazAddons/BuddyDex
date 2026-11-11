@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Apothecary Durelle and Balthus Stoneflayer: adult Forsaken and Dwarf profiles with thirty personal lines queued.
+- Review alchemy-vendor dialogue and skinning services; document original amber-light and apron-knot scenes plus location-evidence limits.
+
 - Add Kelsey Fargo and Auctioneer Quickcoin: adult Human and Goblin profiles with thirty personal lines queued.
 - Review the full Northshire book-theft chain and cross-zone auctioneer evidence; document original stone-assistant and woolen-boats scenes.
 

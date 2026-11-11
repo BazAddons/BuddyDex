@@ -3878,6 +3878,20 @@
       "zone": "The Barrens",
       "route": "Crossroads auctioneer; also Three Corners",
       "reason": "Current multi-zone identity and auction service; original woolen-boats list; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 248196,
+      "name": "Apothecary Durelle",
+      "zone": "The Barrens",
+      "route": "Crossroads trade-camp alchemist",
+      "reason": "Own fingerprints gossip and current29goods; original private amber light; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 6291,
+      "name": "Balthus Stoneflayer",
+      "zone": "Ironforge",
+      "route": "Ironforge skinning trainer",
+      "reason": "Current training and primary Ironforge location; original apron knot; fifteen personal lines queued without synthesis"
     }
   ]
 }

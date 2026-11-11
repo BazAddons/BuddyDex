@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Apothecary Durelle, Barrens alchemist vendor. Adult Forsaken female139622/M2 997378, Horde Neutral; positive access unverified. Own fingerprints gossip and29goods; private amber-bottle light is original.
+    -- Research: docs/research/durelles-amber-and-balthus-apron.md
+    [248196] = {
+        quote = "Leave the amber bottle there. The light will reach it in a moment. No, it is not a demonstration. You may look without learning anything.",
+        likes = { "Clean glass handled with consideration", "Amber light falling across an empty space", "Company content to look without reaching" },
+        dislikes = { "Fingers on vials not yet purchased", "Every pleasant thing required to be useful", "A quiet moment turned into an explanation" },
+        gossip = "Durelle keeps one unpriced amber bottle where the light reaches it. She says it occupies the space adequately.",
+        bio = "Apothecary Durelle is an alchemist at the trade camp west of the Crossroads. She sells recipes and certification and warns against touching unpurchased vials. Among the useful goods, one empty amber bottle has acquired a private place of its own.",
+        backstory = "Moving her glassware, she noticed an amber bottle casting color across a bare patch of table. She left it in the light. Asked what it was for, she found she disliked having to supply a practical answer.",
+        secret = "There is no preparation waiting to go into that bottle. She likes the color. A trusted friend may sit beside her and watch it move without being offered a more respectable explanation.",
+        bestFriend = "Sit here, friend. The light is nearly where I like it. We need not improve the moment by finding a use for it.",
+        favorite = {
+            emote = "SMILE",
+            hint = "She appreciates someone quietly enjoying the little patch of color without demanding an explanation.",
+        },
+        recordingVoice = "forsaken-female",
+        lines = {
+            greet = { { "There you are. Sit here a moment. The light will reach the amber bottle soon, and you may enjoy the result without asking what preparation I intend to put in it.", tone = "[reserved] [quiet warmth]" }, "Good to see you. Tell me what has occupied your day. Kindly leave the glass where it is while you do." },
+            idle = { { "The bottle is empty. I like the color it casts across the table. I have considered supplying a more practical explanation, but I find the plain one adequate.", tone = "[deadpan] [reflective]" }, "You may look without reaching. Curiosity need not announce itself with a thumb on every available surface.", "Not every pleasant thing needs to become an ingredient in something more useful. That little patch of amber is doing quite enough." },
+            befriended = { { "You have become company with whom I can enjoy a quiet thing without defending why I enjoy it. Sit here, friend. There is room beside the light.", tone = "[restrained] [sincere]" } },
+            poke = { "Yes? The amber bottle may remain exactly where it is.", "Go on. I am listening; watching the color move does not require all my attention." },
+            loot = { { "Examine the condition as well as the label. Something can be worth keeping for a reason the description never considered.", tone = "[precise] [thoughtful]" } },
+            learned = { "Good. Retain the useful principle without insisting it explain every other pleasure in your day." },
+            gear = { "Check the part you actually rely on. A polished appearance can distract from a less satisfactory working condition." },
+            rest = { "A pause. Leave something in the day that does not have to justify the time it occupies." },
+            newFriend = { "Someone new. Allow them to introduce themselves before deciding which instruction they require first." },
+            thanked = { "You are welcome. A concise acknowledgment is quite sufficient." },
+            mail = { "Read the name properly. An otherwise immaculate piece of correspondence can still be delivered to entirely the wrong person." },
+        },
+    },
+
+    -- Balthus Stoneflayer, Ironforge skinning trainer. Adult dwarf male4986/M2 878772, Alliance Friendly. Current5training rows and primary Ironforge location; map-floor discrepancy documented. Apron knot is original.
+    -- Research: docs/research/durelles-amber-and-balthus-apron.md
+    [6291] = {
+        quote = "A steady hand, a little patience, and no unnecessary force. Excellent advice. I would appreciate hearing it after I have untied this apron.",
+        likes = { "A careful first pass with a sound tool", "Useful material treated with respect", "A friend letting the apron joke rest briefly" },
+        dislikes = { "Pulling harder instead of looking closely", "An awkward beginner hurried for an audience", "Discovering he has tightened his own knot" },
+        gossip = "Balthus can explain a patient hand while making his apron knot tighter. He considers the eventual untying an additional demonstration.",
+        bio = "Balthus Stoneflayer teaches skinning in Ironforge. His work asks for attention to the material and control of the tool. Away from the demonstration, an apron tie occasionally offers a less dignified test of the patience he recommends to others.",
+        backstory = "He was explaining a careful first pass when he reached behind himself to loosen his apron. One impatient tug tightened the knot. Balthus stopped talking long enough to look, then resumed with a rather more personal example of his own advice.",
+        secret = "He enjoys a friend who can laugh without taking the task out of his hands. Being allowed a foolish moment is more comfortable than being treated as though expertise should prevent every one.",
+        bestFriend = "Come along, friend. I have loosened the apron already, so we may begin with your news instead of another demonstration.",
+        favorite = {
+            emote = "WINK",
+            hint = "He appreciates a little shared understanding when the teacher has supplied his own cautionary example.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There you are. Come along. The apron is already untied, which leaves us free to discuss something other than the surprising demands of my own equipment.", tone = "[warm] [wry]" }, "Good to see you. Tell me how you have been. You need not begin with an account of how neatly you have managed everything." },
+            idle = { { "I recommended patience, pulled at the apron, and tightened the knot. A complete demonstration of the problem, delivered with considerably more confidence than it required.", tone = "[matter-of-fact] [amused]" }, "A careful pass begins with looking at the material. More force will not improve an answer to a question you have not considered.", "You may leave a person one awkward moment without making it the only thing you know about them. I find that improves the company considerably." },
+            befriended = { { "You have become company with whom I can share what I know and the occasional foolish difficulty without losing either pleasure. Come along, friend. I am glad to see you.", tone = "[warm] [sincere]" } },
+            poke = { "Yes? Kindly allow the apron a moment of peace.", "Go on. There is no need to make the question sound more experienced than you feel." },
+            learned = { { "Good. Try the movement carefully enough to understand it. A useful skill should become something you can judge, not merely something you can repeat.", tone = "[steady] [encouraging]" } },
+            gear = { "Check the edge, the grip, and how it moves in your hand. The impressive part ought to be the control you have over it." },
+            loot = { "Give it a proper look before deciding what can be made of it. Useful material deserves a little attention." },
+            rest = { "A pause. We can leave the next demonstration until after I have heard something about your day." },
+            newFriend = { "Someone new. Give them room to ask the plain question without making a performance of the answer." },
+            thanked = { "You are welcome. Keep the useful part of the lesson; I expect the apron will supply its own reminder." },
+            group = { "Leave each pair of hands room to work. Crowding someone rarely improves their first attempt." },
+        },
+    },
+
     -- Kelsey Fargo, Northshire junior mining trainer. Adult human female144024/M2 1000764, Alliance Friendly. Full book chain and own kobold gossip; stone assistant is original.
     -- Research: docs/research/kelseys-assistant-and-quickcoins-boats.md
     [247226] = {
