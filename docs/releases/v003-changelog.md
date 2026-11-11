@@ -1,5 +1,8 @@
 # BuddyDex v003
 
+- Add Bengus Deepforge and Kym Wildmane: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research their craft and druid dialogue; add original friendship stories about a mixed-up duet and a familiar joke.
+
 - Add Corithras Moonrage and Deathguard Burgess: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Ground their contrasting personalities in the moonwell quest chain and Brill dialogue; add original leaf and map friendship stories.
 
@@ -664,4 +667,4 @@
 - Add Martha Strain and Krog: full demon-trainer and investigator profiles, fifteen personal lines and four approved v4 signature recordings each.
 - Expand Forsaken service and Dustwallow Marsh character coverage while preserving normal live friendship eligibility checks.
 
-BuddyDex now includes **909 fully written NPC profiles**: 454 have initial signature recordings, and four hundred fifty-five new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.
+BuddyDex now includes **911 fully written NPC profiles**: 454 have initial signature recordings, and four hundred fifty-seven new profiles await recording. Existing profiles also have a tracked backlog of unrecorded dialogue. Entries combine researched game details with clearly documented original character writing.

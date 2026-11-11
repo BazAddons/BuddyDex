@@ -4928,5 +4928,19 @@
     "zone": "Tirisfal Glades",
     "source": "Reviewed adult horde man; Full374 and own sarcastic directions; original one-arrow map; no Scout sighting claimed",
     "research_notes": "docs/research/corithras-leaf-and-burgess-map.md"
+  },
+  {
+    "npc_id": 4258,
+    "name": "Bengus Deepforge",
+    "zone": "Ironforge",
+    "source": "Reviewed adult alliance man; Four craft/student/referral greetings; original mixed-up duet; no Scout sighting claimed",
+    "research_notes": "docs/research/bengus-tune-and-kyms-pause.md"
+  },
+  {
+    "npc_id": 3036,
+    "name": "Kym Wildmane",
+    "zone": "Thunder Bluff",
+    "source": "Reviewed adult horde man; Earth Mother/retraining greetings and184 lessons; original familiar joke pause; no Scout sighting claimed",
+    "research_notes": "docs/research/bengus-tune-and-kyms-pause.md"
   }
 ]

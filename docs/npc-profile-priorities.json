@@ -4599,6 +4599,20 @@
       "zone": "Tirisfal Glades",
       "route": "Brill named deathguard and directions",
       "reason": "Full374 and own sarcastic directions; original one-arrow map; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 4258,
+      "name": "Bengus Deepforge",
+      "zone": "Ironforge",
+      "route": "Great Forge artisan blacksmith",
+      "reason": "Four craft/student/referral greetings; original mixed-up duet; fifteen personal lines queued without synthesis"
+    },
+    {
+      "npc_id": 3036,
+      "name": "Kym Wildmane",
+      "zone": "Thunder Bluff",
+      "route": "Thunder Bluff druid trainer",
+      "reason": "Earth Mother/retraining greetings and184 lessons; original familiar joke pause; fifteen personal lines queued without synthesis"
     }
   ]
 }

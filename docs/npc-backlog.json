@@ -3,12 +3,12 @@
   "coverage_plan": "docs/research/starter-coverage-in-progress.md",
   "scope": "Known priority NPCs, friendly named humanoids from the installed Scout snapshot, and individually reviewed external identities in docs/npc-research-roster.json. Candidate identity, lore and eligibility require research before authoring; public data does not replace live unit checks.",
   "completed_count": 454,
-  "authored_count": 909,
-  "written_complete_count": 909,
-  "awaiting_signature_audio_count": 455,
+  "authored_count": 911,
+  "written_complete_count": 911,
+  "awaiting_signature_audio_count": 457,
   "unprofiled_count": 2,
   "completion_policy": "completed_count means full profile text plus at least three initial personal recordings, not fully recorded dialogue. written_complete_count includes explicitly audio-pending profiles. remaining_count includes audio-pending/incomplete profiles and unprofiled identities.",
-  "remaining_count": 457,
+  "remaining_count": 459,
   "completed": [
     {
       "npc_id": 54,
@@ -2591,6 +2591,18 @@
       "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
     },
     {
+      "npc_id": 3036,
+      "name": "Kym Wildmane",
+      "zone": "Thunder Bluff",
+      "source": "Reviewed adult horde man; Earth Mother/retraining greetings and184 lessons; original familiar joke pause; no Scout sighting claimed",
+      "research_notes": "docs/research/bengus-tune-and-kyms-pause.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "tauren-female",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
       "npc_id": 3050,
       "name": "Veren Tallstrider",
       "zone": "Thunder Bluff",
@@ -4653,6 +4665,18 @@
       "zone": "Ironforge",
       "source": "Reviewed adult Dwarf female/male bodies, Friendly access, full quest1050/actual Classic book or current/Classic training; no Scout sighting claimed",
       "research_notes": "docs/research/ironforge-questions-and-corrected-estimates.md",
+      "written_lines": 15,
+      "personal_recordings": 0,
+      "status": "written_complete_audio_pending",
+      "recording_voice": "dwarf-male",
+      "audio_note": "Profile text complete; approved voice assigned; recording deferred by user until ElevenLabs billing is fixed."
+    },
+    {
+      "npc_id": 4258,
+      "name": "Bengus Deepforge",
+      "zone": "Ironforge",
+      "source": "Reviewed adult alliance man; Four craft/student/referral greetings; original mixed-up duet; no Scout sighting claimed",
+      "research_notes": "docs/research/bengus-tune-and-kyms-pause.md",
       "written_lines": 15,
       "personal_recordings": 0,
       "status": "written_complete_audio_pending",

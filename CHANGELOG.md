@@ -1,5 +1,8 @@
 # Unreleased
 
+- Add Bengus Deepforge and Kym Wildmane: full Dwarf and Tauren profiles, thirty personal lines queued.
+- Research their craft and druid dialogue; add original friendship stories about a mixed-up duet and a familiar joke.
+
 - Add Corithras Moonrage and Deathguard Burgess: full Night Elf and Forsaken profiles, thirty personal lines queued.
 - Ground their contrasting personalities in the moonwell quest chain and Brill dialogue; add original leaf and map friendship stories.
 

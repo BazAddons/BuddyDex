@@ -41,6 +41,68 @@ local ADDON_NAME, ns = ...
 -- US English throughout.
 
 ns.Lore = {
+    -- Bengus Deepforge, Great Forge Ironforge (current Dun Morogh projection), adult Dwarf male3097/M2 878772, Alliance Friendly. Four captured craft/Rotgath/Brikk greetings, no own quest or current taught rows. Mixed-up duet original; historical instruction not guaranteed current lesson menu.
+    -- Research: docs/research/bengus-tune-and-kyms-pause.md
+    [4258] = {
+        quote = "Aye, that was the end of a different song. I couldn't remember mine, and ye sang yers with conviction. Between us, we've made a terrible tune worth keeping.",
+        likes = { "A learner with a solid foundation", "Good work regardless of who taught it", "A friend willing to sing the wrong ending" },
+        dislikes = { "Fine titles used to cover poor work", "A beginner too proud to ask for help", "Losing the middle of a familiar tune" },
+        gossip = "Bengus and a friend finished two different songs together. Neither would call it music. Both remember their version.",
+        bio = "Bengus Deepforge is an artisan blacksmith at Ironforge's Great Forge. His advice respects a learner's foundation. He names Rotgath as his student and can praise work enough to recommend Brikk Keencraft in Booty Bay.",
+        backstory = "He hummed the start of a tune, then lost the middle. A friend confidently supplied the ending of an entirely different song. Bengus tried to join them. The result was dreadful enough that neither could hear it again without laughing.",
+        secret = "He remembers their muddled version better than the original. Correcting it would mean losing the moment when a friend's confidence proved much greater than their knowledge of the tune.",
+        bestFriend = "Come along, friend. Ye take the ending and I'll attempt the beginning. If we meet somewhere in the middle, we may have improved it.",
+        favorite = {
+            emote = "CHEER",
+            hint = "A hearty cheer can encourage the company even when the tune scarcely deserves it.",
+        },
+        recordingVoice = "dwarf-male",
+        lines = {
+            greet = { { "There ye are! I've remembered the beginning. Have ye remembered the wrong ending? Good. Between us we may yet produce a song nobody else could possibly recognize. I would call that an achievement, though I doubt a musician would be quite so generous.", tone = "[gruff] [amused]" }, "Aye, friend. Have ye come with a question, or are we about to disgrace another perfectly respectable tune?" },
+            idle = { { "I lost the middle of the song. They supplied an ending with tremendous confidence. Wrong song, of course. I tried to follow it anyway. Aye, the result was dreadful. No, I don't particularly want to put our version right.", tone = "[chuckling] [fond]" }, "Good work is good work. If a goblin can teach ye what ye need next, pride is a poor excuse for refusing the lesson.", "A foundation matters. There is no shame in learning what ye need before reaching for work ye cannot yet manage." },
+            befriended = { { "Ye stayed through the part where neither of us knew what we were singing. Better still, ye joined in. I appreciate company willing to sound foolish without making it someone else's fault. Come along, friend. I'll leave the ending to ye again.", tone = "[warm] [amused]" } },
+            poke = { "Aye? Give me a moment to decide whether that was a question or the next verse.", "I heard ye, friend. Speak plainly; we needn't make the conversation as confused as the song." },
+            learned = { { "Give the foundation its due. If someone else can teach ye the next part better, listen to them. Good work does not become worse because the person who showed ye how to do it wasn't the person ye expected.", tone = "[firm] [instructive]" } },
+            gear = { "Look at the work itself before making a speech about the name attached to it. A fine introduction will not mend a poor join." },
+            rest = { "A pause, then. We may attempt the tune again, provided ye promise not to make our version respectable." },
+            newFriend = { "Let them show what they can do before deciding what their name or appearance tells ye about the work." },
+            thanked = { "Aye, ye're welcome. I am pleased it helped. I'll accept the thanks without attempting to sing the answer." },
+            group = { "One beginning would help. If everyone starts a different tune, we may never discover where any of us intended to finish." },
+            cheerAlong = { "Aye! That is considerably more encouragement than the song deserves, but the company has earned every bit of it." },
+        },
+    },
+
+    -- Kym Wildmane, Thunder Bluff Druid Trainer, adult Tauren female2115/M2 986648, Horde Friendly. Three Earth Mother/ancestors/retraining greetings and184 current lessons, no own current quest. Familiar joke and shared pause original; no free spells, reset or later-version70762 imported.
+    -- Research: docs/research/bengus-tune-and-kyms-pause.md
+    [3036] = {
+        quote = "Yes, I know how the joke ends. I am laughing because you still make the same solemn pause before telling it. Knowing what comes next need not spoil the pleasure of hearing you say it.",
+        likes = { "The many paths of the Earth Mother", "A familiar joke told with affection", "A learner willing to begin again" },
+        dislikes = { "A difficult change treated as effortless", "An old joke dismissed before it is told", "Someone ashamed of an unguarded laugh" },
+        gossip = "Kym laughs before a friend's oldest joke is finished. They have tried longer pauses. She knows those too.",
+        bio = "Kym Wildmane teaches druids in Thunder Bluff. She places their training among the paths of the Earth Mother, invokes their ancestors and speaks plainly about the increasing difficulty and expense of retraining.",
+        backstory = "A friend began an old joke with great solemnity. Kym laughed before the ending. On the next visit they held the pause longer. She laughed again. Eventually she admitted that the pause itself had become her favorite part.",
+        secret = "She has no wish to pretend the joke is new. What pleases her is hearing someone familiar try so hard to keep a straight face while waiting for her to laugh.",
+        bestFriend = "Tell it again, friend. I know the ending. I would still like to hear your voice arrive there, if we can both keep from laughing first.",
+        favorite = {
+            emote = "WINK",
+            hint = "A shared wink admits that neither friend needs to be surprised to enjoy the joke.",
+        },
+        recordingVoice = "tauren-female",
+        lines = {
+            greet = { { "There you are, friend. Shall I attempt to keep a straight face this time? I know the joke, and I know the solemn pause you make before its ending. No, that does not mean you should leave it untold. I rather enjoy knowing what we are about to laugh at.", tone = "[warm] [amused]" }, "Welcome back. If you have a question, I will listen. If you have brought the old joke, I shall try to let you finish it." },
+            idle = { { "They made the pause longer the next time. Very solemn. Very determined not to smile. I laughed before the ending again. Eventually I had to admit that I was waiting for the pause as much as the joke. Some pleasures improve with familiarity.", tone = "[gentle] [chuckling]" }, "The Earth Mother's paths are many. A learner deserves careful attention to the path they are trying to understand, rather than an answer given before they have spoken.", "Beginning again can be difficult. A person who admits the need has already done something that pride often prevents." },
+            befriended = { { "You need not surprise me every time we meet, friend. I am glad of the familiar voice, the old joke and the pause that neither of us can quite keep solemn. Come along. There is room for new things without pretending the old pleasures have lost their worth.", tone = "[affectionate] [warm]" } },
+            poke = { "Yes, friend? Is this the pause, or did you mean to ask something?", "A moment. I am trying not to laugh before you have begun." },
+            learned = { { "Allow yourself the effort a change requires. Retraining is not simply declaring that the old habits have gone. Be willing to learn anew, and do not mistake difficulty for proof that you should never have begun.", tone = "[steady] [encouraging]" } },
+            rest = { "We may sit for a while. You can tell the familiar one again; I will make no promises about waiting for the ending." },
+            newFriend = { "Learn what makes them laugh. You need not improve the joke every time you want to share their company." },
+            thanked = { "You are welcome. I am glad you asked instead of struggling in silence until the question seemed too difficult to begin." },
+            laughAlong = { "Yes, I knew that part. I knew I would laugh at it too. Shall we call that a successful telling?" },
+            group = { "Give them room to finish. Unless they have paused to keep from laughing, in which case I understand the difficulty." },
+            zone = { "Here we are. There is something new to notice, and time enough to enjoy the familiar company beside you." },
+        },
+    },
+
     -- Corithras Moonrage, Dolanaar Teldrassil, adult Night Elf male1528/M2 974343, Alliance Friendly. Full Crown of the Earth referral/water/history and Forever continuation reviewed. Literal leaf explanation original; no restored immortality, solved corruption or future retail events.
     -- Research: docs/research/corithras-leaf-and-burgess-map.md
     [3515] = {

@@ -3,20 +3,20 @@
   "completed_profiles": 454,
   "scope": "Fully written authored profiles, including explicitly marked audio-pending additions. completed_profiles retains the count with initial signature recordings; authored_profiles includes text-only profiles. Faction counts cover all authored entries and reflect current public friendly-reaction evidence, not inferred race access. Live faction/reputation/non-attackability checks still apply. City profiles do not establish starter coverage; shared-friendly faction totals overlap.",
   "faction_counts": {
-    "alliance": 392,
+    "alliance": 393,
     "unverified": 183,
-    "horde": 383
+    "horde": 384
   },
   "npc_race_counts": {
     "1": 168,
-    "3": 89,
+    "3": 90,
     "7": 62,
     "2": 100,
     "5": 99,
     "4": 86,
     "9": 67,
     "8": 61,
-    "6": 99,
+    "6": 100,
     "96": 28,
     "95": 50
   },
@@ -30,7 +30,7 @@
     "Duskwood": 4,
     "Dun Morogh": 26,
     "Wetlands": 10,
-    "Ironforge": 63,
+    "Ironforge": 64,
     "Stranglethorn Vale": 9,
     "Tirisfal Glades": 56,
     "Undercity": 21,
@@ -42,7 +42,7 @@
     "Badlands": 1,
     "Darkshore": 15,
     "Mulgore": 26,
-    "Thunder Bluff": 43,
+    "Thunder Bluff": 44,
     "Durotar": 55,
     "The Barrens": 49,
     "Stonetalon Mountains": 15,
@@ -3335,6 +3335,19 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3034"
     },
     {
+      "npc_id": 3036,
+      "name": "Kym Wildmane",
+      "zone": "Thunder Bluff",
+      "race_ids": [
+        6
+      ],
+      "public_friendly_factions": [
+        "horde"
+      ],
+      "reaction_evidence": "Current Horde Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/3036"
+    },
+    {
       "npc_id": 3050,
       "name": "Veren Tallstrider",
       "zone": "Thunder Bluff",
@@ -5713,6 +5726,19 @@
       ],
       "reaction_evidence": "Alliance Friendly explicitly shown",
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4254"
+    },
+    {
+      "npc_id": 4258,
+      "name": "Bengus Deepforge",
+      "zone": "Ironforge",
+      "race_ids": [
+        3
+      ],
+      "public_friendly_factions": [
+        "alliance"
+      ],
+      "reaction_evidence": "Current Alliance Friendly icon",
+      "source_url": "https://forever.warcraftdb.com/api/data/node/npc/4258"
     },
     {
       "npc_id": 4265,
@@ -11666,6 +11692,6 @@
       "source_url": "https://forever.warcraftdb.com/api/data/node/npc/277721"
     }
   ],
-  "authored_profiles": 909,
-  "awaiting_signature_audio_profiles": 455
+  "authored_profiles": 911,
+  "awaiting_signature_audio_profiles": 457
 }
