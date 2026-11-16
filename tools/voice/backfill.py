@@ -3,6 +3,8 @@
 
 One writer only. API credentials and billing responses never enter the repository.
 Default is audit-only; --record explicitly spends the available API credit balance.
+--order takes a JSON list of NPC IDs (tools/voice/lore_order.py) whose own lines
+record first; --reserve leaves that many credits unspent.
 """
 import argparse
 import functools
@@ -51,7 +53,7 @@ def audible(path):
         return False
 
 
-def audit():
+def audit(order=None):
     manifests, valid, owners = {}, {}, {}
     for voice in gen.VOICES:
         path = ROOT / 'voice' / voice / 'manifest.json'
@@ -72,6 +74,10 @@ def audit():
     lua.execute("assert(loadfile([[%s]]))('BuddyDex', NS)" % (ROOT / 'Data' / 'Lore.lua'))
     lore = lua.eval('NS.Lore')
     sources = ['lore:' + str(n) for n in sorted(lore.keys())]
+    if order:
+        # Listed NPCs first, in the list's order; the rest after, by ID.
+        rank = {npc: i for i, npc in enumerate(order)}
+        sources.sort(key=lambda s: (rank.get(int(s[5:]), len(rank)), int(s[5:])))
     for npc, entry in lore.items():
         assigned = entry.recordingVoice
         if assigned:
@@ -113,6 +119,8 @@ def main():
     parser.add_argument('--record', action='store_true')
     parser.add_argument('--state-dir', type=Path, required=True)
     parser.add_argument('--max-clips', type=int, default=0)
+    parser.add_argument('--order', type=Path, help='JSON list of NPC IDs to record first')
+    parser.add_argument('--reserve', type=int, default=0, help='credits to leave unspent')
     args = parser.parse_args()
     args.state_dir.mkdir(parents=True, exist_ok=True)
     # Fail immediately rather than racing another manifest writer. A leftover lock
@@ -121,7 +129,7 @@ def main():
     with lock.open('x') as handle:
         handle.write(str(os.getpid()))
     try:
-        manifests, queue = audit()
+        manifests, queue = audit(json.loads(args.order.read_text()) if args.order else None)
         save(args.state_dir / 'queue.json', queue)
         counts = {}
         for job in queue:
@@ -146,11 +154,13 @@ def main():
                     break
                 if state['made'] % 20 == 0:
                     balance = subscription(key)
-                # Keep an estimated balance between checks; never enable overages.
-                if balance['character_limit'] - balance['character_count'] < len(job['spoken']):
+                # Keep an estimated balance between checks; never enable overages
+                # or spend into the reserve.
+                needed = len(job['spoken']) + args.reserve
+                if balance['character_limit'] - balance['character_count'] < needed:
                     balance = subscription(key)
-                    if balance['character_limit'] - balance['character_count'] < len(job['spoken']):
-                        state['status'] = 'credits_exhausted'
+                    if balance['character_limit'] - balance['character_count'] < needed:
+                        state['status'] = 'reserve_reached' if args.reserve else 'credits_exhausted'
                         break
                 voice = job['voice']
                 name = f"{gen.source_of(job['source'])[2]}{job['moment']}_{job['line']}.ogg"

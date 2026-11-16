@@ -19,6 +19,8 @@ ignore:
   - README.md
   - .venv
   - DEVELOPERS.md
+  - goal.md
+  - decisions.md
   - docs
   - tools
   - voice/*/manifest.json
