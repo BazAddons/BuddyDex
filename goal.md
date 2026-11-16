@@ -17,43 +17,56 @@ Every NPC gets four things, and is covered when it has all of them:
 
 ## Where things stand
 
-Last updated 2026-11-15 23:05 EST, from `tools/voice/coverage.py`.
+Last updated 2026-11-15 23:45 EST. Run `python tools/voice/coverage.py` for the live numbers.
 
 | Part | Done | Left |
 |---|---|---|
-| Profile written | 1,017 NPCs, every part filled in | 534 catalog NPCs (532 unresearched, 2 pending identity research: Daphne Stilwell 6182, Kriggon Talsone 4305) |
-| Personal lines written | 1,017 NPCs, 15,259 lines | the same 534 NPCs |
-| Voice assigned | 1,017 NPCs | the same 534 NPCs |
-| Personal lines recorded | 1,882 of 15,259. 6 NPCs have all of theirs, 448 have some, 563 have none | about 13,400 lines, about 1,355,000 credits |
-| General lines recorded | 12 of 20 voices complete | goblin, orc and troll (both sexes) and tauren female: about 100,000 credits, recording now |
-| **Fully covered** | **6 NPCs** | 1,011 written NPCs, then the 534 unwritten |
+| Profile written | 1,017 NPCs, every part filled in | 505 catalog NPCs that can be written now, plus 29 waiting on a voice (below) |
+| Personal lines written | 1,017 NPCs, 15,259 lines | the same 505 NPCs |
+| Voice assigned | 1,017 NPCs | the same 505 NPCs |
+| Personal lines recorded | 1,882 of 15,259 when the night began; recording now | about 13,400 lines, running overnight |
+| General lines recorded | all 20 voices, 356 lines each | none |
+| **Fully covered** | 6 NPCs when the night began | rises as the overnight run finishes each NPC |
 
 Also done: the Mini Me's 441 lines in both gnome voices. Latest release: v003 on CurseForge (project 1793016); new recordings ship in the next release.
 
 Voices: 20, one male and one female each for gnome, human, dwarf, night elf, Skyborne, Forsaken, tauren, goblin, orc and troll.
 
+**Waiting on a voice: 29 NPCs** (`docs/npc-skipped.json`). Three are Blood Elves, a race with no recorded voice. The other 26 use models the addon cannot match to a race and sex, so it could not play a recorded voice for them even if one were made. Both need the user: a new voice to pick by ear, or a decision to map those models by hand.
+
 ## Credits
 
-- ElevenLabs Pro: 768,162 credits a month, resets Dec 9, 2026. Eleven v4 costs 1 credit per character.
-- 746,787 credits left at 22:55 on Nov 15.
+- ElevenLabs Pro: 768,162 credits a month, resets Dec 9, 2026.
+- **Eleven v4 costs about 0.48 credits per character sent**, measured on tonight's runs (3,548 Horde clips: 145,992 characters for 70,177 credits). The first plan assumed 1 credit per character, so everything costs about half what it estimated.
+- 686,935 credits left at 23:44 on Nov 15.
 - **Reserve: 50,000.** Recording stops before it would dip into this.
-- The whole goal needs roughly 2.2 million credits: about 1.5 million for the recordings still missing above, plus about 700,000 for the personal lines of the 534 profiles still to write. At this plan's rate that is about three months of credits, so the goal finishes around February unless credits are added.
+- What is left to record:
+  - Personal lines of the 1,017 written NPCs: about 1,355,000 characters, about 650,000 credits. This month's credits cover nearly all of it.
+  - Personal lines of the 505 NPCs still to write: about 550,000 characters at the shorter line length the new brief asks for, about 265,000 credits. That fits in December's credits.
+- So the goal can finish in December, not February, as long as the 0.48 rate holds.
 
 ## Recording order
 
 Recordings run from `tools/voice/backfill.py`. It only records lines with no working clip, always in Eleven v4, and checks each clip is real audio before saving it.
 
-1. General friend lines for the 10 Horde voices.
-2. Friends' own lines, in the order players meet them (`tools/voice/lore_order.py`):
+1. General friend lines for the 10 Horde voices. Done Nov 15.
+2. Friends' own lines, in the order players meet them (`tools/voice/lore_order.py`). Running since 23:38 on Nov 15, about 38 clips a minute, so about six hours for all of them:
    1. Zephras Isle, then Elwynn Forest, Dun Morogh, Teldrassil, Durotar, Mulgore, Tirisfal Glades
    2. Stormwind, Orgrimmar, Ironforge, Undercity, Thunder Bluff, Darnassus
    3. Every other zone by the level players reach it
-
-This month's credits should reach about the end of Stormwind. The rest continues after Dec 9 with the same command:
+3. After Dec 9: the new profiles' lines. Regenerate the order file first so they are included:
 
 ```bash
+python tools/voice/lore_order.py C:/Users/brett/BuddyDex-builds/voice-backfill/current/lore-order.json
 python tools/voice/backfill.py --record --order C:/Users/brett/BuddyDex-builds/voice-backfill/current/lore-order.json --reserve 50000 --state-dir C:/Users/brett/BuddyDex-builds/voice-backfill/current
 ```
+
+## Writing the new profiles
+
+- `tools/profiles/research.py` has gathered the game's facts for all 534 unwritten catalog NPCs into digests.
+- Fable 5.2 writes them, chosen by a blind test against Opus 5.5 (11 votes to 4; `docs/research/writer-comparison-2026-11-15/`).
+- `tools/profiles/WRITER.md` is the brief. `tools/profiles/check.py` tests every draft. `tools/profiles/merge.py` adds passing drafts to `Data/Lore.lua` and the tracking files. `tools/profiles/next.py` says who is next.
+- Order: the same as the recordings, starting zones first.
 
 ## Standing rules
 
@@ -74,7 +87,8 @@ While working unattended, I decide everything else and log it in [decisions.md](
 
 ## Next steps
 
-1. Finish the Horde general lines (running).
-2. Record own lines in the order above until the reserve (queued, starts automatically).
-3. Write profiles for the 534 unwritten catalog NPCs, starting zones first, following `docs/LORE.md` and the research-note pattern in `docs/research/`.
-4. After Dec 9: resume recording.
+1. Record personal lines until the reserve (running overnight).
+2. Test the tuned writing brief: old drafts against new, judged blind (running).
+3. Write the 505 profiles in batches; check, merge, commit and push each batch.
+4. After Dec 9: record the new profiles' lines.
+5. With the user: voices or model mapping for the 29 skipped NPCs, then a release.
