@@ -1,0 +1,13 @@
+{
+  "judge": 4, "model": "Opus 5.5", "read_first": "X",
+  "289": {"X": {"hook": 7, "tone": 8, "voice": 8, "facts": 8, "lines": 8}, "Y": {"hook": 8, "tone": 7, "voice": 7, "facts": 8, "lines": 6}, "winner": "X", "why": "X's Eliza secret and its 'anyone alive. Well. Anyone.' best-friend payoff give it the stronger emotional and comic punch, while Y leans on one correction gag in about six lines."},
+  "252800": {"X": {"hook": 7, "tone": 8, "voice": 8, "facts": 7, "lines": 8}, "Y": {"hook": 9, "tone": 8, "voice": 8, "facts": 8, "lines": 7}, "winner": "Y", "why": "Y's construct-given-a-chore hook runs from gossip to secret and pays off with the construct asking the baby's purpose, the most original idea of the two."},
+  "2365": {"X": {"hook": 6, "tone": 7, "voice": 7, "facts": 6, "lines": 7}, "Y": {"hook": 9, "tone": 9, "voice": 8, "facts": 7, "lines": 8}, "winner": "Y", "why": "Y finds the joke in the name itself (recruits saluting a butcher who secretly enjoys it) and carries it through every field, the emote and the lines."},
+  "problems": [
+    "2365 X: invents a shared boyhood history with a real NPC (splitting ice for Hal McAllister's fish cart at fifteen, and Hal still uses the name), and gives Bront mutton-chop whiskers, which his model may contradict.",
+    "2365 Y: invents repeated dealings with a real NPC (Marshal Redpath offering Bront a patrol twice); minor, but it is invented interplay with a named NPC.",
+    "289 X: the Eliza secret relies on the Classic Embalmer chain, which is not in the digest; it is consistent with the game but goes beyond the source both writers shared.",
+    "289 Y: the 'slip, then correct myself' gag appears in about six lines, which is repetitive rather than a rule break.",
+    "252800 X: the 'five stormapples per job' hook rests on quest-reward data that is not in the digest, and the backstory invents local economic history (coin losing value in the lowlands)."
+  ]
+}

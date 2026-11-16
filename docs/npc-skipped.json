@@ -1,0 +1,295 @@
+{
+  "scope": "Catalog NPCs reviewed and left without an entry, with the reason. A skip is not permanent: a new recorded voice or new evidence can bring an NPC back.",
+  "skipped": [
+    {
+      "npc_id": 1481,
+      "name": "Bart Tidewater",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 1992,
+      "name": "Tarindrella",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 2150,
+      "name": "Zenn Foulhoof",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 2766,
+      "name": "Lolo the Lookout",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 3339,
+      "name": "Captain Thalo'thas Brightsun",
+      "race": "Blood Elf",
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 3430,
+      "name": "Mangletooth",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 3659,
+      "name": "Jorb",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 3916,
+      "name": "Shael'dryn",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 3994,
+      "name": "Keeper Albagorm",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 4198,
+      "name": "Braelyn Firehand",
+      "race": "Blood Elf",
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 5498,
+      "name": "Elsharin",
+      "race": "Blood Elf",
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 12144,
+      "name": "Lunaclaw Spirit",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 16227,
+      "name": "Bragok",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 217300,
+      "name": "Skonk",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258130,
+      "name": "Jorel Windsinger",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258134,
+      "name": "Naaleos Leafwhisper",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258135,
+      "name": "Falleeah Gustrunner",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258137,
+      "name": "Telenos Leafwhisper",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258138,
+      "name": "Nayeela Snarlfang",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258239,
+      "name": "Maelgwyn Shadowtale",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258260,
+      "name": "Thylonell Bitterwind",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258275,
+      "name": "Neyasteel Mossmender",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258277,
+      "name": "Bryaes Galechaser",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258279,
+      "name": "Beyaa Gustbellow",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258288,
+      "name": "Mithraless Sterngale",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258289,
+      "name": "Baeo Sharpstrike",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 258295,
+      "name": "Arnorea Shadowfoot",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 273459,
+      "name": "Haal",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    },
+    {
+      "npc_id": 273460,
+      "name": "Meeri",
+      "race": null,
+      "flags": [
+        "no_voice"
+      ],
+      "reason": "No recorded voice for this NPC's race or model yet. A new voice is the user's choice.",
+      "as_of": "2026-11-15"
+    }
+  ]
+}

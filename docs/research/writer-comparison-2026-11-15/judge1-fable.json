@@ -1,0 +1,20 @@
+{
+  "judge": 1, "model": "Fable 5.2", "read_first": "X",
+  "289": {"X": {"hook": 7, "tone": 9, "voice": 8, "facts": 8, "lines": 9}, "Y": {"hook": 9, "tone": 8, "voice": 9, "facts": 9, "lines": 8}, "winner": "Y", "why": "Y's frailty and growing-scarecrow threads pay off from gossip through secret to the best-friend line using only quest facts, while X's funnier, drier lines sit on a looser set whose Eliza secret arrives unprepared."},
+  "252800": {"X": {"hook": 9, "tone": 9, "voice": 9, "facts": 8, "lines": 9}, "Y": {"hook": 8, "tone": 8, "voice": 8, "facts": 6, "lines": 7}, "winner": "X", "why": "X's apples-as-wages hook pays off in every section in her own brisk voice and keeps her news unspoken, while Y states the pregnancy, invents a visible job for the construct and has flatter lines."},
+  "2365": {"X": {"hook": 7, "tone": 8, "voice": 7, "facts": 7, "lines": 8}, "Y": {"hook": 10, "tone": 9, "voice": 9, "facts": 8, "lines": 9}, "winner": "Y", "why": "Y builds the whole entry on the soldierly name with a deadpan voice and a salute payoff in every field, while X's fish-hating butcher is a thinner hook that follows Thor's template."},
+  "problems": [
+    "252800 Y: gossip and backstory say the Malfunctioning Cyclone Construct now carries apple crates, a visible change to another NPC that the game shows malfunctioning and awaiting a windshaper's safety check.",
+    "252800 Y: secret and bestFriend state the pregnancy outright, where the quest only hints and asks to keep it quiet.",
+    "252800 Y: the like 'Flutterfly dust (it scrubs anything)' invents a use the quest leaves at 'household applications'.",
+    "252800 Y: 14 spoken lines against the brief's 15.",
+    "252800 X: the gossip rests on details not in the digest (five Red Delicious Stormapples as the reward, 'big lug', 'stuff and things', Ferauu 'the Bludgeon'), which the judge could not verify.",
+    "252800 X: 'five stormapples' is repeated in gossip and backstory, and the dust joke appears in dislikes, bio and an idle line.",
+    "289 X: the secret names Eliza, who is not in the digest; she is the Embalmer's bride in the Classic chain, so the entry leans on a relationship that chain defines.",
+    "289 X: the backstory's 'nobody in Darkshire can read his notes' sits awkwardly with Sirra Von'Indi translating the note, which X's own facts comment cites.",
+    "289 Y: no factual error found; its claim that Stitches walks 'from behind the shack' is in the facts comment only.",
+    "2365 X: invents a boyhood job under Hal McAllister, a real NPC, and treats the surname as a nickname earned at fifteen; bigger than the 'small, personal things' the brief allows.",
+    "2365 Y: invents Marshal Redpath twice offering Bront a patrol, a small event involving a real NPC.",
+    "2365 X and Y: both contain the identical poke line 'Poke the ham, not the butcher.', both open greet with 'Shop's shut.' and both open combatEnd with 'Clean work.'"
+  ]
+}

@@ -140,7 +140,11 @@ def quest(quest_id, raw):
         return None
     fields = json.loads(data)["data"]
     progress, completion = classic_texts(quest_id, raw) if quest_id < CLASSIC_QUEST_MAX else ("", "")
+    rewards = fields.get("rewards") or {}
+    given = [f"{item.get('quantity') or 1} {item['name']}" for item in rewards.get("items") or [] if item.get("name")]
+    choice = [item["name"] for item in rewards.get("choice_items") or [] if item.get("name")]
     return {
+        "rewards": given, "reward_choices": choice,
         "id": quest_id, "name": fields.get("name"), "level": fields.get("level"),
         "side": fields.get("side"), "zone": fields.get("zone"),
         "starts": text_of(fields.get("starts")), "ends": text_of(fields.get("ends")),
@@ -239,6 +243,11 @@ def brief(d):
         for label in ("objective", "description", "progress", "completion"):
             if q[label]:
                 out.append(f"{label.title()}: {q[label]}")
+        if q.get("rewards") or q.get("reward_choices"):
+            parts = [", ".join(q.get("rewards") or [])]
+            if q.get("reward_choices"):
+                parts.append("a choice of " + ", ".join(q["reward_choices"]))
+            out.append("Rewards: " + "; ".join(part for part in parts if part))
     if d["quests_total"] > len(d["quests"]):
         out += ["", f"({d['quests_total'] - len(d['quests'])} more quests not read.)"]
     if d["sells"]:

@@ -69,6 +69,42 @@ def written():
     return {int(n) for n in re.findall(r"^    \[(\d+)\] = \{", source, re.M)}
 
 
+def spoken():
+    """Every line already written, for anyone: a new friend shouldn't repeat one."""
+    lua = LuaRuntime(unpack_returned_tuples=True)
+    lua.execute("NS = {}")
+    for file in ("Lore.lua", "Lines.lua", "NpcLines.lua"):
+        lua.execute("assert(loadfile(...))('BuddyDex', NS)", str(ROOT / "Data" / file))
+    collect = lua.eval("""function(ns)
+        local seen = {}
+        local function add(piles)
+            for _, pile in pairs(piles or {}) do
+                for _, line in ipairs(pile) do seen[type(line) == 'table' and line[1] or line] = true end
+            end
+        end
+        add(ns.Lines) add(ns.NpcLines)
+        for _, entry in pairs(ns.Lore) do add(entry.lines) end
+        return seen
+    end""")
+    return set(collect(lua.eval("NS")).keys())
+
+
+def words(text):
+    """A line's words, for telling near-copies apart from new lines."""
+    return frozenset(re.findall(r"[a-z']+", text.lower()))
+
+
+def near_copy(text, known):
+    """An existing line that shares most of this one's words, or None."""
+    mine = words(text)
+    if len(mine) < 5:
+        return None
+    for other, theirs in known["word_sets"].items():
+        if len(mine & theirs) / len(mine | theirs) >= 0.7:
+            return other
+    return None
+
+
 def plain(value):
     """A Lua value as Python: tables with only 1..n keys become lists."""
     if hasattr(value, "items"):
@@ -95,6 +131,13 @@ def load(path, npc):
     if keys != [npc]:
         raise ValueError(f"must hold exactly one entry, [{npc}]; found {keys}")
     return plain(table[npc]), source
+
+
+def context():
+    """What every check needs to know about the addon as it stands."""
+    lines = spoken()
+    return {"emotes": emotes(), "moments": moments(), "written": written(), "spoken": lines,
+            "word_sets": {text: words(text) for text in lines if len(words(text)) >= 5}}
 
 
 def check(folder, npc, known):
@@ -200,6 +243,12 @@ def check(folder, npc, known):
             if not isinstance(text, str) or not text.strip():
                 errors.append(f"lines.{moment}: a line needs its text first")
                 continue
+            if text in known.get("spoken", ()):
+                errors.append(f"lines.{moment}: someone already says this exact line: {text[:60]}")
+            elif "word_sets" in known:
+                twin = near_copy(text, known)
+                if twin:
+                    errors.append(f"lines.{moment}: too close to a line someone already says (\"{twin[:60]}\"): {text[:60]}")
             if len(text) > LINE_MAX:
                 errors.append(f"lines.{moment}: {len(text)} characters, {LINE_MAX} at most: {text[:50]}...")
             fills = set(re.findall(r"\{(\w+)\}", text))
@@ -220,10 +269,16 @@ def check(folder, npc, known):
     for moment, least in NEEDED.items():
         if len(piles.get(moment) or []) < least:
             errors.append(f"lines.{moment} needs at least {least}")
-    if not 14 <= count <= 16:
-        errors.append(f"{count} lines of their own; write 15 (14 to 16 pass)")
+    if count != 15:
+        errors.append(f"{count} lines of their own; write exactly 15")
     if toned < 3:
         errors.append("give at least the first greet, the first idle and the befriended line a tone")
+    if not errors and "spoken" in known:
+        for pile in piles.values():
+            for line in pile:
+                text = line if isinstance(line, str) else line.get(1)
+                known["spoken"].add(text)
+                known.setdefault("word_sets", {})[text] = words(text)
     return errors
 
 
@@ -234,7 +289,7 @@ def main():
     folder = Path(sys.argv[1])
     npcs = [int(n) for n in sys.argv[2:]] or sorted(
         {int(p.name.split(".")[0]) for p in folder.iterdir() if p.name.split(".")[0].isdigit()})
-    known = {"emotes": emotes(), "moments": moments(), "written": written()}
+    known = context()
     failed = 0
     for npc in npcs:
         errors = check(folder, npc, known)

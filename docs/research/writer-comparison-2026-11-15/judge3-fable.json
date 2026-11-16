@@ -1,0 +1,23 @@
+{
+  "judge": 3, "model": "Fable 5.2", "read_first": "Y",
+  "289": {"X": {"hook": 7, "tone": 8, "voice": 8, "facts": 7, "lines": 8}, "Y": {"hook": 9, "tone": 8, "voice": 9, "facts": 9, "lines": 8}, "winner": "Y", "why": "Y's feigned-frailty and scarecrow hook runs from gossip to secret to best-friend line on digest facts alone, while X's secret leans on an off-digest character its gossip never sets up."},
+  "252800": {"X": {"hook": 8, "tone": 9, "voice": 9, "facts": 8, "lines": 9}, "Y": {"hook": 9, "tone": 8, "voice": 8, "facts": 7, "lines": 7}, "winner": "X", "why": "Y has the more singular construct hook, but X's apple-wages and 'stranger' motifs carry into sharper, funnier spoken lines that sound like her quest text and keep her news discreet."},
+  "2365": {"X": {"hook": 7, "tone": 8, "voice": 7, "facts": 6, "lines": 8}, "Y": {"hook": 10, "tone": 9, "voice": 9, "facts": 8, "lines": 9}, "winner": "Y", "why": "Y makes the name the hook (a butcher saluted as a veteran who has stopped minding) and pays it off in every section and line, while X needs an invented history with a real NPC and generic fish-hating lines."},
+  "problems": [
+    "289 X: the secret and best-friend line rest on Eliza, who is not in the digest; from memory of the Classic chain (not checked) the player later digs up and kills her in 'Bride of the Embalmer', so \"I'd like you to meet her\" may collide with a quest the player has done.",
+    "289 X: the gossip restates the quest fact (the mayor has never heard of him) and does not set up the secret.",
+    "289 Y: no factual error found; the catch-himself slip is used in about 8 of 15 lines plus the quote.",
+    "252800 Y: 14 spoken lines, with six job lines where the brief asks for seven.",
+    "252800 Y: the secret and best-friend line state the pregnancy outright, imply Alvarion has since been told and look ahead to the child walking, none of which the game has shown.",
+    "252800 Y: the secret says she told the construct \"before she told anyone\" while the best-friend line says the player \"knew first\".",
+    "252800 Y: invents a use for flutterfly dust (\"it scrubs anything\"), and has the construct carrying crates before the windshaper check she asks for in 'Deliver the News'.",
+    "252800 X: the hook depends on facts not in the digest and not verified (four quests paying five Red Delicious Stormapples, \"the big lug\", \"stuff and things\", Ferauu \"the Bludgeon\"); confirm the apple rewards before shipping.",
+    "252800 X: \"coin meant little in the lowlands\" is an invented economic claim.",
+    "252800 X: the dust tease appears in dislikes, bio and an idle line, and \"she will not say\" overstates the digest, where she says it has \"useful household applications\".",
+    "2365 X: invents a long shared history with a real NPC (Hal McAllister employing him at fifteen, a secret the two share) and treats the surname Coldcleave as an earned nickname.",
+    "2365 X: \"Mutton chops (the meal and the whiskers)\" asserts facial hair the in-game model could contradict; not verified.",
+    "2365 X: \"Somewhere a haunch is hanging too long. I can feel it.\" closely mirrors Lympkin's idle lines.",
+    "2365 Y: invents two patrol offers from Marshal Redpath, a real NPC; the turtle joke repeats in dislikes, bio and an idle line.",
+    "2365 X and Y: both drafts contain the identical poke line \"Poke the ham, not the butcher.\""
+  ]
+}

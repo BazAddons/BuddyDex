@@ -94,7 +94,7 @@ def main():
     if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", args.name):
         sys.exit("merge: the batch name is lowercase letters, digits and hyphens")
 
-    known = {"emotes": check.emotes(), "moments": check.moments(), "written": check.written()}
+    known = check.context()
     npcs = sorted({int(p.name.split(".")[0]) for p in folder.iterdir() if p.name.split(".")[0].isdigit()})
     ready, skips = [], []
     for npc in npcs:

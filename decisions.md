@@ -74,3 +74,20 @@ Decisions Claude made while working unattended toward [goal.md](goal.md). Newest
 **D16. Test Fable 5.2 against Opus 5.5 on three NPCs before choosing the writer.** (23:15)
 - The user asked which writes better lines and profiles. Published evidence is thin (one hands-on test favoring Fable for writing), so both models write the same three NPCs from the same digests: Abercrombie (many quests), Aamelia Windfield (new Forever content) and Bront Coldcleave (almost no game data).
 - Both sets are kept in `C:/Users/brett/BuddyDex-builds/profiles-pending/ab/` for the user to read.
+
+**D17. The model comparison is judged blind by five judges.** (23:15; the user asked for a blind test, then for five judges)
+- For each of the three NPCs a coin flip decides which model's draft is shown as X and which as Y. Judges see only the digest and the two drafts.
+- Judges: two Fable, two Opus, one Sonnet. A model can favor its own writing, so the two writers get the same number of same-model judges and Sonnet is the outside vote. Half the judges read X first and half read Y first.
+- Each judge scores hook, tone, voice, faithfulness to the game's facts, and the spoken lines, then picks a winner per NPC.
+
+**D18. Fable 5.2 writes the new profiles.** (23:45; the user agreed: "I think we should use fable but make sure that we tune it properly")
+- Blind test result: Fable 11 votes, Opus 4. Fable won all three NPCs (3-2, 3-2, 5-0) and led on every score. Both Fable judges picked Fable every time, so some of the margin may be judges favoring their own model; without them it is 5-4. The clear case was the NPC with almost no game data, which all five judges gave to Fable, and about 200 of the 505 NPCs left are like that.
+- Cost: Fable took 19 minutes and about twice the tokens of Opus (5 minutes) for the same three drafts.
+- The drafts and all five verdicts are in `docs/research/writer-comparison-2026-11-15/`.
+- Undo: tell me to switch writers. No new profile is recorded before the Dec 9 credit reset, so rewriting costs no ElevenLabs credits.
+
+**D19. Tuned the brief and the checker from the judges' findings, and will test the tuning before the full run.** (23:50)
+- `tools/profiles/WRITER.md` now says: when the game gives almost nothing, the name, title or wares are the hook; the quote must not give away the secret; a running joke may appear in three lines at most; no invented history between real NPCs; what the game only hints at stays a hint; no physical description; outside facts must be linked.
+- The digest now lists quest rewards. One writer built a hook on a reward the judges could not verify from the digest; it turned out to be true.
+- `tools/profiles/check.py` now requires exactly 15 lines and rejects a line that is a near-copy of one another NPC says.
+- Test: Fable rewrites the same three NPCs with the new brief, plus three NPCs with thin data. Five blind judges compare old against new.

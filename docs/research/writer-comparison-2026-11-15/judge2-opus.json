@@ -1,0 +1,14 @@
+{
+  "judge": 2, "model": "Opus 5.5", "read_first": "Y",
+  "289": {"X": {"hook": 8, "tone": 8, "voice": 9, "facts": 7, "lines": 9}, "Y": {"hook": 8, "tone": 9, "voice": 8, "facts": 9, "lines": 8}, "winner": "X", "why": "Both are strong, but X's lines are sharper and more varied, and its Eliza secret comes from his own quest chain, while Y repeats its slip gag and its quote gives the secret away."},
+  "252800": {"X": {"hook": 9, "tone": 9, "voice": 9, "facts": 8, "lines": 9}, "Y": {"hook": 8, "tone": 8, "voice": 8, "facts": 8, "lines": 7}, "winner": "X", "why": "X's five-stormapple wages hook is unique to her, runs through every section and pays off in a charming secret, in a voice that matches her quest text exactly."},
+  "2365": {"X": {"hook": 7, "tone": 8, "voice": 7, "facts": 7, "lines": 7}, "Y": {"hook": 9, "tone": 9, "voice": 8, "facts": 8, "lines": 9}, "winner": "Y", "why": "Y's mistaken-for-a-soldier hook is fresher and funnier, and it pays off cleanly from gossip to a saluteBack line, while X's false-legend shape is more familiar."},
+  "problems": [
+    "289 Y: the quote ('A marvelous arrangement. A hard life, I mean!') gives away the Good Friend secret (the frailty is an act) at the Acquaintance tier.",
+    "289 X: the secret relies on Eliza from the wider Classic chain, which is not in the digest; it is consistent with the lore but darker than the 'harmless and charming' secret rule.",
+    "252800 Y: invents a specific use for flutterfly dust ('it scrubs anything') and a public event (the construct seen carrying crates); both are minor.",
+    "252800 X: says she will not explain the flutterfly dust, while her quest text does say it has 'useful household applications'; vague enough to be minor.",
+    "2365 Y: invents Marshal Redpath twice offering Bront a patrol, an interaction with a real NPC.",
+    "2365 X: invents a shared private past with Hal McAllister (Bront splitting ice for his fish cart at fifteen), a relationship with a real NPC the game could contradict."
+  ]
+}
