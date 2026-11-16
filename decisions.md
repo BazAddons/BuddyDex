@@ -46,14 +46,31 @@ Decisions Claude made while working unattended toward [goal.md](goal.md). Newest
 - Added `tools/voice/coverage.py` to report all four parts per NPC, so progress is measured the same way every time.
 - Undo: edit the definition in goal.md.
 
-**D11. Commit as I go and push commits to GitHub. Never push a tag.** (23:15)
+**D11. Commit as I go and push commits to GitHub. Never push a tag.** (23:05)
 - Why: the user said "Do whatever you think is best, just dont push to CF unless I say". Commits protect the night's work, and a push keeps a copy off this PC. The CurseForge upload only runs when a tag is pushed or the release workflow is started by hand with upload on (checked in `.github/workflows/release.yml`), so pushing commits to `main` cannot publish anything.
 - Undo: `git revert` any commit; nothing is published.
 
-**D12. Committed the earlier session's voice audition work as its own commit.** (23:15)
+**D12. Committed the earlier session's voice audition work as its own commit.** (23:05)
 - `tools/voice/design.py`, `tools/voice/remix.py` and `docs/research/remaining-voice-auditions.md` had been sitting uncommitted since Nov 9. I did not change them.
 - Why: they record how the tauren and goblin voices were chosen, and uncommitted they existed only on this PC.
 - Undo: `git revert` that commit.
 
-**D13. Write new profiles while the recordings run.** (23:15)
+**D13. Write new profiles while the recordings run.** (23:05)
 - `docs/LORE.md` says to finish the audio backlog before more profiles. Recording now runs unattended and is limited by credits, not by my time, so writing profiles does not slow it down.
+
+**D14. New profiles are drafted from a fact digest, checked by a script, then merged.** (23:15)
+- `tools/profiles/research.py` gathers what the game says about each NPC (Warcraft DB's Forever data, plus classicdb.ch quest text). `tools/profiles/WRITER.md` is the writing brief. `tools/profiles/check.py` tests every draft against the page budget and the recorder's needs. `tools/profiles/merge.py` adds passing drafts to `Data/Lore.lua` and the tracking files, then runs the smoke tests and undoes everything if they fail.
+- Why: the earlier profiles were researched and merged by hand two at a time. With 534 to go, the facts and the checks need to be the same every time.
+- Differences from the earlier profiles, on purpose:
+  - The brief asks for the tone of the two original examples in `docs/LORE.md` (Thor and Lympkin): short, warm, a little funny, one hook. The later profiles drifted toward long, earnest lines.
+  - Lines are capped at 140 characters and aimed under 80. Shorter lines suit a chat bubble and cost fewer recording credits.
+  - One research note and one changelog line per batch, not per pair of NPCs.
+  - An NPC that should not get an entry is listed in `docs/npc-skipped.json` with the reason.
+- Undo: `git revert` the batch commit; each batch is one commit.
+
+**D15. NPCs whose race has no recorded voice are skipped for now.** (23:15)
+- Why: the recorder stops on a profile without an approved voice, and choosing a new voice is the user's call. They are listed in `docs/npc-skipped.json` so they can be written once a voice exists.
+
+**D16. Test Fable 5.2 against Opus 5.5 on three NPCs before choosing the writer.** (23:15)
+- The user asked which writes better lines and profiles. Published evidence is thin (one hands-on test favoring Fable for writing), so both models write the same three NPCs from the same digests: Abercrombie (many quests), Aamelia Windfield (new Forever content) and Bront Coldcleave (almost no game data).
+- Both sets are kept in `C:/Users/brett/BuddyDex-builds/profiles-pending/ab/` for the user to read.
